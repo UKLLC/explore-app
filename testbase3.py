@@ -6,14 +6,15 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import pandas as pd
-import read_data_request
 from dash import Dash, Input, Output, callback, dash_table
 
-app = dash.Dash(external_stylesheets=["https://ukllc.ac.uk/assets/css/bootstrap.min.css?v=1650990372"])
-
+from app_state import App_State
+import read_data_request
 
 ###########################################
 ### Styles
+ 
+app = dash.Dash(external_stylesheets=["https://ukllc.ac.uk/assets/css/bootstrap.min.css?v=1650990372"])
 TITLEBAR_STYLE = {
     "position": "fixed",
     "top": 0,
@@ -73,7 +74,7 @@ def get_study_tables(schema):
 
 DATA_DESC_COLS = ["Timepoint: Data Collected","Timepoint: Keyword","Number of Participants Invited (n=)","Number of Participants Included (n=)","Block Description","Links"]
 
-
+app_state = App_State()
 ##########################################
 
 ###########################################
@@ -85,6 +86,7 @@ def single_col_table(df, id):
             id=id,
             data=df.to_dict('records'),
             editable=False,
+            
             column_selectable="single",
             row_selectable=False,
             row_deletable=False,
@@ -95,6 +97,7 @@ def quick_table(df, id):
     return dash_table.DataTable(
             id=id,
             data=df.to_dict('records'),
+            columns=[{"name": i, "id": i} for i in df.columns], 
             editable=False,
             row_selectable=False,
             row_deletable=False,
@@ -122,7 +125,7 @@ sidebar = html.Div([
         ],
         style=SIDEBAR_STYLE,)
 
-maindiv = html.Center(html.Div(
+maindiv = html.Div(
     id="body",
     children=[
         # first row
@@ -147,7 +150,7 @@ maindiv = html.Center(html.Div(
                 html.Div([
                 ], id = "description_text2"),
             ],
-            style=BOX_STYLE,
+            style= BOX_STYLE,
             id="description_div"
             ),
         ],
@@ -171,7 +174,7 @@ maindiv = html.Center(html.Div(
                 html.Hr(),
                 html.Div([
                 html.P("Values list...")
-                ], id = "values text"),
+                ], id = "values_text"),
             ],
             style=BOX_STYLE
             )
@@ -180,7 +183,7 @@ maindiv = html.Center(html.Div(
         style = ROW_STYLE)
     ],
     style=CONTENT_STYLE
-    ))
+    )
 
 ###########################################
 
@@ -202,9 +205,9 @@ def update_tables_table(input_value):
             schema_info = "TODO table of nhsd"
             return schema_info
         else:
-
-            study_tables = get_study_tables(schema)[["Block Name"]]
-            return single_col_table(study_tables, id = "tables_table")
+            tables_df = get_study_tables(schema)[["Block Name"]]
+            app_state.set_tables_df(tables_df)
+            return single_col_table(tables_df, id = "tables_table")
     else:
         return "Select a schema..."
         
@@ -234,18 +237,18 @@ def update_schema_description(input_value):
 def update_table_description(sidebar_in, tables_in):
     if sidebar_in and tables_in:
         schema = sidebar_df.iloc[sidebar_in["row"]].values[0]
-        study_tables = get_study_tables(schema)[DATA_DESC_COLS]
-        table_row = study_tables.iloc[tables_in["row"]]
+        table_row = get_study_tables(schema).iloc[tables_in["row"]]
         if schema == "NHSD":
             schema_info = "Generic info about nhsd table"
             return schema_info
         else:
             schema_info = "Generic info about {}".format(schema)
-            out_text = [html.Hr()]
+            out_text = []
             for col in DATA_DESC_COLS:
-                print(col, table_row[col])
-                out_text.append(html.P("{}: {}\n".format(col, table_row[col])))
-            return out_text
+                out_text.append(html.B("{}:".format(col)))
+                out_text.append(" {}".format(table_row[col]))
+                out_text.append(html.Br())
+            return [html.Hr(), html.P(out_text)]
     else:
         return 
 
@@ -255,17 +258,40 @@ def update_table_description(sidebar_in, tables_in):
     Input('sidebar_table', "active_cell"),
     Input('tables_table', "active_cell")
 )
-def update_table_description(sidebar_in, tables_in):
+def update_table_variables(sidebar_in, tables_in):
     if sidebar_in and tables_in:
         schema = sidebar_df.iloc[sidebar_in["row"]].values[0]
-        table = get_study_tables(schema).iloc[tables_in["row"]].values[0]
         if schema == "NHSD":
             schema_info = "variables for nhsd"
             return schema_info
         else:
-            table = get_study_tables(schema).iloc[tables_in["row"]]["Block Name"]
-            descs = pd.read_csv("metadata\\{}\\{}_description.csv".format(schema,table))[["variable_name", "variable_label"]]
-            return quick_table(descs, "variables_table")
+            table = app_state.get_tables_df().iloc[tables_in["row"]]["Block Name"]
+            descs_df = pd.read_csv("metadata\\{}\\{}_description.csv".format(schema,table))[["variable_name", "variable_label"]]
+            app_state.set_descs_df(descs_df)
+            return quick_table(descs_df, "variables_table")
+    else:
+        return 
+
+
+@app.callback(
+    Output('values_text', "children"),
+    Input('sidebar_table', "active_cell"),
+    Input('tables_table', "active_cell"),
+    Input('variables_table', "active_cell")
+)
+def update_variables_values(sidebar_in, tables_in, variable_in):
+    if sidebar_in and tables_in and variable_in:
+        schema = sidebar_df.iloc[sidebar_in["row"]].values[0]
+        table = app_state.get_tables_df().iloc[tables_in["row"]].values[0]
+        variable = app_state.get_descs_df().iloc[variable_in["row"]].values[0]
+        
+        full_vals_df = pd.read_csv("metadata\\{}\\{}_values.csv".format(schema,table))[["variable_name", "value_value", "value_label"]]
+        vals_df = full_vals_df.loc[full_vals_df["variable_name"] == variable].drop(columns = ["variable_name"])
+        app_state.set_vals_df(vals_df)
+        if len(vals_df) > 0:
+            return quick_table(vals_df, "values_table")
+        else:
+            return "No values available for {}.{}: {}".format(schema, table, variable)
     else:
         return 
 
