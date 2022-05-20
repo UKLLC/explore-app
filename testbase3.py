@@ -1,6 +1,5 @@
 # sidebar.py
 from os import read
-from cv2 import line
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc
@@ -69,6 +68,8 @@ request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesfor
 study_df = read_data_request.load_study_request()
 linked_df = read_data_request.load_linked_request()
 schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
+study_info_and_links_df = read_data_request.load_study_info_and_links()
+
 
 def get_study_tables(schema):
     return study_df.loc[study_df["Study"] == schema]
@@ -262,11 +263,18 @@ def update_tables_table(input_value):
 def update_schema_description(input_value):
     if input_value:
         schema = schema_df.iloc[input_value["row"]].values[0]
+        schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"]].values
+        print(schema_info)
         if schema == "NHSD":
             schema_info = "Generic info about nhsd"
             return schema_info
         else:
-            schema_info = "Generic info about {}".format(schema)
+            out_text = []
+            for col in schema_info.columns:
+                out_text.append(html.B("{}:".format(col)))
+                out_text.append(" {}".format(schema_info[col]))
+                out_text.append(html.Br())
+            return [html.Hr(), html.P(out_text)]
             
             return html.P("TODO find source of general information about {}".format(schema))
     else:
@@ -285,7 +293,6 @@ def update_table_description(sidebar_in, tables_in):
             schema_info = "Generic info about nhsd table"
             return schema_info
         else:
-            schema_info = "Generic info about {}".format(schema)
             out_text = []
             for col in DATA_DESC_COLS:
                 out_text.append(html.B("{}:".format(col)))
