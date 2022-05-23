@@ -20,5 +20,5 @@ def load_linked_request():
 def load_study_info_and_links():
     '''
     '''
-    sheet_df = pd.read_excel("Data Request Form.xlsx", sheet_name="Study info & links", usecols = "B,C,D,E,F,G,H,I,J" )
+    sheet_df = pd.read_excel("Data Request Form.xlsx", sheet_name="Study info & links", skiprows=1, usecols = "B,C,D,E,F,G,H,I,J" )
     return sheet_df

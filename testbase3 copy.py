@@ -1,14 +1,12 @@
 # sidebar.py
 from os import read
-from re import S
-from sre_parse import State
 import dash
 import dash_bootstrap_components as dbc
-from dash import dcc
-from dash import html
+import dash_core_components as dcc
+import dash_html_components as html
 from dash.dependencies import Input, Output
 import pandas as pd
-from dash import Dash, Input, Output, State, callback, dash_table, ALL
+from dash import Dash, Input, Output, callback, dash_table
 
 from app_state import App_State
 import read_data_request
@@ -69,9 +67,7 @@ request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesfor
 # request url doesn't work just yet
 study_df = read_data_request.load_study_request()
 linked_df = read_data_request.load_linked_request()
-schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
-study_info_and_links_df = read_data_request.load_study_info_and_links()
-
+sidebar_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
 
 def get_study_tables(schema):
     return study_df.loc[study_df["Study"] == schema]
@@ -110,39 +106,24 @@ def quick_table(df, id):
             'maxWidth': 0},
             )
 
-def make_sidebar():
-    sidebar_children = []
-    schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
-    for i, row in schema_df.iterrows():
-        schema = row["Data Directory"]
-
-        tables = get_study_tables(schema)["Block Name"]
-
-        schema_children = dbc.Collapse(html.Div([html.Ul(id = schema+"_tables_list",
-        children = [html.Div([
-            html.Li(table, style={"border":"dotted"})],id={
-            'type': 'sidebar_table_item',
-            "value":schema+"-"+table
-        }) for table in tables],
-        style = {"list-style-type":"none", "margin-left": "0.5rem", "padding": 0})],)
-        , id={
-            'type': 'schema_collapse',
-            'index': i
-        },
-        style={"border":"dotted"},
-        is_open=False)
-
-        sidebar_children += [html.Div([html.Li(schema)], id={
-            'type': 'schema_item',
-            'index': i
-        },
-        style={"border":"dotted", "padding": "0.25rem"})] + [schema_children]
-    return html.Ul(sidebar_children, style = {"list-style-type":"none", "margin": 0, "padding": 0})
-
 sidebar = html.Div([
-        make_sidebar()],
-        style =SIDEBAR_STYLE,
-        id = "sidebar_div")
+        dash_table.DataTable(
+        id='sidebar_table',
+        data=sidebar_df.to_dict('records'),
+        editable=False,
+        column_selectable="single",
+        row_selectable=False,
+        row_deletable=False,
+        style_cell={'textAlign': 'left'},
+        
+        style_header={
+        'textAlign': 'center',
+        'fontWeight': 'bold',
+        "font-size": 26,
+        "padding": "1rem 1rem"},
+        ),
+        ],
+        style=SIDEBAR_STYLE,)
 
 maindiv = html.Div(
     id="body",
@@ -204,102 +185,47 @@ maindiv = html.Div(
     style=CONTENT_STYLE
     )
 
-
-schema_record = html.Div([],id = {"type":"active_schema", "content":"None"})
-table_record = html.Div([], id = {"type":"active_table", "content":"None"})
-
 ###########################################
 
 ###########################################
 ### Layout
-app.layout = html.Div([titlebar, sidebar, maindiv, schema_record, table_record])
+app.layout = html.Div([titlebar, sidebar, maindiv])
 ###########################################
 
 ###########################################
 ### Actions
-
-
-@app.callback(
-    Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
-    Output({'type': 'active_schema', 'content': ALL}, 'id'),
-    Input({'type': 'active_schema', 'content': ALL}, 'id'),
-    Input({'type': 'schema_item', 'index': ALL}, 'n_clicks'),
-    State({"type": "schema_collapse", "index" : ALL}, "is_open"),
-)
-def sidebar_collapse(current_schema, values, collapse):
-
-    schema = current_schema[0]["content"]
-    for (i, value) in enumerate(values):
-        if value == None: 
-            app_state.set_sidebar_clicks(i, 0)
-        else:
-            stored = app_state.get_sidebar_clicks(i)
-            if stored != value:
-                collapse[i] = not collapse[i]
-                if collapse[i]:
-                    schema = schema_df["Data Directory"].iloc[i]
-                    print("opened", schema)
-                print("Action on index {}, schema {}. Stored {}, current {}".format(i, schema, stored, value))
-
-            app_state.set_sidebar_clicks(i, value)
-    print(schema)
-
-    return collapse, [{"type":"active_schema", "content":schema}]
-
-
 @app.callback(
     Output('tables_text', "children"),
-    Input({'type': 'sidebar_table_item', "value":ALL}, 'n_clicks'),
-    Input({'type': 'sidebar_table_item', "value":ALL}, 'id'),
+    Input('sidebar_table', "active_cell") # item in sidebar table
 )
-def update_tables_table(table_nclicks, table_values):
-
-    nclick_dict = {}
-    for clicks, id in zip(table_nclicks, table_values):
-        nclick_dict[id["value"]] = clicks
-
-    for key, value in nclick_dict.items():
-        schema = key.split("-")[0]
-        table = key.split("-")[1:]
-        if value == None: 
-            app_state.set_sidebar_clicks(key, 0)
+def update_tables_table(input_value):
+    if input_value:
+        schema = sidebar_df.iloc[input_value["row"]].values[0]
+        if schema == "NHSD":
+            schema_info = "TODO table of nhsd"
+            return schema_info
         else:
-            stored = app_state.get_sidebar_clicks(key)
-            app_state.set_sidebar_clicks(key, value)
-            if stored != value:
-                print("Action on table {}. Stored {}, current {}".format(key, schema, stored, value))
-                if schema == "nhsd":
-                    return "TODO: NHSD branch"
-                else:
-                    tables_df = get_study_tables(schema)[["Block Name"]]
-                    app_state.set_tables_df(tables_df)
-                    return single_col_table(tables_df, id = "tables_table")
-
-
+            tables_df = get_study_tables(schema)[["Block Name"]]
+            app_state.set_tables_df(tables_df)
+            return single_col_table(tables_df, id = "tables_table")
+    else:
+        return "Select a schema..."
         
 
 @app.callback(
     Output('description_text1', "children"),
-    Input({'type': 'active_schema', 'content': ALL}, 'id'),
+    Input('sidebar_table', "active_cell")
 )
-def update_schema_description(schema):
-    print("ACTIVE SCHEMA:",schema)
-    schema = schema[0]["content"]
-    if schema != "None":
-        print(study_info_and_links_df)
-        schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
-        print(schema_info)
+def update_schema_description(input_value):
+    if input_value:
+        schema = sidebar_df.iloc[input_value["row"]].values[0]
         if schema == "NHSD":
             schema_info = "Generic info about nhsd"
             return schema_info
         else:
-            out_text = []
-            for col in schema_info.columns:
-                out_text.append(html.B("{}:".format(col)))
-                out_text.append(" {}".format(schema_info[col].values[0]))
-                out_text.append(html.Br())
-            return [html.Hr(), html.P(out_text)]
-
+            schema_info = "Generic info about {}".format(schema)
+            
+            return html.P("TODO find source of general information about {}".format(schema))
     else:
         return "Select a schema or table for more information..."
 
@@ -310,12 +236,13 @@ def update_schema_description(schema):
 )
 def update_table_description(sidebar_in, tables_in):
     if sidebar_in and tables_in:
-        schema = schema_df.iloc[sidebar_in["row"]].values[0]
+        schema = sidebar_df.iloc[sidebar_in["row"]].values[0]
         table_row = get_study_tables(schema).iloc[tables_in["row"]]
         if schema == "NHSD":
             schema_info = "Generic info about nhsd table"
             return schema_info
         else:
+            schema_info = "Generic info about {}".format(schema)
             out_text = []
             for col in DATA_DESC_COLS:
                 out_text.append(html.B("{}:".format(col)))
@@ -333,7 +260,7 @@ def update_table_description(sidebar_in, tables_in):
 )
 def update_table_variables(sidebar_in, tables_in):
     if sidebar_in and tables_in:
-        schema = schema.iloc[sidebar_in["row"]].values[0]
+        schema = sidebar_df.iloc[sidebar_in["row"]].values[0]
         if schema == "NHSD":
             schema_info = "variables for nhsd"
             return schema_info
@@ -354,7 +281,7 @@ def update_table_variables(sidebar_in, tables_in):
 )
 def update_variables_values(sidebar_in, tables_in, variable_in):
     if sidebar_in and tables_in and variable_in:
-        schema = schema_df.iloc[sidebar_in["row"]].values[0]
+        schema = sidebar_df.iloc[sidebar_in["row"]].values[0]
         table = app_state.get_tables_df().iloc[tables_in["row"]].values[0]
         variable = app_state.get_descs_df().iloc[variable_in["row"]].values[0]
         
