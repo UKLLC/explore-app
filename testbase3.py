@@ -1,7 +1,6 @@
 # sidebar.py
 from os import read
 from re import S
-from sre_parse import State
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc
@@ -29,38 +28,68 @@ TITLEBAR_STYLE = {
     "textAlign":"center",
     "zIndex":1
 }
-SIDEBAR_STYLE = {
+SIDEBAR_LEFT_STYLE = {
     "position": "fixed",
     "top": "5rem",
     "left": 0,
     "bottom": 0,
-    "width": "16rem",
+    "width":"15%",
     "overflow": "scroll",
+    "padding": "0.25rem",
+    "border":"dotted",
+    "border-color":"red"
 }
-BOX_STYLE = {
-    "width": "45%",
-    "height": "20rem",
-    "min-width": "25rem",
-    "background-color": "#f8f9fa",
-    "overflow": "scroll",
-    "margin-top": "1rem",
-    "margin-bottom":"0rem",
-    "margin-left":"1rem",
-    "margin-right":"1rem",
-    "display":"inline-block",
-    "zIndex":0
+SIDEBAR_RIGHT_STYLE = {
+    "float":"right",
+    "position": "fixed",
+    "top": "5rem",
+    "right": 0,
+    "bottom": 0,
+    "width": "20%",
+    "overflow": "auto",
+    "padding": "0.25rem" ,
+    "border":"dotted",
+    "border-color":"blue"
 }
-ROW_STYLE = {
-    "height": "100%",
-}
+SCHEMA_LIST_STYLE = {
+    "list-style-type":"none",
+    "margin-top":"0.25rem",
+    "margin-bottom":"0.25rem",
+    "padding": 0,
+    "border-bottom": "solid",
+    
+    }
+SCHEMA_LIST_ITEM_STYLE = {
+    "padding": "0.25rem",
+    "border-top":"solid"}
+COLLAPSE_DIV_STYLE = {
+    "list-style-type":"none", 
+    "margin-left": "0.5rem", 
+    "margin-top":"0.25rem",
+    "margin-bottom":"0.25rem", 
+    "padding": 0,
+    "border-top":"solid",
+    "border-color" : "green"}
+TABLE_LIST_STYLE = {
+    "border-top":"solid",
+    "padding": "0.25rem",
+    "border-color" : "blue"
+
+    }
+TABLE_LIST_ITEM_STYLE = {
+    "border-bottom":"solid",
+    "border-color" : "red"
+    }
 CONTENT_STYLE = {
     "position": "relative",
     "top": "5rem",
-    "margin-left": "15rem",
-
+    "left":"15%",
+    "width":"65%",
     "height": "100%",
-
+    "border":"dotted",
+    "border-color":"green",
 }
+
 ###########################################
 
 ###########################################
@@ -120,90 +149,47 @@ def make_sidebar():
 
         schema_children = dbc.Collapse(html.Div([html.Ul(id = schema+"_tables_list",
         children = [html.Div([
-            html.Li(table, style={"border":"dotted"})],id={
+            html.Li(table, style=TABLE_LIST_ITEM_STYLE)],id={
             'type': 'sidebar_table_item',
             "value":schema+"-"+table
         }) for table in tables],
-        style = {"list-style-type":"none", "margin-left": "0.5rem", "padding": 0})],)
+        style = COLLAPSE_DIV_STYLE)],)
         , id={
             'type': 'schema_collapse',
             'index': i
         },
-        style={"border":"dotted"},
+        style=TABLE_LIST_STYLE,
         is_open=False)
 
         sidebar_children += [html.Div([html.Li(schema)], id={
             'type': 'schema_item',
             'index': i
         },
-        style={"border":"dotted", "padding": "0.25rem"})] + [schema_children]
-    return html.Ul(sidebar_children, style = {"list-style-type":"none", "margin": 0, "padding": 0})
+        style=SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
+    return html.Ul(sidebar_children, style = SCHEMA_LIST_STYLE)
 
-sidebar = html.Div([
+sidebar_left = html.Div([
         make_sidebar()],
-        style =SIDEBAR_STYLE,
-        id = "sidebar_div")
+        style =SIDEBAR_LEFT_STYLE,
+        id = "sidebar_left_div")
+
+sidebar_right = html.Div([
+        html.H2("Descriptions"),
+        html.Hr(),
+        html.Div([html.P("Select a schema...", id = "schema_description_text")], id = "schema_description_div"),
+        html.Hr(),
+        html.Div([html.P("Select a schema...", id = "table_description_text")], id = "table_description_div")
+    ],
+    style = SIDEBAR_RIGHT_STYLE,
+    id = "sidebar_right_div"
+
+)
 
 maindiv = html.Div(
+    [],
     id="body",
-    children=[
-        # first row
-        html.Div([
-            html.Div([
-                html.H2("Tables"),
-                html.Hr(),
-                html.Div([
-                html.P("Table list")
-                ], id = "tables_text"),
-            ],
-            style=BOX_STYLE,
-            id="tables_div"
-            ),
-
-            html.Div([
-                html.H2("Description"),
-                html.Hr(),
-                html.Div([
-                html.P("Select a schema...")
-                ], id = "description_text1"),
-                html.Div([
-                ], id = "description_text2"),
-            ],
-            style= BOX_STYLE,
-            id="description_div"
-            ),
-        ],
-        id = "row1",
-        style = ROW_STYLE
-        ),
-
-        # second row
-        html.Div([
-            html.Div([
-                html.H2("Variables"),
-                html.Hr(),
-                html.Div([
-                html.P("Variables list...")
-                ], id = "variables_text"),
-            ],
-            style=BOX_STYLE
-            ),
-            html.Div([
-                html.H2("Values"),
-                html.Hr(),
-                html.Div([
-                html.P("Values list...")
-                ], id = "values_text"),
-            ],
-            style=BOX_STYLE
-            )
-            ],
-        id = "row2",
-        style = ROW_STYLE)
-    ],
-    style=CONTENT_STYLE
+    
     )
-
 
 schema_record = html.Div([],id = {"type":"active_schema", "content":"None"})
 table_record = html.Div([], id = {"type":"active_table", "content":"None"})
@@ -212,12 +198,11 @@ table_record = html.Div([], id = {"type":"active_table", "content":"None"})
 
 ###########################################
 ### Layout
-app.layout = html.Div([titlebar, sidebar, maindiv, schema_record, table_record])
+app.layout = html.Div([titlebar, sidebar_left, maindiv, sidebar_right, schema_record, table_record]) 
 ###########################################
 
 ###########################################
 ### Actions
-
 
 @app.callback(
     Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
@@ -227,7 +212,6 @@ app.layout = html.Div([titlebar, sidebar, maindiv, schema_record, table_record])
     State({"type": "schema_collapse", "index" : ALL}, "is_open"),
 )
 def sidebar_collapse(current_schema, values, collapse):
-
     schema = current_schema[0]["content"]
     for (i, value) in enumerate(values):
         if value == None: 
@@ -238,57 +222,47 @@ def sidebar_collapse(current_schema, values, collapse):
                 collapse[i] = not collapse[i]
                 if collapse[i]:
                     schema = schema_df["Data Directory"].iloc[i]
-                    print("opened", schema)
                 print("Action on index {}, schema {}. Stored {}, current {}".format(i, schema, stored, value))
 
             app_state.set_sidebar_clicks(i, value)
-    print(schema)
 
     return collapse, [{"type":"active_schema", "content":schema}]
 
 
 @app.callback(
-    Output('tables_text', "children"),
+    #Output({'type': 'active_table', 'content': ALL}, 'id'),
+    Output({'type': 'active_schema', 'content': ALL}, 'id'),
     Input({'type': 'sidebar_table_item', "value":ALL}, 'n_clicks'),
     Input({'type': 'sidebar_table_item', "value":ALL}, 'id'),
 )
-def update_tables_table(table_nclicks, table_values):
-
+def update_selected(table_nclicks, table_values):
     nclick_dict = {}
     for clicks, id in zip(table_nclicks, table_values):
         nclick_dict[id["value"]] = clicks
 
     for key, value in nclick_dict.items():
         schema = key.split("-")[0]
-        table = key.split("-")[1:]
+        table = key.split("-")[1:][0]
         if value == None: 
             app_state.set_sidebar_clicks(key, 0)
         else:
             stored = app_state.get_sidebar_clicks(key)
             app_state.set_sidebar_clicks(key, value)
             if stored != value:
-                print("Action on table {}. Stored {}, current {}".format(key, schema, stored, value))
-                if schema == "nhsd":
-                    return "TODO: NHSD branch"
-                else:
-                    tables_df = get_study_tables(schema)[["Block Name"]]
-                    app_state.set_tables_df(tables_df)
-                    return single_col_table(tables_df, id = "tables_table")
+                print("Action on table {}. Stored {}, current {}".format(key, stored, value))
+                return [{"type":"active_table", "content":schema}]#, [{"type":"active_table", "content":schema}]
+    # If no click, return Nones
+    return [{"type":"active_table", "content":"None"}]#, [{"type":"active_table", "content":"None"}]
 
-
-        
 
 @app.callback(
-    Output('description_text1', "children"),
+    Output('schema_description_text', "children"),
     Input({'type': 'active_schema', 'content': ALL}, 'id'),
 )
 def update_schema_description(schema):
-    print("ACTIVE SCHEMA:",schema)
     schema = schema[0]["content"]
     if schema != "None":
-        print(study_info_and_links_df)
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
-        print(schema_info)
         if schema == "NHSD":
             schema_info = "Generic info about nhsd"
             return schema_info
@@ -304,14 +278,16 @@ def update_schema_description(schema):
         return "Select a schema or table for more information..."
 
 @app.callback(
-    Output('description_text2', "children"),
-    Input('sidebar_table', "active_cell"),
-    Input('tables_table', "active_cell")
+    Output('table_description_text', "children"),
+    Input({'type': 'active_schema', 'content': ALL}, 'id'),
+    Input({'type': 'active_table', 'content': ALL}, 'id'),
 )
-def update_table_description(sidebar_in, tables_in):
-    if sidebar_in and tables_in:
-        schema = schema_df.iloc[sidebar_in["row"]].values[0]
-        table_row = get_study_tables(schema).iloc[tables_in["row"]]
+def update_table_description(schema, table):
+    schema = schema[0]["content"]
+    table = (table[0]["content"]).replace(schema+"_","")
+    if schema != "None" and table != "None":
+        tables = get_study_tables(schema)
+        table_row = tables.loc[tables["Block Name"] == table]
         if schema == "NHSD":
             schema_info = "Generic info about nhsd table"
             return schema_info
@@ -319,73 +295,11 @@ def update_table_description(sidebar_in, tables_in):
             out_text = []
             for col in DATA_DESC_COLS:
                 out_text.append(html.B("{}:".format(col)))
-                out_text.append(" {}".format(table_row[col]))
+                out_text.append(" {}".format(table_row[col].values[0]))
                 out_text.append(html.Br())
             return [html.Hr(), html.P(out_text)]
     else:
         return 
-
-
-@app.callback(
-    Output('variables_text', "children"),
-    Input('sidebar_table', "active_cell"),
-    Input('tables_table', "active_cell")
-)
-def update_table_variables(sidebar_in, tables_in):
-    if sidebar_in and tables_in:
-        schema = schema.iloc[sidebar_in["row"]].values[0]
-        if schema == "NHSD":
-            schema_info = "variables for nhsd"
-            return schema_info
-        else:
-            table = app_state.get_tables_df().iloc[tables_in["row"]]["Block Name"]
-            descs_df = pd.read_csv("metadata\\{}\\{}_description.csv".format(schema,table))[["variable_name", "variable_label"]]
-            app_state.set_descs_df(descs_df)
-            return quick_table(descs_df, "variables_table")
-    else:
-        return 
-
-
-@app.callback(
-    Output('values_text', "children"),
-    Input('sidebar_table', "active_cell"),
-    Input('tables_table', "active_cell"),
-    Input('variables_table', "active_cell")
-)
-def update_variables_values(sidebar_in, tables_in, variable_in):
-    if sidebar_in and tables_in and variable_in:
-        schema = schema_df.iloc[sidebar_in["row"]].values[0]
-        table = app_state.get_tables_df().iloc[tables_in["row"]].values[0]
-        variable = app_state.get_descs_df().iloc[variable_in["row"]].values[0]
-        
-        full_vals_df = pd.read_csv("metadata\\{}\\{}_values.csv".format(schema,table))[["variable_name", "value_value", "value_label"]]
-        vals_df = full_vals_df.loc[full_vals_df["variable_name"] == variable].drop(columns = ["variable_name"])
-        app_state.set_vals_df(vals_df)
-        if len(vals_df) > 0:
-            return quick_table(vals_df, "values_table")
-        else:
-            return "No values available for {}.{}: {}".format(schema, table, variable)
-    else:
-        return 
-
-###########################################
-
-
-
-'''
-how to gen a sidebar list
-first, every list item must be in a div for formatting
-we figure out the fully expanded list then collapse table part
-1. organise schema + tables into list in schema order
-2. enclose all tables for a schema in a div - this div can be collapsed
-
-We have a problem - we have to figure out a substitue for "active cell"
-if we use type = sidebar_schema and type = sidebar_table we can listen for each (look at pattern-matching docs). We can also set the id of each div to the useful value of its contents so we can locate it!
-'''#
-
-
-
-
 
 if __name__ == "__main__":
     app.run_server(port=8888)
