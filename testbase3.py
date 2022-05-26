@@ -8,6 +8,13 @@ from dash import html
 from dash.dependencies import Input, Output
 import pandas as pd
 from dash import Dash, Input, Output, State, callback, dash_table, ALL
+import dash_leaflet as dl
+import dash_leaflet.express as dlx
+from dash_extensions.javascript import arrow_function
+from dash_extensions.javascript import assign
+import json
+import orjson
+import time
 
 from app_state import App_State
 import read_data_request
@@ -26,30 +33,37 @@ TITLEBAR_STYLE = {
     "background-color": "black",
     "color": "white",
     "textAlign":"center",
-    "zIndex":1
+    "zIndex":2
 }
 SIDEBAR_LEFT_STYLE = {
+    "background":"white",
     "position": "fixed",
     "top": "5rem",
     "left": 0,
     "bottom": 0,
     "width":"15%",
+    "min-width":"10rem",
     "overflow": "scroll",
     "padding": "0.25rem",
-    "border":"dotted",
-    "border-color":"red"
+    "zIndex":1,
+    "border-right":"solid",
+    "border-width":"normal",
 }
 SIDEBAR_RIGHT_STYLE = {
+    "background":"white",
     "float":"right",
     "position": "fixed",
     "top": "5rem",
     "right": 0,
     "bottom": 0,
-    "width": "20%",
+    "width": "25%",
+    "min-width":"10rem",
     "overflow": "auto",
+    "overflow-wrap": "break-word",
     "padding": "0.25rem" ,
-    "border":"dotted",
-    "border-color":"blue"
+    "zIndex":1,
+    "border-left":"solid",
+    "border-width":"normal",
 }
 SCHEMA_LIST_STYLE = {
     "list-style-type":"none",
@@ -57,11 +71,12 @@ SCHEMA_LIST_STYLE = {
     "margin-bottom":"0.25rem",
     "padding": 0,
     "border-bottom": "solid",
-    
+    "border-width":"thin"
     }
 SCHEMA_LIST_ITEM_STYLE = {
-    "padding": "0.25rem",
-    "border-top":"solid"}
+    "border-top":"solid",
+    "border-width":"thin"}
+
 COLLAPSE_DIV_STYLE = {
     "list-style-type":"none", 
     "margin-left": "0.5rem", 
@@ -69,26 +84,28 @@ COLLAPSE_DIV_STYLE = {
     "margin-bottom":"0.25rem", 
     "padding": 0,
     "border-top":"solid",
-    "border-color" : "green"}
+    "border-width":"thin"}
 TABLE_LIST_STYLE = {
     "border-top":"solid",
+    "border-width":"thin",
     "padding": "0.25rem",
-    "border-color" : "blue"
-
     }
 TABLE_LIST_ITEM_STYLE = {
     "border-bottom":"solid",
-    "border-color" : "red"
+    "border-width":"thin"
     }
-CONTENT_STYLE = {
+BODY_STYLE = {
     "position": "relative",
-    "top": "5rem",
-    "left":"15%",
-    "width":"65%",
-    "height": "100%",
-    "border":"dotted",
-    "border-color":"green",
+    "top": "5.6rem",
+    "left":"16%",
+    "width":"58%",
+    "border":"solid",
+    "border-width":"normal",
+    "zIndex":0,
 }
+POLYGON_STYLE = assign("""function(feature, context){
+        return weight=5, color='#666', dashArray='';
+};""")
 
 ###########################################
 
@@ -106,6 +123,8 @@ def get_study_tables(schema):
     return study_df.loc[study_df["Study"] == schema]
 
 DATA_DESC_COLS = ["Timepoint: Data Collected","Timepoint: Keyword","Number of Participants Invited (n=)","Number of Participants Included (n=)","Block Description","Links"]
+
+start_time = time.time()
 
 app_state = App_State()
 ##########################################
@@ -147,13 +166,13 @@ def make_sidebar():
 
         tables = get_study_tables(schema)["Block Name"]
 
-        schema_children = dbc.Collapse(html.Div([html.Ul(id = schema+"_tables_list",
+        schema_children = dbc.Collapse(html.Div([dbc.ListGroup(id = schema+"_tables_list",
         children = [html.Div([
-            html.Li(table, style=TABLE_LIST_ITEM_STYLE)],id={
+            dbc.ListGroupItem(table, style=TABLE_LIST_ITEM_STYLE,action=True,active=False)],key = schema+"-"+table, id={
             'type': 'sidebar_table_item',
             "value":schema+"-"+table
         }) for table in tables],
-        style = COLLAPSE_DIV_STYLE)],)
+        style = COLLAPSE_DIV_STYLE,flush=True)],)
         , id={
             'type': 'schema_collapse',
             'index': i
@@ -161,12 +180,12 @@ def make_sidebar():
         style=TABLE_LIST_STYLE,
         is_open=False)
 
-        sidebar_children += [html.Div([html.Li(schema)], id={
+        sidebar_children += [html.Div([dbc.ListGroupItem(schema, action=True,active=False)], id={
             'type': 'schema_item',
             'index': i
         },
         style=SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
-    return html.Ul(sidebar_children, style = SCHEMA_LIST_STYLE)
+    return dbc.ListGroup(sidebar_children, style = SCHEMA_LIST_STYLE, id = "schema_list")
 
 sidebar_left = html.Div([
         make_sidebar()],
@@ -176,23 +195,43 @@ sidebar_left = html.Div([
 sidebar_right = html.Div([
         html.H2("Descriptions"),
         html.Hr(),
-        html.Div([html.P("Select a schema...", id = "schema_description_text")], id = "schema_description_div"),
+        html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div"),
         html.Hr(),
-        html.Div([html.P("Select a schema...", id = "table_description_text")], id = "table_description_div")
+        html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div"),
+        html.Div([html.P("Test Div", id = "test_description_text")], id = "test_description_div")
     ],
     style = SIDEBAR_RIGHT_STYLE,
     id = "sidebar_right_div"
-
 )
 
+
+with open('assets\\uk-counties.json', 'r') as f:
+    uk_counties = json.load(f)
+
+map_box = html.Div([
+    dl.Map(
+        center=[55,-4], zoom=6, 
+        children=[
+        dl.TileLayer(),
+        dl.GeoJSON(data = uk_counties, 
+            id="counties", 
+            #options=dict(style=POLYGON_STYLE),
+            hoverStyle = arrow_function(dict(weight=3, color='#666', dashArray=''))),
+        #dl.GeoJSON(url="us-states.pbf", id="counties")], style={'height': '50rem'}, id="map"),
+        #dl.GeoJSON(url="uk-counties.json", id="counties")], style={'height': '50rem'}, id="map"),,
+        ],id="map", style = {"height":"48rem"}),
+        
+    ],id = "map_div")
+
+
 maindiv = html.Div(
-    [],
+    [map_box],
     id="body",
-    
+    style = BODY_STYLE
     )
 
-schema_record = html.Div([],id = {"type":"active_schema", "content":"None"})
-table_record = html.Div([], id = {"type":"active_table", "content":"None"})
+schema_record = html.Div([],key = "None",id = {"type":"active_schema", "content":"None"})
+table_record = html.Div([],key = "None",id = {"type":"active_table", "content":"None"})
 
 ###########################################
 
@@ -206,42 +245,40 @@ app.layout = html.Div([titlebar, sidebar_left, maindiv, sidebar_right, schema_re
 
 @app.callback(
     Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
-    Output({'type': 'active_schema', 'content': ALL}, 'id'),
-    Input({'type': 'active_schema', 'content': ALL}, 'id'),
+    Output({'type': 'active_schema', 'content': ALL}, 'key'),
+    Output({'type': 'active_table', 'content': ALL}, 'key'),
+    Input({'type': 'active_schema', 'content': ALL}, 'key'),
     Input({'type': 'schema_item', 'index': ALL}, 'n_clicks'),
+    Input({'type': 'sidebar_table_item', "value":ALL}, 'n_clicks'),
+    Input({'type': 'sidebar_table_item', "value":ALL}, 'key'),
     State({"type": "schema_collapse", "index" : ALL}, "is_open"),
 )
-def sidebar_collapse(current_schema, values, collapse):
-    schema = current_schema[0]["content"]
+def sidebar_click(current_schema, values, table_nclicks, table_values, collapse):
+    print("sidebar")
+    print(time.time()-start_time)
+    #SCHEMA section
+    schema = current_schema[0]
+    print(schema)
     for (i, value) in enumerate(values):
         if value == None: 
             app_state.set_sidebar_clicks(i, 0)
         else:
             stored = app_state.get_sidebar_clicks(i)
+            app_state.set_sidebar_clicks(i, value)
             if stored != value:
                 collapse[i] = not collapse[i]
                 if collapse[i]:
                     schema = schema_df["Data Directory"].iloc[i]
                 print("Action on index {}, schema {}. Stored {}, current {}".format(i, schema, stored, value))
-
-            app_state.set_sidebar_clicks(i, value)
-
-    return collapse, [{"type":"active_schema", "content":schema}]
-
-
-@app.callback(
-    #Output({'type': 'active_table', 'content': ALL}, 'id'),
-    Output({'type': 'active_schema', 'content': ALL}, 'id'),
-    Input({'type': 'sidebar_table_item', "value":ALL}, 'n_clicks'),
-    Input({'type': 'sidebar_table_item', "value":ALL}, 'id'),
-)
-def update_selected(table_nclicks, table_values):
+                break # stop loop for efficiency
+    
+    # TABLES section
     nclick_dict = {}
     for clicks, id in zip(table_nclicks, table_values):
-        nclick_dict[id["value"]] = clicks
+        nclick_dict[id] = clicks
 
     for key, value in nclick_dict.items():
-        schema = key.split("-")[0]
+        table_schema = key.split("-")[0]
         table = key.split("-")[1:][0]
         if value == None: 
             app_state.set_sidebar_clicks(key, 0)
@@ -250,17 +287,19 @@ def update_selected(table_nclicks, table_values):
             app_state.set_sidebar_clicks(key, value)
             if stored != value:
                 print("Action on table {}. Stored {}, current {}".format(key, stored, value))
-                return [{"type":"active_table", "content":schema}]#, [{"type":"active_table", "content":schema}]
-    # If no click, return Nones
-    return [{"type":"active_table", "content":"None"}]#, [{"type":"active_table", "content":"None"}]
+                return collapse, [table_schema], [table]
+
+    return collapse, [schema],  ["None"]
 
 
 @app.callback(
     Output('schema_description_text', "children"),
-    Input({'type': 'active_schema', 'content': ALL}, 'id'),
+    Input({'type': 'active_schema', 'content': ALL}, 'key'),
 )
 def update_schema_description(schema):
-    schema = schema[0]["content"]
+    schema = schema[0]
+    
+    print("Update schema:",schema)
     if schema != "None":
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
         if schema == "NHSD":
@@ -275,16 +314,16 @@ def update_schema_description(schema):
             return [html.Hr(), html.P(out_text)]
 
     else:
-        return "Select a schema or table for more information..."
+        return [html.Hr(), html.P("Select a schema for more information...")]
 
 @app.callback(
     Output('table_description_text', "children"),
-    Input({'type': 'active_schema', 'content': ALL}, 'id'),
-    Input({'type': 'active_table', 'content': ALL}, 'id'),
+    Input({'type': 'active_schema', 'content': ALL}, 'key'),
+    Input({'type': 'active_table', 'content': ALL}, 'key'),
 )
 def update_table_description(schema, table):
-    schema = schema[0]["content"]
-    table = (table[0]["content"]).replace(schema+"_","")
+    schema = schema[0]
+    table = (table[0]).replace(schema+"_","")
     if schema != "None" and table != "None":
         tables = get_study_tables(schema)
         table_row = tables.loc[tables["Block Name"] == table]
@@ -299,7 +338,31 @@ def update_table_description(schema, table):
                 out_text.append(html.Br())
             return [html.Hr(), html.P(out_text)]
     else:
-        return 
+        return [html.Hr(), html.P("Select a table for more information...")]
+
+
+@app.callback(
+    Output('test_description_text', "children"),
+    Input("schema_list","children"),
+    Input({'type': 'sidebar_table_item', "value":ALL}, 'n_clicks'),
+)
+def test_callback(children, click):
+    '''
+    Can we get the children of a list_group by just passing the parent list?
+    '''
+    #print("CHILDREN",children)
+    print("test")
+    print(time.time()-start_time)
+
+    '''
+    NEW IDEA: 
+    test if explicit callbacks are faster than pattern matching. 
+    If so make program to generate lines to be inserted directly into the program before loading. 
+    '''
+
+    return "yo, its your boi, skinnypp"
+    pass
+
 
 if __name__ == "__main__":
     app.run_server(port=8888)

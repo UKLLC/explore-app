@@ -1,7 +1,7 @@
 class App_State():
     def __init__(self) -> None:
-        self.schema = None
-        self.table = None
+        self.schema = "None"
+        self.table = "None"
 
         self.tables_df = None
         self.descs_df = None
@@ -44,3 +44,15 @@ class App_State():
 
     def get_sidebar_clicks(self, table_id):
         return self.sidebar_clicks[table_id]
+
+    def set_active_schema(self, schema ):
+        self.schema = schema
+
+    def set_active_table(self, table):
+        self.table = table
+
+    def get_active_table(self):
+        return self.table
+
+    def get_active_schema(self):
+        return self.schema
