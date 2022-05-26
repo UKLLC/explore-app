@@ -166,13 +166,13 @@ def make_sidebar():
 
         tables = get_study_tables(schema)["Block Name"]
 
-        schema_children = dbc.Collapse(html.Div([dbc.ListGroup(id = schema+"_tables_list",
-        children = [html.Div([
-            dbc.ListGroupItem(table, style=TABLE_LIST_ITEM_STYLE,action=True,active=False)],key = schema+"-"+table, id={
+        schema_children = dbc.Collapse(dbc.ListGroup(id = schema+"_tables_list",
+        children = [
+            dbc.ListGroupItem(table, style=TABLE_LIST_ITEM_STYLE,action=True,active=False,key = schema+"-"+table, id={
             'type': 'sidebar_table_item',
             "value":schema+"-"+table
         }) for table in tables],
-        style = COLLAPSE_DIV_STYLE,flush=True)],)
+        style = COLLAPSE_DIV_STYLE,flush=True)
         , id={
             'type': 'schema_collapse',
             'index': i
@@ -180,10 +180,10 @@ def make_sidebar():
         style=TABLE_LIST_STYLE,
         is_open=False)
 
-        sidebar_children += [html.Div([dbc.ListGroupItem(schema, action=True,active=False)], id={
+        sidebar_children += [dbc.ListGroupItem(schema, action=True,active=False, id={
             'type': 'schema_item',
             'index': i
-        },
+        }, key = schema,
         style=SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
     return dbc.ListGroup(sidebar_children, style = SCHEMA_LIST_STYLE, id = "schema_list")
 
@@ -243,54 +243,6 @@ app.layout = html.Div([titlebar, sidebar_left, maindiv, sidebar_right, schema_re
 ###########################################
 ### Actions
 
-@app.callback(
-    Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
-    Output({'type': 'active_schema', 'content': ALL}, 'key'),
-    Output({'type': 'active_table', 'content': ALL}, 'key'),
-    Input({'type': 'active_schema', 'content': ALL}, 'key'),
-    Input({'type': 'schema_item', 'index': ALL}, 'n_clicks'),
-    Input({'type': 'sidebar_table_item', "value":ALL}, 'n_clicks'),
-    Input({'type': 'sidebar_table_item', "value":ALL}, 'key'),
-    State({"type": "schema_collapse", "index" : ALL}, "is_open"),
-)
-def sidebar_click(current_schema, values, table_nclicks, table_values, collapse):
-    print("sidebar")
-    print(time.time()-start_time)
-    #SCHEMA section
-    schema = current_schema[0]
-    print(schema)
-    for (i, value) in enumerate(values):
-        if value == None: 
-            app_state.set_sidebar_clicks(i, 0)
-        else:
-            stored = app_state.get_sidebar_clicks(i)
-            app_state.set_sidebar_clicks(i, value)
-            if stored != value:
-                collapse[i] = not collapse[i]
-                if collapse[i]:
-                    schema = schema_df["Data Directory"].iloc[i]
-                print("Action on index {}, schema {}. Stored {}, current {}".format(i, schema, stored, value))
-                break # stop loop for efficiency
-    
-    # TABLES section
-    nclick_dict = {}
-    for clicks, id in zip(table_nclicks, table_values):
-        nclick_dict[id] = clicks
-
-    for key, value in nclick_dict.items():
-        table_schema = key.split("-")[0]
-        table = key.split("-")[1:][0]
-        if value == None: 
-            app_state.set_sidebar_clicks(key, 0)
-        else:
-            stored = app_state.get_sidebar_clicks(key)
-            app_state.set_sidebar_clicks(key, value)
-            if stored != value:
-                print("Action on table {}. Stored {}, current {}".format(key, stored, value))
-                return collapse, [table_schema], [table]
-
-    return collapse, [schema],  ["None"]
-
 
 @app.callback(
     Output('schema_description_text', "children"),
@@ -342,26 +294,57 @@ def update_table_description(schema, table):
 
 
 @app.callback(
-    Output('test_description_text', "children"),
-    Input("schema_list","children"),
-    Input({'type': 'sidebar_table_item', "value":ALL}, 'n_clicks'),
+    Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
+    Output({'type': 'active_schema', 'content': ALL}, 'key'),
+    Output({'type': 'active_table', 'content': ALL}, 'key'),
+    Input("sidebar_left_div", 'n_clicks'),
+    State("schema_list","children"),
+    State({'type': 'active_schema', 'content': ALL}, 'key'),
+    State({"type": "schema_collapse", "index" : ALL}, "is_open"),
 )
-def test_callback(children, click):
-    '''
-    Can we get the children of a list_group by just passing the parent list?
-    '''
-    #print("CHILDREN",children)
-    print("test")
-    print(time.time()-start_time)
+def test_callback(_,children,active_schema, collapse):
 
-    '''
-    NEW IDEA: 
-    test if explicit callbacks are faster than pattern matching. 
-    If so make program to generate lines to be inserted directly into the program before loading. 
-    '''
+    schema_clicks = {}
+    table_clicks = {}   
 
-    return "yo, its your boi, skinnypp"
-    pass
+    schema_i = 0
+
+    active_schema = active_schema[0]
+
+    for schema_root in children:
+        if "key" in schema_root["props"]:
+            schema = schema_root["props"]["key"]
+            if "n_clicks" in schema_root["props"]:
+                schema_clicks[schema] = schema_root["props"]["n_clicks"]
+                stored = app_state.get_sidebar_clicks(schema)
+                if stored != schema_clicks[schema]:
+                    collapse[schema_i] = not collapse[schema_i]
+                    if collapse[schema_i]:
+                        active_schema = schema_df["Data Directory"].iloc[schema_i]
+                    print("Action on index {}, schema {}. Stored {}, current {}".format(schema_i, schema, stored, schema_clicks[schema]))
+                app_state.set_sidebar_clicks(schema, schema_clicks[schema])
+            else:
+                app_state.set_sidebar_clicks(schema, 0)
+                schema_clicks[schema] = 0
+            schema_i += 1
+
+        else:
+            for table_root in schema_root["props"]["children"]["props"]["children"]:
+                table_full = table_root["props"]["key"]
+                table_schema = table_full.split("-")[0]
+                table = table_full.split("-")[1:][0]
+                if "n_clicks" in table_root["props"]:
+                    table_clicks[table_full] = table_root["props"]["n_clicks"]
+                    stored = app_state.get_sidebar_clicks(table_full)
+                    app_state.set_sidebar_clicks(table_full, table_clicks[table_full])
+                    if stored != table_clicks[table_full]:
+                        print("Action on table {}. Stored {}, current {}".format(table_full, stored, table_clicks[table_full]))
+                        return collapse, [table_schema], [table]
+                else:
+                    app_state.set_sidebar_clicks(table_full, 0)
+                    table_clicks[table_full] = 0
+
+    return collapse, [active_schema],  ["None"]
 
 
 if __name__ == "__main__":
