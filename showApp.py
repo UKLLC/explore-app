@@ -99,9 +99,13 @@ BODY_STYLE = {
     "top": "5.6rem",
     "left":"16%",
     "width":"58%",
+    "height": 0,
+    "padding-bottom": "43.5%",
     "border":"solid",
     "border-width":"normal",
     "zIndex":0,
+    "overflow":"hidden",
+    "font-size": 12
 }
 POLYGON_STYLE = assign("""function(feature, context){
         return weight=5, color='#666', dashArray='';
@@ -215,17 +219,18 @@ sidebar_right = html.Div([
     id = "sidebar_right_div"
 )
 
-
+url = 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
+attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> '
 map_box = html.Div([
     dl.Map(
-        center=[55,-4], zoom=6, 
+        center=[54.5,-4], zoom=6, 
         children=[
-        dl.TileLayer(),
+        dl.TileLayer(url=url, maxZoom=20, attribution=attribution),
         dl.GeoJSON(data = None, id = "map_region",hoverStyle = arrow_function(dict(weight=3, color='#666', dashArray=''))),
 
-        ],id="map", style = {"height":"48rem"}),
+        ],id="map", style = {"width":"58vw", "height":"43.5vw"}),
         
-    ],id = "map_div")
+    ],id = "map_div", style = {"width":"100%", "height":"100%"})
 
 
 maindiv = html.Div(
