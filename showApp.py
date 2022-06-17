@@ -230,7 +230,8 @@ map_box = html.Div([
         center=[54.5,-3.5], zoom=6, 
         children=[
         dl.TileLayer(url=url, maxZoom=20, attribution=attribution),
-        dl.GeoJSON(data = None, id = "map_region",hoverStyle = arrow_function(dict(weight=3, color='#666', dashArray=''))),
+        dl.GeoJSON(data = None, id = "map_region", options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0)
+        , hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))),
 
         ],id="map", style = {"width":"50vw", "height":"37.5vw"}),
         
