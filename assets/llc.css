@@ -45,14 +45,11 @@
     }
 }
 
-h1 {
-    
-}
 
 body {
     margin: 0;
     font-family: montserrat;
-    font-size: medium;
+    font-size: 12px;
     font-weight: normal;
     line-height: 1.5;
     color: #212529;
@@ -120,23 +117,11 @@ abbr[title] {
     transition: height .35s ease
 }
 
-
-animation:1s linear infinite progress-bar-stripes
-}
-
-@media (prefers-reduced-motion:reduce) {
-    .progress-bar-animated {
-        -webkit-animation: none;
-        animation: none
-    }
-}
-
 .list-group {
     display: flex;
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    border-radius: .25rem
 }
 
 .list-group-numbered {
@@ -171,21 +156,11 @@ animation:1s linear infinite progress-bar-stripes
 .list-group-item {
     position: relative;
     display: block;
-    padding: .5rem 1rem;
+    padding: .2rem 0.2rem;
     color: #212529;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, .125)
-}
-
-.list-group-item:first-child {
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit
-}
-
-.list-group-item:last-child {
-    border-bottom-right-radius: inherit;
-    border-bottom-left-radius: inherit
 }
 
 .list-group-item.disabled,
@@ -215,16 +190,6 @@ animation:1s linear infinite progress-bar-stripes
     flex-direction: row
 }
 
-.list-group-horizontal>.list-group-item:first-child {
-    border-bottom-left-radius: .25rem;
-    border-top-right-radius: 0
-}
-
-.list-group-horizontal>.list-group-item:last-child {
-    border-top-right-radius: .25rem;
-    border-bottom-left-radius: 0
-}
-
 .list-group-horizontal>.list-group-item.active {
     margin-top: 0
 }
@@ -237,156 +202,6 @@ animation:1s linear infinite progress-bar-stripes
 .list-group-horizontal>.list-group-item+.list-group-item.active {
     margin-left: -1px;
     border-left-width: 1px
-}
-
-@media (min-width:576px) {
-    .list-group-horizontal-sm {
-        flex-direction: row
-    }
-
-    .list-group-horizontal-sm>.list-group-item:first-child {
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: 0
-    }
-
-    .list-group-horizontal-sm>.list-group-item:last-child {
-        border-top-right-radius: .25rem;
-        border-bottom-left-radius: 0
-    }
-
-    .list-group-horizontal-sm>.list-group-item.active {
-        margin-top: 0
-    }
-
-    .list-group-horizontal-sm>.list-group-item+.list-group-item {
-        border-top-width: 1px;
-        border-left-width: 0
-    }
-
-    .list-group-horizontal-sm>.list-group-item+.list-group-item.active {
-        margin-left: -1px;
-        border-left-width: 1px
-    }
-}
-
-@media (min-width:768px) {
-    .list-group-horizontal-md {
-        flex-direction: row
-    }
-
-    .list-group-horizontal-md>.list-group-item:first-child {
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: 0
-    }
-
-    .list-group-horizontal-md>.list-group-item:last-child {
-        border-top-right-radius: .25rem;
-        border-bottom-left-radius: 0
-    }
-
-    .list-group-horizontal-md>.list-group-item.active {
-        margin-top: 0
-    }
-
-    .list-group-horizontal-md>.list-group-item+.list-group-item {
-        border-top-width: 1px;
-        border-left-width: 0
-    }
-
-    .list-group-horizontal-md>.list-group-item+.list-group-item.active {
-        margin-left: -1px;
-        border-left-width: 1px
-    }
-}
-
-@media (min-width:992px) {
-    .list-group-horizontal-lg {
-        flex-direction: row
-    }
-
-    .list-group-horizontal-lg>.list-group-item:first-child {
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: 0
-    }
-
-    .list-group-horizontal-lg>.list-group-item:last-child {
-        border-top-right-radius: .25rem;
-        border-bottom-left-radius: 0
-    }
-
-    .list-group-horizontal-lg>.list-group-item.active {
-        margin-top: 0
-    }
-
-    .list-group-horizontal-lg>.list-group-item+.list-group-item {
-        border-top-width: 1px;
-        border-left-width: 0
-    }
-
-    .list-group-horizontal-lg>.list-group-item+.list-group-item.active {
-        margin-left: -1px;
-        border-left-width: 1px
-    }
-}
-
-@media (min-width:1200px) {
-    .list-group-horizontal-xl {
-        flex-direction: row
-    }
-
-    .list-group-horizontal-xl>.list-group-item:first-child {
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: 0
-    }
-
-    .list-group-horizontal-xl>.list-group-item:last-child {
-        border-top-right-radius: .25rem;
-        border-bottom-left-radius: 0
-    }
-
-    .list-group-horizontal-xl>.list-group-item.active {
-        margin-top: 0
-    }
-
-    .list-group-horizontal-xl>.list-group-item+.list-group-item {
-        border-top-width: 1px;
-        border-left-width: 0
-    }
-
-    .list-group-horizontal-xl>.list-group-item+.list-group-item.active {
-        margin-left: -1px;
-        border-left-width: 1px
-    }
-}
-
-@media (min-width:1400px) {
-    .list-group-horizontal-xxl {
-        flex-direction: row
-    }
-
-    .list-group-horizontal-xxl>.list-group-item:first-child {
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: 0
-    }
-
-    .list-group-horizontal-xxl>.list-group-item:last-child {
-        border-top-right-radius: .25rem;
-        border-bottom-left-radius: 0
-    }
-
-    .list-group-horizontal-xxl>.list-group-item.active {
-        margin-top: 0
-    }
-
-    .list-group-horizontal-xxl>.list-group-item+.list-group-item {
-        border-top-width: 1px;
-        border-left-width: 0
-    }
-
-    .list-group-horizontal-xxl>.list-group-item+.list-group-item.active {
-        margin-left: -1px;
-        border-left-width: 1px
-    }
 }
 
 .list-group-flush {
@@ -541,7 +356,37 @@ animation:1s linear infinite progress-bar-stripes
     box-sizing: content-box;
     width: 1em;
     height: 1em;
-    padding: .25em .25em;
+    padding: .05em .05em;
     color: #000;
+
+}
+/* width */
+::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 0.2rem grey; 
+      border-radius: 0.05rem;
+      
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: white; 
+      border-radius: 0.25rem;
+      border: 0.05rem solid transparent;
+    border-radius: 20rem;
+    background-clip: content-box;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: whitesmoke; 
+      border: 0.05rem solid lightgray;
+      border-radius: 20rem;
+      background-clip: content-box;
+    }
 
 /*# sourceMappingURL=bootstrap.min.css.map */

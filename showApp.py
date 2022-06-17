@@ -36,7 +36,6 @@ TITLEBAR_STYLE = {
     "color": "white",
     "textAlign":"center",
     "zIndex":2,
-
 }
 SIDEBAR_LEFT_STYLE = {
     "background":"white",
@@ -44,13 +43,13 @@ SIDEBAR_LEFT_STYLE = {
     "top": "5rem",
     "left": 0,
     "bottom": 0,
-    "width":"15%",
+    "width":"18%",
     "min-width":"10rem",
-    "overflow": "scroll",
-    "padding": "0.25rem",
+    "overflow-y": "scroll",
+    "overflow-x": "hidden",
+    "padding": "0.05rem",
     "zIndex":1,
-    "border-right":"solid",
-    "border-width":"normal",
+
 }
 SIDEBAR_RIGHT_STYLE = {
     "background":"white",
@@ -82,28 +81,31 @@ SCHEMA_LIST_ITEM_STYLE = {
 
 COLLAPSE_DIV_STYLE = {
     "list-style-type":"none", 
-    "margin-left": "0.5rem", 
-    "margin-top":"0.15rem",
-    "margin-bottom":"0.15rem", 
+    "margin-left": "0.25rem", 
+    "margin-top":"0.05rem",
+    "margin-bottom":"0.05rem", 
     "padding": 0,
     "border-top":"solid",
-    "border-width":"thin"}
+    "border-width":"thin",
+    "font-size":"11px"
+    }
 TABLE_LIST_STYLE = {
     "border-top":"solid",
     "border-width":"thin",
-    "padding": "0.15rem",
+    "padding": "0.05rem",
     }
 TABLE_LIST_ITEM_STYLE = {
     "border-bottom":"solid",
-    "border-width":"thin"
+    "border-width":"thin",
+    "overflow":"hidden"
     }
 BODY_STYLE = {
     "position": "relative",
     "top": "5.6rem",
-    "left":"16%",
-    "width":"53%",
+    "left":"19%",
+    "width":"50%",
     "height": 0,
-    "padding-bottom": "39.75%",
+    "padding-bottom": "37.5%",
     "border":"solid",
     "border-width":"normal",
     "zIndex":0,
@@ -230,7 +232,7 @@ map_box = html.Div([
         dl.TileLayer(url=url, maxZoom=20, attribution=attribution),
         dl.GeoJSON(data = None, id = "map_region",hoverStyle = arrow_function(dict(weight=3, color='#666', dashArray=''))),
 
-        ],id="map", style = {"width":"58vw", "height":"43.5vw"}),
+        ],id="map", style = {"width":"50vw", "height":"37.5vw"}),
         
     ],id = "map_div", style = {"width":"100%", "height":"100%"})
 
