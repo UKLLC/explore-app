@@ -21,8 +21,10 @@ import read_data_request
 
 ###########################################
 ### Styles
- 
-app = dash.Dash(external_stylesheets=["https://ukllc.ac.uk/assets/css/bootstrap.min.css?v=1650990372"])
+
+
+app = dash.Dash(__name__, external_stylesheets=["custom.css"])
+
 TITLEBAR_STYLE = {
     "position": "fixed",
     "top": 0,
@@ -33,7 +35,8 @@ TITLEBAR_STYLE = {
     "background-color": "black",
     "color": "white",
     "textAlign":"center",
-    "zIndex":2
+    "zIndex":2,
+
 }
 SIDEBAR_LEFT_STYLE = {
     "background":"white",
@@ -56,7 +59,7 @@ SIDEBAR_RIGHT_STYLE = {
     "top": "5rem",
     "right": 0,
     "bottom": 0,
-    "width": "25%",
+    "width": "30%",
     "min-width":"10rem",
     "overflow": "auto",
     "overflow-wrap": "break-word",
@@ -67,8 +70,8 @@ SIDEBAR_RIGHT_STYLE = {
 }
 SCHEMA_LIST_STYLE = {
     "list-style-type":"none",
-    "margin-top":"0.25rem",
-    "margin-bottom":"0.25rem",
+    "margin-top":"0.15rem",
+    "margin-bottom":"0.15rem",
     "padding": 0,
     "border-bottom": "solid",
     "border-width":"thin"
@@ -80,15 +83,15 @@ SCHEMA_LIST_ITEM_STYLE = {
 COLLAPSE_DIV_STYLE = {
     "list-style-type":"none", 
     "margin-left": "0.5rem", 
-    "margin-top":"0.25rem",
-    "margin-bottom":"0.25rem", 
+    "margin-top":"0.15rem",
+    "margin-bottom":"0.15rem", 
     "padding": 0,
     "border-top":"solid",
     "border-width":"thin"}
 TABLE_LIST_STYLE = {
     "border-top":"solid",
     "border-width":"thin",
-    "padding": "0.25rem",
+    "padding": "0.15rem",
     }
 TABLE_LIST_ITEM_STYLE = {
     "border-bottom":"solid",
@@ -98,14 +101,13 @@ BODY_STYLE = {
     "position": "relative",
     "top": "5.6rem",
     "left":"16%",
-    "width":"58%",
+    "width":"53%",
     "height": 0,
-    "padding-bottom": "43.5%",
+    "padding-bottom": "39.75%",
     "border":"solid",
     "border-width":"normal",
     "zIndex":0,
     "overflow":"hidden",
-    "font-size": 12
 }
 POLYGON_STYLE = assign("""function(feature, context){
         return weight=5, color='#666', dashArray='';
@@ -223,7 +225,7 @@ url = 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
 attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> '
 map_box = html.Div([
     dl.Map(
-        center=[54.5,-4], zoom=6, 
+        center=[54.5,-3.5], zoom=6, 
         children=[
         dl.TileLayer(url=url, maxZoom=20, attribution=attribution),
         dl.GeoJSON(data = None, id = "map_region",hoverStyle = arrow_function(dict(weight=3, color='#666', dashArray=''))),
