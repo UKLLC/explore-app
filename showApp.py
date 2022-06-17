@@ -127,6 +127,18 @@ DATA_DESC_COLS = ["Timepoint: Data Collected","Timepoint: Keyword","Number of Pa
 start_time = time.time()
 
 app_state = App_State()
+
+def load_or_fetch_map(study):
+    returned_data = app_state.get_map_data(study)
+    if not returned_data: # if no saved map data, returns False
+        try:
+            with open("assets\\map overlays\\{}.geojson".format(study), 'r') as f:
+                returned_data = json.load(f)
+        except IOError:
+            print("Unable to load map file {}.geojson".format(study))
+        app_state.set_map_data(study, returned_data)
+    return returned_data
+        
 ##########################################
 
 ###########################################
@@ -204,20 +216,13 @@ sidebar_right = html.Div([
 )
 
 
-with open('assets\\uk-counties.json', 'r') as f:
-    uk_counties = json.load(f)
-
 map_box = html.Div([
     dl.Map(
         center=[55,-4], zoom=6, 
         children=[
         dl.TileLayer(),
-        dl.GeoJSON(data = uk_counties, 
-            id="counties", 
-            #options=dict(style=POLYGON_STYLE),
-            hoverStyle = arrow_function(dict(weight=3, color='#666', dashArray=''))),
-        #dl.GeoJSON(url="us-states.pbf", id="counties")], style={'height': '50rem'}, id="map"),
-        #dl.GeoJSON(url="uk-counties.json", id="counties")], style={'height': '50rem'}, id="map"),,
+        dl.GeoJSON(data = None, id = "map_region",hoverStyle = arrow_function(dict(weight=3, color='#666', dashArray=''))),
+
         ],id="map", style = {"height":"48rem"}),
         
     ],id = "map_div")
@@ -296,12 +301,13 @@ def update_table_description(schema, table):
     Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
     Output({'type': 'active_schema', 'content': ALL}, 'key'),
     Output({'type': 'active_table', 'content': ALL}, 'key'),
+    Output('map_region', "data"),
     Input("sidebar_left_div", 'n_clicks'),
     State("schema_list","children"),
     State({'type': 'active_schema', 'content': ALL}, 'key'),
     State({"type": "schema_collapse", "index" : ALL}, "is_open"),
 )
-def test_callback(_,children,active_schema, collapse):
+def sidebar_clicks(_,children, active_schema, collapse):
 
     schema_clicks = {}
     table_clicks = {}   
@@ -338,12 +344,16 @@ def test_callback(_,children,active_schema, collapse):
                     app_state.set_sidebar_clicks(table_full, table_clicks[table_full])
                     if stored != table_clicks[table_full]:
                         print("Action on table {}. Stored {}, current {}".format(table_full, stored, table_clicks[table_full]))
-                        return collapse, [table_schema], [table]
+                        # load map
+                        map_data = load_or_fetch_map(table_schema)
+                        return collapse, [table_schema], [table], map_data
                 else:
                     app_state.set_sidebar_clicks(table_full, 0)
                     table_clicks[table_full] = 0
 
-    return collapse, [active_schema],  ["None"]
+
+    map_data = load_or_fetch_map(active_schema)
+    return collapse, [active_schema],  ["None"], map_data
 
 
 if __name__ == "__main__":

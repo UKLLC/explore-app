@@ -8,6 +8,8 @@ class App_State():
         self.vals_df = None
         self.sidebar_clicks = {}
 
+        self.map_data = {}
+
 
     def get_tables_df(self):
         return self.tables_df
@@ -56,3 +58,12 @@ class App_State():
 
     def get_active_schema(self):
         return self.schema
+
+    def get_map_data(self, study):
+        if study in self.map_data:
+            return self.map_data[study]
+        else:
+            return False
+
+    def set_map_data(self, study, data):
+        self.map_data[study] = data
