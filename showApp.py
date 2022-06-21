@@ -43,7 +43,7 @@ SIDEBAR_LEFT_STYLE = {
     "top": "5rem",
     "left": 0,
     "bottom": 0,
-    "width":"18%",
+    "width":"18.5%",
     "min-width":"10rem",
     "overflow-y": "scroll",
     "overflow-x": "hidden",
@@ -58,7 +58,7 @@ SIDEBAR_RIGHT_STYLE = {
     "top": "5rem",
     "right": 0,
     "bottom": 0,
-    "width": "30%",
+    "width": "30.5%",
     "min-width":"10rem",
     "overflow": "auto",
     "overflow-wrap": "break-word",
@@ -77,7 +77,8 @@ SCHEMA_LIST_STYLE = {
     }
 SCHEMA_LIST_ITEM_STYLE = {
     "border-top":"solid",
-    "border-width":"thin"}
+    "border-width":"thin",
+    "font-size":"medium"}
 
 COLLAPSE_DIV_STYLE = {
     "list-style-type":"none", 
@@ -87,7 +88,7 @@ COLLAPSE_DIV_STYLE = {
     "padding": 0,
     "border-top":"solid",
     "border-width":"thin",
-    "font-size":"11px"
+    "font-size":"small"
     }
 TABLE_LIST_STYLE = {
     "border-top":"solid",
@@ -208,6 +209,8 @@ def make_sidebar():
     return dbc.ListGroup(sidebar_children, style = SCHEMA_LIST_STYLE, id = "schema_list")
 
 sidebar_left = html.Div([
+        html.Div(html.H2("Data Directory")),
+        html.Hr(),
         make_sidebar()],
         style =SIDEBAR_LEFT_STYLE,
         id = "sidebar_left_div")
@@ -274,7 +277,8 @@ def update_schema_description(schema):
         else:
             out_text = []
             for col in schema_info.columns:
-                out_text.append(html.B("{}:".format(col)))
+                out_text.append(html.B("{}".format(col)))
+                out_text.append(html.Br())
                 out_text.append(" {}".format(schema_info[col].values[0]))
                 out_text.append(html.Br())
             return [html.Hr(), html.P(out_text)]
@@ -299,7 +303,8 @@ def update_table_description(schema, table):
         else:
             out_text = []
             for col in DATA_DESC_COLS:
-                out_text.append(html.B("{}:".format(col)))
+                out_text.append(html.B("{}".format(col)))
+                out_text.append(html.Br())
                 out_text.append(" {}".format(table_row[col].values[0]))
                 out_text.append(html.Br())
             return [html.Hr(), html.P(out_text)]

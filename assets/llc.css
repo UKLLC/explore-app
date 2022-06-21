@@ -49,7 +49,7 @@
 body {
     margin: 0;
     font-family: montserrat;
-    font-size: 12px;
+    font-size: small;
     font-weight: normal;
     line-height: 1.5;
     color: #212529;
@@ -82,8 +82,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    margin-bottom: .5rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
     font-weight: 500;
     line-height: 1.2
 }
