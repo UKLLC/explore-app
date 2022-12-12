@@ -13,127 +13,26 @@ import dash_leaflet.express as dlx
 from dash_extensions.javascript import arrow_function
 from dash_extensions.javascript import assign
 import json
-import 
 import time
 
 from app_state import App_State
 import read_data_request
+import stylesheet as ss
+import constants 
 
-###########################################
-### Styles
-
-
+######################################################################################
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 
-TITLEBAR_STYLE = {
-    "position": "fixed",
-    "top": 0,
-    "left": 0,
-    "width": "100%",
-    "height": "5rem",
-    "padding": "1rem 0.5rem",
-    "background-color": "black",
-    "color": "white",
-    "textAlign":"center",
-    "zIndex":2,
-}
-SIDEBAR_LEFT_STYLE = {
-    "background":"white",
-    "position": "fixed",
-    "top": "5rem",
-    "left": 0,
-    "bottom": 0,
-    "width":"18.5%",
-    "min-width":"10rem",
-    "overflow-y": "scroll",
-    "overflow-x": "hidden",
-    "padding": "0.05rem",
-    "zIndex":1,
-
-}
-SIDEBAR_RIGHT_STYLE = {
-    "background":"white",
-    "float":"right",
-    "position": "fixed",
-    "top": "5rem",
-    "right": 0,
-    "bottom": 0,
-    "width": "30.5%",
-    "min-width":"10rem",
-    "overflow": "auto",
-    "overflow-wrap": "break-word",
-    "padding": "0.25rem" ,
-    "zIndex":1,
-    "border-left":"solid",
-    "border-width":"normal",
-}
-SCHEMA_LIST_STYLE = {
-    "list-style-type":"none",
-    "margin-top":"0.15rem",
-    "margin-bottom":"0.15rem",
-    "padding": 0,
-    "border-bottom": "solid",
-    "border-width":"thin"
-    }
-SCHEMA_LIST_ITEM_STYLE = {
-    "border-top":"solid",
-    "border-width":"thin",
-    "font-size":"medium"}
-
-COLLAPSE_DIV_STYLE = {
-    "list-style-type":"none", 
-    "margin-left": "0.25rem", 
-    "margin-top":"0.05rem",
-    "margin-bottom":"0.05rem", 
-    "padding": 0,
-    "border-top":"solid",
-    "border-width":"thin",
-    "font-size":"small"
-    }
-TABLE_LIST_STYLE = {
-    "border-top":"solid",
-    "border-width":"thin",
-    "padding": "0.05rem",
-    }
-TABLE_LIST_ITEM_STYLE = {
-    "border-bottom":"solid",
-    "border-width":"thin",
-    "overflow":"hidden"
-    }
-BODY_STYLE = {
-    "position": "relative",
-    "top": "5.6rem",
-    "left":"19%",
-    "width":"50%",
-    "height": 0,
-    "padding-bottom": "37.5%",
-    "border":"solid",
-    "border-width":"normal",
-    "zIndex":0,
-    "overflow":"hidden",
-}
-POLYGON_STYLE = assign("""function(feature, context){
-        return weight=5, color='#666', dashArray='';
-};""")
-
-###########################################
-
-###########################################
+######################################################################################
 ### Data prep functions
+
+start_time = time.time()
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
 study_df = read_data_request.load_study_request()
 linked_df = read_data_request.load_linked_request()
 schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
 study_info_and_links_df = read_data_request.load_study_info_and_links()
-
-
-def get_study_tables(schema):
-    return study_df.loc[study_df["Study"] == schema]
-
-DATA_DESC_COLS = ["Timepoint: Data Collected","Timepoint: Keyword","Number of Participants Invited (n=)","Number of Participants Included (n=)","Block Description","Links"]
-
-start_time = time.time()
 
 app_state = App_State()
 
@@ -147,13 +46,19 @@ def load_or_fetch_map(study):
             print("Unable to load map file {}.geojson".format(study))
         app_state.set_map_data(study, returned_data)
     return returned_data
+    
+def get_study_tables(schema):
+    return study_df.loc[study_df["Study"] == schema]
         
-##########################################
+######################################################################################
 
-###########################################
+######################################################################################
 ### page asset templates
-titlebar = html.Div([html.H1("Data Discoverability Resource", className="title")],style = TITLEBAR_STYLE)
 
+# Titlebar ###########################################################################
+titlebar = html.Div([html.H1("Data Discoverability Resource", className="title")],style = ss.TITLEBAR_STYLE)
+
+# Left Sidebar #######################################################################
 def single_col_table(df, id):
     return dash_table.DataTable(
             id=id,
@@ -189,45 +94,47 @@ def make_sidebar():
 
         schema_children = dbc.Collapse(dbc.ListGroup(id = schema+"_tables_list",
         children = [
-            dbc.ListGroupItem(table, style=TABLE_LIST_ITEM_STYLE,action=True,active=False,key = schema+"-"+table, id={
+            dbc.ListGroupItem(table, style=ss.TABLE_LIST_ITEM_STYLE,action=True,active=False,key = schema+"-"+table, id={
             'type': 'sidebar_table_item',
             "value":schema+"-"+table
         }) for table in tables],
-        style = COLLAPSE_DIV_STYLE,flush=True)
+        style = ss.COLLAPSE_DIV_STYLE,flush=True)
         , id={
             'type': 'schema_collapse',
             'index': i
         },
-        style=TABLE_LIST_STYLE,
+        style=ss.TABLE_LIST_STYLE,
         is_open=False)
 
         sidebar_children += [dbc.ListGroupItem(schema, action=True,active=False, id={
             'type': 'schema_item',
             'index': i
         }, key = schema,
-        style=SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
-    return dbc.ListGroup(sidebar_children, style = SCHEMA_LIST_STYLE, id = "schema_list")
+        style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
+    return dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")
 
 sidebar_left = html.Div([
         html.Div(html.H2("Data Directory")),
+        html.Div(html.P("Placeholder searchbar")),
         html.Hr(),
         make_sidebar()],
-        style =SIDEBAR_LEFT_STYLE,
+        style = ss.SIDEBAR_LEFT_STYLE,
         id = "sidebar_left_div")
 
-sidebar_right = html.Div([
-        html.H2("Descriptions"),
-        html.Hr(),
-        html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div"),
-        html.Hr(),
-        html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
-    ],
-    style = SIDEBAR_RIGHT_STYLE,
-    id = "sidebar_right_div"
-)
+# Context bar #########################################################################
 
+
+context_bar_div = html.Div([html.P("yo")], id = "context_bar_div", style = ss.CONTEXT_BAR_STYLE)
+
+# Body ################################################################################
+
+
+
+# get base map
 url = 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
 attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> '
+
+
 map_box = html.Div([
     dl.Map(
         center=[54.5,-3.5], zoom=6, 
@@ -236,7 +143,7 @@ map_box = html.Div([
         dl.GeoJSON(data = None, id = "map_region", options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0)
         , hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))),
 
-        ],id="map", style = {"width":"50vw", "height":"37.5vw"}),
+        ],id="map", style = ss.DYNA_MAP_STYLE),
         
     ],id = "map_div", style = {"width":"100%", "height":"100%"})
 
@@ -244,22 +151,22 @@ map_box = html.Div([
 maindiv = html.Div(
     [map_box],
     id="body",
-    style = BODY_STYLE
+    style = ss.BODY_STYLE
     )
 
 schema_record = html.Div([],key = "None",id = {"type":"active_schema", "content":"None"})
 table_record = html.Div([],key = "None",id = {"type":"active_table", "content":"None"})
 
-###########################################
+
 
 ###########################################
 ### Layout
-app.layout = html.Div([titlebar, sidebar_left, maindiv, sidebar_right, schema_record, table_record]) 
+app.layout = html.Div([titlebar, sidebar_left, context_bar_div, maindiv, schema_record, table_record]) 
+
 ###########################################
 
 ###########################################
 ### Actions
-
 
 @app.callback(
     Output('schema_description_text', "children"),
@@ -302,7 +209,7 @@ def update_table_description(schema, table):
             return schema_info
         else:
             out_text = []
-            for col in DATA_DESC_COLS:
+            for col in constants.DATA_DESC_COLS:
                 out_text.append(html.B("{}".format(col)))
                 out_text.append(html.Br())
                 out_text.append(" {}".format(table_row[col].values[0]))

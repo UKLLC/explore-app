@@ -30,8 +30,8 @@ TITLEBAR_STYLE = {
     "width": "100%",
     "height": "5rem",
     "padding": "1rem 0.5rem",
-    "background-color": "black",
-    "color": "white",
+    "background-color": "white",
+    "color": "black",
     "textAlign":"center",
     "zIndex":2
 }
