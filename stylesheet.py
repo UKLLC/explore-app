@@ -88,19 +88,22 @@ TABLE_LIST_ITEM_STYLE = {
     "border-width":"thin",
     "overflow":"hidden",
     "background": "white",
-
     }
 
 ######################################
 
 CONTEXT_BAR_STYLE = {
-    "position": "relative",
+    "position": "fixed",
     "top": str(titlebar_h)+"rem",
     "height" : str(context_bar_h)+"rem",
     "width":"85%",
     "left":"15%",
     "background-color": "black",
     "overflow-x":"hidden",
+    "zIndex":2,
+
+    "border" : "solid",
+    "border-color" : "purple",
 }
 
 
@@ -108,22 +111,22 @@ CONTEXT_BAR_STYLE = {
 
 BODY_STYLE = {
     "position": "relative",
-    "top": str(titlebar_h)+"rem",
+    "top": str(titlebar_h+context_bar_h)+"rem",
     "left":"15%",
     "width":"85%",
-    "height":"100%",
+    "height":"calc(100%-"+str(titlebar_h+context_bar_h)+")",
     "zIndex":0,
-    "overflow-y":"scroll",
     "overflow-x":"hidden",
 
     "border" : "solid",
     "border-color" : "green",
     }
 
-MAP_DIV_STYLE = {
-    "width":"100%",
-    "height":"100%",
+# Map #################################
 
+MAP_DIV_STYLE = {
+    "border" : "solid",
+    "border-color" : "blue",
     }
 
 MAP_TITLE_STYLE = {
@@ -143,6 +146,123 @@ DYNA_MAP_STYLE = {
 POLYGON_STYLE = assign("""function(feature, context){
         return weight=5, color='#666', dashArray='';
 };""")
+
+# Documentation #######################
+
+DOC_TITLE_STYLE = {
+    "width":"100%",
+    "height":"3rem",
+    "color":"white",
+    "background-color":black[0],
+    "padding-top":"0.5rem",
+    "padding-left":"1rem",
+}
+
+DOCUMENTATION_BOX_STYLE ={
+    "color":"white",
+    "background-color":black[2],
+
+    "border" : "solid",
+    "border-color" : "red",
+    "padding" : "1rem"
+}
+
+TABLE_DOC_DIV = {
+    "border" : "solid",
+    "border-color" : "orange",
+}
+
+TABLES_DOC_HEADER = {
+    'textAlign': 'left',
+    'overflow': 'hidden',
+    'textOverflow': 'ellipsis',
+    'whiteSpace': 'normal',
+    'height': 'auto',
+    "background-color":black[0],
+    "color":"white"
+}
+
+TABLES_DOC_CELL = {
+    'textAlign': 'left',
+    'overflow': 'hidden',
+    'textOverflow': 'ellipsis',
+    'whiteSpace': 'normal',
+    'height': 'auto',
+    "background-color":black[1],
+    }
+TABLES_DOC_CONDITIONAL = {'if': {
+        'row_index': 'even'
+    },
+    'backgroundColor': black[2],
+}
+
+# METADATA #######################
+METADATA_TITLE_STYLE = {
+    "width":"100%",
+    "height":"3rem",
+    "color":"black",
+    "background-color":white[0],
+    "padding-top":"0.5rem",
+    "padding-left":"1rem",
+}
+
+METADATA_BOX_STYLE = {
+    "color":"white",
+    "background-color":white[2],
+
+    "padding" : "1rem"
+}
+
+METADATA_DESC_HEADER = {
+    'textAlign': 'left','overflow': 'hidden',
+    'textOverflow': 'ellipsis',
+    'whiteSpace': 'normal',
+    'height': 'auto',
+    "background-color":white[3],
+    "color":"white"
+}
+
+METADATA_DESC_CELL = {
+    'textAlign': 'left',
+    'overflow': 'hidden',
+    'textOverflow': 'ellipsis',
+    'whiteSpace': 'normal',
+    'height': 'auto',
+    "background-color":white[1],
+    "color":"black"
+}
+
+METADATA_TABLE_DIV_STYLE = {
+    "margin-top" : "1rem",
+    "border" : "solid",
+    "border-color" : "red",
+}
+
+METADATA_TABLE_HEADER = {
+    'textAlign': 'left',
+    'overflow': 'hidden',
+    'textOverflow': 'ellipsis',
+    'whiteSpace': 'normal',
+    'height': 'auto',
+    "background-color":white[3],
+    "color":"white"
+}
+
+METADATA_TABLE_CELL = {
+    'textAlign': 'left',
+    'overflow': 'hidden',
+    'textOverflow': 'ellipsis',
+    'whiteSpace': 'normal',
+    'height': 'auto',
+    "background-color":white[1],
+    "color":"black"
+    }
+
+METADATA_CONDITIONAL = {'if': {
+        'row_index': 'even'
+    },
+    'backgroundColor': white[2]
+}
 
 ###################################
 APP_STYLE = {

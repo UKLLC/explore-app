@@ -19,6 +19,8 @@ from app_state import App_State
 import read_data_request
 import stylesheet as ss
 import constants 
+import structures as struct
+
 
 ######################################################################################
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
@@ -56,129 +58,46 @@ def get_study_tables(schema):
 ### page asset templates
 
 # Titlebar ###########################################################################
-titlebar = html.Div([html.H1("Data Discoverability Resource", className="title")],style = ss.TITLEBAR_STYLE)
+titlebar = struct.main_titlebar("Data Discoverability Resource")
 
 # Left Sidebar #######################################################################
-def single_col_table(df, id):
-    return dash_table.DataTable(
-            id=id,
-            data=df.to_dict('records'),
-            editable=False,
-            
-            column_selectable="single",
-            row_selectable=False,
-            row_deletable=False,
-            style_cell={'textAlign': 'left'}
-            )
 
-def quick_table(df, id):
-    return dash_table.DataTable(
-            id=id,
-            data=df.to_dict('records'),
-            columns=[{"name": i, "id": i} for i in df.columns], 
-            editable=False,
-            row_selectable=False,
-            row_deletable=False,
-            style_cell={'textAlign': 'left','overflow': 'hidden',
-            'textOverflow': 'ellipsis',
-            'maxWidth': 0},
-            )
-
-def make_sidebar_catalogue():
-    sidebar_children = []
-    schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
-    for i, row in schema_df.iterrows():
-        schema = row["Data Directory"]
-
-        tables = get_study_tables(schema)["Block Name"]
-
-        schema_children = dbc.Collapse(dbc.ListGroup(id = schema+"_tables_list",
-        children = [
-            dbc.ListGroupItem(table, style=ss.TABLE_LIST_ITEM_STYLE,action=True,active=False,key = schema+"-"+table, id={
-            'type': 'sidebar_table_item',
-            "value":schema+"-"+table
-        }) for table in tables],
-        style = ss.COLLAPSE_DIV_STYLE,flush=True)
-        , id={
-            'type': 'schema_collapse',
-            'index': i
-        },
-        style=ss.TABLE_LIST_STYLE,
-        is_open=False)
-
-        sidebar_children += [dbc.ListGroupItem(schema, action=True,active=False, id={
-            'type': 'schema_item',
-            'index': i
-        }, key = schema,
-        style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
-    return dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")
-
-sidebar_catalogue = html.Div([make_sidebar_catalogue()], id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
-
-
-sidebar_title = html.Div([
-        html.Div(html.H2("Data Directory")),
-        html.Div(html.P("Placeholder searchbar"))], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
-
-sidebar_left = html.Div([
-        sidebar_title,
-        sidebar_catalogue],
-        style = ss.SIDEBAR_LEFT_STYLE,
-        id = "sidebar_left_div")
+sidebar_catalogue = struct.make_sidebar_catalogue(study_df)
+sidebar_title = struct.make_sidebar_title()
+sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
 # Context bar #########################################################################
 
-
-context_bar_div = html.Div([], id = "context_bar_div", style = ss.CONTEXT_BAR_STYLE)
+context_bar_div = struct.make_context_bar()
 
 # Body ################################################################################
-
-
-
 # get base map ########################################################################
-url = 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
-attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> '
 
-map_box = html.Div([
-    html.Div([
-        html.Div(html.H2("Coverage: Study Name Placeholder"))
-    ], id = "map_box_title", style = ss.MAP_TITLE_STYLE),
+map_box = struct.make_map_box("Coverage: Study Name Placeholder")
 
-    dl.Map(
-        center=[54.5,-3.5], zoom=5, 
-        children=[
-        dl.TileLayer(url=url, maxZoom=20, attribution=attribution),
-        dl.GeoJSON(data = None, id = "map_region", options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0)
-        ,hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))),
-        ],id="map", style = ss.DYNA_MAP_STYLE),
-        
-], id = "map_div", style = ss.MAP_DIV_STYLE)
+documentation_box = struct.make_documentation_box("Documentation: Study Name Placeholder")
 
+metadata_box = struct.make_metadata_box("Metadata: Study Name Placeholder")
 
 # Main div template ##################################################################
-maindiv = html.Div([
-    map_box
-    ],
-    id="body",
-    style = ss.BODY_STYLE
-    )
+maindiv = struct.make_body([map_box, documentation_box, metadata_box])
 
-schema_record = html.Div([],key = "None",id = {"type":"active_schema", "content":"None"})
-table_record = html.Div([],key = "None",id = {"type":"active_table", "content":"None"})
-
-
+schema_record = struct.make_variable_div("active_schema")
+table_record = struct.make_variable_div("active_table")
 
 ###########################################
 ### Layout
-app.layout = html.Div([titlebar, sidebar_left, context_bar_div, maindiv, schema_record, table_record], id="app",style=ss.APP_STYLE) 
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record])
 
 ###########################################
 
 ###########################################
 ### Actions
 
+
+### DOCUMENTATION BOX #####################
 @app.callback(
-    Output('schema_description_text', "children"),
+    Output('schema_description_div', "children"),
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
 )
 def update_schema_description(schema):
@@ -191,41 +110,71 @@ def update_schema_description(schema):
             schema_info = "Generic info about nhsd"
             return schema_info
         else:
-            out_text = []
-            for col in schema_info.columns:
-                out_text.append(html.B("{}".format(col)))
-                out_text.append(html.Br())
-                out_text.append(" {}".format(schema_info[col].values[0]))
-                out_text.append(html.Br())
-            return [html.Hr(), html.P(out_text)]
-
+            return struct.make_schema_description(schema_info)
     else:
-        return [html.Hr(), html.P("Select a schema for more information...")]
+        # Default (Section may be hidden in final version)
+        return [html.P("Select a schema for more information...")]
+
 
 @app.callback(
-    Output('table_description_text', "children"),
+    Output('table_description_div', "children"),
+    Input({'type': 'active_schema', 'content': ALL}, 'key'),
+)
+def update_tables_description(schema):
+    '''
+    Replace contents of description box with table information 
+    '''
+    schema = schema[0]
+    if schema != "None":
+        tables = get_study_tables(schema)
+        if schema == "NHSD": # Expand to linked data branch
+            schema_info = "Generic info about nhsd table"
+            return schema_info
+        else: # Study data branch
+            return struct.data_doc_table(tables, "table_desc_table")
+    else:
+        # Default (Section may be hidden in final version)
+        return html.P("Select a table for more information...")
+
+
+### METADATA BOX #####################
+
+@app.callback(
+    Output('table_meta_desc_div', "children"),
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
     Input({'type': 'active_table', 'content': ALL}, 'key'),
 )
-def update_table_description(schema, table):
+def update_table_metadata(schema, table):
+    #pass until metadata block ready
     schema = schema[0]
-    table = (table[0]).replace(schema+"_","")
-    if schema != "None" and table != "None":
+    if schema != "None":
         tables = get_study_tables(schema)
-        table_row = tables.loc[tables["Block Name"] == table]
-        if schema == "NHSD":
-            schema_info = "Generic info about nhsd table"
-            return schema_info
-        else:
-            out_text = []
-            for col in constants.DATA_DESC_COLS:
-                out_text.append(html.B("{}".format(col)))
-                out_text.append(html.Br())
-                out_text.append(" {}".format(table_row[col].values[0]))
-                out_text.append(html.Br())
-            return [html.Hr(), html.P(out_text)]
+
+        tables = tables.loc[tables["Block Name"] == table[0]]
+        if schema == "NHSD": # Expand to linked data branch
+            return html.P("NHSD placeholder text")
+        else: # Study data branch
+            return struct.metadata_doc_table(tables, "table_desc_table")
     else:
-        return [html.Hr(), html.P("Select a table for more information...")]
+        # Default (Section may be hidden in final version)
+        return html.P("Select a table for more information...")
+
+@app.callback(
+    Output('table_metadata_div', "children"),
+    Input({'type': 'active_schema', 'content': ALL}, 'key'),
+    Input({'type': 'active_table', 'content': ALL}, 'key'),
+)
+def update_table_metadata(schema, table):
+    #pass until metadata block ready
+    print(schema, table)
+    if table[0] == "None":
+        print("Debug, update_table_metadata: Table is none")
+        return None
+
+    metadata_df = read_data_request.load_study_metadata(schema[0], table[0])
+    return struct.metadata_table(metadata_df, "metadata_table")
+    #return html.P("DEMO")
+    
 
 
 @app.callback(
@@ -239,6 +188,7 @@ def update_table_description(schema, table):
     State({"type": "schema_collapse", "index" : ALL}, "is_open"),
 )
 def sidebar_clicks(_,children, active_schema, collapse):
+    print("Debug: Reading sidebar click")
 
     schema_clicks = {}
     table_clicks = {}   
