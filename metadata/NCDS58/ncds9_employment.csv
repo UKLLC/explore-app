@@ -1,0 +1,967 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1042338,NCDS58,ncds9_employment,study_id_e,,,
+1042339,NCDS58,ncds9_employment,n9actid,sortkey: employment record index,,
+1042340,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,-9.0,Refused
+1042341,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,-8.0,Don't know
+1042342,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,-1.0,not applicable
+1042343,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,1.0,Fixed term or temporary job ended
+1042344,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,2.0,Made redundant
+1042345,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,3.0,Voluntary redundancy
+1042346,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,4.0,Dismissed from job
+1042347,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,5.0,Retired
+1042348,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,6.0,Left job for health reasons
+1042349,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,7.0,Career break
+1042350,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,8.0,More money
+1042351,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,9.0,Better job
+1042352,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,10.0,Firm closed down/ business failed
+1042353,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,11.0,Left to care for family member
+1042354,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,12.0,Moved to a different area
+1042355,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,13.0,Just decided to leave
+1042356,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,14.0,Harassment
+1042357,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,15.0,Increased hours
+1042358,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,16.0,Merger/aquisition/internal restructure
+1042359,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,17.0,Personal reasons/family commitment
+1042360,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,18.0,Lack of job satisfaction/security
+1042361,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,19.0,Better location/emigrated
+1042362,NCDS58,ncds9_employment,n9ayend,Main reason stopped that period of employment/self-employment,20.0,Other Answer
+1042363,NCDS58,ncds9_employment,n9aendy,When period of economic activity ended - Year,-9.0,Refused
+1042364,NCDS58,ncds9_employment,n9aendy,When period of economic activity ended - Year,-8.0,Donâ€™t know but before 2000
+1042365,NCDS58,ncds9_employment,n9aendy,When period of economic activity ended - Year,-1.0,not applicable
+1042366,NCDS58,ncds9_employment,n9aendy,When period of economic activity ended - Year,0.0,Before 2000
+1042367,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,-9.0,Refused
+1042368,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,-8.0,Don't know
+1042369,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,-1.0,not applicable
+1042370,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,0.0,Before 2000
+1042371,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,1.0,January
+1042372,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,2.0,February
+1042373,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,3.0,March
+1042374,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,4.0,April
+1042375,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,5.0,May
+1042376,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,6.0,June
+1042377,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,7.0,July
+1042378,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,8.0,August
+1042379,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,9.0,September
+1042380,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,10.0,October
+1042381,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,11.0,November
+1042382,NCDS58,ncds9_employment,n9aendm,When period of economic activity ended - Month,12.0,December
+1042383,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,-1.0,not applicable
+1042384,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,1.0,Employee - in paid work
+1042385,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,2.0,Self employed
+1042386,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,3.0,Unemployed and seeking work
+1042387,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,4.0,In full-time education
+1042388,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,5.0,On govt. scheme for employment training
+1042389,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,6.0,Sick or disabled
+1042390,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,7.0,Looking after home/family
+1042391,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,8.0,Wholly retired
+1042392,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,9.0,Something else
+1042393,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,-9.0,Refused
+1042394,NCDS58,ncds9_employment,n9aactv2,Which of the following best describes what you were doing next?,-8.0,Don't know
+1042395,NCDS58,ncds9_employment,n9apdwk,And were you working full-time or part-time?,-9.0,Refused
+1042396,NCDS58,ncds9_employment,n9apdwk,And were you working full-time or part-time?,-8.0,Don't know
+1042397,NCDS58,ncds9_employment,n9apdwk,And were you working full-time or part-time?,-1.0,not applicable
+1042398,NCDS58,ncds9_employment,n9apdwk,And were you working full-time or part-time?,1.0,Full-time (30 or more hours a week)
+1042399,NCDS58,ncds9_employment,n9apdwk,And were you working full-time or part-time?,2.0,Part-time (under 30 hours a week)
+1042400,NCDS58,ncds9_employment,n9asckds,And were you temporarily sick or disabled or long-term sick or disabled?,-9.0,Refused
+1042401,NCDS58,ncds9_employment,n9asckds,And were you temporarily sick or disabled or long-term sick or disabled?,-8.0,Don't know
+1042402,NCDS58,ncds9_employment,n9asckds,And were you temporarily sick or disabled or long-term sick or disabled?,-1.0,not applicable
+1042403,NCDS58,ncds9_employment,n9asckds,And were you temporarily sick or disabled or long-term sick or disabled?,1.0,Temp. sick/disabled (6 mth or less)
+1042404,NCDS58,ncds9_employment,n9asckds,And were you temporarily sick or disabled or long-term sick or disabled?,2.0,Long-term sick/disabled (6 mth or more)
+1042405,NCDS58,ncds9_employment,n9aactiv,Next economic activity,-9.0,Refused
+1042406,NCDS58,ncds9_employment,n9aactiv,Next economic activity,-8.0,Don't know
+1042407,NCDS58,ncds9_employment,n9aactiv,Next economic activity,-1.0,not applicable
+1042408,NCDS58,ncds9_employment,n9aactiv,Next economic activity,1.0,Full-time paid employee
+1042409,NCDS58,ncds9_employment,n9aactiv,Next economic activity,2.0,Part-time paid employee
+1042410,NCDS58,ncds9_employment,n9aactiv,Next economic activity,3.0,Full-time self-employed
+1042411,NCDS58,ncds9_employment,n9aactiv,Next economic activity,4.0,Part-time self-employed
+1042412,NCDS58,ncds9_employment,n9aactiv,Next economic activity,5.0,Unemployed and seeking work
+1042413,NCDS58,ncds9_employment,n9aactiv,Next economic activity,6.0,Full-time education
+1042414,NCDS58,ncds9_employment,n9aactiv,Next economic activity,7.0,Government employment training scheme
+1042415,NCDS58,ncds9_employment,n9aactiv,Next economic activity,8.0,Temporarily sick/disabled
+1042416,NCDS58,ncds9_employment,n9aactiv,Next economic activity,9.0,Long term sick/disabled
+1042417,NCDS58,ncds9_employment,n9aactiv,Next economic activity,10.0,Looking after household members
+1042418,NCDS58,ncds9_employment,n9aactiv,Next economic activity,11.0,Wholly retired
+1042419,NCDS58,ncds9_employment,n9aactiv,Next economic activity,12.0,Voluntary work
+1042420,NCDS58,ncds9_employment,n9aactiv,Next economic activity,13.0,Career break/taking some time off work
+1042421,NCDS58,ncds9_employment,n9aactiv,Next economic activity,14.0,Other Answer
+1042422,NCDS58,ncds9_employment,n9awrkhr,Whether changed employer as well as hours,-9.0,Refused
+1042423,NCDS58,ncds9_employment,n9awrkhr,Whether changed employer as well as hours,-8.0,Don't know
+1042424,NCDS58,ncds9_employment,n9awrkhr,Whether changed employer as well as hours,-1.0,not applicable
+1042425,NCDS58,ncds9_employment,n9awrkhr,Whether changed employer as well as hours,1.0,Change of employer/nature of work
+1042426,NCDS58,ncds9_employment,n9awrkhr,Whether changed employer as well as hours,2.0,Change in working hours only
+1042427,NCDS58,ncds9_employment,n9cljqul,Did this job require any special qualifications or training?,-9.0,Refused
+1042428,NCDS58,ncds9_employment,n9cljqul,Did this job require any special qualifications or training?,-8.0,Don't know
+1042429,NCDS58,ncds9_employment,n9cljqul,Did this job require any special qualifications or training?,-1.0,not applicable
+1042430,NCDS58,ncds9_employment,n9cljqul,Did this job require any special qualifications or training?,1.0,Yes
+1042431,NCDS58,ncds9_employment,n9cljqul,Did this job require any special qualifications or training?,2.0,No
+1042432,NCDS58,ncds9_employment,n9ajsup,Whether had managerial duties or supervised other employees,-9.0,Refused
+1042433,NCDS58,ncds9_employment,n9ajsup,Whether had managerial duties or supervised other employees,-8.0,Don't know
+1042434,NCDS58,ncds9_employment,n9ajsup,Whether had managerial duties or supervised other employees,-1.0,not applicable
+1042435,NCDS58,ncds9_employment,n9ajsup,Whether had managerial duties or supervised other employees,1.0,Yes
+1042436,NCDS58,ncds9_employment,n9ajsup,Whether had managerial duties or supervised other employees,2.0,No
+1042437,NCDS58,ncds9_employment,n9ajsmp,Whether worked on own or had employees,-9.0,Refused
+1042438,NCDS58,ncds9_employment,n9ajsmp,Whether worked on own or had employees,-8.0,Don't know
+1042439,NCDS58,ncds9_employment,n9ajsmp,Whether worked on own or had employees,-1.0,not applicable
+1042440,NCDS58,ncds9_employment,n9ajsmp,Whether worked on own or had employees,1.0,On own/with partner(s) but no employees
+1042441,NCDS58,ncds9_employment,n9ajsmp,Whether worked on own or had employees,2.0,With employees
+1042442,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,-9.0,Refused
+1042443,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,-8.0,Don't know
+1042444,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,-1.0,not applicable
+1042445,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,1.0,1-9
+1042446,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,2.0,10-24
+1042447,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,3.0,25-99
+1042448,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,4.0,100-499
+1042449,NCDS58,ncds9_employment,n9ajsnp,Number of people employed at place where worked,5.0,500 or more
+1042450,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),-1.0,Not applicable
+1042451,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),0.0,Insufficient information to classify
+1042452,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),1.0,Employers - large organisations 25+
+1042453,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),2.0,Employers - small organisations <25
+1042454,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),3.0,Self-employed no employees
+1042455,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),4.0,Managers - large organisations
+1042456,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),5.0,Managers - small organisations
+1042457,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),6.0,Supervisors
+1042458,NCDS58,ncds9_employment,n9aempst,Employment status (CM acthist),7.0,Other employees
+1042459,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4124.0,Finance officers
+1042460,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4129.0,Financial administrative occupations n.e.c.
+1042461,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4131.0,Records clerks and assistants
+1042462,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4132.0,Pensions and insurance clerks and assistants
+1042463,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4133.0,Stock control clerks and assistants
+1042464,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4134.0,Transport and distribution clerks and assistants
+1042465,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4135.0,Library clerks and assistants
+1042466,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4138.0,Human resources administrative occupations
+1042467,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4151.0,Sales administrators
+1042468,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4159.0,Other administrative occupations n.e.c.
+1042469,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4161.0,Office managers
+1042470,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4162.0,Office supervisors
+1042471,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4211.0,Medical secretaries
+1042472,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4212.0,Legal secretaries
+1042473,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4213.0,School secretaries
+1042474,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4214.0,Company secretaries
+1042475,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4215.0,Personal assistants and other secretaries
+1042476,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4216.0,Receptionists
+1042477,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4217.0,Typists and related keyboard occupations
+1042478,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5111.0,Farmers
+1042479,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5112.0,Horticultural trades
+1042480,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5113.0,Gardeners and landscape gardeners
+1042481,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5114.0,Groundsmen and greenkeepers
+1042482,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5119.0,Agricultural and fishing trades n.e.c.
+1042483,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5211.0,Smiths and forge workers
+1042484,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5212.0,"Moulders, core makers, die casters"
+1042485,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5213.0,Sheet metal workers
+1042486,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5214.0,"Metal plate workers, and riveters"
+1042487,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5215.0,Welding trades
+1042488,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5216.0,Pipe fitters
+1042489,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1173.0,"Senior officers in fire, ambulance, prison and related services"
+1042490,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1181.0,Health services and public health managers and directors
+1042491,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1184.0,Social services managers and directors
+1042492,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1190.0,Managers and directors in retail and wholesale
+1042493,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1211.0,Managers and proprietors in agriculture and horticulture
+1042494,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1213.0,"Managers and proprietors in forestry, fishing and related services"
+1042495,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5412.0,Upholsterers
+1042496,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5413.0,Footwear and leather working trades
+1042497,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5414.0,Tailors and dressmakers
+1042498,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5419.0,"Textiles, garments and related trades n.e.c."
+1042499,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5421.0,Pre-press technicians
+1042500,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5422.0,Printers
+1042501,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5423.0,Print finishing and binding workers
+1042502,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5431.0,Butchers
+1042503,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5432.0,Bakers and flour confectioners
+1042504,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5433.0,Fishmongers and poultry dressers
+1042505,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5434.0,Chefs
+1042506,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5435.0,Cooks
+1042507,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5436.0,Catering and bar managers
+1042508,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5441.0,"Glass and ceramics makers, decorators and finishers"
+1042509,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5442.0,Furniture makers and other craft woodworkers
+1042510,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5443.0,Florists
+1042511,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5449.0,Other skilled trades n.e.c.
+1042512,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6121.0,Nursery nurses and assistants
+1042513,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6122.0,Childminders and related occupations
+1042514,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6123.0,Playworker
+1042515,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6125.0,Teaching assistants
+1042516,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6126.0,Educational support assistants
+1042517,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6131.0,Veterinary nurses
+1042518,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6132.0,Pest control officers
+1042519,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6139.0,Animal care services occupations n.e.c.
+1042520,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6141.0,Nursing auxiliaries and assistants
+1042521,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6142.0,Ambulance staff (excluding paramedics)
+1042522,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6143.0,Dental nurses
+1042523,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6144.0,Houseparents and residential wardens
+1042524,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6145.0,Care workers and home carers
+1042525,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6146.0,Senior care workers
+1042526,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6147.0,Care escorts
+1042527,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6148.0,"Undertakers, mortuary and crematorium assistants"
+1042528,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6211.0,Sports and leisure assistants
+1042529,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6212.0,Travel agents
+1042530,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6214.0,Air travel assistants
+1042531,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6215.0,Rail travel assistants
+1042532,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6219.0,Leisure and travel service occupations n.e.c.
+1042533,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6221.0,Hairdressers and barbers
+1042534,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6222.0,Beauticians and related occupations
+1042535,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6231.0,Housekeepers and related occupations
+1042536,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6232.0,Caretakers
+1042537,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),6240.0,Cleaning and housekeeping managers and supervisors
+1042538,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7111.0,Sales and retail assistants
+1042539,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7112.0,Retail cashiers and check-out operators
+1042540,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7113.0,Telephone salespersons
+1042541,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7114.0,Pharmacy and other dispensing assistants
+1042542,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7115.0,Vehicle and parts salespersons and advisers
+1042543,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7121.0,Collector salespersons and credit agents
+1042544,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7122.0,"Debt, rent and other cash collectors"
+1042545,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7123.0,Roundspersons and van salespersons
+1042546,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7124.0,Market and street traders and assistants
+1042547,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7125.0,Merchandisers and window dressers
+1042548,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7129.0,Sales related occupations n.e.c.
+1042549,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7130.0,Sales supervisors
+1042550,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7211.0,Call and contact centre occupations
+1042551,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7213.0,Telephonists
+1042552,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7214.0,Communication operators
+1042553,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7215.0,Market research interviewers
+1042554,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7219.0,Customer service occupations n.e.c.
+1042555,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),7220.0,Customer service managers and supervisors
+1042556,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8111.0,"Food, drink and tobacco process operatives"
+1042557,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8112.0,Glass and ceramics process operatives
+1042558,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8113.0,Textile process operatives
+1042559,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8114.0,Chemical and related process operatives
+1042560,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8115.0,Rubber process operatives
+1042561,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8116.0,Plastics process operatives
+1042562,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8117.0,Metal making and treating process operatives
+1042563,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8118.0,Electroplaters
+1042564,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8119.0,Process operatives n.e.c.
+1042565,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8121.0,Paper and wood machine operatives
+1042566,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8122.0,Coal mine operatives
+1042567,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8123.0,Quarry workers and related operatives
+1042568,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8124.0,Energy plant operatives
+1042569,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8125.0,Metal working machine operatives
+1042570,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8126.0,Water and sewerage plant operatives
+1042571,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8127.0,Printing machine assistants
+1042572,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8129.0,Plant and machine operatives n.e.c.
+1042573,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8131.0,Assemblers (electrical and electronic products)
+1042574,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1221.0,Hotel and accommodation managers and proprietors
+1042575,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1223.0,Restaurant and catering establishment managers and proprietors
+1042576,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8221.0,Crane drivers
+1042577,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8222.0,Fork-lift truck drivers
+1042578,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8223.0,Agricultural machinery drivers
+1042579,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8229.0,Mobile machine drivers and operatives n.e.c.
+1042580,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8231.0,Train drivers
+1042581,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8232.0,Marine and waterways transport operatives
+1042582,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8233.0,Air transport operatives
+1042583,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8234.0,Rail transport operatives
+1042584,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8239.0,Other drivers and transport operatives n.e.c.
+1042585,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9111.0,Farm workers
+1042586,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9112.0,Forestry workers
+1042587,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9119.0,Fishing and other elementary agriculture occupations n.e.c.
+1042588,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9120.0,Elementary construction occupations
+1042589,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9132.0,Industrial cleaning process occupations
+1042590,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9134.0,"Packers, bottlers, canners and fillers"
+1042591,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9139.0,Elementary process plant occupations n.e.c.
+1042592,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9211.0,"Postal workers, mail sorters, messengers and couriers"
+1042593,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9219.0,Elementary administration occupations n.e.c.
+1042594,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9231.0,Window cleaners
+1042595,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9232.0,Street cleaners
+1042596,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9233.0,Cleaners and domestics
+1042597,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9234.0,"Launderers, dry cleaners and pressers"
+1042598,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9235.0,Refuse and salvage occupations
+1042599,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9236.0,Vehicle valeters and cleaners
+1042600,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9239.0,Elementary cleaning occupations n.e.c.
+1042601,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9241.0,Security guards and related occupations
+1042602,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9242.0,Parking and civil enforcement occupations
+1042603,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9244.0,School mid-day and crossing patrol occupations
+1042604,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9249.0,Elementary security occupations n.e.c.
+1042605,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3312.0,Police officers (sergeant and below)
+1042606,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3313.0,Fire service officers (watch manager and below)
+1042607,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3314.0,Prison service officers (below principal officer)
+1042608,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3315.0,Police community support officers
+1042609,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3319.0,Protective service associate professionals n.e.c.
+1042610,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3411.0,Artists
+1042611,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3412.0,"Authors, writers and translators"
+1042612,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3413.0,"Actors, entertainers and presenters"
+1042613,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3414.0,Dancers and choreographers
+1042614,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3415.0,Musicians
+1042615,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3416.0,"Arts officers, producers and directors"
+1042616,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3417.0,"Photographers, audio-visual and broadcasting equipment operators"
+1042617,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3421.0,Graphic designers
+1042618,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3422.0,"Product, clothing and related designers"
+1042619,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3441.0,Sports players
+1042620,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3442.0,"Sports coaches, instructors and officials"
+1042621,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3443.0,Fitness instructors
+1042622,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3511.0,Air traffic controllers
+1042623,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3512.0,Aircraft pilots and flight engineers
+1042624,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3513.0,Ship and hovercraft officers
+1042625,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3520.0,Legal associate professionals
+1042626,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3531.0,"Estimators, valuers and assessors"
+1042627,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3532.0,Brokers
+1042628,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3533.0,Insurance underwriters
+1042629,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3534.0,Finance and investment analysts and advisers
+1042630,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3535.0,Taxation experts
+1042631,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3536.0,Importers and exporters
+1042632,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3537.0,Financial and accounting technicians
+1042633,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3538.0,Financial accounts managers
+1042634,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3539.0,Business and related associate professionals n.e.c.
+1042635,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3541.0,Buyers and procurement officers
+1042636,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3542.0,Business sales executives
+1042637,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3543.0,Marketing associate professionals
+1042638,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3544.0,Estate agents and auctioneers
+1042639,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3545.0,Sales accounts and business development managers
+1042640,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3546.0,Conference and exhibition managers and organisers
+1042641,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3550.0,Conservation and environmental associate professionals
+1042642,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3561.0,Public services associate professionals
+1042643,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3562.0,Human resources and industrial relations officers
+1042644,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3563.0,Vocational and industrial trainers and instructors
+1042645,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3564.0,Careers advisers and vocational guidance specialists
+1042646,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3565.0,Inspectors of standards and regulations
+1042647,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3567.0,Health and safety officers
+1042648,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4112.0,National government administrative occupations
+1042649,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4113.0,Local government administrative occupations
+1042650,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4114.0,Officers of non-governmental organisations
+1042651,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1224.0,Publicans and managers of licensed premises
+1042652,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1225.0,Leisure and sports managers
+1042653,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1226.0,Travel agency managers and proprietors
+1042654,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1241.0,Health care practice managers
+1042655,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1242.0,"Residential, day and domiciliary care managers and proprietors"
+1042656,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1251.0,"Property, housing and estate managers"
+1042657,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1252.0,Garage managers and proprietors
+1042658,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1253.0,Hairdressing and beauty salon managers and proprietors
+1042659,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1254.0,Shopkeepers and proprietors wholesale and retail
+1042660,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1255.0,Waste disposal and environmental services managers
+1042661,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1259.0,Managers and proprietors in other services n.e.c.
+1042662,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2111.0,Chemical scientists
+1042663,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2112.0,Biological scientists and biochemists
+1042664,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2113.0,Physical scientists
+1042665,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2114.0,Social and humanities scientists
+1042666,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2119.0,Natural and social science professionals n.e.c.
+1042667,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2121.0,Civil engineers
+1042668,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2122.0,Mechanical engineers
+1042669,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2123.0,Electrical engineers
+1042670,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2124.0,Electronics engineers
+1042671,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2126.0,Design and development engineers
+1042672,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2127.0,Production and process engineers
+1042673,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2129.0,Engineering professionals n.e.c.
+1042674,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2133.0,IT specialist managers
+1042675,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2134.0,IT project and programme managers
+1042676,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2135.0,"IT business analysts, architects and systems designers"
+1042677,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2136.0,Programmers and software development professionals
+1042678,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2137.0,Web design and development professionals
+1042679,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2139.0,Information technology and telecommunications professionals n.e.c.
+1042680,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2141.0,Conservation professionals
+1042681,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2142.0,Environment professionals
+1042682,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2150.0,Research and development managers
+1042683,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2211.0,Medical practitioners
+1042684,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2212.0,Psychologists
+1042685,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2213.0,Pharmacists
+1042686,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2214.0,Ophthalmic opticians
+1042687,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2215.0,Dental practitioners
+1042688,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2216.0,Veterinarians
+1042689,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2217.0,Medical radiographers
+1042690,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2218.0,Podiatrists
+1042691,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2219.0,Health professionals n.e.c.
+1042692,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2221.0,Physiotherapists
+1042693,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2222.0,Occupational therapists
+1042694,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2223.0,Speech and language therapists
+1042695,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2229.0,Therapy professionals n.e.c.
+1042696,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2231.0,Nurses
+1042697,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2232.0,Midwives
+1042698,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2311.0,Higher education teaching professionals
+1042699,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2312.0,Further education teaching professionals
+1042700,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2314.0,Secondary education teaching professionals
+1042701,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2315.0,Primary and nursery education teaching professionals
+1042702,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2316.0,Special needs education teaching professionals
+1042703,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2317.0,Senior professionals of educational establishments
+1042704,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2318.0,Education advisers and school inspectors
+1042705,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2319.0,Teaching and other educational professionals n.e.c.
+1042706,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2412.0,Barristers and judges
+1042707,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2413.0,Solicitors
+1042708,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2419.0,Legal professionals n.e.c.
+1042709,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2421.0,Chartered and certified accountants
+1042710,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2423.0,Management consultants and business analysts
+1042711,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2424.0,Business and financial project management professionals
+1042712,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2425.0,"Actuaries, economists and statisticians"
+1042713,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2426.0,Business and related research professionals
+1042714,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2429.0,"Business, research and administrative professionals n.e.c."
+1042715,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2431.0,Architects
+1042716,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2432.0,Town planning officers
+1042717,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2433.0,Quantity surveyors
+1042718,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2434.0,Chartered surveyors
+1042719,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2435.0,Chartered architectural technologists
+1042720,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2436.0,Construction project managers and related professionals
+1042721,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2442.0,Social workers
+1042722,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2443.0,Probation officers
+1042723,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2444.0,Clergy
+1042724,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2449.0,Welfare professionals n.e.c.
+1042725,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2451.0,Librarians
+1042726,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2452.0,Archivists and curators
+1042727,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2461.0,Quality control and planning engineers
+1042728,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2462.0,Quality assurance and regulatory professionals
+1042729,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2463.0,Environmental health professionals
+1042730,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2471.0,"Journalists, newspaper and periodical editors"
+1042731,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2472.0,Public relations professionals
+1042732,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),2473.0,Advertising accounts managers and creative directors
+1042733,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3111.0,Laboratory technicians
+1042734,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3112.0,Electrical and electronics technicians
+1042735,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3113.0,Engineering technicians
+1042736,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3114.0,Building and civil engineering technicians
+1042737,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3115.0,Quality assurance technicians
+1042738,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3116.0,"Planning, process and production technicians"
+1042739,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3119.0,"Science, engineering and production technicians n.e.c."
+1042740,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3121.0,Architectural and town planning technicians
+1042741,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3122.0,Draughtspersons
+1042742,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3131.0,IT operations technicians
+1042743,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3132.0,IT user support technicians
+1042744,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3213.0,Paramedics
+1042745,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3216.0,Dispensing opticians
+1042746,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3217.0,Pharmaceutical technicians
+1042747,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3218.0,Medical and dental technicians
+1042748,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3219.0,Health associate professionals n.e.c.
+1042749,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3231.0,Youth and community workers
+1042750,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3233.0,Child and early years officers
+1042751,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3234.0,Housing officers
+1042752,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3235.0,Counsellors
+1042753,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3239.0,Welfare and housing associate professionals n.e.c.
+1042754,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),3311.0,NCOs and other ranks
+1042755,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8143.0,Rail construction and maintenance operatives
+1042756,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8149.0,Construction operatives n.e.c.
+1042757,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8211.0,Large goods vehicle drivers
+1042758,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8212.0,Van drivers
+1042759,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8213.0,Bus and coach drivers
+1042760,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8214.0,Taxi and cab drivers and chauffeurs
+1042761,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8215.0,Driving instructors
+1042762,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8132.0,Assemblers (vehicles and metal goods)
+1042763,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8133.0,Routine inspectors and testers
+1042764,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8134.0,"Weighers, graders and sorters"
+1042765,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8135.0,"Tyre, exhaust and windscreen fitters"
+1042766,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8137.0,Sewing machinists
+1042767,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8139.0,Assemblers and routine operatives n.e.c.
+1042768,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8141.0,"Scaffolders, stagers and riggers"
+1042769,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),8142.0,Road construction operatives
+1042770,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9251.0,Shelf fillers
+1042771,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9259.0,Elementary sales occupations n.e.c.
+1042772,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9260.0,Elementary storage occupations
+1042773,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9271.0,Hospital porters
+1042774,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9272.0,Kitchen and catering assistants
+1042775,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9273.0,Waiters and waitresses
+1042776,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9274.0,Bar staff
+1042777,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9275.0,Leisure and theme park attendants
+1042778,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),9279.0,Other elementary services occupations n.e.c.
+1042779,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5221.0,Metal machining setters and setter-operators
+1042780,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5222.0,"Tool makers, tool fitters and markers-out"
+1042781,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5223.0,Metal working production and maintenance fitters
+1042782,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5224.0,Precision instrument makers and repairers
+1042783,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5225.0,Air-conditioning and refrigeration engineers
+1042784,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5231.0,"Vehicle technicians, mechanics and electricians"
+1042785,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5232.0,Vehicle body builders and repairers
+1042786,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5234.0,Vehicle paint technicians
+1042787,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5235.0,Aircraft maintenance and related trades
+1042788,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5236.0,Boat and ship builders and repairers
+1042789,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5237.0,Rail and rolling stock builders and repairers
+1042790,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5241.0,Electricians and electrical fitters
+1042791,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5242.0,Telecommunications engineers
+1042792,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5244.0,"TV, video and audio engineers"
+1042793,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5245.0,IT engineers
+1042794,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5249.0,Electrical and electronic trades n.e.c.
+1042795,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5250.0,"Skilled metal, electrical and electronic trades supervisors"
+1042796,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5311.0,Steel erectors
+1042797,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5312.0,Bricklayers and masons
+1042798,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5313.0,"Roofers, roof tilers and slaters"
+1042799,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5314.0,Plumbers and heating and ventilating engineers
+1042800,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5315.0,Carpenters and joiners
+1042801,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5316.0,"Glaziers, window fabricators and fitters"
+1042802,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5319.0,Construction and building trades n.e.c.
+1042803,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5321.0,Plasterers
+1042804,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5322.0,Floorers and wall tilers
+1042805,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5323.0,Painters and decorators
+1042806,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5330.0,Skilled construction and building trades supervisors
+1042807,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),5411.0,Weavers and knitters
+1042808,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),-8.0,Not enough info to code
+1042809,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),-1.0,Not applicable
+1042810,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1115.0,Chief executives and senior officials
+1042811,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1116.0,Elected officers and representatives
+1042812,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1121.0,Production managers and directors in manufacturing
+1042813,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1122.0,Production managers and directors in construction
+1042814,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1123.0,Production managers and directors in mining and energy
+1042815,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1131.0,Financial managers and directors
+1042816,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1132.0,Marketing and sales directors
+1042817,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1133.0,Purchasing managers and directors
+1042818,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1134.0,Advertising and public relations directors
+1042819,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1135.0,Human resource managers and directors
+1042820,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1136.0,Information technology and telecommunications directors
+1042821,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1139.0,Functional managers and directors n.e.c.
+1042822,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1150.0,Financial institution managers and directors
+1042823,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1161.0,Managers and directors in transport and distribution
+1042824,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1162.0,Managers and directors in storage and warehousing
+1042825,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1171.0,Officers in armed forces
+1042826,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),1172.0,Senior police officers
+1042827,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4121.0,Credit controllers
+1042828,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4122.0,"Book-keepers, payroll managers and wages clerks"
+1042829,NCDS58,ncds9_employment,n9as2010,SOC 2010 code (CM acthist),4123.0,Bank and post office clerks
+1042830,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9112.0,Forestry workers
+1042831,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9119.0,Fishing and agriculture related
+1042832,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9121.0,Labourers in building and woodworking
+1042833,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9129.0,Labourers in other construction trades
+1042834,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9131.0,Labourers in foundries
+1042835,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9132.0,Industrial cleaning process occupations
+1042836,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9133.0,Printing machine minders and assistants
+1042837,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9134.0,"Packers, bottlers, canners, fillers"
+1042838,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9139.0, Process and plant labourers
+1042839,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9141.0,"Stevedores, dockers and slingers"
+1042840,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9149.0,Goods handling and storage occupations
+1042841,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9211.0,"Postal workers,,messengers, couriers"
+1042842,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9219.0,Elementary office occupations n.e.c.
+1042843,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9221.0,Hospital porters
+1042844,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9222.0,Hotel porters
+1042845,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9223.0,Kitchen and catering assistants
+1042846,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9224.0,"Waiters, waitresses"
+1042847,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9225.0,Bar staff
+1042848,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9226.0,Leisure and theme park attendants
+1042849,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9229.0,Elementary personal services
+1042850,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9231.0,Window cleaners
+1042851,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9232.0,Road sweepers
+1042852,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9233.0,"Cleaners, domestics"
+1042853,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9234.0,"Launderers, dry cleaners, pressers"
+1042854,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9235.0,Refuse and salvage occupations
+1042855,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9239.0,Elementary cleaning occupations n.e.c.
+1042856,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9241.0,Security guards and related occupations
+1042857,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9242.0,Traffic wardens
+1042858,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9243.0,School crossing patrol attendants
+1042859,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9244.0,School mid-day assistants
+1042860,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9245.0,Car park attendants
+1042861,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9249.0,Elementary security occupations n.e.c.
+1042862,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9251.0,Shelf fillers
+1042863,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9259.0,Elementary sales occupations n.e.c.
+1042864,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3223.0,Speech and language therapists
+1042865,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3229.0,Therapists n.e.c.
+1042866,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3231.0,Youth and community workers
+1042867,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3232.0,Housing and welfare officers
+1042868,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3311.0,NCOs and other ranks
+1042869,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3312.0,Police officers (sergeant and below)
+1042870,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3313.0,Fire service officers
+1042871,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3314.0,Prison service officers
+1042872,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3319.0,Protective service professionals
+1042873,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3411.0,Artists
+1042874,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3412.0,"Authors, writers"
+1042875,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3413.0,"Actors, entertainers"
+1042876,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3414.0,Dancers and choreographers
+1042877,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3415.0,Musicians
+1042878,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3416.0,"Arts officers, producers and directors"
+1042879,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3421.0,Graphic designers
+1042880,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3422.0,"Product, clothing and related designers"
+1042881,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3431.0,Journalists and periodical editors
+1042882,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3432.0,Broadcasting associate professionals
+1042883,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3433.0,Public relations officers
+1042884,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3434.0,Photographers and film operators
+1042885,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3441.0,Sports players
+1042886,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3442.0,Sports instructors and officials
+1042887,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3443.0,Fitness instructors
+1042888,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3449.0,Sports and fitness occupations n.e.c.
+1042889,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3511.0,Air traffic controllers
+1042890,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3512.0,Aircraft pilots and flight engineers
+1042891,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3513.0,Ship and hovercraft officers
+1042892,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3514.0,Train drivers
+1042893,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3520.0,Legal associate professionals
+1042894,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3531.0,"Estimators, valuers and assessors"
+1042895,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3532.0,Brokers
+1042896,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3533.0,Insurance underwriters
+1042897,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3534.0,Finance analysts/advisers
+1042898,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3535.0,Taxation experts
+1042899,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2317.0,Senior educational adminstrators
+1042900,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2319.0,Teaching professionals n.e.c.
+1042901,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2321.0,Scientific researchers
+1042902,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2322.0,Social science researchers
+1042903,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2329.0,Researchers n.e.c.
+1042904,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2411.0,"Lawyers, judges and coroners"
+1042905,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2419.0,Legal professionals n.e.c.
+1042906,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2421.0,Chartered and certified accountants
+1042907,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2422.0,Management accountants
+1042908,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2423.0,"Actuaries, stats/ecconomics, consulting"
+1042909,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2431.0,Architects
+1042910,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2432.0,Town planners
+1042911,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2433.0,Quantity surveyors
+1042912,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2434.0,Chartered surveyors (not quantity)
+1042913,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2441.0,Public service administrative
+1042914,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2442.0,Social workers
+1042915,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2443.0,Probation officers
+1042916,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2444.0,Clergy
+1042917,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2451.0,Librarians
+1042918,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2452.0,Archivists and curators
+1042919,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3111.0,Laboratory technicians
+1042920,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3112.0,Electrical/electronics technicians
+1042921,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3113.0,Engineering technicians
+1042922,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3114.0,Building/civil engineering technicians
+1042923,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3115.0,Quality assurance technicians
+1042924,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3119.0,Science and engineering technicians
+1042925,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3121.0,Built environment technicians
+1042926,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3122.0,Draughtspersons
+1042927,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3123.0,Building inspectors
+1042928,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3131.0,IT operations technicians
+1042929,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3132.0,IT user support technicians
+1042930,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3211.0,Nurses
+1042931,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3212.0,Midwives
+1042932,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3213.0,Paramedics
+1042933,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3214.0,Medical radiographers
+1042934,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3215.0,Chiropodists
+1042935,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3216.0,Dispensing opticians
+1042936,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3217.0,Pharmaceutical dispensers
+1042937,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3218.0,Medical and dental technicians
+1042938,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3221.0,Physiotherapists
+1042939,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3222.0,Occupational therapists
+1042940,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5216.0,Pipe fitters
+1042941,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5221.0,Metal machining setters and operators
+1042942,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5222.0,Tool makers/ fitters and markers-out
+1042943,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5223.0,Metal working production/maintenance
+1042944,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5224.0,Precision instrument makers/repairers
+1042945,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5231.0,"Motor mechanics, auto engineers"
+1042946,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5232.0,Vehicle body builders and repairers
+1042947,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5233.0,Auto electricians
+1042948,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5234.0,Vehicle spray painters
+1042949,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5241.0,"Electricians, electrical fitters"
+1042950,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5242.0,Telecommunications engineers
+1042951,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5243.0,Lines repairers and cable jointers
+1042952,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5244.0,"TV, video and audio engineers"
+1042953,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5245.0,Computer installation and maintenance
+1042954,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5249.0,Electrical/electronics engineers n.e.c.
+1042955,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5311.0,Steel erectors
+1042956,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5312.0,"Bricklayers, masons"
+1042957,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5313.0,"Roofers, roof tilers and slaters"
+1042958,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5314.0,"Plumbers, heating and ventilating"
+1042959,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5315.0,Carpenters and joiners
+1042960,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5316.0,"Glaziers, window fabricators/ fitters"
+1042961,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5319.0,Construction trades n.e.c.
+1042962,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5321.0,Plasterers
+1042963,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5322.0,Floorers and wall tilers
+1042964,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5323.0,Painters and decorators
+1042965,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5411.0,Weavers and knitters
+1042966,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5412.0,Upholsterers
+1042967,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5413.0,Leather and related trades
+1042968,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5414.0,Tailors and dressmakers
+1042969,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5419.0,"Textiles, garments and related trades"
+1042970,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5421.0,"Originators, compositors, print prep"
+1042971,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5422.0,Printers
+1042972,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5423.0,Bookbinders and print finishers
+1042973,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5424.0,Screen printers
+1042974,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5431.0,"Butchers, meat cutters"
+1042975,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5432.0,"Bakers, flour confectioners"
+1042976,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5433.0,"Fishmongers, poultry dressers"
+1042977,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5434.0,"Chefs, cooks"
+1042978,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5491.0,Glassand ceramics makers/decorators
+1042979,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5492.0,Furniture makers and craft woodworkers
+1042980,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5493.0,Pattern makers (moulds)
+1042981,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5494.0,Musical instrument makers and tuners
+1042982,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5495.0,"Gold, silver and precious stone workers"
+1042983,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5496.0,"Floral arrangers, florists"
+1042984,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5499.0,Hand craft occupations n.e.c.
+1042985,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6114.0,Houseparents and residential wardens
+1042986,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6115.0,Care assistants and home carers
+1042987,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6121.0,Nursery nurses
+1042988,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6122.0,Childminders and related occupations
+1042989,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6123.0,Playgroup leaders/assistants
+1042990,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6124.0,Educational assistants
+1042991,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6131.0,Veterinary nurses and assistants
+1042992,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6139.0,Animal care occupations n.e.c.
+1042993,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6211.0,Sports and leisure assistants
+1042994,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6212.0,Travel agents
+1042995,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6213.0,Travel and tour guides
+1042996,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6214.0,Air travel assistants
+1042997,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6215.0,Rail travel assistants
+1042998,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6219.0,Leisure and travel services
+1042999,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6221.0,"Hairdressers, barbers"
+1043000,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6222.0,Beauticians and related occupations
+1043001,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6231.0,Housekeepers and related occupations
+1043002,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6232.0,Caretakers
+1043003,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6291.0,Undertakers and mortuary assistants
+1043004,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6292.0,Pest control officers
+1043005,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7111.0,Sales and retail assistants
+1043006,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7112.0,Retail cashiers and check-out operators
+1043007,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7113.0,Telephone salespersons
+1043008,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7121.0,Collector salespersons/credit agents
+1043009,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7122.0,"Debt, rent and other cash collectors"
+1043010,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7123.0,Roundsmen/women and van salespersons
+1043011,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7124.0,Market and street traders
+1043012,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7125.0,Merchandisers and window dressers
+1043013,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7129.0,Sales related occupations n.e.c.
+1043014,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7211.0,Call centre agents/operators
+1043015,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),7212.0,Customer care occupations
+1043016,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8111.0,"Food, drink and tobacco operatives"
+1043017,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8112.0,Glass and ceramics process operatives
+1043018,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8113.0,Textile process operatives
+1043019,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8114.0,Chemical and related process operatives
+1043020,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8115.0,Rubber process operatives
+1043021,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8116.0,Plastics process operatives
+1043022,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8117.0,Metal making and treating operatives
+1043023,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8118.0,Electroplaters
+1043024,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8119.0,Process operatives n.e.c.
+1043025,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8121.0,Paper and wood machine operatives
+1043026,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8122.0,Coal mine operatives
+1043027,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8123.0,Quarry workers and related operatives
+1043028,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8124.0,Energy plant operatives
+1043029,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8125.0,Metal working machine operatives
+1043030,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8126.0,Water and sewerage plant operatives
+1043031,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8129.0,Plant and machine operatives n.e.c.
+1043032,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8131.0,Assemblers (electrical products)
+1043033,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8132.0,Assemblers (vehicles and metal goods)
+1043034,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8133.0,Routine inspectors and testers
+1043035,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8134.0,"Weighers, graders, sorters"
+1043036,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8135.0,"Tyre, exhaust and windscreen fitters"
+1043037,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8136.0,Clothing cutters
+1043038,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8137.0,Sewing machinists
+1043039,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8138.0,Routine laboratory testers
+1043040,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8139.0,Assemblers and routine operatives
+1043041,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8141.0,"Scaffolders, stagers, riggers"
+1043042,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8142.0,Road construction operatives
+1043043,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8143.0,Rail construction and maintenance
+1043044,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8149.0,Construction operatives n.e.c.
+1043045,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8211.0,Heavy goods vehicle drivers
+1043046,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8212.0,Van drivers
+1043047,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8213.0,Bus and coach drivers
+1043048,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8214.0,"Taxi, cab drivers and chauffeurs"
+1043049,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8215.0,Driving instructors
+1043050,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8216.0,Rail transport operatives
+1043051,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8217.0,Merchant navy and boat operatives
+1043052,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8218.0,Air transport operatives
+1043053,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8219.0,Transport operatives n.e.c.
+1043054,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8221.0,Crane drivers
+1043055,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8222.0,Fork-lift truck drivers
+1043056,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8223.0,Agricultural machinery drivers
+1043057,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),8229.0,Mobile machine drivers and operatives
+1043058,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),9111.0,Farm workers
+1043059,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2211.0,Medical practitioners
+1043060,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2212.0,Psychologists
+1043061,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2213.0,Pharmacists/pharmacologists
+1043062,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2214.0,Ophthalmic opticians
+1043063,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2215.0,Dental practitioners
+1043064,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2216.0,Veterinarians
+1043065,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2311.0,Higher education teaching professionals
+1043066,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2312.0,Further education teachers
+1043067,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2313.0,"Education officers, school inspectors"
+1043068,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2314.0,Secondary education teachers
+1043069,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2315.0,Primary and nursery teachers
+1043070,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2316.0,Special needs education professionals
+1043071,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),-8.0,Not enough info to code
+1043072,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),-1.0,Not applicable
+1043073,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1111.0,Senior officials in national government
+1043074,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1112.0,Major organistation chief executives
+1043075,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1113.0,Senior officials in local government
+1043076,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1114.0,Special interest senior officials
+1043077,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1121.0,Production and maintenance managers
+1043078,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1122.0,Managers in construction
+1043079,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1123.0,Managers in mining and energy
+1043080,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1131.0,Financial manager/chartered secretaries
+1043081,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1132.0,Marketing and sales managers
+1043082,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1133.0,Purchasing managers
+1043083,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1134.0,Advertising/public relations managers
+1043084,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1135.0,Personnel and training managers
+1043085,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1136.0,Information  technology managers
+1043086,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1137.0,Research and development managers
+1043087,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1141.0,Quality assurance managers
+1043088,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1142.0,Customer care managers
+1043089,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1151.0,Financial institution managers
+1043090,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1152.0,Office managers
+1043091,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1161.0,Transport and distribution managers
+1043092,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1162.0,Storage and warehouse managers
+1043093,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1163.0,Retail and wholesale managers
+1043094,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1171.0,Officers in armed forces
+1043095,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1172.0,Police officers (inspectors and above)
+1043096,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1173.0,Senior officers:  fire/ambulance/prison
+1043097,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1174.0,Security managers
+1043098,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1181.0,Hospital and health service managers
+1043099,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1182.0,Pharmacy managers
+1043100,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1183.0,Healthcare practice managers
+1043101,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1184.0,Social services managers
+1043102,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1185.0,Residential and day care managers
+1043103,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1211.0,Farm managers
+1043104,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1212.0,Natural environment managers
+1043105,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1219.0,"Wildlife, forestry, fishiing managers"
+1043106,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1221.0,Hotel and accommodation managers
+1043107,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1222.0,Conference and exhibition managers
+1043108,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1223.0,Restaurant and catering managers
+1043109,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1224.0,Publicans/managers of licensed premises
+1043110,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1225.0,Leisure and sports managers
+1043111,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1226.0,Travel agency managers
+1043112,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1231.0,"Property, housing and land managers"
+1043113,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1232.0,Garage managers and proprietors
+1043114,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1233.0,Hair and beauty managers/proprietors
+1043115,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1234.0,Shopkeepers and retail dealers
+1043116,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1235.0,Recycling and refuse disposal managers
+1043117,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),1239.0,Managers/proprietors in other services
+1043118,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2111.0,Chemists
+1043119,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2112.0,Biological scientists and biochemists
+1043120,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2113.0,"Physicists, geologists, meteorologists"
+1043121,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2121.0,Civil engineers
+1043122,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2122.0,Mechanical engineers
+1043123,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2123.0,Electrical engineers
+1043124,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2124.0,Electronics engineers
+1043125,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2125.0,Chemical engineers
+1043126,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2126.0,Design and development engineers
+1043127,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2127.0,Production and process engineers
+1043128,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2128.0,Planning and quality control engineers
+1043129,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2129.0,Engineering professionals n.e.c.
+1043130,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2131.0,IT strategy and planning professionals
+1043131,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),2132.0,Software professionals
+1043132,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3536.0,"Importers, exporters"
+1043133,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3537.0,Financial and accounting technicians
+1043134,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3539.0,Business associate professionals
+1043135,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3541.0,Buyers and purchasing officers
+1043136,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3542.0,Sales representatives
+1043137,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3543.0,Marketing associate professionals
+1043138,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3544.0,"Estate agents, auctioneers"
+1043139,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3551.0,Conservation and environmental officers
+1043140,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3552.0,Countryside and park rangers
+1043141,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3561.0,Public service associate professionals
+1043142,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3562.0,Personnel and industrial relations
+1043143,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3563.0,Vocational and industrial trainers
+1043144,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3564.0,Careers adviser/vocational guidance
+1043145,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3565.0,Trading standards
+1043146,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3566.0,Statutory examiners
+1043147,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3567.0,Health and safety officers
+1043148,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),3568.0,Environmental health officers
+1043149,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4111.0,Civil Service executive officers
+1043150,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4112.0,Civil Service administrative
+1043151,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4113.0,Local government administrative
+1043152,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4114.0,Non-governmental organisation officers
+1043153,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4121.0,Credit controllers
+1043154,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4122.0,"Fianacial, payroll and accounts clerks"
+1043155,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4123.0,Counter clerks
+1043156,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4131.0,Filing and other records assistants
+1043157,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4132.0,Pensions and insurance clerks
+1043158,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4133.0,Stock control clerks
+1043159,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4134.0,Transport and distribution clerks
+1043160,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4135.0,Library assistants/clerks
+1043161,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4136.0,Database assistants/clerks
+1043162,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4137.0,Market research interviewers
+1043163,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4142.0,Communication operators
+1043164,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4150.0,General office assistants/clerks
+1043165,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4211.0,Medical secretaries
+1043166,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4212.0,Legal secretaries
+1043167,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4213.0,School secretaries
+1043168,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4214.0,Company secretaries
+1043169,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4215.0,Personal assistants and secretaries
+1043170,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4216.0,Receptionists
+1043171,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),4217.0,Typists
+1043172,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5111.0,Farmers
+1043173,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5112.0,Horticultural trades
+1043174,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5113.0,Gardeners and groundsmen/groundswomen
+1043175,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5119.0,Agricultural and fishing trades n.e.c.
+1043176,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5211.0,Smiths and forge workers
+1043177,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5212.0,"Moulders, core makers, die casters"
+1043178,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5213.0,Sheet metal workers
+1043179,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5214.0,"Plate workers, shipwrights, riveters"
+1043180,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),5215.0,Welding trades
+1043181,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6111.0,Nursing auxiliaries and assistants
+1043182,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6112.0,Ambulance staff (excluding paramedics)
+1043183,NCDS58,ncds9_employment,n9as2000,SOC 2000 code (CM acthist),6113.0,Dental nurses
+1043184,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),-9.0,Refused/ other missing
+1043185,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),-8.0,Not enough info to code
+1043186,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),-1.0,Not applicable
+1043187,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),1.0,Employers in large organisations
+1043188,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),2.0,Higher managerial
+1043189,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),3.1,Employed professionals (traditional)
+1043190,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),3.2,Higher professionals (new) - employees
+1043191,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),3.3,Self-employed professions (traditional)
+1043192,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),3.4,Self-employed  professions (new)
+1043193,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),4.1,Employed technical (traditional)
+1043194,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),4.2,Employed technical (new)
+1043195,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),4.3,Self-employed techical (traditional)
+1043196,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),4.4,Self employed technical (new)
+1043197,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),5.0,Lower managerial
+1043198,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),6.0,Higher supervisory
+1043199,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),7.1,Intermediate clerical/administrative
+1043200,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),7.2,Intermediate sales and service
+1043201,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),7.3,Intermediate technical and auxiliary
+1043202,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),7.4,Intermediate engineering
+1043203,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),8.1,Small organisation employers (new)
+1043204,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),8.2,Small org employers (agriculture)
+1043205,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),9.1,Own account workers (non- professional)
+1043206,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),9.2,Own account workers (agriculture)
+1043207,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),10.0,Lower supervisory
+1043208,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),11.1,Lower technical craft
+1043209,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),11.2,Lower technical process operative
+1043210,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),12.1,Semi-routine sales
+1043211,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),12.2,Semi-routine service
+1043212,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),12.3,Semi-routine technical
+1043213,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),12.4,Semi-routine operative
+1043214,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),12.5,Semi-routine agriculture
+1043215,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),12.6,Semi-routine clerical
+1043216,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),12.7,Semi-routine childcare
+1043217,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),13.1,Routine sales and service
+1043218,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),13.2,Routine production
+1043219,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),13.3,Routine technical
+1043220,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),13.4,Routine operative
+1043221,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),13.5,Routine agricultural
+1043222,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),14.1,Never worked
+1043223,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),14.2,Long-term unemployed
+1043224,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),15.0,Full-time students
+1043225,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),16.0,Occupations not stated or described
+1043226,NCDS58,ncds9_employment,n9anssec,NS-SEC (2010) Full Operational Categories (CM acthist),17.0,Not classifiable for other reasons
+1043227,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),-1.0,Not applicable
+1043228,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),1.0,L1: Large employers
+1043229,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),2.0,L2: Higher managerial occupations
+1043230,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),3.0,L3: Higher professional occupations
+1043231,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),4.0,L4: Lower professional occupations
+1043232,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),5.0,L5: Lower managerial occupations
+1043233,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),6.0,L6: Higher supervisory occupations
+1043234,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),7.0,L7: Intermediate occupations
+1043235,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),8.0,L8: Employers in small organisations
+1043236,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),9.0,L9: Own account workers
+1043237,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),10.0,L10: Lower supervisory occupations
+1043238,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),11.0,L11: Lower technical occupations
+1043239,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),12.0,L12: Semi-routine occupations
+1043240,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),13.0,L13: Routine occupations
+1043241,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),14.0,Long-term unemployed
+1043242,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),15.0,L15: Full-time students
+1043243,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),16.0,Occupations not stated or described
+1043244,NCDS58,ncds9_employment,n9ansscc,NS-SEC (2010) Combined Operational Categories (CM acthist),17.0,L17: Not classifiable for other reasons
+1043245,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),-9.0,Refused/ other missing
+1043246,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),-8.0,Not enough info to code
+1043247,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),-1.0,Not applicable
+1043248,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),1.0,Higher managerial and professional
+1043249,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),1.1,Large employers and higher managerial
+1043250,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),1.2,Higher professional occupations
+1043251,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),2.0,Lower managerial and professional
+1043252,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),3.0,Intermediate occupations
+1043253,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),4.0,Small employers and own account workers
+1043254,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),5.0,Lower supervisory and technical
+1043255,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),6.0,Semi-routine occupations
+1043256,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),7.0,Routine occupations
+1043257,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),8.0,Never worked and long-term unemployed
+1043258,NCDS58,ncds9_employment,n9ans8,NS-SEC (2010) Analytic Categories (CM acthist),9.0,Not classified
+1043259,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),9.0,Skilled manual workers
+1043260,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),10.0,Semi-skilled manual workers
+1043261,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),11.0,Unskilled manual workers
+1043262,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),12.0,Employers in industry (small establish)
+1043263,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),13.0,Farmers - employers and managers
+1043264,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),14.0,Farmers - own account
+1043265,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),15.0,Agricultural workers
+1043266,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),16.0,Armed Forces
+1043267,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),17.0,Occupations not stated or described
+1043268,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),-9.0,Refused/ other missing
+1043269,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),-8.0,Not enough info to code
+1043270,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),-1.0,Not applicable
+1043271,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),1.1,Own account workers (non-professional)
+1043272,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),1.2,Employers in industry (large establish)
+1043273,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),2.1,Managers in industry (small establish)
+1043274,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),2.2,"Managers in central, local government"
+1043275,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),3.0,Professional workers - self-employed
+1043276,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),4.0,Professional workers - employees
+1043277,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),5.1,Ancillary workers and artists
+1043278,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),5.2,Foremen and supervisors non-manual
+1043279,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),6.0,Junior non-manual workers
+1043280,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),7.0,Personal service workers
+1043281,NCDS58,ncds9_employment,n9aseg,SEG: Socio-economic Group  based on soc2010 (CM acthist),8.0,Foremen and supervisors - manual
+1043282,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),-9.0,Refused/ other missing
+1043283,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),-8.0,Not enough info to code
+1043284,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),-1.0,Not applicable
+1043285,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),1.0,(I) Professional
+1043286,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),2.0,(II) Managerial-technical
+1043287,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),3.1,(IIINM) Skilled non-manual
+1043288,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),3.2,(IIIM) Skilled manual
+1043289,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),4.0,(IV) Partly skilled
+1043290,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),5.0,(V) Unskilled
+1043291,NCDS58,ncds9_employment,n9asc,Social class 1990  based on soc2010 (CM acthist),6.0,Others
+1043292,NCDS58,ncds9_employment,n9acurac,Whether this is current job/activity,-9.0,Refused
+1043293,NCDS58,ncds9_employment,n9acurac,Whether this is current job/activity,-8.0,Don't know
+1043294,NCDS58,ncds9_employment,n9acurac,Whether this is current job/activity,-1.0,not applicable
+1043295,NCDS58,ncds9_employment,n9acurac,Whether this is current job/activity,1.0,Yes
+1043296,NCDS58,ncds9_employment,n9acurac,Whether this is current job/activity,2.0,No
+1043297,NCDS58,ncds9_employment,n9acuras,Whether this job/activity has been continuous,-9.0,Refused
+1043298,NCDS58,ncds9_employment,n9acuras,Whether this job/activity has been continuous,-8.0,Don't know
+1043299,NCDS58,ncds9_employment,n9acuras,Whether this job/activity has been continuous,-1.0,not applicable
+1043300,NCDS58,ncds9_employment,n9acuras,Whether this job/activity has been continuous,1.0,Yes
+1043301,NCDS58,ncds9_employment,n9acuras,Whether this job/activity has been continuous,2.0,No
+1043302,NCDS58,ncds9_employment,v3,None,,
+1043303,NCDS58,ncds9_employment,avail_from_dt,,,

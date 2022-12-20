@@ -1,0 +1,1163 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1193165,NSHD46,nightingale_metabolomics,study_id_e,,,
+1193166,NSHD46,nightingale_metabolomics,sex,Sex - taken from 5;362 list,1.0,Male [Supercedes 'S'] 2815 (updated 11.10.96 by WH)
+1193167,NSHD46,nightingale_metabolomics,sex,Sex - taken from 5;362 list,2.0,Female 2547
+1193168,NSHD46,nightingale_metabolomics,inf,Inflation factor to adjust for stratified sample updated 11/10/96,1.0,2992 non-manual and agricultural [Inflation factor to adjust for stratified sample] Updated 11.10.96
+1193169,NSHD46,nightingale_metabolomics,inf,Inflation factor to adjust for stratified sample updated 11/10/96,4.0,2370 manual excluding agricultural
+1193170,NSHD46,nightingale_metabolomics,alb_09,Albumin (signal area),-9.0,Value was rejected
+1193171,NSHD46,nightingale_metabolomics,apoa1_09,Apolipoprotein A_I (g/l),-9.0,Value was rejected
+1193172,NSHD46,nightingale_metabolomics,acace_09,Acetoacetate (mmol/l),-9.0,Value was rejected
+1193173,NSHD46,nightingale_metabolomics,ace_09,Acetate (mmol/l),-9.0,Value was rejected
+1193174,NSHD46,nightingale_metabolomics,ala_09,Alanine (mmol/l),-9.0,Value was rejected
+1193175,NSHD46,nightingale_metabolomics,apob_09,Apolipoprotein B (g/l),-9.0,Value was rejected
+1193176,NSHD46,nightingale_metabolomics,apobapoa1_09,Ratio of apolipoprotein B to apolipoprotein A_I,-9.0,Value was rejected
+1193177,NSHD46,nightingale_metabolomics,bohbut_09,3_hydroxybutyrate (mmol/l),-9.0,Value was rejected
+1193178,NSHD46,nightingale_metabolomics,cit_09,Citrate (mmol/l),-9.0,Value was rejected
+1193179,NSHD46,nightingale_metabolomics,cla_09,Conjugated linoleic acid (mmol/l),-9.0,Value was rejected
+1193180,NSHD46,nightingale_metabolomics,clafa_09,Ratio of conjugated linoleic acid to total fatty acids (%),-9.0,Value was rejected
+1193181,NSHD46,nightingale_metabolomics,crea_09,Creatinine (mmol/l),-9.0,Value was rejected
+1193182,NSHD46,nightingale_metabolomics,dag_09,Diacylglycerol (mmol/l),-9.0,Value was rejected
+1193183,NSHD46,nightingale_metabolomics,dagtg_09,Ratio of diacylglycerol to triglycerides,-9.0,Value was rejected
+1193184,NSHD46,nightingale_metabolomics,dha_09,22:6; docosahexaenoic acid (mmol/l),-9.0,Value was rejected
+1193185,NSHD46,nightingale_metabolomics,dhafa_09,Ratio of 22:6 docosahexaenoic acid to total fatty acids (%),-9.0,Value was rejected
+1193186,NSHD46,nightingale_metabolomics,estc_09,Esterified cholesterol (mmol/l),-9.0,Value was rejected
+1193187,NSHD46,nightingale_metabolomics,falen_09,Estimated description of fatty acid chain length; not actual carbon number,-9.0,Value was rejected
+1193188,NSHD46,nightingale_metabolomics,faw3_09,Omega_3 fatty acids (mmol/l),-9.0,Value was rejected
+1193189,NSHD46,nightingale_metabolomics,faw3fa_09,Ratio of omega_3 fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193190,NSHD46,nightingale_metabolomics,faw6_09,Omega_6 fatty acids (mmol/l),-9.0,Value was rejected
+1193191,NSHD46,nightingale_metabolomics,faw6fa_09,Ratio of omega_6 fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193192,NSHD46,nightingale_metabolomics,freec_09,Free cholesterol (mmol/l),-9.0,Value was rejected
+1193193,NSHD46,nightingale_metabolomics,glc_09,Glucose (mmol/l),-9.0,Value was rejected
+1193194,NSHD46,nightingale_metabolomics,gln_09,Glutamine (mmol/l),-9.0,Value was rejected
+1193195,NSHD46,nightingale_metabolomics,glol_09,Glycerol (mmol/l),-9.0,Value was rejected
+1193196,NSHD46,nightingale_metabolomics,gly_09,Glycine (mmol/l),-9.0,Value was rejected
+1193197,NSHD46,nightingale_metabolomics,gp_09,Glycoprotein acetyls; mainly a1_acid glycoprotein (mmol/l),-9.0,Value was rejected
+1193198,NSHD46,nightingale_metabolomics,hdl2_c_09,Total cholesterol in HDL2 (mmol/l),-9.0,Value was rejected
+1193199,NSHD46,nightingale_metabolomics,hdl3_c_09,Total cholesterol in HDL3 (mmol/l),-9.0,Value was rejected
+1193200,NSHD46,nightingale_metabolomics,hdl_c_09,Total cholesterol in HDL (mmol/l),-9.0,Value was rejected
+1193201,NSHD46,nightingale_metabolomics,hdl_d_09,Mean diameter for HDL particles        (nm),-9.0,Value was rejected
+1193202,NSHD46,nightingale_metabolomics,hdl_tg_09,Triglycerides in HDL (mmol/l),-9.0,Value was rejected
+1193203,NSHD46,nightingale_metabolomics,his_09,Histidine (mmol/l),-9.0,Value was rejected
+1193204,NSHD46,nightingale_metabolomics,idl_c_09,Total cholesterol in IDL (mmol/l),-9.0,Value was rejected
+1193205,NSHD46,nightingale_metabolomics,idl_ce_09,Cholesterol esters in IDL (mmol/l),-9.0,Value was rejected
+1193206,NSHD46,nightingale_metabolomics,idl_ce_p_09,Cholesterol esters to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193207,NSHD46,nightingale_metabolomics,idl_c_p_09,Total cholesterol to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193208,NSHD46,nightingale_metabolomics,idl_fc_09,Free cholesterol in IDL (mmol/l),-9.0,Value was rejected
+1193209,NSHD46,nightingale_metabolomics,idl_fc_p_09,Free cholesterol to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193210,NSHD46,nightingale_metabolomics,idl_l_09,Total lipids in IDL (mmol/l),-9.0,Value was rejected
+1193211,NSHD46,nightingale_metabolomics,idl_p_09,Concentration of IDL particles (mol/l),-9.0,Value was rejected
+1193212,NSHD46,nightingale_metabolomics,idl_pl_09,Phospholipids in IDL (mmol/l),-9.0,Value was rejected
+1193213,NSHD46,nightingale_metabolomics,idl_pl_p_09,Phospholipids to total lipds ratio in IDL (%),-9.0,Value was rejected
+1193214,NSHD46,nightingale_metabolomics,idl_tg_09,Triglycerides in IDL (mmol/l),-9.0,Value was rejected
+1193215,NSHD46,nightingale_metabolomics,idl_tg_p_09,Triglycerides to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193216,NSHD46,nightingale_metabolomics,ile_09,Isoleucine (mmol/l),-9.0,Value was rejected
+1193217,NSHD46,nightingale_metabolomics,la_09,18:2; linoleic acid (mmol/l),-9.0,Value was rejected
+1193218,NSHD46,nightingale_metabolomics,lac_09,Lactate (mmol/l),-9.0,Value was rejected
+1193219,NSHD46,nightingale_metabolomics,lafa_09,Ratio of 18:2 linoleic acid to total fatty acids (%),-9.0,Value was rejected
+1193220,NSHD46,nightingale_metabolomics,ldl_c_09,Total cholesterol in LDL (mmol/l),-9.0,Value was rejected
+1193221,NSHD46,nightingale_metabolomics,ldl_d_09,Mean diameter for LDL particles (nm),-9.0,Value was rejected
+1193222,NSHD46,nightingale_metabolomics,ldl_tg_09,Triglycerides in LDL (mmol/l),-9.0,Value was rejected
+1193223,NSHD46,nightingale_metabolomics,leu_09,Leucine (mmol/l),-9.0,Value was rejected
+1193224,NSHD46,nightingale_metabolomics,l_hdl_c_09,Total cholesterol in large HDL (mmol/l),-9.0,Value was rejected
+1193225,NSHD46,nightingale_metabolomics,l_hdl_ce_09,Cholesterol esters in large HDL (mmol/l),-9.0,Value was rejected
+1193226,NSHD46,nightingale_metabolomics,l_hdl_ce_p_09,Cholesterol esters to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193227,NSHD46,nightingale_metabolomics,l_hdl_c_p_09,Total cholesterol to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193228,NSHD46,nightingale_metabolomics,l_hdl_fc_09,Free cholesterol in large HDL (mmol/l),-9.0,Value was rejected
+1193229,NSHD46,nightingale_metabolomics,l_hdl_fc_p_09,Free cholesterol to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193230,NSHD46,nightingale_metabolomics,l_hdl_l_09,Total lipids in large HDL (mmol/l),-9.0,Value was rejected
+1193231,NSHD46,nightingale_metabolomics,l_hdl_p_09,Concentration of large HDL particles (mol/l),-9.0,Value was rejected
+1193232,NSHD46,nightingale_metabolomics,l_hdl_pl_09,Phospholipids in large HDL (mmol/l),-9.0,Value was rejected
+1193233,NSHD46,nightingale_metabolomics,l_hdl_pl_p_09,Phospholipids to total lipds ratio in large HDL (%),-9.0,Value was rejected
+1193234,NSHD46,nightingale_metabolomics,l_hdl_tg_09,Triglycerides in large HDL (mmol/l),-9.0,Value was rejected
+1193235,NSHD46,nightingale_metabolomics,l_hdl_tg_p_09,Triglycerides to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193236,NSHD46,nightingale_metabolomics,l_ldl_c_09,Total cholesterol in large LDL (mmol/l),-9.0,Value was rejected
+1193237,NSHD46,nightingale_metabolomics,l_ldl_ce_09,Cholesterol esters in large LDL (mmol/l),-9.0,Value was rejected
+1193238,NSHD46,nightingale_metabolomics,l_ldl_ce_p_09,Cholesterol esters to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193239,NSHD46,nightingale_metabolomics,l_ldl_c_p_09,Total cholesterol to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193240,NSHD46,nightingale_metabolomics,l_ldl_fc_09,Free cholesterol in large LDL (mmol/l),-9.0,Value was rejected
+1193241,NSHD46,nightingale_metabolomics,l_ldl_fc_p_09,Free cholesterol to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193242,NSHD46,nightingale_metabolomics,l_ldl_l_09,Total lipids in large LDL (mmol/l),-9.0,Value was rejected
+1193243,NSHD46,nightingale_metabolomics,l_ldl_p_09,Concentration of large LDL particles (mol/l),-9.0,Value was rejected
+1193244,NSHD46,nightingale_metabolomics,l_ldl_pl_09,Phospholipids in large LDL (mmol/l),-9.0,Value was rejected
+1193245,NSHD46,nightingale_metabolomics,l_ldl_pl_p_09,Phospholipids to total lipds ratio in large LDL (%),-9.0,Value was rejected
+1193246,NSHD46,nightingale_metabolomics,l_ldl_tg_09,Triglycerides in large LDL (mmol/l),-9.0,Value was rejected
+1193247,NSHD46,nightingale_metabolomics,l_ldl_tg_p_09,Triglycerides to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193248,NSHD46,nightingale_metabolomics,l_vldl_c_09,Total cholesterol in large VLDL (mmol/l),-9.0,Value was rejected
+1193249,NSHD46,nightingale_metabolomics,l_vldl_ce_09,Cholesterol esters in large VLDL (mmol/l),-9.0,Value was rejected
+1193250,NSHD46,nightingale_metabolomics,l_vldl_ce_p_09,Cholesterol esters to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1193251,NSHD46,nightingale_metabolomics,l_vldl_c_p_09,Total cholesterol to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1193252,NSHD46,nightingale_metabolomics,l_vldl_fc_09,Free cholesterol in large VLDL (mmol/l),-9.0,Value was rejected
+1193253,NSHD46,nightingale_metabolomics,l_vldl_fc_p_09,Free cholesterol to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1193254,NSHD46,nightingale_metabolomics,l_vldl_l_09,Total lipids in large VLDL (mmol/l),-9.0,Value was rejected
+1193255,NSHD46,nightingale_metabolomics,l_vldl_p_09,Concentration of large VLDL particles (mol/l),-9.0,Value was rejected
+1193256,NSHD46,nightingale_metabolomics,l_vldl_pl_09,Phospholipids in large VLDL (mmol/l),-9.0,Value was rejected
+1193257,NSHD46,nightingale_metabolomics,l_vldl_pl_p_09,Phospholipids to total lipds ratio in large VLDL (%),-9.0,Value was rejected
+1193258,NSHD46,nightingale_metabolomics,l_vldl_tg_09,Triglycerides in large VLDL (mmol/l),-9.0,Value was rejected
+1193259,NSHD46,nightingale_metabolomics,l_vldl_tg_p_09,Triglycerides to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1193260,NSHD46,nightingale_metabolomics,m_hdl_c_09,Total cholesterol in medium HDL (mmol/l),-9.0,Value was rejected
+1193261,NSHD46,nightingale_metabolomics,m_hdl_ce_09,Cholesterol esters in medium HDL (mmol/l),-9.0,Value was rejected
+1193262,NSHD46,nightingale_metabolomics,m_hdl_ce_p_09,Cholesterol esters to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1193263,NSHD46,nightingale_metabolomics,m_hdl_c_p_09,Total cholesterol to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1193264,NSHD46,nightingale_metabolomics,m_hdl_fc_09,Free cholesterol in medium HDL (mmol/l),-9.0,Value was rejected
+1193265,NSHD46,nightingale_metabolomics,m_hdl_fc_p_09,Free cholesterol to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1193266,NSHD46,nightingale_metabolomics,m_hdl_l_09,Total lipids in medium HDL (mmol/l),-9.0,Value was rejected
+1193267,NSHD46,nightingale_metabolomics,m_hdl_p_09,Concentration of medium HDL particles (mol/l),-9.0,Value was rejected
+1193268,NSHD46,nightingale_metabolomics,m_hdl_pl_09,Phospholipids in medium HDL (mmol/l),-9.0,Value was rejected
+1193269,NSHD46,nightingale_metabolomics,m_hdl_pl_p_09,Phospholipids to total lipds ratio in medium HDL (%),-9.0,Value was rejected
+1193270,NSHD46,nightingale_metabolomics,m_hdl_tg_09,Triglycerides in medium HDL (mmol/l),-9.0,Value was rejected
+1193271,NSHD46,nightingale_metabolomics,m_hdl_tg_p_09,Triglycerides to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1193272,NSHD46,nightingale_metabolomics,m_ldl_c_09,Total cholesterol in medium LDL (mmol/l),-9.0,Value was rejected
+1193273,NSHD46,nightingale_metabolomics,m_ldl_ce_09,Cholesterol esters in medium LDL (mmol/l),-9.0,Value was rejected
+1193274,NSHD46,nightingale_metabolomics,m_ldl_ce_p_09,Cholesterol esters to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1193275,NSHD46,nightingale_metabolomics,m_ldl_c_p_09,Total cholesterol to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1193276,NSHD46,nightingale_metabolomics,m_ldl_fc_09,Free cholesterol in medium LDL (mmol/l),-9.0,Value was rejected
+1193277,NSHD46,nightingale_metabolomics,m_ldl_fc_p_09,Free cholesterol to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1193278,NSHD46,nightingale_metabolomics,m_ldl_l_09,Total lipids in medium LDL (mmol/l),-9.0,Value was rejected
+1193279,NSHD46,nightingale_metabolomics,m_ldl_p_09,Concentration of medium LDL particles (mol/l),-9.0,Value was rejected
+1193280,NSHD46,nightingale_metabolomics,m_ldl_pl_09,Phospholipids in medium LDL (mmol/l),-9.0,Value was rejected
+1193281,NSHD46,nightingale_metabolomics,m_ldl_pl_p_09,Phospholipids to total lipds ratio in medium LDL (%),-9.0,Value was rejected
+1193282,NSHD46,nightingale_metabolomics,m_ldl_tg_09,Triglycerides in medium LDL (mmol/l),-9.0,Value was rejected
+1193283,NSHD46,nightingale_metabolomics,m_ldl_tg_p_09,Triglycerides to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1193284,NSHD46,nightingale_metabolomics,mufa_09,Monounsaturated fatty acids; 16:1; 18:1 (mmol/l),-9.0,Value was rejected
+1193285,NSHD46,nightingale_metabolomics,mufafa_09,Ratio of monounsaturated fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193286,NSHD46,nightingale_metabolomics,m_vldl_c_09,Total cholesterol in medium VLDL (mmol/l),-9.0,Value was rejected
+1193287,NSHD46,nightingale_metabolomics,m_vldl_ce_09,Cholesterol esters in medium VLDL (mmol/l),-9.0,Value was rejected
+1193288,NSHD46,nightingale_metabolomics,m_vldl_ce_p_09,Cholesterol esters to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1193289,NSHD46,nightingale_metabolomics,m_vldl_c_p_09,Total cholesterol to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1193290,NSHD46,nightingale_metabolomics,m_vldl_fc_09,Free cholesterol in medium VLDL (mmol/l),-9.0,Value was rejected
+1193291,NSHD46,nightingale_metabolomics,m_vldl_fc_p_09,Free cholesterol to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1193292,NSHD46,nightingale_metabolomics,m_vldl_l_09,Total lipids in medium VLDL (mmol/l),-9.0,Value was rejected
+1193293,NSHD46,nightingale_metabolomics,m_vldl_p_09,Concentration of medium VLDL particles (mol/l),-9.0,Value was rejected
+1193294,NSHD46,nightingale_metabolomics,m_vldl_pl_09,Phospholipids in medium VLDL (mmol/l),-9.0,Value was rejected
+1193295,NSHD46,nightingale_metabolomics,m_vldl_pl_p_09,Phospholipids to total lipds ratio in medium VLDL (%),-9.0,Value was rejected
+1193296,NSHD46,nightingale_metabolomics,m_vldl_tg_09,Triglycerides in medium VLDL (mmol/l),-9.0,Value was rejected
+1193297,NSHD46,nightingale_metabolomics,m_vldl_tg_p_09,Triglycerides to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1193298,NSHD46,nightingale_metabolomics,nmr_qc_09,QC variable for issues with processing,0.0,Bad
+1193299,NSHD46,nightingale_metabolomics,nmr_qc_09,QC variable for issues with processing,1.0,Good
+1193300,NSHD46,nightingale_metabolomics,pc_09,Phosphatidylcholine and other cholines (mmol/l),-9.0,Value was rejected
+1193301,NSHD46,nightingale_metabolomics,phe_09,Phenylalanine (mmol/l),-9.0,Value was rejected
+1193302,NSHD46,nightingale_metabolomics,pufa_09,Polyunsaturated fatty acids (mmol/l),-9.0,Value was rejected
+1193303,NSHD46,nightingale_metabolomics,pufafa_09,Ratio of polyunsaturated fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193304,NSHD46,nightingale_metabolomics,pyr_09,Pyruvate (mmol/l),-9.0,Value was rejected
+1193305,NSHD46,nightingale_metabolomics,remnat_c_09,RemNAt cholesterol (non_HDL; non_LDL _cholesterol) (mmol/l),-9.0,Value was rejected
+1193306,NSHD46,nightingale_metabolomics,serum_c_09,Serum total cholesterol        (mmol/l),-9.0,Value was rejected
+1193307,NSHD46,nightingale_metabolomics,serum_tg_09,Serum total triglycerides (mmol/l),-9.0,Value was rejected
+1193308,NSHD46,nightingale_metabolomics,sfa_09,Saturated fatty acids (mmol/l),-9.0,Value was rejected
+1193309,NSHD46,nightingale_metabolomics,sfafa_09,Ratio of saturated fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193310,NSHD46,nightingale_metabolomics,s_hdl_c_09,Total cholesterol in small HDL (mmol/l),-9.0,Value was rejected
+1193311,NSHD46,nightingale_metabolomics,s_hdl_ce_09,Cholesterol esters in small HDL (mmol/l),-9.0,Value was rejected
+1193312,NSHD46,nightingale_metabolomics,s_hdl_ce_p_09,Cholesterol esters to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193313,NSHD46,nightingale_metabolomics,s_hdl_c_p_09,Total cholesterol to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193314,NSHD46,nightingale_metabolomics,s_hdl_fc_09,Free cholesterol in small HDL (mmol/l),-9.0,Value was rejected
+1193315,NSHD46,nightingale_metabolomics,s_hdl_fc_p_09,Free cholesterol to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193316,NSHD46,nightingale_metabolomics,s_hdl_l_09,Total lipids in small HDL (mmol/l),-9.0,Value was rejected
+1193317,NSHD46,nightingale_metabolomics,s_hdl_p_09,Concentration of small HDL particles (mol/l),-9.0,Value was rejected
+1193318,NSHD46,nightingale_metabolomics,s_hdl_pl_09,Phospholipids in small HDL (mmol/l),-9.0,Value was rejected
+1193319,NSHD46,nightingale_metabolomics,s_hdl_pl_p_09,Phospholipids to total lipds ratio in small HDL (%),-9.0,Value was rejected
+1193320,NSHD46,nightingale_metabolomics,s_hdl_tg_09,Triglycerides in small HDL (mmol/l),-9.0,Value was rejected
+1193321,NSHD46,nightingale_metabolomics,s_hdl_tg_p_09,Triglycerides to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193322,NSHD46,nightingale_metabolomics,s_ldl_c_09,Total cholesterol in small LDL (mmol/l),-9.0,Value was rejected
+1193323,NSHD46,nightingale_metabolomics,s_ldl_ce_09,Cholesterol esters in small LDL (mmol/l),-9.0,Value was rejected
+1193324,NSHD46,nightingale_metabolomics,s_ldl_ce_p_09,Cholesterol esters to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1193325,NSHD46,nightingale_metabolomics,s_ldl_c_p_09,Total cholesterol to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1193326,NSHD46,nightingale_metabolomics,s_ldl_fc_09,Free cholesterol in small LDL (mmol/l),-9.0,Value was rejected
+1193327,NSHD46,nightingale_metabolomics,s_ldl_fc_p_09,Free cholesterol to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1193328,NSHD46,nightingale_metabolomics,s_ldl_l_09,Total lipids in small LDL (mmol/l),-9.0,Value was rejected
+1193329,NSHD46,nightingale_metabolomics,s_ldl_p_09,Concentration of small LDL particles (mol/l),-9.0,Value was rejected
+1193330,NSHD46,nightingale_metabolomics,s_ldl_pl_09,Phospholipids in small LDL (mmol/l),-9.0,Value was rejected
+1193331,NSHD46,nightingale_metabolomics,s_ldl_pl_p_09,Phospholipids to total lipds ratio in small LDL (%),-9.0,Value was rejected
+1193332,NSHD46,nightingale_metabolomics,s_ldl_tg_09,Triglycerides in small LDL (mmol/l),-9.0,Value was rejected
+1193333,NSHD46,nightingale_metabolomics,s_ldl_tg_p_09,Triglycerides to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1193334,NSHD46,nightingale_metabolomics,sm_09,Sphingomyelins (mmol/l),-9.0,Value was rejected
+1193335,NSHD46,nightingale_metabolomics,s_vldl_c_09,Total cholesterol in small VLDL (mmol/l),-9.0,Value was rejected
+1193336,NSHD46,nightingale_metabolomics,s_vldl_ce_09,Cholesterol esters in small VLDL (mmol/l),-9.0,Value was rejected
+1193337,NSHD46,nightingale_metabolomics,s_vldl_ce_p_09,Cholesterol esters to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1193338,NSHD46,nightingale_metabolomics,s_vldl_c_p_09,Total cholesterol to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1193339,NSHD46,nightingale_metabolomics,s_vldl_fc_09,Free cholesterol in small VLDL (mmol/l),-9.0,Value was rejected
+1193340,NSHD46,nightingale_metabolomics,s_vldl_fc_p_09,Free cholesterol to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1193341,NSHD46,nightingale_metabolomics,s_vldl_l_09,Total lipids in small VLDL (mmol/l),-9.0,Value was rejected
+1193342,NSHD46,nightingale_metabolomics,s_vldl_p_09,Concentration of small VLDL particles (mol/l),-9.0,Value was rejected
+1193343,NSHD46,nightingale_metabolomics,s_vldl_pl_09,Phospholipids in small VLDL (mmol/l),-9.0,Value was rejected
+1193344,NSHD46,nightingale_metabolomics,s_vldl_pl_p_09,Phospholipids to total lipds ratio in small VLDL (%),-9.0,Value was rejected
+1193345,NSHD46,nightingale_metabolomics,s_vldl_tg_09,Triglycerides in small VLDL (mmol/l),-9.0,Value was rejected
+1193346,NSHD46,nightingale_metabolomics,s_vldl_tg_p_09,Triglycerides to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1193347,NSHD46,nightingale_metabolomics,tgpg_09,Ratio of triglycerides to phosphoglycerides,-9.0,Value was rejected
+1193348,NSHD46,nightingale_metabolomics,totcho_09,Total cholines (mmol/l),-9.0,Value was rejected
+1193349,NSHD46,nightingale_metabolomics,totfa_09,Total fatty acids (mmol/l),-9.0,Value was rejected
+1193350,NSHD46,nightingale_metabolomics,totpg_09,Total phosphoglycerides (mmol/l),-9.0,Value was rejected
+1193351,NSHD46,nightingale_metabolomics,tyr_09,Tyrosine (mmol/l),-9.0,Value was rejected
+1193352,NSHD46,nightingale_metabolomics,unsatdeg_09,Estimated degree of unsaturation,-9.0,Value was rejected
+1193353,NSHD46,nightingale_metabolomics,val_09,Valine (mmol/l),-9.0,Value was rejected
+1193354,NSHD46,nightingale_metabolomics,vldl_c_09,Total cholesterol in VLDL (mmol/l),-9.0,Value was rejected
+1193355,NSHD46,nightingale_metabolomics,vldl_d_09,Mean diameter for VLDL particles (nm),-9.0,Value was rejected
+1193356,NSHD46,nightingale_metabolomics,vldl_tg_09,Triglycerides in VLDL (mmol/l),-9.0,Value was rejected
+1193357,NSHD46,nightingale_metabolomics,xl_hdl_c_09,Total cholesterol in very large HDL (mmol/l),-9.0,Value was rejected
+1193358,NSHD46,nightingale_metabolomics,xl_hdl_ce_09,Cholesterol esters in very large HDL (mmol/l),-9.0,Value was rejected
+1193359,NSHD46,nightingale_metabolomics,xl_hdl_ce_p_09,Cholesterol esters to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1193360,NSHD46,nightingale_metabolomics,xl_hdl_c_p_09,Total cholesterol to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1193361,NSHD46,nightingale_metabolomics,xl_hdl_fc_09,Free cholesterol in very large HDL (mmol/l),-9.0,Value was rejected
+1193362,NSHD46,nightingale_metabolomics,xl_hdl_fc_p_09,Free cholesterol to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1193363,NSHD46,nightingale_metabolomics,xl_hdl_l_09,Total lipids in very large HDL (mmol/l),-9.0,Value was rejected
+1193364,NSHD46,nightingale_metabolomics,xl_hdl_p_09,Concentration of very large HDL particles (mol/l),-9.0,Value was rejected
+1193365,NSHD46,nightingale_metabolomics,xl_hdl_pl_09,Phospholipids in very large HDL (mmol/l),-9.0,Value was rejected
+1193366,NSHD46,nightingale_metabolomics,xl_hdl_pl_p_09,Phospholipids to total lipds ratio in very large HDL (%),-9.0,Value was rejected
+1193367,NSHD46,nightingale_metabolomics,xl_hdl_tg_09,Triglycerides in very large HDL (mmol/l),-9.0,Value was rejected
+1193368,NSHD46,nightingale_metabolomics,xl_hdl_tg_p_09,Triglycerides to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1193369,NSHD46,nightingale_metabolomics,xl_vldl_c_09,Total cholesterol in very large VLDL (mmol/l),-9.0,Value was rejected
+1193370,NSHD46,nightingale_metabolomics,xl_vldl_ce_09,Cholesterol esters in very large VLDL (mmol/l),-9.0,Value was rejected
+1193371,NSHD46,nightingale_metabolomics,xl_vldl_ce_p_09,Cholesterol esters to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1193372,NSHD46,nightingale_metabolomics,xl_vldl_c_p_09,Total cholesterol to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1193373,NSHD46,nightingale_metabolomics,xl_vldl_fc_09,Free cholesterol in very large VLDL (mmol/l),-9.0,Value was rejected
+1193374,NSHD46,nightingale_metabolomics,xl_vldl_fc_p_09,Free cholesterol to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1193375,NSHD46,nightingale_metabolomics,xl_vldl_l_09,Total lipids in very large VLDL (mmol/l),-9.0,Value was rejected
+1193376,NSHD46,nightingale_metabolomics,xl_vldl_p_09,Concentration of very large VLDL particles (mol/l),-9.0,Value was rejected
+1193377,NSHD46,nightingale_metabolomics,xl_vldl_pl_09,Phospholipids in very large VLDL (mmol/l),-9.0,Value was rejected
+1193378,NSHD46,nightingale_metabolomics,xl_vldl_pl_p_09,Phospholipids to total lipds ratio in very large VLDL (%),-9.0,Value was rejected
+1193379,NSHD46,nightingale_metabolomics,xl_vldl_tg_09,Triglycerides in very large VLDL (mmol/l),-9.0,Value was rejected
+1193380,NSHD46,nightingale_metabolomics,xl_vldl_tg_p_09,Triglycerides to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1193381,NSHD46,nightingale_metabolomics,xs_vldl_c_09,Total cholesterol in very small VLDL (mmol/l),-9.0,Value was rejected
+1193382,NSHD46,nightingale_metabolomics,xs_vldl_ce_09,Cholesterol esters in very small VLDL (mmol/l),-9.0,Value was rejected
+1193383,NSHD46,nightingale_metabolomics,xs_vldl_ce_p_09,Cholesterol esters to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1193384,NSHD46,nightingale_metabolomics,xs_vldl_c_p_09,Total cholesterol to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1193385,NSHD46,nightingale_metabolomics,xs_vldl_fc_09,Free cholesterol in very small VLDL (mmol/l),-9.0,Value was rejected
+1193386,NSHD46,nightingale_metabolomics,xs_vldl_fc_p_09,Free cholesterol to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1193387,NSHD46,nightingale_metabolomics,xs_vldl_l_09,Total lipids in very small VLDL (mmol/l),-9.0,Value was rejected
+1193388,NSHD46,nightingale_metabolomics,xs_vldl_p_09,Concentration of very small VLDL particles (mol/l),-9.0,Value was rejected
+1193389,NSHD46,nightingale_metabolomics,xs_vldl_pl_09,Phospholipids in very small VLDL (mmol/l),-9.0,Value was rejected
+1193390,NSHD46,nightingale_metabolomics,xs_vldl_pl_p_09,Phospholipids to total lipds ratio in very small VLDL (%),-9.0,Value was rejected
+1193391,NSHD46,nightingale_metabolomics,xs_vldl_tg_09,Triglycerides in very small VLDL (mmol/l),-9.0,Value was rejected
+1193392,NSHD46,nightingale_metabolomics,xs_vldl_tg_p_09,Triglycerides to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1193393,NSHD46,nightingale_metabolomics,xxl_vldl_c_09,Total cholesterol in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193394,NSHD46,nightingale_metabolomics,xxl_vldl_ce_09,Cholesterol esters in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193395,NSHD46,nightingale_metabolomics,xxl_vldl_ce_p_09,Cholesterol esters to total lipids ratio in chylomicrons and extremely large VLD,-9.0,Value was rejected
+1193396,NSHD46,nightingale_metabolomics,xxl_vldl_c_p_09,Total cholesterol to total lipids ratio in chylomicrons and extremely large VLDL,-9.0,Value was rejected
+1193397,NSHD46,nightingale_metabolomics,xxl_vldl_fc_09,Free cholesterol in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193398,NSHD46,nightingale_metabolomics,xxl_vldl_fc_p_09,Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL ,-9.0,Value was rejected
+1193399,NSHD46,nightingale_metabolomics,xxl_vldl_l_09,Total lipids in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193400,NSHD46,nightingale_metabolomics,xxl_vldl_p_09,Concentration of chylomicrons and extremely large VLDL particles (mol/l),-9.0,Value was rejected
+1193401,NSHD46,nightingale_metabolomics,xxl_vldl_pl_09,Phospholipids in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193402,NSHD46,nightingale_metabolomics,xxl_vldl_pl_p_09,Phospholipids to total lipds ratio in chylomicrons and extremely large VLDL (%),-9.0,Value was rejected
+1193403,NSHD46,nightingale_metabolomics,xxl_vldl_tg_09,Triglycerides in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193404,NSHD46,nightingale_metabolomics,xxl_vldl_tg_p_09,Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL (%),-9.0,Value was rejected
+1193405,NSHD46,nightingale_metabolomics,totcho_15,Total cholines (mmol/l),-6.0,Not defined
+1193406,NSHD46,nightingale_metabolomics,totcho_15,Total cholines (mmol/l),-8.0,Value cannot be quantified
+1193407,NSHD46,nightingale_metabolomics,totcho_15,Total cholines (mmol/l),-9.0,Value was rejected
+1193408,NSHD46,nightingale_metabolomics,totcho_15,Total cholines (mmol/l),0.0,Zero - Very low concentration
+1193409,NSHD46,nightingale_metabolomics,m_vldl_fc_p_15,Free cholesterol to total lipids ratio in medium VLDL (%),-6.0,Not defined
+1193410,NSHD46,nightingale_metabolomics,m_vldl_fc_p_15,Free cholesterol to total lipids ratio in medium VLDL (%),-8.0,Value cannot be quantified
+1193411,NSHD46,nightingale_metabolomics,m_vldl_fc_p_15,Free cholesterol to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1193412,NSHD46,nightingale_metabolomics,m_vldl_fc_p_15,Free cholesterol to total lipids ratio in medium VLDL (%),0.0,Zero - Very low concentration
+1193413,NSHD46,nightingale_metabolomics,xxl_vldl_pl_15,Phospholipids in chylomicrons and extremely large VLDL (mmol/l),-6.0,Not defined
+1193414,NSHD46,nightingale_metabolomics,xxl_vldl_pl_15,Phospholipids in chylomicrons and extremely large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193415,NSHD46,nightingale_metabolomics,xxl_vldl_pl_15,Phospholipids in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193416,NSHD46,nightingale_metabolomics,xxl_vldl_pl_15,Phospholipids in chylomicrons and extremely large VLDL (mmol/l),0.0,Zero - Very low concentration
+1193417,NSHD46,nightingale_metabolomics,m_vldl_l_15,Total lipids in medium VLDL (mmol/l),-6.0,Not defined
+1193418,NSHD46,nightingale_metabolomics,m_vldl_l_15,Total lipids in medium VLDL (mmol/l),-8.0,Value cannot be quantified
+1193419,NSHD46,nightingale_metabolomics,m_vldl_l_15,Total lipids in medium VLDL (mmol/l),-9.0,Value was rejected
+1193420,NSHD46,nightingale_metabolomics,m_vldl_l_15,Total lipids in medium VLDL (mmol/l),0.0,Zero - Very low concentration
+1193421,NSHD46,nightingale_metabolomics,apoa1_15,Apolipoprotein A-I (g/l),-6.0,Not defined
+1193422,NSHD46,nightingale_metabolomics,apoa1_15,Apolipoprotein A-I (g/l),-8.0,Value cannot be quantified
+1193423,NSHD46,nightingale_metabolomics,apoa1_15,Apolipoprotein A-I (g/l),-9.0,Value was rejected
+1193424,NSHD46,nightingale_metabolomics,apoa1_15,Apolipoprotein A-I (g/l),0.0,Zero - Very low concentration
+1193425,NSHD46,nightingale_metabolomics,totfa_15,Total fatty acids (mmol/l),-6.0,Not defined
+1193426,NSHD46,nightingale_metabolomics,totfa_15,Total fatty acids (mmol/l),-8.0,Value cannot be quantified
+1193427,NSHD46,nightingale_metabolomics,totfa_15,Total fatty acids (mmol/l),-9.0,Value was rejected
+1193428,NSHD46,nightingale_metabolomics,totfa_15,Total fatty acids (mmol/l),0.0,Zero - Very low concentration
+1193429,NSHD46,nightingale_metabolomics,apob_15,Apolipoprotein B (g/l),-6.0,Not defined
+1193430,NSHD46,nightingale_metabolomics,apob_15,Apolipoprotein B (g/l),-8.0,Value cannot be quantified
+1193431,NSHD46,nightingale_metabolomics,apob_15,Apolipoprotein B (g/l),-9.0,Value was rejected
+1193432,NSHD46,nightingale_metabolomics,apob_15,Apolipoprotein B (g/l),0.0,Zero - Very low concentration
+1193433,NSHD46,nightingale_metabolomics,m_vldl_p_15,Concentration of medium VLDL particles (mol/l),-6.0,Not defined
+1193434,NSHD46,nightingale_metabolomics,m_vldl_p_15,Concentration of medium VLDL particles (mol/l),-8.0,Value cannot be quantified
+1193435,NSHD46,nightingale_metabolomics,m_vldl_p_15,Concentration of medium VLDL particles (mol/l),-9.0,Value was rejected
+1193436,NSHD46,nightingale_metabolomics,m_vldl_p_15,Concentration of medium VLDL particles (mol/l),0.0,Zero - Very low concentration
+1193437,NSHD46,nightingale_metabolomics,apobapoa1_15,Ratio of apolipoprotein B to apolipoprotein A-I,-6.0,Not defined
+1193438,NSHD46,nightingale_metabolomics,apobapoa1_15,Ratio of apolipoprotein B to apolipoprotein A-I,-8.0,Value cannot be quantified
+1193439,NSHD46,nightingale_metabolomics,apobapoa1_15,Ratio of apolipoprotein B to apolipoprotein A-I,-9.0,Value was rejected
+1193440,NSHD46,nightingale_metabolomics,apobapoa1_15,Ratio of apolipoprotein B to apolipoprotein A-I,0.0,Zero - Very low concentration
+1193441,NSHD46,nightingale_metabolomics,xl_vldl_pl_15,Phospholipids in very large VLDL (mmol/l),-6.0,Not defined
+1193442,NSHD46,nightingale_metabolomics,xl_vldl_pl_15,Phospholipids in very large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193443,NSHD46,nightingale_metabolomics,xl_vldl_pl_15,Phospholipids in very large VLDL (mmol/l),-9.0,Value was rejected
+1193444,NSHD46,nightingale_metabolomics,xl_vldl_pl_15,Phospholipids in very large VLDL (mmol/l),0.0,Zero - Very low concentration
+1193445,NSHD46,nightingale_metabolomics,bohbut_15,3-hydroxybutyrate (mmol/l),-6.0,Not defined
+1193446,NSHD46,nightingale_metabolomics,bohbut_15,3-hydroxybutyrate (mmol/l),-8.0,Value cannot be quantified
+1193447,NSHD46,nightingale_metabolomics,bohbut_15,3-hydroxybutyrate (mmol/l),-9.0,Value was rejected
+1193448,NSHD46,nightingale_metabolomics,bohbut_15,3-hydroxybutyrate (mmol/l),0.0,Zero - Very low concentration
+1193449,NSHD46,nightingale_metabolomics,m_vldl_pl_15,Phospholipids in medium VLDL (mmol/l),-6.0,Not defined
+1193450,NSHD46,nightingale_metabolomics,m_vldl_pl_15,Phospholipids in medium VLDL (mmol/l),-8.0,Value cannot be quantified
+1193451,NSHD46,nightingale_metabolomics,m_vldl_pl_15,Phospholipids in medium VLDL (mmol/l),-9.0,Value was rejected
+1193452,NSHD46,nightingale_metabolomics,m_vldl_pl_15,Phospholipids in medium VLDL (mmol/l),0.0,Zero - Very low concentration
+1193453,NSHD46,nightingale_metabolomics,cit_15,Citrate (mmol/l),-6.0,Not defined
+1193454,NSHD46,nightingale_metabolomics,cit_15,Citrate (mmol/l),-8.0,Value cannot be quantified
+1193455,NSHD46,nightingale_metabolomics,cit_15,Citrate (mmol/l),-9.0,Value was rejected
+1193456,NSHD46,nightingale_metabolomics,cit_15,Citrate (mmol/l),0.0,Zero - Very low concentration
+1193457,NSHD46,nightingale_metabolomics,totpg_15,Total phosphoglycerides (mmol/l),-6.0,Not defined
+1193458,NSHD46,nightingale_metabolomics,totpg_15,Total phosphoglycerides (mmol/l),-8.0,Value cannot be quantified
+1193459,NSHD46,nightingale_metabolomics,totpg_15,Total phosphoglycerides (mmol/l),-9.0,Value was rejected
+1193460,NSHD46,nightingale_metabolomics,totpg_15,Total phosphoglycerides (mmol/l),0.0,Zero - Very low concentration
+1193461,NSHD46,nightingale_metabolomics,m_vldl_pl_p_15,Phospholipids to total lipds ratio in medium VLDL (%),-6.0,Not defined
+1193462,NSHD46,nightingale_metabolomics,m_vldl_pl_p_15,Phospholipids to total lipds ratio in medium VLDL (%),-8.0,Value cannot be quantified
+1193463,NSHD46,nightingale_metabolomics,m_vldl_pl_p_15,Phospholipids to total lipds ratio in medium VLDL (%),-9.0,Value was rejected
+1193464,NSHD46,nightingale_metabolomics,m_vldl_pl_p_15,Phospholipids to total lipds ratio in medium VLDL (%),0.0,Zero - Very low concentration
+1193465,NSHD46,nightingale_metabolomics,xs_vldl_tg_15,Triglycerides in very small VLDL (mmol/l),-6.0,Not defined
+1193466,NSHD46,nightingale_metabolomics,xs_vldl_tg_15,Triglycerides in very small VLDL (mmol/l),-8.0,Value cannot be quantified
+1193467,NSHD46,nightingale_metabolomics,xs_vldl_tg_15,Triglycerides in very small VLDL (mmol/l),-9.0,Value was rejected
+1193468,NSHD46,nightingale_metabolomics,xs_vldl_tg_15,Triglycerides in very small VLDL (mmol/l),0.0,Zero - Very low concentration
+1193469,NSHD46,nightingale_metabolomics,crea_15,Creatinine (mmol/l),-6.0,Not defined
+1193470,NSHD46,nightingale_metabolomics,crea_15,Creatinine (mmol/l),-8.0,Value cannot be quantified
+1193471,NSHD46,nightingale_metabolomics,crea_15,Creatinine (mmol/l),-9.0,Value was rejected
+1193472,NSHD46,nightingale_metabolomics,crea_15,Creatinine (mmol/l),0.0,Zero - Very low concentration
+1193473,NSHD46,nightingale_metabolomics,m_vldl_tg_15,Triglycerides in medium VLDL (mmol/l),-6.0,Not defined
+1193474,NSHD46,nightingale_metabolomics,m_vldl_tg_15,Triglycerides in medium VLDL (mmol/l),-8.0,Value cannot be quantified
+1193475,NSHD46,nightingale_metabolomics,m_vldl_tg_15,Triglycerides in medium VLDL (mmol/l),-9.0,Value was rejected
+1193476,NSHD46,nightingale_metabolomics,m_vldl_tg_15,Triglycerides in medium VLDL (mmol/l),0.0,Zero - Very low concentration
+1193477,NSHD46,nightingale_metabolomics,tyr_15,Tyrosine (mmol/l),-6.0,Not defined
+1193478,NSHD46,nightingale_metabolomics,tyr_15,Tyrosine (mmol/l),-8.0,Value cannot be quantified
+1193479,NSHD46,nightingale_metabolomics,tyr_15,Tyrosine (mmol/l),-9.0,Value was rejected
+1193480,NSHD46,nightingale_metabolomics,tyr_15,Tyrosine (mmol/l),0.0,Zero - Very low concentration
+1193481,NSHD46,nightingale_metabolomics,m_vldl_tg_p_15,Triglycerides to total lipids ratio in medium VLDL (%),-6.0,Not defined
+1193482,NSHD46,nightingale_metabolomics,m_vldl_tg_p_15,Triglycerides to total lipids ratio in medium VLDL (%),-8.0,Value cannot be quantified
+1193483,NSHD46,nightingale_metabolomics,m_vldl_tg_p_15,Triglycerides to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1193484,NSHD46,nightingale_metabolomics,m_vldl_tg_p_15,Triglycerides to total lipids ratio in medium VLDL (%),0.0,Zero - Very low concentration
+1193485,NSHD46,nightingale_metabolomics,dha_15,22:6; docosahexaenoic acid (mmol/l),-6.0,Not defined
+1193486,NSHD46,nightingale_metabolomics,dha_15,22:6; docosahexaenoic acid (mmol/l),-8.0,Value cannot be quantified
+1193487,NSHD46,nightingale_metabolomics,dha_15,22:6; docosahexaenoic acid (mmol/l),-9.0,Value was rejected
+1193488,NSHD46,nightingale_metabolomics,dha_15,22:6; docosahexaenoic acid (mmol/l),0.0,Zero - Very low concentration
+1193489,NSHD46,nightingale_metabolomics,unsat_15,Estimated degree of unsaturation,-6.0,Not defined
+1193490,NSHD46,nightingale_metabolomics,unsat_15,Estimated degree of unsaturation,-8.0,Value cannot be quantified
+1193491,NSHD46,nightingale_metabolomics,unsat_15,Estimated degree of unsaturation,-9.0,Value was rejected
+1193492,NSHD46,nightingale_metabolomics,unsat_15,Estimated degree of unsaturation,0.0,Zero - Very low concentration
+1193493,NSHD46,nightingale_metabolomics,dhafa_15,Ratio of 22:6 docosahexaenoic acid to total fatty acids (%),-6.0,Not defined
+1193494,NSHD46,nightingale_metabolomics,dhafa_15,Ratio of 22:6 docosahexaenoic acid to total fatty acids (%),-8.0,Value cannot be quantified
+1193495,NSHD46,nightingale_metabolomics,dhafa_15,Ratio of 22:6 docosahexaenoic acid to total fatty acids (%),-9.0,Value was rejected
+1193496,NSHD46,nightingale_metabolomics,dhafa_15,Ratio of 22:6 docosahexaenoic acid to total fatty acids (%),0.0,Zero - Very low concentration
+1193497,NSHD46,nightingale_metabolomics,xl_vldl_pl_p_15,Phospholipids to total lipds ratio in very large VLDL (%),-6.0,Not defined
+1193498,NSHD46,nightingale_metabolomics,xl_vldl_pl_p_15,Phospholipids to total lipds ratio in very large VLDL (%),-8.0,Value cannot be quantified
+1193499,NSHD46,nightingale_metabolomics,xl_vldl_pl_p_15,Phospholipids to total lipds ratio in very large VLDL (%),-9.0,Value was rejected
+1193500,NSHD46,nightingale_metabolomics,xl_vldl_pl_p_15,Phospholipids to total lipds ratio in very large VLDL (%),0.0,Zero - Very low concentration
+1193501,NSHD46,nightingale_metabolomics,estc_15,Esterified cholesterol (mmol/l),-6.0,Not defined
+1193502,NSHD46,nightingale_metabolomics,estc_15,Esterified cholesterol (mmol/l),-8.0,Value cannot be quantified
+1193503,NSHD46,nightingale_metabolomics,estc_15,Esterified cholesterol (mmol/l),-9.0,Value was rejected
+1193504,NSHD46,nightingale_metabolomics,estc_15,Esterified cholesterol (mmol/l),0.0,Zero - Very low concentration
+1193505,NSHD46,nightingale_metabolomics,pc_15,Phosphatidylcholine and other cholines (mmol/l),-6.0,Not defined
+1193506,NSHD46,nightingale_metabolomics,pc_15,Phosphatidylcholine and other cholines (mmol/l),-8.0,Value cannot be quantified
+1193507,NSHD46,nightingale_metabolomics,pc_15,Phosphatidylcholine and other cholines (mmol/l),-9.0,Value was rejected
+1193508,NSHD46,nightingale_metabolomics,pc_15,Phosphatidylcholine and other cholines (mmol/l),0.0,Zero - Very low concentration
+1193509,NSHD46,nightingale_metabolomics,xxl_vldl_fc_p_15,Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL ,-6.0,Not defined
+1193510,NSHD46,nightingale_metabolomics,xxl_vldl_fc_p_15,Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL ,-8.0,Value cannot be quantified
+1193511,NSHD46,nightingale_metabolomics,xxl_vldl_fc_p_15,Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL ,-9.0,Value was rejected
+1193512,NSHD46,nightingale_metabolomics,xxl_vldl_fc_p_15,Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL ,0.0,Zero - Very low concentration
+1193513,NSHD46,nightingale_metabolomics,faw3_15,Omega-3 fatty acids (mmol/l),-6.0,Not defined
+1193514,NSHD46,nightingale_metabolomics,faw3_15,Omega-3 fatty acids (mmol/l),-8.0,Value cannot be quantified
+1193515,NSHD46,nightingale_metabolomics,faw3_15,Omega-3 fatty acids (mmol/l),-9.0,Value was rejected
+1193516,NSHD46,nightingale_metabolomics,faw3_15,Omega-3 fatty acids (mmol/l),0.0,Zero - Very low concentration
+1193517,NSHD46,nightingale_metabolomics,phe_15,Phenylalanine (mmol/l),-6.0,Not defined
+1193518,NSHD46,nightingale_metabolomics,phe_15,Phenylalanine (mmol/l),-8.0,Value cannot be quantified
+1193519,NSHD46,nightingale_metabolomics,phe_15,Phenylalanine (mmol/l),-9.0,Value was rejected
+1193520,NSHD46,nightingale_metabolomics,phe_15,Phenylalanine (mmol/l),0.0,Zero - Very low concentration
+1193521,NSHD46,nightingale_metabolomics,faw3fa_15,Ratio of omega-3 fatty acids to total fatty acids (%),-6.0,Not defined
+1193522,NSHD46,nightingale_metabolomics,faw3fa_15,Ratio of omega-3 fatty acids to total fatty acids (%),-8.0,Value cannot be quantified
+1193523,NSHD46,nightingale_metabolomics,faw3fa_15,Ratio of omega-3 fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193524,NSHD46,nightingale_metabolomics,faw3fa_15,Ratio of omega-3 fatty acids to total fatty acids (%),0.0,Zero - Very low concentration
+1193525,NSHD46,nightingale_metabolomics,val_15,Valine (mmol/l),-6.0,Not defined
+1193526,NSHD46,nightingale_metabolomics,val_15,Valine (mmol/l),-8.0,Value cannot be quantified
+1193527,NSHD46,nightingale_metabolomics,val_15,Valine (mmol/l),-9.0,Value was rejected
+1193528,NSHD46,nightingale_metabolomics,val_15,Valine (mmol/l),0.0,Zero - Very low concentration
+1193529,NSHD46,nightingale_metabolomics,faw6_15,Omega-6 fatty acids (mmol/l),-6.0,Not defined
+1193530,NSHD46,nightingale_metabolomics,faw6_15,Omega-6 fatty acids (mmol/l),-8.0,Value cannot be quantified
+1193531,NSHD46,nightingale_metabolomics,faw6_15,Omega-6 fatty acids (mmol/l),-9.0,Value was rejected
+1193532,NSHD46,nightingale_metabolomics,faw6_15,Omega-6 fatty acids (mmol/l),0.0,Zero - Very low concentration
+1193533,NSHD46,nightingale_metabolomics,pufa_15,Polyunsaturated fatty acids (mmol/l),-6.0,Not defined
+1193534,NSHD46,nightingale_metabolomics,pufa_15,Polyunsaturated fatty acids (mmol/l),-8.0,Value cannot be quantified
+1193535,NSHD46,nightingale_metabolomics,pufa_15,Polyunsaturated fatty acids (mmol/l),-9.0,Value was rejected
+1193536,NSHD46,nightingale_metabolomics,pufa_15,Polyunsaturated fatty acids (mmol/l),0.0,Zero - Very low concentration
+1193537,NSHD46,nightingale_metabolomics,faw6fa_15,Ratio of omega-6 fatty acids to total fatty acids (%),-6.0,Not defined
+1193538,NSHD46,nightingale_metabolomics,faw6fa_15,Ratio of omega-6 fatty acids to total fatty acids (%),-8.0,Value cannot be quantified
+1193539,NSHD46,nightingale_metabolomics,faw6fa_15,Ratio of omega-6 fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193540,NSHD46,nightingale_metabolomics,faw6fa_15,Ratio of omega-6 fatty acids to total fatty acids (%),0.0,Zero - Very low concentration
+1193541,NSHD46,nightingale_metabolomics,xl_vldl_tg_15,Triglycerides in very large VLDL (mmol/l),-6.0,Not defined
+1193542,NSHD46,nightingale_metabolomics,xl_vldl_tg_15,Triglycerides in very large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193543,NSHD46,nightingale_metabolomics,xl_vldl_tg_15,Triglycerides in very large VLDL (mmol/l),-9.0,Value was rejected
+1193544,NSHD46,nightingale_metabolomics,xl_vldl_tg_15,Triglycerides in very large VLDL (mmol/l),0.0,Zero - Very low concentration
+1193545,NSHD46,nightingale_metabolomics,freec_15,Free cholesterol (mmol/l),-6.0,Not defined
+1193546,NSHD46,nightingale_metabolomics,freec_15,Free cholesterol (mmol/l),-8.0,Value cannot be quantified
+1193547,NSHD46,nightingale_metabolomics,freec_15,Free cholesterol (mmol/l),-9.0,Value was rejected
+1193548,NSHD46,nightingale_metabolomics,freec_15,Free cholesterol (mmol/l),0.0,Zero - Very low concentration
+1193549,NSHD46,nightingale_metabolomics,pufafa_15,Ratio of polyunsaturated fatty acids to total fatty acids (%),-6.0,Not defined
+1193550,NSHD46,nightingale_metabolomics,pufafa_15,Ratio of polyunsaturated fatty acids to total fatty acids (%),-8.0,Value cannot be quantified
+1193551,NSHD46,nightingale_metabolomics,pufafa_15,Ratio of polyunsaturated fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193552,NSHD46,nightingale_metabolomics,pufafa_15,Ratio of polyunsaturated fatty acids to total fatty acids (%),0.0,Zero - Very low concentration
+1193553,NSHD46,nightingale_metabolomics,glc_15,Glucose (mmol/l),-6.0,Not defined
+1193554,NSHD46,nightingale_metabolomics,glc_15,Glucose (mmol/l),-8.0,Value cannot be quantified
+1193555,NSHD46,nightingale_metabolomics,glc_15,Glucose (mmol/l),-9.0,Value was rejected
+1193556,NSHD46,nightingale_metabolomics,glc_15,Glucose (mmol/l),0.0,Zero - Very low concentration
+1193557,NSHD46,nightingale_metabolomics,vldl_c_15,Total cholesterol in VLDL (mmol/l),-6.0,Not defined
+1193558,NSHD46,nightingale_metabolomics,vldl_c_15,Total cholesterol in VLDL (mmol/l),-8.0,Value cannot be quantified
+1193559,NSHD46,nightingale_metabolomics,vldl_c_15,Total cholesterol in VLDL (mmol/l),-9.0,Value was rejected
+1193560,NSHD46,nightingale_metabolomics,vldl_c_15,Total cholesterol in VLDL (mmol/l),0.0,Zero - Very low concentration
+1193561,NSHD46,nightingale_metabolomics,gln_15,Glutamine (mmol/l),-6.0,Not defined
+1193562,NSHD46,nightingale_metabolomics,gln_15,Glutamine (mmol/l),-8.0,Value cannot be quantified
+1193563,NSHD46,nightingale_metabolomics,gln_15,Glutamine (mmol/l),-9.0,Value was rejected
+1193564,NSHD46,nightingale_metabolomics,gln_15,Glutamine (mmol/l),0.0,Zero - Very low concentration
+1193565,NSHD46,nightingale_metabolomics,pyr_15,Pyruvate (mmol/l),-6.0,Not defined
+1193566,NSHD46,nightingale_metabolomics,pyr_15,Pyruvate (mmol/l),-8.0,Value cannot be quantified
+1193567,NSHD46,nightingale_metabolomics,pyr_15,Pyruvate (mmol/l),-9.0,Value was rejected
+1193568,NSHD46,nightingale_metabolomics,pyr_15,Pyruvate (mmol/l),0.0,Zero - Very low concentration
+1193569,NSHD46,nightingale_metabolomics,glol_15,Glycerol (mmol/l),-6.0,Not defined
+1193570,NSHD46,nightingale_metabolomics,glol_15,Glycerol (mmol/l),-8.0,Value cannot be quantified
+1193571,NSHD46,nightingale_metabolomics,glol_15,Glycerol (mmol/l),-9.0,Value was rejected
+1193572,NSHD46,nightingale_metabolomics,glol_15,Glycerol (mmol/l),0.0,Zero - Very low concentration
+1193573,NSHD46,nightingale_metabolomics,remnant_c_15,Remnant cholesterol (non-HDL; non-LDL -cholesterol) (mmol/l),-6.0,Not defined
+1193574,NSHD46,nightingale_metabolomics,remnant_c_15,Remnant cholesterol (non-HDL; non-LDL -cholesterol) (mmol/l),-8.0,Value cannot be quantified
+1193575,NSHD46,nightingale_metabolomics,remnant_c_15,Remnant cholesterol (non-HDL; non-LDL -cholesterol) (mmol/l),-9.0,Value was rejected
+1193576,NSHD46,nightingale_metabolomics,remnant_c_15,Remnant cholesterol (non-HDL; non-LDL -cholesterol) (mmol/l),0.0,Zero - Very low concentration
+1193577,NSHD46,nightingale_metabolomics,gly_15,Glycine (mmol/l),-6.0,Not defined
+1193578,NSHD46,nightingale_metabolomics,gly_15,Glycine (mmol/l),-8.0,Value cannot be quantified
+1193579,NSHD46,nightingale_metabolomics,gly_15,Glycine (mmol/l),-9.0,Value was rejected
+1193580,NSHD46,nightingale_metabolomics,gly_15,Glycine (mmol/l),0.0,Zero - Very low concentration
+1193581,NSHD46,nightingale_metabolomics,xs_vldl_tg_p_15,Triglycerides to total lipids ratio in very small VLDL (%),-6.0,Not defined
+1193582,NSHD46,nightingale_metabolomics,xs_vldl_tg_p_15,Triglycerides to total lipids ratio in very small VLDL (%),-8.0,Value cannot be quantified
+1193583,NSHD46,nightingale_metabolomics,xs_vldl_tg_p_15,Triglycerides to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1193584,NSHD46,nightingale_metabolomics,xs_vldl_tg_p_15,Triglycerides to total lipids ratio in very small VLDL (%),0.0,Zero - Very low concentration
+1193585,NSHD46,nightingale_metabolomics,gp_15,Glycoprotein acetyls; mainly a1-acid glycoprotein (mmol/l),-6.0,Not defined
+1193586,NSHD46,nightingale_metabolomics,gp_15,Glycoprotein acetyls; mainly a1-acid glycoprotein (mmol/l),-8.0,Value cannot be quantified
+1193587,NSHD46,nightingale_metabolomics,gp_15,Glycoprotein acetyls; mainly a1-acid glycoprotein (mmol/l),-9.0,Value was rejected
+1193588,NSHD46,nightingale_metabolomics,gp_15,Glycoprotein acetyls; mainly a1-acid glycoprotein (mmol/l),0.0,Zero - Very low concentration
+1193589,NSHD46,nightingale_metabolomics,ala_15,Alanine (mmol/l),-6.0,Not defined
+1193590,NSHD46,nightingale_metabolomics,ala_15,Alanine (mmol/l),-8.0,Value cannot be quantified
+1193591,NSHD46,nightingale_metabolomics,ala_15,Alanine (mmol/l),-9.0,Value was rejected
+1193592,NSHD46,nightingale_metabolomics,ala_15,Alanine (mmol/l),0.0,Zero - Very low concentration
+1193593,NSHD46,nightingale_metabolomics,hdl2_c_15,Total cholesterol in HDL2 (mmol/l),-6.0,Not defined
+1193594,NSHD46,nightingale_metabolomics,hdl2_c_15,Total cholesterol in HDL2 (mmol/l),-8.0,Value cannot be quantified
+1193595,NSHD46,nightingale_metabolomics,hdl2_c_15,Total cholesterol in HDL2 (mmol/l),-9.0,Value was rejected
+1193596,NSHD46,nightingale_metabolomics,hdl2_c_15,Total cholesterol in HDL2 (mmol/l),0.0,Zero - Very low concentration
+1193597,NSHD46,nightingale_metabolomics,vldl_d_15,Mean diameter for VLDL particles (nm),-6.0,Not defined
+1193598,NSHD46,nightingale_metabolomics,vldl_d_15,Mean diameter for VLDL particles (nm),-8.0,Value cannot be quantified
+1193599,NSHD46,nightingale_metabolomics,vldl_d_15,Mean diameter for VLDL particles (nm),-9.0,Value was rejected
+1193600,NSHD46,nightingale_metabolomics,vldl_d_15,Mean diameter for VLDL particles (nm),0.0,Zero - Very low concentration
+1193601,NSHD46,nightingale_metabolomics,hdl3_c_15,Total cholesterol in HDL3 (mmol/l),-6.0,Not defined
+1193602,NSHD46,nightingale_metabolomics,hdl3_c_15,Total cholesterol in HDL3 (mmol/l),-8.0,Value cannot be quantified
+1193603,NSHD46,nightingale_metabolomics,hdl3_c_15,Total cholesterol in HDL3 (mmol/l),-9.0,Value was rejected
+1193604,NSHD46,nightingale_metabolomics,hdl3_c_15,Total cholesterol in HDL3 (mmol/l),0.0,Zero - Very low concentration
+1193605,NSHD46,nightingale_metabolomics,serum_c_15,Serum total cholesterol (mmol/l),-6.0,Not defined
+1193606,NSHD46,nightingale_metabolomics,serum_c_15,Serum total cholesterol (mmol/l),-8.0,Value cannot be quantified
+1193607,NSHD46,nightingale_metabolomics,serum_c_15,Serum total cholesterol (mmol/l),-9.0,Value was rejected
+1193608,NSHD46,nightingale_metabolomics,serum_c_15,Serum total cholesterol (mmol/l),0.0,Zero - Very low concentration
+1193609,NSHD46,nightingale_metabolomics,hdl_c_15,Total cholesterol in HDL (mmol/l),-6.0,Not defined
+1193610,NSHD46,nightingale_metabolomics,hdl_c_15,Total cholesterol in HDL (mmol/l),-8.0,Value cannot be quantified
+1193611,NSHD46,nightingale_metabolomics,hdl_c_15,Total cholesterol in HDL (mmol/l),-9.0,Value was rejected
+1193612,NSHD46,nightingale_metabolomics,hdl_c_15,Total cholesterol in HDL (mmol/l),0.0,Zero - Very low concentration
+1193613,NSHD46,nightingale_metabolomics,xl_vldl_tg_p_15,Triglycerides to total lipids ratio in very large VLDL (%),-6.0,Not defined
+1193614,NSHD46,nightingale_metabolomics,xl_vldl_tg_p_15,Triglycerides to total lipids ratio in very large VLDL (%),-8.0,Value cannot be quantified
+1193615,NSHD46,nightingale_metabolomics,xl_vldl_tg_p_15,Triglycerides to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1193616,NSHD46,nightingale_metabolomics,xl_vldl_tg_p_15,Triglycerides to total lipids ratio in very large VLDL (%),0.0,Zero - Very low concentration
+1193617,NSHD46,nightingale_metabolomics,hdl_d_15,Mean diameter for HDL particles (nm),-6.0,Not defined
+1193618,NSHD46,nightingale_metabolomics,hdl_d_15,Mean diameter for HDL particles (nm),-8.0,Value cannot be quantified
+1193619,NSHD46,nightingale_metabolomics,hdl_d_15,Mean diameter for HDL particles (nm),-9.0,Value was rejected
+1193620,NSHD46,nightingale_metabolomics,hdl_d_15,Mean diameter for HDL particles (nm),0.0,Zero - Very low concentration
+1193621,NSHD46,nightingale_metabolomics,serum_tg_15,Serum total triglycerides (mmol/l),-6.0,Not defined
+1193622,NSHD46,nightingale_metabolomics,serum_tg_15,Serum total triglycerides (mmol/l),-8.0,Value cannot be quantified
+1193623,NSHD46,nightingale_metabolomics,serum_tg_15,Serum total triglycerides (mmol/l),-9.0,Value was rejected
+1193624,NSHD46,nightingale_metabolomics,serum_tg_15,Serum total triglycerides (mmol/l),0.0,Zero - Very low concentration
+1193625,NSHD46,nightingale_metabolomics,hdl_tg_15,Triglycerides in HDL (mmol/l),-6.0,Not defined
+1193626,NSHD46,nightingale_metabolomics,hdl_tg_15,Triglycerides in HDL (mmol/l),-8.0,Value cannot be quantified
+1193627,NSHD46,nightingale_metabolomics,hdl_tg_15,Triglycerides in HDL (mmol/l),-9.0,Value was rejected
+1193628,NSHD46,nightingale_metabolomics,hdl_tg_15,Triglycerides in HDL (mmol/l),0.0,Zero - Very low concentration
+1193629,NSHD46,nightingale_metabolomics,ace_15,Acetate (mmol/l),-6.0,Not defined
+1193630,NSHD46,nightingale_metabolomics,ace_15,Acetate (mmol/l),-8.0,Value cannot be quantified
+1193631,NSHD46,nightingale_metabolomics,ace_15,Acetate (mmol/l),-9.0,Value was rejected
+1193632,NSHD46,nightingale_metabolomics,ace_15,Acetate (mmol/l),0.0,Zero - Very low concentration
+1193633,NSHD46,nightingale_metabolomics,his_15,Histidine (mmol/l),-6.0,Not defined
+1193634,NSHD46,nightingale_metabolomics,his_15,Histidine (mmol/l),-8.0,Value cannot be quantified
+1193635,NSHD46,nightingale_metabolomics,his_15,Histidine (mmol/l),-9.0,Value was rejected
+1193636,NSHD46,nightingale_metabolomics,his_15,Histidine (mmol/l),0.0,Zero - Very low concentration
+1193637,NSHD46,nightingale_metabolomics,vldl_tg_15,Triglycerides in VLDL (mmol/l),-6.0,Not defined
+1193638,NSHD46,nightingale_metabolomics,vldl_tg_15,Triglycerides in VLDL (mmol/l),-8.0,Value cannot be quantified
+1193639,NSHD46,nightingale_metabolomics,vldl_tg_15,Triglycerides in VLDL (mmol/l),-9.0,Value was rejected
+1193640,NSHD46,nightingale_metabolomics,vldl_tg_15,Triglycerides in VLDL (mmol/l),0.0,Zero - Very low concentration
+1193641,NSHD46,nightingale_metabolomics,idl_c_15,Total cholesterol in IDL (mmol/l),-6.0,Not defined
+1193642,NSHD46,nightingale_metabolomics,idl_c_15,Total cholesterol in IDL (mmol/l),-8.0,Value cannot be quantified
+1193643,NSHD46,nightingale_metabolomics,idl_c_15,Total cholesterol in IDL (mmol/l),-9.0,Value was rejected
+1193644,NSHD46,nightingale_metabolomics,idl_c_15,Total cholesterol in IDL (mmol/l),0.0,Zero - Very low concentration
+1193645,NSHD46,nightingale_metabolomics,sfa_15,Saturated fatty acids (mmol/l),-6.0,Not defined
+1193646,NSHD46,nightingale_metabolomics,sfa_15,Saturated fatty acids (mmol/l),-8.0,Value cannot be quantified
+1193647,NSHD46,nightingale_metabolomics,sfa_15,Saturated fatty acids (mmol/l),-9.0,Value was rejected
+1193648,NSHD46,nightingale_metabolomics,sfa_15,Saturated fatty acids (mmol/l),0.0,Zero - Very low concentration
+1193649,NSHD46,nightingale_metabolomics,idl_ce_15,Cholesterol esters in IDL (mmol/l),-6.0,Not defined
+1193650,NSHD46,nightingale_metabolomics,idl_ce_15,Cholesterol esters in IDL (mmol/l),-8.0,Value cannot be quantified
+1193651,NSHD46,nightingale_metabolomics,idl_ce_15,Cholesterol esters in IDL (mmol/l),-9.0,Value was rejected
+1193652,NSHD46,nightingale_metabolomics,idl_ce_15,Cholesterol esters in IDL (mmol/l),0.0,Zero - Very low concentration
+1193653,NSHD46,nightingale_metabolomics,xxl_vldl_tg_15,Triglycerides in chylomicrons and extremely large VLDL (mmol/l),-6.0,Not defined
+1193654,NSHD46,nightingale_metabolomics,xxl_vldl_tg_15,Triglycerides in chylomicrons and extremely large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193655,NSHD46,nightingale_metabolomics,xxl_vldl_tg_15,Triglycerides in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193656,NSHD46,nightingale_metabolomics,xxl_vldl_tg_15,Triglycerides in chylomicrons and extremely large VLDL (mmol/l),0.0,Zero - Very low concentration
+1193657,NSHD46,nightingale_metabolomics,idl_ce_p_15,Cholesterol esters to total lipids ratio in IDL (%),-6.0,Not defined
+1193658,NSHD46,nightingale_metabolomics,idl_ce_p_15,Cholesterol esters to total lipids ratio in IDL (%),-8.0,Value cannot be quantified
+1193659,NSHD46,nightingale_metabolomics,idl_ce_p_15,Cholesterol esters to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193660,NSHD46,nightingale_metabolomics,idl_ce_p_15,Cholesterol esters to total lipids ratio in IDL (%),0.0,Zero - Very low concentration
+1193661,NSHD46,nightingale_metabolomics,sfafa_15,Ratio of saturated fatty acids to total fatty acids (%),-6.0,Not defined
+1193662,NSHD46,nightingale_metabolomics,sfafa_15,Ratio of saturated fatty acids to total fatty acids (%),-8.0,Value cannot be quantified
+1193663,NSHD46,nightingale_metabolomics,sfafa_15,Ratio of saturated fatty acids to total fatty acids (%),-9.0,Value was rejected
+1193664,NSHD46,nightingale_metabolomics,sfafa_15,Ratio of saturated fatty acids to total fatty acids (%),0.0,Zero - Very low concentration
+1193665,NSHD46,nightingale_metabolomics,idl_c_p_15,Total cholesterol to total lipids ratio in IDL (%),-6.0,Not defined
+1193666,NSHD46,nightingale_metabolomics,idl_c_p_15,Total cholesterol to total lipids ratio in IDL (%),-8.0,Value cannot be quantified
+1193667,NSHD46,nightingale_metabolomics,idl_c_p_15,Total cholesterol to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193668,NSHD46,nightingale_metabolomics,idl_c_p_15,Total cholesterol to total lipids ratio in IDL (%),0.0,Zero - Very low concentration
+1193669,NSHD46,nightingale_metabolomics,xl_hdl_c_15,Total cholesterol in very large HDL (mmol/l),-6.0,Not defined
+1193670,NSHD46,nightingale_metabolomics,xl_hdl_c_15,Total cholesterol in very large HDL (mmol/l),-8.0,Value cannot be quantified
+1193671,NSHD46,nightingale_metabolomics,xl_hdl_c_15,Total cholesterol in very large HDL (mmol/l),-9.0,Value was rejected
+1193672,NSHD46,nightingale_metabolomics,xl_hdl_c_15,Total cholesterol in very large HDL (mmol/l),0.0,Zero - Very low concentration
+1193673,NSHD46,nightingale_metabolomics,idl_fc_15,Free cholesterol in IDL (mmol/l),-6.0,Not defined
+1193674,NSHD46,nightingale_metabolomics,idl_fc_15,Free cholesterol in IDL (mmol/l),-8.0,Value cannot be quantified
+1193675,NSHD46,nightingale_metabolomics,idl_fc_15,Free cholesterol in IDL (mmol/l),-9.0,Value was rejected
+1193676,NSHD46,nightingale_metabolomics,idl_fc_15,Free cholesterol in IDL (mmol/l),0.0,Zero - Very low concentration
+1193677,NSHD46,nightingale_metabolomics,s_hdl_c_15,Total cholesterol in small HDL (mmol/l),-6.0,Not defined
+1193678,NSHD46,nightingale_metabolomics,s_hdl_c_15,Total cholesterol in small HDL (mmol/l),-8.0,Value cannot be quantified
+1193679,NSHD46,nightingale_metabolomics,s_hdl_c_15,Total cholesterol in small HDL (mmol/l),-9.0,Value was rejected
+1193680,NSHD46,nightingale_metabolomics,s_hdl_c_15,Total cholesterol in small HDL (mmol/l),0.0,Zero - Very low concentration
+1193681,NSHD46,nightingale_metabolomics,idl_fc_p_15,Free cholesterol to total lipids ratio in IDL (%),-6.0,Not defined
+1193682,NSHD46,nightingale_metabolomics,idl_fc_p_15,Free cholesterol to total lipids ratio in IDL (%),-8.0,Value cannot be quantified
+1193683,NSHD46,nightingale_metabolomics,idl_fc_p_15,Free cholesterol to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193684,NSHD46,nightingale_metabolomics,idl_fc_p_15,Free cholesterol to total lipids ratio in IDL (%),0.0,Zero - Very low concentration
+1193685,NSHD46,nightingale_metabolomics,xs_vldl_c_15,Total cholesterol in very small VLDL (mmol/l),-6.0,Not defined
+1193686,NSHD46,nightingale_metabolomics,xs_vldl_c_15,Total cholesterol in very small VLDL (mmol/l),-8.0,Value cannot be quantified
+1193687,NSHD46,nightingale_metabolomics,xs_vldl_c_15,Total cholesterol in very small VLDL (mmol/l),-9.0,Value was rejected
+1193688,NSHD46,nightingale_metabolomics,xs_vldl_c_15,Total cholesterol in very small VLDL (mmol/l),0.0,Zero - Very low concentration
+1193689,NSHD46,nightingale_metabolomics,idl_l_15,Total lipids in IDL (mmol/l),-6.0,Not defined
+1193690,NSHD46,nightingale_metabolomics,idl_l_15,Total lipids in IDL (mmol/l),-8.0,Value cannot be quantified
+1193691,NSHD46,nightingale_metabolomics,idl_l_15,Total lipids in IDL (mmol/l),-9.0,Value was rejected
+1193692,NSHD46,nightingale_metabolomics,idl_l_15,Total lipids in IDL (mmol/l),0.0,Zero - Very low concentration
+1193693,NSHD46,nightingale_metabolomics,s_hdl_ce_15,Cholesterol esters in small HDL (mmol/l),-6.0,Not defined
+1193694,NSHD46,nightingale_metabolomics,s_hdl_ce_15,Cholesterol esters in small HDL (mmol/l),-8.0,Value cannot be quantified
+1193695,NSHD46,nightingale_metabolomics,s_hdl_ce_15,Cholesterol esters in small HDL (mmol/l),-9.0,Value was rejected
+1193696,NSHD46,nightingale_metabolomics,s_hdl_ce_15,Cholesterol esters in small HDL (mmol/l),0.0,Zero - Very low concentration
+1193697,NSHD46,nightingale_metabolomics,idl_p_15,Concentration of IDL particles (mol/l),-6.0,Not defined
+1193698,NSHD46,nightingale_metabolomics,idl_p_15,Concentration of IDL particles (mol/l),-8.0,Value cannot be quantified
+1193699,NSHD46,nightingale_metabolomics,idl_p_15,Concentration of IDL particles (mol/l),-9.0,Value was rejected
+1193700,NSHD46,nightingale_metabolomics,idl_p_15,Concentration of IDL particles (mol/l),0.0,Zero - Very low concentration
+1193701,NSHD46,nightingale_metabolomics,xl_hdl_ce_15,Cholesterol esters in very large HDL (mmol/l),-6.0,Not defined
+1193702,NSHD46,nightingale_metabolomics,xl_hdl_ce_15,Cholesterol esters in very large HDL (mmol/l),-8.0,Value cannot be quantified
+1193703,NSHD46,nightingale_metabolomics,xl_hdl_ce_15,Cholesterol esters in very large HDL (mmol/l),-9.0,Value was rejected
+1193704,NSHD46,nightingale_metabolomics,xl_hdl_ce_15,Cholesterol esters in very large HDL (mmol/l),0.0,Zero - Very low concentration
+1193705,NSHD46,nightingale_metabolomics,idl_pl_15,Phospholipids in IDL (mmol/l),-6.0,Not defined
+1193706,NSHD46,nightingale_metabolomics,idl_pl_15,Phospholipids in IDL (mmol/l),-8.0,Value cannot be quantified
+1193707,NSHD46,nightingale_metabolomics,idl_pl_15,Phospholipids in IDL (mmol/l),-9.0,Value was rejected
+1193708,NSHD46,nightingale_metabolomics,idl_pl_15,Phospholipids in IDL (mmol/l),0.0,Zero - Very low concentration
+1193709,NSHD46,nightingale_metabolomics,s_hdl_ce_p_15,Cholesterol esters to total lipids ratio in small HDL (%),-6.0,Not defined
+1193710,NSHD46,nightingale_metabolomics,s_hdl_ce_p_15,Cholesterol esters to total lipids ratio in small HDL (%),-8.0,Value cannot be quantified
+1193711,NSHD46,nightingale_metabolomics,s_hdl_ce_p_15,Cholesterol esters to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193712,NSHD46,nightingale_metabolomics,s_hdl_ce_p_15,Cholesterol esters to total lipids ratio in small HDL (%),0.0,Zero - Very low concentration
+1193713,NSHD46,nightingale_metabolomics,idl_pl_p_15,Phospholipids to total lipds ratio in IDL (%),-6.0,Not defined
+1193714,NSHD46,nightingale_metabolomics,idl_pl_p_15,Phospholipids to total lipds ratio in IDL (%),-8.0,Value cannot be quantified
+1193715,NSHD46,nightingale_metabolomics,idl_pl_p_15,Phospholipids to total lipds ratio in IDL (%),-9.0,Value was rejected
+1193716,NSHD46,nightingale_metabolomics,idl_pl_p_15,Phospholipids to total lipds ratio in IDL (%),0.0,Zero - Very low concentration
+1193717,NSHD46,nightingale_metabolomics,xxl_vldl_c_15,Total cholesterol in chylomicrons and extremely large VLDL (mmol/l),-6.0,Not defined
+1193718,NSHD46,nightingale_metabolomics,xxl_vldl_c_15,Total cholesterol in chylomicrons and extremely large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193719,NSHD46,nightingale_metabolomics,xxl_vldl_c_15,Total cholesterol in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193720,NSHD46,nightingale_metabolomics,xxl_vldl_c_15,Total cholesterol in chylomicrons and extremely large VLDL (mmol/l),0.0,Zero - Very low concentration
+1193721,NSHD46,nightingale_metabolomics,idl_tg_15,Triglycerides in IDL (mmol/l),-6.0,Not defined
+1193722,NSHD46,nightingale_metabolomics,idl_tg_15,Triglycerides in IDL (mmol/l),-8.0,Value cannot be quantified
+1193723,NSHD46,nightingale_metabolomics,idl_tg_15,Triglycerides in IDL (mmol/l),-9.0,Value was rejected
+1193724,NSHD46,nightingale_metabolomics,idl_tg_15,Triglycerides in IDL (mmol/l),0.0,Zero - Very low concentration
+1193725,NSHD46,nightingale_metabolomics,s_hdl_c_p_15,Total cholesterol to total lipids ratio in small HDL (%),-6.0,Not defined
+1193726,NSHD46,nightingale_metabolomics,s_hdl_c_p_15,Total cholesterol to total lipids ratio in small HDL (%),-8.0,Value cannot be quantified
+1193727,NSHD46,nightingale_metabolomics,s_hdl_c_p_15,Total cholesterol to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193728,NSHD46,nightingale_metabolomics,s_hdl_c_p_15,Total cholesterol to total lipids ratio in small HDL (%),0.0,Zero - Very low concentration
+1193729,NSHD46,nightingale_metabolomics,idl_tg_p_15,Triglycerides to total lipids ratio in IDL (%),-6.0,Not defined
+1193730,NSHD46,nightingale_metabolomics,idl_tg_p_15,Triglycerides to total lipids ratio in IDL (%),-8.0,Value cannot be quantified
+1193731,NSHD46,nightingale_metabolomics,idl_tg_p_15,Triglycerides to total lipids ratio in IDL (%),-9.0,Value was rejected
+1193732,NSHD46,nightingale_metabolomics,idl_tg_p_15,Triglycerides to total lipids ratio in IDL (%),0.0,Zero - Very low concentration
+1193733,NSHD46,nightingale_metabolomics,xl_hdl_ce_p_15,Cholesterol esters to total lipids ratio in very large HDL (%),-6.0,Not defined
+1193734,NSHD46,nightingale_metabolomics,xl_hdl_ce_p_15,Cholesterol esters to total lipids ratio in very large HDL (%),-8.0,Value cannot be quantified
+1193735,NSHD46,nightingale_metabolomics,xl_hdl_ce_p_15,Cholesterol esters to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1193736,NSHD46,nightingale_metabolomics,xl_hdl_ce_p_15,Cholesterol esters to total lipids ratio in very large HDL (%),0.0,Zero - Very low concentration
+1193737,NSHD46,nightingale_metabolomics,ile_15,Isoleucine (mmol/l),-6.0,Not defined
+1193738,NSHD46,nightingale_metabolomics,ile_15,Isoleucine (mmol/l),-8.0,Value cannot be quantified
+1193739,NSHD46,nightingale_metabolomics,ile_15,Isoleucine (mmol/l),-9.0,Value was rejected
+1193740,NSHD46,nightingale_metabolomics,ile_15,Isoleucine (mmol/l),0.0,Zero - Very low concentration
+1193741,NSHD46,nightingale_metabolomics,alb_15,Albumin signal area,-6.0,Not defined
+1193742,NSHD46,nightingale_metabolomics,alb_15,Albumin signal area,-8.0,Value cannot be quantified
+1193743,NSHD46,nightingale_metabolomics,alb_15,Albumin signal area,-9.0,Value was rejected
+1193744,NSHD46,nightingale_metabolomics,alb_15,Albumin signal area,0.0,Zero - Very low concentration
+1193745,NSHD46,nightingale_metabolomics,s_hdl_fc_15,Free cholesterol in small HDL (mmol/l),-6.0,Not defined
+1193746,NSHD46,nightingale_metabolomics,s_hdl_fc_15,Free cholesterol in small HDL (mmol/l),-8.0,Value cannot be quantified
+1193747,NSHD46,nightingale_metabolomics,s_hdl_fc_15,Free cholesterol in small HDL (mmol/l),-9.0,Value was rejected
+1193748,NSHD46,nightingale_metabolomics,s_hdl_fc_15,Free cholesterol in small HDL (mmol/l),0.0,Zero - Very low concentration
+1193749,NSHD46,nightingale_metabolomics,la_15,18:2; linoleic acid (mmol/l),-6.0,Not defined
+1193750,NSHD46,nightingale_metabolomics,la_15,18:2; linoleic acid (mmol/l),-8.0,Value cannot be quantified
+1193751,NSHD46,nightingale_metabolomics,la_15,18:2; linoleic acid (mmol/l),-9.0,Value was rejected
+1193752,NSHD46,nightingale_metabolomics,la_15,18:2; linoleic acid (mmol/l),0.0,Zero - Very low concentration
+1193753,NSHD46,nightingale_metabolomics,xs_vldl_ce_15,Cholesterol esters in very small VLDL (mmol/l),-6.0,Not defined
+1193754,NSHD46,nightingale_metabolomics,xs_vldl_ce_15,Cholesterol esters in very small VLDL (mmol/l),-8.0,Value cannot be quantified
+1193755,NSHD46,nightingale_metabolomics,xs_vldl_ce_15,Cholesterol esters in very small VLDL (mmol/l),-9.0,Value was rejected
+1193756,NSHD46,nightingale_metabolomics,xs_vldl_ce_15,Cholesterol esters in very small VLDL (mmol/l),0.0,Zero - Very low concentration
+1193757,NSHD46,nightingale_metabolomics,lac_15,Lactate (mmol/l),-6.0,Not defined
+1193758,NSHD46,nightingale_metabolomics,lac_15,Lactate (mmol/l),-8.0,Value cannot be quantified
+1193759,NSHD46,nightingale_metabolomics,lac_15,Lactate (mmol/l),-9.0,Value was rejected
+1193760,NSHD46,nightingale_metabolomics,lac_15,Lactate (mmol/l),0.0,Zero - Very low concentration
+1193761,NSHD46,nightingale_metabolomics,s_hdl_fc_p_15,Free cholesterol to total lipids ratio in small HDL (%),-6.0,Not defined
+1193762,NSHD46,nightingale_metabolomics,s_hdl_fc_p_15,Free cholesterol to total lipids ratio in small HDL (%),-8.0,Value cannot be quantified
+1193763,NSHD46,nightingale_metabolomics,s_hdl_fc_p_15,Free cholesterol to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193764,NSHD46,nightingale_metabolomics,s_hdl_fc_p_15,Free cholesterol to total lipids ratio in small HDL (%),0.0,Zero - Very low concentration
+1193765,NSHD46,nightingale_metabolomics,lafa_15,Ratio of 18:2 linoleic acid to total fatty acids (%),-6.0,Not defined
+1193766,NSHD46,nightingale_metabolomics,lafa_15,Ratio of 18:2 linoleic acid to total fatty acids (%),-8.0,Value cannot be quantified
+1193767,NSHD46,nightingale_metabolomics,lafa_15,Ratio of 18:2 linoleic acid to total fatty acids (%),-9.0,Value was rejected
+1193768,NSHD46,nightingale_metabolomics,lafa_15,Ratio of 18:2 linoleic acid to total fatty acids (%),0.0,Zero - Very low concentration
+1193769,NSHD46,nightingale_metabolomics,xl_hdl_c_p_15,Total cholesterol to total lipids ratio in very large HDL (%),-6.0,Not defined
+1193770,NSHD46,nightingale_metabolomics,xl_hdl_c_p_15,Total cholesterol to total lipids ratio in very large HDL (%),-8.0,Value cannot be quantified
+1193771,NSHD46,nightingale_metabolomics,xl_hdl_c_p_15,Total cholesterol to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1193772,NSHD46,nightingale_metabolomics,xl_hdl_c_p_15,Total cholesterol to total lipids ratio in very large HDL (%),0.0,Zero - Very low concentration
+1193773,NSHD46,nightingale_metabolomics,ldl_c_15,Total cholesterol in LDL (mmol/l),-6.0,Not defined
+1193774,NSHD46,nightingale_metabolomics,ldl_c_15,Total cholesterol in LDL (mmol/l),-8.0,Value cannot be quantified
+1193775,NSHD46,nightingale_metabolomics,ldl_c_15,Total cholesterol in LDL (mmol/l),-9.0,Value was rejected
+1193776,NSHD46,nightingale_metabolomics,ldl_c_15,Total cholesterol in LDL (mmol/l),0.0,Zero - Very low concentration
+1193777,NSHD46,nightingale_metabolomics,s_hdl_l_15,Total lipids in small HDL (mmol/l),-6.0,Not defined
+1193778,NSHD46,nightingale_metabolomics,s_hdl_l_15,Total lipids in small HDL (mmol/l),-8.0,Value cannot be quantified
+1193779,NSHD46,nightingale_metabolomics,s_hdl_l_15,Total lipids in small HDL (mmol/l),-9.0,Value was rejected
+1193780,NSHD46,nightingale_metabolomics,s_hdl_l_15,Total lipids in small HDL (mmol/l),0.0,Zero - Very low concentration
+1193781,NSHD46,nightingale_metabolomics,ldl_d_15,Mean diameter for LDL particles (nm),-6.0,Not defined
+1193782,NSHD46,nightingale_metabolomics,ldl_d_15,Mean diameter for LDL particles (nm),-8.0,Value cannot be quantified
+1193783,NSHD46,nightingale_metabolomics,ldl_d_15,Mean diameter for LDL particles (nm),-9.0,Value was rejected
+1193784,NSHD46,nightingale_metabolomics,ldl_d_15,Mean diameter for LDL particles (nm),0.0,Zero - Very low concentration
+1193785,NSHD46,nightingale_metabolomics,xxl_vldl_l_15,Total lipids in chylomicrons and extremely large VLDL (mmol/l),-6.0,Not defined
+1193786,NSHD46,nightingale_metabolomics,xxl_vldl_l_15,Total lipids in chylomicrons and extremely large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193787,NSHD46,nightingale_metabolomics,xxl_vldl_l_15,Total lipids in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193788,NSHD46,nightingale_metabolomics,xxl_vldl_l_15,Total lipids in chylomicrons and extremely large VLDL (mmol/l),0.0,Zero - Very low concentration
+1193789,NSHD46,nightingale_metabolomics,ldl_tg_15,Triglycerides in LDL (mmol/l),-6.0,Not defined
+1193790,NSHD46,nightingale_metabolomics,ldl_tg_15,Triglycerides in LDL (mmol/l),-8.0,Value cannot be quantified
+1193791,NSHD46,nightingale_metabolomics,ldl_tg_15,Triglycerides in LDL (mmol/l),-9.0,Value was rejected
+1193792,NSHD46,nightingale_metabolomics,ldl_tg_15,Triglycerides in LDL (mmol/l),0.0,Zero - Very low concentration
+1193793,NSHD46,nightingale_metabolomics,s_hdl_p_15,Concentration of small HDL particles (mol/l),-6.0,Not defined
+1193794,NSHD46,nightingale_metabolomics,s_hdl_p_15,Concentration of small HDL particles (mol/l),-8.0,Value cannot be quantified
+1193795,NSHD46,nightingale_metabolomics,s_hdl_p_15,Concentration of small HDL particles (mol/l),-9.0,Value was rejected
+1193796,NSHD46,nightingale_metabolomics,s_hdl_p_15,Concentration of small HDL particles (mol/l),0.0,Zero - Very low concentration
+1193797,NSHD46,nightingale_metabolomics,leu_15,Leucine (mmol/l),-6.0,Not defined
+1193798,NSHD46,nightingale_metabolomics,leu_15,Leucine (mmol/l),-8.0,Value cannot be quantified
+1193799,NSHD46,nightingale_metabolomics,leu_15,Leucine (mmol/l),-9.0,Value was rejected
+1193800,NSHD46,nightingale_metabolomics,leu_15,Leucine (mmol/l),0.0,Zero - Very low concentration
+1193801,NSHD46,nightingale_metabolomics,xl_hdl_fc_15,Free cholesterol in very large HDL (mmol/l),-6.0,Not defined
+1193802,NSHD46,nightingale_metabolomics,xl_hdl_fc_15,Free cholesterol in very large HDL (mmol/l),-8.0,Value cannot be quantified
+1193803,NSHD46,nightingale_metabolomics,xl_hdl_fc_15,Free cholesterol in very large HDL (mmol/l),-9.0,Value was rejected
+1193804,NSHD46,nightingale_metabolomics,xl_hdl_fc_15,Free cholesterol in very large HDL (mmol/l),0.0,Zero - Very low concentration
+1193805,NSHD46,nightingale_metabolomics,l_hdl_c_15,Total cholesterol in large HDL (mmol/l),-6.0,Not defined
+1193806,NSHD46,nightingale_metabolomics,l_hdl_c_15,Total cholesterol in large HDL (mmol/l),-8.0,Value cannot be quantified
+1193807,NSHD46,nightingale_metabolomics,l_hdl_c_15,Total cholesterol in large HDL (mmol/l),-9.0,Value was rejected
+1193808,NSHD46,nightingale_metabolomics,l_hdl_c_15,Total cholesterol in large HDL (mmol/l),0.0,Zero - Very low concentration
+1193809,NSHD46,nightingale_metabolomics,s_hdl_pl_15,Phospholipids in small HDL (mmol/l),-6.0,Not defined
+1193810,NSHD46,nightingale_metabolomics,s_hdl_pl_15,Phospholipids in small HDL (mmol/l),-8.0,Value cannot be quantified
+1193811,NSHD46,nightingale_metabolomics,s_hdl_pl_15,Phospholipids in small HDL (mmol/l),-9.0,Value was rejected
+1193812,NSHD46,nightingale_metabolomics,s_hdl_pl_15,Phospholipids in small HDL (mmol/l),0.0,Zero - Very low concentration
+1193813,NSHD46,nightingale_metabolomics,l_hdl_ce_15,Cholesterol esters in large HDL (mmol/l),-6.0,Not defined
+1193814,NSHD46,nightingale_metabolomics,l_hdl_ce_15,Cholesterol esters in large HDL (mmol/l),-8.0,Value cannot be quantified
+1193815,NSHD46,nightingale_metabolomics,l_hdl_ce_15,Cholesterol esters in large HDL (mmol/l),-9.0,Value was rejected
+1193816,NSHD46,nightingale_metabolomics,l_hdl_ce_15,Cholesterol esters in large HDL (mmol/l),0.0,Zero - Very low concentration
+1193817,NSHD46,nightingale_metabolomics,xs_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very small VLDL (%),-6.0,Not defined
+1193818,NSHD46,nightingale_metabolomics,xs_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very small VLDL (%),-8.0,Value cannot be quantified
+1193819,NSHD46,nightingale_metabolomics,xs_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1193820,NSHD46,nightingale_metabolomics,xs_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very small VLDL (%),0.0,Zero - Very low concentration
+1193821,NSHD46,nightingale_metabolomics,l_hdl_ce_p_15,Cholesterol esters to total lipids ratio in large HDL (%),-6.0,Not defined
+1193822,NSHD46,nightingale_metabolomics,l_hdl_ce_p_15,Cholesterol esters to total lipids ratio in large HDL (%),-8.0,Value cannot be quantified
+1193823,NSHD46,nightingale_metabolomics,l_hdl_ce_p_15,Cholesterol esters to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193824,NSHD46,nightingale_metabolomics,l_hdl_ce_p_15,Cholesterol esters to total lipids ratio in large HDL (%),0.0,Zero - Very low concentration
+1193825,NSHD46,nightingale_metabolomics,s_hdl_pl_p_15,Phospholipids to total lipds ratio in small HDL (%),-6.0,Not defined
+1193826,NSHD46,nightingale_metabolomics,s_hdl_pl_p_15,Phospholipids to total lipds ratio in small HDL (%),-8.0,Value cannot be quantified
+1193827,NSHD46,nightingale_metabolomics,s_hdl_pl_p_15,Phospholipids to total lipds ratio in small HDL (%),-9.0,Value was rejected
+1193828,NSHD46,nightingale_metabolomics,s_hdl_pl_p_15,Phospholipids to total lipds ratio in small HDL (%),0.0,Zero - Very low concentration
+1193829,NSHD46,nightingale_metabolomics,l_hdl_c_p_15,Total cholesterol to total lipids ratio in large HDL (%),-6.0,Not defined
+1193830,NSHD46,nightingale_metabolomics,l_hdl_c_p_15,Total cholesterol to total lipids ratio in large HDL (%),-8.0,Value cannot be quantified
+1193831,NSHD46,nightingale_metabolomics,l_hdl_c_p_15,Total cholesterol to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193832,NSHD46,nightingale_metabolomics,l_hdl_c_p_15,Total cholesterol to total lipids ratio in large HDL (%),0.0,Zero - Very low concentration
+1193833,NSHD46,nightingale_metabolomics,xl_hdl_fc_p_15,Free cholesterol to total lipids ratio in very large HDL (%),-6.0,Not defined
+1193834,NSHD46,nightingale_metabolomics,xl_hdl_fc_p_15,Free cholesterol to total lipids ratio in very large HDL (%),-8.0,Value cannot be quantified
+1193835,NSHD46,nightingale_metabolomics,xl_hdl_fc_p_15,Free cholesterol to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1193836,NSHD46,nightingale_metabolomics,xl_hdl_fc_p_15,Free cholesterol to total lipids ratio in very large HDL (%),0.0,Zero - Very low concentration
+1193837,NSHD46,nightingale_metabolomics,l_hdl_fc_15,Free cholesterol in large HDL (mmol/l),-6.0,Not defined
+1193838,NSHD46,nightingale_metabolomics,l_hdl_fc_15,Free cholesterol in large HDL (mmol/l),-8.0,Value cannot be quantified
+1193839,NSHD46,nightingale_metabolomics,l_hdl_fc_15,Free cholesterol in large HDL (mmol/l),-9.0,Value was rejected
+1193840,NSHD46,nightingale_metabolomics,l_hdl_fc_15,Free cholesterol in large HDL (mmol/l),0.0,Zero - Very low concentration
+1193841,NSHD46,nightingale_metabolomics,s_hdl_tg_15,Triglycerides in small HDL (mmol/l),-6.0,Not defined
+1193842,NSHD46,nightingale_metabolomics,s_hdl_tg_15,Triglycerides in small HDL (mmol/l),-8.0,Value cannot be quantified
+1193843,NSHD46,nightingale_metabolomics,s_hdl_tg_15,Triglycerides in small HDL (mmol/l),-9.0,Value was rejected
+1193844,NSHD46,nightingale_metabolomics,s_hdl_tg_15,Triglycerides in small HDL (mmol/l),0.0,Zero - Very low concentration
+1193845,NSHD46,nightingale_metabolomics,l_hdl_fc_p_15,Free cholesterol to total lipids ratio in large HDL (%),-6.0,Not defined
+1193846,NSHD46,nightingale_metabolomics,l_hdl_fc_p_15,Free cholesterol to total lipids ratio in large HDL (%),-8.0,Value cannot be quantified
+1193847,NSHD46,nightingale_metabolomics,l_hdl_fc_p_15,Free cholesterol to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193848,NSHD46,nightingale_metabolomics,l_hdl_fc_p_15,Free cholesterol to total lipids ratio in large HDL (%),0.0,Zero - Very low concentration
+1193849,NSHD46,nightingale_metabolomics,xxl_vldl_ce_15,Cholesterol esters in chylomicrons and extremely large VLDL (mmol/l),-6.0,Not defined
+1193850,NSHD46,nightingale_metabolomics,xxl_vldl_ce_15,Cholesterol esters in chylomicrons and extremely large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193851,NSHD46,nightingale_metabolomics,xxl_vldl_ce_15,Cholesterol esters in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1193852,NSHD46,nightingale_metabolomics,xxl_vldl_ce_15,Cholesterol esters in chylomicrons and extremely large VLDL (mmol/l),0.0,Zero - Very low concentration
+1193853,NSHD46,nightingale_metabolomics,l_hdl_l_15,Total lipids in large HDL (mmol/l),-6.0,Not defined
+1193854,NSHD46,nightingale_metabolomics,l_hdl_l_15,Total lipids in large HDL (mmol/l),-8.0,Value cannot be quantified
+1193855,NSHD46,nightingale_metabolomics,l_hdl_l_15,Total lipids in large HDL (mmol/l),-9.0,Value was rejected
+1193856,NSHD46,nightingale_metabolomics,l_hdl_l_15,Total lipids in large HDL (mmol/l),0.0,Zero - Very low concentration
+1193857,NSHD46,nightingale_metabolomics,s_hdl_tg_p_15,Triglycerides to total lipids ratio in small HDL (%),-6.0,Not defined
+1193858,NSHD46,nightingale_metabolomics,s_hdl_tg_p_15,Triglycerides to total lipids ratio in small HDL (%),-8.0,Value cannot be quantified
+1193859,NSHD46,nightingale_metabolomics,s_hdl_tg_p_15,Triglycerides to total lipids ratio in small HDL (%),-9.0,Value was rejected
+1193860,NSHD46,nightingale_metabolomics,s_hdl_tg_p_15,Triglycerides to total lipids ratio in small HDL (%),0.0,Zero - Very low concentration
+1193861,NSHD46,nightingale_metabolomics,l_hdl_p_15,Concentration of large HDL particles (mol/l),-6.0,Not defined
+1193862,NSHD46,nightingale_metabolomics,l_hdl_p_15,Concentration of large HDL particles (mol/l),-8.0,Value cannot be quantified
+1193863,NSHD46,nightingale_metabolomics,l_hdl_p_15,Concentration of large HDL particles (mol/l),-9.0,Value was rejected
+1193864,NSHD46,nightingale_metabolomics,l_hdl_p_15,Concentration of large HDL particles (mol/l),0.0,Zero - Very low concentration
+1193865,NSHD46,nightingale_metabolomics,xl_hdl_l_15,Total lipids in very large HDL (mmol/l),-6.0,Not defined
+1193866,NSHD46,nightingale_metabolomics,xl_hdl_l_15,Total lipids in very large HDL (mmol/l),-8.0,Value cannot be quantified
+1193867,NSHD46,nightingale_metabolomics,xl_hdl_l_15,Total lipids in very large HDL (mmol/l),-9.0,Value was rejected
+1193868,NSHD46,nightingale_metabolomics,xl_hdl_l_15,Total lipids in very large HDL (mmol/l),0.0,Zero - Very low concentration
+1193869,NSHD46,nightingale_metabolomics,l_hdl_pl_15,Phospholipids in large HDL (mmol/l),-6.0,Not defined
+1193870,NSHD46,nightingale_metabolomics,l_hdl_pl_15,Phospholipids in large HDL (mmol/l),-8.0,Value cannot be quantified
+1193871,NSHD46,nightingale_metabolomics,l_hdl_pl_15,Phospholipids in large HDL (mmol/l),-9.0,Value was rejected
+1193872,NSHD46,nightingale_metabolomics,l_hdl_pl_15,Phospholipids in large HDL (mmol/l),0.0,Zero - Very low concentration
+1193873,NSHD46,nightingale_metabolomics,s_ldl_c_15,Total cholesterol in small LDL (mmol/l),-6.0,Not defined
+1193874,NSHD46,nightingale_metabolomics,s_ldl_c_15,Total cholesterol in small LDL (mmol/l),-8.0,Value cannot be quantified
+1193875,NSHD46,nightingale_metabolomics,s_ldl_c_15,Total cholesterol in small LDL (mmol/l),-9.0,Value was rejected
+1193876,NSHD46,nightingale_metabolomics,s_ldl_c_15,Total cholesterol in small LDL (mmol/l),0.0,Zero - Very low concentration
+1193877,NSHD46,nightingale_metabolomics,l_hdl_pl_p_15,Phospholipids to total lipds ratio in large HDL (%),-6.0,Not defined
+1193878,NSHD46,nightingale_metabolomics,l_hdl_pl_p_15,Phospholipids to total lipds ratio in large HDL (%),-8.0,Value cannot be quantified
+1193879,NSHD46,nightingale_metabolomics,l_hdl_pl_p_15,Phospholipids to total lipds ratio in large HDL (%),-9.0,Value was rejected
+1193880,NSHD46,nightingale_metabolomics,l_hdl_pl_p_15,Phospholipids to total lipds ratio in large HDL (%),0.0,Zero - Very low concentration
+1193881,NSHD46,nightingale_metabolomics,xs_vldl_c_p_15,Total cholesterol to total lipids ratio in very small VLDL (%),-6.0,Not defined
+1193882,NSHD46,nightingale_metabolomics,xs_vldl_c_p_15,Total cholesterol to total lipids ratio in very small VLDL (%),-8.0,Value cannot be quantified
+1193883,NSHD46,nightingale_metabolomics,xs_vldl_c_p_15,Total cholesterol to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1193884,NSHD46,nightingale_metabolomics,xs_vldl_c_p_15,Total cholesterol to total lipids ratio in very small VLDL (%),0.0,Zero - Very low concentration
+1193885,NSHD46,nightingale_metabolomics,l_hdl_tg_15,Triglycerides in large HDL (mmol/l),-6.0,Not defined
+1193886,NSHD46,nightingale_metabolomics,l_hdl_tg_15,Triglycerides in large HDL (mmol/l),-8.0,Value cannot be quantified
+1193887,NSHD46,nightingale_metabolomics,l_hdl_tg_15,Triglycerides in large HDL (mmol/l),-9.0,Value was rejected
+1193888,NSHD46,nightingale_metabolomics,l_hdl_tg_15,Triglycerides in large HDL (mmol/l),0.0,Zero - Very low concentration
+1193889,NSHD46,nightingale_metabolomics,s_ldl_ce_15,Cholesterol esters in small LDL (mmol/l),-6.0,Not defined
+1193890,NSHD46,nightingale_metabolomics,s_ldl_ce_15,Cholesterol esters in small LDL (mmol/l),-8.0,Value cannot be quantified
+1193891,NSHD46,nightingale_metabolomics,s_ldl_ce_15,Cholesterol esters in small LDL (mmol/l),-9.0,Value was rejected
+1193892,NSHD46,nightingale_metabolomics,s_ldl_ce_15,Cholesterol esters in small LDL (mmol/l),0.0,Zero - Very low concentration
+1193893,NSHD46,nightingale_metabolomics,l_hdl_tg_p_15,Triglycerides to total lipids ratio in large HDL (%),-6.0,Not defined
+1193894,NSHD46,nightingale_metabolomics,l_hdl_tg_p_15,Triglycerides to total lipids ratio in large HDL (%),-8.0,Value cannot be quantified
+1193895,NSHD46,nightingale_metabolomics,l_hdl_tg_p_15,Triglycerides to total lipids ratio in large HDL (%),-9.0,Value was rejected
+1193896,NSHD46,nightingale_metabolomics,l_hdl_tg_p_15,Triglycerides to total lipids ratio in large HDL (%),0.0,Zero - Very low concentration
+1193897,NSHD46,nightingale_metabolomics,xl_hdl_p_15,Concentration of very large HDL particles (mol/l),-6.0,Not defined
+1193898,NSHD46,nightingale_metabolomics,xl_hdl_p_15,Concentration of very large HDL particles (mol/l),-8.0,Value cannot be quantified
+1193899,NSHD46,nightingale_metabolomics,xl_hdl_p_15,Concentration of very large HDL particles (mol/l),-9.0,Value was rejected
+1193900,NSHD46,nightingale_metabolomics,xl_hdl_p_15,Concentration of very large HDL particles (mol/l),0.0,Zero - Very low concentration
+1193901,NSHD46,nightingale_metabolomics,l_ldl_c_15,Total cholesterol in large LDL (mmol/l),-6.0,Not defined
+1193902,NSHD46,nightingale_metabolomics,l_ldl_c_15,Total cholesterol in large LDL (mmol/l),-8.0,Value cannot be quantified
+1193903,NSHD46,nightingale_metabolomics,l_ldl_c_15,Total cholesterol in large LDL (mmol/l),-9.0,Value was rejected
+1193904,NSHD46,nightingale_metabolomics,l_ldl_c_15,Total cholesterol in large LDL (mmol/l),0.0,Zero - Very low concentration
+1193905,NSHD46,nightingale_metabolomics,s_ldl_ce_p_15,Cholesterol esters to total lipids ratio in small LDL (%),-6.0,Not defined
+1193906,NSHD46,nightingale_metabolomics,s_ldl_ce_p_15,Cholesterol esters to total lipids ratio in small LDL (%),-8.0,Value cannot be quantified
+1193907,NSHD46,nightingale_metabolomics,s_ldl_ce_p_15,Cholesterol esters to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1193908,NSHD46,nightingale_metabolomics,s_ldl_ce_p_15,Cholesterol esters to total lipids ratio in small LDL (%),0.0,Zero - Very low concentration
+1193909,NSHD46,nightingale_metabolomics,l_ldl_ce_15,Cholesterol esters in large LDL (mmol/l),-6.0,Not defined
+1193910,NSHD46,nightingale_metabolomics,l_ldl_ce_15,Cholesterol esters in large LDL (mmol/l),-8.0,Value cannot be quantified
+1193911,NSHD46,nightingale_metabolomics,l_ldl_ce_15,Cholesterol esters in large LDL (mmol/l),-9.0,Value was rejected
+1193912,NSHD46,nightingale_metabolomics,l_ldl_ce_15,Cholesterol esters in large LDL (mmol/l),0.0,Zero - Very low concentration
+1193913,NSHD46,nightingale_metabolomics,xxl_vldl_pl_p_15,Phospholipids to total lipds ratio in chylomicrons and extremely large VLDL (%),-6.0,Not defined
+1193914,NSHD46,nightingale_metabolomics,xxl_vldl_pl_p_15,Phospholipids to total lipds ratio in chylomicrons and extremely large VLDL (%),-8.0,Value cannot be quantified
+1193915,NSHD46,nightingale_metabolomics,xxl_vldl_pl_p_15,Phospholipids to total lipds ratio in chylomicrons and extremely large VLDL (%),-9.0,Value was rejected
+1193916,NSHD46,nightingale_metabolomics,xxl_vldl_pl_p_15,Phospholipids to total lipds ratio in chylomicrons and extremely large VLDL (%),0.0,Zero - Very low concentration
+1193917,NSHD46,nightingale_metabolomics,l_ldl_ce_p_15,Cholesterol esters to total lipids ratio in large LDL (%),-6.0,Not defined
+1193918,NSHD46,nightingale_metabolomics,l_ldl_ce_p_15,Cholesterol esters to total lipids ratio in large LDL (%),-8.0,Value cannot be quantified
+1193919,NSHD46,nightingale_metabolomics,l_ldl_ce_p_15,Cholesterol esters to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193920,NSHD46,nightingale_metabolomics,l_ldl_ce_p_15,Cholesterol esters to total lipids ratio in large LDL (%),0.0,Zero - Very low concentration
+1193921,NSHD46,nightingale_metabolomics,s_ldl_c_p_15,Total cholesterol to total lipids ratio in small LDL (%),-6.0,Not defined
+1193922,NSHD46,nightingale_metabolomics,s_ldl_c_p_15,Total cholesterol to total lipids ratio in small LDL (%),-8.0,Value cannot be quantified
+1193923,NSHD46,nightingale_metabolomics,s_ldl_c_p_15,Total cholesterol to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1193924,NSHD46,nightingale_metabolomics,s_ldl_c_p_15,Total cholesterol to total lipids ratio in small LDL (%),0.0,Zero - Very low concentration
+1193925,NSHD46,nightingale_metabolomics,l_ldl_c_p_15,Total cholesterol to total lipids ratio in large LDL (%),-6.0,Not defined
+1193926,NSHD46,nightingale_metabolomics,l_ldl_c_p_15,Total cholesterol to total lipids ratio in large LDL (%),-8.0,Value cannot be quantified
+1193927,NSHD46,nightingale_metabolomics,l_ldl_c_p_15,Total cholesterol to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193928,NSHD46,nightingale_metabolomics,l_ldl_c_p_15,Total cholesterol to total lipids ratio in large LDL (%),0.0,Zero - Very low concentration
+1193929,NSHD46,nightingale_metabolomics,xl_hdl_pl_15,Phospholipids in very large HDL (mmol/l),-6.0,Not defined
+1193930,NSHD46,nightingale_metabolomics,xl_hdl_pl_15,Phospholipids in very large HDL (mmol/l),-8.0,Value cannot be quantified
+1193931,NSHD46,nightingale_metabolomics,xl_hdl_pl_15,Phospholipids in very large HDL (mmol/l),-9.0,Value was rejected
+1193932,NSHD46,nightingale_metabolomics,xl_hdl_pl_15,Phospholipids in very large HDL (mmol/l),0.0,Zero - Very low concentration
+1193933,NSHD46,nightingale_metabolomics,l_ldl_fc_15,Free cholesterol in large LDL (mmol/l),-6.0,Not defined
+1193934,NSHD46,nightingale_metabolomics,l_ldl_fc_15,Free cholesterol in large LDL (mmol/l),-8.0,Value cannot be quantified
+1193935,NSHD46,nightingale_metabolomics,l_ldl_fc_15,Free cholesterol in large LDL (mmol/l),-9.0,Value was rejected
+1193936,NSHD46,nightingale_metabolomics,l_ldl_fc_15,Free cholesterol in large LDL (mmol/l),0.0,Zero - Very low concentration
+1193937,NSHD46,nightingale_metabolomics,s_ldl_fc_15,Free cholesterol in small LDL (mmol/l),-6.0,Not defined
+1193938,NSHD46,nightingale_metabolomics,s_ldl_fc_15,Free cholesterol in small LDL (mmol/l),-8.0,Value cannot be quantified
+1193939,NSHD46,nightingale_metabolomics,s_ldl_fc_15,Free cholesterol in small LDL (mmol/l),-9.0,Value was rejected
+1193940,NSHD46,nightingale_metabolomics,s_ldl_fc_15,Free cholesterol in small LDL (mmol/l),0.0,Zero - Very low concentration
+1193941,NSHD46,nightingale_metabolomics,l_ldl_fc_p_15,Free cholesterol to total lipids ratio in large LDL (%),-6.0,Not defined
+1193942,NSHD46,nightingale_metabolomics,l_ldl_fc_p_15,Free cholesterol to total lipids ratio in large LDL (%),-8.0,Value cannot be quantified
+1193943,NSHD46,nightingale_metabolomics,l_ldl_fc_p_15,Free cholesterol to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193944,NSHD46,nightingale_metabolomics,l_ldl_fc_p_15,Free cholesterol to total lipids ratio in large LDL (%),0.0,Zero - Very low concentration
+1193945,NSHD46,nightingale_metabolomics,xs_vldl_fc_15,Free cholesterol in very small VLDL (mmol/l),-6.0,Not defined
+1193946,NSHD46,nightingale_metabolomics,xs_vldl_fc_15,Free cholesterol in very small VLDL (mmol/l),-8.0,Value cannot be quantified
+1193947,NSHD46,nightingale_metabolomics,xs_vldl_fc_15,Free cholesterol in very small VLDL (mmol/l),-9.0,Value was rejected
+1193948,NSHD46,nightingale_metabolomics,xs_vldl_fc_15,Free cholesterol in very small VLDL (mmol/l),0.0,Zero - Very low concentration
+1193949,NSHD46,nightingale_metabolomics,l_ldl_l_15,Total lipids in large LDL (mmol/l),-6.0,Not defined
+1193950,NSHD46,nightingale_metabolomics,l_ldl_l_15,Total lipids in large LDL (mmol/l),-8.0,Value cannot be quantified
+1193951,NSHD46,nightingale_metabolomics,l_ldl_l_15,Total lipids in large LDL (mmol/l),-9.0,Value was rejected
+1193952,NSHD46,nightingale_metabolomics,l_ldl_l_15,Total lipids in large LDL (mmol/l),0.0,Zero - Very low concentration
+1193953,NSHD46,nightingale_metabolomics,s_ldl_fc_p_15,Free cholesterol to total lipids ratio in small LDL (%),-6.0,Not defined
+1193954,NSHD46,nightingale_metabolomics,s_ldl_fc_p_15,Free cholesterol to total lipids ratio in small LDL (%),-8.0,Value cannot be quantified
+1193955,NSHD46,nightingale_metabolomics,s_ldl_fc_p_15,Free cholesterol to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1193956,NSHD46,nightingale_metabolomics,s_ldl_fc_p_15,Free cholesterol to total lipids ratio in small LDL (%),0.0,Zero - Very low concentration
+1193957,NSHD46,nightingale_metabolomics,l_ldl_p_15,Concentration of large LDL particles (mol/l),-6.0,Not defined
+1193958,NSHD46,nightingale_metabolomics,l_ldl_p_15,Concentration of large LDL particles (mol/l),-8.0,Value cannot be quantified
+1193959,NSHD46,nightingale_metabolomics,l_ldl_p_15,Concentration of large LDL particles (mol/l),-9.0,Value was rejected
+1193960,NSHD46,nightingale_metabolomics,l_ldl_p_15,Concentration of large LDL particles (mol/l),0.0,Zero - Very low concentration
+1193961,NSHD46,nightingale_metabolomics,xl_hdl_pl_p_15,Phospholipids to total lipds ratio in very large HDL (%),-6.0,Not defined
+1193962,NSHD46,nightingale_metabolomics,xl_hdl_pl_p_15,Phospholipids to total lipds ratio in very large HDL (%),-8.0,Value cannot be quantified
+1193963,NSHD46,nightingale_metabolomics,xl_hdl_pl_p_15,Phospholipids to total lipds ratio in very large HDL (%),-9.0,Value was rejected
+1193964,NSHD46,nightingale_metabolomics,xl_hdl_pl_p_15,Phospholipids to total lipds ratio in very large HDL (%),0.0,Zero - Very low concentration
+1193965,NSHD46,nightingale_metabolomics,l_ldl_pl_15,Phospholipids in large LDL (mmol/l),-6.0,Not defined
+1193966,NSHD46,nightingale_metabolomics,l_ldl_pl_15,Phospholipids in large LDL (mmol/l),-8.0,Value cannot be quantified
+1193967,NSHD46,nightingale_metabolomics,l_ldl_pl_15,Phospholipids in large LDL (mmol/l),-9.0,Value was rejected
+1193968,NSHD46,nightingale_metabolomics,l_ldl_pl_15,Phospholipids in large LDL (mmol/l),0.0,Zero - Very low concentration
+1193969,NSHD46,nightingale_metabolomics,s_ldl_l_15,Total lipids in small LDL (mmol/l),-6.0,Not defined
+1193970,NSHD46,nightingale_metabolomics,s_ldl_l_15,Total lipids in small LDL (mmol/l),-8.0,Value cannot be quantified
+1193971,NSHD46,nightingale_metabolomics,s_ldl_l_15,Total lipids in small LDL (mmol/l),-9.0,Value was rejected
+1193972,NSHD46,nightingale_metabolomics,s_ldl_l_15,Total lipids in small LDL (mmol/l),0.0,Zero - Very low concentration
+1193973,NSHD46,nightingale_metabolomics,l_ldl_pl_p_15,Phospholipids to total lipds ratio in large LDL (%),-6.0,Not defined
+1193974,NSHD46,nightingale_metabolomics,l_ldl_pl_p_15,Phospholipids to total lipds ratio in large LDL (%),-8.0,Value cannot be quantified
+1193975,NSHD46,nightingale_metabolomics,l_ldl_pl_p_15,Phospholipids to total lipds ratio in large LDL (%),-9.0,Value was rejected
+1193976,NSHD46,nightingale_metabolomics,l_ldl_pl_p_15,Phospholipids to total lipds ratio in large LDL (%),0.0,Zero - Very low concentration
+1193977,NSHD46,nightingale_metabolomics,xxl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in chylomicrons and extremely large VLD,-6.0,Not defined
+1193978,NSHD46,nightingale_metabolomics,xxl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in chylomicrons and extremely large VLD,-8.0,Value cannot be quantified
+1193979,NSHD46,nightingale_metabolomics,xxl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in chylomicrons and extremely large VLD,-9.0,Value was rejected
+1193980,NSHD46,nightingale_metabolomics,xxl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in chylomicrons and extremely large VLD,0.0,Zero - Very low concentration
+1193981,NSHD46,nightingale_metabolomics,l_ldl_tg_15,Triglycerides in large LDL (mmol/l),-6.0,Not defined
+1193982,NSHD46,nightingale_metabolomics,l_ldl_tg_15,Triglycerides in large LDL (mmol/l),-8.0,Value cannot be quantified
+1193983,NSHD46,nightingale_metabolomics,l_ldl_tg_15,Triglycerides in large LDL (mmol/l),-9.0,Value was rejected
+1193984,NSHD46,nightingale_metabolomics,l_ldl_tg_15,Triglycerides in large LDL (mmol/l),0.0,Zero - Very low concentration
+1193985,NSHD46,nightingale_metabolomics,s_ldl_p_15,Concentration of small LDL particles (mol/l),-6.0,Not defined
+1193986,NSHD46,nightingale_metabolomics,s_ldl_p_15,Concentration of small LDL particles (mol/l),-8.0,Value cannot be quantified
+1193987,NSHD46,nightingale_metabolomics,s_ldl_p_15,Concentration of small LDL particles (mol/l),-9.0,Value was rejected
+1193988,NSHD46,nightingale_metabolomics,s_ldl_p_15,Concentration of small LDL particles (mol/l),0.0,Zero - Very low concentration
+1193989,NSHD46,nightingale_metabolomics,l_ldl_tg_p_15,Triglycerides to total lipids ratio in large LDL (%),-6.0,Not defined
+1193990,NSHD46,nightingale_metabolomics,l_ldl_tg_p_15,Triglycerides to total lipids ratio in large LDL (%),-8.0,Value cannot be quantified
+1193991,NSHD46,nightingale_metabolomics,l_ldl_tg_p_15,Triglycerides to total lipids ratio in large LDL (%),-9.0,Value was rejected
+1193992,NSHD46,nightingale_metabolomics,l_ldl_tg_p_15,Triglycerides to total lipids ratio in large LDL (%),0.0,Zero - Very low concentration
+1193993,NSHD46,nightingale_metabolomics,xl_hdl_tg_15,Triglycerides in very large HDL (mmol/l),-6.0,Not defined
+1193994,NSHD46,nightingale_metabolomics,xl_hdl_tg_15,Triglycerides in very large HDL (mmol/l),-8.0,Value cannot be quantified
+1193995,NSHD46,nightingale_metabolomics,xl_hdl_tg_15,Triglycerides in very large HDL (mmol/l),-9.0,Value was rejected
+1193996,NSHD46,nightingale_metabolomics,xl_hdl_tg_15,Triglycerides in very large HDL (mmol/l),0.0,Zero - Very low concentration
+1193997,NSHD46,nightingale_metabolomics,l_vldl_c_15,Total cholesterol in large VLDL (mmol/l),-6.0,Not defined
+1193998,NSHD46,nightingale_metabolomics,l_vldl_c_15,Total cholesterol in large VLDL (mmol/l),-8.0,Value cannot be quantified
+1193999,NSHD46,nightingale_metabolomics,l_vldl_c_15,Total cholesterol in large VLDL (mmol/l),-9.0,Value was rejected
+1194000,NSHD46,nightingale_metabolomics,l_vldl_c_15,Total cholesterol in large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194001,NSHD46,nightingale_metabolomics,s_ldl_pl_15,Phospholipids in small LDL (mmol/l),-6.0,Not defined
+1194002,NSHD46,nightingale_metabolomics,s_ldl_pl_15,Phospholipids in small LDL (mmol/l),-8.0,Value cannot be quantified
+1194003,NSHD46,nightingale_metabolomics,s_ldl_pl_15,Phospholipids in small LDL (mmol/l),-9.0,Value was rejected
+1194004,NSHD46,nightingale_metabolomics,s_ldl_pl_15,Phospholipids in small LDL (mmol/l),0.0,Zero - Very low concentration
+1194005,NSHD46,nightingale_metabolomics,l_vldl_ce_15,Cholesterol esters in large VLDL (mmol/l),-6.0,Not defined
+1194006,NSHD46,nightingale_metabolomics,l_vldl_ce_15,Cholesterol esters in large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194007,NSHD46,nightingale_metabolomics,l_vldl_ce_15,Cholesterol esters in large VLDL (mmol/l),-9.0,Value was rejected
+1194008,NSHD46,nightingale_metabolomics,l_vldl_ce_15,Cholesterol esters in large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194009,NSHD46,nightingale_metabolomics,xs_vldl_fc_p_15,Free cholesterol to total lipids ratio in very small VLDL (%),-6.0,Not defined
+1194010,NSHD46,nightingale_metabolomics,xs_vldl_fc_p_15,Free cholesterol to total lipids ratio in very small VLDL (%),-8.0,Value cannot be quantified
+1194011,NSHD46,nightingale_metabolomics,xs_vldl_fc_p_15,Free cholesterol to total lipids ratio in very small VLDL (%),-9.0,Value was rejected
+1194012,NSHD46,nightingale_metabolomics,xs_vldl_fc_p_15,Free cholesterol to total lipids ratio in very small VLDL (%),0.0,Zero - Very low concentration
+1194013,NSHD46,nightingale_metabolomics,l_vldl_ce_p_15,Cholesterol esters to total lipids ratio in large VLDL (%),-6.0,Not defined
+1194014,NSHD46,nightingale_metabolomics,l_vldl_ce_p_15,Cholesterol esters to total lipids ratio in large VLDL (%),-8.0,Value cannot be quantified
+1194015,NSHD46,nightingale_metabolomics,l_vldl_ce_p_15,Cholesterol esters to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1194016,NSHD46,nightingale_metabolomics,l_vldl_ce_p_15,Cholesterol esters to total lipids ratio in large VLDL (%),0.0,Zero - Very low concentration
+1194017,NSHD46,nightingale_metabolomics,s_ldl_pl_p_15,Phospholipids to total lipds ratio in small LDL (%),-6.0,Not defined
+1194018,NSHD46,nightingale_metabolomics,s_ldl_pl_p_15,Phospholipids to total lipds ratio in small LDL (%),-8.0,Value cannot be quantified
+1194019,NSHD46,nightingale_metabolomics,s_ldl_pl_p_15,Phospholipids to total lipds ratio in small LDL (%),-9.0,Value was rejected
+1194020,NSHD46,nightingale_metabolomics,s_ldl_pl_p_15,Phospholipids to total lipds ratio in small LDL (%),0.0,Zero - Very low concentration
+1194021,NSHD46,nightingale_metabolomics,l_vldl_c_p_15,Total cholesterol to total lipids ratio in large VLDL (%),-6.0,Not defined
+1194022,NSHD46,nightingale_metabolomics,l_vldl_c_p_15,Total cholesterol to total lipids ratio in large VLDL (%),-8.0,Value cannot be quantified
+1194023,NSHD46,nightingale_metabolomics,l_vldl_c_p_15,Total cholesterol to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1194024,NSHD46,nightingale_metabolomics,l_vldl_c_p_15,Total cholesterol to total lipids ratio in large VLDL (%),0.0,Zero - Very low concentration
+1194025,NSHD46,nightingale_metabolomics,xl_hdl_tg_p_15,Triglycerides to total lipids ratio in very large HDL (%),-6.0,Not defined
+1194026,NSHD46,nightingale_metabolomics,xl_hdl_tg_p_15,Triglycerides to total lipids ratio in very large HDL (%),-8.0,Value cannot be quantified
+1194027,NSHD46,nightingale_metabolomics,xl_hdl_tg_p_15,Triglycerides to total lipids ratio in very large HDL (%),-9.0,Value was rejected
+1194028,NSHD46,nightingale_metabolomics,xl_hdl_tg_p_15,Triglycerides to total lipids ratio in very large HDL (%),0.0,Zero - Very low concentration
+1194029,NSHD46,nightingale_metabolomics,l_vldl_fc_15,Free cholesterol in large VLDL (mmol/l),-6.0,Not defined
+1194030,NSHD46,nightingale_metabolomics,l_vldl_fc_15,Free cholesterol in large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194031,NSHD46,nightingale_metabolomics,l_vldl_fc_15,Free cholesterol in large VLDL (mmol/l),-9.0,Value was rejected
+1194032,NSHD46,nightingale_metabolomics,l_vldl_fc_15,Free cholesterol in large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194033,NSHD46,nightingale_metabolomics,s_ldl_tg_15,Triglycerides in small LDL (mmol/l),-6.0,Not defined
+1194034,NSHD46,nightingale_metabolomics,s_ldl_tg_15,Triglycerides in small LDL (mmol/l),-8.0,Value cannot be quantified
+1194035,NSHD46,nightingale_metabolomics,s_ldl_tg_15,Triglycerides in small LDL (mmol/l),-9.0,Value was rejected
+1194036,NSHD46,nightingale_metabolomics,s_ldl_tg_15,Triglycerides in small LDL (mmol/l),0.0,Zero - Very low concentration
+1194037,NSHD46,nightingale_metabolomics,l_vldl_fc_p_15,Free cholesterol to total lipids ratio in large VLDL (%),-6.0,Not defined
+1194038,NSHD46,nightingale_metabolomics,l_vldl_fc_p_15,Free cholesterol to total lipids ratio in large VLDL (%),-8.0,Value cannot be quantified
+1194039,NSHD46,nightingale_metabolomics,l_vldl_fc_p_15,Free cholesterol to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1194040,NSHD46,nightingale_metabolomics,l_vldl_fc_p_15,Free cholesterol to total lipids ratio in large VLDL (%),0.0,Zero - Very low concentration
+1194041,NSHD46,nightingale_metabolomics,xxl_vldl_p_15,Concentration of chylomicrons and extremely large VLDL particles (mol/l),-6.0,Not defined
+1194042,NSHD46,nightingale_metabolomics,xxl_vldl_p_15,Concentration of chylomicrons and extremely large VLDL particles (mol/l),-8.0,Value cannot be quantified
+1194043,NSHD46,nightingale_metabolomics,xxl_vldl_p_15,Concentration of chylomicrons and extremely large VLDL particles (mol/l),-9.0,Value was rejected
+1194044,NSHD46,nightingale_metabolomics,xxl_vldl_p_15,Concentration of chylomicrons and extremely large VLDL particles (mol/l),0.0,Zero - Very low concentration
+1194045,NSHD46,nightingale_metabolomics,l_vldl_l_15,Total lipids in large VLDL (mmol/l),-6.0,Not defined
+1194046,NSHD46,nightingale_metabolomics,l_vldl_l_15,Total lipids in large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194047,NSHD46,nightingale_metabolomics,l_vldl_l_15,Total lipids in large VLDL (mmol/l),-9.0,Value was rejected
+1194048,NSHD46,nightingale_metabolomics,l_vldl_l_15,Total lipids in large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194049,NSHD46,nightingale_metabolomics,s_ldl_tg_p_15,Triglycerides to total lipids ratio in small LDL (%),-6.0,Not defined
+1194050,NSHD46,nightingale_metabolomics,s_ldl_tg_p_15,Triglycerides to total lipids ratio in small LDL (%),-8.0,Value cannot be quantified
+1194051,NSHD46,nightingale_metabolomics,s_ldl_tg_p_15,Triglycerides to total lipids ratio in small LDL (%),-9.0,Value was rejected
+1194052,NSHD46,nightingale_metabolomics,s_ldl_tg_p_15,Triglycerides to total lipids ratio in small LDL (%),0.0,Zero - Very low concentration
+1194053,NSHD46,nightingale_metabolomics,l_vldl_p_15,Concentration of large VLDL particles (mol/l),-6.0,Not defined
+1194054,NSHD46,nightingale_metabolomics,l_vldl_p_15,Concentration of large VLDL particles (mol/l),-8.0,Value cannot be quantified
+1194055,NSHD46,nightingale_metabolomics,l_vldl_p_15,Concentration of large VLDL particles (mol/l),-9.0,Value was rejected
+1194056,NSHD46,nightingale_metabolomics,l_vldl_p_15,Concentration of large VLDL particles (mol/l),0.0,Zero - Very low concentration
+1194057,NSHD46,nightingale_metabolomics,xl_vldl_c_15,Total cholesterol in very large VLDL (mmol/l),-6.0,Not defined
+1194058,NSHD46,nightingale_metabolomics,xl_vldl_c_15,Total cholesterol in very large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194059,NSHD46,nightingale_metabolomics,xl_vldl_c_15,Total cholesterol in very large VLDL (mmol/l),-9.0,Value was rejected
+1194060,NSHD46,nightingale_metabolomics,xl_vldl_c_15,Total cholesterol in very large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194061,NSHD46,nightingale_metabolomics,l_vldl_pl_15,Phospholipids in large VLDL (mmol/l),-6.0,Not defined
+1194062,NSHD46,nightingale_metabolomics,l_vldl_pl_15,Phospholipids in large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194063,NSHD46,nightingale_metabolomics,l_vldl_pl_15,Phospholipids in large VLDL (mmol/l),-9.0,Value was rejected
+1194064,NSHD46,nightingale_metabolomics,l_vldl_pl_15,Phospholipids in large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194065,NSHD46,nightingale_metabolomics,sm_15,Sphingomyelins (mmol/l),-6.0,Not defined
+1194066,NSHD46,nightingale_metabolomics,sm_15,Sphingomyelins (mmol/l),-8.0,Value cannot be quantified
+1194067,NSHD46,nightingale_metabolomics,sm_15,Sphingomyelins (mmol/l),-9.0,Value was rejected
+1194068,NSHD46,nightingale_metabolomics,sm_15,Sphingomyelins (mmol/l),0.0,Zero - Very low concentration
+1194069,NSHD46,nightingale_metabolomics,l_vldl_pl_p_15,Phospholipids to total lipds ratio in large VLDL (%),-6.0,Not defined
+1194070,NSHD46,nightingale_metabolomics,l_vldl_pl_p_15,Phospholipids to total lipds ratio in large VLDL (%),-8.0,Value cannot be quantified
+1194071,NSHD46,nightingale_metabolomics,l_vldl_pl_p_15,Phospholipids to total lipds ratio in large VLDL (%),-9.0,Value was rejected
+1194072,NSHD46,nightingale_metabolomics,l_vldl_pl_p_15,Phospholipids to total lipds ratio in large VLDL (%),0.0,Zero - Very low concentration
+1194073,NSHD46,nightingale_metabolomics,xs_vldl_l_15,Total lipids in very small VLDL (mmol/l),-6.0,Not defined
+1194074,NSHD46,nightingale_metabolomics,xs_vldl_l_15,Total lipids in very small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194075,NSHD46,nightingale_metabolomics,xs_vldl_l_15,Total lipids in very small VLDL (mmol/l),-9.0,Value was rejected
+1194076,NSHD46,nightingale_metabolomics,xs_vldl_l_15,Total lipids in very small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194077,NSHD46,nightingale_metabolomics,l_vldl_tg_15,Triglycerides in large VLDL (mmol/l),-6.0,Not defined
+1194078,NSHD46,nightingale_metabolomics,l_vldl_tg_15,Triglycerides in large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194079,NSHD46,nightingale_metabolomics,l_vldl_tg_15,Triglycerides in large VLDL (mmol/l),-9.0,Value was rejected
+1194080,NSHD46,nightingale_metabolomics,l_vldl_tg_15,Triglycerides in large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194081,NSHD46,nightingale_metabolomics,s_vldl_c_15,Total cholesterol in small VLDL (mmol/l),-6.0,Not defined
+1194082,NSHD46,nightingale_metabolomics,s_vldl_c_15,Total cholesterol in small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194083,NSHD46,nightingale_metabolomics,s_vldl_c_15,Total cholesterol in small VLDL (mmol/l),-9.0,Value was rejected
+1194084,NSHD46,nightingale_metabolomics,s_vldl_c_15,Total cholesterol in small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194085,NSHD46,nightingale_metabolomics,l_vldl_tg_p_15,Triglycerides to total lipids ratio in large VLDL (%),-6.0,Not defined
+1194086,NSHD46,nightingale_metabolomics,l_vldl_tg_p_15,Triglycerides to total lipids ratio in large VLDL (%),-8.0,Value cannot be quantified
+1194087,NSHD46,nightingale_metabolomics,l_vldl_tg_p_15,Triglycerides to total lipids ratio in large VLDL (%),-9.0,Value was rejected
+1194088,NSHD46,nightingale_metabolomics,l_vldl_tg_p_15,Triglycerides to total lipids ratio in large VLDL (%),0.0,Zero - Very low concentration
+1194089,NSHD46,nightingale_metabolomics,xl_vldl_ce_15,Cholesterol esters in very large VLDL (mmol/l),-6.0,Not defined
+1194090,NSHD46,nightingale_metabolomics,xl_vldl_ce_15,Cholesterol esters in very large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194091,NSHD46,nightingale_metabolomics,xl_vldl_ce_15,Cholesterol esters in very large VLDL (mmol/l),-9.0,Value was rejected
+1194092,NSHD46,nightingale_metabolomics,xl_vldl_ce_15,Cholesterol esters in very large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194093,NSHD46,nightingale_metabolomics,m_hdl_c_15,Total cholesterol in medium HDL (mmol/l),-6.0,Not defined
+1194094,NSHD46,nightingale_metabolomics,m_hdl_c_15,Total cholesterol in medium HDL (mmol/l),-8.0,Value cannot be quantified
+1194095,NSHD46,nightingale_metabolomics,m_hdl_c_15,Total cholesterol in medium HDL (mmol/l),-9.0,Value was rejected
+1194096,NSHD46,nightingale_metabolomics,m_hdl_c_15,Total cholesterol in medium HDL (mmol/l),0.0,Zero - Very low concentration
+1194097,NSHD46,nightingale_metabolomics,s_vldl_ce_15,Cholesterol esters in small VLDL (mmol/l),-6.0,Not defined
+1194098,NSHD46,nightingale_metabolomics,s_vldl_ce_15,Cholesterol esters in small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194099,NSHD46,nightingale_metabolomics,s_vldl_ce_15,Cholesterol esters in small VLDL (mmol/l),-9.0,Value was rejected
+1194100,NSHD46,nightingale_metabolomics,s_vldl_ce_15,Cholesterol esters in small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194101,NSHD46,nightingale_metabolomics,m_hdl_ce_15,Cholesterol esters in medium HDL (mmol/l),-6.0,Not defined
+1194102,NSHD46,nightingale_metabolomics,m_hdl_ce_15,Cholesterol esters in medium HDL (mmol/l),-8.0,Value cannot be quantified
+1194103,NSHD46,nightingale_metabolomics,m_hdl_ce_15,Cholesterol esters in medium HDL (mmol/l),-9.0,Value was rejected
+1194104,NSHD46,nightingale_metabolomics,m_hdl_ce_15,Cholesterol esters in medium HDL (mmol/l),0.0,Zero - Very low concentration
+1194105,NSHD46,nightingale_metabolomics,xxl_vldl_c_p_15,Total cholesterol to total lipids ratio in chylomicrons and extremely large VLDL,-6.0,Not defined
+1194106,NSHD46,nightingale_metabolomics,xxl_vldl_c_p_15,Total cholesterol to total lipids ratio in chylomicrons and extremely large VLDL,-8.0,Value cannot be quantified
+1194107,NSHD46,nightingale_metabolomics,xxl_vldl_c_p_15,Total cholesterol to total lipids ratio in chylomicrons and extremely large VLDL,-9.0,Value was rejected
+1194108,NSHD46,nightingale_metabolomics,xxl_vldl_c_p_15,Total cholesterol to total lipids ratio in chylomicrons and extremely large VLDL,0.0,Zero - Very low concentration
+1194109,NSHD46,nightingale_metabolomics,m_hdl_ce_p_15,Cholesterol esters to total lipids ratio in medium HDL (%),-6.0,Not defined
+1194110,NSHD46,nightingale_metabolomics,m_hdl_ce_p_15,Cholesterol esters to total lipids ratio in medium HDL (%),-8.0,Value cannot be quantified
+1194111,NSHD46,nightingale_metabolomics,m_hdl_ce_p_15,Cholesterol esters to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1194112,NSHD46,nightingale_metabolomics,m_hdl_ce_p_15,Cholesterol esters to total lipids ratio in medium HDL (%),0.0,Zero - Very low concentration
+1194113,NSHD46,nightingale_metabolomics,s_vldl_ce_p_15,Cholesterol esters to total lipids ratio in small VLDL (%),-6.0,Not defined
+1194114,NSHD46,nightingale_metabolomics,s_vldl_ce_p_15,Cholesterol esters to total lipids ratio in small VLDL (%),-8.0,Value cannot be quantified
+1194115,NSHD46,nightingale_metabolomics,s_vldl_ce_p_15,Cholesterol esters to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1194116,NSHD46,nightingale_metabolomics,s_vldl_ce_p_15,Cholesterol esters to total lipids ratio in small VLDL (%),0.0,Zero - Very low concentration
+1194117,NSHD46,nightingale_metabolomics,m_hdl_c_p_15,Total cholesterol to total lipids ratio in medium HDL (%),-6.0,Not defined
+1194118,NSHD46,nightingale_metabolomics,m_hdl_c_p_15,Total cholesterol to total lipids ratio in medium HDL (%),-8.0,Value cannot be quantified
+1194119,NSHD46,nightingale_metabolomics,m_hdl_c_p_15,Total cholesterol to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1194120,NSHD46,nightingale_metabolomics,m_hdl_c_p_15,Total cholesterol to total lipids ratio in medium HDL (%),0.0,Zero - Very low concentration
+1194121,NSHD46,nightingale_metabolomics,xl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very large VLDL (%),-6.0,Not defined
+1194122,NSHD46,nightingale_metabolomics,xl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very large VLDL (%),-8.0,Value cannot be quantified
+1194123,NSHD46,nightingale_metabolomics,xl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1194124,NSHD46,nightingale_metabolomics,xl_vldl_ce_p_15,Cholesterol esters to total lipids ratio in very large VLDL (%),0.0,Zero - Very low concentration
+1194125,NSHD46,nightingale_metabolomics,m_hdl_fc_15,Free cholesterol in medium HDL (mmol/l),-6.0,Not defined
+1194126,NSHD46,nightingale_metabolomics,m_hdl_fc_15,Free cholesterol in medium HDL (mmol/l),-8.0,Value cannot be quantified
+1194127,NSHD46,nightingale_metabolomics,m_hdl_fc_15,Free cholesterol in medium HDL (mmol/l),-9.0,Value was rejected
+1194128,NSHD46,nightingale_metabolomics,m_hdl_fc_15,Free cholesterol in medium HDL (mmol/l),0.0,Zero - Very low concentration
+1194129,NSHD46,nightingale_metabolomics,s_vldl_c_p_15,Total cholesterol to total lipids ratio in small VLDL (%),-6.0,Not defined
+1194130,NSHD46,nightingale_metabolomics,s_vldl_c_p_15,Total cholesterol to total lipids ratio in small VLDL (%),-8.0,Value cannot be quantified
+1194131,NSHD46,nightingale_metabolomics,s_vldl_c_p_15,Total cholesterol to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1194132,NSHD46,nightingale_metabolomics,s_vldl_c_p_15,Total cholesterol to total lipids ratio in small VLDL (%),0.0,Zero - Very low concentration
+1194133,NSHD46,nightingale_metabolomics,m_hdl_fc_p_15,Free cholesterol to total lipids ratio in medium HDL (%),-6.0,Not defined
+1194134,NSHD46,nightingale_metabolomics,m_hdl_fc_p_15,Free cholesterol to total lipids ratio in medium HDL (%),-8.0,Value cannot be quantified
+1194135,NSHD46,nightingale_metabolomics,m_hdl_fc_p_15,Free cholesterol to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1194136,NSHD46,nightingale_metabolomics,m_hdl_fc_p_15,Free cholesterol to total lipids ratio in medium HDL (%),0.0,Zero - Very low concentration
+1194137,NSHD46,nightingale_metabolomics,xs_vldl_p_15,Concentration of very small VLDL particles (mol/l),-6.0,Not defined
+1194138,NSHD46,nightingale_metabolomics,xs_vldl_p_15,Concentration of very small VLDL particles (mol/l),-8.0,Value cannot be quantified
+1194139,NSHD46,nightingale_metabolomics,xs_vldl_p_15,Concentration of very small VLDL particles (mol/l),-9.0,Value was rejected
+1194140,NSHD46,nightingale_metabolomics,xs_vldl_p_15,Concentration of very small VLDL particles (mol/l),0.0,Zero - Very low concentration
+1194141,NSHD46,nightingale_metabolomics,m_hdl_l_15,Total lipids in medium HDL (mmol/l),-6.0,Not defined
+1194142,NSHD46,nightingale_metabolomics,m_hdl_l_15,Total lipids in medium HDL (mmol/l),-8.0,Value cannot be quantified
+1194143,NSHD46,nightingale_metabolomics,m_hdl_l_15,Total lipids in medium HDL (mmol/l),-9.0,Value was rejected
+1194144,NSHD46,nightingale_metabolomics,m_hdl_l_15,Total lipids in medium HDL (mmol/l),0.0,Zero - Very low concentration
+1194145,NSHD46,nightingale_metabolomics,s_vldl_fc_15,Free cholesterol in small VLDL (mmol/l),-6.0,Not defined
+1194146,NSHD46,nightingale_metabolomics,s_vldl_fc_15,Free cholesterol in small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194147,NSHD46,nightingale_metabolomics,s_vldl_fc_15,Free cholesterol in small VLDL (mmol/l),-9.0,Value was rejected
+1194148,NSHD46,nightingale_metabolomics,s_vldl_fc_15,Free cholesterol in small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194149,NSHD46,nightingale_metabolomics,m_hdl_p_15,Concentration of medium HDL particles (mol/l),-6.0,Not defined
+1194150,NSHD46,nightingale_metabolomics,m_hdl_p_15,Concentration of medium HDL particles (mol/l),-8.0,Value cannot be quantified
+1194151,NSHD46,nightingale_metabolomics,m_hdl_p_15,Concentration of medium HDL particles (mol/l),-9.0,Value was rejected
+1194152,NSHD46,nightingale_metabolomics,m_hdl_p_15,Concentration of medium HDL particles (mol/l),0.0,Zero - Very low concentration
+1194153,NSHD46,nightingale_metabolomics,xl_vldl_c_p_15,Total cholesterol to total lipids ratio in very large VLDL (%),-6.0,Not defined
+1194154,NSHD46,nightingale_metabolomics,xl_vldl_c_p_15,Total cholesterol to total lipids ratio in very large VLDL (%),-8.0,Value cannot be quantified
+1194155,NSHD46,nightingale_metabolomics,xl_vldl_c_p_15,Total cholesterol to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1194156,NSHD46,nightingale_metabolomics,xl_vldl_c_p_15,Total cholesterol to total lipids ratio in very large VLDL (%),0.0,Zero - Very low concentration
+1194157,NSHD46,nightingale_metabolomics,m_hdl_pl_15,Phospholipids in medium HDL (mmol/l),-6.0,Not defined
+1194158,NSHD46,nightingale_metabolomics,m_hdl_pl_15,Phospholipids in medium HDL (mmol/l),-8.0,Value cannot be quantified
+1194159,NSHD46,nightingale_metabolomics,m_hdl_pl_15,Phospholipids in medium HDL (mmol/l),-9.0,Value was rejected
+1194160,NSHD46,nightingale_metabolomics,m_hdl_pl_15,Phospholipids in medium HDL (mmol/l),0.0,Zero - Very low concentration
+1194161,NSHD46,nightingale_metabolomics,s_vldl_fc_p_15,Free cholesterol to total lipids ratio in small VLDL (%),-6.0,Not defined
+1194162,NSHD46,nightingale_metabolomics,s_vldl_fc_p_15,Free cholesterol to total lipids ratio in small VLDL (%),-8.0,Value cannot be quantified
+1194163,NSHD46,nightingale_metabolomics,s_vldl_fc_p_15,Free cholesterol to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1194164,NSHD46,nightingale_metabolomics,s_vldl_fc_p_15,Free cholesterol to total lipids ratio in small VLDL (%),0.0,Zero - Very low concentration
+1194165,NSHD46,nightingale_metabolomics,m_hdl_pl_p_15,Phospholipids to total lipds ratio in medium HDL (%),-6.0,Not defined
+1194166,NSHD46,nightingale_metabolomics,m_hdl_pl_p_15,Phospholipids to total lipds ratio in medium HDL (%),-8.0,Value cannot be quantified
+1194167,NSHD46,nightingale_metabolomics,m_hdl_pl_p_15,Phospholipids to total lipds ratio in medium HDL (%),-9.0,Value was rejected
+1194168,NSHD46,nightingale_metabolomics,m_hdl_pl_p_15,Phospholipids to total lipds ratio in medium HDL (%),0.0,Zero - Very low concentration
+1194169,NSHD46,nightingale_metabolomics,xxl_vldl_tg_p_15,Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL (%),-6.0,Not defined
+1194170,NSHD46,nightingale_metabolomics,xxl_vldl_tg_p_15,Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL (%),-8.0,Value cannot be quantified
+1194171,NSHD46,nightingale_metabolomics,xxl_vldl_tg_p_15,Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL (%),-9.0,Value was rejected
+1194172,NSHD46,nightingale_metabolomics,xxl_vldl_tg_p_15,Triglycerides to total lipids ratio in chylomicrons and extremely large VLDL (%),0.0,Zero - Very low concentration
+1194173,NSHD46,nightingale_metabolomics,m_hdl_tg_15,Triglycerides in medium HDL (mmol/l),-6.0,Not defined
+1194174,NSHD46,nightingale_metabolomics,m_hdl_tg_15,Triglycerides in medium HDL (mmol/l),-8.0,Value cannot be quantified
+1194175,NSHD46,nightingale_metabolomics,m_hdl_tg_15,Triglycerides in medium HDL (mmol/l),-9.0,Value was rejected
+1194176,NSHD46,nightingale_metabolomics,m_hdl_tg_15,Triglycerides in medium HDL (mmol/l),0.0,Zero - Very low concentration
+1194177,NSHD46,nightingale_metabolomics,s_vldl_l_15,Total lipids in small VLDL (mmol/l),-6.0,Not defined
+1194178,NSHD46,nightingale_metabolomics,s_vldl_l_15,Total lipids in small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194179,NSHD46,nightingale_metabolomics,s_vldl_l_15,Total lipids in small VLDL (mmol/l),-9.0,Value was rejected
+1194180,NSHD46,nightingale_metabolomics,s_vldl_l_15,Total lipids in small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194181,NSHD46,nightingale_metabolomics,m_hdl_tg_p_15,Triglycerides to total lipids ratio in medium HDL (%),-6.0,Not defined
+1194182,NSHD46,nightingale_metabolomics,m_hdl_tg_p_15,Triglycerides to total lipids ratio in medium HDL (%),-8.0,Value cannot be quantified
+1194183,NSHD46,nightingale_metabolomics,m_hdl_tg_p_15,Triglycerides to total lipids ratio in medium HDL (%),-9.0,Value was rejected
+1194184,NSHD46,nightingale_metabolomics,m_hdl_tg_p_15,Triglycerides to total lipids ratio in medium HDL (%),0.0,Zero - Very low concentration
+1194185,NSHD46,nightingale_metabolomics,xl_vldl_fc_15,Free cholesterol in very large VLDL (mmol/l),-6.0,Not defined
+1194186,NSHD46,nightingale_metabolomics,xl_vldl_fc_15,Free cholesterol in very large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194187,NSHD46,nightingale_metabolomics,xl_vldl_fc_15,Free cholesterol in very large VLDL (mmol/l),-9.0,Value was rejected
+1194188,NSHD46,nightingale_metabolomics,xl_vldl_fc_15,Free cholesterol in very large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194189,NSHD46,nightingale_metabolomics,m_ldl_c_15,Total cholesterol in medium LDL (mmol/l),-6.0,Not defined
+1194190,NSHD46,nightingale_metabolomics,m_ldl_c_15,Total cholesterol in medium LDL (mmol/l),-8.0,Value cannot be quantified
+1194191,NSHD46,nightingale_metabolomics,m_ldl_c_15,Total cholesterol in medium LDL (mmol/l),-9.0,Value was rejected
+1194192,NSHD46,nightingale_metabolomics,m_ldl_c_15,Total cholesterol in medium LDL (mmol/l),0.0,Zero - Very low concentration
+1194193,NSHD46,nightingale_metabolomics,s_vldl_p_15,Concentration of small VLDL particles (mol/l),-6.0,Not defined
+1194194,NSHD46,nightingale_metabolomics,s_vldl_p_15,Concentration of small VLDL particles (mol/l),-8.0,Value cannot be quantified
+1194195,NSHD46,nightingale_metabolomics,s_vldl_p_15,Concentration of small VLDL particles (mol/l),-9.0,Value was rejected
+1194196,NSHD46,nightingale_metabolomics,s_vldl_p_15,Concentration of small VLDL particles (mol/l),0.0,Zero - Very low concentration
+1194197,NSHD46,nightingale_metabolomics,m_ldl_ce_15,Cholesterol esters in medium LDL (mmol/l),-6.0,Not defined
+1194198,NSHD46,nightingale_metabolomics,m_ldl_ce_15,Cholesterol esters in medium LDL (mmol/l),-8.0,Value cannot be quantified
+1194199,NSHD46,nightingale_metabolomics,m_ldl_ce_15,Cholesterol esters in medium LDL (mmol/l),-9.0,Value was rejected
+1194200,NSHD46,nightingale_metabolomics,m_ldl_ce_15,Cholesterol esters in medium LDL (mmol/l),0.0,Zero - Very low concentration
+1194201,NSHD46,nightingale_metabolomics,xs_vldl_pl_15,Phospholipids in very small VLDL (mmol/l),-6.0,Not defined
+1194202,NSHD46,nightingale_metabolomics,xs_vldl_pl_15,Phospholipids in very small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194203,NSHD46,nightingale_metabolomics,xs_vldl_pl_15,Phospholipids in very small VLDL (mmol/l),-9.0,Value was rejected
+1194204,NSHD46,nightingale_metabolomics,xs_vldl_pl_15,Phospholipids in very small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194205,NSHD46,nightingale_metabolomics,m_ldl_ce_p_15,Cholesterol esters to total lipids ratio in medium LDL (%),-6.0,Not defined
+1194206,NSHD46,nightingale_metabolomics,m_ldl_ce_p_15,Cholesterol esters to total lipids ratio in medium LDL (%),-8.0,Value cannot be quantified
+1194207,NSHD46,nightingale_metabolomics,m_ldl_ce_p_15,Cholesterol esters to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1194208,NSHD46,nightingale_metabolomics,m_ldl_ce_p_15,Cholesterol esters to total lipids ratio in medium LDL (%),0.0,Zero - Very low concentration
+1194209,NSHD46,nightingale_metabolomics,s_vldl_pl_15,Phospholipids in small VLDL (mmol/l),-6.0,Not defined
+1194210,NSHD46,nightingale_metabolomics,s_vldl_pl_15,Phospholipids in small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194211,NSHD46,nightingale_metabolomics,s_vldl_pl_15,Phospholipids in small VLDL (mmol/l),-9.0,Value was rejected
+1194212,NSHD46,nightingale_metabolomics,s_vldl_pl_15,Phospholipids in small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194213,NSHD46,nightingale_metabolomics,m_ldl_c_p_15,Total cholesterol to total lipids ratio in medium LDL (%),-6.0,Not defined
+1194214,NSHD46,nightingale_metabolomics,m_ldl_c_p_15,Total cholesterol to total lipids ratio in medium LDL (%),-8.0,Value cannot be quantified
+1194215,NSHD46,nightingale_metabolomics,m_ldl_c_p_15,Total cholesterol to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1194216,NSHD46,nightingale_metabolomics,m_ldl_c_p_15,Total cholesterol to total lipids ratio in medium LDL (%),0.0,Zero - Very low concentration
+1194217,NSHD46,nightingale_metabolomics,xl_vldl_fc_p_15,Free cholesterol to total lipids ratio in very large VLDL (%),-6.0,Not defined
+1194218,NSHD46,nightingale_metabolomics,xl_vldl_fc_p_15,Free cholesterol to total lipids ratio in very large VLDL (%),-8.0,Value cannot be quantified
+1194219,NSHD46,nightingale_metabolomics,xl_vldl_fc_p_15,Free cholesterol to total lipids ratio in very large VLDL (%),-9.0,Value was rejected
+1194220,NSHD46,nightingale_metabolomics,xl_vldl_fc_p_15,Free cholesterol to total lipids ratio in very large VLDL (%),0.0,Zero - Very low concentration
+1194221,NSHD46,nightingale_metabolomics,m_ldl_fc_15,Free cholesterol in medium LDL (mmol/l),-6.0,Not defined
+1194222,NSHD46,nightingale_metabolomics,m_ldl_fc_15,Free cholesterol in medium LDL (mmol/l),-8.0,Value cannot be quantified
+1194223,NSHD46,nightingale_metabolomics,m_ldl_fc_15,Free cholesterol in medium LDL (mmol/l),-9.0,Value was rejected
+1194224,NSHD46,nightingale_metabolomics,m_ldl_fc_15,Free cholesterol in medium LDL (mmol/l),0.0,Zero - Very low concentration
+1194225,NSHD46,nightingale_metabolomics,s_vldl_pl_p_15,Phospholipids to total lipds ratio in small VLDL (%),-6.0,Not defined
+1194226,NSHD46,nightingale_metabolomics,s_vldl_pl_p_15,Phospholipids to total lipds ratio in small VLDL (%),-8.0,Value cannot be quantified
+1194227,NSHD46,nightingale_metabolomics,s_vldl_pl_p_15,Phospholipids to total lipds ratio in small VLDL (%),-9.0,Value was rejected
+1194228,NSHD46,nightingale_metabolomics,s_vldl_pl_p_15,Phospholipids to total lipds ratio in small VLDL (%),0.0,Zero - Very low concentration
+1194229,NSHD46,nightingale_metabolomics,m_ldl_fc_p_15,Free cholesterol to total lipids ratio in medium LDL (%),-6.0,Not defined
+1194230,NSHD46,nightingale_metabolomics,m_ldl_fc_p_15,Free cholesterol to total lipids ratio in medium LDL (%),-8.0,Value cannot be quantified
+1194231,NSHD46,nightingale_metabolomics,m_ldl_fc_p_15,Free cholesterol to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1194232,NSHD46,nightingale_metabolomics,m_ldl_fc_p_15,Free cholesterol to total lipids ratio in medium LDL (%),0.0,Zero - Very low concentration
+1194233,NSHD46,nightingale_metabolomics,xxl_vldl_fc_15,Free cholesterol in chylomicrons and extremely large VLDL (mmol/l),-6.0,Not defined
+1194234,NSHD46,nightingale_metabolomics,xxl_vldl_fc_15,Free cholesterol in chylomicrons and extremely large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194235,NSHD46,nightingale_metabolomics,xxl_vldl_fc_15,Free cholesterol in chylomicrons and extremely large VLDL (mmol/l),-9.0,Value was rejected
+1194236,NSHD46,nightingale_metabolomics,xxl_vldl_fc_15,Free cholesterol in chylomicrons and extremely large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194237,NSHD46,nightingale_metabolomics,m_ldl_l_15,Total lipids in medium LDL (mmol/l),-6.0,Not defined
+1194238,NSHD46,nightingale_metabolomics,m_ldl_l_15,Total lipids in medium LDL (mmol/l),-8.0,Value cannot be quantified
+1194239,NSHD46,nightingale_metabolomics,m_ldl_l_15,Total lipids in medium LDL (mmol/l),-9.0,Value was rejected
+1194240,NSHD46,nightingale_metabolomics,m_ldl_l_15,Total lipids in medium LDL (mmol/l),0.0,Zero - Very low concentration
+1194241,NSHD46,nightingale_metabolomics,s_vldl_tg_15,Triglycerides in small VLDL (mmol/l),-6.0,Not defined
+1194242,NSHD46,nightingale_metabolomics,s_vldl_tg_15,Triglycerides in small VLDL (mmol/l),-8.0,Value cannot be quantified
+1194243,NSHD46,nightingale_metabolomics,s_vldl_tg_15,Triglycerides in small VLDL (mmol/l),-9.0,Value was rejected
+1194244,NSHD46,nightingale_metabolomics,s_vldl_tg_15,Triglycerides in small VLDL (mmol/l),0.0,Zero - Very low concentration
+1194245,NSHD46,nightingale_metabolomics,m_ldl_p_15,Concentration of medium LDL particles (mol/l),-6.0,Not defined
+1194246,NSHD46,nightingale_metabolomics,m_ldl_p_15,Concentration of medium LDL particles (mol/l),-8.0,Value cannot be quantified
+1194247,NSHD46,nightingale_metabolomics,m_ldl_p_15,Concentration of medium LDL particles (mol/l),-9.0,Value was rejected
+1194248,NSHD46,nightingale_metabolomics,m_ldl_p_15,Concentration of medium LDL particles (mol/l),0.0,Zero - Very low concentration
+1194249,NSHD46,nightingale_metabolomics,xl_vldl_l_15,Total lipids in very large VLDL (mmol/l),-6.0,Not defined
+1194250,NSHD46,nightingale_metabolomics,xl_vldl_l_15,Total lipids in very large VLDL (mmol/l),-8.0,Value cannot be quantified
+1194251,NSHD46,nightingale_metabolomics,xl_vldl_l_15,Total lipids in very large VLDL (mmol/l),-9.0,Value was rejected
+1194252,NSHD46,nightingale_metabolomics,xl_vldl_l_15,Total lipids in very large VLDL (mmol/l),0.0,Zero - Very low concentration
+1194253,NSHD46,nightingale_metabolomics,m_ldl_pl_15,Phospholipids in medium LDL (mmol/l),-6.0,Not defined
+1194254,NSHD46,nightingale_metabolomics,m_ldl_pl_15,Phospholipids in medium LDL (mmol/l),-8.0,Value cannot be quantified
+1194255,NSHD46,nightingale_metabolomics,m_ldl_pl_15,Phospholipids in medium LDL (mmol/l),-9.0,Value was rejected
+1194256,NSHD46,nightingale_metabolomics,m_ldl_pl_15,Phospholipids in medium LDL (mmol/l),0.0,Zero - Very low concentration
+1194257,NSHD46,nightingale_metabolomics,s_vldl_tg_p_15,Triglycerides to total lipids ratio in small VLDL (%),-6.0,Not defined
+1194258,NSHD46,nightingale_metabolomics,s_vldl_tg_p_15,Triglycerides to total lipids ratio in small VLDL (%),-8.0,Value cannot be quantified
+1194259,NSHD46,nightingale_metabolomics,s_vldl_tg_p_15,Triglycerides to total lipids ratio in small VLDL (%),-9.0,Value was rejected
+1194260,NSHD46,nightingale_metabolomics,s_vldl_tg_p_15,Triglycerides to total lipids ratio in small VLDL (%),0.0,Zero - Very low concentration
+1194261,NSHD46,nightingale_metabolomics,m_ldl_pl_p_15,Phospholipids to total lipds ratio in medium LDL (%),-6.0,Not defined
+1194262,NSHD46,nightingale_metabolomics,m_ldl_pl_p_15,Phospholipids to total lipds ratio in medium LDL (%),-8.0,Value cannot be quantified
+1194263,NSHD46,nightingale_metabolomics,m_ldl_pl_p_15,Phospholipids to total lipds ratio in medium LDL (%),-9.0,Value was rejected
+1194264,NSHD46,nightingale_metabolomics,m_ldl_pl_p_15,Phospholipids to total lipds ratio in medium LDL (%),0.0,Zero - Very low concentration
+1194265,NSHD46,nightingale_metabolomics,tag_high_lac_15,High lactate,0.0,No
+1194266,NSHD46,nightingale_metabolomics,tag_high_lac_15,High lactate,1.0,Yes
+1194267,NSHD46,nightingale_metabolomics,m_ldl_tg_15,Triglycerides in medium LDL (mmol/l),-6.0,Not defined
+1194268,NSHD46,nightingale_metabolomics,m_ldl_tg_15,Triglycerides in medium LDL (mmol/l),-8.0,Value cannot be quantified
+1194269,NSHD46,nightingale_metabolomics,m_ldl_tg_15,Triglycerides in medium LDL (mmol/l),-9.0,Value was rejected
+1194270,NSHD46,nightingale_metabolomics,m_ldl_tg_15,Triglycerides in medium LDL (mmol/l),0.0,Zero - Very low concentration
+1194271,NSHD46,nightingale_metabolomics,tag_high_pyr_15,High pyruvate,0.0,No
+1194272,NSHD46,nightingale_metabolomics,tag_high_pyr_15,High pyruvate,1.0,Yes
+1194273,NSHD46,nightingale_metabolomics,m_ldl_tg_p_15,Triglycerides to total lipids ratio in medium LDL (%),-6.0,Not defined
+1194274,NSHD46,nightingale_metabolomics,m_ldl_tg_p_15,Triglycerides to total lipids ratio in medium LDL (%),-8.0,Value cannot be quantified
+1194275,NSHD46,nightingale_metabolomics,m_ldl_tg_p_15,Triglycerides to total lipids ratio in medium LDL (%),-9.0,Value was rejected
+1194276,NSHD46,nightingale_metabolomics,m_ldl_tg_p_15,Triglycerides to total lipids ratio in medium LDL (%),0.0,Zero - Very low concentration
+1194277,NSHD46,nightingale_metabolomics,tag_low_glc_15,Low glucose,0.0,No
+1194278,NSHD46,nightingale_metabolomics,tag_low_glc_15,Low glucose,1.0,Yes
+1194279,NSHD46,nightingale_metabolomics,mufa_15,Monounsaturated fatty acids; 16:1; 18:1 (mmol/l),-6.0,Not defined
+1194280,NSHD46,nightingale_metabolomics,mufa_15,Monounsaturated fatty acids; 16:1; 18:1 (mmol/l),-8.0,Value cannot be quantified
+1194281,NSHD46,nightingale_metabolomics,mufa_15,Monounsaturated fatty acids; 16:1; 18:1 (mmol/l),-9.0,Value was rejected
+1194282,NSHD46,nightingale_metabolomics,mufa_15,Monounsaturated fatty acids; 16:1; 18:1 (mmol/l),0.0,Zero - Very low concentration
+1194283,NSHD46,nightingale_metabolomics,tag_lowhigh_gln_15,Low glutamine / high glutamate,0.0,No
+1194284,NSHD46,nightingale_metabolomics,tag_lowhigh_gln_15,Low glutamine / high glutamate,1.0,Yes
+1194285,NSHD46,nightingale_metabolomics,mufafa_15,Ratio of monounsaturated fatty acids to total fatty acids (%),-6.0,Not defined
+1194286,NSHD46,nightingale_metabolomics,mufafa_15,Ratio of monounsaturated fatty acids to total fatty acids (%),-8.0,Value cannot be quantified
+1194287,NSHD46,nightingale_metabolomics,mufafa_15,Ratio of monounsaturated fatty acids to total fatty acids (%),-9.0,Value was rejected
+1194288,NSHD46,nightingale_metabolomics,mufafa_15,Ratio of monounsaturated fatty acids to total fatty acids (%),0.0,Zero - Very low concentration
+1194289,NSHD46,nightingale_metabolomics,tag_low_pro_15,Low protein content,0.0,No
+1194290,NSHD46,nightingale_metabolomics,tag_low_pro_15,Low protein content,1.0,Yes
+1194291,NSHD46,nightingale_metabolomics,m_vldl_c_15,Total cholesterol in medium VLDL (mmol/l),-6.0,Not defined
+1194292,NSHD46,nightingale_metabolomics,m_vldl_c_15,Total cholesterol in medium VLDL (mmol/l),-8.0,Value cannot be quantified
+1194293,NSHD46,nightingale_metabolomics,m_vldl_c_15,Total cholesterol in medium VLDL (mmol/l),-9.0,Value was rejected
+1194294,NSHD46,nightingale_metabolomics,m_vldl_c_15,Total cholesterol in medium VLDL (mmol/l),0.0,Zero - Very low concentration
+1194295,NSHD46,nightingale_metabolomics,tag_plasma_smp_15,Plasma sample,0.0,No
+1194296,NSHD46,nightingale_metabolomics,tag_plasma_smp_15,Plasma sample,1.0,Yes
+1194297,NSHD46,nightingale_metabolomics,m_vldl_ce_15,Cholesterol esters in medium VLDL (mmol/l),-6.0,Not defined
+1194298,NSHD46,nightingale_metabolomics,m_vldl_ce_15,Cholesterol esters in medium VLDL (mmol/l),-8.0,Value cannot be quantified
+1194299,NSHD46,nightingale_metabolomics,m_vldl_ce_15,Cholesterol esters in medium VLDL (mmol/l),-9.0,Value was rejected
+1194300,NSHD46,nightingale_metabolomics,m_vldl_ce_15,Cholesterol esters in medium VLDL (mmol/l),0.0,Zero - Very low concentration
+1194301,NSHD46,nightingale_metabolomics,xs_vldl_pl_p_15,Phospholipids to total lipds ratio in very small VLDL (%),-6.0,Not defined
+1194302,NSHD46,nightingale_metabolomics,xs_vldl_pl_p_15,Phospholipids to total lipds ratio in very small VLDL (%),-8.0,Value cannot be quantified
+1194303,NSHD46,nightingale_metabolomics,xs_vldl_pl_p_15,Phospholipids to total lipds ratio in very small VLDL (%),-9.0,Value was rejected
+1194304,NSHD46,nightingale_metabolomics,xs_vldl_pl_p_15,Phospholipids to total lipds ratio in very small VLDL (%),0.0,Zero - Very low concentration
+1194305,NSHD46,nightingale_metabolomics,m_vldl_ce_p_15,Cholesterol esters to total lipids ratio in medium VLDL (%),-6.0,Not defined
+1194306,NSHD46,nightingale_metabolomics,m_vldl_ce_p_15,Cholesterol esters to total lipids ratio in medium VLDL (%),-8.0,Value cannot be quantified
+1194307,NSHD46,nightingale_metabolomics,m_vldl_ce_p_15,Cholesterol esters to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1194308,NSHD46,nightingale_metabolomics,m_vldl_ce_p_15,Cholesterol esters to total lipids ratio in medium VLDL (%),0.0,Zero - Very low concentration
+1194309,NSHD46,nightingale_metabolomics,tgpg_15,Ratio of triglycerides to phosphoglycerides,-6.0,Not defined
+1194310,NSHD46,nightingale_metabolomics,tgpg_15,Ratio of triglycerides to phosphoglycerides,-8.0,Value cannot be quantified
+1194311,NSHD46,nightingale_metabolomics,tgpg_15,Ratio of triglycerides to phosphoglycerides,-9.0,Value was rejected
+1194312,NSHD46,nightingale_metabolomics,tgpg_15,Ratio of triglycerides to phosphoglycerides,0.0,Zero - Very low concentration
+1194313,NSHD46,nightingale_metabolomics,m_vldl_c_p_15,Total cholesterol to total lipids ratio in medium VLDL (%),-6.0,Not defined
+1194314,NSHD46,nightingale_metabolomics,m_vldl_c_p_15,Total cholesterol to total lipids ratio in medium VLDL (%),-8.0,Value cannot be quantified
+1194315,NSHD46,nightingale_metabolomics,m_vldl_c_p_15,Total cholesterol to total lipids ratio in medium VLDL (%),-9.0,Value was rejected
+1194316,NSHD46,nightingale_metabolomics,m_vldl_c_p_15,Total cholesterol to total lipids ratio in medium VLDL (%),0.0,Zero - Very low concentration
+1194317,NSHD46,nightingale_metabolomics,xl_vldl_p_15,Concentration of very large VLDL particles (mol/l),-6.0,Not defined
+1194318,NSHD46,nightingale_metabolomics,xl_vldl_p_15,Concentration of very large VLDL particles (mol/l),-8.0,Value cannot be quantified
+1194319,NSHD46,nightingale_metabolomics,xl_vldl_p_15,Concentration of very large VLDL particles (mol/l),-9.0,Value was rejected
+1194320,NSHD46,nightingale_metabolomics,xl_vldl_p_15,Concentration of very large VLDL particles (mol/l),0.0,Zero - Very low concentration
+1194321,NSHD46,nightingale_metabolomics,m_vldl_fc_15,Free cholesterol in medium VLDL (mmol/l),-6.0,Not defined
+1194322,NSHD46,nightingale_metabolomics,m_vldl_fc_15,Free cholesterol in medium VLDL (mmol/l),-8.0,Value cannot be quantified
+1194323,NSHD46,nightingale_metabolomics,m_vldl_fc_15,Free cholesterol in medium VLDL (mmol/l),-9.0,Value was rejected
+1194324,NSHD46,nightingale_metabolomics,m_vldl_fc_15,Free cholesterol in medium VLDL (mmol/l),0.0,Zero - Very low concentration
+1194325,NSHD46,nightingale_metabolomics,ukllc_status,UKLLC_STATUS,,
+1194326,NSHD46,nightingale_metabolomics,avail_from_dt,,,

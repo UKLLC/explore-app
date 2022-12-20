@@ -1,0 +1,1570 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1118926,NEXTSTEP,ns3_family_background,study_id_e,,,
+1118927,NEXTSTEP,ns3_family_background,samppsu,Sampling: School (primary sampling unit),,
+1118928,NEXTSTEP,ns3_family_background,sampstratum,Sampling: Stratum,,
+1118929,NEXTSTEP,ns3_family_background,w2tow3nrwt,Weight: Non-response weight from Wave 2 to Wave 3,-91.0,Not applicable
+1118930,NEXTSTEP,ns3_family_background,w3finwt,Weight: W3 final weight (w2 final weight * w3 non-response weight),,
+1118931,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,-999.0,HH grid missing
+1118932,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,-997.0,Script error
+1118933,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,-99.0,
+1118934,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,-92.0,Refused
+1118935,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,-91.0,Not applicable
+1118936,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,1.0,Person 1
+1118937,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,2.0,Person 2
+1118938,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,3.0,Person 3
+1118939,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,4.0,Person 4
+1118940,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,5.0,Person 5
+1118941,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,6.0,Person 6
+1118942,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,7.0,Person 7
+1118943,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,8.0,Person 8
+1118944,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,9.0,Person 9
+1118945,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,10.0,Person 10
+1118946,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,11.0,Person 11
+1118947,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,12.0,Person 12
+1118948,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,13.0,Person 13
+1118949,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,14.0,Person 14
+1118950,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,15.0,Person 15
+1118951,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,16.0,Person 16
+1118952,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,17.0,Person 17
+1118953,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,18.0,Person 18
+1118954,NEXTSTEP,ns3_family_background,w3mainres,HH: Main parent position,19.0,Non household member
+1118955,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,-999.0,HH grid missing
+1118956,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,-997.0,script error
+1118957,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,-99.0,
+1118958,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,-98.0,No SP present
+1118959,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,-92.0,Refused
+1118960,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,-91.0,Not applicable
+1118961,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,1.0,Person 1
+1118962,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,2.0,Person 2
+1118963,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,3.0,Person 3
+1118964,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,4.0,Person 4
+1118965,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,5.0,Person 5
+1118966,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,6.0,Person 6
+1118967,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,7.0,Person 7
+1118968,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,8.0,Person 8
+1118969,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,9.0,Person 9
+1118970,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,10.0,Person 10
+1118971,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,11.0,Person 11
+1118972,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,12.0,Person 12
+1118973,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,13.0,Person 13
+1118974,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,14.0,Person 14
+1118975,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,15.0,Person 15
+1118976,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,16.0,Person 16
+1118977,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,17.0,Person 17
+1118978,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,18.0,Person 18
+1118979,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,19.0,Non household member
+1118980,NEXTSTEP,ns3_family_background,w3secores,HH: Second parent position,20.0,No answer
+1118981,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,-999.0,HH grid missing
+1118982,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,-997.0,Script error
+1118983,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,-99.0,
+1118984,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,-92.0,Refused
+1118985,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,-91.0,Not applicable
+1118986,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,-1.0,Don't know
+1118987,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,1.0,Person 1
+1118988,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,2.0,Person 2
+1118989,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,3.0,Person 3
+1118990,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,4.0,Person 4
+1118991,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,5.0,Person 5
+1118992,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,6.0,Person 6
+1118993,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,7.0,Person 7
+1118994,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,8.0,Person 8
+1118995,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,9.0,Person 9
+1118996,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,10.0,Person 10
+1118997,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,11.0,Person 11
+1118998,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,12.0,Person 12
+1118999,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,13.0,Person 13
+1119000,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,14.0,Person 14
+1119001,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,15.0,Person 15
+1119002,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,16.0,Person 16
+1119003,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,17.0,Person 17
+1119004,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,18.0,Person 18
+1119005,NEXTSTEP,ns3_family_background,w3hrefper,HH: Household reference person position,19.0,Non household member
+1119006,NEXTSTEP,ns3_family_background,w3qfhhno,HH: Number of people in the household,-999.0,HH grid missing
+1119007,NEXTSTEP,ns3_family_background,w3qfhhno,HH: Number of people in the household,-99.0,
+1119008,NEXTSTEP,ns3_family_background,w3qfhhno,HH: Number of people in the household,-91.0,Not applicable
+1119009,NEXTSTEP,ns3_family_background,w3intmnthmp,MP- month of interview,-99.0,MP not interviewed
+1119010,NEXTSTEP,ns3_family_background,w3intyearmp,MP- year of interview,-99.0,MP not interviewed
+1119011,NEXTSTEP,ns3_family_background,w3sameaddhh,HH: Whether same address,-999.0,HH grid missing
+1119012,NEXTSTEP,ns3_family_background,w3sameaddhh,HH: Whether same address,-99.0,
+1119013,NEXTSTEP,ns3_family_background,w3sameaddhh,HH: Whether same address,-92.0,Refused
+1119014,NEXTSTEP,ns3_family_background,w3sameaddhh,HH: Whether same address,-91.0,Not applicable
+1119015,NEXTSTEP,ns3_family_background,w3sameaddhh,HH: Whether same address,0.0,Yes
+1119016,NEXTSTEP,ns3_family_background,w3sameaddhh,HH: Whether same address,1.0,No
+1119017,NEXTSTEP,ns3_family_background,w3parpreshh,HH: Whether parent or guardian living in household,2.0,No
+1119018,NEXTSTEP,ns3_family_background,w3parpreshh,HH: Whether parent or guardian living in household,-999.0,HH grid missing
+1119019,NEXTSTEP,ns3_family_background,w3parpreshh,HH: Whether parent or guardian living in household,-99.0,
+1119020,NEXTSTEP,ns3_family_background,w3parpreshh,HH: Whether parent or guardian living in household,-92.0,Refused
+1119021,NEXTSTEP,ns3_family_background,w3parpreshh,HH: Whether parent or guardian living in household,-91.0,Not applicable
+1119022,NEXTSTEP,ns3_family_background,w3parpreshh,HH: Whether parent or guardian living in household,1.0,Yes
+1119023,NEXTSTEP,ns3_family_background,w3parchkhh,HH: Check - that there is definitely not a parent/guardian present,-999.0,HH grid missing
+1119024,NEXTSTEP,ns3_family_background,w3parchkhh,HH: Check - that there is definitely not a parent/guardian present,-99.0,
+1119025,NEXTSTEP,ns3_family_background,w3parchkhh,HH: Check - that there is definitely not a parent/guardian present,-92.0,Refused
+1119026,NEXTSTEP,ns3_family_background,w3parchkhh,HH: Check - that there is definitely not a parent/guardian present,-91.0,Not applicable
+1119027,NEXTSTEP,ns3_family_background,w3parchkhh,HH: Check - that there is definitely not a parent/guardian present,1.0,Yes - no parent/guardian present in household
+1119028,NEXTSTEP,ns3_family_background,w3parchkhh,HH: Check - that there is definitely not a parent/guardian present,2.0,No - parent/ guardian present in household
+1119029,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,-999.0,HH grid missing
+1119030,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,-99.0,
+1119031,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,-92.0,Refused
+1119032,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,-91.0,Not applicable
+1119033,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,-1.0,Don't know
+1119034,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,1.0,Private household
+1119035,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,2.0,Hotel/ B&B
+1119036,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,3.0,Institution
+1119037,NEXTSTEP,ns3_family_background,w3incarhh,HH: Whether YP in care,4.0,Other answers
+1119038,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,-999.0,HH grid missing
+1119039,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,-99.0,
+1119040,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,-92.0,Refused
+1119041,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,-91.0,Not applicable
+1119042,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,-1.0,Don't know
+1119043,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,1.0,Children's home or hostel
+1119044,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,2.0,Other type of residential care home
+1119045,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,3.0,Nhs/health trust or other establishment providing nursing ca
+1119046,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,4.0,Family centre or mother and baby unit
+1119047,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,5.0,Youth treatment centre (glenthorne)
+1119048,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,6.0,Young offender institution or prison
+1119049,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,7.0,Other answers
+1119050,NEXTSTEP,ns3_family_background,w3intyphh,HH: Type of institution YP is in care in,8.0,Other (specify)
+1119051,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,-999.0,HH grid missing
+1119052,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,-997.0,Script error
+1119053,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,-99.0,
+1119054,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,-92.0,Refused
+1119055,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,-91.0,Not applicable
+1119056,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,1.0,Person 1
+1119057,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,2.0,Person 2
+1119058,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,3.0,Person 3
+1119059,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,4.0,Person 4
+1119060,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,5.0,Person 5
+1119061,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,6.0,Person 6
+1119062,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,7.0,Person 7
+1119063,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,8.0,Person 8
+1119064,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,9.0,Person 9
+1119065,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,10.0,Person 10
+1119066,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,11.0,Person 11
+1119067,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,12.0,Person 12
+1119068,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,13.0,Person 13
+1119069,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,14.0,Person 14
+1119070,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,15.0,Person 15
+1119071,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,16.0,Person 16
+1119072,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,17.0,Person 17
+1119073,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,18.0,Person 18
+1119074,NEXTSTEP,ns3_family_background,w3infon,HH: Hhgrid respondent position,19.0,Non household member
+1119075,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,-999.0,HH grid missing
+1119076,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,-99.0,
+1119077,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,-92.0,Refused
+1119078,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,-91.0,Not applicable
+1119079,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,-1.0,Don't know
+1119080,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,1.0,Owned outright
+1119081,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,2.0,Being bought on a mortgage/ bank loan
+1119082,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,3.0,Shared ownership (owns & rents property)
+1119083,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,4.0,Rented from a Council or New Town
+1119084,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,5.0,Rented from a Housing Association
+1119085,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,6.0,Rented privately
+1119086,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,7.0,Rent free
+1119087,NEXTSTEP,ns3_family_background,w3hous12hh,HH: Tenure,8.0,Some other arrangement
+1119088,NEXTSTEP,ns3_family_background,w3usevchh,HH: Whether anyone in household has use of motor vehicle,-999.0,HH grid missing
+1119089,NEXTSTEP,ns3_family_background,w3usevchh,HH: Whether anyone in household has use of motor vehicle,-99.0,
+1119090,NEXTSTEP,ns3_family_background,w3usevchh,HH: Whether anyone in household has use of motor vehicle,-92.0,Refused
+1119091,NEXTSTEP,ns3_family_background,w3usevchh,HH: Whether anyone in household has use of motor vehicle,-91.0,Not applicable
+1119092,NEXTSTEP,ns3_family_background,w3usevchh,HH: Whether anyone in household has use of motor vehicle,-1.0,Don't know
+1119093,NEXTSTEP,ns3_family_background,w3usevchh,HH: Whether anyone in household has use of motor vehicle,1.0,Yes
+1119094,NEXTSTEP,ns3_family_background,w3usevchh,HH: Whether anyone in household has use of motor vehicle,2.0,No
+1119095,NEXTSTEP,ns3_family_background,w3vehnohh,HH: No of vehicles in household,-999.0,HH grid missing
+1119096,NEXTSTEP,ns3_family_background,w3vehnohh,HH: No of vehicles in household,-997.0,Script error
+1119097,NEXTSTEP,ns3_family_background,w3vehnohh,HH: No of vehicles in household,-99.0,
+1119098,NEXTSTEP,ns3_family_background,w3vehnohh,HH: No of vehicles in household,-92.0,Refused
+1119099,NEXTSTEP,ns3_family_background,w3vehnohh,HH: No of vehicles in household,-91.0,Not applicable
+1119100,NEXTSTEP,ns3_family_background,w3vehnohh,HH: No of vehicles in household,-1.0,Don't know
+1119101,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,-99.0,MP not interviewed
+1119102,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,-92.0,Refused
+1119103,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,-91.0,Not applicable
+1119104,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,-1.0,Don't know
+1119105,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,1.0,"Yes, fixed telephone only"
+1119106,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,2.0,"Yes, mobile telephone only"
+1119107,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,3.0,"Yes, both fixed and mobile telephones"
+1119108,NEXTSTEP,ns3_family_background,w3condur4mp,MP: Whether have telephone in household,4.0,No
+1119109,NEXTSTEP,ns3_family_background,w3condur5mp,MP: Whether have home computer in household,-92.0,Refused
+1119110,NEXTSTEP,ns3_family_background,w3condur5mp,MP: Whether have home computer in household,-91.0,Not applicable
+1119111,NEXTSTEP,ns3_family_background,w3condur5mp,MP: Whether have home computer in household,-1.0,Don't know
+1119112,NEXTSTEP,ns3_family_background,w3condur5mp,MP: Whether have home computer in household,1.0,Yes
+1119113,NEXTSTEP,ns3_family_background,w3condur5mp,MP: Whether have home computer in household,2.0,No
+1119114,NEXTSTEP,ns3_family_background,w3condur5mp,MP: Whether have home computer in household,-99.0,MP not interviewed
+1119115,NEXTSTEP,ns3_family_background,w3condur6mp,MP: Whether can access internet from home,-99.0,MP not interviewed
+1119116,NEXTSTEP,ns3_family_background,w3condur6mp,MP: Whether can access internet from home,-92.0,Refused
+1119117,NEXTSTEP,ns3_family_background,w3condur6mp,MP: Whether can access internet from home,-91.0,Not applicable
+1119118,NEXTSTEP,ns3_family_background,w3condur6mp,MP: Whether can access internet from home,-1.0,Don't know
+1119119,NEXTSTEP,ns3_family_background,w3condur6mp,MP: Whether can access internet from home,1.0,Yes
+1119120,NEXTSTEP,ns3_family_background,w3condur6mp,MP: Whether can access internet from home,2.0,No
+1119121,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,-99.0,YP not interviewed
+1119122,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,-92.0,Refused
+1119123,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,-91.0,Not applicable
+1119124,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,-1.0,Don't know
+1119125,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,1.0,Yes - fixed phone only
+1119126,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,2.0,Yes - mobile phone only
+1119127,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,3.0,Yes - both fixed and mobile telephones
+1119128,NEXTSTEP,ns3_family_background,w3condur4yp,YP: Whether have telephone in YP's household,4.0,No
+1119129,NEXTSTEP,ns3_family_background,w3condur5yp,YP: Whether have home computer in YP's household,-99.0,YP not interviewed
+1119130,NEXTSTEP,ns3_family_background,w3condur5yp,YP: Whether have home computer in YP's household,-92.0,Refused
+1119131,NEXTSTEP,ns3_family_background,w3condur5yp,YP: Whether have home computer in YP's household,-91.0,Not applicable
+1119132,NEXTSTEP,ns3_family_background,w3condur5yp,YP: Whether have home computer in YP's household,-1.0,Don't know
+1119133,NEXTSTEP,ns3_family_background,w3condur5yp,YP: Whether have home computer in YP's household,1.0,Yes
+1119134,NEXTSTEP,ns3_family_background,w3condur5yp,YP: Whether have home computer in YP's household,2.0,No
+1119135,NEXTSTEP,ns3_family_background,w3condur6yp,YP: Whether can access internet from YP's home,-99.0,YP not interviewed
+1119136,NEXTSTEP,ns3_family_background,w3condur6yp,YP: Whether can access internet from YP's home,-92.0,Refused
+1119137,NEXTSTEP,ns3_family_background,w3condur6yp,YP: Whether can access internet from YP's home,-91.0,Not applicable
+1119138,NEXTSTEP,ns3_family_background,w3condur6yp,YP: Whether can access internet from YP's home,-1.0,Don't know
+1119139,NEXTSTEP,ns3_family_background,w3condur6yp,YP: Whether can access internet from YP's home,1.0,Yes
+1119140,NEXTSTEP,ns3_family_background,w3condur6yp,YP: Whether can access internet from YP's home,2.0,No
+1119141,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,-999.0,HH grid missing
+1119142,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,-997.0,Script Error
+1119143,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,-99.0,
+1119144,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,-92.0,Refused
+1119145,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,-91.0,Not applicable
+1119146,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,-1.0,Don't know
+1119147,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,1.0,Yes - English only
+1119148,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,2.0,Yes - English first/main and speaks other languages
+1119149,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,3.0,No - another language is household's first/main language
+1119150,NEXTSTEP,ns3_family_background,w3englanghh,HH: Whether English is main language of household,4.0,Household is bilingual
+1119151,NEXTSTEP,ns3_family_background,w3elsehh0a,Admin: Who else present during hh interview - No one else,-999.0,HH grid missing
+1119152,NEXTSTEP,ns3_family_background,w3elsehh0a,Admin: Who else present during hh interview - No one else,-99.0,
+1119153,NEXTSTEP,ns3_family_background,w3elsehh0a,Admin: Who else present during hh interview - No one else,-92.0,Refused
+1119154,NEXTSTEP,ns3_family_background,w3elsehh0a,Admin: Who else present during hh interview - No one else,-91.0,Not applicable
+1119155,NEXTSTEP,ns3_family_background,w3elsehh0a,Admin: Who else present during hh interview - No one else,0.0,Not mentioned
+1119156,NEXTSTEP,ns3_family_background,w3elsehh0a,Admin: Who else present during hh interview - No one else,1.0,Mentioned
+1119157,NEXTSTEP,ns3_family_background,w3elsehh0b,Admin: Who else present during hh interview - Spouse - partner,-999.0,HH grid missing
+1119158,NEXTSTEP,ns3_family_background,w3elsehh0b,Admin: Who else present during hh interview - Spouse - partner,-99.0,
+1119159,NEXTSTEP,ns3_family_background,w3elsehh0b,Admin: Who else present during hh interview - Spouse - partner,-92.0,Refused
+1119160,NEXTSTEP,ns3_family_background,w3elsehh0b,Admin: Who else present during hh interview - Spouse - partner,-91.0,Not applicable
+1119161,NEXTSTEP,ns3_family_background,w3elsehh0b,Admin: Who else present during hh interview - Spouse - partner,0.0,Not mentioned
+1119162,NEXTSTEP,ns3_family_background,w3elsehh0b,Admin: Who else present during hh interview - Spouse - partner,1.0,Mentioned
+1119163,NEXTSTEP,ns3_family_background,w3elsehh0c,Admin: Who else present during hh interview - Sampled young person,-999.0,HH grid missing
+1119164,NEXTSTEP,ns3_family_background,w3elsehh0c,Admin: Who else present during hh interview - Sampled young person,-99.0,
+1119165,NEXTSTEP,ns3_family_background,w3elsehh0c,Admin: Who else present during hh interview - Sampled young person,-92.0,Refused
+1119166,NEXTSTEP,ns3_family_background,w3elsehh0c,Admin: Who else present during hh interview - Sampled young person,-91.0,Not applicable
+1119167,NEXTSTEP,ns3_family_background,w3elsehh0c,Admin: Who else present during hh interview - Sampled young person,0.0,Not mentioned
+1119168,NEXTSTEP,ns3_family_background,w3elsehh0c,Admin: Who else present during hh interview - Sampled young person,1.0,Mentioned
+1119169,NEXTSTEP,ns3_family_background,w3elsehh0d,Admin: Who else present during hh interview - Mother,-999.0,HH grid missing
+1119170,NEXTSTEP,ns3_family_background,w3elsehh0d,Admin: Who else present during hh interview - Mother,-99.0,
+1119171,NEXTSTEP,ns3_family_background,w3elsehh0d,Admin: Who else present during hh interview - Mother,-92.0,Refused
+1119172,NEXTSTEP,ns3_family_background,w3elsehh0d,Admin: Who else present during hh interview - Mother,-91.0,Not applicable
+1119173,NEXTSTEP,ns3_family_background,w3elsehh0d,Admin: Who else present during hh interview - Mother,0.0,Not mentioned
+1119174,NEXTSTEP,ns3_family_background,w3elsehh0d,Admin: Who else present during hh interview - Mother,1.0,Mentioned
+1119175,NEXTSTEP,ns3_family_background,w3elsehh0e,Admin: Who else present during hh interview - Father,-999.0,HH grid missing
+1119176,NEXTSTEP,ns3_family_background,w3elsehh0e,Admin: Who else present during hh interview - Father,-99.0,
+1119177,NEXTSTEP,ns3_family_background,w3elsehh0e,Admin: Who else present during hh interview - Father,-92.0,Refused
+1119178,NEXTSTEP,ns3_family_background,w3elsehh0e,Admin: Who else present during hh interview - Father,-91.0,Not applicable
+1119179,NEXTSTEP,ns3_family_background,w3elsehh0e,Admin: Who else present during hh interview - Father,0.0,Not mentioned
+1119180,NEXTSTEP,ns3_family_background,w3elsehh0e,Admin: Who else present during hh interview - Father,1.0,Mentioned
+1119181,NEXTSTEP,ns3_family_background,w3elsehh0f,Admin: Who else present during hh interview - YP Sibling,-999.0,HH grid missing
+1119182,NEXTSTEP,ns3_family_background,w3elsehh0f,Admin: Who else present during hh interview - YP Sibling,-99.0,
+1119183,NEXTSTEP,ns3_family_background,w3elsehh0f,Admin: Who else present during hh interview - YP Sibling,-92.0,Refused
+1119184,NEXTSTEP,ns3_family_background,w3elsehh0f,Admin: Who else present during hh interview - YP Sibling,-91.0,Not applicable
+1119185,NEXTSTEP,ns3_family_background,w3elsehh0f,Admin: Who else present during hh interview - YP Sibling,0.0,Not mentioned
+1119186,NEXTSTEP,ns3_family_background,w3elsehh0f,Admin: Who else present during hh interview - YP Sibling,1.0,Mentioned
+1119187,NEXTSTEP,ns3_family_background,w3elsehh0g,Admin: Who else present during hh interview - Other adult relative,-999.0,HH grid missing
+1119188,NEXTSTEP,ns3_family_background,w3elsehh0g,Admin: Who else present during hh interview - Other adult relative,-99.0,
+1119189,NEXTSTEP,ns3_family_background,w3elsehh0g,Admin: Who else present during hh interview - Other adult relative,-92.0,Refused
+1119190,NEXTSTEP,ns3_family_background,w3elsehh0g,Admin: Who else present during hh interview - Other adult relative,-91.0,Not applicable
+1119191,NEXTSTEP,ns3_family_background,w3elsehh0g,Admin: Who else present during hh interview - Other adult relative,0.0,Not mentioned
+1119192,NEXTSTEP,ns3_family_background,w3elsehh0g,Admin: Who else present during hh interview - Other adult relative,1.0,Mentioned
+1119193,NEXTSTEP,ns3_family_background,w3elsehh0h,Admin: Who else present during hh interview - Other children under 16,-999.0,HH grid missing
+1119194,NEXTSTEP,ns3_family_background,w3elsehh0h,Admin: Who else present during hh interview - Other children under 16,-99.0,
+1119195,NEXTSTEP,ns3_family_background,w3elsehh0h,Admin: Who else present during hh interview - Other children under 16,-92.0,Refused
+1119196,NEXTSTEP,ns3_family_background,w3elsehh0h,Admin: Who else present during hh interview - Other children under 16,-91.0,Not applicable
+1119197,NEXTSTEP,ns3_family_background,w3elsehh0h,Admin: Who else present during hh interview - Other children under 16,0.0,Not mentioned
+1119198,NEXTSTEP,ns3_family_background,w3elsehh0h,Admin: Who else present during hh interview - Other children under 16,1.0,Mentioned
+1119199,NEXTSTEP,ns3_family_background,w3elsehh0i,Admin: Who else present during hh interview - Other Adults,-999.0,HH grid missing
+1119200,NEXTSTEP,ns3_family_background,w3elsehh0i,Admin: Who else present during hh interview - Other Adults,-99.0,
+1119201,NEXTSTEP,ns3_family_background,w3elsehh0i,Admin: Who else present during hh interview - Other Adults,-92.0,Refused
+1119202,NEXTSTEP,ns3_family_background,w3elsehh0i,Admin: Who else present during hh interview - Other Adults,-91.0,Not applicable
+1119203,NEXTSTEP,ns3_family_background,w3elsehh0i,Admin: Who else present during hh interview - Other Adults,0.0,Not mentioned
+1119204,NEXTSTEP,ns3_family_background,w3elsehh0i,Admin: Who else present during hh interview - Other Adults,1.0,Mentioned
+1119205,NEXTSTEP,ns3_family_background,w3elsehh0j,Admin: Who else present during hh interview - Someone else,-999.0,HH grid missing
+1119206,NEXTSTEP,ns3_family_background,w3elsehh0j,Admin: Who else present during hh interview - Someone else,-99.0,
+1119207,NEXTSTEP,ns3_family_background,w3elsehh0j,Admin: Who else present during hh interview - Someone else,-92.0,Refused
+1119208,NEXTSTEP,ns3_family_background,w3elsehh0j,Admin: Who else present during hh interview - Someone else,-91.0,Not applicable
+1119209,NEXTSTEP,ns3_family_background,w3elsehh0j,Admin: Who else present during hh interview - Someone else,0.0,Not mentioned
+1119210,NEXTSTEP,ns3_family_background,w3elsehh0j,Admin: Who else present during hh interview - Someone else,1.0,Mentioned
+1119211,NEXTSTEP,ns3_family_background,w3whopresmp0a,Admin: Who else present during MP section: No-one else present,-99.0,MP not interviewed
+1119212,NEXTSTEP,ns3_family_background,w3whopresmp0a,Admin: Who else present during MP section: No-one else present,-92.0,Refused
+1119213,NEXTSTEP,ns3_family_background,w3whopresmp0a,Admin: Who else present during MP section: No-one else present,-91.0,Not applicable
+1119214,NEXTSTEP,ns3_family_background,w3whopresmp0a,Admin: Who else present during MP section: No-one else present,0.0,Not mentioned
+1119215,NEXTSTEP,ns3_family_background,w3whopresmp0a,Admin: Who else present during MP section: No-one else present,1.0,Mentioned
+1119216,NEXTSTEP,ns3_family_background,w3whopresmp0b,Admin: Who else present during MP section: Respondent's partner,-99.0,MP not interviewed
+1119217,NEXTSTEP,ns3_family_background,w3whopresmp0b,Admin: Who else present during MP section: Respondent's partner,-92.0,Refused
+1119218,NEXTSTEP,ns3_family_background,w3whopresmp0b,Admin: Who else present during MP section: Respondent's partner,-91.0,Not applicable
+1119219,NEXTSTEP,ns3_family_background,w3whopresmp0b,Admin: Who else present during MP section: Respondent's partner,0.0,Not mentioned
+1119220,NEXTSTEP,ns3_family_background,w3whopresmp0b,Admin: Who else present during MP section: Respondent's partner,1.0,Mentioned
+1119221,NEXTSTEP,ns3_family_background,w3whopresmp0c,Admin: Who else present during MP section: Sampled YP,-99.0,MP not interviewed
+1119222,NEXTSTEP,ns3_family_background,w3whopresmp0c,Admin: Who else present during MP section: Sampled YP,-92.0,Refused
+1119223,NEXTSTEP,ns3_family_background,w3whopresmp0c,Admin: Who else present during MP section: Sampled YP,-91.0,Not applicable
+1119224,NEXTSTEP,ns3_family_background,w3whopresmp0c,Admin: Who else present during MP section: Sampled YP,0.0,Not mentioned
+1119225,NEXTSTEP,ns3_family_background,w3whopresmp0c,Admin: Who else present during MP section: Sampled YP,1.0,Mentioned
+1119226,NEXTSTEP,ns3_family_background,w3whopresmp0d,Admin: Who else present during MP section: Other adult living in household,-99.0,MP not interviewed
+1119227,NEXTSTEP,ns3_family_background,w3whopresmp0d,Admin: Who else present during MP section: Other adult living in household,-92.0,Refused
+1119228,NEXTSTEP,ns3_family_background,w3whopresmp0d,Admin: Who else present during MP section: Other adult living in household,-91.0,Not applicable
+1119229,NEXTSTEP,ns3_family_background,w3whopresmp0d,Admin: Who else present during MP section: Other adult living in household,0.0,Not mentioned
+1119230,NEXTSTEP,ns3_family_background,w3whopresmp0d,Admin: Who else present during MP section: Other adult living in household,1.0,Mentioned
+1119231,NEXTSTEP,ns3_family_background,w3whopresmp0e,Admin: Who else present during MP section: Other YP living in household,-99.0,MP not interviewed
+1119232,NEXTSTEP,ns3_family_background,w3whopresmp0e,Admin: Who else present during MP section: Other YP living in household,-92.0,Refused
+1119233,NEXTSTEP,ns3_family_background,w3whopresmp0e,Admin: Who else present during MP section: Other YP living in household,-91.0,Not applicable
+1119234,NEXTSTEP,ns3_family_background,w3whopresmp0e,Admin: Who else present during MP section: Other YP living in household,0.0,Not mentioned
+1119235,NEXTSTEP,ns3_family_background,w3whopresmp0e,Admin: Who else present during MP section: Other YP living in household,1.0,Mentioned
+1119236,NEXTSTEP,ns3_family_background,w3whopresmp0f,Admin: Who else present during MP section: Other adult,-99.0,MP not interviewed
+1119237,NEXTSTEP,ns3_family_background,w3whopresmp0f,Admin: Who else present during MP section: Other adult,-92.0,Refused
+1119238,NEXTSTEP,ns3_family_background,w3whopresmp0f,Admin: Who else present during MP section: Other adult,-91.0,Not applicable
+1119239,NEXTSTEP,ns3_family_background,w3whopresmp0f,Admin: Who else present during MP section: Other adult,0.0,Not mentioned
+1119240,NEXTSTEP,ns3_family_background,w3whopresmp0f,Admin: Who else present during MP section: Other adult,1.0,Mentioned
+1119241,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,-99.0,MP not interviewed
+1119242,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,-92.0,Refused
+1119243,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,1.0,Full-time paid employee (30 or more hours a week)
+1119244,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,2.0,Part-time paid employee (under 30 hours a week)
+1119245,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,3.0,Full-time self-employed
+1119246,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,4.0,Part-time self-employed
+1119247,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,5.0,Unemployed and seeking work
+1119248,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,6.0,Full-time education
+1119249,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,7.0,On a government scheme for employment training
+1119250,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,8.0,Temporarily sick/ disabled (if temporarily off sick from job
+1119251,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,9.0,Permanently sick/ disabled
+1119252,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,10.0,Looking after home/ family
+1119253,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,11.0,Retired from work altogether
+1119254,NEXTSTEP,ns3_family_background,w3wrk1amp,MP: MP's economic activity,12.0,Other answers
+1119255,NEXTSTEP,ns3_family_background,w3wrk10mp,MP: Whether have formal supervisory responsibility,-99.0,MP not interviewed
+1119256,NEXTSTEP,ns3_family_background,w3wrk10mp,MP: Whether have formal supervisory responsibility,-92.0,Refused
+1119257,NEXTSTEP,ns3_family_background,w3wrk10mp,MP: Whether have formal supervisory responsibility,-91.0,Not applicable
+1119258,NEXTSTEP,ns3_family_background,w3wrk10mp,MP: Whether have formal supervisory responsibility,-1.0,Don't know
+1119259,NEXTSTEP,ns3_family_background,w3wrk10mp,MP: Whether have formal supervisory responsibility,1.0,Yes
+1119260,NEXTSTEP,ns3_family_background,w3wrk10mp,MP: Whether have formal supervisory responsibility,2.0,No
+1119261,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,-99.0,MP not interviewed
+1119262,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,-92.0,Refused
+1119263,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,-91.0,Not applicable
+1119264,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,-1.0,Don't know
+1119265,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,1.0,1-9
+1119266,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,2.0,10-24
+1119267,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,3.0,25-499
+1119268,NEXTSTEP,ns3_family_background,w3wrk11mp,MP: Number of employees at MP's workplace,4.0,500 or more
+1119269,NEXTSTEP,ns3_family_background,w3wrk12amp,MP: Whether work alone or have employees,-99.0,MP not interviewed
+1119270,NEXTSTEP,ns3_family_background,w3wrk12amp,MP: Whether work alone or have employees,-92.0,Refused
+1119271,NEXTSTEP,ns3_family_background,w3wrk12amp,MP: Whether work alone or have employees,-91.0,Not applicable
+1119272,NEXTSTEP,ns3_family_background,w3wrk12amp,MP: Whether work alone or have employees,-1.0,Don't know
+1119273,NEXTSTEP,ns3_family_background,w3wrk12amp,MP: Whether work alone or have employees,1.0,"On own/ with partner(s), but no employees"
+1119274,NEXTSTEP,ns3_family_background,w3wrk12amp,MP: Whether work alone or have employees,2.0,With employees
+1119275,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,-99.0,MP not interviewed
+1119276,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,-92.0,Refused
+1119277,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,-91.0,Not applicable
+1119278,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,-1.0,Don't know
+1119279,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,1.0,1-9
+1119280,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,2.0,10-24
+1119281,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,3.0,25-499
+1119282,NEXTSTEP,ns3_family_background,w3wrk12bmp,MP: Number of employees,4.0,500 or more
+1119283,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,-99.0,MP not interviewed
+1119284,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,-92.0,Refused
+1119285,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,-91.0,Not applicable
+1119286,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,-1.0,Don't know
+1119287,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,1.0,University
+1119288,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,2.0,Higher Education College
+1119289,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,3.0,College of Further Education
+1119290,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,4.0,Independent College
+1119291,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,5.0,Correspondence College
+1119292,NEXTSTEP,ns3_family_background,w3wrk13mp,MP: Type of college providing MP's course,6.0,Other (specify)
+1119293,NEXTSTEP,ns3_family_background,w3socmp,DV: Occupational Classification for MP - SOC 2001,-99.0,MP not interviewed
+1119294,NEXTSTEP,ns3_family_background,w3socmp,DV: Occupational Classification for MP - SOC 2001,-95.0,Unable to classify
+1119295,NEXTSTEP,ns3_family_background,w3socmp,DV: Occupational Classification for MP - SOC 2001,-91.0,Not applicable
+1119296,NEXTSTEP,ns3_family_background,w3edfinymp,MP: Year in which MP's course(s) expected to finish,-99.0,MP not interviewed
+1119297,NEXTSTEP,ns3_family_background,w3edfinymp,MP: Year in which MP's course(s) expected to finish,-92.0,Refused
+1119298,NEXTSTEP,ns3_family_background,w3edfinymp,MP: Year in which MP's course(s) expected to finish,-91.0,Not applicable
+1119299,NEXTSTEP,ns3_family_background,w3edfinymp,MP: Year in which MP's course(s) expected to finish,-1.0,Don't Know
+1119300,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,-99.0,MP not interviewed
+1119301,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,-92.0,Refused
+1119302,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,-91.0,Not applicable
+1119303,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,-1.0,Don't know
+1119304,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,1.0,January
+1119305,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,2.0,February
+1119306,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,3.0,March
+1119307,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,4.0,April
+1119308,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,5.0,May
+1119309,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,6.0,June
+1119310,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,7.0,July
+1119311,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,8.0,August
+1119312,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,9.0,September
+1119313,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,10.0,October
+1119314,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,11.0,November
+1119315,NEXTSTEP,ns3_family_background,w3edfinmmp,MP: Month course will finish,12.0,December
+1119316,NEXTSTEP,ns3_family_background,w3qualstump,MP: What qualifications MP studying for,-99.0,MP not interviewed
+1119317,NEXTSTEP,ns3_family_background,w3qualstump,MP: What qualifications MP studying for,-92.0,Refused
+1119318,NEXTSTEP,ns3_family_background,w3qualstump,MP: What qualifications MP studying for,-91.0,Not applicable
+1119319,NEXTSTEP,ns3_family_background,w3qualstump,MP: What qualifications MP studying for,-1.0,Don't know
+1119320,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,-997.0,Script error
+1119321,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,-99.0,MP not interviewed
+1119322,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,-98.0,No SP present
+1119323,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,-94.0,Insufficient information
+1119324,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,-92.0,Refused
+1119325,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,-91.0,Not applicable
+1119326,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,1.0,Full-time paid employee (30 or more hours a week)
+1119327,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,2.0,Part-time paid employee (under 30 hours a week)
+1119328,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,3.0,Full-time self-employed
+1119329,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,4.0,Part-time self-employed
+1119330,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,5.0,Unemployed and seeking work
+1119331,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,6.0,Full-time education
+1119332,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,7.0,On a government scheme for employment training
+1119333,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,8.0,Temporarily sick/ disabled (if temporarily off sick from job
+1119334,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,9.0,Permanently sick/ disabled
+1119335,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,10.0,Looking after home/ family
+1119336,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,11.0,Retired from work altogether
+1119337,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,12.0,Other answers
+1119338,NEXTSTEP,ns3_family_background,w3wrk1asp,MP: SP's economic activity,13.0,Other (specify)
+1119339,NEXTSTEP,ns3_family_background,w3wrk10sp,MP: Whether have formal supervisory responsibility,-99.0,MP not interviewed
+1119340,NEXTSTEP,ns3_family_background,w3wrk10sp,MP: Whether have formal supervisory responsibility,-98.0,No SP present
+1119341,NEXTSTEP,ns3_family_background,w3wrk10sp,MP: Whether have formal supervisory responsibility,-92.0,Refused
+1119342,NEXTSTEP,ns3_family_background,w3wrk10sp,MP: Whether have formal supervisory responsibility,-91.0,Not applicable
+1119343,NEXTSTEP,ns3_family_background,w3wrk10sp,MP: Whether have formal supervisory responsibility,-1.0,Don't know
+1119344,NEXTSTEP,ns3_family_background,w3wrk10sp,MP: Whether have formal supervisory responsibility,1.0,Yes
+1119345,NEXTSTEP,ns3_family_background,w3wrk10sp,MP: Whether have formal supervisory responsibility,2.0,No
+1119346,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,-99.0,MP not interviewed
+1119347,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,-98.0,No SP present
+1119348,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,-92.0,Refused
+1119349,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,-91.0,Not applicable
+1119350,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,-1.0,Don't know
+1119351,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,1.0,1-9
+1119352,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,2.0,10-24
+1119353,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,3.0,25-499
+1119354,NEXTSTEP,ns3_family_background,w3wrk11sp,MP: Number of employees at SP's workplace,4.0,500 or more
+1119355,NEXTSTEP,ns3_family_background,w3wrk12asp,MP: Whether work alone or have employees,-99.0,MP not interviewed
+1119356,NEXTSTEP,ns3_family_background,w3wrk12asp,MP: Whether work alone or have employees,-98.0,No SP present
+1119357,NEXTSTEP,ns3_family_background,w3wrk12asp,MP: Whether work alone or have employees,-92.0,Refused
+1119358,NEXTSTEP,ns3_family_background,w3wrk12asp,MP: Whether work alone or have employees,-91.0,Not applicable
+1119359,NEXTSTEP,ns3_family_background,w3wrk12asp,MP: Whether work alone or have employees,-1.0,Don't know
+1119360,NEXTSTEP,ns3_family_background,w3wrk12asp,MP: Whether work alone or have employees,1.0,"On own/ with partner(s), but no employees"
+1119361,NEXTSTEP,ns3_family_background,w3wrk12asp,MP: Whether work alone or have employees,2.0,With employees
+1119362,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,-99.0,MP not interviewed
+1119363,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,-98.0,No SP present
+1119364,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,-92.0,Refused
+1119365,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,-91.0,Not applicable
+1119366,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,-1.0,Don't know
+1119367,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,1.0,1-9
+1119368,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,2.0,10-24
+1119369,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,3.0,25-499
+1119370,NEXTSTEP,ns3_family_background,w3wrk12bsp,MP: Number of employees,4.0,500 or more
+1119371,NEXTSTEP,ns3_family_background,w3socsp,DV: Occupational Classification for SP SOC - 2001,-98.0,SP not present
+1119372,NEXTSTEP,ns3_family_background,w3socsp,DV: Occupational Classification for SP SOC - 2001,-95.0,Unable to classify
+1119373,NEXTSTEP,ns3_family_background,w3socsp,DV: Occupational Classification for SP SOC - 2001,-91.0,Not applicable
+1119374,NEXTSTEP,ns3_family_background,w3socsp,DV: Occupational Classification for SP SOC - 2001,-99.0,MP not interviewed
+1119375,NEXTSTEP,ns3_family_background,w3edfinysp,MP: Year in which SP's course(s) expected to finish,-99.0,MP not interviewed
+1119376,NEXTSTEP,ns3_family_background,w3edfinysp,MP: Year in which SP's course(s) expected to finish,-98.0,No SP present
+1119377,NEXTSTEP,ns3_family_background,w3edfinysp,MP: Year in which SP's course(s) expected to finish,-92.0,Refused
+1119378,NEXTSTEP,ns3_family_background,w3edfinysp,MP: Year in which SP's course(s) expected to finish,-91.0,Not applicable
+1119379,NEXTSTEP,ns3_family_background,w3edfinysp,MP: Year in which SP's course(s) expected to finish,-1.0,Don't know
+1119380,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,-99.0,MP not interviewed
+1119381,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,-98.0,No SP present
+1119382,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,-92.0,Refused
+1119383,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,-91.0,Not applicable
+1119384,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,-1.0,Don't know
+1119385,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,1.0,January
+1119386,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,2.0,February
+1119387,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,3.0,March
+1119388,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,4.0,April
+1119389,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,5.0,May
+1119390,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,6.0,June
+1119391,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,7.0,July
+1119392,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,8.0,August
+1119393,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,9.0,September
+1119394,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,10.0,October
+1119395,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,11.0,November
+1119396,NEXTSTEP,ns3_family_background,w3edfinmsp,MP: Month course will finish,12.0,December
+1119397,NEXTSTEP,ns3_family_background,w3incsourmp0a,MP: Sources of income for respondent and partner - Earnings from employment or self-employment,-99.0,MP not interviewed
+1119398,NEXTSTEP,ns3_family_background,w3incsourmp0a,MP: Sources of income for respondent and partner - Earnings from employment or self-employment,-92.0,Refused
+1119399,NEXTSTEP,ns3_family_background,w3incsourmp0a,MP: Sources of income for respondent and partner - Earnings from employment or self-employment,-91.0,Not applicable
+1119400,NEXTSTEP,ns3_family_background,w3incsourmp0a,MP: Sources of income for respondent and partner - Earnings from employment or self-employment,0.0,Not mentioned
+1119401,NEXTSTEP,ns3_family_background,w3incsourmp0a,MP: Sources of income for respondent and partner - Earnings from employment or self-employment,1.0,Mentioned
+1119402,NEXTSTEP,ns3_family_background,w3incsourmp0b,MP: Sources of income for respondent and partner - Pensions from a former employer,-99.0,MP not interviewed
+1119403,NEXTSTEP,ns3_family_background,w3incsourmp0b,MP: Sources of income for respondent and partner - Pensions from a former employer,-92.0,Refused
+1119404,NEXTSTEP,ns3_family_background,w3incsourmp0b,MP: Sources of income for respondent and partner - Pensions from a former employer,-91.0,Not applicable
+1119405,NEXTSTEP,ns3_family_background,w3incsourmp0b,MP: Sources of income for respondent and partner - Pensions from a former employer,0.0,Not mentioned
+1119406,NEXTSTEP,ns3_family_background,w3incsourmp0b,MP: Sources of income for respondent and partner - Pensions from a former employer,1.0,Mentioned
+1119407,NEXTSTEP,ns3_family_background,w3incsourmp0c,MP: Sources of income for respondent and partner - State pension,-99.0,MP not interviewed
+1119408,NEXTSTEP,ns3_family_background,w3incsourmp0c,MP: Sources of income for respondent and partner - State pension,-92.0,Refused
+1119409,NEXTSTEP,ns3_family_background,w3incsourmp0c,MP: Sources of income for respondent and partner - State pension,-91.0,Not applicable
+1119410,NEXTSTEP,ns3_family_background,w3incsourmp0c,MP: Sources of income for respondent and partner - State pension,0.0,Not mentioned
+1119411,NEXTSTEP,ns3_family_background,w3incsourmp0c,MP: Sources of income for respondent and partner - State pension,1.0,Mentioned
+1119412,NEXTSTEP,ns3_family_background,w3incsourmp0d,MP: Sources of income for respondent and partner - Child Benefit,-99.0,MP not interviewed
+1119413,NEXTSTEP,ns3_family_background,w3incsourmp0d,MP: Sources of income for respondent and partner - Child Benefit,-92.0,Refused
+1119414,NEXTSTEP,ns3_family_background,w3incsourmp0d,MP: Sources of income for respondent and partner - Child Benefit,-91.0,Not applicable
+1119415,NEXTSTEP,ns3_family_background,w3incsourmp0d,MP: Sources of income for respondent and partner - Child Benefit,0.0,Not mentioned
+1119416,NEXTSTEP,ns3_family_background,w3incsourmp0d,MP: Sources of income for respondent and partner - Child Benefit,1.0,Mentioned
+1119417,NEXTSTEP,ns3_family_background,w3incsourmp0e,MP: Sources of income for respondent and partner - Income Support,-99.0,MP not interviewed
+1119418,NEXTSTEP,ns3_family_background,w3incsourmp0e,MP: Sources of income for respondent and partner - Income Support,-92.0,Refused
+1119419,NEXTSTEP,ns3_family_background,w3incsourmp0e,MP: Sources of income for respondent and partner - Income Support,-91.0,Not applicable
+1119420,NEXTSTEP,ns3_family_background,w3incsourmp0e,MP: Sources of income for respondent and partner - Income Support,0.0,Not mentioned
+1119421,NEXTSTEP,ns3_family_background,w3incsourmp0e,MP: Sources of income for respondent and partner - Income Support,1.0,Mentioned
+1119422,NEXTSTEP,ns3_family_background,w3incsourmp0f,MP: Sources of income for respondent and partner - Other State Benefits,-99.0,MP not interviewed
+1119423,NEXTSTEP,ns3_family_background,w3incsourmp0f,MP: Sources of income for respondent and partner - Other State Benefits,-92.0,Refused
+1119424,NEXTSTEP,ns3_family_background,w3incsourmp0f,MP: Sources of income for respondent and partner - Other State Benefits,-91.0,Not applicable
+1119425,NEXTSTEP,ns3_family_background,w3incsourmp0f,MP: Sources of income for respondent and partner - Other State Benefits,0.0,Not mentioned
+1119426,NEXTSTEP,ns3_family_background,w3incsourmp0f,MP: Sources of income for respondent and partner - Other State Benefits,1.0,Mentioned
+1119427,NEXTSTEP,ns3_family_background,w3incsourmp0g,MP: Sources of income for respondent and partner - Tax Credits,-99.0,MP not interviewed
+1119428,NEXTSTEP,ns3_family_background,w3incsourmp0g,MP: Sources of income for respondent and partner - Tax Credits,-92.0,Refused
+1119429,NEXTSTEP,ns3_family_background,w3incsourmp0g,MP: Sources of income for respondent and partner - Tax Credits,-91.0,Not applicable
+1119430,NEXTSTEP,ns3_family_background,w3incsourmp0g,MP: Sources of income for respondent and partner - Tax Credits,0.0,Not mentioned
+1119431,NEXTSTEP,ns3_family_background,w3incsourmp0g,MP: Sources of income for respondent and partner - Tax Credits,1.0,Mentioned
+1119432,NEXTSTEP,ns3_family_background,w3incsourmp0h,MP: Sources of income for respondent and partner - Interest from savings etc,-99.0,MP not interviewed
+1119433,NEXTSTEP,ns3_family_background,w3incsourmp0h,MP: Sources of income for respondent and partner - Interest from savings etc,-92.0,Refused
+1119434,NEXTSTEP,ns3_family_background,w3incsourmp0h,MP: Sources of income for respondent and partner - Interest from savings etc,-91.0,Not applicable
+1119435,NEXTSTEP,ns3_family_background,w3incsourmp0h,MP: Sources of income for respondent and partner - Interest from savings etc,0.0,Not mentioned
+1119436,NEXTSTEP,ns3_family_background,w3incsourmp0h,MP: Sources of income for respondent and partner - Interest from savings etc,1.0,Mentioned
+1119437,NEXTSTEP,ns3_family_background,w3incsourmp0i,MP: Sources of income for respondent and partner - Other kinds of regular allowance from outside the household,-99.0,MP not interviewed
+1119438,NEXTSTEP,ns3_family_background,w3incsourmp0i,MP: Sources of income for respondent and partner - Other kinds of regular allowance from outside the household,-92.0,Refused
+1119439,NEXTSTEP,ns3_family_background,w3incsourmp0i,MP: Sources of income for respondent and partner - Other kinds of regular allowance from outside the household,-91.0,Not applicable
+1119440,NEXTSTEP,ns3_family_background,w3incsourmp0i,MP: Sources of income for respondent and partner - Other kinds of regular allowance from outside the household,0.0,Not mentioned
+1119441,NEXTSTEP,ns3_family_background,w3incsourmp0i,MP: Sources of income for respondent and partner - Other kinds of regular allowance from outside the household,1.0,Mentioned
+1119442,NEXTSTEP,ns3_family_background,w3incsourmp0j,MP: Sources of income for respondent and partner - Other sources e.g. rent,-99.0,MP not interviewed
+1119443,NEXTSTEP,ns3_family_background,w3incsourmp0j,MP: Sources of income for respondent and partner - Other sources e.g. rent,-92.0,Refused
+1119444,NEXTSTEP,ns3_family_background,w3incsourmp0j,MP: Sources of income for respondent and partner - Other sources e.g. rent,-91.0,Not applicable
+1119445,NEXTSTEP,ns3_family_background,w3incsourmp0j,MP: Sources of income for respondent and partner - Other sources e.g. rent,0.0,Not mentioned
+1119446,NEXTSTEP,ns3_family_background,w3incsourmp0j,MP: Sources of income for respondent and partner - Other sources e.g. rent,1.0,Mentioned
+1119447,NEXTSTEP,ns3_family_background,w3incsourmp0k,MP: Sources of income for respondent and partner - No source of income,-99.0,MP not interviewed
+1119448,NEXTSTEP,ns3_family_background,w3incsourmp0k,MP: Sources of income for respondent and partner - No source of income,-92.0,Refused
+1119449,NEXTSTEP,ns3_family_background,w3incsourmp0k,MP: Sources of income for respondent and partner - No source of income,-91.0,Not applicable
+1119450,NEXTSTEP,ns3_family_background,w3incsourmp0k,MP: Sources of income for respondent and partner - No source of income,0.0,Not mentioned
+1119451,NEXTSTEP,ns3_family_background,w3incsourmp0k,MP: Sources of income for respondent and partner - No source of income,1.0,Mentioned
+1119452,NEXTSTEP,ns3_family_background,w3incsourmp0l,MP: Sources of income for respondent and partner - Refusal,-99.0,MP not interviewed
+1119453,NEXTSTEP,ns3_family_background,w3incsourmp0l,MP: Sources of income for respondent and partner - Refusal,-92.0,Refused
+1119454,NEXTSTEP,ns3_family_background,w3incsourmp0l,MP: Sources of income for respondent and partner - Refusal,-91.0,Not applicable
+1119455,NEXTSTEP,ns3_family_background,w3incsourmp0l,MP: Sources of income for respondent and partner - Refusal,0.0,Not mentioned
+1119456,NEXTSTEP,ns3_family_background,w3incsourmp0l,MP: Sources of income for respondent and partner - Refusal,1.0,Mentioned
+1119457,NEXTSTEP,ns3_family_background,w3incsourmp0m,MP: Sources of income for respondent and partner - Don't know,-99.0,MP not interviewed
+1119458,NEXTSTEP,ns3_family_background,w3incsourmp0m,MP: Sources of income for respondent and partner - Don't know,-92.0,Refused
+1119459,NEXTSTEP,ns3_family_background,w3incsourmp0m,MP: Sources of income for respondent and partner - Don't know,-91.0,Not applicable
+1119460,NEXTSTEP,ns3_family_background,w3incsourmp0m,MP: Sources of income for respondent and partner - Don't know,0.0,Not mentioned
+1119461,NEXTSTEP,ns3_family_background,w3incsourmp0m,MP: Sources of income for respondent and partner - Don't know,1.0,Mentioned
+1119462,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,-99.0,MP not interviewed
+1119463,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,-92.0,Refused
+1119464,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,-91.0,Not applicable
+1119465,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,-1.0,Don't know
+1119466,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,1.0,"Up to Â£2,599"
+1119467,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,2.0,"Â£2,600 up to Â£5,199"
+1119468,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,3.0,"Â£5,200 up to Â£10,399"
+1119469,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,4.0,"Â£10,400 up to Â£15,599"
+1119470,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,5.0,"Â£15,600 up to Â£20,799"
+1119471,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,6.0,"Â£20,800 up to Â£25,999"
+1119472,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,7.0,"Â£26,000 up to Â£31,199"
+1119473,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,8.0,"Â£31,200 up to Â£36,399"
+1119474,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,9.0,"Â£36,400 up to Â£41,599"
+1119475,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,10.0,"Â£41,600 up to Â£46,799"
+1119476,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,11.0,"Â£46,800 up to Â£51,999"
+1119477,NEXTSTEP,ns3_family_background,w3incestmp,MP: Total income from work,12.0,"Â£52,000 or more"
+1119478,NEXTSTEP,ns3_family_background,w3parentckmp,Admin: Whether interview conducted jointly or with only main parent,-99.0,MP not interviewed
+1119479,NEXTSTEP,ns3_family_background,w3parentckmp,Admin: Whether interview conducted jointly or with only main parent,-92.0,Refused
+1119480,NEXTSTEP,ns3_family_background,w3parentckmp,Admin: Whether interview conducted jointly or with only main parent,-91.0,Not applicable
+1119481,NEXTSTEP,ns3_family_background,w3parentckmp,Admin: Whether interview conducted jointly or with only main parent,1.0,Yes - Interview being conducted jointly with main parent
+1119482,NEXTSTEP,ns3_family_background,w3parentckmp,Admin: Whether interview conducted jointly or with only main parent,2.0,No - Interview only being conducted with main parent
+1119483,NEXTSTEP,ns3_family_background,w3fatherid,DV: Household identifier of YP's father,-999.0,Missing - household data lost
+1119484,NEXTSTEP,ns3_family_background,w3fatherid,DV: Household identifier of YP's father,-98.0,Father not present
+1119485,NEXTSTEP,ns3_family_background,w3motherid,DV: Household identifier of YP's mother,-999.0,Missing - household data lost
+1119486,NEXTSTEP,ns3_family_background,w3motherid,DV: Household identifier of YP's mother,-98.0,Mother not present
+1119487,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,-999.0,Missing household information - lost
+1119488,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,-94.0,Insufficient information
+1119489,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,-92.0,Refused
+1119490,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,1.0,Doing paid work for 30 or more hours a week
+1119491,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,2.0,Doing paid work for fewer than 30 hours a week
+1119492,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,3.0,Unemployed/ Looking for a job
+1119493,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,4.0,On a training course or scheme
+1119494,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,5.0,In full-time education/ at school
+1119495,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,6.0,Looking after the family/ household
+1119496,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,7.0,Retired from work altogether
+1119497,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,8.0,Sick/ disabled
+1119498,NEXTSTEP,ns3_family_background,w3empsmp,DV: Employment status of main parent,9.0,Other
+1119499,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,-999.0,Missing household information - lost
+1119500,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,-98.0,SP not present
+1119501,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,-94.0,Insufficient information
+1119502,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,1.0,Doing paid work for 30 or more hours a week
+1119503,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,2.0,Doing paid work for fewer than 30 hours a week
+1119504,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,3.0,Unemployed/ Looking for a job
+1119505,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,4.0,On a training course or scheme
+1119506,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,5.0,In full-time education/ at school
+1119507,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,6.0,Looking after the family/ household
+1119508,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,7.0,Retired from work altogether
+1119509,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,8.0,Sick/ disabled
+1119510,NEXTSTEP,ns3_family_background,w3empssp,DV: Employment status of second parent,9.0,Other
+1119511,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,-999.0,Missing household information - lost
+1119512,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,-99.0,Father not interviewed
+1119513,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,-98.0,Father not present
+1119514,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,-94.0,Insufficient information
+1119515,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,1.0,Doing paid work for 30 or more hours a week
+1119516,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,2.0,Doing paid work for fewer than 30 hours a week
+1119517,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,3.0,Unemployed/ Looking for a job
+1119518,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,4.0,On a training course or scheme
+1119519,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,5.0,In full-time education/ at school
+1119520,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,6.0,Looking after the family/ household
+1119521,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,7.0,Retired from work altogether
+1119522,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,8.0,Sick/ disabled
+1119523,NEXTSTEP,ns3_family_background,w3empsdad,DV: Employment status of father,9.0,Other
+1119524,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,-999.0,Missing household information - lost
+1119525,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,-99.0,Mother not interviewed
+1119526,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,-98.0,Mother not present
+1119527,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,-94.0,Insufficient information
+1119528,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,1.0,Doing paid work for 30 or more hours a week
+1119529,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,2.0,Doing paid work for fewer than 30 hours a week
+1119530,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,3.0,Unemployed/ Looking for a job
+1119531,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,4.0,On a training course or scheme
+1119532,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,5.0,In full-time education/ at school
+1119533,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,6.0,Looking after the family/ household
+1119534,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,7.0,Retired from work altogether
+1119535,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,8.0,Sick/ disabled
+1119536,NEXTSTEP,ns3_family_background,w3empsmum,DV: Employment status of mother,9.0,Other
+1119537,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,-999.0,Missing household information - lost
+1119538,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,-99.0,HRP not interviewed
+1119539,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,-94.0,Insufficient information
+1119540,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,1.0,Doing paid work for 30 or more hours a week
+1119541,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,2.0,Doing paid work for fewer than 30 hours a week
+1119542,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,3.0,Unemployed/ Looking for a job
+1119543,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,4.0,On a training course or scheme
+1119544,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,5.0,In full-time education/ at school
+1119545,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,6.0,Looking after the family/ household
+1119546,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,7.0,Retired from work altogether
+1119547,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,8.0,Sick/ disabled
+1119548,NEXTSTEP,ns3_family_background,w3empshrp,DV: Employment status of household reference person,9.0,Other
+1119549,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,-99.0,Main parent not interviewed
+1119550,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,-94.0,Insufficient Information
+1119551,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,-91.0,Not applicable - not currently working
+1119552,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,1.0,Employers - Large Organisations
+1119553,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,2.0,Employers - Small Organisations
+1119554,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,3.0,Self Employed - no employees
+1119555,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,4.0,Managers - Large Organisations
+1119556,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,5.0,Managers - Small Organisations
+1119557,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,6.0,Supervisors
+1119558,NEXTSTEP,ns3_family_background,w3cempszmp,DV: Current employment status/size of organisation for main parent,7.0,Other Employees
+1119559,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,-99.0,MP not interviewed
+1119560,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,-98.0,SP not present
+1119561,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,-94.0,Insufficient Information
+1119562,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,-91.0,Not applicable - not currently working
+1119563,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,1.0,Employers - Large Organisations
+1119564,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,2.0,Employers - Small Organisations
+1119565,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,3.0,Self Employed - no employees
+1119566,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,4.0,Managers - Large Organisations
+1119567,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,5.0,Managers - Small Organisations
+1119568,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,6.0,Supervisors
+1119569,NEXTSTEP,ns3_family_background,w3cempszsp,DV: Current employment status/size of organisation for second parent,7.0,Other Employees
+1119570,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,-999.0,Missing - household data lost
+1119571,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,-99.0,Mother not interviewed
+1119572,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,-98.0,Mother not present
+1119573,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,-94.0,Insufficient Information
+1119574,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,-91.0,Not applicable - not currently working
+1119575,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,-9.0,Government scheme/unpaid family worker
+1119576,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,1.0,Employers - Large Organisations
+1119577,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,2.0,Employers - Small Organisations
+1119578,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,3.0,Self Employed - no employees
+1119579,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,4.0,Managers - Large Organisations
+1119580,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,5.0,Managers - Small Organisations
+1119581,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,6.0,Supervisors
+1119582,NEXTSTEP,ns3_family_background,w3cempszmum,DV: Current employment status/size of organisation for mother,7.0,Other Employees
+1119583,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,-999.0,Missing - household data lost
+1119584,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,-99.0,Father not interviewed
+1119585,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,-98.0,Father not present
+1119586,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,-94.0,Insufficient Information
+1119587,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,-91.0,Not applicable - not currently working
+1119588,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,-9.0,Government scheme/unpaid family worker
+1119589,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,1.0,Employers - Large Organisations
+1119590,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,2.0,Employers - Small Organisations
+1119591,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,3.0,Self Employed - no employees
+1119592,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,4.0,Managers - Large Organisations
+1119593,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,5.0,Managers - Small Organisations
+1119594,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,6.0,Supervisors
+1119595,NEXTSTEP,ns3_family_background,w3cempszdad,DV: Current employment status/size of organisation for father,7.0,Other Employees
+1119596,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,-99.0,MP Not interviewed
+1119597,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,1.0,Employers in large organisations
+1119598,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,2.0,Higher managerial occupations
+1119599,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,3.1,Higher professional traditional employee
+1119600,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,3.2,Higher professional new employee
+1119601,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,3.3,Higher professional traditional self emp
+1119602,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,3.4,Higher professional new self emp
+1119603,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,4.1,Lower professional traditional employee
+1119604,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,4.2,Lower professional new employee
+1119605,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,4.3,Lower professional traditional self emp
+1119606,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,4.4,Lower professional new self emp
+1119607,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,5.0,Lower managerial occupations
+1119608,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,6.0,Higher supervisory occupations
+1119609,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,7.1,Intermediate clerical and administrative
+1119610,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,7.2,Intermediate sales and service
+1119611,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,7.3,Intermediate technical and auxiliary
+1119612,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,7.4,Intermediate engineering
+1119613,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,8.1,Employers in small orgs non-professional
+1119614,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,8.2,Employers in small orgs agriculture
+1119615,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,9.1,Own account workers non professional
+1119616,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,9.2,Own account workers agriculture
+1119617,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,10.0,Lower supervisory occupations
+1119618,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,11.1,Lower technical craft
+1119619,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,11.2,Lower technical process operative
+1119620,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,12.1,Semi routine sales
+1119621,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,12.2,Semi routine services
+1119622,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,12.3,Semi routine technical
+1119623,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,12.4,Semi routine operative
+1119624,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,12.5,Semi routine agricultural
+1119625,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,12.6,Semi routine clerical
+1119626,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,12.7,Semi routine childcare
+1119627,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,13.1,Routine sales and service
+1119628,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,13.2,Routine production
+1119629,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,13.3,Routine technical
+1119630,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,13.4,Routine operative
+1119631,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,13.5,Routine agricultural
+1119632,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,14.1,Never worked
+1119633,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,14.2,Long-term unemployed
+1119634,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,14.3,Not currently working
+1119635,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,15.0,Full-time students
+1119636,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,16.0,Not classified or inadequately stated
+1119637,NEXTSTEP,ns3_family_background,w3cnsseccatmp,DV: MP's current NS-SEC operational category,17.0,Not classifiable for other reasons
+1119638,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,-99.0,MP not interviewed
+1119639,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,-98.0,SP not present
+1119640,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,1.0,Employers in large organisations
+1119641,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,2.0,Higher managerial occupations
+1119642,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,3.1,Higher professional traditional employee
+1119643,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,3.2,Higher professional new employee
+1119644,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,3.3,Higher professional traditional self emp
+1119645,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,3.4,Higher professional new self emp
+1119646,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,4.1,Lower professional traditional employee
+1119647,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,4.2,Lower professional new employee
+1119648,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,4.3,Lower professional traditional self emp
+1119649,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,4.4,Lower professional new self emp
+1119650,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,5.0,Lower managerial occupations
+1119651,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,6.0,Higher supervisory occupations
+1119652,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,7.1,Intermediate clerical and administrative
+1119653,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,7.2,Intermediate sales and service
+1119654,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,7.3,Intermediate technical and auxiliary
+1119655,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,7.4,Intermediate engineering
+1119656,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,8.1,Employers in small orgs non-professional
+1119657,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,8.2,Employers in small orgs agriculture
+1119658,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,9.1,Own account workers non professional
+1119659,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,9.2,Own account workers agriculture
+1119660,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,10.0,Lower supervisory occupations
+1119661,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,11.1,Lower technical craft
+1119662,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,11.2,Lower technical process operative
+1119663,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,12.1,Semi routine sales
+1119664,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,12.2,Semi routine services
+1119665,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,12.3,Semi routine technical
+1119666,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,12.4,Semi routine operative
+1119667,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,12.5,Semi routine agricultural
+1119668,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,12.6,Semi routine clerical
+1119669,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,12.7,Semi routine childcare
+1119670,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,13.1,Routine sales and service
+1119671,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,13.2,Routine production
+1119672,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,13.3,Routine technical
+1119673,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,13.4,Routine operative
+1119674,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,13.5,Routine agricultural
+1119675,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,14.1,Never worked
+1119676,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,14.2,Long-term unemployed
+1119677,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,14.3,Not currently working
+1119678,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,15.0,Full-time students
+1119679,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,16.0,Not classified or inadequately stated
+1119680,NEXTSTEP,ns3_family_background,w3cnsseccatsp,DV: SP's current NS-SEC operational category,17.0,Not classifiable for other reasons
+1119681,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,1.0,Employers in large organisations
+1119682,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,2.0,Higher managerial occupations
+1119683,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,3.1,Higher professional traditional employee
+1119684,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,3.2,Higher professional new employee
+1119685,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,3.3,Higher professional traditional self emp
+1119686,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,3.4,Higher professional new self emp
+1119687,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,4.1,Lower professional traditional employee
+1119688,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,4.2,Lower professional new employee
+1119689,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,4.3,Lower professional traditional self emp
+1119690,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,4.4,Lower professional new self emp
+1119691,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,5.0,Lower managerial occupations
+1119692,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,6.0,Higher supervisory occupations
+1119693,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,7.1,Intermediate clerical and administrative
+1119694,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,7.2,Intermediate sales and service
+1119695,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,7.3,Intermediate technical and auxiliary
+1119696,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,7.4,Intermediate engineering
+1119697,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,8.1,Employers in small orgs non-professional
+1119698,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,8.2,Employers in small orgs agriculture
+1119699,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,9.1,Own account workers non professional
+1119700,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,9.2,Own account workers agriculture
+1119701,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,10.0,Lower supervisory occupations
+1119702,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,11.1,Lower technical craft
+1119703,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,11.2,Lower technical process operative
+1119704,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,12.1,Semi routine sales
+1119705,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,12.2,Semi routine services
+1119706,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,12.3,Semi routine technical
+1119707,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,12.4,Semi routine operative
+1119708,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,12.5,Semi routine agricultural
+1119709,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,12.6,Semi routine clerical
+1119710,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,12.7,Semi routine childcare
+1119711,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,13.1,Routine sales and service
+1119712,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,13.2,Routine production
+1119713,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,13.3,Routine technical
+1119714,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,13.4,Routine operative
+1119715,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,13.5,Routine agricultural
+1119716,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,14.1,Never worked
+1119717,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,14.2,Long-term unemployed
+1119718,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,14.3,Not currently working
+1119719,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,15.0,Full-time students
+1119720,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,16.0,Not classified or inadequately stated
+1119721,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,17.0,Not classifiable for other reasons
+1119722,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,-999.0,Missing - household data lost
+1119723,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,-99.0,Mother not interviewed
+1119724,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,-98.0,Mother not present
+1119725,NEXTSTEP,ns3_family_background,w3cnsseccatmum,DV: Mother's current NS-SEC operational category,-94.0,Insufficient information
+1119726,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,12.4,Semi routine operative
+1119727,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,12.5,Semi routine agricultural
+1119728,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,12.6,Semi routine clerical
+1119729,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,12.7,Semi routine childcare
+1119730,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,13.1,Routine sales and service
+1119731,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,13.2,Routine production
+1119732,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,13.3,Routine technical
+1119733,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,13.4,Routine operative
+1119734,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,13.5,Routine agricultural
+1119735,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,14.1,Never worked
+1119736,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,14.2,Long-term unemployed
+1119737,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,14.3,Not currently working
+1119738,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,15.0,Full-time students
+1119739,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,16.0,Not classified or inadequately stated
+1119740,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,17.0,Not classifiable for other reasons
+1119741,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,-999.0,Missing - household data lost
+1119742,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,-99.0,Father not interviewed
+1119743,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,-98.0,Father not present
+1119744,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,-94.0,Insufficient information
+1119745,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,1.0,Employers in large organisations
+1119746,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,2.0,Higher managerial occupations
+1119747,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,3.1,Higher professional traditional employee
+1119748,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,3.2,Higher professional new employee
+1119749,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,3.3,Higher professional traditional self emp
+1119750,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,3.4,Higher professional new self emp
+1119751,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,4.1,Lower professional traditional employee
+1119752,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,4.2,Lower professional new employee
+1119753,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,4.3,Lower professional traditional self emp
+1119754,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,4.4,Lower professional new self emp
+1119755,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,5.0,Lower managerial occupations
+1119756,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,6.0,Higher supervisory occupations
+1119757,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,7.1,Intermediate clerical and administrative
+1119758,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,7.2,Intermediate sales and service
+1119759,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,7.3,Intermediate technical and auxiliary
+1119760,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,7.4,Intermediate engineering
+1119761,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,8.1,Employers in small orgs non-professional
+1119762,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,8.2,Employers in small orgs agriculture
+1119763,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,9.1,Own account workers non professional
+1119764,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,9.2,Own account workers agriculture
+1119765,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,10.0,Lower supervisory occupations
+1119766,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,11.1,Lower technical craft
+1119767,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,11.2,Lower technical process operative
+1119768,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,12.1,Semi routine sales
+1119769,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,12.2,Semi routine services
+1119770,NEXTSTEP,ns3_family_background,w3cnsseccatdad,DV: Father's current NS-SEC operational category,12.3,Semi routine technical
+1119771,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),-999.0,Missing - household data lost
+1119772,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),-99.0,HRP not interviewed
+1119773,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),-94.0,Insufficient information
+1119774,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),1.0,Employers in large organisations
+1119775,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),2.0,Higher managerial occupations
+1119776,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),3.1,Higher professional traditional employee
+1119777,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),3.2,Higher professional new employee
+1119778,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),3.3,Higher professional traditional self emp
+1119779,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),3.4,Higher professional new self emp
+1119780,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),4.1,Lower professional traditional employee
+1119781,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),4.2,Lower professional new employee
+1119782,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),4.3,Lower professional traditional self emp
+1119783,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),4.4,Lower professional new self emp
+1119784,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),5.0,Lower managerial occupations
+1119785,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),6.0,Higher supervisory occupations
+1119786,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),7.1,Intermediate clerical and administrative
+1119787,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),7.2,Intermediate sales and service
+1119788,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),7.3,Intermediate technical and auxiliary
+1119789,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),7.4,Intermediate engineering
+1119790,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),8.1,Employers in small orgs non-professional
+1119791,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),8.2,Employers in small orgs agriculture
+1119792,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),9.1,Own account workers non professional
+1119793,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),9.2,Own account workers agriculture
+1119794,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),10.0,Lower supervisory occupations
+1119795,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),11.1,Lower technical craft
+1119796,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),11.2,Lower technical process operative
+1119797,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),12.1,Semi routine sales
+1119798,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),12.2,Semi routine services
+1119799,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),12.3,Semi routine technical
+1119800,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),12.4,Semi routine operative
+1119801,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),12.5,Semi routine agricultural
+1119802,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),12.6,Semi routine clerical
+1119803,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),12.7,Semi routine childcare
+1119804,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),13.1,Routine sales and service
+1119805,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),13.2,Routine production
+1119806,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),13.3,Routine technical
+1119807,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),13.4,Routine operative
+1119808,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),13.5,Routine agricultural
+1119809,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),14.1,Never worked
+1119810,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),14.2,Long-term unemployed
+1119811,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),14.3,Not currently working (See W3empshrp for more details)
+1119812,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),15.0,Full-time students
+1119813,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),16.0,Not classified or inadequately stated
+1119814,NEXTSTEP,ns3_family_background,w3cnsseccatfam,DV: Family's current NS-SEC operational category (from household reference person),17.0,Not classifiable for other reasons
+1119815,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,-99.0,MP not interviewed
+1119816,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,-94.0,Insufficient information
+1119817,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,-92.0,Refused
+1119818,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,-91.0,Not applicable
+1119819,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,1.0,Higher Managerial and professional occupations
+1119820,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,2.0,Lower managerial and professional occupations
+1119821,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,3.0,Intermediate occupations
+1119822,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,4.0,Small employers and own account workers
+1119823,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,5.0,Lower supervisory and technical occupations
+1119824,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,6.0,Semi-routine occupations
+1119825,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,7.0,Routine occupations
+1119826,NEXTSTEP,ns3_family_background,w3cnssecmp,DV: MP's current NS-SEC class,8.0,Not currently working
+1119827,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,-99.0,MP not interviewed
+1119828,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,-98.0,SP not present
+1119829,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,-94.0,Insufficient information
+1119830,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,-92.0,Refused
+1119831,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,-91.0,Not applicable
+1119832,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,1.0,Higher Managerial and professional occupations
+1119833,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,2.0,Lower managerial and professional occupations
+1119834,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,3.0,Intermediate occupations
+1119835,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,4.0,Small employers and own account workers
+1119836,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,5.0,Lower supervisory and technical occupations
+1119837,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,6.0,Semi-routine occupations
+1119838,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,7.0,Routine occupations
+1119839,NEXTSTEP,ns3_family_background,w3cnssecsp,DV: SP's current NS-SEC class,8.0,Not currently working
+1119840,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,-999.0,Missing - household data lost
+1119841,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,-99.0,Mother not interviewed
+1119842,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,-98.0,Mother not present
+1119843,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,-94.0,Insufficient information
+1119844,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,-92.0,Refused
+1119845,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,-91.0,Not applicable
+1119846,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,1.0,Higher Managerial and professional occupations
+1119847,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,2.0,Lower managerial and professional occupations
+1119848,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,3.0,Intermediate occupations
+1119849,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,4.0,Small employers and own account workers
+1119850,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,5.0,Lower supervisory and technical occupations
+1119851,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,6.0,Semi-routine occupations
+1119852,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,7.0,Routine occupations
+1119853,NEXTSTEP,ns3_family_background,w3cnssecmum,DV: Mother's current NS-SEC class,8.0,Not currently working
+1119854,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,-999.0,Missing - household data lost
+1119855,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,-99.0,Father not interviewed
+1119856,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,-98.0,Father not present
+1119857,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,-94.0,Insufficient information
+1119858,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,-92.0,Refused
+1119859,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,-91.0,Not applicable
+1119860,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,1.0,Higher Managerial and professional occupations
+1119861,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,2.0,Lower managerial and professional occupations
+1119862,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,3.0,Intermediate occupations
+1119863,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,4.0,Small employers and own account workers
+1119864,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,5.0,Lower supervisory and technical occupations
+1119865,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,6.0,Semi-routine occupations
+1119866,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,7.0,Routine occupations
+1119867,NEXTSTEP,ns3_family_background,w3cnssecdad,DV: Father's current NS-SEC class,8.0,Not currently working
+1119868,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),-999.0,Missing - household data lost
+1119869,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),-99.0,HRP not interviewed
+1119870,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),-94.0,Insufficient information
+1119871,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),-92.0,Refused
+1119872,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),-91.0,Not applicable
+1119873,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),1.0,Higher Managerial and professional occupations
+1119874,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),2.0,Lower managerial and professional occupations
+1119875,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),3.0,Intermediate occupations
+1119876,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),4.0,Small employers and own account workers
+1119877,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),5.0,Lower supervisory and technical occupations
+1119878,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),6.0,Semi-routine occupations
+1119879,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),7.0,Routine occupations
+1119880,NEXTSTEP,ns3_family_background,w3cnssecfam,DV: Family's current NS-SEC class (from household reference person),8.0,Not currently working (See W3empshrp for more details)
+1119881,NEXTSTEP,ns3_family_background,w3wrkfullmp,DV: Whether main parent works full or part-time,-94.0,Insufficient information
+1119882,NEXTSTEP,ns3_family_background,w3wrkfullmp,DV: Whether main parent works full or part-time,1.0,Working full-time
+1119883,NEXTSTEP,ns3_family_background,w3wrkfullmp,DV: Whether main parent works full or part-time,2.0,Working part-time
+1119884,NEXTSTEP,ns3_family_background,w3wrkfullmp,DV: Whether main parent works full or part-time,3.0,Currently not working
+1119885,NEXTSTEP,ns3_family_background,w3wrkfullsp,DV: Whether second parent works full or part-time,-999.0,Missing - household data lost
+1119886,NEXTSTEP,ns3_family_background,w3wrkfullsp,DV: Whether second parent works full or part-time,-98.0,SP not present
+1119887,NEXTSTEP,ns3_family_background,w3wrkfullsp,DV: Whether second parent works full or part-time,-94.0,Insufficient information
+1119888,NEXTSTEP,ns3_family_background,w3wrkfullsp,DV: Whether second parent works full or part-time,1.0,Working full-time
+1119889,NEXTSTEP,ns3_family_background,w3wrkfullsp,DV: Whether second parent works full or part-time,2.0,Working part-time
+1119890,NEXTSTEP,ns3_family_background,w3wrkfullsp,DV: Whether second parent works full or part-time,3.0,Currently not working
+1119891,NEXTSTEP,ns3_family_background,w3wrkfulldad,DV: Whether father works full or part-time,-999.0,Missing - household data lost
+1119892,NEXTSTEP,ns3_family_background,w3wrkfulldad,DV: Whether father works full or part-time,-99.0,Father not interviewed
+1119893,NEXTSTEP,ns3_family_background,w3wrkfulldad,DV: Whether father works full or part-time,-98.0,Father not present
+1119894,NEXTSTEP,ns3_family_background,w3wrkfulldad,DV: Whether father works full or part-time,-94.0,Insufficient information
+1119895,NEXTSTEP,ns3_family_background,w3wrkfulldad,DV: Whether father works full or part-time,1.0,Working full-time
+1119896,NEXTSTEP,ns3_family_background,w3wrkfulldad,DV: Whether father works full or part-time,2.0,Working part-time
+1119897,NEXTSTEP,ns3_family_background,w3wrkfulldad,DV: Whether father works full or part-time,3.0,Currently not working
+1119898,NEXTSTEP,ns3_family_background,w3wrkfullmum,DV: Whether mother works full or part-time,-999.0,Missing - household data lost
+1119899,NEXTSTEP,ns3_family_background,w3wrkfullmum,DV: Whether mother works full or part-time,-99.0,Mother not interviewed
+1119900,NEXTSTEP,ns3_family_background,w3wrkfullmum,DV: Whether mother works full or part-time,-98.0,Mother not present
+1119901,NEXTSTEP,ns3_family_background,w3wrkfullmum,DV: Whether mother works full or part-time,-94.0,Insufficient information
+1119902,NEXTSTEP,ns3_family_background,w3wrkfullmum,DV: Whether mother works full or part-time,1.0,Working full-time
+1119903,NEXTSTEP,ns3_family_background,w3wrkfullmum,DV: Whether mother works full or part-time,2.0,Working part-time
+1119904,NEXTSTEP,ns3_family_background,w3wrkfullmum,DV: Whether mother works full or part-time,3.0,Currently not working
+1119905,NEXTSTEP,ns3_family_background,w3wrkcurmp,DV: Whether main parent is working or not,-94.0,Insufficient information
+1119906,NEXTSTEP,ns3_family_background,w3wrkcurmp,DV: Whether main parent is working or not,1.0,Currently working
+1119907,NEXTSTEP,ns3_family_background,w3wrkcurmp,DV: Whether main parent is working or not,2.0,Currently not working
+1119908,NEXTSTEP,ns3_family_background,w3wrkcursp,DV: Whether second parent is working or not,-98.0,SP not present
+1119909,NEXTSTEP,ns3_family_background,w3wrkcursp,DV: Whether second parent is working or not,-94.0,Insufficient information
+1119910,NEXTSTEP,ns3_family_background,w3wrkcursp,DV: Whether second parent is working or not,1.0,Currently working
+1119911,NEXTSTEP,ns3_family_background,w3wrkcursp,DV: Whether second parent is working or not,2.0,Currently not working
+1119912,NEXTSTEP,ns3_family_background,w3wrkcurdad,DV: Whether father is working or not,-999.0,Missing - household data lost
+1119913,NEXTSTEP,ns3_family_background,w3wrkcurdad,DV: Whether father is working or not,-99.0,Father not interviewed
+1119914,NEXTSTEP,ns3_family_background,w3wrkcurdad,DV: Whether father is working or not,-98.0,Father not present
+1119915,NEXTSTEP,ns3_family_background,w3wrkcurdad,DV: Whether father is working or not,-94.0,Insufficient information
+1119916,NEXTSTEP,ns3_family_background,w3wrkcurdad,DV: Whether father is working or not,1.0,Currently working
+1119917,NEXTSTEP,ns3_family_background,w3wrkcurdad,DV: Whether father is working or not,2.0,Currently not working
+1119918,NEXTSTEP,ns3_family_background,w3wrkcurmum,DV: Whether mother is working or not,-999.0,Missing - household data lost
+1119919,NEXTSTEP,ns3_family_background,w3wrkcurmum,DV: Whether mother is working or not,-99.0,Mother not interviewed
+1119920,NEXTSTEP,ns3_family_background,w3wrkcurmum,DV: Whether mother is working or not,-98.0,Mother not present
+1119921,NEXTSTEP,ns3_family_background,w3wrkcurmum,DV: Whether mother is working or not,-94.0,Insufficient information
+1119922,NEXTSTEP,ns3_family_background,w3wrkcurmum,DV: Whether mother is working or not,-91.0,Not applicable
+1119923,NEXTSTEP,ns3_family_background,w3wrkcurmum,DV: Whether mother is working or not,1.0,Currently working
+1119924,NEXTSTEP,ns3_family_background,w3wrkcurmum,DV: Whether mother is working or not,2.0,Currently not working
+1119925,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,-99.0,MP not interviewed
+1119926,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,-98.0,SP not present
+1119927,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,-94.0,Insufficent information
+1119928,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,-91.0,Not applicable
+1119929,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,1.0,Managers and senior officials
+1119930,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,2.0,Professional occupations
+1119931,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,3.0,Associate professional and technical occupations
+1119932,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,4.0,Administrative and secretarial occupations
+1119933,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,5.0,Skilled trades occupations
+1119934,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,6.0,Personal service occupations
+1119935,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,7.0,Sales and customer service occupations
+1119936,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,8.0,"Process, plant and machine operatives"
+1119937,NEXTSTEP,ns3_family_background,w3socmajorsp,DV: Major groupings for second parent SOC,9.0,Elementary occupations
+1119938,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,-99.0,MP not interviewed
+1119939,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,-94.0,Insufficent information
+1119940,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,-91.0,Not applicable
+1119941,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,1.0,Managers and senior officials
+1119942,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,2.0,Professional occupations
+1119943,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,3.0,Associate professional and technical occupations
+1119944,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,4.0,Administrative and secretarial occupations
+1119945,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,5.0,Skilled trades occupations
+1119946,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,6.0,Personal service occupations
+1119947,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,7.0,Sales and customer service occupations
+1119948,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,8.0,"Process, plant and machine operatives"
+1119949,NEXTSTEP,ns3_family_background,w3socmajormp,DV: Major groupings for main parent SOC,9.0,Elementary occupations
+1119950,NEXTSTEP,ns3_family_background,w3mainrespos,DV: Whether W3 MP was main or second parent at wave two,-999.0,Missing - household data lost
+1119951,NEXTSTEP,ns3_family_background,w3mainrespos,DV: Whether W3 MP was main or second parent at wave two,-99.0,Missing in error
+1119952,NEXTSTEP,ns3_family_background,w3mainrespos,DV: Whether W3 MP was main or second parent at wave two,-98.0,MP not in household
+1119953,NEXTSTEP,ns3_family_background,w3mainrespos,DV: Whether W3 MP was main or second parent at wave two,-94.0,Insufficient information
+1119954,NEXTSTEP,ns3_family_background,w3mainrespos,DV: Whether W3 MP was main or second parent at wave two,1.0,Same MP at both waves
+1119955,NEXTSTEP,ns3_family_background,w3mainrespos,DV: Whether W3 MP was main or second parent at wave two,2.0,MP was SP at wave 2
+1119956,NEXTSTEP,ns3_family_background,w3mainrespos,DV: Whether W3 MP was main or second parent at wave two,3.0,MP at Wave 3 was not in hhold at Wave 2
+1119957,NEXTSTEP,ns3_family_background,w3secorespos,DV: Whether W3 SP was main or second parent at wave two,-999.0,Missing - household data lost
+1119958,NEXTSTEP,ns3_family_background,w3secorespos,DV: Whether W3 SP was main or second parent at wave two,-99.0,Missing in error
+1119959,NEXTSTEP,ns3_family_background,w3secorespos,DV: Whether W3 SP was main or second parent at wave two,-98.0,SP not present
+1119960,NEXTSTEP,ns3_family_background,w3secorespos,DV: Whether W3 SP was main or second parent at wave two,-94.0,Insufficient information
+1119961,NEXTSTEP,ns3_family_background,w3secorespos,DV: Whether W3 SP was main or second parent at wave two,1.0,Same SP at both waves
+1119962,NEXTSTEP,ns3_family_background,w3secorespos,DV: Whether W3 SP was main or second parent at wave two,2.0,SP was MP at wave 2
+1119963,NEXTSTEP,ns3_family_background,w3secorespos,DV: Whether W3 SP was main or second parent at wave two,3.0,SP at Wave 3 was not in hhold at Wave 2
+1119964,NEXTSTEP,ns3_family_background,w3cgempsmp,DV: Whether MP's employment status changed since previous interview,-99.0,MP not interviewed
+1119965,NEXTSTEP,ns3_family_background,w3cgempsmp,DV: Whether MP's employment status changed since previous interview,-94.0,Insufficient information
+1119966,NEXTSTEP,ns3_family_background,w3cgempsmp,DV: Whether MP's employment status changed since previous interview,-91.0,Not applicable - MP not in W2
+1119967,NEXTSTEP,ns3_family_background,w3cgempsmp,DV: Whether MP's employment status changed since previous interview,0.0,No
+1119968,NEXTSTEP,ns3_family_background,w3cgempsmp,DV: Whether MP's employment status changed since previous interview,1.0,Yes
+1119969,NEXTSTEP,ns3_family_background,w3cgempssp,DV: Whether SP's employment status changed since previous interview,-99.0,MP not interviewed
+1119970,NEXTSTEP,ns3_family_background,w3cgempssp,DV: Whether SP's employment status changed since previous interview,-98.0,SP not present
+1119971,NEXTSTEP,ns3_family_background,w3cgempssp,DV: Whether SP's employment status changed since previous interview,-94.0,Insufficient information
+1119972,NEXTSTEP,ns3_family_background,w3cgempssp,DV: Whether SP's employment status changed since previous interview,-91.0,Not applicable - SP not in W2
+1119973,NEXTSTEP,ns3_family_background,w3cgempssp,DV: Whether SP's employment status changed since previous interview,0.0,No
+1119974,NEXTSTEP,ns3_family_background,w3cgempssp,DV: Whether SP's employment status changed since previous interview,1.0,Yes
+1119975,NEXTSTEP,ns3_family_background,w3cgempsdad,DV: Whether father's employment status changed since previous interview,-999.0,Missing - household data lost
+1119976,NEXTSTEP,ns3_family_background,w3cgempsdad,DV: Whether father's employment status changed since previous interview,-99.0,Father not interviewed
+1119977,NEXTSTEP,ns3_family_background,w3cgempsdad,DV: Whether father's employment status changed since previous interview,-98.0,Father not present
+1119978,NEXTSTEP,ns3_family_background,w3cgempsdad,DV: Whether father's employment status changed since previous interview,-94.0,Insufficient information
+1119979,NEXTSTEP,ns3_family_background,w3cgempsdad,DV: Whether father's employment status changed since previous interview,-91.0,Not applicable - father not in W2
+1119980,NEXTSTEP,ns3_family_background,w3cgempsdad,DV: Whether father's employment status changed since previous interview,0.0,No
+1119981,NEXTSTEP,ns3_family_background,w3cgempsdad,DV: Whether father's employment status changed since previous interview,1.0,Yes
+1119982,NEXTSTEP,ns3_family_background,w3cgempsmum,DV: Whether mother's employment status changed since previous interview,-99.0,Mother not interviewed
+1119983,NEXTSTEP,ns3_family_background,w3cgempsmum,DV: Whether mother's employment status changed since previous interview,-98.0,Mother not present
+1119984,NEXTSTEP,ns3_family_background,w3cgempsmum,DV: Whether mother's employment status changed since previous interview,-94.0,Insufficient information
+1119985,NEXTSTEP,ns3_family_background,w3cgempsmum,DV: Whether mother's employment status changed since previous interview,-91.0,Not applicable - mother not in W2
+1119986,NEXTSTEP,ns3_family_background,w3cgempsmum,DV: Whether mother's employment status changed since previous interview,0.0,No
+1119987,NEXTSTEP,ns3_family_background,w3cgempsmum,DV: Whether mother's employment status changed since previous interview,1.0,Yes
+1119988,NEXTSTEP,ns3_family_background,w3cgempsmum,DV: Whether mother's employment status changed since previous interview,-999.0,Missing - household data lost
+1119989,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),-999.0,Missing - household data lost
+1119990,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),-98.0,MP not present
+1119991,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),-94.0,Insufficient information
+1119992,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),-92.0,Refused
+1119993,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),-91.0,Not applicable
+1119994,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),-1.0,Don't know
+1119995,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),1.0,White
+1119996,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),2.0,Mixed
+1119997,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),3.0,Indian
+1119998,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),4.0,Pakistani
+1119999,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),5.0,Bangladeshi
+1120000,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),6.0,Black Caribbean
+1120001,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),7.0,Black African
+1120002,NEXTSTEP,ns3_family_background,w3ethgrpmp,DV: Main parent's ethnic group (grouped),8.0,Other
+1120003,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),-98.0,MP not in household
+1120004,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),-94.0,Insufficient information
+1120005,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),-92.0,Refused
+1120006,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),-91.0,Not applicable
+1120007,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),-1.0,Don't know
+1120008,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),1.0,White - British
+1120009,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),2.0,White - Irish
+1120010,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),3.0,Any other White background
+1120011,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),4.0,Mixed - White and Black Caribbean
+1120012,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),5.0,Mixed - White and Black African
+1120013,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),6.0,Mixed - White and Asian
+1120014,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),7.0,Any other mixed background
+1120015,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),8.0,Indian
+1120016,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),9.0,Pakistani
+1120017,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),10.0,Bangladeshi
+1120018,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),11.0,Any other Asian background
+1120019,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),12.0,Black Caribbean
+1120020,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),13.0,Black African
+1120021,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),14.0,Any other Black background
+1120022,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),15.0,Chinese
+1120023,NEXTSTEP,ns3_family_background,w3ethnicmp,DV: Main parent's ethnic group (detailed),16.0,Any other ethnic background
+1120024,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),-999.0,Missing - household data lost
+1120025,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),-98.0,SP not present
+1120026,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),-94.0,Insufficient information
+1120027,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),-92.0,Refused
+1120028,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),-91.0,Not applicable
+1120029,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),-1.0,Don't know
+1120030,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),1.0,White
+1120031,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),2.0,Mixed
+1120032,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),3.0,Indian
+1120033,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),4.0,Pakistani
+1120034,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),5.0,Bangladeshi
+1120035,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),6.0,Black Caribbean
+1120036,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),7.0,Black African
+1120037,NEXTSTEP,ns3_family_background,w3ethgrpsp,DV: Second parent's ethnic group (grouped),8.0,Other
+1120038,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),-98.0,SP not present
+1120039,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),-94.0,Insufficient information
+1120040,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),-92.0,Refused
+1120041,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),-91.0,Not applicable
+1120042,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),-1.0,Don't know
+1120043,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),1.0,White - British
+1120044,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),2.0,White - Irish
+1120045,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),3.0,Any other White background
+1120046,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),4.0,Mixed - White and Black Caribbean
+1120047,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),5.0,Mixed - White and Black African
+1120048,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),6.0,Mixed - White and Asian
+1120049,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),7.0,Any other mixed background
+1120050,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),8.0,Indian
+1120051,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),9.0,Pakistani
+1120052,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),10.0,Bangladeshi
+1120053,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),11.0,Any other Asian background
+1120054,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),12.0,Black Caribbean
+1120055,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),13.0,Black African
+1120056,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),14.0,Any other Black background
+1120057,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),15.0,Chinese
+1120058,NEXTSTEP,ns3_family_background,w3ethnicsp,DV: second parent's ethnic group (detailed),16.0,Any other ethnic background
+1120059,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),-999.0,Missing - household data lost
+1120060,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),-99.0,Father not interviewed
+1120061,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),-98.0,Father not present
+1120062,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),-94.0,Insufficient information
+1120063,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),-92.0,Refused
+1120064,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),-91.0,Not applicable
+1120065,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),-1.0,Don't know
+1120066,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),1.0,White
+1120067,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),2.0,Mixed
+1120068,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),3.0,Indian
+1120069,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),4.0,Pakistani
+1120070,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),5.0,Bangladeshi
+1120071,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),6.0,Black Caribbean
+1120072,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),7.0,Black African
+1120073,NEXTSTEP,ns3_family_background,w3ethgrpdad,DV: Father's ethnic group (grouped),8.0,Other
+1120074,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),-999.0,Missing - household data lost
+1120075,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),-99.0,Father not interviewed
+1120076,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),-98.0,Father not present
+1120077,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),-94.0,Insufficient information
+1120078,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),-92.0,Refused
+1120079,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),-91.0,Not applicable
+1120080,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),-1.0,Don't know
+1120081,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),1.0,White - British
+1120082,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),2.0,White - Irish
+1120083,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),3.0,Any other White background
+1120084,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),4.0,Mixed - White and Black Caribbean
+1120085,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),5.0,Mixed - White and Black African
+1120086,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),6.0,Mixed - White and Asian
+1120087,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),7.0,Any other mixed background
+1120088,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),8.0,Indian
+1120089,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),9.0,Pakistani
+1120090,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),10.0,Bangladeshi
+1120091,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),11.0,Any other Asian background
+1120092,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),12.0,Black Caribbean
+1120093,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),13.0,Black African
+1120094,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),14.0,Any other Black background
+1120095,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),15.0,Chinese
+1120096,NEXTSTEP,ns3_family_background,w3ethnicdad,DV: Father's ethnic group (detailed),16.0,Any other ethnic background
+1120097,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),-999.0,Missing - household data lost
+1120098,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),-99.0,Mother not interviewed
+1120099,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),-98.0,Mother not present
+1120100,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),-94.0,Insufficient information
+1120101,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),-92.0,Refused
+1120102,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),-91.0,Not applicable
+1120103,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),-1.0,Don't know
+1120104,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),1.0,White
+1120105,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),2.0,Mixed
+1120106,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),3.0,Indian
+1120107,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),4.0,Pakistani
+1120108,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),5.0,Bangladeshi
+1120109,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),6.0,Black Caribbean
+1120110,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),7.0,Black African
+1120111,NEXTSTEP,ns3_family_background,w3ethgrpmum,DV: Mother's ethnic group (grouped),8.0,Other
+1120112,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),-999.0,Missing - household data lost
+1120113,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),-99.0,Mother not interviewed
+1120114,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),-98.0,Mother not present
+1120115,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),-94.0,Insufficient information
+1120116,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),-92.0,Refused
+1120117,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),-91.0,Not applicable
+1120118,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),-1.0,Don't know
+1120119,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),1.0,White - British
+1120120,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),2.0,White - Irish
+1120121,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),3.0,Any other White background
+1120122,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),4.0,Mixed - White and Black Caribbean
+1120123,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),5.0,Mixed - White and Black African
+1120124,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),6.0,Mixed - White and Asian
+1120125,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),7.0,Any other mixed background
+1120126,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),8.0,Indian
+1120127,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),9.0,Pakistani
+1120128,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),10.0,Bangladeshi
+1120129,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),11.0,Any other Asian background
+1120130,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),12.0,Black Caribbean
+1120131,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),13.0,Black African
+1120132,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),14.0,Any other Black background
+1120133,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),15.0,Chinese
+1120134,NEXTSTEP,ns3_family_background,w3ethnicmum,DV: Mother's ethnic group (detailed),16.0,Any other ethnic background
+1120135,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,-99.0,MP not interviewed
+1120136,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,-92.0,Refused
+1120137,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,-1.0,Don't know
+1120138,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,1.0,Up to Â£216
+1120139,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,2.0,Â£217 up to Â£432
+1120140,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,3.0,Â£433 up to Â£866
+1120141,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,4.0,"Â£876 up to Â£1,299"
+1120142,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,5.0,"Â£1,300 up to Â£1,732"
+1120143,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,6.0,"Â£1,733 up to Â£2,166"
+1120144,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,7.0,"Â£2,167 up to Â£2,599"
+1120145,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,8.0,"Â£2,600 up to Â£3,032"
+1120146,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,9.0,"Â£3,033 up to Â£3,466"
+1120147,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,10.0,"Â£3,467 up to Â£3,899"
+1120148,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,11.0,"Â£3,900 up to Â£4,332"
+1120149,NEXTSTEP,ns3_family_background,w3incestm,DV: Total income from work,12.0,"Â£4,333 or more"
+1120150,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,-1.0,Don't know
+1120151,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,1.0,Up to Â£49
+1120152,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,2.0,Â£50 up to Â£99
+1120153,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,3.0,Â£100 up to Â£199
+1120154,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,4.0,Â£200 up to Â£299
+1120155,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,5.0,Â£300 up to Â£399
+1120156,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,6.0,Â£400 up to Â£499
+1120157,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,7.0,Â£500 up to Â£599
+1120158,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,8.0,Â£600 up to Â£699
+1120159,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,9.0,Â£700 up to Â£799
+1120160,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,10.0,Â£800 up to Â£899
+1120161,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,11.0,Â£900 up to Â£990
+1120162,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,12.0,"Â£1,000 or more"
+1120163,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,-99.0,MP not interviewed
+1120164,NEXTSTEP,ns3_family_background,w3incestw,DV: Total income from work,-92.0,Refused
+1120165,NEXTSTEP,ns3_family_background,w3agemp,DV: Age of main parent,-999.0,Missing - household data lost
+1120166,NEXTSTEP,ns3_family_background,w3agemp,DV: Age of main parent,-98.0,MP not present
+1120167,NEXTSTEP,ns3_family_background,w3agemp,DV: Age of main parent,-94.0,Insufficient information
+1120168,NEXTSTEP,ns3_family_background,w3agemp,DV: Age of main parent,-92.0,Refused
+1120169,NEXTSTEP,ns3_family_background,w3agemp,DV: Age of main parent,-91.0,Not applicable
+1120170,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),-999.0,Missing - household data lost
+1120171,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),-98.0,MP not present
+1120172,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),-94.0,Insufficient information
+1120173,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),-92.0,Refused
+1120174,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),-91.0,Not applicable
+1120175,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),-1.0,Don't know
+1120176,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),1.0,16 - 24
+1120177,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),2.0,25 - 29
+1120178,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),3.0,30 - 34
+1120179,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),4.0,35 - 39
+1120180,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),5.0,40 - 44
+1120181,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),6.0,45 - 49
+1120182,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),7.0,50 - 54
+1120183,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),8.0,55 - 59
+1120184,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),9.0,60 - 64
+1120185,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),10.0,65 - 70
+1120186,NEXTSTEP,ns3_family_background,w3agebd5mp,DV: Age of main parent (5 year bands),11.0,70+
+1120187,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),-999.0,Missing - household data lost
+1120188,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),-98.0,MP not present
+1120189,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),-94.0,Insufficient information
+1120190,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),-92.0,Refused
+1120191,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),-91.0,Not applicable
+1120192,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),-1.0,Don't know
+1120193,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),1.0,16 - 24
+1120194,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),2.0,25 - 34
+1120195,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),3.0,35 - 44
+1120196,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),4.0,45 - 54
+1120197,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),5.0,55 - 64
+1120198,NEXTSTEP,ns3_family_background,w3agebd10mp,DV: Age of MP (10 year bands),6.0,65+
+1120199,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,-999.0,Missing - household data lost
+1120200,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,-98.0,MP not present
+1120201,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,-94.0,Insufficient information
+1120202,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,-92.0,Refused
+1120203,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,-91.0,Not applicable
+1120204,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,-1.0,Don't know
+1120205,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,1.0,"Single, that is, never married"
+1120206,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,2.0,Married and living with husband or wife
+1120207,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,3.0,A civil partner in a legally-recognised Civil Partnership
+1120208,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,4.0,Married and separated from husband or wife
+1120209,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,5.0,Divorced
+1120210,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,6.0,Widowed
+1120211,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,7.0,In a legally-recognised Civil Partnership and separated from
+1120212,NEXTSTEP,ns3_family_background,w3marstatmp,DV: Marital status of main parent,8.0,Other
+1120213,NEXTSTEP,ns3_family_background,w3sexmp,DV: Sex of main parent,-999.0,Missing - household data lost
+1120214,NEXTSTEP,ns3_family_background,w3sexmp,DV: Sex of main parent,-98.0,MP not present
+1120215,NEXTSTEP,ns3_family_background,w3sexmp,DV: Sex of main parent,-94.0,Insufficient information
+1120216,NEXTSTEP,ns3_family_background,w3sexmp,DV: Sex of main parent,-92.0,Refused
+1120217,NEXTSTEP,ns3_family_background,w3sexmp,DV: Sex of main parent,-91.0,Not applicable
+1120218,NEXTSTEP,ns3_family_background,w3sexmp,DV: Sex of main parent,1.0,Male
+1120219,NEXTSTEP,ns3_family_background,w3sexmp,DV: Sex of main parent,2.0,Female
+1120220,NEXTSTEP,ns3_family_background,w3wrkagemp,DV: Whether main parent is of working age,-98.0,MP not present
+1120221,NEXTSTEP,ns3_family_background,w3wrkagemp,DV: Whether main parent is of working age,-94.0,Insufficient information
+1120222,NEXTSTEP,ns3_family_background,w3wrkagemp,DV: Whether main parent is of working age,-92.0,Refused
+1120223,NEXTSTEP,ns3_family_background,w3wrkagemp,DV: Whether main parent is of working age,-91.0,not applicable
+1120224,NEXTSTEP,ns3_family_background,w3wrkagemp,DV: Whether main parent is of working age,-1.0,Don't know
+1120225,NEXTSTEP,ns3_family_background,w3wrkagemp,DV: Whether main parent is of working age,0.0,No
+1120226,NEXTSTEP,ns3_family_background,w3wrkagemp,DV: Whether main parent is of working age,1.0,Yes
+1120227,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,-999.0,Missing - household data lost
+1120228,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,-98.0,MP not present
+1120229,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,-94.0,Insufficient information
+1120230,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,-92.0,Refused
+1120231,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,-91.0,Not applicable
+1120232,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,-1.0,Don't know
+1120233,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,8.0,Natural parent
+1120234,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,9.0,Adoptive parent
+1120235,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,10.0,Foster parent
+1120236,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,11.0,Step-parent
+1120237,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,12.0,Parent-in-law/ Partner's parent
+1120238,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,13.0,Natural brother/ sister
+1120239,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,14.0,Half-brother/ -sister
+1120240,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,15.0,Step-brother/ -sister
+1120241,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,16.0,Adopted brother/ sister
+1120242,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,17.0,Foster brother/ Foster sister
+1120243,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,18.0,Brother-in-law/ Sister-in-law
+1120244,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,20.0,Grandparent
+1120245,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,21.0,Other relative
+1120246,NEXTSTEP,ns3_family_background,w3relmp,DV: Main parent's relationship to young person,22.0,Other non-relative
+1120247,NEXTSTEP,ns3_family_background,w3agesp,DV: Age of second parent,-999.0,Missing - household data lost
+1120248,NEXTSTEP,ns3_family_background,w3agesp,DV: Age of second parent,-98.0,SP not present
+1120249,NEXTSTEP,ns3_family_background,w3agesp,DV: Age of second parent,-94.0,Insufficient information
+1120250,NEXTSTEP,ns3_family_background,w3agesp,DV: Age of second parent,-92.0,Refused
+1120251,NEXTSTEP,ns3_family_background,w3agesp,DV: Age of second parent,-91.0,Not applicable
+1120252,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),-999.0,Missing - household data lost
+1120253,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),-98.0,SP not present
+1120254,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),-94.0,Insufficient information
+1120255,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),-92.0,Refused
+1120256,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),-91.0,Not applicable
+1120257,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),-1.0,Don't know
+1120258,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),1.0,16 - 24
+1120259,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),2.0,25 - 29
+1120260,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),3.0,30 - 34
+1120261,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),4.0,35 - 39
+1120262,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),5.0,40 - 44
+1120263,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),6.0,45 - 49
+1120264,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),7.0,50 - 54
+1120265,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),8.0,55 - 59
+1120266,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),9.0,60 - 64
+1120267,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),10.0,65 - 70
+1120268,NEXTSTEP,ns3_family_background,w3agebd5sp,DV: Age of second parent (5 year bands),11.0,70+
+1120269,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),-999.0,Missing - household data lost
+1120270,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),-98.0,SP not present
+1120271,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),-94.0,Insufficient information
+1120272,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),-92.0,Refused
+1120273,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),-91.0,Not applicable
+1120274,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),-1.0,Don't know
+1120275,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),1.0,16 - 24
+1120276,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),2.0,25 - 34
+1120277,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),3.0,35 - 44
+1120278,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),4.0,45 - 54
+1120279,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),5.0,55 - 64
+1120280,NEXTSTEP,ns3_family_background,w3agebd10sp,DV: Age of SP (10 year bands),6.0,65+
+1120281,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,-999.0,Missing - household data lost
+1120282,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,-98.0,SP not present
+1120283,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,-94.0,Insufficient information
+1120284,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,-92.0,Refused
+1120285,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,-91.0,Not applicable
+1120286,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,-1.0,Don't know
+1120287,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,1.0,"Single, that is, never married"
+1120288,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,2.0,Married and living with husband or wife
+1120289,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,3.0,A civil partner in a legally-recognised Civil Partnership
+1120290,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,4.0,Married and separated from husband or wife
+1120291,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,5.0,Divorced
+1120292,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,6.0,Widowed
+1120293,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,7.0,In a legally-recognised Civil Partnership and separated from
+1120294,NEXTSTEP,ns3_family_background,w3marstatsp,DV: Marital status of second parent,8.0,Other
+1120295,NEXTSTEP,ns3_family_background,w3sexsp,DV: Sex of second parent,-999.0,Missing - household data lost
+1120296,NEXTSTEP,ns3_family_background,w3sexsp,DV: Sex of second parent,-98.0,SP not present
+1120297,NEXTSTEP,ns3_family_background,w3sexsp,DV: Sex of second parent,-94.0,Insufficient information
+1120298,NEXTSTEP,ns3_family_background,w3sexsp,DV: Sex of second parent,-92.0,Refused
+1120299,NEXTSTEP,ns3_family_background,w3sexsp,DV: Sex of second parent,-91.0,Not applicable
+1120300,NEXTSTEP,ns3_family_background,w3sexsp,DV: Sex of second parent,1.0,Male
+1120301,NEXTSTEP,ns3_family_background,w3sexsp,DV: Sex of second parent,2.0,Female
+1120302,NEXTSTEP,ns3_family_background,w3wrkagesp,DV: Whether second parent is of working age,-98.0,SP not present
+1120303,NEXTSTEP,ns3_family_background,w3wrkagesp,DV: Whether second parent is of working age,-94.0,Insufficient information
+1120304,NEXTSTEP,ns3_family_background,w3wrkagesp,DV: Whether second parent is of working age,-92.0,Refused
+1120305,NEXTSTEP,ns3_family_background,w3wrkagesp,DV: Whether second parent is of working age,-91.0,not applicable
+1120306,NEXTSTEP,ns3_family_background,w3wrkagesp,DV: Whether second parent is of working age,-1.0,Don't know
+1120307,NEXTSTEP,ns3_family_background,w3wrkagesp,DV: Whether second parent is of working age,0.0,No
+1120308,NEXTSTEP,ns3_family_background,w3wrkagesp,DV: Whether second parent is of working age,1.0,Yes
+1120309,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,17.0,Foster brother/ Foster sister
+1120310,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,18.0,Brother-in-law/ Sister-in-law
+1120311,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,20.0,Grandparent
+1120312,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,21.0,Other relative
+1120313,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,22.0,Other non-relative
+1120314,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,-999.0,Missing - household data lost
+1120315,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,-98.0,SP not present
+1120316,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,-94.0,Insufficient information
+1120317,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,-92.0,Refused
+1120318,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,-91.0,Not applicable
+1120319,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,-1.0,Don't know
+1120320,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,8.0,Natural parent
+1120321,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,9.0,Adoptive parent
+1120322,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,10.0,Foster parent
+1120323,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,11.0,Step-parent
+1120324,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,12.0,Parent-in-law/ Partner's parent
+1120325,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,13.0,Natural brother/ sister
+1120326,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,14.0,Half-brother/ -sister
+1120327,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,15.0,Step-brother/ -sister
+1120328,NEXTSTEP,ns3_family_background,w3relsp,DV: Second parent's relationship to young person,16.0,Adopted brother/ sister
+1120329,NEXTSTEP,ns3_family_background,w3agemum,DV: Age of YP's mother,-999.0,Missing - household data lost
+1120330,NEXTSTEP,ns3_family_background,w3agemum,DV: Age of YP's mother,-98.0,Mother not present
+1120331,NEXTSTEP,ns3_family_background,w3agemum,DV: Age of YP's mother,-94.0,Insufficient information
+1120332,NEXTSTEP,ns3_family_background,w3agemum,DV: Age of YP's mother,-92.0,Refused
+1120333,NEXTSTEP,ns3_family_background,w3agemum,DV: Age of YP's mother,-91.0,Not applicable
+1120334,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),-999.0,Missing - household data lost
+1120335,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),-98.0,Mother not present
+1120336,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),-94.0,Insufficient information
+1120337,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),-92.0,Refused
+1120338,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),-91.0,Not applicable
+1120339,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),-1.0,Don't know
+1120340,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),1.0,16 - 24
+1120341,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),2.0,25 - 29
+1120342,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),3.0,30 - 34
+1120343,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),4.0,35 - 39
+1120344,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),5.0,40 - 44
+1120345,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),6.0,45 - 49
+1120346,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),7.0,50 - 54
+1120347,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),8.0,55 - 59
+1120348,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),9.0,60 - 64
+1120349,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),10.0,65 - 70
+1120350,NEXTSTEP,ns3_family_background,w3agebd5mum,DV: Age of YP's mother (5 year bands),11.0,70+
+1120351,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),-999.0,Missing - household data lost
+1120352,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),-98.0,Mother not present
+1120353,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),-94.0,Insufficient information
+1120354,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),-92.0,Refused
+1120355,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),-91.0,Not applicable
+1120356,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),-1.0,Don't know
+1120357,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),1.0,16 - 24
+1120358,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),2.0,25 - 34
+1120359,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),3.0,35 - 44
+1120360,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),4.0,45 - 54
+1120361,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),5.0,55 - 64
+1120362,NEXTSTEP,ns3_family_background,w3agebd10mum,DV: Age of YP's mother (10 year bands),6.0,65+
+1120363,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,-999.0,Missing - household data lost
+1120364,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,-98.0,Mother not present
+1120365,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,-94.0,Insufficient information
+1120366,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,-92.0,Refused
+1120367,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,-91.0,Not applicable
+1120368,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,-1.0,Don't know
+1120369,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,1.0,"Single, that is, never married"
+1120370,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,2.0,Married and living with husband or wife
+1120371,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,3.0,A civil partner in a legally-recognised Civil Partnership
+1120372,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,4.0,Married and separated from husband or wife
+1120373,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,5.0,Divorced
+1120374,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,6.0,Widowed
+1120375,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,7.0,In a legally-recognised Civil Partnership and separated from
+1120376,NEXTSTEP,ns3_family_background,w3marstatmum,DV: Marital status of young person's mother,8.0,Other
+1120377,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,-999.0,Missing - household data lost
+1120378,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,-98.0,Mother not present
+1120379,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,-94.0,Insufficient information
+1120380,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,-92.0,Refused
+1120381,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,-91.0,not applicable
+1120382,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,-1.0,Don't know
+1120383,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,0.0,No
+1120384,NEXTSTEP,ns3_family_background,w3wrkagemum,DV: Whether mother is of working age,1.0,Yes
+1120385,NEXTSTEP,ns3_family_background,w3agedad,DV: Age of YP's father,-999.0,Missing - household data lost
+1120386,NEXTSTEP,ns3_family_background,w3agedad,DV: Age of YP's father,-98.0,Father not present
+1120387,NEXTSTEP,ns3_family_background,w3agedad,DV: Age of YP's father,-94.0,Insufficient information
+1120388,NEXTSTEP,ns3_family_background,w3agedad,DV: Age of YP's father,-92.0,Refused
+1120389,NEXTSTEP,ns3_family_background,w3agedad,DV: Age of YP's father,-91.0,Not applicable
+1120390,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),-999.0,Missing - household data lost
+1120391,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),-98.0,Father not present
+1120392,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),-94.0,Insufficient information
+1120393,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),-92.0,Refused
+1120394,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),-91.0,Not applicable
+1120395,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),-1.0,Don't know
+1120396,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),1.0,16 - 24
+1120397,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),2.0,25 - 29
+1120398,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),3.0,30 - 34
+1120399,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),4.0,35 - 39
+1120400,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),5.0,40 - 44
+1120401,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),6.0,45 - 49
+1120402,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),7.0,50 - 54
+1120403,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),8.0,55 - 59
+1120404,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),9.0,60 - 64
+1120405,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),10.0,65 - 70
+1120406,NEXTSTEP,ns3_family_background,w3agebd5dad,DV: Age of YP's father (5 year bands),11.0,70+
+1120407,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),-94.0,Insufficient information
+1120408,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),-92.0,Refused
+1120409,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),-91.0,Not applicable
+1120410,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),-1.0,Don't know
+1120411,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),1.0,16 - 24
+1120412,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),2.0,25 - 34
+1120413,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),3.0,35 - 44
+1120414,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),4.0,45 - 54
+1120415,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),5.0,55 - 64
+1120416,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),6.0,65+
+1120417,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),-999.0,Missing - household data lost
+1120418,NEXTSTEP,ns3_family_background,w3agebd10dad,DV: Age of YP's father (10 year bands),-98.0,Father not present
+1120419,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,-999.0,Missing - household data lost
+1120420,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,-98.0,Father not present
+1120421,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,-94.0,Insufficient information
+1120422,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,-92.0,Refused
+1120423,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,-91.0,Not applicable
+1120424,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,-1.0,Don't know
+1120425,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,1.0,"Single, that is, never married"
+1120426,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,2.0,Married and living with husband or wife
+1120427,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,3.0,A civil partner in a legally-recognised Civil Partnership
+1120428,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,4.0,Married and separated from husband or wife
+1120429,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,5.0,Divorced
+1120430,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,6.0,Widowed
+1120431,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,7.0,In a legally-recognised Civil Partnership and separated from
+1120432,NEXTSTEP,ns3_family_background,w3marstatdad,DV: Marital status of young person's father,8.0,Other
+1120433,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,-999.0,Missing - household data lost
+1120434,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,-98.0,Father not present
+1120435,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,-94.0,Insufficient information
+1120436,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,-92.0,Refused
+1120437,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,-91.0,not applicable
+1120438,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,-1.0,Don't know
+1120439,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,0.0,No
+1120440,NEXTSTEP,ns3_family_background,w3wrkagedad,DV: Whether father is of working age,1.0,Yes
+1120441,NEXTSTEP,ns3_family_background,w3depkids,DV: No of dependent children in household,-999.0,Missing - household data lost
+1120442,NEXTSTEP,ns3_family_background,w3depkids,DV: No of dependent children in household,-94.0,Insufficient information
+1120443,NEXTSTEP,ns3_family_background,w3ch0_2hh,DV: Number of children aged 0 - 2 in household,-999.0,Missing - household data lost
+1120444,NEXTSTEP,ns3_family_background,w3ch0_2hh,DV: Number of children aged 0 - 2 in household,-94.0,Insufficient information
+1120445,NEXTSTEP,ns3_family_background,w3ch3_11hh,DV: Number of children aged 3 - 11 in household,-999.0,Missing - household data lost
+1120446,NEXTSTEP,ns3_family_background,w3ch3_11hh,DV: Number of children aged 3 - 11 in household,-94.0,Insufficient information
+1120447,NEXTSTEP,ns3_family_background,w3ch12_15hh,DV: Number of children aged 12 - 15 in household,-999.0,Missing - household data lost
+1120448,NEXTSTEP,ns3_family_background,w3ch12_15hh,DV: Number of children aged 12 - 15 in household,-94.0,Insufficient information
+1120449,NEXTSTEP,ns3_family_background,w3ch16_17hh,DV: Number of children aged 16 - 17 in household,-999.0,Missing - household data lost
+1120450,NEXTSTEP,ns3_family_background,w3ch16_17hh,DV: Number of children aged 16 - 17 in household,-94.0,Insufficient information
+1120451,NEXTSTEP,ns3_family_background,w3natparhh,DV: Whether YP lives with natural parents,-999.0,Missing - household data lost
+1120452,NEXTSTEP,ns3_family_background,w3natparhh,DV: Whether YP lives with natural parents,0.0,YP does not live with natural parents
+1120453,NEXTSTEP,ns3_family_background,w3natparhh,DV: Whether YP lives with natural parents,1.0,YP lives with 1 natural parent
+1120454,NEXTSTEP,ns3_family_background,w3natparhh,DV: Whether YP lives with natural parents,2.0,YP lives with both natural parents
+1120455,NEXTSTEP,ns3_family_background,w3stepfam,DV: Whether household is a step family,-999.0,Missing - household data lost
+1120456,NEXTSTEP,ns3_family_background,w3stepfam,DV: Whether household is a step family,-94.0,Insufficient information
+1120457,NEXTSTEP,ns3_family_background,w3stepfam,DV: Whether household is a step family,0.0,No
+1120458,NEXTSTEP,ns3_family_background,w3stepfam,DV: Whether household is a step family,1.0,Yes
+1120459,NEXTSTEP,ns3_family_background,w3famtyp,DV: Family composition,-999.0,Missing - household data lost
+1120460,NEXTSTEP,ns3_family_background,w3famtyp,DV: Family composition,-94.0,Insufficient information
+1120461,NEXTSTEP,ns3_family_background,w3famtyp,DV: Family composition,1.0,Married couple
+1120462,NEXTSTEP,ns3_family_background,w3famtyp,DV: Family composition,2.0,Cohabiting couple
+1120463,NEXTSTEP,ns3_family_background,w3famtyp,DV: Family composition,3.0,Lone father
+1120464,NEXTSTEP,ns3_family_background,w3famtyp,DV: Family composition,4.0,Lone mother
+1120465,NEXTSTEP,ns3_family_background,w3famtyp,DV: Family composition,5.0,No parents in the household
+1120466,NEXTSTEP,ns3_family_background,w3lnpar,DV: Whether lone parent family or not,-999.0,Missing household data - lost
+1120467,NEXTSTEP,ns3_family_background,w3lnpar,DV: Whether lone parent family or not,-94.0,Insufficient information
+1120468,NEXTSTEP,ns3_family_background,w3lnpar,DV: Whether lone parent family or not,1.0,Yes
+1120469,NEXTSTEP,ns3_family_background,w3lnpar,DV: Whether lone parent family or not,2.0,No
+1120470,NEXTSTEP,ns3_family_background,w3sibs,DV: Number of siblings to young person in the household,-999.0,Missing - household data lost
+1120471,NEXTSTEP,ns3_family_background,w3sibs,DV: Number of siblings to young person in the household,-94.0,Insufficient information
+1120472,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),-94.0,Insufficient information
+1120473,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),1.0,Urban >= 10k - sparse
+1120474,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),2.0,Town & Fringe - sparse
+1120475,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),3.0,Village - sparse
+1120476,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),4.0,Hamlet and Isolated Dwelling - sparse
+1120477,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),5.0,Urban >= 10k - less sparse
+1120478,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),6.0,Town & Fringe - less sparse
+1120479,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),7.0,Village - less sparse
+1120480,NEXTSTEP,ns3_family_background,urbind,Urban/Rural Indicator (England),8.0,Hamlet & Isolated Dwelling
+1120481,NEXTSTEP,ns3_family_background,gor,Government Office Region,-94.0,Insufficient information
+1120482,NEXTSTEP,ns3_family_background,gor,Government Office Region,1.0,North East
+1120483,NEXTSTEP,ns3_family_background,gor,Government Office Region,2.0,North West
+1120484,NEXTSTEP,ns3_family_background,gor,Government Office Region,3.0,Yorkshire and The Humber
+1120485,NEXTSTEP,ns3_family_background,gor,Government Office Region,4.0,East Midlands
+1120486,NEXTSTEP,ns3_family_background,gor,Government Office Region,5.0,West Midlands
+1120487,NEXTSTEP,ns3_family_background,gor,Government Office Region,6.0,East of England
+1120488,NEXTSTEP,ns3_family_background,gor,Government Office Region,7.0,London
+1120489,NEXTSTEP,ns3_family_background,gor,Government Office Region,8.0,South East
+1120490,NEXTSTEP,ns3_family_background,gor,Government Office Region,9.0,South West
+1120491,NEXTSTEP,ns3_family_background,idacirscore,2004 IDACI (Income Deprivation Affecting Children Index) ROUNDED SCORE,-94.0,Insufficient Information
+1120492,NEXTSTEP,ns3_family_background,imdrscore,2004 Index of Multiple Deprivation ROUNDED SCORE,-94.0,Insufficient Information
+1120493,NEXTSTEP,ns3_family_background,v3,None,,
+1120494,NEXTSTEP,ns3_family_background,avail_from_dt,,,

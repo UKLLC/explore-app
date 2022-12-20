@@ -1,0 +1,649 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1112499,NEXTSTEP,ns2_parental_attitudes,study_id_e,,,
+1112500,NEXTSTEP,ns2_parental_attitudes,samppsu,Sampling: School (primary sampling unit),,
+1112501,NEXTSTEP,ns2_parental_attitudes,sampstratum,Sampling: Stratum,,
+1112502,NEXTSTEP,ns2_parental_attitudes,w2finwt,Weight: W2 final weight (w1 final weight * w2 non-response weight),,
+1112503,NEXTSTEP,ns2_parental_attitudes,w2intmonthmp,Admin: MP month of interview,,
+1112504,NEXTSTEP,ns2_parental_attitudes,w2intyearmp,Admin: MP year of interview,,
+1112505,NEXTSTEP,ns2_parental_attitudes,w2intmonthsp,Admin: SP month of interview,,
+1112506,NEXTSTEP,ns2_parental_attitudes,w2intyearsp,Admin: SP year of interview,,
+1112507,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-998.0,Interviewer missed question
+1112508,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-997.0,Script error
+1112509,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-995.0, Missing history section data - unexplained
+1112510,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-99.0,MP not interviewed
+1112511,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-92.0,Refused
+1112512,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-91.0,Not applicable
+1112513,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-1.0,Don't Know
+1112514,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,1.0,Yes - respondent and partner/ husband/ wife have gone
+1112515,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,2.0,Yes - respondent went alone
+1112516,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,3.0,Yes - respondent's partner/ husband/ wife went alone
+1112517,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,4.0,Yes - Respondent and EX-partner/husband/wife have gone
+1112518,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,5.0,Yes - Respondent's EX-partner/husband/wife went alone
+1112519,NEXTSTEP,ns2_parental_attitudes,w2parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,6.0,No - nobody has been
+1112520,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-998.0,Interviewer missed question
+1112521,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-997.0,Script error
+1112522,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-995.0, Missing history section data - unexplained
+1112523,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-99.0,MP not interviewed
+1112524,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-92.0,Refused
+1112525,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-91.0,Not applicable
+1112526,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-1.0,Don't Know
+1112527,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,1.0,Yes
+1112528,NEXTSTEP,ns2_parental_attitudes,w2tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,2.0,No
+1112529,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,-998.0,Interviewer missed question
+1112530,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,-997.0,Script error
+1112531,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,-995.0, Missing history section data - unexplained
+1112532,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,-99.0,MP not interviewed
+1112533,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,-92.0,Refused
+1112534,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,-91.0,Not applicable
+1112535,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,-1.0,Don't Know
+1112536,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,1.0,At least once a week
+1112537,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,2.0,Every two or three weeks
+1112538,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,3.0,At least once a term
+1112539,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,4.0,Less often than once a term
+1112540,NEXTSTEP,ns2_parental_attitudes,w2tspeakmp,MP: How often speak to YP's teachers about schooling,5.0,Never
+1112541,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,-998.0,Interviewer missed question
+1112542,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,-997.0,Script error
+1112543,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,-995.0, Missing history section data - unexplained
+1112544,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,-99.0,MP not interviewed
+1112545,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,-92.0,Refused
+1112546,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,-91.0,Not applicable
+1112547,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,-1.0,Don't Know
+1112548,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,1.0,Very involved
+1112549,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,2.0,Fairly involved
+1112550,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,3.0,Not very involved
+1112551,NEXTSTEP,ns2_parental_attitudes,w2schlifmp,MP: How  involved does MP personally feel in YP's school life,4.0,or Not at all involved?
+1112552,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,-998.0,Interviewer missed question
+1112553,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,-997.0,Script error
+1112554,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,-995.0, Missing history section data - unexplained
+1112555,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,-99.0,MP not interviewed
+1112556,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,-92.0,Refused
+1112557,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,-91.0,Not applicable
+1112558,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,-1.0,Don't Know
+1112559,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,1.0,Yes
+1112560,NEXTSTEP,ns2_parental_attitudes,w2vocs1mp,MP: Whether MP talked to YP about YP doing vocational subjects,2.0,No
+1112561,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,-998.0,Interviewer missed question
+1112562,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,-997.0,Script error
+1112563,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,-995.0, Missing history section data - unexplained
+1112564,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,-99.0,MP not interviewed
+1112565,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,-92.0,Refused
+1112566,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,-91.0,Not applicable
+1112567,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,-1.0,Don't Know
+1112568,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,1.0,Yes
+1112569,NEXTSTEP,ns2_parental_attitudes,w2vocs2mp,MP: Whether MP talked to teachers about YP doing vocational subjects,2.0,No
+1112570,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-998.0,Interviewer missed question
+1112571,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-997.0,Script error
+1112572,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-995.0, Missing history section data - unexplained
+1112573,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-99.0,MP not interviewed
+1112574,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-92.0,Refused
+1112575,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-91.0,Not applicable
+1112576,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-1.0,Don't Know
+1112577,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,1.0,Yes
+1112578,NEXTSTEP,ns2_parental_attitudes,w2extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,2.0,No
+1112579,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-998.0,Interviewer missed question
+1112580,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-997.0,Script error
+1112581,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-995.0, Missing history section data - unexplained
+1112582,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-99.0,MP not interviewed
+1112583,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-92.0,Refused
+1112584,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-91.0,Not applicable
+1112585,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-1.0,Don't Know
+1112586,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,0.0,Not mentioned
+1112587,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,1.0,Mentioned
+1112588,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-998.0,Interviewer missed question
+1112589,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-997.0,Script error
+1112590,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-995.0, Missing history section data - unexplained
+1112591,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-99.0,MP not interviewed
+1112592,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-92.0,Refused
+1112593,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-91.0,Not applicable
+1112594,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-1.0,Don't Know
+1112595,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,0.0,Not mentioned
+1112596,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,1.0,Mentioned
+1112597,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-998.0,Interviewer missed question
+1112598,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-997.0,Script error
+1112599,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-995.0, Missing history section data - unexplained
+1112600,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-99.0,MP not interviewed
+1112601,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-92.0,Refused
+1112602,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-91.0,Not applicable
+1112603,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-1.0,Don't Know
+1112604,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,0.0,Not mentioned
+1112605,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,1.0,Mentioned
+1112606,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-998.0,Interviewer missed question
+1112607,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-997.0,Script error
+1112608,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-995.0, Missing history section data - unexplained
+1112609,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-99.0,MP not interviewed
+1112610,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-92.0,Refused
+1112611,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-91.0,Not applicable
+1112612,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-1.0,Don't Know
+1112613,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,0.0,Not mentioned
+1112614,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,1.0,Mentioned
+1112615,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-998.0,Interviewer missed question
+1112616,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-997.0,Script error
+1112617,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-995.0, Missing history section data - unexplained
+1112618,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-99.0,MP not interviewed
+1112619,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-92.0,Refused
+1112620,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-91.0,Not applicable
+1112621,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-1.0,Don't Know
+1112622,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,0.0,Not mentioned
+1112623,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,1.0,Mentioned
+1112624,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-998.0,Interviewer missed question
+1112625,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-997.0,Script error
+1112626,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-995.0, Missing history section data - unexplained
+1112627,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-99.0,MP not interviewed
+1112628,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-92.0,Refused
+1112629,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-91.0,Not applicable
+1112630,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-1.0,Don't Know
+1112631,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,0.0,Not mentioned
+1112632,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,1.0,Mentioned
+1112633,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-998.0,Interviewer missed question
+1112634,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-997.0,Script error
+1112635,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-995.0, Missing history section data - unexplained
+1112636,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-99.0,MP not interviewed
+1112637,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-92.0,Refused
+1112638,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-91.0,Not applicable
+1112639,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-1.0,Don't Know
+1112640,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,0.0,Not mentioned
+1112641,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,1.0,Mentioned
+1112642,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-998.0,Interviewer missed question
+1112643,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-997.0,Script error
+1112644,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-995.0, Missing history section data - unexplained
+1112645,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-99.0,MP not interviewed
+1112646,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-92.0,Refused
+1112647,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-91.0,Not applicable
+1112648,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-1.0,Don't Know
+1112649,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,0.0,Not mentioned
+1112650,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,1.0,Mentioned
+1112651,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-998.0,Interviewer missed question
+1112652,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-997.0,Script error
+1112653,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-995.0, Missing history section data - unexplained
+1112654,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-99.0,MP not interviewed
+1112655,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-92.0,Refused
+1112656,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-91.0,Not applicable
+1112657,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-1.0,Don't Know
+1112658,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,0.0,Not mentioned
+1112659,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,1.0,Mentioned
+1112660,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-998.0,Interviewer missed question
+1112661,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-997.0,Script error
+1112662,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-995.0, Missing history section data - unexplained
+1112663,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-99.0,MP not interviewed
+1112664,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-92.0,Refused
+1112665,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-91.0,Not applicable
+1112666,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-1.0,Don't Know
+1112667,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,0.0,Not mentioned
+1112668,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,1.0,Mentioned
+1112669,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,-998.0,Interviewer missed question
+1112670,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,-997.0,Script error
+1112671,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,-995.0, Missing history section data - unexplained
+1112672,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,-99.0,MP not interviewed
+1112673,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,-92.0,Refused
+1112674,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,-91.0,Not applicable
+1112675,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,-1.0,Don't Know
+1112676,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,0.0,Not mentioned
+1112677,NEXTSTEP,ns2_parental_attitudes,w2extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other,1.0,Mentioned
+1112678,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,-998.0,Interviewer missed question
+1112679,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,-997.0,Script error
+1112680,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,-995.0, Missing history section data - unexplained
+1112681,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,-99.0,MP not interviewed
+1112682,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,-92.0,Refused
+1112683,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,-91.0,Not applicable
+1112684,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,-1.0,Don't Know
+1112685,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,1.0,Three or four times a week or more
+1112686,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,2.0,Twice a week
+1112687,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,3.0,Once a week
+1112688,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,4.0,Less than once a week?
+1112689,NEXTSTEP,ns2_parental_attitudes,w2extrtu3mp,MP: Frequency of additional private lessons over last 12 months,5.0,Once only (code only if mentioned spontaneously)
+1112690,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,-998.0,Interviewer missed question
+1112691,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,-997.0,Script error
+1112692,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,-995.0, Missing history section data - unexplained
+1112693,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,-99.0,MP not interviewed
+1112694,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,-92.0,Refused
+1112695,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,-91.0,Not applicable
+1112696,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,-1.0,Don't Know
+1112697,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,1.0,Yes
+1112698,NEXTSTEP,ns2_parental_attitudes,w2extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects,2.0,No
+1112699,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-998.0,Interviewer missed question
+1112700,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-997.0,Script error
+1112701,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-995.0, Missing history section data - unexplained
+1112702,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-99.0,MP not interviewed
+1112703,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-92.0,Refused
+1112704,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-91.0,Not applicable
+1112705,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-1.0,Don't Know
+1112706,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,0.0,Not mentioned
+1112707,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,1.0,Mentioned
+1112708,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-998.0,Interviewer missed question
+1112709,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-997.0,Script error
+1112710,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-995.0, Missing history section data - unexplained
+1112711,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-99.0,MP not interviewed
+1112712,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-92.0,Refused
+1112713,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-91.0,Not applicable
+1112714,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-1.0,Don't Know
+1112715,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,0.0,Not mentioned
+1112716,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,1.0,Mentioned
+1112717,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-998.0,Interviewer missed question
+1112718,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-997.0,Script error
+1112719,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-995.0, Missing history section data - unexplained
+1112720,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-99.0,MP not interviewed
+1112721,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-92.0,Refused
+1112722,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-91.0,Not applicable
+1112723,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-1.0,Don't Know
+1112724,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,0.0,Not mentioned
+1112725,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,1.0,Mentioned
+1112726,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-998.0,Interviewer missed question
+1112727,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-997.0,Script error
+1112728,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-995.0, Missing history section data - unexplained
+1112729,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-99.0,MP not interviewed
+1112730,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-92.0,Refused
+1112731,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-91.0,Not applicable
+1112732,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-1.0,Don't Know
+1112733,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,0.0,Not mentioned
+1112734,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,1.0,Mentioned
+1112735,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-998.0,Interviewer missed question
+1112736,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-997.0,Script error
+1112737,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-995.0, Missing history section data - unexplained
+1112738,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-99.0,MP not interviewed
+1112739,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-92.0,Refused
+1112740,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-91.0,Not applicable
+1112741,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-1.0,Don't Know
+1112742,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,0.0,Not mentioned
+1112743,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,1.0,Mentioned
+1112744,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-92.0,Refused
+1112745,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-91.0,Not applicable
+1112746,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-1.0,Don't Know
+1112747,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,0.0,Not mentioned
+1112748,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,1.0,Mentioned
+1112749,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-998.0,Interviewer missed question
+1112750,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-997.0,Script error
+1112751,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-995.0, Missing history section data - unexplained
+1112752,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-99.0,MP not interviewed
+1112753,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-998.0,Interviewer missed question
+1112754,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-997.0,Script error
+1112755,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-995.0, Missing history section data - unexplained
+1112756,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-99.0,MP not interviewed
+1112757,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-92.0,Refused
+1112758,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-91.0,Not applicable
+1112759,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-1.0,Don't Know
+1112760,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,0.0,Not mentioned
+1112761,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,1.0,Mentioned
+1112762,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-998.0,Interviewer missed question
+1112763,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-997.0,Script error
+1112764,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-995.0, Missing history section data - unexplained
+1112765,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-99.0,MP not interviewed
+1112766,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-92.0,Refused
+1112767,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-91.0,Not applicable
+1112768,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-1.0,Don't Know
+1112769,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,0.0,Not mentioned
+1112770,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,1.0,Mentioned
+1112771,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-998.0,Interviewer missed question
+1112772,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-997.0,Script error
+1112773,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-995.0, Missing history section data - unexplained
+1112774,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-99.0,MP not interviewed
+1112775,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-92.0,Refused
+1112776,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-91.0,Not applicable
+1112777,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-1.0,Don't Know
+1112778,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,0.0,Not mentioned
+1112779,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,1.0,Mentioned
+1112780,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-998.0,Interviewer missed question
+1112781,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-997.0,Script error
+1112782,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-995.0, Missing history section data - unexplained
+1112783,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-99.0,MP not interviewed
+1112784,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-92.0,Refused
+1112785,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-91.0,Not applicable
+1112786,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-1.0,Don't Know
+1112787,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,0.0,Not mentioned
+1112788,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,1.0,Mentioned
+1112789,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,-998.0,Interviewer missed question
+1112790,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,-997.0,Script error
+1112791,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,-995.0, Missing history section data - unexplained
+1112792,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,-99.0,MP not interviewed
+1112793,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,-92.0,Refused
+1112794,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,-91.0,Not applicable
+1112795,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,-1.0,Don't Know
+1112796,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,0.0,Not mentioned
+1112797,NEXTSTEP,ns2_parental_attitudes,w2extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other,1.0,Mentioned
+1112798,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-998.0,Interviewer missed question
+1112799,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-997.0,Script error
+1112800,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-995.0, Missing history section data - unexplained
+1112801,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-99.0,MP not interviewed
+1112802,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-92.0,Refused
+1112803,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-91.0,Not applicable
+1112804,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-1.0,Don't Know
+1112805,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,1.0,Three or four times a week or more
+1112806,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,2.0,Twice a week
+1112807,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,3.0,Once a week
+1112808,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,4.0,Less than once a week?
+1112809,NEXTSTEP,ns2_parental_attitudes,w2extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,5.0,Once only (code only if mentioned spontaneously)
+1112810,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,-998.0,Interviewer missed question
+1112811,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,-997.0,Script error
+1112812,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,-995.0, Missing history section data - unexplained
+1112813,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,-99.0,MP not interviewed
+1112814,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,-92.0,Refused
+1112815,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,-91.0,Not applicable
+1112816,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,-1.0,Don't Know
+1112817,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,1.0,Continue in full time education
+1112818,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,2.0,Start learning a trade / Get a place on a training course
+1112819,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,3.0,Start an apprenticeship
+1112820,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,4.0,Get a full-time paid job (either as an employee or self-empl
+1112821,NEXTSTEP,ns2_parental_attitudes,w2parasp2mp,MP: What would like YP to do when reach school leaving age,5.0,Something else?
+1112822,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,-998.0,Interviewer missed question
+1112823,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,-997.0,Script error
+1112824,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,-995.0, Missing history section data - unexplained
+1112825,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,-99.0,MP not interviewed
+1112826,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,-92.0,Refused
+1112827,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,-91.0,Not applicable
+1112828,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,-1.0,Don't Know
+1112829,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,1.0,Continue in full time education
+1112830,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,2.0,Start learning a trade / Get a place on a training course
+1112831,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,3.0,Start an apprenticeship
+1112832,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,4.0,Get a full-time paid job (either as an employee or self-empl
+1112833,NEXTSTEP,ns2_parental_attitudes,w2parasp1mp,MP: What think YP will do when reaches school leaving age,5.0,Something else?
+1112834,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-998.0,Interviewer missed question
+1112835,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-997.0,Script error
+1112836,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-995.0, Missing history section data - unexplained
+1112837,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-99.0,MP not interviewed
+1112838,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-92.0,Refused
+1112839,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-91.0,Not applicable
+1112840,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-1.0,Don't Know
+1112841,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,1.0,Yes
+1112842,NEXTSTEP,ns2_parental_attitudes,w2jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,2.0,No
+1112843,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,-998.0,Interviewer missed question
+1112844,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,-997.0,Script error
+1112845,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,-995.0, Missing history section data - unexplained
+1112846,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,-99.0,MP not interviewed
+1112847,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,-92.0,Refused
+1112848,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,-91.0,Not applicable
+1112849,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,-1.0,Don't Know
+1112850,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,1.0,Yes
+1112851,NEXTSTEP,ns2_parental_attitudes,w2awaremamp,MP: Whether MP aware of EMA before interview,2.0,No
+1112852,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,-998.0,Interviewer missed question
+1112853,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,-997.0,Script error
+1112854,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,-995.0, Missing history section data - unexplained
+1112855,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,-99.0,MP not interviewed
+1112856,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,-92.0,Refused
+1112857,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,-91.0,Not applicable
+1112858,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,-1.0,Don't Know
+1112859,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,1.0,Yes
+1112860,NEXTSTEP,ns2_parental_attitudes,w2emagetmp,MP: Whether think YP would be eligible for EMA if stayed on in education,2.0,No
+1112861,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,-998.0,Interviewer missed question
+1112862,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,-997.0,Script error
+1112863,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,-995.0, Missing history section data - unexplained
+1112864,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,-99.0,MP not interviewed
+1112865,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,-92.0,Refused
+1112866,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,-91.0,Not applicable
+1112867,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,-1.0,Don't Know
+1112868,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,0.0,Not mentioned
+1112869,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0a,MP: Why think YP would not be eligible for EMA - Household income too high,1.0,Mentioned
+1112870,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,-998.0,Interviewer missed question
+1112871,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,-997.0,Script error
+1112872,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,-995.0, Missing history section data - unexplained
+1112873,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,-99.0,MP not interviewed
+1112874,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,-92.0,Refused
+1112875,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,-91.0,Not applicable
+1112876,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,-1.0,Don't Know
+1112877,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,0.0,Not mentioned
+1112878,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0b,MP: Why think YP would not be eligible for EMA - YP will be doing A levels,1.0,Mentioned
+1112879,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,-998.0,Interviewer missed question
+1112880,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,-997.0,Script error
+1112881,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,-995.0, Missing history section data - unexplained
+1112882,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,-99.0,MP not interviewed
+1112883,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,-92.0,Refused
+1112884,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,-91.0,Not applicable
+1112885,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,-1.0,Don't Know
+1112886,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,0.0,Not mentioned
+1112887,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0c,MP: Why think YP would not be eligible for EMA - YP will be doing vocational courses,1.0,Mentioned
+1112888,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,-998.0,Interviewer missed question
+1112889,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,-997.0,Script error
+1112890,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,-995.0, Missing history section data - unexplained
+1112891,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,-99.0,MP not interviewed
+1112892,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,-92.0,Refused
+1112893,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,-91.0,Not applicable
+1112894,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,-1.0,Don't Know
+1112895,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,0.0,Not mentioned
+1112896,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0d,MP: Why think YP would not be eligible for EMA - Existing household benefits,1.0,Mentioned
+1112897,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,-998.0,Interviewer missed question
+1112898,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,-997.0,Script error
+1112899,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,-995.0, Missing history section data - unexplained
+1112900,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,-99.0,MP not interviewed
+1112901,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,-92.0,Refused
+1112902,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,-91.0,Not applicable
+1112903,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,-1.0,Don't Know
+1112904,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,0.0,Not mentioned
+1112905,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0e,MP: Why think YP would not be eligible for EMA - Other,1.0,Mentioned
+1112906,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,-998.0,Interviewer missed question
+1112907,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,-997.0,Script error
+1112908,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,-995.0, Missing history section data - unexplained
+1112909,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,-99.0,MP not interviewed
+1112910,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,-92.0,Refused
+1112911,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,-91.0,Not applicable
+1112912,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,-1.0,Don't Know
+1112913,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,0.0,Not mentioned
+1112914,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0f,MP: Why think YP would not be eligible for EMA - Don't know,1.0,Mentioned
+1112915,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,-998.0,Interviewer missed question
+1112916,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,-997.0,Script error
+1112917,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,-995.0, Missing history section data - unexplained
+1112918,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,-99.0,MP not interviewed
+1112919,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,-92.0,Refused
+1112920,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,-91.0,Not applicable
+1112921,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,-1.0,Don't Know
+1112922,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,0.0,Not mentioned
+1112923,NEXTSTEP,ns2_parental_attitudes,w2emaynotmp0g,MP: Why think YP would not be eligible for EMA - Refused,1.0,Mentioned
+1112924,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-998.0,Interviewer missed question
+1112925,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-997.0,Script error
+1112926,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-995.0, Missing history section data - unexplained
+1112927,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-99.0,MP not interviewed
+1112928,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-92.0,Refused
+1112929,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-91.0,Not applicable
+1112930,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-1.0,Don't Know
+1112931,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,0.0,Not mentioned
+1112932,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,1.0,Mentioned
+1112933,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-998.0,Interviewer missed question
+1112934,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-997.0,Script error
+1112935,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-995.0, Missing history section data - unexplained
+1112936,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-99.0,MP not interviewed
+1112937,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-92.0,Refused
+1112938,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-91.0,Not applicable
+1112939,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-1.0,Don't Know
+1112940,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,0.0,Not mentioned
+1112941,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,1.0,Mentioned
+1112942,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-998.0,Interviewer missed question
+1112943,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-997.0,Script error
+1112944,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-995.0, Missing history section data - unexplained
+1112945,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-99.0,MP not interviewed
+1112946,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-92.0,Refused
+1112947,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-91.0,Not applicable
+1112948,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-1.0,Don't Know
+1112949,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,0.0,Not mentioned
+1112950,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,1.0,Mentioned
+1112951,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-998.0,Interviewer missed question
+1112952,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-997.0,Script error
+1112953,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-995.0, Missing history section data - unexplained
+1112954,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-99.0,MP not interviewed
+1112955,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-92.0,Refused
+1112956,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-91.0,Not applicable
+1112957,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-1.0,Don't Know
+1112958,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,0.0,Not mentioned
+1112959,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,1.0,Mentioned
+1112960,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-998.0,Interviewer missed question
+1112961,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-997.0,Script error
+1112962,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-995.0, Missing history section data - unexplained
+1112963,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-99.0,MP not interviewed
+1112964,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-92.0,Refused
+1112965,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-91.0,Not applicable
+1112966,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-1.0,Don't Know
+1112967,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,0.0,Not mentioned
+1112968,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,1.0,Mentioned
+1112969,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-998.0,Interviewer missed question
+1112970,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-997.0,Script error
+1112971,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-995.0, Missing history section data - unexplained
+1112972,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-99.0,MP not interviewed
+1112973,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-92.0,Refused
+1112974,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-91.0,Not applicable
+1112975,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-1.0,Don't Know
+1112976,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),0.0,Not mentioned
+1112977,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),1.0,Mentioned
+1112978,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-998.0,Interviewer missed question
+1112979,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-997.0,Script error
+1112980,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-995.0, Missing history section data - unexplained
+1112981,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-99.0,MP not interviewed
+1112982,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-92.0,Refused
+1112983,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-91.0,Not applicable
+1112984,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-1.0,Don't Know
+1112985,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,0.0,Not mentioned
+1112986,NEXTSTEP,ns2_parental_attitudes,w2fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,1.0,Mentioned
+1112987,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-997.0,Script error
+1112988,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-995.0, Missing history section data - unexplained
+1112989,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-99.0,MP not interviewed
+1112990,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-92.0,Refused
+1112991,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-91.0,Not applicable
+1112992,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-1.0,Don't Know
+1112993,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,0.0,Not mentioned
+1112994,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,1.0,Mentioned
+1112995,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-998.0,Interviewer missed question
+1112996,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-998.0,Interviewer missed question
+1112997,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-997.0,Script error
+1112998,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-995.0, Missing history section data - unexplained
+1112999,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-99.0,MP not interviewed
+1113000,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-92.0,Refused
+1113001,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-91.0,Not applicable
+1113002,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-1.0,Don't Know
+1113003,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,0.0,Not mentioned
+1113004,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,1.0,Mentioned
+1113005,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-998.0,Interviewer missed question
+1113006,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-997.0,Script error
+1113007,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-995.0, Missing history section data - unexplained
+1113008,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-99.0,MP not interviewed
+1113009,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-92.0,Refused
+1113010,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-91.0,Not applicable
+1113011,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-1.0,Don't Know
+1113012,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,0.0,Not mentioned
+1113013,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,1.0,Mentioned
+1113014,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-998.0,Interviewer missed question
+1113015,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-997.0,Script error
+1113016,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-995.0, Missing history section data - unexplained
+1113017,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-99.0,MP not interviewed
+1113018,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-92.0,Refused
+1113019,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-91.0,Not applicable
+1113020,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-1.0,Don't Know
+1113021,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,0.0,Not mentioned
+1113022,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,1.0,Mentioned
+1113023,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-998.0,Interviewer missed question
+1113024,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-997.0,Script error
+1113025,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-995.0, Missing history section data - unexplained
+1113026,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-99.0,MP not interviewed
+1113027,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-92.0,Refused
+1113028,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-91.0,Not applicable
+1113029,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-1.0,Don't Know
+1113030,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,0.0,Not mentioned
+1113031,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,1.0,Mentioned
+1113032,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-998.0,Interviewer missed question
+1113033,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-997.0,Script error
+1113034,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-995.0, Missing history section data - unexplained
+1113035,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-99.0,MP not interviewed
+1113036,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-92.0,Refused
+1113037,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-91.0,Not applicable
+1113038,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-1.0,Don't Know
+1113039,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),0.0,Not mentioned
+1113040,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),1.0,Mentioned
+1113041,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-998.0,Interviewer missed question
+1113042,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-997.0,Script error
+1113043,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-995.0, Missing history section data - unexplained
+1113044,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-99.0,MP not interviewed
+1113045,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-92.0,Refused
+1113046,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-91.0,Not applicable
+1113047,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-1.0,Don't Know
+1113048,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,0.0,Not mentioned
+1113049,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,1.0,Mentioned
+1113050,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-998.0,Interviewer missed question
+1113051,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-997.0,Script error
+1113052,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-995.0, Missing history section data - unexplained
+1113053,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-99.0,MP not interviewed
+1113054,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-92.0,Refused
+1113055,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-91.0,Not applicable
+1113056,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-1.0,Don't Know
+1113057,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,0.0,Not mentioned
+1113058,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,1.0,Mentioned
+1113059,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-998.0,Interviewer missed question
+1113060,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-997.0,Script error
+1113061,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-995.0, Missing history section data - unexplained
+1113062,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-99.0,MP not interviewed
+1113063,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-92.0,Refused
+1113064,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-91.0,Not applicable
+1113065,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-1.0,Don't Know
+1113066,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),0.0,Not mentioned
+1113067,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),1.0,Mentioned
+1113068,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,-998.0,Interviewer missed question
+1113069,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,-997.0,Script error
+1113070,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,-995.0, Missing history section data - unexplained
+1113071,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,-99.0,MP not interviewed
+1113072,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,-92.0,Refused
+1113073,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,-91.0,Not applicable
+1113074,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,-1.0,Don't Know
+1113075,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,0.0,Not mentioned
+1113076,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0k,MP: What likely to do to help keep YP in education - No answer,1.0,Mentioned
+1113077,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-998.0,Interviewer missed question
+1113078,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-997.0,Script error
+1113079,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-995.0, Missing history section data - unexplained
+1113080,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-99.0,MP not interviewed
+1113081,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-92.0,Refused
+1113082,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-91.0,Not applicable
+1113083,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-1.0,Don't Know
+1113084,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,0.0,Not mentioned
+1113085,NEXTSTEP,ns2_parental_attitudes,w2fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,1.0,Mentioned
+1113086,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,-998.0,Interviewer missed question
+1113087,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,-997.0,Script error
+1113088,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,-995.0, Missing history section data - unexplained
+1113089,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,-99.0,MP not interviewed
+1113090,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,-92.0,Refused
+1113091,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,-91.0,Not applicable
+1113092,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,-1.0,Don't Know
+1113093,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,0.0,Not mentioned
+1113094,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0a,Admin: Who else present during main parent individual interview - Noone else,1.0,Mentioned
+1113095,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,-998.0,Interviewer missed question
+1113096,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,-997.0,Script error
+1113097,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,-995.0, Missing history section data - unexplained
+1113098,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,-99.0,MP not interviewed
+1113099,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,-92.0,Refused
+1113100,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,-91.0,Not applicable
+1113101,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,-1.0,Don't Know
+1113102,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,0.0,Not mentioned
+1113103,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0b,Admin: Who else present during main parent individual interview - Respondent's partner/spouse,1.0,Mentioned
+1113104,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,-998.0,Interviewer missed question
+1113105,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,-997.0,Script error
+1113106,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,-995.0, Missing history section data - unexplained
+1113107,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,-99.0,MP not interviewed
+1113108,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,-92.0,Refused
+1113109,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,-91.0,Not applicable
+1113110,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,-1.0,Don't Know
+1113111,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,0.0,Not mentioned
+1113112,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0c,Admin: Who else present during main parent individual interview - Sampled YP,1.0,Mentioned
+1113113,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,-998.0,Interviewer missed question
+1113114,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,-997.0,Script error
+1113115,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,-995.0, Missing history section data - unexplained
+1113116,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,-99.0,MP not interviewed
+1113117,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,-92.0,Refused
+1113118,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,-91.0,Not applicable
+1113119,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,-1.0,Don't Know
+1113120,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,0.0,Not mentioned
+1113121,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0d,Admin: Who else present during main parent individual interview - Other adult resident,1.0,Mentioned
+1113122,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,-998.0,Interviewer missed question
+1113123,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,-997.0,Script error
+1113124,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,-995.0, Missing history section data - unexplained
+1113125,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,-99.0,MP not interviewed
+1113126,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,-92.0,Refused
+1113127,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,-91.0,Not applicable
+1113128,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,-1.0,Don't Know
+1113129,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,0.0,Not mentioned
+1113130,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0e,Admin: Who else present during main parent individual interview - Other YP resident,1.0,Mentioned
+1113131,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,-998.0,Interviewer missed question
+1113132,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,-997.0,Script error
+1113133,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,-995.0, Missing history section data - unexplained
+1113134,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,-99.0,MP not interviewed
+1113135,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,-92.0,Refused
+1113136,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,-91.0,Not applicable
+1113137,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,-1.0,Don't Know
+1113138,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,0.0,Not mentioned
+1113139,NEXTSTEP,ns2_parental_attitudes,w2ppresmp0f,Admin: Who else present during main parent individual interview - Other non-resident,1.0,Mentioned
+1113140,NEXTSTEP,ns2_parental_attitudes,w2mainres,HH: Position Main parent,2.0,Person 2
+1113141,NEXTSTEP,ns2_parental_attitudes,w2mainres,HH: Position Main parent,3.0,Person 3
+1113142,NEXTSTEP,ns2_parental_attitudes,w2secores,HH: Position Second parent,2.0,Person 2
+1113143,NEXTSTEP,ns2_parental_attitudes,w2secores,HH: Position Second parent,3.0,Person 3
+1113144,NEXTSTEP,ns2_parental_attitudes,w2secores,HH: Position Second parent,4.0,Person 4
+1113145,NEXTSTEP,ns2_parental_attitudes,v3,None,,
+1113146,NEXTSTEP,ns2_parental_attitudes,avail_from_dt,,,

@@ -1,0 +1,286 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+772268,MCS,mcs2_family_derived,bactry00,ADMIN Country at interview (E,1.0,England
+772269,MCS,mcs2_family_derived,bactry00,ADMIN Country at interview (E,2.0,Wales
+772270,MCS,mcs2_family_derived,bactry00,ADMIN Country at interview (E,3.0,Scotland
+772271,MCS,mcs2_family_derived,bactry00,ADMIN Country at interview (E,4.0,Northern Ireland
+772272,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,1.0,North East
+772273,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,2.0,North West
+772274,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,3.0,Yorkshire and the Humber
+772275,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,4.0,East Midlands
+772276,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,5.0,West Midlands
+772277,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,6.0,East of England
+772278,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,7.0,London
+772279,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,8.0,South East
+772280,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,9.0,South West
+772281,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,10.0,Wales
+772282,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,11.0,Scotland
+772283,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,12.0,Northern Ireland
+772284,MCS,mcs2_family_derived,baregn00,Interview Government Office Region,13.0,Not app in IoM Ch Is
+772285,MCS,mcs2_family_derived,bdmint00,Interview Outcome,-1.0,Not applicable
+772286,MCS,mcs2_family_derived,bdmint00,Interview Outcome,1.0,Main interviewed in person
+772287,MCS,mcs2_family_derived,bdmint00,Interview Outcome,2.0,Main eligible but not interviewed
+772288,MCS,mcs2_family_derived,bdmint00,Interview Outcome,3.0,No-one eligible for Main interview
+772289,MCS,mcs2_family_derived,bdmsam00,Respondent same as last sweep,-3.0,New family at MCS2
+772290,MCS,mcs2_family_derived,bdmsam00,Respondent same as last sweep,-1.0,Not applicable
+772291,MCS,mcs2_family_derived,bdmsam00,Respondent same as last sweep,1.0,Same Main respondent
+772292,MCS,mcs2_family_derived,bdmsam00,Respondent same as last sweep,2.0,Different Main respondent
+772293,MCS,mcs2_family_derived,bdmsmi00,Respondent same as last sweep (compared with interviewer),-9.0,Refusal
+772294,MCS,mcs2_family_derived,bdmsmi00,Respondent same as last sweep (compared with interviewer),-1.0,Not applicable
+772295,MCS,mcs2_family_derived,bdmsmi00,Respondent same as last sweep (compared with interviewer),1.0,"Same Main respondent, interviewer coded Same"
+772296,MCS,mcs2_family_derived,bdmsmi00,Respondent same as last sweep (compared with interviewer),2.0,"Same Main respondent, interviewer coded Different"
+772297,MCS,mcs2_family_derived,bdmsmi00,Respondent same as last sweep (compared with interviewer),3.0,"Different Main respondent, interviewer coded Same"
+772298,MCS,mcs2_family_derived,bdmsmi00,Respondent same as last sweep (compared with interviewer),4.0,"Different Main respondent, interviewer coded Different"
+772299,MCS,mcs2_family_derived,bdmsmi00,Respondent same as last sweep (compared with interviewer),5.0,"Main at both sweeps, no interviewer code"
+772300,MCS,mcs2_family_derived,bdmlst00,Respondent status at last sweep,-5.0,Not in HH at MCS1
+772301,MCS,mcs2_family_derived,bdmlst00,Respondent status at last sweep,-3.0,New family at MCS2
+772302,MCS,mcs2_family_derived,bdmlst00,Respondent status at last sweep,-1.0,Not applicable
+772303,MCS,mcs2_family_derived,bdmlst00,Respondent status at last sweep,1.0,Main respondent
+772304,MCS,mcs2_family_derived,bdmlst00,Respondent status at last sweep,2.0,Partner respondent
+772305,MCS,mcs2_family_derived,bdmlst00,Respondent status at last sweep,3.0,Proxy partner respondent
+772306,MCS,mcs2_family_derived,bdmlst00,Respondent status at last sweep,4.0,Neither Main or Partner
+772307,MCS,mcs2_family_derived,bdpint00,Interview Outcome,-1.0,Not applicable
+772308,MCS,mcs2_family_derived,bdpint00,Interview Outcome,1.0,Partner interviewed in person
+772309,MCS,mcs2_family_derived,bdpint00,Interview Outcome,2.0,Partner interviewed by proxy
+772310,MCS,mcs2_family_derived,bdpint00,Interview Outcome,3.0,Partner eligible but not interviewed
+772311,MCS,mcs2_family_derived,bdpint00,Interview Outcome,4.0,No-one eligible for Partner interview
+772312,MCS,mcs2_family_derived,bdpsam00,Respondent same as last sweep,-3.0,New family at MCS2
+772313,MCS,mcs2_family_derived,bdpsam00,Respondent same as last sweep,-1.0,Not applicable
+772314,MCS,mcs2_family_derived,bdpsam00,Respondent same as last sweep,1.0,Same Partner respondent
+772315,MCS,mcs2_family_derived,bdpsam00,Respondent same as last sweep,2.0,Different Partner respondent
+772316,MCS,mcs2_family_derived,bdpsam00,Respondent same as last sweep,3.0,No Partner respondent last sweep
+772317,MCS,mcs2_family_derived,bdpsmi00,Respondent same as last sweep (compared with interviewer),-1.0,Not applicable
+772318,MCS,mcs2_family_derived,bdpsmi00,Respondent same as last sweep (compared with interviewer),1.0,"Same Partner respondent, interviewer coded Same"
+772319,MCS,mcs2_family_derived,bdpsmi00,Respondent same as last sweep (compared with interviewer),2.0,"Same Partner respondent, interviewer coded Different"
+772320,MCS,mcs2_family_derived,bdpsmi00,Respondent same as last sweep (compared with interviewer),3.0,"Different Partner respondent, interviewer coded Same"
+772321,MCS,mcs2_family_derived,bdpsmi00,Respondent same as last sweep (compared with interviewer),4.0,"Different Partner respondent, interviewer coded Different"
+772322,MCS,mcs2_family_derived,bdpsmi00,Respondent same as last sweep (compared with interviewer),5.0,"Partner at both sweeps, no interviewer code"
+772323,MCS,mcs2_family_derived,bdpsmi00,Respondent same as last sweep (compared with interviewer),6.0,No Partner last sweep
+772324,MCS,mcs2_family_derived,bdplst00,Respondent status at last sweep,-5.0,Not in HH at MCS1
+772325,MCS,mcs2_family_derived,bdplst00,Respondent status at last sweep,-3.0,New family at MCS2
+772326,MCS,mcs2_family_derived,bdplst00,Respondent status at last sweep,-1.0,Not applicable
+772327,MCS,mcs2_family_derived,bdplst00,Respondent status at last sweep,1.0,Main respondent
+772328,MCS,mcs2_family_derived,bdplst00,Respondent status at last sweep,2.0,Partner respondent
+772329,MCS,mcs2_family_derived,bdplst00,Respondent status at last sweep,3.0,Proxy partner respondent
+772330,MCS,mcs2_family_derived,bdplst00,Respondent status at last sweep,4.0,Neither Main or Partner
+772331,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,-1.0,Not applicable
+772332,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,1.0,Main respondent in person
+772333,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,2.0,Main and partner respondent in person
+772334,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,3.0,"Main in person, partner by proxy"
+772335,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,4.0,"Main in person, partner eligible but no int"
+772336,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,5.0,"No main interview, partner interviewed"
+772337,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,6.0,"No main interview, partner by proxy"
+772338,MCS,mcs2_family_derived,bdrspo00,DV Parent Interview response summary,7.0,No parent interviews
+772339,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,-1.0,Not applicable
+772340,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,1.0,Both natural parents
+772341,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,2.0,Natural mother and step-parent
+772342,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,3.0,Natural mother and other parent/carer
+772343,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,4.0,Natural mother and adoptive parent
+772344,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,5.0,Natural father and step-parent
+772345,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,6.0,Natural father and other parent/carer
+772346,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,7.0,Natural father and adoptive parent
+772347,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,8.0,Two adoptive parents
+772348,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,9.0,Adoptive mother and other parent/carer
+772349,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,10.0,Two foster parents
+772350,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,11.0,Two grandparents
+772351,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,12.0,Grandmother and other parent/carer
+772352,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,13.0,Grandfather and other parent/carer
+772353,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,14.0,Two other parents
+772354,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,15.0,Natural mother only
+772355,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,16.0,Natural father only
+772356,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,17.0,Adoptive mother only
+772357,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,18.0,Adoptive father only
+772358,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,19.0,Step mother only
+772359,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,20.0,Grandmother only
+772360,MCS,mcs2_family_derived,bdhtyp00,DV Parents/Carers in Household,21.0,Other parent/carer only (foster/sib/rel)
+772361,MCS,mcs2_family_derived,bdhtys00,DV Summary of Parents/Carers in Household,-1.0,Not applicable
+772362,MCS,mcs2_family_derived,bdhtys00,DV Summary of Parents/Carers in Household,1.0,Two parents/carers
+772363,MCS,mcs2_family_derived,bdhtys00,DV Summary of Parents/Carers in Household,2.0,One parent/carer
+772364,MCS,mcs2_family_derived,bdminh00,DV Natural mother in HH,-1.0,Not applicable
+772365,MCS,mcs2_family_derived,bdminh00,DV Natural mother in HH,1.0,Resident in household
+772366,MCS,mcs2_family_derived,bdminh00,DV Natural mother in HH,2.0,Not resident in household
+772367,MCS,mcs2_family_derived,bdminh00,DV Natural mother in HH,3.0,Deceased
+772368,MCS,mcs2_family_derived,bdfinh00,DV Natural father in HH,-1.0,Not applicable
+772369,MCS,mcs2_family_derived,bdfinh00,DV Natural father in HH,1.0,Resident in household
+772370,MCS,mcs2_family_derived,bdfinh00,DV Natural father in HH,2.0,Not resident in household
+772371,MCS,mcs2_family_derived,bdfinh00,DV Natural father in HH,3.0,Deceased
+772372,MCS,mcs2_family_derived,bdrelp00,DV Relationship between Parents/Carers in Household,-2.0,Not known
+772373,MCS,mcs2_family_derived,bdrelp00,DV Relationship between Parents/Carers in Household,-1.0,Not applicable
+772374,MCS,mcs2_family_derived,bdrelp00,DV Relationship between Parents/Carers in Household,1.0,Married
+772375,MCS,mcs2_family_derived,bdrelp00,DV Relationship between Parents/Carers in Household,2.0,Cohabiting
+772376,MCS,mcs2_family_derived,bdrelp00,DV Relationship between Parents/Carers in Household,3.0,Neither
+772377,MCS,mcs2_family_derived,bdchty00,Change in household composition (parents/carers),-1.0,Not applicable
+772378,MCS,mcs2_family_derived,bdchty00,Change in household composition (parents/carers),1.0,Two parents/carers at both sweeps
+772379,MCS,mcs2_family_derived,bdchty00,Change in household composition (parents/carers),2.0,"Two parents/carers at sweep 1, one pare"
+772380,MCS,mcs2_family_derived,bdchty00,Change in household composition (parents/carers),3.0,"One parent/carer at sweep 1, two parent"
+772381,MCS,mcs2_family_derived,bdchty00,Change in household composition (parents/carers),4.0,"One parent/carer at sweep 1, one parent"
+772382,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),-1.0,Not applicable
+772383,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),1.0,"Two elig at S1 and S2, same people"
+772384,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),2.0,"Two elig at S1 and S2, one same one diff"
+772385,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),3.0,"Two elig S1 and S2, different people"
+772386,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),4.0,"Two elig at S1, one (from S1) elig at S2"
+772387,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),5.0,"Two elig at S1, one (diff) elig at S2"
+772388,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),6.0,"One elig at S1, two elig at S2, one same"
+772389,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),7.0,"One elig at S1, two elig at S2, both diff"
+772390,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),8.0,"One elig at both sweeps, same person at each"
+772391,MCS,mcs2_family_derived,bdfach00,DV Change in household composition (same/diff parents),9.0,"One parent at both sweeps, different at each"
+772392,MCS,mcs2_family_derived,bdchnf00,DV Change in Natural father status,-1.0,Not applicable
+772393,MCS,mcs2_family_derived,bdchnf00,DV Change in Natural father status,1.0,In household at both sweeps
+772394,MCS,mcs2_family_derived,bdchnf00,DV Change in Natural father status,2.0,"In household at MCS1, not MCS2"
+772395,MCS,mcs2_family_derived,bdchnf00,DV Change in Natural father status,3.0,"In household at MCS2, not MCS1"
+772396,MCS,mcs2_family_derived,bdchnf00,DV Change in Natural father status,4.0,Not in household at either sweep
+772397,MCS,mcs2_family_derived,bdchnf00,DV Change in Natural father status,5.0,Has died between MCS1 and MCS2
+772398,MCS,mcs2_family_derived,bdchnf00,DV Change in Natural father status,6.0,Died before MCS1
+772399,MCS,mcs2_family_derived,bdchnm00,DV Change in Natural mother status,-1.0,Not applicable
+772400,MCS,mcs2_family_derived,bdchnm00,DV Change in Natural mother status,1.0,In household at both sweeps
+772401,MCS,mcs2_family_derived,bdchnm00,DV Change in Natural mother status,2.0,"In household at MCS1, not MCS2"
+772402,MCS,mcs2_family_derived,bdchnm00,DV Change in Natural mother status,3.0,"In household at MCS2, not MCS1"
+772403,MCS,mcs2_family_derived,bdchnm00,DV Change in Natural mother status,4.0,Not in household at either sweep
+772404,MCS,mcs2_family_derived,bdchnm00,DV Change in Natural mother status,5.0,Has died between MCS1 and MCS2
+772405,MCS,mcs2_family_derived,bdchnm00,DV Change in Natural mother status,6.0,Died before MCS1
+772406,MCS,mcs2_family_derived,bdoths00,DV Number of siblings of CM in household,-2.0,Not known
+772407,MCS,mcs2_family_derived,bdoths00,DV Number of siblings of CM in household,-1.0,Not applicable
+772408,MCS,mcs2_family_derived,bdnocm00,DV Number of CM in household,-1.0,Not applicable
+772409,MCS,mcs2_family_derived,bdtots00,DV Number of siblings in household plus number of CM's,-2.0,Not known
+772410,MCS,mcs2_family_derived,bdtots00,DV Number of siblings in household plus number of CM's,-1.0,Not applicable
+772411,MCS,mcs2_family_derived,bdnsib00,DV Natural siblings of CM in household,-2.0,Not known
+772412,MCS,mcs2_family_derived,bdnsib00,DV Natural siblings of CM in household,-1.0,Not applicable
+772413,MCS,mcs2_family_derived,bdnsib00,DV Natural siblings of CM in household,1.0,Natural sib in HH
+772414,MCS,mcs2_family_derived,bdnsib00,DV Natural siblings of CM in household,2.0,No natural sib in HH
+772415,MCS,mcs2_family_derived,bdhsib00,DV Half siblings of CM in household,-2.0,Not known
+772416,MCS,mcs2_family_derived,bdhsib00,DV Half siblings of CM in household,-1.0,Not applicable
+772417,MCS,mcs2_family_derived,bdhsib00,DV Half siblings of CM in household,1.0,Half sib in HH
+772418,MCS,mcs2_family_derived,bdhsib00,DV Half siblings of CM in household,2.0,No half sib in HH
+772419,MCS,mcs2_family_derived,bdssib00,DV Step siblings of CM in household,-2.0,Not known
+772420,MCS,mcs2_family_derived,bdssib00,DV Step siblings of CM in household,-1.0,Not applicable
+772421,MCS,mcs2_family_derived,bdssib00,DV Step siblings of CM in household,1.0,Step sib in HH
+772422,MCS,mcs2_family_derived,bdssib00,DV Step siblings of CM in household,2.0,No step sib in HH
+772423,MCS,mcs2_family_derived,bdasib00,DV Adoptive siblings of CM in household,-2.0,Not known
+772424,MCS,mcs2_family_derived,bdasib00,DV Adoptive siblings of CM in household,-1.0,Not applicable
+772425,MCS,mcs2_family_derived,bdasib00,DV Adoptive siblings of CM in household,1.0,Adoptive sib in HH
+772426,MCS,mcs2_family_derived,bdasib00,DV Adoptive siblings of CM in household,2.0,No adoptive sib in HH
+772427,MCS,mcs2_family_derived,bdfsib00,DV Foster siblings of CM in household,-2.0,Not known
+772428,MCS,mcs2_family_derived,bdfsib00,DV Foster siblings of CM in household,-1.0,Not applicable
+772429,MCS,mcs2_family_derived,bdfsib00,DV Foster siblings of CM in household,1.0,Foster sib in HH
+772430,MCS,mcs2_family_derived,bdfsib00,DV Foster siblings of CM in household,2.0,No foster sib in HH
+772431,MCS,mcs2_family_derived,bdgpar00,DV Grandparent of CM in household,-2.0,Not known
+772432,MCS,mcs2_family_derived,bdgpar00,DV Grandparent of CM in household,-1.0,Not applicable
+772433,MCS,mcs2_family_derived,bdgpar00,DV Grandparent of CM in household,1.0,Grandparent in HH
+772434,MCS,mcs2_family_derived,bdgpar00,DV Grandparent of CM in household,2.0,No grandparent in HH
+772435,MCS,mcs2_family_derived,bdotha00,DV Other adult in household,-2.0,Not known
+772436,MCS,mcs2_family_derived,bdotha00,DV Other adult in household,-1.0,Not applicable
+772437,MCS,mcs2_family_derived,bdnumh00,DV Number of people in household (not including CM),-2.0,Not known
+772438,MCS,mcs2_family_derived,bdnumh00,DV Number of people in household (not including CM),-1.0,Not applicable
+772439,MCS,mcs2_family_derived,bdtotp00,DV Number of people in household (including CM's),-2.0,Not known
+772440,MCS,mcs2_family_derived,bdtotp00,DV Number of people in household (including CM's),-1.0,Not applicable
+772441,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,-9.0,Refusal
+772442,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,-8.0,Don't Know
+772443,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,-1.0,Not applicable
+772444,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,1.0,Both in work
+772445,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,2.0,"Main in work, partner not"
+772446,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,3.0,"Partner in work, main not"
+772447,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,4.0,Both not in work
+772448,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,5.0,"Main in work or on leave, no partner"
+772449,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,6.0,"Main not on work nor on leave, no partner"
+772450,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,7.0,"Main work status unknown, partner in work"
+772451,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,8.0,"Main work status unknown, partner not in work"
+772452,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,9.0,"Main in work, partner status unknown"
+772453,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,10.0,"Main not in work, partner status unknown"
+772454,MCS,mcs2_family_derived,bdcwrk00,DV Combined labour market status of Main and Partner,11.0,"Main working status unknown, no partner"
+772455,MCS,mcs2_family_derived,bdoeds00,DV Equivalised family income OECD scores,-1.0,Not applicable
+772456,MCS,mcs2_family_derived,bdoede00,DV OECD equivalised income,-2.0,Not known
+772457,MCS,mcs2_family_derived,bdoede00,DV OECD equivalised income,-1.0,Not applicable
+772458,MCS,mcs2_family_derived,bdoedp00,DV OECD below 60% median poverty indicator,-1.0,Missing data
+772459,MCS,mcs2_family_derived,bdoedp00,DV OECD below 60% median poverty indicator,0.0,Above 60% median
+772460,MCS,mcs2_family_derived,bdoedp00,DV OECD below 60% median poverty indicator,1.0,Below 60% median
+772461,MCS,mcs2_family_derived,bdmcsc00,DV McClements Score,,
+772462,MCS,mcs2_family_derived,bdmceq00,DV McClements equivalised income,-1.0,Not applicable
+772463,MCS,mcs2_family_derived,bdmcpo00,DV McClements below 60% median poverty indicator,-1.0,Missing data
+772464,MCS,mcs2_family_derived,bdmcpo00,DV McClements below 60% median poverty indicator,0.0,Above 60% median
+772465,MCS,mcs2_family_derived,bdmcpo00,DV McClements below 60% median poverty indicator,1.0,Below 60% median
+772466,MCS,mcs2_family_derived,bdstra00,Stratum,-1.0,Not applicable
+772467,MCS,mcs2_family_derived,bdstra00,Stratum,1.0,England - Advantaged
+772468,MCS,mcs2_family_derived,bdstra00,Stratum,2.0,England - Disadvantaged
+772469,MCS,mcs2_family_derived,bdstra00,Stratum,3.0,England - Ethnic
+772470,MCS,mcs2_family_derived,bdstra00,Stratum,4.0,Wales - Advantaged
+772471,MCS,mcs2_family_derived,bdstra00,Stratum,5.0,Wales - Disadvantaged
+772472,MCS,mcs2_family_derived,bdstra00,Stratum,6.0,Scotland - Advantaged
+772473,MCS,mcs2_family_derived,bdstra00,Stratum,7.0,Scotland - Disadvantaged
+772474,MCS,mcs2_family_derived,bdstra00,Stratum,8.0,Northern Ireland - Advantaged
+772475,MCS,mcs2_family_derived,bdstra00,Stratum,9.0,Northern Ireland - Disadvantaged
+772476,MCS,mcs2_family_derived,bdsent00,ADMIN Sweep in which Family entered study,-1.0,Not applicable
+772477,MCS,mcs2_family_derived,bdsent00,ADMIN Sweep in which Family entered study,1.0,Sweep 1
+772478,MCS,mcs2_family_derived,bdsent00,ADMIN Sweep in which Family entered study,2.0,Sweep 2
+772479,MCS,mcs2_family_derived,bdcntr00,Country of Interview,-1.0,Not applicable
+772480,MCS,mcs2_family_derived,bdcntr00,Country of Interview,1.0,England
+772481,MCS,mcs2_family_derived,bdcntr00,Country of Interview,2.0,Wales
+772482,MCS,mcs2_family_derived,bdcntr00,Country of Interview,3.0,Scotland
+772483,MCS,mcs2_family_derived,bdcntr00,Country of Interview,4.0,NI
+772484,MCS,mcs2_family_derived,bdptty00,ADMIN Point type,-1.0,Not applicable
+772485,MCS,mcs2_family_derived,bdpty200,Stratum within Country,-1.0,Not applicable
+772486,MCS,mcs2_family_derived,bdpty200,Stratum within Country,1.0,England - Advantaged
+772487,MCS,mcs2_family_derived,bdpty200,Stratum within Country,2.0,England - Disadvantaged
+772488,MCS,mcs2_family_derived,bdpty200,Stratum within Country,3.0,England - Ethnic
+772489,MCS,mcs2_family_derived,bdpty200,Stratum within Country,4.0,Wales - Advantaged
+772490,MCS,mcs2_family_derived,bdpty200,Stratum within Country,5.0,Wales - Disadvantaged
+772491,MCS,mcs2_family_derived,bdpty200,Stratum within Country,6.0,Scotland - Advantaged
+772492,MCS,mcs2_family_derived,bdpty200,Stratum within Country,7.0,Scotland - Disadvantaged
+772493,MCS,mcs2_family_derived,bdpty200,Stratum within Country,8.0,Northern Ireland - Advantaged
+772494,MCS,mcs2_family_derived,bdpty200,Stratum within Country,9.0,Northern Ireland - Disadvantaged
+772495,MCS,mcs2_family_derived,bdwgt100,ADMIN MCS Weight for use on single country analyses,-1.0,Not applicable
+772496,MCS,mcs2_family_derived,bdwgt200,MCS Weight to use on whole UK analyses,-1.0,Not applicable
+772497,MCS,mcs2_family_derived,bdmain00,Responded to Main Instrument,-1.0,Not applicable
+772498,MCS,mcs2_family_derived,bdmhgt00,DV Natural mother Height in Metres,-1.0,Not applicable
+772499,MCS,mcs2_family_derived,bdmbmi00,DV Natural Mothers BMI at Interview,-2.0,Pregnant no BMI calc.
+772500,MCS,mcs2_family_derived,bdmbmi00,DV Natural Mothers BMI at Interview,-1.0,Not applicable
+772501,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,-9.0,Refusal
+772502,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,-8.0,Don't Know
+772503,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,-1.0,Not applicable
+772504,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,1.0,Own outright
+772505,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,2.0,Own - mortgage/loan
+772506,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,3.0,Part rent/part mortgage (shared equity)
+772507,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,4.0,Rent from local authority
+772508,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,5.0,Rent from Housing Association
+772509,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,6.0,Rent privately
+772510,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,7.0,Living with parents
+772511,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,8.0,Live rent free
+772512,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,9.0,Squatting
+772513,MCS,mcs2_family_derived,bdroow00,DV Housing Tenure,10.0,Other
+772514,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,-9.0,Refusal
+772515,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,-8.0,Don't Know
+772516,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,-1.0,Not applicable
+772517,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,1.0,Yes - English only
+772518,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,2.0,Yes - mostly English-sometimes other
+772519,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,3.0,Yes - about half English and half other
+772520,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,4.0,"No - mostly other, sometimeS English"
+772521,MCS,mcs2_family_derived,bdhlan00,DV Language Spoken in household,5.0,No - other language(s) only
+772522,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),-9.0,Refusal
+772523,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),-8.0,Don't know
+772524,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),-1.0,Not applicable
+772525,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),1.0,Â£0 - Â£3300 pa
+772526,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),2.0,Â£3300 - Â£11000 pa
+772527,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),3.0,Â£11000 - Â£22000 pa
+772528,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),4.0,Â£22000 - Â£33000 pa
+772529,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),5.0,Â£33000 - Â£55000 pa
+772530,MCS,mcs2_family_derived,bdhinc00,DV Family Income (banded),6.0,Â£55000 + pa
+772531,MCS,mcs2_family_derived,bincflag,DV Flag for imputed income,-1.0,Not applicable
+772532,MCS,mcs2_family_derived,bincflag,DV Flag for imputed income,1.0,Imputed
+772533,MCS,mcs2_family_derived,bincflag,DV Flag for imputed income,2.0,Replaced with band midpoint
+772534,MCS,mcs2_family_derived,bincflag,DV Flag for imputed income,3.0,Missing band or predictors
+772535,MCS,mcs2_family_derived,boedex00,DV PREDICTED weekly net family income,-1.0,Not applicable
+772536,MCS,mcs2_family_derived,boecduk0,DV OECD Income Weighted Quintiles (UK Analysis),-1.0,Not applicable
+772537,MCS,mcs2_family_derived,boecduk0,DV OECD Income Weighted Quintiles (UK Analysis),1.0,Lowest quintile
+772538,MCS,mcs2_family_derived,boecduk0,DV OECD Income Weighted Quintiles (UK Analysis),2.0,Second quintile
+772539,MCS,mcs2_family_derived,boecduk0,DV OECD Income Weighted Quintiles (UK Analysis),3.0,Third quintile
+772540,MCS,mcs2_family_derived,boecduk0,DV OECD Income Weighted Quintiles (UK Analysis),4.0,Fourth quintile
+772541,MCS,mcs2_family_derived,boecduk0,DV OECD Income Weighted Quintiles (UK Analysis),5.0,Highest quintile
+772542,MCS,mcs2_family_derived,boecdsc0,DV OECD Income Weighted Quintiles (Single Country Analysis),-1.0,Not applicable
+772543,MCS,mcs2_family_derived,boecdsc0,DV OECD Income Weighted Quintiles (Single Country Analysis),1.0,Lowest quintile
+772544,MCS,mcs2_family_derived,boecdsc0,DV OECD Income Weighted Quintiles (Single Country Analysis),2.0,Second quintile
+772545,MCS,mcs2_family_derived,boecdsc0,DV OECD Income Weighted Quintiles (Single Country Analysis),3.0,Third quintile
+772546,MCS,mcs2_family_derived,boecdsc0,DV OECD Income Weighted Quintiles (Single Country Analysis),4.0,Fourth quintile
+772547,MCS,mcs2_family_derived,boecdsc0,DV OECD Income Weighted Quintiles (Single Country Analysis),5.0,Highest quintile
+772548,MCS,mcs2_family_derived,bdrsmb12,Residential Mobility: Moved btw MCS1 and MCS2?,-1.0,Not applicable
+772549,MCS,mcs2_family_derived,bdrsmb12,Residential Mobility: Moved btw MCS1 and MCS2?,0.0,did not move
+772550,MCS,mcs2_family_derived,bdrsmb12,Residential Mobility: Moved btw MCS1 and MCS2?,1.0,moved
+772551,MCS,mcs2_family_derived,avail_from_dt,,,
+772552,MCS,mcs2_family_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

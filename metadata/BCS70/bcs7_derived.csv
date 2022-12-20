@@ -1,0 +1,107 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+162017,BCS70,bcs7_derived,study_id_e,,,
+162018,BCS70,bcs7_derived,bd7cntry,Country of Interview  (2004),-1.0,Not known
+162019,BCS70,bcs7_derived,bd7cntry,Country of Interview  (2004),1.0,England
+162020,BCS70,bcs7_derived,bd7cntry,Country of Interview  (2004),2.0,Wales
+162021,BCS70,bcs7_derived,bd7cntry,Country of Interview  (2004),3.0,Scotland
+162022,BCS70,bcs7_derived,bd7cntry,Country of Interview  (2004),4.0,Northern Ireland
+162023,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,-2.0,Armed Services
+162024,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,-1.0,Unknown
+162025,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,1.0,North
+162026,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,2.0,Yorks and Humberside
+162027,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,3.0,East Midlands
+162028,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,4.0,East Anglia
+162029,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,5.0,South East
+162030,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,6.0,South West
+162031,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,7.0,West Midlands
+162032,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,8.0,North West
+162033,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,9.0,Wales
+162034,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,10.0,Scotland
+162035,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,11.0,Northern Ireland
+162036,BCS70,bcs7_derived,bd7regn,2004: Standard Region of residence,12.0,Overseas
+162037,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,-1.0,Unknown
+162038,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,1.0,North East
+162039,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,2.0,North West
+162040,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,3.0,Yorkshire and Humberside
+162041,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,4.0,East Midlands
+162042,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,5.0,West Midlands
+162043,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,6.0,East of England
+162044,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,7.0,London
+162045,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,8.0,South East
+162046,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,9.0,South West
+162047,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,10.0,Wales
+162048,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,11.0,Scotland
+162049,BCS70,bcs7_derived,bd7gor,2004: Government Office Region of residence,12.0,Northern Ireland
+162050,BCS70,bcs7_derived,bd7mal,2004: Total Malaise score (9 questions),-2.0,not stated any questions
+162051,BCS70,bcs7_derived,bd7mal,2004: Total Malaise score (9 questions),-1.0,incomplete info
+162052,BCS70,bcs7_derived,bd7malg,2004: Total Malaise score (9 questions) grouped,-2.0,not stated any questions
+162053,BCS70,bcs7_derived,bd7malg,2004: Total Malaise score (9 questions) grouped,-1.0,incomplete info
+162054,BCS70,bcs7_derived,bd7malg,2004: Total Malaise score (9 questions) grouped,1.0,0-3
+162055,BCS70,bcs7_derived,bd7malg,2004: Total Malaise score (9 questions) grouped,2.0,4+
+162056,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,-1.0,Level not calculable
+162057,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,0.0,No academic qualification
+162058,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,1.0,GCSE D-E
+162059,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,2.0,Other Scottish Quals
+162060,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,3.0,"GCSE A-C, Scot Standards/Intermediate 1"
+162061,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,4.0,Scot Intermediate 2 / AS Levels or 1 A
+162062,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,5.0,"2+ A Levels, Scot Higher/6th"
+162063,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,6.0,Diploma
+162064,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,7.0,"Degree, PGCE, Other Degree qual"
+162065,BCS70,bcs7_derived,bd7achq1,2004: Highest Academic Qualification CM obtained in 2004 survey,8.0,Higher Degree
+162066,BCS70,bcs7_derived,bd7anvq1,2004: Highest NVQ level from an academic qualification in 2004 survey,-1.0, not applicable
+162067,BCS70,bcs7_derived,bd7anvq1,2004: Highest NVQ level from an academic qualification in 2004 survey,0.0,None
+162068,BCS70,bcs7_derived,bd7anvq1,2004: Highest NVQ level from an academic qualification in 2004 survey,1.0,NVQ1 level
+162069,BCS70,bcs7_derived,bd7anvq1,2004: Highest NVQ level from an academic qualification in 2004 survey,2.0,NVQ2 level
+162070,BCS70,bcs7_derived,bd7anvq1,2004: Highest NVQ level from an academic qualification in 2004 survey,3.0,NVQ3 level
+162071,BCS70,bcs7_derived,bd7anvq1,2004: Highest NVQ level from an academic qualification in 2004 survey,4.0,NVQ4 level
+162072,BCS70,bcs7_derived,bd7anvq1,2004: Highest NVQ level from an academic qualification in 2004 survey,5.0,NVQ5 level
+162073,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,-9.0,Incomplete info
+162074,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,-1.0,Level not calculable
+162075,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,0.0,none
+162076,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,1.0,NVQ1 level
+162077,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,2.0,NVQ2 level
+162078,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,3.0,NVQ3 level
+162079,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,4.0,NVQ4 level
+162080,BCS70,bcs7_derived,bd7vnvq1,2004: Highest NVQ Level from a Vocational Qualification in 2004 survey,5.0,NVQ5 level
+162081,BCS70,bcs7_derived,bd7nvq1,2004: Highest NVQ Level from an Academic or Vocational Qual in 2004 survey,-1.0,Level not calculable
+162082,BCS70,bcs7_derived,bd7nvq1,2004: Highest NVQ Level from an Academic or Vocational Qual in 2004 survey,0.0,none
+162083,BCS70,bcs7_derived,bd7nvq1,2004: Highest NVQ Level from an Academic or Vocational Qual in 2004 survey,1.0,nvq1 level
+162084,BCS70,bcs7_derived,bd7nvq1,2004: Highest NVQ Level from an Academic or Vocational Qual in 2004 survey,2.0,nvq2 level
+162085,BCS70,bcs7_derived,bd7nvq1,2004: Highest NVQ Level from an Academic or Vocational Qual in 2004 survey,3.0,nvq3 level
+162086,BCS70,bcs7_derived,bd7nvq1,2004: Highest NVQ Level from an Academic or Vocational Qual in 2004 survey,4.0,nvq4 level
+162087,BCS70,bcs7_derived,bd7nvq1,2004: Highest NVQ Level from an Academic or Vocational Qual in 2004 survey,5.0,nvq5 level
+162088,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,-9.0,Refusal
+162089,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,-8.0,Don't know
+162090,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,-1.0,Not applicable
+162091,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,0.0,no academic qualification
+162092,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,1.0,GCSE D-E
+162093,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,2.0,"CSEs2-5, other Scottish Quals"
+162094,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,3.0,"GCSE A-C, good O levels Scot Standards"
+162095,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,4.0,AS Levels or 1 A Level
+162096,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,5.0,"2+ A Levels, Scot HIgher/6th"
+162097,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,6.0,Diploma
+162098,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,7.0,"Degree, PGCE, Other Degree Level qual"
+162099,BCS70,bcs7_derived,bd7hachq,2004: Highest Academic Qualification up to 2004,8.0,Higher Degree
+162100,BCS70,bcs7_derived,bd7hanvq,2004: Highest NVQ level from an academic qualification up to 2004,-1.0,Not applicable
+162101,BCS70,bcs7_derived,bd7hanvq,2004: Highest NVQ level from an academic qualification up to 2004,0.0,none
+162102,BCS70,bcs7_derived,bd7hanvq,2004: Highest NVQ level from an academic qualification up to 2004,1.0,nvq1 level
+162103,BCS70,bcs7_derived,bd7hanvq,2004: Highest NVQ level from an academic qualification up to 2004,2.0,nvq2 level
+162104,BCS70,bcs7_derived,bd7hanvq,2004: Highest NVQ level from an academic qualification up to 2004,3.0,nvq3 level
+162105,BCS70,bcs7_derived,bd7hanvq,2004: Highest NVQ level from an academic qualification up to 2004,4.0,nvq4 level
+162106,BCS70,bcs7_derived,bd7hanvq,2004: Highest NVQ level from an academic qualification up to 2004,5.0,nvq5 level
+162107,BCS70,bcs7_derived,bd7hvnvq,2004: Highest NVQ Level from a Vocational Qualification  up to 2004,-1.0,Not applicable
+162108,BCS70,bcs7_derived,bd7hvnvq,2004: Highest NVQ Level from a Vocational Qualification  up to 2004,0.0,none
+162109,BCS70,bcs7_derived,bd7hvnvq,2004: Highest NVQ Level from a Vocational Qualification  up to 2004,1.0,nvq1 level
+162110,BCS70,bcs7_derived,bd7hvnvq,2004: Highest NVQ Level from a Vocational Qualification  up to 2004,2.0,nvq2 level
+162111,BCS70,bcs7_derived,bd7hvnvq,2004: Highest NVQ Level from a Vocational Qualification  up to 2004,3.0,nvq3 level
+162112,BCS70,bcs7_derived,bd7hvnvq,2004: Highest NVQ Level from a Vocational Qualification  up to 2004,4.0,nvq4 level
+162113,BCS70,bcs7_derived,bd7hvnvq,2004: Highest NVQ Level from a Vocational Qualification  up to 2004,5.0,nvq5 level
+162114,BCS70,bcs7_derived,bd7hnvq,2004: Highest NVQ Level from an Academic or Vocational Qual  up to 2004,-1.0,Not applicable
+162115,BCS70,bcs7_derived,bd7hnvq,2004: Highest NVQ Level from an Academic or Vocational Qual  up to 2004,0.0,none
+162116,BCS70,bcs7_derived,bd7hnvq,2004: Highest NVQ Level from an Academic or Vocational Qual  up to 2004,1.0,nvq1 level
+162117,BCS70,bcs7_derived,bd7hnvq,2004: Highest NVQ Level from an Academic or Vocational Qual  up to 2004,2.0,nvq2 level
+162118,BCS70,bcs7_derived,bd7hnvq,2004: Highest NVQ Level from an Academic or Vocational Qual  up to 2004,3.0,nvq3 level
+162119,BCS70,bcs7_derived,bd7hnvq,2004: Highest NVQ Level from an Academic or Vocational Qual  up to 2004,4.0,nvq4 level
+162120,BCS70,bcs7_derived,bd7hnvq,2004: Highest NVQ Level from an Academic or Vocational Qual  up to 2004,5.0,nvq5 level
+162121,BCS70,bcs7_derived,v3,None,,
+162122,BCS70,bcs7_derived,avail_from_dt,,,

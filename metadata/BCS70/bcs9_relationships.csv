@@ -1,0 +1,179 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+623045,BCS70,bcs9_relationships,study_id_e,,,
+623046,BCS70,bcs9_relationships,b9relhid,Relationship history record number,,
+623047,BCS70,bcs9_relationships,b9rnrany,Whether lived with anyone as a couple since last period,-9.0,Refused
+623048,BCS70,bcs9_relationships,b9rnrany,Whether lived with anyone as a couple since last period,-8.0,Don't know
+623049,BCS70,bcs9_relationships,b9rnrany,Whether lived with anyone as a couple since last period,-1.0,Not applicable
+623050,BCS70,bcs9_relationships,b9rnrany,Whether lived with anyone as a couple since last period,1.0,Yes
+623051,BCS70,bcs9_relationships,b9rnrany,Whether lived with anyone as a couple since last period,2.0,No
+623052,BCS70,bcs9_relationships,b9rstm,When started living together - month,-9.0,Refused
+623053,BCS70,bcs9_relationships,b9rstm,When started living together - month,-8.0,Don't know
+623054,BCS70,bcs9_relationships,b9rstm,When started living together - month,-1.0,Not applicable
+623055,BCS70,bcs9_relationships,b9rstm,When started living together - month,0.0,Before 2000
+623056,BCS70,bcs9_relationships,b9rstm,When started living together - month,1.0,January
+623057,BCS70,bcs9_relationships,b9rstm,When started living together - month,2.0,February
+623058,BCS70,bcs9_relationships,b9rstm,When started living together - month,3.0,March
+623059,BCS70,bcs9_relationships,b9rstm,When started living together - month,4.0,April
+623060,BCS70,bcs9_relationships,b9rstm,When started living together - month,5.0,May
+623061,BCS70,bcs9_relationships,b9rstm,When started living together - month,6.0,June
+623062,BCS70,bcs9_relationships,b9rstm,When started living together - month,7.0,July
+623063,BCS70,bcs9_relationships,b9rstm,When started living together - month,8.0,August
+623064,BCS70,bcs9_relationships,b9rstm,When started living together - month,9.0,September
+623065,BCS70,bcs9_relationships,b9rstm,When started living together - month,10.0,October
+623066,BCS70,bcs9_relationships,b9rstm,When started living together - month,11.0,November
+623067,BCS70,bcs9_relationships,b9rstm,When started living together - month,12.0,December
+623068,BCS70,bcs9_relationships,b9rsty,When started living together - year,-9.0,Refused
+623069,BCS70,bcs9_relationships,b9rsty,When started living together - year,-8.0,Don't know
+623070,BCS70,bcs9_relationships,b9rsty,When started living together - year,-1.0,Not applicable
+623071,BCS70,bcs9_relationships,b9rsty,When started living together - year,0.0,Before 2000
+623072,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,-1.0,Not applicable
+623073,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,1.0,{Person}
+623074,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,2.0,{Person}
+623075,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,3.0,{Person}
+623076,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,4.0,{Person}
+623077,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,5.0,{Person}
+623078,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,6.0,{Person}
+623079,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,7.0,{Person}
+623080,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,8.0,{Person}
+623081,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,9.0,{Person}
+623082,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,10.0,{Person}
+623083,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,11.0,{Person}
+623084,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,12.0,{Person}
+623085,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,13.0,{Person}
+623086,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,14.0,{Person}
+623087,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,15.0,{Person}
+623088,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,16.0,{Person}
+623089,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,17.0,{Person}
+623090,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,18.0,{Person}
+623091,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,19.0,{Person}
+623092,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,20.0,{Person}
+623093,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,21.0,{Person}
+623094,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,22.0,{Person}
+623095,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,23.0,{Person}
+623096,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,24.0,{Person}
+623097,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,25.0,{Person}
+623098,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,26.0,{Person}
+623099,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,27.0,New Partner (enter name)
+623100,BCS70,bcs9_relationships,b9rcprev,Whether previous partner,28.0,None of these
+623101,BCS70,bcs9_relationships,b9rdet1,All details correct,-1.0,Not applicable
+623102,BCS70,bcs9_relationships,b9rdet1,All details correct,0.0,No
+623103,BCS70,bcs9_relationships,b9rdet1,All details correct,1.0,Yes
+623104,BCS70,bcs9_relationships,b9rdet2,Gender is incorrect,-1.0,Not applicable
+623105,BCS70,bcs9_relationships,b9rdet2,Gender is incorrect,0.0,No
+623106,BCS70,bcs9_relationships,b9rdet2,Gender is incorrect,1.0,Yes
+623107,BCS70,bcs9_relationships,b9rdet3,Date of birth is incorrect,-1.0,Not applicable
+623108,BCS70,bcs9_relationships,b9rdet3,Date of birth is incorrect,0.0,No
+623109,BCS70,bcs9_relationships,b9rdet3,Date of birth is incorrect,1.0,Yes
+623110,BCS70,bcs9_relationships,b9rsex,Partner sex,-1.0,Not applicable
+623111,BCS70,bcs9_relationships,b9rsex,Partner sex,1.0,Male
+623112,BCS70,bcs9_relationships,b9rsex,Partner sex,2.0,Female
+623113,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,-9.0,Refused
+623114,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,-8.0,Don't know
+623115,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,-1.0,Not applicable
+623116,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,1.0,January
+623117,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,2.0,February
+623118,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,3.0,March
+623119,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,4.0,April
+623120,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,5.0,May
+623121,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,6.0,June
+623122,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,7.0,July
+623123,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,8.0,August
+623124,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,9.0,September
+623125,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,10.0,October
+623126,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,11.0,November
+623127,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,12.0,December
+623128,BCS70,bcs9_relationships,b9rdobm,Partner month of birth,13.0,na
+623129,BCS70,bcs9_relationships,b9rdoby,Partner year of birth,-9.0,Refused
+623130,BCS70,bcs9_relationships,b9rdoby,Partner year of birth,-8.0,Don't know
+623131,BCS70,bcs9_relationships,b9rdoby,Partner year of birth,-1.0,Not applicable
+623132,BCS70,bcs9_relationships,b9rage,Partner age,-9.0,Refused
+623133,BCS70,bcs9_relationships,b9rage,Partner age,-8.0,Don't know
+623134,BCS70,bcs9_relationships,b9rage,Partner age,-1.0,Not applicable
+623135,BCS70,bcs9_relationships,b9rnowma,Whether married partner,-9.0,Refused
+623136,BCS70,bcs9_relationships,b9rnowma,Whether married partner,-8.0,Don't know
+623137,BCS70,bcs9_relationships,b9rnowma,Whether married partner,-1.0,Not applicable
+623138,BCS70,bcs9_relationships,b9rnowma,Whether married partner,1.0,Yes
+623139,BCS70,bcs9_relationships,b9rnowma,Whether married partner,2.0,No
+623140,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,-9.0,Refused
+623141,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,-8.0,Don't know
+623142,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,-1.0,Not applicable
+623143,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,0.0,Before 2000
+623144,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,1.0,January
+623145,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,2.0,February
+623146,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,3.0,March
+623147,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,4.0,April
+623148,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,5.0,May
+623149,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,6.0,June
+623150,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,7.0,July
+623151,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,8.0,August
+623152,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,9.0,September
+623153,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,10.0,October
+623154,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,11.0,November
+623155,BCS70,bcs9_relationships,b9rwhmam,Date of marriage - month,12.0,December
+623156,BCS70,bcs9_relationships,b9rwhmay,Date of marriage - year,-9.0,Refused
+623157,BCS70,bcs9_relationships,b9rwhmay,Date of marriage - year,-8.0,Don't know
+623158,BCS70,bcs9_relationships,b9rwhmay,Date of marriage - year,-1.0,Not applicable
+623159,BCS70,bcs9_relationships,b9rwhmay,Date of marriage - year,0.0,Before 2000
+623160,BCS70,bcs9_relationships,b9rslive,Whether still live together as a couple,-9.0,Refused
+623161,BCS70,bcs9_relationships,b9rslive,Whether still live together as a couple,-8.0,Don't know
+623162,BCS70,bcs9_relationships,b9rslive,Whether still live together as a couple,-1.0,Not applicable
+623163,BCS70,bcs9_relationships,b9rslive,Whether still live together as a couple,1.0,Yes
+623164,BCS70,bcs9_relationships,b9rslive,Whether still live together as a couple,2.0,No
+623165,BCS70,bcs9_relationships,b9rlivpa,Whether lived with partner continuously,-9.0,Refused
+623166,BCS70,bcs9_relationships,b9rlivpa,Whether lived with partner continuously,-8.0,Don't know
+623167,BCS70,bcs9_relationships,b9rlivpa,Whether lived with partner continuously,-1.0,Not applicable
+623168,BCS70,bcs9_relationships,b9rlivpa,Whether lived with partner continuously,1.0,Yes
+623169,BCS70,bcs9_relationships,b9rlivpa,Whether lived with partner continuously,2.0,No
+623170,BCS70,bcs9_relationships,b9rhwend,Whether split up or partner died,-9.0,Refused
+623171,BCS70,bcs9_relationships,b9rhwend,Whether split up or partner died,-8.0,Don't know
+623172,BCS70,bcs9_relationships,b9rhwend,Whether split up or partner died,-1.0,Not applicable
+623173,BCS70,bcs9_relationships,b9rhwend,Whether split up or partner died,1.0,Couple separated or divorced
+623174,BCS70,bcs9_relationships,b9rhwend,Whether split up or partner died,2.0,Partner died
+623175,BCS70,bcs9_relationships,b9rhwend,Whether split up or partner died,3.0,SPONT-Remain couple but x live tog
+623176,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,-9.0,Refused
+623177,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,-8.0,Don't know
+623178,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,-1.0,Not applicable
+623179,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,0.0,Before 2000
+623180,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,1.0,January
+623181,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,2.0,February
+623182,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,3.0,March
+623183,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,4.0,April
+623184,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,5.0,May
+623185,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,6.0,June
+623186,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,7.0,July
+623187,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,8.0,August
+623188,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,9.0,September
+623189,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,10.0,October
+623190,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,11.0,November
+623191,BCS70,bcs9_relationships,b9rendm,When stopped living together - month,12.0,December
+623192,BCS70,bcs9_relationships,b9rendy,When stopped living together - year,-9.0,Refused
+623193,BCS70,bcs9_relationships,b9rendy,When stopped living together - year,-8.0,Don't know
+623194,BCS70,bcs9_relationships,b9rendy,When stopped living together - year,-1.0,Not applicable
+623195,BCS70,bcs9_relationships,b9rendy,When stopped living together - year,0.0,Before 2000
+623196,BCS70,bcs9_relationships,b9rdivor,Whether divorced,-9.0,Refused
+623197,BCS70,bcs9_relationships,b9rdivor,Whether divorced,-8.0,Don't know
+623198,BCS70,bcs9_relationships,b9rdivor,Whether divorced,-1.0,Not applicable
+623199,BCS70,bcs9_relationships,b9rdivor,Whether divorced,1.0,Yes
+623200,BCS70,bcs9_relationships,b9rdivor,Whether divorced,2.0,No
+623201,BCS70,bcs9_relationships,b9rdivm,When divorced - month,-9.0,Refused
+623202,BCS70,bcs9_relationships,b9rdivm,When divorced - month,-8.0,Don't know
+623203,BCS70,bcs9_relationships,b9rdivm,When divorced - month,-1.0,Not applicable
+623204,BCS70,bcs9_relationships,b9rdivm,When divorced - month,0.0,Before 2000
+623205,BCS70,bcs9_relationships,b9rdivm,When divorced - month,1.0,January
+623206,BCS70,bcs9_relationships,b9rdivm,When divorced - month,2.0,February
+623207,BCS70,bcs9_relationships,b9rdivm,When divorced - month,3.0,March
+623208,BCS70,bcs9_relationships,b9rdivm,When divorced - month,4.0,April
+623209,BCS70,bcs9_relationships,b9rdivm,When divorced - month,5.0,May
+623210,BCS70,bcs9_relationships,b9rdivm,When divorced - month,6.0,June
+623211,BCS70,bcs9_relationships,b9rdivm,When divorced - month,7.0,July
+623212,BCS70,bcs9_relationships,b9rdivm,When divorced - month,8.0,August
+623213,BCS70,bcs9_relationships,b9rdivm,When divorced - month,9.0,September
+623214,BCS70,bcs9_relationships,b9rdivm,When divorced - month,10.0,October
+623215,BCS70,bcs9_relationships,b9rdivm,When divorced - month,11.0,November
+623216,BCS70,bcs9_relationships,b9rdivm,When divorced - month,12.0,December
+623217,BCS70,bcs9_relationships,b9rdivy,When divorced - year,-9.0,Refused
+623218,BCS70,bcs9_relationships,b9rdivy,When divorced - year,-8.0,Don't know
+623219,BCS70,bcs9_relationships,b9rdivy,When divorced - year,-1.0,Not applicable
+623220,BCS70,bcs9_relationships,b9rdivy,When divorced - year,0.0,Before 2000
+623221,BCS70,bcs9_relationships,v3,None,,
+623222,BCS70,bcs9_relationships,avail_from_dt,,,

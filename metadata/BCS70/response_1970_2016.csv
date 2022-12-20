@@ -1,0 +1,110 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+645885,BCS70,response_1970_2016,study_id_e,,,
+645886,BCS70,response_1970_2016,sex,Sex of cohort member,1.0,Male
+645887,BCS70,response_1970_2016,sex,Sex of cohort member,2.0,Female
+645888,BCS70,response_1970_2016,sex,Sex of cohort member,3.0,Not Known
+645889,BCS70,response_1970_2016,cob,Country of birth of cohort member,-1.0,Never participated
+645890,BCS70,response_1970_2016,cob,Country of birth of cohort member,0.0,Unknown
+645891,BCS70,response_1970_2016,cob,Country of birth of cohort member,1.0,England
+645892,BCS70,response_1970_2016,cob,Country of birth of cohort member,2.0,Wales
+645893,BCS70,response_1970_2016,cob,Country of birth of cohort member,3.0,Scotland
+645894,BCS70,response_1970_2016,cob,Country of birth of cohort member,4.0,Northern Ireland
+645895,BCS70,response_1970_2016,cob,Country of birth of cohort member,5.0,Southern Ireland
+645896,BCS70,response_1970_2016,cob,Country of birth of cohort member,6.0,Overseas
+645897,BCS70,response_1970_2016,cob,Country of birth of cohort member,7.0,GB
+645898,BCS70,response_1970_2016,multipno,Twin or triplet identity,-1.0,Not applicable
+645899,BCS70,response_1970_2016,multipno,Twin or triplet identity,1.0,First Twin
+645900,BCS70,response_1970_2016,multipno,Twin or triplet identity,2.0,Second Twin
+645901,BCS70,response_1970_2016,twincode,Corresponding multiple identifier,-1.0,Not applicable
+645902,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),0.0,Refusal/Non-contact
+645903,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),1.0,Productive
+645904,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),2.0,Refusal
+645905,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),3.0,Non-contact
+645906,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),4.0,Other unproductive
+645907,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),5.0,Ineligible
+645908,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),6.0,Not Issued
+645909,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),7.0,Not Issued - Emigrant
+645910,BCS70,response_1970_2016,outcme01,Outcome to BCS1 (1970),8.0,Dead
+645911,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),0.0,Refusal/Non-contact
+645912,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),1.0,Productive
+645913,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),2.0,Refusal
+645914,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),3.0,Non-contact
+645915,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),4.0,Other unproductive
+645916,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),5.0,Ineligible
+645917,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),6.0,Not Issued
+645918,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),7.0,Not Issued - Emigrant
+645919,BCS70,response_1970_2016,outcme02,Outcome to BCS2 (1975),8.0,Dead
+645920,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),0.0,Refusal/Non-contact
+645921,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),1.0,Productive
+645922,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),2.0,Refusal
+645923,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),3.0,Non-contact
+645924,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),4.0,Other unproductive
+645925,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),5.0,Ineligible
+645926,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),6.0,Not Issued
+645927,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),7.0,Not Issued - Emigrant
+645928,BCS70,response_1970_2016,outcme03,Outcome to BCS3 (1980),8.0,Dead
+645929,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),0.0,Refusal/Non-contact
+645930,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),1.0,Productive
+645931,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),2.0,Refusal
+645932,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),3.0,Non-contact
+645933,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),4.0,Other unproductive
+645934,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),5.0,Ineligible
+645935,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),6.0,Not Issued
+645936,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),7.0,Not Issued - Emigrant
+645937,BCS70,response_1970_2016,outcme04,Outcome to BCS4 (1986),8.0,Dead
+645938,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),0.0,Refusal/Non-contact
+645939,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),1.0,Productive
+645940,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),2.0,Refusal
+645941,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),3.0,Non-contact
+645942,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),4.0,Other unproductive
+645943,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),5.0,Ineligible
+645944,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),6.0,Not Issued
+645945,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),7.0,Not Issued - Emigrant
+645946,BCS70,response_1970_2016,outcme05,Outcome to BCS5 (1996),8.0,Dead
+645947,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),0.0,Refusal/Non-contact
+645948,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),1.0,Productive
+645949,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),2.0,Refusal
+645950,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),3.0,Non-contact
+645951,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),4.0,Other unproductive
+645952,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),5.0,Ineligible
+645953,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),6.0,Not Issued
+645954,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),7.0,Not Issued - Emigrant
+645955,BCS70,response_1970_2016,outcme06,Outcome to BCS6 (2000),8.0,Dead
+645956,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),0.0,Refusal/Non-contact
+645957,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),1.0,Productive
+645958,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),2.0,Refusal
+645959,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),3.0,Non-contact
+645960,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),4.0,Other unproductive
+645961,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),5.0,Ineligible
+645962,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),6.0,Not Issued
+645963,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),7.0,Not Issued - Emigrant
+645964,BCS70,response_1970_2016,outcme07,Outcome to BCS7 (2004),8.0,Dead
+645965,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),0.0,Refusal/Non-contact
+645966,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),1.0,Productive
+645967,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),2.0,Refusal
+645968,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),3.0,Non-contact
+645969,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),4.0,Other unproductive
+645970,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),5.0,Ineligible
+645971,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),6.0,Not Issued
+645972,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),7.0,Not Issued - Emigrant
+645973,BCS70,response_1970_2016,outcme08,Outcome to BCS8 (2008),8.0,Dead
+645974,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),0.0,Refusal/Non-contact
+645975,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),1.0,Productive
+645976,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),2.0,Refusal
+645977,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),3.0,Non-contact
+645978,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),4.0,Other unproductive
+645979,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),5.0,Ineligible
+645980,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),6.0,Not Issued
+645981,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),7.0,Not Issued - Emigrant
+645982,BCS70,response_1970_2016,outcme09,Outcome to BCS9 (2012),8.0,Dead
+645983,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),0.0,Refusal/Non-contact
+645984,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),1.0,Productive
+645985,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),2.0,Refusal
+645986,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),3.0,Non-contact
+645987,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),4.0,Other unproductive
+645988,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),5.0,Ineligible
+645989,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),6.0,Not issued
+645990,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),7.0,Not issued - Emigrant
+645991,BCS70,response_1970_2016,outcme10,Outcome to BCS10 (2016),8.0,Dead
+645992,BCS70,response_1970_2016,v3,None,,
+645993,BCS70,response_1970_2016,avail_from_dt,,,

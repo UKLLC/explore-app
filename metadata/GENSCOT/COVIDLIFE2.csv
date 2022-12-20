@@ -1,0 +1,1514 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+710811,GENSCOT,COVIDLIFE2,study_id_e,,,
+710812,GENSCOT,COVIDLIFE2,enddate,Survey completion date,,
+710813,GENSCOT,COVIDLIFE2,progress,Survey progress percentage,,0:100 %
+710814,GENSCOT,COVIDLIFE2,s2_had_covid,"Do you think that you have had, or currently have COVID-19?",0.0,No 
+710815,GENSCOT,COVIDLIFE2,s2_had_covid,"Do you think that you have had, or currently have COVID-19?",1.0,"Yes, confirmed by a positive test "
+710816,GENSCOT,COVIDLIFE2,s2_had_covid,"Do you think that you have had, or currently have COVID-19?",2.0,"Yes, suspected COVID-19 but was not tested "
+710817,GENSCOT,COVIDLIFE2,s2_covid_symptoms_1,Dry cough,0.0,No
+710818,GENSCOT,COVIDLIFE2,s2_covid_symptoms_1,Dry cough,1.0,Yes
+710819,GENSCOT,COVIDLIFE2,s2_covid_symptoms_2,Fever/high temperature,0.0,No
+710820,GENSCOT,COVIDLIFE2,s2_covid_symptoms_2,Fever/high temperature,1.0,Yes
+710821,GENSCOT,COVIDLIFE2,s2_covid_symptoms_3,Shortness of breath,0.0,No
+710822,GENSCOT,COVIDLIFE2,s2_covid_symptoms_3,Shortness of breath,1.0,Yes
+710823,GENSCOT,COVIDLIFE2,s2_covid_symptoms_4,Headache,0.0,No
+710824,GENSCOT,COVIDLIFE2,s2_covid_symptoms_4,Headache,1.0,Yes
+710825,GENSCOT,COVIDLIFE2,s2_covid_symptoms_5,Aches and pains,0.0,No
+710826,GENSCOT,COVIDLIFE2,s2_covid_symptoms_5,Aches and pains,1.0,Yes
+710827,GENSCOT,COVIDLIFE2,s2_covid_symptoms_6,Sore throat,0.0,No
+710828,GENSCOT,COVIDLIFE2,s2_covid_symptoms_6,Sore throat,1.0,Yes
+710829,GENSCOT,COVIDLIFE2,s2_covid_symptoms_7,Fatigue/tiredness,0.0,No
+710830,GENSCOT,COVIDLIFE2,s2_covid_symptoms_7,Fatigue/tiredness,1.0,Yes
+710831,GENSCOT,COVIDLIFE2,s2_covid_symptoms_8,Runny nose,0.0,No
+710832,GENSCOT,COVIDLIFE2,s2_covid_symptoms_8,Runny nose,1.0,Yes
+710833,GENSCOT,COVIDLIFE2,s2_covid_symptoms_9,Diarrhoea,0.0,No
+710834,GENSCOT,COVIDLIFE2,s2_covid_symptoms_9,Diarrhoea,1.0,Yes
+710835,GENSCOT,COVIDLIFE2,s2_covid_symptoms_10,Stomach pains,0.0,No
+710836,GENSCOT,COVIDLIFE2,s2_covid_symptoms_10,Stomach pains,1.0,Yes
+710837,GENSCOT,COVIDLIFE2,s2_covid_symptoms_11,Nausea/feeling sick,0.0,No
+710838,GENSCOT,COVIDLIFE2,s2_covid_symptoms_11,Nausea/feeling sick,1.0,Yes
+710839,GENSCOT,COVIDLIFE2,s2_covid_symptoms_12,Lack of appetite,0.0,No
+710840,GENSCOT,COVIDLIFE2,s2_covid_symptoms_12,Lack of appetite,1.0,Yes
+710841,GENSCOT,COVIDLIFE2,s2_covid_symptoms_13,Sudden loss of smell and/or taste,0.0,No
+710842,GENSCOT,COVIDLIFE2,s2_covid_symptoms_13,Sudden loss of smell and/or taste,1.0,Yes
+710843,GENSCOT,COVIDLIFE2,s2_covid_symptoms_14,Sore eyes,0.0,No
+710844,GENSCOT,COVIDLIFE2,s2_covid_symptoms_14,Sore eyes,1.0,Yes
+710845,GENSCOT,COVIDLIFE2,s2_covid_symptoms_15,Developed pneumonia,0.0,No
+710846,GENSCOT,COVIDLIFE2,s2_covid_symptoms_15,Developed pneumonia,1.0,Yes
+710847,GENSCOT,COVIDLIFE2,s2_covid_symptoms_16,Other symptoms (please specify),0.0,No
+710848,GENSCOT,COVIDLIFE2,s2_covid_symptoms_16,Other symptoms (please specify),1.0,Yes
+710849,GENSCOT,COVIDLIFE2,s2_covid_services_1,Did you use or contact any of the following services about COVID19? GP surgery,0.0,No
+710850,GENSCOT,COVIDLIFE2,s2_covid_services_1,Did you use or contact any of the following services about COVID19? GP surgery,1.0,Yes
+710851,GENSCOT,COVIDLIFE2,s2_covid_services_2,NHS 111,0.0,No
+710852,GENSCOT,COVIDLIFE2,s2_covid_services_2,NHS 111,1.0,Yes
+710853,GENSCOT,COVIDLIFE2,s2_covid_services_3,Accident and emergency,0.0,No
+710854,GENSCOT,COVIDLIFE2,s2_covid_services_3,Accident and emergency,1.0,Yes
+710855,GENSCOT,COVIDLIFE2,s2_covid_services_4,The NHS website,0.0,No
+710856,GENSCOT,COVIDLIFE2,s2_covid_services_4,The NHS website,1.0,Yes
+710857,GENSCOT,COVIDLIFE2,s2_covid_services_96,None of the above,0.0,No
+710858,GENSCOT,COVIDLIFE2,s2_covid_services_96,None of the above,1.0,Yes
+710859,GENSCOT,COVIDLIFE2,s2_covid_hospital,Were you hospitalised because of COVID-19?,0.0,No 
+710860,GENSCOT,COVIDLIFE2,s2_covid_hospital,Were you hospitalised because of COVID-19?,1.0,Yes 
+710861,GENSCOT,COVIDLIFE2,s2_covid_hospital,Were you hospitalised because of COVID-19?,99.0,Don't know 
+710862,GENSCOT,COVIDLIFE2,s2_covid_icu,Were you in intensive care?,0.0,No 
+710863,GENSCOT,COVIDLIFE2,s2_covid_icu,Were you in intensive care?,1.0,Yes 
+710864,GENSCOT,COVIDLIFE2,s2_covid_icu,Were you in intensive care?,99.0,Don't know 
+710865,GENSCOT,COVIDLIFE2,s2_covid_ventilator,Did you need to use a ventilator to help you breathe?,0.0,No 
+710866,GENSCOT,COVIDLIFE2,s2_covid_ventilator,Did you need to use a ventilator to help you breathe?,1.0,"Yes, confirmed by a positive test "
+710867,GENSCOT,COVIDLIFE2,s2_covid_ventilator,Did you need to use a ventilator to help you breathe?,2.0,"Yes, suspected COVID-19 but was not tested "
+710868,GENSCOT,COVIDLIFE2,s2_covid_household,Do you think anyone else in your household has had or currently has COVID-19?,0.0,No
+710869,GENSCOT,COVIDLIFE2,s2_covid_household,Do you think anyone else in your household has had or currently has COVID-19?,1.0,Yes
+710870,GENSCOT,COVIDLIFE2,s2_covid_died_1,"Yes, family member(s)",0.0,No
+710871,GENSCOT,COVIDLIFE2,s2_covid_died_1,"Yes, family member(s)",1.0,Yes
+710872,GENSCOT,COVIDLIFE2,s2_covid_died_2,"Yes, friend(s)",0.0,No
+710873,GENSCOT,COVIDLIFE2,s2_covid_died_2,"Yes, friend(s)",1.0,Yes
+710874,GENSCOT,COVIDLIFE2,s2_covid_died_3,"Yes, someone else",0.0,No
+710875,GENSCOT,COVIDLIFE2,s2_covid_died_3,"Yes, someone else",1.0,Yes
+710876,GENSCOT,COVIDLIFE2,s2_covid_died_0,No,0.0,No
+710877,GENSCOT,COVIDLIFE2,s2_covid_died_0,No,1.0,Yes
+710878,GENSCOT,COVIDLIFE2,s2_covid_died_98,Prefer not answer,0.0,No
+710879,GENSCOT,COVIDLIFE2,s2_covid_died_98,Prefer not answer,1.0,Yes
+710880,GENSCOT,COVIDLIFE2,s2_leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household? By close contact, we mean coming within 2 Metres of someone",1.0,I don't leave my home 
+710881,GENSCOT,COVIDLIFE2,s2_leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household? By close contact, we mean coming within 2 Metres of someone",2.0,Not at all likely 
+710882,GENSCOT,COVIDLIFE2,s2_leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household? By close contact, we mean coming within 2 Metres of someone",3.0,Not that likely 
+710883,GENSCOT,COVIDLIFE2,s2_leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household? By close contact, we mean coming within 2 Metres of someone",4.0,Somewhat likely 
+710884,GENSCOT,COVIDLIFE2,s2_leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household? By close contact, we mean coming within 2 Metres of someone",5.0,Very likely 
+710885,GENSCOT,COVIDLIFE2,s2_covid_actions,My actions will influence whether or not I get COVID-19,,"do not agree at all(1) ,..., agree very strongly(10)"
+710886,GENSCOT,COVIDLIFE2,s2_resp_govguidance,It is my responsibility to follow all Government guidance to prevent the spread of COVID-19 to others,,"do not agree at all(1) ,..., agree very strongly(10)"
+710887,GENSCOT,COVIDLIFE2,s2_livearrange_1,I moved somewhere else temporarily because of the COVID-19 pandemic,0.0,No
+710888,GENSCOT,COVIDLIFE2,s2_livearrange_1,I moved somewhere else temporarily because of the COVID-19 pandemic,1.0,Yes
+710889,GENSCOT,COVIDLIFE2,s2_livearrange_2,I started living with my partner because of the COVID-19 pandemic,0.0,No
+710890,GENSCOT,COVIDLIFE2,s2_livearrange_2,I started living with my partner because of the COVID-19 pandemic,1.0,Yes
+710891,GENSCOT,COVIDLIFE2,s2_livearrange_3,"An adult other than my partner (e.g., sibling, child, parent) moved into my address because of the COVID-19 pandemic",0.0,No
+710892,GENSCOT,COVIDLIFE2,s2_livearrange_3,"An adult other than my partner (e.g., sibling, child, parent) moved into my address because of the COVID-19 pandemic",1.0,Yes
+710893,GENSCOT,COVIDLIFE2,s2_livearrange_4,Adults I live with have moved elsewhere because of the COVID-19 pandemic,0.0,No
+710894,GENSCOT,COVIDLIFE2,s2_livearrange_4,Adults I live with have moved elsewhere because of the COVID-19 pandemic,1.0,Yes
+710895,GENSCOT,COVIDLIFE2,s2_livearrange_5,One or more young persons moved into my address because of the COVID-19 pandemic,0.0,No
+710896,GENSCOT,COVIDLIFE2,s2_livearrange_5,One or more young persons moved into my address because of the COVID-19 pandemic,1.0,Yes
+710897,GENSCOT,COVIDLIFE2,s2_livearrange_6,My living arrangement has not changed,0.0,No
+710898,GENSCOT,COVIDLIFE2,s2_livearrange_6,My living arrangement has not changed,1.0,Yes
+710899,GENSCOT,COVIDLIFE2,s2_partnerlivewith,Do you have a partner that you live with?,0.0,"No, I do not live with a partner "
+710900,GENSCOT,COVIDLIFE2,s2_partnerlivewith,Do you have a partner that you live with?,1.0,"Yes, I live with a partner "
+710901,GENSCOT,COVIDLIFE2,s2_partnerlivewith,Do you have a partner that you live with?,98.0,Prefer not to say 
+710902,GENSCOT,COVIDLIFE2,s2_partnersex,PartnerSex,1.0,Male 
+710903,GENSCOT,COVIDLIFE2,s2_partnersex,PartnerSex,2.0,Female 
+710904,GENSCOT,COVIDLIFE2,s2_partnersex,PartnerSex,3.0,Non-binary 
+710905,GENSCOT,COVIDLIFE2,s2_partnersex,PartnerSex,98.0,Prefer not to say 
+710906,GENSCOT,COVIDLIFE2,s2_mood_skip,Mood_Skip,1.0,Continue with this section
+710907,GENSCOT,COVIDLIFE2,s2_mood_skip,Mood_Skip,2.0,I would prefer to skip this section
+710908,GENSCOT,COVIDLIFE2,s2_lonely_pastweek,How often have you felt lonely during the past week,1.0,"None, or almost none of the time"
+710909,GENSCOT,COVIDLIFE2,s2_lonely_pastweek,How often have you felt lonely during the past week,2.0,Some of the time
+710910,GENSCOT,COVIDLIFE2,s2_lonely_pastweek,How often have you felt lonely during the past week,3.0,Most of the time
+710911,GENSCOT,COVIDLIFE2,s2_lonely_pastweek,How often have you felt lonely during the past week,4.0,"All, or almost all of the time"
+710912,GENSCOT,COVIDLIFE2,s2_lonely_pastweek,How often have you felt lonely during the past week,98.0,Prefer not to answer
+710913,GENSCOT,COVIDLIFE2,s2_lonely_pastweek,How often have you felt lonely during the past week,99.0,Don't know
+710914,GENSCOT,COVIDLIFE2,s2_isolated_covid,"On a scale of 0 (not at all) to 10 (extremely), indicate how much you feel isolated from others now",,"not at all(0) ,..., extremely(10)"
+710915,GENSCOT,COVIDLIFE2,s2_gad_q1,GAD Question 1,1.0,Not at all
+710916,GENSCOT,COVIDLIFE2,s2_gad_q1,GAD Question 1,2.0,Several days
+710917,GENSCOT,COVIDLIFE2,s2_gad_q1,GAD Question 1,3.0,More than half the days
+710918,GENSCOT,COVIDLIFE2,s2_gad_q1,GAD Question 1,4.0,Nearly every day
+710919,GENSCOT,COVIDLIFE2,s2_gad_q1,GAD Question 1,98.0,Prefer not to answer
+710920,GENSCOT,COVIDLIFE2,s2_gad_q1,GAD Question 1,99.0,Don't know
+710921,GENSCOT,COVIDLIFE2,s2_gad_q2,GAD Question 2,1.0,Not at all
+710922,GENSCOT,COVIDLIFE2,s2_gad_q2,GAD Question 2,2.0,Several days
+710923,GENSCOT,COVIDLIFE2,s2_gad_q2,GAD Question 2,3.0,More than half the days
+710924,GENSCOT,COVIDLIFE2,s2_gad_q2,GAD Question 2,4.0,Nearly every day
+710925,GENSCOT,COVIDLIFE2,s2_gad_q2,GAD Question 2,98.0,Prefer not to answer
+710926,GENSCOT,COVIDLIFE2,s2_gad_q2,GAD Question 2,99.0,Don't know
+710927,GENSCOT,COVIDLIFE2,s2_gad_q3,GAD Question 3,1.0,Not at all
+710928,GENSCOT,COVIDLIFE2,s2_gad_q3,GAD Question 3,2.0,Several days
+710929,GENSCOT,COVIDLIFE2,s2_gad_q3,GAD Question 3,3.0,More than half the days
+710930,GENSCOT,COVIDLIFE2,s2_gad_q3,GAD Question 3,4.0,Nearly every day
+710931,GENSCOT,COVIDLIFE2,s2_gad_q3,GAD Question 3,98.0,Prefer not to answer
+710932,GENSCOT,COVIDLIFE2,s2_gad_q3,GAD Question 3,99.0,Don't know
+710933,GENSCOT,COVIDLIFE2,s2_gad_q4,GAD Question 4,98.0,Prefer not to answer
+710934,GENSCOT,COVIDLIFE2,s2_gad_q4,GAD Question 4,99.0,Don't know
+710935,GENSCOT,COVIDLIFE2,s2_gad_q4,GAD Question 4,1.0,Not at all
+710936,GENSCOT,COVIDLIFE2,s2_gad_q4,GAD Question 4,2.0,Several days
+710937,GENSCOT,COVIDLIFE2,s2_gad_q4,GAD Question 4,3.0,More than half the days
+710938,GENSCOT,COVIDLIFE2,s2_gad_q4,GAD Question 4,4.0,Nearly every day
+710939,GENSCOT,COVIDLIFE2,s2_gad_q5,GAD Question 5,1.0,Not at all
+710940,GENSCOT,COVIDLIFE2,s2_gad_q5,GAD Question 5,2.0,Several days
+710941,GENSCOT,COVIDLIFE2,s2_gad_q5,GAD Question 5,3.0,More than half the days
+710942,GENSCOT,COVIDLIFE2,s2_gad_q5,GAD Question 5,4.0,Nearly every day
+710943,GENSCOT,COVIDLIFE2,s2_gad_q5,GAD Question 5,98.0,Prefer not to answer
+710944,GENSCOT,COVIDLIFE2,s2_gad_q5,GAD Question 5,99.0,Don't know
+710945,GENSCOT,COVIDLIFE2,s2_gad_q6,GAD Question 6,1.0,Not at all
+710946,GENSCOT,COVIDLIFE2,s2_gad_q6,GAD Question 6,2.0,Several days
+710947,GENSCOT,COVIDLIFE2,s2_gad_q6,GAD Question 6,3.0,More than half the days
+710948,GENSCOT,COVIDLIFE2,s2_gad_q6,GAD Question 6,4.0,Nearly every day
+710949,GENSCOT,COVIDLIFE2,s2_gad_q6,GAD Question 6,98.0,Prefer not to answer
+710950,GENSCOT,COVIDLIFE2,s2_gad_q6,GAD Question 6,99.0,Don't know
+710951,GENSCOT,COVIDLIFE2,s2_gad_q7,GAD Question 7,1.0,Not at all
+710952,GENSCOT,COVIDLIFE2,s2_gad_q7,GAD Question 7,2.0,Several days
+710953,GENSCOT,COVIDLIFE2,s2_gad_q7,GAD Question 7,3.0,More than half the days
+710954,GENSCOT,COVIDLIFE2,s2_gad_q7,GAD Question 7,4.0,Nearly every day
+710955,GENSCOT,COVIDLIFE2,s2_gad_q7,GAD Question 7,98.0,Prefer not to answer
+710956,GENSCOT,COVIDLIFE2,s2_gad_q7,GAD Question 7,99.0,Don't know
+710957,GENSCOT,COVIDLIFE2,s2_phq_q1,PHQ Question 1,1.0,Not at all
+710958,GENSCOT,COVIDLIFE2,s2_phq_q1,PHQ Question 1,2.0,Several days
+710959,GENSCOT,COVIDLIFE2,s2_phq_q1,PHQ Question 1,3.0,More than half the days
+710960,GENSCOT,COVIDLIFE2,s2_phq_q1,PHQ Question 1,4.0,Nearly every day
+710961,GENSCOT,COVIDLIFE2,s2_phq_q1,PHQ Question 1,98.0,Prefer not to answer
+710962,GENSCOT,COVIDLIFE2,s2_phq_q1,PHQ Question 1,99.0,Don't know
+710963,GENSCOT,COVIDLIFE2,s2_phq_q2,PHQ Question 2,1.0,Not at all
+710964,GENSCOT,COVIDLIFE2,s2_phq_q2,PHQ Question 2,2.0,Several days
+710965,GENSCOT,COVIDLIFE2,s2_phq_q2,PHQ Question 2,3.0,More than half the days
+710966,GENSCOT,COVIDLIFE2,s2_phq_q2,PHQ Question 2,4.0,Nearly every day
+710967,GENSCOT,COVIDLIFE2,s2_phq_q2,PHQ Question 2,98.0,Prefer not to answer
+710968,GENSCOT,COVIDLIFE2,s2_phq_q2,PHQ Question 2,99.0,Don't know
+710969,GENSCOT,COVIDLIFE2,s2_phq_q3,PHQ Question 3,1.0,Not at all
+710970,GENSCOT,COVIDLIFE2,s2_phq_q3,PHQ Question 3,2.0,Several days
+710971,GENSCOT,COVIDLIFE2,s2_phq_q3,PHQ Question 3,3.0,More than half the days
+710972,GENSCOT,COVIDLIFE2,s2_phq_q3,PHQ Question 3,4.0,Nearly every day
+710973,GENSCOT,COVIDLIFE2,s2_phq_q3,PHQ Question 3,98.0,Prefer not to answer
+710974,GENSCOT,COVIDLIFE2,s2_phq_q3,PHQ Question 3,99.0,Don't know
+710975,GENSCOT,COVIDLIFE2,s2_phq_q4,PHQ Question 4,1.0,Not at all
+710976,GENSCOT,COVIDLIFE2,s2_phq_q4,PHQ Question 4,2.0,Several days
+710977,GENSCOT,COVIDLIFE2,s2_phq_q4,PHQ Question 4,3.0,More than half the days
+710978,GENSCOT,COVIDLIFE2,s2_phq_q4,PHQ Question 4,4.0,Nearly every day
+710979,GENSCOT,COVIDLIFE2,s2_phq_q4,PHQ Question 4,98.0,Prefer not to answer
+710980,GENSCOT,COVIDLIFE2,s2_phq_q4,PHQ Question 4,99.0,Don't know
+710981,GENSCOT,COVIDLIFE2,s2_phq_q5,PHQ Question 5,1.0,Not at all
+710982,GENSCOT,COVIDLIFE2,s2_phq_q5,PHQ Question 5,2.0,Several days
+710983,GENSCOT,COVIDLIFE2,s2_phq_q5,PHQ Question 5,3.0,More than half the days
+710984,GENSCOT,COVIDLIFE2,s2_phq_q5,PHQ Question 5,4.0,Nearly every day
+710985,GENSCOT,COVIDLIFE2,s2_phq_q5,PHQ Question 5,98.0,Prefer not to answer
+710986,GENSCOT,COVIDLIFE2,s2_phq_q5,PHQ Question 5,99.0,Don't know
+710987,GENSCOT,COVIDLIFE2,s2_phq_q6,PHQ Question 6,1.0,Not at all
+710988,GENSCOT,COVIDLIFE2,s2_phq_q6,PHQ Question 6,2.0,Several days
+710989,GENSCOT,COVIDLIFE2,s2_phq_q6,PHQ Question 6,3.0,More than half the days
+710990,GENSCOT,COVIDLIFE2,s2_phq_q6,PHQ Question 6,4.0,Nearly every day
+710991,GENSCOT,COVIDLIFE2,s2_phq_q6,PHQ Question 6,98.0,Prefer not to answer
+710992,GENSCOT,COVIDLIFE2,s2_phq_q6,PHQ Question 6,99.0,Don't know
+710993,GENSCOT,COVIDLIFE2,s2_phq_q7,PHQ Question 7,1.0,Not at all
+710994,GENSCOT,COVIDLIFE2,s2_phq_q7,PHQ Question 7,2.0,Several days
+710995,GENSCOT,COVIDLIFE2,s2_phq_q7,PHQ Question 7,3.0,More than half the days
+710996,GENSCOT,COVIDLIFE2,s2_phq_q7,PHQ Question 7,4.0,Nearly every day
+710997,GENSCOT,COVIDLIFE2,s2_phq_q7,PHQ Question 7,98.0,Prefer not to answer
+710998,GENSCOT,COVIDLIFE2,s2_phq_q7,PHQ Question 7,99.0,Don't know
+710999,GENSCOT,COVIDLIFE2,s2_phq_q8,PHQ Question 8,1.0,Not at all
+711000,GENSCOT,COVIDLIFE2,s2_phq_q8,PHQ Question 8,2.0,Several days
+711001,GENSCOT,COVIDLIFE2,s2_phq_q8,PHQ Question 8,3.0,More than half the days
+711002,GENSCOT,COVIDLIFE2,s2_phq_q8,PHQ Question 8,4.0,Nearly every day
+711003,GENSCOT,COVIDLIFE2,s2_phq_q8,PHQ Question 8,98.0,Prefer not to answer
+711004,GENSCOT,COVIDLIFE2,s2_phq_q8,PHQ Question 8,99.0,Don't know
+711005,GENSCOT,COVIDLIFE2,s2_phq_q9,PHQ Question 9,1.0,Not at all
+711006,GENSCOT,COVIDLIFE2,s2_phq_q9,PHQ Question 9,2.0,Several days
+711007,GENSCOT,COVIDLIFE2,s2_phq_q9,PHQ Question 9,3.0,More than half the days
+711008,GENSCOT,COVIDLIFE2,s2_phq_q9,PHQ Question 9,4.0,Nearly every day
+711009,GENSCOT,COVIDLIFE2,s2_phq_q9,PHQ Question 9,98.0,Prefer not to answer
+711010,GENSCOT,COVIDLIFE2,s2_phq_q9,PHQ Question 9,99.0,Don't know
+711011,GENSCOT,COVIDLIFE2,s2_stress_covid,Stress_COVID,1.0,Never
+711012,GENSCOT,COVIDLIFE2,s2_stress_covid,Stress_COVID,2.0,Some of the time 
+711013,GENSCOT,COVIDLIFE2,s2_stress_covid,Stress_COVID,3.0,Most of the time 
+711014,GENSCOT,COVIDLIFE2,s2_stress_covid,Stress_COVID,4.0,All of the time
+711015,GENSCOT,COVIDLIFE2,s2_mwbs_q1,I’ve been feeling optimistic about the future,1.0,None of the time
+711016,GENSCOT,COVIDLIFE2,s2_mwbs_q1,I’ve been feeling optimistic about the future,2.0,Rarely
+711017,GENSCOT,COVIDLIFE2,s2_mwbs_q1,I’ve been feeling optimistic about the future,3.0,Some of the time
+711018,GENSCOT,COVIDLIFE2,s2_mwbs_q1,I’ve been feeling optimistic about the future,4.0,Often
+711019,GENSCOT,COVIDLIFE2,s2_mwbs_q1,I’ve been feeling optimistic about the future,5.0,All of the time
+711020,GENSCOT,COVIDLIFE2,s2_mwbs_q2,I’ve been feeling useful,3.0,Some of the time
+711021,GENSCOT,COVIDLIFE2,s2_mwbs_q2,I’ve been feeling useful,4.0,Often
+711022,GENSCOT,COVIDLIFE2,s2_mwbs_q2,I’ve been feeling useful,5.0,All of the time
+711023,GENSCOT,COVIDLIFE2,s2_mwbs_q2,I’ve been feeling useful,1.0,None of the time
+711024,GENSCOT,COVIDLIFE2,s2_mwbs_q2,I’ve been feeling useful,2.0,Rarely
+711025,GENSCOT,COVIDLIFE2,s2_mwbs_q3,I’ve been feeling relaxed,1.0,None of the time
+711026,GENSCOT,COVIDLIFE2,s2_mwbs_q3,I’ve been feeling relaxed,2.0,Rarely
+711027,GENSCOT,COVIDLIFE2,s2_mwbs_q3,I’ve been feeling relaxed,3.0,Some of the time
+711028,GENSCOT,COVIDLIFE2,s2_mwbs_q3,I’ve been feeling relaxed,4.0,Often
+711029,GENSCOT,COVIDLIFE2,s2_mwbs_q3,I’ve been feeling relaxed,5.0,All of the time
+711030,GENSCOT,COVIDLIFE2,s2_mwbs_q4,I’ve been dealing with problems well,1.0,None of the time
+711031,GENSCOT,COVIDLIFE2,s2_mwbs_q4,I’ve been dealing with problems well,2.0,Rarely
+711032,GENSCOT,COVIDLIFE2,s2_mwbs_q4,I’ve been dealing with problems well,3.0,Some of the time
+711033,GENSCOT,COVIDLIFE2,s2_mwbs_q4,I’ve been dealing with problems well,4.0,Often
+711034,GENSCOT,COVIDLIFE2,s2_mwbs_q4,I’ve been dealing with problems well,5.0,All of the time
+711035,GENSCOT,COVIDLIFE2,s2_mwbs_q5,I’ve been thinking clearly,1.0,None of the time
+711036,GENSCOT,COVIDLIFE2,s2_mwbs_q5,I’ve been thinking clearly,2.0,Rarely
+711037,GENSCOT,COVIDLIFE2,s2_mwbs_q5,I’ve been thinking clearly,3.0,Some of the time
+711038,GENSCOT,COVIDLIFE2,s2_mwbs_q5,I’ve been thinking clearly,4.0,Often
+711039,GENSCOT,COVIDLIFE2,s2_mwbs_q5,I’ve been thinking clearly,5.0,All of the time
+711040,GENSCOT,COVIDLIFE2,s2_mwbs_q6,I’ve been feeling close to other people,1.0,None of the time
+711041,GENSCOT,COVIDLIFE2,s2_mwbs_q6,I’ve been feeling close to other people,2.0,Rarely
+711042,GENSCOT,COVIDLIFE2,s2_mwbs_q6,I’ve been feeling close to other people,3.0,Some of the time
+711043,GENSCOT,COVIDLIFE2,s2_mwbs_q6,I’ve been feeling close to other people,4.0,Often
+711044,GENSCOT,COVIDLIFE2,s2_mwbs_q6,I’ve been feeling close to other people,5.0,All of the time
+711045,GENSCOT,COVIDLIFE2,s2_mwbs_q7,I’ve been able to make up my own mind on things,1.0,None of the time
+711046,GENSCOT,COVIDLIFE2,s2_mwbs_q7,I’ve been able to make up my own mind on things,2.0,Rarely
+711047,GENSCOT,COVIDLIFE2,s2_mwbs_q7,I’ve been able to make up my own mind on things,3.0,Some of the time
+711048,GENSCOT,COVIDLIFE2,s2_mwbs_q7,I’ve been able to make up my own mind on things,4.0,Often
+711049,GENSCOT,COVIDLIFE2,s2_mwbs_q7,I’ve been able to make up my own mind on things,5.0,All of the time
+711050,GENSCOT,COVIDLIFE2,s2_lifesat_now,LifeSatisfaction_Now,,"not at all(0) ,..., extremely(10)"
+711051,GENSCOT,COVIDLIFE2,s2_worry_spouserel,"In the past month, have you been worried about: Relationship with spouse/partner",1.0,Not at all worried
+711052,GENSCOT,COVIDLIFE2,s2_worry_spouserel,"In the past month, have you been worried about: Relationship with spouse/partner",2.0,Slightly worried
+711053,GENSCOT,COVIDLIFE2,s2_worry_spouserel,"In the past month, have you been worried about: Relationship with spouse/partner",3.0,Moderately worried
+711054,GENSCOT,COVIDLIFE2,s2_worry_spouserel,"In the past month, have you been worried about: Relationship with spouse/partner",4.0,Very worried
+711055,GENSCOT,COVIDLIFE2,s2_worry_spouserel,"In the past month, have you been worried about: Relationship with spouse/partner",5.0,Extremely worried
+711056,GENSCOT,COVIDLIFE2,s2_worry_spouserel,"In the past month, have you been worried about: Relationship with spouse/partner",97.0,Not applicable
+711057,GENSCOT,COVIDLIFE2,s2_worry_spouseargue,Arguing with spouse/partner,1.0,Not at all worried
+711058,GENSCOT,COVIDLIFE2,s2_worry_spouseargue,Arguing with spouse/partner,2.0,Slightly worried
+711059,GENSCOT,COVIDLIFE2,s2_worry_spouseargue,Arguing with spouse/partner,3.0,Moderately worried
+711060,GENSCOT,COVIDLIFE2,s2_worry_spouseargue,Arguing with spouse/partner,4.0,Very worried
+711061,GENSCOT,COVIDLIFE2,s2_worry_spouseargue,Arguing with spouse/partner,5.0,Extremely worried
+711062,GENSCOT,COVIDLIFE2,s2_worry_spouseargue,Arguing with spouse/partner,97.0,Not applicable
+711063,GENSCOT,COVIDLIFE2,s2_worry_lifeplans,having life plans put on hold,1.0,Not at all worried
+711064,GENSCOT,COVIDLIFE2,s2_worry_lifeplans,having life plans put on hold,2.0,Slightly worried
+711065,GENSCOT,COVIDLIFE2,s2_worry_lifeplans,having life plans put on hold,3.0,Moderately worried
+711066,GENSCOT,COVIDLIFE2,s2_worry_lifeplans,having life plans put on hold,4.0,Very worried
+711067,GENSCOT,COVIDLIFE2,s2_worry_lifeplans,having life plans put on hold,5.0,Extremely worried
+711068,GENSCOT,COVIDLIFE2,s2_worry_lifeplans,having life plans put on hold,97.0,Not applicable
+711069,GENSCOT,COVIDLIFE2,s2_worry_seefamily,Not being able to see family,1.0,Not at all worried
+711070,GENSCOT,COVIDLIFE2,s2_worry_seefamily,Not being able to see family,2.0,Slightly worried
+711071,GENSCOT,COVIDLIFE2,s2_worry_seefamily,Not being able to see family,3.0,Moderately worried
+711072,GENSCOT,COVIDLIFE2,s2_worry_seefamily,Not being able to see family,4.0,Very worried
+711073,GENSCOT,COVIDLIFE2,s2_worry_seefamily,Not being able to see family,5.0,Extremely worried
+711074,GENSCOT,COVIDLIFE2,s2_worry_seefamily,Not being able to see family,97.0,Not applicable
+711075,GENSCOT,COVIDLIFE2,s2_worry_seefriends,Not being able to see friends,1.0,Not at all worried
+711076,GENSCOT,COVIDLIFE2,s2_worry_seefriends,Not being able to see friends,2.0,Slightly worried
+711077,GENSCOT,COVIDLIFE2,s2_worry_seefriends,Not being able to see friends,3.0,Moderately worried
+711078,GENSCOT,COVIDLIFE2,s2_worry_seefriends,Not being able to see friends,4.0,Very worried
+711079,GENSCOT,COVIDLIFE2,s2_worry_seefriends,Not being able to see friends,5.0,Extremely worried
+711080,GENSCOT,COVIDLIFE2,s2_worry_seefriends,Not being able to see friends,97.0,Not applicable
+711081,GENSCOT,COVIDLIFE2,s2_perstress_q2,felt that you were unable to control the important things in your life?,0.0,Never
+711082,GENSCOT,COVIDLIFE2,s2_perstress_q2,felt that you were unable to control the important things in your life?,1.0,Almost never
+711083,GENSCOT,COVIDLIFE2,s2_perstress_q2,felt that you were unable to control the important things in your life?,2.0,Sometimes
+711084,GENSCOT,COVIDLIFE2,s2_perstress_q2,felt that you were unable to control the important things in your life?,3.0,Fairly often
+711085,GENSCOT,COVIDLIFE2,s2_perstress_q2,felt that you were unable to control the important things in your life?,4.0,Very often
+711086,GENSCOT,COVIDLIFE2,s2_perstress_q4,felt confident about your ability to handle your personal problems?,0.0,Never
+711087,GENSCOT,COVIDLIFE2,s2_perstress_q4,felt confident about your ability to handle your personal problems?,1.0,Almost never
+711088,GENSCOT,COVIDLIFE2,s2_perstress_q4,felt confident about your ability to handle your personal problems?,2.0,Sometimes
+711089,GENSCOT,COVIDLIFE2,s2_perstress_q4,felt confident about your ability to handle your personal problems?,3.0,Fairly often
+711090,GENSCOT,COVIDLIFE2,s2_perstress_q4,felt confident about your ability to handle your personal problems?,4.0,Very often
+711091,GENSCOT,COVIDLIFE2,s2_perstress_q5,felt that things were going your way?,0.0,Never
+711092,GENSCOT,COVIDLIFE2,s2_perstress_q5,felt that things were going your way?,1.0,Almost never
+711093,GENSCOT,COVIDLIFE2,s2_perstress_q5,felt that things were going your way?,2.0,Sometimes
+711094,GENSCOT,COVIDLIFE2,s2_perstress_q5,felt that things were going your way?,3.0,Fairly often
+711095,GENSCOT,COVIDLIFE2,s2_perstress_q5,felt that things were going your way?,4.0,Very often
+711096,GENSCOT,COVIDLIFE2,s2_perstress_q10,felt difficulties were piling up so high that you could not overcome them?,0.0,Never
+711097,GENSCOT,COVIDLIFE2,s2_perstress_q10,felt difficulties were piling up so high that you could not overcome them?,1.0,Almost never
+711098,GENSCOT,COVIDLIFE2,s2_perstress_q10,felt difficulties were piling up so high that you could not overcome them?,2.0,Sometimes
+711099,GENSCOT,COVIDLIFE2,s2_perstress_q10,felt difficulties were piling up so high that you could not overcome them?,3.0,Fairly often
+711100,GENSCOT,COVIDLIFE2,s2_perstress_q10,felt difficulties were piling up so high that you could not overcome them?,4.0,Very often
+711101,GENSCOT,COVIDLIFE2,s2_brs_q1,I tend to bounce back quickly after hard times,1.0,Strongly Disagree
+711102,GENSCOT,COVIDLIFE2,s2_brs_q1,I tend to bounce back quickly after hard times,2.0,Disagree
+711103,GENSCOT,COVIDLIFE2,s2_brs_q1,I tend to bounce back quickly after hard times,3.0,Neutral
+711104,GENSCOT,COVIDLIFE2,s2_brs_q1,I tend to bounce back quickly after hard times,4.0,Agree
+711105,GENSCOT,COVIDLIFE2,s2_brs_q1,I tend to bounce back quickly after hard times,5.0,Strongly Agree
+711106,GENSCOT,COVIDLIFE2,s2_brs_q2,I have a hard time making it through stressful events,1.0,Strongly Agree
+711107,GENSCOT,COVIDLIFE2,s2_brs_q2,I have a hard time making it through stressful events,2.0,Agree
+711108,GENSCOT,COVIDLIFE2,s2_brs_q2,I have a hard time making it through stressful events,3.0,Neutral
+711109,GENSCOT,COVIDLIFE2,s2_brs_q2,I have a hard time making it through stressful events,4.0,Disagree
+711110,GENSCOT,COVIDLIFE2,s2_brs_q2,I have a hard time making it through stressful events,5.0,Strongly Disagree
+711111,GENSCOT,COVIDLIFE2,s2_brs_q3,It does not take me long to recover from stressful events,1.0,Strongly Disagree
+711112,GENSCOT,COVIDLIFE2,s2_brs_q3,It does not take me long to recover from stressful events,2.0,Disagree
+711113,GENSCOT,COVIDLIFE2,s2_brs_q3,It does not take me long to recover from stressful events,3.0,Neutral
+711114,GENSCOT,COVIDLIFE2,s2_brs_q3,It does not take me long to recover from stressful events,4.0,Agree
+711115,GENSCOT,COVIDLIFE2,s2_brs_q3,It does not take me long to recover from stressful events,5.0,Strongly Agree
+711116,GENSCOT,COVIDLIFE2,s2_brs_q4,It is hard for me to snap back when something bad happens,1.0,Strongly Agree
+711117,GENSCOT,COVIDLIFE2,s2_brs_q4,It is hard for me to snap back when something bad happens,2.0,Agree
+711118,GENSCOT,COVIDLIFE2,s2_brs_q4,It is hard for me to snap back when something bad happens,3.0,Neutral
+711119,GENSCOT,COVIDLIFE2,s2_brs_q4,It is hard for me to snap back when something bad happens,4.0,Disagree
+711120,GENSCOT,COVIDLIFE2,s2_brs_q4,It is hard for me to snap back when something bad happens,5.0,Strongly Disagree
+711121,GENSCOT,COVIDLIFE2,s2_brs_q5,I usually come through difficult times with little trouble,1.0,Strongly Disagree
+711122,GENSCOT,COVIDLIFE2,s2_brs_q5,I usually come through difficult times with little trouble,2.0,Disagree
+711123,GENSCOT,COVIDLIFE2,s2_brs_q5,I usually come through difficult times with little trouble,3.0,Neutral
+711124,GENSCOT,COVIDLIFE2,s2_brs_q5,I usually come through difficult times with little trouble,4.0,Agree
+711125,GENSCOT,COVIDLIFE2,s2_brs_q5,I usually come through difficult times with little trouble,5.0,Strongly Agree
+711126,GENSCOT,COVIDLIFE2,s2_brs_q6,I tend to take a long time to get over set-backs in life,1.0,Strongly Agree
+711127,GENSCOT,COVIDLIFE2,s2_brs_q6,I tend to take a long time to get over set-backs in life,2.0,Agree
+711128,GENSCOT,COVIDLIFE2,s2_brs_q6,I tend to take a long time to get over set-backs in life,3.0,Neutral
+711129,GENSCOT,COVIDLIFE2,s2_brs_q6,I tend to take a long time to get over set-backs in life,4.0,Disagree
+711130,GENSCOT,COVIDLIFE2,s2_brs_q6,I tend to take a long time to get over set-backs in life,5.0,Strongly Disagree
+711131,GENSCOT,COVIDLIFE2,s2_socialdist,Have you been following the government guidance on: Social distancing (sometimes also called 'physical distancing'),1.0,Never
+711132,GENSCOT,COVIDLIFE2,s2_socialdist,Have you been following the government guidance on: Social distancing (sometimes also called 'physical distancing'),2.0,Some of the time
+711133,GENSCOT,COVIDLIFE2,s2_socialdist,Have you been following the government guidance on: Social distancing (sometimes also called 'physical distancing'),3.0,Most of the time
+711134,GENSCOT,COVIDLIFE2,s2_socialdist,Have you been following the government guidance on: Social distancing (sometimes also called 'physical distancing'),4.0,Always
+711135,GENSCOT,COVIDLIFE2,s2_handwashing,Have you been following the government guidance on: Hand washing,1.0,Never
+711136,GENSCOT,COVIDLIFE2,s2_handwashing,Have you been following the government guidance on: Hand washing,2.0,Some of the time
+711137,GENSCOT,COVIDLIFE2,s2_handwashing,Have you been following the government guidance on: Hand washing,3.0,Most of the time
+711138,GENSCOT,COVIDLIFE2,s2_handwashing,Have you been following the government guidance on: Hand washing,4.0,Always
+711139,GENSCOT,COVIDLIFE2,s2_facecover,Have you been following the government guidance on: Wearing face coverings on public transport and in shops,1.0,Never
+711140,GENSCOT,COVIDLIFE2,s2_facecover,Have you been following the government guidance on: Wearing face coverings on public transport and in shops,2.0,Some of the time
+711141,GENSCOT,COVIDLIFE2,s2_facecover,Have you been following the government guidance on: Wearing face coverings on public transport and in shops,3.0,Most of the time
+711142,GENSCOT,COVIDLIFE2,s2_facecover,Have you been following the government guidance on: Wearing face coverings on public transport and in shops,4.0,Always
+711143,GENSCOT,COVIDLIFE2,s2_understand_scotgo,Do you find the Scottish Government guidance on COVID-19 easy to understand,1.0,Extremely difficult
+711144,GENSCOT,COVIDLIFE2,s2_understand_scotgo,Do you find the Scottish Government guidance on COVID-19 easy to understand,2.0,Somewhat difficult
+711145,GENSCOT,COVIDLIFE2,s2_understand_scotgo,Do you find the Scottish Government guidance on COVID-19 easy to understand,3.0,Neither easy nor difficult
+711146,GENSCOT,COVIDLIFE2,s2_understand_scotgo,Do you find the Scottish Government guidance on COVID-19 easy to understand,4.0,Somewhat easy
+711147,GENSCOT,COVIDLIFE2,s2_understand_scotgo,Do you find the Scottish Government guidance on COVID-19 easy to understand,5.0,Extremely easy
+711148,GENSCOT,COVIDLIFE2,s2_understand_ukgo,Do you find the UK Government guidance on COVID-19 easy to understand?,1.0,Extremely difficult
+711149,GENSCOT,COVIDLIFE2,s2_understand_ukgo,Do you find the UK Government guidance on COVID-19 easy to understand?,2.0,Somewhat difficult
+711150,GENSCOT,COVIDLIFE2,s2_understand_ukgo,Do you find the UK Government guidance on COVID-19 easy to understand?,3.0,Neither easy nor difficult
+711151,GENSCOT,COVIDLIFE2,s2_understand_ukgo,Do you find the UK Government guidance on COVID-19 easy to understand?,4.0,Somewhat easy
+711152,GENSCOT,COVIDLIFE2,s2_understand_ukgo,Do you find the UK Government guidance on COVID-19 easy to understand?,5.0,Extremely easy
+711153,GENSCOT,COVIDLIFE2,s2_knowledge_covid,How would you rate your knowledge about COVID-19?,1.0,Extremely bad
+711154,GENSCOT,COVIDLIFE2,s2_knowledge_covid,How would you rate your knowledge about COVID-19?,2.0,Somewhat bad
+711155,GENSCOT,COVIDLIFE2,s2_knowledge_covid,How would you rate your knowledge about COVID-19?,3.0,Neither good nor bad
+711156,GENSCOT,COVIDLIFE2,s2_knowledge_covid,How would you rate your knowledge about COVID-19?,4.0,Somewhat good
+711157,GENSCOT,COVIDLIFE2,s2_knowledge_covid,How would you rate your knowledge about COVID-19?,5.0,Extremely good
+711158,GENSCOT,COVIDLIFE2,s2_scotgov_guidance,Do you think that the Scottish Government guidance and actions on COVID-19 are:,1.0,An under-reaction
+711159,GENSCOT,COVIDLIFE2,s2_scotgov_guidance,Do you think that the Scottish Government guidance and actions on COVID-19 are:,2.0,About right
+711160,GENSCOT,COVIDLIFE2,s2_scotgov_guidance,Do you think that the Scottish Government guidance and actions on COVID-19 are:,3.0,An over-reaction
+711161,GENSCOT,COVIDLIFE2,s2_ukgov_guidance,Do you think that the UK Government guidance and actions on COVID-19 are:,1.0,An under-reaction
+711162,GENSCOT,COVIDLIFE2,s2_ukgov_guidance,Do you think that the UK Government guidance and actions on COVID-19 are:,2.0,About right
+711163,GENSCOT,COVIDLIFE2,s2_ukgov_guidance,Do you think that the UK Government guidance and actions on COVID-19 are:,3.0,An over-reaction
+711164,GENSCOT,COVIDLIFE2,s2_time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19?,0.0,None
+711165,GENSCOT,COVIDLIFE2,s2_time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19?,1.0,Less than 30 minutes
+711166,GENSCOT,COVIDLIFE2,s2_time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19?,2.0,30 minutes to 1 hour
+711167,GENSCOT,COVIDLIFE2,s2_time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19?,3.0,1-2 hours
+711168,GENSCOT,COVIDLIFE2,s2_time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19?,4.0,3-4 hours
+711169,GENSCOT,COVIDLIFE2,s2_time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19?,5.0,5 or more hours
+711170,GENSCOT,COVIDLIFE2,s2_accurate_covidinf,"On a scale of 1 (not at all difficult) to 10 (extremely difficult), how difficult has it been for you to find accurate, understandable information about COVID-19?",,"not at all difficult(1) ,..., extremely difficult(10)"
+711171,GENSCOT,COVIDLIFE2,s2_ukgov_conf,How confident are you that the UK Government can prevent further outbreak of COVID-19?,1.0,Private sector
+711172,GENSCOT,COVIDLIFE2,s2_ukgov_conf,How confident are you that the UK Government can prevent further outbreak of COVID-19?,2.0,Public sector
+711173,GENSCOT,COVIDLIFE2,s2_ukgov_conf,How confident are you that the UK Government can prevent further outbreak of COVID-19?,3.0,Voluntary (third) sector
+711174,GENSCOT,COVIDLIFE2,s2_ukgov_conf,How confident are you that the UK Government can prevent further outbreak of COVID-19?,97.0,Not applicable
+711175,GENSCOT,COVIDLIFE2,s2_scotgov_conf,How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,1.0,Private sector
+711176,GENSCOT,COVIDLIFE2,s2_scotgov_conf,How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,2.0,Public sector
+711177,GENSCOT,COVIDLIFE2,s2_scotgov_conf,How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,3.0,Voluntary (third) sector
+711178,GENSCOT,COVIDLIFE2,s2_scotgov_conf,How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,97.0,Not applicable
+711179,GENSCOT,COVIDLIFE2,s2_ttteng_confidence,"How confident are you that the Test, Track and Trace system will prevent further outbreaks of COVID-19 in England?",1.0,Not confident at all
+711180,GENSCOT,COVIDLIFE2,s2_ttteng_confidence,"How confident are you that the Test, Track and Trace system will prevent further outbreaks of COVID-19 in England?",2.0,Not very confident
+711181,GENSCOT,COVIDLIFE2,s2_ttteng_confidence,"How confident are you that the Test, Track and Trace system will prevent further outbreaks of COVID-19 in England?",3.0,Somewhat confident
+711182,GENSCOT,COVIDLIFE2,s2_ttteng_confidence,"How confident are you that the Test, Track and Trace system will prevent further outbreaks of COVID-19 in England?",4.0,Very confident
+711183,GENSCOT,COVIDLIFE2,s2_ttteng_confidence,"How confident are you that the Test, Track and Trace system will prevent further outbreaks of COVID-19 in England?",99.0,Don't Know
+711184,GENSCOT,COVIDLIFE2,s2_tpscot_confidence,How confident are you that the Test and Protect system will prevent further outbreaks of COVID-19 in Scotland?,1.0,Not confident at all
+711185,GENSCOT,COVIDLIFE2,s2_tpscot_confidence,How confident are you that the Test and Protect system will prevent further outbreaks of COVID-19 in Scotland?,2.0,Not very confident
+711186,GENSCOT,COVIDLIFE2,s2_tpscot_confidence,How confident are you that the Test and Protect system will prevent further outbreaks of COVID-19 in Scotland?,3.0,Somewhat confident
+711187,GENSCOT,COVIDLIFE2,s2_tpscot_confidence,How confident are you that the Test and Protect system will prevent further outbreaks of COVID-19 in Scotland?,4.0,Very confident
+711188,GENSCOT,COVIDLIFE2,s2_tpscot_confidence,How confident are you that the Test and Protect system will prevent further outbreaks of COVID-19 in Scotland?,99.0,Don't Know
+711189,GENSCOT,COVIDLIFE2,s2_well_isolate,"If you are asked to self-isolate because you have been in close contact with someone who tested positive for COVID-19, will you follow the self-isolation instructions, even if you feel well?",1.0,Never
+711190,GENSCOT,COVIDLIFE2,s2_well_isolate,"If you are asked to self-isolate because you have been in close contact with someone who tested positive for COVID-19, will you follow the self-isolation instructions, even if you feel well?",2.0,Some of the time
+711191,GENSCOT,COVIDLIFE2,s2_well_isolate,"If you are asked to self-isolate because you have been in close contact with someone who tested positive for COVID-19, will you follow the self-isolation instructions, even if you feel well?",3.0,Most of the time
+711192,GENSCOT,COVIDLIFE2,s2_well_isolate,"If you are asked to self-isolate because you have been in close contact with someone who tested positive for COVID-19, will you follow the self-isolation instructions, even if you feel well?",4.0,Always
+711193,GENSCOT,COVIDLIFE2,s2_socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",0.0,None
+711194,GENSCOT,COVIDLIFE2,s2_socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",1.0,Less than 30 minutes
+711195,GENSCOT,COVIDLIFE2,s2_socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",2.0,30 minutes to 1 hour
+711196,GENSCOT,COVIDLIFE2,s2_socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",3.0,1-2 hours
+711197,GENSCOT,COVIDLIFE2,s2_socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",4.0,3-4 hours
+711198,GENSCOT,COVIDLIFE2,s2_socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",5.0,5-6 hours
+711199,GENSCOT,COVIDLIFE2,s2_socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",6.0,7 or more hours
+711200,GENSCOT,COVIDLIFE2,s2_car_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",97.0,Do not own/use a car
+711201,GENSCOT,COVIDLIFE2,s2_car_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",1.0,Reduce a lot
+711202,GENSCOT,COVIDLIFE2,s2_car_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",2.0,Reduce a little
+711203,GENSCOT,COVIDLIFE2,s2_car_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",3.0,No change
+711204,GENSCOT,COVIDLIFE2,s2_car_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",4.0,Increase a little
+711205,GENSCOT,COVIDLIFE2,s2_car_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",5.0,Increase a lot
+711206,GENSCOT,COVIDLIFE2,s2_publictrans_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",1.0,Reduce a lot
+711207,GENSCOT,COVIDLIFE2,s2_publictrans_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",2.0,Reduce a little
+711208,GENSCOT,COVIDLIFE2,s2_publictrans_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",3.0,No change
+711209,GENSCOT,COVIDLIFE2,s2_publictrans_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",4.0,Increase a little
+711210,GENSCOT,COVIDLIFE2,s2_publictrans_use,"As a result of your experiences since the COVID-19 pandemic and the methods used to contain it (i.e., social distancing, lockdown), will you change your behaviour going forward with respect to any of the following? ",5.0,Increase a lot
+711211,GENSCOT,COVIDLIFE2,s2_publictrans_feel,I would feel comfortable using public transport at the moment,1.0,Strongly disagree
+711212,GENSCOT,COVIDLIFE2,s2_publictrans_feel,I would feel comfortable using public transport at the moment,2.0,Disagree
+711213,GENSCOT,COVIDLIFE2,s2_publictrans_feel,I would feel comfortable using public transport at the moment,3.0,Neither agree nor disagree
+711214,GENSCOT,COVIDLIFE2,s2_publictrans_feel,I would feel comfortable using public transport at the moment,4.0,Agree
+711215,GENSCOT,COVIDLIFE2,s2_publictrans_feel,I would feel comfortable using public transport at the moment,5.0,Strongly agree
+711216,GENSCOT,COVIDLIFE2,s2_facecover_others,People should wear a face covering when entering enclosed spaces where physical distancing is more difficult. Such as on public transport or in shops.,1.0,Strongly disagree
+711217,GENSCOT,COVIDLIFE2,s2_facecover_others,People should wear a face covering when entering enclosed spaces where physical distancing is more difficult. Such as on public transport or in shops.,2.0,Disagree
+711218,GENSCOT,COVIDLIFE2,s2_facecover_others,People should wear a face covering when entering enclosed spaces where physical distancing is more difficult. Such as on public transport or in shops.,3.0,Neither agree nor disagree
+711219,GENSCOT,COVIDLIFE2,s2_facecover_others,People should wear a face covering when entering enclosed spaces where physical distancing is more difficult. Such as on public transport or in shops.,4.0,Agree
+711220,GENSCOT,COVIDLIFE2,s2_facecover_others,People should wear a face covering when entering enclosed spaces where physical distancing is more difficult. Such as on public transport or in shops.,5.0,Strongly agree
+711221,GENSCOT,COVIDLIFE2,s2_covid_f2f_family,How regularly do you do these activities now?,1.0,Never
+711222,GENSCOT,COVIDLIFE2,s2_covid_f2f_family,How regularly do you do these activities now?,2.0,Rarely
+711223,GENSCOT,COVIDLIFE2,s2_covid_f2f_family,How regularly do you do these activities now?,3.0,Less than once a week
+711224,GENSCOT,COVIDLIFE2,s2_covid_f2f_family,How regularly do you do these activities now?,4.0,1-2 days a week
+711225,GENSCOT,COVIDLIFE2,s2_covid_f2f_family,How regularly do you do these activities now?,5.0,3-4 days a week
+711226,GENSCOT,COVIDLIFE2,s2_covid_f2f_family,How regularly do you do these activities now?,6.0,Every day/almost every day
+711227,GENSCOT,COVIDLIFE2,s2_covid_f2f_friends,How regularly do you do these activities now?,1.0,Never
+711228,GENSCOT,COVIDLIFE2,s2_covid_f2f_friends,How regularly do you do these activities now?,2.0,Rarely
+711229,GENSCOT,COVIDLIFE2,s2_covid_f2f_friends,How regularly do you do these activities now?,3.0,Less than once a week
+711230,GENSCOT,COVIDLIFE2,s2_covid_f2f_friends,How regularly do you do these activities now?,4.0,1-2 days a week
+711231,GENSCOT,COVIDLIFE2,s2_covid_f2f_friends,How regularly do you do these activities now?,5.0,3-4 days a week
+711232,GENSCOT,COVIDLIFE2,s2_covid_f2f_friends,How regularly do you do these activities now?,6.0,Every day/almost every day
+711233,GENSCOT,COVIDLIFE2,s2_covid_call_family,How regularly do you do these activities now?,1.0,Never
+711234,GENSCOT,COVIDLIFE2,s2_covid_call_family,How regularly do you do these activities now?,2.0,Rarely
+711235,GENSCOT,COVIDLIFE2,s2_covid_call_family,How regularly do you do these activities now?,3.0,Less than once a week
+711236,GENSCOT,COVIDLIFE2,s2_covid_call_family,How regularly do you do these activities now?,4.0,1-2 days a week
+711237,GENSCOT,COVIDLIFE2,s2_covid_call_family,How regularly do you do these activities now?,5.0,3-4 days a week
+711238,GENSCOT,COVIDLIFE2,s2_covid_call_family,How regularly do you do these activities now?,6.0,Every day/almost every day
+711239,GENSCOT,COVIDLIFE2,s2_covid_call_friends,How regularly do you do these activities now?,1.0,Never
+711240,GENSCOT,COVIDLIFE2,s2_covid_call_friends,How regularly do you do these activities now?,2.0,Rarely
+711241,GENSCOT,COVIDLIFE2,s2_covid_call_friends,How regularly do you do these activities now?,3.0,Less than once a week
+711242,GENSCOT,COVIDLIFE2,s2_covid_call_friends,How regularly do you do these activities now?,4.0,1-2 days a week
+711243,GENSCOT,COVIDLIFE2,s2_covid_call_friends,How regularly do you do these activities now?,5.0,3-4 days a week
+711244,GENSCOT,COVIDLIFE2,s2_covid_call_friends,How regularly do you do these activities now?,6.0,Every day/almost every day
+711245,GENSCOT,COVIDLIFE2,s2_covid_video_family,How regularly do you do these activities now?,1.0,Never
+711246,GENSCOT,COVIDLIFE2,s2_covid_video_family,How regularly do you do these activities now?,2.0,Rarely
+711247,GENSCOT,COVIDLIFE2,s2_covid_video_family,How regularly do you do these activities now?,3.0,Less than once a week
+711248,GENSCOT,COVIDLIFE2,s2_covid_video_family,How regularly do you do these activities now?,4.0,1-2 days a week
+711249,GENSCOT,COVIDLIFE2,s2_covid_video_family,How regularly do you do these activities now?,5.0,3-4 days a week
+711250,GENSCOT,COVIDLIFE2,s2_covid_video_family,How regularly do you do these activities now?,6.0,Every day/almost every day
+711251,GENSCOT,COVIDLIFE2,s2_covid_video_friends,How regularly do you do these activities now?,1.0,Never
+711252,GENSCOT,COVIDLIFE2,s2_covid_video_friends,How regularly do you do these activities now?,2.0,Rarely
+711253,GENSCOT,COVIDLIFE2,s2_covid_video_friends,How regularly do you do these activities now?,3.0,Less than once a week
+711254,GENSCOT,COVIDLIFE2,s2_covid_video_friends,How regularly do you do these activities now?,4.0,1-2 days a week
+711255,GENSCOT,COVIDLIFE2,s2_covid_video_friends,How regularly do you do these activities now?,5.0,3-4 days a week
+711256,GENSCOT,COVIDLIFE2,s2_covid_video_friends,How regularly do you do these activities now?,6.0,Every day/almost every day
+711257,GENSCOT,COVIDLIFE2,s2_covid_text_family,How regularly do you do these activities now?,1.0,Never
+711258,GENSCOT,COVIDLIFE2,s2_covid_text_family,How regularly do you do these activities now?,2.0,Rarely
+711259,GENSCOT,COVIDLIFE2,s2_covid_text_family,How regularly do you do these activities now?,3.0,Less than once a week
+711260,GENSCOT,COVIDLIFE2,s2_covid_text_family,How regularly do you do these activities now?,4.0,1-2 days a week
+711261,GENSCOT,COVIDLIFE2,s2_covid_text_family,How regularly do you do these activities now?,5.0,3-4 days a week
+711262,GENSCOT,COVIDLIFE2,s2_covid_text_family,How regularly do you do these activities now?,6.0,Every day/almost every day
+711263,GENSCOT,COVIDLIFE2,s2_covid_text_friends,How regularly do you do these activities now?,1.0,Never
+711264,GENSCOT,COVIDLIFE2,s2_covid_text_friends,How regularly do you do these activities now?,2.0,Rarely
+711265,GENSCOT,COVIDLIFE2,s2_covid_text_friends,How regularly do you do these activities now?,3.0,Less than once a week
+711266,GENSCOT,COVIDLIFE2,s2_covid_text_friends,How regularly do you do these activities now?,4.0,1-2 days a week
+711267,GENSCOT,COVIDLIFE2,s2_covid_text_friends,How regularly do you do these activities now?,5.0,3-4 days a week
+711268,GENSCOT,COVIDLIFE2,s2_covid_text_friends,How regularly do you do these activities now?,6.0,Every day/almost every day
+711269,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,1.0,Self-employed employing others
+711270,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,10.0,Still in school/studying full-time
+711271,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,11.0,Unemployed as sick or disabled
+711272,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,12.0,Unemployed
+711273,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,13.0,Other
+711274,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,2.0,Self-employed not employing others
+711275,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,3.0,Paid employee supervising others
+711276,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,4.0,Paid employee not supervising others
+711277,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,5.0,In unpaid employment
+711278,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,6.0,Homemaker
+711279,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,7.0,Looking after children
+711280,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,8.0,Looking after other dependents
+711281,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,9.0,Retired
+711282,GENSCOT,COVIDLIFE2,s2_employstat_now,What is your current employment status?,98.0,Prefer not to answer
+711283,GENSCOT,COVIDLIFE2,s2_employstat_change,Has your current employment status changed since the COVID-19 measures were introduced?,0.0,No
+711284,GENSCOT,COVIDLIFE2,s2_employstat_change,Has your current employment status changed since the COVID-19 measures were introduced?,1.0,Yes
+711285,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",1.0,Self-employed employing others
+711286,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",10.0,Still in school/studying full-time
+711287,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",11.0,Unemployed as sick or disabled
+711288,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",12.0,Unemployed
+711289,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",13.0,Other
+711290,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",2.0,Self-employed not employing others
+711291,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",3.0,Paid employee supervising others
+711292,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",4.0,Paid employee not supervising others
+711293,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",5.0,In unpaid employment
+711294,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",6.0,Homemaker
+711295,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",7.0,Looking after children
+711296,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",8.0,Looking after other dependents
+711297,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",9.0,Retired
+711298,GENSCOT,COVIDLIFE2,s2_employstat_before,"What was your employment status just before the COVID-19 measures were introduced (i.e., January 2020)?",98.0,Prefer not to answer
+711299,GENSCOT,COVIDLIFE2,s2_employment_skip,I would prefer to skip this section,1.0,Continue with this section
+711300,GENSCOT,COVIDLIFE2,s2_employment_skip,I would prefer to skip this section,2.0,I would prefer to skip this section
+711301,GENSCOT,COVIDLIFE2,s2_matpat_leave,Are you currently on maternity or paternity leave?,0.0,No
+711302,GENSCOT,COVIDLIFE2,s2_matpat_leave,Are you currently on maternity or paternity leave?,1.0,Yes
+711303,GENSCOT,COVIDLIFE2,s2_wfh_janfeb,During January and February how often did you work at home?,1.0,Never
+711304,GENSCOT,COVIDLIFE2,s2_wfh_janfeb,During January and February how often did you work at home?,2.0,Sometimes
+711305,GENSCOT,COVIDLIFE2,s2_wfh_janfeb,During January and February how often did you work at home?,3.0,Often
+711306,GENSCOT,COVIDLIFE2,s2_wfh_janfeb,During January and February how often did you work at home?,4.0,Always
+711307,GENSCOT,COVIDLIFE2,s2_wfh_janfeb,During January and February how often did you work at home?,97.0,Not applicable
+711308,GENSCOT,COVIDLIFE2,s2_wfh_last4weeks,During the last four weeks how often did you work at home?,1.0,Never
+711309,GENSCOT,COVIDLIFE2,s2_wfh_last4weeks,During the last four weeks how often did you work at home?,2.0,Sometimes
+711310,GENSCOT,COVIDLIFE2,s2_wfh_last4weeks,During the last four weeks how often did you work at home?,3.0,Often
+711311,GENSCOT,COVIDLIFE2,s2_wfh_last4weeks,During the last four weeks how often did you work at home?,4.0,Always
+711312,GENSCOT,COVIDLIFE2,s2_wfh_last4weeks,During the last four weeks how often did you work at home?,97.0,Not applicable
+711313,GENSCOT,COVIDLIFE2,s2_furloughed_covid,Have you received a written letter or email from your employer to confirm that you have been furloughed under the Coronavirus Job Retention Scheme?,0.0,No 
+711314,GENSCOT,COVIDLIFE2,s2_furloughed_covid,Have you received a written letter or email from your employer to confirm that you have been furloughed under the Coronavirus Job Retention Scheme?,1.0,Yes 
+711315,GENSCOT,COVIDLIFE2,s2_furloughed_covid,Have you received a written letter or email from your employer to confirm that you have been furloughed under the Coronavirus Job Retention Scheme?,97.0,Not applicable
+711316,GENSCOT,COVIDLIFE2,s2_furloughed_covid,Have you received a written letter or email from your employer to confirm that you have been furloughed under the Coronavirus Job Retention Scheme?,99.0,Don't know 
+711317,GENSCOT,COVIDLIFE2,s2_furloughed_now,Are you still furloughed?,0.0,No 
+711318,GENSCOT,COVIDLIFE2,s2_furloughed_now,Are you still furloughed?,1.0,Yes 
+711319,GENSCOT,COVIDLIFE2,s2_furloughed_now,Are you still furloughed?,97.0,Not applicable
+711320,GENSCOT,COVIDLIFE2,s2_furloughed_now,Are you still furloughed?,99.0,Don't know 
+711321,GENSCOT,COVIDLIFE2,s2_fullpart_time,Are you currently working full-time or part-time?,1.0,Full-time
+711322,GENSCOT,COVIDLIFE2,s2_fullpart_time,Are you currently working full-time or part-time?,2.0,Part-time
+711323,GENSCOT,COVIDLIFE2,s2_fullpart_time,Are you currently working full-time or part-time?,97.0,Not applicable
+711324,GENSCOT,COVIDLIFE2,s2_change_workhrs,How have your weekly working hours changed since before COVID19 measures were introduced?,1.0,Working more hours now
+711325,GENSCOT,COVIDLIFE2,s2_change_workhrs,How have your weekly working hours changed since before COVID19 measures were introduced?,2.0,Working the same number of hours now
+711326,GENSCOT,COVIDLIFE2,s2_change_workhrs,How have your weekly working hours changed since before COVID19 measures were introduced?,3.0,Working fewer hours now
+711327,GENSCOT,COVIDLIFE2,s2_productivework,"Compared to before the introduction of the COVID-19 measures, do you think you are more or less productive at work now?",1.0,Much more productive now
+711328,GENSCOT,COVIDLIFE2,s2_productivework,"Compared to before the introduction of the COVID-19 measures, do you think you are more or less productive at work now?",2.0,A little more productive now
+711329,GENSCOT,COVIDLIFE2,s2_productivework,"Compared to before the introduction of the COVID-19 measures, do you think you are more or less productive at work now?",3.0,About the same now
+711330,GENSCOT,COVIDLIFE2,s2_productivework,"Compared to before the introduction of the COVID-19 measures, do you think you are more or less productive at work now?",4.0,A little less productive now
+711331,GENSCOT,COVIDLIFE2,s2_productivework,"Compared to before the introduction of the COVID-19 measures, do you think you are more or less productive at work now?",5.0,Much less productive now
+711332,GENSCOT,COVIDLIFE2,s2_productivework,"Compared to before the introduction of the COVID-19 measures, do you think you are more or less productive at work now?",97.0,Not applicable
+711333,GENSCOT,COVIDLIFE2,s2_seiss_applied,Have you applied to the Self-Employment Income Support Scheme?,0.0,No 
+711334,GENSCOT,COVIDLIFE2,s2_seiss_applied,Have you applied to the Self-Employment Income Support Scheme?,1.0,Yes 
+711335,GENSCOT,COVIDLIFE2,s2_seiss_applied,Have you applied to the Self-Employment Income Support Scheme?,97.0,Not applicable
+711336,GENSCOT,COVIDLIFE2,s2_seiss_applied,Have you applied to the Self-Employment Income Support Scheme?,99.0,Don't know 
+711337,GENSCOT,COVIDLIFE2,s2_seiss_received,Have you received financial support from the Self-Employment Income Support Scheme?,0.0,No 
+711338,GENSCOT,COVIDLIFE2,s2_seiss_received,Have you received financial support from the Self-Employment Income Support Scheme?,1.0,Yes 
+711339,GENSCOT,COVIDLIFE2,s2_seiss_received,Have you received financial support from the Self-Employment Income Support Scheme?,97.0,Not applicable
+711340,GENSCOT,COVIDLIFE2,s2_seiss_received,Have you received financial support from the Self-Employment Income Support Scheme?,99.0,Don't know 
+711341,GENSCOT,COVIDLIFE2,s2_se_worry,How worried are you about the impact of COVID-19 on your business?,97.0,Not applicable
+711342,GENSCOT,COVIDLIFE2,s2_se_worry,How worried are you about the impact of COVID-19 on your business?,1.0,Not at all worried
+711343,GENSCOT,COVIDLIFE2,s2_se_worry,How worried are you about the impact of COVID-19 on your business?,2.0,Slightly worried
+711344,GENSCOT,COVIDLIFE2,s2_se_worry,How worried are you about the impact of COVID-19 on your business?,3.0,Moderately worried
+711345,GENSCOT,COVIDLIFE2,s2_se_worry,How worried are you about the impact of COVID-19 on your business?,4.0,Very worried
+711346,GENSCOT,COVIDLIFE2,s2_se_worry,How worried are you about the impact of COVID-19 on your business?,5.0,Extremely worried
+711347,GENSCOT,COVIDLIFE2,s2_se_businesssurv,How confident are you that your business will survive the COVID-19 pandemic?,1.0,Not confident at all
+711348,GENSCOT,COVIDLIFE2,s2_se_businesssurv,How confident are you that your business will survive the COVID-19 pandemic?,2.0,Not very confident
+711349,GENSCOT,COVIDLIFE2,s2_se_businesssurv,How confident are you that your business will survive the COVID-19 pandemic?,3.0,Somewhat confident
+711350,GENSCOT,COVIDLIFE2,s2_se_businesssurv,How confident are you that your business will survive the COVID-19 pandemic?,4.0,Very confident
+711351,GENSCOT,COVIDLIFE2,s2_se_businesssurv,How confident are you that your business will survive the COVID-19 pandemic?,97.0,Not applicable
+711352,GENSCOT,COVIDLIFE2,s2_keyworker,"When COVID-19 restrictions were put in place, were you designated as a key worker?",0.0,No
+711353,GENSCOT,COVIDLIFE2,s2_keyworker,"When COVID-19 restrictions were put in place, were you designated as a key worker?",1.0,Yes
+711354,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,1.0,"Health, social care or relevant related support worker(e.g., doctor, nurse, NHS volunteer)"
+711355,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,2.0,Teaching or childcare worker
+711356,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,3.0,"Key public services(justice, religious staff, journalist or mortuary)"
+711357,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,4.0,Local and national government
+711358,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,5.0,"Food and other necessary goods(production, sales, delivery)"
+711359,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,6.0,"Public safety or national security worker(police, armed forces)"
+711360,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,7.0,Transport worker
+711361,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,8.0,"Utility worker(e.g., energy, sewerage, postal services)"
+711362,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,9.0,"Utilities, communication and financial services"
+711363,GENSCOT,COVIDLIFE2,s2_keywork_sector,What sector do you work in?,96.0,None of the above
+711364,GENSCOT,COVIDLIFE2,s2_work_closecontact,"Does your work require you to be in close contact (i.e., within 2 m) with others, who you do not live with, including while travelling to work?",1.0,Not at all
+711365,GENSCOT,COVIDLIFE2,s2_work_closecontact,"Does your work require you to be in close contact (i.e., within 2 m) with others, who you do not live with, including while travelling to work?",2.0,Rarely
+711366,GENSCOT,COVIDLIFE2,s2_work_closecontact,"Does your work require you to be in close contact (i.e., within 2 m) with others, who you do not live with, including while travelling to work?",3.0,Some of the time
+711367,GENSCOT,COVIDLIFE2,s2_work_closecontact,"Does your work require you to be in close contact (i.e., within 2 m) with others, who you do not live with, including while travelling to work?",4.0,"Yes, most of the time"
+711368,GENSCOT,COVIDLIFE2,s2_work_closecontact,"Does your work require you to be in close contact (i.e., within 2 m) with others, who you do not live with, including while travelling to work?",5.0,"Yes, all of the time"
+711369,GENSCOT,COVIDLIFE2,s2_work_closecontact,"Does your work require you to be in close contact (i.e., within 2 m) with others, who you do not live with, including while travelling to work?",97.0,Not applicable
+711370,GENSCOT,COVIDLIFE2,s2_work_ppe,"In your place of work, do you have access to necessary personal protective equipment (PPE)?",97.0,Not applicable
+711371,GENSCOT,COVIDLIFE2,s2_work_ppe,"In your place of work, do you have access to necessary personal protective equipment (PPE)?",1.0,Not at all
+711372,GENSCOT,COVIDLIFE2,s2_work_ppe,"In your place of work, do you have access to necessary personal protective equipment (PPE)?",2.0,Rarely
+711373,GENSCOT,COVIDLIFE2,s2_work_ppe,"In your place of work, do you have access to necessary personal protective equipment (PPE)?",3.0,Some of the time
+711374,GENSCOT,COVIDLIFE2,s2_work_ppe,"In your place of work, do you have access to necessary personal protective equipment (PPE)?",4.0,"Yes, most of the time"
+711375,GENSCOT,COVIDLIFE2,s2_work_ppe,"In your place of work, do you have access to necessary personal protective equipment (PPE)?",5.0,"Yes, all of the time"
+711376,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",1.0,Self-employed employing others
+711377,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",10.0,Still in school/studying full-time
+711378,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",11.0,Unemployed as sick or disabled
+711379,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",12.0,Unemployed
+711380,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",13.0,Other
+711381,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",2.0,Self-employed not employing others
+711382,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",3.0,Paid employee supervising others
+711383,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",4.0,Paid employee not supervising others
+711384,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",5.0,In unpaid employment
+711385,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",6.0,Homemaker
+711386,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",7.0,Looking after children
+711387,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",8.0,Looking after other dependents
+711388,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",9.0,Retired
+711389,GENSCOT,COVIDLIFE2,s2_p_employstat_bef,"What was your spouse/partner’s employment status just before COVID-19 measures were introduced (i.e., January 2020)?  ",98.0,Prefer not to answer
+711390,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,1.0,Self-employed employing others
+711391,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,10.0,Still in school/studying full-time
+711392,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,11.0,Unemployed as sick or disabled
+711393,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,12.0,Unemployed
+711394,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,13.0,Other
+711395,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,2.0,Self-employed not employing others
+711396,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,3.0,Paid employee supervising others
+711397,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,4.0,Paid employee not supervising others
+711398,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,5.0,In unpaid employment
+711399,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,6.0,Homemaker
+711400,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,7.0,Looking after children
+711401,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,8.0,Looking after other dependents
+711402,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,9.0,Retired
+711403,GENSCOT,COVIDLIFE2,s2_p_employstat_now,What is your spouse/partner’s employment status now?   ,98.0,Prefer not to answer
+711404,GENSCOT,COVIDLIFE2,s2_p_employment_skip,I would prefer to skip this section,1.0,Continue with this section
+711405,GENSCOT,COVIDLIFE2,s2_p_employment_skip,I would prefer to skip this section,2.0,I would prefer to skip this section
+711406,GENSCOT,COVIDLIFE2,s2_p_wfh_last4weeks,During the last four weeks how often did you spouse/partner work at home?,1.0,Never
+711407,GENSCOT,COVIDLIFE2,s2_p_wfh_last4weeks,During the last four weeks how often did you spouse/partner work at home?,2.0,Sometimes
+711408,GENSCOT,COVIDLIFE2,s2_p_wfh_last4weeks,During the last four weeks how often did you spouse/partner work at home?,3.0,Often
+711409,GENSCOT,COVIDLIFE2,s2_p_wfh_last4weeks,During the last four weeks how often did you spouse/partner work at home?,4.0,Always
+711410,GENSCOT,COVIDLIFE2,s2_p_wfh_last4weeks,During the last four weeks how often did you spouse/partner work at home?,97.0,Not applicable
+711411,GENSCOT,COVIDLIFE2,s2_p_furloughed_cov,Has your spouse/partner received a written letter or email from their employer to confirm that they have been furloughed under the Coronavirus Job Retention Scheme?,0.0,No 
+711412,GENSCOT,COVIDLIFE2,s2_p_furloughed_cov,Has your spouse/partner received a written letter or email from their employer to confirm that they have been furloughed under the Coronavirus Job Retention Scheme?,1.0,Yes 
+711413,GENSCOT,COVIDLIFE2,s2_p_furloughed_cov,Has your spouse/partner received a written letter or email from their employer to confirm that they have been furloughed under the Coronavirus Job Retention Scheme?,97.0,Not applicable
+711414,GENSCOT,COVIDLIFE2,s2_p_furloughed_cov,Has your spouse/partner received a written letter or email from their employer to confirm that they have been furloughed under the Coronavirus Job Retention Scheme?,99.0,Don't know 
+711415,GENSCOT,COVIDLIFE2,s2_p_furloughed_now,Is your spouse/partner still furloughed?,0.0,No 
+711416,GENSCOT,COVIDLIFE2,s2_p_furloughed_now,Is your spouse/partner still furloughed?,1.0,Yes 
+711417,GENSCOT,COVIDLIFE2,s2_p_furloughed_now,Is your spouse/partner still furloughed?,97.0,Not applicable
+711418,GENSCOT,COVIDLIFE2,s2_p_furloughed_now,Is your spouse/partner still furloughed?,99.0,Don't know 
+711419,GENSCOT,COVIDLIFE2,s2_p_fullpart_time,Is your spouse/partner currently working full-time or part-time?,1.0,Full-time
+711420,GENSCOT,COVIDLIFE2,s2_p_fullpart_time,Is your spouse/partner currently working full-time or part-time?,2.0,Part-time
+711421,GENSCOT,COVIDLIFE2,s2_p_fullpart_time,Is your spouse/partner currently working full-time or part-time?,97.0,Not applicable
+711422,GENSCOT,COVIDLIFE2,s2_p_change_workhrs,How has your spouse/partner's weekly working hours changed since before COVID-19 measures were introduced?,1.0,Working more hours now
+711423,GENSCOT,COVIDLIFE2,s2_p_change_workhrs,How has your spouse/partner's weekly working hours changed since before COVID-19 measures were introduced?,2.0,Working the same number of hours now
+711424,GENSCOT,COVIDLIFE2,s2_p_change_workhrs,How has your spouse/partner's weekly working hours changed since before COVID-19 measures were introduced?,3.0,Working fewer hours now
+711425,GENSCOT,COVIDLIFE2,s2_p_productivework,"Compared to before the introduction of the COVID-19 measures, do you think your spouse/partner is more or less productive at work now?",1.0,Much more productive now
+711426,GENSCOT,COVIDLIFE2,s2_p_productivework,"Compared to before the introduction of the COVID-19 measures, do you think your spouse/partner is more or less productive at work now?",2.0,A little more productive now
+711427,GENSCOT,COVIDLIFE2,s2_p_productivework,"Compared to before the introduction of the COVID-19 measures, do you think your spouse/partner is more or less productive at work now?",3.0,About the same now
+711428,GENSCOT,COVIDLIFE2,s2_p_productivework,"Compared to before the introduction of the COVID-19 measures, do you think your spouse/partner is more or less productive at work now?",4.0,A little less productive now
+711429,GENSCOT,COVIDLIFE2,s2_p_productivework,"Compared to before the introduction of the COVID-19 measures, do you think your spouse/partner is more or less productive at work now?",5.0,Much less productive now
+711430,GENSCOT,COVIDLIFE2,s2_p_productivework,"Compared to before the introduction of the COVID-19 measures, do you think your spouse/partner is more or less productive at work now?",97.0,Not applicable
+711431,GENSCOT,COVIDLIFE2,s2_p_seiss_applied,Has your spouse/partner applied to the Self-Employment Income Support Scheme?,0.0,No 
+711432,GENSCOT,COVIDLIFE2,s2_p_seiss_applied,Has your spouse/partner applied to the Self-Employment Income Support Scheme?,1.0,Yes 
+711433,GENSCOT,COVIDLIFE2,s2_p_seiss_applied,Has your spouse/partner applied to the Self-Employment Income Support Scheme?,97.0,Not applicable
+711434,GENSCOT,COVIDLIFE2,s2_p_seiss_applied,Has your spouse/partner applied to the Self-Employment Income Support Scheme?,99.0,Don't know 
+711435,GENSCOT,COVIDLIFE2,s2_p_seiss_received,has your spouse/partner received financial support from the SelfEmployment Income Support Scheme?,0.0,No 
+711436,GENSCOT,COVIDLIFE2,s2_p_seiss_received,has your spouse/partner received financial support from the SelfEmployment Income Support Scheme?,1.0,Yes 
+711437,GENSCOT,COVIDLIFE2,s2_p_seiss_received,has your spouse/partner received financial support from the SelfEmployment Income Support Scheme?,97.0,Not applicable
+711438,GENSCOT,COVIDLIFE2,s2_p_seiss_received,has your spouse/partner received financial support from the SelfEmployment Income Support Scheme?,99.0,Don't know 
+711439,GENSCOT,COVIDLIFE2,s2_benefits_now,Are you or anyone else in your household receiving any benefits now?,0.0,No 
+711440,GENSCOT,COVIDLIFE2,s2_benefits_now,Are you or anyone else in your household receiving any benefits now?,1.0,Yes 
+711441,GENSCOT,COVIDLIFE2,s2_benefits_now,Are you or anyone else in your household receiving any benefits now?,98.0,Prefer not to answer
+711442,GENSCOT,COVIDLIFE2,s2_benefits_now,Are you or anyone else in your household receiving any benefits now?,99.0,Don't know 
+711443,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_1,Attendance Allowance,0.0,No
+711444,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_1,Attendance Allowance,1.0,Yes
+711445,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_2,Bereavement Allowance,0.0,No
+711446,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_2,Bereavement Allowance,1.0,Yes
+711447,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_3,Best Start Grant,0.0,No
+711448,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_3,Best Start Grant,1.0,Yes
+711449,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_4,Best Start Foods,0.0,No
+711450,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_4,Best Start Foods,1.0,Yes
+711451,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_5,Blue Badge,0.0,No
+711452,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_5,Blue Badge,1.0,Yes
+711453,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_6,Carer's Allowance,0.0,No
+711454,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_6,Carer's Allowance,1.0,Yes
+711455,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_7,Child Benefit,0.0,No
+711456,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_7,Child Benefit,1.0,Yes
+711457,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_8,Child Tax Credit,0.0,No
+711458,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_8,Child Tax Credit,1.0,Yes
+711459,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_9,Cold Weather Payment,0.0,No
+711460,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_9,Cold Weather Payment,1.0,Yes
+711461,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_10,Constant Attendance Allowance,0.0,No
+711462,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_10,Constant Attendance Allowance,1.0,Yes
+711463,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_11,Council Tax Benefit,0.0,No
+711464,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_11,Council Tax Benefit,1.0,Yes
+711465,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_12,Crisis Loans,0.0,No
+711466,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_12,Crisis Loans,1.0,Yes
+711467,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_13,Disability Living Allowance,0.0,No
+711468,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_13,Disability Living Allowance,1.0,Yes
+711469,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_14,Employment and Support Allowance,0.0,No
+711470,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_14,Employment and Support Allowance,1.0,Yes
+711471,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_15,Free School Meals,0.0,No
+711472,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_15,Free School Meals,1.0,Yes
+711473,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_16,Guardian's Allowance,0.0,No
+711474,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_16,Guardian's Allowance,1.0,Yes
+711475,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_17,Housing Benefit,0.0,No
+711476,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_17,Housing Benefit,1.0,Yes
+711477,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_18,In Work Credit,0.0,No
+711478,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_18,In Work Credit,1.0,Yes
+711479,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_19,Incapacity Benefit,0.0,No
+711480,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_19,Incapacity Benefit,1.0,Yes
+711481,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_20,Income Support,0.0,No
+711482,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_20,Income Support,1.0,Yes
+711483,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_21,Industrial Injuries Disablement Benefit,0.0,No
+711484,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_21,Industrial Injuries Disablement Benefit,1.0,Yes
+711485,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_22,Industrial Death Benefit,0.0,No
+711486,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_22,Industrial Death Benefit,1.0,Yes
+711487,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_23,Jobseeker's Allowance,0.0,No
+711488,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_23,Jobseeker's Allowance,1.0,Yes
+711489,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_24,Maternity Allowance,0.0,No
+711490,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_24,Maternity Allowance,1.0,Yes
+711491,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_25,Mobility Supplement,0.0,No
+711492,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_25,Mobility Supplement,1.0,Yes
+711493,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_26,National Entitlement Card,0.0,No
+711494,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_26,National Entitlement Card,1.0,Yes
+711495,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_27,Pension Credit,0.0,No
+711496,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_27,Pension Credit,1.0,Yes
+711497,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_28,Personal Independence Payment,0.0,No
+711498,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_28,Personal Independence Payment,1.0,Yes
+711499,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_29,Severe Disablement Allowance,0.0,No
+711500,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_29,Severe Disablement Allowance,1.0,Yes
+711501,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_30,State Pension,0.0,No
+711502,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_30,State Pension,1.0,Yes
+711503,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_31,Statutory Adoption Pay,0.0,No
+711504,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_31,Statutory Adoption Pay,1.0,Yes
+711505,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_32,Statutory Maternity Pay,0.0,No
+711506,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_32,Statutory Maternity Pay,1.0,Yes
+711507,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_33,Statutory Paternity Pay,0.0,No
+711508,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_33,Statutory Paternity Pay,1.0,Yes
+711509,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_34,Statutory Sick Pay,0.0,No
+711510,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_34,Statutory Sick Pay,1.0,Yes
+711511,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_35,Sure Start Maternity Grant,0.0,No
+711512,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_35,Sure Start Maternity Grant,1.0,Yes
+711513,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_36,Tax credits,0.0,No
+711514,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_36,Tax credits,1.0,Yes
+711515,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_37,Universal Credit,0.0,No
+711516,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_37,Universal Credit,1.0,Yes
+711517,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_38,War Disablement Pension,0.0,No
+711518,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_38,War Disablement Pension,1.0,Yes
+711519,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_39,War Widow's/Widower's Pension,0.0,No
+711520,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_39,War Widow's/Widower's Pension,1.0,Yes
+711521,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_40,Widowed Parent's Allowance,0.0,No
+711522,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_40,Widowed Parent's Allowance,1.0,Yes
+711523,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_41,Widow's Pension,0.0,No
+711524,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_41,Widow's Pension,1.0,Yes
+711525,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_42,Winter Fuel Payment,0.0,No
+711526,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_42,Winter Fuel Payment,1.0,Yes
+711527,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_43,Working Tax Credit,0.0,No
+711528,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_43,Working Tax Credit,1.0,Yes
+711529,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_100,Other (please specify),0.0,No
+711530,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_100,Other (please specify),1.0,Yes
+711531,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_99,Don’t know,0.0,No
+711532,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_99,Don’t know,1.0,Yes
+711533,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_98,Prefer not to answer,0.0,No
+711534,GENSCOT,COVIDLIFE2,s2_whichbenefits_now_98,Prefer not to answer,1.0,Yes
+711535,GENSCOT,COVIDLIFE2,s2_finance_before,"Before the official lockdown was announced on the 23rd March 2020, how well would you say you personally were managing financially?",1.0,Living comfortably
+711536,GENSCOT,COVIDLIFE2,s2_finance_before,"Before the official lockdown was announced on the 23rd March 2020, how well would you say you personally were managing financially?",2.0,Doing all right
+711537,GENSCOT,COVIDLIFE2,s2_finance_before,"Before the official lockdown was announced on the 23rd March 2020, how well would you say you personally were managing financially?",3.0,Just about getting by
+711538,GENSCOT,COVIDLIFE2,s2_finance_before,"Before the official lockdown was announced on the 23rd March 2020, how well would you say you personally were managing financially?",4.0,Finding it quite difficult
+711539,GENSCOT,COVIDLIFE2,s2_finance_before,"Before the official lockdown was announced on the 23rd March 2020, how well would you say you personally were managing financially?",5.0,Finding it very difficult
+711540,GENSCOT,COVIDLIFE2,s2_finance_changes,"Overall, how do you feel your current financial situation compares to before the official lockdown was announced on the 23rd March 2020?",1.0,I’m much worse off
+711541,GENSCOT,COVIDLIFE2,s2_finance_changes,"Overall, how do you feel your current financial situation compares to before the official lockdown was announced on the 23rd March 2020?",2.0,I’m a little worse off
+711542,GENSCOT,COVIDLIFE2,s2_finance_changes,"Overall, how do you feel your current financial situation compares to before the official lockdown was announced on the 23rd March 2020?",3.0,I’m about the same
+711543,GENSCOT,COVIDLIFE2,s2_finance_changes,"Overall, how do you feel your current financial situation compares to before the official lockdown was announced on the 23rd March 2020?",4.0,I’m a little better off
+711544,GENSCOT,COVIDLIFE2,s2_finance_changes,"Overall, how do you feel your current financial situation compares to before the official lockdown was announced on the 23rd March 2020?",5.0,I’m much better off
+711545,GENSCOT,COVIDLIFE2,s2_financesitu_worry,Im worried about my future financial situation,1.0,Strongly disagree
+711546,GENSCOT,COVIDLIFE2,s2_financesitu_worry,Im worried about my future financial situation,2.0,Disagree
+711547,GENSCOT,COVIDLIFE2,s2_financesitu_worry,Im worried about my future financial situation,3.0,Neither agree nor disagree
+711548,GENSCOT,COVIDLIFE2,s2_financesitu_worry,Im worried about my future financial situation,4.0,Agree
+711549,GENSCOT,COVIDLIFE2,s2_financesitu_worry,Im worried about my future financial situation,5.0,Strongly agree
+711550,GENSCOT,COVIDLIFE2,s2_jobsec_worry,I'm worried about my job security,1.0,Strongly disagree
+711551,GENSCOT,COVIDLIFE2,s2_jobsec_worry,I'm worried about my job security,2.0,Disagree
+711552,GENSCOT,COVIDLIFE2,s2_jobsec_worry,I'm worried about my job security,3.0,Neither agree nor disagree
+711553,GENSCOT,COVIDLIFE2,s2_jobsec_worry,I'm worried about my job security,4.0,Agree
+711554,GENSCOT,COVIDLIFE2,s2_jobsec_worry,I'm worried about my job security,5.0,Strongly agree
+711555,GENSCOT,COVIDLIFE2,s2_p_jobsec_worry,I’m worried about my partners’ job security,1.0,Strongly disagree
+711556,GENSCOT,COVIDLIFE2,s2_p_jobsec_worry,I’m worried about my partners’ job security,2.0,Disagree
+711557,GENSCOT,COVIDLIFE2,s2_p_jobsec_worry,I’m worried about my partners’ job security,3.0,Neither agree nor disagree
+711558,GENSCOT,COVIDLIFE2,s2_p_jobsec_worry,I’m worried about my partners’ job security,4.0,Agree
+711559,GENSCOT,COVIDLIFE2,s2_p_jobsec_worry,I’m worried about my partners’ job security,5.0,Strongly agree
+711560,GENSCOT,COVIDLIFE2,s2_optional_skip,I would prefer to skip this section,1.0,Continue with this section
+711561,GENSCOT,COVIDLIFE2,s2_optional_skip,I would prefer to skip this section,2.0,I would prefer to skip this section
+711562,GENSCOT,COVIDLIFE2,s2_postponed_treat,Have you had any medical treatments or appointments that have had to be cancelled or postponed during the COVID-19 pandemic?,0.0,No 
+711563,GENSCOT,COVIDLIFE2,s2_postponed_treat,Have you had any medical treatments or appointments that have had to be cancelled or postponed during the COVID-19 pandemic?,1.0,Yes 
+711564,GENSCOT,COVIDLIFE2,s2_postponed_treat,Have you had any medical treatments or appointments that have had to be cancelled or postponed during the COVID-19 pandemic?,98.0,Prefer not to answer
+711565,GENSCOT,COVIDLIFE2,s2_postponed_treat,Have you had any medical treatments or appointments that have had to be cancelled or postponed during the COVID-19 pandemic?,99.0,Don't know 
+711566,GENSCOT,COVIDLIFE2,s2_postponed_type_1,GP referral,0.0,No
+711567,GENSCOT,COVIDLIFE2,s2_postponed_type_1,GP referral,1.0,Yes
+711568,GENSCOT,COVIDLIFE2,s2_postponed_type_2,Hospital referral,0.0,No
+711569,GENSCOT,COVIDLIFE2,s2_postponed_type_2,Hospital referral,1.0,Yes
+711570,GENSCOT,COVIDLIFE2,s2_postponed_type_3,Routine clinic appointment,0.0,No
+711571,GENSCOT,COVIDLIFE2,s2_postponed_type_3,Routine clinic appointment,1.0,Yes
+711572,GENSCOT,COVIDLIFE2,s2_postponed_type_4,Dental treatment,0.0,No
+711573,GENSCOT,COVIDLIFE2,s2_postponed_type_4,Dental treatment,1.0,Yes
+711574,GENSCOT,COVIDLIFE2,s2_postponed_type_5,Surgery,0.0,No
+711575,GENSCOT,COVIDLIFE2,s2_postponed_type_5,Surgery,1.0,Yes
+711576,GENSCOT,COVIDLIFE2,s2_postponed_type_6,Dialysis,0.0,No
+711577,GENSCOT,COVIDLIFE2,s2_postponed_type_6,Dialysis,1.0,Yes
+711578,GENSCOT,COVIDLIFE2,s2_postponed_type_7,Cancer treatment,0.0,No
+711579,GENSCOT,COVIDLIFE2,s2_postponed_type_7,Cancer treatment,1.0,Yes
+711580,GENSCOT,COVIDLIFE2,s2_postponed_type_8,Cancer testing,0.0,No
+711581,GENSCOT,COVIDLIFE2,s2_postponed_type_8,Cancer testing,1.0,Yes
+711582,GENSCOT,COVIDLIFE2,s2_postponed_type_9,Cancer screening,0.0,No
+711583,GENSCOT,COVIDLIFE2,s2_postponed_type_9,Cancer screening,1.0,Yes
+711584,GENSCOT,COVIDLIFE2,s2_postponed_type_10,Other (please specify),0.0,No
+711585,GENSCOT,COVIDLIFE2,s2_postponed_type_10,Other (please specify),1.0,Yes
+711586,GENSCOT,COVIDLIFE2,s2_postponed_worry,Are you worried about your health because of this cancelled or postponed treatment?,1.0,Not at all worried
+711587,GENSCOT,COVIDLIFE2,s2_postponed_worry,Are you worried about your health because of this cancelled or postponed treatment?,2.0,Slightly worried
+711588,GENSCOT,COVIDLIFE2,s2_postponed_worry,Are you worried about your health because of this cancelled or postponed treatment?,3.0,Moderately worried
+711589,GENSCOT,COVIDLIFE2,s2_postponed_worry,Are you worried about your health because of this cancelled or postponed treatment?,4.0,Very worried
+711590,GENSCOT,COVIDLIFE2,s2_postponed_worry,Are you worried about your health because of this cancelled or postponed treatment?,5.0,Extremely worried
+711591,GENSCOT,COVIDLIFE2,s2_developed_sympt,"During the COVID-19 pandemic, have you developed signs and symptoms that you would like to have looked at or investigated by your GP, or another healthcare professional?",0.0,No 
+711592,GENSCOT,COVIDLIFE2,s2_developed_sympt,"During the COVID-19 pandemic, have you developed signs and symptoms that you would like to have looked at or investigated by your GP, or another healthcare professional?",1.0,Yes 
+711593,GENSCOT,COVIDLIFE2,s2_developed_sympt,"During the COVID-19 pandemic, have you developed signs and symptoms that you would like to have looked at or investigated by your GP, or another healthcare professional?",98.0,Prefer not to answer
+711594,GENSCOT,COVIDLIFE2,s2_developed_sympt,"During the COVID-19 pandemic, have you developed signs and symptoms that you would like to have looked at or investigated by your GP, or another healthcare professional?",99.0,Don't know 
+711595,GENSCOT,COVIDLIFE2,s2_contact_sympt,Have you contacted your GP or another healthcare professional about these signs and symptoms?,0.0,No 
+711596,GENSCOT,COVIDLIFE2,s2_contact_sympt,Have you contacted your GP or another healthcare professional about these signs and symptoms?,1.0,Yes 
+711597,GENSCOT,COVIDLIFE2,s2_contact_sympt,Have you contacted your GP or another healthcare professional about these signs and symptoms?,98.0,Prefer not to answer
+711598,GENSCOT,COVIDLIFE2,s2_contact_sympt,Have you contacted your GP or another healthcare professional about these signs and symptoms?,99.0,Don't know 
+711599,GENSCOT,COVIDLIFE2,s2_worry_sympt,Are you worrying about these new signs or symptoms?,1.0,Not at all worried
+711600,GENSCOT,COVIDLIFE2,s2_worry_sympt,Are you worrying about these new signs or symptoms?,2.0,Slightly worried
+711601,GENSCOT,COVIDLIFE2,s2_worry_sympt,Are you worrying about these new signs or symptoms?,3.0,Moderately worried
+711602,GENSCOT,COVIDLIFE2,s2_worry_sympt,Are you worrying about these new signs or symptoms?,4.0,Very worried
+711603,GENSCOT,COVIDLIFE2,s2_worry_sympt,Are you worrying about these new signs or symptoms?,5.0,Extremely worried
+711604,GENSCOT,COVIDLIFE2,s2_events_cancelled,"Have you had to cancel or postpone any major life events because of the COVID-19 pandemic? For example a wedding, moving house, etc.",0.0,No
+711605,GENSCOT,COVIDLIFE2,s2_events_cancelled,"Have you had to cancel or postpone any major life events because of the COVID-19 pandemic? For example a wedding, moving house, etc.",1.0,Yes
+711606,GENSCOT,COVIDLIFE2,s2_holiday_cancelled,Have you had to cancel or postpone a holiday because of the COVID-19 pandemic?,0.0,No
+711607,GENSCOT,COVIDLIFE2,s2_holiday_cancelled,Have you had to cancel or postpone a holiday because of the COVID-19 pandemic?,1.0,Yes
+711608,GENSCOT,COVIDLIFE2,s2_shopfood_anxious,Do you feel anxious when going food shopping during the COVID19 pandemic?,1.0,Not at all anxious
+711609,GENSCOT,COVIDLIFE2,s2_shopfood_anxious,Do you feel anxious when going food shopping during the COVID19 pandemic?,2.0,Slightly anxious
+711610,GENSCOT,COVIDLIFE2,s2_shopfood_anxious,Do you feel anxious when going food shopping during the COVID19 pandemic?,3.0,Moderately anxious
+711611,GENSCOT,COVIDLIFE2,s2_shopfood_anxious,Do you feel anxious when going food shopping during the COVID19 pandemic?,4.0,Very anxious
+711612,GENSCOT,COVIDLIFE2,s2_shopfood_anxious,Do you feel anxious when going food shopping during the COVID19 pandemic?,5.0,Extremely anxious
+711613,GENSCOT,COVIDLIFE2,s2_shopfood_anxious,Do you feel anxious when going food shopping during the COVID19 pandemic?,6.0,I don't go food shopping
+711614,GENSCOT,COVIDLIFE2,s2_shopfood_anxious,Do you feel anxious when going food shopping during the COVID19 pandemic?,97.0,Not applicable
+711615,GENSCOT,COVIDLIFE2,s2_relations_partner,"Compared to before the COVID-19 pandemic, do you think that your relationship with your spouse/partner has:",1.0,Improved a lot
+711616,GENSCOT,COVIDLIFE2,s2_relations_partner,"Compared to before the COVID-19 pandemic, do you think that your relationship with your spouse/partner has:",2.0,Improved a little
+711617,GENSCOT,COVIDLIFE2,s2_relations_partner,"Compared to before the COVID-19 pandemic, do you think that your relationship with your spouse/partner has:",3.0,Stayed the same
+711618,GENSCOT,COVIDLIFE2,s2_relations_partner,"Compared to before the COVID-19 pandemic, do you think that your relationship with your spouse/partner has:",4.0,Worsened a little
+711619,GENSCOT,COVIDLIFE2,s2_relations_partner,"Compared to before the COVID-19 pandemic, do you think that your relationship with your spouse/partner has:",5.0,Worsened a lot
+711620,GENSCOT,COVIDLIFE2,s2_covid_impact,"On the whole, what impact has the COVID-19 pandemic had on your life?",1.0,Very negative impact
+711621,GENSCOT,COVIDLIFE2,s2_covid_impact,"On the whole, what impact has the COVID-19 pandemic had on your life?",2.0,Quite negative impact
+711622,GENSCOT,COVIDLIFE2,s2_covid_impact,"On the whole, what impact has the COVID-19 pandemic had on your life?",3.0,Neither negative nor positive impact
+711623,GENSCOT,COVIDLIFE2,s2_covid_impact,"On the whole, what impact has the COVID-19 pandemic had on your life?",4.0,Quite positive impact
+711624,GENSCOT,COVIDLIFE2,s2_covid_impact,"On the whole, what impact has the COVID-19 pandemic had on your life?",5.0,Very positive impact
+711625,GENSCOT,COVIDLIFE2,s2_covid_fortunate,"Compared to other people, how do you feel about your current situation during the COVID-19 pandemic?",1.0,Very unfortunate
+711626,GENSCOT,COVIDLIFE2,s2_covid_fortunate,"Compared to other people, how do you feel about your current situation during the COVID-19 pandemic?",2.0,A little unfortunate
+711627,GENSCOT,COVIDLIFE2,s2_covid_fortunate,"Compared to other people, how do you feel about your current situation during the COVID-19 pandemic?",3.0,Neither fortunate nor unfortunate
+711628,GENSCOT,COVIDLIFE2,s2_covid_fortunate,"Compared to other people, how do you feel about your current situation during the COVID-19 pandemic?",4.0,A little fortunate
+711629,GENSCOT,COVIDLIFE2,s2_covid_fortunate,"Compared to other people, how do you feel about your current situation during the COVID-19 pandemic?",5.0,Very fortunate
+711630,GENSCOT,COVIDLIFE2,s2_childnumber,How many children do you have aged 17 and under living in your household?,,"0(0) ,..., 15+(15)"
+711631,GENSCOT,COVIDLIFE2,s2_childage1,Youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711632,GENSCOT,COVIDLIFE2,s2_childage2,Second youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711633,GENSCOT,COVIDLIFE2,s2_childage3,Third youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711634,GENSCOT,COVIDLIFE2,s2_childage4,Fourth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711635,GENSCOT,COVIDLIFE2,s2_childage5,Fifth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711636,GENSCOT,COVIDLIFE2,s2_childage6,Sixth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711637,GENSCOT,COVIDLIFE2,s2_childage7,Seventh youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711638,GENSCOT,COVIDLIFE2,s2_childage8,Eighth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711639,GENSCOT,COVIDLIFE2,s2_childage9,Ninth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711640,GENSCOT,COVIDLIFE2,s2_childage10,Tenth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711641,GENSCOT,COVIDLIFE2,s2_childage11,Eleventh youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711642,GENSCOT,COVIDLIFE2,s2_childage12,Twelfth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711643,GENSCOT,COVIDLIFE2,s2_childage13,Thirteenth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711644,GENSCOT,COVIDLIFE2,s2_childage14,Fourteenth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711645,GENSCOT,COVIDLIFE2,s2_childage15,Fifteenth youngest child,,"0-3 months(0.25); 3-6 months(0.5); 6-12 months(0.75); 1 year(1); 2 years(2) ,..., 17 years(17); 18+ years(18)"
+711646,GENSCOT,COVIDLIFE2,s2_childfte,Do you have one or more children in full-time education?,0.0,No
+711647,GENSCOT,COVIDLIFE2,s2_childfte,Do you have one or more children in full-time education?,1.0,Yes
+711648,GENSCOT,COVIDLIFE2,s2_fte_bf1,"Before the official lockdown was announced on the 23rd March 2020, how was each child being educated?: Youngest child",1.0,Was going to a school/college in person
+711649,GENSCOT,COVIDLIFE2,s2_fte_bf1,"Before the official lockdown was announced on the 23rd March 2020, how was each child being educated?: Youngest child",2.0,Was enrolled on a distance learning course
+711650,GENSCOT,COVIDLIFE2,s2_fte_bf1,"Before the official lockdown was announced on the 23rd March 2020, how was each child being educated?: Youngest child",3.0,Was schooled at home
+711651,GENSCOT,COVIDLIFE2,s2_fte_bf1,"Before the official lockdown was announced on the 23rd March 2020, how was each child being educated?: Youngest child",97.0,Not applicable / None of these
+711652,GENSCOT,COVIDLIFE2,s2_fte_bf2,Second youngest child,1.0,Was going to a school/college in person
+711653,GENSCOT,COVIDLIFE2,s2_fte_bf2,Second youngest child,2.0,Was enrolled on a distance learning course
+711654,GENSCOT,COVIDLIFE2,s2_fte_bf2,Second youngest child,3.0,Was schooled at home
+711655,GENSCOT,COVIDLIFE2,s2_fte_bf2,Second youngest child,97.0,Not applicable / None of these
+711656,GENSCOT,COVIDLIFE2,s2_fte_bf3,Third youngest child,1.0,Was going to a school/college in person
+711657,GENSCOT,COVIDLIFE2,s2_fte_bf3,Third youngest child,2.0,Was enrolled on a distance learning course
+711658,GENSCOT,COVIDLIFE2,s2_fte_bf3,Third youngest child,3.0,Was schooled at home
+711659,GENSCOT,COVIDLIFE2,s2_fte_bf3,Third youngest child,97.0,Not applicable / None of these
+711660,GENSCOT,COVIDLIFE2,s2_fte_bf4,Fourth youngest child,1.0,Was going to a school/college in person
+711661,GENSCOT,COVIDLIFE2,s2_fte_bf4,Fourth youngest child,2.0,Was enrolled on a distance learning course
+711662,GENSCOT,COVIDLIFE2,s2_fte_bf4,Fourth youngest child,3.0,Was schooled at home
+711663,GENSCOT,COVIDLIFE2,s2_fte_bf4,Fourth youngest child,97.0,Not applicable / None of these
+711664,GENSCOT,COVIDLIFE2,s2_fte_bf5,Fifth youngest child,1.0,Was going to a school/college in person
+711665,GENSCOT,COVIDLIFE2,s2_fte_bf5,Fifth youngest child,2.0,Was enrolled on a distance learning course
+711666,GENSCOT,COVIDLIFE2,s2_fte_bf5,Fifth youngest child,3.0,Was schooled at home
+711667,GENSCOT,COVIDLIFE2,s2_fte_bf5,Fifth youngest child,97.0,Not applicable / None of these
+711668,GENSCOT,COVIDLIFE2,s2_fte_bf6,Sixth youngest child,1.0,Was going to a school/college in person
+711669,GENSCOT,COVIDLIFE2,s2_fte_bf6,Sixth youngest child,2.0,Was enrolled on a distance learning course
+711670,GENSCOT,COVIDLIFE2,s2_fte_bf6,Sixth youngest child,3.0,Was schooled at home
+711671,GENSCOT,COVIDLIFE2,s2_fte_bf6,Sixth youngest child,97.0,Not applicable / None of these
+711672,GENSCOT,COVIDLIFE2,s2_fte_bf7,Seventh youngest child,1.0,Was going to a school/college in person
+711673,GENSCOT,COVIDLIFE2,s2_fte_bf7,Seventh youngest child,2.0,Was enrolled on a distance learning course
+711674,GENSCOT,COVIDLIFE2,s2_fte_bf7,Seventh youngest child,3.0,Was schooled at home
+711675,GENSCOT,COVIDLIFE2,s2_fte_bf7,Seventh youngest child,97.0,Not applicable / None of these
+711676,GENSCOT,COVIDLIFE2,s2_fte_bf8,Eighth youngest child,1.0,Was going to a school/college in person
+711677,GENSCOT,COVIDLIFE2,s2_fte_bf8,Eighth youngest child,2.0,Was enrolled on a distance learning course
+711678,GENSCOT,COVIDLIFE2,s2_fte_bf8,Eighth youngest child,3.0,Was schooled at home
+711679,GENSCOT,COVIDLIFE2,s2_fte_bf8,Eighth youngest child,97.0,Not applicable / None of these
+711680,GENSCOT,COVIDLIFE2,s2_fte_bf9,Ninth youngest child,1.0,Was going to a school/college in person
+711681,GENSCOT,COVIDLIFE2,s2_fte_bf9,Ninth youngest child,2.0,Was enrolled on a distance learning course
+711682,GENSCOT,COVIDLIFE2,s2_fte_bf9,Ninth youngest child,3.0,Was schooled at home
+711683,GENSCOT,COVIDLIFE2,s2_fte_bf9,Ninth youngest child,97.0,Not applicable / None of these
+711684,GENSCOT,COVIDLIFE2,s2_fte_bf10,Tenth youngest child,1.0,Was going to a school/college in person
+711685,GENSCOT,COVIDLIFE2,s2_fte_bf10,Tenth youngest child,2.0,Was enrolled on a distance learning course
+711686,GENSCOT,COVIDLIFE2,s2_fte_bf10,Tenth youngest child,3.0,Was schooled at home
+711687,GENSCOT,COVIDLIFE2,s2_fte_bf10,Tenth youngest child,97.0,Not applicable / None of these
+711688,GENSCOT,COVIDLIFE2,s2_fte_bf11,Eleventh youngest child,1.0,Was going to a school/college in person
+711689,GENSCOT,COVIDLIFE2,s2_fte_bf11,Eleventh youngest child,2.0,Was enrolled on a distance learning course
+711690,GENSCOT,COVIDLIFE2,s2_fte_bf11,Eleventh youngest child,3.0,Was schooled at home
+711691,GENSCOT,COVIDLIFE2,s2_fte_bf11,Eleventh youngest child,97.0,Not applicable / None of these
+711692,GENSCOT,COVIDLIFE2,s2_fte_bf12,Twelfth youngest child,1.0,Was going to a school/college in person
+711693,GENSCOT,COVIDLIFE2,s2_fte_bf12,Twelfth youngest child,2.0,Was enrolled on a distance learning course
+711694,GENSCOT,COVIDLIFE2,s2_fte_bf12,Twelfth youngest child,3.0,Was schooled at home
+711695,GENSCOT,COVIDLIFE2,s2_fte_bf12,Twelfth youngest child,97.0,Not applicable / None of these
+711696,GENSCOT,COVIDLIFE2,s2_fte_bf13,Thirteenth youngest child,1.0,Was going to a school/college in person
+711697,GENSCOT,COVIDLIFE2,s2_fte_bf13,Thirteenth youngest child,2.0,Was enrolled on a distance learning course
+711698,GENSCOT,COVIDLIFE2,s2_fte_bf13,Thirteenth youngest child,3.0,Was schooled at home
+711699,GENSCOT,COVIDLIFE2,s2_fte_bf13,Thirteenth youngest child,97.0,Not applicable / None of these
+711700,GENSCOT,COVIDLIFE2,s2_fte_bf14,Fourteenth youngest child,1.0,Was going to a school/college in person
+711701,GENSCOT,COVIDLIFE2,s2_fte_bf14,Fourteenth youngest child,2.0,Was enrolled on a distance learning course
+711702,GENSCOT,COVIDLIFE2,s2_fte_bf14,Fourteenth youngest child,3.0,Was schooled at home
+711703,GENSCOT,COVIDLIFE2,s2_fte_bf14,Fourteenth youngest child,97.0,Not applicable / None of these
+711704,GENSCOT,COVIDLIFE2,s2_fte_bf15,Fifteenth youngest child,1.0,Was going to a school/college in person
+711705,GENSCOT,COVIDLIFE2,s2_fte_bf15,Fifteenth youngest child,2.0,Was enrolled on a distance learning course
+711706,GENSCOT,COVIDLIFE2,s2_fte_bf15,Fifteenth youngest child,3.0,Was schooled at home
+711707,GENSCOT,COVIDLIFE2,s2_fte_bf15,Fifteenth youngest child,97.0,Not applicable / None of these
+711708,GENSCOT,COVIDLIFE2,s2_fte_ld1,"Since the official lockdown was announced on 23rd March 2020,how has each child been educated?: Youngest child",1.0,Still goes to a school/college in person
+711709,GENSCOT,COVIDLIFE2,s2_fte_ld1,"Since the official lockdown was announced on 23rd March 2020,how has each child been educated?: Youngest child",2.0,Still enrolled on a distance learning course
+711710,GENSCOT,COVIDLIFE2,s2_fte_ld1,"Since the official lockdown was announced on 23rd March 2020,how has each child been educated?: Youngest child",3.0,Still schooled at home
+711711,GENSCOT,COVIDLIFE2,s2_fte_ld1,"Since the official lockdown was announced on 23rd March 2020,how has each child been educated?: Youngest child",4.0,Now does work set by the school/college at home
+711712,GENSCOT,COVIDLIFE2,s2_fte_ld1,"Since the official lockdown was announced on 23rd March 2020,how has each child been educated?: Youngest child",97.0,Not applicable / None of these
+711713,GENSCOT,COVIDLIFE2,s2_fte_ld2,Second youngest child,1.0,Still goes to a school/college in person
+711714,GENSCOT,COVIDLIFE2,s2_fte_ld2,Second youngest child,2.0,Still enrolled on a distance learning course
+711715,GENSCOT,COVIDLIFE2,s2_fte_ld2,Second youngest child,3.0,Still schooled at home
+711716,GENSCOT,COVIDLIFE2,s2_fte_ld2,Second youngest child,4.0,Now does work set by the school/college at home
+711717,GENSCOT,COVIDLIFE2,s2_fte_ld2,Second youngest child,97.0,Not applicable / None of these
+711718,GENSCOT,COVIDLIFE2,s2_fte_ld3,Third youngest child,1.0,Still goes to a school/college in person
+711719,GENSCOT,COVIDLIFE2,s2_fte_ld3,Third youngest child,2.0,Still enrolled on a distance learning course
+711720,GENSCOT,COVIDLIFE2,s2_fte_ld3,Third youngest child,3.0,Still schooled at home
+711721,GENSCOT,COVIDLIFE2,s2_fte_ld3,Third youngest child,4.0,Now does work set by the school/college at home
+711722,GENSCOT,COVIDLIFE2,s2_fte_ld3,Third youngest child,97.0,Not applicable / None of these
+711723,GENSCOT,COVIDLIFE2,s2_fte_ld4,Fourth youngest child,1.0,Still goes to a school/college in person
+711724,GENSCOT,COVIDLIFE2,s2_fte_ld4,Fourth youngest child,2.0,Still enrolled on a distance learning course
+711725,GENSCOT,COVIDLIFE2,s2_fte_ld4,Fourth youngest child,3.0,Still schooled at home
+711726,GENSCOT,COVIDLIFE2,s2_fte_ld4,Fourth youngest child,4.0,Now does work set by the school/college at home
+711727,GENSCOT,COVIDLIFE2,s2_fte_ld4,Fourth youngest child,97.0,Not applicable / None of these
+711728,GENSCOT,COVIDLIFE2,s2_fte_ld5,Fifth youngest child,1.0,Still goes to a school/college in person
+711729,GENSCOT,COVIDLIFE2,s2_fte_ld5,Fifth youngest child,2.0,Still enrolled on a distance learning course
+711730,GENSCOT,COVIDLIFE2,s2_fte_ld5,Fifth youngest child,3.0,Still schooled at home
+711731,GENSCOT,COVIDLIFE2,s2_fte_ld5,Fifth youngest child,4.0,Now does work set by the school/college at home
+711732,GENSCOT,COVIDLIFE2,s2_fte_ld5,Fifth youngest child,97.0,Not applicable / None of these
+711733,GENSCOT,COVIDLIFE2,s2_fte_ld6,Sixth youngest child,1.0,Still goes to a school/college in person
+711734,GENSCOT,COVIDLIFE2,s2_fte_ld6,Sixth youngest child,2.0,Still enrolled on a distance learning course
+711735,GENSCOT,COVIDLIFE2,s2_fte_ld6,Sixth youngest child,3.0,Still schooled at home
+711736,GENSCOT,COVIDLIFE2,s2_fte_ld6,Sixth youngest child,4.0,Now does work set by the school/college at home
+711737,GENSCOT,COVIDLIFE2,s2_fte_ld6,Sixth youngest child,97.0,Not applicable / None of these
+711738,GENSCOT,COVIDLIFE2,s2_fte_ld7,Seventh youngest child,1.0,Still goes to a school/college in person
+711739,GENSCOT,COVIDLIFE2,s2_fte_ld7,Seventh youngest child,2.0,Still enrolled on a distance learning course
+711740,GENSCOT,COVIDLIFE2,s2_fte_ld7,Seventh youngest child,3.0,Still schooled at home
+711741,GENSCOT,COVIDLIFE2,s2_fte_ld7,Seventh youngest child,4.0,Now does work set by the school/college at home
+711742,GENSCOT,COVIDLIFE2,s2_fte_ld7,Seventh youngest child,97.0,Not applicable / None of these
+711743,GENSCOT,COVIDLIFE2,s2_fte_ld8,Eighth youngest child,1.0,Still goes to a school/college in person
+711744,GENSCOT,COVIDLIFE2,s2_fte_ld8,Eighth youngest child,2.0,Still enrolled on a distance learning course
+711745,GENSCOT,COVIDLIFE2,s2_fte_ld8,Eighth youngest child,3.0,Still schooled at home
+711746,GENSCOT,COVIDLIFE2,s2_fte_ld8,Eighth youngest child,4.0,Now does work set by the school/college at home
+711747,GENSCOT,COVIDLIFE2,s2_fte_ld8,Eighth youngest child,97.0,Not applicable / None of these
+711748,GENSCOT,COVIDLIFE2,s2_fte_ld9,Ninth youngest child,1.0,Still goes to a school/college in person
+711749,GENSCOT,COVIDLIFE2,s2_fte_ld9,Ninth youngest child,2.0,Still enrolled on a distance learning course
+711750,GENSCOT,COVIDLIFE2,s2_fte_ld9,Ninth youngest child,3.0,Still schooled at home
+711751,GENSCOT,COVIDLIFE2,s2_fte_ld9,Ninth youngest child,4.0,Now does work set by the school/college at home
+711752,GENSCOT,COVIDLIFE2,s2_fte_ld9,Ninth youngest child,97.0,Not applicable / None of these
+711753,GENSCOT,COVIDLIFE2,s2_fte_ld10,Tenth youngest child,1.0,Still goes to a school/college in person
+711754,GENSCOT,COVIDLIFE2,s2_fte_ld10,Tenth youngest child,2.0,Still enrolled on a distance learning course
+711755,GENSCOT,COVIDLIFE2,s2_fte_ld10,Tenth youngest child,3.0,Still schooled at home
+711756,GENSCOT,COVIDLIFE2,s2_fte_ld10,Tenth youngest child,4.0,Now does work set by the school/college at home
+711757,GENSCOT,COVIDLIFE2,s2_fte_ld10,Tenth youngest child,97.0,Not applicable / None of these
+711758,GENSCOT,COVIDLIFE2,s2_fte_ld11,Eleventh youngest child,1.0,Still goes to a school/college in person
+711759,GENSCOT,COVIDLIFE2,s2_fte_ld11,Eleventh youngest child,2.0,Still enrolled on a distance learning course
+711760,GENSCOT,COVIDLIFE2,s2_fte_ld11,Eleventh youngest child,3.0,Still schooled at home
+711761,GENSCOT,COVIDLIFE2,s2_fte_ld11,Eleventh youngest child,4.0,Now does work set by the school/college at home
+711762,GENSCOT,COVIDLIFE2,s2_fte_ld11,Eleventh youngest child,97.0,Not applicable / None of these
+711763,GENSCOT,COVIDLIFE2,s2_fte_ld12,Twelfth youngest child,1.0,Still goes to a school/college in person
+711764,GENSCOT,COVIDLIFE2,s2_fte_ld12,Twelfth youngest child,2.0,Still enrolled on a distance learning course
+711765,GENSCOT,COVIDLIFE2,s2_fte_ld12,Twelfth youngest child,3.0,Still schooled at home
+711766,GENSCOT,COVIDLIFE2,s2_fte_ld12,Twelfth youngest child,4.0,Now does work set by the school/college at home
+711767,GENSCOT,COVIDLIFE2,s2_fte_ld12,Twelfth youngest child,97.0,Not applicable / None of these
+711768,GENSCOT,COVIDLIFE2,s2_fte_ld13,Thirteenth youngest child,1.0,Still goes to a school/college in person
+711769,GENSCOT,COVIDLIFE2,s2_fte_ld13,Thirteenth youngest child,2.0,Still enrolled on a distance learning course
+711770,GENSCOT,COVIDLIFE2,s2_fte_ld13,Thirteenth youngest child,3.0,Still schooled at home
+711771,GENSCOT,COVIDLIFE2,s2_fte_ld13,Thirteenth youngest child,4.0,Now does work set by the school/college at home
+711772,GENSCOT,COVIDLIFE2,s2_fte_ld13,Thirteenth youngest child,97.0,Not applicable / None of these
+711773,GENSCOT,COVIDLIFE2,s2_fte_ld14,Fourteenth youngest child,1.0,Still goes to a school/college in person
+711774,GENSCOT,COVIDLIFE2,s2_fte_ld14,Fourteenth youngest child,2.0,Still enrolled on a distance learning course
+711775,GENSCOT,COVIDLIFE2,s2_fte_ld14,Fourteenth youngest child,3.0,Still schooled at home
+711776,GENSCOT,COVIDLIFE2,s2_fte_ld14,Fourteenth youngest child,4.0,Now does work set by the school/college at home
+711777,GENSCOT,COVIDLIFE2,s2_fte_ld14,Fourteenth youngest child,97.0,Not applicable / None of these
+711778,GENSCOT,COVIDLIFE2,s2_fte_ld15,Fifteenth youngest child,1.0,Still goes to a school/college in person
+711779,GENSCOT,COVIDLIFE2,s2_fte_ld15,Fifteenth youngest child,2.0,Still enrolled on a distance learning course
+711780,GENSCOT,COVIDLIFE2,s2_fte_ld15,Fifteenth youngest child,3.0,Still schooled at home
+711781,GENSCOT,COVIDLIFE2,s2_fte_ld15,Fifteenth youngest child,4.0,Now does work set by the school/college at home
+711782,GENSCOT,COVIDLIFE2,s2_fte_ld15,Fifteenth youngest child,97.0,Not applicable / None of these
+711783,GENSCOT,COVIDLIFE2,s2_fte_access1_1,Youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711784,GENSCOT,COVIDLIFE2,s2_fte_access1_1,Youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711785,GENSCOT,COVIDLIFE2,s2_fte_access1_2,Youngest child - No suitable place in the home to learn,0.0,No
+711786,GENSCOT,COVIDLIFE2,s2_fte_access1_2,Youngest child - No suitable place in the home to learn,1.0,Yes
+711787,GENSCOT,COVIDLIFE2,s2_fte_access1_3,Youngest child - Limited quality or quantity of remote lessons,0.0,No
+711788,GENSCOT,COVIDLIFE2,s2_fte_access1_3,Youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711789,GENSCOT,COVIDLIFE2,s2_fte_access1_4,Youngest child - Difficulty adapting to remote learning,0.0,No
+711790,GENSCOT,COVIDLIFE2,s2_fte_access1_4,Youngest child - Difficulty adapting to remote learning,1.0,Yes
+711791,GENSCOT,COVIDLIFE2,s2_fte_access1_97,Youngest child - Click to write Scale Point 5,0.0,No
+711792,GENSCOT,COVIDLIFE2,s2_fte_access1_97,Youngest child - Click to write Scale Point 5,1.0,Yes
+711793,GENSCOT,COVIDLIFE2,s2_fte_access2_1,Second youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711794,GENSCOT,COVIDLIFE2,s2_fte_access2_1,Second youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711795,GENSCOT,COVIDLIFE2,s2_fte_access2_2,Second youngest child - No suitable place in the home to learn,0.0,No
+711796,GENSCOT,COVIDLIFE2,s2_fte_access2_2,Second youngest child - No suitable place in the home to learn,1.0,Yes
+711797,GENSCOT,COVIDLIFE2,s2_fte_access2_3,Second youngest child - Limited quality or quantity of remote lessons,0.0,No
+711798,GENSCOT,COVIDLIFE2,s2_fte_access2_3,Second youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711799,GENSCOT,COVIDLIFE2,s2_fte_access2_4,Second youngest child - Difficulty adapting to remote learning,0.0,No
+711800,GENSCOT,COVIDLIFE2,s2_fte_access2_4,Second youngest child - Difficulty adapting to remote learning,1.0,Yes
+711801,GENSCOT,COVIDLIFE2,s2_fte_access2_97,Second youngest child - Click to write Scale Point 5,0.0,No
+711802,GENSCOT,COVIDLIFE2,s2_fte_access2_97,Second youngest child - Click to write Scale Point 5,1.0,Yes
+711803,GENSCOT,COVIDLIFE2,s2_fte_access3_1,Third youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711804,GENSCOT,COVIDLIFE2,s2_fte_access3_1,Third youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711805,GENSCOT,COVIDLIFE2,s2_fte_access3_2,Third youngest child - No suitable place in the home to learn,0.0,No
+711806,GENSCOT,COVIDLIFE2,s2_fte_access3_2,Third youngest child - No suitable place in the home to learn,1.0,Yes
+711807,GENSCOT,COVIDLIFE2,s2_fte_access3_3,Third youngest child - Limited quality or quantity of remote lessons,0.0,No
+711808,GENSCOT,COVIDLIFE2,s2_fte_access3_3,Third youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711809,GENSCOT,COVIDLIFE2,s2_fte_access3_4,Third youngest child - Difficulty adapting to remote learning,0.0,No
+711810,GENSCOT,COVIDLIFE2,s2_fte_access3_4,Third youngest child - Difficulty adapting to remote learning,1.0,Yes
+711811,GENSCOT,COVIDLIFE2,s2_fte_access3_97,Third youngest child - Click to write Scale Point 5,0.0,No
+711812,GENSCOT,COVIDLIFE2,s2_fte_access3_97,Third youngest child - Click to write Scale Point 5,1.0,Yes
+711813,GENSCOT,COVIDLIFE2,s2_fte_access4_1,Fourth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711814,GENSCOT,COVIDLIFE2,s2_fte_access4_1,Fourth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711815,GENSCOT,COVIDLIFE2,s2_fte_access4_2,Fourth youngest child - No suitable place in the home to learn,0.0,No
+711816,GENSCOT,COVIDLIFE2,s2_fte_access4_2,Fourth youngest child - No suitable place in the home to learn,1.0,Yes
+711817,GENSCOT,COVIDLIFE2,s2_fte_access4_3,Fourth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711818,GENSCOT,COVIDLIFE2,s2_fte_access4_3,Fourth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711819,GENSCOT,COVIDLIFE2,s2_fte_access4_4,Fourth youngest child - Difficulty adapting to remote learning,0.0,No
+711820,GENSCOT,COVIDLIFE2,s2_fte_access4_4,Fourth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711821,GENSCOT,COVIDLIFE2,s2_fte_access4_97,Fourth youngest child - Click to write Scale Point 5,0.0,No
+711822,GENSCOT,COVIDLIFE2,s2_fte_access4_97,Fourth youngest child - Click to write Scale Point 5,1.0,Yes
+711823,GENSCOT,COVIDLIFE2,s2_fte_access5_1,Fifth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711824,GENSCOT,COVIDLIFE2,s2_fte_access5_1,Fifth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711825,GENSCOT,COVIDLIFE2,s2_fte_access5_2,Fifth youngest child - No suitable place in the home to learn,0.0,No
+711826,GENSCOT,COVIDLIFE2,s2_fte_access5_2,Fifth youngest child - No suitable place in the home to learn,1.0,Yes
+711827,GENSCOT,COVIDLIFE2,s2_fte_access5_3,Fifth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711828,GENSCOT,COVIDLIFE2,s2_fte_access5_3,Fifth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711829,GENSCOT,COVIDLIFE2,s2_fte_access5_4,Fifth youngest child - Difficulty adapting to remote learning,0.0,No
+711830,GENSCOT,COVIDLIFE2,s2_fte_access5_4,Fifth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711831,GENSCOT,COVIDLIFE2,s2_fte_access5_97,Fifth youngest child - Click to write Scale Point 5,0.0,No
+711832,GENSCOT,COVIDLIFE2,s2_fte_access5_97,Fifth youngest child - Click to write Scale Point 5,1.0,Yes
+711833,GENSCOT,COVIDLIFE2,s2_fte_access6_1,Sixth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711834,GENSCOT,COVIDLIFE2,s2_fte_access6_1,Sixth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711835,GENSCOT,COVIDLIFE2,s2_fte_access6_2,Sixth youngest child - No suitable place in the home to learn,0.0,No
+711836,GENSCOT,COVIDLIFE2,s2_fte_access6_2,Sixth youngest child - No suitable place in the home to learn,1.0,Yes
+711837,GENSCOT,COVIDLIFE2,s2_fte_access6_3,Sixth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711838,GENSCOT,COVIDLIFE2,s2_fte_access6_3,Sixth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711839,GENSCOT,COVIDLIFE2,s2_fte_access6_4,Sixth youngest child - Difficulty adapting to remote learning,0.0,No
+711840,GENSCOT,COVIDLIFE2,s2_fte_access6_4,Sixth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711841,GENSCOT,COVIDLIFE2,s2_fte_access6_97,Sixth youngest child - Click to write Scale Point 5,0.0,No
+711842,GENSCOT,COVIDLIFE2,s2_fte_access6_97,Sixth youngest child - Click to write Scale Point 5,1.0,Yes
+711843,GENSCOT,COVIDLIFE2,s2_fte_access7_1,Seventh youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711844,GENSCOT,COVIDLIFE2,s2_fte_access7_1,Seventh youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711845,GENSCOT,COVIDLIFE2,s2_fte_access7_2,Seventh youngest child - No suitable place in the home to learn,0.0,No
+711846,GENSCOT,COVIDLIFE2,s2_fte_access7_2,Seventh youngest child - No suitable place in the home to learn,1.0,Yes
+711847,GENSCOT,COVIDLIFE2,s2_fte_access7_3,Seventh youngest child - Limited quality or quantity of remote lessons,0.0,No
+711848,GENSCOT,COVIDLIFE2,s2_fte_access7_3,Seventh youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711849,GENSCOT,COVIDLIFE2,s2_fte_access7_4,Seventh youngest child - Difficulty adapting to remote learning,0.0,No
+711850,GENSCOT,COVIDLIFE2,s2_fte_access7_4,Seventh youngest child - Difficulty adapting to remote learning,1.0,Yes
+711851,GENSCOT,COVIDLIFE2,s2_fte_access7_97,Seventh youngest child - Click to write Scale Point 5,0.0,No
+711852,GENSCOT,COVIDLIFE2,s2_fte_access7_97,Seventh youngest child - Click to write Scale Point 5,1.0,Yes
+711853,GENSCOT,COVIDLIFE2,s2_fte_access8_1,Eighth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711854,GENSCOT,COVIDLIFE2,s2_fte_access8_1,Eighth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711855,GENSCOT,COVIDLIFE2,s2_fte_access8_2,Eighth youngest child - No suitable place in the home to learn,0.0,No
+711856,GENSCOT,COVIDLIFE2,s2_fte_access8_2,Eighth youngest child - No suitable place in the home to learn,1.0,Yes
+711857,GENSCOT,COVIDLIFE2,s2_fte_access8_3,Eighth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711858,GENSCOT,COVIDLIFE2,s2_fte_access8_3,Eighth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711859,GENSCOT,COVIDLIFE2,s2_fte_access8_4,Eighth youngest child - Difficulty adapting to remote learning,0.0,No
+711860,GENSCOT,COVIDLIFE2,s2_fte_access8_4,Eighth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711861,GENSCOT,COVIDLIFE2,s2_fte_access8_97,Eighth youngest child - Click to write Scale Point 5,0.0,No
+711862,GENSCOT,COVIDLIFE2,s2_fte_access8_97,Eighth youngest child - Click to write Scale Point 5,1.0,Yes
+711863,GENSCOT,COVIDLIFE2,s2_fte_access9_1,Ninth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711864,GENSCOT,COVIDLIFE2,s2_fte_access9_1,Ninth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711865,GENSCOT,COVIDLIFE2,s2_fte_access9_2,Ninth youngest child - No suitable place in the home to learn,0.0,No
+711866,GENSCOT,COVIDLIFE2,s2_fte_access9_2,Ninth youngest child - No suitable place in the home to learn,1.0,Yes
+711867,GENSCOT,COVIDLIFE2,s2_fte_access9_3,Ninth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711868,GENSCOT,COVIDLIFE2,s2_fte_access9_3,Ninth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711869,GENSCOT,COVIDLIFE2,s2_fte_access9_4,Ninth youngest child - Difficulty adapting to remote learning,0.0,No
+711870,GENSCOT,COVIDLIFE2,s2_fte_access9_4,Ninth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711871,GENSCOT,COVIDLIFE2,s2_fte_access9_97,Ninth youngest child - Click to write Scale Point 5,0.0,No
+711872,GENSCOT,COVIDLIFE2,s2_fte_access9_97,Ninth youngest child - Click to write Scale Point 5,1.0,Yes
+711873,GENSCOT,COVIDLIFE2,s2_fte_access10_1,Tenth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711874,GENSCOT,COVIDLIFE2,s2_fte_access10_1,Tenth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711875,GENSCOT,COVIDLIFE2,s2_fte_access10_2,Tenth youngest child - No suitable place in the home to learn,0.0,No
+711876,GENSCOT,COVIDLIFE2,s2_fte_access10_2,Tenth youngest child - No suitable place in the home to learn,1.0,Yes
+711877,GENSCOT,COVIDLIFE2,s2_fte_access10_3,Tenth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711878,GENSCOT,COVIDLIFE2,s2_fte_access10_3,Tenth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711879,GENSCOT,COVIDLIFE2,s2_fte_access10_4,Tenth youngest child - Difficulty adapting to remote learning,0.0,No
+711880,GENSCOT,COVIDLIFE2,s2_fte_access10_4,Tenth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711881,GENSCOT,COVIDLIFE2,s2_fte_access10_97,Tenth youngest child - Click to write Scale Point 5,0.0,No
+711882,GENSCOT,COVIDLIFE2,s2_fte_access10_97,Tenth youngest child - Click to write Scale Point 5,1.0,Yes
+711883,GENSCOT,COVIDLIFE2,s2_fte_access11_1,Eleventh youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711884,GENSCOT,COVIDLIFE2,s2_fte_access11_1,Eleventh youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711885,GENSCOT,COVIDLIFE2,s2_fte_access11_2,Eleventh youngest child - No suitable place in the home to learn,0.0,No
+711886,GENSCOT,COVIDLIFE2,s2_fte_access11_2,Eleventh youngest child - No suitable place in the home to learn,1.0,Yes
+711887,GENSCOT,COVIDLIFE2,s2_fte_access11_3,Eleventh youngest child - Limited quality or quantity of remote lessons,0.0,No
+711888,GENSCOT,COVIDLIFE2,s2_fte_access11_3,Eleventh youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711889,GENSCOT,COVIDLIFE2,s2_fte_access11_4,Eleventh youngest child - Difficulty adapting to remote learning,0.0,No
+711890,GENSCOT,COVIDLIFE2,s2_fte_access11_4,Eleventh youngest child - Difficulty adapting to remote learning,1.0,Yes
+711891,GENSCOT,COVIDLIFE2,s2_fte_access11_97,Eleventh youngest child - Click to write Scale Point 5,0.0,No
+711892,GENSCOT,COVIDLIFE2,s2_fte_access11_97,Eleventh youngest child - Click to write Scale Point 5,1.0,Yes
+711893,GENSCOT,COVIDLIFE2,s2_fte_access12_1,Twelfth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711894,GENSCOT,COVIDLIFE2,s2_fte_access12_1,Twelfth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711895,GENSCOT,COVIDLIFE2,s2_fte_access12_2,Twelfth youngest child - No suitable place in the home to learn,0.0,No
+711896,GENSCOT,COVIDLIFE2,s2_fte_access12_2,Twelfth youngest child - No suitable place in the home to learn,1.0,Yes
+711897,GENSCOT,COVIDLIFE2,s2_fte_access12_3,Twelfth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711898,GENSCOT,COVIDLIFE2,s2_fte_access12_3,Twelfth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711899,GENSCOT,COVIDLIFE2,s2_fte_access12_4,Twelfth youngest child - Difficulty adapting to remote learning,0.0,No
+711900,GENSCOT,COVIDLIFE2,s2_fte_access12_4,Twelfth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711901,GENSCOT,COVIDLIFE2,s2_fte_access12_97,Twelfth youngest child - Click to write Scale Point 5,0.0,No
+711902,GENSCOT,COVIDLIFE2,s2_fte_access12_97,Twelfth youngest child - Click to write Scale Point 5,1.0,Yes
+711903,GENSCOT,COVIDLIFE2,s2_fte_access13_1,Thirteenth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711904,GENSCOT,COVIDLIFE2,s2_fte_access13_1,Thirteenth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711905,GENSCOT,COVIDLIFE2,s2_fte_access13_2,Thirteenth youngest child - No suitable place in the home to learn,0.0,No
+711906,GENSCOT,COVIDLIFE2,s2_fte_access13_2,Thirteenth youngest child - No suitable place in the home to learn,1.0,Yes
+711907,GENSCOT,COVIDLIFE2,s2_fte_access13_3,Thirteenth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711908,GENSCOT,COVIDLIFE2,s2_fte_access13_3,Thirteenth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711909,GENSCOT,COVIDLIFE2,s2_fte_access13_4,Thirteenth youngest child - Difficulty adapting to remote learning,0.0,No
+711910,GENSCOT,COVIDLIFE2,s2_fte_access13_4,Thirteenth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711911,GENSCOT,COVIDLIFE2,s2_fte_access13_97,Thirteenth youngest child - Click to write Scale Point 5,0.0,No
+711912,GENSCOT,COVIDLIFE2,s2_fte_access13_97,Thirteenth youngest child - Click to write Scale Point 5,1.0,Yes
+711913,GENSCOT,COVIDLIFE2,s2_fte_access14_1,Fourteenth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711914,GENSCOT,COVIDLIFE2,s2_fte_access14_1,Fourteenth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711915,GENSCOT,COVIDLIFE2,s2_fte_access14_2,Fourteenth youngest child - No suitable place in the home to learn,0.0,No
+711916,GENSCOT,COVIDLIFE2,s2_fte_access14_2,Fourteenth youngest child - No suitable place in the home to learn,1.0,Yes
+711917,GENSCOT,COVIDLIFE2,s2_fte_access14_3,Fourteenth youngest child - Limited quality or quantity of remote lessons with someone who tested positive for COVID-19 will you followthe self-isolation instructions even if you feel well?,0.0,No
+711918,GENSCOT,COVIDLIFE2,s2_fte_access14_3,Fourteenth youngest child - Limited quality or quantity of remote lessons with someone who tested positive for COVID-19 will you followthe self-isolation instructions even if you feel well?,1.0,Yes
+711919,GENSCOT,COVIDLIFE2,s2_fte_access14_4,Fourteenth youngest child - Difficulty adapting to remote learning,0.0,No
+711920,GENSCOT,COVIDLIFE2,s2_fte_access14_4,Fourteenth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711921,GENSCOT,COVIDLIFE2,s2_fte_access14_97,Fourteenth youngest child - Click to write Scale Point 5,0.0,No
+711922,GENSCOT,COVIDLIFE2,s2_fte_access14_97,Fourteenth youngest child - Click to write Scale Point 5,1.0,Yes
+711923,GENSCOT,COVIDLIFE2,s2_fte_access15_1,Fifteenth youngest child - Lack of device or internet connection for accessing remote learning,0.0,No
+711924,GENSCOT,COVIDLIFE2,s2_fte_access15_1,Fifteenth youngest child - Lack of device or internet connection for accessing remote learning,1.0,Yes
+711925,GENSCOT,COVIDLIFE2,s2_fte_access15_2,Fifteenth youngest child - No suitable place in the home to learn,0.0,No
+711926,GENSCOT,COVIDLIFE2,s2_fte_access15_2,Fifteenth youngest child - No suitable place in the home to learn,1.0,Yes
+711927,GENSCOT,COVIDLIFE2,s2_fte_access15_3,Fifteenth youngest child - Limited quality or quantity of remote lessons,0.0,No
+711928,GENSCOT,COVIDLIFE2,s2_fte_access15_3,Fifteenth youngest child - Limited quality or quantity of remote lessons,1.0,Yes
+711929,GENSCOT,COVIDLIFE2,s2_fte_access15_4,Fifteenth youngest child - Difficulty adapting to remote learning,0.0,No
+711930,GENSCOT,COVIDLIFE2,s2_fte_access15_4,Fifteenth youngest child - Difficulty adapting to remote learning,1.0,Yes
+711931,GENSCOT,COVIDLIFE2,s2_fte_access15_97,Fifteenth youngest child - Click to write Scale Point 5,0.0,No
+711932,GENSCOT,COVIDLIFE2,s2_fte_access15_97,Fifteenth youngest child - Click to write Scale Point 5,1.0,Yes
+711933,GENSCOT,COVIDLIFE2,s2_child_schwork1,When the school/college set work for your child/children to do at home and much of this work did your child/children do?: Youngest child,1.0,None of the work set by school/college
+711934,GENSCOT,COVIDLIFE2,s2_child_schwork1,When the school/college set work for your child/children to do at home and much of this work did your child/children do?: Youngest child,2.0,Some of the work set by school/college
+711935,GENSCOT,COVIDLIFE2,s2_child_schwork1,When the school/college set work for your child/children to do at home and much of this work did your child/children do?: Youngest child,3.0,Most of the work set by school/college
+711936,GENSCOT,COVIDLIFE2,s2_child_schwork1,When the school/college set work for your child/children to do at home and much of this work did your child/children do?: Youngest child,4.0,"All, or almost all, of the work set by school/college"
+711937,GENSCOT,COVIDLIFE2,s2_child_schwork1,When the school/college set work for your child/children to do at home and much of this work did your child/children do?: Youngest child,97.0,Not applicable
+711938,GENSCOT,COVIDLIFE2,s2_child_schwork2,Second youngest child,1.0,None of the work set by school/college
+711939,GENSCOT,COVIDLIFE2,s2_child_schwork2,Second youngest child,2.0,Some of the work set by school/college
+711940,GENSCOT,COVIDLIFE2,s2_child_schwork2,Second youngest child,3.0,Most of the work set by school/college
+711941,GENSCOT,COVIDLIFE2,s2_child_schwork2,Second youngest child,4.0,"All, or almost all, of the work set by school/college"
+711942,GENSCOT,COVIDLIFE2,s2_child_schwork2,Second youngest child,97.0,Not applicable
+711943,GENSCOT,COVIDLIFE2,s2_child_schwork3,Third youngest child,1.0,None of the work set by school/college
+711944,GENSCOT,COVIDLIFE2,s2_child_schwork3,Third youngest child,2.0,Some of the work set by school/college
+711945,GENSCOT,COVIDLIFE2,s2_child_schwork3,Third youngest child,3.0,Most of the work set by school/college
+711946,GENSCOT,COVIDLIFE2,s2_child_schwork3,Third youngest child,4.0,"All, or almost all, of the work set by school/college"
+711947,GENSCOT,COVIDLIFE2,s2_child_schwork3,Third youngest child,97.0,Not applicable
+711948,GENSCOT,COVIDLIFE2,s2_child_schwork4,Fourth youngest child,1.0,None of the work set by school/college
+711949,GENSCOT,COVIDLIFE2,s2_child_schwork4,Fourth youngest child,2.0,Some of the work set by school/college
+711950,GENSCOT,COVIDLIFE2,s2_child_schwork4,Fourth youngest child,3.0,Most of the work set by school/college
+711951,GENSCOT,COVIDLIFE2,s2_child_schwork4,Fourth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711952,GENSCOT,COVIDLIFE2,s2_child_schwork4,Fourth youngest child,97.0,Not applicable
+711953,GENSCOT,COVIDLIFE2,s2_child_schwork5,Fifth youngest child,1.0,None of the work set by school/college
+711954,GENSCOT,COVIDLIFE2,s2_child_schwork5,Fifth youngest child,2.0,Some of the work set by school/college
+711955,GENSCOT,COVIDLIFE2,s2_child_schwork5,Fifth youngest child,3.0,Most of the work set by school/college
+711956,GENSCOT,COVIDLIFE2,s2_child_schwork5,Fifth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711957,GENSCOT,COVIDLIFE2,s2_child_schwork5,Fifth youngest child,97.0,Not applicable
+711958,GENSCOT,COVIDLIFE2,s2_child_schwork6,Sixth youngest child,1.0,None of the work set by school/college
+711959,GENSCOT,COVIDLIFE2,s2_child_schwork6,Sixth youngest child,2.0,Some of the work set by school/college
+711960,GENSCOT,COVIDLIFE2,s2_child_schwork6,Sixth youngest child,3.0,Most of the work set by school/college
+711961,GENSCOT,COVIDLIFE2,s2_child_schwork6,Sixth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711962,GENSCOT,COVIDLIFE2,s2_child_schwork6,Sixth youngest child,97.0,Not applicable
+711963,GENSCOT,COVIDLIFE2,s2_child_schwork7,Seventh youngest child,1.0,None of the work set by school/college
+711964,GENSCOT,COVIDLIFE2,s2_child_schwork7,Seventh youngest child,2.0,Some of the work set by school/college
+711965,GENSCOT,COVIDLIFE2,s2_child_schwork7,Seventh youngest child,3.0,Most of the work set by school/college
+711966,GENSCOT,COVIDLIFE2,s2_child_schwork7,Seventh youngest child,4.0,"All, or almost all, of the work set by school/college"
+711967,GENSCOT,COVIDLIFE2,s2_child_schwork7,Seventh youngest child,97.0,Not applicable
+711968,GENSCOT,COVIDLIFE2,s2_child_schwork8,Eighth youngest child,1.0,None of the work set by school/college
+711969,GENSCOT,COVIDLIFE2,s2_child_schwork8,Eighth youngest child,2.0,Some of the work set by school/college
+711970,GENSCOT,COVIDLIFE2,s2_child_schwork8,Eighth youngest child,3.0,Most of the work set by school/college
+711971,GENSCOT,COVIDLIFE2,s2_child_schwork8,Eighth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711972,GENSCOT,COVIDLIFE2,s2_child_schwork8,Eighth youngest child,97.0,Not applicable
+711973,GENSCOT,COVIDLIFE2,s2_child_schwork9,Ninth youngest child,1.0,None of the work set by school/college
+711974,GENSCOT,COVIDLIFE2,s2_child_schwork9,Ninth youngest child,2.0,Some of the work set by school/college
+711975,GENSCOT,COVIDLIFE2,s2_child_schwork9,Ninth youngest child,3.0,Most of the work set by school/college
+711976,GENSCOT,COVIDLIFE2,s2_child_schwork9,Ninth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711977,GENSCOT,COVIDLIFE2,s2_child_schwork9,Ninth youngest child,97.0,Not applicable
+711978,GENSCOT,COVIDLIFE2,s2_child_schwork10,Tenth youngest child,1.0,None of the work set by school/college
+711979,GENSCOT,COVIDLIFE2,s2_child_schwork10,Tenth youngest child,2.0,Some of the work set by school/college
+711980,GENSCOT,COVIDLIFE2,s2_child_schwork10,Tenth youngest child,3.0,Most of the work set by school/college
+711981,GENSCOT,COVIDLIFE2,s2_child_schwork10,Tenth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711982,GENSCOT,COVIDLIFE2,s2_child_schwork10,Tenth youngest child,97.0,Not applicable
+711983,GENSCOT,COVIDLIFE2,s2_child_schwork11,Eleventh youngest child,1.0,None of the work set by school/college
+711984,GENSCOT,COVIDLIFE2,s2_child_schwork11,Eleventh youngest child,2.0,Some of the work set by school/college
+711985,GENSCOT,COVIDLIFE2,s2_child_schwork11,Eleventh youngest child,3.0,Most of the work set by school/college
+711986,GENSCOT,COVIDLIFE2,s2_child_schwork11,Eleventh youngest child,4.0,"All, or almost all, of the work set by school/college"
+711987,GENSCOT,COVIDLIFE2,s2_child_schwork11,Eleventh youngest child,97.0,Not applicable
+711988,GENSCOT,COVIDLIFE2,s2_child_schwork12,Twelfth youngest child,1.0,None of the work set by school/college
+711989,GENSCOT,COVIDLIFE2,s2_child_schwork12,Twelfth youngest child,2.0,Some of the work set by school/college
+711990,GENSCOT,COVIDLIFE2,s2_child_schwork12,Twelfth youngest child,3.0,Most of the work set by school/college
+711991,GENSCOT,COVIDLIFE2,s2_child_schwork12,Twelfth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711992,GENSCOT,COVIDLIFE2,s2_child_schwork12,Twelfth youngest child,97.0,Not applicable
+711993,GENSCOT,COVIDLIFE2,s2_child_schwork13,Thirteenth youngest child,1.0,None of the work set by school/college
+711994,GENSCOT,COVIDLIFE2,s2_child_schwork13,Thirteenth youngest child,2.0,Some of the work set by school/college
+711995,GENSCOT,COVIDLIFE2,s2_child_schwork13,Thirteenth youngest child,3.0,Most of the work set by school/college
+711996,GENSCOT,COVIDLIFE2,s2_child_schwork13,Thirteenth youngest child,4.0,"All, or almost all, of the work set by school/college"
+711997,GENSCOT,COVIDLIFE2,s2_child_schwork13,Thirteenth youngest child,97.0,Not applicable
+711998,GENSCOT,COVIDLIFE2,s2_child_schwork14,Fourteenth youngest child,1.0,None of the work set by school/college
+711999,GENSCOT,COVIDLIFE2,s2_child_schwork14,Fourteenth youngest child,2.0,Some of the work set by school/college
+712000,GENSCOT,COVIDLIFE2,s2_child_schwork14,Fourteenth youngest child,3.0,Most of the work set by school/college
+712001,GENSCOT,COVIDLIFE2,s2_child_schwork14,Fourteenth youngest child,4.0,"All, or almost all, of the work set by school/college"
+712002,GENSCOT,COVIDLIFE2,s2_child_schwork14,Fourteenth youngest child,97.0,Not applicable
+712003,GENSCOT,COVIDLIFE2,s2_child_schwork15,Fifteen youngest child,1.0,None of the work set by school/college
+712004,GENSCOT,COVIDLIFE2,s2_child_schwork15,Fifteen youngest child,2.0,Some of the work set by school/college
+712005,GENSCOT,COVIDLIFE2,s2_child_schwork15,Fifteen youngest child,3.0,Most of the work set by school/college
+712006,GENSCOT,COVIDLIFE2,s2_child_schwork15,Fifteen youngest child,4.0,"All, or almost all, of the work set by school/college"
+712007,GENSCOT,COVIDLIFE2,s2_child_schwork15,Fifteen youngest child,97.0,Not applicable
+712008,GENSCOT,COVIDLIFE2,s2_child_schworkhelp,"When the school/college set work for your child/children to do at home, did you help your child/children to do their work?",0.0,No
+712009,GENSCOT,COVIDLIFE2,s2_child_schworkhelp,"When the school/college set work for your child/children to do at home, did you help your child/children to do their work?",1.0,Yes
+712010,GENSCOT,COVIDLIFE2,s2_schwork_conf,Do you feel confident in your ability to help your child/children with their school/college work?,1.0,Not confident at all
+712011,GENSCOT,COVIDLIFE2,s2_schwork_conf,Do you feel confident in your ability to help your child/children with their school/college work?,2.0,Not very confident
+712012,GENSCOT,COVIDLIFE2,s2_schwork_conf,Do you feel confident in your ability to help your child/children with their school/college work?,3.0,Somewhat confident
+712013,GENSCOT,COVIDLIFE2,s2_schwork_conf,Do you feel confident in your ability to help your child/children with their school/college work?,4.0,Very confident
+712014,GENSCOT,COVIDLIFE2,s2_schwork_conf,Do you feel confident in your ability to help your child/children with their school/college work?,97.0,Not applicable
+712015,GENSCOT,COVIDLIFE2,s2_childcarebefore_you,Who took care of your children when they were not in an education or childcare setting? You,0.0,No
+712016,GENSCOT,COVIDLIFE2,s2_childcarebefore_you,Who took care of your children when they were not in an education or childcare setting? You,1.0,Yes
+712017,GENSCOT,COVIDLIFE2,s2_childcarebefore_part,Who took care of your children when they were not in an education or childcare setting? Partner,0.0,No
+712018,GENSCOT,COVIDLIFE2,s2_childcarebefore_part,Who took care of your children when they were not in an education or childcare setting? Partner,1.0,Yes
+712019,GENSCOT,COVIDLIFE2,s2_childcarebefore_other,Who took care of your children when they were not in an education or childcare setting? Other,0.0,No
+712020,GENSCOT,COVIDLIFE2,s2_childcarebefore_other,Who took care of your children when they were not in an education or childcare setting? Other,1.0,Yes
+712021,GENSCOT,COVIDLIFE2,s2_childcare_bef1_1,"Did any of your children aged 17 and under go to any of the following childcare settings (either full or part-time) when education and childcare settings were still open (that is, during term times before the 20th March 2020)?: Youngest child - Nursery/day-care",0.0,No
+712022,GENSCOT,COVIDLIFE2,s2_childcare_bef1_1,"Did any of your children aged 17 and under go to any of the following childcare settings (either full or part-time) when education and childcare settings were still open (that is, during term times before the 20th March 2020)?: Youngest child - Nursery/day-care",1.0,Yes
+712023,GENSCOT,COVIDLIFE2,s2_childcare_bef1_2,Youngest child - Childminder,0.0,No
+712024,GENSCOT,COVIDLIFE2,s2_childcare_bef1_2,Youngest child - Childminder,1.0,Yes
+712025,GENSCOT,COVIDLIFE2,s2_childcare_bef1_3,Youngest child - Other registered childcare settings,0.0,No
+712026,GENSCOT,COVIDLIFE2,s2_childcare_bef1_3,Youngest child - Other registered childcare settings,1.0,Yes
+712027,GENSCOT,COVIDLIFE2,s2_childcare_bef1_4,Youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712028,GENSCOT,COVIDLIFE2,s2_childcare_bef1_4,Youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712029,GENSCOT,COVIDLIFE2,s2_childcare_bef2_1,Second youngest child - Nursery/day-care,0.0,No
+712030,GENSCOT,COVIDLIFE2,s2_childcare_bef2_1,Second youngest child - Nursery/day-care,1.0,Yes
+712031,GENSCOT,COVIDLIFE2,s2_childcare_bef2_2,Second youngest child - Childminder,0.0,No
+712032,GENSCOT,COVIDLIFE2,s2_childcare_bef2_2,Second youngest child - Childminder,1.0,Yes
+712033,GENSCOT,COVIDLIFE2,s2_childcare_bef2_3,Second youngest child - Other registered childcare settings,0.0,No
+712034,GENSCOT,COVIDLIFE2,s2_childcare_bef2_3,Second youngest child - Other registered childcare settings,1.0,Yes
+712035,GENSCOT,COVIDLIFE2,s2_childcare_bef2_4,Second youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712036,GENSCOT,COVIDLIFE2,s2_childcare_bef2_4,Second youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712037,GENSCOT,COVIDLIFE2,s2_childcare_bef3_1,Third youngest child - Nursery/day-care,0.0,No
+712038,GENSCOT,COVIDLIFE2,s2_childcare_bef3_1,Third youngest child - Nursery/day-care,1.0,Yes
+712039,GENSCOT,COVIDLIFE2,s2_childcare_bef3_2,Third youngest child - Childminder,0.0,No
+712040,GENSCOT,COVIDLIFE2,s2_childcare_bef3_2,Third youngest child - Childminder,1.0,Yes
+712041,GENSCOT,COVIDLIFE2,s2_childcare_bef3_3,Third youngest child - Other registered childcare settings,0.0,No
+712042,GENSCOT,COVIDLIFE2,s2_childcare_bef3_3,Third youngest child - Other registered childcare settings,1.0,Yes
+712043,GENSCOT,COVIDLIFE2,s2_childcare_bef3_4,Third youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712044,GENSCOT,COVIDLIFE2,s2_childcare_bef3_4,Third youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712045,GENSCOT,COVIDLIFE2,s2_childcare_bef4_1,Fourth youngest child - Nursery/day-care,0.0,No
+712046,GENSCOT,COVIDLIFE2,s2_childcare_bef4_1,Fourth youngest child - Nursery/day-care,1.0,Yes
+712047,GENSCOT,COVIDLIFE2,s2_childcare_bef4_2,Fourth youngest child - Childminder,0.0,No
+712048,GENSCOT,COVIDLIFE2,s2_childcare_bef4_2,Fourth youngest child - Childminder,1.0,Yes
+712049,GENSCOT,COVIDLIFE2,s2_childcare_bef4_3,Fourth youngest child - Other registered childcare settings,0.0,No
+712050,GENSCOT,COVIDLIFE2,s2_childcare_bef4_3,Fourth youngest child - Other registered childcare settings,1.0,Yes
+712051,GENSCOT,COVIDLIFE2,s2_childcare_bef4_4,Fourth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712052,GENSCOT,COVIDLIFE2,s2_childcare_bef4_4,Fourth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712053,GENSCOT,COVIDLIFE2,s2_childcare_bef5_1,Fifth youngest child - Nursery/day-care,0.0,No
+712054,GENSCOT,COVIDLIFE2,s2_childcare_bef5_1,Fifth youngest child - Nursery/day-care,1.0,Yes
+712055,GENSCOT,COVIDLIFE2,s2_childcare_bef5_2,Fifth youngest child - Childminder,0.0,No
+712056,GENSCOT,COVIDLIFE2,s2_childcare_bef5_2,Fifth youngest child - Childminder,1.0,Yes
+712057,GENSCOT,COVIDLIFE2,s2_childcare_bef5_3,Fifth youngest child - Other registered childcare settings,0.0,No
+712058,GENSCOT,COVIDLIFE2,s2_childcare_bef5_3,Fifth youngest child - Other registered childcare settings,1.0,Yes
+712059,GENSCOT,COVIDLIFE2,s2_childcare_bef5_4,Fifth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712060,GENSCOT,COVIDLIFE2,s2_childcare_bef5_4,Fifth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712061,GENSCOT,COVIDLIFE2,s2_childcare_bef6_1,Sixth youngest child - Nursery/day-care,0.0,No
+712062,GENSCOT,COVIDLIFE2,s2_childcare_bef6_1,Sixth youngest child - Nursery/day-care,1.0,Yes
+712063,GENSCOT,COVIDLIFE2,s2_childcare_bef6_2,Sixth youngest child - Childminder,0.0,No
+712064,GENSCOT,COVIDLIFE2,s2_childcare_bef6_2,Sixth youngest child - Childminder,1.0,Yes
+712065,GENSCOT,COVIDLIFE2,s2_childcare_bef6_3,Sixth youngest child - Other registered childcare settings,0.0,No
+712066,GENSCOT,COVIDLIFE2,s2_childcare_bef6_3,Sixth youngest child - Other registered childcare settings,1.0,Yes
+712067,GENSCOT,COVIDLIFE2,s2_childcare_bef6_4,Sixth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712068,GENSCOT,COVIDLIFE2,s2_childcare_bef6_4,Sixth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712069,GENSCOT,COVIDLIFE2,s2_childcare_bef7_1,Seventh youngest child - Nursery/day-care,0.0,No
+712070,GENSCOT,COVIDLIFE2,s2_childcare_bef7_1,Seventh youngest child - Nursery/day-care,1.0,Yes
+712071,GENSCOT,COVIDLIFE2,s2_childcare_bef7_2,Seventh youngest child - Childminder,0.0,No
+712072,GENSCOT,COVIDLIFE2,s2_childcare_bef7_2,Seventh youngest child - Childminder,1.0,Yes
+712073,GENSCOT,COVIDLIFE2,s2_childcare_bef7_3,Seventh youngest child - Other registered childcare settings,0.0,No
+712074,GENSCOT,COVIDLIFE2,s2_childcare_bef7_3,Seventh youngest child - Other registered childcare settings,1.0,Yes
+712075,GENSCOT,COVIDLIFE2,s2_childcare_bef7_4,Seventh youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712076,GENSCOT,COVIDLIFE2,s2_childcare_bef7_4,Seventh youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712077,GENSCOT,COVIDLIFE2,s2_childcare_bef8_1,Eighth youngest child - Nursery/day-care,0.0,No
+712078,GENSCOT,COVIDLIFE2,s2_childcare_bef8_1,Eighth youngest child - Nursery/day-care,1.0,Yes
+712079,GENSCOT,COVIDLIFE2,s2_childcare_bef8_2,Eighth youngest child - Childminder,0.0,No
+712080,GENSCOT,COVIDLIFE2,s2_childcare_bef8_2,Eighth youngest child - Childminder,1.0,Yes
+712081,GENSCOT,COVIDLIFE2,s2_childcare_bef8_3,Eighth youngest child - Other registered childcare settings,0.0,No
+712082,GENSCOT,COVIDLIFE2,s2_childcare_bef8_3,Eighth youngest child - Other registered childcare settings,1.0,Yes
+712083,GENSCOT,COVIDLIFE2,s2_childcare_bef8_4,Eighth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712084,GENSCOT,COVIDLIFE2,s2_childcare_bef8_4,Eighth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712085,GENSCOT,COVIDLIFE2,s2_childcare_bef9_1,Ninth youngest child - Nursery/day-care,0.0,No
+712086,GENSCOT,COVIDLIFE2,s2_childcare_bef9_1,Ninth youngest child - Nursery/day-care,1.0,Yes
+712087,GENSCOT,COVIDLIFE2,s2_childcare_bef9_2,Ninth youngest child - Childminder,0.0,No
+712088,GENSCOT,COVIDLIFE2,s2_childcare_bef9_2,Ninth youngest child - Childminder,1.0,Yes
+712089,GENSCOT,COVIDLIFE2,s2_childcare_bef9_3,Ninth youngest child - Other registered childcare settings,0.0,No
+712090,GENSCOT,COVIDLIFE2,s2_childcare_bef9_3,Ninth youngest child - Other registered childcare settings,1.0,Yes
+712091,GENSCOT,COVIDLIFE2,s2_childcare_bef9_4,Ninth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712092,GENSCOT,COVIDLIFE2,s2_childcare_bef9_4,Ninth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712093,GENSCOT,COVIDLIFE2,s2_childcare_bef10_1,Tenth youngest child - Nursery/day-care,0.0,No
+712094,GENSCOT,COVIDLIFE2,s2_childcare_bef10_1,Tenth youngest child - Nursery/day-care,1.0,Yes
+712095,GENSCOT,COVIDLIFE2,s2_childcare_bef10_2,Tenth youngest child - Childminder,0.0,No
+712096,GENSCOT,COVIDLIFE2,s2_childcare_bef10_2,Tenth youngest child - Childminder,1.0,Yes
+712097,GENSCOT,COVIDLIFE2,s2_childcare_bef10_3,Tenth youngest child - Other registered childcare settings,0.0,No
+712098,GENSCOT,COVIDLIFE2,s2_childcare_bef10_3,Tenth youngest child - Other registered childcare settings,1.0,Yes
+712099,GENSCOT,COVIDLIFE2,s2_childcare_bef10_4,Tenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712100,GENSCOT,COVIDLIFE2,s2_childcare_bef10_4,Tenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712101,GENSCOT,COVIDLIFE2,s2_childcare_bef11_1,Eleventh youngest child - Nursery/day-care,0.0,No
+712102,GENSCOT,COVIDLIFE2,s2_childcare_bef11_1,Eleventh youngest child - Nursery/day-care,1.0,Yes
+712103,GENSCOT,COVIDLIFE2,s2_childcare_bef11_2,Eleventh youngest child - Childminder,0.0,No
+712104,GENSCOT,COVIDLIFE2,s2_childcare_bef11_2,Eleventh youngest child - Childminder,1.0,Yes
+712105,GENSCOT,COVIDLIFE2,s2_childcare_bef11_3,Eleventh youngest child - Other registered childcare settings,0.0,No
+712106,GENSCOT,COVIDLIFE2,s2_childcare_bef11_3,Eleventh youngest child - Other registered childcare settings,1.0,Yes
+712107,GENSCOT,COVIDLIFE2,s2_childcare_bef11_4,Eleventh youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712108,GENSCOT,COVIDLIFE2,s2_childcare_bef11_4,Eleventh youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712109,GENSCOT,COVIDLIFE2,s2_childcare_bef12_1,Twelfth youngest child - Nursery/day-care,0.0,No
+712110,GENSCOT,COVIDLIFE2,s2_childcare_bef12_1,Twelfth youngest child - Nursery/day-care,1.0,Yes
+712111,GENSCOT,COVIDLIFE2,s2_childcare_bef12_2,Twelfth youngest child - Childminder,0.0,No
+712112,GENSCOT,COVIDLIFE2,s2_childcare_bef12_2,Twelfth youngest child - Childminder,1.0,Yes
+712113,GENSCOT,COVIDLIFE2,s2_childcare_bef12_3,Twelfth youngest child - Other registered childcare settings,0.0,No
+712114,GENSCOT,COVIDLIFE2,s2_childcare_bef12_3,Twelfth youngest child - Other registered childcare settings,1.0,Yes
+712115,GENSCOT,COVIDLIFE2,s2_childcare_bef12_4,Twelfth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712116,GENSCOT,COVIDLIFE2,s2_childcare_bef12_4,Twelfth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712117,GENSCOT,COVIDLIFE2,s2_childcare_bef13_1,Thirteenth youngest child - Nursery/day-care,0.0,No
+712118,GENSCOT,COVIDLIFE2,s2_childcare_bef13_1,Thirteenth youngest child - Nursery/day-care,1.0,Yes
+712119,GENSCOT,COVIDLIFE2,s2_childcare_bef13_2,Thirteenth youngest child - Childminder,0.0,No
+712120,GENSCOT,COVIDLIFE2,s2_childcare_bef13_2,Thirteenth youngest child - Childminder,1.0,Yes
+712121,GENSCOT,COVIDLIFE2,s2_childcare_bef13_3,Thirteenth youngest child - Other registered childcare settings,0.0,No
+712122,GENSCOT,COVIDLIFE2,s2_childcare_bef13_3,Thirteenth youngest child - Other registered childcare settings,1.0,Yes
+712123,GENSCOT,COVIDLIFE2,s2_childcare_bef13_4,Thirteenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712124,GENSCOT,COVIDLIFE2,s2_childcare_bef13_4,Thirteenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712125,GENSCOT,COVIDLIFE2,s2_childcare_bef14_1,Fourteenth youngest child - Nursery/day-care,0.0,No
+712126,GENSCOT,COVIDLIFE2,s2_childcare_bef14_1,Fourteenth youngest child - Nursery/day-care,1.0,Yes
+712127,GENSCOT,COVIDLIFE2,s2_childcare_bef14_2,Fourteenth youngest child - Childminder,0.0,No
+712128,GENSCOT,COVIDLIFE2,s2_childcare_bef14_2,Fourteenth youngest child - Childminder,1.0,Yes
+712129,GENSCOT,COVIDLIFE2,s2_childcare_bef14_3,Fourteenth youngest child - Other registered childcare settings,0.0,No
+712130,GENSCOT,COVIDLIFE2,s2_childcare_bef14_3,Fourteenth youngest child - Other registered childcare settings,1.0,Yes
+712131,GENSCOT,COVIDLIFE2,s2_childcare_bef14_4,Fourteenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712132,GENSCOT,COVIDLIFE2,s2_childcare_bef14_4,Fourteenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712133,GENSCOT,COVIDLIFE2,s2_childcare_bef15_1,Fifteenth youngest child - Nursery/day-care,0.0,No
+712134,GENSCOT,COVIDLIFE2,s2_childcare_bef15_1,Fifteenth youngest child - Nursery/day-care,1.0,Yes
+712135,GENSCOT,COVIDLIFE2,s2_childcare_bef15_2,Fifteenth youngest child - Childminder,0.0,No
+712136,GENSCOT,COVIDLIFE2,s2_childcare_bef15_2,Fifteenth youngest child - Childminder,1.0,Yes
+712137,GENSCOT,COVIDLIFE2,s2_childcare_bef15_3,Fifteenth youngest child - Other registered childcare settings,0.0,No
+712138,GENSCOT,COVIDLIFE2,s2_childcare_bef15_3,Fifteenth youngest child - Other registered childcare settings,1.0,Yes
+712139,GENSCOT,COVIDLIFE2,s2_childcare_bef15_4,Fifteenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712140,GENSCOT,COVIDLIFE2,s2_childcare_bef15_4,Fifteenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712141,GENSCOT,COVIDLIFE2,s2_childcare_ld1_1,Did any of your children aged 17 and under still go to any of the following childcare settings (either full or part-time) when most education and childcare settings closed on 20th March?: Youngest child - Nursery/day-care,0.0,No
+712142,GENSCOT,COVIDLIFE2,s2_childcare_ld1_1,Did any of your children aged 17 and under still go to any of the following childcare settings (either full or part-time) when most education and childcare settings closed on 20th March?: Youngest child - Nursery/day-care,1.0,Yes
+712143,GENSCOT,COVIDLIFE2,s2_childcare_ld1_2,Youngest child - Childminder,0.0,No
+712144,GENSCOT,COVIDLIFE2,s2_childcare_ld1_2,Youngest child - Childminder,1.0,Yes
+712145,GENSCOT,COVIDLIFE2,s2_childcare_ld1_3,Youngest child - Other registered childcare settings,0.0,No
+712146,GENSCOT,COVIDLIFE2,s2_childcare_ld1_3,Youngest child - Other registered childcare settings,1.0,Yes
+712147,GENSCOT,COVIDLIFE2,s2_childcare_ld1_4,Youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712148,GENSCOT,COVIDLIFE2,s2_childcare_ld1_4,Youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712149,GENSCOT,COVIDLIFE2,s2_childcare_ld2_1,Second youngest child - Nursery/day-care,0.0,No
+712150,GENSCOT,COVIDLIFE2,s2_childcare_ld2_1,Second youngest child - Nursery/day-care,1.0,Yes
+712151,GENSCOT,COVIDLIFE2,s2_childcare_ld2_2,Second youngest child - Childminder,0.0,No
+712152,GENSCOT,COVIDLIFE2,s2_childcare_ld2_2,Second youngest child - Childminder,1.0,Yes
+712153,GENSCOT,COVIDLIFE2,s2_childcare_ld2_3,Second youngest child - Other registered childcare settings,0.0,No
+712154,GENSCOT,COVIDLIFE2,s2_childcare_ld2_3,Second youngest child - Other registered childcare settings,1.0,Yes
+712155,GENSCOT,COVIDLIFE2,s2_childcare_ld2_4,Second youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712156,GENSCOT,COVIDLIFE2,s2_childcare_ld2_4,Second youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712157,GENSCOT,COVIDLIFE2,s2_childcare_ld3_1,Third youngest child - Nursery/day-care,0.0,No
+712158,GENSCOT,COVIDLIFE2,s2_childcare_ld3_1,Third youngest child - Nursery/day-care,1.0,Yes
+712159,GENSCOT,COVIDLIFE2,s2_childcare_ld3_2,Third youngest child - Childminder,0.0,No
+712160,GENSCOT,COVIDLIFE2,s2_childcare_ld3_2,Third youngest child - Childminder,1.0,Yes
+712161,GENSCOT,COVIDLIFE2,s2_childcare_ld3_3,Third youngest child - Other registered childcare settings,0.0,No
+712162,GENSCOT,COVIDLIFE2,s2_childcare_ld3_3,Third youngest child - Other registered childcare settings,1.0,Yes
+712163,GENSCOT,COVIDLIFE2,s2_childcare_ld3_4,Third youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712164,GENSCOT,COVIDLIFE2,s2_childcare_ld3_4,Third youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712165,GENSCOT,COVIDLIFE2,s2_childcare_ld4_1,Fourth youngest child - Nursery/day-care,0.0,No
+712166,GENSCOT,COVIDLIFE2,s2_childcare_ld4_1,Fourth youngest child - Nursery/day-care,1.0,Yes
+712167,GENSCOT,COVIDLIFE2,s2_childcare_ld4_2,Fourth youngest child - Childminder,0.0,No
+712168,GENSCOT,COVIDLIFE2,s2_childcare_ld4_2,Fourth youngest child - Childminder,1.0,Yes
+712169,GENSCOT,COVIDLIFE2,s2_childcare_ld4_3,Fourth youngest child - Other registered childcare settings,0.0,No
+712170,GENSCOT,COVIDLIFE2,s2_childcare_ld4_3,Fourth youngest child - Other registered childcare settings,1.0,Yes
+712171,GENSCOT,COVIDLIFE2,s2_childcare_ld4_4,Fourth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712172,GENSCOT,COVIDLIFE2,s2_childcare_ld4_4,Fourth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712173,GENSCOT,COVIDLIFE2,s2_childcare_ld5_1,Fifth youngest child - Nursery/day-care,0.0,No
+712174,GENSCOT,COVIDLIFE2,s2_childcare_ld5_1,Fifth youngest child - Nursery/day-care,1.0,Yes
+712175,GENSCOT,COVIDLIFE2,s2_childcare_ld5_2,Fifth youngest child - Childminder,0.0,No
+712176,GENSCOT,COVIDLIFE2,s2_childcare_ld5_2,Fifth youngest child - Childminder,1.0,Yes
+712177,GENSCOT,COVIDLIFE2,s2_childcare_ld5_3,Fifth youngest child - Other registered childcare settings,0.0,No
+712178,GENSCOT,COVIDLIFE2,s2_childcare_ld5_3,Fifth youngest child - Other registered childcare settings,1.0,Yes
+712179,GENSCOT,COVIDLIFE2,s2_childcare_ld5_4,Fifth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712180,GENSCOT,COVIDLIFE2,s2_childcare_ld5_4,Fifth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712181,GENSCOT,COVIDLIFE2,s2_childcare_ld6_1,Sixth youngest child - Nursery/day-care,0.0,No
+712182,GENSCOT,COVIDLIFE2,s2_childcare_ld6_1,Sixth youngest child - Nursery/day-care,1.0,Yes
+712183,GENSCOT,COVIDLIFE2,s2_childcare_ld6_2,Sixth youngest child - Childminder,0.0,No
+712184,GENSCOT,COVIDLIFE2,s2_childcare_ld6_2,Sixth youngest child - Childminder,1.0,Yes
+712185,GENSCOT,COVIDLIFE2,s2_childcare_ld6_3,Sixth youngest child - Other registered childcare settings,0.0,No
+712186,GENSCOT,COVIDLIFE2,s2_childcare_ld6_3,Sixth youngest child - Other registered childcare settings,1.0,Yes
+712187,GENSCOT,COVIDLIFE2,s2_childcare_ld6_4,Sixth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712188,GENSCOT,COVIDLIFE2,s2_childcare_ld6_4,Sixth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712189,GENSCOT,COVIDLIFE2,s2_childcare_ld7_1,Seventh youngest child - Nursery/day-care,0.0,No
+712190,GENSCOT,COVIDLIFE2,s2_childcare_ld7_1,Seventh youngest child - Nursery/day-care,1.0,Yes
+712191,GENSCOT,COVIDLIFE2,s2_childcare_ld7_2,Seventh youngest child - Childminder,0.0,No
+712192,GENSCOT,COVIDLIFE2,s2_childcare_ld7_2,Seventh youngest child - Childminder,1.0,Yes
+712193,GENSCOT,COVIDLIFE2,s2_childcare_ld7_3,Seventh youngest child - Other registered childcare settings,0.0,No
+712194,GENSCOT,COVIDLIFE2,s2_childcare_ld7_3,Seventh youngest child - Other registered childcare settings,1.0,Yes
+712195,GENSCOT,COVIDLIFE2,s2_childcare_ld7_4,Seventh youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712196,GENSCOT,COVIDLIFE2,s2_childcare_ld7_4,Seventh youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712197,GENSCOT,COVIDLIFE2,s2_childcare_ld8_1,Eighth youngest child - Nursery/day-care,0.0,No
+712198,GENSCOT,COVIDLIFE2,s2_childcare_ld8_1,Eighth youngest child - Nursery/day-care,1.0,Yes
+712199,GENSCOT,COVIDLIFE2,s2_childcare_ld8_2,Eighth youngest child - Childminder,0.0,No
+712200,GENSCOT,COVIDLIFE2,s2_childcare_ld8_2,Eighth youngest child - Childminder,1.0,Yes
+712201,GENSCOT,COVIDLIFE2,s2_childcare_ld8_3,Eighth youngest child - Other registered childcare settings,0.0,No
+712202,GENSCOT,COVIDLIFE2,s2_childcare_ld8_3,Eighth youngest child - Other registered childcare settings,1.0,Yes
+712203,GENSCOT,COVIDLIFE2,s2_childcare_ld8_4,Eighth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712204,GENSCOT,COVIDLIFE2,s2_childcare_ld8_4,Eighth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712205,GENSCOT,COVIDLIFE2,s2_childcare_ld9_1,Ninth youngest child - Nursery/day-care,0.0,No
+712206,GENSCOT,COVIDLIFE2,s2_childcare_ld9_1,Ninth youngest child - Nursery/day-care,1.0,Yes
+712207,GENSCOT,COVIDLIFE2,s2_childcare_ld9_2,Ninth youngest child - Childminder,0.0,No
+712208,GENSCOT,COVIDLIFE2,s2_childcare_ld9_2,Ninth youngest child - Childminder,1.0,Yes
+712209,GENSCOT,COVIDLIFE2,s2_childcare_ld9_3,Ninth youngest child - Other registered childcare settings,0.0,No
+712210,GENSCOT,COVIDLIFE2,s2_childcare_ld9_3,Ninth youngest child - Other registered childcare settings,1.0,Yes
+712211,GENSCOT,COVIDLIFE2,s2_childcare_ld9_4,Ninth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712212,GENSCOT,COVIDLIFE2,s2_childcare_ld9_4,Ninth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712213,GENSCOT,COVIDLIFE2,s2_childcare_ld10_1,Tenth youngest child - Nursery/day-care,0.0,No
+712214,GENSCOT,COVIDLIFE2,s2_childcare_ld10_1,Tenth youngest child - Nursery/day-care,1.0,Yes
+712215,GENSCOT,COVIDLIFE2,s2_childcare_ld10_2,Tenth youngest child - Childminder,0.0,No
+712216,GENSCOT,COVIDLIFE2,s2_childcare_ld10_2,Tenth youngest child - Childminder,1.0,Yes
+712217,GENSCOT,COVIDLIFE2,s2_childcare_ld10_3,Tenth youngest child - Other registered childcare settings,1.0,Yes
+712218,GENSCOT,COVIDLIFE2,s2_childcare_ld10_3,Tenth youngest child - Other registered childcare settings,0.0,No
+712219,GENSCOT,COVIDLIFE2,s2_childcare_ld10_4,Tenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712220,GENSCOT,COVIDLIFE2,s2_childcare_ld10_4,Tenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712221,GENSCOT,COVIDLIFE2,s2_childcare_ld11_1,Eleventh youngest child - Nursery/day-care,0.0,No
+712222,GENSCOT,COVIDLIFE2,s2_childcare_ld11_1,Eleventh youngest child - Nursery/day-care,1.0,Yes
+712223,GENSCOT,COVIDLIFE2,s2_childcare_ld11_2,Eleventh youngest child - Childminder,0.0,No
+712224,GENSCOT,COVIDLIFE2,s2_childcare_ld11_2,Eleventh youngest child - Childminder,1.0,Yes
+712225,GENSCOT,COVIDLIFE2,s2_childcare_ld11_3,Eleventh youngest child - Other registered childcare settings,0.0,No
+712226,GENSCOT,COVIDLIFE2,s2_childcare_ld11_3,Eleventh youngest child - Other registered childcare settings,1.0,Yes
+712227,GENSCOT,COVIDLIFE2,s2_childcare_ld11_4,Eleventh youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712228,GENSCOT,COVIDLIFE2,s2_childcare_ld11_4,Eleventh youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712229,GENSCOT,COVIDLIFE2,s2_childcare_ld12_1,Twelfth youngest child - Nursery/day-care,0.0,No
+712230,GENSCOT,COVIDLIFE2,s2_childcare_ld12_1,Twelfth youngest child - Nursery/day-care,1.0,Yes
+712231,GENSCOT,COVIDLIFE2,s2_childcare_ld12_2,Twelfth youngest child - Childminder,0.0,No
+712232,GENSCOT,COVIDLIFE2,s2_childcare_ld12_2,Twelfth youngest child - Childminder,1.0,Yes
+712233,GENSCOT,COVIDLIFE2,s2_childcare_ld12_3,Twelfth youngest child - Other registered childcare settings,0.0,No
+712234,GENSCOT,COVIDLIFE2,s2_childcare_ld12_3,Twelfth youngest child - Other registered childcare settings,1.0,Yes
+712235,GENSCOT,COVIDLIFE2,s2_childcare_ld12_4,Twelfth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712236,GENSCOT,COVIDLIFE2,s2_childcare_ld12_4,Twelfth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712237,GENSCOT,COVIDLIFE2,s2_childcare_ld13_1,Thirteenth youngest child - Nursery/day-care,0.0,No
+712238,GENSCOT,COVIDLIFE2,s2_childcare_ld13_1,Thirteenth youngest child - Nursery/day-care,1.0,Yes
+712239,GENSCOT,COVIDLIFE2,s2_childcare_ld13_2,Thirteenth youngest child - Childminder,0.0,No
+712240,GENSCOT,COVIDLIFE2,s2_childcare_ld13_2,Thirteenth youngest child - Childminder,1.0,Yes
+712241,GENSCOT,COVIDLIFE2,s2_childcare_ld13_3,Thirteenth youngest child - Other registered childcare settings,0.0,No
+712242,GENSCOT,COVIDLIFE2,s2_childcare_ld13_3,Thirteenth youngest child - Other registered childcare settings,1.0,Yes
+712243,GENSCOT,COVIDLIFE2,s2_childcare_ld13_4,Thirteenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712244,GENSCOT,COVIDLIFE2,s2_childcare_ld13_4,Thirteenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712245,GENSCOT,COVIDLIFE2,s2_childcare_ld14_1,Fourteenth youngest child - Nursery/day-care,0.0,No
+712246,GENSCOT,COVIDLIFE2,s2_childcare_ld14_1,Fourteenth youngest child - Nursery/day-care,1.0,Yes
+712247,GENSCOT,COVIDLIFE2,s2_childcare_ld14_2,Fourteenth youngest child - Childminder,0.0,No
+712248,GENSCOT,COVIDLIFE2,s2_childcare_ld14_2,Fourteenth youngest child - Childminder,1.0,Yes
+712249,GENSCOT,COVIDLIFE2,s2_childcare_ld14_3,Fourteenth youngest child - Other registered childcare settings,0.0,No
+712250,GENSCOT,COVIDLIFE2,s2_childcare_ld14_3,Fourteenth youngest child - Other registered childcare settings,1.0,Yes
+712251,GENSCOT,COVIDLIFE2,s2_childcare_ld14_4,Fourteenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712252,GENSCOT,COVIDLIFE2,s2_childcare_ld14_4,Fourteenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712253,GENSCOT,COVIDLIFE2,s2_childcare_ld15_1,Fifteenth youngest child - Nursery/day-care,0.0,No
+712254,GENSCOT,COVIDLIFE2,s2_childcare_ld15_1,Fifteenth youngest child - Nursery/day-care,1.0,Yes
+712255,GENSCOT,COVIDLIFE2,s2_childcare_ld15_2,Fifteenth youngest child - Childminder,0.0,No
+712256,GENSCOT,COVIDLIFE2,s2_childcare_ld15_2,Fifteenth youngest child - Childminder,1.0,Yes
+712257,GENSCOT,COVIDLIFE2,s2_childcare_ld15_3,Fifteenth youngest child - Other registered childcare settings,0.0,No
+712258,GENSCOT,COVIDLIFE2,s2_childcare_ld15_3,Fifteenth youngest child - Other registered childcare settings,1.0,Yes
+712259,GENSCOT,COVIDLIFE2,s2_childcare_ld15_4,Fifteenth youngest child - None of my children went to any of these / my child did not go to any of these,0.0,No
+712260,GENSCOT,COVIDLIFE2,s2_childcare_ld15_4,Fifteenth youngest child - None of my children went to any of these / my child did not go to any of these,1.0,Yes
+712261,GENSCOT,COVIDLIFE2,s2_careyoumon,How many extra hours were you personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712262,GENSCOT,COVIDLIFE2,s2_careyoutues,How many extra hours were you personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712263,GENSCOT,COVIDLIFE2,s2_careyouwed,How many extra hours were you personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712264,GENSCOT,COVIDLIFE2,s2_careyouthur,How many extra hours were you personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712265,GENSCOT,COVIDLIFE2,s2_careyoufri,How many extra hours were you personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712266,GENSCOT,COVIDLIFE2,s2_careyousat,How many extra hours were you personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712267,GENSCOT,COVIDLIFE2,s2_careyousun,How many extra hours were you personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712268,GENSCOT,COVIDLIFE2,s2_carepartmon,How many extra hours was your partner personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712269,GENSCOT,COVIDLIFE2,s2_careparttues,How many extra hours was your partner personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712270,GENSCOT,COVIDLIFE2,s2_carepartwed,How many extra hours was your partner personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712271,GENSCOT,COVIDLIFE2,s2_carepartthur,How many extra hours was your partner personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712272,GENSCOT,COVIDLIFE2,s2_carepartfri,How many extra hours was your partner personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712273,GENSCOT,COVIDLIFE2,s2_carepartsat,How many extra hours was your partner personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712274,GENSCOT,COVIDLIFE2,s2_carepartsun,How many extra hours was your partner personally having to look after your children on each day during a typical week?,,0:24 [Hours]
+712275,GENSCOT,COVIDLIFE2,s2_workhrs_you,"When most schools and nurseries were closed, did you have to change the number of hours you worked per week to look after your children?",1.0,Worked more hours
+712276,GENSCOT,COVIDLIFE2,s2_workhrs_you,"When most schools and nurseries were closed, did you have to change the number of hours you worked per week to look after your children?",2.0,Worked the same number of hours as before
+712277,GENSCOT,COVIDLIFE2,s2_workhrs_you,"When most schools and nurseries were closed, did you have to change the number of hours you worked per week to look after your children?",3.0,Worked fewer hours
+712278,GENSCOT,COVIDLIFE2,s2_workhrs_you,"When most schools and nurseries were closed, did you have to change the number of hours you worked per week to look after your children?",4.0,Wasn’t able to work at all because of childcare responsibilities
+712279,GENSCOT,COVIDLIFE2,s2_workhrs_you,"When most schools and nurseries were closed, did you have to change the number of hours you worked per week to look after your children?",97.0,Not applicable
+712280,GENSCOT,COVIDLIFE2,s2_workhrs_part,"When most schools and nurseries were closed, did your partner have to change the number of hours they worked per week to look after the children?",1.0,Worked more hours
+712281,GENSCOT,COVIDLIFE2,s2_workhrs_part,"When most schools and nurseries were closed, did your partner have to change the number of hours they worked per week to look after the children?",2.0,Worked the same number of hours as before
+712282,GENSCOT,COVIDLIFE2,s2_workhrs_part,"When most schools and nurseries were closed, did your partner have to change the number of hours they worked per week to look after the children?",3.0,Worked fewer hours
+712283,GENSCOT,COVIDLIFE2,s2_workhrs_part,"When most schools and nurseries were closed, did your partner have to change the number of hours they worked per week to look after the children?",4.0,Wasn’t able to work at all because of childcare responsibilities
+712284,GENSCOT,COVIDLIFE2,s2_workhrs_part,"When most schools and nurseries were closed, did your partner have to change the number of hours they worked per week to look after the children?",97.0,Not applicable
+712285,GENSCOT,COVIDLIFE2,s2_worrychild_edu,Have you been worried about the impact of school closures on your children’s education?,1.0,Not at all worried
+712286,GENSCOT,COVIDLIFE2,s2_worrychild_edu,Have you been worried about the impact of school closures on your children’s education?,2.0,Slightly worried
+712287,GENSCOT,COVIDLIFE2,s2_worrychild_edu,Have you been worried about the impact of school closures on your children’s education?,3.0,Moderately worried
+712288,GENSCOT,COVIDLIFE2,s2_worrychild_edu,Have you been worried about the impact of school closures on your children’s education?,4.0,Very worried
+712289,GENSCOT,COVIDLIFE2,s2_worrychild_edu,Have you been worried about the impact of school closures on your children’s education?,5.0,Extremely worried
+712290,GENSCOT,COVIDLIFE2,s2_worrychild_edu,Have you been worried about the impact of school closures on your children’s education?,97.0,Not applicable
+712291,GENSCOT,COVIDLIFE2,s2_worrychild_social,Have you been worried about the impact of school and nursery closures on your children’s social skills?,1.0,Not at all worried
+712292,GENSCOT,COVIDLIFE2,s2_worrychild_social,Have you been worried about the impact of school and nursery closures on your children’s social skills?,2.0,Slightly worried
+712293,GENSCOT,COVIDLIFE2,s2_worrychild_social,Have you been worried about the impact of school and nursery closures on your children’s social skills?,3.0,Moderately worried
+712294,GENSCOT,COVIDLIFE2,s2_worrychild_social,Have you been worried about the impact of school and nursery closures on your children’s social skills?,4.0,Very worried
+712295,GENSCOT,COVIDLIFE2,s2_worrychild_social,Have you been worried about the impact of school and nursery closures on your children’s social skills?,5.0,Extremely worried
+712296,GENSCOT,COVIDLIFE2,s2_worrychild_social,Have you been worried about the impact of school and nursery closures on your children’s social skills?,97.0,Not applicable
+712297,GENSCOT,COVIDLIFE2,s2_worry_back2schl,Are you worried about your child/children returning to school after the summer holidays?,1.0,Not at all worried
+712298,GENSCOT,COVIDLIFE2,s2_worry_back2schl,Are you worried about your child/children returning to school after the summer holidays?,2.0,Slightly worried
+712299,GENSCOT,COVIDLIFE2,s2_worry_back2schl,Are you worried about your child/children returning to school after the summer holidays?,3.0,Moderately worried
+712300,GENSCOT,COVIDLIFE2,s2_worry_back2schl,Are you worried about your child/children returning to school after the summer holidays?,4.0,Very worried
+712301,GENSCOT,COVIDLIFE2,s2_worry_back2schl,Are you worried about your child/children returning to school after the summer holidays?,5.0,Extremely worried
+712302,GENSCOT,COVIDLIFE2,s2_worry_back2schl,Are you worried about your child/children returning to school after the summer holidays?,97.0,Not applicable
+712303,GENSCOT,COVIDLIFE2,s2_school_safe,It is safe for children to return to school full-time after the summer holidays,1.0,Strongly disagree
+712304,GENSCOT,COVIDLIFE2,s2_school_safe,It is safe for children to return to school full-time after the summer holidays,2.0,Disagree
+712305,GENSCOT,COVIDLIFE2,s2_school_safe,It is safe for children to return to school full-time after the summer holidays,3.0,Neither agree nor disagree
+712306,GENSCOT,COVIDLIFE2,s2_school_safe,It is safe for children to return to school full-time after the summer holidays,4.0,Agree
+712307,GENSCOT,COVIDLIFE2,s2_school_safe,It is safe for children to return to school full-time after the summer holidays,5.0,Strongly agree
+712308,GENSCOT,COVIDLIFE2,s2_worry_childrel,"n the last month, have you been worried about your relationship with your child/children?",1.0,Not at all worried
+712309,GENSCOT,COVIDLIFE2,s2_worry_childrel,"n the last month, have you been worried about your relationship with your child/children?",2.0,Slightly worried
+712310,GENSCOT,COVIDLIFE2,s2_worry_childrel,"n the last month, have you been worried about your relationship with your child/children?",3.0,Moderately worried
+712311,GENSCOT,COVIDLIFE2,s2_worry_childrel,"n the last month, have you been worried about your relationship with your child/children?",4.0,Very worried
+712312,GENSCOT,COVIDLIFE2,s2_worry_childrel,"n the last month, have you been worried about your relationship with your child/children?",5.0,Extremely worried
+712313,GENSCOT,COVIDLIFE2,s2_worry_childrel,"n the last month, have you been worried about your relationship with your child/children?",97.0,Not applicable
+712314,GENSCOT,COVIDLIFE2,s2_relations_child,"Compared to before the COVID-19 pandemic, do you think that your relationship with your children has:",1.0,Improved a lot
+712315,GENSCOT,COVIDLIFE2,s2_relations_child,"Compared to before the COVID-19 pandemic, do you think that your relationship with your children has:",2.0,Improved a little
+712316,GENSCOT,COVIDLIFE2,s2_relations_child,"Compared to before the COVID-19 pandemic, do you think that your relationship with your children has:",3.0,Stayed the same
+712317,GENSCOT,COVIDLIFE2,s2_relations_child,"Compared to before the COVID-19 pandemic, do you think that your relationship with your children has:",4.0,Worsened a little
+712318,GENSCOT,COVIDLIFE2,s2_relations_child,"Compared to before the COVID-19 pandemic, do you think that your relationship with your children has:",5.0,Worsened a lot
+712319,GENSCOT,COVIDLIFE2,s2_pi_futureres,Would you like to be invited to help shape the future of our research,0.0,No
+712320,GENSCOT,COVIDLIFE2,s2_pi_futureres,Would you like to be invited to help shape the future of our research,1.0,Yes
+712321,GENSCOT,COVIDLIFE2,s2_pi_exp,Would you like to be invited to share your experience of being a volunteer?,0.0,No
+712322,GENSCOT,COVIDLIFE2,s2_pi_exp,Would you like to be invited to share your experience of being a volunteer?,1.0,Yes
+712323,GENSCOT,COVIDLIFE2,avail_from_dt,,,

@@ -1,0 +1,138 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+23397,BCS70,bcs10_persongrid,study_id_e,,,
+23398,BCS70,bcs10_persongrid,gridid,sortkey: person position,,
+23399,BCS70,bcs10_persongrid,b10gsex,HHgrid: person sex,-9.0,Refused
+23400,BCS70,bcs10_persongrid,b10gsex,HHgrid: person sex,-8.0,No information
+23401,BCS70,bcs10_persongrid,b10gsex,HHgrid: person sex,1.0,Male
+23402,BCS70,bcs10_persongrid,b10gsex,HHgrid: person sex,2.0,Female
+23403,BCS70,bcs10_persongrid,b10gdied,HHgrid: whether household member had died,-9.0,Refused
+23404,BCS70,bcs10_persongrid,b10gdied,HHgrid: whether household member had died,-8.0,No information
+23405,BCS70,bcs10_persongrid,b10gdied,HHgrid: whether household member had died,0.0,No
+23406,BCS70,bcs10_persongrid,b10gdied,HHgrid: whether household member had died,1.0,Yes
+23407,BCS70,bcs10_persongrid,b10gslive,HHgrid: whether person living with CM at interview,-9.0,Refused
+23408,BCS70,bcs10_persongrid,b10gslive,HHgrid: whether person living with CM at interview,-8.0,No information
+23409,BCS70,bcs10_persongrid,b10gslive,HHgrid: whether person living with CM at interview,0.0,No
+23410,BCS70,bcs10_persongrid,b10gslive,HHgrid: whether person living with CM at interview,1.0,Yes
+23411,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,-9.0,Refused
+23412,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,-8.0,No information
+23413,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,1.0,Spouse
+23414,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,2.0,Civil partner
+23415,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,3.0,Cohabiting partner
+23416,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,4.0,Own child
+23417,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,5.0,Adopted child
+23418,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,6.0,Child of current spouse/partner
+23419,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,7.0,Child of previous spouse/partner
+23420,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,8.0,Fostered child
+23421,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,9.0,Full brother/sister
+23422,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,10.0,Half/adopted/step brother/sister
+23423,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,11.0,Brother/sister in-law
+23424,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,12.0,Natural mother (inc adoptive mother)
+23425,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,13.0,Adoptive mother
+23426,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,14.0,Natural father (inc adoptive father)
+23427,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,15.0,Adoptive father
+23428,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,16.0,Step-mother
+23429,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,17.0,Step-father
+23430,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,18.0,Parent in-law
+23431,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,19.0,Grandparent
+23432,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,20.0,Grandchild
+23433,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,21.0,Other blood relative
+23434,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,22.0,Other In-Law
+23435,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,23.0,Friend/Unrelated Sharer
+23436,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,24.0,Landlord
+23437,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,25.0,Lodger
+23438,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,26.0,Employer
+23439,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,27.0,"Nanny, Au Pair etc"
+23440,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,28.0,Child of non relative adult
+23441,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,29.0,Other
+23442,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,30.0,Ex-partner
+23443,BCS70,bcs10_persongrid,b10grtok,HHgrid: Person's relationship to CM,40.0,Non-natural child now dead
+23444,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-9.0,Refused
+23445,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-8.0,No information
+23446,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-1.0,Not applicable
+23447,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,1.0,January
+23448,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,2.0,February
+23449,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,3.0,March
+23450,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,4.0,April
+23451,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,5.0,May
+23452,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,6.0,June
+23453,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,7.0,July
+23454,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,8.0,August
+23455,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,9.0,September
+23456,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,10.0,October
+23457,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,11.0,November
+23458,BCS70,bcs10_persongrid,b10gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,12.0,December
+23459,BCS70,bcs10_persongrid,b10gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-9.0,Refused
+23460,BCS70,bcs10_persongrid,b10gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-8.0,No information
+23461,BCS70,bcs10_persongrid,b10gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-1.0,Not applicable
+23462,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,-9.0,Refused
+23463,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,-8.0,No information
+23464,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,-1.0,Not applicable
+23465,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,1.0,January
+23466,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,2.0,February
+23467,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,3.0,March
+23468,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,4.0,April
+23469,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,5.0,May
+23470,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,6.0,June
+23471,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,7.0,July
+23472,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,8.0,August
+23473,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,9.0,September
+23474,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,10.0,October
+23475,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,11.0,November
+23476,BCS70,bcs10_persongrid,b10gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,12.0,December
+23477,BCS70,bcs10_persongrid,b10glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)- year,-9.0,Refused
+23478,BCS70,bcs10_persongrid,b10glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)- year,-8.0,No information
+23479,BCS70,bcs10_persongrid,b10glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)- year,-1.0,Not applicable
+23480,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),-9.0,Refused
+23481,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),-8.0,No information
+23482,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),-1.0,Not applicable
+23483,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),1.0,January
+23484,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),2.0,February
+23485,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),3.0,March
+23486,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),4.0,April
+23487,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),5.0,May
+23488,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),6.0,June
+23489,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),7.0,July
+23490,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),8.0,August
+23491,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),9.0,September
+23492,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),10.0,October
+23493,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),11.0,November
+23494,BCS70,bcs10_persongrid,b10gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),12.0,December
+23495,BCS70,bcs10_persongrid,b10gsty,HHgrid: Date person started living with CM - year (new non-birth chd/partner),-9.0,Refused
+23496,BCS70,bcs10_persongrid,b10gsty,HHgrid: Date person started living with CM - year (new non-birth chd/partner),-8.0,No information
+23497,BCS70,bcs10_persongrid,b10gsty,HHgrid: Date person started living with CM - year (new non-birth chd/partner),-1.0,Not applicable
+23498,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,-9.0,Refused
+23499,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,-8.0,No information
+23500,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,-1.0,Not applicable
+23501,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,1.0,January
+23502,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,2.0,February
+23503,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,3.0,March
+23504,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,4.0,April
+23505,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,5.0,May
+23506,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,6.0,June
+23507,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,7.0,July
+23508,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,8.0,August
+23509,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,9.0,September
+23510,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,10.0,October
+23511,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,11.0,November
+23512,BCS70,bcs10_persongrid,b10gdobm,HHgrid: Person date of birth - month,12.0,December
+23513,BCS70,bcs10_persongrid,b10gdoby,HHgrid: Person date of birth - year,-9.0,Refused
+23514,BCS70,bcs10_persongrid,b10gdoby,HHgrid: Person date of birth - year,-8.0,No information
+23515,BCS70,bcs10_persongrid,b10gdoby,HHgrid: Person date of birth - year,-1.0,Not applicable
+23516,BCS70,bcs10_persongrid,b10gage,HHgrid: Person's age last birthday,-9.0,Refused
+23517,BCS70,bcs10_persongrid,b10gage,HHgrid: Person's age last birthday,-8.0,No information
+23518,BCS70,bcs10_persongrid,b10gage,HHgrid: Person's age last birthday,-1.0,Not applicable
+23519,BCS70,bcs10_persongrid,b10gcrlp,HHgrid: Whether child is current partner's own child,-9.0,Refused
+23520,BCS70,bcs10_persongrid,b10gcrlp,HHgrid: Whether child is current partner's own child,-8.0,No information
+23521,BCS70,bcs10_persongrid,b10gcrlp,HHgrid: Whether child is current partner's own child,-1.0,Not applicable
+23522,BCS70,bcs10_persongrid,b10gcrlp,HHgrid: Whether child is current partner's own child,0.0,No
+23523,BCS70,bcs10_persongrid,b10gcrlp,HHgrid: Whether child is current partner's own child,1.0,Yes
+23524,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,-9.0,Refused
+23525,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,-8.0,No information
+23526,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,-1.0,Not applicable
+23527,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,0.0,Own child
+23528,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,1.0,Adopted child
+23529,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,2.0,Child of previous partner
+23530,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,3.0,Fostered child
+23531,BCS70,bcs10_persongrid,b10gcrlp2,HHgrid: Relationship of child to current partner,4.0,None of these
+23532,BCS70,bcs10_persongrid,v3,None,,
+23533,BCS70,bcs10_persongrid,avail_from_dt,,,

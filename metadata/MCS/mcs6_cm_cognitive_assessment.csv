@@ -1,0 +1,362 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+860505,MCS,mcs6_cm_cognitive_assessment,study_id_e,,,
+860506,MCS,mcs6_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+860507,MCS,mcs6_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+860508,MCS,mcs6_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+860509,MCS,mcs6_cm_cognitive_assessment,fccsex00,CM Sex,-1.0,Not known/Not applicable
+860510,MCS,mcs6_cm_cognitive_assessment,fccsex00,CM Sex,1.0,Male
+860511,MCS,mcs6_cm_cognitive_assessment,fccsex00,CM Sex,2.0,Female
+860512,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),-1.0,Not applicable
+860513,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),1.0,January
+860514,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),2.0,February
+860515,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),3.0,March
+860516,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),4.0,April
+860517,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),5.0,May
+860518,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),6.0,June
+860519,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),7.0,July
+860520,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),8.0,August
+860521,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),9.0,September
+860522,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),10.0,October
+860523,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),11.0,November
+860524,MCS,mcs6_cm_cognitive_assessment,fccdbm00,CM DOB (month),12.0,December
+860525,MCS,mcs6_cm_cognitive_assessment,fccdby00,CM DOB (year),-1.0,Not applicable
+860526,MCS,mcs6_cm_cognitive_assessment,fccage00,CM Age last birthday,-1.0,Not applicable
+860527,MCS,mcs6_cm_cognitive_assessment,fcversb0,CogAssm_IWinf - Script version,-1.0,Not applicable
+860528,MCS,mcs6_cm_cognitive_assessment,fclscsb0,CogAssm_IWinf - Interview length in seconds,-1.0,Not applicable
+860529,MCS,mcs6_cm_cognitive_assessment,fclmnsb0,CogAssm_IWinf - Interview length in minutes,-1.0,Not applicable
+860530,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,-1.0,Not applicable
+860531,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,1.0,Less than 30 seconds
+860532,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,2.0,30 seconds to 1 minute
+860533,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,3.0,1 to <2 minutes
+860534,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,4.0,2 to <3 minutes
+860535,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,5.0,3 to <4 minutes
+860536,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,6.0,4 to <5 minutes
+860537,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,7.0,5 to <6 minutes
+860538,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,8.0,6 to <7 minutes
+860539,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,9.0,7 to <8 minutes
+860540,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,10.0,8 to <9 minutes
+860541,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,11.0,9 to <10 minutes
+860542,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,12.0,10 to <11 minutes
+860543,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,13.0,11 to <12 minutes
+860544,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,14.0,12 to <13 minutes
+860545,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,15.0,13 to <14 minutes
+860546,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,16.0,14 to <15 minutes
+860547,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,17.0,15 to <16 minutes
+860548,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,18.0,16 to <17 minutes
+860549,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,19.0,17 to <18 minutes
+860550,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,20.0,18 to <19 minutes
+860551,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,21.0,19 to <20 minutes
+860552,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,22.0,20 to <25 minutes
+860553,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,23.0,25 to <30 minutes
+860554,MCS,mcs6_cm_cognitive_assessment,fclmbdb0,CogAssm_IWinf - Interview length in minutes banded,24.0,30 minutes or over
+860555,MCS,mcs6_cm_cognitive_assessment,fcsessb0,CogAssm_IWinf - Number of sessions,-1.0,Not applicable
+860556,MCS,mcs6_cm_cognitive_assessment,fcchic2a,CogAssm_IWinf - Guardian consent to approach CM for both assessments given,-1.0,Not applicable
+860557,MCS,mcs6_cm_cognitive_assessment,fcchic2a,CogAssm_IWinf - Guardian consent to approach CM for both assessments given,0.0,No
+860558,MCS,mcs6_cm_cognitive_assessment,fcchic2a,CogAssm_IWinf - Guardian consent to approach CM for both assessments given,1.0,Yes
+860559,MCS,mcs6_cm_cognitive_assessment,fcchic2b,CogAssm_IWinf - Guardian consent to approach CM for Word Activity given,-1.0,Not applicable
+860560,MCS,mcs6_cm_cognitive_assessment,fcchic2b,CogAssm_IWinf - Guardian consent to approach CM for Word Activity given,0.0,No
+860561,MCS,mcs6_cm_cognitive_assessment,fcchic2b,CogAssm_IWinf - Guardian consent to approach CM for Word Activity given,1.0,Yes
+860562,MCS,mcs6_cm_cognitive_assessment,fcchic2c,CogAssm_IWinf - Guardian consent to approach CM for Decision-making task given,-1.0,Not applicable
+860563,MCS,mcs6_cm_cognitive_assessment,fcchic2c,CogAssm_IWinf - Guardian consent to approach CM for Decision-making task given,0.0,No
+860564,MCS,mcs6_cm_cognitive_assessment,fcchic2c,CogAssm_IWinf - Guardian consent to approach CM for Decision-making task given,1.0,Yes
+860565,MCS,mcs6_cm_cognitive_assessment,fcchic2d,CogAssm_IWinf - Guardian consent not given to ask CM for consnt to assessments,-1.0,Not applicable
+860566,MCS,mcs6_cm_cognitive_assessment,fcchic2d,CogAssm_IWinf - Guardian consent not given to ask CM for consnt to assessments,0.0,No
+860567,MCS,mcs6_cm_cognitive_assessment,fcchic2d,CogAssm_IWinf - Guardian consent not given to ask CM for consnt to assessments,1.0,Yes
+860568,MCS,mcs6_cm_cognitive_assessment,fcchac2a,CogAssm_IWinf - CM consent for both assessments given,-1.0,Not applicable
+860569,MCS,mcs6_cm_cognitive_assessment,fcchac2a,CogAssm_IWinf - CM consent for both assessments given,0.0,No
+860570,MCS,mcs6_cm_cognitive_assessment,fcchac2a,CogAssm_IWinf - CM consent for both assessments given,1.0,Yes
+860571,MCS,mcs6_cm_cognitive_assessment,fcchac2b,CogAssm_IWinf - CM consent for Word Activity given,-1.0,Not applicable
+860572,MCS,mcs6_cm_cognitive_assessment,fcchac2b,CogAssm_IWinf - CM consent for Word Activity given,0.0,No
+860573,MCS,mcs6_cm_cognitive_assessment,fcchac2b,CogAssm_IWinf - CM consent for Word Activity given,1.0,Yes
+860574,MCS,mcs6_cm_cognitive_assessment,fcchac2c,CogAssm_IWinf - CM consent for Decision-making task given,-1.0,Not applicable
+860575,MCS,mcs6_cm_cognitive_assessment,fcchac2c,CogAssm_IWinf - CM consent for Decision-making task given,0.0,No
+860576,MCS,mcs6_cm_cognitive_assessment,fcchac2c,CogAssm_IWinf - CM consent for Decision-making task given,1.0,Yes
+860577,MCS,mcs6_cm_cognitive_assessment,fcchac2d,CogAssm_IWinf - CM consent not given for assessments,-1.0,Not applicable
+860578,MCS,mcs6_cm_cognitive_assessment,fcchac2d,CogAssm_IWinf - CM consent not given for assessments,0.0,No
+860579,MCS,mcs6_cm_cognitive_assessment,fcchac2d,CogAssm_IWinf - CM consent not given for assessments,1.0,Yes
+860580,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,-3.0,Software error/respondent completed wrong activity
+860581,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,-1.0,Not applicable
+860582,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,1.0,always
+860583,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,2.0,best
+860584,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,3.0,neat
+860585,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,4.0,sick
+860586,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,5.0,fast (correct answer)
+860587,MCS,mcs6_cm_cognitive_assessment,fccmcoga,CM Cognitive Test: 1 QUICK,6.0,No answer
+860588,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,-3.0,Software error/respondent completed wrong activity
+860589,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,-1.0,Not applicable
+860590,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,1.0,steps
+860591,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,2.0,reason
+860592,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,3.0,jetty
+860593,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,4.0,mountains
+860594,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,5.0,news (correct answer)
+860595,MCS,mcs6_cm_cognitive_assessment,fccmcogb,CM Cognitive Test: 2 TIDINGS,6.0,No answer
+860596,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,-3.0,Software error/respondent completed wrong activity
+860597,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,-1.0,Not applicable
+860598,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,1.0,advise
+860599,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,2.0,hide (correct answer)
+860600,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,3.0,gather
+860601,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,4.0,freeze
+860602,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,5.0,conciliate
+860603,MCS,mcs6_cm_cognitive_assessment,fccmcogc,CM Cognitive Test: 3 CONCEAL,6.0,No answer
+860604,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,-3.0,Software error/respondent completed wrong activity
+860605,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,-1.0,Not applicable
+860606,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,1.0,several
+860607,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,2.0,matchless (correct answer)
+860608,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,3.0,simple
+860609,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,4.0,ancient
+860610,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,5.0,absurd
+860611,MCS,mcs6_cm_cognitive_assessment,fccmcogd,CM Cognitive Test: 4 UNIQUE,6.0,No answer
+860612,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,-3.0,Software error/respondent completed wrong activity
+860613,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,-1.0,Not applicable
+860614,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,1.0,tawny
+860615,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,2.0,obstinate
+860616,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,3.0,gloomy
+860617,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,4.0,muddy
+860618,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,5.0,doubtful(correct answer)
+860619,MCS,mcs6_cm_cognitive_assessment,fccmcoge,CM Cognitive Test: 5 DUBIOUS,6.0,No answer
+860620,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,-3.0,Software error/respondent completed wrong activity
+860621,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,-1.0,Not applicable
+860622,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,1.0,trefoil
+860623,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,2.0,alluvial
+860624,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,3.0,trifling (correct answer)
+860625,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,4.0,eccentric
+860626,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,5.0,tawdry
+860627,MCS,mcs6_cm_cognitive_assessment,fccmcogf,CM Cognitive Test: 6 TRIVIAL,6.0,No answer
+860628,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,-3.0,Software error/respondent completed wrong activity
+860629,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,-1.0,Not applicable
+860630,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,1.0,conventional (correct answer)
+860631,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,2.0,angular
+860632,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,3.0,bohemian
+860633,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,4.0,liturgical
+860634,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,5.0,amazing
+860635,MCS,mcs6_cm_cognitive_assessment,fccmcogg,CM Cognitive Test: 7 ORTHODOX,6.0,No answer
+860636,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,-3.0,Software error/respondent completed wrong activity
+860637,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,-1.0,Not applicable
+860638,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,1.0,aggressive
+860639,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,2.0,humane
+860640,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,3.0,shallow
+860641,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,4.0,wide
+860642,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,5.0,credible (correct answer)
+860643,MCS,mcs6_cm_cognitive_assessment,fccmcogh,CM Cognitive Test: 8 PLAUSIBLE,6.0,No answer
+860644,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,-3.0,Software error/respondent completed wrong activity
+860645,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,-1.0,Not applicable
+860646,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,1.0,deter
+860647,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,2.0,subscribe
+860648,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,3.0,avail
+860649,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,4.0,submit
+860650,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,5.0,denote (correct answer)
+860651,MCS,mcs6_cm_cognitive_assessment,fccmcogi,CM Cognitive Test: 9 SIGNIFY,6.0,No answer
+860652,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,-3.0,Software error/respondent completed wrong activity
+860653,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,-1.0,Not applicable
+860654,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,1.0,plotting
+860655,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,2.0,gargantuan
+860656,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,3.0,suspicious
+860657,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,4.0,prominent (correct answer)
+860658,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,5.0,deserved
+860659,MCS,mcs6_cm_cognitive_assessment,fccmcogj,CM Cognitive Test: 10 CONSPICUOUS,6.0,No answer
+860660,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,-3.0,Software error/respondent completed wrong activity
+860661,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,-1.0,Not applicable
+860662,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,1.0,guess
+860663,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,2.0,priority (correct answer)
+860664,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,3.0,cleverness
+860665,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,4.0,sympathy
+860666,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,5.0,regalia
+860667,MCS,mcs6_cm_cognitive_assessment,fccmcogk,CM Cognitive Test: 11 PRECEDENCE,6.0,No answer
+860668,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,-3.0,Software error/respondent completed wrong activity
+860669,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,-1.0,Not applicable
+860670,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,1.0,ingest
+860671,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,2.0,involve (correct answer)
+860672,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,3.0,produce
+860673,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,4.0,malformed
+860674,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,5.0,deviate
+860675,MCS,mcs6_cm_cognitive_assessment,fccmcogl,CM Cognitive Test: 12 IMPLICATE,6.0,No answer
+860676,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,-3.0,Software error/respondent completed wrong activity
+860677,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,-1.0,Not applicable
+860678,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,1.0,similar
+860679,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,2.0,disillusioned
+860680,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,3.0,inequitable
+860681,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,4.0,identical
+860682,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,5.0,uninterested (correct answer)
+860683,MCS,mcs6_cm_cognitive_assessment,fccmcogm,CM Cognitive Test: 13 INDIFFERENT,6.0,No answer
+860684,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,-3.0,Software error/respondent completed wrong activity
+860685,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,-1.0,Not applicable
+860686,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,1.0,apt
+860687,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,2.0,genuine
+860688,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,3.0,opposed
+860689,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,4.0,gullible (correct answer)
+860690,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,5.0,trustworthy
+860691,MCS,mcs6_cm_cognitive_assessment,fccmcogn,CM Cognitive Test: 14 CREDULOUS,6.0,No answer
+860692,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,-3.0,Software error/respondent completed wrong activity
+860693,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,-1.0,Not applicable
+860694,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,1.0,soften
+860695,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,2.0,mow
+860696,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,3.0,boil (correct answer)
+860697,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,4.0,surround
+860698,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,5.0,perceive
+860699,MCS,mcs6_cm_cognitive_assessment,fccmcogo,CM Cognitive Test: 15 SEETHE,6.0,No answer
+860700,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,-3.0,Software error/respondent completed wrong activity
+860701,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,-1.0,Not applicable
+860702,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,1.0,execrable
+860703,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,2.0,secret
+860704,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,3.0,innocuous
+860705,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,4.0,rigid
+860706,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,5.0,redundant (correct answer)
+860707,MCS,mcs6_cm_cognitive_assessment,fccmcogp,CM Cognitive Test: 16 OBSOLETE,6.0,No answer
+860708,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,-3.0,Software error/respondent completed wrong activity
+860709,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,-1.0,Not applicable
+860710,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,1.0,spurious (correct answer)
+860711,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,2.0,spasmodic
+860712,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,3.0,superfluous
+860713,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,4.0,pathetic
+860714,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,5.0,spurious
+860715,MCS,mcs6_cm_cognitive_assessment,fccmcogq,CM Cognitive Test: 17 ERUDITE,6.0,No answer
+860716,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,-3.0,Software error/respondent completed wrong activity
+860717,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,-1.0,Not applicable
+860718,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,1.0,spacious (correct answer)
+860719,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,2.0,flowery
+860720,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,3.0,laudable
+860721,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,4.0,poetical
+860722,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,5.0,spacious
+860723,MCS,mcs6_cm_cognitive_assessment,fccmcogr,CM Cognitive Test: 18 PROSAIC,6.0,No answer
+860724,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,-3.0,Software error/respondent completed wrong activity
+860725,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,-1.0,Not applicable
+860726,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,1.0,artistic
+860727,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,2.0,dissolute
+860728,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,3.0,austere (correct answer)
+860729,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,4.0,antipathetic
+860730,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,5.0,charlatan
+860731,MCS,mcs6_cm_cognitive_assessment,fccmcogs,CM Cognitive Test: 19 ASCETIC,6.0,No answer
+860732,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,-3.0,Software error/respondent completed wrong activity
+860733,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,-1.0,Not applicable
+860734,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,1.0,loud
+860735,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,2.0,living
+860736,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,3.0,timid (correct answer)
+860737,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,4.0,averse
+860738,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,5.0,correct
+860739,MCS,mcs6_cm_cognitive_assessment,fccmcogt,CM Cognitive Test: 20 PUSILLANIMOUS,6.0,No answer
+860740,MCS,mcs6_cm_cognitive_assessment,fcvtypdo,IWR: Word activity completed? (CM),-3.0,Software error
+860741,MCS,mcs6_cm_cognitive_assessment,fcvtypdo,IWR: Word activity completed? (CM),-1.0,Not applicable
+860742,MCS,mcs6_cm_cognitive_assessment,fcvtypdo,IWR: Word activity completed? (CM),1.0,Yes - CM did the Word Activity
+860743,MCS,mcs6_cm_cognitive_assessment,fcvtypdo,IWR: Word activity completed? (CM),2.0,No - CM did not do the Word Activity
+860744,MCS,mcs6_cm_cognitive_assessment,fcvtcdck,IWR: Confirm Word activity not completed (CM),-1.0,Not applicable
+860745,MCS,mcs6_cm_cognitive_assessment,fcvtcdck,IWR: Confirm Word activity not completed (CM),1.0,"Correct, cohort member did not do the W"
+860746,MCS,mcs6_cm_cognitive_assessment,fcvtcdck,IWR: Confirm Word activity not completed (CM),2.0,Go back to amend
+860747,MCS,mcs6_cm_cognitive_assessment,fccalang,IWR: Language used,-1.0,Not applicable
+860748,MCS,mcs6_cm_cognitive_assessment,fccalang,IWR: Language used,1.0,English
+860749,MCS,mcs6_cm_cognitive_assessment,fccalang,IWR: Language used,2.0,Welsh
+860750,MCS,mcs6_cm_cognitive_assessment,fccaend0,IWR: Confirm whether OK to proceed or need to re-do assessment,-1.0,Not applicable
+860751,MCS,mcs6_cm_cognitive_assessment,fccaend0,IWR: Confirm whether OK to proceed or need to re-do assessment,1.0,Continue
+860752,MCS,mcs6_cm_cognitive_assessment,fccaend0,IWR: Confirm whether OK to proceed or need to re-do assessment,2.0,Need to redo assessment because in 'Eva
+860753,MCS,mcs6_cm_cognitive_assessment,fccatech,IWR: technical problems when administering YP CognAssm tasks?,-1.0,Not applicable
+860754,MCS,mcs6_cm_cognitive_assessment,fccatech,IWR: technical problems when administering YP CognAssm tasks?,1.0,Yes
+860755,MCS,mcs6_cm_cognitive_assessment,fccatech,IWR: technical problems when administering YP CognAssm tasks?,2.0,No
+860756,MCS,mcs6_cm_cognitive_assessment,fctvns00,IWR: Background noise from electronics,-8.0,Not observed/Don't know
+860757,MCS,mcs6_cm_cognitive_assessment,fctvns00,IWR: Background noise from electronics,-1.0,Not applicable
+860758,MCS,mcs6_cm_cognitive_assessment,fctvns00,IWR: Background noise from electronics,1.0,No noise from television/radio/stereo/c
+860759,MCS,mcs6_cm_cognitive_assessment,fctvns00,IWR: Background noise from electronics,2.0,Audible but not loud noise from televis
+860760,MCS,mcs6_cm_cognitive_assessment,fctvns00,IWR: Background noise from electronics,3.0,Loud noise from television/radio/stereo
+860761,MCS,mcs6_cm_cognitive_assessment,fcconv00,IWR: Background noise from conversation,-8.0,Not observed/Don't know
+860762,MCS,mcs6_cm_cognitive_assessment,fcconv00,IWR: Background noise from conversation,-1.0,Not applicable
+860763,MCS,mcs6_cm_cognitive_assessment,fcconv00,IWR: Background noise from conversation,1.0,No background conversation
+860764,MCS,mcs6_cm_cognitive_assessment,fcconv00,IWR: Background noise from conversation,2.0,Audible but not loud background convers
+860765,MCS,mcs6_cm_cognitive_assessment,fcconv00,IWR: Background noise from conversation,3.0,Loud background conversation
+860766,MCS,mcs6_cm_cognitive_assessment,fcbacc00,IWR: Background noise from other children,-8.0,Not observed/Don't know
+860767,MCS,mcs6_cm_cognitive_assessment,fcbacc00,IWR: Background noise from other children,-1.0,Not applicable
+860768,MCS,mcs6_cm_cognitive_assessment,fcbacc00,IWR: Background noise from other children,1.0,No background noise and disturbances fr
+860769,MCS,mcs6_cm_cognitive_assessment,fcbacc00,IWR: Background noise from other children,2.0,Some background noise and disturbances
+860770,MCS,mcs6_cm_cognitive_assessment,fcbacc00,IWR: Background noise from other children,3.0,A lot of background noise and disturban
+860771,MCS,mcs6_cm_cognitive_assessment,fcentr00,IWR: Background noise from people entering/leaving room,-8.0,Not observed/Don't know
+860772,MCS,mcs6_cm_cognitive_assessment,fcentr00,IWR: Background noise from people entering/leaving room,-1.0,Not applicable
+860773,MCS,mcs6_cm_cognitive_assessment,fcentr00,IWR: Background noise from people entering/leaving room,1.0,No-one entering/leaving the room
+860774,MCS,mcs6_cm_cognitive_assessment,fcentr00,IWR: Background noise from people entering/leaving room,2.0,Someone entering/leaving the room once
+860775,MCS,mcs6_cm_cognitive_assessment,fcentr00,IWR: Background noise from people entering/leaving room,3.0,Someone entering/leaving the room 3 or
+860776,MCS,mcs6_cm_cognitive_assessment,fcenth00,IWR: Background noise from people entering/leaving the house,-8.0,Not observed/Don't know
+860777,MCS,mcs6_cm_cognitive_assessment,fcenth00,IWR: Background noise from people entering/leaving the house,-1.0,Not applicable
+860778,MCS,mcs6_cm_cognitive_assessment,fcenth00,IWR: Background noise from people entering/leaving the house,1.0,No-one entering/leaving the home
+860779,MCS,mcs6_cm_cognitive_assessment,fcenth00,IWR: Background noise from people entering/leaving the house,2.0,Someone entering/leaving the home once
+860780,MCS,mcs6_cm_cognitive_assessment,fcenth00,IWR: Background noise from people entering/leaving the house,3.0,Someone entering/leaving the home 3 or
+860781,MCS,mcs6_cm_cognitive_assessment,fcintc00,IWR: Interruption of cognitive assessments from another child,-8.0,Not observed/Don't know
+860782,MCS,mcs6_cm_cognitive_assessment,fcintc00,IWR: Interruption of cognitive assessments from another child,-1.0,Not applicable
+860783,MCS,mcs6_cm_cognitive_assessment,fcintc00,IWR: Interruption of cognitive assessments from another child,1.0,No interruptions by another child
+860784,MCS,mcs6_cm_cognitive_assessment,fcintc00,IWR: Interruption of cognitive assessments from another child,2.0,1-2 interruptions by another child
+860785,MCS,mcs6_cm_cognitive_assessment,fcintc00,IWR: Interruption of cognitive assessments from another child,3.0,3 or more interruptions by another chil
+860786,MCS,mcs6_cm_cognitive_assessment,fcinta00,IWR: Interruption of cognitive assessments by an adult,-8.0,Not observed/Don't know
+860787,MCS,mcs6_cm_cognitive_assessment,fcinta00,IWR: Interruption of cognitive assessments by an adult,-1.0,Not applicable
+860788,MCS,mcs6_cm_cognitive_assessment,fcinta00,IWR: Interruption of cognitive assessments by an adult,1.0,No interruptions by other adult(s)
+860789,MCS,mcs6_cm_cognitive_assessment,fcinta00,IWR: Interruption of cognitive assessments by an adult,2.0,1-2 interruptions by other adult(s)
+860790,MCS,mcs6_cm_cognitive_assessment,fcinta00,IWR: Interruption of cognitive assessments by an adult,3.0,3 or more interruptions by other adult(
+860791,MCS,mcs6_cm_cognitive_assessment,fctirc00,IWR: Was the child tired,-8.0,Not observed/Don't know
+860792,MCS,mcs6_cm_cognitive_assessment,fctirc00,IWR: Was the child tired,-1.0,Not applicable
+860793,MCS,mcs6_cm_cognitive_assessment,fctirc00,IWR: Was the child tired,1.0,Very tired
+860794,MCS,mcs6_cm_cognitive_assessment,fctirc00,IWR: Was the child tired,2.0,A little tired
+860795,MCS,mcs6_cm_cognitive_assessment,fctirc00,IWR: Was the child tired,3.0,Wide awake
+860796,MCS,mcs6_cm_cognitive_assessment,fcassc0a,IWR: Circumstances of the cognitive assessment MC (A) [blind/partial sight],-1.0,Not applicable
+860797,MCS,mcs6_cm_cognitive_assessment,fcassc0a,IWR: Circumstances of the cognitive assessment MC (A) [blind/partial sight],0.0,No
+860798,MCS,mcs6_cm_cognitive_assessment,fcassc0a,IWR: Circumstances of the cognitive assessment MC (A) [blind/partial sight],1.0,Yes
+860799,MCS,mcs6_cm_cognitive_assessment,fcassc0b,IWR: Circumstances of the cognitive assessment MC (A) [deafness/partl hearng],-1.0,Not applicable
+860800,MCS,mcs6_cm_cognitive_assessment,fcassc0b,IWR: Circumstances of the cognitive assessment MC (A) [deafness/partl hearng],0.0,No
+860801,MCS,mcs6_cm_cognitive_assessment,fcassc0b,IWR: Circumstances of the cognitive assessment MC (A) [deafness/partl hearng],1.0,Yes
+860802,MCS,mcs6_cm_cognitive_assessment,fcassc0c,IWR: Circumstances of the cognitive assessment MC (A) [Physical impairment],-1.0,Not applicable
+860803,MCS,mcs6_cm_cognitive_assessment,fcassc0c,IWR: Circumstances of the cognitive assessment MC (A) [Physical impairment],0.0,No
+860804,MCS,mcs6_cm_cognitive_assessment,fcassc0c,IWR: Circumstances of the cognitive assessment MC (A) [Physical impairment],1.0,Yes
+860805,MCS,mcs6_cm_cognitive_assessment,fcassc0d,IWR: Circumstances of the cognitive assessment MC (A) [Impaired concentration],-1.0,Not applicable
+860806,MCS,mcs6_cm_cognitive_assessment,fcassc0d,IWR: Circumstances of the cognitive assessment MC (A) [Impaired concentration],0.0,No
+860807,MCS,mcs6_cm_cognitive_assessment,fcassc0d,IWR: Circumstances of the cognitive assessment MC (A) [Impaired concentration],1.0,Yes
+860808,MCS,mcs6_cm_cognitive_assessment,fcassc0e,IWR: Circumstances of the cognitive assessment MC (A) [Very nervous/anxious],-1.0,Not applicable
+860809,MCS,mcs6_cm_cognitive_assessment,fcassc0e,IWR: Circumstances of the cognitive assessment MC (A) [Very nervous/anxious],0.0,No
+860810,MCS,mcs6_cm_cognitive_assessment,fcassc0e,IWR: Circumstances of the cognitive assessment MC (A) [Very nervous/anxious],1.0,Yes
+860811,MCS,mcs6_cm_cognitive_assessment,fcassc0f,IWR: Circumstances of the cognitive assessment MC (A) [Mental impairement],-1.0,Not applicable
+860812,MCS,mcs6_cm_cognitive_assessment,fcassc0f,IWR: Circumstances of the cognitive assessment MC (A) [Mental impairement],0.0,No
+860813,MCS,mcs6_cm_cognitive_assessment,fcassc0f,IWR: Circumstances of the cognitive assessment MC (A) [Mental impairement],1.0,Yes
+860814,MCS,mcs6_cm_cognitive_assessment,fcassc0g,IWR: Circumstances of the cognitive assessment MC (A) [Problems with tablet],-1.0,Not applicable
+860815,MCS,mcs6_cm_cognitive_assessment,fcassc0g,IWR: Circumstances of the cognitive assessment MC (A) [Problems with tablet],0.0,No
+860816,MCS,mcs6_cm_cognitive_assessment,fcassc0g,IWR: Circumstances of the cognitive assessment MC (A) [Problems with tablet],1.0,Yes
+860817,MCS,mcs6_cm_cognitive_assessment,fcassc0h,IWR: Circumstances of the cognitive assessment MC (A) [Language difficulties],-1.0,Not applicable
+860818,MCS,mcs6_cm_cognitive_assessment,fcassc0h,IWR: Circumstances of the cognitive assessment MC (A) [Language difficulties],0.0,No
+860819,MCS,mcs6_cm_cognitive_assessment,fcassc0h,IWR: Circumstances of the cognitive assessment MC (A) [Language difficulties],1.0,Yes
+860820,MCS,mcs6_cm_cognitive_assessment,fcassc0i,IWR: Circumstances of the cognitive assessment MC (A) [Other],-1.0,Not applicable
+860821,MCS,mcs6_cm_cognitive_assessment,fcassc0i,IWR: Circumstances of the cognitive assessment MC (A) [Other],0.0,No
+860822,MCS,mcs6_cm_cognitive_assessment,fcassc0i,IWR: Circumstances of the cognitive assessment MC (A) [Other],1.0,Yes
+860823,MCS,mcs6_cm_cognitive_assessment,fcassc0j,IWR: Circumstances of the cognitive assessment MC (A) [None],-1.0,Not applicable
+860824,MCS,mcs6_cm_cognitive_assessment,fcassc0j,IWR: Circumstances of the cognitive assessment MC (A) [None],0.0,No
+860825,MCS,mcs6_cm_cognitive_assessment,fcassc0j,IWR: Circumstances of the cognitive assessment MC (A) [None],1.0,Yes
+860826,MCS,mcs6_cm_cognitive_assessment,fcassc0k,IWR: Circumstances of the cognitive assessment MC (A) [Don t know],-1.0,Not applicable
+860827,MCS,mcs6_cm_cognitive_assessment,fcassc0k,IWR: Circumstances of the cognitive assessment MC (A) [Don t know],0.0,No
+860828,MCS,mcs6_cm_cognitive_assessment,fcassc0k,IWR: Circumstances of the cognitive assessment MC (A) [Don t know],1.0,Yes
+860829,MCS,mcs6_cm_cognitive_assessment,fcassc0l,IWR: Circumstances of the cognitive assessment MC (A) [Refused],-1.0,Not applicable
+860830,MCS,mcs6_cm_cognitive_assessment,fcassc0l,IWR: Circumstances of the cognitive assessment MC (A) [Refused],0.0,No
+860831,MCS,mcs6_cm_cognitive_assessment,fcassc0l,IWR: Circumstances of the cognitive assessment MC (A) [Refused],1.0,Yes
+860832,MCS,mcs6_cm_cognitive_assessment,fcassc0m,IWR: Circumstances of the cognitive assessment MC (A) [Vague irrelevant ans],-1.0,Not applicable
+860833,MCS,mcs6_cm_cognitive_assessment,fcassc0m,IWR: Circumstances of the cognitive assessment MC (A) [Vague irrelevant ans],0.0,No
+860834,MCS,mcs6_cm_cognitive_assessment,fcassc0m,IWR: Circumstances of the cognitive assessment MC (A) [Vague irrelevant ans],1.0,Yes
+860835,MCS,mcs6_cm_cognitive_assessment,fcassc0n,IWR: Circumstances of the cognitive assessment MC (A) [Problems with literacy],-1.0,Not applicable
+860836,MCS,mcs6_cm_cognitive_assessment,fcassc0n,IWR: Circumstances of the cognitive assessment MC (A) [Problems with literacy],0.0,No
+860837,MCS,mcs6_cm_cognitive_assessment,fcassc0n,IWR: Circumstances of the cognitive assessment MC (A) [Problems with literacy],1.0,Yes
+860838,MCS,mcs6_cm_cognitive_assessment,fcassc0o,IWR: Circumstances of the cognitive assessment MC (A) [Specific distractions],-1.0,Not applicable
+860839,MCS,mcs6_cm_cognitive_assessment,fcassc0o,IWR: Circumstances of the cognitive assessment MC (A) [Specific distractions],0.0,No
+860840,MCS,mcs6_cm_cognitive_assessment,fcassc0o,IWR: Circumstances of the cognitive assessment MC (A) [Specific distractions],1.0,Yes
+860841,MCS,mcs6_cm_cognitive_assessment,fcassc0p,IWR: Circumstances of the cognitive assessment MC (A) [Hungry],-1.0,Not applicable
+860842,MCS,mcs6_cm_cognitive_assessment,fcassc0p,IWR: Circumstances of the cognitive assessment MC (A) [Hungry],0.0,No
+860843,MCS,mcs6_cm_cognitive_assessment,fcassc0p,IWR: Circumstances of the cognitive assessment MC (A) [Hungry],1.0,Yes
+860844,MCS,mcs6_cm_cognitive_assessment,fcassc0q,IWR: Circumstances of the cognitive assessment MC (A) [Tired],-1.0,Not applicable
+860845,MCS,mcs6_cm_cognitive_assessment,fcassc0q,IWR: Circumstances of the cognitive assessment MC (A) [Tired],0.0,No
+860846,MCS,mcs6_cm_cognitive_assessment,fcassc0q,IWR: Circumstances of the cognitive assessment MC (A) [Tired],1.0,Yes
+860847,MCS,mcs6_cm_cognitive_assessment,fcassc0r,IWR: Circumstances of the cognitive assessment MC (A) [Rushed],-1.0,Not applicable
+860848,MCS,mcs6_cm_cognitive_assessment,fcassc0r,IWR: Circumstances of the cognitive assessment MC (A) [Rushed],0.0,No
+860849,MCS,mcs6_cm_cognitive_assessment,fcassc0r,IWR: Circumstances of the cognitive assessment MC (A) [Rushed],1.0,Yes
+860850,MCS,mcs6_cm_cognitive_assessment,fcassc0s,IWR: Circumstances of the cognitive assessment MC (A) [Help from hh member],-1.0,Not applicable
+860851,MCS,mcs6_cm_cognitive_assessment,fcassc0s,IWR: Circumstances of the cognitive assessment MC (A) [Help from hh member],0.0,No
+860852,MCS,mcs6_cm_cognitive_assessment,fcassc0s,IWR: Circumstances of the cognitive assessment MC (A) [Help from hh member],1.0,Yes
+860853,MCS,mcs6_cm_cognitive_assessment,fcassc0t,IWR: Circumstances of the cognitive assessment MC (A) [Learn diff/SEN/BESD],-1.0,Not applicable
+860854,MCS,mcs6_cm_cognitive_assessment,fcassc0t,IWR: Circumstances of the cognitive assessment MC (A) [Learn diff/SEN/BESD],0.0,No
+860855,MCS,mcs6_cm_cognitive_assessment,fcassc0t,IWR: Circumstances of the cognitive assessment MC (A) [Learn diff/SEN/BESD],1.0,Yes
+860856,MCS,mcs6_cm_cognitive_assessment,fcassc0u,IWR: Circumstances of the cognitive assessment MC (A) [Feeling unwell],-1.0,Not applicable
+860857,MCS,mcs6_cm_cognitive_assessment,fcassc0u,IWR: Circumstances of the cognitive assessment MC (A) [Feeling unwell],0.0,No
+860858,MCS,mcs6_cm_cognitive_assessment,fcassc0u,IWR: Circumstances of the cognitive assessment MC (A) [Feeling unwell],1.0,Yes
+860859,MCS,mcs6_cm_cognitive_assessment,fcassc0v,IWR: Circumstances of the cognitive assessment MC (A) [Poor attitd/disintestd],-1.0,Not applicable
+860860,MCS,mcs6_cm_cognitive_assessment,fcassc0v,IWR: Circumstances of the cognitive assessment MC (A) [Poor attitd/disintestd],0.0,No
+860861,MCS,mcs6_cm_cognitive_assessment,fcassc0v,IWR: Circumstances of the cognitive assessment MC (A) [Poor attitd/disintestd],1.0,Yes
+860862,MCS,mcs6_cm_cognitive_assessment,fcwrdsc,CM Word activity score out of 20,-3.0,Software error/respondent completed wrong activity
+860863,MCS,mcs6_cm_cognitive_assessment,fcwrdsc,CM Word activity score out of 20,-1.0,Not applicable
+860864,MCS,mcs6_cm_cognitive_assessment,avail_from_dt,,,
+860865,MCS,mcs6_cm_cognitive_assessment,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

@@ -1,0 +1,798 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+848997,MCS,mcs5_cm_teacher_survey,study_id_e,,,
+848998,MCS,mcs5_cm_teacher_survey,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+848999,MCS,mcs5_cm_teacher_survey,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+849000,MCS,mcs5_cm_teacher_survey,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+849001,MCS,mcs5_cm_teacher_survey,tidiss,S5 TS Teacher Serial ID,,
+849002,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,-1.0,Not applicable
+849003,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,1.0,January
+849004,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,2.0,February
+849005,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,3.0,March
+849006,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,4.0,April
+849007,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,5.0,May
+849008,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,6.0,June
+849009,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,7.0,July
+849010,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,8.0,August
+849011,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,9.0,September
+849012,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,10.0,October
+849013,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,11.0,November
+849014,MCS,mcs5_cm_teacher_survey,compm,S5 TS Month of completion,12.0,December
+849015,MCS,mcs5_cm_teacher_survey,compy,S5 TS Year of completion,-8.0,Blank
+849016,MCS,mcs5_cm_teacher_survey,oteach,S5 TS Is teacher as issued,-8.0,Blank
+849017,MCS,mcs5_cm_teacher_survey,oteach,S5 TS Is teacher as issued,1.0,Yes
+849018,MCS,mcs5_cm_teacher_survey,oteach,S5 TS Is teacher as issued,2.0,No
+849019,MCS,mcs5_cm_teacher_survey,source,S5 TS Source,1.0,Cati
+849020,MCS,mcs5_cm_teacher_survey,source,S5 TS Source,2.0,Paper
+849021,MCS,mcs5_cm_teacher_survey,vers,S5 TS  Version of Questionniare,1.0,England
+849022,MCS,mcs5_cm_teacher_survey,vers,S5 TS  Version of Questionniare,2.0,Wales
+849023,MCS,mcs5_cm_teacher_survey,vers,S5 TS  Version of Questionniare,3.0,Welsh
+849024,MCS,mcs5_cm_teacher_survey,eq1,S5 TS How long has CM been in your class (months),-8.0,Blank
+849025,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,-8.0,Blank
+849026,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,-1.0,Not applicable
+849027,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,1.0,Welsh only
+849028,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,2.0,Mainly Welsh
+849029,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,3.0,Welsh and English equally
+849030,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,4.0,Mainly English
+849031,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,5.0,English only
+849032,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,6.0,Bilingual elements to lessons
+849033,MCS,mcs5_cm_teacher_survey,eq1a,S5 TS Language CM educated in,7.0,Welsh as a second language
+849034,MCS,mcs5_cm_teacher_survey,eq2a,S5 TS English,-8.0,"Blank, Don't know"
+849035,MCS,mcs5_cm_teacher_survey,eq2a,S5 TS English,1.0,Well above average
+849036,MCS,mcs5_cm_teacher_survey,eq2a,S5 TS English,2.0,Above average
+849037,MCS,mcs5_cm_teacher_survey,eq2a,S5 TS English,3.0,Average
+849038,MCS,mcs5_cm_teacher_survey,eq2a,S5 TS English,4.0,Below average
+849039,MCS,mcs5_cm_teacher_survey,eq2a,S5 TS English,5.0,Well below average
+849040,MCS,mcs5_cm_teacher_survey,eq2b,S5 TS Welsh,-8.0,"Blank, Don't know"
+849041,MCS,mcs5_cm_teacher_survey,eq2b,S5 TS Welsh,1.0,Well above average
+849042,MCS,mcs5_cm_teacher_survey,eq2b,S5 TS Welsh,2.0,Above average
+849043,MCS,mcs5_cm_teacher_survey,eq2b,S5 TS Welsh,3.0,Average
+849044,MCS,mcs5_cm_teacher_survey,eq2b,S5 TS Welsh,4.0,Below average
+849045,MCS,mcs5_cm_teacher_survey,eq2b,S5 TS Welsh,5.0,Well below average
+849046,MCS,mcs5_cm_teacher_survey,eq2c,S5 TS Maths,-8.0,"Blank, Don't know"
+849047,MCS,mcs5_cm_teacher_survey,eq2c,S5 TS Maths,1.0,Well above average
+849048,MCS,mcs5_cm_teacher_survey,eq2c,S5 TS Maths,2.0,Above average
+849049,MCS,mcs5_cm_teacher_survey,eq2c,S5 TS Maths,3.0,Average
+849050,MCS,mcs5_cm_teacher_survey,eq2c,S5 TS Maths,4.0,Below average
+849051,MCS,mcs5_cm_teacher_survey,eq2c,S5 TS Maths,5.0,Well below average
+849052,MCS,mcs5_cm_teacher_survey,eq2d,S5 TS Science,-8.0,"Blank, Don't know"
+849053,MCS,mcs5_cm_teacher_survey,eq2d,S5 TS Science,1.0,Well above average
+849054,MCS,mcs5_cm_teacher_survey,eq2d,S5 TS Science,2.0,Above average
+849055,MCS,mcs5_cm_teacher_survey,eq2d,S5 TS Science,3.0,Average
+849056,MCS,mcs5_cm_teacher_survey,eq2d,S5 TS Science,4.0,Below average
+849057,MCS,mcs5_cm_teacher_survey,eq2d,S5 TS Science,5.0,Well below average
+849058,MCS,mcs5_cm_teacher_survey,eq2e,S5 TS Art and design,-8.0,"Blank, Don't know"
+849059,MCS,mcs5_cm_teacher_survey,eq2e,S5 TS Art and design,1.0,Well above average
+849060,MCS,mcs5_cm_teacher_survey,eq2e,S5 TS Art and design,2.0,Above average
+849061,MCS,mcs5_cm_teacher_survey,eq2e,S5 TS Art and design,3.0,Average
+849062,MCS,mcs5_cm_teacher_survey,eq2e,S5 TS Art and design,4.0,Below average
+849063,MCS,mcs5_cm_teacher_survey,eq2e,S5 TS Art and design,5.0,Well below average
+849064,MCS,mcs5_cm_teacher_survey,eq2f,S5 TS Music,-8.0,"Blank, Don't know"
+849065,MCS,mcs5_cm_teacher_survey,eq2f,S5 TS Music,1.0,Well above average
+849066,MCS,mcs5_cm_teacher_survey,eq2f,S5 TS Music,2.0,Above average
+849067,MCS,mcs5_cm_teacher_survey,eq2f,S5 TS Music,3.0,Average
+849068,MCS,mcs5_cm_teacher_survey,eq2f,S5 TS Music,4.0,Below average
+849069,MCS,mcs5_cm_teacher_survey,eq2f,S5 TS Music,5.0,Well below average
+849070,MCS,mcs5_cm_teacher_survey,eq2g,S5 TS Physical Education (PE),-8.0,"Blank, Don't know"
+849071,MCS,mcs5_cm_teacher_survey,eq2g,S5 TS Physical Education (PE),1.0,Well above average
+849072,MCS,mcs5_cm_teacher_survey,eq2g,S5 TS Physical Education (PE),2.0,Above average
+849073,MCS,mcs5_cm_teacher_survey,eq2g,S5 TS Physical Education (PE),3.0,Average
+849074,MCS,mcs5_cm_teacher_survey,eq2g,S5 TS Physical Education (PE),4.0,Below average
+849075,MCS,mcs5_cm_teacher_survey,eq2g,S5 TS Physical Education (PE),5.0,Well below average
+849076,MCS,mcs5_cm_teacher_survey,eq2h,S5 TS Information and Communication Technology (ICT),-8.0,"Blank, Don't know"
+849077,MCS,mcs5_cm_teacher_survey,eq2h,S5 TS Information and Communication Technology (ICT),1.0,Well above average
+849078,MCS,mcs5_cm_teacher_survey,eq2h,S5 TS Information and Communication Technology (ICT),2.0,Above average
+849079,MCS,mcs5_cm_teacher_survey,eq2h,S5 TS Information and Communication Technology (ICT),3.0,Average
+849080,MCS,mcs5_cm_teacher_survey,eq2h,S5 TS Information and Communication Technology (ICT),4.0,Below average
+849081,MCS,mcs5_cm_teacher_survey,eq2h,S5 TS Information and Communication Technology (ICT),5.0,Well below average
+849082,MCS,mcs5_cm_teacher_survey,eq3a,S5 TS CM enjoys school,-8.0,"Blank, Don't know"
+849083,MCS,mcs5_cm_teacher_survey,eq3a,S5 TS CM enjoys school,1.0,Always
+849084,MCS,mcs5_cm_teacher_survey,eq3a,S5 TS CM enjoys school,2.0,Usually
+849085,MCS,mcs5_cm_teacher_survey,eq3a,S5 TS CM enjoys school,3.0,Sometimes
+849086,MCS,mcs5_cm_teacher_survey,eq3a,S5 TS CM enjoys school,4.0,Never
+849087,MCS,mcs5_cm_teacher_survey,eq3b,S5 TS CM bored by school,-8.0,"Blank, Don't know"
+849088,MCS,mcs5_cm_teacher_survey,eq3b,S5 TS CM bored by school,1.0,Always
+849089,MCS,mcs5_cm_teacher_survey,eq3b,S5 TS CM bored by school,2.0,Usually
+849090,MCS,mcs5_cm_teacher_survey,eq3b,S5 TS CM bored by school,3.0,Sometimes
+849091,MCS,mcs5_cm_teacher_survey,eq3b,S5 TS CM bored by school,4.0,Never
+849092,MCS,mcs5_cm_teacher_survey,eq3c,S5 TS CM Tries their best at school,-8.0,"Blank, Don't know"
+849093,MCS,mcs5_cm_teacher_survey,eq3c,S5 TS CM Tries their best at school,1.0,Always
+849094,MCS,mcs5_cm_teacher_survey,eq3c,S5 TS CM Tries their best at school,2.0,Usually
+849095,MCS,mcs5_cm_teacher_survey,eq3c,S5 TS CM Tries their best at school,3.0,Sometimes
+849096,MCS,mcs5_cm_teacher_survey,eq3c,S5 TS CM Tries their best at school,4.0,Never
+849097,MCS,mcs5_cm_teacher_survey,eq3d,S5 TS CM misbehaves,-8.0,"Blank, Don't know"
+849098,MCS,mcs5_cm_teacher_survey,eq3d,S5 TS CM misbehaves,1.0,Always
+849099,MCS,mcs5_cm_teacher_survey,eq3d,S5 TS CM misbehaves,2.0,Usually
+849100,MCS,mcs5_cm_teacher_survey,eq3d,S5 TS CM misbehaves,3.0,Sometimes
+849101,MCS,mcs5_cm_teacher_survey,eq3d,S5 TS CM misbehaves,4.0,Never
+849102,MCS,mcs5_cm_teacher_survey,eq3e,S5 TS CM hands in homework late,-8.0,"Blank, Don't know"
+849103,MCS,mcs5_cm_teacher_survey,eq3e,S5 TS CM hands in homework late,1.0,Always
+849104,MCS,mcs5_cm_teacher_survey,eq3e,S5 TS CM hands in homework late,2.0,Usually
+849105,MCS,mcs5_cm_teacher_survey,eq3e,S5 TS CM hands in homework late,3.0,Sometimes
+849106,MCS,mcs5_cm_teacher_survey,eq3e,S5 TS CM hands in homework late,4.0,Never
+849107,MCS,mcs5_cm_teacher_survey,eq4,S5 TS CM works independently,-8.0,"Blank, Don't know"
+849108,MCS,mcs5_cm_teacher_survey,eq4,S5 TS CM works independently,1.0,Very well
+849109,MCS,mcs5_cm_teacher_survey,eq4,S5 TS CM works independently,2.0,Quite well
+849110,MCS,mcs5_cm_teacher_survey,eq4,S5 TS CM works independently,3.0,Not very well
+849111,MCS,mcs5_cm_teacher_survey,eq4,S5 TS CM works independently,4.0,Not at all well
+849112,MCS,mcs5_cm_teacher_survey,eq5a,S5 TS Is considerate of other peoples feelings,-8.0,"Blank,Don't know"
+849113,MCS,mcs5_cm_teacher_survey,eq5a,S5 TS Is considerate of other peoples feelings,1.0,Not true
+849114,MCS,mcs5_cm_teacher_survey,eq5a,S5 TS Is considerate of other peoples feelings,2.0,Is somewhat true
+849115,MCS,mcs5_cm_teacher_survey,eq5a,S5 TS Is considerate of other peoples feelings,3.0,Very true
+849116,MCS,mcs5_cm_teacher_survey,eq5b,S5 TS Is restless,-8.0,"Blank,Don't know"
+849117,MCS,mcs5_cm_teacher_survey,eq5b,S5 TS Is restless,1.0,Not true
+849118,MCS,mcs5_cm_teacher_survey,eq5b,S5 TS Is restless,2.0,Is somewhat true
+849119,MCS,mcs5_cm_teacher_survey,eq5b,S5 TS Is restless,3.0,Very true
+849120,MCS,mcs5_cm_teacher_survey,eq5c,S5 TS Often complains of headaches,-8.0,"Blank,Don't know"
+849121,MCS,mcs5_cm_teacher_survey,eq5c,S5 TS Often complains of headaches,1.0,Not true
+849122,MCS,mcs5_cm_teacher_survey,eq5c,S5 TS Often complains of headaches,2.0,Is somewhat true
+849123,MCS,mcs5_cm_teacher_survey,eq5c,S5 TS Often complains of headaches,3.0,Very true
+849124,MCS,mcs5_cm_teacher_survey,eq5d,S5 TS Shares readily with other children (treats,-8.0,"Blank,Don't know"
+849125,MCS,mcs5_cm_teacher_survey,eq5d,S5 TS Shares readily with other children (treats,1.0,Not true
+849126,MCS,mcs5_cm_teacher_survey,eq5d,S5 TS Shares readily with other children (treats,2.0,Is somewhat true
+849127,MCS,mcs5_cm_teacher_survey,eq5d,S5 TS Shares readily with other children (treats,3.0,Very true
+849128,MCS,mcs5_cm_teacher_survey,eq5e,S5 TS Often has temper tantrums or hot tempers,-8.0,"Blank,Don't know"
+849129,MCS,mcs5_cm_teacher_survey,eq5e,S5 TS Often has temper tantrums or hot tempers,1.0,Not true
+849130,MCS,mcs5_cm_teacher_survey,eq5e,S5 TS Often has temper tantrums or hot tempers,2.0,Is somewhat true
+849131,MCS,mcs5_cm_teacher_survey,eq5e,S5 TS Often has temper tantrums or hot tempers,3.0,Very true
+849132,MCS,mcs5_cm_teacher_survey,eq5f,S5 TS Is rather solitary,-8.0,"Blank,Don't know"
+849133,MCS,mcs5_cm_teacher_survey,eq5f,S5 TS Is rather solitary,1.0,Not true
+849134,MCS,mcs5_cm_teacher_survey,eq5f,S5 TS Is rather solitary,2.0,Is somewhat true
+849135,MCS,mcs5_cm_teacher_survey,eq5f,S5 TS Is rather solitary,3.0,Very true
+849136,MCS,mcs5_cm_teacher_survey,eq5g,S5 TS Is generally obedient,-8.0,"Blank,Don't know"
+849137,MCS,mcs5_cm_teacher_survey,eq5g,S5 TS Is generally obedient,1.0,Not true
+849138,MCS,mcs5_cm_teacher_survey,eq5g,S5 TS Is generally obedient,2.0,Is somewhat true
+849139,MCS,mcs5_cm_teacher_survey,eq5g,S5 TS Is generally obedient,3.0,Very true
+849140,MCS,mcs5_cm_teacher_survey,eq5h,S5 TS Has many worries often seems worried,-8.0,"Blank,Don't know"
+849141,MCS,mcs5_cm_teacher_survey,eq5h,S5 TS Has many worries often seems worried,1.0,Not true
+849142,MCS,mcs5_cm_teacher_survey,eq5h,S5 TS Has many worries often seems worried,2.0,Is somewhat true
+849143,MCS,mcs5_cm_teacher_survey,eq5h,S5 TS Has many worries often seems worried,3.0,Very true
+849144,MCS,mcs5_cm_teacher_survey,eq5i,S5 TS Is helpful when someone is hurt,-8.0,"Blank,Don't know"
+849145,MCS,mcs5_cm_teacher_survey,eq5i,S5 TS Is helpful when someone is hurt,1.0,Not true
+849146,MCS,mcs5_cm_teacher_survey,eq5i,S5 TS Is helpful when someone is hurt,2.0,Is somewhat true
+849147,MCS,mcs5_cm_teacher_survey,eq5i,S5 TS Is helpful when someone is hurt,3.0,Very true
+849148,MCS,mcs5_cm_teacher_survey,eq5j,S5 TS Constantly fidgets or squirms,-8.0,"Blank,Don't know"
+849149,MCS,mcs5_cm_teacher_survey,eq5j,S5 TS Constantly fidgets or squirms,1.0,Not true
+849150,MCS,mcs5_cm_teacher_survey,eq5j,S5 TS Constantly fidgets or squirms,2.0,Is somewhat true
+849151,MCS,mcs5_cm_teacher_survey,eq5j,S5 TS Constantly fidgets or squirms,3.0,Very true
+849152,MCS,mcs5_cm_teacher_survey,eq5k,S5 TS Has at least one good friend,-8.0,"Blank,Don't know"
+849153,MCS,mcs5_cm_teacher_survey,eq5k,S5 TS Has at least one good friend,1.0,Not true
+849154,MCS,mcs5_cm_teacher_survey,eq5k,S5 TS Has at least one good friend,2.0,Is somewhat true
+849155,MCS,mcs5_cm_teacher_survey,eq5k,S5 TS Has at least one good friend,3.0,Very true
+849156,MCS,mcs5_cm_teacher_survey,eq5l,S5 TS Often fights with other children or bullies them,-8.0,"Blank,Don't know"
+849157,MCS,mcs5_cm_teacher_survey,eq5l,S5 TS Often fights with other children or bullies them,1.0,Not true
+849158,MCS,mcs5_cm_teacher_survey,eq5l,S5 TS Often fights with other children or bullies them,2.0,Is somewhat true
+849159,MCS,mcs5_cm_teacher_survey,eq5l,S5 TS Often fights with other children or bullies them,3.0,Very true
+849160,MCS,mcs5_cm_teacher_survey,eq5m,S5 TS Is often unhappy,-8.0,"Blank,Don't know"
+849161,MCS,mcs5_cm_teacher_survey,eq5m,S5 TS Is often unhappy,1.0,Not true
+849162,MCS,mcs5_cm_teacher_survey,eq5m,S5 TS Is often unhappy,2.0,Is somewhat true
+849163,MCS,mcs5_cm_teacher_survey,eq5m,S5 TS Is often unhappy,3.0,Very true
+849164,MCS,mcs5_cm_teacher_survey,eq5n,S5 TS Is generally liked by other children,-8.0,"Blank,Don't know"
+849165,MCS,mcs5_cm_teacher_survey,eq5n,S5 TS Is generally liked by other children,1.0,Not true
+849166,MCS,mcs5_cm_teacher_survey,eq5n,S5 TS Is generally liked by other children,2.0,Is somewhat true
+849167,MCS,mcs5_cm_teacher_survey,eq5n,S5 TS Is generally liked by other children,3.0,Very true
+849168,MCS,mcs5_cm_teacher_survey,eq5o,S5 TS Is easily distracted,-8.0,"Blank,Don't know"
+849169,MCS,mcs5_cm_teacher_survey,eq5o,S5 TS Is easily distracted,1.0,Not true
+849170,MCS,mcs5_cm_teacher_survey,eq5o,S5 TS Is easily distracted,2.0,Is somewhat true
+849171,MCS,mcs5_cm_teacher_survey,eq5o,S5 TS Is easily distracted,3.0,Very true
+849172,MCS,mcs5_cm_teacher_survey,eq5p,S5 TS Is nervous or clingy in new situations,-8.0,"Blank,Don't know"
+849173,MCS,mcs5_cm_teacher_survey,eq5p,S5 TS Is nervous or clingy in new situations,1.0,Not true
+849174,MCS,mcs5_cm_teacher_survey,eq5p,S5 TS Is nervous or clingy in new situations,2.0,Is somewhat true
+849175,MCS,mcs5_cm_teacher_survey,eq5p,S5 TS Is nervous or clingy in new situations,3.0,Very true
+849176,MCS,mcs5_cm_teacher_survey,eq5q,S5 TS Is kind to younger children,-8.0,"Blank,Don't know"
+849177,MCS,mcs5_cm_teacher_survey,eq5q,S5 TS Is kind to younger children,1.0,Not true
+849178,MCS,mcs5_cm_teacher_survey,eq5q,S5 TS Is kind to younger children,2.0,Is somewhat true
+849179,MCS,mcs5_cm_teacher_survey,eq5q,S5 TS Is kind to younger children,3.0,Very true
+849180,MCS,mcs5_cm_teacher_survey,eq5r,S5 TS Often lies or cheats,-8.0,"Blank,Don't know"
+849181,MCS,mcs5_cm_teacher_survey,eq5r,S5 TS Often lies or cheats,1.0,Not true
+849182,MCS,mcs5_cm_teacher_survey,eq5r,S5 TS Often lies or cheats,2.0,Is somewhat true
+849183,MCS,mcs5_cm_teacher_survey,eq5r,S5 TS Often lies or cheats,3.0,Very true
+849184,MCS,mcs5_cm_teacher_survey,eq5s,S5 TS Is picked on or bullied by other children,-8.0,"Blank,Don't know"
+849185,MCS,mcs5_cm_teacher_survey,eq5s,S5 TS Is picked on or bullied by other children,1.0,Not true
+849186,MCS,mcs5_cm_teacher_survey,eq5s,S5 TS Is picked on or bullied by other children,2.0,Is somewhat true
+849187,MCS,mcs5_cm_teacher_survey,eq5s,S5 TS Is picked on or bullied by other children,3.0,Very true
+849188,MCS,mcs5_cm_teacher_survey,eq5t,S5 TS Often volunteers to help others (parents,-8.0,"Blank,Don't know"
+849189,MCS,mcs5_cm_teacher_survey,eq5t,S5 TS Often volunteers to help others (parents,1.0,Not true
+849190,MCS,mcs5_cm_teacher_survey,eq5t,S5 TS Often volunteers to help others (parents,2.0,Is somewhat true
+849191,MCS,mcs5_cm_teacher_survey,eq5t,S5 TS Often volunteers to help others (parents,3.0,Very true
+849192,MCS,mcs5_cm_teacher_survey,eq5u,S5 TS Thinks things out before acting,-8.0,"Blank,Don't know"
+849193,MCS,mcs5_cm_teacher_survey,eq5u,S5 TS Thinks things out before acting,1.0,Not true
+849194,MCS,mcs5_cm_teacher_survey,eq5u,S5 TS Thinks things out before acting,2.0,Is somewhat true
+849195,MCS,mcs5_cm_teacher_survey,eq5u,S5 TS Thinks things out before acting,3.0,Very true
+849196,MCS,mcs5_cm_teacher_survey,eq5v,S5 TS Steals from home,-8.0,"Blank,Don't know"
+849197,MCS,mcs5_cm_teacher_survey,eq5v,S5 TS Steals from home,1.0,Not true
+849198,MCS,mcs5_cm_teacher_survey,eq5v,S5 TS Steals from home,2.0,Is somewhat true
+849199,MCS,mcs5_cm_teacher_survey,eq5v,S5 TS Steals from home,3.0,Very true
+849200,MCS,mcs5_cm_teacher_survey,eq5w,S5 TS Gets on better with adults than with other children,-8.0,"Blank,Don't know"
+849201,MCS,mcs5_cm_teacher_survey,eq5w,S5 TS Gets on better with adults than with other children,1.0,Not true
+849202,MCS,mcs5_cm_teacher_survey,eq5w,S5 TS Gets on better with adults than with other children,2.0,Is somewhat true
+849203,MCS,mcs5_cm_teacher_survey,eq5w,S5 TS Gets on better with adults than with other children,3.0,Very true
+849204,MCS,mcs5_cm_teacher_survey,eq5x,S5 TS Has many fears,-8.0,"Blank,Don't know"
+849205,MCS,mcs5_cm_teacher_survey,eq5x,S5 TS Has many fears,1.0,Not true
+849206,MCS,mcs5_cm_teacher_survey,eq5x,S5 TS Has many fears,2.0,Is somewhat true
+849207,MCS,mcs5_cm_teacher_survey,eq5x,S5 TS Has many fears,3.0,Very true
+849208,MCS,mcs5_cm_teacher_survey,eq5y,S5 TS Sees tasks through to the end,-8.0,"Blank,Don't know"
+849209,MCS,mcs5_cm_teacher_survey,eq5y,S5 TS Sees tasks through to the end,1.0,Not true
+849210,MCS,mcs5_cm_teacher_survey,eq5y,S5 TS Sees tasks through to the end,2.0,Is somewhat true
+849211,MCS,mcs5_cm_teacher_survey,eq5y,S5 TS Sees tasks through to the end,3.0,Very true
+849212,MCS,mcs5_cm_teacher_survey,eq6,S5 TS has difficulties in one or more areas,-8.0,Blank
+849213,MCS,mcs5_cm_teacher_survey,eq6,S5 TS has difficulties in one or more areas,1.0,"Yes, minor difficulties"
+849214,MCS,mcs5_cm_teacher_survey,eq6,S5 TS has difficulties in one or more areas,2.0,"Yes, definite difficulties"
+849215,MCS,mcs5_cm_teacher_survey,eq6,S5 TS has difficulties in one or more areas,3.0,"Yes, severe difficulties"
+849216,MCS,mcs5_cm_teacher_survey,eq6,S5 TS has difficulties in one or more areas,4.0,No
+849217,MCS,mcs5_cm_teacher_survey,eq7,S5 TS Ever been suspended,-8.0,"Blank, Don't know"
+849218,MCS,mcs5_cm_teacher_survey,eq7,S5 TS Ever been suspended,1.0,Yes
+849219,MCS,mcs5_cm_teacher_survey,eq7,S5 TS Ever been suspended,2.0,No
+849220,MCS,mcs5_cm_teacher_survey,eq8,S5 TS How many time suspended etc,-8.0,Blank
+849221,MCS,mcs5_cm_teacher_survey,eq8,S5 TS How many time suspended etc,-1.0,Not applicable
+849222,MCS,mcs5_cm_teacher_survey,eq9,S5 TS Missed school without permission,-8.0,"Blank, Don't know"
+849223,MCS,mcs5_cm_teacher_survey,eq9,S5 TS Missed school without permission,1.0,Yes
+849224,MCS,mcs5_cm_teacher_survey,eq9,S5 TS Missed school without permission,2.0,No
+849225,MCS,mcs5_cm_teacher_survey,eq10,S5 TS Does CM receive English or Welsh/Gaelic/Irish additional support,-8.0,"Blank, Don't know"
+849226,MCS,mcs5_cm_teacher_survey,eq10,S5 TS Does CM receive English or Welsh/Gaelic/Irish additional support,1.0,Yes
+849227,MCS,mcs5_cm_teacher_survey,eq10,S5 TS Does CM receive English or Welsh/Gaelic/Irish additional support,2.0,No
+849228,MCS,mcs5_cm_teacher_survey,eq11,S5 TS Does CM have Special Educational Needs (SEN),-8.0,"Blank, Don't know"
+849229,MCS,mcs5_cm_teacher_survey,eq11,S5 TS Does CM have Special Educational Needs (SEN),1.0,Yes
+849230,MCS,mcs5_cm_teacher_survey,eq11,S5 TS Does CM have Special Educational Needs (SEN),2.0,No
+849231,MCS,mcs5_cm_teacher_survey,eq12,S5 TS Does CM have a full statement of SEN,-8.0,Blank
+849232,MCS,mcs5_cm_teacher_survey,eq12,S5 TS Does CM have a full statement of SEN,-1.0,Not applicable
+849233,MCS,mcs5_cm_teacher_survey,eq12,S5 TS Does CM have a full statement of SEN,1.0,Yes
+849234,MCS,mcs5_cm_teacher_survey,eq12,S5 TS Does CM have a full statement of SEN,2.0,No
+849235,MCS,mcs5_cm_teacher_survey,eq13a,S5 TS Dyslexia: reason for CM's SEN,-8.0,Blank
+849236,MCS,mcs5_cm_teacher_survey,eq13a,S5 TS Dyslexia: reason for CM's SEN,-1.0,Not applicable
+849237,MCS,mcs5_cm_teacher_survey,eq13a,S5 TS Dyslexia: reason for CM's SEN,1.0,Yes
+849238,MCS,mcs5_cm_teacher_survey,eq13a,S5 TS Dyslexia: reason for CM's SEN,2.0,No
+849239,MCS,mcs5_cm_teacher_survey,eq13a,S5 TS Dyslexia: reason for CM's SEN,3.0,Don't know
+849240,MCS,mcs5_cm_teacher_survey,eq13b,S5 TS Learning difficulties reason for CM's SEN,-8.0,Blank
+849241,MCS,mcs5_cm_teacher_survey,eq13b,S5 TS Learning difficulties reason for CM's SEN,-1.0,Not applicable
+849242,MCS,mcs5_cm_teacher_survey,eq13b,S5 TS Learning difficulties reason for CM's SEN,1.0,Yes
+849243,MCS,mcs5_cm_teacher_survey,eq13b,S5 TS Learning difficulties reason for CM's SEN,2.0,No
+849244,MCS,mcs5_cm_teacher_survey,eq13b,S5 TS Learning difficulties reason for CM's SEN,3.0,Don't know
+849245,MCS,mcs5_cm_teacher_survey,eq13c,S5 TS ADHD: reason for CM's SEN,-8.0,Blank
+849246,MCS,mcs5_cm_teacher_survey,eq13c,S5 TS ADHD: reason for CM's SEN,-1.0,Not applicable
+849247,MCS,mcs5_cm_teacher_survey,eq13c,S5 TS ADHD: reason for CM's SEN,1.0,Yes
+849248,MCS,mcs5_cm_teacher_survey,eq13c,S5 TS ADHD: reason for CM's SEN,2.0,No
+849249,MCS,mcs5_cm_teacher_survey,eq13c,S5 TS ADHD: reason for CM's SEN,3.0,Don't know
+849250,MCS,mcs5_cm_teacher_survey,eq13d,S5 TS Autism: reason for CM's SEN,-8.0,Blank
+849251,MCS,mcs5_cm_teacher_survey,eq13d,S5 TS Autism: reason for CM's SEN,-1.0,Not applicable
+849252,MCS,mcs5_cm_teacher_survey,eq13d,S5 TS Autism: reason for CM's SEN,1.0,Yes
+849253,MCS,mcs5_cm_teacher_survey,eq13d,S5 TS Autism: reason for CM's SEN,2.0,No
+849254,MCS,mcs5_cm_teacher_survey,eq13d,S5 TS Autism: reason for CM's SEN,3.0,Don't know
+849255,MCS,mcs5_cm_teacher_survey,eq13e,S5 TS Behavioural probelms : reason for CM's SEN,-8.0,Blank
+849256,MCS,mcs5_cm_teacher_survey,eq13e,S5 TS Behavioural probelms : reason for CM's SEN,-1.0,Not applicable
+849257,MCS,mcs5_cm_teacher_survey,eq13e,S5 TS Behavioural probelms : reason for CM's SEN,1.0,Yes
+849258,MCS,mcs5_cm_teacher_survey,eq13e,S5 TS Behavioural probelms : reason for CM's SEN,2.0,No
+849259,MCS,mcs5_cm_teacher_survey,eq13e,S5 TS Behavioural probelms : reason for CM's SEN,3.0,Don't know
+849260,MCS,mcs5_cm_teacher_survey,eq13f,S5 TS Problems with speech or language : reason for CM's SEN,-8.0,Blank
+849261,MCS,mcs5_cm_teacher_survey,eq13f,S5 TS Problems with speech or language : reason for CM's SEN,-1.0,Not applicable
+849262,MCS,mcs5_cm_teacher_survey,eq13f,S5 TS Problems with speech or language : reason for CM's SEN,1.0,Yes
+849263,MCS,mcs5_cm_teacher_survey,eq13f,S5 TS Problems with speech or language : reason for CM's SEN,2.0,No
+849264,MCS,mcs5_cm_teacher_survey,eq13f,S5 TS Problems with speech or language : reason for CM's SEN,3.0,Don't know
+849265,MCS,mcs5_cm_teacher_survey,eq13g,S5 TS Problems with sight: reason for CM's SEN,-8.0,Blank
+849266,MCS,mcs5_cm_teacher_survey,eq13g,S5 TS Problems with sight: reason for CM's SEN,-1.0,Not applicable
+849267,MCS,mcs5_cm_teacher_survey,eq13g,S5 TS Problems with sight: reason for CM's SEN,1.0,Yes
+849268,MCS,mcs5_cm_teacher_survey,eq13g,S5 TS Problems with sight: reason for CM's SEN,2.0,No
+849269,MCS,mcs5_cm_teacher_survey,eq13g,S5 TS Problems with sight: reason for CM's SEN,3.0,Don't know
+849270,MCS,mcs5_cm_teacher_survey,eq13h,S5 TS Problems with hearing: reason for CM's SEN,-8.0,Blank
+849271,MCS,mcs5_cm_teacher_survey,eq13h,S5 TS Problems with hearing: reason for CM's SEN,-1.0,Not applicable
+849272,MCS,mcs5_cm_teacher_survey,eq13h,S5 TS Problems with hearing: reason for CM's SEN,1.0,Yes
+849273,MCS,mcs5_cm_teacher_survey,eq13h,S5 TS Problems with hearing: reason for CM's SEN,2.0,No
+849274,MCS,mcs5_cm_teacher_survey,eq13h,S5 TS Problems with hearing: reason for CM's SEN,3.0,Don't know
+849275,MCS,mcs5_cm_teacher_survey,eq13i,S5 TS Other physical disability: reason for CM's SEN,-8.0,Blank
+849276,MCS,mcs5_cm_teacher_survey,eq13i,S5 TS Other physical disability: reason for CM's SEN,-1.0,Not applicable
+849277,MCS,mcs5_cm_teacher_survey,eq13i,S5 TS Other physical disability: reason for CM's SEN,1.0,Yes
+849278,MCS,mcs5_cm_teacher_survey,eq13i,S5 TS Other physical disability: reason for CM's SEN,2.0,No
+849279,MCS,mcs5_cm_teacher_survey,eq13i,S5 TS Other physical disability: reason for CM's SEN,3.0,Don't know
+849280,MCS,mcs5_cm_teacher_survey,eq13j,S5 TS Medical or health problem: reason for CM's SEN,-8.0,Blank
+849281,MCS,mcs5_cm_teacher_survey,eq13j,S5 TS Medical or health problem: reason for CM's SEN,-1.0,Not applicable
+849282,MCS,mcs5_cm_teacher_survey,eq13j,S5 TS Medical or health problem: reason for CM's SEN,1.0,Yes
+849283,MCS,mcs5_cm_teacher_survey,eq13j,S5 TS Medical or health problem: reason for CM's SEN,2.0,No
+849284,MCS,mcs5_cm_teacher_survey,eq13j,S5 TS Medical or health problem: reason for CM's SEN,3.0,Don't know
+849285,MCS,mcs5_cm_teacher_survey,eq13k,S5 TS Mental illness: reason for CM's SEN,2.0,No
+849286,MCS,mcs5_cm_teacher_survey,eq13k,S5 TS Mental illness: reason for CM's SEN,3.0,Don't know
+849287,MCS,mcs5_cm_teacher_survey,eq13k,S5 TS Mental illness: reason for CM's SEN,-8.0,Blank
+849288,MCS,mcs5_cm_teacher_survey,eq13k,S5 TS Mental illness: reason for CM's SEN,-1.0,Not applicable
+849289,MCS,mcs5_cm_teacher_survey,eq13k,S5 TS Mental illness: reason for CM's SEN,1.0,Yes
+849290,MCS,mcs5_cm_teacher_survey,eq13l,S5 TS Gifted/High IQ/More able and talented/Highly able: reason for CM's SEN,-8.0,Blank
+849291,MCS,mcs5_cm_teacher_survey,eq13l,S5 TS Gifted/High IQ/More able and talented/Highly able: reason for CM's SEN,-1.0,Not applicable
+849292,MCS,mcs5_cm_teacher_survey,eq13l,S5 TS Gifted/High IQ/More able and talented/Highly able: reason for CM's SEN,1.0,Yes
+849293,MCS,mcs5_cm_teacher_survey,eq13l,S5 TS Gifted/High IQ/More able and talented/Highly able: reason for CM's SEN,2.0,No
+849294,MCS,mcs5_cm_teacher_survey,eq13l,S5 TS Gifted/High IQ/More able and talented/Highly able: reason for CM's SEN,3.0,Don't know
+849295,MCS,mcs5_cm_teacher_survey,eq13m,S5 TS Other: reason for CM's SEN,-8.0,Blank
+849296,MCS,mcs5_cm_teacher_survey,eq13m,S5 TS Other: reason for CM's SEN,-1.0,Not applicable
+849297,MCS,mcs5_cm_teacher_survey,eq13m,S5 TS Other: reason for CM's SEN,1.0,Yes
+849298,MCS,mcs5_cm_teacher_survey,eq13m,S5 TS Other: reason for CM's SEN,2.0,No
+849299,MCS,mcs5_cm_teacher_survey,eq13m,S5 TS Other: reason for CM's SEN,3.0,Don't know
+849300,MCS,mcs5_cm_teacher_survey,eq13n,S5 TS English as other language: reason for CM's SEN,-8.0,"Blank, Don't know"
+849301,MCS,mcs5_cm_teacher_survey,eq13n,S5 TS English as other language: reason for CM's SEN,-1.0,Not applicable
+849302,MCS,mcs5_cm_teacher_survey,eq13n,S5 TS English as other language: reason for CM's SEN,1.0,Yes
+849303,MCS,mcs5_cm_teacher_survey,eq13n,S5 TS English as other language: reason for CM's SEN,2.0,No
+849304,MCS,mcs5_cm_teacher_survey,eq13r,S5 TS Downs Syndrome: reason for CM's SEN,-8.0,"Blank, Don't know"
+849305,MCS,mcs5_cm_teacher_survey,eq13r,S5 TS Downs Syndrome: reason for CM's SEN,-1.0,Not applicable
+849306,MCS,mcs5_cm_teacher_survey,eq13r,S5 TS Downs Syndrome: reason for CM's SEN,1.0,Yes
+849307,MCS,mcs5_cm_teacher_survey,eq13r,S5 TS Downs Syndrome: reason for CM's SEN,2.0,No
+849308,MCS,mcs5_cm_teacher_survey,eq13s,S5 TS Reading difficulties: reason for CM's SEN,-8.0,"Blank, Don't know"
+849309,MCS,mcs5_cm_teacher_survey,eq13s,S5 TS Reading difficulties: reason for CM's SEN,-1.0,Not applicable
+849310,MCS,mcs5_cm_teacher_survey,eq13s,S5 TS Reading difficulties: reason for CM's SEN,1.0,Yes
+849311,MCS,mcs5_cm_teacher_survey,eq13s,S5 TS Reading difficulties: reason for CM's SEN,2.0,No
+849312,MCS,mcs5_cm_teacher_survey,eq13t,S5 TS Development delays: reason for CM's SEN,-8.0,"Blank, Don't know"
+849313,MCS,mcs5_cm_teacher_survey,eq13t,S5 TS Development delays: reason for CM's SEN,-1.0,Not applicable
+849314,MCS,mcs5_cm_teacher_survey,eq13t,S5 TS Development delays: reason for CM's SEN,1.0,Yes
+849315,MCS,mcs5_cm_teacher_survey,eq13t,S5 TS Development delays: reason for CM's SEN,2.0,No
+849316,MCS,mcs5_cm_teacher_survey,eq13u,S5 TS Behind in studies: reason for CM's SEN,-8.0,"Blank, Don't know"
+849317,MCS,mcs5_cm_teacher_survey,eq13u,S5 TS Behind in studies: reason for CM's SEN,-1.0,Not applicable
+849318,MCS,mcs5_cm_teacher_survey,eq13u,S5 TS Behind in studies: reason for CM's SEN,1.0,Yes
+849319,MCS,mcs5_cm_teacher_survey,eq13u,S5 TS Behind in studies: reason for CM's SEN,2.0,No
+849320,MCS,mcs5_cm_teacher_survey,eq13v,S5 TS Poor communication skills: reason for CM's SEN,-8.0,"Blank, Don't know"
+849321,MCS,mcs5_cm_teacher_survey,eq13v,S5 TS Poor communication skills: reason for CM's SEN,-1.0,Not applicable
+849322,MCS,mcs5_cm_teacher_survey,eq13v,S5 TS Poor communication skills: reason for CM's SEN,1.0,Yes
+849323,MCS,mcs5_cm_teacher_survey,eq13v,S5 TS Poor communication skills: reason for CM's SEN,2.0,No
+849324,MCS,mcs5_cm_teacher_survey,eq13w,S5 TS Poor concetration skills: reason for CM's SEN,-8.0,"Blank, Don't know"
+849325,MCS,mcs5_cm_teacher_survey,eq13w,S5 TS Poor concetration skills: reason for CM's SEN,-1.0,Not applicable
+849326,MCS,mcs5_cm_teacher_survey,eq13w,S5 TS Poor concetration skills: reason for CM's SEN,1.0,Yes
+849327,MCS,mcs5_cm_teacher_survey,eq13w,S5 TS Poor concetration skills: reason for CM's SEN,2.0,No
+849328,MCS,mcs5_cm_teacher_survey,eq13x,S5 TS Auditory processing disorder: reason for CM's SEN,-8.0,"Blank, Don't know"
+849329,MCS,mcs5_cm_teacher_survey,eq13x,S5 TS Auditory processing disorder: reason for CM's SEN,-1.0,Not applicable
+849330,MCS,mcs5_cm_teacher_survey,eq13x,S5 TS Auditory processing disorder: reason for CM's SEN,1.0,Yes
+849331,MCS,mcs5_cm_teacher_survey,eq13x,S5 TS Auditory processing disorder: reason for CM's SEN,2.0,No
+849332,MCS,mcs5_cm_teacher_survey,eq13y,S5 TS Confidence etc: reason for CM's SEN,-8.0,"Blank, Don't know"
+849333,MCS,mcs5_cm_teacher_survey,eq13y,S5 TS Confidence etc: reason for CM's SEN,-1.0,Not applicable
+849334,MCS,mcs5_cm_teacher_survey,eq13y,S5 TS Confidence etc: reason for CM's SEN,1.0,Yes
+849335,MCS,mcs5_cm_teacher_survey,eq13y,S5 TS Confidence etc: reason for CM's SEN,2.0,No
+849336,MCS,mcs5_cm_teacher_survey,eq13z,S5 TS Family problems : reason for CM's SEN,-8.0,"Blank, Don't know"
+849337,MCS,mcs5_cm_teacher_survey,eq13z,S5 TS Family problems : reason for CM's SEN,-1.0,Not applicable
+849338,MCS,mcs5_cm_teacher_survey,eq13z,S5 TS Family problems : reason for CM's SEN,1.0,Yes
+849339,MCS,mcs5_cm_teacher_survey,eq13z,S5 TS Family problems : reason for CM's SEN,2.0,No
+849340,MCS,mcs5_cm_teacher_survey,eq13aa,S5 TS Handwriting etc  : reason for CM's SEN,-8.0,"Blank, Don't know"
+849341,MCS,mcs5_cm_teacher_survey,eq13aa,S5 TS Handwriting etc  : reason for CM's SEN,-1.0,Not applicable
+849342,MCS,mcs5_cm_teacher_survey,eq13aa,S5 TS Handwriting etc  : reason for CM's SEN,1.0,Yes
+849343,MCS,mcs5_cm_teacher_survey,eq13aa,S5 TS Handwriting etc  : reason for CM's SEN,2.0,No
+849344,MCS,mcs5_cm_teacher_survey,eq13bb,S5 TS Maths or numeracy : reason for CM's SEN,-8.0,"Blank, Don't know"
+849345,MCS,mcs5_cm_teacher_survey,eq13bb,S5 TS Maths or numeracy : reason for CM's SEN,-1.0,Not applicable
+849346,MCS,mcs5_cm_teacher_survey,eq13bb,S5 TS Maths or numeracy : reason for CM's SEN,1.0,Yes
+849347,MCS,mcs5_cm_teacher_survey,eq13bb,S5 TS Maths or numeracy : reason for CM's SEN,2.0,No
+849348,MCS,mcs5_cm_teacher_survey,eq13cc,S5 TS Poor motor skills: reason for CM's SEN,-8.0,"Blank, Don't know"
+849349,MCS,mcs5_cm_teacher_survey,eq13cc,S5 TS Poor motor skills: reason for CM's SEN,-1.0,Not applicable
+849350,MCS,mcs5_cm_teacher_survey,eq13cc,S5 TS Poor motor skills: reason for CM's SEN,1.0,Yes
+849351,MCS,mcs5_cm_teacher_survey,eq13cc,S5 TS Poor motor skills: reason for CM's SEN,2.0,No
+849352,MCS,mcs5_cm_teacher_survey,eq13dd,S5 TS Poor short terms memory: reason for CM's SEN,-8.0,"Blank, Don't know"
+849353,MCS,mcs5_cm_teacher_survey,eq13dd,S5 TS Poor short terms memory: reason for CM's SEN,-1.0,Not applicable
+849354,MCS,mcs5_cm_teacher_survey,eq13dd,S5 TS Poor short terms memory: reason for CM's SEN,1.0,Yes
+849355,MCS,mcs5_cm_teacher_survey,eq13dd,S5 TS Poor short terms memory: reason for CM's SEN,2.0,No
+849356,MCS,mcs5_cm_teacher_survey,eq13ee,S5 TS Irrelevant answer,-8.0,"Blank, Don't know"
+849357,MCS,mcs5_cm_teacher_survey,eq13ee,S5 TS Irrelevant answer,-1.0,Not applicable
+849358,MCS,mcs5_cm_teacher_survey,eq13ee,S5 TS Irrelevant answer,1.0,Yes
+849359,MCS,mcs5_cm_teacher_survey,eq13ee,S5 TS Irrelevant answer,2.0,No
+849360,MCS,mcs5_cm_teacher_survey,eq1401,S5 TS Help or support at school: Individual support in class from teacher,-8.0,Blank
+849361,MCS,mcs5_cm_teacher_survey,eq1401,S5 TS Help or support at school: Individual support in class from teacher,0.0,No
+849362,MCS,mcs5_cm_teacher_survey,eq1401,S5 TS Help or support at school: Individual support in class from teacher,1.0,Yes
+849363,MCS,mcs5_cm_teacher_survey,eq1402,S5 TS Help or support at school:Individual support in class from family member,-8.0,Blank
+849364,MCS,mcs5_cm_teacher_survey,eq1402,S5 TS Help or support at school:Individual support in class from family member,0.0,No
+849365,MCS,mcs5_cm_teacher_survey,eq1402,S5 TS Help or support at school:Individual support in class from family member,1.0,Yes
+849366,MCS,mcs5_cm_teacher_survey,eq1403,S5 TS Help or support at school: Special classes,-8.0,Blank
+849367,MCS,mcs5_cm_teacher_survey,eq1403,S5 TS Help or support at school: Special classes,0.0,No
+849368,MCS,mcs5_cm_teacher_survey,eq1403,S5 TS Help or support at school: Special classes,1.0,Yes
+849369,MCS,mcs5_cm_teacher_survey,eq1404,S5 TS Help or support at school: Adaptations made to physical environment,-8.0,Blank
+849370,MCS,mcs5_cm_teacher_survey,eq1404,S5 TS Help or support at school: Adaptations made to physical environment,0.0,No
+849371,MCS,mcs5_cm_teacher_survey,eq1404,S5 TS Help or support at school: Adaptations made to physical environment,1.0,Yes
+849372,MCS,mcs5_cm_teacher_survey,eq1405,S5 TS Help or support at school: Equipment has been provided,-8.0,Blank
+849373,MCS,mcs5_cm_teacher_survey,eq1405,S5 TS Help or support at school: Equipment has been provided,0.0,No
+849374,MCS,mcs5_cm_teacher_survey,eq1405,S5 TS Help or support at school: Equipment has been provided,1.0,Yes
+849375,MCS,mcs5_cm_teacher_survey,eq1406,S5 TS Help or support at school: Attends a special school,-8.0,Blank
+849376,MCS,mcs5_cm_teacher_survey,eq1406,S5 TS Help or support at school: Attends a special school,0.0,No
+849377,MCS,mcs5_cm_teacher_survey,eq1406,S5 TS Help or support at school: Attends a special school,1.0,Yes
+849378,MCS,mcs5_cm_teacher_survey,eq1407,S5 TS Help or support at school: School nurse etc,-8.0,Blank
+849379,MCS,mcs5_cm_teacher_survey,eq1407,S5 TS Help or support at school: School nurse etc,0.0,No
+849380,MCS,mcs5_cm_teacher_survey,eq1407,S5 TS Help or support at school: School nurse etc,1.0,Yes
+849381,MCS,mcs5_cm_teacher_survey,eq1408,S5 TS Help or support at school: Child is being assessed,-8.0,Blank
+849382,MCS,mcs5_cm_teacher_survey,eq1408,S5 TS Help or support at school: Child is being assessed,0.0,No
+849383,MCS,mcs5_cm_teacher_survey,eq1408,S5 TS Help or support at school: Child is being assessed,1.0,Yes
+849384,MCS,mcs5_cm_teacher_survey,eq1409,S5 TS Help or support at school: Child attends school with small class size,-8.0,Blank
+849385,MCS,mcs5_cm_teacher_survey,eq1409,S5 TS Help or support at school: Child attends school with small class size,0.0,No
+849386,MCS,mcs5_cm_teacher_survey,eq1409,S5 TS Help or support at school: Child attends school with small class size,1.0,Yes
+849387,MCS,mcs5_cm_teacher_survey,eq1410,S5 TS Help or support at school: Child sits at front of class,-8.0,Blank
+849388,MCS,mcs5_cm_teacher_survey,eq1410,S5 TS Help or support at school: Child sits at front of class,0.0,No
+849389,MCS,mcs5_cm_teacher_survey,eq1410,S5 TS Help or support at school: Child sits at front of class,1.0,Yes
+849390,MCS,mcs5_cm_teacher_survey,eq1411,S5 TS Help or support at school: Attends a specified unit,-8.0,Blank
+849391,MCS,mcs5_cm_teacher_survey,eq1411,S5 TS Help or support at school: Attends a specified unit,0.0,No
+849392,MCS,mcs5_cm_teacher_survey,eq1411,S5 TS Help or support at school: Attends a specified unit,1.0,Yes
+849393,MCS,mcs5_cm_teacher_survey,eq1412,S5 TS Help or support at school: Behaviour support,-8.0,Blank
+849394,MCS,mcs5_cm_teacher_survey,eq1412,S5 TS Help or support at school: Behaviour support,0.0,No
+849395,MCS,mcs5_cm_teacher_survey,eq1412,S5 TS Help or support at school: Behaviour support,1.0,Yes
+849396,MCS,mcs5_cm_teacher_survey,eq1413,S5 TS Help or support at school: Counselling,-8.0,Blank
+849397,MCS,mcs5_cm_teacher_survey,eq1413,S5 TS Help or support at school: Counselling,0.0,No
+849398,MCS,mcs5_cm_teacher_survey,eq1413,S5 TS Help or support at school: Counselling,1.0,Yes
+849399,MCS,mcs5_cm_teacher_survey,eq1414,S5 TS Help or support at school: English,-8.0,Blank
+849400,MCS,mcs5_cm_teacher_survey,eq1414,S5 TS Help or support at school: English,0.0,No
+849401,MCS,mcs5_cm_teacher_survey,eq1414,S5 TS Help or support at school: English,1.0,Yes
+849402,MCS,mcs5_cm_teacher_survey,eq1415,S5 TS Help or support at school: Intervention,-8.0,Blank
+849403,MCS,mcs5_cm_teacher_survey,eq1415,S5 TS Help or support at school: Intervention,0.0,No
+849404,MCS,mcs5_cm_teacher_survey,eq1415,S5 TS Help or support at school: Intervention,1.0,Yes
+849405,MCS,mcs5_cm_teacher_survey,eq1416,S5 TS Help or support at school: Maths,-8.0,Blank
+849406,MCS,mcs5_cm_teacher_survey,eq1416,S5 TS Help or support at school: Maths,0.0,No
+849407,MCS,mcs5_cm_teacher_survey,eq1416,S5 TS Help or support at school: Maths,1.0,Yes
+849408,MCS,mcs5_cm_teacher_survey,eq1417,S5 TS Help or support at school: Mentions of frequency of support,-8.0,Blank
+849409,MCS,mcs5_cm_teacher_survey,eq1417,S5 TS Help or support at school: Mentions of frequency of support,0.0,No
+849410,MCS,mcs5_cm_teacher_survey,eq1417,S5 TS Help or support at school: Mentions of frequency of support,1.0,Yes
+849411,MCS,mcs5_cm_teacher_survey,eq1418,S5 TS Help or support at school: Medical support,-8.0,Blank
+849412,MCS,mcs5_cm_teacher_survey,eq1418,S5 TS Help or support at school: Medical support,0.0,No
+849413,MCS,mcs5_cm_teacher_survey,eq1418,S5 TS Help or support at school: Medical support,1.0,Yes
+849414,MCS,mcs5_cm_teacher_survey,eq1419,S5 TS Help or support at school: Nurture group,-8.0,Blank
+849415,MCS,mcs5_cm_teacher_survey,eq1419,S5 TS Help or support at school: Nurture group,0.0,No
+849416,MCS,mcs5_cm_teacher_survey,eq1419,S5 TS Help or support at school: Nurture group,1.0,Yes
+849417,MCS,mcs5_cm_teacher_survey,eq1420,S5 TS Help or support at school: Pastoral support,-8.0,Blank
+849418,MCS,mcs5_cm_teacher_survey,eq1420,S5 TS Help or support at school: Pastoral support,0.0,No
+849419,MCS,mcs5_cm_teacher_survey,eq1420,S5 TS Help or support at school: Pastoral support,1.0,Yes
+849420,MCS,mcs5_cm_teacher_survey,eq1421,S5 TS Help or support at school: Private ,-8.0,Blank
+849421,MCS,mcs5_cm_teacher_survey,eq1421,S5 TS Help or support at school: Private ,0.0,No
+849422,MCS,mcs5_cm_teacher_survey,eq1421,S5 TS Help or support at school: Private ,1.0,Yes
+849423,MCS,mcs5_cm_teacher_survey,eq1422,S5 TS Help or support at school: Receives support,-8.0,Blank
+849424,MCS,mcs5_cm_teacher_survey,eq1422,S5 TS Help or support at school: Receives support,0.0,No
+849425,MCS,mcs5_cm_teacher_survey,eq1422,S5 TS Help or support at school: Receives support,1.0,Yes
+849426,MCS,mcs5_cm_teacher_survey,eq1423,S5 TS Help or support at school: Specific behaviour problem,-8.0,Blank
+849427,MCS,mcs5_cm_teacher_survey,eq1423,S5 TS Help or support at school: Specific behaviour problem,0.0,No
+849428,MCS,mcs5_cm_teacher_survey,eq1423,S5 TS Help or support at school: Specific behaviour problem,1.0,Yes
+849429,MCS,mcs5_cm_teacher_survey,eq1424,S5 TS Help or support at school: Support from an adult,-8.0,Blank
+849430,MCS,mcs5_cm_teacher_survey,eq1424,S5 TS Help or support at school: Support from an adult,0.0,No
+849431,MCS,mcs5_cm_teacher_survey,eq1424,S5 TS Help or support at school: Support from an adult,1.0,Yes
+849432,MCS,mcs5_cm_teacher_survey,eq1425,S5 TS Help or support at school: Support from a youth worker,-8.0,Blank
+849433,MCS,mcs5_cm_teacher_survey,eq1425,S5 TS Help or support at school: Support from a youth worker,0.0,No
+849434,MCS,mcs5_cm_teacher_survey,eq1425,S5 TS Help or support at school: Support from a youth worker,1.0,Yes
+849435,MCS,mcs5_cm_teacher_survey,eq1426,S5 TS Help or support at school: Support from CAMHS,-8.0,Blank
+849436,MCS,mcs5_cm_teacher_survey,eq1426,S5 TS Help or support at school: Support from CAMHS,0.0,No
+849437,MCS,mcs5_cm_teacher_survey,eq1426,S5 TS Help or support at school: Support from CAMHS,1.0,Yes
+849438,MCS,mcs5_cm_teacher_survey,eq1427,S5 TS Help or support at school: Support from teacher,-8.0,Blank
+849439,MCS,mcs5_cm_teacher_survey,eq1427,S5 TS Help or support at school: Support from teacher,0.0,No
+849440,MCS,mcs5_cm_teacher_survey,eq1427,S5 TS Help or support at school: Support from teacher,1.0,Yes
+849441,MCS,mcs5_cm_teacher_survey,eq1428,S5 TS Help or support at school: Support out of class,-8.0,Blank
+849442,MCS,mcs5_cm_teacher_survey,eq1428,S5 TS Help or support at school: Support out of class,0.0,No
+849443,MCS,mcs5_cm_teacher_survey,eq1428,S5 TS Help or support at school: Support out of class,1.0,Yes
+849444,MCS,mcs5_cm_teacher_survey,eq1429,S5 TS Help or support at school: Support in class,-8.0,Blank
+849445,MCS,mcs5_cm_teacher_survey,eq1429,S5 TS Help or support at school: Support in class,0.0,No
+849446,MCS,mcs5_cm_teacher_survey,eq1429,S5 TS Help or support at school: Support in class,1.0,Yes
+849447,MCS,mcs5_cm_teacher_survey,eq1430,S5 TS Help or support at school: Support in a group,-8.0,Blank
+849448,MCS,mcs5_cm_teacher_survey,eq1430,S5 TS Help or support at school: Support in a group,0.0,No
+849449,MCS,mcs5_cm_teacher_survey,eq1430,S5 TS Help or support at school: Support in a group,1.0,Yes
+849450,MCS,mcs5_cm_teacher_survey,eq1431,S5 TS Help or support at school: Support with a learning mentor,-8.0,Blank
+849451,MCS,mcs5_cm_teacher_survey,eq1431,S5 TS Help or support at school: Support with a learning mentor,0.0,No
+849452,MCS,mcs5_cm_teacher_survey,eq1431,S5 TS Help or support at school: Support with a learning mentor,1.0,Yes
+849453,MCS,mcs5_cm_teacher_survey,eq1432,S5 TS Help or support at school: Tuition,-8.0,Blank
+849454,MCS,mcs5_cm_teacher_survey,eq1432,S5 TS Help or support at school: Tuition,0.0,No
+849455,MCS,mcs5_cm_teacher_survey,eq1432,S5 TS Help or support at school: Tuition,1.0,Yes
+849456,MCS,mcs5_cm_teacher_survey,eq1433,S5 TS Help or support at school: Vague,-8.0,Blank
+849457,MCS,mcs5_cm_teacher_survey,eq1433,S5 TS Help or support at school: Vague,0.0,No
+849458,MCS,mcs5_cm_teacher_survey,eq1433,S5 TS Help or support at school: Vague,1.0,Yes
+849459,MCS,mcs5_cm_teacher_survey,eq1434,S5 TS Help or support at school: Other,-8.0,Blank
+849460,MCS,mcs5_cm_teacher_survey,eq1434,S5 TS Help or support at school: Other,0.0,No
+849461,MCS,mcs5_cm_teacher_survey,eq1434,S5 TS Help or support at school: Other,1.0,Yes
+849462,MCS,mcs5_cm_teacher_survey,eq1435,S5 TS Help or support at school: No help,-8.0,Blank
+849463,MCS,mcs5_cm_teacher_survey,eq1435,S5 TS Help or support at school: No help,0.0,No
+849464,MCS,mcs5_cm_teacher_survey,eq1435,S5 TS Help or support at school: No help,1.0,Yes
+849465,MCS,mcs5_cm_teacher_survey,eq1436,S5 TS Help or support at school: Don't know,-8.0,Blank
+849466,MCS,mcs5_cm_teacher_survey,eq1436,S5 TS Help or support at school: Don't know,0.0,No
+849467,MCS,mcs5_cm_teacher_survey,eq1436,S5 TS Help or support at school: Don't know,1.0,Yes
+849468,MCS,mcs5_cm_teacher_survey,eq1437,S5 TS Help or support at school: Refused,-8.0,Blank
+849469,MCS,mcs5_cm_teacher_survey,eq1437,S5 TS Help or support at school: Refused,0.0,No
+849470,MCS,mcs5_cm_teacher_survey,eq1437,S5 TS Help or support at school: Refused,1.0,Yes
+849471,MCS,mcs5_cm_teacher_survey,eq15,S5 TS CMs friends misbehaviour,-8.0,"Blank,Don't know"
+849472,MCS,mcs5_cm_teacher_survey,eq15,S5 TS CMs friends misbehaviour,1.0,More likely than most children
+849473,MCS,mcs5_cm_teacher_survey,eq15,S5 TS CMs friends misbehaviour,2.0,As likely as most children
+849474,MCS,mcs5_cm_teacher_survey,eq15,S5 TS CMs friends misbehaviour,3.0,Less likely than most children
+849475,MCS,mcs5_cm_teacher_survey,eq16,S5 TS CMs friends ability,-9.0,Refused
+849476,MCS,mcs5_cm_teacher_survey,eq16,S5 TS CMs friends ability,-8.0,"Blank, Don't know"
+849477,MCS,mcs5_cm_teacher_survey,eq16,S5 TS CMs friends ability,1.0,More able academically
+849478,MCS,mcs5_cm_teacher_survey,eq16,S5 TS CMs friends ability,2.0,Of a similar academic ability
+849479,MCS,mcs5_cm_teacher_survey,eq16,S5 TS CMs friends ability,3.0,Less able academically
+849480,MCS,mcs5_cm_teacher_survey,eq17a,S5 TS CM hurt or picked on by others,-8.0,"Blank, Don't know"
+849481,MCS,mcs5_cm_teacher_survey,eq17a,S5 TS CM hurt or picked on by others,1.0,Most days
+849482,MCS,mcs5_cm_teacher_survey,eq17a,S5 TS CM hurt or picked on by others,2.0,About once a week
+849483,MCS,mcs5_cm_teacher_survey,eq17a,S5 TS CM hurt or picked on by others,3.0,About once a month
+849484,MCS,mcs5_cm_teacher_survey,eq17a,S5 TS CM hurt or picked on by others,4.0,Every few months
+849485,MCS,mcs5_cm_teacher_survey,eq17a,S5 TS CM hurt or picked on by others,5.0,Less often
+849486,MCS,mcs5_cm_teacher_survey,eq17a,S5 TS CM hurt or picked on by others,6.0,Never
+849487,MCS,mcs5_cm_teacher_survey,eq17b,S5 TS CM hurt or picked on others,-8.0,"Blank, Don't know"
+849488,MCS,mcs5_cm_teacher_survey,eq17b,S5 TS CM hurt or picked on others,1.0,Most days
+849489,MCS,mcs5_cm_teacher_survey,eq17b,S5 TS CM hurt or picked on others,2.0,About once a week
+849490,MCS,mcs5_cm_teacher_survey,eq17b,S5 TS CM hurt or picked on others,3.0,About once a month
+849491,MCS,mcs5_cm_teacher_survey,eq17b,S5 TS CM hurt or picked on others,4.0,Every few months
+849492,MCS,mcs5_cm_teacher_survey,eq17b,S5 TS CM hurt or picked on others,5.0,Less often
+849493,MCS,mcs5_cm_teacher_survey,eq17b,S5 TS CM hurt or picked on others,6.0,Never
+849494,MCS,mcs5_cm_teacher_survey,eq18,S5 TS CM Prepared for secondary school,-8.0,"Blank, Don't know"
+849495,MCS,mcs5_cm_teacher_survey,eq18,S5 TS CM Prepared for secondary school,1.0,Very well prepared
+849496,MCS,mcs5_cm_teacher_survey,eq18,S5 TS CM Prepared for secondary school,2.0,Quite well prepared
+849497,MCS,mcs5_cm_teacher_survey,eq18,S5 TS CM Prepared for secondary school,3.0,Not very well prepared
+849498,MCS,mcs5_cm_teacher_survey,eq18,S5 TS CM Prepared for secondary school,4.0,Not at all prepared
+849499,MCS,mcs5_cm_teacher_survey,eq18,S5 TS CM Prepared for secondary school,5.0,Not moving to secondary school
+849500,MCS,mcs5_cm_teacher_survey,eq19a,S5 TS How likely CM will stay on after age 16,-8.0,"Blank, Don't know"
+849501,MCS,mcs5_cm_teacher_survey,eq19a,S5 TS How likely CM will stay on after age 16,1.0,Very likely
+849502,MCS,mcs5_cm_teacher_survey,eq19a,S5 TS How likely CM will stay on after age 16,2.0,Fairly likely
+849503,MCS,mcs5_cm_teacher_survey,eq19a,S5 TS How likely CM will stay on after age 16,3.0,Not very likely
+849504,MCS,mcs5_cm_teacher_survey,eq19a,S5 TS How likely CM will stay on after age 16,4.0,Not at all likely
+849505,MCS,mcs5_cm_teacher_survey,eq19b,S5 TS How likely CM will go to university,-8.0,"Blank, Don't know"
+849506,MCS,mcs5_cm_teacher_survey,eq19b,S5 TS How likely CM will go to university,1.0,Very likely
+849507,MCS,mcs5_cm_teacher_survey,eq19b,S5 TS How likely CM will go to university,2.0,Fairly likely
+849508,MCS,mcs5_cm_teacher_survey,eq19b,S5 TS How likely CM will go to university,3.0,Not very likely
+849509,MCS,mcs5_cm_teacher_survey,eq19b,S5 TS How likely CM will go to university,4.0,Not at all likely
+849510,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,-8.0,Blank
+849511,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,1.0,Very interested
+849512,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,2.0,Fairly interested
+849513,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,3.0,Neither interested or uninterested
+849514,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,4.0,Fairly uninterested
+849515,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,5.0,Very uninterested
+849516,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,6.0,Cannot say
+849517,MCS,mcs5_cm_teacher_survey,eq20a,S5 TS How interested CM's mother appears to be in their education,7.0,No mother figure
+849518,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,-8.0,Blank
+849519,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,1.0,Very interested
+849520,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,2.0,Fairly interested
+849521,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,3.0,Neither interested or uninterested
+849522,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,4.0,Fairly uninterested
+849523,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,5.0,Very uninterested
+849524,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,6.0,Cannot say
+849525,MCS,mcs5_cm_teacher_survey,eq20b,S5 TS How interested CM's father appears to be in their education,7.0,No father figure
+849526,MCS,mcs5_cm_teacher_survey,eq21,S5 TS In this childs year,-8.0,"Blank, Don't know"
+849527,MCS,mcs5_cm_teacher_survey,eq21,S5 TS In this childs year,1.0,Yes
+849528,MCS,mcs5_cm_teacher_survey,eq21,S5 TS In this childs year,2.0,No
+849529,MCS,mcs5_cm_teacher_survey,eq22,S5 TS How many streams are there in this childs year,-1.0,Not applicable
+849530,MCS,mcs5_cm_teacher_survey,eq23,S5 TS Which stream is this child in,-9.0,Refused
+849531,MCS,mcs5_cm_teacher_survey,eq23,S5 TS Which stream is this child in,-8.0,"Blank, Don't know"
+849532,MCS,mcs5_cm_teacher_survey,eq23,S5 TS Which stream is this child in,-1.0,Not applicable
+849533,MCS,mcs5_cm_teacher_survey,eq23,S5 TS Which stream is this child in,1.0,Highest
+849534,MCS,mcs5_cm_teacher_survey,eq23,S5 TS Which stream is this child in,2.0,Middle
+849535,MCS,mcs5_cm_teacher_survey,eq23,S5 TS Which stream is this child in,3.0,Lowest
+849536,MCS,mcs5_cm_teacher_survey,eq24,S5 TS In this childs year are there sets for English,-8.0,"Blank, Don't know"
+849537,MCS,mcs5_cm_teacher_survey,eq24,S5 TS In this childs year are there sets for English,1.0,Yes
+849538,MCS,mcs5_cm_teacher_survey,eq24,S5 TS In this childs year are there sets for English,2.0,No
+849539,MCS,mcs5_cm_teacher_survey,eq25,S5 TS How many sets are there in this childs year for English,-8.0,Blank
+849540,MCS,mcs5_cm_teacher_survey,eq25,S5 TS How many sets are there in this childs year for English,-1.0,Not applicable
+849541,MCS,mcs5_cm_teacher_survey,eq26,S5 TS Which set is this child in for English,-8.0,"Blank, Don't know"
+849542,MCS,mcs5_cm_teacher_survey,eq26,S5 TS Which set is this child in for English,-1.0,Not applicable
+849543,MCS,mcs5_cm_teacher_survey,eq26,S5 TS Which set is this child in for English,1.0,Highest
+849544,MCS,mcs5_cm_teacher_survey,eq26,S5 TS Which set is this child in for English,2.0,Middle
+849545,MCS,mcs5_cm_teacher_survey,eq26,S5 TS Which set is this child in for English,3.0,Lowest
+849546,MCS,mcs5_cm_teacher_survey,eq26a,S5 TS In this childs year are there sets for Welsh,-8.0,Blank
+849547,MCS,mcs5_cm_teacher_survey,eq26a,S5 TS In this childs year are there sets for Welsh,-1.0,Not applicable
+849548,MCS,mcs5_cm_teacher_survey,eq26a,S5 TS In this childs year are there sets for Welsh,1.0,Yes
+849549,MCS,mcs5_cm_teacher_survey,eq26a,S5 TS In this childs year are there sets for Welsh,2.0,No
+849550,MCS,mcs5_cm_teacher_survey,eq26b,S5 TS How many sets are there in this childs year for Welsh,-8.0,Blank
+849551,MCS,mcs5_cm_teacher_survey,eq26b,S5 TS How many sets are there in this childs year for Welsh,-1.0,Not applicable
+849552,MCS,mcs5_cm_teacher_survey,eq26c,S5 TS Which set is this child in for Welsh,-1.0,Not applicable
+849553,MCS,mcs5_cm_teacher_survey,eq26c,S5 TS Which set is this child in for Welsh,1.0,Highest
+849554,MCS,mcs5_cm_teacher_survey,eq26c,S5 TS Which set is this child in for Welsh,2.0,Middle
+849555,MCS,mcs5_cm_teacher_survey,eq26c,S5 TS Which set is this child in for Welsh,3.0,Lowest
+849556,MCS,mcs5_cm_teacher_survey,eq27,S5 TS In this childs year are there sets for Maths,-8.0,"Blank, Don't know"
+849557,MCS,mcs5_cm_teacher_survey,eq27,S5 TS In this childs year are there sets for Maths,1.0,Yes
+849558,MCS,mcs5_cm_teacher_survey,eq27,S5 TS In this childs year are there sets for Maths,2.0,No
+849559,MCS,mcs5_cm_teacher_survey,eq28,S5 TS How many sets are there in this childs year for Maths,-8.0,Blank
+849560,MCS,mcs5_cm_teacher_survey,eq28,S5 TS How many sets are there in this childs year for Maths,-1.0,Not applicable
+849561,MCS,mcs5_cm_teacher_survey,eq29,S5 TS Which set is this child in for Maths,-8.0,"Blank, Don't know"
+849562,MCS,mcs5_cm_teacher_survey,eq29,S5 TS Which set is this child in for Maths,-1.0,Not applicable
+849563,MCS,mcs5_cm_teacher_survey,eq29,S5 TS Which set is this child in for Maths,1.0,Highest
+849564,MCS,mcs5_cm_teacher_survey,eq29,S5 TS Which set is this child in for Maths,2.0,Middle
+849565,MCS,mcs5_cm_teacher_survey,eq29,S5 TS Which set is this child in for Maths,3.0,Lowest
+849566,MCS,mcs5_cm_teacher_survey,eq30,S5 TS In this childs year are there sets for Science,-8.0,"Blank, Don't know"
+849567,MCS,mcs5_cm_teacher_survey,eq30,S5 TS In this childs year are there sets for Science,1.0,Yes
+849568,MCS,mcs5_cm_teacher_survey,eq30,S5 TS In this childs year are there sets for Science,2.0,No
+849569,MCS,mcs5_cm_teacher_survey,eq31,S5 TS How many sets are there in this childs year for Science,-8.0,Blank
+849570,MCS,mcs5_cm_teacher_survey,eq31,S5 TS How many sets are there in this childs year for Science,-1.0,Not applicable
+849571,MCS,mcs5_cm_teacher_survey,eq32,S5 TS Which set is this child in for Science,-8.0,"Blank, Don't know"
+849572,MCS,mcs5_cm_teacher_survey,eq32,S5 TS Which set is this child in for Science,-1.0,Not applicable
+849573,MCS,mcs5_cm_teacher_survey,eq32,S5 TS Which set is this child in for Science,1.0,Highest
+849574,MCS,mcs5_cm_teacher_survey,eq32,S5 TS Which set is this child in for Science,2.0,Middle
+849575,MCS,mcs5_cm_teacher_survey,eq32,S5 TS Which set is this child in for Science,3.0,Lowest
+849576,MCS,mcs5_cm_teacher_survey,eq33,S5 TS How many children are there on CM's class register,-8.0,"Blank, Don't know"
+849577,MCS,mcs5_cm_teacher_survey,eq34,S5 TS Does CM's class contain mixed year groups,-8.0,Blank
+849578,MCS,mcs5_cm_teacher_survey,eq34,S5 TS Does CM's class contain mixed year groups,1.0,Yes
+849579,MCS,mcs5_cm_teacher_survey,eq34,S5 TS Does CM's class contain mixed year groups,2.0,No
+849580,MCS,mcs5_cm_teacher_survey,eq35,S5 TS How many classes are there in CM's year,-8.0,"Blank, Don't know"
+849581,MCS,mcs5_cm_teacher_survey,eq36,S5 TS How many children in CM's class have SEN,-9.0,Refused
+849582,MCS,mcs5_cm_teacher_survey,eq36,S5 TS How many children in CM's class have SEN,-8.0,"Blank, Don't know"
+849583,MCS,mcs5_cm_teacher_survey,eq37,S5 TS  How many children in CM's class have been excluded from school,-9.0,Refused
+849584,MCS,mcs5_cm_teacher_survey,eq37,S5 TS  How many children in CM's class have been excluded from school,-8.0,"Blank, Don't know"
+849585,MCS,mcs5_cm_teacher_survey,eq38,S5 TS How many children in CM's class have home with an additional language,-9.0,Refused
+849586,MCS,mcs5_cm_teacher_survey,eq38,S5 TS How many children in CM's class have home with an additional language,-8.0,"Blank, Don't know"
+849587,MCS,mcs5_cm_teacher_survey,eq39,S5 TS Any children in CM's class whose behaviour prevents learning,-9.0,Refused
+849588,MCS,mcs5_cm_teacher_survey,eq39,S5 TS Any children in CM's class whose behaviour prevents learning,-8.0,"Blank, Don't know"
+849589,MCS,mcs5_cm_teacher_survey,eq39,S5 TS Any children in CM's class whose behaviour prevents learning,1.0,Yes
+849590,MCS,mcs5_cm_teacher_survey,eq39,S5 TS Any children in CM's class whose behaviour prevents learning,2.0,No
+849591,MCS,mcs5_cm_teacher_survey,eq40,S5 TS How many days in this term has supply cover been used,-9.0,Refused
+849592,MCS,mcs5_cm_teacher_survey,eq40,S5 TS How many days in this term has supply cover been used,-8.0,"Blank, Don't know"
+849593,MCS,mcs5_cm_teacher_survey,eq41a,S5 TS Hours a week are spent teaching CM's class English,-8.0,"Blank, Don't know"
+849594,MCS,mcs5_cm_teacher_survey,eq41b,S5 TS Hours a week are spent teaching CM's class Welsh,-8.0,"Blank, Don't know"
+849595,MCS,mcs5_cm_teacher_survey,eq41c,S5 TS Hours a week are spent teaching CM's class Maths,-8.0,"Blank, Don't know"
+849596,MCS,mcs5_cm_teacher_survey,eq41d,S5 TS Hours a week are spent teaching CM's class Science,-8.0,"Blank, Don't know"
+849597,MCS,mcs5_cm_teacher_survey,eq42,S5 TS Time expected to spend on homework,-8.0,"Blank, Don't know"
+849598,MCS,mcs5_cm_teacher_survey,eq4301,S5 TS Class gets support from: Another teacher (specialist),-8.0,Blank
+849599,MCS,mcs5_cm_teacher_survey,eq4301,S5 TS Class gets support from: Another teacher (specialist),0.0,No
+849600,MCS,mcs5_cm_teacher_survey,eq4301,S5 TS Class gets support from: Another teacher (specialist),1.0,Yes
+849601,MCS,mcs5_cm_teacher_survey,eq4302,S5 TS Class gets support from: Special needs teacher,-8.0,Blank
+849602,MCS,mcs5_cm_teacher_survey,eq4302,S5 TS Class gets support from: Special needs teacher,0.0,No
+849603,MCS,mcs5_cm_teacher_survey,eq4302,S5 TS Class gets support from: Special needs teacher,1.0,Yes
+849604,MCS,mcs5_cm_teacher_survey,eq4303,S5 TS Class gets support from: Teaching assistant,-8.0,Blank
+849605,MCS,mcs5_cm_teacher_survey,eq4303,S5 TS Class gets support from: Teaching assistant,0.0,No
+849606,MCS,mcs5_cm_teacher_survey,eq4303,S5 TS Class gets support from: Teaching assistant,1.0,Yes
+849607,MCS,mcs5_cm_teacher_survey,eq4304,S5 TS Class gets support from: Student teacher,-8.0,Blank
+849608,MCS,mcs5_cm_teacher_survey,eq4304,S5 TS Class gets support from: Student teacher,0.0,No
+849609,MCS,mcs5_cm_teacher_survey,eq4304,S5 TS Class gets support from: Student teacher,1.0,Yes
+849610,MCS,mcs5_cm_teacher_survey,eq4305,S5 TS Class gets support from: Volunteer,-8.0,Blank
+849611,MCS,mcs5_cm_teacher_survey,eq4305,S5 TS Class gets support from: Volunteer,0.0,No
+849612,MCS,mcs5_cm_teacher_survey,eq4305,S5 TS Class gets support from: Volunteer,1.0,Yes
+849613,MCS,mcs5_cm_teacher_survey,eq4306,S5 TS Class gets support from: Parents,-8.0,Blank
+849614,MCS,mcs5_cm_teacher_survey,eq4306,S5 TS Class gets support from: Parents,0.0,No
+849615,MCS,mcs5_cm_teacher_survey,eq4306,S5 TS Class gets support from: Parents,1.0,Yes
+849616,MCS,mcs5_cm_teacher_survey,eq4307,S5 TS Class gets support from: Another teacher (non specialist),-8.0,Blank
+849617,MCS,mcs5_cm_teacher_survey,eq4307,S5 TS Class gets support from: Another teacher (non specialist),0.0,No
+849618,MCS,mcs5_cm_teacher_survey,eq4307,S5 TS Class gets support from: Another teacher (non specialist),1.0,Yes
+849619,MCS,mcs5_cm_teacher_survey,eq4308,S5 TS Class gets support from: Booster groups,-8.0,Blank
+849620,MCS,mcs5_cm_teacher_survey,eq4308,S5 TS Class gets support from: Booster groups,0.0,No
+849621,MCS,mcs5_cm_teacher_survey,eq4308,S5 TS Class gets support from: Booster groups,1.0,Yes
+849622,MCS,mcs5_cm_teacher_survey,eq4309,S5 TS Class gets support from: Cover,-8.0,Blank
+849623,MCS,mcs5_cm_teacher_survey,eq4309,S5 TS Class gets support from: Cover,0.0,No
+849624,MCS,mcs5_cm_teacher_survey,eq4309,S5 TS Class gets support from: Cover,1.0,Yes
+849625,MCS,mcs5_cm_teacher_survey,eq4310,S5 TS Class gets support from: Learning support assistant,-8.0,Blank
+849626,MCS,mcs5_cm_teacher_survey,eq4310,S5 TS Class gets support from: Learning support assistant,0.0,No
+849627,MCS,mcs5_cm_teacher_survey,eq4310,S5 TS Class gets support from: Learning support assistant,1.0,Yes
+849628,MCS,mcs5_cm_teacher_survey,eq4311,S5 TS Class gets support from: Occupational therapist,-8.0,Blank
+849629,MCS,mcs5_cm_teacher_survey,eq4311,S5 TS Class gets support from: Occupational therapist,0.0,No
+849630,MCS,mcs5_cm_teacher_survey,eq4311,S5 TS Class gets support from: Occupational therapist,1.0,Yes
+849631,MCS,mcs5_cm_teacher_survey,eq4312,S5 TS Class gets support from: Physiotherapist,-8.0,Blank
+849632,MCS,mcs5_cm_teacher_survey,eq4312,S5 TS Class gets support from: Physiotherapist,0.0,No
+849633,MCS,mcs5_cm_teacher_survey,eq4312,S5 TS Class gets support from: Physiotherapist,1.0,Yes
+849634,MCS,mcs5_cm_teacher_survey,eq4313,S5 TS Class gets support from: Reading support,-8.0,Blank
+849635,MCS,mcs5_cm_teacher_survey,eq4313,S5 TS Class gets support from: Reading support,0.0,No
+849636,MCS,mcs5_cm_teacher_survey,eq4313,S5 TS Class gets support from: Reading support,1.0,Yes
+849637,MCS,mcs5_cm_teacher_survey,eq4314,S5 TS Class gets support from: Speech,-8.0,Blank
+849638,MCS,mcs5_cm_teacher_survey,eq4314,S5 TS Class gets support from: Speech,0.0,No
+849639,MCS,mcs5_cm_teacher_survey,eq4314,S5 TS Class gets support from: Speech,1.0,Yes
+849640,MCS,mcs5_cm_teacher_survey,eq4315,S5 TS Class gets support from: Tuition,-8.0,Blank
+849641,MCS,mcs5_cm_teacher_survey,eq4315,S5 TS Class gets support from: Tuition,0.0,No
+849642,MCS,mcs5_cm_teacher_survey,eq4315,S5 TS Class gets support from: Tuition,1.0,Yes
+849643,MCS,mcs5_cm_teacher_survey,eq4316,S5 TS Class gets support from: Any other,-8.0,Blank
+849644,MCS,mcs5_cm_teacher_survey,eq4316,S5 TS Class gets support from: Any other,0.0,No
+849645,MCS,mcs5_cm_teacher_survey,eq4316,S5 TS Class gets support from: Any other,1.0,Yes
+849646,MCS,mcs5_cm_teacher_survey,eq4317,S5 TS Class gets support from: None,-8.0,Blank
+849647,MCS,mcs5_cm_teacher_survey,eq4317,S5 TS Class gets support from: None,0.0,No
+849648,MCS,mcs5_cm_teacher_survey,eq4317,S5 TS Class gets support from: None,1.0,Yes
+849649,MCS,mcs5_cm_teacher_survey,eq4318,S5 TS Class gets support from: Don't know,-8.0,Blank
+849650,MCS,mcs5_cm_teacher_survey,eq4318,S5 TS Class gets support from: Don't know,0.0,No
+849651,MCS,mcs5_cm_teacher_survey,eq4318,S5 TS Class gets support from: Don't know,1.0,Yes
+849652,MCS,mcs5_cm_teacher_survey,eq4319,S5 TS Class gets support from: Refused,-8.0,Blank
+849653,MCS,mcs5_cm_teacher_survey,eq4319,S5 TS Class gets support from: Refused,0.0,No
+849654,MCS,mcs5_cm_teacher_survey,eq4319,S5 TS Class gets support from: Refused,1.0,Yes
+849655,MCS,mcs5_cm_teacher_survey,eq44,S5 TS Teacher's gender,-8.0,Blank
+849656,MCS,mcs5_cm_teacher_survey,eq44,S5 TS Teacher's gender,1.0,Male
+849657,MCS,mcs5_cm_teacher_survey,eq44,S5 TS Teacher's gender,2.0,Female
+849658,MCS,mcs5_cm_teacher_survey,eq45,S5 TS Role of survey respondent,-8.0,Blank
+849659,MCS,mcs5_cm_teacher_survey,eq45,S5 TS Role of survey respondent,1.0,Class teacher
+849660,MCS,mcs5_cm_teacher_survey,eq45,S5 TS Role of survey respondent,2.0,Head teacher
+849661,MCS,mcs5_cm_teacher_survey,eq45,S5 TS Role of survey respondent,3.0,Other teacher
+849662,MCS,mcs5_cm_teacher_survey,eq45,S5 TS Role of survey respondent,4.0,Teaching assistant
+849663,MCS,mcs5_cm_teacher_survey,eq45,S5 TS Role of survey respondent,5.0,School administrative assistant
+849664,MCS,mcs5_cm_teacher_survey,eq45,S5 TS Role of survey respondent,6.0,Other
+849665,MCS,mcs5_cm_teacher_survey,eq46,S5 TS Number of years teaching,-8.0,"Blank, Don't know"
+849666,MCS,mcs5_cm_teacher_survey,eq47,S5 TS Years teaching at THIS school,-8.0,"Blank, Don't know"
+849667,MCS,mcs5_cm_teacher_survey,eq4801,S5 TS Qualifications: Higher degree mainly by research,-8.0,Blank
+849668,MCS,mcs5_cm_teacher_survey,eq4801,S5 TS Qualifications: Higher degree mainly by research,0.0,No
+849669,MCS,mcs5_cm_teacher_survey,eq4801,S5 TS Qualifications: Higher degree mainly by research,1.0,Yes
+849670,MCS,mcs5_cm_teacher_survey,eq4802,S5 TS Qualifications: Higher degree mainly by taught course,-8.0,Blank
+849671,MCS,mcs5_cm_teacher_survey,eq4802,S5 TS Qualifications: Higher degree mainly by taught course,0.0,No
+849672,MCS,mcs5_cm_teacher_survey,eq4802,S5 TS Qualifications: Higher degree mainly by taught course,1.0,Yes
+849673,MCS,mcs5_cm_teacher_survey,eq4803,S5 TS Qualifications: Postgraduate Certificate in Education,-8.0,Blank
+849674,MCS,mcs5_cm_teacher_survey,eq4803,S5 TS Qualifications: Postgraduate Certificate in Education,0.0,No
+849675,MCS,mcs5_cm_teacher_survey,eq4803,S5 TS Qualifications: Postgraduate Certificate in Education,1.0,Yes
+849676,MCS,mcs5_cm_teacher_survey,eq4804,S5 TS Qualifications: Other postgraduate diploma or certificate,-8.0,Blank
+849677,MCS,mcs5_cm_teacher_survey,eq4804,S5 TS Qualifications: Other postgraduate diploma or certificate,0.0,No
+849678,MCS,mcs5_cm_teacher_survey,eq4804,S5 TS Qualifications: Other postgraduate diploma or certificate,1.0,Yes
+849679,MCS,mcs5_cm_teacher_survey,eq4805,S5 TS Qualifications: Bachelor of Education (BEd),-8.0,Blank
+849680,MCS,mcs5_cm_teacher_survey,eq4805,S5 TS Qualifications: Bachelor of Education (BEd),0.0,No
+849681,MCS,mcs5_cm_teacher_survey,eq4805,S5 TS Qualifications: Bachelor of Education (BEd),1.0,Yes
+849682,MCS,mcs5_cm_teacher_survey,eq4806,S5 TS Qualifications: Other first degree,-8.0,Blank
+849683,MCS,mcs5_cm_teacher_survey,eq4806,S5 TS Qualifications: Other first degree,0.0,No
+849684,MCS,mcs5_cm_teacher_survey,eq4806,S5 TS Qualifications: Other first degree,1.0,Yes
+849685,MCS,mcs5_cm_teacher_survey,eq4807,S5 TS Qualifications: Teaching diploma or certificate,-8.0,Blank
+849686,MCS,mcs5_cm_teacher_survey,eq4807,S5 TS Qualifications: Teaching diploma or certificate,0.0,No
+849687,MCS,mcs5_cm_teacher_survey,eq4807,S5 TS Qualifications: Teaching diploma or certificate,1.0,Yes
+849688,MCS,mcs5_cm_teacher_survey,eq4808,S5 TS Qualifications: Professional qualification,-8.0,Blank
+849689,MCS,mcs5_cm_teacher_survey,eq4808,S5 TS Qualifications: Professional qualification,0.0,No
+849690,MCS,mcs5_cm_teacher_survey,eq4808,S5 TS Qualifications: Professional qualification,1.0,Yes
+849691,MCS,mcs5_cm_teacher_survey,eq4809,S5 TS Qualifications: None of these,-8.0,Blank
+849692,MCS,mcs5_cm_teacher_survey,eq4809,S5 TS Qualifications: None of these,0.0,No
+849693,MCS,mcs5_cm_teacher_survey,eq4809,S5 TS Qualifications: None of these,1.0,Yes
+849694,MCS,mcs5_cm_teacher_survey,eq4810,S5 TS Qualifications: Do not wish to answer,-8.0,Blank
+849695,MCS,mcs5_cm_teacher_survey,eq4810,S5 TS Qualifications: Do not wish to answer,0.0,No
+849696,MCS,mcs5_cm_teacher_survey,eq4810,S5 TS Qualifications: Do not wish to answer,1.0,Yes
+849697,MCS,mcs5_cm_teacher_survey,eq4811,S5 TS Qualifications: Don't know,-8.0,Blank
+849698,MCS,mcs5_cm_teacher_survey,eq4811,S5 TS Qualifications: Don't know,0.0,No
+849699,MCS,mcs5_cm_teacher_survey,eq4811,S5 TS Qualifications: Don't know,1.0,Yes
+849700,MCS,mcs5_cm_teacher_survey,eq4812,S5 TS Qualifications: Refused,-8.0,Blank
+849701,MCS,mcs5_cm_teacher_survey,eq4812,S5 TS Qualifications: Refused,0.0,No
+849702,MCS,mcs5_cm_teacher_survey,eq4812,S5 TS Qualifications: Refused,1.0,Yes
+849703,MCS,mcs5_cm_teacher_survey,eq4813,S5 TS Qualifications: Blank,-8.0,Blank
+849704,MCS,mcs5_cm_teacher_survey,eq4813,S5 TS Qualifications: Blank,0.0,No
+849705,MCS,mcs5_cm_teacher_survey,eq4813,S5 TS Qualifications: Blank,1.0,Yes
+849706,MCS,mcs5_cm_teacher_survey,eq4814,S5 TS Qualifications: Not applicable,-8.0,Blank
+849707,MCS,mcs5_cm_teacher_survey,eq4814,S5 TS Qualifications: Not applicable,0.0,No
+849708,MCS,mcs5_cm_teacher_survey,eq4814,S5 TS Qualifications: Not applicable,1.0,Yes
+849709,MCS,mcs5_cm_teacher_survey,streamg,S5 DV: If streamed at school and which stream (Grouped),-1.0,Teacher unsure
+849710,MCS,mcs5_cm_teacher_survey,streamg,S5 DV: If streamed at school and which stream (Grouped),0.0,Not streamed
+849711,MCS,mcs5_cm_teacher_survey,streamg,S5 DV: If streamed at school and which stream (Grouped),1.0,Streamed
+849712,MCS,mcs5_cm_teacher_survey,litsetg,S5 DV: Set for English (Grouped),-8.0,D/K if set
+849713,MCS,mcs5_cm_teacher_survey,litsetg,S5 DV: Set for English (Grouped),-7.0,Set but D/K which set
+849714,MCS,mcs5_cm_teacher_survey,litsetg,S5 DV: Set for English (Grouped),0.0,Not set
+849715,MCS,mcs5_cm_teacher_survey,litsetg,S5 DV: Set for English (Grouped),1.0,Set
+849716,MCS,mcs5_cm_teacher_survey,litsetgw,S5 DV: Set for Welsh (Grouped),-8.0,D/K if set
+849717,MCS,mcs5_cm_teacher_survey,litsetgw,S5 DV: Set for Welsh (Grouped),-7.0,Set but D/K which set
+849718,MCS,mcs5_cm_teacher_survey,litsetgw,S5 DV: Set for Welsh (Grouped),0.0,Not set
+849719,MCS,mcs5_cm_teacher_survey,litsetgw,S5 DV: Set for Welsh (Grouped),1.0,Set
+849720,MCS,mcs5_cm_teacher_survey,numsetg,S5 DV: Set for Math (Grouped),-8.0,D/K if set
+849721,MCS,mcs5_cm_teacher_survey,numsetg,S5 DV: Set for Math (Grouped),-7.0,Set but D/K which set
+849722,MCS,mcs5_cm_teacher_survey,numsetg,S5 DV: Set for Math (Grouped),0.0,Not set
+849723,MCS,mcs5_cm_teacher_survey,numsetg,S5 DV: Set for Math (Grouped),1.0,Set
+849724,MCS,mcs5_cm_teacher_survey,scisetg,S5 DV Set for Science (Grouped),-8.0,D/K if set
+849725,MCS,mcs5_cm_teacher_survey,scisetg,S5 DV Set for Science (Grouped),-7.0,Set but D/K which set
+849726,MCS,mcs5_cm_teacher_survey,scisetg,S5 DV Set for Science (Grouped),0.0,Not set
+849727,MCS,mcs5_cm_teacher_survey,scisetg,S5 DV Set for Science (Grouped),1.0,Set
+849728,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,-1.0,D/K if set
+849729,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,0.0,Not set
+849730,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,1.0,Set Maths only
+849731,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,2.0,Set English only
+849732,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,3.0,Set English and Maths only
+849733,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,4.0,Set Science only
+849734,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,5.0,Set Maths and Science only
+849735,MCS,mcs5_cm_teacher_survey,setting,S5 DV: Setting summary,6.0,Set English and Science only
+849736,MCS,mcs5_cm_teacher_survey,streamnumg,S5 DV: Relationship between streaming and numeracy (Grouped),-1.0,Not applicable
+849737,MCS,mcs5_cm_teacher_survey,streamnumg,S5 DV: Relationship between streaming and numeracy (Grouped),0.0,"No stream, no set"
+849738,MCS,mcs5_cm_teacher_survey,streamnumg,S5 DV: Relationship between streaming and numeracy (Grouped),1.0,"No stream, lit set"
+849739,MCS,mcs5_cm_teacher_survey,streamnumg,S5 DV: Relationship between streaming and numeracy (Grouped),2.0,"Stream, no set"
+849740,MCS,mcs5_cm_teacher_survey,streamnumg,S5 DV: Relationship between streaming and numeracy (Grouped),3.0,"Stream, lit set"
+849741,MCS,mcs5_cm_teacher_survey,streamnumg,S5 DV: Relationship between streaming and numeracy (Grouped),4.0,DK if stream OR set
+849742,MCS,mcs5_cm_teacher_survey,streamnumg,S5 DV: Relationship between streaming and numeracy (Grouped),5.0,DK if stream AND set
+849743,MCS,mcs5_cm_teacher_survey,streamlitg,S5 DV: Relationship between streaming and English (Grouped),-1.0,Not applicable
+849744,MCS,mcs5_cm_teacher_survey,streamlitg,S5 DV: Relationship between streaming and English (Grouped),0.0,"No stream, no set"
+849745,MCS,mcs5_cm_teacher_survey,streamlitg,S5 DV: Relationship between streaming and English (Grouped),1.0,"No stream, lit set"
+849746,MCS,mcs5_cm_teacher_survey,streamlitg,S5 DV: Relationship between streaming and English (Grouped),2.0,"Stream, no set"
+849747,MCS,mcs5_cm_teacher_survey,streamlitg,S5 DV: Relationship between streaming and English (Grouped),3.0,"Stream, lit set"
+849748,MCS,mcs5_cm_teacher_survey,streamlitg,S5 DV: Relationship between streaming and English (Grouped),4.0,DK if stream OR set
+849749,MCS,mcs5_cm_teacher_survey,streamlitg,S5 DV: Relationship between streaming and English (Grouped),5.0,DK if stream AND set
+849750,MCS,mcs5_cm_teacher_survey,streamscig,S5 DV: Relationship between streaming and science (Grouped),-1.0,Not applicable
+849751,MCS,mcs5_cm_teacher_survey,streamscig,S5 DV: Relationship between streaming and science (Grouped),0.0,"No stream, no set"
+849752,MCS,mcs5_cm_teacher_survey,streamscig,S5 DV: Relationship between streaming and science (Grouped),1.0,"No stream, sci set"
+849753,MCS,mcs5_cm_teacher_survey,streamscig,S5 DV: Relationship between streaming and science (Grouped),2.0,"Stream, no set"
+849754,MCS,mcs5_cm_teacher_survey,streamscig,S5 DV: Relationship between streaming and science (Grouped),3.0,"Stream, sci set"
+849755,MCS,mcs5_cm_teacher_survey,streamscig,S5 DV: Relationship between streaming and science (Grouped),4.0,DK if stream OR set
+849756,MCS,mcs5_cm_teacher_survey,streamscig,S5 DV: Relationship between streaming and science (Grouped),5.0,DK if stream AND set
+849757,MCS,mcs5_cm_teacher_survey,m5stsc2,S5 DV: Which school year CM in,-1.0,Missing
+849758,MCS,mcs5_cm_teacher_survey,m5stsc2,S5 DV: Which school year CM in,1.0,Year 1 / primary 2
+849759,MCS,mcs5_cm_teacher_survey,m5stsc2,S5 DV: Which school year CM in,2.0,Year 2 / primary 3
+849760,MCS,mcs5_cm_teacher_survey,m5stsc2,S5 DV: Which school year CM in,3.0,Year 3 / primary 4
+849761,MCS,mcs5_cm_teacher_survey,m5stsc2,S5 DV: Which school year CM in,4.0,Other year
+849762,MCS,mcs5_cm_teacher_survey,m5stsc2,S5 DV: Which school year CM in,5.0,Not at aschool
+849763,MCS,mcs5_cm_teacher_survey,timeyearg,S5 DV: season born in (Grouped),1.0,Autumn 2000
+849764,MCS,mcs5_cm_teacher_survey,timeyearg,S5 DV: season born in (Grouped),2.0,Winter 2000/1
+849765,MCS,mcs5_cm_teacher_survey,timeyearg,S5 DV: season born in (Grouped),3.0,Spring 2001
+849766,MCS,mcs5_cm_teacher_survey,timeyearg,S5 DV: season born in (Grouped),4.0,Summer 2001
+849767,MCS,mcs5_cm_teacher_survey,timeyearg,S5 DV: season born in (Grouped),5.0,Autumn/ Winter 2001/2
+849768,MCS,mcs5_cm_teacher_survey,tserial,S5 DV: Teacher Serial (anonymised),,
+849769,MCS,mcs5_cm_teacher_survey,eemoti_t,S5 DV TEACHER SDQ Emotional Symptoms,-9.0,Refusal
+849770,MCS,mcs5_cm_teacher_survey,eemoti_t,S5 DV TEACHER SDQ Emotional Symptoms,-8.0,Don't know
+849771,MCS,mcs5_cm_teacher_survey,eemoti_t,S5 DV TEACHER SDQ Emotional Symptoms,-1.0,Not applicable
+849772,MCS,mcs5_cm_teacher_survey,econd_t,S5 DV TEACHER SDQ Conduct Problems,-9.0,Refusal
+849773,MCS,mcs5_cm_teacher_survey,econd_t,S5 DV TEACHER SDQ Conduct Problems,-8.0,Don't know
+849774,MCS,mcs5_cm_teacher_survey,econd_t,S5 DV TEACHER SDQ Conduct Problems,-1.0,Not applicable
+849775,MCS,mcs5_cm_teacher_survey,ehyper_t,S5 DV TEACHER SDQ Hyperactivity/Inattention,-1.0,Not applicable
+849776,MCS,mcs5_cm_teacher_survey,ehyper_t,S5 DV TEACHER SDQ Hyperactivity/Inattention,-9.0,Refusal
+849777,MCS,mcs5_cm_teacher_survey,ehyper_t,S5 DV TEACHER SDQ Hyperactivity/Inattention,-8.0,Don't know
+849778,MCS,mcs5_cm_teacher_survey,epeer_t,S5 DV TEACHER SDQ Peer Problems,-9.0,Refusal
+849779,MCS,mcs5_cm_teacher_survey,epeer_t,S5 DV TEACHER SDQ Peer Problems,-8.0,Don't know
+849780,MCS,mcs5_cm_teacher_survey,epeer_t,S5 DV TEACHER SDQ Peer Problems,-1.0,Not applicable
+849781,MCS,mcs5_cm_teacher_survey,eproso_t,S5 DV TEACHER SDQ Prosocial,-9.0,Refusal
+849782,MCS,mcs5_cm_teacher_survey,eproso_t,S5 DV TEACHER SDQ Prosocial,-8.0,Don't know
+849783,MCS,mcs5_cm_teacher_survey,eproso_t,S5 DV TEACHER SDQ Prosocial,-1.0,Not applicable
+849784,MCS,mcs5_cm_teacher_survey,eebdto_t,S5 DV TEACHER SDQ Total Difficulties,-9.0,Refusal
+849785,MCS,mcs5_cm_teacher_survey,eebdto_t,S5 DV TEACHER SDQ Total Difficulties,-8.0,Don't know
+849786,MCS,mcs5_cm_teacher_survey,eebdto_t,S5 DV TEACHER SDQ Total Difficulties,-1.0,Not applicable
+849787,MCS,mcs5_cm_teacher_survey,eebdif_t,S5 DV TEACHER SDQ CM has Difficulties in one or more areas,-1.0,Not applicable
+849788,MCS,mcs5_cm_teacher_survey,eebdif_t,S5 DV TEACHER SDQ CM has Difficulties in one or more areas,0.0,No
+849789,MCS,mcs5_cm_teacher_survey,eebdif_t,S5 DV TEACHER SDQ CM has Difficulties in one or more areas,1.0,Yes Minor difficulties
+849790,MCS,mcs5_cm_teacher_survey,eebdif_t,S5 DV TEACHER SDQ CM has Difficulties in one or more areas,2.0,Yes definite difficulties
+849791,MCS,mcs5_cm_teacher_survey,eebdif_t,S5 DV TEACHER SDQ CM has Difficulties in one or more areas,3.0,Yes severe difficulties
+849792,MCS,mcs5_cm_teacher_survey,avail_from_dt,,,
+849793,MCS,mcs5_cm_teacher_survey,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

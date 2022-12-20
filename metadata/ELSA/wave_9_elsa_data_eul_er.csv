@@ -1,0 +1,607 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+666668,ELSA,wave_9_elsa_data_eul_er,study_id_e,,,
+666669,ELSA,wave_9_elsa_data_eul_er,perid,Person number in household,-9.0,Refused
+666670,ELSA,wave_9_elsa_data_eul_er,perid,Person number in household,-8.0,Don't know
+666671,ELSA,wave_9_elsa_data_eul_er,perid,Person number in household,-1.0,Not applicable
+666672,ELSA,wave_9_elsa_data_eul_er,iintdatd,interview day   - individual interview,,
+666673,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,-9.0,Refused
+666674,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,-8.0,Don't know
+666675,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,-1.0,Not applicable
+666676,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,1.0,January
+666677,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,2.0,February
+666678,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,3.0,March
+666679,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,4.0,April
+666680,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,5.0,May
+666681,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,6.0,June
+666682,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,7.0,July
+666683,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,8.0,August
+666684,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,9.0,September
+666685,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,10.0,October
+666686,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,11.0,November
+666687,ELSA,wave_9_elsa_data_eul_er,iintdatm,interview month - individual interview,12.0,December
+666688,ELSA,wave_9_elsa_data_eul_er,iintdaty,interview year  - individual interview,,
+666689,ELSA,wave_9_elsa_data_eul_er,erfvolmo,Whether volunteered: raising money/taking part in sponsored events,-9.0,Refused
+666690,ELSA,wave_9_elsa_data_eul_er,erfvolmo,Whether volunteered: raising money/taking part in sponsored events,-8.0,Don't Know
+666691,ELSA,wave_9_elsa_data_eul_er,erfvolmo,Whether volunteered: raising money/taking part in sponsored events,-1.0,Not applicable
+666692,ELSA,wave_9_elsa_data_eul_er,erfvolmo,Whether volunteered: raising money/taking part in sponsored events,0.0,Not mentioned
+666693,ELSA,wave_9_elsa_data_eul_er,erfvolmo,Whether volunteered: raising money/taking part in sponsored events,1.0,Mentioned
+666694,ELSA,wave_9_elsa_data_eul_er,erfvolle,Whether volunteered: leading group/being member of committee,-9.0,Refused
+666695,ELSA,wave_9_elsa_data_eul_er,erfvolle,Whether volunteered: leading group/being member of committee,-8.0,Don't Know
+666696,ELSA,wave_9_elsa_data_eul_er,erfvolle,Whether volunteered: leading group/being member of committee,-1.0,Not applicable
+666697,ELSA,wave_9_elsa_data_eul_er,erfvolle,Whether volunteered: leading group/being member of committee,0.0,Not mentioned
+666698,ELSA,wave_9_elsa_data_eul_er,erfvolle,Whether volunteered: leading group/being member of committee,1.0,Mentioned
+666699,ELSA,wave_9_elsa_data_eul_er,erfvolor,Whether volunteered: organising or helping to run activity or event,-9.0,Refused
+666700,ELSA,wave_9_elsa_data_eul_er,erfvolor,Whether volunteered: organising or helping to run activity or event,-8.0,Don't Know
+666701,ELSA,wave_9_elsa_data_eul_er,erfvolor,Whether volunteered: organising or helping to run activity or event,-1.0,Not applicable
+666702,ELSA,wave_9_elsa_data_eul_er,erfvolor,Whether volunteered: organising or helping to run activity or event,0.0,Not mentioned
+666703,ELSA,wave_9_elsa_data_eul_er,erfvolor,Whether volunteered: organising or helping to run activity or event,1.0,Mentioned
+666704,ELSA,wave_9_elsa_data_eul_er,erfvolvi,Whether volunteered: visiting people,-9.0,Refused
+666705,ELSA,wave_9_elsa_data_eul_er,erfvolvi,Whether volunteered: visiting people,-8.0,Don't Know
+666706,ELSA,wave_9_elsa_data_eul_er,erfvolvi,Whether volunteered: visiting people,-1.0,Not applicable
+666707,ELSA,wave_9_elsa_data_eul_er,erfvolvi,Whether volunteered: visiting people,0.0,Not mentioned
+666708,ELSA,wave_9_elsa_data_eul_er,erfvolvi,Whether volunteered: visiting people,1.0,Mentioned
+666709,ELSA,wave_9_elsa_data_eul_er,erfvolbe,Whether volunteered: befriending or mentoring people,-9.0,Refused
+666710,ELSA,wave_9_elsa_data_eul_er,erfvolbe,Whether volunteered: befriending or mentoring people,-8.0,Don't Know
+666711,ELSA,wave_9_elsa_data_eul_er,erfvolbe,Whether volunteered: befriending or mentoring people,-1.0,Not applicable
+666712,ELSA,wave_9_elsa_data_eul_er,erfvolbe,Whether volunteered: befriending or mentoring people,0.0,Not mentioned
+666713,ELSA,wave_9_elsa_data_eul_er,erfvolbe,Whether volunteered: befriending or mentoring people,1.0,Mentioned
+666714,ELSA,wave_9_elsa_data_eul_er,erfvoled,Whether volunteered: education/teaching/coaching,-9.0,Refused
+666715,ELSA,wave_9_elsa_data_eul_er,erfvoled,Whether volunteered: education/teaching/coaching,-8.0,Don't Know
+666716,ELSA,wave_9_elsa_data_eul_er,erfvoled,Whether volunteered: education/teaching/coaching,-1.0,Not applicable
+666717,ELSA,wave_9_elsa_data_eul_er,erfvoled,Whether volunteered: education/teaching/coaching,0.0,Not mentioned
+666718,ELSA,wave_9_elsa_data_eul_er,erfvoled,Whether volunteered: education/teaching/coaching,1.0,Mentioned
+666719,ELSA,wave_9_elsa_data_eul_er,erfvolin,Whether volunteered: providing information/counselling,-9.0,Refused
+666720,ELSA,wave_9_elsa_data_eul_er,erfvolin,Whether volunteered: providing information/counselling,-8.0,Don't Know
+666721,ELSA,wave_9_elsa_data_eul_er,erfvolin,Whether volunteered: providing information/counselling,-1.0,Not applicable
+666722,ELSA,wave_9_elsa_data_eul_er,erfvolin,Whether volunteered: providing information/counselling,0.0,Not mentioned
+666723,ELSA,wave_9_elsa_data_eul_er,erfvolin,Whether volunteered: providing information/counselling,1.0,Mentioned
+666724,ELSA,wave_9_elsa_data_eul_er,erfvolse,Whether volunteered: secretarial; admin or clerical work,-9.0,Refused
+666725,ELSA,wave_9_elsa_data_eul_er,erfvolse,Whether volunteered: secretarial; admin or clerical work,-8.0,Don't Know
+666726,ELSA,wave_9_elsa_data_eul_er,erfvolse,Whether volunteered: secretarial; admin or clerical work,-1.0,Not applicable
+666727,ELSA,wave_9_elsa_data_eul_er,erfvolse,Whether volunteered: secretarial; admin or clerical work,0.0,Not mentioned
+666728,ELSA,wave_9_elsa_data_eul_er,erfvolse,Whether volunteered: secretarial; admin or clerical work,1.0,Mentioned
+666729,ELSA,wave_9_elsa_data_eul_er,erfvoltr,Whether volunteered: providing transport/driving,-9.0,Refused
+666730,ELSA,wave_9_elsa_data_eul_er,erfvoltr,Whether volunteered: providing transport/driving,-8.0,Don't Know
+666731,ELSA,wave_9_elsa_data_eul_er,erfvoltr,Whether volunteered: providing transport/driving,-1.0,Not applicable
+666732,ELSA,wave_9_elsa_data_eul_er,erfvoltr,Whether volunteered: providing transport/driving,0.0,Not mentioned
+666733,ELSA,wave_9_elsa_data_eul_er,erfvoltr,Whether volunteered: providing transport/driving,1.0,Mentioned
+666734,ELSA,wave_9_elsa_data_eul_er,erfvolre,Whether volunteered: representing,-9.0,Refused
+666735,ELSA,wave_9_elsa_data_eul_er,erfvolre,Whether volunteered: representing,-8.0,Don't Know
+666736,ELSA,wave_9_elsa_data_eul_er,erfvolre,Whether volunteered: representing,-1.0,Not applicable
+666737,ELSA,wave_9_elsa_data_eul_er,erfvolre,Whether volunteered: representing,0.0,Not mentioned
+666738,ELSA,wave_9_elsa_data_eul_er,erfvolre,Whether volunteered: representing,1.0,Mentioned
+666739,ELSA,wave_9_elsa_data_eul_er,erfvolca,Whether volunteered: campaigning,-9.0,Refused
+666740,ELSA,wave_9_elsa_data_eul_er,erfvolca,Whether volunteered: campaigning,-8.0,Don't Know
+666741,ELSA,wave_9_elsa_data_eul_er,erfvolca,Whether volunteered: campaigning,-1.0,Not applicable
+666742,ELSA,wave_9_elsa_data_eul_er,erfvolca,Whether volunteered: campaigning,0.0,Not mentioned
+666743,ELSA,wave_9_elsa_data_eul_er,erfvolca,Whether volunteered: campaigning,1.0,Mentioned
+666744,ELSA,wave_9_elsa_data_eul_er,erfvolpr,Whether volunteered: other practical help such as shopping,-9.0,Refused
+666745,ELSA,wave_9_elsa_data_eul_er,erfvolpr,Whether volunteered: other practical help such as shopping,-8.0,Don't Know
+666746,ELSA,wave_9_elsa_data_eul_er,erfvolpr,Whether volunteered: other practical help such as shopping,-1.0,Not applicable
+666747,ELSA,wave_9_elsa_data_eul_er,erfvolpr,Whether volunteered: other practical help such as shopping,0.0,Not mentioned
+666748,ELSA,wave_9_elsa_data_eul_er,erfvolpr,Whether volunteered: other practical help such as shopping,1.0,Mentioned
+666749,ELSA,wave_9_elsa_data_eul_er,erfvol,Whether volunteered: any other help,-9.0,Refused
+666750,ELSA,wave_9_elsa_data_eul_er,erfvol,Whether volunteered: any other help,-8.0,Don't Know
+666751,ELSA,wave_9_elsa_data_eul_er,erfvol,Whether volunteered: any other help,-1.0,Not applicable
+666752,ELSA,wave_9_elsa_data_eul_er,erfvol,Whether volunteered: any other help,0.0,Not mentioned
+666753,ELSA,wave_9_elsa_data_eul_er,erfvol,Whether volunteered: any other help,1.0,Mentioned
+666754,ELSA,wave_9_elsa_data_eul_er,erfvol96,Whether volunteered: none of these,-9.0,Refused
+666755,ELSA,wave_9_elsa_data_eul_er,erfvol96,Whether volunteered: none of these,-8.0,Don't Know
+666756,ELSA,wave_9_elsa_data_eul_er,erfvol96,Whether volunteered: none of these,-1.0,Not applicable
+666757,ELSA,wave_9_elsa_data_eul_er,erfvol96,Whether volunteered: none of these,0.0,Not mentioned
+666758,ELSA,wave_9_elsa_data_eul_er,erfvol96,Whether volunteered: none of these,1.0,Mentioned
+666759,ELSA,wave_9_elsa_data_eul_er,erfvoft,How often over the last 12 months has volunteered through group/ club/organisati,-9.0,Refused
+666760,ELSA,wave_9_elsa_data_eul_er,erfvoft,How often over the last 12 months has volunteered through group/ club/organisati,-8.0,Don't Know
+666761,ELSA,wave_9_elsa_data_eul_er,erfvoft,How often over the last 12 months has volunteered through group/ club/organisati,-1.0,Not applicable
+666762,ELSA,wave_9_elsa_data_eul_er,erfvoft,How often over the last 12 months has volunteered through group/ club/organisati,1.0,At least once a week
+666763,ELSA,wave_9_elsa_data_eul_er,erfvoft,How often over the last 12 months has volunteered through group/ club/organisati,2.0,Less than once a week but at least once a month
+666764,ELSA,wave_9_elsa_data_eul_er,erfvoft,How often over the last 12 months has volunteered through group/ club/organisati,3.0,Less often
+666765,ELSA,wave_9_elsa_data_eul_er,erfvoft,How often over the last 12 months has volunteered through group/ club/organisati,4.0,One-off activity
+666766,ELSA,wave_9_elsa_data_eul_er,erlvolke,Unpaid help: keeping in touch with someone who can't get out and about,-9.0,Refused
+666767,ELSA,wave_9_elsa_data_eul_er,erlvolke,Unpaid help: keeping in touch with someone who can't get out and about,-8.0,Don't Know
+666768,ELSA,wave_9_elsa_data_eul_er,erlvolke,Unpaid help: keeping in touch with someone who can't get out and about,-1.0,Not applicable
+666769,ELSA,wave_9_elsa_data_eul_er,erlvolke,Unpaid help: keeping in touch with someone who can't get out and about,0.0,Not mentioned
+666770,ELSA,wave_9_elsa_data_eul_er,erlvolke,Unpaid help: keeping in touch with someone who can't get out and about,1.0,Mentioned
+666771,ELSA,wave_9_elsa_data_eul_er,erlvolsh,Unpaid help: doing shopping; collecting pension or paying bills,-9.0,Refused
+666772,ELSA,wave_9_elsa_data_eul_er,erlvolsh,Unpaid help: doing shopping; collecting pension or paying bills,-8.0,Don't Know
+666773,ELSA,wave_9_elsa_data_eul_er,erlvolsh,Unpaid help: doing shopping; collecting pension or paying bills,-1.0,Not applicable
+666774,ELSA,wave_9_elsa_data_eul_er,erlvolsh,Unpaid help: doing shopping; collecting pension or paying bills,0.0,Not mentioned
+666775,ELSA,wave_9_elsa_data_eul_er,erlvolsh,Unpaid help: doing shopping; collecting pension or paying bills,1.0,Mentioned
+666776,ELSA,wave_9_elsa_data_eul_er,erlvolco,Unpaid help: cooking; cleaning; laundry; gardening; other household jobs,-9.0,Refused
+666777,ELSA,wave_9_elsa_data_eul_er,erlvolco,Unpaid help: cooking; cleaning; laundry; gardening; other household jobs,-8.0,Don't Know
+666778,ELSA,wave_9_elsa_data_eul_er,erlvolco,Unpaid help: cooking; cleaning; laundry; gardening; other household jobs,-1.0,Not applicable
+666779,ELSA,wave_9_elsa_data_eul_er,erlvolco,Unpaid help: cooking; cleaning; laundry; gardening; other household jobs,0.0,Not mentioned
+666780,ELSA,wave_9_elsa_data_eul_er,erlvolco,Unpaid help: cooking; cleaning; laundry; gardening; other household jobs,1.0,Mentioned
+666781,ELSA,wave_9_elsa_data_eul_er,erlvolde,Unpaid help: decorating or any kind of home or car repairs,-9.0,Refused
+666782,ELSA,wave_9_elsa_data_eul_er,erlvolde,Unpaid help: decorating or any kind of home or car repairs,-8.0,Don't Know
+666783,ELSA,wave_9_elsa_data_eul_er,erlvolde,Unpaid help: decorating or any kind of home or car repairs,-1.0,Not applicable
+666784,ELSA,wave_9_elsa_data_eul_er,erlvolde,Unpaid help: decorating or any kind of home or car repairs,0.0,Not mentioned
+666785,ELSA,wave_9_elsa_data_eul_er,erlvolde,Unpaid help: decorating or any kind of home or car repairs,1.0,Mentioned
+666786,ELSA,wave_9_elsa_data_eul_er,erlvolba,Unpaid help: babysitting or caring for children,-9.0,Refused
+666787,ELSA,wave_9_elsa_data_eul_er,erlvolba,Unpaid help: babysitting or caring for children,-8.0,Don't Know
+666788,ELSA,wave_9_elsa_data_eul_er,erlvolba,Unpaid help: babysitting or caring for children,-1.0,Not applicable
+666789,ELSA,wave_9_elsa_data_eul_er,erlvolba,Unpaid help: babysitting or caring for children,0.0,Not mentioned
+666790,ELSA,wave_9_elsa_data_eul_er,erlvolba,Unpaid help: babysitting or caring for children,1.0,Mentioned
+666791,ELSA,wave_9_elsa_data_eul_er,erlvolpe,Unpaid help: providing personal care for someone who is sick or frail,-9.0,Refused
+666792,ELSA,wave_9_elsa_data_eul_er,erlvolpe,Unpaid help: providing personal care for someone who is sick or frail,-8.0,Don't Know
+666793,ELSA,wave_9_elsa_data_eul_er,erlvolpe,Unpaid help: providing personal care for someone who is sick or frail,-1.0,Not applicable
+666794,ELSA,wave_9_elsa_data_eul_er,erlvolpe,Unpaid help: providing personal care for someone who is sick or frail,0.0,Not mentioned
+666795,ELSA,wave_9_elsa_data_eul_er,erlvolpe,Unpaid help: providing personal care for someone who is sick or frail,1.0,Mentioned
+666796,ELSA,wave_9_elsa_data_eul_er,erlvolpr,Unpaid help: looking after a property or pet for someone who is away,-9.0,Refused
+666797,ELSA,wave_9_elsa_data_eul_er,erlvolpr,Unpaid help: looking after a property or pet for someone who is away,-8.0,Don't Know
+666798,ELSA,wave_9_elsa_data_eul_er,erlvolpr,Unpaid help: looking after a property or pet for someone who is away,-1.0,Not applicable
+666799,ELSA,wave_9_elsa_data_eul_er,erlvolpr,Unpaid help: looking after a property or pet for someone who is away,0.0,Not mentioned
+666800,ELSA,wave_9_elsa_data_eul_er,erlvolpr,Unpaid help: looking after a property or pet for someone who is away,1.0,Mentioned
+666801,ELSA,wave_9_elsa_data_eul_er,erlvolwr,Unpaid help: writing letters or filling in forms,-9.0,Refused
+666802,ELSA,wave_9_elsa_data_eul_er,erlvolwr,Unpaid help: writing letters or filling in forms,-8.0,Don't Know
+666803,ELSA,wave_9_elsa_data_eul_er,erlvolwr,Unpaid help: writing letters or filling in forms,-1.0,Not applicable
+666804,ELSA,wave_9_elsa_data_eul_er,erlvolwr,Unpaid help: writing letters or filling in forms,0.0,Not mentioned
+666805,ELSA,wave_9_elsa_data_eul_er,erlvolwr,Unpaid help: writing letters or filling in forms,1.0,Mentioned
+666806,ELSA,wave_9_elsa_data_eul_er,erlvolre,Unpaid help: representing someone; for example; to a doctor or council dept,-9.0,Refused
+666807,ELSA,wave_9_elsa_data_eul_er,erlvolre,Unpaid help: representing someone; for example; to a doctor or council dept,-8.0,Don't Know
+666808,ELSA,wave_9_elsa_data_eul_er,erlvolre,Unpaid help: representing someone; for example; to a doctor or council dept,-1.0,Not applicable
+666809,ELSA,wave_9_elsa_data_eul_er,erlvolre,Unpaid help: representing someone; for example; to a doctor or council dept,0.0,Not mentioned
+666810,ELSA,wave_9_elsa_data_eul_er,erlvolre,Unpaid help: representing someone; for example; to a doctor or council dept,1.0,Mentioned
+666811,ELSA,wave_9_elsa_data_eul_er,erlvoltr,Unpaid help: transporting or escorting someone,-9.0,Refused
+666812,ELSA,wave_9_elsa_data_eul_er,erlvoltr,Unpaid help: transporting or escorting someone,-8.0,Don't Know
+666813,ELSA,wave_9_elsa_data_eul_er,erlvoltr,Unpaid help: transporting or escorting someone,-1.0,Not applicable
+666814,ELSA,wave_9_elsa_data_eul_er,erlvoltr,Unpaid help: transporting or escorting someone,0.0,Not mentioned
+666815,ELSA,wave_9_elsa_data_eul_er,erlvoltr,Unpaid help: transporting or escorting someone,1.0,Mentioned
+666816,ELSA,wave_9_elsa_data_eul_er,erlvol96,Unpaid help: none of these,-9.0,Refusal
+666817,ELSA,wave_9_elsa_data_eul_er,erlvol96,Unpaid help: none of these,-8.0,Don't Know
+666818,ELSA,wave_9_elsa_data_eul_er,erlvol96,Unpaid help: none of these,-1.0,Item not applicable
+666819,ELSA,wave_9_elsa_data_eul_er,erlvol96,Unpaid help: none of these,0.0,Not mentioned
+666820,ELSA,wave_9_elsa_data_eul_er,erlvol96,Unpaid help: none of these,1.0,Mentioned
+666821,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,-9.0,Refused
+666822,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,-8.0,Don't Know
+666823,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,-1.0,Not applicable
+666824,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,1.0,Every day
+666825,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,2.0,At least once a week
+666826,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,3.0,Less than once a week but at least once a month
+666827,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,4.0,Less often
+666828,ELSA,wave_9_elsa_data_eul_er,erivoft,How often over the past 12 months has given unpaid help to other people as an in,5.0,One-off activity
+666829,ELSA,wave_9_elsa_data_eul_er,ervola,Whether respondent is satisfied with what they have gained so far from voluntary,-9.0,Refused
+666830,ELSA,wave_9_elsa_data_eul_er,ervola,Whether respondent is satisfied with what they have gained so far from voluntary,-8.0,Don't Know
+666831,ELSA,wave_9_elsa_data_eul_er,ervola,Whether respondent is satisfied with what they have gained so far from voluntary,-1.0,Not applicable
+666832,ELSA,wave_9_elsa_data_eul_er,ervola,Whether respondent is satisfied with what they have gained so far from voluntary,1.0,Strongly agree
+666833,ELSA,wave_9_elsa_data_eul_er,ervola,Whether respondent is satisfied with what they have gained so far from voluntary,2.0,Agree
+666834,ELSA,wave_9_elsa_data_eul_er,ervola,Whether respondent is satisfied with what they have gained so far from voluntary,3.0,Disagree
+666835,ELSA,wave_9_elsa_data_eul_er,ervola,Whether respondent is satisfied with what they have gained so far from voluntary,4.0,Strongly disagree
+666836,ELSA,wave_9_elsa_data_eul_er,ervolb,Whether respondent feels they have been adequately appreciated for their volunta,-9.0,Refused
+666837,ELSA,wave_9_elsa_data_eul_er,ervolb,Whether respondent feels they have been adequately appreciated for their volunta,-8.0,Don't Know
+666838,ELSA,wave_9_elsa_data_eul_er,ervolb,Whether respondent feels they have been adequately appreciated for their volunta,-1.0,Not applicable
+666839,ELSA,wave_9_elsa_data_eul_er,ervolb,Whether respondent feels they have been adequately appreciated for their volunta,1.0,Strongly agree
+666840,ELSA,wave_9_elsa_data_eul_er,ervolb,Whether respondent feels they have been adequately appreciated for their volunta,2.0,Agree
+666841,ELSA,wave_9_elsa_data_eul_er,ervolb,Whether respondent feels they have been adequately appreciated for their volunta,3.0,Disagree
+666842,ELSA,wave_9_elsa_data_eul_er,ervolb,Whether respondent feels they have been adequately appreciated for their volunta,4.0,Strongly disagree
+666843,ELSA,wave_9_elsa_data_eul_er,ercaa,Whether looked after anyone in the past week,-9.0,Refused
+666844,ELSA,wave_9_elsa_data_eul_er,ercaa,Whether looked after anyone in the past week,-8.0,Don't Know
+666845,ELSA,wave_9_elsa_data_eul_er,ercaa,Whether looked after anyone in the past week,-1.0,Not applicable
+666846,ELSA,wave_9_elsa_data_eul_er,ercaa,Whether looked after anyone in the past week,1.0,Yes
+666847,ELSA,wave_9_elsa_data_eul_er,ercaa,Whether looked after anyone in the past week,2.0,No
+666848,ELSA,wave_9_elsa_data_eul_er,ercabsp,Who looked after: her/his spouse/partner,-9.0,Refused
+666849,ELSA,wave_9_elsa_data_eul_er,ercabsp,Who looked after: her/his spouse/partner,-8.0,Don't Know
+666850,ELSA,wave_9_elsa_data_eul_er,ercabsp,Who looked after: her/his spouse/partner,-1.0,Not applicable
+666851,ELSA,wave_9_elsa_data_eul_er,ercabsp,Who looked after: her/his spouse/partner,0.0,Not mentioned
+666852,ELSA,wave_9_elsa_data_eul_er,ercabsp,Who looked after: her/his spouse/partner,1.0,Mentioned
+666853,ELSA,wave_9_elsa_data_eul_er,ercabch,Who looked after: her/his child,-9.0,Refused
+666854,ELSA,wave_9_elsa_data_eul_er,ercabch,Who looked after: her/his child,-8.0,Don't Know
+666855,ELSA,wave_9_elsa_data_eul_er,ercabch,Who looked after: her/his child,-1.0,Not applicable
+666856,ELSA,wave_9_elsa_data_eul_er,ercabch,Who looked after: her/his child,0.0,Not mentioned
+666857,ELSA,wave_9_elsa_data_eul_er,ercabch,Who looked after: her/his child,1.0,Mentioned
+666858,ELSA,wave_9_elsa_data_eul_er,ercabgc,Who looked after: her/his grandchild,-9.0,Refused
+666859,ELSA,wave_9_elsa_data_eul_er,ercabgc,Who looked after: her/his grandchild,-8.0,Don't Know
+666860,ELSA,wave_9_elsa_data_eul_er,ercabgc,Who looked after: her/his grandchild,-1.0,Not applicable
+666861,ELSA,wave_9_elsa_data_eul_er,ercabgc,Who looked after: her/his grandchild,0.0,Not mentioned
+666862,ELSA,wave_9_elsa_data_eul_er,ercabgc,Who looked after: her/his grandchild,1.0,Mentioned
+666863,ELSA,wave_9_elsa_data_eul_er,ercabpa,Who looked after: her/his parent,-9.0,Refused
+666864,ELSA,wave_9_elsa_data_eul_er,ercabpa,Who looked after: her/his parent,-8.0,Don't Know
+666865,ELSA,wave_9_elsa_data_eul_er,ercabpa,Who looked after: her/his parent,-1.0,Not applicable
+666866,ELSA,wave_9_elsa_data_eul_er,ercabpa,Who looked after: her/his parent,0.0,Not mentioned
+666867,ELSA,wave_9_elsa_data_eul_er,ercabpa,Who looked after: her/his parent,1.0,Mentioned
+666868,ELSA,wave_9_elsa_data_eul_er,ercabpl,Who looked after: her/his parent in law,-9.0,Refused
+666869,ELSA,wave_9_elsa_data_eul_er,ercabpl,Who looked after: her/his parent in law,-8.0,Don't Know
+666870,ELSA,wave_9_elsa_data_eul_er,ercabpl,Who looked after: her/his parent in law,-1.0,Not applicable
+666871,ELSA,wave_9_elsa_data_eul_er,ercabpl,Who looked after: her/his parent in law,0.0,Not mentioned
+666872,ELSA,wave_9_elsa_data_eul_er,ercabpl,Who looked after: her/his parent in law,1.0,Mentioned
+666873,ELSA,wave_9_elsa_data_eul_er,ercabor,Who looked after: other relative,-9.0,Refused
+666874,ELSA,wave_9_elsa_data_eul_er,ercabor,Who looked after: other relative,-8.0,Don't Know
+666875,ELSA,wave_9_elsa_data_eul_er,ercabor,Who looked after: other relative,-1.0,Not applicable
+666876,ELSA,wave_9_elsa_data_eul_er,ercabor,Who looked after: other relative,0.0,Not mentioned
+666877,ELSA,wave_9_elsa_data_eul_er,ercabor,Who looked after: other relative,1.0,Mentioned
+666878,ELSA,wave_9_elsa_data_eul_er,ercabfr,Who looked after: her/his friend or neighbour,-9.0,Refused
+666879,ELSA,wave_9_elsa_data_eul_er,ercabfr,Who looked after: her/his friend or neighbour,-8.0,Don't Know
+666880,ELSA,wave_9_elsa_data_eul_er,ercabfr,Who looked after: her/his friend or neighbour,-1.0,Not applicable
+666881,ELSA,wave_9_elsa_data_eul_er,ercabfr,Who looked after: her/his friend or neighbour,0.0,Not mentioned
+666882,ELSA,wave_9_elsa_data_eul_er,ercabfr,Who looked after: her/his friend or neighbour,1.0,Mentioned
+666883,ELSA,wave_9_elsa_data_eul_er,ercabot,Who looked after: someone else,-9.0,Refused
+666884,ELSA,wave_9_elsa_data_eul_er,ercabot,Who looked after: someone else,-8.0,Don't Know
+666885,ELSA,wave_9_elsa_data_eul_er,ercabot,Who looked after: someone else,-1.0,Not applicable
+666886,ELSA,wave_9_elsa_data_eul_er,ercabot,Who looked after: someone else,0.0,Not mentioned
+666887,ELSA,wave_9_elsa_data_eul_er,ercabot,Who looked after: someone else,1.0,Mentioned
+666888,ELSA,wave_9_elsa_data_eul_er,ercamsp,Who looked after: her/his spouse/partner (merged),-9.0,Refused
+666889,ELSA,wave_9_elsa_data_eul_er,ercamsp,Who looked after: her/his spouse/partner (merged),-8.0,Don't Know
+666890,ELSA,wave_9_elsa_data_eul_er,ercamsp,Who looked after: her/his spouse/partner (merged),-1.0,Not applicable
+666891,ELSA,wave_9_elsa_data_eul_er,ercamsp,Who looked after: her/his spouse/partner (merged),0.0,Not mentioned
+666892,ELSA,wave_9_elsa_data_eul_er,ercamsp,Who looked after: her/his spouse/partner (merged),1.0,Mentioned
+666893,ELSA,wave_9_elsa_data_eul_er,ercamch,Who looked after: her/his child (merged),-9.0,Refused
+666894,ELSA,wave_9_elsa_data_eul_er,ercamch,Who looked after: her/his child (merged),-8.0,Don't Know
+666895,ELSA,wave_9_elsa_data_eul_er,ercamch,Who looked after: her/his child (merged),-1.0,Not applicable
+666896,ELSA,wave_9_elsa_data_eul_er,ercamch,Who looked after: her/his child (merged),0.0,Not mentioned
+666897,ELSA,wave_9_elsa_data_eul_er,ercamch,Who looked after: her/his child (merged),1.0,Mentioned
+666898,ELSA,wave_9_elsa_data_eul_er,ercamgc,Who looked after: her/his grandchild (merged),-9.0,Refused
+666899,ELSA,wave_9_elsa_data_eul_er,ercamgc,Who looked after: her/his grandchild (merged),-8.0,Don't Know
+666900,ELSA,wave_9_elsa_data_eul_er,ercamgc,Who looked after: her/his grandchild (merged),-1.0,Not applicable
+666901,ELSA,wave_9_elsa_data_eul_er,ercamgc,Who looked after: her/his grandchild (merged),0.0,Not mentioned
+666902,ELSA,wave_9_elsa_data_eul_er,ercamgc,Who looked after: her/his grandchild (merged),1.0,Mentioned
+666903,ELSA,wave_9_elsa_data_eul_er,ercampa,Who looked after: her/his parent (merged),-9.0,Refused
+666904,ELSA,wave_9_elsa_data_eul_er,ercampa,Who looked after: her/his parent (merged),-8.0,Don't Know
+666905,ELSA,wave_9_elsa_data_eul_er,ercampa,Who looked after: her/his parent (merged),-1.0,Not applicable
+666906,ELSA,wave_9_elsa_data_eul_er,ercampa,Who looked after: her/his parent (merged),0.0,Not mentioned
+666907,ELSA,wave_9_elsa_data_eul_er,ercampa,Who looked after: her/his parent (merged),1.0,Mentioned
+666908,ELSA,wave_9_elsa_data_eul_er,ercampl,Who looked after: her/his parent in law (merged),-9.0,Refused
+666909,ELSA,wave_9_elsa_data_eul_er,ercampl,Who looked after: her/his parent in law (merged),-8.0,Don't Know
+666910,ELSA,wave_9_elsa_data_eul_er,ercampl,Who looked after: her/his parent in law (merged),-1.0,Not applicable
+666911,ELSA,wave_9_elsa_data_eul_er,ercampl,Who looked after: her/his parent in law (merged),0.0,Not mentioned
+666912,ELSA,wave_9_elsa_data_eul_er,ercampl,Who looked after: her/his parent in law (merged),1.0,Mentioned
+666913,ELSA,wave_9_elsa_data_eul_er,ercamor,Who looked after: another relative (merged),-9.0,Refused
+666914,ELSA,wave_9_elsa_data_eul_er,ercamor,Who looked after: another relative (merged),-8.0,Don't Know
+666915,ELSA,wave_9_elsa_data_eul_er,ercamor,Who looked after: another relative (merged),-1.0,Not applicable
+666916,ELSA,wave_9_elsa_data_eul_er,ercamor,Who looked after: another relative (merged),0.0,Not mentioned
+666917,ELSA,wave_9_elsa_data_eul_er,ercamor,Who looked after: another relative (merged),1.0,Mentioned
+666918,ELSA,wave_9_elsa_data_eul_er,ercamfr,Who looked after: her/his friend or neighbour (merged),-9.0,Refused
+666919,ELSA,wave_9_elsa_data_eul_er,ercamfr,Who looked after: her/his friend or neighbour (merged),-8.0,Don't Know
+666920,ELSA,wave_9_elsa_data_eul_er,ercamfr,Who looked after: her/his friend or neighbour (merged),-1.0,Not applicable
+666921,ELSA,wave_9_elsa_data_eul_er,ercamfr,Who looked after: her/his friend or neighbour (merged),0.0,Not mentioned
+666922,ELSA,wave_9_elsa_data_eul_er,ercamfr,Who looked after: her/his friend or neighbour (merged),1.0,Mentioned
+666923,ELSA,wave_9_elsa_data_eul_er,ercam85,Who looked after: someone else - not codeable (merged),-9.0,Refused
+666924,ELSA,wave_9_elsa_data_eul_er,ercam85,Who looked after: someone else - not codeable (merged),-8.0,Don't Know
+666925,ELSA,wave_9_elsa_data_eul_er,ercam85,Who looked after: someone else - not codeable (merged),-1.0,Not applicable
+666926,ELSA,wave_9_elsa_data_eul_er,ercam85,Who looked after: someone else - not codeable (merged),0.0,Not mentioned
+666927,ELSA,wave_9_elsa_data_eul_er,ercam85,Who looked after: someone else - not codeable (merged),1.0,Mentioned
+666928,ELSA,wave_9_elsa_data_eul_er,ercam86,Who looked after: irrelevant response - not codeable (merged),-9.0,Refused
+666929,ELSA,wave_9_elsa_data_eul_er,ercam86,Who looked after: irrelevant response - not codeable (merged),-8.0,Don't Know
+666930,ELSA,wave_9_elsa_data_eul_er,ercam86,Who looked after: irrelevant response - not codeable (merged),-1.0,Not applicable
+666931,ELSA,wave_9_elsa_data_eul_er,ercam86,Who looked after: irrelevant response - not codeable (merged),0.0,Not mentioned
+666932,ELSA,wave_9_elsa_data_eul_er,ercam86,Who looked after: irrelevant response - not codeable (merged),1.0,Mentioned
+666933,ELSA,wave_9_elsa_data_eul_er,ercansp,Number of spouses/partners looked after in past week,-9.0,Refused
+666934,ELSA,wave_9_elsa_data_eul_er,ercansp,Number of spouses/partners looked after in past week,-8.0,Don't know
+666935,ELSA,wave_9_elsa_data_eul_er,ercansp,Number of spouses/partners looked after in past week,-1.0,Not applicable
+666936,ELSA,wave_9_elsa_data_eul_er,ercanch,Number of children looked after in past week,-9.0,Refused
+666937,ELSA,wave_9_elsa_data_eul_er,ercanch,Number of children looked after in past week,-8.0,Don't know
+666938,ELSA,wave_9_elsa_data_eul_er,ercanch,Number of children looked after in past week,-1.0,Not applicable
+666939,ELSA,wave_9_elsa_data_eul_er,ercangc,Number of grandchildren looked after in past week,-9.0,Refused
+666940,ELSA,wave_9_elsa_data_eul_er,ercangc,Number of grandchildren looked after in past week,-8.0,Don't know
+666941,ELSA,wave_9_elsa_data_eul_er,ercangc,Number of grandchildren looked after in past week,-1.0,Not applicable
+666942,ELSA,wave_9_elsa_data_eul_er,ercanpa,Number of parents looked after in past week,-9.0,Refused
+666943,ELSA,wave_9_elsa_data_eul_er,ercanpa,Number of parents looked after in past week,-8.0,Don't know
+666944,ELSA,wave_9_elsa_data_eul_er,ercanpa,Number of parents looked after in past week,-1.0,Not applicable
+666945,ELSA,wave_9_elsa_data_eul_er,ercanpl,Number of parents-in-law looked after in past week,-9.0,Refused
+666946,ELSA,wave_9_elsa_data_eul_er,ercanpl,Number of parents-in-law looked after in past week,-8.0,Don't know
+666947,ELSA,wave_9_elsa_data_eul_er,ercanpl,Number of parents-in-law looked after in past week,-1.0,Not applicable
+666948,ELSA,wave_9_elsa_data_eul_er,ercanor,Number of other relatives looked after in past week,-9.0,Refused
+666949,ELSA,wave_9_elsa_data_eul_er,ercanor,Number of other relatives looked after in past week,-8.0,Don't know
+666950,ELSA,wave_9_elsa_data_eul_er,ercanor,Number of other relatives looked after in past week,-1.0,Not applicable
+666951,ELSA,wave_9_elsa_data_eul_er,ercanfr,Number of friends/neighbours looked after in past week,-9.0,Refused
+666952,ELSA,wave_9_elsa_data_eul_er,ercanfr,Number of friends/neighbours looked after in past week,-8.0,Don't know
+666953,ELSA,wave_9_elsa_data_eul_er,ercanfr,Number of friends/neighbours looked after in past week,-1.0,Not applicable
+666954,ELSA,wave_9_elsa_data_eul_er,ercanot,Number of other people looked after in past week,-9.0,Refused
+666955,ELSA,wave_9_elsa_data_eul_er,ercanot,Number of other people looked after in past week,-8.0,Don't know
+666956,ELSA,wave_9_elsa_data_eul_er,ercanot,Number of other people looked after in past week,-1.0,Not applicable
+666957,ELSA,wave_9_elsa_data_eul_er,ercantt,Total number of people  looked after in past week,-9.0,Refused
+666958,ELSA,wave_9_elsa_data_eul_er,ercantt,Total number of people  looked after in past week,-8.0,Don't know
+666959,ELSA,wave_9_elsa_data_eul_er,ercantt,Total number of people  looked after in past week,-1.0,Not applicable
+666960,ELSA,wave_9_elsa_data_eul_er,ercalive,Whether lives with the person(s) he/she cared for,-9.0,Refused
+666961,ELSA,wave_9_elsa_data_eul_er,ercalive,Whether lives with the person(s) he/she cared for,-8.0,Don't Know
+666962,ELSA,wave_9_elsa_data_eul_er,ercalive,Whether lives with the person(s) he/she cared for,-1.0,Not applicable
+666963,ELSA,wave_9_elsa_data_eul_er,ercalive,Whether lives with the person(s) he/she cared for,1.0,Yes
+666964,ELSA,wave_9_elsa_data_eul_er,ercalive,Whether lives with the person(s) he/she cared for,2.0,No
+666965,ELSA,wave_9_elsa_data_eul_er,ercadp1,Whether looked after person 1 in household,-9.0,Refused
+666966,ELSA,wave_9_elsa_data_eul_er,ercadp1,Whether looked after person 1 in household,-8.0,Don't Know
+666967,ELSA,wave_9_elsa_data_eul_er,ercadp1,Whether looked after person 1 in household,-1.0,Not applicable
+666968,ELSA,wave_9_elsa_data_eul_er,ercadp1,Whether looked after person 1 in household,0.0,Not mentioned
+666969,ELSA,wave_9_elsa_data_eul_er,ercadp1,Whether looked after person 1 in household,1.0,Mentioned
+666970,ELSA,wave_9_elsa_data_eul_er,ercadp2,Whether looked after person 2 in household,-9.0,Refused
+666971,ELSA,wave_9_elsa_data_eul_er,ercadp2,Whether looked after person 2 in household,-8.0,Don't Know
+666972,ELSA,wave_9_elsa_data_eul_er,ercadp2,Whether looked after person 2 in household,-1.0,Not applicable
+666973,ELSA,wave_9_elsa_data_eul_er,ercadp2,Whether looked after person 2 in household,0.0,Not mentioned
+666974,ELSA,wave_9_elsa_data_eul_er,ercadp2,Whether looked after person 2 in household,1.0,Mentioned
+666975,ELSA,wave_9_elsa_data_eul_er,ercadp3,Whether looked after person 3 in household,-9.0,Refused
+666976,ELSA,wave_9_elsa_data_eul_er,ercadp3,Whether looked after person 3 in household,-8.0,Don't Know
+666977,ELSA,wave_9_elsa_data_eul_er,ercadp3,Whether looked after person 3 in household,-1.0,Not applicable
+666978,ELSA,wave_9_elsa_data_eul_er,ercadp3,Whether looked after person 3 in household,0.0,Not mentioned
+666979,ELSA,wave_9_elsa_data_eul_er,ercadp3,Whether looked after person 3 in household,1.0,Mentioned
+666980,ELSA,wave_9_elsa_data_eul_er,ercadp4,Whether looked after person 4 in household,-9.0,Refused
+666981,ELSA,wave_9_elsa_data_eul_er,ercadp4,Whether looked after person 4 in household,-8.0,Don't Know
+666982,ELSA,wave_9_elsa_data_eul_er,ercadp4,Whether looked after person 4 in household,-1.0,Not applicable
+666983,ELSA,wave_9_elsa_data_eul_er,ercadp4,Whether looked after person 4 in household,0.0,Not mentioned
+666984,ELSA,wave_9_elsa_data_eul_er,ercadp4,Whether looked after person 4 in household,1.0,Mentioned
+666985,ELSA,wave_9_elsa_data_eul_er,ercadp5,Whether looked after person 5 in household,-9.0,Refused
+666986,ELSA,wave_9_elsa_data_eul_er,ercadp5,Whether looked after person 5 in household,-8.0,Don't Know
+666987,ELSA,wave_9_elsa_data_eul_er,ercadp5,Whether looked after person 5 in household,-1.0,Not applicable
+666988,ELSA,wave_9_elsa_data_eul_er,ercadp5,Whether looked after person 5 in household,0.0,Not mentioned
+666989,ELSA,wave_9_elsa_data_eul_er,ercadp5,Whether looked after person 5 in household,1.0,Mentioned
+666990,ELSA,wave_9_elsa_data_eul_er,ercadp6,Whether looked after person 6 in household,-9.0,Refused
+666991,ELSA,wave_9_elsa_data_eul_er,ercadp6,Whether looked after person 6 in household,-8.0,Don't Know
+666992,ELSA,wave_9_elsa_data_eul_er,ercadp6,Whether looked after person 6 in household,-1.0,Not applicable
+666993,ELSA,wave_9_elsa_data_eul_er,ercadp6,Whether looked after person 6 in household,0.0,Not mentioned
+666994,ELSA,wave_9_elsa_data_eul_er,ercadp6,Whether looked after person 6 in household,1.0,Mentioned
+666995,ELSA,wave_9_elsa_data_eul_er,ercadp7,Whether looked after person 7 in household,-9.0,Refused
+666996,ELSA,wave_9_elsa_data_eul_er,ercadp7,Whether looked after person 7 in household,-8.0,Don't Know
+666997,ELSA,wave_9_elsa_data_eul_er,ercadp7,Whether looked after person 7 in household,-1.0,Not applicable
+666998,ELSA,wave_9_elsa_data_eul_er,ercadp7,Whether looked after person 7 in household,0.0,Not mentioned
+666999,ELSA,wave_9_elsa_data_eul_er,ercadp7,Whether looked after person 7 in household,1.0,Mentioned
+667000,ELSA,wave_9_elsa_data_eul_er,ercadp8,Whether looked after person 8 in household,-9.0,Refused
+667001,ELSA,wave_9_elsa_data_eul_er,ercadp8,Whether looked after person 8 in household,-8.0,Don't Know
+667002,ELSA,wave_9_elsa_data_eul_er,ercadp8,Whether looked after person 8 in household,-1.0,Not applicable
+667003,ELSA,wave_9_elsa_data_eul_er,ercadp8,Whether looked after person 8 in household,0.0,Not mentioned
+667004,ELSA,wave_9_elsa_data_eul_er,ercadp8,Whether looked after person 8 in household,1.0,Mentioned
+667005,ELSA,wave_9_elsa_data_eul_er,ercadp9,Whether looked after person 9 in household,-9.0,Refused
+667006,ELSA,wave_9_elsa_data_eul_er,ercadp9,Whether looked after person 9 in household,-8.0,Don't Know
+667007,ELSA,wave_9_elsa_data_eul_er,ercadp9,Whether looked after person 9 in household,-1.0,Not applicable
+667008,ELSA,wave_9_elsa_data_eul_er,ercadp9,Whether looked after person 9 in household,0.0,Not mentioned
+667009,ELSA,wave_9_elsa_data_eul_er,ercadp9,Whether looked after person 9 in household,1.0,Mentioned
+667010,ELSA,wave_9_elsa_data_eul_er,ercadp10,Whether looked after person 10 in household,-9.0,Refused
+667011,ELSA,wave_9_elsa_data_eul_er,ercadp10,Whether looked after person 10 in household,-8.0,Don't Know
+667012,ELSA,wave_9_elsa_data_eul_er,ercadp10,Whether looked after person 10 in household,-1.0,Not applicable
+667013,ELSA,wave_9_elsa_data_eul_er,ercadp10,Whether looked after person 10 in household,0.0,Not mentioned
+667014,ELSA,wave_9_elsa_data_eul_er,ercadp10,Whether looked after person 10 in household,1.0,Mentioned
+667015,ELSA,wave_9_elsa_data_eul_er,ercadp11,Whether looked after person 11 in household,-9.0,Refused
+667016,ELSA,wave_9_elsa_data_eul_er,ercadp11,Whether looked after person 11 in household,-8.0,Don't Know
+667017,ELSA,wave_9_elsa_data_eul_er,ercadp11,Whether looked after person 11 in household,-1.0,Not applicable
+667018,ELSA,wave_9_elsa_data_eul_er,ercadp11,Whether looked after person 11 in household,0.0,Not mentioned
+667019,ELSA,wave_9_elsa_data_eul_er,ercadp11,Whether looked after person 11 in household,1.0,Mentioned
+667020,ELSA,wave_9_elsa_data_eul_er,ercadp12,Whether looked after person 12 in household,-9.0,Refused
+667021,ELSA,wave_9_elsa_data_eul_er,ercadp12,Whether looked after person 12 in household,-8.0,Don't Know
+667022,ELSA,wave_9_elsa_data_eul_er,ercadp12,Whether looked after person 12 in household,-1.0,Not applicable
+667023,ELSA,wave_9_elsa_data_eul_er,ercadp12,Whether looked after person 12 in household,0.0,Not mentioned
+667024,ELSA,wave_9_elsa_data_eul_er,ercadp12,Whether looked after person 12 in household,1.0,Mentioned
+667025,ELSA,wave_9_elsa_data_eul_er,ercadp13,Whether looked after person 13 in household,-9.0,Refused
+667026,ELSA,wave_9_elsa_data_eul_er,ercadp13,Whether looked after person 13 in household,-8.0,Don't Know
+667027,ELSA,wave_9_elsa_data_eul_er,ercadp13,Whether looked after person 13 in household,-1.0,Not applicable
+667028,ELSA,wave_9_elsa_data_eul_er,ercadp13,Whether looked after person 13 in household,0.0,Not mentioned
+667029,ELSA,wave_9_elsa_data_eul_er,ercadp13,Whether looked after person 13 in household,1.0,Mentioned
+667030,ELSA,wave_9_elsa_data_eul_er,ercadp14,Whether looked after person 14 in household,-9.0,Refused
+667031,ELSA,wave_9_elsa_data_eul_er,ercadp14,Whether looked after person 14 in household,-8.0,Don't Know
+667032,ELSA,wave_9_elsa_data_eul_er,ercadp14,Whether looked after person 14 in household,-1.0,Not applicable
+667033,ELSA,wave_9_elsa_data_eul_er,ercadp14,Whether looked after person 14 in household,0.0,Not mentioned
+667034,ELSA,wave_9_elsa_data_eul_er,ercadp14,Whether looked after person 14 in household,1.0,Mentioned
+667035,ELSA,wave_9_elsa_data_eul_er,ercadp15,Whether looked after person 15 in household,-9.0,Refused
+667036,ELSA,wave_9_elsa_data_eul_er,ercadp15,Whether looked after person 15 in household,-8.0,Don't Know
+667037,ELSA,wave_9_elsa_data_eul_er,ercadp15,Whether looked after person 15 in household,-1.0,Not applicable
+667038,ELSA,wave_9_elsa_data_eul_er,ercadp15,Whether looked after person 15 in household,0.0,Not mentioned
+667039,ELSA,wave_9_elsa_data_eul_er,ercadp15,Whether looked after person 15 in household,1.0,Mentioned
+667040,ELSA,wave_9_elsa_data_eul_er,ercadp16,Whether looked after person 16 in household,-9.0,Refused
+667041,ELSA,wave_9_elsa_data_eul_er,ercadp16,Whether looked after person 16 in household,-8.0,Don't Know
+667042,ELSA,wave_9_elsa_data_eul_er,ercadp16,Whether looked after person 16 in household,-1.0,Not applicable
+667043,ELSA,wave_9_elsa_data_eul_er,ercadp16,Whether looked after person 16 in household,0.0,Not mentioned
+667044,ELSA,wave_9_elsa_data_eul_er,ercadp16,Whether looked after person 16 in household,1.0,Mentioned
+667045,ELSA,wave_9_elsa_data_eul_er,ercac,Hours spent looking after other people last week,-9.0,Refused
+667046,ELSA,wave_9_elsa_data_eul_er,ercac,Hours spent looking after other people last week,-8.0,Don't know
+667047,ELSA,wave_9_elsa_data_eul_er,ercac,Hours spent looking after other people last week,-1.0,Not applicable
+667048,ELSA,wave_9_elsa_data_eul_er,erresck,Whether there is anyone not living with the respondent who they look after,-9.0,Refused
+667049,ELSA,wave_9_elsa_data_eul_er,erresck,Whether there is anyone not living with the respondent who they look after,-8.0,Don't Know
+667050,ELSA,wave_9_elsa_data_eul_er,erresck,Whether there is anyone not living with the respondent who they look after,-1.0,Not applicable
+667051,ELSA,wave_9_elsa_data_eul_er,erresck,Whether there is anyone not living with the respondent who they look after,1.0,Yes
+667052,ELSA,wave_9_elsa_data_eul_er,erresck,Whether there is anyone not living with the respondent who they look after,2.0,No
+667053,ELSA,wave_9_elsa_data_eul_er,erresnm,How many people respondent looks after or helps,-9.0,Refused
+667054,ELSA,wave_9_elsa_data_eul_er,erresnm,How many people respondent looks after or helps,-8.0,Don't know
+667055,ELSA,wave_9_elsa_data_eul_er,erresnm,How many people respondent looks after or helps,-1.0,Not applicable
+667056,ELSA,wave_9_elsa_data_eul_er,eragec1,Age(s) of person/people looked after: 0-15 years,-9.0,Refused
+667057,ELSA,wave_9_elsa_data_eul_er,eragec1,Age(s) of person/people looked after: 0-15 years,-8.0,Don't Know
+667058,ELSA,wave_9_elsa_data_eul_er,eragec1,Age(s) of person/people looked after: 0-15 years,-1.0,Not applicable
+667059,ELSA,wave_9_elsa_data_eul_er,eragec1,Age(s) of person/people looked after: 0-15 years,0.0,Not mentioned
+667060,ELSA,wave_9_elsa_data_eul_er,eragec1,Age(s) of person/people looked after: 0-15 years,1.0,Mentioned
+667061,ELSA,wave_9_elsa_data_eul_er,eragec2,Age(s) of person/people looked after: 16-64 years,-9.0,Refused
+667062,ELSA,wave_9_elsa_data_eul_er,eragec2,Age(s) of person/people looked after: 16-64 years,-8.0,Don't Know
+667063,ELSA,wave_9_elsa_data_eul_er,eragec2,Age(s) of person/people looked after: 16-64 years,-1.0,Not applicable
+667064,ELSA,wave_9_elsa_data_eul_er,eragec2,Age(s) of person/people looked after: 16-64 years,0.0,Not mentioned
+667065,ELSA,wave_9_elsa_data_eul_er,eragec2,Age(s) of person/people looked after: 16-64 years,1.0,Mentioned
+667066,ELSA,wave_9_elsa_data_eul_er,eragec3,Age(s) of person/people looked after: 65 years plus,-9.0,Refused
+667067,ELSA,wave_9_elsa_data_eul_er,eragec3,Age(s) of person/people looked after: 65 years plus,-8.0,Don't Know
+667068,ELSA,wave_9_elsa_data_eul_er,eragec3,Age(s) of person/people looked after: 65 years plus,-1.0,Not applicable
+667069,ELSA,wave_9_elsa_data_eul_er,eragec3,Age(s) of person/people looked after: 65 years plus,0.0,Not mentioned
+667070,ELSA,wave_9_elsa_data_eul_er,eragec3,Age(s) of person/people looked after: 65 years plus,1.0,Mentioned
+667071,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,-9.0,Refused
+667072,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,-8.0,Don't Know
+667073,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,-1.0,Not applicable
+667074,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,1.0,No help in the last week
+667075,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,2.0,Less than one hour
+667076,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,3.0,1-4 hours
+667077,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,4.0,5-9 hours
+667078,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,5.0,10-19 hours
+667079,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,6.0,20-34 hours
+667080,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,7.0,35-49 hours
+667081,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,8.0,50-99 hours
+667082,ELSA,wave_9_elsa_data_eul_er,erchld,Hours spent helping the person aged 0-15 in the last week,9.0,100 hours or more
+667083,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,-9.0,Refused
+667084,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,-8.0,Don't Know
+667085,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,-1.0,Not applicable
+667086,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,1.0,No help in the last week
+667087,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,2.0,Less than one hour
+667088,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,3.0,1-4 hours
+667089,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,4.0,5-9 hours
+667090,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,5.0,10-19 hours
+667091,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,6.0,20-34 hours
+667092,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,7.0,35-49 hours
+667093,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,8.0,50-99 hours
+667094,ELSA,wave_9_elsa_data_eul_er,eradlt,Hours spent helping the person aged 16-64 in the last week,9.0,100 hours or more
+667095,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,-9.0,Refused
+667096,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,-8.0,Don't Know
+667097,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,-1.0,Not applicable
+667098,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,1.0,No help in the last week
+667099,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,2.0,Less than one hour
+667100,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,3.0,1-4 hours
+667101,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,4.0,5-9 hours
+667102,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,5.0,10-19 hours
+667103,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,6.0,20-34 hours
+667104,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,7.0,35-49 hours
+667105,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,8.0,50-99 hours
+667106,ELSA,wave_9_elsa_data_eul_er,eroldr,Hours spent helping the person aged 65 or over in the last week,9.0,100 hours or more
+667107,ELSA,wave_9_elsa_data_eul_er,erresbk,Whether someone else would have to look after them if respondent wanted a break ,-9.0,Refused
+667108,ELSA,wave_9_elsa_data_eul_er,erresbk,Whether someone else would have to look after them if respondent wanted a break ,-8.0,Don't Know
+667109,ELSA,wave_9_elsa_data_eul_er,erresbk,Whether someone else would have to look after them if respondent wanted a break ,-1.0,Not applicable
+667110,ELSA,wave_9_elsa_data_eul_er,erresbk,Whether someone else would have to look after them if respondent wanted a break ,1.0,"Yes, someone else needed"
+667111,ELSA,wave_9_elsa_data_eul_er,erresbk,Whether someone else would have to look after them if respondent wanted a break ,2.0,No
+667112,ELSA,wave_9_elsa_data_eul_er,erresry,Whether there is anyone the respondent could rely on to look after this person (,-9.0,Refused
+667113,ELSA,wave_9_elsa_data_eul_er,erresry,Whether there is anyone the respondent could rely on to look after this person (,-8.0,Don't Know
+667114,ELSA,wave_9_elsa_data_eul_er,erresry,Whether there is anyone the respondent could rely on to look after this person (,-1.0,Not applicable
+667115,ELSA,wave_9_elsa_data_eul_er,erresry,Whether there is anyone the respondent could rely on to look after this person (,1.0,Yes
+667116,ELSA,wave_9_elsa_data_eul_er,erresry,Whether there is anyone the respondent could rely on to look after this person (,2.0,No
+667117,ELSA,wave_9_elsa_data_eul_er,erresers1,Respondent could rely on: a sitting service (helping person aged 0-15),-9.0,Refused
+667118,ELSA,wave_9_elsa_data_eul_er,erresers1,Respondent could rely on: a sitting service (helping person aged 0-15),-8.0,Don't Know
+667119,ELSA,wave_9_elsa_data_eul_er,erresers1,Respondent could rely on: a sitting service (helping person aged 0-15),-1.0,Not applicable
+667120,ELSA,wave_9_elsa_data_eul_er,erresers1,Respondent could rely on: a sitting service (helping person aged 0-15),0.0,Not mentioned
+667121,ELSA,wave_9_elsa_data_eul_er,erresers1,Respondent could rely on: a sitting service (helping person aged 0-15),1.0,Mentioned
+667122,ELSA,wave_9_elsa_data_eul_er,erreserb1,Respondent could rely on: a befriending service (helping person aged 0-15),-9.0,Refused
+667123,ELSA,wave_9_elsa_data_eul_er,erreserb1,Respondent could rely on: a befriending service (helping person aged 0-15),-8.0,Don't Know
+667124,ELSA,wave_9_elsa_data_eul_er,erreserb1,Respondent could rely on: a befriending service (helping person aged 0-15),-1.0,Not applicable
+667125,ELSA,wave_9_elsa_data_eul_er,erreserb1,Respondent could rely on: a befriending service (helping person aged 0-15),0.0,Not mentioned
+667126,ELSA,wave_9_elsa_data_eul_er,erreserb1,Respondent could rely on: a befriending service (helping person aged 0-15),1.0,Mentioned
+667127,ELSA,wave_9_elsa_data_eul_er,erreserd1,Respondent could rely on: day-care at centre or hospital (helping person aged 0-,-9.0,Refused
+667128,ELSA,wave_9_elsa_data_eul_er,erreserd1,Respondent could rely on: day-care at centre or hospital (helping person aged 0-,-8.0,Don't Know
+667129,ELSA,wave_9_elsa_data_eul_er,erreserd1,Respondent could rely on: day-care at centre or hospital (helping person aged 0-,-1.0,Not applicable
+667130,ELSA,wave_9_elsa_data_eul_er,erreserd1,Respondent could rely on: day-care at centre or hospital (helping person aged 0-,0.0,Not mentioned
+667131,ELSA,wave_9_elsa_data_eul_er,erreserd1,Respondent could rely on: day-care at centre or hospital (helping person aged 0-,1.0,Mentioned
+667132,ELSA,wave_9_elsa_data_eul_er,erreseri1,Respondent could rely on: in-home respite (helping person aged 0-15),-9.0,Refused
+667133,ELSA,wave_9_elsa_data_eul_er,erreseri1,Respondent could rely on: in-home respite (helping person aged 0-15),-8.0,Don't Know
+667134,ELSA,wave_9_elsa_data_eul_er,erreseri1,Respondent could rely on: in-home respite (helping person aged 0-15),-1.0,Not applicable
+667135,ELSA,wave_9_elsa_data_eul_er,erreseri1,Respondent could rely on: in-home respite (helping person aged 0-15),0.0,Not mentioned
+667136,ELSA,wave_9_elsa_data_eul_er,erreseri1,Respondent could rely on: in-home respite (helping person aged 0-15),1.0,Mentioned
+667137,ELSA,wave_9_elsa_data_eul_er,erresero1,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-9.0,Refused
+667138,ELSA,wave_9_elsa_data_eul_er,erresero1,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-8.0,Don't Know
+667139,ELSA,wave_9_elsa_data_eul_er,erresero1,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-1.0,Not applicable
+667140,ELSA,wave_9_elsa_data_eul_er,erresero1,Respondent could rely on: overnight respite where person stays elsewhere (helpin,0.0,Not mentioned
+667141,ELSA,wave_9_elsa_data_eul_er,erresero1,Respondent could rely on: overnight respite where person stays elsewhere (helpin,1.0,Mentioned
+667142,ELSA,wave_9_elsa_data_eul_er,erreserh1,Respondent could rely on: overnight respite where are worker stays in the home (,-9.0,Refused
+667143,ELSA,wave_9_elsa_data_eul_er,erreserh1,Respondent could rely on: overnight respite where are worker stays in the home (,-8.0,Don't Know
+667144,ELSA,wave_9_elsa_data_eul_er,erreserh1,Respondent could rely on: overnight respite where are worker stays in the home (,-1.0,Not applicable
+667145,ELSA,wave_9_elsa_data_eul_er,erreserh1,Respondent could rely on: overnight respite where are worker stays in the home (,0.0,Not mentioned
+667146,ELSA,wave_9_elsa_data_eul_er,erreserh1,Respondent could rely on: overnight respite where are worker stays in the home (,1.0,Mentioned
+667147,ELSA,wave_9_elsa_data_eul_er,erresbk2,Whether someone else would have to look after them if respondent wanted a break ,-9.0,Refused
+667148,ELSA,wave_9_elsa_data_eul_er,erresbk2,Whether someone else would have to look after them if respondent wanted a break ,-8.0,Don't Know
+667149,ELSA,wave_9_elsa_data_eul_er,erresbk2,Whether someone else would have to look after them if respondent wanted a break ,-1.0,Not applicable
+667150,ELSA,wave_9_elsa_data_eul_er,erresbk2,Whether someone else would have to look after them if respondent wanted a break ,1.0,"Yes, someone else needed"
+667151,ELSA,wave_9_elsa_data_eul_er,erresbk2,Whether someone else would have to look after them if respondent wanted a break ,2.0,No
+667152,ELSA,wave_9_elsa_data_eul_er,erresry2,Whether there is anyone the respondent could rely on to look after this person (,-9.0,Refused
+667153,ELSA,wave_9_elsa_data_eul_er,erresry2,Whether there is anyone the respondent could rely on to look after this person (,-8.0,Don't Know
+667154,ELSA,wave_9_elsa_data_eul_er,erresry2,Whether there is anyone the respondent could rely on to look after this person (,-1.0,Not applicable
+667155,ELSA,wave_9_elsa_data_eul_er,erresry2,Whether there is anyone the respondent could rely on to look after this person (,1.0,Yes
+667156,ELSA,wave_9_elsa_data_eul_er,erresry2,Whether there is anyone the respondent could rely on to look after this person (,2.0,No
+667157,ELSA,wave_9_elsa_data_eul_er,erresers2,Respondent could rely on: a sitting service (helping person aged 16-64),-9.0,Refused
+667158,ELSA,wave_9_elsa_data_eul_er,erresers2,Respondent could rely on: a sitting service (helping person aged 16-64),-8.0,Don't Know
+667159,ELSA,wave_9_elsa_data_eul_er,erresers2,Respondent could rely on: a sitting service (helping person aged 16-64),-1.0,Not applicable
+667160,ELSA,wave_9_elsa_data_eul_er,erresers2,Respondent could rely on: a sitting service (helping person aged 16-64),0.0,Not mentioned
+667161,ELSA,wave_9_elsa_data_eul_er,erresers2,Respondent could rely on: a sitting service (helping person aged 16-64),1.0,Mentioned
+667162,ELSA,wave_9_elsa_data_eul_er,erreserb2,Respondent could rely on: a befriending service (helping person aged 16-64),-9.0,Refused
+667163,ELSA,wave_9_elsa_data_eul_er,erreserb2,Respondent could rely on: a befriending service (helping person aged 16-64),-8.0,Don't Know
+667164,ELSA,wave_9_elsa_data_eul_er,erreserb2,Respondent could rely on: a befriending service (helping person aged 16-64),-1.0,Not applicable
+667165,ELSA,wave_9_elsa_data_eul_er,erreserb2,Respondent could rely on: a befriending service (helping person aged 16-64),0.0,Not mentioned
+667166,ELSA,wave_9_elsa_data_eul_er,erreserb2,Respondent could rely on: a befriending service (helping person aged 16-64),1.0,Mentioned
+667167,ELSA,wave_9_elsa_data_eul_er,erreserd2,Respondent could rely on: day-care at centre or hospital (helping person aged 16,-9.0,Refused
+667168,ELSA,wave_9_elsa_data_eul_er,erreserd2,Respondent could rely on: day-care at centre or hospital (helping person aged 16,-8.0,Don't Know
+667169,ELSA,wave_9_elsa_data_eul_er,erreserd2,Respondent could rely on: day-care at centre or hospital (helping person aged 16,-1.0,Not applicable
+667170,ELSA,wave_9_elsa_data_eul_er,erreserd2,Respondent could rely on: day-care at centre or hospital (helping person aged 16,0.0,Not mentioned
+667171,ELSA,wave_9_elsa_data_eul_er,erreserd2,Respondent could rely on: day-care at centre or hospital (helping person aged 16,1.0,Mentioned
+667172,ELSA,wave_9_elsa_data_eul_er,erreseri2,Respondent could rely on: in-home respite (helping person aged 16-64),-9.0,Refused
+667173,ELSA,wave_9_elsa_data_eul_er,erreseri2,Respondent could rely on: in-home respite (helping person aged 16-64),-8.0,Don't Know
+667174,ELSA,wave_9_elsa_data_eul_er,erreseri2,Respondent could rely on: in-home respite (helping person aged 16-64),-1.0,Not applicable
+667175,ELSA,wave_9_elsa_data_eul_er,erreseri2,Respondent could rely on: in-home respite (helping person aged 16-64),0.0,Not mentioned
+667176,ELSA,wave_9_elsa_data_eul_er,erreseri2,Respondent could rely on: in-home respite (helping person aged 16-64),1.0,Mentioned
+667177,ELSA,wave_9_elsa_data_eul_er,erresero2,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-9.0,Refused
+667178,ELSA,wave_9_elsa_data_eul_er,erresero2,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-8.0,Don't Know
+667179,ELSA,wave_9_elsa_data_eul_er,erresero2,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-1.0,Not applicable
+667180,ELSA,wave_9_elsa_data_eul_er,erresero2,Respondent could rely on: overnight respite where person stays elsewhere (helpin,0.0,Not mentioned
+667181,ELSA,wave_9_elsa_data_eul_er,erresero2,Respondent could rely on: overnight respite where person stays elsewhere (helpin,1.0,Mentioned
+667182,ELSA,wave_9_elsa_data_eul_er,erreserh2,Respondent could rely on: overnight respite where are worker stays in the home (,-9.0,Refused
+667183,ELSA,wave_9_elsa_data_eul_er,erreserh2,Respondent could rely on: overnight respite where are worker stays in the home (,-8.0,Don't Know
+667184,ELSA,wave_9_elsa_data_eul_er,erreserh2,Respondent could rely on: overnight respite where are worker stays in the home (,-1.0,Not applicable
+667185,ELSA,wave_9_elsa_data_eul_er,erreserh2,Respondent could rely on: overnight respite where are worker stays in the home (,0.0,Not mentioned
+667186,ELSA,wave_9_elsa_data_eul_er,erreserh2,Respondent could rely on: overnight respite where are worker stays in the home (,1.0,Mentioned
+667187,ELSA,wave_9_elsa_data_eul_er,erresern2,Respondent could rely on: none of these (helping person aged 16-64),-9.0,Refused
+667188,ELSA,wave_9_elsa_data_eul_er,erresern2,Respondent could rely on: none of these (helping person aged 16-64),-8.0,Don't Know
+667189,ELSA,wave_9_elsa_data_eul_er,erresern2,Respondent could rely on: none of these (helping person aged 16-64),-1.0,Not applicable
+667190,ELSA,wave_9_elsa_data_eul_er,erresern2,Respondent could rely on: none of these (helping person aged 16-64),0.0,Not mentioned
+667191,ELSA,wave_9_elsa_data_eul_er,erresern2,Respondent could rely on: none of these (helping person aged 16-64),1.0,Mentioned
+667192,ELSA,wave_9_elsa_data_eul_er,erresern1,Respondent could rely on: none of these (helping person aged 0-15),-9.0,Refused
+667193,ELSA,wave_9_elsa_data_eul_er,erresern1,Respondent could rely on: none of these (helping person aged 0-15),-8.0,Don't Know
+667194,ELSA,wave_9_elsa_data_eul_er,erresern1,Respondent could rely on: none of these (helping person aged 0-15),-1.0,Not applicable
+667195,ELSA,wave_9_elsa_data_eul_er,erresern1,Respondent could rely on: none of these (helping person aged 0-15),0.0,Not mentioned
+667196,ELSA,wave_9_elsa_data_eul_er,erresern1,Respondent could rely on: none of these (helping person aged 0-15),1.0,Mentioned
+667197,ELSA,wave_9_elsa_data_eul_er,erresbk3,Whether someone else would have to look after them if respondent wanted a break ,-9.0,Refused
+667198,ELSA,wave_9_elsa_data_eul_er,erresbk3,Whether someone else would have to look after them if respondent wanted a break ,-8.0,Don't Know
+667199,ELSA,wave_9_elsa_data_eul_er,erresbk3,Whether someone else would have to look after them if respondent wanted a break ,-1.0,Not applicable
+667200,ELSA,wave_9_elsa_data_eul_er,erresbk3,Whether someone else would have to look after them if respondent wanted a break ,1.0,"Yes, someone else needed"
+667201,ELSA,wave_9_elsa_data_eul_er,erresbk3,Whether someone else would have to look after them if respondent wanted a break ,2.0,No
+667202,ELSA,wave_9_elsa_data_eul_er,erresry3,Whether there is anyone the respondent could rely on to look after this person (,-9.0,Refused
+667203,ELSA,wave_9_elsa_data_eul_er,erresry3,Whether there is anyone the respondent could rely on to look after this person (,-8.0,Don't Know
+667204,ELSA,wave_9_elsa_data_eul_er,erresry3,Whether there is anyone the respondent could rely on to look after this person (,-1.0,Not applicable
+667205,ELSA,wave_9_elsa_data_eul_er,erresry3,Whether there is anyone the respondent could rely on to look after this person (,1.0,Yes
+667206,ELSA,wave_9_elsa_data_eul_er,erresry3,Whether there is anyone the respondent could rely on to look after this person (,2.0,No
+667207,ELSA,wave_9_elsa_data_eul_er,erresers3,Respondent could rely on: a sitting service (helping person aged 65 or over),-9.0,Refused
+667208,ELSA,wave_9_elsa_data_eul_er,erresers3,Respondent could rely on: a sitting service (helping person aged 65 or over),-8.0,Don't Know
+667209,ELSA,wave_9_elsa_data_eul_er,erresers3,Respondent could rely on: a sitting service (helping person aged 65 or over),-1.0,Not applicable
+667210,ELSA,wave_9_elsa_data_eul_er,erresers3,Respondent could rely on: a sitting service (helping person aged 65 or over),0.0,Not mentioned
+667211,ELSA,wave_9_elsa_data_eul_er,erresers3,Respondent could rely on: a sitting service (helping person aged 65 or over),1.0,Mentioned
+667212,ELSA,wave_9_elsa_data_eul_er,erreserb3,Respondent could rely on: a befriending service (helping person aged 65 or over),-9.0,Refused
+667213,ELSA,wave_9_elsa_data_eul_er,erreserb3,Respondent could rely on: a befriending service (helping person aged 65 or over),-8.0,Don't Know
+667214,ELSA,wave_9_elsa_data_eul_er,erreserb3,Respondent could rely on: a befriending service (helping person aged 65 or over),-1.0,Not applicable
+667215,ELSA,wave_9_elsa_data_eul_er,erreserb3,Respondent could rely on: a befriending service (helping person aged 65 or over),0.0,Not mentioned
+667216,ELSA,wave_9_elsa_data_eul_er,erreserb3,Respondent could rely on: a befriending service (helping person aged 65 or over),1.0,Mentioned
+667217,ELSA,wave_9_elsa_data_eul_er,erreserd3,Respondent could rely on: day-care at centre or hospital (helping person aged 65,-9.0,Refused
+667218,ELSA,wave_9_elsa_data_eul_er,erreserd3,Respondent could rely on: day-care at centre or hospital (helping person aged 65,-8.0,Don't Know
+667219,ELSA,wave_9_elsa_data_eul_er,erreserd3,Respondent could rely on: day-care at centre or hospital (helping person aged 65,-1.0,Not applicable
+667220,ELSA,wave_9_elsa_data_eul_er,erreserd3,Respondent could rely on: day-care at centre or hospital (helping person aged 65,0.0,Not mentioned
+667221,ELSA,wave_9_elsa_data_eul_er,erreserd3,Respondent could rely on: day-care at centre or hospital (helping person aged 65,1.0,Mentioned
+667222,ELSA,wave_9_elsa_data_eul_er,erreseri3,Respondent could rely on: in-home respite (helping person aged 65 or over),-9.0,Refused
+667223,ELSA,wave_9_elsa_data_eul_er,erreseri3,Respondent could rely on: in-home respite (helping person aged 65 or over),-8.0,Don't Know
+667224,ELSA,wave_9_elsa_data_eul_er,erreseri3,Respondent could rely on: in-home respite (helping person aged 65 or over),-1.0,Not applicable
+667225,ELSA,wave_9_elsa_data_eul_er,erreseri3,Respondent could rely on: in-home respite (helping person aged 65 or over),0.0,Not mentioned
+667226,ELSA,wave_9_elsa_data_eul_er,erreseri3,Respondent could rely on: in-home respite (helping person aged 65 or over),1.0,Mentioned
+667227,ELSA,wave_9_elsa_data_eul_er,erresero3,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-9.0,Refused
+667228,ELSA,wave_9_elsa_data_eul_er,erresero3,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-8.0,Don't Know
+667229,ELSA,wave_9_elsa_data_eul_er,erresero3,Respondent could rely on: overnight respite where person stays elsewhere (helpin,-1.0,Not applicable
+667230,ELSA,wave_9_elsa_data_eul_er,erresero3,Respondent could rely on: overnight respite where person stays elsewhere (helpin,0.0,Not mentioned
+667231,ELSA,wave_9_elsa_data_eul_er,erresero3,Respondent could rely on: overnight respite where person stays elsewhere (helpin,1.0,Mentioned
+667232,ELSA,wave_9_elsa_data_eul_er,erreserh3,Respondent could rely on: overnight respite where are worker stays in the home (,-9.0,Refused
+667233,ELSA,wave_9_elsa_data_eul_er,erreserh3,Respondent could rely on: overnight respite where are worker stays in the home (,-8.0,Don't Know
+667234,ELSA,wave_9_elsa_data_eul_er,erreserh3,Respondent could rely on: overnight respite where are worker stays in the home (,-1.0,Not applicable
+667235,ELSA,wave_9_elsa_data_eul_er,erreserh3,Respondent could rely on: overnight respite where are worker stays in the home (,0.0,Not mentioned
+667236,ELSA,wave_9_elsa_data_eul_er,erreserh3,Respondent could rely on: overnight respite where are worker stays in the home (,1.0,Mentioned
+667237,ELSA,wave_9_elsa_data_eul_er,erresern3,Respondent could rely on: none of these (helping person aged 65 or over),-9.0,Refused
+667238,ELSA,wave_9_elsa_data_eul_er,erresern3,Respondent could rely on: none of these (helping person aged 65 or over),-8.0,Don't Know
+667239,ELSA,wave_9_elsa_data_eul_er,erresern3,Respondent could rely on: none of these (helping person aged 65 or over),-1.0,Not applicable
+667240,ELSA,wave_9_elsa_data_eul_er,erresern3,Respondent could rely on: none of these (helping person aged 65 or over),0.0,Not mentioned
+667241,ELSA,wave_9_elsa_data_eul_er,erresern3,Respondent could rely on: none of these (helping person aged 65 or over),1.0,Mentioned
+667242,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,-9.0,Refused
+667243,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,-8.0,Don't Know
+667244,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,-1.0,Not applicable
+667245,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,1.0,At least once a week
+667246,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,2.0,Once or twice a month
+667247,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,3.0,6-11 times a year
+667248,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,4.0,1-5 times a year
+667249,ELSA,wave_9_elsa_data_eul_er,erresof,How often respondent uses any of the daytime respite services,5.0,Less than once a year
+667250,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,-9.0,Refused
+667251,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,-8.0,Don't Know
+667252,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,-1.0,Not applicable
+667253,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,1.0,At least once a week
+667254,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,2.0,Once or twice a month
+667255,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,3.0,6-11 times a year
+667256,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,4.0,1-5 times a year
+667257,ELSA,wave_9_elsa_data_eul_er,erreson,How often respondent uses any of the overnight respite services,5.0,Less than once a year
+667258,ELSA,wave_9_elsa_data_eul_er,ercara,Respondent is satisfied with what they have gained so far from caring for others,-9.0,Refused
+667259,ELSA,wave_9_elsa_data_eul_er,ercara,Respondent is satisfied with what they have gained so far from caring for others,-8.0,Don't Know
+667260,ELSA,wave_9_elsa_data_eul_er,ercara,Respondent is satisfied with what they have gained so far from caring for others,-1.0,Not applicable
+667261,ELSA,wave_9_elsa_data_eul_er,ercara,Respondent is satisfied with what they have gained so far from caring for others,1.0,Strongly agree
+667262,ELSA,wave_9_elsa_data_eul_er,ercara,Respondent is satisfied with what they have gained so far from caring for others,2.0,Agree
+667263,ELSA,wave_9_elsa_data_eul_er,ercara,Respondent is satisfied with what they have gained so far from caring for others,3.0,Disagree
+667264,ELSA,wave_9_elsa_data_eul_er,ercara,Respondent is satisfied with what they have gained so far from caring for others,4.0,Strongly disagree
+667265,ELSA,wave_9_elsa_data_eul_er,ercarb,Respondent feels they have been adequately appreciated for caring for others,-9.0,Refused
+667266,ELSA,wave_9_elsa_data_eul_er,ercarb,Respondent feels they have been adequately appreciated for caring for others,-8.0,Don't Know
+667267,ELSA,wave_9_elsa_data_eul_er,ercarb,Respondent feels they have been adequately appreciated for caring for others,-1.0,Not applicable
+667268,ELSA,wave_9_elsa_data_eul_er,ercarb,Respondent feels they have been adequately appreciated for caring for others,1.0,Strongly agree
+667269,ELSA,wave_9_elsa_data_eul_er,ercarb,Respondent feels they have been adequately appreciated for caring for others,2.0,Agree
+667270,ELSA,wave_9_elsa_data_eul_er,ercarb,Respondent feels they have been adequately appreciated for caring for others,3.0,Disagree
+667271,ELSA,wave_9_elsa_data_eul_er,ercarb,Respondent feels they have been adequately appreciated for caring for others,4.0,Strongly disagree
+667272,ELSA,wave_9_elsa_data_eul_er,avail_from_dt,,,
+667273,ELSA,wave_9_elsa_data_eul_er,idahhw9_e,,,

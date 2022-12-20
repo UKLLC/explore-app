@@ -1,0 +1,463 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+658305,ELSA,wave_9_elsa_data_eul_cf,study_id_e,,,
+658306,ELSA,wave_9_elsa_data_eul_cf,perid,Person number in household,-9.0,Refused
+658307,ELSA,wave_9_elsa_data_eul_cf,perid,Person number in household,-8.0,Don't know
+658308,ELSA,wave_9_elsa_data_eul_cf,perid,Person number in household,-1.0,Not applicable
+658309,ELSA,wave_9_elsa_data_eul_cf,iintdatd,interview day   - individual interview,,
+658310,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,-9.0,Refused
+658311,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,-8.0,Don't know
+658312,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,-1.0,Not applicable
+658313,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,1.0,January
+658314,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,2.0,February
+658315,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,3.0,March
+658316,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,4.0,April
+658317,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,5.0,May
+658318,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,6.0,June
+658319,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,7.0,July
+658320,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,8.0,August
+658321,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,9.0,September
+658322,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,10.0,October
+658323,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,11.0,November
+658324,ELSA,wave_9_elsa_data_eul_cf,iintdatm,interview month - individual interview,12.0,December
+658325,ELSA,wave_9_elsa_data_eul_cf,iintdaty,interview year  - individual interview,,
+658326,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,-9.0,Refused
+658327,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,-8.0,Don't Know
+658328,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,-1.0,Not applicable
+658329,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,1.0,Excellent
+658330,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,2.0,Very good
+658331,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,3.0,Good
+658332,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,4.0,Fair
+658333,ELSA,wave_9_elsa_data_eul_cf,cfmetm,Self-rated memory,5.0,Poor
+658334,ELSA,wave_9_elsa_data_eul_cf,cfmetmt,Perception of memory compared to 2 years ago,-9.0,Refused
+658335,ELSA,wave_9_elsa_data_eul_cf,cfmetmt,Perception of memory compared to 2 years ago,-8.0,Don't Know
+658336,ELSA,wave_9_elsa_data_eul_cf,cfmetmt,Perception of memory compared to 2 years ago,-1.0,Not applicable
+658337,ELSA,wave_9_elsa_data_eul_cf,cfmetmt,Perception of memory compared to 2 years ago,1.0,Better now
+658338,ELSA,wave_9_elsa_data_eul_cf,cfmetmt,Perception of memory compared to 2 years ago,2.0,About the same
+658339,ELSA,wave_9_elsa_data_eul_cf,cfmetmt,Perception of memory compared to 2 years ago,3.0,Worse now than it was then
+658340,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,-9.0,Refused
+658341,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,-8.0,Don't Know
+658342,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,-1.0,Not applicable
+658343,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,1.0,Excellent
+658344,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,2.0,Very good
+658345,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,3.0,Good
+658346,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,4.0,Fair
+658347,ELSA,wave_9_elsa_data_eul_cf,cfmap,Self-rated mental abilities,5.0,Poor
+658348,ELSA,wave_9_elsa_data_eul_cf,cfmaty,Perception of mental abilities compared to 2 years ago,-9.0,Refused
+658349,ELSA,wave_9_elsa_data_eul_cf,cfmaty,Perception of mental abilities compared to 2 years ago,-8.0,Don't Know
+658350,ELSA,wave_9_elsa_data_eul_cf,cfmaty,Perception of mental abilities compared to 2 years ago,-1.0,Not applicable
+658351,ELSA,wave_9_elsa_data_eul_cf,cfmaty,Perception of mental abilities compared to 2 years ago,1.0,Better now
+658352,ELSA,wave_9_elsa_data_eul_cf,cfmaty,Perception of mental abilities compared to 2 years ago,2.0,About the same
+658353,ELSA,wave_9_elsa_data_eul_cf,cfmaty,Perception of mental abilities compared to 2 years ago,3.0,Worse now than they were then
+658354,ELSA,wave_9_elsa_data_eul_cf,cfdatd,Whether correct day of month given,-9.0,Refused
+658355,ELSA,wave_9_elsa_data_eul_cf,cfdatd,Whether correct day of month given,-8.0,Don't Know
+658356,ELSA,wave_9_elsa_data_eul_cf,cfdatd,Whether correct day of month given,-1.0,Not applicable
+658357,ELSA,wave_9_elsa_data_eul_cf,cfdatd,Whether correct day of month given,1.0,Day of month given correctly
+658358,ELSA,wave_9_elsa_data_eul_cf,cfdatd,Whether correct day of month given,2.0,Day of month given incorrectly
+658359,ELSA,wave_9_elsa_data_eul_cf,cfdatm,Whether correct month given,-9.0,Refused
+658360,ELSA,wave_9_elsa_data_eul_cf,cfdatm,Whether correct month given,-8.0,Don't Know
+658361,ELSA,wave_9_elsa_data_eul_cf,cfdatm,Whether correct month given,-1.0,Not applicable
+658362,ELSA,wave_9_elsa_data_eul_cf,cfdatm,Whether correct month given,1.0,Month given correctly
+658363,ELSA,wave_9_elsa_data_eul_cf,cfdatm,Whether correct month given,2.0,Month given incorrectly
+658364,ELSA,wave_9_elsa_data_eul_cf,cfdaty,Whether correct year given,-9.0,Refused
+658365,ELSA,wave_9_elsa_data_eul_cf,cfdaty,Whether correct year given,-8.0,Don't Know
+658366,ELSA,wave_9_elsa_data_eul_cf,cfdaty,Whether correct year given,-1.0,Not applicable
+658367,ELSA,wave_9_elsa_data_eul_cf,cfdaty,Whether correct year given,1.0,Year given correctly
+658368,ELSA,wave_9_elsa_data_eul_cf,cfdaty,Whether correct year given,2.0,Year given incorrectly
+658369,ELSA,wave_9_elsa_data_eul_cf,cfday,Whether correct day given,-9.0,Refused
+658370,ELSA,wave_9_elsa_data_eul_cf,cfday,Whether correct day given,-8.0,Don't Know
+658371,ELSA,wave_9_elsa_data_eul_cf,cfday,Whether correct day given,-1.0,Not applicable
+658372,ELSA,wave_9_elsa_data_eul_cf,cfday,Whether correct day given,1.0,Day of week given correctly
+658373,ELSA,wave_9_elsa_data_eul_cf,cfday,Whether correct day given,2.0,Day of week given incorrectly
+658374,ELSA,wave_9_elsa_data_eul_cf,cfdscr,Computed :score from date questions,-9.0,Refused
+658375,ELSA,wave_9_elsa_data_eul_cf,cfdscr,Computed :score from date questions,-8.0,Don't know
+658376,ELSA,wave_9_elsa_data_eul_cf,cfdscr,Computed :score from date questions,-1.0,Not applicable
+658377,ELSA,wave_9_elsa_data_eul_cf,cftest,Whether word list read by computer or interviewer,-9.0,Refused
+658378,ELSA,wave_9_elsa_data_eul_cf,cftest,Whether word list read by computer or interviewer,-8.0,Don't Know
+658379,ELSA,wave_9_elsa_data_eul_cf,cftest,Whether word list read by computer or interviewer,-1.0,Not applicable
+658380,ELSA,wave_9_elsa_data_eul_cf,cftest,Whether word list read by computer or interviewer,1.0,List read out by computer
+658381,ELSA,wave_9_elsa_data_eul_cf,cftest,Whether word list read by computer or interviewer,2.0,List read out by interviewer
+658382,ELSA,wave_9_elsa_data_eul_cf,cfwrds,Which word list was used (1-4),-9.0,Refused
+658383,ELSA,wave_9_elsa_data_eul_cf,cfwrds,Which word list was used (1-4),-8.0,Don't know
+658384,ELSA,wave_9_elsa_data_eul_cf,cfwrds,Which word list was used (1-4),-1.0,Not applicable
+658385,ELSA,wave_9_elsa_data_eul_cf,cflisen,Number of words recalled immediately,-9.0,Refused
+658386,ELSA,wave_9_elsa_data_eul_cf,cflisen,Number of words recalled immediately,-8.0,Don't know
+658387,ELSA,wave_9_elsa_data_eul_cf,cflisen,Number of words recalled immediately,-1.0,Not applicable
+658388,ELSA,wave_9_elsa_data_eul_cf,cflisp1,Problems with recall: respondent had difficulty hearing any of the words,-9.0,Refused
+658389,ELSA,wave_9_elsa_data_eul_cf,cflisp1,Problems with recall: respondent had difficulty hearing any of the words,-8.0,Don't Know
+658390,ELSA,wave_9_elsa_data_eul_cf,cflisp1,Problems with recall: respondent had difficulty hearing any of the words,-1.0,Not applicable
+658391,ELSA,wave_9_elsa_data_eul_cf,cflisp1,Problems with recall: respondent had difficulty hearing any of the words,0.0,Not mentioned
+658392,ELSA,wave_9_elsa_data_eul_cf,cflisp1,Problems with recall: respondent had difficulty hearing any of the words,1.0,Mentioned
+658393,ELSA,wave_9_elsa_data_eul_cf,cflisp2,Problems with recall: interruption occurred while you were reading list,-9.0,Refused
+658394,ELSA,wave_9_elsa_data_eul_cf,cflisp2,Problems with recall: interruption occurred while you were reading list,-8.0,Don't Know
+658395,ELSA,wave_9_elsa_data_eul_cf,cflisp2,Problems with recall: interruption occurred while you were reading list,-1.0,Not applicable
+658396,ELSA,wave_9_elsa_data_eul_cf,cflisp2,Problems with recall: interruption occurred while you were reading list,0.0,Not mentioned
+658397,ELSA,wave_9_elsa_data_eul_cf,cflisp2,Problems with recall: interruption occurred while you were reading list,1.0,Mentioned
+658398,ELSA,wave_9_elsa_data_eul_cf,cflisp3,Problems with recall: other problem,-9.0,Refused
+658399,ELSA,wave_9_elsa_data_eul_cf,cflisp3,Problems with recall: other problem,-8.0,Don't Know
+658400,ELSA,wave_9_elsa_data_eul_cf,cflisp3,Problems with recall: other problem,-1.0,Not applicable
+658401,ELSA,wave_9_elsa_data_eul_cf,cflisp3,Problems with recall: other problem,0.0,Not mentioned
+658402,ELSA,wave_9_elsa_data_eul_cf,cflisp3,Problems with recall: other problem,1.0,Mentioned
+658403,ELSA,wave_9_elsa_data_eul_cf,cflisp4,Problems with recall: no problems occurred,-9.0,Refused
+658404,ELSA,wave_9_elsa_data_eul_cf,cflisp4,Problems with recall: no problems occurred,-8.0,Don't Know
+658405,ELSA,wave_9_elsa_data_eul_cf,cflisp4,Problems with recall: no problems occurred,-1.0,Not applicable
+658406,ELSA,wave_9_elsa_data_eul_cf,cflisp4,Problems with recall: no problems occurred,0.0,Not mentioned
+658407,ELSA,wave_9_elsa_data_eul_cf,cflisp4,Problems with recall: no problems occurred,1.0,Mentioned
+658408,ELSA,wave_9_elsa_data_eul_cf,cflisp5,Problems with recall: language problem,-9.0,Refused
+658409,ELSA,wave_9_elsa_data_eul_cf,cflisp5,Problems with recall: language problem,-8.0,Don't Know
+658410,ELSA,wave_9_elsa_data_eul_cf,cflisp5,Problems with recall: language problem,-1.0,Not applicable
+658411,ELSA,wave_9_elsa_data_eul_cf,cflisp5,Problems with recall: language problem,0.0,Not mentioned
+658412,ELSA,wave_9_elsa_data_eul_cf,cflisp5,Problems with recall: language problem,1.0,Mentioned
+658413,ELSA,wave_9_elsa_data_eul_cf,cflisa,Whether respondent wrote down any words or used aids to recall the words,-9.0,Refused
+658414,ELSA,wave_9_elsa_data_eul_cf,cflisa,Whether respondent wrote down any words or used aids to recall the words,-8.0,Don't Know
+658415,ELSA,wave_9_elsa_data_eul_cf,cflisa,Whether respondent wrote down any words or used aids to recall the words,-1.0,Not applicable
+658416,ELSA,wave_9_elsa_data_eul_cf,cflisa,Whether respondent wrote down any words or used aids to recall the words,1.0,Respondent definitely used aid
+658417,ELSA,wave_9_elsa_data_eul_cf,cflisa,Whether respondent wrote down any words or used aids to recall the words,2.0,"Suspect that respondent used aid, but not certain"
+658418,ELSA,wave_9_elsa_data_eul_cf,cflisa,Whether respondent wrote down any words or used aids to recall the words,3.0,No reason to think respondent used aid
+658419,ELSA,wave_9_elsa_data_eul_cf,cfani,Number of animals mentioned,-9.0,Refused
+658420,ELSA,wave_9_elsa_data_eul_cf,cfani,Number of animals mentioned,-8.0,Don't know
+658421,ELSA,wave_9_elsa_data_eul_cf,cfani,Number of animals mentioned,-1.0,Not applicable
+658422,ELSA,wave_9_elsa_data_eul_cf,cfc20frst,Counting backwards task: first attempt,-9.0,Refused
+658423,ELSA,wave_9_elsa_data_eul_cf,cfc20frst,Counting backwards task: first attempt,-8.0,Don't Know
+658424,ELSA,wave_9_elsa_data_eul_cf,cfc20frst,Counting backwards task: first attempt,-1.0,Not applicable
+658425,ELSA,wave_9_elsa_data_eul_cf,cfc20frst,Counting backwards task: first attempt,1.0,Correct
+658426,ELSA,wave_9_elsa_data_eul_cf,cfc20frst,Counting backwards task: first attempt,2.0,Incorrect
+658427,ELSA,wave_9_elsa_data_eul_cf,cfc20frst,Counting backwards task: first attempt,3.0,Wants to start again
+658428,ELSA,wave_9_elsa_data_eul_cf,cfc20fscnd,Counting backwards task: second attempt,-9.0,Refused
+658429,ELSA,wave_9_elsa_data_eul_cf,cfc20fscnd,Counting backwards task: second attempt,-8.0,Don't Know
+658430,ELSA,wave_9_elsa_data_eul_cf,cfc20fscnd,Counting backwards task: second attempt,-1.0,Not applicable
+658431,ELSA,wave_9_elsa_data_eul_cf,cfc20fscnd,Counting backwards task: second attempt,1.0,Correct
+658432,ELSA,wave_9_elsa_data_eul_cf,cfc20fscnd,Counting backwards task: second attempt,2.0,Incorrect
+658433,ELSA,wave_9_elsa_data_eul_cf,cfsva,Number subtraction series: first subtraction,-9.0,Refused
+658434,ELSA,wave_9_elsa_data_eul_cf,cfsva,Number subtraction series: first subtraction,-8.0,Don't know
+658435,ELSA,wave_9_elsa_data_eul_cf,cfsva,Number subtraction series: first subtraction,-1.0,Not applicable
+658436,ELSA,wave_9_elsa_data_eul_cf,cfsvb,Number subtraction series: second subtraction,-9.0,Refused
+658437,ELSA,wave_9_elsa_data_eul_cf,cfsvb,Number subtraction series: second subtraction,-8.0,Don't know
+658438,ELSA,wave_9_elsa_data_eul_cf,cfsvb,Number subtraction series: second subtraction,-1.0,Not applicable
+658439,ELSA,wave_9_elsa_data_eul_cf,cfsvc,Number subtraction series: third subtraction,-9.0,Refused
+658440,ELSA,wave_9_elsa_data_eul_cf,cfsvc,Number subtraction series: third subtraction,-8.0,Don't know
+658441,ELSA,wave_9_elsa_data_eul_cf,cfsvc,Number subtraction series: third subtraction,-1.0,Not applicable
+658442,ELSA,wave_9_elsa_data_eul_cf,cfsvd,Number subtraction series: fourth subtraction,-9.0,Refused
+658443,ELSA,wave_9_elsa_data_eul_cf,cfsvd,Number subtraction series: fourth subtraction,-8.0,Don't know
+658444,ELSA,wave_9_elsa_data_eul_cf,cfsvd,Number subtraction series: fourth subtraction,-1.0,Not applicable
+658445,ELSA,wave_9_elsa_data_eul_cf,cfsve,Number subtraction series: fifth subtraction,-9.0,Refused
+658446,ELSA,wave_9_elsa_data_eul_cf,cfsve,Number subtraction series: fifth subtraction,-8.0,Don't know
+658447,ELSA,wave_9_elsa_data_eul_cf,cfsve,Number subtraction series: fifth subtraction,-1.0,Not applicable
+658448,ELSA,wave_9_elsa_data_eul_cf,cfsvch,Number subtraction series: whether used aids,-9.0,Refused
+658449,ELSA,wave_9_elsa_data_eul_cf,cfsvch,Number subtraction series: whether used aids,-8.0,Don't Know
+658450,ELSA,wave_9_elsa_data_eul_cf,cfsvch,Number subtraction series: whether used aids,-1.0,Not applicable
+658451,ELSA,wave_9_elsa_data_eul_cf,cfsvch,Number subtraction series: whether used aids,1.0,Respondent definitely used aid
+658452,ELSA,wave_9_elsa_data_eul_cf,cfsvch,Number subtraction series: whether used aids,2.0,"Suspect that respondent used aid, but not certain"
+658453,ELSA,wave_9_elsa_data_eul_cf,cfsvch,Number subtraction series: whether used aids,3.0,No reason to think respondent used aid
+658454,ELSA,wave_9_elsa_data_eul_cf,cfnmsc,Naming questions: tool used to cut paper,-9.0,Refused
+658455,ELSA,wave_9_elsa_data_eul_cf,cfnmsc,Naming questions: tool used to cut paper,-8.0,Don't Know
+658456,ELSA,wave_9_elsa_data_eul_cf,cfnmsc,Naming questions: tool used to cut paper,-1.0,Not applicable
+658457,ELSA,wave_9_elsa_data_eul_cf,cfnmsc,Naming questions: tool used to cut paper,1.0,Correct answer = scissors
+658458,ELSA,wave_9_elsa_data_eul_cf,cfnmsc,Naming questions: tool used to cut paper,2.0,Incorrect answer
+658459,ELSA,wave_9_elsa_data_eul_cf,cfnmca,Naming questions: name of prickly desert plant,-9.0,Refused
+658460,ELSA,wave_9_elsa_data_eul_cf,cfnmca,Naming questions: name of prickly desert plant,-8.0,Don't Know
+658461,ELSA,wave_9_elsa_data_eul_cf,cfnmca,Naming questions: name of prickly desert plant,-1.0,Not applicable
+658462,ELSA,wave_9_elsa_data_eul_cf,cfnmca,Naming questions: name of prickly desert plant,1.0,Correct answer = cactus or name of kind of cactus
+658463,ELSA,wave_9_elsa_data_eul_cf,cfnmca,Naming questions: name of prickly desert plant,2.0,Incorrect answer
+658464,ELSA,wave_9_elsa_data_eul_cf,cfnmqn,Naming questions: current monarch,-9.0,Refused
+658465,ELSA,wave_9_elsa_data_eul_cf,cfnmqn,Naming questions: current monarch,-8.0,Don't Know
+658466,ELSA,wave_9_elsa_data_eul_cf,cfnmqn,Naming questions: current monarch,-1.0,Not applicable
+658467,ELSA,wave_9_elsa_data_eul_cf,cfnmqn,Naming questions: current monarch,1.0,"Correct answer = Elizabeth, Queen Elizabeth or Queen Elizabe"
+658468,ELSA,wave_9_elsa_data_eul_cf,cfnmqn,Naming questions: current monarch,2.0,Incorrect answer
+658469,ELSA,wave_9_elsa_data_eul_cf,cfnmpm,Naming questions: current PM,-9.0,Refused
+658470,ELSA,wave_9_elsa_data_eul_cf,cfnmpm,Naming questions: current PM,-8.0,Don't Know
+658471,ELSA,wave_9_elsa_data_eul_cf,cfnmpm,Naming questions: current PM,-1.0,Not applicable
+658472,ELSA,wave_9_elsa_data_eul_cf,cfnmpm,Naming questions: current PM,1.0,Correct answer = (last name) Cameron/May
+658473,ELSA,wave_9_elsa_data_eul_cf,cfnmpm,Naming questions: current PM,2.0,Incorrect answer
+658474,ELSA,wave_9_elsa_data_eul_cf,cfnmus,Naming questions: current US president,-9.0,Refused
+658475,ELSA,wave_9_elsa_data_eul_cf,cfnmus,Naming questions: current US president,-8.0,Don't Know
+658476,ELSA,wave_9_elsa_data_eul_cf,cfnmus,Naming questions: current US president,-1.0,Not applicable
+658477,ELSA,wave_9_elsa_data_eul_cf,cfnmus,Naming questions: current US president,1.0,Correct answer = (last name) Obama/Trump
+658478,ELSA,wave_9_elsa_data_eul_cf,cfnmus,Naming questions: current US president,2.0,Incorrect answer
+658479,ELSA,wave_9_elsa_data_eul_cf,cflisd,Number of words recalled after delay,-9.0,Refused
+658480,ELSA,wave_9_elsa_data_eul_cf,cflisd,Number of words recalled after delay,-8.0,Don't know
+658481,ELSA,wave_9_elsa_data_eul_cf,cflisd,Number of words recalled after delay,-1.0,Not applicable
+658482,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,-9.0,Refused
+658483,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,-8.0,Don't Know
+658484,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,-1.0,Not applicable
+658485,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,1.0,Yes
+658486,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,2.0,No - sight difficulties
+658487,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,3.0,No - health problems
+658488,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,4.0,No - other
+658489,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,51.0,No - reading problems
+658490,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,52.0,No - deaf or hard of hearing
+658491,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,53.0,No - too tired
+658492,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,54.0,No - has other illness or physical impairment that affects ability to perform test
+658493,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,55.0,No - impaired concentration
+658494,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,56.0,No - very nervous or anxious
+658495,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,57.0,No - has other mental impairment
+658496,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,58.0,Refusal/ didn't want to take part
+658497,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,59.0,No - didn't know what to do/didn't understand task
+658498,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,60.0,No - distressed/ upset
+658499,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,61.0,No - under influence of alcohol
+658500,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,62.0,"No - interruption or distraction, e.g. phone call or visitor"
+658501,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,63.0,No - noisy environment
+658502,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,85.0,Other answer-not codeable
+658503,ELSA,wave_9_elsa_data_eul_cf,cflitsk,Whether able to do literacy test,86.0,Irrelevant answer-not codeable
+658504,ELSA,wave_9_elsa_data_eul_cf,cflitb,Whether 7 days given as answer,-9.0,Refused
+658505,ELSA,wave_9_elsa_data_eul_cf,cflitb,Whether 7 days given as answer,-8.0,Don't Know
+658506,ELSA,wave_9_elsa_data_eul_cf,cflitb,Whether 7 days given as answer,-1.0,Not applicable
+658507,ELSA,wave_9_elsa_data_eul_cf,cflitb,Whether 7 days given as answer,1.0,Correct answer: seven
+658508,ELSA,wave_9_elsa_data_eul_cf,cflitb,Whether 7 days given as answer,2.0,Incorrect answer: any other response
+658509,ELSA,wave_9_elsa_data_eul_cf,cflitc,Whether three situations when should consult doctor given,-9.0,Refused
+658510,ELSA,wave_9_elsa_data_eul_cf,cflitc,Whether three situations when should consult doctor given,-8.0,Don't Know
+658511,ELSA,wave_9_elsa_data_eul_cf,cflitc,Whether three situations when should consult doctor given,-1.0,Not applicable
+658512,ELSA,wave_9_elsa_data_eul_cf,cflitc,Whether three situations when should consult doctor given,1.0,Correct answer: at least three situations
+658513,ELSA,wave_9_elsa_data_eul_cf,cflitc,Whether three situations when should consult doctor given,2.0,Incorrect answer: any other response
+658514,ELSA,wave_9_elsa_data_eul_cf,cflitd,Whether one condition for taking tablet given,-9.0,Refused
+658515,ELSA,wave_9_elsa_data_eul_cf,cflitd,Whether one condition for taking tablet given,-8.0,Don't Know
+658516,ELSA,wave_9_elsa_data_eul_cf,cflitd,Whether one condition for taking tablet given,-1.0,Not applicable
+658517,ELSA,wave_9_elsa_data_eul_cf,cflitd,Whether one condition for taking tablet given,1.0,Correct answer: one correct condition
+658518,ELSA,wave_9_elsa_data_eul_cf,cflitd,Whether one condition for taking tablet given,2.0,Incorrect answer: any other response
+658519,ELSA,wave_9_elsa_data_eul_cf,cflite,Whether one condition for not taking tablet given,-9.0,Refused
+658520,ELSA,wave_9_elsa_data_eul_cf,cflite,Whether one condition for not taking tablet given,-8.0,Don't Know
+658521,ELSA,wave_9_elsa_data_eul_cf,cflite,Whether one condition for not taking tablet given,-1.0,Not applicable
+658522,ELSA,wave_9_elsa_data_eul_cf,cflite,Whether one condition for not taking tablet given,1.0,Correct answer: one correct condition
+658523,ELSA,wave_9_elsa_data_eul_cf,cflite,Whether one condition for not taking tablet given,2.0,Incorrect answer: any other response
+658524,ELSA,wave_9_elsa_data_eul_cf,cflitf,Computed: score derived from cflitd + cflite,-9.0,Refused
+658525,ELSA,wave_9_elsa_data_eul_cf,cflitf,Computed: score derived from cflitd + cflite,-8.0,Don't Know
+658526,ELSA,wave_9_elsa_data_eul_cf,cflitf,Computed: score derived from cflitd + cflite,-1.0,Not applicable
+658527,ELSA,wave_9_elsa_data_eul_cf,cflitf,Computed: score derived from cflitd + cflite,1.0,Correct answer: one correct condition
+658528,ELSA,wave_9_elsa_data_eul_cf,cflitf,Computed: score derived from cflitd + cflite,2.0,Incorrect answer: any other response
+658529,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,-9.0,Refused
+658530,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,-8.0,Don't Know
+658531,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,-1.0,Not applicable
+658532,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,1.0,150
+658533,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,2.0,100
+658534,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,3.0,200
+658535,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,4.0,250
+658536,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,5.0,600
+658537,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,95.0,Other answer
+658538,ELSA,wave_9_elsa_data_eul_cf,cfsumb,Numeracy test: cost of Â£300 sofa in half price sale,96.0,Doesn't know answer
+658539,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,-9.0,Refused
+658540,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,-8.0,Don't Know
+658541,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,-1.0,Not applicable
+658542,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,1.0,100
+658543,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,2.0,10
+658544,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,3.0,90
+658545,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,4.0,900
+658546,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,95.0,Other answer
+658547,ELSA,wave_9_elsa_data_eul_cf,cfsumc,Numeracy test: number out of one thousand to get disease if chance is 10 per cen,96.0,Doesn't know answer
+658548,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,-9.0,Refused
+658549,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,-8.0,Don't Know
+658550,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,-1.0,Not applicable
+658551,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,1.0,9000
+658552,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,2.0,2000
+658553,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,3.0,3000
+658554,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,4.0,4000
+658555,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,5.0,8000
+658556,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,6.0,12000
+658557,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,7.0,18000
+658558,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,95.0,Other answer
+658559,ELSA,wave_9_elsa_data_eul_cf,cfsumd,Numeracy test: cost of a car if the current sale price of Â£6;000 is two-thirds o,96.0,Doesn't know answer
+658560,ELSA,wave_9_elsa_data_eul_cf,cfsuma,Numeracy test: how much change from one pound if buy a drink for 85 pence,-9.0,Refused
+658561,ELSA,wave_9_elsa_data_eul_cf,cfsuma,Numeracy test: how much change from one pound if buy a drink for 85 pence,-8.0,Don't Know
+658562,ELSA,wave_9_elsa_data_eul_cf,cfsuma,Numeracy test: how much change from one pound if buy a drink for 85 pence,-1.0,Not applicable
+658563,ELSA,wave_9_elsa_data_eul_cf,cfsuma,Numeracy test: how much change from one pound if buy a drink for 85 pence,1.0,15 pence
+658564,ELSA,wave_9_elsa_data_eul_cf,cfsuma,Numeracy test: how much change from one pound if buy a drink for 85 pence,2.0,25 pence
+658565,ELSA,wave_9_elsa_data_eul_cf,cfsuma,Numeracy test: how much change from one pound if buy a drink for 85 pence,95.0,Other answer
+658566,ELSA,wave_9_elsa_data_eul_cf,cfsuma,Numeracy test: how much change from one pound if buy a drink for 85 pence,96.0,Doesn't know answer
+658567,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,-9.0,Refused
+658568,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,-8.0,Don't Know
+658569,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,-1.0,Not applicable
+658570,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,1.0,400000
+658571,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,2.0,200000
+658572,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,3.0,250000
+658573,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,4.0,500000
+658574,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,95.0,Other answer
+658575,ELSA,wave_9_elsa_data_eul_cf,cfsume,Numeracy test: each person's share out of Â£2 million lottery win if five people ,96.0,Doesn't know answer
+658576,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,-9.0,Refused
+658577,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,-8.0,Don't Know
+658578,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,-1.0,Not applicable
+658579,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,1.0,242
+658580,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,2.0,202
+658581,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,3.0,204
+658582,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,4.0,210
+658583,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,5.0,220
+658584,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,6.0,240
+658585,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,95.0,Other answer
+658586,ELSA,wave_9_elsa_data_eul_cf,cfsumf,Numeracy test: value of Â£200 savings after two years at 10% interest rate,96.0,Doesn't know answer
+658587,ELSA,wave_9_elsa_data_eul_cf,cfmscr,Computed: score from maths questions (cfsumb; cfsumc; cfsumd; cfsuma; cfsume; cf,-9.0,Refused
+658588,ELSA,wave_9_elsa_data_eul_cf,cfmscr,Computed: score from maths questions (cfsumb; cfsumc; cfsumd; cfsuma; cfsume; cf,-8.0,Don't know
+658589,ELSA,wave_9_elsa_data_eul_cf,cfmscr,Computed: score from maths questions (cfsumb; cfsumc; cfsumd; cfsuma; cfsume; cf,-1.0,Not applicable
+658590,ELSA,wave_9_elsa_data_eul_cf,cfwhonon,People present in the room other than respondent and interviewer during CF tests,-9.0,Refused
+658591,ELSA,wave_9_elsa_data_eul_cf,cfwhonon,People present in the room other than respondent and interviewer during CF tests,-8.0,Don't Know
+658592,ELSA,wave_9_elsa_data_eul_cf,cfwhonon,People present in the room other than respondent and interviewer during CF tests,-1.0,Not applicable
+658593,ELSA,wave_9_elsa_data_eul_cf,cfwhonon,People present in the room other than respondent and interviewer during CF tests,0.0,Not mentioned
+658594,ELSA,wave_9_elsa_data_eul_cf,cfwhonon,People present in the room other than respondent and interviewer during CF tests,1.0,Mentioned
+658595,ELSA,wave_9_elsa_data_eul_cf,cfwhopar,People present in the room other than respondent and interviewer during CF tests,-9.0,Refused
+658596,ELSA,wave_9_elsa_data_eul_cf,cfwhopar,People present in the room other than respondent and interviewer during CF tests,-8.0,Don't Know
+658597,ELSA,wave_9_elsa_data_eul_cf,cfwhopar,People present in the room other than respondent and interviewer during CF tests,-1.0,Not applicable
+658598,ELSA,wave_9_elsa_data_eul_cf,cfwhopar,People present in the room other than respondent and interviewer during CF tests,0.0,Not mentioned
+658599,ELSA,wave_9_elsa_data_eul_cf,cfwhopar,People present in the room other than respondent and interviewer during CF tests,1.0,Mentioned
+658600,ELSA,wave_9_elsa_data_eul_cf,cfwhoad,People present in the room other than respondent and interviewer during CF tests,-9.0,Refused
+658601,ELSA,wave_9_elsa_data_eul_cf,cfwhoad,People present in the room other than respondent and interviewer during CF tests,-8.0,Don't Know
+658602,ELSA,wave_9_elsa_data_eul_cf,cfwhoad,People present in the room other than respondent and interviewer during CF tests,-1.0,Not applicable
+658603,ELSA,wave_9_elsa_data_eul_cf,cfwhoad,People present in the room other than respondent and interviewer during CF tests,0.0,Not mentioned
+658604,ELSA,wave_9_elsa_data_eul_cf,cfwhoad,People present in the room other than respondent and interviewer during CF tests,1.0,Mentioned
+658605,ELSA,wave_9_elsa_data_eul_cf,cfwhochi,People present in the room other than respondent and interviewer during CF tests,-9.0,Refused
+658606,ELSA,wave_9_elsa_data_eul_cf,cfwhochi,People present in the room other than respondent and interviewer during CF tests,-8.0,Don't Know
+658607,ELSA,wave_9_elsa_data_eul_cf,cfwhochi,People present in the room other than respondent and interviewer during CF tests,-1.0,Not applicable
+658608,ELSA,wave_9_elsa_data_eul_cf,cfwhochi,People present in the room other than respondent and interviewer during CF tests,0.0,Not mentioned
+658609,ELSA,wave_9_elsa_data_eul_cf,cfwhochi,People present in the room other than respondent and interviewer during CF tests,1.0,Mentioned
+658610,ELSA,wave_9_elsa_data_eul_cf,cfwhooth,People present in the room other than respondent and interviewer during CF tests,-9.0,Refused
+658611,ELSA,wave_9_elsa_data_eul_cf,cfwhooth,People present in the room other than respondent and interviewer during CF tests,-8.0,Don't Know
+658612,ELSA,wave_9_elsa_data_eul_cf,cfwhooth,People present in the room other than respondent and interviewer during CF tests,-1.0,Not applicable
+658613,ELSA,wave_9_elsa_data_eul_cf,cfwhooth,People present in the room other than respondent and interviewer during CF tests,0.0,Not mentioned
+658614,ELSA,wave_9_elsa_data_eul_cf,cfwhooth,People present in the room other than respondent and interviewer during CF tests,1.0,Mentioned
+658615,ELSA,wave_9_elsa_data_eul_cf,cfimp,Whether any factors impaired performance on CF tests,-9.0,Refused
+658616,ELSA,wave_9_elsa_data_eul_cf,cfimp,Whether any factors impaired performance on CF tests,-8.0,Don't Know
+658617,ELSA,wave_9_elsa_data_eul_cf,cfimp,Whether any factors impaired performance on CF tests,-1.0,Not applicable
+658618,ELSA,wave_9_elsa_data_eul_cf,cfimp,Whether any factors impaired performance on CF tests,1.0,Yes
+658619,ELSA,wave_9_elsa_data_eul_cf,cfimp,Whether any factors impaired performance on CF tests,2.0,No
+658620,ELSA,wave_9_elsa_data_eul_cf,cfwhteye,Factors which impaired performance: blind or poor eyesight,-9.0,Refused
+658621,ELSA,wave_9_elsa_data_eul_cf,cfwhteye,Factors which impaired performance: blind or poor eyesight,-8.0,Don't Know
+658622,ELSA,wave_9_elsa_data_eul_cf,cfwhteye,Factors which impaired performance: blind or poor eyesight,-1.0,Not applicable
+658623,ELSA,wave_9_elsa_data_eul_cf,cfwhteye,Factors which impaired performance: blind or poor eyesight,0.0,Not mentioned
+658624,ELSA,wave_9_elsa_data_eul_cf,cfwhteye,Factors which impaired performance: blind or poor eyesight,1.0,Mentioned
+658625,ELSA,wave_9_elsa_data_eul_cf,cfwhthea,Factors which impaired performance: deaf or hard of hearing,-9.0,Refused
+658626,ELSA,wave_9_elsa_data_eul_cf,cfwhthea,Factors which impaired performance: deaf or hard of hearing,-8.0,Don't Know
+658627,ELSA,wave_9_elsa_data_eul_cf,cfwhthea,Factors which impaired performance: deaf or hard of hearing,-1.0,Not applicable
+658628,ELSA,wave_9_elsa_data_eul_cf,cfwhthea,Factors which impaired performance: deaf or hard of hearing,0.0,Not mentioned
+658629,ELSA,wave_9_elsa_data_eul_cf,cfwhthea,Factors which impaired performance: deaf or hard of hearing,1.0,Mentioned
+658630,ELSA,wave_9_elsa_data_eul_cf,cfwhttir,Factors which impaired performance: too tired,-9.0,Refused
+658631,ELSA,wave_9_elsa_data_eul_cf,cfwhttir,Factors which impaired performance: too tired,-8.0,Don't Know
+658632,ELSA,wave_9_elsa_data_eul_cf,cfwhttir,Factors which impaired performance: too tired,-1.0,Not applicable
+658633,ELSA,wave_9_elsa_data_eul_cf,cfwhttir,Factors which impaired performance: too tired,0.0,Not mentioned
+658634,ELSA,wave_9_elsa_data_eul_cf,cfwhttir,Factors which impaired performance: too tired,1.0,Mentioned
+658635,ELSA,wave_9_elsa_data_eul_cf,cfwhtill,Factors which impaired performance: illness or physical impairment,-9.0,Refused
+658636,ELSA,wave_9_elsa_data_eul_cf,cfwhtill,Factors which impaired performance: illness or physical impairment,-8.0,Don't Know
+658637,ELSA,wave_9_elsa_data_eul_cf,cfwhtill,Factors which impaired performance: illness or physical impairment,-1.0,Not applicable
+658638,ELSA,wave_9_elsa_data_eul_cf,cfwhtill,Factors which impaired performance: illness or physical impairment,0.0,Not mentioned
+658639,ELSA,wave_9_elsa_data_eul_cf,cfwhtill,Factors which impaired performance: illness or physical impairment,1.0,Mentioned
+658640,ELSA,wave_9_elsa_data_eul_cf,cfwhtcon,Factors which impaired performance: impaired concentration,-9.0,Refused
+658641,ELSA,wave_9_elsa_data_eul_cf,cfwhtcon,Factors which impaired performance: impaired concentration,-8.0,Don't Know
+658642,ELSA,wave_9_elsa_data_eul_cf,cfwhtcon,Factors which impaired performance: impaired concentration,-1.0,Not applicable
+658643,ELSA,wave_9_elsa_data_eul_cf,cfwhtcon,Factors which impaired performance: impaired concentration,0.0,Not mentioned
+658644,ELSA,wave_9_elsa_data_eul_cf,cfwhtcon,Factors which impaired performance: impaired concentration,1.0,Mentioned
+658645,ELSA,wave_9_elsa_data_eul_cf,cfwhtner,Factors which impaired performance: very nervous or anxious,-9.0,Refused
+658646,ELSA,wave_9_elsa_data_eul_cf,cfwhtner,Factors which impaired performance: very nervous or anxious,-8.0,Don't Know
+658647,ELSA,wave_9_elsa_data_eul_cf,cfwhtner,Factors which impaired performance: very nervous or anxious,-1.0,Not applicable
+658648,ELSA,wave_9_elsa_data_eul_cf,cfwhtner,Factors which impaired performance: very nervous or anxious,0.0,Not mentioned
+658649,ELSA,wave_9_elsa_data_eul_cf,cfwhtner,Factors which impaired performance: very nervous or anxious,1.0,Mentioned
+658650,ELSA,wave_9_elsa_data_eul_cf,cfwhtmen,Factors which impaired performance: has other mental impairment,-9.0,Refused
+658651,ELSA,wave_9_elsa_data_eul_cf,cfwhtmen,Factors which impaired performance: has other mental impairment,-8.0,Don't Know
+658652,ELSA,wave_9_elsa_data_eul_cf,cfwhtmen,Factors which impaired performance: has other mental impairment,-1.0,Not applicable
+658653,ELSA,wave_9_elsa_data_eul_cf,cfwhtmen,Factors which impaired performance: has other mental impairment,0.0,Not mentioned
+658654,ELSA,wave_9_elsa_data_eul_cf,cfwhtmen,Factors which impaired performance: has other mental impairment,1.0,Mentioned
+658655,ELSA,wave_9_elsa_data_eul_cf,cfwhtdis,Factors which impaired performance: interruption or distraction,-9.0,Refused
+658656,ELSA,wave_9_elsa_data_eul_cf,cfwhtdis,Factors which impaired performance: interruption or distraction,-8.0,Don't Know
+658657,ELSA,wave_9_elsa_data_eul_cf,cfwhtdis,Factors which impaired performance: interruption or distraction,-1.0,Not applicable
+658658,ELSA,wave_9_elsa_data_eul_cf,cfwhtdis,Factors which impaired performance: interruption or distraction,0.0,Not mentioned
+658659,ELSA,wave_9_elsa_data_eul_cf,cfwhtdis,Factors which impaired performance: interruption or distraction,1.0,Mentioned
+658660,ELSA,wave_9_elsa_data_eul_cf,cfwhtnoi,Factors which impaired performance: noisy environment,-9.0,Refused
+658661,ELSA,wave_9_elsa_data_eul_cf,cfwhtnoi,Factors which impaired performance: noisy environment,-8.0,Don't Know
+658662,ELSA,wave_9_elsa_data_eul_cf,cfwhtnoi,Factors which impaired performance: noisy environment,-1.0,Not applicable
+658663,ELSA,wave_9_elsa_data_eul_cf,cfwhtnoi,Factors which impaired performance: noisy environment,0.0,Not mentioned
+658664,ELSA,wave_9_elsa_data_eul_cf,cfwhtnoi,Factors which impaired performance: noisy environment,1.0,Mentioned
+658665,ELSA,wave_9_elsa_data_eul_cf,cfwhtlap,Factors which impaired performance: problems with laptop,-9.0,Refused
+658666,ELSA,wave_9_elsa_data_eul_cf,cfwhtlap,Factors which impaired performance: problems with laptop,-8.0,Don't Know
+658667,ELSA,wave_9_elsa_data_eul_cf,cfwhtlap,Factors which impaired performance: problems with laptop,-1.0,Not applicable
+658668,ELSA,wave_9_elsa_data_eul_cf,cfwhtlap,Factors which impaired performance: problems with laptop,0.0,Not mentioned
+658669,ELSA,wave_9_elsa_data_eul_cf,cfwhtlap,Factors which impaired performance: problems with laptop,1.0,Mentioned
+658670,ELSA,wave_9_elsa_data_eul_cf,cfwhteng,Factors which impaired performance: difficulty understanding English,-9.0,Refused
+658671,ELSA,wave_9_elsa_data_eul_cf,cfwhteng,Factors which impaired performance: difficulty understanding English,-8.0,Don't Know
+658672,ELSA,wave_9_elsa_data_eul_cf,cfwhteng,Factors which impaired performance: difficulty understanding English,-1.0,Not applicable
+658673,ELSA,wave_9_elsa_data_eul_cf,cfwhteng,Factors which impaired performance: difficulty understanding English,0.0,Not mentioned
+658674,ELSA,wave_9_elsa_data_eul_cf,cfwhteng,Factors which impaired performance: difficulty understanding English,1.0,Mentioned
+658675,ELSA,wave_9_elsa_data_eul_cf,cfwhtref,Factors which impaired performance: respondent refused,-9.0,Refused
+658676,ELSA,wave_9_elsa_data_eul_cf,cfwhtref,Factors which impaired performance: respondent refused,-8.0,Don't Know
+658677,ELSA,wave_9_elsa_data_eul_cf,cfwhtref,Factors which impaired performance: respondent refused,-1.0,Not applicable
+658678,ELSA,wave_9_elsa_data_eul_cf,cfwhtref,Factors which impaired performance: respondent refused,0.0,Not mentioned
+658679,ELSA,wave_9_elsa_data_eul_cf,cfwhtref,Factors which impaired performance: respondent refused,1.0,Mentioned
+658680,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeye,Factors which impaired performance: blind or poor eyesight (merged),-9.0,Refused
+658681,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeye,Factors which impaired performance: blind or poor eyesight (merged),-8.0,Don't Know
+658682,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeye,Factors which impaired performance: blind or poor eyesight (merged),-1.0,Not applicable
+658683,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeye,Factors which impaired performance: blind or poor eyesight (merged),0.0,Not mentioned
+658684,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeye,Factors which impaired performance: blind or poor eyesight (merged),1.0,Mentioned
+658685,ELSA,wave_9_elsa_data_eul_cf,cfwhtmhea,Factors  which impaired performance: deaf or hard of hearing (merged),-9.0,Refused
+658686,ELSA,wave_9_elsa_data_eul_cf,cfwhtmhea,Factors  which impaired performance: deaf or hard of hearing (merged),-8.0,Don't Know
+658687,ELSA,wave_9_elsa_data_eul_cf,cfwhtmhea,Factors  which impaired performance: deaf or hard of hearing (merged),-1.0,Not applicable
+658688,ELSA,wave_9_elsa_data_eul_cf,cfwhtmhea,Factors  which impaired performance: deaf or hard of hearing (merged),0.0,Not mentioned
+658689,ELSA,wave_9_elsa_data_eul_cf,cfwhtmhea,Factors  which impaired performance: deaf or hard of hearing (merged),1.0,Mentioned
+658690,ELSA,wave_9_elsa_data_eul_cf,cfwhtmtir,Factors which impaired performance: too tired (merged),-9.0,Refused
+658691,ELSA,wave_9_elsa_data_eul_cf,cfwhtmtir,Factors which impaired performance: too tired (merged),-8.0,Don't Know
+658692,ELSA,wave_9_elsa_data_eul_cf,cfwhtmtir,Factors which impaired performance: too tired (merged),-1.0,Not applicable
+658693,ELSA,wave_9_elsa_data_eul_cf,cfwhtmtir,Factors which impaired performance: too tired (merged),0.0,Not mentioned
+658694,ELSA,wave_9_elsa_data_eul_cf,cfwhtmtir,Factors which impaired performance: too tired (merged),1.0,Mentioned
+658695,ELSA,wave_9_elsa_data_eul_cf,cfwhtmill,Factors  which impaired performance: illness or physical impairment (merged),-9.0,Refused
+658696,ELSA,wave_9_elsa_data_eul_cf,cfwhtmill,Factors  which impaired performance: illness or physical impairment (merged),-8.0,Don't Know
+658697,ELSA,wave_9_elsa_data_eul_cf,cfwhtmill,Factors  which impaired performance: illness or physical impairment (merged),-1.0,Not applicable
+658698,ELSA,wave_9_elsa_data_eul_cf,cfwhtmill,Factors  which impaired performance: illness or physical impairment (merged),0.0,Not mentioned
+658699,ELSA,wave_9_elsa_data_eul_cf,cfwhtmill,Factors  which impaired performance: illness or physical impairment (merged),1.0,Mentioned
+658700,ELSA,wave_9_elsa_data_eul_cf,cfwhtmcon,Factors which impaired performance: impaired concentration (merged),-9.0,Refused
+658701,ELSA,wave_9_elsa_data_eul_cf,cfwhtmcon,Factors which impaired performance: impaired concentration (merged),-8.0,Don't Know
+658702,ELSA,wave_9_elsa_data_eul_cf,cfwhtmcon,Factors which impaired performance: impaired concentration (merged),-1.0,Not applicable
+658703,ELSA,wave_9_elsa_data_eul_cf,cfwhtmcon,Factors which impaired performance: impaired concentration (merged),0.0,Not mentioned
+658704,ELSA,wave_9_elsa_data_eul_cf,cfwhtmcon,Factors which impaired performance: impaired concentration (merged),1.0,Mentioned
+658705,ELSA,wave_9_elsa_data_eul_cf,cfwhtmner,Factors which impaired performance: very nervous or anxious (merged),-9.0,Refused
+658706,ELSA,wave_9_elsa_data_eul_cf,cfwhtmner,Factors which impaired performance: very nervous or anxious (merged),-8.0,Don't Know
+658707,ELSA,wave_9_elsa_data_eul_cf,cfwhtmner,Factors which impaired performance: very nervous or anxious (merged),-1.0,Not applicable
+658708,ELSA,wave_9_elsa_data_eul_cf,cfwhtmner,Factors which impaired performance: very nervous or anxious (merged),0.0,Not mentioned
+658709,ELSA,wave_9_elsa_data_eul_cf,cfwhtmner,Factors which impaired performance: very nervous or anxious (merged),1.0,Mentioned
+658710,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmen,Factors  which impaired performance: has other mental impairment (merged),-9.0,Refused
+658711,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmen,Factors  which impaired performance: has other mental impairment (merged),-8.0,Don't Know
+658712,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmen,Factors  which impaired performance: has other mental impairment (merged),-1.0,Not applicable
+658713,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmen,Factors  which impaired performance: has other mental impairment (merged),0.0,Not mentioned
+658714,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmen,Factors  which impaired performance: has other mental impairment (merged),1.0,Mentioned
+658715,ELSA,wave_9_elsa_data_eul_cf,cfwhtmdis,Factors  which impaired performance: interruption or distraction (merged),-9.0,Refused
+658716,ELSA,wave_9_elsa_data_eul_cf,cfwhtmdis,Factors  which impaired performance: interruption or distraction (merged),-8.0,Don't Know
+658717,ELSA,wave_9_elsa_data_eul_cf,cfwhtmdis,Factors  which impaired performance: interruption or distraction (merged),-1.0,Not applicable
+658718,ELSA,wave_9_elsa_data_eul_cf,cfwhtmdis,Factors  which impaired performance: interruption or distraction (merged),0.0,Not mentioned
+658719,ELSA,wave_9_elsa_data_eul_cf,cfwhtmdis,Factors  which impaired performance: interruption or distraction (merged),1.0,Mentioned
+658720,ELSA,wave_9_elsa_data_eul_cf,cfwhtmnoi,Factors which impaired performance: noisy environment (merged),-9.0,Refused
+658721,ELSA,wave_9_elsa_data_eul_cf,cfwhtmnoi,Factors which impaired performance: noisy environment (merged),-8.0,Don't Know
+658722,ELSA,wave_9_elsa_data_eul_cf,cfwhtmnoi,Factors which impaired performance: noisy environment (merged),-1.0,Not applicable
+658723,ELSA,wave_9_elsa_data_eul_cf,cfwhtmnoi,Factors which impaired performance: noisy environment (merged),0.0,Not mentioned
+658724,ELSA,wave_9_elsa_data_eul_cf,cfwhtmnoi,Factors which impaired performance: noisy environment (merged),1.0,Mentioned
+658725,ELSA,wave_9_elsa_data_eul_cf,cfwhtmlap,Factors which impaired performance: problems with laptop (merged),-9.0,Refused
+658726,ELSA,wave_9_elsa_data_eul_cf,cfwhtmlap,Factors which impaired performance: problems with laptop (merged),-8.0,Don't Know
+658727,ELSA,wave_9_elsa_data_eul_cf,cfwhtmlap,Factors which impaired performance: problems with laptop (merged),-1.0,Not applicable
+658728,ELSA,wave_9_elsa_data_eul_cf,cfwhtmlap,Factors which impaired performance: problems with laptop (merged),0.0,Not mentioned
+658729,ELSA,wave_9_elsa_data_eul_cf,cfwhtmlap,Factors which impaired performance: problems with laptop (merged),1.0,Mentioned
+658730,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeng,Factors which impaired performance: difficulty understanding English (merged),-9.0,Refused
+658731,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeng,Factors which impaired performance: difficulty understanding English (merged),-8.0,Don't Know
+658732,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeng,Factors which impaired performance: difficulty understanding English (merged),-1.0,Not applicable
+658733,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeng,Factors which impaired performance: difficulty understanding English (merged),0.0,Not mentioned
+658734,ELSA,wave_9_elsa_data_eul_cf,cfwhtmeng,Factors which impaired performance: difficulty understanding English (merged),1.0,Mentioned
+658735,ELSA,wave_9_elsa_data_eul_cf,cfwhtmref,Factors which impaired performance: respondent refused (merged),-9.0,Refused
+658736,ELSA,wave_9_elsa_data_eul_cf,cfwhtmref,Factors which impaired performance: respondent refused (merged),-8.0,Don't Know
+658737,ELSA,wave_9_elsa_data_eul_cf,cfwhtmref,Factors which impaired performance: respondent refused (merged),-1.0,Not applicable
+658738,ELSA,wave_9_elsa_data_eul_cf,cfwhtmref,Factors which impaired performance: respondent refused (merged),0.0,Not mentioned
+658739,ELSA,wave_9_elsa_data_eul_cf,cfwhtmref,Factors which impaired performance: respondent refused (merged),1.0,Mentioned
+658740,ELSA,wave_9_elsa_data_eul_cf,cfwhtmups,Factors which impaired performance: distressed/upset (merged),-9.0,Refused
+658741,ELSA,wave_9_elsa_data_eul_cf,cfwhtmups,Factors which impaired performance: distressed/upset (merged),-8.0,Don't Know
+658742,ELSA,wave_9_elsa_data_eul_cf,cfwhtmups,Factors which impaired performance: distressed/upset (merged),-1.0,Not applicable
+658743,ELSA,wave_9_elsa_data_eul_cf,cfwhtmups,Factors which impaired performance: distressed/upset (merged),0.0,Not mentioned
+658744,ELSA,wave_9_elsa_data_eul_cf,cfwhtmups,Factors which impaired performance: distressed/upset (merged),1.0,Mentioned
+658745,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmem,Factors which impaired performance: memory problems (merged),-9.0,Refused
+658746,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmem,Factors which impaired performance: memory problems (merged),-8.0,Don't Know
+658747,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmem,Factors which impaired performance: memory problems (merged),-1.0,Not applicable
+658748,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmem,Factors which impaired performance: memory problems (merged),0.0,Not mentioned
+658749,ELSA,wave_9_elsa_data_eul_cf,cfwhtmmem,Factors which impaired performance: memory problems (merged),1.0,Mentioned
+658750,ELSA,wave_9_elsa_data_eul_cf,cfwhtmalc,Factors which impaired performance: influence of alcohol (merged),-9.0,Refused
+658751,ELSA,wave_9_elsa_data_eul_cf,cfwhtmalc,Factors which impaired performance: influence of alcohol (merged),-8.0,Don't Know
+658752,ELSA,wave_9_elsa_data_eul_cf,cfwhtmalc,Factors which impaired performance: influence of alcohol (merged),-1.0,Not applicable
+658753,ELSA,wave_9_elsa_data_eul_cf,cfwhtmalc,Factors which impaired performance: influence of alcohol (merged),0.0,Not mentioned
+658754,ELSA,wave_9_elsa_data_eul_cf,cfwhtmalc,Factors which impaired performance: influence of alcohol (merged),1.0,Mentioned
+658755,ELSA,wave_9_elsa_data_eul_cf,cfwhtm85,Factors which impaired performance: other answer - not codeable (merged),-9.0,Refused
+658756,ELSA,wave_9_elsa_data_eul_cf,cfwhtm85,Factors which impaired performance: other answer - not codeable (merged),-8.0,Don't Know
+658757,ELSA,wave_9_elsa_data_eul_cf,cfwhtm85,Factors which impaired performance: other answer - not codeable (merged),-1.0,Not applicable
+658758,ELSA,wave_9_elsa_data_eul_cf,cfwhtm85,Factors which impaired performance: other answer - not codeable (merged),0.0,Not mentioned
+658759,ELSA,wave_9_elsa_data_eul_cf,cfwhtm85,Factors which impaired performance: other answer - not codeable (merged),1.0,Mentioned
+658760,ELSA,wave_9_elsa_data_eul_cf,cfwhtm86,Factors which impaired performance: irrelevant answer - not codeable (merged),-9.0,Refused
+658761,ELSA,wave_9_elsa_data_eul_cf,cfwhtm86,Factors which impaired performance: irrelevant answer - not codeable (merged),-8.0,Don't Know
+658762,ELSA,wave_9_elsa_data_eul_cf,cfwhtm86,Factors which impaired performance: irrelevant answer - not codeable (merged),-1.0,Not applicable
+658763,ELSA,wave_9_elsa_data_eul_cf,cfwhtm86,Factors which impaired performance: irrelevant answer - not codeable (merged),0.0,Not mentioned
+658764,ELSA,wave_9_elsa_data_eul_cf,cfwhtm86,Factors which impaired performance: irrelevant answer - not codeable (merged),1.0,Mentioned
+658765,ELSA,wave_9_elsa_data_eul_cf,avail_from_dt,,,
+658766,ELSA,wave_9_elsa_data_eul_cf,idahhw9_e,Encrypted Analytical Wave 9 household serial number,,

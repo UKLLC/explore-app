@@ -1,0 +1,254 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+621942,BCS70,bcs9_derived,study_id_e,,,
+621943,BCS70,bcs9_derived,bd9cntry,Country of Interview  (2012),-1.0,Not applicable (not resident in UK)
+621944,BCS70,bcs9_derived,bd9cntry,Country of Interview  (2012),1.0,England
+621945,BCS70,bcs9_derived,bd9cntry,Country of Interview  (2012),2.0,Wales
+621946,BCS70,bcs9_derived,bd9cntry,Country of Interview  (2012),3.0,Scotland
+621947,BCS70,bcs9_derived,bd9cntry,Country of Interview  (2012),4.0,Northern Ireland
+621948,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),-1.0,Not applicable (not resident in UK)
+621949,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),1.0,North East
+621950,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),2.0,North West
+621951,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),3.0,Yorkshire and Humberberside
+621952,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),4.0,East Midlands
+621953,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),5.0,West Midlands
+621954,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),6.0,East of England
+621955,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),7.0,London
+621956,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),8.0,South East
+621957,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),9.0,South West
+621958,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),10.0,Wales
+621959,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),11.0,Scotland
+621960,BCS70,bcs9_derived,bd9gor,Government Office Region of residence (2012),12.0,Northern Ireland
+621961,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),-2.0,Armed Services
+621962,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),-1.0,Not applicable (not resident in UK)
+621963,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),1.0,North
+621964,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),2.0,Yorks and Humberside
+621965,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),3.0,East Midlands
+621966,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),4.0,East Anglia
+621967,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),5.0,South East
+621968,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),6.0,South West
+621969,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),7.0,West Midlands
+621970,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),8.0,North West
+621971,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),9.0,Wales
+621972,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),10.0,Scotland
+621973,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),11.0,Northern Ireland
+621974,BCS70,bcs9_derived,bd9regn,Standard Region of residence (2012),12.0,Overseas
+621975,BCS70,bcs9_derived,bd9hsize,(Derived) HH Size,,
+621976,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,-9.0,Refused
+621977,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,-8.0,Don't know
+621978,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,-1.0,Not applicable
+621979,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,1.0,Legally separated
+621980,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,2.0,Married
+621981,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,3.0,Divorced
+621982,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,4.0,Widowed
+621983,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,5.0,A Civil Partner
+621984,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,6.0,A former Civil Partner
+621985,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,7.0,A surviving Civil Partner
+621986,BCS70,bcs9_derived,bd9ms,(Derived) CM's legal marital status,8.0,Single and never married or in a CP
+621987,BCS70,bcs9_derived,bd9cohab,(Derived) Whether CM cohabiting as a couple,-9.0,Refused
+621988,BCS70,bcs9_derived,bd9cohab,(Derived) Whether CM cohabiting as a couple,-8.0,No partner in hhgrid but partner job data
+621989,BCS70,bcs9_derived,bd9cohab,(Derived) Whether CM cohabiting as a couple,-1.0,Not applicable
+621990,BCS70,bcs9_derived,bd9cohab,(Derived) Whether CM cohabiting as a couple,0.0,No
+621991,BCS70,bcs9_derived,bd9cohab,(Derived) Whether CM cohabiting as a couple,1.0,Yes
+621992,BCS70,bcs9_derived,bd9partp,(Derived) Whether CM lives with a spouse or partner,-9.0,Refused
+621993,BCS70,bcs9_derived,bd9partp,(Derived) Whether CM lives with a spouse or partner,-8.0,No partner in hhgrid but partner job data
+621994,BCS70,bcs9_derived,bd9partp,(Derived) Whether CM lives with a spouse or partner,-1.0,No partner reported to be living with CM
+621995,BCS70,bcs9_derived,bd9partp,(Derived) Whether CM lives with a spouse or partner,1.0,Spouse
+621996,BCS70,bcs9_derived,bd9partp,(Derived) Whether CM lives with a spouse or partner,2.0,Civil partner
+621997,BCS70,bcs9_derived,bd9partp,(Derived) Whether CM lives with a spouse or partner,3.0,Cohabiting partner
+621998,BCS70,bcs9_derived,bd9page,(Derived) Age Of CM's Partner,-8.0,Not enough information
+621999,BCS70,bcs9_derived,bd9page,(Derived) Age Of CM's Partner,-1.0,No partner reported to be living with CM
+622000,BCS70,bcs9_derived,bd9pid,(Derived) HH Number Of CM's Partner/Spouse/Civil Partner,-8.0,Not enough information
+622001,BCS70,bcs9_derived,bd9pid,(Derived) HH Number Of CM's Partner/Spouse/Civil Partner,-1.0,No partner reported to be living with CM
+622002,BCS70,bcs9_derived,bd9psex,(Derived) Gender Of CM's Partner,-8.0,Not enough information
+622003,BCS70,bcs9_derived,bd9psex,(Derived) Gender Of CM's Partner,-1.0,No partner reported to be living with CM
+622004,BCS70,bcs9_derived,bd9psex,(Derived) Gender Of CM's Partner,1.0,Male
+622005,BCS70,bcs9_derived,bd9psex,(Derived) Gender Of CM's Partner,2.0,Female
+622006,BCS70,bcs9_derived,bd9numch,(Derived) Number Of Children in HH,,
+622007,BCS70,bcs9_derived,bd9fathn,(Derived) Whether CM's Father in HH (incl adoptive / step),-1.0,Not applicable
+622008,BCS70,bcs9_derived,bd9fathn,(Derived) Whether CM's Father in HH (incl adoptive / step),0.0,No
+622009,BCS70,bcs9_derived,bd9fathn,(Derived) Whether CM's Father in HH (incl adoptive / step),1.0,Yes
+622010,BCS70,bcs9_derived,bd9mothn,(Derived) Whether CM's Mother in HH (incl adoptive / step),-1.0,Not applicable
+622011,BCS70,bcs9_derived,bd9mothn,(Derived) Whether CM's Mother in HH (incl adoptive / step),0.0,No
+622012,BCS70,bcs9_derived,bd9mothn,(Derived) Whether CM's Mother in HH (incl adoptive / step),1.0,Yes
+622013,BCS70,bcs9_derived,bd9nochh,(Derived) Number of own children in household,,
+622014,BCS70,bcs9_derived,bd9npchh,(Derived) Number of children of current or previous partner in household,,
+622015,BCS70,bcs9_derived,bd9aychh,(Derived) Age of youngest child (under 19) in household,-8.0,Not enough information
+622016,BCS70,bcs9_derived,bd9aychh,(Derived) Age of youngest child (under 19) in household,-1.0,Not applicable no child under 19 reported in HH
+622017,BCS70,bcs9_derived,bd9nc2h,(Derived) Number of children aged 0 to 2 in household,-8.0,Not enough information
+622018,BCS70,bcs9_derived,bd9nc4h,(Derived) Number of children aged 3 to 4 in household,-8.0,Not enough information
+622019,BCS70,bcs9_derived,bd9nc11h,(Derived) Number of children aged 5 to 11 in household,-8.0,Not enough information
+622020,BCS70,bcs9_derived,bd9nc15h,(Derived) Number of children aged 12 to 15 in household,-8.0,Not enough information
+622021,BCS70,bcs9_derived,bd9nacab,(Derived) Number of absent children (including step-children etc),,
+622022,BCS70,bcs9_derived,bd9nocab,(Derived) Number of absent children - own children only,,
+622023,BCS70,bcs9_derived,bd9totac,(Derived) Total number of children (in HH or absent,,
+622024,BCS70,bcs9_derived,bd9totoc,(Derived) Total number of children (in HH or absent) - own children only,,
+622025,BCS70,bcs9_derived,bd9wcdie,(Derived) Whether had any (own) children who have died,-9.0,Refusal
+622026,BCS70,bcs9_derived,bd9wcdie,(Derived) Whether had any (own) children who have died,-8.0,Not enough information
+622027,BCS70,bcs9_derived,bd9wcdie,(Derived) Whether had any (own) children who have died,-1.0,Not applicable
+622028,BCS70,bcs9_derived,bd9wcdie,(Derived) Whether had any (own) children who have died,0.0,No
+622029,BCS70,bcs9_derived,bd9wcdie,(Derived) Whether had any (own) children who have died,1.0,Yes
+622030,BCS70,bcs9_derived,bd9ncdie,(Derived) Number of own children who have died,-9.0,Refusal
+622031,BCS70,bcs9_derived,bd9ncdie,(Derived) Number of own children who have died,-8.0,Not enough information
+622032,BCS70,bcs9_derived,bd9ncdie,(Derived) Number of own children who have died,-1.0,Not applicable
+622033,BCS70,bcs9_derived,bd9totce,(Derived) Total number of own children ever had,-8.0,Not enough information
+622034,BCS70,bcs9_derived,bd9wmabc,(Derived) Whether contributes to maintenance of any absent children,-1.0,N/A no absent children
+622035,BCS70,bcs9_derived,bd9wmabc,(Derived) Whether contributes to maintenance of any absent children,0.0,No
+622036,BCS70,bcs9_derived,bd9wmabc,(Derived) Whether contributes to maintenance of any absent children,1.0,Yes
+622037,BCS70,bcs9_derived,bd9wmcpp,(Derived) Whether received maintenance for children from previous partner,-8.0,Not enough information
+622038,BCS70,bcs9_derived,bd9wmcpp,(Derived) Whether received maintenance for children from previous partner,-1.0,N/A no children with previous partner in HH
+622039,BCS70,bcs9_derived,bd9wmcpp,(Derived) Whether received maintenance for children from previous partner,0.0,No
+622040,BCS70,bcs9_derived,bd9wmcpp,(Derived) Whether received maintenance for children from previous partner,1.0,Yes
+622041,BCS70,bcs9_derived,bd9maliv,(Derived) Whether mother alive,-9.0,Refusal
+622042,BCS70,bcs9_derived,bd9maliv,(Derived) Whether mother alive,-8.0,Not enough information
+622043,BCS70,bcs9_derived,bd9maliv,(Derived) Whether mother alive,0.0,Yes in household
+622044,BCS70,bcs9_derived,bd9maliv,(Derived) Whether mother alive,1.0,Yes
+622045,BCS70,bcs9_derived,bd9maliv,(Derived) Whether mother alive,2.0,No
+622046,BCS70,bcs9_derived,bd9maliv,(Derived) Whether mother alive,3.0,No reported dead previously
+622047,BCS70,bcs9_derived,bd9paliv,(Derived) Whether father alive,-9.0,Refusal
+622048,BCS70,bcs9_derived,bd9paliv,(Derived) Whether father alive,-8.0,Not enough information
+622049,BCS70,bcs9_derived,bd9paliv,(Derived) Whether father alive,0.0,Yes in household
+622050,BCS70,bcs9_derived,bd9paliv,(Derived) Whether father alive,1.0,Yes
+622051,BCS70,bcs9_derived,bd9paliv,(Derived) Whether father alive,2.0,No
+622052,BCS70,bcs9_derived,bd9paliv,(Derived) Whether father alive,3.0,No reported dead previously
+622053,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,-9.0,Refused
+622054,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,-8.0,Not enough information
+622055,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,-1.0,Not applicable
+622056,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,1.0,Full-time employment
+622057,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,2.0,Part-time employment
+622058,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,3.0,Full-time self-employment
+622059,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,4.0,Part-time self-employment
+622060,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,5.0,Unemployment
+622061,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,6.0,Full-time education
+622062,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,7.0,Govt scheme for employment training
+622063,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,8.0,Temporary sickness/disablity
+622064,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,9.0,Permanent sickness/disablity
+622065,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,10.0,Looking after the home/family
+622066,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,11.0,Retirement
+622067,BCS70,bcs9_derived,bd9ecact,(Derived) Current economic activity status,12.0,Other
+622068,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,-9.0,Refused
+622069,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,-8.0,Not enough information
+622070,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,-1.0,No partner reported to be living with CM
+622071,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,1.0,Full-time employment
+622072,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,2.0,Part-time employment
+622073,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,3.0,Full-time self-employment
+622074,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,4.0,Part-time self-employment
+622075,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,5.0,Unemployment
+622076,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,6.0,Full-time education
+622077,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,7.0,Govt scheme for employment training
+622078,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,8.0,Temporary sickness/disablity
+622079,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,9.0,Permanent sickness/disablity
+622080,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,10.0,Looking after the home/family
+622081,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,11.0,Retirement
+622082,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,12.0,Part time education
+622083,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,13.0,Voluntary work
+622084,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,14.0,Maternity leave
+622085,BCS70,bcs9_derived,bd9peact,(Derived) Partner's current economic activity status,15.0,Other (specify)
+622086,BCS70,bcs9_derived,bd9wrben,(Derived) Whether receives any benefits,-8.0,Not enough information
+622087,BCS70,bcs9_derived,bd9wrben,(Derived) Whether receives any benefits,0.0,No
+622088,BCS70,bcs9_derived,bd9wrben,(Derived) Whether receives any benefits,1.0,Yes
+622089,BCS70,bcs9_derived,bd9alfed,(Derived) Age left full time education,-8.0,Not enough information
+622090,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,-8.0,not enough information
+622091,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,-1.0,not applicable
+622092,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,0.0,no academic qualification
+622093,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,1.0,gcse d-e
+622094,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,2.0,"cses2-5, other scottish quals"
+622095,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,3.0,"gcse a-c, good o levels scot standards"
+622096,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,4.0,as levels or 1 a level
+622097,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,5.0,"2+ a levels, scot higher/6th"
+622098,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,6.0,diploma
+622099,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,7.0,degree level
+622100,BCS70,bcs9_derived,bd9achq1,(Derived) Highest Academic Qualification CM obtained in 2012 survey,8.0,higher degree
+622101,BCS70,bcs9_derived,bd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2012 survey,-1.0,not codeable
+622102,BCS70,bcs9_derived,bd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2012 survey,0.0,none
+622103,BCS70,bcs9_derived,bd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2012 survey,1.0,nvq1 level
+622104,BCS70,bcs9_derived,bd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2012 survey,2.0,nvq2 level
+622105,BCS70,bcs9_derived,bd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2012 survey,3.0,nvq3 level
+622106,BCS70,bcs9_derived,bd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2012 survey,4.0,nvq4 level
+622107,BCS70,bcs9_derived,bd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2012 survey,5.0,nvq5 level
+622108,BCS70,bcs9_derived,bd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2012 survey,-1.0,not codeable
+622109,BCS70,bcs9_derived,bd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2012 survey,0.0,none
+622110,BCS70,bcs9_derived,bd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2012 survey,1.0,nvq1 level
+622111,BCS70,bcs9_derived,bd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2012 survey,2.0,nvq2 level
+622112,BCS70,bcs9_derived,bd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2012 survey,3.0,nvq3 level
+622113,BCS70,bcs9_derived,bd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2012 survey,4.0,nvq4 level
+622114,BCS70,bcs9_derived,bd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2012 survey,5.0,nvq5 level
+622115,BCS70,bcs9_derived,bd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2012 survey,-1.0,not applicable
+622116,BCS70,bcs9_derived,bd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2012 survey,0.0,none
+622117,BCS70,bcs9_derived,bd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2012 survey,1.0,nvq1 level
+622118,BCS70,bcs9_derived,bd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2012 survey,2.0,nvq2 level
+622119,BCS70,bcs9_derived,bd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2012 survey,3.0,nvq3 level
+622120,BCS70,bcs9_derived,bd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2012 survey,4.0,nvq4 level
+622121,BCS70,bcs9_derived,bd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2012 survey,5.0,nvq5 level
+622122,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,-8.0,Not enough information
+622123,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,-1.0,not applicable
+622124,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,0.0,no academic qualification
+622125,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,1.0,gcse d-e
+622126,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,2.0,"cses2-5, other scottish quals"
+622127,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,3.0,"gcse a-c, good o levels scot standards"
+622128,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,4.0,as levels or 1 a level
+622129,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,5.0,"2+ a levels, scot higher/6th"
+622130,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,6.0,diploma
+622131,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,7.0,degree level
+622132,BCS70,bcs9_derived,bd9hachq,(Derived) Highest Academic Qualification up to 2012,8.0,higher degree
+622133,BCS70,bcs9_derived,bd9hanvq,(Derived) Highest NVQ level from an academic qualification up to 2012,-1.0,not applicable
+622134,BCS70,bcs9_derived,bd9hanvq,(Derived) Highest NVQ level from an academic qualification up to 2012,0.0,none
+622135,BCS70,bcs9_derived,bd9hanvq,(Derived) Highest NVQ level from an academic qualification up to 2012,1.0,nvq1 level
+622136,BCS70,bcs9_derived,bd9hanvq,(Derived) Highest NVQ level from an academic qualification up to 2012,2.0,nvq2 level
+622137,BCS70,bcs9_derived,bd9hanvq,(Derived) Highest NVQ level from an academic qualification up to 2012,3.0,nvq3 level
+622138,BCS70,bcs9_derived,bd9hanvq,(Derived) Highest NVQ level from an academic qualification up to 2012,4.0,nvq4 level
+622139,BCS70,bcs9_derived,bd9hanvq,(Derived) Highest NVQ level from an academic qualification up to 2012,5.0,nvq5 level
+622140,BCS70,bcs9_derived,bd9hvnvq,(Derived) Highest NVQ Level from a Vocational Qualification  up to 2012,-1.0,not applicable
+622141,BCS70,bcs9_derived,bd9hvnvq,(Derived) Highest NVQ Level from a Vocational Qualification  up to 2012,0.0,none
+622142,BCS70,bcs9_derived,bd9hvnvq,(Derived) Highest NVQ Level from a Vocational Qualification  up to 2012,1.0,nvq1 level
+622143,BCS70,bcs9_derived,bd9hvnvq,(Derived) Highest NVQ Level from a Vocational Qualification  up to 2012,2.0,nvq2 level
+622144,BCS70,bcs9_derived,bd9hvnvq,(Derived) Highest NVQ Level from a Vocational Qualification  up to 2012,3.0,nvq3 level
+622145,BCS70,bcs9_derived,bd9hvnvq,(Derived) Highest NVQ Level from a Vocational Qualification  up to 2012,4.0,nvq4 level
+622146,BCS70,bcs9_derived,bd9hvnvq,(Derived) Highest NVQ Level from a Vocational Qualification  up to 2012,5.0,nvq5 level
+622147,BCS70,bcs9_derived,bd9hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2012,-1.0,not applicable
+622148,BCS70,bcs9_derived,bd9hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2012,0.0,none
+622149,BCS70,bcs9_derived,bd9hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2012,1.0,nvq1 level
+622150,BCS70,bcs9_derived,bd9hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2012,2.0,nvq2 level
+622151,BCS70,bcs9_derived,bd9hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2012,3.0,nvq3 level
+622152,BCS70,bcs9_derived,bd9hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2012,4.0,nvq4 level
+622153,BCS70,bcs9_derived,bd9hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2012,5.0,nvq5 level
+622154,BCS70,bcs9_derived,bd9nualc,(Derived) Number of units of alcohol consumed in last 7 days,-9.0,Refused
+622155,BCS70,bcs9_derived,bd9nualc,(Derived) Number of units of alcohol consumed in last 7 days,-8.0,Not enough information
+622156,BCS70,bcs9_derived,bd9nualc,(Derived) Number of units of alcohol consumed in last 7 days,-1.0,No drink in last 7 days
+622157,BCS70,bcs9_derived,bd9hghtm,(Derived) Height in metres,-8.0,No information
+622158,BCS70,bcs9_derived,bd9wghtk,(Derived) Weight in kilograms,-8.0,No information
+622159,BCS70,bcs9_derived,bd9bmi,(Derived) Body mass index,-8.0,Not enough information
+622160,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,-8.0,Not enough information
+622161,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,-1.0,Not applicable (male)
+622162,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,0.0,Ovaries and uterus not removed
+622163,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,1.0,Removal of one ovary
+622164,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,2.0,Removal of both ovaries
+622165,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,3.0,Removal of uterus
+622166,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,4.0,Removal of one ovary and uterus
+622167,BCS70,bcs9_derived,bd9whyst,(Derived) Whether had hysterectomy or ovaries removed,5.0,Removal of both ovaries and uterus
+622168,BCS70,bcs9_derived,bd9wp12m,(Derived) Whether had period in last 12 months,-8.0,Not enough information
+622169,BCS70,bcs9_derived,bd9wp12m,(Derived) Whether had period in last 12 months,-1.0,Not applicable (male)
+622170,BCS70,bcs9_derived,bd9wp12m,(Derived) Whether had period in last 12 months,0.0,No
+622171,BCS70,bcs9_derived,bd9wp12m,(Derived) Whether had period in last 12 months,1.0,Yes
+622172,BCS70,bcs9_derived,bd9alstp,(Derived) Age at last period,-8.0,Not enough information
+622173,BCS70,bcs9_derived,bd9alstp,(Derived) Age at last period,-1.0,Not applicable
+622174,BCS70,bcs9_derived,bd9mal,(Derived) Total Malaise score (9 questions),-8.0,Not enough information
+622175,BCS70,bcs9_derived,bd9malg,(Derived) Total Malaise score - grouped,-8.0,Not enough information
+622176,BCS70,bcs9_derived,bd9malg,(Derived) Total Malaise score - grouped,1.0,Low malaise (0-3)
+622177,BCS70,bcs9_derived,bd9malg,(Derived) Total Malaise score - grouped,2.0, High malaise (4+)
+622178,BCS70,bcs9_derived,bd9audit,(Derived) Total AUDIT-PC Score,-8.0,Not enough information
+622179,BCS70,bcs9_derived,bd9audit,(Derived) Total AUDIT-PC Score,-1.0,NA - does not drink alcohol
+622180,BCS70,bcs9_derived,bd9audg,(Derived) AUDIT-PC Group,-8.0,Not enough information
+622181,BCS70,bcs9_derived,bd9audg,(Derived) AUDIT-PC Group,-1.0,NA - does not drink alcohol
+622182,BCS70,bcs9_derived,bd9audg,(Derived) AUDIT-PC Group,1.0,Unproblematic drinking (0-4)
+622183,BCS70,bcs9_derived,bd9audg,(Derived) AUDIT-PC Group,2.0,Increasing or higher risk drinking (5+)
+622184,BCS70,bcs9_derived,bd9wemwb,(Derived) Warwick Edinburgh Mental Well-Being Scale,-8.0,Not enough information
+622185,BCS70,bcs9_derived,bd9wemwb,(Derived) Warwick Edinburgh Mental Well-Being Scale,-1.0,Self completion qnaire not completed
+622186,BCS70,bcs9_derived,bd9diseq,(Derived) Disability classification Equality act (2010),-8.0,Not enough information
+622187,BCS70,bcs9_derived,bd9diseq,(Derived) Disability classification Equality act (2010),0.0,Not disabled (Equality act)
+622188,BCS70,bcs9_derived,bd9diseq,(Derived) Disability classification Equality act (2010),1.0,Disabled (Equality Act)
+622189,BCS70,bcs9_derived,bd9disls,(Derived) Disability classification EU-SILC,-8.0,Not enough information
+622190,BCS70,bcs9_derived,bd9disls,(Derived) Disability classification EU-SILC,0.0,No EU-SILC long-standing health condition
+622191,BCS70,bcs9_derived,bd9disls,(Derived) Disability classification EU-SILC,1.0,EU-SILC classification to some extent
+622192,BCS70,bcs9_derived,bd9disls,(Derived) Disability classification EU-SILC,2.0,EU-SILC classification severely hampered
+622193,BCS70,bcs9_derived,v3,None,,
+622194,BCS70,bcs9_derived,avail_from_dt,,,

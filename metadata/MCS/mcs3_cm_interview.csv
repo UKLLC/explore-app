@@ -1,0 +1,1023 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+784105,MCS,mcs3_cm_interview,study_id_e,,,
+784106,MCS,mcs3_cm_interview,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+784107,MCS,mcs3_cm_interview,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+784108,MCS,mcs3_cm_interview,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+784109,MCS,mcs3_cm_interview,ccbchk00,Does child still live here,-9.0,Refusal
+784110,MCS,mcs3_cm_interview,ccbchk00,Does child still live here,-8.0,Don't Know
+784111,MCS,mcs3_cm_interview,ccbchk00,Does child still live here,-1.0,Not applicable
+784112,MCS,mcs3_cm_interview,ccbchk00,Does child still live here,1.0,Yes
+784113,MCS,mcs3_cm_interview,ccbchk00,Does child still live here,2.0,No
+784114,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),-9.0,Refusal
+784115,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),-8.0,Don't Know
+784116,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),-1.0,Not applicable
+784117,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),1.0,deceased
+784118,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),2.0,long term absence (ie 6 months or more)
+784119,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),3.0,lives in a different household
+784120,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),51.0,spare
+784121,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),52.0,spare
+784122,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),53.0,spare
+784123,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),54.0,spare
+784124,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),55.0,spare
+784125,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),85.0,Other specific answer
+784126,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),86.0,Vague / irrelevant answer
+784127,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),87.0,Editor cannot deal with
+784128,MCS,mcs3_cm_interview,ccbwhz00,What happened to child (merged),95.0,Other (Please specify)
+784129,MCS,mcs3_cm_interview,ccbdcy00,When did child die (year),-9.0,Refusal
+784130,MCS,mcs3_cm_interview,ccbdcy00,When did child die (year),-8.0,Don't Know
+784131,MCS,mcs3_cm_interview,ccbdcy00,When did child die (year),-1.0,Not applicable
+784132,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),-9.0,Refusal
+784133,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),-8.0,Don't Know
+784134,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),-1.0,Not applicable
+784135,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),1.0,January
+784136,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),2.0,February
+784137,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),3.0,March
+784138,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),4.0,April
+784139,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),5.0,May
+784140,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),6.0,June
+784141,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),7.0,July
+784142,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),8.0,August
+784143,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),9.0,September
+784144,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),10.0,October
+784145,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),11.0,November
+784146,MCS,mcs3_cm_interview,ccbdcm00,When did child die (month),12.0,December
+784147,MCS,mcs3_cm_interview,ccbadd00,Ask & record on ARF address of twin/triplet who moved,-9.0,Refusal
+784148,MCS,mcs3_cm_interview,ccbadd00,Ask & record on ARF address of twin/triplet who moved,-8.0,Don't Know
+784149,MCS,mcs3_cm_interview,ccbadd00,Ask & record on ARF address of twin/triplet who moved,-1.0,Not applicable
+784150,MCS,mcs3_cm_interview,ccbadd00,Ask & record on ARF address of twin/triplet who moved,1.0,Press 1 and Enter to continue.
+784151,MCS,mcs3_cm_interview,ccblat00,Will need to collect twin/triplet later,-9.0,Refusal
+784152,MCS,mcs3_cm_interview,ccblat00,Will need to collect twin/triplet later,-8.0,Don't Know
+784153,MCS,mcs3_cm_interview,ccblat00,Will need to collect twin/triplet later,-1.0,Not applicable
+784154,MCS,mcs3_cm_interview,ccblat00,Will need to collect twin/triplet later,1.0,Press 1 and Enter to continue.
+784155,MCS,mcs3_cm_interview,ccbcor00,Check FF child's name,-9.0,Refusal
+784156,MCS,mcs3_cm_interview,ccbcor00,Check FF child's name,-8.0,Don't Know
+784157,MCS,mcs3_cm_interview,ccbcor00,Check FF child's name,-1.0,Not applicable
+784158,MCS,mcs3_cm_interview,ccbcor00,Check FF child's name,1.0,"Yes, all correct"
+784159,MCS,mcs3_cm_interview,ccbcor00,Check FF child's name,2.0,No
+784160,MCS,mcs3_cm_interview,ccbeng00,Can CM understand story in English,-9.0,Refusal
+784161,MCS,mcs3_cm_interview,ccbeng00,Can CM understand story in English,-8.0,Don't Know
+784162,MCS,mcs3_cm_interview,ccbeng00,Can CM understand story in English,-1.0,Not applicable
+784163,MCS,mcs3_cm_interview,ccbeng00,Can CM understand story in English,1.0,Yes
+784164,MCS,mcs3_cm_interview,ccbeng00,Can CM understand story in English,2.0,No
+784165,MCS,mcs3_cm_interview,cccabr00,Whether CM lived outside UK since last interview?,-9.0,Refusal
+784166,MCS,mcs3_cm_interview,cccabr00,Whether CM lived outside UK since last interview?,-8.0,Don't Know
+784167,MCS,mcs3_cm_interview,cccabr00,Whether CM lived outside UK since last interview?,-1.0,Not applicable
+784168,MCS,mcs3_cm_interview,cccabr00,Whether CM lived outside UK since last interview?,1.0,Yes
+784169,MCS,mcs3_cm_interview,cccabr00,Whether CM lived outside UK since last interview?,2.0,No
+784170,MCS,mcs3_cm_interview,cccabd00,Months lived outside UK since last interview?,-9.0,Refusal
+784171,MCS,mcs3_cm_interview,cccabd00,Months lived outside UK since last interview?,-8.0,Don't Know
+784172,MCS,mcs3_cm_interview,cccabd00,Months lived outside UK since last interview?,-1.0,Not applicable
+784173,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,-9.0,Refusal
+784174,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,-8.0,Don't Know
+784175,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,-1.0,Not applicable
+784176,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,1.0,All consents given
+784177,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,2.0,Story of Sally and Anne
+784178,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,3.0,Picture similarities
+784179,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,4.0,Naming Vocabulary
+784180,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,5.0,Pattern construction
+784181,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,6.0,Height
+784182,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,7.0,Weight
+784183,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,8.0,Waist circumference against skin
+784184,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,9.0,Waist circumference over clothing
+784185,MCS,mcs3_cm_interview,ccchic0a,Consent forms for child given MC1,96.0,NO consents given
+784186,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,-9.0,Refusal
+784187,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,-8.0,Don't Know
+784188,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,-1.0,Not applicable
+784189,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,1.0,All consents given
+784190,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,2.0,Story of Sally and Anne
+784191,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,3.0,Picture similarities
+784192,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,4.0,Naming Vocabulary
+784193,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,5.0,Pattern construction
+784194,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,6.0,Height
+784195,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,7.0,Weight
+784196,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,8.0,Waist circumference against skin
+784197,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,9.0,Waist circumference over clothing
+784198,MCS,mcs3_cm_interview,ccchic0b,Consent forms for child given MC2,96.0,NO consents given
+784199,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,-9.0,Refusal
+784200,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,-8.0,Don't Know
+784201,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,-1.0,Not applicable
+784202,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,1.0,All consents given
+784203,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,2.0,Story of Sally and Anne
+784204,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,3.0,Picture similarities
+784205,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,4.0,Naming Vocabulary
+784206,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,5.0,Pattern construction
+784207,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,6.0,Height
+784208,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,7.0,Weight
+784209,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,8.0,Waist circumference against skin
+784210,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,9.0,Waist circumference over clothing
+784211,MCS,mcs3_cm_interview,ccchic0c,Consent forms for child given MC3,96.0,NO consents given
+784212,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,-9.0,Refusal
+784213,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,-8.0,Don't Know
+784214,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,-1.0,Not applicable
+784215,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,1.0,All consents given
+784216,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,2.0,Story of Sally and Anne
+784217,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,3.0,Picture similarities
+784218,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,4.0,Naming Vocabulary
+784219,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,5.0,Pattern construction
+784220,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,6.0,Height
+784221,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,7.0,Weight
+784222,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,8.0,Waist circumference against skin
+784223,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,9.0,Waist circumference over clothing
+784224,MCS,mcs3_cm_interview,ccchic0d,Consent forms for child given MC4,96.0,NO consents given
+784225,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,-9.0,Refusal
+784226,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,-8.0,Don't Know
+784227,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,-1.0,Not applicable
+784228,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,1.0,All consents given
+784229,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,2.0,Story of Sally and Anne
+784230,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,3.0,Picture similarities
+784231,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,4.0,Naming Vocabulary
+784232,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,5.0,Pattern construction
+784233,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,6.0,Height
+784234,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,7.0,Weight
+784235,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,8.0,Waist circumference against skin
+784236,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,9.0,Waist circumference over clothing
+784237,MCS,mcs3_cm_interview,ccchic0e,Consent forms for child given MC5,96.0,NO consents given
+784238,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,-9.0,Refusal
+784239,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,-8.0,Don't Know
+784240,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,-1.0,Not applicable
+784241,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,1.0,All consents given
+784242,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,2.0,Story of Sally and Anne
+784243,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,3.0,Picture similarities
+784244,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,4.0,Naming Vocabulary
+784245,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,5.0,Pattern construction
+784246,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,6.0,Height
+784247,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,7.0,Weight
+784248,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,8.0,Waist circumference against skin
+784249,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,9.0,Waist circumference over clothing
+784250,MCS,mcs3_cm_interview,ccchic0f,Consent forms for child given MC6,96.0,NO consents given
+784251,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,-9.0,Refusal
+784252,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,-8.0,Don't Know
+784253,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,-1.0,Not applicable
+784254,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,1.0,All consents given
+784255,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,2.0,Story of Sally and Anne
+784256,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,3.0,Picture similarities
+784257,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,4.0,Naming Vocabulary
+784258,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,5.0,Pattern construction
+784259,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,6.0,Height
+784260,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,7.0,Weight
+784261,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,8.0,Waist circumference against skin
+784262,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,9.0,Waist circumference over clothing
+784263,MCS,mcs3_cm_interview,ccchic0g,Consent forms for child given MC7,96.0,NO consents given
+784264,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,-9.0,Refusal
+784265,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,-8.0,Don't Know
+784266,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,-1.0,Not applicable
+784267,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,1.0,All consents given
+784268,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,2.0,Story of Sally and Anne
+784269,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,3.0,Picture similarities
+784270,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,4.0,Naming Vocabulary
+784271,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,5.0,Pattern construction
+784272,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,6.0,Height
+784273,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,7.0,Weight
+784274,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,8.0,Waist circumference against skin
+784275,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,9.0,Waist circumference over clothing
+784276,MCS,mcs3_cm_interview,ccchic0h,Consent forms for child given MC8,96.0,NO consents given
+784277,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,-9.0,Refusal
+784278,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,-8.0,Don't Know
+784279,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,-1.0,Not applicable
+784280,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,1.0,All consents given
+784281,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,2.0,Story of Sally and Anne
+784282,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,3.0,Picture similarities
+784283,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,4.0,Naming Vocabulary
+784284,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,5.0,Pattern construction
+784285,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,6.0,Height
+784286,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,7.0,Weight
+784287,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,8.0,Waist circumference against skin
+784288,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,9.0,Waist circumference over clothing
+784289,MCS,mcs3_cm_interview,ccchic0i,Consent forms for child given MC9,96.0,NO consents given
+784290,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,-8.0,Don't Know
+784291,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,-1.0,Not applicable
+784292,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,1.0,All consents given
+784293,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,2.0,Story of Sally and Anne
+784294,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,3.0,Picture similarities
+784295,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,4.0,Naming Vocabulary
+784296,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,5.0,Pattern construction
+784297,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,6.0,Height
+784298,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,7.0,Weight
+784299,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,8.0,Waist circumference against skin
+784300,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,9.0,Waist circumference over clothing
+784301,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,96.0,NO consents given
+784302,MCS,mcs3_cm_interview,ccchic0j,Consent forms for child given MC10,-9.0,Refusal
+784303,MCS,mcs3_cm_interview,cctvns00,Whether background noise from TV etc,-9.0,Refusal
+784304,MCS,mcs3_cm_interview,cctvns00,Whether background noise from TV etc,-8.0,Don't Know
+784305,MCS,mcs3_cm_interview,cctvns00,Whether background noise from TV etc,-1.0,Not applicable
+784306,MCS,mcs3_cm_interview,cctvns00,Whether background noise from TV etc,1.0,No noise from television/radio/stereo
+784307,MCS,mcs3_cm_interview,cctvns00,Whether background noise from TV etc,2.0,Moderate noise from television/radio/st
+784308,MCS,mcs3_cm_interview,cctvns00,Whether background noise from TV etc,3.0,Loud noise from television/radio/stereo
+784309,MCS,mcs3_cm_interview,cctvns00,Whether background noise from TV etc,4.0,Not observed/DK
+784310,MCS,mcs3_cm_interview,ccconv00,IWR: Background noise from conversation,-9.0,Refusal
+784311,MCS,mcs3_cm_interview,ccconv00,IWR: Background noise from conversation,-8.0,Don't Know
+784312,MCS,mcs3_cm_interview,ccconv00,IWR: Background noise from conversation,-1.0,Not applicable
+784313,MCS,mcs3_cm_interview,ccconv00,IWR: Background noise from conversation,1.0,No background conversation
+784314,MCS,mcs3_cm_interview,ccconv00,IWR: Background noise from conversation,2.0,Audible but not loud background convers
+784315,MCS,mcs3_cm_interview,ccconv00,IWR: Background noise from conversation,3.0,Loud background conversation
+784316,MCS,mcs3_cm_interview,ccconv00,IWR: Background noise from conversation,4.0,Not observed/DK
+784317,MCS,mcs3_cm_interview,ccbacc00,IWR: Background noise from other children,-9.0,Refusal
+784318,MCS,mcs3_cm_interview,ccbacc00,IWR: Background noise from other children,-8.0,Don't Know
+784319,MCS,mcs3_cm_interview,ccbacc00,IWR: Background noise from other children,-1.0,Not applicable
+784320,MCS,mcs3_cm_interview,ccbacc00,IWR: Background noise from other children,1.0,No background noise and disturbances
+784321,MCS,mcs3_cm_interview,ccbacc00,IWR: Background noise from other children,2.0,Some background noise and disturbances
+784322,MCS,mcs3_cm_interview,ccbacc00,IWR: Background noise from other children,3.0,A lot of background noise and disturban
+784323,MCS,mcs3_cm_interview,ccbacc00,IWR: Background noise from other children,4.0,Not observed/DK
+784324,MCS,mcs3_cm_interview,ccentr00,IWR: Background noise from people entering/leaving room,-9.0,Refusal
+784325,MCS,mcs3_cm_interview,ccentr00,IWR: Background noise from people entering/leaving room,-8.0,Don't Know
+784326,MCS,mcs3_cm_interview,ccentr00,IWR: Background noise from people entering/leaving room,-1.0,Not applicable
+784327,MCS,mcs3_cm_interview,ccentr00,IWR: Background noise from people entering/leaving room,1.0,No-one entering/leaving the room
+784328,MCS,mcs3_cm_interview,ccentr00,IWR: Background noise from people entering/leaving room,2.0,Someone entering/leaving the room o
+784329,MCS,mcs3_cm_interview,ccentr00,IWR: Background noise from people entering/leaving room,3.0,Someone entering/leaving the room 3
+784330,MCS,mcs3_cm_interview,ccentr00,IWR: Background noise from people entering/leaving room,4.0,Not observed/DK
+784331,MCS,mcs3_cm_interview,ccenth00,IWR: Background noise from people entering/leaving the house,-9.0,Refusal
+784332,MCS,mcs3_cm_interview,ccenth00,IWR: Background noise from people entering/leaving the house,-8.0,Don't Know
+784333,MCS,mcs3_cm_interview,ccenth00,IWR: Background noise from people entering/leaving the house,-1.0,Not applicable
+784334,MCS,mcs3_cm_interview,ccenth00,IWR: Background noise from people entering/leaving the house,1.0,No-one entering/leaving the home
+784335,MCS,mcs3_cm_interview,ccenth00,IWR: Background noise from people entering/leaving the house,2.0,Someone entering/leaving the home o
+784336,MCS,mcs3_cm_interview,ccenth00,IWR: Background noise from people entering/leaving the house,3.0,Someone entering/leaving the home 3
+784337,MCS,mcs3_cm_interview,ccenth00,IWR: Background noise from people entering/leaving the house,4.0,Not observed/DK
+784338,MCS,mcs3_cm_interview,ccintc00,IWR: Interruption of cognitive assessments from another child,-9.0,Refusal
+784339,MCS,mcs3_cm_interview,ccintc00,IWR: Interruption of cognitive assessments from another child,-8.0,Don't Know
+784340,MCS,mcs3_cm_interview,ccintc00,IWR: Interruption of cognitive assessments from another child,-1.0,Not applicable
+784341,MCS,mcs3_cm_interview,ccintc00,IWR: Interruption of cognitive assessments from another child,1.0,No interruptions by another child
+784342,MCS,mcs3_cm_interview,ccintc00,IWR: Interruption of cognitive assessments from another child,2.0,1-2 interruptions by another child
+784343,MCS,mcs3_cm_interview,ccintc00,IWR: Interruption of cognitive assessments from another child,3.0,3 + interruptions by another child
+784344,MCS,mcs3_cm_interview,ccintc00,IWR: Interruption of cognitive assessments from another child,4.0,Not observed/DK
+784345,MCS,mcs3_cm_interview,ccinta00,IWR: Interruption of cognitive assessments by an adult,-9.0,Refusal
+784346,MCS,mcs3_cm_interview,ccinta00,IWR: Interruption of cognitive assessments by an adult,-8.0,Don't Know
+784347,MCS,mcs3_cm_interview,ccinta00,IWR: Interruption of cognitive assessments by an adult,-1.0,Not applicable
+784348,MCS,mcs3_cm_interview,ccinta00,IWR: Interruption of cognitive assessments by an adult,1.0,No interruptions by other adult(s)
+784349,MCS,mcs3_cm_interview,ccinta00,IWR: Interruption of cognitive assessments by an adult,2.0,1-2 interruptions by other adult(s)
+784350,MCS,mcs3_cm_interview,ccinta00,IWR: Interruption of cognitive assessments by an adult,3.0,3 or more interruptions by other adult(
+784351,MCS,mcs3_cm_interview,ccinta00,IWR: Interruption of cognitive assessments by an adult,4.0,Not observed/DK
+784352,MCS,mcs3_cm_interview,cctirc00,Whether cohort child tired,-9.0,Refusal
+784353,MCS,mcs3_cm_interview,cctirc00,Whether cohort child tired,-8.0,Don't Know
+784354,MCS,mcs3_cm_interview,cctirc00,Whether cohort child tired,-1.0,Not applicable
+784355,MCS,mcs3_cm_interview,cctirc00,Whether cohort child tired,1.0,Very tired
+784356,MCS,mcs3_cm_interview,cctirc00,Whether cohort child tired,2.0,A little tired
+784357,MCS,mcs3_cm_interview,cctirc00,Whether cohort child tired,3.0,Wide awake
+784358,MCS,mcs3_cm_interview,cctirc00,Whether cohort child tired,4.0,Not observed/DK
+784359,MCS,mcs3_cm_interview,ccassc00,Circumstances of the cognitive assessment,-9.0,Refusal
+784360,MCS,mcs3_cm_interview,ccassc00,Circumstances of the cognitive assessment,-8.0,Don't Know
+784361,MCS,mcs3_cm_interview,ccassc00,Circumstances of the cognitive assessment,-1.0,Not applicable
+784362,MCS,mcs3_cm_interview,ccassc00,Circumstances of the cognitive assessment,1.0,Yes
+784363,MCS,mcs3_cm_interview,ccassc00,Circumstances of the cognitive assessment,2.0,No
+784364,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,-9.0,Refusal
+784365,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,-8.0,Don't Know
+784366,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,-1.0,Not applicable
+784367,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,11.0,Complete
+784368,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,21.0,Partially complete
+784369,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,43.0,Parent refused
+784370,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,44.0,Child refused
+784371,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,56.0,Other non-productive
+784372,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,70.0,Sp1
+784373,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,71.0,Sp2
+784374,MCS,mcs3_cm_interview,ccsaoc00,Sally Anne outcome,80.0,No child
+784375,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,-9.0,Refusal
+784376,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,-8.0,Don't Know
+784377,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,-1.0,Not applicable
+784378,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,11.0,Complete
+784379,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,21.0,Partially complete
+784380,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,43.0,Parent refused
+784381,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,44.0,Child refused
+784382,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,56.0,Other non-productive
+784383,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,70.0,Sp1
+784384,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,71.0,Sp2
+784385,MCS,mcs3_cm_interview,ccpsoc00,Pattern similarities outcome,80.0,No child
+784386,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,-9.0,Refusal
+784387,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,-8.0,Don't Know
+784388,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,-1.0,Not applicable
+784389,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,11.0,Complete
+784390,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,21.0,Partially complete
+784391,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,43.0,Parent refused
+784392,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,44.0,Child refused
+784393,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,56.0,Other non-productive
+784394,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,70.0,Sp1
+784395,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,71.0,Sp2
+784396,MCS,mcs3_cm_interview,ccnvoc00,Naming Vocab outcome,80.0,No child
+784397,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,-9.0,Refusal
+784398,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,-8.0,Don't Know
+784399,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,-1.0,Not applicable
+784400,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,11.0,Complete
+784401,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,21.0,Partially complete
+784402,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,43.0,Parent refused
+784403,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,44.0,Child refused
+784404,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,56.0,Other non-productive
+784405,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,70.0,Sp1
+784406,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,71.0,Sp2
+784407,MCS,mcs3_cm_interview,ccpcoc00,Pattern constuction outcome,80.0,No child
+784408,MCS,mcs3_cm_interview,cchtoc00,Height outcome,-9.0,Refusal
+784409,MCS,mcs3_cm_interview,cchtoc00,Height outcome,-8.0,Don't Know
+784410,MCS,mcs3_cm_interview,cchtoc00,Height outcome,-1.0,Not applicable
+784411,MCS,mcs3_cm_interview,cchtoc00,Height outcome,11.0,Complete
+784412,MCS,mcs3_cm_interview,cchtoc00,Height outcome,21.0,Partially complete
+784413,MCS,mcs3_cm_interview,cchtoc00,Height outcome,43.0,Parent refused
+784414,MCS,mcs3_cm_interview,cchtoc00,Height outcome,44.0,Child refused
+784415,MCS,mcs3_cm_interview,cchtoc00,Height outcome,56.0,Other non-productive
+784416,MCS,mcs3_cm_interview,cchtoc00,Height outcome,70.0,Sp1
+784417,MCS,mcs3_cm_interview,cchtoc00,Height outcome,71.0,Sp2
+784418,MCS,mcs3_cm_interview,cchtoc00,Height outcome,80.0,No child
+784419,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,-9.0,Refusal
+784420,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,-8.0,Don't Know
+784421,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,-1.0,Not applicable
+784422,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,11.0,Complete
+784423,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,21.0,Partially complete
+784424,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,43.0,Parent refused
+784425,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,44.0,Child refused
+784426,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,56.0,Other non-productive
+784427,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,70.0,Sp1
+784428,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,71.0,Sp2
+784429,MCS,mcs3_cm_interview,ccwtoc00,Weight outcome,80.0,No child
+784430,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,-9.0,Refusal
+784431,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,-8.0,Don't Know
+784432,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,-1.0,Not applicable
+784433,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,11.0,Complete
+784434,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,21.0,Partially complete
+784435,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,43.0,Parent refused
+784436,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,44.0,Child refused
+784437,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,56.0,Other non-productive
+784438,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,70.0,Sp1
+784439,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,71.0,Sp2
+784440,MCS,mcs3_cm_interview,ccwsoc00,Waist outcome,80.0,No child
+784441,MCS,mcs3_cm_interview,cccmno00,COG: Cohort Member Number,-9.0,Refusal
+784442,MCS,mcs3_cm_interview,cccmno00,COG: Cohort Member Number,-8.0,Don't Know
+784443,MCS,mcs3_cm_interview,cccmno00,COG: Cohort Member Number,-1.0,Not applicable
+784444,MCS,mcs3_cm_interview,ccapst00,PHYS: Start time of physical assessments,,
+784445,MCS,mcs3_cm_interview,ccapet00,PHYS: End time of physical assessments,,
+784446,MCS,mcs3_cm_interview,ccapln00,PHYS: Length of physical assessments,-9.0,Refusal
+784447,MCS,mcs3_cm_interview,ccapln00,PHYS: Length of physical assessments,-8.0,Don't Know
+784448,MCS,mcs3_cm_interview,ccapln00,PHYS: Length of physical assessments,-1.0,Not applicable
+784449,MCS,mcs3_cm_interview,ccapln00,PHYS: Length of physical assessments,998.0,Refusal
+784450,MCS,mcs3_cm_interview,ccapln00,PHYS: Length of physical assessments,999.0,Don't Know
+784451,MCS,mcs3_cm_interview,ccapin00,PHYS: Interviewer: Id now like to measure ht,-9.0,Refusal
+784452,MCS,mcs3_cm_interview,ccapin00,PHYS: Interviewer: Id now like to measure ht,-8.0,Don't Know
+784453,MCS,mcs3_cm_interview,ccapin00,PHYS: Interviewer: Id now like to measure ht,-1.0,Not applicable
+784454,MCS,mcs3_cm_interview,ccapin00,PHYS: Interviewer: Id now like to measure ht,1.0,Press 1 and Enter to continue.
+784455,MCS,mcs3_cm_interview,cchtdn00,PHYS: Whether height measured,-9.0,Refusal
+784456,MCS,mcs3_cm_interview,cchtdn00,PHYS: Whether height measured,-8.0,Don't Know
+784457,MCS,mcs3_cm_interview,cchtdn00,PHYS: Whether height measured,-1.0,Not applicable
+784458,MCS,mcs3_cm_interview,cchtdn00,PHYS: Whether height measured,1.0,Consent given - height measured
+784459,MCS,mcs3_cm_interview,cchtdn00,PHYS: Whether height measured,2.0,Height refused by parent
+784460,MCS,mcs3_cm_interview,cchtdn00,PHYS: Whether height measured,3.0,Height refused by child
+784461,MCS,mcs3_cm_interview,cchtdn00,PHYS: Whether height measured,4.0,Unable to obtain height measurement
+784462,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),-9.0,Refusal
+784463,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),-8.0,Don't Know
+784464,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),-1.0,Not applicable
+784465,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),1.0,Child cannot stand unaided
+784466,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),2.0,Child too upset to take part
+784467,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),3.0,Child would not co-operate/ refused
+784468,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),4.0,Child would not/ could not stay still
+784469,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),5.0,Other reason for refusal by parent
+784470,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),6.0,Other reason for refusal by child
+784471,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),7.0,Other reason unable to do measuremement
+784472,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),8.0,spare
+784473,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),9.0,spare
+784474,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),10.0,spare
+784475,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),11.0,spare
+784476,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),12.0,spare
+784477,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),85.0,Other specific answer
+784478,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),86.0,Vague / irrelevant answer
+784479,MCS,mcs3_cm_interview,ccnoht0a,PHYS: Reason for refusal (Final),87.0,Editor cannot deal with
+784480,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),-9.0,Refusal
+784481,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),-8.0,Don't Know
+784482,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),-1.0,Not applicable
+784483,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),1.0,Child cannot stand unaided
+784484,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),2.0,Child too upset to take part
+784485,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),3.0,Child would not co-operate/ refused
+784486,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),4.0,Child would not/ could not stay still
+784487,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),5.0,Other reason for refusal by parent
+784488,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),6.0,Other reason for refusal by child
+784489,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),7.0,Other reason unable to do measuremement
+784490,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),8.0,spare
+784491,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),9.0,spare
+784492,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),10.0,spare
+784493,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),11.0,spare
+784494,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),12.0,spare
+784495,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),85.0,Other specific answer
+784496,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),86.0,Vague / irrelevant answer
+784497,MCS,mcs3_cm_interview,ccnoht0b,PHYS: Reason for refusal (Final),87.0,Editor cannot deal with
+784498,MCS,mcs3_cm_interview,cchtcm00,PHYS: Height in cms,-9.0,Refusal
+784499,MCS,mcs3_cm_interview,cchtcm00,PHYS: Height in cms,-8.0,Don't Know
+784500,MCS,mcs3_cm_interview,cchtcm00,PHYS: Height in cms,-1.0,Not applicable
+784501,MCS,mcs3_cm_interview,cchtcm00,PHYS: Height in cms,99998.0,Refusal
+784502,MCS,mcs3_cm_interview,cchtcm00,PHYS: Height in cms,99999.0,Don't Know
+784503,MCS,mcs3_cm_interview,cchtat00,PHYS: number of attempts at measurement,-9.0,Refusal
+784504,MCS,mcs3_cm_interview,cchtat00,PHYS: number of attempts at measurement,-8.0,Don't Know
+784505,MCS,mcs3_cm_interview,cchtat00,PHYS: number of attempts at measurement,-1.0,Not applicable
+784506,MCS,mcs3_cm_interview,cchttm00,PHYS: Time Measurement was taken,,
+784507,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),-9.0,Refusal
+784508,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),-8.0,Don't Know
+784509,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),-1.0,Not applicable
+784510,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),1.0,Height measured successfully
+784511,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),2.0,Hairstyle
+784512,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),3.0,Turban or other headwear
+784513,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),4.0,Posture - back not straight
+784514,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),5.0,Posture - legs not straight
+784515,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),6.0,Unable to stand still
+784516,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),7.0,Shoes were worn
+784517,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),8.0,Socks were worn
+784518,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),9.0,Parent not able to/ did not help
+784519,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),10.0,Could not keep head in Frankfort Plane
+784520,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),11.0,spare
+784521,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),12.0,spare
+784522,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),13.0,spare
+784523,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),14.0,spare
+784524,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),15.0,spare
+784525,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),85.0,Other specific answer
+784526,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),86.0,Vague / irrelevant answer
+784527,MCS,mcs3_cm_interview,cchtrlaa,PHYS: Height measurement circumstances (final),87.0,Editor cannot deal with
+784528,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),-9.0,Refusal
+784529,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),-8.0,Don't Know
+784530,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),-1.0,Not applicable
+784531,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),1.0,Height measured successfully
+784532,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),2.0,Hairstyle
+784533,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),3.0,Turban or other headwear
+784534,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),4.0,Posture - back not straight
+784535,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),5.0,Posture - legs not straight
+784536,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),6.0,Unable to stand still
+784537,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),7.0,Shoes were worn
+784538,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),8.0,Socks were worn
+784539,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),9.0,Parent not able to/ did not help
+784540,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),10.0,Could not keep head in Frankfort Plane
+784541,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),11.0,spare
+784542,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),12.0,spare
+784543,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),13.0,spare
+784544,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),14.0,spare
+784545,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),15.0,spare
+784546,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),85.0,Other specific answer
+784547,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),86.0,Vague / irrelevant answer
+784548,MCS,mcs3_cm_interview,cchtrlab,PHYS: Height measurement circumstances (final),87.0,Editor cannot deal with
+784549,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),87.0,Editor cannot deal with
+784550,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),95.0,Other (specify)
+784551,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),-9.0,Refusal
+784552,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),-8.0,Don't Know
+784553,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),-1.0,Not applicable
+784554,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),1.0,Height measured successfully
+784555,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),2.0,Hairstyle
+784556,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),3.0,Turban or other headwear
+784557,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),4.0,Posture - back not straight
+784558,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),5.0,Posture - legs not straight
+784559,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),6.0,Unable to stand still
+784560,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),7.0,Shoes were worn
+784561,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),8.0,Socks were worn
+784562,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),9.0,Parent not able to/ did not help
+784563,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),10.0,Could not keep head in Frankfort Plane
+784564,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),11.0,spare
+784565,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),12.0,spare
+784566,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),13.0,spare
+784567,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),14.0,spare
+784568,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),15.0,spare
+784569,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),85.0,Other specific answer
+784570,MCS,mcs3_cm_interview,cchtrlba,PHYS: Height measurement circumstances (final),86.0,Vague / irrelevant answer
+784571,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),-9.0,Refusal
+784572,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),-8.0,Don't Know
+784573,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),-1.0,Not applicable
+784574,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),1.0,Height measured successfully
+784575,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),2.0,Hairstyle
+784576,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),3.0,Turban or other headwear
+784577,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),4.0,Posture - back not straight
+784578,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),5.0,Posture - legs not straight
+784579,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),6.0,Unable to stand still
+784580,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),7.0,Shoes were worn
+784581,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),8.0,Socks were worn
+784582,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),9.0,Parent not able to/ did not help
+784583,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),10.0,Could not keep head in Frankfort Plane
+784584,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),11.0,spare
+784585,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),12.0,spare
+784586,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),13.0,spare
+784587,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),14.0,spare
+784588,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),15.0,spare
+784589,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),85.0,Other specific answer
+784590,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),86.0,Vague / irrelevant answer
+784591,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),87.0,Editor cannot deal with
+784592,MCS,mcs3_cm_interview,cchtrlbb,PHYS: Height measurement circumstances (final),95.0,Other (specify)
+784593,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),-9.0,Refusal
+784594,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),-8.0,Don't Know
+784595,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),-1.0,Not applicable
+784596,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),1.0,Height measured successfully
+784597,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),2.0,Hairstyle
+784598,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),3.0,Turban or other headwear
+784599,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),4.0,Posture - back not straight
+784600,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),5.0,Posture - legs not straight
+784601,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),6.0,Unable to stand still
+784602,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),7.0,Shoes were worn
+784603,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),8.0,Socks were worn
+784604,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),9.0,Parent not able to/ did not help
+784605,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),10.0,Could not keep head in Frankfort Plane
+784606,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),11.0,spare
+784607,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),12.0,spare
+784608,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),13.0,spare
+784609,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),14.0,spare
+784610,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),15.0,spare
+784611,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),85.0,Other specific answer
+784612,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),86.0,Vague / irrelevant answer
+784613,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),87.0,Editor cannot deal with
+784614,MCS,mcs3_cm_interview,cchtrlbc,PHYS: Height measurement circumstances (final),95.0,Other (specify)
+784615,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),-9.0,Refusal
+784616,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),-8.0,Don't Know
+784617,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),-1.0,Not applicable
+784618,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),1.0,Height measured successfully
+784619,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),2.0,Hairstyle
+784620,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),3.0,Turban or other headwear
+784621,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),4.0,Posture - back not straight
+784622,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),5.0,Posture - legs not straight
+784623,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),6.0,Unable to stand still
+784624,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),7.0,Shoes were worn
+784625,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),8.0,Socks were worn
+784626,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),9.0,Parent not able to/ did not help
+784627,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),10.0,Could not keep head in Frankfort Plane
+784628,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),11.0,spare
+784629,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),12.0,spare
+784630,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),13.0,spare
+784631,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),14.0,spare
+784632,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),15.0,spare
+784633,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),85.0,Other specific answer
+784634,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),86.0,Vague / irrelevant answer
+784635,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),87.0,Editor cannot deal with
+784636,MCS,mcs3_cm_interview,cchtrlbd,PHYS: Height measurement circumstances (final),95.0,Other (specify)
+784637,MCS,mcs3_cm_interview,cchtel00,PHYS: Whether further height information,-9.0,Refusal
+784638,MCS,mcs3_cm_interview,cchtel00,PHYS: Whether further height information,-8.0,Don't Know
+784639,MCS,mcs3_cm_interview,cchtel00,PHYS: Whether further height information,-1.0,Not applicable
+784640,MCS,mcs3_cm_interview,cchtel00,PHYS: Whether further height information,1.0,Yes
+784641,MCS,mcs3_cm_interview,cchtel00,PHYS: Whether further height information,2.0,No
+784642,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),-9.0,Refusal
+784643,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),-8.0,Don't Know
+784644,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),-1.0,Not applicable
+784645,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),1.0,Parent did the stretch
+784646,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),2.0,Measurements taken on carpet
+784647,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),3.0,Child tall for his/her age
+784648,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),4.0,Child short for his/her age
+784649,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),5.0,Child would not/ could not stay still
+784650,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),6.0,spare
+784651,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),7.0,spare
+784652,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),8.0,spare
+784653,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),9.0,spare
+784654,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),10.0,spare
+784655,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),85.0,Other specific answer
+784656,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),86.0,Vague / irrelevant answer
+784657,MCS,mcs3_cm_interview,cchtex0a,PHYS: Anything else about height measurement (final),87.0,Editor cannot deal with
+784658,MCS,mcs3_cm_interview,ccbkht00,PHYS: Whether looked in child record book,-9.0,Refusal
+784659,MCS,mcs3_cm_interview,ccbkht00,PHYS: Whether looked in child record book,-8.0,Don't Know
+784660,MCS,mcs3_cm_interview,ccbkht00,PHYS: Whether looked in child record book,-1.0,Not applicable
+784661,MCS,mcs3_cm_interview,ccbkht00,PHYS: Whether looked in child record book,1.0,Yes
+784662,MCS,mcs3_cm_interview,ccbkht00,PHYS: Whether looked in child record book,2.0,No - not got Child Health Record Book/
+784663,MCS,mcs3_cm_interview,ccbkht00,PHYS: Whether looked in child record book,3.0,Refused
+784664,MCS,mcs3_cm_interview,ccbkcm00,PHYS: Height in Centimetres,-9.0,Refusal
+784665,MCS,mcs3_cm_interview,ccbkcm00,PHYS: Height in Centimetres,-8.0,Don't Know
+784666,MCS,mcs3_cm_interview,ccbkcm00,PHYS: Height in Centimetres,-1.0,Not applicable
+784667,MCS,mcs3_cm_interview,ccbkcm00,PHYS: Height in Centimetres,99998.0,Refusal
+784668,MCS,mcs3_cm_interview,ccbkcm00,PHYS: Height in Centimetres,99999.0,Don't Know
+784669,MCS,mcs3_cm_interview,ccwtdn00,PHYS: Whether weight measured,-9.0,Refusal
+784670,MCS,mcs3_cm_interview,ccwtdn00,PHYS: Whether weight measured,-8.0,Don't Know
+784671,MCS,mcs3_cm_interview,ccwtdn00,PHYS: Whether weight measured,-1.0,Not applicable
+784672,MCS,mcs3_cm_interview,ccwtdn00,PHYS: Whether weight measured,1.0,Consent given - weight measured
+784673,MCS,mcs3_cm_interview,ccwtdn00,PHYS: Whether weight measured,2.0,Weight refused by parent
+784674,MCS,mcs3_cm_interview,ccwtdn00,PHYS: Whether weight measured,3.0,Weight refused by child
+784675,MCS,mcs3_cm_interview,ccwtdn00,PHYS: Whether weight measured,4.0,Unable to obtain weight measurement
+784676,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),-9.0,Refusal
+784677,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),-8.0,Don't Know
+784678,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),-1.0,Not applicable
+784679,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),1.0,Child cannot stand unaided
+784680,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),2.0,Child too upset to take part
+784681,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),3.0,Child would not co-operate/ refused
+784682,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),4.0,Child would not/ could not stay still
+784683,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),5.0,Problem with scales
+784684,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),6.0,Plaster on limb
+784685,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),7.0,Other reason for refusal by parent
+784686,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),8.0,Other reason for refusal by child
+784687,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),9.0,Other reason unable to do measuremement
+784688,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),10.0,spare
+784689,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),11.0,spare
+784690,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),12.0,spare
+784691,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),13.0,spare
+784692,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),14.0,spare
+784693,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),85.0,Other specific answer
+784694,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),86.0,Vague / irrelevant answer
+784695,MCS,mcs3_cm_interview,ccnowt0a,PHYS: Reason for refusal (final),87.0,Editor cannot deal with
+784696,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),-9.0,Refusal
+784697,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),-8.0,Don't Know
+784698,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),-1.0,Not applicable
+784699,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),1.0,Child cannot stand unaided
+784700,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),2.0,Child too upset to take part
+784701,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),3.0,Child would not co-operate/ refused
+784702,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),4.0,Child would not/ could not stay still
+784703,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),5.0,Problem with scales
+784704,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),6.0,Plaster on limb
+784705,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),7.0,Other reason for refusal by parent
+784706,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),8.0,Other reason for refusal by child
+784707,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),9.0,Other reason unable to do measuremement
+784708,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),10.0,spare
+784709,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),11.0,spare
+784710,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),12.0,spare
+784711,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),13.0,spare
+784712,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),14.0,spare
+784713,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),85.0,Other specific answer
+784714,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),86.0,Vague / irrelevant answer
+784715,MCS,mcs3_cm_interview,ccnowt0b,PHYS: Reason for refusal (final),87.0,Editor cannot deal with
+784716,MCS,mcs3_cm_interview,ccwtcm00,PHYS: Weight in Kilograms,-9.0,Refusal
+784717,MCS,mcs3_cm_interview,ccwtcm00,PHYS: Weight in Kilograms,-8.0,Don't Know
+784718,MCS,mcs3_cm_interview,ccwtcm00,PHYS: Weight in Kilograms,-1.0,Not applicable
+784719,MCS,mcs3_cm_interview,ccwtat00,PHYS: number of attempts at measurement,-9.0,Refusal
+784720,MCS,mcs3_cm_interview,ccwtat00,PHYS: number of attempts at measurement,-8.0,Don't Know
+784721,MCS,mcs3_cm_interview,ccwtat00,PHYS: number of attempts at measurement,-1.0,Not applicable
+784722,MCS,mcs3_cm_interview,ccwtsc00,PHYS: Whether scales on uneven floor,-9.0,Refusal
+784723,MCS,mcs3_cm_interview,ccwtsc00,PHYS: Whether scales on uneven floor,-8.0,Don't Know
+784724,MCS,mcs3_cm_interview,ccwtsc00,PHYS: Whether scales on uneven floor,-1.0,Not applicable
+784725,MCS,mcs3_cm_interview,ccwtsc00,PHYS: Whether scales on uneven floor,1.0,Yes - uneven floor
+784726,MCS,mcs3_cm_interview,ccwtsc00,PHYS: Whether scales on uneven floor,2.0,Yes - carpet
+784727,MCS,mcs3_cm_interview,ccwtsc00,PHYS: Whether scales on uneven floor,3.0,No - neither
+784728,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,-9.0,Refusal
+784729,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,-8.0,Don't Know
+784730,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,-1.0,Not applicable
+784731,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,1.0,Weight measured successfully
+784732,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,2.0,Child was wearing shoes or more than li
+784733,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,3.0,Child wearing a plaster cast on arm
+784734,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,4.0,Child wearing a plaster cast on leg
+784735,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,5.0,Unable to stand still
+784736,MCS,mcs3_cm_interview,ccwtrl0a,PHYS: Weight measurement circumstances,95.0,Other (specify)
+784737,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,-9.0,Refusal
+784738,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,-8.0,Don't Know
+784739,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,-1.0,Not applicable
+784740,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,1.0,Weight measured successfully
+784741,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,2.0,Child was wearing shoes or more than li
+784742,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,3.0,Child wearing a plaster cast on arm
+784743,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,4.0,Child wearing a plaster cast on leg
+784744,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,5.0,Unable to stand still
+784745,MCS,mcs3_cm_interview,ccwtrl0b,PHYS: Weight measurement circumstances,95.0,Other (specify)
+784746,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),-9.0,Refusal
+784747,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),-8.0,Don't Know
+784748,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),-1.0,Not applicable
+784749,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),1.0,Weight measured successfully
+784750,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),2.0,Child was wearing shoes or more than li
+784751,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),3.0,Child wearing a plaster cast on arm
+784752,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),4.0,Child wearing a plaster cast on leg
+784753,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),5.0,Unable to stand still
+784754,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),51.0,Problem with scales
+784755,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),52.0,spare
+784756,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),53.0,spare
+784757,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),54.0,spare
+784758,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),55.0,spare
+784759,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),56.0,spare
+784760,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),85.0,Other specific answer
+784761,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),86.0,Vague / irrelevant answer
+784762,MCS,mcs3_cm_interview,ccwtot0a,PHYS: Weight measurement circumstances (final),87.0,Editor cannot deal with
+784763,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),-9.0,Refusal
+784764,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),-8.0,Don't Know
+784765,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),-1.0,Not applicable
+784766,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),1.0,Weight measured successfully
+784767,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),2.0,Child was wearing shoes or more than li
+784768,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),3.0,Child wearing a plaster cast on arm
+784769,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),4.0,Child wearing a plaster cast on leg
+784770,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),5.0,Unable to stand still
+784771,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),51.0,Problem with scales
+784772,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),52.0,spare
+784773,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),53.0,spare
+784774,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),54.0,spare
+784775,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),55.0,spare
+784776,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),56.0,spare
+784777,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),85.0,Other specific answer
+784778,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),86.0,Vague / irrelevant answer
+784779,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),87.0,Editor cannot deal with
+784780,MCS,mcs3_cm_interview,ccwtotaa,PHYS: Weight measurement circumstances (final),95.0,Other (specify)
+784781,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),-9.0,Refusal
+784782,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),-8.0,Don't Know
+784783,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),-1.0,Not applicable
+784784,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),1.0,Weight measured successfully
+784785,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),2.0,Child was wearing shoes or more than li
+784786,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),3.0,Child wearing a plaster cast on arm
+784787,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),4.0,Child wearing a plaster cast on leg
+784788,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),5.0,Unable to stand still
+784789,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),51.0,Problem with scales
+784790,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),52.0,spare
+784791,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),53.0,spare
+784792,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),54.0,spare
+784793,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),55.0,spare
+784794,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),56.0,spare
+784795,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),85.0,Other specific answer
+784796,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),86.0,Vague / irrelevant answer
+784797,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),87.0,Editor cannot deal with
+784798,MCS,mcs3_cm_interview,ccwtotab,PHYS: Weight measurement circumstances (final),95.0,Other (specify)
+784799,MCS,mcs3_cm_interview,ccwtel00,PHYS: Anything else about weight measurement,-9.0,Refusal
+784800,MCS,mcs3_cm_interview,ccwtel00,PHYS: Anything else about weight measurement,-8.0,Don't Know
+784801,MCS,mcs3_cm_interview,ccwtel00,PHYS: Anything else about weight measurement,-1.0,Not applicable
+784802,MCS,mcs3_cm_interview,ccwtel00,PHYS: Anything else about weight measurement,1.0,Yes
+784803,MCS,mcs3_cm_interview,ccwtel00,PHYS: Anything else about weight measurement,2.0,No
+784804,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),-9.0,Refusal
+784805,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),-8.0,Don't Know
+784806,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),-1.0,Not applicable
+784807,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),1.0,Child is light for his/her age
+784808,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),2.0,Child is heavy for his/her age
+784809,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),3.0,spare
+784810,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),4.0,spare
+784811,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),5.0,spare
+784812,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),6.0,spare
+784813,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),7.0,spare
+784814,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),85.0,Other specific answer
+784815,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),86.0,Vague / irrelevant answer
+784816,MCS,mcs3_cm_interview,ccwtex0a,PHYS: Anything else about weight measurement (final),87.0,Editor cannot deal with
+784817,MCS,mcs3_cm_interview,ccbkwt00,PHYS: Whether looked in child record book,-9.0,Refusal
+784818,MCS,mcs3_cm_interview,ccbkwt00,PHYS: Whether looked in child record book,-8.0,Don't Know
+784819,MCS,mcs3_cm_interview,ccbkwt00,PHYS: Whether looked in child record book,-1.0,Not applicable
+784820,MCS,mcs3_cm_interview,ccbkwt00,PHYS: Whether looked in child record book,1.0,Yes
+784821,MCS,mcs3_cm_interview,ccbkwt00,PHYS: Whether looked in child record book,2.0,No - not got Child Health Record Book/
+784822,MCS,mcs3_cm_interview,ccbkwt00,PHYS: Whether looked in child record book,3.0,Refused
+784823,MCS,mcs3_cm_interview,ccbkkl00,PHYS: Weight in Kilograms,-9.0,Refusal
+784824,MCS,mcs3_cm_interview,ccbkkl00,PHYS: Weight in Kilograms,-8.0,Don't Know
+784825,MCS,mcs3_cm_interview,ccbkkl00,PHYS: Weight in Kilograms,-1.0,Not applicable
+784826,MCS,mcs3_cm_interview,ccwsdn00,PHYS: Waist measurement outcome,-9.0,Refusal
+784827,MCS,mcs3_cm_interview,ccwsdn00,PHYS: Waist measurement outcome,-8.0,Don't Know
+784828,MCS,mcs3_cm_interview,ccwsdn00,PHYS: Waist measurement outcome,-1.0,Not applicable
+784829,MCS,mcs3_cm_interview,ccwsdn00,PHYS: Waist measurement outcome,1.0,Consent given - waist measured
+784830,MCS,mcs3_cm_interview,ccwsdn00,PHYS: Waist measurement outcome,2.0,Waist refused by parent
+784831,MCS,mcs3_cm_interview,ccwsdn00,PHYS: Waist measurement outcome,3.0,Waist refused by child
+784832,MCS,mcs3_cm_interview,ccwsdn00,PHYS: Waist measurement outcome,4.0,Unable to obtain waist measurement
+784833,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,4.0,Waist measured over clothing by intervi
+784834,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,5.0,Waist measured over clothing by parent
+784835,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,6.0,Waist measured over clothing by intervi
+784836,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,-9.0,Refusal
+784837,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,-8.0,Don't Know
+784838,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,-1.0,Not applicable
+784839,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,1.0,Waist measured on bare skin by intervie
+784840,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,2.0,Waist measured on bare skin by parent
+784841,MCS,mcs3_cm_interview,ccwsmt00,PHYS: Waist measurement outcome,3.0,Waist measured on bare skin by intervie
+784842,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),-9.0,Refusal
+784843,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),-8.0,Don't Know
+784844,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),-1.0,Not applicable
+784845,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),1.0,Child cannot stand unaided
+784846,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),2.0,Child too upset to take part
+784847,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),3.0,Child would not co-operate/ refused
+784848,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),4.0,Child would not/ could not stay still
+784849,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),5.0,Problem with tape measure
+784850,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),6.0,Child wearing a dress
+784851,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),7.0,Other reason for refusal by parent
+784852,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),8.0,Other reason for refusal by child
+784853,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),9.0,Other reason unable to do measuremement
+784854,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),10.0,spare
+784855,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),11.0,spare
+784856,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),12.0,spare
+784857,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),13.0,spare
+784858,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),14.0,spare
+784859,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),85.0,Other specific answer
+784860,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),86.0,Vague / irrelevant answer
+784861,MCS,mcs3_cm_interview,ccnows0a,PHYS: Reason for refusal (final),87.0,Editor cannot deal with
+784862,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),-9.0,Refusal
+784863,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),-8.0,Don't Know
+784864,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),-1.0,Not applicable
+784865,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),1.0,Child cannot stand unaided
+784866,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),2.0,Child too upset to take part
+784867,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),3.0,Child would not co-operate/ refused
+784868,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),4.0,Child would not/ could not stay still
+784869,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),5.0,Problem with tape measure
+784870,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),6.0,Child wearing a dress
+784871,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),7.0,Other reason for refusal by parent
+784872,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),8.0,Other reason for refusal by child
+784873,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),9.0,Other reason unable to do measuremement
+784874,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),10.0,spare
+784875,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),11.0,spare
+784876,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),12.0,spare
+784877,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),13.0,spare
+784878,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),14.0,spare
+784879,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),85.0,Other specific answer
+784880,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),86.0,Vague / irrelevant answer
+784881,MCS,mcs3_cm_interview,ccnows0b,PHYS: Reason for refusal (final),87.0,Editor cannot deal with
+784882,MCS,mcs3_cm_interview,ccwsmd00,PHYS: Computed: Difference in cms between wsma and wsm,-9.0,Refusal
+784883,MCS,mcs3_cm_interview,ccwsmd00,PHYS: Computed: Difference in cms between wsma and wsm,-8.0,Don't Know
+784884,MCS,mcs3_cm_interview,ccwsmd00,PHYS: Computed: Difference in cms between wsma and wsm,-1.0,Not applicable
+784885,MCS,mcs3_cm_interview,ccwsma00,PHYS: Waist measurement outcome (First),-9.0,Refusal
+784886,MCS,mcs3_cm_interview,ccwsma00,PHYS: Waist measurement outcome (First),-8.0,Don't Know
+784887,MCS,mcs3_cm_interview,ccwsma00,PHYS: Waist measurement outcome (First),-1.0,Not applicable
+784888,MCS,mcs3_cm_interview,ccwsma00,PHYS: Waist measurement outcome (First),99998.0,Refusal
+784889,MCS,mcs3_cm_interview,ccwsma00,PHYS: Waist measurement outcome (First),99999.0,Don't Know
+784890,MCS,mcs3_cm_interview,ccwsmb00,PHYS: Waist measurement outcome (Second),-9.0,Refusal
+784891,MCS,mcs3_cm_interview,ccwsmb00,PHYS: Waist measurement outcome (Second),-8.0,Don't Know
+784892,MCS,mcs3_cm_interview,ccwsmb00,PHYS: Waist measurement outcome (Second),-1.0,Not applicable
+784893,MCS,mcs3_cm_interview,ccwsmb00,PHYS: Waist measurement outcome (Second),99998.0,Refusal
+784894,MCS,mcs3_cm_interview,ccwsmb00,PHYS: Waist measurement outcome (Second),99999.0,Don't Know
+784895,MCS,mcs3_cm_interview,ccwsmc00,PHYS: Waist measurement outcome (Third),-9.0,Refusal
+784896,MCS,mcs3_cm_interview,ccwsmc00,PHYS: Waist measurement outcome (Third),-8.0,Don't Know
+784897,MCS,mcs3_cm_interview,ccwsmc00,PHYS: Waist measurement outcome (Third),-1.0,Not applicable
+784898,MCS,mcs3_cm_interview,ccwsmc00,PHYS: Waist measurement outcome (Third),99998.0,Refusal
+784899,MCS,mcs3_cm_interview,ccwsmc00,PHYS: Waist measurement outcome (Third),99999.0,Don't Know
+784900,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,-9.0,Refusal
+784901,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,-8.0,Don't Know
+784902,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,-1.0,Not applicable
+784903,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,1.0,Waist measured successfully
+784904,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,2.0,Child unable to stand still
+784905,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,3.0,Child breathing in and out excessively
+784906,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,4.0,Unsure measurement taken correctly
+784907,MCS,mcs3_cm_interview,ccwsrl0a,PHYS: Which circumstances apply to this measurement,95.0,Other (specify)
+784908,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,-9.0,Refusal
+784909,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,-8.0,Don't Know
+784910,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,-1.0,Not applicable
+784911,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,1.0,Waist measured successfully
+784912,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,2.0,Child unable to stand still
+784913,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,3.0,Child breathing in and out excessively
+784914,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,4.0,Unsure measurement taken correctly
+784915,MCS,mcs3_cm_interview,ccwsrl0b,PHYS: Which circumstances apply to this measurement,95.0,Other (specify)
+784916,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,-9.0,Refusal
+784917,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,-8.0,Don't Know
+784918,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,-1.0,Not applicable
+784919,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,1.0,Waist measured successfully
+784920,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,2.0,Child unable to stand still
+784921,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,3.0,Child breathing in and out excessively
+784922,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,4.0,Unsure measurement taken correctly
+784923,MCS,mcs3_cm_interview,ccwsrl0c,PHYS: Which circumstances apply to this measurement,95.0,Other (specify)
+784924,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,1.0,Waist measured successfully
+784925,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,2.0,Child unable to stand still
+784926,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,3.0,Child breathing in and out excessively
+784927,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,-9.0,Refusal
+784928,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,-8.0,Don't Know
+784929,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,-1.0,Not applicable
+784930,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,4.0,Unsure measurement taken correctly
+784931,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,51.0,Child refused to lift up clothing
+784932,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,52.0,Problem with tape measure
+784933,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,53.0,spare
+784934,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,54.0,spare
+784935,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,55.0,spare
+784936,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,56.0,spare
+784937,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,57.0,spare
+784938,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,85.0,Other specific answer
+784939,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,86.0,Vague / irrelevant answer
+784940,MCS,mcs3_cm_interview,ccwsrlaa,PHYS: Which circumstances apply to this measurement (C,87.0,Editor cannot deal with
+784941,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,-9.0,Refusal
+784942,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,-8.0,Don't Know
+784943,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,-1.0,Not applicable
+784944,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,1.0,Waist measured successfully
+784945,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,2.0,Child unable to stand still
+784946,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,3.0,Child breathing in and out excessively
+784947,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,4.0,Unsure measurement taken correctly
+784948,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,51.0,Child refused to lift up clothing
+784949,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,52.0,Problem with tape measure
+784950,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,53.0,spare
+784951,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,54.0,spare
+784952,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,55.0,spare
+784953,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,56.0,spare
+784954,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,57.0,spare
+784955,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,85.0,Other specific answer
+784956,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,86.0,Vague / irrelevant answer
+784957,MCS,mcs3_cm_interview,ccwsrlab,PHYS: Which circumstances apply to this measurement (C,87.0,Editor cannot deal with
+784958,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,-9.0,Refusal
+784959,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,-8.0,Don't Know
+784960,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,-1.0,Not applicable
+784961,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,1.0,Waist measured successfully
+784962,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,2.0,Child unable to stand still
+784963,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,3.0,Child breathing in and out excessively
+784964,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,4.0,Unsure measurement taken correctly
+784965,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,51.0,Child refused to lift up clothing
+784966,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,52.0,Problem with tape measure
+784967,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,53.0,spare
+784968,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,54.0,spare
+784969,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,55.0,spare
+784970,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,56.0,spare
+784971,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,57.0,spare
+784972,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,85.0,Other specific answer
+784973,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,86.0,Vague / irrelevant answer
+784974,MCS,mcs3_cm_interview,ccwsrlac,PHYS: Which circumstances apply to this measurement (C,87.0,Editor cannot deal with
+784975,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,-9.0,Refusal
+784976,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,-8.0,Don't Know
+784977,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,-1.0,Not applicable
+784978,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,1.0,Waist measured successfully
+784979,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,2.0,Child unable to stand still
+784980,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,3.0,Child breathing in and out excessively
+784981,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,4.0,Unsure measurement taken correctly
+784982,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,51.0,Child refused to lift up clothing
+784983,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,52.0,Problem with tape measure
+784984,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,53.0,spare
+784985,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,54.0,spare
+784986,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,55.0,spare
+784987,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,56.0,spare
+784988,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,57.0,spare
+784989,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,85.0,Other specific answer
+784990,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,86.0,Vague / irrelevant answer
+784991,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,87.0,Editor cannot deal with
+784992,MCS,mcs3_cm_interview,ccwsrlba,PHYS: Which circumstances apply to this measurement (F,95.0,Other (specify)
+784993,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,-9.0,Refusal
+784994,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,-8.0,Don't Know
+784995,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,-1.0,Not applicable
+784996,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,1.0,Waist measured successfully
+784997,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,2.0,Child unable to stand still
+784998,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,3.0,Child breathing in and out excessively
+784999,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,4.0,Unsure measurement taken correctly
+785000,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,51.0,Child refused to lift up clothing
+785001,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,52.0,Problem with tape measure
+785002,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,53.0,spare
+785003,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,54.0,spare
+785004,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,55.0,spare
+785005,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,56.0,spare
+785006,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,57.0,spare
+785007,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,85.0,Other specific answer
+785008,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,86.0,Vague / irrelevant answer
+785009,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,87.0,Editor cannot deal with
+785010,MCS,mcs3_cm_interview,ccwsrlbb,PHYS: Which circumstances apply to this measurement (F,95.0,Other (specify)
+785011,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,3.0,Child breathing in and out excessively
+785012,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,4.0,Unsure measurement taken correctly
+785013,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,51.0,Child refused to lift up clothing
+785014,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,-9.0,Refusal
+785015,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,-8.0,Don't Know
+785016,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,-1.0,Not applicable
+785017,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,1.0,Waist measured successfully
+785018,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,2.0,Child unable to stand still
+785019,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,52.0,Problem with tape measure
+785020,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,53.0,spare
+785021,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,54.0,spare
+785022,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,55.0,spare
+785023,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,56.0,spare
+785024,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,57.0,spare
+785025,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,85.0,Other specific answer
+785026,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,86.0,Vague / irrelevant answer
+785027,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,87.0,Editor cannot deal with
+785028,MCS,mcs3_cm_interview,ccwsrlbc,PHYS: Which circumstances apply to this measurement (F,95.0,Other (specify)
+785029,MCS,mcs3_cm_interview,ccwsel00,PHYS: Anything else about waist measurement,-9.0,Refusal
+785030,MCS,mcs3_cm_interview,ccwsel00,PHYS: Anything else about waist measurement,-8.0,Don't Know
+785031,MCS,mcs3_cm_interview,ccwsel00,PHYS: Anything else about waist measurement,-1.0,Not applicable
+785032,MCS,mcs3_cm_interview,ccwsel00,PHYS: Anything else about waist measurement,1.0,Yes
+785033,MCS,mcs3_cm_interview,ccwsel00,PHYS: Anything else about waist measurement,2.0,No
+785034,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),-9.0,Refusal
+785035,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),-8.0,Don't Know
+785036,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),-1.0,Not applicable
+785037,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),1.0,CM has large waist measurement for age
+785038,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),2.0,CM has small waist measurement for age
+785039,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),3.0,"CM had measles, chickenpox etc"
+785040,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),4.0,Child would not/ could not stay still
+785041,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),5.0,spare
+785042,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),6.0,spare
+785043,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),7.0,spare
+785044,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),8.0,spare
+785045,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),9.0,spare
+785046,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),85.0,Other specific answer
+785047,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),86.0,Vague / irrelevant answer
+785048,MCS,mcs3_cm_interview,ccwsex0a,PHYS: Anything else about waist measurement (final),87.0,Editor cannot deal with
+785049,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),-9.0,Refusal
+785050,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),-8.0,Don't Know
+785051,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),-1.0,Not applicable
+785052,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),1.0,CM has large waist measurement for age
+785053,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),2.0,CM has small waist measurement for age
+785054,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),3.0,"CM had measles, chickenpox etc"
+785055,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),4.0,Child would not/ could not stay still
+785056,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),5.0,spare
+785057,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),6.0,spare
+785058,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),7.0,spare
+785059,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),8.0,spare
+785060,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),9.0,spare
+785061,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),85.0,Other specific answer
+785062,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),86.0,Vague / irrelevant answer
+785063,MCS,mcs3_cm_interview,ccwsex0b,PHYS: Anything else about waist measurement (final),87.0,Editor cannot deal with
+785064,MCS,mcs3_cm_interview,cchtft00,PHYS: Computed : Height from HtCm or BkCm / feet,-9.0,Refusal
+785065,MCS,mcs3_cm_interview,cchtft00,PHYS: Computed : Height from HtCm or BkCm / feet,-8.0,Don't Know
+785066,MCS,mcs3_cm_interview,cchtft00,PHYS: Computed : Height from HtCm or BkCm / feet,-1.0,Not applicable
+785067,MCS,mcs3_cm_interview,cchtin00,PHYS: Computed : Height from HtCm or BkCm / inches,-9.0,Refusal
+785068,MCS,mcs3_cm_interview,cchtin00,PHYS: Computed : Height from HtCm or BkCm / inches,-8.0,Don't Know
+785069,MCS,mcs3_cm_interview,cchtin00,PHYS: Computed : Height from HtCm or BkCm / inches,-1.0,Not applicable
+785070,MCS,mcs3_cm_interview,cchtrc00,PHYS: Interviewer record height in Child Assessment Le,-9.0,Refusal
+785071,MCS,mcs3_cm_interview,cchtrc00,PHYS: Interviewer record height in Child Assessment Le,-8.0,Don't Know
+785072,MCS,mcs3_cm_interview,cchtrc00,PHYS: Interviewer record height in Child Assessment Le,-1.0,Not applicable
+785073,MCS,mcs3_cm_interview,cchtrc00,PHYS: Interviewer record height in Child Assessment Le,1.0,Press 1 and Enter to continue.
+785074,MCS,mcs3_cm_interview,ccwtpd00,PHYS: Computed : Weight from WtCm or BkWt / stones,-9.0,Refusal
+785075,MCS,mcs3_cm_interview,ccwtpd00,PHYS: Computed : Weight from WtCm or BkWt / stones,-8.0,Don't Know
+785076,MCS,mcs3_cm_interview,ccwtpd00,PHYS: Computed : Weight from WtCm or BkWt / stones,-1.0,Not applicable
+785077,MCS,mcs3_cm_interview,ccwtpd00,PHYS: Computed : Weight from WtCm or BkWt / stones,998.0,Refusal
+785078,MCS,mcs3_cm_interview,ccwtpd00,PHYS: Computed : Weight from WtCm or BkWt / stones,999.0,Don't Know
+785079,MCS,mcs3_cm_interview,ccwtst00,PHYS: Computed : Weight from WtCm or BkWt / pounds,-9.0,Refusal
+785080,MCS,mcs3_cm_interview,ccwtst00,PHYS: Computed : Weight from WtCm or BkWt / pounds,-8.0,Don't Know
+785081,MCS,mcs3_cm_interview,ccwtst00,PHYS: Computed : Weight from WtCm or BkWt / pounds,-1.0,Not applicable
+785082,MCS,mcs3_cm_interview,ccwtst00,PHYS: Computed : Weight from WtCm or BkWt / pounds,998.0,Refusal
+785083,MCS,mcs3_cm_interview,ccwtst00,PHYS: Computed : Weight from WtCm or BkWt / pounds,999.0,Don't Know
+785084,MCS,mcs3_cm_interview,ccwtrc00,PHYS: Interviewer record weight in Child Assessment Le,-9.0,Refusal
+785085,MCS,mcs3_cm_interview,ccwtrc00,PHYS: Interviewer record weight in Child Assessment Le,-8.0,Don't Know
+785086,MCS,mcs3_cm_interview,ccwtrc00,PHYS: Interviewer record weight in Child Assessment Le,-1.0,Not applicable
+785087,MCS,mcs3_cm_interview,ccwtrc00,PHYS: Interviewer record weight in Child Assessment Le,1.0,Press 1 and Enter to continue.
+785088,MCS,mcs3_cm_interview,ccwsia00,PHYS: Computed : Waist from Wsma inches,-9.0,Refusal
+785089,MCS,mcs3_cm_interview,ccwsia00,PHYS: Computed : Waist from Wsma inches,-8.0,Don't Know
+785090,MCS,mcs3_cm_interview,ccwsia00,PHYS: Computed : Waist from Wsma inches,-1.0,Not applicable
+785091,MCS,mcs3_cm_interview,ccwsib00,PHYS: Computed : Waist from Wsmb inches,-9.0,Refusal
+785092,MCS,mcs3_cm_interview,ccwsib00,PHYS: Computed : Waist from Wsmb inches,-8.0,Don't Know
+785093,MCS,mcs3_cm_interview,ccwsib00,PHYS: Computed : Waist from Wsmb inches,-1.0,Not applicable
+785094,MCS,mcs3_cm_interview,ccwsic00,PHYS: Computed : Waist from Wsmc inches,-9.0,Refusal
+785095,MCS,mcs3_cm_interview,ccwsic00,PHYS: Computed : Waist from Wsmc inches,-8.0,Don't Know
+785096,MCS,mcs3_cm_interview,ccwsic00,PHYS: Computed : Waist from Wsmc inches,-1.0,Not applicable
+785097,MCS,mcs3_cm_interview,ccwsrc00,PHYS: Interviewer record waist circumference in Child,-9.0,Refusal
+785098,MCS,mcs3_cm_interview,ccwsrc00,PHYS: Interviewer record waist circumference in Child,-8.0,Don't Know
+785099,MCS,mcs3_cm_interview,ccwsrc00,PHYS: Interviewer record waist circumference in Child,-1.0,Not applicable
+785100,MCS,mcs3_cm_interview,ccwsrc00,PHYS: Interviewer record waist circumference in Child,1.0,Press 1 and Enter to continue.
+785101,MCS,mcs3_cm_interview,ccchnd02,PHYS: End of Physical Assessment,-9.0,Refusal
+785102,MCS,mcs3_cm_interview,ccchnd02,PHYS: End of Physical Assessment,-8.0,Don't Know
+785103,MCS,mcs3_cm_interview,ccchnd02,PHYS: End of Physical Assessment,-1.0,Not applicable
+785104,MCS,mcs3_cm_interview,ccchnd02,PHYS: End of Physical Assessment,1.0,Press 1 and Enter to continue.
+785105,MCS,mcs3_cm_interview,chcsex00,Cohort Member Sex,2.0,Female
+785106,MCS,mcs3_cm_interview,chcsex00,Cohort Member Sex,-9.0,Refusal
+785107,MCS,mcs3_cm_interview,chcsex00,Cohort Member Sex,-8.0,Don't Know
+785108,MCS,mcs3_cm_interview,chcsex00,Cohort Member Sex,-1.0,Not applicable
+785109,MCS,mcs3_cm_interview,chcsex00,Cohort Member Sex,1.0,Male
+785110,MCS,mcs3_cm_interview,chcage00,CM Age at interview (days),-1.0,Not applicable
+785111,MCS,mcs3_cm_interview,chcprs00,CM Present in Sweep 3,-9.0,Refusal
+785112,MCS,mcs3_cm_interview,chcprs00,CM Present in Sweep 3,-8.0,Don't Know
+785113,MCS,mcs3_cm_interview,chcprs00,CM Present in Sweep 3,-1.0,Not applicable
+785114,MCS,mcs3_cm_interview,chcprs00,CM Present in Sweep 3,1.0,Yes
+785115,MCS,mcs3_cm_interview,chcprs00,CM Present in Sweep 3,2.0,Left
+785116,MCS,mcs3_cm_interview,chcprs00,CM Present in Sweep 3,3.0,Died
+785117,MCS,mcs3_cm_interview,chcprs00,CM Present in Sweep 3,4.0,Never in HH
+785118,MCS,mcs3_cm_interview,bmin3,Body Mass Index calucated from height and weight data (wh,,
+785119,MCS,mcs3_cm_interview,ccovwgt3,Overweight Cut-Off point for child's age and sex,,
+785120,MCS,mcs3_cm_interview,ccobese3,Approx Obesity Cut-Off point for child's age and sex,,
+785121,MCS,mcs3_cm_interview,ccobflag3,MCObesity flag,0.0,Normal
+785122,MCS,mcs3_cm_interview,ccobflag3,MCObesity flag,1.0,Overweight
+785123,MCS,mcs3_cm_interview,ccobflag3,MCObesity flag,2.0,Obese
+785124,MCS,mcs3_cm_interview,cdntid00,Interviewer ID (anonymised) GB only,-1.0,Not available
+785125,MCS,mcs3_cm_interview,avail_from_dt,,,
+785126,MCS,mcs3_cm_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

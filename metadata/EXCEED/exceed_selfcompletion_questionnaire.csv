@@ -1,0 +1,2305 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+707412,EXCEED,exceed_selfcompletion_questionnaire,study_id_e,,,
+707413,EXCEED,exceed_selfcompletion_questionnaire,timestamp,,,
+707414,EXCEED,exceed_selfcompletion_questionnaire,gen2,,,
+707415,EXCEED,exceed_selfcompletion_questionnaire,gen2b,,,
+707416,EXCEED,exceed_selfcompletion_questionnaire,gen3,,,
+707417,EXCEED,exceed_selfcompletion_questionnaire,gen5,,,
+707418,EXCEED,exceed_selfcompletion_questionnaire,gen6,,,
+707419,EXCEED,exceed_selfcompletion_questionnaire,gen7,,,
+707420,EXCEED,exceed_selfcompletion_questionnaire,sm1,,,
+707421,EXCEED,exceed_selfcompletion_questionnaire,sm2,,,
+707422,EXCEED,exceed_selfcompletion_questionnaire,sm3,,,
+707423,EXCEED,exceed_selfcompletion_questionnaire,sm6_1,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes with filters ",1.0,True
+707424,EXCEED,exceed_selfcompletion_questionnaire,sm6_1,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes with filters ",0.0,False
+707425,EXCEED,exceed_selfcompletion_questionnaire,sm6_2,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes without filters ",1.0,True
+707426,EXCEED,exceed_selfcompletion_questionnaire,sm6_2,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes without filters ",0.0,False
+707427,EXCEED,exceed_selfcompletion_questionnaire,sm6_3,"What type of tobacco do you smoke? 
+ :  Hand-rolled cigarettes ",1.0,True
+707428,EXCEED,exceed_selfcompletion_questionnaire,sm6_3,"What type of tobacco do you smoke? 
+ :  Hand-rolled cigarettes ",0.0,False
+707429,EXCEED,exceed_selfcompletion_questionnaire,sm6_4,"What type of tobacco do you smoke? 
+ :  Shisha (waterpipe) ",1.0,True
+707430,EXCEED,exceed_selfcompletion_questionnaire,sm6_4,"What type of tobacco do you smoke? 
+ :  Shisha (waterpipe) ",0.0,False
+707431,EXCEED,exceed_selfcompletion_questionnaire,sm6_5,"What type of tobacco do you smoke? 
+ :  Cigars/Cigarillos ",1.0,True
+707432,EXCEED,exceed_selfcompletion_questionnaire,sm6_5,"What type of tobacco do you smoke? 
+ :  Cigars/Cigarillos ",0.0,False
+707433,EXCEED,exceed_selfcompletion_questionnaire,sm6_6,"What type of tobacco do you smoke? 
+ :  Pipe ",1.0,True
+707434,EXCEED,exceed_selfcompletion_questionnaire,sm6_6,"What type of tobacco do you smoke? 
+ :  Pipe ",0.0,False
+707435,EXCEED,exceed_selfcompletion_questionnaire,sm6_7,"What type of tobacco do you smoke? 
+ :  Other ",1.0,True
+707436,EXCEED,exceed_selfcompletion_questionnaire,sm6_7,"What type of tobacco do you smoke? 
+ :  Other ",0.0,False
+707437,EXCEED,exceed_selfcompletion_questionnaire,sm6_8,"What type of tobacco do you smoke? 
+ :  Prefer not to answer",1.0,True
+707438,EXCEED,exceed_selfcompletion_questionnaire,sm6_8,"What type of tobacco do you smoke? 
+ :  Prefer not to answer",0.0,False
+707439,EXCEED,exceed_selfcompletion_questionnaire,sm7,,,
+707440,EXCEED,exceed_selfcompletion_questionnaire,sm10b,,,
+707441,EXCEED,exceed_selfcompletion_questionnaire,sm10f,,,
+707442,EXCEED,exceed_selfcompletion_questionnaire,sm11,,,
+707443,EXCEED,exceed_selfcompletion_questionnaire,sm12,,,
+707444,EXCEED,exceed_selfcompletion_questionnaire,sm14,,,
+707445,EXCEED,exceed_selfcompletion_questionnaire,sm15,,,
+707446,EXCEED,exceed_selfcompletion_questionnaire,sm16,,,
+707447,EXCEED,exceed_selfcompletion_questionnaire,sm19_1,What method did you use to stop smoking when you stopped for more than 6 months? :  Nicotine replacement therapy ,1.0,True
+707448,EXCEED,exceed_selfcompletion_questionnaire,sm19_1,What method did you use to stop smoking when you stopped for more than 6 months? :  Nicotine replacement therapy ,0.0,False
+707449,EXCEED,exceed_selfcompletion_questionnaire,sm19_2,What method did you use to stop smoking when you stopped for more than 6 months? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+707450,EXCEED,exceed_selfcompletion_questionnaire,sm19_2,What method did you use to stop smoking when you stopped for more than 6 months? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+707451,EXCEED,exceed_selfcompletion_questionnaire,sm19_3,What method did you use to stop smoking when you stopped for more than 6 months? :  Varenicline (Champix) ,1.0,True
+707452,EXCEED,exceed_selfcompletion_questionnaire,sm19_3,What method did you use to stop smoking when you stopped for more than 6 months? :  Varenicline (Champix) ,0.0,False
+707453,EXCEED,exceed_selfcompletion_questionnaire,sm19_4,What method did you use to stop smoking when you stopped for more than 6 months? :  Other ,1.0,True
+707454,EXCEED,exceed_selfcompletion_questionnaire,sm19_4,What method did you use to stop smoking when you stopped for more than 6 months? :  Other ,0.0,False
+707455,EXCEED,exceed_selfcompletion_questionnaire,sm19_5,What method did you use to stop smoking when you stopped for more than 6 months? :  None ,1.0,True
+707456,EXCEED,exceed_selfcompletion_questionnaire,sm19_5,What method did you use to stop smoking when you stopped for more than 6 months? :  None ,0.0,False
+707457,EXCEED,exceed_selfcompletion_questionnaire,sm19_6,What method did you use to stop smoking when you stopped for more than 6 months? :  Do not know ,1.0,True
+707458,EXCEED,exceed_selfcompletion_questionnaire,sm19_6,What method did you use to stop smoking when you stopped for more than 6 months? :  Do not know ,0.0,False
+707459,EXCEED,exceed_selfcompletion_questionnaire,sm19_7,What method did you use to stop smoking when you stopped for more than 6 months? :  Prefer not to answer,1.0,True
+707460,EXCEED,exceed_selfcompletion_questionnaire,sm19_7,What method did you use to stop smoking when you stopped for more than 6 months? :  Prefer not to answer,0.0,False
+707461,EXCEED,exceed_selfcompletion_questionnaire,sm20_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",1.0,True
+707462,EXCEED,exceed_selfcompletion_questionnaire,sm20_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",0.0,False
+707463,EXCEED,exceed_selfcompletion_questionnaire,sm20_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",1.0,True
+707464,EXCEED,exceed_selfcompletion_questionnaire,sm20_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",0.0,False
+707465,EXCEED,exceed_selfcompletion_questionnaire,sm20_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",1.0,True
+707466,EXCEED,exceed_selfcompletion_questionnaire,sm20_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",0.0,False
+707467,EXCEED,exceed_selfcompletion_questionnaire,sm20_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",1.0,True
+707468,EXCEED,exceed_selfcompletion_questionnaire,sm20_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",0.0,False
+707469,EXCEED,exceed_selfcompletion_questionnaire,sm20_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",1.0,True
+707470,EXCEED,exceed_selfcompletion_questionnaire,sm20_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",0.0,False
+707471,EXCEED,exceed_selfcompletion_questionnaire,sm20_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",1.0,True
+707472,EXCEED,exceed_selfcompletion_questionnaire,sm20_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",0.0,False
+707473,EXCEED,exceed_selfcompletion_questionnaire,sm20_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",1.0,True
+707474,EXCEED,exceed_selfcompletion_questionnaire,sm20_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",0.0,False
+707475,EXCEED,exceed_selfcompletion_questionnaire,sm20_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+707476,EXCEED,exceed_selfcompletion_questionnaire,sm20_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+707477,EXCEED,exceed_selfcompletion_questionnaire,sm20_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",1.0,True
+707478,EXCEED,exceed_selfcompletion_questionnaire,sm20_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",0.0,False
+707479,EXCEED,exceed_selfcompletion_questionnaire,sm20_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",1.0,True
+707480,EXCEED,exceed_selfcompletion_questionnaire,sm20_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",0.0,False
+707481,EXCEED,exceed_selfcompletion_questionnaire,sm20_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",1.0,True
+707482,EXCEED,exceed_selfcompletion_questionnaire,sm20_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",0.0,False
+707483,EXCEED,exceed_selfcompletion_questionnaire,sm20_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",1.0,True
+707484,EXCEED,exceed_selfcompletion_questionnaire,sm20_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",0.0,False
+707485,EXCEED,exceed_selfcompletion_questionnaire,sm20_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",1.0,True
+707486,EXCEED,exceed_selfcompletion_questionnaire,sm20_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",0.0,False
+707487,EXCEED,exceed_selfcompletion_questionnaire,sm20_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",1.0,True
+707488,EXCEED,exceed_selfcompletion_questionnaire,sm20_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",0.0,False
+707489,EXCEED,exceed_selfcompletion_questionnaire,sm20_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",1.0,True
+707490,EXCEED,exceed_selfcompletion_questionnaire,sm20_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",0.0,False
+707491,EXCEED,exceed_selfcompletion_questionnaire,sm20_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",1.0,True
+707492,EXCEED,exceed_selfcompletion_questionnaire,sm20_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",0.0,False
+707493,EXCEED,exceed_selfcompletion_questionnaire,sm20_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",1.0,True
+707494,EXCEED,exceed_selfcompletion_questionnaire,sm20_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",0.0,False
+707495,EXCEED,exceed_selfcompletion_questionnaire,sm20_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",1.0,True
+707496,EXCEED,exceed_selfcompletion_questionnaire,sm20_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",0.0,False
+707497,EXCEED,exceed_selfcompletion_questionnaire,sm20_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",1.0,True
+707498,EXCEED,exceed_selfcompletion_questionnaire,sm20_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",0.0,False
+707499,EXCEED,exceed_selfcompletion_questionnaire,sm20_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",1.0,True
+707500,EXCEED,exceed_selfcompletion_questionnaire,sm20_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",0.0,False
+707501,EXCEED,exceed_selfcompletion_questionnaire,sm21,,,
+707502,EXCEED,exceed_selfcompletion_questionnaire,sm22,,,
+707503,EXCEED,exceed_selfcompletion_questionnaire,sm24_1,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes with filters ",1.0,True
+707504,EXCEED,exceed_selfcompletion_questionnaire,sm24_1,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes with filters ",0.0,False
+707505,EXCEED,exceed_selfcompletion_questionnaire,sm24_2,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes without filters ",1.0,True
+707506,EXCEED,exceed_selfcompletion_questionnaire,sm24_2,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes without filters ",0.0,False
+707507,EXCEED,exceed_selfcompletion_questionnaire,sm24_3,"What type of tobacco did you smoke? 
+ :  Hand-rolled cigarettes ",1.0,True
+707508,EXCEED,exceed_selfcompletion_questionnaire,sm24_3,"What type of tobacco did you smoke? 
+ :  Hand-rolled cigarettes ",0.0,False
+707509,EXCEED,exceed_selfcompletion_questionnaire,sm24_4,"What type of tobacco did you smoke? 
+ :  Shisha (waterpipe) ",1.0,True
+707510,EXCEED,exceed_selfcompletion_questionnaire,sm24_4,"What type of tobacco did you smoke? 
+ :  Shisha (waterpipe) ",0.0,False
+707511,EXCEED,exceed_selfcompletion_questionnaire,sm24_5,"What type of tobacco did you smoke? 
+ :  Cigars/Cigarillos ",1.0,True
+707512,EXCEED,exceed_selfcompletion_questionnaire,sm24_5,"What type of tobacco did you smoke? 
+ :  Cigars/Cigarillos ",0.0,False
+707513,EXCEED,exceed_selfcompletion_questionnaire,sm24_6,"What type of tobacco did you smoke? 
+ :  Pipe ",1.0,True
+707514,EXCEED,exceed_selfcompletion_questionnaire,sm24_6,"What type of tobacco did you smoke? 
+ :  Pipe ",0.0,False
+707515,EXCEED,exceed_selfcompletion_questionnaire,sm24_7,"What type of tobacco did you smoke? 
+ :  None of the above ",1.0,True
+707516,EXCEED,exceed_selfcompletion_questionnaire,sm24_7,"What type of tobacco did you smoke? 
+ :  None of the above ",0.0,False
+707517,EXCEED,exceed_selfcompletion_questionnaire,sm24_8,"What type of tobacco did you smoke? 
+ :  Prefer not to answer",1.0,True
+707518,EXCEED,exceed_selfcompletion_questionnaire,sm24_8,"What type of tobacco did you smoke? 
+ :  Prefer not to answer",0.0,False
+707519,EXCEED,exceed_selfcompletion_questionnaire,sm25,,,
+707520,EXCEED,exceed_selfcompletion_questionnaire,sm28b,,,
+707521,EXCEED,exceed_selfcompletion_questionnaire,sm28f,,,
+707522,EXCEED,exceed_selfcompletion_questionnaire,sm29,,,
+707523,EXCEED,exceed_selfcompletion_questionnaire,sm30,,,
+707524,EXCEED,exceed_selfcompletion_questionnaire,sm32,,,
+707525,EXCEED,exceed_selfcompletion_questionnaire,sm34,,,
+707526,EXCEED,exceed_selfcompletion_questionnaire,sm35_1,What method did you use to stop smoking? :  Nicotine replacement therapy ,1.0,True
+707527,EXCEED,exceed_selfcompletion_questionnaire,sm35_1,What method did you use to stop smoking? :  Nicotine replacement therapy ,0.0,False
+707528,EXCEED,exceed_selfcompletion_questionnaire,sm35_2,What method did you use to stop smoking? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+707529,EXCEED,exceed_selfcompletion_questionnaire,sm35_2,What method did you use to stop smoking? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+707530,EXCEED,exceed_selfcompletion_questionnaire,sm35_3,What method did you use to stop smoking? :  Varenicline (Champix) ,1.0,True
+707531,EXCEED,exceed_selfcompletion_questionnaire,sm35_3,What method did you use to stop smoking? :  Varenicline (Champix) ,0.0,False
+707532,EXCEED,exceed_selfcompletion_questionnaire,sm35_4,What method did you use to stop smoking? :  Other ,1.0,True
+707533,EXCEED,exceed_selfcompletion_questionnaire,sm35_4,What method did you use to stop smoking? :  Other ,0.0,False
+707534,EXCEED,exceed_selfcompletion_questionnaire,sm35_5,What method did you use to stop smoking? :  None ,1.0,True
+707535,EXCEED,exceed_selfcompletion_questionnaire,sm35_5,What method did you use to stop smoking? :  None ,0.0,False
+707536,EXCEED,exceed_selfcompletion_questionnaire,sm35_6,What method did you use to stop smoking? :  Do not know ,1.0,True
+707537,EXCEED,exceed_selfcompletion_questionnaire,sm35_6,What method did you use to stop smoking? :  Do not know ,0.0,False
+707538,EXCEED,exceed_selfcompletion_questionnaire,sm35_7,What method did you use to stop smoking? :  Prefer not to answer,1.0,True
+707539,EXCEED,exceed_selfcompletion_questionnaire,sm35_7,What method did you use to stop smoking? :  Prefer not to answer,0.0,False
+707540,EXCEED,exceed_selfcompletion_questionnaire,sm36_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",1.0,True
+707541,EXCEED,exceed_selfcompletion_questionnaire,sm36_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",0.0,False
+707542,EXCEED,exceed_selfcompletion_questionnaire,sm36_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",1.0,True
+707543,EXCEED,exceed_selfcompletion_questionnaire,sm36_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",0.0,False
+707544,EXCEED,exceed_selfcompletion_questionnaire,sm36_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",1.0,True
+707545,EXCEED,exceed_selfcompletion_questionnaire,sm36_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",0.0,False
+707546,EXCEED,exceed_selfcompletion_questionnaire,sm36_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",1.0,True
+707547,EXCEED,exceed_selfcompletion_questionnaire,sm36_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",0.0,False
+707548,EXCEED,exceed_selfcompletion_questionnaire,sm36_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",1.0,True
+707549,EXCEED,exceed_selfcompletion_questionnaire,sm36_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",0.0,False
+707550,EXCEED,exceed_selfcompletion_questionnaire,sm36_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",1.0,True
+707551,EXCEED,exceed_selfcompletion_questionnaire,sm36_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",0.0,False
+707552,EXCEED,exceed_selfcompletion_questionnaire,sm36_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",1.0,True
+707553,EXCEED,exceed_selfcompletion_questionnaire,sm36_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",0.0,False
+707554,EXCEED,exceed_selfcompletion_questionnaire,sm36_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+707555,EXCEED,exceed_selfcompletion_questionnaire,sm36_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+707556,EXCEED,exceed_selfcompletion_questionnaire,sm36_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",1.0,True
+707557,EXCEED,exceed_selfcompletion_questionnaire,sm36_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",0.0,False
+707558,EXCEED,exceed_selfcompletion_questionnaire,sm36_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",1.0,True
+707559,EXCEED,exceed_selfcompletion_questionnaire,sm36_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",0.0,False
+707560,EXCEED,exceed_selfcompletion_questionnaire,sm36_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",1.0,True
+707561,EXCEED,exceed_selfcompletion_questionnaire,sm36_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",0.0,False
+707562,EXCEED,exceed_selfcompletion_questionnaire,sm36_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",1.0,True
+707563,EXCEED,exceed_selfcompletion_questionnaire,sm36_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",0.0,False
+707564,EXCEED,exceed_selfcompletion_questionnaire,sm36_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",1.0,True
+707565,EXCEED,exceed_selfcompletion_questionnaire,sm36_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",0.0,False
+707566,EXCEED,exceed_selfcompletion_questionnaire,sm36_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",1.0,True
+707567,EXCEED,exceed_selfcompletion_questionnaire,sm36_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",0.0,False
+707568,EXCEED,exceed_selfcompletion_questionnaire,sm36_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",1.0,True
+707569,EXCEED,exceed_selfcompletion_questionnaire,sm36_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",0.0,False
+707570,EXCEED,exceed_selfcompletion_questionnaire,sm36_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",1.0,True
+707571,EXCEED,exceed_selfcompletion_questionnaire,sm36_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",0.0,False
+707572,EXCEED,exceed_selfcompletion_questionnaire,sm36_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",1.0,True
+707573,EXCEED,exceed_selfcompletion_questionnaire,sm36_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",0.0,False
+707574,EXCEED,exceed_selfcompletion_questionnaire,sm36_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",1.0,True
+707575,EXCEED,exceed_selfcompletion_questionnaire,sm36_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",0.0,False
+707576,EXCEED,exceed_selfcompletion_questionnaire,sm36_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",1.0,True
+707577,EXCEED,exceed_selfcompletion_questionnaire,sm36_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",0.0,False
+707578,EXCEED,exceed_selfcompletion_questionnaire,sm36_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",1.0,True
+707579,EXCEED,exceed_selfcompletion_questionnaire,sm36_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",0.0,False
+707580,EXCEED,exceed_selfcompletion_questionnaire,sm38,,,
+707581,EXCEED,exceed_selfcompletion_questionnaire,sm40_1,What method did you use to stop smoking before you were successful? :  Nicotine replacement therapy ,1.0,True
+707582,EXCEED,exceed_selfcompletion_questionnaire,sm40_1,What method did you use to stop smoking before you were successful? :  Nicotine replacement therapy ,0.0,False
+707583,EXCEED,exceed_selfcompletion_questionnaire,sm40_2,What method did you use to stop smoking before you were successful? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+707584,EXCEED,exceed_selfcompletion_questionnaire,sm40_2,What method did you use to stop smoking before you were successful? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+707585,EXCEED,exceed_selfcompletion_questionnaire,sm40_3,What method did you use to stop smoking before you were successful? :  Varenicline (Champix) ,1.0,True
+707586,EXCEED,exceed_selfcompletion_questionnaire,sm40_3,What method did you use to stop smoking before you were successful? :  Varenicline (Champix) ,0.0,False
+707587,EXCEED,exceed_selfcompletion_questionnaire,sm40_4,What method did you use to stop smoking before you were successful? :  Other ,1.0,True
+707588,EXCEED,exceed_selfcompletion_questionnaire,sm40_4,What method did you use to stop smoking before you were successful? :  Other ,0.0,False
+707589,EXCEED,exceed_selfcompletion_questionnaire,sm40_5,What method did you use to stop smoking before you were successful? :  None ,1.0,True
+707590,EXCEED,exceed_selfcompletion_questionnaire,sm40_5,What method did you use to stop smoking before you were successful? :  None ,0.0,False
+707591,EXCEED,exceed_selfcompletion_questionnaire,sm40_6,What method did you use to stop smoking before you were successful? :  Do not know ,1.0,True
+707592,EXCEED,exceed_selfcompletion_questionnaire,sm40_6,What method did you use to stop smoking before you were successful? :  Do not know ,0.0,False
+707593,EXCEED,exceed_selfcompletion_questionnaire,sm40_7,What method did you use to stop smoking before you were successful? :  Prefer not to answer,1.0,True
+707594,EXCEED,exceed_selfcompletion_questionnaire,sm40_7,What method did you use to stop smoking before you were successful? :  Prefer not to answer,0.0,False
+707595,EXCEED,exceed_selfcompletion_questionnaire,sm41_1,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopass lozenges ",1.0,True
+707596,EXCEED,exceed_selfcompletion_questionnaire,sm41_1,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopass lozenges ",0.0,False
+707597,EXCEED,exceed_selfcompletion_questionnaire,sm41_2,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopatch ",1.0,True
+707598,EXCEED,exceed_selfcompletion_questionnaire,sm41_2,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopatch ",0.0,False
+707599,EXCEED,exceed_selfcompletion_questionnaire,sm41_3,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette gum ",1.0,True
+707600,EXCEED,exceed_selfcompletion_questionnaire,sm41_3,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette gum ",0.0,False
+707601,EXCEED,exceed_selfcompletion_questionnaire,sm41_4,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette inhalator ",1.0,True
+707602,EXCEED,exceed_selfcompletion_questionnaire,sm41_4,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette inhalator ",0.0,False
+707603,EXCEED,exceed_selfcompletion_questionnaire,sm41_5,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette microtab ",1.0,True
+707604,EXCEED,exceed_selfcompletion_questionnaire,sm41_5,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette microtab ",0.0,False
+707605,EXCEED,exceed_selfcompletion_questionnaire,sm41_6,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette nasal spray ",1.0,True
+707606,EXCEED,exceed_selfcompletion_questionnaire,sm41_6,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette nasal spray ",0.0,False
+707607,EXCEED,exceed_selfcompletion_questionnaire,sm41_7,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette patches ",1.0,True
+707608,EXCEED,exceed_selfcompletion_questionnaire,sm41_7,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette patches ",0.0,False
+707609,EXCEED,exceed_selfcompletion_questionnaire,sm41_8,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+707610,EXCEED,exceed_selfcompletion_questionnaire,sm41_8,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+707611,EXCEED,exceed_selfcompletion_questionnaire,sm41_9,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell gum ",1.0,True
+707612,EXCEED,exceed_selfcompletion_questionnaire,sm41_9,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell gum ",0.0,False
+707613,EXCEED,exceed_selfcompletion_questionnaire,sm41_10,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell lozenges ",1.0,True
+707614,EXCEED,exceed_selfcompletion_questionnaire,sm41_10,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell lozenges ",0.0,False
+707615,EXCEED,exceed_selfcompletion_questionnaire,sm41_11,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell patches ",1.0,True
+707616,EXCEED,exceed_selfcompletion_questionnaire,sm41_11,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell patches ",0.0,False
+707617,EXCEED,exceed_selfcompletion_questionnaire,sm41_12,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin gum ",1.0,True
+707618,EXCEED,exceed_selfcompletion_questionnaire,sm41_12,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin gum ",0.0,False
+707619,EXCEED,exceed_selfcompletion_questionnaire,sm41_13,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin lozenges ",1.0,True
+707620,EXCEED,exceed_selfcompletion_questionnaire,sm41_13,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin lozenges ",0.0,False
+707621,EXCEED,exceed_selfcompletion_questionnaire,sm41_14,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin patches ",1.0,True
+707622,EXCEED,exceed_selfcompletion_questionnaire,sm41_14,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin patches ",0.0,False
+707623,EXCEED,exceed_selfcompletion_questionnaire,sm41_15,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist gum ",1.0,True
+707624,EXCEED,exceed_selfcompletion_questionnaire,sm41_15,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist gum ",0.0,False
+707625,EXCEED,exceed_selfcompletion_questionnaire,sm41_16,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist ",1.0,True
+707626,EXCEED,exceed_selfcompletion_questionnaire,sm41_16,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist ",0.0,False
+707627,EXCEED,exceed_selfcompletion_questionnaire,sm41_17,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Translucent patches ",1.0,True
+707628,EXCEED,exceed_selfcompletion_questionnaire,sm41_17,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Translucent patches ",0.0,False
+707629,EXCEED,exceed_selfcompletion_questionnaire,sm41_18,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Invisi patches ",1.0,True
+707630,EXCEED,exceed_selfcompletion_questionnaire,sm41_18,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Invisi patches ",0.0,False
+707631,EXCEED,exceed_selfcompletion_questionnaire,sm41_19,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  TTS patches Inhalators ",1.0,True
+707632,EXCEED,exceed_selfcompletion_questionnaire,sm41_19,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  TTS patches Inhalators ",0.0,False
+707633,EXCEED,exceed_selfcompletion_questionnaire,sm41_20,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Other",1.0,True
+707634,EXCEED,exceed_selfcompletion_questionnaire,sm41_20,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Other",0.0,False
+707635,EXCEED,exceed_selfcompletion_questionnaire,sm42,,,
+707636,EXCEED,exceed_selfcompletion_questionnaire,sm43,,,
+707637,EXCEED,exceed_selfcompletion_questionnaire,sm44,,,
+707638,EXCEED,exceed_selfcompletion_questionnaire,sm46,,,
+707639,EXCEED,exceed_selfcompletion_questionnaire,sm48,,,
+707640,EXCEED,exceed_selfcompletion_questionnaire,sm47,,,
+707641,EXCEED,exceed_selfcompletion_questionnaire,sm50,,,
+707642,EXCEED,exceed_selfcompletion_questionnaire,alc1,,,
+707643,EXCEED,exceed_selfcompletion_questionnaire,alc2,,,
+707644,EXCEED,exceed_selfcompletion_questionnaire,alc9,,,
+707645,EXCEED,exceed_selfcompletion_questionnaire,walc10_1,"Wine including red, white and rose :  Monday ",1.0,True
+707646,EXCEED,exceed_selfcompletion_questionnaire,walc10_1,"Wine including red, white and rose :  Monday ",0.0,False
+707647,EXCEED,exceed_selfcompletion_questionnaire,walc10_2,"Wine including red, white and rose :  Tuesday ",1.0,True
+707648,EXCEED,exceed_selfcompletion_questionnaire,walc10_2,"Wine including red, white and rose :  Tuesday ",0.0,False
+707649,EXCEED,exceed_selfcompletion_questionnaire,walc10_3,"Wine including red, white and rose :  Wednesday ",1.0,True
+707650,EXCEED,exceed_selfcompletion_questionnaire,walc10_3,"Wine including red, white and rose :  Wednesday ",0.0,False
+707651,EXCEED,exceed_selfcompletion_questionnaire,walc10_4,"Wine including red, white and rose :  Thursday ",1.0,True
+707652,EXCEED,exceed_selfcompletion_questionnaire,walc10_4,"Wine including red, white and rose :  Thursday ",0.0,False
+707653,EXCEED,exceed_selfcompletion_questionnaire,walc10_5,"Wine including red, white and rose :  Friday ",1.0,True
+707654,EXCEED,exceed_selfcompletion_questionnaire,walc10_5,"Wine including red, white and rose :  Friday ",0.0,False
+707655,EXCEED,exceed_selfcompletion_questionnaire,walc10_6,"Wine including red, white and rose :  Saturday ",1.0,True
+707656,EXCEED,exceed_selfcompletion_questionnaire,walc10_6,"Wine including red, white and rose :  Saturday ",0.0,False
+707657,EXCEED,exceed_selfcompletion_questionnaire,walc10_7,"Wine including red, white and rose :  Sunday",1.0,True
+707658,EXCEED,exceed_selfcompletion_questionnaire,walc10_7,"Wine including red, white and rose :  Sunday",0.0,False
+707659,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_1,"Fortified wine such as sherry, port, vermouth :  Monday ",1.0,True
+707660,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_1,"Fortified wine such as sherry, port, vermouth :  Monday ",0.0,False
+707661,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",1.0,True
+707662,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",0.0,False
+707663,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",1.0,True
+707664,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",0.0,False
+707665,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",1.0,True
+707666,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",0.0,False
+707667,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_5,"Fortified wine such as sherry, port, vermouth :  Friday ",1.0,True
+707668,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_5,"Fortified wine such as sherry, port, vermouth :  Friday ",0.0,False
+707669,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",1.0,True
+707670,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",0.0,False
+707671,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_7,"Fortified wine such as sherry, port, vermouth :  Sunday",1.0,True
+707672,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_7,"Fortified wine such as sherry, port, vermouth :  Sunday",0.0,False
+707673,EXCEED,exceed_selfcompletion_questionnaire,salc10_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",1.0,True
+707674,EXCEED,exceed_selfcompletion_questionnaire,salc10_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",0.0,False
+707675,EXCEED,exceed_selfcompletion_questionnaire,salc10_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",1.0,True
+707676,EXCEED,exceed_selfcompletion_questionnaire,salc10_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",0.0,False
+707677,EXCEED,exceed_selfcompletion_questionnaire,salc10_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",1.0,True
+707678,EXCEED,exceed_selfcompletion_questionnaire,salc10_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",0.0,False
+707679,EXCEED,exceed_selfcompletion_questionnaire,salc10_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",1.0,True
+707680,EXCEED,exceed_selfcompletion_questionnaire,salc10_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",0.0,False
+707681,EXCEED,exceed_selfcompletion_questionnaire,salc10_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",1.0,True
+707682,EXCEED,exceed_selfcompletion_questionnaire,salc10_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",0.0,False
+707683,EXCEED,exceed_selfcompletion_questionnaire,salc10_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",1.0,True
+707684,EXCEED,exceed_selfcompletion_questionnaire,salc10_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",0.0,False
+707685,EXCEED,exceed_selfcompletion_questionnaire,salc10_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",1.0,True
+707686,EXCEED,exceed_selfcompletion_questionnaire,salc10_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",0.0,False
+707687,EXCEED,exceed_selfcompletion_questionnaire,balc10_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",1.0,True
+707688,EXCEED,exceed_selfcompletion_questionnaire,balc10_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",0.0,False
+707689,EXCEED,exceed_selfcompletion_questionnaire,balc10_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",1.0,True
+707690,EXCEED,exceed_selfcompletion_questionnaire,balc10_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",0.0,False
+707691,EXCEED,exceed_selfcompletion_questionnaire,balc10_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",1.0,True
+707692,EXCEED,exceed_selfcompletion_questionnaire,balc10_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",0.0,False
+707693,EXCEED,exceed_selfcompletion_questionnaire,balc10_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",1.0,True
+707694,EXCEED,exceed_selfcompletion_questionnaire,balc10_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",0.0,False
+707695,EXCEED,exceed_selfcompletion_questionnaire,balc10_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",1.0,True
+707696,EXCEED,exceed_selfcompletion_questionnaire,balc10_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",0.0,False
+707697,EXCEED,exceed_selfcompletion_questionnaire,balc10_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",1.0,True
+707698,EXCEED,exceed_selfcompletion_questionnaire,balc10_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",0.0,False
+707699,EXCEED,exceed_selfcompletion_questionnaire,balc10_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",1.0,True
+707700,EXCEED,exceed_selfcompletion_questionnaire,balc10_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",0.0,False
+707701,EXCEED,exceed_selfcompletion_questionnaire,oalc10_1,Other alcoholic drinks such as alcopops :  Monday ,1.0,True
+707702,EXCEED,exceed_selfcompletion_questionnaire,oalc10_1,Other alcoholic drinks such as alcopops :  Monday ,0.0,False
+707703,EXCEED,exceed_selfcompletion_questionnaire,oalc10_2,Other alcoholic drinks such as alcopops :  Tuesday ,1.0,True
+707704,EXCEED,exceed_selfcompletion_questionnaire,oalc10_2,Other alcoholic drinks such as alcopops :  Tuesday ,0.0,False
+707705,EXCEED,exceed_selfcompletion_questionnaire,oalc10_3,Other alcoholic drinks such as alcopops :  Wednesday ,1.0,True
+707706,EXCEED,exceed_selfcompletion_questionnaire,oalc10_3,Other alcoholic drinks such as alcopops :  Wednesday ,0.0,False
+707707,EXCEED,exceed_selfcompletion_questionnaire,oalc10_4,Other alcoholic drinks such as alcopops :  Thursday ,1.0,True
+707708,EXCEED,exceed_selfcompletion_questionnaire,oalc10_4,Other alcoholic drinks such as alcopops :  Thursday ,0.0,False
+707709,EXCEED,exceed_selfcompletion_questionnaire,oalc10_5,Other alcoholic drinks such as alcopops :  Friday ,1.0,True
+707710,EXCEED,exceed_selfcompletion_questionnaire,oalc10_5,Other alcoholic drinks such as alcopops :  Friday ,0.0,False
+707711,EXCEED,exceed_selfcompletion_questionnaire,oalc10_6,Other alcoholic drinks such as alcopops :  Saturday ,1.0,True
+707712,EXCEED,exceed_selfcompletion_questionnaire,oalc10_6,Other alcoholic drinks such as alcopops :  Saturday ,0.0,False
+707713,EXCEED,exceed_selfcompletion_questionnaire,oalc10_7,Other alcoholic drinks such as alcopops :  Sunday,1.0,True
+707714,EXCEED,exceed_selfcompletion_questionnaire,oalc10_7,Other alcoholic drinks such as alcopops :  Sunday,0.0,False
+707715,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_1,Other alcoholic drinks :  Monday ,1.0,True
+707716,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_1,Other alcoholic drinks :  Monday ,0.0,False
+707717,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_2,Other alcoholic drinks :  Tuesday ,1.0,True
+707718,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_2,Other alcoholic drinks :  Tuesday ,0.0,False
+707719,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_3,Other alcoholic drinks :  Wednesday ,1.0,True
+707720,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_3,Other alcoholic drinks :  Wednesday ,0.0,False
+707721,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_4,Other alcoholic drinks :  Thursday ,1.0,True
+707722,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_4,Other alcoholic drinks :  Thursday ,0.0,False
+707723,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_5,Other alcoholic drinks :  Friday ,1.0,True
+707724,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_5,Other alcoholic drinks :  Friday ,0.0,False
+707725,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_6,Other alcoholic drinks :  Saturday ,1.0,True
+707726,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_6,Other alcoholic drinks :  Saturday ,0.0,False
+707727,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_7,Other alcoholic drinks :  Sunday,1.0,True
+707728,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_7,Other alcoholic drinks :  Sunday,0.0,False
+707729,EXCEED,exceed_selfcompletion_questionnaire,alc11,,,
+707730,EXCEED,exceed_selfcompletion_questionnaire,walc11_1,"Wine including red, white and rose :  Monday ",1.0,True
+707731,EXCEED,exceed_selfcompletion_questionnaire,walc11_1,"Wine including red, white and rose :  Monday ",0.0,False
+707732,EXCEED,exceed_selfcompletion_questionnaire,walc11_2,"Wine including red, white and rose :  Tuesday ",1.0,True
+707733,EXCEED,exceed_selfcompletion_questionnaire,walc11_2,"Wine including red, white and rose :  Tuesday ",0.0,False
+707734,EXCEED,exceed_selfcompletion_questionnaire,walc11_3,"Wine including red, white and rose :  Wednesday ",1.0,True
+707735,EXCEED,exceed_selfcompletion_questionnaire,walc11_3,"Wine including red, white and rose :  Wednesday ",0.0,False
+707736,EXCEED,exceed_selfcompletion_questionnaire,walc11_4,"Wine including red, white and rose :  Thursday ",1.0,True
+707737,EXCEED,exceed_selfcompletion_questionnaire,walc11_4,"Wine including red, white and rose :  Thursday ",0.0,False
+707738,EXCEED,exceed_selfcompletion_questionnaire,walc11_5,"Wine including red, white and rose :  Friday ",1.0,True
+707739,EXCEED,exceed_selfcompletion_questionnaire,walc11_5,"Wine including red, white and rose :  Friday ",0.0,False
+707740,EXCEED,exceed_selfcompletion_questionnaire,walc11_6,"Wine including red, white and rose :  Saturday ",1.0,True
+707741,EXCEED,exceed_selfcompletion_questionnaire,walc11_6,"Wine including red, white and rose :  Saturday ",0.0,False
+707742,EXCEED,exceed_selfcompletion_questionnaire,walc11_7,"Wine including red, white and rose :  Sunday",1.0,True
+707743,EXCEED,exceed_selfcompletion_questionnaire,walc11_7,"Wine including red, white and rose :  Sunday",0.0,False
+707744,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_1,"Fortified wine such as sherry, port, vermouth :  Monday ",1.0,True
+707745,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_1,"Fortified wine such as sherry, port, vermouth :  Monday ",0.0,False
+707746,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",1.0,True
+707747,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",0.0,False
+707748,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",1.0,True
+707749,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",0.0,False
+707750,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",1.0,True
+707751,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",0.0,False
+707752,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_5,"Fortified wine such as sherry, port, vermouth :  Friday ",1.0,True
+707753,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_5,"Fortified wine such as sherry, port, vermouth :  Friday ",0.0,False
+707754,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",1.0,True
+707755,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",0.0,False
+707756,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_7,"Fortified wine such as sherry, port, vermouth :  Sunday",1.0,True
+707757,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_7,"Fortified wine such as sherry, port, vermouth :  Sunday",0.0,False
+707758,EXCEED,exceed_selfcompletion_questionnaire,salc11_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",1.0,True
+707759,EXCEED,exceed_selfcompletion_questionnaire,salc11_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",0.0,False
+707760,EXCEED,exceed_selfcompletion_questionnaire,salc11_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",1.0,True
+707761,EXCEED,exceed_selfcompletion_questionnaire,salc11_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",0.0,False
+707762,EXCEED,exceed_selfcompletion_questionnaire,salc11_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",1.0,True
+707763,EXCEED,exceed_selfcompletion_questionnaire,salc11_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",0.0,False
+707764,EXCEED,exceed_selfcompletion_questionnaire,salc11_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",1.0,True
+707765,EXCEED,exceed_selfcompletion_questionnaire,salc11_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",0.0,False
+707766,EXCEED,exceed_selfcompletion_questionnaire,salc11_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",1.0,True
+707767,EXCEED,exceed_selfcompletion_questionnaire,salc11_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",0.0,False
+707768,EXCEED,exceed_selfcompletion_questionnaire,salc11_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",1.0,True
+707769,EXCEED,exceed_selfcompletion_questionnaire,salc11_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",0.0,False
+707770,EXCEED,exceed_selfcompletion_questionnaire,salc11_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",1.0,True
+707771,EXCEED,exceed_selfcompletion_questionnaire,salc11_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",0.0,False
+707772,EXCEED,exceed_selfcompletion_questionnaire,balc11_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",1.0,True
+707773,EXCEED,exceed_selfcompletion_questionnaire,balc11_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",0.0,False
+707774,EXCEED,exceed_selfcompletion_questionnaire,balc11_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",1.0,True
+707775,EXCEED,exceed_selfcompletion_questionnaire,balc11_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",0.0,False
+707776,EXCEED,exceed_selfcompletion_questionnaire,balc11_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",1.0,True
+707777,EXCEED,exceed_selfcompletion_questionnaire,balc11_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",0.0,False
+707778,EXCEED,exceed_selfcompletion_questionnaire,balc11_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",1.0,True
+707779,EXCEED,exceed_selfcompletion_questionnaire,balc11_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",0.0,False
+707780,EXCEED,exceed_selfcompletion_questionnaire,balc11_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",1.0,True
+707781,EXCEED,exceed_selfcompletion_questionnaire,balc11_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",0.0,False
+707782,EXCEED,exceed_selfcompletion_questionnaire,balc11_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",1.0,True
+707783,EXCEED,exceed_selfcompletion_questionnaire,balc11_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",0.0,False
+707784,EXCEED,exceed_selfcompletion_questionnaire,balc11_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",1.0,True
+707785,EXCEED,exceed_selfcompletion_questionnaire,balc11_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",0.0,False
+707786,EXCEED,exceed_selfcompletion_questionnaire,oalc11_1,Other alcoholic drinks such as alcopops :  Monday ,1.0,True
+707787,EXCEED,exceed_selfcompletion_questionnaire,oalc11_1,Other alcoholic drinks such as alcopops :  Monday ,0.0,False
+707788,EXCEED,exceed_selfcompletion_questionnaire,oalc11_2,Other alcoholic drinks such as alcopops :  Tuesday ,1.0,True
+707789,EXCEED,exceed_selfcompletion_questionnaire,oalc11_2,Other alcoholic drinks such as alcopops :  Tuesday ,0.0,False
+707790,EXCEED,exceed_selfcompletion_questionnaire,oalc11_3,Other alcoholic drinks such as alcopops :  Wednesday ,1.0,True
+707791,EXCEED,exceed_selfcompletion_questionnaire,oalc11_3,Other alcoholic drinks such as alcopops :  Wednesday ,0.0,False
+707792,EXCEED,exceed_selfcompletion_questionnaire,oalc11_4,Other alcoholic drinks such as alcopops :  Thursday ,1.0,True
+707793,EXCEED,exceed_selfcompletion_questionnaire,oalc11_4,Other alcoholic drinks such as alcopops :  Thursday ,0.0,False
+707794,EXCEED,exceed_selfcompletion_questionnaire,oalc11_5,Other alcoholic drinks such as alcopops :  Friday ,1.0,True
+707795,EXCEED,exceed_selfcompletion_questionnaire,oalc11_5,Other alcoholic drinks such as alcopops :  Friday ,0.0,False
+707796,EXCEED,exceed_selfcompletion_questionnaire,oalc11_6,Other alcoholic drinks such as alcopops :  Saturday ,1.0,True
+707797,EXCEED,exceed_selfcompletion_questionnaire,oalc11_6,Other alcoholic drinks such as alcopops :  Saturday ,0.0,False
+707798,EXCEED,exceed_selfcompletion_questionnaire,oalc11_7,Other alcoholic drinks such as alcopops :  Sunday,1.0,True
+707799,EXCEED,exceed_selfcompletion_questionnaire,oalc11_7,Other alcoholic drinks such as alcopops :  Sunday,0.0,False
+707800,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_1,Other alcoholic drinks :  Monday ,1.0,True
+707801,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_1,Other alcoholic drinks :  Monday ,0.0,False
+707802,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_2,Other alcoholic drinks :  Tuesday ,1.0,True
+707803,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_2,Other alcoholic drinks :  Tuesday ,0.0,False
+707804,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_3,Other alcoholic drinks :  Wednesday ,1.0,True
+707805,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_3,Other alcoholic drinks :  Wednesday ,0.0,False
+707806,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_4,Other alcoholic drinks :  Thursday ,1.0,True
+707807,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_4,Other alcoholic drinks :  Thursday ,0.0,False
+707808,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_5,Other alcoholic drinks :  Friday ,1.0,True
+707809,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_5,Other alcoholic drinks :  Friday ,0.0,False
+707810,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_6,Other alcoholic drinks :  Saturday ,1.0,True
+707811,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_6,Other alcoholic drinks :  Saturday ,0.0,False
+707812,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_7,Other alcoholic drinks :  Sunday,1.0,True
+707813,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_7,Other alcoholic drinks :  Sunday,0.0,False
+707814,EXCEED,exceed_selfcompletion_questionnaire,alc13,,,
+707815,EXCEED,exceed_selfcompletion_questionnaire,alc14,,,
+707816,EXCEED,exceed_selfcompletion_questionnaire,alc15,,,
+707817,EXCEED,exceed_selfcompletion_questionnaire,alc16,,,
+707818,EXCEED,exceed_selfcompletion_questionnaire,ac17,,,
+707819,EXCEED,exceed_selfcompletion_questionnaire,mea1,,,
+707820,EXCEED,exceed_selfcompletion_questionnaire,mea2,,,
+707821,EXCEED,exceed_selfcompletion_questionnaire,mea3,,,
+707822,EXCEED,exceed_selfcompletion_questionnaire,gpa,,,
+707823,EXCEED,exceed_selfcompletion_questionnaire,gp1,,,
+707824,EXCEED,exceed_selfcompletion_questionnaire,gp1a,,,
+707825,EXCEED,exceed_selfcompletion_questionnaire,gp1b,,,
+707826,EXCEED,exceed_selfcompletion_questionnaire,complete,,,
+707827,EXCEED,exceed_selfcompletion_questionnaire,avail_from_dt,,,
+707828,EXCEED,exceed_selfcompletion_questionnaire,study_id_e,,,
+707829,EXCEED,exceed_selfcompletion_questionnaire,timestamp,,,
+707830,EXCEED,exceed_selfcompletion_questionnaire,id_chk,,,
+707831,EXCEED,exceed_selfcompletion_questionnaire,gen2,,,
+707832,EXCEED,exceed_selfcompletion_questionnaire,gen2b,,,
+707833,EXCEED,exceed_selfcompletion_questionnaire,gen3,,,
+707834,EXCEED,exceed_selfcompletion_questionnaire,gen5,,,
+707835,EXCEED,exceed_selfcompletion_questionnaire,gen6,,,
+707836,EXCEED,exceed_selfcompletion_questionnaire,gen7,,,
+707837,EXCEED,exceed_selfcompletion_questionnaire,sm1,,,
+707838,EXCEED,exceed_selfcompletion_questionnaire,sm2,,,
+707839,EXCEED,exceed_selfcompletion_questionnaire,sm3,,,
+707840,EXCEED,exceed_selfcompletion_questionnaire,sm6_1,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes with filters ",1.0,True
+707841,EXCEED,exceed_selfcompletion_questionnaire,sm6_1,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes with filters ",0.0,False
+707842,EXCEED,exceed_selfcompletion_questionnaire,sm6_2,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes without filters ",1.0,True
+707843,EXCEED,exceed_selfcompletion_questionnaire,sm6_2,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes without filters ",0.0,False
+707844,EXCEED,exceed_selfcompletion_questionnaire,sm6_3,"What type of tobacco do you smoke? 
+ :  Hand-rolled cigarettes ",1.0,True
+707845,EXCEED,exceed_selfcompletion_questionnaire,sm6_3,"What type of tobacco do you smoke? 
+ :  Hand-rolled cigarettes ",0.0,False
+707846,EXCEED,exceed_selfcompletion_questionnaire,sm6_4,"What type of tobacco do you smoke? 
+ :  Shisha (waterpipe) ",1.0,True
+707847,EXCEED,exceed_selfcompletion_questionnaire,sm6_4,"What type of tobacco do you smoke? 
+ :  Shisha (waterpipe) ",0.0,False
+707848,EXCEED,exceed_selfcompletion_questionnaire,sm6_5,"What type of tobacco do you smoke? 
+ :  Cigars/Cigarillos ",1.0,True
+707849,EXCEED,exceed_selfcompletion_questionnaire,sm6_5,"What type of tobacco do you smoke? 
+ :  Cigars/Cigarillos ",0.0,False
+707850,EXCEED,exceed_selfcompletion_questionnaire,sm6_6,"What type of tobacco do you smoke? 
+ :  Pipe ",1.0,True
+707851,EXCEED,exceed_selfcompletion_questionnaire,sm6_6,"What type of tobacco do you smoke? 
+ :  Pipe ",0.0,False
+707852,EXCEED,exceed_selfcompletion_questionnaire,sm6_7,"What type of tobacco do you smoke? 
+ :  Other ",1.0,True
+707853,EXCEED,exceed_selfcompletion_questionnaire,sm6_7,"What type of tobacco do you smoke? 
+ :  Other ",0.0,False
+707854,EXCEED,exceed_selfcompletion_questionnaire,sm6_8,"What type of tobacco do you smoke? 
+ :  Prefer not to answer",1.0,True
+707855,EXCEED,exceed_selfcompletion_questionnaire,sm6_8,"What type of tobacco do you smoke? 
+ :  Prefer not to answer",0.0,False
+707856,EXCEED,exceed_selfcompletion_questionnaire,sm7,,,
+707857,EXCEED,exceed_selfcompletion_questionnaire,sm10b,,,
+707858,EXCEED,exceed_selfcompletion_questionnaire,sm10f,,,
+707859,EXCEED,exceed_selfcompletion_questionnaire,sm11,,,
+707860,EXCEED,exceed_selfcompletion_questionnaire,sm12,,,
+707861,EXCEED,exceed_selfcompletion_questionnaire,sm14,,,
+707862,EXCEED,exceed_selfcompletion_questionnaire,sm15,,,
+707863,EXCEED,exceed_selfcompletion_questionnaire,sm16,,,
+707864,EXCEED,exceed_selfcompletion_questionnaire,sm19_1,What method did you use to stop smoking when you stopped for more than 6 months? :  Nicotine replacement therapy ,1.0,True
+707865,EXCEED,exceed_selfcompletion_questionnaire,sm19_1,What method did you use to stop smoking when you stopped for more than 6 months? :  Nicotine replacement therapy ,0.0,False
+707866,EXCEED,exceed_selfcompletion_questionnaire,sm19_2,What method did you use to stop smoking when you stopped for more than 6 months? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+707867,EXCEED,exceed_selfcompletion_questionnaire,sm19_2,What method did you use to stop smoking when you stopped for more than 6 months? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+707868,EXCEED,exceed_selfcompletion_questionnaire,sm19_3,What method did you use to stop smoking when you stopped for more than 6 months? :  Varenicline (Champix) ,1.0,True
+707869,EXCEED,exceed_selfcompletion_questionnaire,sm19_3,What method did you use to stop smoking when you stopped for more than 6 months? :  Varenicline (Champix) ,0.0,False
+707870,EXCEED,exceed_selfcompletion_questionnaire,sm19_4,What method did you use to stop smoking when you stopped for more than 6 months? :  Other ,1.0,True
+707871,EXCEED,exceed_selfcompletion_questionnaire,sm19_4,What method did you use to stop smoking when you stopped for more than 6 months? :  Other ,0.0,False
+707872,EXCEED,exceed_selfcompletion_questionnaire,sm19_5,What method did you use to stop smoking when you stopped for more than 6 months? :  None ,1.0,True
+707873,EXCEED,exceed_selfcompletion_questionnaire,sm19_5,What method did you use to stop smoking when you stopped for more than 6 months? :  None ,0.0,False
+707874,EXCEED,exceed_selfcompletion_questionnaire,sm19_6,What method did you use to stop smoking when you stopped for more than 6 months? :  Do not know ,1.0,True
+707875,EXCEED,exceed_selfcompletion_questionnaire,sm19_6,What method did you use to stop smoking when you stopped for more than 6 months? :  Do not know ,0.0,False
+707876,EXCEED,exceed_selfcompletion_questionnaire,sm19_7,What method did you use to stop smoking when you stopped for more than 6 months? :  Prefer not to answer,1.0,True
+707877,EXCEED,exceed_selfcompletion_questionnaire,sm19_7,What method did you use to stop smoking when you stopped for more than 6 months? :  Prefer not to answer,0.0,False
+707878,EXCEED,exceed_selfcompletion_questionnaire,sm20_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",1.0,True
+707879,EXCEED,exceed_selfcompletion_questionnaire,sm20_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",0.0,False
+707880,EXCEED,exceed_selfcompletion_questionnaire,sm20_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",1.0,True
+707881,EXCEED,exceed_selfcompletion_questionnaire,sm20_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",0.0,False
+707882,EXCEED,exceed_selfcompletion_questionnaire,sm20_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",1.0,True
+707883,EXCEED,exceed_selfcompletion_questionnaire,sm20_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",0.0,False
+707884,EXCEED,exceed_selfcompletion_questionnaire,sm20_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",1.0,True
+707885,EXCEED,exceed_selfcompletion_questionnaire,sm20_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",0.0,False
+707886,EXCEED,exceed_selfcompletion_questionnaire,sm20_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",1.0,True
+707887,EXCEED,exceed_selfcompletion_questionnaire,sm20_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",0.0,False
+707888,EXCEED,exceed_selfcompletion_questionnaire,sm20_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",1.0,True
+707889,EXCEED,exceed_selfcompletion_questionnaire,sm20_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",0.0,False
+707890,EXCEED,exceed_selfcompletion_questionnaire,sm20_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",1.0,True
+707891,EXCEED,exceed_selfcompletion_questionnaire,sm20_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",0.0,False
+707892,EXCEED,exceed_selfcompletion_questionnaire,sm20_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+707893,EXCEED,exceed_selfcompletion_questionnaire,sm20_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+707894,EXCEED,exceed_selfcompletion_questionnaire,sm20_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",1.0,True
+707895,EXCEED,exceed_selfcompletion_questionnaire,sm20_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",0.0,False
+707896,EXCEED,exceed_selfcompletion_questionnaire,sm20_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",1.0,True
+707897,EXCEED,exceed_selfcompletion_questionnaire,sm20_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",0.0,False
+707898,EXCEED,exceed_selfcompletion_questionnaire,sm20_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",1.0,True
+707899,EXCEED,exceed_selfcompletion_questionnaire,sm20_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",0.0,False
+707900,EXCEED,exceed_selfcompletion_questionnaire,sm20_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",1.0,True
+707901,EXCEED,exceed_selfcompletion_questionnaire,sm20_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",0.0,False
+707902,EXCEED,exceed_selfcompletion_questionnaire,sm20_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",1.0,True
+707903,EXCEED,exceed_selfcompletion_questionnaire,sm20_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",0.0,False
+707904,EXCEED,exceed_selfcompletion_questionnaire,sm20_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",1.0,True
+707905,EXCEED,exceed_selfcompletion_questionnaire,sm20_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",0.0,False
+707906,EXCEED,exceed_selfcompletion_questionnaire,sm20_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",1.0,True
+707907,EXCEED,exceed_selfcompletion_questionnaire,sm20_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",0.0,False
+707908,EXCEED,exceed_selfcompletion_questionnaire,sm20_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",1.0,True
+707909,EXCEED,exceed_selfcompletion_questionnaire,sm20_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",0.0,False
+707910,EXCEED,exceed_selfcompletion_questionnaire,sm20_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",1.0,True
+707911,EXCEED,exceed_selfcompletion_questionnaire,sm20_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",0.0,False
+707912,EXCEED,exceed_selfcompletion_questionnaire,sm20_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",1.0,True
+707913,EXCEED,exceed_selfcompletion_questionnaire,sm20_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",0.0,False
+707914,EXCEED,exceed_selfcompletion_questionnaire,sm20_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",1.0,True
+707915,EXCEED,exceed_selfcompletion_questionnaire,sm20_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",0.0,False
+707916,EXCEED,exceed_selfcompletion_questionnaire,sm20_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",1.0,True
+707917,EXCEED,exceed_selfcompletion_questionnaire,sm20_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",0.0,False
+707918,EXCEED,exceed_selfcompletion_questionnaire,sm21,,,
+707919,EXCEED,exceed_selfcompletion_questionnaire,sm22,,,
+707920,EXCEED,exceed_selfcompletion_questionnaire,sm24_1,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes with filters ",1.0,True
+707921,EXCEED,exceed_selfcompletion_questionnaire,sm24_1,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes with filters ",0.0,False
+707922,EXCEED,exceed_selfcompletion_questionnaire,sm24_2,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes without filters ",1.0,True
+707923,EXCEED,exceed_selfcompletion_questionnaire,sm24_2,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes without filters ",0.0,False
+707924,EXCEED,exceed_selfcompletion_questionnaire,sm24_3,"What type of tobacco did you smoke? 
+ :  Hand-rolled cigarettes ",1.0,True
+707925,EXCEED,exceed_selfcompletion_questionnaire,sm24_3,"What type of tobacco did you smoke? 
+ :  Hand-rolled cigarettes ",0.0,False
+707926,EXCEED,exceed_selfcompletion_questionnaire,sm24_4,"What type of tobacco did you smoke? 
+ :  Shisha (waterpipe) ",1.0,True
+707927,EXCEED,exceed_selfcompletion_questionnaire,sm24_4,"What type of tobacco did you smoke? 
+ :  Shisha (waterpipe) ",0.0,False
+707928,EXCEED,exceed_selfcompletion_questionnaire,sm24_5,"What type of tobacco did you smoke? 
+ :  Cigars/Cigarillos ",1.0,True
+707929,EXCEED,exceed_selfcompletion_questionnaire,sm24_5,"What type of tobacco did you smoke? 
+ :  Cigars/Cigarillos ",0.0,False
+707930,EXCEED,exceed_selfcompletion_questionnaire,sm24_6,"What type of tobacco did you smoke? 
+ :  Pipe ",1.0,True
+707931,EXCEED,exceed_selfcompletion_questionnaire,sm24_6,"What type of tobacco did you smoke? 
+ :  Pipe ",0.0,False
+707932,EXCEED,exceed_selfcompletion_questionnaire,sm24_7,"What type of tobacco did you smoke? 
+ :  None of the above ",1.0,True
+707933,EXCEED,exceed_selfcompletion_questionnaire,sm24_7,"What type of tobacco did you smoke? 
+ :  None of the above ",0.0,False
+707934,EXCEED,exceed_selfcompletion_questionnaire,sm24_8,"What type of tobacco did you smoke? 
+ :  Prefer not to answer",1.0,True
+707935,EXCEED,exceed_selfcompletion_questionnaire,sm24_8,"What type of tobacco did you smoke? 
+ :  Prefer not to answer",0.0,False
+707936,EXCEED,exceed_selfcompletion_questionnaire,sm25,,,
+707937,EXCEED,exceed_selfcompletion_questionnaire,sm28b,,,
+707938,EXCEED,exceed_selfcompletion_questionnaire,sm28f,,,
+707939,EXCEED,exceed_selfcompletion_questionnaire,sm29,,,
+707940,EXCEED,exceed_selfcompletion_questionnaire,sm30,,,
+707941,EXCEED,exceed_selfcompletion_questionnaire,sm32,,,
+707942,EXCEED,exceed_selfcompletion_questionnaire,sm34,,,
+707943,EXCEED,exceed_selfcompletion_questionnaire,sm35_1,What method did you use to stop smoking? :  Nicotine replacement therapy ,1.0,True
+707944,EXCEED,exceed_selfcompletion_questionnaire,sm35_1,What method did you use to stop smoking? :  Nicotine replacement therapy ,0.0,False
+707945,EXCEED,exceed_selfcompletion_questionnaire,sm35_2,What method did you use to stop smoking? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+707946,EXCEED,exceed_selfcompletion_questionnaire,sm35_2,What method did you use to stop smoking? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+707947,EXCEED,exceed_selfcompletion_questionnaire,sm35_3,What method did you use to stop smoking? :  Varenicline (Champix) ,1.0,True
+707948,EXCEED,exceed_selfcompletion_questionnaire,sm35_3,What method did you use to stop smoking? :  Varenicline (Champix) ,0.0,False
+707949,EXCEED,exceed_selfcompletion_questionnaire,sm35_4,What method did you use to stop smoking? :  Other ,1.0,True
+707950,EXCEED,exceed_selfcompletion_questionnaire,sm35_4,What method did you use to stop smoking? :  Other ,0.0,False
+707951,EXCEED,exceed_selfcompletion_questionnaire,sm35_5,What method did you use to stop smoking? :  None ,1.0,True
+707952,EXCEED,exceed_selfcompletion_questionnaire,sm35_5,What method did you use to stop smoking? :  None ,0.0,False
+707953,EXCEED,exceed_selfcompletion_questionnaire,sm35_6,What method did you use to stop smoking? :  Do not know ,1.0,True
+707954,EXCEED,exceed_selfcompletion_questionnaire,sm35_6,What method did you use to stop smoking? :  Do not know ,0.0,False
+707955,EXCEED,exceed_selfcompletion_questionnaire,sm35_7,What method did you use to stop smoking? :  Prefer not to answer,1.0,True
+707956,EXCEED,exceed_selfcompletion_questionnaire,sm35_7,What method did you use to stop smoking? :  Prefer not to answer,0.0,False
+707957,EXCEED,exceed_selfcompletion_questionnaire,sm36_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",1.0,True
+707958,EXCEED,exceed_selfcompletion_questionnaire,sm36_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",0.0,False
+707959,EXCEED,exceed_selfcompletion_questionnaire,sm36_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",1.0,True
+707960,EXCEED,exceed_selfcompletion_questionnaire,sm36_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",0.0,False
+707961,EXCEED,exceed_selfcompletion_questionnaire,sm36_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",1.0,True
+707962,EXCEED,exceed_selfcompletion_questionnaire,sm36_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",0.0,False
+707963,EXCEED,exceed_selfcompletion_questionnaire,sm36_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",1.0,True
+707964,EXCEED,exceed_selfcompletion_questionnaire,sm36_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",0.0,False
+707965,EXCEED,exceed_selfcompletion_questionnaire,sm36_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",1.0,True
+707966,EXCEED,exceed_selfcompletion_questionnaire,sm36_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",0.0,False
+707967,EXCEED,exceed_selfcompletion_questionnaire,sm36_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",1.0,True
+707968,EXCEED,exceed_selfcompletion_questionnaire,sm36_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",0.0,False
+707969,EXCEED,exceed_selfcompletion_questionnaire,sm36_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",1.0,True
+707970,EXCEED,exceed_selfcompletion_questionnaire,sm36_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",0.0,False
+707971,EXCEED,exceed_selfcompletion_questionnaire,sm36_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+707972,EXCEED,exceed_selfcompletion_questionnaire,sm36_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+707973,EXCEED,exceed_selfcompletion_questionnaire,sm36_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",1.0,True
+707974,EXCEED,exceed_selfcompletion_questionnaire,sm36_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",0.0,False
+707975,EXCEED,exceed_selfcompletion_questionnaire,sm36_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",1.0,True
+707976,EXCEED,exceed_selfcompletion_questionnaire,sm36_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",0.0,False
+707977,EXCEED,exceed_selfcompletion_questionnaire,sm36_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",1.0,True
+707978,EXCEED,exceed_selfcompletion_questionnaire,sm36_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",0.0,False
+707979,EXCEED,exceed_selfcompletion_questionnaire,sm36_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",1.0,True
+707980,EXCEED,exceed_selfcompletion_questionnaire,sm36_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",0.0,False
+707981,EXCEED,exceed_selfcompletion_questionnaire,sm36_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",1.0,True
+707982,EXCEED,exceed_selfcompletion_questionnaire,sm36_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",0.0,False
+707983,EXCEED,exceed_selfcompletion_questionnaire,sm36_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",1.0,True
+707984,EXCEED,exceed_selfcompletion_questionnaire,sm36_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",0.0,False
+707985,EXCEED,exceed_selfcompletion_questionnaire,sm36_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",1.0,True
+707986,EXCEED,exceed_selfcompletion_questionnaire,sm36_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",0.0,False
+707987,EXCEED,exceed_selfcompletion_questionnaire,sm36_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",1.0,True
+707988,EXCEED,exceed_selfcompletion_questionnaire,sm36_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",0.0,False
+707989,EXCEED,exceed_selfcompletion_questionnaire,sm36_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",1.0,True
+707990,EXCEED,exceed_selfcompletion_questionnaire,sm36_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",0.0,False
+707991,EXCEED,exceed_selfcompletion_questionnaire,sm36_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",1.0,True
+707992,EXCEED,exceed_selfcompletion_questionnaire,sm36_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",0.0,False
+707993,EXCEED,exceed_selfcompletion_questionnaire,sm36_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",1.0,True
+707994,EXCEED,exceed_selfcompletion_questionnaire,sm36_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",0.0,False
+707995,EXCEED,exceed_selfcompletion_questionnaire,sm36_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",1.0,True
+707996,EXCEED,exceed_selfcompletion_questionnaire,sm36_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",0.0,False
+707997,EXCEED,exceed_selfcompletion_questionnaire,sm38,,,
+707998,EXCEED,exceed_selfcompletion_questionnaire,sm40_1,What method did you use to stop smoking before you were successful? :  Nicotine replacement therapy ,1.0,True
+707999,EXCEED,exceed_selfcompletion_questionnaire,sm40_1,What method did you use to stop smoking before you were successful? :  Nicotine replacement therapy ,0.0,False
+708000,EXCEED,exceed_selfcompletion_questionnaire,sm40_2,What method did you use to stop smoking before you were successful? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+708001,EXCEED,exceed_selfcompletion_questionnaire,sm40_2,What method did you use to stop smoking before you were successful? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+708002,EXCEED,exceed_selfcompletion_questionnaire,sm40_3,What method did you use to stop smoking before you were successful? :  Varenicline (Champix) ,1.0,True
+708003,EXCEED,exceed_selfcompletion_questionnaire,sm40_3,What method did you use to stop smoking before you were successful? :  Varenicline (Champix) ,0.0,False
+708004,EXCEED,exceed_selfcompletion_questionnaire,sm40_4,What method did you use to stop smoking before you were successful? :  Other ,1.0,True
+708005,EXCEED,exceed_selfcompletion_questionnaire,sm40_4,What method did you use to stop smoking before you were successful? :  Other ,0.0,False
+708006,EXCEED,exceed_selfcompletion_questionnaire,sm40_5,What method did you use to stop smoking before you were successful? :  None ,1.0,True
+708007,EXCEED,exceed_selfcompletion_questionnaire,sm40_5,What method did you use to stop smoking before you were successful? :  None ,0.0,False
+708008,EXCEED,exceed_selfcompletion_questionnaire,sm40_6,What method did you use to stop smoking before you were successful? :  Do not know ,1.0,True
+708009,EXCEED,exceed_selfcompletion_questionnaire,sm40_6,What method did you use to stop smoking before you were successful? :  Do not know ,0.0,False
+708010,EXCEED,exceed_selfcompletion_questionnaire,sm40_7,What method did you use to stop smoking before you were successful? :  Prefer not to answer,1.0,True
+708011,EXCEED,exceed_selfcompletion_questionnaire,sm40_7,What method did you use to stop smoking before you were successful? :  Prefer not to answer,0.0,False
+708012,EXCEED,exceed_selfcompletion_questionnaire,sm41_1,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopass lozenges ",1.0,True
+708013,EXCEED,exceed_selfcompletion_questionnaire,sm41_1,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopass lozenges ",0.0,False
+708014,EXCEED,exceed_selfcompletion_questionnaire,sm41_2,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopatch ",1.0,True
+708015,EXCEED,exceed_selfcompletion_questionnaire,sm41_2,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopatch ",0.0,False
+708016,EXCEED,exceed_selfcompletion_questionnaire,sm41_3,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette gum ",1.0,True
+708017,EXCEED,exceed_selfcompletion_questionnaire,sm41_3,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette gum ",0.0,False
+708018,EXCEED,exceed_selfcompletion_questionnaire,sm41_4,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette inhalator ",1.0,True
+708019,EXCEED,exceed_selfcompletion_questionnaire,sm41_4,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette inhalator ",0.0,False
+708020,EXCEED,exceed_selfcompletion_questionnaire,sm41_5,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette microtab ",1.0,True
+708021,EXCEED,exceed_selfcompletion_questionnaire,sm41_5,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette microtab ",0.0,False
+708022,EXCEED,exceed_selfcompletion_questionnaire,sm41_6,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette nasal spray ",1.0,True
+708023,EXCEED,exceed_selfcompletion_questionnaire,sm41_6,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette nasal spray ",0.0,False
+708024,EXCEED,exceed_selfcompletion_questionnaire,sm41_7,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette patches ",1.0,True
+708025,EXCEED,exceed_selfcompletion_questionnaire,sm41_7,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette patches ",0.0,False
+708026,EXCEED,exceed_selfcompletion_questionnaire,sm41_8,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+708027,EXCEED,exceed_selfcompletion_questionnaire,sm41_8,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+708028,EXCEED,exceed_selfcompletion_questionnaire,sm41_9,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell gum ",1.0,True
+708029,EXCEED,exceed_selfcompletion_questionnaire,sm41_9,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell gum ",0.0,False
+708030,EXCEED,exceed_selfcompletion_questionnaire,sm41_10,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell lozenges ",1.0,True
+708031,EXCEED,exceed_selfcompletion_questionnaire,sm41_10,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell lozenges ",0.0,False
+708032,EXCEED,exceed_selfcompletion_questionnaire,sm41_11,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell patches ",1.0,True
+708033,EXCEED,exceed_selfcompletion_questionnaire,sm41_11,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell patches ",0.0,False
+708034,EXCEED,exceed_selfcompletion_questionnaire,sm41_12,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin gum ",1.0,True
+708035,EXCEED,exceed_selfcompletion_questionnaire,sm41_12,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin gum ",0.0,False
+708036,EXCEED,exceed_selfcompletion_questionnaire,sm41_13,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin lozenges ",1.0,True
+708037,EXCEED,exceed_selfcompletion_questionnaire,sm41_13,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin lozenges ",0.0,False
+708038,EXCEED,exceed_selfcompletion_questionnaire,sm41_14,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin patches ",1.0,True
+708039,EXCEED,exceed_selfcompletion_questionnaire,sm41_14,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin patches ",0.0,False
+708040,EXCEED,exceed_selfcompletion_questionnaire,sm41_15,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist gum ",1.0,True
+708041,EXCEED,exceed_selfcompletion_questionnaire,sm41_15,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist gum ",0.0,False
+708042,EXCEED,exceed_selfcompletion_questionnaire,sm41_16,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist ",1.0,True
+708043,EXCEED,exceed_selfcompletion_questionnaire,sm41_16,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist ",0.0,False
+708044,EXCEED,exceed_selfcompletion_questionnaire,sm41_17,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Translucent patches ",1.0,True
+708045,EXCEED,exceed_selfcompletion_questionnaire,sm41_17,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Translucent patches ",0.0,False
+708046,EXCEED,exceed_selfcompletion_questionnaire,sm41_18,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Invisi patches ",1.0,True
+708047,EXCEED,exceed_selfcompletion_questionnaire,sm41_18,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Invisi patches ",0.0,False
+708048,EXCEED,exceed_selfcompletion_questionnaire,sm41_19,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  TTS patches Inhalators ",1.0,True
+708049,EXCEED,exceed_selfcompletion_questionnaire,sm41_19,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  TTS patches Inhalators ",0.0,False
+708050,EXCEED,exceed_selfcompletion_questionnaire,sm41_20,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Other",1.0,True
+708051,EXCEED,exceed_selfcompletion_questionnaire,sm41_20,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Other",0.0,False
+708052,EXCEED,exceed_selfcompletion_questionnaire,sm42,,,
+708053,EXCEED,exceed_selfcompletion_questionnaire,sm43,,,
+708054,EXCEED,exceed_selfcompletion_questionnaire,sm44,,,
+708055,EXCEED,exceed_selfcompletion_questionnaire,sm46,,,
+708056,EXCEED,exceed_selfcompletion_questionnaire,sm48,,,
+708057,EXCEED,exceed_selfcompletion_questionnaire,sm47,,,
+708058,EXCEED,exceed_selfcompletion_questionnaire,sm50,,,
+708059,EXCEED,exceed_selfcompletion_questionnaire,alc1,,,
+708060,EXCEED,exceed_selfcompletion_questionnaire,alc2,,,
+708061,EXCEED,exceed_selfcompletion_questionnaire,alc9,,,
+708062,EXCEED,exceed_selfcompletion_questionnaire,walc10_1,"Wine including red, white and rose :  Monday ",1.0,True
+708063,EXCEED,exceed_selfcompletion_questionnaire,walc10_1,"Wine including red, white and rose :  Monday ",0.0,False
+708064,EXCEED,exceed_selfcompletion_questionnaire,walc10_2,"Wine including red, white and rose :  Tuesday ",1.0,True
+708065,EXCEED,exceed_selfcompletion_questionnaire,walc10_2,"Wine including red, white and rose :  Tuesday ",0.0,False
+708066,EXCEED,exceed_selfcompletion_questionnaire,walc10_3,"Wine including red, white and rose :  Wednesday ",1.0,True
+708067,EXCEED,exceed_selfcompletion_questionnaire,walc10_3,"Wine including red, white and rose :  Wednesday ",0.0,False
+708068,EXCEED,exceed_selfcompletion_questionnaire,walc10_4,"Wine including red, white and rose :  Thursday ",1.0,True
+708069,EXCEED,exceed_selfcompletion_questionnaire,walc10_4,"Wine including red, white and rose :  Thursday ",0.0,False
+708070,EXCEED,exceed_selfcompletion_questionnaire,walc10_5,"Wine including red, white and rose :  Friday ",1.0,True
+708071,EXCEED,exceed_selfcompletion_questionnaire,walc10_5,"Wine including red, white and rose :  Friday ",0.0,False
+708072,EXCEED,exceed_selfcompletion_questionnaire,walc10_6,"Wine including red, white and rose :  Saturday ",1.0,True
+708073,EXCEED,exceed_selfcompletion_questionnaire,walc10_6,"Wine including red, white and rose :  Saturday ",0.0,False
+708074,EXCEED,exceed_selfcompletion_questionnaire,walc10_7,"Wine including red, white and rose :  Sunday",1.0,True
+708075,EXCEED,exceed_selfcompletion_questionnaire,walc10_7,"Wine including red, white and rose :  Sunday",0.0,False
+708076,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_1,"Fortified wine such as sherry, port, vermouth :  Monday ",1.0,True
+708077,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_1,"Fortified wine such as sherry, port, vermouth :  Monday ",0.0,False
+708078,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",1.0,True
+708079,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",0.0,False
+708080,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",1.0,True
+708081,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",0.0,False
+708082,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",1.0,True
+708083,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",0.0,False
+708084,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_5,"Fortified wine such as sherry, port, vermouth :  Friday ",1.0,True
+708085,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_5,"Fortified wine such as sherry, port, vermouth :  Friday ",0.0,False
+708086,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",1.0,True
+708087,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",0.0,False
+708088,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_7,"Fortified wine such as sherry, port, vermouth :  Sunday",1.0,True
+708089,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_7,"Fortified wine such as sherry, port, vermouth :  Sunday",0.0,False
+708090,EXCEED,exceed_selfcompletion_questionnaire,salc10_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",1.0,True
+708091,EXCEED,exceed_selfcompletion_questionnaire,salc10_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",0.0,False
+708092,EXCEED,exceed_selfcompletion_questionnaire,salc10_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",1.0,True
+708093,EXCEED,exceed_selfcompletion_questionnaire,salc10_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",0.0,False
+708094,EXCEED,exceed_selfcompletion_questionnaire,salc10_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",1.0,True
+708095,EXCEED,exceed_selfcompletion_questionnaire,salc10_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",0.0,False
+708096,EXCEED,exceed_selfcompletion_questionnaire,salc10_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",1.0,True
+708097,EXCEED,exceed_selfcompletion_questionnaire,salc10_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",0.0,False
+708098,EXCEED,exceed_selfcompletion_questionnaire,salc10_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",1.0,True
+708099,EXCEED,exceed_selfcompletion_questionnaire,salc10_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",0.0,False
+708100,EXCEED,exceed_selfcompletion_questionnaire,salc10_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",1.0,True
+708101,EXCEED,exceed_selfcompletion_questionnaire,salc10_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",0.0,False
+708102,EXCEED,exceed_selfcompletion_questionnaire,salc10_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",1.0,True
+708103,EXCEED,exceed_selfcompletion_questionnaire,salc10_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",0.0,False
+708104,EXCEED,exceed_selfcompletion_questionnaire,balc10_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",1.0,True
+708105,EXCEED,exceed_selfcompletion_questionnaire,balc10_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",0.0,False
+708106,EXCEED,exceed_selfcompletion_questionnaire,balc10_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",1.0,True
+708107,EXCEED,exceed_selfcompletion_questionnaire,balc10_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",0.0,False
+708108,EXCEED,exceed_selfcompletion_questionnaire,balc10_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",1.0,True
+708109,EXCEED,exceed_selfcompletion_questionnaire,balc10_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",0.0,False
+708110,EXCEED,exceed_selfcompletion_questionnaire,balc10_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",1.0,True
+708111,EXCEED,exceed_selfcompletion_questionnaire,balc10_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",0.0,False
+708112,EXCEED,exceed_selfcompletion_questionnaire,balc10_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",1.0,True
+708113,EXCEED,exceed_selfcompletion_questionnaire,balc10_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",0.0,False
+708114,EXCEED,exceed_selfcompletion_questionnaire,balc10_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",1.0,True
+708115,EXCEED,exceed_selfcompletion_questionnaire,balc10_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",0.0,False
+708116,EXCEED,exceed_selfcompletion_questionnaire,balc10_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",1.0,True
+708117,EXCEED,exceed_selfcompletion_questionnaire,balc10_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",0.0,False
+708118,EXCEED,exceed_selfcompletion_questionnaire,oalc10_1,Other alcoholic drinks such as alcopops :  Monday ,1.0,True
+708119,EXCEED,exceed_selfcompletion_questionnaire,oalc10_1,Other alcoholic drinks such as alcopops :  Monday ,0.0,False
+708120,EXCEED,exceed_selfcompletion_questionnaire,oalc10_2,Other alcoholic drinks such as alcopops :  Tuesday ,1.0,True
+708121,EXCEED,exceed_selfcompletion_questionnaire,oalc10_2,Other alcoholic drinks such as alcopops :  Tuesday ,0.0,False
+708122,EXCEED,exceed_selfcompletion_questionnaire,oalc10_3,Other alcoholic drinks such as alcopops :  Wednesday ,1.0,True
+708123,EXCEED,exceed_selfcompletion_questionnaire,oalc10_3,Other alcoholic drinks such as alcopops :  Wednesday ,0.0,False
+708124,EXCEED,exceed_selfcompletion_questionnaire,oalc10_4,Other alcoholic drinks such as alcopops :  Thursday ,1.0,True
+708125,EXCEED,exceed_selfcompletion_questionnaire,oalc10_4,Other alcoholic drinks such as alcopops :  Thursday ,0.0,False
+708126,EXCEED,exceed_selfcompletion_questionnaire,oalc10_5,Other alcoholic drinks such as alcopops :  Friday ,1.0,True
+708127,EXCEED,exceed_selfcompletion_questionnaire,oalc10_5,Other alcoholic drinks such as alcopops :  Friday ,0.0,False
+708128,EXCEED,exceed_selfcompletion_questionnaire,oalc10_6,Other alcoholic drinks such as alcopops :  Saturday ,1.0,True
+708129,EXCEED,exceed_selfcompletion_questionnaire,oalc10_6,Other alcoholic drinks such as alcopops :  Saturday ,0.0,False
+708130,EXCEED,exceed_selfcompletion_questionnaire,oalc10_7,Other alcoholic drinks such as alcopops :  Sunday,1.0,True
+708131,EXCEED,exceed_selfcompletion_questionnaire,oalc10_7,Other alcoholic drinks such as alcopops :  Sunday,0.0,False
+708132,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_1,Other alcoholic drinks :  Monday ,1.0,True
+708133,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_1,Other alcoholic drinks :  Monday ,0.0,False
+708134,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_2,Other alcoholic drinks :  Tuesday ,1.0,True
+708135,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_2,Other alcoholic drinks :  Tuesday ,0.0,False
+708136,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_3,Other alcoholic drinks :  Wednesday ,1.0,True
+708137,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_3,Other alcoholic drinks :  Wednesday ,0.0,False
+708138,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_4,Other alcoholic drinks :  Thursday ,1.0,True
+708139,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_4,Other alcoholic drinks :  Thursday ,0.0,False
+708140,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_5,Other alcoholic drinks :  Friday ,1.0,True
+708141,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_5,Other alcoholic drinks :  Friday ,0.0,False
+708142,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_6,Other alcoholic drinks :  Saturday ,1.0,True
+708143,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_6,Other alcoholic drinks :  Saturday ,0.0,False
+708144,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_7,Other alcoholic drinks :  Sunday,1.0,True
+708145,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_7,Other alcoholic drinks :  Sunday,0.0,False
+708146,EXCEED,exceed_selfcompletion_questionnaire,alc11,,,
+708147,EXCEED,exceed_selfcompletion_questionnaire,walc11_1,"Wine including red, white and rose :  Monday ",1.0,True
+708148,EXCEED,exceed_selfcompletion_questionnaire,walc11_1,"Wine including red, white and rose :  Monday ",0.0,False
+708149,EXCEED,exceed_selfcompletion_questionnaire,walc11_2,"Wine including red, white and rose :  Tuesday ",1.0,True
+708150,EXCEED,exceed_selfcompletion_questionnaire,walc11_2,"Wine including red, white and rose :  Tuesday ",0.0,False
+708151,EXCEED,exceed_selfcompletion_questionnaire,walc11_3,"Wine including red, white and rose :  Wednesday ",1.0,True
+708152,EXCEED,exceed_selfcompletion_questionnaire,walc11_3,"Wine including red, white and rose :  Wednesday ",0.0,False
+708153,EXCEED,exceed_selfcompletion_questionnaire,walc11_4,"Wine including red, white and rose :  Thursday ",1.0,True
+708154,EXCEED,exceed_selfcompletion_questionnaire,walc11_4,"Wine including red, white and rose :  Thursday ",0.0,False
+708155,EXCEED,exceed_selfcompletion_questionnaire,walc11_5,"Wine including red, white and rose :  Friday ",1.0,True
+708156,EXCEED,exceed_selfcompletion_questionnaire,walc11_5,"Wine including red, white and rose :  Friday ",0.0,False
+708157,EXCEED,exceed_selfcompletion_questionnaire,walc11_6,"Wine including red, white and rose :  Saturday ",1.0,True
+708158,EXCEED,exceed_selfcompletion_questionnaire,walc11_6,"Wine including red, white and rose :  Saturday ",0.0,False
+708159,EXCEED,exceed_selfcompletion_questionnaire,walc11_7,"Wine including red, white and rose :  Sunday",1.0,True
+708160,EXCEED,exceed_selfcompletion_questionnaire,walc11_7,"Wine including red, white and rose :  Sunday",0.0,False
+708161,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_1,"Fortified wine such as sherry, port, vermouth :  Monday ",1.0,True
+708162,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_1,"Fortified wine such as sherry, port, vermouth :  Monday ",0.0,False
+708163,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",1.0,True
+708164,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",0.0,False
+708165,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",1.0,True
+708166,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",0.0,False
+708167,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",1.0,True
+708168,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",0.0,False
+708169,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_5,"Fortified wine such as sherry, port, vermouth :  Friday ",1.0,True
+708170,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_5,"Fortified wine such as sherry, port, vermouth :  Friday ",0.0,False
+708171,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",1.0,True
+708172,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",0.0,False
+708173,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_7,"Fortified wine such as sherry, port, vermouth :  Sunday",1.0,True
+708174,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_7,"Fortified wine such as sherry, port, vermouth :  Sunday",0.0,False
+708175,EXCEED,exceed_selfcompletion_questionnaire,salc11_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",1.0,True
+708176,EXCEED,exceed_selfcompletion_questionnaire,salc11_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",0.0,False
+708177,EXCEED,exceed_selfcompletion_questionnaire,salc11_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",1.0,True
+708178,EXCEED,exceed_selfcompletion_questionnaire,salc11_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",0.0,False
+708179,EXCEED,exceed_selfcompletion_questionnaire,salc11_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",1.0,True
+708180,EXCEED,exceed_selfcompletion_questionnaire,salc11_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",0.0,False
+708181,EXCEED,exceed_selfcompletion_questionnaire,salc11_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",1.0,True
+708182,EXCEED,exceed_selfcompletion_questionnaire,salc11_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",0.0,False
+708183,EXCEED,exceed_selfcompletion_questionnaire,salc11_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",1.0,True
+708184,EXCEED,exceed_selfcompletion_questionnaire,salc11_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",0.0,False
+708185,EXCEED,exceed_selfcompletion_questionnaire,salc11_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",1.0,True
+708186,EXCEED,exceed_selfcompletion_questionnaire,salc11_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",0.0,False
+708187,EXCEED,exceed_selfcompletion_questionnaire,salc11_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",1.0,True
+708188,EXCEED,exceed_selfcompletion_questionnaire,salc11_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",0.0,False
+708189,EXCEED,exceed_selfcompletion_questionnaire,balc11_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",1.0,True
+708190,EXCEED,exceed_selfcompletion_questionnaire,balc11_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",0.0,False
+708191,EXCEED,exceed_selfcompletion_questionnaire,balc11_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",1.0,True
+708192,EXCEED,exceed_selfcompletion_questionnaire,balc11_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",0.0,False
+708193,EXCEED,exceed_selfcompletion_questionnaire,balc11_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",1.0,True
+708194,EXCEED,exceed_selfcompletion_questionnaire,balc11_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",0.0,False
+708195,EXCEED,exceed_selfcompletion_questionnaire,balc11_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",1.0,True
+708196,EXCEED,exceed_selfcompletion_questionnaire,balc11_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",0.0,False
+708197,EXCEED,exceed_selfcompletion_questionnaire,balc11_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",1.0,True
+708198,EXCEED,exceed_selfcompletion_questionnaire,balc11_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",0.0,False
+708199,EXCEED,exceed_selfcompletion_questionnaire,balc11_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",1.0,True
+708200,EXCEED,exceed_selfcompletion_questionnaire,balc11_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",0.0,False
+708201,EXCEED,exceed_selfcompletion_questionnaire,balc11_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",1.0,True
+708202,EXCEED,exceed_selfcompletion_questionnaire,balc11_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",0.0,False
+708203,EXCEED,exceed_selfcompletion_questionnaire,oalc11_1,Other alcoholic drinks such as alcopops :  Monday ,1.0,True
+708204,EXCEED,exceed_selfcompletion_questionnaire,oalc11_1,Other alcoholic drinks such as alcopops :  Monday ,0.0,False
+708205,EXCEED,exceed_selfcompletion_questionnaire,oalc11_2,Other alcoholic drinks such as alcopops :  Tuesday ,1.0,True
+708206,EXCEED,exceed_selfcompletion_questionnaire,oalc11_2,Other alcoholic drinks such as alcopops :  Tuesday ,0.0,False
+708207,EXCEED,exceed_selfcompletion_questionnaire,oalc11_3,Other alcoholic drinks such as alcopops :  Wednesday ,1.0,True
+708208,EXCEED,exceed_selfcompletion_questionnaire,oalc11_3,Other alcoholic drinks such as alcopops :  Wednesday ,0.0,False
+708209,EXCEED,exceed_selfcompletion_questionnaire,oalc11_4,Other alcoholic drinks such as alcopops :  Thursday ,1.0,True
+708210,EXCEED,exceed_selfcompletion_questionnaire,oalc11_4,Other alcoholic drinks such as alcopops :  Thursday ,0.0,False
+708211,EXCEED,exceed_selfcompletion_questionnaire,oalc11_5,Other alcoholic drinks such as alcopops :  Friday ,1.0,True
+708212,EXCEED,exceed_selfcompletion_questionnaire,oalc11_5,Other alcoholic drinks such as alcopops :  Friday ,0.0,False
+708213,EXCEED,exceed_selfcompletion_questionnaire,oalc11_6,Other alcoholic drinks such as alcopops :  Saturday ,1.0,True
+708214,EXCEED,exceed_selfcompletion_questionnaire,oalc11_6,Other alcoholic drinks such as alcopops :  Saturday ,0.0,False
+708215,EXCEED,exceed_selfcompletion_questionnaire,oalc11_7,Other alcoholic drinks such as alcopops :  Sunday,1.0,True
+708216,EXCEED,exceed_selfcompletion_questionnaire,oalc11_7,Other alcoholic drinks such as alcopops :  Sunday,0.0,False
+708217,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_1,Other alcoholic drinks :  Monday ,1.0,True
+708218,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_1,Other alcoholic drinks :  Monday ,0.0,False
+708219,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_2,Other alcoholic drinks :  Tuesday ,1.0,True
+708220,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_2,Other alcoholic drinks :  Tuesday ,0.0,False
+708221,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_3,Other alcoholic drinks :  Wednesday ,1.0,True
+708222,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_3,Other alcoholic drinks :  Wednesday ,0.0,False
+708223,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_4,Other alcoholic drinks :  Thursday ,1.0,True
+708224,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_4,Other alcoholic drinks :  Thursday ,0.0,False
+708225,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_5,Other alcoholic drinks :  Friday ,1.0,True
+708226,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_5,Other alcoholic drinks :  Friday ,0.0,False
+708227,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_6,Other alcoholic drinks :  Saturday ,1.0,True
+708228,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_6,Other alcoholic drinks :  Saturday ,0.0,False
+708229,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_7,Other alcoholic drinks :  Sunday,1.0,True
+708230,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_7,Other alcoholic drinks :  Sunday,0.0,False
+708231,EXCEED,exceed_selfcompletion_questionnaire,alc13,,,
+708232,EXCEED,exceed_selfcompletion_questionnaire,alc14,,,
+708233,EXCEED,exceed_selfcompletion_questionnaire,alc15,,,
+708234,EXCEED,exceed_selfcompletion_questionnaire,alc16,,,
+708235,EXCEED,exceed_selfcompletion_questionnaire,ac17,,,
+708236,EXCEED,exceed_selfcompletion_questionnaire,mea1,,,
+708237,EXCEED,exceed_selfcompletion_questionnaire,mea2,,,
+708238,EXCEED,exceed_selfcompletion_questionnaire,mea3,,,
+708239,EXCEED,exceed_selfcompletion_questionnaire,gpa,,,
+708240,EXCEED,exceed_selfcompletion_questionnaire,gp1,,,
+708241,EXCEED,exceed_selfcompletion_questionnaire,gp1a,,,
+708242,EXCEED,exceed_selfcompletion_questionnaire,gp1b,,,
+708243,EXCEED,exceed_selfcompletion_questionnaire,complete,,,
+708244,EXCEED,exceed_selfcompletion_questionnaire,participant_id,,,
+708245,EXCEED,exceed_selfcompletion_questionnaire,redcap_identifier,,,
+708246,EXCEED,exceed_selfcompletion_questionnaire,avail_from_dt,,,
+708247,EXCEED,exceed_selfcompletion_questionnaire,study_id_e,,,
+708248,EXCEED,exceed_selfcompletion_questionnaire,timestamp,,,
+708249,EXCEED,exceed_selfcompletion_questionnaire,gen1,,,
+708250,EXCEED,exceed_selfcompletion_questionnaire,gen2,,,
+708251,EXCEED,exceed_selfcompletion_questionnaire,gen2b,,,
+708252,EXCEED,exceed_selfcompletion_questionnaire,gen3,,,
+708253,EXCEED,exceed_selfcompletion_questionnaire,gen5,,,
+708254,EXCEED,exceed_selfcompletion_questionnaire,gen6,,,
+708255,EXCEED,exceed_selfcompletion_questionnaire,gen7,,,
+708256,EXCEED,exceed_selfcompletion_questionnaire,sm1,,,
+708257,EXCEED,exceed_selfcompletion_questionnaire,sm2,,,
+708258,EXCEED,exceed_selfcompletion_questionnaire,sm3,,,
+708259,EXCEED,exceed_selfcompletion_questionnaire,sm6_1,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes with filters ",1.0,True
+708260,EXCEED,exceed_selfcompletion_questionnaire,sm6_1,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes with filters ",0.0,False
+708261,EXCEED,exceed_selfcompletion_questionnaire,sm6_2,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes without filters ",1.0,True
+708262,EXCEED,exceed_selfcompletion_questionnaire,sm6_2,"What type of tobacco do you smoke? 
+ :  Manufactured cigarettes without filters ",0.0,False
+708263,EXCEED,exceed_selfcompletion_questionnaire,sm6_3,"What type of tobacco do you smoke? 
+ :  Hand-rolled cigarettes ",1.0,True
+708264,EXCEED,exceed_selfcompletion_questionnaire,sm6_3,"What type of tobacco do you smoke? 
+ :  Hand-rolled cigarettes ",0.0,False
+708265,EXCEED,exceed_selfcompletion_questionnaire,sm6_4,"What type of tobacco do you smoke? 
+ :  Shisha (waterpipe) ",1.0,True
+708266,EXCEED,exceed_selfcompletion_questionnaire,sm6_4,"What type of tobacco do you smoke? 
+ :  Shisha (waterpipe) ",0.0,False
+708267,EXCEED,exceed_selfcompletion_questionnaire,sm6_5,"What type of tobacco do you smoke? 
+ :  Cigars/Cigarillos ",1.0,True
+708268,EXCEED,exceed_selfcompletion_questionnaire,sm6_5,"What type of tobacco do you smoke? 
+ :  Cigars/Cigarillos ",0.0,False
+708269,EXCEED,exceed_selfcompletion_questionnaire,sm6_6,"What type of tobacco do you smoke? 
+ :  Pipe ",1.0,True
+708270,EXCEED,exceed_selfcompletion_questionnaire,sm6_6,"What type of tobacco do you smoke? 
+ :  Pipe ",0.0,False
+708271,EXCEED,exceed_selfcompletion_questionnaire,sm6_7,"What type of tobacco do you smoke? 
+ :  Other ",1.0,True
+708272,EXCEED,exceed_selfcompletion_questionnaire,sm6_7,"What type of tobacco do you smoke? 
+ :  Other ",0.0,False
+708273,EXCEED,exceed_selfcompletion_questionnaire,sm6_8,"What type of tobacco do you smoke? 
+ :  Prefer not to answer",1.0,True
+708274,EXCEED,exceed_selfcompletion_questionnaire,sm6_8,"What type of tobacco do you smoke? 
+ :  Prefer not to answer",0.0,False
+708275,EXCEED,exceed_selfcompletion_questionnaire,sm7,,,
+708276,EXCEED,exceed_selfcompletion_questionnaire,sm10b,,,
+708277,EXCEED,exceed_selfcompletion_questionnaire,sm10f,,,
+708278,EXCEED,exceed_selfcompletion_questionnaire,sm11,,,
+708279,EXCEED,exceed_selfcompletion_questionnaire,sm12,,,
+708280,EXCEED,exceed_selfcompletion_questionnaire,sm14,,,
+708281,EXCEED,exceed_selfcompletion_questionnaire,sm15,,,
+708282,EXCEED,exceed_selfcompletion_questionnaire,sm16,,,
+708283,EXCEED,exceed_selfcompletion_questionnaire,sm19_1,What method did you use to stop smoking when you stopped for more than 6 months? :  Nicotine replacement therapy ,1.0,True
+708284,EXCEED,exceed_selfcompletion_questionnaire,sm19_1,What method did you use to stop smoking when you stopped for more than 6 months? :  Nicotine replacement therapy ,0.0,False
+708285,EXCEED,exceed_selfcompletion_questionnaire,sm19_2,What method did you use to stop smoking when you stopped for more than 6 months? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+708286,EXCEED,exceed_selfcompletion_questionnaire,sm19_2,What method did you use to stop smoking when you stopped for more than 6 months? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+708287,EXCEED,exceed_selfcompletion_questionnaire,sm19_3,What method did you use to stop smoking when you stopped for more than 6 months? :  Varenicline (Champix) ,1.0,True
+708288,EXCEED,exceed_selfcompletion_questionnaire,sm19_3,What method did you use to stop smoking when you stopped for more than 6 months? :  Varenicline (Champix) ,0.0,False
+708289,EXCEED,exceed_selfcompletion_questionnaire,sm19_4,What method did you use to stop smoking when you stopped for more than 6 months? :  Other ,1.0,True
+708290,EXCEED,exceed_selfcompletion_questionnaire,sm19_4,What method did you use to stop smoking when you stopped for more than 6 months? :  Other ,0.0,False
+708291,EXCEED,exceed_selfcompletion_questionnaire,sm19_5,What method did you use to stop smoking when you stopped for more than 6 months? :  None ,1.0,True
+708292,EXCEED,exceed_selfcompletion_questionnaire,sm19_5,What method did you use to stop smoking when you stopped for more than 6 months? :  None ,0.0,False
+708293,EXCEED,exceed_selfcompletion_questionnaire,sm19_6,What method did you use to stop smoking when you stopped for more than 6 months? :  Do not know ,1.0,True
+708294,EXCEED,exceed_selfcompletion_questionnaire,sm19_6,What method did you use to stop smoking when you stopped for more than 6 months? :  Do not know ,0.0,False
+708295,EXCEED,exceed_selfcompletion_questionnaire,sm19_7,What method did you use to stop smoking when you stopped for more than 6 months? :  Prefer not to answer,1.0,True
+708296,EXCEED,exceed_selfcompletion_questionnaire,sm19_7,What method did you use to stop smoking when you stopped for more than 6 months? :  Prefer not to answer,0.0,False
+708297,EXCEED,exceed_selfcompletion_questionnaire,sm20_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",1.0,True
+708298,EXCEED,exceed_selfcompletion_questionnaire,sm20_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",0.0,False
+708299,EXCEED,exceed_selfcompletion_questionnaire,sm20_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",1.0,True
+708300,EXCEED,exceed_selfcompletion_questionnaire,sm20_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",0.0,False
+708301,EXCEED,exceed_selfcompletion_questionnaire,sm20_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",1.0,True
+708302,EXCEED,exceed_selfcompletion_questionnaire,sm20_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",0.0,False
+708303,EXCEED,exceed_selfcompletion_questionnaire,sm20_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",1.0,True
+708304,EXCEED,exceed_selfcompletion_questionnaire,sm20_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",0.0,False
+708305,EXCEED,exceed_selfcompletion_questionnaire,sm20_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",1.0,True
+708306,EXCEED,exceed_selfcompletion_questionnaire,sm20_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",0.0,False
+708307,EXCEED,exceed_selfcompletion_questionnaire,sm20_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",1.0,True
+708308,EXCEED,exceed_selfcompletion_questionnaire,sm20_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",0.0,False
+708309,EXCEED,exceed_selfcompletion_questionnaire,sm20_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",1.0,True
+708310,EXCEED,exceed_selfcompletion_questionnaire,sm20_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",0.0,False
+708311,EXCEED,exceed_selfcompletion_questionnaire,sm20_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+708312,EXCEED,exceed_selfcompletion_questionnaire,sm20_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+708313,EXCEED,exceed_selfcompletion_questionnaire,sm20_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",1.0,True
+708314,EXCEED,exceed_selfcompletion_questionnaire,sm20_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",0.0,False
+708315,EXCEED,exceed_selfcompletion_questionnaire,sm20_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",1.0,True
+708316,EXCEED,exceed_selfcompletion_questionnaire,sm20_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",0.0,False
+708317,EXCEED,exceed_selfcompletion_questionnaire,sm20_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",1.0,True
+708318,EXCEED,exceed_selfcompletion_questionnaire,sm20_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",0.0,False
+708319,EXCEED,exceed_selfcompletion_questionnaire,sm20_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",1.0,True
+708320,EXCEED,exceed_selfcompletion_questionnaire,sm20_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",0.0,False
+708321,EXCEED,exceed_selfcompletion_questionnaire,sm20_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",1.0,True
+708322,EXCEED,exceed_selfcompletion_questionnaire,sm20_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",0.0,False
+708323,EXCEED,exceed_selfcompletion_questionnaire,sm20_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",1.0,True
+708324,EXCEED,exceed_selfcompletion_questionnaire,sm20_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",0.0,False
+708325,EXCEED,exceed_selfcompletion_questionnaire,sm20_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",1.0,True
+708326,EXCEED,exceed_selfcompletion_questionnaire,sm20_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",0.0,False
+708327,EXCEED,exceed_selfcompletion_questionnaire,sm20_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",1.0,True
+708328,EXCEED,exceed_selfcompletion_questionnaire,sm20_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",0.0,False
+708329,EXCEED,exceed_selfcompletion_questionnaire,sm20_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",1.0,True
+708330,EXCEED,exceed_selfcompletion_questionnaire,sm20_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",0.0,False
+708331,EXCEED,exceed_selfcompletion_questionnaire,sm20_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",1.0,True
+708332,EXCEED,exceed_selfcompletion_questionnaire,sm20_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",0.0,False
+708333,EXCEED,exceed_selfcompletion_questionnaire,sm20_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",1.0,True
+708334,EXCEED,exceed_selfcompletion_questionnaire,sm20_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",0.0,False
+708335,EXCEED,exceed_selfcompletion_questionnaire,sm20_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",1.0,True
+708336,EXCEED,exceed_selfcompletion_questionnaire,sm20_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",0.0,False
+708337,EXCEED,exceed_selfcompletion_questionnaire,sm21,,,
+708338,EXCEED,exceed_selfcompletion_questionnaire,sm22,,,
+708339,EXCEED,exceed_selfcompletion_questionnaire,sm24_1,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes with filters ",1.0,True
+708340,EXCEED,exceed_selfcompletion_questionnaire,sm24_1,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes with filters ",0.0,False
+708341,EXCEED,exceed_selfcompletion_questionnaire,sm24_2,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes without filters ",1.0,True
+708342,EXCEED,exceed_selfcompletion_questionnaire,sm24_2,"What type of tobacco did you smoke? 
+ :  Manufactured cigarettes without filters ",0.0,False
+708343,EXCEED,exceed_selfcompletion_questionnaire,sm24_3,"What type of tobacco did you smoke? 
+ :  Hand-rolled cigarettes ",1.0,True
+708344,EXCEED,exceed_selfcompletion_questionnaire,sm24_3,"What type of tobacco did you smoke? 
+ :  Hand-rolled cigarettes ",0.0,False
+708345,EXCEED,exceed_selfcompletion_questionnaire,sm24_4,"What type of tobacco did you smoke? 
+ :  Shisha (waterpipe) ",1.0,True
+708346,EXCEED,exceed_selfcompletion_questionnaire,sm24_4,"What type of tobacco did you smoke? 
+ :  Shisha (waterpipe) ",0.0,False
+708347,EXCEED,exceed_selfcompletion_questionnaire,sm24_5,"What type of tobacco did you smoke? 
+ :  Cigars/Cigarillos ",1.0,True
+708348,EXCEED,exceed_selfcompletion_questionnaire,sm24_5,"What type of tobacco did you smoke? 
+ :  Cigars/Cigarillos ",0.0,False
+708349,EXCEED,exceed_selfcompletion_questionnaire,sm24_6,"What type of tobacco did you smoke? 
+ :  Pipe ",1.0,True
+708350,EXCEED,exceed_selfcompletion_questionnaire,sm24_6,"What type of tobacco did you smoke? 
+ :  Pipe ",0.0,False
+708351,EXCEED,exceed_selfcompletion_questionnaire,sm24_7,"What type of tobacco did you smoke? 
+ :  None of the above ",1.0,True
+708352,EXCEED,exceed_selfcompletion_questionnaire,sm24_7,"What type of tobacco did you smoke? 
+ :  None of the above ",0.0,False
+708353,EXCEED,exceed_selfcompletion_questionnaire,sm24_8,"What type of tobacco did you smoke? 
+ :  Prefer not to answer",1.0,True
+708354,EXCEED,exceed_selfcompletion_questionnaire,sm24_8,"What type of tobacco did you smoke? 
+ :  Prefer not to answer",0.0,False
+708355,EXCEED,exceed_selfcompletion_questionnaire,sm25,,,
+708356,EXCEED,exceed_selfcompletion_questionnaire,sm28b,,,
+708357,EXCEED,exceed_selfcompletion_questionnaire,sm28f,,,
+708358,EXCEED,exceed_selfcompletion_questionnaire,sm29,,,
+708359,EXCEED,exceed_selfcompletion_questionnaire,sm30,,,
+708360,EXCEED,exceed_selfcompletion_questionnaire,sm32,,,
+708361,EXCEED,exceed_selfcompletion_questionnaire,sm34,,,
+708362,EXCEED,exceed_selfcompletion_questionnaire,sm35_1,What method did you use to stop smoking? :  Nicotine replacement therapy ,1.0,True
+708363,EXCEED,exceed_selfcompletion_questionnaire,sm35_1,What method did you use to stop smoking? :  Nicotine replacement therapy ,0.0,False
+708364,EXCEED,exceed_selfcompletion_questionnaire,sm35_2,What method did you use to stop smoking? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+708365,EXCEED,exceed_selfcompletion_questionnaire,sm35_2,What method did you use to stop smoking? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+708366,EXCEED,exceed_selfcompletion_questionnaire,sm35_3,What method did you use to stop smoking? :  Varenicline (Champix) ,1.0,True
+708367,EXCEED,exceed_selfcompletion_questionnaire,sm35_3,What method did you use to stop smoking? :  Varenicline (Champix) ,0.0,False
+708368,EXCEED,exceed_selfcompletion_questionnaire,sm35_4,What method did you use to stop smoking? :  Other ,1.0,True
+708369,EXCEED,exceed_selfcompletion_questionnaire,sm35_4,What method did you use to stop smoking? :  Other ,0.0,False
+708370,EXCEED,exceed_selfcompletion_questionnaire,sm35_5,What method did you use to stop smoking? :  None ,1.0,True
+708371,EXCEED,exceed_selfcompletion_questionnaire,sm35_5,What method did you use to stop smoking? :  None ,0.0,False
+708372,EXCEED,exceed_selfcompletion_questionnaire,sm35_6,What method did you use to stop smoking? :  Do not know ,1.0,True
+708373,EXCEED,exceed_selfcompletion_questionnaire,sm35_6,What method did you use to stop smoking? :  Do not know ,0.0,False
+708374,EXCEED,exceed_selfcompletion_questionnaire,sm35_7,What method did you use to stop smoking? :  Prefer not to answer,1.0,True
+708375,EXCEED,exceed_selfcompletion_questionnaire,sm35_7,What method did you use to stop smoking? :  Prefer not to answer,0.0,False
+708376,EXCEED,exceed_selfcompletion_questionnaire,sm36_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",1.0,True
+708377,EXCEED,exceed_selfcompletion_questionnaire,sm36_1,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopass lozenges ",0.0,False
+708378,EXCEED,exceed_selfcompletion_questionnaire,sm36_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",1.0,True
+708379,EXCEED,exceed_selfcompletion_questionnaire,sm36_2,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicopatch ",0.0,False
+708380,EXCEED,exceed_selfcompletion_questionnaire,sm36_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",1.0,True
+708381,EXCEED,exceed_selfcompletion_questionnaire,sm36_3,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette gum ",0.0,False
+708382,EXCEED,exceed_selfcompletion_questionnaire,sm36_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",1.0,True
+708383,EXCEED,exceed_selfcompletion_questionnaire,sm36_4,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette inhalator ",0.0,False
+708384,EXCEED,exceed_selfcompletion_questionnaire,sm36_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",1.0,True
+708385,EXCEED,exceed_selfcompletion_questionnaire,sm36_5,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette microtab ",0.0,False
+708386,EXCEED,exceed_selfcompletion_questionnaire,sm36_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",1.0,True
+708387,EXCEED,exceed_selfcompletion_questionnaire,sm36_6,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette nasal spray ",0.0,False
+708388,EXCEED,exceed_selfcompletion_questionnaire,sm36_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",1.0,True
+708389,EXCEED,exceed_selfcompletion_questionnaire,sm36_7,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette patches ",0.0,False
+708390,EXCEED,exceed_selfcompletion_questionnaire,sm36_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+708391,EXCEED,exceed_selfcompletion_questionnaire,sm36_8,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+708392,EXCEED,exceed_selfcompletion_questionnaire,sm36_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",1.0,True
+708393,EXCEED,exceed_selfcompletion_questionnaire,sm36_9,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell gum ",0.0,False
+708394,EXCEED,exceed_selfcompletion_questionnaire,sm36_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",1.0,True
+708395,EXCEED,exceed_selfcompletion_questionnaire,sm36_10,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell lozenges ",0.0,False
+708396,EXCEED,exceed_selfcompletion_questionnaire,sm36_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",1.0,True
+708397,EXCEED,exceed_selfcompletion_questionnaire,sm36_11,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Nicotinell patches ",0.0,False
+708398,EXCEED,exceed_selfcompletion_questionnaire,sm36_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",1.0,True
+708399,EXCEED,exceed_selfcompletion_questionnaire,sm36_12,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin gum ",0.0,False
+708400,EXCEED,exceed_selfcompletion_questionnaire,sm36_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",1.0,True
+708401,EXCEED,exceed_selfcompletion_questionnaire,sm36_13,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin lozenges ",0.0,False
+708402,EXCEED,exceed_selfcompletion_questionnaire,sm36_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",1.0,True
+708403,EXCEED,exceed_selfcompletion_questionnaire,sm36_14,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NiQuitin patches ",0.0,False
+708404,EXCEED,exceed_selfcompletion_questionnaire,sm36_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",1.0,True
+708405,EXCEED,exceed_selfcompletion_questionnaire,sm36_15,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist gum ",0.0,False
+708406,EXCEED,exceed_selfcompletion_questionnaire,sm36_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",1.0,True
+708407,EXCEED,exceed_selfcompletion_questionnaire,sm36_16,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  NicAssist ",0.0,False
+708408,EXCEED,exceed_selfcompletion_questionnaire,sm36_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",1.0,True
+708409,EXCEED,exceed_selfcompletion_questionnaire,sm36_17,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Translucent patches ",0.0,False
+708410,EXCEED,exceed_selfcompletion_questionnaire,sm36_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",1.0,True
+708411,EXCEED,exceed_selfcompletion_questionnaire,sm36_18,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Invisi patches ",0.0,False
+708412,EXCEED,exceed_selfcompletion_questionnaire,sm36_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",1.0,True
+708413,EXCEED,exceed_selfcompletion_questionnaire,sm36_19,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  TTS patches Inhalators ",0.0,False
+708414,EXCEED,exceed_selfcompletion_questionnaire,sm36_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",1.0,True
+708415,EXCEED,exceed_selfcompletion_questionnaire,sm36_20,"Which of the following nicotine replacement therapy products have you used? 
+
+ :  Other",0.0,False
+708416,EXCEED,exceed_selfcompletion_questionnaire,sm38,,,
+708417,EXCEED,exceed_selfcompletion_questionnaire,sm40_1,What method did you use to stop smoking before you were successful? :  Nicotine replacement therapy ,1.0,True
+708418,EXCEED,exceed_selfcompletion_questionnaire,sm40_1,What method did you use to stop smoking before you were successful? :  Nicotine replacement therapy ,0.0,False
+708419,EXCEED,exceed_selfcompletion_questionnaire,sm40_2,What method did you use to stop smoking before you were successful? :  Bupropion Hydrochloride (Zyban) ,1.0,True
+708420,EXCEED,exceed_selfcompletion_questionnaire,sm40_2,What method did you use to stop smoking before you were successful? :  Bupropion Hydrochloride (Zyban) ,0.0,False
+708421,EXCEED,exceed_selfcompletion_questionnaire,sm40_3,What method did you use to stop smoking before you were successful? :  Varenicline (Champix) ,1.0,True
+708422,EXCEED,exceed_selfcompletion_questionnaire,sm40_3,What method did you use to stop smoking before you were successful? :  Varenicline (Champix) ,0.0,False
+708423,EXCEED,exceed_selfcompletion_questionnaire,sm40_4,What method did you use to stop smoking before you were successful? :  Other ,1.0,True
+708424,EXCEED,exceed_selfcompletion_questionnaire,sm40_4,What method did you use to stop smoking before you were successful? :  Other ,0.0,False
+708425,EXCEED,exceed_selfcompletion_questionnaire,sm40_5,What method did you use to stop smoking before you were successful? :  None ,1.0,True
+708426,EXCEED,exceed_selfcompletion_questionnaire,sm40_5,What method did you use to stop smoking before you were successful? :  None ,0.0,False
+708427,EXCEED,exceed_selfcompletion_questionnaire,sm40_6,What method did you use to stop smoking before you were successful? :  Do not know ,1.0,True
+708428,EXCEED,exceed_selfcompletion_questionnaire,sm40_6,What method did you use to stop smoking before you were successful? :  Do not know ,0.0,False
+708429,EXCEED,exceed_selfcompletion_questionnaire,sm40_7,What method did you use to stop smoking before you were successful? :  Prefer not to answer,1.0,True
+708430,EXCEED,exceed_selfcompletion_questionnaire,sm40_7,What method did you use to stop smoking before you were successful? :  Prefer not to answer,0.0,False
+708431,EXCEED,exceed_selfcompletion_questionnaire,sm41_1,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopass lozenges ",1.0,True
+708432,EXCEED,exceed_selfcompletion_questionnaire,sm41_1,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopass lozenges ",0.0,False
+708433,EXCEED,exceed_selfcompletion_questionnaire,sm41_2,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopatch ",1.0,True
+708434,EXCEED,exceed_selfcompletion_questionnaire,sm41_2,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicopatch ",0.0,False
+708435,EXCEED,exceed_selfcompletion_questionnaire,sm41_3,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette gum ",1.0,True
+708436,EXCEED,exceed_selfcompletion_questionnaire,sm41_3,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette gum ",0.0,False
+708437,EXCEED,exceed_selfcompletion_questionnaire,sm41_4,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette inhalator ",1.0,True
+708438,EXCEED,exceed_selfcompletion_questionnaire,sm41_4,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette inhalator ",0.0,False
+708439,EXCEED,exceed_selfcompletion_questionnaire,sm41_5,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette microtab ",1.0,True
+708440,EXCEED,exceed_selfcompletion_questionnaire,sm41_5,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette microtab ",0.0,False
+708441,EXCEED,exceed_selfcompletion_questionnaire,sm41_6,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette nasal spray ",1.0,True
+708442,EXCEED,exceed_selfcompletion_questionnaire,sm41_6,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette nasal spray ",0.0,False
+708443,EXCEED,exceed_selfcompletion_questionnaire,sm41_7,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette patches ",1.0,True
+708444,EXCEED,exceed_selfcompletion_questionnaire,sm41_7,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette patches ",0.0,False
+708445,EXCEED,exceed_selfcompletion_questionnaire,sm41_8,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette quickmist mouthspray ",1.0,True
+708446,EXCEED,exceed_selfcompletion_questionnaire,sm41_8,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicorette quickmist mouthspray ",0.0,False
+708447,EXCEED,exceed_selfcompletion_questionnaire,sm41_9,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell gum ",1.0,True
+708448,EXCEED,exceed_selfcompletion_questionnaire,sm41_9,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell gum ",0.0,False
+708449,EXCEED,exceed_selfcompletion_questionnaire,sm41_10,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell lozenges ",1.0,True
+708450,EXCEED,exceed_selfcompletion_questionnaire,sm41_10,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell lozenges ",0.0,False
+708451,EXCEED,exceed_selfcompletion_questionnaire,sm41_11,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell patches ",1.0,True
+708452,EXCEED,exceed_selfcompletion_questionnaire,sm41_11,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Nicotinell patches ",0.0,False
+708453,EXCEED,exceed_selfcompletion_questionnaire,sm41_12,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin gum ",1.0,True
+708454,EXCEED,exceed_selfcompletion_questionnaire,sm41_12,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin gum ",0.0,False
+708455,EXCEED,exceed_selfcompletion_questionnaire,sm41_13,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin lozenges ",1.0,True
+708456,EXCEED,exceed_selfcompletion_questionnaire,sm41_13,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin lozenges ",0.0,False
+708457,EXCEED,exceed_selfcompletion_questionnaire,sm41_14,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin patches ",1.0,True
+708458,EXCEED,exceed_selfcompletion_questionnaire,sm41_14,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NiQuitin patches ",0.0,False
+708459,EXCEED,exceed_selfcompletion_questionnaire,sm41_15,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist gum ",1.0,True
+708460,EXCEED,exceed_selfcompletion_questionnaire,sm41_15,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist gum ",0.0,False
+708461,EXCEED,exceed_selfcompletion_questionnaire,sm41_16,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist ",1.0,True
+708462,EXCEED,exceed_selfcompletion_questionnaire,sm41_16,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  NicAssist ",0.0,False
+708463,EXCEED,exceed_selfcompletion_questionnaire,sm41_17,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Translucent patches ",1.0,True
+708464,EXCEED,exceed_selfcompletion_questionnaire,sm41_17,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Translucent patches ",0.0,False
+708465,EXCEED,exceed_selfcompletion_questionnaire,sm41_18,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Invisi patches ",1.0,True
+708466,EXCEED,exceed_selfcompletion_questionnaire,sm41_18,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Invisi patches ",0.0,False
+708467,EXCEED,exceed_selfcompletion_questionnaire,sm41_19,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  TTS patches Inhalators ",1.0,True
+708468,EXCEED,exceed_selfcompletion_questionnaire,sm41_19,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  TTS patches Inhalators ",0.0,False
+708469,EXCEED,exceed_selfcompletion_questionnaire,sm41_20,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Other",1.0,True
+708470,EXCEED,exceed_selfcompletion_questionnaire,sm41_20,"Which of the following nicotine replacement therapy products did you use? 
+
+ :  Other",0.0,False
+708471,EXCEED,exceed_selfcompletion_questionnaire,sm42,,,
+708472,EXCEED,exceed_selfcompletion_questionnaire,sm43,,,
+708473,EXCEED,exceed_selfcompletion_questionnaire,sm44,,,
+708474,EXCEED,exceed_selfcompletion_questionnaire,sm46,,,
+708475,EXCEED,exceed_selfcompletion_questionnaire,sm48,,,
+708476,EXCEED,exceed_selfcompletion_questionnaire,sm47,,,
+708477,EXCEED,exceed_selfcompletion_questionnaire,sm50,,,
+708478,EXCEED,exceed_selfcompletion_questionnaire,alc1,,,
+708479,EXCEED,exceed_selfcompletion_questionnaire,alc2,,,
+708480,EXCEED,exceed_selfcompletion_questionnaire,alc9,,,
+708481,EXCEED,exceed_selfcompletion_questionnaire,walc10_1,"Wine including red, white and rose :  Monday ",1.0,True
+708482,EXCEED,exceed_selfcompletion_questionnaire,walc10_1,"Wine including red, white and rose :  Monday ",0.0,False
+708483,EXCEED,exceed_selfcompletion_questionnaire,walc10_2,"Wine including red, white and rose :  Tuesday ",1.0,True
+708484,EXCEED,exceed_selfcompletion_questionnaire,walc10_2,"Wine including red, white and rose :  Tuesday ",0.0,False
+708485,EXCEED,exceed_selfcompletion_questionnaire,walc10_3,"Wine including red, white and rose :  Wednesday ",1.0,True
+708486,EXCEED,exceed_selfcompletion_questionnaire,walc10_3,"Wine including red, white and rose :  Wednesday ",0.0,False
+708487,EXCEED,exceed_selfcompletion_questionnaire,walc10_4,"Wine including red, white and rose :  Thursday ",1.0,True
+708488,EXCEED,exceed_selfcompletion_questionnaire,walc10_4,"Wine including red, white and rose :  Thursday ",0.0,False
+708489,EXCEED,exceed_selfcompletion_questionnaire,walc10_5,"Wine including red, white and rose :  Friday ",1.0,True
+708490,EXCEED,exceed_selfcompletion_questionnaire,walc10_5,"Wine including red, white and rose :  Friday ",0.0,False
+708491,EXCEED,exceed_selfcompletion_questionnaire,walc10_6,"Wine including red, white and rose :  Saturday ",1.0,True
+708492,EXCEED,exceed_selfcompletion_questionnaire,walc10_6,"Wine including red, white and rose :  Saturday ",0.0,False
+708493,EXCEED,exceed_selfcompletion_questionnaire,walc10_7,"Wine including red, white and rose :  Sunday",1.0,True
+708494,EXCEED,exceed_selfcompletion_questionnaire,walc10_7,"Wine including red, white and rose :  Sunday",0.0,False
+708495,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_1,"Fortified wine such as sherry, port, vermouth :  Monday ",1.0,True
+708496,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_1,"Fortified wine such as sherry, port, vermouth :  Monday ",0.0,False
+708497,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",1.0,True
+708498,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",0.0,False
+708499,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",1.0,True
+708500,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",0.0,False
+708501,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",1.0,True
+708502,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",0.0,False
+708503,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_5,"Fortified wine such as sherry, port, vermouth :  Friday ",1.0,True
+708504,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_5,"Fortified wine such as sherry, port, vermouth :  Friday ",0.0,False
+708505,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",1.0,True
+708506,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",0.0,False
+708507,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_7,"Fortified wine such as sherry, port, vermouth :  Sunday",1.0,True
+708508,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_7,"Fortified wine such as sherry, port, vermouth :  Sunday",0.0,False
+708509,EXCEED,exceed_selfcompletion_questionnaire,salc10_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",1.0,True
+708510,EXCEED,exceed_selfcompletion_questionnaire,salc10_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",0.0,False
+708511,EXCEED,exceed_selfcompletion_questionnaire,salc10_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",1.0,True
+708512,EXCEED,exceed_selfcompletion_questionnaire,salc10_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",0.0,False
+708513,EXCEED,exceed_selfcompletion_questionnaire,salc10_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",1.0,True
+708514,EXCEED,exceed_selfcompletion_questionnaire,salc10_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",0.0,False
+708515,EXCEED,exceed_selfcompletion_questionnaire,salc10_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",1.0,True
+708516,EXCEED,exceed_selfcompletion_questionnaire,salc10_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",0.0,False
+708517,EXCEED,exceed_selfcompletion_questionnaire,salc10_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",1.0,True
+708518,EXCEED,exceed_selfcompletion_questionnaire,salc10_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",0.0,False
+708519,EXCEED,exceed_selfcompletion_questionnaire,salc10_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",1.0,True
+708520,EXCEED,exceed_selfcompletion_questionnaire,salc10_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",0.0,False
+708521,EXCEED,exceed_selfcompletion_questionnaire,salc10_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",1.0,True
+708522,EXCEED,exceed_selfcompletion_questionnaire,salc10_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",0.0,False
+708523,EXCEED,exceed_selfcompletion_questionnaire,balc10_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",1.0,True
+708524,EXCEED,exceed_selfcompletion_questionnaire,balc10_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",0.0,False
+708525,EXCEED,exceed_selfcompletion_questionnaire,balc10_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",1.0,True
+708526,EXCEED,exceed_selfcompletion_questionnaire,balc10_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",0.0,False
+708527,EXCEED,exceed_selfcompletion_questionnaire,balc10_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",1.0,True
+708528,EXCEED,exceed_selfcompletion_questionnaire,balc10_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",0.0,False
+708529,EXCEED,exceed_selfcompletion_questionnaire,balc10_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",1.0,True
+708530,EXCEED,exceed_selfcompletion_questionnaire,balc10_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",0.0,False
+708531,EXCEED,exceed_selfcompletion_questionnaire,balc10_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",1.0,True
+708532,EXCEED,exceed_selfcompletion_questionnaire,balc10_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",0.0,False
+708533,EXCEED,exceed_selfcompletion_questionnaire,balc10_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",1.0,True
+708534,EXCEED,exceed_selfcompletion_questionnaire,balc10_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",0.0,False
+708535,EXCEED,exceed_selfcompletion_questionnaire,balc10_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",1.0,True
+708536,EXCEED,exceed_selfcompletion_questionnaire,balc10_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",0.0,False
+708537,EXCEED,exceed_selfcompletion_questionnaire,oalc10_1,Other alcoholic drinks such as alcopops :  Monday ,1.0,True
+708538,EXCEED,exceed_selfcompletion_questionnaire,oalc10_1,Other alcoholic drinks such as alcopops :  Monday ,0.0,False
+708539,EXCEED,exceed_selfcompletion_questionnaire,oalc10_2,Other alcoholic drinks such as alcopops :  Tuesday ,1.0,True
+708540,EXCEED,exceed_selfcompletion_questionnaire,oalc10_2,Other alcoholic drinks such as alcopops :  Tuesday ,0.0,False
+708541,EXCEED,exceed_selfcompletion_questionnaire,oalc10_3,Other alcoholic drinks such as alcopops :  Wednesday ,1.0,True
+708542,EXCEED,exceed_selfcompletion_questionnaire,oalc10_3,Other alcoholic drinks such as alcopops :  Wednesday ,0.0,False
+708543,EXCEED,exceed_selfcompletion_questionnaire,oalc10_4,Other alcoholic drinks such as alcopops :  Thursday ,1.0,True
+708544,EXCEED,exceed_selfcompletion_questionnaire,oalc10_4,Other alcoholic drinks such as alcopops :  Thursday ,0.0,False
+708545,EXCEED,exceed_selfcompletion_questionnaire,oalc10_5,Other alcoholic drinks such as alcopops :  Friday ,1.0,True
+708546,EXCEED,exceed_selfcompletion_questionnaire,oalc10_5,Other alcoholic drinks such as alcopops :  Friday ,0.0,False
+708547,EXCEED,exceed_selfcompletion_questionnaire,oalc10_6,Other alcoholic drinks such as alcopops :  Saturday ,1.0,True
+708548,EXCEED,exceed_selfcompletion_questionnaire,oalc10_6,Other alcoholic drinks such as alcopops :  Saturday ,0.0,False
+708549,EXCEED,exceed_selfcompletion_questionnaire,oalc10_7,Other alcoholic drinks such as alcopops :  Sunday,1.0,True
+708550,EXCEED,exceed_selfcompletion_questionnaire,oalc10_7,Other alcoholic drinks such as alcopops :  Sunday,0.0,False
+708551,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_1,Other alcoholic drinks :  Monday ,1.0,True
+708552,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_1,Other alcoholic drinks :  Monday ,0.0,False
+708553,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_2,Other alcoholic drinks :  Tuesday ,1.0,True
+708554,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_2,Other alcoholic drinks :  Tuesday ,0.0,False
+708555,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_3,Other alcoholic drinks :  Wednesday ,1.0,True
+708556,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_3,Other alcoholic drinks :  Wednesday ,0.0,False
+708557,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_4,Other alcoholic drinks :  Thursday ,1.0,True
+708558,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_4,Other alcoholic drinks :  Thursday ,0.0,False
+708559,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_5,Other alcoholic drinks :  Friday ,1.0,True
+708560,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_5,Other alcoholic drinks :  Friday ,0.0,False
+708561,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_6,Other alcoholic drinks :  Saturday ,1.0,True
+708562,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_6,Other alcoholic drinks :  Saturday ,0.0,False
+708563,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_7,Other alcoholic drinks :  Sunday,1.0,True
+708564,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_7,Other alcoholic drinks :  Sunday,0.0,False
+708565,EXCEED,exceed_selfcompletion_questionnaire,alc11,,,
+708566,EXCEED,exceed_selfcompletion_questionnaire,walc11_1,"Wine including red, white and rose :  Monday ",1.0,True
+708567,EXCEED,exceed_selfcompletion_questionnaire,walc11_1,"Wine including red, white and rose :  Monday ",0.0,False
+708568,EXCEED,exceed_selfcompletion_questionnaire,walc11_2,"Wine including red, white and rose :  Tuesday ",1.0,True
+708569,EXCEED,exceed_selfcompletion_questionnaire,walc11_2,"Wine including red, white and rose :  Tuesday ",0.0,False
+708570,EXCEED,exceed_selfcompletion_questionnaire,walc11_3,"Wine including red, white and rose :  Wednesday ",1.0,True
+708571,EXCEED,exceed_selfcompletion_questionnaire,walc11_3,"Wine including red, white and rose :  Wednesday ",0.0,False
+708572,EXCEED,exceed_selfcompletion_questionnaire,walc11_4,"Wine including red, white and rose :  Thursday ",1.0,True
+708573,EXCEED,exceed_selfcompletion_questionnaire,walc11_4,"Wine including red, white and rose :  Thursday ",0.0,False
+708574,EXCEED,exceed_selfcompletion_questionnaire,walc11_5,"Wine including red, white and rose :  Friday ",1.0,True
+708575,EXCEED,exceed_selfcompletion_questionnaire,walc11_5,"Wine including red, white and rose :  Friday ",0.0,False
+708576,EXCEED,exceed_selfcompletion_questionnaire,walc11_6,"Wine including red, white and rose :  Saturday ",1.0,True
+708577,EXCEED,exceed_selfcompletion_questionnaire,walc11_6,"Wine including red, white and rose :  Saturday ",0.0,False
+708578,EXCEED,exceed_selfcompletion_questionnaire,walc11_7,"Wine including red, white and rose :  Sunday",1.0,True
+708579,EXCEED,exceed_selfcompletion_questionnaire,walc11_7,"Wine including red, white and rose :  Sunday",0.0,False
+708580,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_1,"Fortified wine such as sherry, port, vermouth :  Monday ",1.0,True
+708581,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_1,"Fortified wine such as sherry, port, vermouth :  Monday ",0.0,False
+708582,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",1.0,True
+708583,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_2,"Fortified wine such as sherry, port, vermouth :  Tuesday ",0.0,False
+708584,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",1.0,True
+708585,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_3,"Fortified wine such as sherry, port, vermouth :  Wednesday ",0.0,False
+708586,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",1.0,True
+708587,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_4,"Fortified wine such as sherry, port, vermouth :  Thursday ",0.0,False
+708588,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_5,"Fortified wine such as sherry, port, vermouth :  Friday ",1.0,True
+708589,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_5,"Fortified wine such as sherry, port, vermouth :  Friday ",0.0,False
+708590,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",1.0,True
+708591,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_6,"Fortified wine such as sherry, port, vermouth :  Saturday ",0.0,False
+708592,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_7,"Fortified wine such as sherry, port, vermouth :  Sunday",1.0,True
+708593,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_7,"Fortified wine such as sherry, port, vermouth :  Sunday",0.0,False
+708594,EXCEED,exceed_selfcompletion_questionnaire,salc11_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",1.0,True
+708595,EXCEED,exceed_selfcompletion_questionnaire,salc11_1,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Monday ",0.0,False
+708596,EXCEED,exceed_selfcompletion_questionnaire,salc11_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",1.0,True
+708597,EXCEED,exceed_selfcompletion_questionnaire,salc11_2,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Tuesday ",0.0,False
+708598,EXCEED,exceed_selfcompletion_questionnaire,salc11_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",1.0,True
+708599,EXCEED,exceed_selfcompletion_questionnaire,salc11_3,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Wednesday ",0.0,False
+708600,EXCEED,exceed_selfcompletion_questionnaire,salc11_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",1.0,True
+708601,EXCEED,exceed_selfcompletion_questionnaire,salc11_4,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Thursday ",0.0,False
+708602,EXCEED,exceed_selfcompletion_questionnaire,salc11_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",1.0,True
+708603,EXCEED,exceed_selfcompletion_questionnaire,salc11_5,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Friday ",0.0,False
+708604,EXCEED,exceed_selfcompletion_questionnaire,salc11_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",1.0,True
+708605,EXCEED,exceed_selfcompletion_questionnaire,salc11_6,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Saturday ",0.0,False
+708606,EXCEED,exceed_selfcompletion_questionnaire,salc11_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",1.0,True
+708607,EXCEED,exceed_selfcompletion_questionnaire,salc11_7,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy :  Sunday",0.0,False
+708608,EXCEED,exceed_selfcompletion_questionnaire,balc11_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",1.0,True
+708609,EXCEED,exceed_selfcompletion_questionnaire,balc11_1,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Monday ",0.0,False
+708610,EXCEED,exceed_selfcompletion_questionnaire,balc11_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",1.0,True
+708611,EXCEED,exceed_selfcompletion_questionnaire,balc11_2,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Tuesday ",0.0,False
+708612,EXCEED,exceed_selfcompletion_questionnaire,balc11_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",1.0,True
+708613,EXCEED,exceed_selfcompletion_questionnaire,balc11_3,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Wednesday ",0.0,False
+708614,EXCEED,exceed_selfcompletion_questionnaire,balc11_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",1.0,True
+708615,EXCEED,exceed_selfcompletion_questionnaire,balc11_4,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Thursday ",0.0,False
+708616,EXCEED,exceed_selfcompletion_questionnaire,balc11_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",1.0,True
+708617,EXCEED,exceed_selfcompletion_questionnaire,balc11_5,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Friday ",0.0,False
+708618,EXCEED,exceed_selfcompletion_questionnaire,balc11_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",1.0,True
+708619,EXCEED,exceed_selfcompletion_questionnaire,balc11_6,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Saturday ",0.0,False
+708620,EXCEED,exceed_selfcompletion_questionnaire,balc11_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",1.0,True
+708621,EXCEED,exceed_selfcompletion_questionnaire,balc11_7,"Beer or cider such as bitter, lager, stout, ale, Guinness :  Sunday",0.0,False
+708622,EXCEED,exceed_selfcompletion_questionnaire,oalc11_1,Other alcoholic drinks such as alcopops :  Monday ,1.0,True
+708623,EXCEED,exceed_selfcompletion_questionnaire,oalc11_1,Other alcoholic drinks such as alcopops :  Monday ,0.0,False
+708624,EXCEED,exceed_selfcompletion_questionnaire,oalc11_2,Other alcoholic drinks such as alcopops :  Tuesday ,1.0,True
+708625,EXCEED,exceed_selfcompletion_questionnaire,oalc11_2,Other alcoholic drinks such as alcopops :  Tuesday ,0.0,False
+708626,EXCEED,exceed_selfcompletion_questionnaire,oalc11_3,Other alcoholic drinks such as alcopops :  Wednesday ,1.0,True
+708627,EXCEED,exceed_selfcompletion_questionnaire,oalc11_3,Other alcoholic drinks such as alcopops :  Wednesday ,0.0,False
+708628,EXCEED,exceed_selfcompletion_questionnaire,oalc11_4,Other alcoholic drinks such as alcopops :  Thursday ,1.0,True
+708629,EXCEED,exceed_selfcompletion_questionnaire,oalc11_4,Other alcoholic drinks such as alcopops :  Thursday ,0.0,False
+708630,EXCEED,exceed_selfcompletion_questionnaire,oalc11_5,Other alcoholic drinks such as alcopops :  Friday ,1.0,True
+708631,EXCEED,exceed_selfcompletion_questionnaire,oalc11_5,Other alcoholic drinks such as alcopops :  Friday ,0.0,False
+708632,EXCEED,exceed_selfcompletion_questionnaire,oalc11_6,Other alcoholic drinks such as alcopops :  Saturday ,1.0,True
+708633,EXCEED,exceed_selfcompletion_questionnaire,oalc11_6,Other alcoholic drinks such as alcopops :  Saturday ,0.0,False
+708634,EXCEED,exceed_selfcompletion_questionnaire,oalc11_7,Other alcoholic drinks such as alcopops :  Sunday,1.0,True
+708635,EXCEED,exceed_selfcompletion_questionnaire,oalc11_7,Other alcoholic drinks such as alcopops :  Sunday,0.0,False
+708636,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_1,Other alcoholic drinks :  Monday ,1.0,True
+708637,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_1,Other alcoholic drinks :  Monday ,0.0,False
+708638,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_2,Other alcoholic drinks :  Tuesday ,1.0,True
+708639,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_2,Other alcoholic drinks :  Tuesday ,0.0,False
+708640,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_3,Other alcoholic drinks :  Wednesday ,1.0,True
+708641,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_3,Other alcoholic drinks :  Wednesday ,0.0,False
+708642,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_4,Other alcoholic drinks :  Thursday ,1.0,True
+708643,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_4,Other alcoholic drinks :  Thursday ,0.0,False
+708644,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_5,Other alcoholic drinks :  Friday ,1.0,True
+708645,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_5,Other alcoholic drinks :  Friday ,0.0,False
+708646,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_6,Other alcoholic drinks :  Saturday ,1.0,True
+708647,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_6,Other alcoholic drinks :  Saturday ,0.0,False
+708648,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_7,Other alcoholic drinks :  Sunday,1.0,True
+708649,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_7,Other alcoholic drinks :  Sunday,0.0,False
+708650,EXCEED,exceed_selfcompletion_questionnaire,alc13,,,
+708651,EXCEED,exceed_selfcompletion_questionnaire,alc14,,,
+708652,EXCEED,exceed_selfcompletion_questionnaire,alc15,,,
+708653,EXCEED,exceed_selfcompletion_questionnaire,alc16,,,
+708654,EXCEED,exceed_selfcompletion_questionnaire,ac17,,,
+708655,EXCEED,exceed_selfcompletion_questionnaire,mea1,,,
+708656,EXCEED,exceed_selfcompletion_questionnaire,mea2,,,
+708657,EXCEED,exceed_selfcompletion_questionnaire,mea3,,,
+708658,EXCEED,exceed_selfcompletion_questionnaire,gpa,,,
+708659,EXCEED,exceed_selfcompletion_questionnaire,gp1,,,
+708660,EXCEED,exceed_selfcompletion_questionnaire,gp1a,,,
+708661,EXCEED,exceed_selfcompletion_questionnaire,gp1b,,,
+708662,EXCEED,exceed_selfcompletion_questionnaire,complete,,,
+708663,EXCEED,exceed_selfcompletion_questionnaire,avail_from_dt,,,
+708664,EXCEED,exceed_selfcompletion_questionnaire,study_id_e,,,
+708665,EXCEED,exceed_selfcompletion_questionnaire,timestamp,,,
+708666,EXCEED,exceed_selfcompletion_questionnaire,gen1,,,
+708667,EXCEED,exceed_selfcompletion_questionnaire,gen2,,,
+708668,EXCEED,exceed_selfcompletion_questionnaire,gen2b,,,
+708669,EXCEED,exceed_selfcompletion_questionnaire,gen3,,,
+708670,EXCEED,exceed_selfcompletion_questionnaire,gen5,,,
+708671,EXCEED,exceed_selfcompletion_questionnaire,gen6,,,
+708672,EXCEED,exceed_selfcompletion_questionnaire,gen7,,,
+708673,EXCEED,exceed_selfcompletion_questionnaire,sm1,,,
+708674,EXCEED,exceed_selfcompletion_questionnaire,sm2,,,
+708675,EXCEED,exceed_selfcompletion_questionnaire,sm3,,,
+708676,EXCEED,exceed_selfcompletion_questionnaire,sm6_1,,,
+708677,EXCEED,exceed_selfcompletion_questionnaire,sm6_2,,,
+708678,EXCEED,exceed_selfcompletion_questionnaire,sm6_3,,,
+708679,EXCEED,exceed_selfcompletion_questionnaire,sm6_4,,,
+708680,EXCEED,exceed_selfcompletion_questionnaire,sm6_5,,,
+708681,EXCEED,exceed_selfcompletion_questionnaire,sm6_6,,,
+708682,EXCEED,exceed_selfcompletion_questionnaire,sm6_7,,,
+708683,EXCEED,exceed_selfcompletion_questionnaire,sm6_8,,,
+708684,EXCEED,exceed_selfcompletion_questionnaire,sm7,,,
+708685,EXCEED,exceed_selfcompletion_questionnaire,sm10b,,,
+708686,EXCEED,exceed_selfcompletion_questionnaire,sm10f,,,
+708687,EXCEED,exceed_selfcompletion_questionnaire,sm11,,,
+708688,EXCEED,exceed_selfcompletion_questionnaire,sm12,,,
+708689,EXCEED,exceed_selfcompletion_questionnaire,sm14,,,
+708690,EXCEED,exceed_selfcompletion_questionnaire,sm15,,,
+708691,EXCEED,exceed_selfcompletion_questionnaire,sm16,,,
+708692,EXCEED,exceed_selfcompletion_questionnaire,sm19_1,,,
+708693,EXCEED,exceed_selfcompletion_questionnaire,sm19_2,,,
+708694,EXCEED,exceed_selfcompletion_questionnaire,sm19_3,,,
+708695,EXCEED,exceed_selfcompletion_questionnaire,sm19_4,,,
+708696,EXCEED,exceed_selfcompletion_questionnaire,sm19_5,,,
+708697,EXCEED,exceed_selfcompletion_questionnaire,sm19_6,,,
+708698,EXCEED,exceed_selfcompletion_questionnaire,sm19_7,,,
+708699,EXCEED,exceed_selfcompletion_questionnaire,sm20_1,,,
+708700,EXCEED,exceed_selfcompletion_questionnaire,sm20_2,,,
+708701,EXCEED,exceed_selfcompletion_questionnaire,sm20_3,,,
+708702,EXCEED,exceed_selfcompletion_questionnaire,sm20_4,,,
+708703,EXCEED,exceed_selfcompletion_questionnaire,sm20_5,,,
+708704,EXCEED,exceed_selfcompletion_questionnaire,sm20_6,,,
+708705,EXCEED,exceed_selfcompletion_questionnaire,sm20_7,,,
+708706,EXCEED,exceed_selfcompletion_questionnaire,sm20_8,,,
+708707,EXCEED,exceed_selfcompletion_questionnaire,sm20_9,,,
+708708,EXCEED,exceed_selfcompletion_questionnaire,sm20_10,,,
+708709,EXCEED,exceed_selfcompletion_questionnaire,sm20_11,,,
+708710,EXCEED,exceed_selfcompletion_questionnaire,sm20_12,,,
+708711,EXCEED,exceed_selfcompletion_questionnaire,sm20_13,,,
+708712,EXCEED,exceed_selfcompletion_questionnaire,sm20_14,,,
+708713,EXCEED,exceed_selfcompletion_questionnaire,sm20_15,,,
+708714,EXCEED,exceed_selfcompletion_questionnaire,sm20_16,,,
+708715,EXCEED,exceed_selfcompletion_questionnaire,sm20_17,,,
+708716,EXCEED,exceed_selfcompletion_questionnaire,sm20_18,,,
+708717,EXCEED,exceed_selfcompletion_questionnaire,sm20_19,,,
+708718,EXCEED,exceed_selfcompletion_questionnaire,sm20_20,,,
+708719,EXCEED,exceed_selfcompletion_questionnaire,sm21,,,
+708720,EXCEED,exceed_selfcompletion_questionnaire,sm22,,,
+708721,EXCEED,exceed_selfcompletion_questionnaire,sm24_1,,,
+708722,EXCEED,exceed_selfcompletion_questionnaire,sm24_2,,,
+708723,EXCEED,exceed_selfcompletion_questionnaire,sm24_3,,,
+708724,EXCEED,exceed_selfcompletion_questionnaire,sm24_4,,,
+708725,EXCEED,exceed_selfcompletion_questionnaire,sm24_5,,,
+708726,EXCEED,exceed_selfcompletion_questionnaire,sm24_6,,,
+708727,EXCEED,exceed_selfcompletion_questionnaire,sm24_7,,,
+708728,EXCEED,exceed_selfcompletion_questionnaire,sm24_8,,,
+708729,EXCEED,exceed_selfcompletion_questionnaire,sm25,,,
+708730,EXCEED,exceed_selfcompletion_questionnaire,sm28b,,,
+708731,EXCEED,exceed_selfcompletion_questionnaire,sm28f,,,
+708732,EXCEED,exceed_selfcompletion_questionnaire,sm29,,,
+708733,EXCEED,exceed_selfcompletion_questionnaire,sm30,,,
+708734,EXCEED,exceed_selfcompletion_questionnaire,sm32,,,
+708735,EXCEED,exceed_selfcompletion_questionnaire,sm34,,,
+708736,EXCEED,exceed_selfcompletion_questionnaire,sm35_1,,,
+708737,EXCEED,exceed_selfcompletion_questionnaire,sm35_2,,,
+708738,EXCEED,exceed_selfcompletion_questionnaire,sm35_3,,,
+708739,EXCEED,exceed_selfcompletion_questionnaire,sm35_4,,,
+708740,EXCEED,exceed_selfcompletion_questionnaire,sm35_5,,,
+708741,EXCEED,exceed_selfcompletion_questionnaire,sm35_6,,,
+708742,EXCEED,exceed_selfcompletion_questionnaire,sm35_7,,,
+708743,EXCEED,exceed_selfcompletion_questionnaire,sm36_1,,,
+708744,EXCEED,exceed_selfcompletion_questionnaire,sm36_2,,,
+708745,EXCEED,exceed_selfcompletion_questionnaire,sm36_3,,,
+708746,EXCEED,exceed_selfcompletion_questionnaire,sm36_4,,,
+708747,EXCEED,exceed_selfcompletion_questionnaire,sm36_5,,,
+708748,EXCEED,exceed_selfcompletion_questionnaire,sm36_6,,,
+708749,EXCEED,exceed_selfcompletion_questionnaire,sm36_7,,,
+708750,EXCEED,exceed_selfcompletion_questionnaire,sm36_8,,,
+708751,EXCEED,exceed_selfcompletion_questionnaire,sm36_9,,,
+708752,EXCEED,exceed_selfcompletion_questionnaire,sm36_10,,,
+708753,EXCEED,exceed_selfcompletion_questionnaire,sm36_11,,,
+708754,EXCEED,exceed_selfcompletion_questionnaire,sm36_12,,,
+708755,EXCEED,exceed_selfcompletion_questionnaire,sm36_13,,,
+708756,EXCEED,exceed_selfcompletion_questionnaire,sm36_14,,,
+708757,EXCEED,exceed_selfcompletion_questionnaire,sm36_15,,,
+708758,EXCEED,exceed_selfcompletion_questionnaire,sm36_16,,,
+708759,EXCEED,exceed_selfcompletion_questionnaire,sm36_17,,,
+708760,EXCEED,exceed_selfcompletion_questionnaire,sm36_18,,,
+708761,EXCEED,exceed_selfcompletion_questionnaire,sm36_19,,,
+708762,EXCEED,exceed_selfcompletion_questionnaire,sm36_20,,,
+708763,EXCEED,exceed_selfcompletion_questionnaire,sm38,,,
+708764,EXCEED,exceed_selfcompletion_questionnaire,sm40_1,,,
+708765,EXCEED,exceed_selfcompletion_questionnaire,sm40_2,,,
+708766,EXCEED,exceed_selfcompletion_questionnaire,sm40_3,,,
+708767,EXCEED,exceed_selfcompletion_questionnaire,sm40_4,,,
+708768,EXCEED,exceed_selfcompletion_questionnaire,sm40_5,,,
+708769,EXCEED,exceed_selfcompletion_questionnaire,sm40_6,,,
+708770,EXCEED,exceed_selfcompletion_questionnaire,sm40_7,,,
+708771,EXCEED,exceed_selfcompletion_questionnaire,sm41_1,,,
+708772,EXCEED,exceed_selfcompletion_questionnaire,sm41_2,,,
+708773,EXCEED,exceed_selfcompletion_questionnaire,sm41_3,,,
+708774,EXCEED,exceed_selfcompletion_questionnaire,sm41_4,,,
+708775,EXCEED,exceed_selfcompletion_questionnaire,sm41_5,,,
+708776,EXCEED,exceed_selfcompletion_questionnaire,sm41_6,,,
+708777,EXCEED,exceed_selfcompletion_questionnaire,sm41_7,,,
+708778,EXCEED,exceed_selfcompletion_questionnaire,sm41_8,,,
+708779,EXCEED,exceed_selfcompletion_questionnaire,sm41_9,,,
+708780,EXCEED,exceed_selfcompletion_questionnaire,sm41_10,,,
+708781,EXCEED,exceed_selfcompletion_questionnaire,sm41_11,,,
+708782,EXCEED,exceed_selfcompletion_questionnaire,sm41_12,,,
+708783,EXCEED,exceed_selfcompletion_questionnaire,sm41_13,,,
+708784,EXCEED,exceed_selfcompletion_questionnaire,sm41_14,,,
+708785,EXCEED,exceed_selfcompletion_questionnaire,sm41_15,,,
+708786,EXCEED,exceed_selfcompletion_questionnaire,sm41_16,,,
+708787,EXCEED,exceed_selfcompletion_questionnaire,sm41_17,,,
+708788,EXCEED,exceed_selfcompletion_questionnaire,sm41_18,,,
+708789,EXCEED,exceed_selfcompletion_questionnaire,sm41_19,,,
+708790,EXCEED,exceed_selfcompletion_questionnaire,sm41_20,,,
+708791,EXCEED,exceed_selfcompletion_questionnaire,sm42,,,
+708792,EXCEED,exceed_selfcompletion_questionnaire,sm43,,,
+708793,EXCEED,exceed_selfcompletion_questionnaire,sm44,,,
+708794,EXCEED,exceed_selfcompletion_questionnaire,sm46,,,
+708795,EXCEED,exceed_selfcompletion_questionnaire,sm48,,,
+708796,EXCEED,exceed_selfcompletion_questionnaire,sm47,,,
+708797,EXCEED,exceed_selfcompletion_questionnaire,sm50,,,
+708798,EXCEED,exceed_selfcompletion_questionnaire,alc1,,,
+708799,EXCEED,exceed_selfcompletion_questionnaire,alc2,,,
+708800,EXCEED,exceed_selfcompletion_questionnaire,alc9,,,
+708801,EXCEED,exceed_selfcompletion_questionnaire,walc10_1,,,
+708802,EXCEED,exceed_selfcompletion_questionnaire,walc10_2,,,
+708803,EXCEED,exceed_selfcompletion_questionnaire,walc10_3,,,
+708804,EXCEED,exceed_selfcompletion_questionnaire,walc10_4,,,
+708805,EXCEED,exceed_selfcompletion_questionnaire,walc10_5,,,
+708806,EXCEED,exceed_selfcompletion_questionnaire,walc10_6,,,
+708807,EXCEED,exceed_selfcompletion_questionnaire,walc10_7,,,
+708808,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_1,,,
+708809,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_2,,,
+708810,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_3,,,
+708811,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_4,,,
+708812,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_5,,,
+708813,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_6,,,
+708814,EXCEED,exceed_selfcompletion_questionnaire,fwalc10_7,,,
+708815,EXCEED,exceed_selfcompletion_questionnaire,salc10_1,,,
+708816,EXCEED,exceed_selfcompletion_questionnaire,salc10_2,,,
+708817,EXCEED,exceed_selfcompletion_questionnaire,salc10_3,,,
+708818,EXCEED,exceed_selfcompletion_questionnaire,salc10_4,,,
+708819,EXCEED,exceed_selfcompletion_questionnaire,salc10_5,,,
+708820,EXCEED,exceed_selfcompletion_questionnaire,salc10_6,,,
+708821,EXCEED,exceed_selfcompletion_questionnaire,salc10_7,,,
+708822,EXCEED,exceed_selfcompletion_questionnaire,balc10_1,,,
+708823,EXCEED,exceed_selfcompletion_questionnaire,balc10_2,,,
+708824,EXCEED,exceed_selfcompletion_questionnaire,balc10_3,,,
+708825,EXCEED,exceed_selfcompletion_questionnaire,balc10_4,,,
+708826,EXCEED,exceed_selfcompletion_questionnaire,balc10_5,,,
+708827,EXCEED,exceed_selfcompletion_questionnaire,balc10_6,,,
+708828,EXCEED,exceed_selfcompletion_questionnaire,balc10_7,,,
+708829,EXCEED,exceed_selfcompletion_questionnaire,oalc10_1,,,
+708830,EXCEED,exceed_selfcompletion_questionnaire,oalc10_2,,,
+708831,EXCEED,exceed_selfcompletion_questionnaire,oalc10_3,,,
+708832,EXCEED,exceed_selfcompletion_questionnaire,oalc10_4,,,
+708833,EXCEED,exceed_selfcompletion_questionnaire,oalc10_5,,,
+708834,EXCEED,exceed_selfcompletion_questionnaire,oalc10_6,,,
+708835,EXCEED,exceed_selfcompletion_questionnaire,oalc10_7,,,
+708836,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_1,,,
+708837,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_2,,,
+708838,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_3,,,
+708839,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_4,,,
+708840,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_5,,,
+708841,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_6,,,
+708842,EXCEED,exceed_selfcompletion_questionnaire,o2alc10_7,,,
+708843,EXCEED,exceed_selfcompletion_questionnaire,alc11,,,
+708844,EXCEED,exceed_selfcompletion_questionnaire,walc11_1,,,
+708845,EXCEED,exceed_selfcompletion_questionnaire,walc11_2,,,
+708846,EXCEED,exceed_selfcompletion_questionnaire,walc11_3,,,
+708847,EXCEED,exceed_selfcompletion_questionnaire,walc11_4,,,
+708848,EXCEED,exceed_selfcompletion_questionnaire,walc11_5,,,
+708849,EXCEED,exceed_selfcompletion_questionnaire,walc11_6,,,
+708850,EXCEED,exceed_selfcompletion_questionnaire,walc11_7,,,
+708851,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_1,,,
+708852,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_2,,,
+708853,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_3,,,
+708854,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_4,,,
+708855,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_5,,,
+708856,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_6,,,
+708857,EXCEED,exceed_selfcompletion_questionnaire,fwalc11_7,,,
+708858,EXCEED,exceed_selfcompletion_questionnaire,salc11_1,,,
+708859,EXCEED,exceed_selfcompletion_questionnaire,salc11_2,,,
+708860,EXCEED,exceed_selfcompletion_questionnaire,salc11_3,,,
+708861,EXCEED,exceed_selfcompletion_questionnaire,salc11_4,,,
+708862,EXCEED,exceed_selfcompletion_questionnaire,salc11_5,,,
+708863,EXCEED,exceed_selfcompletion_questionnaire,salc11_6,,,
+708864,EXCEED,exceed_selfcompletion_questionnaire,salc11_7,,,
+708865,EXCEED,exceed_selfcompletion_questionnaire,balc11_1,,,
+708866,EXCEED,exceed_selfcompletion_questionnaire,balc11_2,,,
+708867,EXCEED,exceed_selfcompletion_questionnaire,balc11_3,,,
+708868,EXCEED,exceed_selfcompletion_questionnaire,balc11_4,,,
+708869,EXCEED,exceed_selfcompletion_questionnaire,balc11_5,,,
+708870,EXCEED,exceed_selfcompletion_questionnaire,balc11_6,,,
+708871,EXCEED,exceed_selfcompletion_questionnaire,balc11_7,,,
+708872,EXCEED,exceed_selfcompletion_questionnaire,oalc11_1,,,
+708873,EXCEED,exceed_selfcompletion_questionnaire,oalc11_2,,,
+708874,EXCEED,exceed_selfcompletion_questionnaire,oalc11_3,,,
+708875,EXCEED,exceed_selfcompletion_questionnaire,oalc11_4,,,
+708876,EXCEED,exceed_selfcompletion_questionnaire,oalc11_5,,,
+708877,EXCEED,exceed_selfcompletion_questionnaire,oalc11_6,,,
+708878,EXCEED,exceed_selfcompletion_questionnaire,oalc11_7,,,
+708879,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_1,,,
+708880,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_2,,,
+708881,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_3,,,
+708882,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_4,,,
+708883,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_5,,,
+708884,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_6,,,
+708885,EXCEED,exceed_selfcompletion_questionnaire,o2alc11_7,,,
+708886,EXCEED,exceed_selfcompletion_questionnaire,alc13,,,
+708887,EXCEED,exceed_selfcompletion_questionnaire,alc14,,,
+708888,EXCEED,exceed_selfcompletion_questionnaire,alc15,,,
+708889,EXCEED,exceed_selfcompletion_questionnaire,alc16,,,
+708890,EXCEED,exceed_selfcompletion_questionnaire,ac17,,,
+708891,EXCEED,exceed_selfcompletion_questionnaire,mea1,,,
+708892,EXCEED,exceed_selfcompletion_questionnaire,mea2,,,
+708893,EXCEED,exceed_selfcompletion_questionnaire,mea3,,,
+708894,EXCEED,exceed_selfcompletion_questionnaire,gpa,,,
+708895,EXCEED,exceed_selfcompletion_questionnaire,gp1,,,
+708896,EXCEED,exceed_selfcompletion_questionnaire,gp1a,,,
+708897,EXCEED,exceed_selfcompletion_questionnaire,gp1b,,,
+708898,EXCEED,exceed_selfcompletion_questionnaire,complete,,,
+708899,EXCEED,exceed_selfcompletion_questionnaire,avail_from_dt,,,

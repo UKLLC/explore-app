@@ -1,0 +1,432 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+759599,MCS,mcs1_parent_derived,study_id_e,,,
+759600,MCS,mcs1_parent_derived,pnum,Person Number for Main or (Proxy)Partner respondent,-1.0,Not applicable
+759601,MCS,mcs1_parent_derived,aelig00,Eligibility for Interview,-1.0,Not applicable
+759602,MCS,mcs1_parent_derived,aelig00,Eligibility for Interview,1.0,Main Interview
+759603,MCS,mcs1_parent_derived,aelig00,Eligibility for Interview,2.0,Partner Interview
+759604,MCS,mcs1_parent_derived,aelig00,Eligibility for Interview,3.0,Partner Proxy Interview
+759605,MCS,mcs1_parent_derived,aelig00,Eligibility for Interview,4.0,Not eligible for interview
+759606,MCS,mcs1_parent_derived,aresp00,Response to Interview,-1.0,Not applicable
+759607,MCS,mcs1_parent_derived,aresp00,Response to Interview,1.0,Main Interview
+759608,MCS,mcs1_parent_derived,aresp00,Response to Interview,2.0,Partner Interview
+759609,MCS,mcs1_parent_derived,aresp00,Response to Interview,3.0,Partner Proxy Interview
+759610,MCS,mcs1_parent_derived,aresp00,Response to Interview,4.0,No interview
+759611,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,1.0,Natural mother: interviewed
+759612,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,2.0,Natural father: interviewed
+759613,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,3.0,Adoptive mother: interviewed
+759614,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,4.0,Adoptive father: interviewed
+759615,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,5.0,Foster mother: interviewed
+759616,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,6.0,Foster father: interviewed
+759617,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,7.0,Step mother/partner of father: interviewed
+759618,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,8.0,Step father/partner of mother: interviewed
+759619,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,9.0,Grandmother: interviewed
+759620,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,10.0,Grandfather: interviewed
+759621,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,11.0,Natural mother: by proxy
+759622,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,12.0,Natural father: by proxy
+759623,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,13.0,Step mother: by proxy
+759624,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,14.0,Step father: by proxy
+759625,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,15.0,Natural mother: not interviewed
+759626,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,16.0,Natural father: not interviewed
+759627,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,17.0,Adoptive mother: not interviewed
+759628,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,18.0,Adoptive father: not interviewed
+759629,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,19.0,Foster mother: not interviewed
+759630,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,20.0,Foster father: not interviewed
+759631,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,21.0,Step mother: not interviewed
+759632,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,22.0,Step father: not interviewed
+759633,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,23.0,"Natural mother: by proxy, not interviewed"
+759634,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,24.0,"Natural father: by proxy, not interviewed"
+759635,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,25.0,Other female non-relative: interviewed
+759636,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,26.0,Other male non-relative: interviewed
+759637,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,27.0,Other female non-relative: not interviewed
+759638,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,28.0,Other male non-relative: not interviewed
+759639,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,29.0,"Step mother: by proxy, not interviewed"
+759640,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,30.0,"Step father: by proxy, not interviewed"
+759641,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,31.0,Other female relative: interviewed
+759642,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,32.0,Other male relative: interviewed
+759643,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,33.0,"Female, unknown relationship: interviewed"
+759644,MCS,mcs1_parent_derived,addres00,respondent identity and interview status,34.0,"Male, unknown relationship: interviewed"
+759645,MCS,mcs1_parent_derived,addagi00,Respondent Age at Interview,-9.0,Refusal
+759646,MCS,mcs1_parent_derived,addagi00,Respondent Age at Interview,-2.0,Not known
+759647,MCS,mcs1_parent_derived,addagi00,Respondent Age at Interview,-1.0,Not applicable
+759648,MCS,mcs1_parent_derived,addgai00,Respondent Age at Interview (grouped),-9.0,Refusal
+759649,MCS,mcs1_parent_derived,addgai00,Respondent Age at Interview (grouped),-2.0,Not known
+759650,MCS,mcs1_parent_derived,addgai00,Respondent Age at Interview (grouped),-1.0,Not applicable
+759651,MCS,mcs1_parent_derived,addagb00,Respondent age at birth of CM,-2.0,Not known
+759652,MCS,mcs1_parent_derived,addagb00,Respondent age at birth of CM,-1.0,Not applicable
+759653,MCS,mcs1_parent_derived,addgab00,Respondent age at birth of CM (grouped),-2.0,Not known
+759654,MCS,mcs1_parent_derived,addgab00,Respondent age at birth of CM (grouped),-1.0,Not applicable
+759655,MCS,mcs1_parent_derived,addgab00,Respondent age at birth of CM (grouped),1.0,12 to 19
+759656,MCS,mcs1_parent_derived,addgab00,Respondent age at birth of CM (grouped),2.0,20 to 29
+759657,MCS,mcs1_parent_derived,addgab00,Respondent age at birth of CM (grouped),3.0,30 to 39
+759658,MCS,mcs1_parent_derived,addgab00,Respondent age at birth of CM (grouped),4.0,40 plus
+759659,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),-9.0,Refusal
+759660,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),-8.0,Don't Know
+759661,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),-1.0,Not applicable
+759662,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),1.0,White - British
+759663,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),2.0,White - Irish
+759664,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),3.0,Any other White background
+759665,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),4.0,Mixed - White and Black Caribbean
+759666,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),5.0,Mixed - White and Black African
+759667,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),6.0,Mixed - White and Asian
+759668,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),7.0,Any other mixed background
+759669,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),8.0,Asian/Asian British - Indian
+759670,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),9.0,Asian/Asian British - Pakistani
+759671,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),10.0,Asian/Asian British - Bangladeshi
+759672,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),11.0,Any other Asian background
+759673,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),12.0,Black/Black British - Caribbean
+759674,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),13.0,Black/Black British - African
+759675,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),14.0,Any other Black background
+759676,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),15.0,Chinese
+759677,MCS,mcs1_parent_derived,addeea00,Respondent's Ethnic Group inc back-coding (England),95.0,Any other background
+759678,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],3.0,White - Irish
+759679,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],4.0,Any other White background
+759680,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],5.0,Mixed - White and Black Caribbean
+759681,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],6.0,Mixed - White and Black African
+759682,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],7.0,Mixed - White and Asian
+759683,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],8.0,Any other mixed background
+759684,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],9.0,Asian/Asian British - Indian
+759685,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],10.0,Asian/Asian British - Pakistani
+759686,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],11.0,Asian/Asian British - Bangladeshi
+759687,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],12.0,Any other Asian background
+759688,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],13.0,Black/Black British - Caribbean
+759689,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],14.0,Black/Black British - African
+759690,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],15.0,Any other Black background
+759691,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],16.0,Chinese
+759692,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],95.0,Any other background
+759693,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+759694,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],-9.0,Refusal
+759695,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],-8.0,Don't Know
+759696,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],-1.0,Not applicable
+759697,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],1.0,White - Welsh
+759698,MCS,mcs1_parent_derived,addewa00_r30,Respondent's Ethnic Group inc back-coding (Wales)    [counts less than 30 recoded],2.0,White - other British
+759699,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],-9.0,Refusal
+759700,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],-8.0,Don't Know
+759701,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],-1.0,Not applicable
+759702,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],1.0,White - Scottish
+759703,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],2.0,White - other British
+759704,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],3.0,White - Irish
+759705,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],4.0,Any other White background
+759706,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],5.0,Any mixed background
+759707,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],6.0,Asian/Asian Scottish - Indian
+759708,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],7.0,Asian/Asian Scottish - Pakistani
+759709,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],8.0,Asian/Asian Scottish - Bangladeshi
+759710,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],9.0,Asian/Asian Scottish - Chinese
+759711,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],10.0,Any other Asian background
+759712,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],11.0,Black/Black Scottish - Caribbean
+759713,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],12.0,Black/Black Scottish - African
+759714,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],13.0,Any other Black background
+759715,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],95.0,Any other background
+759716,MCS,mcs1_parent_derived,addesa00_r30,Respondent's Ethnic Group inc back-coding (Scotland) [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+759717,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),-9.0,Refusal
+759718,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),-8.0,Don't Know
+759719,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),-1.0,Not applicable
+759720,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),1.0,White
+759721,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),2.0,Chinese
+759722,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),3.0,Irish Traveller
+759723,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),4.0,Indian
+759724,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),5.0,Pakistani
+759725,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),6.0,Bangladeshi
+759726,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),7.0,Black Caribbean
+759727,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),8.0,Black African
+759728,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),9.0,Black Other
+759729,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),10.0,Mixed ethnic group
+759730,MCS,mcs1_parent_derived,addena00,Respondent's Ethnic Group inc back-coding (N Ireland),95.0,Any other background
+759731,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,-9.0,Refusal
+759732,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,-8.0,Don't Know
+759733,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,-1.0,Not applicable
+759734,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,1.0,White
+759735,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,2.0,Mixed
+759736,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,3.0,Indian
+759737,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,4.0,Pakistani and Bangladeshi
+759738,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,5.0,Black or Black British
+759739,MCS,mcs1_parent_derived,add06e00,Respondent's Ethnic Group - 6 category Census,6.0,"Other Ethnic group (inc Chinese,Other)"
+759740,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,-9.0,Refusal
+759741,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,-8.0,Don't Know
+759742,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,-1.0,Not applicable
+759743,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,1.0,White
+759744,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,2.0,Mixed
+759745,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,3.0,Indian
+759746,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,4.0,Pakistani
+759747,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,5.0,Bangladeshi
+759748,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,6.0,Other Asian
+759749,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,7.0,Black Caribbean
+759750,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,8.0,Black African
+759751,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,9.0,Other Black
+759752,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,10.0,Chinese
+759753,MCS,mcs1_parent_derived,add11e00,Respondent's Ethnic Group - 11 category Census,11.0,Other Ethnic group
+759754,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,-9.0,Refusal
+759755,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,-8.0,Don't Know
+759756,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,-1.0,Not applicable
+759757,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,1.0,White
+759758,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,2.0,Mixed
+759759,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,3.0,Indian
+759760,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,4.0,Pakistani
+759761,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,5.0,Bangladeshi
+759762,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,6.0,Black Caribbean
+759763,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,7.0,Black African
+759764,MCS,mcs1_parent_derived,add08e00,Respondent's Ethnic Group - 8 category classification,8.0,"Other Ethnic group (inc Chinese,Other)"
+759765,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,5.0,NVQ level 5
+759766,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,95.0,Overseas qual only
+759767,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,96.0,None of these
+759768,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,-1.0,Not applicable
+759769,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,1.0,NVQ level 1
+759770,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,2.0,NVQ level 2
+759771,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,3.0,NVQ level 3
+759772,MCS,mcs1_parent_derived,addnvq00,Respondent NVQ highest level,4.0,NVQ level 4
+759773,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],-9.0,Refusal
+759774,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],-8.0,Dont Know
+759775,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],-1.0,Not applicable
+759776,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],1.0,No religion
+759777,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],2.0,"Christian, no denomination"
+759778,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],3.0,Roman Catholic
+759779,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],4.0,Church of England/Ireland/Anglican
+759780,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],5.0,United Reformed Church ( URC)/Congregat
+759781,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],6.0,Baptist
+759782,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],7.0,Methodist
+759783,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],8.0,Presbyterian/Church of Scotland
+759784,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],9.0,Free Presbyterian
+759785,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],11.0,Hindu
+759786,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],12.0,Jew
+759787,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],13.0,Muslim/Islam
+759788,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],14.0,Sikh
+759789,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],15.0,Buddhist
+759790,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],16.0,Brethren
+759791,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],17.0,Protestant - not specified
+759792,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],51.0,Other Christian Churches - Independent
+759793,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],52.0,Other Christian Churches - African/West
+759794,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],53.0,Pentecostal/Holiness
+759795,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],54.0,Salvation Army
+759796,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],56.0,Orthodox
+759797,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],57.0,Church of Wales
+759798,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],58.0,Mormon
+759799,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],59.0,Jehovah s Witness
+759800,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],60.0,Spiritualist
+759801,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],84.0,Other Christian (not codeable)
+759802,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],85.0,Other non-Christian (not codeable)
+759803,MCS,mcs1_parent_derived,addrrg00_r30,Respondent: Religion - combined GB & NI  [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+759804,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,-1.0,Not applicable
+759805,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,1.0,Employed
+759806,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,2.0,Self employed
+759807,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,3.0,Looking for work
+759808,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,4.0,Poor health
+759809,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,5.0,New Deal
+759810,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,6.0,Student
+759811,MCS,mcs1_parent_derived,addact00,Respondents Economic Activity Status,7.0,Non-working for other/unknown reason
+759812,MCS,mcs1_parent_derived,addwrk00,DV Whether main respondent is in work or not,-9.0,Refusal
+759813,MCS,mcs1_parent_derived,addwrk00,DV Whether main respondent is in work or not,-8.0,Don't know
+759814,MCS,mcs1_parent_derived,addwrk00,DV Whether main respondent is in work or not,-1.0,Not applicable
+759815,MCS,mcs1_parent_derived,addwrk00,DV Whether main respondent is in work or not,1.0,Respondent is in work/on leave
+759816,MCS,mcs1_parent_derived,addwrk00,DV Whether main respondent is in work or not,2.0,Respondent is not in work/on leave
+759817,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,-9.0,Refusal
+759818,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,-8.0,Don't know
+759819,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,-1.0,Not applicable
+759820,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,1.0,Large emp
+759821,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,2.0,Hi manag
+759822,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,3.1,Hi prof trad
+759823,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,3.2,Hi prof new
+759824,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,3.3,Hi prof trad s-emp
+759825,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,3.4,Hi prof new s-emp
+759826,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,4.1,Lo prof trad
+759827,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,4.2,Lo prof new
+759828,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,4.3,Lo prof trad s-emp
+759829,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,4.4,Lo prof new s-emp
+759830,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,5.0,Lower managers
+759831,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,6.0,Hi supervisory
+759832,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,7.1,Intermed clerical
+759833,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,7.2,Intermed service
+759834,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,7.3,Intermed techncl
+759835,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,7.4,Intermed engineerng
+759836,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,8.1,Small emp indust'
+759837,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,8.2,Sm emp agric
+759838,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,9.1,S-emp non profl
+759839,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,9.2,S-emp agric
+759840,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,10.0,Lower supervisors
+759841,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,11.1,Lo tech craft
+759842,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,11.2,Lo tech operative
+759843,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,12.1,Semi-rou sales
+759844,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,12.2,Semi-rou service
+759845,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,12.3,Semi-rou techncl
+759846,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,12.4,Semi-rou operative
+759847,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,12.5,Semi-rou gric
+759848,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,12.6,Semi-rou clerical
+759849,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,12.7,Semi-rou childcare
+759850,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,13.1,Routine sales
+759851,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,13.2,Routine productn
+759852,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,13.3,Routine tech
+759853,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,13.4,Routine operative
+759854,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,13.5,Routine agric
+759855,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,14.1,Never worked
+759856,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,14.2,L-tunemp
+759857,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,15.0,F-t students
+759858,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,16.0,"Not stated, inad desc"
+759859,MCS,mcs1_parent_derived,add17s00,Respondent NS-SEC full version,17.0,Unclassif other
+759860,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,-1.0,Not applicable
+759861,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,1.0,Large emp
+759862,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,2.0,Hi manag
+759863,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,3.0,Higher prof
+759864,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,4.0,Lo prof/hi tech
+759865,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,5.0,Lower managers
+759866,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,6.0,Hi supervisory
+759867,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,7.0,Intermediate
+759868,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,8.0,Small employers
+759869,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,9.0,Self-emp non profl
+759870,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,10.0,Lower supervisors
+759871,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,11.0,Lower technical
+759872,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,12.0,Semi-routine
+759873,MCS,mcs1_parent_derived,add13s00,Respondent NS-SEC major categories,13.0,Routine
+759874,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,-1.0,Not applicable
+759875,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,1.0,Hi manag/prof
+759876,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,2.0,Lo manag/prof
+759877,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,3.0,Intermediate
+759878,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,4.0,Small emp and s-emp
+759879,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,5.0,Low sup and tech
+759880,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,6.0,Semi routine
+759881,MCS,mcs1_parent_derived,add07s00,Respondent NS-SEC 7 classes,7.0,Routine
+759882,MCS,mcs1_parent_derived,add05s00,Respondent NS-SEC 5 classes,-1.0,Not applicable
+759883,MCS,mcs1_parent_derived,add05s00,Respondent NS-SEC 5 classes,1.0,Manag and profl
+759884,MCS,mcs1_parent_derived,add05s00,Respondent NS-SEC 5 classes,2.0,Intermediate
+759885,MCS,mcs1_parent_derived,add05s00,Respondent NS-SEC 5 classes,3.0,Sm emp and s-emp
+759886,MCS,mcs1_parent_derived,add05s00,Respondent NS-SEC 5 classes,4.0,Lo sup and tech
+759887,MCS,mcs1_parent_derived,add05s00,Respondent NS-SEC 5 classes,5.0,Semi-rou and routine
+759888,MCS,mcs1_parent_derived,adaoti00,Main Interview outcome code,-9.0,Refusal
+759889,MCS,mcs1_parent_derived,adaoti00,Main Interview outcome code,-8.0,Not known
+759890,MCS,mcs1_parent_derived,adaoti00,Main Interview outcome code,-1.0,Not applicable
+759891,MCS,mcs1_parent_derived,adaeng00,ADMIN Main interview in english or other language,-9.0,Refusal
+759892,MCS,mcs1_parent_derived,adaeng00,ADMIN Main interview in english or other language,-8.0,Don't Know
+759893,MCS,mcs1_parent_derived,adaeng00,ADMIN Main interview in english or other language,-1.0,Not applicable
+759894,MCS,mcs1_parent_derived,adaeng00,ADMIN Main interview in english or other language,1.0,English only
+759895,MCS,mcs1_parent_derived,adaeng00,ADMIN Main interview in english or other language,2.0,English and another language
+759896,MCS,mcs1_parent_derived,adaeng00,ADMIN Main interview in english or other language,3.0,Another language
+759897,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,-9.0,Refusal
+759898,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,-8.0,Don't Know
+759899,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,-1.0,Not applicable
+759900,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,1.0,Welsh
+759901,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,2.0,Gaelic
+759902,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,3.0,Urdu
+759903,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,4.0,Punjabi
+759904,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,5.0,Gujarati
+759905,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,6.0,Hindi
+759906,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,7.0,Bengali
+759907,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,8.0,Sylheti
+759908,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,9.0,Cantonese
+759909,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,10.0,Somali
+759910,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,11.0,Tamil
+759911,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,12.0,Turkish
+759912,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,13.0,Kurdish
+759913,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,14.0,Arabic
+759914,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,51.0,Other/Other European language
+759915,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,52.0,"Other/Other African Language (e.g. Ibo,"
+759916,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,53.0,"Other/Other Asian Language (e.g. Hinko,"
+759917,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,85.0,"Other answer (not codeable 1-14, 51-53)"
+759918,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,86.0,Irrelevant response
+759919,MCS,mcs1_parent_derived,adalan00,ADMIN Language of main interview,95.0,Other
+759920,MCS,mcs1_parent_derived,adatra00,Who translated interview?,-9.0,Refusal
+759921,MCS,mcs1_parent_derived,adatra00,Who translated interview?,-8.0,Don't Know
+759922,MCS,mcs1_parent_derived,adatra00,Who translated interview?,-1.0,Not applicable
+759923,MCS,mcs1_parent_derived,adatra00,Who translated interview?,1.0,Respondent s husband/ wife/ partner
+759924,MCS,mcs1_parent_derived,adatra00,Who translated interview?,2.0,Female adult household member
+759925,MCS,mcs1_parent_derived,adatra00,Who translated interview?,3.0,Male adult household member
+759926,MCS,mcs1_parent_derived,adatra00,Who translated interview?,4.0,Female child in household
+759927,MCS,mcs1_parent_derived,adatra00,Who translated interview?,5.0,Male child in household
+759928,MCS,mcs1_parent_derived,adatra00,Who translated interview?,6.0,Female non-household member
+759929,MCS,mcs1_parent_derived,adatra00,Who translated interview?,7.0,Male non-household member
+759930,MCS,mcs1_parent_derived,adatra00,Who translated interview?,8.0,Interviewer
+759931,MCS,mcs1_parent_derived,adwgtk00,Weight of respondent in Kilos At interview,-8.0,Dont Know / refused
+759932,MCS,mcs1_parent_derived,adwgtk00,Weight of respondent in Kilos At interview,-2.0,No measurement Pregnant
+759933,MCS,mcs1_parent_derived,adwgtk00,Weight of respondent in Kilos At interview,-1.0,Not applicable
+759934,MCS,mcs1_parent_derived,adhgtm00,Height of respondent in Metres,-9.0,Refusal
+759935,MCS,mcs1_parent_derived,adhgtm00,Height of respondent in Metres,-8.0,Dont Know / refused
+759936,MCS,mcs1_parent_derived,adhgtm00,Height of respondent in Metres,-1.0,Not applicable
+759937,MCS,mcs1_parent_derived,addbmi00,BMI of respondent at interview,-8.0,Dont Know / refused
+759938,MCS,mcs1_parent_derived,addbmi00,BMI of respondent at interview,-2.0,No measurement Pregnant
+759939,MCS,mcs1_parent_derived,addbmi00,BMI of respondent at interview,-1.0,Not applicable
+759940,MCS,mcs1_parent_derived,adwgbk00,Weight of respondent in Kilos before CM born,-9.0,Refusal
+759941,MCS,mcs1_parent_derived,adwgbk00,Weight of respondent in Kilos before CM born,-8.0,Dont Know / refused
+759942,MCS,mcs1_parent_derived,adwgbk00,Weight of respondent in Kilos before CM born,-1.0,Not applicable
+759943,MCS,mcs1_parent_derived,adbmipre,BMI of respondent before CM born,-9.0,Refusal
+759944,MCS,mcs1_parent_derived,adbmipre,BMI of respondent before CM born,-8.0,Dont Know / refused
+759945,MCS,mcs1_parent_derived,adbmipre,BMI of respondent before CM born,-1.0,Not applicable
+759946,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),1.0,Large emp
+759947,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),2.0,Hi manag
+759948,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),3.1,Hi prof trad
+759949,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),3.2,Hi prof new
+759950,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),3.3,Hi prof trad s-emp
+759951,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),3.4,Hi prof new s-emp
+759952,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),4.1,Lo prof trad
+759953,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),4.2,Lo prof new
+759954,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),4.3,Lo prof trad s-emp
+759955,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),4.4,Lo prof new s-emp
+759956,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),5.0,Lower managers
+759957,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),6.0,Hi supervisory
+759958,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),7.1,Intermed clerical
+759959,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),7.2,Intermed service
+759960,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),7.3,Intermed techncl
+759961,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),7.4,Intermed engineerng
+759962,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),8.1,Small emp indust'
+759963,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),8.2,Sm emp agric
+759964,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),9.1,S-emp non profl
+759965,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),9.2,. 'S-emp agric'
+759966,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),10.0,Lower supervisors
+759967,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),11.1,Lo tech craft
+759968,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),11.2,Lo tech operative
+759969,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),12.1,Semi-rou sales
+759970,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),12.2,Semi-rou service
+759971,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),12.3,Semi-rou techncl
+759972,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),12.4,Semi-rou operative
+759973,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),12.5,Semi-rou gric
+759974,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),12.6,Semi-rou clerical
+759975,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),12.7,Semi-rou childcare
+759976,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),13.1,Routine sales
+759977,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),13.2,Routine productn
+759978,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),13.3,Routine tech
+759979,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),13.4,Routine operative
+759980,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),13.5,Routine agric
+759981,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),14.1,Never worked
+759982,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),14.2,L-tunemp
+759983,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),15.0,F-t students
+759984,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),16.0,"Not stated, inad desc"
+759985,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),17.0,Unclassif other
+759986,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),-8.0,Don't know
+759987,MCS,mcs1_parent_derived,add17c00,DV NS-SEC full version (last known job),-1.0,Not applicable
+759988,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),-1.0,Not applicable
+759989,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),1.0,Large emp
+759990,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),2.0,Hi manag
+759991,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),3.0,Higher prof
+759992,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),4.0,Lo prof/hi tech
+759993,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),5.0,Lower managers
+759994,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),6.0,Hi supervisory
+759995,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),7.0,Intermediate
+759996,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),8.0,Small employers
+759997,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),9.0,Self-emp non profl
+759998,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),10.0,Lower supervisors
+759999,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),11.0,Lower technical
+760000,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),12.0,Semi-routine
+760001,MCS,mcs1_parent_derived,add13c00,DV NS-SEC major categories (last known job),13.0,Routine
+760002,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),-1.0,Not applicable
+760003,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),1.0,Hi manag/prof
+760004,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),2.0,Lo manag/prof
+760005,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),3.0,Intermediate
+760006,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),4.0,Small emp and s-emp
+760007,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),5.0,Low sup and tech
+760008,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),6.0,Semi routine
+760009,MCS,mcs1_parent_derived,add07c00,DV NS-SEC 7 classes (last known job),7.0,Routine
+760010,MCS,mcs1_parent_derived,add05c00,DV NS-SEC 5 classes (last known job),-1.0,Not applicable
+760011,MCS,mcs1_parent_derived,add05c00,DV NS-SEC 5 classes (last known job),1.0,Manag and profl
+760012,MCS,mcs1_parent_derived,add05c00,DV NS-SEC 5 classes (last known job),2.0,Intermediate
+760013,MCS,mcs1_parent_derived,add05c00,DV NS-SEC 5 classes (last known job),3.0,Sm emp and s-emp
+760014,MCS,mcs1_parent_derived,add05c00,DV NS-SEC 5 classes (last known job),4.0,Lo sup and tech
+760015,MCS,mcs1_parent_derived,add05c00,DV NS-SEC 5 classes (last known job),5.0,Semi-rou and routine
+760016,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,-9.0,Refusal
+760017,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,-8.0,Don't know
+760018,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,-1.0,Not applicable
+760019,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,1.0,Christian
+760020,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,2.0,Muslim
+760021,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,3.0,Hindu
+760022,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,4.0,Sikh
+760023,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,5.0,Jewish
+760024,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,6.0,Buddhist
+760025,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,7.0,Other
+760026,MCS,mcs1_parent_derived,addrlg00,Respondent religion - 7 category,8.0,None
+760027,MCS,mcs1_parent_derived,adacaq00,NVQ equivalent of highest Academic qualification,-1.0,Not applicable
+760028,MCS,mcs1_parent_derived,avail_from_dt,,,
+760029,MCS,mcs1_parent_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

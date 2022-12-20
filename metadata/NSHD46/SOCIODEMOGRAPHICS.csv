@@ -1,0 +1,83 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1194327,NSHD46,SOCIODEMOGRAPHICS,study_id_e,,,
+1194328,NSHD46,SOCIODEMOGRAPHICS,sex,Sex - taken from 5;362 list,1.0,Male [Supercedes 'S'] 2815 (updated 11.10.96 by WH)
+1194329,NSHD46,SOCIODEMOGRAPHICS,sex,Sex - taken from 5;362 list,2.0,Female 2547
+1194330,NSHD46,SOCIODEMOGRAPHICS,agepo14x,Age in months at 2014 Postal Questionnaire,-7.0,No questionnaire
+1194331,NSHD46,SOCIODEMOGRAPHICS,inf,Inflation factor to adjust for stratified sample updated 11/10/96,1.0,2992 non-manual and agricultural [Inflation factor to adjust for stratified sample] Updated 11.10.96
+1194332,NSHD46,SOCIODEMOGRAPHICS,inf,Inflation factor to adjust for stratified sample updated 11/10/96,4.0,2370 manual excluding agricultural
+1194333,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),0.0,None attempted
+1194334,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),1.0,"Vocational course, proficiency only"
+1194335,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),10.0,No data
+1194336,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),2.0,Sub GCE or sub Burnham C
+1194337,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),3.0,GCE 'O' level or Burnham C
+1194338,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),4.0,GCE 'A' Level or Burnham B
+1194339,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),5.0,Burnham A2
+1194340,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),6.0,1st Degree or graduate equivalent
+1194341,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),7.0,"Higher degree, Masters"
+1194342,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),8.0,"Higher degree, doctorate"
+1194343,NSHD46,SOCIODEMOGRAPHICS,lhqr,Highest educational attainment (up to age 26 years),9.0,Unknown
+1194344,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,-7.0,No questionnaire
+1194345,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,-8.0,Not applicable
+1194346,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,-9.0,Unknown
+1194347,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,1.0,Own outright
+1194348,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,2.0,Being bought with a mortgage or loan
+1194349,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,3.0,Rent it from the council
+1194350,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,4.0,Rent it from a relative
+1194351,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,5.0,Rent it from a private landlord
+1194352,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,6.0,Rent it from a  housing association
+1194353,NSHD46,SOCIODEMOGRAPHICS,own14xrec,Does your household own or rent your accommodation? 2014,7.0,"Other, (please specify)"
+1194354,NSHD46,SOCIODEMOGRAPHICS,chsc,Childhood Social Class,,
+1194355,NSHD46,SOCIODEMOGRAPHICS,sc1553,Overall Social Class (SC) sm 15-53,1.0,I professional etc
+1194356,NSHD46,SOCIODEMOGRAPHICS,sc1553,Overall Social Class (SC) sm 15-53,2.0,II  intermediate
+1194357,NSHD46,SOCIODEMOGRAPHICS,sc1553,Overall Social Class (SC) sm 15-53,3.0,IIINM  skilled(Non-Manual)
+1194358,NSHD46,SOCIODEMOGRAPHICS,sc1553,Overall Social Class (SC) sm 15-53,4.0,IIIM skilled(Manual)
+1194359,NSHD46,SOCIODEMOGRAPHICS,sc1553,Overall Social Class (SC) sm 15-53,5.0,IV  partly skilled
+1194360,NSHD46,SOCIODEMOGRAPHICS,sc1553,Overall Social Class (SC) sm 15-53,6.0,V unskilled
+1194361,NSHD46,SOCIODEMOGRAPHICS,sc1553,Overall Social Class (SC) sm 15-53,999.0,Missing
+1194362,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,1.0,I professional etc
+1194363,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,2.0,II  intermediate
+1194364,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,3.0,IIINM  skilled(Non-Manual)
+1194365,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,4.0,IIIM skilled(Manual)
+1194366,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,5.0,IV  partly skilled
+1194367,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,6.0,V unskilled
+1194368,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,60.0,armed forces
+1194369,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,66.0,unknown if has/had job
+1194370,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,77.0,Not interviewed
+1194371,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,88.0,n/a - no job
+1194372,NSHD46,SOCIODEMOGRAPHICS,scr99u,SC of curr/most Rec job in 1999,99.0,Missing
+1194373,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,-6.0,Question not asked
+1194374,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,-7.0,No questionnaire
+1194375,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,-9.0,Unknown
+1194376,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,1.0,"A - Less than Ã‚Â£6,000 (annually)/<Ã‚Â£500 (monthly)/< Ã‚Â£116 (weekly)"
+1194377,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,10.0,"J - Ã‚Â£27,000 - Ã‚Â£29,999 (annually)/Ã‚Â£2,250 - Ã‚Â£2,499 (monthly)/Ã‚Â£520 - Ã‚Â£576 (weekly)"
+1194378,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,11.0,"K - Ã‚Â£30,000 - Ã‚Â£39,999 (annually)/Ã‚Â£2,500 - Ã‚Â£3,333 (monthly)/Ã‚Â£577 - Ã‚Â£769 (weekly)"
+1194379,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,12.0,"L - Ã‚Â£40,000 - Ã‚Â£79,000 (annually)/Ã‚Â£3,334 - Ã‚Â£6,666 (monthly)/Ã‚Â£770 - Ã‚Â£1,538 (weekly)"
+1194380,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,13.0,"M - Ã‚Â£80,000 or more (annually)/Ã‚Â£6,667 or more (monthly)/Ã‚Â£1539 or more (weekly)"
+1194381,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,2.0,"B - Ã‚Â£6,000 - Ã‚Â£7,999 (annually)/Ã‚Â£500 - Ã‚Â£666 (monthly)/Ã‚Â£116 - Ã‚Â£153 (weekly)"
+1194382,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,3.0,"C - Ã‚Â£8,000 - Ã‚Â£9,999 (annually)/Ã‚Â£667 - Ã‚Â£833 (monthly)/Ã‚Â£154 - Ã‚Â£192 (weekly)"
+1194383,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,4.0,"D - Ã‚Â£10,000 - Ã‚Â£11,999 (annually)/Ã‚Â£834 - Ã‚Â£999 (monthly)/Ã‚Â£193 - Ã‚Â£230 (weekly)"
+1194384,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,5.0,"E - Ã‚Â£12,000 - Ã‚Â£14,999 (annually)/Ã‚Â£1,000 -Ã‚Â£1,249 (monthly)/Ã‚Â£231 - Ã‚Â£288 (weekly)"
+1194385,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,6.0,"F - Ã‚Â£15,000 - Ã‚Â£17,999 (annually)/Ã‚Â£1,250 - Ã‚Â£1,499 (monthly)/Ã‚Â£289 - Ã‚Â£346 (weekly)"
+1194386,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,7.0,"G - Ã‚Â£18,000 - Ã‚Â£20,999 (annually)/Ã‚Â£1,500 - Ã‚Â£1,749 (monthly)/Ã‚Â£347 - Ã‚Â£403 (weekly)"
+1194387,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,8.0,"H - Ã‚Â£21,000 - Ã‚Â£23,999 (annually)/Ã‚Â£1,750 - Ã‚Â£1,999(monthly)/Ã‚Â£404 - Ã‚Â£461 (weekly)"
+1194388,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,9.0,"I - Ã‚Â£24,000 - Ã‚Â£26,999 (annually)/Ã‚Â£2,000 - Ã‚Â£2,249 (monthly)/Ã‚Â£462 - Ã‚Â£519 (weekly)"
+1194389,NSHD46,SOCIODEMOGRAPHICS,inchn15x,Which represents your total net household income?,999.0,Refused to answer
+1194390,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,-9899.0,Unknown
+1194391,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,1.0,Primary only
+1194392,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,2.0,Primary and no diploma
+1194393,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,3.0,Primary and tech/course diploma
+1194394,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,4.0,"Primary and Professional degree, diploma"
+1194395,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,5.0,Secondary only
+1194396,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,6.0,Secondary and no diploma
+1194397,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,7.0,Secondary and tech/course diploma
+1194398,NSHD46,SOCIODEMOGRAPHICS,med,Mother's education,8.0,"Secondary and Professional degree, diploma"
+1194399,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,-9899.0,Unknown
+1194400,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,1.0,Primary only
+1194401,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,2.0,Primary and no diplome
+1194402,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,3.0,Primary and Tech/Comm Diploma
+1194403,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,4.0,"Primary and Profess. Degree, diploma"
+1194404,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,5.0,Secondary only
+1194405,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,6.0,Secondary and no diploma
+1194406,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,7.0,Secondary and tech./comm. diploma
+1194407,NSHD46,SOCIODEMOGRAPHICS,fed,Education of survey child's father,8.0,Secondary and Prof. Degree/diploma
+1194408,NSHD46,SOCIODEMOGRAPHICS,avail_from_dt,,,

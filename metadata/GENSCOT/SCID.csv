@@ -1,0 +1,52 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+713857,GENSCOT,SCID,study_id_e,,,
+713858,GENSCOT,SCID,appt,Have you ever seen anybody for emotional or psychiatric problems?,2.0,No
+713859,GENSCOT,SCID,appt,Have you ever seen anybody for emotional or psychiatric problems?,1.0,Yes
+713860,GENSCOT,SCID,problem,Was there ever a time when you or someone else thought you should see someone because of the way you were feeling or acting?,2.0,No
+713861,GENSCOT,SCID,problem,Was there ever a time when you or someone else thought you should see someone because of the way you were feeling or acting?,1.0,Yes
+713862,GENSCOT,SCID,status,SCID interview completed,2.0,Incomplete
+713863,GENSCOT,SCID,status,SCID interview completed,3.0,Refused
+713864,GENSCOT,SCID,status,SCID interview completed,1.0,Complete
+713865,GENSCOT,SCID,diagnosed,Diagnosis given?,2.0,No
+713866,GENSCOT,SCID,diagnosed,Diagnosis given?,1.0,Yes
+713867,GENSCOT,SCID,score4,Major depressive disorder score,2.0,Recurrent MDD
+713868,GENSCOT,SCID,score4,Major depressive disorder score,3.0,Bipolar
+713869,GENSCOT,SCID,score4,Major depressive disorder score,4.0,No major disorder
+713870,GENSCOT,SCID,score4,Major depressive disorder score,1.0,Single MDD
+713871,GENSCOT,SCID,current,Current major disorder,,
+713872,GENSCOT,SCID,onset_age,Age at onset of first episode,,
+713873,GENSCOT,SCID,episodes,CRF: I3. (d) Number of episodes,,
+713874,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,2.0,Poor
+713875,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,3.0,Fair
+713876,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,4.0,Good
+713877,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,5.0,Very Good
+713878,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,1.0,Very Poor
+713879,GENSCOT,SCID,filter,Answered Yes-either filter question,,
+713880,GENSCOT,SCID,control,,,
+713881,GENSCOT,SCID,avail_from_dt,,,
+713882,GENSCOT,SCID,study_id_e,,,
+713883,GENSCOT,SCID,appt,Have you ever seen anybody for emotional or psychiatric problems?,2.0,No
+713884,GENSCOT,SCID,appt,Have you ever seen anybody for emotional or psychiatric problems?,1.0,Yes
+713885,GENSCOT,SCID,problem,Was there ever a time when you or someone else thought you should see someone because of the way you were feeling or acting?,2.0,No
+713886,GENSCOT,SCID,problem,Was there ever a time when you or someone else thought you should see someone because of the way you were feeling or acting?,1.0,Yes
+713887,GENSCOT,SCID,status,SCID interview completed,2.0,Incomplete
+713888,GENSCOT,SCID,status,SCID interview completed,3.0,Refused
+713889,GENSCOT,SCID,status,SCID interview completed,1.0,Complete
+713890,GENSCOT,SCID,diagnosed,Diagnosis given?,2.0,No
+713891,GENSCOT,SCID,diagnosed,Diagnosis given?,1.0,Yes
+713892,GENSCOT,SCID,score4,Major depressive disorder score,2.0,Recurrent MDD
+713893,GENSCOT,SCID,score4,Major depressive disorder score,3.0,Bipolar
+713894,GENSCOT,SCID,score4,Major depressive disorder score,4.0,No major disorder
+713895,GENSCOT,SCID,score4,Major depressive disorder score,1.0,Single MDD
+713896,GENSCOT,SCID,current,Current major disorder,,Flag
+713897,GENSCOT,SCID,onset_age,Age at onset of first episode,,Years [99 = Don't Know]
+713898,GENSCOT,SCID,episodes,CRF: I3. (d) Number of episodes,,Episodes [99 = Don't Know]
+713899,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,2.0,Poor
+713900,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,3.0,Fair
+713901,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,4.0,Good
+713902,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,5.0,Very Good
+713903,GENSCOT,SCID,reliability,CRF: I4. Interviewers impression of reliability and completeness of SCID,1.0,Very Poor
+713904,GENSCOT,SCID,filter,Answered Yes-either filter question,,Flag
+713905,GENSCOT,SCID,control,,,
+713906,GENSCOT,SCID,appt2,date of response,,timestamp
+713907,GENSCOT,SCID,avail_from_dt,,,

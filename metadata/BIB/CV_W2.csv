@@ -1,0 +1,867 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+648960,BIB,CV_W2,study_id_e,,,
+648961,BIB,CV_W2,cohort,Cohort,1.0,BiB
+648962,BIB,CV_W2,cohort,Cohort,2.0,Better Start
+648963,BIB,CV_W2,collectiontimestamp,,,
+648964,BIB,CV_W2,gender,Gender,1.0,Female
+648965,BIB,CV_W2,gender,Gender,2.0,Male
+648966,BIB,CV_W2,age_in_years,Age in years,,
+648967,BIB,CV_W2,ethnicity_mother_bib,Ethnic group (mother) BiB coding,1.0,White British
+648968,BIB,CV_W2,ethnicity_mother_bib,Ethnic group (mother) BiB coding,2.0,Pakistani
+648969,BIB,CV_W2,ethnicity_mother_bib,Ethnic group (mother) BiB coding,3.0,Other
+648970,BIB,CV_W2,ethnicity_father,Ethnic group (father),1.0,White
+648971,BIB,CV_W2,ethnicity_father,Ethnic group (father),2.0,Mixed
+648972,BIB,CV_W2,ethnicity_father,Ethnic group (father),3.0,Black/Black British
+648973,BIB,CV_W2,ethnicity_father,Ethnic group (father),4.0,Asian/Asian British
+648974,BIB,CV_W2,ethnicity_father,Ethnic group (father),5.0,Chinese
+648975,BIB,CV_W2,ethnicity_father,Ethnic group (father),6.0,Other
+648976,BIB,CV_W2,imddecile,Index of Multiple Deprivation Decile (1 = most deprived),,
+648977,BIB,CV_W2,imdquintile,Index of Multiple Deprivation Quintile (1 = most deprived),,
+648978,BIB,CV_W2,c19a2_yn_satf,1) How satisfied or dissatisfied are you with the area you live in?Â Â Â Â Â Â Â Â Â Â Â Â Â ,1.0,1 = Very dissatisfied
+648979,BIB,CV_W2,c19a2_yn_satf,1) How satisfied or dissatisfied are you with the area you live in?Â Â Â Â Â Â Â Â Â Â Â Â Â ,2.0,2
+648980,BIB,CV_W2,c19a2_yn_satf,1) How satisfied or dissatisfied are you with the area you live in?Â Â Â Â Â Â Â Â Â Â Â Â Â ,3.0,3
+648981,BIB,CV_W2,c19a2_yn_satf,1) How satisfied or dissatisfied are you with the area you live in?Â Â Â Â Â Â Â Â Â Â Â Â Â ,4.0,4
+648982,BIB,CV_W2,c19a2_yn_satf,1) How satisfied or dissatisfied are you with the area you live in?Â Â Â Â Â Â Â Â Â Â Â Â Â ,5.0,5 = Very satisfied
+648983,BIB,CV_W2,c19a2_yn_grnspce_satf,2) How satisfied or dissatisfied are you with the parks and green spaces in your,1.0,1 = Very dissatisfied
+648984,BIB,CV_W2,c19a2_yn_grnspce_satf,2) How satisfied or dissatisfied are you with the parks and green spaces in your,2.0,2
+648985,BIB,CV_W2,c19a2_yn_grnspce_satf,2) How satisfied or dissatisfied are you with the parks and green spaces in your,3.0,3
+648986,BIB,CV_W2,c19a2_yn_grnspce_satf,2) How satisfied or dissatisfied are you with the parks and green spaces in your,4.0,4
+648987,BIB,CV_W2,c19a2_yn_grnspce_satf,2) How satisfied or dissatisfied are you with the parks and green spaces in your,5.0,5 = Very satisfied
+648988,BIB,CV_W2,c19a2_yn_outdr_wint,During the winter months (September-March),0.0,5 times a week or more
+648989,BIB,CV_W2,c19a2_yn_outdr_wint,During the winter months (September-March),1.0,2 to 4 times a week
+648990,BIB,CV_W2,c19a2_yn_outdr_wint,During the winter months (September-March),2.0,Once a week
+648991,BIB,CV_W2,c19a2_yn_outdr_wint,During the winter months (September-March),3.0,1 to 3 times a month
+648992,BIB,CV_W2,c19a2_yn_outdr_wint,During the winter months (September-March),4.0,Less than once a month
+648993,BIB,CV_W2,c19a2_yn_outdr_spr_sum,During the spring and summer months (April-August),0.0,5 times a week or more
+648994,BIB,CV_W2,c19a2_yn_outdr_spr_sum,During the spring and summer months (April-August),1.0,2 to 4 times a week
+648995,BIB,CV_W2,c19a2_yn_outdr_spr_sum,During the spring and summer months (April-August),2.0,Once a week
+648996,BIB,CV_W2,c19a2_yn_outdr_spr_sum,During the spring and summer months (April-August),3.0,1 to 3 times a month
+648997,BIB,CV_W2,c19a2_yn_outdr_spr_sum,During the spring and summer months (April-August),4.0,Less than once a month
+648998,BIB,CV_W2,c19a2_yn_othrs_area,4) Thinking about your neighbourhood; to what extent do you agree with this stat,1.0,Strongly agree
+648999,BIB,CV_W2,c19a2_yn_othrs_area,4) Thinking about your neighbourhood; to what extent do you agree with this stat,2.0,Agree
+649000,BIB,CV_W2,c19a2_yn_othrs_area,4) Thinking about your neighbourhood; to what extent do you agree with this stat,3.0,Neither agree nor disagree
+649001,BIB,CV_W2,c19a2_yn_othrs_area,4) Thinking about your neighbourhood; to what extent do you agree with this stat,4.0,Disagree
+649002,BIB,CV_W2,c19a2_yn_othrs_area,4) Thinking about your neighbourhood; to what extent do you agree with this stat,5.0,Strongly disagree
+649003,BIB,CV_W2,c19a2_yn_outdr_ch,5) Do children in your area have an outdoor space or facilities nearby where the,0.0,No
+649004,BIB,CV_W2,c19a2_yn_outdr_ch,5) Do children in your area have an outdoor space or facilities nearby where the,1.0,Yes
+649005,BIB,CV_W2,c19a2_yn_neighbrhd_ch,6) How would you rate your neighbourhood as a place to bring up children? ,1.0,Excellent
+649006,BIB,CV_W2,c19a2_yn_neighbrhd_ch,6) How would you rate your neighbourhood as a place to bring up children? ,2.0,Very good
+649007,BIB,CV_W2,c19a2_yn_neighbrhd_ch,6) How would you rate your neighbourhood as a place to bring up children? ,3.0,Good
+649008,BIB,CV_W2,c19a2_yn_neighbrhd_ch,6) How would you rate your neighbourhood as a place to bring up children? ,4.0,Fair
+649009,BIB,CV_W2,c19a2_yn_neighbrhd_ch,6) How would you rate your neighbourhood as a place to bring up children? ,5.0,Poor
+649010,BIB,CV_W2,c19a2_yn_sfe_day,During the day,1.0,Very safe
+649011,BIB,CV_W2,c19a2_yn_sfe_day,During the day,2.0,Fairly safe
+649012,BIB,CV_W2,c19a2_yn_sfe_day,During the day,3.0,Neither safe or unsafe
+649013,BIB,CV_W2,c19a2_yn_sfe_day,During the day,4.0,Fairly unsafe
+649014,BIB,CV_W2,c19a2_yn_sfe_day,During the day,5.0,Very unsafe
+649015,BIB,CV_W2,c19a2_yn_sfe_ngt,After dark,1.0,Very safe
+649016,BIB,CV_W2,c19a2_yn_sfe_ngt,After dark,2.0,Fairly safe
+649017,BIB,CV_W2,c19a2_yn_sfe_ngt,After dark,3.0,Neither safe or unsafe
+649018,BIB,CV_W2,c19a2_yn_sfe_ngt,After dark,4.0,Fairly unsafe
+649019,BIB,CV_W2,c19a2_yn_sfe_ngt,After dark,5.0,Very unsafe
+649020,BIB,CV_W2,c19a2_yn_ppl_trst,8) Generally speaking; would you say that most people can be trusted or you cant,-2.0,Dont know
+649021,BIB,CV_W2,c19a2_yn_ppl_trst,8) Generally speaking; would you say that most people can be trusted or you cant,1.0,Can be trusted
+649022,BIB,CV_W2,c19a2_yn_ppl_trst,8) Generally speaking; would you say that most people can be trusted or you cant,2.0,Cant be too careful
+649023,BIB,CV_W2,c19a2_ymb_disc_rr,9) How often do you personally feel discriminated against because of your race o,-2.0,Dont know
+649024,BIB,CV_W2,c19a2_ymb_disc_rr,9) How often do you personally feel discriminated against because of your race o,1.0,Never
+649025,BIB,CV_W2,c19a2_ymb_disc_rr,9) How often do you personally feel discriminated against because of your race o,2.0,Rarely
+649026,BIB,CV_W2,c19a2_ymb_disc_rr,9) How often do you personally feel discriminated against because of your race o,3.0,Sometimes
+649027,BIB,CV_W2,c19a2_ymb_disc_rr,9) How often do you personally feel discriminated against because of your race o,4.0,Often
+649028,BIB,CV_W2,c19a2_ymb_disc_rr,9) How often do you personally feel discriminated against because of your race o,5.0,Do not wish to answer
+649029,BIB,CV_W2,c19a2_ymb_disc_cv,10) Since the Covid-19 pandemic do you feel discriminated against...,1.0,Less often
+649030,BIB,CV_W2,c19a2_ymb_disc_cv,10) Since the Covid-19 pandemic do you feel discriminated against...,2.0,About the same
+649031,BIB,CV_W2,c19a2_ymb_disc_cv,10) Since the Covid-19 pandemic do you feel discriminated against...,3.0,More often
+649032,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,0.0,0
+649033,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,1.0,1
+649034,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,2.0,2
+649035,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,3.0,3
+649036,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,4.0,4
+649037,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,5.0,5
+649038,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,6.0,6
+649039,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,7.0,7
+649040,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,8.0,8
+649041,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,9.0,9
+649042,BIB,CV_W2,ywb_pplcount_c19a2,11) How many people can you count on in times of need?,10.0,10 or more
+649043,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,0.0,0
+649044,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,1.0,1
+649045,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,2.0,2
+649046,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,3.0,3
+649047,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,4.0,4
+649048,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,5.0,5
+649049,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,6.0,6
+649050,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,7.0,7
+649051,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,8.0,8
+649052,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,9.0,9
+649053,BIB,CV_W2,ywb_pplcount_lcl_c19a2,12) How many of these people live in your local area? That is; within about a mi,10.0,10 or more
+649054,BIB,CV_W2,ywb_help_c19a2,13) How easy is it to get practical help from friends/family/neighbours if you s,1.0,Very difficult
+649055,BIB,CV_W2,ywb_help_c19a2,13) How easy is it to get practical help from friends/family/neighbours if you s,2.0,Difficult
+649056,BIB,CV_W2,ywb_help_c19a2,13) How easy is it to get practical help from friends/family/neighbours if you s,3.0,Possible
+649057,BIB,CV_W2,ywb_help_c19a2,13) How easy is it to get practical help from friends/family/neighbours if you s,4.0,Easy
+649058,BIB,CV_W2,ywb_help_c19a2,13) How easy is it to get practical help from friends/family/neighbours if you s,5.0,Very easy
+649059,BIB,CV_W2,ywb_lonely_c19a2,14) How often have you felt lonely during the past week?,-2.0,Dont know
+649060,BIB,CV_W2,ywb_lonely_c19a2,14) How often have you felt lonely during the past week?,-1.0,Do not wish to answer
+649061,BIB,CV_W2,ywb_lonely_c19a2,14) How often have you felt lonely during the past week?,0.0,"None, or almost none of the time"
+649062,BIB,CV_W2,ywb_lonely_c19a2,14) How often have you felt lonely during the past week?,1.0,Some of the time
+649063,BIB,CV_W2,ywb_lonely_c19a2,14) How often have you felt lonely during the past week?,2.0,Most of the time
+649064,BIB,CV_W2,ywb_lonely_c19a2,14) How often have you felt lonely during the past week?,3.0,"All, or almost all of the time"
+649065,BIB,CV_W2,fl_suprtlearn_c19a2,I feel confident in my ability to support my childrens learning at home,1.0,Strongly disagree
+649066,BIB,CV_W2,fl_suprtlearn_c19a2,I feel confident in my ability to support my childrens learning at home,2.0,Disagree
+649067,BIB,CV_W2,fl_suprtlearn_c19a2,I feel confident in my ability to support my childrens learning at home,3.0,Neither agree nor disagree
+649068,BIB,CV_W2,fl_suprtlearn_c19a2,I feel confident in my ability to support my childrens learning at home,4.0,Agree
+649069,BIB,CV_W2,fl_suprtlearn_c19a2,I feel confident in my ability to support my childrens learning at home,5.0,Strongly agree
+649070,BIB,CV_W2,fl_skillsprnt_c19a2,I honestly believe I have all the skills necessary to be a good parent to my chi,1.0,Strongly disagree
+649071,BIB,CV_W2,fl_skillsprnt_c19a2,I honestly believe I have all the skills necessary to be a good parent to my chi,2.0,Disagree
+649072,BIB,CV_W2,fl_skillsprnt_c19a2,I honestly believe I have all the skills necessary to be a good parent to my chi,3.0,Neither agree nor disagree
+649073,BIB,CV_W2,fl_skillsprnt_c19a2,I honestly believe I have all the skills necessary to be a good parent to my chi,4.0,Agree
+649074,BIB,CV_W2,fl_skillsprnt_c19a2,I honestly believe I have all the skills necessary to be a good parent to my chi,5.0,Strongly agree
+649075,BIB,CV_W2,ywb_relshipq_c19a2,16) How would you describe the quality of your relationship with your current pa,-1.0,Do not wish to answer
+649076,BIB,CV_W2,ywb_relshipq_c19a2,16) How would you describe the quality of your relationship with your current pa,1.0,Excellent
+649077,BIB,CV_W2,ywb_relshipq_c19a2,16) How would you describe the quality of your relationship with your current pa,2.0,Good
+649078,BIB,CV_W2,ywb_relshipq_c19a2,16) How would you describe the quality of your relationship with your current pa,3.0,Average
+649079,BIB,CV_W2,ywb_relshipq_c19a2,16) How would you describe the quality of your relationship with your current pa,4.0,Poor
+649080,BIB,CV_W2,ywb_relshipq_c19a2,16) How would you describe the quality of your relationship with your current pa,5.0,Very poor
+649081,BIB,CV_W2,c19a2_jsbc_covid_1,,,
+649082,BIB,CV_W2,c19a2_jsbc_covid_2,,,
+649083,BIB,CV_W2,c19a2_jsbc_covid_3,,,
+649084,BIB,CV_W2,jbsc_main_c19a2,18) Who is the main earner in the household?,1.0,Me
+649085,BIB,CV_W2,jbsc_main_c19a2,18) Who is the main earner in the household?,2.0,My partner
+649086,BIB,CV_W2,jbsc_main_c19a2,18) Who is the main earner in the household?,3.0,Other household member
+649087,BIB,CV_W2,jbsc_main_c19a2,18) Who is the main earner in the household?,4.0,Me and my partner earn the same amount
+649088,BIB,CV_W2,jbsc_main_crntly_c19a2,19) Is the main earner in your household currently ...,-2.0,Dont know
+649089,BIB,CV_W2,jbsc_main_crntly_c19a2,19) Is the main earner in your household currently ...,1.0,Employed
+649090,BIB,CV_W2,jbsc_main_crntly_c19a2,19) Is the main earner in your household currently ...,2.0,Employed but not working (on furlough)
+649091,BIB,CV_W2,jbsc_main_crntly_c19a2,19) Is the main earner in your household currently ...,3.0,"Employed on the wage subsidy scheme (e.g., working less hours with wage topped by the Government)"
+649092,BIB,CV_W2,jbsc_main_crntly_c19a2,19) Is the main earner in your household currently ...,4.0,Self employed and working
+649093,BIB,CV_W2,jbsc_main_crntly_c19a2,19) Is the main earner in your household currently ...,5.0,Self employed and not working
+649094,BIB,CV_W2,jbsc_main_crntly_c19a2,19) Is the main earner in your household currently ...,6.0,Unemployed - go to question 23
+649095,BIB,CV_W2,jbsc_main_hmwfh_c19a2,20) If the main earner is currently working; are they mainly working from home; ,1.0,Working from home
+649096,BIB,CV_W2,jbsc_main_hmwfh_c19a2,20) If the main earner is currently working; are they mainly working from home; ,2.0,Going out to work
+649097,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,-2.0,Dont know
+649098,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,1.0,Return to work on normal hours
+649099,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,2.0,Return to work on reduced hours with a loss of pay
+649100,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,3.0,Continue to be furloughed
+649101,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,4.0,"Move onto the wage subsidy scheme (e.g., working less hours with wage topped up by the Government)"
+649102,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,5.0,Lose their job
+649103,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,6.0,Has not been told what will happen to their job
+649104,BIB,CV_W2,c19a2_jsbc_main_fur,21) If the main earner is employed but on furlough; what do they expect to happe,7.0,Other
+649105,BIB,CV_W2,jbsc_main_wry_1_c19a2,I worry about the job security of the main earner,1.0,Strongly disagree
+649106,BIB,CV_W2,jbsc_main_wry_1_c19a2,I worry about the job security of the main earner,2.0,Disagree
+649107,BIB,CV_W2,jbsc_main_wry_1_c19a2,I worry about the job security of the main earner,3.0,Neither agree nor disagree
+649108,BIB,CV_W2,jbsc_main_wry_1_c19a2,I worry about the job security of the main earner,4.0,Agree
+649109,BIB,CV_W2,jbsc_main_wry_1_c19a2,I worry about the job security of the main earner,5.0,Strongly agree
+649110,BIB,CV_W2,jbsc_main_wry_2_c19a2,In the next 12 months; do you expect the income of the main earner is likely to ,-2.0,Dont know
+649111,BIB,CV_W2,jbsc_main_wry_2_c19a2,In the next 12 months; do you expect the income of the main earner is likely to ,0.0,No
+649112,BIB,CV_W2,jbsc_main_wry_2_c19a2,In the next 12 months; do you expect the income of the main earner is likely to ,1.0,Yes
+649113,BIB,CV_W2,jbsc_main_wry_3_c19a2,In 12 months time; do you expect the main earner to still have their job?,-2.0,Dont know
+649114,BIB,CV_W2,jbsc_main_wry_3_c19a2,In 12 months time; do you expect the main earner to still have their job?,0.0,No
+649115,BIB,CV_W2,jbsc_main_wry_3_c19a2,In 12 months time; do you expect the main earner to still have their job?,1.0,Yes
+649116,BIB,CV_W2,hhe_ddntlast_c19a2,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,-2.0,Dont know
+649117,BIB,CV_W2,hhe_ddntlast_c19a2,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,-1.0,Do not wish to answer
+649118,BIB,CV_W2,hhe_ddntlast_c19a2,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,1.0,Never true
+649119,BIB,CV_W2,hhe_ddntlast_c19a2,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,2.0,Sometimes true
+649120,BIB,CV_W2,hhe_ddntlast_c19a2,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,3.0,Often true
+649121,BIB,CV_W2,hhe_balancd_c19a2,(I/we) couldnt afford to eat balanced meals. ,-2.0,Dont know
+649122,BIB,CV_W2,hhe_balancd_c19a2,(I/we) couldnt afford to eat balanced meals. ,-1.0,Do not wish to answer
+649123,BIB,CV_W2,hhe_balancd_c19a2,(I/we) couldnt afford to eat balanced meals. ,1.0,Never true
+649124,BIB,CV_W2,hhe_balancd_c19a2,(I/we) couldnt afford to eat balanced meals. ,2.0,Sometimes true
+649125,BIB,CV_W2,hhe_balancd_c19a2,(I/we) couldnt afford to eat balanced meals. ,3.0,Often true
+649126,BIB,CV_W2,hhe_skip_c19a2,24) Did you or other adults in your household ever cut the size of your meals or,-2.0,Dont know
+649127,BIB,CV_W2,hhe_skip_c19a2,24) Did you or other adults in your household ever cut the size of your meals or,-1.0,Do not wish to answer
+649128,BIB,CV_W2,hhe_skip_c19a2,24) Did you or other adults in your household ever cut the size of your meals or,0.0,No
+649129,BIB,CV_W2,hhe_skip_c19a2,24) Did you or other adults in your household ever cut the size of your meals or,1.0,Yes
+649130,BIB,CV_W2,c19a2_hhe_skipoftn_rev_1,If you answered Yes; how often did you or other adults cut the size of meals or ,-2.0,Dont know
+649131,BIB,CV_W2,c19a2_hhe_skipoftn_rev_1,If you answered Yes; how often did you or other adults cut the size of meals or ,-1.0,Do not wish to answer
+649132,BIB,CV_W2,c19a2_hhe_skipoftn_rev_1,If you answered Yes; how often did you or other adults cut the size of meals or ,1.0,Less than once a month but a few times
+649133,BIB,CV_W2,c19a2_hhe_skipoftn_rev_1,If you answered Yes; how often did you or other adults cut the size of meals or ,2.0,Not every week but at least once a month
+649134,BIB,CV_W2,c19a2_hhe_skipoftn_rev_1,If you answered Yes; how often did you or other adults cut the size of meals or ,3.0,Every week
+649135,BIB,CV_W2,hhe_eatless_c19a2,25) Did you or other adults ever eat less than you felt you should because there,-2.0,Dont know
+649136,BIB,CV_W2,hhe_eatless_c19a2,25) Did you or other adults ever eat less than you felt you should because there,-1.0,Do not wish to answer
+649137,BIB,CV_W2,hhe_eatless_c19a2,25) Did you or other adults ever eat less than you felt you should because there,0.0,No
+649138,BIB,CV_W2,hhe_eatless_c19a2,25) Did you or other adults ever eat less than you felt you should because there,1.0,Yes
+649139,BIB,CV_W2,hhe_food_dsc_c19a2,26) Were you ever hungry but didnt eat because there wasnt enough money for food,-2.0,Dont know
+649140,BIB,CV_W2,hhe_food_dsc_c19a2,26) Were you ever hungry but didnt eat because there wasnt enough money for food,-1.0,Do not wish to answer
+649141,BIB,CV_W2,hhe_food_dsc_c19a2,26) Were you ever hungry but didnt eat because there wasnt enough money for food,0.0,No
+649142,BIB,CV_W2,hhe_food_dsc_c19a2,26) Were you ever hungry but didnt eat because there wasnt enough money for food,1.0,Yes
+649143,BIB,CV_W2,c19a2_hhe_fd_bnk_0,,,
+649144,BIB,CV_W2,c19a2_hhe_fd_bnk_1,,,
+649145,BIB,CV_W2,c19a2_hhe_fd_bnk_2,,,
+649146,BIB,CV_W2,c19a2_hhe_fd_sch_0,,,
+649147,BIB,CV_W2,c19a2_hhe_fd_sch_1,,,
+649148,BIB,CV_W2,c19a2_hhe_fd_sch_2,,,
+649149,BIB,CV_W2,c19a2_hhe_fd_comm_0,,,
+649150,BIB,CV_W2,c19a2_hhe_fd_comm_1,,,
+649151,BIB,CV_W2,c19a2_hhe_fd_comm_2,,,
+649152,BIB,CV_W2,c19a2_hhe_fd_bfd_0,,,
+649153,BIB,CV_W2,c19a2_hhe_fd_bfd_1,,,
+649154,BIB,CV_W2,c19a2_hhe_fd_bfd_2,,,
+649155,BIB,CV_W2,c19a2_hhe_fd_mow_0,,,
+649156,BIB,CV_W2,c19a2_hhe_fd_mow_1,,,
+649157,BIB,CV_W2,c19a2_hhe_fd_mow_2,,,
+649158,BIB,CV_W2,c19a2_hhe_fd_fai_0,,,
+649159,BIB,CV_W2,c19a2_hhe_fd_fai_1,,,
+649160,BIB,CV_W2,c19a2_hhe_fd_fai_2,,,
+649161,BIB,CV_W2,c19a2_hhe_fd_fri_0,,,
+649162,BIB,CV_W2,c19a2_hhe_fd_fri_1,,,
+649163,BIB,CV_W2,c19a2_hhe_fd_fri_2,,,
+649164,BIB,CV_W2,c19a2_hhe_fd_fam_0,,,
+649165,BIB,CV_W2,c19a2_hhe_fd_fam_1,,,
+649166,BIB,CV_W2,c19a2_hhe_fd_fam_2,,,
+649167,BIB,CV_W2,c19a2_hhe_fd_oth_0,,,
+649168,BIB,CV_W2,c19a2_hhe_fd_oth_1,,,
+649169,BIB,CV_W2,c19a2_hhe_fd_oth_2,,,
+649170,BIB,CV_W2,c19a2_hhe_fd_othexp,If you answered other; could you please describe ,,
+649171,BIB,CV_W2,hhe_finannow_c19a2,28) How well would you say you are managing financially right now?,-2.0,Dont know
+649172,BIB,CV_W2,hhe_finannow_c19a2,28) How well would you say you are managing financially right now?,-1.0,Do not wish to answer
+649173,BIB,CV_W2,hhe_finannow_c19a2,28) How well would you say you are managing financially right now?,1.0,Living comfortably
+649174,BIB,CV_W2,hhe_finannow_c19a2,28) How well would you say you are managing financially right now?,2.0,Doing alright
+649175,BIB,CV_W2,hhe_finannow_c19a2,28) How well would you say you are managing financially right now?,3.0,Just about getting by
+649176,BIB,CV_W2,hhe_finannow_c19a2,28) How well would you say you are managing financially right now?,4.0,Finding it quite difficult
+649177,BIB,CV_W2,hhe_finannow_c19a2,28) How well would you say you are managing financially right now?,5.0,Finding it very difficult
+649178,BIB,CV_W2,hhe_bills_c19a2,29) Sometimes people are not able to pay every bill when it is due. Are you curr,-2.0,Dont know
+649179,BIB,CV_W2,hhe_bills_c19a2,29) Sometimes people are not able to pay every bill when it is due. Are you curr,-1.0,Do not wish to answer
+649180,BIB,CV_W2,hhe_bills_c19a2,29) Sometimes people are not able to pay every bill when it is due. Are you curr,0.0,No
+649181,BIB,CV_W2,hhe_bills_c19a2,29) Sometimes people are not able to pay every bill when it is due. Are you curr,1.0,Yes
+649182,BIB,CV_W2,hhe_wrypay_c19a2,I worry about paying the rent / mortgage,1.0,Strongly disagree
+649183,BIB,CV_W2,hhe_wrypay_c19a2,I worry about paying the rent / mortgage,2.0,Disagree
+649184,BIB,CV_W2,hhe_wrypay_c19a2,I worry about paying the rent / mortgage,3.0,Neither agree nor disagree
+649185,BIB,CV_W2,hhe_wrypay_c19a2,I worry about paying the rent / mortgage,4.0,Agree
+649186,BIB,CV_W2,hhe_wrypay_c19a2,I worry about paying the rent / mortgage,5.0,Strongly agree
+649187,BIB,CV_W2,hhe_wryevic_c19a2,I worry about getting evicted / having my home repossessed,1.0,Strongly disagree
+649188,BIB,CV_W2,hhe_wryevic_c19a2,I worry about getting evicted / having my home repossessed,2.0,Disagree
+649189,BIB,CV_W2,hhe_wryevic_c19a2,I worry about getting evicted / having my home repossessed,3.0,Neither agree nor disagree
+649190,BIB,CV_W2,hhe_wryevic_c19a2,I worry about getting evicted / having my home repossessed,4.0,Agree
+649191,BIB,CV_W2,hhe_wryevic_c19a2,I worry about getting evicted / having my home repossessed,5.0,Strongly agree
+649192,BIB,CV_W2,fh_genhealth_c19a2,31) How would you describe your health generally?,-2.0,Dont know
+649193,BIB,CV_W2,fh_genhealth_c19a2,31) How would you describe your health generally?,-1.0,Do not wish to answer
+649194,BIB,CV_W2,fh_genhealth_c19a2,31) How would you describe your health generally?,1.0,Excellent
+649195,BIB,CV_W2,fh_genhealth_c19a2,31) How would you describe your health generally?,2.0,Very good
+649196,BIB,CV_W2,fh_genhealth_c19a2,31) How would you describe your health generally?,3.0,Good
+649197,BIB,CV_W2,fh_genhealth_c19a2,31) How would you describe your health generally?,4.0,Fair
+649198,BIB,CV_W2,fh_genhealth_c19a2,31) How would you describe your health generally?,5.0,Poor
+649199,BIB,CV_W2,fl_physact_c19a2,32) How often do you currently do any kind of physical activity?,1.0,Never
+649200,BIB,CV_W2,fl_physact_c19a2,32) How often do you currently do any kind of physical activity?,2.0,1 or 2 days a week
+649201,BIB,CV_W2,fl_physact_c19a2,32) How often do you currently do any kind of physical activity?,3.0,Most days
+649202,BIB,CV_W2,fl_physact_c19a2,32) How often do you currently do any kind of physical activity?,4.0,Every day
+649203,BIB,CV_W2,fl_physact_outdr_c19a2,33) How often do you do any kind of physical activity outside?,1.0,Never
+649204,BIB,CV_W2,fl_physact_outdr_c19a2,33) How often do you do any kind of physical activity outside?,2.0,1 or 2 days a week
+649205,BIB,CV_W2,fl_physact_outdr_c19a2,33) How often do you do any kind of physical activity outside?,3.0,Most days
+649206,BIB,CV_W2,fl_physact_outdr_c19a2,33) How often do you do any kind of physical activity outside?,4.0,Every day
+649207,BIB,CV_W2,fl_physact_ch_c19a2,34) How often do your children do any kind of physical activity?,1.0,Never
+649208,BIB,CV_W2,fl_physact_ch_c19a2,34) How often do your children do any kind of physical activity?,2.0,1 or 2 days a week
+649209,BIB,CV_W2,fl_physact_ch_c19a2,34) How often do your children do any kind of physical activity?,3.0,Most days
+649210,BIB,CV_W2,fl_physact_ch_c19a2,34) How often do your children do any kind of physical activity?,4.0,Every day
+649211,BIB,CV_W2,fl_physact_ch_outdr_c19a2,35) How often do your children do any kind of physical activity outside?,1.0,Never
+649212,BIB,CV_W2,fl_physact_ch_outdr_c19a2,35) How often do your children do any kind of physical activity outside?,2.0,1 or 2 days a week
+649213,BIB,CV_W2,fl_physact_ch_outdr_c19a2,35) How often do your children do any kind of physical activity outside?,3.0,Most days
+649214,BIB,CV_W2,fl_physact_ch_outdr_c19a2,35) How often do your children do any kind of physical activity outside?,4.0,Every day
+649215,BIB,CV_W2,c19a2_fh_ch_brsh_flu,36) How often does your child usually brush their teeth (or have them brushed fo,1.0,Never
+649216,BIB,CV_W2,c19a2_fh_ch_brsh_flu,36) How often does your child usually brush their teeth (or have them brushed fo,2.0,Less than once a day
+649217,BIB,CV_W2,c19a2_fh_ch_brsh_flu,36) How often does your child usually brush their teeth (or have them brushed fo,3.0,Once a day
+649218,BIB,CV_W2,c19a2_fh_ch_brsh_flu,36) How often does your child usually brush their teeth (or have them brushed fo,4.0,Twice a day
+649219,BIB,CV_W2,c19a2_fh_ch_brsh_flu,36) How often does your child usually brush their teeth (or have them brushed fo,5.0,Three or more times a day
+649220,BIB,CV_W2,c19a2_fh_ch_brsh_oft,37) Compared to before the pandemic; is this ,1.0,Less
+649221,BIB,CV_W2,c19a2_fh_ch_brsh_oft,37) Compared to before the pandemic; is this ,2.0,About the same
+649222,BIB,CV_W2,c19a2_fh_ch_brsh_oft,37) Compared to before the pandemic; is this ,3.0,More
+649223,BIB,CV_W2,c19a2_fh_ch_sug_fd,Sugary foods (this includes chocolates; biscuits; cakes; cereals; sweet pies; pa,1.0,Never
+649224,BIB,CV_W2,c19a2_fh_ch_sug_fd,Sugary foods (this includes chocolates; biscuits; cakes; cereals; sweet pies; pa,2.0,Less than once a day
+649225,BIB,CV_W2,c19a2_fh_ch_sug_fd,Sugary foods (this includes chocolates; biscuits; cakes; cereals; sweet pies; pa,3.0,Once a day
+649226,BIB,CV_W2,c19a2_fh_ch_sug_fd,Sugary foods (this includes chocolates; biscuits; cakes; cereals; sweet pies; pa,4.0,Twice a day
+649227,BIB,CV_W2,c19a2_fh_ch_sug_fd,Sugary foods (this includes chocolates; biscuits; cakes; cereals; sweet pies; pa,5.0,Three or more times a day
+649228,BIB,CV_W2,c19a2_fh_ch_sug_dri,Sugar sweetened drinks (this includes fizzy soft drinks; fruit juice; fruit squa,1.0,Never
+649229,BIB,CV_W2,c19a2_fh_ch_sug_dri,Sugar sweetened drinks (this includes fizzy soft drinks; fruit juice; fruit squa,2.0,Less than once a day
+649230,BIB,CV_W2,c19a2_fh_ch_sug_dri,Sugar sweetened drinks (this includes fizzy soft drinks; fruit juice; fruit squa,3.0,Once a day
+649231,BIB,CV_W2,c19a2_fh_ch_sug_dri,Sugar sweetened drinks (this includes fizzy soft drinks; fruit juice; fruit squa,4.0,Twice a day
+649232,BIB,CV_W2,c19a2_fh_ch_sug_dri,Sugar sweetened drinks (this includes fizzy soft drinks; fruit juice; fruit squa,5.0,Three or more times a day
+649233,BIB,CV_W2,c19a2_fh_ch_eat_oft,39) Compared to before the pandemic; is this,1.0,Less
+649234,BIB,CV_W2,c19a2_fh_ch_eat_oft,39) Compared to before the pandemic; is this,2.0,About the same
+649235,BIB,CV_W2,c19a2_fh_ch_eat_oft,39) Compared to before the pandemic; is this,3.0,More
+649236,BIB,CV_W2,c19a2_fh_slphrs,40) What was the average number of hours you slept per night in the last 7 days?,,
+649237,BIB,CV_W2,c19a2_fh_eq5d_mob,Mobility,1.0,I am unable to walk about
+649238,BIB,CV_W2,c19a2_fh_eq5d_mob,Mobility,2.0,I have severe problems in walking about
+649239,BIB,CV_W2,c19a2_fh_eq5d_mob,Mobility,3.0,I have moderate problems in walking about
+649240,BIB,CV_W2,c19a2_fh_eq5d_mob,Mobility,4.0,I have slight problems in walking about
+649241,BIB,CV_W2,c19a2_fh_eq5d_mob,Mobility,5.0,I have no problems in walking about
+649242,BIB,CV_W2,c19a2_fh_eq5d_selfcare,Self-care,1.0,I am unable to wash or dress myself
+649243,BIB,CV_W2,c19a2_fh_eq5d_selfcare,Self-care,2.0,I have severe problems washing or dressing myself
+649244,BIB,CV_W2,c19a2_fh_eq5d_selfcare,Self-care,3.0,I have moderate problems washing or dressing myself
+649245,BIB,CV_W2,c19a2_fh_eq5d_selfcare,Self-care,4.0,I have slight problems washing or dressing myself
+649246,BIB,CV_W2,c19a2_fh_eq5d_selfcare,Self-care,5.0,I have no problems washing or dressing myself
+649247,BIB,CV_W2,c19a2_fh_eq5d_act,Usual activites,1.0,I am unable to do my usual activites
+649248,BIB,CV_W2,c19a2_fh_eq5d_act,Usual activites,2.0,I have severe problems doing my usual activities
+649249,BIB,CV_W2,c19a2_fh_eq5d_act,Usual activites,3.0,I have moderate problems doing my usual activities
+649250,BIB,CV_W2,c19a2_fh_eq5d_act,Usual activites,4.0,I have slight problems doing my usual activities
+649251,BIB,CV_W2,c19a2_fh_eq5d_act,Usual activites,5.0,I have no problems doing my usual activites
+649252,BIB,CV_W2,c19a2_fh_eq5d_pain_disc,Pain/discomfort,1.0,I have extreme pain or discomfort
+649253,BIB,CV_W2,c19a2_fh_eq5d_pain_disc,Pain/discomfort,2.0,I have severe pain or discomfort
+649254,BIB,CV_W2,c19a2_fh_eq5d_pain_disc,Pain/discomfort,3.0,I have moderate pain or discomfort
+649255,BIB,CV_W2,c19a2_fh_eq5d_pain_disc,Pain/discomfort,4.0,I have slight pain or discomfort
+649256,BIB,CV_W2,c19a2_fh_eq5d_pain_disc,Pain/discomfort,5.0,I have no pain or discomfort
+649257,BIB,CV_W2,c19a2_fh_eq5d_anx_dep,Anxiety/depression,1.0,I am extremely anxious or depressed
+649258,BIB,CV_W2,c19a2_fh_eq5d_anx_dep,Anxiety/depression,2.0,I am severely anxious or depressed
+649259,BIB,CV_W2,c19a2_fh_eq5d_anx_dep,Anxiety/depression,3.0,I am moderately anxious or depressed
+649260,BIB,CV_W2,c19a2_fh_eq5d_anx_dep,Anxiety/depression,4.0,I am slightly anxious or depressed
+649261,BIB,CV_W2,c19a2_fh_eq5d_anx_dep,Anxiety/depression,5.0,I am not anxious or depressed
+649262,BIB,CV_W2,fh_feeling_c19a2,42) Which of the following best describes how youve been feeling over the past w,0.0,I do not worry about my health
+649263,BIB,CV_W2,fh_feeling_c19a2,42) Which of the following best describes how youve been feeling over the past w,1.0,I occasionally worry about my health
+649264,BIB,CV_W2,fh_feeling_c19a2,42) Which of the following best describes how youve been feeling over the past w,2.0,I spend much of my time worrying about my health
+649265,BIB,CV_W2,fh_feeling_c19a2,42) Which of the following best describes how youve been feeling over the past w,3.0,I spend most of my time worrying about health
+649266,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,0.0,0 = Not at all worthwhile
+649267,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,1.0,1
+649268,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,2.0,2
+649269,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,3.0,3
+649270,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,4.0,4
+649271,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,5.0,5
+649272,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,6.0,6
+649273,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,7.0,7
+649274,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,8.0,8
+649275,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,9.0,9
+649276,BIB,CV_W2,c19a2_fh_ons_lifeworth,43) Overall; to what extent do you feel that the things you do in your life are ,10.0,10 = Completely worthwhile
+649277,BIB,CV_W2,fh_phq_1_c19a2,Little interest or pleasure in doing things,0.0,Not at all
+649278,BIB,CV_W2,fh_phq_1_c19a2,Little interest or pleasure in doing things,1.0,Several days
+649279,BIB,CV_W2,fh_phq_1_c19a2,Little interest or pleasure in doing things,2.0,More than half the days
+649280,BIB,CV_W2,fh_phq_1_c19a2,Little interest or pleasure in doing things,3.0,Nearly every day
+649281,BIB,CV_W2,fh_phq_2_c19a2,Feeling down; depressed; or hopeless,0.0,Not at all
+649282,BIB,CV_W2,fh_phq_2_c19a2,Feeling down; depressed; or hopeless,1.0,Several days
+649283,BIB,CV_W2,fh_phq_2_c19a2,Feeling down; depressed; or hopeless,2.0,More than half the days
+649284,BIB,CV_W2,fh_phq_2_c19a2,Feeling down; depressed; or hopeless,3.0,Nearly every day
+649285,BIB,CV_W2,fh_phq_3_c19a2,Trouble falling or staying asleep; or sleeping too much,0.0,Not at all
+649286,BIB,CV_W2,fh_phq_3_c19a2,Trouble falling or staying asleep; or sleeping too much,1.0,Several days
+649287,BIB,CV_W2,fh_phq_3_c19a2,Trouble falling or staying asleep; or sleeping too much,2.0,More than half the days
+649288,BIB,CV_W2,fh_phq_3_c19a2,Trouble falling or staying asleep; or sleeping too much,3.0,Nearly every day
+649289,BIB,CV_W2,fh_phq_4_c19a2,Feeling tired or having little energy,0.0,Not at all
+649290,BIB,CV_W2,fh_phq_4_c19a2,Feeling tired or having little energy,1.0,Several days
+649291,BIB,CV_W2,fh_phq_4_c19a2,Feeling tired or having little energy,2.0,More than half the days
+649292,BIB,CV_W2,fh_phq_4_c19a2,Feeling tired or having little energy,3.0,Nearly every day
+649293,BIB,CV_W2,fh_phq_5_c19a2,Poor appetite or overeating,0.0,Not at all
+649294,BIB,CV_W2,fh_phq_5_c19a2,Poor appetite or overeating,1.0,Several days
+649295,BIB,CV_W2,fh_phq_5_c19a2,Poor appetite or overeating,2.0,More than half the days
+649296,BIB,CV_W2,fh_phq_5_c19a2,Poor appetite or overeating,3.0,Nearly every day
+649297,BIB,CV_W2,fh_phq_6_c19a2,Feeling bad about yourself - or that you are a failure or have let yourself or y,0.0,Not at all
+649298,BIB,CV_W2,fh_phq_6_c19a2,Feeling bad about yourself - or that you are a failure or have let yourself or y,1.0,Several days
+649299,BIB,CV_W2,fh_phq_6_c19a2,Feeling bad about yourself - or that you are a failure or have let yourself or y,2.0,More than half the days
+649300,BIB,CV_W2,fh_phq_6_c19a2,Feeling bad about yourself - or that you are a failure or have let yourself or y,3.0,Nearly every day
+649301,BIB,CV_W2,fh_phq_7_c19a2,Trouble concentrating on things; such as reading the newspaper or watching telev,0.0,Not at all
+649302,BIB,CV_W2,fh_phq_7_c19a2,Trouble concentrating on things; such as reading the newspaper or watching telev,1.0,Several days
+649303,BIB,CV_W2,fh_phq_7_c19a2,Trouble concentrating on things; such as reading the newspaper or watching telev,2.0,More than half the days
+649304,BIB,CV_W2,fh_phq_7_c19a2,Trouble concentrating on things; such as reading the newspaper or watching telev,3.0,Nearly every day
+649305,BIB,CV_W2,fh_phq_8_c19a2,Moving or speaking so slowly that other people could have noticed? Or the opposi,0.0,Not at all
+649306,BIB,CV_W2,fh_phq_8_c19a2,Moving or speaking so slowly that other people could have noticed? Or the opposi,1.0,Several days
+649307,BIB,CV_W2,fh_phq_8_c19a2,Moving or speaking so slowly that other people could have noticed? Or the opposi,2.0,More than half the days
+649308,BIB,CV_W2,fh_phq_8_c19a2,Moving or speaking so slowly that other people could have noticed? Or the opposi,3.0,Nearly every day
+649309,BIB,CV_W2,fh_phq_hwdiff_c19a2,45) If you checked off any problems; how difficult have these problems made it f,0.0,Not at all
+649310,BIB,CV_W2,fh_phq_hwdiff_c19a2,45) If you checked off any problems; how difficult have these problems made it f,1.0,Several days
+649311,BIB,CV_W2,fh_phq_hwdiff_c19a2,45) If you checked off any problems; how difficult have these problems made it f,2.0,More than half the days
+649312,BIB,CV_W2,fh_phq_hwdiff_c19a2,45) If you checked off any problems; how difficult have these problems made it f,3.0,Nearly every day
+649313,BIB,CV_W2,fh_gad_1_c19a2,Feeling nervous; anxious or on an edge?,0.0,Not at all
+649314,BIB,CV_W2,fh_gad_1_c19a2,Feeling nervous; anxious or on an edge?,1.0,Several days
+649315,BIB,CV_W2,fh_gad_1_c19a2,Feeling nervous; anxious or on an edge?,2.0,More than half the days
+649316,BIB,CV_W2,fh_gad_1_c19a2,Feeling nervous; anxious or on an edge?,3.0,Nearly every day
+649317,BIB,CV_W2,fh_gad_2_c19a2,Not being able to stop or control worrying?,0.0,Not at all
+649318,BIB,CV_W2,fh_gad_2_c19a2,Not being able to stop or control worrying?,1.0,Several days
+649319,BIB,CV_W2,fh_gad_2_c19a2,Not being able to stop or control worrying?,2.0,More than half the days
+649320,BIB,CV_W2,fh_gad_2_c19a2,Not being able to stop or control worrying?,3.0,Nearly every day
+649321,BIB,CV_W2,fh_gad_3_c19a2,Worrying too much about different things?,0.0,Not at all
+649322,BIB,CV_W2,fh_gad_3_c19a2,Worrying too much about different things?,1.0,Several days
+649323,BIB,CV_W2,fh_gad_3_c19a2,Worrying too much about different things?,2.0,More than half the days
+649324,BIB,CV_W2,fh_gad_3_c19a2,Worrying too much about different things?,3.0,Nearly every day
+649325,BIB,CV_W2,fh_gad_4_c19a2,Trouble relaxing?,0.0,Not at all
+649326,BIB,CV_W2,fh_gad_4_c19a2,Trouble relaxing?,1.0,Several days
+649327,BIB,CV_W2,fh_gad_4_c19a2,Trouble relaxing?,2.0,More than half the days
+649328,BIB,CV_W2,fh_gad_4_c19a2,Trouble relaxing?,3.0,Nearly every day
+649329,BIB,CV_W2,fh_gad_5_c19a2,Being so restless that it is hard to sit still?,0.0,Not at all
+649330,BIB,CV_W2,fh_gad_5_c19a2,Being so restless that it is hard to sit still?,1.0,Several days
+649331,BIB,CV_W2,fh_gad_5_c19a2,Being so restless that it is hard to sit still?,2.0,More than half the days
+649332,BIB,CV_W2,fh_gad_5_c19a2,Being so restless that it is hard to sit still?,3.0,Nearly every day
+649333,BIB,CV_W2,fh_gad_6_c19a2,Becoming easily annoyed or irritable?,0.0,Not at all
+649334,BIB,CV_W2,fh_gad_6_c19a2,Becoming easily annoyed or irritable?,1.0,Several days
+649335,BIB,CV_W2,fh_gad_6_c19a2,Becoming easily annoyed or irritable?,2.0,More than half the days
+649336,BIB,CV_W2,fh_gad_6_c19a2,Becoming easily annoyed or irritable?,3.0,Nearly every day
+649337,BIB,CV_W2,fh_gad_7_c19a2,Feeling afraid as if something awful might happen?,0.0,Not at all
+649338,BIB,CV_W2,fh_gad_7_c19a2,Feeling afraid as if something awful might happen?,1.0,Several days
+649339,BIB,CV_W2,fh_gad_7_c19a2,Feeling afraid as if something awful might happen?,2.0,More than half the days
+649340,BIB,CV_W2,fh_gad_7_c19a2,Feeling afraid as if something awful might happen?,3.0,Nearly every day
+649341,BIB,CV_W2,c19a2_symp_app_0,,,
+649342,BIB,CV_W2,c19a2_symp_app_1,,,
+649343,BIB,CV_W2,c19a2_symp_app_2,,,
+649344,BIB,CV_W2,c19a2_symp_app_3,,,
+649345,BIB,CV_W2,c19a2_symp_app_4,,,
+649346,BIB,CV_W2,c19a2_symp_app_5,,,
+649347,BIB,CV_W2,c19a2_symp_app_6,,,
+649348,BIB,CV_W2,c19a2_symp_app_7,,,
+649349,BIB,CV_W2,c19a2_symp_nau_0,,,
+649350,BIB,CV_W2,c19a2_symp_nau_1,,,
+649351,BIB,CV_W2,c19a2_symp_nau_2,,,
+649352,BIB,CV_W2,c19a2_symp_nau_3,,,
+649353,BIB,CV_W2,c19a2_symp_nau_4,,,
+649354,BIB,CV_W2,c19a2_symp_nau_5,,,
+649355,BIB,CV_W2,c19a2_symp_nau_6,,,
+649356,BIB,CV_W2,c19a2_symp_nau_7,,,
+649357,BIB,CV_W2,c19a2_symp_diar_0,,,
+649358,BIB,CV_W2,c19a2_symp_diar_1,,,
+649359,BIB,CV_W2,c19a2_symp_diar_2,,,
+649360,BIB,CV_W2,c19a2_symp_diar_3,,,
+649361,BIB,CV_W2,c19a2_symp_diar_4,,,
+649362,BIB,CV_W2,c19a2_symp_diar_5,,,
+649363,BIB,CV_W2,c19a2_symp_diar_6,,,
+649364,BIB,CV_W2,c19a2_symp_diar_7,,,
+649365,BIB,CV_W2,c19a2_symp_abdo_0,,,
+649366,BIB,CV_W2,c19a2_symp_abdo_1,,,
+649367,BIB,CV_W2,c19a2_symp_abdo_2,,,
+649368,BIB,CV_W2,c19a2_symp_abdo_3,,,
+649369,BIB,CV_W2,c19a2_symp_abdo_4,,,
+649370,BIB,CV_W2,c19a2_symp_abdo_5,,,
+649371,BIB,CV_W2,c19a2_symp_abdo_6,,,
+649372,BIB,CV_W2,c19a2_symp_abdo_7,,,
+649373,BIB,CV_W2,c19a2_symp_rnose_0,,,
+649374,BIB,CV_W2,c19a2_symp_rnose_1,,,
+649375,BIB,CV_W2,c19a2_symp_rnose_2,,,
+649376,BIB,CV_W2,c19a2_symp_rnose_3,,,
+649377,BIB,CV_W2,c19a2_symp_rnose_4,,,
+649378,BIB,CV_W2,c19a2_symp_rnose_5,,,
+649379,BIB,CV_W2,c19a2_symp_rnose_6,,,
+649380,BIB,CV_W2,c19a2_symp_rnose_7,,,
+649381,BIB,CV_W2,c19a2_symp_sneez_0,,,
+649382,BIB,CV_W2,c19a2_symp_sneez_1,,,
+649383,BIB,CV_W2,c19a2_symp_sneez_2,,,
+649384,BIB,CV_W2,c19a2_symp_sneez_3,,,
+649385,BIB,CV_W2,c19a2_symp_sneez_4,,,
+649386,BIB,CV_W2,c19a2_symp_sneez_5,,,
+649387,BIB,CV_W2,c19a2_symp_sneez_6,,,
+649388,BIB,CV_W2,c19a2_symp_sneez_7,,,
+649389,BIB,CV_W2,c19a2_symp_bnose_0,,,
+649390,BIB,CV_W2,c19a2_symp_bnose_1,,,
+649391,BIB,CV_W2,c19a2_symp_bnose_2,,,
+649392,BIB,CV_W2,c19a2_symp_bnose_3,,,
+649393,BIB,CV_W2,c19a2_symp_bnose_4,,,
+649394,BIB,CV_W2,c19a2_symp_bnose_5,,,
+649395,BIB,CV_W2,c19a2_symp_bnose_6,,,
+649396,BIB,CV_W2,c19a2_symp_bnose_7,,,
+649397,BIB,CV_W2,c19a2_symp_eyes_0,,,
+649398,BIB,CV_W2,c19a2_symp_eyes_1,,,
+649399,BIB,CV_W2,c19a2_symp_eyes_2,,,
+649400,BIB,CV_W2,c19a2_symp_eyes_3,,,
+649401,BIB,CV_W2,c19a2_symp_eyes_4,,,
+649402,BIB,CV_W2,c19a2_symp_eyes_5,,,
+649403,BIB,CV_W2,c19a2_symp_eyes_6,,,
+649404,BIB,CV_W2,c19a2_symp_eyes_7,,,
+649405,BIB,CV_W2,c19a2_symp_sm_tas_0,,,
+649406,BIB,CV_W2,c19a2_symp_sm_tas_1,,,
+649407,BIB,CV_W2,c19a2_symp_sm_tas_2,,,
+649408,BIB,CV_W2,c19a2_symp_sm_tas_3,,,
+649409,BIB,CV_W2,c19a2_symp_sm_tas_4,,,
+649410,BIB,CV_W2,c19a2_symp_sm_tas_5,,,
+649411,BIB,CV_W2,c19a2_symp_sm_tas_6,,,
+649412,BIB,CV_W2,c19a2_symp_sm_tas_7,,,
+649413,BIB,CV_W2,c19a2_symp_throat_0,,,
+649414,BIB,CV_W2,c19a2_symp_throat_1,,,
+649415,BIB,CV_W2,c19a2_symp_throat_2,,,
+649416,BIB,CV_W2,c19a2_symp_throat_3,,,
+649417,BIB,CV_W2,c19a2_symp_throat_4,,,
+649418,BIB,CV_W2,c19a2_symp_throat_5,,,
+649419,BIB,CV_W2,c19a2_symp_throat_6,,,
+649420,BIB,CV_W2,c19a2_symp_throat_7,,,
+649421,BIB,CV_W2,c19a2_symp_voic_0,,,
+649422,BIB,CV_W2,c19a2_symp_voic_1,,,
+649423,BIB,CV_W2,c19a2_symp_voic_2,,,
+649424,BIB,CV_W2,c19a2_symp_voic_3,,,
+649425,BIB,CV_W2,c19a2_symp_voic_4,,,
+649426,BIB,CV_W2,c19a2_symp_voic_5,,,
+649427,BIB,CV_W2,c19a2_symp_voic_6,,,
+649428,BIB,CV_W2,c19a2_symp_voic_7,,,
+649429,BIB,CV_W2,c19a2_symp_head_0,,,
+649430,BIB,CV_W2,c19a2_symp_head_1,,,
+649431,BIB,CV_W2,c19a2_symp_head_2,,,
+649432,BIB,CV_W2,c19a2_symp_head_3,,,
+649433,BIB,CV_W2,c19a2_symp_head_4,,,
+649434,BIB,CV_W2,c19a2_symp_head_5,,,
+649435,BIB,CV_W2,c19a2_symp_head_6,,,
+649436,BIB,CV_W2,c19a2_symp_head_7,,,
+649437,BIB,CV_W2,c19a2_symp_dizz_0,,,
+649438,BIB,CV_W2,c19a2_symp_dizz_1,,,
+649439,BIB,CV_W2,c19a2_symp_dizz_2,,,
+649440,BIB,CV_W2,c19a2_symp_dizz_3,,,
+649441,BIB,CV_W2,c19a2_symp_dizz_4,,,
+649442,BIB,CV_W2,c19a2_symp_dizz_5,,,
+649443,BIB,CV_W2,c19a2_symp_dizz_6,,,
+649444,BIB,CV_W2,c19a2_symp_dizz_7,,,
+649445,BIB,CV_W2,c19a2_symp_coug_0,,,
+649446,BIB,CV_W2,c19a2_symp_coug_1,,,
+649447,BIB,CV_W2,c19a2_symp_coug_2,,,
+649448,BIB,CV_W2,c19a2_symp_coug_3,,,
+649449,BIB,CV_W2,c19a2_symp_coug_4,,,
+649450,BIB,CV_W2,c19a2_symp_coug_5,,,
+649451,BIB,CV_W2,c19a2_symp_coug_6,,,
+649452,BIB,CV_W2,c19a2_symp_coug_7,,,
+649453,BIB,CV_W2,c19a2_symp_tig_0,,,
+649454,BIB,CV_W2,c19a2_symp_tig_1,,,
+649455,BIB,CV_W2,c19a2_symp_tig_2,,,
+649456,BIB,CV_W2,c19a2_symp_tig_3,,,
+649457,BIB,CV_W2,c19a2_symp_tig_4,,,
+649458,BIB,CV_W2,c19a2_symp_tig_5,,,
+649459,BIB,CV_W2,c19a2_symp_tig_6,,,
+649460,BIB,CV_W2,c19a2_symp_tig_7,,,
+649461,BIB,CV_W2,c19a2_symp_che_0,,,
+649462,BIB,CV_W2,c19a2_symp_che_1,,,
+649463,BIB,CV_W2,c19a2_symp_che_2,,,
+649464,BIB,CV_W2,c19a2_symp_che_3,,,
+649465,BIB,CV_W2,c19a2_symp_che_4,,,
+649466,BIB,CV_W2,c19a2_symp_che_5,,,
+649467,BIB,CV_W2,c19a2_symp_che_6,,,
+649468,BIB,CV_W2,c19a2_symp_che_7,,,
+649469,BIB,CV_W2,c19a2_symp_bre_0,,,
+649470,BIB,CV_W2,c19a2_symp_bre_1,,,
+649471,BIB,CV_W2,c19a2_symp_bre_2,,,
+649472,BIB,CV_W2,c19a2_symp_bre_3,,,
+649473,BIB,CV_W2,c19a2_symp_bre_4,,,
+649474,BIB,CV_W2,c19a2_symp_bre_5,,,
+649475,BIB,CV_W2,c19a2_symp_bre_6,,,
+649476,BIB,CV_W2,c19a2_symp_bre_7,,,
+649477,BIB,CV_W2,c19a2_symp_fev_0,,,
+649478,BIB,CV_W2,c19a2_symp_fev_1,,,
+649479,BIB,CV_W2,c19a2_symp_fev_2,,,
+649480,BIB,CV_W2,c19a2_symp_fev_3,,,
+649481,BIB,CV_W2,c19a2_symp_fev_4,,,
+649482,BIB,CV_W2,c19a2_symp_fev_5,,,
+649483,BIB,CV_W2,c19a2_symp_fev_6,,,
+649484,BIB,CV_W2,c19a2_symp_fev_7,,,
+649485,BIB,CV_W2,c19a2_symp_chills_0,,,
+649486,BIB,CV_W2,c19a2_symp_chills_1,,,
+649487,BIB,CV_W2,c19a2_symp_chills_2,,,
+649488,BIB,CV_W2,c19a2_symp_chills_3,,,
+649489,BIB,CV_W2,c19a2_symp_chills_4,,,
+649490,BIB,CV_W2,c19a2_symp_chills_5,,,
+649491,BIB,CV_W2,c19a2_symp_chills_6,,,
+649492,BIB,CV_W2,c19a2_symp_chills_7,,,
+649493,BIB,CV_W2,c19a2_symp_slp_0,,,
+649494,BIB,CV_W2,c19a2_symp_slp_1,,,
+649495,BIB,CV_W2,c19a2_symp_slp_2,,,
+649496,BIB,CV_W2,c19a2_symp_slp_3,,,
+649497,BIB,CV_W2,c19a2_symp_slp_4,,,
+649498,BIB,CV_W2,c19a2_symp_slp_5,,,
+649499,BIB,CV_W2,c19a2_symp_slp_6,,,
+649500,BIB,CV_W2,c19a2_symp_slp_7,,,
+649501,BIB,CV_W2,c19a2_symp_tired_0,,,
+649502,BIB,CV_W2,c19a2_symp_tired_1,,,
+649503,BIB,CV_W2,c19a2_symp_tired_2,,,
+649504,BIB,CV_W2,c19a2_symp_tired_3,,,
+649505,BIB,CV_W2,c19a2_symp_tired_4,,,
+649506,BIB,CV_W2,c19a2_symp_tired_5,,,
+649507,BIB,CV_W2,c19a2_symp_tired_6,,,
+649508,BIB,CV_W2,c19a2_symp_tired_7,,,
+649509,BIB,CV_W2,c19a2_symp_fatig_0,,,
+649510,BIB,CV_W2,c19a2_symp_fatig_1,,,
+649511,BIB,CV_W2,c19a2_symp_fatig_2,,,
+649512,BIB,CV_W2,c19a2_symp_fatig_3,,,
+649513,BIB,CV_W2,c19a2_symp_fatig_4,,,
+649514,BIB,CV_W2,c19a2_symp_fatig_5,,,
+649515,BIB,CV_W2,c19a2_symp_fatig_6,,,
+649516,BIB,CV_W2,c19a2_symp_fatig_7,,,
+649517,BIB,CV_W2,c19a2_symp_numb_0,,,
+649518,BIB,CV_W2,c19a2_symp_numb_1,,,
+649519,BIB,CV_W2,c19a2_symp_numb_2,,,
+649520,BIB,CV_W2,c19a2_symp_numb_3,,,
+649521,BIB,CV_W2,c19a2_symp_numb_4,,,
+649522,BIB,CV_W2,c19a2_symp_numb_5,,,
+649523,BIB,CV_W2,c19a2_symp_numb_6,,,
+649524,BIB,CV_W2,c19a2_symp_numb_7,,,
+649525,BIB,CV_W2,c19a2_symp_heav_0,,,
+649526,BIB,CV_W2,c19a2_symp_heav_1,,,
+649527,BIB,CV_W2,c19a2_symp_heav_2,,,
+649528,BIB,CV_W2,c19a2_symp_heav_3,,,
+649529,BIB,CV_W2,c19a2_symp_heav_4,,,
+649530,BIB,CV_W2,c19a2_symp_heav_5,,,
+649531,BIB,CV_W2,c19a2_symp_heav_6,,,
+649532,BIB,CV_W2,c19a2_symp_heav_7,,,
+649533,BIB,CV_W2,c19a2_symp_ache_0,,,
+649534,BIB,CV_W2,c19a2_symp_ache_1,,,
+649535,BIB,CV_W2,c19a2_symp_ache_2,,,
+649536,BIB,CV_W2,c19a2_symp_ache_3,,,
+649537,BIB,CV_W2,c19a2_symp_ache_4,,,
+649538,BIB,CV_W2,c19a2_symp_ache_5,,,
+649539,BIB,CV_W2,c19a2_symp_ache_6,,,
+649540,BIB,CV_W2,c19a2_symp_ache_7,,,
+649541,BIB,CV_W2,c19a2_symp_itch_0,,,
+649542,BIB,CV_W2,c19a2_symp_itch_1,,,
+649543,BIB,CV_W2,c19a2_symp_itch_2,,,
+649544,BIB,CV_W2,c19a2_symp_itch_3,,,
+649545,BIB,CV_W2,c19a2_symp_itch_4,,,
+649546,BIB,CV_W2,c19a2_symp_itch_5,,,
+649547,BIB,CV_W2,c19a2_symp_itch_6,,,
+649548,BIB,CV_W2,c19a2_symp_itch_7,,,
+649549,BIB,CV_W2,c19a2_symp_swell_0,,,
+649550,BIB,CV_W2,c19a2_symp_swell_1,,,
+649551,BIB,CV_W2,c19a2_symp_swell_2,,,
+649552,BIB,CV_W2,c19a2_symp_swell_3,,,
+649553,BIB,CV_W2,c19a2_symp_swell_4,,,
+649554,BIB,CV_W2,c19a2_symp_swell_5,,,
+649555,BIB,CV_W2,c19a2_symp_swell_6,,,
+649556,BIB,CV_W2,c19a2_symp_swell_7,,,
+649557,BIB,CV_W2,c19a2_cv_wt_symp_wk,48) Have you experienced any of the symptoms above in the last week?,0.0,No
+649558,BIB,CV_W2,c19a2_cv_wt_symp_wk,48) Have you experienced any of the symptoms above in the last week?,1.0,Yes
+649559,BIB,CV_W2,c19a2_cv_wt_cnct,49) Have you been in close contact with anyone with Covid-19 in the last two wee,1.0,"Yes, I was in contact with a confirmed/tested Covid-19 case"
+649560,BIB,CV_W2,c19a2_cv_wt_cnct,49) Have you been in close contact with anyone with Covid-19 in the last two wee,2.0,"Yes, I was in contact with a suspected Covid-19 case"
+649561,BIB,CV_W2,c19a2_cv_wt_cnct,49) Have you been in close contact with anyone with Covid-19 in the last two wee,3.0,"No, not to my knowledge"
+649562,BIB,CV_W2,c19a2_cv_wt_expsymp,50) Do you think you have or have had Covid-19? ,1.0,"Yes, confirmed by a positive test"
+649563,BIB,CV_W2,c19a2_cv_wt_expsymp,50) Do you think you have or have had Covid-19? ,2.0,"Yes, suspected by a doctor but not tested"
+649564,BIB,CV_W2,c19a2_cv_wt_expsymp,50) Do you think you have or have had Covid-19? ,3.0,"Yes, my own suspicions"
+649565,BIB,CV_W2,c19a2_cv_wt_expsymp,50) Do you think you have or have had Covid-19? ,4.0,No
+649566,BIB,CV_W2,c19a2_cv_wt_sympwhn,If yes; when were you told/when did you think you first had Covid-19?,,
+649567,BIB,CV_W2,c19a2_cv_wt_test_0,,,
+649568,BIB,CV_W2,c19a2_cv_wt_test_1,,,
+649569,BIB,CV_W2,c19a2_cv_wt_test_2,,,
+649570,BIB,CV_W2,c19a2_cv_wt_test_3,,,
+649571,BIB,CV_W2,c19a2_cv_wt_test_4,,,
+649572,BIB,CV_W2,c19a2_cv_wt_test_spec,If you said Yes; for another reason; please specify ,,
+649573,BIB,CV_W2,c19a2_cv_wt_testtyp_1,,,
+649574,BIB,CV_W2,c19a2_cv_wt_testtyp_2,,,
+649575,BIB,CV_W2,c19a2_cv_wt_testtyp_3,,,
+649576,BIB,CV_W2,c19a2_cv_wt_testtyp_4,,,
+649577,BIB,CV_W2,c19a2_cv_wt_testtyp_exp,If you said Other; please can you describe here,,
+649578,BIB,CV_W2,c19a2_cv_wt_testswab,52) Have you had a positive result from a swab test? ,-2.0,Dont know
+649579,BIB,CV_W2,c19a2_cv_wt_testswab,52) Have you had a positive result from a swab test? ,0.0,No
+649580,BIB,CV_W2,c19a2_cv_wt_testswab,52) Have you had a positive result from a swab test? ,1.0,Yes
+649581,BIB,CV_W2,c19a2_cv_wt_testswab_whn,When was the sample taken for the test that came back positive? (give the latest,,
+649582,BIB,CV_W2,c19a2_cv_wt_testab,53) Have you had a positive result from an antibody test?,-2.0,Dont know
+649583,BIB,CV_W2,c19a2_cv_wt_testab,53) Have you had a positive result from an antibody test?,0.0,No
+649584,BIB,CV_W2,c19a2_cv_wt_testab,53) Have you had a positive result from an antibody test?,1.0,Yes
+649585,BIB,CV_W2,c19a2_cv_wt_testab_whn,When was the sample taken for the test that came back positive? (give the latest,,
+649586,BIB,CV_W2,c19a2_cv_wt_testoth,54) Have you had a positive result from the other test?,-2.0,Dont know
+649587,BIB,CV_W2,c19a2_cv_wt_testoth,54) Have you had a positive result from the other test?,0.0,No
+649588,BIB,CV_W2,c19a2_cv_wt_testoth,54) Have you had a positive result from the other test?,1.0,Yes
+649589,BIB,CV_W2,c19a2_cv_wt_testoth_whn,When was the sample taken for the test that came back positive? (give the latest,,
+649590,BIB,CV_W2,c19a2_cv_wt_testiso,55) If you or a household member had symptoms or a positive test result; did you,0.0,No
+649591,BIB,CV_W2,c19a2_cv_wt_testiso,55) If you or a household member had symptoms or a positive test result; did you,1.0,Yes - go to question 56.
+649592,BIB,CV_W2,c19a2_cv_wt_testiso_no,If you answered no; can you please tell us why?,,
+649593,BIB,CV_W2,c19a2_cv_wt_flu,56) Have you had the flu vaccine in the last year?,-2.0,Dont know
+649594,BIB,CV_W2,c19a2_cv_wt_flu,56) Have you had the flu vaccine in the last year?,0.0,No
+649595,BIB,CV_W2,c19a2_cv_wt_flu,56) Have you had the flu vaccine in the last year?,1.0,Yes
+649596,BIB,CV_W2,c19a2_cv_wt_vac,57) Which of the following best describes your thoughts about getting vaccinated,1.0,Ive not yet thought about getting vaccinated against Covid-19
+649597,BIB,CV_W2,c19a2_cv_wt_vac,57) Which of the following best describes your thoughts about getting vaccinated,2.0,Im not yet sure about getting vaccinated against Covid-19
+649598,BIB,CV_W2,c19a2_cv_wt_vac,57) Which of the following best describes your thoughts about getting vaccinated,3.0,Ive decided I DONT want to get vaccinated against Covid-19
+649599,BIB,CV_W2,c19a2_cv_wt_vac,57) Which of the following best describes your thoughts about getting vaccinated,4.0,Ive decided I DO want to get vaccinated against Covid-19
+649600,BIB,CV_W2,c19a2_cv_wt_vac_re,58) What is your main reason for this?,,
+649601,BIB,CV_W2,c19a2_cv_wt_vac_ch,59) Which of the following best describes your thoughts about getting your child,1.0,Ive not yet thought about getting my child(ren) vaccinated against Covid-19
+649602,BIB,CV_W2,c19a2_cv_wt_vac_ch,59) Which of the following best describes your thoughts about getting your child,2.0,Im not yet sure about getting my child(ren) vaccinated against Covid-19
+649603,BIB,CV_W2,c19a2_cv_wt_vac_ch,59) Which of the following best describes your thoughts about getting your child,3.0,Ive decided I DONT want to get my child(ren) vaccinated against Covid-19
+649604,BIB,CV_W2,c19a2_cv_wt_vac_ch,59) Which of the following best describes your thoughts about getting your child,4.0,Ive decided I DO want to get my child(ren) vaccinated against Covid-19
+649605,BIB,CV_W2,c19a2_cv_wt_vac_ch_re,60) What is your main reason for this?,,
+649606,BIB,CV_W2,c19a2_cv_hmetest_int,Take the test yourself,-2.0,Dont know
+649607,BIB,CV_W2,c19a2_cv_hmetest_int,Take the test yourself,0.0,No
+649608,BIB,CV_W2,c19a2_cv_hmetest_int,Take the test yourself,1.0,Yes
+649609,BIB,CV_W2,c19a2_cv_hmetest_int_ch,Test your child(ren) ,-2.0,Dont know
+649610,BIB,CV_W2,c19a2_cv_hmetest_int_ch,Test your child(ren) ,0.0,No
+649611,BIB,CV_W2,c19a2_cv_hmetest_int_ch,Test your child(ren) ,1.0,Yes
+649612,BIB,CV_W2,c19a2_tr_info_1,,,
+649613,BIB,CV_W2,c19a2_tr_info_2,,,
+649614,BIB,CV_W2,c19a2_tr_info_3,,,
+649615,BIB,CV_W2,c19a2_tr_info_4,,,
+649616,BIB,CV_W2,c19a2_tr_info_5,,,
+649617,BIB,CV_W2,c19a2_tr_info_6,,,
+649618,BIB,CV_W2,c19a2_tr_info_7,,,
+649619,BIB,CV_W2,c19a2_tr_info_8,,,
+649620,BIB,CV_W2,c19a2_tr_info_oth,If you said Other; please specify ,,
+649621,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,1.0,Newspaper
+649622,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,2.0,TV
+649623,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,3.0,Internet
+649624,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,4.0,Social media
+649625,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,5.0,WhatsApp
+649626,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,6.0,Friends and family
+649627,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,7.0,Health professionals
+649628,BIB,CV_W2,c19a2_tr_info_imp,63) Which is your most important source for your Covid-19 information?,8.0,Other
+649629,BIB,CV_W2,c19a2_tr_gov_conf,64) How confident are you that the Government are doing the right thing to stop ,1.0,Very confident
+649630,BIB,CV_W2,c19a2_tr_gov_conf,64) How confident are you that the Government are doing the right thing to stop ,2.0,Somewhat confident
+649631,BIB,CV_W2,c19a2_tr_gov_conf,64) How confident are you that the Government are doing the right thing to stop ,3.0,Neither confident nor unconfident
+649632,BIB,CV_W2,c19a2_tr_gov_conf,64) How confident are you that the Government are doing the right thing to stop ,4.0,Somewhat unconfident
+649633,BIB,CV_W2,c19a2_tr_gov_conf,64) How confident are you that the Government are doing the right thing to stop ,5.0,Extremely unconfident
+649634,BIB,CV_W2,c19a2_tr_mask,65) Do you wear a mask when required (e.g.; in shops)? ,1.0,Never
+649635,BIB,CV_W2,c19a2_tr_mask,65) Do you wear a mask when required (e.g.; in shops)? ,2.0,Sometimes
+649636,BIB,CV_W2,c19a2_tr_mask,65) Do you wear a mask when required (e.g.; in shops)? ,3.0,Always
+649637,BIB,CV_W2,c19a2_tr_govreg,66) Do you follow government guidance; laws and regulations on Covid-19? ,1.0,Never
+649638,BIB,CV_W2,c19a2_tr_govreg,66) Do you follow government guidance; laws and regulations on Covid-19? ,2.0,Sometimes
+649639,BIB,CV_W2,c19a2_tr_govreg,66) Do you follow government guidance; laws and regulations on Covid-19? ,3.0,Always
+649640,BIB,CV_W2,c19a2_tr_org_1,The Government,-2.0,Dont know
+649641,BIB,CV_W2,c19a2_tr_org_1,The Government,1.0,Trust it a great deal
+649642,BIB,CV_W2,c19a2_tr_org_1,The Government,2.0,Tend to trust it
+649643,BIB,CV_W2,c19a2_tr_org_1,The Government,3.0,Tend to distrust it
+649644,BIB,CV_W2,c19a2_tr_org_1,The Government,4.0,Distrust it greatly
+649645,BIB,CV_W2,c19a2_tr_org_2,The NHS,-2.0,Dont know
+649646,BIB,CV_W2,c19a2_tr_org_2,The NHS,1.0,Trust it a great deal
+649647,BIB,CV_W2,c19a2_tr_org_2,The NHS,2.0,Tend to trust it
+649648,BIB,CV_W2,c19a2_tr_org_2,The NHS,3.0,Tend to distrust it
+649649,BIB,CV_W2,c19a2_tr_org_2,The NHS,4.0,Distrust it greatly
+649650,BIB,CV_W2,c19a2_tr_org_3,Your local hospital,-2.0,Dont know
+649651,BIB,CV_W2,c19a2_tr_org_3,Your local hospital,1.0,Trust it a great deal
+649652,BIB,CV_W2,c19a2_tr_org_3,Your local hospital,2.0,Tend to trust it
+649653,BIB,CV_W2,c19a2_tr_org_3,Your local hospital,3.0,Tend to distrust it
+649654,BIB,CV_W2,c19a2_tr_org_3,Your local hospital,4.0,Distrust it greatly
+649655,BIB,CV_W2,c19a2_tr_org_4,Bradford Council,-2.0,Dont know
+649656,BIB,CV_W2,c19a2_tr_org_4,Bradford Council,1.0,Trust it a great deal
+649657,BIB,CV_W2,c19a2_tr_org_4,Bradford Council,2.0,Tend to trust it
+649658,BIB,CV_W2,c19a2_tr_org_4,Bradford Council,3.0,Tend to distrust it
+649659,BIB,CV_W2,c19a2_tr_org_4,Bradford Council,4.0,Distrust it greatly
+649660,BIB,CV_W2,c19a2_tr_org_5,Local voluntary organisations,-2.0,Dont know
+649661,BIB,CV_W2,c19a2_tr_org_5,Local voluntary organisations,1.0,Trust it a great deal
+649662,BIB,CV_W2,c19a2_tr_org_5,Local voluntary organisations,2.0,Tend to trust it
+649663,BIB,CV_W2,c19a2_tr_org_5,Local voluntary organisations,3.0,Tend to distrust it
+649664,BIB,CV_W2,c19a2_tr_org_5,Local voluntary organisations,4.0,Distrust it greatly
+649665,BIB,CV_W2,c19a2_tr_org_6,Schools,-2.0,Dont know
+649666,BIB,CV_W2,c19a2_tr_org_6,Schools,1.0,Trust it a great deal
+649667,BIB,CV_W2,c19a2_tr_org_6,Schools,2.0,Tend to trust it
+649668,BIB,CV_W2,c19a2_tr_org_6,Schools,3.0,Tend to distrust it
+649669,BIB,CV_W2,c19a2_tr_org_6,Schools,4.0,Distrust it greatly
+649670,BIB,CV_W2,c19a2_tr_org_7,Police,-2.0,Dont know
+649671,BIB,CV_W2,c19a2_tr_org_7,Police,1.0,Trust it a great deal
+649672,BIB,CV_W2,c19a2_tr_org_7,Police,2.0,Tend to trust it
+649673,BIB,CV_W2,c19a2_tr_org_7,Police,3.0,Tend to distrust it
+649674,BIB,CV_W2,c19a2_tr_org_7,Police,4.0,Distrust it greatly
+649675,BIB,CV_W2,c19a2_tr_org_8,Public Health England,-2.0,Dont know
+649676,BIB,CV_W2,c19a2_tr_org_8,Public Health England,1.0,Trust it a great deal
+649677,BIB,CV_W2,c19a2_tr_org_8,Public Health England,2.0,Tend to trust it
+649678,BIB,CV_W2,c19a2_tr_org_8,Public Health England,3.0,Tend to distrust it
+649679,BIB,CV_W2,c19a2_tr_org_8,Public Health England,4.0,Distrust it greatly
+649680,BIB,CV_W2,c19a2_tr_org_9,Faith organisations (e.g.; churches or mosques),-2.0,Dont know
+649681,BIB,CV_W2,c19a2_tr_org_9,Faith organisations (e.g.; churches or mosques),1.0,Trust it a great deal
+649682,BIB,CV_W2,c19a2_tr_org_9,Faith organisations (e.g.; churches or mosques),2.0,Tend to trust it
+649683,BIB,CV_W2,c19a2_tr_org_9,Faith organisations (e.g.; churches or mosques),3.0,Tend to distrust it
+649684,BIB,CV_W2,c19a2_tr_org_9,Faith organisations (e.g.; churches or mosques),4.0,Distrust it greatly
+649685,BIB,CV_W2,c19a2_tr_org_10,Born in Bradford,-2.0,Dont know
+649686,BIB,CV_W2,c19a2_tr_org_10,Born in Bradford,1.0,Trust it a great deal
+649687,BIB,CV_W2,c19a2_tr_org_10,Born in Bradford,2.0,Tend to trust it
+649688,BIB,CV_W2,c19a2_tr_org_10,Born in Bradford,3.0,Tend to distrust it
+649689,BIB,CV_W2,c19a2_tr_org_10,Born in Bradford,4.0,Distrust it greatly
+649690,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),1.0,Car/Van
+649691,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),2.0,School bus
+649692,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),3.0,Other bus
+649693,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),4.0,Walk
+649694,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),5.0,Bicycle
+649695,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),6.0,Taxi
+649696,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),7.0,Train
+649697,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),8.0,Other
+649698,BIB,CV_W2,c19a2_tvl_wnor,How do you normally get to work now? (Tick one),9.0,More than one option indicated on paper copy
+649699,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,1.0,Car/Van
+649700,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,2.0,School bus
+649701,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,3.0,Other bus
+649702,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,4.0,Walk
+649703,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,5.0,Bicycle
+649704,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,6.0,Taxi
+649705,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,7.0,Train
+649706,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,8.0,Other
+649707,BIB,CV_W2,c19a2_tvl_wnor_prel,How did you normally get to work before the lockdown (e.g.; in January/February ,9.0,More than one option indicated on paper copy
+649708,BIB,CV_W2,c19a2_tvl_wnor_ext_1,,,
+649709,BIB,CV_W2,c19a2_tvl_wnor_ext_2,,,
+649710,BIB,CV_W2,c19a2_tvl_wnor_ext_3,,,
+649711,BIB,CV_W2,c19a2_tvl_wnor_ext_4,,,
+649712,BIB,CV_W2,c19a2_tvl_wnor_ext_5,,,
+649713,BIB,CV_W2,c19a2_tvl_wnor_ext_6,,,
+649714,BIB,CV_W2,c19a2_tvl_wnor_ext_7,,,
+649715,BIB,CV_W2,c19a2_tvl_wnor_ext_8,,,
+649716,BIB,CV_W2,c19a2_trl_wnor_prel_ext_1,,,
+649717,BIB,CV_W2,c19a2_trl_wnor_prel_ext_2,,,
+649718,BIB,CV_W2,c19a2_trl_wnor_prel_ext_3,,,
+649719,BIB,CV_W2,c19a2_trl_wnor_prel_ext_4,,,
+649720,BIB,CV_W2,c19a2_trl_wnor_prel_ext_5,,,
+649721,BIB,CV_W2,c19a2_trl_wnor_prel_ext_6,,,
+649722,BIB,CV_W2,c19a2_trl_wnor_prel_ext_7,,,
+649723,BIB,CV_W2,c19a2_trl_wnor_prel_ext_8,,,
+649724,BIB,CV_W2,c19a2_tvl_live_van,Thinking about the person or people you usually live with; how many cars/taxis/v,1.0,None
+649725,BIB,CV_W2,c19a2_tvl_live_van,Thinking about the person or people you usually live with; how many cars/taxis/v,2.0,1
+649726,BIB,CV_W2,c19a2_tvl_live_van,Thinking about the person or people you usually live with; how many cars/taxis/v,3.0,2
+649727,BIB,CV_W2,c19a2_tvl_live_van,Thinking about the person or people you usually live with; how many cars/taxis/v,4.0,3
+649728,BIB,CV_W2,c19a2_tvl_live_van,Thinking about the person or people you usually live with; how many cars/taxis/v,5.0,More than 3
+649729,BIB,CV_W2,c19a2_tvl_car_wlk,Only answer the next question if you mainly travel by car/van/taxi to work this ,1.0,Very happy
+649730,BIB,CV_W2,c19a2_tvl_car_wlk,Only answer the next question if you mainly travel by car/van/taxi to work this ,2.0,Quite happy
+649731,BIB,CV_W2,c19a2_tvl_car_wlk,Only answer the next question if you mainly travel by car/van/taxi to work this ,3.0,Quite unhappy
+649732,BIB,CV_W2,c19a2_tvl_car_wlk,Only answer the next question if you mainly travel by car/van/taxi to work this ,4.0,Very unhappy
+649733,BIB,CV_W2,c19a2_tvl_carwrk,69) Do you require the use of a car for your work?,0.0,No
+649734,BIB,CV_W2,c19a2_tvl_carwrk,69) Do you require the use of a car for your work?,1.0,Yes
+649735,BIB,CV_W2,wc_wrynow_1_c19a2,Worry 1:,,
+649736,BIB,CV_W2,wc_wrynow_2_c19a2,Worry 2:,,
+649737,BIB,CV_W2,wc_wrynow_3_c19a2,Worry 3:,,
+649738,BIB,CV_W2,wc_chllnge_c19a2,71) Can you tell us about a challenge you have faced in the last two weeks?,,
+649739,BIB,CV_W2,c19a2_wc_easier_rev_1,72) Can you tell us whether there are any parts of your life that have continued,,
+649740,BIB,CV_W2,c19a2_cc_relshipq,Your relationship with your partner,0.0,No
+649741,BIB,CV_W2,c19a2_cc_relshipq,Your relationship with your partner,1.0,Yes
+649742,BIB,CV_W2,c19a2_cc_living,The people that you live with,0.0,No
+649743,BIB,CV_W2,c19a2_cc_living,The people that you live with,1.0,Yes
+649744,BIB,CV_W2,c19a2_cc_house,You have moved house,0.0,No
+649745,BIB,CV_W2,c19a2_cc_house,You have moved house,1.0,Yes
+649746,BIB,CV_W2,hh_relship_c19a2,74) What is your current relationship status?,-1.0,Do not wish to answer
+649747,BIB,CV_W2,hh_relship_c19a2,74) What is your current relationship status?,1.0,Single
+649748,BIB,CV_W2,hh_relship_c19a2,74) What is your current relationship status?,2.0,Married
+649749,BIB,CV_W2,hh_relship_c19a2,74) What is your current relationship status?,3.0,Not married but in a relationship
+649750,BIB,CV_W2,hh_living_c19a2,75) Are you currently living with your partner?,0.0,No
+649751,BIB,CV_W2,hh_living_c19a2,75) Are you currently living with your partner?,1.0,Yes
+649752,BIB,CV_W2,hh_childlw_c19a2,76) Does your child (or children) live with you all the time?,0.0,No - shared parenting
+649753,BIB,CV_W2,hh_childlw_c19a2,76) Does your child (or children) live with you all the time?,1.0,Yes
+649754,BIB,CV_W2,hh_nchild_c19a2,77) Do any children aged 16 and under live in your home?,0.0,No
+649755,BIB,CV_W2,hh_nchild_c19a2,77) Do any children aged 16 and under live in your home?,1.0,Yes
+649756,BIB,CV_W2,hh_nchild_04_c19a2,78) How many children aged between 0 and 4 years live in your home?,,
+649757,BIB,CV_W2,hh_nchild_510_c19a2,79) How many children aged between 5 and 10 years live in your home?,,
+649758,BIB,CV_W2,hh_nchild_1116_c19a2,80) How many children aged between 11 and 16 years live in your home?,,
+649759,BIB,CV_W2,hh_nadult_c19a2,81) How many adults (people aged over 16 years) live in your home?,,
+649760,BIB,CV_W2,hh_nadult_70_c19a2,82) How many of these adults are over the age of 70?,,
+649761,BIB,CV_W2,c19a2_yh_dsc_hme,83) If you have moved house please can you tell us why?,1.0,Had already planned to move before the pandemic
+649762,BIB,CV_W2,c19a2_yh_dsc_hme,83) If you have moved house please can you tell us why?,2.0,Couldnt afford the rent / mortgage payments
+649763,BIB,CV_W2,c19a2_yh_dsc_hme,83) If you have moved house please can you tell us why?,3.0,Evicted / lost home
+649764,BIB,CV_W2,c19a2_yh_dsc_hme,83) If you have moved house please can you tell us why?,4.0,"Moved in with others (e.g., as social bubble, to share costs)"
+649765,BIB,CV_W2,c19a2_yh_dsc_hme,83) If you have moved house please can you tell us why?,5.0,Other
+649766,BIB,CV_W2,c19a2_yh_dsc_hme_oth,If you checked other; please describe,,
+649767,BIB,CV_W2,yh_own_c19a2,84) Do you (or your household) own or rent the home you live in?,1.0,Own it outright
+649768,BIB,CV_W2,yh_own_c19a2,84) Do you (or your household) own or rent the home you live in?,2.0,Buying it with the help of a mortgage/loan
+649769,BIB,CV_W2,yh_own_c19a2,84) Do you (or your household) own or rent the home you live in?,3.0,Part own and part rent (shared ownership)
+649770,BIB,CV_W2,yh_own_c19a2,84) Do you (or your household) own or rent the home you live in?,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+649771,BIB,CV_W2,yh_own_c19a2,84) Do you (or your household) own or rent the home you live in?,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+649772,BIB,CV_W2,yh_own_c19a2,84) Do you (or your household) own or rent the home you live in?,6.0,Squatting
+649773,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,-2.0,Dont know
+649774,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,1.0,Private landlord or letting agency
+649775,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,2.0,"Housing association, housing co-operative, charitable trust"
+649776,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,3.0,"Local authority, local council"
+649777,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,4.0,Relative or friend (before you lived here) of a household member
+649778,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,5.0,Employer (individual) of a household member
+649779,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,6.0,Employer (company) of a household member
+649780,BIB,CV_W2,yh_own_rent_c19a2,85) If you rent; who is your landlord?,7.0,Another organisation
+649781,BIB,CV_W2,yh_bdroom_c19a2,86) How many bedrooms are there in your home?,,
+649782,BIB,CV_W2,yh_net_c19a2,87) Can you access the internet from your home (e.g. broadband / data on phone)?,0.0,No
+649783,BIB,CV_W2,yh_net_c19a2,87) Can you access the internet from your home (e.g. broadband / data on phone)?,1.0,Yes
+649784,BIB,CV_W2,yh_rpair_c19a2,88) Does your home need any major repairs doing to it right now?,0.0,No
+649785,BIB,CV_W2,yh_rpair_c19a2,88) Does your home need any major repairs doing to it right now?,1.0,Yes
+649786,BIB,CV_W2,yh_appl_c19a2,89) Are all of your large electrical appliances (e.g. washing machine; fridge) i,0.0,No
+649787,BIB,CV_W2,yh_appl_c19a2,89) Are all of your large electrical appliances (e.g. washing machine; fridge) i,1.0,Yes
+649788,BIB,CV_W2,yh_damp_c19a2,90) Do you have any damp or mould in your home?,0.0,No
+649789,BIB,CV_W2,yh_damp_c19a2,90) Do you have any damp or mould in your home?,1.0,Yes
+649790,BIB,CV_W2,yh_vrmin_c19a2,91) Do you have trouble with any vermin (mice or other rodents; cockroaches; etc,0.0,No
+649791,BIB,CV_W2,yh_vrmin_c19a2,91) Do you have trouble with any vermin (mice or other rodents; cockroaches; etc,1.0,Yes
+649792,BIB,CV_W2,yh_outdr_c19a2,92) Does your home have an outdoor space which you and your family can use?,0.0,No
+649793,BIB,CV_W2,yh_outdr_c19a2,92) Does your home have an outdoor space which you and your family can use?,1.0,Yes
+649794,BIB,CV_W2,yh_outdr_prvsh_c19a2,93) Is your outdoor space private or shared?,1.0,Private
+649795,BIB,CV_W2,yh_outdr_prvsh_c19a2,93) Is your outdoor space private or shared?,2.0,Shared
+649796,BIB,CV_W2,yh_outdr_type_c19a2_1,,,
+649797,BIB,CV_W2,yh_outdr_type_c19a2_2,,,
+649798,BIB,CV_W2,yh_outdr_type_c19a2_3,,,
+649799,BIB,CV_W2,yh_outdr_type_c19a2_4,,,
+649800,BIB,CV_W2,yh_outdr_type_c19a2_5,,,
+649801,BIB,CV_W2,yh_outdr_type_c19a2,94) Is your outdoor space a ...,1.0,Yard
+649802,BIB,CV_W2,yh_outdr_type_c19a2,94) Is your outdoor space a ...,2.0,Small garden
+649803,BIB,CV_W2,yh_outdr_type_c19a2,94) Is your outdoor space a ...,3.0,Medium garden
+649804,BIB,CV_W2,yh_outdr_type_c19a2,94) Is your outdoor space a ...,4.0,Large garden
+649805,BIB,CV_W2,yh_outdr_type_c19a2,94) Is your outdoor space a ...,5.0,Other
+649806,BIB,CV_W2,yh_outdr_safe_c19a2,95) Is your outdoor space safe for your children to play in?,-2.0,Dont know
+649807,BIB,CV_W2,yh_outdr_safe_c19a2,95) Is your outdoor space safe for your children to play in?,0.0,No
+649808,BIB,CV_W2,yh_outdr_safe_c19a2,95) Is your outdoor space safe for your children to play in?,1.0,Yes
+649809,BIB,CV_W2,c19a2_symp_sore_0,,,
+649810,BIB,CV_W2,c19a2_symp_sore_1,,,
+649811,BIB,CV_W2,c19a2_symp_sore_2,,,
+649812,BIB,CV_W2,c19a2_symp_sore_3,,,
+649813,BIB,CV_W2,c19a2_symp_sore_4,,,
+649814,BIB,CV_W2,c19a2_symp_sore_5,,,
+649815,BIB,CV_W2,c19a2_symp_sore_6,,,
+649816,BIB,CV_W2,c19a2_symp_sore_7,,,
+649817,BIB,CV_W2,c19a2_cv_wt_test,51) Have you ever had a test to see if you have or have had Covid-19 (tell us ab,0.0,No
+649818,BIB,CV_W2,c19a2_cv_wt_test,51) Have you ever had a test to see if you have or have had Covid-19 (tell us ab,1.0,"Yes, because I had symptoms"
+649819,BIB,CV_W2,c19a2_cv_wt_test,51) Have you ever had a test to see if you have or have had Covid-19 (tell us ab,2.0,"Yes, because I have been in contact with someone who had Covid-19"
+649820,BIB,CV_W2,c19a2_cv_wt_test,51) Have you ever had a test to see if you have or have had Covid-19 (tell us ab,3.0,"Yes, because of my job"
+649821,BIB,CV_W2,c19a2_cv_wt_test,51) Have you ever had a test to see if you have or have had Covid-19 (tell us ab,4.0,"Yes, for another reason, please specify below."
+649822,BIB,CV_W2,avail_from_dt,,,
+649823,BIB,CV_W2,lsoacode_e,,,
+649824,BIB,CV_W2,ward_e,,,
+649825,BIB,CV_W2,imdrank_e,,,

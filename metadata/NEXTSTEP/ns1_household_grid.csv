@@ -1,0 +1,497 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1065649,NEXTSTEP,ns1_household_grid,study_id_e,,,
+1065650,NEXTSTEP,ns1_household_grid,w1hhid,Household member,-92.0,Refused
+1065651,NEXTSTEP,ns1_household_grid,w1hhid,Household member,-91.0,Not applicable
+1065652,NEXTSTEP,ns1_household_grid,w1hhid,Household member,-1.0,Don't know
+1065653,NEXTSTEP,ns1_household_grid,w1ageif,Age of this person,-999.0,Missing household data
+1065654,NEXTSTEP,ns1_household_grid,w1ageif,Age of this person,-93.0,Age was incorrect - insufficient information to correct
+1065655,NEXTSTEP,ns1_household_grid,w1ageif,Age of this person,-92.0,Refused
+1065656,NEXTSTEP,ns1_household_grid,w1ageif,Age of this person,-91.0,Not applicable
+1065657,NEXTSTEP,ns1_household_grid,w1ageif,Age of this person,-1.0,Don't know
+1065658,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,-999.0,Missing household data
+1065659,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,-93.0,Age was incorrect - insufficient information to correct
+1065660,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,-92.0,Refused
+1065661,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,-91.0,Not applicable
+1065662,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,-1.0,Don't know
+1065663,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,1.0,Male
+1065664,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,2.0,Female
+1065665,NEXTSTEP,ns1_household_grid,w1sex,Sex of this person,3.0,Not Stated
+1065666,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,-999.0,Missing household data
+1065667,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,-93.0,Age was incorrect - insufficient information to correct
+1065668,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,-92.0,Refused
+1065669,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,-91.0,Not applicable
+1065670,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,-1.0,Don't know
+1065671,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,1.0,"Single, that is, never married"
+1065672,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,2.0,Married and living with husband or wife
+1065673,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,3.0,Living with a partner
+1065674,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,4.0,Married and separated from husband or wife
+1065675,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,5.0,Divorced
+1065676,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,6.0,Widowed
+1065677,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,7.0,Other
+1065678,NEXTSTEP,ns1_household_grid,w1marstat,Marital status of this person,9.0,Not Stated
+1065679,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,-999.0,Missing household data
+1065680,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,-93.0,Age was incorrect - insufficient information to correct
+1065681,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,-92.0,Refused
+1065682,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,-91.0,Not applicable
+1065683,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,-1.0,Don't know
+1065684,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,1.0,Yes
+1065685,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,2.0,No
+1065686,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,3.0,(SPONTANEOUS ONLY) Same sex couple
+1065687,NEXTSTEP,ns1_household_grid,w1livewit,Whether this person living with someone in the household as a couple,6.0,Not Stated
+1065688,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,-999.0,Missing household data
+1065689,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,-93.0,Age was incorrect - insufficient information to correct
+1065690,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,-92.0,Refused
+1065691,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,-91.0,Not applicable
+1065692,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,-1.0,Don't know
+1065693,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,1.0,Doing paid work for 30 or more hours a week
+1065694,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,2.0,Doing paid work for fewer than 30 hours a week
+1065695,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,3.0,Unemployed/ Looking for a job
+1065696,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,4.0,On a training course or scheme
+1065697,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,5.0,In full-time education/ at school
+1065698,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,6.0,Looking after the family/ household
+1065699,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,7.0,Retired from work altogether
+1065700,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,8.0,Sick/ disabled
+1065701,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,9.0,Other
+1065702,NEXTSTEP,ns1_household_grid,w1empstat,Employment status of this person,12.0,Not Stated
+1065703,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,-999.0,Missing household data
+1065704,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,-93.0,Age was incorrect - insufficient information to correct
+1065705,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,-92.0,Refused
+1065706,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,-91.0,Not applicable
+1065707,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,-1.0,Don't know
+1065708,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,1.0,White - british
+1065709,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,2.0,White - irish
+1065710,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,3.0,Any other white background
+1065711,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,4.0,Mixed - white and black caribbean
+1065712,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,5.0,Mixed - white and black african
+1065713,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,6.0,Mixed - white and asian
+1065714,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,7.0,Any other mixed background
+1065715,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,8.0,Indian
+1065716,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,9.0,Pakistani
+1065717,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,10.0,Bangladeshi
+1065718,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,11.0,Any other asian background
+1065719,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,12.0,Black caribbean
+1065720,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,13.0,Black african
+1065721,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,14.0,Any other black background
+1065722,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,15.0,Chinese
+1065723,NEXTSTEP,ns1_household_grid,w1ethgrp,Ethnic group of this person,16.0,Any other ethnic background
+1065724,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,8.0,Natural parent
+1065725,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,9.0,Adoptive parent
+1065726,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,10.0,Foster parent
+1065727,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,11.0,Step-parent
+1065728,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,12.0,Parent-in-law/ Partner's parent
+1065729,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,13.0,Natural brother/ sister
+1065730,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,14.0,Half-brother/ -sister
+1065731,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,15.0,Step-brother/ -sister
+1065732,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,16.0,Adopted brother/ sister
+1065733,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,17.0,Foster brother/ Foster sister
+1065734,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,18.0,Brother-in-law/ Sister-in-law
+1065735,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,19.0,Grandchild
+1065736,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,20.0,Grandparent
+1065737,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,21.0,Other relative
+1065738,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,22.0,Other non-relative
+1065739,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,24.0,Not Stated
+1065740,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,-999.0,Missing household data
+1065741,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,-93.0,Age was incorrect - insufficient information to correct
+1065742,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,-92.0,Refused
+1065743,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,-91.0,Not applicable
+1065744,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,-1.0,Don't know
+1065745,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,1.0,Husband/ Wife
+1065746,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,2.0,Partner/ Cohabitee
+1065747,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,3.0,Natural son/ daughter
+1065748,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,4.0,Adopted son/ daughter
+1065749,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,5.0,Foster child
+1065750,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,6.0,Step-son/ Step-daughter
+1065751,NEXTSTEP,ns1_household_grid,w1r_1,Relationship to household member 1,7.0,Son-in-law/ Daughter-in-law
+1065752,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,-999.0,Missing household data
+1065753,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,-93.0,Age was incorrect - insufficient information to correct
+1065754,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,-92.0,Refused
+1065755,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,-91.0,Not applicable
+1065756,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,-1.0,Don't know
+1065757,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,1.0,Husband/ Wife
+1065758,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,2.0,Partner/ Cohabitee
+1065759,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,3.0,Natural son/ daughter
+1065760,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,4.0,Adopted son/ daughter
+1065761,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,5.0,Foster child
+1065762,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,6.0,Step-son/ Step-daughter
+1065763,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,7.0,Son-in-law/ Daughter-in-law
+1065764,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,8.0,Natural parent
+1065765,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,9.0,Adoptive parent
+1065766,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,10.0,Foster parent
+1065767,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,11.0,Step-parent
+1065768,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,12.0,Parent-in-law/ Partner's parent
+1065769,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,13.0,Natural brother/ sister
+1065770,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,14.0,Half-brother/ -sister
+1065771,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,15.0,Step-brother/ -sister
+1065772,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,16.0,Adopted brother/ sister
+1065773,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,17.0,Foster brother/ Foster sister
+1065774,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,18.0,Brother-in-law/ Sister-in-law
+1065775,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,19.0,Grandchild
+1065776,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,20.0,Grandparent
+1065777,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,21.0,Other relative
+1065778,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,22.0,Other non-relative
+1065779,NEXTSTEP,ns1_household_grid,w1r_2,Relationship to household member 2,24.0,Not Stated
+1065780,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,-999.0,Missing household data
+1065781,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,-93.0,Age was incorrect - insufficient information to correct
+1065782,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,-92.0,Refused
+1065783,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,-91.0,Not applicable
+1065784,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,-1.0,Don't know
+1065785,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,1.0,Husband/ Wife
+1065786,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,2.0,Partner/ Cohabitee
+1065787,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,3.0,Natural son/ daughter
+1065788,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,4.0,Adopted son/ daughter
+1065789,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,5.0,Foster child
+1065790,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,6.0,Step-son/ Step-daughter
+1065791,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,7.0,Son-in-law/ Daughter-in-law
+1065792,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,8.0,Natural parent
+1065793,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,9.0,Adoptive parent
+1065794,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,10.0,Foster parent
+1065795,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,11.0,Step-parent
+1065796,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,12.0,Parent-in-law/ Partner's parent
+1065797,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,13.0,Natural brother/ sister
+1065798,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,14.0,Half-brother/ -sister
+1065799,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,15.0,Step-brother/ -sister
+1065800,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,16.0,Adopted brother/ sister
+1065801,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,17.0,Foster brother/ Foster sister
+1065802,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,18.0,Brother-in-law/ Sister-in-law
+1065803,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,19.0,Grandchild
+1065804,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,20.0,Grandparent
+1065805,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,21.0,Other relative
+1065806,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,22.0,Other non-relative
+1065807,NEXTSTEP,ns1_household_grid,w1r_3,Relationship to household member 3,24.0,Not Stated
+1065808,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,-999.0,Missing household data
+1065809,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,-93.0,Age was incorrect - insufficient information to correct
+1065810,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,-92.0,Refused
+1065811,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,-91.0,Not applicable
+1065812,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,-1.0,Don't know
+1065813,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,1.0,Husband/ Wife
+1065814,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,2.0,Partner/ Cohabitee
+1065815,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,3.0,Natural son/ daughter
+1065816,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,4.0,Adopted son/ daughter
+1065817,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,5.0,Foster child
+1065818,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,6.0,Step-son/ Step-daughter
+1065819,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,7.0,Son-in-law/ Daughter-in-law
+1065820,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,8.0,Natural parent
+1065821,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,9.0,Adoptive parent
+1065822,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,10.0,Foster parent
+1065823,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,11.0,Step-parent
+1065824,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,12.0,Parent-in-law/ Partner's parent
+1065825,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,13.0,Natural brother/ sister
+1065826,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,14.0,Half-brother/ -sister
+1065827,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,15.0,Step-brother/ -sister
+1065828,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,16.0,Adopted brother/ sister
+1065829,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,17.0,Foster brother/ Foster sister
+1065830,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,18.0,Brother-in-law/ Sister-in-law
+1065831,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,19.0,Grandchild
+1065832,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,20.0,Grandparent
+1065833,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,21.0,Other relative
+1065834,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,22.0,Other non-relative
+1065835,NEXTSTEP,ns1_household_grid,w1r_4,Relationship to household member 4,24.0,Not Stated
+1065836,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,-999.0,Missing household data
+1065837,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,-93.0,Age was incorrect - insufficient information to correct
+1065838,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,-92.0,Refused
+1065839,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,-91.0,Not applicable
+1065840,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,-1.0,Don't know
+1065841,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,1.0,Husband/ Wife
+1065842,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,2.0,Partner/ Cohabitee
+1065843,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,3.0,Natural son/ daughter
+1065844,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,4.0,Adopted son/ daughter
+1065845,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,5.0,Foster child
+1065846,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,6.0,Step-son/ Step-daughter
+1065847,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,7.0,Son-in-law/ Daughter-in-law
+1065848,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,8.0,Natural parent
+1065849,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,9.0,Adoptive parent
+1065850,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,10.0,Foster parent
+1065851,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,11.0,Step-parent
+1065852,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,12.0,Parent-in-law/ Partner's parent
+1065853,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,13.0,Natural brother/ sister
+1065854,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,14.0,Half-brother/ -sister
+1065855,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,15.0,Step-brother/ -sister
+1065856,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,16.0,Adopted brother/ sister
+1065857,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,17.0,Foster brother/ Foster sister
+1065858,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,18.0,Brother-in-law/ Sister-in-law
+1065859,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,19.0,Grandchild
+1065860,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,20.0,Grandparent
+1065861,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,21.0,Other relative
+1065862,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,22.0,Other non-relative
+1065863,NEXTSTEP,ns1_household_grid,w1r_5,Relationship to household member 5,24.0,Not Stated
+1065864,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,-999.0,Missing household data
+1065865,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,-93.0,Age was incorrect - insufficient information to correct
+1065866,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,-92.0,Refused
+1065867,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,-91.0,Not applicable
+1065868,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,-1.0,Don't know
+1065869,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,1.0,Husband/ Wife
+1065870,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,2.0,Partner/ Cohabitee
+1065871,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,3.0,Natural son/ daughter
+1065872,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,4.0,Adopted son/ daughter
+1065873,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,5.0,Foster child
+1065874,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,6.0,Step-son/ Step-daughter
+1065875,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,7.0,Son-in-law/ Daughter-in-law
+1065876,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,8.0,Natural parent
+1065877,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,9.0,Adoptive parent
+1065878,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,10.0,Foster parent
+1065879,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,11.0,Step-parent
+1065880,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,12.0,Parent-in-law/ Partner's parent
+1065881,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,13.0,Natural brother/ sister
+1065882,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,14.0,Half-brother/ -sister
+1065883,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,15.0,Step-brother/ -sister
+1065884,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,16.0,Adopted brother/ sister
+1065885,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,17.0,Foster brother/ Foster sister
+1065886,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,18.0,Brother-in-law/ Sister-in-law
+1065887,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,19.0,Grandchild
+1065888,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,20.0,Grandparent
+1065889,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,21.0,Other relative
+1065890,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,22.0,Other non-relative
+1065891,NEXTSTEP,ns1_household_grid,w1r_6,Relationship to household member 6,24.0,Not Stated
+1065892,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,-999.0,Missing household data
+1065893,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,-93.0,Age was incorrect - insufficient information to correct
+1065894,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,-92.0,Refused
+1065895,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,-91.0,Not applicable
+1065896,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,-1.0,Don't know
+1065897,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,1.0,Husband/ Wife
+1065898,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,2.0,Partner/ Cohabitee
+1065899,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,3.0,Natural son/ daughter
+1065900,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,4.0,Adopted son/ daughter
+1065901,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,5.0,Foster child
+1065902,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,6.0,Step-son/ Step-daughter
+1065903,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,7.0,Son-in-law/ Daughter-in-law
+1065904,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,8.0,Natural parent
+1065905,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,9.0,Adoptive parent
+1065906,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,10.0,Foster parent
+1065907,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,11.0,Step-parent
+1065908,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,12.0,Parent-in-law/ Partner's parent
+1065909,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,13.0,Natural brother/ sister
+1065910,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,14.0,Half-brother/ -sister
+1065911,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,15.0,Step-brother/ -sister
+1065912,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,16.0,Adopted brother/ sister
+1065913,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,17.0,Foster brother/ Foster sister
+1065914,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,18.0,Brother-in-law/ Sister-in-law
+1065915,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,19.0,Grandchild
+1065916,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,20.0,Grandparent
+1065917,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,21.0,Other relative
+1065918,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,22.0,Other non-relative
+1065919,NEXTSTEP,ns1_household_grid,w1r_7,Relationship to household member 7,24.0,Not Stated
+1065920,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,-999.0,Missing household data
+1065921,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,-93.0,Age was incorrect - insufficient information to correct
+1065922,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,-92.0,Refused
+1065923,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,-91.0,Not applicable
+1065924,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,-1.0,Don't know
+1065925,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,1.0,Husband/ Wife
+1065926,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,2.0,Partner/ Cohabitee
+1065927,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,3.0,Natural son/ daughter
+1065928,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,4.0,Adopted son/ daughter
+1065929,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,5.0,Foster child
+1065930,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,6.0,Step-son/ Step-daughter
+1065931,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,7.0,Son-in-law/ Daughter-in-law
+1065932,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,8.0,Natural parent
+1065933,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,9.0,Adoptive parent
+1065934,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,10.0,Foster parent
+1065935,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,11.0,Step-parent
+1065936,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,12.0,Parent-in-law/ Partner's parent
+1065937,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,13.0,Natural brother/ sister
+1065938,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,14.0,Half-brother/ -sister
+1065939,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,15.0,Step-brother/ -sister
+1065940,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,16.0,Adopted brother/ sister
+1065941,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,17.0,Foster brother/ Foster sister
+1065942,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,18.0,Brother-in-law/ Sister-in-law
+1065943,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,19.0,Grandchild
+1065944,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,20.0,Grandparent
+1065945,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,21.0,Other relative
+1065946,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,22.0,Other non-relative
+1065947,NEXTSTEP,ns1_household_grid,w1r_8,Relationship to household member 8,24.0,Not Stated
+1065948,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,-999.0,Missing household data
+1065949,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,-93.0,Age was incorrect - insufficient information to correct
+1065950,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,-92.0,Refused
+1065951,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,-91.0,Not applicable
+1065952,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,-1.0,Don't know
+1065953,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,1.0,Husband/ Wife
+1065954,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,2.0,Partner/ Cohabitee
+1065955,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,3.0,Natural son/ daughter
+1065956,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,4.0,Adopted son/ daughter
+1065957,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,5.0,Foster child
+1065958,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,6.0,Step-son/ Step-daughter
+1065959,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,7.0,Son-in-law/ Daughter-in-law
+1065960,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,8.0,Natural parent
+1065961,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,9.0,Adoptive parent
+1065962,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,10.0,Foster parent
+1065963,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,11.0,Step-parent
+1065964,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,12.0,Parent-in-law/ Partner's parent
+1065965,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,13.0,Natural brother/ sister
+1065966,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,14.0,Half-brother/ -sister
+1065967,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,15.0,Step-brother/ -sister
+1065968,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,16.0,Adopted brother/ sister
+1065969,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,17.0,Foster brother/ Foster sister
+1065970,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,18.0,Brother-in-law/ Sister-in-law
+1065971,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,19.0,Grandchild
+1065972,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,20.0,Grandparent
+1065973,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,21.0,Other relative
+1065974,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,22.0,Other non-relative
+1065975,NEXTSTEP,ns1_household_grid,w1r_9,Relationship to household member 9,24.0,Not Stated
+1065976,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,-999.0,Missing household data
+1065977,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,-93.0,Age was incorrect - insufficient information to correct
+1065978,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,-92.0,Refused
+1065979,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,-91.0,Not applicable
+1065980,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,-1.0,Don't know
+1065981,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,1.0,Husband/ Wife
+1065982,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,2.0,Partner/ Cohabitee
+1065983,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,3.0,Natural son/ daughter
+1065984,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,4.0,Adopted son/ daughter
+1065985,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,5.0,Foster child
+1065986,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,6.0,Step-son/ Step-daughter
+1065987,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,7.0,Son-in-law/ Daughter-in-law
+1065988,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,8.0,Natural parent
+1065989,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,9.0,Adoptive parent
+1065990,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,10.0,Foster parent
+1065991,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,11.0,Step-parent
+1065992,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,12.0,Parent-in-law/ Partner's parent
+1065993,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,13.0,Natural brother/ sister
+1065994,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,14.0,Half-brother/ -sister
+1065995,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,15.0,Step-brother/ -sister
+1065996,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,16.0,Adopted brother/ sister
+1065997,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,17.0,Foster brother/ Foster sister
+1065998,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,18.0,Brother-in-law/ Sister-in-law
+1065999,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,19.0,Grandchild
+1066000,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,20.0,Grandparent
+1066001,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,21.0,Other relative
+1066002,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,22.0,Other non-relative
+1066003,NEXTSTEP,ns1_household_grid,w1r_10,Relationship to household member 10,24.0,Not Stated
+1066004,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,-92.0,Refused
+1066005,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,-91.0,Not applicable
+1066006,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,-1.0,Don't know
+1066007,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,1.0,Husband/ Wife
+1066008,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,2.0,Partner/ Cohabitee
+1066009,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,3.0,Natural son/ daughter
+1066010,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,4.0,Adopted son/ daughter
+1066011,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,5.0,Foster child
+1066012,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,6.0,Step-son/ Step-daughter
+1066013,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,7.0,Son-in-law/ Daughter-in-law
+1066014,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,8.0,Natural parent
+1066015,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,9.0,Adoptive parent
+1066016,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,10.0,Foster parent
+1066017,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,11.0,Step-parent
+1066018,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,12.0,Parent-in-law/ Partner's parent
+1066019,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,13.0,Natural brother/ sister
+1066020,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,14.0,Half-brother/ -sister
+1066021,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,15.0,Step-brother/ -sister
+1066022,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,16.0,Adopted brother/ sister
+1066023,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,17.0,Foster brother/ Foster sister
+1066024,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,18.0,Brother-in-law/ Sister-in-law
+1066025,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,19.0,Grandchild
+1066026,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,20.0,Grandparent
+1066027,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,21.0,Other relative
+1066028,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,22.0,Other non-relative
+1066029,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,24.0,Not Stated
+1066030,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,-999.0,Missing household data
+1066031,NEXTSTEP,ns1_household_grid,w1r_11,Relationship to household member 11,-93.0,Age was incorrect - insufficient information to correct
+1066032,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,-999.0,Missing household data
+1066033,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,-93.0,Age was incorrect - insufficient information to correct
+1066034,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,-92.0,Refused
+1066035,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,-91.0,Not applicable
+1066036,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,-1.0,Don't know
+1066037,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,1.0,Husband/ Wife
+1066038,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,2.0,Partner/ Cohabitee
+1066039,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,3.0,Natural son/ daughter
+1066040,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,4.0,Adopted son/ daughter
+1066041,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,5.0,Foster child
+1066042,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,6.0,Step-son/ Step-daughter
+1066043,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,7.0,Son-in-law/ Daughter-in-law
+1066044,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,8.0,Natural parent
+1066045,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,9.0,Adoptive parent
+1066046,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,10.0,Foster parent
+1066047,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,11.0,Step-parent
+1066048,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,12.0,Parent-in-law/ Partner's parent
+1066049,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,13.0,Natural brother/ sister
+1066050,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,14.0,Half-brother/ -sister
+1066051,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,15.0,Step-brother/ -sister
+1066052,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,16.0,Adopted brother/ sister
+1066053,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,17.0,Foster brother/ Foster sister
+1066054,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,18.0,Brother-in-law/ Sister-in-law
+1066055,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,19.0,Grandchild
+1066056,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,20.0,Grandparent
+1066057,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,21.0,Other relative
+1066058,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,22.0,Other non-relative
+1066059,NEXTSTEP,ns1_household_grid,w1r_12,Relationship to household member 12,24.0,Not Stated
+1066060,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,-999.0,Missing household data
+1066061,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,-93.0,Age was incorrect - insufficient information to correct
+1066062,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,-92.0,Refused
+1066063,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,-91.0,Not applicable
+1066064,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,-1.0,Don't know
+1066065,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,1.0,Husband/ Wife
+1066066,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,2.0,Partner/ Cohabitee
+1066067,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,3.0,Natural son/ daughter
+1066068,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,4.0,Adopted son/ daughter
+1066069,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,5.0,Foster child
+1066070,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,6.0,Step-son/ Step-daughter
+1066071,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,7.0,Son-in-law/ Daughter-in-law
+1066072,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,8.0,Natural parent
+1066073,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,9.0,Adoptive parent
+1066074,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,10.0,Foster parent
+1066075,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,11.0,Step-parent
+1066076,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,12.0,Parent-in-law/ Partner's parent
+1066077,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,13.0,Natural brother/ sister
+1066078,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,14.0,Half-brother/ -sister
+1066079,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,15.0,Step-brother/ -sister
+1066080,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,16.0,Adopted brother/ sister
+1066081,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,17.0,Foster brother/ Foster sister
+1066082,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,18.0,Brother-in-law/ Sister-in-law
+1066083,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,19.0,Grandchild
+1066084,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,20.0,Grandparent
+1066085,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,21.0,Other relative
+1066086,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,22.0,Other non-relative
+1066087,NEXTSTEP,ns1_household_grid,w1r_13,Relationship to household member 13,24.0,Not Stated
+1066088,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,-999.0,Missing household data
+1066089,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,-93.0,Age was incorrect - insufficient information to correct
+1066090,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,-92.0,Refused
+1066091,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,-91.0,Not applicable
+1066092,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,-1.0,Don't know
+1066093,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,1.0,Husband/ Wife
+1066094,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,2.0,Partner/ Cohabitee
+1066095,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,3.0,Natural son/ daughter
+1066096,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,4.0,Adopted son/ daughter
+1066097,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,5.0,Foster child
+1066098,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,6.0,Step-son/ Step-daughter
+1066099,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,7.0,Son-in-law/ Daughter-in-law
+1066100,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,8.0,Natural parent
+1066101,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,9.0,Adoptive parent
+1066102,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,10.0,Foster parent
+1066103,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,11.0,Step-parent
+1066104,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,12.0,Parent-in-law/ Partner's parent
+1066105,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,13.0,Natural brother/ sister
+1066106,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,14.0,Half-brother/ -sister
+1066107,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,15.0,Step-brother/ -sister
+1066108,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,16.0,Adopted brother/ sister
+1066109,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,17.0,Foster brother/ Foster sister
+1066110,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,18.0,Brother-in-law/ Sister-in-law
+1066111,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,19.0,Grandchild
+1066112,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,20.0,Grandparent
+1066113,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,21.0,Other relative
+1066114,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,22.0,Other non-relative
+1066115,NEXTSTEP,ns1_household_grid,w1r_14,Relationship to household member 14,24.0,Not Stated
+1066116,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,-999.0,Missing household data
+1066117,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,-98.0,No answer given
+1066118,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,-93.0,Age was incorrect - insufficient information to correct
+1066119,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,-92.0,Refused
+1066120,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,-91.0,Not applicable
+1066121,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,-1.0,Don't know
+1066122,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,0.0,No formal education
+1066123,NEXTSTEP,ns1_household_grid,w1stypee,Terminal education age of this person,95.0,Still in full-time education
+1066124,NEXTSTEP,ns1_household_grid,w1mainres,Position Main parent,-999.0,Missing household data
+1066125,NEXTSTEP,ns1_household_grid,w1mainres,Position Main parent,-93.0,Age was incorrect - insufficient information to correct
+1066126,NEXTSTEP,ns1_household_grid,w1mainres,Position Main parent,-92.0,Refused
+1066127,NEXTSTEP,ns1_household_grid,w1mainres,Position Main parent,-91.0,Not applicable
+1066128,NEXTSTEP,ns1_household_grid,w1mainres,Position Main parent,15.0,Non-household member
+1066129,NEXTSTEP,ns1_household_grid,w1secores,Position Second parent,-999.0,Missing household data
+1066130,NEXTSTEP,ns1_household_grid,w1secores,Position Second parent,-93.0,Age was incorrect - insufficient information to correct
+1066131,NEXTSTEP,ns1_household_grid,w1secores,Position Second parent,-92.0,Refused
+1066132,NEXTSTEP,ns1_household_grid,w1secores,Position Second parent,-91.0,Not applicable
+1066133,NEXTSTEP,ns1_household_grid,w1histres,Position History respondent,-999.0,Missing household data
+1066134,NEXTSTEP,ns1_household_grid,w1histres,Position History respondent,-93.0,Age was incorrect - insufficient information to correct
+1066135,NEXTSTEP,ns1_household_grid,w1histres,Position History respondent,-92.0,Refused
+1066136,NEXTSTEP,ns1_household_grid,w1histres,Position History respondent,-91.0,Not applicable
+1066137,NEXTSTEP,ns1_household_grid,w1vinfon,Position HHgrid respondent,-999.0,Missing household data
+1066138,NEXTSTEP,ns1_household_grid,w1vinfon,Position HHgrid respondent,-93.0,Age was incorrect - insufficient information to correct
+1066139,NEXTSTEP,ns1_household_grid,w1vinfon,Position HHgrid respondent,-92.0,Refused
+1066140,NEXTSTEP,ns1_household_grid,w1vinfon,Position HHgrid respondent,-91.0,Not applicable
+1066141,NEXTSTEP,ns1_household_grid,designweight,Design weight,-999.0,Missing household data
+1066142,NEXTSTEP,ns1_household_grid,designweight,Design weight,-93.0,Age was incorrect - insufficient information to correct
+1066143,NEXTSTEP,ns1_household_grid,v3,None,,
+1066144,NEXTSTEP,ns1_household_grid,avail_from_dt,,,

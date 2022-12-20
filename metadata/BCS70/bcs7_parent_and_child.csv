@@ -1,0 +1,1561 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+162123,BCS70,bcs7_parent_and_child,study_id_e,,,
+162124,BCS70,bcs7_parent_and_child,b7chdid,Child number,-9.0,Refusal
+162125,BCS70,bcs7_parent_and_child,b7chdid,Child number,-8.0,Don't Know
+162126,BCS70,bcs7_parent_and_child,b7age,Child's age,-9.0,Refusal
+162127,BCS70,bcs7_parent_and_child,b7age,Child's age,-8.0,Don't Know
+162128,BCS70,bcs7_parent_and_child,b7nmonth,Child's age (month part),-9.0,Refusal
+162129,BCS70,bcs7_parent_and_child,b7nmonth,Child's age (month part),-8.0,Don't Know
+162130,BCS70,bcs7_parent_and_child,b7csex,Child's sex,-9.0,Refusal
+162131,BCS70,bcs7_parent_and_child,b7csex,Child's sex,-8.0,Don't Know
+162132,BCS70,bcs7_parent_and_child,b7csex,Child's sex,1.0,Male
+162133,BCS70,bcs7_parent_and_child,b7csex,Child's sex,2.0,Female
+162134,BCS70,bcs7_parent_and_child,b7intmon,Month of interview,,
+162135,BCS70,bcs7_parent_and_child,b7intyr,Year of interview,,
+162136,BCS70,bcs7_parent_and_child,b7oucooe,Outcome code,111.0,"111 - Fully productive, Core only"
+162137,BCS70,bcs7_parent_and_child,b7oucooe,Outcome code,112.0,"112 - Fully productive, all P&C elements"
+162138,BCS70,bcs7_parent_and_child,b7oucooe,Outcome code,113.0,"113 - Fully productive, not all P&C"
+162139,BCS70,bcs7_parent_and_child,b7oucooe,Outcome code,130.0,"130 - Fully productive, proxy (Core)"
+162140,BCS70,bcs7_parent_and_child,b7oucooe,Outcome code,211.0,"211 - Partially productive, Core only"
+162141,BCS70,bcs7_parent_and_child,b7oucooe,Outcome code,212.0,"212 - Partially productive, all P&C elements"
+162142,BCS70,bcs7_parent_and_child,b7oucooe,Outcome code,213.0,"213 - Partially productive, not all P&C"
+162143,BCS70,bcs7_parent_and_child,b7nocch1,Total number of children,-9.0,Refusal
+162144,BCS70,bcs7_parent_and_child,b7nocch1,Total number of children,-8.0,Don't Know
+162145,BCS70,bcs7_parent_and_child,b7nocch2,Total number of children aged 0 - 11 months,-9.0,Refusal
+162146,BCS70,bcs7_parent_and_child,b7nocch2,Total number of children aged 0 - 11 months,-8.0,Don't Know
+162147,BCS70,bcs7_parent_and_child,b7nocch3,Total number of children aged 1 - 2 years,-9.0,Refusal
+162148,BCS70,bcs7_parent_and_child,b7nocch3,Total number of children aged 1 - 2 years,-8.0,Don't Know
+162149,BCS70,bcs7_parent_and_child,b7nocch4,Total number of children aged 3 - 5 years,-9.0,Refusal
+162150,BCS70,bcs7_parent_and_child,b7nocch4,Total number of children aged 3 - 5 years,-8.0,Don't Know
+162151,BCS70,bcs7_parent_and_child,b7nocch5,Total number of children aged 6 - 16 years,-9.0,Refusal
+162152,BCS70,bcs7_parent_and_child,b7nocch5,Total number of children aged 6 - 16 years,-8.0,Don't Know
+162153,BCS70,bcs7_parent_and_child,b7nocch6,Total number of children aged 10 - 16 years,-9.0,Refusal
+162154,BCS70,bcs7_parent_and_child,b7nocch6,Total number of children aged 10 - 16 years,-8.0,Don't Know
+162155,BCS70,bcs7_parent_and_child,bd7cdn,(Derived) Completed parent and child module.,1.0,Yes
+162156,BCS70,bcs7_parent_and_child,bd7cdn,(Derived) Completed parent and child module.,2.0,No
+162157,BCS70,bcs7_parent_and_child,b7pcint3,Cohort Member's sex,-9.0,Refusal
+162158,BCS70,bcs7_parent_and_child,b7pcint3,Cohort Member's sex,-8.0,Don't know
+162159,BCS70,bcs7_parent_and_child,b7pcint3,Cohort Member's sex,-7.0,Other missing
+162160,BCS70,bcs7_parent_and_child,b7pcint3,Cohort Member's sex,-1.0,Not applicable
+162161,BCS70,bcs7_parent_and_child,b7pcint3,Cohort Member's sex,1.0,Interview with female CM
+162162,BCS70,bcs7_parent_and_child,b7pcint3,Cohort Member's sex,2.0,Interview with male CM
+162163,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),-9.0,Refusal
+162164,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),-8.0,Don't know
+162165,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),-7.0,Other missing
+162166,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),-1.0,Not applicable
+162167,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),1.0,White - British
+162168,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),2.0,White - Irish
+162169,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),3.0,Any other White background
+162170,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),4.0,Mixed - White and Black Caribbean
+162171,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),5.0,Mixed - White and Black African
+162172,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),6.0,Mixed - White and Asian
+162173,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),7.0,Any other mixed background
+162174,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),8.0,Asian/Asian British - Indian
+162175,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),9.0,Asian/Asian British - Pakistani
+162176,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),10.0,Asian/Asian British - Bangladeshi
+162177,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),11.0,Any other Asian background
+162178,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),12.0,Black/Black British - Caribbean
+162179,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),13.0,Black/Black British - African
+162180,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),14.0,Any other Black background
+162181,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),15.0,Chinese
+162182,BCS70,bcs7_parent_and_child,b7pcethe,Child's perceived ethnic group (England),95.0,Any other
+162183,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),-9.0,Refusal
+162184,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),-8.0,Don't know
+162185,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),-7.0,Other missing
+162186,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),-1.0,Not applicable
+162187,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),1.0,White - Welsh
+162188,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),2.0,White - other British
+162189,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),3.0,White - Irish
+162190,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),4.0,Any other White background
+162191,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),5.0,Mixed - White and Black Caribbean
+162192,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),6.0,Mixed - White and Black African
+162193,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),7.0,Mixed - White and Asian
+162194,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),8.0,Any other mixed background
+162195,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),9.0,Asian/Asian British - Indian
+162196,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),10.0,Asian/Asian British - Pakistani
+162197,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),11.0,Asian/Asian British - Bangladeshi
+162198,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),12.0,Any other Asian background
+162199,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),13.0,Black/Black British - Caribbean
+162200,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),14.0,Black/Black British - African
+162201,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),15.0,Any other Black background
+162202,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),16.0,Chinese
+162203,BCS70,bcs7_parent_and_child,b7pcethw,Child's perceived ethnic group (Wales),95.0,Any other
+162204,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),-9.0,Refusal
+162205,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),-8.0,Don't know
+162206,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),-7.0,Other missing
+162207,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),-1.0,Not applicable
+162208,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),1.0,White - Scottish
+162209,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),2.0,White - other British
+162210,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),3.0,White - Irish
+162211,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),4.0,Any other White background
+162212,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),5.0,Any mixed background
+162213,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),6.0,Asian/Asian Scottish/Asian British - Indian
+162214,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),7.0,Asian/Asian Scottish/Asian British - Pakistani
+162215,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),8.0,Asian/Asian Scottish/Asian British - Bangladeshi
+162216,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),9.0,Asian/Asian Scottish/Asian British - Chinese
+162217,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),10.0,Any other Asian background
+162218,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),11.0,Black/Black Scottish/Black British - Caribbean
+162219,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),12.0,Black/Black Scottish/Black British - African
+162220,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),13.0,Any other Black background
+162221,BCS70,bcs7_parent_and_child,b7pceths,Child's perceived ethnic group (Scotland),95.0,Any other background
+162222,BCS70,bcs7_parent_and_child,bd7pce2e,British/Irish White or other ethnicity - England,-1.0,Not applicable
+162223,BCS70,bcs7_parent_and_child,bd7pce2e,British/Irish White or other ethnicity - England,1.0,British or Irish White
+162224,BCS70,bcs7_parent_and_child,bd7pce2e,British/Irish White or other ethnicity - England,2.0,Not British or Irish White
+162225,BCS70,bcs7_parent_and_child,bd7pce2w,British/Irish White or other ethnicity - Wales,-1.0,Not applicable
+162226,BCS70,bcs7_parent_and_child,bd7pce2w,British/Irish White or other ethnicity - Wales,1.0,British or Irish White
+162227,BCS70,bcs7_parent_and_child,bd7pce2w,British/Irish White or other ethnicity - Wales,2.0,Not British or Irish White
+162228,BCS70,bcs7_parent_and_child,bd7pce2s,British/Irish White or other ethnicity - Scotland,-1.0,Not applicable
+162229,BCS70,bcs7_parent_and_child,bd7pce2s,British/Irish White or other ethnicity - Scotland,1.0,British or Irish White
+162230,BCS70,bcs7_parent_and_child,bd7pce2s,British/Irish White or other ethnicity - Scotland,2.0,Not British or Irish White
+162231,BCS70,bcs7_parent_and_child,bd7chdn,(Derived) Completed parent and child health questions.,1.0,Yes
+162232,BCS70,bcs7_parent_and_child,bd7chdn,(Derived) Completed parent and child health questions.,2.0,No
+162233,BCS70,bcs7_parent_and_child,b7pchea1,Whether child has long-standing illness,-9.0,Refusal
+162234,BCS70,bcs7_parent_and_child,b7pchea1,Whether child has long-standing illness,-8.0,Don't know
+162235,BCS70,bcs7_parent_and_child,b7pchea1,Whether child has long-standing illness,-7.0,Other missing
+162236,BCS70,bcs7_parent_and_child,b7pchea1,Whether child has long-standing illness,-1.0,Not applicable
+162237,BCS70,bcs7_parent_and_child,b7pchea1,Whether child has long-standing illness,1.0,Yes
+162238,BCS70,bcs7_parent_and_child,b7pchea1,Whether child has long-standing illness,2.0,No
+162239,BCS70,bcs7_parent_and_child,b7xche2a,(ICD-10) Type of long-standing illness,,
+162240,BCS70,bcs7_parent_and_child,b7xche2b,(ICD-10) Type of long-standing illness,,
+162241,BCS70,bcs7_parent_and_child,b7xche2c,(ICD-10) Type of long-standing illness,,
+162242,BCS70,bcs7_parent_and_child,b7xche2d,(ICD-10) Type of long-standing illness,,
+162243,BCS70,bcs7_parent_and_child,b7pchea3,Whether long-standing conditions limit child from everyday activities,-9.0,Refusal
+162244,BCS70,bcs7_parent_and_child,b7pchea3,Whether long-standing conditions limit child from everyday activities,-8.0,Don't know
+162245,BCS70,bcs7_parent_and_child,b7pchea3,Whether long-standing conditions limit child from everyday activities,-7.0,Other missing
+162246,BCS70,bcs7_parent_and_child,b7pchea3,Whether long-standing conditions limit child from everyday activities,-1.0,Not applicable
+162247,BCS70,bcs7_parent_and_child,b7pchea3,Whether long-standing conditions limit child from everyday activities,1.0,Yes - severe limitation
+162248,BCS70,bcs7_parent_and_child,b7pchea3,Whether long-standing conditions limit child from everyday activities,2.0,Yes - mild limitation
+162249,BCS70,bcs7_parent_and_child,b7pchea3,Whether long-standing conditions limit child from everyday activities,3.0,No limitations at all
+162250,BCS70,bcs7_parent_and_child,b7pchea4,Whether Cohort Member spends more time looking after child due to conditions,-9.0,Refusal
+162251,BCS70,bcs7_parent_and_child,b7pchea4,Whether Cohort Member spends more time looking after child due to conditions,-8.0,Don't know
+162252,BCS70,bcs7_parent_and_child,b7pchea4,Whether Cohort Member spends more time looking after child due to conditions,-7.0,Other missing
+162253,BCS70,bcs7_parent_and_child,b7pchea4,Whether Cohort Member spends more time looking after child due to conditions,-1.0,Not applicable
+162254,BCS70,bcs7_parent_and_child,b7pchea4,Whether Cohort Member spends more time looking after child due to conditions,1.0,Yes
+162255,BCS70,bcs7_parent_and_child,b7pchea4,Whether Cohort Member spends more time looking after child due to conditions,2.0,No
+162256,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,-9.0,Refusal
+162257,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,-8.0,Don't know
+162258,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,-7.0,Other missing
+162259,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,-1.0,Not applicable
+162260,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,1.0,No
+162261,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,2.0,"Yes, blindness or visual impairment"
+162262,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,3.0,"Yes, deafness or hearing disabilty"
+162263,BCS70,bcs7_parent_and_child,b7pche51,Child's disability (if registered disabled) - 01,4.0,"Yes, another type of disability"
+162264,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,-9.0,Refusal
+162265,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,-8.0,Don't know
+162266,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,-7.0,Other missing
+162267,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,-1.0,Not applicable
+162268,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,1.0,No
+162269,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,2.0,"Yes, blindness or visual impairment"
+162270,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,3.0,"Yes, deafness or hearing disabilty"
+162271,BCS70,bcs7_parent_and_child,b7pche52,Child's disability (if registered disabled) - 02,4.0,"Yes, another type of disability"
+162272,BCS70,bcs7_parent_and_child,b7xche6a,(ICD-10) Type of disability child has,,
+162273,BCS70,bcs7_parent_and_child,b7xche6b,(ICD-10) Type of disability child has,,
+162274,BCS70,bcs7_parent_and_child,b7xche6c,(ICD-10) Type of disability child has,,
+162275,BCS70,bcs7_parent_and_child,b7pchp1,Whether child has had accident / injuries requiring doctor's attention,-9.0,Refusal
+162276,BCS70,bcs7_parent_and_child,b7pchp1,Whether child has had accident / injuries requiring doctor's attention,-8.0,Don't know
+162277,BCS70,bcs7_parent_and_child,b7pchp1,Whether child has had accident / injuries requiring doctor's attention,-7.0,Other missing
+162278,BCS70,bcs7_parent_and_child,b7pchp1,Whether child has had accident / injuries requiring doctor's attention,-1.0,Not applicable
+162279,BCS70,bcs7_parent_and_child,b7pchp1,Whether child has had accident / injuries requiring doctor's attention,1.0,Yes
+162280,BCS70,bcs7_parent_and_child,b7pchp1,Whether child has had accident / injuries requiring doctor's attention,2.0,No
+162281,BCS70,bcs7_parent_and_child,b7pchp1n,Number of accidents / injuries requiring doctor's attention child has had,-9.0,Refusal
+162282,BCS70,bcs7_parent_and_child,b7pchp1n,Number of accidents / injuries requiring doctor's attention child has had,-8.0,Don't know
+162283,BCS70,bcs7_parent_and_child,b7pchp1n,Number of accidents / injuries requiring doctor's attention child has had,-7.0,Other missing
+162284,BCS70,bcs7_parent_and_child,b7pchp1n,Number of accidents / injuries requiring doctor's attention child has had,-1.0,Not applicable
+162285,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,-9.0,Refusal
+162286,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,-8.0,Don't know
+162287,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,-7.0,Other missing
+162288,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,-1.0,Not applicable
+162289,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,1.0,Loss of consciousness / knocked out
+162290,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,2.0,Injury to head without being knocked out
+162291,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,3.0,Broken bone or fracture
+162292,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,4.0,Near drowning
+162293,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,5.0,Swallowed household cleaner / other poisons / pills
+162294,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,6.0,Swallowed object
+162295,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,7.0,Injury to mouth or tooth
+162296,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,8.0,Burn or scald
+162297,BCS70,bcs7_parent_and_child,b7pchp2,Most severe (or only) accident or injury,9.0,Other sort of accident or injury
+162298,BCS70,bcs7_parent_and_child,b7xch2a,(ICD-10) Type of accident or injury child has had,,
+162299,BCS70,bcs7_parent_and_child,b7xch2b,(ICD-10) Type of accident or injury child has had,,
+162300,BCS70,bcs7_parent_and_child,b7pchog2,Child's age when this accident / injury happened,-9.0,Refusal
+162301,BCS70,bcs7_parent_and_child,b7pchog2,Child's age when this accident / injury happened,-8.0,Don't know
+162302,BCS70,bcs7_parent_and_child,b7pchog2,Child's age when this accident / injury happened,-7.0,Other missing
+162303,BCS70,bcs7_parent_and_child,b7pchog2,Child's age when this accident / injury happened,-1.0,Not applicable
+162304,BCS70,bcs7_parent_and_child,b7pchp3,Whether child has been admitted to hospital due to an illness / health problem,-9.0,Refusal
+162305,BCS70,bcs7_parent_and_child,b7pchp3,Whether child has been admitted to hospital due to an illness / health problem,-8.0,Don't know
+162306,BCS70,bcs7_parent_and_child,b7pchp3,Whether child has been admitted to hospital due to an illness / health problem,-7.0,Other missing
+162307,BCS70,bcs7_parent_and_child,b7pchp3,Whether child has been admitted to hospital due to an illness / health problem,-1.0,Not applicable
+162308,BCS70,bcs7_parent_and_child,b7pchp3,Whether child has been admitted to hospital due to an illness / health problem,1.0,Yes
+162309,BCS70,bcs7_parent_and_child,b7pchp3,Whether child has been admitted to hospital due to an illness / health problem,2.0,No
+162310,BCS70,bcs7_parent_and_child,b7pchp3n,Number of times child has been admitted to hospital due to an illness,-9.0,Refusal
+162311,BCS70,bcs7_parent_and_child,b7pchp3n,Number of times child has been admitted to hospital due to an illness,-8.0,Don't know
+162312,BCS70,bcs7_parent_and_child,b7pchp3n,Number of times child has been admitted to hospital due to an illness,-7.0,Other missing
+162313,BCS70,bcs7_parent_and_child,b7pchp3n,Number of times child has been admitted to hospital due to an illness,-1.0,Not applicable
+162314,BCS70,bcs7_parent_and_child,b7xchp3a,(ICD-10) Reason for most serious (or only) admission to hospital,,
+162315,BCS70,bcs7_parent_and_child,b7xchp3b,(ICD-10) Reason for most serious (or only) admission to hospital,,
+162316,BCS70,bcs7_parent_and_child,b7xchp3c,(ICD-10) Reason for most serious (or only) admission to hospital,,
+162317,BCS70,bcs7_parent_and_child,b7xchp3d,(ICD-10) Reason for most serious (or only) admission to hospital,,
+162318,BCS70,bcs7_parent_and_child,b7pchog3,Child's age when admitted to hospital,-9.0,Refusal
+162319,BCS70,bcs7_parent_and_child,b7pchog3,Child's age when admitted to hospital,-8.0,Don't know
+162320,BCS70,bcs7_parent_and_child,b7pchog3,Child's age when admitted to hospital,-7.0,Other missing
+162321,BCS70,bcs7_parent_and_child,b7pchog3,Child's age when admitted to hospital,-1.0,Not applicable
+162322,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,-9.0,Refusal
+162323,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,-8.0,Don't know
+162324,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,-7.0,Other missing
+162325,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,-1.0,Not applicable
+162326,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,1.0,All the immunisations offered
+162327,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,2.0,"Some immunisations, but not all those offered"
+162328,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,3.0,"Offered immunisations, but did not have any"
+162329,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,4.0,Not offered any immunisations
+162330,BCS70,bcs7_parent_and_child,b7pcimm1,Number of immunisations child had during his/her early years,5.0,Don t know/don t remember
+162331,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,-9.0,Refusal
+162332,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,-8.0,Don't know
+162333,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,-7.0,Other missing
+162334,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,-1.0,Not applicable
+162335,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,1.0,DPT or triple vaccine - combined injection including Diphthe
+162336,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,2.0,Polio vaccine (by mouth)
+162337,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,3.0,"MMR - combined vaccine for Measles, Mumps and Rubella (Germa"
+162338,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,4.0,"Measles, mumps and/or Rubella (German Measles) given separat"
+162339,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,5.0,BCG for Tuberculosis
+162340,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,6.0,Don t know/don t remember
+162341,BCS70,bcs7_parent_and_child,b7pcim21,Types of immunisations child had during his/her early years - 01,7.0,None of these
+162342,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,-9.0,Refusal
+162343,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,-8.0,Don't know
+162344,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,-7.0,Other missing
+162345,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,-1.0,Not applicable
+162346,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,1.0,DPT or triple vaccine - combined injection including Diphthe
+162347,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,2.0,Polio vaccine (by mouth)
+162348,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,3.0,"MMR - combined vaccine for Measles, Mumps and Rubella (Germa"
+162349,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,4.0,"Measles, mumps and/or Rubella (German Measles) given separat"
+162350,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,5.0,BCG for Tuberculosis
+162351,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,6.0,Don t know/don t remember
+162352,BCS70,bcs7_parent_and_child,b7pcim22,Types of immunisations child had during his/her early years - 02,7.0,None of these
+162353,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,-9.0,Refusal
+162354,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,-8.0,Don't know
+162355,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,-7.0,Other missing
+162356,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,-1.0,Not applicable
+162357,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,1.0,DPT or triple vaccine - combined injection including Diphthe
+162358,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,2.0,Polio vaccine (by mouth)
+162359,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,3.0,"MMR - combined vaccine for Measles, Mumps and Rubella (Germa"
+162360,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,4.0,"Measles, mumps and/or Rubella (German Measles) given separat"
+162361,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,5.0,BCG for Tuberculosis
+162362,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,6.0,Don t know/don t remember
+162363,BCS70,bcs7_parent_and_child,b7pcim23,Types of immunisations child had during his/her early years - 03,7.0,None of these
+162364,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,-1.0,Not applicable
+162365,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,1.0,DPT or triple vaccine - combined injection including Diphthe
+162366,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,2.0,Polio vaccine (by mouth)
+162367,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,3.0,"MMR - combined vaccine for Measles, Mumps and Rubella (Germa"
+162368,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,4.0,"Measles, mumps and/or Rubella (German Measles) given separat"
+162369,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,5.0,BCG for Tuberculosis
+162370,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,6.0,Don t know/don t remember
+162371,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,7.0,None of these
+162372,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,-9.0,Refusal
+162373,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,-8.0,Don't know
+162374,BCS70,bcs7_parent_and_child,b7pcim24,Types of immunisations child had during his/her early years - 04,-7.0,Other missing
+162375,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,-9.0,Refusal
+162376,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,-8.0,Don't know
+162377,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,-7.0,Other missing
+162378,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,-1.0,Not applicable
+162379,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,1.0,DPT or triple vaccine - combined injection including Diphthe
+162380,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,2.0,Polio vaccine (by mouth)
+162381,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,3.0,"MMR - combined vaccine for Measles, Mumps and Rubella (Germa"
+162382,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,4.0,"Measles, mumps and/or Rubella (German Measles) given separat"
+162383,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,5.0,BCG for Tuberculosis
+162384,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,6.0,Don t know/don t remember
+162385,BCS70,bcs7_parent_and_child,b7pcim25,Types of immunisations child had during his/her early years - 05,7.0,None of these
+162386,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,-9.0,Refusal
+162387,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,-8.0,Don't know
+162388,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,-7.0,Other missing
+162389,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,-1.0,Not applicable
+162390,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,1.0,German Measles/Rubella
+162391,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,2.0,Measles
+162392,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,3.0,Whooping Cough
+162393,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,4.0,Chicken pox
+162394,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,5.0,Mumps
+162395,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,6.0,Tuberculosis
+162396,BCS70,bcs7_parent_and_child,b7pcin11,Illnesses child has had - 01,7.0,None of these
+162397,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,-9.0,Refusal
+162398,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,-8.0,Don't know
+162399,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,-7.0,Other missing
+162400,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,-1.0,Not applicable
+162401,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,1.0,German Measles/Rubella
+162402,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,2.0,Measles
+162403,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,3.0,Whooping Cough
+162404,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,4.0,Chicken pox
+162405,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,5.0,Mumps
+162406,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,6.0,Tuberculosis
+162407,BCS70,bcs7_parent_and_child,b7pcin12,Illnesses child has had - 02,7.0,None of these
+162408,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,-9.0,Refusal
+162409,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,-8.0,Don't know
+162410,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,-7.0,Other missing
+162411,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,-1.0,Not applicable
+162412,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,1.0,German Measles/Rubella
+162413,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,2.0,Measles
+162414,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,3.0,Whooping Cough
+162415,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,4.0,Chicken pox
+162416,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,5.0,Mumps
+162417,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,6.0,Tuberculosis
+162418,BCS70,bcs7_parent_and_child,b7pcin13,Illnesses child has had - 03,7.0,None of these
+162419,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,-9.0,Refusal
+162420,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,-8.0,Don't know
+162421,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,-7.0,Other missing
+162422,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,-1.0,Not applicable
+162423,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,1.0,German Measles/Rubella
+162424,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,2.0,Measles
+162425,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,3.0,Whooping Cough
+162426,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,4.0,Chicken pox
+162427,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,5.0,Mumps
+162428,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,6.0,Tuberculosis
+162429,BCS70,bcs7_parent_and_child,b7pcin14,Illnesses child has had - 04,7.0,None of these
+162430,BCS70,bcs7_parent_and_child,b7pcpeod,Whether child,-9.0,Refusal
+162431,BCS70,bcs7_parent_and_child,b7pcpeod,Whether child,-8.0,Don't know
+162432,BCS70,bcs7_parent_and_child,b7pcpeod,Whether child,-7.0,Other missing
+162433,BCS70,bcs7_parent_and_child,b7pcpeod,Whether child,-1.0,Not applicable
+162434,BCS70,bcs7_parent_and_child,b7pcpeod,Whether child,1.0,Has had her first menstrual period
+162435,BCS70,bcs7_parent_and_child,b7pcpeod,Whether child,2.0,Has not yet had a menstrual period
+162436,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,-9.0,Refusal
+162437,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,-8.0,Don't know
+162438,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,-7.0,Other missing
+162439,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,-1.0,Not applicable
+162440,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,1.0,Problems with eyesight or eyes
+162441,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,2.0,Problems with hearing or ears (excluding wax in ears)
+162442,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,3.0,Speech difficulty
+162443,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,4.0,Asthma
+162444,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,5.0,Eczema
+162445,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,6.0,Hayfever
+162446,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,7.0,Diabetes
+162447,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,8.0,"Epilepsy, fits, convulsions or blackouts"
+162448,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,9.0,Cancer or leukaemia
+162449,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,10.0,Any congenital abnormality or lesion
+162450,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,11.0,Crohn's disease / ulcerative colitis
+162451,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,12.0,Kidney or bladder disease
+162452,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,13.0,"Bone or joint problems, including arthritis"
+162453,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,14.0,Cerebral palsy
+162454,BCS70,bcs7_parent_and_child,b7pchl01,Whether child has ever had health problems / disabilities - 01,15.0,None of these
+162455,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,-9.0,Refusal
+162456,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,-8.0,Don't know
+162457,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,-7.0,Other missing
+162458,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,-1.0,Not applicable
+162459,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,1.0,Problems with eyesight or eyes
+162460,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,2.0,Problems with hearing or ears (excluding wax in ears)
+162461,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,3.0,Speech difficulty
+162462,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,4.0,Asthma
+162463,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,5.0,Eczema
+162464,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,6.0,Hayfever
+162465,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,7.0,Diabetes
+162466,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,8.0,"Epilepsy, fits, convulsions or blackouts"
+162467,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,9.0,Cancer or leukaemia
+162468,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,10.0,Any congenital abnormality or lesion
+162469,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,11.0,Crohn's disease / ulcerative colitis
+162470,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,12.0,Kidney or bladder disease
+162471,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,13.0,"Bone or joint problems, including arthritis"
+162472,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,14.0,Cerebral palsy
+162473,BCS70,bcs7_parent_and_child,b7pchl02,Whether child has ever had health problems / disabilities - 02,15.0,None of these
+162474,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,-9.0,Refusal
+162475,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,-8.0,Don't know
+162476,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,-7.0,Other missing
+162477,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,-1.0,Not applicable
+162478,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,1.0,Problems with eyesight or eyes
+162479,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,2.0,Problems with hearing or ears (excluding wax in ears)
+162480,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,3.0,Speech difficulty
+162481,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,4.0,Asthma
+162482,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,5.0,Eczema
+162483,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,6.0,Hayfever
+162484,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,7.0,Diabetes
+162485,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,8.0,"Epilepsy, fits, convulsions or blackouts"
+162486,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,9.0,Cancer or leukaemia
+162487,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,10.0,Any congenital abnormality or lesion
+162488,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,11.0,Crohn's disease / ulcerative colitis
+162489,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,12.0,Kidney or bladder disease
+162490,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,13.0,"Bone or joint problems, including arthritis"
+162491,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,14.0,Cerebral palsy
+162492,BCS70,bcs7_parent_and_child,b7pchl03,Whether child has ever had health problems / disabilities - 03,15.0,None of these
+162493,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,10.0,Any congenital abnormality or lesion
+162494,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,11.0,Crohn's disease / ulcerative colitis
+162495,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,12.0,Kidney or bladder disease
+162496,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,13.0,"Bone or joint problems, including arthritis"
+162497,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,14.0,Cerebral palsy
+162498,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,15.0,None of these
+162499,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,-9.0,Refusal
+162500,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,-8.0,Don't know
+162501,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,-7.0,Other missing
+162502,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,-1.0,Not applicable
+162503,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,1.0,Problems with eyesight or eyes
+162504,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,2.0,Problems with hearing or ears (excluding wax in ears)
+162505,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,3.0,Speech difficulty
+162506,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,4.0,Asthma
+162507,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,5.0,Eczema
+162508,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,6.0,Hayfever
+162509,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,7.0,Diabetes
+162510,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,8.0,"Epilepsy, fits, convulsions or blackouts"
+162511,BCS70,bcs7_parent_and_child,b7pchl04,Whether child has ever had health problems / disabilities - 04,9.0,Cancer or leukaemia
+162512,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,-9.0,Refusal
+162513,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,-8.0,Don't know
+162514,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,-7.0,Other missing
+162515,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,-1.0,Not applicable
+162516,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,1.0,Problems with eyesight or eyes
+162517,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,2.0,Problems with hearing or ears (excluding wax in ears)
+162518,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,3.0,Speech difficulty
+162519,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,4.0,Asthma
+162520,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,5.0,Eczema
+162521,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,6.0,Hayfever
+162522,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,7.0,Diabetes
+162523,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,8.0,"Epilepsy, fits, convulsions or blackouts"
+162524,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,9.0,Cancer or leukaemia
+162525,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,10.0,Any congenital abnormality or lesion
+162526,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,11.0,Crohn's disease / ulcerative colitis
+162527,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,12.0,Kidney or bladder disease
+162528,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,13.0,"Bone or joint problems, including arthritis"
+162529,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,14.0,Cerebral palsy
+162530,BCS70,bcs7_parent_and_child,b7pchl05,Whether child has ever had health problems / disabilities - 05,15.0,None of these
+162531,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,-9.0,Refusal
+162532,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,-8.0,Don't know
+162533,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,-7.0,Other missing
+162534,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,-1.0,Not applicable
+162535,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,1.0,Problems with eyesight or eyes
+162536,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,2.0,Problems with hearing or ears (excluding wax in ears)
+162537,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,3.0,Speech difficulty
+162538,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,4.0,Asthma
+162539,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,5.0,Eczema
+162540,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,6.0,Hayfever
+162541,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,7.0,Diabetes
+162542,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,8.0,"Epilepsy, fits, convulsions or blackouts"
+162543,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,9.0,Cancer or leukaemia
+162544,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,10.0,Any congenital abnormality or lesion
+162545,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,11.0,Crohn's disease / ulcerative colitis
+162546,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,12.0,Kidney or bladder disease
+162547,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,13.0,"Bone or joint problems, including arthritis"
+162548,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,14.0,Cerebral palsy
+162549,BCS70,bcs7_parent_and_child,b7pchl06,Whether child has ever had health problems / disabilities - 06,15.0,None of these
+162550,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,-9.0,Refusal
+162551,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,-8.0,Don't know
+162552,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,-7.0,Other missing
+162553,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,-1.0,Not applicable
+162554,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,1.0,Problems with eyesight or eyes
+162555,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,2.0,Problems with hearing or ears (excluding wax in ears)
+162556,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,3.0,Speech difficulty
+162557,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,4.0,Asthma
+162558,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,5.0,Eczema
+162559,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,6.0,Hayfever
+162560,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,7.0,Diabetes
+162561,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,8.0,"Epilepsy, fits, convulsions or blackouts"
+162562,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,9.0,Cancer or leukaemia
+162563,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,10.0,Any congenital abnormality or lesion
+162564,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,11.0,Crohn's disease / ulcerative colitis
+162565,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,12.0,Kidney or bladder disease
+162566,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,13.0,"Bone or joint problems, including arthritis"
+162567,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,14.0,Cerebral palsy
+162568,BCS70,bcs7_parent_and_child,b7pchl07,Whether child has ever had health problems / disabilities - 07,15.0,None of these
+162569,BCS70,bcs7_parent_and_child,b7pcht2,Whether child still has problems with his / her eyes,-9.0,Refusal
+162570,BCS70,bcs7_parent_and_child,b7pcht2,Whether child still has problems with his / her eyes,-8.0,Don't know
+162571,BCS70,bcs7_parent_and_child,b7pcht2,Whether child still has problems with his / her eyes,-7.0,Other missing
+162572,BCS70,bcs7_parent_and_child,b7pcht2,Whether child still has problems with his / her eyes,-1.0,Not applicable
+162573,BCS70,bcs7_parent_and_child,b7pcht2,Whether child still has problems with his / her eyes,1.0,Yes
+162574,BCS70,bcs7_parent_and_child,b7pcht2,Whether child still has problems with his / her eyes,2.0,No
+162575,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,-9.0,Refusal
+162576,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,-8.0,Don't know
+162577,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,-7.0,Other missing
+162578,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,-1.0,Not applicable
+162579,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,1.0,Short-sighted (has difficulty seeing distant things clearly)
+162580,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,2.0,Long-sighted (has difficulty seeing close-up things clearly)
+162581,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,3.0,Astigmatism
+162582,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,4.0,Squint
+162583,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,5.0,Colour blindness
+162584,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,6.0,Total blindness/severe visual impairment
+162585,BCS70,bcs7_parent_and_child,b7pcht41,Nature of child's eye problems - 01,7.0,Other (specify)
+162586,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,-9.0,Refusal
+162587,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,-8.0,Don't know
+162588,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,-7.0,Other missing
+162589,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,-1.0,Not applicable
+162590,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,1.0,Short-sighted (has difficulty seeing distant things clearly)
+162591,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,2.0,Long-sighted (has difficulty seeing close-up things clearly)
+162592,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,3.0,Astigmatism
+162593,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,4.0,Squint
+162594,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,5.0,Colour blindness
+162595,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,6.0,Total blindness/severe visual impairment
+162596,BCS70,bcs7_parent_and_child,b7pcht42,Nature of child's eye problems - 02,7.0,Other (specify)
+162597,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,-9.0,Refusal
+162598,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,-8.0,Don't know
+162599,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,-7.0,Other missing
+162600,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,-1.0,Not applicable
+162601,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,1.0,Short-sighted (has difficulty seeing distant things clearly)
+162602,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,2.0,Long-sighted (has difficulty seeing close-up things clearly)
+162603,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,3.0,Astigmatism
+162604,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,4.0,Squint
+162605,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,5.0,Colour blindness
+162606,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,6.0,Total blindness/severe visual impairment
+162607,BCS70,bcs7_parent_and_child,b7pcht43,Nature of child's eye problems - 03,7.0,Other (specify)
+162608,BCS70,bcs7_parent_and_child,b7xcht4a,(ICD-10) Child's other problem with eyes,,
+162609,BCS70,bcs7_parent_and_child,b7xcht4b,(ICD-10) Child's other problem with eyes,,
+162610,BCS70,bcs7_parent_and_child,b7pcht3,Child's age when eye problems first noticed,-9.0,Refusal
+162611,BCS70,bcs7_parent_and_child,b7pcht3,Child's age when eye problems first noticed,-8.0,Don't know
+162612,BCS70,bcs7_parent_and_child,b7pcht3,Child's age when eye problems first noticed,-7.0,Other missing
+162613,BCS70,bcs7_parent_and_child,b7pcht3,Child's age when eye problems first noticed,-1.0,Not applicable
+162614,BCS70,bcs7_parent_and_child,b7pcht5,Whether eye problems affect one or both eyes,-9.0,Refusal
+162615,BCS70,bcs7_parent_and_child,b7pcht5,Whether eye problems affect one or both eyes,-8.0,Don't know
+162616,BCS70,bcs7_parent_and_child,b7pcht5,Whether eye problems affect one or both eyes,-7.0,Other missing
+162617,BCS70,bcs7_parent_and_child,b7pcht5,Whether eye problems affect one or both eyes,-1.0,Not applicable
+162618,BCS70,bcs7_parent_and_child,b7pcht5,Whether eye problems affect one or both eyes,1.0,One eye
+162619,BCS70,bcs7_parent_and_child,b7pcht5,Whether eye problems affect one or both eyes,2.0,Both eyes
+162620,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,-9.0,Refusal
+162621,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,-8.0,Don't know
+162622,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,-7.0,Other missing
+162623,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,-1.0,Not applicable
+162624,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,1.0,Glasses
+162625,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,2.0,Contact lenses
+162626,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,3.0,Sight correcting operation(s)
+162627,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,4.0,No treatment
+162628,BCS70,bcs7_parent_and_child,b7pcht61,Whether child has had treatment for eye problems - 01,5.0,Other (specify)
+162629,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,-9.0,Refusal
+162630,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,-8.0,Don't know
+162631,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,-7.0,Other missing
+162632,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,-1.0,Not applicable
+162633,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,1.0,Glasses
+162634,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,2.0,Contact lenses
+162635,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,3.0,Sight correcting operation(s)
+162636,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,4.0,No treatment
+162637,BCS70,bcs7_parent_and_child,b7pcht62,Whether child has had treatment for eye problems - 02,5.0,Other (specify)
+162638,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,5.0,Other (specify)
+162639,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,-9.0,Refusal
+162640,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,-8.0,Don't know
+162641,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,-7.0,Other missing
+162642,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,-1.0,Not applicable
+162643,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,1.0,Glasses
+162644,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,2.0,Contact lenses
+162645,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,3.0,Sight correcting operation(s)
+162646,BCS70,bcs7_parent_and_child,b7pcht63,Whether child has had treatment for eye problems - 03,4.0,No treatment
+162647,BCS70,bcs7_parent_and_child,b7xcht6a,(ICD-10) Type of treatment for child's problems with eyes,,
+162648,BCS70,bcs7_parent_and_child,b7pchr2,Whether child still has problems with ears,-9.0,Refusal
+162649,BCS70,bcs7_parent_and_child,b7pchr2,Whether child still has problems with ears,-8.0,Don't know
+162650,BCS70,bcs7_parent_and_child,b7pchr2,Whether child still has problems with ears,-7.0,Other missing
+162651,BCS70,bcs7_parent_and_child,b7pchr2,Whether child still has problems with ears,-1.0,Not applicable
+162652,BCS70,bcs7_parent_and_child,b7pchr2,Whether child still has problems with ears,1.0,Yes
+162653,BCS70,bcs7_parent_and_child,b7pchr2,Whether child still has problems with ears,2.0,No
+162654,BCS70,bcs7_parent_and_child,b7xchr5a,(ICD-10) Child's other problem with ears,,
+162655,BCS70,bcs7_parent_and_child,b7xchr5b,(ICD-10) Child's other problem with ears,,
+162656,BCS70,bcs7_parent_and_child,b7xchr5c,(ICD-10) Child's other problem with ears,,
+162657,BCS70,bcs7_parent_and_child,b7pchr3,Child's age when ear problems first noticed,-9.0,Refusal
+162658,BCS70,bcs7_parent_and_child,b7pchr3,Child's age when ear problems first noticed,-8.0,Don't know
+162659,BCS70,bcs7_parent_and_child,b7pchr3,Child's age when ear problems first noticed,-7.0,Other missing
+162660,BCS70,bcs7_parent_and_child,b7pchr3,Child's age when ear problems first noticed,-1.0,Not applicable
+162661,BCS70,bcs7_parent_and_child,b7pchr4,Whether ear problems affect one or both ears,-9.0,Refusal
+162662,BCS70,bcs7_parent_and_child,b7pchr4,Whether ear problems affect one or both ears,-8.0,Don't know
+162663,BCS70,bcs7_parent_and_child,b7pchr4,Whether ear problems affect one or both ears,-7.0,Other missing
+162664,BCS70,bcs7_parent_and_child,b7pchr4,Whether ear problems affect one or both ears,-1.0,Not applicable
+162665,BCS70,bcs7_parent_and_child,b7pchr4,Whether ear problems affect one or both ears,1.0,One ear only
+162666,BCS70,bcs7_parent_and_child,b7pchr4,Whether ear problems affect one or both ears,2.0,Both ears
+162667,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,-9.0,Refusal
+162668,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,-8.0,Don't know
+162669,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,-7.0,Other missing
+162670,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,-1.0,Not applicable
+162671,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,1.0,Hearing aid
+162672,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,2.0,Grommets
+162673,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,3.0,No treatment
+162674,BCS70,bcs7_parent_and_child,b7pchr61,Whether child has had treatment for ear problems - 01,4.0,Other (specify)
+162675,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,-9.0,Refusal
+162676,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,-8.0,Don't know
+162677,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,-7.0,Other missing
+162678,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,-1.0,Not applicable
+162679,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,1.0,Hearing aid
+162680,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,2.0,Grommets
+162681,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,3.0,No treatment
+162682,BCS70,bcs7_parent_and_child,b7pchr62,Whether child has had treatment for ear problems - 02,4.0,Other (specify)
+162683,BCS70,bcs7_parent_and_child,b7xchr6a,(ICD-10) Type of treatment for child's ear problems,,
+162684,BCS70,bcs7_parent_and_child,b7pcspc2,Whether child still has speech problems,-9.0,Refusal
+162685,BCS70,bcs7_parent_and_child,b7pcspc2,Whether child still has speech problems,-8.0,Don't know
+162686,BCS70,bcs7_parent_and_child,b7pcspc2,Whether child still has speech problems,-7.0,Other missing
+162687,BCS70,bcs7_parent_and_child,b7pcspc2,Whether child still has speech problems,-1.0,Not applicable
+162688,BCS70,bcs7_parent_and_child,b7pcspc2,Whether child still has speech problems,1.0,Yes
+162689,BCS70,bcs7_parent_and_child,b7pcspc2,Whether child still has speech problems,2.0,No
+162690,BCS70,bcs7_parent_and_child,b7pcspc3,Child's age when speech problems first noticed,-9.0,Refusal
+162691,BCS70,bcs7_parent_and_child,b7pcspc3,Child's age when speech problems first noticed,-8.0,Don't know
+162692,BCS70,bcs7_parent_and_child,b7pcspc3,Child's age when speech problems first noticed,-7.0,Other missing
+162693,BCS70,bcs7_parent_and_child,b7pcspc3,Child's age when speech problems first noticed,-1.0,Not applicable
+162694,BCS70,bcs7_parent_and_child,b7xcsp4a,(ICD-10) Type of child's speech difficulty,,
+162695,BCS70,bcs7_parent_and_child,b7xcsp4b,(ICD-10) Type of child's speech difficulty,,
+162696,BCS70,bcs7_parent_and_child,b7pcspc5,Whether child has ever had speech therapy,-9.0,Refusal
+162697,BCS70,bcs7_parent_and_child,b7pcspc5,Whether child has ever had speech therapy,-8.0,Don't know
+162698,BCS70,bcs7_parent_and_child,b7pcspc5,Whether child has ever had speech therapy,-7.0,Other missing
+162699,BCS70,bcs7_parent_and_child,b7pcspc5,Whether child has ever had speech therapy,-1.0,Not applicable
+162700,BCS70,bcs7_parent_and_child,b7pcspc5,Whether child has ever had speech therapy,1.0,Yes
+162701,BCS70,bcs7_parent_and_child,b7pcspc5,Whether child has ever had speech therapy,2.0,No
+162702,BCS70,bcs7_parent_and_child,b7pcast2,Whether child has had an attack of asthma in the last 12 months,-9.0,Refusal
+162703,BCS70,bcs7_parent_and_child,b7pcast2,Whether child has had an attack of asthma in the last 12 months,-8.0,Don't know
+162704,BCS70,bcs7_parent_and_child,b7pcast2,Whether child has had an attack of asthma in the last 12 months,-7.0,Other missing
+162705,BCS70,bcs7_parent_and_child,b7pcast2,Whether child has had an attack of asthma in the last 12 months,-1.0,Not applicable
+162706,BCS70,bcs7_parent_and_child,b7pcast2,Whether child has had an attack of asthma in the last 12 months,1.0,Yes
+162707,BCS70,bcs7_parent_and_child,b7pcast2,Whether child has had an attack of asthma in the last 12 months,2.0,No
+162708,BCS70,bcs7_parent_and_child,b7pcecz2,Whether child has had eczema in the last 12 months,-9.0,Refusal
+162709,BCS70,bcs7_parent_and_child,b7pcecz2,Whether child has had eczema in the last 12 months,-8.0,Don't know
+162710,BCS70,bcs7_parent_and_child,b7pcecz2,Whether child has had eczema in the last 12 months,-7.0,Other missing
+162711,BCS70,bcs7_parent_and_child,b7pcecz2,Whether child has had eczema in the last 12 months,-1.0,Not applicable
+162712,BCS70,bcs7_parent_and_child,b7pcecz2,Whether child has had eczema in the last 12 months,1.0,Yes
+162713,BCS70,bcs7_parent_and_child,b7pcecz2,Whether child has had eczema in the last 12 months,2.0,No
+162714,BCS70,bcs7_parent_and_child,b7pchfe2,Whether child has had hayfever in the last 12 months,-9.0,Refusal
+162715,BCS70,bcs7_parent_and_child,b7pchfe2,Whether child has had hayfever in the last 12 months,-8.0,Don't know
+162716,BCS70,bcs7_parent_and_child,b7pchfe2,Whether child has had hayfever in the last 12 months,-7.0,Other missing
+162717,BCS70,bcs7_parent_and_child,b7pchfe2,Whether child has had hayfever in the last 12 months,-1.0,Not applicable
+162718,BCS70,bcs7_parent_and_child,b7pchfe2,Whether child has had hayfever in the last 12 months,1.0,Yes
+162719,BCS70,bcs7_parent_and_child,b7pchfe2,Whether child has had hayfever in the last 12 months,2.0,No
+162720,BCS70,bcs7_parent_and_child,b7pcdia2,Child's age when first diagnosed with diabetes,-9.0,Refusal
+162721,BCS70,bcs7_parent_and_child,b7pcdia2,Child's age when first diagnosed with diabetes,-8.0,Don't know
+162722,BCS70,bcs7_parent_and_child,b7pcdia2,Child's age when first diagnosed with diabetes,-7.0,Other missing
+162723,BCS70,bcs7_parent_and_child,b7pcdia2,Child's age when first diagnosed with diabetes,-1.0,Not applicable
+162724,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,-9.0,Refusal
+162725,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,-8.0,Don't know
+162726,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,-7.0,Other missing
+162727,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,-1.0,Not applicable
+162728,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,1.0,Major convulsion or grand mal
+162729,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,2.0,Minor convulsion or petit mal
+162730,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,3.0,Mixed form of epilepsy
+162731,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,4.0,Fainting or blackouts
+162732,BCS70,bcs7_parent_and_child,b7pcfi21,Types of epilepsy / fits child has experienced - 01,5.0,Other attacks or turns (specify)
+162733,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,-9.0,Refusal
+162734,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,-8.0,Don't know
+162735,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,-7.0,Other missing
+162736,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,-1.0,Not applicable
+162737,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,1.0,Major convulsion or grand mal
+162738,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,2.0,Minor convulsion or petit mal
+162739,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,3.0,Mixed form of epilepsy
+162740,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,4.0,Fainting or blackouts
+162741,BCS70,bcs7_parent_and_child,b7pcfi22,Types of epilepsy / fits child has experienced - 02,5.0,Other attacks or turns (specify)
+162742,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,-9.0,Refusal
+162743,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,-8.0,Don't know
+162744,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,-7.0,Other missing
+162745,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,-1.0,Not applicable
+162746,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,1.0,Major convulsion or grand mal
+162747,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,2.0,Minor convulsion or petit mal
+162748,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,3.0,Mixed form of epilepsy
+162749,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,4.0,Fainting or blackouts
+162750,BCS70,bcs7_parent_and_child,b7pcfi23,Types of epilepsy / fits child has experienced - 03,5.0,Other attacks or turns (specify)
+162751,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,-9.0,Refusal
+162752,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,-8.0,Don't know
+162753,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,-7.0,Other missing
+162754,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,-1.0,Not applicable
+162755,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,1.0,Major convulsion or grand mal
+162756,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,2.0,Minor convulsion or petit mal
+162757,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,3.0,Mixed form of epilepsy
+162758,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,4.0,Fainting or blackouts
+162759,BCS70,bcs7_parent_and_child,b7pcfi24,Types of epilepsy / fits child has experienced - 04,5.0,Other attacks or turns (specify)
+162760,BCS70,bcs7_parent_and_child,b7xcfi4a,(ICD-10) Nature of fits child has experienced,,
+162761,BCS70,bcs7_parent_and_child,b7xcfi4b,(ICD-10) Nature of fits child has experienced,,
+162762,BCS70,bcs7_parent_and_child,b7xcfi4c,(ICD-10) Nature of fits child has experienced,,
+162763,BCS70,bcs7_parent_and_child,b7pcfit5,Child's age when had first attack,-9.0,Refusal
+162764,BCS70,bcs7_parent_and_child,b7pcfit5,Child's age when had first attack,-8.0,Don't know
+162765,BCS70,bcs7_parent_and_child,b7pcfit5,Child's age when had first attack,-7.0,Other missing
+162766,BCS70,bcs7_parent_and_child,b7pcfit5,Child's age when had first attack,-1.0,Not applicable
+162767,BCS70,bcs7_parent_and_child,b7pcfit6,Child's age when had most recent attack,-9.0,Refusal
+162768,BCS70,bcs7_parent_and_child,b7pcfit6,Child's age when had most recent attack,-8.0,Don't know
+162769,BCS70,bcs7_parent_and_child,b7pcfit6,Child's age when had most recent attack,-7.0,Other missing
+162770,BCS70,bcs7_parent_and_child,b7pcfit6,Child's age when had most recent attack,-1.0,Not applicable
+162771,BCS70,bcs7_parent_and_child,b7pccan2,Child's age when diagnosed with cancer,-9.0,Refusal
+162772,BCS70,bcs7_parent_and_child,b7pccan2,Child's age when diagnosed with cancer,-8.0,Don't know
+162773,BCS70,bcs7_parent_and_child,b7pccan2,Child's age when diagnosed with cancer,-7.0,Other missing
+162774,BCS70,bcs7_parent_and_child,b7pccan2,Child's age when diagnosed with cancer,-1.0,Not applicable
+162775,BCS70,bcs7_parent_and_child,b7xccan3,(ICD-10) Type of cancer child has been diagnosed with,,
+162776,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,-9.0,Refusal
+162777,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,-8.0,Don't know
+162778,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,-7.0,Other missing
+162779,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,-1.0,Not applicable
+162780,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,1.0,Congenital heart disease
+162781,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,2.0,Congenital hip dislocation
+162782,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,3.0,Club foot or talipes
+162783,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,4.0,Hare lip or cleft palate
+162784,BCS70,bcs7_parent_and_child,b7pccon2,Nature of child's congenital abnormality,5.0,Other
+162785,BCS70,bcs7_parent_and_child,b7xcco2a,(ICD-10) Other congenital abnormality,,
+162786,BCS70,bcs7_parent_and_child,b7xcco2b,(ICD-10) Other congenital abnormality,,
+162787,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,-9.0,Refusal
+162788,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,-8.0,Don't know
+162789,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,-7.0,Other missing
+162790,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,-1.0,Not applicable
+162791,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,1.0,None
+162792,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,2.0,"Yes, an illness"
+162793,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,3.0,"Yes, an operation"
+162794,BCS70,bcs7_parent_and_child,b7pcotea,Whether child has had other health problems requiring specialist's help,4.0,"Yes, both illness and operation"
+162795,BCS70,bcs7_parent_and_child,b7xcot2a,(ICD-10) Nature of illness or operation,,
+162796,BCS70,bcs7_parent_and_child,b7xcot2b,(ICD-10) Nature of illness or operation,,
+162797,BCS70,bcs7_parent_and_child,b7xcot2c,(ICD-10) Nature of illness or operation,,
+162798,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,-9.0,Refusal
+162799,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,-8.0,Don't know
+162800,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,-7.0,Other missing
+162801,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,-1.0,Not applicable
+162802,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,1.0,ADHD - Attention Deficit and Hyperactivity Disorder
+162803,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,2.0,"Autism, Asperger s Syndrome or similar condition"
+162804,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,3.0,Dyslexia
+162805,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,4.0,Anxiety or other withdrawn behaviour
+162806,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,5.0,Aggressive behaviour or conduct disorder
+162807,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,6.0,Anorexia or bulimia
+162808,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,7.0,Any other behavioural or mental problem or learning difficul
+162809,BCS70,bcs7_parent_and_child,b7pcmea1,Whether child has ever been diagnosed with a mental problem - 01,8.0,None
+162810,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,1.0,ADHD - Attention Deficit and Hyperactivity Disorder
+162811,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,2.0,"Autism, Asperger s Syndrome or similar condition"
+162812,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,3.0,Dyslexia
+162813,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,4.0,Anxiety or other withdrawn behaviour
+162814,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,5.0,Aggressive behaviour or conduct disorder
+162815,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,6.0,Anorexia or bulimia
+162816,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,7.0,Any other behavioural or mental problem or learning difficul
+162817,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,8.0,None
+162818,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,-9.0,Refusal
+162819,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,-8.0,Don't know
+162820,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,-7.0,Other missing
+162821,BCS70,bcs7_parent_and_child,b7pcmea2,Whether child has ever been diagnosed with a mental problem - 02,-1.0,Not applicable
+162822,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,-9.0,Refusal
+162823,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,-8.0,Don't know
+162824,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,-7.0,Other missing
+162825,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,-1.0,Not applicable
+162826,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,1.0,ADHD - Attention Deficit and Hyperactivity Disorder
+162827,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,2.0,"Autism, Asperger s Syndrome or similar condition"
+162828,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,3.0,Dyslexia
+162829,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,4.0,Anxiety or other withdrawn behaviour
+162830,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,5.0,Aggressive behaviour or conduct disorder
+162831,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,6.0,Anorexia or bulimia
+162832,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,7.0,Any other behavioural or mental problem or learning difficul
+162833,BCS70,bcs7_parent_and_child,b7pcmea3,Whether child has ever been diagnosed with a mental problem - 03,8.0,None
+162834,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,-9.0,Refusal
+162835,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,-8.0,Don't know
+162836,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,-7.0,Other missing
+162837,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,-1.0,Not applicable
+162838,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,1.0,ADHD - Attention Deficit and Hyperactivity Disorder
+162839,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,2.0,"Autism, Asperger s Syndrome or similar condition"
+162840,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,3.0,Dyslexia
+162841,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,4.0,Anxiety or other withdrawn behaviour
+162842,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,5.0,Aggressive behaviour or conduct disorder
+162843,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,6.0,Anorexia or bulimia
+162844,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,7.0,Any other behavioural or mental problem or learning difficul
+162845,BCS70,bcs7_parent_and_child,b7pcmea4,Whether child has ever been diagnosed with a mental problem - 04,8.0,None
+162846,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,-9.0,Refusal
+162847,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,-8.0,Don't know
+162848,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,-7.0,Other missing
+162849,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,-1.0,Not applicable
+162850,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,1.0,ADHD - Attention Deficit and Hyperactivity Disorder
+162851,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,2.0,"Autism, Asperger s Syndrome or similar condition"
+162852,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,3.0,Dyslexia
+162853,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,4.0,Anxiety or other withdrawn behaviour
+162854,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,5.0,Aggressive behaviour or conduct disorder
+162855,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,6.0,Anorexia or bulimia
+162856,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,7.0,Any other behavioural or mental problem or learning difficul
+162857,BCS70,bcs7_parent_and_child,b7pcmea5,Whether child has ever been diagnosed with a mental problem - 05,8.0,None
+162858,BCS70,bcs7_parent_and_child,b7pcbev1,Whether child has a good appetite,-9.0,Refusal
+162859,BCS70,bcs7_parent_and_child,b7pcbev1,Whether child has a good appetite,-8.0,Don't know
+162860,BCS70,bcs7_parent_and_child,b7pcbev1,Whether child has a good appetite,-7.0,Other missing
+162861,BCS70,bcs7_parent_and_child,b7pcbev1,Whether child has a good appetite,-1.0,Not applicable
+162862,BCS70,bcs7_parent_and_child,b7pcbev1,Whether child has a good appetite,1.0,Usually has a good appetite
+162863,BCS70,bcs7_parent_and_child,b7pcbev1,Whether child has a good appetite,2.0,Sometimes has a poor appetite
+162864,BCS70,bcs7_parent_and_child,b7pcbev1,Whether child has a good appetite,3.0,Often has a poor appetite
+162865,BCS70,bcs7_parent_and_child,b7pcbev2,Whether child is faddy about eating,-9.0,Refusal
+162866,BCS70,bcs7_parent_and_child,b7pcbev2,Whether child is faddy about eating,-8.0,Don't know
+162867,BCS70,bcs7_parent_and_child,b7pcbev2,Whether child is faddy about eating,-7.0,Other missing
+162868,BCS70,bcs7_parent_and_child,b7pcbev2,Whether child is faddy about eating,-1.0,Not applicable
+162869,BCS70,bcs7_parent_and_child,b7pcbev2,Whether child is faddy about eating,1.0,Is not faddy about eating
+162870,BCS70,bcs7_parent_and_child,b7pcbev2,Whether child is faddy about eating,2.0,"Has a few fads, won't eat certain things"
+162871,BCS70,bcs7_parent_and_child,b7pcbev2,Whether child is faddy about eating,3.0,"Is very faddy, won't eat many different foods"
+162872,BCS70,bcs7_parent_and_child,b7pcbev3,Whether child has difficulties in settling at bedtime,-9.0,Refusal
+162873,BCS70,bcs7_parent_and_child,b7pcbev3,Whether child has difficulties in settling at bedtime,-8.0,Don't know
+162874,BCS70,bcs7_parent_and_child,b7pcbev3,Whether child has difficulties in settling at bedtime,-7.0,Other missing
+162875,BCS70,bcs7_parent_and_child,b7pcbev3,Whether child has difficulties in settling at bedtime,-1.0,Not applicable
+162876,BCS70,bcs7_parent_and_child,b7pcbev3,Whether child has difficulties in settling at bedtime,1.0,Usually has no difficulties in settling at bedtime
+162877,BCS70,bcs7_parent_and_child,b7pcbev3,Whether child has difficulties in settling at bedtime,2.0,Sometimes has difficulties in settling at bedtime
+162878,BCS70,bcs7_parent_and_child,b7pcbev3,Whether child has difficulties in settling at bedtime,3.0,Often has difficulties in settling at bedtime
+162879,BCS70,bcs7_parent_and_child,b7pcbh4a,Whether child wets or soils pants during the day,-9.0,Refusal
+162880,BCS70,bcs7_parent_and_child,b7pcbh4a,Whether child wets or soils pants during the day,-8.0,Don't know
+162881,BCS70,bcs7_parent_and_child,b7pcbh4a,Whether child wets or soils pants during the day,-7.0,Other missing
+162882,BCS70,bcs7_parent_and_child,b7pcbh4a,Whether child wets or soils pants during the day,-1.0,Not applicable
+162883,BCS70,bcs7_parent_and_child,b7pcbh4a,Whether child wets or soils pants during the day,1.0,Yes
+162884,BCS70,bcs7_parent_and_child,b7pcbh4a,Whether child wets or soils pants during the day,2.0,No
+162885,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,-9.0,Refusal
+162886,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,-8.0,Don't know
+162887,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,-7.0,Other missing
+162888,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,-1.0,Not applicable
+162889,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,1.0,Never wets during the day
+162890,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,2.0,Occasionally wets during the day
+162891,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,3.0,Wets during the day once or twice a week
+162892,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,4.0,Wets during the day 3 or more times a week
+162893,BCS70,bcs7_parent_and_child,b7pcbev4,Whether child wets pants during the day,5.0,Is still in nappies
+162894,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,-9.0,Refusal
+162895,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,-8.0,Don't know
+162896,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,-7.0,Other missing
+162897,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,-1.0,Not applicable
+162898,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,1.0,Never wets the bed at night
+162899,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,2.0,Occasionally wets the bed at night
+162900,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,3.0,Wets the bed at night once or twice a week
+162901,BCS70,bcs7_parent_and_child,b7pcbev5,Whether child wets the bed at night,4.0,Wets the bed at night three or more times a week
+162902,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,-9.0,Refusal
+162903,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,-8.0,Don't know
+162904,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,-7.0,Other missing
+162905,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,-1.0,Not applicable
+162906,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,1.0,Is completely bowel trained: never dirties pants
+162907,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,2.0,Occasionally soils pants
+162908,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,3.0,Soils pants once or twice a week
+162909,BCS70,bcs7_parent_and_child,b7pcbev6,Whether child soils pants,4.0,Soils pants 3 or more times a week
+162910,BCS70,bcs7_parent_and_child,b7pcbfe1,Whether child's mother breast fed the child,-9.0,Refusal
+162911,BCS70,bcs7_parent_and_child,b7pcbfe1,Whether child's mother breast fed the child,-8.0,Don't know
+162912,BCS70,bcs7_parent_and_child,b7pcbfe1,Whether child's mother breast fed the child,-7.0,Other missing
+162913,BCS70,bcs7_parent_and_child,b7pcbfe1,Whether child's mother breast fed the child,-1.0,Not applicable
+162914,BCS70,bcs7_parent_and_child,b7pcbfe1,Whether child's mother breast fed the child,1.0,Yes
+162915,BCS70,bcs7_parent_and_child,b7pcbfe1,Whether child's mother breast fed the child,2.0,No
+162916,BCS70,bcs7_parent_and_child,b7pcbfe2,Child's age when stopped breastfeeding (months),-9.0,Refusal
+162917,BCS70,bcs7_parent_and_child,b7pcbfe2,Child's age when stopped breastfeeding (months),-8.0,Don't know
+162918,BCS70,bcs7_parent_and_child,b7pcbfe2,Child's age when stopped breastfeeding (months),-7.0,Other missing
+162919,BCS70,bcs7_parent_and_child,b7pcbfe2,Child's age when stopped breastfeeding (months),-1.0,Not applicable
+162920,BCS70,bcs7_parent_and_child,b7pcbfe2,Child's age when stopped breastfeeding (months),95.0,Still breastfeeding
+162921,BCS70,bcs7_parent_and_child,b7pcbfe2,Child's age when stopped breastfeeding (months),98.0,Can't remember
+162922,BCS70,bcs7_parent_and_child,bd7cldn,(Derived) Completed parent and child lone parent questions.,1.0,Yes
+162923,BCS70,bcs7_parent_and_child,bd7cldn,(Derived) Completed parent and child lone parent questions.,2.0,No
+162924,BCS70,bcs7_parent_and_child,b7pcse1a,Whether child has been separated from Cohort Member for over a month,-9.0,Refusal
+162925,BCS70,bcs7_parent_and_child,b7pcse1a,Whether child has been separated from Cohort Member for over a month,-8.0,Don't know
+162926,BCS70,bcs7_parent_and_child,b7pcse1a,Whether child has been separated from Cohort Member for over a month,-7.0,Other missing
+162927,BCS70,bcs7_parent_and_child,b7pcse1a,Whether child has been separated from Cohort Member for over a month,-1.0,Not applicable
+162928,BCS70,bcs7_parent_and_child,b7pcse1a,Whether child has been separated from Cohort Member for over a month,1.0,Yes
+162929,BCS70,bcs7_parent_and_child,b7pcse1a,Whether child has been separated from Cohort Member for over a month,2.0,No
+162930,BCS70,bcs7_parent_and_child,b7pcsep2,Number of times child has been separated from Cohort Member for over a month,-9.0,Refusal
+162931,BCS70,bcs7_parent_and_child,b7pcsep2,Number of times child has been separated from Cohort Member for over a month,-8.0,Don't know
+162932,BCS70,bcs7_parent_and_child,b7pcsep2,Number of times child has been separated from Cohort Member for over a month,-7.0,Other missing
+162933,BCS70,bcs7_parent_and_child,b7pcsep2,Number of times child has been separated from Cohort Member for over a month,-1.0,Not applicable
+162934,BCS70,bcs7_parent_and_child,b7pcsep3,Child's age when (first) separation started,-9.0,Refusal
+162935,BCS70,bcs7_parent_and_child,b7pcsep3,Child's age when (first) separation started,-8.0,Don't know
+162936,BCS70,bcs7_parent_and_child,b7pcsep3,Child's age when (first) separation started,-7.0,Other missing
+162937,BCS70,bcs7_parent_and_child,b7pcsep3,Child's age when (first) separation started,-1.0,Not applicable
+162938,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,-9.0,Refusal
+162939,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,-8.0,Don't know
+162940,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,-7.0,Other missing
+162941,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,-1.0,Not applicable
+162942,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,1.0,Living at home with the other parent
+162943,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,2.0,In hospital
+162944,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,3.0,At home of relative or friend
+162945,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,4.0,In Local Authority Care
+162946,BCS70,bcs7_parent_and_child,b7pcse41,Place where child was during (first) separation - 01,5.0,Other
+162947,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,-9.0,Refusal
+162948,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,-8.0,Don't know
+162949,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,-7.0,Other missing
+162950,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,-1.0,Not applicable
+162951,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,1.0,Living at home with the other parent
+162952,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,2.0,In hospital
+162953,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,3.0,At home of relative or friend
+162954,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,4.0,In Local Authority Care
+162955,BCS70,bcs7_parent_and_child,b7pcse42,Place where child was during (first) separation - 02,5.0,Other
+162956,BCS70,bcs7_parent_and_child,b7pccr1,Whether child has ever been in local authority care,-9.0,Refusal
+162957,BCS70,bcs7_parent_and_child,b7pccr1,Whether child has ever been in local authority care,-8.0,Don't know
+162958,BCS70,bcs7_parent_and_child,b7pccr1,Whether child has ever been in local authority care,-7.0,Other missing
+162959,BCS70,bcs7_parent_and_child,b7pccr1,Whether child has ever been in local authority care,-1.0,Not applicable
+162960,BCS70,bcs7_parent_and_child,b7pccr1,Whether child has ever been in local authority care,1.0,Yes
+162961,BCS70,bcs7_parent_and_child,b7pccr1,Whether child has ever been in local authority care,2.0,No
+162962,BCS70,bcs7_parent_and_child,b7pccr3,Number of times child has been in local authority care,-9.0,Refusal
+162963,BCS70,bcs7_parent_and_child,b7pccr3,Number of times child has been in local authority care,-8.0,Don't know
+162964,BCS70,bcs7_parent_and_child,b7pccr3,Number of times child has been in local authority care,-7.0,Other missing
+162965,BCS70,bcs7_parent_and_child,b7pccr3,Number of times child has been in local authority care,-1.0,Not applicable
+162966,BCS70,bcs7_parent_and_child,b7pccr4,Child's age when (first) was in local authority care,-9.0,Refusal
+162967,BCS70,bcs7_parent_and_child,b7pccr4,Child's age when (first) was in local authority care,-8.0,Don't know
+162968,BCS70,bcs7_parent_and_child,b7pccr4,Child's age when (first) was in local authority care,-7.0,Other missing
+162969,BCS70,bcs7_parent_and_child,b7pccr4,Child's age when (first) was in local authority care,-1.0,Not applicable
+162970,BCS70,bcs7_parent_and_child,b7pccr5,Child's age when last was in local authority care,-9.0,Refusal
+162971,BCS70,bcs7_parent_and_child,b7pccr5,Child's age when last was in local authority care,-8.0,Don't know
+162972,BCS70,bcs7_parent_and_child,b7pccr5,Child's age when last was in local authority care,-7.0,Other missing
+162973,BCS70,bcs7_parent_and_child,b7pccr5,Child's age when last was in local authority care,-1.0,Not applicable
+162974,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,-9.0,Refusal
+162975,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,-8.0,Don't know
+162976,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,-7.0,Other missing
+162977,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,-1.0,Not applicable
+162978,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,1.0,"In local authority care, but remaining with own parents"
+162979,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,2.0,Local authority children s home
+162980,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,3.0,Local authority foster parents
+162981,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,4.0,Voluntary society children s home
+162982,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,5.0,Voluntary society foster parents
+162983,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,6.0,Prison/Young Offenders Institute/Borstal
+162984,BCS70,bcs7_parent_and_child,b7pccr21,Kind of local authority care - 01,7.0,Some other place (specify)
+162985,BCS70,bcs7_parent_and_child,bd7cedn,(Derived) Completed parent and child education questions.,1.0,Yes
+162986,BCS70,bcs7_parent_and_child,bd7cedn,(Derived) Completed parent and child education questions.,2.0,No
+162987,BCS70,bcs7_parent_and_child,b7pcpm1,Whether child has started primary or infants school,-9.0,Refusal
+162988,BCS70,bcs7_parent_and_child,b7pcpm1,Whether child has started primary or infants school,-8.0,Don't know
+162989,BCS70,bcs7_parent_and_child,b7pcpm1,Whether child has started primary or infants school,-7.0,Other missing
+162990,BCS70,bcs7_parent_and_child,b7pcpm1,Whether child has started primary or infants school,-1.0,Not applicable
+162991,BCS70,bcs7_parent_and_child,b7pcpm1,Whether child has started primary or infants school,1.0,Yes
+162992,BCS70,bcs7_parent_and_child,b7pcpm1,Whether child has started primary or infants school,2.0,No
+162993,BCS70,bcs7_parent_and_child,b7pcpm2y,Child's age when started primary or infants school (years),-9.0,Refusal
+162994,BCS70,bcs7_parent_and_child,b7pcpm2y,Child's age when started primary or infants school (years),-8.0,Don't know
+162995,BCS70,bcs7_parent_and_child,b7pcpm2y,Child's age when started primary or infants school (years),-7.0,Other missing
+162996,BCS70,bcs7_parent_and_child,b7pcpm2y,Child's age when started primary or infants school (years),-1.0,Not applicable
+162997,BCS70,bcs7_parent_and_child,b7pcpm2m,Child's age when started primary or infants school (months),-9.0,Refusal
+162998,BCS70,bcs7_parent_and_child,b7pcpm2m,Child's age when started primary or infants school (months),-8.0,Don't know
+162999,BCS70,bcs7_parent_and_child,b7pcpm2m,Child's age when started primary or infants school (months),-7.0,Other missing
+163000,BCS70,bcs7_parent_and_child,b7pcpm2m,Child's age when started primary or infants school (months),-1.0,Not applicable
+163001,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,3.0,A reception class at a private/independent primary school
+163002,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,4.0,Year 1 at a private/independent primary school
+163003,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,5.0,Other
+163004,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,-9.0,Refusal
+163005,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,-8.0,Don't know
+163006,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,-7.0,Other missing
+163007,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,-1.0,Not applicable
+163008,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,1.0,A reception class at a Local Authority primary school
+163009,BCS70,bcs7_parent_and_child,b7pcpm3,Class and type of school,2.0,Year 1 at a Local Authority primary school
+163010,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,-9.0,Refusal
+163011,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,-8.0,Don't know
+163012,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,-7.0,Other missing
+163013,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,-1.0,Not applicable
+163014,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,1.0,Nursery school/nursery class
+163015,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,2.0,Day nursery
+163016,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,3.0,Playgroup/pre-school
+163017,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,4.0,Childminder
+163018,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,5.0,Nanny/au pair
+163019,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,6.0,Grandparents
+163020,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,7.0,Other relatives
+163021,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,8.0,Friends/neighbours
+163022,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,9.0,Other (specify)
+163023,BCS70,bcs7_parent_and_child,b7pced11,Child's early years childcare before starting school - 01,10.0,No childcare/early years education
+163024,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,-9.0,Refusal
+163025,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,-8.0,Don't know
+163026,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,-7.0,Other missing
+163027,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,-1.0,Not applicable
+163028,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,1.0,Nursery school/nursery class
+163029,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,2.0,Day nursery
+163030,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,3.0,Playgroup/pre-school
+163031,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,4.0,Childminder
+163032,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,5.0,Nanny/au pair
+163033,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,6.0,Grandparents
+163034,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,7.0,Other relatives
+163035,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,8.0,Friends/neighbours
+163036,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,9.0,Other (specify)
+163037,BCS70,bcs7_parent_and_child,b7pced12,Child's early years childcare before starting school - 02,10.0,No childcare/early years education
+163038,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,-9.0,Refusal
+163039,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,-8.0,Don't know
+163040,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,-7.0,Other missing
+163041,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,-1.0,Not applicable
+163042,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,1.0,Nursery school/nursery class
+163043,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,2.0,Day nursery
+163044,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,3.0,Playgroup/pre-school
+163045,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,4.0,Childminder
+163046,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,5.0,Nanny/au pair
+163047,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,6.0,Grandparents
+163048,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,7.0,Other relatives
+163049,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,8.0,Friends/neighbours
+163050,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,9.0,Other (specify)
+163051,BCS70,bcs7_parent_and_child,b7pced13,Child's early years childcare before starting school - 03,10.0,No childcare/early years education
+163052,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,-9.0,Refusal
+163053,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,-8.0,Don't know
+163054,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,-7.0,Other missing
+163055,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,-1.0,Not applicable
+163056,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,1.0,Nursery school/nursery class
+163057,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,2.0,Day nursery
+163058,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,3.0,Playgroup/pre-school
+163059,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,4.0,Childminder
+163060,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,5.0,Nanny/au pair
+163061,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,6.0,Grandparents
+163062,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,7.0,Other relatives
+163063,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,8.0,Friends/neighbours
+163064,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,9.0,Other (specify)
+163065,BCS70,bcs7_parent_and_child,b7pced14,Child's early years childcare before starting school - 04,10.0,No childcare/early years education
+163066,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,-9.0,Refusal
+163067,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,-8.0,Don't know
+163068,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,-7.0,Other missing
+163069,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,-1.0,Not applicable
+163070,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,1.0,Nursery school/nursery class
+163071,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,2.0,Day nursery
+163072,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,3.0,Playgroup/pre-school
+163073,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,4.0,Childminder
+163074,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,5.0,Nanny/au pair
+163075,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,6.0,Grandparents
+163076,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,7.0,Other relatives
+163077,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,8.0,Friends/neighbours
+163078,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,9.0,Other (specify)
+163079,BCS70,bcs7_parent_and_child,b7pced15,Child's early years childcare before starting school - 05,10.0,No childcare/early years education
+163080,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,-9.0,Refusal
+163081,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,-8.0,Don't know
+163082,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,-7.0,Other missing
+163083,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,-1.0,Not applicable
+163084,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,1.0,Nursery school/nursery class
+163085,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,2.0,Day nursery
+163086,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,3.0,Playgroup/pre-school
+163087,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,4.0,Childminder
+163088,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,5.0,Nanny/au pair
+163089,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,6.0,Grandparents
+163090,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,7.0,Other relatives
+163091,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,8.0,Friends/neighbours
+163092,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,9.0,Other (specify)
+163093,BCS70,bcs7_parent_and_child,b7pced16,Child's early years childcare before starting school - 06,10.0,No childcare/early years education
+163094,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,-9.0,Refusal
+163095,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,-8.0,Don't know
+163096,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,-7.0,Other missing
+163097,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,-1.0,Not applicable
+163098,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,1.0,Nursery school/nursery class
+163099,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,2.0,Day nursery
+163100,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,3.0,Playgroup/pre-school
+163101,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,4.0,Childminder
+163102,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,5.0,Nanny/au pair
+163103,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,6.0,Grandparents
+163104,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,7.0,Other relatives
+163105,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,8.0,Friends/neighbours
+163106,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,9.0,Other (specify)
+163107,BCS70,bcs7_parent_and_child,b7pced21,Child's early years childcare - 01,10.0,No childcare/early years education
+163108,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,-9.0,Refusal
+163109,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,-8.0,Don't know
+163110,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,-7.0,Other missing
+163111,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,-1.0,Not applicable
+163112,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,1.0,Nursery school/nursery class
+163113,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,2.0,Day nursery
+163114,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,3.0,Playgroup/pre-school
+163115,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,4.0,Childminder
+163116,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,5.0,Nanny/au pair
+163117,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,6.0,Grandparents
+163118,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,7.0,Other relatives
+163119,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,8.0,Friends/neighbours
+163120,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,9.0,Other (specify)
+163121,BCS70,bcs7_parent_and_child,b7pced22,Child's early years childcare - 02,10.0,No childcare/early years education
+163122,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,-9.0,Refusal
+163123,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,-8.0,Don't know
+163124,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,-7.0,Other missing
+163125,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,-1.0,Not applicable
+163126,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,1.0,Nursery school/nursery class
+163127,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,2.0,Day nursery
+163128,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,3.0,Playgroup/pre-school
+163129,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,4.0,Childminder
+163130,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,5.0,Nanny/au pair
+163131,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,6.0,Grandparents
+163132,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,7.0,Other relatives
+163133,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,8.0,Friends/neighbours
+163134,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,9.0,Other (specify)
+163135,BCS70,bcs7_parent_and_child,b7pced23,Child's early years childcare - 03,10.0,No childcare/early years education
+163136,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,-9.0,Refusal
+163137,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,-8.0,Don't know
+163138,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,-7.0,Other missing
+163139,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,-1.0,Not applicable
+163140,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,1.0,Nursery school/nursery class
+163141,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,2.0,Day nursery
+163142,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,3.0,Playgroup/pre-school
+163143,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,4.0,Childminder
+163144,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,5.0,Nanny/au pair
+163145,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,6.0,Grandparents
+163146,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,7.0,Other relatives
+163147,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,8.0,Friends/neighbours
+163148,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,9.0,Other (specify)
+163149,BCS70,bcs7_parent_and_child,b7pced24,Child's early years childcare - 04,10.0,No childcare/early years education
+163150,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,1.0,Nursery school/nursery class
+163151,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,2.0,Day nursery
+163152,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,3.0,Playgroup/pre-school
+163153,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,4.0,Childminder
+163154,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,5.0,Nanny/au pair
+163155,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,6.0,Grandparents
+163156,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,7.0,Other relatives
+163157,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,8.0,Friends/neighbours
+163158,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,9.0,Other (specify)
+163159,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,10.0,No childcare/early years education
+163160,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,-9.0,Refusal
+163161,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,-8.0,Don't know
+163162,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,-7.0,Other missing
+163163,BCS70,bcs7_parent_and_child,b7pced25,Child's early years childcare - 05,-1.0,Not applicable
+163164,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,-9.0,Refusal
+163165,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,-8.0,Don't know
+163166,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,-7.0,Other missing
+163167,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,-1.0,Not applicable
+163168,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,1.0,Nursery school/nursery class
+163169,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,2.0,Day nursery
+163170,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,3.0,Playgroup/pre-school
+163171,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,4.0,Childminder
+163172,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,5.0,Nanny/au pair
+163173,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,6.0,Grandparents
+163174,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,7.0,Other relatives
+163175,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,8.0,Friends/neighbours
+163176,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,9.0,Other (specify)
+163177,BCS70,bcs7_parent_and_child,b7pced26,Child's early years childcare - 06,10.0,No childcare/early years education
+163178,BCS70,bcs7_parent_and_child,b7pcscam,Whether child goes to same school as his / her siblings,-8.0,Don't know
+163179,BCS70,bcs7_parent_and_child,b7pcscam,Whether child goes to same school as his / her siblings,-7.0,Other missing
+163180,BCS70,bcs7_parent_and_child,b7pcscam,Whether child goes to same school as his / her siblings,-1.0,Not applicable
+163181,BCS70,bcs7_parent_and_child,b7pcscam,Whether child goes to same school as his / her siblings,1.0,Yes
+163182,BCS70,bcs7_parent_and_child,b7pcscam,Whether child goes to same school as his / her siblings,2.0,No
+163183,BCS70,bcs7_parent_and_child,b7pcscty,Year when child started at his / her current school,-9.0,Refusal
+163184,BCS70,bcs7_parent_and_child,b7pcscty,Year when child started at his / her current school,-8.0,Don't know
+163185,BCS70,bcs7_parent_and_child,b7pcscty,Year when child started at his / her current school,-7.0,Other missing
+163186,BCS70,bcs7_parent_and_child,b7pcscty,Year when child started at his / her current school,-1.0,Not applicable
+163187,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,-9.0,Refusal
+163188,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,-8.0,Don't know
+163189,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,-7.0,Other missing
+163190,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,-1.0,Not applicable
+163191,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,1.0,January
+163192,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,2.0,Febuary
+163193,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,3.0,March
+163194,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,4.0,April
+163195,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,5.0,May
+163196,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,6.0,June
+163197,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,7.0,July
+163198,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,8.0,August
+163199,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,9.0,September
+163200,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,10.0,October
+163201,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,11.0,November
+163202,BCS70,bcs7_parent_and_child,b7pcsctm,Month when child started at his / her current school,12.0,December
+163203,BCS70,bcs7_parent_and_child,b7pcscp1,Type of school - state maintained or independent,-9.0,Refusal
+163204,BCS70,bcs7_parent_and_child,b7pcscp1,Type of school - state maintained or independent,-8.0,Don't know
+163205,BCS70,bcs7_parent_and_child,b7pcscp1,Type of school - state maintained or independent,-7.0,Other missing
+163206,BCS70,bcs7_parent_and_child,b7pcscp1,Type of school - state maintained or independent,-1.0,Not applicable
+163207,BCS70,bcs7_parent_and_child,b7pcscp1,Type of school - state maintained or independent,1.0,"A state school, including grant-maintained"
+163208,BCS70,bcs7_parent_and_child,b7pcscp1,Type of school - state maintained or independent,2.0,An independent or private school
+163209,BCS70,bcs7_parent_and_child,b7pcscp1,Type of school - state maintained or independent,3.0,Another type of school
+163210,BCS70,bcs7_parent_and_child,b7pcscp2,Type of school - single or mixed sex,-9.0,Refusal
+163211,BCS70,bcs7_parent_and_child,b7pcscp2,Type of school - single or mixed sex,-8.0,Don't know
+163212,BCS70,bcs7_parent_and_child,b7pcscp2,Type of school - single or mixed sex,-7.0,Other missing
+163213,BCS70,bcs7_parent_and_child,b7pcscp2,Type of school - single or mixed sex,-1.0,Not applicable
+163214,BCS70,bcs7_parent_and_child,b7pcscp2,Type of school - single or mixed sex,1.0,Single sex - all boys
+163215,BCS70,bcs7_parent_and_child,b7pcscp2,Type of school - single or mixed sex,2.0,Single sex - all girls
+163216,BCS70,bcs7_parent_and_child,b7pcscp2,Type of school - single or mixed sex,3.0,Mixed - boys and girls
+163217,BCS70,bcs7_parent_and_child,b7pcscum,Number of schools child has attended since first started school,-9.0,Refusal
+163218,BCS70,bcs7_parent_and_child,b7pcscum,Number of schools child has attended since first started school,-8.0,Don't know
+163219,BCS70,bcs7_parent_and_child,b7pcscum,Number of schools child has attended since first started school,-7.0,Other missing
+163220,BCS70,bcs7_parent_and_child,b7pcscum,Number of schools child has attended since first started school,-1.0,Not applicable
+163221,BCS70,bcs7_parent_and_child,b7pcsh1,Whether Cohort Member / other parent visited child's school before child started,-9.0,Refusal
+163222,BCS70,bcs7_parent_and_child,b7pcsh1,Whether Cohort Member / other parent visited child's school before child started,-8.0,Don't know
+163223,BCS70,bcs7_parent_and_child,b7pcsh1,Whether Cohort Member / other parent visited child's school before child started,-7.0,Other missing
+163224,BCS70,bcs7_parent_and_child,b7pcsh1,Whether Cohort Member / other parent visited child's school before child started,-1.0,Not applicable
+163225,BCS70,bcs7_parent_and_child,b7pcsh1,Whether Cohort Member / other parent visited child's school before child started,1.0,"Yes, respondent visited"
+163226,BCS70,bcs7_parent_and_child,b7pcsh1,Whether Cohort Member / other parent visited child's school before child started,2.0,Someone else visited on child s behalf
+163227,BCS70,bcs7_parent_and_child,b7pcsh1,Whether Cohort Member / other parent visited child's school before child started,3.0,No one visited school
+163228,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,-9.0,Refusal
+163229,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,-8.0,Don't know
+163230,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,-7.0,Other missing
+163231,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,-1.0,Not applicable
+163232,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,1.0,Child s other parent
+163233,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,2.0,"Respondent s partner, if not child s other parent"
+163234,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,3.0,Other relation
+163235,BCS70,bcs7_parent_and_child,b7pcsh1f,Who visited child's school before child started,4.0,Someone else
+163236,BCS70,bcs7_parent_and_child,b7pcsh1a,Whether Cohort Member considered other schools the child could attend,-9.0,Refusal
+163237,BCS70,bcs7_parent_and_child,b7pcsh1a,Whether Cohort Member considered other schools the child could attend,-8.0,Don't know
+163238,BCS70,bcs7_parent_and_child,b7pcsh1a,Whether Cohort Member considered other schools the child could attend,-7.0,Other missing
+163239,BCS70,bcs7_parent_and_child,b7pcsh1a,Whether Cohort Member considered other schools the child could attend,-1.0,Not applicable
+163240,BCS70,bcs7_parent_and_child,b7pcsh1a,Whether Cohort Member considered other schools the child could attend,1.0,Yes
+163241,BCS70,bcs7_parent_and_child,b7pcsh1a,Whether Cohort Member considered other schools the child could attend,2.0,No
+163242,BCS70,bcs7_parent_and_child,b7pcsh1b,Whether current school was Cohort Member's first choice,-9.0,Refusal
+163243,BCS70,bcs7_parent_and_child,b7pcsh1b,Whether current school was Cohort Member's first choice,-8.0,Don't know
+163244,BCS70,bcs7_parent_and_child,b7pcsh1b,Whether current school was Cohort Member's first choice,-7.0,Other missing
+163245,BCS70,bcs7_parent_and_child,b7pcsh1b,Whether current school was Cohort Member's first choice,-1.0,Not applicable
+163246,BCS70,bcs7_parent_and_child,b7pcsh1b,Whether current school was Cohort Member's first choice,1.0,Yes
+163247,BCS70,bcs7_parent_and_child,b7pcsh1b,Whether current school was Cohort Member's first choice,2.0,No
+163248,BCS70,bcs7_parent_and_child,bd7pcc01,(Derived) Went to current school because... friends were going,-8.0,Don't know
+163249,BCS70,bcs7_parent_and_child,bd7pcc01,(Derived) Went to current school because... friends were going,-7.0,Other missing
+163250,BCS70,bcs7_parent_and_child,bd7pcc01,(Derived) Went to current school because... friends were going,-1.0,Not applicable
+163251,BCS70,bcs7_parent_and_child,bd7pcc01,(Derived) Went to current school because... friends were going,1.0,Yes
+163252,BCS70,bcs7_parent_and_child,bd7pcc01,(Derived) Went to current school because... friends were going,2.0,Not mentioned
+163253,BCS70,bcs7_parent_and_child,bd7pcc02,(Derived) Went to current school because... brother / sister going,-8.0,Don't know
+163254,BCS70,bcs7_parent_and_child,bd7pcc02,(Derived) Went to current school because... brother / sister going,-7.0,Other missing
+163255,BCS70,bcs7_parent_and_child,bd7pcc02,(Derived) Went to current school because... brother / sister going,-1.0,Not applicable
+163256,BCS70,bcs7_parent_and_child,bd7pcc02,(Derived) Went to current school because... brother / sister going,1.0,Yes
+163257,BCS70,bcs7_parent_and_child,bd7pcc02,(Derived) Went to current school because... brother / sister going,2.0,Not mentioned
+163258,BCS70,bcs7_parent_and_child,bd7pcc03,(Derived) Went to current school because... has good academic reputation,-8.0,Don't know
+163259,BCS70,bcs7_parent_and_child,bd7pcc03,(Derived) Went to current school because... has good academic reputation,-7.0,Other missing
+163260,BCS70,bcs7_parent_and_child,bd7pcc03,(Derived) Went to current school because... has good academic reputation,-1.0,Not applicable
+163261,BCS70,bcs7_parent_and_child,bd7pcc03,(Derived) Went to current school because... has good academic reputation,1.0,Yes
+163262,BCS70,bcs7_parent_and_child,bd7pcc03,(Derived) Went to current school because... has good academic reputation,2.0,Not mentioned
+163263,BCS70,bcs7_parent_and_child,bd7pcc04,(Derived) Went to current school because... is local / nearby,-8.0,Don't know
+163264,BCS70,bcs7_parent_and_child,bd7pcc04,(Derived) Went to current school because... is local / nearby,-7.0,Other missing
+163265,BCS70,bcs7_parent_and_child,bd7pcc04,(Derived) Went to current school because... is local / nearby,-1.0,Not applicable
+163266,BCS70,bcs7_parent_and_child,bd7pcc04,(Derived) Went to current school because... is local / nearby,1.0,Yes
+163267,BCS70,bcs7_parent_and_child,bd7pcc04,(Derived) Went to current school because... is local / nearby,2.0,Not mentioned
+163268,BCS70,bcs7_parent_and_child,bd7pcc05,(Derived) Went to current school because... has strong anti-bullying policy,-8.0,Don't know
+163269,BCS70,bcs7_parent_and_child,bd7pcc05,(Derived) Went to current school because... has strong anti-bullying policy,-7.0,Other missing
+163270,BCS70,bcs7_parent_and_child,bd7pcc05,(Derived) Went to current school because... has strong anti-bullying policy,-1.0,Not applicable
+163271,BCS70,bcs7_parent_and_child,bd7pcc05,(Derived) Went to current school because... has strong anti-bullying policy,1.0,Yes
+163272,BCS70,bcs7_parent_and_child,bd7pcc05,(Derived) Went to current school because... has strong anti-bullying policy,2.0,Not mentioned
+163273,BCS70,bcs7_parent_and_child,bd7pcc06,(Derived) Went to current school because... has small class sizes,-8.0,Don't know
+163274,BCS70,bcs7_parent_and_child,bd7pcc06,(Derived) Went to current school because... has small class sizes,-7.0,Other missing
+163275,BCS70,bcs7_parent_and_child,bd7pcc06,(Derived) Went to current school because... has small class sizes,-1.0,Not applicable
+163276,BCS70,bcs7_parent_and_child,bd7pcc06,(Derived) Went to current school because... has small class sizes,1.0,Yes
+163277,BCS70,bcs7_parent_and_child,bd7pcc06,(Derived) Went to current school because... has small class sizes,2.0,Not mentioned
+163278,BCS70,bcs7_parent_and_child,bd7pcc07,(Derived) Went to current school because... of religious grounds,-8.0,Don't know
+163279,BCS70,bcs7_parent_and_child,bd7pcc07,(Derived) Went to current school because... of religious grounds,-7.0,Other missing
+163280,BCS70,bcs7_parent_and_child,bd7pcc07,(Derived) Went to current school because... of religious grounds,-1.0,Not applicable
+163281,BCS70,bcs7_parent_and_child,bd7pcc07,(Derived) Went to current school because... of religious grounds,1.0,Yes
+163282,BCS70,bcs7_parent_and_child,bd7pcc07,(Derived) Went to current school because... of religious grounds,2.0,Not mentioned
+163283,BCS70,bcs7_parent_and_child,bd7pcc08,(Derived) Went to current school because... CM or relative went there,-8.0,Don't know
+163284,BCS70,bcs7_parent_and_child,bd7pcc08,(Derived) Went to current school because... CM or relative went there,-7.0,Other missing
+163285,BCS70,bcs7_parent_and_child,bd7pcc08,(Derived) Went to current school because... CM or relative went there,-1.0,Not applicable
+163286,BCS70,bcs7_parent_and_child,bd7pcc08,(Derived) Went to current school because... CM or relative went there,1.0,Yes
+163287,BCS70,bcs7_parent_and_child,bd7pcc08,(Derived) Went to current school because... CM or relative went there,2.0,Not mentioned
+163288,BCS70,bcs7_parent_and_child,bd7pcc09,(Derived) Went to current school because... general good impression,-8.0,Don't know
+163289,BCS70,bcs7_parent_and_child,bd7pcc09,(Derived) Went to current school because... general good impression,-7.0,Other missing
+163290,BCS70,bcs7_parent_and_child,bd7pcc09,(Derived) Went to current school because... general good impression,-1.0,Not applicable
+163291,BCS70,bcs7_parent_and_child,bd7pcc09,(Derived) Went to current school because... general good impression,1.0,Yes
+163292,BCS70,bcs7_parent_and_child,bd7pcc09,(Derived) Went to current school because... general good impression,2.0,Not mentioned
+163293,BCS70,bcs7_parent_and_child,bd7pcc10,(Derived) Went to current school because... of specific curriculum features / facilities,-8.0,Don't know
+163294,BCS70,bcs7_parent_and_child,bd7pcc10,(Derived) Went to current school because... of specific curriculum features / facilities,-7.0,Other missing
+163295,BCS70,bcs7_parent_and_child,bd7pcc10,(Derived) Went to current school because... of specific curriculum features / facilities,-1.0,Not applicable
+163296,BCS70,bcs7_parent_and_child,bd7pcc10,(Derived) Went to current school because... of specific curriculum features / facilities,1.0,Yes
+163297,BCS70,bcs7_parent_and_child,bd7pcc10,(Derived) Went to current school because... of specific curriculum features / facilities,2.0,Not mentioned
+163298,BCS70,bcs7_parent_and_child,bd7pcc11,(Derived) Went to current school because... it caters for special needs,-8.0,Don't know
+163299,BCS70,bcs7_parent_and_child,bd7pcc11,(Derived) Went to current school because... it caters for special needs,-7.0,Other missing
+163300,BCS70,bcs7_parent_and_child,bd7pcc11,(Derived) Went to current school because... it caters for special needs,-1.0,Not applicable
+163301,BCS70,bcs7_parent_and_child,bd7pcc11,(Derived) Went to current school because... it caters for special needs,1.0,Yes
+163302,BCS70,bcs7_parent_and_child,bd7pcc11,(Derived) Went to current school because... it caters for special needs,2.0,Not mentioned
+163303,BCS70,bcs7_parent_and_child,bd7pcc12,(Derived) Went to current school because... is feeder school,-8.0,Don't know
+163304,BCS70,bcs7_parent_and_child,bd7pcc12,(Derived) Went to current school because... is feeder school,-7.0,Other missing
+163305,BCS70,bcs7_parent_and_child,bd7pcc12,(Derived) Went to current school because... is feeder school,-1.0,Not applicable
+163306,BCS70,bcs7_parent_and_child,bd7pcc12,(Derived) Went to current school because... is feeder school,1.0,Yes
+163307,BCS70,bcs7_parent_and_child,bd7pcc12,(Derived) Went to current school because... is feeder school,2.0,Not mentioned
+163308,BCS70,bcs7_parent_and_child,bd7pcc13,(Derived) Went to current school because... was best school on offer,-8.0,Don't know
+163309,BCS70,bcs7_parent_and_child,bd7pcc13,(Derived) Went to current school because... was best school on offer,-7.0,Other missing
+163310,BCS70,bcs7_parent_and_child,bd7pcc13,(Derived) Went to current school because... was best school on offer,-1.0,Not applicable
+163311,BCS70,bcs7_parent_and_child,bd7pcc13,(Derived) Went to current school because... was best school on offer,1.0,Yes
+163312,BCS70,bcs7_parent_and_child,bd7pcc13,(Derived) Went to current school because... was best school on offer,2.0,Not mentioned
+163313,BCS70,bcs7_parent_and_child,bd7pcc14,(Derived) Went to current school... for other reason,-8.0,Don't know
+163314,BCS70,bcs7_parent_and_child,bd7pcc14,(Derived) Went to current school... for other reason,-7.0,Other missing
+163315,BCS70,bcs7_parent_and_child,bd7pcc14,(Derived) Went to current school... for other reason,-1.0,Not applicable
+163316,BCS70,bcs7_parent_and_child,bd7pcc14,(Derived) Went to current school... for other reason,1.0,Yes
+163317,BCS70,bcs7_parent_and_child,bd7pcc14,(Derived) Went to current school... for other reason,2.0,Not mentioned
+163318,BCS70,bcs7_parent_and_child,bd7pcc15,(Derived) Went to current school because... had no other choice,-8.0,Don't know
+163319,BCS70,bcs7_parent_and_child,bd7pcc15,(Derived) Went to current school because... had no other choice,-7.0,Other missing
+163320,BCS70,bcs7_parent_and_child,bd7pcc15,(Derived) Went to current school because... had no other choice,-1.0,Not applicable
+163321,BCS70,bcs7_parent_and_child,bd7pcc15,(Derived) Went to current school because... had no other choice,1.0,Yes
+163322,BCS70,bcs7_parent_and_child,bd7pcc15,(Derived) Went to current school because... had no other choice,2.0,Not mentioned
+163323,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,-9.0,Refusal
+163324,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,-8.0,Don't know
+163325,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,-7.0,Other missing
+163326,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,-1.0,Not applicable
+163327,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,1.0,Very good
+163328,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,2.0,Fairly good
+163329,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,3.0,Neither good nor bad
+163330,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,4.0,Fairly bad
+163331,BCS70,bcs7_parent_and_child,b7pckidk,Rating of quality of teaching in child's current school,5.0,Very bad
+163332,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,-9.0,Refusal
+163333,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,-8.0,Don't know
+163334,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,-7.0,Other missing
+163335,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,-1.0,Not applicable
+163336,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,1.0,Very satisfied
+163337,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,2.0,Fairly satisfied
+163338,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,3.0,Neither satisfied nor dissatisfied
+163339,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,4.0,Fairly dissatisfied
+163340,BCS70,bcs7_parent_and_child,b7pckirg,Cohort Member's satisfaction with child's progress last year,5.0,Very dissatisfied
+163341,BCS70,bcs7_parent_and_child,b7pcpave,Whether Cohort Member or other parent went to a parents' evening at school,-9.0,Refusal
+163342,BCS70,bcs7_parent_and_child,b7pcpave,Whether Cohort Member or other parent went to a parents' evening at school,-8.0,Don't know
+163343,BCS70,bcs7_parent_and_child,b7pcpave,Whether Cohort Member or other parent went to a parents' evening at school,-7.0,Other missing
+163344,BCS70,bcs7_parent_and_child,b7pcpave,Whether Cohort Member or other parent went to a parents' evening at school,-1.0,Not applicable
+163345,BCS70,bcs7_parent_and_child,b7pcpave,Whether Cohort Member or other parent went to a parents' evening at school,1.0,"Yes, respondent went"
+163346,BCS70,bcs7_parent_and_child,b7pcpave,Whether Cohort Member or other parent went to a parents' evening at school,2.0,Someone else went on child s behalf
+163347,BCS70,bcs7_parent_and_child,b7pcpave,Whether Cohort Member or other parent went to a parents' evening at school,3.0,No one went
+163348,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,-9.0,Refusal
+163349,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,-8.0,Don't know
+163350,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,-7.0,Other missing
+163351,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,-1.0,Not applicable
+163352,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,1.0,Child s other parent
+163353,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,2.0,"Respondent s partner, if not child s other parent"
+163354,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,3.0,Other relation
+163355,BCS70,bcs7_parent_and_child,b7pcpav3,Who went to parents' evening at school,4.0,Someone else
+163356,BCS70,bcs7_parent_and_child,b7pcpav2,Whether Cohort Member went to parents' evening with child's other parent,-9.0,Refusal
+163357,BCS70,bcs7_parent_and_child,b7pcpav2,Whether Cohort Member went to parents' evening with child's other parent,-8.0,Don't know
+163358,BCS70,bcs7_parent_and_child,b7pcpav2,Whether Cohort Member went to parents' evening with child's other parent,-7.0,Other missing
+163359,BCS70,bcs7_parent_and_child,b7pcpav2,Whether Cohort Member went to parents' evening with child's other parent,-1.0,Not applicable
+163360,BCS70,bcs7_parent_and_child,b7pcpav2,Whether Cohort Member went to parents' evening with child's other parent,1.0,Went on his / her own
+163361,BCS70,bcs7_parent_and_child,b7pcpav2,Whether Cohort Member went to parents' evening with child's other parent,2.0,Went with child's other parent
+163362,BCS70,bcs7_parent_and_child,b7pcpach,Whether any specially arranged meetings or other communication with teachers,-9.0,Refusal
+163363,BCS70,bcs7_parent_and_child,b7pcpach,Whether any specially arranged meetings or other communication with teachers,-8.0,Don't know
+163364,BCS70,bcs7_parent_and_child,b7pcpach,Whether any specially arranged meetings or other communication with teachers,-7.0,Other missing
+163365,BCS70,bcs7_parent_and_child,b7pcpach,Whether any specially arranged meetings or other communication with teachers,-1.0,Not applicable
+163366,BCS70,bcs7_parent_and_child,b7pcpach,Whether any specially arranged meetings or other communication with teachers,1.0,"Yes, respondent did this"
+163367,BCS70,bcs7_parent_and_child,b7pcpach,Whether any specially arranged meetings or other communication with teachers,2.0,Someone else did this on child s behalf
+163368,BCS70,bcs7_parent_and_child,b7pcpach,Whether any specially arranged meetings or other communication with teachers,3.0,No one did this
+163369,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,-9.0,Refusal
+163370,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,-8.0,Don't know
+163371,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,-7.0,Other missing
+163372,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,-1.0,Not applicable
+163373,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,1.0,Child s other parent
+163374,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,2.0,"Respondent s partner, if not child s other parent"
+163375,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,3.0,Other relation
+163376,BCS70,bcs7_parent_and_child,b7pcpah1,Who had meetings or other communication with teachers,4.0,Someone else
+163377,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,-9.0,Refusal
+163378,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,-8.0,Don't know
+163379,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,-7.0,Other missing
+163380,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,-1.0,Not applicable
+163381,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,1.0,Every day or most days
+163382,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,2.0,At least once a week
+163383,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,3.0,At least once a month
+163384,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,4.0,At least once a term
+163385,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,5.0,Less often than once a term
+163386,BCS70,bcs7_parent_and_child,b7pcpapk,Frequency of discussing child's progress with teachers,6.0,Never
+163387,BCS70,bcs7_parent_and_child,b7pcpard,Whether received and read reports about child's progress,-9.0,Refusal
+163388,BCS70,bcs7_parent_and_child,b7pcpard,Whether received and read reports about child's progress,-8.0,Don't know
+163389,BCS70,bcs7_parent_and_child,b7pcpard,Whether received and read reports about child's progress,-7.0,Other missing
+163390,BCS70,bcs7_parent_and_child,b7pcpard,Whether received and read reports about child's progress,-1.0,Not applicable
+163391,BCS70,bcs7_parent_and_child,b7pcpard,Whether received and read reports about child's progress,1.0,"Yes, received report(s) and read it"
+163392,BCS70,bcs7_parent_and_child,b7pcpard,Whether received and read reports about child's progress,2.0,"Yes, received report(s) but not read it"
+163393,BCS70,bcs7_parent_and_child,b7pcpard,Whether received and read reports about child's progress,3.0,"No, not received report(s)"
+163394,BCS70,bcs7_parent_and_child,b7pcsact,Involvement in activities at child's school,-9.0,Refusal
+163395,BCS70,bcs7_parent_and_child,b7pcsact,Involvement in activities at child's school,-8.0,Don't know
+163396,BCS70,bcs7_parent_and_child,b7pcsact,Involvement in activities at child's school,-7.0,Other missing
+163397,BCS70,bcs7_parent_and_child,b7pcsact,Involvement in activities at child's school,-1.0,Not applicable
+163398,BCS70,bcs7_parent_and_child,b7pcsact,Involvement in activities at child's school,1.0,"Yes, respondent does these"
+163399,BCS70,bcs7_parent_and_child,b7pcsact,Involvement in activities at child's school,2.0,Someone else does these
+163400,BCS70,bcs7_parent_and_child,b7pcsact,Involvement in activities at child's school,3.0,No one does these
+163401,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,-9.0,Refusal
+163402,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,-8.0,Don't know
+163403,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,-7.0,Other missing
+163404,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,-1.0,Not applicable
+163405,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,1.0,Help out in class
+163406,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,2.0,"Help out elsewhere e.g. library, school trips, dinner duties"
+163407,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,3.0,Help with fund-raising activities / special events e.g. fete
+163408,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,4.0,Help out with special interest groups like sports/drama
+163409,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,5.0,Part of the parents  association / committee / group
+163410,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,6.0,Part of the management board / governing body
+163411,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,7.0,Some other activity - Please specify
+163412,BCS70,bcs7_parent_and_child,b7pcsa11,Activities Cohort Member / other person is involved in - 01,8.0,None of these
+163413,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,-9.0,Refusal
+163414,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,-8.0,Don't know
+163415,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,-7.0,Other missing
+163416,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,-1.0,Not applicable
+163417,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,1.0,Help out in class
+163418,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,2.0,"Help out elsewhere e.g. library, school trips, dinner duties"
+163419,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,3.0,Help with fund-raising activities / special events e.g. fete
+163420,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,4.0,Help out with special interest groups like sports/drama
+163421,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,5.0,Part of the parents  association / committee / group
+163422,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,6.0,Part of the management board / governing body
+163423,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,7.0,Some other activity - Please specify
+163424,BCS70,bcs7_parent_and_child,b7pcsa12,Activities Cohort Member / other person is involved in - 02,8.0,None of these
+163425,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,6.0,Part of the management board / governing body
+163426,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,7.0,Some other activity - Please specify
+163427,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,8.0,None of these
+163428,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,-9.0,Refusal
+163429,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,-8.0,Don't know
+163430,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,-7.0,Other missing
+163431,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,-1.0,Not applicable
+163432,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,1.0,Help out in class
+163433,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,2.0,"Help out elsewhere e.g. library, school trips, dinner duties"
+163434,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,3.0,Help with fund-raising activities / special events e.g. fete
+163435,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,4.0,Help out with special interest groups like sports/drama
+163436,BCS70,bcs7_parent_and_child,b7pcsa13,Activities Cohort Member / other person is involved in - 03,5.0,Part of the parents  association / committee / group
+163437,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,-9.0,Refusal
+163438,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,-8.0,Don't know
+163439,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,-7.0,Other missing
+163440,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,-1.0,Not applicable
+163441,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,1.0,Help out in class
+163442,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,2.0,"Help out elsewhere e.g. library, school trips, dinner duties"
+163443,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,3.0,Help with fund-raising activities / special events e.g. fete
+163444,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,4.0,Help out with special interest groups like sports/drama
+163445,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,5.0,Part of the parents  association / committee / group
+163446,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,6.0,Part of the management board / governing body
+163447,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,7.0,Some other activity - Please specify
+163448,BCS70,bcs7_parent_and_child,b7pcsa14,Activities Cohort Member / other person is involved in - 04,8.0,None of these
+163449,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,-9.0,Refusal
+163450,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,-8.0,Don't know
+163451,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,-7.0,Other missing
+163452,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,-1.0,Not applicable
+163453,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,1.0,Help out in class
+163454,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,2.0,"Help out elsewhere e.g. library, school trips, dinner duties"
+163455,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,3.0,Help with fund-raising activities / special events e.g. fete
+163456,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,4.0,Help out with special interest groups like sports/drama
+163457,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,5.0,Part of the parents  association / committee / group
+163458,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,6.0,Part of the management board / governing body
+163459,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,7.0,Some other activity - Please specify
+163460,BCS70,bcs7_parent_and_child,b7pcsa15,Activities Cohort Member / other person is involved in - 05,8.0,None of these
+163461,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,-9.0,Refusal
+163462,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,-8.0,Don't know
+163463,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,-7.0,Other missing
+163464,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,-1.0,Not applicable
+163465,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,1.0,Help out in class
+163466,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,2.0,"Help out elsewhere e.g. library, school trips, dinner duties"
+163467,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,3.0,Help with fund-raising activities / special events e.g. fete
+163468,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,4.0,Help out with special interest groups like sports/drama
+163469,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,5.0,Part of the parents  association / committee / group
+163470,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,6.0,Part of the management board / governing body
+163471,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,7.0,Some other activity - Please specify
+163472,BCS70,bcs7_parent_and_child,b7pcsa16,Activities Cohort Member / other person is involved in - 06,8.0,None of these
+163473,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,-9.0,Refusal
+163474,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,-8.0,Don't know
+163475,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,-7.0,Other missing
+163476,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,-1.0,Not applicable
+163477,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,1.0,Agree strongly
+163478,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,2.0,Agree
+163479,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,3.0,Neither agree or disagree
+163480,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,4.0,Disagree
+163481,BCS70,bcs7_parent_and_child,b7pcsa2,Whether would like to be more involved in child's school life,5.0,Disagree strongly
+163482,BCS70,bcs7_parent_and_child,b7pcxu1,Whether child has ever had private lessons for subjects he / she does at school,-9.0,Refusal
+163483,BCS70,bcs7_parent_and_child,b7pcxu1,Whether child has ever had private lessons for subjects he / she does at school,-8.0,Don't know
+163484,BCS70,bcs7_parent_and_child,b7pcxu1,Whether child has ever had private lessons for subjects he / she does at school,-7.0,Other missing
+163485,BCS70,bcs7_parent_and_child,b7pcxu1,Whether child has ever had private lessons for subjects he / she does at school,-1.0,Not applicable
+163486,BCS70,bcs7_parent_and_child,b7pcxu1,Whether child has ever had private lessons for subjects he / she does at school,1.0,Yes
+163487,BCS70,bcs7_parent_and_child,b7pcxu1,Whether child has ever had private lessons for subjects he / she does at school,2.0,No
+163488,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,-9.0,Refusal
+163489,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,-8.0,Don't know
+163490,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,-7.0,Other missing
+163491,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,-1.0,Not applicable
+163492,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,1.0,Maths/Numberwork
+163493,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,2.0,English/Reading
+163494,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,3.0,Foreign/second languages
+163495,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,4.0,Science
+163496,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,5.0,Music
+163497,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,6.0,Dance
+163498,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,7.0,Speech and/or Drama
+163499,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,8.0,Sport
+163500,BCS70,bcs7_parent_and_child,b7pcxu21,Subjects for which the child has had private lessons - 01,9.0,Other - Please specify
+163501,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,-9.0,Refusal
+163502,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,-8.0,Don't know
+163503,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,-7.0,Other missing
+163504,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,-1.0,Not applicable
+163505,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,1.0,Maths/Numberwork
+163506,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,2.0,English/Reading
+163507,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,3.0,Foreign/second languages
+163508,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,4.0,Science
+163509,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,5.0,Music
+163510,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,6.0,Dance
+163511,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,7.0,Speech and/or Drama
+163512,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,8.0,Sport
+163513,BCS70,bcs7_parent_and_child,b7pcxu22,Subjects for which the child has had private lessons - 02,9.0,Other - Please specify
+163514,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,-9.0,Refusal
+163515,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,-8.0,Don't know
+163516,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,-7.0,Other missing
+163517,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,-1.0,Not applicable
+163518,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,1.0,Maths/Numberwork
+163519,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,2.0,English/Reading
+163520,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,3.0,Foreign/second languages
+163521,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,4.0,Science
+163522,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,5.0,Music
+163523,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,6.0,Dance
+163524,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,7.0,Speech and/or Drama
+163525,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,8.0,Sport
+163526,BCS70,bcs7_parent_and_child,b7pcxu23,Subjects for which the child has had private lessons - 03,9.0,Other - Please specify
+163527,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,-9.0,Refusal
+163528,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,-8.0,Don't know
+163529,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,-7.0,Other missing
+163530,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,-1.0,Not applicable
+163531,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,1.0,Maths/Numberwork
+163532,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,2.0,English/Reading
+163533,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,3.0,Foreign/second languages
+163534,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,4.0,Science
+163535,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,5.0,Music
+163536,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,6.0,Dance
+163537,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,7.0,Speech and/or Drama
+163538,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,8.0,Sport
+163539,BCS70,bcs7_parent_and_child,b7pcxu24,Subjects for which the child has had private lessons - 04,9.0,Other - Please specify
+163540,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,-9.0,Refusal
+163541,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,-8.0,Don't know
+163542,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,-7.0,Other missing
+163543,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,-1.0,Not applicable
+163544,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,1.0,Maths/Numberwork
+163545,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,2.0,English/Reading
+163546,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,3.0,Foreign/second languages
+163547,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,4.0,Science
+163548,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,5.0,Music
+163549,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,6.0,Dance
+163550,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,7.0,Speech and/or Drama
+163551,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,8.0,Sport
+163552,BCS70,bcs7_parent_and_child,b7pcxu25,Subjects for which the child has had private lessons - 05,9.0,Other - Please specify
+163553,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,-9.0,Refusal
+163554,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,-8.0,Don't know
+163555,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,-7.0,Other missing
+163556,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,-1.0,Not applicable
+163557,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,1.0,Maths/Numberwork
+163558,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,2.0,English/Reading
+163559,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,3.0,Foreign/second languages
+163560,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,4.0,Science
+163561,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,5.0,Music
+163562,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,6.0,Dance
+163563,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,7.0,Speech and/or Drama
+163564,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,8.0,Sport
+163565,BCS70,bcs7_parent_and_child,b7pcxu26,Subjects for which the child has had private lessons - 06,9.0,Other - Please specify
+163566,BCS70,bcs7_parent_and_child,b7pcsen,Whether child has been assessed as having any special educational needs,-9.0,Refusal
+163567,BCS70,bcs7_parent_and_child,b7pcsen,Whether child has been assessed as having any special educational needs,-8.0,Don't know
+163568,BCS70,bcs7_parent_and_child,b7pcsen,Whether child has been assessed as having any special educational needs,-7.0,Other missing
+163569,BCS70,bcs7_parent_and_child,b7pcsen,Whether child has been assessed as having any special educational needs,-1.0,Not applicable
+163570,BCS70,bcs7_parent_and_child,b7pcsen,Whether child has been assessed as having any special educational needs,1.0,Yes
+163571,BCS70,bcs7_parent_and_child,b7pcsen,Whether child has been assessed as having any special educational needs,2.0,No
+163572,BCS70,bcs7_parent_and_child,b7pcsege,Child's age when first assessed as having any special educational needs,-9.0,Refusal
+163573,BCS70,bcs7_parent_and_child,b7pcsege,Child's age when first assessed as having any special educational needs,-8.0,Don't know
+163574,BCS70,bcs7_parent_and_child,b7pcsege,Child's age when first assessed as having any special educational needs,-7.0,Other missing
+163575,BCS70,bcs7_parent_and_child,b7pcsege,Child's age when first assessed as having any special educational needs,-1.0,Not applicable
+163576,BCS70,bcs7_parent_and_child,b7pcseur,Whether child has been assessed as still having special educational needs,-9.0,Refusal
+163577,BCS70,bcs7_parent_and_child,b7pcseur,Whether child has been assessed as still having special educational needs,-8.0,Don't know
+163578,BCS70,bcs7_parent_and_child,b7pcseur,Whether child has been assessed as still having special educational needs,-7.0,Other missing
+163579,BCS70,bcs7_parent_and_child,b7pcseur,Whether child has been assessed as still having special educational needs,-1.0,Not applicable
+163580,BCS70,bcs7_parent_and_child,b7pcseur,Whether child has been assessed as still having special educational needs,1.0,Yes
+163581,BCS70,bcs7_parent_and_child,b7pcseur,Whether child has been assessed as still having special educational needs,2.0,No
+163582,BCS70,bcs7_parent_and_child,b7pcseur,Whether child has been assessed as still having special educational needs,3.0,Don t know
+163583,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,-9.0,Refusal
+163584,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,-8.0,Don't know
+163585,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,-7.0,Other missing
+163586,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,-1.0,Not applicable
+163587,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,1.0,A physical disability
+163588,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,2.0,"A problem with sight, hearing or speech"
+163589,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,3.0,A mental disability
+163590,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,4.0,Emotional or behavioural problems
+163591,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,5.0,A medical or health problem
+163592,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,6.0,"Difficulties with reading, writing, spelling or maths"
+163593,BCS70,bcs7_parent_and_child,b7pcsey1,Whether these special educational needs were caused by a certain disability - 01,7.0,Other cause(s)
+163594,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,-9.0,Refusal
+163595,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,-8.0,Don't know
+163596,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,-7.0,Other missing
+163597,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,-1.0,Not applicable
+163598,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,1.0,A physical disability
+163599,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,2.0,"A problem with sight, hearing or speech"
+163600,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,3.0,A mental disability
+163601,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,4.0,Emotional or behavioural problems
+163602,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,5.0,A medical or health problem
+163603,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,6.0,"Difficulties with reading, writing, spelling or maths"
+163604,BCS70,bcs7_parent_and_child,b7pcsey2,Whether these special educational needs were caused by a certain disability - 02,7.0,Other cause(s)
+163605,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,-9.0,Refusal
+163606,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,-8.0,Don't know
+163607,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,-7.0,Other missing
+163608,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,-1.0,Not applicable
+163609,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,1.0,A physical disability
+163610,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,2.0,"A problem with sight, hearing or speech"
+163611,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,3.0,A mental disability
+163612,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,4.0,Emotional or behavioural problems
+163613,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,5.0,A medical or health problem
+163614,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,6.0,"Difficulties with reading, writing, spelling or maths"
+163615,BCS70,bcs7_parent_and_child,b7pcsey3,Whether these special educational needs were caused by a certain disability - 03,7.0,Other cause(s)
+163616,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,-9.0,Refusal
+163617,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,-8.0,Don't know
+163618,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,-7.0,Other missing
+163619,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,-1.0,Not applicable
+163620,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,1.0,A physical disability
+163621,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,2.0,"A problem with sight, hearing or speech"
+163622,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,3.0,A mental disability
+163623,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,4.0,Emotional or behavioural problems
+163624,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,5.0,A medical or health problem
+163625,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,6.0,"Difficulties with reading, writing, spelling or maths"
+163626,BCS70,bcs7_parent_and_child,b7pcsey4,Whether these special educational needs were caused by a certain disability - 04,7.0,Other cause(s)
+163627,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,-9.0,Refusal
+163628,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,-8.0,Don't know
+163629,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,-7.0,Other missing
+163630,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,-1.0,Not applicable
+163631,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,1.0,A physical disability
+163632,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,2.0,"A problem with sight, hearing or speech"
+163633,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,3.0,A mental disability
+163634,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,4.0,Emotional or behavioural problems
+163635,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,5.0,A medical or health problem
+163636,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,6.0,"Difficulties with reading, writing, spelling or maths"
+163637,BCS70,bcs7_parent_and_child,b7pcsey5,Whether these special educational needs were caused by a certain disability - 05,7.0,Other cause(s)
+163638,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,-9.0,Refusal
+163639,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,-8.0,Don't know
+163640,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,-7.0,Other missing
+163641,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,-1.0,Not applicable
+163642,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,1.0,A physical disability
+163643,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,2.0,"A problem with sight, hearing or speech"
+163644,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,3.0,A mental disability
+163645,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,4.0,Emotional or behavioural problems
+163646,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,5.0,A medical or health problem
+163647,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,6.0,"Difficulties with reading, writing, spelling or maths"
+163648,BCS70,bcs7_parent_and_child,b7pcsey6,Whether these special educational needs were caused by a certain disability - 06,7.0,Other cause(s)
+163649,BCS70,bcs7_parent_and_child,b7pcsta1,Whether child has ever been given a statement of needs,-9.0,Refusal
+163650,BCS70,bcs7_parent_and_child,b7pcsta1,Whether child has ever been given a statement of needs,-8.0,Don't know
+163651,BCS70,bcs7_parent_and_child,b7pcsta1,Whether child has ever been given a statement of needs,-7.0,Other missing
+163652,BCS70,bcs7_parent_and_child,b7pcsta1,Whether child has ever been given a statement of needs,-1.0,Not applicable
+163653,BCS70,bcs7_parent_and_child,b7pcsta1,Whether child has ever been given a statement of needs,1.0,"Yes, statemented"
+163654,BCS70,bcs7_parent_and_child,b7pcsta1,Whether child has ever been given a statement of needs,2.0,"No, not statemented"
+163655,BCS70,bcs7_parent_and_child,b7pcsta1,Whether child has ever been given a statement of needs,3.0,Don t know if statemented or not
+163656,BCS70,bcs7_parent_and_child,b7pcsta2,Whether child currently has a statement of needs,-9.0,Refusal
+163657,BCS70,bcs7_parent_and_child,b7pcsta2,Whether child currently has a statement of needs,-8.0,Don't know
+163658,BCS70,bcs7_parent_and_child,b7pcsta2,Whether child currently has a statement of needs,-7.0,Other missing
+163659,BCS70,bcs7_parent_and_child,b7pcsta2,Whether child currently has a statement of needs,-1.0,Not applicable
+163660,BCS70,bcs7_parent_and_child,b7pcsta2,Whether child currently has a statement of needs,1.0,"Yes, current statement"
+163661,BCS70,bcs7_parent_and_child,b7pcsta2,Whether child currently has a statement of needs,2.0,No current statement
+163662,BCS70,bcs7_parent_and_child,b7pcsta2,Whether child currently has a statement of needs,3.0,Don t know if current statement or not
+163663,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,-9.0,Refusal
+163664,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,-8.0,Don't know
+163665,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,-7.0,Other missing
+163666,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,-1.0,Not applicable
+163667,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,1.0,Continue in full time education
+163668,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,2.0,Start learning a trade/ start an apprenticeship
+163669,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,3.0,Get a full-time paid job (employee or self-employed)
+163670,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,4.0,I haven't thought about it yet
+163671,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,5.0,It's up to him / her
+163672,BCS70,bcs7_parent_and_child,b7pcpas1,Cohort Member's aspirations for child after age 16,6.0,Something else
+163673,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,-9.0,Refusal
+163674,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,-8.0,Don't know
+163675,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,-7.0,Other missing
+163676,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,-1.0,Not applicable
+163677,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,1.0,Very likely
+163678,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,2.0,Fairly likely
+163679,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,3.0,Not very likely
+163680,BCS70,bcs7_parent_and_child,b7pcpas2,Cohort Member's expectations for whether child will go to university or college,4.0,Not at all likely
+163681,BCS70,bcs7_parent_and_child,v3,None,,
+163682,BCS70,bcs7_parent_and_child,avail_from_dt,,,

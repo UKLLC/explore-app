@@ -21,8 +21,6 @@ import read_data_request
 
 ###########################################
 ### Styles
-
-
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 
 TITLEBAR_STYLE = {

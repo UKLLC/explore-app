@@ -1,0 +1,59 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+22812,BCS70,bcs10_housing,study_id_e,,,
+22813,BCS70,bcs10_housing,hhgno,sortkey: Loop ID,,
+22814,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,-9.0,Refused
+22815,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,-8.0,Not known
+22816,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,-1.0,Not applicable
+22817,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,1.0,January
+22818,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,2.0,February
+22819,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,3.0,March
+22820,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,4.0,April
+22821,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,5.0,May
+22822,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,6.0,June
+22823,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,7.0,July
+22824,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,8.0,August
+22825,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,9.0,September
+22826,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,10.0,October
+22827,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,11.0,November
+22828,BCS70,bcs10_housing,b10homedm,When moved out of address or stopped travelling â€“ Month,12.0,December
+22829,BCS70,bcs10_housing,b10homedy,When moved out of address or stopped travelling â€“ year,-9.0,Refused
+22830,BCS70,bcs10_housing,b10homedy,When moved out of address or stopped travelling â€“ year,-8.0,Not known
+22831,BCS70,bcs10_housing,b10homedy,When moved out of address or stopped travelling â€“ year,-1.0,Not applicable
+22832,BCS70,bcs10_housing,b10homei,Whether next moved to current address,-9.0,Refused
+22833,BCS70,bcs10_housing,b10homei,Whether next moved to current address,-8.0,Not known
+22834,BCS70,bcs10_housing,b10homei,Whether next moved to current address,-1.0,Not applicable
+22835,BCS70,bcs10_housing,b10homei,Whether next moved to current address,1.0,Current address
+22836,BCS70,bcs10_housing,b10homei,Whether next moved to current address,2.0,Somewhere else
+22837,BCS70,bcs10_housing,b10homei,Whether next moved to current address,3.0,SPONTANEOUS: Began having no fixed add.
+22838,BCS70,bcs10_housing,b10addfx2,Whether had fixed address,-9.0,Refused
+22839,BCS70,bcs10_housing,b10addfx2,Whether had fixed address,-8.0,Not known
+22840,BCS70,bcs10_housing,b10addfx2,Whether had fixed address,-1.0,Not applicable
+22841,BCS70,bcs10_housing,b10addfx2,Whether had fixed address,1.0,Yes
+22842,BCS70,bcs10_housing,b10addfx2,Whether had fixed address,2.0,No
+22843,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,-9.0,Refused
+22844,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,-8.0,Not known
+22845,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,-1.0,Not applicable
+22846,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,1.0,Wanted to buy
+22847,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,2.0,Wanted larger home
+22848,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,3.0,Wanted smaller home
+22849,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,4.0,Wanted better home
+22850,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,5.0,Job changed/to be nearer work
+22851,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,6.0,Moved for health reasons
+22852,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,7.0,Moved to better area
+22853,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,8.0,For children's education
+22854,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,9.0,Wanted place of own
+22855,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,10.0,Due to a relationship breakdown
+22856,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,11.0,Due to a new relationship
+22857,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,12.0,Moved in with friends or family
+22858,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,13.0,To be nearer relatives
+22859,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,14.0,Needed cheaper home/couldnâ€™t afford
+22860,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,15.0,Other reason (PLEASE SPECIFY)
+22861,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,18.0,L.lord to sell/ end lease/ L.lord probs
+22862,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,50.0,Inherited property
+22863,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,51.0,Financial reasons eg. Equity release
+22864,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,52.0,Lld selling/lease end/bad rel with Lld
+22865,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,53.0,Harassment/Problems with neighbours
+22866,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,94.0,Other specific answer
+22867,BCS70,bcs10_housing,b10homeg,Main reason moved out of address,95.0,Vague / Irrelevant answer
+22868,BCS70,bcs10_housing,v3,None,,
+22869,BCS70,bcs10_housing,avail_from_dt,,,

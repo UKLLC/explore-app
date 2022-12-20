@@ -1,0 +1,145 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1043618,NCDS58,ncds9_relationships,study_id_e,,,
+1043619,NCDS58,ncds9_relationships,n9relid,sortkey: relationship history record index,,
+1043620,NCDS58,ncds9_relationships,n9rnrany,Whether lived with anyone as a couple,-9.0,Refused
+1043621,NCDS58,ncds9_relationships,n9rnrany,Whether lived with anyone as a couple,-8.0,Don't know
+1043622,NCDS58,ncds9_relationships,n9rnrany,Whether lived with anyone as a couple,-1.0,Not applicable
+1043623,NCDS58,ncds9_relationships,n9rnrany,Whether lived with anyone as a couple,1.0,Yes
+1043624,NCDS58,ncds9_relationships,n9rnrany,Whether lived with anyone as a couple,2.0,No
+1043625,NCDS58,ncds9_relationships,n9rsty,When first started living with partner - Year,-9.0,Refused
+1043626,NCDS58,ncds9_relationships,n9rsty,When first started living with partner - Year,-8.0,Don't know
+1043627,NCDS58,ncds9_relationships,n9rsty,When first started living with partner - Year,-1.0,Not applicable
+1043628,NCDS58,ncds9_relationships,n9rsty,When first started living with partner - Year,0.0,Before 2000
+1043629,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,-9.0,Refused
+1043630,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,-8.0,Don't know
+1043631,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,-1.0,Not applicable
+1043632,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,0.0,Before 2000
+1043633,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,1.0,January
+1043634,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,2.0,February
+1043635,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,3.0,March
+1043636,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,4.0,April
+1043637,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,5.0,May
+1043638,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,6.0,June
+1043639,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,7.0,July
+1043640,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,8.0,August
+1043641,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,9.0,September
+1043642,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,10.0,October
+1043643,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,11.0,November
+1043644,NCDS58,ncds9_relationships,n9rstm,When first started living with partner - Month,12.0,December
+1043645,NCDS58,ncds9_relationships,n9rsex,Partner sex,-9.0,Refused
+1043646,NCDS58,ncds9_relationships,n9rsex,Partner sex,-8.0,Don't Know
+1043647,NCDS58,ncds9_relationships,n9rsex,Partner sex,-1.0,Not applicable
+1043648,NCDS58,ncds9_relationships,n9rsex,Partner sex,1.0,Male
+1043649,NCDS58,ncds9_relationships,n9rsex,Partner sex,2.0,Female
+1043650,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,-9.0,Refused / no response
+1043651,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,-8.0,Don't know
+1043652,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,-7.0,No response given
+1043653,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,-1.0,Not applicable
+1043654,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,1.0,January
+1043655,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,2.0,February
+1043656,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,3.0,March
+1043657,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,4.0,April
+1043658,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,5.0,May
+1043659,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,6.0,June
+1043660,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,7.0,July
+1043661,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,8.0,August
+1043662,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,9.0,September
+1043663,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,10.0,October
+1043664,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,11.0,November
+1043665,NCDS58,ncds9_relationships,n9rdobm,Partner month of birth,12.0,December
+1043666,NCDS58,ncds9_relationships,n9rdoby,Partner year of birth,-9.0,Refused / no response
+1043667,NCDS58,ncds9_relationships,n9rdoby,Partner year of birth,-8.0,Don't know
+1043668,NCDS58,ncds9_relationships,n9rdoby,Partner year of birth,-7.0,No response given
+1043669,NCDS58,ncds9_relationships,n9rdoby,Partner year of birth,-1.0,Not applicable
+1043670,NCDS58,ncds9_relationships,n9rage,Partner age,-9.0,Refused / no response
+1043671,NCDS58,ncds9_relationships,n9rage,Partner age,-8.0,Don't know
+1043672,NCDS58,ncds9_relationships,n9rage,Partner age,-7.0,No response given
+1043673,NCDS58,ncds9_relationships,n9rage,Partner age,-1.0,Not applicable
+1043674,NCDS58,ncds9_relationships,n9rnowma,Whether married partner,-9.0,Refused
+1043675,NCDS58,ncds9_relationships,n9rnowma,Whether married partner,-8.0,Don't know
+1043676,NCDS58,ncds9_relationships,n9rnowma,Whether married partner,-1.0,Not applicable
+1043677,NCDS58,ncds9_relationships,n9rnowma,Whether married partner,1.0,Yes
+1043678,NCDS58,ncds9_relationships,n9rnowma,Whether married partner,2.0,No
+1043679,NCDS58,ncds9_relationships,n9rwhmay,When they married partner - Year,-9.0,Refused
+1043680,NCDS58,ncds9_relationships,n9rwhmay,When they married partner - Year,-8.0,Don't know
+1043681,NCDS58,ncds9_relationships,n9rwhmay,When they married partner - Year,-1.0,Not applicable
+1043682,NCDS58,ncds9_relationships,n9rwhmay,When they married partner - Year,0.0,Before 2000
+1043683,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,-9.0,Refused
+1043684,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,-8.0,Don't know
+1043685,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,-1.0,Not applicable
+1043686,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,0.0,Before 2000
+1043687,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,1.0,January
+1043688,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,2.0,February
+1043689,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,3.0,March
+1043690,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,4.0,April
+1043691,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,5.0,May
+1043692,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,6.0,June
+1043693,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,7.0,July
+1043694,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,8.0,August
+1043695,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,9.0,September
+1043696,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,10.0,October
+1043697,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,11.0,November
+1043698,NCDS58,ncds9_relationships,n9rwhmam,When they married partner - Month,12.0,December
+1043699,NCDS58,ncds9_relationships,n9rslive,Whether still live together as a couple,-9.0,Refused
+1043700,NCDS58,ncds9_relationships,n9rslive,Whether still live together as a couple,-8.0,Don't know
+1043701,NCDS58,ncds9_relationships,n9rslive,Whether still live together as a couple,-1.0,Not applicable
+1043702,NCDS58,ncds9_relationships,n9rslive,Whether still live together as a couple,1.0,Yes
+1043703,NCDS58,ncds9_relationships,n9rslive,Whether still live together as a couple,2.0,No
+1043704,NCDS58,ncds9_relationships,n9rlivpa,Whether lived with partner continuously,-9.0,Refused
+1043705,NCDS58,ncds9_relationships,n9rlivpa,Whether lived with partner continuously,-8.0,Don't know
+1043706,NCDS58,ncds9_relationships,n9rlivpa,Whether lived with partner continuously,-1.0,Not applicable
+1043707,NCDS58,ncds9_relationships,n9rlivpa,Whether lived with partner continuously,1.0,Yes
+1043708,NCDS58,ncds9_relationships,n9rlivpa,Whether lived with partner continuously,2.0,No
+1043709,NCDS58,ncds9_relationships,n9rhwend,Reason couple no longer living together,-9.0,Refused
+1043710,NCDS58,ncds9_relationships,n9rhwend,Reason couple no longer living together,-8.0,Don't know
+1043711,NCDS58,ncds9_relationships,n9rhwend,Reason couple no longer living together,-1.0,Not applicable
+1043712,NCDS58,ncds9_relationships,n9rhwend,Reason couple no longer living together,1.0,No longer a couple
+1043713,NCDS58,ncds9_relationships,n9rhwend,Reason couple no longer living together,2.0,Partner died
+1043714,NCDS58,ncds9_relationships,n9rhwend,Reason couple no longer living together,3.0,'Still a couple no longer living together
+1043715,NCDS58,ncds9_relationships,n9rendy,When stopped living with partner as a couple or partner died - Year,-9.0,Refused
+1043716,NCDS58,ncds9_relationships,n9rendy,When stopped living with partner as a couple or partner died - Year,-8.0,Don't know
+1043717,NCDS58,ncds9_relationships,n9rendy,When stopped living with partner as a couple or partner died - Year,-1.0,Not applicable
+1043718,NCDS58,ncds9_relationships,n9rendy,When stopped living with partner as a couple or partner died - Year,0.0,Before 2000
+1043719,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,-9.0,Refused
+1043720,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,-8.0,Don't know
+1043721,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,-1.0,Not applicable
+1043722,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,0.0,Before 2000
+1043723,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,1.0,January
+1043724,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,2.0,February
+1043725,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,3.0,March
+1043726,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,4.0,April
+1043727,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,5.0,May
+1043728,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,6.0,June
+1043729,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,7.0,July
+1043730,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,8.0,August
+1043731,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,9.0,September
+1043732,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,10.0,October
+1043733,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,11.0,November
+1043734,NCDS58,ncds9_relationships,n9rendm,When stopped living with partner as a couple or partner died - Month,12.0,December
+1043735,NCDS58,ncds9_relationships,n9rdivor,Whether divorced,-9.0,Refused
+1043736,NCDS58,ncds9_relationships,n9rdivor,Whether divorced,-8.0,Don't know
+1043737,NCDS58,ncds9_relationships,n9rdivor,Whether divorced,-1.0,Not applicable
+1043738,NCDS58,ncds9_relationships,n9rdivor,Whether divorced,1.0,Yes
+1043739,NCDS58,ncds9_relationships,n9rdivor,Whether divorced,2.0,No
+1043740,NCDS58,ncds9_relationships,n9rdivy,When got divorced / dissolved CP - Year,-9.0,Refused
+1043741,NCDS58,ncds9_relationships,n9rdivy,When got divorced / dissolved CP - Year,-8.0,Don't know
+1043742,NCDS58,ncds9_relationships,n9rdivy,When got divorced / dissolved CP - Year,-1.0,Not applicable
+1043743,NCDS58,ncds9_relationships,n9rdivy,When got divorced / dissolved CP - Year,0.0,Before 2000
+1043744,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,-9.0,Refused
+1043745,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,-8.0,Don't know
+1043746,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,-1.0,Not applicable
+1043747,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,0.0,Before 2000
+1043748,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,1.0,January
+1043749,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,2.0,February
+1043750,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,3.0,March
+1043751,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,4.0,April
+1043752,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,5.0,May
+1043753,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,6.0,June
+1043754,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,7.0,July
+1043755,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,8.0,August
+1043756,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,9.0,September
+1043757,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,10.0,October
+1043758,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,11.0,November
+1043759,NCDS58,ncds9_relationships,n9rdivm,When got divorced / dissolved CP - Month,12.0,December
+1043760,NCDS58,ncds9_relationships,v3,None,,
+1043761,NCDS58,ncds9_relationships,avail_from_dt,,,

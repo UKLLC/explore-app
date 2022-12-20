@@ -1,0 +1,164 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+863183,MCS,mcs6_family_derived,factry00,ADMIN Country at interview (E,1.0,England
+863184,MCS,mcs6_family_derived,factry00,ADMIN Country at interview (E,2.0,Wales
+863185,MCS,mcs6_family_derived,factry00,ADMIN Country at interview (E,3.0,Scotland
+863186,MCS,mcs6_family_derived,factry00,ADMIN Country at interview (E,4.0,Northern Ireland
+863187,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),1.0,North East
+863188,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),2.0,North West
+863189,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),3.0,Yorkshire and the Humber
+863190,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),4.0,East Midlands
+863191,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),5.0,West Midlands
+863192,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),6.0,East of England
+863193,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),7.0,London
+863194,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),8.0,South East
+863195,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),9.0,South West
+863196,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),10.0,Wales
+863197,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),11.0,Scotland
+863198,MCS,mcs6_family_derived,faregn00,Interview Former Government Office Region (GOR),12.0,Northern Ireland
+863199,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,-1.0,Not applicable
+863200,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,1.0,"Main resp in person, no eligible partner"
+863201,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,2.0,Main and partner respondent in person
+863202,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,3.0,"Main in person, partner by proxy"
+863203,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,4.0,"Main in person, partner elig but not interviewed"
+863204,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,5.0,"Main in person, partner elig by prox but not interviewed"
+863205,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,6.0,"No main response, partner interviewed"
+863206,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,7.0,"No main response, nobody eligible for partner"
+863207,MCS,mcs6_family_derived,fdrspo00,S6 DV Parent interview response summary,8.0,No parent interviews
+863208,MCS,mcs6_family_derived,fdmint00,S6 DV Main Interview Outcome,1.0,Interviewed in person
+863209,MCS,mcs6_family_derived,fdmint00,S6 DV Main Interview Outcome,2.0,Eligible but not interviewed
+863210,MCS,mcs6_family_derived,fdmint00,S6 DV Main Interview Outcome,3.0,No-one eligible for interview
+863211,MCS,mcs6_family_derived,fdpint00,S6 DV Partner Interview Outcome,1.0,Partner interviewed in person
+863212,MCS,mcs6_family_derived,fdpint00,S6 DV Partner Interview Outcome,2.0,Partner interviewed by proxy
+863213,MCS,mcs6_family_derived,fdpint00,S6 DV Partner Interview Outcome,3.0,Partner eligible but not interviewed
+863214,MCS,mcs6_family_derived,fdpint00,S6 DV Partner Interview Outcome,4.0,No-one eligible for Partner interview
+863215,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,-1.0,Not applicable
+863216,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,1.0,Both natural parents
+863217,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,2.0,Natural mother and step-parent
+863218,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,3.0,Natural mother and other parent/carer
+863219,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,4.0,Natural mother and adoptive parent
+863220,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,5.0,Natural father and step-parent
+863221,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,6.0,Natural father and other parent/carer
+863222,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,7.0,Natural father and adoptive parent
+863223,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,8.0,Two adoptive parents
+863224,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,9.0,Adoptive mother and other parent/carer
+863225,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,10.0,Two foster parents
+863226,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,11.0,Two grandparents
+863227,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,12.0,Grandmother and other parent/carer
+863228,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,13.0,Grandfather and other parent/carer
+863229,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,14.0,Two other parents
+863230,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,15.0,Natural mother only
+863231,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,16.0,Natural father only
+863232,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,17.0,Adoptive mother only
+863233,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,18.0,Adoptive father only
+863234,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,19.0,Step mother only
+863235,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,20.0,Grandmother only
+863236,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,21.0,Other parent/carer only (foster/sib/rel)
+863237,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,22.0,Step father only
+863238,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,23.0,Unknown parent types
+863239,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,24.0,Grandfather only
+863240,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,25.0,Adoptive mother and step parent
+863241,MCS,mcs6_family_derived,fdhtyp00,S6 DV Parents/Carers in Household,26.0,Two step-parents
+863242,MCS,mcs6_family_derived,fdhtys00,S6 DV Summary of Parents/Carers in Household,-1.0,Not applicable
+863243,MCS,mcs6_family_derived,fdhtys00,S6 DV Summary of Parents/Carers in Household,1.0,Two parents/carers
+863244,MCS,mcs6_family_derived,fdhtys00,S6 DV Summary of Parents/Carers in Household,2.0,One parent/carer
+863245,MCS,mcs6_family_derived,fdrelp00,S6 DV Relationship between Parents/Carers in Household,-1.0,Not applicable
+863246,MCS,mcs6_family_derived,fdrelp00,S6 DV Relationship between Parents/Carers in Household,1.0,Married
+863247,MCS,mcs6_family_derived,fdrelp00,S6 DV Relationship between Parents/Carers in Household,2.0,Cohabiting
+863248,MCS,mcs6_family_derived,fdrelp00,S6 DV Relationship between Parents/Carers in Household,3.0,Neither
+863249,MCS,mcs6_family_derived,fdnatm00,S6 DV Natural mother status,-1.0,Not applicable
+863250,MCS,mcs6_family_derived,fdnatm00,S6 DV Natural mother status,1.0,Resident full-time in household
+863251,MCS,mcs6_family_derived,fdnatm00,S6 DV Natural mother status,2.0,Resident part-time in household
+863252,MCS,mcs6_family_derived,fdnatm00,S6 DV Natural mother status,3.0,Deceased
+863253,MCS,mcs6_family_derived,fdnatm00,S6 DV Natural mother status,4.0,Non-resident
+863254,MCS,mcs6_family_derived,fdminh00,S6 DV Natural mother in HH,-1.0,Not applicable
+863255,MCS,mcs6_family_derived,fdminh00,S6 DV Natural mother in HH,1.0,Resident in household
+863256,MCS,mcs6_family_derived,fdminh00,S6 DV Natural mother in HH,2.0,Not resident in household
+863257,MCS,mcs6_family_derived,fdminh00,S6 DV Natural mother in HH,3.0,Deceased
+863258,MCS,mcs6_family_derived,fdnatf00,S6 DV Natural father status,-1.0,Not applicable
+863259,MCS,mcs6_family_derived,fdnatf00,S6 DV Natural father status,1.0,Resident full-time in household
+863260,MCS,mcs6_family_derived,fdnatf00,S6 DV Natural father status,2.0,Resident part-time in household
+863261,MCS,mcs6_family_derived,fdnatf00,S6 DV Natural father status,3.0,Deceased
+863262,MCS,mcs6_family_derived,fdnatf00,S6 DV Natural father status,4.0,Non-resident
+863263,MCS,mcs6_family_derived,fdfinh00,S6 DV Natural father in HH,-1.0,Not applicable
+863264,MCS,mcs6_family_derived,fdfinh00,S6 DV Natural father in HH,1.0,Resident in household
+863265,MCS,mcs6_family_derived,fdfinh00,S6 DV Natural father in HH,2.0,Not resident in household
+863266,MCS,mcs6_family_derived,fdfinh00,S6 DV Natural father in HH,3.0,Deceased
+863267,MCS,mcs6_family_derived,fdoths00,S6 DV Number of siblings of CM in household,-2.0,Not Known
+863268,MCS,mcs6_family_derived,fdnocm00,S6 DV Number of CMs in household,-2.0,Not Known
+863269,MCS,mcs6_family_derived,fdtots00,S6 DV Number of sibs in hhold plus CMs,-2.0,Not Known
+863270,MCS,mcs6_family_derived,fdnsib00,S6 DV Natural siblings of CM in household,-2.0,Not Known
+863271,MCS,mcs6_family_derived,fdnsib00,S6 DV Natural siblings of CM in household,1.0,At least 1 natural sib in HH
+863272,MCS,mcs6_family_derived,fdnsib00,S6 DV Natural siblings of CM in household,2.0,No natural sibs in HH
+863273,MCS,mcs6_family_derived,fdhsib00,S6 DV Half siblings of CM in household,-2.0,Not Known
+863274,MCS,mcs6_family_derived,fdhsib00,S6 DV Half siblings of CM in household,1.0,At least 1 half sib in HH
+863275,MCS,mcs6_family_derived,fdhsib00,S6 DV Half siblings of CM in household,2.0,No half sibs in HH
+863276,MCS,mcs6_family_derived,fdssib00,S6 DV Step siblings of CM in household,-2.0,Not Known
+863277,MCS,mcs6_family_derived,fdssib00,S6 DV Step siblings of CM in household,1.0,At least 1 step sib in HH
+863278,MCS,mcs6_family_derived,fdssib00,S6 DV Step siblings of CM in household,2.0,No step sibs in HH
+863279,MCS,mcs6_family_derived,fdasib00,S6 DV Adoptive siblings of CM in household,-2.0,Not Known
+863280,MCS,mcs6_family_derived,fdasib00,S6 DV Adoptive siblings of CM in household,1.0,At least 1 adoptive sib in HH
+863281,MCS,mcs6_family_derived,fdasib00,S6 DV Adoptive siblings of CM in household,2.0,No adoptive sibs in HH
+863282,MCS,mcs6_family_derived,fdfsib00,S6 DV Foster siblings of CM in household,-2.0,Not Known
+863283,MCS,mcs6_family_derived,fdfsib00,S6 DV Foster siblings of CM in household,1.0,At least 1 foster sib in HH
+863284,MCS,mcs6_family_derived,fdfsib00,S6 DV Foster siblings of CM in household,2.0,No step sibs in HH
+863285,MCS,mcs6_family_derived,fdgpar00,S6 DV Grandparent of CM in household,-2.0,Not Known
+863286,MCS,mcs6_family_derived,fdgpar00,S6 DV Grandparent of CM in household,1.0,At least 1 grandparent in HH
+863287,MCS,mcs6_family_derived,fdgpar00,S6 DV Grandparent of CM in household,2.0,No grandparents in HH
+863288,MCS,mcs6_family_derived,fdotha00,S6 DV Other adult in household,-2.0,Not Known
+863289,MCS,mcs6_family_derived,fdotha00,S6 DV Other adult in household,1.0,At least 1 'other' adult in HH
+863290,MCS,mcs6_family_derived,fdotha00,S6 DV Other adult in household,2.0,No 'other' adults in HH
+863291,MCS,mcs6_family_derived,fdnumh00,S6 DV Number of people in HH excluding CMs,-2.0,Not Known
+863292,MCS,mcs6_family_derived,fdtotp00,S6 DV Number of people in HH including CMs,-2.0,Not Known
+863293,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,-9.0,Refusal
+863294,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,-8.0,Dont Know
+863295,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,-1.0,Not applicable
+863296,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,1.0,Yes - English only
+863297,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,2.0,"Yes - mostly English, sometimes other"
+863298,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,3.0,Yes - about half English and half other
+863299,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,4.0,"No - mostly other, sometime English"
+863300,MCS,mcs6_family_derived,fdhlan00,S6 DV Language Spoken in household,5.0,No - other language(s) only
+863301,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,-9.0,Refusal
+863302,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,-8.0,Dont know
+863303,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,-1.0,Not applicable
+863304,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,1.0,Own outright
+863305,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,2.0,Own - mortgage/loan
+863306,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,3.0,Part rent/ part mortgage (shared equity)
+863307,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,4.0,Rent from local authority
+863308,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,5.0,Rent from housing association
+863309,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,6.0,Rent privately
+863310,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,7.0,Living with parents
+863311,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,8.0,Living rent free
+863312,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,9.0,Squatting
+863313,MCS,mcs6_family_derived,fdroow00,S6 DV Housing Tenure,10.0,Other
+863314,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,-9.0,Refusal
+863315,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,-8.0,Dont know
+863316,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,-1.0,Not applicable
+863317,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,1.0,Both in work
+863318,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,2.0,"Main in work, partner not"
+863319,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,3.0,"Partner in work, main not"
+863320,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,4.0,Both not in work
+863321,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,5.0,"Main in work or on leave, no partner"
+863322,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,6.0,"Main not in work nor on leave, no partner"
+863323,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,7.0,"Main work status unknown, partner in work"
+863324,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,8.0,"Main work status unknown, partner not in work"
+863325,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,9.0,"Main in work, partner work status unknown"
+863326,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,10.0,"Main not in work, partner work status unknown"
+863327,MCS,mcs6_family_derived,fdcwrk00,S6 DV Combined labour market status,11.0,"Main working status unknown, no partner"
+863328,MCS,mcs6_family_derived,foede000,S6 DV OECD equiv weekly family income,-1.0,Not applicable
+863329,MCS,mcs6_family_derived,foedp000,S6 DV OECD Below 60% median indicator,-1.0,Not applicable
+863330,MCS,mcs6_family_derived,foedp000,S6 DV OECD Below 60% median indicator,0.0,Above 60% median
+863331,MCS,mcs6_family_derived,foedp000,S6 DV OECD Below 60% median indicator,1.0,Below 60% median
+863332,MCS,mcs6_family_derived,foecduk0,S6 DV OECD Equivalised income quintiles - UK whole,-1.0,Not applicable
+863333,MCS,mcs6_family_derived,foecduk0,S6 DV OECD Equivalised income quintiles - UK whole,1.0,Lower quantile
+863334,MCS,mcs6_family_derived,foecduk0,S6 DV OECD Equivalised income quintiles - UK whole,2.0,Second quantile
+863335,MCS,mcs6_family_derived,foecduk0,S6 DV OECD Equivalised income quintiles - UK whole,3.0,Third quantile
+863336,MCS,mcs6_family_derived,foecduk0,S6 DV OECD Equivalised income quintiles - UK whole,4.0,Fourth quantile
+863337,MCS,mcs6_family_derived,foecduk0,S6 DV OECD Equivalised income quintiles - UK whole,5.0,Highest quantile
+863338,MCS,mcs6_family_derived,foecdsc0,S6 DV OECD Equivalised income quintiles - by country,-1.0,Not applicable
+863339,MCS,mcs6_family_derived,foecdsc0,S6 DV OECD Equivalised income quintiles - by country,1.0,Lower quantile
+863340,MCS,mcs6_family_derived,foecdsc0,S6 DV OECD Equivalised income quintiles - by country,2.0,Second quantile
+863341,MCS,mcs6_family_derived,foecdsc0,S6 DV OECD Equivalised income quintiles - by country,3.0,Third quantile
+863342,MCS,mcs6_family_derived,foecdsc0,S6 DV OECD Equivalised income quintiles - by country,4.0,Fourth quantile
+863343,MCS,mcs6_family_derived,foecdsc0,S6 DV OECD Equivalised income quintiles - by country,5.0,Highest quantile
+863344,MCS,mcs6_family_derived,avail_from_dt,,,
+863345,MCS,mcs6_family_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

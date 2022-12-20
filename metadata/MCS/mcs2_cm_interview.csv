@@ -1,0 +1,178 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+772091,MCS,mcs2_cm_interview,study_id_e,,,
+772092,MCS,mcs2_cm_interview,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+772093,MCS,mcs2_cm_interview,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+772094,MCS,mcs2_cm_interview,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+772095,MCS,mcs2_cm_interview,bcmeas00,DV Child Measurements completed,0.0,No measurements
+772096,MCS,mcs2_cm_interview,bcmeas00,DV Child Measurements completed,1.0,Both height and weight
+772097,MCS,mcs2_cm_interview,bcmeas00,DV Child Measurements completed,2.0,Weight only
+772098,MCS,mcs2_cm_interview,bcmeas00,DV Child Measurements completed,3.0,Height only
+772099,MCS,mcs2_cm_interview,bchser00,PHYS Serial number of heigth equipment,-2.0,No Measurement taken
+772100,MCS,mcs2_cm_interview,bchser00,PHYS Serial number of heigth equipment,-1.0,Not applicable
+772101,MCS,mcs2_cm_interview,bchser00,PHYS Serial number of heigth equipment,0.0,non-existent serial no
+772102,MCS,mcs2_cm_interview,bchpou00,PHYS Parental outcome (height),-2.0,No Measurement taken
+772103,MCS,mcs2_cm_interview,bchpou00,PHYS Parental outcome (height),-1.0,Not applicable
+772104,MCS,mcs2_cm_interview,bchpou00,PHYS Parental outcome (height),1.0,Parent accepted
+772105,MCS,mcs2_cm_interview,bchpou00,PHYS Parental outcome (height),2.0,Parent refused - specify reason
+772106,MCS,mcs2_cm_interview,bchcou00,PHYS Child outcome (height),-2.0,No Measurement taken
+772107,MCS,mcs2_cm_interview,bchcou00,PHYS Child outcome (height),-1.0,Not applicable
+772108,MCS,mcs2_cm_interview,bchcou00,PHYS Child outcome (height),1.0,Child accepted
+772109,MCS,mcs2_cm_interview,bchcou00,PHYS Child outcome (height),2.0,Child refused - specify reason
+772110,MCS,mcs2_cm_interview,bchcou00,PHYS Child outcome (height),3.0,Child unable to be measured - specify r
+772111,MCS,mcs2_cm_interview,bcbkht00,PHYS Ask to see Red Book for last height measurement,-9.0,Refused
+772112,MCS,mcs2_cm_interview,bcbkht00,PHYS Ask to see Red Book for last height measurement,-2.0,No Measurement taken
+772113,MCS,mcs2_cm_interview,bcbkht00,PHYS Ask to see Red Book for last height measurement,-1.0,Not applicable
+772114,MCS,mcs2_cm_interview,bcbkht00,PHYS Ask to see Red Book for last height measurement,1.0,Yes (Enter height in nearest cm to near
+772115,MCS,mcs2_cm_interview,bcbkht00,PHYS Ask to see Red Book for last height measurement,2.0,Not got Red Book/not in Red Book
+772116,MCS,mcs2_cm_interview,bchtcm00,PHYS Child's standing height (cm),-2.0,No Measurement taken
+772117,MCS,mcs2_cm_interview,bchtcm00,PHYS Child's standing height (cm),-1.0,Not answered / missing
+772118,MCS,mcs2_cm_interview,bchtmm00,PHYS Child's standing height (mm),-2.0,No Measurement taken
+772119,MCS,mcs2_cm_interview,bchtmm00,PHYS Child's standing height (mm),-1.0,Not answered / missing
+772120,MCS,mcs2_cm_interview,bchcmc00,DV Height (cm) after cleaning,-2.0,No Measurement taken
+772121,MCS,mcs2_cm_interview,bchcmc00,DV Height (cm) after cleaning,-1.0,Not answered / missing
+772122,MCS,mcs2_cm_interview,bchmmc00,DV Height (mm) after cleaning,-2.0,No Measurement taken
+772123,MCS,mcs2_cm_interview,bchmmc00,DV Height (mm) after cleaning,-1.0,Not answered / missing
+772124,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,-2.0,No Measurement taken
+772125,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,-1.0,Not applicable
+772126,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,1.0,"Child's height given, and marked succes"
+772127,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,2.0,Height given but not marked successful
+772128,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,3.0,Historic height taken from Red Book; da
+772129,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,4.0,Historic height taken from Red Book; no
+772130,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,5.0,Historic height and date given; refused
+772131,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,6.0,Historic height and date given; did not
+772132,MCS,mcs2_cm_interview,bchtoc00,DV Outcome of height measurement,7.0,No height given
+772133,MCS,mcs2_cm_interview,bchtam00,DV Amended height data according to interviewer notes,-2.0,No Measurement taken
+772134,MCS,mcs2_cm_interview,bchtam00,DV Amended height data according to interviewer notes,-1.0,Not applicable
+772135,MCS,mcs2_cm_interview,bchtam00,DV Amended height data according to interviewer notes,0.0,No amendments made
+772136,MCS,mcs2_cm_interview,bchtam00,DV Amended height data according to interviewer notes,1.0,Amended
+772137,MCS,mcs2_cm_interview,bchbkd00,PHYS Date of height measurement from Red Book (day),-2.0,No Measurement taken
+772138,MCS,mcs2_cm_interview,bchbkd00,PHYS Date of height measurement from Red Book (day),-1.0,Not applicable / missing
+772139,MCS,mcs2_cm_interview,bchbkm00,PHYS Date of height measurement from Red Book (month),-2.0,No Measurement taken
+772140,MCS,mcs2_cm_interview,bchbkm00,PHYS Date of height measurement from Red Book (month),-1.0,Not applicable / missing
+772141,MCS,mcs2_cm_interview,bchbky00,PHYS Date of height measurement from Red Book (year),-2.0,No Measurement taken
+772142,MCS,mcs2_cm_interview,bchbky00,PHYS Date of height measurement from Red Book (year),-1.0,Not applicable / missing
+772143,MCS,mcs2_cm_interview,bchtat00,PHYS Number of attempts to take measurement,-2.0,No Measurement taken
+772144,MCS,mcs2_cm_interview,bchtat00,PHYS Number of attempts to take measurement,-1.0,Not answered / missing
+772145,MCS,mcs2_cm_interview,bchttm00,PHYS Time measurement was taken (hours),-2.0,No Measurement taken
+772146,MCS,mcs2_cm_interview,bchttm00,PHYS Time measurement was taken (hours),-1.0,Not answered / missing
+772147,MCS,mcs2_cm_interview,bchtim00,PHYS Time measurement was taken (minutes),-2.0,No Measurement taken
+772148,MCS,mcs2_cm_interview,bchtim00,PHYS Time measurement was taken (minutes),-1.0,Not applicable
+772149,MCS,mcs2_cm_interview,bchtrl0a,PHYS Circumstances applicable: Successful measurement,-2.0,No Measurement taken
+772150,MCS,mcs2_cm_interview,bchtrl0a,PHYS Circumstances applicable: Successful measurement,-1.0,Not answered / missing
+772151,MCS,mcs2_cm_interview,bchtrl0a,PHYS Circumstances applicable: Successful measurement,0.0,No
+772152,MCS,mcs2_cm_interview,bchtrl0a,PHYS Circumstances applicable: Successful measurement,1.0,Yes
+772153,MCS,mcs2_cm_interview,bchtrl0b,PHYS Circumstances applicable: Hairstyle MC2,-2.0,No Measurement taken
+772154,MCS,mcs2_cm_interview,bchtrl0b,PHYS Circumstances applicable: Hairstyle MC2,-1.0,Not answered / missing
+772155,MCS,mcs2_cm_interview,bchtrl0b,PHYS Circumstances applicable: Hairstyle MC2,0.0,No
+772156,MCS,mcs2_cm_interview,bchtrl0b,PHYS Circumstances applicable: Hairstyle MC2,1.0,Yes
+772157,MCS,mcs2_cm_interview,bchtrl0c,PHYS Circumstances applicable: Turban MC3,-2.0,No Measurement taken
+772158,MCS,mcs2_cm_interview,bchtrl0c,PHYS Circumstances applicable: Turban MC3,-1.0,Not answered / missing
+772159,MCS,mcs2_cm_interview,bchtrl0c,PHYS Circumstances applicable: Turban MC3,0.0,No
+772160,MCS,mcs2_cm_interview,bchtrl0c,PHYS Circumstances applicable: Turban MC3,1.0,Yes
+772161,MCS,mcs2_cm_interview,bchtrl0d,PHYS Circumstances applicable: Back not straight MC4,-2.0,No Measurement taken
+772162,MCS,mcs2_cm_interview,bchtrl0d,PHYS Circumstances applicable: Back not straight MC4,-1.0,Not answered / missing
+772163,MCS,mcs2_cm_interview,bchtrl0d,PHYS Circumstances applicable: Back not straight MC4,0.0,No
+772164,MCS,mcs2_cm_interview,bchtrl0d,PHYS Circumstances applicable: Back not straight MC4,1.0,Yes
+772165,MCS,mcs2_cm_interview,bchtrl0e,PHYS Circumstances applicable: Legs not straight MC5,-2.0,No Measurement taken
+772166,MCS,mcs2_cm_interview,bchtrl0e,PHYS Circumstances applicable: Legs not straight MC5,-1.0,Not answered / missing
+772167,MCS,mcs2_cm_interview,bchtrl0e,PHYS Circumstances applicable: Legs not straight MC5,0.0,No
+772168,MCS,mcs2_cm_interview,bchtrl0e,PHYS Circumstances applicable: Legs not straight MC5,1.0,Yes
+772169,MCS,mcs2_cm_interview,bchtrl0f,PHYS Circumstances applicable: Unable to stand still,-2.0,No Measurement taken
+772170,MCS,mcs2_cm_interview,bchtrl0f,PHYS Circumstances applicable: Unable to stand still,-1.0,Not answered / missing
+772171,MCS,mcs2_cm_interview,bchtrl0f,PHYS Circumstances applicable: Unable to stand still,0.0,No
+772172,MCS,mcs2_cm_interview,bchtrl0f,PHYS Circumstances applicable: Unable to stand still,1.0,Yes
+772173,MCS,mcs2_cm_interview,bchtel00,PHYS Anything else we need to know about measurement,-2.0,No Measurement taken
+772174,MCS,mcs2_cm_interview,bchtel00,PHYS Anything else we need to know about measurement,-1.0,Not answered / missing
+772175,MCS,mcs2_cm_interview,bchtel00,PHYS Anything else we need to know about measurement,1.0,Yes - Please specify
+772176,MCS,mcs2_cm_interview,bchtel00,PHYS Anything else we need to know about measurement,2.0,No
+772177,MCS,mcs2_cm_interview,bcwser00,PHYS Serial number on scales,-2.0,No Measurement taken
+772178,MCS,mcs2_cm_interview,bcwser00,PHYS Serial number on scales,-1.0,Not applicable
+772179,MCS,mcs2_cm_interview,bcwser00,PHYS Serial number on scales,0.0,non-existent serial no
+772180,MCS,mcs2_cm_interview,bcwpou00,PHYS Parental outcome (weight),-2.0,No Measurement taken
+772181,MCS,mcs2_cm_interview,bcwpou00,PHYS Parental outcome (weight),-1.0,Not applicable
+772182,MCS,mcs2_cm_interview,bcwpou00,PHYS Parental outcome (weight),1.0,Parent accepted
+772183,MCS,mcs2_cm_interview,bcwpou00,PHYS Parental outcome (weight),2.0,Parent refused - specify reason
+772184,MCS,mcs2_cm_interview,bcwcou00,PHYS Child outcome (weight),-2.0,No Measurement taken
+772185,MCS,mcs2_cm_interview,bcwcou00,PHYS Child outcome (weight),-1.0,Not applicable
+772186,MCS,mcs2_cm_interview,bcwcou00,PHYS Child outcome (weight),1.0,Child accepted
+772187,MCS,mcs2_cm_interview,bcwcou00,PHYS Child outcome (weight),2.0,Child refused - specify reason
+772188,MCS,mcs2_cm_interview,bcwcou00,PHYS Child outcome (weight),3.0,Child unable to be weighed - specify re
+772189,MCS,mcs2_cm_interview,bcbkwt00,PHYS Ask to see Red Book for last weight measurement,-9.0,Refused
+772190,MCS,mcs2_cm_interview,bcbkwt00,PHYS Ask to see Red Book for last weight measurement,-2.0,No Measurement taken
+772191,MCS,mcs2_cm_interview,bcbkwt00,PHYS Ask to see Red Book for last weight measurement,-1.0,Not applicable
+772192,MCS,mcs2_cm_interview,bcbkwt00,PHYS Ask to see Red Book for last weight measurement,0.0,Yes  (Enter weight in kg as recorded in
+772193,MCS,mcs2_cm_interview,bcbkwt00,PHYS Ask to see Red Book for last weight measurement,1.0,Not got red book/not in red book
+772194,MCS,mcs2_cm_interview,bcwtkm00,PHYS Weight (kg),-2.0,No Measurement taken
+772195,MCS,mcs2_cm_interview,bcwtkm00,PHYS Weight (kg),-1.0,Not applicable
+772196,MCS,mcs2_cm_interview,bcwtgm00,PHYS Weight (100g),-2.0,No Measurement taken
+772197,MCS,mcs2_cm_interview,bcwtgm00,PHYS Weight (100g),-1.0,Not applicable
+772198,MCS,mcs2_cm_interview,bcwtkc00,DV Weight (kg) after cleaning,-2.0,No Measurement taken
+772199,MCS,mcs2_cm_interview,bcwtkc00,DV Weight (kg) after cleaning,-1.0,Not answered / missing
+772200,MCS,mcs2_cm_interview,bcwtgc00,DV Weight (100g) after cleaning,-2.0,No Measurement taken
+772201,MCS,mcs2_cm_interview,bcwtgc00,DV Weight (100g) after cleaning,-1.0,Not answered / missing
+772202,MCS,mcs2_cm_interview,bcwtoc00,DV Outcome for weight measurement,-2.0,No Measurement taken
+772203,MCS,mcs2_cm_interview,bcwtoc00,DV Outcome for weight measurement,-1.0,Not applicable
+772204,MCS,mcs2_cm_interview,bcwtoc00,DV Outcome for weight measurement,1.0,Child weighed
+772205,MCS,mcs2_cm_interview,bcwtoc00,DV Outcome for weight measurement,2.0,Weight taken from Red Book; date given
+772206,MCS,mcs2_cm_interview,bcwtoc00,DV Outcome for weight measurement,3.0,Weight taken from Red Book; no date giv
+772207,MCS,mcs2_cm_interview,bcwtoc00,DV Outcome for weight measurement,4.0,No weight given
+772208,MCS,mcs2_cm_interview,bcwtam00,DV Amended weight data according to interviewer notes,-2.0,No Measurement taken
+772209,MCS,mcs2_cm_interview,bcwtam00,DV Amended weight data according to interviewer notes,-1.0,Not applicable
+772210,MCS,mcs2_cm_interview,bcwtam00,DV Amended weight data according to interviewer notes,0.0,No amendments made
+772211,MCS,mcs2_cm_interview,bcwtam00,DV Amended weight data according to interviewer notes,1.0,Amended
+772212,MCS,mcs2_cm_interview,bcwbkd00,PHYS Date of weight measurement from Red Book (day),-2.0,No Measurement taken
+772213,MCS,mcs2_cm_interview,bcwbkd00,PHYS Date of weight measurement from Red Book (day),-1.0,Not applicable
+772214,MCS,mcs2_cm_interview,bcwbkm00,PHYS Date of weight measurement from Red Book (month),-2.0,No Measurement taken
+772215,MCS,mcs2_cm_interview,bcwbkm00,PHYS Date of weight measurement from Red Book (month),-1.0,Not applicable
+772216,MCS,mcs2_cm_interview,bcwbky00,PHYS Date of weight measurement from Red Book (year),-2.0,No Measurement taken
+772217,MCS,mcs2_cm_interview,bcwbky00,PHYS Date of weight measurement from Red Book (year),-1.0,Not applicable
+772218,MCS,mcs2_cm_interview,bcchkw00,PHYS Weight check,-1.0,Not applicable
+772219,MCS,mcs2_cm_interview,bcchkw00,PHYS Weight check,1.0,Yes - CORRECT
+772220,MCS,mcs2_cm_interview,bcchkw00,PHYS Weight check,2.0,"No - INCORRECT, amend answer"
+772221,MCS,mcs2_cm_interview,bcwtat00,PHYS Number of attempts to take measurement,-2.0,No Measurement taken
+772222,MCS,mcs2_cm_interview,bcwtat00,PHYS Number of attempts to take measurement,-1.0,Not answered / missing
+772223,MCS,mcs2_cm_interview,bcwtih00,PHYS Time measurement was taken (hours),-2.0,No Measurement taken
+772224,MCS,mcs2_cm_interview,bcwtih00,PHYS Time measurement was taken (hours),-1.0,Not answered / missing
+772225,MCS,mcs2_cm_interview,bcwtim00,PHYS Time measurement was taken (minutes),-2.0,No Measurement taken
+772226,MCS,mcs2_cm_interview,bcwtim00,PHYS Time measurement was taken (minutes),-1.0,Not answered / missing
+772227,MCS,mcs2_cm_interview,bcwtsc00,PHYS Scales on uneven floor or carpet,-2.0,No Measurement taken
+772228,MCS,mcs2_cm_interview,bcwtsc00,PHYS Scales on uneven floor or carpet,-1.0,Not answered / missing
+772229,MCS,mcs2_cm_interview,bcwtsc00,PHYS Scales on uneven floor or carpet,1.0,Yes - uneven floor
+772230,MCS,mcs2_cm_interview,bcwtsc00,PHYS Scales on uneven floor or carpet,2.0,Yes - carpet
+772231,MCS,mcs2_cm_interview,bcwtsc00,PHYS Scales on uneven floor or carpet,3.0,No - neither
+772232,MCS,mcs2_cm_interview,bcwadu00,PHYS Measurement with adult,-2.0,No Measurement taken
+772233,MCS,mcs2_cm_interview,bcwadu00,PHYS Measurement with adult,-1.0,Not answered / missing
+772234,MCS,mcs2_cm_interview,bcwadu00,PHYS Measurement with adult,1.0,Yes
+772235,MCS,mcs2_cm_interview,bcwadu00,PHYS Measurement with adult,2.0,No
+772236,MCS,mcs2_cm_interview,bcwtrl0a,PHYS Circumstances affecting weight: Wearing shoes etc MC1,-2.0,No Measurement taken
+772237,MCS,mcs2_cm_interview,bcwtrl0a,PHYS Circumstances affecting weight: Wearing shoes etc MC1,-1.0,Not answered / missing
+772238,MCS,mcs2_cm_interview,bcwtrl0a,PHYS Circumstances affecting weight: Wearing shoes etc MC1,0.0,No
+772239,MCS,mcs2_cm_interview,bcwtrl0a,PHYS Circumstances affecting weight: Wearing shoes etc MC1,1.0,Yes
+772240,MCS,mcs2_cm_interview,bcwtrl0b,PHYS Circumstances affecting weight: Plaster cast (arm) MC2,-2.0,No Measurement taken
+772241,MCS,mcs2_cm_interview,bcwtrl0b,PHYS Circumstances affecting weight: Plaster cast (arm) MC2,-1.0,Not answered / missing
+772242,MCS,mcs2_cm_interview,bcwtrl0b,PHYS Circumstances affecting weight: Plaster cast (arm) MC2,0.0,No
+772243,MCS,mcs2_cm_interview,bcwtrl0b,PHYS Circumstances affecting weight: Plaster cast (arm) MC2,1.0,Yes
+772244,MCS,mcs2_cm_interview,bcwtrl0c,PHYS Circumstances affecting weight: Plaster cast (leg) MC3,-2.0,No Measurement taken
+772245,MCS,mcs2_cm_interview,bcwtrl0c,PHYS Circumstances affecting weight: Plaster cast (leg) MC3,-1.0,Not answered / missing
+772246,MCS,mcs2_cm_interview,bcwtrl0c,PHYS Circumstances affecting weight: Plaster cast (leg) MC3,0.0,No
+772247,MCS,mcs2_cm_interview,bcwtrl0c,PHYS Circumstances affecting weight: Plaster cast (leg) MC3,1.0,Yes
+772248,MCS,mcs2_cm_interview,bcwtrl0d,PHYS Circumstances affecting weight: None MC4,-2.0,No Measurement taken
+772249,MCS,mcs2_cm_interview,bcwtrl0d,PHYS Circumstances affecting weight: None MC4,-1.0,Not answered / missing
+772250,MCS,mcs2_cm_interview,bcwtrl0d,PHYS Circumstances affecting weight: None MC4,0.0,No
+772251,MCS,mcs2_cm_interview,bcwtrl0d,PHYS Circumstances affecting weight: None MC4,1.0,Yes
+772252,MCS,mcs2_cm_interview,bcwtel00,PHYS Anything else we need to know about this weight,-2.0,No Measurement taken
+772253,MCS,mcs2_cm_interview,bcwtel00,PHYS Anything else we need to know about this weight,-1.0,Not answered / missing
+772254,MCS,mcs2_cm_interview,bcwtel00,PHYS Anything else we need to know about this weight,1.0,Yes - Please specify
+772255,MCS,mcs2_cm_interview,bcwtel00,PHYS Anything else we need to know about this weight,2.0,No
+772256,MCS,mcs2_cm_interview,bchtmt00,DV Cohort Member Height in metres where bdhtoc00 equal,-1.0,Not applicable
+772257,MCS,mcs2_cm_interview,bcwtkl00,DV Cohort Member Weight in kilos where bdwtoc00=1,-1.0,Not applicable
+772258,MCS,mcs2_cm_interview,bcbmin00,DV Cohort Member BMI according to present weight,-1.0,Insuficient data to calculate BMI
+772259,MCS,mcs2_cm_interview,bobflag2,Overweight/obesity flag for MCS2,-7.0,Not present at MCS2
+772260,MCS,mcs2_cm_interview,bobflag2,Overweight/obesity flag for MCS2,-1.0,Some or all height/weight/age missing
+772261,MCS,mcs2_cm_interview,bobflag2,Overweight/obesity flag for MCS2,0.0,Normal weight
+772262,MCS,mcs2_cm_interview,bobflag2,Overweight/obesity flag for MCS2,1.0,Overweight
+772263,MCS,mcs2_cm_interview,bobflag2,Overweight/obesity flag for MCS2,2.0,Obese
+772264,MCS,mcs2_cm_interview,bflaght0,Flagged implausible height values,1.0,implausible
+772265,MCS,mcs2_cm_interview,bglagwt0,Flagged implausible weight values,1.0,implausible
+772266,MCS,mcs2_cm_interview,avail_from_dt,,,
+772267,MCS,mcs2_cm_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

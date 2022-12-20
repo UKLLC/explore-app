@@ -1,0 +1,831 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+859675,MCS,mcs5_proxy_partner_interview,study_id_e,,,
+859676,MCS,mcs5_proxy_partner_interview,pnum,Person Number,-1.0,Not applicable
+859677,MCS,mcs5_proxy_partner_interview,eelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+859678,MCS,mcs5_proxy_partner_interview,eelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+859679,MCS,mcs5_proxy_partner_interview,eelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Proxy Interview
+859680,MCS,mcs5_proxy_partner_interview,eelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible
+859681,MCS,mcs5_proxy_partner_interview,eresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+859682,MCS,mcs5_proxy_partner_interview,eresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+859683,MCS,mcs5_proxy_partner_interview,eresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Proxy Interview
+859684,MCS,mcs5_proxy_partner_interview,eresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No interview
+859685,MCS,mcs5_proxy_partner_interview,expxin00,Proceed with proxy interview,-9.0,Refusal
+859686,MCS,mcs5_proxy_partner_interview,expxin00,Proceed with proxy interview,-8.0,Don't know
+859687,MCS,mcs5_proxy_partner_interview,expxin00,Proceed with proxy interview,-1.0,Not applicable
+859688,MCS,mcs5_proxy_partner_interview,expxin00,Proceed with proxy interview,1.0,Continue with PROXY interview
+859689,MCS,mcs5_proxy_partner_interview,expxin00,Proceed with proxy interview,2.0,Refused PROXY interview
+859690,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,-1.0,Not applicable
+859691,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,1.0,Legally separated
+859692,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,2.0,"Married, 1st and only marriage"
+859693,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,3.0,"Remarried, 2nd or later marriage"
+859694,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,4.0,"Single, never married"
+859695,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,5.0,Divorced
+859696,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,6.0,Widowed
+859697,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,7.0,A Civil Partner
+859698,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,8.0,A former Civil Partner
+859699,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,9.0,A surviving Civil Partner
+859700,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,10.0,Don't know
+859701,MCS,mcs5_proxy_partner_interview,expxms00,Partner s current legal marital status,11.0,Refused
+859702,MCS,mcs5_proxy_partner_interview,expxmu00,Whether partner s natural/adoptive mother still alive,-9.0,Refusal
+859703,MCS,mcs5_proxy_partner_interview,expxmu00,Whether partner s natural/adoptive mother still alive,-8.0,Don't know
+859704,MCS,mcs5_proxy_partner_interview,expxmu00,Whether partner s natural/adoptive mother still alive,-1.0,Not applicable
+859705,MCS,mcs5_proxy_partner_interview,expxmu00,Whether partner s natural/adoptive mother still alive,1.0,Yes
+859706,MCS,mcs5_proxy_partner_interview,expxmu00,Whether partner s natural/adoptive mother still alive,2.0,No
+859707,MCS,mcs5_proxy_partner_interview,expxmu00,Whether partner s natural/adoptive mother still alive,3.0,Don't know
+859708,MCS,mcs5_proxy_partner_interview,expxmu00,Whether partner s natural/adoptive mother still alive,4.0,Refused
+859709,MCS,mcs5_proxy_partner_interview,expxma00,Partner's mother's age,-9.0,Refusal
+859710,MCS,mcs5_proxy_partner_interview,expxma00,Partner's mother's age,-8.0,Don't know
+859711,MCS,mcs5_proxy_partner_interview,expxma00,Partner's mother's age,-1.0,Not applicable
+859712,MCS,mcs5_proxy_partner_interview,expxmo00,Age of partner's mother at death,-9.0,Refusal
+859713,MCS,mcs5_proxy_partner_interview,expxmo00,Age of partner's mother at death,-8.0,Don't know
+859714,MCS,mcs5_proxy_partner_interview,expxmo00,Age of partner's mother at death,-1.0,Not applicable
+859715,MCS,mcs5_proxy_partner_interview,expxdu00,Whether partner's father still alive,-9.0,Refusal
+859716,MCS,mcs5_proxy_partner_interview,expxdu00,Whether partner's father still alive,-8.0,Don't know
+859717,MCS,mcs5_proxy_partner_interview,expxdu00,Whether partner's father still alive,-1.0,Not applicable
+859718,MCS,mcs5_proxy_partner_interview,expxdu00,Whether partner's father still alive,1.0,Yes
+859719,MCS,mcs5_proxy_partner_interview,expxdu00,Whether partner's father still alive,2.0,No
+859720,MCS,mcs5_proxy_partner_interview,expxdu00,Whether partner's father still alive,3.0,Don't know
+859721,MCS,mcs5_proxy_partner_interview,expxdu00,Whether partner's father still alive,4.0,Refused
+859722,MCS,mcs5_proxy_partner_interview,expxda00,Partner's father's age,-9.0,Refusal
+859723,MCS,mcs5_proxy_partner_interview,expxda00,Partner's father's age,-8.0,Don't know
+859724,MCS,mcs5_proxy_partner_interview,expxda00,Partner's father's age,-1.0,Not applicable
+859725,MCS,mcs5_proxy_partner_interview,expxdo00,Age of partner's father at death,-9.0,Refusal
+859726,MCS,mcs5_proxy_partner_interview,expxdo00,Age of partner's father at death,-8.0,Don't know
+859727,MCS,mcs5_proxy_partner_interview,expxdo00,Age of partner's father at death,-1.0,Not applicable
+859728,MCS,mcs5_proxy_partner_interview,expxbo00,Whether partner born in UK,-3.0,Routing error
+859729,MCS,mcs5_proxy_partner_interview,expxbo00,Whether partner born in UK,-1.0,Not applicable
+859730,MCS,mcs5_proxy_partner_interview,expxbo00,Whether partner born in UK,1.0,Yes
+859731,MCS,mcs5_proxy_partner_interview,expxwn00,When partner came to UK to live,-9.0,Refusal
+859732,MCS,mcs5_proxy_partner_interview,expxwn00,When partner came to UK to live,-8.0,Don't know
+859733,MCS,mcs5_proxy_partner_interview,expxwn00,When partner came to UK to live,-1.0,Not applicable
+859734,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,-9.0,Refusal
+859735,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,-8.0,Don't know
+859736,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,-1.0,Not applicable
+859737,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,1.0,"... excellent,"
+859738,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,2.0,"very good,"
+859739,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,3.0,"good,"
+859740,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,4.0,"fair,"
+859741,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,5.0,or poor?
+859742,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,6.0,Don't know
+859743,MCS,mcs5_proxy_partner_interview,expxge00,Describe partner's health,7.0,Refused
+859744,MCS,mcs5_proxy_partner_interview,expxll00,Has partner longstanding illness,-9.0,Refusal
+859745,MCS,mcs5_proxy_partner_interview,expxll00,Has partner longstanding illness,-8.0,Don't know
+859746,MCS,mcs5_proxy_partner_interview,expxll00,Has partner longstanding illness,-1.0,Not applicable
+859747,MCS,mcs5_proxy_partner_interview,expxll00,Has partner longstanding illness,1.0,Yes
+859748,MCS,mcs5_proxy_partner_interview,expxll00,Has partner longstanding illness,2.0,No
+859749,MCS,mcs5_proxy_partner_interview,expxll00,Has partner longstanding illness,3.0,Don't know
+859750,MCS,mcs5_proxy_partner_interview,expxll00,Has partner longstanding illness,4.0,Refused
+859751,MCS,mcs5_proxy_partner_interview,expxlt0a,Do these illness(es) limit Vision (eg blindness or partial sight),-1.0,Not applicable
+859752,MCS,mcs5_proxy_partner_interview,expxlt0a,Do these illness(es) limit Vision (eg blindness or partial sight),0.0,No
+859753,MCS,mcs5_proxy_partner_interview,expxlt0a,Do these illness(es) limit Vision (eg blindness or partial sight),1.0,Yes
+859754,MCS,mcs5_proxy_partner_interview,expxlt0b,Do these illness(es) limit Hearing (eg deafness or partial hearing),-1.0,Not applicable
+859755,MCS,mcs5_proxy_partner_interview,expxlt0b,Do these illness(es) limit Hearing (eg deafness or partial hearing),0.0,No
+859756,MCS,mcs5_proxy_partner_interview,expxlt0b,Do these illness(es) limit Hearing (eg deafness or partial hearing),1.0,Yes
+859757,MCS,mcs5_proxy_partner_interview,expxlt0c,Do these illness(es) limit Mobility (eg walk short dists or climbing stairs),-1.0,Not applicable
+859758,MCS,mcs5_proxy_partner_interview,expxlt0c,Do these illness(es) limit Mobility (eg walk short dists or climbing stairs),0.0,No
+859759,MCS,mcs5_proxy_partner_interview,expxlt0c,Do these illness(es) limit Mobility (eg walk short dists or climbing stairs),1.0,Yes
+859760,MCS,mcs5_proxy_partner_interview,expxlt0d,Do these illness(es) limit Dexterity (eg lifting,-1.0,Not applicable
+859761,MCS,mcs5_proxy_partner_interview,expxlt0d,Do these illness(es) limit Dexterity (eg lifting,0.0,No
+859762,MCS,mcs5_proxy_partner_interview,expxlt0d,Do these illness(es) limit Dexterity (eg lifting,1.0,Yes
+859763,MCS,mcs5_proxy_partner_interview,expxlt0e,Do these illness(es) limit Learning or understanding or concentrating,-1.0,Not applicable
+859764,MCS,mcs5_proxy_partner_interview,expxlt0e,Do these illness(es) limit Learning or understanding or concentrating,0.0,No
+859765,MCS,mcs5_proxy_partner_interview,expxlt0e,Do these illness(es) limit Learning or understanding or concentrating,1.0,Yes
+859766,MCS,mcs5_proxy_partner_interview,expxlt0f,Do these illness(es) limit Memory,-1.0,Not applicable
+859767,MCS,mcs5_proxy_partner_interview,expxlt0f,Do these illness(es) limit Memory,0.0,No
+859768,MCS,mcs5_proxy_partner_interview,expxlt0f,Do these illness(es) limit Memory,1.0,Yes
+859769,MCS,mcs5_proxy_partner_interview,expxlt0g,Do these illness(es) limit Mental health,-1.0,Not applicable
+859770,MCS,mcs5_proxy_partner_interview,expxlt0g,Do these illness(es) limit Mental health,0.0,No
+859771,MCS,mcs5_proxy_partner_interview,expxlt0g,Do these illness(es) limit Mental health,1.0,Yes
+859772,MCS,mcs5_proxy_partner_interview,expxlt0h,Do these illness(es) limit Stamina or breathing or fatigue,-1.0,Not applicable
+859773,MCS,mcs5_proxy_partner_interview,expxlt0h,Do these illness(es) limit Stamina or breathing or fatigue,0.0,No
+859774,MCS,mcs5_proxy_partner_interview,expxlt0h,Do these illness(es) limit Stamina or breathing or fatigue,1.0,Yes
+859775,MCS,mcs5_proxy_partner_interview,expxlt0i,Do these illness(es) limit Socially or behaviourally (eg autism ADHD),-1.0,Not applicable
+859776,MCS,mcs5_proxy_partner_interview,expxlt0i,Do these illness(es) limit Socially or behaviourally (eg autism ADHD),0.0,No
+859777,MCS,mcs5_proxy_partner_interview,expxlt0i,Do these illness(es) limit Socially or behaviourally (eg autism ADHD),1.0,Yes
+859778,MCS,mcs5_proxy_partner_interview,expxlt0j,Do these illness(es) limit Other (please specify),-1.0,Not applicable
+859779,MCS,mcs5_proxy_partner_interview,expxlt0j,Do these illness(es) limit Other (please specify),0.0,No
+859780,MCS,mcs5_proxy_partner_interview,expxlt0j,Do these illness(es) limit Other (please specify),1.0,Yes
+859781,MCS,mcs5_proxy_partner_interview,expxlt0k,Do these illness(es) limit Refused,-1.0,Not applicable
+859782,MCS,mcs5_proxy_partner_interview,expxlt0k,Do these illness(es) limit Refused,0.0,No
+859783,MCS,mcs5_proxy_partner_interview,expxlt0k,Do these illness(es) limit Refused,1.0,Yes
+859784,MCS,mcs5_proxy_partner_interview,expxlt0l,Do these illness(es) limit Dont know,-1.0,Not applicable
+859785,MCS,mcs5_proxy_partner_interview,expxlt0l,Do these illness(es) limit Dont know,0.0,No
+859786,MCS,mcs5_proxy_partner_interview,expxlt0l,Do these illness(es) limit Dont know,1.0,Yes
+859787,MCS,mcs5_proxy_partner_interview,eppxlz0a,Whether illness limits activities - Vision,-1.0,Not applicable
+859788,MCS,mcs5_proxy_partner_interview,eppxlz0a,Whether illness limits activities - Vision,0.0,No
+859789,MCS,mcs5_proxy_partner_interview,eppxlz0a,Whether illness limits activities - Vision,1.0,Yes
+859790,MCS,mcs5_proxy_partner_interview,eppxlz0b,Whether illness limits activities - Hearing,-1.0,Not applicable
+859791,MCS,mcs5_proxy_partner_interview,eppxlz0b,Whether illness limits activities - Hearing,0.0,No
+859792,MCS,mcs5_proxy_partner_interview,eppxlz0b,Whether illness limits activities - Hearing,1.0,Yes
+859793,MCS,mcs5_proxy_partner_interview,eppxlz0c,Whether illness limits activities - Mobility,-1.0,Not applicable
+859794,MCS,mcs5_proxy_partner_interview,eppxlz0c,Whether illness limits activities - Mobility,0.0,No
+859795,MCS,mcs5_proxy_partner_interview,eppxlz0c,Whether illness limits activities - Mobility,1.0,Yes
+859796,MCS,mcs5_proxy_partner_interview,eppxlz0d,Whether illness limits activities - Dexterity,-1.0,Not applicable
+859797,MCS,mcs5_proxy_partner_interview,eppxlz0d,Whether illness limits activities - Dexterity,0.0,No
+859798,MCS,mcs5_proxy_partner_interview,eppxlz0d,Whether illness limits activities - Dexterity,1.0,Yes
+859799,MCS,mcs5_proxy_partner_interview,eppxlz0e,Whether illness limits activities - Learning,-1.0,Not applicable
+859800,MCS,mcs5_proxy_partner_interview,eppxlz0e,Whether illness limits activities - Learning,0.0,No
+859801,MCS,mcs5_proxy_partner_interview,eppxlz0e,Whether illness limits activities - Learning,1.0,Yes
+859802,MCS,mcs5_proxy_partner_interview,eppxlz0f,Whether illness limits activities - Memory,-1.0,Not applicable
+859803,MCS,mcs5_proxy_partner_interview,eppxlz0f,Whether illness limits activities - Memory,0.0,No
+859804,MCS,mcs5_proxy_partner_interview,eppxlz0f,Whether illness limits activities - Memory,1.0,Yes
+859805,MCS,mcs5_proxy_partner_interview,eppxlz0g,Whether illness limits activities - Mental health,-1.0,Not applicable
+859806,MCS,mcs5_proxy_partner_interview,eppxlz0g,Whether illness limits activities - Mental health,0.0,No
+859807,MCS,mcs5_proxy_partner_interview,eppxlz0g,Whether illness limits activities - Mental health,1.0,Yes
+859808,MCS,mcs5_proxy_partner_interview,eppxlz0h,Whether illness limits activities - Stamina or breathing,-1.0,Not applicable
+859809,MCS,mcs5_proxy_partner_interview,eppxlz0h,Whether illness limits activities - Stamina or breathing,0.0,No
+859810,MCS,mcs5_proxy_partner_interview,eppxlz0h,Whether illness limits activities - Stamina or breathing,1.0,Yes
+859811,MCS,mcs5_proxy_partner_interview,eppxlz0i,Whether illness limits activities - Socially or behaviourally,-1.0,Not applicable
+859812,MCS,mcs5_proxy_partner_interview,eppxlz0i,Whether illness limits activities - Socially or behaviourally,0.0,No
+859813,MCS,mcs5_proxy_partner_interview,eppxlz0i,Whether illness limits activities - Socially or behaviourally,1.0,Yes
+859814,MCS,mcs5_proxy_partner_interview,eppxlz0j,Whether illness limits activities - Other mention of condition,-1.0,Not applicable
+859815,MCS,mcs5_proxy_partner_interview,eppxlz0j,Whether illness limits activities - Other mention of condition,0.0,No
+859816,MCS,mcs5_proxy_partner_interview,eppxlz0j,Whether illness limits activities - Other mention of condition,1.0,Yes
+859817,MCS,mcs5_proxy_partner_interview,eppxlz0k,Whether illness limits activities - Refused (A),-1.0,Not applicable
+859818,MCS,mcs5_proxy_partner_interview,eppxlz0k,Whether illness limits activities - Refused (A),0.0,No
+859819,MCS,mcs5_proxy_partner_interview,eppxlz0k,Whether illness limits activities - Refused (A),1.0,Yes
+859820,MCS,mcs5_proxy_partner_interview,eppxlz0l,Whether illness limits activities - Dont know (A),-1.0,Not applicable
+859821,MCS,mcs5_proxy_partner_interview,eppxlz0l,Whether illness limits activities - Dont know (A),0.0,No
+859822,MCS,mcs5_proxy_partner_interview,eppxlz0l,Whether illness limits activities - Dont know (A),1.0,Yes
+859823,MCS,mcs5_proxy_partner_interview,eppxlz0m,Whether illness limits activities - No answer (A),-1.0,Not applicable
+859824,MCS,mcs5_proxy_partner_interview,eppxlz0m,Whether illness limits activities - No answer (A),0.0,No
+859825,MCS,mcs5_proxy_partner_interview,eppxlz0m,Whether illness limits activities - No answer (A),1.0,Yes
+859826,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,-9.0,Refusal
+859827,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,-8.0,Don't know
+859828,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,-1.0,Not applicable
+859829,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,1.0,"...Yes, a lot,"
+859830,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,2.0,"Yes, a little,"
+859831,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,3.0,"or, Not at all?"
+859832,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,4.0,Refused
+859833,MCS,mcs5_proxy_partner_interview,expxla00,Partner's condition(s) or illness(es) reduce ability,5.0,Don't know
+859834,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,-9.0,Refusal
+859835,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,-8.0,Don't know
+859836,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,-1.0,Not applicable
+859837,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,1.0,"...Less than six months,"
+859838,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,2.0,"Between six months and 12 months,"
+859839,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,3.0,"or, 12 months or more"
+859840,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,4.0,Refused
+859841,MCS,mcs5_proxy_partner_interview,expxlp00,For how long has Partner's ability been reduced,5.0,Don't know
+859842,MCS,mcs5_proxy_partner_interview,expxht00,Height met/imp,-9.0,Refusal
+859843,MCS,mcs5_proxy_partner_interview,expxht00,Height met/imp,-8.0,Don't know
+859844,MCS,mcs5_proxy_partner_interview,expxht00,Height met/imp,-1.0,Not applicable
+859845,MCS,mcs5_proxy_partner_interview,expxht00,Height met/imp,1.0,Feet and inches
+859846,MCS,mcs5_proxy_partner_interview,expxht00,Height met/imp,2.0,Centimetres
+859847,MCS,mcs5_proxy_partner_interview,expxht00,Height met/imp,3.0,Don't know/Refusal
+859848,MCS,mcs5_proxy_partner_interview,expxhf00,Height feet,-1.0,Not applicable
+859849,MCS,mcs5_proxy_partner_interview,expxhf00,Height feet,-9.0,Refusal
+859850,MCS,mcs5_proxy_partner_interview,expxhf00,Height feet,-8.0,Don't know
+859851,MCS,mcs5_proxy_partner_interview,expxhi00,Height inches,-9.0,Refusal
+859852,MCS,mcs5_proxy_partner_interview,expxhi00,Height inches,-8.0,Don't know
+859853,MCS,mcs5_proxy_partner_interview,expxhi00,Height inches,-1.0,Not applicable
+859854,MCS,mcs5_proxy_partner_interview,expxhc00,Height cm,-9.0,Refusal
+859855,MCS,mcs5_proxy_partner_interview,expxhc00,Height cm,-8.0,Don't know
+859856,MCS,mcs5_proxy_partner_interview,expxhc00,Height cm,-1.0,Not applicable
+859857,MCS,mcs5_proxy_partner_interview,expxwb00,Whether partner is currently pregnant,-9.0,Refusal
+859858,MCS,mcs5_proxy_partner_interview,expxwb00,Whether partner is currently pregnant,-8.0,Don't know
+859859,MCS,mcs5_proxy_partner_interview,expxwb00,Whether partner is currently pregnant,-1.0,Not applicable
+859860,MCS,mcs5_proxy_partner_interview,expxwb00,Whether partner is currently pregnant,1.0,Yes
+859861,MCS,mcs5_proxy_partner_interview,expxwb00,Whether partner is currently pregnant,2.0,No
+859862,MCS,mcs5_proxy_partner_interview,expxwb00,Whether partner is currently pregnant,3.0,Don't know
+859863,MCS,mcs5_proxy_partner_interview,expxwb00,Whether partner is currently pregnant,4.0,Refused
+859864,MCS,mcs5_proxy_partner_interview,expxwt00,Weight (unit),-9.0,Refusal
+859865,MCS,mcs5_proxy_partner_interview,expxwt00,Weight (unit),-8.0,Don't know
+859866,MCS,mcs5_proxy_partner_interview,expxwt00,Weight (unit),-1.0,Not applicable
+859867,MCS,mcs5_proxy_partner_interview,expxwt00,Weight (unit),1.0,Stones and pounds
+859868,MCS,mcs5_proxy_partner_interview,expxwt00,Weight (unit),2.0,Kilograms
+859869,MCS,mcs5_proxy_partner_interview,expxwt00,Weight (unit),3.0,Don't know / Refusal
+859870,MCS,mcs5_proxy_partner_interview,expxws00,Weight (stones),-9.0,Refusal
+859871,MCS,mcs5_proxy_partner_interview,expxws00,Weight (stones),-8.0,Don't know
+859872,MCS,mcs5_proxy_partner_interview,expxws00,Weight (stones),-1.0,Not applicable
+859873,MCS,mcs5_proxy_partner_interview,expxwp00,Weight (pounds),-9.0,Refusal
+859874,MCS,mcs5_proxy_partner_interview,expxwp00,Weight (pounds),-8.0,Don't know
+859875,MCS,mcs5_proxy_partner_interview,expxwp00,Weight (pounds),-1.0,Not applicable
+859876,MCS,mcs5_proxy_partner_interview,expxwk00,Weight kg,-9.0,Refusal
+859877,MCS,mcs5_proxy_partner_interview,expxwk00,Weight kg,-8.0,Don't know
+859878,MCS,mcs5_proxy_partner_interview,expxwk00,Weight kg,-1.0,Not applicable
+859879,MCS,mcs5_proxy_partner_interview,expxwe00,Whether resp sure of partner's weight,-9.0,Refusal
+859880,MCS,mcs5_proxy_partner_interview,expxwe00,Whether resp sure of partner's weight,-8.0,Don't know
+859881,MCS,mcs5_proxy_partner_interview,expxwe00,Whether resp sure of partner's weight,-1.0,Not applicable
+859882,MCS,mcs5_proxy_partner_interview,expxwe00,Whether resp sure of partner's weight,1.0,Respondent sure about weight
+859883,MCS,mcs5_proxy_partner_interview,expxwe00,Whether resp sure of partner's weight,2.0,Respondent gave estimate
+859884,MCS,mcs5_proxy_partner_interview,expxwl00,Whether partner did paid work last week,-9.0,Refusal
+859885,MCS,mcs5_proxy_partner_interview,expxwl00,Whether partner did paid work last week,-8.0,Don't know
+859886,MCS,mcs5_proxy_partner_interview,expxwl00,Whether partner did paid work last week,-1.0,Not applicable
+859887,MCS,mcs5_proxy_partner_interview,expxwl00,Whether partner did paid work last week,1.0,Yes
+859888,MCS,mcs5_proxy_partner_interview,expxwl00,Whether partner did paid work last week,2.0,No
+859889,MCS,mcs5_proxy_partner_interview,expxwl00,Whether partner did paid work last week,3.0,Don't know
+859890,MCS,mcs5_proxy_partner_interview,expxwl00,Whether partner did paid work last week,4.0,Refused
+859891,MCS,mcs5_proxy_partner_interview,expxwa00,Whether partner had a job last week,-9.0,Refusal
+859892,MCS,mcs5_proxy_partner_interview,expxwa00,Whether partner had a job last week,-8.0,Don't know
+859893,MCS,mcs5_proxy_partner_interview,expxwa00,Whether partner had a job last week,-1.0,Not applicable
+859894,MCS,mcs5_proxy_partner_interview,expxwa00,Whether partner had a job last week,1.0,Yes
+859895,MCS,mcs5_proxy_partner_interview,expxwa00,Whether partner had a job last week,2.0,No
+859896,MCS,mcs5_proxy_partner_interview,expxwa00,Whether partner had a job last week,3.0,Don't know
+859897,MCS,mcs5_proxy_partner_interview,expxwa00,Whether partner had a job last week,4.0,Refused
+859898,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,-9.0,Refusal
+859899,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,-8.0,Don't know
+859900,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,-1.0,Not applicable
+859901,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,1.0,Maternity Leave
+859902,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,2.0,Parental Leave
+859903,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,3.0,Paternity Leave
+859904,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,4.0,Other Leave/holiday
+859905,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,5.0,Sick/injured
+859906,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,6.0,Laid off/on short time
+859907,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,7.0,Other personal family reason
+859908,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,8.0,Other reasons
+859909,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,9.0,Don't know
+859910,MCS,mcs5_proxy_partner_interview,expxwr00,Main reason partner away from job last week,10.0,Refused
+859911,MCS,mcs5_proxy_partner_interview,expxwd00,Whether partner on paid leave,-9.0,Refusal
+859912,MCS,mcs5_proxy_partner_interview,expxwd00,Whether partner on paid leave,-8.0,Don't know
+859913,MCS,mcs5_proxy_partner_interview,expxwd00,Whether partner on paid leave,-1.0,Not applicable
+859914,MCS,mcs5_proxy_partner_interview,expxwd00,Whether partner on paid leave,1.0,Yes
+859915,MCS,mcs5_proxy_partner_interview,expxwd00,Whether partner on paid leave,2.0,No
+859916,MCS,mcs5_proxy_partner_interview,expxwd00,Whether partner on paid leave,3.0,Don't know
+859917,MCS,mcs5_proxy_partner_interview,expxwd00,Whether partner on paid leave,4.0,Refused
+859918,MCS,mcs5_proxy_partner_interview,expxwy00,Last time partner attend work - (self)employed : YEAR,-9.0,Refusal
+859919,MCS,mcs5_proxy_partner_interview,expxwy00,Last time partner attend work - (self)employed : YEAR,-8.0,Don't know
+859920,MCS,mcs5_proxy_partner_interview,expxwy00,Last time partner attend work - (self)employed : YEAR,-1.0,Not applicable
+859921,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,13.0,No answer
+859922,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,14.0,Don't know
+859923,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,15.0,Refused
+859924,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,-9.0,Refusal
+859925,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,-8.0,Don't know
+859926,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,-1.0,Not applicable
+859927,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,1.0,January
+859928,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,2.0,February
+859929,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,3.0,March
+859930,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,4.0,April
+859931,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,5.0,May
+859932,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,6.0,June
+859933,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,7.0,July
+859934,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,8.0,August
+859935,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,9.0,September
+859936,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,10.0,October
+859937,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,11.0,November
+859938,MCS,mcs5_proxy_partner_interview,expxwm00,Last time partner attend work - (self)employed : MONTH,12.0,December
+859939,MCS,mcs5_proxy_partner_interview,expxls00,Whether partner has same job title as at last in,-9.0,Refusal
+859940,MCS,mcs5_proxy_partner_interview,expxls00,Whether partner has same job title as at last in,-8.0,Don't know
+859941,MCS,mcs5_proxy_partner_interview,expxls00,Whether partner has same job title as at last in,-1.0,Not applicable
+859942,MCS,mcs5_proxy_partner_interview,expxls00,Whether partner has same job title as at last in,1.0,Yes
+859943,MCS,mcs5_proxy_partner_interview,expxls00,Whether partner has same job title as at last in,2.0,No
+859944,MCS,mcs5_proxy_partner_interview,expxls00,Whether partner has same job title as at last in,3.0,Don't know
+859945,MCS,mcs5_proxy_partner_interview,expxls00,Whether partner has same job title as at last in,4.0,Refused
+859946,MCS,mcs5_proxy_partner_interview,expxle00,Whether partner still emplyed by same employer,-9.0,Refusal
+859947,MCS,mcs5_proxy_partner_interview,expxle00,Whether partner still emplyed by same employer,-8.0,Don't know
+859948,MCS,mcs5_proxy_partner_interview,expxle00,Whether partner still emplyed by same employer,-1.0,Not applicable
+859949,MCS,mcs5_proxy_partner_interview,expxle00,Whether partner still emplyed by same employer,1.0,Employee
+859950,MCS,mcs5_proxy_partner_interview,expxle00,Whether partner still emplyed by same employer,2.0,Self-employed
+859951,MCS,mcs5_proxy_partner_interview,expxle00,Whether partner still emplyed by same employer,3.0,Don't know
+859952,MCS,mcs5_proxy_partner_interview,expxle00,Whether partner still emplyed by same employer,4.0,Refused
+859953,MCS,mcs5_proxy_partner_interview,expxlc00,Whether partner did job continuously since last,-9.0,Refusal
+859954,MCS,mcs5_proxy_partner_interview,expxlc00,Whether partner did job continuously since last,-8.0,Don't know
+859955,MCS,mcs5_proxy_partner_interview,expxlc00,Whether partner did job continuously since last,-1.0,Not applicable
+859956,MCS,mcs5_proxy_partner_interview,expxlc00,Whether partner did job continuously since last,1.0,Yes
+859957,MCS,mcs5_proxy_partner_interview,expxlc00,Whether partner did job continuously since last,2.0,No
+859958,MCS,mcs5_proxy_partner_interview,expxlc00,Whether partner did job continuously since last,3.0,Don't know
+859959,MCS,mcs5_proxy_partner_interview,expxlc00,Whether partner did job continuously since last,4.0,Refused
+859960,MCS,mcs5_proxy_partner_interview,expxcj00,Partner continously employed in this employment/self-employment,-9.0,Refusal
+859961,MCS,mcs5_proxy_partner_interview,expxcj00,Partner continously employed in this employment/self-employment,-8.0,Don't know
+859962,MCS,mcs5_proxy_partner_interview,expxcj00,Partner continously employed in this employment/self-employment,-1.0,Not applicable
+859963,MCS,mcs5_proxy_partner_interview,expxcj00,Partner continously employed in this employment/self-employment,1.0,Yes
+859964,MCS,mcs5_proxy_partner_interview,expxcj00,Partner continously employed in this employment/self-employment,2.0,No
+859965,MCS,mcs5_proxy_partner_interview,expxcj00,Partner continously employed in this employment/self-employment,3.0,Don't know
+859966,MCS,mcs5_proxy_partner_interview,expxcj00,Partner continously employed in this employment/self-employment,4.0,Refused
+859967,MCS,mcs5_proxy_partner_interview,expxly00,When partner's job at last int ended (year),-9.0,Refusal
+859968,MCS,mcs5_proxy_partner_interview,expxly00,When partner's job at last int ended (year),-8.0,Don't know
+859969,MCS,mcs5_proxy_partner_interview,expxly00,When partner's job at last int ended (year),-1.0,Not applicable
+859970,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),-9.0,Refusal
+859971,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),-8.0,Don't know
+859972,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),-1.0,Not applicable
+859973,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),1.0,January
+859974,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),2.0,February
+859975,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),3.0,March
+859976,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),4.0,April
+859977,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),5.0,May
+859978,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),6.0,June
+859979,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),7.0,July
+859980,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),8.0,August
+859981,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),9.0,September
+859982,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),10.0,October
+859983,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),11.0,November
+859984,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),12.0,December
+859985,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),13.0,No answer
+859986,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),14.0,Don't know
+859987,MCS,mcs5_proxy_partner_interview,expxlm00,When partner's job at last int ended (month),15.0,Refused
+859988,MCS,mcs5_proxy_partner_interview,expxjk00,Current job check,-9.0,Refusal
+859989,MCS,mcs5_proxy_partner_interview,expxjk00,Current job check,-8.0,Don't know
+859990,MCS,mcs5_proxy_partner_interview,expxjk00,Current job check,-1.0,Not applicable
+859991,MCS,mcs5_proxy_partner_interview,expxjk00,Current job check,1.0,Yes
+859992,MCS,mcs5_proxy_partner_interview,expxjk00,Current job check,2.0,No
+859993,MCS,mcs5_proxy_partner_interview,expxjk00,Current job check,3.0,Don't know
+859994,MCS,mcs5_proxy_partner_interview,expxjk00,Current job check,4.0,Refused
+859995,MCS,mcs5_proxy_partner_interview,expxje00,Partner is employee or self-employed in main job,-9.0,Refusal
+859996,MCS,mcs5_proxy_partner_interview,expxje00,Partner is employee or self-employed in main job,-8.0,Don't know
+859997,MCS,mcs5_proxy_partner_interview,expxje00,Partner is employee or self-employed in main job,-1.0,Not applicable
+859998,MCS,mcs5_proxy_partner_interview,expxje00,Partner is employee or self-employed in main job,1.0,Employee
+859999,MCS,mcs5_proxy_partner_interview,expxje00,Partner is employee or self-employed in main job,2.0,Self-employed
+860000,MCS,mcs5_proxy_partner_interview,expxje00,Partner is employee or self-employed in main job,3.0,Don't know
+860001,MCS,mcs5_proxy_partner_interview,expxje00,Partner is employee or self-employed in main job,4.0,Refused
+860002,MCS,mcs5_proxy_partner_interview,expxjw00,Whether partner is paid salary/wage in main job,-9.0,Refusal
+860003,MCS,mcs5_proxy_partner_interview,expxjw00,Whether partner is paid salary/wage in main job,-8.0,Don't know
+860004,MCS,mcs5_proxy_partner_interview,expxjw00,Whether partner is paid salary/wage in main job,-1.0,Not applicable
+860005,MCS,mcs5_proxy_partner_interview,expxjw00,Whether partner is paid salary/wage in main job,1.0,Yes
+860006,MCS,mcs5_proxy_partner_interview,expxjw00,Whether partner is paid salary/wage in main job,2.0,No
+860007,MCS,mcs5_proxy_partner_interview,expxjw00,Whether partner is paid salary/wage in main job,3.0,Don't know
+860008,MCS,mcs5_proxy_partner_interview,expxjw00,Whether partner is paid salary/wage in main job,4.0,Refused
+860009,MCS,mcs5_proxy_partner_interview,expxjb0a,Self-employed,-1.0,Not applicable
+860010,MCS,mcs5_proxy_partner_interview,expxjb0a,Self-employed,0.0,No
+860011,MCS,mcs5_proxy_partner_interview,expxjb0a,Self-employed,1.0,Yes
+860012,MCS,mcs5_proxy_partner_interview,expxjb0b,Self-employed,-1.0,Not applicable
+860013,MCS,mcs5_proxy_partner_interview,expxjb0b,Self-employed,0.0,No
+860014,MCS,mcs5_proxy_partner_interview,expxjb0b,Self-employed,1.0,Yes
+860015,MCS,mcs5_proxy_partner_interview,expxjb0c,Self-employed,-1.0,Not applicable
+860016,MCS,mcs5_proxy_partner_interview,expxjb0c,Self-employed,0.0,No
+860017,MCS,mcs5_proxy_partner_interview,expxjb0c,Self-employed,1.0,Yes
+860018,MCS,mcs5_proxy_partner_interview,expxjb0d,Self-employed,-1.0,Not applicable
+860019,MCS,mcs5_proxy_partner_interview,expxjb0d,Self-employed,0.0,No
+860020,MCS,mcs5_proxy_partner_interview,expxjb0d,Self-employed,1.0,Yes
+860021,MCS,mcs5_proxy_partner_interview,expxjb0e,Self-employed,-1.0,Not applicable
+860022,MCS,mcs5_proxy_partner_interview,expxjb0e,Self-employed,0.0,No
+860023,MCS,mcs5_proxy_partner_interview,expxjb0e,Self-employed,1.0,Yes
+860024,MCS,mcs5_proxy_partner_interview,expxjb0f,Self-employed,-1.0,Not applicable
+860025,MCS,mcs5_proxy_partner_interview,expxjb0f,Self-employed,0.0,No
+860026,MCS,mcs5_proxy_partner_interview,expxjb0f,Self-employed,1.0,Yes
+860027,MCS,mcs5_proxy_partner_interview,expxjb0g,Self-employed,-1.0,Not applicable
+860028,MCS,mcs5_proxy_partner_interview,expxjb0g,Self-employed,0.0,No
+860029,MCS,mcs5_proxy_partner_interview,expxjb0g,Self-employed,1.0,Yes
+860030,MCS,mcs5_proxy_partner_interview,expxjb0h,Self-employed,-1.0,Not applicable
+860031,MCS,mcs5_proxy_partner_interview,expxjb0h,Self-employed,0.0,No
+860032,MCS,mcs5_proxy_partner_interview,expxjb0h,Self-employed,1.0,Yes
+860033,MCS,mcs5_proxy_partner_interview,expxjb0i,Self-employed,-8.0,Dont Know
+860034,MCS,mcs5_proxy_partner_interview,expxjb0i,Self-employed,0.0,No
+860035,MCS,mcs5_proxy_partner_interview,expxjb0i,Self-employed,1.0,Yes
+860036,MCS,mcs5_proxy_partner_interview,expxjb0j,Self-employed,-1.0,Not applicable
+860037,MCS,mcs5_proxy_partner_interview,expxjb0j,Self-employed,0.0,No
+860038,MCS,mcs5_proxy_partner_interview,expxjb0j,Self-employed,1.0,Yes
+860039,MCS,mcs5_proxy_partner_interview,expxse00,Employed or self-employed,-9.0,Refusal
+860040,MCS,mcs5_proxy_partner_interview,expxse00,Employed or self-employed,-8.0,Don't know
+860041,MCS,mcs5_proxy_partner_interview,expxse00,Employed or self-employed,-1.0,Not applicable
+860042,MCS,mcs5_proxy_partner_interview,expxse00,Employed or self-employed,1.0,Employee
+860043,MCS,mcs5_proxy_partner_interview,expxse00,Employed or self-employed,2.0,Self-employed
+860044,MCS,mcs5_proxy_partner_interview,expxse00,Employed or self-employed,3.0,Refused
+860045,MCS,mcs5_proxy_partner_interview,expxse00,Employed or self-employed,4.0,Don't know
+860046,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,-9.0,Refusal
+860047,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,-8.0,Don't know
+860048,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,-1.0,Not applicable
+860049,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,1.0,Manager
+860050,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,2.0,Foreman or supervisor
+860051,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,3.0,Not a manager or supervisor
+860052,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,4.0,Don't know
+860053,MCS,mcs5_proxy_partner_interview,expxjv00,Whether partner has managerial duties,5.0,Refused
+860054,MCS,mcs5_proxy_partner_interview,expxjf00,Whether partner supervises more than 25 people,-9.0,Refusal
+860055,MCS,mcs5_proxy_partner_interview,expxjf00,Whether partner supervises more than 25 people,-8.0,Don't know
+860056,MCS,mcs5_proxy_partner_interview,expxjf00,Whether partner supervises more than 25 people,-1.0,Not applicable
+860057,MCS,mcs5_proxy_partner_interview,expxjf00,Whether partner supervises more than 25 people,1.0,Yes
+860058,MCS,mcs5_proxy_partner_interview,expxjf00,Whether partner supervises more than 25 people,2.0,No
+860059,MCS,mcs5_proxy_partner_interview,expxjf00,Whether partner supervises more than 25 people,3.0,Don't know
+860060,MCS,mcs5_proxy_partner_interview,expxjf00,Whether partner supervises more than 25 people,4.0,Refused
+860061,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,-1.0,Not applicable
+860062,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,1.0,Private firm company PLC
+860063,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,2.0,Nationalised industry state corporation
+860064,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,3.0,Central government or civil service
+860065,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,4.0,Local government or council
+860066,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,5.0,University or funded education
+860067,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,6.0,Health authority or NHS Trust
+860068,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,7.0,"Charity, voluntary organisation"
+860069,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,8.0,Armed forces
+860070,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,9.0,Some other kind of organisation
+860071,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,10.0,Don't know
+860072,MCS,mcs5_proxy_partner_interview,expxjc00,Type of organisation partner works for,11.0,Refused
+860073,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,-9.0,Refusal
+860074,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,-8.0,Don't know
+860075,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,-1.0,Not applicable
+860076,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,1.0,1-2
+860077,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,2.0,3-9
+860078,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,3.0,10-24
+860079,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,4.0,25-49
+860080,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,5.0,50-99
+860081,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,6.0,100-199
+860082,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,7.0,200-499
+860083,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,8.0,500-999
+860084,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,9.0,1000 or more
+860085,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,10.0,"DK, fewer than 25"
+860086,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,11.0,"DK, 25 or more"
+860087,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,12.0,"None, works alone"
+860088,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,13.0,Refused
+860089,MCS,mcs5_proxy_partner_interview,expxjh00,How many employees at partner's place of work,14.0,Don't know
+860090,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,-9.0,Refusal
+860091,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,-8.0,Don't know
+860092,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,-1.0,Not applicable
+860093,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,1.0,1-2
+860094,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,2.0,3-9
+860095,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,3.0,10-24
+860096,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,4.0,25-49
+860097,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,5.0,50-99
+860098,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,6.0,100-199
+860099,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,7.0,200-499
+860100,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,8.0,500-999
+860101,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,9.0,1000 or more
+860102,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,10.0,"DK, fewer than 25"
+860103,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,11.0,"DK, 25 or more"
+860104,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,12.0,No answer
+860105,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,13.0,Refused
+860106,MCS,mcs5_proxy_partner_interview,expxjs00,How many people work for partner,14.0,Don't know
+860107,MCS,mcs5_proxy_partner_interview,expxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-9.0,Refusal
+860108,MCS,mcs5_proxy_partner_interview,expxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-8.0,Don't know
+860109,MCS,mcs5_proxy_partner_interview,expxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-1.0,Not applicable
+860110,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,-8.0,Don't know
+860111,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,-1.0,Not applicable
+860112,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,1.0,January
+860113,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,2.0,February
+860114,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,3.0,March
+860115,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,4.0,April
+860116,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,5.0,May
+860117,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,6.0,June
+860118,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,7.0,July
+860119,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,8.0,August
+860120,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,9.0,September
+860121,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,10.0,October
+860122,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,11.0,November
+860123,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,12.0,December
+860124,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,13.0,No answer
+860125,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,14.0,Don't know
+860126,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,15.0,Refused
+860127,MCS,mcs5_proxy_partner_interview,expxjm00,When started current job,-9.0,Refusal
+860128,MCS,mcs5_proxy_partner_interview,expxhm00,Whether work mainly from home,-9.0,Refusal
+860129,MCS,mcs5_proxy_partner_interview,expxhm00,Whether work mainly from home,-8.0,Don't know
+860130,MCS,mcs5_proxy_partner_interview,expxhm00,Whether work mainly from home,-1.0,Not applicable
+860131,MCS,mcs5_proxy_partner_interview,expxhm00,Whether work mainly from home,1.0,Yes
+860132,MCS,mcs5_proxy_partner_interview,expxhm00,Whether work mainly from home,2.0,No
+860133,MCS,mcs5_proxy_partner_interview,expxhm00,Whether work mainly from home,3.0,Don't know
+860134,MCS,mcs5_proxy_partner_interview,expxhm00,Whether work mainly from home,4.0,Refused
+860135,MCS,mcs5_proxy_partner_interview,expxhr00,Hours/week partner works in job,-9.0,Refusal
+860136,MCS,mcs5_proxy_partner_interview,expxhr00,Hours/week partner works in job,-8.0,Don't know
+860137,MCS,mcs5_proxy_partner_interview,expxhr00,Hours/week partner works in job,-1.0,Not applicable
+860138,MCS,mcs5_proxy_partner_interview,expxha00,Does partner work or overtime,-9.0,Refusal
+860139,MCS,mcs5_proxy_partner_interview,expxha00,Does partner work or overtime,-8.0,Don't know
+860140,MCS,mcs5_proxy_partner_interview,expxha00,Does partner work or overtime,-1.0,Not applicable
+860141,MCS,mcs5_proxy_partner_interview,expxha00,Does partner work or overtime,1.0,Yes
+860142,MCS,mcs5_proxy_partner_interview,expxha00,Does partner work or overtime,2.0,No
+860143,MCS,mcs5_proxy_partner_interview,expxha00,Does partner work or overtime,3.0,Don't know
+860144,MCS,mcs5_proxy_partner_interview,expxha00,Does partner work or overtime,4.0,Refused
+860145,MCS,mcs5_proxy_partner_interview,expxhu00,How many hours UNPAID overtime does partner do,-9.0,Refusal
+860146,MCS,mcs5_proxy_partner_interview,expxhu00,How many hours UNPAID overtime does partner do,-8.0,Don't know
+860147,MCS,mcs5_proxy_partner_interview,expxhu00,How many hours UNPAID overtime does partner do,-1.0,Not applicable
+860148,MCS,mcs5_proxy_partner_interview,expxhp00,How many hours PAID overtime does partner do,-9.0,Refusal
+860149,MCS,mcs5_proxy_partner_interview,expxhp00,How many hours PAID overtime does partner do,-8.0,Don't know
+860150,MCS,mcs5_proxy_partner_interview,expxhp00,How many hours PAID overtime does partner do,-1.0,Not applicable
+860151,MCS,mcs5_proxy_partner_interview,expxcy00,End of period of ff not-working of partner : YEAR,-9.0,Refusal
+860152,MCS,mcs5_proxy_partner_interview,expxcy00,End of period of ff not-working of partner : YEAR,-8.0,Don't know
+860153,MCS,mcs5_proxy_partner_interview,expxcy00,End of period of ff not-working of partner : YEAR,-1.0,Not applicable
+860154,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,-9.0,Refusal
+860155,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,-8.0,Don't know
+860156,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,-1.0,Not applicable
+860157,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,1.0,January
+860158,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,2.0,February
+860159,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,3.0,March
+860160,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,4.0,April
+860161,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,5.0,May
+860162,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,6.0,June
+860163,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,7.0,July
+860164,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,8.0,August
+860165,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,9.0,September
+860166,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,10.0,October
+860167,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,11.0,November
+860168,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,12.0,December
+860169,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,13.0,No answer
+860170,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,14.0,Don't know
+860171,MCS,mcs5_proxy_partner_interview,expxcm00,When period of not working ended,15.0,Refused
+860172,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,-1.0,Not applicable
+860173,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,1.0,Looking after the family
+860174,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,2.0,"Found a job, waiting to start it"
+860175,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,3.0,Out of work and looking for a job
+860176,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,4.0,"Out of work, poor health"
+860177,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,5.0,Taking part in the New Deal
+860178,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,6.0,On another Government training scheme
+860179,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,7.0,On a modern apprenticeship scheme
+860180,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,8.0,Full-time student
+860181,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,9.0,Retired from paid work
+860182,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,10.0,Not in paid work for some other reason
+860183,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,11.0,Don't know
+860184,MCS,mcs5_proxy_partner_interview,expxck00,Current employment status,12.0,Refused
+860185,MCS,mcs5_proxy_partner_interview,expxcn00,Whether worked continuously since last interview,-9.0,Refusal
+860186,MCS,mcs5_proxy_partner_interview,expxcn00,Whether worked continuously since last interview,-8.0,Don't know
+860187,MCS,mcs5_proxy_partner_interview,expxcn00,Whether worked continuously since last interview,-1.0,Not applicable
+860188,MCS,mcs5_proxy_partner_interview,expxcn00,Whether worked continuously since last interview,1.0,Yes
+860189,MCS,mcs5_proxy_partner_interview,expxcn00,Whether worked continuously since last interview,2.0,No
+860190,MCS,mcs5_proxy_partner_interview,expxcn00,Whether worked continuously since last interview,3.0,Don't know
+860191,MCS,mcs5_proxy_partner_interview,expxcn00,Whether worked continuously since last interview,4.0,Refused
+860192,MCS,mcs5_proxy_partner_interview,expxny00,When period of not working started (year),-9.0,Refusal
+860193,MCS,mcs5_proxy_partner_interview,expxny00,When period of not working started (year),-8.0,Don't know
+860194,MCS,mcs5_proxy_partner_interview,expxny00,When period of not working started (year),-1.0,Not applicable
+860195,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),-1.0,Not applicable
+860196,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),1.0,January
+860197,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),2.0,February
+860198,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),3.0,March
+860199,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),4.0,April
+860200,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),5.0,May
+860201,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),6.0,June
+860202,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),7.0,July
+860203,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),8.0,August
+860204,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),9.0,September
+860205,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),10.0,October
+860206,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),11.0,November
+860207,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),12.0,December
+860208,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),13.0,No answer
+860209,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),14.0,Don't know
+860210,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),15.0,Refused
+860211,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),-9.0,Refusal
+860212,MCS,mcs5_proxy_partner_interview,expxnm00,When period of not working started (month),-8.0,Don't know
+860213,MCS,mcs5_proxy_partner_interview,expxnw00,End of period of ff not-working status of partner : YEAR,-9.0,Refusal
+860214,MCS,mcs5_proxy_partner_interview,expxnw00,End of period of ff not-working status of partner : YEAR,-8.0,Don't know
+860215,MCS,mcs5_proxy_partner_interview,expxnw00,End of period of ff not-working status of partner : YEAR,-1.0,Not applicable
+860216,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,-9.0,Refusal
+860217,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,-8.0,Don't know
+860218,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,-1.0,Not applicable
+860219,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,1.0,January
+860220,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,2.0,February
+860221,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,3.0,March
+860222,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,4.0,April
+860223,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,5.0,May
+860224,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,6.0,June
+860225,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,7.0,July
+860226,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,8.0,August
+860227,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,9.0,September
+860228,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,10.0,October
+860229,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,11.0,November
+860230,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,12.0,December
+860231,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,13.0,No answer
+860232,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,14.0,Don't know
+860233,MCS,mcs5_proxy_partner_interview,expxne00,End of period of ff not-working status of partner : MONTH,15.0,Refused
+860234,MCS,mcs5_proxy_partner_interview,expxmg00,Was PX working for employer or self employed,-9.0,Refusal
+860235,MCS,mcs5_proxy_partner_interview,expxmg00,Was PX working for employer or self employed,-8.0,Don't know
+860236,MCS,mcs5_proxy_partner_interview,expxmg00,Was PX working for employer or self employed,-1.0,Not applicable
+860237,MCS,mcs5_proxy_partner_interview,expxmg00,Was PX working for employer or self employed,1.0,Working for an employer
+860238,MCS,mcs5_proxy_partner_interview,expxmg00,Was PX working for employer or self employed,2.0,Self-employed
+860239,MCS,mcs5_proxy_partner_interview,expxmg00,Was PX working for employer or self employed,3.0,Don't know
+860240,MCS,mcs5_proxy_partner_interview,expxmg00,Was PX working for employer or self employed,4.0,Refused
+860241,MCS,mcs5_proxy_partner_interview,expxby00,End of period of ff (self)employment of partner : YEAR,-9.0,Refusal
+860242,MCS,mcs5_proxy_partner_interview,expxby00,End of period of ff (self)employment of partner : YEAR,-8.0,Don't know
+860243,MCS,mcs5_proxy_partner_interview,expxby00,End of period of ff (self)employment of partner : YEAR,-1.0,Not applicable
+860244,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,-9.0,Refusal
+860245,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,-8.0,Don't know
+860246,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,-1.0,Not applicable
+860247,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,1.0,January
+860248,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,2.0,February
+860249,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,3.0,March
+860250,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,4.0,April
+860251,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,5.0,May
+860252,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,6.0,June
+860253,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,7.0,July
+860254,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,8.0,August
+860255,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,9.0,September
+860256,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,10.0,October
+860257,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,11.0,November
+860258,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,12.0,December
+860259,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,13.0,No answer
+860260,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,14.0,Don't know
+860261,MCS,mcs5_proxy_partner_interview,expxbm00,End of period of ff (self)employment of partner : MONTH,15.0,Refused
+860262,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,-9.0,Refusal
+860263,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,-8.0,Don't know
+860264,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,-1.0,Not applicable
+860265,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,1.0,Latest payslip consulted
+860266,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,2.0,Old payslip consulted
+860267,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,3.0,Payslip not consulted
+860268,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,4.0,No payslip provided by employer
+860269,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,5.0,Refused
+860270,MCS,mcs5_proxy_partner_interview,expxns00,Whether partner s payslip consulted,6.0,Don't know
+860271,MCS,mcs5_proxy_partner_interview,expxga00,Partner s gross pay (range),-9.0,Refusal
+860272,MCS,mcs5_proxy_partner_interview,expxga00,Partner s gross pay (range),-8.0,Don't know
+860273,MCS,mcs5_proxy_partner_interview,expxga00,Partner s gross pay (range),-1.0,Not applicable
+860274,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),8.0,Nine times a year
+860275,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),9.0,Ten times a year
+860276,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),10.0,Three months/13 weeks
+860277,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),11.0,Six months/26 weeks
+860278,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),12.0,One Year/12 months/52 weeks
+860279,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),13.0,Less than one week
+860280,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),14.0,One off/lump sum
+860281,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),15.0,Don't know
+860282,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),16.0,Refused
+860283,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),17.0,No answer
+860284,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),-9.0,Refusal
+860285,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),-8.0,Don't know
+860286,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),-1.0,Not applicable
+860287,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),1.0,One week
+860288,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),2.0,Two weeks
+860289,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),3.0,Three weeks
+860290,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),4.0,Four weeks
+860291,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),5.0,Calendar month
+860292,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),6.0,Two Calendar months
+860293,MCS,mcs5_proxy_partner_interview,expxgp00,Partner s gross pay (period covered),7.0,Eight times a year
+860294,MCS,mcs5_proxy_partner_interview,expxgw00,Partner s gross pay (period covered),-9.0,Refusal
+860295,MCS,mcs5_proxy_partner_interview,expxgw00,Partner s gross pay (period covered),-8.0,Don't know
+860296,MCS,mcs5_proxy_partner_interview,expxgw00,Partner s gross pay (period covered),-1.0,Not applicable
+860297,MCS,mcs5_proxy_partner_interview,exgars00,PX GROSS - OUTPUT VAR: Result,-1.0,Not applicable
+860298,MCS,mcs5_proxy_partner_interview,exgars00,PX GROSS - OUTPUT VAR: Result,1.0,Complete brackets response
+860299,MCS,mcs5_proxy_partner_interview,exgars00,PX GROSS - OUTPUT VAR: Result,2.0,DK to first bracket question asked
+860300,MCS,mcs5_proxy_partner_interview,exgars00,PX GROSS - OUTPUT VAR: Result,3.0,Ref to first bracket question asked
+860301,MCS,mcs5_proxy_partner_interview,exgars00,PX GROSS - OUTPUT VAR: Result,8.0,Incomplete - DK at last question
+860302,MCS,mcs5_proxy_partner_interview,exgars00,PX GROSS - OUTPUT VAR: Result,9.0,Incomplete - Ref at last question
+860303,MCS,mcs5_proxy_partner_interview,expxna00,Partner s Net amount earned last time paid (range),-9.0,Refusal
+860304,MCS,mcs5_proxy_partner_interview,expxna00,Partner s Net amount earned last time paid (range),-8.0,Don't know
+860305,MCS,mcs5_proxy_partner_interview,expxna00,Partner s Net amount earned last time paid (range),-1.0,Not applicable
+860306,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,-9.0,Refusal
+860307,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,-8.0,Don't know
+860308,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,-1.0,Not applicable
+860309,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,1.0,One week
+860310,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,2.0,Two weeks
+860311,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,3.0,Three weeks
+860312,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,4.0,Four weeks
+860313,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,5.0,Calendar month
+860314,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,6.0,Two Calendar months
+860315,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,7.0,Eight times a year
+860316,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,8.0,Nine times a year
+860317,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,9.0,Ten times a year
+860318,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,10.0,Three months/13 weeks
+860319,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,11.0,Six months/26 weeks
+860320,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,12.0,One Year/12 months/52 weeks
+860321,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,13.0,Less than one week
+860322,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,14.0,One off/lump sum
+860323,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,15.0,Don't know
+860324,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,16.0,Refused
+860325,MCS,mcs5_proxy_partner_interview,expxnp00,Period covered by payment,17.0,No answer
+860326,MCS,mcs5_proxy_partner_interview,expxpw00,Partner s Net amount earned last time paid (range),-9.0,Refusal
+860327,MCS,mcs5_proxy_partner_interview,expxpw00,Partner s Net amount earned last time paid (range),-8.0,Don't know
+860328,MCS,mcs5_proxy_partner_interview,expxpw00,Partner s Net amount earned last time paid (range),-1.0,Not applicable
+860329,MCS,mcs5_proxy_partner_interview,exnars00,PX TAKEHOME - OUTPUT VAR: Result,-1.0,Not applicable
+860330,MCS,mcs5_proxy_partner_interview,exnars00,PX TAKEHOME - OUTPUT VAR: Result,1.0,Complete brackets response
+860331,MCS,mcs5_proxy_partner_interview,exnars00,PX TAKEHOME - OUTPUT VAR: Result,2.0,DK to first bracket question asked
+860332,MCS,mcs5_proxy_partner_interview,exnars00,PX TAKEHOME - OUTPUT VAR: Result,3.0,Ref to first bracket question asked
+860333,MCS,mcs5_proxy_partner_interview,exnars00,PX TAKEHOME - OUTPUT VAR: Result,8.0,Incomplete - DK at last question
+860334,MCS,mcs5_proxy_partner_interview,exnars00,PX TAKEHOME - OUTPUT VAR: Result,9.0,Incomplete - Ref at last question
+860335,MCS,mcs5_proxy_partner_interview,expxnu00,Confirm whether partner s usual takehome pay?,-9.0,Refusal
+860336,MCS,mcs5_proxy_partner_interview,expxnu00,Confirm whether partner s usual takehome pay?,-8.0,Don't know
+860337,MCS,mcs5_proxy_partner_interview,expxnu00,Confirm whether partner s usual takehome pay?,-1.0,Not applicable
+860338,MCS,mcs5_proxy_partner_interview,expxnu00,Confirm whether partner s usual takehome pay?,1.0,Yes
+860339,MCS,mcs5_proxy_partner_interview,expxnu00,Confirm whether partner s usual takehome pay?,2.0,No
+860340,MCS,mcs5_proxy_partner_interview,expxnu00,Confirm whether partner s usual takehome pay?,3.0,Don't know
+860341,MCS,mcs5_proxy_partner_interview,expxnu00,Confirm whether partner s usual takehome pay?,4.0,Refused
+860342,MCS,mcs5_proxy_partner_interview,expxua00,Amount of takehome pay,-9.0,Refusal
+860343,MCS,mcs5_proxy_partner_interview,expxua00,Amount of takehome pay,-8.0,Don't know
+860344,MCS,mcs5_proxy_partner_interview,expxua00,Amount of takehome pay,-1.0,Not applicable
+860345,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,-9.0,Refusal
+860346,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,-8.0,Don't know
+860347,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,-1.0,Not applicable
+860348,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,1.0,One week
+860349,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,2.0,Two weeks
+860350,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,3.0,Three weeks
+860351,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,4.0,Four weeks
+860352,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,5.0,Calendar month
+860353,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,6.0,Two Calendar months
+860354,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,7.0,Eight times a year
+860355,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,8.0,Nine times a year
+860356,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,9.0,Ten times a year
+860357,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,10.0,Three months/13 weeks
+860358,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,11.0,Six months/26 weeks
+860359,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,12.0,One Year/12 months/52 weeks
+860360,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,13.0,Less than one week
+860361,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,14.0,One off/lump sum
+860362,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,15.0,Don't know
+860363,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,16.0,Refused
+860364,MCS,mcs5_proxy_partner_interview,expxup00,What is usual takehome pay,17.0,No answer
+860365,MCS,mcs5_proxy_partner_interview,expxuw00,Partner's Usual amount earned per week,-9.0,Refusal
+860366,MCS,mcs5_proxy_partner_interview,expxuw00,Partner's Usual amount earned per week,-8.0,Don't know
+860367,MCS,mcs5_proxy_partner_interview,expxuw00,Partner's Usual amount earned per week,-1.0,Not applicable
+860368,MCS,mcs5_proxy_partner_interview,exuars00,PX EARN - OUTPUT VAR: Result,-1.0,Not applicable
+860369,MCS,mcs5_proxy_partner_interview,exuars00,PX EARN - OUTPUT VAR: Result,1.0,Complete brackets response
+860370,MCS,mcs5_proxy_partner_interview,exuars00,PX EARN - OUTPUT VAR: Result,2.0,DK to first bracket question asked
+860371,MCS,mcs5_proxy_partner_interview,exuars00,PX EARN - OUTPUT VAR: Result,3.0,Ref to first bracket question asked
+860372,MCS,mcs5_proxy_partner_interview,exuars00,PX EARN - OUTPUT VAR: Result,8.0,Incomplete - DK at last question
+860373,MCS,mcs5_proxy_partner_interview,exuars00,PX EARN - OUTPUT VAR: Result,9.0,Incomplete - Ref at last question
+860374,MCS,mcs5_proxy_partner_interview,expxts00,Amount of takehome self employed pay,-9.0,Refusal
+860375,MCS,mcs5_proxy_partner_interview,expxts00,Amount of takehome self employed pay,-8.0,Don't know
+860376,MCS,mcs5_proxy_partner_interview,expxts00,Amount of takehome self employed pay,-1.0,Not applicable
+860377,MCS,mcs5_proxy_partner_interview,extsrs00,PX SELF EMPLOYED TAKEHOME - OUTPUT VAR: Result,-1.0,Not applicable
+860378,MCS,mcs5_proxy_partner_interview,extsrs00,PX SELF EMPLOYED TAKEHOME - OUTPUT VAR: Result,1.0,Complete brackets response
+860379,MCS,mcs5_proxy_partner_interview,extsrs00,PX SELF EMPLOYED TAKEHOME - OUTPUT VAR: Result,2.0,DK to first bracket question asked
+860380,MCS,mcs5_proxy_partner_interview,extsrs00,PX SELF EMPLOYED TAKEHOME - OUTPUT VAR: Result,3.0,Ref to first bracket question asked
+860381,MCS,mcs5_proxy_partner_interview,extsrs00,PX SELF EMPLOYED TAKEHOME - OUTPUT VAR: Result,8.0,Incomplete - DK at last question
+860382,MCS,mcs5_proxy_partner_interview,extsrs00,PX SELF EMPLOYED TAKEHOME - OUTPUT VAR: Result,9.0,Incomplete - Ref at last question
+860383,MCS,mcs5_proxy_partner_interview,expxel00,Age when left f/t education,-9.0,Refusal
+860384,MCS,mcs5_proxy_partner_interview,expxel00,Age when left f/t education,-8.0,Don't know
+860385,MCS,mcs5_proxy_partner_interview,expxel00,Age when left f/t education,-1.0,Not applicable
+860386,MCS,mcs5_proxy_partner_interview,expxeq00,Any new qualifications,-9.0,Refusal
+860387,MCS,mcs5_proxy_partner_interview,expxeq00,Any new qualifications,-8.0,Don't know
+860388,MCS,mcs5_proxy_partner_interview,expxeq00,Any new qualifications,-1.0,Not applicable
+860389,MCS,mcs5_proxy_partner_interview,expxeq00,Any new qualifications,1.0,Yes
+860390,MCS,mcs5_proxy_partner_interview,expxeq00,Any new qualifications,2.0,No
+860391,MCS,mcs5_proxy_partner_interview,expxeq00,Any new qualifications,3.0,Don't know
+860392,MCS,mcs5_proxy_partner_interview,expxeq00,Any new qualifications,4.0,Refused
+860393,MCS,mcs5_proxy_partner_interview,expxea0a,Academic Qualifications (Higher Degree),-1.0,Not applicable
+860394,MCS,mcs5_proxy_partner_interview,expxea0a,Academic Qualifications (Higher Degree),0.0,No
+860395,MCS,mcs5_proxy_partner_interview,expxea0a,Academic Qualifications (Higher Degree),1.0,Yes
+860396,MCS,mcs5_proxy_partner_interview,expxea0b,Academic Qualifications (First Degree),-1.0,Not applicable
+860397,MCS,mcs5_proxy_partner_interview,expxea0b,Academic Qualifications (First Degree),0.0,No
+860398,MCS,mcs5_proxy_partner_interview,expxea0b,Academic Qualifications (First Degree),1.0,Yes
+860399,MCS,mcs5_proxy_partner_interview,expxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),-1.0,Not applicable
+860400,MCS,mcs5_proxy_partner_interview,expxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),0.0,No
+860401,MCS,mcs5_proxy_partner_interview,expxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),1.0,Yes
+860402,MCS,mcs5_proxy_partner_interview,expxea0d,Academic Qualifications (Diplomas in higher education etc),-1.0,Not applicable
+860403,MCS,mcs5_proxy_partner_interview,expxea0d,Academic Qualifications (Diplomas in higher education etc),0.0,No
+860404,MCS,mcs5_proxy_partner_interview,expxea0d,Academic Qualifications (Diplomas in higher education etc),1.0,Yes
+860405,MCS,mcs5_proxy_partner_interview,expxea0e,Academic Qualifications (Teaching qualifications for schools etc),-1.0,Not applicable
+860406,MCS,mcs5_proxy_partner_interview,expxea0e,Academic Qualifications (Teaching qualifications for schools etc),0.0,No
+860407,MCS,mcs5_proxy_partner_interview,expxea0e,Academic Qualifications (Teaching qualifications for schools etc),1.0,Yes
+860408,MCS,mcs5_proxy_partner_interview,expxea0f,Academic Qualifications (A AS S Levels SCE Higher),-1.0,Not applicable
+860409,MCS,mcs5_proxy_partner_interview,expxea0f,Academic Qualifications (A AS S Levels SCE Higher),0.0,No
+860410,MCS,mcs5_proxy_partner_interview,expxea0f,Academic Qualifications (A AS S Levels SCE Higher),1.0,Yes
+860411,MCS,mcs5_proxy_partner_interview,expxea0g,Academic Qualifications (O Level or GCSE grade A-C),-1.0,Not applicable
+860412,MCS,mcs5_proxy_partner_interview,expxea0g,Academic Qualifications (O Level or GCSE grade A-C),0.0,No
+860413,MCS,mcs5_proxy_partner_interview,expxea0g,Academic Qualifications (O Level or GCSE grade A-C),1.0,Yes
+860414,MCS,mcs5_proxy_partner_interview,expxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),-1.0,Not applicable
+860415,MCS,mcs5_proxy_partner_interview,expxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),0.0,No
+860416,MCS,mcs5_proxy_partner_interview,expxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),1.0,Yes
+860417,MCS,mcs5_proxy_partner_interview,expxea0i,Academic Qualifications (Other academic qualifications),-1.0,Not applicable
+860418,MCS,mcs5_proxy_partner_interview,expxea0i,Academic Qualifications (Other academic qualifications),0.0,No
+860419,MCS,mcs5_proxy_partner_interview,expxea0i,Academic Qualifications (Other academic qualifications),1.0,Yes
+860420,MCS,mcs5_proxy_partner_interview,expxea0j,Academic Qualifications (No answer),-1.0,Not applicable
+860421,MCS,mcs5_proxy_partner_interview,expxea0j,Academic Qualifications (No answer),0.0,No
+860422,MCS,mcs5_proxy_partner_interview,expxea0j,Academic Qualifications (No answer),1.0,Yes
+860423,MCS,mcs5_proxy_partner_interview,expxea0k,Academic Qualifications (Refusal),-1.0,Not applicable
+860424,MCS,mcs5_proxy_partner_interview,expxea0k,Academic Qualifications (Refusal),0.0,No
+860425,MCS,mcs5_proxy_partner_interview,expxea0k,Academic Qualifications (Refusal),1.0,Yes
+860426,MCS,mcs5_proxy_partner_interview,expxea0l,Academic Qualifications (Dont know),-1.0,Not applicable
+860427,MCS,mcs5_proxy_partner_interview,expxea0l,Academic Qualifications (Dont know),0.0,No
+860428,MCS,mcs5_proxy_partner_interview,expxea0l,Academic Qualifications (Dont know),1.0,Yes
+860429,MCS,mcs5_proxy_partner_interview,expxev0a,Vocational quals (Professional qualifications at degree level),-1.0,Not applicable
+860430,MCS,mcs5_proxy_partner_interview,expxev0a,Vocational quals (Professional qualifications at degree level),0.0,No
+860431,MCS,mcs5_proxy_partner_interview,expxev0a,Vocational quals (Professional qualifications at degree level),1.0,Yes
+860432,MCS,mcs5_proxy_partner_interview,expxev0b,Vocational quals (Nursing or other medical qualifications),-1.0,Not applicable
+860433,MCS,mcs5_proxy_partner_interview,expxev0b,Vocational quals (Nursing or other medical qualifications),0.0,No
+860434,MCS,mcs5_proxy_partner_interview,expxev0b,Vocational quals (Nursing or other medical qualifications),1.0,Yes
+860435,MCS,mcs5_proxy_partner_interview,expxev0c,Vocational quals (NVQ or SVQ level 4 or 5),-1.0,Not applicable
+860436,MCS,mcs5_proxy_partner_interview,expxev0c,Vocational quals (NVQ or SVQ level 4 or 5),0.0,No
+860437,MCS,mcs5_proxy_partner_interview,expxev0c,Vocational quals (NVQ or SVQ level 4 or 5),1.0,Yes
+860438,MCS,mcs5_proxy_partner_interview,expxev0d,Vocational quals (HND,-1.0,Not applicable
+860439,MCS,mcs5_proxy_partner_interview,expxev0d,Vocational quals (HND,0.0,No
+860440,MCS,mcs5_proxy_partner_interview,expxev0d,Vocational quals (HND,1.0,Yes
+860441,MCS,mcs5_proxy_partner_interview,expxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),-1.0,Not applicable
+860442,MCS,mcs5_proxy_partner_interview,expxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),0.0,No
+860443,MCS,mcs5_proxy_partner_interview,expxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),1.0,Yes
+860444,MCS,mcs5_proxy_partner_interview,expxev0f,Vocational quals (OND,-1.0,Not applicable
+860445,MCS,mcs5_proxy_partner_interview,expxev0f,Vocational quals (OND,0.0,No
+860446,MCS,mcs5_proxy_partner_interview,expxev0f,Vocational quals (OND,1.0,Yes
+860447,MCS,mcs5_proxy_partner_interview,expxev0g,Vocational quals (City & Guilds advanced craft,-1.0,Not applicable
+860448,MCS,mcs5_proxy_partner_interview,expxev0g,Vocational quals (City & Guilds advanced craft,0.0,No
+860449,MCS,mcs5_proxy_partner_interview,expxev0g,Vocational quals (City & Guilds advanced craft,1.0,Yes
+860450,MCS,mcs5_proxy_partner_interview,expxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),-1.0,Not applicable
+860451,MCS,mcs5_proxy_partner_interview,expxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),0.0,No
+860452,MCS,mcs5_proxy_partner_interview,expxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),1.0,Yes
+860453,MCS,mcs5_proxy_partner_interview,expxev0i,Vocational quals (BTEC,-1.0,Not applicable
+860454,MCS,mcs5_proxy_partner_interview,expxev0i,Vocational quals (BTEC,0.0,No
+860455,MCS,mcs5_proxy_partner_interview,expxev0i,Vocational quals (BTEC,1.0,Yes
+860456,MCS,mcs5_proxy_partner_interview,expxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),0.0,No
+860457,MCS,mcs5_proxy_partner_interview,expxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),1.0,Yes
+860458,MCS,mcs5_proxy_partner_interview,expxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),-1.0,Not applicable
+860459,MCS,mcs5_proxy_partner_interview,expxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),-1.0,Not applicable
+860460,MCS,mcs5_proxy_partner_interview,expxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),0.0,No
+860461,MCS,mcs5_proxy_partner_interview,expxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),1.0,Yes
+860462,MCS,mcs5_proxy_partner_interview,expxev0l,Vocational quals (BTEC,-1.0,Not applicable
+860463,MCS,mcs5_proxy_partner_interview,expxev0l,Vocational quals (BTEC,0.0,No
+860464,MCS,mcs5_proxy_partner_interview,expxev0l,Vocational quals (BTEC,1.0,Yes
+860465,MCS,mcs5_proxy_partner_interview,expxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,-1.0,Not applicable
+860466,MCS,mcs5_proxy_partner_interview,expxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,0.0,No
+860467,MCS,mcs5_proxy_partner_interview,expxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,1.0,Yes
+860468,MCS,mcs5_proxy_partner_interview,expxev0n,Vocational quals (Other vocational qualifications),-1.0,Not applicable
+860469,MCS,mcs5_proxy_partner_interview,expxev0n,Vocational quals (Other vocational qualifications),0.0,No
+860470,MCS,mcs5_proxy_partner_interview,expxev0n,Vocational quals (Other vocational qualifications),1.0,Yes
+860471,MCS,mcs5_proxy_partner_interview,expxev0o,Vocational quals (No answer),-1.0,Not applicable
+860472,MCS,mcs5_proxy_partner_interview,expxev0o,Vocational quals (No answer),0.0,No
+860473,MCS,mcs5_proxy_partner_interview,expxev0o,Vocational quals (No answer),1.0,Yes
+860474,MCS,mcs5_proxy_partner_interview,expxev0p,Vocational quals (Refusal),-1.0,Not applicable
+860475,MCS,mcs5_proxy_partner_interview,expxev0p,Vocational quals (Refusal),0.0,No
+860476,MCS,mcs5_proxy_partner_interview,expxev0p,Vocational quals (Refusal),1.0,Yes
+860477,MCS,mcs5_proxy_partner_interview,expxev0q,Vocational quals (Dont know),-1.0,Not applicable
+860478,MCS,mcs5_proxy_partner_interview,expxev0q,Vocational quals (Dont know),0.0,No
+860479,MCS,mcs5_proxy_partner_interview,expxev0q,Vocational quals (Dont know),1.0,Yes
+860480,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,-1.0,Not applicable
+860481,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,1.0,Partner away in forces
+860482,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,2.0,Partner working away
+860483,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,3.0,Partner away in hospital
+860484,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,5.0,Partner away for some other reason
+860485,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,6.0,Partner incapacitated
+860486,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,7.0,Other (specify)
+860487,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,8.0,Dont know
+860488,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,9.0,Refused
+860489,MCS,mcs5_proxy_partner_interview,expxre00_rec,Reason for proxy partner IW (A) - recoded,99.0,Recoded - see SecureAccess data
+860490,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,-9.0,Refused
+860491,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,-8.0,Dont know
+860492,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,-1.0,Not applicable
+860493,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,1.0,Father/ Mother/ Partner away in forces
+860494,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,2.0,Father/ Mother/ Partner  working away
+860495,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,3.0,Father/ Mother/ Partner away in hospita
+860496,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,5.0,Father/ Mother/ Partner away for some o
+860497,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,6.0,Father/ Mother/ Partner incapacitated (
+860498,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,7.0,Other
+860499,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,8.0,Proxy done in error
+860500,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,9.0,On holiday/visiting family/visiting fam
+860501,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,10.0,Sick/ill/recovering from operation
+860502,MCS,mcs5_proxy_partner_interview,eppxrx00_rec,Why is a proxy IW rather than a personal IW - recoded,99.0,Recoded - see SecureAccess data
+860503,MCS,mcs5_proxy_partner_interview,avail_from_dt,,,
+860504,MCS,mcs5_proxy_partner_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

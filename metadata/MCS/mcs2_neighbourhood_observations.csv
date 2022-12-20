@@ -1,0 +1,82 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+773093,MCS,mcs2_neighbourhood_observations,bactry00,ADMIN Country at interview (E,1.0,England
+773094,MCS,mcs2_neighbourhood_observations,bactry00,ADMIN Country at interview (E,2.0,Wales
+773095,MCS,mcs2_neighbourhood_observations,bactry00,ADMIN Country at interview (E,3.0,Scotland
+773096,MCS,mcs2_neighbourhood_observations,bactry00,ADMIN Country at interview (E,4.0,Northern Ireland
+773097,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,1.0,North East
+773098,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,2.0,North West
+773099,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,3.0,Yorkshire and the Humber
+773100,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,4.0,East Midlands
+773101,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,5.0,West Midlands
+773102,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,6.0,East of England
+773103,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,7.0,London
+773104,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,8.0,South East
+773105,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,9.0,South West
+773106,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,10.0,Wales
+773107,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,11.0,Scotland
+773108,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,12.0,Northern Ireland
+773109,MCS,mcs2_neighbourhood_observations,baregn00,Interview Government Office Region,13.0,Not app in IoM Ch Is
+773110,MCS,mcs2_neighbourhood_observations,bnvist00,sortkey: S2 NA Visit number,,
+773111,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,1.0,Monday
+773112,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,2.0,Tuesday
+773113,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,3.0,Wednesday
+773114,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,4.0,Thursday
+773115,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,5.0,Friday
+773116,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,6.0,Saturday
+773117,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,7.0,Sunday
+773118,MCS,mcs2_neighbourhood_observations,bndowk00,S2 NA Day of visit,8.0,Blank
+773119,MCS,mcs2_neighbourhood_observations,bnctme00,S2 NA Time of day of visit,1.0,Morning
+773120,MCS,mcs2_neighbourhood_observations,bnctme00,S2 NA Time of day of visit,2.0,Afternoon
+773121,MCS,mcs2_neighbourhood_observations,bnctme00,S2 NA Time of day of visit,3.0,Evening
+773122,MCS,mcs2_neighbourhood_observations,bnctme00,S2 NA Time of day of visit,8.0,Blank
+773123,MCS,mcs2_neighbourhood_observations,bngcnd00,S2 NA General condition buildings in street?,1.0,Well kept good repair & exterior su
+773124,MCS,mcs2_neighbourhood_observations,bngcnd00,S2 NA General condition buildings in street?,2.0,Fair condition
+773125,MCS,mcs2_neighbourhood_observations,bngcnd00,S2 NA General condition buildings in street?,3.0,Poor condition peeling paint broken win
+773126,MCS,mcs2_neighbourhood_observations,bngcnd00,S2 NA General condition buildings in street?,4.0,Badly deteriorated
+773127,MCS,mcs2_neighbourhood_observations,bngcnd00,S2 NA General condition buildings in street?,8.0,Blank
+773128,MCS,mcs2_neighbourhood_observations,bnbsec00,S2 NA Security blinds etc,1.0,None
+773129,MCS,mcs2_neighbourhood_observations,bnbsec00,S2 NA Security blinds etc,2.0,Some
+773130,MCS,mcs2_neighbourhood_observations,bnbsec00,S2 NA Security blinds etc,3.0,Most
+773131,MCS,mcs2_neighbourhood_observations,bnbsec00,S2 NA Security blinds etc,8.0,Blank
+773132,MCS,mcs2_neighbourhood_observations,bntclm00,S2 NA Traffic calming,1.0,Yes
+773133,MCS,mcs2_neighbourhood_observations,bntclm00,S2 NA Traffic calming,2.0,No
+773134,MCS,mcs2_neighbourhood_observations,bntclm00,S2 NA Traffic calming,8.0,Blank
+773135,MCS,mcs2_neighbourhood_observations,bnvtrf00,S2 NA Volume of traffic,1.0,No traffic permitted
+773136,MCS,mcs2_neighbourhood_observations,bnvtrf00,S2 NA Volume of traffic,2.0,Light
+773137,MCS,mcs2_neighbourhood_observations,bnvtrf00,S2 NA Volume of traffic,3.0,Moderate
+773138,MCS,mcs2_neighbourhood_observations,bnvtrf00,S2 NA Volume of traffic,4.0,Heavy
+773139,MCS,mcs2_neighbourhood_observations,bnvtrf00,S2 NA Volume of traffic,8.0,Blank
+773140,MCS,mcs2_neighbourhood_observations,bnbocr00,S2 NA Burnt-out cars on the street?,1.0,Yes
+773141,MCS,mcs2_neighbourhood_observations,bnbocr00,S2 NA Burnt-out cars on the street?,2.0,No
+773142,MCS,mcs2_neighbourhood_observations,bnbocr00,S2 NA Burnt-out cars on the street?,8.0,Blank
+773143,MCS,mcs2_neighbourhood_observations,bnlitr00,S2 NA Is there any litter etc in the street or on the pavement?,1.0,None or almost none
+773144,MCS,mcs2_neighbourhood_observations,bnlitr00,S2 NA Is there any litter etc in the street or on the pavement?,2.0,Yes some
+773145,MCS,mcs2_neighbourhood_observations,bnlitr00,S2 NA Is there any litter etc in the street or on the pavement?,3.0,Yes just about everywhere you look
+773146,MCS,mcs2_neighbourhood_observations,bnlitr00,S2 NA Is there any litter etc in the street or on the pavement?,8.0,Blank
+773147,MCS,mcs2_neighbourhood_observations,bndfcs00,S2 NA Is there dog mess on the pavement?,1.0,None
+773148,MCS,mcs2_neighbourhood_observations,bndfcs00,S2 NA Is there dog mess on the pavement?,2.0,Some
+773149,MCS,mcs2_neighbourhood_observations,bndfcs00,S2 NA Is there dog mess on the pavement?,3.0,A lot
+773150,MCS,mcs2_neighbourhood_observations,bndfcs00,S2 NA Is there dog mess on the pavement?,8.0,Blank
+773151,MCS,mcs2_neighbourhood_observations,bngrft00,S2 NA Is there any graffiti on walls or on public spaces?,1.0,No
+773152,MCS,mcs2_neighbourhood_observations,bngrft00,S2 NA Is there any graffiti on walls or on public spaces?,2.0,A little
+773153,MCS,mcs2_neighbourhood_observations,bngrft00,S2 NA Is there any graffiti on walls or on public spaces?,3.0,A lot
+773154,MCS,mcs2_neighbourhood_observations,bngrft00,S2 NA Is there any graffiti on walls or on public spaces?,8.0,Blank
+773155,MCS,mcs2_neighbourhood_observations,bnvand00,S2 NA Is there any evidence of vandalism ?,1.0,No
+773156,MCS,mcs2_neighbourhood_observations,bnvand00,S2 NA Is there any evidence of vandalism ?,2.0,Yes
+773157,MCS,mcs2_neighbourhood_observations,bnvand00,S2 NA Is there any evidence of vandalism ?,8.0,Blank
+773158,MCS,mcs2_neighbourhood_observations,bnrwdy00,S2 NA Is there any arguing or fighting on street?,1.0,No-one seen in the street or pavement
+773159,MCS,mcs2_neighbourhood_observations,bnrwdy00,S2 NA Is there any arguing or fighting on street?,2.0,None observed behaving in hostile ways
+773160,MCS,mcs2_neighbourhood_observations,bnrwdy00,S2 NA Is there any arguing or fighting on street?,3.0,Yes one or two arguing etc.
+773161,MCS,mcs2_neighbourhood_observations,bnrwdy00,S2 NA Is there any arguing or fighting on street?,4.0,Yes at least one group of three or more
+773162,MCS,mcs2_neighbourhood_observations,bnrwdy00,S2 NA Is there any arguing or fighting on street?,8.0,Blank
+773163,MCS,mcs2_neighbourhood_observations,bnsfty00,S2 NA How did you feel in the street?,1.0,Very comfortable can imagine living/ sh
+773164,MCS,mcs2_neighbourhood_observations,bnsfty00,S2 NA How did you feel in the street?,2.0,Comfortable - a safe and friendly place
+773165,MCS,mcs2_neighbourhood_observations,bnsfty00,S2 NA How did you feel in the street?,3.0,Fairly safe and comfortable
+773166,MCS,mcs2_neighbourhood_observations,bnsfty00,S2 NA How did you feel in the street?,4.0,I would be uncomfortable living/ shoppi
+773167,MCS,mcs2_neighbourhood_observations,bnsfty00,S2 NA How did you feel in the street?,5.0,I felt like an outsider looked on suspi
+773168,MCS,mcs2_neighbourhood_observations,bnsfty00,S2 NA How did you feel in the street?,6.0,I felt afraid for my personal safety
+773169,MCS,mcs2_neighbourhood_observations,bnsfty00,S2 NA How did you feel in the street?,8.0,Blank
+773170,MCS,mcs2_neighbourhood_observations,study_id_e,,,
+773171,MCS,mcs2_neighbourhood_observations,pnum,None,,
+773172,MCS,mcs2_neighbourhood_observations,avail_from_dt,,,
+773173,MCS,mcs2_neighbourhood_observations,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

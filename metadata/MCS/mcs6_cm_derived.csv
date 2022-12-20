@@ -1,0 +1,142 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+860866,MCS,mcs6_cm_derived,study_id_e,,,
+860867,MCS,mcs6_cm_derived,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+860868,MCS,mcs6_cm_derived,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+860869,MCS,mcs6_cm_derived,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+860870,MCS,mcs6_cm_derived,fcintm00,Interview date (month),-9.0,Refused
+860871,MCS,mcs6_cm_derived,fcintm00,Interview date (month),-8.0,Dont know
+860872,MCS,mcs6_cm_derived,fcintm00,Interview date (month),-1.0,Not applicable
+860873,MCS,mcs6_cm_derived,fcintm00,Interview date (month),1.0,January
+860874,MCS,mcs6_cm_derived,fcintm00,Interview date (month),2.0,February
+860875,MCS,mcs6_cm_derived,fcintm00,Interview date (month),3.0,March
+860876,MCS,mcs6_cm_derived,fcintm00,Interview date (month),4.0,April
+860877,MCS,mcs6_cm_derived,fcintm00,Interview date (month),5.0,May
+860878,MCS,mcs6_cm_derived,fcintm00,Interview date (month),6.0,June
+860879,MCS,mcs6_cm_derived,fcintm00,Interview date (month),7.0,July
+860880,MCS,mcs6_cm_derived,fcintm00,Interview date (month),8.0,August
+860881,MCS,mcs6_cm_derived,fcintm00,Interview date (month),9.0,September
+860882,MCS,mcs6_cm_derived,fcintm00,Interview date (month),10.0,October
+860883,MCS,mcs6_cm_derived,fcintm00,Interview date (month),11.0,November
+860884,MCS,mcs6_cm_derived,fcintm00,Interview date (month),12.0,December
+860885,MCS,mcs6_cm_derived,fcinty00,Interview date (year),-9.0,Refused
+860886,MCS,mcs6_cm_derived,fcinty00,Interview date (year),-8.0,Dont know
+860887,MCS,mcs6_cm_derived,fcinty00,Interview date (year),-1.0,Not applicable
+860888,MCS,mcs6_cm_derived,fccsex00,CM Sex,-1.0,Not known/Not applicable
+860889,MCS,mcs6_cm_derived,fccsex00,CM Sex,1.0,Male
+860890,MCS,mcs6_cm_derived,fccsex00,CM Sex,2.0,Female
+860891,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),-1.0,Not applicable
+860892,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),1.0,January
+860893,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),2.0,February
+860894,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),3.0,March
+860895,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),4.0,April
+860896,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),5.0,May
+860897,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),6.0,June
+860898,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),7.0,July
+860899,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),8.0,August
+860900,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),9.0,September
+860901,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),10.0,October
+860902,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),11.0,November
+860903,MCS,mcs6_cm_derived,fccdbm00,CM DOB (month),12.0,December
+860904,MCS,mcs6_cm_derived,fccdby00,CM DOB (year),-1.0,Not applicable
+860905,MCS,mcs6_cm_derived,fccage00,CM Age last birthday,-1.0,Not applicable
+860906,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,-9.0,Refusal
+860907,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,-8.0,Dont know
+860908,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,-1.0,Not applicable - Not codeable
+860909,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,1.0,White
+860910,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,2.0,Mixed
+860911,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,3.0,Indian
+860912,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,4.0,Pakistani and Bangladeshi
+860913,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,5.0,Black or Black British
+860914,MCS,mcs6_cm_derived,fdce0600,S6 DV CM ethnic group classification - 6 categories,6.0,"Other Ethnic group (inc Chinese,Other)"
+860915,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,-9.0,Refusal
+860916,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,-8.0,Dont know
+860917,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,-1.0,Not applicable - Not codeable
+860918,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,1.0,White
+860919,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,2.0,Mixed
+860920,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,3.0,Indian
+860921,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,4.0,Pakistani
+860922,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,5.0,Bangladeshi
+860923,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,6.0,Black Caribbean
+860924,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,7.0,Black African
+860925,MCS,mcs6_cm_derived,fdce0800,S6 DV CM ethnic group classification - 8 categories,8.0,"Other Ethnic Group (inc Chinese, Other)"
+860926,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,-9.0,Refusal
+860927,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,-8.0,Dont know
+860928,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,-1.0,Not applicable - Not codeable
+860929,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,1.0,White
+860930,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,2.0,Mixed
+860931,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,3.0,Indian
+860932,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,4.0,Pakistani
+860933,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,5.0,Bangladeshi
+860934,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,6.0,Other Asian
+860935,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,7.0,Black Caribbean
+860936,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,8.0,Black African
+860937,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,9.0,Other Black
+860938,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,10.0,Chinese
+860939,MCS,mcs6_cm_derived,fdce1100,S6 DV CM ethnic group classification - 11 categories,11.0,Other Ethnic Group
+860940,MCS,mcs6_cm_derived,fcovwgt6,Overweight Cut-Off point for child's age and sex (IOTF thresholds),-1.0,Not applicable
+860941,MCS,mcs6_cm_derived,fcobese6,Obesity Cut-Off point for child's age and sex (IOTF thresholds),-1.0,Not applicable
+860942,MCS,mcs6_cm_derived,fcundwu6,Underweight cut-Off point for child's age and sex (UK90 2nd centile),-1.0,Not applicable
+860943,MCS,mcs6_cm_derived,fcovwtu6,Overweight cut-Off point for child's age and sex (UK90 85th centile),-1.0,Not applicable
+860944,MCS,mcs6_cm_derived,fcobesu6,Obesity cut-Off point for child's age and sex (UK90 95th centile),-1.0,Not applicable
+860945,MCS,mcs6_cm_derived,fcmcs6ag,Age at interview to nearest 10th of year,-1.0,Not applicable
+860946,MCS,mcs6_cm_derived,fcbmin6,MCS6 Body Mass Index calculated (CLS),-1.0,Not applicable
+860947,MCS,mcs6_cm_derived,fcobflg6,MCS6 Obesity flag - IOTF thresholds,-1.0,Not applicable
+860948,MCS,mcs6_cm_derived,fcobflg6,MCS6 Obesity flag - IOTF thresholds,0.0,Not overweight (including underweight)
+860949,MCS,mcs6_cm_derived,fcobflg6,MCS6 Obesity flag - IOTF thresholds,1.0,Overweight
+860950,MCS,mcs6_cm_derived,fcobflg6,MCS6 Obesity flag - IOTF thresholds,2.0,Obese
+860951,MCS,mcs6_cm_derived,fcuk90o6,MCS6 Obesity flag - UK90 thresholds,-1.0,Not applicable
+860952,MCS,mcs6_cm_derived,fcuk90o6,MCS6 Obesity flag - UK90 thresholds,1.0,Underweight
+860953,MCS,mcs6_cm_derived,fcuk90o6,MCS6 Obesity flag - UK90 thresholds,2.0,Healthy weight
+860954,MCS,mcs6_cm_derived,fcuk90o6,MCS6 Obesity flag - UK90 thresholds,3.0,Overweight
+860955,MCS,mcs6_cm_derived,fcuk90o6,MCS6 Obesity flag - UK90 thresholds,4.0,Obese
+860956,MCS,mcs6_cm_derived,fcwrdsc,CM Word activity score out of 20,-3.0,Software error/respondent completed wrong activity
+860957,MCS,mcs6_cm_derived,fcwrdsc,CM Word activity score out of 20,-1.0,Not applicable
+860958,MCS,mcs6_cm_derived,fcgtoutcm,CGT Test Outcome,-9.0,No test
+860959,MCS,mcs6_cm_derived,fcgtoutcm,CGT Test Outcome,0.0,Test Aborted
+860960,MCS,mcs6_cm_derived,fcgtoutcm,CGT Test Outcome,1.0,Test Completed
+860961,MCS,mcs6_cm_derived,fcgtoutcm,CGT Test Outcome,2.0,Test Ended due to tech problems
+860962,MCS,mcs6_cm_derived,fcgtttime,CGT Test Duration (seconds),-9.0,No test
+860963,MCS,mcs6_cm_derived,fcgtdelay,CGT Delay Aversion,-9.0,No test
+860964,MCS,mcs6_cm_derived,fcgtdtime,CGT Deliberation Time,-9.0,No test
+860965,MCS,mcs6_cm_derived,fcgtopbet,CGT Overall Proportional Bet,-9.0,No test
+860966,MCS,mcs6_cm_derived,fcgtqofdm,CGT Quality of Decision Making,-9.0,No test
+860967,MCS,mcs6_cm_derived,fcgtriska,CGT Risk adjustment,-9.0,No test
+860968,MCS,mcs6_cm_derived,fcgtriskt,CGT Risk taking,-9.0,No test
+860969,MCS,mcs6_cm_derived,femotion,S6 DV Parent-reported CM SDQ Emotional Symptoms,-9.0,Refusal
+860970,MCS,mcs6_cm_derived,femotion,S6 DV Parent-reported CM SDQ Emotional Symptoms,-8.0,Don't know
+860971,MCS,mcs6_cm_derived,femotion,S6 DV Parent-reported CM SDQ Emotional Symptoms,-1.0,Not applicable
+860972,MCS,mcs6_cm_derived,fconduct,S6 DV Parent-reported CM SDQ Conduct Problems,-9.0,Refusal
+860973,MCS,mcs6_cm_derived,fconduct,S6 DV Parent-reported CM SDQ Conduct Problems,-8.0,Don't know
+860974,MCS,mcs6_cm_derived,fconduct,S6 DV Parent-reported CM SDQ Conduct Problems,-1.0,Not applicable
+860975,MCS,mcs6_cm_derived,fhyper,S6 DV Parent-reported CM SDQ Hyperactivity/Inattention,-9.0,Refusal
+860976,MCS,mcs6_cm_derived,fhyper,S6 DV Parent-reported CM SDQ Hyperactivity/Inattention,-8.0,Don't know
+860977,MCS,mcs6_cm_derived,fhyper,S6 DV Parent-reported CM SDQ Hyperactivity/Inattention,-1.0,Not applicable
+860978,MCS,mcs6_cm_derived,fpeer,S6 DV Parent-reported CM SDQ Peer Problems,-9.0,Refusal
+860979,MCS,mcs6_cm_derived,fpeer,S6 DV Parent-reported CM SDQ Peer Problems,-8.0,Don't know
+860980,MCS,mcs6_cm_derived,fpeer,S6 DV Parent-reported CM SDQ Peer Problems,-1.0,Not applicable
+860981,MCS,mcs6_cm_derived,fprosoc,S6 DV Parent-reported CM SDQ Prosocial,-9.0,Refusal
+860982,MCS,mcs6_cm_derived,fprosoc,S6 DV Parent-reported CM SDQ Prosocial,-8.0,Don't know
+860983,MCS,mcs6_cm_derived,fprosoc,S6 DV Parent-reported CM SDQ Prosocial,-1.0,Not applicable
+860984,MCS,mcs6_cm_derived,febdtot,S6 DV Parent-reported CM SDQ Total Difficulties,-9.0,Refusal
+860985,MCS,mcs6_cm_derived,febdtot,S6 DV Parent-reported CM SDQ Total Difficulties,-8.0,Don't know
+860986,MCS,mcs6_cm_derived,febdtot,S6 DV Parent-reported CM SDQ Total Difficulties,-1.0,Not applicable
+860987,MCS,mcs6_cm_derived,fdschl0a,MCS6 School (now) collection outcome: whether school info provided and URN ide,1.0,School info provided and URN matched
+860988,MCS,mcs6_cm_derived,fdschl0a,MCS6 School (now) collection outcome: whether school info provided and URN ide,2.0,School info provided but URN not found
+860989,MCS,mcs6_cm_derived,fdschl0a,MCS6 School (now) collection outcome: whether school info provided and URN ide,3.0,Refused - not enough information
+860990,MCS,mcs6_cm_derived,fdschl0a,MCS6 School (now) collection outcome: whether school info provided and URN ide,4.0,Dont know - not enough information
+860991,MCS,mcs6_cm_derived,fdschl0a,MCS6 School (now) collection outcome: whether school info provided and URN ide,5.0,Not applicable - not routed to School
+860992,MCS,mcs6_cm_derived,fdschl0b,MCS6 School (started at) collection outcome: whether school info provided and,1.0,School info provided and URN matched
+860993,MCS,mcs6_cm_derived,fdschl0b,MCS6 School (started at) collection outcome: whether school info provided and,2.0,School info provided but URN not found
+860994,MCS,mcs6_cm_derived,fdschl0b,MCS6 School (started at) collection outcome: whether school info provided and,3.0,Refused - not enough information
+860995,MCS,mcs6_cm_derived,fdschl0b,MCS6 School (started at) collection outcome: whether school info provided and,4.0,Dont know - not enough information
+860996,MCS,mcs6_cm_derived,fdschl0b,MCS6 School (started at) collection outcome: whether school info provided and,5.0,Not applicable - not routed to School
+860997,MCS,mcs6_cm_derived,fcanonsclid1,School (now): Anonymised School ID,,
+860998,MCS,mcs6_cm_derived,fcanonsclid2,School (started at): Anonymised School ID,,
+860999,MCS,mcs6_cm_derived,fcgram0a,Whether Grammar School (now) (coding by John Jerrim),-1.0,Not applicable
+861000,MCS,mcs6_cm_derived,fcgram0a,Whether Grammar School (now) (coding by John Jerrim),0.0,Non Grammar
+861001,MCS,mcs6_cm_derived,fcgram0a,Whether Grammar School (now) (coding by John Jerrim),1.0,Grammar
+861002,MCS,mcs6_cm_derived,fcgram0b,Whether Grammar School (started at) (coding by John Jerrim),-1.0,Not applicable
+861003,MCS,mcs6_cm_derived,fcgram0b,Whether Grammar School (started at) (coding by John Jerrim),0.0,Non Grammar
+861004,MCS,mcs6_cm_derived,fcgram0b,Whether Grammar School (started at) (coding by John Jerrim),1.0,Grammar
+861005,MCS,mcs6_cm_derived,avail_from_dt,,,
+861006,MCS,mcs6_cm_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

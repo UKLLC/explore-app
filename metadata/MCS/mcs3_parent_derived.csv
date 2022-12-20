@@ -1,0 +1,475 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+797053,MCS,mcs3_parent_derived,study_id_e,,,
+797054,MCS,mcs3_parent_derived,pnum,Person Number for Main or (Proxy)Partner respondent,-1.0,Not applicable
+797055,MCS,mcs3_parent_derived,celig00,Eligibility for Interview,-1.0,Not applicable
+797056,MCS,mcs3_parent_derived,celig00,Eligibility for Interview,1.0,Main Interview
+797057,MCS,mcs3_parent_derived,celig00,Eligibility for Interview,2.0,Partner Interview
+797058,MCS,mcs3_parent_derived,celig00,Eligibility for Interview,3.0,Proxy Interview
+797059,MCS,mcs3_parent_derived,celig00,Eligibility for Interview,4.0,Not eligible
+797060,MCS,mcs3_parent_derived,cresp00,Response to Interview,-1.0,Not applicable
+797061,MCS,mcs3_parent_derived,cresp00,Response to Interview,1.0,Main Interview
+797062,MCS,mcs3_parent_derived,cresp00,Response to Interview,2.0,Partner Interview
+797063,MCS,mcs3_parent_derived,cresp00,Response to Interview,3.0,Proxy Interview
+797064,MCS,mcs3_parent_derived,cresp00,Response to Interview,4.0,No Interview
+797065,MCS,mcs3_parent_derived,cddsam00,Respondent same as at sweep 2,-1.0,Not applicable
+797066,MCS,mcs3_parent_derived,cddsam00,Respondent same as at sweep 2,1.0,Same respondent
+797067,MCS,mcs3_parent_derived,cddsam00,Respondent same as at sweep 2,2.0,Different respondent
+797068,MCS,mcs3_parent_derived,cddlst00,Respondent status at sweep 2,-1.0,Not applicable
+797069,MCS,mcs3_parent_derived,cddlst00,Respondent status at sweep 2,1.0,Main respondent
+797070,MCS,mcs3_parent_derived,cddlst00,Respondent status at sweep 2,2.0,Partner respondent
+797071,MCS,mcs3_parent_derived,cddlst00,Respondent status at sweep 2,3.0,Proxy partner respondent
+797072,MCS,mcs3_parent_derived,cddlst00,Respondent status at sweep 2,4.0,Neither Main or Partner
+797073,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,-1.0,Not applicable
+797074,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,1.0,Natural mother: interviewed
+797075,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,2.0,Natural father: interviewed
+797076,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,3.0,Adoptive mother: interviewed
+797077,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,4.0,Adoptive father: interviewed
+797078,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,5.0,Foster mother: interviewed
+797079,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,6.0,Foster father: interviewed
+797080,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,7.0,Step mother/partner of father: interviewed
+797081,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,8.0,Step father/partner of mother: interviewed
+797082,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,9.0,Grandmother: interviewed
+797083,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,10.0,Grandfather: interviewed
+797084,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,11.0,Natural mother: by proxy
+797085,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,12.0,Natural father: by proxy
+797086,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,13.0,Step mother: by proxy
+797087,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,14.0,Step father: by proxy
+797088,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,15.0,Natural mother: not interviewed
+797089,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,16.0,Natural father: not interviewed
+797090,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,17.0,Adoptive mother: not interviewed
+797091,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,18.0,Adoptive father: not interviewed
+797092,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,19.0,Foster mother: not interviewed
+797093,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,20.0,Foster father: not interviewed
+797094,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,21.0,Step mother: not interviewed
+797095,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,22.0,Step father: not interviewed
+797096,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,23.0,"Natural mother: by proxy, not interviewed"
+797097,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,24.0,"Natural father: by proxy, not interviewed"
+797098,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,25.0,Other female non-relative: interviewed
+797099,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,26.0,Other male non relative: interviewed
+797100,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,27.0,Other female non-relative: not interviewed
+797101,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,28.0,Other male non relative: not interviewed
+797102,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,29.0,"Step mother: by proxy, not interviewed"
+797103,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,30.0,"Step father: by proxy, not interviewed"
+797104,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,31.0,Other female relative: interviewed
+797105,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,32.0,Other male relative: interviewed
+797106,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,33.0,"Female, unknown relationship: interviewed"
+797107,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,34.0,"Male, unknown relationship:interviewed"
+797108,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,35.0,"Step parent, unknown sex: interviewed"
+797109,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,36.0,"Step parent, unknown sex: not interviewed"
+797110,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,37.0,"Adoptive parent, unknown sex: interviewed"
+797111,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,38.0,"Adoptive parent, unknown sex: not interviewed"
+797112,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,39.0,Grandmother: not interviewed
+797113,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,40.0,Grandfather: not interviewed
+797114,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,41.0,"Female, unknown relationship: not interviewed"
+797115,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,42.0,"Male, unknown relationship: not interviewed"
+797116,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,43.0,Other female relative: not interviewed
+797117,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,44.0,Other male relative: not interviewed
+797118,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,45.0,"Natural parent, unknown sex: interviewed"
+797119,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,46.0,"Natural parent, unknown sex: not interviewed"
+797120,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,47.0,"Natural parent, unknown sex: by proxy"
+797121,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,48.0,Other male non-relative: by proxy
+797122,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,49.0,"Other non-relative, sex unknown: interviewed"
+797123,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,50.0,"Unknown relationship, unknown sex: by proxy"
+797124,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,51.0,Adoptive father: by proxy
+797125,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,52.0,Grandfather: by proxy
+797126,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,53.0,"Other male non-relative: by proxy, no proxy interview"
+797127,MCS,mcs3_parent_derived,cddres00,respondent identity and interview status,54.0,Other male relative: by proxy
+797128,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,-1.0,Not applicable
+797129,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,1.0,Natural mother
+797130,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,2.0,Natural father
+797131,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,3.0,Natural parent (sex not known)
+797132,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,4.0,Adoptive mother
+797133,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,5.0,Adoptive father
+797134,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,6.0,Adoptive parent (sex not known)
+797135,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,7.0,Foster mother
+797136,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,8.0,Foster father
+797137,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,9.0,Foster parent (sex not known)
+797138,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,10.0,Step mother
+797139,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,11.0,Step father
+797140,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,12.0,Step parent (sex not known)
+797141,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,13.0,Grandmother
+797142,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,14.0,Grandfather
+797143,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,15.0,Grandparent (sex not known)
+797144,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,16.0,"Other, female"
+797145,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,17.0,"Other, male"
+797146,MCS,mcs3_parent_derived,cddrel00,respondent relationship to CM,18.0,"Other, sex not known"
+797147,MCS,mcs3_parent_derived,cddagi00,Respondent Age at Interview,-3.0,Dob or Date of Interview Missing
+797148,MCS,mcs3_parent_derived,cddagi00,Respondent Age at Interview,-2.0,Not Known
+797149,MCS,mcs3_parent_derived,cddagi00,Respondent Age at Interview,-1.0,Not applicable
+797150,MCS,mcs3_parent_derived,cddgai00,Respondent Age at Interview (grouped),-3.0,Dob or Date of Interview Missing
+797151,MCS,mcs3_parent_derived,cddgai00,Respondent Age at Interview (grouped),-2.0,Not Known
+797152,MCS,mcs3_parent_derived,cddgai00,Respondent Age at Interview (grouped),-1.0,Not applicable
+797153,MCS,mcs3_parent_derived,cddgai00,Respondent Age at Interview (grouped),1.0,16 to 19
+797154,MCS,mcs3_parent_derived,cddgai00,Respondent Age at Interview (grouped),2.0,20 to 29
+797155,MCS,mcs3_parent_derived,cddgai00,Respondent Age at Interview (grouped),3.0,30 to 39
+797156,MCS,mcs3_parent_derived,cddgai00,Respondent Age at Interview (grouped),4.0,40 plus
+797157,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,-9.0,Refusal
+797158,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,-8.0,Don't know
+797159,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,-2.0,Not known
+797160,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,-1.0,Not applicable
+797161,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,1.0,White
+797162,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,2.0,Mixed
+797163,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,3.0,Indian
+797164,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,4.0,Pakistani and Bangladeshi
+797165,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,5.0,Black or Black British
+797166,MCS,mcs3_parent_derived,cdd06e00,DV Respondent's Ethnic Group - 6 category Census class,6.0,"Other Ethnic group (inc Chinese,Other)"
+797167,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,-9.0,Refusal
+797168,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,-8.0,Don't know
+797169,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,-2.0,Not known
+797170,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,-1.0,Not applicable
+797171,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,1.0,White
+797172,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,2.0,Mixed
+797173,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,3.0,Indian
+797174,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,4.0,Pakistani
+797175,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,5.0,Bangladeshi
+797176,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,6.0,Other Asian
+797177,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,7.0,Black Caribbean
+797178,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,8.0,Black African
+797179,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,9.0,Other Black
+797180,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,10.0,Chinese
+797181,MCS,mcs3_parent_derived,cdd11e00,Respondent's Ethnic Group - 11 category Census,11.0,Other Ethnic Group
+797182,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,-9.0,Refusal
+797183,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,-8.0,Don't know
+797184,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,-2.0,Not known
+797185,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,-1.0,Not applicable
+797186,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,1.0,White
+797187,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,2.0,Mixed
+797188,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,3.0,Indian
+797189,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,4.0,Pakistani
+797190,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,5.0,Bangladeshi
+797191,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,6.0,Black Caribbean
+797192,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,7.0,Black African
+797193,MCS,mcs3_parent_derived,cdd08e00,Respondent's Ethnic Group - 8 category classification,8.0,"Other Ethnic group (inc Chinese,Other)"
+797194,MCS,mcs3_parent_derived,cddwrk00,DV Whether main respondent is in work or not,-9.0,Refusal
+797195,MCS,mcs3_parent_derived,cddwrk00,DV Whether main respondent is in work or not,-8.0,Don't know
+797196,MCS,mcs3_parent_derived,cddwrk00,DV Whether main respondent is in work or not,-1.0,Not applicable
+797197,MCS,mcs3_parent_derived,cddwrk00,DV Whether main respondent is in work or not,1.0,Partner respondent is in work/on leave
+797198,MCS,mcs3_parent_derived,cddwrk00,DV Whether main respondent is in work or not,2.0,Partner respondent is not in work/on leave
+797199,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,-9.0,Refusal
+797200,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,-8.0,Don't know
+797201,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,-1.0,Not applicable
+797202,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,1.0,NVQ level 1
+797203,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,2.0,NVQ level 2
+797204,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,3.0,NVQ level 3
+797205,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,4.0,NVQ level 4
+797206,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,5.0,NVQ level 5
+797207,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,95.0,Overseas qual only
+797208,MCS,mcs3_parent_derived,cddnvq00,Respondent NVQ Highest Level (across all sweep,96.0,None of these
+797209,MCS,mcs3_parent_derived,cdwgtk00,Weight of respondent in Kilos At interview,-8.0,Dont Know / refused
+797210,MCS,mcs3_parent_derived,cdwgtk00,Weight of respondent in Kilos At interview,-2.0,No measurement Pregnant
+797211,MCS,mcs3_parent_derived,cdwgtk00,Weight of respondent in Kilos At interview,-1.0,Not applicable
+797212,MCS,mcs3_parent_derived,cdhgtm00,Height of respondent in Metres,-9.0,Refusal
+797213,MCS,mcs3_parent_derived,cdhgtm00,Height of respondent in Metres,-8.0,Dont Know / refused
+797214,MCS,mcs3_parent_derived,cdhgtm00,Height of respondent in Metres,-1.0,Not applicable
+797215,MCS,mcs3_parent_derived,cddbmi00,BMI of respondent at interview,-8.0,Dont Know / refused
+797216,MCS,mcs3_parent_derived,cddbmi00,BMI of respondent at interview,-2.0,No measurement Pregnant
+797217,MCS,mcs3_parent_derived,cddbmi00,BMI of respondent at interview,-1.0,Not applicable
+797218,MCS,mcs3_parent_derived,cdkess00,Kessler K6 Scale,-9.0,Refusal
+797219,MCS,mcs3_parent_derived,cdkess00,Kessler K6 Scale,-8.0,Don't Know
+797220,MCS,mcs3_parent_derived,cdkess00,Kessler K6 Scale,-1.0,Not applicable
+797221,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,1.0,Christian
+797222,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,2.0,Muslim
+797223,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,3.0,Hindu
+797224,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,4.0,Sikh
+797225,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,5.0,Jewish
+797226,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,6.0,Buddhist
+797227,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,7.0,Other
+797228,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,8.0,None
+797229,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,-9.0,Refusal
+797230,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,-8.0,Don't know
+797231,MCS,mcs3_parent_derived,cddrlg00,DV Respondent: Religion - 7 category,-1.0,Not applicable
+797232,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,-8.0,Don't know
+797233,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,-1.0,Not applicable
+797234,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,1.0,Employed
+797235,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,2.0,Self employed
+797236,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,3.0,Looking for work
+797237,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,4.0,Poor health
+797238,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,5.0,"New Deal, apprenticeship"
+797239,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,6.0,Student
+797240,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,7.0,Looking after the family
+797241,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,8.0,Waiting for a job to start
+797242,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,9.0,Non-working for other reason
+797243,MCS,mcs3_parent_derived,cddact00,DV Respondents Economic Activity Status,10.0,Retired
+797244,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),-8.0,Don't know
+797245,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),-1.0,Not applicable
+797246,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),1.0,Large emp
+797247,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),2.0,Hi manag
+797248,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),3.1,Hi prof trad
+797249,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),3.2,Hi prof new
+797250,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),3.3,Hi prof trad s-emp
+797251,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),3.4,Hi prof new s-emp
+797252,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),4.1,Lo prof trad
+797253,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),4.2,Lo prof new
+797254,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),4.3,Lo prof trad s-emp
+797255,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),4.4,Lo prof new s-emp
+797256,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),5.0,Lower managers
+797257,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),6.0,Hi supervisory
+797258,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),7.1,Intermed clerical
+797259,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),7.2,Intermed service
+797260,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),7.3,Intermed techncl
+797261,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),7.4,Intermed engineerng
+797262,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),8.1,Small emp indust'
+797263,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),8.2,Sm emp agric
+797264,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),9.1,S-emp non profl
+797265,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),9.2,S-emp agric
+797266,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),10.0,Lower supervisors
+797267,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),11.1,Lo tech craft
+797268,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),11.2,Lo tech operative
+797269,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),12.1,Semi-rou sales
+797270,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),12.2,Semi-rou service
+797271,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),12.3,Semi-rou techncl
+797272,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),12.4,Semi-rou operative
+797273,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),12.5,Semi-rou gric
+797274,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),12.6,Semi-rou clerical
+797275,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),12.7,Semi-rou childcare
+797276,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),13.1,Routine sales
+797277,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),13.2,Routine productn
+797278,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),13.3,Routine tech
+797279,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),13.4,Routine operative
+797280,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),13.5,Routine agric
+797281,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),14.1,Never worked
+797282,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),14.2,L-tunemp
+797283,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),15.0,F-t students
+797284,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),16.0,"Not stated, inad desc"
+797285,MCS,mcs3_parent_derived,cdd17s00,DV NS-SEC full version (current job),17.0,Unclassif other
+797286,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),-8.0,Don't know
+797287,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),-1.0,Not applicable
+797288,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),1.0,Large emp
+797289,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),2.0,Hi manag
+797290,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),3.0,Higher prof
+797291,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),4.0,Lo prof/hi tech
+797292,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),5.0,Lower managers
+797293,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),6.0,Hi supervisory
+797294,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),7.0,Intermediate
+797295,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),8.0,Small employers
+797296,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),9.0,Self-emp non profl
+797297,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),10.0,Lower supervisors
+797298,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),11.0,Lower technical
+797299,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),12.0,Semi-routine
+797300,MCS,mcs3_parent_derived,cdd13s00,DV NS-SEC major categories (current job),13.0,Routine
+797301,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),-8.0,Don't know
+797302,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),-1.0,Not applicable
+797303,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),1.0,Hi manag/prof
+797304,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),2.0,Lo manag/prof
+797305,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),3.0,Intermediate
+797306,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),4.0,Small emp and s-emp
+797307,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),5.0,Low sup and tech
+797308,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),6.0,Semi routine
+797309,MCS,mcs3_parent_derived,cdd07s00,DV NS-SEC 7 classes (current job),7.0,Routine
+797310,MCS,mcs3_parent_derived,cdd05s00,DV NS-SEC 5 classes (current job),-8.0,Don't know
+797311,MCS,mcs3_parent_derived,cdd05s00,DV NS-SEC 5 classes (current job),-1.0,Not applicable
+797312,MCS,mcs3_parent_derived,cdd05s00,DV NS-SEC 5 classes (current job),1.0,Manag and profl
+797313,MCS,mcs3_parent_derived,cdd05s00,DV NS-SEC 5 classes (current job),2.0,Intermediate
+797314,MCS,mcs3_parent_derived,cdd05s00,DV NS-SEC 5 classes (current job),3.0,Sm emp and s-emp
+797315,MCS,mcs3_parent_derived,cdd05s00,DV NS-SEC 5 classes (current job),4.0,Lo sup and tech
+797316,MCS,mcs3_parent_derived,cdd05s00,DV NS-SEC 5 classes (current job),5.0,Semi-rou and routine
+797317,MCS,mcs3_parent_derived,cnetinc,DV Net Income (NETA/USLA),,
+797318,MCS,mcs3_parent_derived,cgrosinc,DV Gross Income (GROP),,
+797319,MCS,mcs3_parent_derived,csempinc,DV Self Employed Income (SEPA),,
+797320,MCS,mcs3_parent_derived,cojinc,DV Other Jobs Income (EASE),,
+797321,MCS,mcs3_parent_derived,cbeninc,DV Total Income from Benefits (BENA),,
+797322,MCS,mcs3_parent_derived,cbeninca,DV Income from Benefit 1 (BENA),,
+797323,MCS,mcs3_parent_derived,cbenincb,DV Income from Benefit 2 (BENA),,
+797324,MCS,mcs3_parent_derived,cbenincc,DV Income from Benefit 3 (BENA),,
+797325,MCS,mcs3_parent_derived,cbenincd,DV Income from Benefit 4 (BENA),,
+797326,MCS,mcs3_parent_derived,cbenince,DV Income from Benefit 5 (BENA),,
+797327,MCS,mcs3_parent_derived,cbenincf,DV Income from Benefit 6 (BENA),,
+797328,MCS,mcs3_parent_derived,cbenincg,DV Income from Benefit 7 (BENA),,
+797329,MCS,mcs3_parent_derived,cbeninch,DV Income from Benefit 8 (BENA),,
+797330,MCS,mcs3_parent_derived,cbeninci,DV Income from Benefit 9 (BENA),,
+797331,MCS,mcs3_parent_derived,cbenincj,DV Income from Benefit 10 (BENA),,
+797332,MCS,mcs3_parent_derived,cbeninck,DV Income from Benefit 11 (BENA),,
+797333,MCS,mcs3_parent_derived,cbenincl,DV Income from Benefit 12 (BENA),,
+797334,MCS,mcs3_parent_derived,cbenincm,DV Income from Benefit 13 (BENA),,
+797335,MCS,mcs3_parent_derived,cbenincn,DV Income from Benefit 14 (BENA),,
+797336,MCS,mcs3_parent_derived,cbeninco,DV Income from Benefit 15 (BENA),,
+797337,MCS,mcs3_parent_derived,cbenincp,DV Income from Benefit 16 (BENA),,
+797338,MCS,mcs3_parent_derived,cbenincq,DV Income from Benefit 17 (BENA),,
+797339,MCS,mcs3_parent_derived,cbenincr,DV Income from Benefit 18 (BENA),,
+797340,MCS,mcs3_parent_derived,cbenincs,DV Income from Benefit 19 (BENA),,
+797341,MCS,mcs3_parent_derived,cbeninct,DV Income from Benefit 20 (BENA),,
+797342,MCS,mcs3_parent_derived,cbenincu,DV Income from Benefit 21 (BENA),,
+797343,MCS,mcs3_parent_derived,cbenincv,DV Income from Benefit 22 (BENA),,
+797344,MCS,mcs3_parent_derived,csupinc,DV Income from Child Support Payments (MANA),,
+797345,MCS,mcs3_parent_derived,coreginc,DV Other regular Income (REGA),,
+797346,MCS,mcs3_parent_derived,cnetincf,DV Net Income (NETA/USLA) BRACKETS USED,0.0,No
+797347,MCS,mcs3_parent_derived,cnetincf,DV Net Income (NETA/USLA) BRACKETS USED,1.0,Yes
+797348,MCS,mcs3_parent_derived,cnetincf,DV Net Income (NETA/USLA) BRACKETS USED,2.0,"No, incomplete bracket"
+797349,MCS,mcs3_parent_derived,cgrosincf,DV Gross Income (GROP) BRACKETS USED,0.0,No
+797350,MCS,mcs3_parent_derived,cgrosincf,DV Gross Income (GROP) BRACKETS USED,1.0,Yes
+797351,MCS,mcs3_parent_derived,cgrosincf,DV Gross Income (GROP) BRACKETS USED,2.0,"No, incomplete bracket"
+797352,MCS,mcs3_parent_derived,csempincf,DV Self Employed Income (SEPA) BRACKETS USED,0.0,No
+797353,MCS,mcs3_parent_derived,csempincf,DV Self Employed Income (SEPA) BRACKETS USED,1.0,Yes
+797354,MCS,mcs3_parent_derived,csempincf,DV Self Employed Income (SEPA) BRACKETS USED,2.0,"No, incomplete bracket"
+797355,MCS,mcs3_parent_derived,cojincf,DV Other Jobs Income (EASE) BRACKETS USED,0.0,No
+797356,MCS,mcs3_parent_derived,cojincf,DV Other Jobs Income (EASE) BRACKETS USED,1.0,Yes
+797357,MCS,mcs3_parent_derived,cojincf,DV Other Jobs Income (EASE) BRACKETS USED,2.0,"No, incomplete bracket"
+797358,MCS,mcs3_parent_derived,cbenincft,DV Total Income from Benefits (BENA) BRACKETS USED,0.0,No
+797359,MCS,mcs3_parent_derived,cbenincft,DV Total Income from Benefits (BENA) BRACKETS USED,1.0,Yes
+797360,MCS,mcs3_parent_derived,cbenincft,DV Total Income from Benefits (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797361,MCS,mcs3_parent_derived,cbenincaf,DV Income from Benefit 1 (BENA) BRACKETS USED,0.0,No
+797362,MCS,mcs3_parent_derived,cbenincaf,DV Income from Benefit 1 (BENA) BRACKETS USED,1.0,Yes
+797363,MCS,mcs3_parent_derived,cbenincaf,DV Income from Benefit 1 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797364,MCS,mcs3_parent_derived,cbenincbf,DV Income from Benefit 2 (BENA) BRACKETS USED,0.0,No
+797365,MCS,mcs3_parent_derived,cbenincbf,DV Income from Benefit 2 (BENA) BRACKETS USED,1.0,Yes
+797366,MCS,mcs3_parent_derived,cbenincbf,DV Income from Benefit 2 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797367,MCS,mcs3_parent_derived,cbeninccf,DV Income from Benefit 3 (BENA) BRACKETS USED,0.0,No
+797368,MCS,mcs3_parent_derived,cbeninccf,DV Income from Benefit 3 (BENA) BRACKETS USED,1.0,Yes
+797369,MCS,mcs3_parent_derived,cbeninccf,DV Income from Benefit 3 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797370,MCS,mcs3_parent_derived,cbenincdf,DV Income from Benefit 4 (BENA) BRACKETS USED,0.0,No
+797371,MCS,mcs3_parent_derived,cbenincdf,DV Income from Benefit 4 (BENA) BRACKETS USED,1.0,Yes
+797372,MCS,mcs3_parent_derived,cbenincdf,DV Income from Benefit 4 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797373,MCS,mcs3_parent_derived,cbenincef,DV Income from Benefit 5 (BENA) BRACKETS USED,0.0,No
+797374,MCS,mcs3_parent_derived,cbenincef,DV Income from Benefit 5 (BENA) BRACKETS USED,1.0,Yes
+797375,MCS,mcs3_parent_derived,cbenincef,DV Income from Benefit 5 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797376,MCS,mcs3_parent_derived,cbenincff,DV Income from Benefit 6 (BENA) BRACKETS USED,0.0,No
+797377,MCS,mcs3_parent_derived,cbenincff,DV Income from Benefit 6 (BENA) BRACKETS USED,1.0,Yes
+797378,MCS,mcs3_parent_derived,cbenincff,DV Income from Benefit 6 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797379,MCS,mcs3_parent_derived,cbenincgf,DV Income from Benefit 7 (BENA) BRACKETS USED,0.0,No
+797380,MCS,mcs3_parent_derived,cbenincgf,DV Income from Benefit 7 (BENA) BRACKETS USED,1.0,Yes
+797381,MCS,mcs3_parent_derived,cbenincgf,DV Income from Benefit 7 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797382,MCS,mcs3_parent_derived,cbeninchf,DV Income from Benefit 8 (BENA) BRACKETS USED,0.0,No
+797383,MCS,mcs3_parent_derived,cbeninchf,DV Income from Benefit 8 (BENA) BRACKETS USED,1.0,Yes
+797384,MCS,mcs3_parent_derived,cbeninchf,DV Income from Benefit 8 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797385,MCS,mcs3_parent_derived,cbenincif,DV Income from Benefit 9 (BENA) BRACKETS USED,0.0,No
+797386,MCS,mcs3_parent_derived,cbenincif,DV Income from Benefit 9 (BENA) BRACKETS USED,1.0,Yes
+797387,MCS,mcs3_parent_derived,cbenincif,DV Income from Benefit 9 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797388,MCS,mcs3_parent_derived,cbenincjf,DV Income from Benefit 10 (BENA) BRACKETS USED,0.0,No
+797389,MCS,mcs3_parent_derived,cbenincjf,DV Income from Benefit 10 (BENA) BRACKETS USED,1.0,Yes
+797390,MCS,mcs3_parent_derived,cbenincjf,DV Income from Benefit 10 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797391,MCS,mcs3_parent_derived,cbeninckf,DV Income from Benefit 11 (BENA) BRACKETS USED,0.0,No
+797392,MCS,mcs3_parent_derived,cbeninckf,DV Income from Benefit 11 (BENA) BRACKETS USED,1.0,Yes
+797393,MCS,mcs3_parent_derived,cbeninckf,DV Income from Benefit 11 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797394,MCS,mcs3_parent_derived,cbeninclf,DV Income from Benefit 12 (BENA) BRACKETS USED,0.0,No
+797395,MCS,mcs3_parent_derived,cbeninclf,DV Income from Benefit 12 (BENA) BRACKETS USED,1.0,Yes
+797396,MCS,mcs3_parent_derived,cbeninclf,DV Income from Benefit 12 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797397,MCS,mcs3_parent_derived,cbenincmf,DV Income from Benefit 13 (BENA) BRACKETS USED,0.0,No
+797398,MCS,mcs3_parent_derived,cbenincmf,DV Income from Benefit 13 (BENA) BRACKETS USED,1.0,Yes
+797399,MCS,mcs3_parent_derived,cbenincmf,DV Income from Benefit 13 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797400,MCS,mcs3_parent_derived,cbenincnf,DV Income from Benefit 14 (BENA) BRACKETS USED,0.0,No
+797401,MCS,mcs3_parent_derived,cbenincnf,DV Income from Benefit 14 (BENA) BRACKETS USED,1.0,Yes
+797402,MCS,mcs3_parent_derived,cbenincnf,DV Income from Benefit 14 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797403,MCS,mcs3_parent_derived,cbenincof,DV Income from Benefit 15 (BENA) BRACKETS USED,0.0,No
+797404,MCS,mcs3_parent_derived,cbenincof,DV Income from Benefit 15 (BENA) BRACKETS USED,1.0,Yes
+797405,MCS,mcs3_parent_derived,cbenincof,DV Income from Benefit 15 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797406,MCS,mcs3_parent_derived,cbenincpf,DV Income from Benefit 16 (BENA) BRACKETS USED,0.0,No
+797407,MCS,mcs3_parent_derived,cbenincpf,DV Income from Benefit 16 (BENA) BRACKETS USED,1.0,Yes
+797408,MCS,mcs3_parent_derived,cbenincpf,DV Income from Benefit 16 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797409,MCS,mcs3_parent_derived,cbenincqf,DV Income from Benefit 17 (BENA) BRACKETS USED,0.0,No
+797410,MCS,mcs3_parent_derived,cbenincqf,DV Income from Benefit 17 (BENA) BRACKETS USED,1.0,Yes
+797411,MCS,mcs3_parent_derived,cbenincqf,DV Income from Benefit 17 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797412,MCS,mcs3_parent_derived,cbenincrf,DV Income from Benefit 18 (BENA) BRACKETS USED,0.0,No
+797413,MCS,mcs3_parent_derived,cbenincrf,DV Income from Benefit 18 (BENA) BRACKETS USED,1.0,Yes
+797414,MCS,mcs3_parent_derived,cbenincrf,DV Income from Benefit 18 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797415,MCS,mcs3_parent_derived,cbenincsf,DV Income from Benefit 19 (BENA) BRACKETS USED,0.0,No
+797416,MCS,mcs3_parent_derived,cbenincsf,DV Income from Benefit 19 (BENA) BRACKETS USED,1.0,Yes
+797417,MCS,mcs3_parent_derived,cbenincsf,DV Income from Benefit 19 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797418,MCS,mcs3_parent_derived,cbeninctf,DV Income from Benefit 20 (BENA) BRACKETS USED,0.0,No
+797419,MCS,mcs3_parent_derived,cbeninctf,DV Income from Benefit 20 (BENA) BRACKETS USED,1.0,Yes
+797420,MCS,mcs3_parent_derived,cbeninctf,DV Income from Benefit 20 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797421,MCS,mcs3_parent_derived,cbenincuf,DV Income from Benefit 21 (BENA) BRACKETS USED,0.0,No
+797422,MCS,mcs3_parent_derived,cbenincuf,DV Income from Benefit 21 (BENA) BRACKETS USED,1.0,Yes
+797423,MCS,mcs3_parent_derived,cbenincuf,DV Income from Benefit 21 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797424,MCS,mcs3_parent_derived,cbenincvf,DV Income from Benefit 22 (BENA) BRACKETS USED,0.0,No
+797425,MCS,mcs3_parent_derived,cbenincvf,DV Income from Benefit 22 (BENA) BRACKETS USED,1.0,Yes
+797426,MCS,mcs3_parent_derived,cbenincvf,DV Income from Benefit 22 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+797427,MCS,mcs3_parent_derived,ccsupincf,DV Income from Child Support Payments (MANA) BRACKETS USED,0.0,No
+797428,MCS,mcs3_parent_derived,ccsupincf,DV Income from Child Support Payments (MANA) BRACKETS USED,1.0,Yes
+797429,MCS,mcs3_parent_derived,ccsupincf,DV Income from Child Support Payments (MANA) BRACKETS USED,2.0,"No, incomplete bracket"
+797430,MCS,mcs3_parent_derived,coregincf,DV Other regular Income (REGA) BRACKETS USED,0.0,No
+797431,MCS,mcs3_parent_derived,coregincf,DV Other regular Income (REGA) BRACKETS USED,1.0,Yes
+797432,MCS,mcs3_parent_derived,coregincf,DV Other regular Income (REGA) BRACKETS USED,2.0,"No, incomplete bracket"
+797433,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),4.1,Lo prof trad
+797434,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),4.2,Lo prof new
+797435,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),4.3,Lo prof trad s-emp
+797436,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),4.4,Lo prof new s-emp
+797437,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),5.0,Lower managers
+797438,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),6.0,Hi supervisory
+797439,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),7.1,Intermed clerical
+797440,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),7.2,Intermed service
+797441,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),7.3,Intermed techncl
+797442,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),7.4,Intermed engineerng
+797443,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),8.1,Small emp indust'
+797444,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),8.2,Sm emp agric
+797445,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),9.1,S-emp non profl
+797446,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),9.2,S-emp agric
+797447,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),10.0,Lower supervisors
+797448,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),11.1,Lo tech craft
+797449,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),11.2,Lo tech operative
+797450,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),12.1,Semi-rou sales
+797451,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),12.2,Semi-rou service
+797452,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),12.3,Semi-rou techncl
+797453,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),12.4,Semi-rou operative
+797454,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),12.5,Semi-rou gric
+797455,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),12.6,Semi-rou clerical
+797456,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),12.7,Semi-rou childcare
+797457,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),13.1,Routine sales
+797458,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),13.2,Routine productn
+797459,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),13.3,Routine tech
+797460,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),13.4,Routine operative
+797461,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),13.5,Routine agric
+797462,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),14.1,Never worked
+797463,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),14.2,L-tunemp
+797464,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),15.0,F-t students
+797465,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),16.0,"Not stated, inad desc"
+797466,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),17.0,Unclassif other
+797467,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),-8.0,Don't know
+797468,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),-1.0,Not applicable
+797469,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),1.0,Large emp
+797470,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),2.0,Hi manag
+797471,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),3.1,Hi prof trad
+797472,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),3.2,Hi prof new
+797473,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),3.3,Hi prof trad s-emp
+797474,MCS,mcs3_parent_derived,cdd17c00,DV NS-SEC full version (last known job),3.4,Hi prof new s-emp
+797475,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),-8.0,Don't know
+797476,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),-1.0,Not applicable
+797477,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),1.0,Large emp
+797478,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),2.0,Hi manag
+797479,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),3.0,Higher prof
+797480,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),4.0,Lo prof/hi tech
+797481,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),5.0,Lower managers
+797482,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),6.0,Hi supervisory
+797483,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),7.0,Intermediate
+797484,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),8.0,Small employers
+797485,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),9.0,Self-emp non profl
+797486,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),10.0,Lower supervisors
+797487,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),11.0,Lower technical
+797488,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),12.0,Semi-routine
+797489,MCS,mcs3_parent_derived,cdd13c00,DV NS-SEC major categories (last known job),13.0,Routine
+797490,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),-8.0,Don't know
+797491,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),-1.0,Not applicable
+797492,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),1.0,Hi manag/prof
+797493,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),2.0,Lo manag/prof
+797494,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),3.0,Intermediate
+797495,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),4.0,Small emp and s-emp
+797496,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),5.0,Low sup and tech
+797497,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),6.0,Semi routine
+797498,MCS,mcs3_parent_derived,cdd07c00,DV NS-SEC 7 classes (last known job),7.0,Routine
+797499,MCS,mcs3_parent_derived,cdd05c00,DV NS-SEC 5 classes (last known job),-8.0,Don't know
+797500,MCS,mcs3_parent_derived,cdd05c00,DV NS-SEC 5 classes (last known job),-1.0,Not applicable
+797501,MCS,mcs3_parent_derived,cdd05c00,DV NS-SEC 5 classes (last known job),1.0,Manag and profl
+797502,MCS,mcs3_parent_derived,cdd05c00,DV NS-SEC 5 classes (last known job),2.0,Intermediate
+797503,MCS,mcs3_parent_derived,cdd05c00,DV NS-SEC 5 classes (last known job),3.0,Sm emp and s-emp
+797504,MCS,mcs3_parent_derived,cdd05c00,DV NS-SEC 5 classes (last known job),4.0,Lo sup and tech
+797505,MCS,mcs3_parent_derived,cdd05c00,DV NS-SEC 5 classes (last known job),5.0,Semi-rou and routine
+797506,MCS,mcs3_parent_derived,cdtran00,S3 Was Interview translated,-9.0,Refusal
+797507,MCS,mcs3_parent_derived,cdtran00,S3 Was Interview translated,-8.0,Don't Know
+797508,MCS,mcs3_parent_derived,cdtran00,S3 Was Interview translated,-1.0,Not applicable
+797509,MCS,mcs3_parent_derived,cdtran00,S3 Was Interview translated,1.0,"Yes, Main interview"
+797510,MCS,mcs3_parent_derived,cdtran00,S3 Was Interview translated,2.0,"Yes, Partner interview"
+797511,MCS,mcs3_parent_derived,cdtran00,S3 Was Interview translated,3.0,"Yes, BOTH Main and Partner interviews"
+797512,MCS,mcs3_parent_derived,cdtran00,S3 Was Interview translated,4.0,No
+797513,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,-9.0,Refusal
+797514,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,-8.0,Don't Know
+797515,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,-1.0,Not applicable
+797516,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,1.0,Respondent s husband/ wife/ partner
+797517,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,2.0,Female adult household member
+797518,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,3.0,Male adult household member
+797519,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,4.0,Female child in household
+797520,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,5.0,Male child in household
+797521,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,6.0,Female non-household member
+797522,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,7.0,Male non-household member
+797523,MCS,mcs3_parent_derived,cdptra00,S3 Who translated the interview,8.0,Interviewer
+797524,MCS,mcs3_parent_derived,cdacaq00,NVQ equivalent of highest Academic qualification across MCS1 to MCS3,-1.0,Not applicable
+797525,MCS,mcs3_parent_derived,avail_from_dt,,,
+797526,MCS,mcs3_parent_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

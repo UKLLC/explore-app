@@ -1,0 +1,147 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+883823,MCS,mcs_longitudinal_family_file,nocmhh,Number of cohort children in household at entry to survey,,
+883824,MCS,mcs_longitudinal_family_file,sentry,Sweep in which Family entered study,-1.0,Not applicable
+883825,MCS,mcs_longitudinal_family_file,sentry,Sweep in which Family entered study,1.0,Sweep 1
+883826,MCS,mcs_longitudinal_family_file,sentry,Sweep in which Family entered study,2.0,Sweep 2
+883827,MCS,mcs_longitudinal_family_file,country,Country as at MCS sampling,-1.0,Not applicable
+883828,MCS,mcs_longitudinal_family_file,country,Country as at MCS sampling,1.0,England
+883829,MCS,mcs_longitudinal_family_file,country,Country as at MCS sampling,2.0,Wales
+883830,MCS,mcs_longitudinal_family_file,country,Country as at MCS sampling,3.0,Scotland
+883831,MCS,mcs_longitudinal_family_file,country,Country as at MCS sampling,4.0,NI
+883832,MCS,mcs_longitudinal_family_file,ptty00,Point type,-1.0,Not applicable
+883833,MCS,mcs_longitudinal_family_file,ptty00,Point type,1.0,Advantaged
+883834,MCS,mcs_longitudinal_family_file,ptty00,Point type,2.0,Disadvantaged
+883835,MCS,mcs_longitudinal_family_file,ptty00,Point type,3.0,Ethnic
+883836,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,-1.0,Not applicable
+883837,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,1.0,England - Advantaged
+883838,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,2.0,England - Disadvantaged
+883839,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,3.0,England - Ethnic
+883840,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,4.0,Wales - Advantaged
+883841,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,5.0,Wales - Disadvantaged
+883842,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,6.0,Scotland - Advantaged
+883843,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,7.0,Scotland - Disadvantaged
+883844,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,8.0,Northern Ireland - Advantaged
+883845,MCS,mcs_longitudinal_family_file,pttype2,Stratum within Country,9.0,Northern Ireland - Disadvantaged
+883846,MCS,mcs_longitudinal_family_file,sptn00,Fieldwork point number incorporating superwards (updated),,
+883847,MCS,mcs_longitudinal_family_file,nh2,Population Correction Factor (for use in Stata),,
+883848,MCS,mcs_longitudinal_family_file,weight1,MCS Weight for use on single country analyses,,
+883849,MCS,mcs_longitudinal_family_file,weight2,MCS Weight to use on whole UK analyses,,
+883850,MCS,mcs_longitudinal_family_file,weightgb,Overall weight for use on GB analysis,,
+883851,MCS,mcs_longitudinal_family_file,aissued,Family Issued at MCS1,-1.0,Not applicable
+883852,MCS,mcs_longitudinal_family_file,aissued,Family Issued at MCS1,0.0,No
+883853,MCS,mcs_longitudinal_family_file,aissued,Family Issued at MCS1,1.0,Yes
+883854,MCS,mcs_longitudinal_family_file,aaoutc00,S1:Outcome Code,-1.0,Not applicable
+883855,MCS,mcs_longitudinal_family_file,aaoutc00,S1:Outcome Code,0.0,Not Issued
+883856,MCS,mcs_longitudinal_family_file,aaoutc00,S1:Outcome Code,1.0,Not productive
+883857,MCS,mcs_longitudinal_family_file,aaoutc00,S1:Outcome Code,2.0,Productive
+883858,MCS,mcs_longitudinal_family_file,aovwt1,S1:Overall Weight (inc NR adjustment) single country analysis,-1.0,Not applicable
+883859,MCS,mcs_longitudinal_family_file,aovwt2,S1:Overall Weight (inc NR adjustment) whole UK analyses,-1.0,Not applicable
+883860,MCS,mcs_longitudinal_family_file,bissued,Family Issued at MCS2,-1.0,Not applicable
+883861,MCS,mcs_longitudinal_family_file,bissued,Family Issued at MCS2,0.0,No
+883862,MCS,mcs_longitudinal_family_file,bissued,Family Issued at MCS2,1.0,Yes
+883863,MCS,mcs_longitudinal_family_file,baoutc00,S2:Outcome Code,-1.0,Not applicable
+883864,MCS,mcs_longitudinal_family_file,baoutc00,S2:Outcome Code,1.0,Productive
+883865,MCS,mcs_longitudinal_family_file,baoutc00,S2:Outcome Code,2.0,Ineligible
+883866,MCS,mcs_longitudinal_family_file,baoutc00,S2:Outcome Code,3.0,Unclass. El. Untraced. Movers
+883867,MCS,mcs_longitudinal_family_file,baoutc00,S2:Outcome Code,4.0,Refusal
+883868,MCS,mcs_longitudinal_family_file,baoutc00,S2:Outcome Code,5.0,Non-Contact
+883869,MCS,mcs_longitudinal_family_file,baoutc00,S2:Outcome Code,6.0,Other
+883870,MCS,mcs_longitudinal_family_file,bovwt1,S2:Overall Weight (inc NR adjustment) single country analysis,-1.0,Not applicable
+883871,MCS,mcs_longitudinal_family_file,bovwt2,S2:Overall Weight (inc NR adjustment) whole uk analyses,-1.0,Not applicable
+883872,MCS,mcs_longitudinal_family_file,bnrespwt,S2:Non-Reponse Weight,-2.0,Not Present at MCS1
+883873,MCS,mcs_longitudinal_family_file,bnrespwt,S2:Non-Reponse Weight,-1.0,Not applicable
+883874,MCS,mcs_longitudinal_family_file,bovwtgb,S2: Overall weight for use on GB analysis,,
+883875,MCS,mcs_longitudinal_family_file,cissued,Family Issued at MCS3,-1.0,Not applicable
+883876,MCS,mcs_longitudinal_family_file,cissued,Family Issued at MCS3,0.0,No
+883877,MCS,mcs_longitudinal_family_file,cissued,Family Issued at MCS3,1.0,Yes
+883878,MCS,mcs_longitudinal_family_file,caoutc00,S3:Outcome Code,-1.0,Not applicable
+883879,MCS,mcs_longitudinal_family_file,caoutc00,S3:Outcome Code,1.0,Productive
+883880,MCS,mcs_longitudinal_family_file,caoutc00,S3:Outcome Code,2.0,Refusal
+883881,MCS,mcs_longitudinal_family_file,caoutc00,S3:Outcome Code,3.0,Other unproductive
+883882,MCS,mcs_longitudinal_family_file,caoutc00,S3:Outcome Code,4.0,Ineligible
+883883,MCS,mcs_longitudinal_family_file,caoutc00,S3:Outcome Code,5.0,Untraced
+883884,MCS,mcs_longitudinal_family_file,caoutc00,S3:Outcome Code,6.0,No contact
+883885,MCS,mcs_longitudinal_family_file,covwt1,S3:Overall Weight (inc NR adjustment) single country analysis,-1.0,Not applicable
+883886,MCS,mcs_longitudinal_family_file,covwt2,S3:Overall Weight (inc NR adjustment) whole uk analyses,-1.0,Not applicable
+883887,MCS,mcs_longitudinal_family_file,covwtgb,S3: Overall weight for use on GB analysis,,
+883888,MCS,mcs_longitudinal_family_file,dissued,Family Issued at MCS4,-1.0,Not applicable
+883889,MCS,mcs_longitudinal_family_file,dissued,Family Issued at MCS4,0.0,No
+883890,MCS,mcs_longitudinal_family_file,dissued,Family Issued at MCS4,1.0,Yes
+883891,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,-1.0,Not applicable
+883892,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,0.0,Not Issued
+883893,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,1.0,Productive
+883894,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,2.0,Refusal
+883895,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,3.0,Other unproductive
+883896,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,4.0,Ineligible
+883897,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,5.0,Untraced
+883898,MCS,mcs_longitudinal_family_file,daoutc00,S4:Outcome Code,6.0,No contact
+883899,MCS,mcs_longitudinal_family_file,dovwt1,S4:Overall Weight (inc NR adjustment) single country analysis,-1.0,Not applicable
+883900,MCS,mcs_longitudinal_family_file,dovwt2,S4:Overall Weight (inc NR adjustment) whole uk analyses,-1.0,Not applicable
+883901,MCS,mcs_longitudinal_family_file,dovwtgb,S4: Overall weight for use on GB analysis,,
+883902,MCS,mcs_longitudinal_family_file,eissued,Family Issued at MCS5,-1.0,Not applicable
+883903,MCS,mcs_longitudinal_family_file,eissued,Family Issued at MCS5,0.0,No
+883904,MCS,mcs_longitudinal_family_file,eissued,Family Issued at MCS5,1.0,Yes
+883905,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,-1.0,Not applicable
+883906,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,0.0,Not Issued
+883907,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,1.0,Productive
+883908,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,2.0,Refusal
+883909,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,3.0,Other unproductive
+883910,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,4.0,Ineligible
+883911,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,5.0,Untraced
+883912,MCS,mcs_longitudinal_family_file,eaoutc00,S5:Outcome Code,6.0,No contact
+883913,MCS,mcs_longitudinal_family_file,eovwt1,S5: Overall Weight (inc NR adjustment) single country analyses,-1.0,Not applicable
+883914,MCS,mcs_longitudinal_family_file,eovwt2,S5: Overall Weight (inc NR adjustment) whole uk analyses,-1.0,Not applicable
+883915,MCS,mcs_longitudinal_family_file,enrespwt,S5: Non-Reponse Weight,-1.0,Not applicable
+883916,MCS,mcs_longitudinal_family_file,fissued,Family issued at MCS6,-1.0,Not applicable
+883917,MCS,mcs_longitudinal_family_file,fissued,Family issued at MCS6,0.0,No
+883918,MCS,mcs_longitudinal_family_file,fissued,Family issued at MCS6,1.0,Yes
+883919,MCS,mcs_longitudinal_family_file,faoutc00,S6:Outcome Code (6 category),-1.0,Not applicable
+883920,MCS,mcs_longitudinal_family_file,faoutc00,S6:Outcome Code (6 category),1.0,Productive
+883921,MCS,mcs_longitudinal_family_file,faoutc00,S6:Outcome Code (6 category),2.0,Refusal
+883922,MCS,mcs_longitudinal_family_file,faoutc00,S6:Outcome Code (6 category),3.0,Other unproductive
+883923,MCS,mcs_longitudinal_family_file,faoutc00,S6:Outcome Code (6 category),4.0,Ineligible
+883924,MCS,mcs_longitudinal_family_file,faoutc00,S6:Outcome Code (6 category),5.0,Untraced
+883925,MCS,mcs_longitudinal_family_file,faoutc00,S6:Outcome Code (6 category),6.0,No contact
+883926,MCS,mcs_longitudinal_family_file,fnrespwt,MCS6 Non-Response Weight,-1.0,Not applicable
+883927,MCS,mcs_longitudinal_family_file,fovwt1,S6: Overall Weight (inc NR adjustment) single country analyses,-1.0,Not applicable
+883928,MCS,mcs_longitudinal_family_file,fovwt2,S6: Overall Weight (inc NR adjustment) whole uk analyses,-1.0,Not applicable
+883929,MCS,mcs_longitudinal_family_file,gissued,Family issued at MCS7 (for Core sample),0.0,No
+883930,MCS,mcs_longitudinal_family_file,gissued,Family issued at MCS7 (for Core sample),1.0,Yes
+883931,MCS,mcs_longitudinal_family_file,gaoutc00,S7:Outcome Code (6 category) (for Core sample),-1.0,Not applicable / Not issued
+883932,MCS,mcs_longitudinal_family_file,gaoutc00,S7:Outcome Code (6 category) (for Core sample),1.0,Productive
+883933,MCS,mcs_longitudinal_family_file,gaoutc00,S7:Outcome Code (6 category) (for Core sample),2.0,Refusal
+883934,MCS,mcs_longitudinal_family_file,gaoutc00,S7:Outcome Code (6 category) (for Core sample),3.0,Other unproductive
+883935,MCS,mcs_longitudinal_family_file,gaoutc00,S7:Outcome Code (6 category) (for Core sample),4.0,Ineligible
+883936,MCS,mcs_longitudinal_family_file,gaoutc00,S7:Outcome Code (6 category) (for Core sample),5.0,Untraced
+883937,MCS,mcs_longitudinal_family_file,gaoutc00,S7:Outcome Code (6 category) (for Core sample),6.0,No contact
+883938,MCS,mcs_longitudinal_family_file,gnrespwt,S7: Non-Response Weight (for Core sample),-1.0,Not applicable
+883939,MCS,mcs_longitudinal_family_file,govwt1,S7: Overall Weight (inc NR adjustment) single country analyses (for Core sample),-1.0,Not applicable
+883940,MCS,mcs_longitudinal_family_file,govwt2,S7: Overall Weight (inc NR adjustment) whole uk analyses (for Core sample),-1.0,Not applicable
+883941,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,0.0,Not a dual baby family
+883942,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,1.1,"Family 1, Baby 1"
+883943,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,1.2,"Family 1, Baby 2"
+883944,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,2.1,"Family 2, Baby 1"
+883945,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,2.2,"Family 2, Baby 2"
+883946,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,3.1,"Family 3, Baby 1"
+883947,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,3.2,"Family 3, Baby 2"
+883948,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,4.1,"Family 4, Baby 1"
+883949,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,4.2,"Family 4, Baby 2"
+883950,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,5.1,"Family 5, Baby 1"
+883951,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,5.2,"Family 5, Baby 2"
+883952,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,6.1,"Family 6, Baby 1"
+883953,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,6.2,"Family 6, Baby 2"
+883954,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,7.1,"Family 7, Baby 1"
+883955,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,7.2,"Family 7, Baby 2"
+883956,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,8.1,"Family 8, Baby 1"
+883957,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,8.2,"Family 8, Baby 2"
+883958,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,9.1,"Family 9, Baby 1"
+883959,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,9.2,"Family 9, Baby 2"
+883960,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,10.1,"Family 10, Baby 1"
+883961,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,10.2,"Family 10, Baby 2"
+883962,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,11.1,"Family 11, Baby 1"
+883963,MCS,mcs_longitudinal_family_file,dualbabyfamily,Dual baby family: two cohort members born to the same mother within the sampling period,11.2,"Family 11, Baby 2"
+883964,MCS,mcs_longitudinal_family_file,data_availability,Data available under EUL (see user guide),0.0,Under EUL
+883965,MCS,mcs_longitudinal_family_file,data_availability,Data available under EUL (see user guide),1.0,Under SA
+883966,MCS,mcs_longitudinal_family_file,data_availability,Data available under EUL (see user guide),2.0,Removed
+883967,MCS,mcs_longitudinal_family_file,avail_from_dt,,,
+883968,MCS,mcs_longitudinal_family_file,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

@@ -1,0 +1,88 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+52112,BCS70,bcs4_derived,study_id_e,,,
+52113,BCS70,bcs4_derived,bd4cntry,1986: Country of Interview,-1.0,Unknown
+52114,BCS70,bcs4_derived,bd4cntry,1986: Country of Interview,1.0,England
+52115,BCS70,bcs4_derived,bd4cntry,1986: Country of Interview,2.0,Wales
+52116,BCS70,bcs4_derived,bd4cntry,1986: Country of Interview,3.0,Scotland
+52117,BCS70,bcs4_derived,bd4cntry,1986: Country of Interview,4.0,Northern Ireland
+52118,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,-2.0,Armed Services
+52119,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,-1.0,Unknown
+52120,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,1.0,North
+52121,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,2.0,Yorks and Humberside
+52122,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,3.0,East Midlands
+52123,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,4.0,East Anglia
+52124,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,5.0,South East
+52125,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,6.0,South West
+52126,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,7.0,West Midlands
+52127,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,8.0,North West
+52128,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,9.0,Wales
+52129,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,10.0,Scotland
+52130,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,11.0,Northern Ireland
+52131,BCS70,bcs4_derived,bd4regn,1986: Standard Region of residence,12.0,Overseas
+52132,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,-1.0,Unknown
+52133,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,1.0,North East
+52134,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,2.0,North West
+52135,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,3.0,Yorkshire and Humberside
+52136,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,4.0,East Midlands
+52137,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,5.0,West Midlands
+52138,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,6.0,East of England
+52139,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,7.0,London
+52140,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,8.0,South East
+52141,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,9.0,South West
+52142,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,10.0,Wales
+52143,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,11.0,Scotland
+52144,BCS70,bcs4_derived,bd4gor,1986: Government Office Region of residence,12.0,Northern Ireland
+52145,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),-3.0,parent dead
+52146,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),-2.0,not stated
+52147,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),-1.0,no questionnaire
+52148,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),0.0,student
+52149,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),1.0,unskilled
+52150,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),2.0,partly skilled
+52151,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),3.0,skilled manual
+52152,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),4.0,skilled non-manual
+52153,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),5.0,managerial/technical
+52154,BCS70,bcs4_derived,bd4psoc,1986: Social class from fathers occup (or mothers if missing) (t11.2 + t11.9),6.0,professional
+52155,BCS70,bcs4_derived,bd4age,1986: Age of cohort member when sat assessments (from fdoc_mt fdoc_yr),-9.0,Date of Birth - Missing
+52156,BCS70,bcs4_derived,bd4age,1986: Age of cohort member when sat assessments (from fdoc_mt fdoc_yr),-8.0,Doc F Completion Date Year - Missing
+52157,BCS70,bcs4_derived,bd4age,1986: Age of cohort member when sat assessments (from fdoc_mt fdoc_yr),-7.0,Doc F Completion Date Month - Missing
+52158,BCS70,bcs4_derived,bd4age,1986: Age of cohort member when sat assessments (from fdoc_mt fdoc_yr),-1.0,Not computed
+52159,BCS70,bcs4_derived,bd4rread,1986: Raw Vocabulary Test score (cv01 to cv075),-1.0,Not computed
+52160,BCS70,bcs4_derived,bd4read,1986: Standardised Vocabulary Test score (b16read),-1.0,Not computed
+52161,BCS70,bcs4_derived,bd4rdage,1986: Estimated reading age at age 16 (derived from zb16read and average age),-1.0,Not computed
+52162,BCS70,bcs4_derived,bd4mmal,1986: (CM's parent) total Malaise score,-2.0,not stated any questions
+52163,BCS70,bcs4_derived,bd4mmal,1986: (CM's parent) total Malaise score,-1.0,Not computed
+52164,BCS70,bcs4_derived,bd4mmala,1986: (CM's parent) total Malaise score - grouped based on distribution,-2.0,not stated any questions
+52165,BCS70,bcs4_derived,bd4mmala,1986: (CM's parent) total Malaise score - grouped based on distribution,-1.0,Not computed
+52166,BCS70,bcs4_derived,bd4mmala,1986: (CM's parent) total Malaise score - grouped based on distribution,1.0,0-80th centile - normal behaviour
+52167,BCS70,bcs4_derived,bd4mmala,1986: (CM's parent) total Malaise score - grouped based on distribution,2.0,81st-95th centile-mod. behaviour probs
+52168,BCS70,bcs4_derived,bd4mmala,1986: (CM's parent) total Malaise score - grouped based on distribution,3.0,95+ centile - severe behaviour problems
+52169,BCS70,bcs4_derived,bd4mmalb,1986: (CM's parent) total Malaise score grouped ( age 16),-2.0,not stated any questions
+52170,BCS70,bcs4_derived,bd4mmalb,1986: (CM's parent) total Malaise score grouped ( age 16),-1.0,Not computed
+52171,BCS70,bcs4_derived,bd4mmalb,1986: (CM's parent) total Malaise score grouped ( age 16),1.0,0-14
+52172,BCS70,bcs4_derived,bd4mmalb,1986: (CM's parent) total Malaise score grouped ( age 16),2.0,15+
+52173,BCS70,bcs4_derived,bd4mal,1986: (CM) total Malaise score (22 questions),-2.0,not stated any questions
+52174,BCS70,bcs4_derived,bd4mal,1986: (CM) total Malaise score (22 questions),-1.0,incomplete info
+52175,BCS70,bcs4_derived,bd4malg,1986: (CM) total Malaise score (22 questions) grouped,-2.0,not stated any questions
+52176,BCS70,bcs4_derived,bd4malg,1986: (CM) total Malaise score (22 questions) grouped,-1.0,incomplete info
+52177,BCS70,bcs4_derived,bd4malg,1986: (CM) total Malaise score (22 questions) grouped,1.0,0-14
+52178,BCS70,bcs4_derived,bd4malg,1986: (CM) total Malaise score (22 questions) grouped,2.0,15+
+52179,BCS70,bcs4_derived,bd4in,1986: CM's parent gave information on at least 1 Rutter question,0.0,no info
+52180,BCS70,bcs4_derived,bd4in,1986: CM's parent gave information on at least 1 Rutter question,1.0,info at age 16
+52181,BCS70,bcs4_derived,bd4rutt,1986: (CM's parent) total Rutter behaviour score,-2.0,no questions answered
+52182,BCS70,bcs4_derived,bd4rutt,1986: (CM's parent) total Rutter behaviour score,-1.0,incomplete info
+52183,BCS70,bcs4_derived,bd4mrutg,1986: (CM's parent)  total Rutter behaviour score  - grouped,-2.0,not stated any questions
+52184,BCS70,bcs4_derived,bd4mrutg,1986: (CM's parent)  total Rutter behaviour score  - grouped,-1.0,incomplete info
+52185,BCS70,bcs4_derived,bd4mrutg,1986: (CM's parent)  total Rutter behaviour score  - grouped,1.0,0-80th centile - normal behaviour
+52186,BCS70,bcs4_derived,bd4mrutg,1986: (CM's parent)  total Rutter behaviour score  - grouped,2.0,81st-95th centile-mod. behaviour probs
+52187,BCS70,bcs4_derived,bd4mrutg,1986: (CM's parent)  total Rutter behaviour score  - grouped,3.0,95+ centile - severe behaviour problems
+52188,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,-1.0,Unknown
+52189,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,1.0,Comprehensive
+52190,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,2.0,Grammar
+52191,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,3.0,Secondary Modern/Technical
+52192,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,4.0,Independent Private
+52193,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,5.0,LEA Special
+52194,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,6.0,Independent Special
+52195,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,7.0,Other
+52196,BCS70,bcs4_derived,bd4stype,DV: School Type Age 16 (derived from STYPE,8.0,Scottish LEA
+52197,BCS70,bcs4_derived,v3,None,,
+52198,BCS70,bcs4_derived,avail_from_dt,,,

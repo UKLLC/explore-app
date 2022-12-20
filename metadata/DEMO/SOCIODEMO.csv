@@ -1,0 +1,23 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+652005,DEMO,SOCIODEMO,study_id_e,,,
+652006,DEMO,SOCIODEMO,ethnicity,	participant's ethnicity,1.0,White
+652007,DEMO,SOCIODEMO,ethnicity,	participant's ethnicity,2.0,Mixed/Multiple ethnic groups
+652008,DEMO,SOCIODEMO,ethnicity,	participant's ethnicity,3.0,Asian/Asian British
+652009,DEMO,SOCIODEMO,ethnicity,	participant's ethnicity,4.0,Black/African/Caribbean/Black British
+652010,DEMO,SOCIODEMO,ethnicity,	participant's ethnicity,5.0,Other ethnic group
+652011,DEMO,SOCIODEMO,age,	participant's age in years,,
+652012,DEMO,SOCIODEMO,banded_income,	participant's income category,0.0,No income
+652013,DEMO,SOCIODEMO,banded_income,	participant's income category,1.0,Personal allowance
+652014,DEMO,SOCIODEMO,banded_income,	participant's income category,2.0,Basic rate
+652015,DEMO,SOCIODEMO,banded_income,	participant's income category,3.0,Higher rate
+652016,DEMO,SOCIODEMO,banded_income,	participant's income category,4.0,Additional rate
+652017,DEMO,SOCIODEMO,relationship_status,	participant's current relationship status,0.0,Single
+652018,DEMO,SOCIODEMO,relationship_status,	participant's current relationship status,1.0,Engaged
+652019,DEMO,SOCIODEMO,relationship_status,	participant's current relationship status,2.0,Married
+652020,DEMO,SOCIODEMO,relationship_status,	participant's current relationship status,3.0,Separated
+652021,DEMO,SOCIODEMO,relationship_status,	participant's current relationship status,4.0,Cohabiting
+652022,DEMO,SOCIODEMO,c1,	example binary variable,0.0,no
+652023,DEMO,SOCIODEMO,c1,	example binary variable,1.0,yes
+652024,DEMO,SOCIODEMO,c2,	example flag variable,1.0,TRUE
+652025,DEMO,SOCIODEMO,c3,	example date variable,,
+652026,DEMO,SOCIODEMO,avail_from_dt,,,

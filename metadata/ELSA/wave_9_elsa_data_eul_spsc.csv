@@ -1,0 +1,1532 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+686295,ELSA,wave_9_elsa_data_eul_spsc,study_id_e,,,
+686296,ELSA,wave_9_elsa_data_eul_spsc,perid,Person number in household,-9.0,Refused
+686297,ELSA,wave_9_elsa_data_eul_spsc,perid,Person number in household,-8.0,Don't know
+686298,ELSA,wave_9_elsa_data_eul_spsc,perid,Person number in household,-1.0,Not applicable
+686299,ELSA,wave_9_elsa_data_eul_spsc,iintdatd,interview day   - individual interview,,
+686300,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,-9.0,Refused
+686301,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,-8.0,Don't know
+686302,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,-1.0,Not applicable
+686303,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,1.0,January
+686304,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,2.0,February
+686305,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,3.0,March
+686306,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,4.0,April
+686307,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,5.0,May
+686308,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,6.0,June
+686309,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,7.0,July
+686310,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,8.0,August
+686311,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,9.0,September
+686312,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,10.0,October
+686313,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,11.0,November
+686314,ELSA,wave_9_elsa_data_eul_spsc,iintdatm,interview month - individual interview,12.0,December
+686315,ELSA,wave_9_elsa_data_eul_spsc,iintdaty,interview year  - individual interview,,
+686316,ELSA,wave_9_elsa_data_eul_spsc,spcar,Whether respondent has use of car or van when needed; as a driver or a passenger,-9.0,Refused
+686317,ELSA,wave_9_elsa_data_eul_spsc,spcar,Whether respondent has use of car or van when needed; as a driver or a passenger,-8.0,Don't Know
+686318,ELSA,wave_9_elsa_data_eul_spsc,spcar,Whether respondent has use of car or van when needed; as a driver or a passenger,-1.0,Not applicable
+686319,ELSA,wave_9_elsa_data_eul_spsc,spcar,Whether respondent has use of car or van when needed; as a driver or a passenger,1.0,Yes
+686320,ELSA,wave_9_elsa_data_eul_spsc,spcar,Whether respondent has use of car or van when needed; as a driver or a passenger,2.0,No
+686321,ELSA,wave_9_elsa_data_eul_spsc,spcara,Whether respondent drives this car or van themselves,-9.0,Refused
+686322,ELSA,wave_9_elsa_data_eul_spsc,spcara,Whether respondent drives this car or van themselves,-8.0,Don't Know
+686323,ELSA,wave_9_elsa_data_eul_spsc,spcara,Whether respondent drives this car or van themselves,-1.0,Not applicable
+686324,ELSA,wave_9_elsa_data_eul_spsc,spcara,Whether respondent drives this car or van themselves,1.0,Yes
+686325,ELSA,wave_9_elsa_data_eul_spsc,spcara,Whether respondent drives this car or van themselves,2.0,"No, passenger only"
+686326,ELSA,wave_9_elsa_data_eul_spsc,spcarb,Whether respondent drove a car or van themself in the past,-9.0,Refused
+686327,ELSA,wave_9_elsa_data_eul_spsc,spcarb,Whether respondent drove a car or van themself in the past,-8.0,Don't Know
+686328,ELSA,wave_9_elsa_data_eul_spsc,spcarb,Whether respondent drove a car or van themself in the past,-1.0,Not applicable
+686329,ELSA,wave_9_elsa_data_eul_spsc,spcarb,Whether respondent drove a car or van themself in the past,1.0,Yes
+686330,ELSA,wave_9_elsa_data_eul_spsc,spcarb,Whether respondent drove a car or van themself in the past,2.0,No
+686331,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,-9.0,Refused
+686332,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,-8.0,Don't Know
+686333,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,-1.0,Not applicable
+686334,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,1.0,Every day or nearly every day
+686335,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,2.0,Two or three times a week
+686336,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,3.0,Once a week
+686337,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,4.0,Two or three times a month
+686338,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,5.0,Once a month or less
+686339,ELSA,wave_9_elsa_data_eul_spsc,sptraa,How often respondent uses public transport,6.0,Never
+686340,ELSA,wave_9_elsa_data_eul_spsc,sptrab1,Reasons for not using public transport: none is available,-9.0,Refused
+686341,ELSA,wave_9_elsa_data_eul_spsc,sptrab1,Reasons for not using public transport: none is available,-8.0,Don't Know
+686342,ELSA,wave_9_elsa_data_eul_spsc,sptrab1,Reasons for not using public transport: none is available,-1.0,Not applicable
+686343,ELSA,wave_9_elsa_data_eul_spsc,sptrab1,Reasons for not using public transport: none is available,0.0,Not mentioned
+686344,ELSA,wave_9_elsa_data_eul_spsc,sptrab1,Reasons for not using public transport: none is available,1.0,Mentioned
+686345,ELSA,wave_9_elsa_data_eul_spsc,sptrab2,Reasons for not using public transport: does not go where they want to,-9.0,Refused
+686346,ELSA,wave_9_elsa_data_eul_spsc,sptrab2,Reasons for not using public transport: does not go where they want to,-8.0,Don't Know
+686347,ELSA,wave_9_elsa_data_eul_spsc,sptrab2,Reasons for not using public transport: does not go where they want to,-1.0,Not applicable
+686348,ELSA,wave_9_elsa_data_eul_spsc,sptrab2,Reasons for not using public transport: does not go where they want to,0.0,Not mentioned
+686349,ELSA,wave_9_elsa_data_eul_spsc,sptrab2,Reasons for not using public transport: does not go where they want to,1.0,Mentioned
+686350,ELSA,wave_9_elsa_data_eul_spsc,sptrab3,Reasons for not using public transport: it is too expensive,-9.0,Refused
+686351,ELSA,wave_9_elsa_data_eul_spsc,sptrab3,Reasons for not using public transport: it is too expensive,-8.0,Don't Know
+686352,ELSA,wave_9_elsa_data_eul_spsc,sptrab3,Reasons for not using public transport: it is too expensive,-1.0,Not applicable
+686353,ELSA,wave_9_elsa_data_eul_spsc,sptrab3,Reasons for not using public transport: it is too expensive,0.0,Not mentioned
+686354,ELSA,wave_9_elsa_data_eul_spsc,sptrab3,Reasons for not using public transport: it is too expensive,1.0,Mentioned
+686355,ELSA,wave_9_elsa_data_eul_spsc,sptrab4,Reasons for not using public transport: it is unreliable,-9.0,Refused
+686356,ELSA,wave_9_elsa_data_eul_spsc,sptrab4,Reasons for not using public transport: it is unreliable,-8.0,Don't Know
+686357,ELSA,wave_9_elsa_data_eul_spsc,sptrab4,Reasons for not using public transport: it is unreliable,-1.0,Not applicable
+686358,ELSA,wave_9_elsa_data_eul_spsc,sptrab4,Reasons for not using public transport: it is unreliable,0.0,Not mentioned
+686359,ELSA,wave_9_elsa_data_eul_spsc,sptrab4,Reasons for not using public transport: it is unreliable,1.0,Mentioned
+686360,ELSA,wave_9_elsa_data_eul_spsc,sptrab5,Reasons for not using public transport: it is infrequent,-9.0,Refused
+686361,ELSA,wave_9_elsa_data_eul_spsc,sptrab5,Reasons for not using public transport: it is infrequent,-8.0,Don't Know
+686362,ELSA,wave_9_elsa_data_eul_spsc,sptrab5,Reasons for not using public transport: it is infrequent,-1.0,Not applicable
+686363,ELSA,wave_9_elsa_data_eul_spsc,sptrab5,Reasons for not using public transport: it is infrequent,0.0,Not mentioned
+686364,ELSA,wave_9_elsa_data_eul_spsc,sptrab5,Reasons for not using public transport: it is infrequent,1.0,Mentioned
+686365,ELSA,wave_9_elsa_data_eul_spsc,sptrab6,Reasons for not using public transport: their health prevents them,-9.0,Refused
+686366,ELSA,wave_9_elsa_data_eul_spsc,sptrab6,Reasons for not using public transport: their health prevents them,-8.0,Don't Know
+686367,ELSA,wave_9_elsa_data_eul_spsc,sptrab6,Reasons for not using public transport: their health prevents them,-1.0,Not applicable
+686368,ELSA,wave_9_elsa_data_eul_spsc,sptrab6,Reasons for not using public transport: their health prevents them,0.0,Not mentioned
+686369,ELSA,wave_9_elsa_data_eul_spsc,sptrab6,Reasons for not using public transport: their health prevents them,1.0,Mentioned
+686370,ELSA,wave_9_elsa_data_eul_spsc,sptrab7,Reasons for not using public transport: they do not need to,-9.0,Refused
+686371,ELSA,wave_9_elsa_data_eul_spsc,sptrab7,Reasons for not using public transport: they do not need to,-8.0,Don't Know
+686372,ELSA,wave_9_elsa_data_eul_spsc,sptrab7,Reasons for not using public transport: they do not need to,-1.0,Not applicable
+686373,ELSA,wave_9_elsa_data_eul_spsc,sptrab7,Reasons for not using public transport: they do not need to,0.0,Not mentioned
+686374,ELSA,wave_9_elsa_data_eul_spsc,sptrab7,Reasons for not using public transport: they do not need to,1.0,Mentioned
+686375,ELSA,wave_9_elsa_data_eul_spsc,sptrab8,Reasons for not using public transport: fear of crime,-9.0,Refused
+686376,ELSA,wave_9_elsa_data_eul_spsc,sptrab8,Reasons for not using public transport: fear of crime,-8.0,Don't Know
+686377,ELSA,wave_9_elsa_data_eul_spsc,sptrab8,Reasons for not using public transport: fear of crime,-1.0,Not applicable
+686378,ELSA,wave_9_elsa_data_eul_spsc,sptrab8,Reasons for not using public transport: fear of crime,0.0,Not mentioned
+686379,ELSA,wave_9_elsa_data_eul_spsc,sptrab8,Reasons for not using public transport: fear of crime,1.0,Mentioned
+686380,ELSA,wave_9_elsa_data_eul_spsc,sptrab9,Reasons for not using public transport: it is too dirty,-9.0,Refused
+686381,ELSA,wave_9_elsa_data_eul_spsc,sptrab9,Reasons for not using public transport: it is too dirty,-8.0,Don't Know
+686382,ELSA,wave_9_elsa_data_eul_spsc,sptrab9,Reasons for not using public transport: it is too dirty,-1.0,Not applicable
+686383,ELSA,wave_9_elsa_data_eul_spsc,sptrab9,Reasons for not using public transport: it is too dirty,0.0,Not mentioned
+686384,ELSA,wave_9_elsa_data_eul_spsc,sptrab9,Reasons for not using public transport: it is too dirty,1.0,Mentioned
+686385,ELSA,wave_9_elsa_data_eul_spsc,sptrab10,Reasons for not using public transport: it is not convenient,-9.0,Refused
+686386,ELSA,wave_9_elsa_data_eul_spsc,sptrab10,Reasons for not using public transport: it is not convenient,-8.0,Don't Know
+686387,ELSA,wave_9_elsa_data_eul_spsc,sptrab10,Reasons for not using public transport: it is not convenient,-1.0,Not applicable
+686388,ELSA,wave_9_elsa_data_eul_spsc,sptrab10,Reasons for not using public transport: it is not convenient,0.0,Not mentioned
+686389,ELSA,wave_9_elsa_data_eul_spsc,sptrab10,Reasons for not using public transport: it is not convenient,1.0,Mentioned
+686390,ELSA,wave_9_elsa_data_eul_spsc,sptrab11,Reasons for not using public transport: they prefer to walk,-9.0,Refused
+686391,ELSA,wave_9_elsa_data_eul_spsc,sptrab11,Reasons for not using public transport: they prefer to walk,-8.0,Don't Know
+686392,ELSA,wave_9_elsa_data_eul_spsc,sptrab11,Reasons for not using public transport: they prefer to walk,-1.0,Not applicable
+686393,ELSA,wave_9_elsa_data_eul_spsc,sptrab11,Reasons for not using public transport: they prefer to walk,0.0,Not mentioned
+686394,ELSA,wave_9_elsa_data_eul_spsc,sptrab11,Reasons for not using public transport: they prefer to walk,1.0,Mentioned
+686395,ELSA,wave_9_elsa_data_eul_spsc,sptrab12,Reasons for not using public transport: difficulties with mobility,-9.0,Refused
+686396,ELSA,wave_9_elsa_data_eul_spsc,sptrab12,Reasons for not using public transport: difficulties with mobility,-8.0,Don't Know
+686397,ELSA,wave_9_elsa_data_eul_spsc,sptrab12,Reasons for not using public transport: difficulties with mobility,-1.0,Not applicable
+686398,ELSA,wave_9_elsa_data_eul_spsc,sptrab12,Reasons for not using public transport: difficulties with mobility,0.0,Not mentioned
+686399,ELSA,wave_9_elsa_data_eul_spsc,sptrab12,Reasons for not using public transport: difficulties with mobility,1.0,Mentioned
+686400,ELSA,wave_9_elsa_data_eul_spsc,sptrab95,Reasons for not using public transport: other,-9.0,Refused
+686401,ELSA,wave_9_elsa_data_eul_spsc,sptrab95,Reasons for not using public transport: other,-8.0,Don't Know
+686402,ELSA,wave_9_elsa_data_eul_spsc,sptrab95,Reasons for not using public transport: other,-1.0,Not applicable
+686403,ELSA,wave_9_elsa_data_eul_spsc,sptrab95,Reasons for not using public transport: other,0.0,Not mentioned
+686404,ELSA,wave_9_elsa_data_eul_spsc,sptrab95,Reasons for not using public transport: other,1.0,Mentioned
+686405,ELSA,wave_9_elsa_data_eul_spsc,sptram1,Reasons for not using public transport: none is available (merged),-9.0,Refused
+686406,ELSA,wave_9_elsa_data_eul_spsc,sptram1,Reasons for not using public transport: none is available (merged),-8.0,Don't Know
+686407,ELSA,wave_9_elsa_data_eul_spsc,sptram1,Reasons for not using public transport: none is available (merged),-1.0,Not applicable
+686408,ELSA,wave_9_elsa_data_eul_spsc,sptram1,Reasons for not using public transport: none is available (merged),0.0,Not mentioned
+686409,ELSA,wave_9_elsa_data_eul_spsc,sptram1,Reasons for not using public transport: none is available (merged),1.0,Mentioned
+686410,ELSA,wave_9_elsa_data_eul_spsc,sptram2,Reasons for not using public transport: does not go where they want to (merged),-9.0,Refused
+686411,ELSA,wave_9_elsa_data_eul_spsc,sptram2,Reasons for not using public transport: does not go where they want to (merged),-8.0,Don't Know
+686412,ELSA,wave_9_elsa_data_eul_spsc,sptram2,Reasons for not using public transport: does not go where they want to (merged),-1.0,Not applicable
+686413,ELSA,wave_9_elsa_data_eul_spsc,sptram2,Reasons for not using public transport: does not go where they want to (merged),0.0,Not mentioned
+686414,ELSA,wave_9_elsa_data_eul_spsc,sptram2,Reasons for not using public transport: does not go where they want to (merged),1.0,Mentioned
+686415,ELSA,wave_9_elsa_data_eul_spsc,sptram3,Reasons for not using public transport: it is too expensive (merged),-9.0,Refused
+686416,ELSA,wave_9_elsa_data_eul_spsc,sptram3,Reasons for not using public transport: it is too expensive (merged),-8.0,Don't Know
+686417,ELSA,wave_9_elsa_data_eul_spsc,sptram3,Reasons for not using public transport: it is too expensive (merged),-1.0,Not applicable
+686418,ELSA,wave_9_elsa_data_eul_spsc,sptram3,Reasons for not using public transport: it is too expensive (merged),0.0,Not mentioned
+686419,ELSA,wave_9_elsa_data_eul_spsc,sptram3,Reasons for not using public transport: it is too expensive (merged),1.0,Mentioned
+686420,ELSA,wave_9_elsa_data_eul_spsc,sptram4,Reasons for not using public transport: it is unreliable (merged),-9.0,Refused
+686421,ELSA,wave_9_elsa_data_eul_spsc,sptram4,Reasons for not using public transport: it is unreliable (merged),-8.0,Don't Know
+686422,ELSA,wave_9_elsa_data_eul_spsc,sptram4,Reasons for not using public transport: it is unreliable (merged),-1.0,Not applicable
+686423,ELSA,wave_9_elsa_data_eul_spsc,sptram4,Reasons for not using public transport: it is unreliable (merged),0.0,Not mentioned
+686424,ELSA,wave_9_elsa_data_eul_spsc,sptram4,Reasons for not using public transport: it is unreliable (merged),1.0,Mentioned
+686425,ELSA,wave_9_elsa_data_eul_spsc,sptram5,Reasons for not using public transport: it is infrequent (merged),-9.0,Refused
+686426,ELSA,wave_9_elsa_data_eul_spsc,sptram5,Reasons for not using public transport: it is infrequent (merged),-8.0,Don't Know
+686427,ELSA,wave_9_elsa_data_eul_spsc,sptram5,Reasons for not using public transport: it is infrequent (merged),-1.0,Not applicable
+686428,ELSA,wave_9_elsa_data_eul_spsc,sptram5,Reasons for not using public transport: it is infrequent (merged),0.0,Not mentioned
+686429,ELSA,wave_9_elsa_data_eul_spsc,sptram5,Reasons for not using public transport: it is infrequent (merged),1.0,Mentioned
+686430,ELSA,wave_9_elsa_data_eul_spsc,sptram6,Reasons for not using public transport: their health prevents them (merged),-9.0,Refused
+686431,ELSA,wave_9_elsa_data_eul_spsc,sptram6,Reasons for not using public transport: their health prevents them (merged),-8.0,Don't Know
+686432,ELSA,wave_9_elsa_data_eul_spsc,sptram6,Reasons for not using public transport: their health prevents them (merged),-1.0,Not applicable
+686433,ELSA,wave_9_elsa_data_eul_spsc,sptram6,Reasons for not using public transport: their health prevents them (merged),0.0,Not mentioned
+686434,ELSA,wave_9_elsa_data_eul_spsc,sptram6,Reasons for not using public transport: their health prevents them (merged),1.0,Mentioned
+686435,ELSA,wave_9_elsa_data_eul_spsc,sptram7,Reasons for not using public transport: they do not need to (merged),-9.0,Refused
+686436,ELSA,wave_9_elsa_data_eul_spsc,sptram7,Reasons for not using public transport: they do not need to (merged),-8.0,Don't Know
+686437,ELSA,wave_9_elsa_data_eul_spsc,sptram7,Reasons for not using public transport: they do not need to (merged),-1.0,Not applicable
+686438,ELSA,wave_9_elsa_data_eul_spsc,sptram7,Reasons for not using public transport: they do not need to (merged),0.0,Not mentioned
+686439,ELSA,wave_9_elsa_data_eul_spsc,sptram7,Reasons for not using public transport: they do not need to (merged),1.0,Mentioned
+686440,ELSA,wave_9_elsa_data_eul_spsc,sptram8,Reasons for not using public transport: fear of crime (merged),-9.0,Refused
+686441,ELSA,wave_9_elsa_data_eul_spsc,sptram8,Reasons for not using public transport: fear of crime (merged),-8.0,Don't Know
+686442,ELSA,wave_9_elsa_data_eul_spsc,sptram8,Reasons for not using public transport: fear of crime (merged),-1.0,Not applicable
+686443,ELSA,wave_9_elsa_data_eul_spsc,sptram8,Reasons for not using public transport: fear of crime (merged),0.0,Not mentioned
+686444,ELSA,wave_9_elsa_data_eul_spsc,sptram8,Reasons for not using public transport: fear of crime (merged),1.0,Mentioned
+686445,ELSA,wave_9_elsa_data_eul_spsc,sptram9,Reasons for not using public transport: it is too dirty (merged),-9.0,Refused
+686446,ELSA,wave_9_elsa_data_eul_spsc,sptram9,Reasons for not using public transport: it is too dirty (merged),-8.0,Don't Know
+686447,ELSA,wave_9_elsa_data_eul_spsc,sptram9,Reasons for not using public transport: it is too dirty (merged),-1.0,Not applicable
+686448,ELSA,wave_9_elsa_data_eul_spsc,sptram9,Reasons for not using public transport: it is too dirty (merged),0.0,Not mentioned
+686449,ELSA,wave_9_elsa_data_eul_spsc,sptram9,Reasons for not using public transport: it is too dirty (merged),1.0,Mentioned
+686450,ELSA,wave_9_elsa_data_eul_spsc,sptram10,Reasons for not using public transport: it is not convenient (merged),-9.0,Refused
+686451,ELSA,wave_9_elsa_data_eul_spsc,sptram10,Reasons for not using public transport: it is not convenient (merged),-8.0,Don't Know
+686452,ELSA,wave_9_elsa_data_eul_spsc,sptram10,Reasons for not using public transport: it is not convenient (merged),-1.0,Not applicable
+686453,ELSA,wave_9_elsa_data_eul_spsc,sptram10,Reasons for not using public transport: it is not convenient (merged),0.0,Not mentioned
+686454,ELSA,wave_9_elsa_data_eul_spsc,sptram10,Reasons for not using public transport: it is not convenient (merged),1.0,Mentioned
+686455,ELSA,wave_9_elsa_data_eul_spsc,sptram11,Reasons for not using public transport: they prefer to walk (merged),-9.0,Refused
+686456,ELSA,wave_9_elsa_data_eul_spsc,sptram11,Reasons for not using public transport: they prefer to walk (merged),-8.0,Don't Know
+686457,ELSA,wave_9_elsa_data_eul_spsc,sptram11,Reasons for not using public transport: they prefer to walk (merged),-1.0,Not applicable
+686458,ELSA,wave_9_elsa_data_eul_spsc,sptram11,Reasons for not using public transport: they prefer to walk (merged),0.0,Not mentioned
+686459,ELSA,wave_9_elsa_data_eul_spsc,sptram11,Reasons for not using public transport: they prefer to walk (merged),1.0,Mentioned
+686460,ELSA,wave_9_elsa_data_eul_spsc,sptram12,Reasons for not using public transport: difficulties with mobility (merged),-9.0,Refused
+686461,ELSA,wave_9_elsa_data_eul_spsc,sptram12,Reasons for not using public transport: difficulties with mobility (merged),-8.0,Don't Know
+686462,ELSA,wave_9_elsa_data_eul_spsc,sptram12,Reasons for not using public transport: difficulties with mobility (merged),-1.0,Not applicable
+686463,ELSA,wave_9_elsa_data_eul_spsc,sptram12,Reasons for not using public transport: difficulties with mobility (merged),0.0,Not mentioned
+686464,ELSA,wave_9_elsa_data_eul_spsc,sptram12,Reasons for not using public transport: difficulties with mobility (merged),1.0,Mentioned
+686465,ELSA,wave_9_elsa_data_eul_spsc,sptram13,Reasons for not using public transport: prefer to use car (merged),-9.0,Refused
+686466,ELSA,wave_9_elsa_data_eul_spsc,sptram13,Reasons for not using public transport: prefer to use car (merged),-8.0,Don't Know
+686467,ELSA,wave_9_elsa_data_eul_spsc,sptram13,Reasons for not using public transport: prefer to use car (merged),-1.0,Not applicable
+686468,ELSA,wave_9_elsa_data_eul_spsc,sptram13,Reasons for not using public transport: prefer to use car (merged),0.0,Not mentioned
+686469,ELSA,wave_9_elsa_data_eul_spsc,sptram13,Reasons for not using public transport: prefer to use car (merged),1.0,Mentioned
+686470,ELSA,wave_9_elsa_data_eul_spsc,sptram14,Reasons not use public transport: prefer to use bicycle (qind.qsp.qsp4.qre.sptra,-9.0,Refusal
+686471,ELSA,wave_9_elsa_data_eul_spsc,sptram14,Reasons not use public transport: prefer to use bicycle (qind.qsp.qsp4.qre.sptra,-8.0,Don't Know
+686472,ELSA,wave_9_elsa_data_eul_spsc,sptram14,Reasons not use public transport: prefer to use bicycle (qind.qsp.qsp4.qre.sptra,-1.0,Item not applicable
+686473,ELSA,wave_9_elsa_data_eul_spsc,sptram14,Reasons not use public transport: prefer to use bicycle (qind.qsp.qsp4.qre.sptra,0.0,Not mentioned
+686474,ELSA,wave_9_elsa_data_eul_spsc,sptram14,Reasons not use public transport: prefer to use bicycle (qind.qsp.qsp4.qre.sptra,1.0,Mentioned
+686475,ELSA,wave_9_elsa_data_eul_spsc,sptram15,Reasons not use public transport: other person's health prevents it,-9.0,Refusal
+686476,ELSA,wave_9_elsa_data_eul_spsc,sptram15,Reasons not use public transport: other person's health prevents it,-8.0,Don't Know
+686477,ELSA,wave_9_elsa_data_eul_spsc,sptram15,Reasons not use public transport: other person's health prevents it,-1.0,Item not applicable
+686478,ELSA,wave_9_elsa_data_eul_spsc,sptram15,Reasons not use public transport: other person's health prevents it,0.0,Not mentioned
+686479,ELSA,wave_9_elsa_data_eul_spsc,sptram15,Reasons not use public transport: other person's health prevents it,1.0,Mentioned
+686480,ELSA,wave_9_elsa_data_eul_spsc,sptram16,Reasons not use public transport: rarely go out (qind.qsp.qsp4.qre.sptram16),-9.0,Refusal
+686481,ELSA,wave_9_elsa_data_eul_spsc,sptram16,Reasons not use public transport: rarely go out (qind.qsp.qsp4.qre.sptram16),-8.0,Don't Know
+686482,ELSA,wave_9_elsa_data_eul_spsc,sptram16,Reasons not use public transport: rarely go out (qind.qsp.qsp4.qre.sptram16),-1.0,Item not applicable
+686483,ELSA,wave_9_elsa_data_eul_spsc,sptram16,Reasons not use public transport: rarely go out (qind.qsp.qsp4.qre.sptram16),0.0,Not mentioned
+686484,ELSA,wave_9_elsa_data_eul_spsc,sptram16,Reasons not use public transport: rarely go out (qind.qsp.qsp4.qre.sptram16),1.0,Mentioned
+686485,ELSA,wave_9_elsa_data_eul_spsc,sptram85,Reason resp does not use public transport: other answer - not codeable (merged),-9.0,Refused
+686486,ELSA,wave_9_elsa_data_eul_spsc,sptram85,Reason resp does not use public transport: other answer - not codeable (merged),-8.0,Don't Know
+686487,ELSA,wave_9_elsa_data_eul_spsc,sptram85,Reason resp does not use public transport: other answer - not codeable (merged),-1.0,Not applicable
+686488,ELSA,wave_9_elsa_data_eul_spsc,sptram85,Reason resp does not use public transport: other answer - not codeable (merged),0.0,Not mentioned
+686489,ELSA,wave_9_elsa_data_eul_spsc,sptram85,Reason resp does not use public transport: other answer - not codeable (merged),1.0,Mentioned
+686490,ELSA,wave_9_elsa_data_eul_spsc,sptram86,Reason resp does not use public transport: irrelevant answer - not codeable (mer,-9.0,Refused
+686491,ELSA,wave_9_elsa_data_eul_spsc,sptram86,Reason resp does not use public transport: irrelevant answer - not codeable (mer,-8.0,Don't Know
+686492,ELSA,wave_9_elsa_data_eul_spsc,sptram86,Reason resp does not use public transport: irrelevant answer - not codeable (mer,-1.0,Not applicable
+686493,ELSA,wave_9_elsa_data_eul_spsc,sptram86,Reason resp does not use public transport: irrelevant answer - not codeable (mer,0.0,Not mentioned
+686494,ELSA,wave_9_elsa_data_eul_spsc,sptram86,Reason resp does not use public transport: irrelevant answer - not codeable (mer,1.0,Mentioned
+686495,ELSA,wave_9_elsa_data_eul_spsc,sptro1,Whether respondent aged 65+ gets lifts from family/friends not living with them,-9.0,Refused
+686496,ELSA,wave_9_elsa_data_eul_spsc,sptro1,Whether respondent aged 65+ gets lifts from family/friends not living with them,-8.0,Don't Know
+686497,ELSA,wave_9_elsa_data_eul_spsc,sptro1,Whether respondent aged 65+ gets lifts from family/friends not living with them,-1.0,Not applicable
+686498,ELSA,wave_9_elsa_data_eul_spsc,sptro1,Whether respondent aged 65+ gets lifts from family/friends not living with them,0.0,Not mentioned
+686499,ELSA,wave_9_elsa_data_eul_spsc,sptro1,Whether respondent aged 65+ gets lifts from family/friends not living with them,1.0,Mentioned
+686500,ELSA,wave_9_elsa_data_eul_spsc,sptro2,Whether respondent aged 65+ uses taxi,-9.0,Refused
+686501,ELSA,wave_9_elsa_data_eul_spsc,sptro2,Whether respondent aged 65+ uses taxi,-8.0,Don't Know
+686502,ELSA,wave_9_elsa_data_eul_spsc,sptro2,Whether respondent aged 65+ uses taxi,-1.0,Not applicable
+686503,ELSA,wave_9_elsa_data_eul_spsc,sptro2,Whether respondent aged 65+ uses taxi,0.0,Not mentioned
+686504,ELSA,wave_9_elsa_data_eul_spsc,sptro2,Whether respondent aged 65+ uses taxi,1.0,Mentioned
+686505,ELSA,wave_9_elsa_data_eul_spsc,sptro3,Types of transport used: door-to-door community transport e.g. dial-a-ride,-9.0,Refused
+686506,ELSA,wave_9_elsa_data_eul_spsc,sptro3,Types of transport used: door-to-door community transport e.g. dial-a-ride,-8.0,Don't Know
+686507,ELSA,wave_9_elsa_data_eul_spsc,sptro3,Types of transport used: door-to-door community transport e.g. dial-a-ride,-1.0,Not applicable
+686508,ELSA,wave_9_elsa_data_eul_spsc,sptro3,Types of transport used: door-to-door community transport e.g. dial-a-ride,0.0,Not mentioned
+686509,ELSA,wave_9_elsa_data_eul_spsc,sptro3,Types of transport used: door-to-door community transport e.g. dial-a-ride,1.0,Mentioned
+686510,ELSA,wave_9_elsa_data_eul_spsc,sptro4,Types of transport used: transport provided by hospital/day centre/lunch club,-9.0,Refused
+686511,ELSA,wave_9_elsa_data_eul_spsc,sptro4,Types of transport used: transport provided by hospital/day centre/lunch club,-8.0,Don't Know
+686512,ELSA,wave_9_elsa_data_eul_spsc,sptro4,Types of transport used: transport provided by hospital/day centre/lunch club,-1.0,Not applicable
+686513,ELSA,wave_9_elsa_data_eul_spsc,sptro4,Types of transport used: transport provided by hospital/day centre/lunch club,0.0,Not mentioned
+686514,ELSA,wave_9_elsa_data_eul_spsc,sptro4,Types of transport used: transport provided by hospital/day centre/lunch club,1.0,Mentioned
+686515,ELSA,wave_9_elsa_data_eul_spsc,sptro5,Types of transport used: transport provided by care home,-9.0,Refused
+686516,ELSA,wave_9_elsa_data_eul_spsc,sptro5,Types of transport used: transport provided by care home,-8.0,Don't Know
+686517,ELSA,wave_9_elsa_data_eul_spsc,sptro5,Types of transport used: transport provided by care home,-1.0,Not applicable
+686518,ELSA,wave_9_elsa_data_eul_spsc,sptro5,Types of transport used: transport provided by care home,0.0,Not mentioned
+686519,ELSA,wave_9_elsa_data_eul_spsc,sptro5,Types of transport used: transport provided by care home,1.0,Mentioned
+686520,ELSA,wave_9_elsa_data_eul_spsc,sptro96,Types of transport used: none of these,-9.0,Refused
+686521,ELSA,wave_9_elsa_data_eul_spsc,sptro96,Types of transport used: none of these,-8.0,Don't Know
+686522,ELSA,wave_9_elsa_data_eul_spsc,sptro96,Types of transport used: none of these,-1.0,Not applicable
+686523,ELSA,wave_9_elsa_data_eul_spsc,sptro96,Types of transport used: none of these,0.0,Not mentioned
+686524,ELSA,wave_9_elsa_data_eul_spsc,sptro96,Types of transport used: none of these,1.0,Mentioned
+686525,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,-9.0,Refused
+686526,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,-8.0,Don't Know
+686527,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,-1.0,Not applicable
+686528,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,1.0,Every day or nearly every day
+686529,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,2.0,Two or three times a week
+686530,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,3.0,Once a week
+686531,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,4.0,Two or three times a month
+686532,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,5.0,Once a month or less
+686533,ELSA,wave_9_elsa_data_eul_spsc,splift,How often respondent gets lifts from family/friends not living with them,6.0,SPONTANEOUS: Do not currently use
+686534,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,-9.0,Refused
+686535,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,-8.0,Don't Know
+686536,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,-1.0,Not applicable
+686537,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,1.0,Every day or nearly every day
+686538,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,2.0,Two or three times a week
+686539,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,3.0,Once a week
+686540,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,4.0,Two or three times a month
+686541,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,5.0,Once a month or less
+686542,ELSA,wave_9_elsa_data_eul_spsc,sptaxi,How often respondent uses a taxi,6.0,SPONTANEOUS : Do not currently use
+686543,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,-9.0,Refused
+686544,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,-8.0,Don't Know
+686545,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,-1.0,Not applicable
+686546,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,1.0,Every day or nearly every day
+686547,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,2.0,Two or three times a week
+686548,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,3.0,Once a week
+686549,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,4.0,Two or three times a month
+686550,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,5.0,Once a month or less
+686551,ELSA,wave_9_elsa_data_eul_spsc,spdtdt,How often respondent uses door-to-door community transport,6.0,SPONTANEOUS: Do not currently use
+686552,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,-9.0,Refused
+686553,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,-8.0,Don't Know
+686554,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,-1.0,Not applicable
+686555,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,1.0,Every day or nearly every day
+686556,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,2.0,Two or three times a week
+686557,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,3.0,Once a week
+686558,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,4.0,Two or three times a month
+686559,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,5.0,Once a month or less
+686560,ELSA,wave_9_elsa_data_eul_spsc,sphosp,How often respondent uses transport provided by the hospital/day centre/lunch cl,6.0,SPONTANEOUS: Do not currently use
+686561,ELSA,wave_9_elsa_data_eul_spsc,spbsps,Whether has bus travel pass,-9.0,Refused
+686562,ELSA,wave_9_elsa_data_eul_spsc,spbsps,Whether has bus travel pass,-8.0,Don't Know
+686563,ELSA,wave_9_elsa_data_eul_spsc,spbsps,Whether has bus travel pass,-1.0,Not applicable
+686564,ELSA,wave_9_elsa_data_eul_spsc,spbsps,Whether has bus travel pass,1.0,Yes
+686565,ELSA,wave_9_elsa_data_eul_spsc,spbsps,Whether has bus travel pass,2.0,No
+686566,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,-9.0,Refused
+686567,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,-8.0,Don't Know
+686568,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,-1.0,Not applicable
+686569,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,0.0,None
+686570,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,1.0,1 to 5
+686571,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,2.0,6 to 10
+686572,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,3.0,11 to 20
+686573,ELSA,wave_9_elsa_data_eul_spsc,spbstm,Times used bus travel pass in past month,4.0,21 or more
+686574,ELSA,wave_9_elsa_data_eul_spsc,scptrnp,Whether reads a daily newspaper,-9.0,Refused
+686575,ELSA,wave_9_elsa_data_eul_spsc,scptrnp,Whether reads a daily newspaper,-8.0,Don't know
+686576,ELSA,wave_9_elsa_data_eul_spsc,scptrnp,Whether reads a daily newspaper,-1.0,Not applicable
+686577,ELSA,wave_9_elsa_data_eul_spsc,scptrnp,Whether reads a daily newspaper,0.0,Not mentioned
+686578,ELSA,wave_9_elsa_data_eul_spsc,scptrnp,Whether reads a daily newspaper,1.0,Mentioned
+686579,ELSA,wave_9_elsa_data_eul_spsc,scptrhb,Whether has a hobby or pastime,-9.0,Refused
+686580,ELSA,wave_9_elsa_data_eul_spsc,scptrhb,Whether has a hobby or pastime,-8.0,Don't know
+686581,ELSA,wave_9_elsa_data_eul_spsc,scptrhb,Whether has a hobby or pastime,-1.0,Not applicable
+686582,ELSA,wave_9_elsa_data_eul_spsc,scptrhb,Whether has a hobby or pastime,0.0,Not mentioned
+686583,ELSA,wave_9_elsa_data_eul_spsc,scptrhb,Whether has a hobby or pastime,1.0,Mentioned
+686584,ELSA,wave_9_elsa_data_eul_spsc,scptruk,Whether has taken a holiday in the UK in last 12 months,-9.0,Refused
+686585,ELSA,wave_9_elsa_data_eul_spsc,scptruk,Whether has taken a holiday in the UK in last 12 months,-8.0,Don't know
+686586,ELSA,wave_9_elsa_data_eul_spsc,scptruk,Whether has taken a holiday in the UK in last 12 months,-1.0,Not applicable
+686587,ELSA,wave_9_elsa_data_eul_spsc,scptruk,Whether has taken a holiday in the UK in last 12 months,0.0,Not mentioned
+686588,ELSA,wave_9_elsa_data_eul_spsc,scptruk,Whether has taken a holiday in the UK in last 12 months,1.0,Mentioned
+686589,ELSA,wave_9_elsa_data_eul_spsc,scptrab,Whether has taken a holiday abroad in last 12 months,-9.0,Refused
+686590,ELSA,wave_9_elsa_data_eul_spsc,scptrab,Whether has taken a holiday abroad in last 12 months,-8.0,Don't know
+686591,ELSA,wave_9_elsa_data_eul_spsc,scptrab,Whether has taken a holiday abroad in last 12 months,-1.0,Not applicable
+686592,ELSA,wave_9_elsa_data_eul_spsc,scptrab,Whether has taken a holiday abroad in last 12 months,0.0,Not mentioned
+686593,ELSA,wave_9_elsa_data_eul_spsc,scptrab,Whether has taken a holiday abroad in last 12 months,1.0,Mentioned
+686594,ELSA,wave_9_elsa_data_eul_spsc,scptrtr,Whether has gone on a daytrip or outing in last 12 months,-9.0,Refused
+686595,ELSA,wave_9_elsa_data_eul_spsc,scptrtr,Whether has gone on a daytrip or outing in last 12 months,-8.0,Don't know
+686596,ELSA,wave_9_elsa_data_eul_spsc,scptrtr,Whether has gone on a daytrip or outing in last 12 months,-1.0,Not applicable
+686597,ELSA,wave_9_elsa_data_eul_spsc,scptrtr,Whether has gone on a daytrip or outing in last 12 months,0.0,Not mentioned
+686598,ELSA,wave_9_elsa_data_eul_spsc,scptrtr,Whether has gone on a daytrip or outing in last 12 months,1.0,Mentioned
+686599,ELSA,wave_9_elsa_data_eul_spsc,scptrmp,Whether owns a mobile phone,-9.0,Refused
+686600,ELSA,wave_9_elsa_data_eul_spsc,scptrmp,Whether owns a mobile phone,-8.0,Don't know
+686601,ELSA,wave_9_elsa_data_eul_spsc,scptrmp,Whether owns a mobile phone,-1.0,Not applicable
+686602,ELSA,wave_9_elsa_data_eul_spsc,scptrmp,Whether owns a mobile phone,0.0,Not mentioned
+686603,ELSA,wave_9_elsa_data_eul_spsc,scptrmp,Whether owns a mobile phone,1.0,Mentioned
+686604,ELSA,wave_9_elsa_data_eul_spsc,scptrvt,Whether voted in the last General Election,-9.0,Refused
+686605,ELSA,wave_9_elsa_data_eul_spsc,scptrvt,Whether voted in the last General Election,-8.0,Don't know
+686606,ELSA,wave_9_elsa_data_eul_spsc,scptrvt,Whether voted in the last General Election,-1.0,Not applicable
+686607,ELSA,wave_9_elsa_data_eul_spsc,scptrvt,Whether voted in the last General Election,0.0,Not mentioned
+686608,ELSA,wave_9_elsa_data_eul_spsc,scptrvt,Whether voted in the last General Election,1.0,Mentioned
+686609,ELSA,wave_9_elsa_data_eul_spsc,scptr96,None of the statements above apply to the respondent,-9.0,Refused
+686610,ELSA,wave_9_elsa_data_eul_spsc,scptr96,None of the statements above apply to the respondent,-8.0,Don't know
+686611,ELSA,wave_9_elsa_data_eul_spsc,scptr96,None of the statements above apply to the respondent,-1.0,Not applicable
+686612,ELSA,wave_9_elsa_data_eul_spsc,scptr96,None of the statements above apply to the respondent,0.0,Not mentioned
+686613,ELSA,wave_9_elsa_data_eul_spsc,scptr96,None of the statements above apply to the respondent,1.0,Mentioned
+686614,ELSA,wave_9_elsa_data_eul_spsc,scorgpo,Whether is a member of a political party; trade union or environmental groups,-9.0,Refused
+686615,ELSA,wave_9_elsa_data_eul_spsc,scorgpo,Whether is a member of a political party; trade union or environmental groups,-8.0,Don't know
+686616,ELSA,wave_9_elsa_data_eul_spsc,scorgpo,Whether is a member of a political party; trade union or environmental groups,-1.0,Not applicable
+686617,ELSA,wave_9_elsa_data_eul_spsc,scorgpo,Whether is a member of a political party; trade union or environmental groups,0.0,Not mentioned
+686618,ELSA,wave_9_elsa_data_eul_spsc,scorgpo,Whether is a member of a political party; trade union or environmental groups,1.0,Mentioned
+686619,ELSA,wave_9_elsa_data_eul_spsc,scorgnw,Whether is a member of tenants groups; resident groups; neighbourhoold watch,-9.0,Refused
+686620,ELSA,wave_9_elsa_data_eul_spsc,scorgnw,Whether is a member of tenants groups; resident groups; neighbourhoold watch,-8.0,Don't know
+686621,ELSA,wave_9_elsa_data_eul_spsc,scorgnw,Whether is a member of tenants groups; resident groups; neighbourhoold watch,-1.0,Not applicable
+686622,ELSA,wave_9_elsa_data_eul_spsc,scorgnw,Whether is a member of tenants groups; resident groups; neighbourhoold watch,0.0,Not mentioned
+686623,ELSA,wave_9_elsa_data_eul_spsc,scorgnw,Whether is a member of tenants groups; resident groups; neighbourhoold watch,1.0,Mentioned
+686624,ELSA,wave_9_elsa_data_eul_spsc,scorgrl,Whether is a member of a church or other religious group,-9.0,Refused
+686625,ELSA,wave_9_elsa_data_eul_spsc,scorgrl,Whether is a member of a church or other religious group,-8.0,Don't know
+686626,ELSA,wave_9_elsa_data_eul_spsc,scorgrl,Whether is a member of a church or other religious group,-1.0,Not applicable
+686627,ELSA,wave_9_elsa_data_eul_spsc,scorgrl,Whether is a member of a church or other religious group,0.0,Not mentioned
+686628,ELSA,wave_9_elsa_data_eul_spsc,scorgrl,Whether is a member of a church or other religious group,1.0,Mentioned
+686629,ELSA,wave_9_elsa_data_eul_spsc,scorgch,Whether is a member of charitable associations,-9.0,Refused
+686630,ELSA,wave_9_elsa_data_eul_spsc,scorgch,Whether is a member of charitable associations,-8.0,Don't know
+686631,ELSA,wave_9_elsa_data_eul_spsc,scorgch,Whether is a member of charitable associations,-1.0,Not applicable
+686632,ELSA,wave_9_elsa_data_eul_spsc,scorgch,Whether is a member of charitable associations,0.0,Not mentioned
+686633,ELSA,wave_9_elsa_data_eul_spsc,scorgch,Whether is a member of charitable associations,1.0,Mentioned
+686634,ELSA,wave_9_elsa_data_eul_spsc,scorged,Whether is a member of education; arts or music groups or evening classes,-9.0,Refused
+686635,ELSA,wave_9_elsa_data_eul_spsc,scorged,Whether is a member of education; arts or music groups or evening classes,-8.0,Don't know
+686636,ELSA,wave_9_elsa_data_eul_spsc,scorged,Whether is a member of education; arts or music groups or evening classes,-1.0,Not applicable
+686637,ELSA,wave_9_elsa_data_eul_spsc,scorged,Whether is a member of education; arts or music groups or evening classes,0.0,Not mentioned
+686638,ELSA,wave_9_elsa_data_eul_spsc,scorged,Whether is a member of education; arts or music groups or evening classes,1.0,Mentioned
+686639,ELSA,wave_9_elsa_data_eul_spsc,scorgsc,Whether is a member of social clubs,-9.0,Refused
+686640,ELSA,wave_9_elsa_data_eul_spsc,scorgsc,Whether is a member of social clubs,-8.0,Don't know
+686641,ELSA,wave_9_elsa_data_eul_spsc,scorgsc,Whether is a member of social clubs,-1.0,Not applicable
+686642,ELSA,wave_9_elsa_data_eul_spsc,scorgsc,Whether is a member of social clubs,0.0,Not mentioned
+686643,ELSA,wave_9_elsa_data_eul_spsc,scorgsc,Whether is a member of social clubs,1.0,Mentioned
+686644,ELSA,wave_9_elsa_data_eul_spsc,scorgsp,Whether is a member of sports clubs; gyms; exercise classes,-9.0,Refused
+686645,ELSA,wave_9_elsa_data_eul_spsc,scorgsp,Whether is a member of sports clubs; gyms; exercise classes,-8.0,Don't know
+686646,ELSA,wave_9_elsa_data_eul_spsc,scorgsp,Whether is a member of sports clubs; gyms; exercise classes,-1.0,Not applicable
+686647,ELSA,wave_9_elsa_data_eul_spsc,scorgsp,Whether is a member of sports clubs; gyms; exercise classes,0.0,Not mentioned
+686648,ELSA,wave_9_elsa_data_eul_spsc,scorgsp,Whether is a member of sports clubs; gyms; exercise classes,1.0,Mentioned
+686649,ELSA,wave_9_elsa_data_eul_spsc,scorg95,Whether is a member of other organisations; club or societies,-9.0,Refused
+686650,ELSA,wave_9_elsa_data_eul_spsc,scorg95,Whether is a member of other organisations; club or societies,-8.0,Don't know
+686651,ELSA,wave_9_elsa_data_eul_spsc,scorg95,Whether is a member of other organisations; club or societies,-1.0,Not applicable
+686652,ELSA,wave_9_elsa_data_eul_spsc,scorg95,Whether is a member of other organisations; club or societies,0.0,Not mentioned
+686653,ELSA,wave_9_elsa_data_eul_spsc,scorg95,Whether is a member of other organisations; club or societies,1.0,Mentioned
+686654,ELSA,wave_9_elsa_data_eul_spsc,scorg96,Respondent is not a member of any organisations; clubs or societies,-9.0,Refused
+686655,ELSA,wave_9_elsa_data_eul_spsc,scorg96,Respondent is not a member of any organisations; clubs or societies,-8.0,Don't know
+686656,ELSA,wave_9_elsa_data_eul_spsc,scorg96,Respondent is not a member of any organisations; clubs or societies,-1.0,Not applicable
+686657,ELSA,wave_9_elsa_data_eul_spsc,scorg96,Respondent is not a member of any organisations; clubs or societies,0.0,Not mentioned
+686658,ELSA,wave_9_elsa_data_eul_spsc,scorg96,Respondent is not a member of any organisations; clubs or societies,1.0,Mentioned
+686659,ELSA,wave_9_elsa_data_eul_spsc,scorgn,Number of committee meetings attends in a year,-9.0,Refused
+686660,ELSA,wave_9_elsa_data_eul_spsc,scorgn,Number of committee meetings attends in a year,-8.0,Don't know
+686661,ELSA,wave_9_elsa_data_eul_spsc,scorgn,Number of committee meetings attends in a year,-1.0,Not applicable
+686662,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,-9.0,Refused
+686663,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,-8.0,Don't know
+686664,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,-1.0,Not applicable
+686665,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,1.0,Twice a month or more
+686666,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,2.0,About once a month
+686667,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,3.0,Every few months
+686668,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,4.0,About once or twice a year
+686669,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,5.0,Less than once a year
+686670,ELSA,wave_9_elsa_data_eul_spsc,scacta,How often goes to the cinema,6.0,Never
+686671,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,-9.0,Refused
+686672,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,-8.0,Don't know
+686673,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,-1.0,Not applicable
+686674,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,1.0,Twice a month or more
+686675,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,2.0,About once a month
+686676,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,3.0,Every few months
+686677,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,4.0,About once or twice a year
+686678,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,5.0,Less than once a year
+686679,ELSA,wave_9_elsa_data_eul_spsc,scactb,How often eats out of the house,6.0,Never
+686680,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,-9.0,Refused
+686681,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,-8.0,Don't know
+686682,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,-1.0,Not applicable
+686683,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,1.0,Twice a month or more
+686684,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,2.0,About once a month
+686685,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,3.0,Every few months
+686686,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,4.0,About once or twice a year
+686687,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,5.0,Less than once a year
+686688,ELSA,wave_9_elsa_data_eul_spsc,scactc,How often goes to an art gallery or museum,6.0,Never
+686689,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,-9.0,Refused
+686690,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,-8.0,Don't know
+686691,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,-1.0,Not applicable
+686692,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,1.0,Twice a month or more
+686693,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,2.0,About once a month
+686694,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,3.0,Every few months
+686695,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,4.0,About once or twice a year
+686696,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,5.0,Less than once a year
+686697,ELSA,wave_9_elsa_data_eul_spsc,scactd,How often goes to the theatre; a concert or the opera,6.0,Never
+686698,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,-9.0,Refused
+686699,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,-8.0,Don't know
+686700,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,-1.0,Not applicable
+686701,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,1.0,"Every day, or almost every day"
+686702,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,2.0,At least once a week (but not every day)
+686703,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,3.0,At least once a month (but not every week)
+686704,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,4.0,At least once every 3 months
+686705,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,5.0,Less than every 3 months
+686706,ELSA,wave_9_elsa_data_eul_spsc,scint,Frequency of using the internet or email,6.0,Never
+686707,ELSA,wave_9_elsa_data_eul_spsc,scinddt,Devices used for internet access: desktop computer,-9.0,Refused
+686708,ELSA,wave_9_elsa_data_eul_spsc,scinddt,Devices used for internet access: desktop computer,-8.0,Don't know
+686709,ELSA,wave_9_elsa_data_eul_spsc,scinddt,Devices used for internet access: desktop computer,-1.0,Not applicable
+686710,ELSA,wave_9_elsa_data_eul_spsc,scinddt,Devices used for internet access: desktop computer,0.0,Not mentioned
+686711,ELSA,wave_9_elsa_data_eul_spsc,scinddt,Devices used for internet access: desktop computer,1.0,Mentioned
+686712,ELSA,wave_9_elsa_data_eul_spsc,scindlt,Devices used for internet access: laptop computer,-9.0,Refused
+686713,ELSA,wave_9_elsa_data_eul_spsc,scindlt,Devices used for internet access: laptop computer,-8.0,Don't know
+686714,ELSA,wave_9_elsa_data_eul_spsc,scindlt,Devices used for internet access: laptop computer,-1.0,Not applicable
+686715,ELSA,wave_9_elsa_data_eul_spsc,scindlt,Devices used for internet access: laptop computer,0.0,Not mentioned
+686716,ELSA,wave_9_elsa_data_eul_spsc,scindlt,Devices used for internet access: laptop computer,1.0,Mentioned
+686717,ELSA,wave_9_elsa_data_eul_spsc,scindtb,Devices used for internet access: tablet computer (e.g. iPad; Samsung Galaxy Tab,-9.0,Refused
+686718,ELSA,wave_9_elsa_data_eul_spsc,scindtb,Devices used for internet access: tablet computer (e.g. iPad; Samsung Galaxy Tab,-8.0,Don't know
+686719,ELSA,wave_9_elsa_data_eul_spsc,scindtb,Devices used for internet access: tablet computer (e.g. iPad; Samsung Galaxy Tab,-1.0,Not applicable
+686720,ELSA,wave_9_elsa_data_eul_spsc,scindtb,Devices used for internet access: tablet computer (e.g. iPad; Samsung Galaxy Tab,0.0,Not mentioned
+686721,ELSA,wave_9_elsa_data_eul_spsc,scindtb,Devices used for internet access: tablet computer (e.g. iPad; Samsung Galaxy Tab,1.0,Mentioned
+686722,ELSA,wave_9_elsa_data_eul_spsc,scindph,Devices used for internet access: smartphone (e.g. iPhone; Android phone),-9.0,Refused
+686723,ELSA,wave_9_elsa_data_eul_spsc,scindph,Devices used for internet access: smartphone (e.g. iPhone; Android phone),-8.0,Don't know
+686724,ELSA,wave_9_elsa_data_eul_spsc,scindph,Devices used for internet access: smartphone (e.g. iPhone; Android phone),-1.0,Not applicable
+686725,ELSA,wave_9_elsa_data_eul_spsc,scindph,Devices used for internet access: smartphone (e.g. iPhone; Android phone),0.0,Not mentioned
+686726,ELSA,wave_9_elsa_data_eul_spsc,scindph,Devices used for internet access: smartphone (e.g. iPhone; Android phone),1.0,Mentioned
+686727,ELSA,wave_9_elsa_data_eul_spsc,scind95,Devices used for internet access: other device,-9.0,Refused
+686728,ELSA,wave_9_elsa_data_eul_spsc,scind95,Devices used for internet access: other device,-8.0,Don't know
+686729,ELSA,wave_9_elsa_data_eul_spsc,scind95,Devices used for internet access: other device,-1.0,Not applicable
+686730,ELSA,wave_9_elsa_data_eul_spsc,scind95,Devices used for internet access: other device,0.0,Not mentioned
+686731,ELSA,wave_9_elsa_data_eul_spsc,scind95,Devices used for internet access: other device,1.0,Mentioned
+686732,ELSA,wave_9_elsa_data_eul_spsc,scind96,Respondent does not access internet,-9.0,Refused
+686733,ELSA,wave_9_elsa_data_eul_spsc,scind96,Respondent does not access internet,-8.0,Don't know
+686734,ELSA,wave_9_elsa_data_eul_spsc,scind96,Respondent does not access internet,-1.0,Not applicable
+686735,ELSA,wave_9_elsa_data_eul_spsc,scind96,Respondent does not access internet,0.0,Not mentioned
+686736,ELSA,wave_9_elsa_data_eul_spsc,scind96,Respondent does not access internet,1.0,Mentioned
+686737,ELSA,wave_9_elsa_data_eul_spsc,scinaem,Internet activities in last 3 months: sending/receiving emails,-9.0,Refused
+686738,ELSA,wave_9_elsa_data_eul_spsc,scinaem,Internet activities in last 3 months: sending/receiving emails,-8.0,Don't know
+686739,ELSA,wave_9_elsa_data_eul_spsc,scinaem,Internet activities in last 3 months: sending/receiving emails,-1.0,Not applicable
+686740,ELSA,wave_9_elsa_data_eul_spsc,scinaem,Internet activities in last 3 months: sending/receiving emails,0.0,Not mentioned
+686741,ELSA,wave_9_elsa_data_eul_spsc,scinaem,Internet activities in last 3 months: sending/receiving emails,1.0,Mentioned
+686742,ELSA,wave_9_elsa_data_eul_spsc,scinacl,Internet activities in last 3 months: telephoning/video calls (via webcam) over ,-9.0,Refused
+686743,ELSA,wave_9_elsa_data_eul_spsc,scinacl,Internet activities in last 3 months: telephoning/video calls (via webcam) over ,-8.0,Don't know
+686744,ELSA,wave_9_elsa_data_eul_spsc,scinacl,Internet activities in last 3 months: telephoning/video calls (via webcam) over ,-1.0,Not applicable
+686745,ELSA,wave_9_elsa_data_eul_spsc,scinacl,Internet activities in last 3 months: telephoning/video calls (via webcam) over ,0.0,Not mentioned
+686746,ELSA,wave_9_elsa_data_eul_spsc,scinacl,Internet activities in last 3 months: telephoning/video calls (via webcam) over ,1.0,Mentioned
+686747,ELSA,wave_9_elsa_data_eul_spsc,scinaed,Internet activities in last 3 months: searching for information for learning; re,-9.0,Refused
+686748,ELSA,wave_9_elsa_data_eul_spsc,scinaed,Internet activities in last 3 months: searching for information for learning; re,-8.0,Don't know
+686749,ELSA,wave_9_elsa_data_eul_spsc,scinaed,Internet activities in last 3 months: searching for information for learning; re,-1.0,Not applicable
+686750,ELSA,wave_9_elsa_data_eul_spsc,scinaed,Internet activities in last 3 months: searching for information for learning; re,0.0,Not mentioned
+686751,ELSA,wave_9_elsa_data_eul_spsc,scinaed,Internet activities in last 3 months: searching for information for learning; re,1.0,Mentioned
+686752,ELSA,wave_9_elsa_data_eul_spsc,scinahe,Internet activities in last 3 months: Finding information on health-related issu,-9.0,Not answered (99)
+686753,ELSA,wave_9_elsa_data_eul_spsc,scinahe,Internet activities in last 3 months: Finding information on health-related issu,-8.0,Don't know (98)
+686754,ELSA,wave_9_elsa_data_eul_spsc,scinahe,Internet activities in last 3 months: Finding information on health-related issu,-1.0,Item not applicable
+686755,ELSA,wave_9_elsa_data_eul_spsc,scinabk,Internet activities in last 3 months: finances (banking; paying bills),-9.0,Refused
+686756,ELSA,wave_9_elsa_data_eul_spsc,scinabk,Internet activities in last 3 months: finances (banking; paying bills),-8.0,Don't know
+686757,ELSA,wave_9_elsa_data_eul_spsc,scinabk,Internet activities in last 3 months: finances (banking; paying bills),-1.0,Not applicable
+686758,ELSA,wave_9_elsa_data_eul_spsc,scinabk,Internet activities in last 3 months: finances (banking; paying bills),0.0,Not mentioned
+686759,ELSA,wave_9_elsa_data_eul_spsc,scinabk,Internet activities in last 3 months: finances (banking; paying bills),1.0,Mentioned
+686760,ELSA,wave_9_elsa_data_eul_spsc,scinash,Internet activities in last 3 months: shopping/buying goods or services,-9.0,Refused
+686761,ELSA,wave_9_elsa_data_eul_spsc,scinash,Internet activities in last 3 months: shopping/buying goods or services,-8.0,Don't know
+686762,ELSA,wave_9_elsa_data_eul_spsc,scinash,Internet activities in last 3 months: shopping/buying goods or services,-1.0,Not applicable
+686763,ELSA,wave_9_elsa_data_eul_spsc,scinash,Internet activities in last 3 months: shopping/buying goods or services,0.0,Not mentioned
+686764,ELSA,wave_9_elsa_data_eul_spsc,scinash,Internet activities in last 3 months: shopping/buying goods or services,1.0,Mentioned
+686765,ELSA,wave_9_elsa_data_eul_spsc,scinasl,Internet activities in last 3 months: selling goods or services over the interne,-9.0,Refused
+686766,ELSA,wave_9_elsa_data_eul_spsc,scinasl,Internet activities in last 3 months: selling goods or services over the interne,-8.0,Don't know
+686767,ELSA,wave_9_elsa_data_eul_spsc,scinasl,Internet activities in last 3 months: selling goods or services over the interne,-1.0,Not applicable
+686768,ELSA,wave_9_elsa_data_eul_spsc,scinasl,Internet activities in last 3 months: selling goods or services over the interne,0.0,Not mentioned
+686769,ELSA,wave_9_elsa_data_eul_spsc,scinasl,Internet activities in last 3 months: selling goods or services over the interne,1.0,Mentioned
+686770,ELSA,wave_9_elsa_data_eul_spsc,scinasn,Internet activities in last 3 months: using social networking sites (Facebook; T,-9.0,Refused
+686771,ELSA,wave_9_elsa_data_eul_spsc,scinasn,Internet activities in last 3 months: using social networking sites (Facebook; T,-8.0,Don't know
+686772,ELSA,wave_9_elsa_data_eul_spsc,scinasn,Internet activities in last 3 months: using social networking sites (Facebook; T,-1.0,Not applicable
+686773,ELSA,wave_9_elsa_data_eul_spsc,scinasn,Internet activities in last 3 months: using social networking sites (Facebook; T,0.0,Not mentioned
+686774,ELSA,wave_9_elsa_data_eul_spsc,scinasn,Internet activities in last 3 months: using social networking sites (Facebook; T,1.0,Mentioned
+686775,ELSA,wave_9_elsa_data_eul_spsc,scinact,Internet activities in last 3 months: creating; uploading or sharing content (Yo,-9.0,Refused
+686776,ELSA,wave_9_elsa_data_eul_spsc,scinact,Internet activities in last 3 months: creating; uploading or sharing content (Yo,-8.0,Don't know
+686777,ELSA,wave_9_elsa_data_eul_spsc,scinact,Internet activities in last 3 months: creating; uploading or sharing content (Yo,-1.0,Not applicable
+686778,ELSA,wave_9_elsa_data_eul_spsc,scinact,Internet activities in last 3 months: creating; uploading or sharing content (Yo,0.0,Not mentioned
+686779,ELSA,wave_9_elsa_data_eul_spsc,scinact,Internet activities in last 3 months: creating; uploading or sharing content (Yo,1.0,Mentioned
+686780,ELSA,wave_9_elsa_data_eul_spsc,scinanw,Internet activities in last 3 months: news/newspaper/blog websites,-9.0,Refused
+686781,ELSA,wave_9_elsa_data_eul_spsc,scinanw,Internet activities in last 3 months: news/newspaper/blog websites,-8.0,Don't know
+686782,ELSA,wave_9_elsa_data_eul_spsc,scinanw,Internet activities in last 3 months: news/newspaper/blog websites,-1.0,Not applicable
+686783,ELSA,wave_9_elsa_data_eul_spsc,scinanw,Internet activities in last 3 months: news/newspaper/blog websites,0.0,Not mentioned
+686784,ELSA,wave_9_elsa_data_eul_spsc,scinanw,Internet activities in last 3 months: news/newspaper/blog websites,1.0,Mentioned
+686785,ELSA,wave_9_elsa_data_eul_spsc,scinast,Internet activities in last 3 months: streaming/downloading live or on demand TV,-9.0,Refused
+686786,ELSA,wave_9_elsa_data_eul_spsc,scinast,Internet activities in last 3 months: streaming/downloading live or on demand TV,-8.0,Don't know
+686787,ELSA,wave_9_elsa_data_eul_spsc,scinast,Internet activities in last 3 months: streaming/downloading live or on demand TV,-1.0,Not applicable
+686788,ELSA,wave_9_elsa_data_eul_spsc,scinast,Internet activities in last 3 months: streaming/downloading live or on demand TV,0.0,Not mentioned
+686789,ELSA,wave_9_elsa_data_eul_spsc,scinast,Internet activities in last 3 months: streaming/downloading live or on demand TV,1.0,Mentioned
+686790,ELSA,wave_9_elsa_data_eul_spsc,scinagm,Internet activities in last 3 months: games,-9.0,Refused
+686791,ELSA,wave_9_elsa_data_eul_spsc,scinagm,Internet activities in last 3 months: games,-8.0,Don't know
+686792,ELSA,wave_9_elsa_data_eul_spsc,scinagm,Internet activities in last 3 months: games,-1.0,Not applicable
+686793,ELSA,wave_9_elsa_data_eul_spsc,scinagm,Internet activities in last 3 months: games,0.0,Not mentioned
+686794,ELSA,wave_9_elsa_data_eul_spsc,scinagm,Internet activities in last 3 months: games,1.0,Mentioned
+686795,ELSA,wave_9_elsa_data_eul_spsc,scinajb,Internet activities in last 3 months: looking for a job or sending a job applica,-9.0,Refused
+686796,ELSA,wave_9_elsa_data_eul_spsc,scinajb,Internet activities in last 3 months: looking for a job or sending a job applica,-8.0,Don't know
+686797,ELSA,wave_9_elsa_data_eul_spsc,scinajb,Internet activities in last 3 months: looking for a job or sending a job applica,-1.0,Not applicable
+686798,ELSA,wave_9_elsa_data_eul_spsc,scinajb,Internet activities in last 3 months: looking for a job or sending a job applica,0.0,Not mentioned
+686799,ELSA,wave_9_elsa_data_eul_spsc,scinajb,Internet activities in last 3 months: looking for a job or sending a job applica,1.0,Mentioned
+686800,ELSA,wave_9_elsa_data_eul_spsc,scinaps,Internet activities in last 3 months: using public services (e.g. obtaining bene,-9.0,Refused
+686801,ELSA,wave_9_elsa_data_eul_spsc,scinaps,Internet activities in last 3 months: using public services (e.g. obtaining bene,-8.0,Don't know
+686802,ELSA,wave_9_elsa_data_eul_spsc,scinaps,Internet activities in last 3 months: using public services (e.g. obtaining bene,-1.0,Not applicable
+686803,ELSA,wave_9_elsa_data_eul_spsc,scinaps,Internet activities in last 3 months: using public services (e.g. obtaining bene,0.0,Not mentioned
+686804,ELSA,wave_9_elsa_data_eul_spsc,scinaps,Internet activities in last 3 months: using public services (e.g. obtaining bene,1.0,Mentioned
+686805,ELSA,wave_9_elsa_data_eul_spsc,scina95,Internet activities in last 3 months: other,-9.0,Refused
+686806,ELSA,wave_9_elsa_data_eul_spsc,scina95,Internet activities in last 3 months: other,-8.0,Don't know
+686807,ELSA,wave_9_elsa_data_eul_spsc,scina95,Internet activities in last 3 months: other,-1.0,Not applicable
+686808,ELSA,wave_9_elsa_data_eul_spsc,scina95,Internet activities in last 3 months: other,0.0,Not mentioned
+686809,ELSA,wave_9_elsa_data_eul_spsc,scina95,Internet activities in last 3 months: other,1.0,Mentioned
+686810,ELSA,wave_9_elsa_data_eul_spsc,scina96,Internet activities in last 3 months: none of the above,-9.0,Refused
+686811,ELSA,wave_9_elsa_data_eul_spsc,scina96,Internet activities in last 3 months: none of the above,-8.0,Don't know
+686812,ELSA,wave_9_elsa_data_eul_spsc,scina96,Internet activities in last 3 months: none of the above,-1.0,Not applicable
+686813,ELSA,wave_9_elsa_data_eul_spsc,scina96,Internet activities in last 3 months: none of the above,0.0,Not mentioned
+686814,ELSA,wave_9_elsa_data_eul_spsc,scina96,Internet activities in last 3 months: none of the above,1.0,Mentioned
+686815,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,-9.0,Refused
+686816,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,-8.0,Don't know
+686817,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,-1.0,Not applicable
+686818,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,1.0,Strongly agree
+686819,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,2.0,Agree
+686820,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,3.0,Slightly agree
+686821,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,4.0,Neither agree nor disagree
+686822,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,5.0,Slightly disagree
+686823,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,6.0,Disagree
+686824,ELSA,wave_9_elsa_data_eul_spsc,sclifea,How much agrees with the statement: in most ways my life is close to my ideal,7.0,Strongly disagree
+686825,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,-9.0,Refused
+686826,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,-8.0,Don't know
+686827,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,-1.0,Not applicable
+686828,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,1.0,Strongly agree
+686829,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,2.0,Agree
+686830,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,3.0,Slightly agree
+686831,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,4.0,Neither agree nor disagree
+686832,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,5.0,Slightly disagree
+686833,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,6.0,Disagree
+686834,ELSA,wave_9_elsa_data_eul_spsc,sclifeb,How much agrees with the statement: the conditions of my life are excellent,7.0,Strongly disagree
+686835,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,-9.0,Refused
+686836,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,-8.0,Don't know
+686837,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,-1.0,Not applicable
+686838,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,1.0,Strongly agree
+686839,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,2.0,Agree
+686840,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,3.0,Slightly agree
+686841,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,4.0,Neither agree nor disagree
+686842,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,5.0,Slightly disagree
+686843,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,6.0,Disagree
+686844,ELSA,wave_9_elsa_data_eul_spsc,sclifec,How much agrees with the statement: I am satisfied with my life,7.0,Strongly disagree
+686845,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,-9.0,Refused
+686846,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,-8.0,Don't know
+686847,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,-1.0,Not applicable
+686848,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,1.0,Strongly agree
+686849,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,2.0,Agree
+686850,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,3.0,Slightly agree
+686851,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,4.0,Neither agree nor disagree
+686852,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,5.0,Slightly disagree
+686853,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,6.0,Disagree
+686854,ELSA,wave_9_elsa_data_eul_spsc,sclifed,How much agrees with the statement: so far I have got the important things I wan,7.0,Strongly disagree
+686855,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,-9.0,Refused
+686856,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,-8.0,Don't know
+686857,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,-1.0,Not applicable
+686858,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,1.0,Strongly agree
+686859,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,2.0,Agree
+686860,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,3.0,Slightly agree
+686861,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,4.0,Neither agree nor disagree
+686862,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,5.0,Slightly disagree
+686863,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,6.0,Disagree
+686864,ELSA,wave_9_elsa_data_eul_spsc,sclifee,How much agrees with the statement: if I could live my life again; I would chang,7.0,Strongly disagree
+686865,ELSA,wave_9_elsa_data_eul_spsc,scfeela,How often feels they lack companionship,-9.0,Refused
+686866,ELSA,wave_9_elsa_data_eul_spsc,scfeela,How often feels they lack companionship,-8.0,Don't know
+686867,ELSA,wave_9_elsa_data_eul_spsc,scfeela,How often feels they lack companionship,-1.0,Not applicable
+686868,ELSA,wave_9_elsa_data_eul_spsc,scfeela,How often feels they lack companionship,1.0,Hardly ever or never
+686869,ELSA,wave_9_elsa_data_eul_spsc,scfeela,How often feels they lack companionship,2.0,Some of the time
+686870,ELSA,wave_9_elsa_data_eul_spsc,scfeela,How often feels they lack companionship,3.0,Often
+686871,ELSA,wave_9_elsa_data_eul_spsc,scfeelb,How often feels left out,-9.0,Refused
+686872,ELSA,wave_9_elsa_data_eul_spsc,scfeelb,How often feels left out,-8.0,Don't know
+686873,ELSA,wave_9_elsa_data_eul_spsc,scfeelb,How often feels left out,-1.0,Not applicable
+686874,ELSA,wave_9_elsa_data_eul_spsc,scfeelb,How often feels left out,1.0,Hardly ever or never
+686875,ELSA,wave_9_elsa_data_eul_spsc,scfeelb,How often feels left out,2.0,Some of the time
+686876,ELSA,wave_9_elsa_data_eul_spsc,scfeelb,How often feels left out,3.0,Often
+686877,ELSA,wave_9_elsa_data_eul_spsc,scfeelc,How often feels isolated from others,-9.0,Refused
+686878,ELSA,wave_9_elsa_data_eul_spsc,scfeelc,How often feels isolated from others,-8.0,Don't know
+686879,ELSA,wave_9_elsa_data_eul_spsc,scfeelc,How often feels isolated from others,-1.0,Not applicable
+686880,ELSA,wave_9_elsa_data_eul_spsc,scfeelc,How often feels isolated from others,1.0,Hardly ever or never
+686881,ELSA,wave_9_elsa_data_eul_spsc,scfeelc,How often feels isolated from others,2.0,Some of the time
+686882,ELSA,wave_9_elsa_data_eul_spsc,scfeelc,How often feels isolated from others,3.0,Often
+686883,ELSA,wave_9_elsa_data_eul_spsc,scfeeld,How often feels in tune with the people around them,-9.0,Refused
+686884,ELSA,wave_9_elsa_data_eul_spsc,scfeeld,How often feels in tune with the people around them,-8.0,Don't know
+686885,ELSA,wave_9_elsa_data_eul_spsc,scfeeld,How often feels in tune with the people around them,-1.0,Not applicable
+686886,ELSA,wave_9_elsa_data_eul_spsc,scfeeld,How often feels in tune with the people around them,1.0,Hardly ever or never
+686887,ELSA,wave_9_elsa_data_eul_spsc,scfeeld,How often feels in tune with the people around them,2.0,Some of the time
+686888,ELSA,wave_9_elsa_data_eul_spsc,scfeeld,How often feels in tune with the people around them,3.0,Often
+686889,ELSA,wave_9_elsa_data_eul_spsc,scfeele,How often feels lonely,-9.0,Refused
+686890,ELSA,wave_9_elsa_data_eul_spsc,scfeele,How often feels lonely,-8.0,Don't know
+686891,ELSA,wave_9_elsa_data_eul_spsc,scfeele,How often feels lonely,-1.0,Not applicable
+686892,ELSA,wave_9_elsa_data_eul_spsc,scfeele,How often feels lonely,1.0,Hardly ever or never
+686893,ELSA,wave_9_elsa_data_eul_spsc,scfeele,How often feels lonely,2.0,Some of the time
+686894,ELSA,wave_9_elsa_data_eul_spsc,scfeele,How often feels lonely,3.0,Often
+686895,ELSA,wave_9_elsa_data_eul_spsc,scqola,CASP-19 scale: how often feels age prevents them from doing things they like,-9.0,Refused
+686896,ELSA,wave_9_elsa_data_eul_spsc,scqola,CASP-19 scale: how often feels age prevents them from doing things they like,-8.0,Don't know
+686897,ELSA,wave_9_elsa_data_eul_spsc,scqola,CASP-19 scale: how often feels age prevents them from doing things they like,-1.0,Not applicable
+686898,ELSA,wave_9_elsa_data_eul_spsc,scqola,CASP-19 scale: how often feels age prevents them from doing things they like,1.0,Often
+686899,ELSA,wave_9_elsa_data_eul_spsc,scqola,CASP-19 scale: how often feels age prevents them from doing things they like,2.0,Sometimes
+686900,ELSA,wave_9_elsa_data_eul_spsc,scqola,CASP-19 scale: how often feels age prevents them from doing things they like,3.0,Not often
+686901,ELSA,wave_9_elsa_data_eul_spsc,scqola,CASP-19 scale: how often feels age prevents them from doing things they like,4.0,Never
+686902,ELSA,wave_9_elsa_data_eul_spsc,scqolb,CASP-19 scale: how often feels what happens to them is out of their control,-9.0,Refused
+686903,ELSA,wave_9_elsa_data_eul_spsc,scqolb,CASP-19 scale: how often feels what happens to them is out of their control,-8.0,Don't know
+686904,ELSA,wave_9_elsa_data_eul_spsc,scqolb,CASP-19 scale: how often feels what happens to them is out of their control,-1.0,Not applicable
+686905,ELSA,wave_9_elsa_data_eul_spsc,scqolb,CASP-19 scale: how often feels what happens to them is out of their control,1.0,Often
+686906,ELSA,wave_9_elsa_data_eul_spsc,scqolb,CASP-19 scale: how often feels what happens to them is out of their control,2.0,Sometimes
+686907,ELSA,wave_9_elsa_data_eul_spsc,scqolb,CASP-19 scale: how often feels what happens to them is out of their control,3.0,Not often
+686908,ELSA,wave_9_elsa_data_eul_spsc,scqolb,CASP-19 scale: how often feels what happens to them is out of their control,4.0,Never
+686909,ELSA,wave_9_elsa_data_eul_spsc,scqolc,CASP-19 scale: how often feels free to plan for the future,-9.0,Refused
+686910,ELSA,wave_9_elsa_data_eul_spsc,scqolc,CASP-19 scale: how often feels free to plan for the future,-8.0,Don't know
+686911,ELSA,wave_9_elsa_data_eul_spsc,scqolc,CASP-19 scale: how often feels free to plan for the future,-1.0,Not applicable
+686912,ELSA,wave_9_elsa_data_eul_spsc,scqolc,CASP-19 scale: how often feels free to plan for the future,1.0,Often
+686913,ELSA,wave_9_elsa_data_eul_spsc,scqolc,CASP-19 scale: how often feels free to plan for the future,2.0,Sometimes
+686914,ELSA,wave_9_elsa_data_eul_spsc,scqolc,CASP-19 scale: how often feels free to plan for the future,3.0,Not often
+686915,ELSA,wave_9_elsa_data_eul_spsc,scqolc,CASP-19 scale: how often feels free to plan for the future,4.0,Never
+686916,ELSA,wave_9_elsa_data_eul_spsc,scqold,CASP-19 scale: how often feels left out of things,-9.0,Refused
+686917,ELSA,wave_9_elsa_data_eul_spsc,scqold,CASP-19 scale: how often feels left out of things,-8.0,Don't know
+686918,ELSA,wave_9_elsa_data_eul_spsc,scqold,CASP-19 scale: how often feels left out of things,-1.0,Not applicable
+686919,ELSA,wave_9_elsa_data_eul_spsc,scqold,CASP-19 scale: how often feels left out of things,1.0,Often
+686920,ELSA,wave_9_elsa_data_eul_spsc,scqold,CASP-19 scale: how often feels left out of things,2.0,Sometimes
+686921,ELSA,wave_9_elsa_data_eul_spsc,scqold,CASP-19 scale: how often feels left out of things,3.0,Not often
+686922,ELSA,wave_9_elsa_data_eul_spsc,scqold,CASP-19 scale: how often feels left out of things,4.0,Never
+686923,ELSA,wave_9_elsa_data_eul_spsc,scqole,CASP-19 scale: how often can do the things they want to do,-9.0,Refused
+686924,ELSA,wave_9_elsa_data_eul_spsc,scqole,CASP-19 scale: how often can do the things they want to do,-8.0,Don't know
+686925,ELSA,wave_9_elsa_data_eul_spsc,scqole,CASP-19 scale: how often can do the things they want to do,-1.0,Not applicable
+686926,ELSA,wave_9_elsa_data_eul_spsc,scqole,CASP-19 scale: how often can do the things they want to do,1.0,Often
+686927,ELSA,wave_9_elsa_data_eul_spsc,scqole,CASP-19 scale: how often can do the things they want to do,2.0,Sometimes
+686928,ELSA,wave_9_elsa_data_eul_spsc,scqole,CASP-19 scale: how often can do the things they want to do,3.0,Not often
+686929,ELSA,wave_9_elsa_data_eul_spsc,scqole,CASP-19 scale: how often can do the things they want to do,4.0,Never
+686930,ELSA,wave_9_elsa_data_eul_spsc,scqolf,CASP-19 scale: how often family responsibilities prevents them from doing things,-9.0,Refused
+686931,ELSA,wave_9_elsa_data_eul_spsc,scqolf,CASP-19 scale: how often family responsibilities prevents them from doing things,-8.0,Don't know
+686932,ELSA,wave_9_elsa_data_eul_spsc,scqolf,CASP-19 scale: how often family responsibilities prevents them from doing things,-1.0,Not applicable
+686933,ELSA,wave_9_elsa_data_eul_spsc,scqolf,CASP-19 scale: how often family responsibilities prevents them from doing things,1.0,Often
+686934,ELSA,wave_9_elsa_data_eul_spsc,scqolf,CASP-19 scale: how often family responsibilities prevents them from doing things,2.0,Sometimes
+686935,ELSA,wave_9_elsa_data_eul_spsc,scqolf,CASP-19 scale: how often family responsibilities prevents them from doing things,3.0,Not often
+686936,ELSA,wave_9_elsa_data_eul_spsc,scqolf,CASP-19 scale: how often family responsibilities prevents them from doing things,4.0,Never
+686937,ELSA,wave_9_elsa_data_eul_spsc,scqolg,CASP-19 scale: how often feels they can please themselves what they do,-9.0,Refused
+686938,ELSA,wave_9_elsa_data_eul_spsc,scqolg,CASP-19 scale: how often feels they can please themselves what they do,-8.0,Don't know
+686939,ELSA,wave_9_elsa_data_eul_spsc,scqolg,CASP-19 scale: how often feels they can please themselves what they do,-1.0,Not applicable
+686940,ELSA,wave_9_elsa_data_eul_spsc,scqolg,CASP-19 scale: how often feels they can please themselves what they do,1.0,Often
+686941,ELSA,wave_9_elsa_data_eul_spsc,scqolg,CASP-19 scale: how often feels they can please themselves what they do,2.0,Sometimes
+686942,ELSA,wave_9_elsa_data_eul_spsc,scqolg,CASP-19 scale: how often feels they can please themselves what they do,3.0,Not often
+686943,ELSA,wave_9_elsa_data_eul_spsc,scqolg,CASP-19 scale: how often feels they can please themselves what they do,4.0,Never
+686944,ELSA,wave_9_elsa_data_eul_spsc,scqolh,CASP-19 scale: how often feels their health stops them doing what they want to d,-9.0,Refused
+686945,ELSA,wave_9_elsa_data_eul_spsc,scqolh,CASP-19 scale: how often feels their health stops them doing what they want to d,-8.0,Don't know
+686946,ELSA,wave_9_elsa_data_eul_spsc,scqolh,CASP-19 scale: how often feels their health stops them doing what they want to d,-1.0,Not applicable
+686947,ELSA,wave_9_elsa_data_eul_spsc,scqolh,CASP-19 scale: how often feels their health stops them doing what they want to d,1.0,Often
+686948,ELSA,wave_9_elsa_data_eul_spsc,scqolh,CASP-19 scale: how often feels their health stops them doing what they want to d,2.0,Sometimes
+686949,ELSA,wave_9_elsa_data_eul_spsc,scqolh,CASP-19 scale: how often feels their health stops them doing what they want to d,3.0,Not often
+686950,ELSA,wave_9_elsa_data_eul_spsc,scqolh,CASP-19 scale: how often feels their health stops them doing what they want to d,4.0,Never
+686951,ELSA,wave_9_elsa_data_eul_spsc,scqoli,CASP-19 scale: how often shortage of money stops them doing things,-9.0,Refused
+686952,ELSA,wave_9_elsa_data_eul_spsc,scqoli,CASP-19 scale: how often shortage of money stops them doing things,-8.0,Don't know
+686953,ELSA,wave_9_elsa_data_eul_spsc,scqoli,CASP-19 scale: how often shortage of money stops them doing things,-1.0,Not applicable
+686954,ELSA,wave_9_elsa_data_eul_spsc,scqoli,CASP-19 scale: how often shortage of money stops them doing things,1.0,Often
+686955,ELSA,wave_9_elsa_data_eul_spsc,scqoli,CASP-19 scale: how often shortage of money stops them doing things,2.0,Sometimes
+686956,ELSA,wave_9_elsa_data_eul_spsc,scqoli,CASP-19 scale: how often shortage of money stops them doing things,3.0,Not often
+686957,ELSA,wave_9_elsa_data_eul_spsc,scqoli,CASP-19 scale: how often shortage of money stops them doing things,4.0,Never
+686958,ELSA,wave_9_elsa_data_eul_spsc,scqolj,CASP-19 scale: how often look forward to each day,-9.0,Refused
+686959,ELSA,wave_9_elsa_data_eul_spsc,scqolj,CASP-19 scale: how often look forward to each day,-8.0,Don't know
+686960,ELSA,wave_9_elsa_data_eul_spsc,scqolj,CASP-19 scale: how often look forward to each day,-1.0,Not applicable
+686961,ELSA,wave_9_elsa_data_eul_spsc,scqolj,CASP-19 scale: how often look forward to each day,1.0,Often
+686962,ELSA,wave_9_elsa_data_eul_spsc,scqolj,CASP-19 scale: how often look forward to each day,2.0,Sometimes
+686963,ELSA,wave_9_elsa_data_eul_spsc,scqolj,CASP-19 scale: how often look forward to each day,3.0,Not often
+686964,ELSA,wave_9_elsa_data_eul_spsc,scqolj,CASP-19 scale: how often look forward to each day,4.0,Never
+686965,ELSA,wave_9_elsa_data_eul_spsc,scqolk,CASP-19 scale: how often feels that their life has meaning,-9.0,Refused
+686966,ELSA,wave_9_elsa_data_eul_spsc,scqolk,CASP-19 scale: how often feels that their life has meaning,-8.0,Don't know
+686967,ELSA,wave_9_elsa_data_eul_spsc,scqolk,CASP-19 scale: how often feels that their life has meaning,-1.0,Not applicable
+686968,ELSA,wave_9_elsa_data_eul_spsc,scqolk,CASP-19 scale: how often feels that their life has meaning,1.0,Often
+686969,ELSA,wave_9_elsa_data_eul_spsc,scqolk,CASP-19 scale: how often feels that their life has meaning,2.0,Sometimes
+686970,ELSA,wave_9_elsa_data_eul_spsc,scqolk,CASP-19 scale: how often feels that their life has meaning,3.0,Not often
+686971,ELSA,wave_9_elsa_data_eul_spsc,scqolk,CASP-19 scale: how often feels that their life has meaning,4.0,Never
+686972,ELSA,wave_9_elsa_data_eul_spsc,scqoll,CASP-19 scale: how often enjoys the things they do,-9.0,Refused
+686973,ELSA,wave_9_elsa_data_eul_spsc,scqoll,CASP-19 scale: how often enjoys the things they do,-8.0,Don't know
+686974,ELSA,wave_9_elsa_data_eul_spsc,scqoll,CASP-19 scale: how often enjoys the things they do,-1.0,Not applicable
+686975,ELSA,wave_9_elsa_data_eul_spsc,scqoll,CASP-19 scale: how often enjoys the things they do,1.0,Often
+686976,ELSA,wave_9_elsa_data_eul_spsc,scqoll,CASP-19 scale: how often enjoys the things they do,2.0,Sometimes
+686977,ELSA,wave_9_elsa_data_eul_spsc,scqoll,CASP-19 scale: how often enjoys the things they do,3.0,Not often
+686978,ELSA,wave_9_elsa_data_eul_spsc,scqoll,CASP-19 scale: how often enjoys the things they do,4.0,Never
+686979,ELSA,wave_9_elsa_data_eul_spsc,scqolm,CASP-19 scale: how often enjoys being in the company of others,-9.0,Refused
+686980,ELSA,wave_9_elsa_data_eul_spsc,scqolm,CASP-19 scale: how often enjoys being in the company of others,-8.0,Don't know
+686981,ELSA,wave_9_elsa_data_eul_spsc,scqolm,CASP-19 scale: how often enjoys being in the company of others,-1.0,Not applicable
+686982,ELSA,wave_9_elsa_data_eul_spsc,scqolm,CASP-19 scale: how often enjoys being in the company of others,1.0,Often
+686983,ELSA,wave_9_elsa_data_eul_spsc,scqolm,CASP-19 scale: how often enjoys being in the company of others,2.0,Sometimes
+686984,ELSA,wave_9_elsa_data_eul_spsc,scqolm,CASP-19 scale: how often enjoys being in the company of others,3.0,Not often
+686985,ELSA,wave_9_elsa_data_eul_spsc,scqolm,CASP-19 scale: how often enjoys being in the company of others,4.0,Never
+686986,ELSA,wave_9_elsa_data_eul_spsc,scqoln,CASP-19 scale: how often looks back on their life with a sense of happiness,-9.0,Refused
+686987,ELSA,wave_9_elsa_data_eul_spsc,scqoln,CASP-19 scale: how often looks back on their life with a sense of happiness,-8.0,Don't know
+686988,ELSA,wave_9_elsa_data_eul_spsc,scqoln,CASP-19 scale: how often looks back on their life with a sense of happiness,-1.0,Not applicable
+686989,ELSA,wave_9_elsa_data_eul_spsc,scqoln,CASP-19 scale: how often looks back on their life with a sense of happiness,1.0,Often
+686990,ELSA,wave_9_elsa_data_eul_spsc,scqoln,CASP-19 scale: how often looks back on their life with a sense of happiness,2.0,Sometimes
+686991,ELSA,wave_9_elsa_data_eul_spsc,scqoln,CASP-19 scale: how often looks back on their life with a sense of happiness,3.0,Not often
+686992,ELSA,wave_9_elsa_data_eul_spsc,scqoln,CASP-19 scale: how often looks back on their life with a sense of happiness,4.0,Never
+686993,ELSA,wave_9_elsa_data_eul_spsc,scqolo,CASP-19 scale: how often feels full of energy these days,-9.0,Refused
+686994,ELSA,wave_9_elsa_data_eul_spsc,scqolo,CASP-19 scale: how often feels full of energy these days,-8.0,Don't know
+686995,ELSA,wave_9_elsa_data_eul_spsc,scqolo,CASP-19 scale: how often feels full of energy these days,-1.0,Not applicable
+686996,ELSA,wave_9_elsa_data_eul_spsc,scqolo,CASP-19 scale: how often feels full of energy these days,1.0,Often
+686997,ELSA,wave_9_elsa_data_eul_spsc,scqolo,CASP-19 scale: how often feels full of energy these days,2.0,Sometimes
+686998,ELSA,wave_9_elsa_data_eul_spsc,scqolo,CASP-19 scale: how often feels full of energy these days,3.0,Not often
+686999,ELSA,wave_9_elsa_data_eul_spsc,scqolo,CASP-19 scale: how often feels full of energy these days,4.0,Never
+687000,ELSA,wave_9_elsa_data_eul_spsc,scqolp,CASP-19 scale: how often chooses to do things they have never done before,-9.0,Refused
+687001,ELSA,wave_9_elsa_data_eul_spsc,scqolp,CASP-19 scale: how often chooses to do things they have never done before,-8.0,Don't know
+687002,ELSA,wave_9_elsa_data_eul_spsc,scqolp,CASP-19 scale: how often chooses to do things they have never done before,-1.0,Not applicable
+687003,ELSA,wave_9_elsa_data_eul_spsc,scqolp,CASP-19 scale: how often chooses to do things they have never done before,1.0,Often
+687004,ELSA,wave_9_elsa_data_eul_spsc,scqolp,CASP-19 scale: how often chooses to do things they have never done before,2.0,Sometimes
+687005,ELSA,wave_9_elsa_data_eul_spsc,scqolp,CASP-19 scale: how often chooses to do things they have never done before,3.0,Not often
+687006,ELSA,wave_9_elsa_data_eul_spsc,scqolp,CASP-19 scale: how often chooses to do things they have never done before,4.0,Never
+687007,ELSA,wave_9_elsa_data_eul_spsc,scqolq,CASP-19 scale: how often feels satisfied with the way their life has turned out,-9.0,Refused
+687008,ELSA,wave_9_elsa_data_eul_spsc,scqolq,CASP-19 scale: how often feels satisfied with the way their life has turned out,-8.0,Don't know
+687009,ELSA,wave_9_elsa_data_eul_spsc,scqolq,CASP-19 scale: how often feels satisfied with the way their life has turned out,-1.0,Not applicable
+687010,ELSA,wave_9_elsa_data_eul_spsc,scqolq,CASP-19 scale: how often feels satisfied with the way their life has turned out,1.0,Often
+687011,ELSA,wave_9_elsa_data_eul_spsc,scqolq,CASP-19 scale: how often feels satisfied with the way their life has turned out,2.0,Sometimes
+687012,ELSA,wave_9_elsa_data_eul_spsc,scqolq,CASP-19 scale: how often feels satisfied with the way their life has turned out,3.0,Not often
+687013,ELSA,wave_9_elsa_data_eul_spsc,scqolq,CASP-19 scale: how often feels satisfied with the way their life has turned out,4.0,Never
+687014,ELSA,wave_9_elsa_data_eul_spsc,scqolr,CASP-19 scale: how often feels that life is full of opportunities,-9.0,Refused
+687015,ELSA,wave_9_elsa_data_eul_spsc,scqolr,CASP-19 scale: how often feels that life is full of opportunities,-8.0,Don't know
+687016,ELSA,wave_9_elsa_data_eul_spsc,scqolr,CASP-19 scale: how often feels that life is full of opportunities,-1.0,Not applicable
+687017,ELSA,wave_9_elsa_data_eul_spsc,scqolr,CASP-19 scale: how often feels that life is full of opportunities,1.0,Often
+687018,ELSA,wave_9_elsa_data_eul_spsc,scqolr,CASP-19 scale: how often feels that life is full of opportunities,2.0,Sometimes
+687019,ELSA,wave_9_elsa_data_eul_spsc,scqolr,CASP-19 scale: how often feels that life is full of opportunities,3.0,Not often
+687020,ELSA,wave_9_elsa_data_eul_spsc,scqolr,CASP-19 scale: how often feels that life is full of opportunities,4.0,Never
+687021,ELSA,wave_9_elsa_data_eul_spsc,scqols,CASP-19 scale: how often feels the future looks good for them,-9.0,Refused
+687022,ELSA,wave_9_elsa_data_eul_spsc,scqols,CASP-19 scale: how often feels the future looks good for them,-8.0,Don't know
+687023,ELSA,wave_9_elsa_data_eul_spsc,scqols,CASP-19 scale: how often feels the future looks good for them,-1.0,Not applicable
+687024,ELSA,wave_9_elsa_data_eul_spsc,scqols,CASP-19 scale: how often feels the future looks good for them,1.0,Often
+687025,ELSA,wave_9_elsa_data_eul_spsc,scqols,CASP-19 scale: how often feels the future looks good for them,2.0,Sometimes
+687026,ELSA,wave_9_elsa_data_eul_spsc,scqols,CASP-19 scale: how often feels the future looks good for them,3.0,Not often
+687027,ELSA,wave_9_elsa_data_eul_spsc,scqols,CASP-19 scale: how often feels the future looks good for them,4.0,Never
+687028,ELSA,wave_9_elsa_data_eul_spsc,scprt,Whether has a husband; wife or partner with whom they live,-9.0,Refused
+687029,ELSA,wave_9_elsa_data_eul_spsc,scprt,Whether has a husband; wife or partner with whom they live,-8.0,Don't know
+687030,ELSA,wave_9_elsa_data_eul_spsc,scprt,Whether has a husband; wife or partner with whom they live,-1.0,Not applicable
+687031,ELSA,wave_9_elsa_data_eul_spsc,scprt,Whether has a husband; wife or partner with whom they live,1.0,Yes
+687032,ELSA,wave_9_elsa_data_eul_spsc,scprt,Whether has a husband; wife or partner with whom they live,2.0,No
+687033,ELSA,wave_9_elsa_data_eul_spsc,scprta,How much their spouse/partner understands the way they feel about things,-9.0,Refused
+687034,ELSA,wave_9_elsa_data_eul_spsc,scprta,How much their spouse/partner understands the way they feel about things,-8.0,Don't know
+687035,ELSA,wave_9_elsa_data_eul_spsc,scprta,How much their spouse/partner understands the way they feel about things,-1.0,Not applicable
+687036,ELSA,wave_9_elsa_data_eul_spsc,scprta,How much their spouse/partner understands the way they feel about things,1.0,A lot
+687037,ELSA,wave_9_elsa_data_eul_spsc,scprta,How much their spouse/partner understands the way they feel about things,2.0,Some
+687038,ELSA,wave_9_elsa_data_eul_spsc,scprta,How much their spouse/partner understands the way they feel about things,3.0,A little
+687039,ELSA,wave_9_elsa_data_eul_spsc,scprta,How much their spouse/partner understands the way they feel about things,4.0,Not at all
+687040,ELSA,wave_9_elsa_data_eul_spsc,scprtb,How much can rely on their spouse/partner if they have a serious problem,-9.0,Refused
+687041,ELSA,wave_9_elsa_data_eul_spsc,scprtb,How much can rely on their spouse/partner if they have a serious problem,-8.0,Don't know
+687042,ELSA,wave_9_elsa_data_eul_spsc,scprtb,How much can rely on their spouse/partner if they have a serious problem,-1.0,Not applicable
+687043,ELSA,wave_9_elsa_data_eul_spsc,scprtb,How much can rely on their spouse/partner if they have a serious problem,1.0,A lot
+687044,ELSA,wave_9_elsa_data_eul_spsc,scprtb,How much can rely on their spouse/partner if they have a serious problem,2.0,Some
+687045,ELSA,wave_9_elsa_data_eul_spsc,scprtb,How much can rely on their spouse/partner if they have a serious problem,3.0,A little
+687046,ELSA,wave_9_elsa_data_eul_spsc,scprtb,How much can rely on their spouse/partner if they have a serious problem,4.0,Not at all
+687047,ELSA,wave_9_elsa_data_eul_spsc,scprtc,How much can open up to their spouse/partner if they need to talk about their wo,-9.0,Refused
+687048,ELSA,wave_9_elsa_data_eul_spsc,scprtc,How much can open up to their spouse/partner if they need to talk about their wo,-8.0,Don't know
+687049,ELSA,wave_9_elsa_data_eul_spsc,scprtc,How much can open up to their spouse/partner if they need to talk about their wo,-1.0,Not applicable
+687050,ELSA,wave_9_elsa_data_eul_spsc,scprtc,How much can open up to their spouse/partner if they need to talk about their wo,1.0,A lot
+687051,ELSA,wave_9_elsa_data_eul_spsc,scprtc,How much can open up to their spouse/partner if they need to talk about their wo,2.0,Some
+687052,ELSA,wave_9_elsa_data_eul_spsc,scprtc,How much can open up to their spouse/partner if they need to talk about their wo,3.0,A little
+687053,ELSA,wave_9_elsa_data_eul_spsc,scprtc,How much can open up to their spouse/partner if they need to talk about their wo,4.0,Not at all
+687054,ELSA,wave_9_elsa_data_eul_spsc,scprtd,How much their spouse/partner criticises the respondent,-9.0,Refused
+687055,ELSA,wave_9_elsa_data_eul_spsc,scprtd,How much their spouse/partner criticises the respondent,-8.0,Don't know
+687056,ELSA,wave_9_elsa_data_eul_spsc,scprtd,How much their spouse/partner criticises the respondent,-1.0,Not applicable
+687057,ELSA,wave_9_elsa_data_eul_spsc,scprtd,How much their spouse/partner criticises the respondent,1.0,A lot
+687058,ELSA,wave_9_elsa_data_eul_spsc,scprtd,How much their spouse/partner criticises the respondent,2.0,Some
+687059,ELSA,wave_9_elsa_data_eul_spsc,scprtd,How much their spouse/partner criticises the respondent,3.0,A little
+687060,ELSA,wave_9_elsa_data_eul_spsc,scprtd,How much their spouse/partner criticises the respondent,4.0,Not at all
+687061,ELSA,wave_9_elsa_data_eul_spsc,scprte,How much their spouse/partner lets the respondent down,-9.0,Refused
+687062,ELSA,wave_9_elsa_data_eul_spsc,scprte,How much their spouse/partner lets the respondent down,-8.0,Don't know
+687063,ELSA,wave_9_elsa_data_eul_spsc,scprte,How much their spouse/partner lets the respondent down,-1.0,Not applicable
+687064,ELSA,wave_9_elsa_data_eul_spsc,scprte,How much their spouse/partner lets the respondent down,1.0,A lot
+687065,ELSA,wave_9_elsa_data_eul_spsc,scprte,How much their spouse/partner lets the respondent down,2.0,Some
+687066,ELSA,wave_9_elsa_data_eul_spsc,scprte,How much their spouse/partner lets the respondent down,3.0,A little
+687067,ELSA,wave_9_elsa_data_eul_spsc,scprte,How much their spouse/partner lets the respondent down,4.0,Not at all
+687068,ELSA,wave_9_elsa_data_eul_spsc,scprtf,How much their spouse/partner gets on the respondent's nerves,-9.0,Refused
+687069,ELSA,wave_9_elsa_data_eul_spsc,scprtf,How much their spouse/partner gets on the respondent's nerves,-8.0,Don't know
+687070,ELSA,wave_9_elsa_data_eul_spsc,scprtf,How much their spouse/partner gets on the respondent's nerves,-1.0,Not applicable
+687071,ELSA,wave_9_elsa_data_eul_spsc,scprtf,How much their spouse/partner gets on the respondent's nerves,1.0,A lot
+687072,ELSA,wave_9_elsa_data_eul_spsc,scprtf,How much their spouse/partner gets on the respondent's nerves,2.0,Some
+687073,ELSA,wave_9_elsa_data_eul_spsc,scprtf,How much their spouse/partner gets on the respondent's nerves,3.0,A little
+687074,ELSA,wave_9_elsa_data_eul_spsc,scprtf,How much their spouse/partner gets on the respondent's nerves,4.0,Not at all
+687075,ELSA,wave_9_elsa_data_eul_spsc,scprtg,How often their spouse/partner makes too many demands on the respondent,-9.0,Refused
+687076,ELSA,wave_9_elsa_data_eul_spsc,scprtg,How often their spouse/partner makes too many demands on the respondent,-8.0,Don't know
+687077,ELSA,wave_9_elsa_data_eul_spsc,scprtg,How often their spouse/partner makes too many demands on the respondent,-1.0,Not applicable
+687078,ELSA,wave_9_elsa_data_eul_spsc,scprtg,How often their spouse/partner makes too many demands on the respondent,1.0,A lot
+687079,ELSA,wave_9_elsa_data_eul_spsc,scprtg,How often their spouse/partner makes too many demands on the respondent,2.0,Some
+687080,ELSA,wave_9_elsa_data_eul_spsc,scprtg,How often their spouse/partner makes too many demands on the respondent,3.0,A little
+687081,ELSA,wave_9_elsa_data_eul_spsc,scprtg,How often their spouse/partner makes too many demands on the respondent,4.0,Not at all
+687082,ELSA,wave_9_elsa_data_eul_spsc,scprtm,How close is the respondent's relationship with their spouse/partner,-9.0,Refused
+687083,ELSA,wave_9_elsa_data_eul_spsc,scprtm,How close is the respondent's relationship with their spouse/partner,-8.0,Don't know
+687084,ELSA,wave_9_elsa_data_eul_spsc,scprtm,How close is the respondent's relationship with their spouse/partner,-1.0,Not applicable
+687085,ELSA,wave_9_elsa_data_eul_spsc,scprtm,How close is the respondent's relationship with their spouse/partner,1.0,Very close
+687086,ELSA,wave_9_elsa_data_eul_spsc,scprtm,How close is the respondent's relationship with their spouse/partner,2.0,Quite close
+687087,ELSA,wave_9_elsa_data_eul_spsc,scprtm,How close is the respondent's relationship with their spouse/partner,3.0,Not very close
+687088,ELSA,wave_9_elsa_data_eul_spsc,scprtm,How close is the respondent's relationship with their spouse/partner,4.0,Not at all close
+687089,ELSA,wave_9_elsa_data_eul_spsc,scchd,Whether the respondent has any children,-9.0,Refused
+687090,ELSA,wave_9_elsa_data_eul_spsc,scchd,Whether the respondent has any children,-8.0,Don't know
+687091,ELSA,wave_9_elsa_data_eul_spsc,scchd,Whether the respondent has any children,-1.0,Not applicable
+687092,ELSA,wave_9_elsa_data_eul_spsc,scchd,Whether the respondent has any children,1.0,Yes
+687093,ELSA,wave_9_elsa_data_eul_spsc,scchd,Whether the respondent has any children,2.0,No
+687094,ELSA,wave_9_elsa_data_eul_spsc,scchda,How much respondent's children understand the way they feel about things,-9.0,Refused
+687095,ELSA,wave_9_elsa_data_eul_spsc,scchda,How much respondent's children understand the way they feel about things,-8.0,Don't know
+687096,ELSA,wave_9_elsa_data_eul_spsc,scchda,How much respondent's children understand the way they feel about things,-1.0,Not applicable
+687097,ELSA,wave_9_elsa_data_eul_spsc,scchda,How much respondent's children understand the way they feel about things,1.0,A lot
+687098,ELSA,wave_9_elsa_data_eul_spsc,scchda,How much respondent's children understand the way they feel about things,2.0,Some
+687099,ELSA,wave_9_elsa_data_eul_spsc,scchda,How much respondent's children understand the way they feel about things,3.0,A little
+687100,ELSA,wave_9_elsa_data_eul_spsc,scchda,How much respondent's children understand the way they feel about things,4.0,Not at all
+687101,ELSA,wave_9_elsa_data_eul_spsc,scchdb,How much respondent can rely on their children if they have a problem,-9.0,Refused
+687102,ELSA,wave_9_elsa_data_eul_spsc,scchdb,How much respondent can rely on their children if they have a problem,-8.0,Don't know
+687103,ELSA,wave_9_elsa_data_eul_spsc,scchdb,How much respondent can rely on their children if they have a problem,-1.0,Not applicable
+687104,ELSA,wave_9_elsa_data_eul_spsc,scchdb,How much respondent can rely on their children if they have a problem,1.0,A lot
+687105,ELSA,wave_9_elsa_data_eul_spsc,scchdb,How much respondent can rely on their children if they have a problem,2.0,Some
+687106,ELSA,wave_9_elsa_data_eul_spsc,scchdb,How much respondent can rely on their children if they have a problem,3.0,A little
+687107,ELSA,wave_9_elsa_data_eul_spsc,scchdb,How much respondent can rely on their children if they have a problem,4.0,Not at all
+687108,ELSA,wave_9_elsa_data_eul_spsc,scchdc,How much respondent can open up to their children if they need to talk about the,-9.0,Refused
+687109,ELSA,wave_9_elsa_data_eul_spsc,scchdc,How much respondent can open up to their children if they need to talk about the,-8.0,Don't know
+687110,ELSA,wave_9_elsa_data_eul_spsc,scchdc,How much respondent can open up to their children if they need to talk about the,-1.0,Not applicable
+687111,ELSA,wave_9_elsa_data_eul_spsc,scchdc,How much respondent can open up to their children if they need to talk about the,1.0,A lot
+687112,ELSA,wave_9_elsa_data_eul_spsc,scchdc,How much respondent can open up to their children if they need to talk about the,2.0,Some
+687113,ELSA,wave_9_elsa_data_eul_spsc,scchdc,How much respondent can open up to their children if they need to talk about the,3.0,A little
+687114,ELSA,wave_9_elsa_data_eul_spsc,scchdc,How much respondent can open up to their children if they need to talk about the,4.0,Not at all
+687115,ELSA,wave_9_elsa_data_eul_spsc,scchdd,How much their children criticise the respondent,-9.0,Refused
+687116,ELSA,wave_9_elsa_data_eul_spsc,scchdd,How much their children criticise the respondent,-8.0,Don't know
+687117,ELSA,wave_9_elsa_data_eul_spsc,scchdd,How much their children criticise the respondent,-1.0,Not applicable
+687118,ELSA,wave_9_elsa_data_eul_spsc,scchdd,How much their children criticise the respondent,1.0,A lot
+687119,ELSA,wave_9_elsa_data_eul_spsc,scchdd,How much their children criticise the respondent,2.0,Some
+687120,ELSA,wave_9_elsa_data_eul_spsc,scchdd,How much their children criticise the respondent,3.0,A little
+687121,ELSA,wave_9_elsa_data_eul_spsc,scchdd,How much their children criticise the respondent,4.0,Not at all
+687122,ELSA,wave_9_elsa_data_eul_spsc,scchde,How much their children let the respondent down,-9.0,Refused
+687123,ELSA,wave_9_elsa_data_eul_spsc,scchde,How much their children let the respondent down,-8.0,Don't know
+687124,ELSA,wave_9_elsa_data_eul_spsc,scchde,How much their children let the respondent down,-1.0,Not applicable
+687125,ELSA,wave_9_elsa_data_eul_spsc,scchde,How much their children let the respondent down,1.0,A lot
+687126,ELSA,wave_9_elsa_data_eul_spsc,scchde,How much their children let the respondent down,2.0,Some
+687127,ELSA,wave_9_elsa_data_eul_spsc,scchde,How much their children let the respondent down,3.0,A little
+687128,ELSA,wave_9_elsa_data_eul_spsc,scchde,How much their children let the respondent down,4.0,Not at all
+687129,ELSA,wave_9_elsa_data_eul_spsc,scchdf,How much their children get on the respondent's nerves,-9.0,Refused
+687130,ELSA,wave_9_elsa_data_eul_spsc,scchdf,How much their children get on the respondent's nerves,-8.0,Don't know
+687131,ELSA,wave_9_elsa_data_eul_spsc,scchdf,How much their children get on the respondent's nerves,-1.0,Not applicable
+687132,ELSA,wave_9_elsa_data_eul_spsc,scchdf,How much their children get on the respondent's nerves,1.0,A lot
+687133,ELSA,wave_9_elsa_data_eul_spsc,scchdf,How much their children get on the respondent's nerves,2.0,Some
+687134,ELSA,wave_9_elsa_data_eul_spsc,scchdf,How much their children get on the respondent's nerves,3.0,A little
+687135,ELSA,wave_9_elsa_data_eul_spsc,scchdf,How much their children get on the respondent's nerves,4.0,Not at all
+687136,ELSA,wave_9_elsa_data_eul_spsc,scchdg,How often their children make demands on the respondent,-9.0,Refused
+687137,ELSA,wave_9_elsa_data_eul_spsc,scchdg,How often their children make demands on the respondent,-8.0,Don't know
+687138,ELSA,wave_9_elsa_data_eul_spsc,scchdg,How often their children make demands on the respondent,-1.0,Not applicable
+687139,ELSA,wave_9_elsa_data_eul_spsc,scchdg,How often their children make demands on the respondent,1.0,A lot
+687140,ELSA,wave_9_elsa_data_eul_spsc,scchdg,How often their children make demands on the respondent,2.0,Some
+687141,ELSA,wave_9_elsa_data_eul_spsc,scchdg,How often their children make demands on the respondent,3.0,A little
+687142,ELSA,wave_9_elsa_data_eul_spsc,scchdg,How often their children make demands on the respondent,4.0,Not at all
+687143,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,-9.0,Refused
+687144,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,-8.0,Don't know
+687145,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,-1.0,Not applicable
+687146,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,1.0,Three or more times a week
+687147,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,2.0,Once or twice a week
+687148,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,3.0,Once or twice a month
+687149,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,4.0,Every few months
+687150,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,5.0,Once or twice a year
+687151,ELSA,wave_9_elsa_data_eul_spsc,scchdh,How often respondent meets up with their children on average,6.0,Less than once a year or never
+687152,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,-9.0,Refused
+687153,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,-8.0,Don't know
+687154,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,-1.0,Not applicable
+687155,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,1.0,Three or more times a week
+687156,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,2.0,Once or twice a week
+687157,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,3.0,Once or twice a month
+687158,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,4.0,Every few months
+687159,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,5.0,Once or twice a year
+687160,ELSA,wave_9_elsa_data_eul_spsc,scchdi,How often respondent speaks on the phone to their children,6.0,Less than once a year or never
+687161,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,-9.0,Refused
+687162,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,-8.0,Don't know
+687163,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,-1.0,Not applicable
+687164,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,1.0,Three or more times a week
+687165,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,2.0,Once or twice a week
+687166,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,3.0,Once or twice a month
+687167,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,4.0,Every few months
+687168,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,5.0,Once or twice a year
+687169,ELSA,wave_9_elsa_data_eul_spsc,scchdj,How often respondent writes to or emails their children,6.0,Less than once a year or never
+687170,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,-9.0,Refused
+687171,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,-8.0,Don't know
+687172,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,-1.0,Not applicable
+687173,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,1.0,Three or more times a week
+687174,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,2.0,Once or twice a week
+687175,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,3.0,Once or twice a month
+687176,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,4.0,Every few months
+687177,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,5.0,Once or twice a year
+687178,ELSA,wave_9_elsa_data_eul_spsc,scchdk,How often respondent sends or receives text messages from their children,6.0,Less than once a year or never
+687179,ELSA,wave_9_elsa_data_eul_spsc,scchdm,How many children the respondent has a close relationship with,-9.0,Refused
+687180,ELSA,wave_9_elsa_data_eul_spsc,scchdm,How many children the respondent has a close relationship with,-8.0,Don't know
+687181,ELSA,wave_9_elsa_data_eul_spsc,scchdm,How many children the respondent has a close relationship with,-1.0,Not applicable
+687182,ELSA,wave_9_elsa_data_eul_spsc,scfam,Whether the respondent has any other immediate family (e.g. siblings; parents; g,-9.0,Refused
+687183,ELSA,wave_9_elsa_data_eul_spsc,scfam,Whether the respondent has any other immediate family (e.g. siblings; parents; g,-8.0,Don't know
+687184,ELSA,wave_9_elsa_data_eul_spsc,scfam,Whether the respondent has any other immediate family (e.g. siblings; parents; g,-1.0,Not applicable
+687185,ELSA,wave_9_elsa_data_eul_spsc,scfam,Whether the respondent has any other immediate family (e.g. siblings; parents; g,1.0,Yes
+687186,ELSA,wave_9_elsa_data_eul_spsc,scfam,Whether the respondent has any other immediate family (e.g. siblings; parents; g,2.0,No
+687187,ELSA,wave_9_elsa_data_eul_spsc,scfama,How much respondents's family members understand the way they feel about things,-9.0,Refused
+687188,ELSA,wave_9_elsa_data_eul_spsc,scfama,How much respondents's family members understand the way they feel about things,-8.0,Don't know
+687189,ELSA,wave_9_elsa_data_eul_spsc,scfama,How much respondents's family members understand the way they feel about things,-1.0,Not applicable
+687190,ELSA,wave_9_elsa_data_eul_spsc,scfama,How much respondents's family members understand the way they feel about things,1.0,A lot
+687191,ELSA,wave_9_elsa_data_eul_spsc,scfama,How much respondents's family members understand the way they feel about things,2.0,Some
+687192,ELSA,wave_9_elsa_data_eul_spsc,scfama,How much respondents's family members understand the way they feel about things,3.0,A little
+687193,ELSA,wave_9_elsa_data_eul_spsc,scfama,How much respondents's family members understand the way they feel about things,4.0,Not at all
+687194,ELSA,wave_9_elsa_data_eul_spsc,scfamb,How much respondent can rely on other family members if they have a serious prob,-9.0,Refused
+687195,ELSA,wave_9_elsa_data_eul_spsc,scfamb,How much respondent can rely on other family members if they have a serious prob,-8.0,Don't know
+687196,ELSA,wave_9_elsa_data_eul_spsc,scfamb,How much respondent can rely on other family members if they have a serious prob,-1.0,Not applicable
+687197,ELSA,wave_9_elsa_data_eul_spsc,scfamb,How much respondent can rely on other family members if they have a serious prob,1.0,A lot
+687198,ELSA,wave_9_elsa_data_eul_spsc,scfamb,How much respondent can rely on other family members if they have a serious prob,2.0,Some
+687199,ELSA,wave_9_elsa_data_eul_spsc,scfamb,How much respondent can rely on other family members if they have a serious prob,3.0,A little
+687200,ELSA,wave_9_elsa_data_eul_spsc,scfamb,How much respondent can rely on other family members if they have a serious prob,4.0,Not at all
+687201,ELSA,wave_9_elsa_data_eul_spsc,scfamc,How much respondent can open up to other family members if they need to talk abo,-9.0,Refused
+687202,ELSA,wave_9_elsa_data_eul_spsc,scfamc,How much respondent can open up to other family members if they need to talk abo,-8.0,Don't know
+687203,ELSA,wave_9_elsa_data_eul_spsc,scfamc,How much respondent can open up to other family members if they need to talk abo,-1.0,Not applicable
+687204,ELSA,wave_9_elsa_data_eul_spsc,scfamc,How much respondent can open up to other family members if they need to talk abo,1.0,A lot
+687205,ELSA,wave_9_elsa_data_eul_spsc,scfamc,How much respondent can open up to other family members if they need to talk abo,2.0,Some
+687206,ELSA,wave_9_elsa_data_eul_spsc,scfamc,How much respondent can open up to other family members if they need to talk abo,3.0,A little
+687207,ELSA,wave_9_elsa_data_eul_spsc,scfamc,How much respondent can open up to other family members if they need to talk abo,4.0,Not at all
+687208,ELSA,wave_9_elsa_data_eul_spsc,scfamd,How much other family members criticise the respondent,-9.0,Refused
+687209,ELSA,wave_9_elsa_data_eul_spsc,scfamd,How much other family members criticise the respondent,-8.0,Don't know
+687210,ELSA,wave_9_elsa_data_eul_spsc,scfamd,How much other family members criticise the respondent,-1.0,Not applicable
+687211,ELSA,wave_9_elsa_data_eul_spsc,scfamd,How much other family members criticise the respondent,1.0,A lot
+687212,ELSA,wave_9_elsa_data_eul_spsc,scfamd,How much other family members criticise the respondent,2.0,Some
+687213,ELSA,wave_9_elsa_data_eul_spsc,scfamd,How much other family members criticise the respondent,3.0,A little
+687214,ELSA,wave_9_elsa_data_eul_spsc,scfamd,How much other family members criticise the respondent,4.0,Not at all
+687215,ELSA,wave_9_elsa_data_eul_spsc,scfame,How much other family members let the respondent down,-9.0,Refused
+687216,ELSA,wave_9_elsa_data_eul_spsc,scfame,How much other family members let the respondent down,-8.0,Don't know
+687217,ELSA,wave_9_elsa_data_eul_spsc,scfame,How much other family members let the respondent down,-1.0,Not applicable
+687218,ELSA,wave_9_elsa_data_eul_spsc,scfame,How much other family members let the respondent down,1.0,A lot
+687219,ELSA,wave_9_elsa_data_eul_spsc,scfame,How much other family members let the respondent down,2.0,Some
+687220,ELSA,wave_9_elsa_data_eul_spsc,scfame,How much other family members let the respondent down,3.0,A little
+687221,ELSA,wave_9_elsa_data_eul_spsc,scfame,How much other family members let the respondent down,4.0,Not at all
+687222,ELSA,wave_9_elsa_data_eul_spsc,scfamf,How much other family members get on the nerves of the respondent,-9.0,Refused
+687223,ELSA,wave_9_elsa_data_eul_spsc,scfamf,How much other family members get on the nerves of the respondent,-8.0,Don't know
+687224,ELSA,wave_9_elsa_data_eul_spsc,scfamf,How much other family members get on the nerves of the respondent,-1.0,Not applicable
+687225,ELSA,wave_9_elsa_data_eul_spsc,scfamf,How much other family members get on the nerves of the respondent,1.0,A lot
+687226,ELSA,wave_9_elsa_data_eul_spsc,scfamf,How much other family members get on the nerves of the respondent,2.0,Some
+687227,ELSA,wave_9_elsa_data_eul_spsc,scfamf,How much other family members get on the nerves of the respondent,3.0,A little
+687228,ELSA,wave_9_elsa_data_eul_spsc,scfamf,How much other family members get on the nerves of the respondent,4.0,Not at all
+687229,ELSA,wave_9_elsa_data_eul_spsc,scfamg,How often other family members make too many demands on the respondent,-9.0,Refused
+687230,ELSA,wave_9_elsa_data_eul_spsc,scfamg,How often other family members make too many demands on the respondent,-8.0,Don't know
+687231,ELSA,wave_9_elsa_data_eul_spsc,scfamg,How often other family members make too many demands on the respondent,-1.0,Not applicable
+687232,ELSA,wave_9_elsa_data_eul_spsc,scfamg,How often other family members make too many demands on the respondent,1.0,A lot
+687233,ELSA,wave_9_elsa_data_eul_spsc,scfamg,How often other family members make too many demands on the respondent,2.0,Some
+687234,ELSA,wave_9_elsa_data_eul_spsc,scfamg,How often other family members make too many demands on the respondent,3.0,A little
+687235,ELSA,wave_9_elsa_data_eul_spsc,scfamg,How often other family members make too many demands on the respondent,4.0,Not at all
+687236,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,-9.0,Refused
+687237,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,-8.0,Don't know
+687238,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,-1.0,Not applicable
+687239,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,1.0,Three or more times a week
+687240,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,2.0,Once or twice a week
+687241,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,3.0,Once or twice a month
+687242,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,4.0,Every few months
+687243,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,5.0,Once or twice a year
+687244,ELSA,wave_9_elsa_data_eul_spsc,scfamh,How often the respondent meets up with other family members,6.0,Less than once a year or never
+687245,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,-9.0,Refused
+687246,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,-8.0,Don't know
+687247,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,-1.0,Not applicable
+687248,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,1.0,Three or more times a week
+687249,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,2.0,Once or twice a week
+687250,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,3.0,Once or twice a month
+687251,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,4.0,Every few months
+687252,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,5.0,Once or twice a year
+687253,ELSA,wave_9_elsa_data_eul_spsc,scfami,How often the respondent speaks on the phone to other family members,6.0,Less than once a year or never
+687254,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,-9.0,Refused
+687255,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,-8.0,Don't know
+687256,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,-1.0,Not applicable
+687257,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,1.0,Three or more times a week
+687258,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,2.0,Once or twice a week
+687259,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,3.0,Once or twice a month
+687260,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,4.0,Every few months
+687261,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,5.0,Once or twice a year
+687262,ELSA,wave_9_elsa_data_eul_spsc,scfamj,How often the respondent writes to or emails other family members,6.0,Less than once a year or never
+687263,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,-9.0,Refused
+687264,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,-8.0,Don't know
+687265,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,-1.0,Not applicable
+687266,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,1.0,Three or more times a week
+687267,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,2.0,Once or twice a week
+687268,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,3.0,Once or twice a month
+687269,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,4.0,Every few months
+687270,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,5.0,Once or twice a year
+687271,ELSA,wave_9_elsa_data_eul_spsc,scfamk,How often the respondent sends or receives text messages from other family membe,6.0,Less than once a year or never
+687272,ELSA,wave_9_elsa_data_eul_spsc,scfamm,How many other family members the respondent has a close relationship with,-9.0,Refused
+687273,ELSA,wave_9_elsa_data_eul_spsc,scfamm,How many other family members the respondent has a close relationship with,-8.0,Don't know
+687274,ELSA,wave_9_elsa_data_eul_spsc,scfamm,How many other family members the respondent has a close relationship with,-1.0,Not applicable
+687275,ELSA,wave_9_elsa_data_eul_spsc,scfrd,Whether the respondent has any friends,-9.0,Refused
+687276,ELSA,wave_9_elsa_data_eul_spsc,scfrd,Whether the respondent has any friends,-8.0,Don't know
+687277,ELSA,wave_9_elsa_data_eul_spsc,scfrd,Whether the respondent has any friends,-1.0,Not applicable
+687278,ELSA,wave_9_elsa_data_eul_spsc,scfrd,Whether the respondent has any friends,1.0,Yes
+687279,ELSA,wave_9_elsa_data_eul_spsc,scfrd,Whether the respondent has any friends,2.0,No
+687280,ELSA,wave_9_elsa_data_eul_spsc,scfrda,How much respondent's friends understand the way they feel about things,-9.0,Refused
+687281,ELSA,wave_9_elsa_data_eul_spsc,scfrda,How much respondent's friends understand the way they feel about things,-8.0,Don't know
+687282,ELSA,wave_9_elsa_data_eul_spsc,scfrda,How much respondent's friends understand the way they feel about things,-1.0,Not applicable
+687283,ELSA,wave_9_elsa_data_eul_spsc,scfrda,How much respondent's friends understand the way they feel about things,1.0,A lot
+687284,ELSA,wave_9_elsa_data_eul_spsc,scfrda,How much respondent's friends understand the way they feel about things,2.0,Some
+687285,ELSA,wave_9_elsa_data_eul_spsc,scfrda,How much respondent's friends understand the way they feel about things,3.0,A little
+687286,ELSA,wave_9_elsa_data_eul_spsc,scfrda,How much respondent's friends understand the way they feel about things,4.0,Not at all
+687287,ELSA,wave_9_elsa_data_eul_spsc,scfrdb,How much respondent can rely on their friends if they have a serious problem,-9.0,Refused
+687288,ELSA,wave_9_elsa_data_eul_spsc,scfrdb,How much respondent can rely on their friends if they have a serious problem,-8.0,Don't know
+687289,ELSA,wave_9_elsa_data_eul_spsc,scfrdb,How much respondent can rely on their friends if they have a serious problem,-1.0,Not applicable
+687290,ELSA,wave_9_elsa_data_eul_spsc,scfrdb,How much respondent can rely on their friends if they have a serious problem,1.0,A lot
+687291,ELSA,wave_9_elsa_data_eul_spsc,scfrdb,How much respondent can rely on their friends if they have a serious problem,2.0,Some
+687292,ELSA,wave_9_elsa_data_eul_spsc,scfrdb,How much respondent can rely on their friends if they have a serious problem,3.0,A little
+687293,ELSA,wave_9_elsa_data_eul_spsc,scfrdb,How much respondent can rely on their friends if they have a serious problem,4.0,Not at all
+687294,ELSA,wave_9_elsa_data_eul_spsc,scfrdc,How much respondent can open up to their friends if they need to talk about thei,-9.0,Refused
+687295,ELSA,wave_9_elsa_data_eul_spsc,scfrdc,How much respondent can open up to their friends if they need to talk about thei,-8.0,Don't know
+687296,ELSA,wave_9_elsa_data_eul_spsc,scfrdc,How much respondent can open up to their friends if they need to talk about thei,-1.0,Not applicable
+687297,ELSA,wave_9_elsa_data_eul_spsc,scfrdc,How much respondent can open up to their friends if they need to talk about thei,1.0,A lot
+687298,ELSA,wave_9_elsa_data_eul_spsc,scfrdc,How much respondent can open up to their friends if they need to talk about thei,2.0,Some
+687299,ELSA,wave_9_elsa_data_eul_spsc,scfrdc,How much respondent can open up to their friends if they need to talk about thei,3.0,A little
+687300,ELSA,wave_9_elsa_data_eul_spsc,scfrdc,How much respondent can open up to their friends if they need to talk about thei,4.0,Not at all
+687301,ELSA,wave_9_elsa_data_eul_spsc,scfrdd,How much their friends criticise the respondent,-9.0,Refused
+687302,ELSA,wave_9_elsa_data_eul_spsc,scfrdd,How much their friends criticise the respondent,-8.0,Don't know
+687303,ELSA,wave_9_elsa_data_eul_spsc,scfrdd,How much their friends criticise the respondent,-1.0,Not applicable
+687304,ELSA,wave_9_elsa_data_eul_spsc,scfrdd,How much their friends criticise the respondent,1.0,A lot
+687305,ELSA,wave_9_elsa_data_eul_spsc,scfrdd,How much their friends criticise the respondent,2.0,Some
+687306,ELSA,wave_9_elsa_data_eul_spsc,scfrdd,How much their friends criticise the respondent,3.0,A little
+687307,ELSA,wave_9_elsa_data_eul_spsc,scfrdd,How much their friends criticise the respondent,4.0,Not at all
+687308,ELSA,wave_9_elsa_data_eul_spsc,scfrde,How much their friends let the respondent down,-9.0,Refused
+687309,ELSA,wave_9_elsa_data_eul_spsc,scfrde,How much their friends let the respondent down,-8.0,Don't know
+687310,ELSA,wave_9_elsa_data_eul_spsc,scfrde,How much their friends let the respondent down,-1.0,Not applicable
+687311,ELSA,wave_9_elsa_data_eul_spsc,scfrde,How much their friends let the respondent down,1.0,A lot
+687312,ELSA,wave_9_elsa_data_eul_spsc,scfrde,How much their friends let the respondent down,2.0,Some
+687313,ELSA,wave_9_elsa_data_eul_spsc,scfrde,How much their friends let the respondent down,3.0,A little
+687314,ELSA,wave_9_elsa_data_eul_spsc,scfrde,How much their friends let the respondent down,4.0,Not at all
+687315,ELSA,wave_9_elsa_data_eul_spsc,scfrdf,How much their friends get on the respondent's nerves,-9.0,Refused
+687316,ELSA,wave_9_elsa_data_eul_spsc,scfrdf,How much their friends get on the respondent's nerves,-8.0,Don't know
+687317,ELSA,wave_9_elsa_data_eul_spsc,scfrdf,How much their friends get on the respondent's nerves,-1.0,Not applicable
+687318,ELSA,wave_9_elsa_data_eul_spsc,scfrdf,How much their friends get on the respondent's nerves,1.0,A lot
+687319,ELSA,wave_9_elsa_data_eul_spsc,scfrdf,How much their friends get on the respondent's nerves,2.0,Some
+687320,ELSA,wave_9_elsa_data_eul_spsc,scfrdf,How much their friends get on the respondent's nerves,3.0,A little
+687321,ELSA,wave_9_elsa_data_eul_spsc,scfrdf,How much their friends get on the respondent's nerves,4.0,Not at all
+687322,ELSA,wave_9_elsa_data_eul_spsc,scfrdg,How often their friends make too many demands on the respondent,-9.0,Refused
+687323,ELSA,wave_9_elsa_data_eul_spsc,scfrdg,How often their friends make too many demands on the respondent,-8.0,Don't know
+687324,ELSA,wave_9_elsa_data_eul_spsc,scfrdg,How often their friends make too many demands on the respondent,-1.0,Not applicable
+687325,ELSA,wave_9_elsa_data_eul_spsc,scfrdg,How often their friends make too many demands on the respondent,1.0,A lot
+687326,ELSA,wave_9_elsa_data_eul_spsc,scfrdg,How often their friends make too many demands on the respondent,2.0,Some
+687327,ELSA,wave_9_elsa_data_eul_spsc,scfrdg,How often their friends make too many demands on the respondent,3.0,A little
+687328,ELSA,wave_9_elsa_data_eul_spsc,scfrdg,How often their friends make too many demands on the respondent,4.0,Not at all
+687329,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,-9.0,Refused
+687330,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,-8.0,Don't know
+687331,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,-1.0,Not applicable
+687332,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,1.0,Three or more times a week
+687333,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,2.0,Once or twice a week
+687334,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,3.0,Once or twice a month
+687335,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,4.0,Every few months
+687336,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,5.0,Once or twice a year
+687337,ELSA,wave_9_elsa_data_eul_spsc,scfrdh,How often the respondent meets up with their friends,6.0,Less than once a year or never
+687338,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,-9.0,Refused
+687339,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,-8.0,Don't know
+687340,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,-1.0,Not applicable
+687341,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,1.0,Three or more times a week
+687342,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,2.0,Once or twice a week
+687343,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,3.0,Once or twice a month
+687344,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,4.0,Every few months
+687345,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,5.0,Once or twice a year
+687346,ELSA,wave_9_elsa_data_eul_spsc,scfrdi,How often the respondent speaks with their friends on the phone,6.0,Less than once a year or never
+687347,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,-9.0,Refused
+687348,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,-8.0,Don't know
+687349,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,-1.0,Not applicable
+687350,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,1.0,Three or more times a week
+687351,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,2.0,Once or twice a week
+687352,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,3.0,Once or twice a month
+687353,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,4.0,Every few months
+687354,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,5.0,Once or twice a year
+687355,ELSA,wave_9_elsa_data_eul_spsc,scfrdj,How often the respondent writes to or emails their friends,6.0,Less than once a year or never
+687356,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,-9.0,Refused
+687357,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,-8.0,Don't know
+687358,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,-1.0,Not applicable
+687359,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,1.0,Three or more times a week
+687360,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,2.0,Once or twice a week
+687361,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,3.0,Once or twice a month
+687362,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,4.0,Every few months
+687363,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,5.0,Once or twice a year
+687364,ELSA,wave_9_elsa_data_eul_spsc,scfrdk,How often the respondent sends/receives text messages from friends,6.0,Less than once a year or never
+687365,ELSA,wave_9_elsa_data_eul_spsc,scfrdm,How many friends the respondent has a close relationship with,-9.0,Refused
+687366,ELSA,wave_9_elsa_data_eul_spsc,scfrdm,How many friends the respondent has a close relationship with,-8.0,Don't know
+687367,ELSA,wave_9_elsa_data_eul_spsc,scfrdm,How many friends the respondent has a close relationship with,-1.0,Not applicable
+687368,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,-9.0,Not answered (99)
+687369,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,-8.0,Don't know
+687370,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,-1.0,Item not applicable
+687371,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,1.0,No religion
+687372,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,2.0,"Christian (including Church of England, Catholic, other Prot"
+687373,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,3.0,Buddhist
+687374,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,4.0,Hindu
+687375,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,5.0,Jewish
+687376,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,6.0,Muslim
+687377,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,7.0,Sikh
+687378,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,8.0,"Any other religion, write in"
+687379,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,85.0,Other non-Christian (not codeable 3-7)
+687380,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,86.0,Vague/irrelevant
+687381,ELSA,wave_9_elsa_data_eul_spsc,screwh,Respondent's religion,87.0,Editor cannot deal with
+687382,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,-9.0,Not answered (9)
+687383,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,-8.0,Don't know
+687384,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,-6.0,Don't know:mv (6)
+687385,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,-1.0,Item not applicable
+687386,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,1.0,More than once a week
+687387,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,2.0,Once a week
+687388,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,3.0,Two or three times a month
+687389,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,4.0,Once or more times a year
+687390,ELSA,wave_9_elsa_data_eul_spsc,screlof,How often the respondent attended religious services in the past year,5.0,Not at all
+687391,ELSA,wave_9_elsa_data_eul_spsc,screlfa,Religious faith is extremely important to the respondent,-9.0,Not answered (9)
+687392,ELSA,wave_9_elsa_data_eul_spsc,screlfa,Religious faith is extremely important to the respondent,-8.0,Don't know (8)
+687393,ELSA,wave_9_elsa_data_eul_spsc,screlfa,Religious faith is extremely important to the respondent,-1.0,Item not applicable
+687394,ELSA,wave_9_elsa_data_eul_spsc,screlfa,Religious faith is extremely important to the respondent,1.0,Strongly agree
+687395,ELSA,wave_9_elsa_data_eul_spsc,screlfa,Religious faith is extremely important to the respondent,2.0,Agree
+687396,ELSA,wave_9_elsa_data_eul_spsc,screlfa,Religious faith is extremely important to the respondent,3.0,Disagree
+687397,ELSA,wave_9_elsa_data_eul_spsc,screlfa,Religious faith is extremely important to the respondent,4.0,Strongly disagree
+687398,ELSA,wave_9_elsa_data_eul_spsc,screlpr,Respondent prays or meditates daily,-9.0,Not answered (9)
+687399,ELSA,wave_9_elsa_data_eul_spsc,screlpr,Respondent prays or meditates daily,-8.0,Don't know (8)
+687400,ELSA,wave_9_elsa_data_eul_spsc,screlpr,Respondent prays or meditates daily,-1.0,Item not applicable
+687401,ELSA,wave_9_elsa_data_eul_spsc,screlpr,Respondent prays or meditates daily,1.0,Strongly agree
+687402,ELSA,wave_9_elsa_data_eul_spsc,screlpr,Respondent prays or meditates daily,2.0,Agree
+687403,ELSA,wave_9_elsa_data_eul_spsc,screlpr,Respondent prays or meditates daily,3.0,Disagree
+687404,ELSA,wave_9_elsa_data_eul_spsc,screlpr,Respondent prays or meditates daily,4.0,Strongly disagree
+687405,ELSA,wave_9_elsa_data_eul_spsc,screlme,Respondent looks to their religion to provide meaning and purpose in their life,-9.0,Not answered (9)
+687406,ELSA,wave_9_elsa_data_eul_spsc,screlme,Respondent looks to their religion to provide meaning and purpose in their life,-8.0,Don't know (8)
+687407,ELSA,wave_9_elsa_data_eul_spsc,screlme,Respondent looks to their religion to provide meaning and purpose in their life,-1.0,Item not applicable
+687408,ELSA,wave_9_elsa_data_eul_spsc,screlme,Respondent looks to their religion to provide meaning and purpose in their life,1.0,Strongly agree
+687409,ELSA,wave_9_elsa_data_eul_spsc,screlme,Respondent looks to their religion to provide meaning and purpose in their life,2.0,Agree
+687410,ELSA,wave_9_elsa_data_eul_spsc,screlme,Respondent looks to their religion to provide meaning and purpose in their life,3.0,Disagree
+687411,ELSA,wave_9_elsa_data_eul_spsc,screlme,Respondent looks to their religion to provide meaning and purpose in their life,4.0,Strongly disagree
+687412,ELSA,wave_9_elsa_data_eul_spsc,screlac,The respondent considers themself active in organised religion,-9.0,Not answered (9)
+687413,ELSA,wave_9_elsa_data_eul_spsc,screlac,The respondent considers themself active in organised religion,-8.0,Don't know (8)
+687414,ELSA,wave_9_elsa_data_eul_spsc,screlac,The respondent considers themself active in organised religion,-1.0,Item not applicable
+687415,ELSA,wave_9_elsa_data_eul_spsc,screlac,The respondent considers themself active in organised religion,1.0,Strongly agree
+687416,ELSA,wave_9_elsa_data_eul_spsc,screlac,The respondent considers themself active in organised religion,2.0,Agree
+687417,ELSA,wave_9_elsa_data_eul_spsc,screlac,The respondent considers themself active in organised religion,3.0,Disagree
+687418,ELSA,wave_9_elsa_data_eul_spsc,screlac,The respondent considers themself active in organised religion,4.0,Strongly disagree
+687419,ELSA,wave_9_elsa_data_eul_spsc,scempl,Whether in paid employment last month,-9.0,Refused
+687420,ELSA,wave_9_elsa_data_eul_spsc,scempl,Whether in paid employment last month,-8.0,Don't know
+687421,ELSA,wave_9_elsa_data_eul_spsc,scempl,Whether in paid employment last month,-1.0,Not applicable
+687422,ELSA,wave_9_elsa_data_eul_spsc,scempl,Whether in paid employment last month,1.0,Yes
+687423,ELSA,wave_9_elsa_data_eul_spsc,scempl,Whether in paid employment last month,2.0,No
+687424,ELSA,wave_9_elsa_data_eul_spsc,scworka,Whether satisfied with their job,-9.0,Refused
+687425,ELSA,wave_9_elsa_data_eul_spsc,scworka,Whether satisfied with their job,-8.0,Don't know
+687426,ELSA,wave_9_elsa_data_eul_spsc,scworka,Whether satisfied with their job,-1.0,Not applicable
+687427,ELSA,wave_9_elsa_data_eul_spsc,scworka,Whether satisfied with their job,1.0,Strongly agree
+687428,ELSA,wave_9_elsa_data_eul_spsc,scworka,Whether satisfied with their job,2.0,Agree
+687429,ELSA,wave_9_elsa_data_eul_spsc,scworka,Whether satisfied with their job,3.0,Disagree
+687430,ELSA,wave_9_elsa_data_eul_spsc,scworka,Whether satisfied with their job,4.0,Strongly disagree
+687431,ELSA,wave_9_elsa_data_eul_spsc,scworkb,Whether feels their job is physically demanding,-9.0,Refused
+687432,ELSA,wave_9_elsa_data_eul_spsc,scworkb,Whether feels their job is physically demanding,-8.0,Don't know
+687433,ELSA,wave_9_elsa_data_eul_spsc,scworkb,Whether feels their job is physically demanding,-1.0,Not applicable
+687434,ELSA,wave_9_elsa_data_eul_spsc,scworkb,Whether feels their job is physically demanding,1.0,Strongly agree
+687435,ELSA,wave_9_elsa_data_eul_spsc,scworkb,Whether feels their job is physically demanding,2.0,Agree
+687436,ELSA,wave_9_elsa_data_eul_spsc,scworkb,Whether feels their job is physically demanding,3.0,Disagree
+687437,ELSA,wave_9_elsa_data_eul_spsc,scworkb,Whether feels their job is physically demanding,4.0,Strongly disagree
+687438,ELSA,wave_9_elsa_data_eul_spsc,scworkc,Whether receives the recognition they deserve in their work,-9.0,Refused
+687439,ELSA,wave_9_elsa_data_eul_spsc,scworkc,Whether receives the recognition they deserve in their work,-8.0,Don't know
+687440,ELSA,wave_9_elsa_data_eul_spsc,scworkc,Whether receives the recognition they deserve in their work,-1.0,Not applicable
+687441,ELSA,wave_9_elsa_data_eul_spsc,scworkc,Whether receives the recognition they deserve in their work,1.0,Strongly agree
+687442,ELSA,wave_9_elsa_data_eul_spsc,scworkc,Whether receives the recognition they deserve in their work,2.0,Agree
+687443,ELSA,wave_9_elsa_data_eul_spsc,scworkc,Whether receives the recognition they deserve in their work,3.0,Disagree
+687444,ELSA,wave_9_elsa_data_eul_spsc,scworkc,Whether receives the recognition they deserve in their work,4.0,Strongly disagree
+687445,ELSA,wave_9_elsa_data_eul_spsc,scworkd,Whether feels their salary is adequate,-9.0,Refused
+687446,ELSA,wave_9_elsa_data_eul_spsc,scworkd,Whether feels their salary is adequate,-8.0,Don't know
+687447,ELSA,wave_9_elsa_data_eul_spsc,scworkd,Whether feels their salary is adequate,-1.0,Not applicable
+687448,ELSA,wave_9_elsa_data_eul_spsc,scworkd,Whether feels their salary is adequate,1.0,Strongly agree
+687449,ELSA,wave_9_elsa_data_eul_spsc,scworkd,Whether feels their salary is adequate,2.0,Agree
+687450,ELSA,wave_9_elsa_data_eul_spsc,scworkd,Whether feels their salary is adequate,3.0,Disagree
+687451,ELSA,wave_9_elsa_data_eul_spsc,scworkd,Whether feels their salary is adequate,4.0,Strongly disagree
+687452,ELSA,wave_9_elsa_data_eul_spsc,scworke,Whether feels their job promotion prospects are poor,-9.0,Refused
+687453,ELSA,wave_9_elsa_data_eul_spsc,scworke,Whether feels their job promotion prospects are poor,-8.0,Don't know
+687454,ELSA,wave_9_elsa_data_eul_spsc,scworke,Whether feels their job promotion prospects are poor,-1.0,Not applicable
+687455,ELSA,wave_9_elsa_data_eul_spsc,scworke,Whether feels their job promotion prospects are poor,1.0,Strongly agree
+687456,ELSA,wave_9_elsa_data_eul_spsc,scworke,Whether feels their job promotion prospects are poor,2.0,Agree
+687457,ELSA,wave_9_elsa_data_eul_spsc,scworke,Whether feels their job promotion prospects are poor,3.0,Disagree
+687458,ELSA,wave_9_elsa_data_eul_spsc,scworke,Whether feels their job promotion prospects are poor,4.0,Strongly disagree
+687459,ELSA,wave_9_elsa_data_eul_spsc,scworkf,Whether feels their job security is poor,-9.0,Refused
+687460,ELSA,wave_9_elsa_data_eul_spsc,scworkf,Whether feels their job security is poor,-8.0,Don't know
+687461,ELSA,wave_9_elsa_data_eul_spsc,scworkf,Whether feels their job security is poor,-1.0,Not applicable
+687462,ELSA,wave_9_elsa_data_eul_spsc,scworkf,Whether feels their job security is poor,1.0,Strongly agree
+687463,ELSA,wave_9_elsa_data_eul_spsc,scworkf,Whether feels their job security is poor,2.0,Agree
+687464,ELSA,wave_9_elsa_data_eul_spsc,scworkf,Whether feels their job security is poor,3.0,Disagree
+687465,ELSA,wave_9_elsa_data_eul_spsc,scworkf,Whether feels their job security is poor,4.0,Strongly disagree
+687466,ELSA,wave_9_elsa_data_eul_spsc,scworkg,Whether feels under constant pressure due to a heavy workload,-9.0,Refused
+687467,ELSA,wave_9_elsa_data_eul_spsc,scworkg,Whether feels under constant pressure due to a heavy workload,-8.0,Don't know
+687468,ELSA,wave_9_elsa_data_eul_spsc,scworkg,Whether feels under constant pressure due to a heavy workload,-1.0,Not applicable
+687469,ELSA,wave_9_elsa_data_eul_spsc,scworkg,Whether feels under constant pressure due to a heavy workload,1.0,Strongly agree
+687470,ELSA,wave_9_elsa_data_eul_spsc,scworkg,Whether feels under constant pressure due to a heavy workload,2.0,Agree
+687471,ELSA,wave_9_elsa_data_eul_spsc,scworkg,Whether feels under constant pressure due to a heavy workload,3.0,Disagree
+687472,ELSA,wave_9_elsa_data_eul_spsc,scworkg,Whether feels under constant pressure due to a heavy workload,4.0,Strongly disagree
+687473,ELSA,wave_9_elsa_data_eul_spsc,scworkh,Whether feels they have little freedom to decide how to do their work,-9.0,Refused
+687474,ELSA,wave_9_elsa_data_eul_spsc,scworkh,Whether feels they have little freedom to decide how to do their work,-8.0,Don't know
+687475,ELSA,wave_9_elsa_data_eul_spsc,scworkh,Whether feels they have little freedom to decide how to do their work,-1.0,Not applicable
+687476,ELSA,wave_9_elsa_data_eul_spsc,scworkh,Whether feels they have little freedom to decide how to do their work,1.0,Strongly agree
+687477,ELSA,wave_9_elsa_data_eul_spsc,scworkh,Whether feels they have little freedom to decide how to do their work,2.0,Agree
+687478,ELSA,wave_9_elsa_data_eul_spsc,scworkh,Whether feels they have little freedom to decide how to do their work,3.0,Disagree
+687479,ELSA,wave_9_elsa_data_eul_spsc,scworkh,Whether feels they have little freedom to decide how to do their work,4.0,Strongly disagree
+687480,ELSA,wave_9_elsa_data_eul_spsc,scworki,Whether feels they have the opportunity to develop new skills,-9.0,Refused
+687481,ELSA,wave_9_elsa_data_eul_spsc,scworki,Whether feels they have the opportunity to develop new skills,-8.0,Don't know
+687482,ELSA,wave_9_elsa_data_eul_spsc,scworki,Whether feels they have the opportunity to develop new skills,-1.0,Not applicable
+687483,ELSA,wave_9_elsa_data_eul_spsc,scworki,Whether feels they have the opportunity to develop new skills,1.0,Strongly agree
+687484,ELSA,wave_9_elsa_data_eul_spsc,scworki,Whether feels they have the opportunity to develop new skills,2.0,Agree
+687485,ELSA,wave_9_elsa_data_eul_spsc,scworki,Whether feels they have the opportunity to develop new skills,3.0,Disagree
+687486,ELSA,wave_9_elsa_data_eul_spsc,scworki,Whether feels they have the opportunity to develop new skills,4.0,Strongly disagree
+687487,ELSA,wave_9_elsa_data_eul_spsc,scworkj,Whether feels they receive adequate support in difficult situations,-9.0,Refused
+687488,ELSA,wave_9_elsa_data_eul_spsc,scworkj,Whether feels they receive adequate support in difficult situations,-8.0,Don't know
+687489,ELSA,wave_9_elsa_data_eul_spsc,scworkj,Whether feels they receive adequate support in difficult situations,-1.0,Not applicable
+687490,ELSA,wave_9_elsa_data_eul_spsc,scworkj,Whether feels they receive adequate support in difficult situations,1.0,Strongly agree
+687491,ELSA,wave_9_elsa_data_eul_spsc,scworkj,Whether feels they receive adequate support in difficult situations,2.0,Agree
+687492,ELSA,wave_9_elsa_data_eul_spsc,scworkj,Whether feels they receive adequate support in difficult situations,3.0,Disagree
+687493,ELSA,wave_9_elsa_data_eul_spsc,scworkj,Whether feels they receive adequate support in difficult situations,4.0,Strongly disagree
+687494,ELSA,wave_9_elsa_data_eul_spsc,scworkk,Whether feels they have control over what happens in most situations,-9.0,Refused
+687495,ELSA,wave_9_elsa_data_eul_spsc,scworkk,Whether feels they have control over what happens in most situations,-8.0,Don't know
+687496,ELSA,wave_9_elsa_data_eul_spsc,scworkk,Whether feels they have control over what happens in most situations,-1.0,Not applicable
+687497,ELSA,wave_9_elsa_data_eul_spsc,scworkk,Whether feels they have control over what happens in most situations,1.0,Strongly agree
+687498,ELSA,wave_9_elsa_data_eul_spsc,scworkk,Whether feels they have control over what happens in most situations,2.0,Agree
+687499,ELSA,wave_9_elsa_data_eul_spsc,scworkk,Whether feels they have control over what happens in most situations,3.0,Disagree
+687500,ELSA,wave_9_elsa_data_eul_spsc,scworkk,Whether feels they have control over what happens in most situations,4.0,Strongly disagree
+687501,ELSA,wave_9_elsa_data_eul_spsc,scworkl,Whether feels they have to work very fast,-9.0,Refused
+687502,ELSA,wave_9_elsa_data_eul_spsc,scworkl,Whether feels they have to work very fast,-8.0,Don't know
+687503,ELSA,wave_9_elsa_data_eul_spsc,scworkl,Whether feels they have to work very fast,-1.0,Not applicable
+687504,ELSA,wave_9_elsa_data_eul_spsc,scworkl,Whether feels they have to work very fast,1.0,Strongly agree
+687505,ELSA,wave_9_elsa_data_eul_spsc,scworkl,Whether feels they have to work very fast,2.0,Agree
+687506,ELSA,wave_9_elsa_data_eul_spsc,scworkl,Whether feels they have to work very fast,3.0,Disagree
+687507,ELSA,wave_9_elsa_data_eul_spsc,scworkl,Whether feels they have to work very fast,4.0,Strongly disagree
+687508,ELSA,wave_9_elsa_data_eul_spsc,scaffda,Food respondent bought didn't last and they couldn't afford to get more,-9.0,Not answered (9)
+687509,ELSA,wave_9_elsa_data_eul_spsc,scaffda,Food respondent bought didn't last and they couldn't afford to get more,-8.0,Don't know
+687510,ELSA,wave_9_elsa_data_eul_spsc,scaffda,Food respondent bought didn't last and they couldn't afford to get more,-1.0,Item not applicable
+687511,ELSA,wave_9_elsa_data_eul_spsc,scaffda,Food respondent bought didn't last and they couldn't afford to get more,1.0,Often true
+687512,ELSA,wave_9_elsa_data_eul_spsc,scaffda,Food respondent bought didn't last and they couldn't afford to get more,2.0,Sometimes true
+687513,ELSA,wave_9_elsa_data_eul_spsc,scaffda,Food respondent bought didn't last and they couldn't afford to get more,3.0,Never true
+687514,ELSA,wave_9_elsa_data_eul_spsc,scaffdb,Respondent couldn't afford to eat balanced meals,-9.0,Not answered (9)
+687515,ELSA,wave_9_elsa_data_eul_spsc,scaffdb,Respondent couldn't afford to eat balanced meals,-8.0,Don't know
+687516,ELSA,wave_9_elsa_data_eul_spsc,scaffdb,Respondent couldn't afford to eat balanced meals,-1.0,Item not applicable
+687517,ELSA,wave_9_elsa_data_eul_spsc,scaffdb,Respondent couldn't afford to eat balanced meals,1.0,Often true
+687518,ELSA,wave_9_elsa_data_eul_spsc,scaffdb,Respondent couldn't afford to eat balanced meals,2.0,Sometimes true
+687519,ELSA,wave_9_elsa_data_eul_spsc,scaffdb,Respondent couldn't afford to eat balanced meals,3.0,Never true
+687520,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,-9.0,Refused
+687521,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,-8.0,Don't know
+687522,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,-1.0,Not applicable
+687523,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,5.0,Worst off
+687524,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,10.0,10
+687525,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,15.0,15
+687526,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,20.0,20
+687527,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,25.0,25
+687528,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,30.0,30
+687529,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,35.0,35
+687530,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,40.0,40
+687531,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,45.0,45
+687532,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,50.0,50
+687533,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,55.0,55
+687534,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,60.0,60
+687535,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,65.0,65
+687536,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,70.0,70
+687537,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,75.0,75
+687538,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,80.0,80
+687539,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,85.0,85
+687540,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,90.0,90
+687541,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,95.0,95
+687542,ELSA,wave_9_elsa_data_eul_spsc,sclddr,Self-perceived (subjective) social status,100.0,Best off
+687543,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,-9.0,Refused
+687544,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,-8.0,Don't know
+687545,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,-1.0,Not applicable
+687546,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,0.0,Not at all
+687547,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,1.0,1
+687548,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,2.0,2
+687549,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,3.0,3
+687550,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,4.0,4
+687551,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,5.0,5
+687552,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,6.0,6
+687553,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,7.0,7
+687554,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,8.0,8
+687555,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,9.0,9
+687556,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,10.0,Very
+687557,ELSA,wave_9_elsa_data_eul_spsc,scovha,How happy respondent felt overall yesterday,11.0,Do not know
+687558,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,-9.0,Refused
+687559,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,-8.0,Don't know
+687560,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,-1.0,Not applicable
+687561,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,0.0,Not at all
+687562,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,1.0,1
+687563,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,2.0,2
+687564,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,3.0,3
+687565,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,4.0,4
+687566,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,5.0,5
+687567,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,6.0,6
+687568,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,7.0,7
+687569,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,8.0,8
+687570,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,9.0,9
+687571,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,10.0,Very
+687572,ELSA,wave_9_elsa_data_eul_spsc,scovan,How anxious respondent felt overall yesterday,11.0,Do not know
+687573,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,-9.0,Refused
+687574,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,-8.0,Don't know
+687575,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,-1.0,Not applicable
+687576,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,0.0,Not at all
+687577,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,1.0,1
+687578,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,2.0,2
+687579,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,3.0,3
+687580,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,4.0,4
+687581,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,5.0,5
+687582,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,6.0,6
+687583,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,7.0,7
+687584,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,8.0,8
+687585,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,9.0,9
+687586,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,10.0,Very
+687587,ELSA,wave_9_elsa_data_eul_spsc,scovsa,How satisfied respondent is overall with their life nowadays,11.0,Do not know
+687588,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,-9.0,Refused
+687589,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,-8.0,Don't know
+687590,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,-1.0,Not applicable
+687591,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,0.0,Not at all
+687592,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,1.0,1
+687593,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,2.0,2
+687594,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,3.0,3
+687595,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,4.0,4
+687596,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,5.0,5
+687597,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,6.0,6
+687598,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,7.0,7
+687599,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,8.0,8
+687600,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,9.0,9
+687601,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,10.0,Very
+687602,ELSA,wave_9_elsa_data_eul_spsc,scovwo,The extent to which respondent feels the things they do in life are worthwhile,11.0,Do not know
+687603,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,-9.0,Not answered (9)
+687604,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,-8.0,Don't know (8)
+687605,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,-1.0,Item not applicable
+687606,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,1.0,Monday
+687607,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,2.0,Tuesday
+687608,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,3.0,Wednesday
+687609,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,4.0,Thursday
+687610,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,5.0,Friday
+687611,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,6.0,Saturday
+687612,ELSA,wave_9_elsa_data_eul_spsc,scdwk,The day of the week yesterday,7.0,Sunday
+687613,ELSA,wave_9_elsa_data_eul_spsc,sctwuh,Time respondent woke up yesterday (HOURS),-9.0,Not answered (99)
+687614,ELSA,wave_9_elsa_data_eul_spsc,sctwuh,Time respondent woke up yesterday (HOURS),-8.0,Don't know
+687615,ELSA,wave_9_elsa_data_eul_spsc,sctwuh,Time respondent woke up yesterday (HOURS),-1.0,Item not applicable
+687616,ELSA,wave_9_elsa_data_eul_spsc,sctwum,Time respondent woke up yesterday (MINUTES),-9.0,Not answered (99)
+687617,ELSA,wave_9_elsa_data_eul_spsc,sctwum,Time respondent woke up yesterday (MINUTES),-8.0,Don't know
+687618,ELSA,wave_9_elsa_data_eul_spsc,sctwum,Time respondent woke up yesterday (MINUTES),-1.0,Item not applicable
+687619,ELSA,wave_9_elsa_data_eul_spsc,sctwup,Time respondent woke up yesterday (AM/PM),,
+687620,ELSA,wave_9_elsa_data_eul_spsc,sctsyh,Time respondent went to sleep yesterday (HOURS),-9.0,Not answered (99)
+687621,ELSA,wave_9_elsa_data_eul_spsc,sctsyh,Time respondent went to sleep yesterday (HOURS),-8.0,Don't know
+687622,ELSA,wave_9_elsa_data_eul_spsc,sctsyh,Time respondent went to sleep yesterday (HOURS),-1.0,Item not applicable
+687623,ELSA,wave_9_elsa_data_eul_spsc,sctsym,Time respondent went to sleep yesterday (MINUTES),-9.0,Not answered (99)
+687624,ELSA,wave_9_elsa_data_eul_spsc,sctsym,Time respondent went to sleep yesterday (MINUTES),-8.0,Don't know
+687625,ELSA,wave_9_elsa_data_eul_spsc,sctsym,Time respondent went to sleep yesterday (MINUTES),-1.0,Item not applicable
+687626,ELSA,wave_9_elsa_data_eul_spsc,sctsyp,Time respondent went to sleep yesterday (AM/PM),,
+687627,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,-9.0,Not answered (9)
+687628,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,-8.0,Don't know
+687629,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,-1.0,Item not applicable
+687630,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,1.0,None
+687631,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,2.0,A little
+687632,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,3.0,Some
+687633,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,4.0,Quite a bit
+687634,ELSA,wave_9_elsa_data_eul_spsc,scypa,Whether respondent felt any pain yesterday,5.0,A lot
+687635,ELSA,wave_9_elsa_data_eul_spsc,scywr,Whether respondent felt well rested yesterday morning,-9.0,Not answered (9)
+687636,ELSA,wave_9_elsa_data_eul_spsc,scywr,Whether respondent felt well rested yesterday morning,-8.0,Don't know (8)
+687637,ELSA,wave_9_elsa_data_eul_spsc,scywr,Whether respondent felt well rested yesterday morning,-1.0,Item not applicable
+687638,ELSA,wave_9_elsa_data_eul_spsc,scywr,Whether respondent felt well rested yesterday morning,1.0,Yes
+687639,ELSA,wave_9_elsa_data_eul_spsc,scywr,Whether respondent felt well rested yesterday morning,2.0,No
+687640,ELSA,wave_9_elsa_data_eul_spsc,scynd,Whether yesterday was a normal day for respondent or something unusual happened,-9.0,Not answered (9)
+687641,ELSA,wave_9_elsa_data_eul_spsc,scynd,Whether yesterday was a normal day for respondent or something unusual happened,-8.0,Don't know
+687642,ELSA,wave_9_elsa_data_eul_spsc,scynd,Whether yesterday was a normal day for respondent or something unusual happened,-1.0,Item not applicable
+687643,ELSA,wave_9_elsa_data_eul_spsc,scynd,Whether yesterday was a normal day for respondent or something unusual happened,1.0,Yes - just a normal day
+687644,ELSA,wave_9_elsa_data_eul_spsc,scynd,Whether yesterday was a normal day for respondent or something unusual happened,2.0,"No, my day included unusual bad (stressful) things"
+687645,ELSA,wave_9_elsa_data_eul_spsc,scynd,Whether yesterday was a normal day for respondent or something unusual happened,3.0,"No, my day included unusual good things"
+687646,ELSA,wave_9_elsa_data_eul_spsc,sctvy,Whether respondent watched TV yesterday,-9.0,Not answered (9)
+687647,ELSA,wave_9_elsa_data_eul_spsc,sctvy,Whether respondent watched TV yesterday,-8.0,Don't know
+687648,ELSA,wave_9_elsa_data_eul_spsc,sctvy,Whether respondent watched TV yesterday,-1.0,Item not applicable
+687649,ELSA,wave_9_elsa_data_eul_spsc,sctvy,Whether respondent watched TV yesterday,1.0,Yes
+687650,ELSA,wave_9_elsa_data_eul_spsc,sctvy,Whether respondent watched TV yesterday,2.0,No
+687651,ELSA,wave_9_elsa_data_eul_spsc,sctvth,Time spent watching TV yesterday (HOURS),-9.0,Not answered (99)
+687652,ELSA,wave_9_elsa_data_eul_spsc,sctvth,Time spent watching TV yesterday (HOURS),-8.0,Don't know
+687653,ELSA,wave_9_elsa_data_eul_spsc,sctvth,Time spent watching TV yesterday (HOURS),-1.0,Item not applicable
+687654,ELSA,wave_9_elsa_data_eul_spsc,sctvtm,Time spent watching TV yesterday (MINUTES),-9.0,Not answered (99)
+687655,ELSA,wave_9_elsa_data_eul_spsc,sctvtm,Time spent watching TV yesterday (MINUTES),-8.0,Don't know
+687656,ELSA,wave_9_elsa_data_eul_spsc,sctvtm,Time spent watching TV yesterday (MINUTES),-1.0,Item not applicable
+687657,ELSA,wave_9_elsa_data_eul_spsc,scwvy,Whether respondent worked or volunteered yesterday,-9.0,Not answered (9)
+687658,ELSA,wave_9_elsa_data_eul_spsc,scwvy,Whether respondent worked or volunteered yesterday,-8.0,Don't know
+687659,ELSA,wave_9_elsa_data_eul_spsc,scwvy,Whether respondent worked or volunteered yesterday,-1.0,Item not applicable
+687660,ELSA,wave_9_elsa_data_eul_spsc,scwvy,Whether respondent worked or volunteered yesterday,1.0,Yes
+687661,ELSA,wave_9_elsa_data_eul_spsc,scwvy,Whether respondent worked or volunteered yesterday,2.0,No
+687662,ELSA,wave_9_elsa_data_eul_spsc,scwvth,Time spent working or volunteering yesterday (HOURS),-9.0,Not answered (99)
+687663,ELSA,wave_9_elsa_data_eul_spsc,scwvth,Time spent working or volunteering yesterday (HOURS),-8.0,Don't know
+687664,ELSA,wave_9_elsa_data_eul_spsc,scwvth,Time spent working or volunteering yesterday (HOURS),-1.0,Item not applicable
+687665,ELSA,wave_9_elsa_data_eul_spsc,scwvtm,Time spent working or volunteering yesterday (MINUTES),-9.0,Not answered (99)
+687666,ELSA,wave_9_elsa_data_eul_spsc,scwvtm,Time spent working or volunteering yesterday (MINUTES),-8.0,Don't know
+687667,ELSA,wave_9_elsa_data_eul_spsc,scwvtm,Time spent working or volunteering yesterday (MINUTES),-1.0,Item not applicable
+687668,ELSA,wave_9_elsa_data_eul_spsc,scwey,Whether respondent went for a walk or exercised yesterday,-9.0,Not answered (9)
+687669,ELSA,wave_9_elsa_data_eul_spsc,scwey,Whether respondent went for a walk or exercised yesterday,-8.0,Don't know
+687670,ELSA,wave_9_elsa_data_eul_spsc,scwey,Whether respondent went for a walk or exercised yesterday,-1.0,Item not applicable
+687671,ELSA,wave_9_elsa_data_eul_spsc,scwey,Whether respondent went for a walk or exercised yesterday,1.0,Yes
+687672,ELSA,wave_9_elsa_data_eul_spsc,scwey,Whether respondent went for a walk or exercised yesterday,2.0,No
+687673,ELSA,wave_9_elsa_data_eul_spsc,scweth,Time spent walking or exercising yesterday (HOURS),-9.0,Not answered (99)
+687674,ELSA,wave_9_elsa_data_eul_spsc,scweth,Time spent walking or exercising yesterday (HOURS),-8.0,Don't know
+687675,ELSA,wave_9_elsa_data_eul_spsc,scweth,Time spent walking or exercising yesterday (HOURS),-1.0,Item not applicable
+687676,ELSA,wave_9_elsa_data_eul_spsc,scwetm,Time spent walking or exercising yesterday (MINUTES),-9.0,Not answered (99)
+687677,ELSA,wave_9_elsa_data_eul_spsc,scwetm,Time spent walking or exercising yesterday (MINUTES),-8.0,Don't know
+687678,ELSA,wave_9_elsa_data_eul_spsc,scwetm,Time spent walking or exercising yesterday (MINUTES),-1.0,Item not applicable
+687679,ELSA,wave_9_elsa_data_eul_spsc,schry,Whether respondent did any health related activites other than walking yesterday,-9.0,Not answered (9)
+687680,ELSA,wave_9_elsa_data_eul_spsc,schry,Whether respondent did any health related activites other than walking yesterday,-8.0,Don't know
+687681,ELSA,wave_9_elsa_data_eul_spsc,schry,Whether respondent did any health related activites other than walking yesterday,-1.0,Item not applicable
+687682,ELSA,wave_9_elsa_data_eul_spsc,schry,Whether respondent did any health related activites other than walking yesterday,1.0,Yes
+687683,ELSA,wave_9_elsa_data_eul_spsc,schry,Whether respondent did any health related activites other than walking yesterday,2.0,No
+687684,ELSA,wave_9_elsa_data_eul_spsc,schrth,Time spent doing health related activities yesterday (HOURS),-9.0,Not answered (99)
+687685,ELSA,wave_9_elsa_data_eul_spsc,schrth,Time spent doing health related activities yesterday (HOURS),-8.0,Don't know
+687686,ELSA,wave_9_elsa_data_eul_spsc,schrth,Time spent doing health related activities yesterday (HOURS),-1.0,Item not applicable
+687687,ELSA,wave_9_elsa_data_eul_spsc,schrtm,Time spent doing health related activities yesterday (MINUTES),-9.0,Not answered (99)
+687688,ELSA,wave_9_elsa_data_eul_spsc,schrtm,Time spent doing health related activities yesterday (MINUTES),-8.0,Don't know
+687689,ELSA,wave_9_elsa_data_eul_spsc,schrtm,Time spent doing health related activities yesterday (MINUTES),-1.0,Item not applicable
+687690,ELSA,wave_9_elsa_data_eul_spsc,sctcy,Whether respondent travelled or commuted yesterday,-9.0,Not answered (9)
+687691,ELSA,wave_9_elsa_data_eul_spsc,sctcy,Whether respondent travelled or commuted yesterday,-8.0,Don't know
+687692,ELSA,wave_9_elsa_data_eul_spsc,sctcy,Whether respondent travelled or commuted yesterday,-1.0,Item not applicable
+687693,ELSA,wave_9_elsa_data_eul_spsc,sctcy,Whether respondent travelled or commuted yesterday,1.0,Yes
+687694,ELSA,wave_9_elsa_data_eul_spsc,sctcy,Whether respondent travelled or commuted yesterday,2.0,No
+687695,ELSA,wave_9_elsa_data_eul_spsc,sctcth,Time spent travelling or commuting yesterday (HOURS),-9.0,Not answered (99)
+687696,ELSA,wave_9_elsa_data_eul_spsc,sctcth,Time spent travelling or commuting yesterday (HOURS),-8.0,Don't know
+687697,ELSA,wave_9_elsa_data_eul_spsc,sctcth,Time spent travelling or commuting yesterday (HOURS),-1.0,Item not applicable
+687698,ELSA,wave_9_elsa_data_eul_spsc,sctctm,Time spent travelling or commuting yesterday (MINUTES),-9.0,Not answered (99)
+687699,ELSA,wave_9_elsa_data_eul_spsc,sctctm,Time spent travelling or commuting yesterday (MINUTES),-8.0,Don't know
+687700,ELSA,wave_9_elsa_data_eul_spsc,sctctm,Time spent travelling or commuting yesterday (MINUTES),-1.0,Item not applicable
+687701,ELSA,wave_9_elsa_data_eul_spsc,scwfy,Whether respondent spent time with family or friends yesterday,-9.0,Not answered (9)
+687702,ELSA,wave_9_elsa_data_eul_spsc,scwfy,Whether respondent spent time with family or friends yesterday,-8.0,Don't know
+687703,ELSA,wave_9_elsa_data_eul_spsc,scwfy,Whether respondent spent time with family or friends yesterday,-1.0,Item not applicable
+687704,ELSA,wave_9_elsa_data_eul_spsc,scwfy,Whether respondent spent time with family or friends yesterday,1.0,Yes
+687705,ELSA,wave_9_elsa_data_eul_spsc,scwfy,Whether respondent spent time with family or friends yesterday,2.0,No
+687706,ELSA,wave_9_elsa_data_eul_spsc,scwfth,Time spent with friends or family yesterday (HOURS),-9.0,Not answered (99)
+687707,ELSA,wave_9_elsa_data_eul_spsc,scwfth,Time spent with friends or family yesterday (HOURS),-8.0,Don't know
+687708,ELSA,wave_9_elsa_data_eul_spsc,scwfth,Time spent with friends or family yesterday (HOURS),-1.0,Item not applicable
+687709,ELSA,wave_9_elsa_data_eul_spsc,scwftm,Time spent with friends or family yesterday (MINUTES),-9.0,Not answered (99)
+687710,ELSA,wave_9_elsa_data_eul_spsc,scwftm,Time spent with friends or family yesterday (MINUTES),-8.0,Don't know
+687711,ELSA,wave_9_elsa_data_eul_spsc,scwftm,Time spent with friends or family yesterday (MINUTES),-1.0,Item not applicable
+687712,ELSA,wave_9_elsa_data_eul_spsc,scthy,Whether respondent spent time at home yesterday by themselves,-9.0,Not answered (9)
+687713,ELSA,wave_9_elsa_data_eul_spsc,scthy,Whether respondent spent time at home yesterday by themselves,-8.0,Don't know
+687714,ELSA,wave_9_elsa_data_eul_spsc,scthy,Whether respondent spent time at home yesterday by themselves,-1.0,Item not applicable
+687715,ELSA,wave_9_elsa_data_eul_spsc,scthy,Whether respondent spent time at home yesterday by themselves,1.0,Yes
+687716,ELSA,wave_9_elsa_data_eul_spsc,scthy,Whether respondent spent time at home yesterday by themselves,2.0,No
+687717,ELSA,wave_9_elsa_data_eul_spsc,scthth,Time spent at home by themselves yesterday (HOURS),-9.0,Not answered (99)
+687718,ELSA,wave_9_elsa_data_eul_spsc,scthth,Time spent at home by themselves yesterday (HOURS),-8.0,Don't know
+687719,ELSA,wave_9_elsa_data_eul_spsc,scthth,Time spent at home by themselves yesterday (HOURS),-1.0,Item not applicable
+687720,ELSA,wave_9_elsa_data_eul_spsc,scthtm,Time spent at home by themselves yesterday (MINUTES),-9.0,Not answered (99)
+687721,ELSA,wave_9_elsa_data_eul_spsc,scthtm,Time spent at home by themselves yesterday (MINUTES),-8.0,Don't know
+687722,ELSA,wave_9_elsa_data_eul_spsc,scthtm,Time spent at home by themselves yesterday (MINUTES),-1.0,Item not applicable
+687723,ELSA,wave_9_elsa_data_eul_spsc,scshoy,Whether respondent spent time shopping or running errands yesterday,-9.0,Not answered (9)
+687724,ELSA,wave_9_elsa_data_eul_spsc,scshoy,Whether respondent spent time shopping or running errands yesterday,-8.0,Don't know
+687725,ELSA,wave_9_elsa_data_eul_spsc,scshoy,Whether respondent spent time shopping or running errands yesterday,-1.0,Item not applicable
+687726,ELSA,wave_9_elsa_data_eul_spsc,scshoy,Whether respondent spent time shopping or running errands yesterday,1.0,Yes
+687727,ELSA,wave_9_elsa_data_eul_spsc,scshoy,Whether respondent spent time shopping or running errands yesterday,2.0,No
+687728,ELSA,wave_9_elsa_data_eul_spsc,scshoth,Time spent shopping or running errands yesterday (HOURS),-9.0,Not answered (99)
+687729,ELSA,wave_9_elsa_data_eul_spsc,scshoth,Time spent shopping or running errands yesterday (HOURS),-8.0,Don't know
+687730,ELSA,wave_9_elsa_data_eul_spsc,scshoth,Time spent shopping or running errands yesterday (HOURS),-1.0,Item not applicable
+687731,ELSA,wave_9_elsa_data_eul_spsc,scshotm,Time spent shopping or running errands yesterday (MINUTES),-9.0,Not answered (99)
+687732,ELSA,wave_9_elsa_data_eul_spsc,scshotm,Time spent shopping or running errands yesterday (MINUTES),-8.0,Don't know
+687733,ELSA,wave_9_elsa_data_eul_spsc,scshotm,Time spent shopping or running errands yesterday (MINUTES),-1.0,Item not applicable
+687734,ELSA,wave_9_elsa_data_eul_spsc,sclooky,Whether respondent spent time looking after someone yesterday,-9.0,Not answered (9)
+687735,ELSA,wave_9_elsa_data_eul_spsc,sclooky,Whether respondent spent time looking after someone yesterday,-8.0,Don't know
+687736,ELSA,wave_9_elsa_data_eul_spsc,sclooky,Whether respondent spent time looking after someone yesterday,-1.0,Item not applicable
+687737,ELSA,wave_9_elsa_data_eul_spsc,sclooky,Whether respondent spent time looking after someone yesterday,1.0,Yes
+687738,ELSA,wave_9_elsa_data_eul_spsc,sclooky,Whether respondent spent time looking after someone yesterday,2.0,No
+687739,ELSA,wave_9_elsa_data_eul_spsc,sclookth,Time spent looking after someone yesterday (HOURS),-9.0,Not answered (99)
+687740,ELSA,wave_9_elsa_data_eul_spsc,sclookth,Time spent looking after someone yesterday (HOURS),-8.0,Don't know
+687741,ELSA,wave_9_elsa_data_eul_spsc,sclookth,Time spent looking after someone yesterday (HOURS),-1.0,Item not applicable
+687742,ELSA,wave_9_elsa_data_eul_spsc,sclooktm,Time spent looking after someone yesterday (MINUTES),-9.0,Not answered (99)
+687743,ELSA,wave_9_elsa_data_eul_spsc,sclooktm,Time spent looking after someone yesterday (MINUTES),-8.0,Don't know
+687744,ELSA,wave_9_elsa_data_eul_spsc,sclooktm,Time spent looking after someone yesterday (MINUTES),-1.0,Item not applicable
+687745,ELSA,wave_9_elsa_data_eul_spsc,schwy,Whether respondent spent time doing housework or preparing food yesterday,-9.0,Not answered (9)
+687746,ELSA,wave_9_elsa_data_eul_spsc,schwy,Whether respondent spent time doing housework or preparing food yesterday,-8.0,Don't know
+687747,ELSA,wave_9_elsa_data_eul_spsc,schwy,Whether respondent spent time doing housework or preparing food yesterday,-1.0,Item not applicable
+687748,ELSA,wave_9_elsa_data_eul_spsc,schwy,Whether respondent spent time doing housework or preparing food yesterday,1.0,Yes
+687749,ELSA,wave_9_elsa_data_eul_spsc,schwy,Whether respondent spent time doing housework or preparing food yesterday,2.0,No
+687750,ELSA,wave_9_elsa_data_eul_spsc,schwth,Time spent doing housework or preparing food yesterday (HOURS),-9.0,Not answered (99)
+687751,ELSA,wave_9_elsa_data_eul_spsc,schwth,Time spent doing housework or preparing food yesterday (HOURS),-8.0,Don't know
+687752,ELSA,wave_9_elsa_data_eul_spsc,schwth,Time spent doing housework or preparing food yesterday (HOURS),-1.0,Item not applicable
+687753,ELSA,wave_9_elsa_data_eul_spsc,schwtm,Time spent doing housework or preparing food yesterday (MINUTES),-9.0,Not answered (99)
+687754,ELSA,wave_9_elsa_data_eul_spsc,schwtm,Time spent doing housework or preparing food yesterday (MINUTES),-8.0,Don't know
+687755,ELSA,wave_9_elsa_data_eul_spsc,schwtm,Time spent doing housework or preparing food yesterday (MINUTES),-1.0,Item not applicable
+687756,ELSA,wave_9_elsa_data_eul_spsc,scsitth,Time spent sitting yesterday (HOURS),-9.0,Not answered (99)
+687757,ELSA,wave_9_elsa_data_eul_spsc,scsitth,Time spent sitting yesterday (HOURS),-8.0,Don't know
+687758,ELSA,wave_9_elsa_data_eul_spsc,scsitth,Time spent sitting yesterday (HOURS),-1.0,Item not applicable
+687759,ELSA,wave_9_elsa_data_eul_spsc,scsittm,Time spent sitting yesterday (MINUTES),-9.0,Not answered (99)
+687760,ELSA,wave_9_elsa_data_eul_spsc,scsittm,Time spent sitting yesterday (MINUTES),-8.0,Don't know
+687761,ELSA,wave_9_elsa_data_eul_spsc,scsittm,Time spent sitting yesterday (MINUTES),-1.0,Item not applicable
+687762,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,-9.0,Not answered (99)
+687763,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,-8.0,Don't know
+687764,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,-1.0,Item not applicable
+687765,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,1.0,Almost every day
+687766,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,2.0,Five or six days a week
+687767,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,3.0,Three or four days a week
+687768,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,4.0,Once or twice a week
+687769,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,5.0,Once or twice a month
+687770,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,6.0,Once every couple of months
+687771,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,7.0,Once or twice a year
+687772,ELSA,wave_9_elsa_data_eul_spsc,scalcm,How often the respondent has had an alcoholic drink during the last 12  months,8.0,Not at all in the last 12 months
+687773,ELSA,wave_9_elsa_data_eul_spsc,scalcy,Whether respondent has had an alcoholic drink in the last seven days,-9.0,Not answered (9)
+687774,ELSA,wave_9_elsa_data_eul_spsc,scalcy,Whether respondent has had an alcoholic drink in the last seven days,-8.0,Don't know
+687775,ELSA,wave_9_elsa_data_eul_spsc,scalcy,Whether respondent has had an alcoholic drink in the last seven days,-1.0,Item not applicable
+687776,ELSA,wave_9_elsa_data_eul_spsc,scalcy,Whether respondent has had an alcoholic drink in the last seven days,1.0,Yes
+687777,ELSA,wave_9_elsa_data_eul_spsc,scalcy,Whether respondent has had an alcoholic drink in the last seven days,2.0,No
+687778,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,-9.0,Not answered (9)
+687779,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,-8.0,Don't know
+687780,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,-1.0,Item not applicable
+687781,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,1.0,1
+687782,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,2.0,2
+687783,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,3.0,3
+687784,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,4.0,4
+687785,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,5.0,5
+687786,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,6.0,6
+687787,ELSA,wave_9_elsa_data_eul_spsc,scalcd,How many days out of the last 7 the respondent had an alcoholic drink,7.0,7
+687788,ELSA,wave_9_elsa_data_eul_spsc,scsprt,Measures of spirits the respondent had in the last 7 days,-9.0,Not answered (999)
+687789,ELSA,wave_9_elsa_data_eul_spsc,scsprt,Measures of spirits the respondent had in the last 7 days,-8.0,Don't know
+687790,ELSA,wave_9_elsa_data_eul_spsc,scsprt,Measures of spirits the respondent had in the last 7 days,-1.0,Item not applicable
+687791,ELSA,wave_9_elsa_data_eul_spsc,scwine,Glasses of wine the respondent had in the last 7 days,-9.0,Not answered (999)
+687792,ELSA,wave_9_elsa_data_eul_spsc,scwine,Glasses of wine the respondent had in the last 7 days,-8.0,Don't know
+687793,ELSA,wave_9_elsa_data_eul_spsc,scwine,Glasses of wine the respondent had in the last 7 days,-1.0,Item not applicable
+687794,ELSA,wave_9_elsa_data_eul_spsc,scbeer,Pints of beer the respondent had in the last 7 days,-9.0,Not answered (999)
+687795,ELSA,wave_9_elsa_data_eul_spsc,scbeer,Pints of beer the respondent had in the last 7 days,-8.0,Don't know
+687796,ELSA,wave_9_elsa_data_eul_spsc,scbeer,Pints of beer the respondent had in the last 7 days,-1.0,Item not applicable
+687797,ELSA,wave_9_elsa_data_eul_spsc,schelnct,Whether lost any amount of urine beyond their control in last 12 months,-9.0,Refused
+687798,ELSA,wave_9_elsa_data_eul_spsc,schelnct,Whether lost any amount of urine beyond their control in last 12 months,-8.0,Don't know
+687799,ELSA,wave_9_elsa_data_eul_spsc,schelnct,Whether lost any amount of urine beyond their control in last 12 months,-1.0,Not applicable
+687800,ELSA,wave_9_elsa_data_eul_spsc,schelnct,Whether lost any amount of urine beyond their control in last 12 months,1.0,Yes
+687801,ELSA,wave_9_elsa_data_eul_spsc,schelnct,Whether lost any amount of urine beyond their control in last 12 months,2.0,No
+687802,ELSA,wave_9_elsa_data_eul_spsc,schelncta,Whether urinary incontinence problem lasted for more than one month,-9.0,Refused
+687803,ELSA,wave_9_elsa_data_eul_spsc,schelncta,Whether urinary incontinence problem lasted for more than one month,-8.0,Don't know
+687804,ELSA,wave_9_elsa_data_eul_spsc,schelncta,Whether urinary incontinence problem lasted for more than one month,-1.0,Not applicable
+687805,ELSA,wave_9_elsa_data_eul_spsc,schelncta,Whether urinary incontinence problem lasted for more than one month,1.0,Yes
+687806,ELSA,wave_9_elsa_data_eul_spsc,schelncta,Whether urinary incontinence problem lasted for more than one month,2.0,No
+687807,ELSA,wave_9_elsa_data_eul_spsc,schebow,Whether had any problems controlling their bowels in last 12 months,-9.0,Refused
+687808,ELSA,wave_9_elsa_data_eul_spsc,schebow,Whether had any problems controlling their bowels in last 12 months,-8.0,Don't know
+687809,ELSA,wave_9_elsa_data_eul_spsc,schebow,Whether had any problems controlling their bowels in last 12 months,-1.0,Not applicable
+687810,ELSA,wave_9_elsa_data_eul_spsc,schebow,Whether had any problems controlling their bowels in last 12 months,1.0,Yes
+687811,ELSA,wave_9_elsa_data_eul_spsc,schebow,Whether had any problems controlling their bowels in last 12 months,2.0,No
+687812,ELSA,wave_9_elsa_data_eul_spsc,schebowa,Whether bowel incontinence problem lasted for more than one month,-9.0,Refused
+687813,ELSA,wave_9_elsa_data_eul_spsc,schebowa,Whether bowel incontinence problem lasted for more than one month,-8.0,Don't know
+687814,ELSA,wave_9_elsa_data_eul_spsc,schebowa,Whether bowel incontinence problem lasted for more than one month,-1.0,Not applicable
+687815,ELSA,wave_9_elsa_data_eul_spsc,schebowa,Whether bowel incontinence problem lasted for more than one month,1.0,Yes
+687816,ELSA,wave_9_elsa_data_eul_spsc,schebowa,Whether bowel incontinence problem lasted for more than one month,2.0,No
+687817,ELSA,wave_9_elsa_data_eul_spsc,scend,Whether respondent added any further comments,-9.0,Refused
+687818,ELSA,wave_9_elsa_data_eul_spsc,scend,Whether respondent added any further comments,-8.0,Don't know
+687819,ELSA,wave_9_elsa_data_eul_spsc,scend,Whether respondent added any further comments,-1.0,Not applicable
+687820,ELSA,wave_9_elsa_data_eul_spsc,scend,Whether respondent added any further comments,1.0,Answered
+687821,ELSA,wave_9_elsa_data_eul_spsc,scend,Whether respondent added any further comments,2.0,Not answered
+687822,ELSA,wave_9_elsa_data_eul_spsc,spadyr,(D) Year will reach/reached State Pension Age - suppressed cases 90+ as collapse,,
+687823,ELSA,wave_9_elsa_data_eul_spsc,spaageyr,(D) Age will reach/reached State Pension Age (years) - suppressed cases 90+ as c,,
+687824,ELSA,wave_9_elsa_data_eul_spsc,avail_from_dt,,,
+687825,ELSA,wave_9_elsa_data_eul_spsc,idahhw9_e,Encrypted Analytical Wave 9 household serial number,,

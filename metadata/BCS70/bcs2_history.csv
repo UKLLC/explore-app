@@ -1,0 +1,1018 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+37622,BCS70,bcs2_history,study_id_e,,,
+37623,BCS70,bcs2_history,dhquest,Was Developmental History Questionnaire completed?,1.0,Yes
+37624,BCS70,bcs2_history,dhquest,Was Developmental History Questionnaire completed?,2.0,No
+37625,BCS70,bcs2_history,var5502,Singleton or Twin?,0.0,Singleton
+37626,BCS70,bcs2_history,var5502,Singleton or Twin?,1.0,First Twin
+37627,BCS70,bcs2_history,var5502,Singleton or Twin?,2.0,Second Twin
+37628,BCS70,bcs2_history,var5503,Sex,1.0,Boy
+37629,BCS70,bcs2_history,var5503,Sex,2.0,Girl
+37630,BCS70,bcs2_history,var5506,Any Home Visit from Health Visitor?,-3.0,Not stated
+37631,BCS70,bcs2_history,var5506,Any Home Visit from Health Visitor?,-1.0,Not applicable
+37632,BCS70,bcs2_history,var5506,Any Home Visit from Health Visitor?,0.0,No Records
+37633,BCS70,bcs2_history,var5506,Any Home Visit from Health Visitor?,1.0,Yes
+37634,BCS70,bcs2_history,var5506,Any Home Visit from Health Visitor?,2.0,No
+37635,BCS70,bcs2_history,var5506,Any Home Visit from Health Visitor?,3.0,Records Unclear
+37636,BCS70,bcs2_history,var5507,Any Attendance at Child Health Clinic?,-3.0,Not stated
+37637,BCS70,bcs2_history,var5507,Any Attendance at Child Health Clinic?,-1.0,Not applicable
+37638,BCS70,bcs2_history,var5507,Any Attendance at Child Health Clinic?,0.0,No Records
+37639,BCS70,bcs2_history,var5507,Any Attendance at Child Health Clinic?,1.0,Yes
+37640,BCS70,bcs2_history,var5507,Any Attendance at Child Health Clinic?,2.0,No
+37641,BCS70,bcs2_history,var5507,Any Attendance at Child Health Clinic?,3.0,Records Unclear
+37642,BCS70,bcs2_history,var5508,Date of First Home Visit by Health Visitor (YMMDD format),-3.0,Not stated
+37643,BCS70,bcs2_history,var5508,Date of First Home Visit by Health Visitor (YMMDD format),-1.0,Not applicable
+37644,BCS70,bcs2_history,var5508,Date of First Home Visit by Health Visitor (YMMDD format),96.0,Received Home Visit
+37645,BCS70,bcs2_history,var5508,Date of First Home Visit by Health Visitor (YMMDD format),97.0,No Home Visit
+37646,BCS70,bcs2_history,var5508,Date of First Home Visit by Health Visitor (YMMDD format),98.0,Not Known
+37647,BCS70,bcs2_history,var5511,Date first attended Child Health Clinic (YMMDD format),-3.0,Not stated
+37648,BCS70,bcs2_history,var5511,Date first attended Child Health Clinic (YMMDD format),-1.0,Not applicable
+37649,BCS70,bcs2_history,var5511,Date first attended Child Health Clinic (YMMDD format),96.0,Attended CHC
+37650,BCS70,bcs2_history,var5511,Date first attended Child Health Clinic (YMMDD format),97.0,Not attended CHC
+37651,BCS70,bcs2_history,var5511,Date first attended Child Health Clinic (YMMDD format),98.0,Not Known
+37652,BCS70,bcs2_history,var5514,Number of HV visits 1st year,-3.0,Not stated
+37653,BCS70,bcs2_history,var5514,Number of HV visits 1st year,-2.0,Not known
+37654,BCS70,bcs2_history,var5514,Number of HV visits 1st year,-1.0,Not applicable
+37655,BCS70,bcs2_history,var5514,Number of HV visits 1st year,0.0,None
+37656,BCS70,bcs2_history,var5514,Number of HV visits 1st year,96.0,Blank but visited
+37657,BCS70,bcs2_history,var5514,Number of HV visits 1st year,97.0,Never visited
+37658,BCS70,bcs2_history,var5514,Number of HV visits 1st year,98.0,"Blank, situation not known"
+37659,BCS70,bcs2_history,var5515,Number of HV visits 1st year,-3.0,Not stated
+37660,BCS70,bcs2_history,var5515,Number of HV visits 1st year,-2.0,Not known
+37661,BCS70,bcs2_history,var5515,Number of HV visits 1st year,-1.0,Not applicable
+37662,BCS70,bcs2_history,var5515,Number of HV visits 1st year,0.0,None
+37663,BCS70,bcs2_history,var5515,Number of HV visits 1st year,96.0,Blank but visited
+37664,BCS70,bcs2_history,var5515,Number of HV visits 1st year,97.0,Never visited
+37665,BCS70,bcs2_history,var5515,Number of HV visits 1st year,98.0,"Blank, situation not known"
+37666,BCS70,bcs2_history,var5516,Number of HV visits 2nd year,-3.0,Not stated
+37667,BCS70,bcs2_history,var5516,Number of HV visits 2nd year,-2.0,Not known
+37668,BCS70,bcs2_history,var5516,Number of HV visits 2nd year,-1.0,Not applicable
+37669,BCS70,bcs2_history,var5516,Number of HV visits 2nd year,0.0,None
+37670,BCS70,bcs2_history,var5516,Number of HV visits 2nd year,96.0,Blank but visited
+37671,BCS70,bcs2_history,var5516,Number of HV visits 2nd year,97.0,Never visited
+37672,BCS70,bcs2_history,var5516,Number of HV visits 2nd year,98.0,"Blank, situation not known"
+37673,BCS70,bcs2_history,var5517,Number of HV visits 2nd year,-3.0,Not stated
+37674,BCS70,bcs2_history,var5517,Number of HV visits 2nd year,-2.0,Not known
+37675,BCS70,bcs2_history,var5517,Number of HV visits 2nd year,-1.0,Not applicable
+37676,BCS70,bcs2_history,var5517,Number of HV visits 2nd year,0.0,None
+37677,BCS70,bcs2_history,var5517,Number of HV visits 2nd year,96.0,Blank but visited
+37678,BCS70,bcs2_history,var5517,Number of HV visits 2nd year,97.0,Never visited
+37679,BCS70,bcs2_history,var5517,Number of HV visits 2nd year,98.0,"Blank, situation not known"
+37680,BCS70,bcs2_history,var5518,Number of HV visits 3rd year,-3.0,Not stated
+37681,BCS70,bcs2_history,var5518,Number of HV visits 3rd year,-2.0,Not known
+37682,BCS70,bcs2_history,var5518,Number of HV visits 3rd year,-1.0,Not applicable
+37683,BCS70,bcs2_history,var5518,Number of HV visits 3rd year,0.0,None
+37684,BCS70,bcs2_history,var5518,Number of HV visits 3rd year,96.0,Blank but visited
+37685,BCS70,bcs2_history,var5518,Number of HV visits 3rd year,97.0,Never visited
+37686,BCS70,bcs2_history,var5518,Number of HV visits 3rd year,98.0,"Blank, situation not known"
+37687,BCS70,bcs2_history,var5519,Number of HV visits 3rd year,-3.0,Not stated
+37688,BCS70,bcs2_history,var5519,Number of HV visits 3rd year,-2.0,Not known
+37689,BCS70,bcs2_history,var5519,Number of HV visits 3rd year,-1.0,Not applicable
+37690,BCS70,bcs2_history,var5519,Number of HV visits 3rd year,0.0,None
+37691,BCS70,bcs2_history,var5519,Number of HV visits 3rd year,96.0,Blank but visited
+37692,BCS70,bcs2_history,var5519,Number of HV visits 3rd year,97.0,Never visited
+37693,BCS70,bcs2_history,var5519,Number of HV visits 3rd year,98.0,"Blank, situation not known"
+37694,BCS70,bcs2_history,var5520,Number of HV visits 4th year,-3.0,Not stated
+37695,BCS70,bcs2_history,var5520,Number of HV visits 4th year,-2.0,Not known
+37696,BCS70,bcs2_history,var5520,Number of HV visits 4th year,-1.0,Not applicable
+37697,BCS70,bcs2_history,var5520,Number of HV visits 4th year,0.0,None
+37698,BCS70,bcs2_history,var5520,Number of HV visits 4th year,96.0,Blank but visited
+37699,BCS70,bcs2_history,var5520,Number of HV visits 4th year,97.0,Never visited
+37700,BCS70,bcs2_history,var5520,Number of HV visits 4th year,98.0,"Blank, situation not known"
+37701,BCS70,bcs2_history,var5521,Number of HV visits 4th year,-3.0,Not stated
+37702,BCS70,bcs2_history,var5521,Number of HV visits 4th year,-2.0,Not known
+37703,BCS70,bcs2_history,var5521,Number of HV visits 4th year,-1.0,Not applicable
+37704,BCS70,bcs2_history,var5521,Number of HV visits 4th year,0.0,None
+37705,BCS70,bcs2_history,var5521,Number of HV visits 4th year,96.0,Blank but visited
+37706,BCS70,bcs2_history,var5521,Number of HV visits 4th year,97.0,Never visited
+37707,BCS70,bcs2_history,var5521,Number of HV visits 4th year,98.0,"Blank, situation not known"
+37708,BCS70,bcs2_history,var5522,Total HV visits since birth,-3.0,Not stated
+37709,BCS70,bcs2_history,var5522,Total HV visits since birth,-2.0,Not known
+37710,BCS70,bcs2_history,var5522,Total HV visits since birth,-1.0,Not applicable
+37711,BCS70,bcs2_history,var5522,Total HV visits since birth,0.0,None
+37712,BCS70,bcs2_history,var5523,Number of CHC attendances 1st year,-3.0,Not stated
+37713,BCS70,bcs2_history,var5523,Number of CHC attendances 1st year,-2.0,Not known
+37714,BCS70,bcs2_history,var5523,Number of CHC attendances 1st year,-1.0,Not applicable
+37715,BCS70,bcs2_history,var5523,Number of CHC attendances 1st year,0.0,None
+37716,BCS70,bcs2_history,var5523,Number of CHC attendances 1st year,96.0,Blank but attended
+37717,BCS70,bcs2_history,var5523,Number of CHC attendances 1st year,97.0,Never attended
+37718,BCS70,bcs2_history,var5523,Number of CHC attendances 1st year,98.0,"Blank, situation not known"
+37719,BCS70,bcs2_history,var5524,Number of CHC attendances 1st year,-3.0,Not stated
+37720,BCS70,bcs2_history,var5524,Number of CHC attendances 1st year,-2.0,Not known
+37721,BCS70,bcs2_history,var5524,Number of CHC attendances 1st year,-1.0,Not applicable
+37722,BCS70,bcs2_history,var5524,Number of CHC attendances 1st year,0.0,None
+37723,BCS70,bcs2_history,var5524,Number of CHC attendances 1st year,96.0,Blank but visited
+37724,BCS70,bcs2_history,var5524,Number of CHC attendances 1st year,97.0,Never visited
+37725,BCS70,bcs2_history,var5524,Number of CHC attendances 1st year,98.0,"Blank, situation not known"
+37726,BCS70,bcs2_history,var5525,Number of CHC attendances 2nd year,-3.0,Not stated
+37727,BCS70,bcs2_history,var5525,Number of CHC attendances 2nd year,-2.0,Not known
+37728,BCS70,bcs2_history,var5525,Number of CHC attendances 2nd year,-1.0,Not applicable
+37729,BCS70,bcs2_history,var5525,Number of CHC attendances 2nd year,0.0,None
+37730,BCS70,bcs2_history,var5525,Number of CHC attendances 2nd year,96.0,Blank but visited
+37731,BCS70,bcs2_history,var5525,Number of CHC attendances 2nd year,97.0,Never visited
+37732,BCS70,bcs2_history,var5525,Number of CHC attendances 2nd year,98.0,"Blank, situation not known"
+37733,BCS70,bcs2_history,var5526,Number of CHC attendances 2nd year,-3.0,Not stated
+37734,BCS70,bcs2_history,var5526,Number of CHC attendances 2nd year,-2.0,Not known
+37735,BCS70,bcs2_history,var5526,Number of CHC attendances 2nd year,-1.0,Not applicable
+37736,BCS70,bcs2_history,var5526,Number of CHC attendances 2nd year,0.0,None
+37737,BCS70,bcs2_history,var5526,Number of CHC attendances 2nd year,96.0,Blank but visited
+37738,BCS70,bcs2_history,var5526,Number of CHC attendances 2nd year,97.0,Never visited
+37739,BCS70,bcs2_history,var5526,Number of CHC attendances 2nd year,98.0,"Blank, situation not known"
+37740,BCS70,bcs2_history,var5527,Number of CHC attendances 3rd year,-3.0,Not stated
+37741,BCS70,bcs2_history,var5527,Number of CHC attendances 3rd year,-2.0,Not known
+37742,BCS70,bcs2_history,var5527,Number of CHC attendances 3rd year,-1.0,Not applicable
+37743,BCS70,bcs2_history,var5527,Number of CHC attendances 3rd year,0.0,None
+37744,BCS70,bcs2_history,var5527,Number of CHC attendances 3rd year,96.0,Blank but visited
+37745,BCS70,bcs2_history,var5527,Number of CHC attendances 3rd year,97.0,Never visited
+37746,BCS70,bcs2_history,var5527,Number of CHC attendances 3rd year,98.0,"Blank, situation not known"
+37747,BCS70,bcs2_history,var5528,Number of CHC attendances 3rd year,-3.0,Not stated
+37748,BCS70,bcs2_history,var5528,Number of CHC attendances 3rd year,-2.0,Not known
+37749,BCS70,bcs2_history,var5528,Number of CHC attendances 3rd year,-1.0,Not applicable
+37750,BCS70,bcs2_history,var5528,Number of CHC attendances 3rd year,0.0,None
+37751,BCS70,bcs2_history,var5528,Number of CHC attendances 3rd year,96.0,Blank but visited
+37752,BCS70,bcs2_history,var5528,Number of CHC attendances 3rd year,97.0,Never visited
+37753,BCS70,bcs2_history,var5528,Number of CHC attendances 3rd year,98.0,"Blank, situation not known"
+37754,BCS70,bcs2_history,var5529,Number of CHC attendances 4th year,-3.0,Not stated
+37755,BCS70,bcs2_history,var5529,Number of CHC attendances 4th year,-2.0,Not known
+37756,BCS70,bcs2_history,var5529,Number of CHC attendances 4th year,-1.0,Not applicable
+37757,BCS70,bcs2_history,var5529,Number of CHC attendances 4th year,0.0,None
+37758,BCS70,bcs2_history,var5529,Number of CHC attendances 4th year,96.0,Blank but visited
+37759,BCS70,bcs2_history,var5529,Number of CHC attendances 4th year,97.0,Never visited
+37760,BCS70,bcs2_history,var5529,Number of CHC attendances 4th year,98.0,"Blank, situation not known"
+37761,BCS70,bcs2_history,var5530,Number of CHC attendances 4th year,-3.0,Not stated
+37762,BCS70,bcs2_history,var5530,Number of CHC attendances 4th year,-2.0,Not known
+37763,BCS70,bcs2_history,var5530,Number of CHC attendances 4th year,-1.0,Not applicable
+37764,BCS70,bcs2_history,var5530,Number of CHC attendances 4th year,0.0,None
+37765,BCS70,bcs2_history,var5530,Number of CHC attendances 4th year,96.0,Blank but visited
+37766,BCS70,bcs2_history,var5530,Number of CHC attendances 4th year,97.0,Never visited
+37767,BCS70,bcs2_history,var5530,Number of CHC attendances 4th year,98.0,"Blank, situation not known"
+37768,BCS70,bcs2_history,var5531,Total CHC attendances since birth,-3.0,Not stated
+37769,BCS70,bcs2_history,var5531,Total CHC attendances since birth,-2.0,Not known
+37770,BCS70,bcs2_history,var5531,Total CHC attendances since birth,-1.0,Not applicable
+37771,BCS70,bcs2_history,var5531,Total CHC attendances since birth,0.0,None
+37772,BCS70,bcs2_history,var5532,Number of 'no-access' health visitor home visits,-3.0,Not stated
+37773,BCS70,bcs2_history,var5532,Number of 'no-access' health visitor home visits,-2.0,Not known
+37774,BCS70,bcs2_history,var5532,Number of 'no-access' health visitor home visits,-1.0,Not applicable
+37775,BCS70,bcs2_history,var5532,Number of 'no-access' health visitor home visits,0.0,None
+37776,BCS70,bcs2_history,var5533,Any Risk Factor recorded on Health Visitor Records?,-3.0,Not stated
+37777,BCS70,bcs2_history,var5533,Any Risk Factor recorded on Health Visitor Records?,-2.0,Not known
+37778,BCS70,bcs2_history,var5533,Any Risk Factor recorded on Health Visitor Records?,-1.0,Not applicable
+37779,BCS70,bcs2_history,var5533,Any Risk Factor recorded on Health Visitor Records?,0.0,No Records
+37780,BCS70,bcs2_history,var5533,Any Risk Factor recorded on Health Visitor Records?,1.0,Yes
+37781,BCS70,bcs2_history,var5533,Any Risk Factor recorded on Health Visitor Records?,2.0,No
+37782,BCS70,bcs2_history,var5533,Any Risk Factor recorded on Health Visitor Records?,3.0,Records Unclear
+37783,BCS70,bcs2_history,var5534,Any Risk Factor recorded on CHC Records?,-2.0,Not known
+37784,BCS70,bcs2_history,var5534,Any Risk Factor recorded on CHC Records?,-1.0,Not applicable
+37785,BCS70,bcs2_history,var5534,Any Risk Factor recorded on CHC Records?,0.0,No Records
+37786,BCS70,bcs2_history,var5534,Any Risk Factor recorded on CHC Records?,1.0,Yes
+37787,BCS70,bcs2_history,var5534,Any Risk Factor recorded on CHC Records?,2.0,No
+37788,BCS70,bcs2_history,var5534,Any Risk Factor recorded on CHC Records?,3.0,Records Unclear
+37789,BCS70,bcs2_history,var5534,Any Risk Factor recorded on CHC Records?,-3.0,Not stated
+37790,BCS70,bcs2_history,var5541,Is CM's birthweight logged on HV or CHC records?,-3.0,Not stated
+37791,BCS70,bcs2_history,var5541,Is CM's birthweight logged on HV or CHC records?,-1.0,Not applicable
+37792,BCS70,bcs2_history,var5541,Is CM's birthweight logged on HV or CHC records?,1.0,Yes
+37793,BCS70,bcs2_history,var5541,Is CM's birthweight logged on HV or CHC records?,2.0,No
+37794,BCS70,bcs2_history,var5541,Is CM's birthweight logged on HV or CHC records?,3.0,Records Unclear
+37795,BCS70,bcs2_history,var5541,Is CM's birthweight logged on HV or CHC records?,4.0,No Records
+37796,BCS70,bcs2_history,var5542,Actual birthweight (gms) logged on HV/CHC records,-3.0,Not stated
+37797,BCS70,bcs2_history,var5542,Actual birthweight (gms) logged on HV/CHC records,-1.0,Not applicable
+37798,BCS70,bcs2_history,var5543,Is gestational maturity logged on HV or CHC records?,-3.0,Not stated
+37799,BCS70,bcs2_history,var5543,Is gestational maturity logged on HV or CHC records?,-1.0,Not applicable
+37800,BCS70,bcs2_history,var5543,Is gestational maturity logged on HV or CHC records?,1.0,Yes
+37801,BCS70,bcs2_history,var5543,Is gestational maturity logged on HV or CHC records?,2.0,No
+37802,BCS70,bcs2_history,var5543,Is gestational maturity logged on HV or CHC records?,3.0,Records Unclear
+37803,BCS70,bcs2_history,var5543,Is gestational maturity logged on HV or CHC records?,4.0,No Records
+37804,BCS70,bcs2_history,var5544,Gestational maturity (weeks) logged on HV/CHC records,-3.0,Not stated
+37805,BCS70,bcs2_history,var5544,Gestational maturity (weeks) logged on HV/CHC records,-1.0,Not applicable
+37806,BCS70,bcs2_history,var5545,Any congenital defect logged on HV or CHC records?,-3.0,Not stated
+37807,BCS70,bcs2_history,var5545,Any congenital defect logged on HV or CHC records?,-1.0,Not applicable
+37808,BCS70,bcs2_history,var5545,Any congenital defect logged on HV or CHC records?,1.0,Yes - specified
+37809,BCS70,bcs2_history,var5545,Any congenital defect logged on HV or CHC records?,2.0,Yes - unspecified
+37810,BCS70,bcs2_history,var5545,Any congenital defect logged on HV or CHC records?,3.0,No
+37811,BCS70,bcs2_history,var5545,Any congenital defect logged on HV or CHC records?,4.0,Records Unclear
+37812,BCS70,bcs2_history,var5545,Any congenital defect logged on HV or CHC records?,5.0,No Records
+37813,BCS70,bcs2_history,var5546,Any screening for PKU logged on HV or CHC records?,-3.0,Not stated
+37814,BCS70,bcs2_history,var5546,Any screening for PKU logged on HV or CHC records?,-1.0,Not applicable
+37815,BCS70,bcs2_history,var5546,Any screening for PKU logged on HV or CHC records?,1.0,Yes
+37816,BCS70,bcs2_history,var5546,Any screening for PKU logged on HV or CHC records?,2.0,No
+37817,BCS70,bcs2_history,var5546,Any screening for PKU logged on HV or CHC records?,3.0,Records Unclear
+37818,BCS70,bcs2_history,var5546,Any screening for PKU logged on HV or CHC records?,4.0,No Records
+37819,BCS70,bcs2_history,var5547,Any screening for CDH (hip) logged on HV or CHC records?,-3.0,Not stated
+37820,BCS70,bcs2_history,var5547,Any screening for CDH (hip) logged on HV or CHC records?,-1.0,Not applicable
+37821,BCS70,bcs2_history,var5547,Any screening for CDH (hip) logged on HV or CHC records?,1.0,Yes
+37822,BCS70,bcs2_history,var5547,Any screening for CDH (hip) logged on HV or CHC records?,2.0,No
+37823,BCS70,bcs2_history,var5547,Any screening for CDH (hip) logged on HV or CHC records?,3.0,Records Unclear
+37824,BCS70,bcs2_history,var5547,Any screening for CDH (hip) logged on HV or CHC records?,4.0,No Records
+37825,BCS70,bcs2_history,var5548,Any screening for hearing logged on HV or CHC records?,-3.0,Not stated
+37826,BCS70,bcs2_history,var5548,Any screening for hearing logged on HV or CHC records?,-1.0,Not applicable
+37827,BCS70,bcs2_history,var5548,Any screening for hearing logged on HV or CHC records?,1.0,Yes
+37828,BCS70,bcs2_history,var5548,Any screening for hearing logged on HV or CHC records?,2.0,No
+37829,BCS70,bcs2_history,var5548,Any screening for hearing logged on HV or CHC records?,3.0,Records Unclear
+37830,BCS70,bcs2_history,var5548,Any screening for hearing logged on HV or CHC records?,4.0,No Records
+37831,BCS70,bcs2_history,var5549,Any screening for squint logged on HV or CHC records?,-3.0,Not stated
+37832,BCS70,bcs2_history,var5549,Any screening for squint logged on HV or CHC records?,-1.0,Not applicable
+37833,BCS70,bcs2_history,var5549,Any screening for squint logged on HV or CHC records?,1.0,Yes
+37834,BCS70,bcs2_history,var5549,Any screening for squint logged on HV or CHC records?,2.0,No
+37835,BCS70,bcs2_history,var5549,Any screening for squint logged on HV or CHC records?,3.0,Records Unclear
+37836,BCS70,bcs2_history,var5549,Any screening for squint logged on HV or CHC records?,4.0,No Records
+37837,BCS70,bcs2_history,var5550,Any screening for vision logged on HV or CHC records?,-3.0,Not stated
+37838,BCS70,bcs2_history,var5550,Any screening for vision logged on HV or CHC records?,-1.0,Not applicable
+37839,BCS70,bcs2_history,var5550,Any screening for vision logged on HV or CHC records?,1.0,Yes
+37840,BCS70,bcs2_history,var5550,Any screening for vision logged on HV or CHC records?,2.0,No
+37841,BCS70,bcs2_history,var5550,Any screening for vision logged on HV or CHC records?,3.0,Records Unclear
+37842,BCS70,bcs2_history,var5550,Any screening for vision logged on HV or CHC records?,4.0,No Records
+37843,BCS70,bcs2_history,var5551,Any general development check-ups logged on HV or CHC records?,-3.0,Not stated
+37844,BCS70,bcs2_history,var5551,Any general development check-ups logged on HV or CHC records?,-1.0,Not applicable
+37845,BCS70,bcs2_history,var5551,Any general development check-ups logged on HV or CHC records?,1.0,Yes
+37846,BCS70,bcs2_history,var5551,Any general development check-ups logged on HV or CHC records?,2.0,No
+37847,BCS70,bcs2_history,var5551,Any general development check-ups logged on HV or CHC records?,3.0,Records Unclear
+37848,BCS70,bcs2_history,var5551,Any general development check-ups logged on HV or CHC records?,4.0,No Records
+37849,BCS70,bcs2_history,var5552,Details:observation of development problem,-3.0,Not stated
+37850,BCS70,bcs2_history,var5552,Details:observation of development problem,-1.0,Not applicable
+37851,BCS70,bcs2_history,var5553,Recorded to have been seen for specialist hearing assessment?,-3.0,Not stated
+37852,BCS70,bcs2_history,var5553,Recorded to have been seen for specialist hearing assessment?,-1.0,Not applicable
+37853,BCS70,bcs2_history,var5553,Recorded to have been seen for specialist hearing assessment?,0.0,No Records
+37854,BCS70,bcs2_history,var5553,Recorded to have been seen for specialist hearing assessment?,1.0,No
+37855,BCS70,bcs2_history,var5553,Recorded to have been seen for specialist hearing assessment?,2.0,Yes - referred after test
+37856,BCS70,bcs2_history,var5553,Recorded to have been seen for specialist hearing assessment?,3.0,Yes - ref. from other source
+37857,BCS70,bcs2_history,var5553,Recorded to have been seen for specialist hearing assessment?,4.0,Records unclear
+37858,BCS70,bcs2_history,var5554,Recorded to have been seen for specialist visual assessment?,-3.0,Not stated
+37859,BCS70,bcs2_history,var5554,Recorded to have been seen for specialist visual assessment?,-1.0,Not applicable
+37860,BCS70,bcs2_history,var5554,Recorded to have been seen for specialist visual assessment?,0.0,No Records
+37861,BCS70,bcs2_history,var5554,Recorded to have been seen for specialist visual assessment?,1.0,No
+37862,BCS70,bcs2_history,var5554,Recorded to have been seen for specialist visual assessment?,2.0,Yes - referred after test
+37863,BCS70,bcs2_history,var5554,Recorded to have been seen for specialist visual assessment?,3.0,Yes - ref. from other source
+37864,BCS70,bcs2_history,var5554,Recorded to have been seen for specialist visual assessment?,4.0,Records unclear
+37865,BCS70,bcs2_history,var5555,Recorded to have been seen for specialist development assessment?,-3.0,Not stated
+37866,BCS70,bcs2_history,var5555,Recorded to have been seen for specialist development assessment?,-1.0,Not applicable
+37867,BCS70,bcs2_history,var5555,Recorded to have been seen for specialist development assessment?,0.0,No Records
+37868,BCS70,bcs2_history,var5555,Recorded to have been seen for specialist development assessment?,1.0,No
+37869,BCS70,bcs2_history,var5555,Recorded to have been seen for specialist development assessment?,2.0,Yes - referred after test
+37870,BCS70,bcs2_history,var5555,Recorded to have been seen for specialist development assessment?,3.0,Yes - ref. from other source
+37871,BCS70,bcs2_history,var5555,Recorded to have been seen for specialist development assessment?,4.0,Records unclear
+37872,BCS70,bcs2_history,var5556,Details of assessments used in HI questionnaire?,-1.0,Not applicable
+37873,BCS70,bcs2_history,var5556,Details of assessments used in HI questionnaire?,0.0,No details
+37874,BCS70,bcs2_history,var5556,Details of assessments used in HI questionnaire?,1.0,Used in Home Interview Q'aire
+37875,BCS70,bcs2_history,var5556,Details of assessments used in HI questionnaire?,2.0,Not used in HIQ
+37876,BCS70,bcs2_history,var5557,Recorded to have attended hosp.outpat/spec clinic?,-3.0,Not stated
+37877,BCS70,bcs2_history,var5557,Recorded to have attended hosp.outpat/spec clinic?,-1.0,Not applicable
+37878,BCS70,bcs2_history,var5557,Recorded to have attended hosp.outpat/spec clinic?,0.0,No Records
+37879,BCS70,bcs2_history,var5557,Recorded to have attended hosp.outpat/spec clinic?,1.0,Yes
+37880,BCS70,bcs2_history,var5557,Recorded to have attended hosp.outpat/spec clinic?,2.0,No
+37881,BCS70,bcs2_history,var5557,Recorded to have attended hosp.outpat/spec clinic?,3.0,Records unclear
+37882,BCS70,bcs2_history,var5558,Recorded to have been admited to hospital?,-3.0,Not stated
+37883,BCS70,bcs2_history,var5558,Recorded to have been admited to hospital?,-1.0,Not applicable
+37884,BCS70,bcs2_history,var5558,Recorded to have been admited to hospital?,0.0,No Records
+37885,BCS70,bcs2_history,var5558,Recorded to have been admited to hospital?,1.0,Yes
+37886,BCS70,bcs2_history,var5558,Recorded to have been admited to hospital?,2.0,No
+37887,BCS70,bcs2_history,var5558,Recorded to have been admited to hospital?,3.0,Records unclear
+37888,BCS70,bcs2_history,var5559,Recorded to have been in care,-3.0,Not stated
+37889,BCS70,bcs2_history,var5559,Recorded to have been in care,-1.0,Not applicable
+37890,BCS70,bcs2_history,var5559,Recorded to have been in care,0.0,No Records
+37891,BCS70,bcs2_history,var5559,Recorded to have been in care,1.0,Yes
+37892,BCS70,bcs2_history,var5559,Recorded to have been in care,2.0,No
+37893,BCS70,bcs2_history,var5559,Recorded to have been in care,3.0,Records unclear
+37894,BCS70,bcs2_history,var5560,Details of hospital outpatient admissions used in HI questionnaire?,-1.0,Not applicable
+37895,BCS70,bcs2_history,var5560,Details of hospital outpatient admissions used in HI questionnaire?,0.0,No details
+37896,BCS70,bcs2_history,var5560,Details of hospital outpatient admissions used in HI questionnaire?,1.0,Used in Home Interview Q'aire
+37897,BCS70,bcs2_history,var5560,Details of hospital outpatient admissions used in HI questionnaire?,2.0,Not used in HIQ
+37898,BCS70,bcs2_history,var5561,Rcrdd to have suffrd/suspected to have had a non-accid injury?,-3.0,Not stated
+37899,BCS70,bcs2_history,var5561,Rcrdd to have suffrd/suspected to have had a non-accid injury?,-2.0,Not known
+37900,BCS70,bcs2_history,var5561,Rcrdd to have suffrd/suspected to have had a non-accid injury?,-1.0,Not applicable
+37901,BCS70,bcs2_history,var5561,Rcrdd to have suffrd/suspected to have had a non-accid injury?,1.0,Yes
+37902,BCS70,bcs2_history,var5561,Rcrdd to have suffrd/suspected to have had a non-accid injury?,2.0,No - but at risk
+37903,BCS70,bcs2_history,var5561,Rcrdd to have suffrd/suspected to have had a non-accid injury?,3.0,Never
+37904,BCS70,bcs2_history,var5562,Recorded to have had name on any register of any sort?,-3.0,Not stated
+37905,BCS70,bcs2_history,var5562,Recorded to have had name on any register of any sort?,-2.0,Not known
+37906,BCS70,bcs2_history,var5562,Recorded to have had name on any register of any sort?,-1.0,Not applicable
+37907,BCS70,bcs2_history,var5562,Recorded to have had name on any register of any sort?,1.0,Yes - one only
+37908,BCS70,bcs2_history,var5562,Recorded to have had name on any register of any sort?,2.0,Yes - more than one
+37909,BCS70,bcs2_history,var5562,Recorded to have had name on any register of any sort?,3.0,Never
+37910,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,-3.0,Not stated
+37911,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,-2.0,Not known
+37912,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,-1.0,Not applicable
+37913,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,1.0,No - not required
+37914,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,2.0,No - decision pending
+37915,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,3.0,Yes - waiting
+37916,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,4.0,Yes - receiving IT
+37917,BCS70,bcs2_history,var5564,Recorded that LEA ever decided CM in need of special education?,5.0,Yes - but not known
+37918,BCS70,bcs2_history,var5567,In summary,-3.0,Not stated
+37919,BCS70,bcs2_history,var5567,In summary,-2.0,Not known
+37920,BCS70,bcs2_history,var5567,In summary,-1.0,Not applicable
+37921,BCS70,bcs2_history,var5567,In summary,1.0,Yes - currently
+37922,BCS70,bcs2_history,var5567,In summary,2.0,Yes - in past
+37923,BCS70,bcs2_history,var5567,In summary,3.0,No
+37924,BCS70,bcs2_history,var5567,In summary,4.0,Yes - in present and past
+37925,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,-3.0,Not stated
+37926,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,-2.0,Not known
+37927,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,-1.0,Not applicable
+37928,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,1.0,No records missing
+37929,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,2.0,Some are missing
+37930,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,3.0,All are missing
+37931,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,4.0,Other answer
+37932,BCS70,bcs2_history,var5568,Any period of CM's life where HV records are lost or unobtainable?,5.0,Yes but not known when
+37933,BCS70,bcs2_history,var5569,Date from which HV records are missing,-3.0,Not stated
+37934,BCS70,bcs2_history,var5569,Date from which HV records are missing,-2.0,Not known
+37935,BCS70,bcs2_history,var5569,Date from which HV records are missing,-1.0,Not applicable
+37936,BCS70,bcs2_history,var5570,Date up to which HV records are missing,-3.0,Not stated
+37937,BCS70,bcs2_history,var5570,Date up to which HV records are missing,-2.0,Not known
+37938,BCS70,bcs2_history,var5570,Date up to which HV records are missing,-1.0,Not applicable
+37939,BCS70,bcs2_history,var5571,Why are HV records lost/unobtainable?,-3.0,Not stated
+37940,BCS70,bcs2_history,var5571,Why are HV records lost/unobtainable?,-2.0,Not known
+37941,BCS70,bcs2_history,var5571,Why are HV records lost/unobtainable?,-1.0,Not applicable
+37942,BCS70,bcs2_history,var5571,Why are HV records lost/unobtainable?,1.0,Destroyed
+37943,BCS70,bcs2_history,var5571,Why are HV records lost/unobtainable?,2.0,Located elsewhere
+37944,BCS70,bcs2_history,var5571,Why are HV records lost/unobtainable?,3.0,Other reason
+37945,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,-1.0,Not applicable
+37946,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,1.0,No records missing
+37947,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,2.0,Some are missing
+37948,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,3.0,All are missing
+37949,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,4.0,Other answer
+37950,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,5.0,Yes but not known when
+37951,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,-3.0,Not stated
+37952,BCS70,bcs2_history,var5572,Any period of CM's life where CHC records are lost or unobtainable?,-2.0,Not known
+37953,BCS70,bcs2_history,var5573,Date from which CHC records are missing,-3.0,Not stated
+37954,BCS70,bcs2_history,var5573,Date from which CHC records are missing,-2.0,Not known
+37955,BCS70,bcs2_history,var5573,Date from which CHC records are missing,-1.0,Not applicable
+37956,BCS70,bcs2_history,var5574,Date up to which CHC records are missing,-3.0,Not stated
+37957,BCS70,bcs2_history,var5574,Date up to which CHC records are missing,-2.0,Not known
+37958,BCS70,bcs2_history,var5574,Date up to which CHC records are missing,-1.0,Not applicable
+37959,BCS70,bcs2_history,var5575,Why are CHC records lost/unobtainable?,-3.0,Not stated
+37960,BCS70,bcs2_history,var5575,Why are CHC records lost/unobtainable?,-2.0,Not known
+37961,BCS70,bcs2_history,var5575,Why are CHC records lost/unobtainable?,-1.0,Not applicable
+37962,BCS70,bcs2_history,var5575,Why are CHC records lost/unobtainable?,1.0,Destroyed
+37963,BCS70,bcs2_history,var5575,Why are CHC records lost/unobtainable?,2.0,Located elsewhere
+37964,BCS70,bcs2_history,var5575,Why are CHC records lost/unobtainable?,3.0,Other reason
+37965,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,-3.0,Not stated
+37966,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,-2.0,Not known
+37967,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,-1.0,Not applicable
+37968,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,1.0,Health Visitor
+37969,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,2.0,Student Health Visitor
+37970,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,3.0,Other Professional
+37971,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,4.0,Clerk/Secretary
+37972,BCS70,bcs2_history,var5577,Status of person completing Developmental History Schedule,5.0,General Practitioner
+37973,BCS70,bcs2_history,var5579,Date of completion of Developmental History Schedule,-3.0,Not stated
+37974,BCS70,bcs2_history,var5579,Date of completion of Developmental History Schedule,-2.0,Not known
+37975,BCS70,bcs2_history,var5579,Date of completion of Developmental History Schedule,-1.0,Not applicable
+37976,BCS70,bcs2_history,var5580,Total number of screenings for general development,-3.0,Not stated
+37977,BCS70,bcs2_history,var5580,Total number of screenings for general development,-2.0,Not known
+37978,BCS70,bcs2_history,var5580,Total number of screenings for general development,-1.0,Not applicable
+37979,BCS70,bcs2_history,var5661,Total Health visitor visits,-3.0,Not stated
+37980,BCS70,bcs2_history,var5661,Total Health visitor visits,-1.0,Not applicable
+37981,BCS70,bcs2_history,var5661,Total Health visitor visits,96.0,"Record blank, but visited"
+37982,BCS70,bcs2_history,var5661,Total Health visitor visits,97.0,Never visited
+37983,BCS70,bcs2_history,var5661,Total Health visitor visits,98.0,"Record blank, situation not known"
+37984,BCS70,bcs2_history,var5662,Total Health visitor visits,-3.0,Not stated
+37985,BCS70,bcs2_history,var5662,Total Health visitor visits,-1.0,Not applicable
+37986,BCS70,bcs2_history,var5663,Total Health visitor visits,-3.0,Not stated
+37987,BCS70,bcs2_history,var5663,Total Health visitor visits,-1.0,Not applicable
+37988,BCS70,bcs2_history,var5664,Total CHC attendances,-3.0,Not stated
+37989,BCS70,bcs2_history,var5664,Total CHC attendances,-1.0,Not applicable
+37990,BCS70,bcs2_history,var5664,Total CHC attendances,96.0,"Record blank, but attended"
+37991,BCS70,bcs2_history,var5664,Total CHC attendances,97.0,Never attended
+37992,BCS70,bcs2_history,var5664,Total CHC attendances,98.0,"Record blank, situation not known"
+37993,BCS70,bcs2_history,var5665,Total CHC attendances,-3.0,Not stated
+37994,BCS70,bcs2_history,var5665,Total CHC attendances,-1.0,Not applicable
+37995,BCS70,bcs2_history,var5666,Total CHC attendances,-3.0,Not stated
+37996,BCS70,bcs2_history,var5666,Total CHC attendances,-1.0,Not applicable
+37997,BCS70,bcs2_history,rubellahv,Was rubella a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+37998,BCS70,bcs2_history,rubellahv,Was rubella a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+37999,BCS70,bcs2_history,rubellahv,Was rubella a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38000,BCS70,bcs2_history,rubellahv,Was rubella a risk factor on HV records (Preg/Delivery)?,0.0,No
+38001,BCS70,bcs2_history,rubellahv,Was rubella a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38002,BCS70,bcs2_history,twinhv,Was being a twin a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38003,BCS70,bcs2_history,twinhv,Was being a twin a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38004,BCS70,bcs2_history,twinhv,Was being a twin a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38005,BCS70,bcs2_history,twinhv,Was being a twin a risk factor on HV records (Preg/Delivery)?,0.0,No
+38006,BCS70,bcs2_history,twinhv,Was being a twin a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38007,BCS70,bcs2_history,rhincomphv,Was rhesus incompatibility a risk factor on HV records (Preg/Del)?,-5.0,No DHS Questionnaire
+38008,BCS70,bcs2_history,rhincomphv,Was rhesus incompatibility a risk factor on HV records (Preg/Del)?,-3.0,Not stated
+38009,BCS70,bcs2_history,rhincomphv,Was rhesus incompatibility a risk factor on HV records (Preg/Del)?,-1.0,Not applicable
+38010,BCS70,bcs2_history,rhincomphv,Was rhesus incompatibility a risk factor on HV records (Preg/Del)?,0.0,No
+38011,BCS70,bcs2_history,rhincomphv,Was rhesus incompatibility a risk factor on HV records (Preg/Del)?,1.0,Yes
+38012,BCS70,bcs2_history,toxaemiahv,Was toxaemia a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38013,BCS70,bcs2_history,toxaemiahv,Was toxaemia a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38014,BCS70,bcs2_history,toxaemiahv,Was toxaemia a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38015,BCS70,bcs2_history,toxaemiahv,Was toxaemia a risk factor on HV records (Preg/Delivery)?,0.0,No
+38016,BCS70,bcs2_history,toxaemiahv,Was toxaemia a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38017,BCS70,bcs2_history,bleedinghv,Was bleeding a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38018,BCS70,bcs2_history,bleedinghv,Was bleeding a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38019,BCS70,bcs2_history,bleedinghv,Was bleeding a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38020,BCS70,bcs2_history,bleedinghv,Was bleeding a risk factor on HV records (Preg/Delivery)?,0.0,No
+38021,BCS70,bcs2_history,bleedinghv,Was bleeding a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38022,BCS70,bcs2_history,psychiatrichv,Was psychiatric condition a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38023,BCS70,bcs2_history,psychiatrichv,Was psychiatric condition a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38024,BCS70,bcs2_history,psychiatrichv,Was psychiatric condition a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38025,BCS70,bcs2_history,psychiatrichv,Was psychiatric condition a risk factor on HV records (Preg/Delivery)?,0.0,No
+38026,BCS70,bcs2_history,psychiatrichv,Was psychiatric condition a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38027,BCS70,bcs2_history,diabeteshv,Was diabetes a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38028,BCS70,bcs2_history,diabeteshv,Was diabetes a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38029,BCS70,bcs2_history,diabeteshv,Was diabetes a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38030,BCS70,bcs2_history,diabeteshv,Was diabetes a risk factor on HV records (Preg/Delivery)?,0.0,No
+38031,BCS70,bcs2_history,diabeteshv,Was diabetes a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38032,BCS70,bcs2_history,premu37hv,Was prematurity a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38033,BCS70,bcs2_history,premu37hv,Was prematurity a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38034,BCS70,bcs2_history,premu37hv,Was prematurity a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38035,BCS70,bcs2_history,premu37hv,Was prematurity a risk factor on HV records (Preg/Delivery)?,0.0,No
+38036,BCS70,bcs2_history,premu37hv,Was prematurity a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38037,BCS70,bcs2_history,postmhv,Was postmaturity a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38038,BCS70,bcs2_history,postmhv,Was postmaturity a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38039,BCS70,bcs2_history,postmhv,Was postmaturity a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38040,BCS70,bcs2_history,postmhv,Was postmaturity a risk factor on HV records (Preg/Delivery)?,0.0,No
+38041,BCS70,bcs2_history,postmhv,Was postmaturity a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38042,BCS70,bcs2_history,breechhv,Was breech birth a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38043,BCS70,bcs2_history,breechhv,Was breech birth a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38044,BCS70,bcs2_history,breechhv,Was breech birth a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38045,BCS70,bcs2_history,breechhv,Was breech birth a risk factor on HV records (Preg/Delivery)?,0.0,No
+38046,BCS70,bcs2_history,breechhv,Was breech birth a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38047,BCS70,bcs2_history,difflabhv,Was difficult labour a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38048,BCS70,bcs2_history,difflabhv,Was difficult labour a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38049,BCS70,bcs2_history,difflabhv,Was difficult labour a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38050,BCS70,bcs2_history,difflabhv,Was difficult labour a risk factor on HV records (Preg/Delivery)?,0.0,No
+38051,BCS70,bcs2_history,difflabhv,Was difficult labour a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38052,BCS70,bcs2_history,foetdisthv,Was foetal distress a risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38053,BCS70,bcs2_history,foetdisthv,Was foetal distress a risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38054,BCS70,bcs2_history,foetdisthv,Was foetal distress a risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38055,BCS70,bcs2_history,foetdisthv,Was foetal distress a risk factor on HV records (Preg/Delivery)?,0.0,No
+38056,BCS70,bcs2_history,foetdisthv,Was foetal distress a risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38057,BCS70,bcs2_history,othriskhv,Was there another risk factor on HV records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38058,BCS70,bcs2_history,othriskhv,Was there another risk factor on HV records (Preg/Delivery)?,-3.0,Not stated
+38059,BCS70,bcs2_history,othriskhv,Was there another risk factor on HV records (Preg/Delivery)?,-1.0,Not applicable
+38060,BCS70,bcs2_history,othriskhv,Was there another risk factor on HV records (Preg/Delivery)?,0.0,No
+38061,BCS70,bcs2_history,othriskhv,Was there another risk factor on HV records (Preg/Delivery)?,1.0,Yes
+38062,BCS70,bcs2_history,lowbwthv,Was low birthweight a risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38063,BCS70,bcs2_history,lowbwthv,Was low birthweight a risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38064,BCS70,bcs2_history,lowbwthv,Was low birthweight a risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38065,BCS70,bcs2_history,lowbwthv,Was low birthweight a risk factor on HV records (1st wk of life)?,0.0,No
+38066,BCS70,bcs2_history,lowbwthv,Was low birthweight a risk factor on HV records (1st wk of life)?,1.0,Yes
+38067,BCS70,bcs2_history,birasphxhv,Was birth asphyxia a risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38068,BCS70,bcs2_history,birasphxhv,Was birth asphyxia a risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38069,BCS70,bcs2_history,birasphxhv,Was birth asphyxia a risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38070,BCS70,bcs2_history,birasphxhv,Was birth asphyxia a risk factor on HV records (1st wk of life)?,0.0,No
+38071,BCS70,bcs2_history,birasphxhv,Was birth asphyxia a risk factor on HV records (1st wk of life)?,1.0,Yes
+38072,BCS70,bcs2_history,jaundicehv,Was jaundice a risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38073,BCS70,bcs2_history,jaundicehv,Was jaundice a risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38074,BCS70,bcs2_history,jaundicehv,Was jaundice a risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38075,BCS70,bcs2_history,jaundicehv,Was jaundice a risk factor on HV records (1st wk of life)?,0.0,No
+38076,BCS70,bcs2_history,jaundicehv,Was jaundice a risk factor on HV records (1st wk of life)?,1.0,Yes
+38077,BCS70,bcs2_history,convulshv,Were convulsions a risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38078,BCS70,bcs2_history,convulshv,Were convulsions a risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38079,BCS70,bcs2_history,convulshv,Were convulsions a risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38080,BCS70,bcs2_history,convulshv,Were convulsions a risk factor on HV records (1st wk of life)?,0.0,No
+38081,BCS70,bcs2_history,convulshv,Were convulsions a risk factor on HV records (1st wk of life)?,1.0,Yes
+38082,BCS70,bcs2_history,congabnhv,Was congenital abnormality a risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38083,BCS70,bcs2_history,congabnhv,Was congenital abnormality a risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38084,BCS70,bcs2_history,congabnhv,Was congenital abnormality a risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38085,BCS70,bcs2_history,congabnhv,Was congenital abnormality a risk factor on HV records (1st wk of life)?,0.0,No
+38086,BCS70,bcs2_history,congabnhv,Was congenital abnormality a risk factor on HV records (1st wk of life)?,1.0,Yes
+38087,BCS70,bcs2_history,respdisthv,Was respiratory distress a risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38088,BCS70,bcs2_history,respdisthv,Was respiratory distress a risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38089,BCS70,bcs2_history,respdisthv,Was respiratory distress a risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38090,BCS70,bcs2_history,respdisthv,Was respiratory distress a risk factor on HV records (1st wk of life)?,0.0,No
+38091,BCS70,bcs2_history,respdisthv,Was respiratory distress a risk factor on HV records (1st wk of life)?,1.0,Yes
+38092,BCS70,bcs2_history,othriskhvwk1,Was there another risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38093,BCS70,bcs2_history,othriskhvwk1,Was there another risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38094,BCS70,bcs2_history,othriskhvwk1,Was there another risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38095,BCS70,bcs2_history,othriskhvwk1,Was there another risk factor on HV records (1st wk of life)?,0.0,No
+38096,BCS70,bcs2_history,othriskhvwk1,Was there another risk factor on HV records (1st wk of life)?,1.0,Yes
+38097,BCS70,bcs2_history,socenvirnhv,Was social environment a risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38098,BCS70,bcs2_history,socenvirnhv,Was social environment a risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38099,BCS70,bcs2_history,socenvirnhv,Was social environment a risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38100,BCS70,bcs2_history,socenvirnhv,Was social environment a risk factor on HV records (1st wk of life)?,0.0,No
+38101,BCS70,bcs2_history,socenvirnhv,Was social environment a risk factor on HV records (1st wk of life)?,1.0,Yes
+38102,BCS70,bcs2_history,genetriskhv,Was there a genetic risk factor on HV records (1st wk of life)?,-5.0,No DHS Questionnaire
+38103,BCS70,bcs2_history,genetriskhv,Was there a genetic risk factor on HV records (1st wk of life)?,-3.0,Not stated
+38104,BCS70,bcs2_history,genetriskhv,Was there a genetic risk factor on HV records (1st wk of life)?,-1.0,Not applicable
+38105,BCS70,bcs2_history,genetriskhv,Was there a genetic risk factor on HV records (1st wk of life)?,0.0,No
+38106,BCS70,bcs2_history,genetriskhv,Was there a genetic risk factor on HV records (1st wk of life)?,1.0,Yes
+38107,BCS70,bcs2_history,rubellachc,Was rubella a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38108,BCS70,bcs2_history,rubellachc,Was rubella a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38109,BCS70,bcs2_history,rubellachc,Was rubella a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38110,BCS70,bcs2_history,rubellachc,Was rubella a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38111,BCS70,bcs2_history,rubellachc,Was rubella a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38112,BCS70,bcs2_history,twinchc,Was being a twin a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38113,BCS70,bcs2_history,twinchc,Was being a twin a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38114,BCS70,bcs2_history,twinchc,Was being a twin a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38115,BCS70,bcs2_history,twinchc,Was being a twin a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38116,BCS70,bcs2_history,twinchc,Was being a twin a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38117,BCS70,bcs2_history,rhincompchc,Was rhesus incompatibility a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38118,BCS70,bcs2_history,rhincompchc,Was rhesus incompatibility a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38119,BCS70,bcs2_history,rhincompchc,Was rhesus incompatibility a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38120,BCS70,bcs2_history,rhincompchc,Was rhesus incompatibility a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38121,BCS70,bcs2_history,rhincompchc,Was rhesus incompatibility a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38122,BCS70,bcs2_history,toxaemiachc,Was toxaemia a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38123,BCS70,bcs2_history,toxaemiachc,Was toxaemia a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38124,BCS70,bcs2_history,toxaemiachc,Was toxaemia a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38125,BCS70,bcs2_history,toxaemiachc,Was toxaemia a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38126,BCS70,bcs2_history,toxaemiachc,Was toxaemia a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38127,BCS70,bcs2_history,bleedingchc,Was bleeding a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38128,BCS70,bcs2_history,bleedingchc,Was bleeding a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38129,BCS70,bcs2_history,bleedingchc,Was bleeding a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38130,BCS70,bcs2_history,bleedingchc,Was bleeding a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38131,BCS70,bcs2_history,bleedingchc,Was bleeding a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38132,BCS70,bcs2_history,psychiatricchc,Was psychiatric condition a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38133,BCS70,bcs2_history,psychiatricchc,Was psychiatric condition a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38134,BCS70,bcs2_history,psychiatricchc,Was psychiatric condition a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38135,BCS70,bcs2_history,psychiatricchc,Was psychiatric condition a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38136,BCS70,bcs2_history,psychiatricchc,Was psychiatric condition a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38137,BCS70,bcs2_history,diabeteschc,Was diabetes a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38138,BCS70,bcs2_history,diabeteschc,Was diabetes a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38139,BCS70,bcs2_history,diabeteschc,Was diabetes a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38140,BCS70,bcs2_history,diabeteschc,Was diabetes a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38141,BCS70,bcs2_history,diabeteschc,Was diabetes a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38142,BCS70,bcs2_history,premu37chc,Was prematurity a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38143,BCS70,bcs2_history,premu37chc,Was prematurity a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38144,BCS70,bcs2_history,premu37chc,Was prematurity a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38145,BCS70,bcs2_history,premu37chc,Was prematurity a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38146,BCS70,bcs2_history,premu37chc,Was prematurity a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38147,BCS70,bcs2_history,postmchc,Was postmaturity a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38148,BCS70,bcs2_history,postmchc,Was postmaturity a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38149,BCS70,bcs2_history,postmchc,Was postmaturity a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38150,BCS70,bcs2_history,postmchc,Was postmaturity a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38151,BCS70,bcs2_history,postmchc,Was postmaturity a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38152,BCS70,bcs2_history,breechchc,Was breech birth a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38153,BCS70,bcs2_history,breechchc,Was breech birth a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38154,BCS70,bcs2_history,breechchc,Was breech birth a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38155,BCS70,bcs2_history,breechchc,Was breech birth a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38156,BCS70,bcs2_history,breechchc,Was breech birth a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38157,BCS70,bcs2_history,difflabchc,Was difficult labour a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38158,BCS70,bcs2_history,difflabchc,Was difficult labour a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38159,BCS70,bcs2_history,difflabchc,Was difficult labour a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38160,BCS70,bcs2_history,difflabchc,Was difficult labour a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38161,BCS70,bcs2_history,difflabchc,Was difficult labour a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38162,BCS70,bcs2_history,foetdistchc,Was foetal distress a risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38163,BCS70,bcs2_history,foetdistchc,Was foetal distress a risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38164,BCS70,bcs2_history,foetdistchc,Was foetal distress a risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38165,BCS70,bcs2_history,foetdistchc,Was foetal distress a risk factor on CHC records (Preg/Delivery)?,0.0,No
+38166,BCS70,bcs2_history,foetdistchc,Was foetal distress a risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38167,BCS70,bcs2_history,othriskchc,Was there another risk factor on CHC records (Preg/Delivery)?,-5.0,No DHS Questionnaire
+38168,BCS70,bcs2_history,othriskchc,Was there another risk factor on CHC records (Preg/Delivery)?,-3.0,Not stated
+38169,BCS70,bcs2_history,othriskchc,Was there another risk factor on CHC records (Preg/Delivery)?,-1.0,Not applicable
+38170,BCS70,bcs2_history,othriskchc,Was there another risk factor on CHC records (Preg/Delivery)?,0.0,No
+38171,BCS70,bcs2_history,othriskchc,Was there another risk factor on CHC records (Preg/Delivery)?,1.0,Yes
+38172,BCS70,bcs2_history,lowbwtchc,Was low birthweight a risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38173,BCS70,bcs2_history,lowbwtchc,Was low birthweight a risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38174,BCS70,bcs2_history,lowbwtchc,Was low birthweight a risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38175,BCS70,bcs2_history,lowbwtchc,Was low birthweight a risk factor on CHC records (1st wk of life)?,0.0,No
+38176,BCS70,bcs2_history,lowbwtchc,Was low birthweight a risk factor on CHC records (1st wk of life)?,1.0,Yes
+38177,BCS70,bcs2_history,birasphxchc,Was birth asphyxia a risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38178,BCS70,bcs2_history,birasphxchc,Was birth asphyxia a risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38179,BCS70,bcs2_history,birasphxchc,Was birth asphyxia a risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38180,BCS70,bcs2_history,birasphxchc,Was birth asphyxia a risk factor on CHC records (1st wk of life)?,0.0,No
+38181,BCS70,bcs2_history,birasphxchc,Was birth asphyxia a risk factor on CHC records (1st wk of life)?,1.0,Yes
+38182,BCS70,bcs2_history,jaundicechc,Was jaundice a risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38183,BCS70,bcs2_history,jaundicechc,Was jaundice a risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38184,BCS70,bcs2_history,jaundicechc,Was jaundice a risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38185,BCS70,bcs2_history,jaundicechc,Was jaundice a risk factor on CHC records (1st wk of life)?,0.0,No
+38186,BCS70,bcs2_history,jaundicechc,Was jaundice a risk factor on CHC records (1st wk of life)?,1.0,Yes
+38187,BCS70,bcs2_history,convulschc,Were convulsions a risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38188,BCS70,bcs2_history,convulschc,Were convulsions a risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38189,BCS70,bcs2_history,convulschc,Were convulsions a risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38190,BCS70,bcs2_history,convulschc,Were convulsions a risk factor on CHC records (1st wk of life)?,0.0,No
+38191,BCS70,bcs2_history,convulschc,Were convulsions a risk factor on CHC records (1st wk of life)?,1.0,Yes
+38192,BCS70,bcs2_history,congabnchc,Was congenital abnrmlty a risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38193,BCS70,bcs2_history,congabnchc,Was congenital abnrmlty a risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38194,BCS70,bcs2_history,congabnchc,Was congenital abnrmlty a risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38195,BCS70,bcs2_history,congabnchc,Was congenital abnrmlty a risk factor on CHC records (1st wk of life)?,0.0,No
+38196,BCS70,bcs2_history,congabnchc,Was congenital abnrmlty a risk factor on CHC records (1st wk of life)?,1.0,Yes
+38197,BCS70,bcs2_history,respdistchc,Was respiratory distress a risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38198,BCS70,bcs2_history,respdistchc,Was respiratory distress a risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38199,BCS70,bcs2_history,respdistchc,Was respiratory distress a risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38200,BCS70,bcs2_history,respdistchc,Was respiratory distress a risk factor on CHC records (1st wk of life)?,0.0,No
+38201,BCS70,bcs2_history,respdistchc,Was respiratory distress a risk factor on CHC records (1st wk of life)?,1.0,Yes
+38202,BCS70,bcs2_history,othriskchcwk1,Was there another risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38203,BCS70,bcs2_history,othriskchcwk1,Was there another risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38204,BCS70,bcs2_history,othriskchcwk1,Was there another risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38205,BCS70,bcs2_history,othriskchcwk1,Was there another risk factor on CHC records (1st wk of life)?,0.0,No
+38206,BCS70,bcs2_history,othriskchcwk1,Was there another risk factor on CHC records (1st wk of life)?,1.0,Yes
+38207,BCS70,bcs2_history,socenvirnchc,Was social environment a risk factor on CHC records (1st wk of life)?,1.0,Yes
+38208,BCS70,bcs2_history,socenvirnchc,Was social environment a risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38209,BCS70,bcs2_history,socenvirnchc,Was social environment a risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38210,BCS70,bcs2_history,socenvirnchc,Was social environment a risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38211,BCS70,bcs2_history,socenvirnchc,Was social environment a risk factor on CHC records (1st wk of life)?,0.0,No
+38212,BCS70,bcs2_history,genetriskchc,Was there a genetic risk factor on CHC records (1st wk of life)?,-5.0,No DHS Questionnaire
+38213,BCS70,bcs2_history,genetriskchc,Was there a genetic risk factor on CHC records (1st wk of life)?,-3.0,Not stated
+38214,BCS70,bcs2_history,genetriskchc,Was there a genetic risk factor on CHC records (1st wk of life)?,-1.0,Not applicable
+38215,BCS70,bcs2_history,genetriskchc,Was there a genetic risk factor on CHC records (1st wk of life)?,0.0,No
+38216,BCS70,bcs2_history,genetriskchc,Was there a genetic risk factor on CHC records (1st wk of life)?,1.0,Yes
+38217,BCS70,bcs2_history,atriskmed,Was medical risk a reason for being on register?,-5.0,No DHS Questionnaire
+38218,BCS70,bcs2_history,atriskmed,Was medical risk a reason for being on register?,-3.0,Not stated
+38219,BCS70,bcs2_history,atriskmed,Was medical risk a reason for being on register?,-2.0,Not known
+38220,BCS70,bcs2_history,atriskmed,Was medical risk a reason for being on register?,-1.0,Not applicable
+38221,BCS70,bcs2_history,atriskmed,Was medical risk a reason for being on register?,0.0,No
+38222,BCS70,bcs2_history,atriskmed,Was medical risk a reason for being on register?,1.0,Yes
+38223,BCS70,bcs2_history,atrisksoc,Was social risk a reason for being on register?,-5.0,No DHS Questionnaire
+38224,BCS70,bcs2_history,atrisksoc,Was social risk a reason for being on register?,-3.0,Not stated
+38225,BCS70,bcs2_history,atrisksoc,Was social risk a reason for being on register?,-2.0,Not known
+38226,BCS70,bcs2_history,atrisksoc,Was social risk a reason for being on register?,-1.0,Not applicable
+38227,BCS70,bcs2_history,atrisksoc,Was social risk a reason for being on register?,0.0,No
+38228,BCS70,bcs2_history,atrisksoc,Was social risk a reason for being on register?,1.0,Yes
+38229,BCS70,bcs2_history,handic,Was handicap a reason for being on register?,-5.0,No DHS Questionnaire
+38230,BCS70,bcs2_history,handic,Was handicap a reason for being on register?,-3.0,Not stated
+38231,BCS70,bcs2_history,handic,Was handicap a reason for being on register?,-2.0,Not known
+38232,BCS70,bcs2_history,handic,Was handicap a reason for being on register?,-1.0,Not applicable
+38233,BCS70,bcs2_history,handic,Was handicap a reason for being on register?,0.0,No
+38234,BCS70,bcs2_history,handic,Was handicap a reason for being on register?,1.0,Yes
+38235,BCS70,bcs2_history,othrsitn,Was there another reason for being on register?,-5.0,No DHS Questionnaire
+38236,BCS70,bcs2_history,othrsitn,Was there another reason for being on register?,-3.0,Not stated
+38237,BCS70,bcs2_history,othrsitn,Was there another reason for being on register?,-2.0,Not known
+38238,BCS70,bcs2_history,othrsitn,Was there another reason for being on register?,-1.0,Not applicable
+38239,BCS70,bcs2_history,othrsitn,Was there another reason for being on register?,0.0,No
+38240,BCS70,bcs2_history,othrsitn,Was there another reason for being on register?,1.0,Yes
+38241,BCS70,bcs2_history,blindhc1,Special Educ treatment - Blind,-5.0,No DHS Questionnaire
+38242,BCS70,bcs2_history,blindhc1,Special Educ treatment - Blind,-3.0,Not stated
+38243,BCS70,bcs2_history,blindhc1,Special Educ treatment - Blind,-1.0,Not applicable
+38244,BCS70,bcs2_history,blindhc1,Special Educ treatment - Blind,0.0,No
+38245,BCS70,bcs2_history,blindhc1,Special Educ treatment - Blind,1.0,Yes
+38246,BCS70,bcs2_history,psightedhc1,Special Educ treatment - Partially sighted,-5.0,No DHS Questionnaire
+38247,BCS70,bcs2_history,psightedhc1,Special Educ treatment - Partially sighted,-3.0,Not stated
+38248,BCS70,bcs2_history,psightedhc1,Special Educ treatment - Partially sighted,-1.0,Not applicable
+38249,BCS70,bcs2_history,psightedhc1,Special Educ treatment - Partially sighted,0.0,No
+38250,BCS70,bcs2_history,psightedhc1,Special Educ treatment - Partially sighted,1.0,Yes
+38251,BCS70,bcs2_history,deafhc1,Special Educ treatment - Deaf,-5.0,No DHS Questionnaire
+38252,BCS70,bcs2_history,deafhc1,Special Educ treatment - Deaf,-3.0,Not stated
+38253,BCS70,bcs2_history,deafhc1,Special Educ treatment - Deaf,-1.0,Not applicable
+38254,BCS70,bcs2_history,deafhc1,Special Educ treatment - Deaf,0.0,No
+38255,BCS70,bcs2_history,deafhc1,Special Educ treatment - Deaf,1.0,Yes
+38256,BCS70,bcs2_history,phearinghc1,Special Educ treatment - Partially hearing,-5.0,No DHS Questionnaire
+38257,BCS70,bcs2_history,phearinghc1,Special Educ treatment - Partially hearing,-3.0,Not stated
+38258,BCS70,bcs2_history,phearinghc1,Special Educ treatment - Partially hearing,-1.0,Not applicable
+38259,BCS70,bcs2_history,phearinghc1,Special Educ treatment - Partially hearing,0.0,No
+38260,BCS70,bcs2_history,phearinghc1,Special Educ treatment - Partially hearing,1.0,Yes
+38261,BCS70,bcs2_history,mentscothc1,Special Educ treatment - Mentally handicapped (Scotland),-5.0,No DHS Questionnaire
+38262,BCS70,bcs2_history,mentscothc1,Special Educ treatment - Mentally handicapped (Scotland),-3.0,Not stated
+38263,BCS70,bcs2_history,mentscothc1,Special Educ treatment - Mentally handicapped (Scotland),-1.0,Not applicable
+38264,BCS70,bcs2_history,mentscothc1,Special Educ treatment - Mentally handicapped (Scotland),0.0,No
+38265,BCS70,bcs2_history,mentscothc1,Special Educ treatment - Mentally handicapped (Scotland),1.0,Yes
+38266,BCS70,bcs2_history,esnewhc1,Special Educ treatment - Educ Subnormal (E&W),-5.0,No DHS Questionnaire
+38267,BCS70,bcs2_history,esnewhc1,Special Educ treatment - Educ Subnormal (E&W),-3.0,Not stated
+38268,BCS70,bcs2_history,esnewhc1,Special Educ treatment - Educ Subnormal (E&W),-1.0,Not applicable
+38269,BCS70,bcs2_history,esnewhc1,Special Educ treatment - Educ Subnormal (E&W),0.0,No
+38270,BCS70,bcs2_history,esnewhc1,Special Educ treatment - Educ Subnormal (E&W),1.0,Yes
+38271,BCS70,bcs2_history,sevesnewhc2,Special Educ treatment - Severely ESN (E&W),-5.0,No DHS Questionnaire
+38272,BCS70,bcs2_history,sevesnewhc2,Special Educ treatment - Severely ESN (E&W),-3.0,Not stated
+38273,BCS70,bcs2_history,sevesnewhc2,Special Educ treatment - Severely ESN (E&W),-1.0,Not applicable
+38274,BCS70,bcs2_history,sevesnewhc2,Special Educ treatment - Severely ESN (E&W),0.0,No
+38275,BCS70,bcs2_history,sevesnewhc2,Special Educ treatment - Severely ESN (E&W),1.0,Yes
+38276,BCS70,bcs2_history,epilephc2,Special Educ treatment - Epileptic,-5.0,No DHS Questionnaire
+38277,BCS70,bcs2_history,epilephc2,Special Educ treatment - Epileptic,-3.0,Not stated
+38278,BCS70,bcs2_history,epilephc2,Special Educ treatment - Epileptic,-1.0,Not applicable
+38279,BCS70,bcs2_history,epilephc2,Special Educ treatment - Epileptic,0.0,No
+38280,BCS70,bcs2_history,epilephc2,Special Educ treatment - Epileptic,1.0,Yes
+38281,BCS70,bcs2_history,maladhc2,Special Educ treatment - Maldjusted,-5.0,No DHS Questionnaire
+38282,BCS70,bcs2_history,maladhc2,Special Educ treatment - Maldjusted,-3.0,Not stated
+38283,BCS70,bcs2_history,maladhc2,Special Educ treatment - Maldjusted,-1.0,Not applicable
+38284,BCS70,bcs2_history,maladhc2,Special Educ treatment - Maldjusted,0.0,No
+38285,BCS70,bcs2_history,maladhc2,Special Educ treatment - Maldjusted,1.0,Yes
+38286,BCS70,bcs2_history,physhc2,Special Educ treatment - Physically Handicapped,-5.0,No DHS Questionnaire
+38287,BCS70,bcs2_history,physhc2,Special Educ treatment - Physically Handicapped,-3.0,Not stated
+38288,BCS70,bcs2_history,physhc2,Special Educ treatment - Physically Handicapped,-1.0,Not applicable
+38289,BCS70,bcs2_history,physhc2,Special Educ treatment - Physically Handicapped,0.0,No
+38290,BCS70,bcs2_history,physhc2,Special Educ treatment - Physically Handicapped,1.0,Yes
+38291,BCS70,bcs2_history,speechdefhc2,Special Educ treatment - Speech Defect,-5.0,No DHS Questionnaire
+38292,BCS70,bcs2_history,speechdefhc2,Special Educ treatment - Speech Defect,-3.0,Not stated
+38293,BCS70,bcs2_history,speechdefhc2,Special Educ treatment - Speech Defect,-1.0,Not applicable
+38294,BCS70,bcs2_history,speechdefhc2,Special Educ treatment - Speech Defect,0.0,No
+38295,BCS70,bcs2_history,speechdefhc2,Special Educ treatment - Speech Defect,1.0,Yes
+38296,BCS70,bcs2_history,delicateewhc2,Special Educ treatment - Delicate (E&W),-5.0,No DHS Questionnaire
+38297,BCS70,bcs2_history,delicateewhc2,Special Educ treatment - Delicate (E&W),-3.0,Not stated
+38298,BCS70,bcs2_history,delicateewhc2,Special Educ treatment - Delicate (E&W),-1.0,Not applicable
+38299,BCS70,bcs2_history,delicateewhc2,Special Educ treatment - Delicate (E&W),0.0,No
+38300,BCS70,bcs2_history,delicateewhc2,Special Educ treatment - Delicate (E&W),1.0,Yes
+38301,BCS70,bcs2_history,gpsurgery,Records used to complete DHS - GP Surgery,-5.0,No DHS Questionnaire
+38302,BCS70,bcs2_history,gpsurgery,Records used to complete DHS - GP Surgery,-3.0,Not stated
+38303,BCS70,bcs2_history,gpsurgery,Records used to complete DHS - GP Surgery,-2.0,Not known
+38304,BCS70,bcs2_history,gpsurgery,Records used to complete DHS - GP Surgery,-1.0,Not applicable
+38305,BCS70,bcs2_history,gpsurgery,Records used to complete DHS - GP Surgery,0.0,No
+38306,BCS70,bcs2_history,gpsurgery,Records used to complete DHS - GP Surgery,1.0,Yes
+38307,BCS70,bcs2_history,hcprecord,Records used to complete DHS â€“ HCP Records,-5.0,No DHS Questionnaire
+38308,BCS70,bcs2_history,hcprecord,Records used to complete DHS â€“ HCP Records,-3.0,Not stated
+38309,BCS70,bcs2_history,hcprecord,Records used to complete DHS â€“ HCP Records,-2.0,Not known
+38310,BCS70,bcs2_history,hcprecord,Records used to complete DHS â€“ HCP Records,-1.0,Not applicable
+38311,BCS70,bcs2_history,hcprecord,Records used to complete DHS â€“ HCP Records,0.0,No
+38312,BCS70,bcs2_history,hcprecord,Records used to complete DHS â€“ HCP Records,1.0,Yes
+38313,BCS70,bcs2_history,nurserysch,Records used to complete DHS â€“ Nursery School,-5.0,No DHS Questionnaire
+38314,BCS70,bcs2_history,nurserysch,Records used to complete DHS â€“ Nursery School,-3.0,Not stated
+38315,BCS70,bcs2_history,nurserysch,Records used to complete DHS â€“ Nursery School,-2.0,Not known
+38316,BCS70,bcs2_history,nurserysch,Records used to complete DHS â€“ Nursery School,-1.0,Not applicable
+38317,BCS70,bcs2_history,nurserysch,Records used to complete DHS â€“ Nursery School,0.0,No
+38318,BCS70,bcs2_history,nurserysch,Records used to complete DHS â€“ Nursery School,1.0,Yes
+38319,BCS70,bcs2_history,daynursery,Records used to complete DHS â€“ Day Nursery,-5.0,No DHS Questionnaire
+38320,BCS70,bcs2_history,daynursery,Records used to complete DHS â€“ Day Nursery,-3.0,Not stated
+38321,BCS70,bcs2_history,daynursery,Records used to complete DHS â€“ Day Nursery,-2.0,Not known
+38322,BCS70,bcs2_history,daynursery,Records used to complete DHS â€“ Day Nursery,-1.0,Not applicable
+38323,BCS70,bcs2_history,daynursery,Records used to complete DHS â€“ Day Nursery,0.0,No
+38324,BCS70,bcs2_history,daynursery,Records used to complete DHS â€“ Day Nursery,1.0,Yes
+38325,BCS70,bcs2_history,rescare,Records used to complete DHS â€“ Residential Care,-5.0,No DHS Questionnaire
+38326,BCS70,bcs2_history,rescare,Records used to complete DHS â€“ Residential Care,-3.0,Not stated
+38327,BCS70,bcs2_history,rescare,Records used to complete DHS â€“ Residential Care,-2.0,Not known
+38328,BCS70,bcs2_history,rescare,Records used to complete DHS â€“ Residential Care,-1.0,Not applicable
+38329,BCS70,bcs2_history,rescare,Records used to complete DHS â€“ Residential Care,0.0,No
+38330,BCS70,bcs2_history,rescare,Records used to complete DHS â€“ Residential Care,1.0,Yes
+38331,BCS70,bcs2_history,othsources,Records used to complete DHS â€“ Other Sources,-5.0,No DHS Questionnaire
+38332,BCS70,bcs2_history,othsources,Records used to complete DHS â€“ Other Sources,-3.0,Not stated
+38333,BCS70,bcs2_history,othsources,Records used to complete DHS â€“ Other Sources,-2.0,Not known
+38334,BCS70,bcs2_history,othsources,Records used to complete DHS â€“ Other Sources,-1.0,Not applicable
+38335,BCS70,bcs2_history,othsources,Records used to complete DHS â€“ Other Sources,0.0,No
+38336,BCS70,bcs2_history,othsources,Records used to complete DHS â€“ Other Sources,1.0,Yes
+38337,BCS70,bcs2_history,screen1gendev,1st Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38338,BCS70,bcs2_history,screen1gendev,1st Screening: Gen Dev Check done?,-3.0,Not stated
+38339,BCS70,bcs2_history,screen1gendev,1st Screening: Gen Dev Check done?,-1.0,Not applicable
+38340,BCS70,bcs2_history,screen1gendev,1st Screening: Gen Dev Check done?,0.0,No
+38341,BCS70,bcs2_history,screen1gendev,1st Screening: Gen Dev Check done?,1.0,Yes
+38342,BCS70,bcs2_history,screen1heartst,1st Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38343,BCS70,bcs2_history,screen1heartst,1st Screening: Hearing Test done?,-3.0,Not stated
+38344,BCS70,bcs2_history,screen1heartst,1st Screening: Hearing Test done?,-1.0,Not applicable
+38345,BCS70,bcs2_history,screen1heartst,1st Screening: Hearing Test done?,0.0,No
+38346,BCS70,bcs2_history,screen1heartst,1st Screening: Hearing Test done?,1.0,Yes
+38347,BCS70,bcs2_history,screen1visntst,1st Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38348,BCS70,bcs2_history,screen1visntst,1st Screening: Vision Test done?,-3.0,Not stated
+38349,BCS70,bcs2_history,screen1visntst,1st Screening: Vision Test done?,-1.0,Not applicable
+38350,BCS70,bcs2_history,screen1visntst,1st Screening: Vision Test done?,0.0,No
+38351,BCS70,bcs2_history,screen1visntst,1st Screening: Vision Test done?,1.0,Yes
+38352,BCS70,bcs2_history,screen1sqnt,1st Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38353,BCS70,bcs2_history,screen1sqnt,1st Screening: Examination for squint done?,-3.0,Not stated
+38354,BCS70,bcs2_history,screen1sqnt,1st Screening: Examination for squint done?,-1.0,Not applicable
+38355,BCS70,bcs2_history,screen1sqnt,1st Screening: Examination for squint done?,0.0,No
+38356,BCS70,bcs2_history,screen1sqnt,1st Screening: Examination for squint done?,1.0,Yes
+38357,BCS70,bcs2_history,screen2gendev,2nd Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38358,BCS70,bcs2_history,screen2gendev,2nd Screening: Gen Dev Check done?,-3.0,Not stated
+38359,BCS70,bcs2_history,screen2gendev,2nd Screening: Gen Dev Check done?,-1.0,Not applicable
+38360,BCS70,bcs2_history,screen2gendev,2nd Screening: Gen Dev Check done?,0.0,No
+38361,BCS70,bcs2_history,screen2gendev,2nd Screening: Gen Dev Check done?,1.0,Yes
+38362,BCS70,bcs2_history,screen2heartst,2nd Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38363,BCS70,bcs2_history,screen2heartst,2nd Screening: Hearing Test done?,-3.0,Not stated
+38364,BCS70,bcs2_history,screen2heartst,2nd Screening: Hearing Test done?,-1.0,Not applicable
+38365,BCS70,bcs2_history,screen2heartst,2nd Screening: Hearing Test done?,0.0,No
+38366,BCS70,bcs2_history,screen2heartst,2nd Screening: Hearing Test done?,1.0,Yes
+38367,BCS70,bcs2_history,screen2visntst,2nd Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38368,BCS70,bcs2_history,screen2visntst,2nd Screening: Vision Test done?,-3.0,Not stated
+38369,BCS70,bcs2_history,screen2visntst,2nd Screening: Vision Test done?,-1.0,Not applicable
+38370,BCS70,bcs2_history,screen2visntst,2nd Screening: Vision Test done?,0.0,No
+38371,BCS70,bcs2_history,screen2visntst,2nd Screening: Vision Test done?,1.0,Yes
+38372,BCS70,bcs2_history,screen2sqnt,2nd Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38373,BCS70,bcs2_history,screen2sqnt,2nd Screening: Examination for squint done?,-3.0,Not stated
+38374,BCS70,bcs2_history,screen2sqnt,2nd Screening: Examination for squint done?,-1.0,Not applicable
+38375,BCS70,bcs2_history,screen2sqnt,2nd Screening: Examination for squint done?,0.0,No
+38376,BCS70,bcs2_history,screen2sqnt,2nd Screening: Examination for squint done?,1.0,Yes
+38377,BCS70,bcs2_history,screen3gendev,3rd Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38378,BCS70,bcs2_history,screen3gendev,3rd Screening: Gen Dev Check done?,-3.0,Not stated
+38379,BCS70,bcs2_history,screen3gendev,3rd Screening: Gen Dev Check done?,-1.0,Not applicable
+38380,BCS70,bcs2_history,screen3gendev,3rd Screening: Gen Dev Check done?,0.0,No
+38381,BCS70,bcs2_history,screen3gendev,3rd Screening: Gen Dev Check done?,1.0,Yes
+38382,BCS70,bcs2_history,screen3heartst,3rd Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38383,BCS70,bcs2_history,screen3heartst,3rd Screening: Hearing Test done?,-3.0,Not stated
+38384,BCS70,bcs2_history,screen3heartst,3rd Screening: Hearing Test done?,-1.0,Not applicable
+38385,BCS70,bcs2_history,screen3heartst,3rd Screening: Hearing Test done?,0.0,No
+38386,BCS70,bcs2_history,screen3heartst,3rd Screening: Hearing Test done?,1.0,Yes
+38387,BCS70,bcs2_history,screen3visntst,3rd Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38388,BCS70,bcs2_history,screen3visntst,3rd Screening: Vision Test done?,-3.0,Not stated
+38389,BCS70,bcs2_history,screen3visntst,3rd Screening: Vision Test done?,-1.0,Not applicable
+38390,BCS70,bcs2_history,screen3visntst,3rd Screening: Vision Test done?,0.0,No
+38391,BCS70,bcs2_history,screen3visntst,3rd Screening: Vision Test done?,1.0,Yes
+38392,BCS70,bcs2_history,screen3sqnt,3rd Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38393,BCS70,bcs2_history,screen3sqnt,3rd Screening: Examination for squint done?,-3.0,Not stated
+38394,BCS70,bcs2_history,screen3sqnt,3rd Screening: Examination for squint done?,-1.0,Not applicable
+38395,BCS70,bcs2_history,screen3sqnt,3rd Screening: Examination for squint done?,0.0,No
+38396,BCS70,bcs2_history,screen3sqnt,3rd Screening: Examination for squint done?,1.0,Yes
+38397,BCS70,bcs2_history,screen4gendev,4th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38398,BCS70,bcs2_history,screen4gendev,4th Screening: Gen Dev Check done?,-3.0,Not stated
+38399,BCS70,bcs2_history,screen4gendev,4th Screening: Gen Dev Check done?,-1.0,Not applicable
+38400,BCS70,bcs2_history,screen4gendev,4th Screening: Gen Dev Check done?,0.0,No
+38401,BCS70,bcs2_history,screen4gendev,4th Screening: Gen Dev Check done?,1.0,Yes
+38402,BCS70,bcs2_history,screen4heartst,4th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38403,BCS70,bcs2_history,screen4heartst,4th Screening: Hearing Test done?,-3.0,Not stated
+38404,BCS70,bcs2_history,screen4heartst,4th Screening: Hearing Test done?,-1.0,Not applicable
+38405,BCS70,bcs2_history,screen4heartst,4th Screening: Hearing Test done?,0.0,No
+38406,BCS70,bcs2_history,screen4heartst,4th Screening: Hearing Test done?,1.0,Yes
+38407,BCS70,bcs2_history,screen4visntst,4th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38408,BCS70,bcs2_history,screen4visntst,4th Screening: Vision Test done?,-3.0,Not stated
+38409,BCS70,bcs2_history,screen4visntst,4th Screening: Vision Test done?,-1.0,Not applicable
+38410,BCS70,bcs2_history,screen4visntst,4th Screening: Vision Test done?,0.0,No
+38411,BCS70,bcs2_history,screen4visntst,4th Screening: Vision Test done?,1.0,Yes
+38412,BCS70,bcs2_history,screen4sqnt,4th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38413,BCS70,bcs2_history,screen4sqnt,4th Screening: Examination for squint done?,-3.0,Not stated
+38414,BCS70,bcs2_history,screen4sqnt,4th Screening: Examination for squint done?,-1.0,Not applicable
+38415,BCS70,bcs2_history,screen4sqnt,4th Screening: Examination for squint done?,0.0,No
+38416,BCS70,bcs2_history,screen4sqnt,4th Screening: Examination for squint done?,1.0,Yes
+38417,BCS70,bcs2_history,screen5gendev,5th Screening: Gen Dev Check done?,-1.0,Not applicable
+38418,BCS70,bcs2_history,screen5gendev,5th Screening: Gen Dev Check done?,0.0,No
+38419,BCS70,bcs2_history,screen5gendev,5th Screening: Gen Dev Check done?,1.0,Yes
+38420,BCS70,bcs2_history,screen5gendev,5th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38421,BCS70,bcs2_history,screen5gendev,5th Screening: Gen Dev Check done?,-3.0,Not stated
+38422,BCS70,bcs2_history,screen5heartst,5th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38423,BCS70,bcs2_history,screen5heartst,5th Screening: Hearing Test done?,-3.0,Not stated
+38424,BCS70,bcs2_history,screen5heartst,5th Screening: Hearing Test done?,-1.0,Not applicable
+38425,BCS70,bcs2_history,screen5heartst,5th Screening: Hearing Test done?,0.0,No
+38426,BCS70,bcs2_history,screen5heartst,5th Screening: Hearing Test done?,1.0,Yes
+38427,BCS70,bcs2_history,screen5visntst,5th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38428,BCS70,bcs2_history,screen5visntst,5th Screening: Vision Test done?,-3.0,Not stated
+38429,BCS70,bcs2_history,screen5visntst,5th Screening: Vision Test done?,-1.0,Not applicable
+38430,BCS70,bcs2_history,screen5visntst,5th Screening: Vision Test done?,0.0,No
+38431,BCS70,bcs2_history,screen5visntst,5th Screening: Vision Test done?,1.0,Yes
+38432,BCS70,bcs2_history,screen5sqnt,5th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38433,BCS70,bcs2_history,screen5sqnt,5th Screening: Examination for squint done?,-3.0,Not stated
+38434,BCS70,bcs2_history,screen5sqnt,5th Screening: Examination for squint done?,-1.0,Not applicable
+38435,BCS70,bcs2_history,screen5sqnt,5th Screening: Examination for squint done?,0.0,No
+38436,BCS70,bcs2_history,screen5sqnt,5th Screening: Examination for squint done?,1.0,Yes
+38437,BCS70,bcs2_history,screen6gendev,6th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38438,BCS70,bcs2_history,screen6gendev,6th Screening: Gen Dev Check done?,-3.0,Not stated
+38439,BCS70,bcs2_history,screen6gendev,6th Screening: Gen Dev Check done?,-1.0,Not applicable
+38440,BCS70,bcs2_history,screen6gendev,6th Screening: Gen Dev Check done?,0.0,No
+38441,BCS70,bcs2_history,screen6gendev,6th Screening: Gen Dev Check done?,1.0,Yes
+38442,BCS70,bcs2_history,screen6heartst,6th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38443,BCS70,bcs2_history,screen6heartst,6th Screening: Hearing Test done?,-3.0,Not stated
+38444,BCS70,bcs2_history,screen6heartst,6th Screening: Hearing Test done?,-1.0,Not applicable
+38445,BCS70,bcs2_history,screen6heartst,6th Screening: Hearing Test done?,0.0,No
+38446,BCS70,bcs2_history,screen6heartst,6th Screening: Hearing Test done?,1.0,Yes
+38447,BCS70,bcs2_history,screen6visntst,6th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38448,BCS70,bcs2_history,screen6visntst,6th Screening: Vision Test done?,-3.0,Not stated
+38449,BCS70,bcs2_history,screen6visntst,6th Screening: Vision Test done?,-1.0,Not applicable
+38450,BCS70,bcs2_history,screen6visntst,6th Screening: Vision Test done?,0.0,No
+38451,BCS70,bcs2_history,screen6visntst,6th Screening: Vision Test done?,1.0,Yes
+38452,BCS70,bcs2_history,screen6sqnt,6th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38453,BCS70,bcs2_history,screen6sqnt,6th Screening: Examination for squint done?,-3.0,Not stated
+38454,BCS70,bcs2_history,screen6sqnt,6th Screening: Examination for squint done?,-1.0,Not applicable
+38455,BCS70,bcs2_history,screen6sqnt,6th Screening: Examination for squint done?,0.0,No
+38456,BCS70,bcs2_history,screen6sqnt,6th Screening: Examination for squint done?,1.0,Yes
+38457,BCS70,bcs2_history,screen7gendev,7th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38458,BCS70,bcs2_history,screen7gendev,7th Screening: Gen Dev Check done?,-3.0,Not stated
+38459,BCS70,bcs2_history,screen7gendev,7th Screening: Gen Dev Check done?,-1.0,Not applicable
+38460,BCS70,bcs2_history,screen7gendev,7th Screening: Gen Dev Check done?,0.0,No
+38461,BCS70,bcs2_history,screen7gendev,7th Screening: Gen Dev Check done?,1.0,Yes
+38462,BCS70,bcs2_history,screen7heartst,7th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38463,BCS70,bcs2_history,screen7heartst,7th Screening: Hearing Test done?,-3.0,Not stated
+38464,BCS70,bcs2_history,screen7heartst,7th Screening: Hearing Test done?,-1.0,Not applicable
+38465,BCS70,bcs2_history,screen7heartst,7th Screening: Hearing Test done?,0.0,No
+38466,BCS70,bcs2_history,screen7heartst,7th Screening: Hearing Test done?,1.0,Yes
+38467,BCS70,bcs2_history,screen7visntst,7th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38468,BCS70,bcs2_history,screen7visntst,7th Screening: Vision Test done?,-3.0,Not stated
+38469,BCS70,bcs2_history,screen7visntst,7th Screening: Vision Test done?,-1.0,Not applicable
+38470,BCS70,bcs2_history,screen7visntst,7th Screening: Vision Test done?,0.0,No
+38471,BCS70,bcs2_history,screen7visntst,7th Screening: Vision Test done?,1.0,Yes
+38472,BCS70,bcs2_history,screen7sqnt,7th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38473,BCS70,bcs2_history,screen7sqnt,7th Screening: Examination for squint done?,-3.0,Not stated
+38474,BCS70,bcs2_history,screen7sqnt,7th Screening: Examination for squint done?,-1.0,Not applicable
+38475,BCS70,bcs2_history,screen7sqnt,7th Screening: Examination for squint done?,0.0,No
+38476,BCS70,bcs2_history,screen7sqnt,7th Screening: Examination for squint done?,1.0,Yes
+38477,BCS70,bcs2_history,screen8gendev,8th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38478,BCS70,bcs2_history,screen8gendev,8th Screening: Gen Dev Check done?,-3.0,Not stated
+38479,BCS70,bcs2_history,screen8gendev,8th Screening: Gen Dev Check done?,-1.0,Not applicable
+38480,BCS70,bcs2_history,screen8gendev,8th Screening: Gen Dev Check done?,0.0,No
+38481,BCS70,bcs2_history,screen8gendev,8th Screening: Gen Dev Check done?,1.0,Yes
+38482,BCS70,bcs2_history,screen8heartst,8th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38483,BCS70,bcs2_history,screen8heartst,8th Screening: Hearing Test done?,-3.0,Not stated
+38484,BCS70,bcs2_history,screen8heartst,8th Screening: Hearing Test done?,-1.0,Not applicable
+38485,BCS70,bcs2_history,screen8heartst,8th Screening: Hearing Test done?,0.0,No
+38486,BCS70,bcs2_history,screen8heartst,8th Screening: Hearing Test done?,1.0,Yes
+38487,BCS70,bcs2_history,screen8visntst,8th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38488,BCS70,bcs2_history,screen8visntst,8th Screening: Vision Test done?,-3.0,Not stated
+38489,BCS70,bcs2_history,screen8visntst,8th Screening: Vision Test done?,-1.0,Not applicable
+38490,BCS70,bcs2_history,screen8visntst,8th Screening: Vision Test done?,0.0,No
+38491,BCS70,bcs2_history,screen8visntst,8th Screening: Vision Test done?,1.0,Yes
+38492,BCS70,bcs2_history,screen8sqnt,8th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38493,BCS70,bcs2_history,screen8sqnt,8th Screening: Examination for squint done?,-3.0,Not stated
+38494,BCS70,bcs2_history,screen8sqnt,8th Screening: Examination for squint done?,-1.0,Not applicable
+38495,BCS70,bcs2_history,screen8sqnt,8th Screening: Examination for squint done?,0.0,No
+38496,BCS70,bcs2_history,screen8sqnt,8th Screening: Examination for squint done?,1.0,Yes
+38497,BCS70,bcs2_history,screen9gendev,9th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38498,BCS70,bcs2_history,screen9gendev,9th Screening: Gen Dev Check done?,-3.0,Not stated
+38499,BCS70,bcs2_history,screen9gendev,9th Screening: Gen Dev Check done?,-1.0,Not applicable
+38500,BCS70,bcs2_history,screen9gendev,9th Screening: Gen Dev Check done?,0.0,No
+38501,BCS70,bcs2_history,screen9gendev,9th Screening: Gen Dev Check done?,1.0,Yes
+38502,BCS70,bcs2_history,screen9heartst,9th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38503,BCS70,bcs2_history,screen9heartst,9th Screening: Hearing Test done?,-3.0,Not stated
+38504,BCS70,bcs2_history,screen9heartst,9th Screening: Hearing Test done?,-1.0,Not applicable
+38505,BCS70,bcs2_history,screen9heartst,9th Screening: Hearing Test done?,0.0,No
+38506,BCS70,bcs2_history,screen9heartst,9th Screening: Hearing Test done?,1.0,Yes
+38507,BCS70,bcs2_history,screen9visntst,9th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38508,BCS70,bcs2_history,screen9visntst,9th Screening: Vision Test done?,-3.0,Not stated
+38509,BCS70,bcs2_history,screen9visntst,9th Screening: Vision Test done?,-1.0,Not applicable
+38510,BCS70,bcs2_history,screen9visntst,9th Screening: Vision Test done?,0.0,No
+38511,BCS70,bcs2_history,screen9visntst,9th Screening: Vision Test done?,1.0,Yes
+38512,BCS70,bcs2_history,screen9sqnt,9th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38513,BCS70,bcs2_history,screen9sqnt,9th Screening: Examination for squint done?,-3.0,Not stated
+38514,BCS70,bcs2_history,screen9sqnt,9th Screening: Examination for squint done?,-1.0,Not applicable
+38515,BCS70,bcs2_history,screen9sqnt,9th Screening: Examination for squint done?,0.0,No
+38516,BCS70,bcs2_history,screen9sqnt,9th Screening: Examination for squint done?,1.0,Yes
+38517,BCS70,bcs2_history,screen10gendev,10th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38518,BCS70,bcs2_history,screen10gendev,10th Screening: Gen Dev Check done?,-3.0,Not stated
+38519,BCS70,bcs2_history,screen10gendev,10th Screening: Gen Dev Check done?,-1.0,Not applicable
+38520,BCS70,bcs2_history,screen10gendev,10th Screening: Gen Dev Check done?,0.0,No
+38521,BCS70,bcs2_history,screen10gendev,10th Screening: Gen Dev Check done?,1.0,Yes
+38522,BCS70,bcs2_history,screen10heartst,10th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38523,BCS70,bcs2_history,screen10heartst,10th Screening: Hearing Test done?,-3.0,Not stated
+38524,BCS70,bcs2_history,screen10heartst,10th Screening: Hearing Test done?,-1.0,Not applicable
+38525,BCS70,bcs2_history,screen10heartst,10th Screening: Hearing Test done?,0.0,No
+38526,BCS70,bcs2_history,screen10heartst,10th Screening: Hearing Test done?,1.0,Yes
+38527,BCS70,bcs2_history,screen10visntst,10th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38528,BCS70,bcs2_history,screen10visntst,10th Screening: Vision Test done?,-3.0,Not stated
+38529,BCS70,bcs2_history,screen10visntst,10th Screening: Vision Test done?,-1.0,Not applicable
+38530,BCS70,bcs2_history,screen10visntst,10th Screening: Vision Test done?,0.0,No
+38531,BCS70,bcs2_history,screen10visntst,10th Screening: Vision Test done?,1.0,Yes
+38532,BCS70,bcs2_history,screen10sqnt,10th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38533,BCS70,bcs2_history,screen10sqnt,10th Screening: Examination for squint done?,-3.0,Not stated
+38534,BCS70,bcs2_history,screen10sqnt,10th Screening: Examination for squint done?,-1.0,Not applicable
+38535,BCS70,bcs2_history,screen10sqnt,10th Screening: Examination for squint done?,0.0,No
+38536,BCS70,bcs2_history,screen10sqnt,10th Screening: Examination for squint done?,1.0,Yes
+38537,BCS70,bcs2_history,screen11gendev,11th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38538,BCS70,bcs2_history,screen11gendev,11th Screening: Gen Dev Check done?,-3.0,Not stated
+38539,BCS70,bcs2_history,screen11gendev,11th Screening: Gen Dev Check done?,-1.0,Not applicable
+38540,BCS70,bcs2_history,screen11gendev,11th Screening: Gen Dev Check done?,0.0,No
+38541,BCS70,bcs2_history,screen11gendev,11th Screening: Gen Dev Check done?,1.0,Yes
+38542,BCS70,bcs2_history,screen11heartst,11th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38543,BCS70,bcs2_history,screen11heartst,11th Screening: Hearing Test done?,-3.0,Not stated
+38544,BCS70,bcs2_history,screen11heartst,11th Screening: Hearing Test done?,-1.0,Not applicable
+38545,BCS70,bcs2_history,screen11heartst,11th Screening: Hearing Test done?,0.0,No
+38546,BCS70,bcs2_history,screen11heartst,11th Screening: Hearing Test done?,1.0,Yes
+38547,BCS70,bcs2_history,screen11visntst,11th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38548,BCS70,bcs2_history,screen11visntst,11th Screening: Vision Test done?,-3.0,Not stated
+38549,BCS70,bcs2_history,screen11visntst,11th Screening: Vision Test done?,-1.0,Not applicable
+38550,BCS70,bcs2_history,screen11visntst,11th Screening: Vision Test done?,0.0,No
+38551,BCS70,bcs2_history,screen11visntst,11th Screening: Vision Test done?,1.0,Yes
+38552,BCS70,bcs2_history,screen11sqnt,11th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38553,BCS70,bcs2_history,screen11sqnt,11th Screening: Examination for squint done?,-3.0,Not stated
+38554,BCS70,bcs2_history,screen11sqnt,11th Screening: Examination for squint done?,-1.0,Not applicable
+38555,BCS70,bcs2_history,screen11sqnt,11th Screening: Examination for squint done?,0.0,No
+38556,BCS70,bcs2_history,screen11sqnt,11th Screening: Examination for squint done?,1.0,Yes
+38557,BCS70,bcs2_history,screen12gendev,12th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38558,BCS70,bcs2_history,screen12gendev,12th Screening: Gen Dev Check done?,-3.0,Not stated
+38559,BCS70,bcs2_history,screen12gendev,12th Screening: Gen Dev Check done?,-1.0,Not applicable
+38560,BCS70,bcs2_history,screen12gendev,12th Screening: Gen Dev Check done?,0.0,No
+38561,BCS70,bcs2_history,screen12gendev,12th Screening: Gen Dev Check done?,1.0,Yes
+38562,BCS70,bcs2_history,screen12heartst,12th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38563,BCS70,bcs2_history,screen12heartst,12th Screening: Hearing Test done?,-3.0,Not stated
+38564,BCS70,bcs2_history,screen12heartst,12th Screening: Hearing Test done?,-1.0,Not applicable
+38565,BCS70,bcs2_history,screen12heartst,12th Screening: Hearing Test done?,0.0,No
+38566,BCS70,bcs2_history,screen12heartst,12th Screening: Hearing Test done?,1.0,Yes
+38567,BCS70,bcs2_history,screen12visntst,12th Screening: Vision Test done?,-3.0,Not stated
+38568,BCS70,bcs2_history,screen12visntst,12th Screening: Vision Test done?,-1.0,Not applicable
+38569,BCS70,bcs2_history,screen12visntst,12th Screening: Vision Test done?,0.0,No
+38570,BCS70,bcs2_history,screen12visntst,12th Screening: Vision Test done?,1.0,Yes
+38571,BCS70,bcs2_history,screen12visntst,12th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38572,BCS70,bcs2_history,screen12sqnt,12th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38573,BCS70,bcs2_history,screen12sqnt,12th Screening: Examination for squint done?,-3.0,Not stated
+38574,BCS70,bcs2_history,screen12sqnt,12th Screening: Examination for squint done?,-1.0,Not applicable
+38575,BCS70,bcs2_history,screen12sqnt,12th Screening: Examination for squint done?,0.0,No
+38576,BCS70,bcs2_history,screen12sqnt,12th Screening: Examination for squint done?,1.0,Yes
+38577,BCS70,bcs2_history,screen13gendev,13th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38578,BCS70,bcs2_history,screen13gendev,13th Screening: Gen Dev Check done?,-3.0,Not stated
+38579,BCS70,bcs2_history,screen13gendev,13th Screening: Gen Dev Check done?,-1.0,Not applicable
+38580,BCS70,bcs2_history,screen13gendev,13th Screening: Gen Dev Check done?,0.0,No
+38581,BCS70,bcs2_history,screen13gendev,13th Screening: Gen Dev Check done?,1.0,Yes
+38582,BCS70,bcs2_history,screen13heartst,13th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38583,BCS70,bcs2_history,screen13heartst,13th Screening: Hearing Test done?,-3.0,Not stated
+38584,BCS70,bcs2_history,screen13heartst,13th Screening: Hearing Test done?,-1.0,Not applicable
+38585,BCS70,bcs2_history,screen13heartst,13th Screening: Hearing Test done?,0.0,No
+38586,BCS70,bcs2_history,screen13heartst,13th Screening: Hearing Test done?,1.0,Yes
+38587,BCS70,bcs2_history,screen13visntst,13th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38588,BCS70,bcs2_history,screen13visntst,13th Screening: Vision Test done?,-3.0,Not stated
+38589,BCS70,bcs2_history,screen13visntst,13th Screening: Vision Test done?,-1.0,Not applicable
+38590,BCS70,bcs2_history,screen13visntst,13th Screening: Vision Test done?,0.0,No
+38591,BCS70,bcs2_history,screen13visntst,13th Screening: Vision Test done?,1.0,Yes
+38592,BCS70,bcs2_history,screen13sqnt,13th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38593,BCS70,bcs2_history,screen13sqnt,13th Screening: Examination for squint done?,-3.0,Not stated
+38594,BCS70,bcs2_history,screen13sqnt,13th Screening: Examination for squint done?,-1.0,Not applicable
+38595,BCS70,bcs2_history,screen13sqnt,13th Screening: Examination for squint done?,0.0,No
+38596,BCS70,bcs2_history,screen13sqnt,13th Screening: Examination for squint done?,1.0,Yes
+38597,BCS70,bcs2_history,screen14gendev,14th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38598,BCS70,bcs2_history,screen14gendev,14th Screening: Gen Dev Check done?,-3.0,Not stated
+38599,BCS70,bcs2_history,screen14gendev,14th Screening: Gen Dev Check done?,-1.0,Not applicable
+38600,BCS70,bcs2_history,screen14gendev,14th Screening: Gen Dev Check done?,0.0,No
+38601,BCS70,bcs2_history,screen14gendev,14th Screening: Gen Dev Check done?,1.0,Yes
+38602,BCS70,bcs2_history,screen14heartst,14th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38603,BCS70,bcs2_history,screen14heartst,14th Screening: Hearing Test done?,-3.0,Not stated
+38604,BCS70,bcs2_history,screen14heartst,14th Screening: Hearing Test done?,-1.0,Not applicable
+38605,BCS70,bcs2_history,screen14heartst,14th Screening: Hearing Test done?,0.0,No
+38606,BCS70,bcs2_history,screen14heartst,14th Screening: Hearing Test done?,1.0,Yes
+38607,BCS70,bcs2_history,screen14visntst,14th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38608,BCS70,bcs2_history,screen14visntst,14th Screening: Vision Test done?,-3.0,Not stated
+38609,BCS70,bcs2_history,screen14visntst,14th Screening: Vision Test done?,-1.0,Not applicable
+38610,BCS70,bcs2_history,screen14visntst,14th Screening: Vision Test done?,0.0,No
+38611,BCS70,bcs2_history,screen14visntst,14th Screening: Vision Test done?,1.0,Yes
+38612,BCS70,bcs2_history,screen14sqnt,14th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38613,BCS70,bcs2_history,screen14sqnt,14th Screening: Examination for squint done?,-3.0,Not stated
+38614,BCS70,bcs2_history,screen14sqnt,14th Screening: Examination for squint done?,-1.0,Not applicable
+38615,BCS70,bcs2_history,screen14sqnt,14th Screening: Examination for squint done?,0.0,No
+38616,BCS70,bcs2_history,screen14sqnt,14th Screening: Examination for squint done?,1.0,Yes
+38617,BCS70,bcs2_history,screen15gendev,15th Screening: Gen Dev Check done?,-5.0,No DHS Questionnaire
+38618,BCS70,bcs2_history,screen15gendev,15th Screening: Gen Dev Check done?,-3.0,Not stated
+38619,BCS70,bcs2_history,screen15gendev,15th Screening: Gen Dev Check done?,-1.0,Not applicable
+38620,BCS70,bcs2_history,screen15gendev,15th Screening: Gen Dev Check done?,0.0,No
+38621,BCS70,bcs2_history,screen15gendev,15th Screening: Gen Dev Check done?,1.0,Yes
+38622,BCS70,bcs2_history,screen15heartst,15th Screening: Hearing Test done?,-5.0,No DHS Questionnaire
+38623,BCS70,bcs2_history,screen15heartst,15th Screening: Hearing Test done?,-3.0,Not stated
+38624,BCS70,bcs2_history,screen15heartst,15th Screening: Hearing Test done?,-1.0,Not applicable
+38625,BCS70,bcs2_history,screen15heartst,15th Screening: Hearing Test done?,0.0,No
+38626,BCS70,bcs2_history,screen15heartst,15th Screening: Hearing Test done?,1.0,Yes
+38627,BCS70,bcs2_history,screen15visntst,15th Screening: Vision Test done?,-5.0,No DHS Questionnaire
+38628,BCS70,bcs2_history,screen15visntst,15th Screening: Vision Test done?,-3.0,Not stated
+38629,BCS70,bcs2_history,screen15visntst,15th Screening: Vision Test done?,-1.0,Not applicable
+38630,BCS70,bcs2_history,screen15visntst,15th Screening: Vision Test done?,0.0,No
+38631,BCS70,bcs2_history,screen15visntst,15th Screening: Vision Test done?,1.0,Yes
+38632,BCS70,bcs2_history,screen15sqnt,15th Screening: Examination for squint done?,-5.0,No DHS Questionnaire
+38633,BCS70,bcs2_history,screen15sqnt,15th Screening: Examination for squint done?,-3.0,Not stated
+38634,BCS70,bcs2_history,screen15sqnt,15th Screening: Examination for squint done?,-1.0,Not applicable
+38635,BCS70,bcs2_history,screen15sqnt,15th Screening: Examination for squint done?,0.0,No
+38636,BCS70,bcs2_history,screen15sqnt,15th Screening: Examination for squint done?,1.0,Yes
+38637,BCS70,bcs2_history,v3,None,,
+38638,BCS70,bcs2_history,avail_from_dt,,,

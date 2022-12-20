@@ -1,0 +1,807 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+650955,BIB,SOCIODEMO,study_id_e,,,
+650956,BIB,SOCIODEMO,bib_timestamp,,,
+650957,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,0.0,Male
+650958,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,1.0,Female
+650959,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,1.0,"English, Welsh, Scottish, Northern Irish or British"
+650960,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,2.0,Irish
+650961,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,3.0,Any other White background
+650962,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,4.0,White and Black Caribbean
+650963,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,5.0,White and Black African
+650964,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,6.0,White and Asian
+650965,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,7.0,Any other Mixed background
+650966,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,8.0,Indian
+650967,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,9.0,Pakistani
+650968,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,10.0,Bangladeshi
+650969,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,11.0,Chinese
+650970,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,12.0,Any other Asian background
+650971,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,13.0,African
+650972,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,14.0,Caribbean
+650973,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,15.0,"Other Black, African or Caribbean background"
+650974,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,16.0,Any other ethnic group
+650975,BIB,SOCIODEMO,bib_age_y,,,
+650976,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,1.0,<5 GCSE equivalent
+650977,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,2.0,5 GCSE equivalent
+650978,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,3.0,A-level equivalent
+650979,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,4.0,Higher than A-level
+650980,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,5.0,Other
+650981,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,6.0,Don't know
+650982,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,7.0,Foreign Unknown
+650983,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,1.0,Modern professional occupations
+650984,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,2.0,Clerical and intermediate occupations
+650985,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,3.0,Senior managers or administrators
+650986,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,4.0,Technical and craft occupations
+650987,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,5.0,Semi-rountine manual and service occupations
+650988,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,6.0,Rountine manual and service occupations
+650989,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,7.0,Middle or junior managers
+650990,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,8.0,Traditional professional occupations
+650991,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,9.0,Self-employed
+650992,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,10.0,Student/in training
+650993,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,11.0,Does not work-long term unemployed/sick
+650994,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,12.0,Don't know
+650995,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,1.0,Employed-Non-Manual
+650996,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,2.0,Employed-Manual
+650997,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,3.0,Self-employed
+650998,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,4.0,Student
+650999,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,5.0,Unemployed
+651000,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,6.0,Don't know
+651001,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,1.0,1-2
+651002,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,2.0,3-24
+651003,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,3.0,25-499
+651004,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,4.0,500+
+651005,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,1.0,1-2
+651006,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,2.0,3-24
+651007,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,3.0,25-499
+651008,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,4.0,500+
+651009,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,1.0,Manager
+651010,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,2.0,Supervisor
+651011,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,3.0,Other employee
+651012,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,1.0, Yes
+651013,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,2.0,No
+651014,BIB,SOCIODEMO,bib_occupation,Current occupation: BiB Baseline Questionnaire,,
+651015,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,1.0,Living comfortably
+651016,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,2.0,Doing alright
+651017,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,3.0,Just about getting by
+651018,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,4.0,Quite difficult
+651019,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,5.0,Very difficult
+651020,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,6.0,Does not wish to answer
+651021,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,1.0,Better off
+651022,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,2.0,Worse off
+651023,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,3.0,About the same
+651024,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,4.0,Does not wish to answer
+651025,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,1.0,Owns outright
+651026,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,2.0,Mortgage
+651027,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,3.0,Rent free
+651028,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,4.0,Private landlord
+651029,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,5.0,Social housing
+651030,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,6.0,Other
+651031,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,7.0,DonÂ’t know
+651032,BIB,SOCIODEMO,bib_occ_count,Total number of members in household: BiB Baseline questionnaire,,
+651033,BIB,SOCIODEMO,bib_child_count,Number of children under 16 in household: BiB Baseline questionnaire,,
+651034,BIB,SOCIODEMO,bib_bedroom_count,Number of bedrooms: BiB Baseline questionnaire,,
+651035,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,1.0,Married and living with partner
+651036,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,2.0,Not married and living with partner
+651037,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,3.0,Not living with partner
+651038,BIB,SOCIODEMO,bib_gu_timestamp,Date questionnaire completed,,
+651039,BIB,SOCIODEMO,bib_gu_age_y,Age at date of consent: BiB Growing Up questionnaire,,
+651040,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,1.0,Modern professional
+651041,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,2.0,Clerical and intermediate
+651042,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,3.0,Senior managers/administrators
+651043,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,4.0,Technical and craft
+651044,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,5.0,Semi-routine manual
+651045,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,6.0,Routine manual and service
+651046,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,7.0,Middle/junior managers
+651047,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,8.0,Traditional professional
+651048,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,9.0,Other
+651049,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,1.0,Employee
+651050,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,2.0,Self-employed with employees
+651051,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,3.0,Self-employed/freelance without employees
+651052,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,4.0,Student in Training (apprentice)
+651053,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,1.0,Work alone
+651054,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,2.0,1-24
+651055,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,3.0,25+
+651056,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,1.0,1-24
+651057,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,2.0,25 or more
+651058,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,1.0,No
+651059,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,2.0,Yes
+651060,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,1.0,No
+651061,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,2.0,Yes
+651062,BIB,SOCIODEMO,bib_gu_occupation,Current occupation: BiB Growing Up questionnaire,,
+651063,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,1.0,Living comfortably
+651064,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,2.0,Doing alright
+651065,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,3.0,Just about getting by
+651066,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,4.0,Finding it quite difficult
+651067,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,5.0,Finding it very difficult
+651068,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,6.0,Do not wish to answer
+651069,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,1.0,Better off
+651070,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,2.0,Worse off
+651071,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,3.0,About the same
+651072,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,4.0,Do not wish to answer
+651073,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,1.0,Owns outright or with mortgage/loan
+651074,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,2.0,Lives rent free e.g. with relative
+651075,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,3.0,Rent it
+651076,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,4.0,Other
+651077,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,5.0,Don't know
+651078,BIB,SOCIODEMO,bib_gu_bedroom_count,Number of bedrooms: BiB Growing Up questionnaire,,
+651079,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,1.0,Married and living with partner
+651080,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,2.0,Not married and living with partner
+651081,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,3.0,Not living with partner
+651082,BIB,SOCIODEMO,bib_cv1_timestamp,Date COVID Survey,,
+651083,BIB,SOCIODEMO,bib_cv1_age_y,Age at date of survey participation: BiB Covid19 Wave 1 questionnaire,,
+651084,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,1.0,Me
+651085,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,2.0,My partner
+651086,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,3.0,Other household member
+651087,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,4.0,Me and my partner earn the same amount
+651088,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651089,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,1.0,Employed
+651090,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,2.0,Employed but not working (on furlough)
+651091,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,3.0,Self employed and working
+651092,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,4.0,Self employed and not working
+651093,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,5.0,Unemployed
+651094,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,0.0,No
+651095,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,1.0,Yes
+651096,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651097,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651098,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,1.0,Living comfortably
+651099,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,2.0,Doing alright
+651100,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,3.0,Just about getting by
+651101,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,4.0,Finding it quite difficult
+651102,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,5.0,Finding it very difficult
+651103,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-2.0,Dont know
+651104,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-1.0,Do not wish to answer
+651105,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,1.0,Better off
+651106,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,2.0,About the same
+651107,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,3.0,Worse off
+651108,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,1.0,Own it outright
+651109,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651110,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,3.0,Part own and part rent (shared ownership)
+651111,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651112,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651113,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,6.0,Squatting
+651114,BIB,SOCIODEMO,bib_cv1_occ_count,Total number of people in household: BiB Covid19 Wave 1 questionnaire,,
+651115,BIB,SOCIODEMO,bib_cv1_child_count,Total number of children in household: BiB Covid19 Wave 1 questionnaire,,
+651116,BIB,SOCIODEMO,bib_cv1_bedroom_count,Number of bedrooms: BiB Covid19 Wave 1 questionnaire,,
+651117,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651118,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,1.0,Single
+651119,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,2.0,Married
+651120,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,3.0,Not married but in a relationship
+651121,BIB,SOCIODEMO,bib_cv2_timestamp,Please write todays date,,
+651122,BIB,SOCIODEMO,bib_cv2_age_y,Age at date of survey particpation: BiB Covid19 Wave 2 questionnaire,,
+651123,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,1.0,Me
+651124,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,2.0,My partner
+651125,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,3.0,Other household member
+651126,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,4.0,Me and my partner earn the same amount
+651127,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651128,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,1.0,Employed
+651129,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,2.0,Employed but not working (on furlough)
+651130,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,3.0,"Employed on the wage subsidy scheme (e.g., working less hours with wage topped by the Government)"
+651131,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,4.0,Self employed and working
+651132,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,5.0,Self employed and not working
+651133,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,6.0,Unemployed
+651134,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651135,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651136,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,1.0,Living comfortably
+651137,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,2.0,Doing alright
+651138,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,3.0,Just about getting by
+651139,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,4.0,Finding it quite difficult
+651140,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,5.0,Finding it very difficult
+651141,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,1.0,Own it outright
+651142,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651143,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,3.0,Part own and part rent (shared ownership)
+651144,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651145,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651146,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,6.0,Squatting
+651147,BIB,SOCIODEMO,bib_cv2_occ_count,Total number of people in household: BiB Covid19 Wave 2 questionnaire,,
+651148,BIB,SOCIODEMO,bib_cv2_child_count,Total number of children in household: BiB Covid19 Wave 2 questionnaire,,
+651149,BIB,SOCIODEMO,bib_cv2_bedroom_count,Number of bedrooms: BiB Covid19 Wave 2 questionnaire,,
+651150,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651151,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,1.0,Single
+651152,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,2.0,Married
+651153,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,3.0,Not married but in a relationship
+651154,BIB,SOCIODEMO,avail_from_dt,,,
+651155,BIB,SOCIODEMO,study_id_e,,,
+651156,BIB,SOCIODEMO,bib_timestamp,,,
+651157,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,0.0,Male
+651158,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,1.0,Female
+651159,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,1.0,English; Welsh; Scottish; Northern Irish or British
+651160,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,2.0,Irish
+651161,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,3.0,Any other White background
+651162,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,4.0,White and Black Caribbean
+651163,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,5.0,White and Black African
+651164,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,6.0,White and Asian
+651165,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,7.0,Any other Mixed background
+651166,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,8.0,Indian
+651167,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,9.0,Pakistani
+651168,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,10.0,Bangladeshi
+651169,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,11.0,Chinese
+651170,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,12.0,Any other Asian background
+651171,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,13.0,African
+651172,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,14.0,Caribbean
+651173,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,15.0,Other Black; African or Caribbean background
+651174,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,16.0,Any other ethnic group
+651175,BIB,SOCIODEMO,bib_age_y,,,
+651176,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,1.0,<5 GCSE equivalent
+651177,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,2.0,5 GCSE equivalent
+651178,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,3.0,A-level equivalent
+651179,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,4.0,Higher than A-level
+651180,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,5.0,Other
+651181,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,6.0,Don't know
+651182,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,7.0,Foreign Unknown
+651183,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,1.0,Modern professional occupations
+651184,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,2.0,Clerical and intermediate occupations
+651185,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,3.0,Senior managers or administrators
+651186,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,4.0,Technical and craft occupations
+651187,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,5.0,Semi-rountine manual and service occupations
+651188,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,6.0,Rountine manual and service occupations
+651189,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,7.0,Middle or junior managers
+651190,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,8.0,Traditional professional occupations
+651191,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,9.0,Self-employed
+651192,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,10.0,Student/in training
+651193,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,11.0,Does not work-long term unemployed/sick
+651194,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,12.0,Don't know
+651195,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,1.0,Employed-Non-Manual
+651196,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,2.0,Employed-Manual
+651197,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,3.0,Self-employed
+651198,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,4.0,Student
+651199,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,5.0,Unemployed
+651200,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,6.0,Don't know
+651201,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,1.0,1-2
+651202,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,2.0,3-24
+651203,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,3.0,25-499
+651204,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,4.0,500+
+651205,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,1.0,1-2
+651206,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,2.0,3-24
+651207,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,3.0,25-499
+651208,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,4.0,500+
+651209,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,1.0,Manager
+651210,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,2.0,Supervisor
+651211,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,3.0,Other employee
+651212,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,1.0, Yes
+651213,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,2.0,No
+651214,BIB,SOCIODEMO,bib_occupation,Current occupation: BiB Baseline Questionnaire,,
+651215,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,1.0,Living comfortably
+651216,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,2.0,Doing alright
+651217,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,3.0,Just about getting by
+651218,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,4.0,Quite difficult
+651219,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,5.0,Very difficult
+651220,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,6.0,Does not wish to answer
+651221,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,1.0,Better off
+651222,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,2.0,Worse off
+651223,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,3.0,About the same
+651224,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,4.0,Does not wish to answer
+651225,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,1.0,Owns outright
+651226,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,2.0,Mortgage
+651227,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,3.0,Rent free
+651228,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,4.0,Private landlord
+651229,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,5.0,Social housing
+651230,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,6.0,Other
+651231,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,7.0,DonÂ’t know
+651232,BIB,SOCIODEMO,bib_occ_count,Total number of members in household: BiB Baseline questionnaire,,
+651233,BIB,SOCIODEMO,bib_child_count,Number of children under 16 in household: BiB Baseline questionnaire,,
+651234,BIB,SOCIODEMO,bib_bedroom_count,Number of bedrooms: BiB Baseline questionnaire,,
+651235,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,1.0,Married and living with partner
+651236,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,2.0,Not married and living with partner
+651237,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,3.0,Not living with partner
+651238,BIB,SOCIODEMO,bib_gu_timestamp,Date questionnaire completed,,
+651239,BIB,SOCIODEMO,bib_gu_age_y,Age at date of consent: BiB Growing Up questionnaire,,
+651240,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,1.0,Modern professional
+651241,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,2.0,Clerical and intermediate
+651242,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,3.0,Senior managers/administrators
+651243,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,4.0,Technical and craft
+651244,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,5.0,Semi-routine manual
+651245,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,6.0,Routine manual and service
+651246,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,7.0,Middle/junior managers
+651247,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,8.0,Traditional professional
+651248,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,9.0,Other
+651249,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,1.0,Employee
+651250,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,2.0,Self-employed with employees
+651251,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,3.0,Self-employed/freelance without employees
+651252,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,4.0,Student in Training (apprentice)
+651253,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,1.0,Work alone
+651254,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,2.0,1-24
+651255,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,3.0,25+
+651256,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,1.0,1-24
+651257,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,2.0,25 or more
+651258,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,1.0,No
+651259,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,2.0,Yes
+651260,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,1.0,No
+651261,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,2.0,Yes
+651262,BIB,SOCIODEMO,bib_gu_occupation,Current occupation: BiB Growing Up questionnaire,,
+651263,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,1.0,Living comfortably
+651264,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,2.0,Doing alright
+651265,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,3.0,Just about getting by
+651266,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,4.0,Finding it quite difficult
+651267,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,5.0,Finding it very difficult
+651268,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,6.0,Do not wish to answer
+651269,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,1.0,Better off
+651270,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,2.0,Worse off
+651271,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,3.0,About the same
+651272,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,4.0,Do not wish to answer
+651273,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,1.0,Owns outright or with mortgage/loan
+651274,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,2.0,Lives rent free e.g. with relative
+651275,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,3.0,Rent it
+651276,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,4.0,Other
+651277,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,5.0,Don't know
+651278,BIB,SOCIODEMO,bib_gu_bedroom_count,Number of bedrooms: BiB Growing Up questionnaire,,
+651279,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,1.0,Married and living with partner
+651280,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,2.0,Not married and living with partner
+651281,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,3.0,Not living with partner
+651282,BIB,SOCIODEMO,bib_cv1_timestamp,Date COVID Survey,,
+651283,BIB,SOCIODEMO,bib_cv1_age_y,Age at date of survey participation: BiB Covid19 Wave 1 questionnaire,,
+651284,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,1.0,Me
+651285,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,2.0,My partner
+651286,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,3.0,Other household member
+651287,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,4.0,Me and my partner earn the same amount
+651288,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651289,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,1.0,Employed
+651290,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,2.0,Employed but not working (on furlough)
+651291,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,3.0,Self employed and working
+651292,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,4.0,Self employed and not working
+651293,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,5.0,Unemployed
+651294,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,0.0,No
+651295,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,1.0,Yes
+651296,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651297,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651298,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,1.0,Living comfortably
+651299,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,2.0,Doing alright
+651300,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,3.0,Just about getting by
+651301,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,4.0,Finding it quite difficult
+651302,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,5.0,Finding it very difficult
+651303,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-2.0,Dont know
+651304,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-1.0,Do not wish to answer
+651305,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,1.0,Better off
+651306,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,2.0,About the same
+651307,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,3.0,Worse off
+651308,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,1.0,Own it outright
+651309,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651310,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,3.0,Part own and part rent (shared ownership)
+651311,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651312,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651313,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,6.0,Squatting
+651314,BIB,SOCIODEMO,bib_cv1_occ_count,Total number of people in household: BiB Covid19 Wave 1 questionnaire,,
+651315,BIB,SOCIODEMO,bib_cv1_child_count,Total number of children in household: BiB Covid19 Wave 1 questionnaire,,
+651316,BIB,SOCIODEMO,bib_cv1_bedroom_count,Number of bedrooms: BiB Covid19 Wave 1 questionnaire,,
+651317,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651318,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,1.0,Single
+651319,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,2.0,Married
+651320,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,3.0,Not married but in a relationship
+651321,BIB,SOCIODEMO,bib_cv2_timestamp,Please write todays date,,
+651322,BIB,SOCIODEMO,bib_cv2_age_y,Age at date of survey particpation: BiB Covid19 Wave 2 questionnaire,,
+651323,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,1.0,Me
+651324,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,2.0,My partner
+651325,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,3.0,Other household member
+651326,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,4.0,Me and my partner earn the same amount
+651327,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651328,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,1.0,Employed
+651329,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,2.0,Employed but not working (on furlough)
+651330,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,3.0,Employed on the wage subsidy scheme (e.g.; working less hours with wage topped by the Government)
+651331,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,4.0,Self employed and working
+651332,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,5.0,Self employed and not working
+651333,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,6.0,Unemployed
+651334,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651335,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651336,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,1.0,Living comfortably
+651337,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,2.0,Doing alright
+651338,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,3.0,Just about getting by
+651339,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,4.0,Finding it quite difficult
+651340,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,5.0,Finding it very difficult
+651341,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,1.0,Own it outright
+651342,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651343,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,3.0,Part own and part rent (shared ownership)
+651344,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651345,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651346,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,6.0,Squatting
+651347,BIB,SOCIODEMO,bib_cv2_occ_count,Total number of people in household: BiB Covid19 Wave 2 questionnaire,,
+651348,BIB,SOCIODEMO,bib_cv2_child_count,Total number of children in household: BiB Covid19 Wave 2 questionnaire,,
+651349,BIB,SOCIODEMO,bib_cv2_bedroom_count,Number of bedrooms: BiB Covid19 Wave 2 questionnaire,,
+651350,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651351,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,1.0,Single
+651352,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,2.0,Married
+651353,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,3.0,Not married but in a relationship
+651354,BIB,SOCIODEMO,partial_dob,,,
+651355,BIB,SOCIODEMO,avail_from_dt,,,
+651356,BIB,SOCIODEMO,study_id_e,,,
+651357,BIB,SOCIODEMO,bib_timestamp,,,
+651358,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,0.0,Male
+651359,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,1.0,Female
+651360,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,1.0,English; Welsh; Scottish; Northern Irish or British
+651361,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,2.0,Irish
+651362,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,3.0,Any other White background
+651363,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,4.0,White and Black Caribbean
+651364,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,5.0,White and Black African
+651365,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,6.0,White and Asian
+651366,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,7.0,Any other Mixed background
+651367,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,8.0,Indian
+651368,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,9.0,Pakistani
+651369,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,10.0,Bangladeshi
+651370,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,11.0,Chinese
+651371,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,12.0,Any other Asian background
+651372,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,13.0,African
+651373,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,14.0,Caribbean
+651374,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,15.0,Other Black; African or Caribbean background
+651375,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,16.0,Any other ethnic group
+651376,BIB,SOCIODEMO,bib_age_y,,,
+651377,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,1.0,<5 GCSE equivalent
+651378,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,2.0,5 GCSE equivalent
+651379,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,3.0,A-level equivalent
+651380,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,4.0,Higher than A-level
+651381,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,5.0,Other
+651382,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,6.0,Don't know
+651383,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,7.0,Foreign Unknown
+651384,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,1.0,Modern professional occupations
+651385,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,2.0,Clerical and intermediate occupations
+651386,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,3.0,Senior managers or administrators
+651387,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,4.0,Technical and craft occupations
+651388,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,5.0,Semi-rountine manual and service occupations
+651389,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,6.0,Rountine manual and service occupations
+651390,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,7.0,Middle or junior managers
+651391,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,8.0,Traditional professional occupations
+651392,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,9.0,Self-employed
+651393,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,10.0,Student/in training
+651394,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,11.0,Does not work-long term unemployed/sick
+651395,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,12.0,Don't know
+651396,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,1.0,Employed-Non-Manual
+651397,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,2.0,Employed-Manual
+651398,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,3.0,Self-employed
+651399,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,4.0,Student
+651400,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,5.0,Unemployed
+651401,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,6.0,Don't know
+651402,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,1.0,1-2
+651403,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,2.0,3-24
+651404,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,3.0,25-499
+651405,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,4.0,500+
+651406,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,1.0,1-2
+651407,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,2.0,3-24
+651408,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,3.0,25-499
+651409,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,4.0,500+
+651410,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,1.0,Manager
+651411,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,2.0,Supervisor
+651412,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,3.0,Other employee
+651413,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,1.0, Yes
+651414,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,2.0,No
+651415,BIB,SOCIODEMO,bib_occupation,Current occupation: BiB Baseline Questionnaire,,
+651416,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,1.0,Living comfortably
+651417,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,2.0,Doing alright
+651418,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,3.0,Just about getting by
+651419,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,4.0,Quite difficult
+651420,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,5.0,Very difficult
+651421,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,6.0,Does not wish to answer
+651422,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,1.0,Better off
+651423,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,2.0,Worse off
+651424,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,3.0,About the same
+651425,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,4.0,Does not wish to answer
+651426,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,1.0,Owns outright
+651427,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,2.0,Mortgage
+651428,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,3.0,Rent free
+651429,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,4.0,Private landlord
+651430,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,5.0,Social housing
+651431,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,6.0,Other
+651432,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,7.0,DonÂ’t know
+651433,BIB,SOCIODEMO,bib_occ_count,Total number of members in household: BiB Baseline questionnaire,,
+651434,BIB,SOCIODEMO,bib_child_count,Number of children under 16 in household: BiB Baseline questionnaire,,
+651435,BIB,SOCIODEMO,bib_bedroom_count,Number of bedrooms: BiB Baseline questionnaire,,
+651436,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,1.0,Married and living with partner
+651437,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,2.0,Not married and living with partner
+651438,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,3.0,Not living with partner
+651439,BIB,SOCIODEMO,bib_gu_timestamp,Date questionnaire completed,,
+651440,BIB,SOCIODEMO,bib_gu_age_y,Age at date of consent: BiB Growing Up questionnaire,,
+651441,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,1.0,Modern professional
+651442,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,2.0,Clerical and intermediate
+651443,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,3.0,Senior managers/administrators
+651444,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,4.0,Technical and craft
+651445,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,5.0,Semi-routine manual
+651446,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,6.0,Routine manual and service
+651447,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,7.0,Middle/junior managers
+651448,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,8.0,Traditional professional
+651449,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,9.0,Other
+651450,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,1.0,Employee
+651451,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,2.0,Self-employed with employees
+651452,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,3.0,Self-employed/freelance without employees
+651453,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,4.0,Student in Training (apprentice)
+651454,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,1.0,Work alone
+651455,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,2.0,1-24
+651456,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,3.0,25+
+651457,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,1.0,1-24
+651458,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,2.0,25 or more
+651459,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,1.0,No
+651460,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,2.0,Yes
+651461,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,1.0,No
+651462,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,2.0,Yes
+651463,BIB,SOCIODEMO,bib_gu_occupation,Current occupation: BiB Growing Up questionnaire,,
+651464,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,1.0,Living comfortably
+651465,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,2.0,Doing alright
+651466,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,3.0,Just about getting by
+651467,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,4.0,Finding it quite difficult
+651468,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,5.0,Finding it very difficult
+651469,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,6.0,Do not wish to answer
+651470,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,1.0,Better off
+651471,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,2.0,Worse off
+651472,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,3.0,About the same
+651473,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,4.0,Do not wish to answer
+651474,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,1.0,Owns outright or with mortgage/loan
+651475,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,2.0,Lives rent free e.g. with relative
+651476,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,3.0,Rent it
+651477,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,4.0,Other
+651478,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,5.0,Don't know
+651479,BIB,SOCIODEMO,bib_gu_bedroom_count,Number of bedrooms: BiB Growing Up questionnaire,,
+651480,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,1.0,Married and living with partner
+651481,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,2.0,Not married and living with partner
+651482,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,3.0,Not living with partner
+651483,BIB,SOCIODEMO,bib_cv1_timestamp,Date COVID Survey,,
+651484,BIB,SOCIODEMO,bib_cv1_age_y,Age at date of survey participation: BiB Covid19 Wave 1 questionnaire,,
+651485,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,1.0,Me
+651486,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,2.0,My partner
+651487,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,3.0,Other household member
+651488,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,4.0,Me and my partner earn the same amount
+651489,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651490,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,1.0,Employed
+651491,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,2.0,Employed but not working (on furlough)
+651492,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,3.0,Self employed and working
+651493,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,4.0,Self employed and not working
+651494,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,5.0,Unemployed
+651495,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,0.0,No
+651496,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,1.0,Yes
+651497,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651498,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651499,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,1.0,Living comfortably
+651500,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,2.0,Doing alright
+651501,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,3.0,Just about getting by
+651502,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,4.0,Finding it quite difficult
+651503,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,5.0,Finding it very difficult
+651504,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-2.0,Dont know
+651505,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-1.0,Do not wish to answer
+651506,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,1.0,Better off
+651507,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,2.0,About the same
+651508,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,3.0,Worse off
+651509,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,1.0,Own it outright
+651510,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651511,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,3.0,Part own and part rent (shared ownership)
+651512,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651513,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651514,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,6.0,Squatting
+651515,BIB,SOCIODEMO,bib_cv1_occ_count,Total number of people in household: BiB Covid19 Wave 1 questionnaire,,
+651516,BIB,SOCIODEMO,bib_cv1_child_count,Total number of children in household: BiB Covid19 Wave 1 questionnaire,,
+651517,BIB,SOCIODEMO,bib_cv1_bedroom_count,Number of bedrooms: BiB Covid19 Wave 1 questionnaire,,
+651518,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651519,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,1.0,Single
+651520,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,2.0,Married
+651521,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,3.0,Not married but in a relationship
+651522,BIB,SOCIODEMO,bib_cv2_timestamp,Please write todays date,,
+651523,BIB,SOCIODEMO,bib_cv2_age_y,Age at date of survey particpation: BiB Covid19 Wave 2 questionnaire,,
+651524,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,1.0,Me
+651525,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,2.0,My partner
+651526,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,3.0,Other household member
+651527,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,4.0,Me and my partner earn the same amount
+651528,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651529,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,1.0,Employed
+651530,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,2.0,Employed but not working (on furlough)
+651531,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,3.0,Employed on the wage subsidy scheme (e.g.; working less hours with wage topped by the Government)
+651532,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,4.0,Self employed and working
+651533,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,5.0,Self employed and not working
+651534,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,6.0,Unemployed
+651535,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651536,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651537,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,1.0,Living comfortably
+651538,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,2.0,Doing alright
+651539,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,3.0,Just about getting by
+651540,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,4.0,Finding it quite difficult
+651541,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,5.0,Finding it very difficult
+651542,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,1.0,Own it outright
+651543,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651544,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,3.0,Part own and part rent (shared ownership)
+651545,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651546,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651547,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,6.0,Squatting
+651548,BIB,SOCIODEMO,bib_cv2_occ_count,Total number of people in household: BiB Covid19 Wave 2 questionnaire,,
+651549,BIB,SOCIODEMO,bib_cv2_child_count,Total number of children in household: BiB Covid19 Wave 2 questionnaire,,
+651550,BIB,SOCIODEMO,bib_cv2_bedroom_count,Number of bedrooms: BiB Covid19 Wave 2 questionnaire,,
+651551,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651552,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,1.0,Single
+651553,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,2.0,Married
+651554,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,3.0,Not married but in a relationship
+651555,BIB,SOCIODEMO,partial_dob,,,
+651556,BIB,SOCIODEMO,avail_from_dt,,,
+651557,BIB,SOCIODEMO,study_id_e,,,
+651558,BIB,SOCIODEMO,bib_timestamp,,,
+651559,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,0.0,Male
+651560,BIB,SOCIODEMO,bib_sex,Sex: BiB Baseline questionnaire,1.0,Female
+651561,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,1.0,English; Welsh; Scottish; Northern Irish or British
+651562,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,2.0,Irish
+651563,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,3.0,Any other White background
+651564,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,4.0,White and Black Caribbean
+651565,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,5.0,White and Black African
+651566,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,6.0,White and Asian
+651567,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,7.0,Any other Mixed background
+651568,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,8.0,Indian
+651569,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,9.0,Pakistani
+651570,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,10.0,Bangladeshi
+651571,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,11.0,Chinese
+651572,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,12.0,Any other Asian background
+651573,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,13.0,African
+651574,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,14.0,Caribbean
+651575,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,15.0,Other Black; African or Caribbean background
+651576,BIB,SOCIODEMO,bib_eth16cat,Ethnicity (16 categories): BiB Baseline questionnaire,16.0,Any other ethnic group
+651577,BIB,SOCIODEMO,bib_age_y,,,
+651578,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,1.0,<5 GCSE equivalent
+651579,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,2.0,5 GCSE equivalent
+651580,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,3.0,A-level equivalent
+651581,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,4.0,Higher than A-level
+651582,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,5.0,Other
+651583,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,6.0,Don't know
+651584,BIB,SOCIODEMO,bib_highest_qual,Highest English equivilant qualification: BiB Baseline questionnaire,7.0,Foreign Unknown
+651585,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,1.0,Modern professional occupations
+651586,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,2.0,Clerical and intermediate occupations
+651587,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,3.0,Senior managers or administrators
+651588,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,4.0,Technical and craft occupations
+651589,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,5.0,Semi-rountine manual and service occupations
+651590,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,6.0,Rountine manual and service occupations
+651591,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,7.0,Middle or junior managers
+651592,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,8.0,Traditional professional occupations
+651593,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,9.0,Self-employed
+651594,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,10.0,Student/in training
+651595,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,11.0,Does not work-long term unemployed/sick
+651596,BIB,SOCIODEMO,bib_occupation_type,Occupational type: BiB Baseline Questionnaire,12.0,Don't know
+651597,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,1.0,Employed-Non-Manual
+651598,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,2.0,Employed-Manual
+651599,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,3.0,Self-employed
+651600,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,4.0,Student
+651601,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,5.0,Unemployed
+651602,BIB,SOCIODEMO,bib_employment_type,Type of employment: BiB Baseline Questionnaire,6.0,Don't know
+651603,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,1.0,1-2
+651604,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,2.0,3-24
+651605,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,3.0,25-499
+651606,BIB,SOCIODEMO,bib_n_employ,Number of people who worked for employer: BiB Baseline Questionnaire,4.0,500+
+651607,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,1.0,1-2
+651608,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,2.0,3-24
+651609,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,3.0,25-499
+651610,BIB,SOCIODEMO,bib_n_employee,If self-employed; number of people employed: BiB Baseline Questionnaire,4.0,500+
+651611,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,1.0,Manager
+651612,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,2.0,Supervisor
+651613,BIB,SOCIODEMO,bib_supervise,Supervise other employees: BiB Baseline Questionnaire,3.0,Other employee
+651614,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,1.0, Yes
+651615,BIB,SOCIODEMO,bib_emp_status,Is respondent in employment: BiB Baseline questionnaire,2.0,No
+651616,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,1.0,Living comfortably
+651617,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,2.0,Doing alright
+651618,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,3.0,Just about getting by
+651619,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,4.0,Quite difficult
+651620,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,5.0,Very difficult
+651621,BIB,SOCIODEMO,bib_finance_current,Current financial circumstances: BiB Baseline questionnaire,6.0,Does not wish to answer
+651622,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,1.0,Better off
+651623,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,2.0,Worse off
+651624,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,3.0,About the same
+651625,BIB,SOCIODEMO,bib_finance_change,Financial circumstances compared to a year ago: BiB Baseline questionnaire,4.0,Does not wish to answer
+651626,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,1.0,Owns outright
+651627,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,2.0,Mortgage
+651628,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,3.0,Rent free
+651629,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,4.0,Private landlord
+651630,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,5.0,Social housing
+651631,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,6.0,Other
+651632,BIB,SOCIODEMO,bib_tenure,Current tenure: BiB Baseline questionnaire,7.0,DonÂ’t know
+651633,BIB,SOCIODEMO,bib_occ_count,Total number of members in household: BiB Baseline questionnaire,,
+651634,BIB,SOCIODEMO,bib_child_count,Number of children under 16 in household: BiB Baseline questionnaire,,
+651635,BIB,SOCIODEMO,bib_bedroom_count,Number of bedrooms: BiB Baseline questionnaire,,
+651636,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,1.0,Married and living with partner
+651637,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,2.0,Not married and living with partner
+651638,BIB,SOCIODEMO,bib_partnership_status,Partnership status: BiB Baseline questionnaire,3.0,Not living with partner
+651639,BIB,SOCIODEMO,bib_gu_timestamp,Date questionnaire completed,,
+651640,BIB,SOCIODEMO,bib_gu_age_y,Age at date of consent: BiB Growing Up questionnaire,,
+651641,BIB,SOCIODEMO,bib_gu_occ_social_class,Occupational social class: BiB Growing Up questionnaire,1.0,Managerial; administrative and professional occupations
+651642,BIB,SOCIODEMO,bib_gu_occ_social_class,Occupational social class: BiB Growing Up questionnaire,2.0,Intermediate occupations
+651643,BIB,SOCIODEMO,bib_gu_occ_social_class,Occupational social class: BiB Growing Up questionnaire,3.0,Small employers and own account workers
+651644,BIB,SOCIODEMO,bib_gu_occ_social_class,Occupational social class: BiB Growing Up questionnaire,4.0,Lower supervisory and technical occupations
+651645,BIB,SOCIODEMO,bib_gu_occ_social_class,Occupational social class: BiB Growing Up questionnaire,5.0,Semi-routine and routine occupations
+651646,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,1.0,Modern professional
+651647,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,2.0,Clerical and intermediate
+651648,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,3.0,Senior managers/administrators
+651649,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,4.0,Technical and craft
+651650,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,5.0,Semi-routine manual
+651651,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,6.0,Routine manual and service
+651652,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,7.0,Middle/junior managers
+651653,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,8.0,Traditional professional
+651654,BIB,SOCIODEMO,bib_gu_occupation_type,Occupation type: BiB Growing Up questionnaire,9.0,Other
+651655,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,1.0,Employee
+651656,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,2.0,Self-employed with employees
+651657,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,3.0,Self-employed/freelance without employees
+651658,BIB,SOCIODEMO,bib_gu_employment_type,Type of employment: BiB Growing Up,4.0,Student in Training (apprentice)
+651659,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,1.0,Work alone
+651660,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,2.0,1-24
+651661,BIB,SOCIODEMO,bib_gu_n_employ,Number of people who worked for employer: BiB Growing Up,3.0,25+
+651662,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,1.0,1-24
+651663,BIB,SOCIODEMO,bib_gu_n_employee,If self-employed; number of people employed: BiB Growing Up,2.0,25 or more
+651664,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,1.0,No
+651665,BIB,SOCIODEMO,bib_gu_supervise,Supervise other employees: BiB Growing Up,2.0,Yes
+651666,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,1.0,No
+651667,BIB,SOCIODEMO,bib_gu_emp_status,Employment status: BiB Growing Up questionnaire,2.0,Yes
+651668,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,1.0,Living comfortably
+651669,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,2.0,Doing alright
+651670,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,3.0,Just about getting by
+651671,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,4.0,Finding it quite difficult
+651672,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,5.0,Finding it very difficult
+651673,BIB,SOCIODEMO,bib_gu_finance_current,Current financial circumstances: BiB Growing Up questionnaire,6.0,Do not wish to answer
+651674,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,1.0,Better off
+651675,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,2.0,Worse off
+651676,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,3.0,About the same
+651677,BIB,SOCIODEMO,bib_gu_finance_change,Financial circumstances compared to a year ago: BiB Growing Up questionnaire,4.0,Do not wish to answer
+651678,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,1.0,Owns outright or with mortgage/loan
+651679,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,2.0,Lives rent free e.g. with relative
+651680,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,3.0,Rent it
+651681,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,4.0,Other
+651682,BIB,SOCIODEMO,bib_gu_tenure,Current tenure: BiB Growing Up questionnaire,5.0,Don't know
+651683,BIB,SOCIODEMO,bib_gu_bedroom_count,Number of bedrooms: BiB Growing Up questionnaire,,
+651684,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,1.0,Married and living with partner
+651685,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,2.0,Not married and living with partner
+651686,BIB,SOCIODEMO,bib_gu_partnership_status,Partnership status: BiB Growing Up questionnaire,3.0,Not living with partner
+651687,BIB,SOCIODEMO,bib_cv1_timestamp,Date COVID Survey,,
+651688,BIB,SOCIODEMO,bib_cv1_age_y,Age at date of survey participation: BiB Covid19 Wave 1 questionnaire,,
+651689,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,1.0,Me
+651690,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,2.0,My partner
+651691,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,3.0,Other household member
+651692,BIB,SOCIODEMO,bib_cv1_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 1 questionnaire,4.0,Me and my partner earn the same amount
+651693,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651694,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,1.0,Employed
+651695,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,2.0,Employed but not working (on furlough)
+651696,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,3.0,Self employed and working
+651697,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,4.0,Self employed and not working
+651698,BIB,SOCIODEMO,bib_cv1_emp_status,Employment status of main earner: BiB Covid19 Wave 1 questionnaire,5.0,Unemployed
+651699,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,0.0,No
+651700,BIB,SOCIODEMO,bib_cv1_key_worker,Is anyone in the household classed as a key worker: BiB Covid19 Wave 1 questionn,1.0,Yes
+651701,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-2.0,Dont know
+651702,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651703,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,1.0,Living comfortably
+651704,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,2.0,Doing alright
+651705,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,3.0,Just about getting by
+651706,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,4.0,Finding it quite difficult
+651707,BIB,SOCIODEMO,bib_cv1_finance_current,Current financial circumstance: BiB Covid19 Wave 1 questionnaire,5.0,Finding it very difficult
+651708,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-2.0,Dont know
+651709,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,-1.0,Do not wish to answer
+651710,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,1.0,Better off
+651711,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,2.0,About the same
+651712,BIB,SOCIODEMO,bib_cv1_finance_change,Financial circumstance compared to three months ago: BiB Covid19 Wave 1 question,3.0,Worse off
+651713,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,1.0,Own it outright
+651714,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651715,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,3.0,Part own and part rent (shared ownership)
+651716,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651717,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651718,BIB,SOCIODEMO,bib_cv1_tenure,Current tenure: BiB Covid19 Wave 1 questionnaire,6.0,Squatting
+651719,BIB,SOCIODEMO,bib_cv1_occ_count,Total number of people in household: BiB Covid19 Wave 1 questionnaire,,
+651720,BIB,SOCIODEMO,bib_cv1_child_count,Total number of children in household: BiB Covid19 Wave 1 questionnaire,,
+651721,BIB,SOCIODEMO,bib_cv1_bedroom_count,Number of bedrooms: BiB Covid19 Wave 1 questionnaire,,
+651722,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,-1.0,Do not wish to answer
+651723,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,1.0,Single
+651724,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,2.0,Married
+651725,BIB,SOCIODEMO,bib_cv1_partnership_status,Partnership status: BiB Covid19 Wave 1 questionnaire,3.0,Not married but in a relationship
+651726,BIB,SOCIODEMO,bib_cv2_timestamp,Please write todays date,,
+651727,BIB,SOCIODEMO,bib_cv2_age_y,Age at date of survey particpation: BiB Covid19 Wave 2 questionnaire,,
+651728,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,1.0,Me
+651729,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,2.0,My partner
+651730,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,3.0,Other household member
+651731,BIB,SOCIODEMO,bib_cv2_emp_status_is_main,Who is the main earner in the household: BiB Covid19 Wave 2 questionnaire,4.0,Me and my partner earn the same amount
+651732,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651733,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,1.0,Employed
+651734,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,2.0,Employed but not working (on furlough)
+651735,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,3.0,Employed on the wage subsidy scheme (e.g.; working less hours with wage topped by the Government)
+651736,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,4.0,Self employed and working
+651737,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,5.0,Self employed and not working
+651738,BIB,SOCIODEMO,bib_cv2_emp_status,Employment status of main earner: BiB Covid19 Wave 2 questionnaire,6.0,Unemployed
+651739,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-2.0,Dont know
+651740,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651741,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,1.0,Living comfortably
+651742,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,2.0,Doing alright
+651743,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,3.0,Just about getting by
+651744,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,4.0,Finding it quite difficult
+651745,BIB,SOCIODEMO,bib_cv2_finance_current,Current financial circumstance: BiB Covid19 Wave 2 questionnaire,5.0,Finding it very difficult
+651746,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,1.0,Own it outright
+651747,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,2.0,Buying it with the help of a mortgage/loan
+651748,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,3.0,Part own and part rent (shared ownership)
+651749,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+651750,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+651751,BIB,SOCIODEMO,bib_cv2_tenure,Current tenure: BiB Covid19 Wave 2 questionnaire,6.0,Squatting
+651752,BIB,SOCIODEMO,bib_cv2_occ_count,Total number of people in household: BiB Covid19 Wave 2 questionnaire,,
+651753,BIB,SOCIODEMO,bib_cv2_child_count,Total number of children in household: BiB Covid19 Wave 2 questionnaire,,
+651754,BIB,SOCIODEMO,bib_cv2_bedroom_count,Number of bedrooms: BiB Covid19 Wave 2 questionnaire,,
+651755,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,-1.0,Do not wish to answer
+651756,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,1.0,Single
+651757,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,2.0,Married
+651758,BIB,SOCIODEMO,bib_cv2_partnership_status,Partnership status: BiB Covid19 Wave 2 questionnaire,3.0,Not married but in a relationship
+651759,BIB,SOCIODEMO,partial_dob,,,
+651760,BIB,SOCIODEMO,avail_from_dt,,,

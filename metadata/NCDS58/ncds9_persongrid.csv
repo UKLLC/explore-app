@@ -1,0 +1,132 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1043365,NCDS58,ncds9_persongrid,study_id_e,,,
+1043366,NCDS58,ncds9_persongrid,n9gridid,HHgrid: person position,-1.0,Not applicable
+1043367,NCDS58,ncds9_persongrid,n9gsex,HHgrid: person sex,-8.0,Not enough info
+1043368,NCDS58,ncds9_persongrid,n9gsex,HHgrid: person sex,-1.0,Not applicable
+1043369,NCDS58,ncds9_persongrid,n9gsex,HHgrid: person sex,1.0,Male
+1043370,NCDS58,ncds9_persongrid,n9gsex,HHgrid: person sex,2.0,Female
+1043371,NCDS58,ncds9_persongrid,n9gdied,HHgrid: whether household member had died,-1.0,Not applicable
+1043372,NCDS58,ncds9_persongrid,n9gdied,HHgrid: whether household member had died,0.0,No
+1043373,NCDS58,ncds9_persongrid,n9gdied,HHgrid: whether household member had died,1.0,Yes
+1043374,NCDS58,ncds9_persongrid,n9gslive,HHgrid: whether person living with CM at interview,-8.0,Not enough info
+1043375,NCDS58,ncds9_persongrid,n9gslive,HHgrid: whether person living with CM at interview,-1.0,Not applicable
+1043376,NCDS58,ncds9_persongrid,n9gslive,HHgrid: whether person living with CM at interview,0.0,No
+1043377,NCDS58,ncds9_persongrid,n9gslive,HHgrid: whether person living with CM at interview,1.0,Yes
+1043378,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,-9.0,Refused
+1043379,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,-8.0,Not enough info
+1043380,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,-7.0,Answer not given
+1043381,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,-1.0,Not applicable
+1043382,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,1.0,Spouse
+1043383,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,2.0,Civil partner
+1043384,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,3.0,Cohabiting partner
+1043385,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,4.0,your own child
+1043386,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,5.0,your adopted child
+1043387,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,6.0,child of your current spouse/partner
+1043388,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,7.0,child of a previous spouse/partner
+1043389,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,8.0,your foster child
+1043390,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,9.0,Full brother/sister
+1043391,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,10.0,Half/adopted/step brother/sister
+1043392,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,11.0,Brother/sister in-law
+1043393,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,12.0,Natural mother
+1043394,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,13.0,Adoptive mother
+1043395,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,14.0,Natural father
+1043396,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,15.0,Adoptive father
+1043397,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,16.0,Step mother
+1043398,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,17.0,Step father
+1043399,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,18.0,Parent in-law
+1043400,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,19.0,Grandparent
+1043401,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,20.0,Grandchild
+1043402,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,21.0,Other blood relative
+1043403,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,22.0,Other In-Law
+1043404,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,23.0,Friend/Unrelated Sharer
+1043405,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,24.0,Landlord
+1043406,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,25.0,Lodger
+1043407,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,26.0,Employer
+1043408,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,27.0,"Nanny, Au Pair etc"
+1043409,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,28.0,Child of non rel adult living in the HH
+1043410,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,29.0,Other
+1043411,NCDS58,ncds9_persongrid,n9grtok,HHgrid: Person's relationship to CM,30.0,Non-natural absent child
+1043412,NCDS58,ncds9_persongrid,n9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-9.0,Refused
+1043413,NCDS58,ncds9_persongrid,n9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-8.0,Not enough info
+1043414,NCDS58,ncds9_persongrid,n9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-7.0,Answer not given
+1043415,NCDS58,ncds9_persongrid,n9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-1.0,Not applicable
+1043416,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-9.0,Refused
+1043417,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-8.0,Not enough info
+1043418,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-7.0,Answer not given
+1043419,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-1.0,Not applicable
+1043420,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,1.0,January
+1043421,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,2.0,Febriary
+1043422,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,3.0,March
+1043423,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,4.0,April
+1043424,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,5.0,May
+1043425,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,6.0,June
+1043426,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,7.0,July
+1043427,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,8.0,August
+1043428,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,9.0,September
+1043429,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,10.0,October
+1043430,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,11.0,Novemeber
+1043431,NCDS58,ncds9_persongrid,n9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,12.0,December
+1043432,NCDS58,ncds9_persongrid,n9gsty,HHgrid: Date person started living with CM-year (new non-birth chd/partner),-9.0,Refused
+1043433,NCDS58,ncds9_persongrid,n9gsty,HHgrid: Date person started living with CM-year (new non-birth chd/partner),-8.0,Not enough info
+1043434,NCDS58,ncds9_persongrid,n9gsty,HHgrid: Date person started living with CM-year (new non-birth chd/partner),-7.0,Answer not given
+1043435,NCDS58,ncds9_persongrid,n9gsty,HHgrid: Date person started living with CM-year (new non-birth chd/partner),-1.0,Not applicable
+1043436,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),-9.0,Refused
+1043437,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),-8.0,Not enough info
+1043438,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),-7.0,Answer not given
+1043439,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),-1.0,Not applicable
+1043440,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),1.0,January
+1043441,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),2.0,Febriary
+1043442,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),3.0,March
+1043443,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),4.0,April
+1043444,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),5.0,May
+1043445,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),6.0,June
+1043446,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),7.0,July
+1043447,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),8.0,August
+1043448,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),9.0,September
+1043449,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),10.0,October
+1043450,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),11.0,Novemeber
+1043451,NCDS58,ncds9_persongrid,n9gstm,HHgrid: Date person started living with CM-month (new non-birth chd/partner),12.0,December
+1043452,NCDS58,ncds9_persongrid,n9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)-year,-9.0,Refused
+1043453,NCDS58,ncds9_persongrid,n9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)-year,-8.0,Not enough info
+1043454,NCDS58,ncds9_persongrid,n9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)-year,-7.0,Answer not given
+1043455,NCDS58,ncds9_persongrid,n9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)-year,-1.0,Not applicable
+1043456,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,-9.0,Refused
+1043457,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,-8.0,Not enough info
+1043458,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,-7.0,Answer not given
+1043459,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,-1.0,Not applicable
+1043460,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,1.0,January
+1043461,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,2.0,Febriary
+1043462,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,3.0,March
+1043463,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,4.0,April
+1043464,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,5.0,May
+1043465,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,6.0,June
+1043466,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,7.0,July
+1043467,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,8.0,August
+1043468,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,9.0,September
+1043469,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,10.0,October
+1043470,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,11.0,Novemeber
+1043471,NCDS58,ncds9_persongrid,n9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)-month,12.0,December
+1043472,NCDS58,ncds9_persongrid,n9gdoby,HHgrid: Person date of birth -  year,-8.0,Not enough info
+1043473,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,-8.0,Not enough info
+1043474,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,1.0,January
+1043475,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,2.0,February
+1043476,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,3.0,March
+1043477,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,4.0,April
+1043478,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,5.0,May
+1043479,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,6.0,June
+1043480,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,7.0,July
+1043481,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,8.0,August
+1043482,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,9.0,September
+1043483,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,10.0,October
+1043484,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,11.0,Novemeber
+1043485,NCDS58,ncds9_persongrid,n9gdobm,HHgrid: Person date of birth - month,12.0,December
+1043486,NCDS58,ncds9_persongrid,n9gage,HHgrid: Person's age last birthday,-9.0,Refused
+1043487,NCDS58,ncds9_persongrid,n9gage,HHgrid: Person's age last birthday,-8.0,Not enough info
+1043488,NCDS58,ncds9_persongrid,n9gage,HHgrid: Person's age last birthday,-1.0,Not applicable
+1043489,NCDS58,ncds9_persongrid,n9gcrlp,HHgrid: Whether child is current partner's own child,-9.0,Refused
+1043490,NCDS58,ncds9_persongrid,n9gcrlp,HHgrid: Whether child is current partner's own child,-8.0,Not enough info
+1043491,NCDS58,ncds9_persongrid,n9gcrlp,HHgrid: Whether child is current partner's own child,-1.0,Not Applicable
+1043492,NCDS58,ncds9_persongrid,n9gcrlp,HHgrid: Whether child is current partner's own child,1.0,Yes
+1043493,NCDS58,ncds9_persongrid,n9gcrlp,HHgrid: Whether child is current partner's own child,2.0,No
+1043494,NCDS58,ncds9_persongrid,v3,None,,
+1043495,NCDS58,ncds9_persongrid,avail_from_dt,,,

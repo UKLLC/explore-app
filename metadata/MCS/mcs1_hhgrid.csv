@@ -1,0 +1,347 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+756725,MCS,mcs1_hhgrid,study_id_e,,,
+756726,MCS,mcs1_hhgrid,pnum,Person number within an MCS family (excl Cohort Members,,
+756727,MCS,mcs1_hhgrid,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+756728,MCS,mcs1_hhgrid,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+756729,MCS,mcs1_hhgrid,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+756730,MCS,mcs1_hhgrid,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Partner Proxy Interview
+756731,MCS,mcs1_hhgrid,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible for interview
+756732,MCS,mcs1_hhgrid,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+756733,MCS,mcs1_hhgrid,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+756734,MCS,mcs1_hhgrid,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+756735,MCS,mcs1_hhgrid,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Partner Proxy Interview
+756736,MCS,mcs1_hhgrid,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No interview
+756737,MCS,mcs1_hhgrid,acnum00,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+756738,MCS,mcs1_hhgrid,acnum00,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+756739,MCS,mcs1_hhgrid,acnum00,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+756740,MCS,mcs1_hhgrid,ahintm00,Interview Date (month),-1.0,Not applicable
+756741,MCS,mcs1_hhgrid,ahinty00,Interview Date (year),-1.0,Not applicable
+756742,MCS,mcs1_hhgrid,ahcsex00,Cohort Member Sex,-1.0,Not applicable
+756743,MCS,mcs1_hhgrid,ahcsex00,Cohort Member Sex,1.0,Male
+756744,MCS,mcs1_hhgrid,ahcsex00,Cohort Member Sex,2.0,Female
+756745,MCS,mcs1_hhgrid,ahcdbm00,Cohort Member Date of Birth (month),-1.0,Not applicable
+756746,MCS,mcs1_hhgrid,ahcdby00,Cohort Member Date of Birth (year),-1.0,Not applicable
+756747,MCS,mcs1_hhgrid,ahcage00,CM Age at interview (days),-1.0,Not applicable
+756748,MCS,mcs1_hhgrid,ahcprs00,CM Present in Sweep 1,-1.0,Not applicable
+756749,MCS,mcs1_hhgrid,ahcprs00,CM Present in Sweep 1,1.0,Present
+756750,MCS,mcs1_hhgrid,ahpsex00,Person Sex,-2.0,Unknown
+756751,MCS,mcs1_hhgrid,ahpsex00,Person Sex,-1.0,Not applicable
+756752,MCS,mcs1_hhgrid,ahpsex00,Person Sex,1.0,Male
+756753,MCS,mcs1_hhgrid,ahpsex00,Person Sex,2.0,Female
+756754,MCS,mcs1_hhgrid,ahpdbm00,Person Date of Birth (month),-2.0,Unknown
+756755,MCS,mcs1_hhgrid,ahpdbm00,Person Date of Birth (month),-1.0,Not applicable
+756756,MCS,mcs1_hhgrid,ahpdby00,Person Date of Birth (year),-2.0,Unknown
+756757,MCS,mcs1_hhgrid,ahpdby00,Person Date of Birth (year),-1.0,Not applicable
+756758,MCS,mcs1_hhgrid,ahpres00,Present in Sweep 1,-1.0,Not applicable
+756759,MCS,mcs1_hhgrid,ahpres00,Present in Sweep 1,1.0,Present
+756760,MCS,mcs1_hhgrid,ahpage00,Person Age (years),-2.0,Unknown
+756761,MCS,mcs1_hhgrid,ahpage00,Person Age (years),-1.0,Not applicable
+756762,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,-9.0,Refusal
+756763,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,-8.0,Dont Know
+756764,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,-1.0,Not available
+756765,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,1.0,Husband/Wife
+756766,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,2.0,Partner/Cohabitee
+756767,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,3.0,Natural son/daughter
+756768,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,4.0,Adopted son/daughter
+756769,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,5.0,Foster son/daughter
+756770,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,6.0,Step-son/ step-daughter
+756771,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,7.0,Natural parent
+756772,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,8.0,Adoptive parent
+756773,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,9.0,Foster parent
+756774,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,10.0,Step-parent/partner of parent
+756775,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,11.0,Natural brother/Natural sister
+756776,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,12.0,Half-brother/Half-sister
+756777,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,13.0,Step-brother/Step-sister
+756778,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,14.0,Adopted brother/Adopted sister
+756779,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,15.0,Foster brother/Foster sister
+756780,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,16.0,Grandchild
+756781,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,17.0,Grandparent
+756782,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,18.0,Nanny/au pair
+756783,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,19.0,Other relative
+756784,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,20.0,Other non-relative
+756785,MCS,mcs1_hhgrid,ahcrel00,Relationship to Cohort Member,96.0,Self
+756786,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,-9.0,Refusal
+756787,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,-8.0,Dont Know
+756788,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,-1.0,Not Applicable
+756789,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,1.0,Husband/Wife
+756790,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,2.0,Partner/Cohabitee
+756791,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,3.0,Natural son/daughter
+756792,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,4.0,Adopted son/daughter
+756793,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,5.0,Foster son/daughter
+756794,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,6.0,Step-son/ step-daughter
+756795,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,7.0,Natural parent
+756796,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,8.0,Adoptive parent
+756797,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,9.0,Foster parent
+756798,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,10.0,Step-parent/partner of parent
+756799,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,11.0,Natural brother/Natural sister
+756800,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,12.0,Half-brother/Half-sister
+756801,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,13.0,Step-brother/Step-sister
+756802,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,14.0,Adopted brother/Adopted sister
+756803,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,15.0,Foster brother/Foster sister
+756804,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,16.0,Grandchild
+756805,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,17.0,Grandparent
+756806,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,18.0,Nanny/au pair
+756807,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,19.0,Other relative
+756808,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,20.0,Other non-relative
+756809,MCS,mcs1_hhgrid,ahprela0,Relationship to Person 1,96.0,Self
+756810,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,-9.0,Refusal
+756811,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,-8.0,Dont Know
+756812,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,-1.0,Not Applicable
+756813,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,1.0,Husband/Wife
+756814,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,2.0,Partner/Cohabitee
+756815,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,3.0,Natural son/daughter
+756816,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,4.0,Adopted son/daughter
+756817,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,5.0,Foster son/daughter
+756818,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,6.0,Step-son/ step-daughter
+756819,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,7.0,Natural parent
+756820,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,8.0,Adoptive parent
+756821,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,9.0,Foster parent
+756822,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,10.0,Step-parent/partner of parent
+756823,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,11.0,Natural brother/Natural sister
+756824,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,12.0,Half-brother/Half-sister
+756825,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,13.0,Step-brother/Step-sister
+756826,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,14.0,Adopted brother/Adopted sister
+756827,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,15.0,Foster brother/Foster sister
+756828,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,16.0,Grandchild
+756829,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,17.0,Grandparent
+756830,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,18.0,Nanny/au pair
+756831,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,19.0,Other relative
+756832,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,20.0,Other non-relative
+756833,MCS,mcs1_hhgrid,ahprelb0,Relationship to Person 2,96.0,Self
+756834,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,-9.0,Refusal
+756835,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,-8.0,Dont Know
+756836,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,-1.0,Not Applicable
+756837,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,1.0,Husband/Wife
+756838,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,2.0,Partner/Cohabitee
+756839,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,3.0,Natural son/daughter
+756840,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,4.0,Adopted son/daughter
+756841,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,5.0,Foster son/daughter
+756842,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,6.0,Step-son/ step-daughter
+756843,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,7.0,Natural parent
+756844,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,8.0,Adoptive parent
+756845,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,9.0,Foster parent
+756846,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,10.0,Step-parent/partner of parent
+756847,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,11.0,Natural brother/Natural sister
+756848,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,12.0,Half-brother/Half-sister
+756849,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,13.0,Step-brother/Step-sister
+756850,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,14.0,Adopted brother/Adopted sister
+756851,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,15.0,Foster brother/Foster sister
+756852,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,16.0,Grandchild
+756853,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,17.0,Grandparent
+756854,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,18.0,Nanny/au pair
+756855,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,19.0,Other relative
+756856,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,20.0,Other non-relative
+756857,MCS,mcs1_hhgrid,ahprelc0,Relationship to Person 3,96.0,Self
+756858,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,-9.0,Refusal
+756859,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,-8.0,Dont Know
+756860,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,-1.0,Not Applicable
+756861,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,1.0,Husband/Wife
+756862,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,2.0,Partner/Cohabitee
+756863,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,3.0,Natural son/daughter
+756864,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,4.0,Adopted son/daughter
+756865,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,5.0,Foster son/daughter
+756866,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,6.0,Step-son/ step-daughter
+756867,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,7.0,Natural parent
+756868,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,8.0,Adoptive parent
+756869,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,9.0,Foster parent
+756870,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,10.0,Step-parent/partner of parent
+756871,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,11.0,Natural brother/Natural sister
+756872,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,12.0,Half-brother/Half-sister
+756873,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,13.0,Step-brother/Step-sister
+756874,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,14.0,Adopted brother/Adopted sister
+756875,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,15.0,Foster brother/Foster sister
+756876,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,16.0,Grandchild
+756877,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,17.0,Grandparent
+756878,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,18.0,Nanny/au pair
+756879,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,19.0,Other relative
+756880,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,20.0,Other non-relative
+756881,MCS,mcs1_hhgrid,ahpreld0,Relationship to Person 4,96.0,Self
+756882,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,-9.0,Refusal
+756883,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,-8.0,Dont Know
+756884,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,-1.0,Not Applicable
+756885,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,1.0,Husband/Wife
+756886,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,2.0,Partner/Cohabitee
+756887,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,3.0,Natural son/daughter
+756888,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,4.0,Adopted son/daughter
+756889,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,5.0,Foster son/daughter
+756890,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,6.0,Step-son/ step-daughter
+756891,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,7.0,Natural parent
+756892,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,8.0,Adoptive parent
+756893,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,9.0,Foster parent
+756894,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,10.0,Step-parent/partner of parent
+756895,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,11.0,Natural brother/Natural sister
+756896,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,12.0,Half-brother/Half-sister
+756897,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,13.0,Step-brother/Step-sister
+756898,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,14.0,Adopted brother/Adopted sister
+756899,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,15.0,Foster brother/Foster sister
+756900,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,16.0,Grandchild
+756901,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,17.0,Grandparent
+756902,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,18.0,Nanny/au pair
+756903,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,19.0,Other relative
+756904,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,20.0,Other non-relative
+756905,MCS,mcs1_hhgrid,ahprele0,Relationship to Person 5,96.0,Self
+756906,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,-9.0,Refusal
+756907,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,-8.0,Dont Know
+756908,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,-1.0,Not Applicable
+756909,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,1.0,Husband/Wife
+756910,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,2.0,Partner/Cohabitee
+756911,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,3.0,Natural son/daughter
+756912,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,4.0,Adopted son/daughter
+756913,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,5.0,Foster son/daughter
+756914,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,6.0,Step-son/ step-daughter
+756915,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,7.0,Natural parent
+756916,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,8.0,Adoptive parent
+756917,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,9.0,Foster parent
+756918,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,10.0,Step-parent/partner of parent
+756919,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,11.0,Natural brother/Natural sister
+756920,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,12.0,Half-brother/Half-sister
+756921,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,13.0,Step-brother/Step-sister
+756922,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,14.0,Adopted brother/Adopted sister
+756923,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,15.0,Foster brother/Foster sister
+756924,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,16.0,Grandchild
+756925,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,17.0,Grandparent
+756926,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,18.0,Nanny/au pair
+756927,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,19.0,Other relative
+756928,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,20.0,Other non-relative
+756929,MCS,mcs1_hhgrid,ahprelf0,Relationship to Person 6,96.0,Self
+756930,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,-9.0,Refusal
+756931,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,-8.0,Dont Know
+756932,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,-1.0,Not Applicable
+756933,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,1.0,Husband/Wife
+756934,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,2.0,Partner/Cohabitee
+756935,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,3.0,Natural son/daughter
+756936,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,4.0,Adopted son/daughter
+756937,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,5.0,Foster son/daughter
+756938,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,6.0,Step-son/ step-daughter
+756939,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,7.0,Natural parent
+756940,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,8.0,Adoptive parent
+756941,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,9.0,Foster parent
+756942,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,10.0,Step-parent/partner of parent
+756943,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,11.0,Natural brother/Natural sister
+756944,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,12.0,Half-brother/Half-sister
+756945,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,13.0,Step-brother/Step-sister
+756946,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,14.0,Adopted brother/Adopted sister
+756947,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,15.0,Foster brother/Foster sister
+756948,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,16.0,Grandchild
+756949,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,17.0,Grandparent
+756950,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,18.0,Nanny/au pair
+756951,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,19.0,Other relative
+756952,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,20.0,Other non-relative
+756953,MCS,mcs1_hhgrid,ahprelg0,Relationship to Person 7,96.0,Self
+756954,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,-9.0,Refusal
+756955,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,-8.0,Dont Know
+756956,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,-1.0,Not Applicable
+756957,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,1.0,Husband/Wife
+756958,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,2.0,Partner/Cohabitee
+756959,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,3.0,Natural son/daughter
+756960,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,4.0,Adopted son/daughter
+756961,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,5.0,Foster son/daughter
+756962,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,6.0,Step-son/ step-daughter
+756963,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,7.0,Natural parent
+756964,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,8.0,Adoptive parent
+756965,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,9.0,Foster parent
+756966,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,10.0,Step-parent/partner of parent
+756967,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,11.0,Natural brother/Natural sister
+756968,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,12.0,Half-brother/Half-sister
+756969,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,13.0,Step-brother/Step-sister
+756970,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,14.0,Adopted brother/Adopted sister
+756971,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,15.0,Foster brother/Foster sister
+756972,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,16.0,Grandchild
+756973,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,17.0,Grandparent
+756974,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,18.0,Nanny/au pair
+756975,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,19.0,Other relative
+756976,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,20.0,Other non-relative
+756977,MCS,mcs1_hhgrid,ahprelh0,Relationship to Person 8,96.0,Self
+756978,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,-9.0,Refusal
+756979,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,-8.0,Dont Know
+756980,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,-1.0,Not Applicable
+756981,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,1.0,Husband/Wife
+756982,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,2.0,Partner/Cohabitee
+756983,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,3.0,Natural son/daughter
+756984,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,4.0,Adopted son/daughter
+756985,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,5.0,Foster son/daughter
+756986,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,6.0,Step-son/ step-daughter
+756987,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,7.0,Natural parent
+756988,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,8.0,Adoptive parent
+756989,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,9.0,Foster parent
+756990,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,10.0,Step-parent/partner of parent
+756991,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,11.0,Natural brother/Natural sister
+756992,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,12.0,Half-brother/Half-sister
+756993,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,13.0,Step-brother/Step-sister
+756994,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,14.0,Adopted brother/Adopted sister
+756995,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,15.0,Foster brother/Foster sister
+756996,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,16.0,Grandchild
+756997,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,17.0,Grandparent
+756998,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,18.0,Nanny/au pair
+756999,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,19.0,Other relative
+757000,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,20.0,Other non-relative
+757001,MCS,mcs1_hhgrid,ahpreli0,Relationship to Person 9,96.0,Self
+757002,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,-9.0,Refusal
+757003,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,-8.0,Dont Know
+757004,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,-1.0,Not Applicable
+757005,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,1.0,Husband/Wife
+757006,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,2.0,Partner/Cohabitee
+757007,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,3.0,Natural son/daughter
+757008,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,4.0,Adopted son/daughter
+757009,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,5.0,Foster son/daughter
+757010,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,6.0,Step-son/ step-daughter
+757011,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,7.0,Natural parent
+757012,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,8.0,Adoptive parent
+757013,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,9.0,Foster parent
+757014,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,10.0,Step-parent/partner of parent
+757015,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,11.0,Natural brother/Natural sister
+757016,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,12.0,Half-brother/Half-sister
+757017,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,13.0,Step-brother/Step-sister
+757018,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,14.0,Adopted brother/Adopted sister
+757019,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,15.0,Foster brother/Foster sister
+757020,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,16.0,Grandchild
+757021,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,17.0,Grandparent
+757022,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,18.0,Nanny/au pair
+757023,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,19.0,Other relative
+757024,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,20.0,Other non-relative
+757025,MCS,mcs1_hhgrid,ahprelj0,Relationship to Person 10,96.0,Self
+757026,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,-9.0,Refusal
+757027,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,-8.0,Dont Know
+757028,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,-1.0,Not Applicable
+757029,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,1.0,Husband/Wife
+757030,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,2.0,Partner/Cohabitee
+757031,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,3.0,Natural son/daughter
+757032,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,4.0,Adopted son/daughter
+757033,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,5.0,Foster son/daughter
+757034,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,6.0,Step-son/ step-daughter
+757035,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,7.0,Natural parent
+757036,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,8.0,Adoptive parent
+757037,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,9.0,Foster parent
+757038,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,10.0,Step-parent/partner of parent
+757039,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,11.0,Natural brother/Natural sister
+757040,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,12.0,Half-brother/Half-sister
+757041,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,13.0,Step-brother/Step-sister
+757042,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,14.0,Adopted brother/Adopted sister
+757043,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,15.0,Foster brother/Foster sister
+757044,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,16.0,Grandchild
+757045,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,17.0,Grandparent
+757046,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,18.0,Nanny/au pair
+757047,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,19.0,Other relative
+757048,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,20.0,Other non-relative
+757049,MCS,mcs1_hhgrid,ahprelk0,Relationship to Person 11,96.0,Self
+757050,MCS,mcs1_hhgrid,ahpjob00,Is person currently in work or not,-2.0,Unknown
+757051,MCS,mcs1_hhgrid,ahpjob00,Is person currently in work or not,-1.0,Not applicable
+757052,MCS,mcs1_hhgrid,ahpjob00,Is person currently in work or not,1.0,Yes
+757053,MCS,mcs1_hhgrid,ahpjob00,Is person currently in work or not,2.0,No
+757054,MCS,mcs1_hhgrid,ahptpc00,Resident full-time of part-time,-8.0,Dont Know
+757055,MCS,mcs1_hhgrid,ahptpc00,Resident full-time of part-time,-1.0,Not applicable
+757056,MCS,mcs1_hhgrid,ahptpc00,Resident full-time of part-time,1.0,Resident Full Time
+757057,MCS,mcs1_hhgrid,ahptpc00,Resident full-time of part-time,2.0,Resident Part Time
+757058,MCS,mcs1_hhgrid,ahaway00,HHGrid:Whether away for whole fieldwork period (person 2),-9.0,Refusal
+757059,MCS,mcs1_hhgrid,ahaway00,HHGrid:Whether away for whole fieldwork period (person 2),-8.0,Don't Know
+757060,MCS,mcs1_hhgrid,ahaway00,HHGrid:Whether away for whole fieldwork period (person 2),-1.0,Not applicable
+757061,MCS,mcs1_hhgrid,ahaway00,HHGrid:Whether away for whole fieldwork period (person 2),1.0,Yes - away until baby is one year old
+757062,MCS,mcs1_hhgrid,ahaway00,HHGrid:Whether away for whole fieldwork period (person 2),2.0,No
+757063,MCS,mcs1_hhgrid,ahinca00,HHGrid:Whether incapacitated (person 2),-9.0,Refusal
+757064,MCS,mcs1_hhgrid,ahinca00,HHGrid:Whether incapacitated (person 2),-8.0,Don't Know
+757065,MCS,mcs1_hhgrid,ahinca00,HHGrid:Whether incapacitated (person 2),-1.0,Not applicable
+757066,MCS,mcs1_hhgrid,ahinca00,HHGrid:Whether incapacitated (person 2),1.0,"Yes, can do interview him/herself"
+757067,MCS,mcs1_hhgrid,ahinca00,HHGrid:Whether incapacitated (person 2),2.0,"No, cannot understand/ answer questions"
+757068,MCS,mcs1_hhgrid,ahinca00,HHGrid:Whether incapacitated (person 2),3.0,"No, cannot understand/ answer questions"
+757069,MCS,mcs1_hhgrid,avail_from_dt,,,
+757070,MCS,mcs1_hhgrid,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

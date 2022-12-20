@@ -1,0 +1,552 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+766539,MCS,mcs1_proxy_partner_interview,study_id_e,,,
+766540,MCS,mcs1_proxy_partner_interview,pnum,Person number,,
+766541,MCS,mcs1_proxy_partner_interview,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+766542,MCS,mcs1_proxy_partner_interview,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+766543,MCS,mcs1_proxy_partner_interview,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+766544,MCS,mcs1_proxy_partner_interview,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Partner Proxy Interview
+766545,MCS,mcs1_proxy_partner_interview,aelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible for interview
+766546,MCS,mcs1_proxy_partner_interview,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+766547,MCS,mcs1_proxy_partner_interview,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+766548,MCS,mcs1_proxy_partner_interview,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+766549,MCS,mcs1_proxy_partner_interview,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Partner Proxy Interview
+766550,MCS,mcs1_proxy_partner_interview,aresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No interview
+766551,MCS,mcs1_proxy_partner_interview,axpxno00,PXQ person number of proxy,-9.0,Refusal
+766552,MCS,mcs1_proxy_partner_interview,axpxno00,PXQ person number of proxy,-8.0,Don't Know
+766553,MCS,mcs1_proxy_partner_interview,axpxno00,PXQ person number of proxy,-1.0,Not applicable
+766554,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,-9.0,Refusal
+766555,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,-8.0,Don't Know
+766556,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,-1.0,Not applicable
+766557,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,1.0,Legally separated
+766558,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,2.0,"Married, 1st and only marriage"
+766559,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,3.0,"Remarried, 2nd or later marriage"
+766560,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,4.0,Single never married
+766561,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,5.0,Divorced
+766562,MCS,mcs1_proxy_partner_interview,axpxma00,PXQ Martial status,6.0,Widowed
+766563,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],-9.0,Refusal
+766564,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],-8.0,Don't Know
+766565,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],-1.0,Not applicable
+766566,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],1.0,White - British
+766567,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],2.0,White - Irish
+766568,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],3.0,Any other White background
+766569,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],4.0,Mixed - White and Black Caribbean
+766570,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],5.0,Mixed - White and Black African
+766571,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],6.0,Mixed - White and Asian
+766572,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],7.0,Any other mixed background
+766573,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],8.0,Asian/Asian British - Indian
+766574,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],9.0,Asian/Asian British - Pakistani
+766575,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],10.0,Asian/Asian British - Bangladeshi
+766576,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],11.0,Any other Asian background
+766577,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],12.0,Black/Black British - Caribbean
+766578,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],13.0,Black/Black British - African
+766579,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],14.0,Any other Black background
+766580,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],15.0,Chinese
+766581,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],95.0,Any other
+766582,MCS,mcs1_proxy_partner_interview,axethe00_r5,PXQ Ethnic Group (England)   [counts less than 5 recoded],100.0,Recoded due to low counts - check SA
+766583,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],-9.0,Refusal
+766584,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],-8.0,Don't Know
+766585,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],-1.0,Not applicable
+766586,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],1.0,White - Welsh
+766587,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],2.0,White - other British
+766588,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],3.0,White - Irish
+766589,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],4.0,Any other White background
+766590,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],5.0,Mixed - White and Black Caribbean
+766591,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],6.0,Mixed - White and Black African
+766592,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],7.0,Mixed - White and Asian
+766593,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],8.0,Any other mixed background
+766594,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],9.0,Asian/Asian British - Indian
+766595,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],10.0,Asian/Asian British - Pakistani
+766596,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],11.0,Asian/Asian British - Bangladeshi
+766597,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],12.0,Any other Asian background
+766598,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],13.0,Black/Black British - Caribbean
+766599,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],14.0,Black/Black British - African
+766600,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],15.0,Any other Black background
+766601,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],16.0,Chinese
+766602,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],95.0,Any other
+766603,MCS,mcs1_proxy_partner_interview,axethw00_r5,Ethnic Group (Wales) [counts less than 5 recoded],100.0,Recoded due to low counts - check SA
+766604,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],-9.0,Refusal
+766605,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],-8.0,Don't Know
+766606,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],-1.0,Not applicable
+766607,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],1.0,White - Scottish
+766608,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],2.0,White - Other British
+766609,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],3.0,White - Irish
+766610,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],4.0,Any other White background
+766611,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],5.0,Any mixed background
+766612,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],6.0,Asian/Asian Scottish - Indian
+766613,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],7.0,Asian/Asian Scottish - Pakistani
+766614,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],8.0,Asian/Asian Scottish - Bangladeshi
+766615,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],9.0,Asian/Asian Scottish - Chinese
+766616,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],10.0,Any other Asian background
+766617,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],11.0,Black/Black Scottish - Caribbean
+766618,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],12.0,Black/Black Scottish - African
+766619,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],13.0,Any other Black background
+766620,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],95.0,Any other background
+766621,MCS,mcs1_proxy_partner_interview,axeths00_r5,PXQ Ethnic Group (Scotland)  [counts less than 5 recoded],100.0,Recoded due to low counts - check SA
+766622,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),-9.0,Refusal
+766623,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),-8.0,Don't Know
+766624,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),-1.0,Not applicable
+766625,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),1.0,White
+766626,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),2.0,Chinese
+766627,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),3.0,Irish Traveller
+766628,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),4.0,Indian
+766629,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),5.0,Pakistani
+766630,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),6.0,Bangladeshi
+766631,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),7.0,Black Caribbean
+766632,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),8.0,Black African
+766633,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),9.0,Black Other
+766634,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),10.0,Mixed ethnic group
+766635,MCS,mcs1_proxy_partner_interview,axethn00,Ethnic Group (NI),95.0,Any other ethnic group
+766636,MCS,mcs1_proxy_partner_interview,axmual00,Whether parent-respondent s mother is alive,-9.0,Refusal
+766637,MCS,mcs1_proxy_partner_interview,axmual00,Whether parent-respondent s mother is alive,-8.0,Don't Know
+766638,MCS,mcs1_proxy_partner_interview,axmual00,Whether parent-respondent s mother is alive,-1.0,Not applicable
+766639,MCS,mcs1_proxy_partner_interview,axmual00,Whether parent-respondent s mother is alive,1.0,Yes
+766640,MCS,mcs1_proxy_partner_interview,axmual00,Whether parent-respondent s mother is alive,2.0,No
+766641,MCS,mcs1_proxy_partner_interview,axmual00,Whether parent-respondent s mother is alive,3.0,Don t know
+766642,MCS,mcs1_proxy_partner_interview,axdaal00,Whether parent-respondent s father is alive,-9.0,Refusal
+766643,MCS,mcs1_proxy_partner_interview,axdaal00,Whether parent-respondent s father is alive,-8.0,Don't Know
+766644,MCS,mcs1_proxy_partner_interview,axdaal00,Whether parent-respondent s father is alive,-1.0,Not applicable
+766645,MCS,mcs1_proxy_partner_interview,axdaal00,Whether parent-respondent s father is alive,1.0,Yes
+766646,MCS,mcs1_proxy_partner_interview,axdaal00,Whether parent-respondent s father is alive,2.0,No
+766647,MCS,mcs1_proxy_partner_interview,axdaal00,Whether parent-respondent s father is alive,3.0,Don t know
+766648,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,-9.0,Refusal
+766649,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,-8.0,Don't Know
+766650,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,-1.0,Not applicable
+766651,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,1.0,Every day
+766652,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,2.0,3-6 times a week
+766653,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,3.0,Once or twice a week
+766654,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,4.0,"Less often, but at least once a month"
+766655,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,5.0,Once every few months
+766656,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,6.0,Once a year
+766657,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,7.0,Less than once a year
+766658,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,8.0,Never
+766659,MCS,mcs1_proxy_partner_interview,axsemo00,How often does PROXY partner see natural mother?,9.0,(Lives with mother)
+766660,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,-9.0,Refusal
+766661,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,-8.0,Don't Know
+766662,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,-1.0,Not applicable
+766663,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,1.0,Every day
+766664,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,2.0,3-6 times a week
+766665,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,3.0,Once or twice a week
+766666,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,4.0,"Less often, but at least once a month"
+766667,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,5.0,Once every few months
+766668,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,6.0,Once a year
+766669,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,7.0,Less than once a year
+766670,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,8.0,Never
+766671,MCS,mcs1_proxy_partner_interview,axsefa00,How often does PROXY partner see natural father?,9.0,(Lives with father)
+766672,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,-9.0,Refusal
+766673,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,-8.0,Don't Know
+766674,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,-1.0,Not applicable
+766675,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,0.0,"No, does not help in any of these ways"
+766676,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,1.0,"Buying essentials for the baby - food,"
+766677,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,2.0,Paying for other household costs - eg b
+766678,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,3.0,Buying gifts and extras for the baby
+766679,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,4.0,Lending money
+766680,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,5.0,Paying for childcare
+766681,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,51.0,Other/Buying or paying for large capita
+766682,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,52.0,Other/Giving money/cash gifts
+766683,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,53.0,Other/Trust fund or savings account for
+766684,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,85.0,Other answer (not codeable 0-5)
+766685,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,86.0,Irrelevant response
+766686,MCS,mcs1_proxy_partner_interview,axppym0a,PXQ Financial help from parents MC1,95.0,Other financial help
+766687,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,52.0,Other/Giving money/cash gifts
+766688,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,53.0,Other/Trust fund or savings account for
+766689,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,85.0,Other answer (not codeable 0-5)
+766690,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,86.0,Irrelevant response
+766691,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,95.0,Other financial help
+766692,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,-9.0,Refusal
+766693,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,-8.0,Don't Know
+766694,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,-1.0,Not applicable
+766695,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,0.0,"No, does not help in any of these ways"
+766696,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,1.0,"Buying essentials for the baby - food,"
+766697,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,2.0,Paying for other household costs - eg b
+766698,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,3.0,Buying gifts and extras for the baby
+766699,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,4.0,Lending money
+766700,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,5.0,Paying for childcare
+766701,MCS,mcs1_proxy_partner_interview,axppym0b,PXQ Financial help from parents MC2,51.0,Other/Buying or paying for large capita
+766702,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,-9.0,Refusal
+766703,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,-8.0,Don't Know
+766704,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,-1.0,Not applicable
+766705,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,0.0,"No, does not help in any of these ways"
+766706,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,1.0,"Buying essentials for the baby - food,"
+766707,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,2.0,Paying for other household costs - eg b
+766708,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,3.0,Buying gifts and extras for the baby
+766709,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,4.0,Lending money
+766710,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,5.0,Paying for childcare
+766711,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,51.0,Other/Buying or paying for large capita
+766712,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,52.0,Other/Giving money/cash gifts
+766713,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,53.0,Other/Trust fund or savings account for
+766714,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,85.0,Other answer (not codeable 0-5)
+766715,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,86.0,Irrelevant response
+766716,MCS,mcs1_proxy_partner_interview,axppym0c,PXQ Financial help from parents MC3,95.0,Other financial help
+766717,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,-9.0,Refusal
+766718,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,-8.0,Don't Know
+766719,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,-1.0,Not applicable
+766720,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,0.0,"No, does not help in any of these ways"
+766721,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,1.0,"Buying essentials for the baby - food,"
+766722,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,2.0,Paying for other household costs - eg b
+766723,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,3.0,Buying gifts and extras for the baby
+766724,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,4.0,Lending money
+766725,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,5.0,Paying for childcare
+766726,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,51.0,Other/Buying or paying for large capita
+766727,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,52.0,Other/Giving money/cash gifts
+766728,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,53.0,Other/Trust fund or savings account for
+766729,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,85.0,Other answer (not codeable 0-5)
+766730,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,86.0,Irrelevant response
+766731,MCS,mcs1_proxy_partner_interview,axppym0d,PXQ Financial help from parents MC4,95.0,Other financial help
+766732,MCS,mcs1_proxy_partner_interview,axgehe00,PXQ Respondent s general health,-9.0,Refusal
+766733,MCS,mcs1_proxy_partner_interview,axgehe00,PXQ Respondent s general health,-8.0,Don't Know
+766734,MCS,mcs1_proxy_partner_interview,axgehe00,PXQ Respondent s general health,-1.0,Not applicable
+766735,MCS,mcs1_proxy_partner_interview,axgehe00,PXQ Respondent s general health,1.0,"... excellent,"
+766736,MCS,mcs1_proxy_partner_interview,axgehe00,PXQ Respondent s general health,2.0,"good,"
+766737,MCS,mcs1_proxy_partner_interview,axgehe00,PXQ Respondent s general health,3.0,"fair,"
+766738,MCS,mcs1_proxy_partner_interview,axgehe00,PXQ Respondent s general health,4.0,"or, poor?"
+766739,MCS,mcs1_proxy_partner_interview,axloil00,Whether respondent has longstanding illness,-9.0,Refusal
+766740,MCS,mcs1_proxy_partner_interview,axloil00,Whether respondent has longstanding illness,-8.0,Don't Know
+766741,MCS,mcs1_proxy_partner_interview,axloil00,Whether respondent has longstanding illness,-1.0,Not applicable
+766742,MCS,mcs1_proxy_partner_interview,axloil00,Whether respondent has longstanding illness,1.0,Yes
+766743,MCS,mcs1_proxy_partner_interview,axloil00,Whether respondent has longstanding illness,2.0,No
+766744,MCS,mcs1_proxy_partner_interview,axlolm00,Whether longstanding illness limits activities,-9.0,Refusal
+766745,MCS,mcs1_proxy_partner_interview,axlolm00,Whether longstanding illness limits activities,-8.0,Don't Know
+766746,MCS,mcs1_proxy_partner_interview,axlolm00,Whether longstanding illness limits activities,-1.0,Not applicable
+766747,MCS,mcs1_proxy_partner_interview,axlolm00,Whether longstanding illness limits activities,1.0,Yes
+766748,MCS,mcs1_proxy_partner_interview,axlolm00,Whether longstanding illness limits activities,2.0,No
+766749,MCS,mcs1_proxy_partner_interview,axheig00,PXQ Current height,-9.0,Refusal
+766750,MCS,mcs1_proxy_partner_interview,axheig00,PXQ Current height,-8.0,Don't Know
+766751,MCS,mcs1_proxy_partner_interview,axheig00,PXQ Current height,-1.0,Not applicable
+766752,MCS,mcs1_proxy_partner_interview,axheig00,PXQ Current height,1.0,Feet and inches
+766753,MCS,mcs1_proxy_partner_interview,axheig00,PXQ Current height,2.0,Centimetres
+766754,MCS,mcs1_proxy_partner_interview,axheig00,PXQ Current height,3.0,Refusal
+766755,MCS,mcs1_proxy_partner_interview,axheif00,PXQ Height in feet,-9.0,Refusal
+766756,MCS,mcs1_proxy_partner_interview,axheif00,PXQ Height in feet,-8.0,Don't Know
+766757,MCS,mcs1_proxy_partner_interview,axheif00,PXQ Height in feet,-1.0,Not applicable
+766758,MCS,mcs1_proxy_partner_interview,axheii00,PXQ Current height,-9.0,Refusal
+766759,MCS,mcs1_proxy_partner_interview,axheii00,PXQ Current height,-8.0,Don't Know
+766760,MCS,mcs1_proxy_partner_interview,axheii00,PXQ Current height,-1.0,Not applicable
+766761,MCS,mcs1_proxy_partner_interview,axhecm00,PXQ Height in centimeters,-9.0,Refusal
+766762,MCS,mcs1_proxy_partner_interview,axhecm00,PXQ Height in centimeters,-8.0,Don't Know
+766763,MCS,mcs1_proxy_partner_interview,axhecm00,PXQ Height in centimeters,-1.0,Not applicable
+766764,MCS,mcs1_proxy_partner_interview,axweig00,PXQ Weight of resp without clothes (units),-9.0,Refusal
+766765,MCS,mcs1_proxy_partner_interview,axweig00,PXQ Weight of resp without clothes (units),-8.0,Don't Know
+766766,MCS,mcs1_proxy_partner_interview,axweig00,PXQ Weight of resp without clothes (units),-1.0,Not applicable
+766767,MCS,mcs1_proxy_partner_interview,axweig00,PXQ Weight of resp without clothes (units),1.0,Stones and pounds
+766768,MCS,mcs1_proxy_partner_interview,axweig00,PXQ Weight of resp without clothes (units),2.0,Kilograms
+766769,MCS,mcs1_proxy_partner_interview,axweig00,PXQ Weight of resp without clothes (units),3.0,Refusal
+766770,MCS,mcs1_proxy_partner_interview,axweis00,PXQ Weight in stones,-9.0,Refusal
+766771,MCS,mcs1_proxy_partner_interview,axweis00,PXQ Weight in stones,-8.0,Don't Know
+766772,MCS,mcs1_proxy_partner_interview,axweis00,PXQ Weight in stones,-1.0,Not applicable
+766773,MCS,mcs1_proxy_partner_interview,axweip00,PXQ Weight in pounds,-9.0,Refusal
+766774,MCS,mcs1_proxy_partner_interview,axweip00,PXQ Weight in pounds,-8.0,Don't Know
+766775,MCS,mcs1_proxy_partner_interview,axweip00,PXQ Weight in pounds,-1.0,Not applicable
+766776,MCS,mcs1_proxy_partner_interview,axweik00,PXQ Weight in kilos,-9.0,Refusal
+766777,MCS,mcs1_proxy_partner_interview,axweik00,PXQ Weight in kilos,-8.0,Don't Know
+766778,MCS,mcs1_proxy_partner_interview,axweik00,PXQ Weight in kilos,-1.0,Not applicable
+766779,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),-9.0,Refusal
+766780,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),-8.0,Don't Know
+766781,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),-1.0,Not applicable
+766782,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),1.0,Full-time paid employee (30 or more hou
+766783,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),2.0,Part-time paid employee (under 30 hours
+766784,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),3.0,On maternity/paternity/parental leave f
+766785,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),4.0,Full-time self-employed
+766786,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),5.0,Part-time self-employed
+766787,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),6.0,Out of work and looking for a job
+766788,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),7.0,"Out of work, for reasons of poor health"
+766789,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),8.0,"Taking part in the New Deal (training,"
+766790,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),9.0,On another Government scheme
+766791,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),10.0,On a modern apprenticeship scheme
+766792,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),11.0,Full-time student
+766793,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),12.0,Wholly retired
+766794,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),85.0,Other answer (not codeable 1-12)
+766795,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),86.0,Irrelevant response
+766796,MCS,mcs1_proxy_partner_interview,axnwrk00,Economic activity status (for non-working),95.0,Not in paid work for some other reason
+766797,MCS,mcs1_proxy_partner_interview,axjbsi00,PXQ Paid work since birth,-9.0,Refusal
+766798,MCS,mcs1_proxy_partner_interview,axjbsi00,PXQ Paid work since birth,-8.0,Don't Know
+766799,MCS,mcs1_proxy_partner_interview,axjbsi00,PXQ Paid work since birth,-1.0,Not applicable
+766800,MCS,mcs1_proxy_partner_interview,axjbsi00,PXQ Paid work since birth,1.0,Yes
+766801,MCS,mcs1_proxy_partner_interview,axjbsi00,PXQ Paid work since birth,2.0,No
+766802,MCS,mcs1_proxy_partner_interview,axevwk00,PXQ Whether ever had a paid job,-9.0,Refusal
+766803,MCS,mcs1_proxy_partner_interview,axevwk00,PXQ Whether ever had a paid job,-8.0,Don't Know
+766804,MCS,mcs1_proxy_partner_interview,axevwk00,PXQ Whether ever had a paid job,-1.0,Not applicable
+766805,MCS,mcs1_proxy_partner_interview,axevwk00,PXQ Whether ever had a paid job,1.0,Yes
+766806,MCS,mcs1_proxy_partner_interview,axevwk00,PXQ Whether ever had a paid job,2.0,No
+766807,MCS,mcs1_proxy_partner_interview,axplea00,PXQ Leave taken since birth,-9.0,Refusal
+766808,MCS,mcs1_proxy_partner_interview,axplea00,PXQ Leave taken since birth,-8.0,Don't Know
+766809,MCS,mcs1_proxy_partner_interview,axplea00,PXQ Leave taken since birth,-1.0,Not applicable
+766810,MCS,mcs1_proxy_partner_interview,axplea00,PXQ Leave taken since birth,1.0,Yes
+766811,MCS,mcs1_proxy_partner_interview,axplea00,PXQ Leave taken since birth,2.0,No
+766812,MCS,mcs1_proxy_partner_interview,axplea00,PXQ Leave taken since birth,3.0,No employer since birth
+766813,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,-9.0,Refusal
+766814,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,-8.0,Don't Know
+766815,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,-1.0,Not applicable
+766816,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,1.0,Maternity/Paternity leave
+766817,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,2.0,Parental leave
+766818,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,3.0,Sick leave
+766819,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,4.0,Annual leave
+766820,MCS,mcs1_proxy_partner_interview,axlewt0a,PXQ Type of leave taken since birth MC1,95.0,Any other type of leave
+766821,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,-9.0,Refusal
+766822,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,-8.0,Don't Know
+766823,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,-1.0,Not applicable
+766824,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,1.0,Maternity/Paternity leave
+766825,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,2.0,Parental leave
+766826,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,3.0,Sick leave
+766827,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,4.0,Annual leave
+766828,MCS,mcs1_proxy_partner_interview,axlewt0b,PXQ Type of leave taken since birth MC2,95.0,Any other type of leave
+766829,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,-9.0,Refusal
+766830,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,-8.0,Don't Know
+766831,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,-1.0,Not applicable
+766832,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,1.0,Maternity/Paternity leave
+766833,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,2.0,Parental leave
+766834,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,3.0,Sick leave
+766835,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,4.0,Annual leave
+766836,MCS,mcs1_proxy_partner_interview,axlewt0c,PXQ Type of leave taken since birth MC3,95.0,Any other type of leave
+766837,MCS,mcs1_proxy_partner_interview,axleap00,PXQ Whether any leave was paid,-9.0,Refusal
+766838,MCS,mcs1_proxy_partner_interview,axleap00,PXQ Whether any leave was paid,-8.0,Don't Know
+766839,MCS,mcs1_proxy_partner_interview,axleap00,PXQ Whether any leave was paid,-1.0,Not applicable
+766840,MCS,mcs1_proxy_partner_interview,axleap00,PXQ Whether any leave was paid,1.0,"Yes, all"
+766841,MCS,mcs1_proxy_partner_interview,axleap00,PXQ Whether any leave was paid,2.0,"Yes, some"
+766842,MCS,mcs1_proxy_partner_interview,axleap00,PXQ Whether any leave was paid,3.0,"No, none"
+766843,MCS,mcs1_proxy_partner_interview,axemps00,Whether employee or self-employed in main job,-9.0,Refusal
+766844,MCS,mcs1_proxy_partner_interview,axemps00,Whether employee or self-employed in main job,-8.0,Don't Know
+766845,MCS,mcs1_proxy_partner_interview,axemps00,Whether employee or self-employed in main job,-1.0,Not applicable
+766846,MCS,mcs1_proxy_partner_interview,axemps00,Whether employee or self-employed in main job,1.0,Employee
+766847,MCS,mcs1_proxy_partner_interview,axemps00,Whether employee or self-employed in main job,2.0,Self-employed
+766848,MCS,mcs1_proxy_partner_interview,axsupv00,PXQ Manager or supervisor,-9.0,Refusal
+766849,MCS,mcs1_proxy_partner_interview,axsupv00,PXQ Manager or supervisor,-8.0,Don't Know
+766850,MCS,mcs1_proxy_partner_interview,axsupv00,PXQ Manager or supervisor,-1.0,Not applicable
+766851,MCS,mcs1_proxy_partner_interview,axsupv00,PXQ Manager or supervisor,1.0,Manager
+766852,MCS,mcs1_proxy_partner_interview,axsupv00,PXQ Manager or supervisor,2.0,Foreman/supervisor
+766853,MCS,mcs1_proxy_partner_interview,axsupv00,PXQ Manager or supervisor,3.0,Not a manager or supervisor
+766854,MCS,mcs1_proxy_partner_interview,axsupn00,Whether respondent supervises more than 25 people,-9.0,Refusal
+766855,MCS,mcs1_proxy_partner_interview,axsupn00,Whether respondent supervises more than 25 people,-8.0,Don't Know
+766856,MCS,mcs1_proxy_partner_interview,axsupn00,Whether respondent supervises more than 25 people,-1.0,Not applicable
+766857,MCS,mcs1_proxy_partner_interview,axsupn00,Whether respondent supervises more than 25 people,1.0,Yes
+766858,MCS,mcs1_proxy_partner_interview,axsupn00,Whether respondent supervises more than 25 people,2.0,No
+766859,MCS,mcs1_proxy_partner_interview,axjbsy00,PXQ Year started job,-9.0,Refusal
+766860,MCS,mcs1_proxy_partner_interview,axjbsy00,PXQ Year started job,-8.0,Don't Know
+766861,MCS,mcs1_proxy_partner_interview,axjbsy00,PXQ Year started job,-1.0,Not applicable
+766862,MCS,mcs1_proxy_partner_interview,axjbsm00,PXQ Month started job,-9.0,Refusal
+766863,MCS,mcs1_proxy_partner_interview,axjbsm00,PXQ Month started job,-8.0,Don't Know
+766864,MCS,mcs1_proxy_partner_interview,axjbsm00,PXQ Month started job,-1.0,Not applicable
+766865,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,-9.0,Refusal
+766866,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,-8.0,Don't Know
+766867,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,-1.0,Not applicable
+766868,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,1.0,Works/ed alone
+766869,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,2.0,1-5 people
+766870,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,3.0,6-24 people
+766871,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,4.0,25-49 people
+766872,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,5.0,50-499
+766873,MCS,mcs1_proxy_partner_interview,axempn00,PXQ Number of people in place where works,6.0,500+
+766874,MCS,mcs1_proxy_partner_interview,axjeyr00,PXQ Year job ended,-9.0,Refusal
+766875,MCS,mcs1_proxy_partner_interview,axjeyr00,PXQ Year job ended,-8.0,Don't Know
+766876,MCS,mcs1_proxy_partner_interview,axjeyr00,PXQ Year job ended,-1.0,Not applicable
+766877,MCS,mcs1_proxy_partner_interview,axjemt00,PXQ Month job ended,-9.0,Refusal
+766878,MCS,mcs1_proxy_partner_interview,axjemt00,PXQ Month job ended,-8.0,Don't Know
+766879,MCS,mcs1_proxy_partner_interview,axjemt00,PXQ Month job ended,-1.0,Not applicable
+766880,MCS,mcs1_proxy_partner_interview,axseem00,Number of people employees (self-employed),-9.0,Refusal
+766881,MCS,mcs1_proxy_partner_interview,axseem00,Number of people employees (self-employed),-8.0,Don't Know
+766882,MCS,mcs1_proxy_partner_interview,axseem00,Number of people employees (self-employed),-1.0,Not applicable
+766883,MCS,mcs1_proxy_partner_interview,axseem00,Number of people employees (self-employed),1.0,Works/ed alone or only with partner
+766884,MCS,mcs1_proxy_partner_interview,axseem00,Number of people employees (self-employed),2.0,Less than 25 employees
+766885,MCS,mcs1_proxy_partner_interview,axseem00,Number of people employees (self-employed),3.0,25 or more employees
+766886,MCS,mcs1_proxy_partner_interview,axwohr00,Usual work hours per week,-9.0,Refusal
+766887,MCS,mcs1_proxy_partner_interview,axwohr00,Usual work hours per week,-8.0,Don't Know
+766888,MCS,mcs1_proxy_partner_interview,axwohr00,Usual work hours per week,-1.0,Not applicable
+766889,MCS,mcs1_proxy_partner_interview,axnumh00,Overtime: paid or unpaid,-9.0,Refusal
+766890,MCS,mcs1_proxy_partner_interview,axnumh00,Overtime: paid or unpaid,-8.0,Don't Know
+766891,MCS,mcs1_proxy_partner_interview,axnumh00,Overtime: paid or unpaid,-1.0,Not applicable
+766892,MCS,mcs1_proxy_partner_interview,axnumh00,Overtime: paid or unpaid,1.0,Yes
+766893,MCS,mcs1_proxy_partner_interview,axnumh00,Overtime: paid or unpaid,2.0,No
+766894,MCS,mcs1_proxy_partner_interview,axdayw00,PXQ Number of days per week do you work in your job?,-9.0,Refusal
+766895,MCS,mcs1_proxy_partner_interview,axdayw00,PXQ Number of days per week do you work in your job?,-8.0,Don't Know
+766896,MCS,mcs1_proxy_partner_interview,axdayw00,PXQ Number of days per week do you work in your job?,-1.0,Not applicable
+766897,MCS,mcs1_proxy_partner_interview,axevew00,How often partner works in the evening,-9.0,Refusal
+766898,MCS,mcs1_proxy_partner_interview,axevew00,How often partner works in the evening,-8.0,Don't Know
+766899,MCS,mcs1_proxy_partner_interview,axevew00,How often partner works in the evening,-1.0,Not applicable
+766900,MCS,mcs1_proxy_partner_interview,axevew00,How often partner works in the evening,1.0,Every week
+766901,MCS,mcs1_proxy_partner_interview,axevew00,How often partner works in the evening,2.0,At least once per month
+766902,MCS,mcs1_proxy_partner_interview,axevew00,How often partner works in the evening,3.0,Less than once per month
+766903,MCS,mcs1_proxy_partner_interview,axevew00,How often partner works in the evening,4.0,Never
+766904,MCS,mcs1_proxy_partner_interview,axngtw00,How often work after 10pm up to 7am,-9.0,Refusal
+766905,MCS,mcs1_proxy_partner_interview,axngtw00,How often work after 10pm up to 7am,-8.0,Don't Know
+766906,MCS,mcs1_proxy_partner_interview,axngtw00,How often work after 10pm up to 7am,-1.0,Not applicable
+766907,MCS,mcs1_proxy_partner_interview,axngtw00,How often work after 10pm up to 7am,1.0,Every week
+766908,MCS,mcs1_proxy_partner_interview,axngtw00,How often work after 10pm up to 7am,2.0,At least once per month
+766909,MCS,mcs1_proxy_partner_interview,axngtw00,How often work after 10pm up to 7am,3.0,Less than once per month
+766910,MCS,mcs1_proxy_partner_interview,axngtw00,How often work after 10pm up to 7am,4.0,Never
+766911,MCS,mcs1_proxy_partner_interview,axwkwe00,Frequency works at weekends,-9.0,Refusal
+766912,MCS,mcs1_proxy_partner_interview,axwkwe00,Frequency works at weekends,-8.0,Don't Know
+766913,MCS,mcs1_proxy_partner_interview,axwkwe00,Frequency works at weekends,-1.0,Not applicable
+766914,MCS,mcs1_proxy_partner_interview,axwkwe00,Frequency works at weekends,1.0,Every week
+766915,MCS,mcs1_proxy_partner_interview,axwkwe00,Frequency works at weekends,2.0,At least once per month
+766916,MCS,mcs1_proxy_partner_interview,axwkwe00,Frequency works at weekends,3.0,Less than once per month
+766917,MCS,mcs1_proxy_partner_interview,axwkwe00,Frequency works at weekends,4.0,Never
+766918,MCS,mcs1_proxy_partner_interview,axwkaw00,Frequency works away from home overnight,-9.0,Refusal
+766919,MCS,mcs1_proxy_partner_interview,axwkaw00,Frequency works away from home overnight,-8.0,Don't Know
+766920,MCS,mcs1_proxy_partner_interview,axwkaw00,Frequency works away from home overnight,-1.0,Not applicable
+766921,MCS,mcs1_proxy_partner_interview,axwkaw00,Frequency works away from home overnight,1.0,Every week
+766922,MCS,mcs1_proxy_partner_interview,axwkaw00,Frequency works away from home overnight,2.0,At least once per month
+766923,MCS,mcs1_proxy_partner_interview,axwkaw00,Frequency works away from home overnight,3.0,Less than once per month
+766924,MCS,mcs1_proxy_partner_interview,axwkaw00,Frequency works away from home overnight,4.0,Never
+766925,MCS,mcs1_proxy_partner_interview,axneta00,NET take-home pay last time,-9.0,Refusal
+766926,MCS,mcs1_proxy_partner_interview,axneta00,NET take-home pay last time,-8.0,Don't Know
+766927,MCS,mcs1_proxy_partner_interview,axneta00,NET take-home pay last time,-1.0,Not applicable
+766928,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,-9.0,Refusal
+766929,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,-8.0,Don't Know
+766930,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,-1.0,Not applicable
+766931,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,1.0,1 week
+766932,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,2.0,Fortnight
+766933,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,3.0,Four weeks
+766934,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,4.0,Calendar month
+766935,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,5.0,Year
+766936,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,51.0,Other/Three weeks
+766937,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,52.0,Other/Five weeks
+766938,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,53.0,Other/Six weeks
+766939,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,54.0,Other/Seven weeks
+766940,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,55.0,Other/Eight weeks
+766941,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,56.0,Other/Two calendar months
+766942,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,57.0,Other/Eight times a year
+766943,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,58.0,Other/Nine times a year
+766944,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,59.0,Other/Ten times a year
+766945,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,60.0,Other/Three months/13 weeks
+766946,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,61.0,Other/Six months/26 weeks
+766947,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,62.0,Other/Hourly
+766948,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,63.0,Other/Daily
+766949,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,64.0,Other/One off lump sum
+766950,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,85.0,Other answer (not codeable)
+766951,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,86.0,Irrelevant response
+766952,MCS,mcs1_proxy_partner_interview,axnetp00,PXQ Take-home pay last time,95.0,Other
+766953,MCS,mcs1_proxy_partner_interview,axgroa00,PXQ Gross pay last time,-9.0,Refusal
+766954,MCS,mcs1_proxy_partner_interview,axgroa00,PXQ Gross pay last time,-8.0,Don't Know
+766955,MCS,mcs1_proxy_partner_interview,axgroa00,PXQ Gross pay last time,-1.0,Not applicable
+766956,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,-9.0,Refusal
+766957,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,-8.0,Don't Know
+766958,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,-1.0,Not applicable
+766959,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,1.0,1 week
+766960,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,2.0,Fortnight
+766961,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,3.0,Four weeks
+766962,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,4.0,Calendar month
+766963,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,5.0,Year
+766964,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,51.0,Other/Three weeks
+766965,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,52.0,Other/Five weeks
+766966,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,53.0,Other/Six weeks
+766967,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,54.0,Other/Seven weeks
+766968,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,55.0,Other/Eight weeks
+766969,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,56.0,Other/Two calendar months
+766970,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,57.0,Other/Eight times a year
+766971,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,58.0,Other/Nine times a year
+766972,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,59.0,Other/Ten times a year
+766973,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,60.0,Other/Three months/13 weeks
+766974,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,61.0,Other/Six months/26 weeks
+766975,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,62.0,Other/Hourly
+766976,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,63.0,Other/Daily
+766977,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,64.0,Other/One off lump sum
+766978,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,85.0,Other answer (not codeable)
+766979,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,86.0,Irrelevant response
+766980,MCS,mcs1_proxy_partner_interview,axgrop00,PXQ Gross pay last time,95.0,Other
+766981,MCS,mcs1_proxy_partner_interview,axsepa00,Net (take-home) income in last year (self-employed),-9.0,Refusal
+766982,MCS,mcs1_proxy_partner_interview,axsepa00,Net (take-home) income in last year (self-employed),-8.0,Don't Know
+766983,MCS,mcs1_proxy_partner_interview,axsepa00,Net (take-home) income in last year (self-employed),-1.0,Not applicable
+766984,MCS,mcs1_proxy_partner_interview,axlfte00,PXQ Age left full-time education,-9.0,Refusal
+766985,MCS,mcs1_proxy_partner_interview,axlfte00,PXQ Age left full-time education,-8.0,Don't Know
+766986,MCS,mcs1_proxy_partner_interview,axlfte00,PXQ Age left full-time education,-1.0,Not applicable
+766987,MCS,mcs1_proxy_partner_interview,axlfte00,PXQ Age left full-time education,0.0,Still in full-time education
+766988,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,-9.0,Refusal
+766989,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,-8.0,Don't Know
+766990,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,-1.0,Not applicable
+766991,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,1.0,Higher degree
+766992,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,2.0,First degree
+766993,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,3.0,Diplomas in higher education
+766994,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,4.0,A / AS / S levels
+766995,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,5.0,O level / GCSE grades A-C
+766996,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,6.0,GCSE grades D-G
+766997,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,95.0,Other academic qualifications
+766998,MCS,mcs1_proxy_partner_interview,axacqu00,Highest academic qualification,96.0,None of these qualifications
+766999,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,-9.0,Refusal
+767000,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,-8.0,Don't Know
+767001,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,-1.0,Not applicable
+767002,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,1.0,Professional quals at degree level
+767003,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,2.0,Nursing / other medical qualifications
+767004,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,3.0,NVQ / SVQ / GSVQ level 3
+767005,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,4.0,Trade apprenticeships
+767006,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,5.0,NVQ / SVQ / GSVQ level 2
+767007,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,6.0,NVQ / SVQ / GSVQ level 1
+767008,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,95.0,Other vocational qualifications
+767009,MCS,mcs1_proxy_partner_interview,axvcqu00,PXQ Highest vocational qualification,96.0,None of these qualifications
+767010,MCS,mcs1_proxy_partner_interview,axotch00,PXQ Any other children at all not living in HH now,-9.0,Refusal
+767011,MCS,mcs1_proxy_partner_interview,axotch00,PXQ Any other children at all not living in HH now,-8.0,Don't Know
+767012,MCS,mcs1_proxy_partner_interview,axotch00,PXQ Any other children at all not living in HH now,-1.0,Not applicable
+767013,MCS,mcs1_proxy_partner_interview,axotch00,PXQ Any other children at all not living in HH now,1.0,Yes
+767014,MCS,mcs1_proxy_partner_interview,axotch00,PXQ Any other children at all not living in HH now,2.0,No
+767015,MCS,mcs1_proxy_partner_interview,axotse00,PXQ Whether ever sees non-res child NRC,-9.0,Refusal
+767016,MCS,mcs1_proxy_partner_interview,axotse00,PXQ Whether ever sees non-res child NRC,-8.0,Don't Know
+767017,MCS,mcs1_proxy_partner_interview,axotse00,PXQ Whether ever sees non-res child NRC,-1.0,Not applicable
+767018,MCS,mcs1_proxy_partner_interview,axotse00,PXQ Whether ever sees non-res child NRC,1.0,Yes
+767019,MCS,mcs1_proxy_partner_interview,axotse00,PXQ Whether ever sees non-res child NRC,2.0,No
+767020,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,2.0,Less often but more than once a week
+767021,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,3.0,Once a week
+767022,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,4.0,Less often but at least once a month
+767023,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,5.0,Less often than once a month
+767024,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,-9.0,Refusal
+767025,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,-8.0,Don't Know
+767026,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,-1.0,Not applicable
+767027,MCS,mcs1_proxy_partner_interview,axotso00,PXQ Frequency sees other children,1.0,Every day
+767028,MCS,mcs1_proxy_partner_interview,axotma00,PXQ Made regular maintenance payment for other child,-9.0,Refusal
+767029,MCS,mcs1_proxy_partner_interview,axotma00,PXQ Made regular maintenance payment for other child,-8.0,Don't Know
+767030,MCS,mcs1_proxy_partner_interview,axotma00,PXQ Made regular maintenance payment for other child,-1.0,Not applicable
+767031,MCS,mcs1_proxy_partner_interview,axotma00,PXQ Made regular maintenance payment for other child,1.0,Yes
+767032,MCS,mcs1_proxy_partner_interview,axotma00,PXQ Made regular maintenance payment for other child,2.0,No
+767033,MCS,mcs1_proxy_partner_interview,axsocc00_tr3,PXQ SOC2000 (without dots)   [truncated to 3 characters],,
+767034,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,-9.0,Refusal
+767035,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,-8.0,Don't Know
+767036,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,-1.0,Not applicable
+767037,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,1.0,Employers in large organisations
+767038,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,2.0,Higher managerial occupations
+767039,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,3.1,Higher professional occupations - Tradi
+767040,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,3.2,Higher professional occupations - New e
+767041,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,3.3,Higher professional occupations - Tradi
+767042,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,3.4,Higher professional occupations - New s
+767043,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,4.1,Lower professional and higher technic
+767044,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,4.2,Lower professional and higher technic
+767045,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,4.3,Lower professional and higher technic
+767046,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,4.4,Lower professional and higher technic
+767047,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,5.0,Lower managerial occupations
+767048,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,6.0,Higher supervisory occupations
+767049,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,7.1,Intermediate clerical and administrativ
+767050,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,7.2,Intermediate sales and service
+767051,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,7.3,Intermediate technical and auxiliary
+767052,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,7.4,Intermediate engineering
+767053,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,8.1,Employers in small organisations - non-
+767054,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,8.2,Employers in small organisations - agri
+767055,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,9.1,Own account workers - non-professional
+767056,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,9.2,Own account workers - agriculture
+767057,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,10.0,Lower supervisory occupations
+767058,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,11.1,Lower technical craft
+767059,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,11.2,Lower technical process operative
+767060,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,12.1,Semi-routine sales
+767061,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,12.2,Semi-routine service
+767062,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,12.3,Semi-routine technical
+767063,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,12.4,Semi-routine operative
+767064,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,12.5,Semi-routine agricultural
+767065,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,12.6,Semi-routine clerical
+767066,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,12.7,Semi-routine childcare
+767067,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,13.1,Routine sales and service
+767068,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,13.2,Routine production
+767069,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,13.3,Routine technical
+767070,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,13.4,Routine operative
+767071,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,13.5,Routine agricultural
+767072,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,14.0,Never worked and long-term unemployed
+767073,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,15.0,Full-time students
+767074,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,16.0,Occupations not stated or inadequately
+767075,MCS,mcs1_proxy_partner_interview,axsecc00,PXQ NS-SEC - long version,17.0,Not classifiable for other reasons
+767076,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,-9.0,Refusal
+767077,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,-8.0,Dont Know
+767078,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,-1.0,Not applicable
+767079,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,1.0,Father/mother away in forces
+767080,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,2.0,Father/mother working away
+767081,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,3.0,Father/mother away in hospital
+767082,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,5.0,Father/mother away for some other reaso
+767083,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,6.0,Father/mother incapacitated (unable to
+767084,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,85.0,Other answer (not codeable 1-6)
+767085,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,86.0,Irrelevant response
+767086,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,95.0,Other reason
+767087,MCS,mcs1_proxy_partner_interview,axpxre0r,Reason for proxy partner interview (A) - recoded,99.0,Recoded - see SecureAccess data
+767088,MCS,mcs1_proxy_partner_interview,avail_from_dt,,,
+767089,MCS,mcs1_proxy_partner_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

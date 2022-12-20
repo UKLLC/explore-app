@@ -1,0 +1,400 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+621489,BCS70,bcs9_absent_older_child,study_id_e,,,
+621490,BCS70,bcs9_absent_older_child,b9abchid,bcs9 person grids position number,,
+621491,BCS70,bcs9_absent_older_child,b9abcord,Absent and older child record number,,
+621492,BCS70,bcs9_absent_older_child,b9noabcr,Absent child responses missing where expected,0.0,Absent child responses as expected
+621493,BCS70,bcs9_absent_older_child,b9noabcr,Absent child responses missing where expected,1.0,Absent child responses missing where expected
+621494,BCS70,bcs9_absent_older_child,b9noldcr,Older child responses missing where expected,0.0,Older child responses as expected
+621495,BCS70,bcs9_absent_older_child,b9noldcr,Older child responses missing where expected,1.0,Older child responses missing where expected
+621496,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,-9.0,Refused
+621497,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,-8.0,Don't know
+621498,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,-3.0,
+621499,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,-1.0,Not applicable
+621500,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,1.0,Alone
+621501,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,2.0,With own spouse/ partner
+621502,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,3.0,With friends
+621503,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,4.0,"W/ flatmates, uni, nurses resid, army"
+621504,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,5.0,With other parent
+621505,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,6.0,With other non-adopting relatives
+621506,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,7.0,With other adopting relatives
+621507,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,8.0,With other non-related adopters
+621508,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,9.0,In local authority care
+621509,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,10.0,In foster care
+621510,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,11.0,In a hostel
+621511,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,12.0,Other
+621512,BCS70,bcs9_absent_older_child,b9abclve,Who absent child lives with,13.0,SPONTANEOUS: Child has died
+621513,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,-9.0,Refused
+621514,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,-8.0,Don't know
+621515,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,-3.0,
+621516,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,-1.0,Not applicable
+621517,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,1.0,Three or more times a week
+621518,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,2.0,Once or twice a week
+621519,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,3.0,Once or twice a month
+621520,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,4.0,Every few months
+621521,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,5.0,Once or twice a year
+621522,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,6.0,Less than once a year
+621523,BCS70,bcs9_absent_older_child,b9abcg91,How often see absent child,7.0,Never
+621524,BCS70,bcs9_absent_older_child,b9abch91,Whether regularly contribute money to maintenance,-9.0,Refused
+621525,BCS70,bcs9_absent_older_child,b9abch91,Whether regularly contribute money to maintenance,-8.0,Don't know
+621526,BCS70,bcs9_absent_older_child,b9abch91,Whether regularly contribute money to maintenance,-3.0,
+621527,BCS70,bcs9_absent_older_child,b9abch91,Whether regularly contribute money to maintenance,-1.0,Not applicable
+621528,BCS70,bcs9_absent_older_child,b9abch91,Whether regularly contribute money to maintenance,1.0,Yes
+621529,BCS70,bcs9_absent_older_child,b9abch91,Whether regularly contribute money to maintenance,2.0,No
+621530,BCS70,bcs9_absent_older_child,b9abmaam,Regular maintenance payment - amount,-9.0,Refused
+621531,BCS70,bcs9_absent_older_child,b9abmaam,Regular maintenance payment - amount,-8.0,Don't know
+621532,BCS70,bcs9_absent_older_child,b9abmaam,Regular maintenance payment - amount,-3.0,
+621533,BCS70,bcs9_absent_older_child,b9abmaam,Regular maintenance payment - amount,-1.0,Not applicable
+621534,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,-9.0,Refused
+621535,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,-8.0,Don't know
+621536,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,-3.0,
+621537,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,-1.0,Not applicable
+621538,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,1.0,One week
+621539,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,2.0,Two weeks
+621540,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,3.0,Three weeks
+621541,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,4.0,Four weeks
+621542,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,5.0,Calendar month
+621543,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,7.0,Two calendar months
+621544,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,8.0,Eight times a year
+621545,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,9.0,Nine times a year
+621546,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,10.0,Ten times a year
+621547,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,13.0,Three months/13 weeks
+621548,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,26.0,Six months/26 weeks
+621549,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,52.0,One year/12 months/52 weeks
+621550,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,90.0,Less than one week
+621551,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,95.0,Lump sum/one off
+621552,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,96.0,None of these
+621553,BCS70,bcs9_absent_older_child,b9abmaip,Regular maintenance payment - period,99.0,na
+621554,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,-9.0,Refused
+621555,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,-8.0,Don't know
+621556,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,-3.0,
+621557,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,-1.0,Not applicable
+621558,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,1.0,F/t paid employee (30 or more hrs/wk)
+621559,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,2.0,P/t paid employee (< 30 hrs/wk)
+621560,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,3.0,Full-time self-employed
+621561,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,4.0,Part-time self-employed
+621562,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,5.0,Unemployed and seeking work
+621563,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,6.0,Full-time education
+621564,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,7.0,Part-time education
+621565,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,8.0,On gov scheme for employment training
+621566,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,9.0,Temporarily sick/disabled
+621567,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,10.0,Permanently sick/disabled
+621568,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,11.0,Looking after home/family
+621569,BCS70,bcs9_absent_older_child,b9abact,Economic activity of older child,12.0,Other (SPECIFY)
+621570,BCS70,bcs9_absent_older_child,b9ablftd,Age older child left full time eductaion,-9.0,Refused
+621571,BCS70,bcs9_absent_older_child,b9ablftd,Age older child left full time eductaion,-8.0,Don't know
+621572,BCS70,bcs9_absent_older_child,b9ablftd,Age older child left full time eductaion,-3.0,
+621573,BCS70,bcs9_absent_older_child,b9ablftd,Age older child left full time eductaion,-2.0,Not asked due to script error
+621574,BCS70,bcs9_absent_older_child,b9ablftd,Age older child left full time eductaion,-1.0,Not applicable
+621575,BCS70,bcs9_absent_older_child,b9abqc01,Older child qualification - Higher degree (Masters or PhD),-3.0,
+621576,BCS70,bcs9_absent_older_child,b9abqc01,Older child qualification - Higher degree (Masters or PhD),-1.0,Not applicable
+621577,BCS70,bcs9_absent_older_child,b9abqc01,Older child qualification - Higher degree (Masters or PhD),0.0,No
+621578,BCS70,bcs9_absent_older_child,b9abqc01,Older child qualification - Higher degree (Masters or PhD),1.0,Yes
+621579,BCS70,bcs9_absent_older_child,b9abqc02,Older child qualification - Postgraduate diplomas including PGCE,-3.0,
+621580,BCS70,bcs9_absent_older_child,b9abqc02,Older child qualification - Postgraduate diplomas including PGCE,-1.0,Not applicable
+621581,BCS70,bcs9_absent_older_child,b9abqc02,Older child qualification - Postgraduate diplomas including PGCE,0.0,No
+621582,BCS70,bcs9_absent_older_child,b9abqc02,Older child qualification - Postgraduate diplomas including PGCE,1.0,Yes
+621583,BCS70,bcs9_absent_older_child,b9abqc03,Older child qualification - Degree (BA,-3.0,
+621584,BCS70,bcs9_absent_older_child,b9abqc03,Older child qualification - Degree (BA,-1.0,Not applicable
+621585,BCS70,bcs9_absent_older_child,b9abqc03,Older child qualification - Degree (BA,0.0,No
+621586,BCS70,bcs9_absent_older_child,b9abqc03,Older child qualification - Degree (BA,1.0,Yes
+621587,BCS70,bcs9_absent_older_child,b9abqc04,Older child qual - Prof quals at degree level e.g. grad member prof inst etc.,-3.0,
+621588,BCS70,bcs9_absent_older_child,b9abqc04,Older child qual - Prof quals at degree level e.g. grad member prof inst etc.,-1.0,Not applicable
+621589,BCS70,bcs9_absent_older_child,b9abqc04,Older child qual - Prof quals at degree level e.g. grad member prof inst etc.,0.0,No
+621590,BCS70,bcs9_absent_older_child,b9abqc04,Older child qual - Prof quals at degree level e.g. grad member prof inst etc.,1.0,Yes
+621591,BCS70,bcs9_absent_older_child,b9abqc05,Older child qual - A Level/ AS level/ Scottish Highers,-3.0,
+621592,BCS70,bcs9_absent_older_child,b9abqc05,Older child qual - A Level/ AS level/ Scottish Highers,-1.0,Not applicable
+621593,BCS70,bcs9_absent_older_child,b9abqc05,Older child qual - A Level/ AS level/ Scottish Highers,0.0,No
+621594,BCS70,bcs9_absent_older_child,b9abqc05,Older child qual - A Level/ AS level/ Scottish Highers,1.0,Yes
+621595,BCS70,bcs9_absent_older_child,b9abqc06,Older child qualification - GCSE/ O level / SCE Standard,-3.0,
+621596,BCS70,bcs9_absent_older_child,b9abqc06,Older child qualification - GCSE/ O level / SCE Standard,-1.0,Not applicable
+621597,BCS70,bcs9_absent_older_child,b9abqc06,Older child qualification - GCSE/ O level / SCE Standard,0.0,No
+621598,BCS70,bcs9_absent_older_child,b9abqc06,Older child qualification - GCSE/ O level / SCE Standard,1.0,Yes
+621599,BCS70,bcs9_absent_older_child,b9abqc07,Older child qualification - Vocational qualifications (e.g. NVQ),-3.0,
+621600,BCS70,bcs9_absent_older_child,b9abqc07,Older child qualification - Vocational qualifications (e.g. NVQ),-1.0,Not applicable
+621601,BCS70,bcs9_absent_older_child,b9abqc07,Older child qualification - Vocational qualifications (e.g. NVQ),0.0,No
+621602,BCS70,bcs9_absent_older_child,b9abqc07,Older child qualification - Vocational qualifications (e.g. NVQ),1.0,Yes
+621603,BCS70,bcs9_absent_older_child,b9abqc08,Older child qualification - Higher education diploma,-3.0,
+621604,BCS70,bcs9_absent_older_child,b9abqc08,Older child qualification - Higher education diploma,-1.0,Not applicable
+621605,BCS70,bcs9_absent_older_child,b9abqc08,Older child qualification - Higher education diploma,0.0,No
+621606,BCS70,bcs9_absent_older_child,b9abqc08,Older child qualification - Higher education diploma,1.0,Yes
+621607,BCS70,bcs9_absent_older_child,b9abqc09,Older child qualification - Nursing or paramedical qualifications,-3.0,
+621608,BCS70,bcs9_absent_older_child,b9abqc09,Older child qualification - Nursing or paramedical qualifications,-1.0,Not applicable
+621609,BCS70,bcs9_absent_older_child,b9abqc09,Older child qualification - Nursing or paramedical qualifications,0.0,No
+621610,BCS70,bcs9_absent_older_child,b9abqc09,Older child qualification - Nursing or paramedical qualifications,1.0,Yes
+621611,BCS70,bcs9_absent_older_child,b9abqc10,Older child qualification - Other qualifications,-3.0,
+621612,BCS70,bcs9_absent_older_child,b9abqc10,Older child qualification - Other qualifications,-1.0,Not applicable
+621613,BCS70,bcs9_absent_older_child,b9abqc10,Older child qualification - Other qualifications,0.0,No
+621614,BCS70,bcs9_absent_older_child,b9abqc10,Older child qualification - Other qualifications,1.0,Yes
+621615,BCS70,bcs9_absent_older_child,b9abqc11,Older child qualification - No qualifications,-3.0,
+621616,BCS70,bcs9_absent_older_child,b9abqc11,Older child qualification - No qualifications,-1.0,Not applicable
+621617,BCS70,bcs9_absent_older_child,b9abqc11,Older child qualification - No qualifications,0.0,No
+621618,BCS70,bcs9_absent_older_child,b9abqc11,Older child qualification - No qualifications,1.0,Yes
+621619,BCS70,bcs9_absent_older_child,b9abqc12,Older child qualification - Don't know,-3.0,
+621620,BCS70,bcs9_absent_older_child,b9abqc12,Older child qualification - Don't know,-1.0,Not applicable
+621621,BCS70,bcs9_absent_older_child,b9abqc12,Older child qualification - Don't know,0.0,No
+621622,BCS70,bcs9_absent_older_child,b9abqc12,Older child qualification - Don't know,1.0,Yes
+621623,BCS70,bcs9_absent_older_child,b9abqc13,Older child qualification - Refused,-3.0,
+621624,BCS70,bcs9_absent_older_child,b9abqc13,Older child qualification - Refused,-1.0,Not applicable
+621625,BCS70,bcs9_absent_older_child,b9abqc13,Older child qualification - Refused,0.0,No
+621626,BCS70,bcs9_absent_older_child,b9abqc13,Older child qualification - Refused,1.0,Yes
+621627,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,-9.0,Refused
+621628,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,-8.0,Don't know
+621629,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,-3.0,
+621630,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,-1.0,Not applicable
+621631,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,1.0,GCSE
+621632,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,2.0,GCE O Level
+621633,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,3.0,A/S Level
+621634,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,4.0,GCE A Level (or S Level)
+621635,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,5.0,"Scot Sch Cert,Higher, Scot Sch qual"
+621636,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,6.0,Diploma of Higher Education
+621637,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,7.0,"Degree (e.g. BA, BSc)"
+621638,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,8.0,Other degree level qualification
+621639,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,9.0,"Higher degree (e.g. PhD, MSc)"
+621640,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,10.0,Nursing or other para-medical qual.
+621641,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,11.0,PGCE - Post-grad Certificate of Educ.
+621642,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,12.0,Other teaching qualification
+621643,BCS70,bcs9_absent_older_child,b9abqcdr,Older child highest qualification - DR only,13.0,None of these
+621644,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,2.0,"Married, 1st and only marriage"
+621645,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,3.0,"Remarried, 2nd or later marriage"
+621646,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,4.0,Divorced
+621647,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,5.0,Widowed
+621648,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,6.0,A Civil Partner in a leg.recog. CP
+621649,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,7.0,Former Civil Part(CP legal dissolved)
+621650,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,8.0,A surviving Civil Partner(CP died)
+621651,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,9.0,Single and never married or in a CP
+621652,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,-9.0,Refused
+621653,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,-8.0,Don't know
+621654,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,-3.0,
+621655,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,-1.0,Not applicable
+621656,BCS70,bcs9_absent_older_child,b9abchms,Older child marital status,1.0,Legally separated
+621657,BCS70,bcs9_absent_older_child,b9abcfmy,When older child got married - year or age,-9.0,Refused
+621658,BCS70,bcs9_absent_older_child,b9abcfmy,When older child got married - year or age,-8.0,Don't know
+621659,BCS70,bcs9_absent_older_child,b9abcfmy,When older child got married - year or age,-3.0,
+621660,BCS70,bcs9_absent_older_child,b9abcfmy,When older child got married - year or age,-1.0,Not applicable
+621661,BCS70,bcs9_absent_older_child,b9abchfm,When older child got married - ANSWER FORMAT,-3.0,
+621662,BCS70,bcs9_absent_older_child,b9abchfm,When older child got married - ANSWER FORMAT,-1.0,Not applicable
+621663,BCS70,bcs9_absent_older_child,b9abchfm,When older child got married - ANSWER FORMAT,1.0,please select
+621664,BCS70,bcs9_absent_older_child,b9abchfm,When older child got married - ANSWER FORMAT,2.0,Year given
+621665,BCS70,bcs9_absent_older_child,b9abchfm,When older child got married - ANSWER FORMAT,3.0,Age given
+621666,BCS70,bcs9_absent_older_child,b9abevch,Whether older child has had chilldren,-9.0,Refused
+621667,BCS70,bcs9_absent_older_child,b9abevch,Whether older child has had chilldren,-8.0,Don't know
+621668,BCS70,bcs9_absent_older_child,b9abevch,Whether older child has had chilldren,-3.0,
+621669,BCS70,bcs9_absent_older_child,b9abevch,Whether older child has had chilldren,-1.0,Not applicable
+621670,BCS70,bcs9_absent_older_child,b9abevch,Whether older child has had chilldren,1.0,Yes
+621671,BCS70,bcs9_absent_older_child,b9abevch,Whether older child has had chilldren,2.0,No
+621672,BCS70,bcs9_absent_older_child,b9abcncy,When older child had first child (year or age),-9.0,Refused
+621673,BCS70,bcs9_absent_older_child,b9abcncy,When older child had first child (year or age),-8.0,Don't know
+621674,BCS70,bcs9_absent_older_child,b9abcncy,When older child had first child (year or age),-3.0,
+621675,BCS70,bcs9_absent_older_child,b9abcncy,When older child had first child (year or age),-1.0,Not applicable
+621676,BCS70,bcs9_absent_older_child,b9abchyr,When older child had first child - answer format,-8.0,Don't know
+621677,BCS70,bcs9_absent_older_child,b9abchyr,When older child had first child - answer format,-3.0,
+621678,BCS70,bcs9_absent_older_child,b9abchyr,When older child had first child - answer format,-1.0,Not applicable
+621679,BCS70,bcs9_absent_older_child,b9abchyr,When older child had first child - answer format,1.0,Year given
+621680,BCS70,bcs9_absent_older_child,b9abchyr,When older child had first child - answer format,2.0,Age given
+621681,BCS70,bcs9_absent_older_child,b9abmet1,Entry point into ABM1 brackets,-3.0,
+621682,BCS70,bcs9_absent_older_child,b9abmet1,Entry point into ABM1 brackets,-1.0,Not applicable
+621683,BCS70,bcs9_absent_older_child,b9abma1,Maintenance payment: more or less than Â£50 a week,-9.0,Refused
+621684,BCS70,bcs9_absent_older_child,b9abma1,Maintenance payment: more or less than Â£50 a week,-8.0,Don't know
+621685,BCS70,bcs9_absent_older_child,b9abma1,Maintenance payment: more or less than Â£50 a week,-3.0,
+621686,BCS70,bcs9_absent_older_child,b9abma1,Maintenance payment: more or less than Â£50 a week,-1.0,Not applicable
+621687,BCS70,bcs9_absent_older_child,b9abma1,Maintenance payment: more or less than Â£50 a week,1.0,Less than Â£50
+621688,BCS70,bcs9_absent_older_child,b9abma1,Maintenance payment: more or less than Â£50 a week,2.0,About Â£50
+621689,BCS70,bcs9_absent_older_child,b9abma1,Maintenance payment: more or less than Â£50 a week,3.0,More than Â£50
+621690,BCS70,bcs9_absent_older_child,b9abmb1,Maintenance payment: more or less than Â£75 a week,-9.0,Refused
+621691,BCS70,bcs9_absent_older_child,b9abmb1,Maintenance payment: more or less than Â£75 a week,-8.0,Don't know
+621692,BCS70,bcs9_absent_older_child,b9abmb1,Maintenance payment: more or less than Â£75 a week,-3.0,
+621693,BCS70,bcs9_absent_older_child,b9abmb1,Maintenance payment: more or less than Â£75 a week,-1.0,Not applicable
+621694,BCS70,bcs9_absent_older_child,b9abmb1,Maintenance payment: more or less than Â£75 a week,1.0,Less than Â£75
+621695,BCS70,bcs9_absent_older_child,b9abmb1,Maintenance payment: more or less than Â£75 a week,2.0,About Â£75
+621696,BCS70,bcs9_absent_older_child,b9abmb1,Maintenance payment: more or less than Â£75 a week,3.0,More than Â£75
+621697,BCS70,bcs9_absent_older_child,b9abmc1,Maintenance payment: more or less than Â£100 a week,-9.0,Refused
+621698,BCS70,bcs9_absent_older_child,b9abmc1,Maintenance payment: more or less than Â£100 a week,-8.0,Don't know
+621699,BCS70,bcs9_absent_older_child,b9abmc1,Maintenance payment: more or less than Â£100 a week,-3.0,
+621700,BCS70,bcs9_absent_older_child,b9abmc1,Maintenance payment: more or less than Â£100 a week,-1.0,Not applicable
+621701,BCS70,bcs9_absent_older_child,b9abmc1,Maintenance payment: more or less than Â£100 a week,1.0,Less than Â£100
+621702,BCS70,bcs9_absent_older_child,b9abmc1,Maintenance payment: more or less than Â£100 a week,2.0,About Â£100
+621703,BCS70,bcs9_absent_older_child,b9abmc1,Maintenance payment: more or less than Â£100 a week,3.0,More than Â£100
+621704,BCS70,bcs9_absent_older_child,b9abmd1,Maintenance payment: more or less than Â£150 a week,-9.0,Refused
+621705,BCS70,bcs9_absent_older_child,b9abmd1,Maintenance payment: more or less than Â£150 a week,-8.0,Don't know
+621706,BCS70,bcs9_absent_older_child,b9abmd1,Maintenance payment: more or less than Â£150 a week,-3.0,
+621707,BCS70,bcs9_absent_older_child,b9abmd1,Maintenance payment: more or less than Â£150 a week,-1.0,Not applicable
+621708,BCS70,bcs9_absent_older_child,b9abmd1,Maintenance payment: more or less than Â£150 a week,1.0,Less than Â£150
+621709,BCS70,bcs9_absent_older_child,b9abmd1,Maintenance payment: more or less than Â£150 a week,2.0,About Â£150
+621710,BCS70,bcs9_absent_older_child,b9abmd1,Maintenance payment: more or less than Â£150 a week,3.0,More than Â£150
+621711,BCS70,bcs9_absent_older_child,b9abmmn1,Weekly maintenance payment - lower bound,-3.0,
+621712,BCS70,bcs9_absent_older_child,b9abmmn1,Weekly maintenance payment - lower bound,-1.0,Not applicable
+621713,BCS70,bcs9_absent_older_child,b9abmmx1,Weekly maintenance payment - upper bound,-3.0,
+621714,BCS70,bcs9_absent_older_child,b9abmmx1,Weekly maintenance payment - upper bound,-1.0,Not applicable
+621715,BCS70,bcs9_absent_older_child,b9abman1,Whether answered ABM1 unfolding brackets questions,-3.0,
+621716,BCS70,bcs9_absent_older_child,b9abman1,Whether answered ABM1 unfolding brackets questions,-1.0,Not applicable
+621717,BCS70,bcs9_absent_older_child,b9abman1,Whether answered ABM1 unfolding brackets questions,1.0,Completed brackets response
+621718,BCS70,bcs9_absent_older_child,b9abman1,Whether answered ABM1 unfolding brackets questions,2.0,DK to first bracket question
+621719,BCS70,bcs9_absent_older_child,b9abman1,Whether answered ABM1 unfolding brackets questions,3.0,REF to first bracket question
+621720,BCS70,bcs9_absent_older_child,b9abman1,Whether answered ABM1 unfolding brackets questions,4.0,DK to later bracket question
+621721,BCS70,bcs9_absent_older_child,b9abman1,Whether answered ABM1 unfolding brackets questions,5.0,REF to later bracket question
+621722,BCS70,bcs9_absent_older_child,b9abmet2,Entry point into ABM2 brackets,-3.0,
+621723,BCS70,bcs9_absent_older_child,b9abmet2,Entry point into ABM2 brackets,-1.0,Not applicable
+621724,BCS70,bcs9_absent_older_child,b9abma2,Maintenance payment: more or less than Â£100 a fortnight,-9.0,Refused
+621725,BCS70,bcs9_absent_older_child,b9abma2,Maintenance payment: more or less than Â£100 a fortnight,-8.0,Don't know
+621726,BCS70,bcs9_absent_older_child,b9abma2,Maintenance payment: more or less than Â£100 a fortnight,-3.0,
+621727,BCS70,bcs9_absent_older_child,b9abma2,Maintenance payment: more or less than Â£100 a fortnight,-1.0,Not applicable
+621728,BCS70,bcs9_absent_older_child,b9abma2,Maintenance payment: more or less than Â£100 a fortnight,1.0,Less than Â£100
+621729,BCS70,bcs9_absent_older_child,b9abma2,Maintenance payment: more or less than Â£100 a fortnight,2.0,About Â£100
+621730,BCS70,bcs9_absent_older_child,b9abma2,Maintenance payment: more or less than Â£100 a fortnight,3.0,More than Â£100
+621731,BCS70,bcs9_absent_older_child,b9abmb2,Maintenance payment: more or less than Â£150 a fortnight,-9.0,Refused
+621732,BCS70,bcs9_absent_older_child,b9abmb2,Maintenance payment: more or less than Â£150 a fortnight,-8.0,Don't know
+621733,BCS70,bcs9_absent_older_child,b9abmb2,Maintenance payment: more or less than Â£150 a fortnight,-3.0,
+621734,BCS70,bcs9_absent_older_child,b9abmb2,Maintenance payment: more or less than Â£150 a fortnight,-1.0,Not applicable
+621735,BCS70,bcs9_absent_older_child,b9abmb2,Maintenance payment: more or less than Â£150 a fortnight,1.0,Less than Â£150
+621736,BCS70,bcs9_absent_older_child,b9abmb2,Maintenance payment: more or less than Â£150 a fortnight,2.0,About Â£150
+621737,BCS70,bcs9_absent_older_child,b9abmb2,Maintenance payment: more or less than Â£150 a fortnight,3.0,More than Â£150
+621738,BCS70,bcs9_absent_older_child,b9abmc2,Maintenance payment: more or less than Â£200 a fortnight,-9.0,Refused
+621739,BCS70,bcs9_absent_older_child,b9abmc2,Maintenance payment: more or less than Â£200 a fortnight,-8.0,Don't know
+621740,BCS70,bcs9_absent_older_child,b9abmc2,Maintenance payment: more or less than Â£200 a fortnight,-3.0,
+621741,BCS70,bcs9_absent_older_child,b9abmc2,Maintenance payment: more or less than Â£200 a fortnight,-1.0,Not applicable
+621742,BCS70,bcs9_absent_older_child,b9abmc2,Maintenance payment: more or less than Â£200 a fortnight,1.0,Less than Â£200
+621743,BCS70,bcs9_absent_older_child,b9abmc2,Maintenance payment: more or less than Â£200 a fortnight,2.0,About Â£200
+621744,BCS70,bcs9_absent_older_child,b9abmc2,Maintenance payment: more or less than Â£200 a fortnight,3.0,More than Â£200
+621745,BCS70,bcs9_absent_older_child,b9abmd2,Maintenance payment: more or less than Â£300 a fortnight,-9.0,Refused
+621746,BCS70,bcs9_absent_older_child,b9abmd2,Maintenance payment: more or less than Â£300 a fortnight,-8.0,Don't know
+621747,BCS70,bcs9_absent_older_child,b9abmd2,Maintenance payment: more or less than Â£300 a fortnight,-3.0,
+621748,BCS70,bcs9_absent_older_child,b9abmd2,Maintenance payment: more or less than Â£300 a fortnight,-1.0,Not applicable
+621749,BCS70,bcs9_absent_older_child,b9abmd2,Maintenance payment: more or less than Â£300 a fortnight,1.0,Less than Â£300
+621750,BCS70,bcs9_absent_older_child,b9abmd2,Maintenance payment: more or less than Â£300 a fortnight,2.0,About Â£300
+621751,BCS70,bcs9_absent_older_child,b9abmd2,Maintenance payment: more or less than Â£300 a fortnight,3.0,More than Â£300
+621752,BCS70,bcs9_absent_older_child,b9abmmn2,Fortnightly maintenance payment - lower bound,-3.0,
+621753,BCS70,bcs9_absent_older_child,b9abmmn2,Fortnightly maintenance payment - lower bound,-1.0,Not applicable
+621754,BCS70,bcs9_absent_older_child,b9abmmx2,Fortnightly maintenance payment - upper bound,-3.0,
+621755,BCS70,bcs9_absent_older_child,b9abmmx2,Fortnightly maintenance payment - upper bound,-1.0,Not applicable
+621756,BCS70,bcs9_absent_older_child,b9abman2,Whether answered ABM2 unfolding brackets questions,-3.0,
+621757,BCS70,bcs9_absent_older_child,b9abman2,Whether answered ABM2 unfolding brackets questions,-1.0,Not applicable
+621758,BCS70,bcs9_absent_older_child,b9abman2,Whether answered ABM2 unfolding brackets questions,1.0,Completed brackets response
+621759,BCS70,bcs9_absent_older_child,b9abman2,Whether answered ABM2 unfolding brackets questions,2.0,DK to first bracket question
+621760,BCS70,bcs9_absent_older_child,b9abman2,Whether answered ABM2 unfolding brackets questions,3.0,REF to first bracket question
+621761,BCS70,bcs9_absent_older_child,b9abman2,Whether answered ABM2 unfolding brackets questions,4.0,DK to later bracket question
+621762,BCS70,bcs9_absent_older_child,b9abman2,Whether answered ABM2 unfolding brackets questions,5.0,REF to later bracket question
+621763,BCS70,bcs9_absent_older_child,b9abmet3,Entry point into ABM3 brackets,-3.0,
+621764,BCS70,bcs9_absent_older_child,b9abmet3,Entry point into ABM3 brackets,-1.0,Not applicable
+621765,BCS70,bcs9_absent_older_child,b9abma3,Maintenance payment: more or less than Â£200 a month,-9.0,Refused
+621766,BCS70,bcs9_absent_older_child,b9abma3,Maintenance payment: more or less than Â£200 a month,-8.0,Don't know
+621767,BCS70,bcs9_absent_older_child,b9abma3,Maintenance payment: more or less than Â£200 a month,-3.0,
+621768,BCS70,bcs9_absent_older_child,b9abma3,Maintenance payment: more or less than Â£200 a month,-1.0,Not applicable
+621769,BCS70,bcs9_absent_older_child,b9abma3,Maintenance payment: more or less than Â£200 a month,1.0,Less than Â£200
+621770,BCS70,bcs9_absent_older_child,b9abma3,Maintenance payment: more or less than Â£200 a month,2.0,About Â£200
+621771,BCS70,bcs9_absent_older_child,b9abma3,Maintenance payment: more or less than Â£200 a month,3.0,More than Â£200
+621772,BCS70,bcs9_absent_older_child,b9abmb3,Maintenance payment: more or less than Â£300 a month,-9.0,Refused
+621773,BCS70,bcs9_absent_older_child,b9abmb3,Maintenance payment: more or less than Â£300 a month,-8.0,Don't know
+621774,BCS70,bcs9_absent_older_child,b9abmb3,Maintenance payment: more or less than Â£300 a month,-3.0,
+621775,BCS70,bcs9_absent_older_child,b9abmb3,Maintenance payment: more or less than Â£300 a month,-1.0,Not applicable
+621776,BCS70,bcs9_absent_older_child,b9abmb3,Maintenance payment: more or less than Â£300 a month,1.0,Less than Â£300
+621777,BCS70,bcs9_absent_older_child,b9abmb3,Maintenance payment: more or less than Â£300 a month,2.0,About Â£300
+621778,BCS70,bcs9_absent_older_child,b9abmb3,Maintenance payment: more or less than Â£300 a month,3.0,More than Â£300
+621779,BCS70,bcs9_absent_older_child,b9abmc3,Maintenance payment: more or less than Â£400 a month,-9.0,Refused
+621780,BCS70,bcs9_absent_older_child,b9abmc3,Maintenance payment: more or less than Â£400 a month,-8.0,Don't know
+621781,BCS70,bcs9_absent_older_child,b9abmc3,Maintenance payment: more or less than Â£400 a month,-3.0,
+621782,BCS70,bcs9_absent_older_child,b9abmc3,Maintenance payment: more or less than Â£400 a month,-1.0,Not applicable
+621783,BCS70,bcs9_absent_older_child,b9abmc3,Maintenance payment: more or less than Â£400 a month,1.0,Less than Â£400
+621784,BCS70,bcs9_absent_older_child,b9abmc3,Maintenance payment: more or less than Â£400 a month,2.0,About Â£400
+621785,BCS70,bcs9_absent_older_child,b9abmc3,Maintenance payment: more or less than Â£400 a month,3.0,More than Â£400
+621786,BCS70,bcs9_absent_older_child,b9abmd3,Maintenance payment: more or less than Â£600 a month,-9.0,Refused
+621787,BCS70,bcs9_absent_older_child,b9abmd3,Maintenance payment: more or less than Â£600 a month,-8.0,Don't know
+621788,BCS70,bcs9_absent_older_child,b9abmd3,Maintenance payment: more or less than Â£600 a month,-3.0,
+621789,BCS70,bcs9_absent_older_child,b9abmd3,Maintenance payment: more or less than Â£600 a month,-1.0,Not applicable
+621790,BCS70,bcs9_absent_older_child,b9abmd3,Maintenance payment: more or less than Â£600 a month,1.0,Less than Â£600
+621791,BCS70,bcs9_absent_older_child,b9abmd3,Maintenance payment: more or less than Â£600 a month,2.0,About Â£600
+621792,BCS70,bcs9_absent_older_child,b9abmd3,Maintenance payment: more or less than Â£600 a month,3.0,More than Â£600
+621793,BCS70,bcs9_absent_older_child,b9abmmn3,Monthly maintenance payment - lower bound,-3.0,
+621794,BCS70,bcs9_absent_older_child,b9abmmn3,Monthly maintenance payment - lower bound,-1.0,Not applicable
+621795,BCS70,bcs9_absent_older_child,b9abmmx3,Monthly maintenance payment - upper bound,-3.0,
+621796,BCS70,bcs9_absent_older_child,b9abmmx3,Monthly maintenance payment - upper bound,-1.0,Not applicable
+621797,BCS70,bcs9_absent_older_child,b9abman3,Whether answered ABM3 unfolding brackets questions,-3.0,
+621798,BCS70,bcs9_absent_older_child,b9abman3,Whether answered ABM3 unfolding brackets questions,-1.0,Not applicable
+621799,BCS70,bcs9_absent_older_child,b9abman3,Whether answered ABM3 unfolding brackets questions,1.0,Completed brackets response
+621800,BCS70,bcs9_absent_older_child,b9abman3,Whether answered ABM3 unfolding brackets questions,2.0,DK to first bracket question
+621801,BCS70,bcs9_absent_older_child,b9abman3,Whether answered ABM3 unfolding brackets questions,3.0,REF to first bracket question
+621802,BCS70,bcs9_absent_older_child,b9abman3,Whether answered ABM3 unfolding brackets questions,4.0,DK to later bracket question
+621803,BCS70,bcs9_absent_older_child,b9abman3,Whether answered ABM3 unfolding brackets questions,5.0,REF to later bracket question
+621804,BCS70,bcs9_absent_older_child,b9abmet4,Entry point into ABM4 brackets,-3.0,
+621805,BCS70,bcs9_absent_older_child,b9abmet4,Entry point into ABM4 brackets,-1.0,Not applicable
+621806,BCS70,bcs9_absent_older_child,b9abma4,Maintenance payment: more or less than Â£2,2.0,About Â£2500
+621807,BCS70,bcs9_absent_older_child,b9abma4,Maintenance payment: more or less than Â£2,3.0,More than Â£2500
+621808,BCS70,bcs9_absent_older_child,b9abma4,Maintenance payment: more or less than Â£2,-9.0,Refused
+621809,BCS70,bcs9_absent_older_child,b9abma4,Maintenance payment: more or less than Â£2,-8.0,Don't know
+621810,BCS70,bcs9_absent_older_child,b9abma4,Maintenance payment: more or less than Â£2,-3.0,
+621811,BCS70,bcs9_absent_older_child,b9abma4,Maintenance payment: more or less than Â£2,-1.0,Not applicable
+621812,BCS70,bcs9_absent_older_child,b9abma4,Maintenance payment: more or less than Â£2,1.0,Less than Â£2500
+621813,BCS70,bcs9_absent_older_child,b9abmb4,Maintenance payment: more or less than Â£3,-9.0,Refused
+621814,BCS70,bcs9_absent_older_child,b9abmb4,Maintenance payment: more or less than Â£3,-8.0,Don't know
+621815,BCS70,bcs9_absent_older_child,b9abmb4,Maintenance payment: more or less than Â£3,-3.0,
+621816,BCS70,bcs9_absent_older_child,b9abmb4,Maintenance payment: more or less than Â£3,-1.0,Not applicable
+621817,BCS70,bcs9_absent_older_child,b9abmb4,Maintenance payment: more or less than Â£3,1.0,Less than Â£3500
+621818,BCS70,bcs9_absent_older_child,b9abmb4,Maintenance payment: more or less than Â£3,2.0,About Â£3500
+621819,BCS70,bcs9_absent_older_child,b9abmb4,Maintenance payment: more or less than Â£3,3.0,More than Â£3500
+621820,BCS70,bcs9_absent_older_child,b9abmc4,Maintenance payment: more or less than Â£5,-9.0,Refused
+621821,BCS70,bcs9_absent_older_child,b9abmc4,Maintenance payment: more or less than Â£5,-8.0,Don't know
+621822,BCS70,bcs9_absent_older_child,b9abmc4,Maintenance payment: more or less than Â£5,-3.0,
+621823,BCS70,bcs9_absent_older_child,b9abmc4,Maintenance payment: more or less than Â£5,-1.0,Not applicable
+621824,BCS70,bcs9_absent_older_child,b9abmc4,Maintenance payment: more or less than Â£5,1.0,Less than Â£5000
+621825,BCS70,bcs9_absent_older_child,b9abmc4,Maintenance payment: more or less than Â£5,2.0,About Â£5000
+621826,BCS70,bcs9_absent_older_child,b9abmc4,Maintenance payment: more or less than Â£5,3.0,More than Â£5000
+621827,BCS70,bcs9_absent_older_child,b9abmd4,Maintenance payment: more or less than Â£7,-9.0,Refused
+621828,BCS70,bcs9_absent_older_child,b9abmd4,Maintenance payment: more or less than Â£7,-8.0,Don't know
+621829,BCS70,bcs9_absent_older_child,b9abmd4,Maintenance payment: more or less than Â£7,-3.0,
+621830,BCS70,bcs9_absent_older_child,b9abmd4,Maintenance payment: more or less than Â£7,-1.0,Not applicable
+621831,BCS70,bcs9_absent_older_child,b9abmd4,Maintenance payment: more or less than Â£7,1.0,Less than Â£7000
+621832,BCS70,bcs9_absent_older_child,b9abmd4,Maintenance payment: more or less than Â£7,2.0,About Â£7000
+621833,BCS70,bcs9_absent_older_child,b9abmd4,Maintenance payment: more or less than Â£7,3.0,More than Â£7000
+621834,BCS70,bcs9_absent_older_child,b9abmmn4,Yearly maintenance payment - lower bound,-3.0,
+621835,BCS70,bcs9_absent_older_child,b9abmmn4,Yearly maintenance payment - lower bound,-1.0,Not applicable
+621836,BCS70,bcs9_absent_older_child,b9abmmx4,Yearly maintenance payment - upper bound,-3.0,
+621837,BCS70,bcs9_absent_older_child,b9abmmx4,Yearly maintenance payment - upper bound,-1.0,Not applicable
+621838,BCS70,bcs9_absent_older_child,b9abman4,Whether answered ABM4 unfolding brackets questions,-3.0,
+621839,BCS70,bcs9_absent_older_child,b9abman4,Whether answered ABM4 unfolding brackets questions,-1.0,Not applicable
+621840,BCS70,bcs9_absent_older_child,b9abman4,Whether answered ABM4 unfolding brackets questions,1.0,Completed brackets response
+621841,BCS70,bcs9_absent_older_child,b9abman4,Whether answered ABM4 unfolding brackets questions,2.0,DK to first bracket question
+621842,BCS70,bcs9_absent_older_child,b9abman4,Whether answered ABM4 unfolding brackets questions,3.0,REF to first bracket question
+621843,BCS70,bcs9_absent_older_child,b9abman4,Whether answered ABM4 unfolding brackets questions,4.0,DK to later bracket question
+621844,BCS70,bcs9_absent_older_child,b9abman4,Whether answered ABM4 unfolding brackets questions,5.0,REF to later bracket question
+621845,BCS70,bcs9_absent_older_child,b9abmet5,Entry point into ABM5 brackets,-3.0,
+621846,BCS70,bcs9_absent_older_child,b9abmet5,Entry point into ABM5 brackets,-1.0,Not applicable
+621847,BCS70,bcs9_absent_older_child,b9abma5,Maintenance payment: more or less than Â£200 a month,-9.0,Refused
+621848,BCS70,bcs9_absent_older_child,b9abma5,Maintenance payment: more or less than Â£200 a month,-8.0,Don't know
+621849,BCS70,bcs9_absent_older_child,b9abma5,Maintenance payment: more or less than Â£200 a month,-3.0,
+621850,BCS70,bcs9_absent_older_child,b9abma5,Maintenance payment: more or less than Â£200 a month,-1.0,Not applicable
+621851,BCS70,bcs9_absent_older_child,b9abma5,Maintenance payment: more or less than Â£200 a month,1.0,Less than Â£200
+621852,BCS70,bcs9_absent_older_child,b9abma5,Maintenance payment: more or less than Â£200 a month,2.0,About Â£200
+621853,BCS70,bcs9_absent_older_child,b9abma5,Maintenance payment: more or less than Â£200 a month,3.0,More than Â£200
+621854,BCS70,bcs9_absent_older_child,b9abmb5,Maintenance payment: more or less than Â£300 a month,-9.0,Refused
+621855,BCS70,bcs9_absent_older_child,b9abmb5,Maintenance payment: more or less than Â£300 a month,-8.0,Don't know
+621856,BCS70,bcs9_absent_older_child,b9abmb5,Maintenance payment: more or less than Â£300 a month,-3.0,
+621857,BCS70,bcs9_absent_older_child,b9abmb5,Maintenance payment: more or less than Â£300 a month,-1.0,Not applicable
+621858,BCS70,bcs9_absent_older_child,b9abmb5,Maintenance payment: more or less than Â£300 a month,1.0,Less than Â£300
+621859,BCS70,bcs9_absent_older_child,b9abmb5,Maintenance payment: more or less than Â£300 a month,2.0,About Â£300
+621860,BCS70,bcs9_absent_older_child,b9abmb5,Maintenance payment: more or less than Â£300 a month,3.0,More than Â£300
+621861,BCS70,bcs9_absent_older_child,b9abmc5,Maintenance payment: more or less than Â£400 a month,-9.0,Refused
+621862,BCS70,bcs9_absent_older_child,b9abmc5,Maintenance payment: more or less than Â£400 a month,-8.0,Don't know
+621863,BCS70,bcs9_absent_older_child,b9abmc5,Maintenance payment: more or less than Â£400 a month,-3.0,
+621864,BCS70,bcs9_absent_older_child,b9abmc5,Maintenance payment: more or less than Â£400 a month,-1.0,Not applicable
+621865,BCS70,bcs9_absent_older_child,b9abmc5,Maintenance payment: more or less than Â£400 a month,1.0,Less than Â£400
+621866,BCS70,bcs9_absent_older_child,b9abmc5,Maintenance payment: more or less than Â£400 a month,2.0,About Â£400
+621867,BCS70,bcs9_absent_older_child,b9abmc5,Maintenance payment: more or less than Â£400 a month,3.0,More than Â£400
+621868,BCS70,bcs9_absent_older_child,b9abmd5,Maintenance payment: more or less than Â£600 a month,-9.0,Refused
+621869,BCS70,bcs9_absent_older_child,b9abmd5,Maintenance payment: more or less than Â£600 a month,-8.0,Don't know
+621870,BCS70,bcs9_absent_older_child,b9abmd5,Maintenance payment: more or less than Â£600 a month,-3.0,
+621871,BCS70,bcs9_absent_older_child,b9abmd5,Maintenance payment: more or less than Â£600 a month,-1.0,Not applicable
+621872,BCS70,bcs9_absent_older_child,b9abmd5,Maintenance payment: more or less than Â£600 a month,1.0,Less than Â£600
+621873,BCS70,bcs9_absent_older_child,b9abmd5,Maintenance payment: more or less than Â£600 a month,2.0,About Â£600
+621874,BCS70,bcs9_absent_older_child,b9abmd5,Maintenance payment: more or less than Â£600 a month,3.0,More than Â£600
+621875,BCS70,bcs9_absent_older_child,b9abmmn5,Monthly maintenance payment - lower bound,-3.0,
+621876,BCS70,bcs9_absent_older_child,b9abmmn5,Monthly maintenance payment - lower bound,-1.0,Not applicable
+621877,BCS70,bcs9_absent_older_child,b9abmmx5,Monthly maintenance payment - upper bound,-3.0,
+621878,BCS70,bcs9_absent_older_child,b9abmmx5,Monthly maintenance payment - upper bound,-1.0,Not applicable
+621879,BCS70,bcs9_absent_older_child,b9abman5,Whether answered ABM5 unfolding brackets questions,-3.0,
+621880,BCS70,bcs9_absent_older_child,b9abman5,Whether answered ABM5 unfolding brackets questions,-1.0,Not applicable
+621881,BCS70,bcs9_absent_older_child,b9abman5,Whether answered ABM5 unfolding brackets questions,1.0,Completed brackets response
+621882,BCS70,bcs9_absent_older_child,b9abman5,Whether answered ABM5 unfolding brackets questions,2.0,DK to first bracket question
+621883,BCS70,bcs9_absent_older_child,b9abman5,Whether answered ABM5 unfolding brackets questions,3.0,REF to first bracket question
+621884,BCS70,bcs9_absent_older_child,b9abman5,Whether answered ABM5 unfolding brackets questions,4.0,DK to later bracket question
+621885,BCS70,bcs9_absent_older_child,b9abman5,Whether answered ABM5 unfolding brackets questions,5.0,REF to later bracket question
+621886,BCS70,bcs9_absent_older_child,v3,None,,
+621887,BCS70,bcs9_absent_older_child,avail_from_dt,,,

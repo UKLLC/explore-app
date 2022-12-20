@@ -1,0 +1,80 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+874519,MCS,mcs7_cm_derived,study_id_e,,,
+874520,MCS,mcs7_cm_derived,pnum,Cohort Member number within an MCS family,-1.0,Not applicable
+874521,MCS,mcs7_cm_derived,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+874522,MCS,mcs7_cm_derived,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+874523,MCS,mcs7_cm_derived,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+874524,MCS,mcs7_cm_derived,gcmcs7ag,Age at interview to nearest 10th of year,-1.0,Not applicable
+874525,MCS,mcs7_cm_derived,gcovwgt7,Overweight Cut-Off point for child's age and sex (IOTF thresholds),-1.0,Not applicable
+874526,MCS,mcs7_cm_derived,gcobese7,Obesity Cut-Off point for child's age and sex (IOTF thresholds),-1.0,Not applicable
+874527,MCS,mcs7_cm_derived,gcundwu7,Underweight cut-Off point for child's age and sex (UK90 2nd centile),-1.0,Not applicable
+874528,MCS,mcs7_cm_derived,gcovwtu7,Overweight cut-Off point for child's age and sex (UK90 85th centile),-1.0,Not applicable
+874529,MCS,mcs7_cm_derived,gcobesu7,Obesity cut-Off point for child's age and sex (UK90 95th centile),-1.0,Not applicable
+874530,MCS,mcs7_cm_derived,gcbmin7,MCS7 Body Mass Index calculated (CLS),-1.0,Not applicable
+874531,MCS,mcs7_cm_derived,gcobflg7,MCS7 Obesity flag - IOTF thresholds,-1.0,Not applicable
+874532,MCS,mcs7_cm_derived,gcobflg7,MCS7 Obesity flag - IOTF thresholds,0.0,Not overweight (including underweight)
+874533,MCS,mcs7_cm_derived,gcobflg7,MCS7 Obesity flag - IOTF thresholds,1.0,Overweight
+874534,MCS,mcs7_cm_derived,gcobflg7,MCS7 Obesity flag - IOTF thresholds,2.0,Obese
+874535,MCS,mcs7_cm_derived,gcuk90o7,MCS7 Obesity flag - UK90 thresholds,-1.0,Not applicable
+874536,MCS,mcs7_cm_derived,gcuk90o7,MCS7 Obesity flag - UK90 thresholds,1.0,Underweight
+874537,MCS,mcs7_cm_derived,gcuk90o7,MCS7 Obesity flag - UK90 thresholds,2.0,Healthy weight
+874538,MCS,mcs7_cm_derived,gcuk90o7,MCS7 Obesity flag - UK90 thresholds,3.0,Overweight
+874539,MCS,mcs7_cm_derived,gcuk90o7,MCS7 Obesity flag - UK90 thresholds,4.0,Obese
+874540,MCS,mcs7_cm_derived,gemotion_c,S7 DV Self-reported CM s response SDQ Emotional Symptoms,-9.0,Refusal
+874541,MCS,mcs7_cm_derived,gemotion_c,S7 DV Self-reported CM s response SDQ Emotional Symptoms,-8.0,Don't know
+874542,MCS,mcs7_cm_derived,gemotion_c,S7 DV Self-reported CM s response SDQ Emotional Symptoms,-1.0,Not applicable
+874543,MCS,mcs7_cm_derived,gconduct_c,S7 DV Self-reported CM s response SDQ Conduct Problems,-9.0,Refusal
+874544,MCS,mcs7_cm_derived,gconduct_c,S7 DV Self-reported CM s response SDQ Conduct Problems,-8.0,Don't know
+874545,MCS,mcs7_cm_derived,gconduct_c,S7 DV Self-reported CM s response SDQ Conduct Problems,-1.0,Not applicable
+874546,MCS,mcs7_cm_derived,ghyper_c,S7 DV Self-reported CM s response SDQ Hyperactivity/Inattention,-9.0,Refusal
+874547,MCS,mcs7_cm_derived,ghyper_c,S7 DV Self-reported CM s response SDQ Hyperactivity/Inattention,-8.0,Don't know
+874548,MCS,mcs7_cm_derived,ghyper_c,S7 DV Self-reported CM s response SDQ Hyperactivity/Inattention,-1.0,Not applicable
+874549,MCS,mcs7_cm_derived,gpeer_c,S7 DV Self-reported CM s response SDQ Peer Problems,-9.0,Refusal
+874550,MCS,mcs7_cm_derived,gpeer_c,S7 DV Self-reported CM s response SDQ Peer Problems,-8.0,Don't know
+874551,MCS,mcs7_cm_derived,gpeer_c,S7 DV Self-reported CM s response SDQ Peer Problems,-1.0,Not applicable
+874552,MCS,mcs7_cm_derived,gprosoc_c,S7 DV Self-reported CM s response SDQ Prosocial,-9.0,Refusal
+874553,MCS,mcs7_cm_derived,gprosoc_c,S7 DV Self-reported CM s response SDQ Prosocial,-8.0,Don't know
+874554,MCS,mcs7_cm_derived,gprosoc_c,S7 DV Self-reported CM s response SDQ Prosocial,-1.0,Not applicable
+874555,MCS,mcs7_cm_derived,gebdtot_c,S7 DV Self-reported CM s response SDQ Total Difficulties,-9.0,Refusal
+874556,MCS,mcs7_cm_derived,gebdtot_c,S7 DV Self-reported CM s response SDQ Total Difficulties,-8.0,Don't know
+874557,MCS,mcs7_cm_derived,gebdtot_c,S7 DV Self-reported CM s response SDQ Total Difficulties,-1.0,Not applicable
+874558,MCS,mcs7_cm_derived,gemotion,S7 DV Parent-reported CM SDQ Emotional Symptoms,-9.0,Refusal
+874559,MCS,mcs7_cm_derived,gemotion,S7 DV Parent-reported CM SDQ Emotional Symptoms,-8.0,Don't know
+874560,MCS,mcs7_cm_derived,gemotion,S7 DV Parent-reported CM SDQ Emotional Symptoms,-1.0,Not applicable
+874561,MCS,mcs7_cm_derived,gconduct,S7 DV Parent-reported CM SDQ Conduct Problems,-9.0,Refusal
+874562,MCS,mcs7_cm_derived,gconduct,S7 DV Parent-reported CM SDQ Conduct Problems,-8.0,Don't know
+874563,MCS,mcs7_cm_derived,gconduct,S7 DV Parent-reported CM SDQ Conduct Problems,-1.0,Not applicable
+874564,MCS,mcs7_cm_derived,ghyper,S7 DV Parent-reported CM SDQ Hyperactivity/Inattention,-9.0,Refusal
+874565,MCS,mcs7_cm_derived,ghyper,S7 DV Parent-reported CM SDQ Hyperactivity/Inattention,-8.0,Don't know
+874566,MCS,mcs7_cm_derived,ghyper,S7 DV Parent-reported CM SDQ Hyperactivity/Inattention,-1.0,Not applicable
+874567,MCS,mcs7_cm_derived,gpeer,S7 DV Parent-reported CM SDQ Peer Problems,-9.0,Refusal
+874568,MCS,mcs7_cm_derived,gpeer,S7 DV Parent-reported CM SDQ Peer Problems,-8.0,Don't know
+874569,MCS,mcs7_cm_derived,gpeer,S7 DV Parent-reported CM SDQ Peer Problems,-1.0,Not applicable
+874570,MCS,mcs7_cm_derived,gprosoc,S7 DV Parent-reported CM SDQ Prosocial,-9.0,Refusal
+874571,MCS,mcs7_cm_derived,gprosoc,S7 DV Parent-reported CM SDQ Prosocial,-8.0,Don't know
+874572,MCS,mcs7_cm_derived,gprosoc,S7 DV Parent-reported CM SDQ Prosocial,-1.0,Not applicable
+874573,MCS,mcs7_cm_derived,gebdtot,S7 DV Parent-reported CM SDQ Total Difficulties,-9.0,Refusal
+874574,MCS,mcs7_cm_derived,gebdtot,S7 DV Parent-reported CM SDQ Total Difficulties,-8.0,Don't know
+874575,MCS,mcs7_cm_derived,gebdtot,S7 DV Parent-reported CM SDQ Total Difficulties,-1.0,Not applicable
+874576,MCS,mcs7_cm_derived,gdckessl,S7 DV Kessler K6 Scale,-9.0,Refusal
+874577,MCS,mcs7_cm_derived,gdckessl,S7 DV Kessler K6 Scale,-8.0,Don't Know
+874578,MCS,mcs7_cm_derived,gdckessl,S7 DV Kessler K6 Scale,-1.0,Not applicable
+874579,MCS,mcs7_cm_derived,gdcopen,S7 DV OCEAN - Openness Sub Scale,-9.0,Refusal
+874580,MCS,mcs7_cm_derived,gdcopen,S7 DV OCEAN - Openness Sub Scale,-8.0,Don't Know
+874581,MCS,mcs7_cm_derived,gdcopen,S7 DV OCEAN - Openness Sub Scale,-1.0,Not applicable
+874582,MCS,mcs7_cm_derived,gdcconsc,S7 DV OCEAN - Conscientiousness Sub Scale,-9.0,Refusal
+874583,MCS,mcs7_cm_derived,gdcconsc,S7 DV OCEAN - Conscientiousness Sub Scale,-8.0,Don't Know
+874584,MCS,mcs7_cm_derived,gdcconsc,S7 DV OCEAN - Conscientiousness Sub Scale,-1.0,Not applicable
+874585,MCS,mcs7_cm_derived,gdcextrav,S7 DV OCEAN - Extraversion Sub Scale,-9.0,Refusal
+874586,MCS,mcs7_cm_derived,gdcextrav,S7 DV OCEAN - Extraversion Sub Scale,-8.0,Don't Know
+874587,MCS,mcs7_cm_derived,gdcextrav,S7 DV OCEAN - Extraversion Sub Scale,-1.0,Not applicable
+874588,MCS,mcs7_cm_derived,gdcagree,S7 DV OCEAN - Agreeableness Sub Scale,-9.0,Refusal
+874589,MCS,mcs7_cm_derived,gdcagree,S7 DV OCEAN - Agreeableness Sub Scale,-8.0,Don't Know
+874590,MCS,mcs7_cm_derived,gdcagree,S7 DV OCEAN - Agreeableness Sub Scale,-1.0,Not applicable
+874591,MCS,mcs7_cm_derived,gdcneurot,S7 DV OCEAN - Neuroticism Sub Scale,-9.0,Refusal
+874592,MCS,mcs7_cm_derived,gdcneurot,S7 DV OCEAN - Neuroticism Sub Scale,-8.0,Don't Know
+874593,MCS,mcs7_cm_derived,gdcneurot,S7 DV OCEAN - Neuroticism Sub Scale,-1.0,Not applicable
+874594,MCS,mcs7_cm_derived,gdwemwbs,Sum of raw mental welbeing scores transformed to metric scale,-1.0,Not applicable
+874595,MCS,mcs7_cm_derived,gdrestr,Sum of restraint scores,-1.0,Not applicable
+874596,MCS,mcs7_cm_derived,avail_from_dt,,,
+874597,MCS,mcs7_cm_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

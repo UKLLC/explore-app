@@ -1,0 +1,60 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1160420,NEXTSTEP,ns8_household_members,study_id_e,,,
+1160421,NEXTSTEP,ns8_household_members,w8hhmid,sortkey: other hh member identifier,,
+1160422,NEXTSTEP,ns8_household_members,w8dchsex,Sex of others who live here all or some of the time,-9.0,Refused
+1160423,NEXTSTEP,ns8_household_members,w8dchsex,Sex of others who live here all or some of the time,-8.0,Don't know
+1160424,NEXTSTEP,ns8_household_members,w8dchsex,Sex of others who live here all or some of the time,-1.0,Not applicable
+1160425,NEXTSTEP,ns8_household_members,w8dchsex,Sex of others who live here all or some of the time,1.0,Male
+1160426,NEXTSTEP,ns8_household_members,w8dchsex,Sex of others who live here all or some of the time,2.0,Female
+1160427,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,-9.0,Refused
+1160428,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,-8.0,Don't know
+1160429,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,-1.0,Not applicable
+1160430,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,1.0,January
+1160431,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,2.0,February
+1160432,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,3.0,March
+1160433,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,4.0,April
+1160434,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,5.0,May
+1160435,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,6.0,June
+1160436,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,7.0,July
+1160437,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,8.0,August
+1160438,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,9.0,September
+1160439,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,10.0,October
+1160440,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,11.0,November
+1160441,NEXTSTEP,ns8_household_members,w8hhmdobm,Other HH member month of birth,12.0,December
+1160442,NEXTSTEP,ns8_household_members,w8hhmdoby,Other HH member year of birth,-9.0,Refused
+1160443,NEXTSTEP,ns8_household_members,w8hhmdoby,Other HH member year of birth,-8.0,Don't know
+1160444,NEXTSTEP,ns8_household_members,w8hhmdoby,Other HH member year of birth,-1.0,Not applicable
+1160445,NEXTSTEP,ns8_household_members,w8dhhmage,DV: HH member age,-9.0,Refused
+1160446,NEXTSTEP,ns8_household_members,w8dhhmage,DV: HH member age,-8.0,Insufficient information
+1160447,NEXTSTEP,ns8_household_members,w8dhhmage,DV: HH member age,-1.0,Not applicable
+1160448,NEXTSTEP,ns8_household_members,w8rage,Other HHmemberâ€™s age last birthday,-9.0,Refused
+1160449,NEXTSTEP,ns8_household_members,w8rage,Other HHmemberâ€™s age last birthday,-8.0,Don't know
+1160450,NEXTSTEP,ns8_household_members,w8rage,Other HHmemberâ€™s age last birthday,-1.0,Not applicable
+1160451,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,-9.0,Refused
+1160452,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,-8.0,Don't know
+1160453,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,-1.0,Not applicable
+1160454,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,1.0,Natural parent
+1160455,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,2.0,Adoptive parent
+1160456,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,3.0,Foster parent
+1160457,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,4.0,Step-parent
+1160458,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,5.0,Parent-in-law
+1160459,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,6.0,Child of current/previous partner
+1160460,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,7.0,Fostered child
+1160461,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,8.0,Full brother/sister
+1160462,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,9.0,Half brother/sister
+1160463,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,10.0,Adopted brother/sister
+1160464,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,11.0,Step brother/sister
+1160465,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,12.0,Foster brother/sister
+1160466,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,13.0,Brother/sister-in-law
+1160467,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,14.0,Grandparent
+1160468,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,15.0,Other blood relative
+1160469,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,16.0,Other in-law
+1160470,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,17.0,Friend/Unrelated sharer
+1160471,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,18.0,Landlord
+1160472,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,19.0,Lodger
+1160473,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,20.0,Employer
+1160474,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,21.0,"Nanny, Au pair etc"
+1160475,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,22.0,Child of non-relative adult in hhld
+1160476,NEXTSTEP,ns8_household_members,w8reltokey,Other HH memberâ€™s relationship to respondent,23.0,Other
+1160477,NEXTSTEP,ns8_household_members,v3,None,,
+1160478,NEXTSTEP,ns8_household_members,avail_from_dt,,,

@@ -1,0 +1,41 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+695971,EPICN,HLQ,study_id_e,,,
+695972,EPICN,HLQ,doc_hlq,Date of completing questionnaire (HLQ 1HC),,
+695973,EPICN,HLQ,age_hlq,Age of the participant at baseline HLQ,,
+695974,EPICN,HLQ,sex,Sex of the participant,1.0,men
+695975,EPICN,HLQ,sex,Sex of the participant,2.0,women
+695976,EPICN,HLQ,ethnic,Ethnic origin,1.0,White
+695977,EPICN,HLQ,ethnic,Ethnic origin,2.0,Other
+695978,EPICN,HLQ,edlevel09_hlq,Education level (HLQ 1HC),0.0,No
+695979,EPICN,HLQ,edlevel09_hlq,Education level (HLQ 1HC),1.0,Olevel
+695980,EPICN,HLQ,edlevel09_hlq,Education level (HLQ 1HC),2.0,Alevel
+695981,EPICN,HLQ,edlevel09_hlq,Education level (HLQ 1HC),3.0,Degree
+695982,EPICN,HLQ,sc_self_hlq,"Social class, from own occuption, derived from Casoc and Casman",0.0,uncoded
+695983,EPICN,HLQ,sc_self_hlq,"Social class, from own occuption, derived from Casoc and Casman",10.0,professionals
+695984,EPICN,HLQ,sc_self_hlq,"Social class, from own occuption, derived from Casoc and Casman",20.0,managerial and technical
+695985,EPICN,HLQ,sc_self_hlq,"Social class, from own occuption, derived from Casoc and Casman",31.0,skilled non-manual
+695986,EPICN,HLQ,sc_self_hlq,"Social class, from own occuption, derived from Casoc and Casman",32.0,skilled manual
+695987,EPICN,HLQ,sc_self_hlq,"Social class, from own occuption, derived from Casoc and Casman",40.0,partly skilled
+695988,EPICN,HLQ,sc_self_hlq,"Social class, from own occuption, derived from Casoc and Casman",50.0,unskilled
+695989,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",1.0,Managers and Administrators
+695990,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",2.0,Professional Occupations
+695991,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",3.0,Associate Professional and Technical Occupations
+695992,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",4.0,Clerical and Secretarial Occupations
+695993,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",5.0,Craft and Related Occupations
+695994,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",6.0,Personal and Protective Service Occupations
+695995,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",7.0,Sales Occupations
+695996,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",8.0,Plant and Machine Operatives
+695997,EPICN,HLQ,soc_self_hlq,"Standard occupational classification (SOC1990), from own occuption, derived from Casoc",9.0,Other Occupations
+695998,EPICN,HLQ,job_now_hlq,Paid job at present,1.0,Yes
+695999,EPICN,HLQ,job_now_hlq,Paid job at present,2.0,No
+696000,EPICN,HLQ,not_emp_hlq,"If not employed, how does participant describe themselves.",1.0,Housewife (Home duties)
+696001,EPICN,HLQ,not_emp_hlq,"If not employed, how does participant describe themselves.",2.0,Retired
+696002,EPICN,HLQ,not_emp_hlq,"If not employed, how does participant describe themselves.",3.0,Unemployed
+696003,EPICN,HLQ,not_emp_hlq,"If not employed, how does participant describe themselves.",4.0,Student
+696004,EPICN,HLQ,not_emp_hlq,"If not employed, how does participant describe themselves.",5.0,Other
+696005,EPICN,HLQ,marital_status_hlq,Marital status,1.0,Single
+696006,EPICN,HLQ,marital_status_hlq,Marital status,2.0,Married (or living with a partner)
+696007,EPICN,HLQ,marital_status_hlq,Marital status,3.0,Widowed
+696008,EPICN,HLQ,marital_status_hlq,Marital status,4.0,Separated
+696009,EPICN,HLQ,marital_status_hlq,Marital status,5.0,Divorced
+696010,EPICN,HLQ,avail_from_dt,,,

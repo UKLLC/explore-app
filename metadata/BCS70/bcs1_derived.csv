@@ -1,0 +1,43 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+33425,BCS70,bcs1_derived,study_id_e,,,
+33426,BCS70,bcs1_derived,bd1cntry,1970: Country of Interview,-1.0,Not known
+33427,BCS70,bcs1_derived,bd1cntry,1970: Country of Interview,1.0,England
+33428,BCS70,bcs1_derived,bd1cntry,1970: Country of Interview,2.0,Wales
+33429,BCS70,bcs1_derived,bd1cntry,1970: Country of Interview,3.0,Scotland
+33430,BCS70,bcs1_derived,bd1cntry,1970: Country of Interview,4.0,Northern Ireland
+33431,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,-2.0,Armed Services
+33432,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,-1.0,Unknown
+33433,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,1.0,North
+33434,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,2.0,Yorks and Humberside
+33435,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,3.0,East Midlands
+33436,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,4.0,East Anglia
+33437,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,5.0,South East
+33438,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,6.0,South West
+33439,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,7.0,West Midlands
+33440,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,8.0,North West
+33441,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,9.0,Wales
+33442,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,10.0,Scotland
+33443,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,11.0,Northern Ireland
+33444,BCS70,bcs1_derived,bd1regn,1970: Standard Region of residence,12.0,Overseas
+33445,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),-1.0,nk/ns
+33446,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),1.0,single parent - not working
+33447,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),2.0,Other category
+33448,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),3.0,V unskilled
+33449,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),4.0,IV partly-skilled
+33450,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),5.0,III manual
+33451,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),6.0,III non manual
+33452,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),7.0,II managerial and Technical
+33453,BCS70,bcs1_derived,bd1psoc,1970: Social class at birth: fathers occup or mothers  (vars a0014 + a0018),8.0,I professional
+33454,BCS70,bcs1_derived,bd1agefb,1970: Age of mother at first birth,-8.0,No information available
+33455,BCS70,bcs1_derived,bd1teenm,1970: Ever a teenage mother (BD1AGEFB grouped),-8.0,No information available
+33456,BCS70,bcs1_derived,bd1teenm,1970: Ever a teenage mother (BD1AGEFB grouped),1.0,10 to 19
+33457,BCS70,bcs1_derived,bd1teenm,1970: Ever a teenage mother (BD1AGEFB grouped),2.0,20 plus
+33458,BCS70,bcs1_derived,bd1mage,1970: Age of mother at CM's birth (from s1 var a0005a/s2 var e008),-8.0,No information available
+33459,BCS70,bcs1_derived,bd1fage,1970: Age of father at CM's birth (from s2 var e009),-8.0,No information available
+33460,BCS70,bcs1_derived,bd1fage,1970: Age of father at CM's birth (from s2 var e009),-1.0,N/A No father figure
+33461,BCS70,bcs1_derived,bd1magm,1970: Age of mother at present marriage,-8.0,No information available
+33462,BCS70,bcs1_derived,bd1magm,1970: Age of mother at present marriage,-1.0,N/A Not married
+33463,BCS70,bcs1_derived,bd1fagm,1970: Age of father at present marriage,-8.0,No information available
+33464,BCS70,bcs1_derived,bd1fagm,1970: Age of father at present marriage,-1.0,N/A No father figure or not married
+33465,BCS70,bcs1_derived,v3,None,,
+33466,BCS70,bcs1_derived,avail_from_dt,,,

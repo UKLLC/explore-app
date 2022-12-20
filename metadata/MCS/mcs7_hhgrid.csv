@@ -1,0 +1,908 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+880295,MCS,mcs7_hhgrid,study_id_e,,,
+880296,MCS,mcs7_hhgrid,pnum,Person number within an MCS family (excl Cohort Members,-1.0,Not applicable
+880297,MCS,mcs7_hhgrid,ghpsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],-1.0,Not applicable
+880298,MCS,mcs7_hhgrid,ghpsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],1.0,Male
+880299,MCS,mcs7_hhgrid,ghpsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],2.0,Female
+880300,MCS,mcs7_hhgrid,ghpsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],3.0,[spontaneous] other way
+880301,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,-9.0,Refused
+880302,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,-8.0,Do not know
+880303,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,-1.0,Not applicable
+880304,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,1.0,January
+880305,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,2.0,February
+880306,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,3.0,March
+880307,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,4.0,April
+880308,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,5.0,May
+880309,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,6.0,June
+880310,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,7.0,July
+880311,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,8.0,August
+880312,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,9.0,September
+880313,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,10.0,October
+880314,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,11.0,November
+880315,MCS,mcs7_hhgrid,ghpdbm00,Person s DOB: same as in FF [corrected or collected first time] MONTH,12.0,December
+880316,MCS,mcs7_hhgrid,ghpdby00,Person s DOB: same as in FF [corrected or collected first time] YEAR,-9.0,Refused
+880317,MCS,mcs7_hhgrid,ghpdby00,Person s DOB: same as in FF [corrected or collected first time] YEAR,-8.0,Do not know
+880318,MCS,mcs7_hhgrid,ghpdby00,Person s DOB: same as in FF [corrected or collected first time] YEAR,-1.0,Not applicable
+880319,MCS,mcs7_hhgrid,ghpage00,Person s age last birthday (calculated if DoB present),-9.0,Refused
+880320,MCS,mcs7_hhgrid,ghpage00,Person s age last birthday (calculated if DoB present),-8.0,Do not know
+880321,MCS,mcs7_hhgrid,ghpage00,Person s age last birthday (calculated if DoB present),-1.0,Not applicable
+880322,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,-9.0,Refused
+880323,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,-8.0,Do not know
+880324,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,-1.0,Not applicable
+880325,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,1.0,2000
+880326,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,2.0,2001
+880327,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,3.0,2002
+880328,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,4.0,2003
+880329,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,5.0,2004
+880330,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,6.0,2005
+880331,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,7.0,2006
+880332,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,8.0,2007
+880333,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,9.0,2008
+880334,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,10.0,2009
+880335,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,11.0,2010
+880336,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,12.0,2011
+880337,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,13.0,2012
+880338,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,14.0,2013
+880339,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,15.0,2014
+880340,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,16.0,2015
+880341,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,17.0,2016
+880342,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,18.0,2017
+880343,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,19.0,2018
+880344,MCS,mcs7_hhgrid,ghpdcy00,Date CM/person passed away : YEAR,20.0,2019
+880345,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,-9.0,Refused
+880346,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,-8.0,Do not know
+880347,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,-1.0,Not applicable
+880348,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,1.0,January
+880349,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,2.0,February
+880350,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,3.0,March
+880351,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,4.0,April
+880352,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,5.0,May
+880353,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,6.0,June
+880354,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,7.0,July
+880355,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,8.0,August
+880356,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,9.0,September
+880357,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,10.0,October
+880358,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,11.0,November
+880359,MCS,mcs7_hhgrid,ghpdcm00,Date CM/person passed away : MONTH,12.0,December
+880360,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,-9.0,Refused
+880361,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,-8.0,Do not know
+880362,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,-1.0,Not applicable
+880363,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,1.0,2000
+880364,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,2.0,2001
+880365,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,3.0,2002
+880366,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,4.0,2003
+880367,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,5.0,2004
+880368,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,6.0,2005
+880369,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,7.0,2006
+880370,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,8.0,2007
+880371,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,9.0,2008
+880372,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,10.0,2009
+880373,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,11.0,2010
+880374,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,12.0,2011
+880375,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,13.0,2012
+880376,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,14.0,2013
+880377,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,15.0,2014
+880378,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,16.0,2015
+880379,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,17.0,2016
+880380,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,18.0,2017
+880381,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,19.0,2018
+880382,MCS,mcs7_hhgrid,ghpspy00,End of period of person living in Household with CM : YEAR,20.0,2019
+880383,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,-9.0,Refused
+880384,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,-8.0,Do not know
+880385,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,-1.0,Not applicable
+880386,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,1.0,January
+880387,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,2.0,February
+880388,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,3.0,March
+880389,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,4.0,April
+880390,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,5.0,May
+880391,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,6.0,June
+880392,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,7.0,July
+880393,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,8.0,August
+880394,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,9.0,September
+880395,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,10.0,October
+880396,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,11.0,November
+880397,MCS,mcs7_hhgrid,ghpspm00,End of period of person living in Household with CM : MONTH,12.0,December
+880398,MCS,mcs7_hhgrid,ghpsty00,Start of period of person living with CM : YEAR,-9.0,Refused
+880399,MCS,mcs7_hhgrid,ghpsty00,Start of period of person living with CM : YEAR,-8.0,Do not know
+880400,MCS,mcs7_hhgrid,ghpsty00,Start of period of person living with CM : YEAR,-1.0,Not applicable
+880401,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,-9.0,Refused
+880402,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,-8.0,Do not know
+880403,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,-1.0,Not applicable
+880404,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,1.0,January
+880405,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,2.0,February
+880406,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,3.0,March
+880407,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,4.0,April
+880408,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,5.0,May
+880409,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,6.0,June
+880410,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,7.0,July
+880411,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,8.0,August
+880412,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,9.0,September
+880413,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,10.0,October
+880414,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,11.0,November
+880415,MCS,mcs7_hhgrid,ghpstm00,Start of period of person living with CM : MONTH,12.0,December
+880416,MCS,mcs7_hhgrid,ghpful00,Person resident of house or lives elsewhere,-9.0,Refused
+880417,MCS,mcs7_hhgrid,ghpful00,Person resident of house or lives elsewhere,-8.0,Do not know
+880418,MCS,mcs7_hhgrid,ghpful00,Person resident of house or lives elsewhere,-1.0,Not applicable
+880419,MCS,mcs7_hhgrid,ghpful00,Person resident of house or lives elsewhere,1.0,Yes - lives here all the time
+880420,MCS,mcs7_hhgrid,ghpful00,Person resident of house or lives elsewhere,2.0,No - also lives somewhere else
+880421,MCS,mcs7_hhgrid,ghpjob00,Is person (PNUM) currently in paid work?,-9.0,Refused
+880422,MCS,mcs7_hhgrid,ghpjob00,Is person (PNUM) currently in paid work?,-8.0,Do not know
+880423,MCS,mcs7_hhgrid,ghpjob00,Is person (PNUM) currently in paid work?,-1.0,Not applicable
+880424,MCS,mcs7_hhgrid,ghpjob00,Is person (PNUM) currently in paid work?,1.0,Yes
+880425,MCS,mcs7_hhgrid,ghpjob00,Is person (PNUM) currently in paid work?,2.0,No
+880426,MCS,mcs7_hhgrid,ghpres00,Person Present in household,-9.0,Refused
+880427,MCS,mcs7_hhgrid,ghpres00,Person Present in household,-8.0,Do not know
+880428,MCS,mcs7_hhgrid,ghpres00,Person Present in household,-1.0,Not applicable
+880429,MCS,mcs7_hhgrid,ghpres00,Person Present in household,1.0,Present
+880430,MCS,mcs7_hhgrid,ghpres00,Person Present in household,2.0,Left
+880431,MCS,mcs7_hhgrid,ghpres00,Person Present in household,3.0,Died
+880432,MCS,mcs7_hhgrid,ghpres00,Person Present in household,4.0,Never in HH
+880433,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),-9.0,Refused
+880434,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),-8.0,Do not know
+880435,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),-1.0,Not applicable
+880436,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),1.0,Husband/Wife
+880437,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),2.0,Partner/Cohabitee
+880438,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),3.0,Natural son/daughter
+880439,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),4.0,Adopted son/daughter
+880440,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),5.0,Foster son/daughter
+880441,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),6.0,Step-son/step daughter/child of (current/previous) partner
+880442,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),7.0,Natural parent
+880443,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),8.0,Adoptive parent
+880444,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),9.0,Foster parent
+880445,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880446,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),11.0,Natural brother/Natural sister
+880447,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),12.0,Half-brother/half-sister
+880448,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),13.0,Step-brother/step-sister
+880449,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),14.0,Adopted brother/adopted sister
+880450,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),15.0,Foster brother/foster sister
+880451,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),16.0,Grandchild
+880452,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),17.0,Grandparent
+880453,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),18.0,Nanny/au pair
+880454,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),19.0,Other relative
+880455,MCS,mcs7_hhgrid,ghcrel00,Relationship to CM (S7 for CM1),20.0,Other non-relative
+880456,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],-9.0,Refused
+880457,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],-8.0,Do not know
+880458,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],-1.0,Not applicable
+880459,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],1.0,Husband/Wife
+880460,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880461,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],3.0,Natural son/daughter
+880462,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880463,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],5.0,Foster son/daughter
+880464,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880465,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],7.0,Natural parent
+880466,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],8.0,Adoptive parent
+880467,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],9.0,Foster parent
+880468,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880469,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880470,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880471,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880472,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880473,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880474,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],16.0,Grandchild
+880475,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],17.0,Grandparent
+880476,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],18.0,Nanny/au pair
+880477,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],19.0,Other relative
+880478,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],20.0,Other non-relative
+880479,MCS,mcs7_hhgrid,ghprel0a,Person X=1 s relationship to person Y (PNUM) Person X=1 [corrected or collected first time at S7],96.0,Self
+880480,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],-9.0,Refused
+880481,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],-8.0,Do not know
+880482,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],-1.0,Not applicable
+880483,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],1.0,Husband/Wife
+880484,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880485,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],3.0,Natural son/daughter
+880486,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880487,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],5.0,Foster son/daughter
+880488,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880489,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],7.0,Natural parent
+880490,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],8.0,Adoptive parent
+880491,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],9.0,Foster parent
+880492,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880493,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880494,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880495,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880496,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880497,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880498,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],16.0,Grandchild
+880499,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],17.0,Grandparent
+880500,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],18.0,Nanny/au pair
+880501,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],19.0,Other relative
+880502,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],20.0,Other non-relative
+880503,MCS,mcs7_hhgrid,ghprel0b,Person X=2 s relationship to person Y (PNUM) Person X=2 [corrected or collected first time at S7],96.0,Self
+880504,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],-9.0,Refused
+880505,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],-8.0,Do not know
+880506,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],-1.0,Not applicable
+880507,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],1.0,Husband/Wife
+880508,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880509,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],3.0,Natural son/daughter
+880510,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880511,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],5.0,Foster son/daughter
+880512,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880513,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],7.0,Natural parent
+880514,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],8.0,Adoptive parent
+880515,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],9.0,Foster parent
+880516,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880517,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880518,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880519,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880520,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880521,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880522,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],16.0,Grandchild
+880523,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],17.0,Grandparent
+880524,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],18.0,Nanny/au pair
+880525,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],19.0,Other relative
+880526,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],20.0,Other non-relative
+880527,MCS,mcs7_hhgrid,ghprel0c,Person X=3 s relationship to person Y (PNUM) Person X=3 [corrected or collected first time at S7],96.0,Self
+880528,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],-9.0,Refused
+880529,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],-8.0,Do not know
+880530,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],-1.0,Not applicable
+880531,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],1.0,Husband/Wife
+880532,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880533,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],3.0,Natural son/daughter
+880534,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880535,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],5.0,Foster son/daughter
+880536,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880537,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],7.0,Natural parent
+880538,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],8.0,Adoptive parent
+880539,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],9.0,Foster parent
+880540,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880541,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880542,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880543,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880544,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880545,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880546,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],16.0,Grandchild
+880547,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],17.0,Grandparent
+880548,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],18.0,Nanny/au pair
+880549,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],19.0,Other relative
+880550,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],20.0,Other non-relative
+880551,MCS,mcs7_hhgrid,ghprel0d,Person X=4 s relationship to person Y (PNUM) Person X=4 [corrected or collected first time at S7],96.0,Self
+880552,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],-9.0,Refused
+880553,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],-8.0,Do not know
+880554,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],-1.0,Not applicable
+880555,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],1.0,Husband/Wife
+880556,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880557,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],3.0,Natural son/daughter
+880558,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880559,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],5.0,Foster son/daughter
+880560,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880561,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],7.0,Natural parent
+880562,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],8.0,Adoptive parent
+880563,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],9.0,Foster parent
+880564,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880565,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880566,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880567,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880568,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880569,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880570,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],16.0,Grandchild
+880571,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],17.0,Grandparent
+880572,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],18.0,Nanny/au pair
+880573,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],19.0,Other relative
+880574,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],20.0,Other non-relative
+880575,MCS,mcs7_hhgrid,ghprel0e,Person X=5 s relationship to person Y (PNUM) Person X=5 [corrected or collected first time at S7],96.0,Self
+880576,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],18.0,Nanny/au pair
+880577,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],19.0,Other relative
+880578,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],20.0,Other non-relative
+880579,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],96.0,Self
+880580,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],-9.0,Refused
+880581,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],-8.0,Do not know
+880582,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],-1.0,Not applicable
+880583,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],1.0,Husband/Wife
+880584,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880585,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],3.0,Natural son/daughter
+880586,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880587,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],5.0,Foster son/daughter
+880588,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880589,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],7.0,Natural parent
+880590,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],8.0,Adoptive parent
+880591,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],9.0,Foster parent
+880592,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880593,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880594,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880595,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880596,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880597,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880598,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],16.0,Grandchild
+880599,MCS,mcs7_hhgrid,ghprel0f,Person X=6 s relationship to person Y (PNUM) Person X=6 [corrected or collected first time at S7],17.0,Grandparent
+880600,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],-9.0,Refused
+880601,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],-8.0,Do not know
+880602,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],-1.0,Not applicable
+880603,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],1.0,Husband/Wife
+880604,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880605,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],3.0,Natural son/daughter
+880606,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880607,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],5.0,Foster son/daughter
+880608,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880609,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],7.0,Natural parent
+880610,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],8.0,Adoptive parent
+880611,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],9.0,Foster parent
+880612,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880613,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880614,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880615,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880616,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880617,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880618,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],16.0,Grandchild
+880619,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],17.0,Grandparent
+880620,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],18.0,Nanny/au pair
+880621,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],19.0,Other relative
+880622,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],20.0,Other non-relative
+880623,MCS,mcs7_hhgrid,ghprel0g,Person X=7 s relationship to person Y (PNUM) Person X=7 [corrected or collected first time at S7],96.0,Self
+880624,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],-9.0,Refused
+880625,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],-8.0,Do not know
+880626,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],-1.0,Not applicable
+880627,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],1.0,Husband/Wife
+880628,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880629,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],3.0,Natural son/daughter
+880630,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880631,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],5.0,Foster son/daughter
+880632,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880633,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],7.0,Natural parent
+880634,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],8.0,Adoptive parent
+880635,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],9.0,Foster parent
+880636,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880637,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880638,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880639,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880640,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880641,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880642,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],16.0,Grandchild
+880643,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],17.0,Grandparent
+880644,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],18.0,Nanny/au pair
+880645,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],19.0,Other relative
+880646,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],20.0,Other non-relative
+880647,MCS,mcs7_hhgrid,ghprel0h,Person X=8 s relationship to person Y (PNUM) Person X=8 [corrected or collected first time at S7],96.0,Self
+880648,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],-9.0,Refused
+880649,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],-8.0,Do not know
+880650,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],-1.0,Not applicable
+880651,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],1.0,Husband/Wife
+880652,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880653,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],3.0,Natural son/daughter
+880654,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880655,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],5.0,Foster son/daughter
+880656,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880657,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],7.0,Natural parent
+880658,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],8.0,Adoptive parent
+880659,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],9.0,Foster parent
+880660,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880661,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880662,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880663,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880664,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880665,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880666,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],16.0,Grandchild
+880667,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],17.0,Grandparent
+880668,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],18.0,Nanny/au pair
+880669,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],19.0,Other relative
+880670,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],20.0,Other non-relative
+880671,MCS,mcs7_hhgrid,ghprel0i,Person X=9 s relationship to person Y (PNUM) Person X=9 [corrected or collected first time at S7],96.0,Self
+880672,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880673,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880674,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],16.0,Grandchild
+880675,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],17.0,Grandparent
+880676,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],18.0,Nanny/au pair
+880677,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],19.0,Other relative
+880678,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],20.0,Other non-relative
+880679,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],96.0,Self
+880680,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],-9.0,Refused
+880681,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],-8.0,Do not know
+880682,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],-1.0,Not applicable
+880683,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],1.0,Husband/Wife
+880684,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880685,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],3.0,Natural son/daughter
+880686,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880687,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],5.0,Foster son/daughter
+880688,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880689,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],7.0,Natural parent
+880690,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],8.0,Adoptive parent
+880691,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],9.0,Foster parent
+880692,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880693,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880694,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880695,MCS,mcs7_hhgrid,ghprel0j,Person X=10 s relationship to person Y (PNUM) Person X=10 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880696,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],-9.0,Refused
+880697,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],-8.0,Do not know
+880698,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],-1.0,Not applicable
+880699,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],1.0,Husband/Wife
+880700,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880701,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],3.0,Natural son/daughter
+880702,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880703,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],5.0,Foster son/daughter
+880704,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880705,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],7.0,Natural parent
+880706,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],8.0,Adoptive parent
+880707,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],9.0,Foster parent
+880708,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880709,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880710,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880711,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880712,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880713,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880714,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],16.0,Grandchild
+880715,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],17.0,Grandparent
+880716,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],18.0,Nanny/au pair
+880717,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],19.0,Other relative
+880718,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],20.0,Other non-relative
+880719,MCS,mcs7_hhgrid,ghprel0k,Person X=11 s relationship to person Y (PNUM) Person X=11 [corrected or collected first time at S7],96.0,Self
+880720,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],-9.0,Refused
+880721,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],-8.0,Do not know
+880722,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],-1.0,Not applicable
+880723,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],1.0,Husband/Wife
+880724,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880725,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],3.0,Natural son/daughter
+880726,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880727,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],5.0,Foster son/daughter
+880728,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880729,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],7.0,Natural parent
+880730,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],8.0,Adoptive parent
+880731,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],9.0,Foster parent
+880732,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880733,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880734,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880735,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880736,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880737,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880738,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],16.0,Grandchild
+880739,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],17.0,Grandparent
+880740,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],18.0,Nanny/au pair
+880741,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],19.0,Other relative
+880742,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],20.0,Other non-relative
+880743,MCS,mcs7_hhgrid,ghprel0l,Person X=12 s relationship to person Y (PNUM) Person X=12 [corrected or collected first time at S7],96.0,Self
+880744,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],-9.0,Refused
+880745,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],-8.0,Do not know
+880746,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],-1.0,Not applicable
+880747,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],1.0,Husband/Wife
+880748,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880749,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],3.0,Natural son/daughter
+880750,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880751,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],5.0,Foster son/daughter
+880752,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880753,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],7.0,Natural parent
+880754,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],8.0,Adoptive parent
+880755,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],9.0,Foster parent
+880756,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880757,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880758,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880759,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880760,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880761,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880762,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],16.0,Grandchild
+880763,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],17.0,Grandparent
+880764,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],18.0,Nanny/au pair
+880765,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],19.0,Other relative
+880766,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],20.0,Other non-relative
+880767,MCS,mcs7_hhgrid,ghprel0m,Person X=13 s relationship to person Y (PNUM) Person X=13 [corrected or collected first time at S7],96.0,Self
+880768,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],-9.0,Refused
+880769,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],-8.0,Do not know
+880770,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],-1.0,Not applicable
+880771,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],1.0,Husband/Wife
+880772,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880773,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],3.0,Natural son/daughter
+880774,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880775,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],5.0,Foster son/daughter
+880776,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880777,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],7.0,Natural parent
+880778,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],8.0,Adoptive parent
+880779,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],9.0,Foster parent
+880780,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880781,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880782,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880783,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880784,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880785,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880786,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],16.0,Grandchild
+880787,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],17.0,Grandparent
+880788,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],18.0,Nanny/au pair
+880789,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],19.0,Other relative
+880790,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],20.0,Other non-relative
+880791,MCS,mcs7_hhgrid,ghprel0n,Person X=14 s relationship to person Y (PNUM) Person X=14 [corrected or collected first time at S7],96.0,Self
+880792,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],-9.0,Refused
+880793,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],-8.0,Do not know
+880794,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],-1.0,Not applicable
+880795,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],1.0,Husband/Wife
+880796,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880797,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],3.0,Natural son/daughter
+880798,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880799,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],5.0,Foster son/daughter
+880800,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880801,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],7.0,Natural parent
+880802,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],8.0,Adoptive parent
+880803,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],9.0,Foster parent
+880804,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880805,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880806,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880807,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880808,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880809,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880810,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],16.0,Grandchild
+880811,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],17.0,Grandparent
+880812,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],18.0,Nanny/au pair
+880813,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],19.0,Other relative
+880814,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],20.0,Other non-relative
+880815,MCS,mcs7_hhgrid,ghprel0o,Person X=15 s relationship to person Y (PNUM) Person X=15 [corrected or collected first time at S7],96.0,Self
+880816,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],-9.0,Refused
+880817,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],-8.0,Do not know
+880818,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],-1.0,Not applicable
+880819,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],1.0,Husband/Wife
+880820,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880821,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],3.0,Natural son/daughter
+880822,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880823,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],5.0,Foster son/daughter
+880824,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880825,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],7.0,Natural parent
+880826,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],8.0,Adoptive parent
+880827,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],9.0,Foster parent
+880828,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880829,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880830,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880831,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880832,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880833,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880834,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],16.0,Grandchild
+880835,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],17.0,Grandparent
+880836,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],18.0,Nanny/au pair
+880837,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],19.0,Other relative
+880838,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],20.0,Other non-relative
+880839,MCS,mcs7_hhgrid,ghprel0p,Person X=16 s relationship to person Y (PNUM) Person X=16 [corrected or collected first time at S7],96.0,Self
+880840,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],-9.0,Refused
+880841,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],-8.0,Do not know
+880842,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],-1.0,Not applicable
+880843,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],1.0,Husband/Wife
+880844,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880845,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],3.0,Natural son/daughter
+880846,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880847,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],5.0,Foster son/daughter
+880848,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880849,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],7.0,Natural parent
+880850,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],8.0,Adoptive parent
+880851,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],9.0,Foster parent
+880852,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880853,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880854,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880855,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880856,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880857,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880858,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],16.0,Grandchild
+880859,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],17.0,Grandparent
+880860,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],18.0,Nanny/au pair
+880861,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],19.0,Other relative
+880862,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],20.0,Other non-relative
+880863,MCS,mcs7_hhgrid,ghprel0q,Person X=17 s relationship to person Y (PNUM) Person X=17 [corrected or collected first time at S7],96.0,Self
+880864,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],8.0,Adoptive parent
+880865,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],9.0,Foster parent
+880866,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880867,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880868,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880869,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880870,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880871,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880872,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],16.0,Grandchild
+880873,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],17.0,Grandparent
+880874,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],18.0,Nanny/au pair
+880875,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],19.0,Other relative
+880876,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],20.0,Other non-relative
+880877,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],96.0,Self
+880878,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],-9.0,Refused
+880879,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],-8.0,Do not know
+880880,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],-1.0,Not applicable
+880881,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],1.0,Husband/Wife
+880882,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880883,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],3.0,Natural son/daughter
+880884,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880885,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],5.0,Foster son/daughter
+880886,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880887,MCS,mcs7_hhgrid,ghprel0r,Person X=18 s relationship to person Y (PNUM) Person X=18 [corrected or collected first time at S7],7.0,Natural parent
+880888,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],-9.0,Refused
+880889,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],-8.0,Do not know
+880890,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],-1.0,Not applicable
+880891,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],1.0,Husband/Wife
+880892,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880893,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],3.0,Natural son/daughter
+880894,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880895,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],5.0,Foster son/daughter
+880896,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880897,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],7.0,Natural parent
+880898,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],8.0,Adoptive parent
+880899,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],9.0,Foster parent
+880900,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880901,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880902,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880903,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880904,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880905,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880906,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],16.0,Grandchild
+880907,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],17.0,Grandparent
+880908,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],18.0,Nanny/au pair
+880909,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],19.0,Other relative
+880910,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],20.0,Other non-relative
+880911,MCS,mcs7_hhgrid,ghprel0s,Person X=19 s relationship to person Y (PNUM) Person X=19 [corrected or collected first time at S7],96.0,Self
+880912,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],-9.0,Refused
+880913,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],-8.0,Do not know
+880914,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],-1.0,Not applicable
+880915,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],1.0,Husband/Wife
+880916,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880917,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],3.0,Natural son/daughter
+880918,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880919,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],5.0,Foster son/daughter
+880920,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880921,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],7.0,Natural parent
+880922,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],8.0,Adoptive parent
+880923,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],9.0,Foster parent
+880924,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880925,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880926,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880927,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880928,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880929,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880930,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],16.0,Grandchild
+880931,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],17.0,Grandparent
+880932,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],18.0,Nanny/au pair
+880933,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],19.0,Other relative
+880934,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],20.0,Other non-relative
+880935,MCS,mcs7_hhgrid,ghprel0t,Person X=20 s relationship to person Y (PNUM) Person X=20 [corrected or collected first time at S7],96.0,Self
+880936,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],-9.0,Refused
+880937,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],-8.0,Do not know
+880938,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],-1.0,Not applicable
+880939,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],1.0,Husband/Wife
+880940,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880941,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],3.0,Natural son/daughter
+880942,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880943,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],5.0,Foster son/daughter
+880944,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880945,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],7.0,Natural parent
+880946,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],8.0,Adoptive parent
+880947,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],9.0,Foster parent
+880948,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880949,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880950,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880951,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880952,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880953,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880954,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],16.0,Grandchild
+880955,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],17.0,Grandparent
+880956,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],18.0,Nanny/au pair
+880957,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],19.0,Other relative
+880958,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],20.0,Other non-relative
+880959,MCS,mcs7_hhgrid,ghprel0u,Person X=21 s relationship to person Y (PNUM) Person X=21 [corrected or collected first time at S7],96.0,Self
+880960,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],-9.0,Refused
+880961,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],-8.0,Do not know
+880962,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],-1.0,Not applicable
+880963,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],1.0,Husband/Wife
+880964,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880965,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],3.0,Natural son/daughter
+880966,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880967,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],5.0,Foster son/daughter
+880968,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880969,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],7.0,Natural parent
+880970,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],8.0,Adoptive parent
+880971,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],9.0,Foster parent
+880972,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880973,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880974,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880975,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+880976,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+880977,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+880978,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],16.0,Grandchild
+880979,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],17.0,Grandparent
+880980,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],18.0,Nanny/au pair
+880981,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],19.0,Other relative
+880982,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],20.0,Other non-relative
+880983,MCS,mcs7_hhgrid,ghprel0v,Person X=22 s relationship to person Y (PNUM) Person X=22 [corrected or collected first time at S7],96.0,Self
+880984,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],-9.0,Refused
+880985,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],-8.0,Do not know
+880986,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],-1.0,Not applicable
+880987,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],1.0,Husband/Wife
+880988,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+880989,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],3.0,Natural son/daughter
+880990,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],4.0,Adopted son/daughter
+880991,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],5.0,Foster son/daughter
+880992,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+880993,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],7.0,Natural parent
+880994,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],8.0,Adoptive parent
+880995,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],9.0,Foster parent
+880996,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+880997,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+880998,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+880999,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+881000,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+881001,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+881002,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],16.0,Grandchild
+881003,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],17.0,Grandparent
+881004,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],18.0,Nanny/au pair
+881005,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],19.0,Other relative
+881006,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],20.0,Other non-relative
+881007,MCS,mcs7_hhgrid,ghprel0w,Person X=23 s relationship to person Y (PNUM) Person X=23 [corrected or collected first time at S7],96.0,Self
+881008,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],-9.0,Refused
+881009,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],-8.0,Do not know
+881010,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],-1.0,Not applicable
+881011,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],1.0,Husband/Wife
+881012,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+881013,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],3.0,Natural son/daughter
+881014,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],4.0,Adopted son/daughter
+881015,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],5.0,Foster son/daughter
+881016,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+881017,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],7.0,Natural parent
+881018,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],8.0,Adoptive parent
+881019,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],9.0,Foster parent
+881020,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+881021,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+881022,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+881023,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+881024,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+881025,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+881026,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],16.0,Grandchild
+881027,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],17.0,Grandparent
+881028,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],18.0,Nanny/au pair
+881029,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],19.0,Other relative
+881030,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],20.0,Other non-relative
+881031,MCS,mcs7_hhgrid,ghprel0x,Person X=24 s relationship to person Y (PNUM) Person X=24 [corrected or collected first time at S7],96.0,Self
+881032,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],-9.0,Refused
+881033,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],-8.0,Do not know
+881034,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],-1.0,Not applicable
+881035,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],1.0,Husband/Wife
+881036,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],2.0,Partner/Cohabitee
+881037,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],3.0,Natural son/daughter
+881038,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],4.0,Adopted son/daughter
+881039,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],5.0,Foster son/daughter
+881040,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],6.0,Step-son/step daughter/child of (current/previous) partner
+881041,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],7.0,Natural parent
+881042,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],8.0,Adoptive parent
+881043,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],9.0,Foster parent
+881044,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],10.0,Step-parent/Partner of parent (USE THIS IF HE/SHE IS PARTNER OF OTHER PARENT)
+881045,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],11.0,Natural brother/Natural sister
+881046,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],12.0,Half-brother/half-sister
+881047,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],13.0,Step-brother/step-sister
+881048,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],14.0,Adopted brother/adopted sister
+881049,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],15.0,Foster brother/foster sister
+881050,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],16.0,Grandchild
+881051,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],17.0,Grandparent
+881052,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],18.0,Nanny/au pair
+881053,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],19.0,Other relative
+881054,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],20.0,Other non-relative
+881055,MCS,mcs7_hhgrid,ghprel0y,Person X=25 s relationship to person Y (PNUM) Person X=25 [corrected or collected first time at S7],96.0,Self
+881056,MCS,mcs7_hhgrid,gcnum00,Cohort Member number within an MCS family,-1.0,Not applicable
+881057,MCS,mcs7_hhgrid,gcnum00,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+881058,MCS,mcs7_hhgrid,gcnum00,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+881059,MCS,mcs7_hhgrid,gcnum00,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+881060,MCS,mcs7_hhgrid,ghcsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],3.0,[spontaneous] other way
+881061,MCS,mcs7_hhgrid,ghcsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],-1.0,Not applicable
+881062,MCS,mcs7_hhgrid,ghcsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],1.0,Male
+881063,MCS,mcs7_hhgrid,ghcsex00,Person s (CM)gender / (PAR)sex [corrected or collected first time],2.0,Female
+881064,MCS,mcs7_hhgrid,ghcage00,Person s age last birthday (calculated if DoB present),-9.0,Refused
+881065,MCS,mcs7_hhgrid,ghcage00,Person s age last birthday (calculated if DoB present),-8.0,Do not know
+881066,MCS,mcs7_hhgrid,ghcage00,Person s age last birthday (calculated if DoB present),-1.0,Not applicable
+881067,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],-9.0,Refused
+881068,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],-8.0,Do not know
+881069,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],-1.0,Not applicable
+881070,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],1.0,January
+881071,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],2.0,February
+881072,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],3.0,March
+881073,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],4.0,April
+881074,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],5.0,May
+881075,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],6.0,June
+881076,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],7.0,July
+881077,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],8.0,August
+881078,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],9.0,September
+881079,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],10.0,October
+881080,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],11.0,November
+881081,MCS,mcs7_hhgrid,ghcdbm00,CM DOB [Month],12.0,December
+881082,MCS,mcs7_hhgrid,ghcdby00,CM DOB [Year],-9.0,Refused
+881083,MCS,mcs7_hhgrid,ghcdby00,CM DOB [Year],-8.0,Do not know
+881084,MCS,mcs7_hhgrid,ghcdby00,CM DOB [Year],-1.0,Not applicable
+881085,MCS,mcs7_hhgrid,ghcprs00,CM Present in household,-9.0,Refused
+881086,MCS,mcs7_hhgrid,ghcprs00,CM Present in household,-8.0,Do not know
+881087,MCS,mcs7_hhgrid,ghcprs00,CM Present in household,-1.0,Not applicable
+881088,MCS,mcs7_hhgrid,ghcprs00,CM Present in household,1.0,Present
+881089,MCS,mcs7_hhgrid,ghcprs00,CM Present in household,2.0,Left
+881090,MCS,mcs7_hhgrid,ghcprs00,CM Present in household,3.0,Died
+881091,MCS,mcs7_hhgrid,ghcprs00,CM Present in household,4.0,Never in HH
+881092,MCS,mcs7_hhgrid,ghcful00,Person resident of house or lives elsewhere,-9.0,Refused
+881093,MCS,mcs7_hhgrid,ghcful00,Person resident of house or lives elsewhere,-8.0,Do not know
+881094,MCS,mcs7_hhgrid,ghcful00,Person resident of house or lives elsewhere,-1.0,Not applicable
+881095,MCS,mcs7_hhgrid,ghcful00,Person resident of house or lives elsewhere,1.0,Yes - lives here all the time
+881096,MCS,mcs7_hhgrid,ghcful00,Person resident of house or lives elsewhere,2.0,No - also lives somewhere else
+881097,MCS,mcs7_hhgrid,gelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+881098,MCS,mcs7_hhgrid,gelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+881099,MCS,mcs7_hhgrid,gelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+881100,MCS,mcs7_hhgrid,gelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Proxy Partner Interview
+881101,MCS,mcs7_hhgrid,gelig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible for interview
+881102,MCS,mcs7_hhgrid,ghhstr00,Person who completes the Household interview (CNUM / PNUM in PGRD),-1.0,Not applicable
+881103,MCS,mcs7_hhgrid,ghhstr00,Person who completes the Household interview (CNUM / PNUM in PGRD),4.0,Someone else
+881104,MCS,mcs7_hhgrid,ghhstr00,Person who completes the Household interview (CNUM / PNUM in PGRD),100.0,CM 1
+881105,MCS,mcs7_hhgrid,ghhstr00,Person who completes the Household interview (CNUM / PNUM in PGRD),200.0,CM 2
+881106,MCS,mcs7_hhgrid,ghhstr00,Person who completes the Household interview (CNUM / PNUM in PGRD),300.0,CM 3
+881107,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],-1.0,Not applicable
+881108,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],1.0,Person 1
+881109,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],2.0,Person 2
+881110,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],3.0,Person 3
+881111,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],4.0,Person 4
+881112,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],5.0,Person 5
+881113,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],6.0,Person 6
+881114,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],7.0,Person 7
+881115,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],8.0,Person 8
+881116,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],9.0,Person 9
+881117,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],10.0,Person 10
+881118,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],11.0,Person 11
+881119,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],12.0,Person 12
+881120,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],13.0,Person 13
+881121,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],14.0,Person 14
+881122,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],15.0,Person 15
+881123,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],16.0,Person 16
+881124,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],17.0,Person 17
+881125,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],18.0,Person 18
+881126,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],19.0,Person 19
+881127,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],20.0,Person 20
+881128,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],21.0,Person 21
+881129,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],22.0,Person 22
+881130,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],23.0,Person 23
+881131,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],24.0,Person 24
+881132,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],25.0,Person 25
+881133,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],29.0,Another person not in household grid
+881134,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],100.0,CM 1
+881135,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],200.0,CM 2
+881136,MCS,mcs7_hhgrid,ghpgrd00,Person who completed the Household interview [After HH interview: PNUM from household grid],300.0,CM 3
+881137,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],-1.0,Not applicable
+881138,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],1.0,January
+881139,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],2.0,February
+881140,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],3.0,March
+881141,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],4.0,April
+881142,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],5.0,May
+881143,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],6.0,June
+881144,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],7.0,July
+881145,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],8.0,August
+881146,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],9.0,September
+881147,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],10.0,October
+881148,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],11.0,November
+881149,MCS,mcs7_hhgrid,ghintm00,[Household Interview] Start [MONTH],12.0,December
+881150,MCS,mcs7_hhgrid,ghinty00,[Household Interview] Start [YEAR],-1.0,Not applicable
+881151,MCS,mcs7_hhgrid,g_out_core_finout,Final outcome of household / family for Core sample (not online follow-up Boost),-1.0,Not applicable
+881152,MCS,mcs7_hhgrid,g_out_core_finout,Final outcome of household / family for Core sample (not online follow-up Boost),1.0,Productive Core (f2f)
+881153,MCS,mcs7_hhgrid,g_out_core_finout,Final outcome of household / family for Core sample (not online follow-up Boost),2.0,Unproductive Core
+881154,MCS,mcs7_hhgrid,g_out_sample,Sample type: Core (f2f),-1.0,Not applicable
+881155,MCS,mcs7_hhgrid,g_out_sample,Sample type: Core (f2f),1.0,HH Core (f2f)
+881156,MCS,mcs7_hhgrid,g_out_sample,Sample type: Core (f2f),2.0,Online follow-up Boost (web)
+881157,MCS,mcs7_hhgrid,g_out_sample,Sample type: Core (f2f),3.0,Both: Core f2f and Boost online follow-up
+881158,MCS,mcs7_hhgrid,g_out_hhq,Outcome for HHQ interview,-1.0,Not applicable
+881159,MCS,mcs7_hhgrid,g_out_hhq,Outcome for HHQ interview,1.0,Fully or Partially Productive
+881160,MCS,mcs7_hhgrid,g_out_hhq,Outcome for HHQ interview,2.0,Unproductive Outcome (e.g. refusal)
+881161,MCS,mcs7_hhgrid,g_out_cmcapi,Outcome for CM CAPI interview (f2f),-1.0,Not applicable
+881162,MCS,mcs7_hhgrid,g_out_cmcapi,Outcome for CM CAPI interview (f2f),1.0,Fully or Partially Productive
+881163,MCS,mcs7_hhgrid,g_out_cmcapi,Outcome for CM CAPI interview (f2f),2.0,Unproductive Outcome (e.g. refusal)
+881164,MCS,mcs7_hhgrid,g_out_cmcasi,Outcome for CM CASI interview (self-completion in household),-1.0,Not applicable
+881165,MCS,mcs7_hhgrid,g_out_cmcasi,Outcome for CM CASI interview (self-completion in household),1.0,Fully or Partially Productive
+881166,MCS,mcs7_hhgrid,g_out_cmcasi,Outcome for CM CASI interview (self-completion in household),2.0,Unproductive Outcome (e.g. refusal)
+881167,MCS,mcs7_hhgrid,g_out_cmcawi,Outcome for CM CAWI interview (web),-1.0,Not applicable
+881168,MCS,mcs7_hhgrid,g_out_cmcawi,Outcome for CM CAWI interview (web),1.0,Fully or Partially Productive
+881169,MCS,mcs7_hhgrid,g_out_cmcawi,Outcome for CM CAWI interview (web),2.0,Unproductive Outcome (e.g. refusal)
+881170,MCS,mcs7_hhgrid,g_out_physmeas,Outcome for CM Physical Measurements,-1.0,Not applicable
+881171,MCS,mcs7_hhgrid,g_out_physmeas,Outcome for CM Physical Measurements,1.0,Fully or Partially Productive
+881172,MCS,mcs7_hhgrid,g_out_physmeas,Outcome for CM Physical Measurements,2.0,Unproductive Outcome (e.g. refusal)
+881173,MCS,mcs7_hhgrid,g_out_cogass,Outcome for CM Cognitive Assessment,-1.0,Not applicable
+881174,MCS,mcs7_hhgrid,g_out_cogass,Outcome for CM Cognitive Assessment,1.0,Fully or Partially Productive
+881175,MCS,mcs7_hhgrid,g_out_cogass,Outcome for CM Cognitive Assessment,2.0,Unproductive Outcome (e.g. refusal)
+881176,MCS,mcs7_hhgrid,g_out_parcawi,Outcome for Parent CAWI interview (web),-1.0,Not applicable
+881177,MCS,mcs7_hhgrid,g_out_parcawi,Outcome for Parent CAWI interview (web),1.0,Fully or Partially Productive
+881178,MCS,mcs7_hhgrid,g_out_parcawi,Outcome for Parent CAWI interview (web),2.0,Unproductive Outcome (e.g. refusal)
+881179,MCS,mcs7_hhgrid,g_out_cmboost,Outcome for CM Boost interview (web) for Boost sample only,-1.0,Not applicable
+881180,MCS,mcs7_hhgrid,g_out_cmboost,Outcome for CM Boost interview (web) for Boost sample only,1.0,Fully or Partially Productive
+881181,MCS,mcs7_hhgrid,g_out_cmboost,Outcome for CM Boost interview (web) for Boost sample only,2.0,Unproductive Outcome (e.g. refusal)
+881182,MCS,mcs7_hhgrid,gactry00,Country relabelled,-1.0,Not applicable
+881183,MCS,mcs7_hhgrid,gactry00,Country relabelled,1.0,England
+881184,MCS,mcs7_hhgrid,gactry00,Country relabelled,2.0,Wales
+881185,MCS,mcs7_hhgrid,gactry00,Country relabelled,3.0,Scotland
+881186,MCS,mcs7_hhgrid,gactry00,Country relabelled,4.0,Northern Ireland
+881187,MCS,mcs7_hhgrid,garegn00,Region relabelled,-1.0,Not applicable
+881188,MCS,mcs7_hhgrid,garegn00,Region relabelled,1.0,North East
+881189,MCS,mcs7_hhgrid,garegn00,Region relabelled,2.0,North West
+881190,MCS,mcs7_hhgrid,garegn00,Region relabelled,3.0,Yorkshire and the Humber
+881191,MCS,mcs7_hhgrid,garegn00,Region relabelled,4.0,East Midlands
+881192,MCS,mcs7_hhgrid,garegn00,Region relabelled,5.0,West Midlands
+881193,MCS,mcs7_hhgrid,garegn00,Region relabelled,6.0,East of England
+881194,MCS,mcs7_hhgrid,garegn00,Region relabelled,7.0,London
+881195,MCS,mcs7_hhgrid,garegn00,Region relabelled,8.0,South East
+881196,MCS,mcs7_hhgrid,garegn00,Region relabelled,9.0,South West
+881197,MCS,mcs7_hhgrid,garegn00,Region relabelled,10.0,Wales
+881198,MCS,mcs7_hhgrid,garegn00,Region relabelled,11.0,Scotland
+881199,MCS,mcs7_hhgrid,garegn00,Region relabelled,12.0,Northern Ireland
+881200,MCS,mcs7_hhgrid,avail_from_dt,,,
+881201,MCS,mcs7_hhgrid,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

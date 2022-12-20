@@ -1,0 +1,579 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+781484,MCS,mcs2_proxy_partner_interview,study_id_e,,,
+781485,MCS,mcs2_proxy_partner_interview,pnum,Person number,,
+781486,MCS,mcs2_proxy_partner_interview,belig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+781487,MCS,mcs2_proxy_partner_interview,belig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+781488,MCS,mcs2_proxy_partner_interview,belig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+781489,MCS,mcs2_proxy_partner_interview,belig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Partner Proxy Interview
+781490,MCS,mcs2_proxy_partner_interview,belig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible for interview
+781491,MCS,mcs2_proxy_partner_interview,bresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+781492,MCS,mcs2_proxy_partner_interview,bresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+781493,MCS,mcs2_proxy_partner_interview,bresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+781494,MCS,mcs2_proxy_partner_interview,bresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Partner Proxy Interview
+781495,MCS,mcs2_proxy_partner_interview,bresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No interview
+781496,MCS,mcs2_proxy_partner_interview,bresp00,Response in survey: Whether respondent (of ELIG) participated in interview,5.0,Imputed Main Interview (Only child data
+781497,MCS,mcs2_proxy_partner_interview,bxprxy00,Responded to Proxy Instrument,,
+781498,MCS,mcs2_proxy_partner_interview,bxptnr00,Responded to Partner Intrument,-1.0,Not Applicable
+781499,MCS,mcs2_proxy_partner_interview,bxptnr00,Responded to Partner Intrument,1.0,Yes
+781500,MCS,mcs2_proxy_partner_interview,bxidtm00,Interview Date (month),-1.0,Not applicable
+781501,MCS,mcs2_proxy_partner_interview,bxidty00,Interview Date (year),-1.0,Not applicable
+781502,MCS,mcs2_proxy_partner_interview,bxffsp00,Main respondent sight problems (from Feed Forward),-1.0,Not applicable
+781503,MCS,mcs2_proxy_partner_interview,bxffsp00,Main respondent sight problems (from Feed Forward),1.0,Yes - has sight problem
+781504,MCS,mcs2_proxy_partner_interview,bxffsp00,Main respondent sight problems (from Feed Forward),2.0,Yes - blind
+781505,MCS,mcs2_proxy_partner_interview,bxffsp00,Main respondent sight problems (from Feed Forward),3.0,No sight problem
+781506,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),-1.0,Not applicable
+781507,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),1.0,No partner at MCS1 - Partner alive
+781508,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),2.0,No partner at MCS1 - Partner dead
+781509,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),3.0,Full time partner at MCS1 - Interviewed
+781510,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),4.0,Part time partner at MCS1 - Interviewed
+781511,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),5.0,Full time partner at MCS1 - Not Intervi
+781512,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),6.0,Part time partner at MCS1 - Not Intervi
+781513,MCS,mcs2_proxy_partner_interview,bxstat00,Partner Status (from Feed Forward),7.0,Status unclear
+781514,MCS,mcs2_proxy_partner_interview,bxfeac00,Economic Activity (from Feed Forward),-1.0,Not applicable
+781515,MCS,mcs2_proxy_partner_interview,bxfeac00,Economic Activity (from Feed Forward),1.0,Currently doing paid work
+781516,MCS,mcs2_proxy_partner_interview,bxfeac00,Economic Activity (from Feed Forward),2.0,Has paid job but on leave
+781517,MCS,mcs2_proxy_partner_interview,bxfeac00,Economic Activity (from Feed Forward),3.0,Has worked in the past but no current p
+781518,MCS,mcs2_proxy_partner_interview,bxfeac00,Economic Activity (from Feed Forward),4.0,Never had a paid job
+781519,MCS,mcs2_proxy_partner_interview,bxbskl00,Basic Skills problems (from Feed Forward),-1.0,Not applicable
+781520,MCS,mcs2_proxy_partner_interview,bxbskl00,Basic Skills problems (from Feed Forward),1.0,had basic skill problem
+781521,MCS,mcs2_proxy_partner_interview,bxbskl00,Basic Skills problems (from Feed Forward),2.0,no problems
+781522,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),-1.0,Not applicable
+781523,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),1.0,Respondent his/herself
+781524,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),2.0,Husband/Wife/Partner
+781525,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),4.0,Your Mother
+781526,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),6.0,Your partner s mother
+781527,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),10.0,Other relative
+781528,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),11.0,Friend/neighbour
+781529,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),14.0,Registered childminder
+781530,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),15.0,Unregistered childminder
+781531,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),18.0,Private day nursery/creche
+781532,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),20.0,not working - main care nk
+781533,MCS,mcs2_proxy_partner_interview,bxffcc00,Childcare Type (from Feed Forward),21.0,not working - no care
+781534,MCS,mcs2_proxy_partner_interview,bxsmar00,Main respondent same as last time (interviewer coded),-1.0,Not applicable
+781535,MCS,mcs2_proxy_partner_interview,bxsmar00,Main respondent same as last time (interviewer coded),1.0,Yes
+781536,MCS,mcs2_proxy_partner_interview,bxsmar00,Main respondent same as last time (interviewer coded),2.0,No
+781537,MCS,mcs2_proxy_partner_interview,bxsmar00,Main respondent same as last time (interviewer coded),3.0,No previous respondent
+781538,MCS,mcs2_proxy_partner_interview,bxnrel00,Relationship with child s non-res father/mother,-1.0,Not applicable
+781539,MCS,mcs2_proxy_partner_interview,bxnrel00,Relationship with child s non-res father/mother,1.0,Married
+781540,MCS,mcs2_proxy_partner_interview,bxnrel00,Relationship with child s non-res father/mother,2.0,Partner/Cohabitee
+781541,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,-1.0,Not applicable
+781542,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,1.0,Legally separated
+781543,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,2.0,"Married, 1st and only marriage"
+781544,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,3.0,"Remarried, 2nd or later marriage"
+781545,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,4.0,Single never married
+781546,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,5.0,Divorced
+781547,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,6.0,Widowed
+781548,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,8.0,(Don't know)
+781549,MCS,mcs2_proxy_partner_interview,bxfcin00,Legal marital status,9.0,(REFUSED)
+781550,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),15.0,Chinese
+781551,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),16.0,Any other background (specify)
+781552,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),-1.0,Not applicable
+781553,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),1.0,White British
+781554,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),2.0,White Irish
+781555,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),3.0,Any other White background (specify)
+781556,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),4.0,Mixed - White and Black Caribbean
+781557,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),5.0,Mixed - White and Black African
+781558,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),6.0,Mixed - White and Asian
+781559,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),7.0,Any other mixed background (specify)
+781560,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),8.0,Asian/Asian British - Indian
+781561,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),9.0,Asian/Asian British - Pakistani
+781562,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),10.0,Asian/Asian British - Bangladeshi
+781563,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),11.0,Any other Asian background (specify)
+781564,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),12.0,Black/Black British - Caribbean
+781565,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),13.0,Black/Black British - African
+781566,MCS,mcs2_proxy_partner_interview,bxethe00,Ethnic Group (England),14.0,Any other Black background (specify)
+781567,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),-1.0,Not applicable
+781568,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),1.0,White - Welsh
+781569,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),2.0,White - Other British
+781570,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),3.0,White - Irish
+781571,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),4.0,Any other White background (specify)
+781572,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),5.0,Mixed - White and Black Caribbean
+781573,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),6.0,Mixed - White and Black African
+781574,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),7.0,Mixed - White and Asian
+781575,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),8.0,Any other mixed background (specify)
+781576,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),9.0,Asian/Asian British - Indian
+781577,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),10.0,Asian/Asian British - Pakistani
+781578,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),11.0,Asian/Asian British - Bangladeshi
+781579,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),12.0,Any other Asian background (specify)
+781580,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),13.0,Black/Black British - Caribbean
+781581,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),14.0,Black/Black British - African
+781582,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),15.0,Any other Black background (specify)
+781583,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),16.0,Chinese
+781584,MCS,mcs2_proxy_partner_interview,bxethw00,Ethnic Group (Wales),17.0,Any other background - specify
+781585,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),-1.0,Not applicable
+781586,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),1.0,White - Scottish
+781587,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),2.0,White - Other British
+781588,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),3.0,White - Irish
+781589,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),4.0,Any other White background (specify)
+781590,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),5.0,Any mixed background (specify)
+781591,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),6.0,Asian/Asian Scottish - Indian
+781592,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),7.0,Asian/Asian Scottish - Pakistani
+781593,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),8.0,Asian/Asian Scottish /Asian British - B
+781594,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),9.0,Any other Asian background (specify)
+781595,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),10.0,Black/ Black Scottish/Black British - C
+781596,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),11.0,Black/ Black Scottish/Black British - A
+781597,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),12.0,Any other Black background (specify)
+781598,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),13.0,Any other background (specify)
+781599,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),14.0,Any other Black background (specify)
+781600,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),15.0,Chinese
+781601,MCS,mcs2_proxy_partner_interview,bxeths00,Ethnic group (Scotland),16.0,Any other background (specify)
+781602,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),-1.0,Not applicable
+781603,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),1.0,White
+781604,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),2.0,Chinese
+781605,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),3.0,Irish Traveller
+781606,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),4.0,Indian
+781607,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),5.0,Pakistani
+781608,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),6.0,Bangladeshi
+781609,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),7.0,Black Caribbean
+781610,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),8.0,Black African
+781611,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),9.0,Black other (specify)
+781612,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),10.0,Mixed ethnic group (specify)
+781613,MCS,mcs2_proxy_partner_interview,bxethn00,Ethnic Group (NI),11.0,Any other background (specify)
+781614,MCS,mcs2_proxy_partner_interview,bxmual00,Whether parent-respondent s mother is alive,-1.0,Not applicable
+781615,MCS,mcs2_proxy_partner_interview,bxmual00,Whether parent-respondent s mother is alive,1.0,Yes
+781616,MCS,mcs2_proxy_partner_interview,bxmual00,Whether parent-respondent s mother is alive,2.0,No
+781617,MCS,mcs2_proxy_partner_interview,bxmual00,Whether parent-respondent s mother is alive,3.0,(Don't know)
+781618,MCS,mcs2_proxy_partner_interview,bxmual00,Whether parent-respondent s mother is alive,4.0,(REFUSED)
+781619,MCS,mcs2_proxy_partner_interview,bxdaal00,Whether parent-respondent s father is alive,-1.0,Not applicable
+781620,MCS,mcs2_proxy_partner_interview,bxdaal00,Whether parent-respondent s father is alive,1.0,Yes
+781621,MCS,mcs2_proxy_partner_interview,bxdaal00,Whether parent-respondent s father is alive,2.0,No
+781622,MCS,mcs2_proxy_partner_interview,bxdaal00,Whether parent-respondent s father is alive,3.0,(Don't know)
+781623,MCS,mcs2_proxy_partner_interview,bxdaal00,Whether parent-respondent s father is alive,4.0,(REFUSED)
+781624,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,-1.0,Not applicable
+781625,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,1.0,Every day
+781626,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,2.0,3-6 times a week
+781627,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,3.0,Once or twice a week
+781628,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,4.0,"Less often, but at least once a month"
+781629,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,5.0,Once every few months
+781630,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,6.0,Once a year
+781631,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,7.0,Less than once a year
+781632,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,8.0,Never
+781633,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,9.0,(Lives with mother)
+781634,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,10.0,(Don't know)
+781635,MCS,mcs2_proxy_partner_interview,bxsemo00,How often do you see your natural mother?,11.0,(REFUSED)
+781636,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,-1.0,Not applicable
+781637,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,1.0,Every day
+781638,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,2.0,3-6 times a week
+781639,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,3.0,Once or twice a week
+781640,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,4.0,"Less often, but at least once a month"
+781641,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,5.0,Once every few months
+781642,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,6.0,Once a year
+781643,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,7.0,Less than once a year
+781644,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,8.0,Never
+781645,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,9.0,(Lives with father)
+781646,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,10.0,(Don't know)
+781647,MCS,mcs2_proxy_partner_interview,bxsefa00,How often do you see your natural father?,11.0,(REFUSED)
+781648,MCS,mcs2_proxy_partner_interview,bxppyk0a,Help from parents (Buying essentials for the child - food,-1.0,Not applicable
+781649,MCS,mcs2_proxy_partner_interview,bxppyk0a,Help from parents (Buying essentials for the child - food,0.0,No
+781650,MCS,mcs2_proxy_partner_interview,bxppyk0a,Help from parents (Buying essentials for the child - food,1.0,Yes
+781651,MCS,mcs2_proxy_partner_interview,bxppyk0b,Help from parents (Paying for other household costs - bills,-1.0,Not applicable
+781652,MCS,mcs2_proxy_partner_interview,bxppyk0b,Help from parents (Paying for other household costs - bills,0.0,No
+781653,MCS,mcs2_proxy_partner_interview,bxppyk0b,Help from parents (Paying for other household costs - bills,1.0,Yes
+781654,MCS,mcs2_proxy_partner_interview,bxppyk0c,Help from parents (Buying gifts and extras for the child) MC3,-1.0,Not applicable
+781655,MCS,mcs2_proxy_partner_interview,bxppyk0c,Help from parents (Buying gifts and extras for the child) MC3,0.0,No
+781656,MCS,mcs2_proxy_partner_interview,bxppyk0c,Help from parents (Buying gifts and extras for the child) MC3,1.0,Yes
+781657,MCS,mcs2_proxy_partner_interview,bxppyk0d,Help from parents (Lending money) MC4,-1.0,Not applicable
+781658,MCS,mcs2_proxy_partner_interview,bxppyk0d,Help from parents (Lending money) MC4,0.0,No
+781659,MCS,mcs2_proxy_partner_interview,bxppyk0d,Help from parents (Lending money) MC4,1.0,Yes
+781660,MCS,mcs2_proxy_partner_interview,bxppyk0e,Help from parents (Paying for childcare) MC5,-1.0,Not applicable
+781661,MCS,mcs2_proxy_partner_interview,bxppyk0e,Help from parents (Paying for childcare) MC5,0.0,No
+781662,MCS,mcs2_proxy_partner_interview,bxppyk0e,Help from parents (Paying for childcare) MC5,1.0,Yes
+781663,MCS,mcs2_proxy_partner_interview,bxppyk0f,Help from parents (Other financial help) MC6,-1.0,Not applicable
+781664,MCS,mcs2_proxy_partner_interview,bxppyk0f,Help from parents (Other financial help) MC6,0.0,No
+781665,MCS,mcs2_proxy_partner_interview,bxppyk0f,Help from parents (Other financial help) MC6,1.0,Yes
+781666,MCS,mcs2_proxy_partner_interview,bxppyk0g,Help from parents (Does NOT help in any of these ways) MC7,-1.0,Not applicable
+781667,MCS,mcs2_proxy_partner_interview,bxppyk0g,Help from parents (Does NOT help in any of these ways) MC7,0.0,No
+781668,MCS,mcs2_proxy_partner_interview,bxppyk0g,Help from parents (Does NOT help in any of these ways) MC7,1.0,Yes
+781669,MCS,mcs2_proxy_partner_interview,bxppyk0h,Help from parents - Dont know MC8,-1.0,Not applicable
+781670,MCS,mcs2_proxy_partner_interview,bxppyk0h,Help from parents - Dont know MC8,0.0,No
+781671,MCS,mcs2_proxy_partner_interview,bxppyk0h,Help from parents - Dont know MC8,1.0,Yes
+781672,MCS,mcs2_proxy_partner_interview,bxppyk0i,Help from parents - Refused MC9,-1.0,Not applicable
+781673,MCS,mcs2_proxy_partner_interview,bxppyk0i,Help from parents - Refused MC9,0.0,No
+781674,MCS,mcs2_proxy_partner_interview,bxppyk0i,Help from parents - Refused MC9,1.0,Yes
+781675,MCS,mcs2_proxy_partner_interview,bxrebo00,Whether respondent was born in the UK,-8.0,Dont know
+781676,MCS,mcs2_proxy_partner_interview,bxrebo00,Whether respondent was born in the UK,-1.0,Not applicable
+781677,MCS,mcs2_proxy_partner_interview,bxrebo00,Whether respondent was born in the UK,1.0,Yes
+781678,MCS,mcs2_proxy_partner_interview,bxrebo00,Whether respondent was born in the UK,2.0,No
+781679,MCS,mcs2_proxy_partner_interview,bxrebo00,Whether respondent was born in the UK,3.0,Don't know
+781680,MCS,mcs2_proxy_partner_interview,bxrebo00,Whether respondent was born in the UK,4.0,REFUSED
+781681,MCS,mcs2_proxy_partner_interview,bxgehe00,Respondent s general health,-1.0,Not applicable
+781682,MCS,mcs2_proxy_partner_interview,bxgehe00,Respondent s general health,1.0,excellent
+781683,MCS,mcs2_proxy_partner_interview,bxgehe00,Respondent s general health,2.0,good
+781684,MCS,mcs2_proxy_partner_interview,bxgehe00,Respondent s general health,3.0,fair
+781685,MCS,mcs2_proxy_partner_interview,bxgehe00,Respondent s general health,4.0,poor
+781686,MCS,mcs2_proxy_partner_interview,bxgehe00,Respondent s general health,5.0,(Don't know)
+781687,MCS,mcs2_proxy_partner_interview,bxgehe00,Respondent s general health,6.0,(REFUSED)
+781688,MCS,mcs2_proxy_partner_interview,bxloil00,Whether respondent has longstanding illness,-1.0,Not applicable
+781689,MCS,mcs2_proxy_partner_interview,bxloil00,Whether respondent has longstanding illness,1.0,Yes
+781690,MCS,mcs2_proxy_partner_interview,bxloil00,Whether respondent has longstanding illness,2.0,No
+781691,MCS,mcs2_proxy_partner_interview,bxloil00,Whether respondent has longstanding illness,3.0,(Don't know)
+781692,MCS,mcs2_proxy_partner_interview,bxloil00,Whether respondent has longstanding illness,4.0,(REFUSED)
+781693,MCS,mcs2_proxy_partner_interview,bxheig00,Height of respondent (unit),-1.0,Not applicable
+781694,MCS,mcs2_proxy_partner_interview,bxheig00,Height of respondent (unit),1.0,Feet and inches
+781695,MCS,mcs2_proxy_partner_interview,bxheig00,Height of respondent (unit),2.0,Centimetres
+781696,MCS,mcs2_proxy_partner_interview,bxheig00,Height of respondent (unit),3.0,(Don't know)
+781697,MCS,mcs2_proxy_partner_interview,bxheig00,Height of respondent (unit),4.0,(REFUSED)
+781698,MCS,mcs2_proxy_partner_interview,bxheif00,Height in feet,-1.0,Not applicable
+781699,MCS,mcs2_proxy_partner_interview,bxheii00,Height in inches,-1.0,Not applicable
+781700,MCS,mcs2_proxy_partner_interview,bxhecm00,Height in centimeters,-1.0,Not applicable
+781701,MCS,mcs2_proxy_partner_interview,bxweig00,PXQ Weight of resp without clothes (units),-1.0,Not applicable
+781702,MCS,mcs2_proxy_partner_interview,bxweig00,PXQ Weight of resp without clothes (units),1.0,Stones and pounds
+781703,MCS,mcs2_proxy_partner_interview,bxweig00,PXQ Weight of resp without clothes (units),2.0,Kilograms
+781704,MCS,mcs2_proxy_partner_interview,bxweig00,PXQ Weight of resp without clothes (units),3.0,(Don't know)
+781705,MCS,mcs2_proxy_partner_interview,bxweig00,PXQ Weight of resp without clothes (units),4.0,(REFUSED)
+781706,MCS,mcs2_proxy_partner_interview,bxweis00,Weight in stones,-1.0,Not applicable
+781707,MCS,mcs2_proxy_partner_interview,bxweip00,Weight in pounds,-1.0,Not applicable
+781708,MCS,mcs2_proxy_partner_interview,bxweik00,Weigth in kilos,-1.0,Not applicable
+781709,MCS,mcs2_proxy_partner_interview,bxwees00,Weight estimated or not,-1.0,Not applicable
+781710,MCS,mcs2_proxy_partner_interview,bxwees00,Weight estimated or not,1.0,Respondent sure about weight
+781711,MCS,mcs2_proxy_partner_interview,bxwees00,Weight estimated or not,2.0,Respondent gave estimate
+781712,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),-1.0,Not applicable
+781713,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),1.0,Full time paid employee (30+ hrs)
+781714,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),2.0,Part time paid employee (under 30 hrs)
+781715,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),3.0,On maternity/ paternity/ parental leave
+781716,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),4.0,Full time self-employed
+781717,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),5.0,Part-time self-employed
+781718,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),6.0,Out of work and looking for a job
+781719,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),7.0,Out of work for reasons of poor health
+781720,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),8.0,"Taking part in the New Deal (training,"
+781721,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),9.0,On another Government scheme
+781722,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),10.0,On a modern apprenticeship scheme
+781723,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),11.0,Full-time student
+781724,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),12.0,Wholly retired
+781725,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),13.0,"Found a job, waiting to start"
+781726,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),14.0,Looking after family full-time
+781727,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),15.0,Not in paid work for some other reason
+781728,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),16.0,(Don't know)
+781729,MCS,mcs2_proxy_partner_interview,bxnwrk00,Economic activity status (for non-working),17.0,(REFUSED)
+781730,MCS,mcs2_proxy_partner_interview,bxjbsi00,Paid work since child 9 months old,-8.0,Dont know
+781731,MCS,mcs2_proxy_partner_interview,bxjbsi00,Paid work since child 9 months old,-1.0,Not applicable
+781732,MCS,mcs2_proxy_partner_interview,bxjbsi00,Paid work since child 9 months old,1.0,Yes
+781733,MCS,mcs2_proxy_partner_interview,bxjbsi00,Paid work since child 9 months old,2.0,No
+781734,MCS,mcs2_proxy_partner_interview,bxjbsi00,Paid work since child 9 months old,8.0,Don't know
+781735,MCS,mcs2_proxy_partner_interview,bxjbsi00,Paid work since child 9 months old,9.0,(REFUSED)
+781736,MCS,mcs2_proxy_partner_interview,bxevrw00,Ever had a paid job since full-time education,-1.0,Not applicable
+781737,MCS,mcs2_proxy_partner_interview,bxevrw00,Ever had a paid job since full-time education,1.0,Yes
+781738,MCS,mcs2_proxy_partner_interview,bxevrw00,Ever had a paid job since full-time education,2.0,No
+781739,MCS,mcs2_proxy_partner_interview,bxevrw00,Ever had a paid job since full-time education,8.0,Don't know
+781740,MCS,mcs2_proxy_partner_interview,bxevrw00,Ever had a paid job since full-time education,9.0,(REFUSED)
+781741,MCS,mcs2_proxy_partner_interview,bxjbso00_tr3,Main job (coded - SOC2000)   [truncated to 3 characters],,
+781742,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),-1.0,Not applicable
+781743,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),1.0,Large emp
+781744,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),2.0,Hi manag
+781745,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),3.1,Hi prof trad
+781746,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),3.2,Hi prof new
+781747,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),3.3,Hi prof trad s-emp
+781748,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),3.4,Hi prof new s-emp
+781749,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),4.1,Lo prof trad
+781750,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),4.2,Lo prof new
+781751,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),4.3,Lo prof trad s-emp
+781752,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),4.4,Lo prof new s-emp
+781753,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),5.0,Lower managers
+781754,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),6.0,Hi supervisory
+781755,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),7.1,Intermed clerical
+781756,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),7.2,Intermed service
+781757,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),7.3,Intermed techncl
+781758,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),7.4,Intermed engineerng
+781759,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),8.1,Small emp indust'
+781760,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),8.2,Sm emp agric
+781761,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),9.1,S-emp non profl
+781762,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),9.2,S-emp agric
+781763,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),10.0,Lower supervisors
+781764,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),11.1,Lo tech craft
+781765,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),11.2,Lo tech operative
+781766,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),12.1,Semi-rou sales
+781767,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),12.2,Semi-rou service
+781768,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),12.3,Semi-rou techncl
+781769,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),12.4,Semi-rou operative
+781770,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),12.5,Semi-rou gric
+781771,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),12.6,Semi-rou clerical
+781772,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),12.7,Semi-rou childcare
+781773,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),13.1,Routine sales
+781774,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),13.2,Routine productn
+781775,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),13.3,Routine tech
+781776,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),13.4,Routine operative
+781777,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),13.5,Routine agric
+781778,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),14.1,Never worked
+781779,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),14.2,Unemp
+781780,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),15.0,F-t students
+781781,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),16.0,"Not stated, inad desc"
+781782,MCS,mcs2_proxy_partner_interview,bxjbns00,Main job (coded - NS-SEC),17.0,Unclassif other
+781783,MCS,mcs2_proxy_partner_interview,bxemps00,Whether employee or self-employed in main job,-1.0,Not applicable
+781784,MCS,mcs2_proxy_partner_interview,bxemps00,Whether employee or self-employed in main job,1.0,Employee
+781785,MCS,mcs2_proxy_partner_interview,bxemps00,Whether employee or self-employed in main job,2.0,Self-employed
+781786,MCS,mcs2_proxy_partner_interview,bxemps00,Whether employee or self-employed in main job,3.0,Don't know
+781787,MCS,mcs2_proxy_partner_interview,bxemps00,Whether employee or self-employed in main job,4.0,(REFUSED)
+781788,MCS,mcs2_proxy_partner_interview,bxsupv00,Managerial duties/supervising other employees,-8.0,Dont know
+781789,MCS,mcs2_proxy_partner_interview,bxsupv00,Managerial duties/supervising other employees,-1.0,Not applicable
+781790,MCS,mcs2_proxy_partner_interview,bxsupv00,Managerial duties/supervising other employees,1.0,Manager
+781791,MCS,mcs2_proxy_partner_interview,bxsupv00,Managerial duties/supervising other employees,2.0,Foreman/supervisor
+781792,MCS,mcs2_proxy_partner_interview,bxsupv00,Managerial duties/supervising other employees,3.0,Not a manager or supervisor
+781793,MCS,mcs2_proxy_partner_interview,bxsupv00,Managerial duties/supervising other employees,4.0,Don't know
+781794,MCS,mcs2_proxy_partner_interview,bxsupv00,Managerial duties/supervising other employees,5.0,(REFUSED)
+781795,MCS,mcs2_proxy_partner_interview,bxsupn00,Whether respondent supervises more than 25 people,-8.0,Dont know
+781796,MCS,mcs2_proxy_partner_interview,bxsupn00,Whether respondent supervises more than 25 people,-1.0,Not applicable
+781797,MCS,mcs2_proxy_partner_interview,bxsupn00,Whether respondent supervises more than 25 people,1.0,Yes
+781798,MCS,mcs2_proxy_partner_interview,bxsupn00,Whether respondent supervises more than 25 people,2.0,No
+781799,MCS,mcs2_proxy_partner_interview,bxsupn00,Whether respondent supervises more than 25 people,3.0,Don't know
+781800,MCS,mcs2_proxy_partner_interview,bxsupn00,Whether respondent supervises more than 25 people,4.0,(REFUSED)
+781801,MCS,mcs2_proxy_partner_interview,bxjbsy00,Year started job,-9.0,Refused
+781802,MCS,mcs2_proxy_partner_interview,bxjbsy00,Year started job,-8.0,Dont Know
+781803,MCS,mcs2_proxy_partner_interview,bxjbsy00,Year started job,-1.0,Not applicable
+781804,MCS,mcs2_proxy_partner_interview,bxjbsm00,Month started job,-9.0,Refused
+781805,MCS,mcs2_proxy_partner_interview,bxjbsm00,Month started job,-8.0,Dont Know
+781806,MCS,mcs2_proxy_partner_interview,bxjbsm00,Month started job,-1.0,Not applicable
+781807,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,5.0,25-49
+781808,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,6.0,50-99
+781809,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,7.0,100-199
+781810,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,8.0,200-499
+781811,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,9.0,500-999
+781812,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,10.0,1000 or more
+781813,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,11.0,"DK, fewer than 25"
+781814,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,12.0,"DK, 25 or more"
+781815,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,13.0,Don't know at all
+781816,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,14.0,(REFUSED)
+781817,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,-1.0,Not applicable
+781818,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,1.0,{works/worked} alone
+781819,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,2.0,1-2
+781820,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,3.0,3-9
+781821,MCS,mcs2_proxy_partner_interview,bxempn00,How many people work at workplace,4.0,10-24
+781822,MCS,mcs2_proxy_partner_interview,bxstjy00,End of paid work PERIOD with employer or continuous self-employment: YEAR,-9.0,Refused
+781823,MCS,mcs2_proxy_partner_interview,bxstjy00,End of paid work PERIOD with employer or continuous self-employment: YEAR,-8.0,Dont Know
+781824,MCS,mcs2_proxy_partner_interview,bxstjy00,End of paid work PERIOD with employer or continuous self-employment: YEAR,-1.0,Not applicable
+781825,MCS,mcs2_proxy_partner_interview,bxstjm00,End of period of paid work with employer or continuous self-employment: MONTH,-9.0,Refused
+781826,MCS,mcs2_proxy_partner_interview,bxstjm00,End of period of paid work with employer or continuous self-employment: MONTH,-8.0,Dont Know
+781827,MCS,mcs2_proxy_partner_interview,bxstjm00,End of period of paid work with employer or continuous self-employment: MONTH,-1.0,Not applicable
+781828,MCS,mcs2_proxy_partner_interview,bxempp0a,Current pensions (Employers final salary occupational pension scheme) MC1,-1.0,Not applicable
+781829,MCS,mcs2_proxy_partner_interview,bxempp0a,Current pensions (Employers final salary occupational pension scheme) MC1,0.0,No
+781830,MCS,mcs2_proxy_partner_interview,bxempp0a,Current pensions (Employers final salary occupational pension scheme) MC1,1.0,Yes
+781831,MCS,mcs2_proxy_partner_interview,bxempp0b,Current pensions (Employers money purchase (or annuity) pension scheme) MC2,-1.0,Not applicable
+781832,MCS,mcs2_proxy_partner_interview,bxempp0b,Current pensions (Employers money purchase (or annuity) pension scheme) MC2,0.0,No
+781833,MCS,mcs2_proxy_partner_interview,bxempp0b,Current pensions (Employers money purchase (or annuity) pension scheme) MC2,1.0,Yes
+781834,MCS,mcs2_proxy_partner_interview,bxempp0c,Current pensions (Employers other scheme,-1.0,Not applicable
+781835,MCS,mcs2_proxy_partner_interview,bxempp0c,Current pensions (Employers other scheme,0.0,No
+781836,MCS,mcs2_proxy_partner_interview,bxempp0c,Current pensions (Employers other scheme,1.0,Yes
+781837,MCS,mcs2_proxy_partner_interview,bxempp0d,Current pensions (A personal pension scheme) MC4,-1.0,Not applicable
+781838,MCS,mcs2_proxy_partner_interview,bxempp0d,Current pensions (A personal pension scheme) MC4,0.0,No
+781839,MCS,mcs2_proxy_partner_interview,bxempp0d,Current pensions (A personal pension scheme) MC4,1.0,Yes
+781840,MCS,mcs2_proxy_partner_interview,bxempp0e,Current pensions (A stakeholder pension) MC5,-1.0,Not applicable
+781841,MCS,mcs2_proxy_partner_interview,bxempp0e,Current pensions (A stakeholder pension) MC5,0.0,No
+781842,MCS,mcs2_proxy_partner_interview,bxempp0e,Current pensions (A stakeholder pension) MC5,1.0,Yes
+781843,MCS,mcs2_proxy_partner_interview,bxempp0f,Current pensions (None of these) MC6,-1.0,Not applicable
+781844,MCS,mcs2_proxy_partner_interview,bxempp0f,Current pensions (None of these) MC6,0.0,No
+781845,MCS,mcs2_proxy_partner_interview,bxempp0f,Current pensions (None of these) MC6,1.0,Yes
+781846,MCS,mcs2_proxy_partner_interview,bxempp0g,Current pensions - Dont know MC7,-8.0,Dont know
+781847,MCS,mcs2_proxy_partner_interview,bxempp0g,Current pensions - Dont know MC7,-1.0,Not applicable
+781848,MCS,mcs2_proxy_partner_interview,bxempp0g,Current pensions - Dont know MC7,0.0,No
+781849,MCS,mcs2_proxy_partner_interview,bxempp0g,Current pensions - Dont know MC7,1.0,Yes
+781850,MCS,mcs2_proxy_partner_interview,bxempp0h,Current pensions - Refused MC8,-1.0,Not applicable
+781851,MCS,mcs2_proxy_partner_interview,bxempp0h,Current pensions - Refused MC8,0.0,No
+781852,MCS,mcs2_proxy_partner_interview,bxempp0h,Current pensions - Refused MC8,1.0,Yes
+781853,MCS,mcs2_proxy_partner_interview,bxseem00,Number of people employees (self-employed),-1.0,Not applicable
+781854,MCS,mcs2_proxy_partner_interview,bxseem00,Number of people employees (self-employed),1.0,Works alone or only with partner
+781855,MCS,mcs2_proxy_partner_interview,bxseem00,Number of people employees (self-employed),2.0,Less than 25 employees
+781856,MCS,mcs2_proxy_partner_interview,bxseem00,Number of people employees (self-employed),3.0,25 or more employees
+781857,MCS,mcs2_proxy_partner_interview,bxseem00,Number of people employees (self-employed),4.0,Don't know
+781858,MCS,mcs2_proxy_partner_interview,bxseem00,Number of people employees (self-employed),5.0,(REFUSED)
+781859,MCS,mcs2_proxy_partner_interview,bxpsem00,Has personal pension scheme,-8.0,Dont know
+781860,MCS,mcs2_proxy_partner_interview,bxpsem00,Has personal pension scheme,-1.0,Not applicable
+781861,MCS,mcs2_proxy_partner_interview,bxpsem00,Has personal pension scheme,1.0,Yes
+781862,MCS,mcs2_proxy_partner_interview,bxpsem00,Has personal pension scheme,2.0,No
+781863,MCS,mcs2_proxy_partner_interview,bxpsem00,Has personal pension scheme,3.0,Is making other provision (e.g. assets
+781864,MCS,mcs2_proxy_partner_interview,bxpsem00,Has personal pension scheme,4.0,Don't know
+781865,MCS,mcs2_proxy_partner_interview,bxpsem00,Has personal pension scheme,5.0,(REFUSED)
+781866,MCS,mcs2_proxy_partner_interview,bxwkhr00,How many hours per week worked (incl overtime,-9.0,Refused
+781867,MCS,mcs2_proxy_partner_interview,bxwkhr00,How many hours per week worked (incl overtime,-8.0,Dont Know
+781868,MCS,mcs2_proxy_partner_interview,bxwkhr00,How many hours per week worked (incl overtime,-1.0,Not applicable
+781869,MCS,mcs2_proxy_partner_interview,bxwkaw00,Frequency works away from home overnight,-8.0,Dont know
+781870,MCS,mcs2_proxy_partner_interview,bxwkaw00,Frequency works away from home overnight,-1.0,Not applicable
+781871,MCS,mcs2_proxy_partner_interview,bxwkaw00,Frequency works away from home overnight,1.0,Every week
+781872,MCS,mcs2_proxy_partner_interview,bxwkaw00,Frequency works away from home overnight,2.0,At least once per month
+781873,MCS,mcs2_proxy_partner_interview,bxwkaw00,Frequency works away from home overnight,3.0,Less than once per month
+781874,MCS,mcs2_proxy_partner_interview,bxwkaw00,Frequency works away from home overnight,4.0,Never
+781875,MCS,mcs2_proxy_partner_interview,bxwkaw00,Frequency works away from home overnight,5.0,Don't know
+781876,MCS,mcs2_proxy_partner_interview,bxneta00,NET take-home pay last time,-9.0,Refused
+781877,MCS,mcs2_proxy_partner_interview,bxneta00,NET take-home pay last time,-8.0,Dont Know
+781878,MCS,mcs2_proxy_partner_interview,bxneta00,NET take-home pay last time,-1.0,Not applicable
+781879,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),-8.0,Dont know
+781880,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),-1.0,Not applicable
+781881,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),1.0,1 week
+781882,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),2.0,Fortnight
+781883,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),3.0,Four weeks
+781884,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),4.0,Calendar month
+781885,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),5.0,Year
+781886,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),6.0,Other (specify)
+781887,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),7.0,Don't know
+781888,MCS,mcs2_proxy_partner_interview,bxnetp00,Net (take-home) pay last time (period),8.0,(REFUSED)
+781889,MCS,mcs2_proxy_partner_interview,bxgroa00,Amount last paid (gross),-9.0,Refused
+781890,MCS,mcs2_proxy_partner_interview,bxgroa00,Amount last paid (gross),-8.0,Dont Know
+781891,MCS,mcs2_proxy_partner_interview,bxgroa00,Amount last paid (gross),-1.0,Not applicable
+781892,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,-1.0,Not applicable
+781893,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,1.0,1 week
+781894,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,2.0,Fortnight
+781895,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,3.0,Four weeks
+781896,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,4.0,Calendar month
+781897,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,5.0,Year
+781898,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,6.0,Other (specify)
+781899,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,7.0,Don't know
+781900,MCS,mcs2_proxy_partner_interview,bxgrop00,Period covered by gross pay,8.0,(REFUSED)
+781901,MCS,mcs2_proxy_partner_interview,bxsepa00,Net (take-home) income in last year (self-employed),-9.0,Refused
+781902,MCS,mcs2_proxy_partner_interview,bxsepa00,Net (take-home) income in last year (self-employed),-8.0,Dont Know
+781903,MCS,mcs2_proxy_partner_interview,bxsepa00,Net (take-home) income in last year (self-employed),-1.0,Not applicable
+781904,MCS,mcs2_proxy_partner_interview,bxedus00,Acquired new qualifications since last interview,-8.0,Dont know
+781905,MCS,mcs2_proxy_partner_interview,bxedus00,Acquired new qualifications since last interview,-1.0,Not applicable
+781906,MCS,mcs2_proxy_partner_interview,bxedus00,Acquired new qualifications since last interview,1.0,Yes
+781907,MCS,mcs2_proxy_partner_interview,bxedus00,Acquired new qualifications since last interview,2.0,No
+781908,MCS,mcs2_proxy_partner_interview,bxedus00,Acquired new qualifications since last interview,3.0,Don't know
+781909,MCS,mcs2_proxy_partner_interview,bxedus00,Acquired new qualifications since last interview,4.0,(REFUSED)
+781910,MCS,mcs2_proxy_partner_interview,bxnacq0a,New academic quals (Higher degree) MC1,-1.0,Not applicable
+781911,MCS,mcs2_proxy_partner_interview,bxnacq0a,New academic quals (Higher degree) MC1,0.0,No
+781912,MCS,mcs2_proxy_partner_interview,bxnacq0a,New academic quals (Higher degree) MC1,1.0,Yes
+781913,MCS,mcs2_proxy_partner_interview,bxnacq0b,New academic quals (First degree) MC2,-1.0,Not applicable
+781914,MCS,mcs2_proxy_partner_interview,bxnacq0b,New academic quals (First degree) MC2,0.0,No
+781915,MCS,mcs2_proxy_partner_interview,bxnacq0b,New academic quals (First degree) MC2,1.0,Yes
+781916,MCS,mcs2_proxy_partner_interview,bxnacq0c,New academic quals (Diplomas in higher education) MC3,-1.0,Not applicable
+781917,MCS,mcs2_proxy_partner_interview,bxnacq0c,New academic quals (Diplomas in higher education) MC3,0.0,No
+781918,MCS,mcs2_proxy_partner_interview,bxnacq0c,New academic quals (Diplomas in higher education) MC3,1.0,Yes
+781919,MCS,mcs2_proxy_partner_interview,bxnacq0d,New academic quals (A AS S levels) MC4,-1.0,Not applicable
+781920,MCS,mcs2_proxy_partner_interview,bxnacq0d,New academic quals (A AS S levels) MC4,0.0,No
+781921,MCS,mcs2_proxy_partner_interview,bxnacq0d,New academic quals (A AS S levels) MC4,1.0,Yes
+781922,MCS,mcs2_proxy_partner_interview,bxnacq0e,New academic quals (O level GCSE grades A-C) MC5,-1.0,Not applicable
+781923,MCS,mcs2_proxy_partner_interview,bxnacq0e,New academic quals (O level GCSE grades A-C) MC5,0.0,No
+781924,MCS,mcs2_proxy_partner_interview,bxnacq0e,New academic quals (O level GCSE grades A-C) MC5,1.0,Yes
+781925,MCS,mcs2_proxy_partner_interview,bxnacq0f,New academic quals (GCSE grades D-G) MC6,-1.0,Not applicable
+781926,MCS,mcs2_proxy_partner_interview,bxnacq0f,New academic quals (GCSE grades D-G) MC6,0.0,No
+781927,MCS,mcs2_proxy_partner_interview,bxnacq0f,New academic quals (GCSE grades D-G) MC6,1.0,Yes
+781928,MCS,mcs2_proxy_partner_interview,bxnacq0g,New academic quals (Other academic qualifications incl) MC7,-1.0,Not applicable
+781929,MCS,mcs2_proxy_partner_interview,bxnacq0g,New academic quals (Other academic qualifications incl) MC7,0.0,No
+781930,MCS,mcs2_proxy_partner_interview,bxnacq0g,New academic quals (Other academic qualifications incl) MC7,1.0,Yes
+781931,MCS,mcs2_proxy_partner_interview,bxnacq0h,New academic quals (None of these qualifications) MC8,-1.0,Not applicable
+781932,MCS,mcs2_proxy_partner_interview,bxnacq0h,New academic quals (None of these qualifications) MC8,0.0,No
+781933,MCS,mcs2_proxy_partner_interview,bxnacq0h,New academic quals (None of these qualifications) MC8,1.0,Yes
+781934,MCS,mcs2_proxy_partner_interview,bxnacq0i,New academic qualifications - Dont know MC9,-8.0,Dont know
+781935,MCS,mcs2_proxy_partner_interview,bxnacq0i,New academic qualifications - Dont know MC9,-1.0,Not applicable
+781936,MCS,mcs2_proxy_partner_interview,bxnacq0i,New academic qualifications - Dont know MC9,0.0,No
+781937,MCS,mcs2_proxy_partner_interview,bxnacq0i,New academic qualifications - Dont know MC9,1.0,Yes
+781938,MCS,mcs2_proxy_partner_interview,bxnacq0j,New academic qualifications - Refused MC10,-1.0,Not applicable
+781939,MCS,mcs2_proxy_partner_interview,bxnacq0j,New academic qualifications - Refused MC10,0.0,No
+781940,MCS,mcs2_proxy_partner_interview,bxnacq0j,New academic qualifications - Refused MC10,1.0,Yes
+781941,MCS,mcs2_proxy_partner_interview,bxnvcq0a,New vocational quals (Professional qualifs at degree level) MC1,-1.0,Not applicable
+781942,MCS,mcs2_proxy_partner_interview,bxnvcq0a,New vocational quals (Professional qualifs at degree level) MC1,0.0,No
+781943,MCS,mcs2_proxy_partner_interview,bxnvcq0a,New vocational quals (Professional qualifs at degree level) MC1,1.0,Yes
+781944,MCS,mcs2_proxy_partner_interview,bxnvcq0b,New vocational quals (Nursing or other medical qualifications) MC2,-1.0,Not applicable
+781945,MCS,mcs2_proxy_partner_interview,bxnvcq0b,New vocational quals (Nursing or other medical qualifications) MC2,0.0,No
+781946,MCS,mcs2_proxy_partner_interview,bxnvcq0b,New vocational quals (Nursing or other medical qualifications) MC2,1.0,Yes
+781947,MCS,mcs2_proxy_partner_interview,bxnvcq0c,New vocational quals (NVQ SVQ GSVQ level 3) MC3,-1.0,Not applicable
+781948,MCS,mcs2_proxy_partner_interview,bxnvcq0c,New vocational quals (NVQ SVQ GSVQ level 3) MC3,0.0,No
+781949,MCS,mcs2_proxy_partner_interview,bxnvcq0c,New vocational quals (NVQ SVQ GSVQ level 3) MC3,1.0,Yes
+781950,MCS,mcs2_proxy_partner_interview,bxnvcq0d,New vocational quals (Trade apprenticeships) MC4,-1.0,Not applicable
+781951,MCS,mcs2_proxy_partner_interview,bxnvcq0d,New vocational quals (Trade apprenticeships) MC4,0.0,No
+781952,MCS,mcs2_proxy_partner_interview,bxnvcq0d,New vocational quals (Trade apprenticeships) MC4,1.0,Yes
+781953,MCS,mcs2_proxy_partner_interview,bxnvcq0e,New vocational quals (NVQ SVQ GSVQ level 2) MC5,-1.0,Not applicable
+781954,MCS,mcs2_proxy_partner_interview,bxnvcq0e,New vocational quals (NVQ SVQ GSVQ level 2) MC5,0.0,No
+781955,MCS,mcs2_proxy_partner_interview,bxnvcq0e,New vocational quals (NVQ SVQ GSVQ level 2) MC5,1.0,Yes
+781956,MCS,mcs2_proxy_partner_interview,bxnvcq0f,New vocational quals (NVQ SVQ GSVQ level 1) MC6,-1.0,Not applicable
+781957,MCS,mcs2_proxy_partner_interview,bxnvcq0f,New vocational quals (NVQ SVQ GSVQ level 1) MC6,0.0,No
+781958,MCS,mcs2_proxy_partner_interview,bxnvcq0f,New vocational quals (NVQ SVQ GSVQ level 1) MC6,1.0,Yes
+781959,MCS,mcs2_proxy_partner_interview,bxnvcq0g,New vocational quals (Other vocational qualificiations incl. overseas) MC7,-1.0,Not applicable
+781960,MCS,mcs2_proxy_partner_interview,bxnvcq0g,New vocational quals (Other vocational qualificiations incl. overseas) MC7,0.0,No
+781961,MCS,mcs2_proxy_partner_interview,bxnvcq0g,New vocational quals (Other vocational qualificiations incl. overseas) MC7,1.0,Yes
+781962,MCS,mcs2_proxy_partner_interview,bxnvcq0h,New vocational quals (None of these qualifications) MC8,-1.0,Not applicable
+781963,MCS,mcs2_proxy_partner_interview,bxnvcq0h,New vocational quals (None of these qualifications) MC8,0.0,No
+781964,MCS,mcs2_proxy_partner_interview,bxnvcq0h,New vocational quals (None of these qualifications) MC8,1.0,Yes
+781965,MCS,mcs2_proxy_partner_interview,bxnvcq0i,New vocational qualifications - Dont know MC9,-8.0,Dont know
+781966,MCS,mcs2_proxy_partner_interview,bxnvcq0i,New vocational qualifications - Dont know MC9,-1.0,Not applicable
+781967,MCS,mcs2_proxy_partner_interview,bxnvcq0i,New vocational qualifications - Dont know MC9,0.0,No
+781968,MCS,mcs2_proxy_partner_interview,bxnvcq0i,New vocational qualifications - Dont know MC9,1.0,Yes
+781969,MCS,mcs2_proxy_partner_interview,bxnvcq0j,New vocational qualifications - Refused MC10,-1.0,Not applicable
+781970,MCS,mcs2_proxy_partner_interview,bxnvcq0j,New vocational qualifications - Refused MC10,0.0,No
+781971,MCS,mcs2_proxy_partner_interview,bxnvcq0j,New vocational qualifications - Refused MC10,1.0,Yes
+781972,MCS,mcs2_proxy_partner_interview,bxlfte00,Age left full-time education,-9.0,Refused
+781973,MCS,mcs2_proxy_partner_interview,bxlfte00,Age left full-time education,-8.0,Dont Know
+781974,MCS,mcs2_proxy_partner_interview,bxlfte00,Age left full-time education,-1.0,Not applicable
+781975,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,-1.0,Not applicable
+781976,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,1.0,Higher degree
+781977,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,2.0,First degree
+781978,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,3.0,Diplomas in higher education
+781979,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,4.0,A / AS / S levels
+781980,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,5.0,O level / GCSE grades A-C
+781981,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,6.0,GCSE grades D-G
+781982,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,7.0,Other academic qualifications
+781983,MCS,mcs2_proxy_partner_interview,bxacqu00,Highest Academic qualification,8.0,None of these qualifications
+781984,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,2.0,Nursing / other medical qualifications
+781985,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,3.0,NVQ / SVQ / GSVQ level 3
+781986,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,4.0,Trade apprenticeships
+781987,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,5.0,NVQ / SVQ / GSVQ level 2
+781988,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,6.0,NVQ / SVQ / GSVQ level 1
+781989,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,7.0,Other vocational qualifications
+781990,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,8.0,None of these qualifications
+781991,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,9.0,Don't know
+781992,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,10.0,(REFUSED)
+781993,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,-8.0,Dont know
+781994,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,-1.0,Not applicable
+781995,MCS,mcs2_proxy_partner_interview,bxvcqu00,Highest Vocational qualification,1.0,Professional quals at degree level
+781996,MCS,mcs2_proxy_partner_interview,bxotch00,Any other children at all not living in HH now,-1.0,Not applicable
+781997,MCS,mcs2_proxy_partner_interview,bxotch00,Any other children at all not living in HH now,1.0,Yes
+781998,MCS,mcs2_proxy_partner_interview,bxotch00,Any other children at all not living in HH now,2.0,No
+781999,MCS,mcs2_proxy_partner_interview,bxotch00,Any other children at all not living in HH now,3.0,Donâ€™t know
+782000,MCS,mcs2_proxy_partner_interview,bxotch00,Any other children at all not living in HH now,4.0,Refused
+782001,MCS,mcs2_proxy_partner_interview,bxotse00,Wheter ever sees non-res child,-1.0,Not applicable
+782002,MCS,mcs2_proxy_partner_interview,bxotse00,Wheter ever sees non-res child,1.0,Yes
+782003,MCS,mcs2_proxy_partner_interview,bxotse00,Wheter ever sees non-res child,2.0,No
+782004,MCS,mcs2_proxy_partner_interview,bxotse00,Wheter ever sees non-res child,3.0,Donâ€™t know
+782005,MCS,mcs2_proxy_partner_interview,bxotse00,Wheter ever sees non-res child,4.0,Refused
+782006,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,-1.0,Not applicable
+782007,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,1.0,Every day
+782008,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,2.0,Less often but more than once a week
+782009,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,3.0,Once a week
+782010,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,4.0,Less often but at least once a month
+782011,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,5.0,Less often than once a month
+782012,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,6.0,Donâ€™t know
+782013,MCS,mcs2_proxy_partner_interview,bxotso00,How often sees non-res child NRC,7.0,Refused
+782014,MCS,mcs2_proxy_partner_interview,bxotma00,Made regular maintenance payment for other child R1,-1.0,Not applicable
+782015,MCS,mcs2_proxy_partner_interview,bxotma00,Made regular maintenance payment for other child R1,1.0,Yes
+782016,MCS,mcs2_proxy_partner_interview,bxotma00,Made regular maintenance payment for other child R1,2.0,No
+782017,MCS,mcs2_proxy_partner_interview,bxotma00,Made regular maintenance payment for other child R1,3.0,Donâ€™t know
+782018,MCS,mcs2_proxy_partner_interview,bxotma00,Made regular maintenance payment for other child R1,4.0,Refused
+782019,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,-1.0,Not Applicable
+782020,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,1.0,Respondent's husband/wife/partner
+782021,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,2.0,Female adult household member
+782022,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,3.0,Male adult household member
+782023,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,4.0,Female child in household
+782024,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,5.0,Male child in household
+782025,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,6.0,Female non household member
+782026,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,7.0,Male non household member
+782027,MCS,mcs2_proxy_partner_interview,bxtran00,Was Interview translated,8.0,Interviewer
+782028,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,-1.0,Not Applicable
+782029,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,1.0,Welsh
+782030,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,2.0,Urdu
+782031,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,3.0,Punjabi
+782032,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,4.0,Gujarati
+782033,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,5.0,Hindi
+782034,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,6.0,Bengali
+782035,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,7.0,Sylheti
+782036,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,9.0,Somali
+782037,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,10.0,Tamil
+782038,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,11.0,Turkish
+782039,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,12.0,Kurdish
+782040,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,13.0,Arabic
+782041,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,14.0,Other - European language
+782042,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,15.0,Other - African language
+782043,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,16.0,Other - Asian language
+782044,MCS,mcs2_proxy_partner_interview,bxlanp00,Which language was it translated in,17.0,Other
+782045,MCS,mcs2_proxy_partner_interview,bxptra00,Who translated the interview,,
+782046,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,-9.0,Refusal
+782047,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,-8.0,Dont know
+782048,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,-1.0,Not applicable
+782049,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,1.0,Away in forces
+782050,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,2.0,Working away
+782051,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,3.0,Away in hospital
+782052,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,5.0,Incapacitated (unable to understand and
+782053,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,6.0,Too busy
+782054,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,7.0,Away on holiday
+782055,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,8.0,Language difficulties
+782056,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,9.0,Not present in household
+782057,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,10.0,Ill or sick
+782058,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,11.0,Uncodable response
+782059,MCS,mcs2_proxy_partner_interview,bxpxrc0r,Why is proxy taking place (final) - recoded,99.0,Recoded - see SecureAccess data
+782060,MCS,mcs2_proxy_partner_interview,avail_from_dt,,,
+782061,MCS,mcs2_proxy_partner_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

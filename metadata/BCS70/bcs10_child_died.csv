@@ -1,0 +1,57 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+17973,BCS70,bcs10_child_died,study_id_e,,,
+17974,BCS70,bcs10_child_died,dchngno,sortkey: Loop ID,,
+17975,BCS70,bcs10_child_died,b10dchsex,Sex of child that died,-9.0,Refused
+17976,BCS70,bcs10_child_died,b10dchsex,Sex of child that died,-8.0,Not known
+17977,BCS70,bcs10_child_died,b10dchsex,Sex of child that died,-1.0,Not applicable
+17978,BCS70,bcs10_child_died,b10dchsex,Sex of child that died,1.0,Male
+17979,BCS70,bcs10_child_died,b10dchsex,Sex of child that died,2.0,Female
+17980,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,-9.0,Refused
+17981,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,-8.0,Not known
+17982,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,-1.0,Not applicable
+17983,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,1.0,January
+17984,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,2.0,February
+17985,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,3.0,March
+17986,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,4.0,April
+17987,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,5.0,May
+17988,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,6.0,June
+17989,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,7.0,July
+17990,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,8.0,August
+17991,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,9.0,September
+17992,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,10.0,October
+17993,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,11.0,November
+17994,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,12.0,December
+17995,BCS70,bcs10_child_died,b10dchdbm,Date of birth of child that died - MONTH,13.0,NoAnswer
+17996,BCS70,bcs10_child_died,b10dchdby,Date of birth of child that died - YEAR,-9.0,Refused
+17997,BCS70,bcs10_child_died,b10dchdby,Date of birth of child that died - YEAR,-8.0,Not known
+17998,BCS70,bcs10_child_died,b10dchdby,Date of birth of child that died - YEAR,-1.0,Not applicable
+17999,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,-9.0,Refused
+18000,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,-8.0,Not known
+18001,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,-1.0,Not applicable
+18002,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,1.0,Own child
+18003,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,2.0,Adopted child
+18004,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,3.0,Child of current spouse/partner
+18005,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,4.0,Child of previous spouse/partner
+18006,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,5.0,Fostered child
+18007,BCS70,bcs10_child_died,b10dchrtk,Child's relationship to CM,6.0,Other child
+18008,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,-9.0,Refused
+18009,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,-8.0,Not known
+18010,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,-1.0,Not applicable
+18011,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,1.0,January
+18012,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,2.0,February
+18013,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,3.0,March
+18014,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,4.0,April
+18015,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,5.0,May
+18016,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,6.0,June
+18017,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,7.0,July
+18018,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,8.0,August
+18019,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,9.0,September
+18020,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,10.0,October
+18021,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,11.0,November
+18022,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,12.0,December
+18023,BCS70,bcs10_child_died,b10dchdm,When child died MONTH,13.0,NoAnswer
+18024,BCS70,bcs10_child_died,b10dchdy,When child died YEAR,-9.0,Refused
+18025,BCS70,bcs10_child_died,b10dchdy,When child died YEAR,-8.0,Not known
+18026,BCS70,bcs10_child_died,b10dchdy,When child died YEAR,-1.0,Not applicable
+18027,BCS70,bcs10_child_died,v3,None,,
+18028,BCS70,bcs10_child_died,avail_from_dt,,,

@@ -1,0 +1,751 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+846729,MCS,mcs5_cm_cognitive_assessment,study_id_e,,,
+846730,MCS,mcs5_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+846731,MCS,mcs5_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+846732,MCS,mcs5_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+846733,MCS,mcs5_cm_cognitive_assessment,ecaint00,Anon Interviewer Number,,
+846734,MCS,mcs5_cm_cognitive_assessment,ecahnd00,Which element completed,1.0,Cognitive Assessments
+846735,MCS,mcs5_cm_cognitive_assessment,ecchc20a,Parental consent for all assessments given,-1.0,Not applicable
+846736,MCS,mcs5_cm_cognitive_assessment,ecchc20a,Parental consent for all assessments given,0.0,No
+846737,MCS,mcs5_cm_cognitive_assessment,ecchc20a,Parental consent for all assessments given,1.0,Yes
+846738,MCS,mcs5_cm_cognitive_assessment,ecchc20b,Parental consent for verbal similarities given,-1.0,Not applicable
+846739,MCS,mcs5_cm_cognitive_assessment,ecchc20b,Parental consent for verbal similarities given,0.0,No
+846740,MCS,mcs5_cm_cognitive_assessment,ecchc20b,Parental consent for verbal similarities given,1.0,Yes
+846741,MCS,mcs5_cm_cognitive_assessment,ecchc20c,Parental consent for memory task given,-1.0,Not applicable
+846742,MCS,mcs5_cm_cognitive_assessment,ecchc20c,Parental consent for memory task given,0.0,No
+846743,MCS,mcs5_cm_cognitive_assessment,ecchc20c,Parental consent for memory task given,1.0,Yes
+846744,MCS,mcs5_cm_cognitive_assessment,ecchc20d,Parental consent for decision-making task given,-1.0,Not applicable
+846745,MCS,mcs5_cm_cognitive_assessment,ecchc20d,Parental consent for decision-making task given,0.0,No
+846746,MCS,mcs5_cm_cognitive_assessment,ecchc20d,Parental consent for decision-making task given,1.0,Yes
+846747,MCS,mcs5_cm_cognitive_assessment,ecchc20e,Parental consent not given for any assessments,-1.0,Not applicable
+846748,MCS,mcs5_cm_cognitive_assessment,ecchc20e,Parental consent not given for any assessments,0.0,No
+846749,MCS,mcs5_cm_cognitive_assessment,ecchc20e,Parental consent not given for any assessments,1.0,Yes
+846750,MCS,mcs5_cm_cognitive_assessment,eccha20a,Child consent for all assessments given,-1.0,Not applicable
+846751,MCS,mcs5_cm_cognitive_assessment,eccha20a,Child consent for all assessments given,0.0,No
+846752,MCS,mcs5_cm_cognitive_assessment,eccha20a,Child consent for all assessments given,1.0,Yes
+846753,MCS,mcs5_cm_cognitive_assessment,eccha20b,Child consent for verbal similarities given,-1.0,Not applicable
+846754,MCS,mcs5_cm_cognitive_assessment,eccha20b,Child consent for verbal similarities given,0.0,No
+846755,MCS,mcs5_cm_cognitive_assessment,eccha20b,Child consent for verbal similarities given,1.0,Yes
+846756,MCS,mcs5_cm_cognitive_assessment,eccha20c,Child consent for memory task given,-1.0,Not applicable
+846757,MCS,mcs5_cm_cognitive_assessment,eccha20c,Child consent for memory task given,0.0,No
+846758,MCS,mcs5_cm_cognitive_assessment,eccha20c,Child consent for memory task given,1.0,Yes
+846759,MCS,mcs5_cm_cognitive_assessment,eccha20d,Child consent for decision-making task given,-1.0,Not applicable
+846760,MCS,mcs5_cm_cognitive_assessment,eccha20d,Child consent for decision-making task given,0.0,No
+846761,MCS,mcs5_cm_cognitive_assessment,eccha20d,Child consent for decision-making task given,1.0,Yes
+846762,MCS,mcs5_cm_cognitive_assessment,eccha20e,Child consent not given for any assessments,-1.0,Not applicable
+846763,MCS,mcs5_cm_cognitive_assessment,eccha20e,Child consent not given for any assessments,0.0,No
+846764,MCS,mcs5_cm_cognitive_assessment,eccha20e,Child consent not given for any assessments,1.0,Yes
+846765,MCS,mcs5_cm_cognitive_assessment,eccgdv00,Assessment Completed: Verbal Similarities,-1.0,Not applicable
+846766,MCS,mcs5_cm_cognitive_assessment,eccgdv00,Assessment Completed: Verbal Similarities,0.0,No
+846767,MCS,mcs5_cm_cognitive_assessment,eccgdv00,Assessment Completed: Verbal Similarities,1.0,Yes
+846768,MCS,mcs5_cm_cognitive_assessment,eccgdm00,Assessment Completed: Memory Task (SWM),-1.0,Not applicable
+846769,MCS,mcs5_cm_cognitive_assessment,eccgdm00,Assessment Completed: Memory Task (SWM),0.0,No
+846770,MCS,mcs5_cm_cognitive_assessment,eccgdm00,Assessment Completed: Memory Task (SWM),1.0,Yes
+846771,MCS,mcs5_cm_cognitive_assessment,eccgdd00,Assessment Completed: Decision Making (CGT),-1.0,Not applicable
+846772,MCS,mcs5_cm_cognitive_assessment,eccgdd00,Assessment Completed: Decision Making (CGT),0.0,No
+846773,MCS,mcs5_cm_cognitive_assessment,eccgdd00,Assessment Completed: Decision Making (CGT),1.0,Yes
+846774,MCS,mcs5_cm_cognitive_assessment,eccgnv00,Assessment to do now: Verbal Similarities,-1.0,Not applicable
+846775,MCS,mcs5_cm_cognitive_assessment,eccgnv00,Assessment to do now: Verbal Similarities,0.0,No
+846776,MCS,mcs5_cm_cognitive_assessment,eccgnv00,Assessment to do now: Verbal Similarities,1.0,Yes
+846777,MCS,mcs5_cm_cognitive_assessment,eccgnm00,Assessment to do now: Memory Task (SWM),-1.0,Not applicable
+846778,MCS,mcs5_cm_cognitive_assessment,eccgnm00,Assessment to do now: Memory Task (SWM),0.0,No
+846779,MCS,mcs5_cm_cognitive_assessment,eccgnm00,Assessment to do now: Memory Task (SWM),1.0,Yes
+846780,MCS,mcs5_cm_cognitive_assessment,eccgnd00,Assessment to do now: Decision Making (CGT),-1.0,Not applicable
+846781,MCS,mcs5_cm_cognitive_assessment,eccgnd00,Assessment to do now: Decision Making (CGT),0.0,No
+846782,MCS,mcs5_cm_cognitive_assessment,eccgnd00,Assessment to do now: Decision Making (CGT),1.0,Yes
+846783,MCS,mcs5_cm_cognitive_assessment,ecancd00,Were you able to administer verbal similarities assessment?,-1.0,Not applicable
+846784,MCS,mcs5_cm_cognitive_assessment,ecancd00,Were you able to administer verbal similarities assessment?,1.0,Yes - able to administer
+846785,MCS,mcs5_cm_cognitive_assessment,ecancd00,Were you able to administer verbal similarities assessment?,2.0,No - unable to administer
+846786,MCS,mcs5_cm_cognitive_assessment,ecqa0100,VS Banana,-9.0,Refused
+846787,MCS,mcs5_cm_cognitive_assessment,ecqa0100,VS Banana,-1.0,Not applicable
+846788,MCS,mcs5_cm_cognitive_assessment,ecqa0100,VS Banana,1.0,Correct response
+846789,MCS,mcs5_cm_cognitive_assessment,ecqa0100,VS Banana,2.0,Response requiring probing
+846790,MCS,mcs5_cm_cognitive_assessment,ecqa0200,VS Banana,-9.0,Refused
+846791,MCS,mcs5_cm_cognitive_assessment,ecqa0200,VS Banana,-1.0,Not applicable
+846792,MCS,mcs5_cm_cognitive_assessment,ecqa0200,VS Banana,1.0,Correct response
+846793,MCS,mcs5_cm_cognitive_assessment,ecqa0200,VS Banana,2.0,Response requiring probing
+846794,MCS,mcs5_cm_cognitive_assessment,ecdtot00,Total correct responses,-1.0,Not applicable
+846795,MCS,mcs5_cm_cognitive_assessment,ecdcox00,3 correct responses BEFORE 5 consecutive incorrect responses,-1.0,Not applicable
+846796,MCS,mcs5_cm_cognitive_assessment,ecdcox00,3 correct responses BEFORE 5 consecutive incorrect responses,1.0,Yes
+846797,MCS,mcs5_cm_cognitive_assessment,ecdcox00,3 correct responses BEFORE 5 consecutive incorrect responses,2.0,No
+846798,MCS,mcs5_cm_cognitive_assessment,ecq16i00,VS Syrup,-9.0,Refused
+846799,MCS,mcs5_cm_cognitive_assessment,ecq16i00,VS Syrup,-1.0,Not Applicable
+846800,MCS,mcs5_cm_cognitive_assessment,ecq16i00,VS Syrup,1.0,Correct response
+846801,MCS,mcs5_cm_cognitive_assessment,ecq16i00,VS Syrup,2.0,Response requiring probing
+846802,MCS,mcs5_cm_cognitive_assessment,ecq16i00,VS Syrup,3.0,Incorrect response
+846803,MCS,mcs5_cm_cognitive_assessment,ecq16q00,VS Syrup,-9.0,Refused
+846804,MCS,mcs5_cm_cognitive_assessment,ecq16q00,VS Syrup,-1.0,Not Applicable
+846805,MCS,mcs5_cm_cognitive_assessment,ecq16q00,VS Syrup,1.0,Correct response
+846806,MCS,mcs5_cm_cognitive_assessment,ecq16q00,VS Syrup,2.0,Incorrect response
+846807,MCS,mcs5_cm_cognitive_assessment,ecq16t00,VS Syrup,-9.0,Refused
+846808,MCS,mcs5_cm_cognitive_assessment,ecq16t00,VS Syrup,-1.0,Not Applicable
+846809,MCS,mcs5_cm_cognitive_assessment,ecq16t00,VS Syrup,1.0,Correct response
+846810,MCS,mcs5_cm_cognitive_assessment,ecq16t00,VS Syrup,2.0,Incorrect response
+846811,MCS,mcs5_cm_cognitive_assessment,ecq17i00,VS Water,-9.0,Refused
+846812,MCS,mcs5_cm_cognitive_assessment,ecq17i00,VS Water,-1.0,Not Applicable
+846813,MCS,mcs5_cm_cognitive_assessment,ecq17i00,VS Water,1.0,Correct response
+846814,MCS,mcs5_cm_cognitive_assessment,ecq17i00,VS Water,2.0,Response requiring probing
+846815,MCS,mcs5_cm_cognitive_assessment,ecq17i00,VS Water,3.0,Incorrect response
+846816,MCS,mcs5_cm_cognitive_assessment,ecq17q00,VS Water,-1.0,Not Applicable
+846817,MCS,mcs5_cm_cognitive_assessment,ecq17q00,VS Water,1.0,Correct response
+846818,MCS,mcs5_cm_cognitive_assessment,ecq17q00,VS Water,2.0,Incorrect response
+846819,MCS,mcs5_cm_cognitive_assessment,ecq17q00,VS Water,-9.0,Refused
+846820,MCS,mcs5_cm_cognitive_assessment,ecq17t00,VS Water,-9.0,Refused
+846821,MCS,mcs5_cm_cognitive_assessment,ecq17t00,VS Water,-1.0,Not Applicable
+846822,MCS,mcs5_cm_cognitive_assessment,ecq17t00,VS Water,1.0,Correct response
+846823,MCS,mcs5_cm_cognitive_assessment,ecq17t00,VS Water,2.0,Incorrect response
+846824,MCS,mcs5_cm_cognitive_assessment,ecq17t00,VS Water,4.0,No answer
+846825,MCS,mcs5_cm_cognitive_assessment,ecq18i00,VS Jar,-9.0,Refused
+846826,MCS,mcs5_cm_cognitive_assessment,ecq18i00,VS Jar,-1.0,Not Applicable
+846827,MCS,mcs5_cm_cognitive_assessment,ecq18i00,VS Jar,1.0,Correct response
+846828,MCS,mcs5_cm_cognitive_assessment,ecq18i00,VS Jar,2.0,Response requiring probing
+846829,MCS,mcs5_cm_cognitive_assessment,ecq18i00,VS Jar,3.0,Incorrect response
+846830,MCS,mcs5_cm_cognitive_assessment,ecq18q00,VS Jar,-9.0,Refused
+846831,MCS,mcs5_cm_cognitive_assessment,ecq18q00,VS Jar,-1.0,Not Applicable
+846832,MCS,mcs5_cm_cognitive_assessment,ecq18q00,VS Jar,1.0,Correct response
+846833,MCS,mcs5_cm_cognitive_assessment,ecq18q00,VS Jar,2.0,Incorrect response
+846834,MCS,mcs5_cm_cognitive_assessment,ecq19i00,VS Fur,-9.0,Refused
+846835,MCS,mcs5_cm_cognitive_assessment,ecq19i00,VS Fur,-1.0,Not Applicable
+846836,MCS,mcs5_cm_cognitive_assessment,ecq19i00,VS Fur,1.0,Correct response
+846837,MCS,mcs5_cm_cognitive_assessment,ecq19i00,VS Fur,2.0,Response requiring probing
+846838,MCS,mcs5_cm_cognitive_assessment,ecq19i00,VS Fur,3.0,Incorrect response
+846839,MCS,mcs5_cm_cognitive_assessment,ecq19q00,VS Fur,-9.0,Refused
+846840,MCS,mcs5_cm_cognitive_assessment,ecq19q00,VS Fur,-1.0,Not Applicable
+846841,MCS,mcs5_cm_cognitive_assessment,ecq19q00,VS Fur,1.0,Correct response
+846842,MCS,mcs5_cm_cognitive_assessment,ecq19q00,VS Fur,2.0,Incorrect response
+846843,MCS,mcs5_cm_cognitive_assessment,ecq20i00,VS Sun,-9.0,Refused
+846844,MCS,mcs5_cm_cognitive_assessment,ecq20i00,VS Sun,-1.0,Not Applicable
+846845,MCS,mcs5_cm_cognitive_assessment,ecq20i00,VS Sun,1.0,Correct response
+846846,MCS,mcs5_cm_cognitive_assessment,ecq20i00,VS Sun,2.0,Response requiring probing
+846847,MCS,mcs5_cm_cognitive_assessment,ecq20i00,VS Sun,3.0,Incorrect response
+846848,MCS,mcs5_cm_cognitive_assessment,ecq20q00,VS Sun,-9.0,Refused
+846849,MCS,mcs5_cm_cognitive_assessment,ecq20q00,VS Sun,-1.0,Not Applicable
+846850,MCS,mcs5_cm_cognitive_assessment,ecq20q00,VS Sun,1.0,Correct response
+846851,MCS,mcs5_cm_cognitive_assessment,ecq20q00,VS Sun,2.0,Incorrect response
+846852,MCS,mcs5_cm_cognitive_assessment,ecq21i00,VS Book,-9.0,Refused
+846853,MCS,mcs5_cm_cognitive_assessment,ecq21i00,VS Book,-1.0,Not Applicable
+846854,MCS,mcs5_cm_cognitive_assessment,ecq21i00,VS Book,1.0,Correct response
+846855,MCS,mcs5_cm_cognitive_assessment,ecq21i00,VS Book,2.0,Response requiring probing
+846856,MCS,mcs5_cm_cognitive_assessment,ecq21i00,VS Book,3.0,Incorrect response
+846857,MCS,mcs5_cm_cognitive_assessment,ecq21q00,VS Book,-9.0,Refused
+846858,MCS,mcs5_cm_cognitive_assessment,ecq21q00,VS Book,-1.0,Not Applicable
+846859,MCS,mcs5_cm_cognitive_assessment,ecq21q00,VS Book,1.0,Correct response
+846860,MCS,mcs5_cm_cognitive_assessment,ecq21q00,VS Book,2.0,Incorrect response
+846861,MCS,mcs5_cm_cognitive_assessment,ecq22i00,VS Past,-9.0,Refused
+846862,MCS,mcs5_cm_cognitive_assessment,ecq22i00,VS Past,-1.0,Not Applicable
+846863,MCS,mcs5_cm_cognitive_assessment,ecq22i00,VS Past,1.0,Correct response
+846864,MCS,mcs5_cm_cognitive_assessment,ecq22i00,VS Past,2.0,Response requiring probing
+846865,MCS,mcs5_cm_cognitive_assessment,ecq22i00,VS Past,3.0,Incorrect response
+846866,MCS,mcs5_cm_cognitive_assessment,ecq22q00,VS Past,-9.0,Refused
+846867,MCS,mcs5_cm_cognitive_assessment,ecq22q00,VS Past,-1.0,Not Applicable
+846868,MCS,mcs5_cm_cognitive_assessment,ecq22q00,VS Past,1.0,Correct response
+846869,MCS,mcs5_cm_cognitive_assessment,ecq22q00,VS Past,2.0,Incorrect response
+846870,MCS,mcs5_cm_cognitive_assessment,ecq23i00,VS Signature,-9.0,Refused
+846871,MCS,mcs5_cm_cognitive_assessment,ecq23i00,VS Signature,-1.0,Not Applicable
+846872,MCS,mcs5_cm_cognitive_assessment,ecq23i00,VS Signature,1.0,Correct response
+846873,MCS,mcs5_cm_cognitive_assessment,ecq23i00,VS Signature,2.0,Response requiring probing
+846874,MCS,mcs5_cm_cognitive_assessment,ecq23i00,VS Signature,3.0,Incorrect response
+846875,MCS,mcs5_cm_cognitive_assessment,ecq23q00,VS Signature,-9.0,Refused
+846876,MCS,mcs5_cm_cognitive_assessment,ecq23q00,VS Signature,-1.0,Not Applicable
+846877,MCS,mcs5_cm_cognitive_assessment,ecq23q00,VS Signature,1.0,Correct response
+846878,MCS,mcs5_cm_cognitive_assessment,ecq23q00,VS Signature,2.0,Incorrect response
+846879,MCS,mcs5_cm_cognitive_assessment,ecq24i00,VS Safety-pin,-9.0,Refused
+846880,MCS,mcs5_cm_cognitive_assessment,ecq24i00,VS Safety-pin,-1.0,Not Applicable
+846881,MCS,mcs5_cm_cognitive_assessment,ecq24i00,VS Safety-pin,1.0,Correct response
+846882,MCS,mcs5_cm_cognitive_assessment,ecq24i00,VS Safety-pin,2.0,Response requiring probing
+846883,MCS,mcs5_cm_cognitive_assessment,ecq24i00,VS Safety-pin,3.0,Incorrect response
+846884,MCS,mcs5_cm_cognitive_assessment,ecq24q00,VS Safety-pin,-9.0,Refused
+846885,MCS,mcs5_cm_cognitive_assessment,ecq24q00,VS Safety-pin,-1.0,Not Applicable
+846886,MCS,mcs5_cm_cognitive_assessment,ecq24q00,VS Safety-pin,1.0,Correct response
+846887,MCS,mcs5_cm_cognitive_assessment,ecq24q00,VS Safety-pin,2.0,Incorrect response
+846888,MCS,mcs5_cm_cognitive_assessment,ecq25i00,VS Tunnel,-9.0,Refused
+846889,MCS,mcs5_cm_cognitive_assessment,ecq25i00,VS Tunnel,-1.0,Not Applicable
+846890,MCS,mcs5_cm_cognitive_assessment,ecq25i00,VS Tunnel,1.0,Correct response
+846891,MCS,mcs5_cm_cognitive_assessment,ecq25i00,VS Tunnel,2.0,Response requiring probing
+846892,MCS,mcs5_cm_cognitive_assessment,ecq25i00,VS Tunnel,3.0,Incorrect response
+846893,MCS,mcs5_cm_cognitive_assessment,ecq25q00,VS Tunnel,-9.0,Refused
+846894,MCS,mcs5_cm_cognitive_assessment,ecq25q00,VS Tunnel,-1.0,Not Applicable
+846895,MCS,mcs5_cm_cognitive_assessment,ecq25q00,VS Tunnel,1.0,Correct response
+846896,MCS,mcs5_cm_cognitive_assessment,ecq25q00,VS Tunnel,2.0,Incorrect response
+846897,MCS,mcs5_cm_cognitive_assessment,ecq26i00,VS Fraud,1.0,Correct response
+846898,MCS,mcs5_cm_cognitive_assessment,ecq26i00,VS Fraud,2.0,Response requiring probing
+846899,MCS,mcs5_cm_cognitive_assessment,ecq26i00,VS Fraud,3.0,Incorrect response
+846900,MCS,mcs5_cm_cognitive_assessment,ecq26i00,VS Fraud,-9.0,Refused
+846901,MCS,mcs5_cm_cognitive_assessment,ecq26i00,VS Fraud,-1.0,Not Applicable
+846902,MCS,mcs5_cm_cognitive_assessment,ecq26q00,VS Fraud,-9.0,Refused
+846903,MCS,mcs5_cm_cognitive_assessment,ecq26q00,VS Fraud,-1.0,Not Applicable
+846904,MCS,mcs5_cm_cognitive_assessment,ecq26q00,VS Fraud,1.0,Correct response
+846905,MCS,mcs5_cm_cognitive_assessment,ecq26q00,VS Fraud,2.0,Incorrect response
+846906,MCS,mcs5_cm_cognitive_assessment,ecq27i00,VS Hurricane,-9.0,Refused
+846907,MCS,mcs5_cm_cognitive_assessment,ecq27i00,VS Hurricane,-1.0,Not Applicable
+846908,MCS,mcs5_cm_cognitive_assessment,ecq27i00,VS Hurricane,1.0,Correct response
+846909,MCS,mcs5_cm_cognitive_assessment,ecq27i00,VS Hurricane,2.0,Response requiring probing
+846910,MCS,mcs5_cm_cognitive_assessment,ecq27i00,VS Hurricane,3.0,Incorrect response
+846911,MCS,mcs5_cm_cognitive_assessment,ecq27q00,VS Hurricane,-9.0,Refused
+846912,MCS,mcs5_cm_cognitive_assessment,ecq27q00,VS Hurricane,-1.0,Not Applicable
+846913,MCS,mcs5_cm_cognitive_assessment,ecq27q00,VS Hurricane,1.0,Correct response
+846914,MCS,mcs5_cm_cognitive_assessment,ecq27q00,VS Hurricane,2.0,Incorrect response
+846915,MCS,mcs5_cm_cognitive_assessment,ecq28i00,VS Siren,-9.0,Refused
+846916,MCS,mcs5_cm_cognitive_assessment,ecq28i00,VS Siren,-1.0,Not Applicable
+846917,MCS,mcs5_cm_cognitive_assessment,ecq28i00,VS Siren,1.0,Correct response
+846918,MCS,mcs5_cm_cognitive_assessment,ecq28i00,VS Siren,2.0,Response requiring probing
+846919,MCS,mcs5_cm_cognitive_assessment,ecq28i00,VS Siren,3.0,Incorrect response
+846920,MCS,mcs5_cm_cognitive_assessment,ecq28q00,VS Siren,-9.0,Refused
+846921,MCS,mcs5_cm_cognitive_assessment,ecq28q00,VS Siren,-1.0,Not Applicable
+846922,MCS,mcs5_cm_cognitive_assessment,ecq28q00,VS Siren,1.0,Correct response
+846923,MCS,mcs5_cm_cognitive_assessment,ecq28q00,VS Siren,2.0,Incorrect response
+846924,MCS,mcs5_cm_cognitive_assessment,ecq08i00,VS Peas,-9.0,Refused
+846925,MCS,mcs5_cm_cognitive_assessment,ecq08i00,VS Peas,-1.0,Not Applicable
+846926,MCS,mcs5_cm_cognitive_assessment,ecq08i00,VS Peas,1.0,Correct response
+846927,MCS,mcs5_cm_cognitive_assessment,ecq08i00,VS Peas,2.0,Response requiring probing
+846928,MCS,mcs5_cm_cognitive_assessment,ecq08i00,VS Peas,3.0,Incorrect response
+846929,MCS,mcs5_cm_cognitive_assessment,ecq08q00,VS Peas,-9.0,Refused
+846930,MCS,mcs5_cm_cognitive_assessment,ecq08q00,VS Peas,-1.0,Not Applicable
+846931,MCS,mcs5_cm_cognitive_assessment,ecq08q00,VS Peas,1.0,Correct response
+846932,MCS,mcs5_cm_cognitive_assessment,ecq08q00,VS Peas,2.0,Incorrect response
+846933,MCS,mcs5_cm_cognitive_assessment,ecq08t00,VS Peas,-9.0,Refused
+846934,MCS,mcs5_cm_cognitive_assessment,ecq08t00,VS Peas,-1.0,Not Applicable
+846935,MCS,mcs5_cm_cognitive_assessment,ecq08t00,VS Peas,1.0,Correct response
+846936,MCS,mcs5_cm_cognitive_assessment,ecq08t00,VS Peas,2.0,Incorrect response
+846937,MCS,mcs5_cm_cognitive_assessment,ecq09i00,VS Rectangle,-9.0,Refused
+846938,MCS,mcs5_cm_cognitive_assessment,ecq09i00,VS Rectangle,-1.0,Not Applicable
+846939,MCS,mcs5_cm_cognitive_assessment,ecq09i00,VS Rectangle,1.0,Correct response
+846940,MCS,mcs5_cm_cognitive_assessment,ecq09i00,VS Rectangle,2.0,Response requiring probing
+846941,MCS,mcs5_cm_cognitive_assessment,ecq09i00,VS Rectangle,3.0,Incorrect response
+846942,MCS,mcs5_cm_cognitive_assessment,ecq09q00,VS Rectangle,-9.0,Refused
+846943,MCS,mcs5_cm_cognitive_assessment,ecq09q00,VS Rectangle,-1.0,Not Applicable
+846944,MCS,mcs5_cm_cognitive_assessment,ecq09q00,VS Rectangle,1.0,Correct response
+846945,MCS,mcs5_cm_cognitive_assessment,ecq09q00,VS Rectangle,2.0,Incorrect response
+846946,MCS,mcs5_cm_cognitive_assessment,ecq09t00,VS Rectangle,-9.0,Refused
+846947,MCS,mcs5_cm_cognitive_assessment,ecq09t00,VS Rectangle,-1.0,Not Applicable
+846948,MCS,mcs5_cm_cognitive_assessment,ecq09t00,VS Rectangle,1.0,Correct response
+846949,MCS,mcs5_cm_cognitive_assessment,ecq09t00,VS Rectangle,2.0,Incorrect response
+846950,MCS,mcs5_cm_cognitive_assessment,ecq10i00,VS Clock,-9.0,Refused
+846951,MCS,mcs5_cm_cognitive_assessment,ecq10i00,VS Clock,-1.0,Not Applicable
+846952,MCS,mcs5_cm_cognitive_assessment,ecq10i00,VS Clock,1.0,Correct response
+846953,MCS,mcs5_cm_cognitive_assessment,ecq10i00,VS Clock,2.0,Response requiring probing
+846954,MCS,mcs5_cm_cognitive_assessment,ecq10i00,VS Clock,3.0,Incorrect response
+846955,MCS,mcs5_cm_cognitive_assessment,ecq10q00,VS Clock,-9.0,Refused
+846956,MCS,mcs5_cm_cognitive_assessment,ecq10q00,VS Clock,-1.0,Not Applicable
+846957,MCS,mcs5_cm_cognitive_assessment,ecq10q00,VS Clock,1.0,Correct response
+846958,MCS,mcs5_cm_cognitive_assessment,ecq10q00,VS Clock,2.0,Incorrect response
+846959,MCS,mcs5_cm_cognitive_assessment,ecq11i00,VS Governor,-9.0,Refused
+846960,MCS,mcs5_cm_cognitive_assessment,ecq11i00,VS Governor,-1.0,Not Applicable
+846961,MCS,mcs5_cm_cognitive_assessment,ecq11i00,VS Governor,1.0,Correct response
+846962,MCS,mcs5_cm_cognitive_assessment,ecq11i00,VS Governor,2.0,Response requiring probing
+846963,MCS,mcs5_cm_cognitive_assessment,ecq11i00,VS Governor,3.0,Incorrect response
+846964,MCS,mcs5_cm_cognitive_assessment,ecq11q00,VS Governor,-9.0,Refused
+846965,MCS,mcs5_cm_cognitive_assessment,ecq11q00,VS Governor,-1.0,Not Applicable
+846966,MCS,mcs5_cm_cognitive_assessment,ecq11q00,VS Governor,1.0,Correct response
+846967,MCS,mcs5_cm_cognitive_assessment,ecq11q00,VS Governor,2.0,Incorrect response
+846968,MCS,mcs5_cm_cognitive_assessment,ecq12i00,VS Ice,-9.0,Refused
+846969,MCS,mcs5_cm_cognitive_assessment,ecq12i00,VS Ice,-1.0,Not Applicable
+846970,MCS,mcs5_cm_cognitive_assessment,ecq12i00,VS Ice,1.0,Correct response
+846971,MCS,mcs5_cm_cognitive_assessment,ecq12i00,VS Ice,2.0,Response requiring probing
+846972,MCS,mcs5_cm_cognitive_assessment,ecq12i00,VS Ice,3.0,Incorrect response
+846973,MCS,mcs5_cm_cognitive_assessment,ecq12q00,VS Ice,-9.0,Refused
+846974,MCS,mcs5_cm_cognitive_assessment,ecq12q00,VS Ice,-1.0,Not Applicable
+846975,MCS,mcs5_cm_cognitive_assessment,ecq12q00,VS Ice,1.0,Correct response
+846976,MCS,mcs5_cm_cognitive_assessment,ecq12q00,VS Ice,2.0,Incorrect response
+846977,MCS,mcs5_cm_cognitive_assessment,ecq13i00,VS Cupboard,3.0,Incorrect response
+846978,MCS,mcs5_cm_cognitive_assessment,ecq13i00,VS Cupboard,-9.0,Refused
+846979,MCS,mcs5_cm_cognitive_assessment,ecq13i00,VS Cupboard,-1.0,Not Applicable
+846980,MCS,mcs5_cm_cognitive_assessment,ecq13i00,VS Cupboard,1.0,Correct response
+846981,MCS,mcs5_cm_cognitive_assessment,ecq13i00,VS Cupboard,2.0,Response requiring probing
+846982,MCS,mcs5_cm_cognitive_assessment,ecq13q00,VS Cupboard,-9.0,Refused
+846983,MCS,mcs5_cm_cognitive_assessment,ecq13q00,VS Cupboard,-1.0,Not Applicable
+846984,MCS,mcs5_cm_cognitive_assessment,ecq13q00,VS Cupboard,1.0,Correct response
+846985,MCS,mcs5_cm_cognitive_assessment,ecq13q00,VS Cupboard,2.0,Incorrect response
+846986,MCS,mcs5_cm_cognitive_assessment,ecq14i00,VS Wood,-9.0,Refused
+846987,MCS,mcs5_cm_cognitive_assessment,ecq14i00,VS Wood,-1.0,Not Applicable
+846988,MCS,mcs5_cm_cognitive_assessment,ecq14i00,VS Wood,1.0,Correct response
+846989,MCS,mcs5_cm_cognitive_assessment,ecq14i00,VS Wood,2.0,Response requiring probing
+846990,MCS,mcs5_cm_cognitive_assessment,ecq14i00,VS Wood,3.0,Incorrect response
+846991,MCS,mcs5_cm_cognitive_assessment,ecq14q00,VS Wood,-9.0,Refused
+846992,MCS,mcs5_cm_cognitive_assessment,ecq14q00,VS Wood,-1.0,Not Applicable
+846993,MCS,mcs5_cm_cognitive_assessment,ecq14q00,VS Wood,1.0,Correct response
+846994,MCS,mcs5_cm_cognitive_assessment,ecq14q00,VS Wood,2.0,Incorrect response
+846995,MCS,mcs5_cm_cognitive_assessment,ecq15i00,VS Bronze,-9.0,Refused
+846996,MCS,mcs5_cm_cognitive_assessment,ecq15i00,VS Bronze,-1.0,Not Applicable
+846997,MCS,mcs5_cm_cognitive_assessment,ecq15i00,VS Bronze,1.0,Correct response
+846998,MCS,mcs5_cm_cognitive_assessment,ecq15i00,VS Bronze,2.0,Response requiring probing
+846999,MCS,mcs5_cm_cognitive_assessment,ecq15i00,VS Bronze,3.0,Incorrect response
+847000,MCS,mcs5_cm_cognitive_assessment,ecq15q00,VS Bronze,-9.0,Refused
+847001,MCS,mcs5_cm_cognitive_assessment,ecq15q00,VS Bronze,-1.0,Not Applicable
+847002,MCS,mcs5_cm_cognitive_assessment,ecq15q00,VS Bronze,1.0,Correct response
+847003,MCS,mcs5_cm_cognitive_assessment,ecq15q00,VS Bronze,2.0,Incorrect response
+847004,MCS,mcs5_cm_cognitive_assessment,ecq01i00,VS Red,-9.0,Refused
+847005,MCS,mcs5_cm_cognitive_assessment,ecq01i00,VS Red,-1.0,Not Applicable
+847006,MCS,mcs5_cm_cognitive_assessment,ecq01i00,VS Red,1.0,Correct response
+847007,MCS,mcs5_cm_cognitive_assessment,ecq01i00,VS Red,2.0,Response requiring probing
+847008,MCS,mcs5_cm_cognitive_assessment,ecq01i00,VS Red,3.0,Incorrect response
+847009,MCS,mcs5_cm_cognitive_assessment,ecq01q00,VS Red,-9.0,Refused
+847010,MCS,mcs5_cm_cognitive_assessment,ecq01q00,VS Red,-1.0,Not Applicable
+847011,MCS,mcs5_cm_cognitive_assessment,ecq01q00,VS Red,1.0,Correct response
+847012,MCS,mcs5_cm_cognitive_assessment,ecq01q00,VS Red,2.0,Incorrect response
+847013,MCS,mcs5_cm_cognitive_assessment,ecq01t00,VS Red,-9.0,Refused
+847014,MCS,mcs5_cm_cognitive_assessment,ecq01t00,VS Red,-1.0,Not Applicable
+847015,MCS,mcs5_cm_cognitive_assessment,ecq01t00,VS Red,1.0,Correct response
+847016,MCS,mcs5_cm_cognitive_assessment,ecq01t00,VS Red,2.0,Incorrect response
+847017,MCS,mcs5_cm_cognitive_assessment,ecq02i00,VS Shirt,-9.0,Refused
+847018,MCS,mcs5_cm_cognitive_assessment,ecq02i00,VS Shirt,-1.0,Not Applicable
+847019,MCS,mcs5_cm_cognitive_assessment,ecq02i00,VS Shirt,1.0,Correct response
+847020,MCS,mcs5_cm_cognitive_assessment,ecq02i00,VS Shirt,2.0,Response requiring probing
+847021,MCS,mcs5_cm_cognitive_assessment,ecq02i00,VS Shirt,3.0,Incorrect response
+847022,MCS,mcs5_cm_cognitive_assessment,ecq02q00,VS Shirt,-9.0,Refused
+847023,MCS,mcs5_cm_cognitive_assessment,ecq02q00,VS Shirt,-1.0,Not Applicable
+847024,MCS,mcs5_cm_cognitive_assessment,ecq02q00,VS Shirt,1.0,Correct response
+847025,MCS,mcs5_cm_cognitive_assessment,ecq02q00,VS Shirt,2.0,Incorrect response
+847026,MCS,mcs5_cm_cognitive_assessment,ecq02t00,VS Shirt,-9.0,Refused
+847027,MCS,mcs5_cm_cognitive_assessment,ecq02t00,VS Shirt,-1.0,Not Applicable
+847028,MCS,mcs5_cm_cognitive_assessment,ecq02t00,VS Shirt,1.0,Correct response
+847029,MCS,mcs5_cm_cognitive_assessment,ecq02t00,VS Shirt,2.0,Incorrect response
+847030,MCS,mcs5_cm_cognitive_assessment,ecq03i00,VS Lion,-9.0,Refused
+847031,MCS,mcs5_cm_cognitive_assessment,ecq03i00,VS Lion,-1.0,Not Applicable
+847032,MCS,mcs5_cm_cognitive_assessment,ecq03i00,VS Lion,1.0,Correct response
+847033,MCS,mcs5_cm_cognitive_assessment,ecq03i00,VS Lion,2.0,Response requiring probing
+847034,MCS,mcs5_cm_cognitive_assessment,ecq03i00,VS Lion,3.0,Incorrect response
+847035,MCS,mcs5_cm_cognitive_assessment,ecq03q00,VS Lion,-9.0,Refused
+847036,MCS,mcs5_cm_cognitive_assessment,ecq03q00,VS Lion,-1.0,Not Applicable
+847037,MCS,mcs5_cm_cognitive_assessment,ecq03q00,VS Lion,1.0,Correct response
+847038,MCS,mcs5_cm_cognitive_assessment,ecq03q00,VS Lion,2.0,Incorrect response
+847039,MCS,mcs5_cm_cognitive_assessment,ecq04i00,VS Hopscotch,-9.0,Refused
+847040,MCS,mcs5_cm_cognitive_assessment,ecq04i00,VS Hopscotch,-1.0,Not Applicable
+847041,MCS,mcs5_cm_cognitive_assessment,ecq04i00,VS Hopscotch,1.0,Correct response
+847042,MCS,mcs5_cm_cognitive_assessment,ecq04i00,VS Hopscotch,2.0,Response requiring probing
+847043,MCS,mcs5_cm_cognitive_assessment,ecq04i00,VS Hopscotch,3.0,Incorrect response
+847044,MCS,mcs5_cm_cognitive_assessment,ecq04q00,VS Hopscotch,-9.0,Refused
+847045,MCS,mcs5_cm_cognitive_assessment,ecq04q00,VS Hopscotch,-1.0,Not Applicable
+847046,MCS,mcs5_cm_cognitive_assessment,ecq04q00,VS Hopscotch,1.0,Correct response
+847047,MCS,mcs5_cm_cognitive_assessment,ecq04q00,VS Hopscotch,2.0,Incorrect response
+847048,MCS,mcs5_cm_cognitive_assessment,ecq05i00,VS Spoon,-9.0,Refused
+847049,MCS,mcs5_cm_cognitive_assessment,ecq05i00,VS Spoon,-1.0,Not Applicable
+847050,MCS,mcs5_cm_cognitive_assessment,ecq05i00,VS Spoon,1.0,Correct response
+847051,MCS,mcs5_cm_cognitive_assessment,ecq05i00,VS Spoon,2.0,Response requiring probing
+847052,MCS,mcs5_cm_cognitive_assessment,ecq05i00,VS Spoon,3.0,Incorrect response
+847053,MCS,mcs5_cm_cognitive_assessment,ecq05q00,VS Spoon,-9.0,Refused
+847054,MCS,mcs5_cm_cognitive_assessment,ecq05q00,VS Spoon,-1.0,Not Applicable
+847055,MCS,mcs5_cm_cognitive_assessment,ecq05q00,VS Spoon,1.0,Correct response
+847056,MCS,mcs5_cm_cognitive_assessment,ecq05q00,VS Spoon,2.0,Incorrect response
+847057,MCS,mcs5_cm_cognitive_assessment,ecq06i00,VS Leaf,-9.0,Refused
+847058,MCS,mcs5_cm_cognitive_assessment,ecq06i00,VS Leaf,-1.0,Not Applicable
+847059,MCS,mcs5_cm_cognitive_assessment,ecq06i00,VS Leaf,1.0,Correct response
+847060,MCS,mcs5_cm_cognitive_assessment,ecq06i00,VS Leaf,2.0,Response requiring probing
+847061,MCS,mcs5_cm_cognitive_assessment,ecq06i00,VS Leaf,3.0,Incorrect response
+847062,MCS,mcs5_cm_cognitive_assessment,ecq06q00,VS Leaf,-1.0,Not Applicable
+847063,MCS,mcs5_cm_cognitive_assessment,ecq06q00,VS Leaf,1.0,Correct response
+847064,MCS,mcs5_cm_cognitive_assessment,ecq06q00,VS Leaf,2.0,Incorrect response
+847065,MCS,mcs5_cm_cognitive_assessment,ecq06q00,VS Leaf,-9.0,Refused
+847066,MCS,mcs5_cm_cognitive_assessment,ecq07i00,VS Farmer,-9.0,Refused
+847067,MCS,mcs5_cm_cognitive_assessment,ecq07i00,VS Farmer,-1.0,Not Applicable
+847068,MCS,mcs5_cm_cognitive_assessment,ecq07i00,VS Farmer,1.0,Correct response
+847069,MCS,mcs5_cm_cognitive_assessment,ecq07i00,VS Farmer,2.0,Response requiring probing
+847070,MCS,mcs5_cm_cognitive_assessment,ecq07i00,VS Farmer,3.0,Incorrect response
+847071,MCS,mcs5_cm_cognitive_assessment,ecq07q00,VS Farmer,-9.0,Refused
+847072,MCS,mcs5_cm_cognitive_assessment,ecq07q00,VS Farmer,-1.0,Not Applicable
+847073,MCS,mcs5_cm_cognitive_assessment,ecq07q00,VS Farmer,1.0,Correct response
+847074,MCS,mcs5_cm_cognitive_assessment,ecq07q00,VS Farmer,2.0,Incorrect response
+847075,MCS,mcs5_cm_cognitive_assessment,ecq29i00,VS Hypothesis,-9.0,Refused
+847076,MCS,mcs5_cm_cognitive_assessment,ecq29i00,VS Hypothesis,-1.0,Not Applicable
+847077,MCS,mcs5_cm_cognitive_assessment,ecq29i00,VS Hypothesis,1.0,Correct response
+847078,MCS,mcs5_cm_cognitive_assessment,ecq29i00,VS Hypothesis,2.0,Response requiring probing
+847079,MCS,mcs5_cm_cognitive_assessment,ecq29i00,VS Hypothesis,3.0,Incorrect response
+847080,MCS,mcs5_cm_cognitive_assessment,ecq29q00,VS Hypothesis,-9.0,Refused
+847081,MCS,mcs5_cm_cognitive_assessment,ecq29q00,VS Hypothesis,-1.0,Not Applicable
+847082,MCS,mcs5_cm_cognitive_assessment,ecq29q00,VS Hypothesis,1.0,Correct response
+847083,MCS,mcs5_cm_cognitive_assessment,ecq29q00,VS Hypothesis,2.0,Incorrect response
+847084,MCS,mcs5_cm_cognitive_assessment,ecq30i00,VS Frustrate,-9.0,Refused
+847085,MCS,mcs5_cm_cognitive_assessment,ecq30i00,VS Frustrate,-1.0,Not Applicable
+847086,MCS,mcs5_cm_cognitive_assessment,ecq30i00,VS Frustrate,1.0,Correct response
+847087,MCS,mcs5_cm_cognitive_assessment,ecq30i00,VS Frustrate,2.0,Response requiring probing
+847088,MCS,mcs5_cm_cognitive_assessment,ecq30i00,VS Frustrate,3.0,Incorrect response
+847089,MCS,mcs5_cm_cognitive_assessment,ecq30q00,VS Frustrate,-9.0,Refused
+847090,MCS,mcs5_cm_cognitive_assessment,ecq30q00,VS Frustrate,-1.0,Not Applicable
+847091,MCS,mcs5_cm_cognitive_assessment,ecq30q00,VS Frustrate,1.0,Correct response
+847092,MCS,mcs5_cm_cognitive_assessment,ecq30q00,VS Frustrate,2.0,Incorrect response
+847093,MCS,mcs5_cm_cognitive_assessment,ecq31i00,VS Poem,-9.0,Refused
+847094,MCS,mcs5_cm_cognitive_assessment,ecq31i00,VS Poem,-1.0,Not Applicable
+847095,MCS,mcs5_cm_cognitive_assessment,ecq31i00,VS Poem,1.0,Correct response
+847096,MCS,mcs5_cm_cognitive_assessment,ecq31i00,VS Poem,2.0,Response requiring probing
+847097,MCS,mcs5_cm_cognitive_assessment,ecq31i00,VS Poem,3.0,Incorrect response
+847098,MCS,mcs5_cm_cognitive_assessment,ecq31q00,VS Poem,-9.0,Refused
+847099,MCS,mcs5_cm_cognitive_assessment,ecq31q00,VS Poem,-1.0,Not Applicable
+847100,MCS,mcs5_cm_cognitive_assessment,ecq31q00,VS Poem,1.0,Correct response
+847101,MCS,mcs5_cm_cognitive_assessment,ecq31q00,VS Poem,2.0,Incorrect response
+847102,MCS,mcs5_cm_cognitive_assessment,ecq32i00,VS Instant,-9.0,Refused
+847103,MCS,mcs5_cm_cognitive_assessment,ecq32i00,VS Instant,-1.0,Not Applicable
+847104,MCS,mcs5_cm_cognitive_assessment,ecq32i00,VS Instant,1.0,Correct response
+847105,MCS,mcs5_cm_cognitive_assessment,ecq32i00,VS Instant,2.0,Response requiring probing
+847106,MCS,mcs5_cm_cognitive_assessment,ecq32i00,VS Instant,3.0,Incorrect response
+847107,MCS,mcs5_cm_cognitive_assessment,ecq32q00,VS Instant,-9.0,Refused
+847108,MCS,mcs5_cm_cognitive_assessment,ecq32q00,VS Instant,-1.0,Not Applicable
+847109,MCS,mcs5_cm_cognitive_assessment,ecq32q00,VS Instant,1.0,Correct response
+847110,MCS,mcs5_cm_cognitive_assessment,ecq32q00,VS Instant,2.0,Incorrect response
+847111,MCS,mcs5_cm_cognitive_assessment,ecq33i00,VS Funeral,-9.0,Refused
+847112,MCS,mcs5_cm_cognitive_assessment,ecq33i00,VS Funeral,-1.0,Not Applicable
+847113,MCS,mcs5_cm_cognitive_assessment,ecq33i00,VS Funeral,1.0,Correct response
+847114,MCS,mcs5_cm_cognitive_assessment,ecq33i00,VS Funeral,2.0,Response requiring probing
+847115,MCS,mcs5_cm_cognitive_assessment,ecq33i00,VS Funeral,3.0,Incorrect response
+847116,MCS,mcs5_cm_cognitive_assessment,ecq33q00,VS Funeral,-9.0,Refused
+847117,MCS,mcs5_cm_cognitive_assessment,ecq33q00,VS Funeral,-1.0,Not Applicable
+847118,MCS,mcs5_cm_cognitive_assessment,ecq33q00,VS Funeral,1.0,Correct response
+847119,MCS,mcs5_cm_cognitive_assessment,ecq33q00,VS Funeral,2.0,Incorrect response
+847120,MCS,mcs5_cm_cognitive_assessment,ecq34i00,VS Clothing,-9.0,Refused
+847121,MCS,mcs5_cm_cognitive_assessment,ecq34i00,VS Clothing,-1.0,Not Applicable
+847122,MCS,mcs5_cm_cognitive_assessment,ecq34i00,VS Clothing,1.0,Correct response
+847123,MCS,mcs5_cm_cognitive_assessment,ecq34i00,VS Clothing,2.0,Response requiring probing
+847124,MCS,mcs5_cm_cognitive_assessment,ecq34i00,VS Clothing,3.0,Incorrect response
+847125,MCS,mcs5_cm_cognitive_assessment,ecq34q00,VS Clothing,-9.0,Refused
+847126,MCS,mcs5_cm_cognitive_assessment,ecq34q00,VS Clothing,-1.0,Not Applicable
+847127,MCS,mcs5_cm_cognitive_assessment,ecq34q00,VS Clothing,1.0,Correct response
+847128,MCS,mcs5_cm_cognitive_assessment,ecq34q00,VS Clothing,2.0,Incorrect response
+847129,MCS,mcs5_cm_cognitive_assessment,ecq35i00,VS Curfew,-9.0,Refused
+847130,MCS,mcs5_cm_cognitive_assessment,ecq35i00,VS Curfew,-1.0,Not Applicable
+847131,MCS,mcs5_cm_cognitive_assessment,ecq35i00,VS Curfew,1.0,Correct response
+847132,MCS,mcs5_cm_cognitive_assessment,ecq35i00,VS Curfew,2.0,Response requiring probing
+847133,MCS,mcs5_cm_cognitive_assessment,ecq35i00,VS Curfew,3.0,Incorrect response
+847134,MCS,mcs5_cm_cognitive_assessment,ecq35q00,VS Curfew,-9.0,Refused
+847135,MCS,mcs5_cm_cognitive_assessment,ecq35q00,VS Curfew,-1.0,Not Applicable
+847136,MCS,mcs5_cm_cognitive_assessment,ecq35q00,VS Curfew,1.0,Correct response
+847137,MCS,mcs5_cm_cognitive_assessment,ecq35q00,VS Curfew,2.0,Incorrect response
+847138,MCS,mcs5_cm_cognitive_assessment,ecq36i00,VS Revise,-9.0,Refused
+847139,MCS,mcs5_cm_cognitive_assessment,ecq36i00,VS Revise,-1.0,Not Applicable
+847140,MCS,mcs5_cm_cognitive_assessment,ecq36i00,VS Revise,1.0,Correct response
+847141,MCS,mcs5_cm_cognitive_assessment,ecq36i00,VS Revise,2.0,Response requiring probing
+847142,MCS,mcs5_cm_cognitive_assessment,ecq36i00,VS Revise,3.0,Incorrect response
+847143,MCS,mcs5_cm_cognitive_assessment,ecq36q00,VS Revise,-9.0,Refused
+847144,MCS,mcs5_cm_cognitive_assessment,ecq36q00,VS Revise,-1.0,Not Applicable
+847145,MCS,mcs5_cm_cognitive_assessment,ecq36q00,VS Revise,1.0,Correct response
+847146,MCS,mcs5_cm_cognitive_assessment,ecq36q00,VS Revise,2.0,Incorrect response
+847147,MCS,mcs5_cm_cognitive_assessment,ecq37i00,VS Health,-9.0,Refused
+847148,MCS,mcs5_cm_cognitive_assessment,ecq37i00,VS Health,-1.0,Not Applicable
+847149,MCS,mcs5_cm_cognitive_assessment,ecq37i00,VS Health,1.0,Correct response
+847150,MCS,mcs5_cm_cognitive_assessment,ecq37i00,VS Health,2.0,Response requiring probing
+847151,MCS,mcs5_cm_cognitive_assessment,ecq37i00,VS Health,3.0,Incorrect response
+847152,MCS,mcs5_cm_cognitive_assessment,ecq37q00,VS Health,-9.0,Refused
+847153,MCS,mcs5_cm_cognitive_assessment,ecq37q00,VS Health,-1.0,Not Applicable
+847154,MCS,mcs5_cm_cognitive_assessment,ecq37q00,VS Health,1.0,Correct response
+847155,MCS,mcs5_cm_cognitive_assessment,ecq37q00,VS Health,2.0,Incorrect response
+847156,MCS,mcs5_cm_cognitive_assessment,ecter100,Terminate assessment,-1.0,Not applicable
+847157,MCS,mcs5_cm_cognitive_assessment,ecter100,Terminate assessment,1.0,Yes
+847158,MCS,mcs5_cm_cognitive_assessment,ecter100,Terminate assessment,2.0,No
+847159,MCS,mcs5_cm_cognitive_assessment,ecdcan00,CANTAB Assessements,-1.0,Not applicable
+847160,MCS,mcs5_cm_cognitive_assessment,ecdcan00,CANTAB Assessements,1.0,Both assesments
+847161,MCS,mcs5_cm_cognitive_assessment,ecdcan00,CANTAB Assessements,2.0,Memory task (SWM) only
+847162,MCS,mcs5_cm_cognitive_assessment,ecdcan00,CANTAB Assessements,3.0,Decision making task (CGT) only
+847163,MCS,mcs5_cm_cognitive_assessment,ecancc00,Were you able to administer CANTAB assessment?,-1.0,Not applicable
+847164,MCS,mcs5_cm_cognitive_assessment,ecancc00,Were you able to administer CANTAB assessment?,1.0,Yes - able to administer
+847165,MCS,mcs5_cm_cognitive_assessment,ecancc00,Were you able to administer CANTAB assessment?,2.0,No - unable to administer
+847166,MCS,mcs5_cm_cognitive_assessment,ecpau200,Software Key inserted,-1.0,Not applicable
+847167,MCS,mcs5_cm_cognitive_assessment,ecpau200,Software Key inserted,1.0,Software key has been inserted
+847168,MCS,mcs5_cm_cognitive_assessment,ecpau200,Software Key inserted,2.0,No answer
+847169,MCS,mcs5_cm_cognitive_assessment,ecpau300,Whether using touchscreen add-on,-1.0,Not applicable
+847170,MCS,mcs5_cm_cognitive_assessment,ecpau300,Whether using touchscreen add-on,1.0,"Yes, I am using a touchscreen add-on"
+847171,MCS,mcs5_cm_cognitive_assessment,ecpau300,Whether using touchscreen add-on,2.0,"No, I am not using a touchscreen add-on"
+847172,MCS,mcs5_cm_cognitive_assessment,ecpau400,Touchscreen Attached,-1.0,Not applicable
+847173,MCS,mcs5_cm_cognitive_assessment,ecpau400,Touchscreen Attached,1.0,Touchscreen add-on has been attached an
+847174,MCS,mcs5_cm_cognitive_assessment,ecpau400,Touchscreen Attached,2.0,No answer
+847175,MCS,mcs5_cm_cognitive_assessment,ecpau500,Licence key inserted,-1.0,Not applicable
+847176,MCS,mcs5_cm_cognitive_assessment,ecpau500,Licence key inserted,1.0,Begin assessment(s)
+847177,MCS,mcs5_cm_cognitive_assessment,eccaen00,Whether need to redo because in evaluation mode,-1.0,Not applicable
+847178,MCS,mcs5_cm_cognitive_assessment,eccaen00,Whether need to redo because in evaluation mode,1.0,Continue
+847179,MCS,mcs5_cm_cognitive_assessment,eccaen00,Whether need to redo because in evaluation mode,2.0,Need to redo assessment(s) because in '
+847180,MCS,mcs5_cm_cognitive_assessment,ectech0a,Technical problems (No),-1.0,Not applicable
+847181,MCS,mcs5_cm_cognitive_assessment,ectech0a,Technical problems (No),0.0,No
+847182,MCS,mcs5_cm_cognitive_assessment,ectech0a,Technical problems (No),1.0,Yes
+847183,MCS,mcs5_cm_cognitive_assessment,ectech0b,Technical problems (Touchscreen froze and had to be recalibrated),-1.0,Not applicable
+847184,MCS,mcs5_cm_cognitive_assessment,ectech0b,Technical problems (Touchscreen froze and had to be recalibrated),0.0,No
+847185,MCS,mcs5_cm_cognitive_assessment,ectech0b,Technical problems (Touchscreen froze and had to be recalibrated),1.0,Yes
+847186,MCS,mcs5_cm_cognitive_assessment,ectech0c,Technical problems (Other),-1.0,Not applicable
+847187,MCS,mcs5_cm_cognitive_assessment,ectech0c,Technical problems (Other),0.0,No
+847188,MCS,mcs5_cm_cognitive_assessment,ectech0c,Technical problems (Other),1.0,Yes
+847189,MCS,mcs5_cm_cognitive_assessment,ectecx0a,Tech problem (None) (A),-1.0,Not applicable
+847190,MCS,mcs5_cm_cognitive_assessment,ectecx0a,Tech problem (None) (A),0.0,No
+847191,MCS,mcs5_cm_cognitive_assessment,ectecx0a,Tech problem (None) (A),1.0,Yes
+847192,MCS,mcs5_cm_cognitive_assessment,ectecx0b,Tech problem (Yes,-1.0,Not applicable
+847193,MCS,mcs5_cm_cognitive_assessment,ectecx0b,Tech problem (Yes,0.0,No
+847194,MCS,mcs5_cm_cognitive_assessment,ectecx0b,Tech problem (Yes,1.0,Yes
+847195,MCS,mcs5_cm_cognitive_assessment,ectecx0c,Tech problem (Other) (A),-1.0,Not applicable
+847196,MCS,mcs5_cm_cognitive_assessment,ectecx0c,Tech problem (Other) (A),0.0,No
+847197,MCS,mcs5_cm_cognitive_assessment,ectecx0c,Tech problem (Other) (A),1.0,Yes
+847198,MCS,mcs5_cm_cognitive_assessment,ectecx0d,Tech problem (Became disconnected,-1.0,Not applicable
+847199,MCS,mcs5_cm_cognitive_assessment,ectecx0d,Tech problem (Became disconnected,0.0,No
+847200,MCS,mcs5_cm_cognitive_assessment,ectecx0d,Tech problem (Became disconnected,1.0,Yes
+847201,MCS,mcs5_cm_cognitive_assessment,ectecx0e,Tech problem (Cantab failure,-1.0,Not applicable
+847202,MCS,mcs5_cm_cognitive_assessment,ectecx0e,Tech problem (Cantab failure,0.0,No
+847203,MCS,mcs5_cm_cognitive_assessment,ectecx0e,Tech problem (Cantab failure,1.0,Yes
+847204,MCS,mcs5_cm_cognitive_assessment,ectecx0f,Tech problem (Child had some problems with the test,-1.0,Not applicable
+847205,MCS,mcs5_cm_cognitive_assessment,ectecx0f,Tech problem (Child had some problems with the test,0.0,No
+847206,MCS,mcs5_cm_cognitive_assessment,ectecx0f,Tech problem (Child had some problems with the test,1.0,Yes
+847207,MCS,mcs5_cm_cognitive_assessment,ectecx0g,Tech problem (Calibration not working) (A),-1.0,Not applicable
+847208,MCS,mcs5_cm_cognitive_assessment,ectecx0g,Tech problem (Calibration not working) (A),0.0,No
+847209,MCS,mcs5_cm_cognitive_assessment,ectecx0g,Tech problem (Calibration not working) (A),1.0,Yes
+847210,MCS,mcs5_cm_cognitive_assessment,ectecx0h,Tech problem (Error message,-1.0,Not applicable
+847211,MCS,mcs5_cm_cognitive_assessment,ectecx0h,Tech problem (Error message,0.0,No
+847212,MCS,mcs5_cm_cognitive_assessment,ectecx0h,Tech problem (Error message,1.0,Yes
+847213,MCS,mcs5_cm_cognitive_assessment,ectecx0i,Tech problem (Had to ring the helpline,-1.0,Not applicable
+847214,MCS,mcs5_cm_cognitive_assessment,ectecx0i,Tech problem (Had to ring the helpline,0.0,No
+847215,MCS,mcs5_cm_cognitive_assessment,ectecx0i,Tech problem (Had to ring the helpline,1.0,Yes
+847216,MCS,mcs5_cm_cognitive_assessment,ectecx0j,Tech problem (Had to shut down,-1.0,Not applicable
+847217,MCS,mcs5_cm_cognitive_assessment,ectecx0j,Tech problem (Had to shut down,0.0,No
+847218,MCS,mcs5_cm_cognitive_assessment,ectecx0j,Tech problem (Had to shut down,1.0,Yes
+847219,MCS,mcs5_cm_cognitive_assessment,ectecx0k,Tech problem (It jumped ahead,-1.0,Not applicable
+847220,MCS,mcs5_cm_cognitive_assessment,ectecx0k,Tech problem (It jumped ahead,0.0,No
+847221,MCS,mcs5_cm_cognitive_assessment,ectecx0k,Tech problem (It jumped ahead,1.0,Yes
+847222,MCS,mcs5_cm_cognitive_assessment,ectecx0l,Tech problem (It skipped back to the beginning) (A),-1.0,Not applicable
+847223,MCS,mcs5_cm_cognitive_assessment,ectecx0l,Tech problem (It skipped back to the beginning) (A),0.0,No
+847224,MCS,mcs5_cm_cognitive_assessment,ectecx0l,Tech problem (It skipped back to the beginning) (A),1.0,Yes
+847225,MCS,mcs5_cm_cognitive_assessment,ectecx0m,Tech problem (Loss of power,-1.0,Not applicable
+847226,MCS,mcs5_cm_cognitive_assessment,ectecx0m,Tech problem (Loss of power,0.0,No
+847227,MCS,mcs5_cm_cognitive_assessment,ectecx0m,Tech problem (Loss of power,1.0,Yes
+847228,MCS,mcs5_cm_cognitive_assessment,ectecx0n,Tech problem (Mentions of black holes,-1.0,Not applicable
+847229,MCS,mcs5_cm_cognitive_assessment,ectecx0n,Tech problem (Mentions of black holes,0.0,No
+847230,MCS,mcs5_cm_cognitive_assessment,ectecx0n,Tech problem (Mentions of black holes,1.0,Yes
+847231,MCS,mcs5_cm_cognitive_assessment,ectecx0o,Tech problem (Mentions of blue holes,-1.0,Not applicable
+847232,MCS,mcs5_cm_cognitive_assessment,ectecx0o,Tech problem (Mentions of blue holes,0.0,No
+847233,MCS,mcs5_cm_cognitive_assessment,ectecx0o,Tech problem (Mentions of blue holes,1.0,Yes
+847234,MCS,mcs5_cm_cognitive_assessment,ectecx0p,Tech problem (Mention of 'Decision Making Tasks' - problems with) (A),-1.0,Not applicable
+847235,MCS,mcs5_cm_cognitive_assessment,ectecx0p,Tech problem (Mention of 'Decision Making Tasks' - problems with) (A),0.0,No
+847236,MCS,mcs5_cm_cognitive_assessment,ectecx0p,Tech problem (Mention of 'Decision Making Tasks' - problems with) (A),1.0,Yes
+847237,MCS,mcs5_cm_cognitive_assessment,ectecx0q,Tech problem (Not working,-1.0,Not applicable
+847238,MCS,mcs5_cm_cognitive_assessment,ectecx0q,Tech problem (Not working,0.0,No
+847239,MCS,mcs5_cm_cognitive_assessment,ectecx0q,Tech problem (Not working,1.0,Yes
+847240,MCS,mcs5_cm_cognitive_assessment,ectecx0r,Tech problem (No sound,-1.0,Not applicable
+847241,MCS,mcs5_cm_cognitive_assessment,ectecx0r,Tech problem (No sound,0.0,No
+847242,MCS,mcs5_cm_cognitive_assessment,ectecx0r,Tech problem (No sound,1.0,Yes
+847243,MCS,mcs5_cm_cognitive_assessment,ectecx0s,Tech problem (Problem(s) with Cognitive test,-1.0,Not applicable
+847244,MCS,mcs5_cm_cognitive_assessment,ectecx0s,Tech problem (Problem(s) with Cognitive test,0.0,No
+847245,MCS,mcs5_cm_cognitive_assessment,ectecx0s,Tech problem (Problem(s) with Cognitive test,1.0,Yes
+847246,MCS,mcs5_cm_cognitive_assessment,ectecx0t,Tech problem (Problem(s) with Memory test,-1.0,Not applicable
+847247,MCS,mcs5_cm_cognitive_assessment,ectecx0t,Tech problem (Problem(s) with Memory test,0.0,No
+847248,MCS,mcs5_cm_cognitive_assessment,ectecx0t,Tech problem (Problem(s) with Memory test,1.0,Yes
+847249,MCS,mcs5_cm_cognitive_assessment,ectecx0u,Tech problem (Problem(s)with Verbal Similarities test,-1.0,Not applicable
+847250,MCS,mcs5_cm_cognitive_assessment,ectecx0u,Tech problem (Problem(s)with Verbal Similarities test,0.0,No
+847251,MCS,mcs5_cm_cognitive_assessment,ectecx0u,Tech problem (Problem(s)with Verbal Similarities test,1.0,Yes
+847252,MCS,mcs5_cm_cognitive_assessment,ectecx0v,Tech problem (Screen,-1.0,Not applicable
+847253,MCS,mcs5_cm_cognitive_assessment,ectecx0v,Tech problem (Screen,0.0,No
+847254,MCS,mcs5_cm_cognitive_assessment,ectecx0v,Tech problem (Screen,1.0,Yes
+847255,MCS,mcs5_cm_cognitive_assessment,ectecx0w,Tech problem (Screen went blank,-1.0,Not applicable
+847256,MCS,mcs5_cm_cognitive_assessment,ectecx0w,Tech problem (Screen went blank,0.0,No
+847257,MCS,mcs5_cm_cognitive_assessment,ectecx0w,Tech problem (Screen went blank,1.0,Yes
+847258,MCS,mcs5_cm_cognitive_assessment,ectecx0x,Tech problem (Tests,-1.0,Not applicable
+847259,MCS,mcs5_cm_cognitive_assessment,ectecx0x,Tech problem (Tests,0.0,No
+847260,MCS,mcs5_cm_cognitive_assessment,ectecx0x,Tech problem (Tests,1.0,Yes
+847261,MCS,mcs5_cm_cognitive_assessment,ectecx0y,Tech problem (Specified hardware problem) (A),-1.0,Not applicable
+847262,MCS,mcs5_cm_cognitive_assessment,ectecx0y,Tech problem (Specified hardware problem) (A),0.0,No
+847263,MCS,mcs5_cm_cognitive_assessment,ectecx0y,Tech problem (Specified hardware problem) (A),1.0,Yes
+847264,MCS,mcs5_cm_cognitive_assessment,ectecx0z,Tech problem (Specified software problem) (A),-1.0,Not applicable
+847265,MCS,mcs5_cm_cognitive_assessment,ectecx0z,Tech problem (Specified software problem) (A),0.0,No
+847266,MCS,mcs5_cm_cognitive_assessment,ectecx0z,Tech problem (Specified software problem) (A),1.0,Yes
+847267,MCS,mcs5_cm_cognitive_assessment,ectecx01,Tech problem (Don't know) (A),-1.0,Not applicable
+847268,MCS,mcs5_cm_cognitive_assessment,ectecx01,Tech problem (Don't know) (A),0.0,No
+847269,MCS,mcs5_cm_cognitive_assessment,ectecx01,Tech problem (Don't know) (A),1.0,Yes
+847270,MCS,mcs5_cm_cognitive_assessment,ectecx02,Tech problem (No answer) (A),-1.0,Not applicable
+847271,MCS,mcs5_cm_cognitive_assessment,ectecx02,Tech problem (No answer) (A),0.0,No
+847272,MCS,mcs5_cm_cognitive_assessment,ectecx02,Tech problem (No answer) (A),1.0,Yes
+847273,MCS,mcs5_cm_cognitive_assessment,eccble00,Cantab length of time,,
+847274,MCS,mcs5_cm_cognitive_assessment,eiohnd00,Which element completed,1.0,Cognitive Observations
+847275,MCS,mcs5_cm_cognitive_assessment,eiioex00,Cognitive observations start time,,
+847276,MCS,mcs5_cm_cognitive_assessment,eitvns00,Background noise from electronics,-9.0,Refusal
+847277,MCS,mcs5_cm_cognitive_assessment,eitvns00,Background noise from electronics,-8.0,Don''t know
+847278,MCS,mcs5_cm_cognitive_assessment,eitvns00,Background noise from electronics,-1.0,Not applicable
+847279,MCS,mcs5_cm_cognitive_assessment,eitvns00,Background noise from electronics,1.0,No noise from tv/radio/stereo/computer
+847280,MCS,mcs5_cm_cognitive_assessment,eitvns00,Background noise from electronics,2.0,Audible but not loud noise from tv etc
+847281,MCS,mcs5_cm_cognitive_assessment,eitvns00,Background noise from electronics,3.0,Loud noise from tv etc
+847282,MCS,mcs5_cm_cognitive_assessment,eitvns00,Background noise from electronics,4.0,Not observed/DK
+847283,MCS,mcs5_cm_cognitive_assessment,eiconv00,IWR: Background noise from conversation,-9.0,Refusal
+847284,MCS,mcs5_cm_cognitive_assessment,eiconv00,IWR: Background noise from conversation,-8.0,Don''t know
+847285,MCS,mcs5_cm_cognitive_assessment,eiconv00,IWR: Background noise from conversation,-1.0,Not applicable
+847286,MCS,mcs5_cm_cognitive_assessment,eiconv00,IWR: Background noise from conversation,1.0,No background conversation
+847287,MCS,mcs5_cm_cognitive_assessment,eiconv00,IWR: Background noise from conversation,2.0,Audible but not loud background conver
+847288,MCS,mcs5_cm_cognitive_assessment,eiconv00,IWR: Background noise from conversation,3.0,Loud background conversation
+847289,MCS,mcs5_cm_cognitive_assessment,eiconv00,IWR: Background noise from conversation,4.0,Not observed/DK
+847290,MCS,mcs5_cm_cognitive_assessment,eibacc00,IWR: Background noise from other children,-9.0,Refusal
+847291,MCS,mcs5_cm_cognitive_assessment,eibacc00,IWR: Background noise from other children,-8.0,Don't know
+847292,MCS,mcs5_cm_cognitive_assessment,eibacc00,IWR: Background noise from other children,-1.0,Not applicable
+847293,MCS,mcs5_cm_cognitive_assessment,eibacc00,IWR: Background noise from other children,1.0,No bkground noise etc from oth children
+847294,MCS,mcs5_cm_cognitive_assessment,eibacc00,IWR: Background noise from other children,2.0,Some bkgrnd noise etc from oth children
+847295,MCS,mcs5_cm_cognitive_assessment,eibacc00,IWR: Background noise from other children,3.0,Lots of bkgrnd noise  from oth children
+847296,MCS,mcs5_cm_cognitive_assessment,eibacc00,IWR: Background noise from other children,4.0,Not observed/DK
+847297,MCS,mcs5_cm_cognitive_assessment,eientr00,IWR: Background noise from people entering/leaving room,-9.0,Refusal
+847298,MCS,mcs5_cm_cognitive_assessment,eientr00,IWR: Background noise from people entering/leaving room,-8.0,Don''t know
+847299,MCS,mcs5_cm_cognitive_assessment,eientr00,IWR: Background noise from people entering/leaving room,-1.0,Not applicable
+847300,MCS,mcs5_cm_cognitive_assessment,eientr00,IWR: Background noise from people entering/leaving room,1.0,No-one entering/leaving the room
+847301,MCS,mcs5_cm_cognitive_assessment,eientr00,IWR: Background noise from people entering/leaving room,2.0,Someone enter/leave room once or twice
+847302,MCS,mcs5_cm_cognitive_assessment,eientr00,IWR: Background noise from people entering/leaving room,3.0,Someone enter/leave rm 3 or more times
+847303,MCS,mcs5_cm_cognitive_assessment,eientr00,IWR: Background noise from people entering/leaving room,4.0,Not observed/DK
+847304,MCS,mcs5_cm_cognitive_assessment,eienth00,IWR: Background noise from people entering/leaving the house,-9.0,Refusal
+847305,MCS,mcs5_cm_cognitive_assessment,eienth00,IWR: Background noise from people entering/leaving the house,-8.0,Don't know
+847306,MCS,mcs5_cm_cognitive_assessment,eienth00,IWR: Background noise from people entering/leaving the house,-1.0,Not applicable
+847307,MCS,mcs5_cm_cognitive_assessment,eienth00,IWR: Background noise from people entering/leaving the house,1.0,No-one entering/leaving the home
+847308,MCS,mcs5_cm_cognitive_assessment,eienth00,IWR: Background noise from people entering/leaving the house,2.0,Someone enter/leave home once or twice
+847309,MCS,mcs5_cm_cognitive_assessment,eienth00,IWR: Background noise from people entering/leaving the house,3.0,Someone enter/leave hme 3 or more times
+847310,MCS,mcs5_cm_cognitive_assessment,eienth00,IWR: Background noise from people entering/leaving the house,4.0,Not observed/DK
+847311,MCS,mcs5_cm_cognitive_assessment,eiintc00,IWR: Interruption of cognitive assessments from another child,2.0,1-2 interruptions by another child
+847312,MCS,mcs5_cm_cognitive_assessment,eiintc00,IWR: Interruption of cognitive assessments from another child,3.0,3 or more interruptions by other child
+847313,MCS,mcs5_cm_cognitive_assessment,eiintc00,IWR: Interruption of cognitive assessments from another child,4.0,Not observed/DK
+847314,MCS,mcs5_cm_cognitive_assessment,eiintc00,IWR: Interruption of cognitive assessments from another child,-9.0,Refusal
+847315,MCS,mcs5_cm_cognitive_assessment,eiintc00,IWR: Interruption of cognitive assessments from another child,-8.0,Don''t know
+847316,MCS,mcs5_cm_cognitive_assessment,eiintc00,IWR: Interruption of cognitive assessments from another child,-1.0,Not applicable
+847317,MCS,mcs5_cm_cognitive_assessment,eiintc00,IWR: Interruption of cognitive assessments from another child,1.0,No interruptions by another child
+847318,MCS,mcs5_cm_cognitive_assessment,eiinta00,IWR: Interruption of cognitive assessments by an adult,-9.0,Refusal
+847319,MCS,mcs5_cm_cognitive_assessment,eiinta00,IWR: Interruption of cognitive assessments by an adult,-8.0,Don''t know
+847320,MCS,mcs5_cm_cognitive_assessment,eiinta00,IWR: Interruption of cognitive assessments by an adult,-1.0,Not applicable
+847321,MCS,mcs5_cm_cognitive_assessment,eiinta00,IWR: Interruption of cognitive assessments by an adult,1.0,No interruptions by other adult(s)
+847322,MCS,mcs5_cm_cognitive_assessment,eiinta00,IWR: Interruption of cognitive assessments by an adult,2.0,1-2 interruptions by other adult(s)
+847323,MCS,mcs5_cm_cognitive_assessment,eiinta00,IWR: Interruption of cognitive assessments by an adult,3.0,3 or more interruptions by oth adult(s)
+847324,MCS,mcs5_cm_cognitive_assessment,eiinta00,IWR: Interruption of cognitive assessments by an adult,4.0,Not observed/DK
+847325,MCS,mcs5_cm_cognitive_assessment,eitirc00,Was the child tired,-9.0,Refusal
+847326,MCS,mcs5_cm_cognitive_assessment,eitirc00,Was the child tired,-8.0,Don't know
+847327,MCS,mcs5_cm_cognitive_assessment,eitirc00,Was the child tired,-1.0,Not applicable
+847328,MCS,mcs5_cm_cognitive_assessment,eitirc00,Was the child tired,1.0,Very tired
+847329,MCS,mcs5_cm_cognitive_assessment,eitirc00,Was the child tired,2.0,A little tired
+847330,MCS,mcs5_cm_cognitive_assessment,eitirc00,Was the child tired,3.0,Wide awake
+847331,MCS,mcs5_cm_cognitive_assessment,eitirc00,Was the child tired,4.0,Not observed/DK
+847332,MCS,mcs5_cm_cognitive_assessment,eiassc00,Circumstances of the cognitive assessment,-1.0,Not applicable
+847333,MCS,mcs5_cm_cognitive_assessment,eiassc00,Circumstances of the cognitive assessment,1.0,Yes
+847334,MCS,mcs5_cm_cognitive_assessment,eiassc00,Circumstances of the cognitive assessment,2.0,No
+847335,MCS,mcs5_cm_cognitive_assessment,ecassx0a,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd noise TV comptr],-1.0,Not applicable
+847336,MCS,mcs5_cm_cognitive_assessment,ecassx0a,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd noise TV comptr],0.0,No
+847337,MCS,mcs5_cm_cognitive_assessment,ecassx0a,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd noise TV comptr],1.0,Yes
+847338,MCS,mcs5_cm_cognitive_assessment,ecassx0b,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd conversation],-1.0,Not applicable
+847339,MCS,mcs5_cm_cognitive_assessment,ecassx0b,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd conversation],0.0,No
+847340,MCS,mcs5_cm_cognitive_assessment,ecassx0b,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd conversation],1.0,Yes
+847341,MCS,mcs5_cm_cognitive_assessment,ecassx0c,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd noise othr childrn],-1.0,Not applicable
+847342,MCS,mcs5_cm_cognitive_assessment,ecassx0c,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd noise othr childrn],0.0,No
+847343,MCS,mcs5_cm_cognitive_assessment,ecassx0c,IWR: Circumstances of cogntv assessment MC (A) [Backgrnd noise othr childrn],1.0,Yes
+847344,MCS,mcs5_cm_cognitive_assessment,ecassx0d,IWR: Circumstances of cogntv assessment MC (A) [Someone entered room during],-1.0,Not applicable
+847345,MCS,mcs5_cm_cognitive_assessment,ecassx0d,IWR: Circumstances of cogntv assessment MC (A) [Someone entered room during],0.0,No
+847346,MCS,mcs5_cm_cognitive_assessment,ecassx0d,IWR: Circumstances of cogntv assessment MC (A) [Someone entered room during],1.0,Yes
+847347,MCS,mcs5_cm_cognitive_assessment,ecassx0e,IWR: Circumstances of cogntv assessment MC (A) [Someone entered house during],-1.0,Not applicable
+847348,MCS,mcs5_cm_cognitive_assessment,ecassx0e,IWR: Circumstances of cogntv assessment MC (A) [Someone entered house during],0.0,No
+847349,MCS,mcs5_cm_cognitive_assessment,ecassx0e,IWR: Circumstances of cogntv assessment MC (A) [Someone entered house during],1.0,Yes
+847350,MCS,mcs5_cm_cognitive_assessment,ecassx0f,IWR: Circumstances of cogntv assessment MC (A) [Interrupted by child],-1.0,Not applicable
+847351,MCS,mcs5_cm_cognitive_assessment,ecassx0f,IWR: Circumstances of cogntv assessment MC (A) [Interrupted by child],0.0,No
+847352,MCS,mcs5_cm_cognitive_assessment,ecassx0f,IWR: Circumstances of cogntv assessment MC (A) [Interrupted by child],1.0,Yes
+847353,MCS,mcs5_cm_cognitive_assessment,ecassx0g,IWR: Circumstances of cogntv assessment MC (A) [Interrupted by adult],-1.0,Not applicable
+847354,MCS,mcs5_cm_cognitive_assessment,ecassx0g,IWR: Circumstances of cogntv assessment MC (A) [Interrupted by adult],0.0,No
+847355,MCS,mcs5_cm_cognitive_assessment,ecassx0g,IWR: Circumstances of cogntv assessment MC (A) [Interrupted by adult],1.0,Yes
+847356,MCS,mcs5_cm_cognitive_assessment,ecassx0h,IWR: Circumstances of cogntv assessment MC (A) [CM tired at start of],-1.0,Not applicable
+847357,MCS,mcs5_cm_cognitive_assessment,ecassx0h,IWR: Circumstances of cogntv assessment MC (A) [CM tired at start of],0.0,No
+847358,MCS,mcs5_cm_cognitive_assessment,ecassx0h,IWR: Circumstances of cogntv assessment MC (A) [CM tired at start of],1.0,Yes
+847359,MCS,mcs5_cm_cognitive_assessment,ecassx0i,IWR: Circumstances of cogntv assessment MC (A) [CM ill],-1.0,Not applicable
+847360,MCS,mcs5_cm_cognitive_assessment,ecassx0i,IWR: Circumstances of cogntv assessment MC (A) [CM ill],0.0,No
+847361,MCS,mcs5_cm_cognitive_assessment,ecassx0i,IWR: Circumstances of cogntv assessment MC (A) [CM ill],1.0,Yes
+847362,MCS,mcs5_cm_cognitive_assessment,ecassx0j,IWR: Circumstances of cogntv assessment MC (A) [CM hungry],-1.0,Not applicable
+847363,MCS,mcs5_cm_cognitive_assessment,ecassx0j,IWR: Circumstances of cogntv assessment MC (A) [CM hungry],0.0,No
+847364,MCS,mcs5_cm_cognitive_assessment,ecassx0j,IWR: Circumstances of cogntv assessment MC (A) [CM hungry],1.0,Yes
+847365,MCS,mcs5_cm_cognitive_assessment,ecassx0k,IWR: Circumstances of cogntv assessment MC (A) [CM tired],-1.0,Not applicable
+847366,MCS,mcs5_cm_cognitive_assessment,ecassx0k,IWR: Circumstances of cogntv assessment MC (A) [CM tired],0.0,No
+847367,MCS,mcs5_cm_cognitive_assessment,ecassx0k,IWR: Circumstances of cogntv assessment MC (A) [CM tired],1.0,Yes
+847368,MCS,mcs5_cm_cognitive_assessment,ecassx0l,IWR: Circumstances of cogntv assessment MC (A) [CM distrcted,-1.0,Not applicable
+847369,MCS,mcs5_cm_cognitive_assessment,ecassx0l,IWR: Circumstances of cogntv assessment MC (A) [CM distrcted,0.0,No
+847370,MCS,mcs5_cm_cognitive_assessment,ecassx0l,IWR: Circumstances of cogntv assessment MC (A) [CM distrcted,1.0,Yes
+847371,MCS,mcs5_cm_cognitive_assessment,ecassx0m,IWR: Circumstances of cogntv assessment MC (A) [CM shy,-1.0,Not applicable
+847372,MCS,mcs5_cm_cognitive_assessment,ecassx0m,IWR: Circumstances of cogntv assessment MC (A) [CM shy,0.0,No
+847373,MCS,mcs5_cm_cognitive_assessment,ecassx0m,IWR: Circumstances of cogntv assessment MC (A) [CM shy,1.0,Yes
+847374,MCS,mcs5_cm_cognitive_assessment,ecassx0n,IWR: Circumstances of cogntv assessment MC (A) [1st language not English],-1.0,Not applicable
+847375,MCS,mcs5_cm_cognitive_assessment,ecassx0n,IWR: Circumstances of cogntv assessment MC (A) [1st language not English],0.0,No
+847376,MCS,mcs5_cm_cognitive_assessment,ecassx0n,IWR: Circumstances of cogntv assessment MC (A) [1st language not English],1.0,Yes
+847377,MCS,mcs5_cm_cognitive_assessment,ecassx0o,IWR: Circumstances of cogntv assessment MC (A) [CM partially sighted],-1.0,Not applicable
+847378,MCS,mcs5_cm_cognitive_assessment,ecassx0o,IWR: Circumstances of cogntv assessment MC (A) [CM partially sighted],0.0,No
+847379,MCS,mcs5_cm_cognitive_assessment,ecassx0o,IWR: Circumstances of cogntv assessment MC (A) [CM partially sighted],1.0,Yes
+847380,MCS,mcs5_cm_cognitive_assessment,ecassx0p,IWR: Circumstances of cogntv assessment MC (A) [CM hearing problems],-1.0,Not applicable
+847381,MCS,mcs5_cm_cognitive_assessment,ecassx0p,IWR: Circumstances of cogntv assessment MC (A) [CM hearing problems],0.0,No
+847382,MCS,mcs5_cm_cognitive_assessment,ecassx0p,IWR: Circumstances of cogntv assessment MC (A) [CM hearing problems],1.0,Yes
+847383,MCS,mcs5_cm_cognitive_assessment,ecassx0q,IWR: Circumstances of cogntv assessment MC (A) [CM has ADHD],-1.0,Not applicable
+847384,MCS,mcs5_cm_cognitive_assessment,ecassx0q,IWR: Circumstances of cogntv assessment MC (A) [CM has ADHD],0.0,No
+847385,MCS,mcs5_cm_cognitive_assessment,ecassx0q,IWR: Circumstances of cogntv assessment MC (A) [CM has ADHD],1.0,Yes
+847386,MCS,mcs5_cm_cognitive_assessment,ecassx0r,IWR: Circumstances of cogntv assessment MC (A) [CM has learning difficulties],-1.0,Not applicable
+847387,MCS,mcs5_cm_cognitive_assessment,ecassx0r,IWR: Circumstances of cogntv assessment MC (A) [CM has learning difficulties],0.0,No
+847388,MCS,mcs5_cm_cognitive_assessment,ecassx0r,IWR: Circumstances of cogntv assessment MC (A) [CM has learning difficulties],1.0,Yes
+847389,MCS,mcs5_cm_cognitive_assessment,ecassx0s,IWR: Circumstances of cogntv assessment MC (A) [CM has poor co-ordination],-1.0,Not applicable
+847390,MCS,mcs5_cm_cognitive_assessment,ecassx0s,IWR: Circumstances of cogntv assessment MC (A) [CM has poor co-ordination],0.0,No
+847391,MCS,mcs5_cm_cognitive_assessment,ecassx0s,IWR: Circumstances of cogntv assessment MC (A) [CM has poor co-ordination],1.0,Yes
+847392,MCS,mcs5_cm_cognitive_assessment,ecassx0t,IWR: Circumstances of cogntv assessment MC (A) [CM is autistic],-1.0,Not applicable
+847393,MCS,mcs5_cm_cognitive_assessment,ecassx0t,IWR: Circumstances of cogntv assessment MC (A) [CM is autistic],0.0,No
+847394,MCS,mcs5_cm_cognitive_assessment,ecassx0t,IWR: Circumstances of cogntv assessment MC (A) [CM is autistic],1.0,Yes
+847395,MCS,mcs5_cm_cognitive_assessment,ecassx0u,IWR: Circumstances of cogntv assessment MC (A) [CM has dyslexia],-1.0,Not applicable
+847396,MCS,mcs5_cm_cognitive_assessment,ecassx0u,IWR: Circumstances of cogntv assessment MC (A) [CM has dyslexia],0.0,No
+847397,MCS,mcs5_cm_cognitive_assessment,ecassx0u,IWR: Circumstances of cogntv assessment MC (A) [CM has dyslexia],1.0,Yes
+847398,MCS,mcs5_cm_cognitive_assessment,ecassx0v,IWR: Circumstances of cogntv assessment MC (A) [CM unable to read],-1.0,Not applicable
+847399,MCS,mcs5_cm_cognitive_assessment,ecassx0v,IWR: Circumstances of cogntv assessment MC (A) [CM unable to read],0.0,No
+847400,MCS,mcs5_cm_cognitive_assessment,ecassx0v,IWR: Circumstances of cogntv assessment MC (A) [CM unable to read],1.0,Yes
+847401,MCS,mcs5_cm_cognitive_assessment,ecassx0w,IWR: Circumstances of cogntv assessment MC (A) [Other fam member helped],-1.0,Not applicable
+847402,MCS,mcs5_cm_cognitive_assessment,ecassx0w,IWR: Circumstances of cogntv assessment MC (A) [Other fam member helped],0.0,No
+847403,MCS,mcs5_cm_cognitive_assessment,ecassx0w,IWR: Circumstances of cogntv assessment MC (A) [Other fam member helped],1.0,Yes
+847404,MCS,mcs5_cm_cognitive_assessment,ecassx0x,IWR: Circumstances of cogntv assessment MC (A) [Presence family distracting],-1.0,Not applicable
+847405,MCS,mcs5_cm_cognitive_assessment,ecassx0x,IWR: Circumstances of cogntv assessment MC (A) [Presence family distracting],0.0,No
+847406,MCS,mcs5_cm_cognitive_assessment,ecassx0x,IWR: Circumstances of cogntv assessment MC (A) [Presence family distracting],1.0,Yes
+847407,MCS,mcs5_cm_cognitive_assessment,ecassx0y,IWR: Circumstances of cogntv assessment MC (A) [Noisy house,-1.0,Not applicable
+847408,MCS,mcs5_cm_cognitive_assessment,ecassx0y,IWR: Circumstances of cogntv assessment MC (A) [Noisy house,0.0,No
+847409,MCS,mcs5_cm_cognitive_assessment,ecassx0y,IWR: Circumstances of cogntv assessment MC (A) [Noisy house,1.0,Yes
+847410,MCS,mcs5_cm_cognitive_assessment,ecassx0z,IWR: Circumstances of cogntv assessment MC (A) [No table,-1.0,Not applicable
+847411,MCS,mcs5_cm_cognitive_assessment,ecassx0z,IWR: Circumstances of cogntv assessment MC (A) [No table,0.0,No
+847412,MCS,mcs5_cm_cognitive_assessment,ecassx0z,IWR: Circumstances of cogntv assessment MC (A) [No table,1.0,Yes
+847413,MCS,mcs5_cm_cognitive_assessment,ecassxaa,IWR: Circumstances of cogntv assessment MC (A) [Computer problems],-1.0,Not applicable
+847414,MCS,mcs5_cm_cognitive_assessment,ecassxaa,IWR: Circumstances of cogntv assessment MC (A) [Computer problems],0.0,No
+847415,MCS,mcs5_cm_cognitive_assessment,ecassxaa,IWR: Circumstances of cogntv assessment MC (A) [Computer problems],1.0,Yes
+847416,MCS,mcs5_cm_cognitive_assessment,ecassxab,IWR: Circumstances of cogntv assessment MC (A) [CM distressed,-1.0,Not applicable
+847417,MCS,mcs5_cm_cognitive_assessment,ecassxab,IWR: Circumstances of cogntv assessment MC (A) [CM distressed,0.0,No
+847418,MCS,mcs5_cm_cognitive_assessment,ecassxab,IWR: Circumstances of cogntv assessment MC (A) [CM distressed,1.0,Yes
+847419,MCS,mcs5_cm_cognitive_assessment,ecassxac,IWR: Circumstances of cogntv assessment MC (A) [CM difficulty understanding],-1.0,Not applicable
+847420,MCS,mcs5_cm_cognitive_assessment,ecassxac,IWR: Circumstances of cogntv assessment MC (A) [CM difficulty understanding],0.0,No
+847421,MCS,mcs5_cm_cognitive_assessment,ecassxac,IWR: Circumstances of cogntv assessment MC (A) [CM difficulty understanding],1.0,Yes
+847422,MCS,mcs5_cm_cognitive_assessment,ecassxad,IWR: Circumstances of cogntv assessment MC (A) [CM reluctant,-1.0,Not applicable
+847423,MCS,mcs5_cm_cognitive_assessment,ecassxad,IWR: Circumstances of cogntv assessment MC (A) [CM reluctant,0.0,No
+847424,MCS,mcs5_cm_cognitive_assessment,ecassxad,IWR: Circumstances of cogntv assessment MC (A) [CM reluctant,1.0,Yes
+847425,MCS,mcs5_cm_cognitive_assessment,ecassxae,IWR: Circumstances of cogntv assessment MC (A) [Environmental conditions],-1.0,Not applicable
+847426,MCS,mcs5_cm_cognitive_assessment,ecassxae,IWR: Circumstances of cogntv assessment MC (A) [Environmental conditions],0.0,No
+847427,MCS,mcs5_cm_cognitive_assessment,ecassxae,IWR: Circumstances of cogntv assessment MC (A) [Environmental conditions],1.0,Yes
+847428,MCS,mcs5_cm_cognitive_assessment,ecassxaf,IWR: Circumstances of cogntv assessment MC (A) [Pets interrupted,-1.0,Not applicable
+847429,MCS,mcs5_cm_cognitive_assessment,ecassxaf,IWR: Circumstances of cogntv assessment MC (A) [Pets interrupted,0.0,No
+847430,MCS,mcs5_cm_cognitive_assessment,ecassxaf,IWR: Circumstances of cogntv assessment MC (A) [Pets interrupted,1.0,Yes
+847431,MCS,mcs5_cm_cognitive_assessment,ecassxag,IWR: Circumstances of cogntv assessment MC (A) [Medical conditions disablt],-1.0,Not applicable
+847432,MCS,mcs5_cm_cognitive_assessment,ecassxag,IWR: Circumstances of cogntv assessment MC (A) [Medical conditions disablt],0.0,No
+847433,MCS,mcs5_cm_cognitive_assessment,ecassxag,IWR: Circumstances of cogntv assessment MC (A) [Medical conditions disablt],1.0,Yes
+847434,MCS,mcs5_cm_cognitive_assessment,ecassxah,IWR: Circumstances of cogntv assessment MC (A) [CM need assistance computer],-1.0,Not applicable
+847435,MCS,mcs5_cm_cognitive_assessment,ecassxah,IWR: Circumstances of cogntv assessment MC (A) [CM need assistance computer],0.0,No
+847436,MCS,mcs5_cm_cognitive_assessment,ecassxah,IWR: Circumstances of cogntv assessment MC (A) [CM need assistance computer],1.0,Yes
+847437,MCS,mcs5_cm_cognitive_assessment,ecassxai,IWR: Circumstances of cogntv assessment MC (A) [Tests aborted],-1.0,Not applicable
+847438,MCS,mcs5_cm_cognitive_assessment,ecassxai,IWR: Circumstances of cogntv assessment MC (A) [Tests aborted],0.0,No
+847439,MCS,mcs5_cm_cognitive_assessment,ecassxai,IWR: Circumstances of cogntv assessment MC (A) [Tests aborted],1.0,Yes
+847440,MCS,mcs5_cm_cognitive_assessment,ecassxaj,IWR: Circumstances of cogntv assessment MC (A) [CM was rushing/rushed],-1.0,Not applicable
+847441,MCS,mcs5_cm_cognitive_assessment,ecassxaj,IWR: Circumstances of cogntv assessment MC (A) [CM was rushing/rushed],0.0,No
+847442,MCS,mcs5_cm_cognitive_assessment,ecassxaj,IWR: Circumstances of cogntv assessment MC (A) [CM was rushing/rushed],1.0,Yes
+847443,MCS,mcs5_cm_cognitive_assessment,ecassxak,IWR: Circumstances of cogntv assessment MC (A) [CM not affected],-1.0,Not applicable
+847444,MCS,mcs5_cm_cognitive_assessment,ecassxak,IWR: Circumstances of cogntv assessment MC (A) [CM not affected],0.0,No
+847445,MCS,mcs5_cm_cognitive_assessment,ecassxak,IWR: Circumstances of cogntv assessment MC (A) [CM not affected],1.0,Yes
+847446,MCS,mcs5_cm_cognitive_assessment,ecassxal,IWR: Circumstances of cogntv assessment MC (A) [Presence family membrs/frnds],-1.0,Not applicable
+847447,MCS,mcs5_cm_cognitive_assessment,ecassxal,IWR: Circumstances of cogntv assessment MC (A) [Presence family membrs/frnds],0.0,No
+847448,MCS,mcs5_cm_cognitive_assessment,ecassxal,IWR: Circumstances of cogntv assessment MC (A) [Presence family membrs/frnds],1.0,Yes
+847449,MCS,mcs5_cm_cognitive_assessment,ecassxam,IWR: Circumstances of cogntv assessment MC (A) [Parent was non-cooperative],-1.0,Not applicable
+847450,MCS,mcs5_cm_cognitive_assessment,ecassxam,IWR: Circumstances of cogntv assessment MC (A) [Parent was non-cooperative],0.0,No
+847451,MCS,mcs5_cm_cognitive_assessment,ecassxam,IWR: Circumstances of cogntv assessment MC (A) [Parent was non-cooperative],1.0,Yes
+847452,MCS,mcs5_cm_cognitive_assessment,ecassxan,IWR: Circumstances of cogntv assessment MC (A) [CM had issues with audio],-1.0,Not applicable
+847453,MCS,mcs5_cm_cognitive_assessment,ecassxan,IWR: Circumstances of cogntv assessment MC (A) [CM had issues with audio],0.0,No
+847454,MCS,mcs5_cm_cognitive_assessment,ecassxan,IWR: Circumstances of cogntv assessment MC (A) [CM had issues with audio],1.0,Yes
+847455,MCS,mcs5_cm_cognitive_assessment,ecassxao,IWR: Circumstances of cogntv assessment MC (A) [Unsupervised children],-1.0,Not applicable
+847456,MCS,mcs5_cm_cognitive_assessment,ecassxao,IWR: Circumstances of cogntv assessment MC (A) [Unsupervised children],0.0,No
+847457,MCS,mcs5_cm_cognitive_assessment,ecassxao,IWR: Circumstances of cogntv assessment MC (A) [Unsupervised children],1.0,Yes
+847458,MCS,mcs5_cm_cognitive_assessment,ecassxap,IWR: Circumstances of cogntv assessment MC (A) [CM personal life issues],-1.0,Not applicable
+847459,MCS,mcs5_cm_cognitive_assessment,ecassxap,IWR: Circumstances of cogntv assessment MC (A) [CM personal life issues],0.0,No
+847460,MCS,mcs5_cm_cognitive_assessment,ecassxap,IWR: Circumstances of cogntv assessment MC (A) [CM personal life issues],1.0,Yes
+847461,MCS,mcs5_cm_cognitive_assessment,ecassxaq,IWR: Circumstances of cogntv assessment MC (A) [IW started late],-1.0,Not applicable
+847462,MCS,mcs5_cm_cognitive_assessment,ecassxaq,IWR: Circumstances of cogntv assessment MC (A) [IW started late],0.0,No
+847463,MCS,mcs5_cm_cognitive_assessment,ecassxaq,IWR: Circumstances of cogntv assessment MC (A) [IW started late],1.0,Yes
+847464,MCS,mcs5_cm_cognitive_assessment,ecassxar,IWR: Circumstances of cogntv assessment MC (A) [Irrelevant response],-1.0,Not applicable
+847465,MCS,mcs5_cm_cognitive_assessment,ecassxar,IWR: Circumstances of cogntv assessment MC (A) [Irrelevant response],0.0,No
+847466,MCS,mcs5_cm_cognitive_assessment,ecassxar,IWR: Circumstances of cogntv assessment MC (A) [Irrelevant response],1.0,Yes
+847467,MCS,mcs5_cm_cognitive_assessment,ecassxas,IWR: Circumstances of cogntv assessment MC (A) [Other],-1.0,Not applicable
+847468,MCS,mcs5_cm_cognitive_assessment,ecassxas,IWR: Circumstances of cogntv assessment MC (A) [Other],0.0,No
+847469,MCS,mcs5_cm_cognitive_assessment,ecassxas,IWR: Circumstances of cogntv assessment MC (A) [Other],1.0,Yes
+847470,MCS,mcs5_cm_cognitive_assessment,ecassxat,IWR: Circumstances of cogntv assessment MC (A) [Nothing,-1.0,Not applicable
+847471,MCS,mcs5_cm_cognitive_assessment,ecassxat,IWR: Circumstances of cogntv assessment MC (A) [Nothing,0.0,No
+847472,MCS,mcs5_cm_cognitive_assessment,ecassxat,IWR: Circumstances of cogntv assessment MC (A) [Nothing,1.0,Yes
+847473,MCS,mcs5_cm_cognitive_assessment,ecassxau,IWR: Circumstances of cogntv assessment MC (A) [No answer],-1.0,Not applicable
+847474,MCS,mcs5_cm_cognitive_assessment,ecassxau,IWR: Circumstances of cogntv assessment MC (A) [No answer],0.0,No
+847475,MCS,mcs5_cm_cognitive_assessment,ecassxau,IWR: Circumstances of cogntv assessment MC (A) [No answer],1.0,Yes
+847476,MCS,mcs5_cm_cognitive_assessment,eicole00,Cognitive observations length of time,,
+847477,MCS,mcs5_cm_cognitive_assessment,avail_from_dt,,,
+847478,MCS,mcs5_cm_cognitive_assessment,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

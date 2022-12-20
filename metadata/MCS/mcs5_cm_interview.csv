@@ -1,0 +1,1457 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+847541,MCS,mcs5_cm_interview,study_id_e,,,
+847542,MCS,mcs5_cm_interview,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+847543,MCS,mcs5_cm_interview,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+847544,MCS,mcs5_cm_interview,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+847545,MCS,mcs5_cm_interview,epsdpf00,CM considerate of other people's feelings,-9.0,Not answered
+847546,MCS,mcs5_cm_interview,epsdpf00,CM considerate of other people's feelings,-1.0,Not applicable
+847547,MCS,mcs5_cm_interview,epsdpf00,CM considerate of other people's feelings,1.0,Not true
+847548,MCS,mcs5_cm_interview,epsdpf00,CM considerate of other people's feelings,2.0,Somewhat true
+847549,MCS,mcs5_cm_interview,epsdpf00,CM considerate of other people's feelings,3.0,Certainly true
+847550,MCS,mcs5_cm_interview,epsdpf00,CM considerate of other people's feelings,4.0,Donâ€™t know/Donâ€™t wish to answer
+847551,MCS,mcs5_cm_interview,epsdro00,CM is restless,-9.0,Not answered
+847552,MCS,mcs5_cm_interview,epsdro00,CM is restless,-1.0,Not applicable
+847553,MCS,mcs5_cm_interview,epsdro00,CM is restless,1.0,Not true
+847554,MCS,mcs5_cm_interview,epsdro00,CM is restless,2.0,Somewhat true
+847555,MCS,mcs5_cm_interview,epsdro00,CM is restless,3.0,Certainly true
+847556,MCS,mcs5_cm_interview,epsdro00,CM is restless,4.0,Donâ€™t know/Donâ€™t wish to answer
+847557,MCS,mcs5_cm_interview,epsdhs00,CM often complains of headaches/sickness,-9.0,Not answered
+847558,MCS,mcs5_cm_interview,epsdhs00,CM often complains of headaches/sickness,-1.0,Not applicable
+847559,MCS,mcs5_cm_interview,epsdhs00,CM often complains of headaches/sickness,1.0,Not true
+847560,MCS,mcs5_cm_interview,epsdhs00,CM often complains of headaches/sickness,2.0,Somewhat true
+847561,MCS,mcs5_cm_interview,epsdhs00,CM often complains of headaches/sickness,3.0,Certainly true
+847562,MCS,mcs5_cm_interview,epsdhs00,CM often complains of headaches/sickness,4.0,Donâ€™t know/Donâ€™t wish to answer
+847563,MCS,mcs5_cm_interview,epsdsr00,CM shares readily with other children,-9.0,Not answered
+847564,MCS,mcs5_cm_interview,epsdsr00,CM shares readily with other children,-1.0,Not applicable
+847565,MCS,mcs5_cm_interview,epsdsr00,CM shares readily with other children,1.0,Not true
+847566,MCS,mcs5_cm_interview,epsdsr00,CM shares readily with other children,2.0,Somewhat true
+847567,MCS,mcs5_cm_interview,epsdsr00,CM shares readily with other children,3.0,Certainly true
+847568,MCS,mcs5_cm_interview,epsdsr00,CM shares readily with other children,4.0,Donâ€™t know/Donâ€™t wish to answer
+847569,MCS,mcs5_cm_interview,epsdtt00,CM often has temper tantrums,-9.0,Not answered
+847570,MCS,mcs5_cm_interview,epsdtt00,CM often has temper tantrums,-1.0,Not applicable
+847571,MCS,mcs5_cm_interview,epsdtt00,CM often has temper tantrums,1.0,Not true
+847572,MCS,mcs5_cm_interview,epsdtt00,CM often has temper tantrums,2.0,Somewhat true
+847573,MCS,mcs5_cm_interview,epsdtt00,CM often has temper tantrums,3.0,Certainly true
+847574,MCS,mcs5_cm_interview,epsdtt00,CM often has temper tantrums,4.0,Donâ€™t know/Donâ€™t wish to answer
+847575,MCS,mcs5_cm_interview,epsdsp00,CM is rather solitary,-9.0,Not answered
+847576,MCS,mcs5_cm_interview,epsdsp00,CM is rather solitary,-1.0,Not applicable
+847577,MCS,mcs5_cm_interview,epsdsp00,CM is rather solitary,1.0,Not true
+847578,MCS,mcs5_cm_interview,epsdsp00,CM is rather solitary,2.0,Somewhat true
+847579,MCS,mcs5_cm_interview,epsdsp00,CM is rather solitary,3.0,Certainly true
+847580,MCS,mcs5_cm_interview,epsdsp00,CM is rather solitary,4.0,Donâ€™t know/Donâ€™t wish to answer
+847581,MCS,mcs5_cm_interview,epsdor00,CM is generally obedient,-9.0,Not answered
+847582,MCS,mcs5_cm_interview,epsdor00,CM is generally obedient,-1.0,Not applicable
+847583,MCS,mcs5_cm_interview,epsdor00,CM is generally obedient,1.0,Not true
+847584,MCS,mcs5_cm_interview,epsdor00,CM is generally obedient,2.0,Somewhat true
+847585,MCS,mcs5_cm_interview,epsdor00,CM is generally obedient,3.0,Certainly true
+847586,MCS,mcs5_cm_interview,epsdor00,CM is generally obedient,4.0,Donâ€™t know/Donâ€™t wish to answer
+847587,MCS,mcs5_cm_interview,epsdmw00,CM has many worries,-9.0,Not answered
+847588,MCS,mcs5_cm_interview,epsdmw00,CM has many worries,-1.0,Not applicable
+847589,MCS,mcs5_cm_interview,epsdmw00,CM has many worries,1.0,Not true
+847590,MCS,mcs5_cm_interview,epsdmw00,CM has many worries,2.0,Somewhat true
+847591,MCS,mcs5_cm_interview,epsdmw00,CM has many worries,3.0,Certainly true
+847592,MCS,mcs5_cm_interview,epsdmw00,CM has many worries,4.0,Donâ€™t know/Donâ€™t wish to answer
+847593,MCS,mcs5_cm_interview,epsdhu00,CM helpful is someone is hurt,-9.0,Not answered
+847594,MCS,mcs5_cm_interview,epsdhu00,CM helpful is someone is hurt,-1.0,Not applicable
+847595,MCS,mcs5_cm_interview,epsdhu00,CM helpful is someone is hurt,1.0,Not true
+847596,MCS,mcs5_cm_interview,epsdhu00,CM helpful is someone is hurt,2.0,Somewhat true
+847597,MCS,mcs5_cm_interview,epsdhu00,CM helpful is someone is hurt,3.0,Certainly true
+847598,MCS,mcs5_cm_interview,epsdhu00,CM helpful is someone is hurt,4.0,Donâ€™t know/Donâ€™t wish to answer
+847599,MCS,mcs5_cm_interview,epsdfs00,CM constantly fidgeting or squirming,-9.0,Not answered
+847600,MCS,mcs5_cm_interview,epsdfs00,CM constantly fidgeting or squirming,-1.0,Not applicable
+847601,MCS,mcs5_cm_interview,epsdfs00,CM constantly fidgeting or squirming,1.0,Not true
+847602,MCS,mcs5_cm_interview,epsdfs00,CM constantly fidgeting or squirming,2.0,Somewhat true
+847603,MCS,mcs5_cm_interview,epsdfs00,CM constantly fidgeting or squirming,3.0,Certainly true
+847604,MCS,mcs5_cm_interview,epsdfs00,CM constantly fidgeting or squirming,4.0,Donâ€™t know/Donâ€™t wish to answer
+847605,MCS,mcs5_cm_interview,epsdgf00,CM has at least one good friend,-9.0,Not answered
+847606,MCS,mcs5_cm_interview,epsdgf00,CM has at least one good friend,-1.0,Not applicable
+847607,MCS,mcs5_cm_interview,epsdgf00,CM has at least one good friend,1.0,Not true
+847608,MCS,mcs5_cm_interview,epsdgf00,CM has at least one good friend,2.0,Somewhat true
+847609,MCS,mcs5_cm_interview,epsdgf00,CM has at least one good friend,3.0,Certainly true
+847610,MCS,mcs5_cm_interview,epsdgf00,CM has at least one good friend,4.0,Donâ€™t know/Donâ€™t wish to answer
+847611,MCS,mcs5_cm_interview,epsdfb00,CM fights with or bullies other children,-9.0,Not answered
+847612,MCS,mcs5_cm_interview,epsdfb00,CM fights with or bullies other children,-1.0,Not applicable
+847613,MCS,mcs5_cm_interview,epsdfb00,CM fights with or bullies other children,1.0,Not true
+847614,MCS,mcs5_cm_interview,epsdfb00,CM fights with or bullies other children,2.0,Somewhat true
+847615,MCS,mcs5_cm_interview,epsdfb00,CM fights with or bullies other children,3.0,Certainly true
+847616,MCS,mcs5_cm_interview,epsdfb00,CM fights with or bullies other children,4.0,Donâ€™t know/Donâ€™t wish to answer
+847617,MCS,mcs5_cm_interview,epsdud00,CM often unhappy,-9.0,Not answered
+847618,MCS,mcs5_cm_interview,epsdud00,CM often unhappy,-1.0,Not applicable
+847619,MCS,mcs5_cm_interview,epsdud00,CM often unhappy,1.0,Not true
+847620,MCS,mcs5_cm_interview,epsdud00,CM often unhappy,2.0,Somewhat true
+847621,MCS,mcs5_cm_interview,epsdud00,CM often unhappy,3.0,Certainly true
+847622,MCS,mcs5_cm_interview,epsdud00,CM often unhappy,4.0,Donâ€™t know/Donâ€™t wish to answer
+847623,MCS,mcs5_cm_interview,epsdlc00,CM generally liked by other children,-9.0,Not answered
+847624,MCS,mcs5_cm_interview,epsdlc00,CM generally liked by other children,-1.0,Not applicable
+847625,MCS,mcs5_cm_interview,epsdlc00,CM generally liked by other children,1.0,Not true
+847626,MCS,mcs5_cm_interview,epsdlc00,CM generally liked by other children,2.0,Somewhat true
+847627,MCS,mcs5_cm_interview,epsdlc00,CM generally liked by other children,3.0,Certainly true
+847628,MCS,mcs5_cm_interview,epsdlc00,CM generally liked by other children,4.0,Donâ€™t know/Donâ€™t wish to answer
+847629,MCS,mcs5_cm_interview,epsddc00,CM is easily distracted,-9.0,Not answered
+847630,MCS,mcs5_cm_interview,epsddc00,CM is easily distracted,-1.0,Not applicable
+847631,MCS,mcs5_cm_interview,epsddc00,CM is easily distracted,1.0,Not true
+847632,MCS,mcs5_cm_interview,epsddc00,CM is easily distracted,2.0,Somewhat true
+847633,MCS,mcs5_cm_interview,epsddc00,CM is easily distracted,3.0,Certainly true
+847634,MCS,mcs5_cm_interview,epsddc00,CM is easily distracted,4.0,Donâ€™t know/Donâ€™t wish to answer
+847635,MCS,mcs5_cm_interview,epsdnc00,CM nervous/clingy in new situations,-9.0,Not answered
+847636,MCS,mcs5_cm_interview,epsdnc00,CM nervous/clingy in new situations,-1.0,Not applicable
+847637,MCS,mcs5_cm_interview,epsdnc00,CM nervous/clingy in new situations,1.0,Not true
+847638,MCS,mcs5_cm_interview,epsdnc00,CM nervous/clingy in new situations,2.0,Somewhat true
+847639,MCS,mcs5_cm_interview,epsdnc00,CM nervous/clingy in new situations,3.0,Certainly true
+847640,MCS,mcs5_cm_interview,epsdnc00,CM nervous/clingy in new situations,4.0,Donâ€™t know/Donâ€™t wish to answer
+847641,MCS,mcs5_cm_interview,epsdky00,CM is kind to younger children,-9.0,Not answered
+847642,MCS,mcs5_cm_interview,epsdky00,CM is kind to younger children,-1.0,Not applicable
+847643,MCS,mcs5_cm_interview,epsdky00,CM is kind to younger children,1.0,Not true
+847644,MCS,mcs5_cm_interview,epsdky00,CM is kind to younger children,2.0,Somewhat true
+847645,MCS,mcs5_cm_interview,epsdky00,CM is kind to younger children,3.0,Certainly true
+847646,MCS,mcs5_cm_interview,epsdky00,CM is kind to younger children,4.0,Donâ€™t know/Donâ€™t wish to answer
+847647,MCS,mcs5_cm_interview,epsdoa00,CM often lies or cheats,-9.0,Not answered
+847648,MCS,mcs5_cm_interview,epsdoa00,CM often lies or cheats,-1.0,Not applicable
+847649,MCS,mcs5_cm_interview,epsdoa00,CM often lies or cheats,1.0,Not true
+847650,MCS,mcs5_cm_interview,epsdoa00,CM often lies or cheats,2.0,Somewhat true
+847651,MCS,mcs5_cm_interview,epsdoa00,CM often lies or cheats,3.0,Certainly true
+847652,MCS,mcs5_cm_interview,epsdoa00,CM often lies or cheats,4.0,Donâ€™t know/Donâ€™t wish to answer
+847653,MCS,mcs5_cm_interview,epsdpb00,CM picked on or bullied by other children,-9.0,Not answered
+847654,MCS,mcs5_cm_interview,epsdpb00,CM picked on or bullied by other children,-1.0,Not applicable
+847655,MCS,mcs5_cm_interview,epsdpb00,CM picked on or bullied by other children,1.0,Not true
+847656,MCS,mcs5_cm_interview,epsdpb00,CM picked on or bullied by other children,2.0,Somewhat true
+847657,MCS,mcs5_cm_interview,epsdpb00,CM picked on or bullied by other children,3.0,Certainly true
+847658,MCS,mcs5_cm_interview,epsdpb00,CM picked on or bullied by other children,4.0,Donâ€™t know/Donâ€™t wish to answer
+847659,MCS,mcs5_cm_interview,epsdvh00,CM often volunteers to help others,-9.0,Not answered
+847660,MCS,mcs5_cm_interview,epsdvh00,CM often volunteers to help others,-1.0,Not applicable
+847661,MCS,mcs5_cm_interview,epsdvh00,CM often volunteers to help others,1.0,Not true
+847662,MCS,mcs5_cm_interview,epsdvh00,CM often volunteers to help others,2.0,Somewhat true
+847663,MCS,mcs5_cm_interview,epsdvh00,CM often volunteers to help others,3.0,Certainly true
+847664,MCS,mcs5_cm_interview,epsdvh00,CM often volunteers to help others,4.0,Donâ€™t know/Donâ€™t wish to answer
+847665,MCS,mcs5_cm_interview,epsdst00,CM thinks things out before acting,-9.0,Not answered
+847666,MCS,mcs5_cm_interview,epsdst00,CM thinks things out before acting,-1.0,Not applicable
+847667,MCS,mcs5_cm_interview,epsdst00,CM thinks things out before acting,1.0,Not true
+847668,MCS,mcs5_cm_interview,epsdst00,CM thinks things out before acting,2.0,Somewhat true
+847669,MCS,mcs5_cm_interview,epsdst00,CM thinks things out before acting,3.0,Certainly true
+847670,MCS,mcs5_cm_interview,epsdst00,CM thinks things out before acting,4.0,Donâ€™t know/Donâ€™t wish to answer
+847671,MCS,mcs5_cm_interview,epsdcs00,CM steals from home,-9.0,Not answered
+847672,MCS,mcs5_cm_interview,epsdcs00,CM steals from home,-1.0,Not applicable
+847673,MCS,mcs5_cm_interview,epsdcs00,CM steals from home,1.0,Not true
+847674,MCS,mcs5_cm_interview,epsdcs00,CM steals from home,2.0,Somewhat true
+847675,MCS,mcs5_cm_interview,epsdcs00,CM steals from home,3.0,Certainly true
+847676,MCS,mcs5_cm_interview,epsdcs00,CM steals from home,4.0,Donâ€™t know/Donâ€™t wish to answer
+847677,MCS,mcs5_cm_interview,epsdgb00,CM gets on better with adults than children,-9.0,Not answered
+847678,MCS,mcs5_cm_interview,epsdgb00,CM gets on better with adults than children,-1.0,Not applicable
+847679,MCS,mcs5_cm_interview,epsdgb00,CM gets on better with adults than children,1.0,Not true
+847680,MCS,mcs5_cm_interview,epsdgb00,CM gets on better with adults than children,2.0,Somewhat true
+847681,MCS,mcs5_cm_interview,epsdgb00,CM gets on better with adults than children,3.0,Certainly true
+847682,MCS,mcs5_cm_interview,epsdgb00,CM gets on better with adults than children,4.0,Donâ€™t know/Donâ€™t wish to answer
+847683,MCS,mcs5_cm_interview,epsdfe00,CM has many fears,-9.0,Not answered
+847684,MCS,mcs5_cm_interview,epsdfe00,CM has many fears,-1.0,Not applicable
+847685,MCS,mcs5_cm_interview,epsdfe00,CM has many fears,1.0,Not true
+847686,MCS,mcs5_cm_interview,epsdfe00,CM has many fears,2.0,Somewhat true
+847687,MCS,mcs5_cm_interview,epsdfe00,CM has many fears,3.0,Certainly true
+847688,MCS,mcs5_cm_interview,epsdfe00,CM has many fears,4.0,Donâ€™t know/Donâ€™t wish to answer
+847689,MCS,mcs5_cm_interview,epsdte00,CM sees tasks through to the end,-9.0,Not answered
+847690,MCS,mcs5_cm_interview,epsdte00,CM sees tasks through to the end,-1.0,Not applicable
+847691,MCS,mcs5_cm_interview,epsdte00,CM sees tasks through to the end,1.0,Not true
+847692,MCS,mcs5_cm_interview,epsdte00,CM sees tasks through to the end,2.0,Somewhat true
+847693,MCS,mcs5_cm_interview,epsdte00,CM sees tasks through to the end,3.0,Certainly true
+847694,MCS,mcs5_cm_interview,epsdte00,CM sees tasks through to the end,4.0,Donâ€™t know/Donâ€™t wish to answer
+847695,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,-9.0,Not answered
+847696,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,-1.0,Not applicable
+847697,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,1.0,Never
+847698,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,2.0,Rarely
+847699,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,3.0,Sometimes (about once a month)
+847700,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,4.0,Often (about once a week or more)
+847701,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,5.0,Daily
+847702,MCS,mcs5_cm_interview,epdibn00,How often sends CM to bedroom/naughty chair,6.0,Donâ€™t know/Donâ€™t wish to answer
+847703,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,-9.0,Not answered
+847704,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,-1.0,Not applicable
+847705,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,1.0,Never
+847706,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,2.0,Rarely
+847707,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,3.0,Sometimes (about once a month)
+847708,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,4.0,Often (about once a week or more)
+847709,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,5.0,Daily
+847710,MCS,mcs5_cm_interview,epditr00,How often takes away treats from CM when naughty,6.0,Donâ€™t know/Donâ€™t wish to answer
+847711,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,-9.0,Not answered
+847712,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,-1.0,Not applicable
+847713,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,1.0,Never
+847714,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,2.0,Rarely
+847715,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,3.0,Sometimes (about once a month)
+847716,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,4.0,Often (about once a week or more)
+847717,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,5.0,Daily
+847718,MCS,mcs5_cm_interview,epdire00,How often tries to reason with CM when naughty,6.0,Donâ€™t know/Donâ€™t wish to answer
+847719,MCS,mcs5_cm_interview,epschc00,Overall,5.0,Donâ€™t know/Donâ€™t wish to answer
+847720,MCS,mcs5_cm_interview,epschc00,Overall,-9.0,Not answered
+847721,MCS,mcs5_cm_interview,epschc00,Overall,-1.0,Not applicable
+847722,MCS,mcs5_cm_interview,epschc00,Overall,1.0,Not very close
+847723,MCS,mcs5_cm_interview,epschc00,Overall,2.0,Fairly close
+847724,MCS,mcs5_cm_interview,epschc00,Overall,3.0,Very close
+847725,MCS,mcs5_cm_interview,epschc00,Overall,4.0,Extremely close
+847726,MCS,mcs5_cm_interview,epchwl00,Has frequent battles with CM,-9.0,Not answered
+847727,MCS,mcs5_cm_interview,epchwl00,Has frequent battles with CM,-1.0,Not applicable
+847728,MCS,mcs5_cm_interview,epchwl00,Has frequent battles with CM,1.0,Yes
+847729,MCS,mcs5_cm_interview,epchwl00,Has frequent battles with CM,2.0,No
+847730,MCS,mcs5_cm_interview,epchwl00,Has frequent battles with CM,3.0,Donâ€™t know/Donâ€™t wish to answer
+847731,MCS,mcs5_cm_interview,eppuhg00,CM growth spurt,-9.0,Not answered
+847732,MCS,mcs5_cm_interview,eppuhg00,CM growth spurt,-1.0,Not applicable
+847733,MCS,mcs5_cm_interview,eppuhg00,CM growth spurt,1.0,...has not yet begun
+847734,MCS,mcs5_cm_interview,eppuhg00,CM growth spurt,2.0,...has barely started
+847735,MCS,mcs5_cm_interview,eppuhg00,CM growth spurt,3.0,...has definitely started
+847736,MCS,mcs5_cm_interview,eppuhg00,CM growth spurt,4.0,Donâ€™t know/Donâ€™t wish to answer
+847737,MCS,mcs5_cm_interview,eppuhg00,CM growth spurt,5.0,No answer
+847738,MCS,mcs5_cm_interview,eppubh00,CM no body hair,-9.0,Not answered
+847739,MCS,mcs5_cm_interview,eppubh00,CM no body hair,-1.0,Not applicable
+847740,MCS,mcs5_cm_interview,eppubh00,CM no body hair,1.0,...has not yet begun to grow
+847741,MCS,mcs5_cm_interview,eppubh00,CM no body hair,2.0,...has barely started to grow
+847742,MCS,mcs5_cm_interview,eppubh00,CM no body hair,3.0,...has definitely started to grow
+847743,MCS,mcs5_cm_interview,eppubh00,CM no body hair,4.0,Donâ€™t know/Donâ€™t wish to answer
+847744,MCS,mcs5_cm_interview,eppubh00,CM no body hair,5.0,No answer
+847745,MCS,mcs5_cm_interview,eppusk00,CM skin changes eg spots,-9.0,Not answered
+847746,MCS,mcs5_cm_interview,eppusk00,CM skin changes eg spots,-1.0,Not applicable
+847747,MCS,mcs5_cm_interview,eppusk00,CM skin changes eg spots,1.0,...has not yet started changing
+847748,MCS,mcs5_cm_interview,eppusk00,CM skin changes eg spots,2.0,...has barely started changing
+847749,MCS,mcs5_cm_interview,eppusk00,CM skin changes eg spots,3.0,...has definitely started changing
+847750,MCS,mcs5_cm_interview,eppusk00,CM skin changes eg spots,4.0,Donâ€™t know/Donâ€™t wish to answer
+847751,MCS,mcs5_cm_interview,eppusk00,CM skin changes eg spots,5.0,No answer
+847752,MCS,mcs5_cm_interview,eppuvc00,CM voice change,-9.0,Not answered
+847753,MCS,mcs5_cm_interview,eppuvc00,CM voice change,-1.0,Not applicable
+847754,MCS,mcs5_cm_interview,eppuvc00,CM voice change,1.0,... has not yet started getting deeper
+847755,MCS,mcs5_cm_interview,eppuvc00,CM voice change,2.0,... has barely started getting deeper
+847756,MCS,mcs5_cm_interview,eppuvc00,CM voice change,3.0,... has definitely started getting deep
+847757,MCS,mcs5_cm_interview,eppuvc00,CM voice change,4.0,Donâ€™t know/Donâ€™t wish to answer
+847758,MCS,mcs5_cm_interview,eppuvc00,CM voice change,5.0,No answer
+847759,MCS,mcs5_cm_interview,eppufh00,CM facial hair,-9.0,Not answered
+847760,MCS,mcs5_cm_interview,eppufh00,CM facial hair,-1.0,Not applicable
+847761,MCS,mcs5_cm_interview,eppufh00,CM facial hair,1.0,...has not yet started to grow
+847762,MCS,mcs5_cm_interview,eppufh00,CM facial hair,2.0,...has barely started to grow
+847763,MCS,mcs5_cm_interview,eppufh00,CM facial hair,3.0,...has definitely started to grow
+847764,MCS,mcs5_cm_interview,eppufh00,CM facial hair,4.0,Donâ€™t know/Donâ€™t wish to answer
+847765,MCS,mcs5_cm_interview,eppufh00,CM facial hair,5.0,No answer
+847766,MCS,mcs5_cm_interview,eppubr00,CM breast growth,-9.0,Not answered
+847767,MCS,mcs5_cm_interview,eppubr00,CM breast growth,-1.0,Not applicable
+847768,MCS,mcs5_cm_interview,eppubr00,CM breast growth,1.0,...have not yet started to grow
+847769,MCS,mcs5_cm_interview,eppubr00,CM breast growth,2.0,...have barely started to grow
+847770,MCS,mcs5_cm_interview,eppubr00,CM breast growth,3.0,...have definitely started to grow
+847771,MCS,mcs5_cm_interview,eppubr00,CM breast growth,4.0,Donâ€™t know/Donâ€™t wish to answer
+847772,MCS,mcs5_cm_interview,eppubr00,CM breast growth,5.0,No answer
+847773,MCS,mcs5_cm_interview,eppumn00,CM started to menstruate,-9.0,Not answered
+847774,MCS,mcs5_cm_interview,eppumn00,CM started to menstruate,-1.0,Not applicable
+847775,MCS,mcs5_cm_interview,eppumn00,CM started to menstruate,1.0,Yes
+847776,MCS,mcs5_cm_interview,eppumn00,CM started to menstruate,2.0,No
+847777,MCS,mcs5_cm_interview,eppumn00,CM started to menstruate,3.0,Donâ€™t know/Donâ€™t wish to answer
+847778,MCS,mcs5_cm_interview,eppumn00,CM started to menstruate,4.0,No answer
+847779,MCS,mcs5_cm_interview,epagmn00,Age started to menstruate,-9.0,Not answered
+847780,MCS,mcs5_cm_interview,epagmn00,Age started to menstruate,-7.0,No answer
+847781,MCS,mcs5_cm_interview,epagmn00,Age started to menstruate,-1.0,Not applicable
+847782,MCS,mcs5_cm_interview,epagmn00,Age started to menstruate,0.0,No answer
+847783,MCS,mcs5_cm_interview,epscon00,Parental Consent,-1.0,Not applicable
+847784,MCS,mcs5_cm_interview,epscon00,Parental Consent,1.0,Yes
+847785,MCS,mcs5_cm_interview,epscon00,Parental Consent,2.0,No
+847786,MCS,mcs5_cm_interview,epchal00,CM Verbal consent,-1.0,Not applicable
+847787,MCS,mcs5_cm_interview,epchal00,CM Verbal consent,1.0,Yes
+847788,MCS,mcs5_cm_interview,epchal00,CM Verbal consent,2.0,No
+847789,MCS,mcs5_cm_interview,epchtt00,Child Self Completion completed,-1.0,Not applicable
+847790,MCS,mcs5_cm_interview,epchtt00,Child Self Completion completed,1.0,Yes
+847791,MCS,mcs5_cm_interview,epchtt00,Child Self Completion completed,2.0,No
+847792,MCS,mcs5_cm_interview,epoecp00,How did the child complete the child questionnaire,-1.0,Not applicable
+847793,MCS,mcs5_cm_interview,epoecp00,How did the child complete the child questionnaire,1.0,Paper version only
+847794,MCS,mcs5_cm_interview,epoecp00,How did the child complete the child questionnaire,2.0,Paper and audio
+847795,MCS,mcs5_cm_interview,epoecp00,How did the child complete the child questionnaire,3.0,Administered by interviewer
+847796,MCS,mcs5_cm_interview,epoehp00,Was the child given any additional help,-1.0,Not applicable
+847797,MCS,mcs5_cm_interview,epoehp00,Was the child given any additional help,1.0,"Yes, help given for many questions"
+847798,MCS,mcs5_cm_interview,epoehp00,Was the child given any additional help,2.0,"Yes, help given for some questions"
+847799,MCS,mcs5_cm_interview,epoehp00,Was the child given any additional help,3.0,"No, no help given"
+847800,MCS,mcs5_cm_interview,epoeit00,CM_IWinf - Where did the child fill in the questionnaire,-1.0,Not applicable
+847801,MCS,mcs5_cm_interview,epoeit00,CM_IWinf - Where did the child fill in the questionnaire,1.0,In the same room as you
+847802,MCS,mcs5_cm_interview,epoeit00,CM_IWinf - Where did the child fill in the questionnaire,2.0,In a different room to you
+847803,MCS,mcs5_cm_interview,epoeln00,How long to complete Child Self Completion,-9.0,Refusal
+847804,MCS,mcs5_cm_interview,epoeln00,How long to complete Child Self Completion,-8.0,Don't know
+847805,MCS,mcs5_cm_interview,epoeln00,How long to complete Child Self Completion,-1.0,Not applicable
+847806,MCS,mcs5_cm_interview,epoeau00,Did sample sheet say to offer Audio,-1.0,Not applicable
+847807,MCS,mcs5_cm_interview,epoeau00,Did sample sheet say to offer Audio,1.0,Yes
+847808,MCS,mcs5_cm_interview,epoeau00,Did sample sheet say to offer Audio,2.0,No
+847809,MCS,mcs5_cm_interview,epoenn00,Why did child not use the audio version of the questionnaire,-1.0,Not applicable
+847810,MCS,mcs5_cm_interview,epoenn00,Why did child not use the audio version of the questionnaire,1.0,Parent said child didn't need it
+847811,MCS,mcs5_cm_interview,epoenn00,Why did child not use the audio version of the questionnaire,2.0,Child didn't want to use it
+847812,MCS,mcs5_cm_interview,epoenn00,Why did child not use the audio version of the questionnaire,3.0,Problem with MP4 player
+847813,MCS,mcs5_cm_interview,epoenn00,Why did child not use the audio version of the questionnaire,4.0,Other reason (specify)
+847814,MCS,mcs5_cm_interview,epoeye00,Why did child use the audio version,-1.0,Not applicable
+847815,MCS,mcs5_cm_interview,epoeye00,Why did child use the audio version,1.0,Parents suggested audio for child
+847816,MCS,mcs5_cm_interview,epoeye00,Why did child use the audio version,2.0,Child was struggling with paper version
+847817,MCS,mcs5_cm_interview,epoeye00,Why did child use the audio version,3.0,Child requested audio
+847818,MCS,mcs5_cm_interview,epoeye00,Why did child use the audio version,4.0,Other (specify)
+847819,MCS,mcs5_cm_interview,epicwo00,Child appears underweight,-1.0,Not applicable
+847820,MCS,mcs5_cm_interview,epicwo00,Child appears underweight,1.0,A little/a lot underweight
+847821,MCS,mcs5_cm_interview,epicwo00,Child appears underweight,2.0,Neither underweight nor overweight
+847822,MCS,mcs5_cm_interview,epicwo00,Child appears underweight,3.0,A little/a lot overweight
+847823,MCS,mcs5_cm_interview,epcsco00,Parental consent to Teacher Survey,-1.0,Not applicable
+847824,MCS,mcs5_cm_interview,epcsco00,Parental consent to Teacher Survey,1.0,Yes
+847825,MCS,mcs5_cm_interview,epcsco00,Parental consent to Teacher Survey,2.0,No
+847826,MCS,mcs5_cm_interview,epctst00,CM consent to Teacher Survey,-1.0,Not applicable
+847827,MCS,mcs5_cm_interview,epctst00,CM consent to Teacher Survey,1.0,Yes
+847828,MCS,mcs5_cm_interview,epctst00,CM consent to Teacher Survey,2.0,No
+847829,MCS,mcs5_cm_interview,epoevs00,Language Verbal Similarities conducted in,-1.0,Not applicable
+847830,MCS,mcs5_cm_interview,epoevs00,Language Verbal Similarities conducted in,1.0,English
+847831,MCS,mcs5_cm_interview,epoevs00,Language Verbal Similarities conducted in,2.0,Welsh
+847832,MCS,mcs5_cm_interview,epoevs00,Language Verbal Similarities conducted in,3.0,Not conducted
+847833,MCS,mcs5_cm_interview,epoewm00,Language Memory Task (SWM) conducted in,-1.0,Not applicable
+847834,MCS,mcs5_cm_interview,epoewm00,Language Memory Task (SWM) conducted in,1.0,English
+847835,MCS,mcs5_cm_interview,epoewm00,Language Memory Task (SWM) conducted in,2.0,Welsh
+847836,MCS,mcs5_cm_interview,epoewm00,Language Memory Task (SWM) conducted in,3.0,Not conducted
+847837,MCS,mcs5_cm_interview,epoecg00,Language Decision Making Task (GCT) conducted in,-1.0,Not applicable
+847838,MCS,mcs5_cm_interview,epoecg00,Language Decision Making Task (GCT) conducted in,1.0,English
+847839,MCS,mcs5_cm_interview,epoecg00,Language Decision Making Task (GCT) conducted in,2.0,Welsh
+847840,MCS,mcs5_cm_interview,epoecg00,Language Decision Making Task (GCT) conducted in,3.0,Not conducted
+847841,MCS,mcs5_cm_interview,epoecq00,Language Child questionnaire conducted in,-1.0,Not applicable
+847842,MCS,mcs5_cm_interview,epoecq00,Language Child questionnaire conducted in,1.0,English
+847843,MCS,mcs5_cm_interview,epoecq00,Language Child questionnaire conducted in,2.0,Welsh
+847844,MCS,mcs5_cm_interview,epoecq00,Language Child questionnaire conducted in,3.0,Not completed
+847845,MCS,mcs5_cm_interview,echend00,Which element completed,1.0,Cognitive Assessments with CM1
+847846,MCS,mcs5_cm_interview,echend00,Which element completed,2.0,Physical Measurements with CM1
+847847,MCS,mcs5_cm_interview,echend00,Which element completed,3.0,Cognitive Observations about CM1
+847848,MCS,mcs5_cm_interview,echend00,Which element completed,4.0,Cognitive Assessments with CM2
+847849,MCS,mcs5_cm_interview,echend00,Which element completed,5.0,Physical Measurements with CM2
+847850,MCS,mcs5_cm_interview,echend00,Which element completed,6.0,Cognitive Observations about CM2
+847851,MCS,mcs5_cm_interview,echend00,Which element completed,7.0,Cognitive Assessments with CM3
+847852,MCS,mcs5_cm_interview,echend00,Which element completed,8.0,Physical Measurements with CM3
+847853,MCS,mcs5_cm_interview,echend00,Which element completed,9.0,Cognitive Observations about CM3
+847854,MCS,mcs5_cm_interview,echend00,Which element completed,10.0,Other Elements
+847855,MCS,mcs5_cm_interview,echend00,Which element completed,11.0,No answer
+847856,MCS,mcs5_cm_interview,ecchc10a,Parent consent: consent for all measurements given,-1.0,Not applicable
+847857,MCS,mcs5_cm_interview,ecchc10a,Parent consent: consent for all measurements given,0.0,No
+847858,MCS,mcs5_cm_interview,ecchc10a,Parent consent: consent for all measurements given,1.0,Yes
+847859,MCS,mcs5_cm_interview,ecchc10b,Parent consent: consent for height given,-1.0,Not applicable
+847860,MCS,mcs5_cm_interview,ecchc10b,Parent consent: consent for height given,0.0,No
+847861,MCS,mcs5_cm_interview,ecchc10b,Parent consent: consent for height given,1.0,Yes
+847862,MCS,mcs5_cm_interview,ecchc10c,Parent consent: consent for weight given,-1.0,Not applicable
+847863,MCS,mcs5_cm_interview,ecchc10c,Parent consent: consent for weight given,0.0,No
+847864,MCS,mcs5_cm_interview,ecchc10c,Parent consent: consent for weight given,1.0,Yes
+847865,MCS,mcs5_cm_interview,ecchc10d,Parent consent: consent for body fat given,-1.0,Not applicable
+847866,MCS,mcs5_cm_interview,ecchc10d,Parent consent: consent for body fat given,0.0,No
+847867,MCS,mcs5_cm_interview,ecchc10d,Parent consent: consent for body fat given,1.0,Yes
+847868,MCS,mcs5_cm_interview,ecchc10e,Parent consent: consent not given for any measurements,-1.0,Not applicable
+847869,MCS,mcs5_cm_interview,ecchc10e,Parent consent: consent not given for any measurements,0.0,No
+847870,MCS,mcs5_cm_interview,ecchc10e,Parent consent: consent not given for any measurements,1.0,Yes
+847871,MCS,mcs5_cm_interview,eccha10a,Child consent: consent for all measurements given,-1.0,Not applicable
+847872,MCS,mcs5_cm_interview,eccha10a,Child consent: consent for all measurements given,0.0,No
+847873,MCS,mcs5_cm_interview,eccha10a,Child consent: consent for all measurements given,1.0,Yes
+847874,MCS,mcs5_cm_interview,eccha10b,Child consent: consent for height given,-1.0,Not applicable
+847875,MCS,mcs5_cm_interview,eccha10b,Child consent: consent for height given,0.0,No
+847876,MCS,mcs5_cm_interview,eccha10b,Child consent: consent for height given,1.0,Yes
+847877,MCS,mcs5_cm_interview,eccha10c,Child consent: consent for weight given,-1.0,Not applicable
+847878,MCS,mcs5_cm_interview,eccha10c,Child consent: consent for weight given,0.0,No
+847879,MCS,mcs5_cm_interview,eccha10c,Child consent: consent for weight given,1.0,Yes
+847880,MCS,mcs5_cm_interview,eccha10d,Child consent: consent for body fat given,-1.0,Not applicable
+847881,MCS,mcs5_cm_interview,eccha10d,Child consent: consent for body fat given,0.0,No
+847882,MCS,mcs5_cm_interview,eccha10d,Child consent: consent for body fat given,1.0,Yes
+847883,MCS,mcs5_cm_interview,eccha10e,Child consent: consent not given for any measurements,-1.0,Not applicable
+847884,MCS,mcs5_cm_interview,eccha10e,Child consent: consent not given for any measurements,0.0,No
+847885,MCS,mcs5_cm_interview,eccha10e,Child consent: consent not given for any measurements,1.0,Yes
+847886,MCS,mcs5_cm_interview,echtcma0,Height in cms,-7.0,No answer
+847887,MCS,mcs5_cm_interview,echtcma0,Height in cms,-1.0,Not applicable
+847888,MCS,mcs5_cm_interview,echtcmb0,Height in cms (corrected),-7.0,No answer
+847889,MCS,mcs5_cm_interview,echtcmb0,Height in cms (corrected),-1.0,Not applicable
+847890,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,-1.0,Not applicable
+847891,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,1.0,(+htcm1+).1
+847892,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,2.0,(+htcm1+).2
+847893,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,3.0,(+htcm1+).3
+847894,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,4.0,(+htcm1+).4
+847895,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,5.0,(+htcm1+).5
+847896,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,6.0,(+htcm1+).6
+847897,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,7.0,(+htcm1+).7
+847898,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,8.0,(+htcm1+).8
+847899,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,9.0,(+htcm1+).9
+847900,MCS,mcs5_cm_interview,echtck00,Decimal if not entered at htcm,10.0,(+htcm1+).0
+847901,MCS,mcs5_cm_interview,echtck0a,Height in Centimeters (Chk),-1.0,Not applicable
+847902,MCS,mcs5_cm_interview,echtck0a,Height in Centimeters (Chk),0.0,No
+847903,MCS,mcs5_cm_interview,echtck0a,Height in Centimeters (Chk),1.0,Yes
+847904,MCS,mcs5_cm_interview,echtck0b,Height in Centimeters (Chk),-1.0,Not applicable
+847905,MCS,mcs5_cm_interview,echtck0b,Height in Centimeters (Chk),0.0,No
+847906,MCS,mcs5_cm_interview,echtck0b,Height in Centimeters (Chk),1.0,Yes
+847907,MCS,mcs5_cm_interview,echtck0c,Height in Centimeters (Chk),-1.0,Not applicable
+847908,MCS,mcs5_cm_interview,echtck0c,Height in Centimeters (Chk),0.0,No
+847909,MCS,mcs5_cm_interview,echtck0c,Height in Centimeters (Chk),1.0,Yes
+847910,MCS,mcs5_cm_interview,echtck0d,Height in Centimeters (Chk),-1.0,Not applicable
+847911,MCS,mcs5_cm_interview,echtck0d,Height in Centimeters (Chk),0.0,No
+847912,MCS,mcs5_cm_interview,echtck0d,Height in Centimeters (Chk),1.0,Yes
+847913,MCS,mcs5_cm_interview,echtch00,Height centimetres correct,-1.0,Not applicable
+847914,MCS,mcs5_cm_interview,echtch00,Height centimetres correct,1.0,Yes
+847915,MCS,mcs5_cm_interview,echtch00,Height centimetres correct,2.0,No
+847916,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,-1.0,Not applicable
+847917,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,1.0,Child cannot stand unaided
+847918,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,2.0,Child self-conscious about height
+847919,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,3.0,Child would not / could not stand still
+847920,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,4.0,Child refused
+847921,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,5.0,Parent refused
+847922,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,6.0,Problem with stadiometer
+847923,MCS,mcs5_cm_interview,ecunht00,Reason unable to measure height,7.0,Other (specify)
+847924,MCS,mcs5_cm_interview,echtat00,Number of attempts to take measurement,-1.0,Not applicable
+847925,MCS,mcs5_cm_interview,ecatck00,Height measurement check,-1.0,Not applicable
+847926,MCS,mcs5_cm_interview,ecatck00,Height measurement check,1.0,Yes
+847927,MCS,mcs5_cm_interview,ecatck00,Height measurement check,2.0,No
+847928,MCS,mcs5_cm_interview,echtm100,Time measurement taken (Hour),-1.0,Not applicable
+847929,MCS,mcs5_cm_interview,echtm200,Time measurement taken (Minutes),-1.0,Not applicable
+847930,MCS,mcs5_cm_interview,ectmck00,Height measurement time check,-1.0,Not applicable
+847931,MCS,mcs5_cm_interview,ectmck00,Height measurement time check,1.0,Yes
+847932,MCS,mcs5_cm_interview,ectmck00,Height measurement time check,2.0,No
+847933,MCS,mcs5_cm_interview,echtrl0a,Height measurement circumstances  Hairstyle,-1.0,Not applicable
+847934,MCS,mcs5_cm_interview,echtrl0a,Height measurement circumstances  Hairstyle,0.0,No
+847935,MCS,mcs5_cm_interview,echtrl0a,Height measurement circumstances  Hairstyle,1.0,Yes
+847936,MCS,mcs5_cm_interview,echtrl0b,Height measurement circumstances  Turban or other headwear,-1.0,Not applicable
+847937,MCS,mcs5_cm_interview,echtrl0b,Height measurement circumstances  Turban or other headwear,0.0,No
+847938,MCS,mcs5_cm_interview,echtrl0b,Height measurement circumstances  Turban or other headwear,1.0,Yes
+847939,MCS,mcs5_cm_interview,echtrl0c,Height measurement circumstances  Posture - back not straight,-1.0,Not applicable
+847940,MCS,mcs5_cm_interview,echtrl0c,Height measurement circumstances  Posture - back not straight,0.0,No
+847941,MCS,mcs5_cm_interview,echtrl0c,Height measurement circumstances  Posture - back not straight,1.0,Yes
+847942,MCS,mcs5_cm_interview,echtrl0d,Height measurement circumstances  Posture - legs not straight,-1.0,Not applicable
+847943,MCS,mcs5_cm_interview,echtrl0d,Height measurement circumstances  Posture - legs not straight,0.0,No
+847944,MCS,mcs5_cm_interview,echtrl0d,Height measurement circumstances  Posture - legs not straight,1.0,Yes
+847945,MCS,mcs5_cm_interview,echtrl0e,Height measurement circumstances  Unable to stand still,-1.0,Not applicable
+847946,MCS,mcs5_cm_interview,echtrl0e,Height measurement circumstances  Unable to stand still,0.0,No
+847947,MCS,mcs5_cm_interview,echtrl0e,Height measurement circumstances  Unable to stand still,1.0,Yes
+847948,MCS,mcs5_cm_interview,echtrl0f,Height measurement circumstances  Shoes were worn,-1.0,Not applicable
+847949,MCS,mcs5_cm_interview,echtrl0f,Height measurement circumstances  Shoes were worn,0.0,No
+847950,MCS,mcs5_cm_interview,echtrl0f,Height measurement circumstances  Shoes were worn,1.0,Yes
+847951,MCS,mcs5_cm_interview,echtrl0g,Height measurement circumstances  Socks were worn,-1.0,Not applicable
+847952,MCS,mcs5_cm_interview,echtrl0g,Height measurement circumstances  Socks were worn,0.0,No
+847953,MCS,mcs5_cm_interview,echtrl0g,Height measurement circumstances  Socks were worn,1.0,Yes
+847954,MCS,mcs5_cm_interview,echtrl0h,Height measurement circumstances  Other issue,-1.0,Not applicable
+847955,MCS,mcs5_cm_interview,echtrl0h,Height measurement circumstances  Other issue,0.0,No
+847956,MCS,mcs5_cm_interview,echtrl0h,Height measurement circumstances  Other issue,1.0,Yes
+847957,MCS,mcs5_cm_interview,echtrl0i,Height measurement circumstances  No answer,-1.0,Not applicable
+847958,MCS,mcs5_cm_interview,echtrl0i,Height measurement circumstances  No answer,0.0,No
+847959,MCS,mcs5_cm_interview,echtrl0i,Height measurement circumstances  No answer,1.0,Yes
+847960,MCS,mcs5_cm_interview,echtrx0a,IWR: Height measurement circumstances MC (A) [Hairstyle],-1.0,Not applicable
+847961,MCS,mcs5_cm_interview,echtrx0a,IWR: Height measurement circumstances MC (A) [Hairstyle],0.0,No
+847962,MCS,mcs5_cm_interview,echtrx0a,IWR: Height measurement circumstances MC (A) [Hairstyle],1.0,Yes
+847963,MCS,mcs5_cm_interview,echtrx0b,IWR: Height measurement circumstances MC (A) [Turban or other headwear],-1.0,Not applicable
+847964,MCS,mcs5_cm_interview,echtrx0b,IWR: Height measurement circumstances MC (A) [Turban or other headwear],0.0,No
+847965,MCS,mcs5_cm_interview,echtrx0b,IWR: Height measurement circumstances MC (A) [Turban or other headwear],1.0,Yes
+847966,MCS,mcs5_cm_interview,echtrx0c,IWR: Height measurement circumstances MC (A) [Posture - back not straight],-1.0,Not applicable
+847967,MCS,mcs5_cm_interview,echtrx0c,IWR: Height measurement circumstances MC (A) [Posture - back not straight],0.0,No
+847968,MCS,mcs5_cm_interview,echtrx0c,IWR: Height measurement circumstances MC (A) [Posture - back not straight],1.0,Yes
+847969,MCS,mcs5_cm_interview,echtrx0d,IWR: Height measurement circumstances MC (A) [Posture - legs not straight],-1.0,Not applicable
+847970,MCS,mcs5_cm_interview,echtrx0d,IWR: Height measurement circumstances MC (A) [Posture - legs not straight],0.0,No
+847971,MCS,mcs5_cm_interview,echtrx0d,IWR: Height measurement circumstances MC (A) [Posture - legs not straight],1.0,Yes
+847972,MCS,mcs5_cm_interview,echtrx0e,IWR: Height measurement circumstances MC (A) [Unable to stand still],-1.0,Not applicable
+847973,MCS,mcs5_cm_interview,echtrx0e,IWR: Height measurement circumstances MC (A) [Unable to stand still],0.0,No
+847974,MCS,mcs5_cm_interview,echtrx0e,IWR: Height measurement circumstances MC (A) [Unable to stand still],1.0,Yes
+847975,MCS,mcs5_cm_interview,echtrx0f,IWR: Height measurement circumstances MC (A) [Shoes were worn],-1.0,Not applicable
+847976,MCS,mcs5_cm_interview,echtrx0f,IWR: Height measurement circumstances MC (A) [Shoes were worn],0.0,No
+847977,MCS,mcs5_cm_interview,echtrx0f,IWR: Height measurement circumstances MC (A) [Shoes were worn],1.0,Yes
+847978,MCS,mcs5_cm_interview,echtrx0g,IWR: Height measurement circumstances MC (A) [Socks were worn],-1.0,Not applicable
+847979,MCS,mcs5_cm_interview,echtrx0g,IWR: Height measurement circumstances MC (A) [Socks were worn],0.0,No
+847980,MCS,mcs5_cm_interview,echtrx0g,IWR: Height measurement circumstances MC (A) [Socks were worn],1.0,Yes
+847981,MCS,mcs5_cm_interview,echtrx0h,IWR: Height measurement circumstances MC (A) [Other issue],-1.0,Not applicable
+847982,MCS,mcs5_cm_interview,echtrx0h,IWR: Height measurement circumstances MC (A) [Other issue],0.0,No
+847983,MCS,mcs5_cm_interview,echtrx0h,IWR: Height measurement circumstances MC (A) [Other issue],1.0,Yes
+847984,MCS,mcs5_cm_interview,echtrx0i,IWR: Height measurement circumstances MC (A) [None of these],-1.0,Not applicable
+847985,MCS,mcs5_cm_interview,echtrx0i,IWR: Height measurement circumstances MC (A) [None of these],0.0,No
+847986,MCS,mcs5_cm_interview,echtrx0i,IWR: Height measurement circumstances MC (A) [None of these],1.0,Yes
+847987,MCS,mcs5_cm_interview,echtrx0j,Cicumstances applying to measurements Parent unable,-1.0,Not applicable
+847988,MCS,mcs5_cm_interview,echtrx0j,Cicumstances applying to measurements Parent unable,0.0,No
+847989,MCS,mcs5_cm_interview,echtrx0j,Cicumstances applying to measurements Parent unable,1.0,Yes
+847990,MCS,mcs5_cm_interview,echtrx0k,Cicumstances applying to measurements Cld not keep head in Frankfort Plane (A),-1.0,Not applicable
+847991,MCS,mcs5_cm_interview,echtrx0k,Cicumstances applying to measurements Cld not keep head in Frankfort Plane (A),0.0,No
+847992,MCS,mcs5_cm_interview,echtrx0k,Cicumstances applying to measurements Cld not keep head in Frankfort Plane (A),1.0,Yes
+847993,MCS,mcs5_cm_interview,echtrx0l,Cicumstances applying to measurements Carpet,-1.0,Not applicable
+847994,MCS,mcs5_cm_interview,echtrx0l,Cicumstances applying to measurements Carpet,0.0,No
+847995,MCS,mcs5_cm_interview,echtrx0l,Cicumstances applying to measurements Carpet,1.0,Yes
+847996,MCS,mcs5_cm_interview,echtrx0m,Cicumstances applyng to msmts Insuffic room to set up equipt,-1.0,Not applicable
+847997,MCS,mcs5_cm_interview,echtrx0m,Cicumstances applyng to msmts Insuffic room to set up equipt,0.0,No
+847998,MCS,mcs5_cm_interview,echtrx0m,Cicumstances applyng to msmts Insuffic room to set up equipt,1.0,Yes
+847999,MCS,mcs5_cm_interview,echtrx0n,Cicumstances applying to measurements Plaster cast,-1.0,Not applicable
+848000,MCS,mcs5_cm_interview,echtrx0n,Cicumstances applying to measurements Plaster cast,0.0,No
+848001,MCS,mcs5_cm_interview,echtrx0n,Cicumstances applying to measurements Plaster cast,1.0,Yes
+848002,MCS,mcs5_cm_interview,echtrx0o,Cicumstances applying to measurements Skirting board,-1.0,Not applicable
+848003,MCS,mcs5_cm_interview,echtrx0o,Cicumstances applying to measurements Skirting board,0.0,No
+848004,MCS,mcs5_cm_interview,echtrx0o,Cicumstances applying to measurements Skirting board,1.0,Yes
+848005,MCS,mcs5_cm_interview,echtrx0p,Cicumstances applying to measurements Technical difficulties (A),-1.0,Not applicable
+848006,MCS,mcs5_cm_interview,echtrx0p,Cicumstances applying to measurements Technical difficulties (A),0.0,No
+848007,MCS,mcs5_cm_interview,echtrx0p,Cicumstances applying to measurements Technical difficulties (A),1.0,Yes
+848008,MCS,mcs5_cm_interview,echtrx0q,Cicumstances applying to measurements Tights were worn (A),-1.0,Not applicable
+848009,MCS,mcs5_cm_interview,echtrx0q,Cicumstances applying to measurements Tights were worn (A),0.0,No
+848010,MCS,mcs5_cm_interview,echtrx0q,Cicumstances applying to measurements Tights were worn (A),1.0,Yes
+848011,MCS,mcs5_cm_interview,echtel00,Whether further height information,2.0,No
+848012,MCS,mcs5_cm_interview,echtel00,Whether further height information,-1.0,Not applicable
+848013,MCS,mcs5_cm_interview,echtel00,Whether further height information,1.0,Yes
+848014,MCS,mcs5_cm_interview,echtex0a,What else need to know about msrmnt - parent did the stretch,-1.0,Not applicable
+848015,MCS,mcs5_cm_interview,echtex0a,What else need to know about msrmnt - parent did the stretch,0.0,No
+848016,MCS,mcs5_cm_interview,echtex0a,What else need to know about msrmnt - parent did the stretch,1.0,Yes
+848017,MCS,mcs5_cm_interview,echtex0b,What else need to know about msrmnt - msrmnt taken on carpet,-1.0,Not applicable
+848018,MCS,mcs5_cm_interview,echtex0b,What else need to know about msrmnt - msrmnt taken on carpet,0.0,No
+848019,MCS,mcs5_cm_interview,echtex0b,What else need to know about msrmnt - msrmnt taken on carpet,1.0,Yes
+848020,MCS,mcs5_cm_interview,echtex0c,What else need to know about msrmnt - child is tall for his/her age,-1.0,Not applicable
+848021,MCS,mcs5_cm_interview,echtex0c,What else need to know about msrmnt - child is tall for his/her age,0.0,No
+848022,MCS,mcs5_cm_interview,echtex0c,What else need to know about msrmnt - child is tall for his/her age,1.0,Yes
+848023,MCS,mcs5_cm_interview,echtex0d,What else need to know about msrmnt - child is short,-1.0,Not applicable
+848024,MCS,mcs5_cm_interview,echtex0d,What else need to know about msrmnt - child is short,0.0,No
+848025,MCS,mcs5_cm_interview,echtex0d,What else need to know about msrmnt - child is short,1.0,Yes
+848026,MCS,mcs5_cm_interview,echtex0e,What else need to know about msrmnt - child wouldnt stay still,-1.0,Not applicable
+848027,MCS,mcs5_cm_interview,echtex0e,What else need to know about msrmnt - child wouldnt stay still,0.0,No
+848028,MCS,mcs5_cm_interview,echtex0e,What else need to know about msrmnt - child wouldnt stay still,1.0,Yes
+848029,MCS,mcs5_cm_interview,echtex0f,What else need to know about msrmnt - child had difficulty performing task,-1.0,Not applicable
+848030,MCS,mcs5_cm_interview,echtex0f,What else need to know about msrmnt - child had difficulty performing task,0.0,No
+848031,MCS,mcs5_cm_interview,echtex0f,What else need to know about msrmnt - child had difficulty performing task,1.0,Yes
+848032,MCS,mcs5_cm_interview,echtex0g,What else need to know about msrmnt - Child has illness,-1.0,Not applicable
+848033,MCS,mcs5_cm_interview,echtex0g,What else need to know about msrmnt - Child has illness,0.0,No
+848034,MCS,mcs5_cm_interview,echtex0g,What else need to know about msrmnt - Child has illness,1.0,Yes
+848035,MCS,mcs5_cm_interview,echtex0h,What else need to know about msrmnt - child is small,-1.0,Not applicable
+848036,MCS,mcs5_cm_interview,echtex0h,What else need to know about msrmnt - child is small,0.0,No
+848037,MCS,mcs5_cm_interview,echtex0h,What else need to know about msrmnt - child is small,1.0,Yes
+848038,MCS,mcs5_cm_interview,echtex0i,What else need to know about msrmnt - child unwilling to remove socks,-1.0,Not applicable
+848039,MCS,mcs5_cm_interview,echtex0i,What else need to know about msrmnt - child unwilling to remove socks,0.0,No
+848040,MCS,mcs5_cm_interview,echtex0i,What else need to know about msrmnt - child unwilling to remove socks,1.0,Yes
+848041,MCS,mcs5_cm_interview,echtex0j,What else need to know about msrmnt - differs from msrmnt done at schl/elswre,-1.0,Not applicable
+848042,MCS,mcs5_cm_interview,echtex0j,What else need to know about msrmnt - differs from msrmnt done at schl/elswre,0.0,No
+848043,MCS,mcs5_cm_interview,echtex0j,What else need to know about msrmnt - differs from msrmnt done at schl/elswre,1.0,Yes
+848044,MCS,mcs5_cm_interview,echtex0k,What else need to know about msrmnt - Hairstyle/curly/headscraf/tall hair,-1.0,Not applicable
+848045,MCS,mcs5_cm_interview,echtex0k,What else need to know about msrmnt - Hairstyle/curly/headscraf/tall hair,0.0,No
+848046,MCS,mcs5_cm_interview,echtex0k,What else need to know about msrmnt - Hairstyle/curly/headscraf/tall hair,1.0,Yes
+848047,MCS,mcs5_cm_interview,echtex0l,What else need to know about msrmnt - technical difficulties,-1.0,Not applicable
+848048,MCS,mcs5_cm_interview,echtex0l,What else need to know about msrmnt - technical difficulties,0.0,No
+848049,MCS,mcs5_cm_interview,echtex0l,What else need to know about msrmnt - technical difficulties,1.0,Yes
+848050,MCS,mcs5_cm_interview,echtex0m,What else need to know about msrmnt - unsuitable/uneven surface,-1.0,Not applicable
+848051,MCS,mcs5_cm_interview,echtex0m,What else need to know about msrmnt - unsuitable/uneven surface,0.0,No
+848052,MCS,mcs5_cm_interview,echtex0m,What else need to know about msrmnt - unsuitable/uneven surface,1.0,Yes
+848053,MCS,mcs5_cm_interview,echtex0n,What else need to know about msrmnt - nothing/none,-1.0,Not applicable
+848054,MCS,mcs5_cm_interview,echtex0n,What else need to know about msrmnt - nothing/none,0.0,No
+848055,MCS,mcs5_cm_interview,echtex0n,What else need to know about msrmnt - nothing/none,1.0,Yes
+848056,MCS,mcs5_cm_interview,echtex0o,What else need to know about msrmnt - No answer,-1.0,Not applicable
+848057,MCS,mcs5_cm_interview,echtex0o,What else need to know about msrmnt - No answer,0.0,No
+848058,MCS,mcs5_cm_interview,echtex0o,What else need to know about msrmnt - No answer,1.0,Yes
+848059,MCS,mcs5_cm_interview,echtex0p,What else need to know about msrmnt - other,-1.0,Not applicable
+848060,MCS,mcs5_cm_interview,echtex0p,What else need to know about msrmnt - other,0.0,No
+848061,MCS,mcs5_cm_interview,echtex0p,What else need to know about msrmnt - other,1.0,Yes
+848062,MCS,mcs5_cm_interview,ecstad00,Stadiometer serial number,,
+848063,MCS,mcs5_cm_interview,ecbfck00,Confirm CM is not fitted with a pacemaker,-1.0,Not applicable
+848064,MCS,mcs5_cm_interview,ecbfck00,Confirm CM is not fitted with a pacemaker,1.0,Child has no pacemaker
+848065,MCS,mcs5_cm_interview,ecbfck00,Confirm CM is not fitted with a pacemaker,2.0,Child has a pacemaker
+848066,MCS,mcs5_cm_interview,ecpmck00,Check on pacemaker response,-1.0,Not applicable
+848067,MCS,mcs5_cm_interview,ecpmck00,Check on pacemaker response,1.0,Yes
+848068,MCS,mcs5_cm_interview,ecpmck00,Check on pacemaker response,2.0,No
+848069,MCS,mcs5_cm_interview,echtcx00,Height in cms (entered into scales),-7.0,No answer
+848070,MCS,mcs5_cm_interview,echtcx00,Height in cms (entered into scales),-1.0,Not applicable
+848071,MCS,mcs5_cm_interview,ecwtcma0,Weight in kilos,-7.0,No answer
+848072,MCS,mcs5_cm_interview,ecwtcma0,Weight in kilos,-1.0,Not applicable
+848073,MCS,mcs5_cm_interview,ecwtcmb0,Weight in kilos (corrected,-7.0,No answer
+848074,MCS,mcs5_cm_interview,ecwtcmb0,Weight in kilos (corrected,-1.0,Not applicable
+848075,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,-1.0,Not applicable
+848076,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,1.0,(+wtcm1+).1
+848077,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,2.0,(+wtcm1+).2
+848078,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,3.0,(+wtcm1+).3
+848079,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,4.0,(+wtcm1+).4
+848080,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,5.0,(+wtcm1+).5
+848081,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,6.0,(+wtcm1+).6
+848082,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,7.0,(+wtcm1+).7
+848083,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,8.0,(+wtcm1+).8
+848084,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,9.0,(+wtcm1+).9
+848085,MCS,mcs5_cm_interview,ecwtck00,Decimal if not entered at wtcm,10.0,(+wtcm1+).0
+848086,MCS,mcs5_cm_interview,ecwtck0a,Weight in Kilos (Chk),-1.0,Not applicable
+848087,MCS,mcs5_cm_interview,ecwtck0a,Weight in Kilos (Chk),0.0,No
+848088,MCS,mcs5_cm_interview,ecwtck0a,Weight in Kilos (Chk),1.0,Yes
+848089,MCS,mcs5_cm_interview,ecwtck0b,Weight in Kilos (Chk),-1.0,Not applicable
+848090,MCS,mcs5_cm_interview,ecwtck0b,Weight in Kilos (Chk),0.0,No
+848091,MCS,mcs5_cm_interview,ecwtck0b,Weight in Kilos (Chk),1.0,Yes
+848092,MCS,mcs5_cm_interview,ecwtck0c,Weight in Kilos (Chk),-1.0,Not applicable
+848093,MCS,mcs5_cm_interview,ecwtck0c,Weight in Kilos (Chk),0.0,No
+848094,MCS,mcs5_cm_interview,ecwtck0c,Weight in Kilos (Chk),1.0,Yes
+848095,MCS,mcs5_cm_interview,ecwtck0d,Weight in Kilos (Chk),-1.0,Not applicable
+848096,MCS,mcs5_cm_interview,ecwtck0d,Weight in Kilos (Chk),0.0,No
+848097,MCS,mcs5_cm_interview,ecwtck0d,Weight in Kilos (Chk),1.0,Yes
+848098,MCS,mcs5_cm_interview,ecwtch00,Weight in Kilos (Chk),-1.0,Not applicable
+848099,MCS,mcs5_cm_interview,ecwtch00,Weight in Kilos (Chk),1.0,Yes
+848100,MCS,mcs5_cm_interview,ecwtch00,Weight in Kilos (Chk),2.0,No
+848101,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,-1.0,Not applicable
+848102,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,1.0,Child cannot stand unaided
+848103,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,2.0,Child self-conscious about weight
+848104,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,3.0,Child would not / could not stand still
+848105,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,4.0,Child refused
+848106,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,5.0,Parent refused
+848107,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,6.0,Problem with scales
+848108,MCS,mcs5_cm_interview,ecwtun00,Code reason unable to take measurement,7.0,Other reason
+848109,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),-1.0,Not applicable
+848110,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),1.0,Child cannot stand unaided
+848111,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),2.0,Child self-conscious about weight
+848112,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),3.0,Child would not / could not stand still
+848113,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),4.0,Child refused
+848114,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),5.0,Parent refused
+848115,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),6.0,Problem with scales
+848116,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),7.0,Other
+848117,MCS,mcs5_cm_interview,ecwtux00,Reason unable to take weight measurement (final),8.0,Child wearing a plaster cast
+848118,MCS,mcs5_cm_interview,ecbfpc00,Body Fat measurement displayed on scales,-7.0,No answer
+848119,MCS,mcs5_cm_interview,ecbfpc00,Body Fat measurement displayed on scales,-1.0,Not applicable
+848120,MCS,mcs5_cm_interview,ecbfcd00,Decimal if not entered at bfpc,-7.0,No answer
+848121,MCS,mcs5_cm_interview,ecbfcd00,Decimal if not entered at bfpc,-1.0,Not applicable
+848122,MCS,mcs5_cm_interview,ecbfch00,Body fat measurement (check),-1.0,Not applicable
+848123,MCS,mcs5_cm_interview,ecbfch00,Body fat measurement (check),1.0,Yes
+848124,MCS,mcs5_cm_interview,ecbfch00,Body fat measurement (check),2.0,No
+848125,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),-8.0,Don't know
+848126,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),-1.0,Not applicable
+848127,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),1.0,Parent refused
+848128,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),2.0,Child refused
+848129,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),3.0,Childâ€™s feet not long enough
+848130,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),4.0,Problem with scales
+848131,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),5.0,Not able to take measurement for other
+848132,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),6.0,Child refused to remove socks
+848133,MCS,mcs5_cm_interview,ecnobx00,Reason unable to take Body Fat measurement (final),7.0,Plaster cast
+848134,MCS,mcs5_cm_interview,ecwtat00,Number of attempts to take measurement,-1.0,Not applicable
+848135,MCS,mcs5_cm_interview,ecatch00,Number of attempts to take measurement (check),-1.0,Not applicable
+848136,MCS,mcs5_cm_interview,ecatch00,Number of attempts to take measurement (check),1.0,Yes
+848137,MCS,mcs5_cm_interview,ecatch00,Number of attempts to take measurement (check),2.0,No
+848138,MCS,mcs5_cm_interview,ecwtsc0a,IWR: Whether scales on uneven floor,-1.0,Not applicable
+848139,MCS,mcs5_cm_interview,ecwtsc0a,IWR: Whether scales on uneven floor,0.0,No
+848140,MCS,mcs5_cm_interview,ecwtsc0a,IWR: Whether scales on uneven floor,1.0,Yes
+848141,MCS,mcs5_cm_interview,ecwtsc0b,IWR: Whether scales on uneven floor,-1.0,Not applicable
+848142,MCS,mcs5_cm_interview,ecwtsc0b,IWR: Whether scales on uneven floor,0.0,No
+848143,MCS,mcs5_cm_interview,ecwtsc0b,IWR: Whether scales on uneven floor,1.0,Yes
+848144,MCS,mcs5_cm_interview,ecwtsc0c,IWR: Whether scales on uneven floor,-1.0,Not applicable
+848145,MCS,mcs5_cm_interview,ecwtsc0c,IWR: Whether scales on uneven floor,0.0,No
+848146,MCS,mcs5_cm_interview,ecwtsc0c,IWR: Whether scales on uneven floor,1.0,Yes
+848147,MCS,mcs5_cm_interview,ecwtrl0a,Weight measurement circumstances  Child was wearing shoes,-1.0,Not applicable
+848148,MCS,mcs5_cm_interview,ecwtrl0a,Weight measurement circumstances  Child was wearing shoes,0.0,No
+848149,MCS,mcs5_cm_interview,ecwtrl0a,Weight measurement circumstances  Child was wearing shoes,1.0,Yes
+848150,MCS,mcs5_cm_interview,ecwtrl0b,Weight measurement circs  Child was wearing more than light  clothing,-1.0,Not applicable
+848151,MCS,mcs5_cm_interview,ecwtrl0b,Weight measurement circs  Child was wearing more than light  clothing,0.0,No
+848152,MCS,mcs5_cm_interview,ecwtrl0b,Weight measurement circs  Child was wearing more than light  clothing,1.0,Yes
+848153,MCS,mcs5_cm_interview,ecwtrl0c,Weight measurement circs  Child wearing a plaster cast on upper limb ie arm,-1.0,Not applicable
+848154,MCS,mcs5_cm_interview,ecwtrl0c,Weight measurement circs  Child wearing a plaster cast on upper limb ie arm,0.0,No
+848155,MCS,mcs5_cm_interview,ecwtrl0c,Weight measurement circs  Child wearing a plaster cast on upper limb ie arm,1.0,Yes
+848156,MCS,mcs5_cm_interview,ecwtrl0d,Weight measurement circs  Child wearing a plaster cast on lower limb ie leg,-1.0,Not applicable
+848157,MCS,mcs5_cm_interview,ecwtrl0d,Weight measurement circs  Child wearing a plaster cast on lower limb ie leg,0.0,No
+848158,MCS,mcs5_cm_interview,ecwtrl0d,Weight measurement circs  Child wearing a plaster cast on lower limb ie leg,1.0,Yes
+848159,MCS,mcs5_cm_interview,ecwtrl0e,Weight measurement circs  Unable to stand still,-1.0,Not applicable
+848160,MCS,mcs5_cm_interview,ecwtrl0e,Weight measurement circs  Unable to stand still,0.0,No
+848161,MCS,mcs5_cm_interview,ecwtrl0e,Weight measurement circs  Unable to stand still,1.0,Yes
+848162,MCS,mcs5_cm_interview,ecwtrl0f,Weight measurement circs  Other issue,-1.0,Not applicable
+848163,MCS,mcs5_cm_interview,ecwtrl0f,Weight measurement circs  Other issue,0.0,No
+848164,MCS,mcs5_cm_interview,ecwtrl0f,Weight measurement circs  Other issue,1.0,Yes
+848165,MCS,mcs5_cm_interview,ecwtrl0g,Weight measurement circs  No answer,-1.0,Not applicable
+848166,MCS,mcs5_cm_interview,ecwtrl0g,Weight measurement circs  No answer,0.0,No
+848167,MCS,mcs5_cm_interview,ecwtrl0g,Weight measurement circs  No answer,1.0,Yes
+848168,MCS,mcs5_cm_interview,ecwtel00,Any other information about body fat measurement,-1.0,Not applicable
+848169,MCS,mcs5_cm_interview,ecwtel00,Any other information about body fat measurement,1.0,Yes
+848170,MCS,mcs5_cm_interview,ecwtel00,Any other information about body fat measurement,2.0,No
+848171,MCS,mcs5_cm_interview,ecwtex0a,What else we need to know about msrmt - Child is light for his/her age (A),-1.0,Not applicable
+848172,MCS,mcs5_cm_interview,ecwtex0a,What else we need to know about msrmt - Child is light for his/her age (A),0.0,No
+848173,MCS,mcs5_cm_interview,ecwtex0a,What else we need to know about msrmt - Child is light for his/her age (A),1.0,Yes
+848174,MCS,mcs5_cm_interview,ecwtex0b,What else we need to know about msrmt - child is heavy for his/her age (A),-1.0,Not applicable
+848175,MCS,mcs5_cm_interview,ecwtex0b,What else we need to know about msrmt - child is heavy for his/her age (A),0.0,No
+848176,MCS,mcs5_cm_interview,ecwtex0b,What else we need to know about msrmt - child is heavy for his/her age (A),1.0,Yes
+848177,MCS,mcs5_cm_interview,ecwtex0c,What else we need to know about msrmt - Child medical condition (A),-1.0,Not applicable
+848178,MCS,mcs5_cm_interview,ecwtex0c,What else we need to know about msrmt - Child medical condition (A),0.0,No
+848179,MCS,mcs5_cm_interview,ecwtex0c,What else we need to know about msrmt - Child medical condition (A),1.0,Yes
+848180,MCS,mcs5_cm_interview,ecwtex0d,What else we need to know about msrmt - child behavioural factor (A),-1.0,Not applicable
+848181,MCS,mcs5_cm_interview,ecwtex0d,What else we need to know about msrmt - child behavioural factor (A),0.0,No
+848182,MCS,mcs5_cm_interview,ecwtex0d,What else we need to know about msrmt - child behavioural factor (A),1.0,Yes
+848183,MCS,mcs5_cm_interview,ecwtex0e,What else we need to know about msrmt - Child tall/big (A),-1.0,Not applicable
+848184,MCS,mcs5_cm_interview,ecwtex0e,What else we need to know about msrmt - Child tall/big (A),0.0,No
+848185,MCS,mcs5_cm_interview,ecwtex0e,What else we need to know about msrmt - Child tall/big (A),1.0,Yes
+848186,MCS,mcs5_cm_interview,ecwtex0f,What else we need to know about msrmt - Child short/small (A),-1.0,Not applicable
+848187,MCS,mcs5_cm_interview,ecwtex0f,What else we need to know about msrmt - Child short/small (A),0.0,No
+848188,MCS,mcs5_cm_interview,ecwtex0f,What else we need to know about msrmt - Child short/small (A),1.0,Yes
+848189,MCS,mcs5_cm_interview,ecwtex0g,What else we need to know about msrmt - Lifestyle/diet/activity (A),-1.0,Not applicable
+848190,MCS,mcs5_cm_interview,ecwtex0g,What else we need to know about msrmt - Lifestyle/diet/activity (A),0.0,No
+848191,MCS,mcs5_cm_interview,ecwtex0g,What else we need to know about msrmt - Lifestyle/diet/activity (A),1.0,Yes
+848192,MCS,mcs5_cm_interview,ecwtex0h,What else we need to know about msrmt - No feet supplied (A),-1.0,Not applicable
+848193,MCS,mcs5_cm_interview,ecwtex0h,What else we need to know about msrmt - No feet supplied (A),0.0,No
+848194,MCS,mcs5_cm_interview,ecwtex0h,What else we need to know about msrmt - No feet supplied (A),1.0,Yes
+848195,MCS,mcs5_cm_interview,ecwtex0i,What else we need to know about msrmt - None (A),-1.0,Not applicable
+848196,MCS,mcs5_cm_interview,ecwtex0i,What else we need to know about msrmt - None (A),0.0,No
+848197,MCS,mcs5_cm_interview,ecwtex0i,What else we need to know about msrmt - None (A),1.0,Yes
+848198,MCS,mcs5_cm_interview,ecwtex0j,What else we need to know about msrmt - On a carpet (A),-1.0,Not applicable
+848199,MCS,mcs5_cm_interview,ecwtex0j,What else we need to know about msrmt - On a carpet (A),0.0,No
+848200,MCS,mcs5_cm_interview,ecwtex0j,What else we need to know about msrmt - On a carpet (A),1.0,Yes
+848201,MCS,mcs5_cm_interview,ecwtex0k,What else we need to know about msrmt - Prblm with equipment/scale (A),-1.0,Not applicable
+848202,MCS,mcs5_cm_interview,ecwtex0k,What else we need to know about msrmt - Prblm with equipment/scale (A),0.0,No
+848203,MCS,mcs5_cm_interview,ecwtex0k,What else we need to know about msrmt - Prblm with equipment/scale (A),1.0,Yes
+848204,MCS,mcs5_cm_interview,ecwtex0l,What else we need to know about msrmt - Other (A),-1.0,Not applicable
+848205,MCS,mcs5_cm_interview,ecwtex0l,What else we need to know about msrmt - Other (A),0.0,No
+848206,MCS,mcs5_cm_interview,ecwtex0l,What else we need to know about msrmt - Other (A),1.0,Yes
+848207,MCS,mcs5_cm_interview,ecwtex0m,What else we need to know about msrmt - No answer (A),-1.0,Not applicable
+848208,MCS,mcs5_cm_interview,ecwtex0m,What else we need to know about msrmt - No answer (A),0.0,No
+848209,MCS,mcs5_cm_interview,ecwtex0m,What else we need to know about msrmt - No answer (A),1.0,Yes
+848210,MCS,mcs5_cm_interview,ecscan00,Scales serial number,,
+848211,MCS,mcs5_cm_interview,ecpmrc00,Measurements taken,-1.0,Not applicable
+848212,MCS,mcs5_cm_interview,ecpmrc00,Measurements taken,1.0,Yes
+848213,MCS,mcs5_cm_interview,ecpmrc00,Measurements taken,2.0,No
+848214,MCS,mcs5_cm_interview,ecrinc00,Height - cms to inches,-1.0,Not applicable
+848215,MCS,mcs5_cm_interview,ecinft00,Height - inches into feet,-1.0,Not applicable
+848216,MCS,mcs5_cm_interview,ecftin00,Height - feet into inches,-1.0,Not applicable
+848217,MCS,mcs5_cm_interview,ecinch00,Height - remaining inches,-1.0,Not applicable
+848218,MCS,mcs5_cm_interview,ecwkgp00,Weight - Kilograms into pounds,-7.0,No answer
+848219,MCS,mcs5_cm_interview,ecwkgp00,Weight - Kilograms into pounds,-1.0,Not applicable
+848220,MCS,mcs5_cm_interview,ecwstp00,Weight - pounds into stones,-7.0,No answer
+848221,MCS,mcs5_cm_interview,ecwstp00,Weight - pounds into stones,-1.0,Not applicable
+848222,MCS,mcs5_cm_interview,ecwtlb00,Weight - stones into pounds,-7.0,No answer
+848223,MCS,mcs5_cm_interview,ecwtlb00,Weight - stones into pounds,-1.0,Not applicable
+848224,MCS,mcs5_cm_interview,ecrlbs00,Weight - remaining pounds,-7.0,No answer
+848225,MCS,mcs5_cm_interview,ecrlbs00,Weight - remaining pounds,-1.0,Not applicable
+848226,MCS,mcs5_cm_interview,ecdwrc0a,Set which responses to show: All measurements above rec,-1.0,Not applicable
+848227,MCS,mcs5_cm_interview,ecdwrc0a,Set which responses to show: All measurements above rec,0.0,No
+848228,MCS,mcs5_cm_interview,ecdwrc0a,Set which responses to show: All measurements above rec,1.0,Yes
+848229,MCS,mcs5_cm_interview,ecdwrc0b,Set which responses to show: Child did not want height rec,-1.0,Not applicable
+848230,MCS,mcs5_cm_interview,ecdwrc0b,Set which responses to show: Child did not want height rec,0.0,No
+848231,MCS,mcs5_cm_interview,ecdwrc0b,Set which responses to show: Child did not want height rec,1.0,Yes
+848232,MCS,mcs5_cm_interview,ecdwrc0c,Set which responses to show: Child did not want weight rec,-1.0,Not applicable
+848233,MCS,mcs5_cm_interview,ecdwrc0c,Set which responses to show: Child did not want weight rec,0.0,No
+848234,MCS,mcs5_cm_interview,ecdwrc0c,Set which responses to show: Child did not want weight rec,1.0,Yes
+848235,MCS,mcs5_cm_interview,ecdwrc0d,Set which responses to show: Child did not want bodyfat rec,-1.0,Not applicable
+848236,MCS,mcs5_cm_interview,ecdwrc0d,Set which responses to show: Child did not want bodyfat rec,0.0,No
+848237,MCS,mcs5_cm_interview,ecdwrc0d,Set which responses to show: Child did not want bodyfat rec,1.0,Yes
+848238,MCS,mcs5_cm_interview,ecwarc0a,All measurements recorded for child,-1.0,Not applicable
+848239,MCS,mcs5_cm_interview,ecwarc0a,All measurements recorded for child,0.0,No
+848240,MCS,mcs5_cm_interview,ecwarc0a,All measurements recorded for child,1.0,Yes
+848241,MCS,mcs5_cm_interview,ecwarc0b,Child refused height measurement on card,-1.0,Not applicable
+848242,MCS,mcs5_cm_interview,ecwarc0b,Child refused height measurement on card,0.0,No
+848243,MCS,mcs5_cm_interview,ecwarc0b,Child refused height measurement on card,1.0,Yes
+848244,MCS,mcs5_cm_interview,ecwarc0c,Child refused weight measurement on card,-1.0,Not applicable
+848245,MCS,mcs5_cm_interview,ecwarc0c,Child refused weight measurement on card,0.0,No
+848246,MCS,mcs5_cm_interview,ecwarc0c,Child refused weight measurement on card,1.0,Yes
+848247,MCS,mcs5_cm_interview,ecwarc0d,Child refused body fat recorded on card,-1.0,Not applicable
+848248,MCS,mcs5_cm_interview,ecwarc0d,Child refused body fat recorded on card,0.0,No
+848249,MCS,mcs5_cm_interview,ecwarc0d,Child refused body fat recorded on card,1.0,Yes
+848250,MCS,mcs5_cm_interview,eovwgt5,Overweight Cut-Off point for child's age and sex,,
+848251,MCS,mcs5_cm_interview,eobese5,Obesity Cut-Off point for child's age and sex,,
+848252,MCS,mcs5_cm_interview,emcs5age,Age at interview to nearest 10th of year,,
+848253,MCS,mcs5_cm_interview,ebmin5,Body Mass Index calculated (CLS),-1.0,Not applicable
+848254,MCS,mcs5_cm_interview,eobflag5,MCS Obesity flag,-1.0,Not applicable
+848255,MCS,mcs5_cm_interview,eobflag5,MCS Obesity flag,0.0,Not overweight (including underweight)
+848256,MCS,mcs5_cm_interview,eobflag5,MCS Obesity flag,1.0,Overweight
+848257,MCS,mcs5_cm_interview,eobflag5,MCS Obesity flag,2.0,Obese
+848258,MCS,mcs5_cm_interview,ecflag00,Self Completion Form Completed,-8.0,No Self Completion
+848259,MCS,mcs5_cm_interview,ecflag00,Self Completion Form Completed,1.0,ESNI
+848260,MCS,mcs5_cm_interview,ecflag00,Self Completion Form Completed,2.0,WALES
+848261,MCS,mcs5_cm_interview,ecflag00,Self Completion Form Completed,3.0,EMIGRANTS
+848262,MCS,mcs5_cm_interview,ecq01x00,How often do you listen to or play music,-8.0,No answer
+848263,MCS,mcs5_cm_interview,ecq01x00,How often do you listen to or play music,-1.0,Not applicable
+848264,MCS,mcs5_cm_interview,ecq01x00,How often do you listen to or play music,1.0,Most days
+848265,MCS,mcs5_cm_interview,ecq01x00,How often do you listen to or play music,2.0,At least once a week
+848266,MCS,mcs5_cm_interview,ecq01x00,How often do you listen to or play music,3.0,At least once a month
+848267,MCS,mcs5_cm_interview,ecq01x00,How often do you listen to or play music,4.0,Less often than once a month
+848268,MCS,mcs5_cm_interview,ecq01x00,How often do you listen to or play music,5.0,Never
+848269,MCS,mcs5_cm_interview,ecq02x00,How often do you draw,-8.0,No answer
+848270,MCS,mcs5_cm_interview,ecq02x00,How often do you draw,-1.0,Not applicable
+848271,MCS,mcs5_cm_interview,ecq02x00,How often do you draw,1.0,Most days
+848272,MCS,mcs5_cm_interview,ecq02x00,How often do you draw,2.0,At least once a week
+848273,MCS,mcs5_cm_interview,ecq02x00,How often do you draw,3.0,At least once a month
+848274,MCS,mcs5_cm_interview,ecq02x00,How often do you draw,4.0,Less often than once a month
+848275,MCS,mcs5_cm_interview,ecq02x00,How often do you draw,5.0,Never
+848276,MCS,mcs5_cm_interview,ecq03x00,How often do you play sports or active games inside or outside?,-8.0,No answer
+848277,MCS,mcs5_cm_interview,ecq03x00,How often do you play sports or active games inside or outside?,-1.0,Not applicable
+848278,MCS,mcs5_cm_interview,ecq03x00,How often do you play sports or active games inside or outside?,1.0,Most days
+848279,MCS,mcs5_cm_interview,ecq03x00,How often do you play sports or active games inside or outside?,2.0,At least once a week
+848280,MCS,mcs5_cm_interview,ecq03x00,How often do you play sports or active games inside or outside?,3.0,At least once a month
+848281,MCS,mcs5_cm_interview,ecq03x00,How often do you play sports or active games inside or outside?,4.0,Less often than once a month
+848282,MCS,mcs5_cm_interview,ecq03x00,How often do you play sports or active games inside or outside?,5.0,Never
+848283,MCS,mcs5_cm_interview,ecq04x00,How often do you read for enjoyment,-8.0,No answer
+848284,MCS,mcs5_cm_interview,ecq04x00,How often do you read for enjoyment,-1.0,Not applicable
+848285,MCS,mcs5_cm_interview,ecq04x00,How often do you read for enjoyment,1.0,Most days
+848286,MCS,mcs5_cm_interview,ecq04x00,How often do you read for enjoyment,2.0,At least once a week
+848287,MCS,mcs5_cm_interview,ecq04x00,How often do you read for enjoyment,3.0,At least once a month
+848288,MCS,mcs5_cm_interview,ecq04x00,How often do you read for enjoyment,4.0,Less often than once a month
+848289,MCS,mcs5_cm_interview,ecq04x00,How often do you read for enjoyment,5.0,Never
+848290,MCS,mcs5_cm_interview,ecq05x00,How often do you play games on a computer or games console?,-8.0,No answer
+848291,MCS,mcs5_cm_interview,ecq05x00,How often do you play games on a computer or games console?,-1.0,Not applicable
+848292,MCS,mcs5_cm_interview,ecq05x00,How often do you play games on a computer or games console?,1.0,Most days
+848293,MCS,mcs5_cm_interview,ecq05x00,How often do you play games on a computer or games console?,2.0,At least once a week
+848294,MCS,mcs5_cm_interview,ecq05x00,How often do you play games on a computer or games console?,3.0,At least once a month
+848295,MCS,mcs5_cm_interview,ecq05x00,How often do you play games on a computer or games console?,4.0,Less often than once a month
+848296,MCS,mcs5_cm_interview,ecq05x00,How often do you play games on a computer or games console?,5.0,Never
+848297,MCS,mcs5_cm_interview,ecq06x00,How often do you use the internet,-8.0,No answer
+848298,MCS,mcs5_cm_interview,ecq06x00,How often do you use the internet,-1.0,Not applicable
+848299,MCS,mcs5_cm_interview,ecq06x00,How often do you use the internet,1.0,Most days
+848300,MCS,mcs5_cm_interview,ecq06x00,How often do you use the internet,2.0,At least once a week
+848301,MCS,mcs5_cm_interview,ecq06x00,How often do you use the internet,3.0,At least once a month
+848302,MCS,mcs5_cm_interview,ecq06x00,How often do you use the internet,4.0,Less often than once a month
+848303,MCS,mcs5_cm_interview,ecq06x00,How often do you use the internet,5.0,Never
+848304,MCS,mcs5_cm_interview,ecq07x00,How often do you use the internet for homework?,-8.0,No answer
+848305,MCS,mcs5_cm_interview,ecq07x00,How often do you use the internet for homework?,-1.0,Not applicable
+848306,MCS,mcs5_cm_interview,ecq07x00,How often do you use the internet for homework?,1.0,Most days
+848307,MCS,mcs5_cm_interview,ecq07x00,How often do you use the internet for homework?,2.0,At least once a week
+848308,MCS,mcs5_cm_interview,ecq07x00,How often do you use the internet for homework?,3.0,At least once a month
+848309,MCS,mcs5_cm_interview,ecq07x00,How often do you use the internet for homework?,4.0,Less often than once a month
+848310,MCS,mcs5_cm_interview,ecq07x00,How often do you use the internet for homework?,5.0,Never
+848311,MCS,mcs5_cm_interview,ecq08x00,How often do you exchange messages with friends on the internet?,5.0,Never
+848312,MCS,mcs5_cm_interview,ecq08x00,How often do you exchange messages with friends on the internet?,2.0,At least once a week
+848313,MCS,mcs5_cm_interview,ecq08x00,How often do you exchange messages with friends on the internet?,3.0,At least once a month
+848314,MCS,mcs5_cm_interview,ecq08x00,How often do you exchange messages with friends on the internet?,4.0,Less often than once a month
+848315,MCS,mcs5_cm_interview,ecq08x00,How often do you exchange messages with friends on the internet?,-8.0,No answer
+848316,MCS,mcs5_cm_interview,ecq08x00,How often do you exchange messages with friends on the internet?,-1.0,Not applicable
+848317,MCS,mcs5_cm_interview,ecq08x00,How often do you exchange messages with friends on the internet?,1.0,Most days
+848318,MCS,mcs5_cm_interview,ecq09x00,How often do you visit a social networking website on the internet?,-8.0,No answer
+848319,MCS,mcs5_cm_interview,ecq09x00,How often do you visit a social networking website on the internet?,-1.0,Not applicable
+848320,MCS,mcs5_cm_interview,ecq09x00,How often do you visit a social networking website on the internet?,1.0,Most days
+848321,MCS,mcs5_cm_interview,ecq09x00,How often do you visit a social networking website on the internet?,2.0,At least once a week
+848322,MCS,mcs5_cm_interview,ecq09x00,How often do you visit a social networking website on the internet?,3.0,At least once a month
+848323,MCS,mcs5_cm_interview,ecq09x00,How often do you visit a social networking website on the internet?,4.0,Less often than once a month
+848324,MCS,mcs5_cm_interview,ecq09x00,How often do you visit a social networking website on the internet?,5.0,Never
+848325,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,-8.0,No answer
+848326,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,-1.0,Not applicable
+848327,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,1.0,1 Completely happy
+848328,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,2.0,2
+848329,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,3.0,3
+848330,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,4.0,4
+848331,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,5.0,5
+848332,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,6.0,6
+848333,MCS,mcs5_cm_interview,ecq10a00,Your school work - Happiness,7.0,7 Not at all happy
+848334,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,-8.0,No answer
+848335,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,-1.0,Not applicable
+848336,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,1.0,1 Completely happy
+848337,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,2.0,2
+848338,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,3.0,3
+848339,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,4.0,4
+848340,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,5.0,5
+848341,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,6.0,6
+848342,MCS,mcs5_cm_interview,ecq10b00,The way you look - Happiness,7.0,7 Not at all happy
+848343,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,-8.0,No answer
+848344,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,-1.0,Not applicable
+848345,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,1.0,1 Completely happy
+848346,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,2.0,2
+848347,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,3.0,3
+848348,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,4.0,4
+848349,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,5.0,5
+848350,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,6.0,6
+848351,MCS,mcs5_cm_interview,ecq10c00,Your family - Happiness,7.0,7 Not at all happy
+848352,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,-8.0,No answer
+848353,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,-1.0,Not applicable
+848354,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,1.0,1 Completely happy
+848355,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,2.0,2
+848356,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,3.0,3
+848357,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,4.0,4
+848358,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,5.0,5
+848359,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,6.0,6
+848360,MCS,mcs5_cm_interview,ecq10d00,Your friends - Happiness,7.0,7 Not at all happy
+848361,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,-8.0,No answer
+848362,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,-1.0,Not applicable
+848363,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,1.0,1 Completely happy
+848364,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,2.0,2
+848365,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,3.0,3
+848366,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,4.0,4
+848367,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,5.0,5
+848368,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,6.0,6
+848369,MCS,mcs5_cm_interview,ecq10e00,The school you go to - Happiness,7.0,7 Not at all happy
+848370,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,-8.0,No answer
+848371,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,-1.0,Not applicable
+848372,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,1.0,1 Completely happy
+848373,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,2.0,2
+848374,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,3.0,3
+848375,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,4.0,4
+848376,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,5.0,5
+848377,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,6.0,6
+848378,MCS,mcs5_cm_interview,ecq10f00,Your life as a whole - Happiness,7.0,7 Not at all happy
+848379,MCS,mcs5_cm_interview,ecq11a00,On the whole,-8.0,No answer
+848380,MCS,mcs5_cm_interview,ecq11a00,On the whole,-1.0,Not applicable
+848381,MCS,mcs5_cm_interview,ecq11a00,On the whole,1.0,Strongly agree
+848382,MCS,mcs5_cm_interview,ecq11a00,On the whole,2.0,Agree
+848383,MCS,mcs5_cm_interview,ecq11a00,On the whole,3.0,Disagree
+848384,MCS,mcs5_cm_interview,ecq11a00,On the whole,4.0,Strongly disagree
+848385,MCS,mcs5_cm_interview,ecq11b00,I feel that I have a number of good qualities,-8.0,No answer
+848386,MCS,mcs5_cm_interview,ecq11b00,I feel that I have a number of good qualities,-1.0,Not applicable
+848387,MCS,mcs5_cm_interview,ecq11b00,I feel that I have a number of good qualities,1.0,Strongly agree
+848388,MCS,mcs5_cm_interview,ecq11b00,I feel that I have a number of good qualities,2.0,Agree
+848389,MCS,mcs5_cm_interview,ecq11b00,I feel that I have a number of good qualities,3.0,Disagree
+848390,MCS,mcs5_cm_interview,ecq11b00,I feel that I have a number of good qualities,4.0,Strongly disagree
+848391,MCS,mcs5_cm_interview,ecq11c00,I am able to do things as well as most other people,-8.0,No answer
+848392,MCS,mcs5_cm_interview,ecq11c00,I am able to do things as well as most other people,-1.0,Not applicable
+848393,MCS,mcs5_cm_interview,ecq11c00,I am able to do things as well as most other people,1.0,Strongly agree
+848394,MCS,mcs5_cm_interview,ecq11c00,I am able to do things as well as most other people,2.0,Agree
+848395,MCS,mcs5_cm_interview,ecq11c00,I am able to do things as well as most other people,3.0,Disagree
+848396,MCS,mcs5_cm_interview,ecq11c00,I am able to do things as well as most other people,4.0,Strongly disagree
+848397,MCS,mcs5_cm_interview,ecq11d00,I am a person of value,-8.0,No answer
+848398,MCS,mcs5_cm_interview,ecq11d00,I am a person of value,-1.0,Not applicable
+848399,MCS,mcs5_cm_interview,ecq11d00,I am a person of value,1.0,Strongly agree
+848400,MCS,mcs5_cm_interview,ecq11d00,I am a person of value,2.0,Agree
+848401,MCS,mcs5_cm_interview,ecq11d00,I am a person of value,3.0,Disagree
+848402,MCS,mcs5_cm_interview,ecq11d00,I am a person of value,4.0,Strongly disagree
+848403,MCS,mcs5_cm_interview,ecq11e00,I feel good about myself,-8.0,No answer
+848404,MCS,mcs5_cm_interview,ecq11e00,I feel good about myself,-1.0,Not applicable
+848405,MCS,mcs5_cm_interview,ecq11e00,I feel good about myself,1.0,Strongly agree
+848406,MCS,mcs5_cm_interview,ecq11e00,I feel good about myself,2.0,Agree
+848407,MCS,mcs5_cm_interview,ecq11e00,I feel good about myself,3.0,Disagree
+848408,MCS,mcs5_cm_interview,ecq11e00,I feel good about myself,4.0,Strongly disagree
+848409,MCS,mcs5_cm_interview,ecq12x00,How many of your friends live in the same area as you?,-8.0,No answer
+848410,MCS,mcs5_cm_interview,ecq12x00,How many of your friends live in the same area as you?,-1.0,Not applicable
+848411,MCS,mcs5_cm_interview,ecq12x00,How many of your friends live in the same area as you?,1.0,All of them
+848412,MCS,mcs5_cm_interview,ecq12x00,How many of your friends live in the same area as you?,2.0,Most of them
+848413,MCS,mcs5_cm_interview,ecq12x00,How many of your friends live in the same area as you?,3.0,Some of them
+848414,MCS,mcs5_cm_interview,ecq12x00,How many of your friends live in the same area as you?,4.0,None of them
+848415,MCS,mcs5_cm_interview,ecq12x00,How many of your friends live in the same area as you?,5.0,Don't have any friends
+848416,MCS,mcs5_cm_interview,ecq13x00,How many of your friends go to a different school than you?,-1.0,Not applicable
+848417,MCS,mcs5_cm_interview,ecq13x00,How many of your friends go to a different school than you?,1.0,All of them
+848418,MCS,mcs5_cm_interview,ecq13x00,How many of your friends go to a different school than you?,2.0,Most of them
+848419,MCS,mcs5_cm_interview,ecq13x00,How many of your friends go to a different school than you?,3.0,Some of them
+848420,MCS,mcs5_cm_interview,ecq13x00,How many of your friends go to a different school than you?,4.0,None of them
+848421,MCS,mcs5_cm_interview,ecq13x00,How many of your friends go to a different school than you?,5.0,Don't have any friends
+848422,MCS,mcs5_cm_interview,ecq13x00,How many of your friends go to a different school than you?,-8.0,No answer
+848423,MCS,mcs5_cm_interview,ecq14x00,Are your friends mostly boys,-8.0,No answer
+848424,MCS,mcs5_cm_interview,ecq14x00,Are your friends mostly boys,-1.0,Not applicable
+848425,MCS,mcs5_cm_interview,ecq14x00,Are your friends mostly boys,1.0,Mostly boys
+848426,MCS,mcs5_cm_interview,ecq14x00,Are your friends mostly boys,2.0,Mostly girls
+848427,MCS,mcs5_cm_interview,ecq14x00,Are your friends mostly boys,3.0,A mixture of boys and girls
+848428,MCS,mcs5_cm_interview,ecq14x00,Are your friends mostly boys,4.0,Don't have any friends
+848429,MCS,mcs5_cm_interview,ecq15x00,How many of your friends are from the same ethnic group as you?,-8.0,No answer
+848430,MCS,mcs5_cm_interview,ecq15x00,How many of your friends are from the same ethnic group as you?,-1.0,Not applicable
+848431,MCS,mcs5_cm_interview,ecq15x00,How many of your friends are from the same ethnic group as you?,1.0,All of them
+848432,MCS,mcs5_cm_interview,ecq15x00,How many of your friends are from the same ethnic group as you?,2.0,Most of them
+848433,MCS,mcs5_cm_interview,ecq15x00,How many of your friends are from the same ethnic group as you?,3.0,Some of them
+848434,MCS,mcs5_cm_interview,ecq15x00,How many of your friends are from the same ethnic group as you?,4.0,None of them
+848435,MCS,mcs5_cm_interview,ecq15x00,How many of your friends are from the same ethnic group as you?,5.0,Don't have any friends
+848436,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,-8.0,No answer
+848437,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,-1.0,Not applicable
+848438,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,1.0,Most days
+848439,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,2.0,At least once a week
+848440,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,3.0,At least once a month
+848441,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,4.0,Less often than once a month
+848442,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,5.0,Never
+848443,MCS,mcs5_cm_interview,ecq16x00,How often do you argue or fall out with your friends?,6.0,Don't have any friends
+848444,MCS,mcs5_cm_interview,ecq17x00,When not at school,-8.0,No answer
+848445,MCS,mcs5_cm_interview,ecq17x00,When not at school,-1.0,Not applicable
+848446,MCS,mcs5_cm_interview,ecq17x00,When not at school,1.0,Most days
+848447,MCS,mcs5_cm_interview,ecq17x00,When not at school,2.0,At least once a week
+848448,MCS,mcs5_cm_interview,ecq17x00,When not at school,3.0,At least once a month
+848449,MCS,mcs5_cm_interview,ecq17x00,When not at school,4.0,Less often than once a month
+848450,MCS,mcs5_cm_interview,ecq17x00,When not at school,5.0,Never
+848451,MCS,mcs5_cm_interview,ecq17x00,When not at school,6.0,Don't have any friends
+848452,MCS,mcs5_cm_interview,ecq18x00,At the weekend how often do you spend time with your friends?,-8.0,No answer
+848453,MCS,mcs5_cm_interview,ecq18x00,At the weekend how often do you spend time with your friends?,-1.0,Not applicable
+848454,MCS,mcs5_cm_interview,ecq18x00,At the weekend how often do you spend time with your friends?,1.0,Most weekends
+848455,MCS,mcs5_cm_interview,ecq18x00,At the weekend how often do you spend time with your friends?,2.0,At least once a month
+848456,MCS,mcs5_cm_interview,ecq18x00,At the weekend how often do you spend time with your friends?,3.0,Less often than once a month
+848457,MCS,mcs5_cm_interview,ecq18x00,At the weekend how often do you spend time with your friends?,4.0,Never
+848458,MCS,mcs5_cm_interview,ecq18x00,At the weekend how often do you spend time with your friends?,5.0,Don't have any friends
+848459,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,-8.0,No answer
+848460,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,-1.0,Not applicable
+848461,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,1.0,Most days
+848462,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,2.0,At least once a week
+848463,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,3.0,At least once a month
+848464,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,4.0,Less often than once a month
+848465,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,5.0,Never
+848466,MCS,mcs5_cm_interview,ecq19x00,In the afternoon after school how often do you spend time with your friends?,6.0,Don't have any friends
+848467,MCS,mcs5_cm_interview,ecq20x00,Do you get pocket money regularly?,-8.0,No answer
+848468,MCS,mcs5_cm_interview,ecq20x00,Do you get pocket money regularly?,-1.0,Not applicable
+848469,MCS,mcs5_cm_interview,ecq20x00,Do you get pocket money regularly?,1.0,Yes
+848470,MCS,mcs5_cm_interview,ecq20x00,Do you get pocket money regularly?,2.0,No
+848471,MCS,mcs5_cm_interview,ecq21x00,Compared to your friends,-8.0,No answer
+848472,MCS,mcs5_cm_interview,ecq21x00,Compared to your friends,-1.0,Not applicable
+848473,MCS,mcs5_cm_interview,ecq21x00,Compared to your friends,1.0,Richer
+848474,MCS,mcs5_cm_interview,ecq21x00,Compared to your friends,2.0,Poorer
+848475,MCS,mcs5_cm_interview,ecq21x00,Compared to your friends,3.0,About the same
+848476,MCS,mcs5_cm_interview,ecq21x00,Compared to your friends,4.0,Don't know
+848477,MCS,mcs5_cm_interview,ecq22a00,I wish my family could afford to buy me more of what I want,-8.0,No answer
+848478,MCS,mcs5_cm_interview,ecq22a00,I wish my family could afford to buy me more of what I want,-1.0,Not applicable
+848479,MCS,mcs5_cm_interview,ecq22a00,I wish my family could afford to buy me more of what I want,1.0,Strongly agree
+848480,MCS,mcs5_cm_interview,ecq22a00,I wish my family could afford to buy me more of what I want,2.0,Agree
+848481,MCS,mcs5_cm_interview,ecq22a00,I wish my family could afford to buy me more of what I want,3.0,Disagree
+848482,MCS,mcs5_cm_interview,ecq22a00,I wish my family could afford to buy me more of what I want,4.0,Strongly disagree
+848483,MCS,mcs5_cm_interview,ecq22b00,I like clothing with popular labels,-8.0,No answer
+848484,MCS,mcs5_cm_interview,ecq22b00,I like clothing with popular labels,-1.0,Not applicable
+848485,MCS,mcs5_cm_interview,ecq22b00,I like clothing with popular labels,1.0,Strongly agree
+848486,MCS,mcs5_cm_interview,ecq22b00,I like clothing with popular labels,2.0,Agree
+848487,MCS,mcs5_cm_interview,ecq22b00,I like clothing with popular labels,3.0,Disagree
+848488,MCS,mcs5_cm_interview,ecq22b00,I like clothing with popular labels,4.0,Strongly disagree
+848489,MCS,mcs5_cm_interview,ecq22c00,It bothers me if my friends have things I don't,-8.0,No answer
+848490,MCS,mcs5_cm_interview,ecq22c00,It bothers me if my friends have things I don't,-1.0,Not applicable
+848491,MCS,mcs5_cm_interview,ecq22c00,It bothers me if my friends have things I don't,1.0,Strongly agree
+848492,MCS,mcs5_cm_interview,ecq22c00,It bothers me if my friends have things I don't,2.0,Agree
+848493,MCS,mcs5_cm_interview,ecq22c00,It bothers me if my friends have things I don't,3.0,Disagree
+848494,MCS,mcs5_cm_interview,ecq22c00,It bothers me if my friends have things I don't,4.0,Strongly disagree
+848495,MCS,mcs5_cm_interview,ecq23x00,How safe is it to walk,-8.0,No answer
+848496,MCS,mcs5_cm_interview,ecq23x00,How safe is it to walk,-1.0,Not applicable
+848497,MCS,mcs5_cm_interview,ecq23x00,How safe is it to walk,1.0,Very safe
+848498,MCS,mcs5_cm_interview,ecq23x00,How safe is it to walk,2.0,Safe
+848499,MCS,mcs5_cm_interview,ecq23x00,How safe is it to walk,3.0,Not very safe
+848500,MCS,mcs5_cm_interview,ecq23x00,How safe is it to walk,4.0,Not at all safe
+848501,MCS,mcs5_cm_interview,ecq24x00,Are there any parks in this area where children your age can play?,-8.0,No answer
+848502,MCS,mcs5_cm_interview,ecq24x00,Are there any parks in this area where children your age can play?,-1.0,Not applicable
+848503,MCS,mcs5_cm_interview,ecq24x00,Are there any parks in this area where children your age can play?,1.0,Yes
+848504,MCS,mcs5_cm_interview,ecq24x00,Are there any parks in this area where children your age can play?,2.0,No
+848505,MCS,mcs5_cm_interview,ecq25x00,Have you ever been noisy or rude in a public place?,-8.0,No answer
+848506,MCS,mcs5_cm_interview,ecq25x00,Have you ever been noisy or rude in a public place?,-1.0,Not applicable
+848507,MCS,mcs5_cm_interview,ecq25x00,Have you ever been noisy or rude in a public place?,1.0,Yes
+848508,MCS,mcs5_cm_interview,ecq25x00,Have you ever been noisy or rude in a public place?,2.0,No
+848509,MCS,mcs5_cm_interview,ecq26x00,Have you ever taken something from a shop without paying for it?,2.0,No
+848510,MCS,mcs5_cm_interview,ecq26x00,Have you ever taken something from a shop without paying for it?,-8.0,No answer
+848511,MCS,mcs5_cm_interview,ecq26x00,Have you ever taken something from a shop without paying for it?,-1.0,Not applicable
+848512,MCS,mcs5_cm_interview,ecq26x00,Have you ever taken something from a shop without paying for it?,1.0,Yes
+848513,MCS,mcs5_cm_interview,ecq27x00,Have you ever written things or sprayed paint on a building?,-8.0,No answer
+848514,MCS,mcs5_cm_interview,ecq27x00,Have you ever written things or sprayed paint on a building?,-1.0,Not applicable
+848515,MCS,mcs5_cm_interview,ecq27x00,Have you ever written things or sprayed paint on a building?,1.0,Yes
+848516,MCS,mcs5_cm_interview,ecq27x00,Have you ever written things or sprayed paint on a building?,2.0,No
+848517,MCS,mcs5_cm_interview,ecq28x00,Have you ever on purpose damaged anything in a public place?,-8.0,No answer
+848518,MCS,mcs5_cm_interview,ecq28x00,Have you ever on purpose damaged anything in a public place?,-1.0,Not applicable
+848519,MCS,mcs5_cm_interview,ecq28x00,Have you ever on purpose damaged anything in a public place?,1.0,Yes
+848520,MCS,mcs5_cm_interview,ecq28x00,Have you ever on purpose damaged anything in a public place?,2.0,No
+848521,MCS,mcs5_cm_interview,ecq29x00,How much do you like school?,-8.0,No answer
+848522,MCS,mcs5_cm_interview,ecq29x00,How much do you like school?,-1.0,Not applicable
+848523,MCS,mcs5_cm_interview,ecq29x00,How much do you like school?,1.0,A lot
+848524,MCS,mcs5_cm_interview,ecq29x00,How much do you like school?,2.0,A bit
+848525,MCS,mcs5_cm_interview,ecq29x00,How much do you like school?,3.0,Not at all
+848526,MCS,mcs5_cm_interview,ecq30x00,How much do you like English?,-8.0,No answer
+848527,MCS,mcs5_cm_interview,ecq30x00,How much do you like English?,-1.0,Not applicable
+848528,MCS,mcs5_cm_interview,ecq30x00,How much do you like English?,1.0,A lot
+848529,MCS,mcs5_cm_interview,ecq30x00,How much do you like English?,2.0,A bit
+848530,MCS,mcs5_cm_interview,ecq30x00,How much do you like English?,3.0,Not at all
+848531,MCS,mcs5_cm_interview,ecq31x00,How much do you like Welsh?,-8.0,No answer
+848532,MCS,mcs5_cm_interview,ecq31x00,How much do you like Welsh?,-1.0,Not applicable
+848533,MCS,mcs5_cm_interview,ecq31x00,How much do you like Welsh?,1.0,A lot
+848534,MCS,mcs5_cm_interview,ecq31x00,How much do you like Welsh?,2.0,A bit
+848535,MCS,mcs5_cm_interview,ecq31x00,How much do you like Welsh?,3.0,Not at all
+848536,MCS,mcs5_cm_interview,ecq32x00,How much do you like Maths?,-8.0,No answer
+848537,MCS,mcs5_cm_interview,ecq32x00,How much do you like Maths?,-1.0,Not applicable
+848538,MCS,mcs5_cm_interview,ecq32x00,How much do you like Maths?,1.0,A lot
+848539,MCS,mcs5_cm_interview,ecq32x00,How much do you like Maths?,2.0,A bit
+848540,MCS,mcs5_cm_interview,ecq32x00,How much do you like Maths?,3.0,Not at all
+848541,MCS,mcs5_cm_interview,ecq33x00,How much do you like Science?,-8.0,No answer
+848542,MCS,mcs5_cm_interview,ecq33x00,How much do you like Science?,-1.0,Not applicable
+848543,MCS,mcs5_cm_interview,ecq33x00,How much do you like Science?,1.0,A lot
+848544,MCS,mcs5_cm_interview,ecq33x00,How much do you like Science?,2.0,A bit
+848545,MCS,mcs5_cm_interview,ecq33x00,How much do you like Science?,3.0,Not at all
+848546,MCS,mcs5_cm_interview,ecq34x00,How much do you like PE?,-8.0,No answer
+848547,MCS,mcs5_cm_interview,ecq34x00,How much do you like PE?,-1.0,Not applicable
+848548,MCS,mcs5_cm_interview,ecq34x00,How much do you like PE?,1.0,A lot
+848549,MCS,mcs5_cm_interview,ecq34x00,How much do you like PE?,2.0,A bit
+848550,MCS,mcs5_cm_interview,ecq34x00,How much do you like PE?,3.0,Not at all
+848551,MCS,mcs5_cm_interview,ecq35x00,How often do you try your best at school?,-8.0,No answer
+848552,MCS,mcs5_cm_interview,ecq35x00,How often do you try your best at school?,-1.0,Not applicable
+848553,MCS,mcs5_cm_interview,ecq35x00,How often do you try your best at school?,1.0,All of the time
+848554,MCS,mcs5_cm_interview,ecq35x00,How often do you try your best at school?,2.0,Most of the time
+848555,MCS,mcs5_cm_interview,ecq35x00,How often do you try your best at school?,3.0,Some of the time
+848556,MCS,mcs5_cm_interview,ecq35x00,How often do you try your best at school?,4.0,Never
+848557,MCS,mcs5_cm_interview,ecq36x00,How often do you find school interesting?,-8.0,No answer
+848558,MCS,mcs5_cm_interview,ecq36x00,How often do you find school interesting?,-1.0,Not applicable
+848559,MCS,mcs5_cm_interview,ecq36x00,How often do you find school interesting?,1.0,All of the time
+848560,MCS,mcs5_cm_interview,ecq36x00,How often do you find school interesting?,2.0,Most of the time
+848561,MCS,mcs5_cm_interview,ecq36x00,How often do you find school interesting?,3.0,Some of the time
+848562,MCS,mcs5_cm_interview,ecq36x00,How often do you find school interesting?,4.0,Never
+848563,MCS,mcs5_cm_interview,ecq37x00,How often do you feel unhappy at school?,-8.0,No answer
+848564,MCS,mcs5_cm_interview,ecq37x00,How often do you feel unhappy at school?,-1.0,Not applicable
+848565,MCS,mcs5_cm_interview,ecq37x00,How often do you feel unhappy at school?,1.0,All of the time
+848566,MCS,mcs5_cm_interview,ecq37x00,How often do you feel unhappy at school?,2.0,Most of the time
+848567,MCS,mcs5_cm_interview,ecq37x00,How often do you feel unhappy at school?,3.0,Some of the time
+848568,MCS,mcs5_cm_interview,ecq37x00,How often do you feel unhappy at school?,4.0,Never
+848569,MCS,mcs5_cm_interview,ecq38x00,How often do you get tired at school?,-8.0,No answer
+848570,MCS,mcs5_cm_interview,ecq38x00,How often do you get tired at school?,-1.0,Not applicable
+848571,MCS,mcs5_cm_interview,ecq38x00,How often do you get tired at school?,1.0,All of the time
+848572,MCS,mcs5_cm_interview,ecq38x00,How often do you get tired at school?,2.0,Most of the time
+848573,MCS,mcs5_cm_interview,ecq38x00,How often do you get tired at school?,3.0,Some of the time
+848574,MCS,mcs5_cm_interview,ecq38x00,How often do you get tired at school?,4.0,Never
+848575,MCS,mcs5_cm_interview,ecq39x00,How often do you feel school is a waste of time?,-8.0,No answer
+848576,MCS,mcs5_cm_interview,ecq39x00,How often do you feel school is a waste of time?,1.0,All of the time
+848577,MCS,mcs5_cm_interview,ecq39x00,How often do you feel school is a waste of time?,2.0,Most of the time
+848578,MCS,mcs5_cm_interview,ecq39x00,How often do you feel school is a waste of time?,3.0,Some of the time
+848579,MCS,mcs5_cm_interview,ecq39x00,How often do you feel school is a waste of time?,4.0,Never
+848580,MCS,mcs5_cm_interview,ecq40x00,How often do you misbehave or cause trouble in class?,-8.0,No answer
+848581,MCS,mcs5_cm_interview,ecq40x00,How often do you misbehave or cause trouble in class?,-1.0,Not applicable
+848582,MCS,mcs5_cm_interview,ecq40x00,How often do you misbehave or cause trouble in class?,1.0,All of the time
+848583,MCS,mcs5_cm_interview,ecq40x00,How often do you misbehave or cause trouble in class?,2.0,Most of the time
+848584,MCS,mcs5_cm_interview,ecq40x00,How often do you misbehave or cause trouble in class?,3.0,Some of the time
+848585,MCS,mcs5_cm_interview,ecq40x00,How often do you misbehave or cause trouble in class?,4.0,Never
+848586,MCS,mcs5_cm_interview,ecq41x00,How often do other children misbehave or cause trouble in class?,-8.0,No answer
+848587,MCS,mcs5_cm_interview,ecq41x00,How often do other children misbehave or cause trouble in class?,-1.0,Not applicable
+848588,MCS,mcs5_cm_interview,ecq41x00,How often do other children misbehave or cause trouble in class?,1.0,All of the time
+848589,MCS,mcs5_cm_interview,ecq41x00,How often do other children misbehave or cause trouble in class?,2.0,Most of the time
+848590,MCS,mcs5_cm_interview,ecq41x00,How often do other children misbehave or cause trouble in class?,3.0,Some of the time
+848591,MCS,mcs5_cm_interview,ecq41x00,How often do other children misbehave or cause trouble in class?,4.0,Never
+848592,MCS,mcs5_cm_interview,ecq42x00,How often do your parents take an interest in your school work?,-8.0,No answer
+848593,MCS,mcs5_cm_interview,ecq42x00,How often do your parents take an interest in your school work?,-1.0,Not applicable
+848594,MCS,mcs5_cm_interview,ecq42x00,How often do your parents take an interest in your school work?,1.0,All of the time
+848595,MCS,mcs5_cm_interview,ecq42x00,How often do your parents take an interest in your school work?,2.0,Most of the time
+848596,MCS,mcs5_cm_interview,ecq42x00,How often do your parents take an interest in your school work?,3.0,Some of the time
+848597,MCS,mcs5_cm_interview,ecq42x00,How often do your parents take an interest in your school work?,4.0,Never
+848598,MCS,mcs5_cm_interview,ecq43x00,How much do you like your class teacher?,-8.0,No answer
+848599,MCS,mcs5_cm_interview,ecq43x00,How much do you like your class teacher?,-1.0,Not applicable
+848600,MCS,mcs5_cm_interview,ecq43x00,How much do you like your class teacher?,1.0,A lot
+848601,MCS,mcs5_cm_interview,ecq43x00,How much do you like your class teacher?,2.0,A bit
+848602,MCS,mcs5_cm_interview,ecq43x00,How much do you like your class teacher?,3.0,Not at all
+848603,MCS,mcs5_cm_interview,ecq44x00,How often do you think your class teacher is getting at you?,-8.0,No answer
+848604,MCS,mcs5_cm_interview,ecq44x00,How often do you think your class teacher is getting at you?,-1.0,Not applicable
+848605,MCS,mcs5_cm_interview,ecq44x00,How often do you think your class teacher is getting at you?,1.0,All of the time
+848606,MCS,mcs5_cm_interview,ecq44x00,How often do you think your class teacher is getting at you?,2.0,Most of the time
+848607,MCS,mcs5_cm_interview,ecq44x00,How often do you think your class teacher is getting at you?,3.0,Some of the time
+848608,MCS,mcs5_cm_interview,ecq44x00,How often do you think your class teacher is getting at you?,4.0,Never
+848609,MCS,mcs5_cm_interview,ecq45x00,Have you ever missed school without your parents' permission?,-8.0,No answer
+848610,MCS,mcs5_cm_interview,ecq45x00,Have you ever missed school without your parents' permission?,-1.0,Not applicable
+848611,MCS,mcs5_cm_interview,ecq45x00,Have you ever missed school without your parents' permission?,1.0,Yes
+848612,MCS,mcs5_cm_interview,ecq45x00,Have you ever missed school without your parents' permission?,2.0,No
+848613,MCS,mcs5_cm_interview,ecq46a00,I am good at English,-8.0,No answer
+848614,MCS,mcs5_cm_interview,ecq46a00,I am good at English,-1.0,Not applicable
+848615,MCS,mcs5_cm_interview,ecq46a00,I am good at English,1.0,Strongly agree
+848616,MCS,mcs5_cm_interview,ecq46a00,I am good at English,2.0,Agree
+848617,MCS,mcs5_cm_interview,ecq46a00,I am good at English,3.0,Disagree
+848618,MCS,mcs5_cm_interview,ecq46a00,I am good at English,4.0,Strongly disagree
+848619,MCS,mcs5_cm_interview,ecq46b00,I am good at Maths,-8.0,No answer
+848620,MCS,mcs5_cm_interview,ecq46b00,I am good at Maths,-1.0,Not applicable
+848621,MCS,mcs5_cm_interview,ecq46b00,I am good at Maths,1.0,Strongly agree
+848622,MCS,mcs5_cm_interview,ecq46b00,I am good at Maths,2.0,Agree
+848623,MCS,mcs5_cm_interview,ecq46b00,I am good at Maths,3.0,Disagree
+848624,MCS,mcs5_cm_interview,ecq46b00,I am good at Maths,4.0,Strongly disagree
+848625,MCS,mcs5_cm_interview,ecq46c00,I am good at Welsh,-8.0,No answer
+848626,MCS,mcs5_cm_interview,ecq46c00,I am good at Welsh,-1.0,Not applicable
+848627,MCS,mcs5_cm_interview,ecq46c00,I am good at Welsh,1.0,Strongly agree
+848628,MCS,mcs5_cm_interview,ecq46c00,I am good at Welsh,2.0,Agree
+848629,MCS,mcs5_cm_interview,ecq46c00,I am good at Welsh,3.0,Disagree
+848630,MCS,mcs5_cm_interview,ecq46c00,I am good at Welsh,4.0,Strongly disagree
+848631,MCS,mcs5_cm_interview,ecq46d00,I am good at Science,-8.0,No answer
+848632,MCS,mcs5_cm_interview,ecq46d00,I am good at Science,-1.0,Not applicable
+848633,MCS,mcs5_cm_interview,ecq46d00,I am good at Science,1.0,Strongly agree
+848634,MCS,mcs5_cm_interview,ecq46d00,I am good at Science,2.0,Agree
+848635,MCS,mcs5_cm_interview,ecq46d00,I am good at Science,3.0,Disagree
+848636,MCS,mcs5_cm_interview,ecq46d00,I am good at Science,4.0,Strongly disagree
+848637,MCS,mcs5_cm_interview,ecq47x00,How much are you looking forward to going to secondary school?,-8.0,No answer
+848638,MCS,mcs5_cm_interview,ecq47x00,How much are you looking forward to going to secondary school?,-1.0,Not applicable
+848639,MCS,mcs5_cm_interview,ecq47x00,How much are you looking forward to going to secondary school?,1.0,A lot
+848640,MCS,mcs5_cm_interview,ecq47x00,How much are you looking forward to going to secondary school?,2.0,A bit
+848641,MCS,mcs5_cm_interview,ecq47x00,How much are you looking forward to going to secondary school?,3.0,Not at all
+848642,MCS,mcs5_cm_interview,ecq47x00,How much are you looking forward to going to secondary school?,4.0,Already at secondary school
+848643,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,-8.0,No answer
+848644,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,-1.0,Not applicable
+848645,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,1.0,All of them
+848646,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,2.0,Most of them
+848647,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,3.0,Some of them
+848648,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,4.0,None of them
+848649,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,5.0,Don't have any friends
+848650,MCS,mcs5_cm_interview,ecq48x00,How many of your friends are going to the same secondary school as you?,6.0,Already at secondary school
+848651,MCS,mcs5_cm_interview,ecq49x00,How wrong it is for someone your age to start a fight?,-8.0,No answer
+848652,MCS,mcs5_cm_interview,ecq49x00,How wrong it is for someone your age to start a fight?,-1.0,Not applicable
+848653,MCS,mcs5_cm_interview,ecq49x00,How wrong it is for someone your age to start a fight?,1.0,Very wrong
+848654,MCS,mcs5_cm_interview,ecq49x00,How wrong it is for someone your age to start a fight?,2.0,A bit wrong
+848655,MCS,mcs5_cm_interview,ecq49x00,How wrong it is for someone your age to start a fight?,3.0,Not wrong
+848656,MCS,mcs5_cm_interview,ecq49x00,How wrong it is for someone your age to start a fight?,4.0,Don't know
+848657,MCS,mcs5_cm_interview,ecq50x00,How wrong it is for someone your age to graffiti?,-8.0,No answer
+848658,MCS,mcs5_cm_interview,ecq50x00,How wrong it is for someone your age to graffiti?,-1.0,Not applicable
+848659,MCS,mcs5_cm_interview,ecq50x00,How wrong it is for someone your age to graffiti?,1.0,Very wrong
+848660,MCS,mcs5_cm_interview,ecq50x00,How wrong it is for someone your age to graffiti?,2.0,A bit wrong
+848661,MCS,mcs5_cm_interview,ecq50x00,How wrong it is for someone your age to graffiti?,3.0,Not wrong
+848662,MCS,mcs5_cm_interview,ecq50x00,How wrong it is for someone your age to graffiti?,4.0,Don't know
+848663,MCS,mcs5_cm_interview,ecq51x00,How wrong it is for someone your age to take some thing?,-8.0,No answer
+848664,MCS,mcs5_cm_interview,ecq51x00,How wrong it is for someone your age to take some thing?,-1.0,Not applicable
+848665,MCS,mcs5_cm_interview,ecq51x00,How wrong it is for someone your age to take some thing?,1.0,Very wrong
+848666,MCS,mcs5_cm_interview,ecq51x00,How wrong it is for someone your age to take some thing?,2.0,A bit wrong
+848667,MCS,mcs5_cm_interview,ecq51x00,How wrong it is for someone your age to take some thing?,3.0,Not wrong
+848668,MCS,mcs5_cm_interview,ecq51x00,How wrong it is for someone your age to take some thing?,4.0,Don't know
+848669,MCS,mcs5_cm_interview,ecq52x00,How wrong it is to copy or download music?,-8.0,No answer
+848670,MCS,mcs5_cm_interview,ecq52x00,How wrong it is to copy or download music?,-1.0,Not applicable
+848671,MCS,mcs5_cm_interview,ecq52x00,How wrong it is to copy or download music?,1.0,Very wrong
+848672,MCS,mcs5_cm_interview,ecq52x00,How wrong it is to copy or download music?,2.0,A bit wrong
+848673,MCS,mcs5_cm_interview,ecq52x00,How wrong it is to copy or download music?,3.0,Not wrong
+848674,MCS,mcs5_cm_interview,ecq52x00,How wrong it is to copy or download music?,4.0,Don't know
+848675,MCS,mcs5_cm_interview,ecq53a00,Men and women should do the same jobs around the house,-8.0,No answer
+848676,MCS,mcs5_cm_interview,ecq53a00,Men and women should do the same jobs around the house,-1.0,Not applicable
+848677,MCS,mcs5_cm_interview,ecq53a00,Men and women should do the same jobs around the house,1.0,Strongly agree
+848678,MCS,mcs5_cm_interview,ecq53a00,Men and women should do the same jobs around the house,2.0,Agree
+848679,MCS,mcs5_cm_interview,ecq53a00,Men and women should do the same jobs around the house,3.0,Disagree
+848680,MCS,mcs5_cm_interview,ecq53a00,Men and women should do the same jobs around the house,4.0,Strongly disagree
+848681,MCS,mcs5_cm_interview,ecq53b00,It is less important for women to go out to work than it is for men,-8.0,No answer
+848682,MCS,mcs5_cm_interview,ecq53b00,It is less important for women to go out to work than it is for men,-1.0,Not applicable
+848683,MCS,mcs5_cm_interview,ecq53b00,It is less important for women to go out to work than it is for men,1.0,Strongly agree
+848684,MCS,mcs5_cm_interview,ecq53b00,It is less important for women to go out to work than it is for men,2.0,Agree
+848685,MCS,mcs5_cm_interview,ecq53b00,It is less important for women to go out to work than it is for men,3.0,Disagree
+848686,MCS,mcs5_cm_interview,ecq53b00,It is less important for women to go out to work than it is for men,4.0,Strongly disagree
+848687,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,-8.0,No answer
+848688,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,-1.0,Not applicable
+848689,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,1.0,Most days
+848690,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,2.0,About once a week
+848691,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,3.0,About once a month
+848692,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,4.0,Every few months
+848693,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,5.0,Less often
+848694,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,6.0,Never
+848695,MCS,mcs5_cm_interview,ecq54x00,How often do your brothers or sisters hurt you or pick on you on purpose,7.0,Don't have brothers or sisters
+848696,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,6.0,Never
+848697,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,7.0,Don't have brothers or sisters
+848698,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,-8.0,No answer
+848699,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,-1.0,Not applicable
+848700,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,1.0,Most days
+848701,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,2.0,About once a week
+848702,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,3.0,About once a month
+848703,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,4.0,Every few months
+848704,MCS,mcs5_cm_interview,ecq55x00,How often do you hurt or pick on your brothers or sisters on purpose?,5.0,Less often
+848705,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,-8.0,No answer
+848706,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,-1.0,Not applicable
+848707,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,1.0,Most days
+848708,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,2.0,About once a week
+848709,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,3.0,About once a month
+848710,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,4.0,Every few months
+848711,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,5.0,Less often
+848712,MCS,mcs5_cm_interview,ecq56x00,How often do other children hurt you or pick on you on purpose?,6.0,Never
+848713,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,-8.0,No answer
+848714,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,-1.0,Not applicable
+848715,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,1.0,Most days
+848716,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,2.0,About once a week
+848717,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,3.0,About once a month
+848718,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,4.0,Every few months
+848719,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,5.0,Less often
+848720,MCS,mcs5_cm_interview,ecq57x00,How often do you hurt or pick on other children on purpose?,6.0,Never
+848721,MCS,mcs5_cm_interview,ecq58x00,How many of your friends smoke cigarettes?,-8.0,No answer
+848722,MCS,mcs5_cm_interview,ecq58x00,How many of your friends smoke cigarettes?,-1.0,Not applicable
+848723,MCS,mcs5_cm_interview,ecq58x00,How many of your friends smoke cigarettes?,1.0,None of them
+848724,MCS,mcs5_cm_interview,ecq58x00,How many of your friends smoke cigarettes?,2.0,Some of them
+848725,MCS,mcs5_cm_interview,ecq58x00,How many of your friends smoke cigarettes?,3.0,Most of them
+848726,MCS,mcs5_cm_interview,ecq58x00,How many of your friends smoke cigarettes?,4.0,All of them
+848727,MCS,mcs5_cm_interview,ecq58x00,How many of your friends smoke cigarettes?,5.0,Don't know
+848728,MCS,mcs5_cm_interview,ecq59x00,Have you ever tried a cigarette,-8.0,No answer
+848729,MCS,mcs5_cm_interview,ecq59x00,Have you ever tried a cigarette,-1.0,Not applicable
+848730,MCS,mcs5_cm_interview,ecq59x00,Have you ever tried a cigarette,1.0,Yes
+848731,MCS,mcs5_cm_interview,ecq59x00,Have you ever tried a cigarette,2.0,No
+848732,MCS,mcs5_cm_interview,ecq60x00,How many of your friends drink alcohol?,-8.0,No answer
+848733,MCS,mcs5_cm_interview,ecq60x00,How many of your friends drink alcohol?,-1.0,Not applicable
+848734,MCS,mcs5_cm_interview,ecq60x00,How many of your friends drink alcohol?,1.0,None of them
+848735,MCS,mcs5_cm_interview,ecq60x00,How many of your friends drink alcohol?,2.0,Some of them
+848736,MCS,mcs5_cm_interview,ecq60x00,How many of your friends drink alcohol?,3.0,Most of them
+848737,MCS,mcs5_cm_interview,ecq60x00,How many of your friends drink alcohol?,4.0,All of them
+848738,MCS,mcs5_cm_interview,ecq60x00,How many of your friends drink alcohol?,5.0,Don't know
+848739,MCS,mcs5_cm_interview,ecq61x00,Have you ever had an alcoholic drink? That is more than a few sips.,-8.0,No answer
+848740,MCS,mcs5_cm_interview,ecq61x00,Have you ever had an alcoholic drink? That is more than a few sips.,-1.0,Not applicable
+848741,MCS,mcs5_cm_interview,ecq61x00,Have you ever had an alcoholic drink? That is more than a few sips.,1.0,Yes
+848742,MCS,mcs5_cm_interview,ecq61x00,Have you ever had an alcoholic drink? That is more than a few sips.,2.0,No
+848743,MCS,mcs5_cm_interview,ecq62x00,How old were you when you first had an alcoholic drink?,-8.0,Not answered
+848744,MCS,mcs5_cm_interview,ecq62x00,How old were you when you first had an alcoholic drink?,-1.0,Not applicable
+848745,MCS,mcs5_cm_interview,ecq62x00,How old were you when you first had an alcoholic drink?,99.0,Age given is outside max of 12
+848746,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,-8.0,No answer
+848747,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,-1.0,Not applicable
+848748,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,1.0,Never
+848749,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,2.0,1-2 times
+848750,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,3.0,3-5 times
+848751,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,4.0,6-9 times
+848752,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,5.0,10-19 times
+848753,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,6.0,20-39 times
+848754,MCS,mcs5_cm_interview,ecq63x00,How many times have you had an alcoholic drink in the last 12 months?,7.0,40 or more times
+848755,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,-8.0,No answer
+848756,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,-1.0,Not applicable
+848757,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,1.0,Never
+848758,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,2.0,1-2 times
+848759,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,3.0,3-5 times
+848760,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,4.0,6-9 times
+848761,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,5.0,10-19 times
+848762,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,6.0,20-39 times
+848763,MCS,mcs5_cm_interview,ecq64x00,How many times have you had an alcoholic drink in the last 4 weeks?,7.0,40 or more times
+848764,MCS,mcs5_cm_interview,ecq65x00,Have you ever drunk enough to feel drunk?,-8.0,Not answered
+848765,MCS,mcs5_cm_interview,ecq65x00,Have you ever drunk enough to feel drunk?,-1.0,Not applicable
+848766,MCS,mcs5_cm_interview,ecq65x00,Have you ever drunk enough to feel drunk?,1.0,Yes
+848767,MCS,mcs5_cm_interview,ecq65x00,Have you ever drunk enough to feel drunk?,2.0,No
+848768,MCS,mcs5_cm_interview,ecq66x00,How old were you when you first drank enough to feel drunk?,-8.0,Not answered
+848769,MCS,mcs5_cm_interview,ecq66x00,How old were you when you first drank enough to feel drunk?,-1.0,Not applicable
+848770,MCS,mcs5_cm_interview,ecq66x00,How old were you when you first drank enough to feel drunk?,999.0,Never felt drunk
+848771,MCS,mcs5_cm_interview,ecq67x00,Have you ever had five or more alcoholic drinks at a time?,-8.0,Not answered
+848772,MCS,mcs5_cm_interview,ecq67x00,Have you ever had five or more alcoholic drinks at a time?,-1.0,Not applicable
+848773,MCS,mcs5_cm_interview,ecq67x00,Have you ever had five or more alcoholic drinks at a time?,1.0,Yes
+848774,MCS,mcs5_cm_interview,ecq67x00,Have you ever had five or more alcoholic drinks at a time?,2.0,No
+848775,MCS,mcs5_cm_interview,ecq68x00,How old were you when you first had five or more alcoholic drinks,-8.0,Not answered
+848776,MCS,mcs5_cm_interview,ecq68x00,How old were you when you first had five or more alcoholic drinks,-1.0,Not applicable
+848777,MCS,mcs5_cm_interview,ecq68x00,How old were you when you first had five or more alcoholic drinks,999.0,Never had five or more drinks
+848778,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,-8.0,Not answered
+848779,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,-1.0,Not applicable
+848780,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,1.0,Never
+848781,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,2.0,Once
+848782,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,3.0,Twice
+848783,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,4.0,3-5 times
+848784,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,5.0,6-9 times
+848785,MCS,mcs5_cm_interview,ecq69x00,How many times have you had five or more alcoholic drinks at a time?,6.0,10 or more times
+848786,MCS,mcs5_cm_interview,ecq70a00,Drinking beer,-8.0,No answer
+848787,MCS,mcs5_cm_interview,ecq70a00,Drinking beer,-1.0,Not applicable
+848788,MCS,mcs5_cm_interview,ecq70a00,Drinking beer,1.0,Strongly agree
+848789,MCS,mcs5_cm_interview,ecq70a00,Drinking beer,2.0,Agree
+848790,MCS,mcs5_cm_interview,ecq70a00,Drinking beer,3.0,Disagree
+848791,MCS,mcs5_cm_interview,ecq70a00,Drinking beer,4.0,Strongly disagree
+848792,MCS,mcs5_cm_interview,ecq70b00,Drinking alcohol makes people worry less,-8.0,No answer
+848793,MCS,mcs5_cm_interview,ecq70b00,Drinking alcohol makes people worry less,-1.0,Not applicable
+848794,MCS,mcs5_cm_interview,ecq70b00,Drinking alcohol makes people worry less,1.0,Strongly agree
+848795,MCS,mcs5_cm_interview,ecq70b00,Drinking alcohol makes people worry less,2.0,Agree
+848796,MCS,mcs5_cm_interview,ecq70b00,Drinking alcohol makes people worry less,3.0,Disagree
+848797,MCS,mcs5_cm_interview,ecq70b00,Drinking alcohol makes people worry less,4.0,Strongly disagree
+848798,MCS,mcs5_cm_interview,ecq70c00,It is easier to open up and talk about ones feelings after a few drinks,-8.0,No answer
+848799,MCS,mcs5_cm_interview,ecq70c00,It is easier to open up and talk about ones feelings after a few drinks,-1.0,Not applicable
+848800,MCS,mcs5_cm_interview,ecq70c00,It is easier to open up and talk about ones feelings after a few drinks,1.0,Strongly agree
+848801,MCS,mcs5_cm_interview,ecq70c00,It is easier to open up and talk about ones feelings after a few drinks,2.0,Agree
+848802,MCS,mcs5_cm_interview,ecq70c00,It is easier to open up and talk about ones feelings after a few drinks,3.0,Disagree
+848803,MCS,mcs5_cm_interview,ecq70c00,It is easier to open up and talk about ones feelings after a few drinks,4.0,Strongly disagree
+848804,MCS,mcs5_cm_interview,ecq70d00,Drinking alcohol gets in the way of school work,-8.0,No answer
+848805,MCS,mcs5_cm_interview,ecq70d00,Drinking alcohol gets in the way of school work,-1.0,Not applicable
+848806,MCS,mcs5_cm_interview,ecq70d00,Drinking alcohol gets in the way of school work,1.0,Strongly agree
+848807,MCS,mcs5_cm_interview,ecq70d00,Drinking alcohol gets in the way of school work,2.0,Agree
+848808,MCS,mcs5_cm_interview,ecq70d00,Drinking alcohol gets in the way of school work,3.0,Disagree
+848809,MCS,mcs5_cm_interview,ecq70d00,Drinking alcohol gets in the way of school work,4.0,Strongly disagree
+848810,MCS,mcs5_cm_interview,ecq70e00,Drinking alcohol makes people happier with themselves,-8.0,No answer
+848811,MCS,mcs5_cm_interview,ecq70e00,Drinking alcohol makes people happier with themselves,-1.0,Not applicable
+848812,MCS,mcs5_cm_interview,ecq70e00,Drinking alcohol makes people happier with themselves,1.0,Strongly agree
+848813,MCS,mcs5_cm_interview,ecq70e00,Drinking alcohol makes people happier with themselves,2.0,Agree
+848814,MCS,mcs5_cm_interview,ecq70e00,Drinking alcohol makes people happier with themselves,3.0,Disagree
+848815,MCS,mcs5_cm_interview,ecq70e00,Drinking alcohol makes people happier with themselves,4.0,Strongly disagree
+848816,MCS,mcs5_cm_interview,ecq70f00,Drinking alcohol makes it hard to get along with friends,-8.0,No answer
+848817,MCS,mcs5_cm_interview,ecq70f00,Drinking alcohol makes it hard to get along with friends,-1.0,Not applicable
+848818,MCS,mcs5_cm_interview,ecq70f00,Drinking alcohol makes it hard to get along with friends,1.0,Strongly agree
+848819,MCS,mcs5_cm_interview,ecq70f00,Drinking alcohol makes it hard to get along with friends,2.0,Agree
+848820,MCS,mcs5_cm_interview,ecq70f00,Drinking alcohol makes it hard to get along with friends,3.0,Disagree
+848821,MCS,mcs5_cm_interview,ecq70f00,Drinking alcohol makes it hard to get along with friends,4.0,Strongly disagree
+848822,MCS,mcs5_cm_interview,ecq70g00,If I drank alcohol without my parents' permission I would be caught,-8.0,No answer
+848823,MCS,mcs5_cm_interview,ecq70g00,If I drank alcohol without my parents' permission I would be caught,-1.0,Not applicable
+848824,MCS,mcs5_cm_interview,ecq70g00,If I drank alcohol without my parents' permission I would be caught,1.0,Strongly agree
+848825,MCS,mcs5_cm_interview,ecq70g00,If I drank alcohol without my parents' permission I would be caught,2.0,Agree
+848826,MCS,mcs5_cm_interview,ecq70g00,If I drank alcohol without my parents' permission I would be caught,3.0,Disagree
+848827,MCS,mcs5_cm_interview,ecq70g00,If I drank alcohol without my parents' permission I would be caught,4.0,Strongly disagree
+848828,MCS,mcs5_cm_interview,ecq71x00,How much people risk harming themselves if they try one or two drinks,-8.0,No answer
+848829,MCS,mcs5_cm_interview,ecq71x00,How much people risk harming themselves if they try one or two drinks,-1.0,Not applicable
+848830,MCS,mcs5_cm_interview,ecq71x00,How much people risk harming themselves if they try one or two drinks,1.0,No risk
+848831,MCS,mcs5_cm_interview,ecq71x00,How much people risk harming themselves if they try one or two drinks,2.0,Slight risk
+848832,MCS,mcs5_cm_interview,ecq71x00,How much people risk harming themselves if they try one or two drinks,3.0,Some risk
+848833,MCS,mcs5_cm_interview,ecq71x00,How much people risk harming themselves if they try one or two drinks,4.0,Great risk
+848834,MCS,mcs5_cm_interview,ecq72x00,How much people risk harming themselves by drinking one or two per day,-8.0,No answer
+848835,MCS,mcs5_cm_interview,ecq72x00,How much people risk harming themselves by drinking one or two per day,-1.0,Not applicable
+848836,MCS,mcs5_cm_interview,ecq72x00,How much people risk harming themselves by drinking one or two per day,1.0,No risk
+848837,MCS,mcs5_cm_interview,ecq72x00,How much people risk harming themselves by drinking one or two per day,2.0,Slight risk
+848838,MCS,mcs5_cm_interview,ecq72x00,How much people risk harming themselves by drinking one or two per day,3.0,Some risk
+848839,MCS,mcs5_cm_interview,ecq72x00,How much people risk harming themselves by drinking one or two per day,4.0,Great risk
+848840,MCS,mcs5_cm_interview,ecq73x00,How much people risk harming themselves by drinking four or five per day,-8.0,No answer
+848841,MCS,mcs5_cm_interview,ecq73x00,How much people risk harming themselves by drinking four or five per day,-1.0,Not applicable
+848842,MCS,mcs5_cm_interview,ecq73x00,How much people risk harming themselves by drinking four or five per day,1.0,No risk
+848843,MCS,mcs5_cm_interview,ecq73x00,How much people risk harming themselves by drinking four or five per day,2.0,Slight risk
+848844,MCS,mcs5_cm_interview,ecq73x00,How much people risk harming themselves by drinking four or five per day,3.0,Some risk
+848845,MCS,mcs5_cm_interview,ecq73x00,How much people risk harming themselves by drinking four or five per day,4.0,Great risk
+848846,MCS,mcs5_cm_interview,ecq74x00,In the last 4 weeks,-8.0,No answer
+848847,MCS,mcs5_cm_interview,ecq74x00,In the last 4 weeks,-1.0,Not applicable
+848848,MCS,mcs5_cm_interview,ecq74x00,In the last 4 weeks,1.0,Never
+848849,MCS,mcs5_cm_interview,ecq74x00,In the last 4 weeks,2.0,Almost never
+848850,MCS,mcs5_cm_interview,ecq74x00,In the last 4 weeks,3.0,Sometimes
+848851,MCS,mcs5_cm_interview,ecq74x00,In the last 4 weeks,4.0,Often
+848852,MCS,mcs5_cm_interview,ecq74x00,In the last 4 weeks,5.0,Almost always
+848853,MCS,mcs5_cm_interview,ecq75x00,In the last 4 weeks,-8.0,No answer
+848854,MCS,mcs5_cm_interview,ecq75x00,In the last 4 weeks,-1.0,Not applicable
+848855,MCS,mcs5_cm_interview,ecq75x00,In the last 4 weeks,1.0,Never
+848856,MCS,mcs5_cm_interview,ecq75x00,In the last 4 weeks,2.0,Almost never
+848857,MCS,mcs5_cm_interview,ecq75x00,In the last 4 weeks,3.0,Sometimes
+848858,MCS,mcs5_cm_interview,ecq75x00,In the last 4 weeks,4.0,Often
+848859,MCS,mcs5_cm_interview,ecq75x00,In the last 4 weeks,5.0,Almost always
+848860,MCS,mcs5_cm_interview,ecq76x00,In the last 4 weeks,-8.0,No answer
+848861,MCS,mcs5_cm_interview,ecq76x00,In the last 4 weeks,-1.0,Not applicable
+848862,MCS,mcs5_cm_interview,ecq76x00,In the last 4 weeks,1.0,Never
+848863,MCS,mcs5_cm_interview,ecq76x00,In the last 4 weeks,2.0,Almost never
+848864,MCS,mcs5_cm_interview,ecq76x00,In the last 4 weeks,3.0,Sometimes
+848865,MCS,mcs5_cm_interview,ecq76x00,In the last 4 weeks,4.0,Often
+848866,MCS,mcs5_cm_interview,ecq76x00,In the last 4 weeks,5.0,Almost always
+848867,MCS,mcs5_cm_interview,ecq77x00,In the last 4 weeks,-8.0,No answer
+848868,MCS,mcs5_cm_interview,ecq77x00,In the last 4 weeks,-1.0,Not applicable
+848869,MCS,mcs5_cm_interview,ecq77x00,In the last 4 weeks,1.0,Never
+848870,MCS,mcs5_cm_interview,ecq77x00,In the last 4 weeks,2.0,Almost never
+848871,MCS,mcs5_cm_interview,ecq77x00,In the last 4 weeks,3.0,Sometimes
+848872,MCS,mcs5_cm_interview,ecq77x00,In the last 4 weeks,4.0,Often
+848873,MCS,mcs5_cm_interview,ecq77x00,In the last 4 weeks,5.0,Almost always
+848874,MCS,mcs5_cm_interview,ecq78x00,In the last 4 weeks,-8.0,No answer
+848875,MCS,mcs5_cm_interview,ecq78x00,In the last 4 weeks,-1.0,Not applicable
+848876,MCS,mcs5_cm_interview,ecq78x00,In the last 4 weeks,1.0,Never
+848877,MCS,mcs5_cm_interview,ecq78x00,In the last 4 weeks,2.0,Almost never
+848878,MCS,mcs5_cm_interview,ecq78x00,In the last 4 weeks,3.0,Sometimes
+848879,MCS,mcs5_cm_interview,ecq78x00,In the last 4 weeks,4.0,Often
+848880,MCS,mcs5_cm_interview,ecq78x00,In the last 4 weeks,5.0,Almost always
+848881,MCS,mcs5_cm_interview,ecq79x00,In the last 4 weeks,-8.0,No answer
+848882,MCS,mcs5_cm_interview,ecq79x00,In the last 4 weeks,-1.0,Not applicable
+848883,MCS,mcs5_cm_interview,ecq79x00,In the last 4 weeks,1.0,Never
+848884,MCS,mcs5_cm_interview,ecq79x00,In the last 4 weeks,2.0,Almost never
+848885,MCS,mcs5_cm_interview,ecq79x00,In the last 4 weeks,3.0,Sometimes
+848886,MCS,mcs5_cm_interview,ecq79x00,In the last 4 weeks,4.0,Often
+848887,MCS,mcs5_cm_interview,ecq79x00,In the last 4 weeks,5.0,Almost always
+848888,MCS,mcs5_cm_interview,ecq80x0a,What do you do if you are worried about something? MC1,-8.0,Not answered
+848889,MCS,mcs5_cm_interview,ecq80x0a,What do you do if you are worried about something? MC1,-1.0,Not applicable
+848890,MCS,mcs5_cm_interview,ecq80x0a,What do you do if you are worried about something? MC1,0.0,Not (Keep it to myself)
+848891,MCS,mcs5_cm_interview,ecq80x0a,What do you do if you are worried about something? MC1,1.0,Keep it to myself
+848892,MCS,mcs5_cm_interview,ecq80x0b,What do you do if you are worried about something? MC2,-8.0,Not answered
+848893,MCS,mcs5_cm_interview,ecq80x0b,What do you do if you are worried about something? MC2,-1.0,Not applicable
+848894,MCS,mcs5_cm_interview,ecq80x0b,What do you do if you are worried about something? MC2,0.0,Not (Tell a friend)
+848895,MCS,mcs5_cm_interview,ecq80x0b,What do you do if you are worried about something? MC2,1.0,Tell a friend
+848896,MCS,mcs5_cm_interview,ecq80x0c,What do you do if you are worried about something? MC3,0.0,Not (Tell someone at home)
+848897,MCS,mcs5_cm_interview,ecq80x0c,What do you do if you are worried about something? MC3,1.0,Tell someone at home
+848898,MCS,mcs5_cm_interview,ecq80x0c,What do you do if you are worried about something? MC3,-8.0,Not answered
+848899,MCS,mcs5_cm_interview,ecq80x0c,What do you do if you are worried about something? MC3,-1.0,Not applicable
+848900,MCS,mcs5_cm_interview,ecq80x0d,What do you do if you are worried about something? MC4,-8.0,Not answered
+848901,MCS,mcs5_cm_interview,ecq80x0d,What do you do if you are worried about something? MC4,-1.0,Not applicable
+848902,MCS,mcs5_cm_interview,ecq80x0d,What do you do if you are worried about something? MC4,0.0,Not (Tell a teacher)
+848903,MCS,mcs5_cm_interview,ecq80x0d,What do you do if you are worried about something? MC4,1.0,Tell a teacher
+848904,MCS,mcs5_cm_interview,ecq80x0e,What do you do if you are worried about something? MC5,-8.0,Not answered
+848905,MCS,mcs5_cm_interview,ecq80x0e,What do you do if you are worried about something? MC5,-1.0,Not applicable
+848906,MCS,mcs5_cm_interview,ecq80x0e,What do you do if you are worried about something? MC5,0.0,Not (Tell someone else)
+848907,MCS,mcs5_cm_interview,ecq80x0e,What do you do if you are worried about something? MC5,1.0,Tell someone else
+848908,MCS,mcs5_cm_interview,ecq80x0f,What do you do if you are worried about something? MC6,-8.0,Not answered
+848909,MCS,mcs5_cm_interview,ecq80x0f,What do you do if you are worried about something? MC6,-1.0,Not applicable
+848910,MCS,mcs5_cm_interview,ecq80x0f,What do you do if you are worried about something? MC6,0.0,Not (No answer)
+848911,MCS,mcs5_cm_interview,ecq80x0f,What do you do if you are worried about something? MC6,1.0,No Answer
+848912,MCS,mcs5_cm_interview,ecq81a00,I care about how well I do at school,-8.0,No answer
+848913,MCS,mcs5_cm_interview,ecq81a00,I care about how well I do at school,-1.0,Not applicable
+848914,MCS,mcs5_cm_interview,ecq81a00,I care about how well I do at school,1.0,Not at all true
+848915,MCS,mcs5_cm_interview,ecq81a00,I care about how well I do at school,2.0,Somewhat true
+848916,MCS,mcs5_cm_interview,ecq81a00,I care about how well I do at school,3.0,Very true
+848917,MCS,mcs5_cm_interview,ecq81a00,I care about how well I do at school,4.0,Definitely true
+848918,MCS,mcs5_cm_interview,ecq81b00,I feel bad or guilty when I have done something wrong,-8.0,No answer
+848919,MCS,mcs5_cm_interview,ecq81b00,I feel bad or guilty when I have done something wrong,-1.0,Not applicable
+848920,MCS,mcs5_cm_interview,ecq81b00,I feel bad or guilty when I have done something wrong,1.0,Not at all true
+848921,MCS,mcs5_cm_interview,ecq81b00,I feel bad or guilty when I have done something wrong,2.0,Somewhat true
+848922,MCS,mcs5_cm_interview,ecq81b00,I feel bad or guilty when I have done something wrong,3.0,Very true
+848923,MCS,mcs5_cm_interview,ecq81b00,I feel bad or guilty when I have done something wrong,4.0,Definitely true
+848924,MCS,mcs5_cm_interview,ecq81c00,I do not show my emotions to others,-8.0,No answer
+848925,MCS,mcs5_cm_interview,ecq81c00,I do not show my emotions to others,-1.0,Not applicable
+848926,MCS,mcs5_cm_interview,ecq81c00,I do not show my emotions to others,1.0,Not at all true
+848927,MCS,mcs5_cm_interview,ecq81c00,I do not show my emotions to others,2.0,Somewhat true
+848928,MCS,mcs5_cm_interview,ecq81c00,I do not show my emotions to others,3.0,Very true
+848929,MCS,mcs5_cm_interview,ecq81c00,I do not show my emotions to others,4.0,Definitely true
+848930,MCS,mcs5_cm_interview,ecq81d00,I am concerned about the feelings of others,-8.0,No answer
+848931,MCS,mcs5_cm_interview,ecq81d00,I am concerned about the feelings of others,-1.0,Not applicable
+848932,MCS,mcs5_cm_interview,ecq81d00,I am concerned about the feelings of others,1.0,Not at all true
+848933,MCS,mcs5_cm_interview,ecq81d00,I am concerned about the feelings of others,2.0,Somewhat true
+848934,MCS,mcs5_cm_interview,ecq81d00,I am concerned about the feelings of others,3.0,Very true
+848935,MCS,mcs5_cm_interview,ecq81d00,I am concerned about the feelings of others,4.0,Definitely true
+848936,MCS,mcs5_cm_interview,ecq82x00,Do you want to stay on at school or college full-time when you are 16?,-8.0,No answer
+848937,MCS,mcs5_cm_interview,ecq82x00,Do you want to stay on at school or college full-time when you are 16?,-1.0,Not applicable
+848938,MCS,mcs5_cm_interview,ecq82x00,Do you want to stay on at school or college full-time when you are 16?,1.0,Yes
+848939,MCS,mcs5_cm_interview,ecq82x00,Do you want to stay on at school or college full-time when you are 16?,2.0,No
+848940,MCS,mcs5_cm_interview,ecq82x00,Do you want to stay on at school or college full-time when you are 16?,3.0,Don't know
+848941,MCS,mcs5_cm_interview,ecq83x00,When you grow up what would you like to be?,-8.0,Not answered
+848942,MCS,mcs5_cm_interview,ecq83x00,When you grow up what would you like to be?,-1.0,Not applicable
+848943,MCS,mcs5_cm_interview,ecq83x00,When you grow up what would you like to be?,1.0,Completed
+848944,MCS,mcs5_cm_interview,ecq84x0a,By 30,-8.0,Not answered
+848945,MCS,mcs5_cm_interview,ecq84x0a,By 30,-1.0,Not applicable
+848946,MCS,mcs5_cm_interview,ecq84x0a,By 30,0.0,Not (Owning your own home)
+848947,MCS,mcs5_cm_interview,ecq84x0a,By 30,1.0,Owning your own home
+848948,MCS,mcs5_cm_interview,ecq84x0b,By 30,-8.0,Not answered
+848949,MCS,mcs5_cm_interview,ecq84x0b,By 30,-1.0,Not applicable
+848950,MCS,mcs5_cm_interview,ecq84x0b,By 30,0.0,Not (Having a good car)
+848951,MCS,mcs5_cm_interview,ecq84x0b,By 30,1.0,Having a good car
+848952,MCS,mcs5_cm_interview,ecq84x0c,By 30,-8.0,Not answered
+848953,MCS,mcs5_cm_interview,ecq84x0c,By 30,-1.0,Not applicable
+848954,MCS,mcs5_cm_interview,ecq84x0c,By 30,0.0,Not (Earning a lot of money)
+848955,MCS,mcs5_cm_interview,ecq84x0c,By 30,1.0,Earning a lot of money
+848956,MCS,mcs5_cm_interview,ecq84x0d,By 30,-8.0,Not answered
+848957,MCS,mcs5_cm_interview,ecq84x0d,By 30,-1.0,Not applicable
+848958,MCS,mcs5_cm_interview,ecq84x0d,By 30,0.0,Not (Having a worthwhile job)
+848959,MCS,mcs5_cm_interview,ecq84x0d,By 30,1.0,Having a worthwhile job
+848960,MCS,mcs5_cm_interview,ecq84x0e,By 30,-8.0,Not answered
+848961,MCS,mcs5_cm_interview,ecq84x0e,By 30,-1.0,Not applicable
+848962,MCS,mcs5_cm_interview,ecq84x0e,By 30,0.0,Not (Having children)
+848963,MCS,mcs5_cm_interview,ecq84x0e,By 30,1.0,Having children
+848964,MCS,mcs5_cm_interview,ecq84x0f,By 30,-8.0,Not answered
+848965,MCS,mcs5_cm_interview,ecq84x0f,By 30,-1.0,Not applicable
+848966,MCS,mcs5_cm_interview,ecq84x0f,By 30,0.0,"Not (Having a partner, being married)"
+848967,MCS,mcs5_cm_interview,ecq84x0f,By 30,1.0,"Having a partner, being married"
+848968,MCS,mcs5_cm_interview,ecq84x0g,By 30,-8.0,Not answered
+848969,MCS,mcs5_cm_interview,ecq84x0g,By 30,-1.0,Not applicable
+848970,MCS,mcs5_cm_interview,ecq84x0g,By 30,0.0,Not (Being famous)
+848971,MCS,mcs5_cm_interview,ecq84x0g,By 30,1.0,Being famous
+848972,MCS,mcs5_cm_interview,ecq84x0h,By 30,-8.0,Not answered
+848973,MCS,mcs5_cm_interview,ecq84x0h,By 30,-1.0,Not applicable
+848974,MCS,mcs5_cm_interview,ecq84x0h,By 30,0.0,Not (Having a personal achievement in sport etc)
+848975,MCS,mcs5_cm_interview,ecq84x0h,By 30,1.0,Having a personal achievement in sport
+848976,MCS,mcs5_cm_interview,ecq84x0i,By 30,-8.0,Not answered
+848977,MCS,mcs5_cm_interview,ecq84x0i,By 30,-1.0,Not applicable
+848978,MCS,mcs5_cm_interview,ecq84x0i,By 30,0.0,Not (No answer)
+848979,MCS,mcs5_cm_interview,ecq84x0i,By 30,1.0,No answer
+848980,MCS,mcs5_cm_interview,ecqjob0a_tr3,SOC2010 code of occupation mentioned MC1 [truncated at 3 chars],,
+848981,MCS,mcs5_cm_interview,ecqjob0b_tr3,SOC2010 code of occupation mentioned MC2 [truncated at 3 chars],,
+848982,MCS,mcs5_cm_interview,ecqjob0c_tr3,SOC2010 code of occupation mentioned MC3 [truncated at 3 chars],,
+848983,MCS,mcs5_cm_interview,ecqjob0d_tr3,SOC2010 code of occupation mentioned MC4 [truncated at 3 chars],,
+848984,MCS,mcs5_cm_interview,ecqjob0e_tr3,SOC2010 code of occupation mentioned MC5 [truncated at 3 chars],,
+848985,MCS,mcs5_cm_interview,ecqjob0f_tr3,SOC2010 code of occupation mentioned MC6 [truncated at 3 chars],,
+848986,MCS,mcs5_cm_interview,ecqjob0g_tr3,SOC2010 code of occupation mentioned MC7 [truncated at 3 chars],,
+848987,MCS,mcs5_cm_interview,ecqjob0h_tr3,SOC2010 code of occupation mentioned MC8 [truncated at 3 chars],,
+848988,MCS,mcs5_cm_interview,ecqjob0i_tr3,SOC2010 code of occupation mentioned MC9 [truncated at 3 chars],,
+848989,MCS,mcs5_cm_interview,ecqjob0j_tr3,SOC2010 code of occupation mentioned MC10    [truncated at 3 chars],,
+848990,MCS,mcs5_cm_interview,ecqjob0k_tr3,SOC2010 code of occupation mentioned MC11    [truncated at 3 chars],,
+848991,MCS,mcs5_cm_interview,ecqjob0l_tr3,SOC2010 code of occupation mentioned MC12    [truncated at 3 chars],,
+848992,MCS,mcs5_cm_interview,ecqjob0m_tr3,SOC2010 code of occupation mentioned MC13    [truncated at 3 chars],,
+848993,MCS,mcs5_cm_interview,ecqjob0n_tr3,SOC2010 code of occupation mentioned MC14    [truncated at 3 chars],,
+848994,MCS,mcs5_cm_interview,ecqjob0o_tr3,SOC2010 code of occupation mentioned MC15    [truncated at 3 chars],,
+848995,MCS,mcs5_cm_interview,avail_from_dt,,,
+848996,MCS,mcs5_cm_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

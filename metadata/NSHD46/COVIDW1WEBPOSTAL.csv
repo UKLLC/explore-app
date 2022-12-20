@@ -1,0 +1,1499 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1180429,NSHD46,COVIDW1WEBPOSTAL,study_id_e,,,
+1180430,NSHD46,COVIDW1WEBPOSTAL,cw1_covid19,Whether CM has had Coronavirus,-8.0,No information
+1180431,NSHD46,COVIDW1WEBPOSTAL,cw1_covid19,Whether CM has had Coronavirus,-7.0,no NSHD questionnaire
+1180432,NSHD46,COVIDW1WEBPOSTAL,cw1_covid19,Whether CM has had Coronavirus,-1.0,Not applicable
+1180433,NSHD46,COVIDW1WEBPOSTAL,cw1_covid19,Whether CM has had Coronavirus,1.0,"Yes, confirmed by a positive test"
+1180434,NSHD46,COVIDW1WEBPOSTAL,cw1_covid19,Whether CM has had Coronavirus,2.0,"Yes, based on strong personal suspicion or medical advice"
+1180435,NSHD46,COVIDW1WEBPOSTAL,cw1_covid19,Whether CM has had Coronavirus,3.0,Unsure
+1180436,NSHD46,COVIDW1WEBPOSTAL,cw1_covid19,Whether CM has had Coronavirus,4.0,No
+1180437,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,-8.0,No information
+1180438,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,-7.0,no NSHD questionnaire
+1180439,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,-1.0,Not applicable
+1180440,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,1.0,Yes
+1180441,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,2.0,No
+1180442,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,-8.0,No information
+1180443,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,-7.0,no NSHD questionnaire
+1180444,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,-1.0,Not applicable
+1180445,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,1.0,Yes
+1180446,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,2.0,No
+1180447,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,-8.0,No information
+1180448,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,-7.0,no NSHD questionnaire
+1180449,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,-1.0,Not applicable
+1180450,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,1.0,Yes
+1180451,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,2.0,No
+1180452,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,-8.0,No information
+1180453,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,-7.0,no NSHD questionnaire
+1180454,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,-1.0,Not applicable
+1180455,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,1.0,Yes
+1180456,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,2.0,No
+1180457,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,-8.0,No information
+1180458,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,-7.0,no NSHD questionnaire
+1180459,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,-1.0,Not applicable
+1180460,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,1.0,Yes
+1180461,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,2.0,No
+1180462,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,-8.0,No information
+1180463,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,-7.0,no NSHD questionnaire
+1180464,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,-1.0,Not applicable
+1180465,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,1.0,Yes
+1180466,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,2.0,No
+1180467,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,-8.0,No information
+1180468,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,-7.0,no NSHD questionnaire
+1180469,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,-1.0,Not applicable
+1180470,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,1.0,Yes
+1180471,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,2.0,No
+1180472,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,-8.0,No information
+1180473,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,-7.0,no NSHD questionnaire
+1180474,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,-1.0,Not applicable
+1180475,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,1.0,Yes
+1180476,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,2.0,No
+1180477,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,-8.0,No information
+1180478,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,-7.0,no NSHD questionnaire
+1180479,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,-1.0,Not applicable
+1180480,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,1.0,Yes
+1180481,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,2.0,No
+1180482,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,-8.0,No information
+1180483,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,-7.0,no NSHD questionnaire
+1180484,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,-1.0,Not applicable
+1180485,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,1.0,Yes
+1180486,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,2.0,No
+1180487,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,-8.0,No information
+1180488,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,-7.0,no NSHD questionnaire
+1180489,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,-1.0,Not applicable
+1180490,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,1.0,Yes
+1180491,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,2.0,No
+1180492,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,-8.0,No information
+1180493,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,-7.0,no NSHD questionnaire
+1180494,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,-1.0,Not applicable
+1180495,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,1.0,Yes
+1180496,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,2.0,No
+1180497,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,-8.0,No information
+1180498,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,-7.0,no NSHD questionnaire
+1180499,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,-1.0,Not applicable
+1180500,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,1.0,Yes
+1180501,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,2.0,No
+1180502,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,-8.0,No information
+1180503,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,-7.0,no NSHD questionnaire
+1180504,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,-1.0,Not applicable
+1180505,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,1.0,Yes
+1180506,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,2.0,No
+1180507,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,-8.0,No information
+1180508,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,-7.0,no NSHD questionnaire
+1180509,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,-1.0,Not applicable
+1180510,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,1.0,Yes
+1180511,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,2.0,No
+1180512,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,-8.0,No information
+1180513,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,-7.0,no NSHD questionnaire
+1180514,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,-1.0,Not applicable
+1180515,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,1.0,Yes
+1180516,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,2.0,No
+1180517,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,-8.0,No information
+1180518,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,-7.0,no NSHD questionnaire
+1180519,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,-1.0,Not applicable
+1180520,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,1.0,Yes
+1180521,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,2.0,No
+1180522,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,-8.0,No information
+1180523,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,-7.0,no NSHD questionnaire
+1180524,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,-1.0,Not applicable
+1180525,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,1.0,Yes
+1180526,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,2.0,No
+1180527,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,-8.0,No information
+1180528,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,-7.0,no NSHD questionnaire
+1180529,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,-1.0,Not applicable
+1180530,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,1.0,No symptoms
+1180531,NSHD46,COVIDW1WEBPOSTAL,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,2.0,Symptoms experienced
+1180532,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,-8.0,No information
+1180533,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,-7.0,no NSHD questionnaire
+1180534,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,-1.0,Not applicable
+1180535,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,1.0,Yes
+1180536,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,2.0,No
+1180537,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,-8.0,No information
+1180538,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,-7.0,no NSHD questionnaire
+1180539,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,-1.0,Not applicable
+1180540,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,1.0,Yes
+1180541,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,2.0,No
+1180542,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,-8.0,No information
+1180543,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,-7.0,no NSHD questionnaire
+1180544,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,-1.0,Not applicable
+1180545,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,1.0,Yes
+1180546,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,2.0,No
+1180547,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,-8.0,No information
+1180548,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,-7.0,no NSHD questionnaire
+1180549,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,-1.0,Not applicable
+1180550,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,1.0,Yes
+1180551,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,2.0,No
+1180552,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,-8.0,No information
+1180553,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,-7.0,no NSHD questionnaire
+1180554,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,-1.0,Not applicable
+1180555,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,1.0,Yes
+1180556,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,2.0,No
+1180557,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,-8.0,No information
+1180558,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,-7.0,no NSHD questionnaire
+1180559,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,-1.0,Not applicable
+1180560,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,1.0,No - not discussed
+1180561,NSHD46,COVIDW1WEBPOSTAL,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,2.0,Yes - Symptoms: discussed
+1180562,NSHD46,COVIDW1WEBPOSTAL,cw1_covid_hospad,Whether been admitted to hospital with COVID19,-8.0,No information
+1180563,NSHD46,COVIDW1WEBPOSTAL,cw1_covid_hospad,Whether been admitted to hospital with COVID19,-7.0,no NSHD questionnaire
+1180564,NSHD46,COVIDW1WEBPOSTAL,cw1_covid_hospad,Whether been admitted to hospital with COVID19,-1.0,Not applicable
+1180565,NSHD46,COVIDW1WEBPOSTAL,cw1_covid_hospad,Whether been admitted to hospital with COVID19,1.0,Yes
+1180566,NSHD46,COVIDW1WEBPOSTAL,cw1_covid_hospad,Whether been admitted to hospital with COVID19,2.0,No
+1180567,NSHD46,COVIDW1WEBPOSTAL,cw1_covidtest,Whether been tested for Coronavirus,-8.0,No information
+1180568,NSHD46,COVIDW1WEBPOSTAL,cw1_covidtest,Whether been tested for Coronavirus,-7.0,no NSHD questionnaire
+1180569,NSHD46,COVIDW1WEBPOSTAL,cw1_covidtest,Whether been tested for Coronavirus,-1.0,Not applicable
+1180570,NSHD46,COVIDW1WEBPOSTAL,cw1_covidtest,Whether been tested for Coronavirus,1.0,Yes
+1180571,NSHD46,COVIDW1WEBPOSTAL,cw1_covidtest,Whether been tested for Coronavirus,2.0,No
+1180572,NSHD46,COVIDW1WEBPOSTAL,cw1_covidresult,Result of Coronavirus test,-8.0,No information
+1180573,NSHD46,COVIDW1WEBPOSTAL,cw1_covidresult,Result of Coronavirus test,-7.0,no NSHD questionnaire
+1180574,NSHD46,COVIDW1WEBPOSTAL,cw1_covidresult,Result of Coronavirus test,-1.0,Not applicable
+1180575,NSHD46,COVIDW1WEBPOSTAL,cw1_covidresult,Result of Coronavirus test,1.0,Positive - it showed I had coronavirus
+1180576,NSHD46,COVIDW1WEBPOSTAL,cw1_covidresult,Result of Coronavirus test,2.0,Negative - it showed I did not have coronavirus
+1180577,NSHD46,COVIDW1WEBPOSTAL,cw1_covidresult,Result of Coronavirus test,3.0,Inconclusive
+1180578,NSHD46,COVIDW1WEBPOSTAL,cw1_covidresult,Result of Coronavirus test,4.0,Waiting for results
+1180579,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,-8.0,No information
+1180580,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,-7.0,no NSHD questionnaire
+1180581,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,-1.0,Not applicable
+1180582,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,1.0,Excellent
+1180583,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,2.0,Very good
+1180584,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,3.0,Good
+1180585,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,4.0,Fair
+1180586,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq,CM self-assessment of general health,5.0,Poor
+1180587,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,-8.0,No information
+1180588,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,-7.0,no NSHD questionnaire
+1180589,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,-1.0,Not applicable
+1180590,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,1.0,Excellent
+1180591,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,2.0,Very good
+1180592,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,3.0,Good
+1180593,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,4.0,Fair
+1180594,NSHD46,COVIDW1WEBPOSTAL,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,5.0,Poor
+1180595,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_1,CM has long-standing illness: Cancer,-8.0,No information
+1180596,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_1,CM has long-standing illness: Cancer,-7.0,no NSHD questionnaire
+1180597,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_1,CM has long-standing illness: Cancer,-1.0,Not applicable
+1180598,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_1,CM has long-standing illness: Cancer,1.0,Yes
+1180599,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_1,CM has long-standing illness: Cancer,2.0,No
+1180600,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,-8.0,No information
+1180601,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,-7.0,no NSHD questionnaire
+1180602,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,-1.0,Not applicable
+1180603,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,1.0,Yes
+1180604,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,2.0,No
+1180605,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_3,CM has long-standing illness: Asthma,-8.0,No information
+1180606,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_3,CM has long-standing illness: Asthma,-7.0,no NSHD questionnaire
+1180607,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_3,CM has long-standing illness: Asthma,-1.0,Not applicable
+1180608,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_3,CM has long-standing illness: Asthma,1.0,Yes
+1180609,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_3,CM has long-standing illness: Asthma,2.0,No
+1180610,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,-8.0,No information
+1180611,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,-7.0,no NSHD questionnaire
+1180612,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,-1.0,Not applicable
+1180613,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,1.0,Yes
+1180614,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,2.0,No
+1180615,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,-8.0,No information
+1180616,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,-7.0,no NSHD questionnaire
+1180617,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,-1.0,Not applicable
+1180618,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,1.0,Yes
+1180619,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,2.0,No
+1180620,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_6,CM has long-standing illness: Diabetes,-8.0,No information
+1180621,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_6,CM has long-standing illness: Diabetes,-7.0,no NSHD questionnaire
+1180622,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_6,CM has long-standing illness: Diabetes,-1.0,Not applicable
+1180623,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_6,CM has long-standing illness: Diabetes,1.0,Yes
+1180624,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_6,CM has long-standing illness: Diabetes,2.0,No
+1180625,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other back prob,-8.0,No information
+1180626,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other back prob,-7.0,no NSHD questionnaire
+1180627,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other back prob,-1.0,Not applicable
+1180628,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other back prob,1.0,Yes
+1180629,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other back prob,2.0,No
+1180630,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_8,CM has long-standing illness: Problems with hearing,-8.0,No information
+1180631,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_8,CM has long-standing illness: Problems with hearing,-7.0,no NSHD questionnaire
+1180632,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_8,CM has long-standing illness: Problems with hearing,-1.0,Not applicable
+1180633,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_8,CM has long-standing illness: Problems with hearing,1.0,Yes
+1180634,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_8,CM has long-standing illness: Problems with hearing,2.0,No
+1180635,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_9,CM has long-standing illness: High blood pressure,-8.0,No information
+1180636,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_9,CM has long-standing illness: High blood pressure,-7.0,no NSHD questionnaire
+1180637,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_9,CM has long-standing illness: High blood pressure,-1.0,Not applicable
+1180638,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_9,CM has long-standing illness: High blood pressure,1.0,Yes
+1180639,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_9,CM has long-standing illness: High blood pressure,2.0,No
+1180640,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_10,CM has long-standing illness: Heart disease,-8.0,No information
+1180641,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_10,CM has long-standing illness: Heart disease,-7.0,no NSHD questionnaire
+1180642,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_10,CM has long-standing illness: Heart disease,-1.0,Not applicable
+1180643,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_10,CM has long-standing illness: Heart disease,1.0,Yes
+1180644,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_10,CM has long-standing illness: Heart disease,2.0,No
+1180645,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric probs,-8.0,No information
+1180646,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric probs,-7.0,no NSHD questionnaire
+1180647,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric probs,-1.0,Not applicable
+1180648,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric probs,1.0,Yes
+1180649,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric probs,2.0,No
+1180650,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_12,CM has long-standing illness: Obesity,-8.0,No information
+1180651,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_12,CM has long-standing illness: Obesity,-7.0,no NSHD questionnaire
+1180652,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_12,CM has long-standing illness: Obesity,-1.0,Not applicable
+1180653,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_12,CM has long-standing illness: Obesity,1.0,Yes
+1180654,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_12,CM has long-standing illness: Obesity,2.0,No
+1180655,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,-8.0,No information
+1180656,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,-7.0,no NSHD questionnaire
+1180657,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,-1.0,Not applicable
+1180658,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,1.0,Yes
+1180659,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,2.0,No
+1180660,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_14,CM has long-standing illness: Infection,-8.0,No information
+1180661,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_14,CM has long-standing illness: Infection,-7.0,no NSHD questionnaire
+1180662,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_14,CM has long-standing illness: Infection,-1.0,Not applicable
+1180663,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_14,CM has long-standing illness: Infection,1.0,Yes
+1180664,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_14,CM has long-standing illness: Infection,2.0,No
+1180665,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,-8.0,No information
+1180666,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,-7.0,no NSHD questionnaire
+1180667,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,-1.0,Not applicable
+1180668,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,1.0,Yes
+1180669,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,2.0,No
+1180670,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,-8.0,No information
+1180671,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,-7.0,no NSHD questionnaire
+1180672,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,-1.0,Not applicable
+1180673,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,1.0,Yes
+1180674,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,2.0,No
+1180675,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_17,CM suffering from a long-standing illness,-8.0,No information
+1180676,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_17,CM suffering from a long-standing illness,-7.0,no NSHD questionnaire
+1180677,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_17,CM suffering from a long-standing illness,-1.0,Not applicable
+1180678,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_17,CM suffering from a long-standing illness,1.0,No
+1180679,NSHD46,COVIDW1WEBPOSTAL,cw1_lli_17,CM suffering from a long-standing illness,2.0,Yes
+1180680,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment cancelled or deferred,-8.0,No information
+1180681,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment cancelled or deferred,-7.0,no NSHD questionnaire
+1180682,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment cancelled or deferred,-1.0,Not applicable
+1180683,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment cancelled or deferred,1.0,Routine out-patient appointment cancelled or deferred
+1180684,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,-8.0,No information
+1180685,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,-7.0,no NSHD questionnaire
+1180686,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,-1.0,Not applicable
+1180687,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,1.0,Surgery cancelled or deferred
+1180688,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or deferred,-8.0,No information
+1180689,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or deferred,-7.0,no NSHD questionnaire
+1180690,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or deferred,-1.0,Not applicable
+1180691,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or deferred,1.0,Cancer treatment cancelled or deferred
+1180692,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem cancelled or deferred,-8.0,No information
+1180693,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem cancelled or deferred,-7.0,no NSHD questionnaire
+1180694,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem cancelled or deferred,-1.0,Not applicable
+1180695,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem cancelled or deferred,1.0,Investigations for health problem cancelled or deferred
+1180696,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription medicine,-8.0,No information
+1180697,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription medicine,-7.0,no NSHD questionnaire
+1180698,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription medicine,-1.0,Not applicable
+1180699,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription medicine,1.0,Difficulty getting prescription medicine
+1180700,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,-8.0,No information
+1180701,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,-7.0,no NSHD questionnaire
+1180702,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,-1.0,Not applicable
+1180703,NSHD46,COVIDW1WEBPOSTAL,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,1.0,None of the above
+1180704,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril,-8.0,No information
+1180705,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril,-7.0,no NSHD questionnaire
+1180706,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril,-1.0,Not applicable
+1180707,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril,1.0,"ACE-inhibitor (e.g. Ramipril, Lisinopril)"
+1180708,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_2,Medication Sartan (e.g. Losartan,-8.0,No information
+1180709,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_2,Medication Sartan (e.g. Losartan,-7.0,no NSHD questionnaire
+1180710,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_2,Medication Sartan (e.g. Losartan,-1.0,Not applicable
+1180711,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_2,Medication Sartan (e.g. Losartan,1.0,"Sartan (e.g. Losartan, Valsartan, Candesartan)"
+1180712,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_3,Medication Entresto (sucubitril/valsartan),-8.0,No information
+1180713,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_3,Medication Entresto (sucubitril/valsartan),-7.0,no NSHD questionnaire
+1180714,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_3,Medication Entresto (sucubitril/valsartan),-1.0,Not applicable
+1180715,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_3,Medication Entresto (sucubitril/valsartan),1.0,Entresto (sucubitril/valsartan)
+1180716,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_4,Medication Ibuprofen / Neurofen,-8.0,No information
+1180717,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_4,Medication Ibuprofen / Neurofen,-7.0,no NSHD questionnaire
+1180718,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_4,Medication Ibuprofen / Neurofen,-1.0,Not applicable
+1180719,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_4,Medication Ibuprofen / Neurofen,1.0,"Ibuprofen / Neurofen, any other type of non-steriodal anti-inflammatory"
+1180720,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_5,Medication Vitamin D,-8.0,No information
+1180721,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_5,Medication Vitamin D,-7.0,no NSHD questionnaire
+1180722,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_5,Medication Vitamin D,-1.0,Not applicable
+1180723,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_5,Medication Vitamin D,1.0,Vitamin D
+1180724,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_6,Medication None,-8.0,No information
+1180725,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_6,Medication None,-7.0,no NSHD questionnaire
+1180726,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_6,Medication None,-1.0,Not applicable
+1180727,NSHD46,COVIDW1WEBPOSTAL,cw1_meds_6,Medication None,1.0,None
+1180728,NSHD46,COVIDW1WEBPOSTAL,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,-8.0,No information
+1180729,NSHD46,COVIDW1WEBPOSTAL,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,-7.0,no NSHD questionnaire
+1180730,NSHD46,COVIDW1WEBPOSTAL,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,-1.0,Not applicable
+1180731,NSHD46,COVIDW1WEBPOSTAL,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,1.0,Yes
+1180732,NSHD46,COVIDW1WEBPOSTAL,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,2.0,No
+1180733,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),-8.0,No information
+1180734,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),-7.0,no NSHD questionnaire
+1180735,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),-1.0,Not applicable
+1180736,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),1.0,Not complying at all
+1180737,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),2.0,1
+1180738,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),3.0,2
+1180739,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),4.0,3
+1180740,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),5.0,4
+1180741,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),6.0,5
+1180742,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),7.0,6
+1180743,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),8.0,7
+1180744,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),9.0,8
+1180745,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),10.0,9
+1180746,NSHD46,COVIDW1WEBPOSTAL,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully compliant),11.0,Complying fully 
+1180747,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnum,How many people in household (including CM),-8.0,No information
+1180748,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnum,How many people in household (including CM),-7.0,no NSHD questionnaire
+1180749,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnum,How many people in household (including CM),-1.0,Not applicable
+1180750,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,-8.0,No information
+1180751,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,-7.0,no NSHD questionnaire
+1180752,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,-1.0,Not applicable
+1180753,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,1.0,Yes
+1180754,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,2.0,No
+1180755,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),-8.0,No information
+1180756,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),-7.0,no NSHD questionnaire
+1180757,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),-1.0,Not applicable
+1180758,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),1.0,Yes
+1180759,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),2.0,No
+1180760,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),-8.0,No information
+1180761,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),-7.0,no NSHD questionnaire
+1180762,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),-1.0,Not applicable
+1180763,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),1.0,Yes
+1180764,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),2.0,No
+1180765,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_5,Household member: Grandchild,-8.0,No information
+1180766,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_5,Household member: Grandchild,-7.0,no NSHD questionnaire
+1180767,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_5,Household member: Grandchild,-1.0,Not applicable
+1180768,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_5,Household member: Grandchild,1.0,Yes
+1180769,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_5,Household member: Grandchild,2.0,No
+1180770,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_6,Household member: Sibling,-8.0,No information
+1180771,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_6,Household member: Sibling,-7.0,no NSHD questionnaire
+1180772,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_6,Household member: Sibling,-1.0,Not applicable
+1180773,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_6,Household member: Sibling,1.0,Yes
+1180774,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_6,Household member: Sibling,2.0,No
+1180775,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_7,Household member: Other relative,-8.0,No information
+1180776,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_7,Household member: Other relative,-7.0,no NSHD questionnaire
+1180777,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_7,Household member: Other relative,-1.0,Not applicable
+1180778,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_7,Household member: Other relative,1.0,Yes
+1180779,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_7,Household member: Other relative,2.0,No
+1180780,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,-8.0,No information
+1180781,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,-7.0,no NSHD questionnaire
+1180782,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,-1.0,Not applicable
+1180783,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,1.0,Yes
+1180784,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,2.0,No
+1180785,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_9,Household member: Other,-8.0,No information
+1180786,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_9,Household member: Other,-7.0,no NSHD questionnaire
+1180787,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_9,Household member: Other,-1.0,Not applicable
+1180788,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_9,Household member: Other,1.0,Yes
+1180789,NSHD46,COVIDW1WEBPOSTAL,cw1_hhnumwh_9,Household member: Other,2.0,No
+1180790,NSHD46,COVIDW1WEBPOSTAL,cw1_anychnl,Whether CM has any children not living in hh,-8.0,No information
+1180791,NSHD46,COVIDW1WEBPOSTAL,cw1_anychnl,Whether CM has any children not living in hh,-7.0,no NSHD questionnaire
+1180792,NSHD46,COVIDW1WEBPOSTAL,cw1_anychnl,Whether CM has any children not living in hh,-1.0,Not applicable
+1180793,NSHD46,COVIDW1WEBPOSTAL,cw1_anychnl,Whether CM has any children not living in hh,1.0,Yes
+1180794,NSHD46,COVIDW1WEBPOSTAL,cw1_anychnl,Whether CM has any children not living in hh,2.0,No
+1180795,NSHD46,COVIDW1WEBPOSTAL,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,-8.0,No information
+1180796,NSHD46,COVIDW1WEBPOSTAL,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,-7.0,no NSHD questionnaire
+1180797,NSHD46,COVIDW1WEBPOSTAL,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,-1.0,Not applicable
+1180798,NSHD46,COVIDW1WEBPOSTAL,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,1.0,Yes
+1180799,NSHD46,COVIDW1WEBPOSTAL,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,2.0,No
+1180800,NSHD46,COVIDW1WEBPOSTAL,cw1_covpart,Post-C19: Whether started living with partner,-8.0,No information
+1180801,NSHD46,COVIDW1WEBPOSTAL,cw1_covpart,Post-C19: Whether started living with partner,-7.0,no NSHD questionnaire
+1180802,NSHD46,COVIDW1WEBPOSTAL,cw1_covpart,Post-C19: Whether started living with partner,-1.0,Not applicable
+1180803,NSHD46,COVIDW1WEBPOSTAL,cw1_covpart,Post-C19: Whether started living with partner,1.0,Yes
+1180804,NSHD46,COVIDW1WEBPOSTAL,cw1_covpart,Post-C19: Whether started living with partner,2.0,No
+1180805,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,-8.0,No information
+1180806,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,-7.0,no NSHD questionnaire
+1180807,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,-1.0,Not applicable
+1180808,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,1.0,Yes
+1180809,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,2.0,No
+1180810,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,-8.0,No information
+1180811,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,-7.0,no NSHD questionnaire
+1180812,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,-1.0,Not applicable
+1180813,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,1.0,Yes
+1180814,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,2.0,No
+1180815,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,-8.0,No information
+1180816,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,-7.0,no NSHD questionnaire
+1180817,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,-1.0,Not applicable
+1180818,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,1.0,Yes
+1180819,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,2.0,No
+1180820,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,-8.0,No information
+1180821,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,-7.0,no NSHD questionnaire
+1180822,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,-1.0,Not applicable
+1180823,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,1.0,Yes
+1180824,NSHD46,COVIDW1WEBPOSTAL,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,2.0,No
+1180825,NSHD46,COVIDW1WEBPOSTAL,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),-8.0,No information
+1180826,NSHD46,COVIDW1WEBPOSTAL,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),-7.0,no NSHD questionnaire
+1180827,NSHD46,COVIDW1WEBPOSTAL,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),-1.0,Not applicable
+1180828,NSHD46,COVIDW1WEBPOSTAL,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),1.0,At least one parent (or in-law) moved in with CM
+1180829,NSHD46,COVIDW1WEBPOSTAL,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),2.0,CM moved in with parent (or in-law)
+1180830,NSHD46,COVIDW1WEBPOSTAL,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),3.0,None of these
+1180831,NSHD46,COVIDW1WEBPOSTAL,cw1_covoth,Post-C19: Whether other person living arrangement change since,-8.0,No information
+1180832,NSHD46,COVIDW1WEBPOSTAL,cw1_covoth,Post-C19: Whether other person living arrangement change since,-7.0,no NSHD questionnaire
+1180833,NSHD46,COVIDW1WEBPOSTAL,cw1_covoth,Post-C19: Whether other person living arrangement change since,-1.0,Not applicable
+1180834,NSHD46,COVIDW1WEBPOSTAL,cw1_covoth,Post-C19: Whether other person living arrangement change since,1.0,Non-parent/child hh member moved in with CM
+1180835,NSHD46,COVIDW1WEBPOSTAL,cw1_covoth,Post-C19: Whether other person living arrangement change since,2.0,CM moved in with non-parent/child
+1180836,NSHD46,COVIDW1WEBPOSTAL,cw1_covoth,Post-C19: Whether other person living arrangement change since,3.0,None of these
+1180837,NSHD46,COVIDW1WEBPOSTAL,cw1_othrela,Whether CM in a non-cohabiting relationship,-8.0,No information
+1180838,NSHD46,COVIDW1WEBPOSTAL,cw1_othrela,Whether CM in a non-cohabiting relationship,-7.0,no NSHD questionnaire
+1180839,NSHD46,COVIDW1WEBPOSTAL,cw1_othrela,Whether CM in a non-cohabiting relationship,-1.0,Not applicable
+1180840,NSHD46,COVIDW1WEBPOSTAL,cw1_othrela,Whether CM in a non-cohabiting relationship,1.0,Yes
+1180841,NSHD46,COVIDW1WEBPOSTAL,cw1_othrela,Whether CM in a non-cohabiting relationship,2.0,No
+1180842,NSHD46,COVIDW1WEBPOSTAL,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),-8.0,No information
+1180843,NSHD46,COVIDW1WEBPOSTAL,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),-7.0,no NSHD questionnaire
+1180844,NSHD46,COVIDW1WEBPOSTAL,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),-1.0,Not applicable
+1180845,NSHD46,COVIDW1WEBPOSTAL,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),1.0,Very Unhappy
+1180846,NSHD46,COVIDW1WEBPOSTAL,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),7.0,Very Happy
+1180847,NSHD46,COVIDW1WEBPOSTAL,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,-8.0,No information
+1180848,NSHD46,COVIDW1WEBPOSTAL,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,-7.0,no NSHD questionnaire
+1180849,NSHD46,COVIDW1WEBPOSTAL,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,-1.0,Not applicable
+1180850,NSHD46,COVIDW1WEBPOSTAL,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,1.0,More frequent arguments with partner
+1180851,NSHD46,COVIDW1WEBPOSTAL,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,2.0,No change
+1180852,NSHD46,COVIDW1WEBPOSTAL,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,3.0,Less frequent arguments with partner
+1180853,NSHD46,COVIDW1WEBPOSTAL,cw1_numchil,Number of children CM currently lives with,-8.0,No information
+1180854,NSHD46,COVIDW1WEBPOSTAL,cw1_numchil,Number of children CM currently lives with,-7.0,no NSHD questionnaire
+1180855,NSHD46,COVIDW1WEBPOSTAL,cw1_numchil,Number of children CM currently lives with,-1.0,Not applicable
+1180856,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_1_1,Age of each child - Child 1 - Years old,-8.0,No information
+1180857,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_1_1,Age of each child - Child 1 - Years old,-7.0,no NSHD questionnaire
+1180858,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_1_1,Age of each child - Child 1 - Years old,-1.0,Not applicable
+1180859,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_2_1,Age of each child - Child 2 - Years old,-8.0,No information
+1180860,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_2_1,Age of each child - Child 2 - Years old,-7.0,no NSHD questionnaire
+1180861,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_2_1,Age of each child - Child 2 - Years old,-1.0,Not applicable
+1180862,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_3_1,Age of each child - Child 3 - Years old,-8.0,No information
+1180863,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_3_1,Age of each child - Child 3 - Years old,-7.0,no NSHD questionnaire
+1180864,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_3_1,Age of each child - Child 3 - Years old,-1.0,Not applicable
+1180865,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_4_1,Age of each child - Child 4 - Years old,-8.0,No information
+1180866,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_4_1,Age of each child - Child 4 - Years old,-7.0,no NSHD questionnaire
+1180867,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_4_1,Age of each child - Child 4 - Years old,-1.0,Not applicable
+1180868,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_5_1,Age of each child - Child 5 - Years old,-8.0,No information
+1180869,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_5_1,Age of each child - Child 5 - Years old,-7.0,no NSHD questionnaire
+1180870,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_5_1,Age of each child - Child 5 - Years old,-1.0,Not applicable
+1180871,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_6_1,Age of each child - Child 6 - Years old,-8.0,No information
+1180872,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_6_1,Age of each child - Child 6 - Years old,-7.0,no NSHD questionnaire
+1180873,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_6_1,Age of each child - Child 6 - Years old,-1.0,Not applicable
+1180874,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_7_1,Age of each child - Child 7 - Years old,-8.0,No information
+1180875,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_7_1,Age of each child - Child 7 - Years old,-7.0,no NSHD questionnaire
+1180876,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_7_1,Age of each child - Child 7 - Years old,-1.0,Not applicable
+1180877,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_8_1,Age of each child - Child 8 - Years old,-8.0,No information
+1180878,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_8_1,Age of each child - Child 8 - Years old,-7.0,no NSHD questionnaire
+1180879,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_8_1,Age of each child - Child 8 - Years old,-1.0,Not applicable
+1180880,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_9_1,Age of each child - Child 9 - Years old,-8.0,No information
+1180881,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_9_1,Age of each child - Child 9 - Years old,-7.0,no NSHD questionnaire
+1180882,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_9_1,Age of each child - Child 9 - Years old,-1.0,Not applicable
+1180883,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_10_1,Age of each child - Child 10 - Years old,-8.0,No information
+1180884,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_10_1,Age of each child - Child 10 - Years old,-7.0,no NSHD questionnaire
+1180885,NSHD46,COVIDW1WEBPOSTAL,cw1_chilage_10_1,Age of each child - Child 10 - Years old,-1.0,Not applicable
+1180886,NSHD46,COVIDW1WEBPOSTAL,cw1_prec19ca,Pre-C19: Childcare arrangements for children aged 4 and under,-8.0,No information
+1180887,NSHD46,COVIDW1WEBPOSTAL,cw1_prec19ca,Pre-C19: Childcare arrangements for children aged 4 and under,-7.0,no NSHD questionnaire
+1180888,NSHD46,COVIDW1WEBPOSTAL,cw1_prec19ca,Pre-C19: Childcare arrangements for children aged 4 and under,-1.0,Not applicable
+1180889,NSHD46,COVIDW1WEBPOSTAL,cw1_prec19ca,Pre-C19: Childcare arrangements for children aged 4 and under,1.0,All stay at home
+1180890,NSHD46,COVIDW1WEBPOSTAL,cw1_prec19ca,Pre-C19: Childcare arrangements for children aged 4 and under,2.0,All attend day care or school
+1180891,NSHD46,COVIDW1WEBPOSTAL,cw1_prec19ca,Pre-C19: Childcare arrangements for children aged 4 and under,3.0,Some at home and some attend day care/school
+1180892,NSHD46,COVIDW1WEBPOSTAL,cw1_posc19ac,Post-C19: Childcare arrangements for children aged 4 and under,-8.0,No information
+1180893,NSHD46,COVIDW1WEBPOSTAL,cw1_posc19ac,Post-C19: Childcare arrangements for children aged 4 and under,-7.0,no NSHD questionnaire
+1180894,NSHD46,COVIDW1WEBPOSTAL,cw1_posc19ac,Post-C19: Childcare arrangements for children aged 4 and under,-1.0,Not applicable
+1180895,NSHD46,COVIDW1WEBPOSTAL,cw1_posc19ac,Post-C19: Childcare arrangements for children aged 4 and under,1.0,All stay at home
+1180896,NSHD46,COVIDW1WEBPOSTAL,cw1_posc19ac,Post-C19: Childcare arrangements for children aged 4 and under,2.0,All attend day care or school
+1180897,NSHD46,COVIDW1WEBPOSTAL,cw1_posc19ac,Post-C19: Childcare arrangements for children aged 4 and under,3.0,Some at home and some attend day care/school
+1180898,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_1,Post-C19: Why young children in daycare- CM is a key worker,-8.0,No information
+1180899,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_1,Post-C19: Why young children in daycare- CM is a key worker,-7.0,no NSHD questionnaire
+1180900,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_1,Post-C19: Why young children in daycare- CM is a key worker,-1.0,Not applicable
+1180901,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_1,Post-C19: Why young children in daycare- CM is a key worker,1.0,Yes
+1180902,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_1,Post-C19: Why young children in daycare- CM is a key worker,2.0,No
+1180903,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_2,Post-C19: Why young children in daycare- CM's partner is a key worker,-8.0,No information
+1180904,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_2,Post-C19: Why young children in daycare- CM's partner is a key worker,-7.0,no NSHD questionnaire
+1180905,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_2,Post-C19: Why young children in daycare- CM's partner is a key worker,-1.0,Not applicable
+1180906,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_2,Post-C19: Why young children in daycare- CM's partner is a key worker,1.0,Yes
+1180907,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_2,Post-C19: Why young children in daycare- CM's partner is a key worker,2.0,No
+1180908,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_3,Post-C19: Why young children in daycare- Child has special educ needs (SEN/EHCP),-8.0,No information
+1180909,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_3,Post-C19: Why young children in daycare- Child has special educ needs (SEN/EHCP),-7.0,no NSHD questionnaire
+1180910,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_3,Post-C19: Why young children in daycare- Child has special educ needs (SEN/EHCP),-1.0,Not applicable
+1180911,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_3,Post-C19: Why young children in daycare- Child has special educ needs (SEN/EHCP),1.0,Yes
+1180912,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_3,Post-C19: Why young children in daycare- Child has special educ needs (SEN/EHCP),2.0,No
+1180913,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_4,Post-C19: Why young children in daycare- Other reason,-8.0,No information
+1180914,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_4,Post-C19: Why young children in daycare- Other reason,-7.0,no NSHD questionnaire
+1180915,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_4,Post-C19: Why young children in daycare- Other reason,-1.0,Not applicable
+1180916,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_4,Post-C19: Why young children in daycare- Other reason,1.0,Yes
+1180917,NSHD46,COVIDW1WEBPOSTAL,cw1_ycatscw_4,Post-C19: Why young children in daycare- Other reason,2.0,No
+1180918,NSHD46,COVIDW1WEBPOSTAL,cw1_scatsch,Post-C19: Whether school age child(ren) still attending school,-8.0,No information
+1180919,NSHD46,COVIDW1WEBPOSTAL,cw1_scatsch,Post-C19: Whether school age child(ren) still attending school,-7.0,no NSHD questionnaire
+1180920,NSHD46,COVIDW1WEBPOSTAL,cw1_scatsch,Post-C19: Whether school age child(ren) still attending school,-1.0,Not applicable
+1180921,NSHD46,COVIDW1WEBPOSTAL,cw1_scatsch,Post-C19: Whether school age child(ren) still attending school,1.0,Yes
+1180922,NSHD46,COVIDW1WEBPOSTAL,cw1_scatsch,Post-C19: Whether school age child(ren) still attending school,2.0,No
+1180923,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_1,Post-C19: Why children still at school- CM is a key worker,-8.0,No information
+1180924,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_1,Post-C19: Why children still at school- CM is a key worker,-7.0,no NSHD questionnaire
+1180925,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_1,Post-C19: Why children still at school- CM is a key worker,-1.0,Not applicable
+1180926,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_1,Post-C19: Why children still at school- CM is a key worker,1.0,Yes
+1180927,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_1,Post-C19: Why children still at school- CM is a key worker,2.0,No
+1180928,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_2,Post-C19: Why children still at school- CM's partner is a key worker,-8.0,No information
+1180929,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_2,Post-C19: Why children still at school- CM's partner is a key worker,-7.0,no NSHD questionnaire
+1180930,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_2,Post-C19: Why children still at school- CM's partner is a key worker,-1.0,Not applicable
+1180931,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_2,Post-C19: Why children still at school- CM's partner is a key worker,1.0,Yes
+1180932,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_2,Post-C19: Why children still at school- CM's partner is a key worker,2.0,No
+1180933,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_3,Post-C19: Why children still at school- Child has special educ needs (SEN/EHCP),-8.0,No information
+1180934,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_3,Post-C19: Why children still at school- Child has special educ needs (SEN/EHCP),-7.0,no NSHD questionnaire
+1180935,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_3,Post-C19: Why children still at school- Child has special educ needs (SEN/EHCP),-1.0,Not applicable
+1180936,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_3,Post-C19: Why children still at school- Child has special educ needs (SEN/EHCP),1.0,Yes
+1180937,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_3,Post-C19: Why children still at school- Child has special educ needs (SEN/EHCP),2.0,No
+1180938,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_4,Post-C19: Why children still at school- Other reason,-8.0,No information
+1180939,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_4,Post-C19: Why children still at school- Other reason,-7.0,no NSHD questionnaire
+1180940,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_4,Post-C19: Why children still at school- Other reason,-1.0,Not applicable
+1180941,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_4,Post-C19: Why children still at school- Other reason,1.0,Yes
+1180942,NSHD46,COVIDW1WEBPOSTAL,cw1_scatschw_4,Post-C19: Why children still at school- Other reason,2.0,No
+1180943,NSHD46,COVIDW1WEBPOSTAL,cw1_care_4,Care before COVID outbreak - No help needed,-8.0,No information
+1180944,NSHD46,COVIDW1WEBPOSTAL,cw1_care_4,Care before COVID outbreak - No help needed,-7.0,no NSHD questionnaire
+1180945,NSHD46,COVIDW1WEBPOSTAL,cw1_care_4,Care before COVID outbreak - No help needed,-1.0,Not applicable
+1180946,NSHD46,COVIDW1WEBPOSTAL,cw1_care_4,Care before COVID outbreak - No help needed,1.0,Yes
+1180947,NSHD46,COVIDW1WEBPOSTAL,cw1_care_4,Care before COVID outbreak - No help needed,2.0,No
+1180948,NSHD46,COVIDW1WEBPOSTAL,cw1_care_1,Pre C-19: No help received,-8.0,No information
+1180949,NSHD46,COVIDW1WEBPOSTAL,cw1_care_1,Pre C-19: No help received,-7.0,no NSHD questionnaire
+1180950,NSHD46,COVIDW1WEBPOSTAL,cw1_care_1,Pre C-19: No help received,-1.0,Not applicable
+1180951,NSHD46,COVIDW1WEBPOSTAL,cw1_care_1,Pre C-19: No help received,1.0,Yes
+1180952,NSHD46,COVIDW1WEBPOSTAL,cw1_care_1,Pre C-19: No help received,2.0,No
+1180953,NSHD46,COVIDW1WEBPOSTAL,cw1_care_2,Pre C-19:  Help received for myself,-8.0,No information
+1180954,NSHD46,COVIDW1WEBPOSTAL,cw1_care_2,Pre C-19:  Help received for myself,-7.0,no NSHD questionnaire
+1180955,NSHD46,COVIDW1WEBPOSTAL,cw1_care_2,Pre C-19:  Help received for myself,-1.0,Not applicable
+1180956,NSHD46,COVIDW1WEBPOSTAL,cw1_care_2,Pre C-19:  Help received for myself,1.0,Yes
+1180957,NSHD46,COVIDW1WEBPOSTAL,cw1_care_2,Pre C-19:  Help received for myself,2.0,No
+1180958,NSHD46,COVIDW1WEBPOSTAL,cw1_care_3,Pre C-19:  Help received for someone I live with,-8.0,No information
+1180959,NSHD46,COVIDW1WEBPOSTAL,cw1_care_3,Pre C-19:  Help received for someone I live with,-7.0,no NSHD questionnaire
+1180960,NSHD46,COVIDW1WEBPOSTAL,cw1_care_3,Pre C-19:  Help received for someone I live with,-1.0,Not applicable
+1180961,NSHD46,COVIDW1WEBPOSTAL,cw1_care_3,Pre C-19:  Help received for someone I live with,1.0,Yes
+1180962,NSHD46,COVIDW1WEBPOSTAL,cw1_care_3,Pre C-19:  Help received for someone I live with,2.0,No
+1180963,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,-8.0,No information
+1180964,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,-7.0,no NSHD questionnaire
+1180965,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,-1.0,Not applicable
+1180966,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,1.0,Yes
+1180967,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,2.0,No
+1180968,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood rel),-8.0,No information
+1180969,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood rel),-7.0,no NSHD questionnaire
+1180970,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood rel),-1.0,Not applicable
+1180971,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood rel),1.0,Yes
+1180972,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood rel),2.0,No
+1180973,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,-8.0,No information
+1180974,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,-7.0,no NSHD questionnaire
+1180975,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,-1.0,Not applicable
+1180976,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,1.0,Yes
+1180977,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,2.0,No
+1180978,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,-8.0,No information
+1180979,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,-7.0,no NSHD questionnaire
+1180980,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,-1.0,Not applicable
+1180981,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,1.0,Yes
+1180982,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,2.0,No
+1180983,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,-8.0,No information
+1180984,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,-7.0,no NSHD questionnaire
+1180985,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,-1.0,Not applicable
+1180986,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,1.0,Yes
+1180987,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,2.0,No
+1180988,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_6,Pre-C19: Who provided care- Other,-8.0,No information
+1180989,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_6,Pre-C19: Who provided care- Other,-7.0,no NSHD questionnaire
+1180990,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_6,Pre-C19: Who provided care- Other,-1.0,Not applicable
+1180991,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_6,Pre-C19: Who provided care- Other,1.0,Yes
+1180992,NSHD46,COVIDW1WEBPOSTAL,cw1_carewho_6,Pre-C19: Who provided care- Other,2.0,No
+1180993,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,-8.0,No information
+1180994,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,-7.0,no NSHD questionnaire
+1180995,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,-1.0,Not applicable
+1180996,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,1.0,Up to 4 hours
+1180997,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,2.0,5-9 hours
+1180998,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,3.0,10-19 hours
+1180999,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,4.0,20-34 hours
+1181000,NSHD46,COVIDW1WEBPOSTAL,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,5.0,35 hours or more
+1181001,NSHD46,COVIDW1WEBPOSTAL,cw1_carechan,Post-C19: Whether change in help recieved caring for self or others in hh,-8.0,No information
+1181002,NSHD46,COVIDW1WEBPOSTAL,cw1_carechan,Post-C19: Whether change in help recieved caring for self or others in hh,-7.0,no NSHD questionnaire
+1181003,NSHD46,COVIDW1WEBPOSTAL,cw1_carechan,Post-C19: Whether change in help recieved caring for self or others in hh,-1.0,Not applicable
+1181004,NSHD46,COVIDW1WEBPOSTAL,cw1_carechan,Post-C19: Whether change in help recieved caring for self or others in hh,1.0,Yes
+1181005,NSHD46,COVIDW1WEBPOSTAL,cw1_carechan,Post-C19: Whether change in help recieved caring for self or others in hh,2.0,No
+1181006,NSHD46,COVIDW1WEBPOSTAL,cw1_cachanwh,Post-C19: Change to care needed or received,-8.0,No information
+1181007,NSHD46,COVIDW1WEBPOSTAL,cw1_cachanwh,Post-C19: Change to care needed or received,-7.0,no NSHD questionnaire
+1181008,NSHD46,COVIDW1WEBPOSTAL,cw1_cachanwh,Post-C19: Change to care needed or received,-1.0,Not applicable
+1181009,NSHD46,COVIDW1WEBPOSTAL,cw1_cachanwh,Post-C19: Change to care needed or received,1.0,"Same needs, reduced care received"
+1181010,NSHD46,COVIDW1WEBPOSTAL,cw1_cachanwh,Post-C19: Change to care needed or received,2.0,"More care needed, not received"
+1181011,NSHD46,COVIDW1WEBPOSTAL,cw1_cachanwh,Post-C19: Change to care needed or received,3.0,More care needed and received
+1181012,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,-8.0,No information
+1181013,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,-7.0,no NSHD questionnaire
+1181014,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,-1.0,Not applicable
+1181015,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,0.0,0 hours
+1181016,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,1.0,1-4 hours
+1181017,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,2.0,5-9 hours
+1181018,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,3.0,10-19 hours
+1181019,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,4.0,20-34 hours
+1181020,NSHD46,COVIDW1WEBPOSTAL,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,5.0,35 hours or more
+1181021,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,-8.0,No information
+1181022,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,-7.0,no NSHD questionnaire
+1181023,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,-1.0,Not applicable
+1181024,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,1.0,Husband/wife/partner/self
+1181025,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,2.0,Son or daughter or other family member (include even if not blood related)
+1181026,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,3.0,Friend or neighbour
+1181027,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,4.0,Voluntary helper
+1181028,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,5.0,Paid/professional help
+1181029,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,6.0,Other
+1181030,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,7.0,1 + 5
+1181031,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,8.0,1 + 3 + 5
+1181032,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,9.0,2 + 4
+1181033,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,10.0,2 + 3
+1181034,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,11.0,1 +2 + 5
+1181035,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,12.0,1 + 2
+1181036,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,13.0,1 + 3
+1181037,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,14.0,2 + 5
+1181038,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,15.0,3 + 5
+1181039,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,16.0,3 + 4
+1181040,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,17.0,2 + 3 + 4
+1181041,NSHD46,COVIDW1WEBPOSTAL,cw1_prncare,Post-C19: Who provided care,18.0,2 + 6
+1181042,NSHD46,COVIDW1WEBPOSTAL,cw1_numrooms,Number of rooms in house (not incl. kitchens,-8.0,No information
+1181043,NSHD46,COVIDW1WEBPOSTAL,cw1_numrooms,Number of rooms in house (not incl. kitchens,-7.0,no NSHD questionnaire
+1181044,NSHD46,COVIDW1WEBPOSTAL,cw1_numrooms,Number of rooms in house (not incl. kitchens,-1.0,Not applicable
+1181045,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_1,Whether home has a garden,-8.0,No information
+1181046,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_1,Whether home has a garden,-7.0,no NSHD questionnaire
+1181047,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_1,Whether home has a garden,-1.0,Not applicable
+1181048,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_1,Whether home has a garden,1.0,Yes
+1181049,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_1,Whether home has a garden,2.0,No
+1181050,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_2,Whether home has a patio or yard,-8.0,No information
+1181051,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_2,Whether home has a patio or yard,-7.0,no NSHD questionnaire
+1181052,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_2,Whether home has a patio or yard,-1.0,Not applicable
+1181053,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_2,Whether home has a patio or yard,1.0,Yes
+1181054,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_2,Whether home has a patio or yard,2.0,No
+1181055,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_3,Whether home has a roof terrace or large balcony,-8.0,No information
+1181056,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_3,Whether home has a roof terrace or large balcony,-7.0,no NSHD questionnaire
+1181057,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_3,Whether home has a roof terrace or large balcony,-1.0,Not applicable
+1181058,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_3,Whether home has a roof terrace or large balcony,1.0,Yes
+1181059,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_3,Whether home has a roof terrace or large balcony,2.0,No
+1181060,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_4,Home has no outdoor spaces,-8.0,No information
+1181061,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_4,Home has no outdoor spaces,-7.0,no NSHD questionnaire
+1181062,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_4,Home has no outdoor spaces,-1.0,Not applicable
+1181063,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_4,Home has no outdoor spaces,1.0,Yes
+1181064,NSHD46,COVIDW1WEBPOSTAL,cw1_outdoors_4,Home has no outdoor spaces,2.0,No
+1181065,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,-8.0,No information
+1181066,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,-7.0,no NSHD questionnaire
+1181067,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,-1.0,Not applicable
+1181068,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,1.0,Living comfortably
+1181069,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,2.0,Doing all right
+1181070,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,3.0,Just about getting by
+1181071,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,4.0,Finding it quite difficult
+1181072,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmanb,Pre-C19: How CM is managing financially,5.0,Finding it very difficult
+1181073,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,-8.0,No information
+1181074,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,-7.0,no NSHD questionnaire
+1181075,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,-1.0,Not applicable
+1181076,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,1.0,Iâ€™m much worse off
+1181077,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,2.0,Iâ€™m a little worse off
+1181078,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,3.0,Iâ€™m about the same
+1181079,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,4.0,Iâ€™m a little better off
+1181080,NSHD46,COVIDW1WEBPOSTAL,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,5.0,Iâ€™m much better off
+1181081,NSHD46,COVIDW1WEBPOSTAL,cw1_foodafford,Post-C19: Food affordability/availability in hh,-8.0,No information
+1181082,NSHD46,COVIDW1WEBPOSTAL,cw1_foodafford,Post-C19: Food affordability/availability in hh,-7.0,no NSHD questionnaire
+1181083,NSHD46,COVIDW1WEBPOSTAL,cw1_foodafford,Post-C19: Food affordability/availability in hh,-1.0,Not applicable
+1181084,NSHD46,COVIDW1WEBPOSTAL,cw1_foodafford,Post-C19: Food affordability/availability in hh,1.0,HH always had enough of food they want
+1181085,NSHD46,COVIDW1WEBPOSTAL,cw1_foodafford,Post-C19: Food affordability/availability in hh,2.0,"HH always had enough, not always what they want"
+1181086,NSHD46,COVIDW1WEBPOSTAL,cw1_foodafford,Post-C19: Food affordability/availability in hh,3.0,HH sometimes did not have enough food
+1181087,NSHD46,COVIDW1WEBPOSTAL,cw1_foodafford,Post-C19: Food affordability/availability in hh,4.0,HH often did not have enough food
+1181088,NSHD46,COVIDW1WEBPOSTAL,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,-8.0,No information
+1181089,NSHD46,COVIDW1WEBPOSTAL,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,-7.0,no NSHD questionnaire
+1181090,NSHD46,COVIDW1WEBPOSTAL,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,-1.0,Not applicable
+1181091,NSHD46,COVIDW1WEBPOSTAL,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,1.0,Never
+1181092,NSHD46,COVIDW1WEBPOSTAL,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,2.0,Less than four times
+1181093,NSHD46,COVIDW1WEBPOSTAL,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,3.0,Four times or more
+1181094,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,-8.0,No information
+1181095,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,-7.0,no NSHD questionnaire
+1181096,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,-1.0,Not applicable
+1181097,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,1.0,Yes
+1181098,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,2.0,No
+1181099,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,-8.0,No information
+1181100,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,-7.0,no NSHD questionnaire
+1181101,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,-1.0,Not applicable
+1181102,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,1.0,Yes
+1181103,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,2.0,No
+1181104,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,-8.0,No information
+1181105,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,-7.0,no NSHD questionnaire
+1181106,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,-1.0,Not applicable
+1181107,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,1.0,Yes
+1181108,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,2.0,No
+1181109,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,-8.0,No information
+1181110,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,-7.0,no NSHD questionnaire
+1181111,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,-1.0,Not applicable
+1181112,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,1.0,Yes
+1181113,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,2.0,No
+1181114,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,-8.0,No information
+1181115,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,-7.0,no NSHD questionnaire
+1181116,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,-1.0,Not applicable
+1181117,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,1.0,Yes
+1181118,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,2.0,No
+1181119,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,-8.0,No information
+1181120,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,-7.0,no NSHD questionnaire
+1181121,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,-1.0,Not applicable
+1181122,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,1.0,Yes
+1181123,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,2.0,No
+1181124,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,-8.0,No information
+1181125,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,-7.0,no NSHD questionnaire
+1181126,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,-1.0,Not applicable
+1181127,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,1.0,Yes
+1181128,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,2.0,No
+1181129,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,-8.0,No information
+1181130,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,-7.0,no NSHD questionnaire
+1181131,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,-1.0,Not applicable
+1181132,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,1.0,Yes
+1181133,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,2.0,No
+1181134,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,-8.0,No information
+1181135,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,-7.0,no NSHD questionnaire
+1181136,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,-1.0,Not applicable
+1181137,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,1.0,Yes
+1181138,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,2.0,No
+1181139,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,-8.0,No information
+1181140,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,-7.0,no NSHD questionnaire
+1181141,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,-1.0,Not applicable
+1181142,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,1.0,Yes
+1181143,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,2.0,No
+1181144,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,-8.0,No information
+1181145,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,-7.0,no NSHD questionnaire
+1181146,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,-1.0,Not applicable
+1181147,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,1.0,No - none of these
+1181148,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,-8.0,No information
+1181149,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,-7.0,no NSHD questionnaire
+1181150,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,-1.0,Not applicable
+1181151,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,1.0,Universal credit
+1181152,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,-8.0,No information
+1181153,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,-7.0,no NSHD questionnaire
+1181154,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,-1.0,Not applicable
+1181155,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,1.0,Employment and Support Allowance
+1181156,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,-8.0,No information
+1181157,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,-7.0,no NSHD questionnaire
+1181158,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,-1.0,Not applicable
+1181159,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,1.0,Statutory sick pay
+1181160,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,-8.0,No information
+1181161,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,-7.0,no NSHD questionnaire
+1181162,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,-1.0,Not applicable
+1181163,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,1.0,Council tax support or reduction
+1181164,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,-8.0,No information
+1181165,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,-7.0,no NSHD questionnaire
+1181166,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,-1.0,Not applicable
+1181167,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,1.0,Carers allowance or Personal independence payments
+1181168,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,-8.0,No information
+1181169,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,-7.0,no NSHD questionnaire
+1181170,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,-1.0,Not applicable
+1181171,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,1.0,New government financial support for self employed people
+1181172,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,-8.0,No information
+1181173,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,-7.0,no NSHD questionnaire
+1181174,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,-1.0,Not applicable
+1181175,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,1.0,No - none of these
+1181176,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,-8.0,No information
+1181177,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,-7.0,no NSHD questionnaire
+1181178,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,-1.0,Not applicable
+1181179,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,1.0,Yes
+1181180,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,2.0,No
+1181181,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,-8.0,No information
+1181182,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,-7.0,no NSHD questionnaire
+1181183,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,-1.0,Not applicable
+1181184,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,1.0,Yes
+1181185,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,2.0,No
+1181186,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,-8.0,No information
+1181187,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,-7.0,no NSHD questionnaire
+1181188,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,-1.0,Not applicable
+1181189,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,1.0,Yes
+1181190,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,2.0,No
+1181191,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_4,Post-C19: Whether other benefits used,-8.0,No information
+1181192,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_4,Post-C19: Whether other benefits used,-7.0,no NSHD questionnaire
+1181193,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_4,Post-C19: Whether other benefits used,-1.0,Not applicable
+1181194,NSHD46,COVIDW1WEBPOSTAL,cw1_benefitoth_4,Post-C19: Whether other benefits used,1.0,No - none of these
+1181195,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,-8.0,No information
+1181196,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,-7.0,no NSHD questionnaire
+1181197,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,-1.0,Not applicable
+1181198,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,1.0,Employed
+1181199,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,2.0,Self-employed
+1181200,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,3.0,In unpaid/ voluntary work
+1181201,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,4.0,Apprenticeship
+1181202,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,5.0,Unemployed
+1181203,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,6.0,Permanently sick or disabled
+1181204,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,7.0,Looking after home or family
+1181205,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,8.0,In education at school/college/university
+1181206,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,9.0,Retired
+1181207,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityb,Pre-C19: Economic activity,10.0,Doing something else
+1181208,NSHD46,COVIDW1WEBPOSTAL,cw1_apprentype,Pre-C19: Apprenticeship type,-8.0,No information
+1181209,NSHD46,COVIDW1WEBPOSTAL,cw1_apprentype,Pre-C19: Apprenticeship type,-7.0,no NSHD questionnaire
+1181210,NSHD46,COVIDW1WEBPOSTAL,cw1_apprentype,Pre-C19: Apprenticeship type,-1.0,Not applicable
+1181211,NSHD46,COVIDW1WEBPOSTAL,cw1_apprentype,Pre-C19: Apprenticeship type,1.0,A full time job
+1181212,NSHD46,COVIDW1WEBPOSTAL,cw1_apprentype,Pre-C19: Apprenticeship type,2.0,Or a part time job
+1181213,NSHD46,COVIDW1WEBPOSTAL,cw1_apprentype,Pre-C19: Apprenticeship type,3.0,Not part of any job
+1181214,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursb,Pre-C19: Usual weekly working hours including overtime,-8.0,No information
+1181215,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursb,Pre-C19: Usual weekly working hours including overtime,-7.0,no NSHD questionnaire
+1181216,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursb,Pre-C19: Usual weekly working hours including overtime,-1.0,Not applicable
+1181217,NSHD46,COVIDW1WEBPOSTAL,cw1_zerohb,Pre-C19: Whether has zero hours contract,-8.0,No information
+1181218,NSHD46,COVIDW1WEBPOSTAL,cw1_zerohb,Pre-C19: Whether has zero hours contract,-7.0,no NSHD questionnaire
+1181219,NSHD46,COVIDW1WEBPOSTAL,cw1_zerohb,Pre-C19: Whether has zero hours contract,-1.0,Not applicable
+1181220,NSHD46,COVIDW1WEBPOSTAL,cw1_zerohb,Pre-C19: Whether has zero hours contract,1.0,Yes
+1181221,NSHD46,COVIDW1WEBPOSTAL,cw1_zerohb,Pre-C19: Whether has zero hours contract,2.0,No
+1181222,NSHD46,COVIDW1WEBPOSTAL,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,-8.0,No information
+1181223,NSHD46,COVIDW1WEBPOSTAL,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,-7.0,no NSHD questionnaire
+1181224,NSHD46,COVIDW1WEBPOSTAL,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,-1.0,Not applicable
+1181225,NSHD46,COVIDW1WEBPOSTAL,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,1.0,Yes
+1181226,NSHD46,COVIDW1WEBPOSTAL,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,2.0,No
+1181227,NSHD46,COVIDW1WEBPOSTAL,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,-8.0,No information
+1181228,NSHD46,COVIDW1WEBPOSTAL,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,-7.0,no NSHD questionnaire
+1181229,NSHD46,COVIDW1WEBPOSTAL,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,-1.0,Not applicable
+1181230,NSHD46,COVIDW1WEBPOSTAL,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,1.0,Yes
+1181231,NSHD46,COVIDW1WEBPOSTAL,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,2.0,No
+1181232,NSHD46,COVIDW1WEBPOSTAL,cw1_studyorg,Pre-C19: Institution of study,-8.0,No information
+1181233,NSHD46,COVIDW1WEBPOSTAL,cw1_studyorg,Pre-C19: Institution of study,-7.0,no NSHD questionnaire
+1181234,NSHD46,COVIDW1WEBPOSTAL,cw1_studyorg,Pre-C19: Institution of study,-1.0,Not applicable
+1181235,NSHD46,COVIDW1WEBPOSTAL,cw1_studyorg,Pre-C19: Institution of study,1.0,School
+1181236,NSHD46,COVIDW1WEBPOSTAL,cw1_studyorg,Pre-C19: Institution of study,2.0,College
+1181237,NSHD46,COVIDW1WEBPOSTAL,cw1_studyorg,Pre-C19: Institution of study,3.0,University
+1181238,NSHD46,COVIDW1WEBPOSTAL,cw1_studyorg,Pre-C19: Institution of study,4.0,Other
+1181239,NSHD46,COVIDW1WEBPOSTAL,cw1_studyhrs,Pre-C19: Whether study full or part time,-8.0,No information
+1181240,NSHD46,COVIDW1WEBPOSTAL,cw1_studyhrs,Pre-C19: Whether study full or part time,-7.0,no NSHD questionnaire
+1181241,NSHD46,COVIDW1WEBPOSTAL,cw1_studyhrs,Pre-C19: Whether study full or part time,-1.0,Not applicable
+1181242,NSHD46,COVIDW1WEBPOSTAL,cw1_studyhrs,Pre-C19: Whether study full or part time,1.0,Full-time
+1181243,NSHD46,COVIDW1WEBPOSTAL,cw1_studyhrs,Pre-C19: Whether study full or part time,2.0,Part time
+1181244,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,-8.0,No information
+1181245,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,-7.0,no NSHD questionnaire
+1181246,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,-1.0,Not applicable
+1181247,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,1.0,One year
+1181248,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,2.0,Two years
+1181249,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,3.0,Three years
+1181250,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,4.0,Four years
+1181251,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur,Pre-C19: Course duration - Selected Choice,5.0,Other (please specify)
+1181252,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur_5_text,Course duration - Other (please specify) - Text,-1.0,Not applicable
+1181253,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur_5_text,Course duration - Other (please specify) - Text,-7.0,no NSHD questionnaire
+1181254,NSHD46,COVIDW1WEBPOSTAL,cw1_coursedur_5_text,Course duration - Other (please specify) - Text,-8.0,No information
+1181255,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,-8.0,No information
+1181256,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,-7.0,no NSHD questionnaire
+1181257,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,-1.0,Not applicable
+1181258,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,1.0,First year
+1181259,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,2.0,Second year
+1181260,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,3.0,Third year
+1181261,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,4.0,Fourth year
+1181262,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,5.0,Other (please specify)
+1181263,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear_5_text,Current year of study - Other (please specify) - Text,-1.0,Not applicable
+1181264,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear_5_text,Current year of study - Other (please specify) - Text,-7.0,no NSHD questionnaire
+1181265,NSHD46,COVIDW1WEBPOSTAL,cw1_studyyear_5_text,Current year of study - Other (please specify) - Text,-8.0,No information
+1181266,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,-8.0,No information
+1181267,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,-7.0,no NSHD questionnaire
+1181268,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,-1.0,Not applicable
+1181269,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,1.0,No interruption to learning activities
+1181270,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,2.0,Taking a formal break
+1181271,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,3.0,Studying at home with online resources provided
+1181272,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,4.0,Studying at home with no online resources provided
+1181273,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,5.0,Dropped out
+1181274,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,6.0,Other (please specify)
+1181275,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng_6_text,Change in learning activity - during outbreak - Other (Please specify) - Text,-1.0,Not applicable
+1181276,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng_6_text,Change in learning activity - during outbreak - Other (Please specify) - Text,-7.0,no NSHD questionnaire
+1181277,NSHD46,COVIDW1WEBPOSTAL,cw1_learnactivitychng_6_text,Change in learning activity - during outbreak - Other (Please specify) - Text,-8.0,No information
+1181278,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,-8.0,No information
+1181279,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,-7.0,no NSHD questionnaire
+1181280,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,-1.0,Not applicable
+1181281,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,0.0,Completely disagree
+1181282,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,10.0,Completely agree
+1181283,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,-8.0,No information
+1181284,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,-7.0,no NSHD questionnaire
+1181285,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,-1.0,Not applicable
+1181286,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,0.0,Completely disagree
+1181287,NSHD46,COVIDW1WEBPOSTAL,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,10.0,Completely agree
+1181288,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),-8.0,No information
+1181289,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),-7.0,no NSHD questionnaire
+1181290,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),-1.0,Not applicable
+1181291,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),1.0,Employed
+1181292,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),2.0,Self-employed
+1181293,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),3.0,In unpaid/ voluntary work
+1181294,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),4.0,Apprenticeship
+1181295,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),5.0,Unemployed
+1181296,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),6.0,Permanently sick or disabled
+1181297,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),7.0,Looking after home or family
+1181298,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),8.0,In education at school/college/university
+1181299,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),9.0,Retired
+1181300,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),10.0,Doing something else
+1181301,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursdedu,Post-C19: Ususal weekly working hours (if learning interrupted),-8.0,No information
+1181302,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursdedu,Post-C19: Ususal weekly working hours (if learning interrupted),-7.0,no NSHD questionnaire
+1181303,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursdedu,Post-C19: Ususal weekly working hours (if learning interrupted),-1.0,Not applicable
+1181304,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),-8.0,No information
+1181305,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),-7.0,no NSHD questionnaire
+1181306,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),-1.0,Not applicable
+1181307,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),1.0,Work from your own home
+1181308,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),2.0,Work at employer's premises
+1181309,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),3.0,Other
+1181310,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),-8.0,No information
+1181311,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),-7.0,no NSHD questionnaire
+1181312,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),-1.0,Not applicable
+1181313,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),1.0,Yes
+1181314,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),2.0,No
+1181315,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,-8.0,No information
+1181316,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,-7.0,no NSHD questionnaire
+1181317,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,-1.0,Not applicable
+1181318,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,1.0,Employed and currently working
+1181319,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,2.0,Employed but on paid leave (including furlough)
+1181320,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,3.0,Employed and on unpaid leave
+1181321,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,4.0,Apprenticeship
+1181322,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,5.0,In unpaid/voluntary work
+1181323,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,6.0,Self-employed and currently working
+1181324,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,7.0,Self-employed but not currently working
+1181325,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,8.0,Unemployed
+1181326,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,9.0,Permanently sick or disabled
+1181327,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,10.0,Looking after home or family
+1181328,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,11.0,In education at school/college/university
+1181329,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,12.0,Retired
+1181330,NSHD46,COVIDW1WEBPOSTAL,cw1_econactivityd,Post-C19: Economic activity,13.0,Doing something else
+1181331,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursd,Post-C19: Usual weekly working hours,-8.0,No information
+1181332,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursd,Post-C19: Usual weekly working hours,-7.0,no NSHD questionnaire
+1181333,NSHD46,COVIDW1WEBPOSTAL,cw1_wrkhoursd,Post-C19: Usual weekly working hours,-1.0,Not applicable
+1181334,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationd,Post-C19: Work location,-8.0,No information
+1181335,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationd,Post-C19: Work location,-7.0,no NSHD questionnaire
+1181336,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationd,Post-C19: Work location,-1.0,Not applicable
+1181337,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationd,Post-C19: Work location,1.0,Work from your own home
+1181338,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationd,Post-C19: Work location,2.0,Work at employer's premises
+1181339,NSHD46,COVIDW1WEBPOSTAL,cw1_wrklocationd,Post-C19: Work location,3.0,Other
+1181340,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkerd,Post-C19: Whether a key worker,-8.0,No information
+1181341,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkerd,Post-C19: Whether a key worker,-7.0,no NSHD questionnaire
+1181342,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkerd,Post-C19: Whether a key worker,-1.0,Not applicable
+1181343,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkerd,Post-C19: Whether a key worker,1.0,Yes
+1181344,NSHD46,COVIDW1WEBPOSTAL,cw1_keyworkerd,Post-C19: Whether a key worker,2.0,No
+1181345,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,-8.0,No information
+1181346,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,-7.0,no NSHD questionnaire
+1181347,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,-1.0,Not applicable
+1181348,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,1.0,Employed
+1181349,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,2.0,Self-employed
+1181350,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,3.0,In unpaid/ voluntary work
+1181351,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,4.0,Apprenticeship
+1181352,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,5.0,Unemployed
+1181353,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,6.0,Permanently sick or disabled
+1181354,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,7.0,Looking after home or family
+1181355,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,8.0,In education at school/college/university
+1181356,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,9.0,Retired
+1181357,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityb,Pre-C19: Partner's economic activity,10.0,Doing something else
+1181358,NSHD46,COVIDW1WEBPOSTAL,cw1_papprentype,Pre-C19: Partner's apprenticeship type,-8.0,No information
+1181359,NSHD46,COVIDW1WEBPOSTAL,cw1_papprentype,Pre-C19: Partner's apprenticeship type,-7.0,no NSHD questionnaire
+1181360,NSHD46,COVIDW1WEBPOSTAL,cw1_papprentype,Pre-C19: Partner's apprenticeship type,-1.0,Not applicable
+1181361,NSHD46,COVIDW1WEBPOSTAL,cw1_papprentype,Pre-C19: Partner's apprenticeship type,1.0,A full time job
+1181362,NSHD46,COVIDW1WEBPOSTAL,cw1_papprentype,Pre-C19: Partner's apprenticeship type,2.0,Or a part time job
+1181363,NSHD46,COVIDW1WEBPOSTAL,cw1_papprentype,Pre-C19: Partner's apprenticeship type,3.0,Not part of any job
+1181364,NSHD46,COVIDW1WEBPOSTAL,cw1_pwrkhoursb,Pre-C19: Partner's usual weekly working hours including overtime,-8.0,No information
+1181365,NSHD46,COVIDW1WEBPOSTAL,cw1_pwrkhoursb,Pre-C19: Partner's usual weekly working hours including overtime,-7.0,no NSHD questionnaire
+1181366,NSHD46,COVIDW1WEBPOSTAL,cw1_pwrkhoursb,Pre-C19: Partner's usual weekly working hours including overtime,-1.0,Not applicable
+1181367,NSHD46,COVIDW1WEBPOSTAL,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,-8.0,No information
+1181368,NSHD46,COVIDW1WEBPOSTAL,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,-7.0,no NSHD questionnaire
+1181369,NSHD46,COVIDW1WEBPOSTAL,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,-1.0,Not applicable
+1181370,NSHD46,COVIDW1WEBPOSTAL,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,1.0,Yes
+1181371,NSHD46,COVIDW1WEBPOSTAL,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,2.0,No
+1181372,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,-8.0,No information
+1181373,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,-7.0,no NSHD questionnaire
+1181374,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,-1.0,Not applicable
+1181375,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,1.0,Employed and currently working
+1181376,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,2.0,Employed but on paid leave (including furlough)
+1181377,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,3.0,Employed and on unpaid leave
+1181378,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,4.0,Apprenticeship
+1181379,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,5.0,In unpaid/voluntary work
+1181380,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,6.0,Self-employed and currently working
+1181381,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,7.0,Self-employed but not currently working
+1181382,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,8.0,Unemployed
+1181383,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,9.0,Permanently sick or disabled
+1181384,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,10.0,Looking after home or family
+1181385,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,11.0,In education at school/college/university
+1181386,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,12.0,Retired
+1181387,NSHD46,COVIDW1WEBPOSTAL,cw1_peconactivityd,Post-C19: Partner's economic activity,13.0,Doing something else
+1181388,NSHD46,COVIDW1WEBPOSTAL,cw1_pwrkhoursd,Post-C19: Partner's usual weekly working hours including overtime,-8.0,No information
+1181389,NSHD46,COVIDW1WEBPOSTAL,cw1_pwrkhoursd,Post-C19: Partner's usual weekly working hours including overtime,-7.0,no NSHD questionnaire
+1181390,NSHD46,COVIDW1WEBPOSTAL,cw1_pwrkhoursd,Post-C19: Partner's usual weekly working hours including overtime,-1.0,Not applicable
+1181391,NSHD46,COVIDW1WEBPOSTAL,cw1_pkeyworker,Post-C19: Whether partner is a key worker,-8.0,No information
+1181392,NSHD46,COVIDW1WEBPOSTAL,cw1_pkeyworker,Post-C19: Whether partner is a key worker,-7.0,no NSHD questionnaire
+1181393,NSHD46,COVIDW1WEBPOSTAL,cw1_pkeyworker,Post-C19: Whether partner is a key worker,-1.0,Not applicable
+1181394,NSHD46,COVIDW1WEBPOSTAL,cw1_pkeyworker,Post-C19: Whether partner is a key worker,1.0,Yes
+1181395,NSHD46,COVIDW1WEBPOSTAL,cw1_pkeyworker,Post-C19: Whether partner is a key worker,2.0,No
+1181396,NSHD46,COVIDW1WEBPOSTAL,cw1_smoking,Smoking behaviour,-8.0,No information
+1181397,NSHD46,COVIDW1WEBPOSTAL,cw1_smoking,Smoking behaviour,-7.0,no NSHD questionnaire
+1181398,NSHD46,COVIDW1WEBPOSTAL,cw1_smoking,Smoking behaviour,-1.0,Not applicable
+1181399,NSHD46,COVIDW1WEBPOSTAL,cw1_smoking,Smoking behaviour,1.0,Never smoked
+1181400,NSHD46,COVIDW1WEBPOSTAL,cw1_smoking,Smoking behaviour,2.0,Used to smoke but not at all now
+1181401,NSHD46,COVIDW1WEBPOSTAL,cw1_smoking,Smoking behaviour,3.0,Occasionally smokes but not daily
+1181402,NSHD46,COVIDW1WEBPOSTAL,cw1_smoking,Smoking behaviour,4.0,Smokes cigarettes every day
+1181403,NSHD46,COVIDW1WEBPOSTAL,cw1_numcigspp,Pre-C19: Number of cigs smoked a day the month prior,-8.0,No information
+1181404,NSHD46,COVIDW1WEBPOSTAL,cw1_numcigspp,Pre-C19: Number of cigs smoked a day the month prior,-7.0,no NSHD questionnaire
+1181405,NSHD46,COVIDW1WEBPOSTAL,cw1_numcigspp,Pre-C19: Number of cigs smoked a day the month prior,-1.0,Not applicable
+1181406,NSHD46,COVIDW1WEBPOSTAL,cw1_numcigssp,Post-C19: Number of cigs smoked a day,-8.0,No information
+1181407,NSHD46,COVIDW1WEBPOSTAL,cw1_numcigssp,Post-C19: Number of cigs smoked a day,-7.0,no NSHD questionnaire
+1181408,NSHD46,COVIDW1WEBPOSTAL,cw1_numcigssp,Post-C19: Number of cigs smoked a day,-1.0,Not applicable
+1181409,NSHD46,COVIDW1WEBPOSTAL,cw1_vape,Vaping behaviour,-8.0,No information
+1181410,NSHD46,COVIDW1WEBPOSTAL,cw1_vape,Vaping behaviour,-7.0,no NSHD questionnaire
+1181411,NSHD46,COVIDW1WEBPOSTAL,cw1_vape,Vaping behaviour,-1.0,Not applicable
+1181412,NSHD46,COVIDW1WEBPOSTAL,cw1_vape,Vaping behaviour,1.0,Never used e-cig or vaping device
+1181413,NSHD46,COVIDW1WEBPOSTAL,cw1_vape,Vaping behaviour,2.0,Used to use vaping device but not at all now
+1181414,NSHD46,COVIDW1WEBPOSTAL,cw1_vape,Vaping behaviour,3.0,Occasionally use vaping device but not daily
+1181415,NSHD46,COVIDW1WEBPOSTAL,cw1_vape,Vaping behaviour,4.0,Uses e-cig or vaping device every day
+1181416,NSHD46,COVIDW1WEBPOSTAL,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,-8.0,No information
+1181417,NSHD46,COVIDW1WEBPOSTAL,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,-7.0,no NSHD questionnaire
+1181418,NSHD46,COVIDW1WEBPOSTAL,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,-1.0,Not applicable
+1181419,NSHD46,COVIDW1WEBPOSTAL,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,1.0,More frequent use of e-cig/vaping device
+1181420,NSHD46,COVIDW1WEBPOSTAL,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,2.0,Less frequent use of e-cig/vaping device
+1181421,NSHD46,COVIDW1WEBPOSTAL,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,3.0,No change
+1181422,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,-8.0,No information
+1181423,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,-7.0,no NSHD questionnaire
+1181424,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,-1.0,Not applicable
+1181425,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,1.0,4 or more times a week
+1181426,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,2.0,2-3 times a week
+1181427,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,3.0,2-4 times per month
+1181428,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,4.0,Monthly or less
+1181429,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrpp,Pre-C19: How often drank alcohol,5.0,Never
+1181430,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,-8.0,No information
+1181431,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,-7.0,no NSHD questionnaire
+1181432,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,-1.0,Not applicable
+1181433,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,1.0,1-2
+1181434,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,2.0,3-4
+1181435,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,3.0,5-6
+1181436,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,4.0,7-9
+1181437,NSHD46,COVIDW1WEBPOSTAL,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,5.0,10+
+1181438,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,-8.0,No information
+1181439,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,-7.0,no NSHD questionnaire
+1181440,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,-1.0,Not applicable
+1181441,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,1.0,4 or more times a week
+1181442,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,2.0,2-3 times a week
+1181443,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,3.0,2-4 times per month
+1181444,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,4.0,Monthly or less
+1181445,NSHD46,COVIDW1WEBPOSTAL,cw1_aldrsp,Post-C19: How often drinks alcohol,5.0,Never
+1181446,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,-8.0,No information
+1181447,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,-7.0,no NSHD questionnaire
+1181448,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,-1.0,Not applicable
+1181449,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,1.0,1-2
+1181450,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,2.0,3-4
+1181451,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,3.0,5-6
+1181452,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,4.0,7-9
+1181453,NSHD46,COVIDW1WEBPOSTAL,cw1_aundsp,Post-C19: Number of drinks a day,5.0,10+
+1181454,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,-8.0,No information
+1181455,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,-7.0,no NSHD questionnaire
+1181456,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,-1.0,Not applicable
+1181457,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,1.0,Never
+1181458,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,2.0,Less than monthly
+1181459,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,3.0,Monthly
+1181460,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,4.0,Weekly
+1181461,NSHD46,COVIDW1WEBPOSTAL,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,5.0,Daily or almost daily
+1181462,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,-8.0,No information
+1181463,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,-7.0,no NSHD questionnaire
+1181464,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,-1.0,Not applicable
+1181465,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,1.0,Never
+1181466,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,2.0,Less than monthly
+1181467,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,3.0,Monthly
+1181468,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,4.0,Weekly
+1181469,NSHD46,COVIDW1WEBPOSTAL,cw1_auacsp,Post-C19: How often not done what expected because of drinking,5.0,Daily or almost daily
+1181470,NSHD46,COVIDW1WEBPOSTAL,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,-8.0,No information
+1181471,NSHD46,COVIDW1WEBPOSTAL,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,-7.0,no NSHD questionnaire
+1181472,NSHD46,COVIDW1WEBPOSTAL,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,-1.0,Not applicable
+1181473,NSHD46,COVIDW1WEBPOSTAL,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,1.0,Yes
+1181474,NSHD46,COVIDW1WEBPOSTAL,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,2.0,No
+1181475,NSHD46,COVIDW1WEBPOSTAL,cw1_excisepp,Pre-C19: No. of days did 30 mins exercise in month prior,-8.0,No information
+1181476,NSHD46,COVIDW1WEBPOSTAL,cw1_excisepp,Pre-C19: No. of days did 30 mins exercise in month prior,-7.0,no NSHD questionnaire
+1181477,NSHD46,COVIDW1WEBPOSTAL,cw1_excisepp,Pre-C19: No. of days did 30 mins exercise in month prior,-1.0,Not applicable
+1181478,NSHD46,COVIDW1WEBPOSTAL,cw1_excisesp,Post-C19: No. of days did 30 mins exercise,-8.0,No information
+1181479,NSHD46,COVIDW1WEBPOSTAL,cw1_excisesp,Post-C19: No. of days did 30 mins exercise,-7.0,no NSHD questionnaire
+1181480,NSHD46,COVIDW1WEBPOSTAL,cw1_excisesp,Post-C19: No. of days did 30 mins exercise,-1.0,Not applicable
+1181481,NSHD46,COVIDW1WEBPOSTAL,cw1_frtvegpp,Pre-C19: No of portions of fresh fruit & veg a day in month prior,-1.0,Not applicable
+1181482,NSHD46,COVIDW1WEBPOSTAL,cw1_frtvegpp,Pre-C19: No of portions of fresh fruit & veg a day in month prior,-7.0,no NSHD questionnaire
+1181483,NSHD46,COVIDW1WEBPOSTAL,cw1_frtvegpp,Pre-C19: No of portions of fresh fruit & veg a day in month prior,-8.0,No information
+1181484,NSHD46,COVIDW1WEBPOSTAL,cw1_frtvegsp,Post-C19: No of portions of fresh fruit & veg a day,-1.0,Not applicable
+1181485,NSHD46,COVIDW1WEBPOSTAL,cw1_frtvegsp,Post-C19: No of portions of fresh fruit & veg a day,-7.0,no NSHD questionnaire
+1181486,NSHD46,COVIDW1WEBPOSTAL,cw1_frtvegsp,Post-C19: No of portions of fresh fruit & veg a day,-8.0,No information
+1181487,NSHD46,COVIDW1WEBPOSTAL,cw1_hsleeppp,Pre-C19: No. hours slept a night in month prior,-8.0,No information
+1181488,NSHD46,COVIDW1WEBPOSTAL,cw1_hsleeppp,Pre-C19: No. hours slept a night in month prior,-7.0,no NSHD questionnaire
+1181489,NSHD46,COVIDW1WEBPOSTAL,cw1_hsleeppp,Pre-C19: No. hours slept a night in month prior,-1.0,Not applicable
+1181490,NSHD46,COVIDW1WEBPOSTAL,cw1_hsleepsp,Post-C19: No. hours slept a night,-8.0,No information
+1181491,NSHD46,COVIDW1WEBPOSTAL,cw1_hsleepsp,Post-C19: No. hours slept a night,-7.0,no NSHD questionnaire
+1181492,NSHD46,COVIDW1WEBPOSTAL,cw1_hsleepsp,Post-C19: No. hours slept a night,-1.0,Not applicable
+1181493,NSHD46,COVIDW1WEBPOSTAL,cw1_weight,Self-reported weight in kilograms or stones and pounds,-8.0,No information
+1181494,NSHD46,COVIDW1WEBPOSTAL,cw1_weight,Self-reported weight in kilograms or stones and pounds,-7.0,no NSHD questionnaire
+1181495,NSHD46,COVIDW1WEBPOSTAL,cw1_weight,Self-reported weight in kilograms or stones and pounds,-1.0,Not applicable
+1181496,NSHD46,COVIDW1WEBPOSTAL,cw1_weight,Self-reported weight in kilograms or stones and pounds,1.0,Kilograms
+1181497,NSHD46,COVIDW1WEBPOSTAL,cw1_weight,Self-reported weight in kilograms or stones and pounds,2.0,Stones and Pounds
+1181498,NSHD46,COVIDW1WEBPOSTAL,cw1_weight,Self-reported weight in kilograms or stones and pounds,3.0,I do not wish to report my weight
+1181499,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtkg,Weight in kilograms,-8.0,No information
+1181500,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtkg,Weight in kilograms,-7.0,no NSHD questionnaire
+1181501,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtkg,Weight in kilograms,-1.0,Not applicable
+1181502,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtstp_4,Weight in stones and pounds - Stone,-8.0,No information
+1181503,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtstp_4,Weight in stones and pounds - Stone,-7.0,no NSHD questionnaire
+1181504,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtstp_4,Weight in stones and pounds - Stone,-1.0,Not applicable
+1181505,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtstp_5,Weight in stones and pounds - Pounds,-8.0,No information
+1181506,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtstp_5,Weight in stones and pounds - Pounds,-7.0,no NSHD questionnaire
+1181507,NSHD46,COVIDW1WEBPOSTAL,cw1_wghtstp_5,Weight in stones and pounds - Pounds,-1.0,Not applicable
+1181508,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,-8.0,No information
+1181509,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,-7.0,no NSHD questionnaire
+1181510,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,-1.0,Not applicable
+1181511,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,1.0,Every day
+1181512,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,2.0,4-6 days
+1181513,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,3.0,2-3 days
+1181514,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,4.0,1 day
+1181515,NSHD46,COVIDW1WEBPOSTAL,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,5.0,Never
+1181516,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,-8.0,No information
+1181517,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,-7.0,no NSHD questionnaire
+1181518,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,-1.0,Not applicable
+1181519,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,1.0,Every day
+1181520,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,2.0,4-6 days
+1181521,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,3.0,2-3 days
+1181522,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,4.0,1 day
+1181523,NSHD46,COVIDW1WEBPOSTAL,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,5.0,Never
+1181524,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,-8.0,No information
+1181525,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,-7.0,no NSHD questionnaire
+1181526,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,-1.0,Not applicable
+1181527,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,1.0,Every day
+1181528,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,2.0,4-6 days
+1181529,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,3.0,2-3 days
+1181530,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,4.0,1 day
+1181531,NSHD46,COVIDW1WEBPOSTAL,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,5.0,Never
+1181532,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,-8.0,No information
+1181533,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,-7.0,no NSHD questionnaire
+1181534,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,-1.0,Not applicable
+1181535,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,1.0,Every day
+1181536,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,2.0,4-6 days
+1181537,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,3.0,2-3 days
+1181538,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,4.0,1 day
+1181539,NSHD46,COVIDW1WEBPOSTAL,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,5.0,Never
+1181540,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,-8.0,No information
+1181541,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,-7.0,no NSHD questionnaire
+1181542,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,-1.0,Not applicable
+1181543,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,1.0,Every day
+1181544,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,2.0,4-6 days
+1181545,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,3.0,2-3 days
+1181546,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,4.0,1 day
+1181547,NSHD46,COVIDW1WEBPOSTAL,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,5.0,Never
+1181548,NSHD46,COVIDW1WEBPOSTAL,cw1_sick,Whether CM could count on people to help if sick in bed,-8.0,No information
+1181549,NSHD46,COVIDW1WEBPOSTAL,cw1_sick,Whether CM could count on people to help if sick in bed,-7.0,no NSHD questionnaire
+1181550,NSHD46,COVIDW1WEBPOSTAL,cw1_sick,Whether CM could count on people to help if sick in bed,-1.0,Not applicable
+1181551,NSHD46,COVIDW1WEBPOSTAL,cw1_sick,Whether CM could count on people to help if sick in bed,1.0,Not at all
+1181552,NSHD46,COVIDW1WEBPOSTAL,cw1_sick,Whether CM could count on people to help if sick in bed,2.0,A little
+1181553,NSHD46,COVIDW1WEBPOSTAL,cw1_sick,Whether CM could count on people to help if sick in bed,3.0,Somewhat
+1181554,NSHD46,COVIDW1WEBPOSTAL,cw1_sick,Whether CM could count on people to help if sick in bed,4.0,A great deal
+1181555,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_1,UCLA loneliness scale- How often CM feels they lack companionship?,-8.0,No information
+1181556,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_1,UCLA loneliness scale- How often CM feels they lack companionship?,-7.0,no NSHD questionnaire
+1181557,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_1,UCLA loneliness scale- How often CM feels they lack companionship?,-1.0,Not applicable
+1181558,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_1,UCLA loneliness scale- How often CM feels they lack companionship?,1.0,Hardly ever
+1181559,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_1,UCLA loneliness scale- How often CM feels they lack companionship?,2.0,Some of the time
+1181560,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_1,UCLA loneliness scale- How often CM feels they lack companionship?,3.0,Often
+1181561,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_2,UCLA loneliness scale- How often CM feels left out?,-8.0,No information
+1181562,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_2,UCLA loneliness scale- How often CM feels left out?,-7.0,no NSHD questionnaire
+1181563,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_2,UCLA loneliness scale- How often CM feels left out?,-1.0,Not applicable
+1181564,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_2,UCLA loneliness scale- How often CM feels left out?,1.0,Hardly ever
+1181565,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_2,UCLA loneliness scale- How often CM feels left out?,2.0,Some of the time
+1181566,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_2,UCLA loneliness scale- How often CM feels left out?,3.0,Often
+1181567,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_3,UCLA loneliness scale- How often CM feels isolated from others?,-8.0,No information
+1181568,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_3,UCLA loneliness scale- How often CM feels isolated from others?,-7.0,no NSHD questionnaire
+1181569,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_3,UCLA loneliness scale- How often CM feels isolated from others?,-1.0,Not applicable
+1181570,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_3,UCLA loneliness scale- How often CM feels isolated from others?,1.0,Hardly ever
+1181571,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_3,UCLA loneliness scale- How often CM feels isolated from others?,2.0,Some of the time
+1181572,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_3,UCLA loneliness scale- How often CM feels isolated from others?,3.0,Often
+1181573,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_4,UCLA loneliness scale- How often CM feels lonely?,-8.0,No information
+1181574,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_4,UCLA loneliness scale- How often CM feels lonely?,-7.0,no NSHD questionnaire
+1181575,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_4,UCLA loneliness scale- How often CM feels lonely?,-1.0,Not applicable
+1181576,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_4,UCLA loneliness scale- How often CM feels lonely?,1.0,Hardly ever
+1181577,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_4,UCLA loneliness scale- How often CM feels lonely?,2.0,Some of the time
+1181578,NSHD46,COVIDW1WEBPOSTAL,cw1_lonely_4,UCLA loneliness scale- How often CM feels lonely?,3.0,Often
+1181579,NSHD46,COVIDW1WEBPOSTAL,cw1_satn,Life Satisfaction from 0 (Not at all satisfied) to 10 (completely satisfied),-8.0,No information
+1181580,NSHD46,COVIDW1WEBPOSTAL,cw1_satn,Life Satisfaction from 0 (Not at all satisfied) to 10 (completely satisfied),-7.0,no NSHD questionnaire
+1181581,NSHD46,COVIDW1WEBPOSTAL,cw1_satn,Life Satisfaction from 0 (Not at all satisfied) to 10 (completely satisfied),-1.0,Not applicable
+1181582,NSHD46,COVIDW1WEBPOSTAL,cw1_satn,Life Satisfaction from 0 (Not at all satisfied) to 10 (completely satisfied),0.0,Not at all satisfied
+1181583,NSHD46,COVIDW1WEBPOSTAL,cw1_satn,Life Satisfaction from 0 (Not at all satisfied) to 10 (completely satisfied),10.0,Completely satisfied
+1181584,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,-8.0,No information
+1181585,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,-7.0,no NSHD questionnaire
+1181586,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,-1.0,Not applicable
+1181587,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,1.0, Better than usual
+1181588,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,2.0,Same as usual
+1181589,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,3.0,Less than usual
+1181590,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,4.0,Much less than usual
+1181591,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,6.0,2+3
+1181592,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,7.0,2+4
+1181593,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,8.0,1+4
+1181594,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,9.0,3+4
+1181595,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq121,Post-C19: GHQ12- Whether been able to concentrate,10.0,1+2
+1181596,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,-8.0,No information
+1181597,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,-7.0,no NSHD questionnaire
+1181598,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,-1.0,Not applicable
+1181599,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,1.0,Not at all
+1181600,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,2.0,No more than usual
+1181601,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,3.0,Rather more than usual
+1181602,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,4.0,Much more than usual
+1181603,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,6.0,2+3
+1181604,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,7.0,2+4
+1181605,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,8.0,1+4
+1181606,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,9.0,3+4
+1181607,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq122,Post-C19: GHQ12- Whether lost much sleep over worry,10.0,1+2
+1181608,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,-8.0,No information
+1181609,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,-7.0,no NSHD questionnaire
+1181610,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,-1.0,Not applicable
+1181611,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,1.0, More so than usual
+1181612,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,2.0,Same as usual
+1181613,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,3.0,Less useful than usual
+1181614,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,4.0,Much less useful
+1181615,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,6.0,2+3
+1181616,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,7.0,2+4
+1181617,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,8.0,1+4
+1181618,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,9.0,3+4
+1181619,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq123,Post-C19: GHQ12- Whether felt that playing a useful part in things,10.0,1+2
+1181620,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,-8.0,No information
+1181621,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,-7.0,no NSHD questionnaire
+1181622,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,-1.0,Not applicable
+1181623,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,1.0, More so than usual
+1181624,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,2.0,Same as usual
+1181625,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,3.0,Less so than usual
+1181626,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,4.0,Much less capable
+1181627,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,6.0,2+3
+1181628,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,7.0,2+4
+1181629,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,8.0,1+4
+1181630,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,9.0,3+4
+1181631,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq124,Post-C19: GHQ12- Whether felt capable of making decisions about things,10.0,1+2
+1181632,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,-8.0,No information
+1181633,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,-7.0,no NSHD questionnaire
+1181634,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,-1.0,Not applicable
+1181635,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,1.0,Not at all
+1181636,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,2.0,No more than usual
+1181637,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,3.0,Rather more than usual
+1181638,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,4.0,Much more than usual
+1181639,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,6.0,2+3
+1181640,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,7.0,2+4
+1181641,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,8.0,1+4
+1181642,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,9.0,3+4
+1181643,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq125,Post-C19: GHQ12- Whether felt constantly under strain,10.0,1+2
+1181644,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,-8.0,No information
+1181645,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,-7.0,no NSHD questionnaire
+1181646,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,-1.0,Not applicable
+1181647,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,1.0,Not at all
+1181648,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,2.0,No more than usual
+1181649,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,3.0,Rather more than usual
+1181650,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,4.0,Much more than usual
+1181651,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,6.0,2+3
+1181652,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,7.0,2+4
+1181653,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,8.0,1+4
+1181654,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,9.0,3+4
+1181655,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq126,Post-C19: GHQ12- Whether couldnâ€™t overcome difficulties,10.0,1+2
+1181656,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,-8.0,No information
+1181657,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,-7.0,no NSHD questionnaire
+1181658,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,-1.0,Not applicable
+1181659,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,1.0,More so than usual
+1181660,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,2.0,Same as usual
+1181661,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,3.0,Less so than usual
+1181662,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,4.0,Much less than usual
+1181663,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,6.0,2+3
+1181664,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,7.0,2+4
+1181665,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,8.0,1+4
+1181666,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,9.0,3+4
+1181667,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq127,Post-C19: GHQ12- Whether been able to enjoy normal day to day activities,10.0,1+2
+1181668,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,-8.0,No information
+1181669,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,-7.0,no NSHD questionnaire
+1181670,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,-1.0,Not applicable
+1181671,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,1.0,More so than usual
+1181672,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,2.0,Same as usual
+1181673,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,3.0,Less so than usual
+1181674,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,4.0,Much less able
+1181675,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,6.0,2+3
+1181676,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,7.0,2+4
+1181677,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,8.0,1+4
+1181678,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,9.0,3+4
+1181679,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq128,Post-C19: GHQ12- Whether been able to face up to problems,10.0,1+2
+1181680,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,-8.0,No information
+1181681,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,-7.0,no NSHD questionnaire
+1181682,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,-1.0,Not applicable
+1181683,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,1.0, Not at all
+1181684,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,2.0,No more than usual
+1181685,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,3.0,Rather more than usual
+1181686,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,4.0,Much more than usual
+1181687,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,6.0,2+3
+1181688,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,7.0,2+4
+1181689,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,8.0,1+4
+1181690,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,9.0,3+4
+1181691,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq129,Post-C19: GHQ12- Whether been feeling unhappy or depressed,10.0,1+2
+1181692,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,-8.0,No information
+1181693,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,-7.0,no NSHD questionnaire
+1181694,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,-1.0,Not applicable
+1181695,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,1.0,Not at all
+1181696,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,2.0,No more than usual
+1181697,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,3.0,Rather more than usual
+1181698,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,4.0,Much more than usual
+1181699,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,6.0,2+3
+1181700,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,7.0,2+4
+1181701,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,8.0,1+4
+1181702,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,9.0,3+4
+1181703,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1210,Post-C19: GHQ12- Whether been losing confidence in self,10.0,1+2
+1181704,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,-8.0,No information
+1181705,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,-7.0,no NSHD questionnaire
+1181706,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,-1.0,Not applicable
+1181707,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,1.0,Not at all
+1181708,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,2.0,No more than usual
+1181709,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,3.0,Rather more than usual
+1181710,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,4.0,Much more than usual
+1181711,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,6.0,2+3
+1181712,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,7.0,2+4
+1181713,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,8.0,1+4
+1181714,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,9.0,3+4
+1181715,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1211,Post-C19: GHQ12- Whether been thinking of self as a worthless person,10.0,1+2
+1181716,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,-8.0,No information
+1181717,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,-7.0,no NSHD questionnaire
+1181718,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,-1.0,Not applicable
+1181719,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,1.0,More so than usual
+1181720,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,5.0,Same as usual
+1181721,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,6.0,Less so than usual
+1181722,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,7.0,Much less than usual
+1181723,NSHD46,COVIDW1WEBPOSTAL,cw1_ghq1212,Post-C19: GHQ12- Whether been feeling reasonably happy,8.0,2+3
+1181724,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous,-8.0,No information
+1181725,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous,-7.0,no NSHD questionnaire
+1181726,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous,-1.0,Not applicable
+1181727,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous,1.0,Not at all
+1181728,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous,2.0,Several days
+1181729,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous,3.0,More than half the days
+1181730,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous,4.0,Nearly every day
+1181731,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,-8.0,No information
+1181732,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,-7.0,no NSHD questionnaire
+1181733,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,-1.0,Not applicable
+1181734,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,1.0,Not at all
+1181735,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,2.0,Several days
+1181736,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,3.0,More than half the days
+1181737,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,4.0,Nearly every day
+1181738,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,-8.0,No information
+1181739,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,-7.0,no NSHD questionnaire
+1181740,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,-1.0,Not applicable
+1181741,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,1.0,Not at all
+1181742,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,2.0,Several days
+1181743,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,3.0,More than half the days
+1181744,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,4.0,Nearly every day
+1181745,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down,-8.0,No information
+1181746,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down,-7.0,no NSHD questionnaire
+1181747,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down,-1.0,Not applicable
+1181748,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down,1.0,Not at all
+1181749,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down,2.0,Several days
+1181750,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down,3.0,More than half the days
+1181751,NSHD46,COVIDW1WEBPOSTAL,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down,4.0,Nearly every day
+1181752,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),-8.0,No information
+1181753,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),-7.0,no NSHD questionnaire
+1181754,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),-1.0,Not applicable
+1181755,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),1.0,Never
+1181756,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),2.0,1
+1181757,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),3.0,2
+1181758,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),4.0,3
+1181759,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),5.0,4
+1181760,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),6.0,5
+1181761,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),7.0,6
+1181762,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),8.0,7
+1181763,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),9.0,8
+1181764,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),10.0,9
+1181765,NSHD46,COVIDW1WEBPOSTAL,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),11.0,Always
+1181766,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),-8.0,No information
+1181767,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),-7.0,no NSHD questionnaire
+1181768,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),-1.0,Not applicable
+1181769,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),1.0,Never
+1181770,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),2.0,1
+1181771,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),3.0,2
+1181772,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),4.0,3
+1181773,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),5.0,4
+1181774,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),6.0,5
+1181775,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),7.0,6
+1181776,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),8.0,7
+1181777,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),9.0,8
+1181778,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),10.0,9
+1181779,NSHD46,COVIDW1WEBPOSTAL,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),11.0,Always
+1181780,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),-8.0,No information
+1181781,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),-7.0,no NSHD questionnaire
+1181782,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),-1.0,Not applicable
+1181783,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),1.0,Not at all trusting
+1181784,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),2.0,1
+1181785,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),3.0,2
+1181786,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),4.0,3
+1181787,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),5.0,4
+1181788,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),6.0,5
+1181789,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),7.0,6
+1181790,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),8.0,7
+1181791,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),9.0,8
+1181792,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),10.0,9
+1181793,NSHD46,COVIDW1WEBPOSTAL,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),11.0,Extremely trusting
+1181794,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),-8.0,No information
+1181795,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),-7.0,no NSHD questionnaire
+1181796,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),-1.0,Not applicable
+1181797,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),1.0,Not at all trusting
+1181798,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),2.0,1
+1181799,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),3.0,2
+1181800,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),4.0,3
+1181801,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),5.0,4
+1181802,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),6.0,5
+1181803,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),7.0,6
+1181804,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),8.0,7
+1181805,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),9.0,8
+1181806,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),10.0,9
+1181807,NSHD46,COVIDW1WEBPOSTAL,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),11.0,Extremely trusting
+1181808,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,-8.0,No information
+1181809,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,-7.0,no NSHD questionnaire
+1181810,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,-1.0,Not applicable
+1181811,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,1.0,More than before
+1181812,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,2.0,Same - no change
+1181813,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,3.0,Less than before
+1181814,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,-8.0,No information
+1181815,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,-7.0,no NSHD questionnaire
+1181816,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,-1.0,Not applicable
+1181817,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,1.0,More than before
+1181818,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,2.0,Same - no change
+1181819,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,3.0,Less than before
+1181820,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,-8.0,No information
+1181821,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,-7.0,no NSHD questionnaire
+1181822,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,-1.0,Not applicable
+1181823,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,1.0,More than before
+1181824,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,2.0,Same - no change
+1181825,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,3.0,Less than before
+1181826,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,-8.0,No information
+1181827,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,-7.0,no NSHD questionnaire
+1181828,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,-1.0,Not applicable
+1181829,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,1.0,More than before
+1181830,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,2.0,Same - no change
+1181831,NSHD46,COVIDW1WEBPOSTAL,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,3.0,Less than before
+1181832,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_1_1,Post-C19: Typical hours per day spent- Paid work,-1.0,Not applicable
+1181833,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_1_1,Post-C19: Typical hours per day spent- Paid work,-7.0,no NSHD questionnaire
+1181834,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_1_1,Post-C19: Typical hours per day spent- Paid work,-8.0,No information
+1181835,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_2_1,Post-C19: Typical hours per day spent- Volunteering/unpaid work (not for household),-1.0,Not applicable
+1181836,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_2_1,Post-C19: Typical hours per day spent- Volunteering/unpaid work (not for household),-7.0,no NSHD questionnaire
+1181837,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_2_1,Post-C19: Typical hours per day spent- Volunteering/unpaid work (not for household),-8.0,No information
+1181838,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_3_1,Post-C19: Typical hours per day spent- Home schooling your children (if you have any),-1.0,Not applicable
+1181839,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_3_1,Post-C19: Typical hours per day spent- Home schooling your children (if you have any),-7.0,no NSHD questionnaire
+1181840,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_3_1,Post-C19: Typical hours per day spent- Home schooling your children (if you have any),-8.0,No information
+1181841,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_4_1,Post-C19: Typical hours per day spent- Other interactive activities with children,-1.0,Not applicable
+1181842,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_4_1,Post-C19: Typical hours per day spent- Other interactive activities with children,-7.0,no NSHD questionnaire
+1181843,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_4_1,Post-C19: Typical hours per day spent- Other interactive activities with children,-8.0,No information
+1181844,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_5_1,Post-C19: Typical hours per day spent- Caring for someone other than a child,-1.0,Not applicable
+1181845,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_5_1,Post-C19: Typical hours per day spent- Caring for someone other than a child,-7.0,no NSHD questionnaire
+1181846,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_5_1,Post-C19: Typical hours per day spent- Caring for someone other than a child,-8.0,No information
+1181847,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_6_1,Post-C19: Typical hours per day spent- Housework,-1.0,Not applicable
+1181848,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_6_1,Post-C19: Typical hours per day spent- Housework,-7.0,no NSHD questionnaire
+1181849,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_6_1,Post-C19: Typical hours per day spent- Housework,-8.0,No information
+1181850,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_7_1,Post-C19: Typical hours per day spent- Formal learning as part of a course,-1.0,Not applicable
+1181851,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_7_1,Post-C19: Typical hours per day spent- Formal learning as part of a course,-7.0,no NSHD questionnaire
+1181852,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_7_1,Post-C19: Typical hours per day spent- Formal learning as part of a course,-8.0,No information
+1181853,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_8_1,Post-C19: Typical hours per day spent- Physical activity/exercise,-1.0,Not applicable
+1181854,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_8_1,Post-C19: Typical hours per day spent- Physical activity/exercise,-7.0,no NSHD questionnaire
+1181855,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_8_1,Post-C19: Typical hours per day spent- Physical activity/exercise,-8.0,No information
+1181856,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_9_1,Post-C19: Typical hours per day spent- Other leisure activities and hobbies,-1.0,Not applicable
+1181857,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_9_1,Post-C19: Typical hours per day spent- Other leisure activities and hobbies,-7.0,no NSHD questionnaire
+1181858,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_9_1,Post-C19: Typical hours per day spent- Other leisure activities and hobbies,-8.0,No information
+1181859,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_10_1,Post-C19: Typical hours per day spent- Socialising with non-hh members (phone etc),-1.0,Not applicable
+1181860,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_10_1,Post-C19: Typical hours per day spent- Socialising with non-hh members (phone etc),-7.0,no NSHD questionnaire
+1181861,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_10_1,Post-C19: Typical hours per day spent- Socialising with non-hh members (phone etc),-8.0,No information
+1181862,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_11_1,Post-C19: Typical hours per day spent- Socialising with non-hh members in person,-1.0,Not applicable
+1181863,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_11_1,Post-C19: Typical hours per day spent- Socialising with non-hh members in person,-7.0,no NSHD questionnaire
+1181864,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_11_1,Post-C19: Typical hours per day spent- Socialising with non-hh members in person,-8.0,No information
+1181865,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_12_1,Post-C19: Typical hours per day spent- Travelling for work,-1.0,Not applicable
+1181866,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_12_1,Post-C19: Typical hours per day spent- Travelling for work,-7.0,no NSHD questionnaire
+1181867,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_12_1,Post-C19: Typical hours per day spent- Travelling for work,-8.0,No information
+1181868,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_13_1,Post-C19: Typical hours per day spent- Shopping or essential appointments,-1.0,Not applicable
+1181869,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_13_1,Post-C19: Typical hours per day spent- Shopping or essential appointments,-7.0,no NSHD questionnaire
+1181870,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_13_1,Post-C19: Typical hours per day spent- Shopping or essential appointments,-8.0,No information
+1181871,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_14_1,Post-C19: Typical hours per day spent- Personal care (e.g. shower/bath,-1.0,Not applicable
+1181872,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_14_1,Post-C19: Typical hours per day spent- Personal care (e.g. shower/bath,-7.0,no NSHD questionnaire
+1181873,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_14_1,Post-C19: Typical hours per day spent- Personal care (e.g. shower/bath,-8.0,No information
+1181874,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_15_1,Post-C19: Typical hours per day spent- Ill in bed,-1.0,Not applicable
+1181875,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_15_1,Post-C19: Typical hours per day spent- Ill in bed,-7.0,no NSHD questionnaire
+1181876,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_15_1,Post-C19: Typical hours per day spent- Ill in bed,-8.0,No information
+1181877,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_16_1,Post-C19: Typical hours per day spent- Other,-1.0,Not applicable
+1181878,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_16_1,Post-C19: Typical hours per day spent- Other,-7.0,no NSHD questionnaire
+1181879,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse1_16_1,Post-C19: Typical hours per day spent- Other,-8.0,No information
+1181880,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse2,Post-C19: Typical hours per day spent outside (not including outdoor space at home),-8.0,No information
+1181881,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse2,Post-C19: Typical hours per day spent outside (not including outdoor space at home),-7.0,no NSHD questionnaire
+1181882,NSHD46,COVIDW1WEBPOSTAL,cw1_timeuse2,Post-C19: Typical hours per day spent outside (not including outdoor space at home),-1.0,Not applicable
+1181883,NSHD46,COVIDW1WEBPOSTAL,cw1_cohortid,Cohort group of repsondent,-7.0,No Questionnaire
+1181884,NSHD46,COVIDW1WEBPOSTAL,cw1_cohortid,Cohort group of repsondent,-1.0,Not applicable
+1181885,NSHD46,COVIDW1WEBPOSTAL,cw1_cohortid,Cohort group of repsondent,1.0,NCDS
+1181886,NSHD46,COVIDW1WEBPOSTAL,cw1_cohortid,Cohort group of repsondent,2.0,BCS70
+1181887,NSHD46,COVIDW1WEBPOSTAL,cw1_cohortid,Cohort group of repsondent,3.0,Next Steps
+1181888,NSHD46,COVIDW1WEBPOSTAL,cw1_cohortid,Cohort group of repsondent,4.0,MCS
+1181889,NSHD46,COVIDW1WEBPOSTAL,cw1_cohortid,Cohort group of repsondent,5.0,1946
+1181890,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,-7.0,No Questionnaire
+1181891,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,-1.0,Not applicable
+1181892,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,1.0,NCDS
+1181893,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,2.0,BCS70
+1181894,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,3.0,Next Steps
+1181895,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,4.0,MCS Cohort Member
+1181896,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,5.0,MCS Parent
+1181897,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,6.0,NSHD Web Questionnaire
+1181898,NSHD46,COVIDW1WEBPOSTAL,cw1_group,Group of repsondent,7.0,NSHD Postal Questionnaire
+1181899,NSHD46,COVIDW1WEBPOSTAL,cw1_sext,SEXT,-1.0,Not applicable
+1181900,NSHD46,COVIDW1WEBPOSTAL,cw1_sext,SEXT,-7.0,no NSHD questionnaire
+1181901,NSHD46,COVIDW1WEBPOSTAL,cw1_sext,SEXT,-8.0,No information
+1181902,NSHD46,COVIDW1WEBPOSTAL,cw1_time_diff,When was this NSHD web data collected,-7.0,no NSHD questionnaire
+1181903,NSHD46,COVIDW1WEBPOSTAL,cw1_time_diff,When was this NSHD web data collected,1.0,May-June
+1181904,NSHD46,COVIDW1WEBPOSTAL,cw1_time_diff,When was this NSHD web data collected,2.0,July-August
+1181905,NSHD46,COVIDW1WEBPOSTAL,cw1_time_diff2,When and how was this NSHD data collected,-7.0,no NSHD questionnaire
+1181906,NSHD46,COVIDW1WEBPOSTAL,cw1_time_diff2,When and how was this NSHD data collected,1.0,Web - May-June
+1181907,NSHD46,COVIDW1WEBPOSTAL,cw1_time_diff2,When and how was this NSHD data collected,2.0,Web - July-August
+1181908,NSHD46,COVIDW1WEBPOSTAL,cw1_time_diff2,When and how was this NSHD data collected,3.0,Postal - May - July
+1181909,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtday,Date of Covid-19 Survey Completed - Day,-8.0,No information
+1181910,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtday,Date of Covid-19 Survey Completed - Day,-7.0,no NSHD questionnaire
+1181911,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtday,Date of Covid-19 Survey Completed - Day,-6.0,Not collected on web survey
+1181912,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtday,Date of Covid-19 Survey Completed - Day,-1.0,Not applicable
+1181913,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtmnth,Date of Covid-19 Survey Completed - Month,-8.0,No information
+1181914,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtmnth,Date of Covid-19 Survey Completed - Month,-7.0,no NSHD questionnaire
+1181915,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtmnth,Date of Covid-19 Survey Completed - Month,-6.0,Not collected on web survey
+1181916,NSHD46,COVIDW1WEBPOSTAL,cw1_covdtmnth,Date of Covid-19 Survey Completed - Month,-1.0,Not applicable
+1181917,NSHD46,COVIDW1WEBPOSTAL,cw1_covprxy,Whether Covid-19 Survey completed by proxy on behalf of the study member,-8.0,No information
+1181918,NSHD46,COVIDW1WEBPOSTAL,cw1_covprxy,Whether Covid-19 Survey completed by proxy on behalf of the study member,-7.0,no NSHD questionnaire
+1181919,NSHD46,COVIDW1WEBPOSTAL,cw1_covprxy,Whether Covid-19 Survey completed by proxy on behalf of the study member,-6.0,Not collected on web survey
+1181920,NSHD46,COVIDW1WEBPOSTAL,cw1_covprxy,Whether Covid-19 Survey completed by proxy on behalf of the study member,-1.0,Not applicable
+1181921,NSHD46,COVIDW1WEBPOSTAL,cw1_covnone,Post-C19: Whether other living arrangement change,-8.0,No information
+1181922,NSHD46,COVIDW1WEBPOSTAL,cw1_covnone,Post-C19: Whether other living arrangement change,-7.0,no NSHD questionnaire
+1181923,NSHD46,COVIDW1WEBPOSTAL,cw1_covnone,Post-C19: Whether other living arrangement change,-6.0,Not collected on web survey
+1181924,NSHD46,COVIDW1WEBPOSTAL,cw1_covnone,Post-C19: Whether other living arrangement change,-1.0,Not applicable
+1181925,NSHD46,COVIDW1WEBPOSTAL,cw1_combwt,Combined weight (design weight x web/postal survey non-response weight) - final,,
+1181926,NSHD46,COVIDW1WEBPOSTAL,avail_from_dt,,,

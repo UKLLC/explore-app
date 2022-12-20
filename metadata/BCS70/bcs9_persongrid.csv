@@ -1,0 +1,103 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+622822,BCS70,bcs9_persongrid,study_id_e,,,
+622823,BCS70,bcs9_persongrid,b9gridid,HHgrid: person position,-1.0,Not applicable
+622824,BCS70,bcs9_persongrid,b9gsex,HHgrid: person sex,-8.0,Don't know
+622825,BCS70,bcs9_persongrid,b9gsex,HHgrid: person sex,-1.0,Not applicable
+622826,BCS70,bcs9_persongrid,b9gsex,HHgrid: person sex,1.0,Male
+622827,BCS70,bcs9_persongrid,b9gsex,HHgrid: person sex,2.0,Female
+622828,BCS70,bcs9_persongrid,b9gdied,HHgrid: whether household member had died,-8.0,Don't know
+622829,BCS70,bcs9_persongrid,b9gdied,HHgrid: whether household member had died,-1.0,Not applicable
+622830,BCS70,bcs9_persongrid,b9gdied,HHgrid: whether household member had died,0.0,No
+622831,BCS70,bcs9_persongrid,b9gdied,HHgrid: whether household member had died,1.0,Yes
+622832,BCS70,bcs9_persongrid,b9gslive,HHgrid: whether person living with CM at interview,-1.0,Not applicable
+622833,BCS70,bcs9_persongrid,b9gslive,HHgrid: whether person living with CM at interview,0.0,No
+622834,BCS70,bcs9_persongrid,b9gslive,HHgrid: whether person living with CM at interview,1.0,Yes
+622835,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,-9.0,Refused
+622836,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,-8.0,Don't know
+622837,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,-1.0,Not applicable
+622838,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,1.0,Spouse
+622839,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,2.0,Civil partner
+622840,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,3.0,Cohabiting partner
+622841,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,4.0,Own child
+622842,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,5.0,Adopted child
+622843,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,6.0,Child of current spouse/partner
+622844,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,7.0,Child of previous spouse/partner
+622845,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,8.0,Fostered child
+622846,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,9.0,Full brother/sister
+622847,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,10.0,Half/adopted/step brother/sister
+622848,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,11.0,Brother/sister in-law
+622849,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,12.0,Natural mother
+622850,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,13.0,Adoptive mother
+622851,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,14.0,Natural father
+622852,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,15.0,Adoptive father
+622853,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,16.0,Step mother
+622854,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,17.0,Step father
+622855,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,18.0,Parent in-law
+622856,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,19.0,Grandparent
+622857,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,20.0,Grandchild
+622858,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,21.0,Other blood relative
+622859,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,22.0,Other In-Law
+622860,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,23.0,Friend/Unrelated Sharer
+622861,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,24.0,Landlord
+622862,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,25.0,Lodger
+622863,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,26.0,Employer
+622864,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,27.0,"Nanny, Au Pair etc"
+622865,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,28.0,Child of non rel adult living in the HH
+622866,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,29.0,Other
+622867,BCS70,bcs9_persongrid,b9grtok,HHgrid: Person's relationship to CM,30.0,Non-natural absent child
+622868,BCS70,bcs9_persongrid,b9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-9.0,Refused
+622869,BCS70,bcs9_persongrid,b9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-8.0,Don't know
+622870,BCS70,bcs9_persongrid,b9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-2.0,Script error
+622871,BCS70,bcs9_persongrid,b9gdiedy,HHgrid: Date person died (if reported dead at this sweep) - year,-1.0,Not applicable
+622872,BCS70,bcs9_persongrid,b9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-9.0,Refused
+622873,BCS70,bcs9_persongrid,b9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-8.0,Don't know
+622874,BCS70,bcs9_persongrid,b9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-2.0,Script error
+622875,BCS70,bcs9_persongrid,b9gdiedm,HHgrid: Date person died (if reported dead at this sweep) - month,-1.0,Not applicable
+622876,BCS70,bcs9_persongrid,b9gsty,HHgrid: Date person started living with CM - year (new non-birth chd/partner),-9.0,Refused
+622877,BCS70,bcs9_persongrid,b9gsty,HHgrid: Date person started living with CM - year (new non-birth chd/partner),-8.0,Don't know
+622878,BCS70,bcs9_persongrid,b9gsty,HHgrid: Date person started living with CM - year (new non-birth chd/partner),-2.0,Script error
+622879,BCS70,bcs9_persongrid,b9gsty,HHgrid: Date person started living with CM - year (new non-birth chd/partner),-1.0,Not applicable
+622880,BCS70,bcs9_persongrid,b9gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),-9.0,Refused
+622881,BCS70,bcs9_persongrid,b9gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),-8.0,Don't know
+622882,BCS70,bcs9_persongrid,b9gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),-2.0,Script error
+622883,BCS70,bcs9_persongrid,b9gstm,HHgrid: Date person started living with CM - month (new non-birth chd/partner),-1.0,Not applicable
+622884,BCS70,bcs9_persongrid,b9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)- year,-9.0,Refused
+622885,BCS70,bcs9_persongrid,b9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)- year,-8.0,Don't know
+622886,BCS70,bcs9_persongrid,b9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)- year,-2.0,Script error
+622887,BCS70,bcs9_persongrid,b9glefty,HHgrid: Date person last lived with CM (if reported left at this sweep)- year,-1.0,Not applicable
+622888,BCS70,bcs9_persongrid,b9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,-9.0,Refused
+622889,BCS70,bcs9_persongrid,b9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,-8.0,Don't know
+622890,BCS70,bcs9_persongrid,b9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,-2.0,Script error
+622891,BCS70,bcs9_persongrid,b9gleftm,HHgrid: Date person last lived with CM (if reported left at this sweep)- month,-1.0,Not applicable
+622892,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,-8.0,Don't know
+622893,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,1.0,January
+622894,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,2.0,February
+622895,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,3.0,March
+622896,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,4.0,April
+622897,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,5.0,May
+622898,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,6.0,June
+622899,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,7.0,July
+622900,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,8.0,August
+622901,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,9.0,September
+622902,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,10.0,October
+622903,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,11.0,Novemeber
+622904,BCS70,bcs9_persongrid,b9gdobm,HHgrid: Person date of birth - month,12.0,December
+622905,BCS70,bcs9_persongrid,b9gdoby,HHgrid: Person date of birth -  year,-8.0,Don't know
+622906,BCS70,bcs9_persongrid,b9gage,HHgrid: Person's age last birthday,-9.0,Refused
+622907,BCS70,bcs9_persongrid,b9gage,HHgrid: Person's age last birthday,-8.0,Don't know
+622908,BCS70,bcs9_persongrid,b9gage,HHgrid: Person's age last birthday,-1.0,Not applicable person died
+622909,BCS70,bcs9_persongrid,b9gcrlp,HHgrid: Whether child is current partner's own child,-9.0,Refused
+622910,BCS70,bcs9_persongrid,b9gcrlp,HHgrid: Whether child is current partner's own child,-8.0,Don't know
+622911,BCS70,bcs9_persongrid,b9gcrlp,HHgrid: Whether child is current partner's own child,-1.0,Not Applicable
+622912,BCS70,bcs9_persongrid,b9gcrlp,HHgrid: Whether child is current partner's own child,1.0,Yes
+622913,BCS70,bcs9_persongrid,b9gcrlp,HHgrid: Whether child is current partner's own child,2.0,No
+622914,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,-9.0,Refused
+622915,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,-8.0,Don't know
+622916,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,-1.0,Not Applicable
+622917,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,0.0,Own child
+622918,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,1.0,Adopted child
+622919,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,2.0,Child of previous partner
+622920,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,3.0,Fostered child
+622921,BCS70,bcs9_persongrid,b9gcrlp2,HHgrid: Relationship of child to current partner,4.0,None of these
+622922,BCS70,bcs9_persongrid,v3,None,,
+622923,BCS70,bcs9_persongrid,avail_from_dt,,,

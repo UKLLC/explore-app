@@ -1,0 +1,122 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+622924,BCS70,bcs9_qualifications,study_id_e,,,
+622925,BCS70,bcs9_qualifications,b9qualid,Qualifications record number,,
+622926,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,1.0,GCSE A-C
+622927,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,2.0,GCSE D-E
+622928,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,3.0,AS LEVELS A-C
+622929,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,4.0,AS LEVELS D-E
+622930,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,5.0,A LEVELS A-C
+622931,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,6.0,A LEVELS D-E
+622932,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,7.0,DEGREE
+622933,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,8.0,DEGREE LEVEL QUALIFICATIONS
+622934,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,9.0,HIGHER DEGREE
+622935,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,10.0,NURSING QUALIFICATIONS
+622936,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,11.0,TEACHING QUALIFICATIONS
+622937,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,12.0,BTEC
+622938,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,13.0,CITY
+622939,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,14.0,RSA
+622940,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,15.0,PITMAN
+622941,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,16.0,NVQ
+622942,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,17.0,GNVQ
+622943,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,18.0,ONC
+622944,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,19.0,HNC
+622945,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,20.0,APPRENTICESHIPS
+622946,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,21.0,OTHER VOCATIONAL QUALIFICATIONS
+622947,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,22.0,SCOTTISH ACCESS3
+622948,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,23.0,SCOTTISH STANDARD GRADE
+622949,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,24.0,SCOTTISH INTERMEDIATE 1
+622950,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,25.0,SCOTTISH INTERMEDIATE 2
+622951,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,26.0,SCOTTISH HIGHER
+622952,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,27.0,SCOTTISH ADVANCED HIGHER
+622953,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,28.0,SCOTTISH CERTIFICATE OF 6TH YEAR STUDIES
+622954,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,29.0,DIPLOMA OF HIGHER EDUCATION
+622955,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,30.0,PGCE
+622956,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,31.0,HGV or LGV
+622957,BCS70,bcs9_qualifications,b9qualtp,Type of qualification,32.0,PSV or PCV
+622958,BCS70,bcs9_qualifications,b9whquid,Within qualification record number,,
+622959,BCS70,bcs9_qualifications,b9ewhen,Year obtained qualification,-9.0,Refused
+622960,BCS70,bcs9_qualifications,b9ewhen,Year obtained qualification,-8.0,Don't know
+622961,BCS70,bcs9_qualifications,b9ewhen,Year obtained qualification,-1.0,Not applicable
+622962,BCS70,bcs9_qualifications,b9eftpt,Whether studied full or part time,-9.0,Refused
+622963,BCS70,bcs9_qualifications,b9eftpt,Whether studied full or part time,-8.0,Don't know
+622964,BCS70,bcs9_qualifications,b9eftpt,Whether studied full or part time,-1.0,Not applicable
+622965,BCS70,bcs9_qualifications,b9eftpt,Whether studied full or part time,1.0,Full-time
+622966,BCS70,bcs9_qualifications,b9eftpt,Whether studied full or part time,2.0,Part-time
+622967,BCS70,bcs9_qualifications,b9efees,Who paid fees for course,-9.0,Refused
+622968,BCS70,bcs9_qualifications,b9efees,Who paid fees for course,-8.0,Don't know
+622969,BCS70,bcs9_qualifications,b9efees,Who paid fees for course,-1.0,Not applicable
+622970,BCS70,bcs9_qualifications,b9efees,Who paid fees for course,1.0,Employer
+622971,BCS70,bcs9_qualifications,b9efees,Who paid fees for course,2.0,"Self, family or relative"
+622972,BCS70,bcs9_qualifications,b9efees,Who paid fees for course,3.0,Other
+622973,BCS70,bcs9_qualifications,b9efees,Who paid fees for course,4.0,No fees
+622974,BCS70,bcs9_qualifications,b9edeggr,Degree grade,-9.0,Refused
+622975,BCS70,bcs9_qualifications,b9edeggr,Degree grade,-8.0,Don't know
+622976,BCS70,bcs9_qualifications,b9edeggr,Degree grade,-1.0,Not applicable
+622977,BCS70,bcs9_qualifications,b9edeggr,Degree grade,1.0,First
+622978,BCS70,bcs9_qualifications,b9edeggr,Degree grade,2.0,Upper second [2:1]
+622979,BCS70,bcs9_qualifications,b9edeggr,Degree grade,3.0,Lower second [2:2]
+622980,BCS70,bcs9_qualifications,b9edeggr,Degree grade,4.0,Third
+622981,BCS70,bcs9_qualifications,b9edeggr,Degree grade,5.0,Pass
+622982,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,-9.0,Refused
+622983,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,-8.0,Don't know
+622984,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,-1.0,Not applicable
+622985,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,1.0,First / General certificate
+622986,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,2.0,First / General Diploma
+622987,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,3.0,National certificate diploma
+622988,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,4.0,Higher certificate diploma
+622989,BCS70,bcs9_qualifications,b9bteclv,Level of BTEC Qualification,5.0,Other BTEC qualification
+622990,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,-9.0,Refused
+622991,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,-8.0,Don't know
+622992,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,-1.0,Not applicable
+622993,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,1.0,Part 1
+622994,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,2.0,Part 2/Craft/Intermediate
+622995,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,3.0,Part 3/Final/Advanced Craft
+622996,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,4.0,Part4/Career Ext/Full technologicl cert
+622997,BCS70,bcs9_qualifications,b9citylv,Level of City and Guilds Qualification,5.0,Other C&G qualification
+622998,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,-9.0,Refused
+622999,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,-8.0,Don't know
+623000,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,-1.0,Not applicable
+623001,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,1.0,Certificate
+623002,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,2.0,First Diploma
+623003,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,3.0,Advanced diploma or certificate
+623004,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,4.0,Higher diploma
+623005,BCS70,bcs9_qualifications,b9rsalv,Level of RSA Qualification,5.0,Other RSA qualification
+623006,BCS70,bcs9_qualifications,b9pitlv,Level of Pitman Qualification,-9.0,Refused
+623007,BCS70,bcs9_qualifications,b9pitlv,Level of Pitman Qualification,-8.0,Don't know
+623008,BCS70,bcs9_qualifications,b9pitlv,Level of Pitman Qualification,-1.0,Not applicable
+623009,BCS70,bcs9_qualifications,b9pitlv,Level of Pitman Qualification,1.0,Level 1
+623010,BCS70,bcs9_qualifications,b9pitlv,Level of Pitman Qualification,2.0,Level 2
+623011,BCS70,bcs9_qualifications,b9pitlv,Level of Pitman Qualification,3.0,Level 3
+623012,BCS70,bcs9_qualifications,b9pitlv,Level of Pitman Qualification,4.0,Other Pitman qualification
+623013,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,-9.0,Refused
+623014,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,-8.0,Don't know
+623015,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,-1.0,Not applicable
+623016,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,1.0,Level 1
+623017,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,2.0,Level 2
+623018,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,3.0,Level 3
+623019,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,4.0,Level 4
+623020,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,5.0,Level 5
+623021,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,6.0,Level 6
+623022,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,7.0,Trusts towards NVQ/SVQ
+623023,BCS70,bcs9_qualifications,b9nvqlv,Level of NVQ Qualification,8.0,Other NVQ
+623024,BCS70,bcs9_qualifications,b9gnvqlv,Level of GNVQ Qualification,-9.0,Refused
+623025,BCS70,bcs9_qualifications,b9gnvqlv,Level of GNVQ Qualification,-8.0,Don't know
+623026,BCS70,bcs9_qualifications,b9gnvqlv,Level of GNVQ Qualification,-1.0,Not applicable
+623027,BCS70,bcs9_qualifications,b9gnvqlv,Level of GNVQ Qualification,1.0,Foundation
+623028,BCS70,bcs9_qualifications,b9gnvqlv,Level of GNVQ Qualification,2.0,Intermediate
+623029,BCS70,bcs9_qualifications,b9gnvqlv,Level of GNVQ Qualification,3.0,Advanced
+623030,BCS70,bcs9_qualifications,b9gnvqlv,Level of GNVQ Qualification,4.0,Other GNVQ qualification
+623031,BCS70,bcs9_qualifications,b9onclv,Level of ONC Qualification,-9.0,Refused
+623032,BCS70,bcs9_qualifications,b9onclv,Level of ONC Qualification,-8.0,Don't know
+623033,BCS70,bcs9_qualifications,b9onclv,Level of ONC Qualification,-1.0,Not applicable
+623034,BCS70,bcs9_qualifications,b9onclv,Level of ONC Qualification,1.0,Pass
+623035,BCS70,bcs9_qualifications,b9onclv,Level of ONC Qualification,2.0,Merit
+623036,BCS70,bcs9_qualifications,b9onclv,Level of ONC Qualification,3.0,Distinction
+623037,BCS70,bcs9_qualifications,b9hnclv,Level of HNC Qualification,-9.0,Refused
+623038,BCS70,bcs9_qualifications,b9hnclv,Level of HNC Qualification,-8.0,Don't know
+623039,BCS70,bcs9_qualifications,b9hnclv,Level of HNC Qualification,-1.0,Not applicable
+623040,BCS70,bcs9_qualifications,b9hnclv,Level of HNC Qualification,1.0,Pass
+623041,BCS70,bcs9_qualifications,b9hnclv,Level of HNC Qualification,2.0,Merit
+623042,BCS70,bcs9_qualifications,b9hnclv,Level of HNC Qualification,3.0,Distinction
+623043,BCS70,bcs9_qualifications,v3,None,,
+623044,BCS70,bcs9_qualifications,avail_from_dt,,,

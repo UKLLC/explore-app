@@ -1,0 +1,11 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1160479,NEXTSTEP,ns8_outcomes,study_id_e,,,
+1160480,NEXTSTEP,ns8_outcomes,w8outcome,Derived: Outcome code (6 category),-1.0,Not applicable (Not issued to CLS)
+1160481,NEXTSTEP,ns8_outcomes,w8outcome,Derived: Outcome code (6 category),1.0,Productive
+1160482,NEXTSTEP,ns8_outcomes,w8outcome,Derived: Outcome code (6 category),2.0,Refusal
+1160483,NEXTSTEP,ns8_outcomes,w8outcome,Derived: Outcome code (6 category),3.0,Other unproductive
+1160484,NEXTSTEP,ns8_outcomes,w8outcome,Derived: Outcome code (6 category),4.0,Ineligible
+1160485,NEXTSTEP,ns8_outcomes,w8outcome,Derived: Outcome code (6 category),5.0,Untraced
+1160486,NEXTSTEP,ns8_outcomes,w8outcome,Derived: Outcome code (6 category),6.0,No contact
+1160487,NEXTSTEP,ns8_outcomes,v3,None,,
+1160488,NEXTSTEP,ns8_outcomes,avail_from_dt,,,

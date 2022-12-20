@@ -1,0 +1,109 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+874411,MCS,mcs7_cm_cognitive_assessment,study_id_e,,,
+874412,MCS,mcs7_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,-1.0,Not applicable
+874413,MCS,mcs7_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+874414,MCS,mcs7_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+874415,MCS,mcs7_cm_cognitive_assessment,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+874416,MCS,mcs7_cm_cognitive_assessment,gcchic100,CM consents to Cognitive Assessment,-1.0,Not applicable
+874417,MCS,mcs7_cm_cognitive_assessment,gcchic100,CM consents to Cognitive Assessment,1.0,Yes
+874418,MCS,mcs7_cm_cognitive_assessment,gcchic100,CM consents to Cognitive Assessment,2.0,No
+874419,MCS,mcs7_cm_cognitive_assessment,gcnaex00,Example question Correct answer: E,-1.0,Not applicable
+874420,MCS,mcs7_cm_cognitive_assessment,gcnaex00,Example question Correct answer: E,1.0,A
+874421,MCS,mcs7_cm_cognitive_assessment,gcnaex00,Example question Correct answer: E,2.0,B
+874422,MCS,mcs7_cm_cognitive_assessment,gcnaex00,Example question Correct answer: E,3.0,C
+874423,MCS,mcs7_cm_cognitive_assessment,gcnaex00,Example question Correct answer: E,4.0,D
+874424,MCS,mcs7_cm_cognitive_assessment,gcnaex00,Example question Correct answer: E,5.0,E
+874425,MCS,mcs7_cm_cognitive_assessment,gcnaex00,Example question Correct answer: E,6.0,No answer
+874426,MCS,mcs7_cm_cognitive_assessment,gcnaeg1,Practice question 1 Correct answer: G,-1.0,Not applicable
+874427,MCS,mcs7_cm_cognitive_assessment,gcnaeg1,Practice question 1 Correct answer: G,1.0,F
+874428,MCS,mcs7_cm_cognitive_assessment,gcnaeg1,Practice question 1 Correct answer: G,2.0,G
+874429,MCS,mcs7_cm_cognitive_assessment,gcnaeg1,Practice question 1 Correct answer: G,3.0,H
+874430,MCS,mcs7_cm_cognitive_assessment,gcnaeg1,Practice question 1 Correct answer: G,4.0,J
+874431,MCS,mcs7_cm_cognitive_assessment,gcnaeg1,Practice question 1 Correct answer: G,5.0,K
+874432,MCS,mcs7_cm_cognitive_assessment,gcnaeg1,Practice question 1 Correct answer: G,6.0,No answer
+874433,MCS,mcs7_cm_cognitive_assessment,gcnaeg2,Practice question 2 Correct answer: L,-1.0,Not applicable
+874434,MCS,mcs7_cm_cognitive_assessment,gcnaeg2,Practice question 2 Correct answer: L,1.0,L
+874435,MCS,mcs7_cm_cognitive_assessment,gcnaeg2,Practice question 2 Correct answer: L,2.0,M
+874436,MCS,mcs7_cm_cognitive_assessment,gcnaeg2,Practice question 2 Correct answer: L,3.0,N
+874437,MCS,mcs7_cm_cognitive_assessment,gcnaeg2,Practice question 2 Correct answer: L,4.0,P
+874438,MCS,mcs7_cm_cognitive_assessment,gcnaeg2,Practice question 2 Correct answer: L,5.0,Q
+874439,MCS,mcs7_cm_cognitive_assessment,gcnaeg2,Practice question 2 Correct answer: L,6.0,No answer
+874440,MCS,mcs7_cm_cognitive_assessment,gcnaeg3,Practice question 3 Correct answer: U,-1.0,Not applicable
+874441,MCS,mcs7_cm_cognitive_assessment,gcnaeg3,Practice question 3 Correct answer: U,1.0,R
+874442,MCS,mcs7_cm_cognitive_assessment,gcnaeg3,Practice question 3 Correct answer: U,2.0,S
+874443,MCS,mcs7_cm_cognitive_assessment,gcnaeg3,Practice question 3 Correct answer: U,3.0,T
+874444,MCS,mcs7_cm_cognitive_assessment,gcnaeg3,Practice question 3 Correct answer: U,4.0,U
+874445,MCS,mcs7_cm_cognitive_assessment,gcnaeg3,Practice question 3 Correct answer: U,5.0,V
+874446,MCS,mcs7_cm_cognitive_assessment,gcnaeg3,Practice question 3 Correct answer: U,6.0,No answer
+874447,MCS,mcs7_cm_cognitive_assessment,gcnaas0a,Cognitive Assessment Question 1 Correct answer: E,-1.0,Not applicable
+874448,MCS,mcs7_cm_cognitive_assessment,gcnaas0a,Cognitive Assessment Question 1 Correct answer: E,1.0,A
+874449,MCS,mcs7_cm_cognitive_assessment,gcnaas0a,Cognitive Assessment Question 1 Correct answer: E,2.0,B
+874450,MCS,mcs7_cm_cognitive_assessment,gcnaas0a,Cognitive Assessment Question 1 Correct answer: E,3.0,C
+874451,MCS,mcs7_cm_cognitive_assessment,gcnaas0a,Cognitive Assessment Question 1 Correct answer: E,4.0,D
+874452,MCS,mcs7_cm_cognitive_assessment,gcnaas0a,Cognitive Assessment Question 1 Correct answer: E,5.0,E
+874453,MCS,mcs7_cm_cognitive_assessment,gcnaas0a,Cognitive Assessment Question 1 Correct answer: E,6.0,No answer
+874454,MCS,mcs7_cm_cognitive_assessment,gcnaas0b,Cognitive Assessment Question 2 Correct answer: F,-1.0,Not applicable
+874455,MCS,mcs7_cm_cognitive_assessment,gcnaas0b,Cognitive Assessment Question 2 Correct answer: F,1.0,F
+874456,MCS,mcs7_cm_cognitive_assessment,gcnaas0b,Cognitive Assessment Question 2 Correct answer: F,2.0,G
+874457,MCS,mcs7_cm_cognitive_assessment,gcnaas0b,Cognitive Assessment Question 2 Correct answer: F,3.0,H
+874458,MCS,mcs7_cm_cognitive_assessment,gcnaas0b,Cognitive Assessment Question 2 Correct answer: F,4.0,J
+874459,MCS,mcs7_cm_cognitive_assessment,gcnaas0b,Cognitive Assessment Question 2 Correct answer: F,5.0,K
+874460,MCS,mcs7_cm_cognitive_assessment,gcnaas0b,Cognitive Assessment Question 2 Correct answer: F,6.0,No answer
+874461,MCS,mcs7_cm_cognitive_assessment,gcnaas0c,Cognitive Assessment Question 3 Correct answer: N,-1.0,Not applicable
+874462,MCS,mcs7_cm_cognitive_assessment,gcnaas0c,Cognitive Assessment Question 3 Correct answer: N,1.0,L
+874463,MCS,mcs7_cm_cognitive_assessment,gcnaas0c,Cognitive Assessment Question 3 Correct answer: N,2.0,M
+874464,MCS,mcs7_cm_cognitive_assessment,gcnaas0c,Cognitive Assessment Question 3 Correct answer: N,3.0,N
+874465,MCS,mcs7_cm_cognitive_assessment,gcnaas0c,Cognitive Assessment Question 3 Correct answer: N,4.0,P
+874466,MCS,mcs7_cm_cognitive_assessment,gcnaas0c,Cognitive Assessment Question 3 Correct answer: N,5.0,Q
+874467,MCS,mcs7_cm_cognitive_assessment,gcnaas0c,Cognitive Assessment Question 3 Correct answer: N,6.0,No answer
+874468,MCS,mcs7_cm_cognitive_assessment,gcnaas0d,Cognitive Assessment Question 4 Correct answer: U,-1.0,Not applicable
+874469,MCS,mcs7_cm_cognitive_assessment,gcnaas0d,Cognitive Assessment Question 4 Correct answer: U,1.0,R
+874470,MCS,mcs7_cm_cognitive_assessment,gcnaas0d,Cognitive Assessment Question 4 Correct answer: U,2.0,S
+874471,MCS,mcs7_cm_cognitive_assessment,gcnaas0d,Cognitive Assessment Question 4 Correct answer: U,3.0,T
+874472,MCS,mcs7_cm_cognitive_assessment,gcnaas0d,Cognitive Assessment Question 4 Correct answer: U,4.0,U
+874473,MCS,mcs7_cm_cognitive_assessment,gcnaas0d,Cognitive Assessment Question 4 Correct answer: U,5.0,V
+874474,MCS,mcs7_cm_cognitive_assessment,gcnaas0d,Cognitive Assessment Question 4 Correct answer: U,6.0,No answer
+874475,MCS,mcs7_cm_cognitive_assessment,gcnaas0e,Cognitive Assessment Question 5 Correct answer: A,-1.0,Not applicable
+874476,MCS,mcs7_cm_cognitive_assessment,gcnaas0e,Cognitive Assessment Question 5 Correct answer: A,1.0,A
+874477,MCS,mcs7_cm_cognitive_assessment,gcnaas0e,Cognitive Assessment Question 5 Correct answer: A,2.0,B
+874478,MCS,mcs7_cm_cognitive_assessment,gcnaas0e,Cognitive Assessment Question 5 Correct answer: A,3.0,C
+874479,MCS,mcs7_cm_cognitive_assessment,gcnaas0e,Cognitive Assessment Question 5 Correct answer: A,4.0,D
+874480,MCS,mcs7_cm_cognitive_assessment,gcnaas0e,Cognitive Assessment Question 5 Correct answer: A,5.0,E
+874481,MCS,mcs7_cm_cognitive_assessment,gcnaas0e,Cognitive Assessment Question 5 Correct answer: A,6.0,No answer
+874482,MCS,mcs7_cm_cognitive_assessment,gcnaas0f,Cognitive Assessment Question 6 Correct answer: K,-1.0,Not applicable
+874483,MCS,mcs7_cm_cognitive_assessment,gcnaas0f,Cognitive Assessment Question 6 Correct answer: K,1.0,F
+874484,MCS,mcs7_cm_cognitive_assessment,gcnaas0f,Cognitive Assessment Question 6 Correct answer: K,2.0,G
+874485,MCS,mcs7_cm_cognitive_assessment,gcnaas0f,Cognitive Assessment Question 6 Correct answer: K,3.0,H
+874486,MCS,mcs7_cm_cognitive_assessment,gcnaas0f,Cognitive Assessment Question 6 Correct answer: K,4.0,J
+874487,MCS,mcs7_cm_cognitive_assessment,gcnaas0f,Cognitive Assessment Question 6 Correct answer: K,5.0,K
+874488,MCS,mcs7_cm_cognitive_assessment,gcnaas0f,Cognitive Assessment Question 6 Correct answer: K,6.0,No answer
+874489,MCS,mcs7_cm_cognitive_assessment,gcnaas0g,Cognitive Assessment Question 7 Correct answer: P,-1.0,Not applicable
+874490,MCS,mcs7_cm_cognitive_assessment,gcnaas0g,Cognitive Assessment Question 7 Correct answer: P,1.0,L
+874491,MCS,mcs7_cm_cognitive_assessment,gcnaas0g,Cognitive Assessment Question 7 Correct answer: P,2.0,M
+874492,MCS,mcs7_cm_cognitive_assessment,gcnaas0g,Cognitive Assessment Question 7 Correct answer: P,3.0,N
+874493,MCS,mcs7_cm_cognitive_assessment,gcnaas0g,Cognitive Assessment Question 7 Correct answer: P,4.0,P
+874494,MCS,mcs7_cm_cognitive_assessment,gcnaas0g,Cognitive Assessment Question 7 Correct answer: P,5.0,Q
+874495,MCS,mcs7_cm_cognitive_assessment,gcnaas0g,Cognitive Assessment Question 7 Correct answer: P,6.0,No answer
+874496,MCS,mcs7_cm_cognitive_assessment,gcnaas0h,Cognitive Assessment Question 8 Correct answer: U,-1.0,Not applicable
+874497,MCS,mcs7_cm_cognitive_assessment,gcnaas0h,Cognitive Assessment Question 8 Correct answer: U,1.0,R
+874498,MCS,mcs7_cm_cognitive_assessment,gcnaas0h,Cognitive Assessment Question 8 Correct answer: U,2.0,S
+874499,MCS,mcs7_cm_cognitive_assessment,gcnaas0h,Cognitive Assessment Question 8 Correct answer: U,3.0,T
+874500,MCS,mcs7_cm_cognitive_assessment,gcnaas0h,Cognitive Assessment Question 8 Correct answer: U,4.0,U
+874501,MCS,mcs7_cm_cognitive_assessment,gcnaas0h,Cognitive Assessment Question 8 Correct answer: U,5.0,V
+874502,MCS,mcs7_cm_cognitive_assessment,gcnaas0h,Cognitive Assessment Question 8 Correct answer: U,6.0,No answer
+874503,MCS,mcs7_cm_cognitive_assessment,gcnaas0i,Cognitive Assessment Question 9 Correct answer: B,-1.0,Not applicable
+874504,MCS,mcs7_cm_cognitive_assessment,gcnaas0i,Cognitive Assessment Question 9 Correct answer: B,1.0,A
+874505,MCS,mcs7_cm_cognitive_assessment,gcnaas0i,Cognitive Assessment Question 9 Correct answer: B,2.0,B
+874506,MCS,mcs7_cm_cognitive_assessment,gcnaas0i,Cognitive Assessment Question 9 Correct answer: B,3.0,C
+874507,MCS,mcs7_cm_cognitive_assessment,gcnaas0i,Cognitive Assessment Question 9 Correct answer: B,4.0,D
+874508,MCS,mcs7_cm_cognitive_assessment,gcnaas0i,Cognitive Assessment Question 9 Correct answer: B,5.0,E
+874509,MCS,mcs7_cm_cognitive_assessment,gcnaas0i,Cognitive Assessment Question 9 Correct answer: B,6.0,No answer
+874510,MCS,mcs7_cm_cognitive_assessment,gcnaas0j,Cognitive Assessment Question 10 Correct answer: K,-1.0,Not applicable
+874511,MCS,mcs7_cm_cognitive_assessment,gcnaas0j,Cognitive Assessment Question 10 Correct answer: K,1.0,F
+874512,MCS,mcs7_cm_cognitive_assessment,gcnaas0j,Cognitive Assessment Question 10 Correct answer: K,2.0,G
+874513,MCS,mcs7_cm_cognitive_assessment,gcnaas0j,Cognitive Assessment Question 10 Correct answer: K,3.0,H
+874514,MCS,mcs7_cm_cognitive_assessment,gcnaas0j,Cognitive Assessment Question 10 Correct answer: K,4.0,J
+874515,MCS,mcs7_cm_cognitive_assessment,gcnaas0j,Cognitive Assessment Question 10 Correct answer: K,5.0,K
+874516,MCS,mcs7_cm_cognitive_assessment,gcnaas0j,Cognitive Assessment Question 10 Correct answer: K,6.0,No answer
+874517,MCS,mcs7_cm_cognitive_assessment,avail_from_dt,,,
+874518,MCS,mcs7_cm_cognitive_assessment,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

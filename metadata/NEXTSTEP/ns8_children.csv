@@ -1,0 +1,128 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1159836,NEXTSTEP,ns8_children,study_id_e,,,
+1159837,NEXTSTEP,ns8_children,w8chid,sortkey: child identifier,,
+1159838,NEXTSTEP,ns8_children,w8nchsex,Childâ€™s sex,-9.0,Refused
+1159839,NEXTSTEP,ns8_children,w8nchsex,Childâ€™s sex,-8.0,Don't know
+1159840,NEXTSTEP,ns8_children,w8nchsex,Childâ€™s sex,-1.0,Not applicable
+1159841,NEXTSTEP,ns8_children,w8nchsex,Childâ€™s sex,1.0,Male
+1159842,NEXTSTEP,ns8_children,w8nchsex,Childâ€™s sex,2.0,Female
+1159843,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,-9.0,Refused
+1159844,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,-8.0,Don't know
+1159845,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,-1.0,Not applicable
+1159846,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,1.0,January
+1159847,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,2.0,February
+1159848,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,3.0,March
+1159849,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,4.0,April
+1159850,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,5.0,May
+1159851,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,6.0,June
+1159852,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,7.0,July
+1159853,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,8.0,August
+1159854,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,9.0,September
+1159855,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,10.0,October
+1159856,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,11.0,November
+1159857,NEXTSTEP,ns8_children,w8nchdobm,Childâ€™s month of birth,12.0,December
+1159858,NEXTSTEP,ns8_children,w8nchdoby,Childâ€™s year of birth,-9.0,Refused
+1159859,NEXTSTEP,ns8_children,w8nchdoby,Childâ€™s year of birth,-8.0,Don't know
+1159860,NEXTSTEP,ns8_children,w8nchdoby,Childâ€™s year of birth,-1.0,Not applicable
+1159861,NEXTSTEP,ns8_children,w8nchrage,Child's age last birthday,-9.0,Refused
+1159862,NEXTSTEP,ns8_children,w8nchrage,Child's age last birthday,-8.0,Don't know
+1159863,NEXTSTEP,ns8_children,w8nchrage,Child's age last birthday,-1.0,Not applicable
+1159864,NEXTSTEP,ns8_children,w8dnchrage,DV: Age of own children,-9.0,Refused
+1159865,NEXTSTEP,ns8_children,w8dnchrage,DV: Age of own children,-8.0,Insufficient information
+1159866,NEXTSTEP,ns8_children,w8dnchrage,DV: Age of own children,-1.0,Not applicable
+1159867,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,-9.0,Refused
+1159868,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,-8.0,Don't know
+1159869,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,-1.0,Not applicable
+1159870,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,1.0,My own (biological) child
+1159871,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,2.0,Adopted child
+1159872,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,3.0,Child of current/prev. spouse/partner
+1159873,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,4.0,Fostered child
+1159874,NEXTSTEP,ns8_children,w8nchrel,Child's relationship to respondent,5.0,Other
+1159875,NEXTSTEP,ns8_children,w8nchrelp,Whether cohabiting partnerâ€™s child,-9.0,Refused
+1159876,NEXTSTEP,ns8_children,w8nchrelp,Whether cohabiting partnerâ€™s child,-8.0,Don't know
+1159877,NEXTSTEP,ns8_children,w8nchrelp,Whether cohabiting partnerâ€™s child,-1.0,Not applicable
+1159878,NEXTSTEP,ns8_children,w8nchrelp,Whether cohabiting partnerâ€™s child,1.0,Yes
+1159879,NEXTSTEP,ns8_children,w8nchrelp,Whether cohabiting partnerâ€™s child,2.0,No
+1159880,NEXTSTEP,ns8_children,w8parname,Whether previous partnerâ€™s child,-9.0,Refused
+1159881,NEXTSTEP,ns8_children,w8parname,Whether previous partnerâ€™s child,-8.0,Don't know
+1159882,NEXTSTEP,ns8_children,w8parname,Whether previous partnerâ€™s child,-1.0,Not applicable
+1159883,NEXTSTEP,ns8_children,w8parname,Whether previous partnerâ€™s child,1.0,PrevRelNo 1
+1159884,NEXTSTEP,ns8_children,w8parname,Whether previous partnerâ€™s child,2.0,PrevRelNo 2
+1159885,NEXTSTEP,ns8_children,w8parname,Whether previous partnerâ€™s child,3.0,PrevRelNo 3
+1159886,NEXTSTEP,ns8_children,w8parname,Whether previous partnerâ€™s child,11.0,None of these
+1159887,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,-9.0,Refused
+1159888,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,-8.0,Don't know
+1159889,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,-1.0,Not applicable
+1159890,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,1.0,January
+1159891,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,2.0,February
+1159892,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,3.0,March
+1159893,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,4.0,April
+1159894,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,5.0,May
+1159895,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,6.0,June
+1159896,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,7.0,July
+1159897,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,8.0,August
+1159898,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,9.0,September
+1159899,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,10.0,October
+1159900,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,11.0,November
+1159901,NEXTSTEP,ns8_children,w8pardobm,Childâ€™s parentâ€™s month of birth,12.0,December
+1159902,NEXTSTEP,ns8_children,w8pardoby,Childâ€™s parentâ€™s year of birth,-9.0,Refused
+1159903,NEXTSTEP,ns8_children,w8pardoby,Childâ€™s parentâ€™s year of birth,-8.0,Don't know
+1159904,NEXTSTEP,ns8_children,w8pardoby,Childâ€™s parentâ€™s year of birth,-1.0,Not applicable
+1159905,NEXTSTEP,ns8_children,w8parage,Childâ€™s parentâ€™s age,-9.0,Refused
+1159906,NEXTSTEP,ns8_children,w8parage,Childâ€™s parentâ€™s age,-8.0,Don't know
+1159907,NEXTSTEP,ns8_children,w8parage,Childâ€™s parentâ€™s age,-1.0,Not applicable
+1159908,NEXTSTEP,ns8_children,w8dparage,DV: Age of biological parent,-9.0,Refused
+1159909,NEXTSTEP,ns8_children,w8dparage,DV: Age of biological parent,-8.0,Insufficient information
+1159910,NEXTSTEP,ns8_children,w8dparage,DV: Age of biological parent,-1.0,Not applicable
+1159911,NEXTSTEP,ns8_children,w8nchpres,Whether child lives with respondent,-9.0,Refused
+1159912,NEXTSTEP,ns8_children,w8nchpres,Whether child lives with respondent,-8.0,Don't know
+1159913,NEXTSTEP,ns8_children,w8nchpres,Whether child lives with respondent,-1.0,Not applicable
+1159914,NEXTSTEP,ns8_children,w8nchpres,Whether child lives with respondent,1.0,Yes â€“ all of the time
+1159915,NEXTSTEP,ns8_children,w8nchpres,Whether child lives with respondent,2.0,Yes â€“ some of the time (shared custody)
+1159916,NEXTSTEP,ns8_children,w8nchpres,Whether child lives with respondent,3.0,No
+1159917,NEXTSTEP,ns8_children,w8nchevlv,Whether child has ever lived with respondent,-9.0,Refused
+1159918,NEXTSTEP,ns8_children,w8nchevlv,Whether child has ever lived with respondent,-8.0,Don't know
+1159919,NEXTSTEP,ns8_children,w8nchevlv,Whether child has ever lived with respondent,-1.0,Not applicable
+1159920,NEXTSTEP,ns8_children,w8nchevlv,Whether child has ever lived with respondent,1.0,Yes
+1159921,NEXTSTEP,ns8_children,w8nchevlv,Whether child has ever lived with respondent,2.0,No
+1159922,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,-9.0,Refused
+1159923,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,-8.0,Don't know
+1159924,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,-1.0,Not applicable
+1159925,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,1.0,With biological mother/father
+1159926,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,2.0,With step mother/father
+1159927,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,3.0,With adoptive parents
+1159928,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,4.0,With other relatives
+1159929,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,5.0,In local authority care
+1159930,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,6.0,In foster care
+1159931,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,7.0,In a hostel
+1159932,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,8.0,Other
+1159933,NEXTSTEP,ns8_children,w8chdlive,Who child lives with,9.0,Child has died
+1159934,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,-9.0,Refused
+1159935,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,-8.0,Don't know
+1159936,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,-1.0,Not applicable
+1159937,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,1.0,Three or more times a week
+1159938,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,2.0,Once or twice a week
+1159939,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,3.0,Once or twice a month
+1159940,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,4.0,Every few months
+1159941,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,5.0,Once or twice a year
+1159942,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,6.0,Less than once a year
+1159943,NEXTSTEP,ns8_children,w8abchg91,Frequency of contact with child,7.0,Never
+1159944,NEXTSTEP,ns8_children,w8copa,Whether child has contact with absent parent,-9.0,Refused
+1159945,NEXTSTEP,ns8_children,w8copa,Whether child has contact with absent parent,-8.0,Don't know
+1159946,NEXTSTEP,ns8_children,w8copa,Whether child has contact with absent parent,-1.0,Not applicable
+1159947,NEXTSTEP,ns8_children,w8copa,Whether child has contact with absent parent,1.0,Yes
+1159948,NEXTSTEP,ns8_children,w8copa,Whether child has contact with absent parent,2.0,No
+1159949,NEXTSTEP,ns8_children,w8copa,Whether child has contact with absent parent,3.0,Parent has died
+1159950,NEXTSTEP,ns8_children,w8copa,Whether child has contact with absent parent,4.0,Parent lives in household
+1159951,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,-9.0,Refused
+1159952,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,-8.0,Don't know
+1159953,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,-1.0,Not applicable
+1159954,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,1.0,Three or more times a week
+1159955,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,2.0,Once or twice a week
+1159956,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,3.0,Once or twice a month
+1159957,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,4.0,Every few months
+1159958,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,5.0,Once or twice a year
+1159959,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,6.0,Less than once a year
+1159960,NEXTSTEP,ns8_children,w8seof,Frequency of contact of child with absent parent,7.0,Never
+1159961,NEXTSTEP,ns8_children,v3,None,,
+1159962,NEXTSTEP,ns8_children,avail_from_dt,,,

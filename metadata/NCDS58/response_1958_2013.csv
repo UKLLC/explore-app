@@ -1,0 +1,115 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1047599,NCDS58,response_1958_2013,study_id_e,,,
+1047600,NCDS58,response_1958_2013,n622,0-3D Sex of child,-1.0,Not known
+1047601,NCDS58,response_1958_2013,n622,0-3D Sex of child,1.0,Male
+1047602,NCDS58,response_1958_2013,n622,0-3D Sex of child,2.0,Female
+1047603,NCDS58,response_1958_2013,bstatus,Birth Status,0.0,Alive after 28 days
+1047604,NCDS58,response_1958_2013,bstatus,Birth Status,1.0,Stillborn
+1047605,NCDS58,response_1958_2013,bstatus,Birth Status,2.0,Neonatal Death
+1047606,NCDS58,response_1958_2013,cobirth,Country of Birth,1.0,England
+1047607,NCDS58,response_1958_2013,cobirth,Country of Birth,2.0,Wales
+1047608,NCDS58,response_1958_2013,cobirth,Country of Birth,3.0,Scotland
+1047609,NCDS58,response_1958_2013,cobirth,Country of Birth,4.0,Great Britain
+1047610,NCDS58,response_1958_2013,cobirth,Country of Birth,9.0,Not in Great Britain
+1047611,NCDS58,response_1958_2013,multipno,Twin or triplet identity,-1.0,Not applicable
+1047612,NCDS58,response_1958_2013,multipno,Twin or triplet identity,1.0,First
+1047613,NCDS58,response_1958_2013,multipno,Twin or triplet identity,2.0,Second
+1047614,NCDS58,response_1958_2013,multipno,Twin or triplet identity,3.0,Third
+1047615,NCDS58,response_1958_2013,multcode,Corresponding multiple idedntifier,-1.0,Not applicable
+1047616,NCDS58,response_1958_2013,ethnicid,Cohort Member Ethnic Group - 6 category Census class,-1.0,Not known
+1047617,NCDS58,response_1958_2013,ethnicid,Cohort Member Ethnic Group - 6 category Census class,1.0,White
+1047618,NCDS58,response_1958_2013,ethnicid,Cohort Member Ethnic Group - 6 category Census class,2.0,Mixed
+1047619,NCDS58,response_1958_2013,ethnicid,Cohort Member Ethnic Group - 6 category Census class,3.0,Indian
+1047620,NCDS58,response_1958_2013,ethnicid,Cohort Member Ethnic Group - 6 category Census class,4.0,Pakistani and Bangladeshi
+1047621,NCDS58,response_1958_2013,ethnicid,Cohort Member Ethnic Group - 6 category Census class,5.0,Black or Black British
+1047622,NCDS58,response_1958_2013,ethnicid,Cohort Member Ethnic Group - 6 category Census class,6.0,"Other Ethnic group (inc Chinese,Other)"
+1047623,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),1.0,Productive
+1047624,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),2.0,Refusal
+1047625,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),3.0,Non-contact
+1047626,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),4.0,Other unproductive
+1047627,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),5.0,Ineligible
+1047628,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),6.0,Not Issued
+1047629,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),7.0,Not Issued - Emigrant
+1047630,NCDS58,response_1958_2013,outcme00,Outcome to PMS (1958),8.0,Not Issued - Dead
+1047631,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),1.0,Productive
+1047632,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),2.0,Refusal
+1047633,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),3.0,Non-contact
+1047634,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),4.0,Other unproductive
+1047635,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),5.0,Ineligible
+1047636,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),6.0,Not Issued
+1047637,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),7.0,Not Issued - Emigrant
+1047638,NCDS58,response_1958_2013,outcme01,Outcome to NCDS1 (1965),8.0,Not Issued - Dead
+1047639,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),1.0,Productive
+1047640,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),2.0,Refusal
+1047641,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),3.0,Non-contact
+1047642,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),4.0,Other unproductive
+1047643,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),5.0,Ineligible
+1047644,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),6.0,Not Issued
+1047645,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),7.0,Not Issued - Emigrant
+1047646,NCDS58,response_1958_2013,outcme02,Outcome to NCDS2 (1969),8.0,Not Issued - Dead
+1047647,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),1.0,Productive
+1047648,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),2.0,Refusal
+1047649,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),3.0,Non-contact
+1047650,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),4.0,Other unproductive
+1047651,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),5.0,Ineligible
+1047652,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),6.0,Not Issued
+1047653,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),7.0,Not Issued - Emigrant
+1047654,NCDS58,response_1958_2013,outcme03,Outcome to NCDS3 (1974),8.0,Not Issued - Dead
+1047655,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),1.0,Productive
+1047656,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),2.0,Refusal
+1047657,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),3.0,Non-contact
+1047658,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),4.0,Other unproductive
+1047659,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),5.0,Ineligible
+1047660,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),6.0,Not Issued
+1047661,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),7.0,Not Issued - Emigrant
+1047662,NCDS58,response_1958_2013,outcme04,Outcome to NCDS4 (1981),8.0,Not Issued - Dead
+1047663,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),1.0,Productive
+1047664,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),2.0,Refusal
+1047665,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),3.0,Non-contact
+1047666,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),4.0,Other unproductive
+1047667,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),5.0,Ineligible
+1047668,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),6.0,Not Issued
+1047669,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),7.0,Not Issued - Emigrant
+1047670,NCDS58,response_1958_2013,outcme05,Outcome to NCDS5 (1991),8.0,Not Issued - Dead
+1047671,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),1.0,Productive
+1047672,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),2.0,Refusal
+1047673,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),3.0,Non-contact
+1047674,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),4.0,Other unproductive
+1047675,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),5.0,Ineligible
+1047676,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),6.0,Not Issued
+1047677,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),7.0,Not Issued - Emigrant
+1047678,NCDS58,response_1958_2013,outcme06,Outcome to NCDS6 (2000),8.0,Not Issued - Dead
+1047679,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),1.0,Productive
+1047680,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),2.0,Refusal
+1047681,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),3.0,Non-contact
+1047682,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),4.0,Other unproductive
+1047683,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),5.0,Ineligible
+1047684,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),6.0,Not Issued
+1047685,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),7.0,Not Issued - Emigrant
+1047686,NCDS58,response_1958_2013,outcmebm,Outcome  to Biomedical (2002),8.0,Not Issued - Dead
+1047687,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),1.0,Productive
+1047688,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),2.0,Refusal
+1047689,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),3.0,Non-contact
+1047690,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),4.0,Other unproductive
+1047691,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),5.0,Ineligible
+1047692,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),6.0,Not Issued
+1047693,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),7.0,Not Issued - Emigrant
+1047694,NCDS58,response_1958_2013,outcme07,Outcome to NCDS7 (2004),8.0,Not Issued - Dead
+1047695,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),1.0,Productive
+1047696,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),2.0,Refusal
+1047697,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),3.0,Non-contact
+1047698,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),4.0,Other unproductive
+1047699,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),5.0,Ineligible
+1047700,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),6.0,Not Issued
+1047701,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),7.0,Not Issued - Emigrant
+1047702,NCDS58,response_1958_2013,outcme08,Outcome to NCDS8 (2008),8.0,Not Issued - Dead
+1047703,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),1.0,Productive
+1047704,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),2.0,Refusal
+1047705,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),3.0,Non-contact
+1047706,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),4.0,Other unproductive
+1047707,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),5.0,Ineligible
+1047708,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),6.0,Not Issued
+1047709,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),7.0,Not Issued - Emigrant
+1047710,NCDS58,response_1958_2013,outcme09,Outcome to NCDS9 (2012),8.0,Not Issued - Dead
+1047711,NCDS58,response_1958_2013,v3,None,,
+1047712,NCDS58,response_1958_2013,avail_from_dt,,,

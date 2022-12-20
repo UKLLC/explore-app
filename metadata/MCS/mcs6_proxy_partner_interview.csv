@@ -1,0 +1,1650 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+872762,MCS,mcs6_proxy_partner_interview,study_id_e,,,
+872763,MCS,mcs6_proxy_partner_interview,pnum,Person Number,-1.0,Not applicable
+872764,MCS,mcs6_proxy_partner_interview,felig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+872765,MCS,mcs6_proxy_partner_interview,felig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+872766,MCS,mcs6_proxy_partner_interview,felig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+872767,MCS,mcs6_proxy_partner_interview,felig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Proxy Interview
+872768,MCS,mcs6_proxy_partner_interview,felig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible
+872769,MCS,mcs6_proxy_partner_interview,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+872770,MCS,mcs6_proxy_partner_interview,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+872771,MCS,mcs6_proxy_partner_interview,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+872772,MCS,mcs6_proxy_partner_interview,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Proxy Interview
+872773,MCS,mcs6_proxy_partner_interview,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No interview
+872774,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),-9.0,Refused
+872775,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),-8.0,Dont know
+872776,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),-1.0,Not applicable
+872777,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),1.0,January
+872778,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),2.0,February
+872779,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),3.0,March
+872780,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),4.0,April
+872781,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),5.0,May
+872782,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),6.0,June
+872783,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),7.0,July
+872784,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),8.0,August
+872785,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),9.0,September
+872786,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),10.0,October
+872787,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),11.0,November
+872788,MCS,mcs6_proxy_partner_interview,fxintm00,Interview date (month),12.0,December
+872789,MCS,mcs6_proxy_partner_interview,fxinty00,Interview date (year),-9.0,Refused
+872790,MCS,mcs6_proxy_partner_interview,fxinty00,Interview date (year),-8.0,Dont know
+872791,MCS,mcs6_proxy_partner_interview,fxinty00,Interview date (year),-1.0,Not applicable
+872792,MCS,mcs6_proxy_partner_interview,fxpage00,Person s age last birthday,-9.0,Refused
+872793,MCS,mcs6_proxy_partner_interview,fxpage00,Person s age last birthday,-8.0,Dont know
+872794,MCS,mcs6_proxy_partner_interview,fxpage00,Person s age last birthday,-1.0,Not applicable
+872795,MCS,mcs6_proxy_partner_interview,fxpsex00,Person sex,-1.0,Not known/Not applicable
+872796,MCS,mcs6_proxy_partner_interview,fxpsex00,Person sex,1.0,Male
+872797,MCS,mcs6_proxy_partner_interview,fxpsex00,Person sex,2.0,Female
+872798,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,-1.0,Not known
+872799,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,1.0,Husband/Wife
+872800,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,2.0,Partner/Cohabitee
+872801,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,3.0,Natural son/daughter
+872802,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,4.0,Adopted son/daughter
+872803,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,5.0,Foster son/daughter
+872804,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,6.0,Step-son-daughter
+872805,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,7.0,Natural parent
+872806,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,8.0,Adoptive parent
+872807,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,9.0,Foster parent
+872808,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,10.0,"Step-parent, partner of parent"
+872809,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,11.0,Natural brother/Natural sister
+872810,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,12.0,Half-brother/Half-sister
+872811,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,13.0,Step-brother/Step-sister
+872812,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,14.0,Adopted brother/Adopted sister
+872813,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,15.0,Foster brother/Foster sister
+872814,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,16.0,Grandchild
+872815,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,17.0,Grandparent
+872816,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,18.0,Nanny/au pair
+872817,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,19.0,Other relative
+872818,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,20.0,Other non-relative
+872819,MCS,mcs6_proxy_partner_interview,fxcrel00,Person s relationship to CM,96.0,Self
+872820,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),-9.0,Refused
+872821,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),-8.0,Dont know
+872822,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),-1.0,Not applicable
+872823,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),1.0,January
+872824,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),2.0,February
+872825,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),3.0,March
+872826,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),4.0,April
+872827,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),5.0,May
+872828,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),6.0,June
+872829,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),7.0,July
+872830,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),8.0,August
+872831,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),9.0,September
+872832,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),10.0,October
+872833,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),11.0,November
+872834,MCS,mcs6_proxy_partner_interview,fxpdbm00,Person DOB (month),12.0,December
+872835,MCS,mcs6_proxy_partner_interview,fxpdby00,Person DOB (year),-9.0,Refused
+872836,MCS,mcs6_proxy_partner_interview,fxpdby00,Person DOB (year),-8.0,Dont know
+872837,MCS,mcs6_proxy_partner_interview,fxpdby00,Person DOB (year),-1.0,Not applicable
+872838,MCS,mcs6_proxy_partner_interview,fxpjob00,Is person currently in work,-1.0,Not applicable
+872839,MCS,mcs6_proxy_partner_interview,fxpjob00,Is person currently in work,1.0,Yes
+872840,MCS,mcs6_proxy_partner_interview,fxpjob00,Is person currently in work,2.0,No
+872841,MCS,mcs6_proxy_partner_interview,fxpsty00,When did person start living here (year),-9.0,Refused
+872842,MCS,mcs6_proxy_partner_interview,fxpsty00,When did person start living here (year),-8.0,Dont know
+872843,MCS,mcs6_proxy_partner_interview,fxpsty00,When did person start living here (year),-1.0,Not applicable
+872844,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),-9.0,Refused
+872845,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),-8.0,Dont know
+872846,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),-1.0,Not applicable
+872847,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),1.0,January
+872848,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),2.0,February
+872849,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),3.0,March
+872850,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),4.0,April
+872851,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),5.0,May
+872852,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),6.0,June
+872853,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),7.0,July
+872854,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),8.0,August
+872855,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),9.0,September
+872856,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),10.0,October
+872857,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),11.0,November
+872858,MCS,mcs6_proxy_partner_interview,fxpstm00,When did person start living here (month),12.0,December
+872859,MCS,mcs6_proxy_partner_interview,fxpful00,Present in household full time,1.0,Yes - lives here all the time
+872860,MCS,mcs6_proxy_partner_interview,fxpful00,Present in household full time,2.0,No - also lives somewhere else
+872861,MCS,mcs6_proxy_partner_interview,fxintro0,MCS6ParProxy entry flag,-1.0,Not applicable
+872862,MCS,mcs6_proxy_partner_interview,fxintro0,MCS6ParProxy entry flag,0.0,Not answered
+872863,MCS,mcs6_proxy_partner_interview,fxintro0,MCS6ParProxy entry flag,1.0,Answered
+872864,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),-1.0,Not applicable
+872865,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),1.0,Partner away in forces
+872866,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),2.0,Partner working away
+872867,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),3.0,Partner away in hospital
+872868,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),4.0,Partner away in prison
+872869,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),5.0,Partner away for some other reason (PLE
+872870,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),6.0,Partner incapacitated (unable to unders
+872871,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),7.0,Other (PLEASE SPECIFY)
+872872,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),8.0,Don`t know
+872873,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),9.0,Refused
+872874,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),10.0,Vague irrelevant answer
+872875,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),11.0,Proxy done in error
+872876,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),12.0,On holiday/visiting family/visiting fam
+872877,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),13.0,Sick/ ill / recovering from operation
+872878,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),14.0,Not here/not available/away
+872879,MCS,mcs6_proxy_partner_interview,fxpxre00,Reason for proxy partner IW (main responds as a proxy about partner) (A),15.0,Not in country/leaving abroad
+872880,MCS,mcs6_proxy_partner_interview,fxpxin00,Proceed with proxy interview,-1.0,Not applicable
+872881,MCS,mcs6_proxy_partner_interview,fxpxin00,Proceed with proxy interview,1.0,Continue with PROXY interview
+872882,MCS,mcs6_proxy_partner_interview,fxpxin00,Proceed with proxy interview,2.0,Refused PROXY interview
+872883,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,-9.0,Refused
+872884,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,-8.0,Don't know
+872885,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,-1.0,Not applicable
+872886,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,1.0,Legally separated
+872887,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,2.0,"Married, 1st and only marriage"
+872888,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,3.0,"Remarried, 2nd or later marriage"
+872889,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,4.0,"Single, never married and never in a Ci"
+872890,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,5.0,Divorced
+872891,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,6.0,Widowed
+872892,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,7.0,A Civil Partner in a legally recognised
+872893,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,8.0,A former Civil Partner (where Civil Par
+872894,MCS,mcs6_proxy_partner_interview,fxpxms00,Partner s current legal marital status,9.0,A surviving Civil Partner (where Civil
+872895,MCS,mcs6_proxy_partner_interview,fxpxoack,IWR: check single =/= hh grid (PXMS 1),-1.0,Not applicable
+872896,MCS,mcs6_proxy_partner_interview,fxpxoack,IWR: check single =/= hh grid (PXMS 1),1.0,Amend
+872897,MCS,mcs6_proxy_partner_interview,fxpxoack,IWR: check single =/= hh grid (PXMS 1),2.0,Continue
+872898,MCS,mcs6_proxy_partner_interview,fxpxobck,IWR: check civil partnership =/= hh grid (PXMS 2),-1.0,Not applicable
+872899,MCS,mcs6_proxy_partner_interview,fxpxobck,IWR: check civil partnership =/= hh grid (PXMS 2),1.0,Amend Marital Status
+872900,MCS,mcs6_proxy_partner_interview,fxpxobck,IWR: check civil partnership =/= hh grid (PXMS 2),2.0,Continue
+872901,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],-1.0,Not applicable
+872902,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],1.0,White - English/Welsh/Scott/NI/Br
+872903,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],2.0,White - Irish
+872904,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],3.0,White - Gypsy or Irish Traveller
+872905,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],4.0,Any other White background (SPECIFY)
+872906,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],5.0,Mixed/multi ethnic - WhiteBlack Caribb
+872907,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],6.0,Mixed/multi ethnic - WhiteBlack Afric
+872908,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],7.0,Mixed/multi ethnic - White and Asian
+872909,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],8.0,Any other mixed/multi ethnic (SPECIFY)
+872910,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],9.0,Asian/Asian British - Indian
+872911,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],10.0,Asian/Asian British - Pakistani
+872912,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],11.0,Asian/Asian British - Bangladeshi
+872913,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],12.0,Asian/Asian British - Chinese
+872914,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],13.0,Any other Asian background (SPECIFY)
+872915,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],14.0,Black/Afric/Caribb/BlckBritish-Afric
+872916,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],15.0,Black/Afric/Caribb/BlckBritish-Carrib
+872917,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],16.0,Any other Black/Afric/Caribb(SPECIFY)
+872918,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],17.0,Other ethnic group - Arab
+872919,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],18.0,Any other ethnic group (SPECIFY)
+872920,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],19.0,Dont know
+872921,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],20.0,Refused
+872922,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],21.0,Vague irrelevant answer
+872923,MCS,mcs6_proxy_partner_interview,fxpxee00_r10,Partner s ethnic group (A) [England] [counts less than 10 recoded],100.0,Recoded due to low counts - check SA
+872924,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],-1.0,Not applicable
+872925,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],1.0,White - Welsh/English/Scott/NI/Br
+872926,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],2.0,White - Irish
+872927,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],3.0,White - Gypsy or Irish Traveller
+872928,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],4.0,Any other White background (SPECIFY)
+872929,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],5.0,Mixed/multi ethnic-WhiteBlack Caribb
+872930,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],6.0,Mixed/multi ethnic-WhiteBlack Afric
+872931,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],7.0,Mixed/multi ethnic-WhiteAsian
+872932,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],8.0,Any other mixed/multi ethnic (SPECIFY)
+872933,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],9.0,Asian/Asian British - Indian
+872934,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],10.0,Asian/Asian British - Pakistani
+872935,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],11.0,Asian/Asian British - Bangladeshi
+872936,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],12.0,Asian/Asian British - Chinese
+872937,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],13.0,Any other Asian background (SPECIFY)
+872938,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],14.0,Black/Afric/Caribb/BlackBritish-Afric
+872939,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],15.0,Black/Afric/Caribb/BlckBritish-Caribb
+872940,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],16.0,Any other Blck/Afric/Caribb (SPECIFY)
+872941,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],17.0,Other ethnic group - Arab
+872942,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],18.0,Any other ethnic group (SPECIFY)
+872943,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],19.0,Dont know
+872944,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],20.0,Refused
+872945,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],21.0,Vague irrelevant answer
+872946,MCS,mcs6_proxy_partner_interview,fxpxew00_r10,Partner s ethnic group (A) [Wales]   [counts less than 10 recoded],100.0,Recoded due to low counts - check SA
+872947,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],-1.0,Not applicable
+872948,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],1.0,White - Scottish
+872949,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],2.0,White - Other British
+872950,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],3.0,White - Irish
+872951,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],4.0,White - Gypsy or Traveller
+872952,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],5.0,White - Polish
+872953,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],6.0,Any other white ethnic group (SPECIFY)
+872954,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],7.0,Any mixed or multiple ethnic (SPECIFY)
+872955,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],8.0,Asian(Scott/Brtsh)-Pakistani(Scott/Br)
+872956,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],9.0,Asian(Scott/British)-Indian(Scott/Br)
+872957,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],10.0,Asian(Scott/Britsh)-Banglad(Scott/Br)
+872958,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],11.0,Asian(Scott/Britsh)-Chinese(Scott/Br)
+872959,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],12.0,Any other Asian background (SPECIFY)
+872960,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],13.0,African-Afric/Afric(Scottish/British)
+872961,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],14.0,Any other African (PLEASE SPECIFY)
+872962,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],15.0,Caribbean/Black-Crbb/Crbb(Scott/Br)
+872963,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],16.0,Caribbean/Black-Blck/Blck(Scott/Br)
+872964,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],17.0,Any other Caribbean/Black (SPECIFY)
+872965,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],18.0,"Arab, Arab Scottish or Arab British"
+872966,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],19.0,Any other ethnic group (SPECIFY)
+872967,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],20.0,Dont know
+872968,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],21.0,Refused
+872969,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],22.0,Vague irrelevant answer
+872970,MCS,mcs6_proxy_partner_interview,fxpxes00_r10,Partner s ethnic group (A) [Scotland]    [counts less than 10 recoded],100.0,Recoded due to low counts - check SA
+872971,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],-1.0,Not applicable
+872972,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],1.0,White
+872973,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],2.0,Irish Traveller
+872974,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],3.0,Mixed/Multi ethnic-White&Black Caribb
+872975,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],4.0,Mixed/Multi ethnic-White&Black African
+872976,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],5.0,Mixed/Multi ethnic-White and Asian
+872977,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],6.0,Any other Mixed/Multi ethnic (SPECIFY)
+872978,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],7.0,Asian/Asian British - Indian
+872979,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],8.0,Asian/Asian British - Pakistani
+872980,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],9.0,Asian/Asian British - Bangladeshi
+872981,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],10.0,Asian/Asian British - Chinese
+872982,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],11.0,Any other Asian background (SPECIFY)
+872983,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],12.0,Black/Black British background-Afric
+872984,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],13.0,Black/Black British background-Caribb
+872985,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],14.0,Any other Blck/Afric/Caribb (SPECIFY)
+872986,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],15.0,Arab
+872987,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],16.0,Any other ethnic group (SPECIFY)
+872988,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],17.0,Dont know
+872989,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],18.0,Refused
+872990,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],19.0,Vague irrelevant answer
+872991,MCS,mcs6_proxy_partner_interview,fxpxen00_r10,Partner s ethnic group (A) [Northern Ireland]    [counts less than 10 recoded],100.0,Recoded due to low counts - check SA
+872992,MCS,mcs6_proxy_partner_interview,fxpxmu00,Whether partner's natural/adoptive mother still alive,-9.0,Refused
+872993,MCS,mcs6_proxy_partner_interview,fxpxmu00,Whether partner's natural/adoptive mother still alive,-8.0,Don't know
+872994,MCS,mcs6_proxy_partner_interview,fxpxmu00,Whether partner's natural/adoptive mother still alive,-1.0,Not applicable
+872995,MCS,mcs6_proxy_partner_interview,fxpxmu00,Whether partner's natural/adoptive mother still alive,1.0,Yes
+872996,MCS,mcs6_proxy_partner_interview,fxpxmu00,Whether partner's natural/adoptive mother still alive,2.0,No
+872997,MCS,mcs6_proxy_partner_interview,fxpxma00,Partner's mother's age,-9.0,Refused
+872998,MCS,mcs6_proxy_partner_interview,fxpxma00,Partner's mother's age,-8.0,Don't know
+872999,MCS,mcs6_proxy_partner_interview,fxpxma00,Partner's mother's age,-1.0,Not applicable
+873000,MCS,mcs6_proxy_partner_interview,fxpxmo00,Age of partner's mother at death (range),-9.0,Refused
+873001,MCS,mcs6_proxy_partner_interview,fxpxmo00,Age of partner's mother at death (range),-8.0,Don't know
+873002,MCS,mcs6_proxy_partner_interview,fxpxmo00,Age of partner's mother at death (range),-1.0,Not applicable
+873003,MCS,mcs6_proxy_partner_interview,fxpxdock,IWR: check very young (PXMO),-1.0,Not applicable
+873004,MCS,mcs6_proxy_partner_interview,fxpxdock,IWR: check very young (PXMO),1.0,Amend
+873005,MCS,mcs6_proxy_partner_interview,fxpxdock,IWR: check very young (PXMO),2.0,Continue
+873006,MCS,mcs6_proxy_partner_interview,fxpxdu00,Whether partner's natural/adoptive father still alive,-9.0,Refused
+873007,MCS,mcs6_proxy_partner_interview,fxpxdu00,Whether partner's natural/adoptive father still alive,-8.0,Don't know
+873008,MCS,mcs6_proxy_partner_interview,fxpxdu00,Whether partner's natural/adoptive father still alive,-1.0,Not applicable
+873009,MCS,mcs6_proxy_partner_interview,fxpxdu00,Whether partner's natural/adoptive father still alive,1.0,Yes
+873010,MCS,mcs6_proxy_partner_interview,fxpxdu00,Whether partner's natural/adoptive father still alive,2.0,No
+873011,MCS,mcs6_proxy_partner_interview,fxpxda00,Partner's father's age,-9.0,Refused
+873012,MCS,mcs6_proxy_partner_interview,fxpxda00,Partner's father's age,-8.0,Don't know
+873013,MCS,mcs6_proxy_partner_interview,fxpxda00,Partner's father's age,-1.0,Not applicable
+873014,MCS,mcs6_proxy_partner_interview,fxpxdo00,Age of partner's father at death (range),-9.0,Refused
+873015,MCS,mcs6_proxy_partner_interview,fxpxdo00,Age of partner's father at death (range),-8.0,Don't know
+873016,MCS,mcs6_proxy_partner_interview,fxpxdo00,Age of partner's father at death (range),-1.0,Not applicable
+873017,MCS,mcs6_proxy_partner_interview,fxpxwdck,IWR: check age (PXDO),-1.0,Not applicable
+873018,MCS,mcs6_proxy_partner_interview,fxpxwdck,IWR: check age (PXDO),1.0,Amend
+873019,MCS,mcs6_proxy_partner_interview,fxpxwdck,IWR: check age (PXDO),2.0,Continue
+873020,MCS,mcs6_proxy_partner_interview,fxpxbo00,Whether partner born in UK,-9.0,Refused
+873021,MCS,mcs6_proxy_partner_interview,fxpxbo00,Whether partner born in UK,-8.0,Don't know
+873022,MCS,mcs6_proxy_partner_interview,fxpxbo00,Whether partner born in UK,-1.0,Not applicable
+873023,MCS,mcs6_proxy_partner_interview,fxpxbo00,Whether partner born in UK,1.0,Yes
+873024,MCS,mcs6_proxy_partner_interview,fxpxbo00,Whether partner born in UK,2.0,No
+873025,MCS,mcs6_proxy_partner_interview,fxpxwn00,When partner came to UK to live: YEAR,-9.0,Refused
+873026,MCS,mcs6_proxy_partner_interview,fxpxwn00,When partner came to UK to live: YEAR,-8.0,Don't know
+873027,MCS,mcs6_proxy_partner_interview,fxpxwn00,When partner came to UK to live: YEAR,-1.0,Not applicable
+873028,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,-9.0,Refused
+873029,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,-8.0,Don't know
+873030,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,-1.0,Not applicable
+873031,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,1.0,"excellent,"
+873032,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,2.0,"very good,"
+873033,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,3.0,"good,"
+873034,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,4.0,"fair, or"
+873035,MCS,mcs6_proxy_partner_interview,fxpxge00,Describe partner's health,5.0,poor?
+873036,MCS,mcs6_proxy_partner_interview,fxpxll00,Has partner longstanding illness,-9.0,Refused
+873037,MCS,mcs6_proxy_partner_interview,fxpxll00,Has partner longstanding illness,-8.0,Don't know
+873038,MCS,mcs6_proxy_partner_interview,fxpxll00,Has partner longstanding illness,-1.0,Not applicable
+873039,MCS,mcs6_proxy_partner_interview,fxpxll00,Has partner longstanding illness,1.0,Yes
+873040,MCS,mcs6_proxy_partner_interview,fxpxll00,Has partner longstanding illness,2.0,No
+873041,MCS,mcs6_proxy_partner_interview,fxpxlt0a,Partner s type of longstanding Illness MC (A) [Vision: blind/partial sight],-1.0,Not applicable
+873042,MCS,mcs6_proxy_partner_interview,fxpxlt0a,Partner s type of longstanding Illness MC (A) [Vision: blind/partial sight],0.0,No
+873043,MCS,mcs6_proxy_partner_interview,fxpxlt0a,Partner s type of longstanding Illness MC (A) [Vision: blind/partial sight],1.0,Yes
+873044,MCS,mcs6_proxy_partner_interview,fxpxlt0b,Partner s type of longstanding Illness MC (A) [Hearing: deafness/partial hrng],-1.0,Not applicable
+873045,MCS,mcs6_proxy_partner_interview,fxpxlt0b,Partner s type of longstanding Illness MC (A) [Hearing: deafness/partial hrng],0.0,No
+873046,MCS,mcs6_proxy_partner_interview,fxpxlt0b,Partner s type of longstanding Illness MC (A) [Hearing: deafness/partial hrng],1.0,Yes
+873047,MCS,mcs6_proxy_partner_interview,fxpxlt0c,Partner s type of longstanding Illness MC (A) [Mobil:walk shrt distnc/stairs],-1.0,Not applicable
+873048,MCS,mcs6_proxy_partner_interview,fxpxlt0c,Partner s type of longstanding Illness MC (A) [Mobil:walk shrt distnc/stairs],0.0,No
+873049,MCS,mcs6_proxy_partner_interview,fxpxlt0c,Partner s type of longstanding Illness MC (A) [Mobil:walk shrt distnc/stairs],1.0,Yes
+873050,MCS,mcs6_proxy_partner_interview,fxpxlt0d,Partner s type of longstanding Illness MC (A) [Dextert: lift/carry/use keybrd],-1.0,Not applicable
+873051,MCS,mcs6_proxy_partner_interview,fxpxlt0d,Partner s type of longstanding Illness MC (A) [Dextert: lift/carry/use keybrd],0.0,No
+873052,MCS,mcs6_proxy_partner_interview,fxpxlt0d,Partner s type of longstanding Illness MC (A) [Dextert: lift/carry/use keybrd],1.0,Yes
+873053,MCS,mcs6_proxy_partner_interview,fxpxlt0e,Partner s type of longstanding Illness MC (A) [Learning/concentrating],-1.0,Not applicable
+873054,MCS,mcs6_proxy_partner_interview,fxpxlt0e,Partner s type of longstanding Illness MC (A) [Learning/concentrating],0.0,No
+873055,MCS,mcs6_proxy_partner_interview,fxpxlt0e,Partner s type of longstanding Illness MC (A) [Learning/concentrating],1.0,Yes
+873056,MCS,mcs6_proxy_partner_interview,fxpxlt0f,Partner s type of longstanding Illness MC (A) [Memory],-1.0,Not applicable
+873057,MCS,mcs6_proxy_partner_interview,fxpxlt0f,Partner s type of longstanding Illness MC (A) [Memory],0.0,No
+873058,MCS,mcs6_proxy_partner_interview,fxpxlt0f,Partner s type of longstanding Illness MC (A) [Memory],1.0,Yes
+873059,MCS,mcs6_proxy_partner_interview,fxpxlt0g,Partner s type of longstanding Illness MC (A) [Mental health],-1.0,Not applicable
+873060,MCS,mcs6_proxy_partner_interview,fxpxlt0g,Partner s type of longstanding Illness MC (A) [Mental health],0.0,No
+873061,MCS,mcs6_proxy_partner_interview,fxpxlt0g,Partner s type of longstanding Illness MC (A) [Mental health],1.0,Yes
+873062,MCS,mcs6_proxy_partner_interview,fxpxlt0h,Partner s type of longstanding Illness MC (A) [Stamina/breathing/fatigue],-1.0,Not applicable
+873063,MCS,mcs6_proxy_partner_interview,fxpxlt0h,Partner s type of longstanding Illness MC (A) [Stamina/breathing/fatigue],0.0,No
+873064,MCS,mcs6_proxy_partner_interview,fxpxlt0h,Partner s type of longstanding Illness MC (A) [Stamina/breathing/fatigue],1.0,Yes
+873065,MCS,mcs6_proxy_partner_interview,fxpxlt0i,Partner s type of longstanding Illness MC (A) [Social/behavrl: autism/ADHD],-1.0,Not applicable
+873066,MCS,mcs6_proxy_partner_interview,fxpxlt0i,Partner s type of longstanding Illness MC (A) [Social/behavrl: autism/ADHD],0.0,No
+873067,MCS,mcs6_proxy_partner_interview,fxpxlt0i,Partner s type of longstanding Illness MC (A) [Social/behavrl: autism/ADHD],1.0,Yes
+873068,MCS,mcs6_proxy_partner_interview,fxpxlt0j,Partner s type of longstanding Illness MC (A) [Other condition],-1.0,Not applicable
+873069,MCS,mcs6_proxy_partner_interview,fxpxlt0j,Partner s type of longstanding Illness MC (A) [Other condition],0.0,No
+873070,MCS,mcs6_proxy_partner_interview,fxpxlt0j,Partner s type of longstanding Illness MC (A) [Other condition],1.0,Yes
+873071,MCS,mcs6_proxy_partner_interview,fxpxlt0k,Partner s type of longstanding Illness MC (A) [Don t know],-1.0,Not applicable
+873072,MCS,mcs6_proxy_partner_interview,fxpxlt0k,Partner s type of longstanding Illness MC (A) [Don t know],0.0,No
+873073,MCS,mcs6_proxy_partner_interview,fxpxlt0k,Partner s type of longstanding Illness MC (A) [Don t know],1.0,Yes
+873074,MCS,mcs6_proxy_partner_interview,fxpxlt0l,Partner s type of longstanding Illness MC (A) [Refused],-1.0,Not applicable
+873075,MCS,mcs6_proxy_partner_interview,fxpxlt0l,Partner s type of longstanding Illness MC (A) [Refused],0.0,No
+873076,MCS,mcs6_proxy_partner_interview,fxpxlt0l,Partner s type of longstanding Illness MC (A) [Refused],1.0,Yes
+873077,MCS,mcs6_proxy_partner_interview,fxpxlt0m,Partner s type of longstanding Illness MC (A) [Vague irrelevant answer],-1.0,Not applicable
+873078,MCS,mcs6_proxy_partner_interview,fxpxlt0m,Partner s type of longstanding Illness MC (A) [Vague irrelevant answer],0.0,No
+873079,MCS,mcs6_proxy_partner_interview,fxpxlt0m,Partner s type of longstanding Illness MC (A) [Vague irrelevant answer],1.0,Yes
+873080,MCS,mcs6_proxy_partner_interview,fxpxlt0n,Partner s type of longstanding Illness MC (A) [Gynaecological issues],-1.0,Not applicable
+873081,MCS,mcs6_proxy_partner_interview,fxpxlt0n,Partner s type of longstanding Illness MC (A) [Gynaecological issues],0.0,No
+873082,MCS,mcs6_proxy_partner_interview,fxpxlt0n,Partner s type of longstanding Illness MC (A) [Gynaecological issues],1.0,Yes
+873083,MCS,mcs6_proxy_partner_interview,fxpxlt0o,Partner s type of longstanding Illness MC (A) [Heart/circulatory problems],-1.0,Not applicable
+873084,MCS,mcs6_proxy_partner_interview,fxpxlt0o,Partner s type of longstanding Illness MC (A) [Heart/circulatory problems],0.0,No
+873085,MCS,mcs6_proxy_partner_interview,fxpxlt0o,Partner s type of longstanding Illness MC (A) [Heart/circulatory problems],1.0,Yes
+873086,MCS,mcs6_proxy_partner_interview,fxpxlt0p,Partner s type of longstanding Illness MC (A) [Injuries/disabilities in limbs],-1.0,Not applicable
+873087,MCS,mcs6_proxy_partner_interview,fxpxlt0p,Partner s type of longstanding Illness MC (A) [Injuries/disabilities in limbs],0.0,No
+873088,MCS,mcs6_proxy_partner_interview,fxpxlt0p,Partner s type of longstanding Illness MC (A) [Injuries/disabilities in limbs],1.0,Yes
+873089,MCS,mcs6_proxy_partner_interview,fxpxlt0q,Partner s type of longstanding Illness MC (A) [Addiction/alcohol problems],-1.0,Not applicable
+873090,MCS,mcs6_proxy_partner_interview,fxpxlt0q,Partner s type of longstanding Illness MC (A) [Addiction/alcohol problems],0.0,No
+873091,MCS,mcs6_proxy_partner_interview,fxpxlt0q,Partner s type of longstanding Illness MC (A) [Addiction/alcohol problems],1.0,Yes
+873092,MCS,mcs6_proxy_partner_interview,fxpxlt0r,Partner s type of longstanding Illness MC (A) [Thyroid issues],-1.0,Not applicable
+873093,MCS,mcs6_proxy_partner_interview,fxpxlt0r,Partner s type of longstanding Illness MC (A) [Thyroid issues],0.0,No
+873094,MCS,mcs6_proxy_partner_interview,fxpxlt0r,Partner s type of longstanding Illness MC (A) [Thyroid issues],1.0,Yes
+873095,MCS,mcs6_proxy_partner_interview,fxpxlt0s,Partner s type of longstanding Illness MC (A) [Digestive/bowel problems],-1.0,Not applicable
+873096,MCS,mcs6_proxy_partner_interview,fxpxlt0s,Partner s type of longstanding Illness MC (A) [Digestive/bowel problems],0.0,No
+873097,MCS,mcs6_proxy_partner_interview,fxpxlt0s,Partner s type of longstanding Illness MC (A) [Digestive/bowel problems],1.0,Yes
+873098,MCS,mcs6_proxy_partner_interview,fxpxlt0t,Partner s type of longstanding Illness MC (A) [Diabetes],-1.0,Not applicable
+873099,MCS,mcs6_proxy_partner_interview,fxpxlt0t,Partner s type of longstanding Illness MC (A) [Diabetes],0.0,No
+873100,MCS,mcs6_proxy_partner_interview,fxpxlt0t,Partner s type of longstanding Illness MC (A) [Diabetes],1.0,Yes
+873101,MCS,mcs6_proxy_partner_interview,fxpxlt0u,Partner s type of longstanding Illness MC (A) [Allergy related problems],-1.0,Not applicable
+873102,MCS,mcs6_proxy_partner_interview,fxpxlt0u,Partner s type of longstanding Illness MC (A) [Allergy related problems],0.0,No
+873103,MCS,mcs6_proxy_partner_interview,fxpxlt0u,Partner s type of longstanding Illness MC (A) [Allergy related problems],1.0,Yes
+873104,MCS,mcs6_proxy_partner_interview,fxpxlt0v,Partner s type of longstanding Illness MC (A) [Athritis],-1.0,Not applicable
+873105,MCS,mcs6_proxy_partner_interview,fxpxlt0v,Partner s type of longstanding Illness MC (A) [Athritis],0.0,No
+873106,MCS,mcs6_proxy_partner_interview,fxpxlt0v,Partner s type of longstanding Illness MC (A) [Athritis],1.0,Yes
+873107,MCS,mcs6_proxy_partner_interview,fxpxlt0w,Partner s type of longstanding Illness MC (A) [Back/spinal problems],-1.0,Not applicable
+873108,MCS,mcs6_proxy_partner_interview,fxpxlt0w,Partner s type of longstanding Illness MC (A) [Back/spinal problems],0.0,No
+873109,MCS,mcs6_proxy_partner_interview,fxpxlt0w,Partner s type of longstanding Illness MC (A) [Back/spinal problems],1.0,Yes
+873110,MCS,mcs6_proxy_partner_interview,fxpxlt0x,Partner s type of longstanding Illness MC (A) [Other hormonal/endocrine probl],-1.0,Not applicable
+873111,MCS,mcs6_proxy_partner_interview,fxpxlt0x,Partner s type of longstanding Illness MC (A) [Other hormonal/endocrine probl],0.0,No
+873112,MCS,mcs6_proxy_partner_interview,fxpxlt0x,Partner s type of longstanding Illness MC (A) [Other hormonal/endocrine probl],1.0,Yes
+873113,MCS,mcs6_proxy_partner_interview,fxpxlt0y,Partner s type of longstanding Illness MC (A) [Skin condition],-1.0,Not applicable
+873114,MCS,mcs6_proxy_partner_interview,fxpxlt0y,Partner s type of longstanding Illness MC (A) [Skin condition],0.0,No
+873115,MCS,mcs6_proxy_partner_interview,fxpxlt0y,Partner s type of longstanding Illness MC (A) [Skin condition],1.0,Yes
+873116,MCS,mcs6_proxy_partner_interview,fxpxlt0z,Partner s type of longstanding Illness MC (A) [Kidney urinary problems],-1.0,Not applicable
+873117,MCS,mcs6_proxy_partner_interview,fxpxlt0z,Partner s type of longstanding Illness MC (A) [Kidney urinary problems],0.0,No
+873118,MCS,mcs6_proxy_partner_interview,fxpxlt0z,Partner s type of longstanding Illness MC (A) [Kidney urinary problems],1.0,Yes
+873119,MCS,mcs6_proxy_partner_interview,fxpxlt1a,Partner s type of longstanding Illness MC (A) [Neurological problems],-1.0,Not applicable
+873120,MCS,mcs6_proxy_partner_interview,fxpxlt1a,Partner s type of longstanding Illness MC (A) [Neurological problems],0.0,No
+873121,MCS,mcs6_proxy_partner_interview,fxpxlt1a,Partner s type of longstanding Illness MC (A) [Neurological problems],1.0,Yes
+873122,MCS,mcs6_proxy_partner_interview,fxpxlt1b,Partner s type of longstanding Illness MC (A) [Cancer or tumour],-1.0,Not applicable
+873123,MCS,mcs6_proxy_partner_interview,fxpxlt1b,Partner s type of longstanding Illness MC (A) [Cancer or tumour],0.0,No
+873124,MCS,mcs6_proxy_partner_interview,fxpxlt1b,Partner s type of longstanding Illness MC (A) [Cancer or tumour],1.0,Yes
+873125,MCS,mcs6_proxy_partner_interview,fxpxlt1c,Partner s type of longstanding Illness MC (A) [Respiratory problems],-1.0,Not applicable
+873126,MCS,mcs6_proxy_partner_interview,fxpxlt1c,Partner s type of longstanding Illness MC (A) [Respiratory problems],0.0,No
+873127,MCS,mcs6_proxy_partner_interview,fxpxlt1c,Partner s type of longstanding Illness MC (A) [Respiratory problems],1.0,Yes
+873128,MCS,mcs6_proxy_partner_interview,fxpxlt1d,Partner s type of longstanding Illness MC (A) [None of these],-1.0,Not applicable
+873129,MCS,mcs6_proxy_partner_interview,fxpxlt1d,Partner s type of longstanding Illness MC (A) [None of these],0.0,No
+873130,MCS,mcs6_proxy_partner_interview,fxpxlt1d,Partner s type of longstanding Illness MC (A) [None of these],1.0,Yes
+873131,MCS,mcs6_proxy_partner_interview,fxpxla00,Partner's condition(s) or illness(es) reduce ability,-9.0,Refused
+873132,MCS,mcs6_proxy_partner_interview,fxpxla00,Partner's condition(s) or illness(es) reduce ability,-8.0,Don't know
+873133,MCS,mcs6_proxy_partner_interview,fxpxla00,Partner's condition(s) or illness(es) reduce ability,-1.0,Not applicable
+873134,MCS,mcs6_proxy_partner_interview,fxpxla00,Partner's condition(s) or illness(es) reduce ability,1.0,"Yes, a lot,"
+873135,MCS,mcs6_proxy_partner_interview,fxpxla00,Partner's condition(s) or illness(es) reduce ability,2.0,"Yes, a little"
+873136,MCS,mcs6_proxy_partner_interview,fxpxla00,Partner's condition(s) or illness(es) reduce ability,3.0,Not at all
+873137,MCS,mcs6_proxy_partner_interview,fxpxlp00,For how long has Partner's ability been reduced,-9.0,Refused
+873138,MCS,mcs6_proxy_partner_interview,fxpxlp00,For how long has Partner's ability been reduced,-8.0,Don't know
+873139,MCS,mcs6_proxy_partner_interview,fxpxlp00,For how long has Partner's ability been reduced,-1.0,Not applicable
+873140,MCS,mcs6_proxy_partner_interview,fxpxlp00,For how long has Partner's ability been reduced,1.0,"Less than six months,"
+873141,MCS,mcs6_proxy_partner_interview,fxpxlp00,For how long has Partner's ability been reduced,2.0,Between six months and 12 months
+873142,MCS,mcs6_proxy_partner_interview,fxpxlp00,For how long has Partner's ability been reduced,3.0,12 months or more
+873143,MCS,mcs6_proxy_partner_interview,fxpxwl00,Whether partner did paid work last week,-9.0,Refused
+873144,MCS,mcs6_proxy_partner_interview,fxpxwl00,Whether partner did paid work last week,-8.0,Don't know
+873145,MCS,mcs6_proxy_partner_interview,fxpxwl00,Whether partner did paid work last week,-1.0,Not applicable
+873146,MCS,mcs6_proxy_partner_interview,fxpxwl00,Whether partner did paid work last week,1.0,Yes
+873147,MCS,mcs6_proxy_partner_interview,fxpxwl00,Whether partner did paid work last week,2.0,No
+873148,MCS,mcs6_proxy_partner_interview,fxpxwa00,Whether partner had a job last week,-9.0,Refused
+873149,MCS,mcs6_proxy_partner_interview,fxpxwa00,Whether partner had a job last week,-8.0,Don't know
+873150,MCS,mcs6_proxy_partner_interview,fxpxwa00,Whether partner had a job last week,-1.0,Not applicable
+873151,MCS,mcs6_proxy_partner_interview,fxpxwa00,Whether partner had a job last week,1.0,Yes
+873152,MCS,mcs6_proxy_partner_interview,fxpxwa00,Whether partner had a job last week,2.0,No
+873153,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,-9.0,Refused
+873154,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,-8.0,Don't know
+873155,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,-1.0,Not applicable
+873156,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,1.0,Maternity Leave
+873157,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,2.0,Parental Leave
+873158,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,3.0,Paternity Leave
+873159,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,4.0,Other Leave/holiday
+873160,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,5.0,Sick/injured
+873161,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,6.0,Laid off/on short time
+873162,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,7.0,Other personal family reason
+873163,MCS,mcs6_proxy_partner_interview,fxpxwr00,Main reason partner away from job last week,8.0,Other reasons
+873164,MCS,mcs6_proxy_partner_interview,fxpxwd00,Whether partner on paid leave,-9.0,Refused
+873165,MCS,mcs6_proxy_partner_interview,fxpxwd00,Whether partner on paid leave,-8.0,Don't know
+873166,MCS,mcs6_proxy_partner_interview,fxpxwd00,Whether partner on paid leave,-1.0,Not applicable
+873167,MCS,mcs6_proxy_partner_interview,fxpxwd00,Whether partner on paid leave,1.0,Yes
+873168,MCS,mcs6_proxy_partner_interview,fxpxwd00,Whether partner on paid leave,2.0,No
+873169,MCS,mcs6_proxy_partner_interview,fxpxwy00,Last time partner attend work - (self)employed : YEAR,-1.0,Not applicable
+873170,MCS,mcs6_proxy_partner_interview,fxpxwy00,Last time partner attend work - (self)employed : YEAR,-9.0,Refused
+873171,MCS,mcs6_proxy_partner_interview,fxpxwy00,Last time partner attend work - (self)employed : YEAR,-8.0,Don't know
+873172,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,-9.0,Refused
+873173,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,-8.0,Don't know
+873174,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,-1.0,Not applicable
+873175,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,1.0,January
+873176,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,2.0,February
+873177,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,3.0,March
+873178,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,4.0,April
+873179,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,5.0,May
+873180,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,6.0,June
+873181,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,7.0,July
+873182,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,8.0,August
+873183,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,9.0,September
+873184,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,10.0,October
+873185,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,11.0,November
+873186,MCS,mcs6_proxy_partner_interview,fxpxwm00,Last time partner attend work - (self)employed : MONTH,12.0,December
+873187,MCS,mcs6_proxy_partner_interview,fxpxcjck,IWR: check month no year (PXWD),-1.0,Not applicable
+873188,MCS,mcs6_proxy_partner_interview,fxpxcjck,IWR: check month no year (PXWD),1.0,Yes - that is correct
+873189,MCS,mcs6_proxy_partner_interview,fxpxcjck,IWR: check month no year (PXWD),2.0,No - go back and change
+873190,MCS,mcs6_proxy_partner_interview,fxpxls00,Whether partner has same job title as at last int,-9.0,Refused
+873191,MCS,mcs6_proxy_partner_interview,fxpxls00,Whether partner has same job title as at last int,-8.0,Don't know
+873192,MCS,mcs6_proxy_partner_interview,fxpxls00,Whether partner has same job title as at last int,-1.0,Not applicable
+873193,MCS,mcs6_proxy_partner_interview,fxpxls00,Whether partner has same job title as at last int,1.0,Yes
+873194,MCS,mcs6_proxy_partner_interview,fxpxls00,Whether partner has same job title as at last int,2.0,No
+873195,MCS,mcs6_proxy_partner_interview,fxsocc00_tr3,SOC2010 coding (proxy)   [truncated to 3 characters],,
+873196,MCS,mcs6_proxy_partner_interview,fxsicc00_tr2,SIC2007 coding   [truncated to 2 characters],,
+873197,MCS,mcs6_proxy_partner_interview,fxpxle00,Whether partner still emplyed by same employer,-9.0,Refused
+873198,MCS,mcs6_proxy_partner_interview,fxpxle00,Whether partner still emplyed by same employer,-8.0,Don't know
+873199,MCS,mcs6_proxy_partner_interview,fxpxle00,Whether partner still emplyed by same employer,-1.0,Not applicable
+873200,MCS,mcs6_proxy_partner_interview,fxpxle00,Whether partner still emplyed by same employer,1.0,Employee
+873201,MCS,mcs6_proxy_partner_interview,fxpxle00,Whether partner still emplyed by same employer,2.0,Self-employed
+873202,MCS,mcs6_proxy_partner_interview,fxpxlc00,Whether partner has same employment status as last time,-9.0,Refused
+873203,MCS,mcs6_proxy_partner_interview,fxpxlc00,Whether partner has same employment status as last time,-8.0,Don't know
+873204,MCS,mcs6_proxy_partner_interview,fxpxlc00,Whether partner has same employment status as last time,-1.0,Not applicable
+873205,MCS,mcs6_proxy_partner_interview,fxpxlc00,Whether partner has same employment status as last time,1.0,Yes
+873206,MCS,mcs6_proxy_partner_interview,fxpxlc00,Whether partner has same employment status as last time,2.0,No
+873207,MCS,mcs6_proxy_partner_interview,fxpxcj00,Partner continously employed in this employment/self-employment,-9.0,Refused
+873208,MCS,mcs6_proxy_partner_interview,fxpxcj00,Partner continously employed in this employment/self-employment,-8.0,Don't know
+873209,MCS,mcs6_proxy_partner_interview,fxpxcj00,Partner continously employed in this employment/self-employment,-1.0,Not applicable
+873210,MCS,mcs6_proxy_partner_interview,fxpxcj00,Partner continously employed in this employment/self-employment,1.0,Yes
+873211,MCS,mcs6_proxy_partner_interview,fxpxcj00,Partner continously employed in this employment/self-employment,2.0,No
+873212,MCS,mcs6_proxy_partner_interview,fxpxly00,End of period of (self)employment of partner: YEAR,-9.0,Refused
+873213,MCS,mcs6_proxy_partner_interview,fxpxly00,End of period of (self)employment of partner: YEAR,-8.0,Don't know
+873214,MCS,mcs6_proxy_partner_interview,fxpxly00,End of period of (self)employment of partner: YEAR,-1.0,Not applicable
+873215,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,-9.0,Refused
+873216,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,-8.0,Don't know
+873217,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,-1.0,Not applicable
+873218,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,1.0,January
+873219,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,2.0,February
+873220,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,3.0,March
+873221,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,4.0,April
+873222,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,5.0,May
+873223,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,6.0,June
+873224,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,7.0,July
+873225,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,8.0,August
+873226,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,9.0,September
+873227,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,10.0,October
+873228,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,11.0,November
+873229,MCS,mcs6_proxy_partner_interview,fxpxlm00,End of period of (self)employment of partner: MONTH,12.0,December
+873230,MCS,mcs6_proxy_partner_interview,fxpxlerr,IWR: check month no year (PXCJ),-1.0,Not applicable
+873231,MCS,mcs6_proxy_partner_interview,fxpxlerr,IWR: check month no year (PXCJ),1.0,Yes - that is correct
+873232,MCS,mcs6_proxy_partner_interview,fxpxlerr,IWR: check month no year (PXCJ),2.0,No - go back and change
+873233,MCS,mcs6_proxy_partner_interview,fxpxjk00,Confirm partner job title,-9.0,Refused
+873234,MCS,mcs6_proxy_partner_interview,fxpxjk00,Confirm partner job title,-8.0,Don't know
+873235,MCS,mcs6_proxy_partner_interview,fxpxjk00,Confirm partner job title,-1.0,Not applicable
+873236,MCS,mcs6_proxy_partner_interview,fxpxjk00,Confirm partner job title,1.0,Yes
+873237,MCS,mcs6_proxy_partner_interview,fxpxjk00,Confirm partner job title,2.0,No
+873238,MCS,mcs6_proxy_partner_interview,fxpxje00,Partner is employee or self-employed in main job,-9.0,Refused
+873239,MCS,mcs6_proxy_partner_interview,fxpxje00,Partner is employee or self-employed in main job,-8.0,Don't know
+873240,MCS,mcs6_proxy_partner_interview,fxpxje00,Partner is employee or self-employed in main job,-1.0,Not applicable
+873241,MCS,mcs6_proxy_partner_interview,fxpxje00,Partner is employee or self-employed in main job,1.0,Employee
+873242,MCS,mcs6_proxy_partner_interview,fxpxje00,Partner is employee or self-employed in main job,2.0,Self-employed
+873243,MCS,mcs6_proxy_partner_interview,fxpxjeck,IWR: check contradictory employment status information,-1.0,Not applicable
+873244,MCS,mcs6_proxy_partner_interview,fxpxjeck,IWR: check contradictory employment status information,1.0,Yes all correct
+873245,MCS,mcs6_proxy_partner_interview,fxpxjeck,IWR: check contradictory employment status information,2.0,No -still self-employed
+873246,MCS,mcs6_proxy_partner_interview,fxpxjeck,IWR: check contradictory employment status information,3.0,No - not self-employed in main job.
+873247,MCS,mcs6_proxy_partner_interview,fxpxjw00,Whether partner is paid salary/wage in main job,-9.0,Refused
+873248,MCS,mcs6_proxy_partner_interview,fxpxjw00,Whether partner is paid salary/wage in main job,-8.0,Don't know
+873249,MCS,mcs6_proxy_partner_interview,fxpxjw00,Whether partner is paid salary/wage in main job,-1.0,Not applicable
+873250,MCS,mcs6_proxy_partner_interview,fxpxjw00,Whether partner is paid salary/wage in main job,1.0,Yes
+873251,MCS,mcs6_proxy_partner_interview,fxpxjw00,Whether partner is paid salary/wage in main job,2.0,No
+873252,MCS,mcs6_proxy_partner_interview,fxpxjb0a,Partner s self-employed/non waged status MC [Paid a salary or wage by agency],-9.0,Refused
+873253,MCS,mcs6_proxy_partner_interview,fxpxjb0a,Partner s self-employed/non waged status MC [Paid a salary or wage by agency],-8.0,Don't know
+873254,MCS,mcs6_proxy_partner_interview,fxpxjb0a,Partner s self-employed/non waged status MC [Paid a salary or wage by agency],-1.0,Not applicable
+873255,MCS,mcs6_proxy_partner_interview,fxpxjb0a,Partner s self-employed/non waged status MC [Paid a salary or wage by agency],0.0,No
+873256,MCS,mcs6_proxy_partner_interview,fxpxjb0a,Partner s self-employed/non waged status MC [Paid a salary or wage by agency],1.0,Yes
+873257,MCS,mcs6_proxy_partner_interview,fxpxjb0b,Partner s self-employed/non waged status MC [Sole director of own limtd compn],-9.0,Refused
+873258,MCS,mcs6_proxy_partner_interview,fxpxjb0b,Partner s self-employed/non waged status MC [Sole director of own limtd compn],-8.0,Don't know
+873259,MCS,mcs6_proxy_partner_interview,fxpxjb0b,Partner s self-employed/non waged status MC [Sole director of own limtd compn],-1.0,Not applicable
+873260,MCS,mcs6_proxy_partner_interview,fxpxjb0b,Partner s self-employed/non waged status MC [Sole director of own limtd compn],0.0,No
+873261,MCS,mcs6_proxy_partner_interview,fxpxjb0b,Partner s self-employed/non waged status MC [Sole director of own limtd compn],1.0,Yes
+873262,MCS,mcs6_proxy_partner_interview,fxpxjb0c,Partner s self-employed/non waged status MC [Running busnss/professnl prctc],-9.0,Refused
+873263,MCS,mcs6_proxy_partner_interview,fxpxjb0c,Partner s self-employed/non waged status MC [Running busnss/professnl prctc],-8.0,Don't know
+873264,MCS,mcs6_proxy_partner_interview,fxpxjb0c,Partner s self-employed/non waged status MC [Running busnss/professnl prctc],-1.0,Not applicable
+873265,MCS,mcs6_proxy_partner_interview,fxpxjb0c,Partner s self-employed/non waged status MC [Running busnss/professnl prctc],0.0,No
+873266,MCS,mcs6_proxy_partner_interview,fxpxjb0c,Partner s self-employed/non waged status MC [Running busnss/professnl prctc],1.0,Yes
+873267,MCS,mcs6_proxy_partner_interview,fxpxjb0d,Partner s self-employed/non waged status MC [Partner in busnss/profssnl prctc],-9.0,Refused
+873268,MCS,mcs6_proxy_partner_interview,fxpxjb0d,Partner s self-employed/non waged status MC [Partner in busnss/profssnl prctc],-8.0,Don't know
+873269,MCS,mcs6_proxy_partner_interview,fxpxjb0d,Partner s self-employed/non waged status MC [Partner in busnss/profssnl prctc],-1.0,Not applicable
+873270,MCS,mcs6_proxy_partner_interview,fxpxjb0d,Partner s self-employed/non waged status MC [Partner in busnss/profssnl prctc],0.0,No
+873271,MCS,mcs6_proxy_partner_interview,fxpxjb0d,Partner s self-employed/non waged status MC [Partner in busnss/profssnl prctc],1.0,Yes
+873272,MCS,mcs6_proxy_partner_interview,fxpxjb0e,Partner s self-employed/non waged status MC [Working for yourself],-9.0,Refused
+873273,MCS,mcs6_proxy_partner_interview,fxpxjb0e,Partner s self-employed/non waged status MC [Working for yourself],-8.0,Don't know
+873274,MCS,mcs6_proxy_partner_interview,fxpxjb0e,Partner s self-employed/non waged status MC [Working for yourself],-1.0,Not applicable
+873275,MCS,mcs6_proxy_partner_interview,fxpxjb0e,Partner s self-employed/non waged status MC [Working for yourself],0.0,No
+873276,MCS,mcs6_proxy_partner_interview,fxpxjb0e,Partner s self-employed/non waged status MC [Working for yourself],1.0,Yes
+873277,MCS,mcs6_proxy_partner_interview,fxpxjb0f,Partner s self-employed/non waged status MC [Sub-contractor],-9.0,Refused
+873278,MCS,mcs6_proxy_partner_interview,fxpxjb0f,Partner s self-employed/non waged status MC [Sub-contractor],-8.0,Don't know
+873279,MCS,mcs6_proxy_partner_interview,fxpxjb0f,Partner s self-employed/non waged status MC [Sub-contractor],-1.0,Not applicable
+873280,MCS,mcs6_proxy_partner_interview,fxpxjb0f,Partner s self-employed/non waged status MC [Sub-contractor],0.0,No
+873281,MCS,mcs6_proxy_partner_interview,fxpxjb0f,Partner s self-employed/non waged status MC [Sub-contractor],1.0,Yes
+873282,MCS,mcs6_proxy_partner_interview,fxpxjb0g,Partner s self-employed/non waged status MC [Doing freelance work],-9.0,Refused
+873283,MCS,mcs6_proxy_partner_interview,fxpxjb0g,Partner s self-employed/non waged status MC [Doing freelance work],-8.0,Don't know
+873284,MCS,mcs6_proxy_partner_interview,fxpxjb0g,Partner s self-employed/non waged status MC [Doing freelance work],-1.0,Not applicable
+873285,MCS,mcs6_proxy_partner_interview,fxpxjb0g,Partner s self-employed/non waged status MC [Doing freelance work],0.0,No
+873286,MCS,mcs6_proxy_partner_interview,fxpxjb0g,Partner s self-employed/non waged status MC [Doing freelance work],1.0,Yes
+873287,MCS,mcs6_proxy_partner_interview,fxpxjb0h,Partner s self-employed/non waged status MC [None of these],-9.0,Refused
+873288,MCS,mcs6_proxy_partner_interview,fxpxjb0h,Partner s self-employed/non waged status MC [None of these],-8.0,Don't know
+873289,MCS,mcs6_proxy_partner_interview,fxpxjb0h,Partner s self-employed/non waged status MC [None of these],-1.0,Not applicable
+873290,MCS,mcs6_proxy_partner_interview,fxpxjb0h,Partner s self-employed/non waged status MC [None of these],0.0,No
+873291,MCS,mcs6_proxy_partner_interview,fxpxjb0h,Partner s self-employed/non waged status MC [None of these],1.0,Yes
+873292,MCS,mcs6_proxy_partner_interview,fxpxse00,Employee or self-employed,-9.0,Refused
+873293,MCS,mcs6_proxy_partner_interview,fxpxse00,Employee or self-employed,-8.0,Don't know
+873294,MCS,mcs6_proxy_partner_interview,fxpxse00,Employee or self-employed,-1.0,Not applicable
+873295,MCS,mcs6_proxy_partner_interview,fxpxse00,Employee or self-employed,1.0,Employee
+873296,MCS,mcs6_proxy_partner_interview,fxpxse00,Employee or self-employed,2.0,Self-employed
+873297,MCS,mcs6_proxy_partner_interview,fxpxjv00,Whether partner has managerial duties,-9.0,Refused
+873298,MCS,mcs6_proxy_partner_interview,fxpxjv00,Whether partner has managerial duties,-8.0,Don't know
+873299,MCS,mcs6_proxy_partner_interview,fxpxjv00,Whether partner has managerial duties,-1.0,Not applicable
+873300,MCS,mcs6_proxy_partner_interview,fxpxjv00,Whether partner has managerial duties,1.0,Manager
+873301,MCS,mcs6_proxy_partner_interview,fxpxjv00,Whether partner has managerial duties,2.0,Foreman or supervisor
+873302,MCS,mcs6_proxy_partner_interview,fxpxjv00,Whether partner has managerial duties,3.0,Not a manager or supervisor
+873303,MCS,mcs6_proxy_partner_interview,fxpxjf00,Whether partner supervises more than 25 people,-9.0,Refused
+873304,MCS,mcs6_proxy_partner_interview,fxpxjf00,Whether partner supervises more than 25 people,-8.0,Don't know
+873305,MCS,mcs6_proxy_partner_interview,fxpxjf00,Whether partner supervises more than 25 people,-1.0,Not applicable
+873306,MCS,mcs6_proxy_partner_interview,fxpxjf00,Whether partner supervises more than 25 people,1.0,Yes
+873307,MCS,mcs6_proxy_partner_interview,fxpxjf00,Whether partner supervises more than 25 people,2.0,No
+873308,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,-9.0,Refused
+873309,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,-8.0,Don't know
+873310,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,-1.0,Not applicable
+873311,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,1.0,Private firm/company/PLC
+873312,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,2.0,Nationalised industry/state corporation
+873313,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,3.0,Central government or civil service
+873314,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,4.0,Local government or council (including
+873315,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,5.0,University or other grant funded educat
+873316,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,6.0,Health authority or NHS Trust
+873317,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,7.0,"Charity, voluntary organisation or trus"
+873318,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,8.0,Armed forces
+873319,MCS,mcs6_proxy_partner_interview,fxpxjc00,Type of organisation partner works for,9.0,Some other kind of organisation
+873320,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,-9.0,Refused
+873321,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,-8.0,Don't know
+873322,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,-1.0,Not applicable
+873323,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,1.0,1-2
+873324,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,2.0,3-9
+873325,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,3.0,10-24
+873326,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,4.0,25-49
+873327,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,5.0,50-99
+873328,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,6.0,100-199
+873329,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,7.0,200-499
+873330,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,8.0,500-999
+873331,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,9.0,1000 or more
+873332,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,10.0,"DK, fewer than 25"
+873333,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,11.0,"DK, 25 or more"
+873334,MCS,mcs6_proxy_partner_interview,fxpxjh00,How many employees at partner's place of work,12.0,None (works alone)
+873335,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,-9.0,Refused
+873336,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,-8.0,Don't know
+873337,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,-1.0,Not applicable
+873338,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,1.0,1-2
+873339,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,2.0,3-9
+873340,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,3.0,10-24
+873341,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,4.0,25-49
+873342,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,5.0,50-99
+873343,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,6.0,100-199
+873344,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,7.0,200-499
+873345,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,8.0,500-999
+873346,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,9.0,1000 or more
+873347,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,10.0,"DK, fewer than 25"
+873348,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,11.0,"DK, 25 or more"
+873349,MCS,mcs6_proxy_partner_interview,fxpxjs00,How many people work for partner,12.0,None (works alone)
+873350,MCS,mcs6_proxy_partner_interview,fxpxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-9.0,Refused
+873351,MCS,mcs6_proxy_partner_interview,fxpxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-8.0,Don't know
+873352,MCS,mcs6_proxy_partner_interview,fxpxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-1.0,Not applicable
+873353,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,-9.0,Refused
+873354,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,-8.0,Don't know
+873355,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,-1.0,Not applicable
+873356,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,1.0,January
+873357,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,2.0,February
+873358,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,3.0,March
+873359,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,4.0,April
+873360,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,5.0,May
+873361,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,6.0,June
+873362,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,7.0,July
+873363,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,8.0,August
+873364,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,9.0,September
+873365,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,10.0,October
+873366,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,11.0,November
+873367,MCS,mcs6_proxy_partner_interview,fxpxjm00,Start of period of - diff from last time - (self)employment of partner: MONTH,12.0,December
+873368,MCS,mcs6_proxy_partner_interview,fxpxjerr,IWR: check month no year (PXJS),-1.0,Not applicable
+873369,MCS,mcs6_proxy_partner_interview,fxpxjerr,IWR: check month no year (PXJS),1.0,Yes - that is correct
+873370,MCS,mcs6_proxy_partner_interview,fxpxjerr,IWR: check month no year (PXJS),2.0,No - go back and change
+873371,MCS,mcs6_proxy_partner_interview,fxpxhr00,Hours/week partner works in job,-9.0,Refused
+873372,MCS,mcs6_proxy_partner_interview,fxpxhr00,Hours/week partner works in job,-8.0,Don't know
+873373,MCS,mcs6_proxy_partner_interview,fxpxhr00,Hours/week partner works in job,-1.0,Not applicable
+873374,MCS,mcs6_proxy_partner_interview,fxpxhrck,IWR: check unusual no of hours,-1.0,Not applicable
+873375,MCS,mcs6_proxy_partner_interview,fxpxhrck,IWR: check unusual no of hours,1.0,Amend
+873376,MCS,mcs6_proxy_partner_interview,fxpxhrck,IWR: check unusual no of hours,2.0,Continue
+873377,MCS,mcs6_proxy_partner_interview,fxpxha00,Does partner do any overtime,-9.0,Refused
+873378,MCS,mcs6_proxy_partner_interview,fxpxha00,Does partner do any overtime,-8.0,Don't know
+873379,MCS,mcs6_proxy_partner_interview,fxpxha00,Does partner do any overtime,-1.0,Not applicable
+873380,MCS,mcs6_proxy_partner_interview,fxpxha00,Does partner do any overtime,1.0,Yes
+873381,MCS,mcs6_proxy_partner_interview,fxpxha00,Does partner do any overtime,2.0,No
+873382,MCS,mcs6_proxy_partner_interview,fxpxhu00,How many hours UNPAID overtime does partner do,-9.0,Refused
+873383,MCS,mcs6_proxy_partner_interview,fxpxhu00,How many hours UNPAID overtime does partner do,-8.0,Don't know
+873384,MCS,mcs6_proxy_partner_interview,fxpxhu00,How many hours UNPAID overtime does partner do,-1.0,Not applicable
+873385,MCS,mcs6_proxy_partner_interview,fxpxhuck,IWR: check when unpaid overtime hours > normal working hours,-1.0,Not applicable
+873386,MCS,mcs6_proxy_partner_interview,fxpxhuck,IWR: check when unpaid overtime hours > normal working hours,1.0,Number of paid hours is wrong
+873387,MCS,mcs6_proxy_partner_interview,fxpxhuck,IWR: check when unpaid overtime hours > normal working hours,2.0,Number of hours unpaid over time is wro
+873388,MCS,mcs6_proxy_partner_interview,fxpxhuck,IWR: check when unpaid overtime hours > normal working hours,3.0,All Correct
+873389,MCS,mcs6_proxy_partner_interview,fxpxhp00,How many hours PAID overtime does partner do,-9.0,Refused
+873390,MCS,mcs6_proxy_partner_interview,fxpxhp00,How many hours PAID overtime does partner do,-8.0,Don't know
+873391,MCS,mcs6_proxy_partner_interview,fxpxhp00,How many hours PAID overtime does partner do,-1.0,Not applicable
+873392,MCS,mcs6_proxy_partner_interview,fxpxhpck,IWR: check overtime unpaid AND/OR paid (PXHP),-1.0,Not applicable
+873393,MCS,mcs6_proxy_partner_interview,fxpxhpck,IWR: check overtime unpaid AND/OR paid (PXHP),1.0,Total number of paid hours is wrong
+873394,MCS,mcs6_proxy_partner_interview,fxpxhpck,IWR: check overtime unpaid AND/OR paid (PXHP),2.0,Number of hours paid overtime is wrong
+873395,MCS,mcs6_proxy_partner_interview,fxpxcy00,End of period of ff not-working of partner : YEAR,-9.0,Refused
+873396,MCS,mcs6_proxy_partner_interview,fxpxcy00,End of period of ff not-working of partner : YEAR,-8.0,Don't know
+873397,MCS,mcs6_proxy_partner_interview,fxpxcy00,End of period of ff not-working of partner : YEAR,-1.0,Not applicable
+873398,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,-9.0,Refused
+873399,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,-8.0,Don't know
+873400,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,-1.0,Not applicable
+873401,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,1.0,January
+873402,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,2.0,February
+873403,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,3.0,March
+873404,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,4.0,April
+873405,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,5.0,May
+873406,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,6.0,June
+873407,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,7.0,July
+873408,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,8.0,August
+873409,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,9.0,September
+873410,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,10.0,October
+873411,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,11.0,November
+873412,MCS,mcs6_proxy_partner_interview,fxpxcm00,End of period of ff not-working of partner : MONTH,12.0,December
+873413,MCS,mcs6_proxy_partner_interview,fxpxcerr,IWR: check month no year (PXHP),-1.0,Not applicable
+873414,MCS,mcs6_proxy_partner_interview,fxpxcerr,IWR: check month no year (PXHP),1.0,Yes - that is correct
+873415,MCS,mcs6_proxy_partner_interview,fxpxcerr,IWR: check month no year (PXHP),2.0,No - go back and change
+873416,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,-9.0,Refused
+873417,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,-8.0,Don't know
+873418,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,-1.0,Not applicable
+873419,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,1.0,Looking after the family
+873420,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,2.0,"Found a job, waiting to start it"
+873421,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,3.0,Out of work and looking for a job
+873422,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,4.0,"Out of work, for reasons of poor health"
+873423,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,5.0,Taking part in the New Deal (or Flexibl
+873424,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,6.0,On another Government training scheme
+873425,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,7.0,On a modern apprenticeship scheme
+873426,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,8.0,Full-time student
+873427,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,9.0,Retired from paid work
+873428,MCS,mcs6_proxy_partner_interview,fxpxck00,Partner's current non-working status,10.0,Not in paid work for some other reason
+873429,MCS,mcs6_proxy_partner_interview,fxpxcn00,Whether partner continously had the same non-working status since last intervw,2.0,No
+873430,MCS,mcs6_proxy_partner_interview,fxpxcn00,Whether partner continously had the same non-working status since last intervw,-9.0,Refused
+873431,MCS,mcs6_proxy_partner_interview,fxpxcn00,Whether partner continously had the same non-working status since last intervw,-8.0,Don't know
+873432,MCS,mcs6_proxy_partner_interview,fxpxcn00,Whether partner continously had the same non-working status since last intervw,-1.0,Not applicable
+873433,MCS,mcs6_proxy_partner_interview,fxpxcn00,Whether partner continously had the same non-working status since last intervw,1.0,Yes
+873434,MCS,mcs6_proxy_partner_interview,fxpxny00,Start of - diff from ff - partner's current non-working period : YEAR,-9.0,Refused
+873435,MCS,mcs6_proxy_partner_interview,fxpxny00,Start of - diff from ff - partner's current non-working period : YEAR,-8.0,Don't know
+873436,MCS,mcs6_proxy_partner_interview,fxpxny00,Start of - diff from ff - partner's current non-working period : YEAR,-1.0,Not applicable
+873437,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,-9.0,Refused
+873438,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,-8.0,Don't know
+873439,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,-1.0,Not applicable
+873440,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,1.0,January
+873441,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,2.0,February
+873442,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,3.0,March
+873443,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,4.0,April
+873444,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,5.0,May
+873445,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,6.0,June
+873446,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,7.0,July
+873447,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,8.0,August
+873448,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,9.0,September
+873449,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,10.0,October
+873450,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,11.0,November
+873451,MCS,mcs6_proxy_partner_interview,fxpxnm00,Start of - diff from ff - partner's current non-working period : MONTH,12.0,December
+873452,MCS,mcs6_proxy_partner_interview,fxpxner1,IWR: check month no year (PXCN 1),-1.0,Not applicable
+873453,MCS,mcs6_proxy_partner_interview,fxpxner1,IWR: check month no year (PXCN 1),1.0,Yes - that is correct
+873454,MCS,mcs6_proxy_partner_interview,fxpxner1,IWR: check month no year (PXCN 1),2.0,No - go back and change
+873455,MCS,mcs6_proxy_partner_interview,fxpxnw00,End of period of ff not-working status of partner : YEAR,-9.0,Refused
+873456,MCS,mcs6_proxy_partner_interview,fxpxnw00,End of period of ff not-working status of partner : YEAR,-8.0,Don't know
+873457,MCS,mcs6_proxy_partner_interview,fxpxnw00,End of period of ff not-working status of partner : YEAR,-1.0,Not applicable
+873458,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,-9.0,Refused
+873459,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,-8.0,Don't know
+873460,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,-1.0,Not applicable
+873461,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,1.0,January
+873462,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,2.0,February
+873463,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,3.0,March
+873464,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,4.0,April
+873465,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,5.0,May
+873466,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,6.0,June
+873467,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,7.0,July
+873468,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,8.0,August
+873469,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,9.0,September
+873470,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,10.0,October
+873471,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,11.0,November
+873472,MCS,mcs6_proxy_partner_interview,fxpxne00,End of period of ff not-working status of partner : MONTH,12.0,December
+873473,MCS,mcs6_proxy_partner_interview,fxpxner2,IWR: check month no year (PXCN 2),-1.0,Not applicable
+873474,MCS,mcs6_proxy_partner_interview,fxpxner2,IWR: check month no year (PXCN 2),1.0,Yes - that is correct
+873475,MCS,mcs6_proxy_partner_interview,fxpxner2,IWR: check month no year (PXCN 2),2.0,No - go back and change
+873476,MCS,mcs6_proxy_partner_interview,fxpxmg00,Whether partner was working for employer or self employed at time of last int,-9.0,Refused
+873477,MCS,mcs6_proxy_partner_interview,fxpxmg00,Whether partner was working for employer or self employed at time of last int,-8.0,Don't know
+873478,MCS,mcs6_proxy_partner_interview,fxpxmg00,Whether partner was working for employer or self employed at time of last int,-1.0,Not applicable
+873479,MCS,mcs6_proxy_partner_interview,fxpxmg00,Whether partner was working for employer or self employed at time of last int,1.0,Working for an employer
+873480,MCS,mcs6_proxy_partner_interview,fxpxmg00,Whether partner was working for employer or self employed at time of last int,2.0,Self-employed
+873481,MCS,mcs6_proxy_partner_interview,fxpxby00,End of period of ff (self)employment of partner : YEAR,-9.0,Refused
+873482,MCS,mcs6_proxy_partner_interview,fxpxby00,End of period of ff (self)employment of partner : YEAR,-8.0,Don't know
+873483,MCS,mcs6_proxy_partner_interview,fxpxby00,End of period of ff (self)employment of partner : YEAR,-1.0,Not applicable
+873484,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,-9.0,Refused
+873485,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,-8.0,Don't know
+873486,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,-1.0,Not applicable
+873487,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,1.0,January
+873488,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,2.0,February
+873489,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,3.0,March
+873490,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,4.0,April
+873491,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,5.0,May
+873492,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,6.0,June
+873493,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,7.0,July
+873494,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,8.0,August
+873495,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,9.0,September
+873496,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,10.0,October
+873497,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,11.0,November
+873498,MCS,mcs6_proxy_partner_interview,fxpxbm00,End of period of ff (self)employment of partner : MONTH,12.0,December
+873499,MCS,mcs6_proxy_partner_interview,fxpxner3,IWR: check month no year (PXMG),-1.0,Not applicable
+873500,MCS,mcs6_proxy_partner_interview,fxpxner3,IWR: check month no year (PXMG),1.0,Yes - that is correct
+873501,MCS,mcs6_proxy_partner_interview,fxpxner3,IWR: check month no year (PXMG),2.0,No - go back and change
+873502,MCS,mcs6_proxy_partner_interview,fxpxns00,Whether partner's payslip consulted,-9.0,Refused
+873503,MCS,mcs6_proxy_partner_interview,fxpxns00,Whether partner's payslip consulted,-8.0,Don't know
+873504,MCS,mcs6_proxy_partner_interview,fxpxns00,Whether partner's payslip consulted,-1.0,Not applicable
+873505,MCS,mcs6_proxy_partner_interview,fxpxns00,Whether partner's payslip consulted,1.0,Latest payslip consulted
+873506,MCS,mcs6_proxy_partner_interview,fxpxns00,Whether partner's payslip consulted,2.0,Old payslip consulted
+873507,MCS,mcs6_proxy_partner_interview,fxpxns00,Whether partner's payslip consulted,3.0,Payslip not consulted
+873508,MCS,mcs6_proxy_partner_interview,fxpxns00,Whether partner's payslip consulted,4.0,No payslip provided by employer
+873509,MCS,mcs6_proxy_partner_interview,fxpxga00,Partner's gross pay (range),-9.0,Refused
+873510,MCS,mcs6_proxy_partner_interview,fxpxga00,Partner's gross pay (range),-8.0,Don't know
+873511,MCS,mcs6_proxy_partner_interview,fxpxga00,Partner's gross pay (range),-1.0,Not applicable
+873512,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),-9.0,Refused
+873513,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),-8.0,Don't know
+873514,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),-1.0,Not applicable
+873515,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),4.0,Four weeks
+873516,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),5.0,Calendar month
+873517,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),6.0,Two Calendar months
+873518,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),7.0,Eight times a year
+873519,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),8.0,Nine times a year
+873520,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),9.0,Ten times a year
+873521,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),10.0,Three months/13 weeks
+873522,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),11.0,Six months/26 weeks
+873523,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),12.0,One Year/12 months/52 weeks
+873524,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),13.0,Less than one week
+873525,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),14.0,One off/lump sum
+873526,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),15.0,None of these
+873527,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),1.0,One week
+873528,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),2.0,Two weeks
+873529,MCS,mcs6_proxy_partner_interview,fxpxgp00,Partner's gross pay (period covered),3.0,Three weeks
+873530,MCS,mcs6_proxy_partner_interview,fxpxgw00,PROXY Computed: Gross weekly amount from Pxgp/Pxga,-1.0,Not applicable
+873531,MCS,mcs6_proxy_partner_interview,fxpxg1ck,IWR: check unusual (PXGP 1),-1.0,Not applicable
+873532,MCS,mcs6_proxy_partner_interview,fxpxg1ck,IWR: check unusual (PXGP 1),1.0,Amend
+873533,MCS,mcs6_proxy_partner_interview,fxpxg1ck,IWR: check unusual (PXGP 1),2.0,Continue
+873534,MCS,mcs6_proxy_partner_interview,fxpxg2ck,IWR: check unusual (PXGP 2),-1.0,Not applicable
+873535,MCS,mcs6_proxy_partner_interview,fxpxg2ck,IWR: check unusual (PXGP 2),1.0,Amend
+873536,MCS,mcs6_proxy_partner_interview,fxpxg2ck,IWR: check unusual (PXGP 2),2.0,Continue
+873537,MCS,mcs6_proxy_partner_interview,fxpxgre0,Partner s gross pay [Bracket: Entry value for 1 week],-1.0,Not applicable
+873538,MCS,mcs6_proxy_partner_interview,fxpxgre0,Partner s gross pay [Bracket: Entry value for 1 week],1.0,Â£200 per 1 Week
+873539,MCS,mcs6_proxy_partner_interview,fxpxgre0,Partner s gross pay [Bracket: Entry value for 1 week],2.0,Â£400 per 1 Week
+873540,MCS,mcs6_proxy_partner_interview,fxpxgre0,Partner s gross pay [Bracket: Entry value for 1 week],3.0,Â£600 per 1 Week
+873541,MCS,mcs6_proxy_partner_interview,fxpxgre0,Partner s gross pay [Bracket: Entry value for 1 week],4.0,Â£1100 per 1 Week
+873542,MCS,mcs6_proxy_partner_interview,fxpxgr0a,Partner s gross pay [Bracket: Â£200 per 1 week],-9.0,Refused
+873543,MCS,mcs6_proxy_partner_interview,fxpxgr0a,Partner s gross pay [Bracket: Â£200 per 1 week],-8.0,Don't know
+873544,MCS,mcs6_proxy_partner_interview,fxpxgr0a,Partner s gross pay [Bracket: Â£200 per 1 week],-1.0,Not applicable
+873545,MCS,mcs6_proxy_partner_interview,fxpxgr0a,Partner s gross pay [Bracket: Â£200 per 1 week],1.0,Less than
+873546,MCS,mcs6_proxy_partner_interview,fxpxgr0a,Partner s gross pay [Bracket: Â£200 per 1 week],2.0,About
+873547,MCS,mcs6_proxy_partner_interview,fxpxgr0a,Partner s gross pay [Bracket: Â£200 per 1 week],3.0,More than
+873548,MCS,mcs6_proxy_partner_interview,fxpxgr0b,Partner s gross pay [Bracket: Â£400 per 1 week],-9.0,Refused
+873549,MCS,mcs6_proxy_partner_interview,fxpxgr0b,Partner s gross pay [Bracket: Â£400 per 1 week],-8.0,Don't know
+873550,MCS,mcs6_proxy_partner_interview,fxpxgr0b,Partner s gross pay [Bracket: Â£400 per 1 week],-1.0,Not applicable
+873551,MCS,mcs6_proxy_partner_interview,fxpxgr0b,Partner s gross pay [Bracket: Â£400 per 1 week],1.0,Less than
+873552,MCS,mcs6_proxy_partner_interview,fxpxgr0b,Partner s gross pay [Bracket: Â£400 per 1 week],2.0,About
+873553,MCS,mcs6_proxy_partner_interview,fxpxgr0b,Partner s gross pay [Bracket: Â£400 per 1 week],3.0,More than
+873554,MCS,mcs6_proxy_partner_interview,fxpxgr0c,Partner s gross pay [Bracket: Â£600 per 1 week],-9.0,Refused
+873555,MCS,mcs6_proxy_partner_interview,fxpxgr0c,Partner s gross pay [Bracket: Â£600 per 1 week],-8.0,Don't know
+873556,MCS,mcs6_proxy_partner_interview,fxpxgr0c,Partner s gross pay [Bracket: Â£600 per 1 week],-1.0,Not applicable
+873557,MCS,mcs6_proxy_partner_interview,fxpxgr0c,Partner s gross pay [Bracket: Â£600 per 1 week],1.0,Less than
+873558,MCS,mcs6_proxy_partner_interview,fxpxgr0c,Partner s gross pay [Bracket: Â£600 per 1 week],2.0,About
+873559,MCS,mcs6_proxy_partner_interview,fxpxgr0c,Partner s gross pay [Bracket: Â£600 per 1 week],3.0,More than
+873560,MCS,mcs6_proxy_partner_interview,fxpxgr0d,Partner s gross pay [Bracket: Â£1100 per 1 week],-9.0,Refused
+873561,MCS,mcs6_proxy_partner_interview,fxpxgr0d,Partner s gross pay [Bracket: Â£1100 per 1 week],-8.0,Don't know
+873562,MCS,mcs6_proxy_partner_interview,fxpxgr0d,Partner s gross pay [Bracket: Â£1100 per 1 week],-1.0,Not applicable
+873563,MCS,mcs6_proxy_partner_interview,fxpxgr0d,Partner s gross pay [Bracket: Â£1100 per 1 week],1.0,Less than
+873564,MCS,mcs6_proxy_partner_interview,fxpxgr0d,Partner s gross pay [Bracket: Â£1100 per 1 week],2.0,About
+873565,MCS,mcs6_proxy_partner_interview,fxpxgr0d,Partner s gross pay [Bracket: Â£1100 per 1 week],3.0,More than
+873566,MCS,mcs6_proxy_partner_interview,fxpxgrl0,Partner s gross pay [Bracket: Lower bound for 1 week],-9.0,Refused
+873567,MCS,mcs6_proxy_partner_interview,fxpxgrl0,Partner s gross pay [Bracket: Lower bound for 1 week],-8.0,Don't know
+873568,MCS,mcs6_proxy_partner_interview,fxpxgrl0,Partner s gross pay [Bracket: Lower bound for 1 week],-1.0,Not applicable
+873569,MCS,mcs6_proxy_partner_interview,fxpxgru0,Partner s gross pay [Bracket: Upper bound for 1 week],-9.0,Refused
+873570,MCS,mcs6_proxy_partner_interview,fxpxgru0,Partner s gross pay [Bracket: Upper bound for 1 week],-8.0,Don't know
+873571,MCS,mcs6_proxy_partner_interview,fxpxgru0,Partner s gross pay [Bracket: Upper bound for 1 week],-1.0,Not applicable
+873572,MCS,mcs6_proxy_partner_interview,fxpxgrr0,Partner s gross pay [Bracket: Outcome for 1 week],-1.0,Not applicable
+873573,MCS,mcs6_proxy_partner_interview,fxpxgrr0,Partner s gross pay [Bracket: Outcome for 1 week],1.0,Complete bracket response
+873574,MCS,mcs6_proxy_partner_interview,fxpxgrr0,Partner s gross pay [Bracket: Outcome for 1 week],2.0,DK to first bracket question asked (dep
+873575,MCS,mcs6_proxy_partner_interview,fxpxgrr0,Partner s gross pay [Bracket: Outcome for 1 week],3.0,Ref to first bracket question asked (de
+873576,MCS,mcs6_proxy_partner_interview,fxpxgrr0,Partner s gross pay [Bracket: Outcome for 1 week],4.0,Incomplete brackets - DK at last questi
+873577,MCS,mcs6_proxy_partner_interview,fxpxgrr0,Partner s gross pay [Bracket: Outcome for 1 week],5.0,Incomplete brackets - Ref at last quest
+873578,MCS,mcs6_proxy_partner_interview,fxpxgfe0,Partner s gross pay [Bracket: Entry value for 2 weeks],-1.0,Not applicable
+873579,MCS,mcs6_proxy_partner_interview,fxpxgfe0,Partner s gross pay [Bracket: Entry value for 2 weeks],1.0,Â£400 per 2 Weeks
+873580,MCS,mcs6_proxy_partner_interview,fxpxgfe0,Partner s gross pay [Bracket: Entry value for 2 weeks],2.0,Â£800 per 2 Weeks
+873581,MCS,mcs6_proxy_partner_interview,fxpxgfe0,Partner s gross pay [Bracket: Entry value for 2 weeks],3.0,Â£1200 per 2 Weeks
+873582,MCS,mcs6_proxy_partner_interview,fxpxgfe0,Partner s gross pay [Bracket: Entry value for 2 weeks],4.0,Â£2200 per 2 Weeks
+873583,MCS,mcs6_proxy_partner_interview,fxpxgf0a,Partner s gross pay [Bracket: Â£400 per 2 weeks],-9.0,Refused
+873584,MCS,mcs6_proxy_partner_interview,fxpxgf0a,Partner s gross pay [Bracket: Â£400 per 2 weeks],-8.0,Don't know
+873585,MCS,mcs6_proxy_partner_interview,fxpxgf0a,Partner s gross pay [Bracket: Â£400 per 2 weeks],-1.0,Not applicable
+873586,MCS,mcs6_proxy_partner_interview,fxpxgf0a,Partner s gross pay [Bracket: Â£400 per 2 weeks],1.0,Less than
+873587,MCS,mcs6_proxy_partner_interview,fxpxgf0a,Partner s gross pay [Bracket: Â£400 per 2 weeks],2.0,About
+873588,MCS,mcs6_proxy_partner_interview,fxpxgf0a,Partner s gross pay [Bracket: Â£400 per 2 weeks],3.0,More than
+873589,MCS,mcs6_proxy_partner_interview,fxpxgf0b,Partner s gross pay [Bracket: Â£200 per 2 weeks],-9.0,Refused
+873590,MCS,mcs6_proxy_partner_interview,fxpxgf0b,Partner s gross pay [Bracket: Â£200 per 2 weeks],-8.0,Don't know
+873591,MCS,mcs6_proxy_partner_interview,fxpxgf0b,Partner s gross pay [Bracket: Â£200 per 2 weeks],-1.0,Not applicable
+873592,MCS,mcs6_proxy_partner_interview,fxpxgf0b,Partner s gross pay [Bracket: Â£200 per 2 weeks],1.0,Less than
+873593,MCS,mcs6_proxy_partner_interview,fxpxgf0b,Partner s gross pay [Bracket: Â£200 per 2 weeks],2.0,About
+873594,MCS,mcs6_proxy_partner_interview,fxpxgf0b,Partner s gross pay [Bracket: Â£200 per 2 weeks],3.0,More than
+873595,MCS,mcs6_proxy_partner_interview,fxpxgf0c,Partner s gross pay [Bracket: Â£1200 per 2 weeks],2.0,About
+873596,MCS,mcs6_proxy_partner_interview,fxpxgf0c,Partner s gross pay [Bracket: Â£1200 per 2 weeks],3.0,More than
+873597,MCS,mcs6_proxy_partner_interview,fxpxgf0c,Partner s gross pay [Bracket: Â£1200 per 2 weeks],-9.0,Refused
+873598,MCS,mcs6_proxy_partner_interview,fxpxgf0c,Partner s gross pay [Bracket: Â£1200 per 2 weeks],-8.0,Don't know
+873599,MCS,mcs6_proxy_partner_interview,fxpxgf0c,Partner s gross pay [Bracket: Â£1200 per 2 weeks],-1.0,Not applicable
+873600,MCS,mcs6_proxy_partner_interview,fxpxgf0c,Partner s gross pay [Bracket: Â£1200 per 2 weeks],1.0,Less than
+873601,MCS,mcs6_proxy_partner_interview,fxpxgf0d,Partner s gross pay [Bracket: Â£2200 per 2 weeks],-9.0,Refused
+873602,MCS,mcs6_proxy_partner_interview,fxpxgf0d,Partner s gross pay [Bracket: Â£2200 per 2 weeks],-8.0,Don't know
+873603,MCS,mcs6_proxy_partner_interview,fxpxgf0d,Partner s gross pay [Bracket: Â£2200 per 2 weeks],-1.0,Not applicable
+873604,MCS,mcs6_proxy_partner_interview,fxpxgf0d,Partner s gross pay [Bracket: Â£2200 per 2 weeks],1.0,Less than
+873605,MCS,mcs6_proxy_partner_interview,fxpxgf0d,Partner s gross pay [Bracket: Â£2200 per 2 weeks],2.0,About
+873606,MCS,mcs6_proxy_partner_interview,fxpxgf0d,Partner s gross pay [Bracket: Â£2200 per 2 weeks],3.0,More than
+873607,MCS,mcs6_proxy_partner_interview,fxpxgfl0,Partner s gross pay [Bracket: Lower bound for 2 weeks],-9.0,Refused
+873608,MCS,mcs6_proxy_partner_interview,fxpxgfl0,Partner s gross pay [Bracket: Lower bound for 2 weeks],-8.0,Don't know
+873609,MCS,mcs6_proxy_partner_interview,fxpxgfl0,Partner s gross pay [Bracket: Lower bound for 2 weeks],-1.0,Not applicable
+873610,MCS,mcs6_proxy_partner_interview,fxpxgfu0,Partner s gross pay [Bracket: Upper bound for 2 weeks],-9.0,Refused
+873611,MCS,mcs6_proxy_partner_interview,fxpxgfu0,Partner s gross pay [Bracket: Upper bound for 2 weeks],-8.0,Don't know
+873612,MCS,mcs6_proxy_partner_interview,fxpxgfu0,Partner s gross pay [Bracket: Upper bound for 2 weeks],-1.0,Not applicable
+873613,MCS,mcs6_proxy_partner_interview,fxpxgfr0,Partner s gross pay [Bracket: Outcome for 2 weeks],-1.0,Not applicable
+873614,MCS,mcs6_proxy_partner_interview,fxpxgfr0,Partner s gross pay [Bracket: Outcome for 2 weeks],1.0,Complete bracket response
+873615,MCS,mcs6_proxy_partner_interview,fxpxgfr0,Partner s gross pay [Bracket: Outcome for 2 weeks],2.0,DK to first bracket question asked (dep
+873616,MCS,mcs6_proxy_partner_interview,fxpxgfr0,Partner s gross pay [Bracket: Outcome for 2 weeks],3.0,Ref to first bracket question asked (de
+873617,MCS,mcs6_proxy_partner_interview,fxpxgfr0,Partner s gross pay [Bracket: Outcome for 2 weeks],4.0,Incomplete brackets - DK at last questi
+873618,MCS,mcs6_proxy_partner_interview,fxpxgfr0,Partner s gross pay [Bracket: Outcome for 2 weeks],5.0,Incomplete brackets - Ref at last quest
+873619,MCS,mcs6_proxy_partner_interview,fxpxgme0,Partner s gross pay [Bracket: Entry value for 4weeks/1month],-1.0,Not applicable
+873620,MCS,mcs6_proxy_partner_interview,fxpxgme0,Partner s gross pay [Bracket: Entry value for 4weeks/1month],1.0,Â£800 per 4 Weeks/1 Month
+873621,MCS,mcs6_proxy_partner_interview,fxpxgme0,Partner s gross pay [Bracket: Entry value for 4weeks/1month],2.0,Â£1600 per 4 Weeks/1 Month
+873622,MCS,mcs6_proxy_partner_interview,fxpxgme0,Partner s gross pay [Bracket: Entry value for 4weeks/1month],3.0,Â£2500 per 4 Weeks/1 Month
+873623,MCS,mcs6_proxy_partner_interview,fxpxgme0,Partner s gross pay [Bracket: Entry value for 4weeks/1month],4.0,Â£4500 per 4 Weeks/1 Month
+873624,MCS,mcs6_proxy_partner_interview,fxpxgm0a,Partner s gross pay [Bracket: Â£800 per 4weeks/1month],-9.0,Refused
+873625,MCS,mcs6_proxy_partner_interview,fxpxgm0a,Partner s gross pay [Bracket: Â£800 per 4weeks/1month],-8.0,Don't know
+873626,MCS,mcs6_proxy_partner_interview,fxpxgm0a,Partner s gross pay [Bracket: Â£800 per 4weeks/1month],-1.0,Not applicable
+873627,MCS,mcs6_proxy_partner_interview,fxpxgm0a,Partner s gross pay [Bracket: Â£800 per 4weeks/1month],1.0,Less than
+873628,MCS,mcs6_proxy_partner_interview,fxpxgm0a,Partner s gross pay [Bracket: Â£800 per 4weeks/1month],2.0,About
+873629,MCS,mcs6_proxy_partner_interview,fxpxgm0a,Partner s gross pay [Bracket: Â£800 per 4weeks/1month],3.0,More than
+873630,MCS,mcs6_proxy_partner_interview,fxpxgm0b,Partner s gross pay [Bracket: Â£1600 per 4weeks/1month],-9.0,Refused
+873631,MCS,mcs6_proxy_partner_interview,fxpxgm0b,Partner s gross pay [Bracket: Â£1600 per 4weeks/1month],-8.0,Don't know
+873632,MCS,mcs6_proxy_partner_interview,fxpxgm0b,Partner s gross pay [Bracket: Â£1600 per 4weeks/1month],-1.0,Not applicable
+873633,MCS,mcs6_proxy_partner_interview,fxpxgm0b,Partner s gross pay [Bracket: Â£1600 per 4weeks/1month],1.0,Less than
+873634,MCS,mcs6_proxy_partner_interview,fxpxgm0b,Partner s gross pay [Bracket: Â£1600 per 4weeks/1month],2.0,About
+873635,MCS,mcs6_proxy_partner_interview,fxpxgm0b,Partner s gross pay [Bracket: Â£1600 per 4weeks/1month],3.0,More than
+873636,MCS,mcs6_proxy_partner_interview,fxpxgm0c,Partner s gross pay [Bracket: Â£2500 per 4weeks/1month],-9.0,Refused
+873637,MCS,mcs6_proxy_partner_interview,fxpxgm0c,Partner s gross pay [Bracket: Â£2500 per 4weeks/1month],-8.0,Don't know
+873638,MCS,mcs6_proxy_partner_interview,fxpxgm0c,Partner s gross pay [Bracket: Â£2500 per 4weeks/1month],-1.0,Not applicable
+873639,MCS,mcs6_proxy_partner_interview,fxpxgm0c,Partner s gross pay [Bracket: Â£2500 per 4weeks/1month],1.0,Less than
+873640,MCS,mcs6_proxy_partner_interview,fxpxgm0c,Partner s gross pay [Bracket: Â£2500 per 4weeks/1month],2.0,About
+873641,MCS,mcs6_proxy_partner_interview,fxpxgm0c,Partner s gross pay [Bracket: Â£2500 per 4weeks/1month],3.0,More than
+873642,MCS,mcs6_proxy_partner_interview,fxpxgm0d,Partner s gross pay [Bracket: Â£4500 per 4weeks/1month],-9.0,Refused
+873643,MCS,mcs6_proxy_partner_interview,fxpxgm0d,Partner s gross pay [Bracket: Â£4500 per 4weeks/1month],-8.0,Don't know
+873644,MCS,mcs6_proxy_partner_interview,fxpxgm0d,Partner s gross pay [Bracket: Â£4500 per 4weeks/1month],-1.0,Not applicable
+873645,MCS,mcs6_proxy_partner_interview,fxpxgm0d,Partner s gross pay [Bracket: Â£4500 per 4weeks/1month],1.0,Less than
+873646,MCS,mcs6_proxy_partner_interview,fxpxgm0d,Partner s gross pay [Bracket: Â£4500 per 4weeks/1month],2.0,About
+873647,MCS,mcs6_proxy_partner_interview,fxpxgm0d,Partner s gross pay [Bracket: Â£4500 per 4weeks/1month],3.0,More than
+873648,MCS,mcs6_proxy_partner_interview,fxpxgml0,Partner s gross pay [Bracket: Lower bound for 4weeks/1month],-9.0,Refused
+873649,MCS,mcs6_proxy_partner_interview,fxpxgml0,Partner s gross pay [Bracket: Lower bound for 4weeks/1month],-8.0,Don't know
+873650,MCS,mcs6_proxy_partner_interview,fxpxgml0,Partner s gross pay [Bracket: Lower bound for 4weeks/1month],-1.0,Not applicable
+873651,MCS,mcs6_proxy_partner_interview,fxpxgmu0,Partner s gross pay [Bracket: Upper bound for 4weeks/1month],-9.0,Refused
+873652,MCS,mcs6_proxy_partner_interview,fxpxgmu0,Partner s gross pay [Bracket: Upper bound for 4weeks/1month],-8.0,Don't know
+873653,MCS,mcs6_proxy_partner_interview,fxpxgmu0,Partner s gross pay [Bracket: Upper bound for 4weeks/1month],-1.0,Not applicable
+873654,MCS,mcs6_proxy_partner_interview,fxpxgmr0,Partner s gross pay [Bracket: Outcome for 4weeks/1month],-1.0,Not applicable
+873655,MCS,mcs6_proxy_partner_interview,fxpxgmr0,Partner s gross pay [Bracket: Outcome for 4weeks/1month],1.0,Complete bracket response
+873656,MCS,mcs6_proxy_partner_interview,fxpxgmr0,Partner s gross pay [Bracket: Outcome for 4weeks/1month],2.0,DK to 1st question (entry value)
+873657,MCS,mcs6_proxy_partner_interview,fxpxgmr0,Partner s gross pay [Bracket: Outcome for 4weeks/1month],3.0,Ref to 1st question (entry value)
+873658,MCS,mcs6_proxy_partner_interview,fxpxgmr0,Partner s gross pay [Bracket: Outcome for 4weeks/1month],4.0,Incomplete - DK at upper/lower bound
+873659,MCS,mcs6_proxy_partner_interview,fxpxgmr0,Partner s gross pay [Bracket: Outcome for 4weeks/1month],5.0,Incomplete - Ref at upper/lower bound
+873660,MCS,mcs6_proxy_partner_interview,fxpxgye0,Partner s gross pay [Bracket: Entry value for 1 year],-1.0,Not applicable
+873661,MCS,mcs6_proxy_partner_interview,fxpxgye0,Partner s gross pay [Bracket: Entry value for 1 year],1.0,Â£10000 per 1 Year
+873662,MCS,mcs6_proxy_partner_interview,fxpxgye0,Partner s gross pay [Bracket: Entry value for 1 year],2.0,Â£20000 per 1 Year
+873663,MCS,mcs6_proxy_partner_interview,fxpxgye0,Partner s gross pay [Bracket: Entry value for 1 year],3.0,Â£30000 per 1 Year
+873664,MCS,mcs6_proxy_partner_interview,fxpxgye0,Partner s gross pay [Bracket: Entry value for 1 year],4.0,Â£60000 per 1 Year
+873665,MCS,mcs6_proxy_partner_interview,fxpxgy0a,Partner s gross pay [Bracket: Â£10000 per 1 year],-9.0,Refused
+873666,MCS,mcs6_proxy_partner_interview,fxpxgy0a,Partner s gross pay [Bracket: Â£10000 per 1 year],-8.0,Don't know
+873667,MCS,mcs6_proxy_partner_interview,fxpxgy0a,Partner s gross pay [Bracket: Â£10000 per 1 year],-1.0,Not applicable
+873668,MCS,mcs6_proxy_partner_interview,fxpxgy0a,Partner s gross pay [Bracket: Â£10000 per 1 year],1.0,Less than
+873669,MCS,mcs6_proxy_partner_interview,fxpxgy0a,Partner s gross pay [Bracket: Â£10000 per 1 year],2.0,About
+873670,MCS,mcs6_proxy_partner_interview,fxpxgy0a,Partner s gross pay [Bracket: Â£10000 per 1 year],3.0,More than
+873671,MCS,mcs6_proxy_partner_interview,fxpxgy0b,Partner s gross pay [Bracket: Â£20000 per 1 year],-9.0,Refused
+873672,MCS,mcs6_proxy_partner_interview,fxpxgy0b,Partner s gross pay [Bracket: Â£20000 per 1 year],-8.0,Don't know
+873673,MCS,mcs6_proxy_partner_interview,fxpxgy0b,Partner s gross pay [Bracket: Â£20000 per 1 year],-1.0,Not applicable
+873674,MCS,mcs6_proxy_partner_interview,fxpxgy0b,Partner s gross pay [Bracket: Â£20000 per 1 year],1.0,Less than
+873675,MCS,mcs6_proxy_partner_interview,fxpxgy0b,Partner s gross pay [Bracket: Â£20000 per 1 year],2.0,About
+873676,MCS,mcs6_proxy_partner_interview,fxpxgy0b,Partner s gross pay [Bracket: Â£20000 per 1 year],3.0,More than
+873677,MCS,mcs6_proxy_partner_interview,fxpxgy0c,Partner s gross pay [Bracket: Â£30000 per 1 year],3.0,More than
+873678,MCS,mcs6_proxy_partner_interview,fxpxgy0c,Partner s gross pay [Bracket: Â£30000 per 1 year],-9.0,Refused
+873679,MCS,mcs6_proxy_partner_interview,fxpxgy0c,Partner s gross pay [Bracket: Â£30000 per 1 year],-8.0,Don't know
+873680,MCS,mcs6_proxy_partner_interview,fxpxgy0c,Partner s gross pay [Bracket: Â£30000 per 1 year],-1.0,Not applicable
+873681,MCS,mcs6_proxy_partner_interview,fxpxgy0c,Partner s gross pay [Bracket: Â£30000 per 1 year],1.0,Less than
+873682,MCS,mcs6_proxy_partner_interview,fxpxgy0c,Partner s gross pay [Bracket: Â£30000 per 1 year],2.0,About
+873683,MCS,mcs6_proxy_partner_interview,fxpxgy0d,Partner s gross pay [Bracket: Â£60000 per 1 year],-9.0,Refused
+873684,MCS,mcs6_proxy_partner_interview,fxpxgy0d,Partner s gross pay [Bracket: Â£60000 per 1 year],-8.0,Don't know
+873685,MCS,mcs6_proxy_partner_interview,fxpxgy0d,Partner s gross pay [Bracket: Â£60000 per 1 year],-1.0,Not applicable
+873686,MCS,mcs6_proxy_partner_interview,fxpxgy0d,Partner s gross pay [Bracket: Â£60000 per 1 year],1.0,Less than
+873687,MCS,mcs6_proxy_partner_interview,fxpxgy0d,Partner s gross pay [Bracket: Â£60000 per 1 year],2.0,About
+873688,MCS,mcs6_proxy_partner_interview,fxpxgy0d,Partner s gross pay [Bracket: Â£60000 per 1 year],3.0,More than
+873689,MCS,mcs6_proxy_partner_interview,fxpxgyl0,Partner s gross pay [Bracket: Lower bound for 1 year],-9.0,Refused
+873690,MCS,mcs6_proxy_partner_interview,fxpxgyl0,Partner s gross pay [Bracket: Lower bound for 1 year],-8.0,Don't know
+873691,MCS,mcs6_proxy_partner_interview,fxpxgyl0,Partner s gross pay [Bracket: Lower bound for 1 year],-1.0,Not applicable
+873692,MCS,mcs6_proxy_partner_interview,fxpxgyu0,Partner s gross pay [Bracket: Upper bound for 1 year],-9.0,Refused
+873693,MCS,mcs6_proxy_partner_interview,fxpxgyu0,Partner s gross pay [Bracket: Upper bound for 1 year],-8.0,Don't know
+873694,MCS,mcs6_proxy_partner_interview,fxpxgyu0,Partner s gross pay [Bracket: Upper bound for 1 year],-1.0,Not applicable
+873695,MCS,mcs6_proxy_partner_interview,fxpxgyr0,Partner s gross pay [Bracket: Outcome for 1 year],-1.0,Not applicable
+873696,MCS,mcs6_proxy_partner_interview,fxpxgyr0,Partner s gross pay [Bracket: Outcome for 1 year],1.0,Complete bracket response
+873697,MCS,mcs6_proxy_partner_interview,fxpxgyr0,Partner s gross pay [Bracket: Outcome for 1 year],2.0,DK to first bracket question asked (dep
+873698,MCS,mcs6_proxy_partner_interview,fxpxgyr0,Partner s gross pay [Bracket: Outcome for 1 year],3.0,Ref to first bracket question asked (de
+873699,MCS,mcs6_proxy_partner_interview,fxpxgyr0,Partner s gross pay [Bracket: Outcome for 1 year],4.0,Incomplete brackets - DK at last questi
+873700,MCS,mcs6_proxy_partner_interview,fxpxgyr0,Partner s gross pay [Bracket: Outcome for 1 year],5.0,Incomplete brackets - Ref at last quest
+873701,MCS,mcs6_proxy_partner_interview,fxpxgoe0,Partner s gross pay [Bracket: Entry value for 1 month],-1.0,Not applicable
+873702,MCS,mcs6_proxy_partner_interview,fxpxgoe0,Partner s gross pay [Bracket: Entry value for 1 month],1.0,Â£800 per 1 Month
+873703,MCS,mcs6_proxy_partner_interview,fxpxgoe0,Partner s gross pay [Bracket: Entry value for 1 month],2.0,Â£1600 per 1 Month
+873704,MCS,mcs6_proxy_partner_interview,fxpxgoe0,Partner s gross pay [Bracket: Entry value for 1 month],3.0,Â£2500 per 1 Month
+873705,MCS,mcs6_proxy_partner_interview,fxpxgoe0,Partner s gross pay [Bracket: Entry value for 1 month],4.0,Â£4500 per 1 Month
+873706,MCS,mcs6_proxy_partner_interview,fxpxgo0a,Partner s gross pay [Bracket: Â£800 per 1 month],-9.0,Refused
+873707,MCS,mcs6_proxy_partner_interview,fxpxgo0a,Partner s gross pay [Bracket: Â£800 per 1 month],-8.0,Don't know
+873708,MCS,mcs6_proxy_partner_interview,fxpxgo0a,Partner s gross pay [Bracket: Â£800 per 1 month],-1.0,Not applicable
+873709,MCS,mcs6_proxy_partner_interview,fxpxgo0a,Partner s gross pay [Bracket: Â£800 per 1 month],1.0,Less than
+873710,MCS,mcs6_proxy_partner_interview,fxpxgo0a,Partner s gross pay [Bracket: Â£800 per 1 month],2.0,About
+873711,MCS,mcs6_proxy_partner_interview,fxpxgo0a,Partner s gross pay [Bracket: Â£800 per 1 month],3.0,More than
+873712,MCS,mcs6_proxy_partner_interview,fxpxgo0b,Partner s gross pay [Bracket: Â£1600 per 1 month],-9.0,Refused
+873713,MCS,mcs6_proxy_partner_interview,fxpxgo0b,Partner s gross pay [Bracket: Â£1600 per 1 month],-8.0,Don't know
+873714,MCS,mcs6_proxy_partner_interview,fxpxgo0b,Partner s gross pay [Bracket: Â£1600 per 1 month],-1.0,Not applicable
+873715,MCS,mcs6_proxy_partner_interview,fxpxgo0b,Partner s gross pay [Bracket: Â£1600 per 1 month],1.0,Less than
+873716,MCS,mcs6_proxy_partner_interview,fxpxgo0b,Partner s gross pay [Bracket: Â£1600 per 1 month],2.0,About
+873717,MCS,mcs6_proxy_partner_interview,fxpxgo0b,Partner s gross pay [Bracket: Â£1600 per 1 month],3.0,More than
+873718,MCS,mcs6_proxy_partner_interview,fxpxgo0c,Partner s gross pay [Bracket: Â£2500 per 1 month],-9.0,Refused
+873719,MCS,mcs6_proxy_partner_interview,fxpxgo0c,Partner s gross pay [Bracket: Â£2500 per 1 month],-8.0,Don't know
+873720,MCS,mcs6_proxy_partner_interview,fxpxgo0c,Partner s gross pay [Bracket: Â£2500 per 1 month],-1.0,Not applicable
+873721,MCS,mcs6_proxy_partner_interview,fxpxgo0c,Partner s gross pay [Bracket: Â£2500 per 1 month],1.0,Less than
+873722,MCS,mcs6_proxy_partner_interview,fxpxgo0c,Partner s gross pay [Bracket: Â£2500 per 1 month],2.0,About
+873723,MCS,mcs6_proxy_partner_interview,fxpxgo0c,Partner s gross pay [Bracket: Â£2500 per 1 month],3.0,More than
+873724,MCS,mcs6_proxy_partner_interview,fxpxgo0d,Partner s gross pay [Bracket: Â£4500 per 1 month],-9.0,Refused
+873725,MCS,mcs6_proxy_partner_interview,fxpxgo0d,Partner s gross pay [Bracket: Â£4500 per 1 month],-8.0,Don't know
+873726,MCS,mcs6_proxy_partner_interview,fxpxgo0d,Partner s gross pay [Bracket: Â£4500 per 1 month],-1.0,Not applicable
+873727,MCS,mcs6_proxy_partner_interview,fxpxgo0d,Partner s gross pay [Bracket: Â£4500 per 1 month],1.0,Less than
+873728,MCS,mcs6_proxy_partner_interview,fxpxgo0d,Partner s gross pay [Bracket: Â£4500 per 1 month],2.0,About
+873729,MCS,mcs6_proxy_partner_interview,fxpxgo0d,Partner s gross pay [Bracket: Â£4500 per 1 month],3.0,More than
+873730,MCS,mcs6_proxy_partner_interview,fxpxgol0,Partner s gross pay [Bracket: Lower bound for 1 month],-9.0,Refused
+873731,MCS,mcs6_proxy_partner_interview,fxpxgol0,Partner s gross pay [Bracket: Lower bound for 1 month],-8.0,Don't know
+873732,MCS,mcs6_proxy_partner_interview,fxpxgol0,Partner s gross pay [Bracket: Lower bound for 1 month],-1.0,Not applicable
+873733,MCS,mcs6_proxy_partner_interview,fxpxgou0,Partner s gross pay [Bracket: Upper bound for 1 month],-9.0,Refused
+873734,MCS,mcs6_proxy_partner_interview,fxpxgou0,Partner s gross pay [Bracket: Upper bound for 1 month],-8.0,Don't know
+873735,MCS,mcs6_proxy_partner_interview,fxpxgou0,Partner s gross pay [Bracket: Upper bound for 1 month],-1.0,Not applicable
+873736,MCS,mcs6_proxy_partner_interview,fxpxgor0,Partner s gross pay [Bracket: Outcome for 1 month],-1.0,Not applicable
+873737,MCS,mcs6_proxy_partner_interview,fxpxgor0,Partner s gross pay [Bracket: Outcome for 1 month],1.0,Complete bracket response
+873738,MCS,mcs6_proxy_partner_interview,fxpxgor0,Partner s gross pay [Bracket: Outcome for 1 month],2.0,DK to 1st question (entry value)
+873739,MCS,mcs6_proxy_partner_interview,fxpxgor0,Partner s gross pay [Bracket: Outcome for 1 month],3.0,Ref to 1st question (entry value)
+873740,MCS,mcs6_proxy_partner_interview,fxpxgor0,Partner s gross pay [Bracket: Outcome for 1 month],4.0,Incomplete - DK at upper/lower bound
+873741,MCS,mcs6_proxy_partner_interview,fxpxgor0,Partner s gross pay [Bracket: Outcome for 1 month],5.0,Incomplete - Ref at upper/lower bound
+873742,MCS,mcs6_proxy_partner_interview,fxpxna00,Partner's Net amount earned last time paid (range),-9.0,Refused
+873743,MCS,mcs6_proxy_partner_interview,fxpxna00,Partner's Net amount earned last time paid (range),-8.0,Don't know
+873744,MCS,mcs6_proxy_partner_interview,fxpxna00,Partner's Net amount earned last time paid (range),-1.0,Not applicable
+873745,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),-9.0,Refused
+873746,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),-8.0,Don't know
+873747,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),-1.0,Not applicable
+873748,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),1.0,One week
+873749,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),2.0,Two weeks
+873750,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),3.0,Three weeks
+873751,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),4.0,Four weeks
+873752,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),5.0,Calendar month
+873753,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),6.0,Two Calendar months
+873754,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),7.0,Eight times a year
+873755,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),8.0,Nine times a year
+873756,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),9.0,Ten times a year
+873757,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),10.0,Three months/13 weeks
+873758,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),11.0,Six months/26 weeks
+873759,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),12.0,One Year/12 months/52 weeks
+873760,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),13.0,Less than one week
+873761,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),14.0,One off/lump sum
+873762,MCS,mcs6_proxy_partner_interview,fxpxnp00,Partner's Net amount earned last time paid (period covered),15.0,None of these
+873763,MCS,mcs6_proxy_partner_interview,fxpxnew0,PROXY Computed: Net weekly amount from Pxna/Pxnp,-1.0,Not applicable
+873764,MCS,mcs6_proxy_partner_interview,fxpxn1ck,IWR: check unusual (PXNP 1),-1.0,Not applicable
+873765,MCS,mcs6_proxy_partner_interview,fxpxn1ck,IWR: check unusual (PXNP 1),1.0,Amend
+873766,MCS,mcs6_proxy_partner_interview,fxpxn1ck,IWR: check unusual (PXNP 1),2.0,Continue
+873767,MCS,mcs6_proxy_partner_interview,fxpxn2ck,IWR: check unusual (PXNP 2),-1.0,Not applicable
+873768,MCS,mcs6_proxy_partner_interview,fxpxn2ck,IWR: check unusual (PXNP 2),1.0,Amend
+873769,MCS,mcs6_proxy_partner_interview,fxpxn2ck,IWR: check unusual (PXNP 2),2.0,Continue
+873770,MCS,mcs6_proxy_partner_interview,fxpxn3ck,IWR: check net > gross 1,-1.0,Not applicable
+873771,MCS,mcs6_proxy_partner_interview,fxpxn3ck,IWR: check net > gross 1,1.0,Amend
+873772,MCS,mcs6_proxy_partner_interview,fxpxn3ck,IWR: check net > gross 1,2.0,Continue
+873773,MCS,mcs6_proxy_partner_interview,fxpxn4ck,IWR: check net > gross 2,-1.0,Not applicable
+873774,MCS,mcs6_proxy_partner_interview,fxpxn4ck,IWR: check net > gross 2,1.0,Amend
+873775,MCS,mcs6_proxy_partner_interview,fxpxn4ck,IWR: check net > gross 2,2.0,Continue
+873776,MCS,mcs6_proxy_partner_interview,fxpxnre0,Partner s net pay [Bracket: Entry value for 1 week],-1.0,Not applicable
+873777,MCS,mcs6_proxy_partner_interview,fxpxnre0,Partner s net pay [Bracket: Entry value for 1 week],1.0,Â£200 per 1 Week
+873778,MCS,mcs6_proxy_partner_interview,fxpxnre0,Partner s net pay [Bracket: Entry value for 1 week],2.0,Â£300 per 1 Week
+873779,MCS,mcs6_proxy_partner_interview,fxpxnre0,Partner s net pay [Bracket: Entry value for 1 week],3.0,Â£450 per 1 Week
+873780,MCS,mcs6_proxy_partner_interview,fxpxnre0,Partner s net pay [Bracket: Entry value for 1 week],4.0,Â£800 per 1 Week
+873781,MCS,mcs6_proxy_partner_interview,fxpxnr0a,Partner s net pay [Bracket: Â£200 per 1 week],-9.0,Refused
+873782,MCS,mcs6_proxy_partner_interview,fxpxnr0a,Partner s net pay [Bracket: Â£200 per 1 week],-8.0,Don't know
+873783,MCS,mcs6_proxy_partner_interview,fxpxnr0a,Partner s net pay [Bracket: Â£200 per 1 week],-1.0,Not applicable
+873784,MCS,mcs6_proxy_partner_interview,fxpxnr0a,Partner s net pay [Bracket: Â£200 per 1 week],1.0,Less than
+873785,MCS,mcs6_proxy_partner_interview,fxpxnr0a,Partner s net pay [Bracket: Â£200 per 1 week],2.0,About
+873786,MCS,mcs6_proxy_partner_interview,fxpxnr0a,Partner s net pay [Bracket: Â£200 per 1 week],3.0,More than
+873787,MCS,mcs6_proxy_partner_interview,fxpxnr0b,Partner s net pay [Bracket: Â£300 per 1 week],-9.0,Refused
+873788,MCS,mcs6_proxy_partner_interview,fxpxnr0b,Partner s net pay [Bracket: Â£300 per 1 week],-8.0,Don't know
+873789,MCS,mcs6_proxy_partner_interview,fxpxnr0b,Partner s net pay [Bracket: Â£300 per 1 week],-1.0,Not applicable
+873790,MCS,mcs6_proxy_partner_interview,fxpxnr0b,Partner s net pay [Bracket: Â£300 per 1 week],1.0,Less than
+873791,MCS,mcs6_proxy_partner_interview,fxpxnr0b,Partner s net pay [Bracket: Â£300 per 1 week],2.0,About
+873792,MCS,mcs6_proxy_partner_interview,fxpxnr0b,Partner s net pay [Bracket: Â£300 per 1 week],3.0,More than
+873793,MCS,mcs6_proxy_partner_interview,fxpxnr0c,Partner s net pay [Bracket: Â£450 per 1 week],-9.0,Refused
+873794,MCS,mcs6_proxy_partner_interview,fxpxnr0c,Partner s net pay [Bracket: Â£450 per 1 week],-8.0,Don't know
+873795,MCS,mcs6_proxy_partner_interview,fxpxnr0c,Partner s net pay [Bracket: Â£450 per 1 week],-1.0,Not applicable
+873796,MCS,mcs6_proxy_partner_interview,fxpxnr0c,Partner s net pay [Bracket: Â£450 per 1 week],1.0,Less than
+873797,MCS,mcs6_proxy_partner_interview,fxpxnr0c,Partner s net pay [Bracket: Â£450 per 1 week],2.0,About
+873798,MCS,mcs6_proxy_partner_interview,fxpxnr0c,Partner s net pay [Bracket: Â£450 per 1 week],3.0,More than
+873799,MCS,mcs6_proxy_partner_interview,fxpxnr0d,Partner s net pay [Bracket: Â£800 per 1 week],-9.0,Refused
+873800,MCS,mcs6_proxy_partner_interview,fxpxnr0d,Partner s net pay [Bracket: Â£800 per 1 week],-8.0,Don't know
+873801,MCS,mcs6_proxy_partner_interview,fxpxnr0d,Partner s net pay [Bracket: Â£800 per 1 week],-1.0,Not applicable
+873802,MCS,mcs6_proxy_partner_interview,fxpxnr0d,Partner s net pay [Bracket: Â£800 per 1 week],1.0,Less than
+873803,MCS,mcs6_proxy_partner_interview,fxpxnr0d,Partner s net pay [Bracket: Â£800 per 1 week],2.0,About
+873804,MCS,mcs6_proxy_partner_interview,fxpxnr0d,Partner s net pay [Bracket: Â£800 per 1 week],3.0,More than
+873805,MCS,mcs6_proxy_partner_interview,fxpxnrl0,Partner s net pay [Bracket: Lower bound for 1 week],-9.0,Refused
+873806,MCS,mcs6_proxy_partner_interview,fxpxnrl0,Partner s net pay [Bracket: Lower bound for 1 week],-8.0,Don't know
+873807,MCS,mcs6_proxy_partner_interview,fxpxnrl0,Partner s net pay [Bracket: Lower bound for 1 week],-1.0,Not applicable
+873808,MCS,mcs6_proxy_partner_interview,fxpxnru0,Partner s net pay [Bracket: Upper bound for 1 week],-9.0,Refused
+873809,MCS,mcs6_proxy_partner_interview,fxpxnru0,Partner s net pay [Bracket: Upper bound for 1 week],-8.0,Don't know
+873810,MCS,mcs6_proxy_partner_interview,fxpxnru0,Partner s net pay [Bracket: Upper bound for 1 week],-1.0,Not applicable
+873811,MCS,mcs6_proxy_partner_interview,fxpxnrr0,Partner s net pay [Bracket: Outcome for 1 week],-1.0,Not applicable
+873812,MCS,mcs6_proxy_partner_interview,fxpxnrr0,Partner s net pay [Bracket: Outcome for 1 week],1.0,Complete bracket response
+873813,MCS,mcs6_proxy_partner_interview,fxpxnrr0,Partner s net pay [Bracket: Outcome for 1 week],2.0,DK to first bracket question asked (dep
+873814,MCS,mcs6_proxy_partner_interview,fxpxnrr0,Partner s net pay [Bracket: Outcome for 1 week],3.0,Ref to first bracket question asked (de
+873815,MCS,mcs6_proxy_partner_interview,fxpxnrr0,Partner s net pay [Bracket: Outcome for 1 week],4.0,Incomplete brackets - DK at last questi
+873816,MCS,mcs6_proxy_partner_interview,fxpxnrr0,Partner s net pay [Bracket: Outcome for 1 week],5.0,Incomplete brackets - Ref at last quest
+873817,MCS,mcs6_proxy_partner_interview,fxpxnfe0,Partner s net pay [Bracket: Entry value for 2 weeks],-1.0,Not applicable
+873818,MCS,mcs6_proxy_partner_interview,fxpxnfe0,Partner s net pay [Bracket: Entry value for 2 weeks],1.0,Â£400 per 2 Weeks
+873819,MCS,mcs6_proxy_partner_interview,fxpxnfe0,Partner s net pay [Bracket: Entry value for 2 weeks],2.0,Â£600 per 2 Weeks
+873820,MCS,mcs6_proxy_partner_interview,fxpxnfe0,Partner s net pay [Bracket: Entry value for 2 weeks],3.0,Â£900 per 2 Weeks
+873821,MCS,mcs6_proxy_partner_interview,fxpxnfe0,Partner s net pay [Bracket: Entry value for 2 weeks],4.0,Â£1600 per 2 Weeks
+873822,MCS,mcs6_proxy_partner_interview,fxpxnf0a,Partner s net pay [Bracket: Â£400 per 2 weeks],-9.0,Refused
+873823,MCS,mcs6_proxy_partner_interview,fxpxnf0a,Partner s net pay [Bracket: Â£400 per 2 weeks],-8.0,Don't know
+873824,MCS,mcs6_proxy_partner_interview,fxpxnf0a,Partner s net pay [Bracket: Â£400 per 2 weeks],-1.0,Not applicable
+873825,MCS,mcs6_proxy_partner_interview,fxpxnf0a,Partner s net pay [Bracket: Â£400 per 2 weeks],1.0,Less than
+873826,MCS,mcs6_proxy_partner_interview,fxpxnf0a,Partner s net pay [Bracket: Â£400 per 2 weeks],2.0,About
+873827,MCS,mcs6_proxy_partner_interview,fxpxnf0a,Partner s net pay [Bracket: Â£400 per 2 weeks],3.0,More than
+873828,MCS,mcs6_proxy_partner_interview,fxpxnf0b,Partner s net pay [Bracket: Â£600 per 2 weeks],-9.0,Refused
+873829,MCS,mcs6_proxy_partner_interview,fxpxnf0b,Partner s net pay [Bracket: Â£600 per 2 weeks],-8.0,Don't know
+873830,MCS,mcs6_proxy_partner_interview,fxpxnf0b,Partner s net pay [Bracket: Â£600 per 2 weeks],-1.0,Not applicable
+873831,MCS,mcs6_proxy_partner_interview,fxpxnf0b,Partner s net pay [Bracket: Â£600 per 2 weeks],1.0,Less than
+873832,MCS,mcs6_proxy_partner_interview,fxpxnf0b,Partner s net pay [Bracket: Â£600 per 2 weeks],2.0,About
+873833,MCS,mcs6_proxy_partner_interview,fxpxnf0b,Partner s net pay [Bracket: Â£600 per 2 weeks],3.0,More than
+873834,MCS,mcs6_proxy_partner_interview,fxpxnf0c,Partner s net pay [Bracket: Â£900 per 2 weeks],-9.0,Refused
+873835,MCS,mcs6_proxy_partner_interview,fxpxnf0c,Partner s net pay [Bracket: Â£900 per 2 weeks],-8.0,Don't know
+873836,MCS,mcs6_proxy_partner_interview,fxpxnf0c,Partner s net pay [Bracket: Â£900 per 2 weeks],-1.0,Not applicable
+873837,MCS,mcs6_proxy_partner_interview,fxpxnf0c,Partner s net pay [Bracket: Â£900 per 2 weeks],1.0,Less than
+873838,MCS,mcs6_proxy_partner_interview,fxpxnf0c,Partner s net pay [Bracket: Â£900 per 2 weeks],2.0,About
+873839,MCS,mcs6_proxy_partner_interview,fxpxnf0c,Partner s net pay [Bracket: Â£900 per 2 weeks],3.0,More than
+873840,MCS,mcs6_proxy_partner_interview,fxpxnf0d,Partner s net pay [Bracket: Â£1600 per 2 weeks],-9.0,Refused
+873841,MCS,mcs6_proxy_partner_interview,fxpxnf0d,Partner s net pay [Bracket: Â£1600 per 2 weeks],-8.0,Don't know
+873842,MCS,mcs6_proxy_partner_interview,fxpxnf0d,Partner s net pay [Bracket: Â£1600 per 2 weeks],-1.0,Not applicable
+873843,MCS,mcs6_proxy_partner_interview,fxpxnf0d,Partner s net pay [Bracket: Â£1600 per 2 weeks],1.0,Less than
+873844,MCS,mcs6_proxy_partner_interview,fxpxnf0d,Partner s net pay [Bracket: Â£1600 per 2 weeks],2.0,About
+873845,MCS,mcs6_proxy_partner_interview,fxpxnf0d,Partner s net pay [Bracket: Â£1600 per 2 weeks],3.0,More than
+873846,MCS,mcs6_proxy_partner_interview,fxpxnfl0,Partner s net pay [Bracket: Lower bound for 2 weeks],-9.0,Refused
+873847,MCS,mcs6_proxy_partner_interview,fxpxnfl0,Partner s net pay [Bracket: Lower bound for 2 weeks],-8.0,Don't know
+873848,MCS,mcs6_proxy_partner_interview,fxpxnfl0,Partner s net pay [Bracket: Lower bound for 2 weeks],-1.0,Not applicable
+873849,MCS,mcs6_proxy_partner_interview,fxpxnfu0,Partner s net pay [Bracket: Upper bound for 2 weeks],-9.0,Refused
+873850,MCS,mcs6_proxy_partner_interview,fxpxnfu0,Partner s net pay [Bracket: Upper bound for 2 weeks],-8.0,Don't know
+873851,MCS,mcs6_proxy_partner_interview,fxpxnfu0,Partner s net pay [Bracket: Upper bound for 2 weeks],-1.0,Not applicable
+873852,MCS,mcs6_proxy_partner_interview,fxpxnfr0,Partner s net pay [Bracket: Outcome for 2 weeks],-1.0,Not applicable
+873853,MCS,mcs6_proxy_partner_interview,fxpxnfr0,Partner s net pay [Bracket: Outcome for 2 weeks],1.0,Complete bracket response
+873854,MCS,mcs6_proxy_partner_interview,fxpxnfr0,Partner s net pay [Bracket: Outcome for 2 weeks],2.0,DK to first bracket question asked (dep
+873855,MCS,mcs6_proxy_partner_interview,fxpxnfr0,Partner s net pay [Bracket: Outcome for 2 weeks],3.0,Ref to first bracket question asked (de
+873856,MCS,mcs6_proxy_partner_interview,fxpxnfr0,Partner s net pay [Bracket: Outcome for 2 weeks],4.0,Incomplete brackets - DK at last questi
+873857,MCS,mcs6_proxy_partner_interview,fxpxnfr0,Partner s net pay [Bracket: Outcome for 2 weeks],5.0,Incomplete brackets - Ref at last quest
+873858,MCS,mcs6_proxy_partner_interview,fxpxnge0,Partner s net pay [Bracket: Entry value for 4weeks/1month],-1.0,Not applicable
+873859,MCS,mcs6_proxy_partner_interview,fxpxnge0,Partner s net pay [Bracket: Entry value for 4weeks/1month],1.0,Â£800 per 4 Weeks/1 Month
+873860,MCS,mcs6_proxy_partner_interview,fxpxnge0,Partner s net pay [Bracket: Entry value for 4weeks/1month],2.0,Â£1200 per 4 Weeks/1 Month
+873861,MCS,mcs6_proxy_partner_interview,fxpxnge0,Partner s net pay [Bracket: Entry value for 4weeks/1month],3.0,Â£1800 per 4 Weeks/1 Month
+873862,MCS,mcs6_proxy_partner_interview,fxpxnge0,Partner s net pay [Bracket: Entry value for 4weeks/1month],4.0,Â£3200 per 4 Weeks/1 Month
+873863,MCS,mcs6_proxy_partner_interview,fxpxng0a,Partner s net pay [Bracket: Â£800 per 4weeks/1month],-9.0,Refused
+873864,MCS,mcs6_proxy_partner_interview,fxpxng0a,Partner s net pay [Bracket: Â£800 per 4weeks/1month],-8.0,Don't know
+873865,MCS,mcs6_proxy_partner_interview,fxpxng0a,Partner s net pay [Bracket: Â£800 per 4weeks/1month],-1.0,Not applicable
+873866,MCS,mcs6_proxy_partner_interview,fxpxng0a,Partner s net pay [Bracket: Â£800 per 4weeks/1month],1.0,Less than
+873867,MCS,mcs6_proxy_partner_interview,fxpxng0a,Partner s net pay [Bracket: Â£800 per 4weeks/1month],2.0,About
+873868,MCS,mcs6_proxy_partner_interview,fxpxng0a,Partner s net pay [Bracket: Â£800 per 4weeks/1month],3.0,More than
+873869,MCS,mcs6_proxy_partner_interview,fxpxng0b,Partner s net pay [Bracket: Â£1200 per 4weeks/1month],-9.0,Refused
+873870,MCS,mcs6_proxy_partner_interview,fxpxng0b,Partner s net pay [Bracket: Â£1200 per 4weeks/1month],-8.0,Don't know
+873871,MCS,mcs6_proxy_partner_interview,fxpxng0b,Partner s net pay [Bracket: Â£1200 per 4weeks/1month],-1.0,Not applicable
+873872,MCS,mcs6_proxy_partner_interview,fxpxng0b,Partner s net pay [Bracket: Â£1200 per 4weeks/1month],1.0,Less than
+873873,MCS,mcs6_proxy_partner_interview,fxpxng0b,Partner s net pay [Bracket: Â£1200 per 4weeks/1month],2.0,About
+873874,MCS,mcs6_proxy_partner_interview,fxpxng0b,Partner s net pay [Bracket: Â£1200 per 4weeks/1month],3.0,More than
+873875,MCS,mcs6_proxy_partner_interview,fxpxng0c,Partner s net pay [Bracket: Â£1800 per 4weeks/1month],-9.0,Refused
+873876,MCS,mcs6_proxy_partner_interview,fxpxng0c,Partner s net pay [Bracket: Â£1800 per 4weeks/1month],-8.0,Don't know
+873877,MCS,mcs6_proxy_partner_interview,fxpxng0c,Partner s net pay [Bracket: Â£1800 per 4weeks/1month],-1.0,Not applicable
+873878,MCS,mcs6_proxy_partner_interview,fxpxng0c,Partner s net pay [Bracket: Â£1800 per 4weeks/1month],1.0,Less than
+873879,MCS,mcs6_proxy_partner_interview,fxpxng0c,Partner s net pay [Bracket: Â£1800 per 4weeks/1month],2.0,About
+873880,MCS,mcs6_proxy_partner_interview,fxpxng0c,Partner s net pay [Bracket: Â£1800 per 4weeks/1month],3.0,More than
+873881,MCS,mcs6_proxy_partner_interview,fxpxng0d,Partner s net pay [Bracket: Â£3200 per 4weeks/1month],-9.0,Refused
+873882,MCS,mcs6_proxy_partner_interview,fxpxng0d,Partner s net pay [Bracket: Â£3200 per 4weeks/1month],-8.0,Don't know
+873883,MCS,mcs6_proxy_partner_interview,fxpxng0d,Partner s net pay [Bracket: Â£3200 per 4weeks/1month],-1.0,Not applicable
+873884,MCS,mcs6_proxy_partner_interview,fxpxng0d,Partner s net pay [Bracket: Â£3200 per 4weeks/1month],1.0,Less than
+873885,MCS,mcs6_proxy_partner_interview,fxpxng0d,Partner s net pay [Bracket: Â£3200 per 4weeks/1month],2.0,About
+873886,MCS,mcs6_proxy_partner_interview,fxpxng0d,Partner s net pay [Bracket: Â£3200 per 4weeks/1month],3.0,More than
+873887,MCS,mcs6_proxy_partner_interview,fxpxngl0,Partner s net pay [Bracket: Lower bound for 4weeks/1month],-9.0,Refused
+873888,MCS,mcs6_proxy_partner_interview,fxpxngl0,Partner s net pay [Bracket: Lower bound for 4weeks/1month],-8.0,Don't know
+873889,MCS,mcs6_proxy_partner_interview,fxpxngl0,Partner s net pay [Bracket: Lower bound for 4weeks/1month],-1.0,Not applicable
+873890,MCS,mcs6_proxy_partner_interview,fxpxngu0,Partner s net pay [Bracket: Upper bound for 4weeks/1month],-9.0,Refused
+873891,MCS,mcs6_proxy_partner_interview,fxpxngu0,Partner s net pay [Bracket: Upper bound for 4weeks/1month],-8.0,Don't know
+873892,MCS,mcs6_proxy_partner_interview,fxpxngu0,Partner s net pay [Bracket: Upper bound for 4weeks/1month],-1.0,Not applicable
+873893,MCS,mcs6_proxy_partner_interview,fxpxngr0,Partner s net pay [Bracket: Outcome for 4weeks/1month],-1.0,Not applicable
+873894,MCS,mcs6_proxy_partner_interview,fxpxngr0,Partner s net pay [Bracket: Outcome for 4weeks/1month],1.0,Complete bracket response
+873895,MCS,mcs6_proxy_partner_interview,fxpxngr0,Partner s net pay [Bracket: Outcome for 4weeks/1month],2.0,DK to first bracket question asked (dep
+873896,MCS,mcs6_proxy_partner_interview,fxpxngr0,Partner s net pay [Bracket: Outcome for 4weeks/1month],3.0,Ref to first bracket question asked (de
+873897,MCS,mcs6_proxy_partner_interview,fxpxngr0,Partner s net pay [Bracket: Outcome for 4weeks/1month],4.0,Incomplete brackets - DK at last questi
+873898,MCS,mcs6_proxy_partner_interview,fxpxngr0,Partner s net pay [Bracket: Outcome for 4weeks/1month],5.0,Incomplete brackets - Ref at last quest
+873899,MCS,mcs6_proxy_partner_interview,fxpxnke0,Partner s net pay [Bracket: Entry value for 1 year],-1.0,Not applicable
+873900,MCS,mcs6_proxy_partner_interview,fxpxnke0,Partner s net pay [Bracket: Entry value for 1 year],1.0,Â£10000 per 1 Year
+873901,MCS,mcs6_proxy_partner_interview,fxpxnke0,Partner s net pay [Bracket: Entry value for 1 year],2.0,Â£15000 per 1 Year
+873902,MCS,mcs6_proxy_partner_interview,fxpxnke0,Partner s net pay [Bracket: Entry value for 1 year],3.0,Â£20000 per 1 Year
+873903,MCS,mcs6_proxy_partner_interview,fxpxnke0,Partner s net pay [Bracket: Entry value for 1 year],4.0,Â£40000 per 1 Year
+873904,MCS,mcs6_proxy_partner_interview,fxpxnk0a,Partner s net pay [Bracket: Â£10000 per 1 year],-9.0,Refused
+873905,MCS,mcs6_proxy_partner_interview,fxpxnk0a,Partner s net pay [Bracket: Â£10000 per 1 year],-8.0,Don't know
+873906,MCS,mcs6_proxy_partner_interview,fxpxnk0a,Partner s net pay [Bracket: Â£10000 per 1 year],-1.0,Not applicable
+873907,MCS,mcs6_proxy_partner_interview,fxpxnk0a,Partner s net pay [Bracket: Â£10000 per 1 year],1.0,Less than
+873908,MCS,mcs6_proxy_partner_interview,fxpxnk0a,Partner s net pay [Bracket: Â£10000 per 1 year],2.0,About
+873909,MCS,mcs6_proxy_partner_interview,fxpxnk0a,Partner s net pay [Bracket: Â£10000 per 1 year],3.0,More than
+873910,MCS,mcs6_proxy_partner_interview,fxpxnk0b,Partner s net pay [Bracket: Â£15000 per 1 year],-9.0,Refused
+873911,MCS,mcs6_proxy_partner_interview,fxpxnk0b,Partner s net pay [Bracket: Â£15000 per 1 year],-8.0,Don't know
+873912,MCS,mcs6_proxy_partner_interview,fxpxnk0b,Partner s net pay [Bracket: Â£15000 per 1 year],-1.0,Not applicable
+873913,MCS,mcs6_proxy_partner_interview,fxpxnk0b,Partner s net pay [Bracket: Â£15000 per 1 year],1.0,Less than
+873914,MCS,mcs6_proxy_partner_interview,fxpxnk0b,Partner s net pay [Bracket: Â£15000 per 1 year],2.0,About
+873915,MCS,mcs6_proxy_partner_interview,fxpxnk0b,Partner s net pay [Bracket: Â£15000 per 1 year],3.0,More than
+873916,MCS,mcs6_proxy_partner_interview,fxpxnk0c,Partner s net pay [Bracket: Â£20000 per 1 year],-9.0,Refused
+873917,MCS,mcs6_proxy_partner_interview,fxpxnk0c,Partner s net pay [Bracket: Â£20000 per 1 year],-8.0,Don't know
+873918,MCS,mcs6_proxy_partner_interview,fxpxnk0c,Partner s net pay [Bracket: Â£20000 per 1 year],-1.0,Not applicable
+873919,MCS,mcs6_proxy_partner_interview,fxpxnk0c,Partner s net pay [Bracket: Â£20000 per 1 year],1.0,Less than
+873920,MCS,mcs6_proxy_partner_interview,fxpxnk0c,Partner s net pay [Bracket: Â£20000 per 1 year],2.0,About
+873921,MCS,mcs6_proxy_partner_interview,fxpxnk0c,Partner s net pay [Bracket: Â£20000 per 1 year],3.0,More than
+873922,MCS,mcs6_proxy_partner_interview,fxpxnk0d,Partner s net pay [Bracket: Â£40000 per 1 year],-9.0,Refused
+873923,MCS,mcs6_proxy_partner_interview,fxpxnk0d,Partner s net pay [Bracket: Â£40000 per 1 year],-8.0,Don't know
+873924,MCS,mcs6_proxy_partner_interview,fxpxnk0d,Partner s net pay [Bracket: Â£40000 per 1 year],-1.0,Not applicable
+873925,MCS,mcs6_proxy_partner_interview,fxpxnk0d,Partner s net pay [Bracket: Â£40000 per 1 year],1.0,Less than
+873926,MCS,mcs6_proxy_partner_interview,fxpxnk0d,Partner s net pay [Bracket: Â£40000 per 1 year],2.0,About
+873927,MCS,mcs6_proxy_partner_interview,fxpxnk0d,Partner s net pay [Bracket: Â£40000 per 1 year],3.0,More than
+873928,MCS,mcs6_proxy_partner_interview,fxpxnkl0,Partner s net pay [Bracket: Lower bound for 1 year],-9.0,Refused
+873929,MCS,mcs6_proxy_partner_interview,fxpxnkl0,Partner s net pay [Bracket: Lower bound for 1 year],-8.0,Don't know
+873930,MCS,mcs6_proxy_partner_interview,fxpxnkl0,Partner s net pay [Bracket: Lower bound for 1 year],-1.0,Not applicable
+873931,MCS,mcs6_proxy_partner_interview,fxpxnku0,Partner s net pay [Bracket: Upper bound for 1 year],-8.0,Don't know
+873932,MCS,mcs6_proxy_partner_interview,fxpxnku0,Partner s net pay [Bracket: Upper bound for 1 year],-1.0,Not applicable
+873933,MCS,mcs6_proxy_partner_interview,fxpxnku0,Partner s net pay [Bracket: Upper bound for 1 year],-9.0,Refused
+873934,MCS,mcs6_proxy_partner_interview,fxpxnkr0,Partner s net pay [Bracket: Outcome for 1 year],-1.0,Not applicable
+873935,MCS,mcs6_proxy_partner_interview,fxpxnkr0,Partner s net pay [Bracket: Outcome for 1 year],1.0,Complete bracket response
+873936,MCS,mcs6_proxy_partner_interview,fxpxnkr0,Partner s net pay [Bracket: Outcome for 1 year],2.0,DK to first bracket question asked (dep
+873937,MCS,mcs6_proxy_partner_interview,fxpxnkr0,Partner s net pay [Bracket: Outcome for 1 year],3.0,Ref to first bracket question asked (de
+873938,MCS,mcs6_proxy_partner_interview,fxpxnkr0,Partner s net pay [Bracket: Outcome for 1 year],4.0,Incomplete brackets - DK at last questi
+873939,MCS,mcs6_proxy_partner_interview,fxpxnkr0,Partner s net pay [Bracket: Outcome for 1 year],5.0,Incomplete brackets - Ref at last quest
+873940,MCS,mcs6_proxy_partner_interview,fxpxnoe0,Partner s net pay [Bracket: Entry value for 1 month],-1.0,Not applicable
+873941,MCS,mcs6_proxy_partner_interview,fxpxnoe0,Partner s net pay [Bracket: Entry value for 1 month],1.0,Â£800 per 1 Month
+873942,MCS,mcs6_proxy_partner_interview,fxpxnoe0,Partner s net pay [Bracket: Entry value for 1 month],2.0,Â£1200 per 1 Month
+873943,MCS,mcs6_proxy_partner_interview,fxpxnoe0,Partner s net pay [Bracket: Entry value for 1 month],3.0,Â£1800 per 1 Month
+873944,MCS,mcs6_proxy_partner_interview,fxpxnoe0,Partner s net pay [Bracket: Entry value for 1 month],4.0,Â£3200 per 1 Month
+873945,MCS,mcs6_proxy_partner_interview,fxpxno0a,Partner s net pay [Bracket: Â£800 per 1 month],-9.0,Refused
+873946,MCS,mcs6_proxy_partner_interview,fxpxno0a,Partner s net pay [Bracket: Â£800 per 1 month],-8.0,Don't know
+873947,MCS,mcs6_proxy_partner_interview,fxpxno0a,Partner s net pay [Bracket: Â£800 per 1 month],-1.0,Not applicable
+873948,MCS,mcs6_proxy_partner_interview,fxpxno0a,Partner s net pay [Bracket: Â£800 per 1 month],1.0,Less than
+873949,MCS,mcs6_proxy_partner_interview,fxpxno0a,Partner s net pay [Bracket: Â£800 per 1 month],2.0,About
+873950,MCS,mcs6_proxy_partner_interview,fxpxno0a,Partner s net pay [Bracket: Â£800 per 1 month],3.0,More than
+873951,MCS,mcs6_proxy_partner_interview,fxpxno0b,Partner s net pay [Bracket: Â£1200 per 1 month],-9.0,Refused
+873952,MCS,mcs6_proxy_partner_interview,fxpxno0b,Partner s net pay [Bracket: Â£1200 per 1 month],-8.0,Don't know
+873953,MCS,mcs6_proxy_partner_interview,fxpxno0b,Partner s net pay [Bracket: Â£1200 per 1 month],-1.0,Not applicable
+873954,MCS,mcs6_proxy_partner_interview,fxpxno0b,Partner s net pay [Bracket: Â£1200 per 1 month],1.0,Less than
+873955,MCS,mcs6_proxy_partner_interview,fxpxno0b,Partner s net pay [Bracket: Â£1200 per 1 month],2.0,About
+873956,MCS,mcs6_proxy_partner_interview,fxpxno0b,Partner s net pay [Bracket: Â£1200 per 1 month],3.0,More than
+873957,MCS,mcs6_proxy_partner_interview,fxpxno0c,Partner s net pay [Bracket: Â£1800 per 1 month],-9.0,Refused
+873958,MCS,mcs6_proxy_partner_interview,fxpxno0c,Partner s net pay [Bracket: Â£1800 per 1 month],-8.0,Don't know
+873959,MCS,mcs6_proxy_partner_interview,fxpxno0c,Partner s net pay [Bracket: Â£1800 per 1 month],-1.0,Not applicable
+873960,MCS,mcs6_proxy_partner_interview,fxpxno0c,Partner s net pay [Bracket: Â£1800 per 1 month],1.0,Less than
+873961,MCS,mcs6_proxy_partner_interview,fxpxno0c,Partner s net pay [Bracket: Â£1800 per 1 month],2.0,About
+873962,MCS,mcs6_proxy_partner_interview,fxpxno0c,Partner s net pay [Bracket: Â£1800 per 1 month],3.0,More than
+873963,MCS,mcs6_proxy_partner_interview,fxpxno0d,Partner s net pay [Bracket: Â£3200 per 1 month],-9.0,Refused
+873964,MCS,mcs6_proxy_partner_interview,fxpxno0d,Partner s net pay [Bracket: Â£3200 per 1 month],-8.0,Don't know
+873965,MCS,mcs6_proxy_partner_interview,fxpxno0d,Partner s net pay [Bracket: Â£3200 per 1 month],-1.0,Not applicable
+873966,MCS,mcs6_proxy_partner_interview,fxpxno0d,Partner s net pay [Bracket: Â£3200 per 1 month],1.0,Less than
+873967,MCS,mcs6_proxy_partner_interview,fxpxno0d,Partner s net pay [Bracket: Â£3200 per 1 month],2.0,About
+873968,MCS,mcs6_proxy_partner_interview,fxpxno0d,Partner s net pay [Bracket: Â£3200 per 1 month],3.0,More than
+873969,MCS,mcs6_proxy_partner_interview,fxpxnol0,Partner s net pay [Bracket: Lower bound for 1 month],-9.0,Refused
+873970,MCS,mcs6_proxy_partner_interview,fxpxnol0,Partner s net pay [Bracket: Lower bound for 1 month],-8.0,Don't know
+873971,MCS,mcs6_proxy_partner_interview,fxpxnol0,Partner s net pay [Bracket: Lower bound for 1 month],-1.0,Not applicable
+873972,MCS,mcs6_proxy_partner_interview,fxpxnou0,Partner s net pay [Bracket: Upper bound for 1 month],-9.0,Refused
+873973,MCS,mcs6_proxy_partner_interview,fxpxnou0,Partner s net pay [Bracket: Upper bound for 1 month],-8.0,Don't know
+873974,MCS,mcs6_proxy_partner_interview,fxpxnou0,Partner s net pay [Bracket: Upper bound for 1 month],-1.0,Not applicable
+873975,MCS,mcs6_proxy_partner_interview,fxpxnor0,Partner s net pay [Bracket: Outcome for 1 month],-1.0,Not applicable
+873976,MCS,mcs6_proxy_partner_interview,fxpxnor0,Partner s net pay [Bracket: Outcome for 1 month],1.0,Complete bracket response
+873977,MCS,mcs6_proxy_partner_interview,fxpxnor0,Partner s net pay [Bracket: Outcome for 1 month],2.0,DK to first bracket question asked (dep
+873978,MCS,mcs6_proxy_partner_interview,fxpxnor0,Partner s net pay [Bracket: Outcome for 1 month],3.0,Ref to first bracket question asked (de
+873979,MCS,mcs6_proxy_partner_interview,fxpxnor0,Partner s net pay [Bracket: Outcome for 1 month],4.0,Incomplete brackets - DK at last questi
+873980,MCS,mcs6_proxy_partner_interview,fxpxnor0,Partner s net pay [Bracket: Outcome for 1 month],5.0,Incomplete brackets - Ref at last quest
+873981,MCS,mcs6_proxy_partner_interview,fxpxnu00,Confirm whether partner's usual takehome pay?,-9.0,Refused
+873982,MCS,mcs6_proxy_partner_interview,fxpxnu00,Confirm whether partner's usual takehome pay?,-8.0,Don't know
+873983,MCS,mcs6_proxy_partner_interview,fxpxnu00,Confirm whether partner's usual takehome pay?,-1.0,Not applicable
+873984,MCS,mcs6_proxy_partner_interview,fxpxnu00,Confirm whether partner's usual takehome pay?,1.0,Yes
+873985,MCS,mcs6_proxy_partner_interview,fxpxnu00,Confirm whether partner's usual takehome pay?,2.0,No
+873986,MCS,mcs6_proxy_partner_interview,fxpxua00,Partner's Usual amount earned (range),-9.0,Refused
+873987,MCS,mcs6_proxy_partner_interview,fxpxua00,Partner's Usual amount earned (range),-8.0,Don't know
+873988,MCS,mcs6_proxy_partner_interview,fxpxua00,Partner's Usual amount earned (range),-1.0,Not applicable
+873989,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),-9.0,Refused
+873990,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),-8.0,Don't know
+873991,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),-1.0,Not applicable
+873992,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),1.0,One week
+873993,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),2.0,Two weeks
+873994,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),3.0,Three weeks
+873995,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),4.0,Four weeks
+873996,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),5.0,Calendar month
+873997,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),6.0,Two Calendar months
+873998,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),7.0,Eight times a year
+873999,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),8.0,Nine times a year
+874000,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),9.0,Ten times a year
+874001,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),10.0,Three months/13 weeks
+874002,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),11.0,Six months/26 weeks
+874003,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),12.0,One Year/12 months/52 weeks
+874004,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),13.0,Less than one week
+874005,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),14.0,One off/lump sum
+874006,MCS,mcs6_proxy_partner_interview,fxpxup00,Partner's Usual amount earned (period covered),15.0,None of these
+874007,MCS,mcs6_proxy_partner_interview,fxpxuw00,PROXY Computed: Usual net weekly amount from Pxua/Pxup,-1.0,Not applicable
+874008,MCS,mcs6_proxy_partner_interview,fxpxp1ck,IWR: check unusual (PXUP 1),-1.0,Not applicable
+874009,MCS,mcs6_proxy_partner_interview,fxpxp1ck,IWR: check unusual (PXUP 1),1.0,Amend
+874010,MCS,mcs6_proxy_partner_interview,fxpxp1ck,IWR: check unusual (PXUP 1),2.0,Continue
+874011,MCS,mcs6_proxy_partner_interview,fxpxp2ck,IWR: check unusual (PXUP 2),-1.0,Not applicable
+874012,MCS,mcs6_proxy_partner_interview,fxpxp2ck,IWR: check unusual (PXUP 2),1.0,Amend
+874013,MCS,mcs6_proxy_partner_interview,fxpxp2ck,IWR: check unusual (PXUP 2),2.0,Continue
+874014,MCS,mcs6_proxy_partner_interview,fxpxp3ck,IWR: check net > gross 1,-1.0,Not applicable
+874015,MCS,mcs6_proxy_partner_interview,fxpxp3ck,IWR: check net > gross 1,1.0,Amend
+874016,MCS,mcs6_proxy_partner_interview,fxpxp3ck,IWR: check net > gross 1,2.0,Continue
+874017,MCS,mcs6_proxy_partner_interview,fxpxp4ck,IWR: check net > gross 2,-1.0,Not applicable
+874018,MCS,mcs6_proxy_partner_interview,fxpxp4ck,IWR: check net > gross 2,1.0,Amend
+874019,MCS,mcs6_proxy_partner_interview,fxpxp4ck,IWR: check net > gross 2,2.0,Continue
+874020,MCS,mcs6_proxy_partner_interview,fxpxure0,Partner s usual amount earned [Bracket: Entry value for 1 week],-1.0,Not applicable
+874021,MCS,mcs6_proxy_partner_interview,fxpxure0,Partner s usual amount earned [Bracket: Entry value for 1 week],1.0,Â£200 per 1 Week
+874022,MCS,mcs6_proxy_partner_interview,fxpxure0,Partner s usual amount earned [Bracket: Entry value for 1 week],2.0,Â£300 per 1 Week
+874023,MCS,mcs6_proxy_partner_interview,fxpxure0,Partner s usual amount earned [Bracket: Entry value for 1 week],3.0,Â£450 per 1 Week
+874024,MCS,mcs6_proxy_partner_interview,fxpxure0,Partner s usual amount earned [Bracket: Entry value for 1 week],4.0,Â£800 per 1 Week
+874025,MCS,mcs6_proxy_partner_interview,fxpxur0a,Partner s usual amount earned [Bracket: Â£200 per 1 week],-9.0,Refused
+874026,MCS,mcs6_proxy_partner_interview,fxpxur0a,Partner s usual amount earned [Bracket: Â£200 per 1 week],-8.0,Don't know
+874027,MCS,mcs6_proxy_partner_interview,fxpxur0a,Partner s usual amount earned [Bracket: Â£200 per 1 week],-1.0,Not applicable
+874028,MCS,mcs6_proxy_partner_interview,fxpxur0a,Partner s usual amount earned [Bracket: Â£200 per 1 week],1.0,Less than
+874029,MCS,mcs6_proxy_partner_interview,fxpxur0a,Partner s usual amount earned [Bracket: Â£200 per 1 week],2.0,About
+874030,MCS,mcs6_proxy_partner_interview,fxpxur0a,Partner s usual amount earned [Bracket: Â£200 per 1 week],3.0,More than
+874031,MCS,mcs6_proxy_partner_interview,fxpxur0b,Partner s usual amount earned [Bracket: Â£300 per 1 week],-9.0,Refused
+874032,MCS,mcs6_proxy_partner_interview,fxpxur0b,Partner s usual amount earned [Bracket: Â£300 per 1 week],-8.0,Don't know
+874033,MCS,mcs6_proxy_partner_interview,fxpxur0b,Partner s usual amount earned [Bracket: Â£300 per 1 week],-1.0,Not applicable
+874034,MCS,mcs6_proxy_partner_interview,fxpxur0b,Partner s usual amount earned [Bracket: Â£300 per 1 week],1.0,Less than
+874035,MCS,mcs6_proxy_partner_interview,fxpxur0b,Partner s usual amount earned [Bracket: Â£300 per 1 week],2.0,About
+874036,MCS,mcs6_proxy_partner_interview,fxpxur0b,Partner s usual amount earned [Bracket: Â£300 per 1 week],3.0,More than
+874037,MCS,mcs6_proxy_partner_interview,fxpxur0c,Partner s usual amount earned [Bracket: Â£450 per 1 week],-9.0,Refused
+874038,MCS,mcs6_proxy_partner_interview,fxpxur0c,Partner s usual amount earned [Bracket: Â£450 per 1 week],-8.0,Don't know
+874039,MCS,mcs6_proxy_partner_interview,fxpxur0c,Partner s usual amount earned [Bracket: Â£450 per 1 week],-1.0,Not applicable
+874040,MCS,mcs6_proxy_partner_interview,fxpxur0c,Partner s usual amount earned [Bracket: Â£450 per 1 week],1.0,Less than
+874041,MCS,mcs6_proxy_partner_interview,fxpxur0c,Partner s usual amount earned [Bracket: Â£450 per 1 week],2.0,About
+874042,MCS,mcs6_proxy_partner_interview,fxpxur0c,Partner s usual amount earned [Bracket: Â£450 per 1 week],3.0,More than
+874043,MCS,mcs6_proxy_partner_interview,fxpxur0d,Partner s usual amount earned [Bracket: Â£800 per 1 week],-9.0,Refused
+874044,MCS,mcs6_proxy_partner_interview,fxpxur0d,Partner s usual amount earned [Bracket: Â£800 per 1 week],-8.0,Don't know
+874045,MCS,mcs6_proxy_partner_interview,fxpxur0d,Partner s usual amount earned [Bracket: Â£800 per 1 week],-1.0,Not applicable
+874046,MCS,mcs6_proxy_partner_interview,fxpxur0d,Partner s usual amount earned [Bracket: Â£800 per 1 week],1.0,Less than
+874047,MCS,mcs6_proxy_partner_interview,fxpxur0d,Partner s usual amount earned [Bracket: Â£800 per 1 week],2.0,About
+874048,MCS,mcs6_proxy_partner_interview,fxpxur0d,Partner s usual amount earned [Bracket: Â£800 per 1 week],3.0,More than
+874049,MCS,mcs6_proxy_partner_interview,fxpxurl0,Partner s usual amount earned [Bracket: Lower bound for 1 week],-9.0,Refused
+874050,MCS,mcs6_proxy_partner_interview,fxpxurl0,Partner s usual amount earned [Bracket: Lower bound for 1 week],-8.0,Don't know
+874051,MCS,mcs6_proxy_partner_interview,fxpxurl0,Partner s usual amount earned [Bracket: Lower bound for 1 week],-1.0,Not applicable
+874052,MCS,mcs6_proxy_partner_interview,fxpxuru0,Partner s usual amount earned [Bracket: Upper bound for 1 week],-9.0,Refused
+874053,MCS,mcs6_proxy_partner_interview,fxpxuru0,Partner s usual amount earned [Bracket: Upper bound for 1 week],-8.0,Don't know
+874054,MCS,mcs6_proxy_partner_interview,fxpxuru0,Partner s usual amount earned [Bracket: Upper bound for 1 week],-1.0,Not applicable
+874055,MCS,mcs6_proxy_partner_interview,fxpxurr0,Partner s usual amount earned [Bracket: Outcome for 1 week],-1.0,Not applicable
+874056,MCS,mcs6_proxy_partner_interview,fxpxurr0,Partner s usual amount earned [Bracket: Outcome for 1 week],1.0,Complete bracket response
+874057,MCS,mcs6_proxy_partner_interview,fxpxurr0,Partner s usual amount earned [Bracket: Outcome for 1 week],2.0,DK to first bracket question asked (dep
+874058,MCS,mcs6_proxy_partner_interview,fxpxurr0,Partner s usual amount earned [Bracket: Outcome for 1 week],3.0,Ref to first bracket question asked (de
+874059,MCS,mcs6_proxy_partner_interview,fxpxurr0,Partner s usual amount earned [Bracket: Outcome for 1 week],4.0,Incomplete brackets - DK at last questi
+874060,MCS,mcs6_proxy_partner_interview,fxpxurr0,Partner s usual amount earned [Bracket: Outcome for 1 week],5.0,Incomplete brackets - Ref at last quest
+874061,MCS,mcs6_proxy_partner_interview,fxpxufe0,Partner s usual amount earned [Bracket: Entry value for 2 weeks],-1.0,Not applicable
+874062,MCS,mcs6_proxy_partner_interview,fxpxufe0,Partner s usual amount earned [Bracket: Entry value for 2 weeks],1.0,Â£400 per 2 Weeks
+874063,MCS,mcs6_proxy_partner_interview,fxpxufe0,Partner s usual amount earned [Bracket: Entry value for 2 weeks],2.0,Â£600 per 2 Weeks
+874064,MCS,mcs6_proxy_partner_interview,fxpxufe0,Partner s usual amount earned [Bracket: Entry value for 2 weeks],3.0,Â£900 per 2 Weeks
+874065,MCS,mcs6_proxy_partner_interview,fxpxufe0,Partner s usual amount earned [Bracket: Entry value for 2 weeks],4.0,Â£1600 per 2 Weeks
+874066,MCS,mcs6_proxy_partner_interview,fxpxuf0a,Partner s usual amount earned [Bracket: Â£400 per 2 weeks],-9.0,Refused
+874067,MCS,mcs6_proxy_partner_interview,fxpxuf0a,Partner s usual amount earned [Bracket: Â£400 per 2 weeks],-8.0,Don't know
+874068,MCS,mcs6_proxy_partner_interview,fxpxuf0a,Partner s usual amount earned [Bracket: Â£400 per 2 weeks],-1.0,Not applicable
+874069,MCS,mcs6_proxy_partner_interview,fxpxuf0a,Partner s usual amount earned [Bracket: Â£400 per 2 weeks],1.0,Less than
+874070,MCS,mcs6_proxy_partner_interview,fxpxuf0a,Partner s usual amount earned [Bracket: Â£400 per 2 weeks],2.0,About
+874071,MCS,mcs6_proxy_partner_interview,fxpxuf0a,Partner s usual amount earned [Bracket: Â£400 per 2 weeks],3.0,More than
+874072,MCS,mcs6_proxy_partner_interview,fxpxuf0b,Partner s usual amount earned [Bracket: Â£600 per 2 weeks],-9.0,Refused
+874073,MCS,mcs6_proxy_partner_interview,fxpxuf0b,Partner s usual amount earned [Bracket: Â£600 per 2 weeks],-8.0,Don't know
+874074,MCS,mcs6_proxy_partner_interview,fxpxuf0b,Partner s usual amount earned [Bracket: Â£600 per 2 weeks],-1.0,Not applicable
+874075,MCS,mcs6_proxy_partner_interview,fxpxuf0b,Partner s usual amount earned [Bracket: Â£600 per 2 weeks],1.0,Less than
+874076,MCS,mcs6_proxy_partner_interview,fxpxuf0b,Partner s usual amount earned [Bracket: Â£600 per 2 weeks],2.0,About
+874077,MCS,mcs6_proxy_partner_interview,fxpxuf0b,Partner s usual amount earned [Bracket: Â£600 per 2 weeks],3.0,More than
+874078,MCS,mcs6_proxy_partner_interview,fxpxuf0c,Partner s usual amount earned [Bracket: Â£900 per 2 weeks],-9.0,Refused
+874079,MCS,mcs6_proxy_partner_interview,fxpxuf0c,Partner s usual amount earned [Bracket: Â£900 per 2 weeks],-8.0,Don't know
+874080,MCS,mcs6_proxy_partner_interview,fxpxuf0c,Partner s usual amount earned [Bracket: Â£900 per 2 weeks],-1.0,Not applicable
+874081,MCS,mcs6_proxy_partner_interview,fxpxuf0c,Partner s usual amount earned [Bracket: Â£900 per 2 weeks],1.0,Less than
+874082,MCS,mcs6_proxy_partner_interview,fxpxuf0c,Partner s usual amount earned [Bracket: Â£900 per 2 weeks],2.0,About
+874083,MCS,mcs6_proxy_partner_interview,fxpxuf0c,Partner s usual amount earned [Bracket: Â£900 per 2 weeks],3.0,More than
+874084,MCS,mcs6_proxy_partner_interview,fxpxuf0d,Partner s usual amount earned [Bracket: Â£1600 per 2 weeks],-9.0,Refused
+874085,MCS,mcs6_proxy_partner_interview,fxpxuf0d,Partner s usual amount earned [Bracket: Â£1600 per 2 weeks],-8.0,Don't know
+874086,MCS,mcs6_proxy_partner_interview,fxpxuf0d,Partner s usual amount earned [Bracket: Â£1600 per 2 weeks],-1.0,Not applicable
+874087,MCS,mcs6_proxy_partner_interview,fxpxuf0d,Partner s usual amount earned [Bracket: Â£1600 per 2 weeks],1.0,Less than
+874088,MCS,mcs6_proxy_partner_interview,fxpxuf0d,Partner s usual amount earned [Bracket: Â£1600 per 2 weeks],2.0,About
+874089,MCS,mcs6_proxy_partner_interview,fxpxuf0d,Partner s usual amount earned [Bracket: Â£1600 per 2 weeks],3.0,More than
+874090,MCS,mcs6_proxy_partner_interview,fxpxufl0,Partner s usual amount earned [Bracket: Lower bound for 2 weeks],-9.0,Refused
+874091,MCS,mcs6_proxy_partner_interview,fxpxufl0,Partner s usual amount earned [Bracket: Lower bound for 2 weeks],-8.0,Don't know
+874092,MCS,mcs6_proxy_partner_interview,fxpxufl0,Partner s usual amount earned [Bracket: Lower bound for 2 weeks],-1.0,Not applicable
+874093,MCS,mcs6_proxy_partner_interview,fxpxufu0,Partner s usual amount earned [Bracket: Upper bound for 2 weeks],-9.0,Refused
+874094,MCS,mcs6_proxy_partner_interview,fxpxufu0,Partner s usual amount earned [Bracket: Upper bound for 2 weeks],-8.0,Don't know
+874095,MCS,mcs6_proxy_partner_interview,fxpxufu0,Partner s usual amount earned [Bracket: Upper bound for 2 weeks],-1.0,Not applicable
+874096,MCS,mcs6_proxy_partner_interview,fxpxufr0,Partner s usual amount earned [Bracket: Outcome for 2 weeks],3.0,Ref to first bracket question asked (de
+874097,MCS,mcs6_proxy_partner_interview,fxpxufr0,Partner s usual amount earned [Bracket: Outcome for 2 weeks],4.0,Incomplete brackets - DK at last questi
+874098,MCS,mcs6_proxy_partner_interview,fxpxufr0,Partner s usual amount earned [Bracket: Outcome for 2 weeks],5.0,Incomplete brackets - Ref at last quest
+874099,MCS,mcs6_proxy_partner_interview,fxpxufr0,Partner s usual amount earned [Bracket: Outcome for 2 weeks],-1.0,Not applicable
+874100,MCS,mcs6_proxy_partner_interview,fxpxufr0,Partner s usual amount earned [Bracket: Outcome for 2 weeks],1.0,Complete bracket response
+874101,MCS,mcs6_proxy_partner_interview,fxpxufr0,Partner s usual amount earned [Bracket: Outcome for 2 weeks],2.0,DK to first bracket question asked (dep
+874102,MCS,mcs6_proxy_partner_interview,fxpxume0,Partner s usual amount earned [Bracket: Entry value for 4weeks/1month],2.0,Â£1200 per 4 Weeks/1 Month
+874103,MCS,mcs6_proxy_partner_interview,fxpxume0,Partner s usual amount earned [Bracket: Entry value for 4weeks/1month],3.0,Â£1800 per 4 Weeks/1 Month
+874104,MCS,mcs6_proxy_partner_interview,fxpxume0,Partner s usual amount earned [Bracket: Entry value for 4weeks/1month],4.0,Â£3200 per 4 Weeks/1 Month
+874105,MCS,mcs6_proxy_partner_interview,fxpxume0,Partner s usual amount earned [Bracket: Entry value for 4weeks/1month],-1.0,Not applicable
+874106,MCS,mcs6_proxy_partner_interview,fxpxume0,Partner s usual amount earned [Bracket: Entry value for 4weeks/1month],1.0,Â£800 per 4 Weeks/1 Month
+874107,MCS,mcs6_proxy_partner_interview,fxpxum0a,Partner s usual amount earned [Bracket: Â£800 per 4weeks/1month],-9.0,Refused
+874108,MCS,mcs6_proxy_partner_interview,fxpxum0a,Partner s usual amount earned [Bracket: Â£800 per 4weeks/1month],-8.0,Don't know
+874109,MCS,mcs6_proxy_partner_interview,fxpxum0a,Partner s usual amount earned [Bracket: Â£800 per 4weeks/1month],-1.0,Not applicable
+874110,MCS,mcs6_proxy_partner_interview,fxpxum0a,Partner s usual amount earned [Bracket: Â£800 per 4weeks/1month],1.0,Less than
+874111,MCS,mcs6_proxy_partner_interview,fxpxum0a,Partner s usual amount earned [Bracket: Â£800 per 4weeks/1month],2.0,About
+874112,MCS,mcs6_proxy_partner_interview,fxpxum0a,Partner s usual amount earned [Bracket: Â£800 per 4weeks/1month],3.0,More than
+874113,MCS,mcs6_proxy_partner_interview,fxpxum0b,Partner s usual amount earned [Bracket: Â£1200 per 4weeks/1month],-9.0,Refused
+874114,MCS,mcs6_proxy_partner_interview,fxpxum0b,Partner s usual amount earned [Bracket: Â£1200 per 4weeks/1month],-8.0,Don't know
+874115,MCS,mcs6_proxy_partner_interview,fxpxum0b,Partner s usual amount earned [Bracket: Â£1200 per 4weeks/1month],-1.0,Not applicable
+874116,MCS,mcs6_proxy_partner_interview,fxpxum0b,Partner s usual amount earned [Bracket: Â£1200 per 4weeks/1month],1.0,Less than
+874117,MCS,mcs6_proxy_partner_interview,fxpxum0b,Partner s usual amount earned [Bracket: Â£1200 per 4weeks/1month],2.0,About
+874118,MCS,mcs6_proxy_partner_interview,fxpxum0b,Partner s usual amount earned [Bracket: Â£1200 per 4weeks/1month],3.0,More than
+874119,MCS,mcs6_proxy_partner_interview,fxpxum0c,Partner s usual amount earned [Bracket: Â£1800 per 4weeks/1month],-9.0,Refused
+874120,MCS,mcs6_proxy_partner_interview,fxpxum0c,Partner s usual amount earned [Bracket: Â£1800 per 4weeks/1month],-8.0,Don't know
+874121,MCS,mcs6_proxy_partner_interview,fxpxum0c,Partner s usual amount earned [Bracket: Â£1800 per 4weeks/1month],-1.0,Not applicable
+874122,MCS,mcs6_proxy_partner_interview,fxpxum0c,Partner s usual amount earned [Bracket: Â£1800 per 4weeks/1month],1.0,Less than
+874123,MCS,mcs6_proxy_partner_interview,fxpxum0c,Partner s usual amount earned [Bracket: Â£1800 per 4weeks/1month],2.0,About
+874124,MCS,mcs6_proxy_partner_interview,fxpxum0c,Partner s usual amount earned [Bracket: Â£1800 per 4weeks/1month],3.0,More than
+874125,MCS,mcs6_proxy_partner_interview,fxpxum0d,Partner s usual amount earned [Bracket: Â£3200 per 4weeks/1month],-9.0,Refused
+874126,MCS,mcs6_proxy_partner_interview,fxpxum0d,Partner s usual amount earned [Bracket: Â£3200 per 4weeks/1month],-8.0,Don't know
+874127,MCS,mcs6_proxy_partner_interview,fxpxum0d,Partner s usual amount earned [Bracket: Â£3200 per 4weeks/1month],-1.0,Not applicable
+874128,MCS,mcs6_proxy_partner_interview,fxpxum0d,Partner s usual amount earned [Bracket: Â£3200 per 4weeks/1month],1.0,Less than
+874129,MCS,mcs6_proxy_partner_interview,fxpxum0d,Partner s usual amount earned [Bracket: Â£3200 per 4weeks/1month],2.0,About
+874130,MCS,mcs6_proxy_partner_interview,fxpxum0d,Partner s usual amount earned [Bracket: Â£3200 per 4weeks/1month],3.0,More than
+874131,MCS,mcs6_proxy_partner_interview,fxpxuml0,Partner s usual amount earned [Bracket: Lower bound for 4weeks/1month],-9.0,Refused
+874132,MCS,mcs6_proxy_partner_interview,fxpxuml0,Partner s usual amount earned [Bracket: Lower bound for 4weeks/1month],-8.0,Don't know
+874133,MCS,mcs6_proxy_partner_interview,fxpxuml0,Partner s usual amount earned [Bracket: Lower bound for 4weeks/1month],-1.0,Not applicable
+874134,MCS,mcs6_proxy_partner_interview,fxpxumu0,Partner s usual amount earned [Bracket: Upper bound for 4weeks/1month],-9.0,Refused
+874135,MCS,mcs6_proxy_partner_interview,fxpxumu0,Partner s usual amount earned [Bracket: Upper bound for 4weeks/1month],-8.0,Don't know
+874136,MCS,mcs6_proxy_partner_interview,fxpxumu0,Partner s usual amount earned [Bracket: Upper bound for 4weeks/1month],-1.0,Not applicable
+874137,MCS,mcs6_proxy_partner_interview,fxpxumr0,Partner s usual amount earned [Bracket: Outcome for 4weeks/1month],-1.0,Not applicable
+874138,MCS,mcs6_proxy_partner_interview,fxpxumr0,Partner s usual amount earned [Bracket: Outcome for 4weeks/1month],1.0,Complete bracket response
+874139,MCS,mcs6_proxy_partner_interview,fxpxumr0,Partner s usual amount earned [Bracket: Outcome for 4weeks/1month],2.0,DK to first bracket question asked (dep
+874140,MCS,mcs6_proxy_partner_interview,fxpxumr0,Partner s usual amount earned [Bracket: Outcome for 4weeks/1month],3.0,Ref to first bracket question asked (de
+874141,MCS,mcs6_proxy_partner_interview,fxpxumr0,Partner s usual amount earned [Bracket: Outcome for 4weeks/1month],4.0,Incomplete brackets - DK at last questi
+874142,MCS,mcs6_proxy_partner_interview,fxpxumr0,Partner s usual amount earned [Bracket: Outcome for 4weeks/1month],5.0,Incomplete brackets - Ref at last quest
+874143,MCS,mcs6_proxy_partner_interview,fxpxuye0,Partner s usual amount earned [Bracket: Entry value for 1 year],-1.0,Not applicable
+874144,MCS,mcs6_proxy_partner_interview,fxpxuye0,Partner s usual amount earned [Bracket: Entry value for 1 year],1.0,Â£10000 per 1 Year
+874145,MCS,mcs6_proxy_partner_interview,fxpxuye0,Partner s usual amount earned [Bracket: Entry value for 1 year],2.0,Â£15000 per 1 Year
+874146,MCS,mcs6_proxy_partner_interview,fxpxuye0,Partner s usual amount earned [Bracket: Entry value for 1 year],3.0,Â£20000 per 1 Year
+874147,MCS,mcs6_proxy_partner_interview,fxpxuye0,Partner s usual amount earned [Bracket: Entry value for 1 year],4.0,Â£40000 per 1 Year
+874148,MCS,mcs6_proxy_partner_interview,fxpxuy0a,Partner s usual amount earned [Bracket: Â£10000 per 1 year],-9.0,Refused
+874149,MCS,mcs6_proxy_partner_interview,fxpxuy0a,Partner s usual amount earned [Bracket: Â£10000 per 1 year],-8.0,Don't know
+874150,MCS,mcs6_proxy_partner_interview,fxpxuy0a,Partner s usual amount earned [Bracket: Â£10000 per 1 year],-1.0,Not applicable
+874151,MCS,mcs6_proxy_partner_interview,fxpxuy0a,Partner s usual amount earned [Bracket: Â£10000 per 1 year],1.0,Less than
+874152,MCS,mcs6_proxy_partner_interview,fxpxuy0a,Partner s usual amount earned [Bracket: Â£10000 per 1 year],2.0,About
+874153,MCS,mcs6_proxy_partner_interview,fxpxuy0a,Partner s usual amount earned [Bracket: Â£10000 per 1 year],3.0,More than
+874154,MCS,mcs6_proxy_partner_interview,fxpxuy0b,Partner s usual amount earned [Bracket: Â£15000 per 1 year],-9.0,Refused
+874155,MCS,mcs6_proxy_partner_interview,fxpxuy0b,Partner s usual amount earned [Bracket: Â£15000 per 1 year],-8.0,Don't know
+874156,MCS,mcs6_proxy_partner_interview,fxpxuy0b,Partner s usual amount earned [Bracket: Â£15000 per 1 year],-1.0,Not applicable
+874157,MCS,mcs6_proxy_partner_interview,fxpxuy0b,Partner s usual amount earned [Bracket: Â£15000 per 1 year],1.0,Less than
+874158,MCS,mcs6_proxy_partner_interview,fxpxuy0b,Partner s usual amount earned [Bracket: Â£15000 per 1 year],2.0,About
+874159,MCS,mcs6_proxy_partner_interview,fxpxuy0b,Partner s usual amount earned [Bracket: Â£15000 per 1 year],3.0,More than
+874160,MCS,mcs6_proxy_partner_interview,fxpxuy0c,Partner s usual amount earned [Bracket: Â£20000 per 1 year],-9.0,Refused
+874161,MCS,mcs6_proxy_partner_interview,fxpxuy0c,Partner s usual amount earned [Bracket: Â£20000 per 1 year],-8.0,Don't know
+874162,MCS,mcs6_proxy_partner_interview,fxpxuy0c,Partner s usual amount earned [Bracket: Â£20000 per 1 year],-1.0,Not applicable
+874163,MCS,mcs6_proxy_partner_interview,fxpxuy0c,Partner s usual amount earned [Bracket: Â£20000 per 1 year],1.0,Less than
+874164,MCS,mcs6_proxy_partner_interview,fxpxuy0c,Partner s usual amount earned [Bracket: Â£20000 per 1 year],2.0,About
+874165,MCS,mcs6_proxy_partner_interview,fxpxuy0c,Partner s usual amount earned [Bracket: Â£20000 per 1 year],3.0,More than
+874166,MCS,mcs6_proxy_partner_interview,fxpxuy0d,Partner s usual amount earned [Bracket: Â£40000 per 1 year],-9.0,Refused
+874167,MCS,mcs6_proxy_partner_interview,fxpxuy0d,Partner s usual amount earned [Bracket: Â£40000 per 1 year],-8.0,Don't know
+874168,MCS,mcs6_proxy_partner_interview,fxpxuy0d,Partner s usual amount earned [Bracket: Â£40000 per 1 year],-1.0,Not applicable
+874169,MCS,mcs6_proxy_partner_interview,fxpxuy0d,Partner s usual amount earned [Bracket: Â£40000 per 1 year],1.0,Less than
+874170,MCS,mcs6_proxy_partner_interview,fxpxuy0d,Partner s usual amount earned [Bracket: Â£40000 per 1 year],2.0,About
+874171,MCS,mcs6_proxy_partner_interview,fxpxuy0d,Partner s usual amount earned [Bracket: Â£40000 per 1 year],3.0,More than
+874172,MCS,mcs6_proxy_partner_interview,fxpxuyl0,Partner s usual amount earned [Bracket: Lower bound for 1 year],-9.0,Refused
+874173,MCS,mcs6_proxy_partner_interview,fxpxuyl0,Partner s usual amount earned [Bracket: Lower bound for 1 year],-8.0,Don't know
+874174,MCS,mcs6_proxy_partner_interview,fxpxuyl0,Partner s usual amount earned [Bracket: Lower bound for 1 year],-1.0,Not applicable
+874175,MCS,mcs6_proxy_partner_interview,fxpxuyu0,Partner s usual amount earned [Bracket: Upper bound for 1 year],-9.0,Refused
+874176,MCS,mcs6_proxy_partner_interview,fxpxuyu0,Partner s usual amount earned [Bracket: Upper bound for 1 year],-8.0,Don't know
+874177,MCS,mcs6_proxy_partner_interview,fxpxuyu0,Partner s usual amount earned [Bracket: Upper bound for 1 year],-1.0,Not applicable
+874178,MCS,mcs6_proxy_partner_interview,fxpxuyr0,Partner s usual amount earned [Bracket: Outcome for 1 year],-1.0,Not applicable
+874179,MCS,mcs6_proxy_partner_interview,fxpxuyr0,Partner s usual amount earned [Bracket: Outcome for 1 year],1.0,Complete bracket response
+874180,MCS,mcs6_proxy_partner_interview,fxpxuyr0,Partner s usual amount earned [Bracket: Outcome for 1 year],2.0,DK to first bracket question asked (dep
+874181,MCS,mcs6_proxy_partner_interview,fxpxuyr0,Partner s usual amount earned [Bracket: Outcome for 1 year],3.0,Ref to first bracket question asked (de
+874182,MCS,mcs6_proxy_partner_interview,fxpxuyr0,Partner s usual amount earned [Bracket: Outcome for 1 year],4.0,Incomplete brackets - DK at last questi
+874183,MCS,mcs6_proxy_partner_interview,fxpxuyr0,Partner s usual amount earned [Bracket: Outcome for 1 year],5.0,Incomplete brackets - Ref at last quest
+874184,MCS,mcs6_proxy_partner_interview,fxpxuoe0,Partner s usual amount earned [Bracket: Entry value for 1 month],-1.0,Not applicable
+874185,MCS,mcs6_proxy_partner_interview,fxpxuoe0,Partner s usual amount earned [Bracket: Entry value for 1 month],1.0,Â£800 per 1 Month
+874186,MCS,mcs6_proxy_partner_interview,fxpxuoe0,Partner s usual amount earned [Bracket: Entry value for 1 month],2.0,Â£1200 per 1 Month
+874187,MCS,mcs6_proxy_partner_interview,fxpxuoe0,Partner s usual amount earned [Bracket: Entry value for 1 month],3.0,Â£1800 per 1 Month
+874188,MCS,mcs6_proxy_partner_interview,fxpxuoe0,Partner s usual amount earned [Bracket: Entry value for 1 month],4.0,Â£3200 per 1 Month
+874189,MCS,mcs6_proxy_partner_interview,fxpxuo0a,Partner s usual amount earned [Bracket: Â£800 per 1 month],-9.0,Refused
+874190,MCS,mcs6_proxy_partner_interview,fxpxuo0a,Partner s usual amount earned [Bracket: Â£800 per 1 month],-8.0,Don't know
+874191,MCS,mcs6_proxy_partner_interview,fxpxuo0a,Partner s usual amount earned [Bracket: Â£800 per 1 month],-1.0,Not applicable
+874192,MCS,mcs6_proxy_partner_interview,fxpxuo0a,Partner s usual amount earned [Bracket: Â£800 per 1 month],1.0,Less than
+874193,MCS,mcs6_proxy_partner_interview,fxpxuo0a,Partner s usual amount earned [Bracket: Â£800 per 1 month],2.0,About
+874194,MCS,mcs6_proxy_partner_interview,fxpxuo0a,Partner s usual amount earned [Bracket: Â£800 per 1 month],3.0,More than
+874195,MCS,mcs6_proxy_partner_interview,fxpxuo0b,Partner s usual amount earned [Bracket: Â£1200 per 1 month],-8.0,Don't know
+874196,MCS,mcs6_proxy_partner_interview,fxpxuo0b,Partner s usual amount earned [Bracket: Â£1200 per 1 month],-1.0,Not applicable
+874197,MCS,mcs6_proxy_partner_interview,fxpxuo0b,Partner s usual amount earned [Bracket: Â£1200 per 1 month],1.0,Less than
+874198,MCS,mcs6_proxy_partner_interview,fxpxuo0b,Partner s usual amount earned [Bracket: Â£1200 per 1 month],2.0,About
+874199,MCS,mcs6_proxy_partner_interview,fxpxuo0b,Partner s usual amount earned [Bracket: Â£1200 per 1 month],3.0,More than
+874200,MCS,mcs6_proxy_partner_interview,fxpxuo0b,Partner s usual amount earned [Bracket: Â£1200 per 1 month],-9.0,Refused
+874201,MCS,mcs6_proxy_partner_interview,fxpxuo0c,Partner s usual amount earned [Bracket: Â£1800 per 1 month],-9.0,Refused
+874202,MCS,mcs6_proxy_partner_interview,fxpxuo0c,Partner s usual amount earned [Bracket: Â£1800 per 1 month],-8.0,Don't know
+874203,MCS,mcs6_proxy_partner_interview,fxpxuo0c,Partner s usual amount earned [Bracket: Â£1800 per 1 month],-1.0,Not applicable
+874204,MCS,mcs6_proxy_partner_interview,fxpxuo0c,Partner s usual amount earned [Bracket: Â£1800 per 1 month],1.0,Less than
+874205,MCS,mcs6_proxy_partner_interview,fxpxuo0c,Partner s usual amount earned [Bracket: Â£1800 per 1 month],2.0,About
+874206,MCS,mcs6_proxy_partner_interview,fxpxuo0c,Partner s usual amount earned [Bracket: Â£1800 per 1 month],3.0,More than
+874207,MCS,mcs6_proxy_partner_interview,fxpxuo0d,Partner s usual amount earned [Bracket: Â£3200 per 1 month],-9.0,Refused
+874208,MCS,mcs6_proxy_partner_interview,fxpxuo0d,Partner s usual amount earned [Bracket: Â£3200 per 1 month],-8.0,Don't know
+874209,MCS,mcs6_proxy_partner_interview,fxpxuo0d,Partner s usual amount earned [Bracket: Â£3200 per 1 month],-1.0,Not applicable
+874210,MCS,mcs6_proxy_partner_interview,fxpxuo0d,Partner s usual amount earned [Bracket: Â£3200 per 1 month],1.0,Less than
+874211,MCS,mcs6_proxy_partner_interview,fxpxuo0d,Partner s usual amount earned [Bracket: Â£3200 per 1 month],2.0,About
+874212,MCS,mcs6_proxy_partner_interview,fxpxuo0d,Partner s usual amount earned [Bracket: Â£3200 per 1 month],3.0,More than
+874213,MCS,mcs6_proxy_partner_interview,fxpxuol0,Partner s usual amount earned [Bracket: Lower bound for 1 month],-9.0,Refused
+874214,MCS,mcs6_proxy_partner_interview,fxpxuol0,Partner s usual amount earned [Bracket: Lower bound for 1 month],-8.0,Don't know
+874215,MCS,mcs6_proxy_partner_interview,fxpxuol0,Partner s usual amount earned [Bracket: Lower bound for 1 month],-1.0,Not applicable
+874216,MCS,mcs6_proxy_partner_interview,fxpxuou0,Partner s usual amount earned [Bracket: Upper bound for 1 month],-9.0,Refused
+874217,MCS,mcs6_proxy_partner_interview,fxpxuou0,Partner s usual amount earned [Bracket: Upper bound for 1 month],-8.0,Don't know
+874218,MCS,mcs6_proxy_partner_interview,fxpxuou0,Partner s usual amount earned [Bracket: Upper bound for 1 month],-1.0,Not applicable
+874219,MCS,mcs6_proxy_partner_interview,fxpxuor0,Partner s usual amount earned [Bracket: Outcome for 1 month],-1.0,Not applicable
+874220,MCS,mcs6_proxy_partner_interview,fxpxuor0,Partner s usual amount earned [Bracket: Outcome for 1 month],1.0,Complete bracket response
+874221,MCS,mcs6_proxy_partner_interview,fxpxuor0,Partner s usual amount earned [Bracket: Outcome for 1 month],2.0,DK to first bracket question asked (dep
+874222,MCS,mcs6_proxy_partner_interview,fxpxuor0,Partner s usual amount earned [Bracket: Outcome for 1 month],3.0,Ref to first bracket question asked (de
+874223,MCS,mcs6_proxy_partner_interview,fxpxuor0,Partner s usual amount earned [Bracket: Outcome for 1 month],4.0,Incomplete brackets - DK at last questi
+874224,MCS,mcs6_proxy_partner_interview,fxpxuor0,Partner s usual amount earned [Bracket: Outcome for 1 month],5.0,Incomplete brackets - Ref at last quest
+874225,MCS,mcs6_proxy_partner_interview,fxpxts00,Amount of takehome self employed pay,-9.0,Refused
+874226,MCS,mcs6_proxy_partner_interview,fxpxts00,Amount of takehome self employed pay,-8.0,Don't know
+874227,MCS,mcs6_proxy_partner_interview,fxpxts00,Amount of takehome self employed pay,-1.0,Not applicable
+874228,MCS,mcs6_proxy_partner_interview,fxpxtxck,IWR: check unusual (PXTS),-1.0,Not applicable
+874229,MCS,mcs6_proxy_partner_interview,fxpxtxck,IWR: check unusual (PXTS),1.0,Amend
+874230,MCS,mcs6_proxy_partner_interview,fxpxtxck,IWR: check unusual (PXTS),2.0,Continue
+874231,MCS,mcs6_proxy_partner_interview,fxseybe0,Partner s self employed takehome pay [Bracket: Entry value for 1 year],-1.0,Not applicable
+874232,MCS,mcs6_proxy_partner_interview,fxseybe0,Partner s self employed takehome pay [Bracket: Entry value for 1 year],1.0,Â£6000 per 1 Year
+874233,MCS,mcs6_proxy_partner_interview,fxseybe0,Partner s self employed takehome pay [Bracket: Entry value for 1 year],2.0,Â£12000 per 1 Year
+874234,MCS,mcs6_proxy_partner_interview,fxseybe0,Partner s self employed takehome pay [Bracket: Entry value for 1 year],3.0,Â£20000 per 1 Year
+874235,MCS,mcs6_proxy_partner_interview,fxseybe0,Partner s self employed takehome pay [Bracket: Entry value for 1 year],4.0,Â£50000 per 1 Year
+874236,MCS,mcs6_proxy_partner_interview,fxseyb0a,Partner s self employed takehome pay [Bracket: Â£6000 per 1 year],-9.0,Refused
+874237,MCS,mcs6_proxy_partner_interview,fxseyb0a,Partner s self employed takehome pay [Bracket: Â£6000 per 1 year],-8.0,Don't know
+874238,MCS,mcs6_proxy_partner_interview,fxseyb0a,Partner s self employed takehome pay [Bracket: Â£6000 per 1 year],-1.0,Not applicable
+874239,MCS,mcs6_proxy_partner_interview,fxseyb0a,Partner s self employed takehome pay [Bracket: Â£6000 per 1 year],1.0,Less than
+874240,MCS,mcs6_proxy_partner_interview,fxseyb0a,Partner s self employed takehome pay [Bracket: Â£6000 per 1 year],2.0,About
+874241,MCS,mcs6_proxy_partner_interview,fxseyb0a,Partner s self employed takehome pay [Bracket: Â£6000 per 1 year],3.0,More than
+874242,MCS,mcs6_proxy_partner_interview,fxseyb0b,Partner s self employed takehome pay [Bracket: Â£12000 per 1 year],-9.0,Refused
+874243,MCS,mcs6_proxy_partner_interview,fxseyb0b,Partner s self employed takehome pay [Bracket: Â£12000 per 1 year],-8.0,Don't know
+874244,MCS,mcs6_proxy_partner_interview,fxseyb0b,Partner s self employed takehome pay [Bracket: Â£12000 per 1 year],-1.0,Not applicable
+874245,MCS,mcs6_proxy_partner_interview,fxseyb0b,Partner s self employed takehome pay [Bracket: Â£12000 per 1 year],1.0,Less than
+874246,MCS,mcs6_proxy_partner_interview,fxseyb0b,Partner s self employed takehome pay [Bracket: Â£12000 per 1 year],2.0,About
+874247,MCS,mcs6_proxy_partner_interview,fxseyb0b,Partner s self employed takehome pay [Bracket: Â£12000 per 1 year],3.0,More than
+874248,MCS,mcs6_proxy_partner_interview,fxseyb0c,Partner s self employed takehome pay [Bracket: Â£20000 per 1 year],-9.0,Refused
+874249,MCS,mcs6_proxy_partner_interview,fxseyb0c,Partner s self employed takehome pay [Bracket: Â£20000 per 1 year],-8.0,Don't know
+874250,MCS,mcs6_proxy_partner_interview,fxseyb0c,Partner s self employed takehome pay [Bracket: Â£20000 per 1 year],-1.0,Not applicable
+874251,MCS,mcs6_proxy_partner_interview,fxseyb0c,Partner s self employed takehome pay [Bracket: Â£20000 per 1 year],1.0,Less than
+874252,MCS,mcs6_proxy_partner_interview,fxseyb0c,Partner s self employed takehome pay [Bracket: Â£20000 per 1 year],2.0,About
+874253,MCS,mcs6_proxy_partner_interview,fxseyb0c,Partner s self employed takehome pay [Bracket: Â£20000 per 1 year],3.0,More than
+874254,MCS,mcs6_proxy_partner_interview,fxseyb0d,Partner s self employed takehome pay [Bracket: Â£50000 per 1 year],-9.0,Refused
+874255,MCS,mcs6_proxy_partner_interview,fxseyb0d,Partner s self employed takehome pay [Bracket: Â£50000 per 1 year],-8.0,Don't know
+874256,MCS,mcs6_proxy_partner_interview,fxseyb0d,Partner s self employed takehome pay [Bracket: Â£50000 per 1 year],-1.0,Not applicable
+874257,MCS,mcs6_proxy_partner_interview,fxseyb0d,Partner s self employed takehome pay [Bracket: Â£50000 per 1 year],1.0,Less than
+874258,MCS,mcs6_proxy_partner_interview,fxseyb0d,Partner s self employed takehome pay [Bracket: Â£50000 per 1 year],2.0,About
+874259,MCS,mcs6_proxy_partner_interview,fxseyb0d,Partner s self employed takehome pay [Bracket: Â£50000 per 1 year],3.0,More than
+874260,MCS,mcs6_proxy_partner_interview,fxseybl0,Partner s self employed takehome pay [Bracket: Lower bound for 1 year],-9.0,Refused
+874261,MCS,mcs6_proxy_partner_interview,fxseybl0,Partner s self employed takehome pay [Bracket: Lower bound for 1 year],-8.0,Don't know
+874262,MCS,mcs6_proxy_partner_interview,fxseybl0,Partner s self employed takehome pay [Bracket: Lower bound for 1 year],-1.0,Not applicable
+874263,MCS,mcs6_proxy_partner_interview,fxseybu0,Partner s self employed takehome pay [Bracket: Upper bound for 1 year],-9.0,Refused
+874264,MCS,mcs6_proxy_partner_interview,fxseybu0,Partner s self employed takehome pay [Bracket: Upper bound for 1 year],-8.0,Don't know
+874265,MCS,mcs6_proxy_partner_interview,fxseybu0,Partner s self employed takehome pay [Bracket: Upper bound for 1 year],-1.0,Not applicable
+874266,MCS,mcs6_proxy_partner_interview,fxseybr0,Partner s self employed takehome pay [Bracket: Outcome for 1 year],5.0,Incomplete brackets - Ref at last quest
+874267,MCS,mcs6_proxy_partner_interview,fxseybr0,Partner s self employed takehome pay [Bracket: Outcome for 1 year],-1.0,Not applicable
+874268,MCS,mcs6_proxy_partner_interview,fxseybr0,Partner s self employed takehome pay [Bracket: Outcome for 1 year],1.0,Complete bracket response
+874269,MCS,mcs6_proxy_partner_interview,fxseybr0,Partner s self employed takehome pay [Bracket: Outcome for 1 year],2.0,DK to first bracket question asked (dep
+874270,MCS,mcs6_proxy_partner_interview,fxseybr0,Partner s self employed takehome pay [Bracket: Outcome for 1 year],3.0,Ref to first bracket question asked (de
+874271,MCS,mcs6_proxy_partner_interview,fxseybr0,Partner s self employed takehome pay [Bracket: Outcome for 1 year],4.0,Incomplete brackets - DK at last questi
+874272,MCS,mcs6_proxy_partner_interview,fxpxel00,Age when left f/t education,-9.0,Refused
+874273,MCS,mcs6_proxy_partner_interview,fxpxel00,Age when left f/t education,-8.0,Don't know
+874274,MCS,mcs6_proxy_partner_interview,fxpxel00,Age when left f/t education,-1.0,Not applicable
+874275,MCS,mcs6_proxy_partner_interview,fxpxelck,IWR: check unusual (PXEL),-1.0,Not applicable
+874276,MCS,mcs6_proxy_partner_interview,fxpxelck,IWR: check unusual (PXEL),1.0,Amend
+874277,MCS,mcs6_proxy_partner_interview,fxpxelck,IWR: check unusual (PXEL),2.0,Continue
+874278,MCS,mcs6_proxy_partner_interview,fxpxeq00,Any new qualifications,-9.0,Refused
+874279,MCS,mcs6_proxy_partner_interview,fxpxeq00,Any new qualifications,-8.0,Don't know
+874280,MCS,mcs6_proxy_partner_interview,fxpxeq00,Any new qualifications,-1.0,Not applicable
+874281,MCS,mcs6_proxy_partner_interview,fxpxeq00,Any new qualifications,1.0,Yes
+874282,MCS,mcs6_proxy_partner_interview,fxpxeq00,Any new qualifications,2.0,No
+874283,MCS,mcs6_proxy_partner_interview,fxpxea0a,Academic Qualifications (Higher Degree),-9.0,Refused
+874284,MCS,mcs6_proxy_partner_interview,fxpxea0a,Academic Qualifications (Higher Degree),-8.0,Don't know
+874285,MCS,mcs6_proxy_partner_interview,fxpxea0a,Academic Qualifications (Higher Degree),-1.0,Not applicable
+874286,MCS,mcs6_proxy_partner_interview,fxpxea0a,Academic Qualifications (Higher Degree),0.0,No
+874287,MCS,mcs6_proxy_partner_interview,fxpxea0a,Academic Qualifications (Higher Degree),1.0,Yes
+874288,MCS,mcs6_proxy_partner_interview,fxpxea0b,Academic Qualifications (First Degree),-9.0,Refused
+874289,MCS,mcs6_proxy_partner_interview,fxpxea0b,Academic Qualifications (First Degree),-8.0,Don't know
+874290,MCS,mcs6_proxy_partner_interview,fxpxea0b,Academic Qualifications (First Degree),-1.0,Not applicable
+874291,MCS,mcs6_proxy_partner_interview,fxpxea0b,Academic Qualifications (First Degree),0.0,No
+874292,MCS,mcs6_proxy_partner_interview,fxpxea0b,Academic Qualifications (First Degree),1.0,Yes
+874293,MCS,mcs6_proxy_partner_interview,fxpxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),-9.0,Refused
+874294,MCS,mcs6_proxy_partner_interview,fxpxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),-8.0,Don't know
+874295,MCS,mcs6_proxy_partner_interview,fxpxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),-1.0,Not applicable
+874296,MCS,mcs6_proxy_partner_interview,fxpxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),0.0,No
+874297,MCS,mcs6_proxy_partner_interview,fxpxea0c,Academic Qualifications (Post-graduate Diplomas and Certificates),1.0,Yes
+874298,MCS,mcs6_proxy_partner_interview,fxpxea0d,Academic Qualifications (Diplomas in higher education etc),-9.0,Refused
+874299,MCS,mcs6_proxy_partner_interview,fxpxea0d,Academic Qualifications (Diplomas in higher education etc),-8.0,Don't know
+874300,MCS,mcs6_proxy_partner_interview,fxpxea0d,Academic Qualifications (Diplomas in higher education etc),-1.0,Not applicable
+874301,MCS,mcs6_proxy_partner_interview,fxpxea0d,Academic Qualifications (Diplomas in higher education etc),0.0,No
+874302,MCS,mcs6_proxy_partner_interview,fxpxea0d,Academic Qualifications (Diplomas in higher education etc),1.0,Yes
+874303,MCS,mcs6_proxy_partner_interview,fxpxea0e,Academic Qualifications (Teaching qualifications for schools etc),-9.0,Refused
+874304,MCS,mcs6_proxy_partner_interview,fxpxea0e,Academic Qualifications (Teaching qualifications for schools etc),-8.0,Don't know
+874305,MCS,mcs6_proxy_partner_interview,fxpxea0e,Academic Qualifications (Teaching qualifications for schools etc),-1.0,Not applicable
+874306,MCS,mcs6_proxy_partner_interview,fxpxea0e,Academic Qualifications (Teaching qualifications for schools etc),0.0,No
+874307,MCS,mcs6_proxy_partner_interview,fxpxea0e,Academic Qualifications (Teaching qualifications for schools etc),1.0,Yes
+874308,MCS,mcs6_proxy_partner_interview,fxpxea0f,Academic Qualifications (A AS S Levels SCE Higher),-9.0,Refused
+874309,MCS,mcs6_proxy_partner_interview,fxpxea0f,Academic Qualifications (A AS S Levels SCE Higher),-8.0,Don't know
+874310,MCS,mcs6_proxy_partner_interview,fxpxea0f,Academic Qualifications (A AS S Levels SCE Higher),-1.0,Not applicable
+874311,MCS,mcs6_proxy_partner_interview,fxpxea0f,Academic Qualifications (A AS S Levels SCE Higher),0.0,No
+874312,MCS,mcs6_proxy_partner_interview,fxpxea0f,Academic Qualifications (A AS S Levels SCE Higher),1.0,Yes
+874313,MCS,mcs6_proxy_partner_interview,fxpxea0g,Academic Qualifications (O Level or GCSE grade A-C),-9.0,Refused
+874314,MCS,mcs6_proxy_partner_interview,fxpxea0g,Academic Qualifications (O Level or GCSE grade A-C),-8.0,Don't know
+874315,MCS,mcs6_proxy_partner_interview,fxpxea0g,Academic Qualifications (O Level or GCSE grade A-C),-1.0,Not applicable
+874316,MCS,mcs6_proxy_partner_interview,fxpxea0g,Academic Qualifications (O Level or GCSE grade A-C),0.0,No
+874317,MCS,mcs6_proxy_partner_interview,fxpxea0g,Academic Qualifications (O Level or GCSE grade A-C),1.0,Yes
+874318,MCS,mcs6_proxy_partner_interview,fxpxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),-9.0,Refused
+874319,MCS,mcs6_proxy_partner_interview,fxpxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),-8.0,Don't know
+874320,MCS,mcs6_proxy_partner_interview,fxpxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),-1.0,Not applicable
+874321,MCS,mcs6_proxy_partner_interview,fxpxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),0.0,No
+874322,MCS,mcs6_proxy_partner_interview,fxpxea0h,Academic Qualifications (CSE below grade 1 GCSE etc),1.0,Yes
+874323,MCS,mcs6_proxy_partner_interview,fxpxea0i,Academic Qualifications (Other academic qualifications),-9.0,Refused
+874324,MCS,mcs6_proxy_partner_interview,fxpxea0i,Academic Qualifications (Other academic qualifications),-8.0,Don't know
+874325,MCS,mcs6_proxy_partner_interview,fxpxea0i,Academic Qualifications (Other academic qualifications),-1.0,Not applicable
+874326,MCS,mcs6_proxy_partner_interview,fxpxea0i,Academic Qualifications (Other academic qualifications),0.0,No
+874327,MCS,mcs6_proxy_partner_interview,fxpxea0i,Academic Qualifications (Other academic qualifications),1.0,Yes
+874328,MCS,mcs6_proxy_partner_interview,fxpxea0j,Academic Qualifications (No answer),-9.0,Refused
+874329,MCS,mcs6_proxy_partner_interview,fxpxea0j,Academic Qualifications (No answer),-8.0,Don't know
+874330,MCS,mcs6_proxy_partner_interview,fxpxea0j,Academic Qualifications (No answer),-1.0,Not applicable
+874331,MCS,mcs6_proxy_partner_interview,fxpxea0j,Academic Qualifications (No answer),0.0,No
+874332,MCS,mcs6_proxy_partner_interview,fxpxea0j,Academic Qualifications (No answer),1.0,Yes
+874333,MCS,mcs6_proxy_partner_interview,fxpxev0a,Vocational quals (Professional qualifications at degree level),-9.0,Refused
+874334,MCS,mcs6_proxy_partner_interview,fxpxev0a,Vocational quals (Professional qualifications at degree level),-8.0,Don't know
+874335,MCS,mcs6_proxy_partner_interview,fxpxev0a,Vocational quals (Professional qualifications at degree level),-1.0,Not applicable
+874336,MCS,mcs6_proxy_partner_interview,fxpxev0a,Vocational quals (Professional qualifications at degree level),0.0,No
+874337,MCS,mcs6_proxy_partner_interview,fxpxev0a,Vocational quals (Professional qualifications at degree level),1.0,Yes
+874338,MCS,mcs6_proxy_partner_interview,fxpxev0b,Vocational quals (Nursing or other medical qualifications),-9.0,Refused
+874339,MCS,mcs6_proxy_partner_interview,fxpxev0b,Vocational quals (Nursing or other medical qualifications),-8.0,Don't know
+874340,MCS,mcs6_proxy_partner_interview,fxpxev0b,Vocational quals (Nursing or other medical qualifications),-1.0,Not applicable
+874341,MCS,mcs6_proxy_partner_interview,fxpxev0b,Vocational quals (Nursing or other medical qualifications),0.0,No
+874342,MCS,mcs6_proxy_partner_interview,fxpxev0b,Vocational quals (Nursing or other medical qualifications),1.0,Yes
+874343,MCS,mcs6_proxy_partner_interview,fxpxev0c,Vocational quals (NVQ or SVQ level 4 or 5),-9.0,Refused
+874344,MCS,mcs6_proxy_partner_interview,fxpxev0c,Vocational quals (NVQ or SVQ level 4 or 5),-8.0,Don't know
+874345,MCS,mcs6_proxy_partner_interview,fxpxev0c,Vocational quals (NVQ or SVQ level 4 or 5),-1.0,Not applicable
+874346,MCS,mcs6_proxy_partner_interview,fxpxev0c,Vocational quals (NVQ or SVQ level 4 or 5),0.0,No
+874347,MCS,mcs6_proxy_partner_interview,fxpxev0c,Vocational quals (NVQ or SVQ level 4 or 5),1.0,Yes
+874348,MCS,mcs6_proxy_partner_interview,fxpxev0d,Vocational quals (HND,-9.0,Refused
+874349,MCS,mcs6_proxy_partner_interview,fxpxev0d,Vocational quals (HND,-8.0,Don't know
+874350,MCS,mcs6_proxy_partner_interview,fxpxev0d,Vocational quals (HND,-1.0,Not applicable
+874351,MCS,mcs6_proxy_partner_interview,fxpxev0d,Vocational quals (HND,0.0,No
+874352,MCS,mcs6_proxy_partner_interview,fxpxev0d,Vocational quals (HND,1.0,Yes
+874353,MCS,mcs6_proxy_partner_interview,fxpxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),-9.0,Refused
+874354,MCS,mcs6_proxy_partner_interview,fxpxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),-8.0,Don't know
+874355,MCS,mcs6_proxy_partner_interview,fxpxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),-1.0,Not applicable
+874356,MCS,mcs6_proxy_partner_interview,fxpxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),0.0,No
+874357,MCS,mcs6_proxy_partner_interview,fxpxev0e,Vocational quals (NVQ or SVQ Level 3 GNVQ Advanced),1.0,Yes
+874358,MCS,mcs6_proxy_partner_interview,fxpxev0f,Vocational quals (OND,-9.0,Refused
+874359,MCS,mcs6_proxy_partner_interview,fxpxev0f,Vocational quals (OND,-8.0,Don't know
+874360,MCS,mcs6_proxy_partner_interview,fxpxev0f,Vocational quals (OND,-1.0,Not applicable
+874361,MCS,mcs6_proxy_partner_interview,fxpxev0f,Vocational quals (OND,0.0,No
+874362,MCS,mcs6_proxy_partner_interview,fxpxev0f,Vocational quals (OND,1.0,Yes
+874363,MCS,mcs6_proxy_partner_interview,fxpxev0g,Vocational quals (City & Guilds advanced craft,-9.0,Refused
+874364,MCS,mcs6_proxy_partner_interview,fxpxev0g,Vocational quals (City & Guilds advanced craft,-8.0,Don't know
+874365,MCS,mcs6_proxy_partner_interview,fxpxev0g,Vocational quals (City & Guilds advanced craft,-1.0,Not applicable
+874366,MCS,mcs6_proxy_partner_interview,fxpxev0g,Vocational quals (City & Guilds advanced craft,0.0,No
+874367,MCS,mcs6_proxy_partner_interview,fxpxev0g,Vocational quals (City & Guilds advanced craft,1.0,Yes
+874368,MCS,mcs6_proxy_partner_interview,fxpxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),-9.0,Refused
+874369,MCS,mcs6_proxy_partner_interview,fxpxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),-8.0,Don't know
+874370,MCS,mcs6_proxy_partner_interview,fxpxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),-1.0,Not applicable
+874371,MCS,mcs6_proxy_partner_interview,fxpxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),0.0,No
+874372,MCS,mcs6_proxy_partner_interview,fxpxev0h,Vocational quals (NVQ or SVQ Level 2 GNVQ Intermediate or GSVQ Level 2),1.0,Yes
+874373,MCS,mcs6_proxy_partner_interview,fxpxev0i,Vocational quals (BTEC,-9.0,Refused
+874374,MCS,mcs6_proxy_partner_interview,fxpxev0i,Vocational quals (BTEC,-8.0,Don't know
+874375,MCS,mcs6_proxy_partner_interview,fxpxev0i,Vocational quals (BTEC,-1.0,Not applicable
+874376,MCS,mcs6_proxy_partner_interview,fxpxev0i,Vocational quals (BTEC,0.0,No
+874377,MCS,mcs6_proxy_partner_interview,fxpxev0i,Vocational quals (BTEC,1.0,Yes
+874378,MCS,mcs6_proxy_partner_interview,fxpxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),-9.0,Refused
+874379,MCS,mcs6_proxy_partner_interview,fxpxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),-8.0,Don't know
+874380,MCS,mcs6_proxy_partner_interview,fxpxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),-1.0,Not applicable
+874381,MCS,mcs6_proxy_partner_interview,fxpxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),0.0,No
+874382,MCS,mcs6_proxy_partner_interview,fxpxev0j,Vocational quals (City & Guilds Craft or Part II RSA Diploma),1.0,Yes
+874383,MCS,mcs6_proxy_partner_interview,fxpxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),-9.0,Refused
+874384,MCS,mcs6_proxy_partner_interview,fxpxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),-8.0,Don't know
+874385,MCS,mcs6_proxy_partner_interview,fxpxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),-1.0,Not applicable
+874386,MCS,mcs6_proxy_partner_interview,fxpxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),0.0,No
+874387,MCS,mcs6_proxy_partner_interview,fxpxev0k,Vocational quals (NVQ or SVQ Level 1 GNVQ Foundation Level or GSVQ Level 1),1.0,Yes
+874388,MCS,mcs6_proxy_partner_interview,fxpxev0l,Vocational quals (BTEC,-9.0,Refused
+874389,MCS,mcs6_proxy_partner_interview,fxpxev0l,Vocational quals (BTEC,-8.0,Don't know
+874390,MCS,mcs6_proxy_partner_interview,fxpxev0l,Vocational quals (BTEC,-1.0,Not applicable
+874391,MCS,mcs6_proxy_partner_interview,fxpxev0l,Vocational quals (BTEC,0.0,No
+874392,MCS,mcs6_proxy_partner_interview,fxpxev0l,Vocational quals (BTEC,1.0,Yes
+874393,MCS,mcs6_proxy_partner_interview,fxpxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,-9.0,Refused
+874394,MCS,mcs6_proxy_partner_interview,fxpxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,-8.0,Don't know
+874395,MCS,mcs6_proxy_partner_interview,fxpxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,-1.0,Not applicable
+874396,MCS,mcs6_proxy_partner_interview,fxpxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,0.0,No
+874397,MCS,mcs6_proxy_partner_interview,fxpxev0m,Vocational quals (City & Guilds part 1 RSA Stage I,1.0,Yes
+874398,MCS,mcs6_proxy_partner_interview,fxpxev0n,Vocational quals (Other vocational qualifications),-9.0,Refused
+874399,MCS,mcs6_proxy_partner_interview,fxpxev0n,Vocational quals (Other vocational qualifications),-8.0,Don't know
+874400,MCS,mcs6_proxy_partner_interview,fxpxev0n,Vocational quals (Other vocational qualifications),-1.0,Not applicable
+874401,MCS,mcs6_proxy_partner_interview,fxpxev0n,Vocational quals (Other vocational qualifications),0.0,No
+874402,MCS,mcs6_proxy_partner_interview,fxpxev0n,Vocational quals (Other vocational qualifications),1.0,Yes
+874403,MCS,mcs6_proxy_partner_interview,fxpxev0o,Vocational quals (No answer),-9.0,Refused
+874404,MCS,mcs6_proxy_partner_interview,fxpxev0o,Vocational quals (No answer),-8.0,Don't know
+874405,MCS,mcs6_proxy_partner_interview,fxpxev0o,Vocational quals (No answer),-1.0,Not applicable
+874406,MCS,mcs6_proxy_partner_interview,fxpxev0o,Vocational quals (No answer),0.0,No
+874407,MCS,mcs6_proxy_partner_interview,fxpxev0o,Vocational quals (No answer),1.0,Yes
+874408,MCS,mcs6_proxy_partner_interview,fxpxbw00_22,Partner s country of birth (A) [ISO] : Top coded to two letter country code or,,
+874409,MCS,mcs6_proxy_partner_interview,avail_from_dt,,,
+874410,MCS,mcs6_proxy_partner_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

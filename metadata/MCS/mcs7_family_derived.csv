@@ -1,0 +1,79 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+878918,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,1.0,Both natural parents
+878919,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,2.0,Natural mother and step-parent
+878920,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,3.0,Natural mother and other parent/carer
+878921,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,4.0,Natural mother and adoptive parent
+878922,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,5.0,Natural father and step-parent
+878923,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,6.0,Natural father and other parent/carer
+878924,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,7.0,Natural father and adoptive parent
+878925,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,8.0,Two adoptive parents
+878926,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,9.0,Adoptive mother and other parent/carer
+878927,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,10.0,Two foster parents
+878928,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,11.0,Two grandparents
+878929,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,12.0,Grandmother and other parent/carer
+878930,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,13.0,Grandfather and other parent/carer
+878931,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,14.0,Two other parents
+878932,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,15.0,Natural mother only
+878933,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,16.0,Natural father only
+878934,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,17.0,Adoptive mother only
+878935,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,18.0,Adoptive father only
+878936,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,19.0,Step mother only
+878937,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,20.0,Grandmother only
+878938,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,21.0,Other parent/carer only (foster/sib/rel)
+878939,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,22.0,Step father only
+878940,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,23.0,Unknown parent types
+878941,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,24.0,Grandfather only
+878942,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,25.0,Adoptive mother and step parent
+878943,MCS,mcs7_family_derived,gdhtyp00,S7 DV Parents/Carers in Household,26.0,Two step-parents
+878944,MCS,mcs7_family_derived,gdhtys00,S7 DV Summary of Parents/Carers in Household,1.0,Two parents/carers
+878945,MCS,mcs7_family_derived,gdhtys00,S7 DV Summary of Parents/Carers in Household,2.0,One parent/carer
+878946,MCS,mcs7_family_derived,gdrelp00,S7 DV Relationship between Parents/Carers in Household,-1.0,Not applicable
+878947,MCS,mcs7_family_derived,gdrelp00,S7 DV Relationship between Parents/Carers in Household,1.0,Married
+878948,MCS,mcs7_family_derived,gdrelp00,S7 DV Relationship between Parents/Carers in Household,2.0,Cohabiting
+878949,MCS,mcs7_family_derived,gdrelp00,S7 DV Relationship between Parents/Carers in Household,3.0,Neither
+878950,MCS,mcs7_family_derived,gdnatm00,S7 DV Natural mother status,-1.0,Not applicable
+878951,MCS,mcs7_family_derived,gdnatm00,S7 DV Natural mother status,1.0,Resident full-time in household
+878952,MCS,mcs7_family_derived,gdnatm00,S7 DV Natural mother status,2.0,Resident part-time in household
+878953,MCS,mcs7_family_derived,gdnatm00,S7 DV Natural mother status,3.0,Deceased
+878954,MCS,mcs7_family_derived,gdnatm00,S7 DV Natural mother status,4.0,Non-resident
+878955,MCS,mcs7_family_derived,gdminh00,S7 DV Natural mother in HH,-1.0,Not applicable
+878956,MCS,mcs7_family_derived,gdminh00,S7 DV Natural mother in HH,1.0,Resident in household
+878957,MCS,mcs7_family_derived,gdminh00,S7 DV Natural mother in HH,2.0,Not resident in household
+878958,MCS,mcs7_family_derived,gdminh00,S7 DV Natural mother in HH,3.0,Deceased
+878959,MCS,mcs7_family_derived,gdnatf00,S7 DV Natural father status,-1.0,Not applicable
+878960,MCS,mcs7_family_derived,gdnatf00,S7 DV Natural father status,1.0,Resident full-time in household
+878961,MCS,mcs7_family_derived,gdnatf00,S7 DV Natural father status,2.0,Resident part-time in household
+878962,MCS,mcs7_family_derived,gdnatf00,S7 DV Natural father status,3.0,Deceased
+878963,MCS,mcs7_family_derived,gdnatf00,S7 DV Natural father status,4.0,Non-resident
+878964,MCS,mcs7_family_derived,gdfinh00,S7 DV Natural father in HH,-1.0,Not applicable
+878965,MCS,mcs7_family_derived,gdfinh00,S7 DV Natural father in HH,1.0,Resident in household
+878966,MCS,mcs7_family_derived,gdfinh00,S7 DV Natural father in HH,2.0,Not resident in household
+878967,MCS,mcs7_family_derived,gdfinh00,S7 DV Natural father in HH,3.0,Deceased
+878968,MCS,mcs7_family_derived,gdoths00,S7 DV Number of siblings of CM in household,-2.0,Not Known
+878969,MCS,mcs7_family_derived,gdnocm00,S7 DV Number of CMs in household,-2.0,Not Known
+878970,MCS,mcs7_family_derived,gdtots00,S7 DV Number of sibs in hhold plus CMs,-2.0,Not Known
+878971,MCS,mcs7_family_derived,gdnsib00,S7 DV Natural siblings of CM in household,-2.0,Not Known
+878972,MCS,mcs7_family_derived,gdnsib00,S7 DV Natural siblings of CM in household,1.0,At least 1 natural sib in HH
+878973,MCS,mcs7_family_derived,gdnsib00,S7 DV Natural siblings of CM in household,2.0,No natural sibs in HH
+878974,MCS,mcs7_family_derived,gdhsib00,S7 DV Half siblings of CM in household,-2.0,Not Known
+878975,MCS,mcs7_family_derived,gdhsib00,S7 DV Half siblings of CM in household,1.0,At least 1 half sib in HH
+878976,MCS,mcs7_family_derived,gdhsib00,S7 DV Half siblings of CM in household,2.0,No half sibs in HH
+878977,MCS,mcs7_family_derived,gdssib00,S7 DV Step siblings of CM in household,-2.0,Not Known
+878978,MCS,mcs7_family_derived,gdssib00,S7 DV Step siblings of CM in household,1.0,At least 1 step sib in HH
+878979,MCS,mcs7_family_derived,gdssib00,S7 DV Step siblings of CM in household,2.0,No step sibs in HH
+878980,MCS,mcs7_family_derived,gdasib00,S7 DV Adoptive siblings of CM in household,-2.0,Not Known
+878981,MCS,mcs7_family_derived,gdasib00,S7 DV Adoptive siblings of CM in household,1.0,At least 1 adoptive sib in HH
+878982,MCS,mcs7_family_derived,gdasib00,S7 DV Adoptive siblings of CM in household,2.0,No adoptive sibs in HH
+878983,MCS,mcs7_family_derived,gdfsib00,S7 DV Foster siblings of CM in household,-2.0,Not Known
+878984,MCS,mcs7_family_derived,gdfsib00,S7 DV Foster siblings of CM in household,1.0,At least 1 foster sib in HH
+878985,MCS,mcs7_family_derived,gdfsib00,S7 DV Foster siblings of CM in household,2.0,No step sibs in HH
+878986,MCS,mcs7_family_derived,gdgpar00,S7 DV Grandparent of CM in household,-2.0,Not Known
+878987,MCS,mcs7_family_derived,gdgpar00,S7 DV Grandparent of CM in household,1.0,At least 1 grandparent in HH
+878988,MCS,mcs7_family_derived,gdgpar00,S7 DV Grandparent of CM in household,2.0,No grandparents in HH
+878989,MCS,mcs7_family_derived,gdotha00,S7 DV Other adult in household,-2.0,Not Known
+878990,MCS,mcs7_family_derived,gdotha00,S7 DV Other adult in household,1.0,At least 1 'other' adult in HH
+878991,MCS,mcs7_family_derived,gdotha00,S7 DV Other adult in household,2.0,No 'other' adults in HH
+878992,MCS,mcs7_family_derived,gdnumh00,S7 DV Number of people in HH excluding CMs,-2.0,Not Known
+878993,MCS,mcs7_family_derived,gdtotp00,S7 DV Number of people in HH including CMs,-2.0,Not Known
+878994,MCS,mcs7_family_derived,avail_from_dt,,,
+878995,MCS,mcs7_family_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

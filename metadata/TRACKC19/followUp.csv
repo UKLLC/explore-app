@@ -1,0 +1,402 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1199890,TRACKC19,followUp,study_id_e,,,
+1199891,TRACKC19,followUp,follnum,Questionnaire response number,,
+1199892,TRACKC19,followUp,startdate,Questionnaire date,,
+1199893,TRACKC19,followUp,symptom1,Have you had a cold or flu like symptoms in the last month?,1.0,yes
+1199894,TRACKC19,followUp,symptom1,Have you had a cold or flu like symptoms in the last month?,2.0,no
+1199895,TRACKC19,followUp,symptom1,Have you had a cold or flu like symptoms in the last month?,999.0,don’t know / prefer not to answer
+1199896,TRACKC19,followUp,symptom2_1,I had a decrease in appetite in the last month – symptoms started:,1.0,more than 1 month ago
+1199897,TRACKC19,followUp,symptom2_1,I had a decrease in appetite in the last month – symptoms started:,2.0,about 4 weeks ago
+1199898,TRACKC19,followUp,symptom2_1,I had a decrease in appetite in the last month – symptoms started:,3.0,about 3 weeks ago
+1199899,TRACKC19,followUp,symptom2_1,I had a decrease in appetite in the last month – symptoms started:,4.0,about 2 weeks ago
+1199900,TRACKC19,followUp,symptom2_1,I had a decrease in appetite in the last month – symptoms started:,5.0,about 1 week ago
+1199901,TRACKC19,followUp,symptom2_1,I had a decrease in appetite in the last month – symptoms started:,6.0,in the last week
+1199902,TRACKC19,followUp,symptom2_2,I had a decrease in appetite in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199903,TRACKC19,followUp,symptom2_2,I had a decrease in appetite in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199904,TRACKC19,followUp,symptom2_2,I had a decrease in appetite in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199905,TRACKC19,followUp,symptom2_2,I had a decrease in appetite in the last month – symptoms ended:,4.0,about 1 week ago
+1199906,TRACKC19,followUp,symptom2_2,I had a decrease in appetite in the last month – symptoms ended:,5.0,still have symptoms
+1199907,TRACKC19,followUp,symptom3_1,I had nausea and/or vomiting in the last month – symptoms started:,1.0,more than 1 month ago
+1199908,TRACKC19,followUp,symptom3_1,I had nausea and/or vomiting in the last month – symptoms started:,2.0,about 4 weeks ago
+1199909,TRACKC19,followUp,symptom3_1,I had nausea and/or vomiting in the last month – symptoms started:,3.0,about 3 weeks ago
+1199910,TRACKC19,followUp,symptom3_1,I had nausea and/or vomiting in the last month – symptoms started:,4.0,about 2 weeks ago
+1199911,TRACKC19,followUp,symptom3_1,I had nausea and/or vomiting in the last month – symptoms started:,5.0,about 1 week ago
+1199912,TRACKC19,followUp,symptom3_1,I had nausea and/or vomiting in the last month – symptoms started:,6.0,in the last week
+1199913,TRACKC19,followUp,symptom3_2,I had nausea and/or vomiting in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199914,TRACKC19,followUp,symptom3_2,I had nausea and/or vomiting in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199915,TRACKC19,followUp,symptom3_2,I had nausea and/or vomiting in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199916,TRACKC19,followUp,symptom3_2,I had nausea and/or vomiting in the last month – symptoms ended:,4.0,about 1 week ago
+1199917,TRACKC19,followUp,symptom3_2,I had nausea and/or vomiting in the last month – symptoms ended:,5.0,still have symptoms
+1199918,TRACKC19,followUp,symptom4_1,I had diarrhoea in the last month – symptoms started:,1.0,more than 1 month ago
+1199919,TRACKC19,followUp,symptom4_1,I had diarrhoea in the last month – symptoms started:,2.0,about 4 weeks ago
+1199920,TRACKC19,followUp,symptom4_1,I had diarrhoea in the last month – symptoms started:,3.0,about 3 weeks ago
+1199921,TRACKC19,followUp,symptom4_1,I had diarrhoea in the last month – symptoms started:,4.0,about 2 weeks ago
+1199922,TRACKC19,followUp,symptom4_1,I had diarrhoea in the last month – symptoms started:,5.0,about 1 week ago
+1199923,TRACKC19,followUp,symptom4_1,I had diarrhoea in the last month – symptoms started:,6.0,in the last week
+1199924,TRACKC19,followUp,symptom4_2,I had diarrhoea in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199925,TRACKC19,followUp,symptom4_2,I had diarrhoea in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199926,TRACKC19,followUp,symptom4_2,I had diarrhoea in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199927,TRACKC19,followUp,symptom4_2,I had diarrhoea in the last month – symptoms ended:,4.0,about 1 week ago
+1199928,TRACKC19,followUp,symptom4_2,I had diarrhoea in the last month – symptoms ended:,5.0,still have symptoms
+1199929,TRACKC19,followUp,symptom5_1,I had abdominal pain/tummy ache in the last month – symptoms started:,1.0,more than 1 month ago
+1199930,TRACKC19,followUp,symptom5_1,I had abdominal pain/tummy ache in the last month – symptoms started:,2.0,about 4 weeks ago
+1199931,TRACKC19,followUp,symptom5_1,I had abdominal pain/tummy ache in the last month – symptoms started:,3.0,about 3 weeks ago
+1199932,TRACKC19,followUp,symptom5_1,I had abdominal pain/tummy ache in the last month – symptoms started:,4.0,about 2 weeks ago
+1199933,TRACKC19,followUp,symptom5_1,I had abdominal pain/tummy ache in the last month – symptoms started:,5.0,about 1 week ago
+1199934,TRACKC19,followUp,symptom5_1,I had abdominal pain/tummy ache in the last month – symptoms started:,6.0,in the last week
+1199935,TRACKC19,followUp,symptom5_2,I had abdominal pain/tummy ache in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199936,TRACKC19,followUp,symptom5_2,I had abdominal pain/tummy ache in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199937,TRACKC19,followUp,symptom5_2,I had abdominal pain/tummy ache in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199938,TRACKC19,followUp,symptom5_2,I had abdominal pain/tummy ache in the last month – symptoms ended:,4.0,about 1 week ago
+1199939,TRACKC19,followUp,symptom5_2,I had abdominal pain/tummy ache in the last month – symptoms ended:,5.0,still have symptoms
+1199940,TRACKC19,followUp,symptom6_1,I had a runny nose in the last month – symptoms started:,1.0,more than 1 month ago
+1199941,TRACKC19,followUp,symptom6_1,I had a runny nose in the last month – symptoms started:,2.0,about 4 weeks ago
+1199942,TRACKC19,followUp,symptom6_1,I had a runny nose in the last month – symptoms started:,3.0,about 3 weeks ago
+1199943,TRACKC19,followUp,symptom6_1,I had a runny nose in the last month – symptoms started:,4.0,about 2 weeks ago
+1199944,TRACKC19,followUp,symptom6_1,I had a runny nose in the last month – symptoms started:,5.0,about 1 week ago
+1199945,TRACKC19,followUp,symptom6_1,I had a runny nose in the last month – symptoms started:,6.0,in the last week
+1199946,TRACKC19,followUp,symptom6_2,I had a runny nose in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199947,TRACKC19,followUp,symptom6_2,I had a runny nose in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199948,TRACKC19,followUp,symptom6_2,I had a runny nose in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199949,TRACKC19,followUp,symptom6_2,I had a runny nose in the last month – symptoms ended:,4.0,about 1 week ago
+1199950,TRACKC19,followUp,symptom6_2,I had a runny nose in the last month – symptoms ended:,5.0,still have symptoms
+1199951,TRACKC19,followUp,symptom7_1,I had sneezing in the last month – symptoms started:,1.0,more than 1 month ago
+1199952,TRACKC19,followUp,symptom7_1,I had sneezing in the last month – symptoms started:,2.0,about 4 weeks ago
+1199953,TRACKC19,followUp,symptom7_1,I had sneezing in the last month – symptoms started:,3.0,about 3 weeks ago
+1199954,TRACKC19,followUp,symptom7_1,I had sneezing in the last month – symptoms started:,4.0,about 2 weeks ago
+1199955,TRACKC19,followUp,symptom7_1,I had sneezing in the last month – symptoms started:,5.0,about 1 week ago
+1199956,TRACKC19,followUp,symptom7_1,I had sneezing in the last month – symptoms started:,6.0,in the last week
+1199957,TRACKC19,followUp,symptom7_2,I had sneezing in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199958,TRACKC19,followUp,symptom7_2,I had sneezing in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199959,TRACKC19,followUp,symptom7_2,I had sneezing in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199960,TRACKC19,followUp,symptom7_2,I had sneezing in the last month – symptoms ended:,4.0,about 1 week ago
+1199961,TRACKC19,followUp,symptom7_2,I had sneezing in the last month – symptoms ended:,5.0,still have symptoms
+1199962,TRACKC19,followUp,symptom8_1,I had a blocked nose in the last month – symptoms started:,1.0,more than 1 month ago
+1199963,TRACKC19,followUp,symptom8_1,I had a blocked nose in the last month – symptoms started:,2.0,about 4 weeks ago
+1199964,TRACKC19,followUp,symptom8_1,I had a blocked nose in the last month – symptoms started:,3.0,about 3 weeks ago
+1199965,TRACKC19,followUp,symptom8_1,I had a blocked nose in the last month – symptoms started:,4.0,about 2 weeks ago
+1199966,TRACKC19,followUp,symptom8_1,I had a blocked nose in the last month – symptoms started:,5.0,about 1 week ago
+1199967,TRACKC19,followUp,symptom8_1,I had a blocked nose in the last month – symptoms started:,6.0,in the last week
+1199968,TRACKC19,followUp,symptom8_2,I had a blocked nose in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199969,TRACKC19,followUp,symptom8_2,I had a blocked nose in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199970,TRACKC19,followUp,symptom8_2,I had a blocked nose in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199971,TRACKC19,followUp,symptom8_2,I had a blocked nose in the last month – symptoms ended:,4.0,about 1 week ago
+1199972,TRACKC19,followUp,symptom8_2,I had a blocked nose in the last month – symptoms ended:,5.0,still have symptoms
+1199973,TRACKC19,followUp,symptom9_1,I had sore eyes in the last month – symptoms started:,1.0,more than 1 month ago
+1199974,TRACKC19,followUp,symptom9_1,I had sore eyes in the last month – symptoms started:,2.0,about 4 weeks ago
+1199975,TRACKC19,followUp,symptom9_1,I had sore eyes in the last month – symptoms started:,3.0,about 3 weeks ago
+1199976,TRACKC19,followUp,symptom9_1,I had sore eyes in the last month – symptoms started:,4.0,about 2 weeks ago
+1199977,TRACKC19,followUp,symptom9_1,I had sore eyes in the last month – symptoms started:,5.0,about 1 week ago
+1199978,TRACKC19,followUp,symptom9_1,I had sore eyes in the last month – symptoms started:,6.0,in the last week
+1199979,TRACKC19,followUp,symptom9_2,I had sore eyes in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199980,TRACKC19,followUp,symptom9_2,I had sore eyes in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199981,TRACKC19,followUp,symptom9_2,I had sore eyes in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199982,TRACKC19,followUp,symptom9_2,I had sore eyes in the last month – symptoms ended:,4.0,about 1 week ago
+1199983,TRACKC19,followUp,symptom9_2,I had sore eyes in the last month – symptoms ended:,5.0,still have symptoms
+1199984,TRACKC19,followUp,symptom10_1,I had a loss of sense of smell or taste in the last month – symptoms started:,1.0,more than 1 month ago
+1199985,TRACKC19,followUp,symptom10_1,I had a loss of sense of smell or taste in the last month – symptoms started:,2.0,about 4 weeks ago
+1199986,TRACKC19,followUp,symptom10_1,I had a loss of sense of smell or taste in the last month – symptoms started:,3.0,about 3 weeks ago
+1199987,TRACKC19,followUp,symptom10_1,I had a loss of sense of smell or taste in the last month – symptoms started:,4.0,about 2 weeks ago
+1199988,TRACKC19,followUp,symptom10_1,I had a loss of sense of smell or taste in the last month – symptoms started:,5.0,about 1 week ago
+1199989,TRACKC19,followUp,symptom10_1,I had a loss of sense of smell or taste in the last month – symptoms started:,6.0,in the last week
+1199990,TRACKC19,followUp,symptom10_2,I had a loss of sense of smell or taste in the last month – symptoms ended:,1.0,about 4 weeks ago
+1199991,TRACKC19,followUp,symptom10_2,I had a loss of sense of smell or taste in the last month – symptoms ended:,2.0,about 3 weeks ago
+1199992,TRACKC19,followUp,symptom10_2,I had a loss of sense of smell or taste in the last month – symptoms ended:,3.0,about 2 weeks ago
+1199993,TRACKC19,followUp,symptom10_2,I had a loss of sense of smell or taste in the last month – symptoms ended:,4.0,about 1 week ago
+1199994,TRACKC19,followUp,symptom10_2,I had a loss of sense of smell or taste in the last month – symptoms ended:,5.0,still have symptoms
+1199995,TRACKC19,followUp,symptom11_1,I had a sore throat in the last month – symptoms started:,1.0,more than 1 month ago
+1199996,TRACKC19,followUp,symptom11_1,I had a sore throat in the last month – symptoms started:,2.0,about 4 weeks ago
+1199997,TRACKC19,followUp,symptom11_1,I had a sore throat in the last month – symptoms started:,3.0,about 3 weeks ago
+1199998,TRACKC19,followUp,symptom11_1,I had a sore throat in the last month – symptoms started:,4.0,about 2 weeks ago
+1199999,TRACKC19,followUp,symptom11_1,I had a sore throat in the last month – symptoms started:,5.0,about 1 week ago
+1200000,TRACKC19,followUp,symptom11_1,I had a sore throat in the last month – symptoms started:,6.0,in the last week
+1200001,TRACKC19,followUp,symptom11_2,I had a sore throat in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200002,TRACKC19,followUp,symptom11_2,I had a sore throat in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200003,TRACKC19,followUp,symptom11_2,I had a sore throat in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200004,TRACKC19,followUp,symptom11_2,I had a sore throat in the last month – symptoms ended:,4.0,about 1 week ago
+1200005,TRACKC19,followUp,symptom11_2,I had a sore throat in the last month – symptoms ended:,5.0,still have symptoms
+1200006,TRACKC19,followUp,symptom12_1,I had a hoarse voice in the last month – symptoms started:,1.0,more than 1 month ago
+1200007,TRACKC19,followUp,symptom12_1,I had a hoarse voice in the last month – symptoms started:,2.0,about 4 weeks ago
+1200008,TRACKC19,followUp,symptom12_1,I had a hoarse voice in the last month – symptoms started:,3.0,about 3 weeks ago
+1200009,TRACKC19,followUp,symptom12_1,I had a hoarse voice in the last month – symptoms started:,4.0,about 2 weeks ago
+1200010,TRACKC19,followUp,symptom12_1,I had a hoarse voice in the last month – symptoms started:,5.0,about 1 week ago
+1200011,TRACKC19,followUp,symptom12_1,I had a hoarse voice in the last month – symptoms started:,6.0,in the last week
+1200012,TRACKC19,followUp,symptom12_2,I had a hoarse voice in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200013,TRACKC19,followUp,symptom12_2,I had a hoarse voice in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200014,TRACKC19,followUp,symptom12_2,I had a hoarse voice in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200015,TRACKC19,followUp,symptom12_2,I had a hoarse voice in the last month – symptoms ended:,4.0,about 1 week ago
+1200016,TRACKC19,followUp,symptom12_2,I had a hoarse voice in the last month – symptoms ended:,5.0,still have symptoms
+1200017,TRACKC19,followUp,symptom13_1,I had a headache (if more often or worse than usual) in the last month – symptoms started:,1.0,more than 1 month ago
+1200018,TRACKC19,followUp,symptom13_1,I had a headache (if more often or worse than usual) in the last month – symptoms started:,2.0,about 4 weeks ago
+1200019,TRACKC19,followUp,symptom13_1,I had a headache (if more often or worse than usual) in the last month – symptoms started:,3.0,about 3 weeks ago
+1200020,TRACKC19,followUp,symptom13_1,I had a headache (if more often or worse than usual) in the last month – symptoms started:,4.0,about 2 weeks ago
+1200021,TRACKC19,followUp,symptom13_1,I had a headache (if more often or worse than usual) in the last month – symptoms started:,5.0,about 1 week ago
+1200022,TRACKC19,followUp,symptom13_1,I had a headache (if more often or worse than usual) in the last month – symptoms started:,6.0,in the last week
+1200023,TRACKC19,followUp,symptom13_2,I had a headache (if more often or worse than usual) in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200024,TRACKC19,followUp,symptom13_2,I had a headache (if more often or worse than usual) in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200025,TRACKC19,followUp,symptom13_2,I had a headache (if more often or worse than usual) in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200026,TRACKC19,followUp,symptom13_2,I had a headache (if more often or worse than usual) in the last month – symptoms ended:,4.0,about 1 week ago
+1200027,TRACKC19,followUp,symptom13_2,I had a headache (if more often or worse than usual) in the last month – symptoms ended:,5.0,still have symptoms
+1200028,TRACKC19,followUp,symptom14_1,I had dizziness in the last month – symptoms started:,1.0,more than 1 month ago
+1200029,TRACKC19,followUp,symptom14_1,I had dizziness in the last month – symptoms started:,2.0,about 4 weeks ago
+1200030,TRACKC19,followUp,symptom14_1,I had dizziness in the last month – symptoms started:,3.0,about 3 weeks ago
+1200031,TRACKC19,followUp,symptom14_1,I had dizziness in the last month – symptoms started:,4.0,about 2 weeks ago
+1200032,TRACKC19,followUp,symptom14_1,I had dizziness in the last month – symptoms started:,5.0,about 1 week ago
+1200033,TRACKC19,followUp,symptom14_1,I had dizziness in the last month – symptoms started:,6.0,in the last week
+1200034,TRACKC19,followUp,symptom14_2,I had dizziness in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200035,TRACKC19,followUp,symptom14_2,I had dizziness in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200036,TRACKC19,followUp,symptom14_2,I had dizziness in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200037,TRACKC19,followUp,symptom14_2,I had dizziness in the last month – symptoms ended:,4.0,about 1 week ago
+1200038,TRACKC19,followUp,symptom14_2,I had dizziness in the last month – symptoms ended:,5.0,still have symptoms
+1200039,TRACKC19,followUp,symptom15_1,I had a new persistent cough in the last month – symptoms started:,1.0,more than 1 month ago
+1200040,TRACKC19,followUp,symptom15_1,I had a new persistent cough in the last month – symptoms started:,2.0,about 4 weeks ago
+1200041,TRACKC19,followUp,symptom15_1,I had a new persistent cough in the last month – symptoms started:,3.0,about 3 weeks ago
+1200042,TRACKC19,followUp,symptom15_1,I had a new persistent cough in the last month – symptoms started:,4.0,about 2 weeks ago
+1200043,TRACKC19,followUp,symptom15_1,I had a new persistent cough in the last month – symptoms started:,5.0,about 1 week ago
+1200044,TRACKC19,followUp,symptom15_1,I had a new persistent cough in the last month – symptoms started:,6.0,in the last week
+1200045,TRACKC19,followUp,symptom15_2,I had a new persistent cough in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200046,TRACKC19,followUp,symptom15_2,I had a new persistent cough in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200047,TRACKC19,followUp,symptom15_2,I had a new persistent cough in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200048,TRACKC19,followUp,symptom15_2,I had a new persistent cough in the last month – symptoms ended:,4.0,about 1 week ago
+1200049,TRACKC19,followUp,symptom15_2,I had a new persistent cough in the last month – symptoms ended:,5.0,still have symptoms
+1200050,TRACKC19,followUp,symptom16_1,I had tightness in the chest in the last month – symptoms started:,1.0,more than 1 month ago
+1200051,TRACKC19,followUp,symptom16_1,I had tightness in the chest in the last month – symptoms started:,2.0,about 4 weeks ago
+1200052,TRACKC19,followUp,symptom16_1,I had tightness in the chest in the last month – symptoms started:,3.0,about 3 weeks ago
+1200053,TRACKC19,followUp,symptom16_1,I had tightness in the chest in the last month – symptoms started:,4.0,about 2 weeks ago
+1200054,TRACKC19,followUp,symptom16_1,I had tightness in the chest in the last month – symptoms started:,5.0,about 1 week ago
+1200055,TRACKC19,followUp,symptom16_1,I had tightness in the chest in the last month – symptoms started:,6.0,in the last week
+1200056,TRACKC19,followUp,symptom16_2,I had tightness in the chest in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200057,TRACKC19,followUp,symptom16_2,I had tightness in the chest in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200058,TRACKC19,followUp,symptom16_2,I had tightness in the chest in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200059,TRACKC19,followUp,symptom16_2,I had tightness in the chest in the last month – symptoms ended:,4.0,about 1 week ago
+1200060,TRACKC19,followUp,symptom16_2,I had tightness in the chest in the last month – symptoms ended:,5.0,still have symptoms
+1200061,TRACKC19,followUp,symptom17_1,I had chest pain in the last month – symptoms started:,1.0,more than 1 month ago
+1200062,TRACKC19,followUp,symptom17_1,I had chest pain in the last month – symptoms started:,2.0,about 4 weeks ago
+1200063,TRACKC19,followUp,symptom17_1,I had chest pain in the last month – symptoms started:,3.0,about 3 weeks ago
+1200064,TRACKC19,followUp,symptom17_1,I had chest pain in the last month – symptoms started:,4.0,about 2 weeks ago
+1200065,TRACKC19,followUp,symptom17_1,I had chest pain in the last month – symptoms started:,5.0,about 1 week ago
+1200066,TRACKC19,followUp,symptom17_1,I had chest pain in the last month – symptoms started:,6.0,in the last week
+1200067,TRACKC19,followUp,symptom17_2,I had chest pain in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200068,TRACKC19,followUp,symptom17_2,I had chest pain in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200069,TRACKC19,followUp,symptom17_2,I had chest pain in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200070,TRACKC19,followUp,symptom17_2,I had chest pain in the last month – symptoms ended:,4.0,about 1 week ago
+1200071,TRACKC19,followUp,symptom17_2,I had chest pain in the last month – symptoms ended:,5.0,still have symptoms
+1200072,TRACKC19,followUp,symptom18_1,I had a fever (feeling too hot) in the last month – symptoms started:,1.0,more than 1 month ago
+1200073,TRACKC19,followUp,symptom18_1,I had a fever (feeling too hot) in the last month – symptoms started:,2.0,about 4 weeks ago
+1200074,TRACKC19,followUp,symptom18_1,I had a fever (feeling too hot) in the last month – symptoms started:,3.0,about 3 weeks ago
+1200075,TRACKC19,followUp,symptom18_1,I had a fever (feeling too hot) in the last month – symptoms started:,4.0,about 2 weeks ago
+1200076,TRACKC19,followUp,symptom18_1,I had a fever (feeling too hot) in the last month – symptoms started:,5.0,about 1 week ago
+1200077,TRACKC19,followUp,symptom18_1,I had a fever (feeling too hot) in the last month – symptoms started:,6.0,in the last week
+1200078,TRACKC19,followUp,symptom18_2,I had a fever (feeling too hot) in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200079,TRACKC19,followUp,symptom18_2,I had a fever (feeling too hot) in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200080,TRACKC19,followUp,symptom18_2,I had a fever (feeling too hot) in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200081,TRACKC19,followUp,symptom18_2,I had a fever (feeling too hot) in the last month – symptoms ended:,4.0,about 1 week ago
+1200082,TRACKC19,followUp,symptom18_2,I had a fever (feeling too hot) in the last month – symptoms ended:,5.0,still have symptoms
+1200083,TRACKC19,followUp,symptom19_1,I had the chills (feeling too cold) in the last month – symptoms started:,1.0,more than 1 month ago
+1200084,TRACKC19,followUp,symptom19_1,I had the chills (feeling too cold) in the last month – symptoms started:,2.0,about 4 weeks ago
+1200085,TRACKC19,followUp,symptom19_1,I had the chills (feeling too cold) in the last month – symptoms started:,3.0,about 3 weeks ago
+1200086,TRACKC19,followUp,symptom19_1,I had the chills (feeling too cold) in the last month – symptoms started:,4.0,about 2 weeks ago
+1200087,TRACKC19,followUp,symptom19_1,I had the chills (feeling too cold) in the last month – symptoms started:,5.0,about 1 week ago
+1200088,TRACKC19,followUp,symptom19_1,I had the chills (feeling too cold) in the last month – symptoms started:,6.0,in the last week
+1200089,TRACKC19,followUp,symptom19_2,I had the chills (feeling too cold) in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200090,TRACKC19,followUp,symptom19_2,I had the chills (feeling too cold) in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200091,TRACKC19,followUp,symptom19_2,I had the chills (feeling too cold) in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200092,TRACKC19,followUp,symptom19_2,I had the chills (feeling too cold) in the last month – symptoms ended:,4.0,about 1 week ago
+1200093,TRACKC19,followUp,symptom19_2,I had the chills (feeling too cold) in the last month – symptoms ended:,5.0,still have symptoms
+1200094,TRACKC19,followUp,symptom20_1,I had difficulty sleeping in the last month – symptoms started:,1.0,more than 1 month ago
+1200095,TRACKC19,followUp,symptom20_1,I had difficulty sleeping in the last month – symptoms started:,2.0,about 4 weeks ago
+1200096,TRACKC19,followUp,symptom20_1,I had difficulty sleeping in the last month – symptoms started:,3.0,about 3 weeks ago
+1200097,TRACKC19,followUp,symptom20_1,I had difficulty sleeping in the last month – symptoms started:,4.0,about 2 weeks ago
+1200098,TRACKC19,followUp,symptom20_1,I had difficulty sleeping in the last month – symptoms started:,5.0,about 1 week ago
+1200099,TRACKC19,followUp,symptom20_1,I had difficulty sleeping in the last month – symptoms started:,6.0,in the last week
+1200100,TRACKC19,followUp,symptom20_2,I had difficulty sleeping in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200101,TRACKC19,followUp,symptom20_2,I had difficulty sleeping in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200102,TRACKC19,followUp,symptom20_2,I had difficulty sleeping in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200103,TRACKC19,followUp,symptom20_2,I had difficulty sleeping in the last month – symptoms ended:,4.0,about 1 week ago
+1200104,TRACKC19,followUp,symptom20_2,I had difficulty sleeping in the last month – symptoms ended:,5.0,still have symptoms
+1200105,TRACKC19,followUp,symptom21_1,I felt more tired than normal in the last month – symptoms started:,1.0,more than 1 month ago
+1200106,TRACKC19,followUp,symptom21_1,I felt more tired than normal in the last month – symptoms started:,2.0,about 4 weeks ago
+1200107,TRACKC19,followUp,symptom21_1,I felt more tired than normal in the last month – symptoms started:,3.0,about 3 weeks ago
+1200108,TRACKC19,followUp,symptom21_1,I felt more tired than normal in the last month – symptoms started:,4.0,about 2 weeks ago
+1200109,TRACKC19,followUp,symptom21_1,I felt more tired than normal in the last month – symptoms started:,5.0,about 1 week ago
+1200110,TRACKC19,followUp,symptom21_1,I felt more tired than normal in the last month – symptoms started:,6.0,in the last week
+1200111,TRACKC19,followUp,symptom21_2,I felt more tired than normal in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200112,TRACKC19,followUp,symptom21_2,I felt more tired than normal in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200113,TRACKC19,followUp,symptom21_2,I felt more tired than normal in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200114,TRACKC19,followUp,symptom21_2,I felt more tired than normal in the last month – symptoms ended:,4.0,about 1 week ago
+1200115,TRACKC19,followUp,symptom21_2,I felt more tired than normal in the last month – symptoms ended:,5.0,still have symptoms
+1200116,TRACKC19,followUp,symptom22_1,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms started:,1.0,more than 1 month ago
+1200117,TRACKC19,followUp,symptom22_1,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms started:,2.0,about 4 weeks ago
+1200118,TRACKC19,followUp,symptom22_1,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms started:,3.0,about 3 weeks ago
+1200119,TRACKC19,followUp,symptom22_1,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms started:,4.0,about 2 weeks ago
+1200120,TRACKC19,followUp,symptom22_1,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms started:,5.0,about 1 week ago
+1200121,TRACKC19,followUp,symptom22_1,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms started:,6.0,in the last week
+1200122,TRACKC19,followUp,symptom22_2,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200123,TRACKC19,followUp,symptom22_2,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200124,TRACKC19,followUp,symptom22_2,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200125,TRACKC19,followUp,symptom22_2,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms ended:,4.0,about 1 week ago
+1200126,TRACKC19,followUp,symptom22_2,I had severe fatigue (e.g. inability to get out of bed) in the last month – symptoms ended:,5.0,still have symptoms
+1200127,TRACKC19,followUp,symptom23_1,I had numbness or tingling somewhere in the body in the last month – symptoms started:,1.0,more than 1 month ago
+1200128,TRACKC19,followUp,symptom23_1,I had numbness or tingling somewhere in the body in the last month – symptoms started:,2.0,about 4 weeks ago
+1200129,TRACKC19,followUp,symptom23_1,I had numbness or tingling somewhere in the body in the last month – symptoms started:,3.0,about 3 weeks ago
+1200130,TRACKC19,followUp,symptom23_1,I had numbness or tingling somewhere in the body in the last month – symptoms started:,4.0,about 2 weeks ago
+1200131,TRACKC19,followUp,symptom23_1,I had numbness or tingling somewhere in the body in the last month – symptoms started:,5.0,about 1 week ago
+1200132,TRACKC19,followUp,symptom23_1,I had numbness or tingling somewhere in the body in the last month – symptoms started:,6.0,in the last week
+1200133,TRACKC19,followUp,symptom23_2,I had numbness or tingling somewhere in the body in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200134,TRACKC19,followUp,symptom23_2,I had numbness or tingling somewhere in the body in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200135,TRACKC19,followUp,symptom23_2,I had numbness or tingling somewhere in the body in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200136,TRACKC19,followUp,symptom23_2,I had numbness or tingling somewhere in the body in the last month – symptoms ended:,4.0,about 1 week ago
+1200137,TRACKC19,followUp,symptom23_2,I had numbness or tingling somewhere in the body in the last month – symptoms ended:,5.0,still have symptoms
+1200138,TRACKC19,followUp,symptom24_1,I had a feeling of heaviness in arms or legs in the last month – symptoms started:,1.0,more than 1 month ago
+1200139,TRACKC19,followUp,symptom24_1,I had a feeling of heaviness in arms or legs in the last month – symptoms started:,2.0,about 4 weeks ago
+1200140,TRACKC19,followUp,symptom24_1,I had a feeling of heaviness in arms or legs in the last month – symptoms started:,3.0,about 3 weeks ago
+1200141,TRACKC19,followUp,symptom24_1,I had a feeling of heaviness in arms or legs in the last month – symptoms started:,4.0,about 2 weeks ago
+1200142,TRACKC19,followUp,symptom24_1,I had a feeling of heaviness in arms or legs in the last month – symptoms started:,5.0,about 1 week ago
+1200143,TRACKC19,followUp,symptom24_1,I had a feeling of heaviness in arms or legs in the last month – symptoms started:,6.0,in the last week
+1200144,TRACKC19,followUp,symptom24_2,I had a feeling of heaviness in arms or legs in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200145,TRACKC19,followUp,symptom24_2,I had a feeling of heaviness in arms or legs in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200146,TRACKC19,followUp,symptom24_2,I had a feeling of heaviness in arms or legs in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200147,TRACKC19,followUp,symptom24_2,I had a feeling of heaviness in arms or legs in the last month – symptoms ended:,4.0,about 1 week ago
+1200148,TRACKC19,followUp,symptom24_2,I had a feeling of heaviness in arms or legs in the last month – symptoms ended:,5.0,still have symptoms
+1200149,TRACKC19,followUp,symptom25_1,I had achy muscles in the last month – symptoms started:,1.0,more than 1 month ago
+1200150,TRACKC19,followUp,symptom25_1,I had achy muscles in the last month – symptoms started:,2.0,about 4 weeks ago
+1200151,TRACKC19,followUp,symptom25_1,I had achy muscles in the last month – symptoms started:,3.0,about 3 weeks ago
+1200152,TRACKC19,followUp,symptom25_1,I had achy muscles in the last month – symptoms started:,4.0,about 2 weeks ago
+1200153,TRACKC19,followUp,symptom25_1,I had achy muscles in the last month – symptoms started:,5.0,about 1 week ago
+1200154,TRACKC19,followUp,symptom25_1,I had achy muscles in the last month – symptoms started:,6.0,in the last week
+1200155,TRACKC19,followUp,symptom25_2,I had achy muscles in the last month – symptoms ended:,1.0,about 4 weeks ago
+1200156,TRACKC19,followUp,symptom25_2,I had achy muscles in the last month – symptoms ended:,2.0,about 3 weeks ago
+1200157,TRACKC19,followUp,symptom25_2,I had achy muscles in the last month – symptoms ended:,3.0,about 2 weeks ago
+1200158,TRACKC19,followUp,symptom25_2,I had achy muscles in the last month – symptoms ended:,4.0,about 1 week ago
+1200159,TRACKC19,followUp,symptom25_2,I had achy muscles in the last month – symptoms ended:,5.0,still have symptoms
+1200160,TRACKC19,followUp,symptomatt,Did you seek medical attention for the symptoms you had in the last month?,1.0,yes
+1200161,TRACKC19,followUp,symptomatt,Did you seek medical attention for the symptoms you had in the last month?,2.0,no
+1200162,TRACKC19,followUp,symptomatt,Did you seek medical attention for the symptoms you had in the last month?,999.0,don't know / can't remember
+1200163,TRACKC19,followUp,symptomatt_1,"If yes, did you contact NHS 111, by phone or online ",1.0,yes
+1200164,TRACKC19,followUp,symptomatt_2,"If yes, did you visit a pharmacist",1.0,yes
+1200165,TRACKC19,followUp,symptomatt_3,"If yes, did you consult GP/practice nurse over the phone or online",1.0,yes
+1200166,TRACKC19,followUp,symptomatt_4,"If yes, did you consult GP/practice nurse face to face",1.0,yes
+1200167,TRACKC19,followUp,symptomatt_5,"If yes, did you go to a walk-in centre ",1.0,yes
+1200168,TRACKC19,followUp,symptomatt_6,"If yes, did you go to accident and emergency",1.0,yes
+1200169,TRACKC19,followUp,symptommed_1,Did you take paracetamol to treat your symptoms,1.0,yes
+1200170,TRACKC19,followUp,symptommed_2,Did you take ibuprofen to treat your symptoms,1.0,yes
+1200171,TRACKC19,followUp,symptommed_3,Did you take antibiotics to treat your symptoms,1.0,yes
+1200172,TRACKC19,followUp,temperature,In the last month have you had your temperature taken?,1.0,no
+1200173,TRACKC19,followUp,temperature,In the last month have you had your temperature taken?,2.0,"yes, by doctor / nurse / health professional"
+1200174,TRACKC19,followUp,temperature,In the last month have you had your temperature taken?,3.0,"yes, by myself"
+1200175,TRACKC19,followUp,temperature,In the last month have you had your temperature taken?,4.0,"yes, by someone else"
+1200176,TRACKC19,followUp,temperaturen,"If you can remember, what was the highest temperature reading in degrees Celsius  (ºC)",777.0,> 41 degrees celcius
+1200177,TRACKC19,followUp,breath,In the last month have you had shortness of breath (difficulty breathing)?,1.0,no
+1200178,TRACKC19,followUp,breath,In the last month have you had shortness of breath (difficulty breathing)?,2.0,"yes, but did not affect my normal activities"
+1200179,TRACKC19,followUp,breath,In the last month have you had shortness of breath (difficulty breathing)?,3.0,"yes, did affect my normal activities (e.g. walking short distances)"
+1200180,TRACKC19,followUp,breath,In the last month have you had shortness of breath (difficulty breathing)?,4.0,"yes, even when i was sat or lying down"
+1200181,TRACKC19,followUp,breath,In the last month have you had shortness of breath (difficulty breathing)?,999.0,don't know / can't remember
+1200182,TRACKC19,followUp,covidcontact,Have you been in close contact with anyone with symptoms similar to COVID-19 in the last month?,1.0,"yes, i was in contact with a confirmed/tested covid-19 case"
+1200183,TRACKC19,followUp,covidcontact,Have you been in close contact with anyone with symptoms similar to COVID-19 in the last month?,2.0,"yes, i was in contact with a person with covid-19 symptoms"
+1200184,TRACKC19,followUp,covidcontact,Have you been in close contact with anyone with symptoms similar to COVID-19 in the last month?,3.0,"no, not to my knowledge"
+1200185,TRACKC19,followUp,covidcontact,Have you been in close contact with anyone with symptoms similar to COVID-19 in the last month?,999.0,don't know / can't remember
+1200186,TRACKC19,followUp,covidme,Do you think that you have or have had COVID-19?,1.0,no
+1200187,TRACKC19,followUp,covidme,Do you think that you have or have had COVID-19?,2.0,"yes, confirmed by a positiev test"
+1200188,TRACKC19,followUp,covidme,Do you think that you have or have had COVID-19?,3.0,"yes, suspected by a doctor but not tested"
+1200189,TRACKC19,followUp,covidme,Do you think that you have or have had COVID-19?,4.0,"yes, my own suspicions, but not seen by a doctor or tested"
+1200190,TRACKC19,followUp,covidme,Do you think that you have or have had COVID-19?,999.0,don't know / can't remember
+1200191,TRACKC19,followUp,coviddate,"If yes, when were you told/when did you think you first had COVID-19?",,
+1200192,TRACKC19,followUp,vaccine,"Have you been vaccinated against COVID-19 by a healthcare professional, (e.g., your GP, hospital, vaccination centre, pharmacist…)? Please only answer Yes if the vaccine was NOT given as part of a clinical trial. ",1.0,yes
+1200193,TRACKC19,followUp,vaccine,"Have you been vaccinated against COVID-19 by a healthcare professional, (e.g., your GP, hospital, vaccination centre, pharmacist…)? Please only answer Yes if the vaccine was NOT given as part of a clinical trial. ",2.0,no
+1200194,TRACKC19,followUp,vaccine,"Have you been vaccinated against COVID-19 by a healthcare professional, (e.g., your GP, hospital, vaccination centre, pharmacist…)? Please only answer Yes if the vaccine was NOT given as part of a clinical trial. ",999.0,don't know / prefer not to answer
+1200195,TRACKC19,followUp,vacc1date,Date of 1st vaccine dose (leave blank if yet to receive dose),,
+1200196,TRACKC19,followUp,vacc2date,Date of 2nd vaccine dose (leave blank if yet to receive dose),,
+1200197,TRACKC19,followUp,vacctype,What vaccine did you receive?,1.0,Pfizer-BioNTech
+1200198,TRACKC19,followUp,vacctype,What vaccine did you receive?,2.0,Oxford University and Astra-Zeneca
+1200199,TRACKC19,followUp,vacctype,What vaccine did you receive?,3.0,Moderna
+1200200,TRACKC19,followUp,vacctype,What vaccine did you receive?,4.0,Other
+1200201,TRACKC19,followUp,vacctype,What vaccine did you receive?,999.0,don't know / prefer not to answer
+1200202,TRACKC19,followUp,vtrial,Are you currently or have you previously taken part in a COVID-19 Vaccine Clinical Trial?,1.0,yes
+1200203,TRACKC19,followUp,vtrial,Are you currently or have you previously taken part in a COVID-19 Vaccine Clinical Trial?,2.0,no
+1200204,TRACKC19,followUp,vtrial,Are you currently or have you previously taken part in a COVID-19 Vaccine Clinical Trial?,999.0,don't know / prefer not to answer
+1200205,TRACKC19,followUp,vtrialname1,What is the name of the trial?,1.0,Novavax vaccine trial
+1200206,TRACKC19,followUp,vtrialname1,What is the name of the trial?,2.0,Oxford-AstraZeneca trial
+1200207,TRACKC19,followUp,vtrialname1,What is the name of the trial?,3.0, Janssen vaccine trial 
+1200208,TRACKC19,followUp,vtrialname1,What is the name of the trial?,4.0,Ensemble2 vaccine trial
+1200209,TRACKC19,followUp,vtrialname1,What is the name of the trial?,0.0,other
+1200210,TRACKC19,followUp,vtrialname2,Name of ‘other’ vaccine trial,,
+1200211,TRACKC19,followUp,vtrial1date,Date of 1st injection administered (leave blank if yet to receive injection),,
+1200212,TRACKC19,followUp,vtrial2date,Date of 2nd injection administered (leave blank if yet to receive injection),,
+1200213,TRACKC19,followUp,vtrialinfo,You may have been informed whether you received the COVID-19 vaccine or placebo. Please select ONE option:,1.0,I received the vaccine
+1200214,TRACKC19,followUp,vtrialinfo,You may have been informed whether you received the COVID-19 vaccine or placebo. Please select ONE option:,2.0, I received the placebo
+1200215,TRACKC19,followUp,vtrialinfo,You may have been informed whether you received the COVID-19 vaccine or placebo. Please select ONE option:,3.0, I don’t know whether I received the vaccine or placebo
+1200216,TRACKC19,followUp,regmed,Do you currently take any regular medication?,1.0,yes
+1200217,TRACKC19,followUp,regmed,Do you currently take any regular medication?,2.0,no
+1200218,TRACKC19,followUp,regmed,Do you currently take any regular medication?,999.0,don't know / prefer not to answer
+1200219,TRACKC19,followUp,med_1,Do you currently take aspirin?,1.0,yes
+1200220,TRACKC19,followUp,med_2,Do you currently take NSAIDs?,1.0,yes
+1200221,TRACKC19,followUp,med_3,Do you currently take ACE inhibitors?,1.0,yes
+1200222,TRACKC19,followUp,med_4,Do you currently take ARBs?,1.0,yes
+1200223,TRACKC19,followUp,med_5,Do you currently take anticoagulants?,1.0,yes
+1200224,TRACKC19,followUp,med_6,Do you currently take  steroids?,1.0,yes
+1200225,TRACKC19,followUp,med_7,Do you currently take statins?,1.0,yes
+1200226,TRACKC19,followUp,mental_1,"Over the last month, how often have you been bothered by: Little interest or pleasure in doing things?",1.0,not at all
+1200227,TRACKC19,followUp,mental_1,"Over the last month, how often have you been bothered by: Little interest or pleasure in doing things?",2.0,half the days
+1200228,TRACKC19,followUp,mental_1,"Over the last month, how often have you been bothered by: Little interest or pleasure in doing things?",3.0,nearly every day
+1200229,TRACKC19,followUp,mental_1,"Over the last month, how often have you been bothered by: Little interest or pleasure in doing things?",999.0,don’t know / prefer not to answer
+1200230,TRACKC19,followUp,mental_2,"Over the last month, how often have you been bothered by: Feeling down, depressed, or hopeless?",1.0,not at all
+1200231,TRACKC19,followUp,mental_2,"Over the last month, how often have you been bothered by: Feeling down, depressed, or hopeless?",2.0,half the days
+1200232,TRACKC19,followUp,mental_2,"Over the last month, how often have you been bothered by: Feeling down, depressed, or hopeless?",3.0,nearly every day
+1200233,TRACKC19,followUp,mental_2,"Over the last month, how often have you been bothered by: Feeling down, depressed, or hopeless?",999.0,don’t know / prefer not to answer
+1200234,TRACKC19,followUp,mental_3,"Over the last month, how often have you been bothered by: Trouble falling or staying asleep, or sleeping too much?",1.0,not at all
+1200235,TRACKC19,followUp,mental_3,"Over the last month, how often have you been bothered by: Trouble falling or staying asleep, or sleeping too much?",2.0,half the days
+1200236,TRACKC19,followUp,mental_3,"Over the last month, how often have you been bothered by: Trouble falling or staying asleep, or sleeping too much?",3.0,nearly every day
+1200237,TRACKC19,followUp,mental_3,"Over the last month, how often have you been bothered by: Trouble falling or staying asleep, or sleeping too much?",999.0,don’t know / prefer not to answer
+1200238,TRACKC19,followUp,mental_4,"Over the last month, how often have you been bothered by: Feeling tired or having little energy?",1.0,not at all
+1200239,TRACKC19,followUp,mental_4,"Over the last month, how often have you been bothered by: Feeling tired or having little energy?",2.0,half the days
+1200240,TRACKC19,followUp,mental_4,"Over the last month, how often have you been bothered by: Feeling tired or having little energy?",3.0,nearly every day
+1200241,TRACKC19,followUp,mental_4,"Over the last month, how often have you been bothered by: Feeling tired or having little energy?",999.0,don’t know / prefer not to answer
+1200242,TRACKC19,followUp,mental_5,"Over the last month, how often have you been bothered by: Poor appetite or overeating?",1.0,not at all
+1200243,TRACKC19,followUp,mental_5,"Over the last month, how often have you been bothered by: Poor appetite or overeating?",2.0,half the days
+1200244,TRACKC19,followUp,mental_5,"Over the last month, how often have you been bothered by: Poor appetite or overeating?",3.0,nearly every day
+1200245,TRACKC19,followUp,mental_5,"Over the last month, how often have you been bothered by: Poor appetite or overeating?",999.0,don’t know / prefer not to answer
+1200246,TRACKC19,followUp,mental_6,"Over the last month, how often have you been bothered by: Feeling bad about yourself – or that you are a failure or have let yourself or your family down?",1.0,not at all
+1200247,TRACKC19,followUp,mental_6,"Over the last month, how often have you been bothered by: Feeling bad about yourself – or that you are a failure or have let yourself or your family down?",2.0,half the days
+1200248,TRACKC19,followUp,mental_6,"Over the last month, how often have you been bothered by: Feeling bad about yourself – or that you are a failure or have let yourself or your family down?",3.0,nearly every day
+1200249,TRACKC19,followUp,mental_6,"Over the last month, how often have you been bothered by: Feeling bad about yourself – or that you are a failure or have let yourself or your family down?",999.0,don’t know / prefer not to answer
+1200250,TRACKC19,followUp,mental_7,"Over the last month, how often have you been bothered by: Trouble concentrating on things, such as reading the newspaper or watching television?",1.0,not at all
+1200251,TRACKC19,followUp,mental_7,"Over the last month, how often have you been bothered by: Trouble concentrating on things, such as reading the newspaper or watching television?",2.0,half the days
+1200252,TRACKC19,followUp,mental_7,"Over the last month, how often have you been bothered by: Trouble concentrating on things, such as reading the newspaper or watching television?",3.0,nearly every day
+1200253,TRACKC19,followUp,mental_7,"Over the last month, how often have you been bothered by: Trouble concentrating on things, such as reading the newspaper or watching television?",999.0,don’t know / prefer not to answer
+1200254,TRACKC19,followUp,mental_8,"Over the last month, how often have you been bothered by: Moving so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual?",1.0,not at all
+1200255,TRACKC19,followUp,mental_8,"Over the last month, how often have you been bothered by: Moving so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual?",2.0,half the days
+1200256,TRACKC19,followUp,mental_8,"Over the last month, how often have you been bothered by: Moving so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual?",3.0,nearly every day
+1200257,TRACKC19,followUp,mental_8,"Over the last month, how often have you been bothered by: Moving so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual?",999.0,don’t know / prefer not to answer
+1200258,TRACKC19,followUp,mental_9,"Over the last month, how often have you been bothered by: Speaking so slowly that other people could have noticed?",1.0,not at all
+1200259,TRACKC19,followUp,mental_9,"Over the last month, how often have you been bothered by: Speaking so slowly that other people could have noticed?",2.0,half the days
+1200260,TRACKC19,followUp,mental_9,"Over the last month, how often have you been bothered by: Speaking so slowly that other people could have noticed?",3.0,nearly every day
+1200261,TRACKC19,followUp,mental_9,"Over the last month, how often have you been bothered by: Speaking so slowly that other people could have noticed?",999.0,don’t know / prefer not to answer
+1200262,TRACKC19,followUp,mental_10,"Over the last month, how often have you been bothered by: Feeling nervous, anxious or on edge?",1.0,not at all
+1200263,TRACKC19,followUp,mental_10,"Over the last month, how often have you been bothered by: Feeling nervous, anxious or on edge?",2.0,half the days
+1200264,TRACKC19,followUp,mental_10,"Over the last month, how often have you been bothered by: Feeling nervous, anxious or on edge?",3.0,nearly every day
+1200265,TRACKC19,followUp,mental_10,"Over the last month, how often have you been bothered by: Feeling nervous, anxious or on edge?",999.0,don’t know / prefer not to answer
+1200266,TRACKC19,followUp,mental_11,"Over the last month, how often have you been bothered by: Not being able to stop or control worrying?",1.0,not at all
+1200267,TRACKC19,followUp,mental_11,"Over the last month, how often have you been bothered by: Not being able to stop or control worrying?",2.0,half the days
+1200268,TRACKC19,followUp,mental_11,"Over the last month, how often have you been bothered by: Not being able to stop or control worrying?",3.0,nearly every day
+1200269,TRACKC19,followUp,mental_11,"Over the last month, how often have you been bothered by: Not being able to stop or control worrying?",999.0,don’t know / prefer not to answer
+1200270,TRACKC19,followUp,mental_12,"Over the last month, how often have you been bothered by: Worrying too much about different things?",1.0,not at all
+1200271,TRACKC19,followUp,mental_12,"Over the last month, how often have you been bothered by: Worrying too much about different things?",2.0,half the days
+1200272,TRACKC19,followUp,mental_12,"Over the last month, how often have you been bothered by: Worrying too much about different things?",3.0,nearly every day
+1200273,TRACKC19,followUp,mental_12,"Over the last month, how often have you been bothered by: Worrying too much about different things?",999.0,don’t know / prefer not to answer
+1200274,TRACKC19,followUp,mental_13,"Over the last month, how often have you been bothered by: Trouble relaxing?",1.0,not at all
+1200275,TRACKC19,followUp,mental_13,"Over the last month, how often have you been bothered by: Trouble relaxing?",2.0,half the days
+1200276,TRACKC19,followUp,mental_13,"Over the last month, how often have you been bothered by: Trouble relaxing?",3.0,nearly every day
+1200277,TRACKC19,followUp,mental_13,"Over the last month, how often have you been bothered by: Trouble relaxing?",999.0,don’t know / prefer not to answer
+1200278,TRACKC19,followUp,mental_14,"Over the last month, how often have you been bothered by: Being so restless that it is hard to sit still?",1.0,not at all
+1200279,TRACKC19,followUp,mental_14,"Over the last month, how often have you been bothered by: Being so restless that it is hard to sit still?",2.0,half the days
+1200280,TRACKC19,followUp,mental_14,"Over the last month, how often have you been bothered by: Being so restless that it is hard to sit still?",3.0,nearly every day
+1200281,TRACKC19,followUp,mental_14,"Over the last month, how often have you been bothered by: Being so restless that it is hard to sit still?",999.0,don’t know / prefer not to answer
+1200282,TRACKC19,followUp,mental_15,"Over the last month, how often have you been bothered by: Becoming easily annoyed or irritable?",1.0,not at all
+1200283,TRACKC19,followUp,mental_15,"Over the last month, how often have you been bothered by: Becoming easily annoyed or irritable?",2.0,half the days
+1200284,TRACKC19,followUp,mental_15,"Over the last month, how often have you been bothered by: Becoming easily annoyed or irritable?",3.0,nearly every day
+1200285,TRACKC19,followUp,mental_15,"Over the last month, how often have you been bothered by: Becoming easily annoyed or irritable?",999.0,don’t know / prefer not to answer
+1200286,TRACKC19,followUp,mental_16,"Over the last month, how often have you been bothered by: Feeling afraid as if something awful might happen?",1.0,not at all
+1200287,TRACKC19,followUp,mental_16,"Over the last month, how often have you been bothered by: Feeling afraid as if something awful might happen?",2.0,half the days
+1200288,TRACKC19,followUp,mental_16,"Over the last month, how often have you been bothered by: Feeling afraid as if something awful might happen?",3.0,nearly every day
+1200289,TRACKC19,followUp,mental_16,"Over the last month, how often have you been bothered by: Feeling afraid as if something awful might happen?",999.0,don’t know / prefer not to answer
+1200290,TRACKC19,followUp,avail_from_dt,,,

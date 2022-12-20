@@ -1,0 +1,330 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+853973,MCS,mcs5_parent_derived,study_id_e,,,
+853974,MCS,mcs5_parent_derived,pnum,Person Number for Main or (Proxy)Partner respondent,-1.0,Not applicable
+853975,MCS,mcs5_parent_derived,eelig00,Eligibility for Interview,1.0,Main Interview
+853976,MCS,mcs5_parent_derived,eelig00,Eligibility for Interview,2.0,Partner Interview
+853977,MCS,mcs5_parent_derived,eelig00,Eligibility for Interview,3.0,Proxy Interview
+853978,MCS,mcs5_parent_derived,eelig00,Eligibility for Interview,4.0,Not eligible
+853979,MCS,mcs5_parent_derived,eresp00,Response to Interview,1.0,Main Interview
+853980,MCS,mcs5_parent_derived,eresp00,Response to Interview,2.0,Partner Interview
+853981,MCS,mcs5_parent_derived,eresp00,Response to Interview,3.0,Proxy Interview
+853982,MCS,mcs5_parent_derived,eresp00,Response to Interview,4.0,No interview
+853983,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),-9.0,Refusal
+853984,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),-8.0,Don't know
+853985,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),-1.0,Not applicable
+853986,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),1.0,NVQ level 1
+853987,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),2.0,NVQ level 2
+853988,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),3.0,NVQ level 3
+853989,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),4.0,NVQ level 4
+853990,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),5.0,NVQ level 5
+853991,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),95.0,Overseas qual only
+853992,MCS,mcs5_parent_derived,ednvq00,S5 DV Respondent NVQ Highest Level (all sweeps),96.0,None of these
+853993,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,-1.0,Not applicable
+853994,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,1.0,Christian
+853995,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,2.0,Muslim
+853996,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,3.0,Hindu
+853997,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,4.0,Sikh
+853998,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,5.0,Jewish
+853999,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,6.0,Buddhist
+854000,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,7.0,Other
+854001,MCS,mcs5_parent_derived,edrlg00,S5 DV Respondent religion - 7 category,8.0,None
+854002,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,-1.0,Not applicable
+854003,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,1.0,Employers - large organisations
+854004,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,2.0,Employers - small organisations
+854005,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,3.0,Self employed - no employers
+854006,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,4.0,Managers  - large organisations
+854007,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,5.0,Managers  - small organisations
+854008,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,6.0,Supervisors
+854009,MCS,mcs5_parent_derived,edemp00,S5 DV Employment status for SOC coding,7.0,Other employees
+854010,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,-1.0,Not applicable
+854011,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,1.0,NVQ Level 1
+854012,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,2.0,NVQ Level 2
+854013,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,3.0,NVQ Level 3
+854014,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,4.0,NVQ Level 4
+854015,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,5.0,NVQ Level 5
+854016,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,95.0,Overseas qualification only
+854017,MCS,mcs5_parent_derived,eacaq00,S5 DV NVQ equivalent of highest academic level across sweeps,96.0,None of these
+854018,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),-1.0,Not applicable
+854019,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),1.0,Large emp
+854020,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),2.0,Hi manag
+854021,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),3.1,Hi prof trad
+854022,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),3.2,Hi prof new
+854023,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),3.3,Hi prof trad s-emp
+854024,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),3.4,Hi prof new s-emp
+854025,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),4.1,Lo prof trad
+854026,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),4.2,Lo prof new
+854027,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),4.3,Lo prof trad s-emp
+854028,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),4.4,Lo prof new s-emp
+854029,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),5.0,Lower managers
+854030,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),6.0,Hi supervisory
+854031,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),7.1,Intermed clerical
+854032,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),7.2,Intermed service
+854033,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),7.3,Intermed techncl
+854034,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),7.4,Intermed engineerng
+854035,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),8.1,Small emp indust
+854036,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),8.2,Sm emp agric
+854037,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),9.1,S-emp non profl
+854038,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),9.2,S-emp agric
+854039,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),10.0,Lower supervisors
+854040,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),11.1,Lo tech craft
+854041,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),11.2,Lo tech operative
+854042,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),12.1,Semi-rou salesâ€™
+854043,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),12.2,Semi-rou service
+854044,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),12.3,Semi-rou techncl
+854045,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),12.4,Semi-rou operative
+854046,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),12.5,Semi-rou gric
+854047,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),12.6,Semi-rou clerical
+854048,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),12.7,Semi-rou childcare
+854049,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),13.1,Routine sales
+854050,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),13.2,Routine productn
+854051,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),13.3,Routine tech
+854052,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),13.4,Routine operative
+854053,MCS,mcs5_parent_derived,ed17s00,S5 DV NS-SEC full version (current job),13.5,Routine agric
+854054,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),-1.0,Not applicable
+854055,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),1.0,Large emp
+854056,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),2.0,Hi manag
+854057,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),3.0,Higher prof
+854058,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),4.0,Lo prof/hi tech
+854059,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),5.0,Lower managers
+854060,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),6.0,Hi supervisory
+854061,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),7.0,Intermediate
+854062,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),8.0,Small employers
+854063,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),9.0,Self-emp non profl
+854064,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),10.0,Lower supervisors
+854065,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),11.0,Lower technical
+854066,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),12.0,Semi-routine
+854067,MCS,mcs5_parent_derived,ed13s00,S5 DV NS-SEC 13 category (current job),13.0,Routine
+854068,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),-1.0,Not applicable
+854069,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),1.0,Hi manag/prof
+854070,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),2.0,Lo manag/prof
+854071,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),3.0,Intermediate
+854072,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),4.0,Small emp and s-emp
+854073,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),5.0,Low sup and tech
+854074,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),6.0,Semi routine
+854075,MCS,mcs5_parent_derived,ed07s00,S5 DV NS-SEC 7 category (current job),7.0,Routine
+854076,MCS,mcs5_parent_derived,ed05s00,S5 DV NS-SEC 5 category (current job),-1.0,Not applicable
+854077,MCS,mcs5_parent_derived,ed05s00,S5 DV NS-SEC 5 category (current job),1.0,Manag and profl
+854078,MCS,mcs5_parent_derived,ed05s00,S5 DV NS-SEC 5 category (current job),2.0,Intermediate
+854079,MCS,mcs5_parent_derived,ed05s00,S5 DV NS-SEC 5 category (current job),3.0,Sm emp and s-emp
+854080,MCS,mcs5_parent_derived,ed05s00,S5 DV NS-SEC 5 category (current job),4.0,Lo sup and tech
+854081,MCS,mcs5_parent_derived,ed05s00,S5 DV NS-SEC 5 category (current job),5.0,Semi-rou and routine
+854082,MCS,mcs5_parent_derived,edwrk00,S5 DV Whether respondent is in work or not,-1.0,Not applicable
+854083,MCS,mcs5_parent_derived,edwrk00,S5 DV Whether respondent is in work or not,1.0,Respondent is in work or on leave
+854084,MCS,mcs5_parent_derived,edwrk00,S5 DV Whether respondent is in work or not,2.0,Respondent is not in work nor on leave
+854085,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,-2.0,Missing information
+854086,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,-1.0,Not applicable
+854087,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,1.0,Natural mother: interviewed
+854088,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,2.0,Natural father: interviewed
+854089,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,3.0,Adoptive mother: interviewed
+854090,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,4.0,Adoptive father: interviewed
+854091,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,5.0,Foster mother: interviewed
+854092,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,6.0,Foster father: interviewed
+854093,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,7.0,Step mother/partner of father: interviewed
+854094,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,8.0,Step father/partner of mother: interviewed
+854095,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,9.0,Grandmother: interviewed
+854096,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,10.0,Grandfather: interviewed
+854097,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,11.0,Natural mother: by proxy
+854098,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,12.0,Natural father: by proxy
+854099,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,13.0,Step mother: by proxy
+854100,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,14.0,Step father: by proxy
+854101,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,15.0,Natural mother: not interviewed
+854102,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,16.0,Natural father: not interviewed
+854103,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,17.0,Adoptive mother: not interviewed
+854104,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,18.0,Adoptive father: not interviewed
+854105,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,19.0,Foster mother: not interviewed
+854106,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,20.0,Foster father: not interviewed
+854107,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,21.0,Step mother: not interviewed
+854108,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,22.0,Step father: not interviewed
+854109,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,23.0,"Natural mother: by proxy, not interviewed"
+854110,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,24.0,"Natural father: by proxy, not interviewed"
+854111,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,25.0,Other female non-relative: interviewed
+854112,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,26.0,Other male non relative: interviewed
+854113,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,27.0,Other female non-relative: not interviewed
+854114,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,28.0,Other male non relative: not interviewed
+854115,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,29.0,"Step mother: by proxy, not interviewed"
+854116,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,30.0,"Step father: by proxy, not interviewed"
+854117,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,31.0,Other female relative: interviewed
+854118,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,32.0,Other male relative: interviewed
+854119,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,33.0,"Female, unknown relationship: interviewed"
+854120,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,34.0,"Male, unknown relationship:interviewed"
+854121,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,35.0,"Step parent, unknown sex: interviewed"
+854122,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,36.0,"Step parent, unknown sex: not interviewed"
+854123,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,37.0,"Adoptive parent, unknown sex: interviewed"
+854124,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,38.0,"Adoptive parent, unknown sex: not interviewed"
+854125,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,39.0,Grandmother: not interviewed
+854126,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,40.0,Grandfather: not interviewed
+854127,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,41.0,"Female, unknown relationship: not interviewed"
+854128,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,42.0,"Male, unknown relationship: not interviewed"
+854129,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,43.0,Other female relative: not interviewed
+854130,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,44.0,Other male relative: not interviewed
+854131,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,45.0,"Natural parent, unknown sex: interviewed"
+854132,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,46.0,"Natural parent, unknown sex: not interviewed"
+854133,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,47.0,"Natural parent, unknown sex: by proxy"
+854134,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,48.0,Other male non-relative: by proxy
+854135,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,49.0,"Other non-relative, sex unknown: interviewed"
+854136,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,50.0,"Unknown relationship, unknown sex: by proxy"
+854137,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,51.0,Adoptive father: by proxy
+854138,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,52.0,Grandfather: by proxy
+854139,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,53.0,"Other male non-relative: by proxy, no proxy interview"
+854140,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,54.0,Other male relative: by proxy
+854141,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,55.0,Natural sister: interviewed
+854142,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,56.0,Natural brother: interviewed
+854143,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,57.0,Natural sister: not interviewed
+854144,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,58.0,"Adoptive father: by proxy, no proxy interview"
+854145,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,59.0,"Grandfather: by proxy, no proxy interview"
+854146,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,60.0,"Foster father: by proxy, no proxy interview"
+854147,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,61.0,Half brother: interviewed
+854148,MCS,mcs5_parent_derived,edres00,S5 DV Respondent identity and interview status,62.0,Half sister: interviewed
+854149,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,-8.0,Unknown
+854150,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,-1.0,Not applicable
+854151,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,1.0,Employed
+854152,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,2.0,Self employed
+854153,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,3.0,Looking for work
+854154,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,4.0,Poor health
+854155,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,5.0,"New deal, apprenticeship"
+854156,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,6.0,Student
+854157,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,7.0,Looking after the family
+854158,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,8.0,Waiting for a job to start
+854159,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,9.0,Non-working for other reason
+854160,MCS,mcs5_parent_derived,edact00,S5 DV Respondent economic activity status,10.0,Retired
+854161,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],-1.0,Not applicable
+854162,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],1.0,White - British
+854163,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],2.0,White - Irish
+854164,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],3.0,Any other White background
+854165,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],4.0,Mixed - White and Black Caribbean
+854166,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],5.0,Mixed - White and Black African
+854167,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],6.0,Mixed - White and Asian
+854168,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],7.0,Any other mixed background
+854169,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],8.0,Asian/Asian British - Indian
+854170,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],9.0,Asian/Asian British - Pakistani
+854171,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],10.0,Asian/Asian British - Bangladeshi
+854172,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],11.0,Any other Asian background
+854173,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],12.0,Black/Black British - Caribbean
+854174,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],13.0,Black/Black British - African
+854175,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],14.0,Any other Black background
+854176,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],15.0,Chinese
+854177,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],95.0,Any other background
+854178,MCS,mcs5_parent_derived,edeea00_r5,S5 DV Respondent's Ethnic Group (England)    [counts less than 5 recoded],100.0,Recoded due to low counts - check SA
+854179,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],-1.0,Not applicable
+854180,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],1.0,White - British
+854181,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],2.0,White - Irish
+854182,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],3.0,Any other White background
+854183,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],4.0,Mixed - White and Black Caribbean
+854184,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],5.0,Mixed - White and Black African
+854185,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],6.0,Mixed - White and Asian
+854186,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],7.0,Any other mixed background
+854187,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],8.0,Asian/Asian British - Indian
+854188,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],9.0,Asian/Asian British - Pakistani
+854189,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],10.0,Asian/Asian British - Bangladeshi
+854190,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],11.0,Any other Asian background
+854191,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],12.0,Black/Black British - Caribbean
+854192,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],13.0,Black/Black British - African
+854193,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],14.0,Any other Black background
+854194,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],15.0,Chinese
+854195,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],95.0,Any other background
+854196,MCS,mcs5_parent_derived,edewa00_r5,S5 DV Respondent's Ethnic Group (Wales)  [counts less than 5 recoded],100.0,Recoded due to low counts - check SA
+854197,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],-1.0,Not applicable
+854198,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],1.0,White - Scottish
+854199,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],2.0,White - other British
+854200,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],3.0,White - Irish
+854201,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],4.0,Any other White background
+854202,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],5.0,Any mixed background
+854203,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],6.0,Asian/Asian Scottish - Indian
+854204,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],7.0,Asian/Asian Scottish - Pakistani
+854205,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],8.0,Asian/Asian Scottish - Bangladeshi
+854206,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],9.0,Asian/Asian Scottish - Chinese
+854207,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],10.0,Any other Asian background
+854208,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],11.0,Black/Black Scottish - Caribbean
+854209,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],12.0,Black/Black Scottish - African
+854210,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],13.0,Any other Black background
+854211,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],95.0,Any other background
+854212,MCS,mcs5_parent_derived,edesa00_r5,S5 DV Respondent's Ethnic Group (Scotland)   [counts less than 5 recoded],100.0,Recoded due to low counts - check SA
+854213,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),-1.0, Not applicable
+854214,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),1.0,White
+854215,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),2.0,Chinese
+854216,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),3.0,Irish Traveller
+854217,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),4.0,Indian
+854218,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),5.0,Pakistani
+854219,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),6.0,Bangladeshi
+854220,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),7.0,Black Caribbean
+854221,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),8.0,Black African
+854222,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),9.0,Black Other
+854223,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),10.0,Mixed ethnic group
+854224,MCS,mcs5_parent_derived,edena00,S5 DV Respondent's Ethnic Group (Northern Ireland),95.0,Any other background
+854225,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),-9.0,Refused
+854226,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),-8.0,Don't know
+854227,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),-1.0,Not applicable
+854228,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),1.0,White
+854229,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),2.0,Mixed
+854230,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),3.0,Indian
+854231,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),4.0,Pakistani and Bangladeshi
+854232,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),5.0,Black or Black British
+854233,MCS,mcs5_parent_derived,ed06e00,S5 DV Respondent's ethnic group - 6 category census classification (UK),6.0,"Other Ethnic group (inc Chinese,Other)"
+854234,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),-9.0,Refused
+854235,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),-8.0,Don't know
+854236,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),-1.0,Not applicable
+854237,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),1.0,White
+854238,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),2.0,Mixed
+854239,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),3.0,Indian
+854240,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),4.0,Pakistani
+854241,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),5.0,Bangladeshi
+854242,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),6.0,Other Asian
+854243,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),7.0,Black Caribbean
+854244,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),8.0,Black African
+854245,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),9.0,Other Black
+854246,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),10.0,Chinese
+854247,MCS,mcs5_parent_derived,ed11e00,S5 DV Respondent's ethnic group - 11 category census classification (UK),11.0,Other Ethnic Group
+854248,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),-9.0,Refused
+854249,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),-8.0,Don't know
+854250,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),-1.0,Not applicable
+854251,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),1.0,White
+854252,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),2.0,Mixed
+854253,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),3.0,Indian
+854254,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),4.0,Pakistani
+854255,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),5.0,Bangladeshi
+854256,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),6.0,Black Caribbean
+854257,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),7.0,Black African
+854258,MCS,mcs5_parent_derived,ed08e00,S5 DV Respondent's ethnic group - 8 category census classification (UK),8.0,"Other Ethnic Group (inc Chinese, Other)"
+854259,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,-1.0,Not known
+854260,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,1.0,Husband/Wife
+854261,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,2.0,Partner/Cohabitee
+854262,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,3.0,Natural son/daughter
+854263,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,4.0,Adopted son/daughter
+854264,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,5.0,Foster son/daughter
+854265,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,6.0,Step-son-daughter
+854266,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,7.0,Natural parent
+854267,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,8.0,Adoptive parent
+854268,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,9.0,Foster parent
+854269,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,10.0,"Step-parent, partner of parent"
+854270,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,11.0,Natural brother/Natural sister
+854271,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,12.0,Half-brother/Half-sister
+854272,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,13.0,Step-brother/Step-sister
+854273,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,14.0,Adopted brother/Adopted sister
+854274,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,15.0,Foster brother/Foster sister
+854275,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,16.0,Grandchild
+854276,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,17.0,Grandparent
+854277,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,18.0,Nanny/au pair
+854278,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,19.0,Other relative
+854279,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,20.0,Other non-relative
+854280,MCS,mcs5_parent_derived,edrel00,S5 DV Respondent relationship to CM,96.0,Self
+854281,MCS,mcs5_parent_derived,edagi00,S5 DV Respondent Age at Interview,-3.0,Dob or Date of Interview Missing
+854282,MCS,mcs5_parent_derived,edagi00,S5 DV Respondent Age at Interview,-2.0,Not Known
+854283,MCS,mcs5_parent_derived,edagi00,S5 DV Respondent Age at Interview,-1.0,Not applicable
+854284,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),-3.0,Dob or Date of Interview Missing
+854285,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),-2.0,Not Known
+854286,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),-1.0,Not applicable
+854287,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),1.0,16 to 19
+854288,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),2.0,20 to 29
+854289,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),3.0,30 to 39
+854290,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),4.0,40 to 49
+854291,MCS,mcs5_parent_derived,edgai00,S5 DV Respondent Age at Interview (grouped),5.0,50 plus
+854292,MCS,mcs5_parent_derived,edsam00,S5 DV Respondent same as at sweep 4,-1.0,Family not present at MCS4
+854293,MCS,mcs5_parent_derived,edsam00,S5 DV Respondent same as at sweep 4,1.0,Yes
+854294,MCS,mcs5_parent_derived,edsam00,S5 DV Respondent same as at sweep 4,2.0,No
+854295,MCS,mcs5_parent_derived,edlst00,S5 DV Respondent status at sweep 4,-1.0,Family not present at MCS4
+854296,MCS,mcs5_parent_derived,edlst00,S5 DV Respondent status at sweep 4,1.0,Main Interview
+854297,MCS,mcs5_parent_derived,edlst00,S5 DV Respondent status at sweep 4,2.0,Partner Interview
+854298,MCS,mcs5_parent_derived,edlst00,S5 DV Respondent status at sweep 4,3.0,Proxy Interview
+854299,MCS,mcs5_parent_derived,edlst00,S5 DV Respondent status at sweep 4,4.0,No Interview
+854300,MCS,mcs5_parent_derived,avail_from_dt,,,
+854301,MCS,mcs5_parent_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

@@ -1,0 +1,750 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+803823,MCS,mcs4_hhgrid,study_id_e,,,
+803824,MCS,mcs4_hhgrid,pnum,Person number within an MCS family (excl Cohort Members,-1.0,Not applicable
+803825,MCS,mcs4_hhgrid,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+803826,MCS,mcs4_hhgrid,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+803827,MCS,mcs4_hhgrid,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+803828,MCS,mcs4_hhgrid,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Proxy Interview
+803829,MCS,mcs4_hhgrid,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible
+803830,MCS,mcs4_hhgrid,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+803831,MCS,mcs4_hhgrid,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+803832,MCS,mcs4_hhgrid,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+803833,MCS,mcs4_hhgrid,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Proxy Interview
+803834,MCS,mcs4_hhgrid,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No Interview
+803835,MCS,mcs4_hhgrid,dcnum00,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+803836,MCS,mcs4_hhgrid,dcnum00,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+803837,MCS,mcs4_hhgrid,dcnum00,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+803838,MCS,mcs4_hhgrid,dhintm00,Interview Date (month),-1.0,Not applicable
+803839,MCS,mcs4_hhgrid,dhinty00,Interview Date (year),-1.0,Not applicable
+803840,MCS,mcs4_hhgrid,dhcsex00,Cohort Member Sex,-9.0,Refusal
+803841,MCS,mcs4_hhgrid,dhcsex00,Cohort Member Sex,-8.0,Don't Know
+803842,MCS,mcs4_hhgrid,dhcsex00,Cohort Member Sex,-1.0,Not applicable
+803843,MCS,mcs4_hhgrid,dhcsex00,Cohort Member Sex,1.0,Male
+803844,MCS,mcs4_hhgrid,dhcsex00,Cohort Member Sex,2.0,Female
+803845,MCS,mcs4_hhgrid,dhcdbm00,Cohort Member Date of Birth (month),-1.0,Not applicable
+803846,MCS,mcs4_hhgrid,dhcdby00,Cohort Member Date of Birth (year),-1.0,Not applicable
+803847,MCS,mcs4_hhgrid,dhcage00,CM Age at interview (days),-1.0,Not applicable
+803848,MCS,mcs4_hhgrid,dhcprs00,CM Present in Sweep 4,-9.0,Refusal
+803849,MCS,mcs4_hhgrid,dhcprs00,CM Present in Sweep 4,-8.0,Don't Know
+803850,MCS,mcs4_hhgrid,dhcprs00,CM Present in Sweep 4,-1.0,Not applicable
+803851,MCS,mcs4_hhgrid,dhcprs00,CM Present in Sweep 4,1.0,Yes
+803852,MCS,mcs4_hhgrid,dhcprs00,CM Present in Sweep 4,2.0,Left
+803853,MCS,mcs4_hhgrid,dhcprs00,CM Present in Sweep 4,3.0,Died
+803854,MCS,mcs4_hhgrid,dhcprs00,CM Present in Sweep 4,4.0,Never in HH
+803855,MCS,mcs4_hhgrid,dhcful00,CM Resident full-time or part-time,-1.0,Not applicable
+803856,MCS,mcs4_hhgrid,dhcful00,CM Resident full-time or part-time,1.0,Yes - lives here all the time
+803857,MCS,mcs4_hhgrid,dhcful00,CM Resident full-time or part-time,2.0,No - also lives somewhere else
+803858,MCS,mcs4_hhgrid,dhpsex00,Person Sex,-9.0,Refusal
+803859,MCS,mcs4_hhgrid,dhpsex00,Person Sex,-8.0,Don't Know
+803860,MCS,mcs4_hhgrid,dhpsex00,Person Sex,-1.0,Not applicable
+803861,MCS,mcs4_hhgrid,dhpsex00,Person Sex,1.0,Male
+803862,MCS,mcs4_hhgrid,dhpsex00,Person Sex,2.0,Female
+803863,MCS,mcs4_hhgrid,dhpdbm00,Person Date of Birth (month),-8.0,Dont know
+803864,MCS,mcs4_hhgrid,dhpdbm00,Person Date of Birth (month),-1.0,Not applicable
+803865,MCS,mcs4_hhgrid,dhpdby00,Person Date of Birth (year),-8.0,Dont know
+803866,MCS,mcs4_hhgrid,dhpdby00,Person Date of Birth (year),-1.0,Not applicable
+803867,MCS,mcs4_hhgrid,dhpres00,Present in Sweep 4,-9.0,Refusal
+803868,MCS,mcs4_hhgrid,dhpres00,Present in Sweep 4,-8.0,Don't Know
+803869,MCS,mcs4_hhgrid,dhpres00,Present in Sweep 4,-1.0,Not applicable
+803870,MCS,mcs4_hhgrid,dhpres00,Present in Sweep 4,1.0,Present
+803871,MCS,mcs4_hhgrid,dhpres00,Present in Sweep 4,2.0,Left
+803872,MCS,mcs4_hhgrid,dhpres00,Present in Sweep 4,3.0,Died
+803873,MCS,mcs4_hhgrid,dhpres00,Present in Sweep 4,4.0,Never in HH
+803874,MCS,mcs4_hhgrid,dhpage00,Person Age (years),-2.0,Not Known
+803875,MCS,mcs4_hhgrid,dhpage00,Person Age (years),-1.0,Not applicable
+803876,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,-9.0,Refusal
+803877,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,-8.0,Don't Know
+803878,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,-1.0,Not applicable
+803879,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,1.0,Husband/Wife
+803880,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,2.0,Partner/Cohabitee
+803881,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,3.0,Natural son/daughter
+803882,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,4.0,Adopted son/daughter
+803883,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,5.0,Foster son/daughter
+803884,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,6.0,Step-son/ step-daughter
+803885,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,7.0,Natural parent
+803886,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,8.0,Adoptive parent
+803887,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,9.0,Foster parent
+803888,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,10.0,Step-parent/partner of parent
+803889,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,11.0,Natural brother/Natural sister
+803890,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,12.0,Half-brother/Half-sister
+803891,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,13.0,Step-brother/Step-sister
+803892,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,14.0,Adopted brother/Adopted sister
+803893,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,15.0,Foster brother/Foster sister
+803894,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,16.0,Grandchild
+803895,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,17.0,Grandparent
+803896,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,18.0,Nanny/au pair
+803897,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,19.0,Other relative
+803898,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,20.0,Other non-relative
+803899,MCS,mcs4_hhgrid,dhcrel00,Relationship to Cohort Member,96.0,Self
+803900,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,-9.0,Refusal
+803901,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,-8.0,Don't Know
+803902,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,-1.0,Not applicable
+803903,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,1.0,Husband/Wife
+803904,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,2.0,Partner/Cohabitee
+803905,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,3.0,Natural son/daughter
+803906,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,4.0,Adopted son/daughter
+803907,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,5.0,Foster son/daughter
+803908,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,6.0,Step-son/ step-daughter
+803909,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,7.0,Natural parent
+803910,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,8.0,Adoptive parent
+803911,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,9.0,Foster parent
+803912,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,10.0,Step-parent/partner of parent
+803913,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,11.0,Natural brother/Natural sister
+803914,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,12.0,Half-brother/Half-sister
+803915,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,13.0,Step-brother/Step-sister
+803916,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,14.0,Adopted brother/Adopted sister
+803917,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,15.0,Foster brother/Foster sister
+803918,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,16.0,Grandchild
+803919,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,17.0,Grandparent
+803920,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,18.0,Nanny/au pair
+803921,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,19.0,Other relative
+803922,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,20.0,Other non-relative
+803923,MCS,mcs4_hhgrid,dhprela0,Relationship to Person 1,96.0,Self
+803924,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,-9.0,Refusal
+803925,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,-8.0,Don't Know
+803926,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,-1.0,Not applicable
+803927,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,1.0,Husband/Wife
+803928,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,2.0,Partner/Cohabitee
+803929,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,3.0,Natural son/daughter
+803930,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,4.0,Adopted son/daughter
+803931,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,5.0,Foster son/daughter
+803932,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,6.0,Step-son/ step-daughter
+803933,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,7.0,Natural parent
+803934,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,8.0,Adoptive parent
+803935,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,9.0,Foster parent
+803936,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,10.0,Step-parent/partner of parent
+803937,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,11.0,Natural brother/Natural sister
+803938,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,12.0,Half-brother/Half-sister
+803939,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,13.0,Step-brother/Step-sister
+803940,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,14.0,Adopted brother/Adopted sister
+803941,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,15.0,Foster brother/Foster sister
+803942,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,16.0,Grandchild
+803943,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,17.0,Grandparent
+803944,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,18.0,Nanny/au pair
+803945,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,19.0,Other relative
+803946,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,20.0,Other non-relative
+803947,MCS,mcs4_hhgrid,dhprelb0,Relationship to Person 2,96.0,Self
+803948,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,-9.0,Refusal
+803949,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,-8.0,Don't Know
+803950,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,-1.0,Not applicable
+803951,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,1.0,Husband/Wife
+803952,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,2.0,Partner/Cohabitee
+803953,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,3.0,Natural son/daughter
+803954,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,4.0,Adopted son/daughter
+803955,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,5.0,Foster son/daughter
+803956,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,6.0,Step-son/ step-daughter
+803957,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,7.0,Natural parent
+803958,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,8.0,Adoptive parent
+803959,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,9.0,Foster parent
+803960,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,10.0,Step-parent/partner of parent
+803961,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,11.0,Natural brother/Natural sister
+803962,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,12.0,Half-brother/Half-sister
+803963,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,13.0,Step-brother/Step-sister
+803964,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,14.0,Adopted brother/Adopted sister
+803965,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,15.0,Foster brother/Foster sister
+803966,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,16.0,Grandchild
+803967,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,17.0,Grandparent
+803968,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,18.0,Nanny/au pair
+803969,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,19.0,Other relative
+803970,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,20.0,Other non-relative
+803971,MCS,mcs4_hhgrid,dhprelc0,Relationship to Person 3,96.0,Self
+803972,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,-9.0,Refusal
+803973,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,-8.0,Don't Know
+803974,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,-1.0,Not applicable
+803975,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,1.0,Husband/Wife
+803976,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,2.0,Partner/Cohabitee
+803977,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,3.0,Natural son/daughter
+803978,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,4.0,Adopted son/daughter
+803979,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,5.0,Foster son/daughter
+803980,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,6.0,Step-son/ step-daughter
+803981,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,7.0,Natural parent
+803982,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,8.0,Adoptive parent
+803983,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,9.0,Foster parent
+803984,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,10.0,Step-parent/partner of parent
+803985,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,11.0,Natural brother/Natural sister
+803986,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,12.0,Half-brother/Half-sister
+803987,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,13.0,Step-brother/Step-sister
+803988,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,14.0,Adopted brother/Adopted sister
+803989,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,15.0,Foster brother/Foster sister
+803990,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,16.0,Grandchild
+803991,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,17.0,Grandparent
+803992,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,18.0,Nanny/au pair
+803993,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,19.0,Other relative
+803994,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,20.0,Other non-relative
+803995,MCS,mcs4_hhgrid,dhpreld0,Relationship to Person 4,96.0,Self
+803996,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,-9.0,Refusal
+803997,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,-8.0,Don't Know
+803998,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,-1.0,Not applicable
+803999,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,1.0,Husband/Wife
+804000,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,2.0,Partner/Cohabitee
+804001,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,3.0,Natural son/daughter
+804002,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,4.0,Adopted son/daughter
+804003,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,5.0,Foster son/daughter
+804004,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,6.0,Step-son/ step-daughter
+804005,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,7.0,Natural parent
+804006,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,8.0,Adoptive parent
+804007,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,9.0,Foster parent
+804008,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,10.0,Step-parent/partner of parent
+804009,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,11.0,Natural brother/Natural sister
+804010,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,12.0,Half-brother/Half-sister
+804011,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,13.0,Step-brother/Step-sister
+804012,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,14.0,Adopted brother/Adopted sister
+804013,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,15.0,Foster brother/Foster sister
+804014,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,16.0,Grandchild
+804015,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,17.0,Grandparent
+804016,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,18.0,Nanny/au pair
+804017,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,19.0,Other relative
+804018,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,20.0,Other non-relative
+804019,MCS,mcs4_hhgrid,dhprele0,Relationship to Person 5,96.0,Self
+804020,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,-8.0,Don't Know
+804021,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,-1.0,Not applicable
+804022,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,1.0,Husband/Wife
+804023,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,2.0,Partner/Cohabitee
+804024,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,3.0,Natural son/daughter
+804025,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,4.0,Adopted son/daughter
+804026,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,5.0,Foster son/daughter
+804027,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,6.0,Step-son/ step-daughter
+804028,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,7.0,Natural parent
+804029,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,8.0,Adoptive parent
+804030,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,9.0,Foster parent
+804031,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,10.0,Step-parent/partner of parent
+804032,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,11.0,Natural brother/Natural sister
+804033,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,12.0,Half-brother/Half-sister
+804034,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,13.0,Step-brother/Step-sister
+804035,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,14.0,Adopted brother/Adopted sister
+804036,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,15.0,Foster brother/Foster sister
+804037,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,16.0,Grandchild
+804038,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,17.0,Grandparent
+804039,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,18.0,Nanny/au pair
+804040,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,19.0,Other relative
+804041,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,20.0,Other non-relative
+804042,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,96.0,Self
+804043,MCS,mcs4_hhgrid,dhprelf0,Relationship to Person 6,-9.0,Refusal
+804044,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,-9.0,Refusal
+804045,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,-8.0,Don't Know
+804046,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,-1.0,Not applicable
+804047,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,1.0,Husband/Wife
+804048,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,2.0,Partner/Cohabitee
+804049,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,3.0,Natural son/daughter
+804050,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,4.0,Adopted son/daughter
+804051,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,5.0,Foster son/daughter
+804052,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,6.0,Step-son/ step-daughter
+804053,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,7.0,Natural parent
+804054,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,8.0,Adoptive parent
+804055,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,9.0,Foster parent
+804056,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,10.0,Step-parent/partner of parent
+804057,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,11.0,Natural brother/Natural sister
+804058,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,12.0,Half-brother/Half-sister
+804059,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,13.0,Step-brother/Step-sister
+804060,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,14.0,Adopted brother/Adopted sister
+804061,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,15.0,Foster brother/Foster sister
+804062,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,16.0,Grandchild
+804063,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,17.0,Grandparent
+804064,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,18.0,Nanny/au pair
+804065,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,19.0,Other relative
+804066,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,20.0,Other non-relative
+804067,MCS,mcs4_hhgrid,dhprelg0,Relationship to Person 7,96.0,Self
+804068,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,-9.0,Refusal
+804069,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,-8.0,Don't Know
+804070,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,-1.0,Not applicable
+804071,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,1.0,Husband/Wife
+804072,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,2.0,Partner/Cohabitee
+804073,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,3.0,Natural son/daughter
+804074,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,4.0,Adopted son/daughter
+804075,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,5.0,Foster son/daughter
+804076,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,6.0,Step-son/ step-daughter
+804077,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,7.0,Natural parent
+804078,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,8.0,Adoptive parent
+804079,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,9.0,Foster parent
+804080,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,10.0,Step-parent/partner of parent
+804081,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,11.0,Natural brother/Natural sister
+804082,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,12.0,Half-brother/Half-sister
+804083,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,13.0,Step-brother/Step-sister
+804084,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,14.0,Adopted brother/Adopted sister
+804085,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,15.0,Foster brother/Foster sister
+804086,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,16.0,Grandchild
+804087,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,17.0,Grandparent
+804088,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,18.0,Nanny/au pair
+804089,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,19.0,Other relative
+804090,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,20.0,Other non-relative
+804091,MCS,mcs4_hhgrid,dhprelh0,Relationship to Person 8,96.0,Self
+804092,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,-9.0,Refusal
+804093,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,-8.0,Don't Know
+804094,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,-1.0,Not applicable
+804095,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,1.0,Husband/Wife
+804096,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,2.0,Partner/Cohabitee
+804097,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,3.0,Natural son/daughter
+804098,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,4.0,Adopted son/daughter
+804099,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,5.0,Foster son/daughter
+804100,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,6.0,Step-son/ step-daughter
+804101,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,7.0,Natural parent
+804102,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,8.0,Adoptive parent
+804103,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,9.0,Foster parent
+804104,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,10.0,Step-parent/partner of parent
+804105,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,11.0,Natural brother/Natural sister
+804106,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,12.0,Half-brother/Half-sister
+804107,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,13.0,Step-brother/Step-sister
+804108,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,14.0,Adopted brother/Adopted sister
+804109,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,15.0,Foster brother/Foster sister
+804110,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,16.0,Grandchild
+804111,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,17.0,Grandparent
+804112,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,18.0,Nanny/au pair
+804113,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,19.0,Other relative
+804114,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,20.0,Other non-relative
+804115,MCS,mcs4_hhgrid,dhpreli0,Relationship to Person 9,96.0,Self
+804116,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,-9.0,Refusal
+804117,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,-8.0,Don't Know
+804118,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,-1.0,Not applicable
+804119,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,1.0,Husband/Wife
+804120,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,2.0,Partner/Cohabitee
+804121,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,3.0,Natural son/daughter
+804122,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,4.0,Adopted son/daughter
+804123,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,5.0,Foster son/daughter
+804124,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,6.0,Step-son/ step-daughter
+804125,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,7.0,Natural parent
+804126,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,8.0,Adoptive parent
+804127,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,9.0,Foster parent
+804128,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,10.0,Step-parent/partner of parent
+804129,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,11.0,Natural brother/Natural sister
+804130,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,12.0,Half-brother/Half-sister
+804131,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,13.0,Step-brother/Step-sister
+804132,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,14.0,Adopted brother/Adopted sister
+804133,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,15.0,Foster brother/Foster sister
+804134,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,16.0,Grandchild
+804135,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,17.0,Grandparent
+804136,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,18.0,Nanny/au pair
+804137,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,19.0,Other relative
+804138,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,20.0,Other non-relative
+804139,MCS,mcs4_hhgrid,dhprelj0,Relationship to Person 10,96.0,Self
+804140,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,-9.0,Refusal
+804141,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,-8.0,Don't Know
+804142,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,-1.0,Not applicable
+804143,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,1.0,Husband/Wife
+804144,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,2.0,Partner/Cohabitee
+804145,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,3.0,Natural son/daughter
+804146,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,4.0,Adopted son/daughter
+804147,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,5.0,Foster son/daughter
+804148,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,6.0,Step-son/ step-daughter
+804149,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,7.0,Natural parent
+804150,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,8.0,Adoptive parent
+804151,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,9.0,Foster parent
+804152,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,10.0,Step-parent/partner of parent
+804153,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,11.0,Natural brother/Natural sister
+804154,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,12.0,Half-brother/Half-sister
+804155,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,13.0,Step-brother/Step-sister
+804156,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,14.0,Adopted brother/Adopted sister
+804157,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,15.0,Foster brother/Foster sister
+804158,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,16.0,Grandchild
+804159,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,17.0,Grandparent
+804160,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,18.0,Nanny/au pair
+804161,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,19.0,Other relative
+804162,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,20.0,Other non-relative
+804163,MCS,mcs4_hhgrid,dhprelk0,Relationship to Person 11,96.0,Self
+804164,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,-9.0,Refusal
+804165,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,-8.0,Don't Know
+804166,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,-1.0,Not applicable
+804167,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,1.0,Husband/Wife
+804168,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,2.0,Partner/Cohabitee
+804169,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,3.0,Natural son/daughter
+804170,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,4.0,Adopted son/daughter
+804171,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,5.0,Foster son/daughter
+804172,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,6.0,Step-son/ step-daughter
+804173,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,7.0,Natural parent
+804174,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,8.0,Adoptive parent
+804175,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,9.0,Foster parent
+804176,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,10.0,Step-parent/partner of parent
+804177,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,11.0,Natural brother/Natural sister
+804178,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,12.0,Half-brother/Half-sister
+804179,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,13.0,Step-brother/Step-sister
+804180,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,14.0,Adopted brother/Adopted sister
+804181,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,15.0,Foster brother/Foster sister
+804182,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,16.0,Grandchild
+804183,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,17.0,Grandparent
+804184,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,18.0,Nanny/au pair
+804185,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,19.0,Other relative
+804186,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,20.0,Other non-relative
+804187,MCS,mcs4_hhgrid,dhprell0,Relationship to Person 12,96.0,Self
+804188,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,-9.0,Refusal
+804189,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,-8.0,Don't Know
+804190,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,-1.0,Not applicable
+804191,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,1.0,Husband/Wife
+804192,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,2.0,Partner/Cohabitee
+804193,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,3.0,Natural son/daughter
+804194,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,4.0,Adopted son/daughter
+804195,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,5.0,Foster son/daughter
+804196,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,6.0,Step-son/ step-daughter
+804197,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,7.0,Natural parent
+804198,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,8.0,Adoptive parent
+804199,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,9.0,Foster parent
+804200,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,10.0,Step-parent/partner of parent
+804201,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,11.0,Natural brother/Natural sister
+804202,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,12.0,Half-brother/Half-sister
+804203,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,13.0,Step-brother/Step-sister
+804204,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,14.0,Adopted brother/Adopted sister
+804205,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,15.0,Foster brother/Foster sister
+804206,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,16.0,Grandchild
+804207,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,17.0,Grandparent
+804208,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,18.0,Nanny/au pair
+804209,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,19.0,Other relative
+804210,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,20.0,Other non-relative
+804211,MCS,mcs4_hhgrid,dhprelm0,Relationship to Person 13,96.0,Self
+804212,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,-9.0,Refusal
+804213,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,-8.0,Don't Know
+804214,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,-1.0,Not applicable
+804215,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,1.0,Husband/Wife
+804216,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,2.0,Partner/Cohabitee
+804217,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,3.0,Natural son/daughter
+804218,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,4.0,Adopted son/daughter
+804219,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,5.0,Foster son/daughter
+804220,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,6.0,Step-son/ step-daughter
+804221,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,7.0,Natural parent
+804222,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,8.0,Adoptive parent
+804223,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,9.0,Foster parent
+804224,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,10.0,Step-parent/partner of parent
+804225,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,11.0,Natural brother/Natural sister
+804226,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,12.0,Half-brother/Half-sister
+804227,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,13.0,Step-brother/Step-sister
+804228,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,14.0,Adopted brother/Adopted sister
+804229,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,15.0,Foster brother/Foster sister
+804230,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,16.0,Grandchild
+804231,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,17.0,Grandparent
+804232,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,18.0,Nanny/au pair
+804233,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,19.0,Other relative
+804234,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,20.0,Other non-relative
+804235,MCS,mcs4_hhgrid,dhpreln0,Relationship to Person 14,96.0,Self
+804236,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,-9.0,Refusal
+804237,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,-8.0,Don't Know
+804238,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,-1.0,Not applicable
+804239,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,1.0,Husband/Wife
+804240,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,2.0,Partner/Cohabitee
+804241,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,3.0,Natural son/daughter
+804242,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,4.0,Adopted son/daughter
+804243,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,5.0,Foster son/daughter
+804244,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,6.0,Step-son/ step-daughter
+804245,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,7.0,Natural parent
+804246,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,8.0,Adoptive parent
+804247,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,9.0,Foster parent
+804248,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,10.0,Step-parent/partner of parent
+804249,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,11.0,Natural brother/Natural sister
+804250,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,12.0,Half-brother/Half-sister
+804251,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,13.0,Step-brother/Step-sister
+804252,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,14.0,Adopted brother/Adopted sister
+804253,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,15.0,Foster brother/Foster sister
+804254,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,16.0,Grandchild
+804255,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,17.0,Grandparent
+804256,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,18.0,Nanny/au pair
+804257,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,19.0,Other relative
+804258,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,20.0,Other non-relative
+804259,MCS,mcs4_hhgrid,dhprelo0,Relationship to Person 15,96.0,Self
+804260,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,-9.0,Refusal
+804261,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,-8.0,Don't Know
+804262,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,-1.0,Not applicable
+804263,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,1.0,Husband/Wife
+804264,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,2.0,Partner/Cohabitee
+804265,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,3.0,Natural son/daughter
+804266,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,4.0,Adopted son/daughter
+804267,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,5.0,Foster son/daughter
+804268,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,6.0,Step-son/ step-daughter
+804269,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,7.0,Natural parent
+804270,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,8.0,Adoptive parent
+804271,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,9.0,Foster parent
+804272,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,10.0,Step-parent/partner of parent
+804273,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,11.0,Natural brother/Natural sister
+804274,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,12.0,Half-brother/Half-sister
+804275,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,13.0,Step-brother/Step-sister
+804276,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,14.0,Adopted brother/Adopted sister
+804277,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,15.0,Foster brother/Foster sister
+804278,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,16.0,Grandchild
+804279,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,17.0,Grandparent
+804280,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,18.0,Nanny/au pair
+804281,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,19.0,Other relative
+804282,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,20.0,Other non-relative
+804283,MCS,mcs4_hhgrid,dhprelp0,Relationship to Person 16,96.0,Self
+804284,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,-9.0,Refusal
+804285,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,-8.0,Don't Know
+804286,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,-1.0,Not applicable
+804287,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,1.0,Husband/Wife
+804288,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,2.0,Partner/Cohabitee
+804289,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,3.0,Natural son/daughter
+804290,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,4.0,Adopted son/daughter
+804291,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,5.0,Foster son/daughter
+804292,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,6.0,Step-son/ step-daughter
+804293,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,7.0,Natural parent
+804294,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,8.0,Adoptive parent
+804295,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,9.0,Foster parent
+804296,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,10.0,Step-parent/partner of parent
+804297,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,11.0,Natural brother/Natural sister
+804298,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,12.0,Half-brother/Half-sister
+804299,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,13.0,Step-brother/Step-sister
+804300,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,14.0,Adopted brother/Adopted sister
+804301,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,15.0,Foster brother/Foster sister
+804302,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,16.0,Grandchild
+804303,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,17.0,Grandparent
+804304,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,18.0,Nanny/au pair
+804305,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,19.0,Other relative
+804306,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,20.0,Other non-relative
+804307,MCS,mcs4_hhgrid,dhprelq0,Relationship to Person 17,96.0,Self
+804308,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,2.0,Partner/Cohabitee
+804309,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,3.0,Natural son/daughter
+804310,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,4.0,Adopted son/daughter
+804311,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,5.0,Foster son/daughter
+804312,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,6.0,Step-son/ step-daughter
+804313,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,7.0,Natural parent
+804314,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,8.0,Adoptive parent
+804315,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,9.0,Foster parent
+804316,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,10.0,Step-parent/partner of parent
+804317,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,11.0,Natural brother/Natural sister
+804318,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,12.0,Half-brother/Half-sister
+804319,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,13.0,Step-brother/Step-sister
+804320,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,14.0,Adopted brother/Adopted sister
+804321,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,15.0,Foster brother/Foster sister
+804322,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,16.0,Grandchild
+804323,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,17.0,Grandparent
+804324,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,18.0,Nanny/au pair
+804325,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,19.0,Other relative
+804326,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,20.0,Other non-relative
+804327,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,96.0,Self
+804328,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,-9.0,Refusal
+804329,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,-8.0,Don't Know
+804330,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,-1.0,Not applicable
+804331,MCS,mcs4_hhgrid,dhprelr0,Relationship to Person 18,1.0,Husband/Wife
+804332,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,-9.0,Refusal
+804333,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,-8.0,Don't Know
+804334,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,-1.0,Not applicable
+804335,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,1.0,Husband/Wife
+804336,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,2.0,Partner/Cohabitee
+804337,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,3.0,Natural son/daughter
+804338,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,4.0,Adopted son/daughter
+804339,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,5.0,Foster son/daughter
+804340,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,6.0,Step-son/ step-daughter
+804341,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,7.0,Natural parent
+804342,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,8.0,Adoptive parent
+804343,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,9.0,Foster parent
+804344,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,10.0,Step-parent/partner of parent
+804345,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,11.0,Natural brother/Natural sister
+804346,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,12.0,Half-brother/Half-sister
+804347,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,13.0,Step-brother/Step-sister
+804348,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,14.0,Adopted brother/Adopted sister
+804349,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,15.0,Foster brother/Foster sister
+804350,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,16.0,Grandchild
+804351,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,17.0,Grandparent
+804352,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,18.0,Nanny/au pair
+804353,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,19.0,Other relative
+804354,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,20.0,Other non-relative
+804355,MCS,mcs4_hhgrid,dhprels0,Relationship to Person 19,96.0,Self
+804356,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,-9.0,Refusal
+804357,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,-8.0,Don't Know
+804358,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,-1.0,Not applicable
+804359,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,1.0,Husband/Wife
+804360,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,2.0,Partner/Cohabitee
+804361,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,3.0,Natural son/daughter
+804362,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,4.0,Adopted son/daughter
+804363,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,5.0,Foster son/daughter
+804364,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,6.0,Step-son/ step-daughter
+804365,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,7.0,Natural parent
+804366,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,8.0,Adoptive parent
+804367,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,9.0,Foster parent
+804368,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,10.0,Step-parent/partner of parent
+804369,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,11.0,Natural brother/Natural sister
+804370,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,12.0,Half-brother/Half-sister
+804371,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,13.0,Step-brother/Step-sister
+804372,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,14.0,Adopted brother/Adopted sister
+804373,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,15.0,Foster brother/Foster sister
+804374,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,16.0,Grandchild
+804375,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,17.0,Grandparent
+804376,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,18.0,Nanny/au pair
+804377,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,19.0,Other relative
+804378,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,20.0,Other non-relative
+804379,MCS,mcs4_hhgrid,dhprelt0,Relationship to Person 20,96.0,Self
+804380,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,-9.0,Refusal
+804381,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,-8.0,Don't Know
+804382,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,-1.0,Not applicable
+804383,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,1.0,Husband/Wife
+804384,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,2.0,Partner/Cohabitee
+804385,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,3.0,Natural son/daughter
+804386,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,4.0,Adopted son/daughter
+804387,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,5.0,Foster son/daughter
+804388,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,6.0,Step-son/ step-daughter
+804389,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,7.0,Natural parent
+804390,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,8.0,Adoptive parent
+804391,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,9.0,Foster parent
+804392,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,10.0,Step-parent/partner of parent
+804393,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,11.0,Natural brother/Natural sister
+804394,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,12.0,Half-brother/Half-sister
+804395,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,13.0,Step-brother/Step-sister
+804396,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,14.0,Adopted brother/Adopted sister
+804397,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,15.0,Foster brother/Foster sister
+804398,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,16.0,Grandchild
+804399,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,17.0,Grandparent
+804400,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,18.0,Nanny/au pair
+804401,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,19.0,Other relative
+804402,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,20.0,Other non-relative
+804403,MCS,mcs4_hhgrid,dhprelu0,Relationship to Person 21,96.0,Self
+804404,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,3.0,Natural son/daughter
+804405,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,4.0,Adopted son/daughter
+804406,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,5.0,Foster son/daughter
+804407,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,6.0,Step-son/ step-daughter
+804408,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,7.0,Natural parent
+804409,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,8.0,Adoptive parent
+804410,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,9.0,Foster parent
+804411,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,10.0,Step-parent/partner of parent
+804412,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,11.0,Natural brother/Natural sister
+804413,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,12.0,Half-brother/Half-sister
+804414,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,13.0,Step-brother/Step-sister
+804415,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,14.0,Adopted brother/Adopted sister
+804416,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,15.0,Foster brother/Foster sister
+804417,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,16.0,Grandchild
+804418,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,17.0,Grandparent
+804419,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,18.0,Nanny/au pair
+804420,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,19.0,Other relative
+804421,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,20.0,Other non-relative
+804422,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,96.0,Self
+804423,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,-9.0,Refusal
+804424,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,-8.0,Don't Know
+804425,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,-1.0,Not applicable
+804426,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,1.0,Husband/Wife
+804427,MCS,mcs4_hhgrid,dhprelv0,Relationship to Person 22,2.0,Partner/Cohabitee
+804428,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,-9.0,Refusal
+804429,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,-8.0,Don't Know
+804430,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,-1.0,Not applicable
+804431,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,1.0,Husband/Wife
+804432,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,2.0,Partner/Cohabitee
+804433,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,3.0,Natural son/daughter
+804434,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,4.0,Adopted son/daughter
+804435,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,5.0,Foster son/daughter
+804436,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,6.0,Step-son/ step-daughter
+804437,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,7.0,Natural parent
+804438,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,8.0,Adoptive parent
+804439,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,9.0,Foster parent
+804440,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,10.0,Step-parent/partner of parent
+804441,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,11.0,Natural brother/Natural sister
+804442,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,12.0,Half-brother/Half-sister
+804443,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,13.0,Step-brother/Step-sister
+804444,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,14.0,Adopted brother/Adopted sister
+804445,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,15.0,Foster brother/Foster sister
+804446,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,16.0,Grandchild
+804447,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,17.0,Grandparent
+804448,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,18.0,Nanny/au pair
+804449,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,19.0,Other relative
+804450,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,20.0,Other non-relative
+804451,MCS,mcs4_hhgrid,dhprelw0,Relationship to Person 23,96.0,Self
+804452,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,-9.0,Refusal
+804453,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,-8.0,Don't Know
+804454,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,-1.0,Not applicable
+804455,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,1.0,Husband/Wife
+804456,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,2.0,Partner/Cohabitee
+804457,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,3.0,Natural son/daughter
+804458,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,4.0,Adopted son/daughter
+804459,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,5.0,Foster son/daughter
+804460,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,6.0,Step-son/ step-daughter
+804461,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,7.0,Natural parent
+804462,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,8.0,Adoptive parent
+804463,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,9.0,Foster parent
+804464,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,10.0,Step-parent/partner of parent
+804465,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,11.0,Natural brother/Natural sister
+804466,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,12.0,Half-brother/Half-sister
+804467,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,13.0,Step-brother/Step-sister
+804468,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,14.0,Adopted brother/Adopted sister
+804469,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,15.0,Foster brother/Foster sister
+804470,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,16.0,Grandchild
+804471,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,17.0,Grandparent
+804472,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,18.0,Nanny/au pair
+804473,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,19.0,Other relative
+804474,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,20.0,Other non-relative
+804475,MCS,mcs4_hhgrid,dhprelx0,Relationship to Person 24,96.0,Self
+804476,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,-9.0,Refusal
+804477,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,-8.0,Don't Know
+804478,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,-1.0,Not applicable
+804479,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,1.0,Husband/Wife
+804480,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,2.0,Partner/Cohabitee
+804481,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,3.0,Natural son/daughter
+804482,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,4.0,Adopted son/daughter
+804483,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,5.0,Foster son/daughter
+804484,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,6.0,Step-son/ step-daughter
+804485,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,7.0,Natural parent
+804486,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,8.0,Adoptive parent
+804487,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,9.0,Foster parent
+804488,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,10.0,Step-parent/partner of parent
+804489,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,11.0,Natural brother/Natural sister
+804490,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,12.0,Half-brother/Half-sister
+804491,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,13.0,Step-brother/Step-sister
+804492,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,14.0,Adopted brother/Adopted sister
+804493,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,15.0,Foster brother/Foster sister
+804494,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,16.0,Grandchild
+804495,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,17.0,Grandparent
+804496,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,18.0,Nanny/au pair
+804497,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,19.0,Other relative
+804498,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,20.0,Other non-relative
+804499,MCS,mcs4_hhgrid,dhprely0,Relationship to Person 25,96.0,Self
+804500,MCS,mcs4_hhgrid,dhpjob00,Is person currently in work or not,-1.0,Not applicable
+804501,MCS,mcs4_hhgrid,dhpjob00,Is person currently in work or not,1.0,Yes
+804502,MCS,mcs4_hhgrid,dhpjob00,Is person currently in work or not,2.0,No
+804503,MCS,mcs4_hhgrid,dhptpc00,Resident full-time or part-time,-1.0,Not applicable
+804504,MCS,mcs4_hhgrid,dhptpc00,Resident full-time or part-time,1.0,Yes - lives here all the time
+804505,MCS,mcs4_hhgrid,dhptpc00,Resident full-time or part-time,2.0,No - also lives somewhere else
+804506,MCS,mcs4_hhgrid,dhpsty00,When did person start living with CM (year),-1.0,Not applicable
+804507,MCS,mcs4_hhgrid,dhpstm00,When did person start living with CM (month),-2.0,Not Known
+804508,MCS,mcs4_hhgrid,dhpstm00,When did person start living with CM (month),-1.0,Not applicable
+804509,MCS,mcs4_hhgrid,dhpwhp00,When happened to person,-1.0,Not Applicable
+804510,MCS,mcs4_hhgrid,dhpwhp00,When happened to person,1.0,Deceased
+804511,MCS,mcs4_hhgrid,dhpwhp00,When happened to person,2.0,Long term absence
+804512,MCS,mcs4_hhgrid,dhpwhp00,When happened to person,3.0,Lives in a different household
+804513,MCS,mcs4_hhgrid,dhpwhp00,When happened to person,4.0,"Never lived here, other"
+804514,MCS,mcs4_hhgrid,dhpdcy00,When did person die (year),-2.0,Not Known
+804515,MCS,mcs4_hhgrid,dhpdcy00,When did person die (year),-1.0,Not Applicable
+804516,MCS,mcs4_hhgrid,dhpdcm00,When did person die (month),-2.0,Not known
+804517,MCS,mcs4_hhgrid,dhpdcm00,When did person die (month),-1.0,Not applicable
+804518,MCS,mcs4_hhgrid,dhpspy00,When did person stop living with CM (year),-2.0,Not Known
+804519,MCS,mcs4_hhgrid,dhpspy00,When did person stop living with CM (year),-1.0,Not Applicable
+804520,MCS,mcs4_hhgrid,dhpspm00,When did person stop living with CM (month),-2.0,Not known
+804521,MCS,mcs4_hhgrid,dhpspm00,When did person stop living with CM (month),-1.0,Not applicable
+804522,MCS,mcs4_hhgrid,dhsaoc00,Sally Anne outcome,-1.0,Not applicable
+804523,MCS,mcs4_hhgrid,dhsaoc00,Sally Anne outcome,11.0,Complete
+804524,MCS,mcs4_hhgrid,dhsaoc00,Sally Anne outcome,21.0,Partially complete
+804525,MCS,mcs4_hhgrid,dhsaoc00,Sally Anne outcome,43.0,Parent refused
+804526,MCS,mcs4_hhgrid,dhsaoc00,Sally Anne outcome,44.0,Child refused
+804527,MCS,mcs4_hhgrid,dhsaoc00,Sally Anne outcome,56.0,Other non-productive
+804528,MCS,mcs4_hhgrid,dhoaoc00,Welsh Word Reading outcome,-1.0,Not applicable
+804529,MCS,mcs4_hhgrid,dhoaoc00,Welsh Word Reading outcome,11.0,Complete
+804530,MCS,mcs4_hhgrid,dhoaoc00,Welsh Word Reading outcome,21.0,Partially complete
+804531,MCS,mcs4_hhgrid,dhoaoc00,Welsh Word Reading outcome,43.0,Parent refused
+804532,MCS,mcs4_hhgrid,dhoaoc00,Welsh Word Reading outcome,44.0,Child refused
+804533,MCS,mcs4_hhgrid,dhoaoc00,Welsh Word Reading outcome,56.0,Other non-productive
+804534,MCS,mcs4_hhgrid,dhwroc00,Word reading outcome,-1.0,Not applicable
+804535,MCS,mcs4_hhgrid,dhwroc00,Word reading outcome,11.0,Complete
+804536,MCS,mcs4_hhgrid,dhwroc00,Word reading outcome,21.0,Partially complete
+804537,MCS,mcs4_hhgrid,dhwroc00,Word reading outcome,43.0,Parent refused
+804538,MCS,mcs4_hhgrid,dhwroc00,Word reading outcome,44.0,Child refused
+804539,MCS,mcs4_hhgrid,dhwroc00,Word reading outcome,56.0,Other non-productive
+804540,MCS,mcs4_hhgrid,dhoc00,Numeracy Assessment (progress in maths) outcome,-1.0,Not applicable
+804541,MCS,mcs4_hhgrid,dhoc00,Numeracy Assessment (progress in maths) outcome,11.0,Complete
+804542,MCS,mcs4_hhgrid,dhoc00,Numeracy Assessment (progress in maths) outcome,21.0,Partially complete
+804543,MCS,mcs4_hhgrid,dhoc00,Numeracy Assessment (progress in maths) outcome,43.0,Parent refused
+804544,MCS,mcs4_hhgrid,dhoc00,Numeracy Assessment (progress in maths) outcome,44.0,Child refused
+804545,MCS,mcs4_hhgrid,dhoc00,Numeracy Assessment (progress in maths) outcome,56.0,Other non-productive
+804546,MCS,mcs4_hhgrid,dhpcoc00,Pattern constuction outcome,-1.0,Not applicable
+804547,MCS,mcs4_hhgrid,dhpcoc00,Pattern constuction outcome,11.0,Complete
+804548,MCS,mcs4_hhgrid,dhpcoc00,Pattern constuction outcome,21.0,Partially complete
+804549,MCS,mcs4_hhgrid,dhpcoc00,Pattern constuction outcome,43.0,Parent refused
+804550,MCS,mcs4_hhgrid,dhpcoc00,Pattern constuction outcome,44.0,Child refused
+804551,MCS,mcs4_hhgrid,dhpcoc00,Pattern constuction outcome,56.0,Other non-productive
+804552,MCS,mcs4_hhgrid,dhhtoc00,Height outcome,-1.0,Not applicable
+804553,MCS,mcs4_hhgrid,dhhtoc00,Height outcome,11.0,Complete
+804554,MCS,mcs4_hhgrid,dhhtoc00,Height outcome,21.0,Partially complete
+804555,MCS,mcs4_hhgrid,dhhtoc00,Height outcome,43.0,Parent refused
+804556,MCS,mcs4_hhgrid,dhhtoc00,Height outcome,44.0,Child refused
+804557,MCS,mcs4_hhgrid,dhhtoc00,Height outcome,56.0,Other non-productive
+804558,MCS,mcs4_hhgrid,dhwtoc00,Weight outcome,-1.0,Not applicable
+804559,MCS,mcs4_hhgrid,dhwtoc00,Weight outcome,11.0,Complete
+804560,MCS,mcs4_hhgrid,dhwtoc00,Weight outcome,21.0,Partially complete
+804561,MCS,mcs4_hhgrid,dhwtoc00,Weight outcome,43.0,Parent refused
+804562,MCS,mcs4_hhgrid,dhwtoc00,Weight outcome,44.0,Child refused
+804563,MCS,mcs4_hhgrid,dhwtoc00,Weight outcome,56.0,Other non-productive
+804564,MCS,mcs4_hhgrid,dhwsoc00,Waist outcome,-1.0,Not applicable
+804565,MCS,mcs4_hhgrid,dhwsoc00,Waist outcome,11.0,Complete
+804566,MCS,mcs4_hhgrid,dhwsoc00,Waist outcome,21.0,Partially complete
+804567,MCS,mcs4_hhgrid,dhwsoc00,Waist outcome,43.0,Parent refused
+804568,MCS,mcs4_hhgrid,dhwsoc00,Waist outcome,44.0,Child refused
+804569,MCS,mcs4_hhgrid,dhwsoc00,Waist outcome,56.0,Other non-productive
+804570,MCS,mcs4_hhgrid,avail_from_dt,,,
+804571,MCS,mcs4_hhgrid,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

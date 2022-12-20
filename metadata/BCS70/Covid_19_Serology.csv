@@ -1,0 +1,86 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+632084,BCS70,Covid_19_Serology,study_id_e,,,
+632085,BCS70,Covid_19_Serology,cs_cohort,Cohort identifier,1.0,NCDS
+632086,BCS70,Covid_19_Serology,cs_cohort,Cohort identifier,2.0,BCS70
+632087,BCS70,Covid_19_Serology,cs_cohort,Cohort identifier,3.0,Next Steps
+632088,BCS70,Covid_19_Serology,cs_cohort,Cohort identifier,4.0,MCS CM
+632089,BCS70,Covid_19_Serology,cs_cohort,Cohort identifier,5.0,MCS Parent
+632090,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,-1.0,Not applicable
+632091,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,1.0,January
+632092,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,2.0,February
+632093,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,3.0,March
+632094,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,4.0,April
+632095,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,5.0,May
+632096,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,6.0,June
+632097,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,7.0,July
+632098,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,8.0,August
+632099,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,9.0,September
+632100,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,10.0,October
+632101,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,11.0,November
+632102,BCS70,Covid_19_Serology,cs_processdatem,Month in 2021 of antibody test,12.0,December
+632103,BCS70,Covid_19_Serology,cs_covn_result,N assay: result classification based on reference ranges at the time of testing,-8.0,Void
+632104,BCS70,Covid_19_Serology,cs_covn_result,N assay: result classification based on reference ranges at the time of testing,-1.0,Not applicable
+632105,BCS70,Covid_19_Serology,cs_covn_result,N assay: result classification based on reference ranges at the time of testing,1.0,Positive
+632106,BCS70,Covid_19_Serology,cs_covn_result,N assay: result classification based on reference ranges at the time of testing,2.0,Negative
+632107,BCS70,Covid_19_Serology,cs_covs_value,S assay: numeric result of the test (U/mL),-8.0,No information
+632108,BCS70,Covid_19_Serology,cs_covs_value,S assay: numeric result of the test (U/mL),-1.0,Not applicable
+632109,BCS70,Covid_19_Serology,cs_covs_result,S assay: result classification,-8.0,Void
+632110,BCS70,Covid_19_Serology,cs_covs_result,S assay: result classification,-1.0,Not applicable
+632111,BCS70,Covid_19_Serology,cs_covs_result,S assay: result classification,1.0,Positive
+632112,BCS70,Covid_19_Serology,cs_covs_result,S assay: result classification,2.0,Negative
+632113,BCS70,Covid_19_Serology,cs_cov_result,Derived antibody test result,-8.0,Void
+632114,BCS70,Covid_19_Serology,cs_cov_result,Derived antibody test result,-1.0,Not applicable
+632115,BCS70,Covid_19_Serology,cs_cov_result,Derived antibody test result,1.0,Positive
+632116,BCS70,Covid_19_Serology,cs_cov_result,Derived antibody test result,2.0,Negative
+632117,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,-9.0,Don't want to answer
+632118,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,-8.0,Don't know
+632119,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,-1.0,Not applicable
+632120,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,1.0,January
+632121,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,2.0,February
+632122,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,3.0,March
+632123,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,4.0,April
+632124,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,5.0,May
+632125,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,6.0,June
+632126,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,7.0,July
+632127,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,8.0,August
+632128,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,9.0,September
+632129,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,10.0,October
+632130,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,11.0,November
+632131,BCS70,Covid_19_Serology,cs_surdatm,Month in 2021 consent web survey completed,12.0,December
+632132,BCS70,Covid_19_Serology,cs_beenvac,Been vaccinated for COVID-19 at time of web consent survey,-9.0,Don't want to answer
+632133,BCS70,Covid_19_Serology,cs_beenvac,Been vaccinated for COVID-19 at time of web consent survey,-8.0,Don't know
+632134,BCS70,Covid_19_Serology,cs_beenvac,Been vaccinated for COVID-19 at time of web consent survey,-1.0,Not applicable
+632135,BCS70,Covid_19_Serology,cs_beenvac,Been vaccinated for COVID-19 at time of web consent survey,1.0,Yes
+632136,BCS70,Covid_19_Serology,cs_beenvac,Been vaccinated for COVID-19 at time of web consent survey,2.0,No
+632137,BCS70,Covid_19_Serology,cs_numjab,Number of jabs received at time of consent web survey,-9.0,Don't want to answer
+632138,BCS70,Covid_19_Serology,cs_numjab,Number of jabs received at time of consent web survey,-8.0,Don't know
+632139,BCS70,Covid_19_Serology,cs_numjab,Number of jabs received at time of consent web survey,-1.0,Not applicable
+632140,BCS70,Covid_19_Serology,cs_numjab,Number of jabs received at time of consent web survey,1.0,One
+632141,BCS70,Covid_19_Serology,cs_numjab,Number of jabs received at time of consent web survey,2.0,Two
+632142,BCS70,Covid_19_Serology,cs_vactyp,Type of vaccine received,-9.0,Don't want to answer
+632143,BCS70,Covid_19_Serology,cs_vactyp,Type of vaccine received,-8.0,Don't know
+632144,BCS70,Covid_19_Serology,cs_vactyp,Type of vaccine received,-1.0,Not applicable
+632145,BCS70,Covid_19_Serology,cs_vactyp,Type of vaccine received,1.0,Oxford/AstraZeneca
+632146,BCS70,Covid_19_Serology,cs_vactyp,Type of vaccine received,2.0,Pfizer/BioNTech
+632147,BCS70,Covid_19_Serology,cs_vactyp,Type of vaccine received,3.0,Something else (incl. Moderna)
+632148,BCS70,Covid_19_Serology,cs_vacdat1,Date of first vaccine (Month Grouped),-9.0,Don't want to answer
+632149,BCS70,Covid_19_Serology,cs_vacdat1,Date of first vaccine (Month Grouped),-8.0,Don't know
+632150,BCS70,Covid_19_Serology,cs_vacdat1,Date of first vaccine (Month Grouped),-1.0,Not applicable
+632151,BCS70,Covid_19_Serology,cs_vacdat1,Date of first vaccine (Month Grouped),1.0,December 2020 - January 2021
+632152,BCS70,Covid_19_Serology,cs_vacdat1,Date of first vaccine (Month Grouped),2.0,February 2021
+632153,BCS70,Covid_19_Serology,cs_vacdat1,Date of first vaccine (Month Grouped),3.0,March 2021 or later
+632154,BCS70,Covid_19_Serology,cs_vacdat2,Date of second vaccine (Month Grouped),-9.0,Don't want to answer
+632155,BCS70,Covid_19_Serology,cs_vacdat2,Date of second vaccine (Month Grouped),-8.0,Don't know
+632156,BCS70,Covid_19_Serology,cs_vacdat2,Date of second vaccine (Month Grouped),-1.0,Not applicable
+632157,BCS70,Covid_19_Serology,cs_vacdat2,Date of second vaccine (Month Grouped),1.0,December 2020 - February 2021
+632158,BCS70,Covid_19_Serology,cs_vacdat2,Date of second vaccine (Month Grouped),2.0,March 2021 or later
+632159,BCS70,Covid_19_Serology,cs_vacflag,Respondent entered vaccine date later than survey date,0.0,No
+632160,BCS70,Covid_19_Serology,cs_vacflag,Respondent entered vaccine date later than survey date,1.0,First vaccine after survey date
+632161,BCS70,Covid_19_Serology,cs_vacflag,Respondent entered vaccine date later than survey date,2.0,Second vaccine after survey date
+632162,BCS70,Covid_19_Serology,cs_vvtimed,(Derived) Number of days between first vaccine and second vaccine,-8.0,No information
+632163,BCS70,Covid_19_Serology,cs_vvtimed,(Derived) Number of days between first vaccine and second vaccine,-1.0,Not applicable
+632164,BCS70,Covid_19_Serology,cs_v1ptimed,(Derived) Number of days between first vaccine and processing of serology sample in the lab,-8.0,No information
+632165,BCS70,Covid_19_Serology,cs_v1ptimed,(Derived) Number of days between first vaccine and processing of serology sample in the lab,-1.0,Not applicable
+632166,BCS70,Covid_19_Serology,cs_v2ptimed,(Derived) Number of days between second vaccine and processing of serology sample in the lab,-8.0,No information
+632167,BCS70,Covid_19_Serology,cs_v2ptimed,(Derived) Number of days between second vaccine and processing of serology sample in the lab,-1.0,Not applicable
+632168,BCS70,Covid_19_Serology,avail_from_dt,,,

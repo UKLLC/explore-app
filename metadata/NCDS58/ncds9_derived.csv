@@ -1,0 +1,237 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1042102,NCDS58,ncds9_derived,study_id_e,,,
+1042103,NCDS58,ncds9_derived,nd9cntry,Country of Interview  (2013),-1.0,Not applicable (not resident in GB)
+1042104,NCDS58,ncds9_derived,nd9cntry,Country of Interview  (2013),1.0,England
+1042105,NCDS58,ncds9_derived,nd9cntry,Country of Interview  (2013),2.0,Wales
+1042106,NCDS58,ncds9_derived,nd9cntry,Country of Interview  (2013),3.0,Scotland
+1042107,NCDS58,ncds9_derived,nd9cntry,Country of Interview  (2013),4.0,Northern Ireland
+1042108,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),-1.0,Not applicable (not resident in GB)
+1042109,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),1.0,North East
+1042110,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),2.0,North West
+1042111,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),3.0,Yorkshire and Humberberside
+1042112,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),4.0,East Midlands
+1042113,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),5.0,West Midlands
+1042114,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),6.0,East of England
+1042115,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),7.0,London
+1042116,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),8.0,South East
+1042117,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),9.0,South West
+1042118,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),10.0,Wales
+1042119,NCDS58,ncds9_derived,nd9gor,Government Office Region of residence (2013),11.0,Scotland
+1042120,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),-2.0,Not resident in GB
+1042121,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),1.0,North
+1042122,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),2.0,Yorks and Humberside
+1042123,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),3.0,East Midlands
+1042124,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),4.0,East Anglia
+1042125,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),5.0,South East
+1042126,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),6.0,South West
+1042127,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),7.0,West Midlands
+1042128,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),8.0,North West
+1042129,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),9.0,Wales
+1042130,NCDS58,ncds9_derived,nd9regn,Standard Statistical Region (2013),10.0,Scotland
+1042131,NCDS58,ncds9_derived,nd9hsize,(Derived) Number of persons in CM's household,,
+1042132,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,-9.0,Refused
+1042133,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,-8.0,Not enough info
+1042134,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,-1.0,Not applicable
+1042135,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,1.0,Legally separated
+1042136,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,2.0,Married
+1042137,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,3.0,Divorced
+1042138,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,4.0,Widowed
+1042139,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,5.0,A Civil Partner
+1042140,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,6.0,A former Civil Partner
+1042141,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,7.0,A surviving Civil Partner
+1042142,NCDS58,ncds9_derived,nd9ms,(Derived) CM's legal marital status,8.0,Single and never married or in a CP
+1042143,NCDS58,ncds9_derived,nd9cohab,(Derived) Whether CM cohabiting as a couple,-9.0,Refused
+1042144,NCDS58,ncds9_derived,nd9cohab,(Derived) Whether CM cohabiting as a couple,-8.0,No partner in hhgrid but partner job data
+1042145,NCDS58,ncds9_derived,nd9cohab,(Derived) Whether CM cohabiting as a couple,-1.0,Not applicable
+1042146,NCDS58,ncds9_derived,nd9cohab,(Derived) Whether CM cohabiting as a couple,0.0,No
+1042147,NCDS58,ncds9_derived,nd9cohab,(Derived) Whether CM cohabiting as a couple,1.0,Yes
+1042148,NCDS58,ncds9_derived,nd9partp,(Derived) Whether CM lives with a spouse or partner,-9.0,Refused
+1042149,NCDS58,ncds9_derived,nd9partp,(Derived) Whether CM lives with a spouse or partner,-8.0,No partner in hhgrid but partner job data
+1042150,NCDS58,ncds9_derived,nd9partp,(Derived) Whether CM lives with a spouse or partner,-1.0,No partner reported to be living with CM
+1042151,NCDS58,ncds9_derived,nd9partp,(Derived) Whether CM lives with a spouse or partner,1.0,Spouse
+1042152,NCDS58,ncds9_derived,nd9partp,(Derived) Whether CM lives with a spouse or partner,2.0,Civil partner
+1042153,NCDS58,ncds9_derived,nd9partp,(Derived) Whether CM lives with a spouse or partner,3.0,Cohabiting partner
+1042154,NCDS58,ncds9_derived,nd9page,(Derived) Age Of CM's Partner,-8.0,Not enough information
+1042155,NCDS58,ncds9_derived,nd9page,(Derived) Age Of CM's Partner,-1.0,No partner reported to be living with CM
+1042156,NCDS58,ncds9_derived,nd9pid,(Derived) HH Number Of CM's Partner/Spouse/Civil Partner,-8.0,Not enough information
+1042157,NCDS58,ncds9_derived,nd9pid,(Derived) HH Number Of CM's Partner/Spouse/Civil Partner,-1.0,No partner reported to be living with CM
+1042158,NCDS58,ncds9_derived,nd9psex,(Derived) Gender Of CM's Partner,-8.0,Not enough information
+1042159,NCDS58,ncds9_derived,nd9psex,(Derived) Gender Of CM's Partner,-1.0,No partner reported to be living with CM
+1042160,NCDS58,ncds9_derived,nd9psex,(Derived) Gender Of CM's Partner,1.0,Male
+1042161,NCDS58,ncds9_derived,nd9psex,(Derived) Gender Of CM's Partner,2.0,Female
+1042162,NCDS58,ncds9_derived,nd9fathn,(Derived) Whether CM's Father in HH (incl adoptive / step),-1.0,Not applicable
+1042163,NCDS58,ncds9_derived,nd9fathn,(Derived) Whether CM's Father in HH (incl adoptive / step),0.0,No
+1042164,NCDS58,ncds9_derived,nd9fathn,(Derived) Whether CM's Father in HH (incl adoptive / step),1.0,Yes
+1042165,NCDS58,ncds9_derived,nd9mothn,(Derived) Whether CM's Mother in HH (incl adoptive / step),-1.0,Not applicable
+1042166,NCDS58,ncds9_derived,nd9mothn,(Derived) Whether CM's Mother in HH (incl adoptive / step),0.0,No
+1042167,NCDS58,ncds9_derived,nd9mothn,(Derived) Whether CM's Mother in HH (incl adoptive / step),1.0,Yes
+1042168,NCDS58,ncds9_derived,nd9numch,(Derived) Number Of CM's children (incl step-children etc)in HH,,
+1042169,NCDS58,ncds9_derived,nd9nmgch,(Derived) Num CM's grandchildren in HH(N.B.Oth child DVs don't incl gchildren),,
+1042170,NCDS58,ncds9_derived,nd9nochh,(Derived) Number of CM's own children in household,,
+1042171,NCDS58,ncds9_derived,nd9npchh,(Derived) Number of children of current or previous partner in hhousehold,,
+1042172,NCDS58,ncds9_derived,nd9aychh,(Derived) Age of youngest CM's child (<19,-8.0,Not enough information
+1042173,NCDS58,ncds9_derived,nd9aychh,(Derived) Age of youngest CM's child (<19,-1.0,Not applicable no child under 19 reported in HH
+1042174,NCDS58,ncds9_derived,nd9nc2h,(Derived) Number of CM's children (incl step-children etc)aged 0-2 in hhold,-8.0,Not enough information
+1042175,NCDS58,ncds9_derived,nd9nc4h,(Derived) Number of CM's children (incl step-children etc) aged 3-4 in hhold,-8.0,Not enough information
+1042176,NCDS58,ncds9_derived,nd9nc11h,(Derived) Number of CM's children (incl step-children etc) aged 5-11 in hhold,-8.0,Not enough information
+1042177,NCDS58,ncds9_derived,nd9nc15h,(Derived) Number of CM's children (incl step-children etc) aged 12-15 in hhold,-8.0,Not enough information
+1042178,NCDS58,ncds9_derived,nd9nacab,(Derived) Number of absent children (including step-children etc),,
+1042179,NCDS58,ncds9_derived,nd9nocab,(Derived) Number of absent children - own children only,,
+1042180,NCDS58,ncds9_derived,nd9totac,(Derived) Total number of children (in HH or absent,,
+1042181,NCDS58,ncds9_derived,nd9totoc,(Derived) Total number of children (in HH or absent) - own children only,,
+1042182,NCDS58,ncds9_derived,nd9wcdie,(Derived) Whether had any (own) children who have died,-9.0,Refusal
+1042183,NCDS58,ncds9_derived,nd9wcdie,(Derived) Whether had any (own) children who have died,-8.0,Not enough information
+1042184,NCDS58,ncds9_derived,nd9wcdie,(Derived) Whether had any (own) children who have died,-1.0,Not applicable
+1042185,NCDS58,ncds9_derived,nd9wcdie,(Derived) Whether had any (own) children who have died,0.0,No
+1042186,NCDS58,ncds9_derived,nd9wcdie,(Derived) Whether had any (own) children who have died,1.0,Yes
+1042187,NCDS58,ncds9_derived,nd9ncdie,(Derived) Number of own children who have died,-9.0,Refusal
+1042188,NCDS58,ncds9_derived,nd9ncdie,(Derived) Number of own children who have died,-8.0,Not enough information
+1042189,NCDS58,ncds9_derived,nd9ncdie,(Derived) Number of own children who have died,-1.0,Not applicable
+1042190,NCDS58,ncds9_derived,nd9totce,(Derived) Total number of own children ever had,-8.0,Not enough information
+1042191,NCDS58,ncds9_derived,nd9maliv,(Derived) Whether mother alive,-9.0,Refusal
+1042192,NCDS58,ncds9_derived,nd9maliv,(Derived) Whether mother alive,-8.0,Not enough information
+1042193,NCDS58,ncds9_derived,nd9maliv,(Derived) Whether mother alive,0.0,Yes in household
+1042194,NCDS58,ncds9_derived,nd9maliv,(Derived) Whether mother alive,1.0,Yes
+1042195,NCDS58,ncds9_derived,nd9maliv,(Derived) Whether mother alive,2.0,No
+1042196,NCDS58,ncds9_derived,nd9maliv,(Derived) Whether mother alive,3.0,No reported dead previously
+1042197,NCDS58,ncds9_derived,nd9paliv,(Derived) Whether father alive,-9.0,Refusal
+1042198,NCDS58,ncds9_derived,nd9paliv,(Derived) Whether father alive,-8.0,Not enough information
+1042199,NCDS58,ncds9_derived,nd9paliv,(Derived) Whether father alive,0.0,Yes in household
+1042200,NCDS58,ncds9_derived,nd9paliv,(Derived) Whether father alive,1.0,Yes
+1042201,NCDS58,ncds9_derived,nd9paliv,(Derived) Whether father alive,2.0,No
+1042202,NCDS58,ncds9_derived,nd9paliv,(Derived) Whether father alive,3.0,No reported dead previously
+1042203,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,-9.0,Refused
+1042204,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,-8.0,Not enough information
+1042205,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,-1.0,Not applicable
+1042206,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,1.0,Full-time employment
+1042207,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,2.0,Part-time employment
+1042208,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,3.0,Full-time self-employment
+1042209,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,4.0,Part-time self-employment
+1042210,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,5.0,Unemployment
+1042211,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,6.0,Full-time education
+1042212,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,7.0,Govt scheme for employment training
+1042213,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,8.0,Temporary sickness/disablity
+1042214,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,9.0,Permanent sickness/disablity
+1042215,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,10.0,Looking after the home/family
+1042216,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,11.0,Retirement
+1042217,NCDS58,ncds9_derived,nd9ecact,(Derived) Current economic activity status,12.0,Other
+1042218,NCDS58,ncds9_derived,nd9ectbc,(Derived) Whether Current economic activity backcoded to non-'other' value,-1.0,Not applicable
+1042219,NCDS58,ncds9_derived,nd9ectbc,(Derived) Whether Current economic activity backcoded to non-'other' value,1.0,Yes backcoded (dependent Qs not asked)
+1042220,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,-9.0,Refused
+1042221,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,-8.0,Not enough information
+1042222,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,-1.0,No partner reported to be living with CM
+1042223,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,1.0,Full-time employment
+1042224,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,2.0,Part-time employment
+1042225,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,3.0,Full-time self-employment
+1042226,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,4.0,Part-time self-employment
+1042227,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,5.0,Unemployment
+1042228,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,6.0,Full-time education
+1042229,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,7.0,Govt scheme for employment training
+1042230,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,8.0,Temporary sickness/disablity
+1042231,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,9.0,Permanent sickness/disablity
+1042232,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,10.0,Looking after the home/family
+1042233,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,11.0,Retirement
+1042234,NCDS58,ncds9_derived,nd9peact,(Derived) Partner's current economic activity status,12.0,Other
+1042235,NCDS58,ncds9_derived,nd9wrben,(Derived) Whether receives any benefits,-8.0,Not enough information
+1042236,NCDS58,ncds9_derived,nd9wrben,(Derived) Whether receives any benefits,0.0,No
+1042237,NCDS58,ncds9_derived,nd9wrben,(Derived) Whether receives any benefits,1.0,Yes
+1042238,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,-8.0,not enough information
+1042239,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,-1.0,not applicable
+1042240,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,0.0,no academic qualification
+1042241,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,1.0,gcse d-e
+1042242,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,2.0,"cses2-5, other scottish quals"
+1042243,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,3.0,"gcse a-c, good o levels scot standards"
+1042244,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,4.0,as levels or 1 a level
+1042245,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,5.0,"2+ a levels, scot higher/6th"
+1042246,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,6.0,diploma
+1042247,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,7.0,degree level
+1042248,NCDS58,ncds9_derived,nd9achq1,(Derived) Highest Academic Qualification CM obtained in 2013 survey,8.0,higher degree
+1042249,NCDS58,ncds9_derived,nd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2013 survey,-1.0,not codeable
+1042250,NCDS58,ncds9_derived,nd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2013 survey,0.0,none
+1042251,NCDS58,ncds9_derived,nd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2013 survey,1.0,nvq1 level
+1042252,NCDS58,ncds9_derived,nd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2013 survey,2.0,nvq2 level
+1042253,NCDS58,ncds9_derived,nd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2013 survey,3.0,nvq3 level
+1042254,NCDS58,ncds9_derived,nd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2013 survey,4.0,nvq4 level
+1042255,NCDS58,ncds9_derived,nd9anvq1,(Derived) Highest NVQ level from an academic qualification in 2013 survey,5.0,nvq5 level
+1042256,NCDS58,ncds9_derived,nd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2013 survey,-1.0,not codeable
+1042257,NCDS58,ncds9_derived,nd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2013 survey,0.0,none
+1042258,NCDS58,ncds9_derived,nd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2013 survey,1.0,nvq1 level
+1042259,NCDS58,ncds9_derived,nd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2013 survey,2.0,nvq2 level
+1042260,NCDS58,ncds9_derived,nd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2013 survey,3.0,nvq3 level
+1042261,NCDS58,ncds9_derived,nd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2013 survey,4.0,nvq4 level
+1042262,NCDS58,ncds9_derived,nd9vnvq1,(Derived) Highest NVQ Level from a Vocational Qualification in 2013 survey,5.0,nvq5 level
+1042263,NCDS58,ncds9_derived,nd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2013 survey,-1.0,not applicable
+1042264,NCDS58,ncds9_derived,nd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2013 survey,0.0,none
+1042265,NCDS58,ncds9_derived,nd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2013 survey,1.0,nvq1 level
+1042266,NCDS58,ncds9_derived,nd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2013 survey,2.0,nvq2 level
+1042267,NCDS58,ncds9_derived,nd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2013 survey,3.0,nvq3 level
+1042268,NCDS58,ncds9_derived,nd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2013 survey,4.0,nvq4 level
+1042269,NCDS58,ncds9_derived,nd9nvq1,(Derived) Highest NVQ Level from an Academic or Vocational Qual in 2013 survey,5.0,nvq5 level
+1042270,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),-8.0,Not enough information
+1042271,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),-1.0,not applicable
+1042272,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),0.0,no academic qualification
+1042273,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),1.0,gcse d-e
+1042274,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),2.0,"cses2-5, other scottish quals"
+1042275,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),3.0,"gcse a-c, good o levels scot standards"
+1042276,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),4.0,as levels or 1 a level
+1042277,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),5.0,"2+ a levels, scot higher/6th"
+1042278,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),6.0,diploma
+1042279,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),7.0,degree level
+1042280,NCDS58,ncds9_derived,nd9hachq,(Derived) Highest Academic Qualification up to 2013 (see var nd9hqflg),8.0,higher degree
+1042281,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),-8.0,Not enough information
+1042282,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),-1.0,not applicable
+1042283,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),0.0,none
+1042284,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),1.0,nvq1 level
+1042285,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),2.0,nvq2 level
+1042286,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),3.0,nvq3 level
+1042287,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),4.0,nvq4 level
+1042288,NCDS58,ncds9_derived,nd9hanvq,(Derived) Highest NVQ level from acad qual up to 2013(see var nd9hqflg),5.0,nvq5 level
+1042289,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),-8.0,Not enough information
+1042290,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),-1.0,not applicable
+1042291,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),0.0,none
+1042292,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),1.0,nvq1 level
+1042293,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),2.0,nvq2 level
+1042294,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),3.0,nvq3 level
+1042295,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),4.0,nvq4 level
+1042296,NCDS58,ncds9_derived,nd9hvnvq,(Derived) Highest NVQ Level from Voc Qual  up to 2013(see var nd9hqflg),5.0,nvq5 level
+1042297,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),-8.0,Not enough information
+1042298,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),-1.0,not applicable
+1042299,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),0.0,none
+1042300,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),1.0,nvq1 level
+1042301,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),2.0,nvq2 level
+1042302,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),3.0,nvq3 level
+1042303,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),4.0,nvq4 level
+1042304,NCDS58,ncds9_derived,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),5.0,nvq5 level
+1042305,NCDS58,ncds9_derived,nd9hqflg,(Derived) Highest qualifications missing information flag,-1.0,N/a  Highest quals to swp9 derived vars computed
+1042306,NCDS58,ncds9_derived,nd9hqflg,(Derived) Highest qualifications missing information flag,1.0,"No quals info 2000-2004,S9HQ DVs cmputed"
+1042307,NCDS58,ncds9_derived,nd9hqflg,(Derived) Highest qualifications missing information flag,2.0,"No quals info 91-04,S9HQ DVs not cmputed"
+1042308,NCDS58,ncds9_derived,nd9hqflg,(Derived) Highest qualifications missing information flag,3.0,"No quals info 81-04,S9HQ DVs not cmputed"
+1042309,NCDS58,ncds9_derived,nd9hqflg,(Derived) Highest qualifications missing information flag,4.0,"No prev quals info,S9HQ DVs not cmputed"
+1042310,NCDS58,ncds9_derived,nd9nualc,(Derived) Number of units of alcohol consumed in last 7 days,-9.0,Refused
+1042311,NCDS58,ncds9_derived,nd9nualc,(Derived) Number of units of alcohol consumed in last 7 days,-8.0,Not enough information
+1042312,NCDS58,ncds9_derived,nd9nualc,(Derived) Number of units of alcohol consumed in last 7 days,-1.0,N/a does not drink once a month or more
+1042313,NCDS58,ncds9_derived,nd9hghtm,(Derived) Height in metres,-8.0,No information
+1042314,NCDS58,ncds9_derived,nd9wghtk,(Derived) Weight in kilograms,-8.0,No information
+1042315,NCDS58,ncds9_derived,nd9wghtf,(Derived) Whether weight in kgs computed from stones data only (lbs missing),-8.0,Not enough info to compute ND9WGHTK
+1042316,NCDS58,ncds9_derived,nd9wghtf,(Derived) Whether weight in kgs computed from stones data only (lbs missing),0.0,No
+1042317,NCDS58,ncds9_derived,nd9wghtf,(Derived) Whether weight in kgs computed from stones data only (lbs missing),1.0,yes
+1042318,NCDS58,ncds9_derived,nd9bmi,(Derived) Body mass index,-8.0,Not enough information
+1042319,NCDS58,ncds9_derived,nd9wp12m,(Derived) Whether had period in last 12 months,-8.0,Not enough information
+1042320,NCDS58,ncds9_derived,nd9wp12m,(Derived) Whether had period in last 12 months,-1.0,Not applicable (male)
+1042321,NCDS58,ncds9_derived,nd9wp12m,(Derived) Whether had period in last 12 months,0.0,No
+1042322,NCDS58,ncds9_derived,nd9wp12m,(Derived) Whether had period in last 12 months,1.0,Yes
+1042323,NCDS58,ncds9_derived,nd9alstp,(Derived) Age at last period,-9.0,Never had a period
+1042324,NCDS58,ncds9_derived,nd9alstp,(Derived) Age at last period,-8.0,Not enough information
+1042325,NCDS58,ncds9_derived,nd9alstp,(Derived) Age at last period,-1.0,Not applicable
+1042326,NCDS58,ncds9_derived,nd9mlstp,(Derived) Month of year at last period,-9.0,Never had a period
+1042327,NCDS58,ncds9_derived,nd9mlstp,(Derived) Month of year at last period,-8.0,Not enough information
+1042328,NCDS58,ncds9_derived,nd9mlstp,(Derived) Month of year at last period,-1.0,Not applicable
+1042329,NCDS58,ncds9_derived,nd9diseq,(Derived) Disability classification Equality act (2010),-8.0,Not enough information
+1042330,NCDS58,ncds9_derived,nd9diseq,(Derived) Disability classification Equality act (2010),0.0,Not disabled (Equality act)
+1042331,NCDS58,ncds9_derived,nd9diseq,(Derived) Disability classification Equality act (2010),1.0,Disabled (Equality Act)
+1042332,NCDS58,ncds9_derived,nd9disls,(Derived) Disability classification EU-SILC,-8.0,Not enough information
+1042333,NCDS58,ncds9_derived,nd9disls,(Derived) Disability classification EU-SILC,0.0,No EU-SILC long-standing health condition
+1042334,NCDS58,ncds9_derived,nd9disls,(Derived) Disability classification EU-SILC,1.0,EU-SILC classification to some extent
+1042335,NCDS58,ncds9_derived,nd9disls,(Derived) Disability classification EU-SILC,2.0,EU-SILC classification severely hampered
+1042336,NCDS58,ncds9_derived,v3,None,,
+1042337,NCDS58,ncds9_derived,avail_from_dt,,,

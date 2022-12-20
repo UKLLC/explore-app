@@ -1,0 +1,90 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+93673,BCS70,bcs7_adult_assessment_basic_skills,study_id_e,,,
+93674,BCS70,bcs7_adult_assessment_basic_skills,dmsex,Cohort Member's sex,1.0,Male
+93675,BCS70,bcs7_adult_assessment_basic_skills,dmsex,Cohort Member's sex,2.0,Female
+93676,BCS70,bcs7_adult_assessment_basic_skills,litmc20,BCS70 2004: Literacy MC assessment: total score for all CMs - assume lower tier would answer upper tier incorrect,-1.0,N/a literacy MC questions not all completed
+93677,BCS70,bcs7_adult_assessment_basic_skills,litmc30,BCS70 2004: Literacy MC assessment: total score for all CMs over 30 questions - assume lt answer ut incorrect,-1.0,N/a literacy MC questions not all completed
+93678,BCS70,bcs7_adult_assessment_basic_skills,litor01a,BCS70 2004: Literacy OR Assessment: question 01a (FL),-9.0,Passed
+93679,BCS70,bcs7_adult_assessment_basic_skills,litor01a,BCS70 2004: Literacy OR Assessment: question 01a (FL),-7.0,Other missing
+93680,BCS70,bcs7_adult_assessment_basic_skills,litor01a,BCS70 2004: Literacy OR Assessment: question 01a (FL),0.0,incorrect
+93681,BCS70,bcs7_adult_assessment_basic_skills,litor01a,BCS70 2004: Literacy OR Assessment: question 01a (FL),1.0,correct
+93682,BCS70,bcs7_adult_assessment_basic_skills,litor01b,BCS70 2004: Literacy OR Assessment: question 01b (FL),-9.0,Passed
+93683,BCS70,bcs7_adult_assessment_basic_skills,litor01b,BCS70 2004: Literacy OR Assessment: question 01b (FL),-7.0,Other missing
+93684,BCS70,bcs7_adult_assessment_basic_skills,litor01b,BCS70 2004: Literacy OR Assessment: question 01b (FL),0.0,incorrect
+93685,BCS70,bcs7_adult_assessment_basic_skills,litor01b,BCS70 2004: Literacy OR Assessment: question 01b (FL),1.0,correct
+93686,BCS70,bcs7_adult_assessment_basic_skills,litor02a,BCS70 2004: Literacy OR Assessment: question 02a (L1),-9.0,Passed
+93687,BCS70,bcs7_adult_assessment_basic_skills,litor02a,BCS70 2004: Literacy OR Assessment: question 02a (L1),-7.0,Other missing
+93688,BCS70,bcs7_adult_assessment_basic_skills,litor02a,BCS70 2004: Literacy OR Assessment: question 02a (L1),0.0,incorrect
+93689,BCS70,bcs7_adult_assessment_basic_skills,litor02a,BCS70 2004: Literacy OR Assessment: question 02a (L1),1.0,correct
+93690,BCS70,bcs7_adult_assessment_basic_skills,litor02b,BCS70 2004: Literacy OR Assessment: question 02b (L1),-9.0,Passed
+93691,BCS70,bcs7_adult_assessment_basic_skills,litor02b,BCS70 2004: Literacy OR Assessment: question 02b (L1),-7.0,Other missing
+93692,BCS70,bcs7_adult_assessment_basic_skills,litor02b,BCS70 2004: Literacy OR Assessment: question 02b (L1),0.0,incorrect
+93693,BCS70,bcs7_adult_assessment_basic_skills,litor02b,BCS70 2004: Literacy OR Assessment: question 02b (L1),1.0,correct
+93694,BCS70,bcs7_adult_assessment_basic_skills,litor03a,BCS70 2004: Literacy OR Assessment: question 03a (L1),-9.0,Passed
+93695,BCS70,bcs7_adult_assessment_basic_skills,litor03a,BCS70 2004: Literacy OR Assessment: question 03a (L1),-7.0,Other missing
+93696,BCS70,bcs7_adult_assessment_basic_skills,litor03a,BCS70 2004: Literacy OR Assessment: question 03a (L1),0.0,incorrect
+93697,BCS70,bcs7_adult_assessment_basic_skills,litor03a,BCS70 2004: Literacy OR Assessment: question 03a (L1),1.0,correct
+93698,BCS70,bcs7_adult_assessment_basic_skills,litor03b,BCS70 2004: Literacy OR Assessment: question 03b (L2),-9.0,Passed
+93699,BCS70,bcs7_adult_assessment_basic_skills,litor03b,BCS70 2004: Literacy OR Assessment: question 03b (L2),-7.0,Other missing
+93700,BCS70,bcs7_adult_assessment_basic_skills,litor03b,BCS70 2004: Literacy OR Assessment: question 03b (L2),0.0,incorrect
+93701,BCS70,bcs7_adult_assessment_basic_skills,litor03b,BCS70 2004: Literacy OR Assessment: question 03b (L2),1.0,correct
+93702,BCS70,bcs7_adult_assessment_basic_skills,litor03c,BCS70 2004: Literacy OR Assessment: question 03c (L2),-9.0,Passed
+93703,BCS70,bcs7_adult_assessment_basic_skills,litor03c,BCS70 2004: Literacy OR Assessment: question 03c (L2),-7.0,Other missing
+93704,BCS70,bcs7_adult_assessment_basic_skills,litor03c,BCS70 2004: Literacy OR Assessment: question 03c (L2),0.0,incorrect
+93705,BCS70,bcs7_adult_assessment_basic_skills,litor03c,BCS70 2004: Literacy OR Assessment: question 03c (L2),1.0,correct
+93706,BCS70,bcs7_adult_assessment_basic_skills,litort,BCS70 2004: Literacy OR Assessment: total score for all CMs on 7 literacy questions,-1.0,N/a Literacy OR questions not completed
+93707,BCS70,bcs7_adult_assessment_basic_skills,litall27,BCS70 2004: Literacy assessment - total score for MC and OR questions litmc20 + litort - max 27,-1.0,N/a Literacy OR questions not completed
+93708,BCS70,bcs7_adult_assessment_basic_skills,litall37,BCS70 2004: Literacy assessment - total score for MC and OR questions litmc30 + litort - max 37,-1.0,N/a Literacy OR questions not completed
+93709,BCS70,bcs7_adult_assessment_basic_skills,litlev,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,-1.0,Did not complete literacy MC questions
+93710,BCS70,bcs7_adult_assessment_basic_skills,litlev,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,1.0,< ENTRY LEVEL 2
+93711,BCS70,bcs7_adult_assessment_basic_skills,litlev,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,2.0,ENTRY LEVEL 2
+93712,BCS70,bcs7_adult_assessment_basic_skills,litlev,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,3.0,ENTRY LEVEL 3
+93713,BCS70,bcs7_adult_assessment_basic_skills,litlev,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,4.0,LEVEL 1
+93714,BCS70,bcs7_adult_assessment_basic_skills,litlev,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,5.0,LEVEL 2
+93715,BCS70,bcs7_adult_assessment_basic_skills,litlevg,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,-1.0,Did not complete literacy MC questions
+93716,BCS70,bcs7_adult_assessment_basic_skills,litlevg,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,1.0,AT/BELOW ENTRY LEVEL 2
+93717,BCS70,bcs7_adult_assessment_basic_skills,litlevg,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,2.0,ENTRY LEVEL 3
+93718,BCS70,bcs7_adult_assessment_basic_skills,litlevg,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,3.0,LEVEL 1
+93719,BCS70,bcs7_adult_assessment_basic_skills,litlevg,BCS70 2004: Literacy MC Assessment - CMs performance assessed by Level,4.0,LEVEL 2
+93720,BCS70,bcs7_adult_assessment_basic_skills,nummct,BCS70 2004: Numeracy MC Assessment - total score for 17 MC questions,-1.0,N/a numeracy MC questions not all completed
+93721,BCS70,bcs7_adult_assessment_basic_skills,numor01a,BCS70 2004: Numeracy OR Assessment - question 01a (FL),-9.0,Passed
+93722,BCS70,bcs7_adult_assessment_basic_skills,numor01a,BCS70 2004: Numeracy OR Assessment - question 01a (FL),-7.0,Other missing
+93723,BCS70,bcs7_adult_assessment_basic_skills,numor01a,BCS70 2004: Numeracy OR Assessment - question 01a (FL),0.0,incorrect
+93724,BCS70,bcs7_adult_assessment_basic_skills,numor01a,BCS70 2004: Numeracy OR Assessment - question 01a (FL),1.0,correct
+93725,BCS70,bcs7_adult_assessment_basic_skills,numor01b,BCS70 2004: Numeracy OR Assessment - question 01b (FL),-9.0,Passed
+93726,BCS70,bcs7_adult_assessment_basic_skills,numor01b,BCS70 2004: Numeracy OR Assessment - question 01b (FL),-7.0,Other missing
+93727,BCS70,bcs7_adult_assessment_basic_skills,numor01b,BCS70 2004: Numeracy OR Assessment - question 01b (FL),0.0,incorrect
+93728,BCS70,bcs7_adult_assessment_basic_skills,numor01b,BCS70 2004: Numeracy OR Assessment - question 01b (FL),1.0,correct
+93729,BCS70,bcs7_adult_assessment_basic_skills,numor02a,BCS70 2004: Numeracy OR Assessment - question 02a (L1),-9.0,Passed
+93730,BCS70,bcs7_adult_assessment_basic_skills,numor02a,BCS70 2004: Numeracy OR Assessment - question 02a (L1),-7.0,Other missing
+93731,BCS70,bcs7_adult_assessment_basic_skills,numor02a,BCS70 2004: Numeracy OR Assessment - question 02a (L1),0.0,incorrect
+93732,BCS70,bcs7_adult_assessment_basic_skills,numor02a,BCS70 2004: Numeracy OR Assessment - question 02a (L1),1.0,correct
+93733,BCS70,bcs7_adult_assessment_basic_skills,numor03a,BCS70 2004: Numeracy OR Assessment - question 03a (L1),-9.0,Passed
+93734,BCS70,bcs7_adult_assessment_basic_skills,numor03a,BCS70 2004: Numeracy OR Assessment - question 03a (L1),-7.0,Other missing
+93735,BCS70,bcs7_adult_assessment_basic_skills,numor03a,BCS70 2004: Numeracy OR Assessment - question 03a (L1),0.0,incorrect
+93736,BCS70,bcs7_adult_assessment_basic_skills,numor03a,BCS70 2004: Numeracy OR Assessment - question 03a (L1),1.0,correct
+93737,BCS70,bcs7_adult_assessment_basic_skills,numor04a,BCS70 2004: Numeracy OR Assessment - question 04a (L2),-9.0,Passed
+93738,BCS70,bcs7_adult_assessment_basic_skills,numor04a,BCS70 2004: Numeracy OR Assessment - question 04a (L2),-7.0,Other missing
+93739,BCS70,bcs7_adult_assessment_basic_skills,numor04a,BCS70 2004: Numeracy OR Assessment - question 04a (L2),0.0,incorrect
+93740,BCS70,bcs7_adult_assessment_basic_skills,numor04a,BCS70 2004: Numeracy OR Assessment - question 04a (L2),1.0,correct
+93741,BCS70,bcs7_adult_assessment_basic_skills,numor04b,BCS70 2004: Numeracy OR Assessment - question 04b (L2),-9.0,Passed
+93742,BCS70,bcs7_adult_assessment_basic_skills,numor04b,BCS70 2004: Numeracy OR Assessment - question 04b (L2),-7.0,Other missing
+93743,BCS70,bcs7_adult_assessment_basic_skills,numor04b,BCS70 2004: Numeracy OR Assessment - question 04b (L2),0.0,incorrect
+93744,BCS70,bcs7_adult_assessment_basic_skills,numor04b,BCS70 2004: Numeracy OR Assessment - question 04b (L2),1.0,correct
+93745,BCS70,bcs7_adult_assessment_basic_skills,numort,BCS70 2004: Numeracy OR Assessment - total score for 6 questions,-1.0,N/a numeracy OR questions not all completed
+93746,BCS70,bcs7_adult_assessment_basic_skills,numall,BCS70 2004: Numeracy MC and OR assessment - total score for all 23 questions,-1.0,N/a numeracy MC and OR questions not all completed
+93747,BCS70,bcs7_adult_assessment_basic_skills,numlev,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,-2.0,CM passed on all 17 MC numeracy questions
+93748,BCS70,bcs7_adult_assessment_basic_skills,numlev,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,-1.0,N/a numeracy MC questions not all completed
+93749,BCS70,bcs7_adult_assessment_basic_skills,numlev,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,1.0,< ENTRY LEVEL 2
+93750,BCS70,bcs7_adult_assessment_basic_skills,numlev,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,2.0,ENTRY LEVEL 2
+93751,BCS70,bcs7_adult_assessment_basic_skills,numlev,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,3.0,ENTRY LEVEL 3
+93752,BCS70,bcs7_adult_assessment_basic_skills,numlev,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,4.0,LEVEL 1
+93753,BCS70,bcs7_adult_assessment_basic_skills,numlev,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,5.0,LEVEL 2
+93754,BCS70,bcs7_adult_assessment_basic_skills,numlevg,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,-2.0,CM passed/same answer on all 17 MC numeracy questions
+93755,BCS70,bcs7_adult_assessment_basic_skills,numlevg,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,-1.0,N/a numeracy MC questions not all completed
+93756,BCS70,bcs7_adult_assessment_basic_skills,numlevg,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,1.0,ENTRY LEVEL 2
+93757,BCS70,bcs7_adult_assessment_basic_skills,numlevg,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,2.0,ENTRY LEVEL 3
+93758,BCS70,bcs7_adult_assessment_basic_skills,numlevg,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,3.0,LEVEL 1
+93759,BCS70,bcs7_adult_assessment_basic_skills,numlevg,BCS70 2004: Numeracy MC assessment - CM performance assessed by level,4.0,LEVEL 2
+93760,BCS70,bcs7_adult_assessment_basic_skills,v3,None,,
+93761,BCS70,bcs7_adult_assessment_basic_skills,avail_from_dt,,,

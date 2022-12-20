@@ -1,0 +1,464 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+864054,MCS,mcs6_parent_assessment,study_id_e,,,
+864055,MCS,mcs6_parent_assessment,pnum,Person Number for Main or Partner respondent,-1.0,Not applicable
+864056,MCS,mcs6_parent_assessment,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),-1.0,Not applicable
+864057,MCS,mcs6_parent_assessment,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),1.0,Main Interview
+864058,MCS,mcs6_parent_assessment,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),2.0,Partner Interview
+864059,MCS,mcs6_parent_assessment,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),3.0,Proxy Interview
+864060,MCS,mcs6_parent_assessment,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),4.0,Not eligible
+864061,MCS,mcs6_parent_assessment,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+864062,MCS,mcs6_parent_assessment,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+864063,MCS,mcs6_parent_assessment,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+864064,MCS,mcs6_parent_assessment,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Proxy Interview
+864065,MCS,mcs6_parent_assessment,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No interview
+864066,MCS,mcs6_parent_assessment,fpversc0,CogAssm_IWinf - Script version,-1.0,Not applicable
+864067,MCS,mcs6_parent_assessment,fplscsc0,CogAssm_IWinf - Interview length in seconds,-1.0,Not applicable
+864068,MCS,mcs6_parent_assessment,fplmnsc0,CogAssm_IWinf - Interview length in minutes,-1.0,Not applicable
+864069,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,-1.0,Not applicable
+864070,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,1.0,Less than 30 seconds
+864071,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,2.0,30 seconds to 1 minute
+864072,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,3.0,1 to <2 minutes
+864073,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,4.0,2 to <3 minutes
+864074,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,5.0,3 to <4 minutes
+864075,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,6.0,4 to <5 minutes
+864076,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,7.0,5 to <6 minutes
+864077,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,8.0,6 to <7 minutes
+864078,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,9.0,7 to <8 minutes
+864079,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,10.0,8 to <9 minutes
+864080,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,11.0,9 to <10 minutes
+864081,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,12.0,10 to <11 minutes
+864082,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,13.0,11 to <12 minutes
+864083,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,14.0,12 to <13 minutes
+864084,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,15.0,13 to <14 minutes
+864085,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,16.0,14 to <15 minutes
+864086,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,17.0,15 to <16 minutes
+864087,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,18.0,16 to <17 minutes
+864088,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,19.0,17 to <18 minutes
+864089,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,20.0,18 to <19 minutes
+864090,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,21.0,19 to <20 minutes
+864091,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,22.0,20 to <25 minutes
+864092,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,23.0,25 to <30 minutes
+864093,MCS,mcs6_parent_assessment,fplmbdc0,CogAssm_IWinf - Interview length in minutes banded,24.0,30 minutes or over
+864094,MCS,mcs6_parent_assessment,fpsessc0,CogAssm_IWinf - Number of sessions,-1.0,Not applicable
+864095,MCS,mcs6_parent_assessment,fpz1con0,CogAssm_IWinf - Written consent for word activity: MAIN/PARTNER,-1.0,Not applicable
+864096,MCS,mcs6_parent_assessment,fpz1con0,CogAssm_IWinf - Written consent for word activity: MAIN/PARTNER,1.0,"Yes, consent given"
+864097,MCS,mcs6_parent_assessment,fpz1con0,CogAssm_IWinf - Written consent for word activity: MAIN/PARTNER,2.0,"No, consent not given"
+864098,MCS,mcs6_parent_assessment,fpvtcon0,IWR: Check respondent is willing to complete Word Activity,-1.0,Not applicable
+864099,MCS,mcs6_parent_assessment,fpvtcon0,IWR: Check respondent is willing to complete Word Activity,1.0,MAIN/PARTNER is willing to complete Wor
+864100,MCS,mcs6_parent_assessment,fpvtcon0,IWR: Check respondent is willing to complete Word Activity,2.0,SPONTANEOUS ONLY - Word Activity refuse
+864101,MCS,mcs6_parent_assessment,fpvtsur0,IWR: Check that respondent refused to complete word activity,-1.0,Not applicable
+864102,MCS,mcs6_parent_assessment,fpvtsur0,IWR: Check that respondent refused to complete word activity,1.0,Yes
+864103,MCS,mcs6_parent_assessment,fpvtsur0,IWR: Check that respondent refused to complete word activity,2.0,No
+864104,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,-1.0,Not applicable
+864105,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,1.0,wail (correct answer)
+864106,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,2.0,profit
+864107,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,3.0,self
+864108,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,4.0,yield
+864109,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,5.0,low
+864110,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,6.0,No answer
+864111,MCS,mcs6_parent_assessment,fpmcog0a,MAIN Cognitive Test: 1 MOAN,7.0,Respondent completed wrong activity
+864112,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,-1.0,Not applicable
+864113,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,1.0,follower
+864114,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,2.0,oval
+864115,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,3.0,residence
+864116,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,4.0,hero
+864117,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,5.0,control (correct answer)
+864118,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,6.0,No answer
+864119,MCS,mcs6_parent_assessment,fpmcog0b,MAIN Cognitive Test: 2 DISCIPLINE,7.0,Respondent completed wrong activity
+864120,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,-1.0,Not applicable
+864121,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,1.0,willing
+864122,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,2.0,poor
+864123,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,3.0,broken
+864124,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,4.0,steady
+864125,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,5.0,defect (correct answer)
+864126,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,6.0,No answer
+864127,MCS,mcs6_parent_assessment,fpmcog0c,MAIN Cognitive Test: 3 FAULT,7.0,Respondent completed wrong activity
+864128,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,-1.0,Not applicable
+864129,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,1.0,erroneous (correct answer)
+864130,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,2.0,mystic
+864131,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,3.0,severed
+864132,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,4.0,precise
+864133,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,5.0,count
+864134,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,6.0,No answer
+864135,MCS,mcs6_parent_assessment,fpmcog0d,MAIN Cognitive Test: 4 INACCURATE,7.0,Respondent completed wrong activity
+864136,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,-1.0,Not applicable
+864137,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,1.0,resist (correct answer)
+864138,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,2.0,portray
+864139,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,3.0,displace
+864140,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,4.0,repeat
+864141,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,5.0,avid
+864142,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,6.0,No answer
+864143,MCS,mcs6_parent_assessment,fpmcog0e,MAIN Cognitive Test: 5 REPEL,7.0,Respondent completed wrong activity
+864144,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,-1.0,Not applicable
+864145,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,1.0,jewelled
+864146,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,2.0,maritime
+864147,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,3.0,convenient
+864148,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,4.0,dangerous (correct answer)
+864149,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,5.0,aghast
+864150,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,6.0,No answer
+864151,MCS,mcs6_parent_assessment,fpmcog0f,MAIN Cognitive Test: 6 PERILOUS,7.0,Respondent completed wrong activity
+864152,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,-1.0,Not applicable
+864153,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,1.0,exclude
+864154,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,2.0,ascent
+864155,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,3.0,attribute
+864156,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,4.0,distinguish (correct answer)
+864157,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,5.0,overt
+864158,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,6.0,No answer
+864159,MCS,mcs6_parent_assessment,fpmcog0g,MAIN Cognitive Test: 7 DIFFERENTIATE,7.0,Respondent completed wrong activity
+864160,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,-1.0,Not applicable
+864161,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,1.0,timid
+864162,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,2.0,parent
+864163,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,3.0,practicable (correct answer)
+864164,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,4.0,distant
+864165,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,5.0,hope
+864166,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,6.0,No answer
+864167,MCS,mcs6_parent_assessment,fpmcog0h,MAIN Cognitive Test: 8 FEASIBLE,7.0,Respondent completed wrong activity
+864168,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,-1.0,Not applicable
+864169,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,1.0,keen
+864170,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,2.0,charitable (correct answer)
+864171,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,3.0,excellent
+864172,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,4.0,modern
+864173,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,5.0,initial
+864174,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,6.0,No answer
+864175,MCS,mcs6_parent_assessment,fpmcog0i,MAIN Cognitive Test: 9 BENEVOLENT,7.0,Respondent completed wrong activity
+864176,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,-1.0,Not applicable
+864177,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,1.0,threatening (correct answer)
+864178,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,2.0,auspicious
+864179,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,3.0,comprehensive
+864180,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,4.0,dilatory
+864181,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,5.0,amorphous
+864182,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,6.0,No answer
+864183,MCS,mcs6_parent_assessment,fpmcog0j,MAIN Cognitive Test: 10 OMINOUS,7.0,Respondent completed wrong activity
+864184,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,-1.0,Not applicable
+864185,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,1.0,small
+864186,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,2.0,slender (correct answer)
+864187,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,3.0,flowery
+864188,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,4.0,heavy
+864189,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,5.0,decimal
+864190,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,6.0,No answer
+864191,MCS,mcs6_parent_assessment,fpmcog0k,MAIN Cognitive Test: 11 TENUOUS,7.0,Respondent completed wrong activity
+864192,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,-1.0,Not applicable
+864193,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,1.0,agreement (correct answer)
+864194,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,2.0,ritual
+864195,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,3.0,climb
+864196,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,4.0,odour
+864197,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,5.0,prevent
+864198,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,6.0,No answer
+864199,MCS,mcs6_parent_assessment,fpmcog0l,MAIN Cognitive Test: 12 ASSENT,7.0,Respondent completed wrong activity
+864200,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,-1.0,Not applicable
+864201,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,1.0,sleepy
+864202,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,2.0,resonant (correct answer)
+864203,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,3.0,docile
+864204,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,4.0,simile
+864205,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,5.0,averse
+864206,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,6.0,No answer
+864207,MCS,mcs6_parent_assessment,fpmcog0m,MAIN Cognitive Test: 13 SONOROUS,7.0,Respondent completed wrong activity
+864208,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,-1.0,Not applicable
+864209,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,1.0,dye
+864210,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,2.0,moribund
+864211,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,3.0,sporadic
+864212,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,4.0,sleepy (correct answer)
+864213,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,5.0,bribery
+864214,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,6.0,No answer
+864215,MCS,mcs6_parent_assessment,fpmcog0n,MAIN Cognitive Test: 14 SOPORIFIC,7.0,Respondent completed wrong activity
+864216,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,-1.0,Not applicable
+864217,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,1.0,emetic
+864218,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,2.0,terminology (correct answer)
+864219,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,3.0,masculine
+864220,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,4.0,ethnology
+864221,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,5.0,solecism
+864222,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,6.0,No answer
+864223,MCS,mcs6_parent_assessment,fpmcog0o,MAIN Cognitive Test: 15 NOMENCLATURE,7.0,Respondent completed wrong activity
+864224,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,-1.0,Not applicable
+864225,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,1.0,sham
+864226,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,2.0,clever
+864227,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,3.0,concealed
+864228,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,4.0,showy (correct answer)
+864229,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,5.0,abusive
+864230,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,6.0,No answer
+864231,MCS,mcs6_parent_assessment,fpmcog0p,MAIN Cognitive Test: 16 PRETENTIOUS,7.0,Respondent completed wrong activity
+864232,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,-1.0,Not applicable
+864233,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,1.0,omnipresent (correct answer)
+864234,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,2.0,perdition
+864235,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,3.0,adduce
+864236,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,4.0,muddy
+864237,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,5.0,viscous
+864238,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,6.0,No answer
+864239,MCS,mcs6_parent_assessment,fpmcog0q,MAIN Cognitive Test: 17 UBIQUITOUS,7.0,Respondent completed wrong activity
+864240,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,-1.0,Not applicable
+864241,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,1.0,mark
+864242,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,2.0,fight
+864243,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,3.0,nourish (correct answer)
+864244,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,4.0,ignoble
+864245,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,5.0,pursue
+864246,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,6.0,No answer
+864247,MCS,mcs6_parent_assessment,fpmcog0r,MAIN Cognitive Test: 18 SUSTAIN,7.0,Respondent completed wrong activity
+864248,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,-1.0,Not applicable
+864249,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,1.0,conviction (correct answer)
+864250,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,2.0,chief
+864251,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,3.0,smallest
+864252,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,4.0,corrosion
+864253,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,5.0,governor
+864254,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,6.0,No answer
+864255,MCS,mcs6_parent_assessment,fpmcog0s,MAIN Cognitive Test: 19 PRINCIPLE,7.0,Respondent completed wrong activity
+864256,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,-1.0,Not applicable
+864257,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,1.0,clever
+864258,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,2.0,carnal (correct answer)
+864259,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,3.0,emotional
+864260,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,4.0,heretic
+864261,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,5.0,slanderous
+864262,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,6.0,No answer
+864263,MCS,mcs6_parent_assessment,fpmcog0t,MAIN Cognitive Test: 20 SENSUAL,7.0,Respondent completed wrong activity
+864264,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,-1.0,Not applicable
+864265,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,1.0,contract
+864266,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,2.0,delay
+864267,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,3.0,imply
+864268,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,4.0,indulge
+864269,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,5.0,hate (correct answer)
+864270,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,6.0,No answer
+864271,MCS,mcs6_parent_assessment,fppcog0a,PARTNER Cognitive Test: 1 DETEST,7.0,Respondent completed wrong activity
+864272,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,-1.0,Not applicable
+864273,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,1.0,frozen
+864274,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,2.0,clash
+864275,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,3.0,misery (correct answer)
+864276,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,4.0,fishy
+864277,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,5.0,national
+864278,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,6.0,No answer
+864279,MCS,mcs6_parent_assessment,fppcog0b,PARTNER Cognitive Test: 2 ANGUISH,7.0,Respondent completed wrong activity
+864280,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,-1.0,Not applicable
+864281,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,1.0,bleached
+864282,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,2.0,stolen
+864283,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,3.0,fruitful (correct answer)
+864284,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,4.0,sudden
+864285,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,5.0,empty
+864286,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,6.0,No answer
+864287,MCS,mcs6_parent_assessment,fppcog0c,PARTNER Cognitive Test: 3 FERTILE,7.0,Respondent completed wrong activity
+864288,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,-1.0,Not applicable
+864289,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,1.0,moist
+864290,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,2.0,jubilant
+864291,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,3.0,jealous
+864292,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,4.0,avid
+864293,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,5.0,unavoidable (correct answer)
+864294,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,6.0,No answer
+864295,MCS,mcs6_parent_assessment,fppcog0d,PARTNER Cognitive Test: 4 INEVITABLE,7.0,Respondent completed wrong activity
+864296,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,-1.0,Not applicable
+864297,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,1.0,anxious
+864298,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,2.0,huge
+864299,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,3.0,settled
+864300,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,4.0,origin
+864301,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,5.0,unbiased (correct answer)
+864302,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,6.0,No answer
+864303,MCS,mcs6_parent_assessment,fppcog0e,PARTNER Cognitive Test: 5 NEUTRAL,7.0,Respondent completed wrong activity
+864304,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,-1.0,Not applicable
+864305,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,1.0,elderly
+864306,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,2.0,post
+864307,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,3.0,heavy
+864308,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,4.0,tire (correct answer)
+864309,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,5.0,weighty
+864310,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,6.0,No answer
+864311,MCS,mcs6_parent_assessment,fppcog0f,PARTNER Cognitive Test: 6 FATIQUE,7.0,Respondent completed wrong activity
+864312,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,-1.0,Not applicable
+864313,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,1.0,tearing
+864314,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,2.0,swollen
+864315,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,3.0,measuring
+864316,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,4.0,passtime (correct answer)
+864317,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,5.0,making
+864318,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,6.0,No answer
+864319,MCS,mcs6_parent_assessment,fppcog0g,PARTNER Cognitive Test: 7 RECREATION,7.0,Respondent completed wrong activity
+864320,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,-1.0,Not applicable
+864321,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,1.0,generous
+864322,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,2.0,haggard
+864323,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,3.0,delightful
+864324,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,4.0,feverish
+864325,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,5.0,shining (correct answer)
+864326,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,6.0,No answer
+864327,MCS,mcs6_parent_assessment,fppcog0h,PARTNER Cognitive Test: 8 RADIANT,7.0,Respondent completed wrong activity
+864328,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,-1.0,Not applicable
+864329,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,1.0,shaft
+864330,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,2.0,wretched (correct answer)
+864331,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,3.0,cavern
+864332,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,4.0,bountiful
+864333,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,5.0,cold
+864334,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,6.0,No answer
+864335,MCS,mcs6_parent_assessment,fppcog0i,PARTNER Cognitive Test: 9 PITEOUS,7.0,Respondent completed wrong activity
+864336,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,-1.0,Not applicable
+864337,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,1.0,witty
+864338,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,2.0,submerged
+864339,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,3.0,acrid (correct answer)
+864340,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,4.0,eschewed
+864341,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,5.0,concentric
+864342,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,6.0,No answer
+864343,MCS,mcs6_parent_assessment,fppcog0j,PARTNER Cognitive Test: 10 PUNGENT,7.0,Respondent completed wrong activity
+864344,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,-1.0,Not applicable
+864345,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,1.0,urbane
+864346,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,2.0,polite
+864347,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,3.0,negate
+864348,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,4.0,confirm (correct answer)
+864349,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,5.0,allow
+864350,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,6.0,No answer
+864351,MCS,mcs6_parent_assessment,fppcog0k,PARTNER Cognitive Test: 11 CORROBORATE,7.0,Respondent completed wrong activity
+864352,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,-1.0,Not applicable
+864353,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,1.0,virile
+864354,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,2.0,rashness (correct answer)
+864355,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,3.0,accusation
+864356,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,4.0,quality
+864357,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,5.0,auditory
+864358,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,6.0,No answer
+864359,MCS,mcs6_parent_assessment,fppcog0l,PARTNER Cognitive Test: 12 TEMERITY,7.0,Respondent completed wrong activity
+864360,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,-1.0,Not applicable
+864361,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,1.0,prescience
+864362,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,2.0,divergent
+864363,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,3.0,commensurate
+864364,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,4.0,malleable (correct answer)
+864365,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,5.0,cacophonous
+864366,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,6.0,No answer
+864367,MCS,mcs6_parent_assessment,fppcog0m,PARTNER Cognitive Test: 13 TRACTABLE,7.0,Respondent completed wrong activity
+864368,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,-1.0,Not applicable
+864369,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,1.0,hurt
+864370,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,2.0,confess
+864371,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,3.0,conquer (correct answer)
+864372,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,4.0,erase
+864373,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,5.0,lather
+864374,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,6.0,No answer
+864375,MCS,mcs6_parent_assessment,fppcog0n,PARTNER Cognitive Test: 14 SUBJUGATE,7.0,Respondent completed wrong activity
+864376,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,-1.0,Not applicable
+864377,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,1.0,propensity
+864378,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,2.0,recumbant (correct answer)
+864379,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,3.0,eating
+864380,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,4.0,umbrage
+864381,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,5.0,suspect
+864382,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,6.0,No answer
+864383,MCS,mcs6_parent_assessment,fppcog0o,PARTNER Cognitive Test: 15 SUPINE,7.0,Respondent completed wrong activity
+864384,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,-1.0,Not applicable
+864385,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,1.0,fraud
+864386,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,2.0,dirt
+864387,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,3.0,river
+864388,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,4.0,flood (correct answer)
+864389,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,5.0,digger
+864390,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,6.0,No answer
+864391,MCS,mcs6_parent_assessment,fppcog0p,PARTNER Cognitive Test: 16 SPATE,7.0,Respondent completed wrong activity
+864392,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,-1.0,Not applicable
+864393,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,1.0,unique
+864394,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,2.0,involved
+864395,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,3.0,relentless (correct answer)
+864396,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,4.0,incomplete
+864397,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,5.0,strong
+864398,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,6.0,No answer
+864399,MCS,mcs6_parent_assessment,fppcog0q,PARTNER Cognitive Test: 17 IMPLACABLE,7.0,Respondent completed wrong activity
+864400,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,-1.0,Not applicable
+864401,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,1.0,orator
+864402,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,2.0,shy
+864403,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,3.0,obvious
+864404,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,4.0,unspoken (correct answer)
+864405,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,5.0,sticky
+864406,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,6.0,No answer
+864407,MCS,mcs6_parent_assessment,fppcog0r,PARTNER Cognitive Test: 18 TACIT,7.0,Respondent completed wrong activity
+864408,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,-1.0,Not applicable
+864409,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,1.0,watery
+864410,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,2.0,concur (correct answer)
+864411,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,3.0,steal
+864412,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,4.0,quiet
+864413,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,5.0,glow
+864414,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,6.0,No answer
+864415,MCS,mcs6_parent_assessment,fppcog0s,PARTNER Cognitive Test: 19 ACQUIESCE,7.0,Respondent completed wrong activity
+864416,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,-1.0,Not applicable
+864417,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,1.0,insufferable
+864418,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,2.0,monastic
+864419,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,3.0,exegesis
+864420,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,4.0,renegade (correct answer)
+864421,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,5.0,vicious
+864422,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,6.0,No answer
+864423,MCS,mcs6_parent_assessment,fppcog0t,PARTNER Cognitive Test: 20 APOSTATE,7.0,Respondent completed wrong activity
+864424,MCS,mcs6_parent_assessment,fpvtdo00,IWR: Word activity completed? (MAIN/PARTNER),-1.0,Not applicable
+864425,MCS,mcs6_parent_assessment,fpvtdo00,IWR: Word activity completed? (MAIN/PARTNER),1.0,Yes - MAIN/PARTNER did the Word Activit
+864426,MCS,mcs6_parent_assessment,fpvtdo00,IWR: Word activity completed? (MAIN/PARTNER),2.0,No - MAIN/PARTNER did not do the Word A
+864427,MCS,mcs6_parent_assessment,fpvtpdck,IWR: Confirm Word activity not completed (MAIN/PARTNER),-1.0,Not applicable
+864428,MCS,mcs6_parent_assessment,fpvtpdck,IWR: Confirm Word activity not completed (MAIN/PARTNER),1.0,"Correct, parent did not do the Word Act"
+864429,MCS,mcs6_parent_assessment,fpvtpdck,IWR: Confirm Word activity not completed (MAIN/PARTNER),2.0,Go back to amend
+864430,MCS,mcs6_parent_assessment,fpvtwhoa,IWR: Others in room during activity (No),-1.0,Not applicable
+864431,MCS,mcs6_parent_assessment,fpvtwhoa,IWR: Others in room during activity (No),0.0,No
+864432,MCS,mcs6_parent_assessment,fpvtwhoa,IWR: Others in room during activity (No),1.0,Yes
+864433,MCS,mcs6_parent_assessment,fpvtwhob,IWR: Others in room during activity (Yes - PARENT's spouse or partner),-1.0,Not applicable
+864434,MCS,mcs6_parent_assessment,fpvtwhob,IWR: Others in room during activity (Yes - PARENT's spouse or partner),0.0,No
+864435,MCS,mcs6_parent_assessment,fpvtwhob,IWR: Others in room during activity (Yes - PARENT's spouse or partner),1.0,Yes
+864436,MCS,mcs6_parent_assessment,fpvtwhoc,IWR: Others in room during activity (Yes - Cohort member),-1.0,Not applicable
+864437,MCS,mcs6_parent_assessment,fpvtwhoc,IWR: Others in room during activity (Yes - Cohort member),0.0,No
+864438,MCS,mcs6_parent_assessment,fpvtwhoc,IWR: Others in room during activity (Yes - Cohort member),1.0,Yes
+864439,MCS,mcs6_parent_assessment,fpvtwhod,IWR: Others in room during activity (Yes - other household member (child)),-1.0,Not applicable
+864440,MCS,mcs6_parent_assessment,fpvtwhod,IWR: Others in room during activity (Yes - other household member (child)),0.0,No
+864441,MCS,mcs6_parent_assessment,fpvtwhod,IWR: Others in room during activity (Yes - other household member (child)),1.0,Yes
+864442,MCS,mcs6_parent_assessment,fpvtwhoe,IWR: Others in room during activity (Yes - other household member (adult)),-1.0,Not applicable
+864443,MCS,mcs6_parent_assessment,fpvtwhoe,IWR: Others in room during activity (Yes - other household member (adult)),0.0,No
+864444,MCS,mcs6_parent_assessment,fpvtwhoe,IWR: Others in room during activity (Yes - other household member (adult)),1.0,Yes
+864445,MCS,mcs6_parent_assessment,fpvtwhof,IWR: Others in room during activity (Yes - not a household member),-1.0,Not applicable
+864446,MCS,mcs6_parent_assessment,fpvtwhof,IWR: Others in room during activity (Yes - not a household member),0.0,No
+864447,MCS,mcs6_parent_assessment,fpvtwhof,IWR: Others in room during activity (Yes - not a household member),1.0,Yes
+864448,MCS,mcs6_parent_assessment,fpvtimp0,IWR: Factors that may have impaired performance,-1.0,Not applicable
+864449,MCS,mcs6_parent_assessment,fpvtimp0,IWR: Factors that may have impaired performance,1.0,Yes
+864450,MCS,mcs6_parent_assessment,fpvtimp0,IWR: Factors that may have impaired performance,2.0,No
+864451,MCS,mcs6_parent_assessment,fpvtwh0a,IWR: Circumstances of the cognitive assessment MC (A) [Blind/partial sight],-1.0,Not applicable
+864452,MCS,mcs6_parent_assessment,fpvtwh0a,IWR: Circumstances of the cognitive assessment MC (A) [Blind/partial sight],0.0,No
+864453,MCS,mcs6_parent_assessment,fpvtwh0a,IWR: Circumstances of the cognitive assessment MC (A) [Blind/partial sight],1.0,Yes
+864454,MCS,mcs6_parent_assessment,fpvtwh0b,IWR: Circumstances of the cognitive assessment MC (A) [Deafness/partl hearing],-1.0,Not applicable
+864455,MCS,mcs6_parent_assessment,fpvtwh0b,IWR: Circumstances of the cognitive assessment MC (A) [Deafness/partl hearing],0.0,No
+864456,MCS,mcs6_parent_assessment,fpvtwh0b,IWR: Circumstances of the cognitive assessment MC (A) [Deafness/partl hearing],1.0,Yes
+864457,MCS,mcs6_parent_assessment,fpvtwh0c,IWR: Circumstances of the cognitive assessment MC (A) [Too tired],-1.0,Not applicable
+864458,MCS,mcs6_parent_assessment,fpvtwh0c,IWR: Circumstances of the cognitive assessment MC (A) [Too tired],0.0,No
+864459,MCS,mcs6_parent_assessment,fpvtwh0c,IWR: Circumstances of the cognitive assessment MC (A) [Too tired],1.0,Yes
+864460,MCS,mcs6_parent_assessment,fpvtwh0d,IWR: Circumstances of the cognitive assessment MC (A) [Illness/physic impairm],-1.0,Not applicable
+864461,MCS,mcs6_parent_assessment,fpvtwh0d,IWR: Circumstances of the cognitive assessment MC (A) [Illness/physic impairm],0.0,No
+864462,MCS,mcs6_parent_assessment,fpvtwh0d,IWR: Circumstances of the cognitive assessment MC (A) [Illness/physic impairm],1.0,Yes
+864463,MCS,mcs6_parent_assessment,fpvtwh0e,IWR: Circumstances of the cognitive assessment MC (A) [Impaired concentration],-1.0,Not applicable
+864464,MCS,mcs6_parent_assessment,fpvtwh0e,IWR: Circumstances of the cognitive assessment MC (A) [Impaired concentration],0.0,No
+864465,MCS,mcs6_parent_assessment,fpvtwh0e,IWR: Circumstances of the cognitive assessment MC (A) [Impaired concentration],1.0,Yes
+864466,MCS,mcs6_parent_assessment,fpvtwh0f,IWR: Circumstances of the cognitive assessment MC (A) [Very nervous/anxious],-1.0,Not applicable
+864467,MCS,mcs6_parent_assessment,fpvtwh0f,IWR: Circumstances of the cognitive assessment MC (A) [Very nervous/anxious],0.0,No
+864468,MCS,mcs6_parent_assessment,fpvtwh0f,IWR: Circumstances of the cognitive assessment MC (A) [Very nervous/anxious],1.0,Yes
+864469,MCS,mcs6_parent_assessment,fpvtwh0g,IWR: Circumstances of the cognitive assessment MC (A) [Mental impairement],-1.0,Not applicable
+864470,MCS,mcs6_parent_assessment,fpvtwh0g,IWR: Circumstances of the cognitive assessment MC (A) [Mental impairement],0.0,No
+864471,MCS,mcs6_parent_assessment,fpvtwh0g,IWR: Circumstances of the cognitive assessment MC (A) [Mental impairement],1.0,Yes
+864472,MCS,mcs6_parent_assessment,fpvtwh0h,IWR: Circumstances of the cognitive assessment MC (A) [Interrupt/distract],-1.0,Not applicable
+864473,MCS,mcs6_parent_assessment,fpvtwh0h,IWR: Circumstances of the cognitive assessment MC (A) [Interrupt/distract],0.0,No
+864474,MCS,mcs6_parent_assessment,fpvtwh0h,IWR: Circumstances of the cognitive assessment MC (A) [Interrupt/distract],1.0,Yes
+864475,MCS,mcs6_parent_assessment,fpvtwh0i,IWR: Circumstances of the cognitive assessment MC (A) [Noisy environment],-1.0,Not applicable
+864476,MCS,mcs6_parent_assessment,fpvtwh0i,IWR: Circumstances of the cognitive assessment MC (A) [Noisy environment],0.0,No
+864477,MCS,mcs6_parent_assessment,fpvtwh0i,IWR: Circumstances of the cognitive assessment MC (A) [Noisy environment],1.0,Yes
+864478,MCS,mcs6_parent_assessment,fpvtwh0j,IWR: Circumstances of the cognitive assessment MC (A) [Problems with tablet],-1.0,Not applicable
+864479,MCS,mcs6_parent_assessment,fpvtwh0j,IWR: Circumstances of the cognitive assessment MC (A) [Problems with tablet],0.0,No
+864480,MCS,mcs6_parent_assessment,fpvtwh0j,IWR: Circumstances of the cognitive assessment MC (A) [Problems with tablet],1.0,Yes
+864481,MCS,mcs6_parent_assessment,fpvtwh0k,IWR: Circumstances of the cognitive assessment MC (A) [Difficulty with Englsh],-1.0,Not applicable
+864482,MCS,mcs6_parent_assessment,fpvtwh0k,IWR: Circumstances of the cognitive assessment MC (A) [Difficulty with Englsh],0.0,No
+864483,MCS,mcs6_parent_assessment,fpvtwh0k,IWR: Circumstances of the cognitive assessment MC (A) [Difficulty with Englsh],1.0,Yes
+864484,MCS,mcs6_parent_assessment,fpvtwh0l,IWR: Circumstances of the cognitive assessment MC (A) [Other],-1.0,Not applicable
+864485,MCS,mcs6_parent_assessment,fpvtwh0l,IWR: Circumstances of the cognitive assessment MC (A) [Other],0.0,No
+864486,MCS,mcs6_parent_assessment,fpvtwh0l,IWR: Circumstances of the cognitive assessment MC (A) [Other],1.0,Yes
+864487,MCS,mcs6_parent_assessment,fpvtwh0m,IWR: Circumstances of the cognitive assessment MC (A) [Don t know],-1.0,Not applicable
+864488,MCS,mcs6_parent_assessment,fpvtwh0m,IWR: Circumstances of the cognitive assessment MC (A) [Don t know],0.0,No
+864489,MCS,mcs6_parent_assessment,fpvtwh0m,IWR: Circumstances of the cognitive assessment MC (A) [Don t know],1.0,Yes
+864490,MCS,mcs6_parent_assessment,fpvtwh0n,IWR: Circumstances of the cognitive assessment MC (A) [Refused],-1.0,Not applicable
+864491,MCS,mcs6_parent_assessment,fpvtwh0n,IWR: Circumstances of the cognitive assessment MC (A) [Refused],0.0,No
+864492,MCS,mcs6_parent_assessment,fpvtwh0n,IWR: Circumstances of the cognitive assessment MC (A) [Refused],1.0,Yes
+864493,MCS,mcs6_parent_assessment,fpvtwh0o,IWR: Circumstances of the cognitive assessment MC (A) [Vague irrelevant ans],-1.0,Not applicable
+864494,MCS,mcs6_parent_assessment,fpvtwh0o,IWR: Circumstances of the cognitive assessment MC (A) [Vague irrelevant ans],0.0,No
+864495,MCS,mcs6_parent_assessment,fpvtwh0o,IWR: Circumstances of the cognitive assessment MC (A) [Vague irrelevant ans],1.0,Yes
+864496,MCS,mcs6_parent_assessment,fpvtwh0p,IWR: Circumstances of the cognitive assessment MC (A) [Problems with literacy],-1.0,Not applicable
+864497,MCS,mcs6_parent_assessment,fpvtwh0p,IWR: Circumstances of the cognitive assessment MC (A) [Problems with literacy],0.0,No
+864498,MCS,mcs6_parent_assessment,fpvtwh0p,IWR: Circumstances of the cognitive assessment MC (A) [Problems with literacy],1.0,Yes
+864499,MCS,mcs6_parent_assessment,fpvtwh0q,IWR: Circumstances of the cognitive assessment MC (A) [Unwell],-1.0,Not applicable
+864500,MCS,mcs6_parent_assessment,fpvtwh0q,IWR: Circumstances of the cognitive assessment MC (A) [Unwell],0.0,No
+864501,MCS,mcs6_parent_assessment,fpvtwh0q,IWR: Circumstances of the cognitive assessment MC (A) [Unwell],1.0,Yes
+864502,MCS,mcs6_parent_assessment,fpvtwh0r,IWR: Circumstances of the cognitive assessment MC (A) [Upset],1.0,Yes
+864503,MCS,mcs6_parent_assessment,fpvtwh0r,IWR: Circumstances of the cognitive assessment MC (A) [Upset],-1.0,Not applicable
+864504,MCS,mcs6_parent_assessment,fpvtwh0r,IWR: Circumstances of the cognitive assessment MC (A) [Upset],0.0,No
+864505,MCS,mcs6_parent_assessment,fpvtwh0s,IWR: Circumstances of the cognitive assessment MC (A) [Somebody helped],-1.0,Not applicable
+864506,MCS,mcs6_parent_assessment,fpvtwh0s,IWR: Circumstances of the cognitive assessment MC (A) [Somebody helped],0.0,No
+864507,MCS,mcs6_parent_assessment,fpvtwh0s,IWR: Circumstances of the cognitive assessment MC (A) [Somebody helped],1.0,Yes
+864508,MCS,mcs6_parent_assessment,fpvtwh0t,IWR: Circumstances of the cognitive assessment MC (A) [Difficulty understndng],-1.0,Not applicable
+864509,MCS,mcs6_parent_assessment,fpvtwh0t,IWR: Circumstances of the cognitive assessment MC (A) [Difficulty understndng],0.0,No
+864510,MCS,mcs6_parent_assessment,fpvtwh0t,IWR: Circumstances of the cognitive assessment MC (A) [Difficulty understndng],1.0,Yes
+864511,MCS,mcs6_parent_assessment,fpwrdscm,Main word activity score out of 20,-3.0,Respondent completed wrong activity
+864512,MCS,mcs6_parent_assessment,fpwrdscm,Main word activity score out of 20,-1.0,Not applicable
+864513,MCS,mcs6_parent_assessment,fpwrdscp,Partner word activity score out of 20,-3.0,Respondent completed wrong activity
+864514,MCS,mcs6_parent_assessment,fpwrdscp,Partner word activity score out of 20,-1.0,Not applicable
+864515,MCS,mcs6_parent_assessment,avail_from_dt,,,
+864516,MCS,mcs6_parent_assessment,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

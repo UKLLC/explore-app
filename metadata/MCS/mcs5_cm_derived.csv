@@ -1,0 +1,63 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+847479,MCS,mcs5_cm_derived,study_id_e,,,
+847480,MCS,mcs5_cm_derived,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+847481,MCS,mcs5_cm_derived,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+847482,MCS,mcs5_cm_derived,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+847483,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,-9.0,Refusal
+847484,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,-8.0,Dont know
+847485,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,-1.0,Not applicable - Not codeable
+847486,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,1.0,White
+847487,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,2.0,Mixed
+847488,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,3.0,Indian
+847489,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,4.0,Pakistani and Bangladeshi
+847490,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,5.0,Black or Black British
+847491,MCS,mcs5_cm_derived,edce0600,S5 DV CM ethnic group classification - 6 categories,6.0,"Other Ethnic group (inc Chinese,Other)"
+847492,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,-9.0,Refusal
+847493,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,-8.0,Dont know
+847494,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,-1.0,Not applicable - Not codeable
+847495,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,1.0,White
+847496,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,2.0,Mixed
+847497,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,3.0,Indian
+847498,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,4.0,Pakistani
+847499,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,5.0,Bangladeshi
+847500,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,6.0,Black Caribbean
+847501,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,7.0,Black African
+847502,MCS,mcs5_cm_derived,edce0800,S5 DV CM ethnic group classification - 8 categories,8.0,"Other Ethnic Group (inc Chinese, Other)"
+847503,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,-9.0,Refusal
+847504,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,-8.0,Dont know
+847505,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,-1.0,Not applicable - Not codeable
+847506,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,1.0,White
+847507,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,2.0,Mixed
+847508,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,3.0,Indian
+847509,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,4.0,Pakistani
+847510,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,5.0,Bangladeshi
+847511,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,6.0,Other Asian
+847512,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,7.0,Black Caribbean
+847513,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,8.0,Black African
+847514,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,9.0,Other Black
+847515,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,10.0,Chinese
+847516,MCS,mcs5_cm_derived,edce1100,S5 DV CM ethnic group classification - 11 categories,11.0,Other Ethnic Group
+847517,MCS,mcs5_cm_derived,low,S5 DV Verbal Sims item base,-1.0,Not applicable
+847518,MCS,mcs5_cm_derived,high,S5 DV Verbal Sims item ceiling,-1.0,Not applicable
+847519,MCS,mcs5_cm_derived,evsraw,S5 DV Verbal Sims raw score,-2.0,Invalid due to routing error
+847520,MCS,mcs5_cm_derived,evsraw,S5 DV Verbal Sims raw score,-1.0,Not applicable
+847521,MCS,mcs5_cm_derived,evsabil,S5 DV Verbal Sims ability score,-2.0,Invalid due to routing error
+847522,MCS,mcs5_cm_derived,evsabil,S5 DV Verbal Sims ability score,-1.0,Not applicable
+847523,MCS,mcs5_cm_derived,evstsco,S5 DV Verbal Sims standard score,-1.0,Not applicable
+847524,MCS,mcs5_cm_derived,rtflag,S5 DV Verbal Sims routing error flag,-1.0,Not applicable
+847525,MCS,mcs5_cm_derived,rtflag,S5 DV Verbal Sims routing error flag,1.0,Not routed back when should have been
+847526,MCS,mcs5_cm_derived,evsaflag,S5 DV Verbal Sims ability score error flag,-1.0,Not applicable
+847527,MCS,mcs5_cm_derived,evsaflag,S5 DV Verbal Sims ability score error flag,1.0,Potentially invalid score on item set
+847528,MCS,mcs5_cm_derived,cgtoutcm,CGT Test Outcome,-9.0,No test
+847529,MCS,mcs5_cm_derived,cgtoutcm,CGT Test Outcome,0.0,Test Aborted
+847530,MCS,mcs5_cm_derived,cgtoutcm,CGT Test Outcome,1.0,Test Completed
+847531,MCS,mcs5_cm_derived,cgtoutcm,CGT Test Outcome,2.0,Test Ended due to tech problems
+847532,MCS,mcs5_cm_derived,cgtttime,CGT Test Duration (seconds),-9.0,No test
+847533,MCS,mcs5_cm_derived,cgtdelay,CGT Delay Aversion,-9.0,No test
+847534,MCS,mcs5_cm_derived,cgtdtime,CGT Deliberation Time,-9.0,No test
+847535,MCS,mcs5_cm_derived,cgtopbet,CGT Overall Proportional Bet,-9.0,No test
+847536,MCS,mcs5_cm_derived,cgtqofdm,CGT Quality of Decision Making,-9.0,No test
+847537,MCS,mcs5_cm_derived,cgtriska,CGT Risk adjustment,-9.0,No test
+847538,MCS,mcs5_cm_derived,cgtriskt,CGT Risk taking,-9.0,No test
+847539,MCS,mcs5_cm_derived,avail_from_dt,,,
+847540,MCS,mcs5_cm_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

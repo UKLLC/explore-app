@@ -1,0 +1,393 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+797527,MCS,mcs3_proxy_partner_interview,study_id_e,,,
+797528,MCS,mcs3_proxy_partner_interview,pnum,Person number,-9.0,Refusal
+797529,MCS,mcs3_proxy_partner_interview,pnum,Person number,-8.0,Don't Know
+797530,MCS,mcs3_proxy_partner_interview,pnum,Person number,-1.0,Not applicable
+797531,MCS,mcs3_proxy_partner_interview,celig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+797532,MCS,mcs3_proxy_partner_interview,celig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+797533,MCS,mcs3_proxy_partner_interview,celig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+797534,MCS,mcs3_proxy_partner_interview,celig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Proxy Interview
+797535,MCS,mcs3_proxy_partner_interview,celig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible
+797536,MCS,mcs3_proxy_partner_interview,cresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+797537,MCS,mcs3_proxy_partner_interview,cresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+797538,MCS,mcs3_proxy_partner_interview,cresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+797539,MCS,mcs3_proxy_partner_interview,cresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Proxy Interview
+797540,MCS,mcs3_proxy_partner_interview,cresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No Interview
+797541,MCS,mcs3_proxy_partner_interview,chpxnm00,Proxy partner number,-1.0,Not applicable
+797542,MCS,mcs3_proxy_partner_interview,cxpxpq00,Ask proxy questions,-9.0,Refusal
+797543,MCS,mcs3_proxy_partner_interview,cxpxpq00,Ask proxy questions,-8.0,Don't Know
+797544,MCS,mcs3_proxy_partner_interview,cxpxpq00,Ask proxy questions,-1.0,Not applicable
+797545,MCS,mcs3_proxy_partner_interview,cxpxpq00,Ask proxy questions,1.0,Press 1 and Enter to continue.
+797546,MCS,mcs3_proxy_partner_interview,cxpxin00,Interviewer asks proxy questions,-9.0,Refusal
+797547,MCS,mcs3_proxy_partner_interview,cxpxin00,Interviewer asks proxy questions,-8.0,Don't Know
+797548,MCS,mcs3_proxy_partner_interview,cxpxin00,Interviewer asks proxy questions,-1.0,Not applicable
+797549,MCS,mcs3_proxy_partner_interview,cxpxin00,Interviewer asks proxy questions,1.0,Press 1 and Enter to continue.
+797550,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,-9.0,Refusal
+797551,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,-8.0,Don't Know
+797552,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,-1.0,Not applicable
+797553,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,1.0,Legally separated
+797554,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,2.0,"Married, 1st and only marriage"
+797555,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,3.0,"Remarried, 2nd or later marriage"
+797556,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,4.0,Single never married
+797557,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,5.0,Divorced
+797558,MCS,mcs3_proxy_partner_interview,cxfcin00,Partner's current legal marital status,6.0,Widowed
+797559,MCS,mcs3_proxy_partner_interview,cxpxpa00,Ask about partner's parents,-9.0,Refusal
+797560,MCS,mcs3_proxy_partner_interview,cxpxpa00,Ask about partner's parents,-8.0,Don't Know
+797561,MCS,mcs3_proxy_partner_interview,cxpxpa00,Ask about partner's parents,-1.0,Not applicable
+797562,MCS,mcs3_proxy_partner_interview,cxpxpa00,Ask about partner's parents,1.0,Press 1 and Enter to continue.
+797563,MCS,mcs3_proxy_partner_interview,cxmual00,Whether partner s natural/adoptive mother still alive,-9.0,Refusal
+797564,MCS,mcs3_proxy_partner_interview,cxmual00,Whether partner s natural/adoptive mother still alive,-8.0,Don't Know
+797565,MCS,mcs3_proxy_partner_interview,cxmual00,Whether partner s natural/adoptive mother still alive,-1.0,Not applicable
+797566,MCS,mcs3_proxy_partner_interview,cxmual00,Whether partner s natural/adoptive mother still alive,1.0,Yes
+797567,MCS,mcs3_proxy_partner_interview,cxmual00,Whether partner s natural/adoptive mother still alive,2.0,No
+797568,MCS,mcs3_proxy_partner_interview,cxmual00,Whether partner s natural/adoptive mother still alive,3.0,Don t know
+797569,MCS,mcs3_proxy_partner_interview,cxpxma00,Partner's mother's age,-9.0,Refusal
+797570,MCS,mcs3_proxy_partner_interview,cxpxma00,Partner's mother's age,-8.0,Don't Know
+797571,MCS,mcs3_proxy_partner_interview,cxpxma00,Partner's mother's age,-1.0,Not applicable
+797572,MCS,mcs3_proxy_partner_interview,cxpxma00,Partner's mother's age,998.0,Refusal
+797573,MCS,mcs3_proxy_partner_interview,cxpxma00,Partner's mother's age,999.0,Don't Know
+797574,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,-9.0,Refusal
+797575,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,-8.0,Don't Know
+797576,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,-1.0,Not applicable
+797577,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,1.0,Less than 15 minutes journey
+797578,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,2.0,15 to less than 30 minutes journey
+797579,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,3.0,30 minutes to less than 1 hour journey
+797580,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,4.0,"One hour or more away, but within UK"
+797581,MCS,mcs3_proxy_partner_interview,cxpxmv00,Journey time to partner's mother's home,5.0,Outside the UK
+797582,MCS,mcs3_proxy_partner_interview,cxpxmo00,Age of partner's mother at death,-8.0,Don't know
+797583,MCS,mcs3_proxy_partner_interview,cxpxmo00,Age of partner's mother at death,-3.0,Still alive
+797584,MCS,mcs3_proxy_partner_interview,cxpxmo00,Age of partner's mother at death,-1.0,Not applicable
+797585,MCS,mcs3_proxy_partner_interview,cxpxdu00,Whether partner's father still alive,-9.0,Refusal
+797586,MCS,mcs3_proxy_partner_interview,cxpxdu00,Whether partner's father still alive,-8.0,Don't Know
+797587,MCS,mcs3_proxy_partner_interview,cxpxdu00,Whether partner's father still alive,-1.0,Not applicable
+797588,MCS,mcs3_proxy_partner_interview,cxpxdu00,Whether partner's father still alive,1.0,Yes
+797589,MCS,mcs3_proxy_partner_interview,cxpxdu00,Whether partner's father still alive,2.0,No
+797590,MCS,mcs3_proxy_partner_interview,cxpxdu00,Whether partner's father still alive,3.0,Don t know
+797591,MCS,mcs3_proxy_partner_interview,cxpxda00,Partner's father's age,-9.0,Refusal
+797592,MCS,mcs3_proxy_partner_interview,cxpxda00,Partner's father's age,-8.0,Don't Know
+797593,MCS,mcs3_proxy_partner_interview,cxpxda00,Partner's father's age,-1.0,Not applicable
+797594,MCS,mcs3_proxy_partner_interview,cxpxda00,Partner's father's age,998.0,Refusal
+797595,MCS,mcs3_proxy_partner_interview,cxpxda00,Partner's father's age,999.0,Don't Know
+797596,MCS,mcs3_proxy_partner_interview,cxpxdm00,Whether partner s parents live together,-9.0,Refusal
+797597,MCS,mcs3_proxy_partner_interview,cxpxdm00,Whether partner s parents live together,-8.0,Don't Know
+797598,MCS,mcs3_proxy_partner_interview,cxpxdm00,Whether partner s parents live together,-1.0,Not applicable
+797599,MCS,mcs3_proxy_partner_interview,cxpxdm00,Whether partner s parents live together,1.0,Yes
+797600,MCS,mcs3_proxy_partner_interview,cxpxdm00,Whether partner s parents live together,2.0,No
+797601,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,-9.0,Refusal
+797602,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,-8.0,Don't Know
+797603,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,-1.0,Not applicable
+797604,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,1.0,Less than 15 minutes journey
+797605,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,2.0,15 to less than 30 minutes journey
+797606,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,3.0,30 minutes to less than 1 hour journey
+797607,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,4.0,"One hour or more away, but within UK"
+797608,MCS,mcs3_proxy_partner_interview,cxpxdv00,Journey time to partner's father's home,5.0,Outside the UK
+797609,MCS,mcs3_proxy_partner_interview,cxpxdo00,Age of partner's father at death,-8.0,Don't know
+797610,MCS,mcs3_proxy_partner_interview,cxpxdo00,Age of partner's father at death,-3.0,Still alive
+797611,MCS,mcs3_proxy_partner_interview,cxpxdo00,Age of partner's father at death,-1.0,Not applicable
+797612,MCS,mcs3_proxy_partner_interview,cxpxbo00,Whether partner born in UK,-9.0,Refusal
+797613,MCS,mcs3_proxy_partner_interview,cxpxbo00,Whether partner born in UK,-8.0,Don't Know
+797614,MCS,mcs3_proxy_partner_interview,cxpxbo00,Whether partner born in UK,-1.0,Not applicable
+797615,MCS,mcs3_proxy_partner_interview,cxpxbo00,Whether partner born in UK,1.0,Yes
+797616,MCS,mcs3_proxy_partner_interview,cxpxbo00,Whether partner born in UK,2.0,No
+797617,MCS,mcs3_proxy_partner_interview,cxpxwn00,When partner came to UK to live,-9.0,Refusal
+797618,MCS,mcs3_proxy_partner_interview,cxpxwn00,When partner came to UK to live,-8.0,Don't Know
+797619,MCS,mcs3_proxy_partner_interview,cxpxwn00,When partner came to UK to live,-1.0,Not applicable
+797620,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,-9.0,Refusal
+797621,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,-8.0,Don't Know
+797622,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,-1.0,Not applicable
+797623,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,1.0,"... excellent,"
+797624,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,2.0,"very good,"
+797625,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,3.0,"good,"
+797626,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,4.0,"fair,"
+797627,MCS,mcs3_proxy_partner_interview,cxpxge00,Describe partner's health,5.0,or poor?
+797628,MCS,mcs3_proxy_partner_interview,cxloil00,Whether partner has longstanding illness,-9.0,Refusal
+797629,MCS,mcs3_proxy_partner_interview,cxloil00,Whether partner has longstanding illness,-8.0,Don't Know
+797630,MCS,mcs3_proxy_partner_interview,cxloil00,Whether partner has longstanding illness,-1.0,Not applicable
+797631,MCS,mcs3_proxy_partner_interview,cxloil00,Whether partner has longstanding illness,1.0,Yes
+797632,MCS,mcs3_proxy_partner_interview,cxloil00,Whether partner has longstanding illness,2.0,No
+797633,MCS,mcs3_proxy_partner_interview,cxlolm00,Whether longstanding illness limits activities,-9.0,Refusal
+797634,MCS,mcs3_proxy_partner_interview,cxlolm00,Whether longstanding illness limits activities,-8.0,Don't Know
+797635,MCS,mcs3_proxy_partner_interview,cxlolm00,Whether longstanding illness limits activities,-1.0,Not applicable
+797636,MCS,mcs3_proxy_partner_interview,cxlolm00,Whether longstanding illness limits activities,1.0,Yes
+797637,MCS,mcs3_proxy_partner_interview,cxlolm00,Whether longstanding illness limits activities,2.0,No
+797638,MCS,mcs3_proxy_partner_interview,cxheig00,Height of partner,-9.0,Refusal
+797639,MCS,mcs3_proxy_partner_interview,cxheig00,Height of partner,-8.0,Don't Know
+797640,MCS,mcs3_proxy_partner_interview,cxheig00,Height of partner,-1.0,Not applicable
+797641,MCS,mcs3_proxy_partner_interview,cxheig00,Height of partner,1.0,Feet and inches
+797642,MCS,mcs3_proxy_partner_interview,cxheig00,Height of partner,2.0,Centimetres
+797643,MCS,mcs3_proxy_partner_interview,cxheig00,Height of partner,3.0,Don t know/Refusal
+797644,MCS,mcs3_proxy_partner_interview,cxheif00,Height of partner,-9.0,Refusal
+797645,MCS,mcs3_proxy_partner_interview,cxheif00,Height of partner,-8.0,Don't Know
+797646,MCS,mcs3_proxy_partner_interview,cxheif00,Height of partner,-1.0,Not applicable
+797647,MCS,mcs3_proxy_partner_interview,cxheii00,Height of partner,-9.0,Refusal
+797648,MCS,mcs3_proxy_partner_interview,cxheii00,Height of partner,-8.0,Don't Know
+797649,MCS,mcs3_proxy_partner_interview,cxheii00,Height of partner,-1.0,Not applicable
+797650,MCS,mcs3_proxy_partner_interview,cxhecm00,Height of partner,-9.0,Refusal
+797651,MCS,mcs3_proxy_partner_interview,cxhecm00,Height of partner,-8.0,Don't Know
+797652,MCS,mcs3_proxy_partner_interview,cxhecm00,Height of partner,-1.0,Not applicable
+797653,MCS,mcs3_proxy_partner_interview,cxhecm00,Height of partner,998.0,Refusal
+797654,MCS,mcs3_proxy_partner_interview,cxhecm00,Height of partner,999.0,Don't Know
+797655,MCS,mcs3_proxy_partner_interview,cxpxwb00,Whether partner is currently pregnant,-9.0,Refusal
+797656,MCS,mcs3_proxy_partner_interview,cxpxwb00,Whether partner is currently pregnant,-8.0,Don't Know
+797657,MCS,mcs3_proxy_partner_interview,cxpxwb00,Whether partner is currently pregnant,-1.0,Not applicable
+797658,MCS,mcs3_proxy_partner_interview,cxpxwb00,Whether partner is currently pregnant,1.0,Yes
+797659,MCS,mcs3_proxy_partner_interview,cxpxwb00,Whether partner is currently pregnant,2.0,No
+797660,MCS,mcs3_proxy_partner_interview,cxweig00,Partners weight (unit),-9.0,Refusal
+797661,MCS,mcs3_proxy_partner_interview,cxweig00,Partners weight (unit),-8.0,Don't Know
+797662,MCS,mcs3_proxy_partner_interview,cxweig00,Partners weight (unit),-1.0,Not applicable
+797663,MCS,mcs3_proxy_partner_interview,cxweig00,Partners weight (unit),1.0,Stones and pounds
+797664,MCS,mcs3_proxy_partner_interview,cxweig00,Partners weight (unit),2.0,Kilograms
+797665,MCS,mcs3_proxy_partner_interview,cxweig00,Partners weight (unit),3.0,Don t know / Refusal
+797666,MCS,mcs3_proxy_partner_interview,cxweis00,Weight (stones),-9.0,Refusal
+797667,MCS,mcs3_proxy_partner_interview,cxweis00,Weight (stones),-8.0,Don't Know
+797668,MCS,mcs3_proxy_partner_interview,cxweis00,Weight (stones),-1.0,Not applicable
+797669,MCS,mcs3_proxy_partner_interview,cxweip00,Weight (pounds),-9.0,Refusal
+797670,MCS,mcs3_proxy_partner_interview,cxweip00,Weight (pounds),-8.0,Don't Know
+797671,MCS,mcs3_proxy_partner_interview,cxweip00,Weight (pounds),-1.0,Not applicable
+797672,MCS,mcs3_proxy_partner_interview,cxweik00,Weight kg,-9.0,Refusal
+797673,MCS,mcs3_proxy_partner_interview,cxweik00,Weight kg,-8.0,Don't Know
+797674,MCS,mcs3_proxy_partner_interview,cxweik00,Weight kg,-1.0,Not applicable
+797675,MCS,mcs3_proxy_partner_interview,cxweik00,Weight kg,998.0,Refusal
+797676,MCS,mcs3_proxy_partner_interview,cxweik00,Weight kg,999.0,Don't Know
+797677,MCS,mcs3_proxy_partner_interview,cxpxwe00,Whether resp sure of partner's weight,-9.0,Refusal
+797678,MCS,mcs3_proxy_partner_interview,cxpxwe00,Whether resp sure of partner's weight,-8.0,Don't Know
+797679,MCS,mcs3_proxy_partner_interview,cxpxwe00,Whether resp sure of partner's weight,-1.0,Not applicable
+797680,MCS,mcs3_proxy_partner_interview,cxpxwe00,Whether resp sure of partner's weight,1.0,Respondent sure about weight
+797681,MCS,mcs3_proxy_partner_interview,cxpxwe00,Whether resp sure of partner's weight,2.0,Respondent gave estimate
+797682,MCS,mcs3_proxy_partner_interview,cxpxwl00,Whether partner did paid work last week,-9.0,Refusal
+797683,MCS,mcs3_proxy_partner_interview,cxpxwl00,Whether partner did paid work last week,-8.0,Don't Know
+797684,MCS,mcs3_proxy_partner_interview,cxpxwl00,Whether partner did paid work last week,-1.0,Not applicable
+797685,MCS,mcs3_proxy_partner_interview,cxpxwl00,Whether partner did paid work last week,1.0,Yes
+797686,MCS,mcs3_proxy_partner_interview,cxpxwl00,Whether partner did paid work last week,2.0,No
+797687,MCS,mcs3_proxy_partner_interview,cxpxwa00,Whether partner had a job last week,-9.0,Refusal
+797688,MCS,mcs3_proxy_partner_interview,cxpxwa00,Whether partner had a job last week,-8.0,Don't Know
+797689,MCS,mcs3_proxy_partner_interview,cxpxwa00,Whether partner had a job last week,-1.0,Not applicable
+797690,MCS,mcs3_proxy_partner_interview,cxpxwa00,Whether partner had a job last week,1.0,Yes
+797691,MCS,mcs3_proxy_partner_interview,cxpxwa00,Whether partner had a job last week,2.0,No
+797692,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,3.0,Paternity Leave
+797693,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,4.0,Other Leave/holiday
+797694,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,5.0,Sick/injured
+797695,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,6.0,Laid off/on short time
+797696,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,7.0,Other personal family reason
+797697,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,95.0,Other reasons
+797698,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,-9.0,Refusal
+797699,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,-8.0,Don't Know
+797700,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,-1.0,Not applicable
+797701,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,1.0,Maternity Leave
+797702,MCS,mcs3_proxy_partner_interview,cxpxwr00,Main reason partner away from job last week,2.0,Parental Leave
+797703,MCS,mcs3_proxy_partner_interview,cxpxwd00,Whether partner on paid leave,-9.0,Refusal
+797704,MCS,mcs3_proxy_partner_interview,cxpxwd00,Whether partner on paid leave,-8.0,Don't Know
+797705,MCS,mcs3_proxy_partner_interview,cxpxwd00,Whether partner on paid leave,-1.0,Not applicable
+797706,MCS,mcs3_proxy_partner_interview,cxpxwd00,Whether partner on paid leave,1.0,Yes
+797707,MCS,mcs3_proxy_partner_interview,cxpxwd00,Whether partner on paid leave,2.0,No
+797708,MCS,mcs3_proxy_partner_interview,cxpxwy00,Last time partner attend work - (self)employed : YEAR,-9.0,Refusal
+797709,MCS,mcs3_proxy_partner_interview,cxpxwy00,Last time partner attend work - (self)employed : YEAR,-8.0,Don't Know
+797710,MCS,mcs3_proxy_partner_interview,cxpxwy00,Last time partner attend work - (self)employed : YEAR,-1.0,Not applicable
+797711,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,-9.0,Refusal
+797712,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,-8.0,Don't Know
+797713,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,-1.0,Not applicable
+797714,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,1.0,January
+797715,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,2.0,February
+797716,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,3.0,March
+797717,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,4.0,April
+797718,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,5.0,May
+797719,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,6.0,June
+797720,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,7.0,July
+797721,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,8.0,August
+797722,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,9.0,September
+797723,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,10.0,October
+797724,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,11.0,November
+797725,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,12.0,December
+797726,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,13.0,Winter (Jan-Feb)
+797727,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,14.0,Spring (Mar-May)
+797728,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,15.0,Summer (Jun-Aug)
+797729,MCS,mcs3_proxy_partner_interview,cxpxwm00,Last time partner attend work - (self)employed : MONTH,16.0,Autumn (Sep-Nov)
+797730,MCS,mcs3_proxy_partner_interview,cxpxls00,Whether partner has same job title as at last in,-9.0,Refusal
+797731,MCS,mcs3_proxy_partner_interview,cxpxls00,Whether partner has same job title as at last in,-8.0,Don't Know
+797732,MCS,mcs3_proxy_partner_interview,cxpxls00,Whether partner has same job title as at last in,-1.0,Not applicable
+797733,MCS,mcs3_proxy_partner_interview,cxpxls00,Whether partner has same job title as at last in,1.0,Yes
+797734,MCS,mcs3_proxy_partner_interview,cxpxls00,Whether partner has same job title as at last in,2.0,No
+797735,MCS,mcs3_proxy_partner_interview,cxpxle00,Whether partner still emplyed by same employer,-9.0,Refusal
+797736,MCS,mcs3_proxy_partner_interview,cxpxle00,Whether partner still emplyed by same employer,-8.0,Don't Know
+797737,MCS,mcs3_proxy_partner_interview,cxpxle00,Whether partner still emplyed by same employer,-1.0,Not applicable
+797738,MCS,mcs3_proxy_partner_interview,cxpxle00,Whether partner still emplyed by same employer,1.0,Yes
+797739,MCS,mcs3_proxy_partner_interview,cxpxle00,Whether partner still emplyed by same employer,2.0,No
+797740,MCS,mcs3_proxy_partner_interview,cxpxlc00,Whether partner did job continuously since last,-9.0,Refusal
+797741,MCS,mcs3_proxy_partner_interview,cxpxlc00,Whether partner did job continuously since last,-8.0,Don't Know
+797742,MCS,mcs3_proxy_partner_interview,cxpxlc00,Whether partner did job continuously since last,-1.0,Not applicable
+797743,MCS,mcs3_proxy_partner_interview,cxpxlc00,Whether partner did job continuously since last,1.0,Yes
+797744,MCS,mcs3_proxy_partner_interview,cxpxlc00,Whether partner did job continuously since last,2.0,No
+797745,MCS,mcs3_proxy_partner_interview,cxpxly00,When partner's job at last int ended (year),-9.0,Refusal
+797746,MCS,mcs3_proxy_partner_interview,cxpxly00,When partner's job at last int ended (year),-8.0,Don't Know
+797747,MCS,mcs3_proxy_partner_interview,cxpxly00,When partner's job at last int ended (year),-1.0,Not applicable
+797748,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),-9.0,Refusal
+797749,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),-8.0,Don't Know
+797750,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),-1.0,Not applicable
+797751,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),1.0,January
+797752,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),2.0,February
+797753,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),3.0,March
+797754,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),4.0,April
+797755,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),5.0,May
+797756,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),6.0,June
+797757,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),7.0,July
+797758,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),8.0,August
+797759,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),9.0,September
+797760,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),10.0,October
+797761,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),11.0,November
+797762,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),12.0,December
+797763,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),13.0,Winter (Jan-Feb)
+797764,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),14.0,Spring (Mar-May)
+797765,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),15.0,Summer (Jun-Aug)
+797766,MCS,mcs3_proxy_partner_interview,cxpxlm00,When partner's job at last int ended (month),16.0,Autumn (Sep-Nov)
+797767,MCS,mcs3_proxy_partner_interview,cxpxje00,Partner is employee or self-employed in main job,-9.0,Refusal
+797768,MCS,mcs3_proxy_partner_interview,cxpxje00,Partner is employee or self-employed in main job,-8.0,Don't Know
+797769,MCS,mcs3_proxy_partner_interview,cxpxje00,Partner is employee or self-employed in main job,-1.0,Not applicable
+797770,MCS,mcs3_proxy_partner_interview,cxpxje00,Partner is employee or self-employed in main job,1.0,Employee
+797771,MCS,mcs3_proxy_partner_interview,cxpxje00,Partner is employee or self-employed in main job,2.0,Self-employed
+797772,MCS,mcs3_proxy_partner_interview,cxpxjw00,Whether partner is paid salary/wage in main job,-9.0,Refusal
+797773,MCS,mcs3_proxy_partner_interview,cxpxjw00,Whether partner is paid salary/wage in main job,-8.0,Don't Know
+797774,MCS,mcs3_proxy_partner_interview,cxpxjw00,Whether partner is paid salary/wage in main job,-1.0,Not applicable
+797775,MCS,mcs3_proxy_partner_interview,cxpxjw00,Whether partner is paid salary/wage in main job,1.0,Yes
+797776,MCS,mcs3_proxy_partner_interview,cxpxjw00,Whether partner is paid salary/wage in main job,2.0,No
+797777,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,-9.0,Refusal
+797778,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,-8.0,Don't Know
+797779,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,-1.0,Not applicable
+797780,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,1.0,"...paid a salary or wage by an agency,"
+797781,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,2.0,a sole director of ^pxhis own limited c
+797782,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,3.0,running a business or professional prac
+797783,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,4.0,a partner in a business or professional
+797784,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,5.0,"working for ^pxhimself,"
+797785,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,6.0,"a sub-contractor,"
+797786,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,7.0,doing freelance work?
+797787,MCS,mcs3_proxy_partner_interview,cxpxjb0a,Self-employed/non-waged status MC1,96.0,(None of these)
+797788,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,-9.0,Refusal
+797789,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,-8.0,Don't Know
+797790,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,-1.0,Not applicable
+797791,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,1.0,"...paid a salary or wage by an agency,"
+797792,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,2.0,a sole director of ^pxhis own limited c
+797793,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,3.0,running a business or professional prac
+797794,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,4.0,a partner in a business or professional
+797795,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,5.0,"working for ^pxhimself,"
+797796,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,6.0,"a sub-contractor,"
+797797,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,7.0,doing freelance work?
+797798,MCS,mcs3_proxy_partner_interview,cxpxjb0b,Self-employed/non-waged status MC2,96.0,(None of these)
+797799,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,-9.0,Refusal
+797800,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,-8.0,Don't Know
+797801,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,-1.0,Not applicable
+797802,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,1.0,"...paid a salary or wage by an agency,"
+797803,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,2.0,a sole director of ^pxhis own limited c
+797804,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,3.0,running a business or professional prac
+797805,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,4.0,a partner in a business or professional
+797806,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,5.0,"working for ^pxhimself,"
+797807,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,6.0,"a sub-contractor,"
+797808,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,7.0,doing freelance work?
+797809,MCS,mcs3_proxy_partner_interview,cxpxjb0c,Self-employed/non-waged status MC3,96.0,(None of these)
+797810,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,-9.0,Refusal
+797811,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,-8.0,Don't Know
+797812,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,-1.0,Not applicable
+797813,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,1.0,"...paid a salary or wage by an agency,"
+797814,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,2.0,a sole director of ^pxhis own limited c
+797815,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,3.0,running a business or professional prac
+797816,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,4.0,a partner in a business or professional
+797817,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,5.0,"working for ^pxhimself,"
+797818,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,6.0,"a sub-contractor,"
+797819,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,7.0,doing freelance work?
+797820,MCS,mcs3_proxy_partner_interview,cxpxjb0d,Self-employed/non-waged status MC4,96.0,(None of these)
+797821,MCS,mcs3_proxy_partner_interview,cxpxse00,Whether employee or self-employed (recoded),-9.0,Refusal
+797822,MCS,mcs3_proxy_partner_interview,cxpxse00,Whether employee or self-employed (recoded),-8.0,Don't Know
+797823,MCS,mcs3_proxy_partner_interview,cxpxse00,Whether employee or self-employed (recoded),-1.0,Not applicable
+797824,MCS,mcs3_proxy_partner_interview,cxpxse00,Whether employee or self-employed (recoded),1.0,Employee
+797825,MCS,mcs3_proxy_partner_interview,cxpxse00,Whether employee or self-employed (recoded),2.0,Self-employed
+797826,MCS,mcs3_proxy_partner_interview,cxpxjv00,Whether partner has managerial duties,-9.0,Refusal
+797827,MCS,mcs3_proxy_partner_interview,cxpxjv00,Whether partner has managerial duties,-8.0,Don't Know
+797828,MCS,mcs3_proxy_partner_interview,cxpxjv00,Whether partner has managerial duties,-1.0,Not applicable
+797829,MCS,mcs3_proxy_partner_interview,cxpxjv00,Whether partner has managerial duties,1.0,Manager
+797830,MCS,mcs3_proxy_partner_interview,cxpxjv00,Whether partner has managerial duties,2.0,Foreman or supervisor
+797831,MCS,mcs3_proxy_partner_interview,cxpxjv00,Whether partner has managerial duties,3.0,Not a manager or supervisor
+797832,MCS,mcs3_proxy_partner_interview,cxpxjf00,Whether partner supervises more than 25 people,-9.0,Refusal
+797833,MCS,mcs3_proxy_partner_interview,cxpxjf00,Whether partner supervises more than 25 people,-8.0,Don't Know
+797834,MCS,mcs3_proxy_partner_interview,cxpxjf00,Whether partner supervises more than 25 people,-1.0,Not applicable
+797835,MCS,mcs3_proxy_partner_interview,cxpxjf00,Whether partner supervises more than 25 people,1.0,Yes
+797836,MCS,mcs3_proxy_partner_interview,cxpxjf00,Whether partner supervises more than 25 people,2.0,No
+797837,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,-9.0,Refusal
+797838,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,-8.0,Don't Know
+797839,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,-1.0,Not applicable
+797840,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,1.0,Private firm/company/PLC
+797841,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,2.0,Civil Service or Central Government (no
+797842,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,3.0,Local government or town hall (includin
+797843,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,4.0,National Health Service or NHS Trust
+797844,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,5.0,State Higher education (university or p
+797845,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,6.0,Nationalised industry
+797846,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,7.0,Non-profit making organization (includi
+797847,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,8.0,Armed Forces
+797848,MCS,mcs3_proxy_partner_interview,cxpxjc00,Type of organisation partner works for,95.0,Other
+797849,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,10.0,"DK, fewer than 25"
+797850,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,11.0,"DK, 25 or more"
+797851,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,-9.0,Refusal
+797852,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,-8.0,Don't Know
+797853,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,-1.0,Not applicable
+797854,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,0.0,None (works alone)
+797855,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,1.0,1-2
+797856,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,2.0,3-9
+797857,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,3.0,10-24
+797858,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,4.0,25-49
+797859,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,5.0,50-99
+797860,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,6.0,100-199
+797861,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,7.0,200-499
+797862,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,8.0,500-999
+797863,MCS,mcs3_proxy_partner_interview,cxpxjh00,How many employees at partner's place of work,9.0,1000 or more
+797864,MCS,mcs3_proxy_partner_interview,cxpxjs00,How many people work for partner,-9.0,Refusal
+797865,MCS,mcs3_proxy_partner_interview,cxpxjs00,How many people work for partner,-8.0,Don't Know
+797866,MCS,mcs3_proxy_partner_interview,cxpxjs00,How many people work for partner,-1.0,Not applicable
+797867,MCS,mcs3_proxy_partner_interview,cxpxjs00,How many people work for partner,1.0,Works alone or only with partner
+797868,MCS,mcs3_proxy_partner_interview,cxpxjs00,How many people work for partner,2.0,Less than 25
+797869,MCS,mcs3_proxy_partner_interview,cxpxjs00,How many people work for partner,3.0,25 or more
+797870,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,-9.0,Refusal
+797871,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,-8.0,Don't Know
+797872,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,-1.0,Not applicable
+797873,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,1.0,Self-employed:large establishment (25+)
+797874,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,2.0,Self-employed:small establishment(1-24)
+797875,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,3.0,Self-employed : no employees
+797876,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,4.0,Manager:large establishment (25+)
+797877,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,5.0,Manager:small establishment(1-24)
+797878,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,6.0,Foreman or supervisor
+797879,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,7.0,Employee (not elsewhere classified)
+797880,MCS,mcs3_proxy_partner_interview,cxjhes00,Employment status,8.0,No employment status info given
+797881,MCS,mcs3_proxy_partner_interview,cxjhsf00,Indicator for status of SEC,-9.0,Refusal
+797882,MCS,mcs3_proxy_partner_interview,cxjhsf00,Indicator for status of SEC,-8.0,Don't Know
+797883,MCS,mcs3_proxy_partner_interview,cxjhsf00,Indicator for status of SEC,-1.0,Not applicable
+797884,MCS,mcs3_proxy_partner_interview,cxjhsg00,Socio-economic Group (old scheme),-9.0,Refusal
+797885,MCS,mcs3_proxy_partner_interview,cxjhsg00,Socio-economic Group (old scheme),-8.0,Don't Know
+797886,MCS,mcs3_proxy_partner_interview,cxjhsg00,Socio-economic Group (old scheme),-1.0,Not applicable
+797887,MCS,mcs3_proxy_partner_interview,cxjhsc00,Social Class (old scheme),-9.0,Refusal
+797888,MCS,mcs3_proxy_partner_interview,cxjhsc00,Social Class (old scheme),-8.0,Don't Know
+797889,MCS,mcs3_proxy_partner_interview,cxjhsc00,Social Class (old scheme),-1.0,Not applicable
+797890,MCS,mcs3_proxy_partner_interview,cxjhsc00,Social Class (old scheme),998.0,Refusal
+797891,MCS,mcs3_proxy_partner_interview,cxjhsc00,Social Class (old scheme),999.0,Don't Know
+797892,MCS,mcs3_proxy_partner_interview,cxjh9000,SOC90 code from SOC2000 lookup file.,-9.0,Refusal
+797893,MCS,mcs3_proxy_partner_interview,cxjh9000,SOC90 code from SOC2000 lookup file.,-8.0,Don't Know
+797894,MCS,mcs3_proxy_partner_interview,cxjh9000,SOC90 code from SOC2000 lookup file.,-1.0,Not applicable
+797895,MCS,mcs3_proxy_partner_interview,cxjhss00,SOC90 reliability flag,-9.0,Refusal
+797896,MCS,mcs3_proxy_partner_interview,cxjhss00,SOC90 reliability flag,-8.0,Don't Know
+797897,MCS,mcs3_proxy_partner_interview,cxjhss00,SOC90 reliability flag,-1.0,Not applicable
+797898,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,-9.0,Refusal
+797899,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,-8.0,Dont Know
+797900,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,-1.0,Not applicable
+797901,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,1.0,Father/ Mother/ Partner away in forces
+797902,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,2.0,Father/ Mother/ Partner working away
+797903,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,3.0,Father/Mother/Partner away in hospital
+797904,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,5.0,Father/Mother/Partner away other
+797905,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,6.0,Father/ Mother/ Partner incapacitated
+797906,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,51.0,Proxy done in Error
+797907,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,52.0,spare
+797908,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,53.0,spare
+797909,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,54.0,spare
+797910,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,55.0,spare
+797911,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,56.0,spare
+797912,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,85.0,Other specific answer
+797913,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,86.0,Vague / irrelevant answer
+797914,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,87.0,Editor cannot deal with
+797915,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,95.0,Other (specify)
+797916,MCS,mcs3_proxy_partner_interview,cxpxrz0r,Reason for proxy interview (merged) - recoded,99.0,Recoded - see SecureAccess data
+797917,MCS,mcs3_proxy_partner_interview,avail_from_dt,,,
+797918,MCS,mcs3_proxy_partner_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

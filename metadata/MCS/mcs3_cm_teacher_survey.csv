@@ -1,0 +1,524 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+785127,MCS,mcs3_cm_teacher_survey,study_id_e,,,
+785128,MCS,mcs3_cm_teacher_survey,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+785129,MCS,mcs3_cm_teacher_survey,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+785130,MCS,mcs3_cm_teacher_survey,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+785131,MCS,mcs3_cm_teacher_survey,mail,CCTS: Stage at which questionnaire productive,1.0,Productive at first mailing
+785132,MCS,mcs3_cm_teacher_survey,mail,CCTS: Stage at which questionnaire productive,2.0,Productive telephone interview
+785133,MCS,mcs3_cm_teacher_survey,mail,CCTS: Stage at which questionnaire productive,3.0,Productive questionnaire reminder
+785134,MCS,mcs3_cm_teacher_survey,mail,CCTS: Stage at which questionnaire productive,4.0,Productive at final reminder
+785135,MCS,mcs3_cm_teacher_survey,qver,CCTS: Questionnaire version,1.0,Scottish questionnaire
+785136,MCS,mcs3_cm_teacher_survey,qver,CCTS: Questionnaire version,2.0,Welsh questionnaire
+785137,MCS,mcs3_cm_teacher_survey,qver,CCTS: Questionnaire version,3.0,Northern Ireland
+785138,MCS,mcs3_cm_teacher_survey,qver,CCTS: Questionnaire version,4.0,Welsh translated questionnaire
+785139,MCS,mcs3_cm_teacher_survey,docm,CCTS: Date of Completion MONTH,-9.0,Not answered (99)
+785140,MCS,mcs3_cm_teacher_survey,docm,CCTS: Date of Completion MONTH,-1.0,Item not applicable
+785141,MCS,mcs3_cm_teacher_survey,docy,CCTS: Date of Completion YEAR,-9.0,Not answered (9999)
+785142,MCS,mcs3_cm_teacher_survey,docy,CCTS: Date of Completion YEAR,-1.0,Item not applicable
+785143,MCS,mcs3_cm_teacher_survey,q1a_1,CCTS: DA - interest in classroom activities,-9.0,Not answered (9)
+785144,MCS,mcs3_cm_teacher_survey,q1a_1,CCTS: DA - interest in classroom activities,-1.0,Item not applicable
+785145,MCS,mcs3_cm_teacher_survey,q1a_1,CCTS: DA - interest in classroom activities,1.0,Yes
+785146,MCS,mcs3_cm_teacher_survey,q1a_1,CCTS: DA - interest in classroom activities,2.0,No
+785147,MCS,mcs3_cm_teacher_survey,q1a_2,CCTS: DA - Dresses,-9.0,Not answered (9)
+785148,MCS,mcs3_cm_teacher_survey,q1a_2,CCTS: DA - Dresses,-1.0,Item not applicable
+785149,MCS,mcs3_cm_teacher_survey,q1a_2,CCTS: DA - Dresses,1.0,Yes
+785150,MCS,mcs3_cm_teacher_survey,q1a_2,CCTS: DA - Dresses,2.0,No
+785151,MCS,mcs3_cm_teacher_survey,q1a_3,CCTS: DA - Displays high levels of involvement in activities,-9.0,Not answered (9)
+785152,MCS,mcs3_cm_teacher_survey,q1a_3,CCTS: DA - Displays high levels of involvement in activities,-1.0,Item not applicable
+785153,MCS,mcs3_cm_teacher_survey,q1a_3,CCTS: DA - Displays high levels of involvement in activities,1.0,Yes
+785154,MCS,mcs3_cm_teacher_survey,q1a_3,CCTS: DA - Displays high levels of involvement in activities,2.0,No
+785155,MCS,mcs3_cm_teacher_survey,q1a_4,CCTS: DA - Dresses and undresses independently and manages own hygiene,-9.0,Not answered (9)
+785156,MCS,mcs3_cm_teacher_survey,q1a_4,CCTS: DA - Dresses and undresses independently and manages own hygiene,-1.0,Item not applicable
+785157,MCS,mcs3_cm_teacher_survey,q1a_4,CCTS: DA - Dresses and undresses independently and manages own hygiene,1.0,Yes
+785158,MCS,mcs3_cm_teacher_survey,q1a_4,CCTS: DA - Dresses and undresses independently and manages own hygiene,2.0,No
+785159,MCS,mcs3_cm_teacher_survey,q1a_5,CCTS: DA - Selects and uses activities and resources independently,-9.0,Not answered (9)
+785160,MCS,mcs3_cm_teacher_survey,q1a_5,CCTS: DA - Selects and uses activities and resources independently,-1.0,Item not applicable
+785161,MCS,mcs3_cm_teacher_survey,q1a_5,CCTS: DA - Selects and uses activities and resources independently,1.0,Yes
+785162,MCS,mcs3_cm_teacher_survey,q1a_5,CCTS: DA - Selects and uses activities and resources independently,2.0,No
+785163,MCS,mcs3_cm_teacher_survey,q1a_6,CCTS: DA - Continues to be interested,-9.0,Not answered (9)
+785164,MCS,mcs3_cm_teacher_survey,q1a_6,CCTS: DA - Continues to be interested,-1.0,Item not applicable
+785165,MCS,mcs3_cm_teacher_survey,q1a_6,CCTS: DA - Continues to be interested,1.0,Yes
+785166,MCS,mcs3_cm_teacher_survey,q1a_6,CCTS: DA - Continues to be interested,2.0,No
+785167,MCS,mcs3_cm_teacher_survey,q1a_7,CCTS: DA - Confident to try new activities,-9.0,Not answered (9)
+785168,MCS,mcs3_cm_teacher_survey,q1a_7,CCTS: DA - Confident to try new activities,-1.0,Item not applicable
+785169,MCS,mcs3_cm_teacher_survey,q1a_7,CCTS: DA - Confident to try new activities,1.0,Yes
+785170,MCS,mcs3_cm_teacher_survey,q1a_7,CCTS: DA - Confident to try new activities,2.0,No
+785171,MCS,mcs3_cm_teacher_survey,q1a_8,CCTS: DA - Maintains attention and concentrates,-9.0,Not answered (9)
+785172,MCS,mcs3_cm_teacher_survey,q1a_8,CCTS: DA - Maintains attention and concentrates,-1.0,Item not applicable
+785173,MCS,mcs3_cm_teacher_survey,q1a_8,CCTS: DA - Maintains attention and concentrates,1.0,Yes
+785174,MCS,mcs3_cm_teacher_survey,q1a_8,CCTS: DA - Maintains attention and concentrates,2.0,No
+785175,MCS,mcs3_cm_teacher_survey,q1a_9,CCTS: DA - Sustains involvement and perseveres,-9.0,Not answered (9)
+785176,MCS,mcs3_cm_teacher_survey,q1a_9,CCTS: DA - Sustains involvement and perseveres,-1.0,Item not applicable
+785177,MCS,mcs3_cm_teacher_survey,q1a_9,CCTS: DA - Sustains involvement and perseveres,1.0,Yes
+785178,MCS,mcs3_cm_teacher_survey,q1a_9,CCTS: DA - Sustains involvement and perseveres,2.0,No
+785179,MCS,mcs3_cm_teacher_survey,rawda,CCTS: DA - Disposition and Attitudes raw score,,
+785180,MCS,mcs3_cm_teacher_survey,q1b_1,CCTS: SD - Plays alongside others,-9.0,Not answered (9)
+785181,MCS,mcs3_cm_teacher_survey,q1b_1,CCTS: SD - Plays alongside others,-1.0,Item not applicable
+785182,MCS,mcs3_cm_teacher_survey,q1b_1,CCTS: SD - Plays alongside others,1.0,Yes
+785183,MCS,mcs3_cm_teacher_survey,q1b_1,CCTS: SD - Plays alongside others,2.0,No
+785184,MCS,mcs3_cm_teacher_survey,q1b_2,CCTS: SD - Builds relationships through gesture and talk,-9.0,Not answered (9)
+785185,MCS,mcs3_cm_teacher_survey,q1b_2,CCTS: SD - Builds relationships through gesture and talk,-1.0,Item not applicable
+785186,MCS,mcs3_cm_teacher_survey,q1b_2,CCTS: SD - Builds relationships through gesture and talk,1.0,Yes
+785187,MCS,mcs3_cm_teacher_survey,q1b_2,CCTS: SD - Builds relationships through gesture and talk,2.0,No
+785188,MCS,mcs3_cm_teacher_survey,q1b_3,CCTS: SD - Takes turns and shares with adult support,-9.0,Not answered (9)
+785189,MCS,mcs3_cm_teacher_survey,q1b_3,CCTS: SD - Takes turns and shares with adult support,-1.0,Item not applicable
+785190,MCS,mcs3_cm_teacher_survey,q1b_3,CCTS: SD - Takes turns and shares with adult support,1.0,Yes
+785191,MCS,mcs3_cm_teacher_survey,q1b_3,CCTS: SD - Takes turns and shares with adult support,2.0,No
+785192,MCS,mcs3_cm_teacher_survey,q1b_4,CCTS: SD - Works as part of a group or class,-9.0,Not answered (9)
+785193,MCS,mcs3_cm_teacher_survey,q1b_4,CCTS: SD - Works as part of a group or class,-1.0,Item not applicable
+785194,MCS,mcs3_cm_teacher_survey,q1b_4,CCTS: SD - Works as part of a group or class,1.0,Yes
+785195,MCS,mcs3_cm_teacher_survey,q1b_4,CCTS: SD - Works as part of a group or class,2.0,No
+785196,MCS,mcs3_cm_teacher_survey,q1b_5,CCTS: SD - Forms good relationships with adults and peers,-9.0,Not answered (9)
+785197,MCS,mcs3_cm_teacher_survey,q1b_5,CCTS: SD - Forms good relationships with adults and peers,-1.0,Item not applicable
+785198,MCS,mcs3_cm_teacher_survey,q1b_5,CCTS: SD - Forms good relationships with adults and peers,1.0,Yes
+785199,MCS,mcs3_cm_teacher_survey,q1b_5,CCTS: SD - Forms good relationships with adults and peers,2.0,No
+785200,MCS,mcs3_cm_teacher_survey,q1b_6,CCTS: SD - Understands that there need to to be agreed values behaviour,-9.0,Not answered (9)
+785201,MCS,mcs3_cm_teacher_survey,q1b_6,CCTS: SD - Understands that there need to to be agreed values behaviour,-1.0,Item not applicable
+785202,MCS,mcs3_cm_teacher_survey,q1b_6,CCTS: SD - Understands that there need to to be agreed values behaviour,1.0,Yes
+785203,MCS,mcs3_cm_teacher_survey,q1b_6,CCTS: SD - Understands that there need to to be agreed values behaviour,2.0,No
+785204,MCS,mcs3_cm_teacher_survey,q1b_7,CCTS: SD - Understands that people have different needs,-9.0,Not answered (9)
+785205,MCS,mcs3_cm_teacher_survey,q1b_7,CCTS: SD - Understands that people have different needs,-1.0,Item not applicable
+785206,MCS,mcs3_cm_teacher_survey,q1b_7,CCTS: SD - Understands that people have different needs,1.0,Yes
+785207,MCS,mcs3_cm_teacher_survey,q1b_7,CCTS: SD - Understands that people have different needs,2.0,No
+785208,MCS,mcs3_cm_teacher_survey,q1b_8,CCTS: SD - Understands that s/he can expect others to treat needs with respect,-9.0,Not answered (9)
+785209,MCS,mcs3_cm_teacher_survey,q1b_8,CCTS: SD - Understands that s/he can expect others to treat needs with respect,-1.0,Item not applicable
+785210,MCS,mcs3_cm_teacher_survey,q1b_8,CCTS: SD - Understands that s/he can expect others to treat needs with respect,1.0,Yes
+785211,MCS,mcs3_cm_teacher_survey,q1b_8,CCTS: SD - Understands that s/he can expect others to treat needs with respect,2.0,No
+785212,MCS,mcs3_cm_teacher_survey,q1b_9,CCTS: SD - Takes into account the ideas of others,-9.0,Not answered (9)
+785213,MCS,mcs3_cm_teacher_survey,q1b_9,CCTS: SD - Takes into account the ideas of others,-1.0,Item not applicable
+785214,MCS,mcs3_cm_teacher_survey,q1b_9,CCTS: SD - Takes into account the ideas of others,1.0,Yes
+785215,MCS,mcs3_cm_teacher_survey,q1b_9,CCTS: SD - Takes into account the ideas of others,2.0,No
+785216,MCS,mcs3_cm_teacher_survey,rawsd,CCTS: SD - Social Development raw score,,
+785217,MCS,mcs3_cm_teacher_survey,q1c_1,CCTS: ED - Separates from main carer with support,-9.0,Not answered (9)
+785218,MCS,mcs3_cm_teacher_survey,q1c_1,CCTS: ED - Separates from main carer with support,-1.0,Item not applicable
+785219,MCS,mcs3_cm_teacher_survey,q1c_1,CCTS: ED - Separates from main carer with support,1.0,Yes
+785220,MCS,mcs3_cm_teacher_survey,q1c_1,CCTS: ED - Separates from main carer with support,2.0,No
+785221,MCS,mcs3_cm_teacher_survey,q1c_2,CCTS: ED - Communicates freely about home and community,1.0,Yes
+785222,MCS,mcs3_cm_teacher_survey,q1c_2,CCTS: ED - Communicates freely about home and community,2.0,No
+785223,MCS,mcs3_cm_teacher_survey,q1c_2,CCTS: ED - Communicates freely about home and community,-9.0,Not answered (9)
+785224,MCS,mcs3_cm_teacher_survey,q1c_2,CCTS: ED - Communicates freely about home and community,-1.0,Item not applicable
+785225,MCS,mcs3_cm_teacher_survey,q1c_3,CCTS: ED - Expresses needs and feelings in appropriate ways,-9.0,Not answered (9)
+785226,MCS,mcs3_cm_teacher_survey,q1c_3,CCTS: ED - Expresses needs and feelings in appropriate ways,-1.0,Item not applicable
+785227,MCS,mcs3_cm_teacher_survey,q1c_3,CCTS: ED - Expresses needs and feelings in appropriate ways,1.0,Yes
+785228,MCS,mcs3_cm_teacher_survey,q1c_3,CCTS: ED - Expresses needs and feelings in appropriate ways,2.0,No
+785229,MCS,mcs3_cm_teacher_survey,q1c_4,CCTS: ED - Responds to significant experiences,-9.0,Not answered (9)
+785230,MCS,mcs3_cm_teacher_survey,q1c_4,CCTS: ED - Responds to significant experiences,-1.0,Item not applicable
+785231,MCS,mcs3_cm_teacher_survey,q1c_4,CCTS: ED - Responds to significant experiences,1.0,Yes
+785232,MCS,mcs3_cm_teacher_survey,q1c_4,CCTS: ED - Responds to significant experiences,2.0,No
+785233,MCS,mcs3_cm_teacher_survey,q1c_5,CCTS: ED - Has a developing awareness of own needs,-9.0,Not answered (9)
+785234,MCS,mcs3_cm_teacher_survey,q1c_5,CCTS: ED - Has a developing awareness of own needs,-1.0,Item not applicable
+785235,MCS,mcs3_cm_teacher_survey,q1c_5,CCTS: ED - Has a developing awareness of own needs,1.0,Yes
+785236,MCS,mcs3_cm_teacher_survey,q1c_5,CCTS: ED - Has a developing awareness of own needs,2.0,No
+785237,MCS,mcs3_cm_teacher_survey,q1c_6,CCTS: ED - Has a developing respect for own culture and of others,-9.0,Not answered (9)
+785238,MCS,mcs3_cm_teacher_survey,q1c_6,CCTS: ED - Has a developing respect for own culture and of others,-1.0,Item not applicable
+785239,MCS,mcs3_cm_teacher_survey,q1c_6,CCTS: ED - Has a developing respect for own culture and of others,1.0,Yes
+785240,MCS,mcs3_cm_teacher_survey,q1c_6,CCTS: ED - Has a developing respect for own culture and of others,2.0,No
+785241,MCS,mcs3_cm_teacher_survey,q1c_7,CCTS: ED - Considers the consequences of words and actions,-9.0,Not answered (9)
+785242,MCS,mcs3_cm_teacher_survey,q1c_7,CCTS: ED - Considers the consequences of words and actions,-1.0,Item not applicable
+785243,MCS,mcs3_cm_teacher_survey,q1c_7,CCTS: ED - Considers the consequences of words and actions,1.0,Yes
+785244,MCS,mcs3_cm_teacher_survey,q1c_7,CCTS: ED - Considers the consequences of words and actions,2.0,No
+785245,MCS,mcs3_cm_teacher_survey,q1c_8,CCTS: ED - Understands what is right and what is wrong,-9.0,Not answered (9)
+785246,MCS,mcs3_cm_teacher_survey,q1c_8,CCTS: ED - Understands what is right and what is wrong,-1.0,Item not applicable
+785247,MCS,mcs3_cm_teacher_survey,q1c_8,CCTS: ED - Understands what is right and what is wrong,1.0,Yes
+785248,MCS,mcs3_cm_teacher_survey,q1c_8,CCTS: ED - Understands what is right and what is wrong,2.0,No
+785249,MCS,mcs3_cm_teacher_survey,q1c_9,CCTS: ED - Displays a strong and positive sense of self-identity,-9.0,Not answered (9)
+785250,MCS,mcs3_cm_teacher_survey,q1c_9,CCTS: ED - Displays a strong and positive sense of self-identity,-1.0,Item not applicable
+785251,MCS,mcs3_cm_teacher_survey,q1c_9,CCTS: ED - Displays a strong and positive sense of self-identity,1.0,Yes
+785252,MCS,mcs3_cm_teacher_survey,q1c_9,CCTS: ED - Displays a strong and positive sense of self-identity,2.0,No
+785253,MCS,mcs3_cm_teacher_survey,rawed,CCTS: ED - Emotional Development raw score,,
+785254,MCS,mcs3_cm_teacher_survey,rawpse,CCTS: PSE - Personal,,
+785255,MCS,mcs3_cm_teacher_survey,q2a_1,CCTS: LCT - Listens and responds,-9.0,Not answered (9)
+785256,MCS,mcs3_cm_teacher_survey,q2a_1,CCTS: LCT - Listens and responds,-1.0,Item not applicable
+785257,MCS,mcs3_cm_teacher_survey,q2a_1,CCTS: LCT - Listens and responds,1.0,Yes
+785258,MCS,mcs3_cm_teacher_survey,q2a_1,CCTS: LCT - Listens and responds,2.0,No
+785259,MCS,mcs3_cm_teacher_survey,q2a_2,CCTS: LCT - Initiates communication with others etc,-9.0,Not answered (9)
+785260,MCS,mcs3_cm_teacher_survey,q2a_2,CCTS: LCT - Initiates communication with others etc,-1.0,Item not applicable
+785261,MCS,mcs3_cm_teacher_survey,q2a_2,CCTS: LCT - Initiates communication with others etc,1.0,Yes
+785262,MCS,mcs3_cm_teacher_survey,q2a_2,CCTS: LCT - Initiates communication with others etc,2.0,No
+785263,MCS,mcs3_cm_teacher_survey,q2a_3,CCTS: LCT - Talks activities through,-9.0,Not answered (9)
+785264,MCS,mcs3_cm_teacher_survey,q2a_3,CCTS: LCT - Talks activities through,-1.0,Item not applicable
+785265,MCS,mcs3_cm_teacher_survey,q2a_3,CCTS: LCT - Talks activities through,1.0,Yes
+785266,MCS,mcs3_cm_teacher_survey,q2a_3,CCTS: LCT - Talks activities through,2.0,No
+785267,MCS,mcs3_cm_teacher_survey,q2a_4,CCTS: LCT - Listens with enjoyment; sustains attentive listening,-9.0,Not answered (9)
+785268,MCS,mcs3_cm_teacher_survey,q2a_4,CCTS: LCT - Listens with enjoyment; sustains attentive listening,-1.0,Item not applicable
+785269,MCS,mcs3_cm_teacher_survey,q2a_4,CCTS: LCT - Listens with enjoyment; sustains attentive listening,1.0,Yes
+785270,MCS,mcs3_cm_teacher_survey,q2a_4,CCTS: LCT - Listens with enjoyment; sustains attentive listening,2.0,No
+785271,MCS,mcs3_cm_teacher_survey,q2a_5,CCTS: LCT- Uses language to imagine and to recreate roles and experiences,-9.0,Not answered (9)
+785272,MCS,mcs3_cm_teacher_survey,q2a_5,CCTS: LCT- Uses language to imagine and to recreate roles and experiences,-1.0,Item not applicable
+785273,MCS,mcs3_cm_teacher_survey,q2a_5,CCTS: LCT- Uses language to imagine and to recreate roles and experiences,1.0,Yes
+785274,MCS,mcs3_cm_teacher_survey,q2a_5,CCTS: LCT- Uses language to imagine and to recreate roles and experiences,2.0,No
+785275,MCS,mcs3_cm_teacher_survey,q2a_6,CCTS: LCT - Interacts with others,-9.0,Not answered (9)
+785276,MCS,mcs3_cm_teacher_survey,q2a_6,CCTS: LCT - Interacts with others,-1.0,Item not applicable
+785277,MCS,mcs3_cm_teacher_survey,q2a_6,CCTS: LCT - Interacts with others,1.0,Yes
+785278,MCS,mcs3_cm_teacher_survey,q2a_6,CCTS: LCT - Interacts with others,2.0,No
+785279,MCS,mcs3_cm_teacher_survey,q2a_7,CCTS: LCT - Uses talk to organise,-9.0,Not answered (9)
+785280,MCS,mcs3_cm_teacher_survey,q2a_7,CCTS: LCT - Uses talk to organise,-1.0,Item not applicable
+785281,MCS,mcs3_cm_teacher_survey,q2a_7,CCTS: LCT - Uses talk to organise,1.0,Yes
+785282,MCS,mcs3_cm_teacher_survey,q2a_7,CCTS: LCT - Uses talk to organise,2.0,No
+785283,MCS,mcs3_cm_teacher_survey,q2a_8,CCTS: LCT - Speaks clearly with confidence and control etc,-9.0,Not answered (9)
+785284,MCS,mcs3_cm_teacher_survey,q2a_8,CCTS: LCT - Speaks clearly with confidence and control etc,-1.0,Item not applicable
+785285,MCS,mcs3_cm_teacher_survey,q2a_8,CCTS: LCT - Speaks clearly with confidence and control etc,1.0,Yes
+785286,MCS,mcs3_cm_teacher_survey,q2a_8,CCTS: LCT - Speaks clearly with confidence and control etc,2.0,No
+785287,MCS,mcs3_cm_teacher_survey,q2a_9,CCTS: LCT - Talks and listens confidently and with control etc,-9.0,Not answered (9)
+785288,MCS,mcs3_cm_teacher_survey,q2a_9,CCTS: LCT - Talks and listens confidently and with control etc,-1.0,Item not applicable
+785289,MCS,mcs3_cm_teacher_survey,q2a_9,CCTS: LCT - Talks and listens confidently and with control etc,1.0,Yes
+785290,MCS,mcs3_cm_teacher_survey,q2a_9,CCTS: LCT - Talks and listens confidently and with control etc,2.0,No
+785291,MCS,mcs3_cm_teacher_survey,rawlct,CCTS: LCT - Language for Communication and Thinking raw score,,
+785292,MCS,mcs3_cm_teacher_survey,q2b_1,CCTS: LSL - Joins in rhyming and rhythmic activities,-9.0,Not answered (9)
+785293,MCS,mcs3_cm_teacher_survey,q2b_1,CCTS: LSL - Joins in rhyming and rhythmic activities,-1.0,Item not applicable
+785294,MCS,mcs3_cm_teacher_survey,q2b_1,CCTS: LSL - Joins in rhyming and rhythmic activities,1.0,Yes
+785295,MCS,mcs3_cm_teacher_survey,q2b_1,CCTS: LSL - Joins in rhyming and rhythmic activities,2.0,No
+785296,MCS,mcs3_cm_teacher_survey,q2b_2,CCTS: LSL - Shows an awareness of rhyme and alliteration,-9.0,Not answered (9)
+785297,MCS,mcs3_cm_teacher_survey,q2b_2,CCTS: LSL - Shows an awareness of rhyme and alliteration,-1.0,Item not applicable
+785298,MCS,mcs3_cm_teacher_survey,q2b_2,CCTS: LSL - Shows an awareness of rhyme and alliteration,1.0,Yes
+785299,MCS,mcs3_cm_teacher_survey,q2b_2,CCTS: LSL - Shows an awareness of rhyme and alliteration,2.0,No
+785300,MCS,mcs3_cm_teacher_survey,q2b_3,CCTS: LSL - Links some sounds to letters,-9.0,Not answered (9)
+785301,MCS,mcs3_cm_teacher_survey,q2b_3,CCTS: LSL - Links some sounds to letters,-1.0,Item not applicable
+785302,MCS,mcs3_cm_teacher_survey,q2b_3,CCTS: LSL - Links some sounds to letters,1.0,Yes
+785303,MCS,mcs3_cm_teacher_survey,q2b_3,CCTS: LSL - Links some sounds to letters,2.0,No
+785304,MCS,mcs3_cm_teacher_survey,q2b_4,CCTS: LSL - Links sounds to letters,-9.0,Not answered (9)
+785305,MCS,mcs3_cm_teacher_survey,q2b_4,CCTS: LSL - Links sounds to letters,-1.0,Item not applicable
+785306,MCS,mcs3_cm_teacher_survey,q2b_4,CCTS: LSL - Links sounds to letters,1.0,Yes
+785307,MCS,mcs3_cm_teacher_survey,q2b_4,CCTS: LSL - Links sounds to letters,2.0,No
+785308,MCS,mcs3_cm_teacher_survey,q2b_5,CCTS: LSL - Hears and says initial and final sounds in words,-9.0,Not answered (9)
+785309,MCS,mcs3_cm_teacher_survey,q2b_5,CCTS: LSL - Hears and says initial and final sounds in words,-1.0,Item not applicable
+785310,MCS,mcs3_cm_teacher_survey,q2b_5,CCTS: LSL - Hears and says initial and final sounds in words,1.0,Yes
+785311,MCS,mcs3_cm_teacher_survey,q2b_5,CCTS: LSL - Hears and says initial and final sounds in words,2.0,No
+785312,MCS,mcs3_cm_teacher_survey,q2b_6,CCTS: LSL - Hears and says vowel sounds within words,-9.0,Not answered (9)
+785313,MCS,mcs3_cm_teacher_survey,q2b_6,CCTS: LSL - Hears and says vowel sounds within words,-1.0,Item not applicable
+785314,MCS,mcs3_cm_teacher_survey,q2b_6,CCTS: LSL - Hears and says vowel sounds within words,1.0,Yes
+785315,MCS,mcs3_cm_teacher_survey,q2b_6,CCTS: LSL - Hears and says vowel sounds within words,2.0,No
+785316,MCS,mcs3_cm_teacher_survey,q2b_7,CCTS: LSL - Uses phonic knowledge to read simple and regular words,-9.0,Not answered (9)
+785317,MCS,mcs3_cm_teacher_survey,q2b_7,CCTS: LSL - Uses phonic knowledge to read simple and regular words,-1.0,Item not applicable
+785318,MCS,mcs3_cm_teacher_survey,q2b_7,CCTS: LSL - Uses phonic knowledge to read simple and regular words,1.0,Yes
+785319,MCS,mcs3_cm_teacher_survey,q2b_7,CCTS: LSL - Uses phonic knowledge to read simple and regular words,2.0,No
+785320,MCS,mcs3_cm_teacher_survey,q2b_8,CCTS: LSL - Attempts to read more complex words,1.0,Yes
+785321,MCS,mcs3_cm_teacher_survey,q2b_8,CCTS: LSL - Attempts to read more complex words,2.0,No
+785322,MCS,mcs3_cm_teacher_survey,q2b_8,CCTS: LSL - Attempts to read more complex words,-9.0,Not answered (9)
+785323,MCS,mcs3_cm_teacher_survey,q2b_8,CCTS: LSL - Attempts to read more complex words,-1.0,Item not applicable
+785324,MCS,mcs3_cm_teacher_survey,q2b_9,CCTS: LSL - Uses knowledge of letters,-9.0,Not answered (9)
+785325,MCS,mcs3_cm_teacher_survey,q2b_9,CCTS: LSL - Uses knowledge of letters,-1.0,Item not applicable
+785326,MCS,mcs3_cm_teacher_survey,q2b_9,CCTS: LSL - Uses knowledge of letters,1.0,Yes
+785327,MCS,mcs3_cm_teacher_survey,q2b_9,CCTS: LSL - Uses knowledge of letters,2.0,No
+785328,MCS,mcs3_cm_teacher_survey,rawlsl,CCTS: LSL -  Linking Sounds and Letters raw score,,
+785329,MCS,mcs3_cm_teacher_survey,q2c_1,CCTS: R - Is developing an interest in books,-9.0,Not answered (9)
+785330,MCS,mcs3_cm_teacher_survey,q2c_1,CCTS: R - Is developing an interest in books,-1.0,Item not applicable
+785331,MCS,mcs3_cm_teacher_survey,q2c_1,CCTS: R - Is developing an interest in books,1.0,Yes
+785332,MCS,mcs3_cm_teacher_survey,q2c_1,CCTS: R - Is developing an interest in books,2.0,No
+785333,MCS,mcs3_cm_teacher_survey,q2c_2,CCTS: R - Knows that print conveys meaning,-9.0,Not answered (9)
+785334,MCS,mcs3_cm_teacher_survey,q2c_2,CCTS: R - Knows that print conveys meaning,-1.0,Item not applicable
+785335,MCS,mcs3_cm_teacher_survey,q2c_2,CCTS: R - Knows that print conveys meaning,1.0,Yes
+785336,MCS,mcs3_cm_teacher_survey,q2c_2,CCTS: R - Knows that print conveys meaning,2.0,No
+785337,MCS,mcs3_cm_teacher_survey,q2c_3,CCTS: R - Recognises a few familiar words,-9.0,Not answered (9)
+785338,MCS,mcs3_cm_teacher_survey,q2c_3,CCTS: R - Recognises a few familiar words,-1.0,Item not applicable
+785339,MCS,mcs3_cm_teacher_survey,q2c_3,CCTS: R - Recognises a few familiar words,1.0,Yes
+785340,MCS,mcs3_cm_teacher_survey,q2c_3,CCTS: R - Recognises a few familiar words,2.0,No
+785341,MCS,mcs3_cm_teacher_survey,q2c_4,CCTS: R - Knows direction that own language,-9.0,Not answered (9)
+785342,MCS,mcs3_cm_teacher_survey,q2c_4,CCTS: R - Knows direction that own language,-1.0,Item not applicable
+785343,MCS,mcs3_cm_teacher_survey,q2c_4,CCTS: R - Knows direction that own language,1.0,Yes
+785344,MCS,mcs3_cm_teacher_survey,q2c_4,CCTS: R - Knows direction that own language,2.0,No
+785345,MCS,mcs3_cm_teacher_survey,q2c_5,CCTS: R - Shows an understanding of the elements of stories,-9.0,Not answered (9)
+785346,MCS,mcs3_cm_teacher_survey,q2c_5,CCTS: R - Shows an understanding of the elements of stories,-1.0,Item not applicable
+785347,MCS,mcs3_cm_teacher_survey,q2c_5,CCTS: R - Shows an understanding of the elements of stories,1.0,Yes
+785348,MCS,mcs3_cm_teacher_survey,q2c_5,CCTS: R - Shows an understanding of the elements of stories,2.0,No
+785349,MCS,mcs3_cm_teacher_survey,q2c_6,CCTS: R - Reads a range of familiar and common words independently,-9.0,Not answered (9)
+785350,MCS,mcs3_cm_teacher_survey,q2c_6,CCTS: R - Reads a range of familiar and common words independently,-1.0,Item not applicable
+785351,MCS,mcs3_cm_teacher_survey,q2c_6,CCTS: R - Reads a range of familiar and common words independently,1.0,Yes
+785352,MCS,mcs3_cm_teacher_survey,q2c_6,CCTS: R - Reads a range of familiar and common words independently,2.0,No
+785353,MCS,mcs3_cm_teacher_survey,q2c_7,CCTS: R - Retells narratives in the correct sequence etc,-9.0,Not answered (9)
+785354,MCS,mcs3_cm_teacher_survey,q2c_7,CCTS: R - Retells narratives in the correct sequence etc,-1.0,Item not applicable
+785355,MCS,mcs3_cm_teacher_survey,q2c_7,CCTS: R - Retells narratives in the correct sequence etc,1.0,Yes
+785356,MCS,mcs3_cm_teacher_survey,q2c_7,CCTS: R - Retells narratives in the correct sequence etc,2.0,No
+785357,MCS,mcs3_cm_teacher_survey,q2c_8,CCTS: R - Shows an understanding of how information can be found,-9.0,Not answered (9)
+785358,MCS,mcs3_cm_teacher_survey,q2c_8,CCTS: R - Shows an understanding of how information can be found,-1.0,Item not applicable
+785359,MCS,mcs3_cm_teacher_survey,q2c_8,CCTS: R - Shows an understanding of how information can be found,1.0,Yes
+785360,MCS,mcs3_cm_teacher_survey,q2c_8,CCTS: R - Shows an understanding of how information can be found,2.0,No
+785361,MCS,mcs3_cm_teacher_survey,q2c_9,CCTS: R - Reads books of own choice with some fluency and accuracy,-9.0,Not answered (9)
+785362,MCS,mcs3_cm_teacher_survey,q2c_9,CCTS: R - Reads books of own choice with some fluency and accuracy,-1.0,Item not applicable
+785363,MCS,mcs3_cm_teacher_survey,q2c_9,CCTS: R - Reads books of own choice with some fluency and accuracy,1.0,Yes
+785364,MCS,mcs3_cm_teacher_survey,q2c_9,CCTS: R - Reads books of own choice with some fluency and accuracy,2.0,No
+785365,MCS,mcs3_cm_teacher_survey,rawread,CCTS: R - Reading raw score,,
+785366,MCS,mcs3_cm_teacher_survey,q2d_1,CCTS: W - Experiments with mark-mixing,-9.0,Not answered (9)
+785367,MCS,mcs3_cm_teacher_survey,q2d_1,CCTS: W - Experiments with mark-mixing,-1.0,Item not applicable
+785368,MCS,mcs3_cm_teacher_survey,q2d_1,CCTS: W - Experiments with mark-mixing,1.0,Yes
+785369,MCS,mcs3_cm_teacher_survey,q2d_1,CCTS: W - Experiments with mark-mixing,2.0,No
+785370,MCS,mcs3_cm_teacher_survey,q2d_2,CCTS: W - Uses some clearly identifiable letters to communicate meaning,-9.0,Not answered (9)
+785371,MCS,mcs3_cm_teacher_survey,q2d_2,CCTS: W - Uses some clearly identifiable letters to communicate meaning,-1.0,Item not applicable
+785372,MCS,mcs3_cm_teacher_survey,q2d_2,CCTS: W - Uses some clearly identifiable letters to communicate meaning,1.0,Yes
+785373,MCS,mcs3_cm_teacher_survey,q2d_2,CCTS: W - Uses some clearly identifiable letters to communicate meaning,2.0,No
+785374,MCS,mcs3_cm_teacher_survey,q2d_3,CCTS: W - Represents some sounds correctly in writing,-9.0,Not answered (9)
+785375,MCS,mcs3_cm_teacher_survey,q2d_3,CCTS: W - Represents some sounds correctly in writing,-1.0,Item not applicable
+785376,MCS,mcs3_cm_teacher_survey,q2d_3,CCTS: W - Represents some sounds correctly in writing,1.0,Yes
+785377,MCS,mcs3_cm_teacher_survey,q2d_3,CCTS: W - Represents some sounds correctly in writing,2.0,No
+785378,MCS,mcs3_cm_teacher_survey,q2d_4,CCTS: W - Writes own name and other words from memory,-9.0,Not answered (9)
+785379,MCS,mcs3_cm_teacher_survey,q2d_4,CCTS: W - Writes own name and other words from memory,-1.0,Item not applicable
+785380,MCS,mcs3_cm_teacher_survey,q2d_4,CCTS: W - Writes own name and other words from memory,1.0,Yes
+785381,MCS,mcs3_cm_teacher_survey,q2d_4,CCTS: W - Writes own name and other words from memory,2.0,No
+785382,MCS,mcs3_cm_teacher_survey,q2d_5,CCTS: W - Holds a pencil and uses it to form recognisable letters,-9.0,Not answered (9)
+785383,MCS,mcs3_cm_teacher_survey,q2d_5,CCTS: W - Holds a pencil and uses it to form recognisable letters,-1.0,Item not applicable
+785384,MCS,mcs3_cm_teacher_survey,q2d_5,CCTS: W - Holds a pencil and uses it to form recognisable letters,1.0,Yes
+785385,MCS,mcs3_cm_teacher_survey,q2d_5,CCTS: W - Holds a pencil and uses it to form recognisable letters,2.0,No
+785386,MCS,mcs3_cm_teacher_survey,q2d_6,CCTS: W - Attempts writing for a variety of purposes,-9.0,Not answered (9)
+785387,MCS,mcs3_cm_teacher_survey,q2d_6,CCTS: W - Attempts writing for a variety of purposes,-1.0,Item not applicable
+785388,MCS,mcs3_cm_teacher_survey,q2d_6,CCTS: W - Attempts writing for a variety of purposes,1.0,Yes
+785389,MCS,mcs3_cm_teacher_survey,q2d_6,CCTS: W - Attempts writing for a variety of purposes,2.0,No
+785390,MCS,mcs3_cm_teacher_survey,q2d_7,CCTS: W - Uses phonic knowledge to write simple words,-9.0,Not answered (9)
+785391,MCS,mcs3_cm_teacher_survey,q2d_7,CCTS: W - Uses phonic knowledge to write simple words,-1.0,Item not applicable
+785392,MCS,mcs3_cm_teacher_survey,q2d_7,CCTS: W - Uses phonic knowledge to write simple words,1.0,Yes
+785393,MCS,mcs3_cm_teacher_survey,q2d_7,CCTS: W - Uses phonic knowledge to write simple words,2.0,No
+785394,MCS,mcs3_cm_teacher_survey,q2d_8,CCTS: W - Begins to form captions and simple sentences,-9.0,Not answered (9)
+785395,MCS,mcs3_cm_teacher_survey,q2d_8,CCTS: W - Begins to form captions and simple sentences,-1.0,Item not applicable
+785396,MCS,mcs3_cm_teacher_survey,q2d_8,CCTS: W - Begins to form captions and simple sentences,1.0,Yes
+785397,MCS,mcs3_cm_teacher_survey,q2d_8,CCTS: W - Begins to form captions and simple sentences,2.0,No
+785398,MCS,mcs3_cm_teacher_survey,q2d_9,CCTS: W - Communicates meaning through phrases and simple sentences,-9.0,Not answered (9)
+785399,MCS,mcs3_cm_teacher_survey,q2d_9,CCTS: W - Communicates meaning through phrases and simple sentences,-1.0,Item not applicable
+785400,MCS,mcs3_cm_teacher_survey,q2d_9,CCTS: W - Communicates meaning through phrases and simple sentences,1.0,Yes
+785401,MCS,mcs3_cm_teacher_survey,q2d_9,CCTS: W - Communicates meaning through phrases and simple sentences,2.0,No
+785402,MCS,mcs3_cm_teacher_survey,rawwrite,CCTS: W - Writing raw score,,
+785403,MCS,mcs3_cm_teacher_survey,rawlit,CCTS: CLL - Communication,,
+785404,MCS,mcs3_cm_teacher_survey,q3a_1,CCTS: NLC - Says some number names in familiar contexts eg nursery rhymes,-9.0,Not answered (9)
+785405,MCS,mcs3_cm_teacher_survey,q3a_1,CCTS: NLC - Says some number names in familiar contexts eg nursery rhymes,-1.0,Item not applicable
+785406,MCS,mcs3_cm_teacher_survey,q3a_1,CCTS: NLC - Says some number names in familiar contexts eg nursery rhymes,1.0,Yes
+785407,MCS,mcs3_cm_teacher_survey,q3a_1,CCTS: NLC - Says some number names in familiar contexts eg nursery rhymes,2.0,No
+785408,MCS,mcs3_cm_teacher_survey,q3a_2,CCTS: NLC - Counts reliably up to three everyday objects,-9.0,Not answered (9)
+785409,MCS,mcs3_cm_teacher_survey,q3a_2,CCTS: NLC - Counts reliably up to three everyday objects,-1.0,Item not applicable
+785410,MCS,mcs3_cm_teacher_survey,q3a_2,CCTS: NLC - Counts reliably up to three everyday objects,1.0,Yes
+785411,MCS,mcs3_cm_teacher_survey,q3a_2,CCTS: NLC - Counts reliably up to three everyday objects,2.0,No
+785412,MCS,mcs3_cm_teacher_survey,q3a_3,CCTS: NLC - Counts reliably up to six everyday objects,-9.0,Not answered (9)
+785413,MCS,mcs3_cm_teacher_survey,q3a_3,CCTS: NLC - Counts reliably up to six everyday objects,-1.0,Item not applicable
+785414,MCS,mcs3_cm_teacher_survey,q3a_3,CCTS: NLC - Counts reliably up to six everyday objects,1.0,Yes
+785415,MCS,mcs3_cm_teacher_survey,q3a_3,CCTS: NLC - Counts reliably up to six everyday objects,2.0,No
+785416,MCS,mcs3_cm_teacher_survey,q3a_4,CCTS: NLC - Says number names in order,-9.0,Not answered (9)
+785417,MCS,mcs3_cm_teacher_survey,q3a_4,CCTS: NLC - Says number names in order,-1.0,Item not applicable
+785418,MCS,mcs3_cm_teacher_survey,q3a_4,CCTS: NLC - Says number names in order,1.0,Yes
+785419,MCS,mcs3_cm_teacher_survey,q3a_4,CCTS: NLC - Says number names in order,2.0,No
+785420,MCS,mcs3_cm_teacher_survey,q3a_5,CCTS: NLC - Recognises numberals 1 to 9,-9.0,Not answered (9)
+785421,MCS,mcs3_cm_teacher_survey,q3a_5,CCTS: NLC - Recognises numberals 1 to 9,-1.0,Item not applicable
+785422,MCS,mcs3_cm_teacher_survey,q3a_5,CCTS: NLC - Recognises numberals 1 to 9,1.0,Yes
+785423,MCS,mcs3_cm_teacher_survey,q3a_5,CCTS: NLC - Recognises numberals 1 to 9,2.0,No
+785424,MCS,mcs3_cm_teacher_survey,q3a_6,CCTS: NLC - Counts reliably up to 10 everyday objects,-9.0,Not answered (9)
+785425,MCS,mcs3_cm_teacher_survey,q3a_6,CCTS: NLC - Counts reliably up to 10 everyday objects,-1.0,Item not applicable
+785426,MCS,mcs3_cm_teacher_survey,q3a_6,CCTS: NLC - Counts reliably up to 10 everyday objects,1.0,Yes
+785427,MCS,mcs3_cm_teacher_survey,q3a_6,CCTS: NLC - Counts reliably up to 10 everyday objects,2.0,No
+785428,MCS,mcs3_cm_teacher_survey,q3a_7,CCTS: NLC - Orders numbers up to 10,-9.0,Not answered (9)
+785429,MCS,mcs3_cm_teacher_survey,q3a_7,CCTS: NLC - Orders numbers up to 10,-1.0,Item not applicable
+785430,MCS,mcs3_cm_teacher_survey,q3a_7,CCTS: NLC - Orders numbers up to 10,1.0,Yes
+785431,MCS,mcs3_cm_teacher_survey,q3a_7,CCTS: NLC - Orders numbers up to 10,2.0,No
+785432,MCS,mcs3_cm_teacher_survey,q3a_8,CCTS: NLC - Uses developing mathematical ideas and methods to solves problems,-9.0,Not answered (9)
+785433,MCS,mcs3_cm_teacher_survey,q3a_8,CCTS: NLC - Uses developing mathematical ideas and methods to solves problems,-1.0,Item not applicable
+785434,MCS,mcs3_cm_teacher_survey,q3a_8,CCTS: NLC - Uses developing mathematical ideas and methods to solves problems,1.0,Yes
+785435,MCS,mcs3_cm_teacher_survey,q3a_8,CCTS: NLC - Uses developing mathematical ideas and methods to solves problems,2.0,No
+785436,MCS,mcs3_cm_teacher_survey,q3a_9,CCTS: NLC - Recognises,-9.0,Not answered (9)
+785437,MCS,mcs3_cm_teacher_survey,q3a_9,CCTS: NLC - Recognises,-1.0,Item not applicable
+785438,MCS,mcs3_cm_teacher_survey,q3a_9,CCTS: NLC - Recognises,1.0,Yes
+785439,MCS,mcs3_cm_teacher_survey,q3a_9,CCTS: NLC - Recognises,2.0,No
+785440,MCS,mcs3_cm_teacher_survey,rawnlc,CCTS: NLC - Numbers as Labels and for Counting raw score,,
+785441,MCS,mcs3_cm_teacher_survey,q3b_1,CCTS: C - Responds to the vocabulary involved in addition and subtraction,-9.0,Not answered (9)
+785442,MCS,mcs3_cm_teacher_survey,q3b_1,CCTS: C - Responds to the vocabulary involved in addition and subtraction,-1.0,Item not applicable
+785443,MCS,mcs3_cm_teacher_survey,q3b_1,CCTS: C - Responds to the vocabulary involved in addition and subtraction,1.0,Yes
+785444,MCS,mcs3_cm_teacher_survey,q3b_1,CCTS: C - Responds to the vocabulary involved in addition and subtraction,2.0,No
+785445,MCS,mcs3_cm_teacher_survey,q3b_2,CCTS: C - Recognises differences in quantity when comparing sets of objects,-9.0,Not answered (9)
+785446,MCS,mcs3_cm_teacher_survey,q3b_2,CCTS: C - Recognises differences in quantity when comparing sets of objects,-1.0,Item not applicable
+785447,MCS,mcs3_cm_teacher_survey,q3b_2,CCTS: C - Recognises differences in quantity when comparing sets of objects,1.0,Yes
+785448,MCS,mcs3_cm_teacher_survey,q3b_2,CCTS: C - Recognises differences in quantity when comparing sets of objects,2.0,No
+785449,MCS,mcs3_cm_teacher_survey,q3b_3,CCTS: C - Finds one more or one less from a group of up to five objects,-9.0,Not answered (9)
+785450,MCS,mcs3_cm_teacher_survey,q3b_3,CCTS: C - Finds one more or one less from a group of up to five objects,-1.0,Item not applicable
+785451,MCS,mcs3_cm_teacher_survey,q3b_3,CCTS: C - Finds one more or one less from a group of up to five objects,1.0,Yes
+785452,MCS,mcs3_cm_teacher_survey,q3b_3,CCTS: C - Finds one more or one less from a group of up to five objects,2.0,No
+785453,MCS,mcs3_cm_teacher_survey,q3b_4,CCTS: C - Relates addition to combining two groups,-9.0,Not answered (9)
+785454,MCS,mcs3_cm_teacher_survey,q3b_4,CCTS: C - Relates addition to combining two groups,-1.0,Item not applicable
+785455,MCS,mcs3_cm_teacher_survey,q3b_4,CCTS: C - Relates addition to combining two groups,1.0,Yes
+785456,MCS,mcs3_cm_teacher_survey,q3b_4,CCTS: C - Relates addition to combining two groups,2.0,No
+785457,MCS,mcs3_cm_teacher_survey,q3b_5,CCTS: C - Relates subtraction to taking away,-9.0,Not answered (9)
+785458,MCS,mcs3_cm_teacher_survey,q3b_5,CCTS: C - Relates subtraction to taking away,-1.0,Item not applicable
+785459,MCS,mcs3_cm_teacher_survey,q3b_5,CCTS: C - Relates subtraction to taking away,1.0,Yes
+785460,MCS,mcs3_cm_teacher_survey,q3b_5,CCTS: C - Relates subtraction to taking away,2.0,No
+785461,MCS,mcs3_cm_teacher_survey,q3b_6,CCTS: C - In practical activities uses adding and subtracting vocabulary,-9.0,Not answered (9)
+785462,MCS,mcs3_cm_teacher_survey,q3b_6,CCTS: C - In practical activities uses adding and subtracting vocabulary,-1.0,Item not applicable
+785463,MCS,mcs3_cm_teacher_survey,q3b_6,CCTS: C - In practical activities uses adding and subtracting vocabulary,1.0,Yes
+785464,MCS,mcs3_cm_teacher_survey,q3b_6,CCTS: C - In practical activities uses adding and subtracting vocabulary,2.0,No
+785465,MCS,mcs3_cm_teacher_survey,q3b_7,CCTS: C - Finds one more or one less than a number from 1 to 10,-9.0,Not answered (9)
+785466,MCS,mcs3_cm_teacher_survey,q3b_7,CCTS: C - Finds one more or one less than a number from 1 to 10,-1.0,Item not applicable
+785467,MCS,mcs3_cm_teacher_survey,q3b_7,CCTS: C - Finds one more or one less than a number from 1 to 10,1.0,Yes
+785468,MCS,mcs3_cm_teacher_survey,q3b_7,CCTS: C - Finds one more or one less than a number from 1 to 10,2.0,No
+785469,MCS,mcs3_cm_teacher_survey,q3b_8,CCTS: C - Uses developing mathematical ideas and methods,-9.0,Not answered (9)
+785470,MCS,mcs3_cm_teacher_survey,q3b_8,CCTS: C - Uses developing mathematical ideas and methods,-1.0,Item not applicable
+785471,MCS,mcs3_cm_teacher_survey,q3b_8,CCTS: C - Uses developing mathematical ideas and methods,1.0,Yes
+785472,MCS,mcs3_cm_teacher_survey,q3b_8,CCTS: C - Uses developing mathematical ideas and methods,2.0,No
+785473,MCS,mcs3_cm_teacher_survey,q3b_9,CCTS: C - Uses a range of strategies for add / subtraction eg number bonds,-9.0,Not answered (9)
+785474,MCS,mcs3_cm_teacher_survey,q3b_9,CCTS: C - Uses a range of strategies for add / subtraction eg number bonds,-1.0,Item not applicable
+785475,MCS,mcs3_cm_teacher_survey,q3b_9,CCTS: C - Uses a range of strategies for add / subtraction eg number bonds,1.0,Yes
+785476,MCS,mcs3_cm_teacher_survey,q3b_9,CCTS: C - Uses a range of strategies for add / subtraction eg number bonds,2.0,No
+785477,MCS,mcs3_cm_teacher_survey,rawcalc,CCTS: C - Calculating raw score,,
+785478,MCS,mcs3_cm_teacher_survey,q3c_1,CCTS: SSM - Experiments with range of objects and materials showing awareness,-9.0,Not answered (9)
+785479,MCS,mcs3_cm_teacher_survey,q3c_1,CCTS: SSM - Experiments with range of objects and materials showing awareness,-1.0,Item not applicable
+785480,MCS,mcs3_cm_teacher_survey,q3c_1,CCTS: SSM - Experiments with range of objects and materials showing awareness,1.0,Yes
+785481,MCS,mcs3_cm_teacher_survey,q3c_1,CCTS: SSM - Experiments with range of objects and materials showing awareness,2.0,No
+785482,MCS,mcs3_cm_teacher_survey,q3c_2,CCTS: SSM - Sorts or matches objects and talks about sorting,-9.0,Not answered (9)
+785483,MCS,mcs3_cm_teacher_survey,q3c_2,CCTS: SSM - Sorts or matches objects and talks about sorting,-1.0,Item not applicable
+785484,MCS,mcs3_cm_teacher_survey,q3c_2,CCTS: SSM - Sorts or matches objects and talks about sorting,1.0,Yes
+785485,MCS,mcs3_cm_teacher_survey,q3c_2,CCTS: SSM - Sorts or matches objects and talks about sorting,2.0,No
+785486,MCS,mcs3_cm_teacher_survey,q3c_3,CCTS: SSM - Describes shapes in simple models,-9.0,Not answered (9)
+785487,MCS,mcs3_cm_teacher_survey,q3c_3,CCTS: SSM - Describes shapes in simple models,-1.0,Item not applicable
+785488,MCS,mcs3_cm_teacher_survey,q3c_3,CCTS: SSM - Describes shapes in simple models,1.0,Yes
+785489,MCS,mcs3_cm_teacher_survey,q3c_3,CCTS: SSM - Describes shapes in simple models,2.0,No
+785490,MCS,mcs3_cm_teacher_survey,q3c_4,CCTS: SSM - Talks about,-9.0,Not answered (9)
+785491,MCS,mcs3_cm_teacher_survey,q3c_4,CCTS: SSM - Talks about,-1.0,Item not applicable
+785492,MCS,mcs3_cm_teacher_survey,q3c_4,CCTS: SSM - Talks about,1.0,Yes
+785493,MCS,mcs3_cm_teacher_survey,q3c_4,CCTS: SSM - Talks about,2.0,No
+785494,MCS,mcs3_cm_teacher_survey,q3c_5,CCTS: SSM - Uses everyday words to describe position,-9.0,Not answered (9)
+785495,MCS,mcs3_cm_teacher_survey,q3c_5,CCTS: SSM - Uses everyday words to describe position,-1.0,Item not applicable
+785496,MCS,mcs3_cm_teacher_survey,q3c_5,CCTS: SSM - Uses everyday words to describe position,1.0,Yes
+785497,MCS,mcs3_cm_teacher_survey,q3c_5,CCTS: SSM - Uses everyday words to describe position,2.0,No
+785498,MCS,mcs3_cm_teacher_survey,q3c_6,CCTS: SSM - Uses language such as 'circle' or 'bigger' to describe,-9.0,Not answered (9)
+785499,MCS,mcs3_cm_teacher_survey,q3c_6,CCTS: SSM - Uses language such as 'circle' or 'bigger' to describe,-1.0,Item not applicable
+785500,MCS,mcs3_cm_teacher_survey,q3c_6,CCTS: SSM - Uses language such as 'circle' or 'bigger' to describe,1.0,Yes
+785501,MCS,mcs3_cm_teacher_survey,q3c_6,CCTS: SSM - Uses language such as 'circle' or 'bigger' to describe,2.0,No
+785502,MCS,mcs3_cm_teacher_survey,q3c_7,CCTS: SSM - Uses language such as 'greater',-9.0,Not answered (9)
+785503,MCS,mcs3_cm_teacher_survey,q3c_7,CCTS: SSM - Uses language such as 'greater',-1.0,Item not applicable
+785504,MCS,mcs3_cm_teacher_survey,q3c_7,CCTS: SSM - Uses language such as 'greater',1.0,Yes
+785505,MCS,mcs3_cm_teacher_survey,q3c_7,CCTS: SSM - Uses language such as 'greater',2.0,No
+785506,MCS,mcs3_cm_teacher_survey,q3c_8,CCTS: SSM - Uses developing mathematical ideas,-9.0,Not answered (9)
+785507,MCS,mcs3_cm_teacher_survey,q3c_8,CCTS: SSM - Uses developing mathematical ideas,-1.0,Item not applicable
+785508,MCS,mcs3_cm_teacher_survey,q3c_8,CCTS: SSM - Uses developing mathematical ideas,1.0,Yes
+785509,MCS,mcs3_cm_teacher_survey,q3c_8,CCTS: SSM - Uses developing mathematical ideas,2.0,No
+785510,MCS,mcs3_cm_teacher_survey,q3c_9,CCTS: SSM - Uses mathematical language to describe,-9.0,Not answered (9)
+785511,MCS,mcs3_cm_teacher_survey,q3c_9,CCTS: SSM - Uses mathematical language to describe,-1.0,Item not applicable
+785512,MCS,mcs3_cm_teacher_survey,q3c_9,CCTS: SSM - Uses mathematical language to describe,1.0,Yes
+785513,MCS,mcs3_cm_teacher_survey,q3c_9,CCTS: SSM - Uses mathematical language to describe,2.0,No
+785514,MCS,mcs3_cm_teacher_survey,rawssm,CCTS: SSM - Shapes,,
+785515,MCS,mcs3_cm_teacher_survey,rawmath,CCTS: MD - Mathematical Development raw score,,
+785516,MCS,mcs3_cm_teacher_survey,q4_1,CCTS: KUW - Shows curiosity and interest by exploring surroundings,-9.0,Not answered (9)
+785517,MCS,mcs3_cm_teacher_survey,q4_1,CCTS: KUW - Shows curiosity and interest by exploring surroundings,-1.0,Item not applicable
+785518,MCS,mcs3_cm_teacher_survey,q4_1,CCTS: KUW - Shows curiosity and interest by exploring surroundings,1.0,Yes
+785519,MCS,mcs3_cm_teacher_survey,q4_1,CCTS: KUW - Shows curiosity and interest by exploring surroundings,2.0,No
+785520,MCS,mcs3_cm_teacher_survey,q4_2,CCTS: KUW - Observes,-9.0,Not answered (9)
+785521,MCS,mcs3_cm_teacher_survey,q4_2,CCTS: KUW - Observes,-1.0,Item not applicable
+785522,MCS,mcs3_cm_teacher_survey,q4_2,CCTS: KUW - Observes,1.0,Yes
+785523,MCS,mcs3_cm_teacher_survey,q4_2,CCTS: KUW - Observes,2.0,No
+785524,MCS,mcs3_cm_teacher_survey,q4_3,CCTS: KUW - Identifies obvious similarities and differences,-9.0,Not answered (9)
+785525,MCS,mcs3_cm_teacher_survey,q4_3,CCTS: KUW - Identifies obvious similarities and differences,-1.0,Item not applicable
+785526,MCS,mcs3_cm_teacher_survey,q4_3,CCTS: KUW - Identifies obvious similarities and differences,1.0,Yes
+785527,MCS,mcs3_cm_teacher_survey,q4_3,CCTS: KUW - Identifies obvious similarities and differences,2.0,No
+785528,MCS,mcs3_cm_teacher_survey,q4_4,CCTS: KUW - Investigates places,-9.0,Not answered (9)
+785529,MCS,mcs3_cm_teacher_survey,q4_4,CCTS: KUW - Investigates places,-1.0,Item not applicable
+785530,MCS,mcs3_cm_teacher_survey,q4_4,CCTS: KUW - Investigates places,1.0,Yes
+785531,MCS,mcs3_cm_teacher_survey,q4_4,CCTS: KUW - Investigates places,2.0,No
+785532,MCS,mcs3_cm_teacher_survey,q4_5,CCTS: KUW - Asks questions about why things happen and how things work.,-9.0,Not answered (9)
+785533,MCS,mcs3_cm_teacher_survey,q4_5,CCTS: KUW - Asks questions about why things happen and how things work.,-1.0,Item not applicable
+785534,MCS,mcs3_cm_teacher_survey,q4_5,CCTS: KUW - Asks questions about why things happen and how things work.,1.0,Yes
+785535,MCS,mcs3_cm_teacher_survey,q4_5,CCTS: KUW - Asks questions about why things happen and how things work.,2.0,No
+785536,MCS,mcs3_cm_teacher_survey,q4_6,CCTS: KUW - Finds out past and present events in own life,-9.0,Not answered (9)
+785537,MCS,mcs3_cm_teacher_survey,q4_6,CCTS: KUW - Finds out past and present events in own life,-1.0,Item not applicable
+785538,MCS,mcs3_cm_teacher_survey,q4_6,CCTS: KUW - Finds out past and present events in own life,1.0,Yes
+785539,MCS,mcs3_cm_teacher_survey,q4_6,CCTS: KUW - Finds out past and present events in own life,2.0,No
+785540,MCS,mcs3_cm_teacher_survey,q4_7,CCTS: KUW - Finds out about the uses of everyday techniques,-9.0,Not answered (9)
+785541,MCS,mcs3_cm_teacher_survey,q4_7,CCTS: KUW - Finds out about the uses of everyday techniques,-1.0,Item not applicable
+785542,MCS,mcs3_cm_teacher_survey,q4_7,CCTS: KUW - Finds out about the uses of everyday techniques,1.0,Yes
+785543,MCS,mcs3_cm_teacher_survey,q4_7,CCTS: KUW - Finds out about the uses of everyday techniques,2.0,No
+785544,MCS,mcs3_cm_teacher_survey,q4_8,CCTS: KUW - Builds and constructs with a wide range of objects,-9.0,Not answered (9)
+785545,MCS,mcs3_cm_teacher_survey,q4_8,CCTS: KUW - Builds and constructs with a wide range of objects,-1.0,Item not applicable
+785546,MCS,mcs3_cm_teacher_survey,q4_8,CCTS: KUW - Builds and constructs with a wide range of objects,1.0,Yes
+785547,MCS,mcs3_cm_teacher_survey,q4_8,CCTS: KUW - Builds and constructs with a wide range of objects,2.0,No
+785548,MCS,mcs3_cm_teacher_survey,q4_9,CCTS: KUW - Communicates simple planning for investigations and constructions,-9.0,Not answered (9)
+785549,MCS,mcs3_cm_teacher_survey,q4_9,CCTS: KUW - Communicates simple planning for investigations and constructions,-1.0,Item not applicable
+785550,MCS,mcs3_cm_teacher_survey,q4_9,CCTS: KUW - Communicates simple planning for investigations and constructions,1.0,Yes
+785551,MCS,mcs3_cm_teacher_survey,q4_9,CCTS: KUW - Communicates simple planning for investigations and constructions,2.0,No
+785552,MCS,mcs3_cm_teacher_survey,rawkuw,CCTS: KUW - Knowledge and Understanding of the World raw score,,
+785553,MCS,mcs3_cm_teacher_survey,q5_1,CCTS: PD - Moves spontaneously showing some control and co-ordination,-9.0,Not answered (9)
+785554,MCS,mcs3_cm_teacher_survey,q5_1,CCTS: PD - Moves spontaneously showing some control and co-ordination,-1.0,Item not applicable
+785555,MCS,mcs3_cm_teacher_survey,q5_1,CCTS: PD - Moves spontaneously showing some control and co-ordination,1.0,Yes
+785556,MCS,mcs3_cm_teacher_survey,q5_1,CCTS: PD - Moves spontaneously showing some control and co-ordination,2.0,No
+785557,MCS,mcs3_cm_teacher_survey,q5_2,CCTS: PD - Moves with confidence in a variety of ways,-9.0,Not answered (9)
+785558,MCS,mcs3_cm_teacher_survey,q5_2,CCTS: PD - Moves with confidence in a variety of ways,-1.0,Item not applicable
+785559,MCS,mcs3_cm_teacher_survey,q5_2,CCTS: PD - Moves with confidence in a variety of ways,1.0,Yes
+785560,MCS,mcs3_cm_teacher_survey,q5_2,CCTS: PD - Moves with confidence in a variety of ways,2.0,No
+785561,MCS,mcs3_cm_teacher_survey,q5_3,CCTS: PD - Usually shows appropriate control in large,-9.0,Not answered (9)
+785562,MCS,mcs3_cm_teacher_survey,q5_3,CCTS: PD - Usually shows appropriate control in large,-1.0,Item not applicable
+785563,MCS,mcs3_cm_teacher_survey,q5_3,CCTS: PD - Usually shows appropriate control in large,1.0,Yes
+785564,MCS,mcs3_cm_teacher_survey,q5_3,CCTS: PD - Usually shows appropriate control in large,2.0,No
+785565,MCS,mcs3_cm_teacher_survey,q5_4,CCTS: PD - Moves with confidence,-9.0,Not answered (9)
+785566,MCS,mcs3_cm_teacher_survey,q5_4,CCTS: PD - Moves with confidence,-1.0,Item not applicable
+785567,MCS,mcs3_cm_teacher_survey,q5_4,CCTS: PD - Moves with confidence,1.0,Yes
+785568,MCS,mcs3_cm_teacher_survey,q5_4,CCTS: PD - Moves with confidence,2.0,No
+785569,MCS,mcs3_cm_teacher_survey,q5_5,CCTS: PD - Demonstrates fine motor control and co-ordination,-9.0,Not answered (9)
+785570,MCS,mcs3_cm_teacher_survey,q5_5,CCTS: PD - Demonstrates fine motor control and co-ordination,-1.0,Item not applicable
+785571,MCS,mcs3_cm_teacher_survey,q5_5,CCTS: PD - Demonstrates fine motor control and co-ordination,1.0,Yes
+785572,MCS,mcs3_cm_teacher_survey,q5_5,CCTS: PD - Demonstrates fine motor control and co-ordination,2.0,No
+785573,MCS,mcs3_cm_teacher_survey,q5_6,CCTS: PD - Uses small and large equipment showing a range of basic skills,-9.0,Not answered (9)
+785574,MCS,mcs3_cm_teacher_survey,q5_6,CCTS: PD - Uses small and large equipment showing a range of basic skills,-1.0,Item not applicable
+785575,MCS,mcs3_cm_teacher_survey,q5_6,CCTS: PD - Uses small and large equipment showing a range of basic skills,1.0,Yes
+785576,MCS,mcs3_cm_teacher_survey,q5_6,CCTS: PD - Uses small and large equipment showing a range of basic skills,2.0,No
+785577,MCS,mcs3_cm_teacher_survey,q5_7,CCTS: PD - Handles tools,-9.0,Not answered (9)
+785578,MCS,mcs3_cm_teacher_survey,q5_7,CCTS: PD - Handles tools,-1.0,Item not applicable
+785579,MCS,mcs3_cm_teacher_survey,q5_7,CCTS: PD - Handles tools,1.0,Yes
+785580,MCS,mcs3_cm_teacher_survey,q5_7,CCTS: PD - Handles tools,2.0,No
+785581,MCS,mcs3_cm_teacher_survey,q5_8,CCTS: PD - Recognises the importance of keeping healthy,-9.0,Not answered (9)
+785582,MCS,mcs3_cm_teacher_survey,q5_8,CCTS: PD - Recognises the importance of keeping healthy,-1.0,Item not applicable
+785583,MCS,mcs3_cm_teacher_survey,q5_8,CCTS: PD - Recognises the importance of keeping healthy,1.0,Yes
+785584,MCS,mcs3_cm_teacher_survey,q5_8,CCTS: PD - Recognises the importance of keeping healthy,2.0,No
+785585,MCS,mcs3_cm_teacher_survey,q5_9,CCTS: PD - Repeats,-9.0,Not answered (9)
+785586,MCS,mcs3_cm_teacher_survey,q5_9,CCTS: PD - Repeats,-1.0,Item not applicable
+785587,MCS,mcs3_cm_teacher_survey,q5_9,CCTS: PD - Repeats,1.0,Yes
+785588,MCS,mcs3_cm_teacher_survey,q5_9,CCTS: PD - Repeats,2.0,No
+785589,MCS,mcs3_cm_teacher_survey,rawpd,CCTS: PD - Physical Development raw score,,
+785590,MCS,mcs3_cm_teacher_survey,q6_1,CCTS: CD - Explores different media and responds to various experiences.,-9.0,Not answered (9)
+785591,MCS,mcs3_cm_teacher_survey,q6_1,CCTS: CD - Explores different media and responds to various experiences.,-1.0,Item not applicable
+785592,MCS,mcs3_cm_teacher_survey,q6_1,CCTS: CD - Explores different media and responds to various experiences.,1.0,Yes
+785593,MCS,mcs3_cm_teacher_survey,q6_1,CCTS: CD - Explores different media and responds to various experiences.,2.0,No
+785594,MCS,mcs3_cm_teacher_survey,q6_2,CCTS: CD - Creates simple representation of events,-9.0,Not answered (9)
+785595,MCS,mcs3_cm_teacher_survey,q6_2,CCTS: CD - Creates simple representation of events,-1.0,Item not applicable
+785596,MCS,mcs3_cm_teacher_survey,q6_2,CCTS: CD - Creates simple representation of events,1.0,Yes
+785597,MCS,mcs3_cm_teacher_survey,q6_2,CCTS: CD - Creates simple representation of events,2.0,No
+785598,MCS,mcs3_cm_teacher_survey,q6_3,CCTS: CD - Tries to capture experiences by using a variety of different media,-9.0,Not answered (9)
+785599,MCS,mcs3_cm_teacher_survey,q6_3,CCTS: CD - Tries to capture experiences by using a variety of different media,-1.0,Item not applicable
+785600,MCS,mcs3_cm_teacher_survey,q6_3,CCTS: CD - Tries to capture experiences by using a variety of different media,1.0,Yes
+785601,MCS,mcs3_cm_teacher_survey,q6_3,CCTS: CD - Tries to capture experiences by using a variety of different media,2.0,No
+785602,MCS,mcs3_cm_teacher_survey,q6_4,CCTS: CD - Sings simple songs from memory,-9.0,Not answered (9)
+785603,MCS,mcs3_cm_teacher_survey,q6_4,CCTS: CD - Sings simple songs from memory,-1.0,Item not applicable
+785604,MCS,mcs3_cm_teacher_survey,q6_4,CCTS: CD - Sings simple songs from memory,1.0,Yes
+785605,MCS,mcs3_cm_teacher_survey,q6_4,CCTS: CD - Sings simple songs from memory,2.0,No
+785606,MCS,mcs3_cm_teacher_survey,q6_5,CCTS: CD - Explores colour,-9.0,Not answered (9)
+785607,MCS,mcs3_cm_teacher_survey,q6_5,CCTS: CD - Explores colour,-1.0,Item not applicable
+785608,MCS,mcs3_cm_teacher_survey,q6_5,CCTS: CD - Explores colour,1.0,Yes
+785609,MCS,mcs3_cm_teacher_survey,q6_5,CCTS: CD - Explores colour,2.0,No
+785610,MCS,mcs3_cm_teacher_survey,q6_6,CCTS: CD - Recognises and explores how sounds can be changed,-9.0,Not answered (9)
+785611,MCS,mcs3_cm_teacher_survey,q6_6,CCTS: CD - Recognises and explores how sounds can be changed,-1.0,Item not applicable
+785612,MCS,mcs3_cm_teacher_survey,q6_6,CCTS: CD - Recognises and explores how sounds can be changed,1.0,Yes
+785613,MCS,mcs3_cm_teacher_survey,q6_6,CCTS: CD - Recognises and explores how sounds can be changed,2.0,No
+785614,MCS,mcs3_cm_teacher_survey,q6_7,CCTS: CD - Uses imagination in art and design,-9.0,Not answered (9)
+785615,MCS,mcs3_cm_teacher_survey,q6_7,CCTS: CD - Uses imagination in art and design,-1.0,Item not applicable
+785616,MCS,mcs3_cm_teacher_survey,q6_7,CCTS: CD - Uses imagination in art and design,1.0,Yes
+785617,MCS,mcs3_cm_teacher_survey,q6_7,CCTS: CD - Uses imagination in art and design,2.0,No
+785618,MCS,mcs3_cm_teacher_survey,q6_8,CCTS: CD - Expresses and communicates ideas,2.0,No
+785619,MCS,mcs3_cm_teacher_survey,q6_8,CCTS: CD - Expresses and communicates ideas,-9.0,Not answered (9)
+785620,MCS,mcs3_cm_teacher_survey,q6_8,CCTS: CD - Expresses and communicates ideas,-1.0,Item not applicable
+785621,MCS,mcs3_cm_teacher_survey,q6_8,CCTS: CD - Expresses and communicates ideas,1.0,Yes
+785622,MCS,mcs3_cm_teacher_survey,q6_9,CCTS: CD - Expresses feelings and preferences in response to artwork,-9.0,Not answered (9)
+785623,MCS,mcs3_cm_teacher_survey,q6_9,CCTS: CD - Expresses feelings and preferences in response to artwork,-1.0,Item not applicable
+785624,MCS,mcs3_cm_teacher_survey,q6_9,CCTS: CD - Expresses feelings and preferences in response to artwork,1.0,Yes
+785625,MCS,mcs3_cm_teacher_survey,q6_9,CCTS: CD - Expresses feelings and preferences in response to artwork,2.0,No
+785626,MCS,mcs3_cm_teacher_survey,rawcd,CCTS: CD - Creative Development raw score,,
+785627,MCS,mcs3_cm_teacher_survey,rawtot,CCTS: Total Raw Score,,
+785628,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,-9.0,Not answered (9)
+785629,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,-1.0,Item not applicable
+785630,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,1.0,Fluent in Welsh
+785631,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,2.0,Can speak a lot of Welsh
+785632,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,3.0,Can speak a little Welsh
+785633,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,4.0,Can only say a few words in Welsh
+785634,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,5.0,Does not speak Welsh
+785635,MCS,mcs3_cm_teacher_survey,q7_1,CCTS: Which of the following best describes the child's ability in Welsh,6.0,Don't know
+785636,MCS,mcs3_cm_teacher_survey,q7_2,CCTS: Is this an Irish-medium school?,-9.0,Not answered (9)
+785637,MCS,mcs3_cm_teacher_survey,q7_2,CCTS: Is this an Irish-medium school?,-1.0,Item not applicable
+785638,MCS,mcs3_cm_teacher_survey,q7_2,CCTS: Is this an Irish-medium school?,1.0,Yes
+785639,MCS,mcs3_cm_teacher_survey,q7_2,CCTS: Is this an Irish-medium school?,2.0,No
+785640,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,-9.0,Not answered (99)
+785641,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,-1.0,Item not applicable
+785642,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,1.0,Welsh/Irish only
+785643,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,2.0,Mainly Welsh/Irish
+785644,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,3.0,Welsh/Irish and English in roughly equa
+785645,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,4.0,Mainly English
+785646,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,5.0,English only
+785647,MCS,mcs3_cm_teacher_survey,q7_3,CCTS: Please state in which language the child is educated,6.0,Other (please write in)
+785648,MCS,mcs3_cm_teacher_survey,avail_from_dt,,,
+785649,MCS,mcs3_cm_teacher_survey,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

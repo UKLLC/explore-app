@@ -1,0 +1,479 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+667609,ELSA,wave_9_elsa_data_eul_fq,study_id_e,,,
+667610,ELSA,wave_9_elsa_data_eul_fq,perid,Person number in household,-9.0,Refused
+667611,ELSA,wave_9_elsa_data_eul_fq,perid,Person number in household,-8.0,Don't know
+667612,ELSA,wave_9_elsa_data_eul_fq,perid,Person number in household,-1.0,Not applicable
+667613,ELSA,wave_9_elsa_data_eul_fq,iintdatd,interview day   - individual interview,,
+667614,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,-9.0,Refused
+667615,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,-8.0,Don't know
+667616,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,-1.0,Not applicable
+667617,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,1.0,January
+667618,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,2.0,February
+667619,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,3.0,March
+667620,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,4.0,April
+667621,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,5.0,May
+667622,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,6.0,June
+667623,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,7.0,July
+667624,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,8.0,August
+667625,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,9.0,September
+667626,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,10.0,October
+667627,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,11.0,November
+667628,ELSA,wave_9_elsa_data_eul_fq,iintdatm,interview month - individual interview,12.0,December
+667629,ELSA,wave_9_elsa_data_eul_fq,iintdaty,interview year  - individual interview,,
+667630,ELSA,wave_9_elsa_data_eul_fq,fqmqua,Whether obtained qualifications since last interview,-9.0,Refused
+667631,ELSA,wave_9_elsa_data_eul_fq,fqmqua,Whether obtained qualifications since last interview,-8.0,Don't Know
+667632,ELSA,wave_9_elsa_data_eul_fq,fqmqua,Whether obtained qualifications since last interview,-1.0,Not applicable
+667633,ELSA,wave_9_elsa_data_eul_fq,fqmqua,Whether obtained qualifications since last interview,1.0,Yes
+667634,ELSA,wave_9_elsa_data_eul_fq,fqmqua,Whether obtained qualifications since last interview,2.0,No
+667635,ELSA,wave_9_elsa_data_eul_fq,fqaqua,Whether has any qualifications (listed on card),-9.0,Refused
+667636,ELSA,wave_9_elsa_data_eul_fq,fqaqua,Whether has any qualifications (listed on card),-8.0,Don't Know
+667637,ELSA,wave_9_elsa_data_eul_fq,fqaqua,Whether has any qualifications (listed on card),-1.0,Not applicable
+667638,ELSA,wave_9_elsa_data_eul_fq,fqaqua,Whether has any qualifications (listed on card),1.0,Yes
+667639,ELSA,wave_9_elsa_data_eul_fq,fqaqua,Whether has any qualifications (listed on card),2.0,No
+667640,ELSA,wave_9_elsa_data_eul_fq,fqquadeg,Qualification type: degree/degree level qualification (including higher degree),-9.0,Refused
+667641,ELSA,wave_9_elsa_data_eul_fq,fqquadeg,Qualification type: degree/degree level qualification (including higher degree),-8.0,Don't Know
+667642,ELSA,wave_9_elsa_data_eul_fq,fqquadeg,Qualification type: degree/degree level qualification (including higher degree),-1.0,Not applicable
+667643,ELSA,wave_9_elsa_data_eul_fq,fqquadeg,Qualification type: degree/degree level qualification (including higher degree),0.0,Not mentioned
+667644,ELSA,wave_9_elsa_data_eul_fq,fqquadeg,Qualification type: degree/degree level qualification (including higher degree),1.0,Mentioned
+667645,ELSA,wave_9_elsa_data_eul_fq,fqquatea,Qualification type: teaching qualification,-9.0,Refused
+667646,ELSA,wave_9_elsa_data_eul_fq,fqquatea,Qualification type: teaching qualification,-8.0,Don't Know
+667647,ELSA,wave_9_elsa_data_eul_fq,fqquatea,Qualification type: teaching qualification,-1.0,Not applicable
+667648,ELSA,wave_9_elsa_data_eul_fq,fqquatea,Qualification type: teaching qualification,0.0,Not mentioned
+667649,ELSA,wave_9_elsa_data_eul_fq,fqquatea,Qualification type: teaching qualification,1.0,Mentioned
+667650,ELSA,wave_9_elsa_data_eul_fq,fqquanur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife,-9.0,Refused
+667651,ELSA,wave_9_elsa_data_eul_fq,fqquanur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife,-8.0,Don't Know
+667652,ELSA,wave_9_elsa_data_eul_fq,fqquanur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife,-1.0,Not applicable
+667653,ELSA,wave_9_elsa_data_eul_fq,fqquanur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife,0.0,Not mentioned
+667654,ELSA,wave_9_elsa_data_eul_fq,fqquanur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife,1.0,Mentioned
+667655,ELSA,wave_9_elsa_data_eul_fq,fqquahnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher,-9.0,Refused
+667656,ELSA,wave_9_elsa_data_eul_fq,fqquahnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher,-8.0,Don't Know
+667657,ELSA,wave_9_elsa_data_eul_fq,fqquahnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher,-1.0,Not applicable
+667658,ELSA,wave_9_elsa_data_eul_fq,fqquahnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher,0.0,Not mentioned
+667659,ELSA,wave_9_elsa_data_eul_fq,fqquahnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher,1.0,Mentioned
+667660,ELSA,wave_9_elsa_data_eul_fq,fqquaonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher,-9.0,Refused
+667661,ELSA,wave_9_elsa_data_eul_fq,fqquaonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher,-8.0,Don't Know
+667662,ELSA,wave_9_elsa_data_eul_fq,fqquaonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher,-1.0,Not applicable
+667663,ELSA,wave_9_elsa_data_eul_fq,fqquaonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher,0.0,Not mentioned
+667664,ELSA,wave_9_elsa_data_eul_fq,fqquaonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher,1.0,Mentioned
+667665,ELSA,wave_9_elsa_data_eul_fq,fqquacgf,Qualification type: City and Guilds Full Technological Certificate,-9.0,Refused
+667666,ELSA,wave_9_elsa_data_eul_fq,fqquacgf,Qualification type: City and Guilds Full Technological Certificate,-8.0,Don't Know
+667667,ELSA,wave_9_elsa_data_eul_fq,fqquacgf,Qualification type: City and Guilds Full Technological Certificate,-1.0,Not applicable
+667668,ELSA,wave_9_elsa_data_eul_fq,fqquacgf,Qualification type: City and Guilds Full Technological Certificate,0.0,Not mentioned
+667669,ELSA,wave_9_elsa_data_eul_fq,fqquacgf,Qualification type: City and Guilds Full Technological Certificate,1.0,Mentioned
+667670,ELSA,wave_9_elsa_data_eul_fq,fqquacga,Qualification type: City and Guilds Advanced/Final Level,-9.0,Refused
+667671,ELSA,wave_9_elsa_data_eul_fq,fqquacga,Qualification type: City and Guilds Advanced/Final Level,-8.0,Don't Know
+667672,ELSA,wave_9_elsa_data_eul_fq,fqquacga,Qualification type: City and Guilds Advanced/Final Level,-1.0,Not applicable
+667673,ELSA,wave_9_elsa_data_eul_fq,fqquacga,Qualification type: City and Guilds Advanced/Final Level,0.0,Not mentioned
+667674,ELSA,wave_9_elsa_data_eul_fq,fqquacga,Qualification type: City and Guilds Advanced/Final Level,1.0,Mentioned
+667675,ELSA,wave_9_elsa_data_eul_fq,fqquacgo,Qualification type: City and Guilds Craft/Ordinary Level,-9.0,Refused
+667676,ELSA,wave_9_elsa_data_eul_fq,fqquacgo,Qualification type: City and Guilds Craft/Ordinary Level,-8.0,Don't Know
+667677,ELSA,wave_9_elsa_data_eul_fq,fqquacgo,Qualification type: City and Guilds Craft/Ordinary Level,-1.0,Not applicable
+667678,ELSA,wave_9_elsa_data_eul_fq,fqquacgo,Qualification type: City and Guilds Craft/Ordinary Level,0.0,Not mentioned
+667679,ELSA,wave_9_elsa_data_eul_fq,fqquacgo,Qualification type: City and Guilds Craft/Ordinary Level,1.0,Mentioned
+667680,ELSA,wave_9_elsa_data_eul_fq,fqquaale,Qualification type: A-levels/Higher School Certificate,-9.0,Refused
+667681,ELSA,wave_9_elsa_data_eul_fq,fqquaale,Qualification type: A-levels/Higher School Certificate,-8.0,Don't Know
+667682,ELSA,wave_9_elsa_data_eul_fq,fqquaale,Qualification type: A-levels/Higher School Certificate,-1.0,Not applicable
+667683,ELSA,wave_9_elsa_data_eul_fq,fqquaale,Qualification type: A-levels/Higher School Certificate,0.0,Not mentioned
+667684,ELSA,wave_9_elsa_data_eul_fq,fqquaale,Qualification type: A-levels/Higher School Certificate,1.0,Mentioned
+667685,ELSA,wave_9_elsa_data_eul_fq,fqquaasl,Qualification type: AS level,-9.0,Refused
+667686,ELSA,wave_9_elsa_data_eul_fq,fqquaasl,Qualification type: AS level,-8.0,Don't Know
+667687,ELSA,wave_9_elsa_data_eul_fq,fqquaasl,Qualification type: AS level,-1.0,Not applicable
+667688,ELSA,wave_9_elsa_data_eul_fq,fqquaasl,Qualification type: AS level,0.0,Not mentioned
+667689,ELSA,wave_9_elsa_data_eul_fq,fqquaasl,Qualification type: AS level,1.0,Mentioned
+667690,ELSA,wave_9_elsa_data_eul_fq,fqquaslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,-9.0,Refused
+667691,ELSA,wave_9_elsa_data_eul_fq,fqquaslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,-8.0,Don't Know
+667692,ELSA,wave_9_elsa_data_eul_fq,fqquaslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,-1.0,Not applicable
+667693,ELSA,wave_9_elsa_data_eul_fq,fqquaslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,0.0,Not mentioned
+667694,ELSA,wave_9_elsa_data_eul_fq,fqquaslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,1.0,Mentioned
+667695,ELSA,wave_9_elsa_data_eul_fq,fqquaolp,Qualification type: O-level passes taken in 1975 or earlier,-9.0,Refused
+667696,ELSA,wave_9_elsa_data_eul_fq,fqquaolp,Qualification type: O-level passes taken in 1975 or earlier,-8.0,Don't Know
+667697,ELSA,wave_9_elsa_data_eul_fq,fqquaolp,Qualification type: O-level passes taken in 1975 or earlier,-1.0,Not applicable
+667698,ELSA,wave_9_elsa_data_eul_fq,fqquaolp,Qualification type: O-level passes taken in 1975 or earlier,0.0,Not mentioned
+667699,ELSA,wave_9_elsa_data_eul_fq,fqquaolp,Qualification type: O-level passes taken in 1975 or earlier,1.0,Mentioned
+667700,ELSA,wave_9_elsa_data_eul_fq,fqquaola,Qualification type: O-level passes taken after 1975 GRADES A-C,-9.0,Refused
+667701,ELSA,wave_9_elsa_data_eul_fq,fqquaola,Qualification type: O-level passes taken after 1975 GRADES A-C,-8.0,Don't Know
+667702,ELSA,wave_9_elsa_data_eul_fq,fqquaola,Qualification type: O-level passes taken after 1975 GRADES A-C,-1.0,Not applicable
+667703,ELSA,wave_9_elsa_data_eul_fq,fqquaola,Qualification type: O-level passes taken after 1975 GRADES A-C,0.0,Not mentioned
+667704,ELSA,wave_9_elsa_data_eul_fq,fqquaola,Qualification type: O-level passes taken after 1975 GRADES A-C,1.0,Mentioned
+667705,ELSA,wave_9_elsa_data_eul_fq,fqquaold,Qualification type: O-level passes taken after 1975 GRADES D-E,-9.0,Refused
+667706,ELSA,wave_9_elsa_data_eul_fq,fqquaold,Qualification type: O-level passes taken after 1975 GRADES D-E,-8.0,Don't Know
+667707,ELSA,wave_9_elsa_data_eul_fq,fqquaold,Qualification type: O-level passes taken after 1975 GRADES D-E,-1.0,Not applicable
+667708,ELSA,wave_9_elsa_data_eul_fq,fqquaold,Qualification type: O-level passes taken after 1975 GRADES D-E,0.0,Not mentioned
+667709,ELSA,wave_9_elsa_data_eul_fq,fqquaold,Qualification type: O-level passes taken after 1975 GRADES D-E,1.0,Mentioned
+667710,ELSA,wave_9_elsa_data_eul_fq,fqquagca,Qualification type: GCSE GRADES A-C,-9.0,Refused
+667711,ELSA,wave_9_elsa_data_eul_fq,fqquagca,Qualification type: GCSE GRADES A-C,-8.0,Don't Know
+667712,ELSA,wave_9_elsa_data_eul_fq,fqquagca,Qualification type: GCSE GRADES A-C,-1.0,Not applicable
+667713,ELSA,wave_9_elsa_data_eul_fq,fqquagca,Qualification type: GCSE GRADES A-C,0.0,Not mentioned
+667714,ELSA,wave_9_elsa_data_eul_fq,fqquagca,Qualification type: GCSE GRADES A-C,1.0,Mentioned
+667715,ELSA,wave_9_elsa_data_eul_fq,fqquagcd,Qualification type: GCSE GRADES D-G,-9.0,Refused
+667716,ELSA,wave_9_elsa_data_eul_fq,fqquagcd,Qualification type: GCSE GRADES D-G,-8.0,Don't Know
+667717,ELSA,wave_9_elsa_data_eul_fq,fqquagcd,Qualification type: GCSE GRADES D-G,-1.0,Not applicable
+667718,ELSA,wave_9_elsa_data_eul_fq,fqquagcd,Qualification type: GCSE GRADES D-G,0.0,Not mentioned
+667719,ELSA,wave_9_elsa_data_eul_fq,fqquagcd,Qualification type: GCSE GRADES D-G,1.0,Mentioned
+667720,ELSA,wave_9_elsa_data_eul_fq,fqquacs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3,-9.0,Refused
+667721,ELSA,wave_9_elsa_data_eul_fq,fqquacs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3,-8.0,Don't Know
+667722,ELSA,wave_9_elsa_data_eul_fq,fqquacs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3,-1.0,Not applicable
+667723,ELSA,wave_9_elsa_data_eul_fq,fqquacs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3,0.0,Not mentioned
+667724,ELSA,wave_9_elsa_data_eul_fq,fqquacs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3,1.0,Mentioned
+667725,ELSA,wave_9_elsa_data_eul_fq,fqquacs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E,-9.0,Refused
+667726,ELSA,wave_9_elsa_data_eul_fq,fqquacs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E,-8.0,Don't Know
+667727,ELSA,wave_9_elsa_data_eul_fq,fqquacs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E,-1.0,Not applicable
+667728,ELSA,wave_9_elsa_data_eul_fq,fqquacs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E,0.0,Not mentioned
+667729,ELSA,wave_9_elsa_data_eul_fq,fqquacs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E,1.0,Mentioned
+667730,ELSA,wave_9_elsa_data_eul_fq,fqquacsu,Qualification type: CSE Ungraded,-9.0,Refused
+667731,ELSA,wave_9_elsa_data_eul_fq,fqquacsu,Qualification type: CSE Ungraded,-8.0,Don't Know
+667732,ELSA,wave_9_elsa_data_eul_fq,fqquacsu,Qualification type: CSE Ungraded,-1.0,Not applicable
+667733,ELSA,wave_9_elsa_data_eul_fq,fqquacsu,Qualification type: CSE Ungraded,0.0,Not mentioned
+667734,ELSA,wave_9_elsa_data_eul_fq,fqquacsu,Qualification type: CSE Ungraded,1.0,Mentioned
+667735,ELSA,wave_9_elsa_data_eul_fq,fqquasll,Qualification type: SLC Lower,-9.0,Refused
+667736,ELSA,wave_9_elsa_data_eul_fq,fqquasll,Qualification type: SLC Lower,-8.0,Don't Know
+667737,ELSA,wave_9_elsa_data_eul_fq,fqquasll,Qualification type: SLC Lower,-1.0,Not applicable
+667738,ELSA,wave_9_elsa_data_eul_fq,fqquasll,Qualification type: SLC Lower,0.0,Not mentioned
+667739,ELSA,wave_9_elsa_data_eul_fq,fqquasll,Qualification type: SLC Lower,1.0,Mentioned
+667740,ELSA,wave_9_elsa_data_eul_fq,fqquasup,Qualification type: SUPE Lower or Ordinary,-9.0,Refused
+667741,ELSA,wave_9_elsa_data_eul_fq,fqquasup,Qualification type: SUPE Lower or Ordinary,-8.0,Don't Know
+667742,ELSA,wave_9_elsa_data_eul_fq,fqquasup,Qualification type: SUPE Lower or Ordinary,-1.0,Not applicable
+667743,ELSA,wave_9_elsa_data_eul_fq,fqquasup,Qualification type: SUPE Lower or Ordinary,0.0,Not mentioned
+667744,ELSA,wave_9_elsa_data_eul_fq,fqquasup,Qualification type: SUPE Lower or Ordinary,1.0,Mentioned
+667745,ELSA,wave_9_elsa_data_eul_fq,fqquamat,Qualification type: School Certificate or Matric,-9.0,Refused
+667746,ELSA,wave_9_elsa_data_eul_fq,fqquamat,Qualification type: School Certificate or Matric,-8.0,Don't Know
+667747,ELSA,wave_9_elsa_data_eul_fq,fqquamat,Qualification type: School Certificate or Matric,-1.0,Not applicable
+667748,ELSA,wave_9_elsa_data_eul_fq,fqquamat,Qualification type: School Certificate or Matric,0.0,Not mentioned
+667749,ELSA,wave_9_elsa_data_eul_fq,fqquamat,Qualification type: School Certificate or Matric,1.0,Mentioned
+667750,ELSA,wave_9_elsa_data_eul_fq,fqquanv5,Qualification type: NVQ Level 5,-9.0,Refused
+667751,ELSA,wave_9_elsa_data_eul_fq,fqquanv5,Qualification type: NVQ Level 5,-8.0,Don't Know
+667752,ELSA,wave_9_elsa_data_eul_fq,fqquanv5,Qualification type: NVQ Level 5,-1.0,Not applicable
+667753,ELSA,wave_9_elsa_data_eul_fq,fqquanv5,Qualification type: NVQ Level 5,0.0,Not mentioned
+667754,ELSA,wave_9_elsa_data_eul_fq,fqquanv5,Qualification type: NVQ Level 5,1.0,Mentioned
+667755,ELSA,wave_9_elsa_data_eul_fq,fqquanv4,Qualification type: NVQ Level 4,-9.0,Refused
+667756,ELSA,wave_9_elsa_data_eul_fq,fqquanv4,Qualification type: NVQ Level 4,-8.0,Don't Know
+667757,ELSA,wave_9_elsa_data_eul_fq,fqquanv4,Qualification type: NVQ Level 4,-1.0,Not applicable
+667758,ELSA,wave_9_elsa_data_eul_fq,fqquanv4,Qualification type: NVQ Level 4,0.0,Not mentioned
+667759,ELSA,wave_9_elsa_data_eul_fq,fqquanv4,Qualification type: NVQ Level 4,1.0,Mentioned
+667760,ELSA,wave_9_elsa_data_eul_fq,fqquanv3,Qualification type: NVQ Level 3/Advanced level GNVQ,-9.0,Refused
+667761,ELSA,wave_9_elsa_data_eul_fq,fqquanv3,Qualification type: NVQ Level 3/Advanced level GNVQ,-8.0,Don't Know
+667762,ELSA,wave_9_elsa_data_eul_fq,fqquanv3,Qualification type: NVQ Level 3/Advanced level GNVQ,-1.0,Not applicable
+667763,ELSA,wave_9_elsa_data_eul_fq,fqquanv3,Qualification type: NVQ Level 3/Advanced level GNVQ,0.0,Not mentioned
+667764,ELSA,wave_9_elsa_data_eul_fq,fqquanv3,Qualification type: NVQ Level 3/Advanced level GNVQ,1.0,Mentioned
+667765,ELSA,wave_9_elsa_data_eul_fq,fqquanv2,Qualification type: NVQ Level 2/Intermediate level GNVQ,-9.0,Refused
+667766,ELSA,wave_9_elsa_data_eul_fq,fqquanv2,Qualification type: NVQ Level 2/Intermediate level GNVQ,-8.0,Don't Know
+667767,ELSA,wave_9_elsa_data_eul_fq,fqquanv2,Qualification type: NVQ Level 2/Intermediate level GNVQ,-1.0,Not applicable
+667768,ELSA,wave_9_elsa_data_eul_fq,fqquanv2,Qualification type: NVQ Level 2/Intermediate level GNVQ,0.0,Not mentioned
+667769,ELSA,wave_9_elsa_data_eul_fq,fqquanv2,Qualification type: NVQ Level 2/Intermediate level GNVQ,1.0,Mentioned
+667770,ELSA,wave_9_elsa_data_eul_fq,fqquanv1,Qualification type: NVQ Level 1/Foundation level GNVQ,-9.0,Refused
+667771,ELSA,wave_9_elsa_data_eul_fq,fqquanv1,Qualification type: NVQ Level 1/Foundation level GNVQ,-8.0,Don't Know
+667772,ELSA,wave_9_elsa_data_eul_fq,fqquanv1,Qualification type: NVQ Level 1/Foundation level GNVQ,-1.0,Not applicable
+667773,ELSA,wave_9_elsa_data_eul_fq,fqquanv1,Qualification type: NVQ Level 1/Foundation level GNVQ,0.0,Not mentioned
+667774,ELSA,wave_9_elsa_data_eul_fq,fqquanv1,Qualification type: NVQ Level 1/Foundation level GNVQ,1.0,Mentioned
+667775,ELSA,wave_9_elsa_data_eul_fq,fqquatra,Qualification type: recognised trade apprenticeship completed,-9.0,Refused
+667776,ELSA,wave_9_elsa_data_eul_fq,fqquatra,Qualification type: recognised trade apprenticeship completed,-8.0,Don't Know
+667777,ELSA,wave_9_elsa_data_eul_fq,fqquatra,Qualification type: recognised trade apprenticeship completed,-1.0,Not applicable
+667778,ELSA,wave_9_elsa_data_eul_fq,fqquatra,Qualification type: recognised trade apprenticeship completed,0.0,Not mentioned
+667779,ELSA,wave_9_elsa_data_eul_fq,fqquatra,Qualification type: recognised trade apprenticeship completed,1.0,Mentioned
+667780,ELSA,wave_9_elsa_data_eul_fq,fqquacle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,-9.0,Refused
+667781,ELSA,wave_9_elsa_data_eul_fq,fqquacle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,-8.0,Don't Know
+667782,ELSA,wave_9_elsa_data_eul_fq,fqquacle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,-1.0,Not applicable
+667783,ELSA,wave_9_elsa_data_eul_fq,fqquacle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,0.0,Not mentioned
+667784,ELSA,wave_9_elsa_data_eul_fq,fqquacle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,1.0,Mentioned
+667785,ELSA,wave_9_elsa_data_eul_fq,fqqua95,Qualification type: other qualification,-9.0,Refused
+667786,ELSA,wave_9_elsa_data_eul_fq,fqqua95,Qualification type: other qualification,-8.0,Don't Know
+667787,ELSA,wave_9_elsa_data_eul_fq,fqqua95,Qualification type: other qualification,-1.0,Not applicable
+667788,ELSA,wave_9_elsa_data_eul_fq,fqqua95,Qualification type: other qualification,0.0,Not mentioned
+667789,ELSA,wave_9_elsa_data_eul_fq,fqqua95,Qualification type: other qualification,1.0,Mentioned
+667790,ELSA,wave_9_elsa_data_eul_fq,fqqumdeg,Qualification type: degree/degree level qualification (including higher degree) ,-9.0,Refused
+667791,ELSA,wave_9_elsa_data_eul_fq,fqqumdeg,Qualification type: degree/degree level qualification (including higher degree) ,-8.0,Don't Know
+667792,ELSA,wave_9_elsa_data_eul_fq,fqqumdeg,Qualification type: degree/degree level qualification (including higher degree) ,-1.0,Not applicable
+667793,ELSA,wave_9_elsa_data_eul_fq,fqqumdeg,Qualification type: degree/degree level qualification (including higher degree) ,0.0,Not mentioned
+667794,ELSA,wave_9_elsa_data_eul_fq,fqqumdeg,Qualification type: degree/degree level qualification (including higher degree) ,1.0,Mentioned
+667795,ELSA,wave_9_elsa_data_eul_fq,fqqumtea,Qualification type: teaching qualification (merged),-9.0,Refused
+667796,ELSA,wave_9_elsa_data_eul_fq,fqqumtea,Qualification type: teaching qualification (merged),-8.0,Don't Know
+667797,ELSA,wave_9_elsa_data_eul_fq,fqqumtea,Qualification type: teaching qualification (merged),-1.0,Not applicable
+667798,ELSA,wave_9_elsa_data_eul_fq,fqqumtea,Qualification type: teaching qualification (merged),0.0,Not mentioned
+667799,ELSA,wave_9_elsa_data_eul_fq,fqqumtea,Qualification type: teaching qualification (merged),1.0,Mentioned
+667800,ELSA,wave_9_elsa_data_eul_fq,fqqumnur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife ,-9.0,Refused
+667801,ELSA,wave_9_elsa_data_eul_fq,fqqumnur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife ,-8.0,Don't Know
+667802,ELSA,wave_9_elsa_data_eul_fq,fqqumnur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife ,-1.0,Not applicable
+667803,ELSA,wave_9_elsa_data_eul_fq,fqqumnur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife ,0.0,Not mentioned
+667804,ELSA,wave_9_elsa_data_eul_fq,fqqumnur,Qualification type: nursing qualifications SRN; SCM; SEN; RGN; RM; RHV; Midwife ,1.0,Mentioned
+667805,ELSA,wave_9_elsa_data_eul_fq,fqqumhnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher (merged),-9.0,Refused
+667806,ELSA,wave_9_elsa_data_eul_fq,fqqumhnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher (merged),-8.0,Don't Know
+667807,ELSA,wave_9_elsa_data_eul_fq,fqqumhnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher (merged),-1.0,Not applicable
+667808,ELSA,wave_9_elsa_data_eul_fq,fqqumhnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher (merged),0.0,Not mentioned
+667809,ELSA,wave_9_elsa_data_eul_fq,fqqumhnc,Qualification type: HNC/HND; BEC/TEC Higher; BTEC Higher/SCOTECH Higher (merged),1.0,Mentioned
+667810,ELSA,wave_9_elsa_data_eul_fq,fqqumonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher (merged),-9.0,Refused
+667811,ELSA,wave_9_elsa_data_eul_fq,fqqumonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher (merged),-8.0,Don't Know
+667812,ELSA,wave_9_elsa_data_eul_fq,fqqumonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher (merged),-1.0,Not applicable
+667813,ELSA,wave_9_elsa_data_eul_fq,fqqumonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher (merged),0.0,Not mentioned
+667814,ELSA,wave_9_elsa_data_eul_fq,fqqumonc,Qualification type: ONC/OND/BEC/TEC/BTEC not higher (merged),1.0,Mentioned
+667815,ELSA,wave_9_elsa_data_eul_fq,fqqumcgf,Qualification type: City and Guilds Full Technological Certificate (merged),-9.0,Refused
+667816,ELSA,wave_9_elsa_data_eul_fq,fqqumcgf,Qualification type: City and Guilds Full Technological Certificate (merged),-8.0,Don't Know
+667817,ELSA,wave_9_elsa_data_eul_fq,fqqumcgf,Qualification type: City and Guilds Full Technological Certificate (merged),-1.0,Not applicable
+667818,ELSA,wave_9_elsa_data_eul_fq,fqqumcgf,Qualification type: City and Guilds Full Technological Certificate (merged),0.0,Not mentioned
+667819,ELSA,wave_9_elsa_data_eul_fq,fqqumcgf,Qualification type: City and Guilds Full Technological Certificate (merged),1.0,Mentioned
+667820,ELSA,wave_9_elsa_data_eul_fq,fqqumcga,Qualification type: City and Guilds Advanced/Final Level (merged),-9.0,Refused
+667821,ELSA,wave_9_elsa_data_eul_fq,fqqumcga,Qualification type: City and Guilds Advanced/Final Level (merged),-8.0,Don't Know
+667822,ELSA,wave_9_elsa_data_eul_fq,fqqumcga,Qualification type: City and Guilds Advanced/Final Level (merged),-1.0,Not applicable
+667823,ELSA,wave_9_elsa_data_eul_fq,fqqumcga,Qualification type: City and Guilds Advanced/Final Level (merged),0.0,Not mentioned
+667824,ELSA,wave_9_elsa_data_eul_fq,fqqumcga,Qualification type: City and Guilds Advanced/Final Level (merged),1.0,Mentioned
+667825,ELSA,wave_9_elsa_data_eul_fq,fqqumcgo,Qualification type: City and Guilds Craft/Ordinary Level (merged),-9.0,Refused
+667826,ELSA,wave_9_elsa_data_eul_fq,fqqumcgo,Qualification type: City and Guilds Craft/Ordinary Level (merged),-8.0,Don't Know
+667827,ELSA,wave_9_elsa_data_eul_fq,fqqumcgo,Qualification type: City and Guilds Craft/Ordinary Level (merged),-1.0,Not applicable
+667828,ELSA,wave_9_elsa_data_eul_fq,fqqumcgo,Qualification type: City and Guilds Craft/Ordinary Level (merged),0.0,Not mentioned
+667829,ELSA,wave_9_elsa_data_eul_fq,fqqumcgo,Qualification type: City and Guilds Craft/Ordinary Level (merged),1.0,Mentioned
+667830,ELSA,wave_9_elsa_data_eul_fq,fqqumale,Qualification type: A-levels/Higher School Certificate (merged),-9.0,Refused
+667831,ELSA,wave_9_elsa_data_eul_fq,fqqumale,Qualification type: A-levels/Higher School Certificate (merged),-8.0,Don't Know
+667832,ELSA,wave_9_elsa_data_eul_fq,fqqumale,Qualification type: A-levels/Higher School Certificate (merged),-1.0,Not applicable
+667833,ELSA,wave_9_elsa_data_eul_fq,fqqumale,Qualification type: A-levels/Higher School Certificate (merged),0.0,Not mentioned
+667834,ELSA,wave_9_elsa_data_eul_fq,fqqumale,Qualification type: A-levels/Higher School Certificate (merged),1.0,Mentioned
+667835,ELSA,wave_9_elsa_data_eul_fq,fqqumasl,Qualification type: AS level (merged),-9.0,Refused
+667836,ELSA,wave_9_elsa_data_eul_fq,fqqumasl,Qualification type: AS level (merged),-8.0,Don't Know
+667837,ELSA,wave_9_elsa_data_eul_fq,fqqumasl,Qualification type: AS level (merged),-1.0,Not applicable
+667838,ELSA,wave_9_elsa_data_eul_fq,fqqumasl,Qualification type: AS level (merged),0.0,Not mentioned
+667839,ELSA,wave_9_elsa_data_eul_fq,fqqumasl,Qualification type: AS level (merged),1.0,Mentioned
+667840,ELSA,wave_9_elsa_data_eul_fq,fqqumslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,-9.0,Refused
+667841,ELSA,wave_9_elsa_data_eul_fq,fqqumslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,-8.0,Don't Know
+667842,ELSA,wave_9_elsa_data_eul_fq,fqqumslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,-1.0,Not applicable
+667843,ELSA,wave_9_elsa_data_eul_fq,fqqumslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,0.0,Not mentioned
+667844,ELSA,wave_9_elsa_data_eul_fq,fqqumslc,Qualification type: SLC/SCE/SUPE at Higher Grade or Certificate of Sixth Year St,1.0,Mentioned
+667845,ELSA,wave_9_elsa_data_eul_fq,fqqumolp,Qualification type: O-level passes taken in 1975 or earlier (merged),-9.0,Refused
+667846,ELSA,wave_9_elsa_data_eul_fq,fqqumolp,Qualification type: O-level passes taken in 1975 or earlier (merged),-8.0,Don't Know
+667847,ELSA,wave_9_elsa_data_eul_fq,fqqumolp,Qualification type: O-level passes taken in 1975 or earlier (merged),-1.0,Not applicable
+667848,ELSA,wave_9_elsa_data_eul_fq,fqqumolp,Qualification type: O-level passes taken in 1975 or earlier (merged),0.0,Not mentioned
+667849,ELSA,wave_9_elsa_data_eul_fq,fqqumolp,Qualification type: O-level passes taken in 1975 or earlier (merged),1.0,Mentioned
+667850,ELSA,wave_9_elsa_data_eul_fq,fqqumola,Qualification type: O-level passes taken after 1975 GRADES A-C (merged),-9.0,Refused
+667851,ELSA,wave_9_elsa_data_eul_fq,fqqumola,Qualification type: O-level passes taken after 1975 GRADES A-C (merged),-8.0,Don't Know
+667852,ELSA,wave_9_elsa_data_eul_fq,fqqumola,Qualification type: O-level passes taken after 1975 GRADES A-C (merged),-1.0,Not applicable
+667853,ELSA,wave_9_elsa_data_eul_fq,fqqumola,Qualification type: O-level passes taken after 1975 GRADES A-C (merged),0.0,Not mentioned
+667854,ELSA,wave_9_elsa_data_eul_fq,fqqumola,Qualification type: O-level passes taken after 1975 GRADES A-C (merged),1.0,Mentioned
+667855,ELSA,wave_9_elsa_data_eul_fq,fqqumold,Qualification type: O-level passes taken after 1975 GRADES D-E (merged),-9.0,Refused
+667856,ELSA,wave_9_elsa_data_eul_fq,fqqumold,Qualification type: O-level passes taken after 1975 GRADES D-E (merged),-8.0,Don't Know
+667857,ELSA,wave_9_elsa_data_eul_fq,fqqumold,Qualification type: O-level passes taken after 1975 GRADES D-E (merged),-1.0,Not applicable
+667858,ELSA,wave_9_elsa_data_eul_fq,fqqumold,Qualification type: O-level passes taken after 1975 GRADES D-E (merged),0.0,Not mentioned
+667859,ELSA,wave_9_elsa_data_eul_fq,fqqumold,Qualification type: O-level passes taken after 1975 GRADES D-E (merged),1.0,Mentioned
+667860,ELSA,wave_9_elsa_data_eul_fq,fqqumgca,Qualification type: GCSE GRADES A-C (merged),-9.0,Refused
+667861,ELSA,wave_9_elsa_data_eul_fq,fqqumgca,Qualification type: GCSE GRADES A-C (merged),-8.0,Don't Know
+667862,ELSA,wave_9_elsa_data_eul_fq,fqqumgca,Qualification type: GCSE GRADES A-C (merged),-1.0,Not applicable
+667863,ELSA,wave_9_elsa_data_eul_fq,fqqumgca,Qualification type: GCSE GRADES A-C (merged),0.0,Not mentioned
+667864,ELSA,wave_9_elsa_data_eul_fq,fqqumgca,Qualification type: GCSE GRADES A-C (merged),1.0,Mentioned
+667865,ELSA,wave_9_elsa_data_eul_fq,fqqumgcd,Qualification type: GCSE GRADES D-G (merged),-9.0,Refused
+667866,ELSA,wave_9_elsa_data_eul_fq,fqqumgcd,Qualification type: GCSE GRADES D-G (merged),-8.0,Don't Know
+667867,ELSA,wave_9_elsa_data_eul_fq,fqqumgcd,Qualification type: GCSE GRADES D-G (merged),-1.0,Not applicable
+667868,ELSA,wave_9_elsa_data_eul_fq,fqqumgcd,Qualification type: GCSE GRADES D-G (merged),0.0,Not mentioned
+667869,ELSA,wave_9_elsa_data_eul_fq,fqqumgcd,Qualification type: GCSE GRADES D-G (merged),1.0,Mentioned
+667870,ELSA,wave_9_elsa_data_eul_fq,fqqumcs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3 (merged),-9.0,Refused
+667871,ELSA,wave_9_elsa_data_eul_fq,fqqumcs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3 (merged),-8.0,Don't Know
+667872,ELSA,wave_9_elsa_data_eul_fq,fqqumcs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3 (merged),-1.0,Not applicable
+667873,ELSA,wave_9_elsa_data_eul_fq,fqqumcs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3 (merged),0.0,Not mentioned
+667874,ELSA,wave_9_elsa_data_eul_fq,fqqumcs1,Qualification type: CSE GRADE 1/SCE BANDS A-C/Standard Grade LEVEL 1-3 (merged),1.0,Mentioned
+667875,ELSA,wave_9_elsa_data_eul_fq,fqqumcs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E (merged),-9.0,Refused
+667876,ELSA,wave_9_elsa_data_eul_fq,fqqumcs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E (merged),-8.0,Don't Know
+667877,ELSA,wave_9_elsa_data_eul_fq,fqqumcs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E (merged),-1.0,Not applicable
+667878,ELSA,wave_9_elsa_data_eul_fq,fqqumcs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E (merged),0.0,Not mentioned
+667879,ELSA,wave_9_elsa_data_eul_fq,fqqumcs2,Qualification type: CSE GRADES 2-5/SCE Ordinary BANDS D-E (merged),1.0,Mentioned
+667880,ELSA,wave_9_elsa_data_eul_fq,fqqumcsu,Qualification type: CSE Ungraded (merged),-9.0,Refused
+667881,ELSA,wave_9_elsa_data_eul_fq,fqqumcsu,Qualification type: CSE Ungraded (merged),-8.0,Don't Know
+667882,ELSA,wave_9_elsa_data_eul_fq,fqqumcsu,Qualification type: CSE Ungraded (merged),-1.0,Not applicable
+667883,ELSA,wave_9_elsa_data_eul_fq,fqqumcsu,Qualification type: CSE Ungraded (merged),0.0,Not mentioned
+667884,ELSA,wave_9_elsa_data_eul_fq,fqqumcsu,Qualification type: CSE Ungraded (merged),1.0,Mentioned
+667885,ELSA,wave_9_elsa_data_eul_fq,fqqumsll,Qualification type: SLC Lower (merged),-9.0,Refused
+667886,ELSA,wave_9_elsa_data_eul_fq,fqqumsll,Qualification type: SLC Lower (merged),-8.0,Don't Know
+667887,ELSA,wave_9_elsa_data_eul_fq,fqqumsll,Qualification type: SLC Lower (merged),-1.0,Not applicable
+667888,ELSA,wave_9_elsa_data_eul_fq,fqqumsll,Qualification type: SLC Lower (merged),0.0,Not mentioned
+667889,ELSA,wave_9_elsa_data_eul_fq,fqqumsll,Qualification type: SLC Lower (merged),1.0,Mentioned
+667890,ELSA,wave_9_elsa_data_eul_fq,fqqumsup,Qualification type: SUPE Lower or Ordinary (merged),-9.0,Refused
+667891,ELSA,wave_9_elsa_data_eul_fq,fqqumsup,Qualification type: SUPE Lower or Ordinary (merged),-8.0,Don't Know
+667892,ELSA,wave_9_elsa_data_eul_fq,fqqumsup,Qualification type: SUPE Lower or Ordinary (merged),-1.0,Not applicable
+667893,ELSA,wave_9_elsa_data_eul_fq,fqqumsup,Qualification type: SUPE Lower or Ordinary (merged),0.0,Not mentioned
+667894,ELSA,wave_9_elsa_data_eul_fq,fqqumsup,Qualification type: SUPE Lower or Ordinary (merged),1.0,Mentioned
+667895,ELSA,wave_9_elsa_data_eul_fq,fqqummat,Qualification type: School Certificate or Matric (merged),-9.0,Refused
+667896,ELSA,wave_9_elsa_data_eul_fq,fqqummat,Qualification type: School Certificate or Matric (merged),-8.0,Don't Know
+667897,ELSA,wave_9_elsa_data_eul_fq,fqqummat,Qualification type: School Certificate or Matric (merged),-1.0,Not applicable
+667898,ELSA,wave_9_elsa_data_eul_fq,fqqummat,Qualification type: School Certificate or Matric (merged),0.0,Not mentioned
+667899,ELSA,wave_9_elsa_data_eul_fq,fqqummat,Qualification type: School Certificate or Matric (merged),1.0,Mentioned
+667900,ELSA,wave_9_elsa_data_eul_fq,fqqumnv5,Qualification type: NVQ Level 5 (merged),-9.0,Refused
+667901,ELSA,wave_9_elsa_data_eul_fq,fqqumnv5,Qualification type: NVQ Level 5 (merged),-8.0,Don't Know
+667902,ELSA,wave_9_elsa_data_eul_fq,fqqumnv5,Qualification type: NVQ Level 5 (merged),-1.0,Not applicable
+667903,ELSA,wave_9_elsa_data_eul_fq,fqqumnv5,Qualification type: NVQ Level 5 (merged),0.0,Not mentioned
+667904,ELSA,wave_9_elsa_data_eul_fq,fqqumnv5,Qualification type: NVQ Level 5 (merged),1.0,Mentioned
+667905,ELSA,wave_9_elsa_data_eul_fq,fqqumnv4,Qualification type: NVQ Level 4 (merged),-9.0,Refused
+667906,ELSA,wave_9_elsa_data_eul_fq,fqqumnv4,Qualification type: NVQ Level 4 (merged),-8.0,Don't Know
+667907,ELSA,wave_9_elsa_data_eul_fq,fqqumnv4,Qualification type: NVQ Level 4 (merged),-1.0,Not applicable
+667908,ELSA,wave_9_elsa_data_eul_fq,fqqumnv4,Qualification type: NVQ Level 4 (merged),0.0,Not mentioned
+667909,ELSA,wave_9_elsa_data_eul_fq,fqqumnv4,Qualification type: NVQ Level 4 (merged),1.0,Mentioned
+667910,ELSA,wave_9_elsa_data_eul_fq,fqqumnv3,Qualification type: NVQ Level 3/Advanced level GNVQ (merged),-9.0,Refused
+667911,ELSA,wave_9_elsa_data_eul_fq,fqqumnv3,Qualification type: NVQ Level 3/Advanced level GNVQ (merged),-8.0,Don't Know
+667912,ELSA,wave_9_elsa_data_eul_fq,fqqumnv3,Qualification type: NVQ Level 3/Advanced level GNVQ (merged),-1.0,Not applicable
+667913,ELSA,wave_9_elsa_data_eul_fq,fqqumnv3,Qualification type: NVQ Level 3/Advanced level GNVQ (merged),0.0,Not mentioned
+667914,ELSA,wave_9_elsa_data_eul_fq,fqqumnv3,Qualification type: NVQ Level 3/Advanced level GNVQ (merged),1.0,Mentioned
+667915,ELSA,wave_9_elsa_data_eul_fq,fqqumnv2,Qualification type: NVQ Level 2/Intermediate level GNVQ (merged),-9.0,Refused
+667916,ELSA,wave_9_elsa_data_eul_fq,fqqumnv2,Qualification type: NVQ Level 2/Intermediate level GNVQ (merged),-8.0,Don't Know
+667917,ELSA,wave_9_elsa_data_eul_fq,fqqumnv2,Qualification type: NVQ Level 2/Intermediate level GNVQ (merged),-1.0,Not applicable
+667918,ELSA,wave_9_elsa_data_eul_fq,fqqumnv2,Qualification type: NVQ Level 2/Intermediate level GNVQ (merged),0.0,Not mentioned
+667919,ELSA,wave_9_elsa_data_eul_fq,fqqumnv2,Qualification type: NVQ Level 2/Intermediate level GNVQ (merged),1.0,Mentioned
+667920,ELSA,wave_9_elsa_data_eul_fq,fqqumnv1,Qualification type: NVQ Level 1/Foundation level GNVQ (merged),-9.0,Refused
+667921,ELSA,wave_9_elsa_data_eul_fq,fqqumnv1,Qualification type: NVQ Level 1/Foundation level GNVQ (merged),-8.0,Don't Know
+667922,ELSA,wave_9_elsa_data_eul_fq,fqqumnv1,Qualification type: NVQ Level 1/Foundation level GNVQ (merged),-1.0,Not applicable
+667923,ELSA,wave_9_elsa_data_eul_fq,fqqumnv1,Qualification type: NVQ Level 1/Foundation level GNVQ (merged),0.0,Not mentioned
+667924,ELSA,wave_9_elsa_data_eul_fq,fqqumnv1,Qualification type: NVQ Level 1/Foundation level GNVQ (merged),1.0,Mentioned
+667925,ELSA,wave_9_elsa_data_eul_fq,fqqumtra,Qualification type: recognised trade apprenticeship completed (merged),-9.0,Refused
+667926,ELSA,wave_9_elsa_data_eul_fq,fqqumtra,Qualification type: recognised trade apprenticeship completed (merged),-8.0,Don't Know
+667927,ELSA,wave_9_elsa_data_eul_fq,fqqumtra,Qualification type: recognised trade apprenticeship completed (merged),-1.0,Not applicable
+667928,ELSA,wave_9_elsa_data_eul_fq,fqqumtra,Qualification type: recognised trade apprenticeship completed (merged),0.0,Not mentioned
+667929,ELSA,wave_9_elsa_data_eul_fq,fqqumtra,Qualification type: recognised trade apprenticeship completed (merged),1.0,Mentioned
+667930,ELSA,wave_9_elsa_data_eul_fq,fqqumcle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,-9.0,Refused
+667931,ELSA,wave_9_elsa_data_eul_fq,fqqumcle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,-8.0,Don't Know
+667932,ELSA,wave_9_elsa_data_eul_fq,fqqumcle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,-1.0,Not applicable
+667933,ELSA,wave_9_elsa_data_eul_fq,fqqumcle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,0.0,Not mentioned
+667934,ELSA,wave_9_elsa_data_eul_fq,fqqumcle,Qualification type: clerical or commercial qualification (e.g. typing/book-keepi,1.0,Mentioned
+667935,ELSA,wave_9_elsa_data_eul_fq,fqqumfor,Qualification type: other - qualifications outside the UK (merged),-9.0,Refused
+667936,ELSA,wave_9_elsa_data_eul_fq,fqqumfor,Qualification type: other - qualifications outside the UK (merged),-8.0,Don't Know
+667937,ELSA,wave_9_elsa_data_eul_fq,fqqumfor,Qualification type: other - qualifications outside the UK (merged),-1.0,Not applicable
+667938,ELSA,wave_9_elsa_data_eul_fq,fqqumfor,Qualification type: other - qualifications outside the UK (merged),0.0,Not mentioned
+667939,ELSA,wave_9_elsa_data_eul_fq,fqqumfor,Qualification type: other - qualifications outside the UK (merged),1.0,Mentioned
+667940,ELSA,wave_9_elsa_data_eul_fq,fqqumovo,Qualification type: other - other vocational qualifications not otherwise codeab,-9.0,Refused
+667941,ELSA,wave_9_elsa_data_eul_fq,fqqumovo,Qualification type: other - other vocational qualifications not otherwise codeab,-8.0,Don't Know
+667942,ELSA,wave_9_elsa_data_eul_fq,fqqumovo,Qualification type: other - other vocational qualifications not otherwise codeab,-1.0,Not applicable
+667943,ELSA,wave_9_elsa_data_eul_fq,fqqumovo,Qualification type: other - other vocational qualifications not otherwise codeab,0.0,Not mentioned
+667944,ELSA,wave_9_elsa_data_eul_fq,fqqumovo,Qualification type: other - other vocational qualifications not otherwise codeab,1.0,Mentioned
+667945,ELSA,wave_9_elsa_data_eul_fq,fqqumnvz,Qualification type: other - NVQ level not specified (merged),-9.0,Refused
+667946,ELSA,wave_9_elsa_data_eul_fq,fqqumnvz,Qualification type: other - NVQ level not specified (merged),-8.0,Don't Know
+667947,ELSA,wave_9_elsa_data_eul_fq,fqqumnvz,Qualification type: other - NVQ level not specified (merged),-1.0,Not applicable
+667948,ELSA,wave_9_elsa_data_eul_fq,fqqumnvz,Qualification type: other - NVQ level not specified (merged),0.0,Not mentioned
+667949,ELSA,wave_9_elsa_data_eul_fq,fqqumnvz,Qualification type: other - NVQ level not specified (merged),1.0,Mentioned
+667950,ELSA,wave_9_elsa_data_eul_fq,fqqumnne,Qualification type: other - nursery nurse examination board qualification (merge,-9.0,Refused
+667951,ELSA,wave_9_elsa_data_eul_fq,fqqumnne,Qualification type: other - nursery nurse examination board qualification (merge,-8.0,Don't Know
+667952,ELSA,wave_9_elsa_data_eul_fq,fqqumnne,Qualification type: other - nursery nurse examination board qualification (merge,-1.0,Not applicable
+667953,ELSA,wave_9_elsa_data_eul_fq,fqqumnne,Qualification type: other - nursery nurse examination board qualification (merge,0.0,Not mentioned
+667954,ELSA,wave_9_elsa_data_eul_fq,fqqumnne,Qualification type: other - nursery nurse examination board qualification (merge,1.0,Mentioned
+667955,ELSA,wave_9_elsa_data_eul_fq,fqqummil,Qualification type: other - qualification obtained during military service (merg,-9.0,Refused
+667956,ELSA,wave_9_elsa_data_eul_fq,fqqummil,Qualification type: other - qualification obtained during military service (merg,-8.0,Don't Know
+667957,ELSA,wave_9_elsa_data_eul_fq,fqqummil,Qualification type: other - qualification obtained during military service (merg,-1.0,Not applicable
+667958,ELSA,wave_9_elsa_data_eul_fq,fqqummil,Qualification type: other - qualification obtained during military service (merg,0.0,Not mentioned
+667959,ELSA,wave_9_elsa_data_eul_fq,fqqummil,Qualification type: other - qualification obtained during military service (merg,1.0,Mentioned
+667960,ELSA,wave_9_elsa_data_eul_fq,fqqumdip,Qualification type: other - diploma (merged),-9.0,Refused
+667961,ELSA,wave_9_elsa_data_eul_fq,fqqumdip,Qualification type: other - diploma (merged),-8.0,Don't Know
+667962,ELSA,wave_9_elsa_data_eul_fq,fqqumdip,Qualification type: other - diploma (merged),-1.0,Not applicable
+667963,ELSA,wave_9_elsa_data_eul_fq,fqqumdip,Qualification type: other - diploma (merged),0.0,Not mentioned
+667964,ELSA,wave_9_elsa_data_eul_fq,fqqumdip,Qualification type: other - diploma (merged),1.0,Mentioned
+667965,ELSA,wave_9_elsa_data_eul_fq,fqqumoac,Qualification type: other - other academic qualification not otherwise codeable ,-9.0,Refused
+667966,ELSA,wave_9_elsa_data_eul_fq,fqqumoac,Qualification type: other - other academic qualification not otherwise codeable ,-8.0,Don't Know
+667967,ELSA,wave_9_elsa_data_eul_fq,fqqumoac,Qualification type: other - other academic qualification not otherwise codeable ,-1.0,Not applicable
+667968,ELSA,wave_9_elsa_data_eul_fq,fqqumoac,Qualification type: other - other academic qualification not otherwise codeable ,0.0,Not mentioned
+667969,ELSA,wave_9_elsa_data_eul_fq,fqqumoac,Qualification type: other - other academic qualification not otherwise codeable ,1.0,Mentioned
+667970,ELSA,wave_9_elsa_data_eul_fq,fqqumopr,Qualification type: other - other professional qualification not otherwise codea,-9.0,Refused
+667971,ELSA,wave_9_elsa_data_eul_fq,fqqumopr,Qualification type: other - other professional qualification not otherwise codea,-8.0,Don't Know
+667972,ELSA,wave_9_elsa_data_eul_fq,fqqumopr,Qualification type: other - other professional qualification not otherwise codea,-1.0,Not applicable
+667973,ELSA,wave_9_elsa_data_eul_fq,fqqumopr,Qualification type: other - other professional qualification not otherwise codea,0.0,Not mentioned
+667974,ELSA,wave_9_elsa_data_eul_fq,fqqumopr,Qualification type: other - other professional qualification not otherwise codea,1.0,Mentioned
+667975,ELSA,wave_9_elsa_data_eul_fq,fqqum85,Qualification type: other answer - not codeable (merged),-9.0,Refused
+667976,ELSA,wave_9_elsa_data_eul_fq,fqqum85,Qualification type: other answer - not codeable (merged),-8.0,Don't Know
+667977,ELSA,wave_9_elsa_data_eul_fq,fqqum85,Qualification type: other answer - not codeable (merged),-1.0,Not applicable
+667978,ELSA,wave_9_elsa_data_eul_fq,fqqum85,Qualification type: other answer - not codeable (merged),0.0,Not mentioned
+667979,ELSA,wave_9_elsa_data_eul_fq,fqqum85,Qualification type: other answer - not codeable (merged),1.0,Mentioned
+667980,ELSA,wave_9_elsa_data_eul_fq,fqqum86,Qualification type: irrelevant answer - not codeable (merged),-9.0,Refused
+667981,ELSA,wave_9_elsa_data_eul_fq,fqqum86,Qualification type: irrelevant answer - not codeable (merged),-8.0,Don't Know
+667982,ELSA,wave_9_elsa_data_eul_fq,fqqum86,Qualification type: irrelevant answer - not codeable (merged),-1.0,Not applicable
+667983,ELSA,wave_9_elsa_data_eul_fq,fqqum86,Qualification type: irrelevant answer - not codeable (merged),0.0,Not mentioned
+667984,ELSA,wave_9_elsa_data_eul_fq,fqqum86,Qualification type: irrelevant answer - not codeable (merged),1.0,Mentioned
+667985,ELSA,wave_9_elsa_data_eul_fq,fqqum96,Qualification type: none of these (merged),-9.0,Refused
+667986,ELSA,wave_9_elsa_data_eul_fq,fqqum96,Qualification type: none of these (merged),-8.0,Don't Know
+667987,ELSA,wave_9_elsa_data_eul_fq,fqqum96,Qualification type: none of these (merged),-1.0,Not applicable
+667988,ELSA,wave_9_elsa_data_eul_fq,fqqum96,Qualification type: none of these (merged),0.0,Not mentioned
+667989,ELSA,wave_9_elsa_data_eul_fq,fqqum96,Qualification type: none of these (merged),1.0,Mentioned
+667990,ELSA,wave_9_elsa_data_eul_fq,nurelig,Wave 9: Whether issued to nurse,-9.0,Refused
+667991,ELSA,wave_9_elsa_data_eul_fq,nurelig,Wave 9: Whether issued to nurse,-8.0,Don't know
+667992,ELSA,wave_9_elsa_data_eul_fq,nurelig,Wave 9: Whether issued to nurse,-1.0,Not applicable
+667993,ELSA,wave_9_elsa_data_eul_fq,nurelig,Wave 9: Whether issued to nurse,0.0,Not issued to nurse
+667994,ELSA,wave_9_elsa_data_eul_fq,nurelig,Wave 9: Whether issued to nurse,1.0,Issued to nurse
+667995,ELSA,wave_9_elsa_data_eul_fq,fqnurse,Whether agreed to a follow-up nurse visit,-9.0,Refused
+667996,ELSA,wave_9_elsa_data_eul_fq,fqnurse,Whether agreed to a follow-up nurse visit,-8.0,Don't Know
+667997,ELSA,wave_9_elsa_data_eul_fq,fqnurse,Whether agreed to a follow-up nurse visit,-1.0,Not applicable
+667998,ELSA,wave_9_elsa_data_eul_fq,fqnurse,Whether agreed to a follow-up nurse visit,1.0,Yes to nurse visit
+667999,ELSA,wave_9_elsa_data_eul_fq,fqnurse,Whether agreed to a follow-up nurse visit,2.0,No to nurse visit
+668000,ELSA,wave_9_elsa_data_eul_fq,fqnurrfod,Reason for refusing nurse contact: own doctor already has information,-9.0,Refused
+668001,ELSA,wave_9_elsa_data_eul_fq,fqnurrfod,Reason for refusing nurse contact: own doctor already has information,-8.0,Don't Know
+668002,ELSA,wave_9_elsa_data_eul_fq,fqnurrfod,Reason for refusing nurse contact: own doctor already has information,-1.0,Not applicable
+668003,ELSA,wave_9_elsa_data_eul_fq,fqnurrfod,Reason for refusing nurse contact: own doctor already has information,0.0,Not mentioned
+668004,ELSA,wave_9_elsa_data_eul_fq,fqnurrfod,Reason for refusing nurse contact: own doctor already has information,1.0,Mentioned
+668005,ELSA,wave_9_elsa_data_eul_fq,fqnurrfex,Reason for refusing nurse contact: given enough time already to this survey/expe,-9.0,Refused
+668006,ELSA,wave_9_elsa_data_eul_fq,fqnurrfex,Reason for refusing nurse contact: given enough time already to this survey/expe,-8.0,Don't Know
+668007,ELSA,wave_9_elsa_data_eul_fq,fqnurrfex,Reason for refusing nurse contact: given enough time already to this survey/expe,-1.0,Not applicable
+668008,ELSA,wave_9_elsa_data_eul_fq,fqnurrfex,Reason for refusing nurse contact: given enough time already to this survey/expe,0.0,Not mentioned
+668009,ELSA,wave_9_elsa_data_eul_fq,fqnurrfex,Reason for refusing nurse contact: given enough time already to this survey/expe,1.0,Mentioned
+668010,ELSA,wave_9_elsa_data_eul_fq,fqnurrfbu,Reason for refusing nurse contact: too busy; cannot spare the time,-9.0,Refused
+668011,ELSA,wave_9_elsa_data_eul_fq,fqnurrfbu,Reason for refusing nurse contact: too busy; cannot spare the time,-8.0,Don't Know
+668012,ELSA,wave_9_elsa_data_eul_fq,fqnurrfbu,Reason for refusing nurse contact: too busy; cannot spare the time,-1.0,Not applicable
+668013,ELSA,wave_9_elsa_data_eul_fq,fqnurrfbu,Reason for refusing nurse contact: too busy; cannot spare the time,0.0,Not mentioned
+668014,ELSA,wave_9_elsa_data_eul_fq,fqnurrfbu,Reason for refusing nurse contact: too busy; cannot spare the time,1.0,Mentioned
+668015,ELSA,wave_9_elsa_data_eul_fq,fqnurrfen,Reason for refusing nurse contact: had enough of medical tests/medical professio,-9.0,Refused
+668016,ELSA,wave_9_elsa_data_eul_fq,fqnurrfen,Reason for refusing nurse contact: had enough of medical tests/medical professio,-8.0,Don't Know
+668017,ELSA,wave_9_elsa_data_eul_fq,fqnurrfen,Reason for refusing nurse contact: had enough of medical tests/medical professio,-1.0,Not applicable
+668018,ELSA,wave_9_elsa_data_eul_fq,fqnurrfen,Reason for refusing nurse contact: had enough of medical tests/medical professio,0.0,Not mentioned
+668019,ELSA,wave_9_elsa_data_eul_fq,fqnurrfen,Reason for refusing nurse contact: had enough of medical tests/medical professio,1.0,Mentioned
+668020,ELSA,wave_9_elsa_data_eul_fq,fqnurrfwo,Reason for refusing nurse contact: worried about what nurse may find out,-9.0,Refused
+668021,ELSA,wave_9_elsa_data_eul_fq,fqnurrfwo,Reason for refusing nurse contact: worried about what nurse may find out,-8.0,Don't Know
+668022,ELSA,wave_9_elsa_data_eul_fq,fqnurrfwo,Reason for refusing nurse contact: worried about what nurse may find out,-1.0,Not applicable
+668023,ELSA,wave_9_elsa_data_eul_fq,fqnurrfwo,Reason for refusing nurse contact: worried about what nurse may find out,0.0,Not mentioned
+668024,ELSA,wave_9_elsa_data_eul_fq,fqnurrfwo,Reason for refusing nurse contact: worried about what nurse may find out,1.0,Mentioned
+668025,ELSA,wave_9_elsa_data_eul_fq,fqnurrfsc,Reason for refusing nurse contact: scared of medical profession/particular medic,-9.0,Refused
+668026,ELSA,wave_9_elsa_data_eul_fq,fqnurrfsc,Reason for refusing nurse contact: scared of medical profession/particular medic,-8.0,Don't Know
+668027,ELSA,wave_9_elsa_data_eul_fq,fqnurrfsc,Reason for refusing nurse contact: scared of medical profession/particular medic,-1.0,Not applicable
+668028,ELSA,wave_9_elsa_data_eul_fq,fqnurrfsc,Reason for refusing nurse contact: scared of medical profession/particular medic,0.0,Not mentioned
+668029,ELSA,wave_9_elsa_data_eul_fq,fqnurrfsc,Reason for refusing nurse contact: scared of medical profession/particular medic,1.0,Mentioned
+668030,ELSA,wave_9_elsa_data_eul_fq,fqnurrfno,Reason for refusing nurse contact: not interested/can't be bothered/no particula,-9.0,Refused
+668031,ELSA,wave_9_elsa_data_eul_fq,fqnurrfno,Reason for refusing nurse contact: not interested/can't be bothered/no particula,-8.0,Don't Know
+668032,ELSA,wave_9_elsa_data_eul_fq,fqnurrfno,Reason for refusing nurse contact: not interested/can't be bothered/no particula,-1.0,Not applicable
+668033,ELSA,wave_9_elsa_data_eul_fq,fqnurrfno,Reason for refusing nurse contact: not interested/can't be bothered/no particula,0.0,Not mentioned
+668034,ELSA,wave_9_elsa_data_eul_fq,fqnurrfno,Reason for refusing nurse contact: not interested/can't be bothered/no particula,1.0,Mentioned
+668035,ELSA,wave_9_elsa_data_eul_fq,fqnurrf85,Reason for refusing nurse contact: other answer - not codeable,-9.0,Refused
+668036,ELSA,wave_9_elsa_data_eul_fq,fqnurrf85,Reason for refusing nurse contact: other answer - not codeable,-8.0,Don't Know
+668037,ELSA,wave_9_elsa_data_eul_fq,fqnurrf85,Reason for refusing nurse contact: other answer - not codeable,-1.0,Not applicable
+668038,ELSA,wave_9_elsa_data_eul_fq,fqnurrf85,Reason for refusing nurse contact: other answer - not codeable,0.0,Not mentioned
+668039,ELSA,wave_9_elsa_data_eul_fq,fqnurrf85,Reason for refusing nurse contact: other answer - not codeable,1.0,Mentioned
+668040,ELSA,wave_9_elsa_data_eul_fq,fqnurrf86,Reason for refusing nurse contact: irrelevant answer - not codeable,-9.0,Refused
+668041,ELSA,wave_9_elsa_data_eul_fq,fqnurrf86,Reason for refusing nurse contact: irrelevant answer - not codeable,-8.0,Don't Know
+668042,ELSA,wave_9_elsa_data_eul_fq,fqnurrf86,Reason for refusing nurse contact: irrelevant answer - not codeable,-1.0,Not applicable
+668043,ELSA,wave_9_elsa_data_eul_fq,fqnurrf86,Reason for refusing nurse contact: irrelevant answer - not codeable,0.0,Not mentioned
+668044,ELSA,wave_9_elsa_data_eul_fq,fqnurrf86,Reason for refusing nurse contact: irrelevant answer - not codeable,1.0,Mentioned
+668045,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,-9.0,Refused
+668046,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,-8.0,Don't Know
+668047,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,-1.0,Not applicable
+668048,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,1.0,Yes-due to sight problems
+668049,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,2.0,Yes-due to literacy problems
+668050,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,3.0,Yes-due to other problems
+668051,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,4.0,Yes-Don't know reason
+668052,ELSA,wave_9_elsa_data_eul_fq,fqhelp,Whether respondent needed help with reading the showcards during the interview,5.0,No
+668053,ELSA,wave_9_elsa_data_eul_fq,fqethnmr,(D) Ethnicity recoded into white and non-white (consolidated),-9.0,Refused
+668054,ELSA,wave_9_elsa_data_eul_fq,fqethnmr,(D) Ethnicity recoded into white and non-white (consolidated),-8.0,Don't know
+668055,ELSA,wave_9_elsa_data_eul_fq,fqethnmr,(D) Ethnicity recoded into white and non-white (consolidated),-1.0,Not applicable
+668056,ELSA,wave_9_elsa_data_eul_fq,fqethnmr,(D) Ethnicity recoded into white and non-white (consolidated),1.0,White
+668057,ELSA,wave_9_elsa_data_eul_fq,fqethnmr,(D) Ethnicity recoded into white and non-white (consolidated),2.0,Non-White
+668058,ELSA,wave_9_elsa_data_eul_fq,fqcbthmr,(D) Country of birth recoded into UK and non-UK (consolidated),-9.0,Refused
+668059,ELSA,wave_9_elsa_data_eul_fq,fqcbthmr,(D) Country of birth recoded into UK and non-UK (consolidated),-8.0,Don't know
+668060,ELSA,wave_9_elsa_data_eul_fq,fqcbthmr,(D) Country of birth recoded into UK and non-UK (consolidated),-1.0,Not applicable
+668061,ELSA,wave_9_elsa_data_eul_fq,fqcbthmr,(D) Country of birth recoded into UK and non-UK (consolidated),1.0,UK
+668062,ELSA,wave_9_elsa_data_eul_fq,fqcbthmr,(D) Country of birth recoded into UK and non-UK (consolidated),2.0,Non-UK
+668063,ELSA,wave_9_elsa_data_eul_fq,fqcengm,(D) Year of arrival to England (consolidated),,
+668064,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),-9.0,Refused
+668065,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),-8.0,Don't know
+668066,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),-1.0,Not applicable
+668067,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),1.0,Not yet finished
+668068,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),2.0,Never went to school
+668069,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),3.0,14 or under
+668070,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),4.0,At 15
+668071,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),5.0,At 16
+668072,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),6.0,At 17
+668073,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),7.0,At 18
+668074,ELSA,wave_9_elsa_data_eul_fq,fqendm,(D) Age finished education (consolidated),8.0,19 or over
+668075,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),-9.0,refused
+668076,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),-8.0,don't know
+668077,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),-1.0,not applicable
+668078,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),1.0,white
+668079,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),2.0,mixed ethnic group
+668080,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),3.0,black
+668081,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),4.0,black british
+668082,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),5.0,asian
+668083,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),6.0,asian british
+668084,ELSA,wave_9_elsa_data_eul_fq,fqethnm,(d) ethnicity (consolidated),95.0,any other group
+668085,ELSA,wave_9_elsa_data_eul_fq,avail_from_dt,,,
+668086,ELSA,wave_9_elsa_data_eul_fq,idahhw9_e,,,

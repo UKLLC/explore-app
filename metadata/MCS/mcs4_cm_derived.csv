@@ -1,0 +1,97 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+800333,MCS,mcs4_cm_derived,study_id_e,,,
+800334,MCS,mcs4_cm_derived,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+800335,MCS,mcs4_cm_derived,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+800336,MCS,mcs4_cm_derived,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+800337,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-9.0,Refusal
+800338,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-8.0,Don't Know
+800339,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-1.0,Not applicable
+800340,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,1.0,White
+800341,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,2.0,Mixed
+800342,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,3.0,Indian
+800343,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,4.0,Pakistani and Bangladeshi
+800344,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,5.0,Black or Black British
+800345,MCS,mcs4_cm_derived,ddc06e00,DV Cohort Member Ethnic Group - 6 category Census class,6.0,"Other Ethnic group (inc Chinese,other)"
+800346,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,-9.0,Refusal
+800347,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,-8.0,Don't know
+800348,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,-1.0,Not applicable
+800349,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,1.0,White
+800350,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,2.0,Mixed
+800351,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,3.0,Indian
+800352,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,4.0,Pakistani
+800353,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,5.0,Bangladeshi
+800354,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,6.0,Black Caribbean
+800355,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,7.0,Black African
+800356,MCS,mcs4_cm_derived,ddc08e00,DV Cohort Member Ethnic Group - 8 category classification,8.0,"Other Ethnic group (inc Chinese,Other)"
+800357,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-9.0,Refusal
+800358,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-8.0,Don't know
+800359,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-1.0,Not applicable
+800360,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,1.0,White
+800361,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,2.0,Mixed
+800362,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,3.0,Indian
+800363,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,4.0,Pakistani
+800364,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,5.0,Bangladeshi
+800365,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,6.0,Other Asian
+800366,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,7.0,Black Caribbean
+800367,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,8.0,Black African
+800368,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,9.0,Other Black
+800369,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,10.0,Chinese
+800370,MCS,mcs4_cm_derived,ddc11e00,DV Cohort Member Ethnic Group - 11 category Census class,11.0,Other Ethnic Group
+800371,MCS,mcs4_cm_derived,ddemotion,DV SDQ Emotional Symptoms,-9.0,Refusal
+800372,MCS,mcs4_cm_derived,ddemotion,DV SDQ Emotional Symptoms,-8.0,Don't know
+800373,MCS,mcs4_cm_derived,ddemotion,DV SDQ Emotional Symptoms,-1.0,Not applicable
+800374,MCS,mcs4_cm_derived,ddconduct,DV SDQ Conduct Problems,-9.0,Refusal
+800375,MCS,mcs4_cm_derived,ddconduct,DV SDQ Conduct Problems,-8.0,Don't know
+800376,MCS,mcs4_cm_derived,ddconduct,DV SDQ Conduct Problems,-1.0,Not applicable
+800377,MCS,mcs4_cm_derived,ddhyper,DV SDQ Hyperactivity/Inattention,-9.0,Refusal
+800378,MCS,mcs4_cm_derived,ddhyper,DV SDQ Hyperactivity/Inattention,-8.0,Don't know
+800379,MCS,mcs4_cm_derived,ddhyper,DV SDQ Hyperactivity/Inattention,-1.0,Not applicable
+800380,MCS,mcs4_cm_derived,ddpeer,DV SDQ Peer Problems,-9.0,Refusal
+800381,MCS,mcs4_cm_derived,ddpeer,DV SDQ Peer Problems,-8.0,Don't know
+800382,MCS,mcs4_cm_derived,ddpeer,DV SDQ Peer Problems,-1.0,Not applicable
+800383,MCS,mcs4_cm_derived,ddprosoc,DV SDQ Prosocial,-9.0,Refusal
+800384,MCS,mcs4_cm_derived,ddprosoc,DV SDQ Prosocial,-8.0,Don't know
+800385,MCS,mcs4_cm_derived,ddprosoc,DV SDQ Prosocial,-1.0,Not applicable
+800386,MCS,mcs4_cm_derived,dddebdtot,DV SDQ Total Difficulties,-9.0,Refusal
+800387,MCS,mcs4_cm_derived,dddebdtot,DV SDQ Total Difficulties,-8.0,Don't know
+800388,MCS,mcs4_cm_derived,dddebdtot,DV SDQ Total Difficulties,-1.0,Not applicable
+800389,MCS,mcs4_cm_derived,ddimpact,DV SDQ Impact,-9.0,Refusal
+800390,MCS,mcs4_cm_derived,ddimpact,DV SDQ Impact,-8.0,Don't know
+800391,MCS,mcs4_cm_derived,ddimpact,DV SDQ Impact,-1.0,Not applicable
+800392,MCS,mcs4_cm_derived,dddebddiff,DV SDQ CM has Difficulties in one or more areas,-1.0,Not applicable
+800393,MCS,mcs4_cm_derived,dddebddiff,DV SDQ CM has Difficulties in one or more areas,0.0,No difficulties
+800394,MCS,mcs4_cm_derived,dddebddiff,DV SDQ CM has Difficulties in one or more areas,1.0,Yes Minor difficulties
+800395,MCS,mcs4_cm_derived,dddebddiff,DV SDQ CM has Difficulties in one or more areas,2.0,Yes definite difficulties
+800396,MCS,mcs4_cm_derived,dddebddiff,DV SDQ CM has Difficulties in one or more areas,3.0,Yes severe difficulties
+800397,MCS,mcs4_cm_derived,dddebddiff,DV SDQ CM has Difficulties in one or more areas,4.0,Can't say
+800398,MCS,mcs4_cm_derived,ddcsbi00,Child Social Behaviour Questionnaire (Independence-Self Regulation),-1.0,Not applicable
+800399,MCS,mcs4_cm_derived,ddcsbe00,Child Social Behaviour Questionnaire (Emotional-Dysregulation),-1.0,Not applicable
+800400,MCS,mcs4_cm_derived,ddcsbc00,Child Social Behaviour Questionnaire (Cooperation),-1.0,Not applicable
+800401,MCS,mcs4_cm_derived,ddemoti_t,DV TEACHER SDQ Emotional Symptoms,-9.0,Refusal
+800402,MCS,mcs4_cm_derived,ddemoti_t,DV TEACHER SDQ Emotional Symptoms,-8.0,Don't know
+800403,MCS,mcs4_cm_derived,ddemoti_t,DV TEACHER SDQ Emotional Symptoms,-1.0,Not applicable
+800404,MCS,mcs4_cm_derived,ddcond_t,DV TEACHER SDQ Conduct Problems,-9.0,Refusal
+800405,MCS,mcs4_cm_derived,ddcond_t,DV TEACHER SDQ Conduct Problems,-8.0,Don't know
+800406,MCS,mcs4_cm_derived,ddcond_t,DV TEACHER SDQ Conduct Problems,-1.0,Not applicable
+800407,MCS,mcs4_cm_derived,ddhyper_t,DV TEACHER SDQ Hyperactivity/Inattention,-9.0,Refusal
+800408,MCS,mcs4_cm_derived,ddhyper_t,DV TEACHER SDQ Hyperactivity/Inattention,-8.0,Don't know
+800409,MCS,mcs4_cm_derived,ddhyper_t,DV TEACHER SDQ Hyperactivity/Inattention,-1.0,Not applicable
+800410,MCS,mcs4_cm_derived,ddpeer_t,DV TEACHER SDQ Peer Problems,-9.0,Refusal
+800411,MCS,mcs4_cm_derived,ddpeer_t,DV TEACHER SDQ Peer Problems,-8.0,Don't know
+800412,MCS,mcs4_cm_derived,ddpeer_t,DV TEACHER SDQ Peer Problems,-1.0,Not applicable
+800413,MCS,mcs4_cm_derived,ddproso_t,DV TEACHER SDQ Prosocial,-9.0,Refusal
+800414,MCS,mcs4_cm_derived,ddproso_t,DV TEACHER SDQ Prosocial,-8.0,Don't know
+800415,MCS,mcs4_cm_derived,ddproso_t,DV TEACHER SDQ Prosocial,-1.0,Not applicable
+800416,MCS,mcs4_cm_derived,dddebdto_t,DV TEACHER SDQ Total Difficulties,-9.0,Refusal
+800417,MCS,mcs4_cm_derived,dddebdto_t,DV TEACHER SDQ Total Difficulties,-8.0,Don't know
+800418,MCS,mcs4_cm_derived,dddebdto_t,DV TEACHER SDQ Total Difficulties,-1.0,Not applicable
+800419,MCS,mcs4_cm_derived,dddimpact_t,DV TEACHER SDQ Impact,-9.0,Refusal
+800420,MCS,mcs4_cm_derived,dddimpact_t,DV TEACHER SDQ Impact,-8.0,Don't know
+800421,MCS,mcs4_cm_derived,dddimpact_t,DV TEACHER SDQ Impact,-1.0,Not applicable
+800422,MCS,mcs4_cm_derived,dddebdif_t,DV TEACHER SDQ CM has Difficulties in one or more areas,-1.0,Not applicable
+800423,MCS,mcs4_cm_derived,dddebdif_t,DV TEACHER SDQ CM has Difficulties in one or more areas,1.0,Yes Minor difficulties
+800424,MCS,mcs4_cm_derived,dddebdif_t,DV TEACHER SDQ CM has Difficulties in one or more areas,2.0,Yes definite difficulties
+800425,MCS,mcs4_cm_derived,dddebdif_t,DV TEACHER SDQ CM has Difficulties in one or more areas,3.0,Yes severe difficulties
+800426,MCS,mcs4_cm_derived,dddebdif_t,DV TEACHER SDQ CM has Difficulties in one or more areas,4.0,No
+800427,MCS,mcs4_cm_derived,avail_from_dt,,,
+800428,MCS,mcs4_cm_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

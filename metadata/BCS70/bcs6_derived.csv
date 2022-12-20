@@ -1,0 +1,73 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+69620,BCS70,bcs6_derived,study_id_e,,,
+69621,BCS70,bcs6_derived,bd6cntry,2000: Country of Interview,-1.0,Not known
+69622,BCS70,bcs6_derived,bd6cntry,2000: Country of Interview,1.0,England
+69623,BCS70,bcs6_derived,bd6cntry,2000: Country of Interview,2.0,Wales
+69624,BCS70,bcs6_derived,bd6cntry,2000: Country of Interview,3.0,Scotland
+69625,BCS70,bcs6_derived,bd6cntry,2000: Country of Interview,4.0,Northern Ireland
+69626,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,-2.0,Armed Services
+69627,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,-1.0,Unknown
+69628,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,1.0,North
+69629,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,2.0,Yorks and Humberside
+69630,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,3.0,East Midlands
+69631,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,4.0,East Anglia
+69632,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,5.0,South East
+69633,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,6.0,South West
+69634,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,7.0,West Midlands
+69635,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,8.0,North West
+69636,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,9.0,Wales
+69637,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,10.0,Scotland
+69638,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,11.0,Northern Ireland
+69639,BCS70,bcs6_derived,bd6regn,2000: Standard Region of residence,12.0,Overseas
+69640,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,-1.0,Unknown
+69641,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,1.0,North East
+69642,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,2.0,North West
+69643,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,3.0,Yorkshire and Humberside
+69644,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,4.0,East Midlands
+69645,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,5.0,West Midlands
+69646,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,6.0,East of England
+69647,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,7.0,London
+69648,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,8.0,South East
+69649,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,9.0,South West
+69650,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,10.0,Wales
+69651,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,11.0,Scotland
+69652,BCS70,bcs6_derived,bd6gor,2000: Government Office Region of residence,12.0,Northern Ireland
+69653,BCS70,bcs6_derived,bd6mal,2000: Total Malaise score,-2.0,not stated any questions
+69654,BCS70,bcs6_derived,bd6mal,2000: Total Malaise score,-1.0,Not computed
+69655,BCS70,bcs6_derived,bd6malg,2000: Total Malaise score - grouped,-2.0,not stated any questions
+69656,BCS70,bcs6_derived,bd6malg,2000: Total Malaise score - grouped,-1.0,Not computed
+69657,BCS70,bcs6_derived,bd6malg,2000: Total Malaise score - grouped,1.0,0-7
+69658,BCS70,bcs6_derived,bd6malg,2000: Total Malaise score - grouped,2.0,8+
+69659,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,-9.0,Incomplete info
+69660,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,0.0,None
+69661,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,1.0, Bad GCSEs
+69662,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,2.0,"CSE 2-5, other Scottish school qualific"
+69663,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,3.0,"O levels, Good GCSEs"
+69664,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,4.0,1 A level or more than 1 AS level at gr
+69665,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,5.0,2 or more A-levels
+69666,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,6.0,Diploma of HE
+69667,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,7.0,"Degree, other degree level"
+69668,BCS70,bcs6_derived,hiaca00,2000: Highest Academic level,8.0,Higher degree
+69669,BCS70,bcs6_derived,nvqaca00,2000: Highest NVQ level (academic),-9.0,Incomplete info
+69670,BCS70,bcs6_derived,nvqaca00,2000: Highest NVQ level (academic),0.0,None
+69671,BCS70,bcs6_derived,nvqaca00,2000: Highest NVQ level (academic),1.0,NVQ Level 1
+69672,BCS70,bcs6_derived,nvqaca00,2000: Highest NVQ level (academic),2.0,NVQ Level 2
+69673,BCS70,bcs6_derived,nvqaca00,2000: Highest NVQ level (academic),3.0,NVQ Level 3
+69674,BCS70,bcs6_derived,nvqaca00,2000: Highest NVQ level (academic),4.0,NVQ Level 4
+69675,BCS70,bcs6_derived,nvqaca00,2000: Highest NVQ level (academic),5.0,NVQ Level 5
+69676,BCS70,bcs6_derived,hivoc00,2000: Highest NVQ level (vocational),-9.0,Incomplete info
+69677,BCS70,bcs6_derived,hivoc00,2000: Highest NVQ level (vocational),0.0,None
+69678,BCS70,bcs6_derived,hivoc00,2000: Highest NVQ level (vocational),1.0,NVQ Level 1
+69679,BCS70,bcs6_derived,hivoc00,2000: Highest NVQ level (vocational),2.0,NVQ Level 2
+69680,BCS70,bcs6_derived,hivoc00,2000: Highest NVQ level (vocational),3.0,NVQ Level 3
+69681,BCS70,bcs6_derived,hivoc00,2000: Highest NVQ level (vocational),4.0,NVQ Level 4
+69682,BCS70,bcs6_derived,hivoc00,2000: Highest NVQ level (vocational),5.0,NVQ Level 5
+69683,BCS70,bcs6_derived,hinvq00,2000: Highest NVQ level (academic or vocational),-9.0,Incomplete info
+69684,BCS70,bcs6_derived,hinvq00,2000: Highest NVQ level (academic or vocational),0.0,None
+69685,BCS70,bcs6_derived,hinvq00,2000: Highest NVQ level (academic or vocational),1.0,NVQ Level 1
+69686,BCS70,bcs6_derived,hinvq00,2000: Highest NVQ level (academic or vocational),2.0,NVQ Level 2
+69687,BCS70,bcs6_derived,hinvq00,2000: Highest NVQ level (academic or vocational),3.0,NVQ Level 3
+69688,BCS70,bcs6_derived,hinvq00,2000: Highest NVQ level (academic or vocational),4.0,NVQ Level 4
+69689,BCS70,bcs6_derived,hinvq00,2000: Highest NVQ level (academic or vocational),5.0,NVQ Level 5
+69690,BCS70,bcs6_derived,v3,None,,
+69691,BCS70,bcs6_derived,avail_from_dt,,,

@@ -1,0 +1,201 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+708926,FENLAND,P1,study_id_e,,,
+708927,FENLAND,P1,appdate_attended_ukllc,Appointment Date Attended,,
+708928,FENLAND,P1,sex,Sex of Participant,M,male
+708929,FENLAND,P1,sex,Sex of Participant,F,Female
+708930,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,1,British
+708931,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,2,Irish
+708932,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,3,other white
+708933,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,4,Wh&Blk Carib
+708934,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,5,Wh&Blk African
+708935,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,6,Wh&Asian
+708936,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,7,mixed
+708937,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,8,India
+708938,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,9,Pakistani
+708939,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,10,Bangladeshi
+708940,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,11,Any Asian
+708941,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,12,Carib
+708942,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,13,Afican
+708943,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,14,any black
+708944,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,15,Chinese
+708945,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,16,any others
+708946,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,17,not stated
+708947,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,-8,not asked (GQ version difference)
+708948,FENLAND,P1,gq_eth_der,F1. Ethnicity - 17 categories,-1,left blank
+708949,FENLAND,P1,gq_eth_5c_der,F1. Ethnicity - 5 categories,1,White
+708950,FENLAND,P1,gq_eth_5c_der,F1. Ethnicity - 5 categories,2,South Asia
+708951,FENLAND,P1,gq_eth_5c_der,F1. Ethnicity - 5 categories,3,Blacks
+708952,FENLAND,P1,gq_eth_5c_der,F1. Ethnicity - 5 categories,4,East Asia
+708953,FENLAND,P1,gq_eth_5c_der,F1. Ethnicity - 5 categories,5,Others
+708954,FENLAND,P1,gq_eth_5c_der,F1. Ethnicity - 5 categories,-8,not asked (GQ version difference)
+708955,FENLAND,P1,gq_eth_5c_der,F1. Ethnicity - 5 categories,-1,left blank
+708956,FENLAND,P1,g_ageattest_attended,Calculated age of participant at first visit; rounded down to whole year.,,
+708957,FENLAND,P1,gq_edu_slc_der,C6. School Leaving Certificate,2,ticked
+708958,FENLAND,P1,gq_edu_slc_der,C6. School Leaving Certificate,-1,left blank
+708959,FENLAND,P1,gq_edu_cse_der,C6. CSE qualification,2,ticked
+708960,FENLAND,P1,gq_edu_cse_der,C6. CSE qualification,-1,left blank
+708961,FENLAND,P1,gq_edu_gcse_der,C6. O level or GCSE qualification,2,ticked
+708962,FENLAND,P1,gq_edu_gcse_der,C6. O level or GCSE qualification,-1,left blank
+708963,FENLAND,P1,gq_edu_matricul_der,C6. Matriculation qualification,2,ticked
+708964,FENLAND,P1,gq_edu_matricul_der,C6. Matriculation qualification,-1,left blank
+708965,FENLAND,P1,gq_edu_alev_der,C6. A level qualification,2,ticked
+708966,FENLAND,P1,gq_edu_alev_der,C6. A level qualification,-1,left blank
+708967,FENLAND,P1,gq_edu_techcg_der,C6. Technical or C&G qualification,2,ticked
+708968,FENLAND,P1,gq_edu_techcg_der,C6. Technical or C&G qualification,-1,left blank
+708969,FENLAND,P1,gq_edu_hnd_nvq_der,C6. HND or GNVQ qualification,2,ticked
+708970,FENLAND,P1,gq_edu_hnd_nvq_der,C6. HND or GNVQ qualification,-1,left blank
+708971,FENLAND,P1,gq_edu_apprentice_der,C6. Completed apprenticeship,2,ticked
+708972,FENLAND,P1,gq_edu_apprentice_der,C6. Completed apprenticeship,-1,left blank
+708973,FENLAND,P1,gq_edu_secret_der,C6. Secretarial College qualification,2,ticked
+708974,FENLAND,P1,gq_edu_secret_der,C6. Secretarial College qualification,-1,left blank
+708975,FENLAND,P1,gq_edu_hnc_der,C6. HNC or NVQ qualification,2,ticked
+708976,FENLAND,P1,gq_edu_hnc_der,C6. HNC or NVQ qualification,-1,left blank
+708977,FENLAND,P1,gq_edu_degree_der,C6. University degree qualification,2,ticked
+708978,FENLAND,P1,gq_edu_degree_der,C6. University degree qualification,-1,left blank
+708979,FENLAND,P1,gq_edu_trade_der,C6. Trade certificate qualification,2,ticked
+708980,FENLAND,P1,gq_edu_trade_der,C6. Trade certificate qualification,-1,left blank
+708981,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,2,GCE A level AS level or higher
+708982,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,3,Secretarial coll exams
+708983,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,4,CSE
+708984,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,5,Technical coll exams city and guilds
+708985,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,6,Teaching diploma HNC NVQ
+708986,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,7,GCE O level or GCSE
+708987,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,8,HND GNVQ
+708988,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,9,University Degree
+708989,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,12,Trade certificates
+708990,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,-7,not applicable/answered but undetermined
+708991,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,-5,unclear qualification (eg qual outside the UK)
+708992,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,-3,>1 qualification written in text description
+708993,FENLAND,P1,gq_edu_others_der,C6. Other qualifications,-1,left blank
+708994,FENLAND,P1,gq_edu_none_der,C6. No Qualifications,2,ticked
+708995,FENLAND,P1,gq_edu_none_der,C6. No Qualifications,-1,left blank
+708996,FENLAND,P1,gq_edu_age_der,C7. Age finished full time education,-7,not applicable/answered but undetermined
+708997,FENLAND,P1,gq_edu_age_der,C7. Age finished full time education,-5,Current or not finished
+708998,FENLAND,P1,gq_edu_age_der,C7. Age finished full time education,-1,left blank
+708999,FENLAND,P1,worktype_clean,We would like to know the type and amount of physical activity involved in your work. Please tick the one option that best corresponds with your occupation,,
+709000,FENLAND,P1,gq_emp_n_der,C3. Number of employees. How many people work (worked) for your employer? For self-employed: how many people you employ(ed)?,1,1 to 24 people
+709001,FENLAND,P1,gq_emp_n_der,C3. Number of employees. How many people work (worked) for your employer? For self-employed: how many people you employ(ed)?,2,>25
+709002,FENLAND,P1,gq_emp_n_der,C3. Number of employees. How many people work (worked) for your employer? For self-employed: how many people you employ(ed)?,-7,not applicable/answered but undetermined
+709003,FENLAND,P1,gq_emp_n_der,C3. Number of employees. How many people work (worked) for your employer? For self-employed: how many people you employ(ed)?,-1,left blank
+709004,FENLAND,P1,gq_emp_n_supervise_der,C2. Number of employees. How many people work (worked) at the place where you work (worked)? For self-employed how many people you employ(ed)? (asked in GQv3 and GQv4 differently),1,1 to 24 people
+709005,FENLAND,P1,gq_emp_n_supervise_der,C2. Number of employees. How many people work (worked) at the place where you work (worked)? For self-employed how many people you employ(ed)? (asked in GQv3 and GQv4 differently),2,>25
+709006,FENLAND,P1,gq_emp_n_supervise_der,C2. Number of employees. How many people work (worked) at the place where you work (worked)? For self-employed how many people you employ(ed)? (asked in GQv3 and GQv4 differently),-8,not asked (GQ version difference)
+709007,FENLAND,P1,gq_emp_n_supervise_der,C2. Number of employees. How many people work (worked) at the place where you work (worked)? For self-employed how many people you employ(ed)? (asked in GQv3 and GQv4 differently),-1,left blank
+709008,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),1,Modern professional
+709009,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),2,Clerical
+709010,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),3,Senior manager
+709011,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),4,Technical
+709012,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),5,Semi-routine
+709013,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),6,Routine
+709014,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),7,Middle management
+709015,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),8,Traditional professional
+709016,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),-1,left blank
+709017,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),-5,more than one selected
+709018,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),-8,not asked (GQ version difference)
+709019,FENLAND,P1,gq_emp_occup_der,C5. Occupation type: Current/last job. (not asked in GQv1),-7,not applicable/answered but undetermined
+709020,FENLAND,P1,gq_emp_partner_der,C6. Partners employment status  v1 only,1,as an employee
+709021,FENLAND,P1,gq_emp_partner_der,C6. Partners employment status  v1 only,2,as self-employed
+709022,FENLAND,P1,gq_emp_partner_der,C6. Partners employment status  v1 only,-8,not asked (GQ version difference)
+709023,FENLAND,P1,gq_emp_partner_der,C6. Partners employment status  v1 only,-1,left blank
+709024,FENLAND,P1,gq_emp_supervise_der,C4. Present or your last job: Supervisory status: Do (did) you supervise any other employees,2,yes
+709025,FENLAND,P1,gq_emp_supervise_der,C4. Present or your last job: Supervisory status: Do (did) you supervise any other employees,3,no
+709026,FENLAND,P1,gq_emp_supervise_der,C4. Present or your last job: Supervisory status: Do (did) you supervise any other employees,-1,left blank
+709027,FENLAND,P1,gq_emp_type_der,C2. Employment type with employee data,1,Employee
+709028,FENLAND,P1,gq_emp_type_der,C2. Employment type with employee data,2,Self employed with employees
+709029,FENLAND,P1,gq_emp_type_der,C2. Employment type with employee data,3,Self employed without employees
+709030,FENLAND,P1,gq_emp_type_der,C2. Employment type with employee data,-7,not applicable/answered but undetermined
+709031,FENLAND,P1,gq_emp_type_der,C2. Employment type with employee data,-1,left blank
+709032,FENLAND,P1,gq_income_der,C8. Household income,1,"<£2,000"
+709033,FENLAND,P1,gq_income_der,C8. Household income,2,£20000-£40000
+709034,FENLAND,P1,gq_income_der,C8. Household income,3,>=£40000
+709035,FENLAND,P1,gq_income_der,C8. Household income,-7,not applicable/answered but undetermined
+709036,FENLAND,P1,gq_income_der,C8. Household income,-1,left blank
+709037,FENLAND,P1,gq_job_full_der,C1. Job status - full time >30 h/wk,2,yes
+709038,FENLAND,P1,gq_job_full_der,C1. Job status - full time >30 h/wk,3,no
+709039,FENLAND,P1,gq_job_full_der,C1. Job status - full time >30 h/wk,-1,left blank
+709040,FENLAND,P1,gq_job_house_der,C1. Job status - house-keeping,2,yes
+709041,FENLAND,P1,gq_job_house_der,C1. Job status - house-keeping,3,no
+709042,FENLAND,P1,gq_job_house_der,C1. Job status - house-keeping,-1,left blank
+709043,FENLAND,P1,gq_job_newjob_der,C1. Job status - obtained new job,2,yes
+709044,FENLAND,P1,gq_job_newjob_der,C1. Job status - obtained new job,3,no
+709045,FENLAND,P1,gq_job_newjob_der,C1. Job status - obtained new job,-1,left blank
+709046,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,1,full time >30 h/wk
+709047,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,2,part time <30 h/wk
+709048,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,3,house-keeping
+709049,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,4,retired
+709050,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,6,unemployed
+709051,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,7,temporarily sick
+709052,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,8,permanently sick
+709053,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,-7,not applicable/answered but undetermined
+709054,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,-5,volunteer / unclassified
+709055,FENLAND,P1,gq_job_oth_der,C1. Job status others assigned integers 1 to 8 for classification,-3,student (unemployed) or studying while working
+709056,FENLAND,P1,gq_job_part_der,C1. Job status - part time <30 h/wk,2,yes
+709057,FENLAND,P1,gq_job_part_der,C1. Job status - part time <30 h/wk,3,no
+709058,FENLAND,P1,gq_job_part_der,C1. Job status - part time <30 h/wk,-1,left blank
+709059,FENLAND,P1,gq_job_partnermanage_der,C6. Partners management status  v1 only,1,No
+709060,FENLAND,P1,gq_job_partnermanage_der,C6. Partners management status  v1 only,2,Yes 1 to 24 people
+709061,FENLAND,P1,gq_job_partnermanage_der,C6. Partners management status  v1 only,3,Yes 25 or more people
+709062,FENLAND,P1,gq_job_partnermanage_der,C6. Partners management status  v1 only,-8,not asked (GQ version difference)
+709063,FENLAND,P1,gq_job_partnermanage_der,C6. Partners management status  v1 only,-7,not applicable/answered but undetermined
+709064,FENLAND,P1,gq_job_partnermanage_der,C6. Partners management status  v1 only,-1,left blank
+709065,FENLAND,P1,gq_job_retired_der,C1. Job status - retired,2,yes
+709066,FENLAND,P1,gq_job_retired_der,C1. Job status - retired,3,no
+709067,FENLAND,P1,gq_job_retired_der,C1. Job status - retired,-1,left blank
+709068,FENLAND,P1,gq_job_sick_der,C1. Job status - permanently sick,2,yes
+709069,FENLAND,P1,gq_job_sick_der,C1. Job status - permanently sick,3,no
+709070,FENLAND,P1,gq_job_sick_der,C1. Job status - permanently sick,-1,left blank
+709071,FENLAND,P1,gq_job_tempsick_der,C1. Job status - temporarily sick,2,yes
+709072,FENLAND,P1,gq_job_tempsick_der,C1. Job status - temporarily sick,3,no
+709073,FENLAND,P1,gq_job_tempsick_der,C1. Job status - temporarily sick,-1,left blank
+709074,FENLAND,P1,gq_job_unempl_der,C1. Job status - unemployed,2,yes
+709075,FENLAND,P1,gq_job_unempl_der,C1. Job status - unemployed,3,no
+709076,FENLAND,P1,gq_job_unempl_der,C1. Job status - unemployed,-1,left blank
+709077,FENLAND,P1,gq_marit_der,C12. Marital status  not in v1 and some in v3,1,Single
+709078,FENLAND,P1,gq_marit_der,C12. Marital status  not in v1 and some in v3,2,Married or living as married
+709079,FENLAND,P1,gq_marit_der,C12. Marital status  not in v1 and some in v3,3,widowed
+709080,FENLAND,P1,gq_marit_der,C12. Marital status  not in v1 and some in v3,4,Separated
+709081,FENLAND,P1,gq_marit_der,C12. Marital status  not in v1 and some in v3,5,Divorced
+709082,FENLAND,P1,gq_marit_der,C12. Marital status  not in v1 and some in v3,-8,not asked (GQ version difference)
+709083,FENLAND,P1,gq_marit_der,C12. Marital status  not in v1 and some in v3,-1,left blank
+709084,FENLAND,P1,gq_nhouse_der,C9. Number of people in household,-8,not asked (GQ version difference)
+709085,FENLAND,P1,gq_nhouse_der,C9. Number of people in household,-7,not applicable/answered but undetermined
+709086,FENLAND,P1,gq_nhouse_der,C9. Number of people in household,-1,left blank
+709087,FENLAND,P1,gq_oc_cler_der,C5. Occup Clerical and intermediate,2,Yes
+709088,FENLAND,P1,gq_oc_cler_der,C5. Occup Clerical and intermediate,3,No
+709089,FENLAND,P1,gq_oc_cler_der,C5. Occup Clerical and intermediate,-8,not asked (GQ version difference)
+709090,FENLAND,P1,gq_oc_cler_der,C5. Occup Clerical and intermediate,-1,left blank
+709091,FENLAND,P1,gq_oc_midmanag_der,C5. Occup Middle or junir managers,2,Yes
+709092,FENLAND,P1,gq_oc_midmanag_der,C5. Occup Middle or junir managers,3,No
+709093,FENLAND,P1,gq_oc_midmanag_der,C5. Occup Middle or junir managers,-8,not asked (GQ version difference)
+709094,FENLAND,P1,gq_oc_midmanag_der,C5. Occup Middle or junir managers,-1,left blank
+709095,FENLAND,P1,gq_oc_modprof_der,C5. Occup Modern professional,2,Yes
+709096,FENLAND,P1,gq_oc_modprof_der,C5. Occup Modern professional,3,No
+709097,FENLAND,P1,gq_oc_modprof_der,C5. Occup Modern professional,-8,not asked (GQ version difference)
+709098,FENLAND,P1,gq_oc_modprof_der,C5. Occup Modern professional,-1,left blank
+709099,FENLAND,P1,gq_oc_rt_der,C5. Occup Routine manual and service occupations,2,Yes
+709100,FENLAND,P1,gq_oc_rt_der,C5. Occup Routine manual and service occupations,3,No
+709101,FENLAND,P1,gq_oc_rt_der,C5. Occup Routine manual and service occupations,-8,not asked (GQ version difference)
+709102,FENLAND,P1,gq_oc_rt_der,C5. Occup Routine manual and service occupations,-1,left blank
+709103,FENLAND,P1,gq_oc_semirt_der,C5. Occup Semi-routine manual and service occupations,2,Yes
+709104,FENLAND,P1,gq_oc_semirt_der,C5. Occup Semi-routine manual and service occupations,3,No
+709105,FENLAND,P1,gq_oc_semirt_der,C5. Occup Semi-routine manual and service occupations,-8,not asked (GQ version difference)
+709106,FENLAND,P1,gq_oc_semirt_der,C5. Occup Semi-routine manual and service occupations,-1,left blank
+709107,FENLAND,P1,gq_oc_senmanag_der,C5. Occup Senior manager or administrators,2,Yes
+709108,FENLAND,P1,gq_oc_senmanag_der,C5. Occup Senior manager or administrators,3,No
+709109,FENLAND,P1,gq_oc_senmanag_der,C5. Occup Senior manager or administrators,-8,not asked (GQ version difference)
+709110,FENLAND,P1,gq_oc_senmanag_der,C5. Occup Senior manager or administrators,-1,left blank
+709111,FENLAND,P1,gq_oc_tech_der,C5. Occup Technical and craft,2,Yes
+709112,FENLAND,P1,gq_oc_tech_der,C5. Occup Technical and craft,3,No
+709113,FENLAND,P1,gq_oc_tech_der,C5. Occup Technical and craft,-8,not asked (GQ version difference)
+709114,FENLAND,P1,gq_oc_tech_der,C5. Occup Technical and craft,-1,left blank
+709115,FENLAND,P1,gq_oc_tradprof_der,C5. Occup Traditional professional occupations,2,Yes
+709116,FENLAND,P1,gq_oc_tradprof_der,C5. Occup Traditional professional occupations,3,No
+709117,FENLAND,P1,gq_oc_tradprof_der,C5. Occup Traditional professional occupations,-8,not asked (GQ version difference)
+709118,FENLAND,P1,gq_oc_tradprof_der,C5. Occup Traditional professional occupations,-1,left blank
+709119,FENLAND,P1,gq_ownhouse_der,C11. Own house,2,yes
+709120,FENLAND,P1,gq_ownhouse_der,C11. Own house,3,no
+709121,FENLAND,P1,gq_ownhouse_der,C11. Own house,-1,left blank
+709122,FENLAND,P1,gq_renthouse_der,C11. Rent house,2,yes
+709123,FENLAND,P1,gq_renthouse_der,C11. Rent house,3,no
+709124,FENLAND,P1,gq_renthouse_der,C11. Rent house,-1,left blank
+709125,FENLAND,P1,avail_from_dt,,,

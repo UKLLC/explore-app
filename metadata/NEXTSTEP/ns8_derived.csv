@@ -1,0 +1,458 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1159963,NEXTSTEP,ns8_derived,study_id_e,,,
+1159964,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,-9.0,Refused
+1159965,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,-8.0,Insufficient information
+1159966,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,-1.0,Not applicable
+1159967,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,0.0,Outside Great Britain
+1159968,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,1.0,England
+1159969,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,2.0,Wales
+1159970,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,3.0,Scotland
+1159971,NEXTSTEP,ns8_derived,w8dctry,DV: Country at interview,4.0,Northern Ireland
+1159972,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,-9.0,Refused
+1159973,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,-8.0,Insufficient information
+1159974,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,-1.0,Not applicable
+1159975,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,1.0,North East
+1159976,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,2.0,North West
+1159977,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,3.0,Yorkshire and the Humber
+1159978,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,4.0,East Midlands
+1159979,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,5.0,West Midlands
+1159980,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,6.0,East of England
+1159981,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,7.0,London
+1159982,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,8.0,South East
+1159983,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,9.0,South West
+1159984,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,10.0,Wales
+1159985,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,11.0,Scotland
+1159986,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,12.0,Northern Ireland
+1159987,NEXTSTEP,ns8_derived,w8dgor,DV: Interview Government Office Region,13.0,Unknown due to faulty/missing postcode
+1159988,NEXTSTEP,ns8_derived,w8dhsize,DV: Number of people currently living in household (inc CM),-9.0,Refused
+1159989,NEXTSTEP,ns8_derived,w8dhsize,DV: Number of people currently living in household (inc CM),-8.0,Insufficient information
+1159990,NEXTSTEP,ns8_derived,w8dhsize,DV: Number of people currently living in household (inc CM),-1.0,Not applicable
+1159991,NEXTSTEP,ns8_derived,w8dchno,DV: Number of children currently living in household,-9.0,Refused
+1159992,NEXTSTEP,ns8_derived,w8dchno,DV: Number of children currently living in household,-8.0,Insufficient information
+1159993,NEXTSTEP,ns8_derived,w8dchno,DV: Number of children currently living in household,-1.0,Not applicable
+1159994,NEXTSTEP,ns8_derived,w8dchownno,DV: Number of own children currently living in household,-9.0,Refused
+1159995,NEXTSTEP,ns8_derived,w8dchownno,DV: Number of own children currently living in household,-8.0,Insufficient information
+1159996,NEXTSTEP,ns8_derived,w8dchownno,DV: Number of own children currently living in household,-1.0,Not applicable
+1159997,NEXTSTEP,ns8_derived,w8dchparno,DV: Number of children of CM's current or previous partner in household,-9.0,Refused
+1159998,NEXTSTEP,ns8_derived,w8dchparno,DV: Number of children of CM's current or previous partner in household,-8.0,Insufficient information
+1159999,NEXTSTEP,ns8_derived,w8dchparno,DV: Number of children of CM's current or previous partner in household,-1.0,Not applicable
+1160000,NEXTSTEP,ns8_derived,w8dfather,DV: Whether CM's father in household,-9.0,Refused
+1160001,NEXTSTEP,ns8_derived,w8dfather,DV: Whether CM's father in household,-8.0,Insufficient information
+1160002,NEXTSTEP,ns8_derived,w8dfather,DV: Whether CM's father in household,-1.0,Not applicable
+1160003,NEXTSTEP,ns8_derived,w8dfather,DV: Whether CM's father in household,0.0,Father not in household
+1160004,NEXTSTEP,ns8_derived,w8dfather,DV: Whether CM's father in household,1.0,Father in household
+1160005,NEXTSTEP,ns8_derived,w8dmother,DV: Whether CM's mother in household,-9.0,Refused
+1160006,NEXTSTEP,ns8_derived,w8dmother,DV: Whether CM's mother in household,-8.0,Insufficient information
+1160007,NEXTSTEP,ns8_derived,w8dmother,DV: Whether CM's mother in household,-1.0,Not applicable
+1160008,NEXTSTEP,ns8_derived,w8dmother,DV: Whether CM's mother in household,0.0,Mother not in household
+1160009,NEXTSTEP,ns8_derived,w8dmother,DV: Whether CM's mother in household,1.0,Mother in household
+1160010,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,-9.0,Refused
+1160011,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,-8.0,Insufficient information
+1160012,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,-1.0,Not applicable
+1160013,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,1.0,Single and never married or in a CP
+1160014,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,2.0,Married
+1160015,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,3.0,Separated but still legally married
+1160016,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,4.0,Divorced
+1160017,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,5.0,Widowed
+1160018,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,6.0,A Civil Partner
+1160019,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,7.0,Separated but still legally in a CP
+1160020,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,8.0,A former Civil Partner
+1160021,NEXTSTEP,ns8_derived,w8dmarstat,DV: Legal marital status,9.0,A surviving Civil Partner
+1160022,NEXTSTEP,ns8_derived,w8dnrage,DV: Age of CM's partner,-9.0,Refused
+1160023,NEXTSTEP,ns8_derived,w8dnrage,DV: Age of CM's partner,-8.0,Insufficient information
+1160024,NEXTSTEP,ns8_derived,w8dnrage,DV: Age of CM's partner,-1.0,Not applicable
+1160025,NEXTSTEP,ns8_derived,w8dageych,DV: Age of CM's youngest child,-9.0,Refused
+1160026,NEXTSTEP,ns8_derived,w8dageych,DV: Age of CM's youngest child,-8.0,Insufficient information
+1160027,NEXTSTEP,ns8_derived,w8dageych,DV: Age of CM's youngest child,-1.0,Not applicable
+1160028,NEXTSTEP,ns8_derived,w8dchno4,DV: Number of own children between 0 and 4,-9.0,Refused
+1160029,NEXTSTEP,ns8_derived,w8dchno4,DV: Number of own children between 0 and 4,-8.0,Insufficient information
+1160030,NEXTSTEP,ns8_derived,w8dchno4,DV: Number of own children between 0 and 4,-1.0,Not applicable
+1160031,NEXTSTEP,ns8_derived,w8dchno11,DV: Number of own children between 5 and 11,-9.0,Refused
+1160032,NEXTSTEP,ns8_derived,w8dchno11,DV: Number of own children between 5 and 11,-8.0,Insufficient information
+1160033,NEXTSTEP,ns8_derived,w8dchno11,DV: Number of own children between 5 and 11,-1.0,Not applicable
+1160034,NEXTSTEP,ns8_derived,w8dtimad,DV: Time at current address (months),-9.0,Refused
+1160035,NEXTSTEP,ns8_derived,w8dtimad,DV: Time at current address (months),-8.0,Insufficient information
+1160036,NEXTSTEP,ns8_derived,w8dtimad,DV: Time at current address (months),-1.0,Not applicable
+1160037,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,-9.0,Refused
+1160038,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,-8.0,Insufficient information
+1160039,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,-1.0,Not applicable
+1160040,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,1.0,Employee - in paid work
+1160041,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,2.0,Self employed
+1160042,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,3.0,In unpaid/voluntary work
+1160043,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,4.0,Unemployed
+1160044,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,5.0,Education: School/college/university
+1160045,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,6.0,Apprenticeship
+1160046,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,7.0,On gov't scheme for employment training
+1160047,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,8.0,Sick or disabled
+1160048,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,9.0,Looking after home or family
+1160049,NEXTSTEP,ns8_derived,w8dactivityc,DV: Current activity of CM - backcoded,10.0,Something else
+1160050,NEXTSTEP,ns8_derived,w8dwrk,DV: Whether CM currently employed - backcoded,-9.0,Refused
+1160051,NEXTSTEP,ns8_derived,w8dwrk,DV: Whether CM currently employed - backcoded,-8.0,Insufficient information
+1160052,NEXTSTEP,ns8_derived,w8dwrk,DV: Whether CM currently employed - backcoded,-1.0,Not applicable
+1160053,NEXTSTEP,ns8_derived,w8dwrk,DV: Whether CM currently employed - backcoded,1.0,Currently employed
+1160054,NEXTSTEP,ns8_derived,w8dwrk,DV: Whether CM currently employed - backcoded,2.0,Not currently employed
+1160055,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,-9.0,Refused
+1160056,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,-8.0,Insufficient information
+1160057,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,-1.0,Not applicable
+1160058,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,1.0,Employers - Large organisations
+1160059,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,2.0,Employers - Small organisations
+1160060,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,3.0,Self-employed - No employees
+1160061,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,4.0,Managers - Large organisations
+1160062,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,5.0,Managers - Small organisations
+1160063,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,6.0,Supervisors
+1160064,NEXTSTEP,ns8_derived,w8dempsz,DV: Employment status/size of organisation for cohort member,7.0,Other employees
+1160065,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),-9.0,Refused
+1160066,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),-8.0,Insufficient information
+1160067,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),-1.0,Not applicable
+1160068,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),1.0,Employers in large orgs.
+1160069,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),2.0,Higher managerial occupations
+1160070,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),3.1,Higher profess. trad. employees
+1160071,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),3.2,Higher profess. new employees
+1160072,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),3.3,Higher profess. trad. self-employed
+1160073,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),3.4,Higher profess. new self-employed
+1160074,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),4.1,Lower profess. trad. employees
+1160075,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),4.2,Lower profess. new employees
+1160076,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),4.3,Lower profess. trad. self-employed
+1160077,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),4.4,Lower profess. new self-employed
+1160078,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),5.0,Lower managerial occupations
+1160079,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),6.0,Higher supervisory occupations
+1160080,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),7.1,Intermed. clerical and administrative
+1160081,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),7.2,Intermed. sales and service
+1160082,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),7.3,Intermed. technical and auxiliary
+1160083,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),7.4,Intermed. engineering
+1160084,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),8.1,Employers in small orgs. non-profess.
+1160085,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),8.2,Employers in small orgs. agriculture
+1160086,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),9.1,Own account workers non profess.
+1160087,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),9.2,Own account workers agriculture
+1160088,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),10.0,Lower supervisory occupations
+1160089,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),11.1,Lower technical craft
+1160090,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),11.2,Lower technical process operative
+1160091,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),12.1,Semi-routine sales
+1160092,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),12.2,Semi-routine services
+1160093,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),12.3,Semi-routine technical
+1160094,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),12.4,Semi-routine operative
+1160095,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),12.5,Semi-routine agricultural
+1160096,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),12.6,Semi-routine clerical
+1160097,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),12.7,Semi-routine childcare
+1160098,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),13.1,Routine sales and service
+1160099,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),13.2,Routine production
+1160100,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),13.3,Routine technical
+1160101,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),13.4,Routine operative
+1160102,NEXTSTEP,ns8_derived,w8dnssec17,DV: NS-SEC (2010) (Full operational categories),13.5,Routine agricultural
+1160103,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),-9.0,Refused
+1160104,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),-8.0,Insufficient information
+1160105,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),-1.0,Not applicable
+1160106,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),1.0,Employers in large orgs.
+1160107,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),2.0,Higher managerial/admin. occupations
+1160108,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),3.0,Higher profess. occupations
+1160109,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),4.0,Lower profess./higher tech. occupations
+1160110,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),5.0,Lower managerial/admin. occupations
+1160111,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),6.0,Higher supervisory occupations
+1160112,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),7.0,Intermediate occupations
+1160113,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),8.0,Employers in small orgs.
+1160114,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),9.0,Own account workers
+1160115,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),10.0,Lower supervisory occupations
+1160116,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),11.0,Lower technical occupations
+1160117,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),12.0,Semi-routine occupations
+1160118,NEXTSTEP,ns8_derived,w8dnssec13,DV: NS-SEC (2010) 13 (Combined operational categories),13.0,Routine occupations
+1160119,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),-9.0,Refused
+1160120,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),-8.0,Insufficient information
+1160121,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),-1.0,Not applicable
+1160122,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),1.0,"Higher managerial, admin & professional"
+1160123,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),2.0,"Lower managerial, admin & professional"
+1160124,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),3.0,Intermediate occupations
+1160125,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),4.0,Small employers and own account
+1160126,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),5.0,Lower supervisory and technical
+1160127,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),6.0,Semi-routine occupations
+1160128,NEXTSTEP,ns8_derived,w8dnssec8,DV: NS-SEC (2010) 7 (Analytic classes),7.0,Routine occupations
+1160129,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),-9.0,Refused
+1160130,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),-8.0,Insufficient information
+1160131,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),-1.0,Not applicable
+1160132,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),1.0,"Higher managerial, admin & professional"
+1160133,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),2.0,Intermediate occupations
+1160134,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),3.0,Small employers and own account
+1160135,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),4.0,Lower supervisory and technical
+1160136,NEXTSTEP,ns8_derived,w8dnssec5,DV: NS-SEC (2010) 5 (Analytic classes),5.0,Semi-routine and routine occupations
+1160137,NEXTSTEP,ns8_derived,w8dwrkp,DV: Whether CM's partner currently employed - backcoded,-9.0,Refused
+1160138,NEXTSTEP,ns8_derived,w8dwrkp,DV: Whether CM's partner currently employed - backcoded,-8.0,Insufficient information
+1160139,NEXTSTEP,ns8_derived,w8dwrkp,DV: Whether CM's partner currently employed - backcoded,-1.0,Not applicable
+1160140,NEXTSTEP,ns8_derived,w8dwrkp,DV: Whether CM's partner currently employed - backcoded,1.0,Currently employed
+1160141,NEXTSTEP,ns8_derived,w8dwrkp,DV: Whether CM's partner currently employed - backcoded,2.0,Not currently employed
+1160142,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,3.0,Full-time self-employed
+1160143,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,4.0,Part-time self-employed
+1160144,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,5.0,Unemployed and seeking work
+1160145,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,6.0,Full-time education
+1160146,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,7.0,Part-time education
+1160147,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,8.0,On gov't scheme for employment training
+1160148,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,9.0,Temporarily sick/disabled
+1160149,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,10.0,Long term sick/disabled
+1160150,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,11.0,In unpaid/voluntary work
+1160151,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,12.0,Apprenticeship
+1160152,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,13.0,Looking after home or family
+1160153,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,14.0,Other
+1160154,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,-9.0,Refused
+1160155,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,-8.0,Insufficient information
+1160156,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,-1.0,Not applicable
+1160157,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,1.0,F/t paid employee (30+ hours/week)
+1160158,NEXTSTEP,ns8_derived,w8ddactivityp,DV: Current activity of CM's partner,2.0,P/t paid employee (< 30 hours/week)
+1160159,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,-9.0,Refused
+1160160,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,-8.0,Insufficient information
+1160161,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,-1.0,Not applicable
+1160162,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,1.0,Both in work
+1160163,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,2.0,CM in work; partner not in work
+1160164,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,3.0,CM not in work; partner in work
+1160165,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,4.0,Both not in work
+1160166,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,5.0,CM in work; no partner
+1160167,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,6.0,CM not in work: no partner
+1160168,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,7.0,CM status unknown; partner in work
+1160169,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,8.0,CM status unknown; partner not in work
+1160170,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,9.0,CM in work; partner status unknown
+1160171,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,10.0,CM not in work; partner status unknown
+1160172,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,11.0,CM status unknown; no partner
+1160173,NEXTSTEP,ns8_derived,w8dwrkcp,DV: Combined labour market status - backcoded,12.0,CM status and partner status unknown
+1160174,NEXTSTEP,ns8_derived,w8dincw,DV: Continuous weekly income,,
+1160175,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,-1.0,Not applicable
+1160176,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,1.0,less than 25
+1160177,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,2.0,25 to 50
+1160178,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,3.0,50 to 90
+1160179,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,4.0,90 to 140
+1160180,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,5.0,140 to 240
+1160181,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,6.0,240 to 300
+1160182,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,7.0,300 to 350
+1160183,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,8.0,350 to 400
+1160184,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,9.0,400 to 500
+1160185,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,10.0,500 to 600
+1160186,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,11.0,600 to 700
+1160187,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,12.0,700 to 800
+1160188,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,13.0,800 to 900
+1160189,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,14.0,900 to 1200
+1160190,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,15.0,1200 to 1400
+1160191,NEXTSTEP,ns8_derived,w8dincb,DV: Banded weekly income,16.0,more than 1400
+1160192,NEXTSTEP,ns8_derived,w8dbene,DV: Whether cohort member or partner receives any benefits,-9.0,Refused
+1160193,NEXTSTEP,ns8_derived,w8dbene,DV: Whether cohort member or partner receives any benefits,-8.0,Not known
+1160194,NEXTSTEP,ns8_derived,w8dbene,DV: Whether cohort member or partner receives any benefits,-1.0,Not applicable
+1160195,NEXTSTEP,ns8_derived,w8dbene,DV: Whether cohort member or partner receives any benefits,1.0,Receives benefits
+1160196,NEXTSTEP,ns8_derived,w8dbene,DV: Whether cohort member or partner receives any benefits,2.0,Does not receive benefits
+1160197,NEXTSTEP,ns8_derived,w8dbene2,DV: Whether cohort member or partner receives any benefits (incl extra split),-9.0,Refused
+1160198,NEXTSTEP,ns8_derived,w8dbene2,DV: Whether cohort member or partner receives any benefits (incl extra split),-8.0,Not known
+1160199,NEXTSTEP,ns8_derived,w8dbene2,DV: Whether cohort member or partner receives any benefits (incl extra split),-1.0,Not applicable
+1160200,NEXTSTEP,ns8_derived,w8dbene2,DV: Whether cohort member or partner receives any benefits (incl extra split),1.0,Unemployment related benefits
+1160201,NEXTSTEP,ns8_derived,w8dbene2,DV: Whether cohort member or partner receives any benefits (incl extra split),2.0,Other benefits
+1160202,NEXTSTEP,ns8_derived,w8dbene2,DV: Whether cohort member or partner receives any benefits (incl extra split),3.0,None
+1160203,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,-9.0,Refused
+1160204,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,-8.0,Insufficient information
+1160205,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,-1.0,Not applicable
+1160206,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,1.0,NVQ Level 1-2
+1160207,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,3.0,NVQ Level 3
+1160208,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,4.0,NVQ Level 4
+1160209,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,5.0,NVQ Level 5
+1160210,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,95.0,Other academic qualification
+1160211,NEXTSTEP,ns8_derived,w8danvqh,DV: Highest NVQ level from an academic qualification in 2015,96.0,None of these qualifications
+1160212,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,-9.0,Refused
+1160213,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,-8.0,Insufficient information
+1160214,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,-1.0,Not applicable
+1160215,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,1.0,NVQ Level 1
+1160216,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,2.0,NVQ Level 2
+1160217,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,3.0,NVQ Level 3
+1160218,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,4.0,NVQ Level 4
+1160219,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,5.0,NVQ Level 5
+1160220,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,95.0,Other academic qualification
+1160221,NEXTSTEP,ns8_derived,w8dhanvqh,DV: Highest NVQ level from an academic qualification to 2015,96.0,None of these qualifications
+1160222,NEXTSTEP,ns8_derived,w8ddegp,DV: Whether achieved first degree or higher,-9.0,Refused
+1160223,NEXTSTEP,ns8_derived,w8ddegp,DV: Whether achieved first degree or higher,-8.0,Insufficient information
+1160224,NEXTSTEP,ns8_derived,w8ddegp,DV: Whether achieved first degree or higher,-1.0,Not applicable
+1160225,NEXTSTEP,ns8_derived,w8ddegp,DV: Whether achieved first degree or higher,0.0,No degree
+1160226,NEXTSTEP,ns8_derived,w8ddegp,DV: Whether achieved first degree or higher,1.0,First or higher degree
+1160227,NEXTSTEP,ns8_derived,w8drussell,DV: Whether degree awarded by Russell Group University,-9.0,Refused
+1160228,NEXTSTEP,ns8_derived,w8drussell,DV: Whether degree awarded by Russell Group University,-8.0,Insufficient information
+1160229,NEXTSTEP,ns8_derived,w8drussell,DV: Whether degree awarded by Russell Group University,-1.0,Not applicable
+1160230,NEXTSTEP,ns8_derived,w8drussell,DV: Whether degree awarded by Russell Group University,1.0,Awarded by Russell Group university
+1160231,NEXTSTEP,ns8_derived,w8drussell,DV: Whether degree awarded by Russell Group University,2.0,Awarded by other HE institution
+1160232,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),9.0,Technologies
+1160233,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),10.0,"Architecture, building & planning"
+1160234,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),11.0,Social studies
+1160235,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),12.0,Law
+1160236,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),13.0,Business & administrative studies
+1160237,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),14.0,Mass communications & documentation
+1160238,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),15.0,"Linguistics, classics"
+1160239,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),16.0,"European languages, literature"
+1160240,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),17.0,"East, Asia, Afri, Amer & Aust lang/lit"
+1160241,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),18.0,Historical & philosophical studies
+1160242,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),19.0,Creative arts & design
+1160243,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),20.0,Education
+1160244,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),21.0,Other
+1160245,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),-9.0,Refused
+1160246,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),-8.0,Insufficient information
+1160247,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),-1.0,Not applicable
+1160248,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),1.0,Medicine and dentistry
+1160249,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),2.0,Subjects allied to medicine
+1160250,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),3.0,Biological sciences
+1160251,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),4.0,"Veterinary sciences, agriculture"
+1160252,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),5.0,Physical sciences
+1160253,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),6.0,Mathematics
+1160254,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),7.0,Engineering
+1160255,NEXTSTEP,ns8_derived,w8dhesubgroup,DV: Degree subject (grouped),8.0,Computer Science
+1160256,NEXTSTEP,ns8_derived,w8dbmi,DV: Body mass index,-9.0,Refused
+1160257,NEXTSTEP,ns8_derived,w8dbmi,DV: Body mass index,-8.0,Insufficient information
+1160258,NEXTSTEP,ns8_derived,w8dbmi,DV: Body mass index,-1.0,Not applicable
+1160259,NEXTSTEP,ns8_derived,w8dbmica,DV: Body mass index category,-9.0,Refused
+1160260,NEXTSTEP,ns8_derived,w8dbmica,DV: Body mass index category,-8.0,Insufficient information
+1160261,NEXTSTEP,ns8_derived,w8dbmica,DV: Body mass index category,-1.0,Not applicable
+1160262,NEXTSTEP,ns8_derived,w8dbmica,DV: Body mass index category,1.0,Underweight
+1160263,NEXTSTEP,ns8_derived,w8dbmica,DV: Body mass index category,2.0,Healthy weight
+1160264,NEXTSTEP,ns8_derived,w8dbmica,DV: Body mass index category,3.0,Overweight
+1160265,NEXTSTEP,ns8_derived,w8dbmica,DV: Body mass index category,4.0,Obese
+1160266,NEXTSTEP,ns8_derived,w8ddisea,DV: Disability classification Equality act (2010),-9.0,Refused
+1160267,NEXTSTEP,ns8_derived,w8ddisea,DV: Disability classification Equality act (2010),-8.0,Insufficient information
+1160268,NEXTSTEP,ns8_derived,w8ddisea,DV: Disability classification Equality act (2010),-1.0,Not applicable
+1160269,NEXTSTEP,ns8_derived,w8ddisea,DV: Disability classification Equality act (2010),0.0,Not disabled (Equality act)
+1160270,NEXTSTEP,ns8_derived,w8ddisea,DV: Disability classification Equality act (2010),1.0,Disabled (Equality act)
+1160271,NEXTSTEP,ns8_derived,w8ddiseu,DV: Disability classification EU-SILC,-9.0,Refused
+1160272,NEXTSTEP,ns8_derived,w8ddiseu,DV: Disability classification EU-SILC,-8.0,Insufficient information
+1160273,NEXTSTEP,ns8_derived,w8ddiseu,DV: Disability classification EU-SILC,-1.0,Not applicable
+1160274,NEXTSTEP,ns8_derived,w8ddiseu,DV: Disability classification EU-SILC,0.0,No EU-SILC long-standing health condition
+1160275,NEXTSTEP,ns8_derived,w8ddiseu,DV: Disability classification EU-SILC,1.0,EU-SILC classification to some extent
+1160276,NEXTSTEP,ns8_derived,w8ddiseu,DV: Disability classification EU-SILC,2.0,EU-SILC classification severely hampered
+1160277,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,-9.0,Refused
+1160278,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,-8.0,Insufficient information
+1160279,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,-1.0,Not applicable
+1160280,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,1.0,White
+1160281,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,2.0,Mixed
+1160282,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,3.0,Indian
+1160283,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,4.0,Pakistani and Bangladeshi
+1160284,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,5.0,Black or Black British
+1160285,NEXTSTEP,ns8_derived,w8dethn6,DV: Ethnic group - 6 category census class,6.0,Other Ethnic Group
+1160286,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,-9.0,Refused
+1160287,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,-8.0,Insufficient information
+1160288,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,-1.0,Not applicable
+1160289,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,1.0,White
+1160290,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,2.0,Mixed
+1160291,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,3.0,Indian
+1160292,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,4.0,Pakistani
+1160293,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,5.0,Bangladeshi
+1160294,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,6.0,Black Caribbean
+1160295,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,7.0,Black African
+1160296,NEXTSTEP,ns8_derived,w8dethn8,DV: Ethnic group - 8 category census class,8.0,Other Ethnic Group
+1160297,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,-9.0,Refused
+1160298,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,-8.0,Insufficient information
+1160299,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,-1.0,Not applicable
+1160300,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,1.0,White
+1160301,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,2.0,Mixed
+1160302,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,3.0,Indian
+1160303,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,4.0,Pakistani
+1160304,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,5.0,Bangladeshi
+1160305,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,6.0,Other Asian
+1160306,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,7.0,Black Caribbean
+1160307,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,8.0,Black African
+1160308,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,9.0,Other Black
+1160309,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,10.0,Chinese
+1160310,NEXTSTEP,ns8_derived,w8dethn11,DV: Ethnic group - 11 category census class,11.0,Other Ethnic Group
+1160311,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,-9.0,Refused
+1160312,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,-8.0,Insufficient information
+1160313,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,-1.0,Not applicable
+1160314,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,1.0,White - British
+1160315,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,2.0,White - Irish
+1160316,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,3.0,Any other White background
+1160317,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,4.0,Mixed - White and Black Caribbean
+1160318,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,5.0,Mixed - White and Black African
+1160319,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,6.0,Mixed - White and Asian
+1160320,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,7.0,Any other mixed background
+1160321,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,8.0,Asian/Asian British - Indian
+1160322,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,9.0,Asian/Asian British - Pakistani
+1160323,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,10.0,Asian/Asian British - Bangladeshi
+1160324,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,11.0,Other other Asian background
+1160325,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,12.0,Black/Black British - Caribbean
+1160326,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,13.0,Black/Black British - African
+1160327,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,14.0,Any other Black background
+1160328,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,15.0,Chinese
+1160329,NEXTSTEP,ns8_derived,w8dethn15,DV: Ethnic group - Detailed,16.0,Any other background
+1160330,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,-9.0,Refused
+1160331,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,-8.0,Insufficient information
+1160332,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,-1.0,Not applicable
+1160333,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,1.0,White
+1160334,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,2.0,Mixed
+1160335,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,3.0,Indian
+1160336,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,4.0,Pakistani and Bangladeshi
+1160337,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,5.0,Black or Black British
+1160338,NEXTSTEP,ns8_derived,w8dethnp6,DV: Ethnic group of CM's partner - 6 category census class,6.0,Other Ethnic Group
+1160339,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,-9.0,Refused
+1160340,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,-8.0,Insufficient information
+1160341,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,-1.0,Not applicable
+1160342,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,1.0,White
+1160343,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,2.0,Mixed
+1160344,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,3.0,Indian
+1160345,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,4.0,Pakistani
+1160346,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,5.0,Bangladeshi
+1160347,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,6.0,Black Caribbean
+1160348,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,7.0,Black African
+1160349,NEXTSTEP,ns8_derived,w8dethnp8,DV: Ethnic group of CM's partner - 8 category census class,8.0,Other Ethnic Group
+1160350,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,-9.0,Refused
+1160351,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,-8.0,Insufficient information
+1160352,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,-1.0,Not applicable
+1160353,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,1.0,White
+1160354,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,2.0,Mixed
+1160355,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,3.0,Indian
+1160356,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,4.0,Pakistani
+1160357,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,5.0,Bangladeshi
+1160358,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,6.0,Other Asian
+1160359,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,7.0,Black Caribbean
+1160360,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,8.0,Black African
+1160361,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,9.0,Other Black
+1160362,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,10.0,Chinese
+1160363,NEXTSTEP,ns8_derived,w8dethnp11,DV: Ethnic group of CM's partner - 11 category census class,11.0,Other Ethnic Group
+1160364,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,-9.0,Refused
+1160365,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,-8.0,Insufficient information
+1160366,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,-1.0,Not applicable
+1160367,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,1.0,White - British
+1160368,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,2.0,White - Irish
+1160369,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,3.0,Any other White background
+1160370,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,4.0,Mixed - White and Black Caribbean
+1160371,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,5.0,Mixed - White and Black African
+1160372,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,6.0,Mixed - White and Asian
+1160373,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,7.0,Any other mixed background
+1160374,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,8.0,Asian/Asian British - Indian
+1160375,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,9.0,Asian/Asian British - Pakistani
+1160376,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,10.0,Asian/Asian British - Bangladeshi
+1160377,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,11.0,Other other Asian background
+1160378,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,12.0,Black/Black British - Caribbean
+1160379,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,13.0,Black/Black British - African
+1160380,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,14.0,Any other Black background
+1160381,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,15.0,Chinese
+1160382,NEXTSTEP,ns8_derived,w8dethnp15,DV: Ethnic group of CM's partner - Detailed,16.0,Any other background
+1160383,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,-9.0,Refused
+1160384,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,-8.0,Insufficient information
+1160385,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,-1.0,Not applicable
+1160386,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,1.0,Christian
+1160387,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,2.0,Muslim
+1160388,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,3.0,Hindu
+1160389,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,4.0,Sikh
+1160390,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,5.0,Jewish
+1160391,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,6.0,Buddhist
+1160392,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,7.0,Other
+1160393,NEXTSTEP,ns8_derived,w8drelig7,DV: Religion - 7 category,8.0,None
+1160394,NEXTSTEP,ns8_derived,w8daudit,DV: Alcohol Use Disorders Identification Test Consumption (AUDIT-C) scale,-9.0,Refused
+1160395,NEXTSTEP,ns8_derived,w8daudit,DV: Alcohol Use Disorders Identification Test Consumption (AUDIT-C) scale,-8.0,Insufficient information
+1160396,NEXTSTEP,ns8_derived,w8daudit,DV: Alcohol Use Disorders Identification Test Consumption (AUDIT-C) scale,-1.0,Not applicable
+1160397,NEXTSTEP,ns8_derived,w8dcanever,DV: Whether CM has ever tried cannabis,-9.0,Refused
+1160398,NEXTSTEP,ns8_derived,w8dcanever,DV: Whether CM has ever tried cannabis,-8.0,Insufficient information
+1160399,NEXTSTEP,ns8_derived,w8dcanever,DV: Whether CM has ever tried cannabis,-1.0,Not applicable
+1160400,NEXTSTEP,ns8_derived,w8dcanever,DV: Whether CM has ever tried cannabis,1.0,Yes
+1160401,NEXTSTEP,ns8_derived,w8dcanever,DV: Whether CM has ever tried cannabis,2.0,No
+1160402,NEXTSTEP,ns8_derived,w8dsexever,DV: Whether CM has ever had sex,-9.0,Refused
+1160403,NEXTSTEP,ns8_derived,w8dsexever,DV: Whether CM has ever had sex,-8.0,Not known
+1160404,NEXTSTEP,ns8_derived,w8dsexever,DV: Whether CM has ever had sex,-1.0,Not applicable
+1160405,NEXTSTEP,ns8_derived,w8dsexever,DV: Whether CM has ever had sex,1.0,Yes
+1160406,NEXTSTEP,ns8_derived,w8dsexever,DV: Whether CM has ever had sex,2.0,No
+1160407,NEXTSTEP,ns8_derived,w8dpreg,DV: Whether CM has ever been pregnant,-9.0,Refused
+1160408,NEXTSTEP,ns8_derived,w8dpreg,DV: Whether CM has ever been pregnant,-8.0,Insufficient information
+1160409,NEXTSTEP,ns8_derived,w8dpreg,DV: Whether CM has ever been pregnant,-1.0,Not applicable
+1160410,NEXTSTEP,ns8_derived,w8dpreg,DV: Whether CM has ever been pregnant,1.0,Has been pregnant
+1160411,NEXTSTEP,ns8_derived,w8dpreg,DV: Whether CM has ever been pregnant,2.0,Has not been pregnant
+1160412,NEXTSTEP,ns8_derived,w8dlocus,DV: Locus of control scale (Lefcourt,-9.0,Refused
+1160413,NEXTSTEP,ns8_derived,w8dlocus,DV: Locus of control scale (Lefcourt,-8.0,Insufficient information
+1160414,NEXTSTEP,ns8_derived,w8dlocus,DV: Locus of control scale (Lefcourt,-1.0,Not applicable
+1160415,NEXTSTEP,ns8_derived,w8dghqsc,DV: General Health Questionnaire (GHQ12) score (Goldberg & Williams,-9.0,Refused
+1160416,NEXTSTEP,ns8_derived,w8dghqsc,DV: General Health Questionnaire (GHQ12) score (Goldberg & Williams,-8.0,Insufficient information
+1160417,NEXTSTEP,ns8_derived,w8dghqsc,DV: General Health Questionnaire (GHQ12) score (Goldberg & Williams,-1.0,Not applicable
+1160418,NEXTSTEP,ns8_derived,v3,None,,
+1160419,NEXTSTEP,ns8_derived,avail_from_dt,,,

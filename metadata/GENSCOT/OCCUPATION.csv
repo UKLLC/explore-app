@@ -1,0 +1,114 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+713723,GENSCOT,OCCUPATION,study_id_e,,,
+713724,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),10.0,"Unemployed, seeking work"
+713725,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),11.0,Other
+713726,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),12.0,Not applicable
+713727,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),2.0,Self-employed not employing others
+713728,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),3.0,Paid employee supervising others
+713729,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),4.0,Paid employee not supervising
+713730,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),5.0,In unpaid employment
+713731,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),6.0,Housewife/homemaker
+713732,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),7.0,Retired
+713733,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),8.0,Full-time student
+713734,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),9.0,"Unemployed, sick or disabled"
+713735,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),1.0,Self-employed employing others
+713736,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),10.0,"Unemployed, seeking work"
+713737,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),11.0,Other
+713738,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),12.0,Not applicable
+713739,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),2.0,Self-employed not employing others
+713740,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),3.0,Paid employee supervising others
+713741,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),4.0,Paid employee not supervising
+713742,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),5.0,In unpaid employment
+713743,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),6.0,Housewife/homemaker
+713744,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),7.0,Retired
+713745,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),8.0,Full-time student
+713746,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),9.0,"Unemployed, sick or disabled"
+713747,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),1.0,Self-employed employing others
+713748,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",1.0,Less than 1 year
+713749,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",2.0,1-4 inclusive
+713750,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",3.0,5-9 inclusive
+713751,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",4.0,10-14 inclusive
+713752,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",5.0,15-19 inclusive
+713753,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",6.0,20-24 inclusive
+713754,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",7.0,25+
+713755,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",0.0,0
+713756,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,2.0,Standing
+713757,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,3.0,Manual
+713758,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,4.0,Heavy Manual
+713759,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,1.0,Sedentary
+713760,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",1.0,1-4 inclusive
+713761,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",10.0,45-49 inclusive
+713762,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",11.0,50+
+713763,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",2.0,5-9 inclusive
+713764,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",3.0,10-14 inclusive
+713765,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",4.0,15-19 inclusive
+713766,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",5.0,20-24 inclusive
+713767,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",6.0,25-29 inclusive
+713768,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",7.0,30-34 inclusive
+713769,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",8.0,35-39 inclusive
+713770,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",9.0,40-44 inclusive
+713771,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",0.0,0
+713772,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,1.0,"<10,000"
+713773,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,2.0,"10,000-30,000"
+713774,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,3.0,"30,000-50,000"
+713775,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,4.0,"50,000-70,000"
+713776,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,5.0,"70,000+"
+713777,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,6.0,prefer not-answer
+713778,GENSCOT,OCCUPATION,avail_from_dt,,,
+713779,GENSCOT,OCCUPATION,study_id_e,,,
+713780,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),10.0,"Unemployed, seeking work"
+713781,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),11.0,Other
+713782,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),12.0,Not applicable
+713783,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),2.0,Self-employed not employing others
+713784,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),3.0,Paid employee supervising others
+713785,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),4.0,Paid employee not supervising
+713786,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),5.0,In unpaid employment
+713787,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),6.0,Housewife/homemaker
+713788,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),7.0,Retired
+713789,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),8.0,Full-time student
+713790,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),9.0,"Unemployed, sick or disabled"
+713791,GENSCOT,OCCUPATION,vol_job_status,What is your employment (if unemployed give details of last job),1.0,Self-employed employing others
+713792,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),10.0,"Unemployed, seeking work"
+713793,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),11.0,Other
+713794,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),12.0,Not applicable
+713795,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),2.0,Self-employed not employing others
+713796,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),3.0,Paid employee supervising others
+713797,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),4.0,Paid employee not supervising
+713798,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),5.0,In unpaid employment
+713799,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),6.0,Housewife/homemaker
+713800,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),7.0,Retired
+713801,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),8.0,Full-time student
+713802,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),9.0,"Unemployed, sick or disabled"
+713803,GENSCOT,OCCUPATION,spouse_job_status,What is your spouse/partner employment (if unemployed give details of last job),1.0,Self-employed employing others
+713804,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",1.0,Less than 1 year
+713805,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",2.0,1-4 inclusive
+713806,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",3.0,5-9 inclusive
+713807,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",4.0,10-14 inclusive
+713808,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",5.0,15-19 inclusive
+713809,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",6.0,20-24 inclusive
+713810,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",7.0,25+
+713811,GENSCOT,OCCUPATION,jobless_years,"PCQ: N5I. If you are unemployed, state for how long Years",0.0,0
+713812,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,2.0,Standing
+713813,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,3.0,Manual
+713814,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,4.0,Heavy Manual
+713815,GENSCOT,OCCUPATION,work_type,PCQ: N5. Type of work your job mainly involves,1.0,Sedentary
+713816,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",1.0,1-4 inclusive
+713817,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",10.0,45-49 inclusive
+713818,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",11.0,50+
+713819,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",2.0,5-9 inclusive
+713820,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",3.0,10-14 inclusive
+713821,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",4.0,15-19 inclusive
+713822,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",5.0,20-24 inclusive
+713823,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",6.0,25-29 inclusive
+713824,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",7.0,30-34 inclusive
+713825,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",8.0,35-39 inclusive
+713826,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",9.0,40-44 inclusive
+713827,GENSCOT,OCCUPATION,night_hours,"PCQ: N5III. If you are employed, how many hours in a typical week would you work in the evening/overnight",0.0,0
+713828,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,1.0,"<10,000"
+713829,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,2.0,"10,000-30,000"
+713830,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,3.0,"30,000-50,000"
+713831,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,4.0,"50,000-70,000"
+713832,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,5.0,"70,000+"
+713833,GENSCOT,OCCUPATION,income,PCQ: N6. Average total income before tax of your entire household?,6.0,prefer not-answer
+713834,GENSCOT,OCCUPATION,appt,date of response,,timestamp
+713835,GENSCOT,OCCUPATION,avail_from_dt,,,

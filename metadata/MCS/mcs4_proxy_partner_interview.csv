@@ -1,0 +1,1168 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+845562,MCS,mcs4_proxy_partner_interview,study_id_e,,,
+845563,MCS,mcs4_proxy_partner_interview,pnum,Person number,-1.0,Not applicable
+845564,MCS,mcs4_proxy_partner_interview,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,-1.0,Not applicable
+845565,MCS,mcs4_proxy_partner_interview,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,1.0,Main Interview
+845566,MCS,mcs4_proxy_partner_interview,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,2.0,Partner Interview
+845567,MCS,mcs4_proxy_partner_interview,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,3.0,Proxy Interview
+845568,MCS,mcs4_proxy_partner_interview,delig00,Eligibility for survey: Whether resp eligible for role of Main /(Proxy)Partner,4.0,Not eligible
+845569,MCS,mcs4_proxy_partner_interview,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+845570,MCS,mcs4_proxy_partner_interview,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+845571,MCS,mcs4_proxy_partner_interview,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+845572,MCS,mcs4_proxy_partner_interview,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Proxy Interview
+845573,MCS,mcs4_proxy_partner_interview,dresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No Interview
+845574,MCS,mcs4_proxy_partner_interview,dxpxln00,Length of px block,-9.0,Refusal
+845575,MCS,mcs4_proxy_partner_interview,dxpxln00,Length of px block,-8.0,Don't Know
+845576,MCS,mcs4_proxy_partner_interview,dxpxln00,Length of px block,-1.0,Not applicable
+845577,MCS,mcs4_proxy_partner_interview,dxpxln00,Length of px block,998.0,Refusal
+845578,MCS,mcs4_proxy_partner_interview,dxpxln00,Length of px block,999.0,Don't Know
+845579,MCS,mcs4_proxy_partner_interview,dxpxsx00,Proxy s sex - will be computed??,-9.0,Refusal
+845580,MCS,mcs4_proxy_partner_interview,dxpxsx00,Proxy s sex - will be computed??,-8.0,Don't Know
+845581,MCS,mcs4_proxy_partner_interview,dxpxsx00,Proxy s sex - will be computed??,-1.0,Not applicable
+845582,MCS,mcs4_proxy_partner_interview,dxpxsx00,Proxy s sex - will be computed??,1.0,Male
+845583,MCS,mcs4_proxy_partner_interview,dxpxsx00,Proxy s sex - will be computed??,2.0,Female
+845584,MCS,mcs4_proxy_partner_interview,dxpxag00,Proxy s age - will be computed?,-9.0,Refusal
+845585,MCS,mcs4_proxy_partner_interview,dxpxag00,Proxy s age - will be computed?,-8.0,Don't Know
+845586,MCS,mcs4_proxy_partner_interview,dxpxag00,Proxy s age - will be computed?,-1.0,Not applicable
+845587,MCS,mcs4_proxy_partner_interview,dxpxpm00,Proxy s marital status from hh grid,-9.0,Refusal
+845588,MCS,mcs4_proxy_partner_interview,dxpxpm00,Proxy s marital status from hh grid,-8.0,Don't Know
+845589,MCS,mcs4_proxy_partner_interview,dxpxpm00,Proxy s marital status from hh grid,-1.0,Not applicable
+845590,MCS,mcs4_proxy_partner_interview,dxpxpm00,Proxy s marital status from hh grid,1.0,Spouse
+845591,MCS,mcs4_proxy_partner_interview,dxpxpm00,Proxy s marital status from hh grid,2.0,Cohab
+845592,MCS,mcs4_proxy_partner_interview,dxpxpm00,Proxy s marital status from hh grid,3.0,Neither
+845593,MCS,mcs4_proxy_partner_interview,dxpxpq00,Ask proxy questions,-9.0,Refusal
+845594,MCS,mcs4_proxy_partner_interview,dxpxpq00,Ask proxy questions,-8.0,Don't Know
+845595,MCS,mcs4_proxy_partner_interview,dxpxpq00,Ask proxy questions,-1.0,Not applicable
+845596,MCS,mcs4_proxy_partner_interview,dxpxpq00,Ask proxy questions,1.0,Press 1 and Enter to continue.
+845597,MCS,mcs4_proxy_partner_interview,dxpxin00,Proceed with proxy interview,-9.0,Refusal
+845598,MCS,mcs4_proxy_partner_interview,dxpxin00,Proceed with proxy interview,-8.0,Don't Know
+845599,MCS,mcs4_proxy_partner_interview,dxpxin00,Proceed with proxy interview,-1.0,Not applicable
+845600,MCS,mcs4_proxy_partner_interview,dxpxin00,Proceed with proxy interview,1.0,Continue with PROXY interview
+845601,MCS,mcs4_proxy_partner_interview,dxpxin00,Proceed with proxy interview,2.0,Refuse ALL proxy interview
+845602,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,-9.0,Refusal
+845603,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,-8.0,Don't Know
+845604,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,-1.0,Not applicable
+845605,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,1.0,Legally separated
+845606,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,2.0,"Married, 1st and only marriage"
+845607,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,3.0,"Remarried, 2nd or later marriage"
+845608,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,4.0,Single never married
+845609,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,5.0,Divorced
+845610,MCS,mcs4_proxy_partner_interview,dxpxms00,Partner s current legal marital status,6.0,Widowed
+845611,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],33.0,Black and Asian
+845612,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],34.0,Black and Chinese
+845613,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],35.0,Black and White
+845614,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],36.0,Chinese and White
+845615,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],37.0,Asian and Chinese
+845616,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],38.0,"Other Mixed, Mixed unspecified"
+845617,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],39.0,Indian or British Indian
+845618,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],40.0,Pakistani or British Pakistani
+845619,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],41.0,Bangladeshi or British Bangladeshi
+845620,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],42.0,Punjabi
+845621,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],43.0,Kashmiri
+845622,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],44.0,East African Asian
+845623,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],45.0,Sri Lankan
+845624,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],46.0,Tamil
+845625,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],47.0,Sinhalese
+845626,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],48.0,Caribbean Asian
+845627,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],49.0,British Asian
+845628,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],50.0,Mixed Asian
+845629,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],51.0,"Other Asian, Asian unspecified"
+845630,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],52.0,Caribbean
+845631,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],53.0,African
+845632,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],54.0,Somali
+845633,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],55.0,Nigerian
+845634,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],56.0,Black British
+845635,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],57.0,Mixed Black
+845636,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],58.0,"Other Black, Black unspecified"
+845637,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],59.0,Chinese
+845638,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],60.0,Vietnamese
+845639,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],61.0,Japanese
+845640,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],62.0,Filipino
+845641,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],63.0,Malaysian
+845642,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],64.0,Buddhist
+845643,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],65.0,Hindu
+845644,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],66.0,Jewish
+845645,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],67.0,Muslim
+845646,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],68.0,Sikh
+845647,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],69.0,Arab
+845648,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],70.0,North African
+845649,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],71.0,"Middle Eastern (exc.Israeli, Iran)"
+845650,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],72.0,Israeli
+845651,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],73.0,Iranian
+845652,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],74.0,Iraqi
+845653,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],75.0,Kurdish
+845654,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],76.0,Moroccan
+845655,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],77.0,Latin American
+845656,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],78.0,South and Central American
+845657,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],79.0,"Multi-ethnic islands: e,g, Mauritius"
+845658,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],80.0,spare
+845659,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],81.0,spare
+845660,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],82.0,spare
+845661,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],83.0,spare
+845662,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],84.0,spare
+845663,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],85.0,Other specific answer
+845664,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],86.0,Vague / irrelevant answer
+845665,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],87.0,Editor cannot deal with
+845666,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],-9.0,Refusal
+845667,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],-8.0,Don't Know
+845668,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],-1.0,Not applicable
+845669,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],1.0,"British, Mixed British"
+845670,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],2.0,Irish
+845671,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],3.0,English
+845672,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],4.0,Scottish
+845673,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],5.0,Welsh
+845674,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],6.0,Cornish
+845675,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],7.0,Northern Irish
+845676,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],8.0,Cypriot (part not stated)
+845677,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],9.0,Greek
+845678,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],10.0,Greek Cypriot
+845679,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],11.0,Turkish
+845680,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],12.0,Turkish Cypriot
+845681,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],13.0,Italian
+845682,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],14.0,Irish Traveller
+845683,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],15.0,Traveller
+845684,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],16.0,Gypsy/Romany
+845685,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],17.0,Polish
+845686,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],18.0,"Baltic States (e.g. Estonian, Latvian)"
+845687,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],19.0,Commonwealth of (Russian) Ind States
+845688,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],20.0,Kosovan
+845689,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],21.0,Albanian
+845690,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],22.0,Bosnian
+845691,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],23.0,Croatian
+845692,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],24.0,Serbian
+845693,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],25.0,Other republics of the former USSR
+845694,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],26.0,Mixed Irish/Other white
+845695,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],27.0,"Other white European, European Mixed"
+845696,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],28.0,Other mixed white
+845697,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],29.0,"Other white, white unspecified"
+845698,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],30.0,White and Black Caribbean
+845699,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],31.0,White and Black African
+845700,MCS,mcs4_proxy_partner_interview,dxpxxx00,Partner s ethnic group (A) [England],32.0,White and Asian
+845701,MCS,mcs4_proxy_partner_interview,dxpxpa00,Ask about partner's parents,-9.0,Refusal
+845702,MCS,mcs4_proxy_partner_interview,dxpxpa00,Ask about partner's parents,-8.0,Don't Know
+845703,MCS,mcs4_proxy_partner_interview,dxpxpa00,Ask about partner's parents,-1.0,Not applicable
+845704,MCS,mcs4_proxy_partner_interview,dxpxpa00,Ask about partner's parents,1.0,Press 1 and Enter to continue.
+845705,MCS,mcs4_proxy_partner_interview,dxpxmu00,Whether partner s natural/adoptive mother still alive,-9.0,Refusal
+845706,MCS,mcs4_proxy_partner_interview,dxpxmu00,Whether partner s natural/adoptive mother still alive,-8.0,Don't Know
+845707,MCS,mcs4_proxy_partner_interview,dxpxmu00,Whether partner s natural/adoptive mother still alive,-1.0,Not applicable
+845708,MCS,mcs4_proxy_partner_interview,dxpxmu00,Whether partner s natural/adoptive mother still alive,1.0,Yes
+845709,MCS,mcs4_proxy_partner_interview,dxpxmu00,Whether partner s natural/adoptive mother still alive,2.0,No
+845710,MCS,mcs4_proxy_partner_interview,dxpxmu00,Whether partner s natural/adoptive mother still alive,3.0,Don t know
+845711,MCS,mcs4_proxy_partner_interview,dxpxma00,Partner's mother's age,-9.0,Refusal
+845712,MCS,mcs4_proxy_partner_interview,dxpxma00,Partner's mother's age,-8.0,Don't Know
+845713,MCS,mcs4_proxy_partner_interview,dxpxma00,Partner's mother's age,-1.0,Not applicable
+845714,MCS,mcs4_proxy_partner_interview,dxpxma00,Partner's mother's age,998.0,Refusal
+845715,MCS,mcs4_proxy_partner_interview,dxpxma00,Partner's mother's age,999.0,Don't Know
+845716,MCS,mcs4_proxy_partner_interview,dxpxmo00,Age of partner's mother at death,-8.0,Don't know
+845717,MCS,mcs4_proxy_partner_interview,dxpxmo00,Age of partner's mother at death,-3.0,Still alive
+845718,MCS,mcs4_proxy_partner_interview,dxpxmo00,Age of partner's mother at death,-1.0,Not applicable
+845719,MCS,mcs4_proxy_partner_interview,dxpxdu00,Whether partner's father still alive,-9.0,Refusal
+845720,MCS,mcs4_proxy_partner_interview,dxpxdu00,Whether partner's father still alive,-8.0,Don't Know
+845721,MCS,mcs4_proxy_partner_interview,dxpxdu00,Whether partner's father still alive,-1.0,Not applicable
+845722,MCS,mcs4_proxy_partner_interview,dxpxdu00,Whether partner's father still alive,1.0,Yes
+845723,MCS,mcs4_proxy_partner_interview,dxpxdu00,Whether partner's father still alive,2.0,No
+845724,MCS,mcs4_proxy_partner_interview,dxpxdu00,Whether partner's father still alive,3.0,Don t know
+845725,MCS,mcs4_proxy_partner_interview,dxpxda00,Partner's father's age,-9.0,Refusal
+845726,MCS,mcs4_proxy_partner_interview,dxpxda00,Partner's father's age,-8.0,Don't Know
+845727,MCS,mcs4_proxy_partner_interview,dxpxda00,Partner's father's age,-1.0,Not applicable
+845728,MCS,mcs4_proxy_partner_interview,dxpxda00,Partner's father's age,998.0,Refusal
+845729,MCS,mcs4_proxy_partner_interview,dxpxda00,Partner's father's age,999.0,Don't Know
+845730,MCS,mcs4_proxy_partner_interview,dxpxdo00,Age of partner's father at death,-8.0,Don't know
+845731,MCS,mcs4_proxy_partner_interview,dxpxdo00,Age of partner's father at death,-3.0,Still alive
+845732,MCS,mcs4_proxy_partner_interview,dxpxdo00,Age of partner's father at death,-1.0,Not applicable
+845733,MCS,mcs4_proxy_partner_interview,dxpxdm00,Whether partner s parents live together,-9.0,Refusal
+845734,MCS,mcs4_proxy_partner_interview,dxpxdm00,Whether partner s parents live together,-8.0,Don't Know
+845735,MCS,mcs4_proxy_partner_interview,dxpxdm00,Whether partner s parents live together,-1.0,Not applicable
+845736,MCS,mcs4_proxy_partner_interview,dxpxdm00,Whether partner s parents live together,1.0,Yes
+845737,MCS,mcs4_proxy_partner_interview,dxpxdm00,Whether partner s parents live together,2.0,No
+845738,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,-9.0,Refusal
+845739,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,-8.0,Don't Know
+845740,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,-1.0,Not applicable
+845741,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,1.0,Less than 15 minutes journey
+845742,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,2.0,15 to less than 30 minutes journey
+845743,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,3.0,30 minutes to less than 1 hour journey
+845744,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,4.0,"One hour or more away, but within UK"
+845745,MCS,mcs4_proxy_partner_interview,dxpxpr00,How long does it take to travel to parents,5.0,Outside the UK
+845746,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,-9.0,Refusal
+845747,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,-8.0,Don't Know
+845748,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,-1.0,Not applicable
+845749,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,1.0,Less than 15 minutes journey
+845750,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,2.0,15 to less than 30 minutes journey
+845751,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,3.0,30 minutes to less than 1 hour journey
+845752,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,4.0,"One hour or more away, but within UK"
+845753,MCS,mcs4_proxy_partner_interview,dxpxmv00,Journey time to partner's mother's home,5.0,Outside the UK
+845754,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,-9.0,Refusal
+845755,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,-8.0,Don't Know
+845756,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,-1.0,Not applicable
+845757,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,1.0,Less than 15 minutes journey
+845758,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,2.0,15 to less than 30 minutes journey
+845759,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,3.0,30 minutes to less than 1 hour journey
+845760,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,4.0,"One hour or more away, but within UK"
+845761,MCS,mcs4_proxy_partner_interview,dxpxdv00,Journey time to partner's father's home,5.0,Outside the UK
+845762,MCS,mcs4_proxy_partner_interview,dxpxbo00,Whether partner born in UK,-9.0,Refusal
+845763,MCS,mcs4_proxy_partner_interview,dxpxbo00,Whether partner born in UK,-8.0,Don't Know
+845764,MCS,mcs4_proxy_partner_interview,dxpxbo00,Whether partner born in UK,-1.0,Not applicable
+845765,MCS,mcs4_proxy_partner_interview,dxpxbo00,Whether partner born in UK,1.0,Yes
+845766,MCS,mcs4_proxy_partner_interview,dxpxbo00,Whether partner born in UK,2.0,No
+845767,MCS,mcs4_proxy_partner_interview,dxpxwn00,When partner came to UK to live,-9.0,Refusal
+845768,MCS,mcs4_proxy_partner_interview,dxpxwn00,When partner came to UK to live,-8.0,Don't Know
+845769,MCS,mcs4_proxy_partner_interview,dxpxwn00,When partner came to UK to live,-1.0,Not applicable
+845770,MCS,mcs4_proxy_partner_interview,dxpxbk00,EDITOR: You have coded... ^PxBw as... ^PxBwx,-9.0,Refusal
+845771,MCS,mcs4_proxy_partner_interview,dxpxbk00,EDITOR: You have coded... ^PxBw as... ^PxBwx,-8.0,Don't Know
+845772,MCS,mcs4_proxy_partner_interview,dxpxbk00,EDITOR: You have coded... ^PxBw as... ^PxBwx,-1.0,Not applicable
+845773,MCS,mcs4_proxy_partner_interview,dxpxbk00,EDITOR: You have coded... ^PxBw as... ^PxBwx,1.0,CORRECT!
+845774,MCS,mcs4_proxy_partner_interview,dxpxbk00,EDITOR: You have coded... ^PxBw as... ^PxBwx,2.0,Wrong - go back and change!
+845775,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,-9.0,Refusal
+845776,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,-8.0,Don't Know
+845777,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,-1.0,Not applicable
+845778,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,1.0,"... excellent,"
+845779,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,2.0,"very good,"
+845780,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,3.0,"good,"
+845781,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,4.0,"fair,"
+845782,MCS,mcs4_proxy_partner_interview,dxpxge00,Describe partner's health,5.0,or poor?
+845783,MCS,mcs4_proxy_partner_interview,dxpxll00,Has partner longstanding illness,-9.0,Refusal
+845784,MCS,mcs4_proxy_partner_interview,dxpxll00,Has partner longstanding illness,-8.0,Don't Know
+845785,MCS,mcs4_proxy_partner_interview,dxpxll00,Has partner longstanding illness,-1.0,Not applicable
+845786,MCS,mcs4_proxy_partner_interview,dxpxll00,Has partner longstanding illness,1.0,Yes
+845787,MCS,mcs4_proxy_partner_interview,dxpxll00,Has partner longstanding illness,2.0,No
+845788,MCS,mcs4_proxy_partner_interview,dxpxlt00,Do these illness(es) or disability/ies limit,-9.0,Refusal
+845789,MCS,mcs4_proxy_partner_interview,dxpxlt00,Do these illness(es) or disability/ies limit,-8.0,Don't Know
+845790,MCS,mcs4_proxy_partner_interview,dxpxlt00,Do these illness(es) or disability/ies limit,-1.0,Not applicable
+845791,MCS,mcs4_proxy_partner_interview,dxpxlt00,Do these illness(es) or disability/ies limit,1.0,Yes
+845792,MCS,mcs4_proxy_partner_interview,dxpxlt00,Do these illness(es) or disability/ies limit,2.0,No
+845793,MCS,mcs4_proxy_partner_interview,dxpxht00,Height met/imp,-9.0,Refusal
+845794,MCS,mcs4_proxy_partner_interview,dxpxht00,Height met/imp,-8.0,Don't Know
+845795,MCS,mcs4_proxy_partner_interview,dxpxht00,Height met/imp,-1.0,Not applicable
+845796,MCS,mcs4_proxy_partner_interview,dxpxht00,Height met/imp,1.0,Feet and inches
+845797,MCS,mcs4_proxy_partner_interview,dxpxht00,Height met/imp,2.0,Centimetres
+845798,MCS,mcs4_proxy_partner_interview,dxpxht00,Height met/imp,3.0,Don t know/Refusal
+845799,MCS,mcs4_proxy_partner_interview,dxpxhf00,Height feet,-9.0,Refusal
+845800,MCS,mcs4_proxy_partner_interview,dxpxhf00,Height feet,-8.0,Don't Know
+845801,MCS,mcs4_proxy_partner_interview,dxpxhf00,Height feet,-1.0,Not applicable
+845802,MCS,mcs4_proxy_partner_interview,dxpxhi00,Height inches,-9.0,Refusal
+845803,MCS,mcs4_proxy_partner_interview,dxpxhi00,Height inches,-8.0,Don't Know
+845804,MCS,mcs4_proxy_partner_interview,dxpxhi00,Height inches,-1.0,Not applicable
+845805,MCS,mcs4_proxy_partner_interview,dxpxhc00,Height in centimeters,-9.0,Refusal
+845806,MCS,mcs4_proxy_partner_interview,dxpxhc00,Height in centimeters,-8.0,Don't Know
+845807,MCS,mcs4_proxy_partner_interview,dxpxhc00,Height in centimeters,-1.0,Not applicable
+845808,MCS,mcs4_proxy_partner_interview,dxpxhc00,Height in centimeters,998.0,Refusal
+845809,MCS,mcs4_proxy_partner_interview,dxpxhc00,Height in centimeters,999.0,Don't Know
+845810,MCS,mcs4_proxy_partner_interview,dxpxwb00,Whether partner is currently pregnant,1.0,Yes
+845811,MCS,mcs4_proxy_partner_interview,dxpxwb00,Whether partner is currently pregnant,2.0,No
+845812,MCS,mcs4_proxy_partner_interview,dxpxwb00,Whether partner is currently pregnant,-9.0,Refusal
+845813,MCS,mcs4_proxy_partner_interview,dxpxwb00,Whether partner is currently pregnant,-8.0,Don't Know
+845814,MCS,mcs4_proxy_partner_interview,dxpxwb00,Whether partner is currently pregnant,-1.0,Not applicable
+845815,MCS,mcs4_proxy_partner_interview,dxpxwt00,Partners weight (unit),-9.0,Refusal
+845816,MCS,mcs4_proxy_partner_interview,dxpxwt00,Partners weight (unit),-8.0,Don't Know
+845817,MCS,mcs4_proxy_partner_interview,dxpxwt00,Partners weight (unit),-1.0,Not applicable
+845818,MCS,mcs4_proxy_partner_interview,dxpxwt00,Partners weight (unit),1.0,Stones and pounds
+845819,MCS,mcs4_proxy_partner_interview,dxpxwt00,Partners weight (unit),2.0,Kilograms
+845820,MCS,mcs4_proxy_partner_interview,dxpxwt00,Partners weight (unit),3.0,Don t know / Refusal
+845821,MCS,mcs4_proxy_partner_interview,dxpxws00,Weight (stones),-9.0,Refusal
+845822,MCS,mcs4_proxy_partner_interview,dxpxws00,Weight (stones),-8.0,Don't Know
+845823,MCS,mcs4_proxy_partner_interview,dxpxws00,Weight (stones),-1.0,Not applicable
+845824,MCS,mcs4_proxy_partner_interview,dxpxwp00,Weight (pounds),-9.0,Refusal
+845825,MCS,mcs4_proxy_partner_interview,dxpxwp00,Weight (pounds),-8.0,Don't Know
+845826,MCS,mcs4_proxy_partner_interview,dxpxwp00,Weight (pounds),-1.0,Not applicable
+845827,MCS,mcs4_proxy_partner_interview,dxpxwk00,Weight kg,-9.0,Refusal
+845828,MCS,mcs4_proxy_partner_interview,dxpxwk00,Weight kg,-8.0,Don't Know
+845829,MCS,mcs4_proxy_partner_interview,dxpxwk00,Weight kg,-1.0,Not applicable
+845830,MCS,mcs4_proxy_partner_interview,dxpxwk00,Weight kg,998.0,Refusal
+845831,MCS,mcs4_proxy_partner_interview,dxpxwk00,Weight kg,999.0,Don't Know
+845832,MCS,mcs4_proxy_partner_interview,dxpxwe00,Whether resp sure of partner's weight,-9.0,Refusal
+845833,MCS,mcs4_proxy_partner_interview,dxpxwe00,Whether resp sure of partner's weight,-8.0,Don't Know
+845834,MCS,mcs4_proxy_partner_interview,dxpxwe00,Whether resp sure of partner's weight,-1.0,Not applicable
+845835,MCS,mcs4_proxy_partner_interview,dxpxwe00,Whether resp sure of partner's weight,1.0,Respondent sure about weight
+845836,MCS,mcs4_proxy_partner_interview,dxpxwe00,Whether resp sure of partner's weight,2.0,Respondent gave estimate
+845837,MCS,mcs4_proxy_partner_interview,dxpxwl00,Whether partner did paid work last week,-9.0,Refusal
+845838,MCS,mcs4_proxy_partner_interview,dxpxwl00,Whether partner did paid work last week,-8.0,Don't Know
+845839,MCS,mcs4_proxy_partner_interview,dxpxwl00,Whether partner did paid work last week,-1.0,Not applicable
+845840,MCS,mcs4_proxy_partner_interview,dxpxwl00,Whether partner did paid work last week,1.0,Yes
+845841,MCS,mcs4_proxy_partner_interview,dxpxwl00,Whether partner did paid work last week,2.0,No
+845842,MCS,mcs4_proxy_partner_interview,dxpxwa00,Whether partner had a job last week,-9.0,Refusal
+845843,MCS,mcs4_proxy_partner_interview,dxpxwa00,Whether partner had a job last week,-8.0,Don't Know
+845844,MCS,mcs4_proxy_partner_interview,dxpxwa00,Whether partner had a job last week,-1.0,Not applicable
+845845,MCS,mcs4_proxy_partner_interview,dxpxwa00,Whether partner had a job last week,1.0,Yes
+845846,MCS,mcs4_proxy_partner_interview,dxpxwa00,Whether partner had a job last week,2.0,No
+845847,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,-9.0,Refusal
+845848,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,-8.0,Don't Know
+845849,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,-1.0,Not applicable
+845850,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,1.0,Maternity Leave
+845851,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,2.0,Parental Leave
+845852,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,3.0,Paternity Leave
+845853,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,4.0,Other Leave/holiday
+845854,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,5.0,Sick/injured
+845855,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,6.0,Laid off/on short time
+845856,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,7.0,Other personal family reason
+845857,MCS,mcs4_proxy_partner_interview,dxpxwr00,Main reason partner away from job last week,95.0,Other reasons
+845858,MCS,mcs4_proxy_partner_interview,dxpxwd00,Whether partner on paid leave,-9.0,Refusal
+845859,MCS,mcs4_proxy_partner_interview,dxpxwd00,Whether partner on paid leave,-8.0,Don't Know
+845860,MCS,mcs4_proxy_partner_interview,dxpxwd00,Whether partner on paid leave,-1.0,Not applicable
+845861,MCS,mcs4_proxy_partner_interview,dxpxwd00,Whether partner on paid leave,1.0,Yes
+845862,MCS,mcs4_proxy_partner_interview,dxpxwd00,Whether partner on paid leave,2.0,No
+845863,MCS,mcs4_proxy_partner_interview,dxpxwy00,Last time partner attend work - (self)employed : YEAR,-9.0,Refusal
+845864,MCS,mcs4_proxy_partner_interview,dxpxwy00,Last time partner attend work - (self)employed : YEAR,-8.0,Don't Know
+845865,MCS,mcs4_proxy_partner_interview,dxpxwy00,Last time partner attend work - (self)employed : YEAR,-1.0,Not applicable
+845866,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,-9.0,Refusal
+845867,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,-8.0,Don't Know
+845868,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,-1.0,Not applicable
+845869,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,1.0,January
+845870,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,2.0,February
+845871,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,3.0,March
+845872,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,4.0,April
+845873,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,5.0,May
+845874,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,6.0,June
+845875,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,7.0,July
+845876,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,8.0,August
+845877,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,9.0,September
+845878,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,10.0,October
+845879,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,11.0,November
+845880,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,12.0,December
+845881,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,13.0,Winter (Jan-Feb)
+845882,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,14.0,Spring (Mar-May)
+845883,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,15.0,Summer (Jun-Aug)
+845884,MCS,mcs4_proxy_partner_interview,dxpxwm00,Last time partner attend work - (self)employed : MONTH,16.0,Autumn (Sep-Nov)
+845885,MCS,mcs4_proxy_partner_interview,dxpxls00,Whether partner has same job title as at last in,-9.0,Refusal
+845886,MCS,mcs4_proxy_partner_interview,dxpxls00,Whether partner has same job title as at last in,-8.0,Don't Know
+845887,MCS,mcs4_proxy_partner_interview,dxpxls00,Whether partner has same job title as at last in,-1.0,Not applicable
+845888,MCS,mcs4_proxy_partner_interview,dxpxls00,Whether partner has same job title as at last in,1.0,Yes
+845889,MCS,mcs4_proxy_partner_interview,dxpxls00,Whether partner has same job title as at last in,2.0,No
+845890,MCS,mcs4_proxy_partner_interview,dxpxle00,Whether partner still emplyed by same employer,-9.0,Refusal
+845891,MCS,mcs4_proxy_partner_interview,dxpxle00,Whether partner still emplyed by same employer,-8.0,Don't Know
+845892,MCS,mcs4_proxy_partner_interview,dxpxle00,Whether partner still emplyed by same employer,-1.0,Not applicable
+845893,MCS,mcs4_proxy_partner_interview,dxpxle00,Whether partner still emplyed by same employer,1.0,Yes
+845894,MCS,mcs4_proxy_partner_interview,dxpxle00,Whether partner still emplyed by same employer,2.0,No
+845895,MCS,mcs4_proxy_partner_interview,dxpxlc00,Whether partner did job continuously since last,-9.0,Refusal
+845896,MCS,mcs4_proxy_partner_interview,dxpxlc00,Whether partner did job continuously since last,-8.0,Don't Know
+845897,MCS,mcs4_proxy_partner_interview,dxpxlc00,Whether partner did job continuously since last,-1.0,Not applicable
+845898,MCS,mcs4_proxy_partner_interview,dxpxlc00,Whether partner did job continuously since last,1.0,Yes
+845899,MCS,mcs4_proxy_partner_interview,dxpxlc00,Whether partner did job continuously since last,2.0,No
+845900,MCS,mcs4_proxy_partner_interview,dxpxly00,When partner's job at last int ended (year),-9.0,Refusal
+845901,MCS,mcs4_proxy_partner_interview,dxpxly00,When partner's job at last int ended (year),-8.0,Don't Know
+845902,MCS,mcs4_proxy_partner_interview,dxpxly00,When partner's job at last int ended (year),-1.0,Not applicable
+845903,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),-9.0,Refusal
+845904,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),-8.0,Don't Know
+845905,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),-1.0,Not applicable
+845906,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),1.0,January
+845907,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),2.0,February
+845908,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),3.0,March
+845909,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),4.0,April
+845910,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),5.0,May
+845911,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),6.0,June
+845912,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),7.0,July
+845913,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),8.0,August
+845914,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),9.0,September
+845915,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),10.0,October
+845916,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),11.0,November
+845917,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),12.0,December
+845918,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),13.0,Winter (Jan-Feb)
+845919,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),14.0,Spring (Mar-May)
+845920,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),15.0,Summer (Jun-Aug)
+845921,MCS,mcs4_proxy_partner_interview,dxpxlm00,When partner's job at last int ended (month),16.0,Autumn (Sep-Nov)
+845922,MCS,mcs4_proxy_partner_interview,dxpxas00,Computed : Ask Job title,-9.0,Refusal
+845923,MCS,mcs4_proxy_partner_interview,dxpxas00,Computed : Ask Job title,-8.0,Don't Know
+845924,MCS,mcs4_proxy_partner_interview,dxpxas00,Computed : Ask Job title,-1.0,Not applicable
+845925,MCS,mcs4_proxy_partner_interview,dxpxas00,Computed : Ask Job title,1.0,Yes
+845926,MCS,mcs4_proxy_partner_interview,dxpxas00,Computed : Ask Job title,2.0,No
+845927,MCS,mcs4_proxy_partner_interview,dxpxje00,Partner is employee or self-employed in main job,-9.0,Refusal
+845928,MCS,mcs4_proxy_partner_interview,dxpxje00,Partner is employee or self-employed in main job,-8.0,Don't Know
+845929,MCS,mcs4_proxy_partner_interview,dxpxje00,Partner is employee or self-employed in main job,-1.0,Not applicable
+845930,MCS,mcs4_proxy_partner_interview,dxpxje00,Partner is employee or self-employed in main job,1.0,Employee
+845931,MCS,mcs4_proxy_partner_interview,dxpxje00,Partner is employee or self-employed in main job,2.0,Self-employed
+845932,MCS,mcs4_proxy_partner_interview,dxpxjw00,Whether partner is paid salary/wage in main job,-9.0,Refusal
+845933,MCS,mcs4_proxy_partner_interview,dxpxjw00,Whether partner is paid salary/wage in main job,-8.0,Don't Know
+845934,MCS,mcs4_proxy_partner_interview,dxpxjw00,Whether partner is paid salary/wage in main job,-1.0,Not applicable
+845935,MCS,mcs4_proxy_partner_interview,dxpxjw00,Whether partner is paid salary/wage in main job,1.0,Yes
+845936,MCS,mcs4_proxy_partner_interview,dxpxjw00,Whether partner is paid salary/wage in main job,2.0,No
+845937,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,-9.0,Refusal
+845938,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,-8.0,Don't Know
+845939,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,-1.0,Not applicable
+845940,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,1.0,"...paid a salary or wage by an agency,"
+845941,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,2.0,a sole director of ^pxhis own limited c
+845942,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,3.0,running a business or professional prac
+845943,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,4.0,a partner in a business or professional
+845944,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,5.0,"working for ^pxhimself,"
+845945,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,6.0,"a sub-contractor,"
+845946,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,7.0,doing freelance work?
+845947,MCS,mcs4_proxy_partner_interview,dxpxjb0a,Self-employed/non-waged status MC1,96.0,(None of these)
+845948,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,-9.0,Refusal
+845949,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,-8.0,Don't Know
+845950,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,-1.0,Not applicable
+845951,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,1.0,"...paid a salary or wage by an agency,"
+845952,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,2.0,a sole director of ^pxhis own limited c
+845953,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,3.0,running a business or professional prac
+845954,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,4.0,a partner in a business or professional
+845955,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,5.0,"working for ^pxhimself,"
+845956,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,6.0,"a sub-contractor,"
+845957,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,7.0,doing freelance work?
+845958,MCS,mcs4_proxy_partner_interview,dxpxjb0b,Self-employed/non-waged status MC2,96.0,(None of these)
+845959,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,-9.0,Refusal
+845960,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,-8.0,Don't Know
+845961,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,-1.0,Not applicable
+845962,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,1.0,"...paid a salary or wage by an agency,"
+845963,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,2.0,a sole director of ^pxhis own limited c
+845964,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,3.0,running a business or professional prac
+845965,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,4.0,a partner in a business or professional
+845966,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,5.0,"working for ^pxhimself,"
+845967,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,6.0,"a sub-contractor,"
+845968,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,7.0,doing freelance work?
+845969,MCS,mcs4_proxy_partner_interview,dxpxjb0c,Self-employed/non-waged status MC3,96.0,(None of these)
+845970,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,7.0,doing freelance work?
+845971,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,96.0,(None of these)
+845972,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,-9.0,Refusal
+845973,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,-8.0,Don't Know
+845974,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,-1.0,Not applicable
+845975,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,1.0,"...paid a salary or wage by an agency,"
+845976,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,2.0,a sole director of ^pxhis own limited c
+845977,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,3.0,running a business or professional prac
+845978,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,4.0,a partner in a business or professional
+845979,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,5.0,"working for ^pxhimself,"
+845980,MCS,mcs4_proxy_partner_interview,dxpxjb0d,Self-employed/non-waged status MC4,6.0,"a sub-contractor,"
+845981,MCS,mcs4_proxy_partner_interview,dxpxem00,Eemployee or self emp,-9.0,Refusal
+845982,MCS,mcs4_proxy_partner_interview,dxpxem00,Eemployee or self emp,-8.0,Don't Know
+845983,MCS,mcs4_proxy_partner_interview,dxpxem00,Eemployee or self emp,-1.0,Not applicable
+845984,MCS,mcs4_proxy_partner_interview,dxpxem00,Eemployee or self emp,1.0,Employee
+845985,MCS,mcs4_proxy_partner_interview,dxpxem00,Eemployee or self emp,2.0,Self-employed
+845986,MCS,mcs4_proxy_partner_interview,dxpxjv00,Whether partner has managerial duties,-9.0,Refusal
+845987,MCS,mcs4_proxy_partner_interview,dxpxjv00,Whether partner has managerial duties,-8.0,Don't Know
+845988,MCS,mcs4_proxy_partner_interview,dxpxjv00,Whether partner has managerial duties,-1.0,Not applicable
+845989,MCS,mcs4_proxy_partner_interview,dxpxjv00,Whether partner has managerial duties,1.0,Manager
+845990,MCS,mcs4_proxy_partner_interview,dxpxjv00,Whether partner has managerial duties,2.0,Foreman or supervisor
+845991,MCS,mcs4_proxy_partner_interview,dxpxjv00,Whether partner has managerial duties,3.0,Not a manager or supervisor
+845992,MCS,mcs4_proxy_partner_interview,dxpxjf00,Whether partner supervises more than 25 people,-9.0,Refusal
+845993,MCS,mcs4_proxy_partner_interview,dxpxjf00,Whether partner supervises more than 25 people,-8.0,Don't Know
+845994,MCS,mcs4_proxy_partner_interview,dxpxjf00,Whether partner supervises more than 25 people,-1.0,Not applicable
+845995,MCS,mcs4_proxy_partner_interview,dxpxjf00,Whether partner supervises more than 25 people,1.0,Yes
+845996,MCS,mcs4_proxy_partner_interview,dxpxjf00,Whether partner supervises more than 25 people,2.0,No
+845997,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,-9.0,Refusal
+845998,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,-8.0,Don't Know
+845999,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,-1.0,Not applicable
+846000,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,1.0,Private firm/company/PLC
+846001,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,2.0,Civil Service or Central Government (no
+846002,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,3.0,Local government or town hall (includin
+846003,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,4.0,National Health Service or NHS Trust
+846004,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,5.0,State Higher education (university or p
+846005,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,6.0,Nationalised industry
+846006,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,7.0,Non-profit making organization (includi
+846007,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,8.0,Armed Forces
+846008,MCS,mcs4_proxy_partner_interview,dxpxjc00,Type of organisation partner works for,95.0,Other
+846009,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,-9.0,Refusal
+846010,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,-8.0,Don't Know
+846011,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,-1.0,Not applicable
+846012,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,0.0,None (works alone)
+846013,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,1.0,1-2
+846014,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,2.0,3-9
+846015,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,3.0,10-24
+846016,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,4.0,25-49
+846017,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,5.0,50-99
+846018,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,6.0,100-199
+846019,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,7.0,200-499
+846020,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,8.0,500-999
+846021,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,9.0,1000 or more
+846022,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,10.0,"DK, fewer than 25"
+846023,MCS,mcs4_proxy_partner_interview,dxpxjh00,How many employees at partner's place of work,11.0,"DK, 25 or more"
+846024,MCS,mcs4_proxy_partner_interview,dxpxjs00,How many people work for partner,-9.0,Refusal
+846025,MCS,mcs4_proxy_partner_interview,dxpxjs00,How many people work for partner,-8.0,Don't Know
+846026,MCS,mcs4_proxy_partner_interview,dxpxjs00,How many people work for partner,-1.0,Not applicable
+846027,MCS,mcs4_proxy_partner_interview,dxpxjs00,How many people work for partner,1.0,Works alone or only with partner
+846028,MCS,mcs4_proxy_partner_interview,dxpxjs00,How many people work for partner,2.0,Less than 25
+846029,MCS,mcs4_proxy_partner_interview,dxpxjs00,How many people work for partner,3.0,25 or more
+846030,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,-9.0,Refusal
+846031,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,-8.0,Don't Know
+846032,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,-1.0,Not applicable
+846033,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,1.0,Self-employed:large establishment (25+)
+846034,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,2.0,Self-employed:small establishment(1-24)
+846035,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,3.0,Self-employed : no employees
+846036,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,4.0,Manager:large establishment (25+)
+846037,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,5.0,Manager:small establishment(1-24)
+846038,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,6.0,Foreman or supervisor
+846039,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,7.0,Employee (not elsewhere classified)
+846040,MCS,mcs4_proxy_partner_interview,dxes203a,Employment status,8.0,No employment status info given
+846041,MCS,mcs4_proxy_partner_interview,dxnsec3a,NS-SEC - long version,-9.0,Refusal
+846042,MCS,mcs4_proxy_partner_interview,dxnsec3a,NS-SEC - long version,-8.0,Don't Know
+846043,MCS,mcs4_proxy_partner_interview,dxnsec3a,NS-SEC - long version,-1.0,Not applicable
+846044,MCS,mcs4_proxy_partner_interview,dxpxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-9.0,Refusal
+846045,MCS,mcs4_proxy_partner_interview,dxpxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-8.0,Don't Know
+846046,MCS,mcs4_proxy_partner_interview,dxpxjy00,Start of period of - diff from last time - (self)employment of partner: YEAR,-1.0,Not applicable
+846047,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,13.0,Winter (Jan-Feb)
+846048,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,14.0,Spring (Mar-May)
+846049,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,15.0,Summer (Jun-Aug)
+846050,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,16.0,Autumn (Sep-Nov)
+846051,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,-9.0,Refusal
+846052,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,-8.0,Don't Know
+846053,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,-1.0,Not applicable
+846054,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,1.0,January
+846055,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,2.0,February
+846056,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,3.0,March
+846057,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,4.0,April
+846058,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,5.0,May
+846059,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,6.0,June
+846060,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,7.0,July
+846061,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,8.0,August
+846062,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,9.0,September
+846063,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,10.0,October
+846064,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,11.0,November
+846065,MCS,mcs4_proxy_partner_interview,dxpxjm00,When started current job,12.0,December
+846066,MCS,mcs4_proxy_partner_interview,dxpxhm00,Whether work mainly from home,-9.0,Refusal
+846067,MCS,mcs4_proxy_partner_interview,dxpxhm00,Whether work mainly from home,-8.0,Don't Know
+846068,MCS,mcs4_proxy_partner_interview,dxpxhm00,Whether work mainly from home,-1.0,Not applicable
+846069,MCS,mcs4_proxy_partner_interview,dxpxhm00,Whether work mainly from home,1.0,Yes
+846070,MCS,mcs4_proxy_partner_interview,dxpxhm00,Whether work mainly from home,2.0,No
+846071,MCS,mcs4_proxy_partner_interview,dxpxhr00,Hours/week partner works in job,-9.0,Refusal
+846072,MCS,mcs4_proxy_partner_interview,dxpxhr00,Hours/week partner works in job,-8.0,Don't Know
+846073,MCS,mcs4_proxy_partner_interview,dxpxhr00,Hours/week partner works in job,-1.0,Not applicable
+846074,MCS,mcs4_proxy_partner_interview,dxpxhr00,Hours/week partner works in job,998.0,Refusal
+846075,MCS,mcs4_proxy_partner_interview,dxpxhr00,Hours/week partner works in job,999.0,Don't Know
+846076,MCS,mcs4_proxy_partner_interview,dxpxha00,Does partner work or overtime,-9.0,Refusal
+846077,MCS,mcs4_proxy_partner_interview,dxpxha00,Does partner work or overtime,-8.0,Don't Know
+846078,MCS,mcs4_proxy_partner_interview,dxpxha00,Does partner work or overtime,-1.0,Not applicable
+846079,MCS,mcs4_proxy_partner_interview,dxpxha00,Does partner work or overtime,1.0,Yes
+846080,MCS,mcs4_proxy_partner_interview,dxpxha00,Does partner work or overtime,2.0,No
+846081,MCS,mcs4_proxy_partner_interview,dxpxhu00,How many hours UNPAID overtime does partner do,-9.0,Refusal
+846082,MCS,mcs4_proxy_partner_interview,dxpxhu00,How many hours UNPAID overtime does partner do,-8.0,Don't Know
+846083,MCS,mcs4_proxy_partner_interview,dxpxhu00,How many hours UNPAID overtime does partner do,-1.0,Not applicable
+846084,MCS,mcs4_proxy_partner_interview,dxpxhp00,How many hours PAID overtime does partner do,-9.0,Refusal
+846085,MCS,mcs4_proxy_partner_interview,dxpxhp00,How many hours PAID overtime does partner do,-8.0,Don't Know
+846086,MCS,mcs4_proxy_partner_interview,dxpxhp00,How many hours PAID overtime does partner do,-1.0,Not applicable
+846087,MCS,mcs4_proxy_partner_interview,dxpxcy00,End of period of ff not-working of partner : YEAR,-9.0,Refusal
+846088,MCS,mcs4_proxy_partner_interview,dxpxcy00,End of period of ff not-working of partner : YEAR,-8.0,Don't Know
+846089,MCS,mcs4_proxy_partner_interview,dxpxcy00,End of period of ff not-working of partner : YEAR,-1.0,Not applicable
+846090,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,-9.0,Refusal
+846091,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,-8.0,Don't Know
+846092,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,-1.0,Not applicable
+846093,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,1.0,January
+846094,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,2.0,February
+846095,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,3.0,March
+846096,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,4.0,April
+846097,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,5.0,May
+846098,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,6.0,June
+846099,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,7.0,July
+846100,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,8.0,August
+846101,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,9.0,September
+846102,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,10.0,October
+846103,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,11.0,November
+846104,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,12.0,December
+846105,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,13.0,Winter (Jan-Feb)
+846106,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,14.0,Spring (Mar-May)
+846107,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,15.0,Summer (Jun-Aug)
+846108,MCS,mcs4_proxy_partner_interview,dxpxcm00,When period of not working ended,16.0,Autumn (Sep-Nov)
+846109,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,-9.0,Refusal
+846110,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,-8.0,Don't Know
+846111,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,-1.0,Not applicable
+846112,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,1.0,Looking after the family
+846113,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,2.0,"Found a job, waiting to start it"
+846114,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,3.0,Out of work and looking for a job
+846115,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,4.0,"Out of work, for reasons of poor health"
+846116,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,5.0,"Taking part in the New Deal (training,"
+846117,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,6.0,On another Government training scheme
+846118,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,7.0,On a modern apprenticeship scheme
+846119,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,8.0,Full-time student
+846120,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,9.0,Retired from paid work
+846121,MCS,mcs4_proxy_partner_interview,dxpxck00,Current employment status,95.0,Not in paid work for some other reason
+846122,MCS,mcs4_proxy_partner_interview,dxpxcn00,Whether worked continuously since last interview,-9.0,Refusal
+846123,MCS,mcs4_proxy_partner_interview,dxpxcn00,Whether worked continuously since last interview,-8.0,Don't Know
+846124,MCS,mcs4_proxy_partner_interview,dxpxcn00,Whether worked continuously since last interview,-1.0,Not applicable
+846125,MCS,mcs4_proxy_partner_interview,dxpxcn00,Whether worked continuously since last interview,1.0,Yes
+846126,MCS,mcs4_proxy_partner_interview,dxpxcn00,Whether worked continuously since last interview,2.0,No
+846127,MCS,mcs4_proxy_partner_interview,dxpxny00,YEAR period of not working started,-9.0,Refusal
+846128,MCS,mcs4_proxy_partner_interview,dxpxny00,YEAR period of not working started,-8.0,Don't Know
+846129,MCS,mcs4_proxy_partner_interview,dxpxny00,YEAR period of not working started,-1.0,Not applicable
+846130,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,-9.0,Refusal
+846131,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,-8.0,Don't Know
+846132,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,-1.0,Not applicable
+846133,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,1.0,January
+846134,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,2.0,February
+846135,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,3.0,March
+846136,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,4.0,April
+846137,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,5.0,May
+846138,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,6.0,June
+846139,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,7.0,July
+846140,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,8.0,August
+846141,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,9.0,September
+846142,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,10.0,October
+846143,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,11.0,November
+846144,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,12.0,December
+846145,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,13.0,Winter (Jan-Feb)
+846146,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,14.0,Spring (Mar-May)
+846147,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,15.0,Summer (Jun-Aug)
+846148,MCS,mcs4_proxy_partner_interview,dxpxnm00,MONTH period of not working started,16.0,Autumn (Sep-Nov)
+846149,MCS,mcs4_proxy_partner_interview,dxpxnw00,End of period of ff not-working status of partner : YEAR,-9.0,Refusal
+846150,MCS,mcs4_proxy_partner_interview,dxpxnw00,End of period of ff not-working status of partner : YEAR,-8.0,Don't Know
+846151,MCS,mcs4_proxy_partner_interview,dxpxnw00,End of period of ff not-working status of partner : YEAR,-1.0,Not applicable
+846152,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,-9.0,Refusal
+846153,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,-8.0,Don't Know
+846154,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,-1.0,Not applicable
+846155,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,1.0,January
+846156,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,2.0,February
+846157,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,3.0,March
+846158,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,4.0,April
+846159,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,5.0,May
+846160,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,6.0,June
+846161,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,7.0,July
+846162,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,8.0,August
+846163,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,9.0,September
+846164,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,10.0,October
+846165,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,11.0,November
+846166,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,12.0,December
+846167,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,13.0,Winter (Jan-Feb)
+846168,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,14.0,Spring (Mar-May)
+846169,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,15.0,Summer (Jun-Aug)
+846170,MCS,mcs4_proxy_partner_interview,dxpxne00,End of period of ff not-working status of partner : MONTH,16.0,Autumn (Sep-Nov)
+846171,MCS,mcs4_proxy_partner_interview,dxpxby00,End of period of ff (self)employment of partner : YEAR,-9.0,Refusal
+846172,MCS,mcs4_proxy_partner_interview,dxpxby00,End of period of ff (self)employment of partner : YEAR,-8.0,Don't Know
+846173,MCS,mcs4_proxy_partner_interview,dxpxby00,End of period of ff (self)employment of partner : YEAR,-1.0,Not applicable
+846174,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,-9.0,Refusal
+846175,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,-8.0,Don't Know
+846176,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,-1.0,Not applicable
+846177,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,1.0,January
+846178,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,2.0,February
+846179,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,3.0,March
+846180,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,4.0,April
+846181,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,5.0,May
+846182,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,6.0,June
+846183,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,7.0,July
+846184,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,8.0,August
+846185,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,9.0,September
+846186,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,10.0,October
+846187,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,11.0,November
+846188,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,12.0,December
+846189,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,13.0,Winter (Jan-Feb)
+846190,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,14.0,Spring (Mar-May)
+846191,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,15.0,Summer (Jun-Aug)
+846192,MCS,mcs4_proxy_partner_interview,dxpxbm00,End of period of ff (self)employment of partner : MONTH,16.0,Autumn (Sep-Nov)
+846193,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),-9.0,Refusal
+846194,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),-8.0,Don't Know
+846195,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),-1.0,Not applicable
+846196,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),1.0,One week
+846197,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),2.0,Two weeks
+846198,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),3.0,Three weeks
+846199,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),4.0,Four weeks
+846200,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),5.0,Calendar month
+846201,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),7.0,Two Calendar months
+846202,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),8.0,Eight times a year
+846203,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),9.0,Nine times a year
+846204,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),10.0,Ten times a year
+846205,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),13.0,Three months/13 weeks
+846206,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),26.0,Six months/26 weeks
+846207,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),52.0,One Year/12 months/52 weeks
+846208,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),90.0,Less than one week
+846209,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),95.0,One off/lump sum
+846210,MCS,mcs4_proxy_partner_interview,dxpxgp00,Partner s gross pay (period covered),96.0,None of these (EXPLAIN IN A NOTE)
+846211,MCS,mcs4_proxy_partner_interview,dxpxga00,Partner s gross pay (range),-9.0,Refusal
+846212,MCS,mcs4_proxy_partner_interview,dxpxga00,Partner s gross pay (range),-8.0,Don't Know
+846213,MCS,mcs4_proxy_partner_interview,dxpxga00,Partner s gross pay (range),-1.0,Not applicable
+846214,MCS,mcs4_proxy_partner_interview,dxpxgw00,Computed: Weekly amount from Pxgp/Pxga,-9.0,Refusal
+846215,MCS,mcs4_proxy_partner_interview,dxpxgw00,Computed: Weekly amount from Pxgp/Pxga,-8.0,Don't Know
+846216,MCS,mcs4_proxy_partner_interview,dxpxgw00,Computed: Weekly amount from Pxgp/Pxga,-1.0,Not applicable
+846217,MCS,mcs4_proxy_partner_interview,dxpxgw00,Computed: Weekly amount from Pxgp/Pxga,10000000000.0,Refusal
+846218,MCS,mcs4_proxy_partner_interview,dxpxgw00,Computed: Weekly amount from Pxgp/Pxga,10000000000.0,Don't Know
+846219,MCS,mcs4_proxy_partner_interview,dxpxns00,Whether partner s payslip consulted,-9.0,Refusal
+846220,MCS,mcs4_proxy_partner_interview,dxpxns00,Whether partner s payslip consulted,-8.0,Don't Know
+846221,MCS,mcs4_proxy_partner_interview,dxpxns00,Whether partner s payslip consulted,-1.0,Not applicable
+846222,MCS,mcs4_proxy_partner_interview,dxpxns00,Whether partner s payslip consulted,1.0,Latest payslip consulted
+846223,MCS,mcs4_proxy_partner_interview,dxpxns00,Whether partner s payslip consulted,2.0,Old payslip consulted
+846224,MCS,mcs4_proxy_partner_interview,dxpxns00,Whether partner s payslip consulted,3.0,Payslip not consulted
+846225,MCS,mcs4_proxy_partner_interview,dxpxns00,Whether partner s payslip consulted,4.0,No payslip provided by employer
+846226,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,8.0,Eight times a year
+846227,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,9.0,Nine times a year
+846228,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,10.0,Ten times a year
+846229,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,13.0,Three months/13 weeks
+846230,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,26.0,Six months/26 weeks
+846231,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,52.0,One Year/12 months/52 weeks
+846232,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,90.0,Less than one week
+846233,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,95.0,One off/lump sum
+846234,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,96.0,None of these (EXPLAIN IN A NOTE)
+846235,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,4.0,Four weeks
+846236,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,5.0,Calendar month
+846237,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,7.0,Two Calendar months
+846238,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,-9.0,Refusal
+846239,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,-8.0,Don't Know
+846240,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,-1.0,Not applicable
+846241,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,1.0,One week
+846242,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,2.0,Two weeks
+846243,MCS,mcs4_proxy_partner_interview,dxpxnp00,Period covered by payment,3.0,Three weeks
+846244,MCS,mcs4_proxy_partner_interview,dxpxna00,Partner s Net amount earned last time paid (range),-9.0,Refusal
+846245,MCS,mcs4_proxy_partner_interview,dxpxna00,Partner s Net amount earned last time paid (range),-8.0,Don't Know
+846246,MCS,mcs4_proxy_partner_interview,dxpxna00,Partner s Net amount earned last time paid (range),-1.0,Not applicable
+846247,MCS,mcs4_proxy_partner_interview,dxpxkw00,Computed: Weekly amount from Pxnp/Pxna,-9.0,Refusal
+846248,MCS,mcs4_proxy_partner_interview,dxpxkw00,Computed: Weekly amount from Pxnp/Pxna,-8.0,Don't Know
+846249,MCS,mcs4_proxy_partner_interview,dxpxkw00,Computed: Weekly amount from Pxnp/Pxna,-1.0,Not applicable
+846250,MCS,mcs4_proxy_partner_interview,dxpxkw00,Computed: Weekly amount from Pxnp/Pxna,10000000000.0,Refusal
+846251,MCS,mcs4_proxy_partner_interview,dxpxkw00,Computed: Weekly amount from Pxnp/Pxna,10000000000.0,Don't Know
+846252,MCS,mcs4_proxy_partner_interview,dxpxnu00,Confirm whether partner s usual takehome pay?,-9.0,Refusal
+846253,MCS,mcs4_proxy_partner_interview,dxpxnu00,Confirm whether partner s usual takehome pay?,-8.0,Don't Know
+846254,MCS,mcs4_proxy_partner_interview,dxpxnu00,Confirm whether partner s usual takehome pay?,-1.0,Not applicable
+846255,MCS,mcs4_proxy_partner_interview,dxpxnu00,Confirm whether partner s usual takehome pay?,1.0,Yes
+846256,MCS,mcs4_proxy_partner_interview,dxpxnu00,Confirm whether partner s usual takehome pay?,2.0,No
+846257,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,-9.0,Refusal
+846258,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,-8.0,Don't Know
+846259,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,-1.0,Not applicable
+846260,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,1.0,One week
+846261,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,2.0,Two weeks
+846262,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,3.0,Three weeks
+846263,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,4.0,Four weeks
+846264,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,5.0,Calendar month
+846265,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,7.0,Two Calendar months
+846266,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,8.0,Eight times a year
+846267,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,9.0,Nine times a year
+846268,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,10.0,Ten times a year
+846269,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,13.0,Three months/13 weeks
+846270,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,26.0,Six months/26 weeks
+846271,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,52.0,One Year/12 months/52 weeks
+846272,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,90.0,Less than one week
+846273,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,95.0,One off/lump sum
+846274,MCS,mcs4_proxy_partner_interview,dxpxup00,What is usual takehome pay,96.0,None of these (EXPLAIN IN A NOTE)
+846275,MCS,mcs4_proxy_partner_interview,dxpxua00,Amount of takehome pay,-9.0,Refusal
+846276,MCS,mcs4_proxy_partner_interview,dxpxua00,Amount of takehome pay,-8.0,Don't Know
+846277,MCS,mcs4_proxy_partner_interview,dxpxua00,Amount of takehome pay,-1.0,Not applicable
+846278,MCS,mcs4_proxy_partner_interview,dxpxuw00,Computed: Weekly amount from Pxup/Pxua,-9.0,Refusal
+846279,MCS,mcs4_proxy_partner_interview,dxpxuw00,Computed: Weekly amount from Pxup/Pxua,-8.0,Don't Know
+846280,MCS,mcs4_proxy_partner_interview,dxpxuw00,Computed: Weekly amount from Pxup/Pxua,-1.0,Not applicable
+846281,MCS,mcs4_proxy_partner_interview,dxpxuw00,Computed: Weekly amount from Pxup/Pxua,10000000000.0,Refusal
+846282,MCS,mcs4_proxy_partner_interview,dxpxuw00,Computed: Weekly amount from Pxup/Pxua,10000000000.0,Don't Know
+846283,MCS,mcs4_proxy_partner_interview,dxpxts00,Amount of takehome self employed pay,-9.0,Refusal
+846284,MCS,mcs4_proxy_partner_interview,dxpxts00,Amount of takehome self employed pay,-8.0,Don't Know
+846285,MCS,mcs4_proxy_partner_interview,dxpxts00,Amount of takehome self employed pay,-1.0,Not applicable
+846286,MCS,mcs4_proxy_partner_interview,dxempa1g,Age when left f/t education,-9.0,Refusal
+846287,MCS,mcs4_proxy_partner_interview,dxempa1g,Age when left f/t education,-8.0,Don't Know
+846288,MCS,mcs4_proxy_partner_interview,dxempa1g,Age when left f/t education,-1.0,Not applicable
+846289,MCS,mcs4_proxy_partner_interview,dxsupm1g,Any new qualifications,-9.0,Refusal
+846290,MCS,mcs4_proxy_partner_interview,dxsupm1g,Any new qualifications,-8.0,Don't Know
+846291,MCS,mcs4_proxy_partner_interview,dxsupm1g,Any new qualifications,-1.0,Not applicable
+846292,MCS,mcs4_proxy_partner_interview,dxsupm1g,Any new qualifications,1.0,Yes
+846293,MCS,mcs4_proxy_partner_interview,dxsupm1g,Any new qualifications,2.0,No
+846294,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,-9.0,Refusal
+846295,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,-8.0,Don't Know
+846296,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,-1.0,Not applicable
+846297,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846298,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846299,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846300,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846301,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846302,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846303,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846304,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846305,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846306,MCS,mcs4_proxy_partner_interview,dxsoc21g,Which new academic qualifications,96.0,None of these qualifications
+846307,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846308,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846309,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846310,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,96.0,None of these qualifications
+846311,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,-9.0,Refusal
+846312,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,-8.0,Don't Know
+846313,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,-1.0,Not applicable
+846314,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846315,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846316,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846317,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846318,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846319,MCS,mcs4_proxy_partner_interview,dxxsoc1g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846320,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,-9.0,Refusal
+846321,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,-8.0,Don't Know
+846322,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,-1.0,Not applicable
+846323,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846324,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846325,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846326,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846327,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846328,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846329,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846330,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846331,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846332,MCS,mcs4_proxy_partner_interview,dxindx1g,Which new academic qualifications,96.0,None of these qualifications
+846333,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,-9.0,Refusal
+846334,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,-8.0,Don't Know
+846335,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,-1.0,Not applicable
+846336,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846337,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846338,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846339,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846340,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846341,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846342,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846343,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846344,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846345,MCS,mcs4_proxy_partner_interview,dxes201g,Which new academic qualifications,96.0,None of these qualifications
+846346,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,-9.0,Refusal
+846347,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,-8.0,Don't Know
+846348,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,-1.0,Not applicable
+846349,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846350,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846351,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846352,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846353,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846354,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846355,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846356,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846357,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846358,MCS,mcs4_proxy_partner_interview,dxnsec1g,Which new academic qualifications,96.0,None of these qualifications
+846359,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,-9.0,Refusal
+846360,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,-8.0,Don't Know
+846361,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,-1.0,Not applicable
+846362,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846363,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846364,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846365,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846366,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846367,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846368,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846369,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846370,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846371,MCS,mcs4_proxy_partner_interview,dxscfl1g,Which new academic qualifications,96.0,None of these qualifications
+846372,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,-9.0,Refusal
+846373,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,-8.0,Don't Know
+846374,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,-1.0,Not applicable
+846375,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846376,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846377,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846378,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846379,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846380,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846381,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846382,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846383,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846384,MCS,mcs4_proxy_partner_interview,dxsegg1g,Which new academic qualifications,96.0,None of these qualifications
+846385,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,-8.0,Don't Know
+846386,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,-1.0,Not applicable
+846387,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846388,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846389,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846390,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846391,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846392,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846393,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846394,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846395,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846396,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,96.0,None of these qualifications
+846397,MCS,mcs4_proxy_partner_interview,dxscaa1g,Which new academic qualifications,-9.0,Refusal
+846398,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,-9.0,Refusal
+846399,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,-8.0,Don't Know
+846400,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,-1.0,Not applicable
+846401,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846402,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846403,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846404,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846405,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846406,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846407,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846408,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846409,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846410,MCS,mcs4_proxy_partner_interview,dxsc901g,Which new academic qualifications,96.0,None of these qualifications
+846411,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,-9.0,Refusal
+846412,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,-8.0,Don't Know
+846413,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,-1.0,Not applicable
+846414,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,1.0,Higher Degree and Postgraduate qual.
+846415,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,2.0,First Degree (including B.Ed.)
+846416,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,3.0,Post-graduate Diplomas and Certificates
+846417,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,4.0,Diplomas in higher education and other
+846418,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,5.0,Teaching qualifications for schools
+846419,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,6.0,"A/AS/S Levels/SCE Higher, Scottish Cert"
+846420,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,7.0,"O Level or GCSE grade A-C, SCE Standard"
+846421,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,8.0,CSE below grade 1/GCSE or O Level below
+846422,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,95.0,Other academic qualifications (incl. so
+846423,MCS,mcs4_proxy_partner_interview,dxscst1g,Which new academic qualifications,96.0,None of these qualifications
+846424,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,-9.0,Refusal
+846425,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,-8.0,Don't Know
+846426,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,-1.0,Not applicable
+846427,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,1.0,Professional quals at degree level
+846428,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846429,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846430,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846431,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846432,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846433,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846434,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846435,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846436,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846437,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846438,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846439,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846440,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,95.0,Other vocational qualifications
+846441,MCS,mcs4_proxy_partner_interview,dxstjb1g,Which new vocational qualifications,96.0,None of these qualifications
+846442,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,-9.0,Refusal
+846443,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,-8.0,Don't Know
+846444,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,-1.0,Not applicable
+846445,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,1.0,Professional quals at degree level
+846446,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846447,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846448,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846449,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846450,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846451,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846452,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846453,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846454,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846455,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,95.0,Other vocational qualifications
+846456,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,96.0,None of these qualifications
+846457,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846458,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846459,MCS,mcs4_proxy_partner_interview,dxbk381g,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846460,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,-9.0,Refusal
+846461,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,-8.0,Don't Know
+846462,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,-1.0,Not applicable
+846463,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,1.0,Professional quals at degree level
+846464,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846465,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846466,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846467,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846468,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846469,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846470,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846471,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846472,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846473,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846474,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846475,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846476,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,95.0,Other vocational qualifications
+846477,MCS,mcs4_proxy_partner_interview,dxstbx1g,Which new vocational qualifications,96.0,None of these qualifications
+846478,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,-9.0,Refusal
+846479,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,-8.0,Don't Know
+846480,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,-1.0,Not applicable
+846481,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846482,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846483,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846484,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846485,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846486,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846487,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846488,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846489,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846490,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846491,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846492,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846493,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846494,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846495,MCS,mcs4_proxy_partner_interview,dxpsta1h,Which new vocational qualifications,96.0,None of these qualifications
+846496,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,-9.0,Refusal
+846497,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,-8.0,Don't Know
+846498,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,-1.0,Not applicable
+846499,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846500,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846501,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846502,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846503,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846504,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846505,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846506,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846507,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846508,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846509,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846510,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846511,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846512,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846513,MCS,mcs4_proxy_partner_interview,dxysrt1h,Which new vocational qualifications,96.0,None of these qualifications
+846514,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846515,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846516,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846517,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846518,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,96.0,None of these qualifications
+846519,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,-9.0,Refusal
+846520,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,-8.0,Don't Know
+846521,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,-1.0,Not applicable
+846522,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846523,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846524,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846525,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846526,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846527,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846528,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846529,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846530,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846531,MCS,mcs4_proxy_partner_interview,dxmsrt1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846532,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,-9.0,Refusal
+846533,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,-8.0,Don't Know
+846534,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,-1.0,Not applicable
+846535,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846536,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846537,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846538,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846539,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846540,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846541,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846542,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846543,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846544,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846545,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846546,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846547,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846548,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846549,MCS,mcs4_proxy_partner_interview,dxdsrt1h,Which new vocational qualifications,96.0,None of these qualifications
+846550,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,-9.0,Refusal
+846551,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,-8.0,Don't Know
+846552,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,-1.0,Not applicable
+846553,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846554,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846555,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846556,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846557,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846558,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846559,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846560,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846561,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846562,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846563,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846564,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846565,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846566,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846567,MCS,mcs4_proxy_partner_interview,dxftpt1h,Which new vocational qualifications,96.0,None of these qualifications
+846568,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,-9.0,Refusal
+846569,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,-8.0,Don't Know
+846570,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,-1.0,Not applicable
+846571,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846572,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846573,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846574,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846575,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846576,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846577,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846578,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846579,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846580,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846581,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846582,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846583,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846584,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846585,MCS,mcs4_proxy_partner_interview,dxempa1h,Which new vocational qualifications,96.0,None of these qualifications
+846586,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,-9.0,Refusal
+846587,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,-8.0,Don't Know
+846588,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,-1.0,Not applicable
+846589,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846590,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846591,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846592,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846593,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846594,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846595,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846596,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846597,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846598,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846599,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846600,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846601,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,96.0,None of these qualifications
+846602,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846603,MCS,mcs4_proxy_partner_interview,dxsupm1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846604,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,-9.0,Refusal
+846605,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,-8.0,Don't Know
+846606,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,-1.0,Not applicable
+846607,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,1.0,Professional quals at degree level
+846608,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846609,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846610,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846611,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846612,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846613,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846614,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846615,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846616,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846617,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846618,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846619,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846620,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,95.0,Other vocational qualifications
+846621,MCS,mcs4_proxy_partner_interview,dxsoc21h,Which new vocational qualifications,96.0,None of these qualifications
+846622,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,-9.0,Refusal
+846623,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,-8.0,Don't Know
+846624,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,-1.0,Not applicable
+846625,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846626,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846627,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846628,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846629,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846630,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846631,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846632,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846633,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846634,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846635,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846636,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846637,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846638,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846639,MCS,mcs4_proxy_partner_interview,dxxsoc1h,Which new vocational qualifications,96.0,None of these qualifications
+846640,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,-9.0,Refusal
+846641,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,-8.0,Don't Know
+846642,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,-1.0,Not applicable
+846643,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846644,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846645,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846646,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846647,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846648,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846649,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846650,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846651,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846652,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846653,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846654,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846655,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846656,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846657,MCS,mcs4_proxy_partner_interview,dxindx1h,Which new vocational qualifications,96.0,None of these qualifications
+846658,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846659,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846660,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,-9.0,Refusal
+846661,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,-8.0,Don't Know
+846662,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,-1.0,Not applicable
+846663,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,1.0,Professional quals at degree level
+846664,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846665,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846666,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846667,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846668,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846669,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846670,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846671,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846672,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846673,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846674,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,95.0,Other vocational qualifications
+846675,MCS,mcs4_proxy_partner_interview,dxes201h,Which new vocational qualifications,96.0,None of these qualifications
+846676,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,-9.0,Refusal
+846677,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,-8.0,Don't Know
+846678,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,-1.0,Not applicable
+846679,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,1.0,Professional quals at degree level
+846680,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,2.0,Nursing or other medical qualifications
+846681,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,3.0,NVQ or SVQ level 4 or 5
+846682,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,4.0,"HND, HNC, Higher Level BTEC/RSA Higher"
+846683,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,5.0,NVQ or SVQ Level 3/GNVQ Advanced or GSV
+846684,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,6.0,"OND, ONCM BTEC National, SCOTVEC Nation"
+846685,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,7.0,City and Guilds advanced craft
+846686,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,8.0,NVQ or SVQ Level 2/GNVQ Intermediate
+846687,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,9.0,"BTEC, SCOTVEC first or general diploma"
+846688,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,10.0,City and Guilds Craft or Part II/RSA
+846689,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,11.0,NVQ or SVQ Level 1/GNVQ Foundation Lev.
+846690,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,12.0,"BTEC, SCOTVEC first or general cert."
+846691,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,13.0,"City and Guilds part 1/RSA Stage I,II"
+846692,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,95.0,Other vocational qualifications
+846693,MCS,mcs4_proxy_partner_interview,dxnsec1h,Which new vocational qualifications,96.0,None of these qualifications
+846694,MCS,mcs4_proxy_partner_interview,dxscfl1h,End of proxy Interview,-9.0,Refusal
+846695,MCS,mcs4_proxy_partner_interview,dxscfl1h,End of proxy Interview,-8.0,Don't Know
+846696,MCS,mcs4_proxy_partner_interview,dxscfl1h,End of proxy Interview,-1.0,Not applicable
+846697,MCS,mcs4_proxy_partner_interview,dxscfl1h,End of proxy Interview,1.0,Press 1 and Enter to continue.
+846698,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,-9.0,Refusal
+846699,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,-8.0,Dont Know
+846700,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,-1.0,Not applicable
+846701,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,1.0,Father/ Mother/ Partner away in forces
+846702,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,2.0,Father/ Mother/ Partner working away
+846703,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,3.0,Father/Mother/Partner away in hospital
+846704,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,5.0,Father/Mother/Partner away other
+846705,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,6.0,Father/ Mother/ Partner incapacitated
+846706,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,95.0,Other (specify)
+846707,MCS,mcs4_proxy_partner_interview,dxpxre0r,Reason for proxy partner IW (A) - recoded,99.0,Recoded - see SecureAccess data
+846708,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,-9.0,Refusal
+846709,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,-8.0,Dont Know
+846710,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,-1.0,Not applicable
+846711,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,1.0,Father/ Mother/ Partner away in forces
+846712,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,2.0,Father/ Mother/ Partner working away
+846713,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,3.0,Father/Mother/Partner away in hospital
+846714,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,5.0,Father/Mother/Partner away other
+846715,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,6.0,Father/ Mother/ Partner incapacitated
+846716,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,51.0,Proxy done in Error
+846717,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,52.0,spare
+846718,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,53.0,spare
+846719,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,54.0,spare
+846720,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,55.0,spare
+846721,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,56.0,spare
+846722,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,85.0,Other specific answer
+846723,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,86.0,Vague / irrelevant answer
+846724,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,87.0,Editor cannot deal with
+846725,MCS,mcs4_proxy_partner_interview,dxpxrz0r,Reason for proxy interview (merged) - recoded,99.0,Recoded - see SecureAccess data
+846726,MCS,mcs4_proxy_partner_interview,dxpxbx00_22,Partner's country of birth ISO3166 : Top coded to two letter country code or C,,
+846727,MCS,mcs4_proxy_partner_interview,avail_from_dt,,,
+846728,MCS,mcs4_proxy_partner_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

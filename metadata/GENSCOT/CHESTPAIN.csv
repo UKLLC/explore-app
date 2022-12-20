@@ -1,0 +1,55 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+709212,GENSCOT,CHESTPAIN,study_id_e,,,
+709213,GENSCOT,CHESTPAIN,ever_pain,PCQ: F1. Do you ever get pain or discomfort in your chest?,2,No
+709214,GENSCOT,CHESTPAIN,ever_pain,PCQ: F1. Do you ever get pain or discomfort in your chest?,1,Yes
+709215,GENSCOT,CHESTPAIN,if_active,PCQ: F2. Do you get this pain when you walk uphill or hurry?,2,No
+709216,GENSCOT,CHESTPAIN,if_active,PCQ: F2. Do you get this pain when you walk uphill or hurry?,1,Yes
+709217,GENSCOT,CHESTPAIN,if_walking,PCQ: F3. Do you get it when you walk at an ordinary pace on the level?,2,No
+709218,GENSCOT,CHESTPAIN,if_walking,PCQ: F3. Do you get it when you walk at an ordinary pace on the level?,1,Yes
+709219,GENSCOT,CHESTPAIN,reaction,PCQ: F4. When you get pain or discomfort in your chest what do you do? (Stop/Slow Down/Continue),2,Slow Down
+709220,GENSCOT,CHESTPAIN,reaction,PCQ: F4. When you get pain or discomfort in your chest what do you do? (Stop/Slow Down/Continue),3,Continue at same pace
+709221,GENSCOT,CHESTPAIN,reaction,PCQ: F4. When you get pain or discomfort in your chest what do you do? (Stop/Slow Down/Continue),1,Stop
+709222,GENSCOT,CHESTPAIN,recover,PCQ: F5. Does it go away when you stand still or sit down?,2,No
+709223,GENSCOT,CHESTPAIN,recover,PCQ: F5. Does it go away when you stand still or sit down?,1,Yes
+709224,GENSCOT,CHESTPAIN,recover_l10,PCQ: 10 Minutes or less,blank,blank
+709225,GENSCOT,CHESTPAIN,recover_l10,PCQ: 10 Minutes or less,1,Yes
+709226,GENSCOT,CHESTPAIN,recover_m10,PCQ: More than 10 minutes,blank,blank
+709227,GENSCOT,CHESTPAIN,recover_m10,PCQ: More than 10 minutes,1,Yes
+709228,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,1,sternum
+709229,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,2,left anterior chest
+709230,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,3,left arm
+709231,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,4,right anterior chest
+709232,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,5,right arm
+709233,GENSCOT,CHESTPAIN,severe_pain,PCQ: F7. Have you ever had a severe pain across the front of your chest lasting for half an hour?,1,Yes
+709234,GENSCOT,CHESTPAIN,severe_pain,PCQ: F7. Have you ever had a severe pain across the front of your chest lasting for half an hour?,2,No
+709235,GENSCOT,CHESTPAIN,angina,Possible angina grade (Rose),2,Grade 2
+709236,GENSCOT,CHESTPAIN,angina,Possible angina grade (Rose),1,Grade 1
+709237,GENSCOT,CHESTPAIN,mi,Possible myocardial infarction,,
+709238,GENSCOT,CHESTPAIN,avail_from_dt,,,
+709239,GENSCOT,CHESTPAIN,study_id_e,,,
+709240,GENSCOT,CHESTPAIN,ever_pain,PCQ: F1. Do you ever get pain or discomfort in your chest?,2,No
+709241,GENSCOT,CHESTPAIN,ever_pain,PCQ: F1. Do you ever get pain or discomfort in your chest?,1,Yes
+709242,GENSCOT,CHESTPAIN,if_active,PCQ: F2. Do you get this pain when you walk uphill or hurry?,2,No
+709243,GENSCOT,CHESTPAIN,if_active,PCQ: F2. Do you get this pain when you walk uphill or hurry?,1,Yes
+709244,GENSCOT,CHESTPAIN,if_walking,PCQ: F3. Do you get it when you walk at an ordinary pace on the level?,2,No
+709245,GENSCOT,CHESTPAIN,if_walking,PCQ: F3. Do you get it when you walk at an ordinary pace on the level?,1,Yes
+709246,GENSCOT,CHESTPAIN,reaction,PCQ: F4. When you get pain or discomfort in your chest what do you do? (Stop/Slow Down/Continue),2,Slow Down
+709247,GENSCOT,CHESTPAIN,reaction,PCQ: F4. When you get pain or discomfort in your chest what do you do? (Stop/Slow Down/Continue),3,Continue at same pace
+709248,GENSCOT,CHESTPAIN,reaction,PCQ: F4. When you get pain or discomfort in your chest what do you do? (Stop/Slow Down/Continue),1,Stop
+709249,GENSCOT,CHESTPAIN,recover,PCQ: F5. Does it go away when you stand still or sit down?,2,No
+709250,GENSCOT,CHESTPAIN,recover,PCQ: F5. Does it go away when you stand still or sit down?,1,Yes
+709251,GENSCOT,CHESTPAIN,recover_l10,PCQ: 10 Minutes or less,blank,blank
+709252,GENSCOT,CHESTPAIN,recover_l10,PCQ: 10 Minutes or less,1,Yes
+709253,GENSCOT,CHESTPAIN,recover_m10,PCQ: More than 10 minutes,blank,blank
+709254,GENSCOT,CHESTPAIN,recover_m10,PCQ: More than 10 minutes,1,Yes
+709255,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,1,sternum
+709256,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,2,left anterior chest
+709257,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,3,left arm
+709258,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,4,right anterior chest
+709259,GENSCOT,CHESTPAIN,body_area,PCQ: F6. Where do you get this pain or discomfort,5,right arm
+709260,GENSCOT,CHESTPAIN,severe_pain,PCQ: F7. Have you ever had a severe pain across the front of your chest lasting for half an hour?,,PCQ: F7. Have you ever had a severe pain across the front of your chest lasting for half an hour?
+709261,GENSCOT,CHESTPAIN,angina,Possible angina grade (Rose),2,Grade 2
+709262,GENSCOT,CHESTPAIN,angina,Possible angina grade (Rose),1,Grade 1
+709263,GENSCOT,CHESTPAIN,mi,Possible myocardial infarction,,Flag
+709264,GENSCOT,CHESTPAIN,appt,date of response,,timestamp
+709265,GENSCOT,CHESTPAIN,avail_from_dt,,,

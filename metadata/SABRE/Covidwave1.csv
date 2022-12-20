@@ -1,0 +1,1219 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1194438,SABRE,Covidwave1,study_id_e,,,
+1194439,SABRE,Covidwave1,cw1_covdtday,Date of Covid-19 Survey Completed - Day,,
+1194440,SABRE,Covidwave1,cw1_covdtmnth,Date of Covid-19 Survey Completed - Month,,
+1194441,SABRE,Covidwave1,cw1_covprxy,Whether Covid-19 Survey completed by proxy on behalf of the study member,,
+1194442,SABRE,Covidwave1,cw1_covprxydtl,Relationship of proxy to survey member,,
+1194443,SABRE,Covidwave1,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,-8.0,No information
+1194444,SABRE,Covidwave1,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,-7.0,No questionnaire
+1194445,SABRE,Covidwave1,cw1_covidsympt_1,Past 2 weeks COVID19 symptoms: Fever,1.0,Yes
+1194446,SABRE,Covidwave1,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,-8.0,No information
+1194447,SABRE,Covidwave1,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,-7.0,No questionnaire
+1194448,SABRE,Covidwave1,cw1_covidsympt_2,Past 2 weeks COVID19 symptoms: Cough - dry,1.0,Yes
+1194449,SABRE,Covidwave1,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,-8.0,No information
+1194450,SABRE,Covidwave1,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,-7.0,No questionnaire
+1194451,SABRE,Covidwave1,cw1_covidsympt_3,Past 2 weeks COVID19 symptoms: Cough - mucus or phlegm,1.0,Yes
+1194452,SABRE,Covidwave1,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,-8.0,No information
+1194453,SABRE,Covidwave1,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,-7.0,No questionnaire
+1194454,SABRE,Covidwave1,cw1_covidsympt_4,Past 2 weeks COVID19 symptoms: Sore throat,1.0,Yes
+1194455,SABRE,Covidwave1,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,-8.0,No information
+1194456,SABRE,Covidwave1,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,-7.0,No questionnaire
+1194457,SABRE,Covidwave1,cw1_covidsympt_5,Past 2 weeks COVID19 symptoms: Chest tightness,1.0,Yes
+1194458,SABRE,Covidwave1,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,-8.0,No information
+1194459,SABRE,Covidwave1,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,-7.0,No questionnaire
+1194460,SABRE,Covidwave1,cw1_covidsympt_6,Past 2 weeks COVID19 symptoms: Shortness of breath,1.0,Yes
+1194461,SABRE,Covidwave1,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,-8.0,No information
+1194462,SABRE,Covidwave1,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,-7.0,No questionnaire
+1194463,SABRE,Covidwave1,cw1_covidsympt_7,Past 2 weeks COVID19 symptoms: Runny nose,1.0,Yes
+1194464,SABRE,Covidwave1,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,-8.0,No information
+1194465,SABRE,Covidwave1,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,-7.0,No questionnaire
+1194466,SABRE,Covidwave1,cw1_covidsympt_8,Past 2 weeks COVID19 symptoms: Nasal congestion,1.0,Yes
+1194467,SABRE,Covidwave1,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,-8.0,No information
+1194468,SABRE,Covidwave1,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,-7.0,No questionnaire
+1194469,SABRE,Covidwave1,cw1_covidsympt_18,Past 2 weeks COVID19 symptoms: Sneezing,1.0,Yes
+1194470,SABRE,Covidwave1,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,-8.0,No information
+1194471,SABRE,Covidwave1,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,-7.0,No questionnaire
+1194472,SABRE,Covidwave1,cw1_covidsympt_10,Past 2 weeks COVID19 symptoms: Muscle or body aches,1.0,Yes
+1194473,SABRE,Covidwave1,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,-8.0,No information
+1194474,SABRE,Covidwave1,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,-7.0,No questionnaire
+1194475,SABRE,Covidwave1,cw1_covidsympt_11,Past 2 weeks COVID19 symptoms: Fatigue,1.0,Yes
+1194476,SABRE,Covidwave1,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,-8.0,No information
+1194477,SABRE,Covidwave1,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,-7.0,No questionnaire
+1194478,SABRE,Covidwave1,cw1_covidsympt_12,Past 2 weeks COVID19 symptoms: Unusual loose motions or diarrhoea,1.0,Yes
+1194479,SABRE,Covidwave1,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,-8.0,No information
+1194480,SABRE,Covidwave1,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,-7.0,No questionnaire
+1194481,SABRE,Covidwave1,cw1_covidsympt_16,Past 2 weeks COVID19 symptoms: Vomiting,1.0,Yes
+1194482,SABRE,Covidwave1,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,-8.0,No information
+1194483,SABRE,Covidwave1,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,-7.0,No questionnaire
+1194484,SABRE,Covidwave1,cw1_covidsympt_13,Past 2 weeks COVID19 symptoms: Loss of smell,1.0,Yes
+1194485,SABRE,Covidwave1,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,-8.0,No information
+1194486,SABRE,Covidwave1,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,-7.0,No questionnaire
+1194487,SABRE,Covidwave1,cw1_covidsympt_14,Past 2 weeks COVID19 symptoms: Loss of taste,1.0,Yes
+1194488,SABRE,Covidwave1,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,-8.0,No information
+1194489,SABRE,Covidwave1,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,-7.0,No questionnaire
+1194490,SABRE,Covidwave1,cw1_covidsympt_17,Past 2 weeks COVID19 symptoms: Skin rash,1.0,Yes
+1194491,SABRE,Covidwave1,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,-8.0,No information
+1194492,SABRE,Covidwave1,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,-7.0,No questionnaire
+1194493,SABRE,Covidwave1,cw1_covidsympt_19,Past 2 weeks COVID19 symptoms: Headaches,1.0,Yes
+1194494,SABRE,Covidwave1,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,-8.0,No information
+1194495,SABRE,Covidwave1,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,-7.0,No questionnaire
+1194496,SABRE,Covidwave1,cw1_covidsympt_20,Past 2 weeks COVID19 symptoms: Other,1.0,Yes
+1194497,SABRE,Covidwave1,cw1_covidsympt_20_2,Past 2 weeks COVID19 symptoms: Other Text,,
+1194498,SABRE,Covidwave1,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,-99.0,uninterpretable response
+1194499,SABRE,Covidwave1,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,-8.0,No information
+1194500,SABRE,Covidwave1,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,-7.0,No questionnaire
+1194501,SABRE,Covidwave1,cw1_covidsympt_23,Past 2 weeks any COVID19 symptoms experienced,1.0,"No, none of these"
+1194502,SABRE,Covidwave1,cw1_covid19,Whether CM has had Coronavirus,-8.0,No information
+1194503,SABRE,Covidwave1,cw1_covid19,Whether CM has had Coronavirus,-7.0,no questionnaire
+1194504,SABRE,Covidwave1,cw1_covid19,Whether CM has had Coronavirus,-1.0,Not applicable
+1194505,SABRE,Covidwave1,cw1_covid19,Whether CM has had Coronavirus,1.0,"Yes, confirmed by a positive test"
+1194506,SABRE,Covidwave1,cw1_covid19,Whether CM has had Coronavirus,2.0,"Yes, based on strong personal suspicion or medical advice"
+1194507,SABRE,Covidwave1,cw1_covid19,Whether CM has had Coronavirus,3.0,Unsure
+1194508,SABRE,Covidwave1,cw1_covid19,Whether CM has had Coronavirus,4.0,No
+1194509,SABRE,Covidwave1,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,-99.0,uninterpretable response
+1194510,SABRE,Covidwave1,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,-8.0,No information
+1194511,SABRE,Covidwave1,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,-7.0,No questionnaire
+1194512,SABRE,Covidwave1,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,-1.0,not applicable
+1194513,SABRE,Covidwave1,cw1_covidadv_1,Whether discussed Past 2 weeks COVID19 symptoms: with doctor/practice nurse,1.0,Yes
+1194514,SABRE,Covidwave1,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,-99.0,uninterpretable response
+1194515,SABRE,Covidwave1,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,-8.0,No information
+1194516,SABRE,Covidwave1,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,-7.0,No questionnaire
+1194517,SABRE,Covidwave1,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,-1.0,not applicable
+1194518,SABRE,Covidwave1,cw1_covidadv_2,Whether discussed Past 2 weeks COVID19 symptoms: with NHS 111 or NHS 24,1.0,Yes
+1194519,SABRE,Covidwave1,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,-99.0,uninterpretable response
+1194520,SABRE,Covidwave1,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,-8.0,No information
+1194521,SABRE,Covidwave1,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,-7.0,No questionnaire
+1194522,SABRE,Covidwave1,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,-1.0,not applicable
+1194523,SABRE,Covidwave1,cw1_covidadv_3,Whether accessed online advice about COVID19 at NHS 111 or NHS 24,1.0,Yes
+1194524,SABRE,Covidwave1,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,-99.0,uninterpretable response
+1194525,SABRE,Covidwave1,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,-8.0,No information
+1194526,SABRE,Covidwave1,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,-7.0,No questionnaire
+1194527,SABRE,Covidwave1,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,-1.0,not applicable
+1194528,SABRE,Covidwave1,cw1_covidadv_4,Whether visited pharmacist regarding Past 2 weeks COVID19 symptoms:,1.0,Yes
+1194529,SABRE,Covidwave1,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,-99.0,uninterpretable response
+1194530,SABRE,Covidwave1,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,-8.0,No information
+1194531,SABRE,Covidwave1,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,-7.0,No questionnaire
+1194532,SABRE,Covidwave1,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,-1.0,not applicable
+1194533,SABRE,Covidwave1,cw1_covidadv_5,Whether visited A&E or walk in centre regarding Past 2 weeks COVID19 symptoms:,1.0,Yes
+1194534,SABRE,Covidwave1,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,-99.0,uninterpretable response
+1194535,SABRE,Covidwave1,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,-8.0,No information
+1194536,SABRE,Covidwave1,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,-7.0,No questionnaire
+1194537,SABRE,Covidwave1,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,-1.0,not applicable
+1194538,SABRE,Covidwave1,cw1_covidadv_6,Not discussed Past 2 weeks COVID19 symptoms: with healthcare professionals,1.0,Yes
+1194539,SABRE,Covidwave1,cw1_covid_hospad,Whether been admitted to hospital with COVID19,-99.0,uninterpretable response
+1194540,SABRE,Covidwave1,cw1_covid_hospad,Whether been admitted to hospital with COVID19,-8.0,No information
+1194541,SABRE,Covidwave1,cw1_covid_hospad,Whether been admitted to hospital with COVID19,-7.0,No questionnaire
+1194542,SABRE,Covidwave1,cw1_covid_hospad,Whether been admitted to hospital with COVID19,-1.0,Not applicable
+1194543,SABRE,Covidwave1,cw1_covid_hospad,Whether been admitted to hospital with COVID19,1.0,Yes
+1194544,SABRE,Covidwave1,cw1_covid_hospad,Whether been admitted to hospital with COVID19,2.0,no
+1194545,SABRE,Covidwave1,cw1_covidtest,Whether been tested for Coronavirus,-99.0,uninterpretable response
+1194546,SABRE,Covidwave1,cw1_covidtest,Whether been tested for Coronavirus,-8.0,No information
+1194547,SABRE,Covidwave1,cw1_covidtest,Whether been tested for Coronavirus,-7.0,No questionnaire
+1194548,SABRE,Covidwave1,cw1_covidtest,Whether been tested for Coronavirus,-1.0,Not applicable
+1194549,SABRE,Covidwave1,cw1_covidtest,Whether been tested for Coronavirus,1.0,Yes
+1194550,SABRE,Covidwave1,cw1_covidtest,Whether been tested for Coronavirus,2.0,no
+1194551,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,-99.0,uninterpretable response
+1194552,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,-8.0,No information
+1194553,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,-7.0,no questionnaire
+1194554,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,-1.0,Not applicable
+1194555,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,1.0,Positive - it showed I had coronavirus
+1194556,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,2.0,Negative - it showed I did not have coronavirus
+1194557,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,3.0,Inconclusive
+1194558,SABRE,Covidwave1,cw1_covidresult,Result of Coronavirus test,4.0,Waiting for results
+1194559,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,-8.0,No information
+1194560,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,-7.0,no  questionnaire
+1194561,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,-1.0,Not applicable
+1194562,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,1.0,Excellent
+1194563,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,2.0,Very good
+1194564,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,3.0,Good
+1194565,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,4.0,Fair
+1194566,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,5.0,Poor
+1194567,SABRE,Covidwave1,cw1_ghq,CM self-assessment of general health,-99.0,uninterpretable response
+1194568,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,-8.0,No information
+1194569,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,-7.0,no questionnaire
+1194570,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,-1.0,Not applicable
+1194571,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,1.0,Excellent
+1194572,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,2.0,Very good
+1194573,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,3.0,Good
+1194574,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,4.0,Fair
+1194575,SABRE,Covidwave1,cw1_ghqprecovid,Pre-C19: CM self-assessment of general health in 3 months preceding outbreak,5.0,Poor
+1194576,SABRE,Covidwave1,cw1_lli_1,CM has long-standing illness: Cancer,2.0,No
+1194577,SABRE,Covidwave1,cw1_lli_1,CM has long-standing illness: Cancer,-8.0,No information
+1194578,SABRE,Covidwave1,cw1_lli_1,CM has long-standing illness: Cancer,-7.0,No  questionnaire
+1194579,SABRE,Covidwave1,cw1_lli_1,CM has long-standing illness: Cancer,-1.0,Not applicable
+1194580,SABRE,Covidwave1,cw1_lli_1,CM has long-standing illness: Cancer,1.0,Yes
+1194581,SABRE,Covidwave1,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,2.0,No
+1194582,SABRE,Covidwave1,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,-8.0,No information
+1194583,SABRE,Covidwave1,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,-7.0,No  questionnaire
+1194584,SABRE,Covidwave1,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,-1.0,Not applicable
+1194585,SABRE,Covidwave1,cw1_lli_2,CM has long-standing illness: Cystic fibrosis,1.0,Yes
+1194586,SABRE,Covidwave1,cw1_lli_3,CM has long-standing illness: Asthma,2.0,No
+1194587,SABRE,Covidwave1,cw1_lli_3,CM has long-standing illness: Asthma,-8.0,No information
+1194588,SABRE,Covidwave1,cw1_lli_3,CM has long-standing illness: Asthma,-7.0,No  questionnaire
+1194589,SABRE,Covidwave1,cw1_lli_3,CM has long-standing illness: Asthma,-1.0,Not applicable
+1194590,SABRE,Covidwave1,cw1_lli_3,CM has long-standing illness: Asthma,1.0,Yes
+1194591,SABRE,Covidwave1,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,2.0,No
+1194592,SABRE,Covidwave1,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,-8.0,No information
+1194593,SABRE,Covidwave1,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,-7.0,No  questionnaire
+1194594,SABRE,Covidwave1,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,-1.0,Not applicable
+1194595,SABRE,Covidwave1,cw1_lli_4,CM has long-standing illness: Chronic Obstructive Pulmonary Disease,1.0,Yes
+1194596,SABRE,Covidwave1,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,2.0,No
+1194597,SABRE,Covidwave1,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,-8.0,No information
+1194598,SABRE,Covidwave1,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,-7.0,No  questionnaire
+1194599,SABRE,Covidwave1,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,-1.0,Not applicable
+1194600,SABRE,Covidwave1,cw1_lli_5,CM has long-standing illness: Wheezy bronchitis,1.0,Yes
+1194601,SABRE,Covidwave1,cw1_lli_6,CM has long-standing illness: Diabetes,2.0,No
+1194602,SABRE,Covidwave1,cw1_lli_6,CM has long-standing illness: Diabetes,-8.0,No information
+1194603,SABRE,Covidwave1,cw1_lli_6,CM has long-standing illness: Diabetes,-7.0,No  questionnaire
+1194604,SABRE,Covidwave1,cw1_lli_6,CM has long-standing illness: Diabetes,-1.0,Not applicable
+1194605,SABRE,Covidwave1,cw1_lli_6,CM has long-standing illness: Diabetes,1.0,Yes
+1194606,SABRE,Covidwave1,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other b,2.0,No
+1194607,SABRE,Covidwave1,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other b,-8.0,No information
+1194608,SABRE,Covidwave1,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other b,-7.0,No  questionnaire
+1194609,SABRE,Covidwave1,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other b,-1.0,Not applicable
+1194610,SABRE,Covidwave1,cw1_lli_7,CM has long-standing illness: Recurrent backache/prolapsed disc/sciatica/other b,1.0,Yes
+1194611,SABRE,Covidwave1,cw1_lli_8,CM has long-standing illness: Problems with hearing,2.0,No
+1194612,SABRE,Covidwave1,cw1_lli_8,CM has long-standing illness: Problems with hearing,-8.0,No information
+1194613,SABRE,Covidwave1,cw1_lli_8,CM has long-standing illness: Problems with hearing,-7.0,No  questionnaire
+1194614,SABRE,Covidwave1,cw1_lli_8,CM has long-standing illness: Problems with hearing,-1.0,Not applicable
+1194615,SABRE,Covidwave1,cw1_lli_8,CM has long-standing illness: Problems with hearing,1.0,Yes
+1194616,SABRE,Covidwave1,cw1_lli_9,CM has long-standing illness: High blood pressure,2.0,No
+1194617,SABRE,Covidwave1,cw1_lli_9,CM has long-standing illness: High blood pressure,-8.0,No information
+1194618,SABRE,Covidwave1,cw1_lli_9,CM has long-standing illness: High blood pressure,-7.0,No  questionnaire
+1194619,SABRE,Covidwave1,cw1_lli_9,CM has long-standing illness: High blood pressure,-1.0,Not applicable
+1194620,SABRE,Covidwave1,cw1_lli_9,CM has long-standing illness: High blood pressure,1.0,Yes
+1194621,SABRE,Covidwave1,cw1_lli_10,CM has long-standing illness: Heart disease; congenital or acquired,2.0,No
+1194622,SABRE,Covidwave1,cw1_lli_10,CM has long-standing illness: Heart disease; congenital or acquired,-8.0,No information
+1194623,SABRE,Covidwave1,cw1_lli_10,CM has long-standing illness: Heart disease; congenital or acquired,-7.0,No  questionnaire
+1194624,SABRE,Covidwave1,cw1_lli_10,CM has long-standing illness: Heart disease; congenital or acquired,-1.0,Not applicable
+1194625,SABRE,Covidwave1,cw1_lli_10,CM has long-standing illness: Heart disease; congenital or acquired,1.0,Yes
+1194626,SABRE,Covidwave1,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric ,2.0,No
+1194627,SABRE,Covidwave1,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric ,-8.0,No information
+1194628,SABRE,Covidwave1,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric ,-7.0,No  questionnaire
+1194629,SABRE,Covidwave1,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric ,-1.0,Not applicable
+1194630,SABRE,Covidwave1,cw1_lli_11,CM has long-standing illness: Depression or other emotional/nervous/psychiatric ,1.0,Yes
+1194631,SABRE,Covidwave1,cw1_lli_12,CM has long-standing illness: Obesity,2.0,No
+1194632,SABRE,Covidwave1,cw1_lli_12,CM has long-standing illness: Obesity,-8.0,No information
+1194633,SABRE,Covidwave1,cw1_lli_12,CM has long-standing illness: Obesity,-7.0,No  questionnaire
+1194634,SABRE,Covidwave1,cw1_lli_12,CM has long-standing illness: Obesity,-1.0,Not applicable
+1194635,SABRE,Covidwave1,cw1_lli_12,CM has long-standing illness: Obesity,1.0,Yes
+1194636,SABRE,Covidwave1,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,2.0,No
+1194637,SABRE,Covidwave1,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,-8.0,No information
+1194638,SABRE,Covidwave1,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,-7.0,No  questionnaire
+1194639,SABRE,Covidwave1,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,-1.0,Not applicable
+1194640,SABRE,Covidwave1,cw1_lli_13,CM has long-standing illness: Chronic obstructive airways disease,1.0,Yes
+1194641,SABRE,Covidwave1,cw1_lli_14,CM has long-standing illness: Infection,2.0,No
+1194642,SABRE,Covidwave1,cw1_lli_14,CM has long-standing illness: Infection,-8.0,No information
+1194643,SABRE,Covidwave1,cw1_lli_14,CM has long-standing illness: Infection,-7.0,No  questionnaire
+1194644,SABRE,Covidwave1,cw1_lli_14,CM has long-standing illness: Infection,-1.0,Not applicable
+1194645,SABRE,Covidwave1,cw1_lli_14,CM has long-standing illness: Infection,1.0,Yes
+1194646,SABRE,Covidwave1,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,2.0,No
+1194647,SABRE,Covidwave1,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,-8.0,No information
+1194648,SABRE,Covidwave1,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,-7.0,No  questionnaire
+1194649,SABRE,Covidwave1,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,-1.0,Not applicable
+1194650,SABRE,Covidwave1,cw1_lli_15,CM has long-standing illness: HIV / Immunodeficiency,1.0,Yes
+1194651,SABRE,Covidwave1,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,2.0,No
+1194652,SABRE,Covidwave1,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,-8.0,No information
+1194653,SABRE,Covidwave1,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,-7.0,No  questionnaire
+1194654,SABRE,Covidwave1,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,-1.0,Not applicable
+1194655,SABRE,Covidwave1,cw1_lli_16,CM has long-standing illness: Condition affecting the brain and nerves,1.0,Yes
+1194656,SABRE,Covidwave1,cw1_lli_17,CM suffering from a long-standing illness,-8.0,No information
+1194657,SABRE,Covidwave1,cw1_lli_17,CM suffering from a long-standing illness,-7.0,No  questionnaire
+1194658,SABRE,Covidwave1,cw1_lli_17,CM suffering from a long-standing illness,-1.0,Not applicable
+1194659,SABRE,Covidwave1,cw1_lli_17,CM suffering from a long-standing illness,1.0,Yes
+1194660,SABRE,Covidwave1,cw1_lli_17,CM suffering from a long-standing illness,2.0,No
+1194661,SABRE,Covidwave1,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment c,-99.0,uninterpretable response
+1194662,SABRE,Covidwave1,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment c,-8.0,No information
+1194663,SABRE,Covidwave1,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment c,-7.0,no questionnaire
+1194664,SABRE,Covidwave1,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment c,-1.0,Not applicable
+1194665,SABRE,Covidwave1,cw1_surgcan_10,Whether access to healthcare has been impacted Routine out-patient appointment c,1.0,Routine out-patient appointment cancelled or deferred
+1194666,SABRE,Covidwave1,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,-99.0,uninterpretable response
+1194667,SABRE,Covidwave1,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,-8.0,No information
+1194668,SABRE,Covidwave1,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,-7.0,no questionnaire
+1194669,SABRE,Covidwave1,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,-1.0,Not applicable
+1194670,SABRE,Covidwave1,cw1_surgcan_11,Whether access to healthcare has been impacted Surgery cancelled or deferred,1.0,Routine out-patient appointment cancelled or deferred
+1194671,SABRE,Covidwave1,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or def,-99.0,uninterpretable response
+1194672,SABRE,Covidwave1,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or def,-8.0,No information
+1194673,SABRE,Covidwave1,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or def,-7.0,no questionnaire
+1194674,SABRE,Covidwave1,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or def,-1.0,Not applicable
+1194675,SABRE,Covidwave1,cw1_surgcan_12,Whether access to healthcare has been impacted Cancer treatment cancelled or def,1.0,Routine out-patient appointment cancelled or deferred
+1194676,SABRE,Covidwave1,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem,-99.0,uninterpretable response
+1194677,SABRE,Covidwave1,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem,-8.0,No information
+1194678,SABRE,Covidwave1,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem,-7.0,no questionnaire
+1194679,SABRE,Covidwave1,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem,-1.0,Not applicable
+1194680,SABRE,Covidwave1,cw1_surgcan_13,Whether access to healthcare has been impacted Investigations for health problem,1.0,Routine out-patient appointment cancelled or deferred
+1194681,SABRE,Covidwave1,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription m,-99.0,uninterpretable response
+1194682,SABRE,Covidwave1,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription m,-8.0,No information
+1194683,SABRE,Covidwave1,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription m,-7.0,no questionnaire
+1194684,SABRE,Covidwave1,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription m,-1.0,Not applicable
+1194685,SABRE,Covidwave1,cw1_surgcan_14,Whether access to healthcare has been impacted Difficulty getting prescription m,1.0,Routine out-patient appointment cancelled or deferred
+1194686,SABRE,Covidwave1,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,-99.0,uninterpretable response
+1194687,SABRE,Covidwave1,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,-8.0,No information
+1194688,SABRE,Covidwave1,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,-7.0,no questionnaire
+1194689,SABRE,Covidwave1,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,-1.0,Not applicable
+1194690,SABRE,Covidwave1,cw1_surgcan_15,Whether access to healthcare has been impacted None of the above,1.0,Routine out-patient appointment cancelled or deferred
+1194691,SABRE,Covidwave1,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril; Lisinopril),-8.0,No information
+1194692,SABRE,Covidwave1,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril; Lisinopril),-7.0,no  questionnaire
+1194693,SABRE,Covidwave1,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril; Lisinopril),-1.0,Not applicable
+1194694,SABRE,Covidwave1,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril; Lisinopril),1.0,"ACE-inhibitor (e.g. Ramipril, Lisinopril)"
+1194695,SABRE,Covidwave1,cw1_meds_1,Medication ACE-inhibitor (e.g. Ramipril; Lisinopril),-99.0,uninterpretable
+1194696,SABRE,Covidwave1,cw1_meds_2,Medication Sartan (e.g. Losartan; Valsartan; Candesartan),-8.0,No information
+1194697,SABRE,Covidwave1,cw1_meds_2,Medication Sartan (e.g. Losartan; Valsartan; Candesartan),-7.0,no questionnaire
+1194698,SABRE,Covidwave1,cw1_meds_2,Medication Sartan (e.g. Losartan; Valsartan; Candesartan),-1.0,Not applicable
+1194699,SABRE,Covidwave1,cw1_meds_2,Medication Sartan (e.g. Losartan; Valsartan; Candesartan),1.0,Sartan(eg Losartan)
+1194700,SABRE,Covidwave1,cw1_meds_2,Medication Sartan (e.g. Losartan; Valsartan; Candesartan),-99.0,uninterpretable
+1194701,SABRE,Covidwave1,cw1_meds_3,Medication Entresto (sucubitril/valsartan),-8.0,No information
+1194702,SABRE,Covidwave1,cw1_meds_3,Medication Entresto (sucubitril/valsartan),-7.0,no  questionnaire
+1194703,SABRE,Covidwave1,cw1_meds_3,Medication Entresto (sucubitril/valsartan),-1.0,Not applicable
+1194704,SABRE,Covidwave1,cw1_meds_3,Medication Entresto (sucubitril/valsartan),1.0,Entresto
+1194705,SABRE,Covidwave1,cw1_meds_3,Medication Entresto (sucubitril/valsartan),-99.0,uninterpretable
+1194706,SABRE,Covidwave1,cw1_meds_4,Medication Ibuprofen / Neurofen; any other type of non-steriodal anti-inflammato,-8.0,No information
+1194707,SABRE,Covidwave1,cw1_meds_4,Medication Ibuprofen / Neurofen; any other type of non-steriodal anti-inflammato,-7.0,no  questionnaire
+1194708,SABRE,Covidwave1,cw1_meds_4,Medication Ibuprofen / Neurofen; any other type of non-steriodal anti-inflammato,-1.0,Not applicable
+1194709,SABRE,Covidwave1,cw1_meds_4,Medication Ibuprofen / Neurofen; any other type of non-steriodal anti-inflammato,1.0,Ibuprofen etc
+1194710,SABRE,Covidwave1,cw1_meds_4,Medication Ibuprofen / Neurofen; any other type of non-steriodal anti-inflammato,-99.0,uninterpretable
+1194711,SABRE,Covidwave1,cw1_meds_5,Medication Vitamin D,-8.0,No information
+1194712,SABRE,Covidwave1,cw1_meds_5,Medication Vitamin D,-7.0,no  questionnaire
+1194713,SABRE,Covidwave1,cw1_meds_5,Medication Vitamin D,-1.0,Not applicable
+1194714,SABRE,Covidwave1,cw1_meds_5,Medication Vitamin D,1.0,vitamin D
+1194715,SABRE,Covidwave1,cw1_meds_5,Medication Vitamin D,-99.0,uninterpretable
+1194716,SABRE,Covidwave1,cw1_meds_6,Medication None,-8.0,No information
+1194717,SABRE,Covidwave1,cw1_meds_6,Medication None,-7.0,no  questionnaire
+1194718,SABRE,Covidwave1,cw1_meds_6,Medication None,-1.0,Not applicable
+1194719,SABRE,Covidwave1,cw1_meds_6,Medication None,1.0,None
+1194720,SABRE,Covidwave1,cw1_meds_6,Medication None,-99.0,uninterpretable
+1194721,SABRE,Covidwave1,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,-8.0,No information
+1194722,SABRE,Covidwave1,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,-7.0,No questionnaire
+1194723,SABRE,Covidwave1,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,-1.0,Not applicable
+1194724,SABRE,Covidwave1,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,1.0,Yes
+1194725,SABRE,Covidwave1,cw1_shield,Whether CM received shield letter identifying them as at risk from Coronavirus,2.0,No
+1194726,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,-8.0,No information
+1194727,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,-7.0,no questionnaire
+1194728,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,-1.0,Not applicable
+1194729,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,0.0,Not complying at all (0)
+1194730,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,1.0,1
+1194731,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,2.0,2
+1194732,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,3.0,3
+1194733,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,4.0,4
+1194734,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,5.0,6
+1194735,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,7.0,7
+1194736,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,8.0,8
+1194737,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,9.0,9
+1194738,SABRE,Covidwave1,cw1_complianc,Extent of social distancing compliance from 0 (Not at all) to 10 (Fully complian,10.0,Complying fully
+1194739,SABRE,Covidwave1,cw1_hhnum,How many people in household (including CM),-8.0,No information
+1194740,SABRE,Covidwave1,cw1_hhnum,How many people in household (including CM),-7.0,no  questionnaire
+1194741,SABRE,Covidwave1,cw1_hhnum,How many people in household (including CM),-1.0,Not applicable
+1194742,SABRE,Covidwave1,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,-8.0,No information
+1194743,SABRE,Covidwave1,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,-7.0,No  questionnaire
+1194744,SABRE,Covidwave1,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,-1.0,Not applicable
+1194745,SABRE,Covidwave1,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,1.0,Yes
+1194746,SABRE,Covidwave1,cw1_hhnumwh_1,Household member: Husband/Wife/Cohabiting Partner,2.0,No
+1194747,SABRE,Covidwave1,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),-8.0,No information
+1194748,SABRE,Covidwave1,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),-7.0,No  questionnaire
+1194749,SABRE,Covidwave1,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),-1.0,Not applicable
+1194750,SABRE,Covidwave1,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),1.0,Yes
+1194751,SABRE,Covidwave1,cw1_hhnumwh_2,Household member: Children (incl any children CM considers themself parent to),2.0,No
+1194752,SABRE,Covidwave1,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),-8.0,No information
+1194753,SABRE,Covidwave1,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),-7.0,No  questionnaire
+1194754,SABRE,Covidwave1,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),-1.0,Not applicable
+1194755,SABRE,Covidwave1,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),1.0,Yes
+1194756,SABRE,Covidwave1,cw1_hhnumwh_3,Household member: Parent/Parent-in-law (incl step-parent or adoptive parent),2.0,No
+1194757,SABRE,Covidwave1,cw1_hhnumwh_5,Household member: Grandchild,-8.0,No information
+1194758,SABRE,Covidwave1,cw1_hhnumwh_5,Household member: Grandchild,-7.0,No  questionnaire
+1194759,SABRE,Covidwave1,cw1_hhnumwh_5,Household member: Grandchild,-1.0,Not applicable
+1194760,SABRE,Covidwave1,cw1_hhnumwh_5,Household member: Grandchild,1.0,Yes
+1194761,SABRE,Covidwave1,cw1_hhnumwh_5,Household member: Grandchild,2.0,No
+1194762,SABRE,Covidwave1,cw1_hhnumwh_6,Household member: Sibling,-8.0,No information
+1194763,SABRE,Covidwave1,cw1_hhnumwh_6,Household member: Sibling,-7.0,No  questionnaire
+1194764,SABRE,Covidwave1,cw1_hhnumwh_6,Household member: Sibling,-1.0,Not applicable
+1194765,SABRE,Covidwave1,cw1_hhnumwh_6,Household member: Sibling,1.0,Yes
+1194766,SABRE,Covidwave1,cw1_hhnumwh_6,Household member: Sibling,2.0,No
+1194767,SABRE,Covidwave1,cw1_hhnumwh_7,Household member: Other relative,-8.0,No information
+1194768,SABRE,Covidwave1,cw1_hhnumwh_7,Household member: Other relative,-7.0,No  questionnaire
+1194769,SABRE,Covidwave1,cw1_hhnumwh_7,Household member: Other relative,-1.0,Not applicable
+1194770,SABRE,Covidwave1,cw1_hhnumwh_7,Household member: Other relative,1.0,Yes
+1194771,SABRE,Covidwave1,cw1_hhnumwh_7,Household member: Other relative,2.0,No
+1194772,SABRE,Covidwave1,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,-8.0,No information
+1194773,SABRE,Covidwave1,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,-7.0,No  questionnaire
+1194774,SABRE,Covidwave1,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,-1.0,Not applicable
+1194775,SABRE,Covidwave1,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,1.0,Yes
+1194776,SABRE,Covidwave1,cw1_hhnumwh_8,Household member: Friend/unrelated sharer,2.0,No
+1194777,SABRE,Covidwave1,cw1_hhnumwh_9,Household member: Other,-8.0,No information
+1194778,SABRE,Covidwave1,cw1_hhnumwh_9,Household member: Other,-7.0,No  questionnaire
+1194779,SABRE,Covidwave1,cw1_hhnumwh_9,Household member: Other,-1.0,Not applicable
+1194780,SABRE,Covidwave1,cw1_hhnumwh_9,Household member: Other,1.0,Yes
+1194781,SABRE,Covidwave1,cw1_hhnumwh_9,Household member: Other,2.0,No
+1194782,SABRE,Covidwave1,cw1_numchil,Number of children CM currently lives with,-8.0,No information
+1194783,SABRE,Covidwave1,cw1_numchil,Number of children CM currently lives with,-7.0,no questionnaire
+1194784,SABRE,Covidwave1,cw1_numchil,Number of children CM currently lives with,-1.0,Not applicable
+1194785,SABRE,Covidwave1,cw1_chilage_1_1,Age of each child - Child 1 - Years old,-8.0,No information
+1194786,SABRE,Covidwave1,cw1_chilage_1_1,Age of each child - Child 1 - Years old,-7.0,no  questionnaire
+1194787,SABRE,Covidwave1,cw1_chilage_1_1,Age of each child - Child 1 - Years old,-1.0,Not applicable
+1194788,SABRE,Covidwave1,cw1_chilage_2_1,Age of each child - Child 2 - Years old,-8.0,No information
+1194789,SABRE,Covidwave1,cw1_chilage_2_1,Age of each child - Child 2 - Years old,-7.0,no  questionnaire
+1194790,SABRE,Covidwave1,cw1_chilage_2_1,Age of each child - Child 2 - Years old,-1.0,Not applicable
+1194791,SABRE,Covidwave1,cw1_chilage_3_1,Age of each child - Child 3 - Years old,-8.0,No information
+1194792,SABRE,Covidwave1,cw1_chilage_3_1,Age of each child - Child 3 - Years old,-7.0,no  questionnaire
+1194793,SABRE,Covidwave1,cw1_chilage_3_1,Age of each child - Child 3 - Years old,-1.0,Not applicable
+1194794,SABRE,Covidwave1,cw1_chilage_4_1,Age of each child - Child 4 - Years old,-8.0,No information
+1194795,SABRE,Covidwave1,cw1_chilage_4_1,Age of each child - Child 4 - Years old,-7.0,no  questionnaire
+1194796,SABRE,Covidwave1,cw1_chilage_4_1,Age of each child - Child 4 - Years old,-1.0,Not applicable
+1194797,SABRE,Covidwave1,cw1_chilage_5_1,Age of each child - Child 5 - Years old,-8.0,No information
+1194798,SABRE,Covidwave1,cw1_chilage_5_1,Age of each child - Child 5 - Years old,-7.0,no  questionnaire
+1194799,SABRE,Covidwave1,cw1_chilage_5_1,Age of each child - Child 5 - Years old,-1.0,Not applicable
+1194800,SABRE,Covidwave1,cw1_chilage_6_1,Age of each child - Child 6 - Years old,-8.0,No information
+1194801,SABRE,Covidwave1,cw1_chilage_6_1,Age of each child - Child 6 - Years old,-7.0,no  questionnaire
+1194802,SABRE,Covidwave1,cw1_chilage_6_1,Age of each child - Child 6 - Years old,-1.0,Not applicable
+1194803,SABRE,Covidwave1,cw1_chilage_7_1,Age of each child - Child 7 - Years old,-8.0,No information
+1194804,SABRE,Covidwave1,cw1_chilage_7_1,Age of each child - Child 7 - Years old,-7.0,no  questionnaire
+1194805,SABRE,Covidwave1,cw1_chilage_7_1,Age of each child - Child 7 - Years old,-1.0,Not applicable
+1194806,SABRE,Covidwave1,cw1_chilage_8_1,Age of each child - Child 8 - Years old,-8.0,No information
+1194807,SABRE,Covidwave1,cw1_chilage_8_1,Age of each child - Child 8 - Years old,-7.0,no  questionnaire
+1194808,SABRE,Covidwave1,cw1_chilage_8_1,Age of each child - Child 8 - Years old,-1.0,Not applicable
+1194809,SABRE,Covidwave1,cw1_chilage_9_1,Age of each child - Child 9 - Years old,-8.0,No information
+1194810,SABRE,Covidwave1,cw1_chilage_9_1,Age of each child - Child 9 - Years old,-7.0,no  questionnaire
+1194811,SABRE,Covidwave1,cw1_chilage_9_1,Age of each child - Child 9 - Years old,-1.0,Not applicable
+1194812,SABRE,Covidwave1,cw1_chilage_10_1,Age of each child - Child 10 - Years old,-8.0,No information
+1194813,SABRE,Covidwave1,cw1_chilage_10_1,Age of each child - Child 10 - Years old,-7.0,no  questionnaire
+1194814,SABRE,Covidwave1,cw1_chilage_10_1,Age of each child - Child 10 - Years old,-1.0,Not applicable
+1194815,SABRE,Covidwave1,cw1_anychnl,Whether CM has any children not living in hh,-8.0,No information
+1194816,SABRE,Covidwave1,cw1_anychnl,Whether CM has any children not living in hh,-7.0,no  questionnaire
+1194817,SABRE,Covidwave1,cw1_anychnl,Whether CM has any children not living in hh,-1.0,Not applicable
+1194818,SABRE,Covidwave1,cw1_anychnl,Whether CM has any children not living in hh,1.0,Yes
+1194819,SABRE,Covidwave1,cw1_anychnl,Whether CM has any children not living in hh,2.0,No
+1194820,SABRE,Covidwave1,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,-8.0,No information
+1194821,SABRE,Covidwave1,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,-7.0,no questionnaire
+1194822,SABRE,Covidwave1,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,-1.0,Not applicable
+1194823,SABRE,Covidwave1,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,1.0,Yes
+1194824,SABRE,Covidwave1,cw1_covchan,Post-C19: Whether HH composition changed since outbreak,2.0,No
+1194825,SABRE,Covidwave1,cw1_covpart,Post-C19: Whether started living with partner,-8.0,No information
+1194826,SABRE,Covidwave1,cw1_covpart,Post-C19: Whether started living with partner,-7.0,no questionnaire
+1194827,SABRE,Covidwave1,cw1_covpart,Post-C19: Whether started living with partner,-1.0,Not applicable
+1194828,SABRE,Covidwave1,cw1_covpart,Post-C19: Whether started living with partner,1.0,Yes
+1194829,SABRE,Covidwave1,cw1_covpart,Post-C19: Whether started living with partner,2.0,No
+1194830,SABRE,Covidwave1,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,-8.0,No information
+1194831,SABRE,Covidwave1,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,-7.0,No questionnaire
+1194832,SABRE,Covidwave1,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,-1.0,Not applicable
+1194833,SABRE,Covidwave1,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,1.0,Yes
+1194834,SABRE,Covidwave1,cw1_covchil_1,Post-C19: Whether at least one of CM's children has moved in,2.0,No
+1194835,SABRE,Covidwave1,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,-8.0,No information
+1194836,SABRE,Covidwave1,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,-7.0,No  questionnaire
+1194837,SABRE,Covidwave1,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,-1.0,Not applicable
+1194838,SABRE,Covidwave1,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,1.0,Yes
+1194839,SABRE,Covidwave1,cw1_covchil_2,Post-C19: Whether at least one of CM's children has moved out,2.0,No
+1194840,SABRE,Covidwave1,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,-8.0,No information
+1194841,SABRE,Covidwave1,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,-7.0,No  questionnaire
+1194842,SABRE,Covidwave1,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,-1.0,Not applicable
+1194843,SABRE,Covidwave1,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,1.0,Yes
+1194844,SABRE,Covidwave1,cw1_covchil_3,Post-C19: Whether CM has moved into one of their children's homes,2.0,No
+1194845,SABRE,Covidwave1,cw1_covper_1,Post-C19: Whether living arrangement change involving CM's parent(s) - moved in ,-8.0,No information
+1194846,SABRE,Covidwave1,cw1_covper_1,Post-C19: Whether living arrangement change involving CM's parent(s) - moved in ,-7.0,No  questionnaire
+1194847,SABRE,Covidwave1,cw1_covper_1,Post-C19: Whether living arrangement change involving CM's parent(s) - moved in ,-1.0,Not applicable
+1194848,SABRE,Covidwave1,cw1_covper_1,Post-C19: Whether living arrangement change involving CM's parent(s) - moved in ,1.0,At least one parent (or in-law) moved in with CM
+1194849,SABRE,Covidwave1,cw1_covper_1,Post-C19: Whether living arrangement change involving CM's parent(s) - moved in ,2.0,CM moved in with parent (or in-law)
+1194850,SABRE,Covidwave1,cw1_covper_1,Post-C19: Whether living arrangement change involving CM's parent(s) - moved in ,3.0,None of these
+1194851,SABRE,Covidwave1,cw1_covper_2,Post-C19: Whether living arrangement change involving CM's parent(s) - living wi,,
+1194852,SABRE,Covidwave1,cw1_covoth_1,Post-C19: Whether other person living arrangement change since - moved in with m,-8.0,No information
+1194853,SABRE,Covidwave1,cw1_covoth_1,Post-C19: Whether other person living arrangement change since - moved in with m,-7.0,No questionnaire
+1194854,SABRE,Covidwave1,cw1_covoth_1,Post-C19: Whether other person living arrangement change since - moved in with m,-1.0,Not applicable
+1194855,SABRE,Covidwave1,cw1_covoth_1,Post-C19: Whether other person living arrangement change since - moved in with m,1.0,Non-parent/child hh member moved in with CM
+1194856,SABRE,Covidwave1,cw1_covoth_1,Post-C19: Whether other person living arrangement change since - moved in with m,2.0,CM moved in with non-parent/child
+1194857,SABRE,Covidwave1,cw1_covoth_1,Post-C19: Whether other person living arrangement change since - moved in with m,3.0,None of these
+1194858,SABRE,Covidwave1,cw1_covoth_2,Post-C19: Whether other person living arrangement change since - living with the,,
+1194859,SABRE,Covidwave1,cw1_covnone,Post-C19: Whether other living arrangement change,,
+1194860,SABRE,Covidwave1,cw1_othrela,In a relationship(husband/wife/partner) at the moment,-8.0,No information
+1194861,SABRE,Covidwave1,cw1_othrela,In a relationship(husband/wife/partner) at the moment,-7.0,no  questionnaire
+1194862,SABRE,Covidwave1,cw1_othrela,In a relationship(husband/wife/partner) at the moment,-1.0,Not applicable
+1194863,SABRE,Covidwave1,cw1_othrela,In a relationship(husband/wife/partner) at the moment,1.0,Yes
+1194864,SABRE,Covidwave1,cw1_othrela,In a relationship(husband/wife/partner) at the moment,2.0,No
+1194865,SABRE,Covidwave1,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),-8.0,No information
+1194866,SABRE,Covidwave1,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),-7.0,No  questionnaire
+1194867,SABRE,Covidwave1,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),-1.0,Not applicable
+1194868,SABRE,Covidwave1,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),1.0,Very Unhappy
+1194869,SABRE,Covidwave1,cw1_relsat,Relationship satisfaction from 1 (Very unhappy) to 7 (Very happy),7.0,Very Happy
+1194870,SABRE,Covidwave1,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,-8.0,No information
+1194871,SABRE,Covidwave1,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,-7.0,No  questionnaire
+1194872,SABRE,Covidwave1,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,-1.0,Not applicable
+1194873,SABRE,Covidwave1,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,1.0,More frequent arguments with partner
+1194874,SABRE,Covidwave1,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,2.0,No change
+1194875,SABRE,Covidwave1,cw1_relconfl,Post-C19: Whether any more conflict in relationship with partner,3.0,Less frequent arguments with partner
+1194876,SABRE,Covidwave1,cw1_care_4,care before COVID outbreak No help needed,-8.0,No information
+1194877,SABRE,Covidwave1,cw1_care_4,care before COVID outbreak No help needed,-7.0,No  questionnaire
+1194878,SABRE,Covidwave1,cw1_care_4,care before COVID outbreak No help needed,-1.0,Not applicable
+1194879,SABRE,Covidwave1,cw1_care_4,care before COVID outbreak No help needed,1.0,Yes
+1194880,SABRE,Covidwave1,cw1_care_4,care before COVID outbreak No help needed,2.0,No
+1194881,SABRE,Covidwave1,cw1_care_1,Pre-C19: Whether help received caring for self or others in hh,-8.0,No information
+1194882,SABRE,Covidwave1,cw1_care_1,Pre-C19: Whether help received caring for self or others in hh,-7.0,No  questionnaire
+1194883,SABRE,Covidwave1,cw1_care_1,Pre-C19: Whether help received caring for self or others in hh,-1.0,Not applicable
+1194884,SABRE,Covidwave1,cw1_care_1,Pre-C19: Whether help received caring for self or others in hh,1.0,Yes
+1194885,SABRE,Covidwave1,cw1_care_1,Pre-C19: Whether help received caring for self or others in hh,2.0,No
+1194886,SABRE,Covidwave1,cw1_care_2,Pre-C19: Whether help received caring for self,-8.0,No information
+1194887,SABRE,Covidwave1,cw1_care_2,Pre-C19: Whether help received caring for self,-7.0,No  questionnaire
+1194888,SABRE,Covidwave1,cw1_care_2,Pre-C19: Whether help received caring for self,-1.0,Not applicable
+1194889,SABRE,Covidwave1,cw1_care_2,Pre-C19: Whether help received caring for self,1.0,Yes
+1194890,SABRE,Covidwave1,cw1_care_2,Pre-C19: Whether help received caring for self,2.0,No
+1194891,SABRE,Covidwave1,cw1_care_3,Pre-C19: Whether help received caring for others in hh,-8.0,No information
+1194892,SABRE,Covidwave1,cw1_care_3,Pre-C19: Whether help received caring for others in hh,-7.0,No  questionnaire
+1194893,SABRE,Covidwave1,cw1_care_3,Pre-C19: Whether help received caring for others in hh,-1.0,Not applicable
+1194894,SABRE,Covidwave1,cw1_care_3,Pre-C19: Whether help received caring for others in hh,1.0,Yes
+1194895,SABRE,Covidwave1,cw1_care_3,Pre-C19: Whether help received caring for others in hh,2.0,No
+1194896,SABRE,Covidwave1,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,-8.0,No information
+1194897,SABRE,Covidwave1,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,-7.0,No  questionnaire
+1194898,SABRE,Covidwave1,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,-1.0,Not applicable
+1194899,SABRE,Covidwave1,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,1.0,Yes
+1194900,SABRE,Covidwave1,cw1_carewho_1,Pre-C19: Who provided care- Husband/wife/partner/self,2.0,No
+1194901,SABRE,Covidwave1,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood ,-8.0,No information
+1194902,SABRE,Covidwave1,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood ,-7.0,No questionnaire
+1194903,SABRE,Covidwave1,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood ,-1.0,Not applicable
+1194904,SABRE,Covidwave1,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood ,1.0,Yes
+1194905,SABRE,Covidwave1,cw1_carewho_2,Pre-C19: Who provided care- Son/daughter or other family member (incl not blood ,2.0,No
+1194906,SABRE,Covidwave1,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,-8.0,No information
+1194907,SABRE,Covidwave1,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,-7.0,No questionnaire
+1194908,SABRE,Covidwave1,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,-1.0,Not applicable
+1194909,SABRE,Covidwave1,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,1.0,Yes
+1194910,SABRE,Covidwave1,cw1_carewho_3,Pre-C19: Who provided care- Friend or neighbour,2.0,No
+1194911,SABRE,Covidwave1,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,-8.0,No information
+1194912,SABRE,Covidwave1,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,-7.0,No questionnaire
+1194913,SABRE,Covidwave1,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,-1.0,Not applicable
+1194914,SABRE,Covidwave1,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,1.0,Yes
+1194915,SABRE,Covidwave1,cw1_carewho_4,Pre-C19: Who provided care- Voluntary helper,2.0,No
+1194916,SABRE,Covidwave1,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,-8.0,No information
+1194917,SABRE,Covidwave1,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,-7.0,No questionnaire
+1194918,SABRE,Covidwave1,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,-1.0,Not applicable
+1194919,SABRE,Covidwave1,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,1.0,Yes
+1194920,SABRE,Covidwave1,cw1_carewho_5,Pre-C19: Who provided care- Paid/professional help,2.0,No
+1194921,SABRE,Covidwave1,cw1_carewho_6,Pre-C19: Who provided care- Other,-8.0,No information
+1194922,SABRE,Covidwave1,cw1_carewho_6,Pre-C19: Who provided care- Other,-7.0,No questionnaire
+1194923,SABRE,Covidwave1,cw1_carewho_6,Pre-C19: Who provided care- Other,-1.0,Not applicable
+1194924,SABRE,Covidwave1,cw1_carewho_6,Pre-C19: Who provided care- Other,1.0,Yes
+1194925,SABRE,Covidwave1,cw1_carewho_6,Pre-C19: Who provided care- Other,2.0,No
+1194926,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,-8.0,No information
+1194927,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,-7.0,No NSHD questionnaire
+1194928,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,-1.0,Not applicable
+1194929,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,1.0,Up to 4 hours
+1194930,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,2.0,5-9 hours
+1194931,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,3.0,10-19 hours
+1194932,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,4.0,20-34 hours
+1194933,SABRE,Covidwave1,cw1_hcarpre,Pre-C19: How many hours help received for self or other hh member in a week?,5.0,35 hours or more
+1194934,SABRE,Covidwave1,cw1_carechan,Post-C19: Whether change in help received caring for self or others in hh,-8.0,No information
+1194935,SABRE,Covidwave1,cw1_carechan,Post-C19: Whether change in help received caring for self or others in hh,-7.0,No questionnaire
+1194936,SABRE,Covidwave1,cw1_carechan,Post-C19: Whether change in help received caring for self or others in hh,-1.0,Not applicable
+1194937,SABRE,Covidwave1,cw1_carechan,Post-C19: Whether change in help received caring for self or others in hh,1.0,Yes
+1194938,SABRE,Covidwave1,cw1_carechan,Post-C19: Whether change in help received caring for self or others in hh,2.0,No
+1194939,SABRE,Covidwave1,cw1_cachanwh,Post-C19: Change to care needed or received,-8.0,No information
+1194940,SABRE,Covidwave1,cw1_cachanwh,Post-C19: Change to care needed or received,-7.0,No questionnaire
+1194941,SABRE,Covidwave1,cw1_cachanwh,Post-C19: Change to care needed or received,-1.0,Not applicable
+1194942,SABRE,Covidwave1,cw1_cachanwh,Post-C19: Change to care needed or received,1.0,"Same needs, reduced care received"
+1194943,SABRE,Covidwave1,cw1_cachanwh,Post-C19: Change to care needed or received,2.0,"More care needed, not received"
+1194944,SABRE,Covidwave1,cw1_cachanwh,Post-C19: Change to care needed or received,3.0,More care needed and received
+1194945,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,-8.0,No information
+1194946,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,-7.0,No  questionnaire
+1194947,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,-1.0,Not applicable
+1194948,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,0.0,0 hours
+1194949,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,1.0,1-4 hours
+1194950,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,2.0,5-9 hours
+1194951,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,3.0,10-19 hours
+1194952,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,4.0,20-34 hours
+1194953,SABRE,Covidwave1,cw1_carhraf,Post-C19: How many hours help received for self or other hh member in a week?,5.0,35 hours or more
+1194954,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,-8.0,No information
+1194955,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,-7.0,no questionnaire
+1194956,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,-1.0,Not applicable
+1194957,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,1.0,Husband/wife/partner/self
+1194958,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,2.0,Son or daughter or other family member (include even if not
+1194959,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,3.0,Friend or neighbour
+1194960,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,4.0,Voluntary helper
+1194961,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,5.0,Paid/professional help
+1194962,SABRE,Covidwave1,cw1_prncare,Post-C19: Who provided care,6.0,Other
+1194963,SABRE,Covidwave1,cw1_numrooms,Number of rooms in house (not incl. kitchens; bathrooms; halls; garages),-8.0,No information
+1194964,SABRE,Covidwave1,cw1_numrooms,Number of rooms in house (not incl. kitchens; bathrooms; halls; garages),-7.0,no  questionnaire
+1194965,SABRE,Covidwave1,cw1_numrooms,Number of rooms in house (not incl. kitchens; bathrooms; halls; garages),-1.0,Not applicable
+1194966,SABRE,Covidwave1,cw1_outdoors_1,Whether home has a garden,-8.0,No information
+1194967,SABRE,Covidwave1,cw1_outdoors_1,Whether home has a garden,-7.0,No  questionnaire
+1194968,SABRE,Covidwave1,cw1_outdoors_1,Whether home has a garden,-1.0,Not applicable
+1194969,SABRE,Covidwave1,cw1_outdoors_1,Whether home has a garden,1.0,Yes
+1194970,SABRE,Covidwave1,cw1_outdoors_1,Whether home has a garden,2.0,No
+1194971,SABRE,Covidwave1,cw1_outdoors_2,Whether home has a patio or yard,-8.0,No information
+1194972,SABRE,Covidwave1,cw1_outdoors_2,Whether home has a patio or yard,-7.0,No  questionnaire
+1194973,SABRE,Covidwave1,cw1_outdoors_2,Whether home has a patio or yard,-1.0,Not applicable
+1194974,SABRE,Covidwave1,cw1_outdoors_2,Whether home has a patio or yard,1.0,Yes
+1194975,SABRE,Covidwave1,cw1_outdoors_2,Whether home has a patio or yard,2.0,No
+1194976,SABRE,Covidwave1,cw1_outdoors_3,Whether home has a roof terrace or large balcony,-8.0,No information
+1194977,SABRE,Covidwave1,cw1_outdoors_3,Whether home has a roof terrace or large balcony,-7.0,No  questionnaire
+1194978,SABRE,Covidwave1,cw1_outdoors_3,Whether home has a roof terrace or large balcony,-1.0,Not applicable
+1194979,SABRE,Covidwave1,cw1_outdoors_3,Whether home has a roof terrace or large balcony,1.0,Yes
+1194980,SABRE,Covidwave1,cw1_outdoors_3,Whether home has a roof terrace or large balcony,2.0,No
+1194981,SABRE,Covidwave1,cw1_outdoors_4,Home has no outdoor spaces,-8.0,No information
+1194982,SABRE,Covidwave1,cw1_outdoors_4,Home has no outdoor spaces,-7.0,No  questionnaire
+1194983,SABRE,Covidwave1,cw1_outdoors_4,Home has no outdoor spaces,-1.0,Not applicable
+1194984,SABRE,Covidwave1,cw1_outdoors_4,Home has no outdoor spaces,1.0,Yes
+1194985,SABRE,Covidwave1,cw1_outdoors_4,Home has no outdoor spaces,2.0,No
+1194986,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,-8.0,No information
+1194987,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,-7.0,no NSHD questionnaire
+1194988,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,-1.0,Not applicable
+1194989,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,1.0,Living comfortably
+1194990,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,2.0,Doing all right
+1194991,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,3.0,Just about getting by
+1194992,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,4.0,Finding it quite difficult
+1194993,SABRE,Covidwave1,cw1_financialmanb,Pre-C19: How CM is managing financially,5.0,Finding it very difficult
+1194994,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,-8.0,No information
+1194995,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,-7.0,no NSHD questionnaire
+1194996,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,-1.0,Not applicable
+1194997,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,1.0,Iâ€™m much worse off
+1194998,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,2.0,Iâ€™m a little worse off
+1194999,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,3.0,Iâ€™m about the same
+1195000,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,4.0,Iâ€™m a little better off
+1195001,SABRE,Covidwave1,cw1_financialmand,Post-C19: How CM is managing financially compared to before outbreak,5.0,Iâ€™m much better off
+1195002,SABRE,Covidwave1,cw1_foodafford,Post-C19: Food affordability/availability in hh,-8.0,No information
+1195003,SABRE,Covidwave1,cw1_foodafford,Post-C19: Food affordability/availability in hh,-7.0,No NSHD questionnaire
+1195004,SABRE,Covidwave1,cw1_foodafford,Post-C19: Food affordability/availability in hh,-1.0,Not applicable
+1195005,SABRE,Covidwave1,cw1_foodafford,Post-C19: Food affordability/availability in hh,1.0,HH always had enough of food they want
+1195006,SABRE,Covidwave1,cw1_foodafford,Post-C19: Food affordability/availability in hh,2.0,"HH always had enough, not always what they want"
+1195007,SABRE,Covidwave1,cw1_foodafford,Post-C19: Food affordability/availability in hh,3.0,HH sometimes did not have enough food
+1195008,SABRE,Covidwave1,cw1_foodafford,Post-C19: Food affordability/availability in hh,4.0,HH often did not have enough food
+1195009,SABRE,Covidwave1,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,-8.0,No information
+1195010,SABRE,Covidwave1,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,-7.0,no NSHD questionnaire
+1195011,SABRE,Covidwave1,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,-1.0,Not applicable
+1195012,SABRE,Covidwave1,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,1.0,Never
+1195013,SABRE,Covidwave1,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,2.0,Less than four times
+1195014,SABRE,Covidwave1,cw1_foodbank,Post-C19: How often hh used food bank last 4 weeks,3.0,Four times or more
+1195015,SABRE,Covidwave1,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,-8.0,No information
+1195016,SABRE,Covidwave1,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,-7.0,No questionnaire
+1195017,SABRE,Covidwave1,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,-1.0,Not applicable
+1195018,SABRE,Covidwave1,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,1.0,Yes
+1195019,SABRE,Covidwave1,cw1_benefitb_2,Pre-C19: Benefit claims 3 months prior- Universal credit,2.0,No
+1195020,SABRE,Covidwave1,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,-8.0,No information
+1195021,SABRE,Covidwave1,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,-7.0,No  questionnaire
+1195022,SABRE,Covidwave1,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,-1.0,Not applicable
+1195023,SABRE,Covidwave1,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,1.0,Yes
+1195024,SABRE,Covidwave1,cw1_benefitb_3,Pre-C19: Benefit claims 3 months prior- Pension credit,2.0,No
+1195025,SABRE,Covidwave1,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,-8.0,No information
+1195026,SABRE,Covidwave1,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,-7.0,No  questionnaire
+1195027,SABRE,Covidwave1,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,-1.0,Not applicable
+1195028,SABRE,Covidwave1,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,1.0,Yes
+1195029,SABRE,Covidwave1,cw1_benefitb_4,Pre-C19: Benefit claims 3 months prior- Income support/Job Seekerâ€™s Allowance,2.0,No
+1195030,SABRE,Covidwave1,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,-8.0,No information
+1195031,SABRE,Covidwave1,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,-7.0,No  questionnaire
+1195032,SABRE,Covidwave1,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,-1.0,Not applicable
+1195033,SABRE,Covidwave1,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,1.0,Yes
+1195034,SABRE,Covidwave1,cw1_benefitb_5,Pre-C19: Benefit claims 3 months prior- Working Tax Credit or Child Tax credit,2.0,No
+1195035,SABRE,Covidwave1,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,-8.0,No information
+1195036,SABRE,Covidwave1,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,-7.0,No  questionnaire
+1195037,SABRE,Covidwave1,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,-1.0,Not applicable
+1195038,SABRE,Covidwave1,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,1.0,Yes
+1195039,SABRE,Covidwave1,cw1_benefitb_6,Pre-C19: Benefit claims 3 months prior- Employment and Support Allowance,2.0,No
+1195040,SABRE,Covidwave1,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,-8.0,No information
+1195041,SABRE,Covidwave1,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,-7.0,No  questionnaire
+1195042,SABRE,Covidwave1,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,-1.0,Not applicable
+1195043,SABRE,Covidwave1,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,1.0,Yes
+1195044,SABRE,Covidwave1,cw1_benefitb_8,Pre-C19: Benefit claims 3 months prior- Statutory sick pay,2.0,No
+1195045,SABRE,Covidwave1,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,-8.0,No information
+1195046,SABRE,Covidwave1,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,-7.0,No  questionnaire
+1195047,SABRE,Covidwave1,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,-1.0,Not applicable
+1195048,SABRE,Covidwave1,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,1.0,Yes
+1195049,SABRE,Covidwave1,cw1_benefitb_14,Pre-C19: Benefit claims 3 months prior- Housing benefit,2.0,No
+1195050,SABRE,Covidwave1,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,-8.0,No information
+1195051,SABRE,Covidwave1,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,-7.0,No  questionnaire
+1195052,SABRE,Covidwave1,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,-1.0,Not applicable
+1195053,SABRE,Covidwave1,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,1.0,Yes
+1195054,SABRE,Covidwave1,cw1_benefitb_9,Pre-C19: Benefit claims 3 months prior- Council tax support or reduction,2.0,No
+1195055,SABRE,Covidwave1,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,-8.0,No information
+1195056,SABRE,Covidwave1,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,-7.0,No  questionnaire
+1195057,SABRE,Covidwave1,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,-1.0,Not applicable
+1195058,SABRE,Covidwave1,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,1.0,Yes
+1195059,SABRE,Covidwave1,cw1_benefitb_11,Benefit claims - prior outbreak Pension credit,2.0,No
+1195060,SABRE,Covidwave1,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,-8.0,No information
+1195061,SABRE,Covidwave1,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,-7.0,No  questionnaire
+1195062,SABRE,Covidwave1,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,-1.0,Not applicable
+1195063,SABRE,Covidwave1,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,1.0,Yes
+1195064,SABRE,Covidwave1,cw1_benefitb_12,Pre-C19: Benefit claims 3 months prior- Carers/PIP/Disability Living Allowance,2.0,No
+1195065,SABRE,Covidwave1,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,-8.0,No information
+1195066,SABRE,Covidwave1,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,-7.0,No  questionnaire
+1195067,SABRE,Covidwave1,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,-1.0,Not applicable
+1195068,SABRE,Covidwave1,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,1.0,"No, none of these"
+1195069,SABRE,Covidwave1,cw1_benefitb_13,Pre-C19: Whether CM had benefit claims 3 months prior,2.0,No
+1195070,SABRE,Covidwave1,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,-8.0,No information
+1195071,SABRE,Covidwave1,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,-7.0,No  questionnaire
+1195072,SABRE,Covidwave1,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,-1.0,Not applicable
+1195073,SABRE,Covidwave1,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,1.0,Yes
+1195074,SABRE,Covidwave1,cw1_benefitd_2,Post-C19: New benefit claims- Universal credit,2.0,No
+1195075,SABRE,Covidwave1,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,-8.0,No information
+1195076,SABRE,Covidwave1,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,-7.0,No  questionnaire
+1195077,SABRE,Covidwave1,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,-1.0,Not applicable
+1195078,SABRE,Covidwave1,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,1.0,Yes
+1195079,SABRE,Covidwave1,cw1_benefitd_4,Post-C19: New benefit claims- Employment and Support Allowance,2.0,No
+1195080,SABRE,Covidwave1,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,-8.0,No information
+1195081,SABRE,Covidwave1,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,-7.0,No  questionnaire
+1195082,SABRE,Covidwave1,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,-1.0,Not applicable
+1195083,SABRE,Covidwave1,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,1.0,Yes
+1195084,SABRE,Covidwave1,cw1_benefitd_5,Post-C19: New benefit claims- Statutory sick pay,2.0,No
+1195085,SABRE,Covidwave1,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,-8.0,No information
+1195086,SABRE,Covidwave1,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,-7.0,No  questionnaire
+1195087,SABRE,Covidwave1,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,-1.0,Not applicable
+1195088,SABRE,Covidwave1,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,1.0,Yes
+1195089,SABRE,Covidwave1,cw1_benefitd_6,Post-C19: New benefit claims- Council tax support or reduction,2.0,No
+1195090,SABRE,Covidwave1,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,-8.0,No information
+1195091,SABRE,Covidwave1,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,-7.0,No  questionnaire
+1195092,SABRE,Covidwave1,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,-1.0,Not applicable
+1195093,SABRE,Covidwave1,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,1.0,Yes
+1195094,SABRE,Covidwave1,cw1_benefitd_9,Post-C19: New benefit claims- Carers/PIP/Disability Living Allowance,2.0,No
+1195095,SABRE,Covidwave1,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,-8.0,No information
+1195096,SABRE,Covidwave1,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,-7.0,No  questionnaire
+1195097,SABRE,Covidwave1,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,-1.0,Not applicable
+1195098,SABRE,Covidwave1,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,1.0,Yes
+1195099,SABRE,Covidwave1,cw1_benefitd_7,Post-C19: New benefit claims- New gov financial support for self-emp people,2.0,No
+1195100,SABRE,Covidwave1,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,2.0,No
+1195101,SABRE,Covidwave1,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,-8.0,No information
+1195102,SABRE,Covidwave1,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,-7.0,No  questionnaire
+1195103,SABRE,Covidwave1,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,-1.0,Not applicable
+1195104,SABRE,Covidwave1,cw1_benefitd_8,Post-C19: Whether CM had new benefit claims since outbreak,1.0,"No, none of these"
+1195105,SABRE,Covidwave1,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,-8.0,No information
+1195106,SABRE,Covidwave1,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,-7.0,No questionnaire
+1195107,SABRE,Covidwave1,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,-1.0,Not applicable
+1195108,SABRE,Covidwave1,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,1.0,Yes
+1195109,SABRE,Covidwave1,cw1_benefitoth_1,Post-C19: Other benefits used- Mortgage or rent payment holidays,2.0,No
+1195110,SABRE,Covidwave1,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,-8.0,No information
+1195111,SABRE,Covidwave1,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,-7.0,No questionnaire
+1195112,SABRE,Covidwave1,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,-1.0,Not applicable
+1195113,SABRE,Covidwave1,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,1.0,Yes
+1195114,SABRE,Covidwave1,cw1_benefitoth_5,Post-C19: Other benefits used- Council tax payment holiday,2.0,No
+1195115,SABRE,Covidwave1,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,-8.0,No information
+1195116,SABRE,Covidwave1,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,-7.0,No questionnaire
+1195117,SABRE,Covidwave1,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,-1.0,Not applicable
+1195118,SABRE,Covidwave1,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,1.0,Yes
+1195119,SABRE,Covidwave1,cw1_benefitoth_2,Post-C19: Other benefits used- Other debt/interest payment holidays,2.0,No
+1195120,SABRE,Covidwave1,cw1_benefitoth_4,Post-C19: Whether other benefits used,2.0,No
+1195121,SABRE,Covidwave1,cw1_benefitoth_4,Post-C19: Whether other benefits used,-8.0,No information
+1195122,SABRE,Covidwave1,cw1_benefitoth_4,Post-C19: Whether other benefits used,-7.0,No questionnaire
+1195123,SABRE,Covidwave1,cw1_benefitoth_4,Post-C19: Whether other benefits used,-1.0,Not applicable
+1195124,SABRE,Covidwave1,cw1_benefitoth_4,Post-C19: Whether other benefits used,1.0,"No, none of these"
+1195125,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,-8.0,No information
+1195126,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,-7.0,no questionnaire
+1195127,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,-1.0,Not applicable
+1195128,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,1.0,Employed
+1195129,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,2.0,Self-employed
+1195130,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,3.0,In unpaid/ voluntary work
+1195131,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,4.0,Apprenticeship
+1195132,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,5.0,Unemployed
+1195133,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,6.0,Permanently sick or disabled
+1195134,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,7.0,Looking after home or family
+1195135,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,8.0,In education at school/college/university
+1195136,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,9.0,Retired
+1195137,SABRE,Covidwave1,cw1_econactivityb,Pre-C19: Economic activity,10.0,Doing something else
+1195138,SABRE,Covidwave1,cw1_wrkhoursb,Pre-C19: Usual weekly working hours including overtime,-8.0,No information
+1195139,SABRE,Covidwave1,cw1_wrkhoursb,Pre-C19: Usual weekly working hours including overtime,-7.0,no questionnaire
+1195140,SABRE,Covidwave1,cw1_wrkhoursb,Pre-C19: Usual weekly working hours including overtime,-1.0,Not applicable
+1195141,SABRE,Covidwave1,cw1_jtitleb,Pre-C19: What was your job title,,
+1195142,SABRE,Covidwave1,cw1_jdob,Pre-C19: What was your Job description,,
+1195143,SABRE,Covidwave1,cw1_jmakeb,Pre-C19: What did your ogranisation make or do,,
+1195144,SABRE,Covidwave1,cw1_zerohb,Pre-C19: Whether has zero hours contract,-8.0,No information
+1195145,SABRE,Covidwave1,cw1_zerohb,Pre-C19: Whether has zero hours contract,-7.0,no  questionnaire
+1195146,SABRE,Covidwave1,cw1_zerohb,Pre-C19: Whether has zero hours contract,-1.0,Not applicable
+1195147,SABRE,Covidwave1,cw1_zerohb,Pre-C19: Whether has zero hours contract,1.0,Yes
+1195148,SABRE,Covidwave1,cw1_zerohb,Pre-C19: Whether has zero hours contract,2.0,No
+1195149,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,-8.0,No information
+1195150,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,-7.0,no questionnaire
+1195151,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,-1.0,Not applicable
+1195152,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,1.0,Employed and currently working
+1195153,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,2.0,Employed but on paid leave (including furlough)
+1195154,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,3.0,Employed and on unpaid leave
+1195155,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,4.0,Apprenticeship
+1195156,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,5.0,In unpaid/voluntary work
+1195157,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,6.0,Self-employed and currently working
+1195158,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,7.0,Self-employed but not currently working
+1195159,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,8.0,Unemployed
+1195160,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,9.0,Permanently sick or disabled
+1195161,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,10.0,Looking after home or family
+1195162,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,11.0,In education at school/college/university
+1195163,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,12.0,Retired
+1195164,SABRE,Covidwave1,cw1_econactivityd,Post-C19: Economic activity,13.0,Doing something else
+1195165,SABRE,Covidwave1,cw1_wrkhoursd,Post-C19: Usual weekly working hours,-8.0,No information
+1195166,SABRE,Covidwave1,cw1_wrkhoursd,Post-C19: Usual weekly working hours,-7.0,no questionnaire
+1195167,SABRE,Covidwave1,cw1_wrkhoursd,Post-C19: Usual weekly working hours,-1.0,Not applicable
+1195168,SABRE,Covidwave1,cw1_wrklocationd,Post-C19: Work location,-8.0,No information
+1195169,SABRE,Covidwave1,cw1_wrklocationd,Post-C19: Work location,-7.0,no  questionnaire
+1195170,SABRE,Covidwave1,cw1_wrklocationd,Post-C19: Work location,-1.0,Not applicable
+1195171,SABRE,Covidwave1,cw1_wrklocationd,Post-C19: Work location,1.0,Work from your own home
+1195172,SABRE,Covidwave1,cw1_wrklocationd,Post-C19: Work location,2.0,Work at employer's premises
+1195173,SABRE,Covidwave1,cw1_wrklocationd,Post-C19: Work location,3.0,Other
+1195174,SABRE,Covidwave1,cw1_keyworkerd,Post-C19: Whether a key worker,-8.0,No information
+1195175,SABRE,Covidwave1,cw1_keyworkerd,Post-C19: Whether a key worker,-7.0,no questionnaire
+1195176,SABRE,Covidwave1,cw1_keyworkerd,Post-C19: Whether a key worker,-1.0,Not applicable
+1195177,SABRE,Covidwave1,cw1_keyworkerd,Post-C19: Whether a key worker,1.0,Yes
+1195178,SABRE,Covidwave1,cw1_keyworkerd,Post-C19: Whether a key worker,2.0,No
+1195179,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,-8.0,No information
+1195180,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,-7.0,no questionnaire
+1195181,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,-1.0,Not applicable
+1195182,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,0.0,"Not applicable, no partner"
+1195183,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,1.0,Employed
+1195184,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,2.0,Self-employed
+1195185,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,3.0,In unpaid/ voluntary work
+1195186,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,4.0,Apprenticeship
+1195187,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,5.0,Unemployed
+1195188,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,6.0,Permanently sick or disabled
+1195189,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,7.0,Looking after home or family
+1195190,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,8.0,In education at school/college/university
+1195191,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,9.0,Retired
+1195192,SABRE,Covidwave1,cw1_peconactivityb,Pre-C19: Partner's economic activity,10.0,Doing something else
+1195193,SABRE,Covidwave1,cw1_pwrkhoursb,Pre-C19: Partner's usual weekly working hours including overtime,-8.0,No information
+1195194,SABRE,Covidwave1,cw1_pwrkhoursb,Pre-C19: Partner's usual weekly working hours including overtime,-7.0,no questionnaire
+1195195,SABRE,Covidwave1,cw1_pwrkhoursb,Pre-C19: Partner's usual weekly working hours including overtime,-1.0,Not applicable
+1195196,SABRE,Covidwave1,cw1_pjtitleb,Pre-C19: What was your partners job title,,
+1195197,SABRE,Covidwave1,cw1_pjobd,Pre-C19: What was your partners Job description,,
+1195198,SABRE,Covidwave1,cw1_pjmakeb,Pre-C19: What did your partners organisation make or do,,
+1195199,SABRE,Covidwave1,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,-8.0,No information
+1195200,SABRE,Covidwave1,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,-7.0,no  questionnaire
+1195201,SABRE,Covidwave1,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,-1.0,Not applicable
+1195202,SABRE,Covidwave1,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,1.0,Yes
+1195203,SABRE,Covidwave1,cw1_pzerohb,Pre-C19: Whether partner has a zero hours contract,2.0,No
+1195204,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,-8.0,No information
+1195205,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,-7.0,no questionnaire
+1195206,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,-1.0,Not applicable
+1195207,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,1.0,Employed and currently working
+1195208,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,2.0,Employed but on paid leave (including furlough)
+1195209,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,3.0,Employed and on unpaid leave
+1195210,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,4.0,Apprenticeship
+1195211,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,5.0,In unpaid/voluntary work
+1195212,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,6.0,Self-employed and currently working
+1195213,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,7.0,Self-employed but not currently working
+1195214,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,8.0,Unemployed
+1195215,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,9.0,Permanently sick or disabled
+1195216,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,10.0,Looking after home or family
+1195217,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,11.0,In education at school/college/university
+1195218,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,12.0,Retired
+1195219,SABRE,Covidwave1,cw1_peconactivityd,Post-C19: Partner's economic activity,13.0,Doing something else
+1195220,SABRE,Covidwave1,cw1_pwrkhoursd,Post-C19: Partner's usual weekly working hours including overtime,-8.0,No information
+1195221,SABRE,Covidwave1,cw1_pwrkhoursd,Post-C19: Partner's usual weekly working hours including overtime,-1.0,Not applicable
+1195222,SABRE,Covidwave1,cw1_pwrkhoursd,Post-C19: Partner's usual weekly working hours including overtime,-7.0,no questionnaire
+1195223,SABRE,Covidwave1,cw1_pkeyworker,Post-C19: Whether partner is a key worker,-8.0,No information
+1195224,SABRE,Covidwave1,cw1_pkeyworker,Post-C19: Whether partner is a key worker,-7.0,no  questionnaire
+1195225,SABRE,Covidwave1,cw1_pkeyworker,Post-C19: Whether partner is a key worker,-1.0,Not applicable
+1195226,SABRE,Covidwave1,cw1_pkeyworker,Post-C19: Whether partner is a key worker,1.0,Yes
+1195227,SABRE,Covidwave1,cw1_pkeyworker,Post-C19: Whether partner is a key worker,2.0,No
+1195228,SABRE,Covidwave1,cw1_smoking,Smoking behaviour,-8.0,No information
+1195229,SABRE,Covidwave1,cw1_smoking,Smoking behaviour,-7.0,No  questionnaire
+1195230,SABRE,Covidwave1,cw1_smoking,Smoking behaviour,-1.0,Not applicable
+1195231,SABRE,Covidwave1,cw1_smoking,Smoking behaviour,1.0,Never smoked
+1195232,SABRE,Covidwave1,cw1_smoking,Smoking behaviour,2.0,Used to smoke but not at all now
+1195233,SABRE,Covidwave1,cw1_smoking,Smoking behaviour,3.0,Occasionally smokes but not daily
+1195234,SABRE,Covidwave1,cw1_smoking,Smoking behaviour,4.0,Smokes cigarettes every day
+1195235,SABRE,Covidwave1,cw1_numcigspp,Pre-C19: Number of cigs smoked a day the month prior,-8.0,No information
+1195236,SABRE,Covidwave1,cw1_numcigspp,Pre-C19: Number of cigs smoked a day the month prior,-7.0,no questionnaire
+1195237,SABRE,Covidwave1,cw1_numcigspp,Pre-C19: Number of cigs smoked a day the month prior,-1.0,Not applicable
+1195238,SABRE,Covidwave1,cw1_numcigssp,Post-C19: Number of cigs smoked a day,-8.0,No information
+1195239,SABRE,Covidwave1,cw1_numcigssp,Post-C19: Number of cigs smoked a day,-7.0,no  questionnaire
+1195240,SABRE,Covidwave1,cw1_numcigssp,Post-C19: Number of cigs smoked a day,-1.0,Not applicable
+1195241,SABRE,Covidwave1,cw1_vape,Vaping behaviour,-8.0,No information
+1195242,SABRE,Covidwave1,cw1_vape,Vaping behaviour,-7.0,No  questionnaire
+1195243,SABRE,Covidwave1,cw1_vape,Vaping behaviour,-1.0,Not applicable
+1195244,SABRE,Covidwave1,cw1_vape,Vaping behaviour,1.0,Never used e-cig or vaping device
+1195245,SABRE,Covidwave1,cw1_vape,Vaping behaviour,2.0,Used to use vaping device but not at all now
+1195246,SABRE,Covidwave1,cw1_vape,Vaping behaviour,3.0,Occasionally use vaping device but not daily
+1195247,SABRE,Covidwave1,cw1_vape,Vaping behaviour,4.0,Uses e-cig or vaping device every day
+1195248,SABRE,Covidwave1,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,-8.0,No information
+1195249,SABRE,Covidwave1,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,-7.0,No  questionnaire
+1195250,SABRE,Covidwave1,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,-1.0,Not applicable
+1195251,SABRE,Covidwave1,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,1.0,More frequent use of e-cig/vaping device
+1195252,SABRE,Covidwave1,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,2.0,Less frequent use of e-cig/vaping device
+1195253,SABRE,Covidwave1,cw1_vapesp,Post-C19: Vaping behaviour change since coronavirus outbreak,3.0,No change
+1195254,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,-8.0,No information
+1195255,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,-7.0,no  questionnaire
+1195256,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,-1.0,Not applicable
+1195257,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,1.0,4 or more times a week
+1195258,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,2.0,2-3 times a week
+1195259,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,3.0,2-4 times per month
+1195260,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,4.0,Monthly or less
+1195261,SABRE,Covidwave1,cw1_aldrpp,Pre-C19: How often drank alcohol,5.0,Never
+1195262,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,-8.0,No information
+1195263,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,-7.0,no  questionnaire
+1195264,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,-1.0,Not applicable
+1195265,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,1.0,1-2
+1195266,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,2.0,3-4
+1195267,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,3.0,5-6
+1195268,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,4.0,7-9
+1195269,SABRE,Covidwave1,cw1_aundpp,Pre-C19: Number of drinks a day the month prior,5.0,10+
+1195270,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,-8.0,No information
+1195271,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,-7.0,no NSHD questionnaire
+1195272,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,-1.0,Not applicable
+1195273,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,1.0,4 or more times a week
+1195274,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,2.0,2-3 times a week
+1195275,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,3.0,2-4 times per month
+1195276,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,4.0,Monthly or less
+1195277,SABRE,Covidwave1,cw1_aldrsp,Post-C19: How often drinks alcohol,5.0,Never
+1195278,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,-8.0,No information
+1195279,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,-7.0,no  questionnaire
+1195280,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,-1.0,Not applicable
+1195281,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,1.0,1-2
+1195282,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,2.0,3-4
+1195283,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,3.0,5-6
+1195284,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,4.0,7-9
+1195285,SABRE,Covidwave1,cw1_aundsp,Post-C19: Number of drinks a day,5.0,10+
+1195286,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,-8.0,No information
+1195287,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,-7.0,no  questionnaire
+1195288,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,-1.0,Not applicable
+1195289,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,1.0,Never
+1195290,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,2.0,Less than monthly
+1195291,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,3.0,Monthly
+1195292,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,4.0,Weekly
+1195293,SABRE,Covidwave1,cw1_ausdsp,Post-C19: No. of times unable to stop drinking,5.0,Daily or almost daily
+1195294,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,-8.0,No information
+1195295,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,-7.0,no questionnaire
+1195296,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,-1.0,Not applicable
+1195297,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,1.0,Never
+1195298,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,2.0,Less than monthly
+1195299,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,3.0,Monthly
+1195300,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,4.0,Weekly
+1195301,SABRE,Covidwave1,cw1_auacsp,Post-C19: How often not done what expected because of drinking,5.0,Daily or almost daily
+1195302,SABRE,Covidwave1,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,-8.0,No information
+1195303,SABRE,Covidwave1,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,-7.0,no questionnaire
+1195304,SABRE,Covidwave1,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,-1.0,Not applicable
+1195305,SABRE,Covidwave1,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,1.0,Yes
+1195306,SABRE,Covidwave1,cw1_aucdsp,Post-C19: Whether others been concerned about drinking,2.0,No
+1195307,SABRE,Covidwave1,cw1_excisepp,Pre-C19: No. of days did 30 mins exercise in month prior,-8.0,No information
+1195308,SABRE,Covidwave1,cw1_excisepp,Pre-C19: No. of days did 30 mins exercise in month prior,-7.0,no questionnaire
+1195309,SABRE,Covidwave1,cw1_excisepp,Pre-C19: No. of days did 30 mins exercise in month prior,-1.0,Not applicable
+1195310,SABRE,Covidwave1,cw1_excisesp,Post-C19: No. of days did 30 mins exercise,-8.0,No information
+1195311,SABRE,Covidwave1,cw1_excisesp,Post-C19: No. of days did 30 mins exercise,-7.0,no questionnaire
+1195312,SABRE,Covidwave1,cw1_excisesp,Post-C19: No. of days did 30 mins exercise,-1.0,Not applicable
+1195313,SABRE,Covidwave1,cw1_frtvegpp,Pre-C19: No of portions of fresh fruit & veg a day in month prior,,
+1195314,SABRE,Covidwave1,cw1_frtvegsp,Post-C19: No of portions of fresh fruit & veg a day,,
+1195315,SABRE,Covidwave1,cw1_hsleeppp,Pre-C19: No. hours slept a night in month prior,-8.0,No information
+1195316,SABRE,Covidwave1,cw1_hsleeppp,Pre-C19: No. hours slept a night in month prior,-7.0,no questionnaire
+1195317,SABRE,Covidwave1,cw1_hsleeppp,Pre-C19: No. hours slept a night in month prior,-1.0,Not applicable
+1195318,SABRE,Covidwave1,cw1_hsleepsp,Post-C19: No. hours slept a night,-8.0,No information
+1195319,SABRE,Covidwave1,cw1_hsleepsp,Post-C19: No. hours slept a night,-7.0,no  questionnaire
+1195320,SABRE,Covidwave1,cw1_hsleepsp,Post-C19: No. hours slept a night,-1.0,Not applicable
+1195321,SABRE,Covidwave1,cw1_wghtkg,Weight in kilograms,-8.0,No information
+1195322,SABRE,Covidwave1,cw1_wghtkg,Weight in kilograms,-7.0,no  questionnaire
+1195323,SABRE,Covidwave1,cw1_wghtkg,Weight in kilograms,-1.0,Not applicable
+1195324,SABRE,Covidwave1,cw1_wghtstp_4,Weight in stones and pounds - Stone,-8.0,No information
+1195325,SABRE,Covidwave1,cw1_wghtstp_4,Weight in stones and pounds - Stone,-7.0,no questionnaire
+1195326,SABRE,Covidwave1,cw1_wghtstp_4,Weight in stones and pounds - Stone,-1.0,Not applicable
+1195327,SABRE,Covidwave1,cw1_wghtstp_5,Weight in stones and pounds - Pounds,-8.0,No information
+1195328,SABRE,Covidwave1,cw1_wghtstp_5,Weight in stones and pounds - Pounds,-7.0,no  questionnaire
+1195329,SABRE,Covidwave1,cw1_wghtstp_5,Weight in stones and pounds - Pounds,-1.0,Not applicable
+1195330,SABRE,Covidwave1,cw1_wghtstp_6,I do not want to report my weight,-8.0,No Information
+1195331,SABRE,Covidwave1,cw1_wghtstp_6,I do not want to report my weight,-7.0,No questionnaire
+1195332,SABRE,Covidwave1,cw1_wghtstp_6,I do not want to report my weight,-1.0,Not applicable
+1195333,SABRE,Covidwave1,cw1_wghtstp_6,I do not want to report my weight,1.0,Yes
+1195334,SABRE,Covidwave1,cw1_wghtstp_6,I do not want to report my weight,2.0,No
+1195335,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,-8.0,No information
+1195336,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,-7.0,no  questionnaire
+1195337,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,-1.0,Not applicable
+1195338,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,1.0,Every day
+1195339,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,2.0,4-6 days
+1195340,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,3.0,2-3 days
+1195341,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,4.0,1 day
+1195342,SABRE,Covidwave1,cw1_scon1,Post-C19: Past 7 days no. of days met people outside hh,5.0,Never
+1195343,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,-8.0,No information
+1195344,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,-7.0,no  questionnaire
+1195345,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,-1.0,Not applicable
+1195346,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,1.0,Every day
+1195347,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,2.0,4-6 days
+1195348,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,3.0,2-3 days
+1195349,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,4.0,1 day
+1195350,SABRE,Covidwave1,cw1_scon2,Post-C19: Past 7 days no. of days talked to family/friend via phone/video calls,5.0,Never
+1195351,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,-8.0,No information
+1195352,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,-7.0,no  questionnaire
+1195353,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,-1.0,Not applicable
+1195354,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,1.0,Every day
+1195355,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,2.0,4-6 days
+1195356,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,3.0,2-3 days
+1195357,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,4.0,1 day
+1195358,SABRE,Covidwave1,cw1_scon3,Post-C19: Past 7 days no. of days contact family/friend by electronic msg,5.0,Never
+1195359,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,-8.0,No information
+1195360,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,-7.0,no  questionnaire
+1195361,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,-1.0,Not applicable
+1195362,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,1.0,Every day
+1195363,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,2.0,4-6 days
+1195364,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,3.0,2-3 days
+1195365,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,4.0,1 day
+1195366,SABRE,Covidwave1,cw1_scon4,Post-C19: Past 7 days no. of days took part in an online community activity,5.0,Never
+1195367,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,-8.0,No information
+1195368,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,-7.0,no  questionnaire
+1195369,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,-1.0,Not applicable
+1195370,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,1.0,Every day
+1195371,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,2.0,4-6 days
+1195372,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,3.0,2-3 days
+1195373,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,4.0,1 day
+1195374,SABRE,Covidwave1,cw1_scon5,Post-C19: Past 7 days no. of days helped people outside household,5.0,Never
+1195375,SABRE,Covidwave1,cw1_gds1,Geriatric depression scale item 1,0.0,Yes
+1195376,SABRE,Covidwave1,cw1_gds1,Geriatric depression scale item 1,1.0,No
+1195377,SABRE,Covidwave1,cw1_gds2,Geriatric depression scale item 2,1.0,Yes
+1195378,SABRE,Covidwave1,cw1_gds2,Geriatric depression scale item 2,0.0,No
+1195379,SABRE,Covidwave1,cw1_gds3,Geriatric depression scale item 3,1.0,Yes
+1195380,SABRE,Covidwave1,cw1_gds3,Geriatric depression scale item 3,0.0,No
+1195381,SABRE,Covidwave1,cw1_gds4,Geriatric depression scale item 4,1.0,Yes
+1195382,SABRE,Covidwave1,cw1_gds4,Geriatric depression scale item 4,0.0,No
+1195383,SABRE,Covidwave1,cw1_gds5,Geriatric depression scale item 5,1.0,No
+1195384,SABRE,Covidwave1,cw1_gds5,Geriatric depression scale item 5,0.0,Yes
+1195385,SABRE,Covidwave1,cw1_gds6,Geriatric depression scale item 6,1.0,Yes
+1195386,SABRE,Covidwave1,cw1_gds6,Geriatric depression scale item 6,0.0,No
+1195387,SABRE,Covidwave1,cw1_gds7,Geriatric depression scale item 7,1.0,Yes
+1195388,SABRE,Covidwave1,cw1_gds7,Geriatric depression scale item 7,0.0,No
+1195389,SABRE,Covidwave1,cw1_gds8,Geriatric depression scale item 8,1.0,No
+1195390,SABRE,Covidwave1,cw1_gds8,Geriatric depression scale item 8,0.0,Yes
+1195391,SABRE,Covidwave1,cw1_gds9,Geriatric depression scale item 10,1.0,Yes
+1195392,SABRE,Covidwave1,cw1_gds9,Geriatric depression scale item 10,0.0,No
+1195393,SABRE,Covidwave1,cw1_gds10,GDS10,1.0,Yes
+1195394,SABRE,Covidwave1,cw1_gds10,GDS10,0.0,No
+1195395,SABRE,Covidwave1,cw1_gds_total,Total geriatric depression 10 item scale score; max=10; min=0,,
+1195396,SABRE,Covidwave1,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous; anxious or on edge,-8.0,No information
+1195397,SABRE,Covidwave1,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous; anxious or on edge,-7.0,no questionnaire
+1195398,SABRE,Covidwave1,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous; anxious or on edge,-1.0,Not applicable
+1195399,SABRE,Covidwave1,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous; anxious or on edge,1.0,Not at all
+1195400,SABRE,Covidwave1,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous; anxious or on edge,2.0,Several days
+1195401,SABRE,Covidwave1,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous; anxious or on edge,3.0,More than half the days
+1195402,SABRE,Covidwave1,cw1_gad2phq2_1,Post-C19: GAD2- Past 2 weeks feeling nervous; anxious or on edge,4.0,Nearly every day
+1195403,SABRE,Covidwave1,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,-8.0,No information
+1195404,SABRE,Covidwave1,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,-7.0,no  questionnaire
+1195405,SABRE,Covidwave1,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,-1.0,Not applicable
+1195406,SABRE,Covidwave1,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,1.0,Not at all
+1195407,SABRE,Covidwave1,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,2.0,Several days
+1195408,SABRE,Covidwave1,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,3.0,More than half the days
+1195409,SABRE,Covidwave1,cw1_gad2phq2_2,Post-C19: GAD2- Past 2 weeks not being able to stop or control worrying,4.0,Nearly every day
+1195410,SABRE,Covidwave1,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,-8.0,No information
+1195411,SABRE,Covidwave1,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,-7.0,no  questionnaire
+1195412,SABRE,Covidwave1,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,-1.0,Not applicable
+1195413,SABRE,Covidwave1,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,1.0,Not at all
+1195414,SABRE,Covidwave1,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,2.0,Several days
+1195415,SABRE,Covidwave1,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,3.0,More than half the days
+1195416,SABRE,Covidwave1,cw1_gad2phq2_3,Post-C19: PHQ2- Past 2 weeks little interest or pleasure in doing things,4.0,Nearly every day
+1195417,SABRE,Covidwave1,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down; depressed or hopeless,-8.0,No information
+1195418,SABRE,Covidwave1,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down; depressed or hopeless,-7.0,no  questionnaire
+1195419,SABRE,Covidwave1,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down; depressed or hopeless,-1.0,Not applicable
+1195420,SABRE,Covidwave1,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down; depressed or hopeless,1.0,Not at all
+1195421,SABRE,Covidwave1,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down; depressed or hopeless,2.0,Several days
+1195422,SABRE,Covidwave1,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down; depressed or hopeless,3.0,More than half the days
+1195423,SABRE,Covidwave1,cw1_gad2phq2_4,Post-C19: PHQ2- Past 2 weeks feeling down; depressed or hopeless,4.0,Nearly every day
+1195424,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),-8.0,No information
+1195425,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),-7.0,no questionnaire
+1195426,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),-1.0,Not applicable
+1195427,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),0.0,Never (0)
+1195428,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),1.0,1
+1195429,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),2.0,2
+1195430,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),3.0,3
+1195431,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),4.0,4
+1195432,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),5.0,6
+1195433,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),7.0,7
+1195434,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),8.0,8
+1195435,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),9.0,9
+1195436,SABRE,Covidwave1,cw1_risk,Self-assessment willingness to take risks from 0 (Never) to 10 (Always),10.0,Always(10)
+1195437,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),-8.0,No information
+1195438,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),-7.0,no questionnaire
+1195439,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),-1.0,Not applicable
+1195440,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),0.0,Never (0)
+1195441,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),1.0,1
+1195442,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),2.0,2
+1195443,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),3.0,3
+1195444,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),4.0,4
+1195445,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),5.0,6
+1195446,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),7.0,7
+1195447,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),8.0,8
+1195448,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),9.0,9
+1195449,SABRE,Covidwave1,cw1_patient,Self-assessment how patient CM is from 0 (Never) to 10 (Always),10.0,Always(10)
+1195450,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),-8.0,No information
+1195451,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),-7.0,no questionnaire
+1195452,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),-1.0,Not applicable
+1195453,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),0.0,Not at all (0)
+1195454,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),1.0,1
+1195455,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),2.0,2
+1195456,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),3.0,3
+1195457,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),4.0,4
+1195458,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),5.0,6
+1195459,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),7.0,7
+1195460,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),8.0,8
+1195461,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),9.0,9
+1195462,SABRE,Covidwave1,cw1_trust,Self-assessment how trusting of others from 0 (Not at all) to 10 (Extremely),10.0,Extremely(10)
+1195463,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),-8.0,No information
+1195464,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),-7.0,no questionnaire
+1195465,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),-1.0,Not applicable
+1195466,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),0.0,Not at all (0)
+1195467,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),1.0,1
+1195468,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),2.0,2
+1195469,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),3.0,3
+1195470,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),4.0,4
+1195471,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),5.0,6
+1195472,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),7.0,7
+1195473,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),8.0,8
+1195474,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),9.0,9
+1195475,SABRE,Covidwave1,cw1_trustpolp,Self-assessment how trusting of Govmnt from 0 (Not at all) to 10 (Extremely),10.0,Extremely(10)
+1195476,SABRE,Covidwave1,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,-8.0,No information
+1195477,SABRE,Covidwave1,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,-7.0,no  questionnaire
+1195478,SABRE,Covidwave1,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,-1.0,Not applicable
+1195479,SABRE,Covidwave1,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,1.0,More than before
+1195480,SABRE,Covidwave1,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,2.0,Same - no change
+1195481,SABRE,Covidwave1,cw1_cvdchng_1,Post-C19: Change in amount of stress CM has been feeling,3.0,Less than before
+1195482,SABRE,Covidwave1,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,-8.0,No information
+1195483,SABRE,Covidwave1,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,-7.0,no questionnaire
+1195484,SABRE,Covidwave1,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,-1.0,Not applicable
+1195485,SABRE,Covidwave1,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,1.0,More than before
+1195486,SABRE,Covidwave1,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,2.0,Same - no change
+1195487,SABRE,Covidwave1,cw1_cvdchng_2,Post-C19: Change in amount of trust CM has in the Government,3.0,Less than before
+1195488,SABRE,Covidwave1,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,-8.0,No information
+1195489,SABRE,Covidwave1,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,-7.0,no questionnaire
+1195490,SABRE,Covidwave1,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,-1.0,Not applicable
+1195491,SABRE,Covidwave1,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,1.0,More than before
+1195492,SABRE,Covidwave1,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,2.0,Same - no change
+1195493,SABRE,Covidwave1,cw1_cvdchng_3,Post-C19: Change in amount of trust CM has in people in local area,3.0,Less than before
+1195494,SABRE,Covidwave1,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,-8.0,No information
+1195495,SABRE,Covidwave1,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,-7.0,no  questionnaire
+1195496,SABRE,Covidwave1,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,-1.0,Not applicable
+1195497,SABRE,Covidwave1,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,1.0,More than before
+1195498,SABRE,Covidwave1,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,2.0,Same - no change
+1195499,SABRE,Covidwave1,cw1_cvdchng_4,Post-C19: Change in amount of conflict CM had with people around them,3.0,Less than before
+1195500,SABRE,Covidwave1,cw1_timeuse1_1_1,Post-C19: Typical hours per day spent- Paid work,,
+1195501,SABRE,Covidwave1,cw1_timeuse1_2_1,Post-C19: Typical hours per day spent- Volunteering/unpaid work (not for househo,,
+1195502,SABRE,Covidwave1,cw1_timeuse1_3_1,Post-C19: Typical hours per day spent- Home schooling your children (if you have,,
+1195503,SABRE,Covidwave1,cw1_timeuse1_4_1,Post-C19: Typical hours per day spent- Other interactive activities with childre,,
+1195504,SABRE,Covidwave1,cw1_timeuse1_5_1,Post-C19: Typical hours per day spent- Caring for someone other than a child,,
+1195505,SABRE,Covidwave1,cw1_timeuse1_6_1,Post-C19: Typical hours per day spent- Housework,,
+1195506,SABRE,Covidwave1,cw1_timeuse1_7_1,Post-C19: Typical hours per day spent- Formal learning as part of a course,,
+1195507,SABRE,Covidwave1,cw1_timeuse1_8_1,Post-C19: Typical hours per day spent- Physical activity/exercise,,
+1195508,SABRE,Covidwave1,cw1_timeuse1_9_1,Post-C19: Typical hours per day spent- Other leisure activities and hobbies,,
+1195509,SABRE,Covidwave1,cw1_timeuse1_10_1,Post-C19: Typical hours per day spent- Socialising with non-hh members (phone et,,
+1195510,SABRE,Covidwave1,cw1_timeuse1_11_1,Post-C19: Typical hours per day spent- Socialising with non-hh members in person,,
+1195511,SABRE,Covidwave1,cw1_timeuse1_12_1,Post-C19: Typical hours per day spent- Travelling for work,,
+1195512,SABRE,Covidwave1,cw1_timeuse1_13_1,Post-C19: Typical hours per day spent- Shopping or essential appointments,,
+1195513,SABRE,Covidwave1,cw1_timeuse1_14_1,Post-C19: Typical hours per day spent- Personal care (e.g. shower/bath; grooming,,
+1195514,SABRE,Covidwave1,cw1_timeuse1_15_1,Post-C19: Typical hours per day spent- Ill in bed,,
+1195515,SABRE,Covidwave1,cw1_timeuse1_16_1,Post-C19: Typical hours per day spent- Other,,
+1195516,SABRE,Covidwave1,cw1_timeuse2,Post-C19: Typical hours per day spent outside (not including outdoor space at ho,-8.0,No information
+1195517,SABRE,Covidwave1,cw1_timeuse2,Post-C19: Typical hours per day spent outside (not including outdoor space at ho,-7.0,no  questionnaire
+1195518,SABRE,Covidwave1,cw1_timeuse2,Post-C19: Typical hours per day spent outside (not including outdoor space at ho,-1.0,Not applicable
+1195519,SABRE,Covidwave1,cw1_open,How has the coronavirus affected your or your loved ones so far,,
+1195520,SABRE,Covidwave1,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,-8.0,No information
+1195521,SABRE,Covidwave1,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,-7.0,No SABRE questionnaire
+1195522,SABRE,Covidwave1,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,-1.0,Not applicable
+1195523,SABRE,Covidwave1,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,1.0,Yes
+1195524,SABRE,Covidwave1,cw1_covchil_4,Post-C19: Whether other living arrangement change involving CM's children,2.0,No
+1195525,SABRE,Covidwave1,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),-8.0,No information
+1195526,SABRE,Covidwave1,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),-7.0,No SABRE questionnaire
+1195527,SABRE,Covidwave1,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),-1.0,Not applicable
+1195528,SABRE,Covidwave1,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),1.0,At least one parent (or in-law) moved in with CM
+1195529,SABRE,Covidwave1,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),2.0,CM moved in with parent (or in-law)
+1195530,SABRE,Covidwave1,cw1_covper,Post-C19: Whether living arrangement change involving CM's parent(s),3.0,None of these
+1195531,SABRE,Covidwave1,cw1_covoth,Post-C19: Whether other person living arrangement change since,-8.0,No information
+1195532,SABRE,Covidwave1,cw1_covoth,Post-C19: Whether other person living arrangement change since,-7.0,No SABRE questionnaire
+1195533,SABRE,Covidwave1,cw1_covoth,Post-C19: Whether other person living arrangement change since,-1.0,Not applicable
+1195534,SABRE,Covidwave1,cw1_covoth,Post-C19: Whether other person living arrangement change since,1.0,Non-parent/child hh member moved in with CM
+1195535,SABRE,Covidwave1,cw1_covoth,Post-C19: Whether other person living arrangement change since,2.0,CM moved in with non-parent/child
+1195536,SABRE,Covidwave1,cw1_covoth,Post-C19: Whether other person living arrangement change since,3.0,None of these
+1195537,SABRE,Covidwave1,cw1_apprentype,Pre-C19: Apprenticeship type,-8.0,No information
+1195538,SABRE,Covidwave1,cw1_apprentype,Pre-C19: Apprenticeship type,-7.0,no SABRE questionnaire
+1195539,SABRE,Covidwave1,cw1_apprentype,Pre-C19: Apprenticeship type,-1.0,Not applicable
+1195540,SABRE,Covidwave1,cw1_apprentype,Pre-C19: Apprenticeship type,1.0,A full time job
+1195541,SABRE,Covidwave1,cw1_apprentype,Pre-C19: Apprenticeship type,2.0,Or a part time job
+1195542,SABRE,Covidwave1,cw1_apprentype,Pre-C19: Apprenticeship type,3.0,Not part of any job
+1195543,SABRE,Covidwave1,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,-8.0,No information
+1195544,SABRE,Covidwave1,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,-7.0,no SABRE questionnaire
+1195545,SABRE,Covidwave1,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,-1.0,Not applicable
+1195546,SABRE,Covidwave1,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,1.0,Yes
+1195547,SABRE,Covidwave1,cw1_ftcourseapprent,Pre-C19: Whether apprenticeship a full time course,2.0,No
+1195548,SABRE,Covidwave1,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,-8.0,No information
+1195549,SABRE,Covidwave1,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,-7.0,no SABRE questionnaire
+1195550,SABRE,Covidwave1,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,-1.0,Not applicable
+1195551,SABRE,Covidwave1,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,1.0,Yes
+1195552,SABRE,Covidwave1,cw1_studyapprent,Pre-C19: Whether apprenticeship involves studying,2.0,No
+1195553,SABRE,Covidwave1,cw1_studyorg,Pre-C19: Institution of study,-8.0,No information
+1195554,SABRE,Covidwave1,cw1_studyorg,Pre-C19: Institution of study,-7.0,no SABRE questionnaire
+1195555,SABRE,Covidwave1,cw1_studyorg,Pre-C19: Institution of study,-1.0,Not applicable
+1195556,SABRE,Covidwave1,cw1_studyorg,Pre-C19: Institution of study,1.0,School
+1195557,SABRE,Covidwave1,cw1_studyorg,Pre-C19: Institution of study,2.0,College
+1195558,SABRE,Covidwave1,cw1_studyorg,Pre-C19: Institution of study,3.0,University
+1195559,SABRE,Covidwave1,cw1_studyorg,Pre-C19: Institution of study,4.0,Other
+1195560,SABRE,Covidwave1,cw1_studyhrs,Pre-C19: Whether study full or part time,-8.0,No information
+1195561,SABRE,Covidwave1,cw1_studyhrs,Pre-C19: Whether study full or part time,-7.0,no SABRE questionnaire
+1195562,SABRE,Covidwave1,cw1_studyhrs,Pre-C19: Whether study full or part time,-1.0,Not applicable
+1195563,SABRE,Covidwave1,cw1_studyhrs,Pre-C19: Whether study full or part time,1.0,Full-time
+1195564,SABRE,Covidwave1,cw1_studyhrs,Pre-C19: Whether study full or part time,2.0,Part time
+1195565,SABRE,Covidwave1,cw1_coursename,Name of course,,
+1195566,SABRE,Covidwave1,cw1_studyorgname_4,Name and town of study intitution - Name:,,
+1195567,SABRE,Covidwave1,cw1_studyorgname_5,Name and town of study intitution - Town:,,
+1195568,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,-8.0,No information
+1195569,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,-7.0,no SABRE questionnaire
+1195570,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,-1.0,Not applicable
+1195571,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,1.0,One year
+1195572,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,2.0,Two years
+1195573,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,3.0,Three years
+1195574,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,4.0,Four years
+1195575,SABRE,Covidwave1,cw1_coursedur,Pre-C19: Course duration - Selected Choice,5.0,Other (please specify)
+1195576,SABRE,Covidwave1,cw1_coursedur_5_text,Course duration - Other (please specify) - Text,,
+1195577,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,-8.0,No information
+1195578,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,-7.0,no SABRE questionnaire
+1195579,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,-1.0,Not applicable
+1195580,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,1.0,First year
+1195581,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,2.0,Second year
+1195582,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,3.0,Third year
+1195583,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,4.0,Fourth year
+1195584,SABRE,Covidwave1,cw1_studyyear,Pre-C19: Current year of study - Selected Choice,5.0,Other (please specify)
+1195585,SABRE,Covidwave1,cw1_studyyear_5_text,Current year of study - Other (please specify) - Text,,
+1195586,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,-8.0,No information
+1195587,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,-7.0,No SABRE questionnaire
+1195588,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,-1.0,Not applicable
+1195589,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,1.0,No interruption to learning activities
+1195590,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,2.0,Taking a formal break
+1195591,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,3.0,Studying at home with online resources provided
+1195592,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,4.0,Studying at home with no online resources provided
+1195593,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,5.0,Dropped out
+1195594,SABRE,Covidwave1,cw1_learnactivitychng,Post-C19: Change in learning activity - Selected Choice,6.0,Other (please specify)
+1195595,SABRE,Covidwave1,cw1_learnactivitychng_6_text,Change in learning activity - during outbreak - Other (Please specify) - Text,,
+1195596,SABRE,Covidwave1,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,-8.0,No information
+1195597,SABRE,Covidwave1,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,-7.0,No SABRE questionnaire
+1195598,SABRE,Covidwave1,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,-1.0,Not applicable
+1195599,SABRE,Covidwave1,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,0.0,Completely disagree
+1195600,SABRE,Covidwave1,cw1_learnsatisfaction_1,Post-C19: Satisfaction with learning resources provided from 0-10,10.0,Completely agree
+1195601,SABRE,Covidwave1,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,-8.0,No information
+1195602,SABRE,Covidwave1,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,-7.0,No SABRE questionnaire
+1195603,SABRE,Covidwave1,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,-1.0,Not applicable
+1195604,SABRE,Covidwave1,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,0.0,Completely disagree
+1195605,SABRE,Covidwave1,cw1_learnsatisfaction_2,Post-C19: Ability to continue studies effectively at home from 0-10,10.0,Completely agree
+1195606,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),-8.0,No information
+1195607,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),-7.0,no SABRE questionnaire
+1195608,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),-1.0,Not applicable
+1195609,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),1.0,Employed
+1195610,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),2.0,Self-employed
+1195611,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),3.0,In unpaid/ voluntary work
+1195612,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),4.0,Apprenticeship
+1195613,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),5.0,Unemployed
+1195614,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),6.0,Permanently sick or disabled
+1195615,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),7.0,Looking after home or family
+1195616,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),8.0,In education at school/college/university
+1195617,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),9.0,Retired
+1195618,SABRE,Covidwave1,cw1_econactivitydedu,Post-C19: Economic activity (if learning interrupted),10.0,Doing something else
+1195619,SABRE,Covidwave1,cw1_wrkhoursdedu,Post-C19: Ususal weekly working hours (if learning interrupted),-8.0,No information
+1195620,SABRE,Covidwave1,cw1_wrkhoursdedu,Post-C19: Ususal weekly working hours (if learning interrupted),-7.0,no SABRE questionnaire
+1195621,SABRE,Covidwave1,cw1_wrkhoursdedu,Post-C19: Ususal weekly working hours (if learning interrupted),-1.0,Not applicable
+1195622,SABRE,Covidwave1,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),-8.0,No information
+1195623,SABRE,Covidwave1,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),-7.0,no SABRE questionnaire
+1195624,SABRE,Covidwave1,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),-1.0,Not applicable
+1195625,SABRE,Covidwave1,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),1.0,Work from your own home
+1195626,SABRE,Covidwave1,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),2.0,Work at employer's premises
+1195627,SABRE,Covidwave1,cw1_wrklocationdedu,Post-C19: Work location (if learning interrupted),3.0,Other
+1195628,SABRE,Covidwave1,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),-8.0,No information
+1195629,SABRE,Covidwave1,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),-7.0,no SABRE questionnaire
+1195630,SABRE,Covidwave1,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),-1.0,Not applicable
+1195631,SABRE,Covidwave1,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),1.0,Yes
+1195632,SABRE,Covidwave1,cw1_keyworkeredu,Post-C19: Whether a key worker (if learning interrupted),2.0,No
+1195633,SABRE,Covidwave1,cw1_papprentype,Pre-C19: Partner's apprenticeship type,-8.0,No information
+1195634,SABRE,Covidwave1,cw1_papprentype,Pre-C19: Partner's apprenticeship type,-7.0,no SABRE questionnaire
+1195635,SABRE,Covidwave1,cw1_papprentype,Pre-C19: Partner's apprenticeship type,-1.0,Not applicable
+1195636,SABRE,Covidwave1,cw1_papprentype,Pre-C19: Partner's apprenticeship type,1.0,A full time job
+1195637,SABRE,Covidwave1,cw1_papprentype,Pre-C19: Partner's apprenticeship type,2.0,Or a part time job
+1195638,SABRE,Covidwave1,cw1_papprentype,Pre-C19: Partner's apprenticeship type,3.0,Not part of any job
+1195639,SABRE,Covidwave1,cw1_weight,Self-reported weight in kilograms or stones and pounds,-8.0,No information
+1195640,SABRE,Covidwave1,cw1_weight,Self-reported weight in kilograms or stones and pounds,-7.0,no SABRE questionnaire
+1195641,SABRE,Covidwave1,cw1_weight,Self-reported weight in kilograms or stones and pounds,-1.0,Not applicable
+1195642,SABRE,Covidwave1,cw1_weight,Self-reported weight in kilograms or stones and pounds,1.0,Kilograms
+1195643,SABRE,Covidwave1,cw1_weight,Self-reported weight in kilograms or stones and pounds,2.0,Stones and Pounds
+1195644,SABRE,Covidwave1,cw1_weight,Self-reported weight in kilograms or stones and pounds,3.0,I do not wish to report my weight
+1195645,SABRE,Covidwave1,cw1_sabreapp_5,Finally â€“ weâ€™d like to ask you to download a COVID-19 Symptoms Tracker app.,-8.0,No information
+1195646,SABRE,Covidwave1,cw1_sabreapp_5,Finally â€“ weâ€™d like to ask you to download a COVID-19 Symptoms Tracker app.,-7.0,no SABRE questionnaire
+1195647,SABRE,Covidwave1,cw1_sabreapp_5,Finally â€“ weâ€™d like to ask you to download a COVID-19 Symptoms Tracker app.,-1.0,Not applicable
+1195648,SABRE,Covidwave1,cw1_sabreapp_5,Finally â€“ weâ€™d like to ask you to download a COVID-19 Symptoms Tracker app.,1.0,I DO NOT wish my SABRE information to be linked with information collected by th
+1195649,SABRE,Covidwave1,cw1_time_diff,When was this SABRE web data collected,-8.0,No information
+1195650,SABRE,Covidwave1,cw1_time_diff,When was this SABRE web data collected,-7.0,no SABRE questionnaire
+1195651,SABRE,Covidwave1,cw1_time_diff,When was this SABRE web data collected,-1.0,Not applicable
+1195652,SABRE,Covidwave1,cw1_time_diff,When was this SABRE web data collected,1.0,May-June
+1195653,SABRE,Covidwave1,cw1_time_diff,When was this SABRE web data collected,2.0,July-August
+1195654,SABRE,Covidwave1,emailrespondent,Responded to email approach for wave 1,,
+1195655,SABRE,Covidwave1,avail_from_dt,,,

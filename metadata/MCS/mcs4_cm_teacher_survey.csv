@@ -1,0 +1,808 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+802775,MCS,mcs4_cm_teacher_survey,study_id_e,,,
+802776,MCS,mcs4_cm_teacher_survey,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+802777,MCS,mcs4_cm_teacher_survey,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+802778,MCS,mcs4_cm_teacher_survey,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+802779,MCS,mcs4_cm_teacher_survey,dversion,S4 TS Version of Questionnaire Used,-9.0,Not answered (9)
+802780,MCS,mcs4_cm_teacher_survey,dversion,S4 TS Version of Questionnaire Used,-1.0,Item not applicable
+802781,MCS,mcs4_cm_teacher_survey,dversion,S4 TS Version of Questionnaire Used,1.0,England
+802782,MCS,mcs4_cm_teacher_survey,dversion,S4 TS Version of Questionnaire Used,2.0,Wales
+802783,MCS,mcs4_cm_teacher_survey,dversion,S4 TS Version of Questionnaire Used,3.0,Scotland
+802784,MCS,mcs4_cm_teacher_survey,dversion,S4 TS Version of Questionnaire Used,4.0,Northern Ireland
+802785,MCS,mcs4_cm_teacher_survey,dversion,S4 TS Version of Questionnaire Used,5.0,Welsh
+802786,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,-9.0,Dont know
+802787,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,-1.0,Not applicable
+802788,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,1.0,Welsh/Gaelic/Irish only
+802789,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,2.0,Mainly Welsh/Gaelic/Irish
+802790,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,3.0,Welsh/Gaelic/Irish and English equally
+802791,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,4.0,Mainly English
+802792,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,5.0,English only
+802793,MCS,mcs4_cm_teacher_survey,dq2100,S4 TS Please state in which language the child is educated,6.0,Other (please write in)
+802794,MCS,mcs4_cm_teacher_survey,dq2101,S4 TS Text present or not?,-9.0,Dont know
+802795,MCS,mcs4_cm_teacher_survey,dq2101,S4 TS Text present or not?,-1.0,Not applicable
+802796,MCS,mcs4_cm_teacher_survey,dq2101,S4 TS Text present or not?,1.0,Text present
+802797,MCS,mcs4_cm_teacher_survey,dq2101,S4 TS Text present or not?,2.0,No text present
+802798,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),-9.0,Dont know
+802799,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),-1.0,Not applicable
+802800,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),1.0,Well above average
+802801,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),2.0,Above average
+802802,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),3.0,Average
+802803,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),4.0,Below average
+802804,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),5.0,Well below average
+802805,MCS,mcs4_cm_teacher_survey,dq2160,S4 TS Speaking and listening (in English),6.0,Not applicable
+802806,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,-9.0,Dont know
+802807,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,-1.0,Not applicable
+802808,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,1.0,Well above average
+802809,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,2.0,Above average
+802810,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,3.0,Average
+802811,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,4.0,Below average
+802812,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,5.0,Well below average
+802813,MCS,mcs4_cm_teacher_survey,dq2161,S4 TS Speaking and listening in Welsh/Gaelic/Irish,6.0,Not applicable
+802814,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),-9.0,Dont know
+802815,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),-1.0,Not applicable
+802816,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),1.0,Well above average
+802817,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),2.0,Above average
+802818,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),3.0,Average
+802819,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),4.0,Below average
+802820,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),5.0,Well below average
+802821,MCS,mcs4_cm_teacher_survey,dq2162,S4 TS Reading (in English),6.0,Not applicable
+802822,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,-9.0,Dont know
+802823,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,-1.0,Not applicable
+802824,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,1.0,Well above average
+802825,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,2.0,Above average
+802826,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,3.0,Average
+802827,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,4.0,Below average
+802828,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,5.0,Well below average
+802829,MCS,mcs4_cm_teacher_survey,dq2163,S4 TS Reading in Welsh/Gaelic/Irish,6.0,Not applicable
+802830,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),-9.0,Dont know
+802831,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),-1.0,Not applicable
+802832,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),1.0,Well above average
+802833,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),2.0,Above average
+802834,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),3.0,Average
+802835,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),4.0,Below average
+802836,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),5.0,Well below average
+802837,MCS,mcs4_cm_teacher_survey,dq2164,S4 TS Writing (in English),6.0,Not applicable
+802838,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,-9.0,Dont know
+802839,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,-1.0,Not applicable
+802840,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,1.0,Well above average
+802841,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,2.0,Above average
+802842,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,3.0,Average
+802843,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,4.0,Below average
+802844,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,5.0,Well below average
+802845,MCS,mcs4_cm_teacher_survey,dq2165,S4 TS Writing in Welsh/Gaelic/Irish,6.0,Not applicable
+802846,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,-9.0,Dont know
+802847,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,-1.0,Not applicable
+802848,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,1.0,Well above average
+802849,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,2.0,Above average
+802850,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,3.0,Average
+802851,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,4.0,Below average
+802852,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,5.0,Well below average
+802853,MCS,mcs4_cm_teacher_survey,dq2166,S4 TS Science,6.0,Not applicable
+802854,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,-9.0,Dont know
+802855,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,-1.0,Not applicable
+802856,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,1.0,Well above average
+802857,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,2.0,Above average
+802858,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,3.0,Average
+802859,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,4.0,Below average
+802860,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,5.0,Well below average
+802861,MCS,mcs4_cm_teacher_survey,dq2167,S4 TS Maths and numeracy,6.0,Not applicable
+802862,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),3.0,Average
+802863,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),4.0,Below average
+802864,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),5.0,Well below average
+802865,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),6.0,Not applicable
+802866,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),-9.0,Dont know
+802867,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),-1.0,Not applicable
+802868,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),1.0,Well above average
+802869,MCS,mcs4_cm_teacher_survey,dq2168,S4 TS Physical Education (PE),2.0,Above average
+802870,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),-9.0,Dont know
+802871,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),-1.0,Not applicable
+802872,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),1.0,Well above average
+802873,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),2.0,Above average
+802874,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),3.0,Average
+802875,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),4.0,Below average
+802876,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),5.0,Well below average
+802877,MCS,mcs4_cm_teacher_survey,dq2169,S4 TS Information and Communication Technology (ICT),6.0,Not applicable
+802878,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,-9.0,Dont know
+802879,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,-1.0,Not applicable
+802880,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,1.0,Well above average
+802881,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,2.0,Above average
+802882,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,3.0,Average
+802883,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,4.0,Below average
+802884,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,5.0,Well below average
+802885,MCS,mcs4_cm_teacher_survey,dq2170,S4 TS Expressive and Creative Arts (e.g. art & design,6.0,Not applicable
+802886,MCS,mcs4_cm_teacher_survey,dq2171,S4 TS Is considerate of other peoples feelings,-9.0,Dont know
+802887,MCS,mcs4_cm_teacher_survey,dq2171,S4 TS Is considerate of other peoples feelings,-1.0,Not applicable
+802888,MCS,mcs4_cm_teacher_survey,dq2171,S4 TS Is considerate of other peoples feelings,1.0,Not true
+802889,MCS,mcs4_cm_teacher_survey,dq2171,S4 TS Is considerate of other peoples feelings,2.0,Somewhat true
+802890,MCS,mcs4_cm_teacher_survey,dq2171,S4 TS Is considerate of other peoples feelings,3.0,Certainly true
+802891,MCS,mcs4_cm_teacher_survey,dq2172,S4 TS Is restless,-9.0,Dont know
+802892,MCS,mcs4_cm_teacher_survey,dq2172,S4 TS Is restless,-1.0,Not applicable
+802893,MCS,mcs4_cm_teacher_survey,dq2172,S4 TS Is restless,1.0,Not true
+802894,MCS,mcs4_cm_teacher_survey,dq2172,S4 TS Is restless,2.0,Somewhat true
+802895,MCS,mcs4_cm_teacher_survey,dq2172,S4 TS Is restless,3.0,Certainly true
+802896,MCS,mcs4_cm_teacher_survey,dq2173,S4 TS Often complains of headaches,-9.0,Dont know
+802897,MCS,mcs4_cm_teacher_survey,dq2173,S4 TS Often complains of headaches,-1.0,Not applicable
+802898,MCS,mcs4_cm_teacher_survey,dq2173,S4 TS Often complains of headaches,1.0,Not true
+802899,MCS,mcs4_cm_teacher_survey,dq2173,S4 TS Often complains of headaches,2.0,Somewhat true
+802900,MCS,mcs4_cm_teacher_survey,dq2173,S4 TS Often complains of headaches,3.0,Certainly true
+802901,MCS,mcs4_cm_teacher_survey,dq2174,S4 TS Shares readily with other children (treats,-9.0,Dont know
+802902,MCS,mcs4_cm_teacher_survey,dq2174,S4 TS Shares readily with other children (treats,-1.0,Not applicable
+802903,MCS,mcs4_cm_teacher_survey,dq2174,S4 TS Shares readily with other children (treats,1.0,Not true
+802904,MCS,mcs4_cm_teacher_survey,dq2174,S4 TS Shares readily with other children (treats,2.0,Somewhat true
+802905,MCS,mcs4_cm_teacher_survey,dq2174,S4 TS Shares readily with other children (treats,3.0,Certainly true
+802906,MCS,mcs4_cm_teacher_survey,dq2175,S4 TS Often has temper tantrums or hot tempers,-9.0,Dont know
+802907,MCS,mcs4_cm_teacher_survey,dq2175,S4 TS Often has temper tantrums or hot tempers,-1.0,Not applicable
+802908,MCS,mcs4_cm_teacher_survey,dq2175,S4 TS Often has temper tantrums or hot tempers,1.0,Not true
+802909,MCS,mcs4_cm_teacher_survey,dq2175,S4 TS Often has temper tantrums or hot tempers,2.0,Somewhat true
+802910,MCS,mcs4_cm_teacher_survey,dq2175,S4 TS Often has temper tantrums or hot tempers,3.0,Certainly true
+802911,MCS,mcs4_cm_teacher_survey,dq2176,S4 TS Is rather solitary,-9.0,Dont know
+802912,MCS,mcs4_cm_teacher_survey,dq2176,S4 TS Is rather solitary,-1.0,Not applicable
+802913,MCS,mcs4_cm_teacher_survey,dq2176,S4 TS Is rather solitary,1.0,Not true
+802914,MCS,mcs4_cm_teacher_survey,dq2176,S4 TS Is rather solitary,2.0,Somewhat true
+802915,MCS,mcs4_cm_teacher_survey,dq2176,S4 TS Is rather solitary,3.0,Certainly true
+802916,MCS,mcs4_cm_teacher_survey,dq2177,S4 TS Is generally obedient,-9.0,Dont know
+802917,MCS,mcs4_cm_teacher_survey,dq2177,S4 TS Is generally obedient,-1.0,Not applicable
+802918,MCS,mcs4_cm_teacher_survey,dq2177,S4 TS Is generally obedient,1.0,Not true
+802919,MCS,mcs4_cm_teacher_survey,dq2177,S4 TS Is generally obedient,2.0,Somewhat true
+802920,MCS,mcs4_cm_teacher_survey,dq2177,S4 TS Is generally obedient,3.0,Certainly true
+802921,MCS,mcs4_cm_teacher_survey,dq2178,S4 TS Has many worries often seems worried,-9.0,Dont know
+802922,MCS,mcs4_cm_teacher_survey,dq2178,S4 TS Has many worries often seems worried,-1.0,Not applicable
+802923,MCS,mcs4_cm_teacher_survey,dq2178,S4 TS Has many worries often seems worried,1.0,Not true
+802924,MCS,mcs4_cm_teacher_survey,dq2178,S4 TS Has many worries often seems worried,2.0,Somewhat true
+802925,MCS,mcs4_cm_teacher_survey,dq2178,S4 TS Has many worries often seems worried,3.0,Certainly true
+802926,MCS,mcs4_cm_teacher_survey,dq2179,S4 TS Is helpful when someone is hurt,-9.0,Dont know
+802927,MCS,mcs4_cm_teacher_survey,dq2179,S4 TS Is helpful when someone is hurt,-1.0,Not applicable
+802928,MCS,mcs4_cm_teacher_survey,dq2179,S4 TS Is helpful when someone is hurt,1.0,Not true
+802929,MCS,mcs4_cm_teacher_survey,dq2179,S4 TS Is helpful when someone is hurt,2.0,Somewhat true
+802930,MCS,mcs4_cm_teacher_survey,dq2179,S4 TS Is helpful when someone is hurt,3.0,Certainly true
+802931,MCS,mcs4_cm_teacher_survey,dq2180,S4 TS Constantly fidgets or squirms,-9.0,Dont know
+802932,MCS,mcs4_cm_teacher_survey,dq2180,S4 TS Constantly fidgets or squirms,-1.0,Not applicable
+802933,MCS,mcs4_cm_teacher_survey,dq2180,S4 TS Constantly fidgets or squirms,1.0,Not true
+802934,MCS,mcs4_cm_teacher_survey,dq2180,S4 TS Constantly fidgets or squirms,2.0,Somewhat true
+802935,MCS,mcs4_cm_teacher_survey,dq2180,S4 TS Constantly fidgets or squirms,3.0,Certainly true
+802936,MCS,mcs4_cm_teacher_survey,dq2181,S4 TS Has at least one good friend,-9.0,Dont know
+802937,MCS,mcs4_cm_teacher_survey,dq2181,S4 TS Has at least one good friend,-1.0,Not applicable
+802938,MCS,mcs4_cm_teacher_survey,dq2181,S4 TS Has at least one good friend,1.0,Not true
+802939,MCS,mcs4_cm_teacher_survey,dq2181,S4 TS Has at least one good friend,2.0,Somewhat true
+802940,MCS,mcs4_cm_teacher_survey,dq2181,S4 TS Has at least one good friend,3.0,Certainly true
+802941,MCS,mcs4_cm_teacher_survey,dq2182,S4 TS Often fights with other children or bullies them,-9.0,Dont know
+802942,MCS,mcs4_cm_teacher_survey,dq2182,S4 TS Often fights with other children or bullies them,-1.0,Not applicable
+802943,MCS,mcs4_cm_teacher_survey,dq2182,S4 TS Often fights with other children or bullies them,1.0,Not true
+802944,MCS,mcs4_cm_teacher_survey,dq2182,S4 TS Often fights with other children or bullies them,2.0,Somewhat true
+802945,MCS,mcs4_cm_teacher_survey,dq2182,S4 TS Often fights with other children or bullies them,3.0,Certainly true
+802946,MCS,mcs4_cm_teacher_survey,dq2183,S4 TS Is often unhappy,-9.0,Dont know
+802947,MCS,mcs4_cm_teacher_survey,dq2183,S4 TS Is often unhappy,-1.0,Not applicable
+802948,MCS,mcs4_cm_teacher_survey,dq2183,S4 TS Is often unhappy,1.0,Not true
+802949,MCS,mcs4_cm_teacher_survey,dq2183,S4 TS Is often unhappy,2.0,Somewhat true
+802950,MCS,mcs4_cm_teacher_survey,dq2183,S4 TS Is often unhappy,3.0,Certainly true
+802951,MCS,mcs4_cm_teacher_survey,dq2184,S4 TS Is generally liked by other children,-9.0,Dont know
+802952,MCS,mcs4_cm_teacher_survey,dq2184,S4 TS Is generally liked by other children,-1.0,Not applicable
+802953,MCS,mcs4_cm_teacher_survey,dq2184,S4 TS Is generally liked by other children,1.0,Not true
+802954,MCS,mcs4_cm_teacher_survey,dq2184,S4 TS Is generally liked by other children,2.0,Somewhat true
+802955,MCS,mcs4_cm_teacher_survey,dq2184,S4 TS Is generally liked by other children,3.0,Certainly true
+802956,MCS,mcs4_cm_teacher_survey,dq2185,S4 TS Is easily distracted,2.0,Somewhat true
+802957,MCS,mcs4_cm_teacher_survey,dq2185,S4 TS Is easily distracted,3.0,Certainly true
+802958,MCS,mcs4_cm_teacher_survey,dq2185,S4 TS Is easily distracted,-9.0,Dont know
+802959,MCS,mcs4_cm_teacher_survey,dq2185,S4 TS Is easily distracted,-1.0,Not applicable
+802960,MCS,mcs4_cm_teacher_survey,dq2185,S4 TS Is easily distracted,1.0,Not true
+802961,MCS,mcs4_cm_teacher_survey,dq2186,S4 TS Is nervous or clingy in new situations,-9.0,Dont know
+802962,MCS,mcs4_cm_teacher_survey,dq2186,S4 TS Is nervous or clingy in new situations,-1.0,Not applicable
+802963,MCS,mcs4_cm_teacher_survey,dq2186,S4 TS Is nervous or clingy in new situations,1.0,Not true
+802964,MCS,mcs4_cm_teacher_survey,dq2186,S4 TS Is nervous or clingy in new situations,2.0,Somewhat true
+802965,MCS,mcs4_cm_teacher_survey,dq2186,S4 TS Is nervous or clingy in new situations,3.0,Certainly true
+802966,MCS,mcs4_cm_teacher_survey,dq2187,S4 TS Is kind to younger children,-9.0,Dont know
+802967,MCS,mcs4_cm_teacher_survey,dq2187,S4 TS Is kind to younger children,-1.0,Not applicable
+802968,MCS,mcs4_cm_teacher_survey,dq2187,S4 TS Is kind to younger children,1.0,Not true
+802969,MCS,mcs4_cm_teacher_survey,dq2187,S4 TS Is kind to younger children,2.0,Somewhat true
+802970,MCS,mcs4_cm_teacher_survey,dq2187,S4 TS Is kind to younger children,3.0,Certainly true
+802971,MCS,mcs4_cm_teacher_survey,dq2188,S4 TS Often lies or cheats,-9.0,Dont know
+802972,MCS,mcs4_cm_teacher_survey,dq2188,S4 TS Often lies or cheats,-1.0,Not applicable
+802973,MCS,mcs4_cm_teacher_survey,dq2188,S4 TS Often lies or cheats,1.0,Not true
+802974,MCS,mcs4_cm_teacher_survey,dq2188,S4 TS Often lies or cheats,2.0,Somewhat true
+802975,MCS,mcs4_cm_teacher_survey,dq2188,S4 TS Often lies or cheats,3.0,Certainly true
+802976,MCS,mcs4_cm_teacher_survey,dq2189,S4 TS Is picked on or bullied by other children,-9.0,Dont know
+802977,MCS,mcs4_cm_teacher_survey,dq2189,S4 TS Is picked on or bullied by other children,-1.0,Not applicable
+802978,MCS,mcs4_cm_teacher_survey,dq2189,S4 TS Is picked on or bullied by other children,1.0,Not true
+802979,MCS,mcs4_cm_teacher_survey,dq2189,S4 TS Is picked on or bullied by other children,2.0,Somewhat true
+802980,MCS,mcs4_cm_teacher_survey,dq2189,S4 TS Is picked on or bullied by other children,3.0,Certainly true
+802981,MCS,mcs4_cm_teacher_survey,dq2190,S4 TS Often volunteers to help others (parents,-9.0,Dont know
+802982,MCS,mcs4_cm_teacher_survey,dq2190,S4 TS Often volunteers to help others (parents,-1.0,Not applicable
+802983,MCS,mcs4_cm_teacher_survey,dq2190,S4 TS Often volunteers to help others (parents,1.0,Not true
+802984,MCS,mcs4_cm_teacher_survey,dq2190,S4 TS Often volunteers to help others (parents,2.0,Somewhat true
+802985,MCS,mcs4_cm_teacher_survey,dq2190,S4 TS Often volunteers to help others (parents,3.0,Certainly true
+802986,MCS,mcs4_cm_teacher_survey,dq2191,S4 TS Thinks things out before acting,-9.0,Dont know
+802987,MCS,mcs4_cm_teacher_survey,dq2191,S4 TS Thinks things out before acting,-1.0,Not applicable
+802988,MCS,mcs4_cm_teacher_survey,dq2191,S4 TS Thinks things out before acting,1.0,Not true
+802989,MCS,mcs4_cm_teacher_survey,dq2191,S4 TS Thinks things out before acting,2.0,Somewhat true
+802990,MCS,mcs4_cm_teacher_survey,dq2191,S4 TS Thinks things out before acting,3.0,Certainly true
+802991,MCS,mcs4_cm_teacher_survey,dq2192,S4 TS Steals from home,-9.0,Dont know
+802992,MCS,mcs4_cm_teacher_survey,dq2192,S4 TS Steals from home,-1.0,Not applicable
+802993,MCS,mcs4_cm_teacher_survey,dq2192,S4 TS Steals from home,1.0,Not true
+802994,MCS,mcs4_cm_teacher_survey,dq2192,S4 TS Steals from home,2.0,Somewhat true
+802995,MCS,mcs4_cm_teacher_survey,dq2192,S4 TS Steals from home,3.0,Certainly true
+802996,MCS,mcs4_cm_teacher_survey,dq2193,S4 TS Gets on better with adults than with other children,-9.0,Dont know
+802997,MCS,mcs4_cm_teacher_survey,dq2193,S4 TS Gets on better with adults than with other children,-1.0,Not applicable
+802998,MCS,mcs4_cm_teacher_survey,dq2193,S4 TS Gets on better with adults than with other children,1.0,Not true
+802999,MCS,mcs4_cm_teacher_survey,dq2193,S4 TS Gets on better with adults than with other children,2.0,Somewhat true
+803000,MCS,mcs4_cm_teacher_survey,dq2193,S4 TS Gets on better with adults than with other children,3.0,Certainly true
+803001,MCS,mcs4_cm_teacher_survey,dq2194,S4 TS Has many fears,-9.0,Dont know
+803002,MCS,mcs4_cm_teacher_survey,dq2194,S4 TS Has many fears,-1.0,Not applicable
+803003,MCS,mcs4_cm_teacher_survey,dq2194,S4 TS Has many fears,1.0,Not true
+803004,MCS,mcs4_cm_teacher_survey,dq2194,S4 TS Has many fears,2.0,Somewhat true
+803005,MCS,mcs4_cm_teacher_survey,dq2194,S4 TS Has many fears,3.0,Certainly true
+803006,MCS,mcs4_cm_teacher_survey,dq2195,S4 TS Sees tasks through to the end,-9.0,Dont know
+803007,MCS,mcs4_cm_teacher_survey,dq2195,S4 TS Sees tasks through to the end,-1.0,Not applicable
+803008,MCS,mcs4_cm_teacher_survey,dq2195,S4 TS Sees tasks through to the end,1.0,Not true
+803009,MCS,mcs4_cm_teacher_survey,dq2195,S4 TS Sees tasks through to the end,2.0,Somewhat true
+803010,MCS,mcs4_cm_teacher_survey,dq2195,S4 TS Sees tasks through to the end,3.0,Certainly true
+803011,MCS,mcs4_cm_teacher_survey,dq2196,S4 TS Do you have any other comments or concerns?,-9.0,Dont know
+803012,MCS,mcs4_cm_teacher_survey,dq2196,S4 TS Do you have any other comments or concerns?,-1.0,Not applicable
+803013,MCS,mcs4_cm_teacher_survey,dq2196,S4 TS Do you have any other comments or concerns?,1.0,Yes
+803014,MCS,mcs4_cm_teacher_survey,dq2196,S4 TS Do you have any other comments or concerns?,2.0,No
+803015,MCS,mcs4_cm_teacher_survey,dq2197,S4 TS Text present or not?,-9.0,Dont know
+803016,MCS,mcs4_cm_teacher_survey,dq2197,S4 TS Text present or not?,-1.0,Not applicable
+803017,MCS,mcs4_cm_teacher_survey,dq2197,S4 TS Text present or not?,1.0,Text present
+803018,MCS,mcs4_cm_teacher_survey,dq2197,S4 TS Text present or not?,2.0,No text present
+803019,MCS,mcs4_cm_teacher_survey,dq2198,S4 TS Child has difficulties in emotions,-9.0,Dont know
+803020,MCS,mcs4_cm_teacher_survey,dq2198,S4 TS Child has difficulties in emotions,-1.0,Not applicable
+803021,MCS,mcs4_cm_teacher_survey,dq2198,S4 TS Child has difficulties in emotions,1.0,"Yes, minor difficulties"
+803022,MCS,mcs4_cm_teacher_survey,dq2198,S4 TS Child has difficulties in emotions,2.0,"Yes, definite difficulties"
+803023,MCS,mcs4_cm_teacher_survey,dq2198,S4 TS Child has difficulties in emotions,3.0,"Yes, severe difficulties"
+803024,MCS,mcs4_cm_teacher_survey,dq2198,S4 TS Child has difficulties in emotions,4.0,No
+803025,MCS,mcs4_cm_teacher_survey,dq2199,S4 TS How long have these difficulties been present?,-9.0,Dont know
+803026,MCS,mcs4_cm_teacher_survey,dq2199,S4 TS How long have these difficulties been present?,-8.0,Don't know (8)
+803027,MCS,mcs4_cm_teacher_survey,dq2199,S4 TS How long have these difficulties been present?,-1.0,Not applicable
+803028,MCS,mcs4_cm_teacher_survey,dq2199,S4 TS How long have these difficulties been present?,1.0,Less than 1 month
+803029,MCS,mcs4_cm_teacher_survey,dq2199,S4 TS How long have these difficulties been present?,2.0,1 - 5 months
+803030,MCS,mcs4_cm_teacher_survey,dq2199,S4 TS How long have these difficulties been present?,3.0,6 - 12 months
+803031,MCS,mcs4_cm_teacher_survey,dq2199,S4 TS How long have these difficulties been present?,4.0,More than a year
+803032,MCS,mcs4_cm_teacher_survey,dq2200,S4 TS Do these difficulties upset or distress the child,-9.0,Dont know
+803033,MCS,mcs4_cm_teacher_survey,dq2200,S4 TS Do these difficulties upset or distress the child,-1.0,Not applicable
+803034,MCS,mcs4_cm_teacher_survey,dq2200,S4 TS Do these difficulties upset or distress the child,1.0,Not at all
+803035,MCS,mcs4_cm_teacher_survey,dq2200,S4 TS Do these difficulties upset or distress the child,2.0,Only a little
+803036,MCS,mcs4_cm_teacher_survey,dq2200,S4 TS Do these difficulties upset or distress the child,3.0,Quite a lot
+803037,MCS,mcs4_cm_teacher_survey,dq2200,S4 TS Do these difficulties upset or distress the child,4.0,A great deal
+803038,MCS,mcs4_cm_teacher_survey,dq2201,S4 TS Difficulties interfere with the childs peer relationships,-9.0,Dont know
+803039,MCS,mcs4_cm_teacher_survey,dq2201,S4 TS Difficulties interfere with the childs peer relationships,-1.0,Not applicable
+803040,MCS,mcs4_cm_teacher_survey,dq2201,S4 TS Difficulties interfere with the childs peer relationships,1.0,Not at all
+803041,MCS,mcs4_cm_teacher_survey,dq2201,S4 TS Difficulties interfere with the childs peer relationships,2.0,Only a little
+803042,MCS,mcs4_cm_teacher_survey,dq2201,S4 TS Difficulties interfere with the childs peer relationships,3.0,Quite a lot
+803043,MCS,mcs4_cm_teacher_survey,dq2201,S4 TS Difficulties interfere with the childs peer relationships,4.0,A great deal
+803044,MCS,mcs4_cm_teacher_survey,dq2202,S4 TS Difficulties interfere with the childs classroom learning,-9.0,Dont know
+803045,MCS,mcs4_cm_teacher_survey,dq2202,S4 TS Difficulties interfere with the childs classroom learning,-1.0,Not applicable
+803046,MCS,mcs4_cm_teacher_survey,dq2202,S4 TS Difficulties interfere with the childs classroom learning,1.0,Not at all
+803047,MCS,mcs4_cm_teacher_survey,dq2202,S4 TS Difficulties interfere with the childs classroom learning,2.0,Only a little
+803048,MCS,mcs4_cm_teacher_survey,dq2202,S4 TS Difficulties interfere with the childs classroom learning,3.0,Quite a lot
+803049,MCS,mcs4_cm_teacher_survey,dq2202,S4 TS Difficulties interfere with the childs classroom learning,4.0,A great deal
+803050,MCS,mcs4_cm_teacher_survey,dq2203,S4 TS Difficulties put a burden on you or the class as a whole,-9.0,Dont know
+803051,MCS,mcs4_cm_teacher_survey,dq2203,S4 TS Difficulties put a burden on you or the class as a whole,-1.0,Not applicable
+803052,MCS,mcs4_cm_teacher_survey,dq2203,S4 TS Difficulties put a burden on you or the class as a whole,1.0,Not at all
+803053,MCS,mcs4_cm_teacher_survey,dq2203,S4 TS Difficulties put a burden on you or the class as a whole,2.0,Only a little
+803054,MCS,mcs4_cm_teacher_survey,dq2203,S4 TS Difficulties put a burden on you or the class as a whole,3.0,Quite a lot
+803055,MCS,mcs4_cm_teacher_survey,dq2203,S4 TS Difficulties put a burden on you or the class as a whole,4.0,A great deal
+803056,MCS,mcs4_cm_teacher_survey,dq2204,S4 TS How long has the study child been in your class (months),-9.0,Dont know
+803057,MCS,mcs4_cm_teacher_survey,dq2204,S4 TS How long has the study child been in your class (months),-1.0,Not applicable
+803058,MCS,mcs4_cm_teacher_survey,dq2206a,S4 TS Been suspended or excluded from school in this school,-9.0,Dont know
+803059,MCS,mcs4_cm_teacher_survey,dq2206a,S4 TS Been suspended or excluded from school in this school,-1.0,Not applicable
+803060,MCS,mcs4_cm_teacher_survey,dq2206a,S4 TS Been suspended or excluded from school in this school,1.0,Yes
+803061,MCS,mcs4_cm_teacher_survey,dq2206a,S4 TS Been suspended or excluded from school in this school,2.0,No
+803062,MCS,mcs4_cm_teacher_survey,dq2207,S4 TS How many times has this happened?,-9.0,Dont know
+803063,MCS,mcs4_cm_teacher_survey,dq2207,S4 TS How many times has this happened?,-1.0,Not applicable
+803064,MCS,mcs4_cm_teacher_survey,dq2210,S4 TS Does CM receive English or Welsh/Gaelic/Irish as Additional Languaguage,-9.0,Dont know
+803065,MCS,mcs4_cm_teacher_survey,dq2210,S4 TS Does CM receive English or Welsh/Gaelic/Irish as Additional Languaguage,-1.0,Not applicable
+803066,MCS,mcs4_cm_teacher_survey,dq2210,S4 TS Does CM receive English or Welsh/Gaelic/Irish as Additional Languaguage,1.0,Yes
+803067,MCS,mcs4_cm_teacher_survey,dq2210,S4 TS Does CM receive English or Welsh/Gaelic/Irish as Additional Languaguage,2.0,No
+803068,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,-9.0,Dont know
+803069,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,-1.0,Not applicable
+803070,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,1.0,one option ticked
+803071,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,2.0,two options ticked
+803072,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,3.0,three options ticked
+803073,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,4.0,four options ticked
+803074,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,5.0,five options ticked
+803075,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,6.0,six options ticked
+803076,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,7.0,seven options ticked
+803077,MCS,mcs4_cm_teacher_survey,dq2211,S4 TS Does CM get any help at school due to a health or behavioural problem,8.0,all options ticked
+803078,MCS,mcs4_cm_teacher_survey,dq221101,S4 TS No support,-9.0,Dont know
+803079,MCS,mcs4_cm_teacher_survey,dq221101,S4 TS No support,-1.0,Not applicable
+803080,MCS,mcs4_cm_teacher_survey,dq221101,S4 TS No support,0.0,not ticked
+803081,MCS,mcs4_cm_teacher_survey,dq221101,S4 TS No support,1.0,ticked
+803082,MCS,mcs4_cm_teacher_survey,dq221102,S4 TS Individual support in class from teacher / assistant,-9.0,Dont know
+803083,MCS,mcs4_cm_teacher_survey,dq221102,S4 TS Individual support in class from teacher / assistant,-1.0,Not applicable
+803084,MCS,mcs4_cm_teacher_survey,dq221102,S4 TS Individual support in class from teacher / assistant,0.0,not ticked
+803085,MCS,mcs4_cm_teacher_survey,dq221102,S4 TS Individual support in class from teacher / assistant,1.0,ticked
+803086,MCS,mcs4_cm_teacher_survey,dq221103,S4 TS Individual support in class from a family member,-9.0,Dont know
+803087,MCS,mcs4_cm_teacher_survey,dq221103,S4 TS Individual support in class from a family member,-1.0,Not applicable
+803088,MCS,mcs4_cm_teacher_survey,dq221103,S4 TS Individual support in class from a family member,0.0,not ticked
+803089,MCS,mcs4_cm_teacher_survey,dq221103,S4 TS Individual support in class from a family member,1.0,ticked
+803090,MCS,mcs4_cm_teacher_survey,dq221104,S4 TS Special classes,-9.0,Dont know
+803091,MCS,mcs4_cm_teacher_survey,dq221104,S4 TS Special classes,-1.0,Not applicable
+803092,MCS,mcs4_cm_teacher_survey,dq221104,S4 TS Special classes,0.0,not ticked
+803093,MCS,mcs4_cm_teacher_survey,dq221104,S4 TS Special classes,1.0,ticked
+803094,MCS,mcs4_cm_teacher_survey,dq221105,S4 TS Adaptations have been made to physical environment,-9.0,Dont know
+803095,MCS,mcs4_cm_teacher_survey,dq221105,S4 TS Adaptations have been made to physical environment,-1.0,Not applicable
+803096,MCS,mcs4_cm_teacher_survey,dq221105,S4 TS Adaptations have been made to physical environment,0.0,not ticked
+803097,MCS,mcs4_cm_teacher_survey,dq221105,S4 TS Adaptations have been made to physical environment,1.0,ticked
+803098,MCS,mcs4_cm_teacher_survey,dq221106,S4 TS Equipment has been proveded,-9.0,Dont know
+803099,MCS,mcs4_cm_teacher_survey,dq221106,S4 TS Equipment has been proveded,-1.0,Not applicable
+803100,MCS,mcs4_cm_teacher_survey,dq221106,S4 TS Equipment has been proveded,0.0,not ticked
+803101,MCS,mcs4_cm_teacher_survey,dq221106,S4 TS Equipment has been proveded,1.0,ticked
+803102,MCS,mcs4_cm_teacher_survey,dq221107,S4 TS Attends a special school,-9.0,Dont know
+803103,MCS,mcs4_cm_teacher_survey,dq221107,S4 TS Attends a special school,-1.0,Not applicable
+803104,MCS,mcs4_cm_teacher_survey,dq221107,S4 TS Attends a special school,0.0,not ticked
+803105,MCS,mcs4_cm_teacher_survey,dq221107,S4 TS Attends a special school,1.0,ticked
+803106,MCS,mcs4_cm_teacher_survey,dq221108,S4 TS Other (please describe),-9.0,Dont know
+803107,MCS,mcs4_cm_teacher_survey,dq221108,S4 TS Other (please describe),-1.0,Not applicable
+803108,MCS,mcs4_cm_teacher_survey,dq221108,S4 TS Other (please describe),0.0,not ticked
+803109,MCS,mcs4_cm_teacher_survey,dq221108,S4 TS Other (please describe),1.0,ticked
+803110,MCS,mcs4_cm_teacher_survey,dq2227,S4 TS Text present or not?,-9.0,Dont know
+803111,MCS,mcs4_cm_teacher_survey,dq2227,S4 TS Text present or not?,-1.0,Not applicable
+803112,MCS,mcs4_cm_teacher_survey,dq2227,S4 TS Text present or not?,1.0,Text present
+803113,MCS,mcs4_cm_teacher_survey,dq2227,S4 TS Text present or not?,2.0,No Text present
+803114,MCS,mcs4_cm_teacher_survey,dq2328,S4 TS Has this child EVER been recognised as having Special Ed. Needs,-9.0,Dont know
+803115,MCS,mcs4_cm_teacher_survey,dq2328,S4 TS Has this child EVER been recognised as having Special Ed. Needs,-1.0,Not applicable
+803116,MCS,mcs4_cm_teacher_survey,dq2328,S4 TS Has this child EVER been recognised as having Special Ed. Needs,1.0,Yes
+803117,MCS,mcs4_cm_teacher_survey,dq2328,S4 TS Has this child EVER been recognised as having Special Ed. Needs,2.0,No
+803118,MCS,mcs4_cm_teacher_survey,dq2329,S4 TS Does this child have a full statment of SEN,-9.0,Dont know
+803119,MCS,mcs4_cm_teacher_survey,dq2329,S4 TS Does this child have a full statment of SEN,-1.0,Not applicable
+803120,MCS,mcs4_cm_teacher_survey,dq2329,S4 TS Does this child have a full statment of SEN,1.0,Yes
+803121,MCS,mcs4_cm_teacher_survey,dq2329,S4 TS Does this child have a full statment of SEN,2.0,No
+803122,MCS,mcs4_cm_teacher_survey,dq2330,S4 TS Dyslexia,-9.0,Dont know
+803123,MCS,mcs4_cm_teacher_survey,dq2330,S4 TS Dyslexia,-1.0,Not applicable
+803124,MCS,mcs4_cm_teacher_survey,dq2330,S4 TS Dyslexia,1.0,Yes
+803125,MCS,mcs4_cm_teacher_survey,dq2330,S4 TS Dyslexia,2.0,No
+803126,MCS,mcs4_cm_teacher_survey,dq2331,S4 TS Learning difficulties (including dyspraxia / dyscalculia),-9.0,Dont know
+803127,MCS,mcs4_cm_teacher_survey,dq2331,S4 TS Learning difficulties (including dyspraxia / dyscalculia),-1.0,Not applicable
+803128,MCS,mcs4_cm_teacher_survey,dq2331,S4 TS Learning difficulties (including dyspraxia / dyscalculia),1.0,Yes
+803129,MCS,mcs4_cm_teacher_survey,dq2331,S4 TS Learning difficulties (including dyspraxia / dyscalculia),2.0,No
+803130,MCS,mcs4_cm_teacher_survey,dq2332,S4 TS Attention Deficit and Hyoperactivity Disorder (ADHD),-9.0,Dont know
+803131,MCS,mcs4_cm_teacher_survey,dq2332,S4 TS Attention Deficit and Hyoperactivity Disorder (ADHD),-1.0,Not applicable
+803132,MCS,mcs4_cm_teacher_survey,dq2332,S4 TS Attention Deficit and Hyoperactivity Disorder (ADHD),1.0,Yes
+803133,MCS,mcs4_cm_teacher_survey,dq2332,S4 TS Attention Deficit and Hyoperactivity Disorder (ADHD),2.0,No
+803134,MCS,mcs4_cm_teacher_survey,dq2333,S4 TS Autism,-9.0,Dont know
+803135,MCS,mcs4_cm_teacher_survey,dq2333,S4 TS Autism,-1.0,Not applicable
+803136,MCS,mcs4_cm_teacher_survey,dq2333,S4 TS Autism,1.0,Yes
+803137,MCS,mcs4_cm_teacher_survey,dq2333,S4 TS Autism,2.0,No
+803138,MCS,mcs4_cm_teacher_survey,dq2334,S4 TS Behavioural problems / hyperactivity,-9.0,Dont know
+803139,MCS,mcs4_cm_teacher_survey,dq2334,S4 TS Behavioural problems / hyperactivity,-1.0,Not applicable
+803140,MCS,mcs4_cm_teacher_survey,dq2334,S4 TS Behavioural problems / hyperactivity,1.0,Yes
+803141,MCS,mcs4_cm_teacher_survey,dq2334,S4 TS Behavioural problems / hyperactivity,2.0,No
+803142,MCS,mcs4_cm_teacher_survey,dq2335,S4 TS Other difficulties with reading,-9.0,Dont know
+803143,MCS,mcs4_cm_teacher_survey,dq2335,S4 TS Other difficulties with reading,-1.0,Not applicable
+803144,MCS,mcs4_cm_teacher_survey,dq2335,S4 TS Other difficulties with reading,1.0,Yes
+803145,MCS,mcs4_cm_teacher_survey,dq2335,S4 TS Other difficulties with reading,2.0,No
+803146,MCS,mcs4_cm_teacher_survey,dq2336,S4 TS Problem with speech or language,-1.0,Not applicable
+803147,MCS,mcs4_cm_teacher_survey,dq2336,S4 TS Problem with speech or language,1.0,Yes
+803148,MCS,mcs4_cm_teacher_survey,dq2336,S4 TS Problem with speech or language,2.0,No
+803149,MCS,mcs4_cm_teacher_survey,dq2336,S4 TS Problem with speech or language,-9.0,Dont know
+803150,MCS,mcs4_cm_teacher_survey,dq2337,S4 TS Problem with sight,-9.0,Dont know
+803151,MCS,mcs4_cm_teacher_survey,dq2337,S4 TS Problem with sight,-1.0,Not applicable
+803152,MCS,mcs4_cm_teacher_survey,dq2337,S4 TS Problem with sight,1.0,Yes
+803153,MCS,mcs4_cm_teacher_survey,dq2337,S4 TS Problem with sight,2.0,No
+803154,MCS,mcs4_cm_teacher_survey,dq2338,S4 TS Problem with hearing,-9.0,Dont know
+803155,MCS,mcs4_cm_teacher_survey,dq2338,S4 TS Problem with hearing,-1.0,Not applicable
+803156,MCS,mcs4_cm_teacher_survey,dq2338,S4 TS Problem with hearing,1.0,Yes
+803157,MCS,mcs4_cm_teacher_survey,dq2338,S4 TS Problem with hearing,2.0,No
+803158,MCS,mcs4_cm_teacher_survey,dq2339,S4 TS Other physical disability,-9.0,Dont know
+803159,MCS,mcs4_cm_teacher_survey,dq2339,S4 TS Other physical disability,-1.0,Not applicable
+803160,MCS,mcs4_cm_teacher_survey,dq2339,S4 TS Other physical disability,1.0,Yes
+803161,MCS,mcs4_cm_teacher_survey,dq2339,S4 TS Other physical disability,2.0,No
+803162,MCS,mcs4_cm_teacher_survey,dq2340,S4 TS Mental illness / depression,-9.0,Dont know
+803163,MCS,mcs4_cm_teacher_survey,dq2340,S4 TS Mental illness / depression,-1.0,Not applicable
+803164,MCS,mcs4_cm_teacher_survey,dq2340,S4 TS Mental illness / depression,1.0,Yes
+803165,MCS,mcs4_cm_teacher_survey,dq2340,S4 TS Mental illness / depression,2.0,No
+803166,MCS,mcs4_cm_teacher_survey,dq2341,S4 TS More able / highly able / talented / gifted / high IQ,-9.0,Dont know
+803167,MCS,mcs4_cm_teacher_survey,dq2341,S4 TS More able / highly able / talented / gifted / high IQ,-1.0,Not applicable
+803168,MCS,mcs4_cm_teacher_survey,dq2341,S4 TS More able / highly able / talented / gifted / high IQ,1.0,Yes
+803169,MCS,mcs4_cm_teacher_survey,dq2341,S4 TS More able / highly able / talented / gifted / high IQ,2.0,No
+803170,MCS,mcs4_cm_teacher_survey,dq2342,S4 TS English as an additional language,-9.0,Dont know
+803171,MCS,mcs4_cm_teacher_survey,dq2342,S4 TS English as an additional language,-1.0,Not applicable
+803172,MCS,mcs4_cm_teacher_survey,dq2342,S4 TS English as an additional language,1.0,Yes
+803173,MCS,mcs4_cm_teacher_survey,dq2342,S4 TS English as an additional language,2.0,No
+803174,MCS,mcs4_cm_teacher_survey,dq2343,S4 TS Young carer or a sibling of a disabled child,-9.0,Dont know
+803175,MCS,mcs4_cm_teacher_survey,dq2343,S4 TS Young carer or a sibling of a disabled child,-1.0,Not applicable
+803176,MCS,mcs4_cm_teacher_survey,dq2343,S4 TS Young carer or a sibling of a disabled child,1.0,Yes
+803177,MCS,mcs4_cm_teacher_survey,dq2343,S4 TS Young carer or a sibling of a disabled child,2.0,No
+803178,MCS,mcs4_cm_teacher_survey,dq2344,S4 TS Bullying,-9.0,Dont know
+803179,MCS,mcs4_cm_teacher_survey,dq2344,S4 TS Bullying,-1.0,Not applicable
+803180,MCS,mcs4_cm_teacher_survey,dq2344,S4 TS Bullying,1.0,Yes
+803181,MCS,mcs4_cm_teacher_survey,dq2344,S4 TS Bullying,2.0,No
+803182,MCS,mcs4_cm_teacher_survey,dq2345,S4 TS Bereavement,-9.0,Dont know
+803183,MCS,mcs4_cm_teacher_survey,dq2345,S4 TS Bereavement,-1.0,Not applicable
+803184,MCS,mcs4_cm_teacher_survey,dq2345,S4 TS Bereavement,1.0,Yes
+803185,MCS,mcs4_cm_teacher_survey,dq2345,S4 TS Bereavement,2.0,No
+803186,MCS,mcs4_cm_teacher_survey,dq2346,S4 TS Others (please describe),-9.0,Dont know
+803187,MCS,mcs4_cm_teacher_survey,dq2346,S4 TS Others (please describe),-1.0,Not applicable
+803188,MCS,mcs4_cm_teacher_survey,dq2346,S4 TS Others (please describe),1.0,Yes
+803189,MCS,mcs4_cm_teacher_survey,dq2346,S4 TS Others (please describe),2.0,No
+803190,MCS,mcs4_cm_teacher_survey,dq2347,S4 TS Text present or not?,-9.0,Dont know
+803191,MCS,mcs4_cm_teacher_survey,dq2347,S4 TS Text present or not?,-1.0,Not applicable
+803192,MCS,mcs4_cm_teacher_survey,dq2347,S4 TS Text present or not?,1.0,Text present
+803193,MCS,mcs4_cm_teacher_survey,dq2347,S4 TS Text present or not?,2.0,No text present
+803194,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,-9.0,Dont know
+803195,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,-1.0,Not applicable
+803196,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,1.0,Very interested
+803197,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,2.0,Moderately interested
+803198,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,3.0,Very little interest
+803199,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,4.0,Uninterested
+803200,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,5.0,Cannot say
+803201,MCS,mcs4_cm_teacher_survey,dq2450,S4 TS Mother appears to be...,6.0,No mother figure
+803202,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,-9.0,Dont know
+803203,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,-1.0,Not applicable
+803204,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,1.0,Very interested
+803205,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,2.0,Moderately interested
+803206,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,3.0,Very little interest
+803207,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,4.0,Uninterested
+803208,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,5.0,Cannot say
+803209,MCS,mcs4_cm_teacher_survey,dq2451,S4 TS Father appears to be...,6.0,No father figure
+803210,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,-9.0,Dont know
+803211,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,-1.0,Not applicable
+803212,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,1.0,Has a balanced view of child's potentia
+803213,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,2.0,Over concerned about pregress / expecti
+803214,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,3.0,Hostile to their child
+803215,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,4.0,Dismissive of child's potential
+803216,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,5.0,Cannot say
+803217,MCS,mcs4_cm_teacher_survey,dq2452,S4 TS Mothers attitude towards child,6.0,No mother figure
+803218,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,-9.0,Dont know
+803219,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,-1.0,Not applicable
+803220,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,1.0,Has a balanced view of child's potentia
+803221,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,2.0,Over concerned about pregress / expecti
+803222,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,3.0,Hostile to their child
+803223,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,4.0,Dismissive of child's potential
+803224,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,5.0,Cannot say
+803225,MCS,mcs4_cm_teacher_survey,dq2453,S4 TS Fathers attitude towards child,6.0,No father figure
+803226,MCS,mcs4_cm_teacher_survey,dq2454,S4 TS In this childs year,-9.0,Dont know
+803227,MCS,mcs4_cm_teacher_survey,dq2454,S4 TS In this childs year,-1.0,Not applicable
+803228,MCS,mcs4_cm_teacher_survey,dq2454,S4 TS In this childs year,1.0,Yes
+803229,MCS,mcs4_cm_teacher_survey,dq2454,S4 TS In this childs year,2.0,No
+803230,MCS,mcs4_cm_teacher_survey,dq2455,S4 TS How many streams are there in this childs year?,-9.0,Dont know
+803231,MCS,mcs4_cm_teacher_survey,dq2455,S4 TS How many streams are there in this childs year?,-1.0,Not applicable
+803232,MCS,mcs4_cm_teacher_survey,dq2457,S4 TS Which stream is this child in?,-9.0,Dont know
+803233,MCS,mcs4_cm_teacher_survey,dq2457,S4 TS Which stream is this child in?,-1.0,Not applicable
+803234,MCS,mcs4_cm_teacher_survey,dq2457,S4 TS Which stream is this child in?,1.0,Highest
+803235,MCS,mcs4_cm_teacher_survey,dq2457,S4 TS Which stream is this child in?,2.0,Middle
+803236,MCS,mcs4_cm_teacher_survey,dq2457,S4 TS Which stream is this child in?,3.0,Lowest
+803237,MCS,mcs4_cm_teacher_survey,dq2458,S4 TS In this childs year are there sets for literacy?,2.0,No
+803238,MCS,mcs4_cm_teacher_survey,dq2458,S4 TS In this childs year are there sets for literacy?,-9.0,Dont know
+803239,MCS,mcs4_cm_teacher_survey,dq2458,S4 TS In this childs year are there sets for literacy?,-1.0,Not applicable
+803240,MCS,mcs4_cm_teacher_survey,dq2458,S4 TS In this childs year are there sets for literacy?,1.0,Yes
+803241,MCS,mcs4_cm_teacher_survey,dq2459,S4 TS How many sets are there in this childs year for literacy,-9.0,Dont know
+803242,MCS,mcs4_cm_teacher_survey,dq2459,S4 TS How many sets are there in this childs year for literacy,-1.0,Not applicable
+803243,MCS,mcs4_cm_teacher_survey,dq2461,S4 TS Which set is this child in for literacy?,-9.0,Dont know
+803244,MCS,mcs4_cm_teacher_survey,dq2461,S4 TS Which set is this child in for literacy?,-1.0,Not applicable
+803245,MCS,mcs4_cm_teacher_survey,dq2461,S4 TS Which set is this child in for literacy?,1.0,Highest
+803246,MCS,mcs4_cm_teacher_survey,dq2461,S4 TS Which set is this child in for literacy?,2.0,Middle
+803247,MCS,mcs4_cm_teacher_survey,dq2461,S4 TS Which set is this child in for literacy?,3.0,Lowest
+803248,MCS,mcs4_cm_teacher_survey,dq2462,S4 TS In this childs year are there sets for maths?,-9.0,Dont know
+803249,MCS,mcs4_cm_teacher_survey,dq2462,S4 TS In this childs year are there sets for maths?,-1.0,Not applicable
+803250,MCS,mcs4_cm_teacher_survey,dq2462,S4 TS In this childs year are there sets for maths?,1.0,Yes
+803251,MCS,mcs4_cm_teacher_survey,dq2462,S4 TS In this childs year are there sets for maths?,2.0,No
+803252,MCS,mcs4_cm_teacher_survey,dq2463,S4 TS How many sets are there in this childs year for maths,-9.0,Dont know
+803253,MCS,mcs4_cm_teacher_survey,dq2463,S4 TS How many sets are there in this childs year for maths,-1.0,Not applicable
+803254,MCS,mcs4_cm_teacher_survey,dq2465,S4 TS Which set is this child in for maths?,-9.0,Dont know
+803255,MCS,mcs4_cm_teacher_survey,dq2465,S4 TS Which set is this child in for maths?,-1.0,Not applicable
+803256,MCS,mcs4_cm_teacher_survey,dq2465,S4 TS Which set is this child in for maths?,1.0,Highest
+803257,MCS,mcs4_cm_teacher_survey,dq2465,S4 TS Which set is this child in for maths?,2.0,Middle
+803258,MCS,mcs4_cm_teacher_survey,dq2465,S4 TS Which set is this child in for maths?,3.0,Lowest
+803259,MCS,mcs4_cm_teacher_survey,dq2466,S4 TS In this childs class,-9.0,Dont know
+803260,MCS,mcs4_cm_teacher_survey,dq2466,S4 TS In this childs class,-1.0,Not applicable
+803261,MCS,mcs4_cm_teacher_survey,dq2466,S4 TS In this childs class,1.0,Yes
+803262,MCS,mcs4_cm_teacher_survey,dq2466,S4 TS In this childs class,2.0,No
+803263,MCS,mcs4_cm_teacher_survey,dq2467,S4 TS How many within-class ability groups are there?,-9.0,Dont know
+803264,MCS,mcs4_cm_teacher_survey,dq2467,S4 TS How many within-class ability groups are there?,-1.0,Not applicable
+803265,MCS,mcs4_cm_teacher_survey,dq2469,S4 TS Which group is this child in?,-9.0,Dont know
+803266,MCS,mcs4_cm_teacher_survey,dq2469,S4 TS Which group is this child in?,-1.0,Not applicable
+803267,MCS,mcs4_cm_teacher_survey,dq2469,S4 TS Which group is this child in?,1.0,Highest
+803268,MCS,mcs4_cm_teacher_survey,dq2469,S4 TS Which group is this child in?,2.0,Middle
+803269,MCS,mcs4_cm_teacher_survey,dq2469,S4 TS Which group is this child in?,3.0,Lowest
+803270,MCS,mcs4_cm_teacher_survey,dq2470,S4 TS In this childs class are there within-class subject groups (literacy),-9.0,Dont know
+803271,MCS,mcs4_cm_teacher_survey,dq2470,S4 TS In this childs class are there within-class subject groups (literacy),-1.0,Not applicable
+803272,MCS,mcs4_cm_teacher_survey,dq2470,S4 TS In this childs class are there within-class subject groups (literacy),1.0,Yes
+803273,MCS,mcs4_cm_teacher_survey,dq2470,S4 TS In this childs class are there within-class subject groups (literacy),2.0,No
+803274,MCS,mcs4_cm_teacher_survey,dq2471,S4 TS How many within-class subject groups are there for literacy,-9.0,Dont know
+803275,MCS,mcs4_cm_teacher_survey,dq2471,S4 TS How many within-class subject groups are there for literacy,-1.0,Not applicable
+803276,MCS,mcs4_cm_teacher_survey,dq2473,S4 TS Which group is this child in for literacy?,-9.0,Dont know
+803277,MCS,mcs4_cm_teacher_survey,dq2473,S4 TS Which group is this child in for literacy?,-1.0,Not applicable
+803278,MCS,mcs4_cm_teacher_survey,dq2473,S4 TS Which group is this child in for literacy?,1.0,Highest
+803279,MCS,mcs4_cm_teacher_survey,dq2473,S4 TS Which group is this child in for literacy?,2.0,Middle
+803280,MCS,mcs4_cm_teacher_survey,dq2473,S4 TS Which group is this child in for literacy?,3.0,Lowest
+803281,MCS,mcs4_cm_teacher_survey,dq2474,S4 TS In this childs class,-9.0,Dont know
+803282,MCS,mcs4_cm_teacher_survey,dq2474,S4 TS In this childs class,-1.0,Not applicable
+803283,MCS,mcs4_cm_teacher_survey,dq2474,S4 TS In this childs class,1.0,Yes
+803284,MCS,mcs4_cm_teacher_survey,dq2474,S4 TS In this childs class,2.0,No
+803285,MCS,mcs4_cm_teacher_survey,dq2475,S4 TS How many within-class subject groups are there for maths,-9.0,Dont know
+803286,MCS,mcs4_cm_teacher_survey,dq2475,S4 TS How many within-class subject groups are there for maths,-1.0,Not applicable
+803287,MCS,mcs4_cm_teacher_survey,dq2477,S4 TS Which group is this child in for maths?,-9.0,Dont know
+803288,MCS,mcs4_cm_teacher_survey,dq2477,S4 TS Which group is this child in for maths?,-1.0,Not applicable
+803289,MCS,mcs4_cm_teacher_survey,dq2477,S4 TS Which group is this child in for maths?,1.0,Highest
+803290,MCS,mcs4_cm_teacher_survey,dq2477,S4 TS Which group is this child in for maths?,2.0,Middle
+803291,MCS,mcs4_cm_teacher_survey,dq2477,S4 TS Which group is this child in for maths?,3.0,Lowest
+803292,MCS,mcs4_cm_teacher_survey,dq2478,S4 TS Already filled out a form for another child in the same class,-9.0,Dont know
+803293,MCS,mcs4_cm_teacher_survey,dq2478,S4 TS Already filled out a form for another child in the same class,-1.0,Not applicable
+803294,MCS,mcs4_cm_teacher_survey,dq2478,S4 TS Already filled out a form for another child in the same class,1.0,Yes
+803295,MCS,mcs4_cm_teacher_survey,dq2478,S4 TS Already filled out a form for another child in the same class,2.0,No
+803296,MCS,mcs4_cm_teacher_survey,dq2479,S4 TS Are you male or female?,-9.0,Dont know
+803297,MCS,mcs4_cm_teacher_survey,dq2479,S4 TS Are you male or female?,-1.0,Not applicable
+803298,MCS,mcs4_cm_teacher_survey,dq2479,S4 TS Are you male or female?,1.0,Male
+803299,MCS,mcs4_cm_teacher_survey,dq2479,S4 TS Are you male or female?,2.0,Female
+803300,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,-9.0,Dont know
+803301,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,-1.0,Not applicable
+803302,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,1.0,Class teacher
+803303,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,2.0,Head teacher
+803304,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,3.0,Other teacher
+803305,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,4.0,Teaching/classroom assistant
+803306,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,5.0,School administrative assistant
+803307,MCS,mcs4_cm_teacher_survey,dq2480,S4 TS Are you the study childs...,6.0,Other
+803308,MCS,mcs4_cm_teacher_survey,dq2481,S4 TS How long have you taught altogether (years)?,-9.0,Dont know
+803309,MCS,mcs4_cm_teacher_survey,dq2481,S4 TS How long have you taught altogether (years)?,-1.0,Not applicable
+803310,MCS,mcs4_cm_teacher_survey,dq2483,S4 TS Year in which you completed your teaching qualification,-9.0,Dont know
+803311,MCS,mcs4_cm_teacher_survey,dq2483,S4 TS Year in which you completed your teaching qualification,-1.0,Not applicable
+803312,MCS,mcs4_cm_teacher_survey,dq2487,S4 TS How many years have you taught at this school?,-9.0,Dont know
+803313,MCS,mcs4_cm_teacher_survey,dq2487,S4 TS How many years have you taught at this school?,-1.0,Not applicable
+803314,MCS,mcs4_cm_teacher_survey,dq2489,S4 TS Which of the qualifications listed below do you have,-9.0,Dont know
+803315,MCS,mcs4_cm_teacher_survey,dq2489,S4 TS Which of the qualifications listed below do you have,-1.0,Not applicable
+803316,MCS,mcs4_cm_teacher_survey,dq2489,S4 TS Which of the qualifications listed below do you have,1.0,one qualification ticked
+803317,MCS,mcs4_cm_teacher_survey,dq2489,S4 TS Which of the qualifications listed below do you have,2.0,two qualifications ticked
+803318,MCS,mcs4_cm_teacher_survey,dq2489,S4 TS Which of the qualifications listed below do you have,3.0,three qualifications ticked
+803319,MCS,mcs4_cm_teacher_survey,dq2489,S4 TS Which of the qualifications listed below do you have,4.0,four qualifications ticked
+803320,MCS,mcs4_cm_teacher_survey,dq2489,S4 TS Which of the qualifications listed below do you have,5.0,five qualifications ticked
+803321,MCS,mcs4_cm_teacher_survey,dq248901,S4 TS Higher degree mainly by research (e.g. PhD,-9.0,Dont know
+803322,MCS,mcs4_cm_teacher_survey,dq248901,S4 TS Higher degree mainly by research (e.g. PhD,-1.0,Not applicable
+803323,MCS,mcs4_cm_teacher_survey,dq248901,S4 TS Higher degree mainly by research (e.g. PhD,0.0,not ticked
+803324,MCS,mcs4_cm_teacher_survey,dq248901,S4 TS Higher degree mainly by research (e.g. PhD,1.0,ticked
+803325,MCS,mcs4_cm_teacher_survey,dq248902,S4 TS Higher degree mainly by taught course (e.g. MA,-9.0,Dont know
+803326,MCS,mcs4_cm_teacher_survey,dq248902,S4 TS Higher degree mainly by taught course (e.g. MA,-1.0,Not applicable
+803327,MCS,mcs4_cm_teacher_survey,dq248902,S4 TS Higher degree mainly by taught course (e.g. MA,0.0,not ticked
+803328,MCS,mcs4_cm_teacher_survey,dq248902,S4 TS Higher degree mainly by taught course (e.g. MA,1.0,ticked
+803329,MCS,mcs4_cm_teacher_survey,dq248903,S4 TS Postgraduate Certificate in Education (PGCE),-9.0,Dont know
+803330,MCS,mcs4_cm_teacher_survey,dq248903,S4 TS Postgraduate Certificate in Education (PGCE),-1.0,Not applicable
+803331,MCS,mcs4_cm_teacher_survey,dq248903,S4 TS Postgraduate Certificate in Education (PGCE),0.0,not ticked
+803332,MCS,mcs4_cm_teacher_survey,dq248903,S4 TS Postgraduate Certificate in Education (PGCE),1.0,ticked
+803333,MCS,mcs4_cm_teacher_survey,dq248904,S4 TS Other postgraduate diploma or certificate,-9.0,Dont know
+803334,MCS,mcs4_cm_teacher_survey,dq248904,S4 TS Other postgraduate diploma or certificate,-1.0,Not applicable
+803335,MCS,mcs4_cm_teacher_survey,dq248904,S4 TS Other postgraduate diploma or certificate,0.0,not ticked
+803336,MCS,mcs4_cm_teacher_survey,dq248904,S4 TS Other postgraduate diploma or certificate,1.0,ticked
+803337,MCS,mcs4_cm_teacher_survey,dq248905,S4 TS Batchelor of Education (BEd),-9.0,Dont know
+803338,MCS,mcs4_cm_teacher_survey,dq248905,S4 TS Batchelor of Education (BEd),-1.0,Not applicable
+803339,MCS,mcs4_cm_teacher_survey,dq248905,S4 TS Batchelor of Education (BEd),0.0,not ticked
+803340,MCS,mcs4_cm_teacher_survey,dq248905,S4 TS Batchelor of Education (BEd),1.0,ticked
+803341,MCS,mcs4_cm_teacher_survey,dq248906,S4 TS Other first degree (e.g. BA,-9.0,Dont know
+803342,MCS,mcs4_cm_teacher_survey,dq248906,S4 TS Other first degree (e.g. BA,-1.0,Not applicable
+803343,MCS,mcs4_cm_teacher_survey,dq248906,S4 TS Other first degree (e.g. BA,0.0,not ticked
+803344,MCS,mcs4_cm_teacher_survey,dq248906,S4 TS Other first degree (e.g. BA,1.0,ticked
+803345,MCS,mcs4_cm_teacher_survey,dq248907,S4 TS Teaching diploma or certificate,-9.0,Dont know
+803346,MCS,mcs4_cm_teacher_survey,dq248907,S4 TS Teaching diploma or certificate,-1.0,Not applicable
+803347,MCS,mcs4_cm_teacher_survey,dq248907,S4 TS Teaching diploma or certificate,0.0,not ticked
+803348,MCS,mcs4_cm_teacher_survey,dq248907,S4 TS Teaching diploma or certificate,1.0,ticked
+803349,MCS,mcs4_cm_teacher_survey,dq248908,S4 TS Professional qualification (e.g. accountancy),-9.0,Dont know
+803350,MCS,mcs4_cm_teacher_survey,dq248908,S4 TS Professional qualification (e.g. accountancy),-1.0,Not applicable
+803351,MCS,mcs4_cm_teacher_survey,dq248908,S4 TS Professional qualification (e.g. accountancy),0.0,not ticked
+803352,MCS,mcs4_cm_teacher_survey,dq248908,S4 TS Professional qualification (e.g. accountancy),1.0,ticked
+803353,MCS,mcs4_cm_teacher_survey,dq248909,S4 TS None of these,-9.0,Dont know
+803354,MCS,mcs4_cm_teacher_survey,dq248909,S4 TS None of these,-1.0,Not applicable
+803355,MCS,mcs4_cm_teacher_survey,dq248909,S4 TS None of these,0.0,not ticked
+803356,MCS,mcs4_cm_teacher_survey,dq248909,S4 TS None of these,1.0,ticked
+803357,MCS,mcs4_cm_teacher_survey,dq248910,S4 TS Do not wish to answer,-9.0,Dont know
+803358,MCS,mcs4_cm_teacher_survey,dq248910,S4 TS Do not wish to answer,-1.0,Not applicable
+803359,MCS,mcs4_cm_teacher_survey,dq248910,S4 TS Do not wish to answer,0.0,not ticked
+803360,MCS,mcs4_cm_teacher_survey,dq248910,S4 TS Do not wish to answer,1.0,ticked
+803361,MCS,mcs4_cm_teacher_survey,dq2511,S4 TS How many children are there on the study childs class,-9.0,Dont know
+803362,MCS,mcs4_cm_teacher_survey,dq2511,S4 TS How many children are there on the study childs class,-1.0,Not applicable
+803363,MCS,mcs4_cm_teacher_survey,dq2513,S4 TS Does the study childs class contain mixed year group,-9.0,Dont know
+803364,MCS,mcs4_cm_teacher_survey,dq2513,S4 TS Does the study childs class contain mixed year group,-1.0,Not applicable
+803365,MCS,mcs4_cm_teacher_survey,dq2513,S4 TS Does the study childs class contain mixed year group,1.0,Yes
+803366,MCS,mcs4_cm_teacher_survey,dq2513,S4 TS Does the study childs class contain mixed year group,2.0,No
+803367,MCS,mcs4_cm_teacher_survey,dq2514,S4 TS How many children in reception year / Primary 1,-9.0,Dont know
+803368,MCS,mcs4_cm_teacher_survey,dq2514,S4 TS How many children in reception year / Primary 1,-1.0,Not applicable
+803369,MCS,mcs4_cm_teacher_survey,dq2516,S4 TS How many children in year 1 / Primary 2,-9.0,Dont know
+803370,MCS,mcs4_cm_teacher_survey,dq2516,S4 TS How many children in year 1 / Primary 2,-1.0,Not applicable
+803371,MCS,mcs4_cm_teacher_survey,dq2518,S4 TS How many children in year 2 / Primary 3,-9.0,Dont know
+803372,MCS,mcs4_cm_teacher_survey,dq2518,S4 TS How many children in year 2 / Primary 3,-1.0,Not applicable
+803373,MCS,mcs4_cm_teacher_survey,dq2520,S4 TS How many children in year 3 / Primary 4,-9.0,Dont know
+803374,MCS,mcs4_cm_teacher_survey,dq2520,S4 TS How many children in year 3 / Primary 4,-1.0,Not applicable
+803375,MCS,mcs4_cm_teacher_survey,dq2522,S4 TS How many children in year 4 / Primary 5,-9.0,Dont know
+803376,MCS,mcs4_cm_teacher_survey,dq2522,S4 TS How many children in year 4 / Primary 5,-1.0,Not applicable
+803377,MCS,mcs4_cm_teacher_survey,dq2524,S4 TS How many classes are there in the study childs year,-9.0,Dont know
+803378,MCS,mcs4_cm_teacher_survey,dq2524,S4 TS How many classes are there in the study childs year,-1.0,Not applicable
+803379,MCS,mcs4_cm_teacher_survey,dq2526,S4 TS How many children in the study childs class have SEN statements,-9.0,Dont know
+803380,MCS,mcs4_cm_teacher_survey,dq2526,S4 TS How many children in the study childs class have SEN statements,-1.0,Not applicable
+803381,MCS,mcs4_cm_teacher_survey,dq2528,S4 TS How many children in the CM's class have been excluded from school,-9.0,Dont know
+803382,MCS,mcs4_cm_teacher_survey,dq2528,S4 TS How many children in the CM's class have been excluded from school,-1.0,Not applicable
+803383,MCS,mcs4_cm_teacher_survey,dq2530,S4 TS How many children childs class where English is addtnal lang.,-9.0,Dont know
+803384,MCS,mcs4_cm_teacher_survey,dq2530,S4 TS How many children childs class where English is addtnal lang.,-1.0,Not applicable
+803385,MCS,mcs4_cm_teacher_survey,dq2532,S4 TS Any children whose behaviour prevents other children from learning,-9.0,Dont know
+803386,MCS,mcs4_cm_teacher_survey,dq2532,S4 TS Any children whose behaviour prevents other children from learning,-1.0,Not applicable
+803387,MCS,mcs4_cm_teacher_survey,dq2532,S4 TS Any children whose behaviour prevents other children from learning,1.0,Yes
+803388,MCS,mcs4_cm_teacher_survey,dq2532,S4 TS Any children whose behaviour prevents other children from learning,2.0,No
+803389,MCS,mcs4_cm_teacher_survey,dq2533,S4 TS Which of the phrases below best describes the noise outside classroom,-9.0,Dont know
+803390,MCS,mcs4_cm_teacher_survey,dq2533,S4 TS Which of the phrases below best describes the noise outside classroom,-1.0,Not applicable
+803391,MCS,mcs4_cm_teacher_survey,dq2533,S4 TS Which of the phrases below best describes the noise outside classroom,1.0,Continuous and is a problem
+803392,MCS,mcs4_cm_teacher_survey,dq2533,S4 TS Which of the phrases below best describes the noise outside classroom,2.0,Continuous but not a problem
+803393,MCS,mcs4_cm_teacher_survey,dq2533,S4 TS Which of the phrases below best describes the noise outside classroom,3.0,Intermittent and is a problem
+803394,MCS,mcs4_cm_teacher_survey,dq2533,S4 TS Which of the phrases below best describes the noise outside classroom,4.0,Intermittent but not a problem
+803395,MCS,mcs4_cm_teacher_survey,dq2533,S4 TS Which of the phrases below best describes the noise outside classroom,5.0,Usually quiet outside the classroom
+803396,MCS,mcs4_cm_teacher_survey,dq2534,S4 TS How many days in this term has supply cover been used,-9.0,Dont know
+803397,MCS,mcs4_cm_teacher_survey,dq2534,S4 TS How many days in this term has supply cover been used,-1.0,Not applicable
+803398,MCS,mcs4_cm_teacher_survey,dq2551,S4 TS How many hours a week spent teaching literacy or language,-9.0,Dont know
+803399,MCS,mcs4_cm_teacher_survey,dq2551,S4 TS How many hours a week spent teaching literacy or language,-1.0,Not applicable
+803400,MCS,mcs4_cm_teacher_survey,dq2553,S4 TS How many hours a week spent teaching maths and numeracy,-9.0,Dont know
+803401,MCS,mcs4_cm_teacher_survey,dq2553,S4 TS How many hours a week spent teaching maths and numeracy,-1.0,Not applicable
+803402,MCS,mcs4_cm_teacher_survey,dq2555,S4 TS How many hours a week spent teaching PE?,-9.0,Dont know
+803403,MCS,mcs4_cm_teacher_survey,dq2555,S4 TS How many hours a week spent teaching PE?,-1.0,Not applicable
+803404,MCS,mcs4_cm_teacher_survey,dq2557,S4 TS % of lesson time spent on literacy or language - whole class,-9.0,Dont know
+803405,MCS,mcs4_cm_teacher_survey,dq2557,S4 TS % of lesson time spent on literacy or language - whole class,-1.0,Not applicable
+803406,MCS,mcs4_cm_teacher_survey,dq2560,S4 TS % of lesson time spent on literacy or language - in groups,-9.0,Dont know
+803407,MCS,mcs4_cm_teacher_survey,dq2560,S4 TS % of lesson time spent on literacy or language - in groups,-1.0,Not applicable
+803408,MCS,mcs4_cm_teacher_survey,dq2563,S4 TS % of lesson time spent on literacy or language - individually,-9.0,Dont know
+803409,MCS,mcs4_cm_teacher_survey,dq2563,S4 TS % of lesson time spent on literacy or language - individually,-1.0,Not applicable
+803410,MCS,mcs4_cm_teacher_survey,dq2566,S4 TS % of lesson time spent on maths or numeracy - whole class,-9.0,Dont know
+803411,MCS,mcs4_cm_teacher_survey,dq2566,S4 TS % of lesson time spent on maths or numeracy - whole class,-1.0,Not applicable
+803412,MCS,mcs4_cm_teacher_survey,dq2569,S4 TS % of lesson time spent on maths or numeracy - in groups,-9.0,Dont know
+803413,MCS,mcs4_cm_teacher_survey,dq2569,S4 TS % of lesson time spent on maths or numeracy - in groups,-1.0,Not applicable
+803414,MCS,mcs4_cm_teacher_survey,dq2572,S4 TS % of lesson time spent on maths or numeracy - individually,-9.0,Dont know
+803415,MCS,mcs4_cm_teacher_survey,dq2572,S4 TS % of lesson time spent on maths or numeracy - individually,-1.0,Not applicable
+803416,MCS,mcs4_cm_teacher_survey,dq2575,S4 TS How long expected to spend on homework in an average,-9.0,Dont know
+803417,MCS,mcs4_cm_teacher_survey,dq2575,S4 TS How long expected to spend on homework in an average,-1.0,Not applicable
+803418,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,-9.0,Dont know
+803419,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,-1.0,Not applicable
+803420,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,1.0,one option ticked
+803421,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,2.0,two options ticked
+803422,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,3.0,three options ticked
+803423,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,4.0,four options ticked
+803424,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,5.0,five options ticked
+803425,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,6.0,six options ticked
+803426,MCS,mcs4_cm_teacher_survey,dq2578,S4 TS This term did the CM's class get regular support from any of these,7.0,seven options ticked
+803427,MCS,mcs4_cm_teacher_survey,dq25781,S4 TS  Another teacher (specialist),-9.0,Dont know
+803428,MCS,mcs4_cm_teacher_survey,dq25781,S4 TS  Another teacher (specialist),-1.0,Not applicable
+803429,MCS,mcs4_cm_teacher_survey,dq25781,S4 TS  Another teacher (specialist),0.0,not ticked
+803430,MCS,mcs4_cm_teacher_survey,dq25781,S4 TS  Another teacher (specialist),1.0,ticked
+803431,MCS,mcs4_cm_teacher_survey,dq25782,S4 TS  Special needs teacher,-9.0,Dont know
+803432,MCS,mcs4_cm_teacher_survey,dq25782,S4 TS  Special needs teacher,-1.0,Not applicable
+803433,MCS,mcs4_cm_teacher_survey,dq25782,S4 TS  Special needs teacher,0.0,not ticked
+803434,MCS,mcs4_cm_teacher_survey,dq25782,S4 TS  Special needs teacher,1.0,ticked
+803435,MCS,mcs4_cm_teacher_survey,dq25783,S4 TS  Teaching/classroom assistant,-9.0,Dont know
+803436,MCS,mcs4_cm_teacher_survey,dq25783,S4 TS  Teaching/classroom assistant,-1.0,Not applicable
+803437,MCS,mcs4_cm_teacher_survey,dq25783,S4 TS  Teaching/classroom assistant,0.0,not ticked
+803438,MCS,mcs4_cm_teacher_survey,dq25783,S4 TS  Teaching/classroom assistant,1.0,ticked
+803439,MCS,mcs4_cm_teacher_survey,dq25784,S4 TS  Student teacher,-9.0,Dont know
+803440,MCS,mcs4_cm_teacher_survey,dq25784,S4 TS  Student teacher,-1.0,Not applicable
+803441,MCS,mcs4_cm_teacher_survey,dq25784,S4 TS  Student teacher,0.0,not ticked
+803442,MCS,mcs4_cm_teacher_survey,dq25784,S4 TS  Student teacher,1.0,ticked
+803443,MCS,mcs4_cm_teacher_survey,dq25785,S4 TS  Volunteer,-9.0,Dont know
+803444,MCS,mcs4_cm_teacher_survey,dq25785,S4 TS  Volunteer,-1.0,Not applicable
+803445,MCS,mcs4_cm_teacher_survey,dq25785,S4 TS  Volunteer,0.0,not ticked
+803446,MCS,mcs4_cm_teacher_survey,dq25785,S4 TS  Volunteer,1.0,ticked
+803447,MCS,mcs4_cm_teacher_survey,dq25786,S4 TS  Parents,-9.0,Dont know
+803448,MCS,mcs4_cm_teacher_survey,dq25786,S4 TS  Parents,-1.0,Not applicable
+803449,MCS,mcs4_cm_teacher_survey,dq25786,S4 TS  Parents,0.0,not ticked
+803450,MCS,mcs4_cm_teacher_survey,dq25786,S4 TS  Parents,1.0,ticked
+803451,MCS,mcs4_cm_teacher_survey,dq25787,S4 TS  Any other (please specify),-9.0,Dont know
+803452,MCS,mcs4_cm_teacher_survey,dq25787,S4 TS  Any other (please specify),-1.0,Not applicable
+803453,MCS,mcs4_cm_teacher_survey,dq25787,S4 TS  Any other (please specify),0.0,not ticked
+803454,MCS,mcs4_cm_teacher_survey,dq25787,S4 TS  Any other (please specify),1.0,ticked
+803455,MCS,mcs4_cm_teacher_survey,dq2702,S4 TS Date of completion - month,-9.0,Dont know
+803456,MCS,mcs4_cm_teacher_survey,dq2702,S4 TS Date of completion - month,-1.0,Not applicable
+803457,MCS,mcs4_cm_teacher_survey,dq2704,S4 TS Date of completion - year,-9.0,Dont know
+803458,MCS,mcs4_cm_teacher_survey,dq2704,S4 TS Date of completion - year,-1.0,Not applicable
+803459,MCS,mcs4_cm_teacher_survey,dq2708,S4 TS Are you the teacher named on front of questionnaire,-9.0,Dont know
+803460,MCS,mcs4_cm_teacher_survey,dq2708,S4 TS Are you the teacher named on front of questionnaire,-1.0,Not applicable
+803461,MCS,mcs4_cm_teacher_survey,dq2708,S4 TS Are you the teacher named on front of questionnaire,1.0,Yes
+803462,MCS,mcs4_cm_teacher_survey,dq2708,S4 TS Are you the teacher named on front of questionnaire,2.0,No
+803463,MCS,mcs4_cm_teacher_survey,stream,S4 DV: If streamed at school and which stream,-8.0,DK if streamed
+803464,MCS,mcs4_cm_teacher_survey,stream,S4 DV: If streamed at school and which stream,-7.0,Teacher unsure what stream
+803465,MCS,mcs4_cm_teacher_survey,stream,S4 DV: If streamed at school and which stream,-1.0,Not applicable
+803466,MCS,mcs4_cm_teacher_survey,stream,S4 DV: If streamed at school and which stream,0.0,Not streamed
+803467,MCS,mcs4_cm_teacher_survey,stream,S4 DV: If streamed at school and which stream,1.0,Top stream
+803468,MCS,mcs4_cm_teacher_survey,stream,S4 DV: If streamed at school and which stream,2.0,Middle stream
+803469,MCS,mcs4_cm_teacher_survey,stream,S4 DV: If streamed at school and which stream,3.0,Bottom stream
+803470,MCS,mcs4_cm_teacher_survey,streamg,S4 DV: If streamed at school and which stream (Grouped),-1.0,Teacher unsure
+803471,MCS,mcs4_cm_teacher_survey,streamg,S4 DV: If streamed at school and which stream (Grouped),0.0,Not streamed
+803472,MCS,mcs4_cm_teacher_survey,streamg,S4 DV: If streamed at school and which stream (Grouped),1.0,Streamed
+803473,MCS,mcs4_cm_teacher_survey,litset,S4 DV: Set for Literacy,-8.0,D/K if set
+803474,MCS,mcs4_cm_teacher_survey,litset,S4 DV: Set for Literacy,-7.0,Set but D/K which set
+803475,MCS,mcs4_cm_teacher_survey,litset,S4 DV: Set for Literacy,0.0,Not set
+803476,MCS,mcs4_cm_teacher_survey,litset,S4 DV: Set for Literacy,1.0,Top set
+803477,MCS,mcs4_cm_teacher_survey,litset,S4 DV: Set for Literacy,2.0,Middle set
+803478,MCS,mcs4_cm_teacher_survey,litset,S4 DV: Set for Literacy,3.0,Bottom set
+803479,MCS,mcs4_cm_teacher_survey,numset,S4 DV: Set for Maths,-8.0,D/K if set
+803480,MCS,mcs4_cm_teacher_survey,numset,S4 DV: Set for Maths,-7.0,Set but D/K which set
+803481,MCS,mcs4_cm_teacher_survey,numset,S4 DV: Set for Maths,0.0,Not set
+803482,MCS,mcs4_cm_teacher_survey,numset,S4 DV: Set for Maths,1.0,Top set
+803483,MCS,mcs4_cm_teacher_survey,numset,S4 DV: Set for Maths,2.0,Middle set
+803484,MCS,mcs4_cm_teacher_survey,numset,S4 DV: Set for Maths,3.0,Bottom set
+803485,MCS,mcs4_cm_teacher_survey,litsetg,S4 DV: Set for Literacy (Grouped),-8.0,D/K if set
+803486,MCS,mcs4_cm_teacher_survey,litsetg,S4 DV: Set for Literacy (Grouped),-7.0,Set but D/K which set
+803487,MCS,mcs4_cm_teacher_survey,litsetg,S4 DV: Set for Literacy (Grouped),0.0,Not set
+803488,MCS,mcs4_cm_teacher_survey,litsetg,S4 DV: Set for Literacy (Grouped),1.0,Set
+803489,MCS,mcs4_cm_teacher_survey,numsetg,S4 DV: Set for Math (Grouped),-8.0,D/K if set
+803490,MCS,mcs4_cm_teacher_survey,numsetg,S4 DV: Set for Math (Grouped),-7.0,Set but D/K which set
+803491,MCS,mcs4_cm_teacher_survey,numsetg,S4 DV: Set for Math (Grouped),0.0,Not set
+803492,MCS,mcs4_cm_teacher_survey,numsetg,S4 DV: Set for Math (Grouped),1.0,Set
+803493,MCS,mcs4_cm_teacher_survey,litmath,S4 DV: Setting summary,-1.0,D/K if set
+803494,MCS,mcs4_cm_teacher_survey,litmath,S4 DV: Setting summary,0.0,Not set
+803495,MCS,mcs4_cm_teacher_survey,litmath,S4 DV: Setting summary,1.0,Set maths
+803496,MCS,mcs4_cm_teacher_survey,litmath,S4 DV: Setting summary,2.0,Set literacy
+803497,MCS,mcs4_cm_teacher_survey,litmath,S4 DV: Setting summary,3.0,Set literacy and maths
+803498,MCS,mcs4_cm_teacher_survey,wicag,S4 DV: Within-class ability grouping,-8.0,D/K if in grp
+803499,MCS,mcs4_cm_teacher_survey,wicag,S4 DV: Within-class ability grouping,-7.0,Grp but D?K which grp
+803500,MCS,mcs4_cm_teacher_survey,wicag,S4 DV: Within-class ability grouping,0.0,Not grp
+803501,MCS,mcs4_cm_teacher_survey,wicag,S4 DV: Within-class ability grouping,1.0,Top grp
+803502,MCS,mcs4_cm_teacher_survey,wicag,S4 DV: Within-class ability grouping,2.0,Middle grp
+803503,MCS,mcs4_cm_teacher_survey,wicag,S4 DV: Within-class ability grouping,3.0,Bottom grp
+803504,MCS,mcs4_cm_teacher_survey,wicagl,S4 DV: Within-class ability grouping (Literacy),-8.0,D/K if in grp
+803505,MCS,mcs4_cm_teacher_survey,wicagl,S4 DV: Within-class ability grouping (Literacy),-7.0,Grp but D/K which grp
+803506,MCS,mcs4_cm_teacher_survey,wicagl,S4 DV: Within-class ability grouping (Literacy),0.0, Not grp
+803507,MCS,mcs4_cm_teacher_survey,wicagl,S4 DV: Within-class ability grouping (Literacy),1.0,Top literacy grp
+803508,MCS,mcs4_cm_teacher_survey,wicagl,S4 DV: Within-class ability grouping (Literacy),2.0,Middle literacy grp
+803509,MCS,mcs4_cm_teacher_survey,wicagl,S4 DV: Within-class ability grouping (Literacy),3.0,Bottom literacy grp
+803510,MCS,mcs4_cm_teacher_survey,wicagn,S4 DV: Within-class ability grouping (Numeracy),-8.0,D/K if in grp
+803511,MCS,mcs4_cm_teacher_survey,wicagn,S4 DV: Within-class ability grouping (Numeracy),-7.0,Grp but D/K which grp
+803512,MCS,mcs4_cm_teacher_survey,wicagn,S4 DV: Within-class ability grouping (Numeracy),0.0,Not in grp
+803513,MCS,mcs4_cm_teacher_survey,wicagn,S4 DV: Within-class ability grouping (Numeracy),1.0,Top numeracy grp
+803514,MCS,mcs4_cm_teacher_survey,wicagn,S4 DV: Within-class ability grouping (Numeracy),2.0,Middle numeracy grp
+803515,MCS,mcs4_cm_teacher_survey,wicagn,S4 DV: Within-class ability grouping (Numeracy),3.0,Bottom numeracy grp
+803516,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,7.0,"stream, DK if set"
+803517,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,8.0,"DK which stream, no set"
+803518,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,9.0,"DK which stream, num set"
+803519,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,10.0,"DK which stream, num set?"
+803520,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,11.0,"DK which stream, dk if set"
+803521,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,12.0,"DK if stream, no set"
+803522,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,13.0,"DK if stream, num set"
+803523,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,14.0,"DK if stream, num set?"
+803524,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,15.0,"DK if stream, dk if set"
+803525,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,0.0,"no stream, no set"
+803526,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,1.0,"no stream, num set"
+803527,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,2.0,"stream, no set"
+803528,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,3.0,"stream, num set"
+803529,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,4.0,"no stream, num set ?"
+803530,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,5.0,"no stream, DK if set"
+803531,MCS,mcs4_cm_teacher_survey,strnum,DV: Relationship between streaming and numeracy setting,6.0,"stream, num set?"
+803532,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),0.0,"no stream, no set"
+803533,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),1.0,"no stream, lit set"
+803534,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),2.0,"stream, no set"
+803535,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),3.0,"stream, lit set"
+803536,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),4.0,"no stream, lit set ?"
+803537,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),5.0,"no stream, DK if set"
+803538,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),6.0,"stream, lit set?"
+803539,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),7.0,"stream, DK if set"
+803540,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),8.0,"DK which stream, no set"
+803541,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),9.0,"DK which stream, lit set"
+803542,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),10.0,"DK which stream, lit set?"
+803543,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),11.0,"DK which stream, DK if set"
+803544,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),12.0,"DK if stream, no set"
+803545,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),13.0,"DK if stream, lit set"
+803546,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),14.0,"DK if stream, lit set?"
+803547,MCS,mcs4_cm_teacher_survey,strlit,DV: Relationship between streaming and numeracy setting (grouped),15.0,"DK if stream, DK if set"
+803548,MCS,mcs4_cm_teacher_survey,strnumg,DV: Relationship between streaming and literacy setting,-1.0,Dont Know
+803549,MCS,mcs4_cm_teacher_survey,strnumg,DV: Relationship between streaming and literacy setting,0.0,"No stream, no set"
+803550,MCS,mcs4_cm_teacher_survey,strnumg,DV: Relationship between streaming and literacy setting,1.0,"No stream, lit set"
+803551,MCS,mcs4_cm_teacher_survey,strnumg,DV: Relationship between streaming and literacy setting,2.0,"Stream, no set"
+803552,MCS,mcs4_cm_teacher_survey,strnumg,DV: Relationship between streaming and literacy setting,3.0,"Stream, lit set"
+803553,MCS,mcs4_cm_teacher_survey,strnumg,DV: Relationship between streaming and literacy setting,4.0,DK if stream OR set
+803554,MCS,mcs4_cm_teacher_survey,strnumg,DV: Relationship between streaming and literacy setting,5.0,DK if stream AND set
+803555,MCS,mcs4_cm_teacher_survey,strlitg,DV: Relationship between streaming and literacy setting (grouped),-1.0,Dont Know
+803556,MCS,mcs4_cm_teacher_survey,strlitg,DV: Relationship between streaming and literacy setting (grouped),0.0,"No stream, no set"
+803557,MCS,mcs4_cm_teacher_survey,strlitg,DV: Relationship between streaming and literacy setting (grouped),1.0,"No stream, lit set"
+803558,MCS,mcs4_cm_teacher_survey,strlitg,DV: Relationship between streaming and literacy setting (grouped),2.0,"Stream, no set"
+803559,MCS,mcs4_cm_teacher_survey,strlitg,DV: Relationship between streaming and literacy setting (grouped),3.0,"Stream, lit set"
+803560,MCS,mcs4_cm_teacher_survey,strlitg,DV: Relationship between streaming and literacy setting (grouped),4.0,DK if stream OR set
+803561,MCS,mcs4_cm_teacher_survey,strlitg,DV: Relationship between streaming and literacy setting (grouped),5.0,DK if stream AND set
+803562,MCS,mcs4_cm_teacher_survey,m4stsc2,S4 DV: Which school year cm in,-1.0,Missing
+803563,MCS,mcs4_cm_teacher_survey,m4stsc2,S4 DV: Which school year cm in,1.0,Year 1 / primary 2
+803564,MCS,mcs4_cm_teacher_survey,m4stsc2,S4 DV: Which school year cm in,2.0,Year 2 / primary 3
+803565,MCS,mcs4_cm_teacher_survey,m4stsc2,S4 DV: Which school year cm in,3.0,Year 3 / primary 4
+803566,MCS,mcs4_cm_teacher_survey,m4stsc2,S4 DV: Which school year cm in,4.0,Other year
+803567,MCS,mcs4_cm_teacher_survey,m4stsc2,S4 DV: Which school year cm in,5.0,Not at aschool
+803568,MCS,mcs4_cm_teacher_survey,season,DV: Season born in,1.0,Autumn 2000
+803569,MCS,mcs4_cm_teacher_survey,season,DV: Season born in,2.0,Winter 2000/1
+803570,MCS,mcs4_cm_teacher_survey,season,DV: Season born in,3.0,Spring 2001
+803571,MCS,mcs4_cm_teacher_survey,season,DV: Season born in,4.0,Summer 2001
+803572,MCS,mcs4_cm_teacher_survey,season,DV: Season born in,5.0,Autumn 2001
+803573,MCS,mcs4_cm_teacher_survey,season,DV: Season born in,6.0,Winter 2001/2
+803574,MCS,mcs4_cm_teacher_survey,seasong,DV: season born in (Grouped),1.0,Autumn 2000
+803575,MCS,mcs4_cm_teacher_survey,seasong,DV: season born in (Grouped),2.0,Winter 2000/1
+803576,MCS,mcs4_cm_teacher_survey,seasong,DV: season born in (Grouped),3.0,Spring 2001
+803577,MCS,mcs4_cm_teacher_survey,seasong,DV: season born in (Grouped),4.0,Summer 2001
+803578,MCS,mcs4_cm_teacher_survey,seasong,DV: season born in (Grouped),5.0,Autumn/ Winter 2001/2
+803579,MCS,mcs4_cm_teacher_survey,tserial,S4 DV: Teacher Serial (anonymised),,
+803580,MCS,mcs4_cm_teacher_survey,avail_from_dt,,,
+803581,MCS,mcs4_cm_teacher_survey,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

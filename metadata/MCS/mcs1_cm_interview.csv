@@ -1,0 +1,9 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+756485,MCS,mcs1_cm_interview,study_id_e,,,
+756486,MCS,mcs1_cm_interview,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+756487,MCS,mcs1_cm_interview,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+756488,MCS,mcs1_cm_interview,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+756489,MCS,mcs1_cm_interview,acmcbcode_22,Mother's country of birth (ISO 3166) : Top coded to two letter country code or,,
+756490,MCS,mcs1_cm_interview,acfcbcode_22,Father's country of birth : Top coded to two letter country code or Continent,,
+756491,MCS,mcs1_cm_interview,avail_from_dt,,,
+756492,MCS,mcs1_cm_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

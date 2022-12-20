@@ -1,0 +1,56 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+37567,BCS70,bcs2_derived,study_id_e,,,
+37568,BCS70,bcs2_derived,bd2cntry,1975: Country of Interview,-1.0,Not known
+37569,BCS70,bcs2_derived,bd2cntry,1975: Country of Interview,1.0,England
+37570,BCS70,bcs2_derived,bd2cntry,1975: Country of Interview,2.0,Wales
+37571,BCS70,bcs2_derived,bd2cntry,1975: Country of Interview,3.0,Scotland
+37572,BCS70,bcs2_derived,bd2cntry,1975: Country of Interview,4.0,Northern Ireland
+37573,BCS70,bcs2_derived,bd2cntry,1975: Country of Interview,12.0,Overseas
+37574,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,-2.0,Armed Services
+37575,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,-1.0,Unknown
+37576,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,1.0,North
+37577,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,2.0,Yorks and Humberside
+37578,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,3.0,East Midlands
+37579,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,4.0,East Anglia
+37580,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,5.0,South East
+37581,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,6.0,South West
+37582,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,7.0,West Midlands
+37583,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,8.0,North West
+37584,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,9.0,Wales
+37585,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,10.0,Scotland
+37586,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,11.0,Northern Ireland
+37587,BCS70,bcs2_derived,bd2regn,1975: Standard Region of residence,12.0,Overseas
+37588,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),-1.0,info missing
+37589,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),0.0,student/voluntary work
+37590,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),1.0,V unskilled
+37591,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),2.0,IV partly-skilled
+37592,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),3.0,III manual
+37593,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),4.0,III non manual
+37594,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),5.0,II managerial and Technical
+37595,BCS70,bcs2_derived,bd2soc,1975: Social class -fathers occup (or mothers if missing) (e197 + e206),6.0,I professional
+37596,BCS70,bcs2_derived,bd2read,1975: Standardised English Picture Vocab Test score (EPVT) (b5read),-1.0,Not computed
+37597,BCS70,bcs2_derived,bd2rdage,1975: Estimated reading age at age 5 (derived from zb5read and av age),-1.0,Not computed
+37598,BCS70,bcs2_derived,bd2in,1975: CM's parent gave information on 1+ Malaise question,0.0,no info
+37599,BCS70,bcs2_derived,bd2in,1975: CM's parent gave information on 1+ Malaise question,1.0,info at age 5
+37600,BCS70,bcs2_derived,bd2mal,1975:  (CM's parent) total Malaise score,-2.0,not stated any questions
+37601,BCS70,bcs2_derived,bd2mal,1975:  (CM's parent) total Malaise score,-1.0,incomplete info
+37602,BCS70,bcs2_derived,bd2mala,1975: (CM's parent) total Malaise score - grouped based on distribution,-2.0,not stated any questions
+37603,BCS70,bcs2_derived,bd2mala,1975: (CM's parent) total Malaise score - grouped based on distribution,-1.0,incomplete info
+37604,BCS70,bcs2_derived,bd2mala,1975: (CM's parent) total Malaise score - grouped based on distribution,1.0,0-80th centile - normal behaviour
+37605,BCS70,bcs2_derived,bd2mala,1975: (CM's parent) total Malaise score - grouped based on distribution,2.0,81st-95th centile-mod. behaviour probs
+37606,BCS70,bcs2_derived,bd2mala,1975: (CM's parent) total Malaise score - grouped based on distribution,3.0,95+ centile - severe behaviour problems
+37607,BCS70,bcs2_derived,bd2malb,1975: (CM's parent) total Malaise score - grouped in standard way,-2.0,not stated any questions
+37608,BCS70,bcs2_derived,bd2malb,1975: (CM's parent) total Malaise score - grouped in standard way,-1.0,incomplete info
+37609,BCS70,bcs2_derived,bd2malb,1975: (CM's parent) total Malaise score - grouped in standard way,1.0,score of 0-7
+37610,BCS70,bcs2_derived,bd2malb,1975: (CM's parent) total Malaise score - grouped in standard way,2.0,score of 8+
+37611,BCS70,bcs2_derived,bd2n,1975: CM's parent gave information on at least 1 Rutter question,0.0,no info
+37612,BCS70,bcs2_derived,bd2n,1975: CM's parent gave information on at least 1 Rutter question,1.0,info at age 5
+37613,BCS70,bcs2_derived,bd2rutt,1975:  (CM's parent) total Rutter behaviour score,-2.0,not stated any questions
+37614,BCS70,bcs2_derived,bd2rutt,1975:  (CM's parent) total Rutter behaviour score,-1.0,incomplete info
+37615,BCS70,bcs2_derived,bd2mrutg,1975: (CM's parent) total Rutter behaviour score  - grouped,-2.0,not stated any questions
+37616,BCS70,bcs2_derived,bd2mrutg,1975: (CM's parent) total Rutter behaviour score  - grouped,-1.0,incomplete info
+37617,BCS70,bcs2_derived,bd2mrutg,1975: (CM's parent) total Rutter behaviour score  - grouped,1.0,0-80th centile - normal behaviour
+37618,BCS70,bcs2_derived,bd2mrutg,1975: (CM's parent) total Rutter behaviour score  - grouped,2.0,81st-95th centile-mod. behaviour probs
+37619,BCS70,bcs2_derived,bd2mrutg,1975: (CM's parent) total Rutter behaviour score  - grouped,3.0,95+ centile - severe behaviour problems
+37620,BCS70,bcs2_derived,v3,None,,
+37621,BCS70,bcs2_derived,avail_from_dt,,,

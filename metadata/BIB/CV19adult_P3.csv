@@ -1,0 +1,369 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+646845,BIB,CV19adult_P3,study_id_e,,,
+646846,BIB,CV19adult_P3,timestamp,Date of survey completion,,
+646847,BIB,CV19adult_P3,estimated_date,If yes; estimated date of 2021-06-15 has been imputed,0.0,No
+646848,BIB,CV19adult_P3,estimated_date,If yes; estimated date of 2021-06-15 has been imputed,1.0,Yes
+646849,BIB,CV19adult_P3,age,Age group,1.0,18-24
+646850,BIB,CV19adult_P3,age,Age group,2.0,25-34
+646851,BIB,CV19adult_P3,age,Age group,3.0,35-44
+646852,BIB,CV19adult_P3,age,Age group,4.0,45-54
+646853,BIB,CV19adult_P3,age,Age group,5.0,55-64
+646854,BIB,CV19adult_P3,age,Age group,6.0,65+
+646855,BIB,CV19adult_P3,age,Age group,7.0,Prefer not to say
+646856,BIB,CV19adult_P3,sex,Sex,1.0,Male
+646857,BIB,CV19adult_P3,sex,Sex,2.0,Female
+646858,BIB,CV19adult_P3,sex,Sex,3.0,Prefer to use own term
+646859,BIB,CV19adult_P3,sex,Sex,4.0,Prefer not to say
+646860,BIB,CV19adult_P3,ethnicity,Ethnicity,1.0,English; Welsh; Scottish; Northern Irish or British
+646861,BIB,CV19adult_P3,ethnicity,Ethnicity,2.0,Irish
+646862,BIB,CV19adult_P3,ethnicity,Ethnicity,3.0,Any other White background
+646863,BIB,CV19adult_P3,ethnicity,Ethnicity,4.0,White and Black Caribbean
+646864,BIB,CV19adult_P3,ethnicity,Ethnicity,5.0,White and Black African
+646865,BIB,CV19adult_P3,ethnicity,Ethnicity,6.0,White and Asian
+646866,BIB,CV19adult_P3,ethnicity,Ethnicity,7.0,Any other Mixed background
+646867,BIB,CV19adult_P3,ethnicity,Ethnicity,8.0,Indian
+646868,BIB,CV19adult_P3,ethnicity,Ethnicity,9.0,Pakistani
+646869,BIB,CV19adult_P3,ethnicity,Ethnicity,10.0,Bangladeshi
+646870,BIB,CV19adult_P3,ethnicity,Ethnicity,11.0,Chinese
+646871,BIB,CV19adult_P3,ethnicity,Ethnicity,12.0,Any other Asian background
+646872,BIB,CV19adult_P3,ethnicity,Ethnicity,13.0,African
+646873,BIB,CV19adult_P3,ethnicity,Ethnicity,14.0,Caribbean
+646874,BIB,CV19adult_P3,ethnicity,Ethnicity,15.0,Other Black; African or Caribbean background
+646875,BIB,CV19adult_P3,ethnicity,Ethnicity,16.0,Any other ethnic group
+646876,BIB,CV19adult_P3,jbsc_main,20) Who is the main earner in the household?,1.0,Me
+646877,BIB,CV19adult_P3,jbsc_main,20) Who is the main earner in the household?,2.0,My partner
+646878,BIB,CV19adult_P3,jbsc_main,20) Who is the main earner in the household?,3.0,Other household member
+646879,BIB,CV19adult_P3,jbsc_main,20) Who is the main earner in the household?,4.0,Me and my partner earn the same amount
+646880,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,1.0,Employed
+646881,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,2.0,Employed but not working (on furlough)
+646882,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,3.0,Employed on the wage subsidy scheme (e.g.; working less hours with wage topped up by the Government)
+646883,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,4.0,Self employed and working
+646884,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,5.0,Self employed and not working
+646885,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,6.0,Unemployed
+646886,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,7.0,Other (please specify)
+646887,BIB,CV19adult_P3,jbsc_main_crntly_rev1,21) What is the current job status of the main earner in your household?,8.0,Dont know
+646888,BIB,CV19adult_P3,jbsc_main_crntly_oth,21) If you said Other; please specify,,
+646889,BIB,CV19adult_P3,jbsc_main_hmwfh,22) Is main earner mainly working from home; or going out to work?,1.0,Working from home
+646890,BIB,CV19adult_P3,jbsc_main_hmwfh,22) Is main earner mainly working from home; or going out to work?,2.0,Going out to work
+646891,BIB,CV19adult_P3,jbsc_covid_bre1_1,,,
+646892,BIB,CV19adult_P3,jbsc_covid_bre1_2,,,
+646893,BIB,CV19adult_P3,jbsc_covid_bre1_3,,,
+646894,BIB,CV19adult_P3,jbsc_covid_bre1_4,,,
+646895,BIB,CV19adult_P3,jbsc_main_wry_1,24) I worry about the job security of the main earner,1.0,Strongly disagree
+646896,BIB,CV19adult_P3,jbsc_main_wry_1,24) I worry about the job security of the main earner,2.0,Disagree
+646897,BIB,CV19adult_P3,jbsc_main_wry_1,24) I worry about the job security of the main earner,3.0,Neither agree nor disagree
+646898,BIB,CV19adult_P3,jbsc_main_wry_1,24) I worry about the job security of the main earner,4.0,Agree
+646899,BIB,CV19adult_P3,jbsc_main_wry_1,24) I worry about the job security of the main earner,5.0,Strongly agree
+646900,BIB,CV19adult_P3,jbsc_main_wry_2,25) In next 12 months is income of main earner likely to be uncertain?,-2.0,Dont know
+646901,BIB,CV19adult_P3,jbsc_main_wry_2,25) In next 12 months is income of main earner likely to be uncertain?,1.0,Yes
+646902,BIB,CV19adult_P3,jbsc_main_wry_2,25) In next 12 months is income of main earner likely to be uncertain?,2.0,No
+646903,BIB,CV19adult_P3,jbsc_main_wry_3,26) In 12 months time; do you expect the main earner to still have their job?,-2.0,Dont know
+646904,BIB,CV19adult_P3,jbsc_main_wry_3,26) In 12 months time; do you expect the main earner to still have their job?,1.0,Yes
+646905,BIB,CV19adult_P3,jbsc_main_wry_3,26) In 12 months time; do you expect the main earner to still have their job?,2.0,No
+646906,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,1.0,Senior managers or administrators (usually responsible for planning; organising and co-ordinating work; and for finance) such as: finance manager
+646907,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,2.0,Modern professional occupations such as: teacher- nurse - physiotherapist - social worker - welfare officer - artist- musician - police officer (sergeant or above) - software designer
+646908,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,3.0,Middle or junior managers such as: office manager - retail manager - bank manager - restaurant manager - warehouse manager - publican
+646909,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,4.0,Clerical and intermediate occupations such as: secretary - personal assistant - clerical worker - office clerk - call centre - agent - nursing auxiliary - nursery nurse
+646910,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,5.0,Traditional professional occupations such as: accountant - solicitor - medical practitioner - scientist - civil/mechanical engineer - technical and craft occupations such as: motor mechanic - fitter - inspector - plumber - printer - tool maker - electrician - gardener - train driver
+646911,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,6.0,Semi-routine manual and service occupations such as: postal worker - machine operative - security guard - caretaker - farm worker - catering assistant - receptionist - sales - assistant
+646912,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,7.0,Routine manual and service occupations such as: HGV driver - van driver - cleaner - porter - packer - sewing machinist - messenger - labourer - waiter/waitress - bar staff
+646913,BIB,CV19adult_P3,main_ear,27) Which of these best describes the sort of work the main earner usually does?,8.0,Other (Please specify below)
+646914,BIB,CV19adult_P3,main_ear_oth,27) If you said Other; please specify,,
+646915,BIB,CV19adult_P3,hshd_dr_1,28) Does anyone in your household drive private hire or taxi vehicles,1.0,Yes - Employed
+646916,BIB,CV19adult_P3,hshd_dr_1,28) Does anyone in your household drive private hire or taxi vehicles,2.0,Yes - Self-Employed
+646917,BIB,CV19adult_P3,hshd_dr_1,28) Does anyone in your household drive private hire or taxi vehicles,3.0,Not Applicable
+646918,BIB,CV19adult_P3,hshd_dr_2,28) Does anyone in your household drive light goods vehicles,1.0,Yes - Employed
+646919,BIB,CV19adult_P3,hshd_dr_2,28) Does anyone in your household drive light goods vehicles,2.0,Yes - Self-Employed
+646920,BIB,CV19adult_P3,hshd_dr_2,28) Does anyone in your household drive light goods vehicles,3.0,Not Applicable
+646921,BIB,CV19adult_P3,hshd_dr_3,28) Does anyone in your household drive heavy goods vehicles,1.0,Yes - Employed
+646922,BIB,CV19adult_P3,hshd_dr_3,28) Does anyone in your household drive heavy goods vehicles,2.0,Yes - Self-Employed
+646923,BIB,CV19adult_P3,hshd_dr_3,28) Does anyone in your household drive heavy goods vehicles,3.0,Not Applicable
+646924,BIB,CV19adult_P3,tr_w_1_1,,,
+646925,BIB,CV19adult_P3,tr_w_1_2,,,
+646926,BIB,CV19adult_P3,tr_w_1_3,,,
+646927,BIB,CV19adult_P3,tr_w_1_4,,,
+646928,BIB,CV19adult_P3,tr_w_1_5,,,
+646929,BIB,CV19adult_P3,tr_w_1_6,,,
+646930,BIB,CV19adult_P3,tr_w_1_7,,,
+646931,BIB,CV19adult_P3,tr_w_1_8,,,
+646932,BIB,CV19adult_P3,tr_w_1_9,,,
+646933,BIB,CV19adult_P3,tr_w_1_10,,,
+646934,BIB,CV19adult_P3,tr_w_1_oth,29) If you said other to before lockdown; please specify,,
+646935,BIB,CV19adult_P3,tr_w_2_1,,,
+646936,BIB,CV19adult_P3,tr_w_2_2,,,
+646937,BIB,CV19adult_P3,tr_w_2_3,,,
+646938,BIB,CV19adult_P3,tr_w_2_4,,,
+646939,BIB,CV19adult_P3,tr_w_2_5,,,
+646940,BIB,CV19adult_P3,tr_w_2_6,,,
+646941,BIB,CV19adult_P3,tr_w_2_7,,,
+646942,BIB,CV19adult_P3,tr_w_2_8,,,
+646943,BIB,CV19adult_P3,tr_w_2_9,,,
+646944,BIB,CV19adult_P3,tr_w_2_10,,,
+646945,BIB,CV19adult_P3,tr_w_2_oth,29) If you said other to now; please specify,,
+646946,BIB,CV19adult_P3,tr_sch_1_1,,,
+646947,BIB,CV19adult_P3,tr_sch_1_2,,,
+646948,BIB,CV19adult_P3,tr_sch_1_3,,,
+646949,BIB,CV19adult_P3,tr_sch_1_4,,,
+646950,BIB,CV19adult_P3,tr_sch_1_5,,,
+646951,BIB,CV19adult_P3,tr_sch_1_6,,,
+646952,BIB,CV19adult_P3,tr_sch_1_7,,,
+646953,BIB,CV19adult_P3,tr_sch_1_8,,,
+646954,BIB,CV19adult_P3,tr_sch_1_9,,,
+646955,BIB,CV19adult_P3,tr_sch_1_10,,,
+646956,BIB,CV19adult_P3,tr_sch_1_oth,30) If you said other to before lockdown; please specify,,
+646957,BIB,CV19adult_P3,tr_sch_2_1,,,
+646958,BIB,CV19adult_P3,tr_sch_2_2,,,
+646959,BIB,CV19adult_P3,tr_sch_2_3,,,
+646960,BIB,CV19adult_P3,tr_sch_2_4,,,
+646961,BIB,CV19adult_P3,tr_sch_2_5,,,
+646962,BIB,CV19adult_P3,tr_sch_2_6,,,
+646963,BIB,CV19adult_P3,tr_sch_2_7,,,
+646964,BIB,CV19adult_P3,tr_sch_2_8,,,
+646965,BIB,CV19adult_P3,tr_sch_2_9,,,
+646966,BIB,CV19adult_P3,tr_sch_2_10,,,
+646967,BIB,CV19adult_P3,tr_sch_2_oth,30) If you said other to now; please specify,,
+646968,BIB,CV19adult_P3,tr_gen_1_1,,,
+646969,BIB,CV19adult_P3,tr_gen_1_2,,,
+646970,BIB,CV19adult_P3,tr_gen_1_3,,,
+646971,BIB,CV19adult_P3,tr_gen_1_4,,,
+646972,BIB,CV19adult_P3,tr_gen_1_5,,,
+646973,BIB,CV19adult_P3,tr_gen_1_6,,,
+646974,BIB,CV19adult_P3,tr_gen_1_7,,,
+646975,BIB,CV19adult_P3,tr_gen_1_8,,,
+646976,BIB,CV19adult_P3,tr_gen_1_9,,,
+646977,BIB,CV19adult_P3,tr_gen_1_oth,31) If you said other to before lockdown; please specify,,
+646978,BIB,CV19adult_P3,tr_gen_2_1,,,
+646979,BIB,CV19adult_P3,tr_gen_2_2,,,
+646980,BIB,CV19adult_P3,tr_gen_2_3,,,
+646981,BIB,CV19adult_P3,tr_gen_2_4,,,
+646982,BIB,CV19adult_P3,tr_gen_2_5,,,
+646983,BIB,CV19adult_P3,tr_gen_2_6,,,
+646984,BIB,CV19adult_P3,tr_gen_2_7,,,
+646985,BIB,CV19adult_P3,tr_gen_2_8,,,
+646986,BIB,CV19adult_P3,tr_gen_2_9,,,
+646987,BIB,CV19adult_P3,tr_gen_2_oth,31) If you said other to now; please specify,,
+646988,BIB,CV19adult_P3,tr_cov,32) If changed how you travel due to Covid-19 will this continue after lockdowns,1.0,Not at all likely
+646989,BIB,CV19adult_P3,tr_cov,32) If changed how you travel due to Covid-19 will this continue after lockdowns,2.0,Not very likely
+646990,BIB,CV19adult_P3,tr_cov,32) If changed how you travel due to Covid-19 will this continue after lockdowns,3.0,Neither likely nor unlikely
+646991,BIB,CV19adult_P3,tr_cov,32) If changed how you travel due to Covid-19 will this continue after lockdowns,4.0,Very likely
+646992,BIB,CV19adult_P3,tr_cov,32) If changed how you travel due to Covid-19 will this continue after lockdowns,5.0,Extremely likely
+646993,BIB,CV19adult_P3,tr_hcos_1,33) In last week; how much spent on Petrol/Diesel/other fuel?,0.0,Â£0
+646994,BIB,CV19adult_P3,tr_hcos_1,33) In last week; how much spent on Petrol/Diesel/other fuel?,1.0,Â£1-10
+646995,BIB,CV19adult_P3,tr_hcos_1,33) In last week; how much spent on Petrol/Diesel/other fuel?,2.0,Â£11-20
+646996,BIB,CV19adult_P3,tr_hcos_1,33) In last week; how much spent on Petrol/Diesel/other fuel?,3.0,Â£21-30
+646997,BIB,CV19adult_P3,tr_hcos_1,33) In last week; how much spent on Petrol/Diesel/other fuel?,4.0,Â£31-40
+646998,BIB,CV19adult_P3,tr_hcos_1,33) In last week; how much spent on Petrol/Diesel/other fuel?,5.0,More than Â£40
+646999,BIB,CV19adult_P3,tr_hcos_2,33) In the last week; how much spent on Taxis?,0.0,Â£0
+647000,BIB,CV19adult_P3,tr_hcos_2,33) In the last week; how much spent on Taxis?,1.0,Â£1-10
+647001,BIB,CV19adult_P3,tr_hcos_2,33) In the last week; how much spent on Taxis?,2.0,Â£11-20
+647002,BIB,CV19adult_P3,tr_hcos_2,33) In the last week; how much spent on Taxis?,3.0,Â£21-30
+647003,BIB,CV19adult_P3,tr_hcos_2,33) In the last week; how much spent on Taxis?,4.0,Â£31-40
+647004,BIB,CV19adult_P3,tr_hcos_2,33) In the last week; how much spent on Taxis?,5.0,More than Â£40
+647005,BIB,CV19adult_P3,tr_hcos_3,33) In the last week; how much spent on Buses?,0.0,Â£0
+647006,BIB,CV19adult_P3,tr_hcos_3,33) In the last week; how much spent on Buses?,1.0,Â£1-10
+647007,BIB,CV19adult_P3,tr_hcos_3,33) In the last week; how much spent on Buses?,2.0,Â£11-20
+647008,BIB,CV19adult_P3,tr_hcos_3,33) In the last week; how much spent on Buses?,3.0,Â£21-30
+647009,BIB,CV19adult_P3,tr_hcos_3,33) In the last week; how much spent on Buses?,4.0,Â£31-40
+647010,BIB,CV19adult_P3,tr_hcos_3,33) In the last week; how much spent on Buses?,5.0,More than Â£40
+647011,BIB,CV19adult_P3,tr_hcos_4,33) In the last week; how much spent on Trains?,0.0,Â£0
+647012,BIB,CV19adult_P3,tr_hcos_4,33) In the last week; how much spent on Trains?,1.0,Â£1-10
+647013,BIB,CV19adult_P3,tr_hcos_4,33) In the last week; how much spent on Trains?,2.0,Â£11-20
+647014,BIB,CV19adult_P3,tr_hcos_4,33) In the last week; how much spent on Trains?,3.0,Â£21-30
+647015,BIB,CV19adult_P3,tr_hcos_4,33) In the last week; how much spent on Trains?,4.0,Â£31-40
+647016,BIB,CV19adult_P3,tr_hcos_4,33) In the last week; how much spent on Trains?,5.0,More than Â£40
+647017,BIB,CV19adult_P3,tr_car,34) How often use car for journeys of <=0.5 miles?,1.0,Never
+647018,BIB,CV19adult_P3,tr_car,34) How often use car for journeys of <=0.5 miles?,2.0,Rarely
+647019,BIB,CV19adult_P3,tr_car,34) How often use car for journeys of <=0.5 miles?,3.0,Sometimes
+647020,BIB,CV19adult_P3,tr_car,34) How often use car for journeys of <=0.5 miles?,4.0,Often
+647021,BIB,CV19adult_P3,tr_car,34) How often use car for journeys of <=0.5 miles?,5.0,All the time
+647022,BIB,CV19adult_P3,tr_car,34) How often use car for journeys of <=0.5 miles?,6.0,Not Applicable
+647023,BIB,CV19adult_P3,hhe_ddntlast,35) The food  bought didnt last and didnt have money to get more,-2.0,Dont know
+647024,BIB,CV19adult_P3,hhe_ddntlast,35) The food  bought didnt last and didnt have money to get more,-1.0,Do not wish to answer
+647025,BIB,CV19adult_P3,hhe_ddntlast,35) The food  bought didnt last and didnt have money to get more,1.0,Never true
+647026,BIB,CV19adult_P3,hhe_ddntlast,35) The food  bought didnt last and didnt have money to get more,2.0,Sometimes true
+647027,BIB,CV19adult_P3,hhe_ddntlast,35) The food  bought didnt last and didnt have money to get more,3.0,Often true
+647028,BIB,CV19adult_P3,hhe_balancd,35) (I/we) couldnt afford to eat balanced meals.,-2.0,Dont know
+647029,BIB,CV19adult_P3,hhe_balancd,35) (I/we) couldnt afford to eat balanced meals.,-1.0,Do not wish to answer
+647030,BIB,CV19adult_P3,hhe_balancd,35) (I/we) couldnt afford to eat balanced meals.,1.0,Never true
+647031,BIB,CV19adult_P3,hhe_balancd,35) (I/we) couldnt afford to eat balanced meals.,2.0,Sometimes true
+647032,BIB,CV19adult_P3,hhe_balancd,35) (I/we) couldnt afford to eat balanced meals.,3.0,Often true
+647033,BIB,CV19adult_P3,hhe_skip,36) Did you/other adults skip/have smaller meals because not enough money for fo,-2.0,Dont know
+647034,BIB,CV19adult_P3,hhe_skip,36) Did you/other adults skip/have smaller meals because not enough money for fo,-1.0,Do not wish to answer
+647035,BIB,CV19adult_P3,hhe_skip,36) Did you/other adults skip/have smaller meals because not enough money for fo,0.0,No
+647036,BIB,CV19adult_P3,hhe_skip,36) Did you/other adults skip/have smaller meals because not enough money for fo,1.0,Yes
+647037,BIB,CV19adult_P3,hhe_skipoftn_rev1,36) If yes how often did you skip/have smaller meals?,-2.0,Dont know
+647038,BIB,CV19adult_P3,hhe_skipoftn_rev1,36) If yes how often did you skip/have smaller meals?,-1.0,Do not wish to answer
+647039,BIB,CV19adult_P3,hhe_skipoftn_rev1,36) If yes how often did you skip/have smaller meals?,1.0,Less than once a month but a few times
+647040,BIB,CV19adult_P3,hhe_skipoftn_rev1,36) If yes how often did you skip/have smaller meals?,2.0,Not every week but at least once a month
+647041,BIB,CV19adult_P3,hhe_skipoftn_rev1,36) If yes how often did you skip/have smaller meals?,3.0,Every week
+647042,BIB,CV19adult_P3,hhe_eatless,37) Did you/other adults eat less than you wanted because there wasnt enough mon,-2.0,Dont know
+647043,BIB,CV19adult_P3,hhe_eatless,37) Did you/other adults eat less than you wanted because there wasnt enough mon,-1.0,Do not wish to answer
+647044,BIB,CV19adult_P3,hhe_eatless,37) Did you/other adults eat less than you wanted because there wasnt enough mon,0.0,No
+647045,BIB,CV19adult_P3,hhe_eatless,37) Did you/other adults eat less than you wanted because there wasnt enough mon,1.0,Yes
+647046,BIB,CV19adult_P3,hhe_food_dsc,38) Were you ever hungry but didnt eat because not enough money for food?,-2.0,Dont know
+647047,BIB,CV19adult_P3,hhe_food_dsc,38) Were you ever hungry but didnt eat because not enough money for food?,-1.0,Do not wish to answer
+647048,BIB,CV19adult_P3,hhe_food_dsc,38) Were you ever hungry but didnt eat because not enough money for food?,0.0,No
+647049,BIB,CV19adult_P3,hhe_food_dsc,38) Were you ever hungry but didnt eat because not enough money for food?,1.0,Yes
+647050,BIB,CV19adult_P3,hhe_fd_bank_bre1_0,,,
+647051,BIB,CV19adult_P3,hhe_fd_bank_bre1_1,,,
+647052,BIB,CV19adult_P3,hhe_fd_bank_bre1_2,,,
+647053,BIB,CV19adult_P3,hhe_fd_bank_bre1_3,,,
+647054,BIB,CV19adult_P3,hhe_fd_sch_bre1_0,,,
+647055,BIB,CV19adult_P3,hhe_fd_sch_bre1_1,,,
+647056,BIB,CV19adult_P3,hhe_fd_sch_bre1_2,,,
+647057,BIB,CV19adult_P3,hhe_fd_sch_bre1_3,,,
+647058,BIB,CV19adult_P3,hhe_fd_comorg_bre1_0,,,
+647059,BIB,CV19adult_P3,hhe_fd_comorg_bre1_1,,,
+647060,BIB,CV19adult_P3,hhe_fd_comorg_bre1_2,,,
+647061,BIB,CV19adult_P3,hhe_fd_comorg_bre1_3,,,
+647062,BIB,CV19adult_P3,hhe_fd_fai_bre1_0,,,
+647063,BIB,CV19adult_P3,hhe_fd_fai_bre1_1,,,
+647064,BIB,CV19adult_P3,hhe_fd_fai_bre1_2,,,
+647065,BIB,CV19adult_P3,hhe_fd_fai_bre1_3,,,
+647066,BIB,CV19adult_P3,hhe_fd_fri_bre1_0,,,
+647067,BIB,CV19adult_P3,hhe_fd_fri_bre1_1,,,
+647068,BIB,CV19adult_P3,hhe_fd_fri_bre1_2,,,
+647069,BIB,CV19adult_P3,hhe_fd_fri_bre1_3,,,
+647070,BIB,CV19adult_P3,hhe_fd_fam_bre1_0,,,
+647071,BIB,CV19adult_P3,hhe_fd_fam_bre1_1,,,
+647072,BIB,CV19adult_P3,hhe_fd_fam_bre1_2,,,
+647073,BIB,CV19adult_P3,hhe_fd_fam_bre1_3,,,
+647074,BIB,CV19adult_P3,hhe_fd_fam_bre1_oth_0,,,
+647075,BIB,CV19adult_P3,hhe_fd_fam_bre1_oth_1,,,
+647076,BIB,CV19adult_P3,hhe_fd_fam_bre1_oth_2,,,
+647077,BIB,CV19adult_P3,hhe_fd_fam_bre1_oth_3,,,
+647078,BIB,CV19adult_P3,hhe_fd_oth,39) If you said other; please specify,,
+647079,BIB,CV19adult_P3,hhe_finannow,40) How well would you say you are managing financially right now?,-2.0,Dont know
+647080,BIB,CV19adult_P3,hhe_finannow,40) How well would you say you are managing financially right now?,-1.0,Do not wish to answer
+647081,BIB,CV19adult_P3,hhe_finannow,40) How well would you say you are managing financially right now?,1.0,Living comfortably
+647082,BIB,CV19adult_P3,hhe_finannow,40) How well would you say you are managing financially right now?,2.0,Doing alright
+647083,BIB,CV19adult_P3,hhe_finannow,40) How well would you say you are managing financially right now?,3.0,Just about getting by
+647084,BIB,CV19adult_P3,hhe_finannow,40) How well would you say you are managing financially right now?,4.0,Finding it quite difficult
+647085,BIB,CV19adult_P3,hhe_finannow,40) How well would you say you are managing financially right now?,5.0,Finding it very difficult
+647086,BIB,CV19adult_P3,hhe_bills,41) Are you currently up to date with all bills?,-2.0,Dont know
+647087,BIB,CV19adult_P3,hhe_bills,41) Are you currently up to date with all bills?,-1.0,Do not wish to answer
+647088,BIB,CV19adult_P3,hhe_bills,41) Are you currently up to date with all bills?,0.0,No
+647089,BIB,CV19adult_P3,hhe_bills,41) Are you currently up to date with all bills?,1.0,Yes
+647090,BIB,CV19adult_P3,hhe_wrypay,42) I worry about paying the rent / mortgage,1.0,Strongly disagree
+647091,BIB,CV19adult_P3,hhe_wrypay,42) I worry about paying the rent / mortgage,2.0,Disagree
+647092,BIB,CV19adult_P3,hhe_wrypay,42) I worry about paying the rent / mortgage,3.0,Neither agree nor disagree
+647093,BIB,CV19adult_P3,hhe_wrypay,42) I worry about paying the rent / mortgage,4.0,Agree
+647094,BIB,CV19adult_P3,hhe_wrypay,42) I worry about paying the rent / mortgage,5.0,Strongly agree
+647095,BIB,CV19adult_P3,hhe_wryevic,42) I worry about getting evicted / having my home repossessed,1.0,Strongly disagree
+647096,BIB,CV19adult_P3,hhe_wryevic,42) I worry about getting evicted / having my home repossessed,2.0,Disagree
+647097,BIB,CV19adult_P3,hhe_wryevic,42) I worry about getting evicted / having my home repossessed,3.0,Neither agree nor disagree
+647098,BIB,CV19adult_P3,hhe_wryevic,42) I worry about getting evicted / having my home repossessed,4.0,Agree
+647099,BIB,CV19adult_P3,hhe_wryevic,42) I worry about getting evicted / having my home repossessed,5.0,Strongly agree
+647100,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,0.0,0 = Not at all worthwhile
+647101,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,1.0,1
+647102,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,2.0,2
+647103,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,3.0,3
+647104,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,4.0,4
+647105,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,5.0,5
+647106,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,6.0,6
+647107,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,7.0,7
+647108,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,8.0,8
+647109,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,9.0,9
+647110,BIB,CV19adult_P3,fh_ons_life_worth,43) Do you feel that the things you do in your life are worthwhile?,10.0,10 = Completely worthwhile
+647111,BIB,CV19adult_P3,fh_phq_1,44) In the last 2 wks have you had little interest or pleasure in doing things?,0.0,Not at all
+647112,BIB,CV19adult_P3,fh_phq_1,44) In the last 2 wks have you had little interest or pleasure in doing things?,1.0,Several days
+647113,BIB,CV19adult_P3,fh_phq_1,44) In the last 2 wks have you had little interest or pleasure in doing things?,2.0,More than half the days
+647114,BIB,CV19adult_P3,fh_phq_1,44) In the last 2 wks have you had little interest or pleasure in doing things?,3.0,Nearly every day
+647115,BIB,CV19adult_P3,fh_phq_2,44) In the last 2 wks have you felt down/ depressed/hopeless?,0.0,Not at all
+647116,BIB,CV19adult_P3,fh_phq_2,44) In the last 2 wks have you felt down/ depressed/hopeless?,1.0,Several days
+647117,BIB,CV19adult_P3,fh_phq_2,44) In the last 2 wks have you felt down/ depressed/hopeless?,2.0,More than half the days
+647118,BIB,CV19adult_P3,fh_phq_2,44) In the last 2 wks have you felt down/ depressed/hopeless?,3.0,Nearly every day
+647119,BIB,CV19adult_P3,fh_phq_3,44) In the last 2 wks have you had trouble falling/staying asleep/slept too much,0.0,Not at all
+647120,BIB,CV19adult_P3,fh_phq_3,44) In the last 2 wks have you had trouble falling/staying asleep/slept too much,1.0,Several days
+647121,BIB,CV19adult_P3,fh_phq_3,44) In the last 2 wks have you had trouble falling/staying asleep/slept too much,2.0,More than half the days
+647122,BIB,CV19adult_P3,fh_phq_3,44) In the last 2 wks have you had trouble falling/staying asleep/slept too much,3.0,Nearly every day
+647123,BIB,CV19adult_P3,fh_phq_4,44) In the last 2 wks have you felt tired or had little energy?,0.0,Not at all
+647124,BIB,CV19adult_P3,fh_phq_4,44) In the last 2 wks have you felt tired or had little energy?,1.0,Several days
+647125,BIB,CV19adult_P3,fh_phq_4,44) In the last 2 wks have you felt tired or had little energy?,2.0,More than half the days
+647126,BIB,CV19adult_P3,fh_phq_4,44) In the last 2 wks have you felt tired or had little energy?,3.0,Nearly every day
+647127,BIB,CV19adult_P3,fh_phq_5,44) In the last 2 wks have you had a poor appetite or overeaten?,0.0,Not at all
+647128,BIB,CV19adult_P3,fh_phq_5,44) In the last 2 wks have you had a poor appetite or overeaten?,1.0,Several days
+647129,BIB,CV19adult_P3,fh_phq_5,44) In the last 2 wks have you had a poor appetite or overeaten?,2.0,More than half the days
+647130,BIB,CV19adult_P3,fh_phq_5,44) In the last 2 wks have you had a poor appetite or overeaten?,3.0,Nearly every day
+647131,BIB,CV19adult_P3,fh_phq_6,44) In the last 2 wks have you felt bad about yourself?,0.0,Not at all
+647132,BIB,CV19adult_P3,fh_phq_6,44) In the last 2 wks have you felt bad about yourself?,1.0,Several days
+647133,BIB,CV19adult_P3,fh_phq_6,44) In the last 2 wks have you felt bad about yourself?,2.0,More than half the days
+647134,BIB,CV19adult_P3,fh_phq_6,44) In the last 2 wks have you felt bad about yourself?,3.0,Nearly every day
+647135,BIB,CV19adult_P3,fh_phq_7,44) In the last 2 wks have you had trouble concentrating on things?,0.0,Not at all
+647136,BIB,CV19adult_P3,fh_phq_7,44) In the last 2 wks have you had trouble concentrating on things?,1.0,Several days
+647137,BIB,CV19adult_P3,fh_phq_7,44) In the last 2 wks have you had trouble concentrating on things?,2.0,More than half the days
+647138,BIB,CV19adult_P3,fh_phq_7,44) In the last 2 wks have you had trouble concentrating on things?,3.0,Nearly every day
+647139,BIB,CV19adult_P3,fh_phq_8,44) In the last 2 wks have you been moving or speaking so slowly/fidgeting/restl,0.0,Not at all
+647140,BIB,CV19adult_P3,fh_phq_8,44) In the last 2 wks have you been moving or speaking so slowly/fidgeting/restl,1.0,Several days
+647141,BIB,CV19adult_P3,fh_phq_8,44) In the last 2 wks have you been moving or speaking so slowly/fidgeting/restl,2.0,More than half the days
+647142,BIB,CV19adult_P3,fh_phq_8,44) In the last 2 wks have you been moving or speaking so slowly/fidgeting/restl,3.0,Nearly every day
+647143,BIB,CV19adult_P3,fh_phq_hwdiff,45) How difficult have any problems made it difficult to carry out daily activit,0.0,Not at all
+647144,BIB,CV19adult_P3,fh_phq_hwdiff,45) How difficult have any problems made it difficult to carry out daily activit,1.0,Somewhat difficult
+647145,BIB,CV19adult_P3,fh_phq_hwdiff,45) How difficult have any problems made it difficult to carry out daily activit,2.0,Very difficult
+647146,BIB,CV19adult_P3,fh_phq_hwdiff,45) How difficult have any problems made it difficult to carry out daily activit,3.0,Extremely difficult
+647147,BIB,CV19adult_P3,fh_gad_1,46) In the last 2 wks have you felt nervous; anxious or on edge?,0.0,Not at all
+647148,BIB,CV19adult_P3,fh_gad_1,46) In the last 2 wks have you felt nervous; anxious or on edge?,1.0,Several days
+647149,BIB,CV19adult_P3,fh_gad_1,46) In the last 2 wks have you felt nervous; anxious or on edge?,2.0,More than half the days
+647150,BIB,CV19adult_P3,fh_gad_1,46) In the last 2 wks have you felt nervous; anxious or on edge?,3.0,Nearly every day
+647151,BIB,CV19adult_P3,fh_gad_2,46) In the last 2 wks have you not being able to stop or control worrying?,0.0,Not at all
+647152,BIB,CV19adult_P3,fh_gad_2,46) In the last 2 wks have you not being able to stop or control worrying?,1.0,Several days
+647153,BIB,CV19adult_P3,fh_gad_2,46) In the last 2 wks have you not being able to stop or control worrying?,2.0,More than half the days
+647154,BIB,CV19adult_P3,fh_gad_2,46) In the last 2 wks have you not being able to stop or control worrying?,3.0,Nearly every day
+647155,BIB,CV19adult_P3,fh_gad_3,46) In the last 2 wks have you been worrying too much about different things?,0.0,Not at all
+647156,BIB,CV19adult_P3,fh_gad_3,46) In the last 2 wks have you been worrying too much about different things?,1.0,Several days
+647157,BIB,CV19adult_P3,fh_gad_3,46) In the last 2 wks have you been worrying too much about different things?,2.0,More than half the days
+647158,BIB,CV19adult_P3,fh_gad_3,46) In the last 2 wks have you been worrying too much about different things?,3.0,Nearly every day
+647159,BIB,CV19adult_P3,fh_gad_4,46) In the last 2 wks have you had trouble relaxing?,0.0,Not at all
+647160,BIB,CV19adult_P3,fh_gad_4,46) In the last 2 wks have you had trouble relaxing?,1.0,Several days
+647161,BIB,CV19adult_P3,fh_gad_4,46) In the last 2 wks have you had trouble relaxing?,2.0,More than half the days
+647162,BIB,CV19adult_P3,fh_gad_4,46) In the last 2 wks have you had trouble relaxing?,3.0,Nearly every day
+647163,BIB,CV19adult_P3,fh_gad_5,46) In the last 2 wks have you been so restless that it is hard to sit still?,0.0,Not at all
+647164,BIB,CV19adult_P3,fh_gad_5,46) In the last 2 wks have you been so restless that it is hard to sit still?,1.0,Several days
+647165,BIB,CV19adult_P3,fh_gad_5,46) In the last 2 wks have you been so restless that it is hard to sit still?,2.0,More than half the days
+647166,BIB,CV19adult_P3,fh_gad_5,46) In the last 2 wks have you been so restless that it is hard to sit still?,3.0,Nearly every day
+647167,BIB,CV19adult_P3,fh_gad_6,46) In the last 2 wks have you become easily annoyed or irritable?,0.0,Not at all
+647168,BIB,CV19adult_P3,fh_gad_6,46) In the last 2 wks have you become easily annoyed or irritable?,1.0,Several days
+647169,BIB,CV19adult_P3,fh_gad_6,46) In the last 2 wks have you become easily annoyed or irritable?,2.0,More than half the days
+647170,BIB,CV19adult_P3,fh_gad_6,46) In the last 2 wks have you become easily annoyed or irritable?,3.0,Nearly every day
+647171,BIB,CV19adult_P3,fh_gad_7,46) In the last 2 wks have you felt afraid as if something awful might happen?,0.0,Not at all
+647172,BIB,CV19adult_P3,fh_gad_7,46) In the last 2 wks have you felt afraid as if something awful might happen?,1.0,Several days
+647173,BIB,CV19adult_P3,fh_gad_7,46) In the last 2 wks have you felt afraid as if something awful might happen?,2.0,More than half the days
+647174,BIB,CV19adult_P3,fh_gad_7,46) In the last 2 wks have you felt afraid as if something awful might happen?,3.0,Nearly every day
+647175,BIB,CV19adult_P3,fh_eq5d_mob,47) Which answer best describes your current mobility?,1.0,I am unable to walk about
+647176,BIB,CV19adult_P3,fh_eq5d_mob,47) Which answer best describes your current mobility?,2.0,I have severe problems in walking about
+647177,BIB,CV19adult_P3,fh_eq5d_mob,47) Which answer best describes your current mobility?,3.0,I have moderate problems in walking about
+647178,BIB,CV19adult_P3,fh_eq5d_mob,47) Which answer best describes your current mobility?,4.0,I have slight problems in walking about
+647179,BIB,CV19adult_P3,fh_eq5d_mob,47) Which answer best describes your current mobility?,5.0,I have no problems in walking about
+647180,BIB,CV19adult_P3,fh_eq5d_selfcare,47) Which answer best describes your current self-care?,1.0,I am unable to wash or dress myself
+647181,BIB,CV19adult_P3,fh_eq5d_selfcare,47) Which answer best describes your current self-care?,2.0,I have severe problems washing or dressing myself
+647182,BIB,CV19adult_P3,fh_eq5d_selfcare,47) Which answer best describes your current self-care?,3.0,I have moderate problems washing or dressing myself
+647183,BIB,CV19adult_P3,fh_eq5d_selfcare,47) Which answer best describes your current self-care?,4.0,I have slight problems washing or dressing myself
+647184,BIB,CV19adult_P3,fh_eq5d_selfcare,47) Which answer best describes your current self-care?,5.0,I have no problems washing or dressing myself
+647185,BIB,CV19adult_P3,fh_eq5d_act,47) Which answer best describes your usual activites?,1.0,I am unable to do my usual activities
+647186,BIB,CV19adult_P3,fh_eq5d_act,47) Which answer best describes your usual activites?,2.0,I have severe problems doing my usual activities
+647187,BIB,CV19adult_P3,fh_eq5d_act,47) Which answer best describes your usual activites?,3.0,I have moderate problems doing my usual activities
+647188,BIB,CV19adult_P3,fh_eq5d_act,47) Which answer best describes your usual activites?,4.0,I have slight problems doing my usual activities
+647189,BIB,CV19adult_P3,fh_eq5d_act,47) Which answer best describes your usual activites?,5.0,I have no problems doing my usual activities
+647190,BIB,CV19adult_P3,fh_eq5d_pain_disc,47) Which answer best describes your current pain/discomfort?,1.0,I have extreme pain or discomfort
+647191,BIB,CV19adult_P3,fh_eq5d_pain_disc,47) Which answer best describes your current pain/discomfort?,2.0,I have severe pain or discomfort
+647192,BIB,CV19adult_P3,fh_eq5d_pain_disc,47) Which answer best describes your current pain/discomfort?,3.0,I have moderate pain or discomfort
+647193,BIB,CV19adult_P3,fh_eq5d_pain_disc,47) Which answer best describes your current pain/discomfort?,4.0,I have slight pain or discomfort
+647194,BIB,CV19adult_P3,fh_eq5d_pain_disc,47) Which answer best describes your current pain/discomfort?,5.0,I have no pain or discomfort
+647195,BIB,CV19adult_P3,fh_eq5d_anx_dep,47) Which answer best describes your current anxiety/depression?,1.0,I am extremely anxious or depressed
+647196,BIB,CV19adult_P3,fh_eq5d_anx_dep,47) Which answer best describes your current anxiety/depression?,2.0,I am severely anxious or depressed
+647197,BIB,CV19adult_P3,fh_eq5d_anx_dep,47) Which answer best describes your current anxiety/depression?,3.0,I am moderately anxious or depressed
+647198,BIB,CV19adult_P3,fh_eq5d_anx_dep,47) Which answer best describes your current anxiety/depression?,4.0,I am slightly anxious or depressed
+647199,BIB,CV19adult_P3,fh_eq5d_anx_dep,47) Which answer best describes your current anxiety/depression?,5.0,I am not anxious or depressed
+647200,BIB,CV19adult_P3,wc_wrynow_1,48) What is your first biggest worry right now?,,
+647201,BIB,CV19adult_P3,wc_wrynow_2,48) What is your second biggest worry right now?,,
+647202,BIB,CV19adult_P3,wc_wrynow_3,48) What is your third biggest worry right now?,,
+647203,BIB,CV19adult_P3,wc_chllnge,49) Can you tell us about a challenge you have faced in the last two weeks?,,
+647204,BIB,CV19adult_P3,wc_easier_rev_1,50) Has anything continued to be easier since lockdown first began?,,
+647205,BIB,CV19adult_P3,bib_breathes_air_qua_v_0,Complete?,0.0,Incomplete
+647206,BIB,CV19adult_P3,bib_breathes_air_qua_v_0,Complete?,1.0,Unverified
+647207,BIB,CV19adult_P3,bib_breathes_air_qua_v_0,Complete?,2.0,Complete
+647208,BIB,CV19adult_P3,version,Version,,
+647209,BIB,CV19adult_P3,bib_breathes_air_qua_v_1,Complete?,0.0,Incomplete
+647210,BIB,CV19adult_P3,bib_breathes_air_qua_v_1,Complete?,1.0,Unverified
+647211,BIB,CV19adult_P3,bib_breathes_air_qua_v_1,Complete?,2.0,Complete
+647212,BIB,CV19adult_P3,avail_from_dt,,,

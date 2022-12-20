@@ -1,0 +1,865 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+786650,MCS,mcs3_older_siblings_questionnaire,cactry00,ADMIN Country at interview (E,1.0,England
+786651,MCS,mcs3_older_siblings_questionnaire,cactry00,ADMIN Country at interview (E,2.0,Wales
+786652,MCS,mcs3_older_siblings_questionnaire,cactry00,ADMIN Country at interview (E,3.0,Scotland
+786653,MCS,mcs3_older_siblings_questionnaire,cactry00,ADMIN Country at interview (E,4.0,Northern Ireland
+786654,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,1.0,North East
+786655,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,2.0,North West
+786656,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,3.0,Yorkshire and the Humber
+786657,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,4.0,East Midlands
+786658,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,5.0,West Midlands
+786659,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,6.0,East of England
+786660,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,7.0,London
+786661,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,8.0,South East
+786662,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,9.0,South West
+786663,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,10.0,Wales
+786664,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,11.0,Scotland
+786665,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,12.0,Northern Ireland
+786666,MCS,mcs3_older_siblings_questionnaire,caregn00,Interview Government Office Region,13.0,Not app in IoM Ch Is
+786667,MCS,mcs3_older_siblings_questionnaire,copnum00,OS: Older sibling person number,,
+786668,MCS,mcs3_older_siblings_questionnaire,copsex00,HH grid: Sex,-9.0,Refusal
+786669,MCS,mcs3_older_siblings_questionnaire,copsex00,HH grid: Sex,-8.0,Don't Know
+786670,MCS,mcs3_older_siblings_questionnaire,copsex00,HH grid: Sex,-1.0,Not applicable
+786671,MCS,mcs3_older_siblings_questionnaire,copsex00,HH grid: Sex,1.0,Male
+786672,MCS,mcs3_older_siblings_questionnaire,copsex00,HH grid: Sex,2.0,Female
+786673,MCS,mcs3_older_siblings_questionnaire,copage00,HH grid: Age,-9.0,Refusal
+786674,MCS,mcs3_older_siblings_questionnaire,copage00,HH grid: Age,-8.0,Don't Know
+786675,MCS,mcs3_older_siblings_questionnaire,copage00,HH grid: Age,-1.0,Not applicable
+786676,MCS,mcs3_older_siblings_questionnaire,copage00,HH grid: Age,998.0,Refusal
+786677,MCS,mcs3_older_siblings_questionnaire,copage00,HH grid: Age,999.0,Don't Know
+786678,MCS,mcs3_older_siblings_questionnaire,cosiby00,OS Is Person an older sibling of Cohort Member (aged 5,-9.0,Refusal
+786679,MCS,mcs3_older_siblings_questionnaire,cosiby00,OS Is Person an older sibling of Cohort Member (aged 5,-8.0,Don't Know
+786680,MCS,mcs3_older_siblings_questionnaire,cosiby00,OS Is Person an older sibling of Cohort Member (aged 5,-1.0,Not applicable
+786681,MCS,mcs3_older_siblings_questionnaire,cosiby00,OS Is Person an older sibling of Cohort Member (aged 5,1.0,Yes
+786682,MCS,mcs3_older_siblings_questionnaire,cosiby00,OS Is Person an older sibling of Cohort Member (aged 5,2.0,No
+786683,MCS,mcs3_older_siblings_questionnaire,costota0,OS: Total number of older siblings in HHgrid with OSSI,-9.0,Refusal
+786684,MCS,mcs3_older_siblings_questionnaire,costota0,OS: Total number of older siblings in HHgrid with OSSI,-8.0,Don't Know
+786685,MCS,mcs3_older_siblings_questionnaire,costota0,OS: Total number of older siblings in HHgrid with OSSI,-1.0,Not applicable
+786686,MCS,mcs3_older_siblings_questionnaire,costotb0,OS:Total number of older siblings in HHgrid with OSSI=,-9.0,Refusal
+786687,MCS,mcs3_older_siblings_questionnaire,costotb0,OS:Total number of older siblings in HHgrid with OSSI=,-8.0,Don't Know
+786688,MCS,mcs3_older_siblings_questionnaire,costotb0,OS:Total number of older siblings in HHgrid with OSSI=,-1.0,Not applicable
+786689,MCS,mcs3_older_siblings_questionnaire,coosos00,OS Whether happy to answer OS questions,-9.0,Refusal
+786690,MCS,mcs3_older_siblings_questionnaire,coosos00,OS Whether happy to answer OS questions,-8.0,Don't Know
+786691,MCS,mcs3_older_siblings_questionnaire,coosos00,OS Whether happy to answer OS questions,-1.0,Not applicable
+786692,MCS,mcs3_older_siblings_questionnaire,coosos00,OS Whether happy to answer OS questions,1.0,Yes
+786693,MCS,mcs3_older_siblings_questionnaire,coosos00,OS Whether happy to answer OS questions,2.0,No
+786694,MCS,mcs3_older_siblings_questionnaire,coosac00,OS: Whether accepted self-completion,-9.0,Refusal
+786695,MCS,mcs3_older_siblings_questionnaire,coosac00,OS: Whether accepted self-completion,-8.0,Don't Know
+786696,MCS,mcs3_older_siblings_questionnaire,coosac00,OS: Whether accepted self-completion,-1.0,Not applicable
+786697,MCS,mcs3_older_siblings_questionnaire,coosac00,OS: Whether accepted self-completion,1.0,Accepted as self-completion
+786698,MCS,mcs3_older_siblings_questionnaire,coosac00,OS: Whether accepted self-completion,2.0,Accepted self completion but interviewe
+786699,MCS,mcs3_older_siblings_questionnaire,coosac00,OS: Whether accepted self-completion,3.0,Refused self completion
+786700,MCS,mcs3_older_siblings_questionnaire,coosac00,OS: Whether accepted self-completion,4.0,Not able to do self completion
+786701,MCS,mcs3_older_siblings_questionnaire,coscen00,OS: End of self-completion,-9.0,Refusal
+786702,MCS,mcs3_older_siblings_questionnaire,coscen00,OS: End of self-completion,-8.0,Don't Know
+786703,MCS,mcs3_older_siblings_questionnaire,coscen00,OS: End of self-completion,-1.0,Not applicable
+786704,MCS,mcs3_older_siblings_questionnaire,coscen00,OS: End of self-completion,1.0,Press 1 and enter
+786705,MCS,mcs3_older_siblings_questionnaire,coosst00,OS: Start OS self-completion,-9.0,Refusal
+786706,MCS,mcs3_older_siblings_questionnaire,coosst00,OS: Start OS self-completion,-8.0,Don't Know
+786707,MCS,mcs3_older_siblings_questionnaire,coosst00,OS: Start OS self-completion,-1.0,Not applicable
+786708,MCS,mcs3_older_siblings_questionnaire,coosst00,OS: Start OS self-completion,1.0,Press 1 and Enter to continue.
+786709,MCS,mcs3_older_siblings_questionnaire,cosdop00,OS Sibling is considerate of others feelings,-2.0,Don't Know
+786710,MCS,mcs3_older_siblings_questionnaire,cosdop00,OS Sibling is considerate of others feelings,-1.0,Not applicable
+786711,MCS,mcs3_older_siblings_questionnaire,cosdop00,OS Sibling is considerate of others feelings,1.0,Not true
+786712,MCS,mcs3_older_siblings_questionnaire,cosdop00,OS Sibling is considerate of others feelings,2.0,Somewhat true
+786713,MCS,mcs3_older_siblings_questionnaire,cosdop00,OS Sibling is considerate of others feelings,3.0,Certainly true
+786714,MCS,mcs3_older_siblings_questionnaire,cosdop00,OS Sibling is considerate of others feelings,4.0,Can t say
+786715,MCS,mcs3_older_siblings_questionnaire,cosdor00,OS: OS is restless,-2.0,Don't Know
+786716,MCS,mcs3_older_siblings_questionnaire,cosdor00,OS: OS is restless,-1.0,Not applicable
+786717,MCS,mcs3_older_siblings_questionnaire,cosdor00,OS: OS is restless,1.0,Not true
+786718,MCS,mcs3_older_siblings_questionnaire,cosdor00,OS: OS is restless,2.0,Somewhat true
+786719,MCS,mcs3_older_siblings_questionnaire,cosdor00,OS: OS is restless,3.0,Certainly true
+786720,MCS,mcs3_older_siblings_questionnaire,cosdor00,OS: OS is restless,4.0,Can t say
+786721,MCS,mcs3_older_siblings_questionnaire,cosdoh00,OS Sibling often complains of headaches etc,-2.0,Don't Know
+786722,MCS,mcs3_older_siblings_questionnaire,cosdoh00,OS Sibling often complains of headaches etc,-1.0,Not applicable
+786723,MCS,mcs3_older_siblings_questionnaire,cosdoh00,OS Sibling often complains of headaches etc,1.0,Not true
+786724,MCS,mcs3_older_siblings_questionnaire,cosdoh00,OS Sibling often complains of headaches etc,2.0,Somewhat true
+786725,MCS,mcs3_older_siblings_questionnaire,cosdoh00,OS Sibling often complains of headaches etc,3.0,Certainly true
+786726,MCS,mcs3_older_siblings_questionnaire,cosdoh00,OS Sibling often complains of headaches etc,4.0,Can t say
+786727,MCS,mcs3_older_siblings_questionnaire,cosdos00,OS Sibling shares readily with other children,-2.0,Don't Know
+786728,MCS,mcs3_older_siblings_questionnaire,cosdos00,OS Sibling shares readily with other children,-1.0,Not applicable
+786729,MCS,mcs3_older_siblings_questionnaire,cosdos00,OS Sibling shares readily with other children,1.0,Not true
+786730,MCS,mcs3_older_siblings_questionnaire,cosdos00,OS Sibling shares readily with other children,2.0,Somewhat true
+786731,MCS,mcs3_older_siblings_questionnaire,cosdos00,OS Sibling shares readily with other children,3.0,Certainly true
+786732,MCS,mcs3_older_siblings_questionnaire,cosdos00,OS Sibling shares readily with other children,4.0,Can t say
+786733,MCS,mcs3_older_siblings_questionnaire,cosdot00,OS Sibling often has temper tangrums etc,-2.0,Don't Know
+786734,MCS,mcs3_older_siblings_questionnaire,cosdot00,OS Sibling often has temper tangrums etc,-1.0,Not applicable
+786735,MCS,mcs3_older_siblings_questionnaire,cosdot00,OS Sibling often has temper tangrums etc,1.0,Not true
+786736,MCS,mcs3_older_siblings_questionnaire,cosdot00,OS Sibling often has temper tangrums etc,2.0,Somewhat true
+786737,MCS,mcs3_older_siblings_questionnaire,cosdot00,OS Sibling often has temper tangrums etc,3.0,Certainly true
+786738,MCS,mcs3_older_siblings_questionnaire,cosdot00,OS Sibling often has temper tangrums etc,4.0,Can t say
+786739,MCS,mcs3_older_siblings_questionnaire,cosdox00,OS Sibling is rather solitary,-2.0,Don't Know
+786740,MCS,mcs3_older_siblings_questionnaire,cosdox00,OS Sibling is rather solitary,-1.0,Not applicable
+786741,MCS,mcs3_older_siblings_questionnaire,cosdox00,OS Sibling is rather solitary,1.0,Not true
+786742,MCS,mcs3_older_siblings_questionnaire,cosdox00,OS Sibling is rather solitary,2.0,Somewhat true
+786743,MCS,mcs3_older_siblings_questionnaire,cosdox00,OS Sibling is rather solitary,3.0,Certainly true
+786744,MCS,mcs3_older_siblings_questionnaire,cosdox00,OS Sibling is rather solitary,4.0,Can t say
+786745,MCS,mcs3_older_siblings_questionnaire,cosdob00,OS: OS is generally obedient,-2.0,Don't Know
+786746,MCS,mcs3_older_siblings_questionnaire,cosdob00,OS: OS is generally obedient,-1.0,Not applicable
+786747,MCS,mcs3_older_siblings_questionnaire,cosdob00,OS: OS is generally obedient,1.0,Not true
+786748,MCS,mcs3_older_siblings_questionnaire,cosdob00,OS: OS is generally obedient,2.0,Somewhat true
+786749,MCS,mcs3_older_siblings_questionnaire,cosdob00,OS: OS is generally obedient,3.0,Certainly true
+786750,MCS,mcs3_older_siblings_questionnaire,cosdob00,OS: OS is generally obedient,4.0,Can t say
+786751,MCS,mcs3_older_siblings_questionnaire,cosdow00,OS Sibling has many worries,-2.0,Don't Know
+786752,MCS,mcs3_older_siblings_questionnaire,cosdow00,OS Sibling has many worries,-1.0,Not applicable
+786753,MCS,mcs3_older_siblings_questionnaire,cosdow00,OS Sibling has many worries,1.0,Not true
+786754,MCS,mcs3_older_siblings_questionnaire,cosdow00,OS Sibling has many worries,2.0,Somewhat true
+786755,MCS,mcs3_older_siblings_questionnaire,cosdow00,OS Sibling has many worries,3.0,Certainly true
+786756,MCS,mcs3_older_siblings_questionnaire,cosdow00,OS Sibling has many worries,4.0,Can t say
+786757,MCS,mcs3_older_siblings_questionnaire,cosdou00,OS Sibling is helpful if someone is hurt,-2.0,Don't Know
+786758,MCS,mcs3_older_siblings_questionnaire,cosdou00,OS Sibling is helpful if someone is hurt,-1.0,Not applicable
+786759,MCS,mcs3_older_siblings_questionnaire,cosdou00,OS Sibling is helpful if someone is hurt,1.0,Not true
+786760,MCS,mcs3_older_siblings_questionnaire,cosdou00,OS Sibling is helpful if someone is hurt,2.0,Somewhat true
+786761,MCS,mcs3_older_siblings_questionnaire,cosdou00,OS Sibling is helpful if someone is hurt,3.0,Certainly true
+786762,MCS,mcs3_older_siblings_questionnaire,cosdou00,OS Sibling is helpful if someone is hurt,4.0,Can t say
+786763,MCS,mcs3_older_siblings_questionnaire,cosdoq00,OS: OS constantly fidgeting/squirming,-2.0,Don't Know
+786764,MCS,mcs3_older_siblings_questionnaire,cosdoq00,OS: OS constantly fidgeting/squirming,-1.0,Not applicable
+786765,MCS,mcs3_older_siblings_questionnaire,cosdoq00,OS: OS constantly fidgeting/squirming,1.0,Not true
+786766,MCS,mcs3_older_siblings_questionnaire,cosdoq00,OS: OS constantly fidgeting/squirming,2.0,Somewhat true
+786767,MCS,mcs3_older_siblings_questionnaire,cosdoq00,OS: OS constantly fidgeting/squirming,3.0,Certainly true
+786768,MCS,mcs3_older_siblings_questionnaire,cosdoq00,OS: OS constantly fidgeting/squirming,4.0,Can t say
+786769,MCS,mcs3_older_siblings_questionnaire,cosdog00,OS Sibling has at least one good friend,-2.0,Don't Know
+786770,MCS,mcs3_older_siblings_questionnaire,cosdog00,OS Sibling has at least one good friend,-1.0,Not applicable
+786771,MCS,mcs3_older_siblings_questionnaire,cosdog00,OS Sibling has at least one good friend,1.0,Not true
+786772,MCS,mcs3_older_siblings_questionnaire,cosdog00,OS Sibling has at least one good friend,2.0,Somewhat true
+786773,MCS,mcs3_older_siblings_questionnaire,cosdog00,OS Sibling has at least one good friend,3.0,Certainly true
+786774,MCS,mcs3_older_siblings_questionnaire,cosdog00,OS Sibling has at least one good friend,4.0,Can t say
+786775,MCS,mcs3_older_siblings_questionnaire,cosdoc00,OS Sibling fights or bullies other children,-2.0,Don't Know
+786776,MCS,mcs3_older_siblings_questionnaire,cosdoc00,OS Sibling fights or bullies other children,-1.0,Not applicable
+786777,MCS,mcs3_older_siblings_questionnaire,cosdoc00,OS Sibling fights or bullies other children,1.0,Not true
+786778,MCS,mcs3_older_siblings_questionnaire,cosdoc00,OS Sibling fights or bullies other children,2.0,Somewhat true
+786779,MCS,mcs3_older_siblings_questionnaire,cosdoc00,OS Sibling fights or bullies other children,3.0,Certainly true
+786780,MCS,mcs3_older_siblings_questionnaire,cosdoc00,OS Sibling fights or bullies other children,4.0,Can t say
+786781,MCS,mcs3_older_siblings_questionnaire,cosdod00,OS Sibling is often unhappy or down hearted,-2.0,Don't Know
+786782,MCS,mcs3_older_siblings_questionnaire,cosdod00,OS Sibling is often unhappy or down hearted,-1.0,Not applicable
+786783,MCS,mcs3_older_siblings_questionnaire,cosdod00,OS Sibling is often unhappy or down hearted,1.0,Not true
+786784,MCS,mcs3_older_siblings_questionnaire,cosdod00,OS Sibling is often unhappy or down hearted,2.0,Somewhat true
+786785,MCS,mcs3_older_siblings_questionnaire,cosdod00,OS Sibling is often unhappy or down hearted,3.0,Certainly true
+786786,MCS,mcs3_older_siblings_questionnaire,cosdod00,OS Sibling is often unhappy or down hearted,4.0,Can t say
+786787,MCS,mcs3_older_siblings_questionnaire,cosdoi00,OS Sibling is generally liked by other children,-2.0,Don't Know
+786788,MCS,mcs3_older_siblings_questionnaire,cosdoi00,OS Sibling is generally liked by other children,-1.0,Not applicable
+786789,MCS,mcs3_older_siblings_questionnaire,cosdoi00,OS Sibling is generally liked by other children,1.0,Not true
+786790,MCS,mcs3_older_siblings_questionnaire,cosdoi00,OS Sibling is generally liked by other children,2.0,Somewhat true
+786791,MCS,mcs3_older_siblings_questionnaire,cosdoi00,OS Sibling is generally liked by other children,3.0,Certainly true
+786792,MCS,mcs3_older_siblings_questionnaire,cosdoi00,OS Sibling is generally liked by other children,4.0,Can t say
+786793,MCS,mcs3_older_siblings_questionnaire,cosdoy00,OS Sibling is easily distracted,-2.0,Don't Know
+786794,MCS,mcs3_older_siblings_questionnaire,cosdoy00,OS Sibling is easily distracted,-1.0,Not applicable
+786795,MCS,mcs3_older_siblings_questionnaire,cosdoy00,OS Sibling is easily distracted,1.0,Not true
+786796,MCS,mcs3_older_siblings_questionnaire,cosdoy00,OS Sibling is easily distracted,2.0,Somewhat true
+786797,MCS,mcs3_older_siblings_questionnaire,cosdoy00,OS Sibling is easily distracted,3.0,Certainly true
+786798,MCS,mcs3_older_siblings_questionnaire,cosdoy00,OS Sibling is easily distracted,4.0,Can t say
+786799,MCS,mcs3_older_siblings_questionnaire,cosdon00,OS Sibling is nervous or clingy in new situation,-2.0,Don't Know
+786800,MCS,mcs3_older_siblings_questionnaire,cosdon00,OS Sibling is nervous or clingy in new situation,-1.0,Not applicable
+786801,MCS,mcs3_older_siblings_questionnaire,cosdon00,OS Sibling is nervous or clingy in new situation,1.0,Not true
+786802,MCS,mcs3_older_siblings_questionnaire,cosdon00,OS Sibling is nervous or clingy in new situation,2.0,Somewhat true
+786803,MCS,mcs3_older_siblings_questionnaire,cosdon00,OS Sibling is nervous or clingy in new situation,3.0,Certainly true
+786804,MCS,mcs3_older_siblings_questionnaire,cosdon00,OS Sibling is nervous or clingy in new situation,4.0,Can t say
+786805,MCS,mcs3_older_siblings_questionnaire,cosdok00,OS Sibling is kind to younger children,-2.0,Don't Know
+786806,MCS,mcs3_older_siblings_questionnaire,cosdok00,OS Sibling is kind to younger children,-1.0,Not applicable
+786807,MCS,mcs3_older_siblings_questionnaire,cosdok00,OS Sibling is kind to younger children,1.0,Not true
+786808,MCS,mcs3_older_siblings_questionnaire,cosdok00,OS Sibling is kind to younger children,2.0,Somewhat true
+786809,MCS,mcs3_older_siblings_questionnaire,cosdok00,OS Sibling is kind to younger children,3.0,Certainly true
+786810,MCS,mcs3_older_siblings_questionnaire,cosdok00,OS Sibling is kind to younger children,4.0,Can t say
+786811,MCS,mcs3_older_siblings_questionnaire,cosdol00,OS Sibling often lies or cheats,1.0,Not true
+786812,MCS,mcs3_older_siblings_questionnaire,cosdol00,OS Sibling often lies or cheats,2.0,Somewhat true
+786813,MCS,mcs3_older_siblings_questionnaire,cosdol00,OS Sibling often lies or cheats,3.0,Certainly true
+786814,MCS,mcs3_older_siblings_questionnaire,cosdol00,OS Sibling often lies or cheats,4.0,Can t say
+786815,MCS,mcs3_older_siblings_questionnaire,cosdol00,OS Sibling often lies or cheats,-2.0,Don't Know
+786816,MCS,mcs3_older_siblings_questionnaire,cosdol00,OS Sibling often lies or cheats,-1.0,Not applicable
+786817,MCS,mcs3_older_siblings_questionnaire,cosdoz00,OS Sibling is picked on or bullied by other children,-2.0,Don't Know
+786818,MCS,mcs3_older_siblings_questionnaire,cosdoz00,OS Sibling is picked on or bullied by other children,-1.0,Not applicable
+786819,MCS,mcs3_older_siblings_questionnaire,cosdoz00,OS Sibling is picked on or bullied by other children,1.0,Not true
+786820,MCS,mcs3_older_siblings_questionnaire,cosdoz00,OS Sibling is picked on or bullied by other children,2.0,Somewhat true
+786821,MCS,mcs3_older_siblings_questionnaire,cosdoz00,OS Sibling is picked on or bullied by other children,3.0,Certainly true
+786822,MCS,mcs3_older_siblings_questionnaire,cosdoz00,OS Sibling is picked on or bullied by other children,4.0,Can t say
+786823,MCS,mcs3_older_siblings_questionnaire,cosdov00,OS Sibling ofthen volunteers to help others,-2.0,Don't Know
+786824,MCS,mcs3_older_siblings_questionnaire,cosdov00,OS Sibling ofthen volunteers to help others,-1.0,Not applicable
+786825,MCS,mcs3_older_siblings_questionnaire,cosdov00,OS Sibling ofthen volunteers to help others,1.0,Not true
+786826,MCS,mcs3_older_siblings_questionnaire,cosdov00,OS Sibling ofthen volunteers to help others,2.0,Somewhat true
+786827,MCS,mcs3_older_siblings_questionnaire,cosdov00,OS Sibling ofthen volunteers to help others,3.0,Certainly true
+786828,MCS,mcs3_older_siblings_questionnaire,cosdov00,OS Sibling ofthen volunteers to help others,4.0,Can t say
+786829,MCS,mcs3_older_siblings_questionnaire,cosdth00,OS Sibling thinks things out before acting,-2.0,Don't Know
+786830,MCS,mcs3_older_siblings_questionnaire,cosdth00,OS Sibling thinks things out before acting,-1.0,Not applicable
+786831,MCS,mcs3_older_siblings_questionnaire,cosdth00,OS Sibling thinks things out before acting,1.0,Not true
+786832,MCS,mcs3_older_siblings_questionnaire,cosdth00,OS Sibling thinks things out before acting,2.0,Somewhat true
+786833,MCS,mcs3_older_siblings_questionnaire,cosdth00,OS Sibling thinks things out before acting,3.0,Certainly true
+786834,MCS,mcs3_older_siblings_questionnaire,cosdth00,OS Sibling thinks things out before acting,4.0,Can t say
+786835,MCS,mcs3_older_siblings_questionnaire,cosdst00,OS: OS steals from home/school/elsewhere,-2.0,Don't Know
+786836,MCS,mcs3_older_siblings_questionnaire,cosdst00,OS: OS steals from home/school/elsewhere,-1.0,Not applicable
+786837,MCS,mcs3_older_siblings_questionnaire,cosdst00,OS: OS steals from home/school/elsewhere,1.0,Not true
+786838,MCS,mcs3_older_siblings_questionnaire,cosdst00,OS: OS steals from home/school/elsewhere,2.0,Somewhat true
+786839,MCS,mcs3_older_siblings_questionnaire,cosdst00,OS: OS steals from home/school/elsewhere,3.0,Certainly true
+786840,MCS,mcs3_older_siblings_questionnaire,cosdst00,OS: OS steals from home/school/elsewhere,4.0,Can t say
+786841,MCS,mcs3_older_siblings_questionnaire,cosdoa00,OS: OS gets on better with adults than children,-2.0,Don't Know
+786842,MCS,mcs3_older_siblings_questionnaire,cosdoa00,OS: OS gets on better with adults than children,-1.0,Not applicable
+786843,MCS,mcs3_older_siblings_questionnaire,cosdoa00,OS: OS gets on better with adults than children,1.0,Not true
+786844,MCS,mcs3_older_siblings_questionnaire,cosdoa00,OS: OS gets on better with adults than children,2.0,Somewhat true
+786845,MCS,mcs3_older_siblings_questionnaire,cosdoa00,OS: OS gets on better with adults than children,3.0,Certainly true
+786846,MCS,mcs3_older_siblings_questionnaire,cosdoa00,OS: OS gets on better with adults than children,4.0,Can t say
+786847,MCS,mcs3_older_siblings_questionnaire,cosdof00,OS Sibling has many fears,-2.0,Don't Know
+786848,MCS,mcs3_older_siblings_questionnaire,cosdof00,OS Sibling has many fears,-1.0,Not applicable
+786849,MCS,mcs3_older_siblings_questionnaire,cosdof00,OS Sibling has many fears,1.0,Not true
+786850,MCS,mcs3_older_siblings_questionnaire,cosdof00,OS Sibling has many fears,2.0,Somewhat true
+786851,MCS,mcs3_older_siblings_questionnaire,cosdof00,OS Sibling has many fears,3.0,Certainly true
+786852,MCS,mcs3_older_siblings_questionnaire,cosdof00,OS Sibling has many fears,4.0,Can t say
+786853,MCS,mcs3_older_siblings_questionnaire,cosdoe00,OS Sibling seeks tasks through to the end,-2.0,Don't Know
+786854,MCS,mcs3_older_siblings_questionnaire,cosdoe00,OS Sibling seeks tasks through to the end,-1.0,Not applicable
+786855,MCS,mcs3_older_siblings_questionnaire,cosdoe00,OS Sibling seeks tasks through to the end,1.0,Not true
+786856,MCS,mcs3_older_siblings_questionnaire,cosdoe00,OS Sibling seeks tasks through to the end,2.0,Somewhat true
+786857,MCS,mcs3_older_siblings_questionnaire,cosdoe00,OS Sibling seeks tasks through to the end,3.0,Certainly true
+786858,MCS,mcs3_older_siblings_questionnaire,cosdoe00,OS Sibling seeks tasks through to the end,4.0,Can t say
+786859,MCS,mcs3_older_siblings_questionnaire,coscam00,OS: Whether OS attends school,-9.0,Refusal
+786860,MCS,mcs3_older_siblings_questionnaire,coscam00,OS: Whether OS attends school,-8.0,Don't Know
+786861,MCS,mcs3_older_siblings_questionnaire,coscam00,OS: Whether OS attends school,-1.0,Not applicable
+786862,MCS,mcs3_older_siblings_questionnaire,coscam00,OS: Whether OS attends school,1.0,Yes
+786863,MCS,mcs3_older_siblings_questionnaire,coscam00,OS: Whether OS attends school,2.0,No
+786864,MCS,mcs3_older_siblings_questionnaire,coossm00,OS: Whether OS attends same school as CM,-9.0,Refusal
+786865,MCS,mcs3_older_siblings_questionnaire,coossm00,OS: Whether OS attends same school as CM,-8.0,Don't Know
+786866,MCS,mcs3_older_siblings_questionnaire,coossm00,OS: Whether OS attends same school as CM,-1.0,Not applicable
+786867,MCS,mcs3_older_siblings_questionnaire,coossm00,OS: Whether OS attends same school as CM,1.0,Yes
+786868,MCS,mcs3_older_siblings_questionnaire,coossm00,OS: Whether OS attends same school as CM,2.0,No
+786869,MCS,mcs3_older_siblings_questionnaire,cosccx00,OS: Pay fees for OS to attend this school,-9.0,Refusal
+786870,MCS,mcs3_older_siblings_questionnaire,cosccx00,OS: Pay fees for OS to attend this school,-8.0,Don't Know
+786871,MCS,mcs3_older_siblings_questionnaire,cosccx00,OS: Pay fees for OS to attend this school,-1.0,Not applicable
+786872,MCS,mcs3_older_siblings_questionnaire,cosccx00,OS: Pay fees for OS to attend this school,1.0,Yes
+786873,MCS,mcs3_older_siblings_questionnaire,cosccx00,OS: Pay fees for OS to attend this school,2.0,No
+786874,MCS,mcs3_older_siblings_questionnaire,colesu00,OS Whether school informs older siblings level of English/Maths/Science,-9.0,Refusal
+786875,MCS,mcs3_older_siblings_questionnaire,colesu00,OS Whether school informs older siblings level of English/Maths/Science,-8.0,Don't Know
+786876,MCS,mcs3_older_siblings_questionnaire,colesu00,OS Whether school informs older siblings level of English/Maths/Science,-1.0,Not applicable
+786877,MCS,mcs3_older_siblings_questionnaire,colesu00,OS Whether school informs older siblings level of English/Maths/Science,1.0,Yes
+786878,MCS,mcs3_older_siblings_questionnaire,colesu00,OS Whether school informs older siblings level of English/Maths/Science,2.0,No
+786879,MCS,mcs3_older_siblings_questionnaire,coleen00,OS What level is older sibling in English?,-9.0,Refusal
+786880,MCS,mcs3_older_siblings_questionnaire,coleen00,OS What level is older sibling in English?,-8.0,Don't Know
+786881,MCS,mcs3_older_siblings_questionnaire,coleen00,OS What level is older sibling in English?,-1.0,Not applicable
+786882,MCS,mcs3_older_siblings_questionnaire,colema00,OS What level is older sibling in Maths?,-9.0,Refusal
+786883,MCS,mcs3_older_siblings_questionnaire,colema00,OS What level is older sibling in Maths?,-8.0,Don't Know
+786884,MCS,mcs3_older_siblings_questionnaire,colema00,OS What level is older sibling in Maths?,-1.0,Not applicable
+786885,MCS,mcs3_older_siblings_questionnaire,colesc00,OS What level is older sibling in Science?,-9.0,Refusal
+786886,MCS,mcs3_older_siblings_questionnaire,colesc00,OS What level is older sibling in Science?,-8.0,Don't Know
+786887,MCS,mcs3_older_siblings_questionnaire,colesc00,OS What level is older sibling in Science?,-1.0,Not applicable
+786888,MCS,mcs3_older_siblings_questionnaire,coteex00,OS Whether OS has been suspended in past year,-9.0,Refusal
+786889,MCS,mcs3_older_siblings_questionnaire,coteex00,OS Whether OS has been suspended in past year,-8.0,Don't Know
+786890,MCS,mcs3_older_siblings_questionnaire,coteex00,OS Whether OS has been suspended in past year,-1.0,Not applicable
+786891,MCS,mcs3_older_siblings_questionnaire,coteex00,OS Whether OS has been suspended in past year,1.0,Yes
+786892,MCS,mcs3_older_siblings_questionnaire,coteex00,OS Whether OS has been suspended in past year,2.0,No
+786893,MCS,mcs3_older_siblings_questionnaire,copeex00,OS: Whether OS has been expelled in past year,-1.0,Not applicable
+786894,MCS,mcs3_older_siblings_questionnaire,copeex00,OS: Whether OS has been expelled in past year,1.0,Yes
+786895,MCS,mcs3_older_siblings_questionnaire,copeex00,OS: Whether OS has been expelled in past year,2.0,No
+786896,MCS,mcs3_older_siblings_questionnaire,copeex00,OS: Whether OS has been expelled in past year,3.0,Not at school
+786897,MCS,mcs3_older_siblings_questionnaire,copeex00,OS: Whether OS has been expelled in past year,-9.0,Refusal
+786898,MCS,mcs3_older_siblings_questionnaire,copeex00,OS: Whether OS has been expelled in past year,-8.0,Don't Know
+786899,MCS,mcs3_older_siblings_questionnaire,cobusc00,OS In the last 12 months,-9.0,Refusal
+786900,MCS,mcs3_older_siblings_questionnaire,cobusc00,OS In the last 12 months,-8.0,Don't Know
+786901,MCS,mcs3_older_siblings_questionnaire,cobusc00,OS In the last 12 months,-1.0,Not applicable
+786902,MCS,mcs3_older_siblings_questionnaire,cobusc00,OS In the last 12 months,1.0,Yes
+786903,MCS,mcs3_older_siblings_questionnaire,cobusc00,OS In the last 12 months,2.0,No
+786904,MCS,mcs3_older_siblings_questionnaire,cobusc00,OS In the last 12 months,3.0,Not at school
+786905,MCS,mcs3_older_siblings_questionnaire,cocosc00,OS Have you/partner been contacted re sibling behaviour at school,-9.0,Refusal
+786906,MCS,mcs3_older_siblings_questionnaire,cocosc00,OS Have you/partner been contacted re sibling behaviour at school,-8.0,Don't Know
+786907,MCS,mcs3_older_siblings_questionnaire,cocosc00,OS Have you/partner been contacted re sibling behaviour at school,-1.0,Not applicable
+786908,MCS,mcs3_older_siblings_questionnaire,cocosc00,OS Have you/partner been contacted re sibling behaviour at school,1.0,Yes
+786909,MCS,mcs3_older_siblings_questionnaire,cocosc00,OS Have you/partner been contacted re sibling behaviour at school,2.0,No
+786910,MCS,mcs3_older_siblings_questionnaire,cocoat00,OS Have you/partner been contacted re sib not attending schoool,-9.0,Refusal
+786911,MCS,mcs3_older_siblings_questionnaire,cocoat00,OS Have you/partner been contacted re sib not attending schoool,-8.0,Don't Know
+786912,MCS,mcs3_older_siblings_questionnaire,cocoat00,OS Have you/partner been contacted re sib not attending schoool,-1.0,Not applicable
+786913,MCS,mcs3_older_siblings_questionnaire,cocoat00,OS Have you/partner been contacted re sib not attending schoool,1.0,Yes
+786914,MCS,mcs3_older_siblings_questionnaire,cocoat00,OS Have you/partner been contacted re sib not attending schoool,2.0,No
+786915,MCS,mcs3_older_siblings_questionnaire,cosmyr00,OS: Whether think OS has had a smoking problem,-9.0,Refusal
+786916,MCS,mcs3_older_siblings_questionnaire,cosmyr00,OS: Whether think OS has had a smoking problem,-8.0,Don't Know
+786917,MCS,mcs3_older_siblings_questionnaire,cosmyr00,OS: Whether think OS has had a smoking problem,-1.0,Not applicable
+786918,MCS,mcs3_older_siblings_questionnaire,cosmyr00,OS: Whether think OS has had a smoking problem,1.0,Yes
+786919,MCS,mcs3_older_siblings_questionnaire,cosmyr00,OS: Whether think OS has had a smoking problem,2.0,No
+786920,MCS,mcs3_older_siblings_questionnaire,coalyr00,OS In last 12 months,-9.0,Refusal
+786921,MCS,mcs3_older_siblings_questionnaire,coalyr00,OS In last 12 months,-8.0,Don't Know
+786922,MCS,mcs3_older_siblings_questionnaire,coalyr00,OS In last 12 months,-1.0,Not applicable
+786923,MCS,mcs3_older_siblings_questionnaire,coalyr00,OS In last 12 months,1.0,Yes
+786924,MCS,mcs3_older_siblings_questionnaire,coalyr00,OS In last 12 months,2.0,No
+786925,MCS,mcs3_older_siblings_questionnaire,codryr00,OS Whether think OS has had a drugs problem,-9.0,Refusal
+786926,MCS,mcs3_older_siblings_questionnaire,codryr00,OS Whether think OS has had a drugs problem,-8.0,Don't Know
+786927,MCS,mcs3_older_siblings_questionnaire,codryr00,OS Whether think OS has had a drugs problem,-1.0,Not applicable
+786928,MCS,mcs3_older_siblings_questionnaire,codryr00,OS Whether think OS has had a drugs problem,1.0,Yes
+786929,MCS,mcs3_older_siblings_questionnaire,codryr00,OS Whether think OS has had a drugs problem,2.0,No
+786930,MCS,mcs3_older_siblings_questionnaire,copoyr00,Has police contacted you/partner about older sibling doing something wrong,-9.0,Refusal
+786931,MCS,mcs3_older_siblings_questionnaire,copoyr00,Has police contacted you/partner about older sibling doing something wrong,-8.0,Don't Know
+786932,MCS,mcs3_older_siblings_questionnaire,copoyr00,Has police contacted you/partner about older sibling doing something wrong,-1.0,Not applicable
+786933,MCS,mcs3_older_siblings_questionnaire,copoyr00,Has police contacted you/partner about older sibling doing something wrong,1.0,Yes
+786934,MCS,mcs3_older_siblings_questionnaire,copoyr00,Has police contacted you/partner about older sibling doing something wrong,2.0,No
+786935,MCS,mcs3_older_siblings_questionnaire,coossc00,OS: Consent form for OS to do self-completion,-9.0,Refusal
+786936,MCS,mcs3_older_siblings_questionnaire,coossc00,OS: Consent form for OS to do self-completion,-8.0,Don't Know
+786937,MCS,mcs3_older_siblings_questionnaire,coossc00,OS: Consent form for OS to do self-completion,-1.0,Not applicable
+786938,MCS,mcs3_older_siblings_questionnaire,coossc00,OS: Consent form for OS to do self-completion,1.0,Self completion accepted
+786939,MCS,mcs3_older_siblings_questionnaire,coossc00,OS: Consent form for OS to do self-completion,2.0,Self completion refused
+786940,MCS,mcs3_older_siblings_questionnaire,cosinfoa0,OS: Interviewer instructions OS questionnaire,-9.0,Refusal
+786941,MCS,mcs3_older_siblings_questionnaire,cosinfoa0,OS: Interviewer instructions OS questionnaire,-8.0,Don't Know
+786942,MCS,mcs3_older_siblings_questionnaire,cosinfoa0,OS: Interviewer instructions OS questionnaire,-1.0,Not applicable
+786943,MCS,mcs3_older_siblings_questionnaire,cosinfoa0,OS: Interviewer instructions OS questionnaire,1.0,Press 1 and Enter to continue.
+786944,MCS,mcs3_older_siblings_questionnaire,cosinfob0,OS: Interviewer instructions ARF,-9.0,Refusal
+786945,MCS,mcs3_older_siblings_questionnaire,cosinfob0,OS: Interviewer instructions ARF,-8.0,Don't Know
+786946,MCS,mcs3_older_siblings_questionnaire,cosinfob0,OS: Interviewer instructions ARF,-1.0,Not applicable
+786947,MCS,mcs3_older_siblings_questionnaire,cosinfob0,OS: Interviewer instructions ARF,1.0,Press 1 and Enter to continue.
+786948,MCS,mcs3_older_siblings_questionnaire,qa1,OSSC: Sometimes classes or clubs not school to do spor,-9.0,Not answered (9)
+786949,MCS,mcs3_older_siblings_questionnaire,qa1,OSSC: Sometimes classes or clubs not school to do spor,-1.0,Item not applicable
+786950,MCS,mcs3_older_siblings_questionnaire,qa1,OSSC: Sometimes classes or clubs not school to do spor,1.0,Yes
+786951,MCS,mcs3_older_siblings_questionnaire,qa1,OSSC: Sometimes classes or clubs not school to do spor,2.0,No
+786952,MCS,mcs3_older_siblings_questionnaire,qa2,OSSC: Sometimes Cubs Brownies Scouts Guides etc,-9.0,Not answered (9)
+786953,MCS,mcs3_older_siblings_questionnaire,qa2,OSSC: Sometimes Cubs Brownies Scouts Guides etc,-1.0,Item not applicable
+786954,MCS,mcs3_older_siblings_questionnaire,qa2,OSSC: Sometimes Cubs Brownies Scouts Guides etc,1.0,Yes
+786955,MCS,mcs3_older_siblings_questionnaire,qa2,OSSC: Sometimes Cubs Brownies Scouts Guides etc,2.0,No
+786956,MCS,mcs3_older_siblings_questionnaire,qa3,OSSC: Sometimes dance classes outside school,-9.0,Not answered (9)
+786957,MCS,mcs3_older_siblings_questionnaire,qa3,OSSC: Sometimes dance classes outside school,-1.0,Item not applicable
+786958,MCS,mcs3_older_siblings_questionnaire,qa3,OSSC: Sometimes dance classes outside school,1.0,Yes
+786959,MCS,mcs3_older_siblings_questionnaire,qa3,OSSC: Sometimes dance classes outside school,2.0,No
+786960,MCS,mcs3_older_siblings_questionnaire,qa4,OSSC: Sometimes classes outside school to do drawing etc,-9.0,Not answered (9)
+786961,MCS,mcs3_older_siblings_questionnaire,qa4,OSSC: Sometimes classes outside school to do drawing etc,-1.0,Item not applicable
+786962,MCS,mcs3_older_siblings_questionnaire,qa4,OSSC: Sometimes classes outside school to do drawing etc,1.0,Yes
+786963,MCS,mcs3_older_siblings_questionnaire,qa4,OSSC: Sometimes classes outside school to do drawing etc,2.0,No
+786964,MCS,mcs3_older_siblings_questionnaire,qa5,OSSC: Sometimes have music lessons. choir outside school,-9.0,Not answered (9)
+786965,MCS,mcs3_older_siblings_questionnaire,qa5,OSSC: Sometimes have music lessons. choir outside school,-1.0,Item not applicable
+786966,MCS,mcs3_older_siblings_questionnaire,qa5,OSSC: Sometimes have music lessons. choir outside school,1.0,Yes
+786967,MCS,mcs3_older_siblings_questionnaire,qa5,OSSC: Sometimes have music lessons. choir outside school,2.0,No
+786968,MCS,mcs3_older_siblings_questionnaire,qa6,OSSC: Sometimes go to clubs connected with Army RAF etc,-9.0,Not answered (9)
+786969,MCS,mcs3_older_siblings_questionnaire,qa6,OSSC: Sometimes go to clubs connected with Army RAF etc,-1.0,Item not applicable
+786970,MCS,mcs3_older_siblings_questionnaire,qa6,OSSC: Sometimes go to clubs connected with Army RAF etc,1.0,Yes
+786971,MCS,mcs3_older_siblings_questionnaire,qa6,OSSC: Sometimes go to clubs connected with Army RAF etc,2.0,No
+786972,MCS,mcs3_older_siblings_questionnaire,qa7,OSSC: Sometimes go to First Aid,-9.0,Not answered (9)
+786973,MCS,mcs3_older_siblings_questionnaire,qa7,OSSC: Sometimes go to First Aid,-1.0,Item not applicable
+786974,MCS,mcs3_older_siblings_questionnaire,qa7,OSSC: Sometimes go to First Aid,1.0,Yes
+786975,MCS,mcs3_older_siblings_questionnaire,qa7,OSSC: Sometimes go to First Aid,2.0,No
+786976,MCS,mcs3_older_siblings_questionnaire,qa8,OSSC: Sometimes go to playcentre or adventure playgroup,-9.0,Not answered (9)
+786977,MCS,mcs3_older_siblings_questionnaire,qa8,OSSC: Sometimes go to playcentre or adventure playgroup,-1.0,Item not applicable
+786978,MCS,mcs3_older_siblings_questionnaire,qa8,OSSC: Sometimes go to playcentre or adventure playgroup,1.0,Yes
+786979,MCS,mcs3_older_siblings_questionnaire,qa8,OSSC: Sometimes go to playcentre or adventure playgroup,2.0,No
+786980,MCS,mcs3_older_siblings_questionnaire,qa9,OSSC: Sometimes go to youth club,-9.0,Not answered (9)
+786981,MCS,mcs3_older_siblings_questionnaire,qa9,OSSC: Sometimes go to youth club,-1.0,Item not applicable
+786982,MCS,mcs3_older_siblings_questionnaire,qa9,OSSC: Sometimes go to youth club,1.0,Yes
+786983,MCS,mcs3_older_siblings_questionnaire,qa9,OSSC: Sometimes go to youth club,2.0,No
+786984,MCS,mcs3_older_siblings_questionnaire,qa10,OSSC: Sometimes use local public library,-9.0,Not answered (9)
+786985,MCS,mcs3_older_siblings_questionnaire,qa10,OSSC: Sometimes use local public library,-1.0,Item not applicable
+786986,MCS,mcs3_older_siblings_questionnaire,qa10,OSSC: Sometimes use local public library,1.0,Yes
+786987,MCS,mcs3_older_siblings_questionnaire,qa10,OSSC: Sometimes use local public library,2.0,No
+786988,MCS,mcs3_older_siblings_questionnaire,qa11,OSSC: During holidays Sometimes go to local summer hol,-9.0,Not answered (9)
+786989,MCS,mcs3_older_siblings_questionnaire,qa11,OSSC: During holidays Sometimes go to local summer hol,-1.0,Item not applicable
+786990,MCS,mcs3_older_siblings_questionnaire,qa11,OSSC: During holidays Sometimes go to local summer hol,1.0,Yes
+786991,MCS,mcs3_older_siblings_questionnaire,qa11,OSSC: During holidays Sometimes go to local summer hol,2.0,No
+786992,MCS,mcs3_older_siblings_questionnaire,qa12,OSSC: Work for money after school on school days,-9.0,Not answered (9)
+786993,MCS,mcs3_older_siblings_questionnaire,qa12,OSSC: Work for money after school on school days,-1.0,Item not applicable
+786994,MCS,mcs3_older_siblings_questionnaire,qa12,OSSC: Work for money after school on school days,1.0,Yes
+786995,MCS,mcs3_older_siblings_questionnaire,qa12,OSSC: Work for money after school on school days,2.0,No
+786996,MCS,mcs3_older_siblings_questionnaire,qa13,OSSC: Work for money at weekends,-9.0,Not answered (9)
+786997,MCS,mcs3_older_siblings_questionnaire,qa13,OSSC: Work for money at weekends,-1.0,Item not applicable
+786998,MCS,mcs3_older_siblings_questionnaire,qa13,OSSC: Work for money at weekends,1.0,Yes
+786999,MCS,mcs3_older_siblings_questionnaire,qa13,OSSC: Work for money at weekends,2.0,No
+787000,MCS,mcs3_older_siblings_questionnaire,qa14,OSSC: Work for money during school holidays,-9.0,Not answered (9)
+787001,MCS,mcs3_older_siblings_questionnaire,qa14,OSSC: Work for money during school holidays,-1.0,Item not applicable
+787002,MCS,mcs3_older_siblings_questionnaire,qa14,OSSC: Work for money during school holidays,1.0,Yes
+787003,MCS,mcs3_older_siblings_questionnaire,qa14,OSSC: Work for money during school holidays,2.0,No
+787004,MCS,mcs3_older_siblings_questionnaire,qa15,OSSC: Ever been on own to dropin centre or play worker,-9.0,Not answered (9)
+787005,MCS,mcs3_older_siblings_questionnaire,qa15,OSSC: Ever been on own to dropin centre or play worker,-1.0,Item not applicable
+787006,MCS,mcs3_older_siblings_questionnaire,qa15,OSSC: Ever been on own to dropin centre or play worker,1.0,Yes
+787007,MCS,mcs3_older_siblings_questionnaire,qa15,OSSC: Ever been on own to dropin centre or play worker,2.0,No
+787008,MCS,mcs3_older_siblings_questionnaire,qb1,OSSC: Sometimes go to breakfast club before school,-9.0,Not answered (9)
+787009,MCS,mcs3_older_siblings_questionnaire,qb1,OSSC: Sometimes go to breakfast club before school,-1.0,Item not applicable
+787010,MCS,mcs3_older_siblings_questionnaire,qb1,OSSC: Sometimes go to breakfast club before school,1.0,Yes
+787011,MCS,mcs3_older_siblings_questionnaire,qb1,OSSC: Sometimes go to breakfast club before school,2.0,No
+787012,MCS,mcs3_older_siblings_questionnaire,qb1,OSSC: Sometimes go to breakfast club before school,3.0,I'm not at school
+787013,MCS,mcs3_older_siblings_questionnaire,qb2,OSSC: Sometimes go to homework club,-9.0,Not answered (9)
+787014,MCS,mcs3_older_siblings_questionnaire,qb2,OSSC: Sometimes go to homework club,-1.0,Item not applicable
+787015,MCS,mcs3_older_siblings_questionnaire,qb2,OSSC: Sometimes go to homework club,1.0,Yes
+787016,MCS,mcs3_older_siblings_questionnaire,qb2,OSSC: Sometimes go to homework club,2.0,No
+787017,MCS,mcs3_older_siblings_questionnaire,qb2,OSSC: Sometimes go to homework club,3.0,I'm not at school
+787018,MCS,mcs3_older_siblings_questionnaire,qb3,OSSC: Sometimes go to after school club,-9.0,Not answered (9)
+787019,MCS,mcs3_older_siblings_questionnaire,qb3,OSSC: Sometimes go to after school club,-1.0,Item not applicable
+787020,MCS,mcs3_older_siblings_questionnaire,qb3,OSSC: Sometimes go to after school club,1.0,Yes
+787021,MCS,mcs3_older_siblings_questionnaire,qb3,OSSC: Sometimes go to after school club,2.0,No
+787022,MCS,mcs3_older_siblings_questionnaire,qb3,OSSC: Sometimes go to after school club,3.0,I'm not at school
+787023,MCS,mcs3_older_siblings_questionnaire,qb4,OSSC: Sometimes stay at school to play in sports team,-9.0,Not answered (9)
+787024,MCS,mcs3_older_siblings_questionnaire,qb4,OSSC: Sometimes stay at school to play in sports team,-1.0,Item not applicable
+787025,MCS,mcs3_older_siblings_questionnaire,qb4,OSSC: Sometimes stay at school to play in sports team,1.0,Yes
+787026,MCS,mcs3_older_siblings_questionnaire,qb4,OSSC: Sometimes stay at school to play in sports team,2.0,No
+787027,MCS,mcs3_older_siblings_questionnaire,qb4,OSSC: Sometimes stay at school to play in sports team,3.0,I'm not at school
+787028,MCS,mcs3_older_siblings_questionnaire,qb5,OSSC: Sometimes stay at school to play in band or orch,-9.0,Not answered (9)
+787029,MCS,mcs3_older_siblings_questionnaire,qb5,OSSC: Sometimes stay at school to play in band or orch,-1.0,Item not applicable
+787030,MCS,mcs3_older_siblings_questionnaire,qb5,OSSC: Sometimes stay at school to play in band or orch,1.0,Yes
+787031,MCS,mcs3_older_siblings_questionnaire,qb5,OSSC: Sometimes stay at school to play in band or orch,2.0,No
+787032,MCS,mcs3_older_siblings_questionnaire,qb5,OSSC: Sometimes stay at school to play in band or orch,3.0,I'm not at school
+787033,MCS,mcs3_older_siblings_questionnaire,qc1,OSSC: Sometimes go to classes outside school to learn,-9.0,Not answered (9)
+787034,MCS,mcs3_older_siblings_questionnaire,qc1,OSSC: Sometimes go to classes outside school to learn,-1.0,Item not applicable
+787035,MCS,mcs3_older_siblings_questionnaire,qc1,OSSC: Sometimes go to classes outside school to learn,1.0,Yes
+787036,MCS,mcs3_older_siblings_questionnaire,qc1,OSSC: Sometimes go to classes outside school to learn,2.0,No
+787037,MCS,mcs3_older_siblings_questionnaire,qc2,OSSC: Sometimes go to classes for school work at weeke,-9.0,Not answered (9)
+787038,MCS,mcs3_older_siblings_questionnaire,qc2,OSSC: Sometimes go to classes for school work at weeke,-1.0,Item not applicable
+787039,MCS,mcs3_older_siblings_questionnaire,qc2,OSSC: Sometimes go to classes for school work at weeke,1.0,Yes
+787040,MCS,mcs3_older_siblings_questionnaire,qc2,OSSC: Sometimes go to classes for school work at weeke,2.0,No
+787041,MCS,mcs3_older_siblings_questionnaire,qc3,OSSC: Have a private tutor for school lessons,-9.0,Not answered (9)
+787042,MCS,mcs3_older_siblings_questionnaire,qc3,OSSC: Have a private tutor for school lessons,-1.0,Item not applicable
+787043,MCS,mcs3_older_siblings_questionnaire,qc3,OSSC: Have a private tutor for school lessons,1.0,Yes
+787044,MCS,mcs3_older_siblings_questionnaire,qc3,OSSC: Have a private tutor for school lessons,2.0,No
+787045,MCS,mcs3_older_siblings_questionnaire,qc4,OSSC: Sometimes go to classes connected with religion,-9.0,Not answered (9)
+787046,MCS,mcs3_older_siblings_questionnaire,qc4,OSSC: Sometimes go to classes connected with religion,-1.0,Item not applicable
+787047,MCS,mcs3_older_siblings_questionnaire,qc4,OSSC: Sometimes go to classes connected with religion,1.0,Yes
+787048,MCS,mcs3_older_siblings_questionnaire,qc4,OSSC: Sometimes go to classes connected with religion,2.0,No
+787049,MCS,mcs3_older_siblings_questionnaire,qc5a,OSSC: Answered,-9.0,Not answered (9)
+787050,MCS,mcs3_older_siblings_questionnaire,qc5a,OSSC: Answered,-1.0,Item not applicable
+787051,MCS,mcs3_older_siblings_questionnaire,qc5a,OSSC: Answered,1.0,Text present
+787052,MCS,mcs3_older_siblings_questionnaire,qc5a,OSSC: Answered,2.0,No text present
+787053,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,9.0,"Youth club, social group"
+787054,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,10.0,Playing / seeing friends
+787055,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,11.0,Babysitting
+787056,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,12.0,Cinema
+787057,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,13.0,Listen to music
+787058,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,14.0,"Language lesson, extra lessons, Kumon,"
+787059,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,15.0,"Go to church, mosque, etc"
+787060,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,16.0,Gardening
+787061,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,17.0,"Walking, walk in park, walking dog"
+787062,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,18.0,Duke of Edingburgh award
+787063,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,19.0,"Volunteer work with elderly, children"
+787064,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,20.0,"Art and crafts, painting, cookery etc"
+787065,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,21.0,Reading
+787066,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,22.0,Fishing
+787067,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,85.0,Other specific answer
+787068,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,86.0,Vague / irrelevant answer
+787069,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,87.0,Editor cannot deal with
+787070,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,-9.0,Not answered (99)
+787071,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,-1.0,Item not applicable
+787072,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,1.0,"Sports classes, training, playing sport"
+787073,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,2.0,"Skateboarding, roller-skating, cycling"
+787074,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,3.0,Horse-riding
+787075,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,4.0,"Dance lessons, dancing"
+787076,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,5.0,"Music lessons, singing lessons"
+787077,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,6.0,"Drama, theatre studies"
+787078,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,7.0,"Scouts, Guides, Brownies, Cubs etc"
+787079,MCS,mcs3_older_siblings_questionnaire,qc5b01,OSSC: Anything else outside school you'd like to tell,8.0,"Play computer, watch TV"
+787080,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,-9.0,Not answered (99)
+787081,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,-1.0,Item not applicable
+787082,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,1.0,"Sports classes, training, playing sport"
+787083,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,2.0,"Skateboarding, roller-skating, cycling"
+787084,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,3.0,Horse-riding
+787085,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,4.0,"Dance lessons, dancing"
+787086,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,5.0,"Music lessons, singing lessons"
+787087,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,6.0,"Drama, theatre studies"
+787088,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,7.0,"Scouts, Guides, Brownies, Cubs etc"
+787089,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,8.0,"Play computer, watch TV"
+787090,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,9.0,"Youth club, social group"
+787091,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,10.0,Playing / seeing friends
+787092,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,11.0,Babysitting
+787093,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,12.0,Cinema
+787094,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,13.0,Listen to music
+787095,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,14.0,"Language lesson, extra lessons, Kumon,"
+787096,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,15.0,"Go to church, mosque, etc"
+787097,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,16.0,Gardening
+787098,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,17.0,"Walking, walk in park, walking dog"
+787099,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,18.0,Duke of Edingburgh award
+787100,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,19.0,"Volunteer work with elderly, children"
+787101,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,20.0,"Art and crafts, painting, cookery etc"
+787102,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,21.0,Reading
+787103,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,22.0,Fishing
+787104,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,85.0,Other specific answer
+787105,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,86.0,Vague / irrelevant answer
+787106,MCS,mcs3_older_siblings_questionnaire,qc5b02,OSSC: Anything else outside school you'd like to tell,87.0,Editor cannot deal with
+787107,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,-9.0,Not answered (99)
+787108,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,-1.0,Item not applicable
+787109,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,1.0,"Sports classes, training, playing sport"
+787110,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,2.0,"Skateboarding, roller-skating, cycling"
+787111,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,3.0,Horse-riding
+787112,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,4.0,"Dance lessons, dancing"
+787113,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,5.0,"Music lessons, singing lessons"
+787114,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,6.0,"Drama, theatre studies"
+787115,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,7.0,"Scouts, Guides, Brownies, Cubs etc"
+787116,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,8.0,"Play computer, watch TV"
+787117,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,9.0,"Youth club, social group"
+787118,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,10.0,Playing / seeing friends
+787119,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,11.0,Babysitting
+787120,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,12.0,Cinema
+787121,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,13.0,Listen to music
+787122,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,14.0,"Language lesson, extra lessons, Kumon,"
+787123,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,15.0,"Go to church, mosque, etc"
+787124,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,16.0,Gardening
+787125,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,17.0,"Walking, walk in park, walking dog"
+787126,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,18.0,Duke of Edingburgh award
+787127,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,19.0,"Volunteer work with elderly, children"
+787128,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,20.0,"Art and crafts, painting, cookery etc"
+787129,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,21.0,Reading
+787130,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,22.0,Fishing
+787131,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,85.0,Other specific answer
+787132,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,86.0,Vague / irrelevant answer
+787133,MCS,mcs3_older_siblings_questionnaire,qc5b03,OSSC: Anything else outside school you'd like to tell,87.0,Editor cannot deal with
+787134,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,-9.0,Not answered (99)
+787135,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,-1.0,Item not applicable
+787136,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,1.0,"Sports classes, training, playing sport"
+787137,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,2.0,"Skateboarding, roller-skating, cycling"
+787138,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,3.0,Horse-riding
+787139,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,4.0,"Dance lessons, dancing"
+787140,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,5.0,"Music lessons, singing lessons"
+787141,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,6.0,"Drama, theatre studies"
+787142,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,7.0,"Scouts, Guides, Brownies, Cubs etc"
+787143,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,8.0,"Play computer, watch TV"
+787144,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,9.0,"Youth club, social group"
+787145,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,10.0,Playing / seeing friends
+787146,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,11.0,Babysitting
+787147,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,12.0,Cinema
+787148,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,13.0,Listen to music
+787149,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,14.0,"Language lesson, extra lessons, Kumon,"
+787150,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,15.0,"Go to church, mosque, etc"
+787151,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,16.0,Gardening
+787152,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,17.0,"Walking, walk in park, walking dog"
+787153,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,18.0,Duke of Edingburgh award
+787154,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,19.0,"Volunteer work with elderly, children"
+787155,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,20.0,"Art and crafts, painting, cookery etc"
+787156,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,21.0,Reading
+787157,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,22.0,Fishing
+787158,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,85.0,Other specific answer
+787159,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,86.0,Vague / irrelevant answer
+787160,MCS,mcs3_older_siblings_questionnaire,qc5b04,OSSC: Anything else outside school you'd like to tell,87.0,Editor cannot deal with
+787161,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,-9.0,Not answered (99)
+787162,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,-1.0,Item not applicable
+787163,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,1.0,"Sports classes, training, playing sport"
+787164,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,2.0,"Skateboarding, roller-skating, cycling"
+787165,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,3.0,Horse-riding
+787166,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,4.0,"Dance lessons, dancing"
+787167,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,5.0,"Music lessons, singing lessons"
+787168,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,6.0,"Drama, theatre studies"
+787169,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,7.0,"Scouts, Guides, Brownies, Cubs etc"
+787170,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,8.0,"Play computer, watch TV"
+787171,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,9.0,"Youth club, social group"
+787172,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,10.0,Playing / seeing friends
+787173,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,11.0,Babysitting
+787174,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,12.0,Cinema
+787175,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,13.0,Listen to music
+787176,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,14.0,"Language lesson, extra lessons, Kumon,"
+787177,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,15.0,"Go to church, mosque, etc"
+787178,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,16.0,Gardening
+787179,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,17.0,"Walking, walk in park, walking dog"
+787180,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,18.0,Duke of Edingburgh award
+787181,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,19.0,"Volunteer work with elderly, children"
+787182,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,20.0,"Art and crafts, painting, cookery etc"
+787183,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,21.0,Reading
+787184,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,22.0,Fishing
+787185,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,85.0,Other specific answer
+787186,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,86.0,Vague / irrelevant answer
+787187,MCS,mcs3_older_siblings_questionnaire,qc5b05,OSSC: Anything else outside school you'd like to tell,87.0,Editor cannot deal with
+787188,MCS,mcs3_older_siblings_questionnaire,qd1,OSSC: Parents set limits on TV programmes watched,-9.0,Not answered (9)
+787189,MCS,mcs3_older_siblings_questionnaire,qd1,OSSC: Parents set limits on TV programmes watched,-1.0,Item not applicable
+787190,MCS,mcs3_older_siblings_questionnaire,qd1,OSSC: Parents set limits on TV programmes watched,1.0,Yes
+787191,MCS,mcs3_older_siblings_questionnaire,qd1,OSSC: Parents set limits on TV programmes watched,2.0,No
+787192,MCS,mcs3_older_siblings_questionnaire,qd1,OSSC: Parents set limits on TV programmes watched,3.0,There is no TV at home
+787193,MCS,mcs3_older_siblings_questionnaire,qd2,OSSC: When out tell parents where going,-9.0,Not answered (9)
+787194,MCS,mcs3_older_siblings_questionnaire,qd2,OSSC: When out tell parents where going,-1.0,Item not applicable
+787195,MCS,mcs3_older_siblings_questionnaire,qd2,OSSC: When out tell parents where going,1.0,Always/nearly always
+787196,MCS,mcs3_older_siblings_questionnaire,qd2,OSSC: When out tell parents where going,2.0,Sometimes
+787197,MCS,mcs3_older_siblings_questionnaire,qd2,OSSC: When out tell parents where going,3.0,Hardly ever
+787198,MCS,mcs3_older_siblings_questionnaire,qd2,OSSC: When out tell parents where going,4.0,Never
+787199,MCS,mcs3_older_siblings_questionnaire,qd3,OSSC: In last weeks have been out after 9 at night wit,-9.0,Not answered (9)
+787200,MCS,mcs3_older_siblings_questionnaire,qd3,OSSC: In last weeks have been out after 9 at night wit,-1.0,Item not applicable
+787201,MCS,mcs3_older_siblings_questionnaire,qd3,OSSC: In last weeks have been out after 9 at night wit,1.0,Yes
+787202,MCS,mcs3_older_siblings_questionnaire,qd3,OSSC: In last weeks have been out after 9 at night wit,2.0,No
+787203,MCS,mcs3_older_siblings_questionnaire,qd4,OSSC: Who chooses what you eat at home,-9.0,Not answered (9)
+787204,MCS,mcs3_older_siblings_questionnaire,qd4,OSSC: Who chooses what you eat at home,-1.0,Item not applicable
+787205,MCS,mcs3_older_siblings_questionnaire,qd4,OSSC: Who chooses what you eat at home,1.0,I do
+787206,MCS,mcs3_older_siblings_questionnaire,qd4,OSSC: Who chooses what you eat at home,2.0,Someone else does
+787207,MCS,mcs3_older_siblings_questionnaire,qd4,OSSC: Who chooses what you eat at home,3.0,We choose together
+787208,MCS,mcs3_older_siblings_questionnaire,qd5,OSSC: Are parents strict about making you do chores,-9.0,Not answered (9)
+787209,MCS,mcs3_older_siblings_questionnaire,qd5,OSSC: Are parents strict about making you do chores,-1.0,Item not applicable
+787210,MCS,mcs3_older_siblings_questionnaire,qd5,OSSC: Are parents strict about making you do chores,1.0,Yes
+787211,MCS,mcs3_older_siblings_questionnaire,qd5,OSSC: Are parents strict about making you do chores,2.0,No
+787212,MCS,mcs3_older_siblings_questionnaire,qd6,OSSC: Which statement describes way parents check how,1.0,They watch what I am doing very closely
+787213,MCS,mcs3_older_siblings_questionnaire,qd6,OSSC: Which statement describes way parents check how,2.0,They prefer me to be independent
+787214,MCS,mcs3_older_siblings_questionnaire,qd6,OSSC: Which statement describes way parents check how,-9.0,Not answered (9)
+787215,MCS,mcs3_older_siblings_questionnaire,qd6,OSSC: Which statement describes way parents check how,-1.0,Item not applicable
+787216,MCS,mcs3_older_siblings_questionnaire,qe1,OSSC: Have ever been to dentist,-9.0,Not answered (9)
+787217,MCS,mcs3_older_siblings_questionnaire,qe1,OSSC: Have ever been to dentist,-1.0,Item not applicable
+787218,MCS,mcs3_older_siblings_questionnaire,qe1,OSSC: Have ever been to dentist,1.0,Yes
+787219,MCS,mcs3_older_siblings_questionnaire,qe1,OSSC: Have ever been to dentist,2.0,No
+787220,MCS,mcs3_older_siblings_questionnaire,qe2,OSSC: Have ever had to have fillings put in by dentist,-9.0,Not answered (9)
+787221,MCS,mcs3_older_siblings_questionnaire,qe2,OSSC: Have ever had to have fillings put in by dentist,-1.0,Item not applicable
+787222,MCS,mcs3_older_siblings_questionnaire,qe2,OSSC: Have ever had to have fillings put in by dentist,1.0,"Yes, more than one"
+787223,MCS,mcs3_older_siblings_questionnaire,qe2,OSSC: Have ever had to have fillings put in by dentist,2.0,"Yes, one"
+787224,MCS,mcs3_older_siblings_questionnaire,qe2,OSSC: Have ever had to have fillings put in by dentist,3.0,No
+787225,MCS,mcs3_older_siblings_questionnaire,qe3,OSSC: Ever smoke cigarettes,-9.0,Not answered (9)
+787226,MCS,mcs3_older_siblings_questionnaire,qe3,OSSC: Ever smoke cigarettes,-1.0,Item not applicable
+787227,MCS,mcs3_older_siblings_questionnaire,qe3,OSSC: Ever smoke cigarettes,1.0,Yes
+787228,MCS,mcs3_older_siblings_questionnaire,qe3,OSSC: Ever smoke cigarettes,2.0,No
+787229,MCS,mcs3_older_siblings_questionnaire,qe3a,OSSC: How many cigarettes smoke in last 7 days,-9.0,Not answered (999)
+787230,MCS,mcs3_older_siblings_questionnaire,qe3a,OSSC: How many cigarettes smoke in last 7 days,-1.0,Item not applicable
+787231,MCS,mcs3_older_siblings_questionnaire,qe4,OSSC: Any friends smoke cannabis,-9.0,Not answered (9)
+787232,MCS,mcs3_older_siblings_questionnaire,qe4,OSSC: Any friends smoke cannabis,-1.0,Item not applicable
+787233,MCS,mcs3_older_siblings_questionnaire,qe4,OSSC: Any friends smoke cannabis,1.0,Yes
+787234,MCS,mcs3_older_siblings_questionnaire,qe4,OSSC: Any friends smoke cannabis,2.0,No
+787235,MCS,mcs3_older_siblings_questionnaire,qe5,OSSC: Had an alcoholic drink in last 4 weeks,-9.0,Not answered (9)
+787236,MCS,mcs3_older_siblings_questionnaire,qe5,OSSC: Had an alcoholic drink in last 4 weeks,-1.0,Item not applicable
+787237,MCS,mcs3_older_siblings_questionnaire,qe5,OSSC: Had an alcoholic drink in last 4 weeks,1.0,Yes
+787238,MCS,mcs3_older_siblings_questionnaire,qe5,OSSC: Had an alcoholic drink in last 4 weeks,2.0,No
+787239,MCS,mcs3_older_siblings_questionnaire,qe6,OSSC: Any friends use drugs like ecstasy,-9.0,Not answered (9)
+787240,MCS,mcs3_older_siblings_questionnaire,qe6,OSSC: Any friends use drugs like ecstasy,-1.0,Item not applicable
+787241,MCS,mcs3_older_siblings_questionnaire,qe6,OSSC: Any friends use drugs like ecstasy,1.0,Yes
+787242,MCS,mcs3_older_siblings_questionnaire,qe6,OSSC: Any friends use drugs like ecstasy,2.0,No
+787243,MCS,mcs3_older_siblings_questionnaire,qe7,OSSC: In next 12 months might be tempted to use illega,-9.0,Not answered (9)
+787244,MCS,mcs3_older_siblings_questionnaire,qe7,OSSC: In next 12 months might be tempted to use illega,-1.0,Item not applicable
+787245,MCS,mcs3_older_siblings_questionnaire,qe7,OSSC: In next 12 months might be tempted to use illega,1.0,Yes
+787246,MCS,mcs3_older_siblings_questionnaire,qe7,OSSC: In next 12 months might be tempted to use illega,2.0,No
+787247,MCS,mcs3_older_siblings_questionnaire,qf1,OSSC: Leave school at 16 or go on to sixth form or col,-9.0,Not answered (9)
+787248,MCS,mcs3_older_siblings_questionnaire,qf1,OSSC: Leave school at 16 or go on to sixth form or col,-3.0,Don't Know (3)
+787249,MCS,mcs3_older_siblings_questionnaire,qf1,OSSC: Leave school at 16 or go on to sixth form or col,-1.0,Item not applicable
+787250,MCS,mcs3_older_siblings_questionnaire,qf1,OSSC: Leave school at 16 or go on to sixth form or col,1.0,Leave at 16
+787251,MCS,mcs3_older_siblings_questionnaire,qf1,OSSC: Leave school at 16 or go on to sixth form or col,2.0,Sixth Form/College
+787252,MCS,mcs3_older_siblings_questionnaire,qf2,OSSC: How important good marks in school work exams or,-9.0,Not answered (9)
+787253,MCS,mcs3_older_siblings_questionnaire,qf2,OSSC: How important good marks in school work exams or,-1.0,Item not applicable
+787254,MCS,mcs3_older_siblings_questionnaire,qf2,OSSC: How important good marks in school work exams or,1.0,Not very important
+787255,MCS,mcs3_older_siblings_questionnaire,qf2,OSSC: How important good marks in school work exams or,2.0,Fairly important
+787256,MCS,mcs3_older_siblings_questionnaire,qf2,OSSC: How important good marks in school work exams or,3.0,Very important
+787257,MCS,mcs3_older_siblings_questionnaire,qf3,OSSC: Like most of teachers,-9.0,Not answered (9)
+787258,MCS,mcs3_older_siblings_questionnaire,qf3,OSSC: Like most of teachers,-1.0,Item not applicable
+787259,MCS,mcs3_older_siblings_questionnaire,qf3,OSSC: Like most of teachers,1.0,Yes
+787260,MCS,mcs3_older_siblings_questionnaire,qf3,OSSC: Like most of teachers,2.0,No
+787261,MCS,mcs3_older_siblings_questionnaire,qf3,OSSC: Like most of teachers,3.0,I'm not at school
+787262,MCS,mcs3_older_siblings_questionnaire,qf4,OSSC: Think teachers always getting at you,-9.0,Not answered (9)
+787263,MCS,mcs3_older_siblings_questionnaire,qf4,OSSC: Think teachers always getting at you,-1.0,Item not applicable
+787264,MCS,mcs3_older_siblings_questionnaire,qf4,OSSC: Think teachers always getting at you,1.0,Yes
+787265,MCS,mcs3_older_siblings_questionnaire,qf4,OSSC: Think teachers always getting at you,2.0,No
+787266,MCS,mcs3_older_siblings_questionnaire,qf4,OSSC: Think teachers always getting at you,3.0,I'm not at school
+787267,MCS,mcs3_older_siblings_questionnaire,qf5,OSSC: Care what teachers think about you,-9.0,Not answered (9)
+787268,MCS,mcs3_older_siblings_questionnaire,qf5,OSSC: Care what teachers think about you,-1.0,Item not applicable
+787269,MCS,mcs3_older_siblings_questionnaire,qf5,OSSC: Care what teachers think about you,1.0,Yes
+787270,MCS,mcs3_older_siblings_questionnaire,qf5,OSSC: Care what teachers think about you,2.0,No
+787271,MCS,mcs3_older_siblings_questionnaire,qf5,OSSC: Care what teachers think about you,3.0,I'm not at school
+787272,MCS,mcs3_older_siblings_questionnaire,qf6,OSSC: OK to break a bad school rule,-9.0,Not answered (9)
+787273,MCS,mcs3_older_siblings_questionnaire,qf6,OSSC: OK to break a bad school rule,-1.0,Item not applicable
+787274,MCS,mcs3_older_siblings_questionnaire,qf6,OSSC: OK to break a bad school rule,1.0,Yes
+787275,MCS,mcs3_older_siblings_questionnaire,qf6,OSSC: OK to break a bad school rule,2.0,No
+787276,MCS,mcs3_older_siblings_questionnaire,qf7,OSSC: Agree or disagree that teachers like ordering pu,-9.0,Not answered (9)
+787277,MCS,mcs3_older_siblings_questionnaire,qf7,OSSC: Agree or disagree that teachers like ordering pu,-1.0,Item not applicable
+787278,MCS,mcs3_older_siblings_questionnaire,qf7,OSSC: Agree or disagree that teachers like ordering pu,1.0,Agree
+787279,MCS,mcs3_older_siblings_questionnaire,qf7,OSSC: Agree or disagree that teachers like ordering pu,2.0,Disagree
+787280,MCS,mcs3_older_siblings_questionnaire,qf8,OSSC: In last 12 months ever skipped or bunked off sch,-9.0,Not answered (9)
+787281,MCS,mcs3_older_siblings_questionnaire,qf8,OSSC: In last 12 months ever skipped or bunked off sch,-1.0,Item not applicable
+787282,MCS,mcs3_older_siblings_questionnaire,qf8,OSSC: In last 12 months ever skipped or bunked off sch,1.0,Yes
+787283,MCS,mcs3_older_siblings_questionnaire,qf8,OSSC: In last 12 months ever skipped or bunked off sch,2.0,No
+787284,MCS,mcs3_older_siblings_questionnaire,qg1,OSSC: Anyone stolen or tried to steal from you,-9.0,Not answered (9)
+787285,MCS,mcs3_older_siblings_questionnaire,qg1,OSSC: Anyone stolen or tried to steal from you,-1.0,Item not applicable
+787286,MCS,mcs3_older_siblings_questionnaire,qg1,OSSC: Anyone stolen or tried to steal from you,1.0,Yes
+787287,MCS,mcs3_older_siblings_questionnaire,qg1,OSSC: Anyone stolen or tried to steal from you,2.0,No
+787288,MCS,mcs3_older_siblings_questionnaire,qg2,OSSC: Anything of yours damaged by vandals,-9.0,Not answered (9)
+787289,MCS,mcs3_older_siblings_questionnaire,qg2,OSSC: Anything of yours damaged by vandals,-1.0,Item not applicable
+787290,MCS,mcs3_older_siblings_questionnaire,qg2,OSSC: Anything of yours damaged by vandals,1.0,Yes
+787291,MCS,mcs3_older_siblings_questionnaire,qg2,OSSC: Anything of yours damaged by vandals,2.0,No
+787292,MCS,mcs3_older_siblings_questionnaire,qg3,OSSC: Anyone used force against you on purpose eg scra,-9.0,Not answered (9)
+787293,MCS,mcs3_older_siblings_questionnaire,qg3,OSSC: Anyone used force against you on purpose eg scra,-1.0,Item not applicable
+787294,MCS,mcs3_older_siblings_questionnaire,qg3,OSSC: Anyone used force against you on purpose eg scra,1.0,Yes
+787295,MCS,mcs3_older_siblings_questionnaire,qg3,OSSC: Anyone used force against you on purpose eg scra,2.0,No
+787296,MCS,mcs3_older_siblings_questionnaire,qg4,OSSC: Anyone used a weapon like a knife against you,1.0,Yes
+787297,MCS,mcs3_older_siblings_questionnaire,qg4,OSSC: Anyone used a weapon like a knife against you,2.0,No
+787298,MCS,mcs3_older_siblings_questionnaire,qg4,OSSC: Anyone used a weapon like a knife against you,-9.0,Not answered (9)
+787299,MCS,mcs3_older_siblings_questionnaire,qg4,OSSC: Anyone used a weapon like a knife against you,-1.0,Item not applicable
+787300,MCS,mcs3_older_siblings_questionnaire,qg5,OSSC: Anyone threatened you in a way that frightened y,-9.0,Not answered (9)
+787301,MCS,mcs3_older_siblings_questionnaire,qg5,OSSC: Anyone threatened you in a way that frightened y,-1.0,Item not applicable
+787302,MCS,mcs3_older_siblings_questionnaire,qg5,OSSC: Anyone threatened you in a way that frightened y,1.0,Yes
+787303,MCS,mcs3_older_siblings_questionnaire,qg5,OSSC: Anyone threatened you in a way that frightened y,2.0,No
+787304,MCS,mcs3_older_siblings_questionnaire,qg6,OSSC: Anyone bullied you in a way that frightened or u,-9.0,Not answered (9)
+787305,MCS,mcs3_older_siblings_questionnaire,qg6,OSSC: Anyone bullied you in a way that frightened or u,-1.0,Item not applicable
+787306,MCS,mcs3_older_siblings_questionnaire,qg6,OSSC: Anyone bullied you in a way that frightened or u,1.0,Yes
+787307,MCS,mcs3_older_siblings_questionnaire,qg6,OSSC: Anyone bullied you in a way that frightened or u,2.0,No
+787308,MCS,mcs3_older_siblings_questionnaire,qh1,OSSC: Ever tried to avoid paying correct fare on publi,-9.0,Not answered (9)
+787309,MCS,mcs3_older_siblings_questionnaire,qh1,OSSC: Ever tried to avoid paying correct fare on publi,-1.0,Item not applicable
+787310,MCS,mcs3_older_siblings_questionnaire,qh1,OSSC: Ever tried to avoid paying correct fare on publi,1.0,Yes
+787311,MCS,mcs3_older_siblings_questionnaire,qh1,OSSC: Ever tried to avoid paying correct fare on publi,2.0,No
+787312,MCS,mcs3_older_siblings_questionnaire,qh2,OSSC: Ever been noisy or rude in public place so peopl,-9.0,Not answered (9)
+787313,MCS,mcs3_older_siblings_questionnaire,qh2,OSSC: Ever been noisy or rude in public place so peopl,-1.0,Item not applicable
+787314,MCS,mcs3_older_siblings_questionnaire,qh2,OSSC: Ever been noisy or rude in public place so peopl,1.0,Yes
+787315,MCS,mcs3_older_siblings_questionnaire,qh2,OSSC: Ever been noisy or rude in public place so peopl,2.0,No
+787316,MCS,mcs3_older_siblings_questionnaire,qh3,OSSC: Ever taken something from shop without paying,-9.0,Not answered (9)
+787317,MCS,mcs3_older_siblings_questionnaire,qh3,OSSC: Ever taken something from shop without paying,-1.0,Item not applicable
+787318,MCS,mcs3_older_siblings_questionnaire,qh3,OSSC: Ever taken something from shop without paying,1.0,Yes
+787319,MCS,mcs3_older_siblings_questionnaire,qh3,OSSC: Ever taken something from shop without paying,2.0,No
+787320,MCS,mcs3_older_siblings_questionnaire,qh4,OSSC: Ever bought mobile phone that you knew or believ,-9.0,Not answered (9)
+787321,MCS,mcs3_older_siblings_questionnaire,qh4,OSSC: Ever bought mobile phone that you knew or believ,-1.0,Item not applicable
+787322,MCS,mcs3_older_siblings_questionnaire,qh4,OSSC: Ever bought mobile phone that you knew or believ,1.0,Yes
+787323,MCS,mcs3_older_siblings_questionnaire,qh4,OSSC: Ever bought mobile phone that you knew or believ,2.0,No
+787324,MCS,mcs3_older_siblings_questionnaire,qh5,OSSC: Ever written things or sprayed paint on building,-9.0,Not answered (9)
+787325,MCS,mcs3_older_siblings_questionnaire,qh5,OSSC: Ever written things or sprayed paint on building,-1.0,Item not applicable
+787326,MCS,mcs3_older_siblings_questionnaire,qh5,OSSC: Ever written things or sprayed paint on building,1.0,Yes
+787327,MCS,mcs3_older_siblings_questionnaire,qh5,OSSC: Ever written things or sprayed paint on building,2.0,No
+787328,MCS,mcs3_older_siblings_questionnaire,qh6,OSSC: Ever on purpose damaged anything in public place,-9.0,Not answered (9)
+787329,MCS,mcs3_older_siblings_questionnaire,qh6,OSSC: Ever on purpose damaged anything in public place,-1.0,Item not applicable
+787330,MCS,mcs3_older_siblings_questionnaire,qh6,OSSC: Ever on purpose damaged anything in public place,1.0,Yes
+787331,MCS,mcs3_older_siblings_questionnaire,qh6,OSSC: Ever on purpose damaged anything in public place,2.0,No
+787332,MCS,mcs3_older_siblings_questionnaire,qh7,OSSC: Ever picked on or bullied someone,-9.0,Not answered (9)
+787333,MCS,mcs3_older_siblings_questionnaire,qh7,OSSC: Ever picked on or bullied someone,-1.0,Item not applicable
+787334,MCS,mcs3_older_siblings_questionnaire,qh7,OSSC: Ever picked on or bullied someone,1.0,Yes
+787335,MCS,mcs3_older_siblings_questionnaire,qh7,OSSC: Ever picked on or bullied someone,2.0,No
+787336,MCS,mcs3_older_siblings_questionnaire,qh8,OSSC: Ever attacked or threatened or been rude to some,-9.0,Not answered (9)
+787337,MCS,mcs3_older_siblings_questionnaire,qh8,OSSC: Ever attacked or threatened or been rude to some,-1.0,Item not applicable
+787338,MCS,mcs3_older_siblings_questionnaire,qh8,OSSC: Ever attacked or threatened or been rude to some,1.0,Yes
+787339,MCS,mcs3_older_siblings_questionnaire,qh8,OSSC: Ever attacked or threatened or been rude to some,2.0,No
+787340,MCS,mcs3_older_siblings_questionnaire,qh9,OSSC: Ever carry a knife or weapon for own protection,-9.0,Not answered (9)
+787341,MCS,mcs3_older_siblings_questionnaire,qh9,OSSC: Ever carry a knife or weapon for own protection,-1.0,Item not applicable
+787342,MCS,mcs3_older_siblings_questionnaire,qh9,OSSC: Ever carry a knife or weapon for own protection,1.0,Yes
+787343,MCS,mcs3_older_siblings_questionnaire,qh9,OSSC: Ever carry a knife or weapon for own protection,2.0,No
+787344,MCS,mcs3_older_siblings_questionnaire,qi1,OSSC: Enjoy living in this area,-9.0,Not answered (9)
+787345,MCS,mcs3_older_siblings_questionnaire,qi1,OSSC: Enjoy living in this area,-1.0,Item not applicable
+787346,MCS,mcs3_older_siblings_questionnaire,qi1,OSSC: Enjoy living in this area,1.0,Yes
+787347,MCS,mcs3_older_siblings_questionnaire,qi1,OSSC: Enjoy living in this area,2.0,No
+787348,MCS,mcs3_older_siblings_questionnaire,qi2,OSSC: Ever worried about being robbed or mugged in the,-9.0,Not answered (9)
+787349,MCS,mcs3_older_siblings_questionnaire,qi2,OSSC: Ever worried about being robbed or mugged in the,-1.0,Item not applicable
+787350,MCS,mcs3_older_siblings_questionnaire,qi2,OSSC: Ever worried about being robbed or mugged in the,1.0,Yes
+787351,MCS,mcs3_older_siblings_questionnaire,qi2,OSSC: Ever worried about being robbed or mugged in the,2.0,No
+787352,MCS,mcs3_older_siblings_questionnaire,qi3,OSSC: Ever afraid to walk alone in this area after dar,-9.0,Not answered (9)
+787353,MCS,mcs3_older_siblings_questionnaire,qi3,OSSC: Ever afraid to walk alone in this area after dar,-1.0,Item not applicable
+787354,MCS,mcs3_older_siblings_questionnaire,qi3,OSSC: Ever afraid to walk alone in this area after dar,1.0,Yes
+787355,MCS,mcs3_older_siblings_questionnaire,qi3,OSSC: Ever afraid to walk alone in this area after dar,2.0,No
+787356,MCS,mcs3_older_siblings_questionnaire,qi4,OSSC: Are most people in this are friendly?,-9.0,Not answered (9)
+787357,MCS,mcs3_older_siblings_questionnaire,qi4,OSSC: Are most people in this are friendly?,-1.0,Item not applicable
+787358,MCS,mcs3_older_siblings_questionnaire,qi4,OSSC: Are most people in this are friendly?,1.0,Yes
+787359,MCS,mcs3_older_siblings_questionnaire,qi4,OSSC: Are most people in this are friendly?,2.0,No
+787360,MCS,mcs3_older_siblings_questionnaire,qi5a,OSSC: Answered,-9.0,Not answered (9)
+787361,MCS,mcs3_older_siblings_questionnaire,qi5a,OSSC: Answered,-1.0,Item not applicable
+787362,MCS,mcs3_older_siblings_questionnaire,qi5a,OSSC: Answered,1.0,Text present
+787363,MCS,mcs3_older_siblings_questionnaire,qi5a,OSSC: Answered,2.0,No text present
+787364,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,-9.0,Not answered (99)
+787365,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,-1.0,Item not applicable
+787366,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,1.0,"More sports facilities, swimming pool,"
+787367,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,2.0,"Better/ more parks, playgrounds"
+787368,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,3.0,"More activities, youth clubs, cinema"
+787369,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,4.0,Improved environment: less litter
+787370,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,5.0,Improved safety: better street lighting
+787371,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,6.0,"Better policing, neighbourhood watch"
+787372,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,7.0,Better public transport
+787373,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,8.0,"More shops, restaurants"
+787374,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,9.0,Less anti-social behaviour eg drinking
+787375,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,10.0,Nicer people/more polite/friendlier
+787376,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,11.0,More friends/new friends/people like me
+787377,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,12.0,Better housing/ improve housing
+787378,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,13.0,"New or more library, schools etc"
+787379,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,14.0,Reduce noise
+787380,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,87.0,Editor cannot deal with
+787381,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,15.0,"No dogs, no dogs not on leads"
+787382,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,85.0,Other specific answer
+787383,MCS,mcs3_older_siblings_questionnaire,qi5b01,OSSC: Which things would most improve this area as a p,86.0,Vague / irrelevant answer
+787384,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,-9.0,Not answered (99)
+787385,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,-1.0,Item not applicable
+787386,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,1.0,"More sports facilities, swimming pool,"
+787387,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,2.0,"Better/ more parks, playgrounds"
+787388,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,3.0,"More activities, youth clubs, cinema"
+787389,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,4.0,Improved environment: less litter
+787390,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,5.0,Improved safety: better street lighting
+787391,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,6.0,"Better policing, neighbourhood watch"
+787392,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,7.0,Better public transport
+787393,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,8.0,"More shops, restaurants"
+787394,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,9.0,Less anti-social behaviour eg drinking
+787395,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,10.0,Nicer people/more polite/friendlier
+787396,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,11.0,More friends/new friends/people like me
+787397,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,12.0,Better housing/ improve housing
+787398,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,13.0,"New or more library, schools etc"
+787399,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,14.0,Reduce noise
+787400,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,15.0,"No dogs, no dogs not on leads"
+787401,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,85.0,Other specific answer
+787402,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,86.0,Vague / irrelevant answer
+787403,MCS,mcs3_older_siblings_questionnaire,qi5b02,OSSC: Which things would most improve this area as a p,87.0,Editor cannot deal with
+787404,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,-9.0,Not answered (99)
+787405,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,-1.0,Item not applicable
+787406,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,1.0,"More sports facilities, swimming pool,"
+787407,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,2.0,"Better/ more parks, playgrounds"
+787408,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,3.0,"More activities, youth clubs, cinema"
+787409,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,4.0,Improved environment: less litter
+787410,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,5.0,Improved safety: better street lighting
+787411,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,6.0,"Better policing, neighbourhood watch"
+787412,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,7.0,Better public transport
+787413,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,8.0,"More shops, restaurants"
+787414,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,9.0,Less anti-social behaviour eg drinking
+787415,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,10.0,Nicer people/more polite/friendlier
+787416,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,11.0,More friends/new friends/people like me
+787417,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,12.0,Better housing/ improve housing
+787418,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,13.0,"New or more library, schools etc"
+787419,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,14.0,Reduce noise
+787420,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,15.0,"No dogs, no dogs not on leads"
+787421,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,85.0,Other specific answer
+787422,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,86.0,Vague / irrelevant answer
+787423,MCS,mcs3_older_siblings_questionnaire,qi5b03,OSSC: Which things would most improve this area as a p,87.0,Editor cannot deal with
+787424,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,-9.0,Not answered (99)
+787425,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,-1.0,Item not applicable
+787426,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,1.0,"More sports facilities, swimming pool,"
+787427,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,2.0,"Better/ more parks, playgrounds"
+787428,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,3.0,"More activities, youth clubs, cinema"
+787429,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,4.0,Improved environment: less litter
+787430,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,5.0,Improved safety: better street lighting
+787431,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,6.0,"Better policing, neighbourhood watch"
+787432,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,7.0,Better public transport
+787433,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,8.0,"More shops, restaurants"
+787434,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,9.0,Less anti-social behaviour eg drinking
+787435,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,10.0,Nicer people/more polite/friendlier
+787436,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,11.0,More friends/new friends/people like me
+787437,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,12.0,Better housing/ improve housing
+787438,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,13.0,"New or more library, schools etc"
+787439,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,14.0,Reduce noise
+787440,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,15.0,"No dogs, no dogs not on leads"
+787441,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,85.0,Other specific answer
+787442,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,86.0,Vague / irrelevant answer
+787443,MCS,mcs3_older_siblings_questionnaire,qi5b04,OSSC: Which things would most improve this area as a p,87.0,Editor cannot deal with
+787444,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,8.0,"More shops, restaurants"
+787445,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,9.0,Less anti-social behaviour eg drinking
+787446,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,10.0,Nicer people/more polite/friendlier
+787447,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,11.0,More friends/new friends/people like me
+787448,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,12.0,Better housing/ improve housing
+787449,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,13.0,"New or more library, schools etc"
+787450,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,14.0,Reduce noise
+787451,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,15.0,"No dogs, no dogs not on leads"
+787452,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,85.0,Other specific answer
+787453,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,86.0,Vague / irrelevant answer
+787454,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,87.0,Editor cannot deal with
+787455,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,5.0,Improved safety: better street lighting
+787456,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,6.0,"Better policing, neighbourhood watch"
+787457,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,7.0,Better public transport
+787458,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,-9.0,Not answered (99)
+787459,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,-1.0,Item not applicable
+787460,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,1.0,"More sports facilities, swimming pool,"
+787461,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,2.0,"Better/ more parks, playgrounds"
+787462,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,3.0,"More activities, youth clubs, cinema"
+787463,MCS,mcs3_older_siblings_questionnaire,qi5b05,OSSC: Which things would most improve this area as a p,4.0,Improved environment: less litter
+787464,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,-9.0,Not answered (99)
+787465,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,-1.0,Item not applicable
+787466,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,1.0,"More sports facilities, swimming pool,"
+787467,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,2.0,"Better/ more parks, playgrounds"
+787468,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,3.0,"More activities, youth clubs, cinema"
+787469,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,4.0,Improved environment: less litter
+787470,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,5.0,Improved safety: better street lighting
+787471,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,6.0,"Better policing, neighbourhood watch"
+787472,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,7.0,Better public transport
+787473,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,8.0,"More shops, restaurants"
+787474,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,9.0,Less anti-social behaviour eg drinking
+787475,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,10.0,Nicer people/more polite/friendlier
+787476,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,11.0,More friends/new friends/people like me
+787477,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,12.0,Better housing/ improve housing
+787478,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,13.0,"New or more library, schools etc"
+787479,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,14.0,Reduce noise
+787480,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,15.0,"No dogs, no dogs not on leads"
+787481,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,85.0,Other specific answer
+787482,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,86.0,Vague / irrelevant answer
+787483,MCS,mcs3_older_siblings_questionnaire,qi5b06,OSSC: Which things would most improve this area as a p,87.0,Editor cannot deal with
+787484,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,-9.0,Not answered (99)
+787485,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,-1.0,Item not applicable
+787486,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,1.0,"More sports facilities, swimming pool,"
+787487,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,2.0,"Better/ more parks, playgrounds"
+787488,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,3.0,"More activities, youth clubs, cinema"
+787489,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,4.0,Improved environment: less litter
+787490,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,5.0,Improved safety: better street lighting
+787491,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,6.0,"Better policing, neighbourhood watch"
+787492,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,7.0,Better public transport
+787493,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,8.0,"More shops, restaurants"
+787494,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,9.0,Less anti-social behaviour eg drinking
+787495,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,10.0,Nicer people/more polite/friendlier
+787496,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,11.0,More friends/new friends/people like me
+787497,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,12.0,Better housing/ improve housing
+787498,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,13.0,"New or more library, schools etc"
+787499,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,14.0,Reduce noise
+787500,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,15.0,"No dogs, no dogs not on leads"
+787501,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,85.0,Other specific answer
+787502,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,86.0,Vague / irrelevant answer
+787503,MCS,mcs3_older_siblings_questionnaire,qi5b07,OSSC: Which things would most improve this area as a p,87.0,Editor cannot deal with
+787504,MCS,mcs3_older_siblings_questionnaire,cmosemot,DV OS SDQ Emotional Symptoms,-1.0,Not applicable
+787505,MCS,mcs3_older_siblings_questionnaire,cmoscond,DV OS SDQ Conduct Problems,-1.0,Not applicable
+787506,MCS,mcs3_older_siblings_questionnaire,cmoshype,DV OS SDQ Hyperactivity/Inattention,-1.0,Not applicable
+787507,MCS,mcs3_older_siblings_questionnaire,cmospeer,DV OS SDQ Peer Problems,-1.0,Not applicable
+787508,MCS,mcs3_older_siblings_questionnaire,cmospros,DV OS SDQ Prosocial,-1.0,Not applicable
+787509,MCS,mcs3_older_siblings_questionnaire,cmosebdt,DV OS SDQ Total Difficulties,-1.0,Not applicable
+787510,MCS,mcs3_older_siblings_questionnaire,study_id_e,,,
+787511,MCS,mcs3_older_siblings_questionnaire,pnum,None,,
+787512,MCS,mcs3_older_siblings_questionnaire,avail_from_dt,,,
+787513,MCS,mcs3_older_siblings_questionnaire,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

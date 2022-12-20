@@ -1,0 +1,53 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1154376,NEXTSTEP,ns7_household_grid,study_id_e,,,
+1154377,NEXTSTEP,ns7_household_grid,hhid,sortkey: HH Identifier,-91.0,Not applicable
+1154378,NEXTSTEP,ns7_household_grid,w7mode,Interview Methodology,-91.0,Not applicable
+1154379,NEXTSTEP,ns7_household_grid,w7mode,Interview Methodology,1.0,CAPI
+1154380,NEXTSTEP,ns7_household_grid,w7mode,Interview Methodology,2.0,CATI
+1154381,NEXTSTEP,ns7_household_grid,w7mode,Interview Methodology,3.0,CAWI
+1154382,NEXTSTEP,ns7_household_grid,w7qsamead,Whether still live at same address as last time,-91.0,Not applicable
+1154383,NEXTSTEP,ns7_household_grid,w7qsamead,Whether still live at same address as last time,1.0,Yes
+1154384,NEXTSTEP,ns7_household_grid,w7qsamead,Whether still live at same address as last time,2.0,No
+1154385,NEXTSTEP,ns7_household_grid,w7qsamead,Whether still live at same address as last time,3.0,Yes- but errors in some of the address
+1154386,NEXTSTEP,ns7_household_grid,w7qanysta,Whether there is anyone living with them who was also living with them last ti,-999.0,Skipped grid
+1154387,NEXTSTEP,ns7_household_grid,w7qanysta,Whether there is anyone living with them who was also living with them last ti,-91.0,Not applicable
+1154388,NEXTSTEP,ns7_household_grid,w7qanysta,Whether there is anyone living with them who was also living with them last ti,-1.0,Don't know
+1154389,NEXTSTEP,ns7_household_grid,w7qanysta,Whether there is anyone living with them who was also living with them last ti,1.0,Yes
+1154390,NEXTSTEP,ns7_household_grid,w7qanysta,Whether there is anyone living with them who was also living with them last ti,2.0,No
+1154391,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,-91.0,Not applicable
+1154392,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,1.0,A college or other educational resident
+1154393,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,2.0,A private house you are sharing with ot
+1154394,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,3.0,Armed Forces' residential accommodation
+1154395,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,4.0,NHS residential accommodation
+1154396,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,5.0,Other employer's residential accommodat
+1154397,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,6.0,"A hotel, boarding house or hostel"
+1154398,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,7.0,Any other kind of communal establishmen
+1154399,NEXTSTEP,ns7_household_grid,w7incar,Whether live in any of the following,8.0,"No, none of these"
+1154400,NEXTSTEP,ns7_household_grid,w7liverelat,Whether live with relatives,-91.0,Not applicable
+1154401,NEXTSTEP,ns7_household_grid,w7liverelat,Whether live with relatives,1.0,Yes
+1154402,NEXTSTEP,ns7_household_grid,w7liverelat,Whether live with relatives,2.0,No
+1154403,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,-92.0,Refused
+1154404,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,-91.0,Not applicable
+1154405,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,0.0,Not present - left previous wave
+1154406,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,1.0,Present
+1154407,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,2.0,Present - New at current wave
+1154408,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,3.0,Not present - left current wave
+1154409,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,4.0,Young person
+1154410,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,5.0,Skipped grid
+1154411,NEXTSTEP,ns7_household_grid,w7shgint,Status of Household Member,6.0,Grid questions not asked
+1154412,NEXTSTEP,ns7_household_grid,w7sex,Sex,-92.0,Refused
+1154413,NEXTSTEP,ns7_household_grid,w7sex,Sex,-91.0,Not applicable
+1154414,NEXTSTEP,ns7_household_grid,w7sex,Sex,1.0,Male
+1154415,NEXTSTEP,ns7_household_grid,w7sex,Sex,2.0,Female
+1154416,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,-92.0,Refused
+1154417,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,-91.0,Not applicable
+1154418,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,-1.0,Don't know
+1154419,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,1.0,Parent â€“ Including step/adoptive/foster
+1154420,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,2.0,Brother or sister â€“ Including step/adop
+1154421,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,3.0,Your own partner/husband/wife
+1154422,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,4.0,Your own son or daughter
+1154423,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,5.0,Your parentâ€™s partner or spouse
+1154424,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,6.0,Another kind of relative â€“ including in
+1154425,NEXTSTEP,ns7_household_grid,w7relation,Relationship to respondent,7.0,Someone not related to you
+1154426,NEXTSTEP,ns7_household_grid,v3,None,,
+1154427,NEXTSTEP,ns7_household_grid,avail_from_dt,,,

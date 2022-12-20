@@ -1,0 +1,195 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+17779,BCS70,basic_demographic,study_id_e,,,
+17780,BCS70,basic_demographic,a0014,Social Class of Father in 1970,-2.0,NK / NS
+17781,BCS70,basic_demographic,a0014,Social Class of Father in 1970,1.0,SC 1
+17782,BCS70,basic_demographic,a0014,Social Class of Father in 1970,2.0,SC 2
+17783,BCS70,basic_demographic,a0014,Social Class of Father in 1970,3.0,SC 3 NM
+17784,BCS70,basic_demographic,a0014,Social Class of Father in 1970,4.0,SC 3 M
+17785,BCS70,basic_demographic,a0014,Social Class of Father in 1970,5.0,SC 4
+17786,BCS70,basic_demographic,a0014,Social Class of Father in 1970,6.0,SC 5
+17787,BCS70,basic_demographic,a0014,Social Class of Father in 1970,7.0,Other
+17788,BCS70,basic_demographic,a0014,Social Class of Father in 1970,8.0,Unsupported
+17789,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,-2.0,Not Known
+17790,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,1.0,SC 1 & 2
+17791,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,2.0,SC 3 NM
+17792,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,3.0,SC 3 M
+17793,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,4.0,SC 4
+17794,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,5.0,SC 5
+17795,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,6.0,Other
+17796,BCS70,basic_demographic,a0018,Mothers Social Class in 1970,7.0,Housewives
+17797,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,-3.0,Not Stated
+17798,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,-2.0,Not known/vague
+17799,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,-1.0,Not Applicable
+17800,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,1.0,No Quals
+17801,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,2.0,Voc Qual
+17802,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,3.0,0 Level or Equiv
+17803,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,4.0,A Level or Equiv
+17804,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,5.0,Srn
+17805,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,6.0,Cert of Eductn
+17806,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,7.0,Degree +
+17807,BCS70,basic_demographic,e189a,Mothers Highest Educ Qualification,8.0,Other
+17808,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,-3.0,Not Stated
+17809,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,-2.0,Not known/vague
+17810,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,-1.0,Not Applicable
+17811,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,1.0,No Quals
+17812,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,2.0,Voc Qual
+17813,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,3.0,0 Level or Equiv
+17814,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,4.0,A Level or Equiv
+17815,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,5.0,Srn
+17816,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,6.0,Cert of Ed  Uctn
+17817,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,7.0,Degree +
+17818,BCS70,basic_demographic,e189b,Fathers Highest Educ Qualification,8.0,Other
+17819,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,1.0,I
+17820,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,2.0,II
+17821,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,3.0,IIINM
+17822,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,4.0,IIIM
+17823,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,5.0,IV
+17824,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,6.0,V
+17825,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,8.0,Insufficient data
+17826,BCS70,basic_demographic,c3_4,PI -Father's corrected social class 1980,9.0,No data
+17827,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,1.0,I
+17828,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,2.0,II
+17829,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,3.0,IIINM
+17830,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,4.0,IIIM
+17831,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,5.0,IV
+17832,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,6.0,V
+17833,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,8.0,Insufficient data
+17834,BCS70,basic_demographic,c3_5,PI -Father's corrected social class 1970,9.0,No data
+17835,BCS70,basic_demographic,ethnic,CMs ethnic group,1.0,British
+17836,BCS70,basic_demographic,ethnic,CMs ethnic group,2.0,Irish
+17837,BCS70,basic_demographic,ethnic,CMs ethnic group,3.0,White other
+17838,BCS70,basic_demographic,ethnic,CMs ethnic group,4.0,White & Black Caribbean
+17839,BCS70,basic_demographic,ethnic,CMs ethnic group,5.0,White & Black African
+17840,BCS70,basic_demographic,ethnic,CMs ethnic group,6.0,White & Asian
+17841,BCS70,basic_demographic,ethnic,CMs ethnic group,7.0,Other mixed race
+17842,BCS70,basic_demographic,ethnic,CMs ethnic group,8.0,Indian
+17843,BCS70,basic_demographic,ethnic,CMs ethnic group,9.0,Pakistani
+17844,BCS70,basic_demographic,ethnic,CMs ethnic group,10.0,Bangladeshi
+17845,BCS70,basic_demographic,ethnic,CMs ethnic group,11.0,Other Asian
+17846,BCS70,basic_demographic,ethnic,CMs ethnic group,12.0,Caribbean
+17847,BCS70,basic_demographic,ethnic,CMs ethnic group,13.0,African
+17848,BCS70,basic_demographic,ethnic,CMs ethnic group,14.0,Other Black
+17849,BCS70,basic_demographic,ethnic,CMs ethnic group,15.0,Chinese
+17850,BCS70,basic_demographic,ethnic,CMs ethnic group,16.0,Other ethnic group
+17851,BCS70,basic_demographic,ethnic,CMs ethnic group,98.0,=Dont know
+17852,BCS70,basic_demographic,ethnic,CMs ethnic group,99.0,=Not answered
+17853,BCS70,basic_demographic,b9gender,Whether CM undergone gender reassignment,-1.0,Not applicable
+17854,BCS70,basic_demographic,b9gender,Whether CM undergone gender reassignment,1.0,Yes
+17855,BCS70,basic_demographic,b9gender,Whether CM undergone gender reassignment,2.0,No
+17856,BCS70,basic_demographic,b10incw,(Derived in CAPI) Weekly take home income,-9.0,Refused
+17857,BCS70,basic_demographic,b10incw,(Derived in CAPI) Weekly take home income,-8.0,Not known
+17858,BCS70,basic_demographic,b10incw,(Derived in CAPI) Weekly take home income,-1.0,Not applicable
+17859,BCS70,basic_demographic,bd10hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2016,-1.0,not applicable
+17860,BCS70,basic_demographic,bd10hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2016,0.0,none
+17861,BCS70,basic_demographic,bd10hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2016,1.0,nvq1 level
+17862,BCS70,basic_demographic,bd10hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2016,2.0,nvq2 level
+17863,BCS70,basic_demographic,bd10hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2016,3.0,nvq3 level
+17864,BCS70,basic_demographic,bd10hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2016,4.0,nvq4 level
+17865,BCS70,basic_demographic,bd10hnvq,(Derived) Highest NVQ Level from an Academic or Vocational Qual  up to 2016,5.0,nvq5 level
+17866,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,-9.0,Refused
+17867,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,-8.0,Not enough information
+17868,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,-1.0,Not applicable
+17869,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,1.0,Full-time employment
+17870,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,2.0,Part-time employment
+17871,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,3.0,Full-time self-employment
+17872,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,4.0,Part-time self-employment
+17873,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,5.0,Unemployment
+17874,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,6.0,Full-time education
+17875,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,7.0,Govt scheme for employment training
+17876,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,8.0,Temporary sickness/disability
+17877,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,9.0,Permanent sickness/disability
+17878,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,10.0,Looking after the home/family
+17879,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,11.0,Retirement
+17880,BCS70,basic_demographic,bd10ecact,(Derived) Current economic activity status,12.0,Other
+17881,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,-8.0,No information
+17882,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,1.0,Own outright
+17883,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,2.0,"Own, buying with help of mortgage/loan"
+17884,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,3.0,"Part rent, part mortgage (shared equity)"
+17885,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,4.0,Rent it
+17886,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,5.0,"Live rent-free, incl. relatives/friends"
+17887,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,6.0,Squatting
+17888,BCS70,basic_demographic,bd10tenure,(Derived) Housing Tenure,7.0,Other
+17889,BCS70,basic_demographic,bd10hsize,(Derived) HH Size,,
+17890,BCS70,basic_demographic,bd10partp,(Derived) Whether CM lives with a spouse or partner,-8.0,Not enough information
+17891,BCS70,basic_demographic,bd10partp,(Derived) Whether CM lives with a spouse or partner,-1.0,No partner reported to be living with CM
+17892,BCS70,basic_demographic,bd10partp,(Derived) Whether CM lives with a spouse or partner,1.0,Spouse
+17893,BCS70,basic_demographic,bd10partp,(Derived) Whether CM lives with a spouse or partner,2.0,Civil partner
+17894,BCS70,basic_demographic,bd10partp,(Derived) Whether CM lives with a spouse or partner,3.0,Cohabiting partner
+17895,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),1.0,L1 Employers in large establishments
+17896,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),2.0,L2 Higher managerial and administrative
+17897,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),3.0,L3 Higher professional occupations
+17898,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),3.1,"""L3.1 ""Traditional"" employees"""
+17899,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),3.2,"""L3.2 ""New"" employees"""
+17900,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),3.3,"""L3.3 ""Traditional"" self-employed"""
+17901,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),3.4,"""L3.4 ""New"" self-employed"""
+17902,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),4.0,Lower professional and higher technical
+17903,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),4.1,"""L4.1 ""Traditional"" employees"""
+17904,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),4.2,"""L4.2 ""New"" employees"""
+17905,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),4.3,"""L4.3 ""Traditional"" self-employed"""
+17906,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),4.4,"""L4.4 ""New"" self-employed"""
+17907,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),5.0,L5 Lower managerial and administrative
+17908,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),6.0,L6 Higher supervisory occupations
+17909,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),7.0,L7 Intermediate occupations
+17910,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),7.1,Intermediate clerical/administrative
+17911,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),7.2,L7.2 Intermediate sales and service
+17912,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),7.3,Intermediate technical and auxiliary
+17913,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),7.4,L7.4 Intermediate engineering
+17914,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),8.0,L8 Employers in small organisations
+17915,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),8.1,Small org employers (industry etc.)
+17916,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),8.2,Small org employers (agriculture)
+17917,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),9.0,L9 Own account workers
+17918,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),9.1,Own account workers (non- professional)
+17919,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),9.2,L9.2 Own account workers (agriculture)
+17920,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),10.0,L10 Lower supervisory occupations
+17921,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),11.0,L11 Lower technical occupations
+17922,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),11.1,L11.1 Lower technical craft occupations
+17923,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),11.2,L11.2 Lower technical process operative
+17924,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.0,L12 Semi-routine occupations
+17925,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.1,L12.1 Semi-routine sales occupations
+17926,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.2,L12.2 Semi-routine service occupations
+17927,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.3,L12.3 Semi-routine technical
+17928,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.4,L12.4 Semi-routine operative
+17929,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.5,L12.5 Semi-routine agricultural
+17930,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.6,L12.6 Semi-routine clerical occupations
+17931,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),12.7,L12.7 Semi-routine childcare
+17932,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),13.0,L13 Routine occupations
+17933,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),13.1,L13.1 Routine sales and service
+17934,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),13.2,L13.2 Routine production occupations
+17935,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),13.3,L13.3 Routine technical occupations
+17936,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),13.4,L13.4 Routine operative occupations
+17937,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),13.5,L13.5 Routine agricultural occupations
+17938,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),14.0,Never worked and long-term unemployed
+17939,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),14.1,L14.1 Never worked
+17940,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),14.2,L14.2 Long-term unemployed
+17941,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),15.0,L15 Full-time students
+17942,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),16.0,L16 Occupations not stated or described
+17943,BCS70,basic_demographic,bd10cnssec,(Derived) NS-SEC Full Operational Categories (CM current job),17.0,L17 Not classifiable for other reasons
+17944,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),1.0,L1 Employers in large establishments
+17945,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),2.0,L2 Higher managerial and administrative
+17946,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),3.0,L3 Higher professional occupations
+17947,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),4.0,Lower professional and higher technical
+17948,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),5.0,L5 Lower managerial and administrative
+17949,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),6.0,L6 Higher supervisory occupations
+17950,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),7.0,L7 Intermediate occupations
+17951,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),8.0,L8 Employers in small organisations
+17952,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),9.0,L9 Own account workers
+17953,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),10.0,L10 Lower supervisory occupations
+17954,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),11.0,L11 Lower technical occupations
+17955,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),12.0,L12 Semi-routine occupations
+17956,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),13.0,L13 Routine occupations
+17957,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),14.0,Never worked and long-term unemployed
+17958,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),15.0,L15 Full-time students
+17959,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),16.0,L16 Occupations not stated or described
+17960,BCS70,basic_demographic,bd10cnsscc,(Derived) NS-SEC Combined Operational Categories (CM current job),17.0,L17 Not classifiable for other reasons
+17961,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),1.0,1 Higher managerial and administrative
+17962,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),1.1,Large employers and higher managerial
+17963,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),1.2,1.2 Higher professional occupations
+17964,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),2.0,Lower managerial and administrative
+17965,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),3.0,Intermediate occupations
+17966,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),4.0,Small employers and own account workers
+17967,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),5.0,Lower supervisory and technical
+17968,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),6.0,Semi-routine occupations
+17969,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),7.0,Routine occupations
+17970,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),8.0,Never worked and long-term unemployed
+17971,BCS70,basic_demographic,bd10cns8,(Derived) NS-SEC Analytic Categories (CM current job),9.0,Occs not stated or inadequate desc
+17972,BCS70,basic_demographic,avail_from_dt,,,

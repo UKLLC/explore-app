@@ -1,0 +1,18 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+695954,EPICN,HLEQ1,study_id_e,,,
+695955,EPICN,HLEQ1,doc_hleq1,Date of completing questionnaire (HLEQ1),,
+695956,EPICN,HLEQ1,age_hleq1,Age of the participant at HLEQ1,,
+695957,EPICN,HLEQ1,job_hleq1,Paid job at present,1.0,Yes
+695958,EPICN,HLEQ1,job_hleq1,Paid job at present,2.0,No
+695959,EPICN,HLEQ1,money_hleq1,Does the participant and the family they live with have enough money?,1.0,more money than you need
+695960,EPICN,HLEQ1,money_hleq1,Does the participant and the family they live with have enough money?,2.0,just enough money
+695961,EPICN,HLEQ1,money_hleq1,Does the participant and the family they live with have enough money?,3.0,not enough money
+695962,EPICN,HLEQ1,accommodation_hleq1,Is the accommodation in which you live owned or rented?,1.0,Owned
+695963,EPICN,HLEQ1,accommodation_hleq1,Is the accommodation in which you live owned or rented?,2.0,Rented from local authority
+695964,EPICN,HLEQ1,accommodation_hleq1,Is the accommodation in which you live owned or rented?,3.0,"Rented privately, unfurnished"
+695965,EPICN,HLEQ1,accommodation_hleq1,Is the accommodation in which you live owned or rented?,4.0,"Rented privately, furnished"
+695966,EPICN,HLEQ1,accommodation_hleq1,Is the accommodation in which you live owned or rented?,5.0,Other
+695967,EPICN,HLEQ1,household_n_hleq1,Number of people living in household,,
+695968,EPICN,HLEQ1,household_under_15_hleq1,Number of children aged 0 to 15 years in household,,
+695969,EPICN,HLEQ1,household_over_15_hleq1,Number of children aged over 15 years in household,,
+695970,EPICN,HLEQ1,avail_from_dt,,,

@@ -1,0 +1,579 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1175510,NICOLA,Wave1HA,study_id_e,,,
+1175511,NICOLA,Wave1HA,age,Participant age (at time of health assessment),,
+1175512,NICOLA,Wave1HA,bodyfat,Body fat percentage,999.99,Missing data
+1175513,NICOLA,Wave1HA,mmse_score,Mini Mental State Examination score,97.0,Test abandoned
+1175514,NICOLA,Wave1HA,mmse_score,Mini Mental State Examination score,98.0,Refused
+1175515,NICOLA,Wave1HA,mmse_score,Mini Mental State Examination score,99.0,Missing data
+1175516,NICOLA,Wave1HA,moca_score,Montreal Cognitive Assessment Score,97.0,Test abandoned
+1175517,NICOLA,Wave1HA,moca_score,Montreal Cognitive Assessment Score,98.0,Refused
+1175518,NICOLA,Wave1HA,moca_score,Montreal Cognitive Assessment Score,99.0,Missing data
+1175519,NICOLA,Wave1HA,healthassessmentdate,Date of Health Assessment,,
+1175520,NICOLA,Wave1HA,homeassessment,Was the Health Assessment carried out at home?,1.0,Yes
+1175521,NICOLA,Wave1HA,homeassessment,Was the Health Assessment carried out at home?,2.0,No
+1175522,NICOLA,Wave1HA,height_1,Height in CM,999.9,Missing data
+1175523,NICOLA,Wave1HA,gender,Gender of participant,1.0,Male
+1175524,NICOLA,Wave1HA,gender,Gender of participant,2.0,Female
+1175525,NICOLA,Wave1HA,bmi,Body mass index,999.9,Missing data
+1175526,NICOLA,Wave1HA,bmi_status,Body mass Index Status,1.0,<25 kg
+1175527,NICOLA,Wave1HA,bmi_status,Body mass Index Status,2.0,>=25kg <30kg
+1175528,NICOLA,Wave1HA,bmi_status,Body mass Index Status,3.0,>30kg
+1175529,NICOLA,Wave1HA,bmi_status,Body mass Index Status,9.0,Missing data
+1175530,NICOLA,Wave1HA,weight_1,Weight in KG,999.9,Missing data
+1175531,NICOLA,Wave1HA,waist_1,First waist measurement,999.9,Missing data
+1175532,NICOLA,Wave1HA,waist_2,Second weight measurement,999.9,Missing data
+1175533,NICOLA,Wave1HA,waist_3,Third waist measurement,888.8,Not applicable
+1175534,NICOLA,Wave1HA,waist_3,Third waist measurement,999.9,Missing data
+1175535,NICOLA,Wave1HA,averagewaist,Average waist measurement in CM,999.9,Missing data
+1175536,NICOLA,Wave1HA,hip_1,First hip measurement,999.9,Missing data
+1175537,NICOLA,Wave1HA,hip_2,Second hip measurement,999.9,Missing data
+1175538,NICOLA,Wave1HA,hip_3,Third hip measurement,888.8,Not applicable
+1175539,NICOLA,Wave1HA,hip_3,Third hip measurement,999.9,Missing data
+1175540,NICOLA,Wave1HA,averagehip,Average hip measurement in CM,999.9,Missing data
+1175541,NICOLA,Wave1HA,use_any_hearing_aids,Do you use any of the following aids or appliances to help with your hearing?,1.0,Hearing aid all of the time
+1175542,NICOLA,Wave1HA,use_any_hearing_aids,Do you use any of the following aids or appliances to help with your hearing?,2.0,Hearing aid some of the time
+1175543,NICOLA,Wave1HA,use_any_hearing_aids,Do you use any of the following aids or appliances to help with your hearing?,3.0,Amplifier
+1175544,NICOLA,Wave1HA,use_any_hearing_aids,Do you use any of the following aids or appliances to help with your hearing?,4.0,None of the above
+1175545,NICOLA,Wave1HA,use_any_hearing_aids,Do you use any of the following aids or appliances to help with your hearing?,98.0,Don't know
+1175546,NICOLA,Wave1HA,use_any_hearing_aids,Do you use any of the following aids or appliances to help with your hearing?,99.0,Missing data
+1175547,NICOLA,Wave1HA,is_your_hearing,Is your hearing (with or without a hearing aid)?,1.0,Excellent
+1175548,NICOLA,Wave1HA,is_your_hearing,Is your hearing (with or without a hearing aid)?,2.0,Very good
+1175549,NICOLA,Wave1HA,is_your_hearing,Is your hearing (with or without a hearing aid)?,3.0,Good
+1175550,NICOLA,Wave1HA,is_your_hearing,Is your hearing (with or without a hearing aid)?,4.0,Fair
+1175551,NICOLA,Wave1HA,is_your_hearing,Is your hearing (with or without a hearing aid)?,5.0,Poor
+1175552,NICOLA,Wave1HA,is_your_hearing,Is your hearing (with or without a hearing aid)?,98.0,Don't know
+1175553,NICOLA,Wave1HA,is_your_hearing,Is your hearing (with or without a hearing aid)?,99.0,Missing data
+1175554,NICOLA,Wave1HA,ability_to_follow_conversation_with_one,Can you follow a conversation with one person (with or without a hearing aid)? If participant asks,1.0,With no difficulty
+1175555,NICOLA,Wave1HA,ability_to_follow_conversation_with_one,Can you follow a conversation with one person (with or without a hearing aid)? If participant asks,2.0,With some difficulty
+1175556,NICOLA,Wave1HA,ability_to_follow_conversation_with_one,Can you follow a conversation with one person (with or without a hearing aid)? If participant asks,3.0,With much difficulty
+1175557,NICOLA,Wave1HA,ability_to_follow_conversation_with_one,Can you follow a conversation with one person (with or without a hearing aid)? If participant asks,4.0,No I cannot
+1175558,NICOLA,Wave1HA,ability_to_follow_conversation_with_one,Can you follow a conversation with one person (with or without a hearing aid)? If participant asks,98.0,Don't know
+1175559,NICOLA,Wave1HA,ability_to_follow_conversation_with_one,Can you follow a conversation with one person (with or without a hearing aid)? If participant asks,99.0,Missing data
+1175560,NICOLA,Wave1HA,ability_to_follow_conversation_with_many,Can you follow a conversation with four people ( with or without a hearing aid)? If participant asks,1.0,With no difficulty
+1175561,NICOLA,Wave1HA,ability_to_follow_conversation_with_many,Can you follow a conversation with four people ( with or without a hearing aid)? If participant asks,2.0,With some difficulty
+1175562,NICOLA,Wave1HA,ability_to_follow_conversation_with_many,Can you follow a conversation with four people ( with or without a hearing aid)? If participant asks,3.0,With much difficulty
+1175563,NICOLA,Wave1HA,ability_to_follow_conversation_with_many,Can you follow a conversation with four people ( with or without a hearing aid)? If participant asks,4.0,No I cannot
+1175564,NICOLA,Wave1HA,ability_to_follow_conversation_with_many,Can you follow a conversation with four people ( with or without a hearing aid)? If participant asks,98.0,Don't know
+1175565,NICOLA,Wave1HA,ability_to_follow_conversation_with_many,Can you follow a conversation with four people ( with or without a hearing aid)? If participant asks,99.0,Missing data
+1175566,NICOLA,Wave1HA,can_use_telephone,Can you use a normal telephone? (A 'normal telephone' means a phone that has not been adapted for heairing impairment),1.0,With no difficulty
+1175567,NICOLA,Wave1HA,can_use_telephone,Can you use a normal telephone? (A 'normal telephone' means a phone that has not been adapted for heairing impairment),2.0,With some difficulty
+1175568,NICOLA,Wave1HA,can_use_telephone,Can you use a normal telephone? (A 'normal telephone' means a phone that has not been adapted for heairing impairment),3.0,With much difficulty
+1175569,NICOLA,Wave1HA,can_use_telephone,Can you use a normal telephone? (A 'normal telephone' means a phone that has not been adapted for heairing impairment),4.0,No I cannot
+1175570,NICOLA,Wave1HA,can_use_telephone,Can you use a normal telephone? (A 'normal telephone' means a phone that has not been adapted for heairing impairment),98.0,Don't know
+1175571,NICOLA,Wave1HA,can_use_telephone,Can you use a normal telephone? (A 'normal telephone' means a phone that has not been adapted for heairing impairment),99.0,Missing data
+1175572,NICOLA,Wave1HA,did_have_any_noises_in_head_for_more_than_5_min,Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?,1.0,Yes - a lot of the time
+1175573,NICOLA,Wave1HA,did_have_any_noises_in_head_for_more_than_5_min,Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?,2.0,Yes - most of the time
+1175574,NICOLA,Wave1HA,did_have_any_noises_in_head_for_more_than_5_min,Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?,3.0,Yes - some of the time
+1175575,NICOLA,Wave1HA,did_have_any_noises_in_head_for_more_than_5_min,Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?,4.0,Yes - but in the past
+1175576,NICOLA,Wave1HA,did_have_any_noises_in_head_for_more_than_5_min,Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?,5.0,"No, never"
+1175577,NICOLA,Wave1HA,did_have_any_noises_in_head_for_more_than_5_min,Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?,98.0,Don't know
+1175578,NICOLA,Wave1HA,did_have_any_noises_in_head_for_more_than_5_min,Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?,99.0,Missing data
+1175579,NICOLA,Wave1HA,noises_impact_on_individual,How much do these noises worry,1.0,Severely
+1175580,NICOLA,Wave1HA,noises_impact_on_individual,How much do these noises worry,2.0,Moderately
+1175581,NICOLA,Wave1HA,noises_impact_on_individual,How much do these noises worry,3.0,Slightly
+1175582,NICOLA,Wave1HA,noises_impact_on_individual,How much do these noises worry,4.0,Not at all
+1175583,NICOLA,Wave1HA,noises_impact_on_individual,How much do these noises worry,88.0,Not applicable
+1175584,NICOLA,Wave1HA,noises_impact_on_individual,How much do these noises worry,98.0,Don't know
+1175585,NICOLA,Wave1HA,noises_impact_on_individual,How much do these noises worry,99.0,Missing data
+1175586,NICOLA,Wave1HA,ever_worked_in_noisy_place,Have you ever worked in a noisy place where you had to shout to be heard?,1.0,More than 5 years
+1175587,NICOLA,Wave1HA,ever_worked_in_noisy_place,Have you ever worked in a noisy place where you had to shout to be heard?,2.0,Less than 5 years
+1175588,NICOLA,Wave1HA,ever_worked_in_noisy_place,Have you ever worked in a noisy place where you had to shout to be heard?,3.0,Less than 1 year
+1175589,NICOLA,Wave1HA,ever_worked_in_noisy_place,Have you ever worked in a noisy place where you had to shout to be heard?,4.0,Never
+1175590,NICOLA,Wave1HA,ever_worked_in_noisy_place,Have you ever worked in a noisy place where you had to shout to be heard?,98.0,Don't know
+1175591,NICOLA,Wave1HA,ever_worked_in_noisy_place,Have you ever worked in a noisy place where you had to shout to be heard?,99.0,Missing data
+1175592,NICOLA,Wave1HA,listened_to_loud_music_for_more_than_3hrs_per_week,Have you listened to music for more than 3 hours per week at a volume which you would need to shout to be heard or,1.0,More than 5 years
+1175593,NICOLA,Wave1HA,listened_to_loud_music_for_more_than_3hrs_per_week,Have you listened to music for more than 3 hours per week at a volume which you would need to shout to be heard or,2.0,Less than 5 years
+1175594,NICOLA,Wave1HA,listened_to_loud_music_for_more_than_3hrs_per_week,Have you listened to music for more than 3 hours per week at a volume which you would need to shout to be heard or,3.0,Less than 1 year
+1175595,NICOLA,Wave1HA,listened_to_loud_music_for_more_than_3hrs_per_week,Have you listened to music for more than 3 hours per week at a volume which you would need to shout to be heard or,4.0,Never
+1175596,NICOLA,Wave1HA,listened_to_loud_music_for_more_than_3hrs_per_week,Have you listened to music for more than 3 hours per week at a volume which you would need to shout to be heard or,98.0,Don't know
+1175597,NICOLA,Wave1HA,listened_to_loud_music_for_more_than_3hrs_per_week,Have you listened to music for more than 3 hours per week at a volume which you would need to shout to be heard or,99.0,Missing data
+1175598,NICOLA,Wave1HA,timetaken,Time taken to complete Colour Trails,0.0,Missing data
+1175599,NICOLA,Wave1HA,colourerrors,Colour errors,97.0,Test abandoned
+1175600,NICOLA,Wave1HA,colourerrors,Colour errors,98.0,Refused
+1175601,NICOLA,Wave1HA,colourerrors,Colour errors,99.0,Missing data
+1175602,NICOLA,Wave1HA,numbererrors,Number errors,97.0,Test abandoned
+1175603,NICOLA,Wave1HA,numbererrors,Number errors,98.0,Refused
+1175604,NICOLA,Wave1HA,numbererrors,Number errors,99.0,Missing data
+1175605,NICOLA,Wave1HA,prompts,Prompts,97.0,Test abandoned
+1175606,NICOLA,Wave1HA,prompts,Prompts,98.0,Refused
+1175607,NICOLA,Wave1HA,prompts,Prompts,99.0,Missing data
+1175608,NICOLA,Wave1HA,nearmisses,Near misses,97.0,Test abandoned
+1175609,NICOLA,Wave1HA,nearmisses,Near misses,98.0,Refused
+1175610,NICOLA,Wave1HA,nearmisses,Near misses,99.0,Missing data
+1175611,NICOLA,Wave1HA,animalrecall,Animal Recall total,97.0,Test abandoned
+1175612,NICOLA,Wave1HA,animalrecall,Animal Recall total,98.0,Refused
+1175613,NICOLA,Wave1HA,animalrecall,Animal Recall total,99.0,Missing data
+1175614,NICOLA,Wave1HA,cesdq1,I was bothered by things that usually don't bother me,1.0,Rarely or none of the time
+1175615,NICOLA,Wave1HA,cesdq1,I was bothered by things that usually don't bother me,2.0,Some or little of the time
+1175616,NICOLA,Wave1HA,cesdq1,I was bothered by things that usually don't bother me,3.0,Occasionally or a moderate amount of time
+1175617,NICOLA,Wave1HA,cesdq1,I was bothered by things that usually don't bother me,4.0,All of the time
+1175618,NICOLA,Wave1HA,cesdq1,I was bothered by things that usually don't bother me,98.0,Don't know
+1175619,NICOLA,Wave1HA,cesdq1,I was bothered by things that usually don't bother me,99.0,Refused
+1175620,NICOLA,Wave1HA,cesdq2,I did not feel like eating; my apetite was poor,1.0,Rarely or none of the time
+1175621,NICOLA,Wave1HA,cesdq2,I did not feel like eating; my apetite was poor,2.0,Some or little of the time
+1175622,NICOLA,Wave1HA,cesdq2,I did not feel like eating; my apetite was poor,3.0,Occasionally or a moderate amount of time
+1175623,NICOLA,Wave1HA,cesdq2,I did not feel like eating; my apetite was poor,4.0,All of the time
+1175624,NICOLA,Wave1HA,cesdq2,I did not feel like eating; my apetite was poor,98.0,Don't know
+1175625,NICOLA,Wave1HA,cesdq2,I did not feel like eating; my apetite was poor,99.0,Refused
+1175626,NICOLA,Wave1HA,cesdq3,I felt that I could not shake off the blues even with help ffrom my family or friends,1.0,Rarely or none of the time
+1175627,NICOLA,Wave1HA,cesdq3,I felt that I could not shake off the blues even with help ffrom my family or friends,2.0,Some or little of the time
+1175628,NICOLA,Wave1HA,cesdq3,I felt that I could not shake off the blues even with help ffrom my family or friends,3.0,Occasionally or a moderate amount of time
+1175629,NICOLA,Wave1HA,cesdq3,I felt that I could not shake off the blues even with help ffrom my family or friends,4.0,All of the time
+1175630,NICOLA,Wave1HA,cesdq3,I felt that I could not shake off the blues even with help ffrom my family or friends,98.0,Don't know
+1175631,NICOLA,Wave1HA,cesdq3,I felt that I could not shake off the blues even with help ffrom my family or friends,99.0,Refused
+1175632,NICOLA,Wave1HA,cesdq4,I felt that I was just as good as other people,1.0,Rarely or none of the time
+1175633,NICOLA,Wave1HA,cesdq4,I felt that I was just as good as other people,2.0,Some or little of the time
+1175634,NICOLA,Wave1HA,cesdq4,I felt that I was just as good as other people,3.0,Occasionally or a moderate amount of time
+1175635,NICOLA,Wave1HA,cesdq4,I felt that I was just as good as other people,4.0,All of the time
+1175636,NICOLA,Wave1HA,cesdq4,I felt that I was just as good as other people,98.0,Don't know
+1175637,NICOLA,Wave1HA,cesdq4,I felt that I was just as good as other people,99.0,Refused
+1175638,NICOLA,Wave1HA,cesdq5,I had trouble keeping my mind on what I was doing,1.0,Rarely or none of the time
+1175639,NICOLA,Wave1HA,cesdq5,I had trouble keeping my mind on what I was doing,2.0,Some or little of the time
+1175640,NICOLA,Wave1HA,cesdq5,I had trouble keeping my mind on what I was doing,3.0,Occasionally or a moderate amount of time
+1175641,NICOLA,Wave1HA,cesdq5,I had trouble keeping my mind on what I was doing,4.0,All of the time
+1175642,NICOLA,Wave1HA,cesdq5,I had trouble keeping my mind on what I was doing,98.0,Don't know
+1175643,NICOLA,Wave1HA,cesdq5,I had trouble keeping my mind on what I was doing,99.0,Refused
+1175644,NICOLA,Wave1HA,cesdq6,I felt depressed,1.0,Rarely or none of the time
+1175645,NICOLA,Wave1HA,cesdq6,I felt depressed,2.0,Some or little of the time
+1175646,NICOLA,Wave1HA,cesdq6,I felt depressed,3.0,Occasionally or a moderate amount of time
+1175647,NICOLA,Wave1HA,cesdq6,I felt depressed,4.0,All of the time
+1175648,NICOLA,Wave1HA,cesdq6,I felt depressed,98.0,Don't know
+1175649,NICOLA,Wave1HA,cesdq6,I felt depressed,99.0,Refused
+1175650,NICOLA,Wave1HA,cesdq7,I felt that everything I did was an effort,1.0,Rarely or none of the time
+1175651,NICOLA,Wave1HA,cesdq7,I felt that everything I did was an effort,2.0,Some or little of the time
+1175652,NICOLA,Wave1HA,cesdq7,I felt that everything I did was an effort,3.0,Occasionally or a moderate amount of time
+1175653,NICOLA,Wave1HA,cesdq7,I felt that everything I did was an effort,4.0,All of the time
+1175654,NICOLA,Wave1HA,cesdq7,I felt that everything I did was an effort,98.0,Don't know
+1175655,NICOLA,Wave1HA,cesdq7,I felt that everything I did was an effort,99.0,Refused
+1175656,NICOLA,Wave1HA,cesdq8,I felt hopeful about the future,1.0,Rarely or none of the time
+1175657,NICOLA,Wave1HA,cesdq8,I felt hopeful about the future,2.0,Some or little of the time
+1175658,NICOLA,Wave1HA,cesdq8,I felt hopeful about the future,3.0,Occasionally or a moderate amount of time
+1175659,NICOLA,Wave1HA,cesdq8,I felt hopeful about the future,4.0,All of the time
+1175660,NICOLA,Wave1HA,cesdq8,I felt hopeful about the future,98.0,Don't know
+1175661,NICOLA,Wave1HA,cesdq8,I felt hopeful about the future,99.0,Refused
+1175662,NICOLA,Wave1HA,cesdq9,I thought my life had been a failure,1.0,Rarely or none of the time
+1175663,NICOLA,Wave1HA,cesdq9,I thought my life had been a failure,2.0,Some or little of the time
+1175664,NICOLA,Wave1HA,cesdq9,I thought my life had been a failure,3.0,Occasionally or a moderate amount of time
+1175665,NICOLA,Wave1HA,cesdq9,I thought my life had been a failure,4.0,All of the time
+1175666,NICOLA,Wave1HA,cesdq9,I thought my life had been a failure,98.0,Don't know
+1175667,NICOLA,Wave1HA,cesdq9,I thought my life had been a failure,99.0,Refused
+1175668,NICOLA,Wave1HA,cesdq10,I felt fearful,1.0,Rarely or none of the time
+1175669,NICOLA,Wave1HA,cesdq10,I felt fearful,2.0,Some or little of the time
+1175670,NICOLA,Wave1HA,cesdq10,I felt fearful,3.0,Occasionally or a moderate amount of time
+1175671,NICOLA,Wave1HA,cesdq10,I felt fearful,4.0,All of the time
+1175672,NICOLA,Wave1HA,cesdq10,I felt fearful,98.0,Don't know
+1175673,NICOLA,Wave1HA,cesdq10,I felt fearful,99.0,Refused
+1175674,NICOLA,Wave1HA,cesdq11,My sleep was restless,1.0,Rarely or none of the time
+1175675,NICOLA,Wave1HA,cesdq11,My sleep was restless,2.0,Some or little of the time
+1175676,NICOLA,Wave1HA,cesdq11,My sleep was restless,3.0,Occasionally or a moderate amount of time
+1175677,NICOLA,Wave1HA,cesdq11,My sleep was restless,4.0,All of the time
+1175678,NICOLA,Wave1HA,cesdq11,My sleep was restless,98.0,Don't know
+1175679,NICOLA,Wave1HA,cesdq11,My sleep was restless,99.0,Refused
+1175680,NICOLA,Wave1HA,cesdq12,I was happy,1.0,Rarely or none of the time
+1175681,NICOLA,Wave1HA,cesdq12,I was happy,2.0,Some or little of the time
+1175682,NICOLA,Wave1HA,cesdq12,I was happy,3.0,Occasionally or a moderate amount of time
+1175683,NICOLA,Wave1HA,cesdq12,I was happy,4.0,All of the time
+1175684,NICOLA,Wave1HA,cesdq12,I was happy,98.0,Don't know
+1175685,NICOLA,Wave1HA,cesdq12,I was happy,99.0,Refused
+1175686,NICOLA,Wave1HA,cesdq13,I talked less than usual,1.0,Rarely or none of the time
+1175687,NICOLA,Wave1HA,cesdq13,I talked less than usual,2.0,Some or little of the time
+1175688,NICOLA,Wave1HA,cesdq13,I talked less than usual,3.0,Occasionally or a moderate amount of time
+1175689,NICOLA,Wave1HA,cesdq13,I talked less than usual,4.0,All of the time
+1175690,NICOLA,Wave1HA,cesdq13,I talked less than usual,98.0,Don't know
+1175691,NICOLA,Wave1HA,cesdq13,I talked less than usual,99.0,Refused
+1175692,NICOLA,Wave1HA,cesdq14,I felt lonely,1.0,Rarely or none of the time
+1175693,NICOLA,Wave1HA,cesdq14,I felt lonely,2.0,Some or little of the time
+1175694,NICOLA,Wave1HA,cesdq14,I felt lonely,3.0,Occasionally or a moderate amount of time
+1175695,NICOLA,Wave1HA,cesdq14,I felt lonely,4.0,All of the time
+1175696,NICOLA,Wave1HA,cesdq14,I felt lonely,98.0,Don't know
+1175697,NICOLA,Wave1HA,cesdq14,I felt lonely,99.0,Refused
+1175698,NICOLA,Wave1HA,cesdq15,People were unfriendly,1.0,Rarely or none of the time
+1175699,NICOLA,Wave1HA,cesdq15,People were unfriendly,2.0,Some or little of the time
+1175700,NICOLA,Wave1HA,cesdq15,People were unfriendly,3.0,Occasionally or a moderate amount of time
+1175701,NICOLA,Wave1HA,cesdq15,People were unfriendly,4.0,All of the time
+1175702,NICOLA,Wave1HA,cesdq15,People were unfriendly,98.0,Don't know
+1175703,NICOLA,Wave1HA,cesdq15,People were unfriendly,99.0,Refused
+1175704,NICOLA,Wave1HA,cesdq16,I enjoyed life,1.0,Rarely or none of the time
+1175705,NICOLA,Wave1HA,cesdq16,I enjoyed life,2.0,Some or little of the time
+1175706,NICOLA,Wave1HA,cesdq16,I enjoyed life,3.0,Occasionally or a moderate amount of time
+1175707,NICOLA,Wave1HA,cesdq16,I enjoyed life,4.0,All of the time
+1175708,NICOLA,Wave1HA,cesdq16,I enjoyed life,98.0,Don't know
+1175709,NICOLA,Wave1HA,cesdq16,I enjoyed life,99.0,Refused
+1175710,NICOLA,Wave1HA,cesdq17,I had crying spells,1.0,Rarely or none of the time
+1175711,NICOLA,Wave1HA,cesdq17,I had crying spells,2.0,Some or little of the time
+1175712,NICOLA,Wave1HA,cesdq17,I had crying spells,3.0,Occasionally or a moderate amount of time
+1175713,NICOLA,Wave1HA,cesdq17,I had crying spells,4.0,All of the time
+1175714,NICOLA,Wave1HA,cesdq17,I had crying spells,98.0,Don't know
+1175715,NICOLA,Wave1HA,cesdq17,I had crying spells,99.0,Refused
+1175716,NICOLA,Wave1HA,cesdq18,I felt sad,1.0,Rarely or none of the time
+1175717,NICOLA,Wave1HA,cesdq18,I felt sad,2.0,Some or little of the time
+1175718,NICOLA,Wave1HA,cesdq18,I felt sad,3.0,Occasionally or a moderate amount of time
+1175719,NICOLA,Wave1HA,cesdq18,I felt sad,4.0,All of the time
+1175720,NICOLA,Wave1HA,cesdq18,I felt sad,98.0,Don't know
+1175721,NICOLA,Wave1HA,cesdq18,I felt sad,99.0,Refused
+1175722,NICOLA,Wave1HA,cesdq19,I felt that people disliked me,1.0,Rarely or none of the time
+1175723,NICOLA,Wave1HA,cesdq19,I felt that people disliked me,2.0,Some or little of the time
+1175724,NICOLA,Wave1HA,cesdq19,I felt that people disliked me,3.0,Occasionally or a moderate amount of time
+1175725,NICOLA,Wave1HA,cesdq19,I felt that people disliked me,4.0,All of the time
+1175726,NICOLA,Wave1HA,cesdq19,I felt that people disliked me,98.0,Don't know
+1175727,NICOLA,Wave1HA,cesdq19,I felt that people disliked me,99.0,Refused
+1175728,NICOLA,Wave1HA,cesdq20,I could not get 'going',1.0,Rarely or none of the time
+1175729,NICOLA,Wave1HA,cesdq20,I could not get 'going',2.0,Some or little of the time
+1175730,NICOLA,Wave1HA,cesdq20,I could not get 'going',3.0,Occasionally or a moderate amount of time
+1175731,NICOLA,Wave1HA,cesdq20,I could not get 'going',4.0,All of the time
+1175732,NICOLA,Wave1HA,cesdq20,I could not get 'going',98.0,Don't know
+1175733,NICOLA,Wave1HA,cesdq20,I could not get 'going',99.0,Refused
+1175734,NICOLA,Wave1HA,righteyenf_4m,Right eye NF at 4 metres - Distance Visual Acuity,888.0,N/A Used another distance
+1175735,NICOLA,Wave1HA,righteyenf_4m,Right eye NF at 4 metres - Distance Visual Acuity,999.0,Missing data
+1175736,NICOLA,Wave1HA,righteyeph_4m,Right eye PH at 4 metres - Pinhole Acuity,888.0,N/A Used another distance
+1175737,NICOLA,Wave1HA,righteyeph_4m,Right eye PH at 4 metres - Pinhole Acuity,999.0,Missing data
+1175738,NICOLA,Wave1HA,lefteyenf_4m,Left eye NF at 4 metres - Distance Visual Acuity,888.0,N/A Used another distance
+1175739,NICOLA,Wave1HA,lefteyenf_4m,Left eye NF at 4 metres - Distance Visual Acuity,999.0,Missing data
+1175740,NICOLA,Wave1HA,lefteyeph_4m,Left eye PH at 4 metres - Pinhole Acuity,888.0,N/A Used another distance
+1175741,NICOLA,Wave1HA,lefteyeph_4m,Left eye PH at 4 metres - Pinhole Acuity,999.0,Missing data
+1175742,NICOLA,Wave1HA,righteyeph_3m,Right eye NF at 3 metres - Distance Visual Acuity,888.0,N/A Used another distance
+1175743,NICOLA,Wave1HA,righteyeph_3m,Right eye NF at 3 metres - Distance Visual Acuity,999.0,Missing data
+1175744,NICOLA,Wave1HA,righteyenf_3m,Right eye PH at 3 metres - Pinhole Acuity,888.0,N/A Used another distance
+1175745,NICOLA,Wave1HA,righteyenf_3m,Right eye PH at 3 metres - Pinhole Acuity,999.0,Missing data
+1175746,NICOLA,Wave1HA,lefteyenf_3m,Left eye NF at 3 metres - Distance Visual Acuity,888.0,N/A Used another distance
+1175747,NICOLA,Wave1HA,lefteyenf_3m,Left eye NF at 3 metres - Distance Visual Acuity,999.0,Missing data
+1175748,NICOLA,Wave1HA,lefteyeph_3m,Left eye PH at 3 metres - Pinhole Acuity,888.0,N/A Used another distance
+1175749,NICOLA,Wave1HA,lefteyeph_3m,Left eye PH at 3 metres - Pinhole Acuity,999.0,Missing data
+1175750,NICOLA,Wave1HA,righteyenf_1m,Right eye NF at 1 metre - Distance Visual Acuity,888.0,N/A Used another distance
+1175751,NICOLA,Wave1HA,righteyenf_1m,Right eye NF at 1 metre - Distance Visual Acuity,999.0,Missing data
+1175752,NICOLA,Wave1HA,righteyeph_1m,Right eye PH at 1 metre - Pinhole Acuity,888.0,N/A Used another distance
+1175753,NICOLA,Wave1HA,righteyeph_1m,Right eye PH at 1 metre - Pinhole Acuity,999.0,Missing data
+1175754,NICOLA,Wave1HA,lefteyenf_1m,Left eye NF at 1 metre - Distance Visual Acuity,888.0,N/A Used another distance
+1175755,NICOLA,Wave1HA,lefteyenf_1m,Left eye NF at 1 metre - Distance Visual Acuity,999.0,Missing data
+1175756,NICOLA,Wave1HA,lefteyeph_1m,Left eye PH at 1 metre - Pinhole Acuity,888.0,N/A Used another distance
+1175757,NICOLA,Wave1HA,lefteyeph_1m,Left eye PH at 1 metre - Pinhole Acuity,999.0,Missing data
+1175758,NICOLA,Wave1HA,systolic_bp1,First Systolic BP measurement - Sitting,999.0,Missing data
+1175759,NICOLA,Wave1HA,systolic_bp2,Second Systolic BP measurement - Sitting,999.0,Missing data
+1175760,NICOLA,Wave1HA,systolic_bp3,Third Systolic BP measurement - Postural standing,999.0,Missing data
+1175761,NICOLA,Wave1HA,diastolic_bp1,First Diastolic BP measurement - Sitting,999.0,Missing data
+1175762,NICOLA,Wave1HA,diastolic_bp2,Second Diastolic BP measurement - Sitting,999.0,Missing data
+1175763,NICOLA,Wave1HA,diastolic_bp3,Third Diastolic BP measurement - Postural standing,999.0,Missing data
+1175764,NICOLA,Wave1HA,pulse_bp1,First Pulse measurement,999.0,Missing data
+1175765,NICOLA,Wave1HA,pulse_bp2,Second Pulse measurement,999.0,Missing data
+1175766,NICOLA,Wave1HA,pulse_bp3,Third Pulse measurement,999.0,Missing data
+1175767,NICOLA,Wave1HA,arrighteye_sph,Right eye sphere,88.88,Home assessment
+1175768,NICOLA,Wave1HA,arrighteye_sph,Right eye sphere,99.99,Test not done or incomplete
+1175769,NICOLA,Wave1HA,arrighteye_cyl,Right eye cylinder,88.88,Home assessment
+1175770,NICOLA,Wave1HA,arrighteye_cyl,Right eye cylinder,99.99,Test not done or incomplete
+1175771,NICOLA,Wave1HA,arrighteye_axis,Right eye axis,888.0,Home assessment
+1175772,NICOLA,Wave1HA,arrighteye_axis,Right eye axis,999.0,Test not done or incomplete
+1175773,NICOLA,Wave1HA,arlefteye_sph,Left eye sphere,88.88,Home assessment
+1175774,NICOLA,Wave1HA,arlefteye_sph,Left eye sphere,99.99,Test not done or incomplete
+1175775,NICOLA,Wave1HA,arlefteye_cyl,Left eye cylinder,88.88,Home assessment
+1175776,NICOLA,Wave1HA,arlefteye_cyl,Left eye cylinder,99.99,Test not done or incomplete
+1175777,NICOLA,Wave1HA,arlefteye_axis,Left eye axis,888.0,Home assessment
+1175778,NICOLA,Wave1HA,arlefteye_axis,Left eye axis,999.0,Test not done or incomplete
+1175779,NICOLA,Wave1HA,usually_wear_glasses_contact_lenses,Do you usually wear glasses or contact lense? i.e. usually means most of the time),1.0,Yes
+1175780,NICOLA,Wave1HA,usually_wear_glasses_contact_lenses,Do you usually wear glasses or contact lense? i.e. usually means most of the time),2.0,No
+1175781,NICOLA,Wave1HA,usually_wear_glasses_contact_lenses,Do you usually wear glasses or contact lense? i.e. usually means most of the time),8.0,Not applicable
+1175782,NICOLA,Wave1HA,usually_wear_glasses_contact_lenses,Do you usually wear glasses or contact lense? i.e. usually means most of the time),99.0,Missing data
+1175783,NICOLA,Wave1HA,wearglasseorcontacts,Do you wear glasses or contact lenses?,1.0,Yes
+1175784,NICOLA,Wave1HA,wearglasseorcontacts,Do you wear glasses or contact lenses?,2.0,No
+1175785,NICOLA,Wave1HA,wearglasseorcontacts,Do you wear glasses or contact lenses?,8.0,Not applicable
+1175786,NICOLA,Wave1HA,wearglasseorcontacts,Do you wear glasses or contact lenses?,99.0,Missing data
+1175787,NICOLA,Wave1HA,ordinary_glasses_bifocals_contact_lenses,Do you usually wear (choose the item worn most often),1.0,Ordinary glasses
+1175788,NICOLA,Wave1HA,ordinary_glasses_bifocals_contact_lenses,Do you usually wear (choose the item worn most often),2.0,Bifocals
+1175789,NICOLA,Wave1HA,ordinary_glasses_bifocals_contact_lenses,Do you usually wear (choose the item worn most often),3.0,Contact lenses
+1175790,NICOLA,Wave1HA,ordinary_glasses_bifocals_contact_lenses,Do you usually wear (choose the item worn most often),4.0,Varifocals
+1175791,NICOLA,Wave1HA,ordinary_glasses_bifocals_contact_lenses,Do you usually wear (choose the item worn most often),8.0,Not applicable
+1175792,NICOLA,Wave1HA,ordinary_glasses_bifocals_contact_lenses,Do you usually wear (choose the item worn most often),98.0,Don't know
+1175793,NICOLA,Wave1HA,ordinary_glasses_bifocals_contact_lenses,Do you usually wear (choose the item worn most often),99.0,Missing data
+1175794,NICOLA,Wave1HA,how_long_bifocals,How long have you had bifocals?,1.0,< 1 year
+1175795,NICOLA,Wave1HA,how_long_bifocals,How long have you had bifocals?,2.0,> 1 year
+1175796,NICOLA,Wave1HA,how_long_bifocals,How long have you had bifocals?,8.0,Not applicable
+1175797,NICOLA,Wave1HA,how_long_bifocals,How long have you had bifocals?,98.0,Don't know
+1175798,NICOLA,Wave1HA,how_long_bifocals,How long have you had bifocals?,99.0,Missing data
+1175799,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),1.0,Excellent
+1175800,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),2.0,Very good
+1175801,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),3.0,Good
+1175802,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),4.0,Fair
+1175803,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),5.0,Poor
+1175804,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),6.0,Registered or legally blind
+1175805,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),98.0,Don't know
+1175806,NICOLA,Wave1HA,is_your_eyesight,Is your eyesight (using glasses) or contact lens if you use them),99.0,Missing data
+1175807,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,1.0,Excellent
+1175808,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,2.0,Very good
+1175809,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,3.0,Good
+1175810,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,4.0,Fair
+1175811,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,5.0,Poor
+1175812,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,6.0,Registered or legally blind
+1175813,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,98.0,Don't know
+1175814,NICOLA,Wave1HA,eyesight_for_seeing_things_at_a_distance,How good is your eyesight for seeing things at a distance,99.0,Missing data
+1175815,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,1.0,Excellent
+1175816,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,2.0,Very good
+1175817,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,3.0,Good
+1175818,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,4.0,Fair
+1175819,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,5.0,Poor
+1175820,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,6.0,Registered or legally blind
+1175821,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,98.0,Don't know
+1175822,NICOLA,Wave1HA,eyesight_for_seeing_things_up_close,How good is your eyesight for seeing things up close,99.0,Missing data
+1175823,NICOLA,Wave1HA,eye_diseases_cataracts,Has a doctor ever told you that you have the following disease - Cataracts,1.0,Yes
+1175824,NICOLA,Wave1HA,eye_diseases_cataracts,Has a doctor ever told you that you have the following disease - Cataracts,2.0,No
+1175825,NICOLA,Wave1HA,eye_diseases_cataracts,Has a doctor ever told you that you have the following disease - Cataracts,98.0,Don't know
+1175826,NICOLA,Wave1HA,eye_diseases_cataracts,Has a doctor ever told you that you have the following disease - Cataracts,99.0,Missing data
+1175827,NICOLA,Wave1HA,had_cataract_surgery,Have you ever had Cataract surgery?,1.0,Right eye
+1175828,NICOLA,Wave1HA,had_cataract_surgery,Have you ever had Cataract surgery?,2.0,Left eye
+1175829,NICOLA,Wave1HA,had_cataract_surgery,Have you ever had Cataract surgery?,3.0,Both eyes
+1175830,NICOLA,Wave1HA,had_cataract_surgery,Have you ever had Cataract surgery?,4.0,Neither eye
+1175831,NICOLA,Wave1HA,had_cataract_surgery,Have you ever had Cataract surgery?,88.0,Not applicable
+1175832,NICOLA,Wave1HA,had_cataract_surgery,Have you ever had Cataract surgery?,98.0,Don't know
+1175833,NICOLA,Wave1HA,had_cataract_surgery,Have you ever had Cataract surgery?,99.0,Missing data
+1175834,NICOLA,Wave1HA,eye_diseases_glaucoma,Has a doctor ever told you that you have the following disease - Glaucoma,1.0,Yes
+1175835,NICOLA,Wave1HA,eye_diseases_glaucoma,Has a doctor ever told you that you have the following disease - Glaucoma,2.0,No
+1175836,NICOLA,Wave1HA,eye_diseases_glaucoma,Has a doctor ever told you that you have the following disease - Glaucoma,98.0,Don't know
+1175837,NICOLA,Wave1HA,eye_diseases_glaucoma,Has a doctor ever told you that you have the following disease - Glaucoma,99.0,Missing data
+1175838,NICOLA,Wave1HA,eye_diseases_armaculardegeneration,Has a doctor ever told you that you have the following disease - Age related macular degeneration,1.0,Yes
+1175839,NICOLA,Wave1HA,eye_diseases_armaculardegeneration,Has a doctor ever told you that you have the following disease - Age related macular degeneration,2.0,No
+1175840,NICOLA,Wave1HA,eye_diseases_armaculardegeneration,Has a doctor ever told you that you have the following disease - Age related macular degeneration,98.0,Don't know
+1175841,NICOLA,Wave1HA,eye_diseases_armaculardegeneration,Has a doctor ever told you that you have the following disease - Age related macular degeneration,99.0,Missing data
+1175842,NICOLA,Wave1HA,eye_diseases_diabeticretinopathy,Has a doctor ever told you that you have the following disease - Diabetic retinopathy,1.0,Yes
+1175843,NICOLA,Wave1HA,eye_diseases_diabeticretinopathy,Has a doctor ever told you that you have the following disease - Diabetic retinopathy,2.0,No
+1175844,NICOLA,Wave1HA,eye_diseases_diabeticretinopathy,Has a doctor ever told you that you have the following disease - Diabetic retinopathy,98.0,Don't know
+1175845,NICOLA,Wave1HA,eye_diseases_diabeticretinopathy,Has a doctor ever told you that you have the following disease - Diabetic retinopathy,99.0,Missing data
+1175846,NICOLA,Wave1HA,any_other_eye_diseases,Has a doctor ever told you that you have the following disease - Other,1.0,Yes
+1175847,NICOLA,Wave1HA,any_other_eye_diseases,Has a doctor ever told you that you have the following disease - Other,2.0,No
+1175848,NICOLA,Wave1HA,any_other_eye_diseases,Has a doctor ever told you that you have the following disease - Other,98.0,Don't know
+1175849,NICOLA,Wave1HA,any_other_eye_diseases,Has a doctor ever told you that you have the following disease - Other,99.0,Missing data
+1175850,NICOLA,Wave1HA,visit_optician_last_12months,Have you visited an optician in the last 12 months?,1.0,Yes
+1175851,NICOLA,Wave1HA,visit_optician_last_12months,Have you visited an optician in the last 12 months?,2.0,No
+1175852,NICOLA,Wave1HA,visit_optician_last_12months,Have you visited an optician in the last 12 months?,99.0,Missing data
+1175853,NICOLA,Wave1HA,monthssinceopticianvisit,Months - Since you last visited an optician,88.0,Not applicable
+1175854,NICOLA,Wave1HA,monthssinceopticianvisit,Months - Since you last visited an optician,99.0,Missing data
+1175855,NICOLA,Wave1HA,weekssinceopticianvisit,Weeks - Since you last visited an optician,88.0,Not applicable
+1175856,NICOLA,Wave1HA,weekssinceopticianvisit,Weeks - Since you last visited an optician,99.0,Missing data
+1175857,NICOLA,Wave1HA,dayssinceopticianvisit,Days - Since you last visited an optician,88.0,Not applicable
+1175858,NICOLA,Wave1HA,dayssinceopticianvisit,Days - Since you last visited an optician,99.0,Missing data
+1175859,NICOLA,Wave1HA,optician_spendings_last_12mths,About how much did you pay out-of-pocket for visiting opticians,,
+1175860,NICOLA,Wave1HA,doesweardistanceglasses4test4,Did the participant wear glasses during the VA test?,0.0,On neither eye
+1175861,NICOLA,Wave1HA,doesweardistanceglasses4test4,Did the participant wear glasses during the VA test?,1.0,On right eye only
+1175862,NICOLA,Wave1HA,doesweardistanceglasses4test4,Did the participant wear glasses during the VA test?,2.0,On left eye only
+1175863,NICOLA,Wave1HA,doesweardistanceglasses4test4,Did the participant wear glasses during the VA test?,3.0,On both eyes
+1175864,NICOLA,Wave1HA,doesweardistanceglasses4test4,Did the participant wear glasses during the VA test?,9.0,Missing data
+1175865,NICOLA,Wave1HA,doeswearcorrectivelens4test4,Did the participant wear corrective lenses for the VA test?,0.0,On neither eye
+1175866,NICOLA,Wave1HA,doeswearcorrectivelens4test4,Did the participant wear corrective lenses for the VA test?,1.0,On right eye only
+1175867,NICOLA,Wave1HA,doeswearcorrectivelens4test4,Did the participant wear corrective lenses for the VA test?,2.0,On left eye only
+1175868,NICOLA,Wave1HA,doeswearcorrectivelens4test4,Did the participant wear corrective lenses for the VA test?,3.0,On both eyes
+1175869,NICOLA,Wave1HA,doeswearcorrectivelens4test4,Did the participant wear corrective lenses for the VA test?,9.0,Missing data
+1175870,NICOLA,Wave1HA,roomtemp_c_deg_bp1,Room temperature when blood pressure was taken,99.9,Missing data
+1175871,NICOLA,Wave1HA,dominantside,Which side is your dominant?,1.0,Right
+1175872,NICOLA,Wave1HA,dominantside,Which side is your dominant?,2.0,Left
+1175873,NICOLA,Wave1HA,dominantside,Which side is your dominant?,99.0,Missing data
+1175874,NICOLA,Wave1HA,noofstepsrightfoot,Number of steps on right foot,99.0,Missing data
+1175875,NICOLA,Wave1HA,noofstepsleftfoot,Number of steps on left foot,99.0,Missing data
+1175876,NICOLA,Wave1HA,timeupandgo,Time up and go,99.99,Missing data
+1175877,NICOLA,Wave1HA,dominanthand,Which hand is your dominant?,1.0,Right
+1175878,NICOLA,Wave1HA,dominanthand,Which hand is your dominant?,2.0,Left
+1175879,NICOLA,Wave1HA,dominanthand,Which hand is your dominant?,99.0,Missing data
+1175880,NICOLA,Wave1HA,nondominanthandtest1_kg,Non-DominantHandTest1_Kg,,
+1175881,NICOLA,Wave1HA,nondominanthandtest2_kg,Non-DominantHandTest2_Kg,,
+1175882,NICOLA,Wave1HA,dominanthandtest2_kg,DominantHandTest1_Kg,,
+1175883,NICOLA,Wave1HA,dominanthandtest1_kg,DominantHandTest2_Kg,,
+1175884,NICOLA,Wave1HA,optimistic,I feel optimistic about the future,0.0,No answer
+1175885,NICOLA,Wave1HA,optimistic,I feel optimistic about the future,1.0,None of the time
+1175886,NICOLA,Wave1HA,optimistic,I feel optimistic about the future,2.0,Rarely
+1175887,NICOLA,Wave1HA,optimistic,I feel optimistic about the future,3.0,Some of the time
+1175888,NICOLA,Wave1HA,optimistic,I feel optimistic about the future,4.0,Often
+1175889,NICOLA,Wave1HA,optimistic,I feel optimistic about the future,5.0,All of the time
+1175890,NICOLA,Wave1HA,optimistic,I feel optimistic about the future,9.0,Didn't complete questionnaire
+1175891,NICOLA,Wave1HA,useful,I've been feeling useful,0.0,No answer
+1175892,NICOLA,Wave1HA,useful,I've been feeling useful,1.0,None of the time
+1175893,NICOLA,Wave1HA,useful,I've been feeling useful,2.0,Rarely
+1175894,NICOLA,Wave1HA,useful,I've been feeling useful,3.0,Some of the time
+1175895,NICOLA,Wave1HA,useful,I've been feeling useful,4.0,Often
+1175896,NICOLA,Wave1HA,useful,I've been feeling useful,5.0,All of the time
+1175897,NICOLA,Wave1HA,useful,I've been feeling useful,9.0,Didn't complete questionnaire
+1175898,NICOLA,Wave1HA,relaxed,I've been feeling relaxed,0.0,No answer
+1175899,NICOLA,Wave1HA,relaxed,I've been feeling relaxed,1.0,None of the time
+1175900,NICOLA,Wave1HA,relaxed,I've been feeling relaxed,2.0,Rarely
+1175901,NICOLA,Wave1HA,relaxed,I've been feeling relaxed,3.0,Some of the time
+1175902,NICOLA,Wave1HA,relaxed,I've been feeling relaxed,4.0,Often
+1175903,NICOLA,Wave1HA,relaxed,I've been feeling relaxed,5.0,All of the time
+1175904,NICOLA,Wave1HA,relaxed,I've been feeling relaxed,9.0,Didn't complete questionnaire
+1175905,NICOLA,Wave1HA,interested,I've been feeling interested in other people,0.0,No answer
+1175906,NICOLA,Wave1HA,interested,I've been feeling interested in other people,1.0,None of the time
+1175907,NICOLA,Wave1HA,interested,I've been feeling interested in other people,2.0,Rarely
+1175908,NICOLA,Wave1HA,interested,I've been feeling interested in other people,3.0,Some of the time
+1175909,NICOLA,Wave1HA,interested,I've been feeling interested in other people,4.0,Often
+1175910,NICOLA,Wave1HA,interested,I've been feeling interested in other people,5.0,All of the time
+1175911,NICOLA,Wave1HA,interested,I've been feeling interested in other people,9.0,Didn't complete questionnaire
+1175912,NICOLA,Wave1HA,energy,I had energy to spare,0.0,No answer
+1175913,NICOLA,Wave1HA,energy,I had energy to spare,1.0,None of the time
+1175914,NICOLA,Wave1HA,energy,I had energy to spare,2.0,Rarely
+1175915,NICOLA,Wave1HA,energy,I had energy to spare,3.0,Some of the time
+1175916,NICOLA,Wave1HA,energy,I had energy to spare,4.0,Often
+1175917,NICOLA,Wave1HA,energy,I had energy to spare,5.0,All of the time
+1175918,NICOLA,Wave1HA,energy,I had energy to spare,9.0,Didn't complete questionnaire
+1175919,NICOLA,Wave1HA,problems,I've been dealing with problems well,0.0,No answer
+1175920,NICOLA,Wave1HA,problems,I've been dealing with problems well,1.0,None of the time
+1175921,NICOLA,Wave1HA,problems,I've been dealing with problems well,2.0,Rarely
+1175922,NICOLA,Wave1HA,problems,I've been dealing with problems well,3.0,Some of the time
+1175923,NICOLA,Wave1HA,problems,I've been dealing with problems well,4.0,Often
+1175924,NICOLA,Wave1HA,problems,I've been dealing with problems well,5.0,All of the time
+1175925,NICOLA,Wave1HA,problems,I've been dealing with problems well,9.0,Didn't complete questionnaire
+1175926,NICOLA,Wave1HA,thinking,I've been thinking clearly,0.0,No answer
+1175927,NICOLA,Wave1HA,thinking,I've been thinking clearly,1.0,None of the time
+1175928,NICOLA,Wave1HA,thinking,I've been thinking clearly,2.0,Rarely
+1175929,NICOLA,Wave1HA,thinking,I've been thinking clearly,3.0,Some of the time
+1175930,NICOLA,Wave1HA,thinking,I've been thinking clearly,4.0,Often
+1175931,NICOLA,Wave1HA,thinking,I've been thinking clearly,5.0,All of the time
+1175932,NICOLA,Wave1HA,thinking,I've been thinking clearly,9.0,Didn't complete questionnaire
+1175933,NICOLA,Wave1HA,feeling,I've been feeling good about myself,0.0,No answer
+1175934,NICOLA,Wave1HA,feeling,I've been feeling good about myself,1.0,None of the time
+1175935,NICOLA,Wave1HA,feeling,I've been feeling good about myself,2.0,Rarely
+1175936,NICOLA,Wave1HA,feeling,I've been feeling good about myself,3.0,Some of the time
+1175937,NICOLA,Wave1HA,feeling,I've been feeling good about myself,4.0,Often
+1175938,NICOLA,Wave1HA,feeling,I've been feeling good about myself,5.0,All of the time
+1175939,NICOLA,Wave1HA,feeling,I've been feeling good about myself,9.0,Didn't complete questionnaire
+1175940,NICOLA,Wave1HA,close,I've been feeling close to other people,0.0,No answer
+1175941,NICOLA,Wave1HA,close,I've been feeling close to other people,1.0,None of the time
+1175942,NICOLA,Wave1HA,close,I've been feeling close to other people,2.0,Rarely
+1175943,NICOLA,Wave1HA,close,I've been feeling close to other people,3.0,Some of the time
+1175944,NICOLA,Wave1HA,close,I've been feeling close to other people,4.0,Often
+1175945,NICOLA,Wave1HA,close,I've been feeling close to other people,5.0,All of the time
+1175946,NICOLA,Wave1HA,close,I've been feeling close to other people,9.0,Didn't complete questionnaire
+1175947,NICOLA,Wave1HA,confident,I've been feeling confident,0.0,No answer
+1175948,NICOLA,Wave1HA,confident,I've been feeling confident,1.0,None of the time
+1175949,NICOLA,Wave1HA,confident,I've been feeling confident,2.0,Rarely
+1175950,NICOLA,Wave1HA,confident,I've been feeling confident,3.0,Some of the time
+1175951,NICOLA,Wave1HA,confident,I've been feeling confident,4.0,Often
+1175952,NICOLA,Wave1HA,confident,I've been feeling confident,5.0,All of the time
+1175953,NICOLA,Wave1HA,confident,I've been feeling confident,9.0,Didn't complete questionnaire
+1175954,NICOLA,Wave1HA,mind,I've been able to make up my own mind about things,0.0,No answer
+1175955,NICOLA,Wave1HA,mind,I've been able to make up my own mind about things,1.0,None of the time
+1175956,NICOLA,Wave1HA,mind,I've been able to make up my own mind about things,2.0,Rarely
+1175957,NICOLA,Wave1HA,mind,I've been able to make up my own mind about things,3.0,Some of the time
+1175958,NICOLA,Wave1HA,mind,I've been able to make up my own mind about things,4.0,Often
+1175959,NICOLA,Wave1HA,mind,I've been able to make up my own mind about things,5.0,All of the time
+1175960,NICOLA,Wave1HA,mind,I've been able to make up my own mind about things,9.0,Didn't complete questionnaire
+1175961,NICOLA,Wave1HA,loved,I've been feeling loved,0.0,No answer
+1175962,NICOLA,Wave1HA,loved,I've been feeling loved,1.0,None of the time
+1175963,NICOLA,Wave1HA,loved,I've been feeling loved,2.0,Rarely
+1175964,NICOLA,Wave1HA,loved,I've been feeling loved,3.0,Some of the time
+1175965,NICOLA,Wave1HA,loved,I've been feeling loved,4.0,Often
+1175966,NICOLA,Wave1HA,loved,I've been feeling loved,5.0,All of the time
+1175967,NICOLA,Wave1HA,loved,I've been feeling loved,9.0,Didn't complete questionnaire
+1175968,NICOLA,Wave1HA,newthings,I've been interested in new things,0.0,No answer
+1175969,NICOLA,Wave1HA,newthings,I've been interested in new things,1.0,None of the time
+1175970,NICOLA,Wave1HA,newthings,I've been interested in new things,2.0,Rarely
+1175971,NICOLA,Wave1HA,newthings,I've been interested in new things,3.0,Some of the time
+1175972,NICOLA,Wave1HA,newthings,I've been interested in new things,4.0,Often
+1175973,NICOLA,Wave1HA,newthings,I've been interested in new things,5.0,All of the time
+1175974,NICOLA,Wave1HA,newthings,I've been interested in new things,9.0,Didn't complete questionnaire
+1175975,NICOLA,Wave1HA,cheerful,I've been feeling cheerful,0.0,No answer
+1175976,NICOLA,Wave1HA,cheerful,I've been feeling cheerful,1.0,None of the time
+1175977,NICOLA,Wave1HA,cheerful,I've been feeling cheerful,2.0,Rarely
+1175978,NICOLA,Wave1HA,cheerful,I've been feeling cheerful,3.0,Some of the time
+1175979,NICOLA,Wave1HA,cheerful,I've been feeling cheerful,4.0,Often
+1175980,NICOLA,Wave1HA,cheerful,I've been feeling cheerful,5.0,All of the time
+1175981,NICOLA,Wave1HA,cheerful,I've been feeling cheerful,9.0,Didn't complete questionnaire
+1175982,NICOLA,Wave1HA,satisfied,I am satisfied with my life (on a scale 1-7,0.0,No answer
+1175983,NICOLA,Wave1HA,satisfied,I am satisfied with my life (on a scale 1-7,9.0,Didn't complete questionnaire
+1175984,NICOLA,Wave1HA,satisfied,I am satisfied with my life (on a scale 1-7,98.0,Don't know
+1175985,NICOLA,Wave1HA,satisfied,I am satisfied with my life (on a scale 1-7,99.0,Refused
+1175986,NICOLA,Wave1HA,highestfvcreading,Highest FVC Reading,,
+1175987,NICOLA,Wave1HA,highestfev1reading,Highest FEV1 Reading,,
+1175988,NICOLA,Wave1HA,hscrp_abbott_codes,CRP Codes,9999.0,Missing data
+1175989,NICOLA,Wave1HA,hscrp_abbott_unit,CRP Unit,,
+1175990,NICOLA,Wave1HA,hscrp_abbott_date,CRP Date,,
+1175991,NICOLA,Wave1HA,cystatin_c_abbott_codes,Cystatin Codes,9999.0,Missing data
+1175992,NICOLA,Wave1HA,cystatin_c_abbott_unit,Cystatin Unit,,
+1175993,NICOLA,Wave1HA,cystatin_c_abbott_date,Cystatin Date,,
+1175994,NICOLA,Wave1HA,testosterone_abbott_codes,Testosterone,9999.0,Missing data
+1175995,NICOLA,Wave1HA,testosterone_abbott_unit,Testosterone Unit,,
+1175996,NICOLA,Wave1HA,testosterone_abbott_date,Testosterone Date,,
+1175997,NICOLA,Wave1HA,shbg_abbott_codes,SHBG Codes,9999.0,Missing data
+1175998,NICOLA,Wave1HA,shbg_abbott_unit,SHBG Unit,,
+1175999,NICOLA,Wave1HA,shbg_abbott_date,SHBG Date,,
+1176000,NICOLA,Wave1HA,ldl_abbott_codes,LDL Codes,9999.0,Missing data
+1176001,NICOLA,Wave1HA,ldl_abbott_unit,LDL Unit,,
+1176002,NICOLA,Wave1HA,ldl_abbott_date,LDL Date,,
+1176003,NICOLA,Wave1HA,hdl_abbott_codes,HDL Codes,9999.0,Missing data
+1176004,NICOLA,Wave1HA,hdl_abbott_unit,HDL Unit,,
+1176005,NICOLA,Wave1HA,hdl_abbott_date,HDL Date,,
+1176006,NICOLA,Wave1HA,lpa_abbott_codes,Lp(a) Codes,9999.0,Missing data
+1176007,NICOLA,Wave1HA,lpa_abbott_unit,Lp(a) Unit,,
+1176008,NICOLA,Wave1HA,lpa_abbott_date,Lp(a) Date,,
+1176009,NICOLA,Wave1HA,triglyceride_abbott_codes,Triglyceride Codes,9999.0,Missing data
+1176010,NICOLA,Wave1HA,triglyceride_abbott_unit,Triglyceride Unit,,
+1176011,NICOLA,Wave1HA,triglyceride_abbott_date,Triglyceride Date,,
+1176012,NICOLA,Wave1HA,vitd_abbott_codes,Vitamin D Codes,9999.0,Missing data
+1176013,NICOLA,Wave1HA,vitd_abbott_unit,Vitamin D Unit,,
+1176014,NICOLA,Wave1HA,vitd_abbott_date,Vitamin D Date,,
+1176015,NICOLA,Wave1HA,creatinine_abbott_codes,Creatinine Codes,9999.0,Missing data
+1176016,NICOLA,Wave1HA,creatinine_abbott_unit,Creatinine Unit,,
+1176017,NICOLA,Wave1HA,creatinine_abbott_date,Creatinine Date,,
+1176018,NICOLA,Wave1HA,glucose_abbott_codes,Glucose Codes,9999.0,Missing data
+1176019,NICOLA,Wave1HA,glucose_abbott_unit,Glucose Unit,,
+1176020,NICOLA,Wave1HA,glucose_abbott_date,Glucose Date,,
+1176021,NICOLA,Wave1HA,apoa1_abbott_codes,ApoA1 Codes,9999.0,Missing data
+1176022,NICOLA,Wave1HA,apoa1_abbott_unit,ApoA1 Unit,,
+1176023,NICOLA,Wave1HA,apoa1_abbott_date,ApoA1 Date,,
+1176024,NICOLA,Wave1HA,apob_abbott_codes,ApoB Codes,9999.0,Missing data
+1176025,NICOLA,Wave1HA,apob_abbott_unit,ApoB Unit,,
+1176026,NICOLA,Wave1HA,apob_abbott_date,ApoB Date,,
+1176027,NICOLA,Wave1HA,chol_abbott_codes,Chol Codes,7777.0,Not Analysed
+1176028,NICOLA,Wave1HA,chol_abbott_codes,Chol Codes,9999.0,Missing data
+1176029,NICOLA,Wave1HA,chol_abbott_unit,Chol Unit,,
+1176030,NICOLA,Wave1HA,chol_abbott_date,Chol Date,,
+1176031,NICOLA,Wave1HA,rf_abbott_codes,RF Codes,7777.0,Not Analysed
+1176032,NICOLA,Wave1HA,rf_abbott_codes,RF Codes,9999.0,Missing data
+1176033,NICOLA,Wave1HA,rf_abbott_unit,RF Unit,,
+1176034,NICOLA,Wave1HA,rf_abbott_date,RF Date,,
+1176035,NICOLA,Wave1HA,alk_p_abbott_codes,Alk_P Codes,7777.0,Not Analysed
+1176036,NICOLA,Wave1HA,alk_p_abbott_codes,Alk_P Codes,9999.0,Missing data
+1176037,NICOLA,Wave1HA,alk_p_abbott_unit,Alk_P Unit,,
+1176038,NICOLA,Wave1HA,alk_p_abbott_date,Alk_P Date,,
+1176039,NICOLA,Wave1HA,cac_abbott_codes,Cac Codes,7777.0,Not Analysed
+1176040,NICOLA,Wave1HA,cac_abbott_codes,Cac Codes,9999.0,Missing data
+1176041,NICOLA,Wave1HA,cac_abbott_unit,Cac Unit,,
+1176042,NICOLA,Wave1HA,cac_abbott_date,Cac Date,,
+1176043,NICOLA,Wave1HA,oestra_abbott_codes,Oestra Codes,7777.0,Not Analysed
+1176044,NICOLA,Wave1HA,oestra_abbott_codes,Oestra Codes,9999.0,Missing data
+1176045,NICOLA,Wave1HA,oestra_abbott_unit,Oestra Unit,,
+1176046,NICOLA,Wave1HA,oestra_abbott_date,Oestra Date,,
+1176047,NICOLA,Wave1HA,tp_abbott_codes,TP Codes,7777.0,Not Analysed
+1176048,NICOLA,Wave1HA,tp_abbott_codes,TP Codes,9999.0,Missing data
+1176049,NICOLA,Wave1HA,tp_abbott_unit,TP Unit,,
+1176050,NICOLA,Wave1HA,tp_abbott_date,TP Date,,
+1176051,NICOLA,Wave1HA,urea_abbott_codes,Urea Codes,7777.0,Not Analysed
+1176052,NICOLA,Wave1HA,urea_abbott_codes,Urea Codes,9999.0,Missing data
+1176053,NICOLA,Wave1HA,urea_abbott_unit,Urea Unit,,
+1176054,NICOLA,Wave1HA,urea_abbott_date,Urea Date,,
+1176055,NICOLA,Wave1HA,phosphate_abbott_codes,Phosphate Codes,7777.0,Not Analysed
+1176056,NICOLA,Wave1HA,phosphate_abbott_codes,Phosphate Codes,9999.0,Missing data
+1176057,NICOLA,Wave1HA,phosphate_abbott_unit,Phosphate Unit,,
+1176058,NICOLA,Wave1HA,phosphate_abbott_date,Phosphate Date,,
+1176059,NICOLA,Wave1HA,ua_abbott_codes,UA Codes,7777.0,Not Analysed
+1176060,NICOLA,Wave1HA,ua_abbott_codes,UA Codes,9999.0,Missing data
+1176061,NICOLA,Wave1HA,ua_abbott_unit,UA Unit,,
+1176062,NICOLA,Wave1HA,ua_abbott_date,UA Date,,
+1176063,NICOLA,Wave1HA,albumin_abbott_codes,Albumin Codes,7777.0,Not Analysed
+1176064,NICOLA,Wave1HA,albumin_abbott_codes,Albumin Codes,9999.0,Missing data
+1176065,NICOLA,Wave1HA,albumin_abbott_unit,Albumin Unit,,
+1176066,NICOLA,Wave1HA,albumin_abbott_date,Albumin Date,,
+1176067,NICOLA,Wave1HA,bil_d_abbott_codes,Bil_D Codes,7777.0,Not Analysed
+1176068,NICOLA,Wave1HA,bil_d_abbott_codes,Bil_D Codes,9999.0,Missing data
+1176069,NICOLA,Wave1HA,bil_d_abbott_unit,Bil_D Unit,,
+1176070,NICOLA,Wave1HA,bil_d_abbott_date,Bil_D Date,,
+1176071,NICOLA,Wave1HA,bili_t_abbott_codes,Bili_T Codes,7777.0,Not Analysed
+1176072,NICOLA,Wave1HA,bili_t_abbott_codes,Bili_T Codes,9999.0,Missing data
+1176073,NICOLA,Wave1HA,bili_t_abbott_unit,Bili_T Unit,,
+1176074,NICOLA,Wave1HA,bili_t_abbott_date,Bili_T Date,,
+1176075,NICOLA,Wave1HA,ggt_abbott_codes,GGT Codes,7777.0,Not Analysed
+1176076,NICOLA,Wave1HA,ggt_abbott_codes,GGT Codes,9999.0,Missing data
+1176077,NICOLA,Wave1HA,ggt_abbott_unit,GGT Unit,,
+1176078,NICOLA,Wave1HA,ggt_abbott_date,GGT Date,,
+1176079,NICOLA,Wave1HA,a_alt_abbott_codes,A_ALT Codes,7777.0,Not Analysed
+1176080,NICOLA,Wave1HA,a_alt_abbott_codes,A_ALT Codes,9999.0,Missing data
+1176081,NICOLA,Wave1HA,a_alt_abbott_unit,A_ALT Unit,,
+1176082,NICOLA,Wave1HA,a_alt_abbott_date,A_ALT Date,,
+1176083,NICOLA,Wave1HA,a_ast_abbott_codes,A_AST Codes,7777.0,Not Analysed
+1176084,NICOLA,Wave1HA,a_ast_abbott_codes,A_AST Codes,9999.0,Missing data
+1176085,NICOLA,Wave1HA,a_ast_abbott_unit,A_AST Unit,,
+1176086,NICOLA,Wave1HA,a_ast_abbott_date,A_AST Date,,
+1176087,NICOLA,Wave1HA,avail_from_dt,,,

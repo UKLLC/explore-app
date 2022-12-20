@@ -1,0 +1,502 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+648459,BIB,CV_W1,study_id_e,,,
+648460,BIB,CV_W1,cohort,Cohort,1.0,BiB
+648461,BIB,CV_W1,cohort,Cohort,2.0,Better Start
+648462,BIB,CV_W1,bibparticipanttype,BiB Participant Type,,
+648463,BIB,CV_W1,ethnicity,Ethnic group combined from different cohort data sources,1.0,White British
+648464,BIB,CV_W1,ethnicity,Ethnic group combined from different cohort data sources,2.0,Pakistani
+648465,BIB,CV_W1,ethnicity,Ethnic group combined from different cohort data sources,3.0,Other
+648466,BIB,CV_W1,country,Country,,
+648467,BIB,CV_W1,region,Region,,
+648468,BIB,CV_W1,imddecile,Index of Multiple Deprivation (IMD) Decile,,
+648469,BIB,CV_W1,hh_relship,What is your current relationship status?,-1.0,Do not wish to answer
+648470,BIB,CV_W1,hh_relship,What is your current relationship status?,1.0,Single
+648471,BIB,CV_W1,hh_relship,What is your current relationship status?,2.0,Married
+648472,BIB,CV_W1,hh_relship,What is your current relationship status?,3.0,Not married but in a relationship
+648473,BIB,CV_W1,hh_living,Are you currently living with your partner?,1.0,Yes
+648474,BIB,CV_W1,hh_living,Are you currently living with your partner?,2.0,No
+648475,BIB,CV_W1,hh_living,Are you currently living with your partner?,3.0,Not applicable - Single
+648476,BIB,CV_W1,hh_nchild,Do any children aged 16 and under live in your home?,0.0,No
+648477,BIB,CV_W1,hh_nchild,Do any children aged 16 and under live in your home?,1.0,Yes
+648478,BIB,CV_W1,hh_nchild_04,How many children aged between 0 and 4 years live in your home?,,
+648479,BIB,CV_W1,hh_nchild_510,How many children aged between 5 and 10 years live in your home?,,
+648480,BIB,CV_W1,hh_nchild_1116,How many children aged between 11 and 16 years live in your home?,,
+648481,BIB,CV_W1,hh_childlw,Does your child (or children) live with you all the time?,0.0,No - shared parenting
+648482,BIB,CV_W1,hh_childlw,Does your child (or children) live with you all the time?,1.0,Yes
+648483,BIB,CV_W1,hh_nadult,How many adults (people aged over 16 years) live in your home?,,
+648484,BIB,CV_W1,hh_nadult_70,How many of these adults are over the age of 70?,,
+648485,BIB,CV_W1,hh_slfisol_any,Has anyone in household been advised by a health professional that they are high,0.0,No
+648486,BIB,CV_W1,hh_slfisol_any,Has anyone in household been advised by a health professional that they are high,1.0,Yes
+648487,BIB,CV_W1,hh_slfisol_resp,Have you been advised by a health professional that they are high risk/ vulnerab,0.0,No
+648488,BIB,CV_W1,hh_slfisol_resp,Have you been advised by a health professional that they are high risk/ vulnerab,1.0,Yes
+648489,BIB,CV_W1,hh_slfisol_oth,Have a person other than you in the household been advised by a health professio,0.0,No
+648490,BIB,CV_W1,hh_slfisol_oth,Have a person other than you in the household been advised by a health professio,1.0,Yes
+648491,BIB,CV_W1,hh_pregyou,Are you currently pregnant?,0.0,No
+648492,BIB,CV_W1,hh_pregyou,Are you currently pregnant?,1.0,Yes
+648493,BIB,CV_W1,hh_pregyou_wks,How many weeks pregnant are you?,,
+648494,BIB,CV_W1,hh_pregoth,Are any other women in your household pregnant?,0.0,No
+648495,BIB,CV_W1,hh_pregoth,Are any other women in your household pregnant?,1.0,Yes
+648496,BIB,CV_W1,hh_pregoth_wks,How many weeks pregnant are they?,,
+648497,BIB,CV_W1,yh_own,Do you (or your household) own or rent the home you live in?,1.0,Own it outright
+648498,BIB,CV_W1,yh_own,Do you (or your household) own or rent the home you live in?,2.0,Buying it with the help of a mortgage/loan
+648499,BIB,CV_W1,yh_own,Do you (or your household) own or rent the home you live in?,3.0,Part own and part rent (shared ownership)
+648500,BIB,CV_W1,yh_own,Do you (or your household) own or rent the home you live in?,4.0,Rent it (includes all those who are on Housing Benefit or Local Housing Allowance)
+648501,BIB,CV_W1,yh_own,Do you (or your household) own or rent the home you live in?,5.0,Live here rent-free (including rent-free in relatives/friends property but excluding squatters)
+648502,BIB,CV_W1,yh_own,Do you (or your household) own or rent the home you live in?,6.0,Squatting
+648503,BIB,CV_W1,yh_own_rent,Who is your landlord?,-2.0,Dont know
+648504,BIB,CV_W1,yh_own_rent,Who is your landlord?,1.0,Private landlord or letting agency
+648505,BIB,CV_W1,yh_own_rent,Who is your landlord?,2.0,"Housing association, housing co-operative, charitable trust"
+648506,BIB,CV_W1,yh_own_rent,Who is your landlord?,3.0,"Local authority, local council"
+648507,BIB,CV_W1,yh_own_rent,Who is your landlord?,4.0,Relative or friend (before you lived here) of a household member
+648508,BIB,CV_W1,yh_own_rent,Who is your landlord?,5.0,Employer (individual) of a household member
+648509,BIB,CV_W1,yh_own_rent,Who is your landlord?,6.0,Employer (company) of a household member
+648510,BIB,CV_W1,yh_own_rent,Who is your landlord?,7.0,Another organisation
+648511,BIB,CV_W1,yh_bdroom,How many bedrooms are there in your home?,,
+648512,BIB,CV_W1,yh_net,Can you access the internet from your home (e.g. broadband / data on phone)?,0.0,No
+648513,BIB,CV_W1,yh_net,Can you access the internet from your home (e.g. broadband / data on phone)?,1.0,Yes
+648514,BIB,CV_W1,yh_rpair,Does your home need any major repairs doing to it right now?,0.0,No
+648515,BIB,CV_W1,yh_rpair,Does your home need any major repairs doing to it right now?,1.0,Yes
+648516,BIB,CV_W1,yh_appl,Are all of your large electrical appliances (e.g. washing machine; fridge) in go,0.0,No
+648517,BIB,CV_W1,yh_appl,Are all of your large electrical appliances (e.g. washing machine; fridge) in go,1.0,Yes
+648518,BIB,CV_W1,yh_damp,Do you have any damp or mould in your home?,0.0,No
+648519,BIB,CV_W1,yh_damp,Do you have any damp or mould in your home?,1.0,Yes
+648520,BIB,CV_W1,yh_vrmin,Do you have trouble with any vermin (mice or other rodents; cockroaches; etc.) i,0.0,No
+648521,BIB,CV_W1,yh_vrmin,Do you have trouble with any vermin (mice or other rodents; cockroaches; etc.) i,1.0,Yes
+648522,BIB,CV_W1,yh_outdr,Does your home have an outdoor space which you and your family can use?,0.0,No
+648523,BIB,CV_W1,yh_outdr,Does your home have an outdoor space which you and your family can use?,1.0,Yes
+648524,BIB,CV_W1,yh_outdr_prvsh,Is your outdoor space private or shared?,1.0,Private
+648525,BIB,CV_W1,yh_outdr_prvsh,Is your outdoor space private or shared?,2.0,Shared
+648526,BIB,CV_W1,yh_outdr_yard,Do you have outside space type: Yard,0.0,No
+648527,BIB,CV_W1,yh_outdr_yard,Do you have outside space type: Yard,1.0,Yes
+648528,BIB,CV_W1,yh_outdr_smlgdn,Do you have outside space type: Small Garden,0.0,No
+648529,BIB,CV_W1,yh_outdr_smlgdn,Do you have outside space type: Small Garden,1.0,Yes
+648530,BIB,CV_W1,yh_outdr_medgdn,Do you have outside space type: Medium Garden,0.0,No
+648531,BIB,CV_W1,yh_outdr_medgdn,Do you have outside space type: Medium Garden,1.0,Yes
+648532,BIB,CV_W1,yh_outdr_lgegdn,Do you have outside space type: Large Garden,0.0,No
+648533,BIB,CV_W1,yh_outdr_lgegdn,Do you have outside space type: Large Garden,1.0,Yes
+648534,BIB,CV_W1,yh_outdr_other,Do you have outside space type: Other,0.0,No
+648535,BIB,CV_W1,yh_outdr_other,Do you have outside space type: Other,1.0,Yes
+648536,BIB,CV_W1,yh_outdr_safe,Is your outdoor space safe for your children to play in?,-2.0,Dont know
+648537,BIB,CV_W1,yh_outdr_safe,Is your outdoor space safe for your children to play in?,0.0,No
+648538,BIB,CV_W1,yh_outdr_safe,Is your outdoor space safe for your children to play in?,1.0,Yes
+648539,BIB,CV_W1,jbsc_kwrker,Is anyone in your home classed as a Key Worker,0.0,No
+648540,BIB,CV_W1,jbsc_kwrker,Is anyone in your home classed as a Key Worker,1.0,Yes
+648541,BIB,CV_W1,jbsc_kwrker_myself,Who is classed as a Key Worker? (choice=Myself),0.0,No
+648542,BIB,CV_W1,jbsc_kwrker_myself,Who is classed as a Key Worker? (choice=Myself),1.0,Yes
+648543,BIB,CV_W1,jbsc_kwrker_partner,Who is classed as a Key Worker? (choice=My partner),0.0,No
+648544,BIB,CV_W1,jbsc_kwrker_partner,Who is classed as a Key Worker? (choice=My partner),1.0,Yes
+648545,BIB,CV_W1,jbsc_kwrker_otherhh,Who is classed as a Key Worker? (choice=Other household member),0.0,No
+648546,BIB,CV_W1,jbsc_kwrker_otherhh,Who is classed as a Key Worker? (choice=Other household member),1.0,Yes
+648547,BIB,CV_W1,jbsc_main,Who is the main earner in the household?,1.0,Me
+648548,BIB,CV_W1,jbsc_main,Who is the main earner in the household?,2.0,My partner
+648549,BIB,CV_W1,jbsc_main,Who is the main earner in the household?,3.0,Other household member
+648550,BIB,CV_W1,jbsc_main,Who is the main earner in the household?,4.0,Me and my partner earn the same amount
+648551,BIB,CV_W1,jbsc_main_crntly,Is the main earner in your household currently...,-2.0,Dont know
+648552,BIB,CV_W1,jbsc_main_crntly,Is the main earner in your household currently...,1.0,Employed
+648553,BIB,CV_W1,jbsc_main_crntly,Is the main earner in your household currently...,2.0,Employed but not working (on furlough)
+648554,BIB,CV_W1,jbsc_main_crntly,Is the main earner in your household currently...,3.0,Self employed and working
+648555,BIB,CV_W1,jbsc_main_crntly,Is the main earner in your household currently...,4.0,Self employed and not working
+648556,BIB,CV_W1,jbsc_main_crntly,Is the main earner in your household currently...,5.0,Unemployed
+648557,BIB,CV_W1,jbsc_main_hmwfh,Are they mainly working from home; or going out to work?,1.0,Working from home
+648558,BIB,CV_W1,jbsc_main_hmwfh,Are they mainly working from home; or going out to work?,2.0,Going out to work
+648559,BIB,CV_W1,jbsc_main_wry_1,I worry about the job security of the main earner,1.0,Strongly disagree
+648560,BIB,CV_W1,jbsc_main_wry_1,I worry about the job security of the main earner,2.0,Disagree
+648561,BIB,CV_W1,jbsc_main_wry_1,I worry about the job security of the main earner,3.0,Neither agree nor disagree
+648562,BIB,CV_W1,jbsc_main_wry_1,I worry about the job security of the main earner,4.0,Agree
+648563,BIB,CV_W1,jbsc_main_wry_1,I worry about the job security of the main earner,5.0,Strongly agree
+648564,BIB,CV_W1,jbsc_main_wry_2,In the next 12 months; do you expect the income of the main earner is likely to ,-2.0,Dont know
+648565,BIB,CV_W1,jbsc_main_wry_2,In the next 12 months; do you expect the income of the main earner is likely to ,0.0,No
+648566,BIB,CV_W1,jbsc_main_wry_2,In the next 12 months; do you expect the income of the main earner is likely to ,1.0,Yes
+648567,BIB,CV_W1,jbsc_main_wry_3,In 12 months time; do you expect the main earner to still have their job?,-2.0,Dont know
+648568,BIB,CV_W1,jbsc_main_wry_3,In 12 months time; do you expect the main earner to still have their job?,0.0,No
+648569,BIB,CV_W1,jbsc_main_wry_3,In 12 months time; do you expect the main earner to still have their job?,1.0,Yes
+648570,BIB,CV_W1,hhe_buyfood,I have been able to buy the food I needed in the shops.,-2.0,Dont know
+648571,BIB,CV_W1,hhe_buyfood,I have been able to buy the food I needed in the shops.,-1.0,Do not wish to answer
+648572,BIB,CV_W1,hhe_buyfood,I have been able to buy the food I needed in the shops.,1.0,Never true
+648573,BIB,CV_W1,hhe_buyfood,I have been able to buy the food I needed in the shops.,2.0,Sometimes true
+648574,BIB,CV_W1,hhe_buyfood,I have been able to buy the food I needed in the shops.,3.0,Often true
+648575,BIB,CV_W1,hhe_ddntlast,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,-2.0,Dont know
+648576,BIB,CV_W1,hhe_ddntlast,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,-1.0,Do not wish to answer
+648577,BIB,CV_W1,hhe_ddntlast,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,1.0,Never true
+648578,BIB,CV_W1,hhe_ddntlast,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,2.0,Sometimes true
+648579,BIB,CV_W1,hhe_ddntlast,The food that (I/we) bought just didnt last; and (I/we) didnt have money to get ,3.0,Often true
+648580,BIB,CV_W1,hhe_balancd,(I/we) couldnt afford to eat balanced meals. ,-2.0,Dont know
+648581,BIB,CV_W1,hhe_balancd,(I/we) couldnt afford to eat balanced meals. ,-1.0,Do not wish to answer
+648582,BIB,CV_W1,hhe_balancd,(I/we) couldnt afford to eat balanced meals. ,1.0,Never true
+648583,BIB,CV_W1,hhe_balancd,(I/we) couldnt afford to eat balanced meals. ,2.0,Sometimes true
+648584,BIB,CV_W1,hhe_balancd,(I/we) couldnt afford to eat balanced meals. ,3.0,Often true
+648585,BIB,CV_W1,hhe_skip,Did you or other adults in your household ever cut the size of your meals or ski,-2.0,Dont know
+648586,BIB,CV_W1,hhe_skip,Did you or other adults in your household ever cut the size of your meals or ski,-1.0,Do not wish to answer
+648587,BIB,CV_W1,hhe_skip,Did you or other adults in your household ever cut the size of your meals or ski,0.0,No
+648588,BIB,CV_W1,hhe_skip,Did you or other adults in your household ever cut the size of your meals or ski,1.0,Yes
+648589,BIB,CV_W1,hhe_skipoftn,How often did you or other adults cut the size of meals or skip meals?,-2.0,Dont know
+648590,BIB,CV_W1,hhe_skipoftn,How often did you or other adults cut the size of meals or skip meals?,-1.0,Do not wish to answer
+648591,BIB,CV_W1,hhe_skipoftn,How often did you or other adults cut the size of meals or skip meals?,1.0,Only 1 or 2 days
+648592,BIB,CV_W1,hhe_skipoftn,How often did you or other adults cut the size of meals or skip meals?,2.0,Some days but not every day
+648593,BIB,CV_W1,hhe_skipoftn,How often did you or other adults cut the size of meals or skip meals?,3.0,Almost every day
+648594,BIB,CV_W1,hhe_eatless,Did you or other adults ever eat less than you felt you should because there was,-2.0,Dont know
+648595,BIB,CV_W1,hhe_eatless,Did you or other adults ever eat less than you felt you should because there was,-1.0,Do not wish to answer
+648596,BIB,CV_W1,hhe_eatless,Did you or other adults ever eat less than you felt you should because there was,0.0,No
+648597,BIB,CV_W1,hhe_eatless,Did you or other adults ever eat less than you felt you should because there was,1.0,Yes
+648598,BIB,CV_W1,hhe_hungry,Were you ever hungry but didnt eat because there wasnt enough money for food?,-2.0,Dont know
+648599,BIB,CV_W1,hhe_hungry,Were you ever hungry but didnt eat because there wasnt enough money for food?,-1.0,Do not wish to answer
+648600,BIB,CV_W1,hhe_hungry,Were you ever hungry but didnt eat because there wasnt enough money for food?,0.0,No
+648601,BIB,CV_W1,hhe_hungry,Were you ever hungry but didnt eat because there wasnt enough money for food?,1.0,Yes
+648602,BIB,CV_W1,hhe_finannow,How well would you say you are managing financially right now?,-2.0,Dont know
+648603,BIB,CV_W1,hhe_finannow,How well would you say you are managing financially right now?,-1.0,Do not wish to answer
+648604,BIB,CV_W1,hhe_finannow,How well would you say you are managing financially right now?,1.0,Living comfortably
+648605,BIB,CV_W1,hhe_finannow,How well would you say you are managing financially right now?,2.0,Doing alright
+648606,BIB,CV_W1,hhe_finannow,How well would you say you are managing financially right now?,3.0,Just about getting by
+648607,BIB,CV_W1,hhe_finannow,How well would you say you are managing financially right now?,4.0,Finding it quite difficult
+648608,BIB,CV_W1,hhe_finannow,How well would you say you are managing financially right now?,5.0,Finding it very difficult
+648609,BIB,CV_W1,hhe_finan3m,Compared to 3 months ago; how would you say you are doing financially right now?,-2.0,Dont know
+648610,BIB,CV_W1,hhe_finan3m,Compared to 3 months ago; how would you say you are doing financially right now?,-1.0,Do not wish to answer
+648611,BIB,CV_W1,hhe_finan3m,Compared to 3 months ago; how would you say you are doing financially right now?,1.0,Better off
+648612,BIB,CV_W1,hhe_finan3m,Compared to 3 months ago; how would you say you are doing financially right now?,2.0,About the same
+648613,BIB,CV_W1,hhe_finan3m,Compared to 3 months ago; how would you say you are doing financially right now?,3.0,Worse off
+648614,BIB,CV_W1,hhe_bills,Sometimes people are not able to pay every bill when it is due. Are you currentl,-2.0,Dont know
+648615,BIB,CV_W1,hhe_bills,Sometimes people are not able to pay every bill when it is due. Are you currentl,-1.0,Do not wish to answer
+648616,BIB,CV_W1,hhe_bills,Sometimes people are not able to pay every bill when it is due. Are you currentl,0.0,No
+648617,BIB,CV_W1,hhe_bills,Sometimes people are not able to pay every bill when it is due. Are you currentl,1.0,Yes
+648618,BIB,CV_W1,hhe_relief,Did you know that some households can apply to take mortgage holidays or rent re,0.0,No
+648619,BIB,CV_W1,hhe_relief,Did you know that some households can apply to take mortgage holidays or rent re,1.0,Yes
+648620,BIB,CV_W1,hhe_relief_tkn,Are you taking the mortgage holiday or the rent relief loan at the moment?,-2.0,Dont know
+648621,BIB,CV_W1,hhe_relief_tkn,Are you taking the mortgage holiday or the rent relief loan at the moment?,-1.0,Do not wish to answer
+648622,BIB,CV_W1,hhe_relief_tkn,Are you taking the mortgage holiday or the rent relief loan at the moment?,0.0,No
+648623,BIB,CV_W1,hhe_relief_tkn,Are you taking the mortgage holiday or the rent relief loan at the moment?,1.0,Yes
+648624,BIB,CV_W1,hhe_relief_nxt,Do you think you will take the mortgage holiday / rent relief in the next month?,-2.0,Dont know
+648625,BIB,CV_W1,hhe_relief_nxt,Do you think you will take the mortgage holiday / rent relief in the next month?,-1.0,Do not wish to answer
+648626,BIB,CV_W1,hhe_relief_nxt,Do you think you will take the mortgage holiday / rent relief in the next month?,0.0,No
+648627,BIB,CV_W1,hhe_relief_nxt,Do you think you will take the mortgage holiday / rent relief in the next month?,1.0,Yes
+648628,BIB,CV_W1,hhe_wrypay,I worry about paying the rent / mortgage,1.0,Strongly disagree
+648629,BIB,CV_W1,hhe_wrypay,I worry about paying the rent / mortgage,2.0,Disagree
+648630,BIB,CV_W1,hhe_wrypay,I worry about paying the rent / mortgage,3.0,Neither agree nor disagree
+648631,BIB,CV_W1,hhe_wrypay,I worry about paying the rent / mortgage,4.0,Agree
+648632,BIB,CV_W1,hhe_wrypay,I worry about paying the rent / mortgage,5.0,Strongly agree
+648633,BIB,CV_W1,hhe_wryevic,I worry about getting evicted / having my home repossessed,1.0,Strongly disagree
+648634,BIB,CV_W1,hhe_wryevic,I worry about getting evicted / having my home repossessed,2.0,Disagree
+648635,BIB,CV_W1,hhe_wryevic,I worry about getting evicted / having my home repossessed,3.0,Neither agree nor disagree
+648636,BIB,CV_W1,hhe_wryevic,I worry about getting evicted / having my home repossessed,4.0,Agree
+648637,BIB,CV_W1,hhe_wryevic,I worry about getting evicted / having my home repossessed,5.0,Strongly agree
+648638,BIB,CV_W1,fh_slfisol_nw,Is your household currently self isolating (that is; not leaving the house at al,0.0,No
+648639,BIB,CV_W1,fh_slfisol_nw,Is your household currently self isolating (that is; not leaving the house at al,1.0,Yes
+648640,BIB,CV_W1,fh_slfisol_nw_why1,Why are you self isolating? (choice=Contact with someone with symptoms of corona,0.0,No
+648641,BIB,CV_W1,fh_slfisol_nw_why1,Why are you self isolating? (choice=Contact with someone with symptoms of corona,1.0,Yes
+648642,BIB,CV_W1,fh_slfisol_nw_why2,Why are you self isolating? (choice=Had coronavirus symptoms yourself),0.0,No
+648643,BIB,CV_W1,fh_slfisol_nw_why2,Why are you self isolating? (choice=Had coronavirus symptoms yourself),1.0,Yes
+648644,BIB,CV_W1,fh_slfisol_nw_why3,Why are you self isolating? (choice=Someone in the household had symptoms of cor,0.0,No
+648645,BIB,CV_W1,fh_slfisol_nw_why3,Why are you self isolating? (choice=Someone in the household had symptoms of cor,1.0,Yes
+648646,BIB,CV_W1,fh_slfisol_nw_why4,Why are you self isolating? (choice=To protect a vulnerable person in the househ,0.0,No
+648647,BIB,CV_W1,fh_slfisol_nw_why4,Why are you self isolating? (choice=To protect a vulnerable person in the househ,1.0,Yes
+648648,BIB,CV_W1,fh_slfisol_nw_why5,Why are you self isolating? (choice=Other),0.0,No
+648649,BIB,CV_W1,fh_slfisol_nw_why5,Why are you self isolating? (choice=Other),1.0,Yes
+648650,BIB,CV_W1,fh_slfisol_past,Has your household had to self-isolate for any reason (that is; not leaving the ,0.0,No
+648651,BIB,CV_W1,fh_slfisol_past,Has your household had to self-isolate for any reason (that is; not leaving the ,1.0,Yes
+648652,BIB,CV_W1,fh_slfisol_past_why1,What was the reason you had to self-isolate? (choice=Contact with someone with s,0.0,No
+648653,BIB,CV_W1,fh_slfisol_past_why1,What was the reason you had to self-isolate? (choice=Contact with someone with s,1.0,Yes
+648654,BIB,CV_W1,fh_slfisol_past_why2,What was the reason you had to self-isolate? (choice=Had coronavirus symptoms yo,0.0,No
+648655,BIB,CV_W1,fh_slfisol_past_why2,What was the reason you had to self-isolate? (choice=Had coronavirus symptoms yo,1.0,Yes
+648656,BIB,CV_W1,fh_slfisol_past_why3,What was the reason you had to self-isolate? (choice=Someone in the household ha,0.0,No
+648657,BIB,CV_W1,fh_slfisol_past_why3,What was the reason you had to self-isolate? (choice=Someone in the household ha,1.0,Yes
+648658,BIB,CV_W1,fh_slfisol_past_why4,What was the reason you had to self-isolate? (choice=To protect a vulnerable per,0.0,No
+648659,BIB,CV_W1,fh_slfisol_past_why4,What was the reason you had to self-isolate? (choice=To protect a vulnerable per,1.0,Yes
+648660,BIB,CV_W1,fh_slfisol_past_why5,What was the reason you had to self-isolate? (choice=Other),0.0,No
+648661,BIB,CV_W1,fh_slfisol_past_why5,What was the reason you had to self-isolate? (choice=Other),1.0,Yes
+648662,BIB,CV_W1,fh_slfisol_past_days,How many days did you self-isolate for?,,
+648663,BIB,CV_W1,fh_smoke,Do you smoke?,0.0,No
+648664,BIB,CV_W1,fh_smoke,Do you smoke?,1.0,Yes
+648665,BIB,CV_W1,fh_smoke_hwmch,Over the past week have you smoked...,0.0,About the same
+648666,BIB,CV_W1,fh_smoke_hwmch,Over the past week have you smoked...,1.0,Less than usual
+648667,BIB,CV_W1,fh_smoke_hwmch,Over the past week have you smoked...,2.0,More than usual
+648668,BIB,CV_W1,fh_ecig,Do you vape or use e-cigarettes?,0.0,No
+648669,BIB,CV_W1,fh_ecig,Do you vape or use e-cigarettes?,1.0,Yes
+648670,BIB,CV_W1,fh_ecig_hwmch,Over the past week have you vaped or used e-cigarettes...,0.0,About the same
+648671,BIB,CV_W1,fh_ecig_hwmch,Over the past week have you vaped or used e-cigarettes...,1.0,Less than usual
+648672,BIB,CV_W1,fh_ecig_hwmch,Over the past week have you vaped or used e-cigarettes...,2.0,More than usual
+648673,BIB,CV_W1,fh_alc,Do you drink alcohol?,0.0,No
+648674,BIB,CV_W1,fh_alc,Do you drink alcohol?,1.0,Yes
+648675,BIB,CV_W1,fh_alc_hwmch,Over the past week have you drunk...,0.0,About the same
+648676,BIB,CV_W1,fh_alc_hwmch,Over the past week have you drunk...,1.0,Less than usual
+648677,BIB,CV_W1,fh_alc_hwmch,Over the past week have you drunk...,2.0,More than usual
+648678,BIB,CV_W1,fh_feeling,Which of the following best describes how youve been feeling over the past week?,0.0,I do not worry about my health
+648679,BIB,CV_W1,fh_feeling,Which of the following best describes how youve been feeling over the past week?,1.0,I occasionally worry about my health
+648680,BIB,CV_W1,fh_feeling,Which of the following best describes how youve been feeling over the past week?,2.0,I spend much of my time worrying about my health
+648681,BIB,CV_W1,fh_feeling,Which of the following best describes how youve been feeling over the past week?,3.0,I spend most of my time worrying about health
+648682,BIB,CV_W1,fh_genhealth,How would you describe your health generally?,-2.0,Dont know
+648683,BIB,CV_W1,fh_genhealth,How would you describe your health generally?,-1.0,Do not wish to answer
+648684,BIB,CV_W1,fh_genhealth,How would you describe your health generally?,1.0,Excellent
+648685,BIB,CV_W1,fh_genhealth,How would you describe your health generally?,2.0,Very good
+648686,BIB,CV_W1,fh_genhealth,How would you describe your health generally?,3.0,Good
+648687,BIB,CV_W1,fh_genhealth,How would you describe your health generally?,4.0,Fair
+648688,BIB,CV_W1,fh_genhealth,How would you describe your health generally?,5.0,Poor
+648689,BIB,CV_W1,fh_phq_1,Little interest or pleasure in doing things,0.0,Not at all
+648690,BIB,CV_W1,fh_phq_1,Little interest or pleasure in doing things,1.0,Several days
+648691,BIB,CV_W1,fh_phq_1,Little interest or pleasure in doing things,2.0,More than half the days
+648692,BIB,CV_W1,fh_phq_1,Little interest or pleasure in doing things,3.0,Nearly every day
+648693,BIB,CV_W1,fh_phq_2,Feeling down; depressed; or hopeless,0.0,Not at all
+648694,BIB,CV_W1,fh_phq_2,Feeling down; depressed; or hopeless,1.0,Several days
+648695,BIB,CV_W1,fh_phq_2,Feeling down; depressed; or hopeless,2.0,More than half the days
+648696,BIB,CV_W1,fh_phq_2,Feeling down; depressed; or hopeless,3.0,Nearly every day
+648697,BIB,CV_W1,fh_phq_3,Trouble falling or staying asleep; or sleeping too much,0.0,Not at all
+648698,BIB,CV_W1,fh_phq_3,Trouble falling or staying asleep; or sleeping too much,1.0,Several days
+648699,BIB,CV_W1,fh_phq_3,Trouble falling or staying asleep; or sleeping too much,2.0,More than half the days
+648700,BIB,CV_W1,fh_phq_3,Trouble falling or staying asleep; or sleeping too much,3.0,Nearly every day
+648701,BIB,CV_W1,fh_phq_4,Feeling tired or having little energy,0.0,Not at all
+648702,BIB,CV_W1,fh_phq_4,Feeling tired or having little energy,1.0,Several days
+648703,BIB,CV_W1,fh_phq_4,Feeling tired or having little energy,2.0,More than half the days
+648704,BIB,CV_W1,fh_phq_4,Feeling tired or having little energy,3.0,Nearly every day
+648705,BIB,CV_W1,fh_phq_5,Poor appetite or overeating,0.0,Not at all
+648706,BIB,CV_W1,fh_phq_5,Poor appetite or overeating,1.0,Several days
+648707,BIB,CV_W1,fh_phq_5,Poor appetite or overeating,2.0,More than half the days
+648708,BIB,CV_W1,fh_phq_5,Poor appetite or overeating,3.0,Nearly every day
+648709,BIB,CV_W1,fh_phq_6,Feeling bad about yourself,0.0,Not at all
+648710,BIB,CV_W1,fh_phq_6,Feeling bad about yourself,1.0,Several days
+648711,BIB,CV_W1,fh_phq_6,Feeling bad about yourself,2.0,More than half the days
+648712,BIB,CV_W1,fh_phq_6,Feeling bad about yourself,3.0,Nearly every day
+648713,BIB,CV_W1,fh_phq_7,Trouble concentrating on things; such as reading the newspaper or watching telev,0.0,Not at all
+648714,BIB,CV_W1,fh_phq_7,Trouble concentrating on things; such as reading the newspaper or watching telev,1.0,Several days
+648715,BIB,CV_W1,fh_phq_7,Trouble concentrating on things; such as reading the newspaper or watching telev,2.0,More than half the days
+648716,BIB,CV_W1,fh_phq_7,Trouble concentrating on things; such as reading the newspaper or watching telev,3.0,Nearly every day
+648717,BIB,CV_W1,fh_phq_8,Moving or speaking so slowly that other people could have noticed? Or the opposi,0.0,Not at all
+648718,BIB,CV_W1,fh_phq_8,Moving or speaking so slowly that other people could have noticed? Or the opposi,1.0,Several days
+648719,BIB,CV_W1,fh_phq_8,Moving or speaking so slowly that other people could have noticed? Or the opposi,2.0,More than half the days
+648720,BIB,CV_W1,fh_phq_8,Moving or speaking so slowly that other people could have noticed? Or the opposi,3.0,Nearly every day
+648721,BIB,CV_W1,fh_phq_hwdiff,If you checked off any problems; how difficult have these problems made it for y,0.0,Not at all
+648722,BIB,CV_W1,fh_phq_hwdiff,If you checked off any problems; how difficult have these problems made it for y,1.0,Somewhat difficult
+648723,BIB,CV_W1,fh_phq_hwdiff,If you checked off any problems; how difficult have these problems made it for y,2.0,Very difficult
+648724,BIB,CV_W1,fh_phq_hwdiff,If you checked off any problems; how difficult have these problems made it for y,3.0,Extremely difficult
+648725,BIB,CV_W1,fh_phq_score,PHQ8  Total Score,,
+648726,BIB,CV_W1,fh_phq_group,PHQ8  Total Score - Grouped,1.0,None
+648727,BIB,CV_W1,fh_phq_group,PHQ8  Total Score - Grouped,2.0,Mild
+648728,BIB,CV_W1,fh_phq_group,PHQ8  Total Score - Grouped,3.0,Moderate
+648729,BIB,CV_W1,fh_phq_group,PHQ8  Total Score - Grouped,4.0,Moderately severe
+648730,BIB,CV_W1,fh_phq_group,PHQ8  Total Score - Grouped,5.0,Severe
+648731,BIB,CV_W1,fh_gad_1,Feeling nervous; anxious or on an edge?,0.0,Not at all
+648732,BIB,CV_W1,fh_gad_1,Feeling nervous; anxious or on an edge?,1.0,Several days
+648733,BIB,CV_W1,fh_gad_1,Feeling nervous; anxious or on an edge?,2.0,More than half the days
+648734,BIB,CV_W1,fh_gad_1,Feeling nervous; anxious or on an edge?,3.0,Nearly every day
+648735,BIB,CV_W1,fh_gad_2,Not being able to stop or control worrying?,0.0,Not at all
+648736,BIB,CV_W1,fh_gad_2,Not being able to stop or control worrying?,1.0,Several days
+648737,BIB,CV_W1,fh_gad_2,Not being able to stop or control worrying?,2.0,More than half the days
+648738,BIB,CV_W1,fh_gad_2,Not being able to stop or control worrying?,3.0,Nearly every day
+648739,BIB,CV_W1,fh_gad_3,Worrying too much about different things?,0.0,Not at all
+648740,BIB,CV_W1,fh_gad_3,Worrying too much about different things?,1.0,Several days
+648741,BIB,CV_W1,fh_gad_3,Worrying too much about different things?,2.0,More than half the days
+648742,BIB,CV_W1,fh_gad_3,Worrying too much about different things?,3.0,Nearly every day
+648743,BIB,CV_W1,fh_gad_4,Trouble relaxing?,0.0,Not at all
+648744,BIB,CV_W1,fh_gad_4,Trouble relaxing?,1.0,Several days
+648745,BIB,CV_W1,fh_gad_4,Trouble relaxing?,2.0,More than half the days
+648746,BIB,CV_W1,fh_gad_4,Trouble relaxing?,3.0,Nearly every day
+648747,BIB,CV_W1,fh_gad_5,Being so restless that it is hard to sit still?,0.0,Not at all
+648748,BIB,CV_W1,fh_gad_5,Being so restless that it is hard to sit still?,1.0,Several days
+648749,BIB,CV_W1,fh_gad_5,Being so restless that it is hard to sit still?,2.0,More than half the days
+648750,BIB,CV_W1,fh_gad_5,Being so restless that it is hard to sit still?,3.0,Nearly every day
+648751,BIB,CV_W1,fh_gad_6,Becoming easily annoyed or irritable?,0.0,Not at all
+648752,BIB,CV_W1,fh_gad_6,Becoming easily annoyed or irritable?,1.0,Several days
+648753,BIB,CV_W1,fh_gad_6,Becoming easily annoyed or irritable?,2.0,More than half the days
+648754,BIB,CV_W1,fh_gad_6,Becoming easily annoyed or irritable?,3.0,Nearly every day
+648755,BIB,CV_W1,fh_gad_7,Feeling afraid as if something awful might happen?,0.0,Not at all
+648756,BIB,CV_W1,fh_gad_7,Feeling afraid as if something awful might happen?,1.0,Several days
+648757,BIB,CV_W1,fh_gad_7,Feeling afraid as if something awful might happen?,2.0,More than half the days
+648758,BIB,CV_W1,fh_gad_7,Feeling afraid as if something awful might happen?,3.0,Nearly every day
+648759,BIB,CV_W1,fh_gad_score,GAD 7  Total Score,,
+648760,BIB,CV_W1,fh_gad_group,GAD 7  Total Score - Grouped,1.0,None
+648761,BIB,CV_W1,fh_gad_group,GAD 7  Total Score - Grouped,2.0,Mild
+648762,BIB,CV_W1,fh_gad_group,GAD 7  Total Score - Grouped,3.0,Moderate
+648763,BIB,CV_W1,fh_gad_group,GAD 7  Total Score - Grouped,4.0,Severe
+648764,BIB,CV_W1,as_gp,Your doctor (GP) or nurse,0.0,No
+648765,BIB,CV_W1,as_gp,Your doctor (GP) or nurse,1.0,Yes
+648766,BIB,CV_W1,as_acc_gp,Were you able to get an appointment with your GP or nurse?,0.0,No
+648767,BIB,CV_W1,as_acc_gp,Were you able to get an appointment with your GP or nurse?,1.0,Yes
+648768,BIB,CV_W1,as_acc_gp,Were you able to get an appointment with your GP or nurse?,2.0,Havent tried
+648769,BIB,CV_W1,as_acc_gp_mode,Was the appointment with your GP or nurse in person or over the phone?,1.0,In person
+648770,BIB,CV_W1,as_acc_gp_mode,Was the appointment with your GP or nurse in person or over the phone?,2.0,Phone
+648771,BIB,CV_W1,as_gp_satis,Did you receive the support you needed?,0.0,No
+648772,BIB,CV_W1,as_gp_satis,Did you receive the support you needed?,1.0,Definitely
+648773,BIB,CV_W1,as_gp_satis,Did you receive the support you needed?,2.0,Mostly
+648774,BIB,CV_W1,as_111,NHS 111 by telephone or online,0.0,No
+648775,BIB,CV_W1,as_111,NHS 111 by telephone or online,1.0,Yes
+648776,BIB,CV_W1,as_acc_111,Were you able to speak to someone; or gain advice online through NHS 111?,0.0,No
+648777,BIB,CV_W1,as_acc_111,Were you able to speak to someone; or gain advice online through NHS 111?,1.0,Yes
+648778,BIB,CV_W1,as_acc_111,Were you able to speak to someone; or gain advice online through NHS 111?,2.0,Havent tried
+648779,BIB,CV_W1,as_111_satis,Did you receive the support you needed?,0.0,No
+648780,BIB,CV_W1,as_111_satis,Did you receive the support you needed?,1.0,Definitely
+648781,BIB,CV_W1,as_111_satis,Did you receive the support you needed?,2.0,Mostly
+648782,BIB,CV_W1,as_ae,Health emergency services (A&E) ,0.0,No
+648783,BIB,CV_W1,as_ae,Health emergency services (A&E) ,1.0,Yes
+648784,BIB,CV_W1,as_acc_ae,Were you able to access emergency care?,0.0,No
+648785,BIB,CV_W1,as_acc_ae,Were you able to access emergency care?,1.0,Yes
+648786,BIB,CV_W1,as_acc_ae,Were you able to access emergency care?,2.0,Havent tried
+648787,BIB,CV_W1,as_ae_satis,Did you receive the support you needed?,0.0,No
+648788,BIB,CV_W1,as_ae_satis,Did you receive the support you needed?,1.0,Definitely
+648789,BIB,CV_W1,as_ae_satis,Did you receive the support you needed?,2.0,Mostly
+648790,BIB,CV_W1,as_spec,A specialist (consultant) doctor or specialist clinic (hospital outpatient) appo,0.0,No
+648791,BIB,CV_W1,as_spec,A specialist (consultant) doctor or specialist clinic (hospital outpatient) appo,1.0,Yes
+648792,BIB,CV_W1,as_acc_spec,Were you able to access specialist support?,0.0,No
+648793,BIB,CV_W1,as_acc_spec,Were you able to access specialist support?,1.0,Yes
+648794,BIB,CV_W1,as_acc_spec,Were you able to access specialist support?,2.0,Havent tried
+648795,BIB,CV_W1,as_acc_spec_mode,Was specialist support given in person or over the phone?,1.0,In person
+648796,BIB,CV_W1,as_acc_spec_mode,Was specialist support given in person or over the phone?,2.0,Phone
+648797,BIB,CV_W1,as_spec_satis,Did you receive the support you needed?,0.0,No
+648798,BIB,CV_W1,as_spec_satis,Did you receive the support you needed?,1.0,Definitely
+648799,BIB,CV_W1,as_spec_satis,Did you receive the support you needed?,2.0,Mostly
+648800,BIB,CV_W1,as_mh,Mental health services,0.0,No
+648801,BIB,CV_W1,as_mh,Mental health services,1.0,Yes
+648802,BIB,CV_W1,as_acc_mh,Were you able to access support from a mental health service?,0.0,No
+648803,BIB,CV_W1,as_acc_mh,Were you able to access support from a mental health service?,1.0,Yes
+648804,BIB,CV_W1,as_acc_mh,Were you able to access support from a mental health service?,2.0,Havent tried
+648805,BIB,CV_W1,as_acc_mh_mode,Was mental health support given in person or over the phone?,1.0,In person
+648806,BIB,CV_W1,as_acc_mh_mode,Was mental health support given in person or over the phone?,2.0,Phone
+648807,BIB,CV_W1,as_mh_satis,Did you receive the support you needed?,0.0,No
+648808,BIB,CV_W1,as_mh_satis,Did you receive the support you needed?,1.0,Definitely
+648809,BIB,CV_W1,as_mh_satis,Did you receive the support you needed?,2.0,Mostly
+648810,BIB,CV_W1,as_mdwife,A midwife,0.0,No
+648811,BIB,CV_W1,as_mdwife,A midwife,1.0,Yes
+648812,BIB,CV_W1,as_acc_mdwife,Were you able to access support from a midwife?,0.0,No
+648813,BIB,CV_W1,as_acc_mdwife,Were you able to access support from a midwife?,1.0,Yes
+648814,BIB,CV_W1,as_acc_mdwife,Were you able to access support from a midwife?,2.0,Havent tried
+648815,BIB,CV_W1,as_acc_mdwife_mode,Did the midwife provide support in person or over the phone?,1.0,In person
+648816,BIB,CV_W1,as_acc_mdwife_mode,Did the midwife provide support in person or over the phone?,2.0,Phone
+648817,BIB,CV_W1,as_mdwife_satis,Did you receive the support you needed?,0.0,No
+648818,BIB,CV_W1,as_mdwife_satis,Did you receive the support you needed?,1.0,Definitely
+648819,BIB,CV_W1,as_mdwife_satis,Did you receive the support you needed?,2.0,Mostly
+648820,BIB,CV_W1,as_hvsn,A health visitor or school nurse,0.0,No
+648821,BIB,CV_W1,as_hvsn,A health visitor or school nurse,1.0,Yes
+648822,BIB,CV_W1,as_acc_hvsn,Were you able to access support from a health visitor or school nurse?,0.0,No
+648823,BIB,CV_W1,as_acc_hvsn,Were you able to access support from a health visitor or school nurse?,1.0,Yes
+648824,BIB,CV_W1,as_acc_hvsn,Were you able to access support from a health visitor or school nurse?,2.0,Havent tried
+648825,BIB,CV_W1,as_acc_hvsn_mode,Did the health visitor or school nurse provide support in person or over the pho,1.0,In person
+648826,BIB,CV_W1,as_acc_hvsn_mode,Did the health visitor or school nurse provide support in person or over the pho,2.0,Phone
+648827,BIB,CV_W1,as_hvsn_satis,Did you receive the support you needed?,0.0,No
+648828,BIB,CV_W1,as_hvsn_satis,Did you receive the support you needed?,1.0,Definitely
+648829,BIB,CV_W1,as_hvsn_satis,Did you receive the support you needed?,2.0,Mostly
+648830,BIB,CV_W1,as_ehss,Early Help or social services,0.0,No
+648831,BIB,CV_W1,as_ehss,Early Help or social services,1.0,Yes
+648832,BIB,CV_W1,as_acc_ehss,Were you able to access support from Early Help or social services?,0.0,No
+648833,BIB,CV_W1,as_acc_ehss,Were you able to access support from Early Help or social services?,1.0,Yes
+648834,BIB,CV_W1,as_acc_ehss,Were you able to access support from Early Help or social services?,2.0,Havent tried
+648835,BIB,CV_W1,as_acc_ehss_mode,Was support from Early Help or social services provided in person or over the ph,1.0,In person
+648836,BIB,CV_W1,as_acc_ehss_mode,Was support from Early Help or social services provided in person or over the ph,2.0,Phone
+648837,BIB,CV_W1,as_ehss_satis,Did you receive the support you needed?,0.0,No
+648838,BIB,CV_W1,as_ehss_satis,Did you receive the support you needed?,1.0,Definitely
+648839,BIB,CV_W1,as_ehss_satis,Did you receive the support you needed?,2.0,Mostly
+648840,BIB,CV_W1,as_pharm,Pharmacy services,0.0,No
+648841,BIB,CV_W1,as_pharm,Pharmacy services,1.0,Yes
+648842,BIB,CV_W1,as_acc_pharm,Were you able to access support from a pharmacy?,0.0,No
+648843,BIB,CV_W1,as_acc_pharm,Were you able to access support from a pharmacy?,1.0,Yes
+648844,BIB,CV_W1,as_acc_pharm,Were you able to access support from a pharmacy?,2.0,Havent tried
+648845,BIB,CV_W1,as_acc_pharm_mode,Was pharmacy support given in person or over the phone?,1.0,In person
+648846,BIB,CV_W1,as_acc_pharm_mode,Was pharmacy support given in person or over the phone?,2.0,Phone
+648847,BIB,CV_W1,as_pharm_satis,Did you receive the support you needed?,0.0,No
+648848,BIB,CV_W1,as_pharm_satis,Did you receive the support you needed?,1.0,Definitely
+648849,BIB,CV_W1,as_pharm_satis,Did you receive the support you needed?,2.0,Mostly
+648850,BIB,CV_W1,as_othr,Other services e.g. charity/volunteer support,0.0,No
+648851,BIB,CV_W1,as_othr,Other services e.g. charity/volunteer support,1.0,Yes
+648852,BIB,CV_W1,as_acc_othr,Were you able to access support from a charity or voluntary organisation?,0.0,No
+648853,BIB,CV_W1,as_acc_othr,Were you able to access support from a charity or voluntary organisation?,1.0,Yes
+648854,BIB,CV_W1,as_acc_othr,Were you able to access support from a charity or voluntary organisation?,2.0,Havent tried
+648855,BIB,CV_W1,as_acc_othr_mode,Did the charity or voluntary organisation provide support in person or over the ,1.0,In person
+648856,BIB,CV_W1,as_acc_othr_mode,Did the charity or voluntary organisation provide support in person or over the ,2.0,Phone
+648857,BIB,CV_W1,as_othr_satis,Did you receive the support you needed?,0.0,No
+648858,BIB,CV_W1,as_othr_satis,Did you receive the support you needed?,1.0,Definitely
+648859,BIB,CV_W1,as_othr_satis,Did you receive the support you needed?,2.0,Mostly
+648860,BIB,CV_W1,fl_physact,How often do you currently do any kind of physical activity?,1.0,Never
+648861,BIB,CV_W1,fl_physact,How often do you currently do any kind of physical activity?,2.0,1 or 2 days a week
+648862,BIB,CV_W1,fl_physact,How often do you currently do any kind of physical activity?,3.0,Most days
+648863,BIB,CV_W1,fl_physact,How often do you currently do any kind of physical activity?,4.0,Every day
+648864,BIB,CV_W1,fl_physact_hwmch,Is this more; less or about the same as you did before lockdown?,1.0,Less than before
+648865,BIB,CV_W1,fl_physact_hwmch,Is this more; less or about the same as you did before lockdown?,2.0,About the same as before
+648866,BIB,CV_W1,fl_physact_hwmch,Is this more; less or about the same as you did before lockdown?,3.0,More than before
+648867,BIB,CV_W1,fl_physact_outdr,How often do you do any kind of physical activity outside?,1.0,Never
+648868,BIB,CV_W1,fl_physact_outdr,How often do you do any kind of physical activity outside?,2.0,1 or 2 days a week
+648869,BIB,CV_W1,fl_physact_outdr,How often do you do any kind of physical activity outside?,3.0,Most days
+648870,BIB,CV_W1,fl_physact_outdr,How often do you do any kind of physical activity outside?,4.0,Every day
+648871,BIB,CV_W1,fl_sleephrs,What was the average number of hours you slept per night in the last 7 days,,
+648872,BIB,CV_W1,fl_physact_ch,How often do your children do any kind of physical activity?,1.0,Never
+648873,BIB,CV_W1,fl_physact_ch,How often do your children do any kind of physical activity?,2.0,1 or 2 days a week
+648874,BIB,CV_W1,fl_physact_ch,How often do your children do any kind of physical activity?,3.0,Most days
+648875,BIB,CV_W1,fl_physact_ch,How often do your children do any kind of physical activity?,4.0,Every day
+648876,BIB,CV_W1,fl_physact_ch_outdr,How often do your children do any kind of physical activity outside?,1.0,Never
+648877,BIB,CV_W1,fl_physact_ch_outdr,How often do your children do any kind of physical activity outside?,2.0,1 or 2 days a week
+648878,BIB,CV_W1,fl_physact_ch_outdr,How often do your children do any kind of physical activity outside?,3.0,Most days
+648879,BIB,CV_W1,fl_physact_ch_outdr,How often do your children do any kind of physical activity outside?,4.0,Every day
+648880,BIB,CV_W1,fl_nurs,Do any of your children usually go to nursery?,0.0,No
+648881,BIB,CV_W1,fl_nurs,Do any of your children usually go to nursery?,1.0,Yes
+648882,BIB,CV_W1,fl_nurs_still,Are any of your children still going to nursery during the coronavirus lockdown?,0.0,No
+648883,BIB,CV_W1,fl_nurs_still,Are any of your children still going to nursery during the coronavirus lockdown?,1.0,Yes
+648884,BIB,CV_W1,fl_nurs_eli,Were any of your children eligible for or offered a place at nursery?,0.0,No
+648885,BIB,CV_W1,fl_nurs_eli,Were any of your children eligible for or offered a place at nursery?,1.0,Yes
+648886,BIB,CV_W1,fl_nurs_eli_why,Why didnt you take up this place at nursery?,,
+648887,BIB,CV_W1,fl_sch,Do any of your children usually go to primary or secondary school?,0.0,No
+648888,BIB,CV_W1,fl_sch,Do any of your children usually go to primary or secondary school?,1.0,Yes
+648889,BIB,CV_W1,fl_sch_still,Are any of your children still going to school during the coronavirus lockdown?,0.0,No
+648890,BIB,CV_W1,fl_sch_still,Are any of your children still going to school during the coronavirus lockdown?,1.0,Yes
+648891,BIB,CV_W1,fl_sch_eli,Were any of your children eligible for or offered a place at school?,0.0,No
+648892,BIB,CV_W1,fl_sch_eli,Were any of your children eligible for or offered a place at school?,1.0,Yes
+648893,BIB,CV_W1,fl_sch_eli_why,Why didnt you take up this place at school?,,
+648894,BIB,CV_W1,fl_suprtlearn,I feel confident in my ability to support my childrens learning at home,1.0,Strongly disagree
+648895,BIB,CV_W1,fl_suprtlearn,I feel confident in my ability to support my childrens learning at home,2.0,Disagree
+648896,BIB,CV_W1,fl_suprtlearn,I feel confident in my ability to support my childrens learning at home,3.0,Neither agree nor disagree
+648897,BIB,CV_W1,fl_suprtlearn,I feel confident in my ability to support my childrens learning at home,4.0,Agree
+648898,BIB,CV_W1,fl_suprtlearn,I feel confident in my ability to support my childrens learning at home,5.0,Strongly agree
+648899,BIB,CV_W1,fl_skillsprnt,I honestly believe I have all the skills necessary to be a good parent to my chi,1.0,Strongly disagree
+648900,BIB,CV_W1,fl_skillsprnt,I honestly believe I have all the skills necessary to be a good parent to my chi,2.0,Disagree
+648901,BIB,CV_W1,fl_skillsprnt,I honestly believe I have all the skills necessary to be a good parent to my chi,3.0,Neither agree nor disagree
+648902,BIB,CV_W1,fl_skillsprnt,I honestly believe I have all the skills necessary to be a good parent to my chi,4.0,Agree
+648903,BIB,CV_W1,fl_skillsprnt,I honestly believe I have all the skills necessary to be a good parent to my chi,5.0,Strongly agree
+648904,BIB,CV_W1,ywb_relshipq,How would you describe the quality of your relationship with your current partne,-1.0,Do not wish to answer
+648905,BIB,CV_W1,ywb_relshipq,How would you describe the quality of your relationship with your current partne,1.0,Excellent
+648906,BIB,CV_W1,ywb_relshipq,How would you describe the quality of your relationship with your current partne,2.0,Good
+648907,BIB,CV_W1,ywb_relshipq,How would you describe the quality of your relationship with your current partne,3.0,Average
+648908,BIB,CV_W1,ywb_relshipq,How would you describe the quality of your relationship with your current partne,4.0,Poor
+648909,BIB,CV_W1,ywb_relshipq,How would you describe the quality of your relationship with your current partne,5.0,Very poor
+648910,BIB,CV_W1,ywb_comm,No/poor communication (e.g. silent treatment),0.0,No
+648911,BIB,CV_W1,ywb_comm,No/poor communication (e.g. silent treatment),1.0,Yes
+648912,BIB,CV_W1,ywb_argu,Arguments now and then about trivial matters,0.0,No
+648913,BIB,CV_W1,ywb_argu,Arguments now and then about trivial matters,1.0,Yes
+648914,BIB,CV_W1,ywb_disagr,Regular disagreements (e.g. about chores; children; finances; etc.),0.0,No
+648915,BIB,CV_W1,ywb_disagr,Regular disagreements (e.g. about chores; children; finances; etc.),1.0,Yes
+648916,BIB,CV_W1,ywb_conflct,Unpredictable but severe conflict,0.0,No
+648917,BIB,CV_W1,ywb_conflct,Unpredictable but severe conflict,1.0,Yes
+648918,BIB,CV_W1,ywb_strggoth,Struggle with something else,0.0,No
+648919,BIB,CV_W1,ywb_strggoth,Struggle with something else,1.0,Yes
+648920,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,0.0,0
+648921,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,1.0,1
+648922,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,2.0,2
+648923,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,3.0,3
+648924,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,4.0,4
+648925,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,5.0,5
+648926,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,6.0,6
+648927,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,7.0,7
+648928,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,8.0,8
+648929,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,9.0,9
+648930,BIB,CV_W1,ywb_pplcount,How many people can you count on in times of need?,10.0,10 or more
+648931,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,0.0,0
+648932,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,1.0,1
+648933,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,2.0,2
+648934,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,3.0,3
+648935,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,4.0,4
+648936,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,5.0,5
+648937,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,6.0,6
+648938,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,7.0,7
+648939,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,8.0,8
+648940,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,9.0,9
+648941,BIB,CV_W1,ywb_pplcount_lcl,How many of these people live in your local area? That is; within about a mile o,10.0,10 or more
+648942,BIB,CV_W1,ywb_help,How easy is it to get practical help from friends/family/neighbours if you shoul,1.0,Very difficult
+648943,BIB,CV_W1,ywb_help,How easy is it to get practical help from friends/family/neighbours if you shoul,2.0,Difficult
+648944,BIB,CV_W1,ywb_help,How easy is it to get practical help from friends/family/neighbours if you shoul,3.0,Possible
+648945,BIB,CV_W1,ywb_help,How easy is it to get practical help from friends/family/neighbours if you shoul,4.0,Easy
+648946,BIB,CV_W1,ywb_help,How easy is it to get practical help from friends/family/neighbours if you shoul,5.0,Very easy
+648947,BIB,CV_W1,ywb_lonely,How often have you felt lonely during the past week?,-2.0,Dont know
+648948,BIB,CV_W1,ywb_lonely,How often have you felt lonely during the past week?,-1.0,Do not wish to answer
+648949,BIB,CV_W1,ywb_lonely,How often have you felt lonely during the past week?,0.0,"None, or almost none of the time"
+648950,BIB,CV_W1,ywb_lonely,How often have you felt lonely during the past week?,1.0,Some of the time
+648951,BIB,CV_W1,ywb_lonely,How often have you felt lonely during the past week?,2.0,Most of the time
+648952,BIB,CV_W1,ywb_lonely,How often have you felt lonely during the past week?,3.0,"All, or almost all of the time"
+648953,BIB,CV_W1,avail_from_dt,,,
+648954,BIB,CV_W1,ladistrictcode2019_e,,,
+648955,BIB,CV_W1,ladistrictname2019_e,,,
+648956,BIB,CV_W1,lsoacode2011_e,,,
+648957,BIB,CV_W1,lsoaname2011_e,,,
+648958,BIB,CV_W1,ward_e,,,
+648959,BIB,CV_W1,imdrank_e,,,

@@ -1,0 +1,58 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1042045,NCDS58,ncds9_child_died,study_id_e,,,
+1042046,NCDS58,ncds9_child_died,n9dchid,sortkey: children who died record index,,
+1042047,NCDS58,ncds9_child_died,n9dchsex,Child's sex,-9.0,Refused
+1042048,NCDS58,ncds9_child_died,n9dchsex,Child's sex,-8.0,Don't know
+1042049,NCDS58,ncds9_child_died,n9dchsex,Child's sex,-1.0,Not applicable
+1042050,NCDS58,ncds9_child_died,n9dchsex,Child's sex,1.0,Male
+1042051,NCDS58,ncds9_child_died,n9dchsex,Child's sex,2.0,Female
+1042052,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,-998.0,na
+1042053,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,-9.0,Refused
+1042054,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,-8.0,Don't know
+1042055,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,-7.0,Answer not given
+1042056,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,-1.0,Not applicable
+1042057,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,1.0,January
+1042058,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,2.0,February
+1042059,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,3.0,March
+1042060,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,4.0,April
+1042061,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,5.0,May
+1042062,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,6.0,June
+1042063,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,7.0,July
+1042064,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,8.0,August
+1042065,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,9.0,September
+1042066,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,10.0,October
+1042067,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,11.0,November
+1042068,NCDS58,ncds9_child_died,n9dchdbm,Child's DOB Month,12.0,December
+1042069,NCDS58,ncds9_child_died,n9dchdby,Child's DOB Year,-998.0,na
+1042070,NCDS58,ncds9_child_died,n9dchdby,Child's DOB Year,-9.0,Refused
+1042071,NCDS58,ncds9_child_died,n9dchdby,Child's DOB Year,-8.0,Don't know
+1042072,NCDS58,ncds9_child_died,n9dchdby,Child's DOB Year,-1.0,Not applicable
+1042073,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,-9.0,Refused
+1042074,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,-8.0,Don't know
+1042075,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,-1.0,Not applicable
+1042076,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,1.0,Your own child
+1042077,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,2.0,Adopted child
+1042078,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,3.0,Child of current or previous partner
+1042079,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,4.0,Child of previous spouse/partner
+1042080,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,5.0,Fostered child
+1042081,NCDS58,ncds9_child_died,n9dchrel,Child's relationship to CM,6.0,{spon}Other
+1042082,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,-9.0,Refused
+1042083,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,-8.0,Don't know
+1042084,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,-1.0,Not applicable
+1042085,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,1.0,January
+1042086,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,2.0,February
+1042087,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,3.0,March
+1042088,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,4.0,April
+1042089,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,5.0,May
+1042090,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,6.0,June
+1042091,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,7.0,July
+1042092,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,8.0,August
+1042093,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,9.0,September
+1042094,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,10.0,October
+1042095,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,11.0,November
+1042096,NCDS58,ncds9_child_died,n9dchdm,When child died MONTH,12.0,December
+1042097,NCDS58,ncds9_child_died,n9dchdy,When child died YEAR,-9.0,Refused
+1042098,NCDS58,ncds9_child_died,n9dchdy,When child died YEAR,-8.0,Don't know
+1042099,NCDS58,ncds9_child_died,n9dchdy,When child died YEAR,-1.0,Not applicable
+1042100,NCDS58,ncds9_child_died,v3,None,,
+1042101,NCDS58,ncds9_child_died,avail_from_dt,,,

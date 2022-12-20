@@ -1,0 +1,71 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+784035,MCS,mcs3_cm_derived,study_id_e,,,
+784036,MCS,mcs3_cm_derived,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+784037,MCS,mcs3_cm_derived,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+784038,MCS,mcs3_cm_derived,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+784039,MCS,mcs3_cm_derived,cdnoba00,Number of CMs in household,,
+784040,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-9.0,Refusal
+784041,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-8.0,Don't Know
+784042,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-1.0,Not applicable
+784043,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,1.0,White
+784044,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,2.0,Mixed
+784045,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,3.0,Indian
+784046,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,4.0,Pakistani and Bangladeshi
+784047,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,5.0,Black or Black British
+784048,MCS,mcs3_cm_derived,cdc06e00,DV Cohort Member Ethnic Group - 6 category Census class,6.0,"Other Ethnic group (inc Chinese,Other)"
+784049,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,-9.0,Refusal
+784050,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,-8.0,Don't know
+784051,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,-1.0,Not applicable
+784052,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,1.0,White
+784053,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,2.0,Mixed
+784054,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,3.0,Indian
+784055,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,4.0,Pakistani
+784056,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,5.0,Bangladeshi
+784057,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,6.0,Black Caribbean
+784058,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,7.0,Black African
+784059,MCS,mcs3_cm_derived,cdc08e00,DV Cohort Member Ethnic Group - 8 category classification,8.0,"Other Ethnic group (inc Chinese,Other)"
+784060,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-9.0,Refusal
+784061,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-8.0,Don't know
+784062,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-1.0,Not applicable
+784063,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,1.0,White
+784064,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,2.0,Mixed
+784065,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,3.0,Indian
+784066,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,4.0,Pakistani
+784067,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,5.0,Bangladeshi
+784068,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,6.0,Other Asian
+784069,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,7.0,Black Caribbean
+784070,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,8.0,Black African
+784071,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,9.0,Other Black
+784072,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,10.0,Chinese
+784073,MCS,mcs3_cm_derived,cdc11e00,DV Cohort Member Ethnic Group - 11 category Census class,11.0,Other Ethnic Group
+784074,MCS,mcs3_cm_derived,cdcsbi00,Child Social Behaviour Questionnaire (Independence-Self Regulation),-1.0,Not applicable
+784075,MCS,mcs3_cm_derived,cdcsbe00,Child Social Behaviour Questionnaire (Emotional-Dysregulation),-1.0,Not applicable
+784076,MCS,mcs3_cm_derived,cemotion,DV SDQ Emotional Symptoms,-9.0,Refusal
+784077,MCS,mcs3_cm_derived,cemotion,DV SDQ Emotional Symptoms,-8.0,Don't know
+784078,MCS,mcs3_cm_derived,cemotion,DV SDQ Emotional Symptoms,-1.0,Not applicable
+784079,MCS,mcs3_cm_derived,cconduct,DV SDQ Conduct Problems,-9.0,Refusal
+784080,MCS,mcs3_cm_derived,cconduct,DV SDQ Conduct Problems,-8.0,Don't know
+784081,MCS,mcs3_cm_derived,cconduct,DV SDQ Conduct Problems,-1.0,Not applicable
+784082,MCS,mcs3_cm_derived,chyper,DV SDQ Hyperactivity/Inattention,-9.0,Refusal
+784083,MCS,mcs3_cm_derived,chyper,DV SDQ Hyperactivity/Inattention,-8.0,Don't know
+784084,MCS,mcs3_cm_derived,chyper,DV SDQ Hyperactivity/Inattention,-1.0,Not applicable
+784085,MCS,mcs3_cm_derived,cpeer,DV SDQ Peer Problems,-9.0,Refusal
+784086,MCS,mcs3_cm_derived,cpeer,DV SDQ Peer Problems,-8.0,Don't know
+784087,MCS,mcs3_cm_derived,cpeer,DV SDQ Peer Problems,-1.0,Not applicable
+784088,MCS,mcs3_cm_derived,cprosoc,DV SDQ Prosocial,-9.0,Refusal
+784089,MCS,mcs3_cm_derived,cprosoc,DV SDQ Prosocial,-8.0,Don't know
+784090,MCS,mcs3_cm_derived,cprosoc,DV SDQ Prosocial,-1.0,Not applicable
+784091,MCS,mcs3_cm_derived,cebdtot,DV SDQ Total Difficulties,-9.0,Refusal
+784092,MCS,mcs3_cm_derived,cebdtot,DV SDQ Total Difficulties,-8.0,Don't know
+784093,MCS,mcs3_cm_derived,cebdtot,DV SDQ Total Difficulties,-1.0,Not applicable
+784094,MCS,mcs3_cm_derived,cimpact,DV SDQ Impact,-9.0,Refusal
+784095,MCS,mcs3_cm_derived,cimpact,DV SDQ Impact,-8.0,Don't know
+784096,MCS,mcs3_cm_derived,cimpact,DV SDQ Impact,-1.0,Not applicable
+784097,MCS,mcs3_cm_derived,cebddiff,DV SDQ CM has Difficulties in one or more areas,-1.0,Not applicable
+784098,MCS,mcs3_cm_derived,cebddiff,DV SDQ CM has Difficulties in one or more areas,0.0,No difficulties
+784099,MCS,mcs3_cm_derived,cebddiff,DV SDQ CM has Difficulties in one or more areas,1.0,Yes Minor difficulties
+784100,MCS,mcs3_cm_derived,cebddiff,DV SDQ CM has Difficulties in one or more areas,2.0,Yes definite difficulties
+784101,MCS,mcs3_cm_derived,cebddiff,DV SDQ CM has Difficulties in one or more areas,3.0,Yes severe difficulties
+784102,MCS,mcs3_cm_derived,cebddiff,DV SDQ CM has Difficulties in one or more areas,4.0,Can't say
+784103,MCS,mcs3_cm_derived,avail_from_dt,,,
+784104,MCS,mcs3_cm_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

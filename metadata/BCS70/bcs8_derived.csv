@@ -1,0 +1,157 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+602953,BCS70,bcs8_derived,study_id_e,,,
+602954,BCS70,bcs8_derived,bd8cntry,2008: Country of Interview,-1.0,Not known
+602955,BCS70,bcs8_derived,bd8cntry,2008: Country of Interview,1.0,England
+602956,BCS70,bcs8_derived,bd8cntry,2008: Country of Interview,2.0,Wales
+602957,BCS70,bcs8_derived,bd8cntry,2008: Country of Interview,3.0,Scotland
+602958,BCS70,bcs8_derived,bd8cntry,2008: Country of Interview,4.0,Northern Ireland
+602959,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,-2.0,Armed Services
+602960,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,-1.0,Unknown
+602961,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,1.0,North
+602962,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,2.0,Yorks and Humberside
+602963,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,3.0,East Midlands
+602964,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,4.0,East Anglia
+602965,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,5.0,South East
+602966,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,6.0,South West
+602967,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,7.0,West Midlands
+602968,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,8.0,North West
+602969,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,9.0,Wales
+602970,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,10.0,Scotland
+602971,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,11.0,Northern Ireland
+602972,BCS70,bcs8_derived,bd8regn,2008: Standard Region of residence,12.0,Overseas
+602973,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,-1.0,Unknown
+602974,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,1.0,North East
+602975,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,2.0,North West
+602976,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,3.0,Yorkshire and Humberside
+602977,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,4.0,East Midlands
+602978,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,5.0,West Midlands
+602979,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,6.0,East of England
+602980,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,7.0,London
+602981,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,8.0,South East
+602982,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,9.0,South West
+602983,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,10.0,Wales
+602984,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,11.0,Scotland
+602985,BCS70,bcs8_derived,bd8gor,2008: Government Office Region of residence,12.0,Northern Ireland
+602986,BCS70,bcs8_derived,bd8malive,2008: Whether cohort member's mother alive (incl prev. data),-9.0,Refusal
+602987,BCS70,bcs8_derived,bd8malive,2008: Whether cohort member's mother alive (incl prev. data),-8.0,Dont Know
+602988,BCS70,bcs8_derived,bd8malive,2008: Whether cohort member's mother alive (incl prev. data),0.0,Yes in household
+602989,BCS70,bcs8_derived,bd8malive,2008: Whether cohort member's mother alive (incl prev. data),1.0,Yes
+602990,BCS70,bcs8_derived,bd8malive,2008: Whether cohort member's mother alive (incl prev. data),2.0,No
+602991,BCS70,bcs8_derived,bd8malive,2008: Whether cohort member's mother alive (incl prev. data),3.0,No reported dead previously
+602992,BCS70,bcs8_derived,bd8palive,2008: Whether cohort member's father alive (incl prev. data),-9.0,Refusal
+602993,BCS70,bcs8_derived,bd8palive,2008: Whether cohort member's father alive (incl prev. data),-8.0,Dont Know
+602994,BCS70,bcs8_derived,bd8palive,2008: Whether cohort member's father alive (incl prev. data),0.0,Yes in household
+602995,BCS70,bcs8_derived,bd8palive,2008: Whether cohort member's father alive (incl prev. data),1.0,Yes
+602996,BCS70,bcs8_derived,bd8palive,2008: Whether cohort member's father alive (incl prev. data),2.0,No
+602997,BCS70,bcs8_derived,bd8palive,2008: Whether cohort member's father alive (incl prev. data),3.0,No reported dead previously
+602998,BCS70,bcs8_derived,bd8numrm,2008: Number of rooms in the house,-9.0,Refusal
+602999,BCS70,bcs8_derived,bd8numrm,2008: Number of rooms in the house,-8.0,Dont know
+603000,BCS70,bcs8_derived,bd8numrm,2008: Number of rooms in the house,-1.0,Not applicable
+603001,BCS70,bcs8_derived,bd8numrm,2008: Number of rooms in the house,12.0,or more rooms
+603002,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,-8.0,Don't Know
+603003,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,1.0,Full-time paid employee (30+ hrs / week
+603004,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,2.0,Part-time paid employee (>30hrs / we
+603005,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,3.0,Full-time self-employed
+603006,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,4.0,Part-time self-employed
+603007,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,5.0,Unemployed and seeking work
+603008,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,6.0,Full-time education
+603009,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,7.0,On a government scheme for emp training
+603010,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,8.0,Temporarily sick/disabled
+603011,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,9.0,Permanently sick/disabled
+603012,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,10.0,Looking after home/family
+603013,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,11.0,Wholly retired
+603014,BCS70,bcs8_derived,bd8ecact,2008: Cohort Member's main activity,12.0,Other
+603015,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,-9.0,Refusal
+603016,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,-8.0,Don't Know
+603017,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,-1.0,Not applicable
+603018,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,1.0,Full-time paid employee (30+ hrs / week
+603019,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,2.0,Part-time paid employee (>30hrs / we
+603020,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,3.0,Full-time self-employed
+603021,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,4.0,Part-time self-employed
+603022,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,5.0,Unemployed and seeking work
+603023,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,6.0,Full-time education
+603024,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,7.0,On a government scheme for emp training
+603025,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,8.0,Temporarily sick/disabled
+603026,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,9.0,Permanently sick/disabled
+603027,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,10.0,Looking after home/family
+603028,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,11.0,Wholly retired
+603029,BCS70,bcs8_derived,bd8potha,2008: Partner's / spouse's main activity,12.0,Other
+603030,BCS70,bcs8_derived,bd8stbe,2008: In receipt of State Benefits (b8inc03 to b8inc06),-9.0,Refusal
+603031,BCS70,bcs8_derived,bd8stbe,2008: In receipt of State Benefits (b8inc03 to b8inc06),-8.0,Dont Know
+603032,BCS70,bcs8_derived,bd8stbe,2008: In receipt of State Benefits (b8inc03 to b8inc06),-1.0,Not known
+603033,BCS70,bcs8_derived,bd8stbe,2008: In receipt of State Benefits (b8inc03 to b8inc06),0.0,No
+603034,BCS70,bcs8_derived,bd8stbe,2008: In receipt of State Benefits (b8inc03 to b8inc06),1.0,Yes
+603035,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,-8.0,Dont Know
+603036,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,-1.0,Not applicable
+603037,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,0.0,Never smoked
+603038,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,1.0,Ex smoker
+603039,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,2.0,Occasional smoker
+603040,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,3.0,Up to 10 a day
+603041,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,4.0,11 to 20 a day
+603042,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,5.0,More than 20 a day
+603043,BCS70,bcs8_derived,bd8smoke,2008: Smoking habits,6.0,Daily but frequency not stated
+603044,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,-1.0,Level not calculable
+603045,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,0.0,No academic qualification
+603046,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,1.0,GCSE D-E
+603047,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,2.0,Other Scottish Quals
+603048,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,3.0,"GCSE A-C, Scot Standards/Intermediate 1"
+603049,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,4.0,Scot Intermediate 2 / AS Levels or 1 A
+603050,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,5.0,"2+ A Levels, Scot Higher/6th"
+603051,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,6.0,Diploma
+603052,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,7.0,"Degree, PGCE, Other Degree qual"
+603053,BCS70,bcs8_derived,bd8achq1,2008: Highest Academic Qualification CM obtained in 2008 survey,8.0,Higher Degree
+603054,BCS70,bcs8_derived,bd8anvq1,2008: Highest NVQ level from an academic qualification in 2008 survey,-1.0,Not codeable
+603055,BCS70,bcs8_derived,bd8anvq1,2008: Highest NVQ level from an academic qualification in 2008 survey,0.0,none
+603056,BCS70,bcs8_derived,bd8anvq1,2008: Highest NVQ level from an academic qualification in 2008 survey,1.0,nvq1 level
+603057,BCS70,bcs8_derived,bd8anvq1,2008: Highest NVQ level from an academic qualification in 2008 survey,2.0,nvq2 level
+603058,BCS70,bcs8_derived,bd8anvq1,2008: Highest NVQ level from an academic qualification in 2008 survey,3.0,nvq3 level
+603059,BCS70,bcs8_derived,bd8anvq1,2008: Highest NVQ level from an academic qualification in 2008 survey,4.0,nvq4 level
+603060,BCS70,bcs8_derived,bd8anvq1,2008: Highest NVQ level from an academic qualification in 2008 survey,5.0,nvq5 level
+603061,BCS70,bcs8_derived,bd8vnvq1,2008: Highest NVQ Level from a Vocational Qualification in 2008 survey,-1.0,Not codeable
+603062,BCS70,bcs8_derived,bd8vnvq1,2008: Highest NVQ Level from a Vocational Qualification in 2008 survey,0.0,none
+603063,BCS70,bcs8_derived,bd8vnvq1,2008: Highest NVQ Level from a Vocational Qualification in 2008 survey,1.0,nvq1 level
+603064,BCS70,bcs8_derived,bd8vnvq1,2008: Highest NVQ Level from a Vocational Qualification in 2008 survey,2.0,nvq2 level
+603065,BCS70,bcs8_derived,bd8vnvq1,2008: Highest NVQ Level from a Vocational Qualification in 2008 survey,3.0,nvq3 level
+603066,BCS70,bcs8_derived,bd8vnvq1,2008: Highest NVQ Level from a Vocational Qualification in 2008 survey,4.0,nvq4 level
+603067,BCS70,bcs8_derived,bd8vnvq1,2008: Highest NVQ Level from a Vocational Qualification in 2008 survey,5.0,nvq5 level
+603068,BCS70,bcs8_derived,bd8nvq1,2008: Highest NVQ Level from an Academic or Vocational Qual in 2008 survey,-1.0,Not applicable
+603069,BCS70,bcs8_derived,bd8nvq1,2008: Highest NVQ Level from an Academic or Vocational Qual in 2008 survey,0.0,none
+603070,BCS70,bcs8_derived,bd8nvq1,2008: Highest NVQ Level from an Academic or Vocational Qual in 2008 survey,1.0,nvq1 level
+603071,BCS70,bcs8_derived,bd8nvq1,2008: Highest NVQ Level from an Academic or Vocational Qual in 2008 survey,2.0,nvq2 level
+603072,BCS70,bcs8_derived,bd8nvq1,2008: Highest NVQ Level from an Academic or Vocational Qual in 2008 survey,3.0,nvq3 level
+603073,BCS70,bcs8_derived,bd8nvq1,2008: Highest NVQ Level from an Academic or Vocational Qual in 2008 survey,4.0,nvq4 level
+603074,BCS70,bcs8_derived,bd8nvq1,2008: Highest NVQ Level from an Academic or Vocational Qual in 2008 survey,5.0,nvq5 level
+603075,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,-8.0,Don't know
+603076,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,-1.0,Not applicable
+603077,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,0.0,no academic qualification
+603078,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,1.0,GCSE D-E
+603079,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,2.0,"CSEs2-5, other Scottish Quals"
+603080,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,3.0,"GCSE A-C, good O levels Scot Standards"
+603081,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,4.0,AS Levels or 1 A Level
+603082,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,5.0,"2+ A Levels, Scot HIgher/6th"
+603083,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,6.0,Diploma
+603084,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,7.0,"Degree, PGCE, Other Degree Level qual"
+603085,BCS70,bcs8_derived,bd8hachq,2008: Highest Academic Qualification up to 2008,8.0,Higher Degree
+603086,BCS70,bcs8_derived,bd8hanvq,2008: Highest NVQ level from an academic qualification up to 2008,-1.0,Not applicable
+603087,BCS70,bcs8_derived,bd8hanvq,2008: Highest NVQ level from an academic qualification up to 2008,0.0,none
+603088,BCS70,bcs8_derived,bd8hanvq,2008: Highest NVQ level from an academic qualification up to 2008,1.0,nvq1 level
+603089,BCS70,bcs8_derived,bd8hanvq,2008: Highest NVQ level from an academic qualification up to 2008,2.0,nvq2 level
+603090,BCS70,bcs8_derived,bd8hanvq,2008: Highest NVQ level from an academic qualification up to 2008,3.0,nvq3 level
+603091,BCS70,bcs8_derived,bd8hanvq,2008: Highest NVQ level from an academic qualification up to 2008,4.0,nvq4 level
+603092,BCS70,bcs8_derived,bd8hanvq,2008: Highest NVQ level from an academic qualification up to 2008,5.0,nvq5 level
+603093,BCS70,bcs8_derived,bd8hvnvq,2008: Highest NVQ Level from a Vocational Qualification  up to 2008,-1.0,Not applicable
+603094,BCS70,bcs8_derived,bd8hvnvq,2008: Highest NVQ Level from a Vocational Qualification  up to 2008,0.0,none
+603095,BCS70,bcs8_derived,bd8hvnvq,2008: Highest NVQ Level from a Vocational Qualification  up to 2008,1.0,nvq1 level
+603096,BCS70,bcs8_derived,bd8hvnvq,2008: Highest NVQ Level from a Vocational Qualification  up to 2008,2.0,nvq2 level
+603097,BCS70,bcs8_derived,bd8hvnvq,2008: Highest NVQ Level from a Vocational Qualification  up to 2008,3.0,nvq3 level
+603098,BCS70,bcs8_derived,bd8hvnvq,2008: Highest NVQ Level from a Vocational Qualification  up to 2008,4.0,nvq4 level
+603099,BCS70,bcs8_derived,bd8hvnvq,2008: Highest NVQ Level from a Vocational Qualification  up to 2008,5.0,nvq5 level
+603100,BCS70,bcs8_derived,bd8hnvq,2008: Highest NVQ Level from an Academic or Vocational Qual  up to 2008,-1.0,Not applicable
+603101,BCS70,bcs8_derived,bd8hnvq,2008: Highest NVQ Level from an Academic or Vocational Qual  up to 2008,0.0,none
+603102,BCS70,bcs8_derived,bd8hnvq,2008: Highest NVQ Level from an Academic or Vocational Qual  up to 2008,1.0,nvq1 level
+603103,BCS70,bcs8_derived,bd8hnvq,2008: Highest NVQ Level from an Academic or Vocational Qual  up to 2008,2.0,nvq2 level
+603104,BCS70,bcs8_derived,bd8hnvq,2008: Highest NVQ Level from an Academic or Vocational Qual  up to 2008,3.0,nvq3 level
+603105,BCS70,bcs8_derived,bd8hnvq,2008: Highest NVQ Level from an Academic or Vocational Qual  up to 2008,4.0,nvq4 level
+603106,BCS70,bcs8_derived,bd8hnvq,2008: Highest NVQ Level from an Academic or Vocational Qual  up to 2008,5.0,nvq5 level
+603107,BCS70,bcs8_derived,v3,None,,
+603108,BCS70,bcs8_derived,avail_from_dt,,,

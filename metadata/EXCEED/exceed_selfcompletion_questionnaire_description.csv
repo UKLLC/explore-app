@@ -1,73 +1,0 @@
-table_name,variable_name,variable_label,avail_from_dt
-exceed_selfcompletion_questionnaire_v0002_20220302,timestamp,time when the participant submitted the questionnaire - exceed_selfcompletion_questionnaire,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gen2,Which of the following best describes you?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gen2b,What was your sex assigned at birth?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gen3,Where were you born?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gen5,What is your ethnic group?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gen6,What is your father's ethnic group?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gen7,What is your mother's ethnic group?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm1,"Do you smoke tobacco now (this includes shisha, cigarettes, cigars, cigarillos and pipes)?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm2,"How often do you smoke tobacco?  ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm3,"In your lifetime, have you smoked a total of at least 100 times?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm6,"What type(s) of tobacco do you smoke?  (tick as many as apply)",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm7,How many manufactured cigarettes do you smoke in a typical WEEK? ,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm10b,Which of the following best describes your shisha smoking?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm10f,Do you usually share the same shisha with others?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm11,"Prior to cigars/cigarillos/pipes or shisha, did you smoke cigarettes on most or all days?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm12,"Prior to smoking cigars/cigarillos/pipes or shisha, how many cigarettes did you smoke in a typical WEEK?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm14,How soon after waking up do you smoke your first tobacco of the day?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm15,How easy or difficult would you find it to go without smoking for a whole day?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm16,Have you ever tried to give up smoking?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm19,What method(s) did you use to stop smoking when you stopped for more than 6 months?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm20,"Which of the following nicotine replacement therapy products have you used?  (you can select more than one product) ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm21,Compared to 10 years ago do you smoke?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm22,"Why did you reduce your smoking? (select the one that mostly applies to you)",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm24,"What type(s) of tobacco did you smoke?  (tick any that apply)",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm25,How many cigarettes did you smoke in a typical WEEK? ,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm28b,Which of the following best described your shisha smoking?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm28f,Did you usually share the same shisha with others?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm29,"Prior to cigars/cigarillos/pipes/shisha smoking, did you previously smoke cigarettes on most or all days?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm30,How many cigarettes did you smoke in a typical WEEK when you were also smoking cigars/cigarillos/pips or shisha?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm32,How soon after waking up did you smoke your first tobacco of the day?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm34,"Why did you stop smoking?  (please select the one that mostly applies to you) ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm35,What method(s) did you use to stop smoking?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm36,"Which of the following nicotine replacement therapy products have you used?  (you can select more than one product) ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm38,"In the time that you smoked, did you ever stop for more than 6 months?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm40,What method(s) did you use to stop smoking before you were successful?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm41,"Which of the following nicotine replacement therapy products did you use?  (you can select more than one product) ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm42,Do you/have you ever smoked electronic cigarettes?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm43,Is/was this in addition to other tobacco products or instead of them?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm44,How often do you/did you smoke electronic cigarettes?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm46,Do you/have you ever smoked an electronic shisha (shisha pen)?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm48,Is/was this in addition to other tobacco products or instead of them?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm47,How often do you/did you smoke electronic shisha?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,sm50,Do other members of your household smoke?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc1,How often do you drink alcohol?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc2,Did you previously drink alcohol?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc9,Did you drink alcohol last week?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,walc10,"Wine including red, white and rose",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,fwalc10,"Fortified wine such as sherry, port, vermouth",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,salc10,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,balc10,"Beer or cider such as bitter, lager, stout, ale, Guinness",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,oalc10,Other alcoholic drinks such as alcopops,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,o2alc10,Other alcoholic drinks,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc11,Was this week typical of your normal drinking?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,walc11,"Wine including red, white and rose",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,fwalc11,"Fortified wine such as sherry, port, vermouth",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,salc11,"Spirits or liqueurs such as whisky, gin, rum, vodka, brandy",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,balc11,"Beer or cider such as bitter, lager, stout, ale, Guinness",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,oalc11,Other alcoholic drinks such as alcopops,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,o2alc11,Other alcoholic drinks,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc13,When you drink alcohol is it usually with meals?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc14,"Usually, when you drink alcohol are you with?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc15,"Compared to 10 years ago, do you drink?",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,alc16,"Why did you reduce the amount you drank? (please select the one that mostly applies to you)",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,ac17,"Why did you stop drinking alcohol? (please select the one that mostly applies to you)",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,mea1,"Please enter your current weight (please select preferred units).  [Measure your weight in the morning in light clothing and without wearing shoes. Place the scales on firm flooring (such as tiles or wood) rather than carpet.] ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,mea2,"Please enter your current waist circumference (please select preferred units).  [Place the tape provided directly on the skin or on no more than one layer of light clothing. The correct place to measure your waist is horizontally halfway between your lowest rib and the top of your hipbone. This is roughly in line with your belly button. Breathe out normally and take the measure. Make sure the tape is snug, without squeezing the skin.] ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,mea3,"Please enter your current height (please select preferred units).  [If you do not know your height, measure it without shoes and with hair down. Place the tape at a wall on a flat floor. Stand with your back as straight as possible and feet against the wall in front of the tape. Ask someone to read the measurement, or mark the wall above your head and then measure it.] ",2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gpa,Are you registered with a GP practice in Leicester city or the county?,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gp1,Please select the name of the medical practice you are registered with as a patient (the practices have been ordered by post code area).,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gp1a,Please select the name of the medical practice you are registered with as a patient (the practices have been ordered by post code area).,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,gp1b,Please select the name of the medical practice you are registered with as a patient (the practices have been ordered by post code area).,2022-03-30 16:03:17.057
-exceed_selfcompletion_questionnaire_v0002_20220302,complete,indicates the completion status,2022-03-30 16:03:17.057

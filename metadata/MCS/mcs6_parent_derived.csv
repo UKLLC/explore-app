@@ -1,0 +1,357 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+866082,MCS,mcs6_parent_derived,study_id_e,,,
+866083,MCS,mcs6_parent_derived,pnum,Person Number for Main or (Proxy)Partner respondent,-1.0,Not applicable
+866084,MCS,mcs6_parent_derived,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),-1.0,Not applicable
+866085,MCS,mcs6_parent_derived,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),1.0,Main Interview
+866086,MCS,mcs6_parent_derived,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),2.0,Partner Interview
+866087,MCS,mcs6_parent_derived,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),3.0,Proxy Interview
+866088,MCS,mcs6_parent_derived,felig00,Eligibility for interview (Main / (Proxy)Partner respondent role),4.0,Not eligible
+866089,MCS,mcs6_parent_derived,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,-1.0,Not applicable
+866090,MCS,mcs6_parent_derived,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,1.0,Main Interview
+866091,MCS,mcs6_parent_derived,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,2.0,Partner Interview
+866092,MCS,mcs6_parent_derived,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,3.0,Proxy Interview
+866093,MCS,mcs6_parent_derived,fresp00,Response in survey: Whether respondent (of ELIG) participated in interview,4.0,No interview
+866094,MCS,mcs6_parent_derived,fdsam00,DV Respondent same as at sweep 5,-1.0,Family not present at MCS5
+866095,MCS,mcs6_parent_derived,fdsam00,DV Respondent same as at sweep 5,1.0,Yes
+866096,MCS,mcs6_parent_derived,fdsam00,DV Respondent same as at sweep 5,2.0,No
+866097,MCS,mcs6_parent_derived,fdlst00,DV Respondent status at sweep 5,-1.0,Family not present at MCS5
+866098,MCS,mcs6_parent_derived,fdlst00,DV Respondent status at sweep 5,1.0,Main Interview
+866099,MCS,mcs6_parent_derived,fdlst00,DV Respondent status at sweep 5,2.0,Partner Interview
+866100,MCS,mcs6_parent_derived,fdlst00,DV Respondent status at sweep 5,3.0,Proxy Interview
+866101,MCS,mcs6_parent_derived,fdlst00,DV Respondent status at sweep 5,4.0,No Interview
+866102,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),-9.0,Refusal
+866103,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),-8.0,Don't know
+866104,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),-1.0,Not applicable
+866105,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),1.0,NVQ level 1
+866106,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),2.0,NVQ level 2
+866107,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),3.0,NVQ level 3
+866108,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),4.0,NVQ level 4
+866109,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),5.0,NVQ level 5
+866110,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),95.0,Overseas qual only
+866111,MCS,mcs6_parent_derived,fdnvq00,S6 DV Respondent NVQ Highest Level (all sweeps),96.0,None of these
+866112,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,-1.0,Not applicable
+866113,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,1.0,Christian
+866114,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,2.0,Muslim
+866115,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,3.0,Hindu
+866116,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,4.0,Sikh
+866117,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,5.0,Jewish
+866118,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,6.0,Buddhist
+866119,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,7.0,Other
+866120,MCS,mcs6_parent_derived,fdrlg00,S6 DV Respondent religion - 7 category,8.0,None
+866121,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,-1.0,Not applicable
+866122,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,1.0,Employers - large organisations
+866123,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,2.0,Employers - small organisations
+866124,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,3.0,Self employed - no employers
+866125,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,4.0,Managers  - large organisations
+866126,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,5.0,Managers  - small organisations
+866127,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,6.0,Supervisors
+866128,MCS,mcs6_parent_derived,fdemp00,S6 DV Employment status for SOC coding,7.0,Other employees
+866129,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,-1.0,Not applicable
+866130,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,1.0,NVQ Level 1
+866131,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,2.0,NVQ Level 2
+866132,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,3.0,NVQ Level 3
+866133,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,4.0,NVQ Level 4
+866134,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,5.0,NVQ Level 5
+866135,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,95.0,Overseas qualification only
+866136,MCS,mcs6_parent_derived,fdacaq00,S6 DV NVQ equivalent of highest academic level across sweeps,96.0,None of these
+866137,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),-1.0,Not applicable
+866138,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),1.0,Large emp
+866139,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),2.0,Hi manag
+866140,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),3.1,Hi prof trad
+866141,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),3.2,Hi prof new
+866142,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),3.3,Hi prof trad s-emp
+866143,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),3.4,Hi prof new s-emp
+866144,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),4.1,Lo prof trad
+866145,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),4.2,Lo prof new
+866146,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),4.3,Lo prof trad s-emp
+866147,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),4.4,Lo prof new s-emp
+866148,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),5.0,Lower managers
+866149,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),6.0,Hi supervisory
+866150,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),7.1,Intermed clerical
+866151,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),7.2,Intermed service
+866152,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),7.3,Intermed techncl
+866153,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),7.4,Intermed engineerng
+866154,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),8.1,Small emp indust
+866155,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),8.2,Sm emp agric
+866156,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),9.1,S-emp non profl
+866157,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),9.2,S-emp agric
+866158,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),10.0,Lower supervisors
+866159,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),11.1,Lo tech craft
+866160,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),11.2,Lo tech operative
+866161,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),12.1,Semi-rou salesâ€™
+866162,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),12.2,Semi-rou service
+866163,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),12.3,Semi-rou techncl
+866164,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),12.4,Semi-rou operative
+866165,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),12.5,Semi-rou gric
+866166,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),12.6,Semi-rou clerical
+866167,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),12.7,Semi-rou childcare
+866168,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),13.1,Routine sales
+866169,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),13.2,Routine productn
+866170,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),13.3,Routine tech
+866171,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),13.4,Routine operative
+866172,MCS,mcs6_parent_derived,fd17s00,S6 DV NS-SEC full version (current job),13.5,Routine agric
+866173,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),-1.0,Not applicable
+866174,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),1.0,Large emp
+866175,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),2.0,Hi manag
+866176,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),3.0,Higher prof
+866177,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),4.0,Lo prof/hi tech
+866178,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),5.0,Lower managers
+866179,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),6.0,Hi supervisory
+866180,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),7.0,Intermediate
+866181,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),8.0,Small employers
+866182,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),9.0,Self-emp non profl
+866183,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),10.0,Lower supervisors
+866184,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),11.0,Lower technical
+866185,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),12.0,Semi-routine
+866186,MCS,mcs6_parent_derived,fd13s00,S6 DV NS-SEC 13 category (current job),13.0,Routine
+866187,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),-1.0,Not applicable
+866188,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),1.0,Hi manag/prof
+866189,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),2.0,Lo manag/prof
+866190,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),3.0,Intermediate
+866191,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),4.0,Small emp and s-emp
+866192,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),5.0,Low sup and tech
+866193,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),6.0,Semi routine
+866194,MCS,mcs6_parent_derived,fd07s00,S6 DV NS-SEC 7 category (current job),7.0,Routine
+866195,MCS,mcs6_parent_derived,fd05s00,S6 DV NS-SEC 5 category (current job),-1.0,Not applicable
+866196,MCS,mcs6_parent_derived,fd05s00,S6 DV NS-SEC 5 category (current job),1.0,Manag and profl
+866197,MCS,mcs6_parent_derived,fd05s00,S6 DV NS-SEC 5 category (current job),2.0,Intermediate
+866198,MCS,mcs6_parent_derived,fd05s00,S6 DV NS-SEC 5 category (current job),3.0,Sm emp and s-emp
+866199,MCS,mcs6_parent_derived,fd05s00,S6 DV NS-SEC 5 category (current job),4.0,Lo sup and tech
+866200,MCS,mcs6_parent_derived,fd05s00,S6 DV NS-SEC 5 category (current job),5.0,Semi-rou and routine
+866201,MCS,mcs6_parent_derived,fprxf00,S6 DV Proxy partner interview flag,-1.0,Not applicable
+866202,MCS,mcs6_parent_derived,fprxf00,S6 DV Proxy partner interview flag,1.0,Proxy partner
+866203,MCS,mcs6_parent_derived,fdwrk00,S6 DV Whether respondent is in work or not,-1.0,Not applicable
+866204,MCS,mcs6_parent_derived,fdwrk00,S6 DV Whether respondent is in work or not,1.0,Respondent is in work or on leave
+866205,MCS,mcs6_parent_derived,fdwrk00,S6 DV Whether respondent is in work or not,2.0,Respondent is not in work nor on leave
+866206,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,-2.0,Missing information
+866207,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,-1.0,Not applicable
+866208,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,1.0,Natural mother: interviewed
+866209,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,2.0,Natural father: interviewed
+866210,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,3.0,Adoptive mother: interviewed
+866211,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,4.0,Adoptive father: interviewed
+866212,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,5.0,Foster mother: interviewed
+866213,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,6.0,Foster father: interviewed
+866214,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,7.0,Step mother/partner of father: interviewed
+866215,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,8.0,Step father/partner of mother: interviewed
+866216,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,9.0,Grandmother: interviewed
+866217,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,10.0,Grandfather: interviewed
+866218,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,11.0,Natural mother: by proxy
+866219,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,12.0,Natural father: by proxy
+866220,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,13.0,Step mother: by proxy
+866221,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,14.0,Step father: by proxy
+866222,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,15.0,Natural mother: not interviewed
+866223,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,16.0,Natural father: not interviewed
+866224,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,17.0,Adoptive mother: not interviewed
+866225,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,18.0,Adoptive father: not interviewed
+866226,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,19.0,Foster mother: not interviewed
+866227,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,20.0,Foster father: not interviewed
+866228,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,21.0,Step mother: not interviewed
+866229,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,22.0,Step father: not interviewed
+866230,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,23.0,"Natural mother: by proxy, not interviewed"
+866231,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,24.0,"Natural father: by proxy, not interviewed"
+866232,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,25.0,Other female non-relative: interviewed
+866233,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,26.0,Other male non relative: interviewed
+866234,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,27.0,Other female non-relative: not interviewed
+866235,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,28.0,Other male non relative: not interviewed
+866236,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,29.0,"Step mother: by proxy, not interviewed"
+866237,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,30.0,"Step father: by proxy, not interviewed"
+866238,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,31.0,Other female relative: interviewed
+866239,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,32.0,Other male relative: interviewed
+866240,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,33.0,"Female, unknown relationship: interviewed"
+866241,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,34.0,"Male, unknown relationship:interviewed"
+866242,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,35.0,"Step parent, unknown sex: interviewed"
+866243,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,36.0,"Step parent, unknown sex: not interviewed"
+866244,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,37.0,"Adoptive parent, unknown sex: interviewed"
+866245,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,38.0,"Adoptive parent, unknown sex: not interviewed"
+866246,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,39.0,Grandmother: not interviewed
+866247,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,40.0,Grandfather: not interviewed
+866248,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,41.0,"Female, unknown relationship: not interviewed"
+866249,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,42.0,"Male, unknown relationship: not interviewed"
+866250,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,43.0,Other female relative: not interviewed
+866251,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,44.0,Other male relative: not interviewed
+866252,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,45.0,"Natural parent, unknown sex: interviewed"
+866253,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,46.0,"Natural parent, unknown sex: not interviewed"
+866254,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,47.0,"Natural parent, unknown sex: by proxy"
+866255,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,48.0,Other male non-relative: by proxy
+866256,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,49.0,"Other non-relative, sex unknown: interviewed"
+866257,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,50.0,"Unknown relationship, unknown sex: by proxy"
+866258,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,51.0,Adoptive father: by proxy
+866259,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,52.0,Grandfather: by proxy
+866260,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,53.0,"Other male non-relative: by proxy, no proxy interview"
+866261,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,54.0,Other male relative: by proxy
+866262,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,55.0,Natural sister: interviewed
+866263,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,56.0,Natural brother: interviewed
+866264,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,57.0,Natural sister: not interviewed
+866265,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,58.0,"Adoptive father: by proxy, no proxy interview"
+866266,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,59.0,"Grandfather: by proxy, no proxy interview"
+866267,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,60.0,"Foster father: by proxy, no proxy interview"
+866268,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,61.0,Half brother: interviewed
+866269,MCS,mcs6_parent_derived,fdres00,S6 DV Respondent identity and interview status,62.0,Half sister: interviewed
+866270,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,-8.0,Unknown
+866271,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,-1.0,Not applicable
+866272,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,1.0,Employed
+866273,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,2.0,Self employed
+866274,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,3.0,Looking for work
+866275,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,4.0,Poor health
+866276,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,5.0,"New deal, apprenticeship"
+866277,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,6.0,Student
+866278,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,7.0,Looking after the family
+866279,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,8.0,Waiting for a job to start
+866280,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,9.0,Non-working for other reason
+866281,MCS,mcs6_parent_derived,fdact00,S6 DV Respondent economic activity status,10.0,Retired
+866282,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],-1.0,Not applicable
+866283,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],1.0,White - British
+866284,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],2.0,White - Irish
+866285,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],3.0,Any other White background
+866286,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],4.0,Mixed - White and Black Caribbean
+866287,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],5.0,Mixed - White and Black African
+866288,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],6.0,Mixed - White and Asian
+866289,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],7.0,Any other mixed background
+866290,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],8.0,Asian/Asian British - Indian
+866291,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],9.0,Asian/Asian British - Pakistani
+866292,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],10.0,Asian/Asian British - Bangladeshi
+866293,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],11.0,Any other Asian background
+866294,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],12.0,Black/Black British - Caribbean
+866295,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],13.0,Black/Black British - African
+866296,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],14.0,Any other Black background
+866297,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],15.0,Chinese
+866298,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],95.0,Any other background
+866299,MCS,mcs6_parent_derived,fdeea00_r10,S6 DV Respondent's Ethnic Group (England)    [counts less than 10 recoded],100.0,Recoded due to low counts - check SA
+866300,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],-1.0,Not applicable
+866301,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],1.0,White - British
+866302,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],2.0,White - Irish
+866303,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],3.0,Any other White background
+866304,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],4.0,Mixed - White and Black Caribbean
+866305,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],5.0,Mixed - White and Black African
+866306,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],6.0,Mixed - White and Asian
+866307,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],7.0,Any other mixed background
+866308,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],8.0,Asian/Asian British - Indian
+866309,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],9.0,Asian/Asian British - Pakistani
+866310,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],10.0,Asian/Asian British - Bangladeshi
+866311,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],11.0,Any other Asian background
+866312,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],12.0,Black/Black British - Caribbean
+866313,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],13.0,Black/Black British - African
+866314,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],14.0,Any other Black background
+866315,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],15.0,Chinese
+866316,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],95.0,Any other background
+866317,MCS,mcs6_parent_derived,fdewa00_r10,S6 DV Respondent's Ethnic Group (Wales)  [counts less than 10 recoded],100.0,Recoded due to low counts - check SA
+866318,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],-1.0,Not applicable
+866319,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],1.0,White - Scottish
+866320,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],2.0,White - other British
+866321,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],3.0,White - Irish
+866322,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],4.0,Any other White background
+866323,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],5.0,Any mixed background
+866324,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],6.0,Asian/Asian Scottish - Indian
+866325,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],7.0,Asian/Asian Scottish - Pakistani
+866326,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],8.0,Asian/Asian Scottish - Bangladeshi
+866327,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],9.0,Asian/Asian Scottish - Chinese
+866328,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],10.0,Any other Asian background
+866329,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],11.0,Black/Black Scottish - Caribbean
+866330,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],12.0,Black/Black Scottish - African
+866331,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],13.0,Any other Black background
+866332,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],95.0,Any other background
+866333,MCS,mcs6_parent_derived,fdesa00_r10,S6 DV Respondent's Ethnic Group (Scotland)   [counts less than 10 recoded],100.0,Recoded due to low counts - check SA
+866334,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),-1.0, Not applicable
+866335,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),1.0,White
+866336,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),2.0,Chinese
+866337,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),3.0,Irish Traveller
+866338,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),4.0,Indian
+866339,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),5.0,Pakistani
+866340,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),6.0,Bangladeshi
+866341,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),7.0,Black Caribbean
+866342,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),8.0,Black African
+866343,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),9.0,Black Other
+866344,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),10.0,Mixed ethnic group
+866345,MCS,mcs6_parent_derived,fdena00,S6 DV Respondent's Ethnic Group (Northern Ireland),95.0,Any other background
+866346,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),-9.0,Refused
+866347,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),-8.0,Don't know
+866348,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),-1.0,Not applicable
+866349,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),1.0,White
+866350,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),2.0,Mixed
+866351,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),3.0,Indian
+866352,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),4.0,Pakistani and Bangladeshi
+866353,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),5.0,Black or Black British
+866354,MCS,mcs6_parent_derived,fd06e00,S6 DV Respondent's ethnic group - 6 category census classification (UK),6.0,"Other Ethnic group (inc Chinese,Other)"
+866355,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),-9.0,Refused
+866356,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),-8.0,Don't know
+866357,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),-1.0,Not applicable
+866358,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),1.0,White
+866359,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),2.0,Mixed
+866360,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),3.0,Indian
+866361,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),4.0,Pakistani
+866362,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),5.0,Bangladeshi
+866363,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),6.0,Other Asian
+866364,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),7.0,Black Caribbean
+866365,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),8.0,Black African
+866366,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),9.0,Other Black
+866367,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),10.0,Chinese
+866368,MCS,mcs6_parent_derived,fd11e00,S6 DV Respondent's ethnic group - 11 category census classification (UK),11.0,Other Ethnic Group
+866369,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),-9.0,Refused
+866370,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),-8.0,Don't know
+866371,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),-1.0,Not applicable
+866372,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),1.0,White
+866373,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),2.0,Mixed
+866374,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),3.0,Indian
+866375,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),4.0,Pakistani
+866376,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),5.0,Bangladeshi
+866377,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),6.0,Black Caribbean
+866378,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),7.0,Black African
+866379,MCS,mcs6_parent_derived,fd08e00,S6 DV Respondent's ethnic group - 8 category census classification (UK),8.0,"Other Ethnic Group (inc Chinese, Other)"
+866380,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,-1.0,Not known
+866381,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,1.0,Husband/Wife
+866382,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,2.0,Partner/Cohabitee
+866383,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,3.0,Natural son/daughter
+866384,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,4.0,Adopted son/daughter
+866385,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,5.0,Foster son/daughter
+866386,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,6.0,Step-son-daughter
+866387,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,7.0,Natural parent
+866388,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,8.0,Adoptive parent
+866389,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,9.0,Foster parent
+866390,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,10.0,"Step-parent, partner of parent"
+866391,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,11.0,Natural brother/Natural sister
+866392,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,12.0,Half-brother/Half-sister
+866393,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,13.0,Step-brother/Step-sister
+866394,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,14.0,Adopted brother/Adopted sister
+866395,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,15.0,Foster brother/Foster sister
+866396,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,16.0,Grandchild
+866397,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,17.0,Grandparent
+866398,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,18.0,Nanny/au pair
+866399,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,19.0,Other relative
+866400,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,20.0,Other non-relative
+866401,MCS,mcs6_parent_derived,fdrel00,S6 DV Respondent relationship to CM,96.0,Self
+866402,MCS,mcs6_parent_derived,fdagi00,S6 DV Respondent Age at Interview,-3.0,Dob or Date of Interview Missing
+866403,MCS,mcs6_parent_derived,fdagi00,S6 DV Respondent Age at Interview,-2.0,Not Known
+866404,MCS,mcs6_parent_derived,fdagi00,S6 DV Respondent Age at Interview,-1.0,Not applicable
+866405,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),-3.0,Dob or Date of Interview Missing
+866406,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),-2.0,Not Known
+866407,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),-1.0,Not applicable
+866408,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),1.0,16 to 19
+866409,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),2.0,20 to 29
+866410,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),3.0,30 to 39
+866411,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),4.0,40 to 49
+866412,MCS,mcs6_parent_derived,fdgai00,S6 DV Respondent Age at Interview (grouped),5.0,50 plus
+866413,MCS,mcs6_parent_derived,fdkessl,S6 DV Kessler K6 Scale,-9.0,Refusal
+866414,MCS,mcs6_parent_derived,fdkessl,S6 DV Kessler K6 Scale,-8.0,Don't Know
+866415,MCS,mcs6_parent_derived,fdkessl,S6 DV Kessler K6 Scale,-1.0,Not applicable
+866416,MCS,mcs6_parent_derived,fdopen,S6 DV OCEAN - Openness Sub Scale,-9.0,Refusal
+866417,MCS,mcs6_parent_derived,fdopen,S6 DV OCEAN - Openness Sub Scale,-8.0,Don't Know
+866418,MCS,mcs6_parent_derived,fdopen,S6 DV OCEAN - Openness Sub Scale,-1.0,Not applicable
+866419,MCS,mcs6_parent_derived,fdconsc,S6 DV OCEAN - Conscientiousness Sub Scale,-9.0,Refusal
+866420,MCS,mcs6_parent_derived,fdconsc,S6 DV OCEAN - Conscientiousness Sub Scale,-8.0,Don't Know
+866421,MCS,mcs6_parent_derived,fdconsc,S6 DV OCEAN - Conscientiousness Sub Scale,-1.0,Not applicable
+866422,MCS,mcs6_parent_derived,fdextrav,S6 DV OCEAN - Extraversion Sub Scale,-9.0,Refusal
+866423,MCS,mcs6_parent_derived,fdextrav,S6 DV OCEAN - Extraversion Sub Scale,-8.0,Don't Know
+866424,MCS,mcs6_parent_derived,fdextrav,S6 DV OCEAN - Extraversion Sub Scale,-1.0,Not applicable
+866425,MCS,mcs6_parent_derived,fdagree,S6 DV OCEAN - Agreeableness Sub Scale,-9.0,Refusal
+866426,MCS,mcs6_parent_derived,fdagree,S6 DV OCEAN - Agreeableness Sub Scale,-8.0,Don't Know
+866427,MCS,mcs6_parent_derived,fdagree,S6 DV OCEAN - Agreeableness Sub Scale,-1.0,Not applicable
+866428,MCS,mcs6_parent_derived,fdneurot,S6 DV OCEAN - Neuroticism Sub Scale,-9.0,Refusal
+866429,MCS,mcs6_parent_derived,fdneurot,S6 DV OCEAN - Neuroticism Sub Scale,-8.0,Don't Know
+866430,MCS,mcs6_parent_derived,fdneurot,S6 DV OCEAN - Neuroticism Sub Scale,-1.0,Not applicable
+866431,MCS,mcs6_parent_derived,fdaudit,S6 DV AUDIT-PC Scale,-1.0,Not applicable
+866432,MCS,mcs6_parent_derived,fpwrdscm,Main word activity score out of 20,-3.0,Respondent completed wrong activity
+866433,MCS,mcs6_parent_derived,fpwrdscm,Main word activity score out of 20,-1.0,Not applicable
+866434,MCS,mcs6_parent_derived,fpwrdscp,Partner word activity score out of 20,-3.0,Respondent completed wrong activity
+866435,MCS,mcs6_parent_derived,fpwrdscp,Partner word activity score out of 20,-1.0,Not applicable
+866436,MCS,mcs6_parent_derived,avail_from_dt,,,
+866437,MCS,mcs6_parent_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

@@ -1,0 +1,820 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1580495,UKHLS,xbaseline,study_id_e,,,
+1580496,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,1.0,Yes
+1580497,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,2.0,No
+1580498,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-9.0,Missing
+1580499,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-8.0,Inapplicable
+1580500,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-2.0,Refusal
+1580501,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-1.0,Don't know
+1580502,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,0.0,Not mentioned
+1580503,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,1.0,Mentioned
+1580504,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-9.0,Missing
+1580505,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-8.0,Inapplicable
+1580506,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-2.0,Refusal
+1580507,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-1.0,Don't know
+1580508,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,0.0,Not mentioned
+1580509,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,1.0,Mentioned
+1580510,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-9.0,Missing
+1580511,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-8.0,Inapplicable
+1580512,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-2.0,Refusal
+1580513,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-1.0,Don't know
+1580514,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,0.0,Not mentioned
+1580515,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,1.0,Mentioned
+1580516,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-9.0,Missing
+1580517,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-8.0,Inapplicable
+1580518,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-2.0,Refusal
+1580519,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-1.0,Don't know
+1580520,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,0.0,Not mentioned
+1580521,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,1.0,Mentioned
+1580522,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-9.0,Missing
+1580523,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-8.0,Inapplicable
+1580524,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-2.0,Refusal
+1580525,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-1.0,Don't know
+1580526,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,0.0,Not mentioned
+1580527,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,1.0,Mentioned
+1580528,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-9.0,Missing
+1580529,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-8.0,Inapplicable
+1580530,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-2.0,Refusal
+1580531,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-1.0,Don't know
+1580532,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,0.0,Not mentioned
+1580533,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,1.0,Mentioned
+1580534,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-9.0,Missing
+1580535,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-8.0,Inapplicable
+1580536,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-2.0,Refusal
+1580537,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-1.0,Don't know
+1580538,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,0.0,Not mentioned
+1580539,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,1.0,Mentioned
+1580540,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-9.0,Missing
+1580541,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-8.0,Inapplicable
+1580542,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-2.0,Refusal
+1580543,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-1.0,Don't know
+1580544,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,0.0,Not mentioned
+1580545,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,1.0,Mentioned
+1580546,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-9.0,Missing
+1580547,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-8.0,Inapplicable
+1580548,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-2.0,Refusal
+1580549,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-1.0,Don't know
+1580550,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,0.0,Not mentioned
+1580551,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,1.0,Mentioned
+1580552,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-9.0,Missing
+1580553,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-8.0,Inapplicable
+1580554,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-2.0,Refusal
+1580555,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-1.0,Don't know
+1580556,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,0.0,Not mentioned
+1580557,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,1.0,Mentioned
+1580558,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-9.0,Missing
+1580559,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-8.0,Inapplicable
+1580560,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-2.0,Refusal
+1580561,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-1.0,Don't know
+1580562,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,0.0,Not mentioned
+1580563,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,1.0,Mentioned
+1580564,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-9.0,Missing
+1580565,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-8.0,Inapplicable
+1580566,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-2.0,Refusal
+1580567,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-1.0,Don't know
+1580568,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,0.0,Not mentioned
+1580569,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,1.0,Mentioned
+1580570,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-9.0,Missing
+1580571,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-8.0,Inapplicable
+1580572,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-2.0,Refusal
+1580573,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-1.0,Don't know
+1580574,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,0.0,Not mentioned
+1580575,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,1.0,Mentioned
+1580576,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-9.0,Missing
+1580577,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-8.0,Inapplicable
+1580578,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-2.0,Refusal
+1580579,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-1.0,Don't know
+1580580,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,0.0,Not mentioned
+1580581,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,1.0,Mentioned
+1580582,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-9.0,Missing
+1580583,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-8.0,Inapplicable
+1580584,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-2.0,Refusal
+1580585,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-1.0,Don't know
+1580586,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,0.0,Not mentioned
+1580587,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,1.0,Mentioned
+1580588,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-9.0,Missing
+1580589,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-8.0,Inapplicable
+1580590,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-2.0,Refusal
+1580591,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-1.0,Don't know
+1580592,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,0.0,Not mentioned
+1580593,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,1.0,Mentioned
+1580594,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-9.0,Missing
+1580595,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-8.0,Inapplicable
+1580596,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-2.0,Refusal
+1580597,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-1.0,Don't know
+1580598,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,0.0,Not mentioned
+1580599,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,1.0,Mentioned
+1580600,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-9.0,Missing
+1580601,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-8.0,Inapplicable
+1580602,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-2.0,Refusal
+1580603,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-1.0,Don't know
+1580604,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),0.0,Not mentioned
+1580605,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),1.0,Mentioned
+1580606,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-9.0,Missing
+1580607,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-8.0,Inapplicable
+1580608,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-2.0,Refusal
+1580609,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-1.0,Don't know
+1580610,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,0.0,Not mentioned
+1580611,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,1.0,Mentioned
+1580612,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-9.0,Missing
+1580613,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-8.0,Inapplicable
+1580614,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-2.0,Refusal
+1580615,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-1.0,Don't know
+1580616,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,0.0,Not mentioned
+1580617,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,1.0,Mentioned
+1580618,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-9.0,Missing
+1580619,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-8.0,Inapplicable
+1580620,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-2.0,Refusal
+1580621,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-1.0,Don't know
+1580622,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,0.0,Not mentioned
+1580623,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,1.0,Mentioned
+1580624,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-9.0,Missing
+1580625,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-8.0,Inapplicable
+1580626,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-2.0,Refusal
+1580627,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-1.0,Don't know
+1580628,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),0.0,Not mentioned
+1580629,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),1.0,Mentioned
+1580630,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-9.0,Missing
+1580631,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-8.0,Inapplicable
+1580632,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-2.0,Refusal
+1580633,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-1.0,Don't know
+1580634,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,0.0,Not mentioned
+1580635,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,1.0,Mentioned
+1580636,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-9.0,Missing
+1580637,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-8.0,Inapplicable
+1580638,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-2.0,Refusal
+1580639,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-1.0,Don't know
+1580640,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,1.0,Osteoarthritis
+1580641,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,2.0,Rheumatoid arthritis
+1580642,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,3.0,Other type of arthritis
+1580643,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,4.0,More than one of the above
+1580644,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,5.0,Don't know
+1580645,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-9.0,Missing
+1580646,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-8.0,Inapplicable
+1580647,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-2.0,Refusal
+1580648,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-1.0,Don't know
+1580649,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,0.0,Not mentioned
+1580650,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,1.0,Mentioned
+1580651,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-9.0,Missing
+1580652,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-8.0,Inapplicable
+1580653,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-2.0,Refusal
+1580654,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-1.0,Don't know
+1580655,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,0.0,Not mentioned
+1580656,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,1.0,Mentioned
+1580657,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-9.0,Missing
+1580658,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-8.0,Inapplicable
+1580659,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-2.0,Refusal
+1580660,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-1.0,Don't know
+1580661,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,0.0,Not mentioned
+1580662,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,1.0,Mentioned
+1580663,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-9.0,Missing
+1580664,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-8.0,Inapplicable
+1580665,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-2.0,Refusal
+1580666,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-1.0,Don't know
+1580667,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,0.0,Not mentioned
+1580668,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,1.0,Mentioned
+1580669,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-9.0,Missing
+1580670,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-8.0,Inapplicable
+1580671,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-2.0,Refusal
+1580672,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-1.0,Don't know
+1580673,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,0.0,Not mentioned
+1580674,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,1.0,Mentioned
+1580675,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-9.0,Missing
+1580676,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-8.0,Inapplicable
+1580677,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-2.0,Refusal
+1580678,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-1.0,Don't know
+1580679,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,0.0,Not mentioned
+1580680,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,1.0,Mentioned
+1580681,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-9.0,Missing
+1580682,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-8.0,Inapplicable
+1580683,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-2.0,Refusal
+1580684,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-1.0,Don't know
+1580685,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,0.0,Not mentioned
+1580686,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,1.0,Mentioned
+1580687,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-9.0,Missing
+1580688,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-8.0,Inapplicable
+1580689,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-2.0,Refusal
+1580690,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-1.0,Don't know
+1580691,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,0.0,Not mentioned
+1580692,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,1.0,Mentioned
+1580693,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-9.0,Missing
+1580694,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-8.0,Inapplicable
+1580695,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-2.0,Refusal
+1580696,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-1.0,Don't know
+1580697,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,0.0,Not mentioned
+1580698,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,1.0,Mentioned
+1580699,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-9.0,Missing
+1580700,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-8.0,Inapplicable
+1580701,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-2.0,Refusal
+1580702,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-1.0,Don't know
+1580703,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,0.0,Not mentioned
+1580704,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,1.0,Mentioned
+1580705,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-9.0,Missing
+1580706,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-8.0,Inapplicable
+1580707,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-2.0,Refusal
+1580708,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-1.0,Don't know
+1580709,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,0.0,Not mentioned
+1580710,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,1.0,Mentioned
+1580711,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-9.0,Missing
+1580712,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-8.0,Inapplicable
+1580713,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-2.0,Refusal
+1580714,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-1.0,Don't know
+1580715,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,0.0,Not mentioned
+1580716,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,1.0,Mentioned
+1580717,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-9.0,Missing
+1580718,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-8.0,Inapplicable
+1580719,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-2.0,Refusal
+1580720,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-1.0,Don't know
+1580721,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,0.0,Not mentioned
+1580722,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,1.0,Mentioned
+1580723,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-9.0,Missing
+1580724,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-8.0,Inapplicable
+1580725,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-2.0,Refusal
+1580726,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-1.0,Don't know
+1580727,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-9.0,Missing
+1580728,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-8.0,Inapplicable
+1580729,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-2.0,Refusal
+1580730,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-1.0,Don't know
+1580731,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,0.0,Not mentioned
+1580732,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,1.0,Mentioned
+1580733,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,1.0,Yes
+1580734,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,2.0,No
+1580735,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,3.0,Not required
+1580736,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-9.0,Missing
+1580737,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-8.0,Inapplicable
+1580738,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-2.0,Refusal
+1580739,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-1.0,Don't know
+1580740,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,1.0,Yes
+1580741,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,2.0,No
+1580742,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,3.0,Not required
+1580743,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-9.0,Missing
+1580744,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-8.0,Inapplicable
+1580745,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-2.0,Refusal
+1580746,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-1.0,Don't know
+1580747,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,1.0,Yes
+1580748,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,2.0,No
+1580749,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,3.0,Not required
+1580750,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-9.0,Missing
+1580751,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-8.0,Inapplicable
+1580752,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-2.0,Refusal
+1580753,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-1.0,Don't know
+1580754,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,1.0,Yes
+1580755,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,2.0,No
+1580756,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,3.0,Not required
+1580757,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-9.0,Missing
+1580758,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-8.0,Inapplicable
+1580759,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-2.0,Refusal
+1580760,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-1.0,Don't know
+1580761,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,1.0,Yes
+1580762,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,2.0,No
+1580763,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,3.0,Not required
+1580764,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-9.0,Missing
+1580765,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-8.0,Inapplicable
+1580766,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-2.0,Refusal
+1580767,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-1.0,Don't know
+1580768,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,1.0,Yes
+1580769,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,2.0,No
+1580770,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,3.0,Not required
+1580771,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-9.0,Missing
+1580772,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-8.0,Inapplicable
+1580773,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-2.0,Refusal
+1580774,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-1.0,Don't know
+1580775,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-2.0,Refusal
+1580776,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-1.0,Don't know
+1580777,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,1.0,Yes
+1580778,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,2.0,No
+1580779,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,3.0,Not required
+1580780,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-9.0,Missing
+1580781,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-8.0,Inapplicable
+1580782,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,1.0,Yes
+1580783,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,2.0,No
+1580784,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,3.0,Not required
+1580785,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-9.0,Missing
+1580786,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-8.0,Inapplicable
+1580787,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-2.0,Refusal
+1580788,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-1.0,Don't know
+1580789,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,1.0,"Yes, in person"
+1580790,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,2.0,"Yes, by telephone or online"
+1580791,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,3.0,"Yes, group sessions"
+1580792,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,4.0,No
+1580793,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,5.0,Not required
+1580794,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-9.0,Missing
+1580795,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-8.0,Inapplicable
+1580796,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-2.0,Refusal
+1580797,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-1.0,Don't know
+1580798,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,1.0,"Yes, employed"
+1580799,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,2.0,"Yes, self-employed"
+1580800,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,3.0,"Yes, both employed and self-employed"
+1580801,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,4.0,No
+1580802,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-9.0,Missing
+1580803,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-8.0,Inapplicable
+1580804,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-2.0,Refusal
+1580805,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-1.0,Don't know
+1580806,UKHLS,xbaseline,blnonwork_dv,Baseline: activity in Jan Feb 2020,,
+1580807,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-9.0,Missing
+1580808,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-8.0,Inapplicable
+1580809,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-2.0,Refusal
+1580810,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-1.0,Don't know
+1580811,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,1.0,Fixed weekly hours 
+1580812,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,2.0,I chose my hours
+1580813,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,3.0,"My employer chose my hours, with a minimum guaranteed number of hours"
+1580814,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,4.0,"My employer chose my hours, with no minimum guaranteed number of hours"
+1580815,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-9.0,Missing
+1580816,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-8.0,Inapplicable
+1580817,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-2.0,Refusal
+1580818,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-1.0,Don't know
+1580819,UKHLS,xbaseline,blpayhow_dv,Baseline: how paid,,
+1580820,UKHLS,xbaseline,blpay_amount_dv,Baseline: earnings amount,,
+1580821,UKHLS,xbaseline,blpay_period_dv,Baseline: earnings period,,
+1580822,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,1.0,Always
+1580823,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,2.0,Often
+1580824,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,3.0,Sometimes
+1580825,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,4.0,Never
+1580826,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-9.0,Missing
+1580827,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-8.0,Inapplicable
+1580828,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-2.0,Refusal
+1580829,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-1.0,Don't know
+1580830,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-9.0,Missing
+1580831,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-8.0,Inapplicable
+1580832,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-2.0,Refusal
+1580833,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-1.0,Don't know
+1580834,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,1.0,Per week
+1580835,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,2.0,Per 2 weeks
+1580836,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,3.0,Per month
+1580837,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,4.0,Per Year
+1580838,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,5.0,Week (topcoded)
+1580839,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-9.0,Missing
+1580840,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-8.0,Inapplicable
+1580841,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-2.0,Refusal
+1580842,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-1.0,Don't know
+1580843,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,0.0,Not mentioned
+1580844,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,1.0,Mentioned
+1580845,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-9.0,Missing
+1580846,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-8.0,Inapplicable
+1580847,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-2.0,Refusal
+1580848,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-1.0,Don't know
+1580849,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,0.0,Not mentioned
+1580850,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,1.0,Mentioned
+1580851,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-9.0,Missing
+1580852,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-8.0,Inapplicable
+1580853,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-2.0,Refusal
+1580854,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-1.0,Don't know
+1580855,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,0.0,Not mentioned
+1580856,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,1.0,Mentioned
+1580857,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-9.0,Missing
+1580858,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-8.0,Inapplicable
+1580859,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-2.0,Refusal
+1580860,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-1.0,Don't know
+1580861,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,0.0,Not mentioned
+1580862,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,1.0,Mentioned
+1580863,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-9.0,Missing
+1580864,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-8.0,Inapplicable
+1580865,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-2.0,Refusal
+1580866,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-1.0,Don't know
+1580867,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,0.0,Not mentioned
+1580868,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,1.0,Mentioned
+1580869,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-9.0,Missing
+1580870,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-8.0,Inapplicable
+1580871,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-2.0,Refusal
+1580872,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-1.0,Don't know
+1580873,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,0.0,Not mentioned
+1580874,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,1.0,Mentioned
+1580875,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-9.0,Missing
+1580876,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-8.0,Inapplicable
+1580877,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-2.0,Refusal
+1580878,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-1.0,Don't know
+1580879,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,1.0,"Yes, increased"
+1580880,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,2.0,"Yes, decreased"
+1580881,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,3.0,No
+1580882,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-9.0,Missing
+1580883,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-8.0,Inapplicable
+1580884,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-2.0,Refusal
+1580885,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-1.0,Don't know
+1580886,UKHLS,xbaseline,blbenefitsb651_dv,Baseline: benefits - Universal Credit,,
+1580887,UKHLS,xbaseline,blbenefitsb652_dv,Baseline: benefits - Working Tax Credit,,
+1580888,UKHLS,xbaseline,blbenefitsb653_dv,Baseline: benefits - Child Tax Credit,,
+1580889,UKHLS,xbaseline,blbenefitsb654_dv,Baseline: benefits - Jobseeker's Allowance,,
+1580890,UKHLS,xbaseline,blbenefitsb655_dv,Baseline: benefits - Employment and Support Allowance,,
+1580891,UKHLS,xbaseline,blbenefitsb656_dv,Baseline: benefits - None of these,,
+1580892,UKHLS,xbaseline,blbenchangeb65_dv,Amount of benefits changed,,
+1580893,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,1.0,w1_web
+1580894,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,2.0,w2_web
+1580895,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,3.0,w3_web
+1580896,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,4.0,w4_web
+1580897,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,5.0,w5_web
+1580898,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,6.0,w6_web
+1580899,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,1000.0,w1_tel
+1580900,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,2000.0,w2_tel
+1580901,UKHLS,xbaseline,bl_outcome,Survey outcome,11.0,Full interview
+1580902,UKHLS,xbaseline,bl_outcome,Survey outcome,12.0,Partial interview
+1580903,UKHLS,xbaseline,bl_betaindin_xw,Respondent cross-sectional baseline weight; beta version,,
+1580904,UKHLS,xbaseline,avail_from_dt,,,
+1580905,UKHLS,xbaseline,study_id_e,,,
+1580906,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,1.0,Yes
+1580907,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,2.0,No
+1580908,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-9.0,Missing
+1580909,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-8.0,Inapplicable
+1580910,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-2.0,Refusal
+1580911,UKHLS,xbaseline,nhsshield_dv,Have you received a letter from the NHS or Chief Medical Officer saying that  yo,-1.0,Don't know_dv
+1580912,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,0.0,Not mentioned
+1580913,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,1.0,Mentioned
+1580914,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-9.0,Missing
+1580915,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-8.0,Inapplicable
+1580916,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-2.0,Refusal
+1580917,UKHLS,xbaseline,hcond_cv1_dv,Baseline: health condition - Asthma,-1.0,Don't know_dv
+1580918,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,0.0,Not mentioned
+1580919,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,1.0,Mentioned
+1580920,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-9.0,Missing
+1580921,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-8.0,Inapplicable
+1580922,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-2.0,Refusal
+1580923,UKHLS,xbaseline,hcond_cv2_dv,Baseline: health condition - Arthritis,-1.0,Don't know_dv
+1580924,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,0.0,Not mentioned
+1580925,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,1.0,Mentioned
+1580926,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-9.0,Missing
+1580927,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-8.0,Inapplicable
+1580928,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-2.0,Refusal
+1580929,UKHLS,xbaseline,hcond_cv3_dv,Baseline: health condition - Congestive heart failure,-1.0,Don't know_dv
+1580930,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,0.0,Not mentioned
+1580931,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,1.0,Mentioned
+1580932,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-9.0,Missing
+1580933,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-8.0,Inapplicable
+1580934,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-2.0,Refusal
+1580935,UKHLS,xbaseline,hcond_cv4_dv,Baseline: health condition - Coronary heart disease,-1.0,Don't know_dv
+1580936,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,0.0,Not mentioned
+1580937,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,1.0,Mentioned
+1580938,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-9.0,Missing
+1580939,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-8.0,Inapplicable
+1580940,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-2.0,Refusal
+1580941,UKHLS,xbaseline,hcond_cv5_dv,Baseline: health condition - Angina,-1.0,Don't know_dv
+1580942,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,0.0,Not mentioned
+1580943,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,1.0,Mentioned
+1580944,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-9.0,Missing
+1580945,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-8.0,Inapplicable
+1580946,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-2.0,Refusal
+1580947,UKHLS,xbaseline,hcond_cv6_dv,Baseline: health condition - Heart attack or myocardial infarction,-1.0,Don't know_dv
+1580948,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,0.0,Not mentioned
+1580949,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,1.0,Mentioned
+1580950,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-9.0,Missing
+1580951,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-8.0,Inapplicable
+1580952,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-2.0,Refusal
+1580953,UKHLS,xbaseline,hcond_cv7_dv,Baseline: health condition - Stroke,-1.0,Don't know_dv
+1580954,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,0.0,Not mentioned
+1580955,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,1.0,Mentioned
+1580956,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-9.0,Missing
+1580957,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-8.0,Inapplicable
+1580958,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-2.0,Refusal
+1580959,UKHLS,xbaseline,hcond_cv8_dv,Baseline: health condition - Emphysema,-1.0,Don't know_dv
+1580960,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-2.0,Refusal
+1580961,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-1.0,Don't know_dv
+1580962,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,0.0,Not mentioned
+1580963,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,1.0,Mentioned
+1580964,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-9.0,Missing
+1580965,UKHLS,xbaseline,hcond_cv10_dv,Baseline: health condition - Hypothyroidism or an under-active thyroid,-8.0,Inapplicable
+1580966,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,0.0,Not mentioned
+1580967,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,1.0,Mentioned
+1580968,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-9.0,Missing
+1580969,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-8.0,Inapplicable
+1580970,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-2.0,Refusal
+1580971,UKHLS,xbaseline,hcond_cv11_dv,Baseline: health condition - Chronic bronchitis,-1.0,Don't know_dv
+1580972,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,0.0,Not mentioned
+1580973,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,1.0,Mentioned
+1580974,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-9.0,Missing
+1580975,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-8.0,Inapplicable
+1580976,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-2.0,Refusal
+1580977,UKHLS,xbaseline,hcond_cv12_dv,Baseline: health condition - Any kind of liver condition,-1.0,Don't know_dv
+1580978,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,0.0,Not mentioned
+1580979,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,1.0,Mentioned
+1580980,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-9.0,Missing
+1580981,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-8.0,Inapplicable
+1580982,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-2.0,Refusal
+1580983,UKHLS,xbaseline,hcond_cv13_dv,Baseline: health condition - Cancer or malignancy,-1.0,Don't know_dv
+1580984,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,0.0,Not mentioned
+1580985,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,1.0,Mentioned
+1580986,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-9.0,Missing
+1580987,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-8.0,Inapplicable
+1580988,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-2.0,Refusal
+1580989,UKHLS,xbaseline,hcond_cv14_dv,Baseline: health condition - Diabetes,-1.0,Don't know_dv
+1580990,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,0.0,Not mentioned
+1580991,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,1.0,Mentioned
+1580992,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-9.0,Missing
+1580993,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-8.0,Inapplicable
+1580994,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-2.0,Refusal
+1580995,UKHLS,xbaseline,hcond_cv15_dv,Baseline: health condition - Epilepsy,-1.0,Don't know_dv
+1580996,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,0.0,Not mentioned
+1580997,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,1.0,Mentioned
+1580998,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-9.0,Missing
+1580999,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-8.0,Inapplicable
+1581000,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-2.0,Refusal
+1581001,UKHLS,xbaseline,hcond_cv16_dv,Baseline: health condition - High blood pressure/hypertension,-1.0,Don't know_dv
+1581002,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,0.0,Not mentioned
+1581003,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,1.0,Mentioned
+1581004,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-9.0,Missing
+1581005,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-8.0,Inapplicable
+1581006,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-2.0,Refusal
+1581007,UKHLS,xbaseline,hcond_cv18_dv,Baseline: health condition - Other long standing/chronic condition,-1.0,Don't know_dv
+1581008,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,0.0,Not mentioned
+1581009,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,1.0,Mentioned
+1581010,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-9.0,Missing
+1581011,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-8.0,Inapplicable
+1581012,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-2.0,Refusal
+1581013,UKHLS,xbaseline,hcond_cv19_dv,Baseline: health condition - Multiple Sclerosis,-1.0,Don't know_dv
+1581014,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),0.0,Not mentioned
+1581015,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),1.0,Mentioned
+1581016,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-9.0,Missing
+1581017,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-8.0,Inapplicable
+1581018,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-2.0,Refusal
+1581019,UKHLS,xbaseline,hcond_cv21_dv,Baseline: health condition - COPD (Chronic Obstructive Pulmonary Disease),-1.0,Don't know_dv
+1581020,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,0.0,Not mentioned
+1581021,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,1.0,Mentioned
+1581022,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-9.0,Missing
+1581023,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-8.0,Inapplicable
+1581024,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-2.0,Refusal
+1581025,UKHLS,xbaseline,hcond_cv22_dv,Baseline: health condition - An emotional; nervous or psychiatric problem,-1.0,Don't know_dv
+1581026,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,0.0,Not mentioned
+1581027,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,1.0,Mentioned
+1581028,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-9.0,Missing
+1581029,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-8.0,Inapplicable
+1581030,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-2.0,Refusal
+1581031,UKHLS,xbaseline,hcond_cv23_dv,Baseline: health condition - Chronic kidney disease,-1.0,Don't know_dv
+1581032,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,0.0,Not mentioned
+1581033,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,1.0,Mentioned
+1581034,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-9.0,Missing
+1581035,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-8.0,Inapplicable
+1581036,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-2.0,Refusal
+1581037,UKHLS,xbaseline,hcond_cv24_dv,Baseline: health condition - Conditions affecting the brain and nerves,-1.0,Don't know_dv
+1581038,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),0.0,Not mentioned
+1581039,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),1.0,Mentioned
+1581040,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-9.0,Missing
+1581041,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-8.0,Inapplicable
+1581042,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-2.0,Refusal
+1581043,UKHLS,xbaseline,hcond_cv27_dv,Baseline: health condition - Are very overweight (having a BMI of 40 or above),-1.0,Don't know_dv
+1581044,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,0.0,Not mentioned
+1581045,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,1.0,Mentioned
+1581046,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-9.0,Missing
+1581047,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-8.0,Inapplicable
+1581048,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-2.0,Refusal
+1581049,UKHLS,xbaseline,hcond_cv96_dv,Baseline: health condition - None of these,-1.0,Don't know_dv
+1581050,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,1.0,Osteoarthritis
+1581051,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,2.0,Rheumatoid arthritis
+1581052,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,3.0,Other type of arthritis
+1581053,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,4.0,More than one of the above
+1581054,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,5.0,Don't know_dv
+1581055,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-9.0,Missing
+1581056,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-8.0,Inapplicable
+1581057,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-2.0,Refusal
+1581058,UKHLS,xbaseline,arthtyp_dv,What type of arthritis was that?,-1.0,Don't know_dv
+1581059,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,0.0,Not mentioned
+1581060,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,1.0,Mentioned
+1581061,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-9.0,Missing
+1581062,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-8.0,Inapplicable
+1581063,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-2.0,Refusal
+1581064,UKHLS,xbaseline,cancertyp_cv1_dv,Type of Cancer or malignancy: Bowel/colorectal,-1.0,Don't know_dv
+1581065,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,0.0,Not mentioned
+1581066,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,1.0,Mentioned
+1581067,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-9.0,Missing
+1581068,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-8.0,Inapplicable
+1581069,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-2.0,Refusal
+1581070,UKHLS,xbaseline,cancertyp_cv2_dv,Type of Cancer or malignancy: Lung,-1.0,Don't know_dv
+1581071,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,0.0,Not mentioned
+1581072,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,1.0,Mentioned
+1581073,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-9.0,Missing
+1581074,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-8.0,Inapplicable
+1581075,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-2.0,Refusal
+1581076,UKHLS,xbaseline,cancertyp_cv3_dv,Type of Cancer or malignancy: Breast,-1.0,Don't know_dv
+1581077,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,0.0,Not mentioned
+1581078,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,1.0,Mentioned
+1581079,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-9.0,Missing
+1581080,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-8.0,Inapplicable
+1581081,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-2.0,Refusal
+1581082,UKHLS,xbaseline,cancertyp_cv4_dv,Type of Cancer or malignancy: Prostate,-1.0,Don't know_dv
+1581083,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,0.0,Not mentioned
+1581084,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,1.0,Mentioned
+1581085,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-9.0,Missing
+1581086,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-8.0,Inapplicable
+1581087,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-2.0,Refusal
+1581088,UKHLS,xbaseline,cancertyp_cv5_dv,Type of Cancer or malignancy: Liver,-1.0,Don't know_dv
+1581089,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,0.0,Not mentioned
+1581090,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,1.0,Mentioned
+1581091,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-9.0,Missing
+1581092,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-8.0,Inapplicable
+1581093,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-2.0,Refusal
+1581094,UKHLS,xbaseline,cancertyp_cv6_dv,Type of Cancer or malignancy: Skin cancer or melanoma,-1.0,Don't know_dv
+1581095,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,0.0,Not mentioned
+1581096,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,1.0,Mentioned
+1581097,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-9.0,Missing
+1581098,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-8.0,Inapplicable
+1581099,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-2.0,Refusal
+1581100,UKHLS,xbaseline,cancertyp_cv7_dv,Type of Cancer or malignancy: Other,-1.0,Don't know_dv
+1581101,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,0.0,Not mentioned
+1581102,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,1.0,Mentioned
+1581103,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-9.0,Missing
+1581104,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-8.0,Inapplicable
+1581105,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-2.0,Refusal
+1581106,UKHLS,xbaseline,cancertyp_cv8_dv,Type of Cancer or malignancy: Blood or bone marrow cancer; such as leukaemia,-1.0,Don't know_dv
+1581107,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,0.0,Not mentioned
+1581108,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,1.0,Mentioned
+1581109,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-9.0,Missing
+1581110,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-8.0,Inapplicable
+1581111,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-2.0,Refusal
+1581112,UKHLS,xbaseline,hcond_treat1_dv,Baseline: existing treatments - Medication following an organ transplant,-1.0,Don't know_dv
+1581113,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,0.0,Not mentioned
+1581114,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,1.0,Mentioned
+1581115,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-9.0,Missing
+1581116,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-8.0,Inapplicable
+1581117,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-2.0,Refusal
+1581118,UKHLS,xbaseline,hcond_treat2_dv,Baseline: existing treatments - Medicines that weaken the immune system,-1.0,Don't know_dv
+1581119,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,0.0,Not mentioned
+1581120,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,1.0,Mentioned
+1581121,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-9.0,Missing
+1581122,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-8.0,Inapplicable
+1581123,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-2.0,Refusal
+1581124,UKHLS,xbaseline,hcond_treat3_dv,Baseline: existing treatments - Targeted/chemotherapy for cancer treatment,-1.0,Don't know_dv
+1581125,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,0.0,Not mentioned
+1581126,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,1.0,Mentioned
+1581127,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-9.0,Missing
+1581128,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-8.0,Inapplicable
+1581129,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-2.0,Refusal
+1581130,UKHLS,xbaseline,hcond_treat4_dv,Baseline: existing treatments - Radiotherapy for cancer treatment,-1.0,Don't know_dv
+1581131,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-1.0,Don't know_dv
+1581132,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,0.0,Not mentioned
+1581133,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,1.0,Mentioned
+1581134,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-9.0,Missing
+1581135,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-8.0,Inapplicable
+1581136,UKHLS,xbaseline,hcond_treat5_dv,Baseline: existing treatments - Other treatment or medication,-2.0,Refusal
+1581137,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,0.0,Not mentioned
+1581138,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,1.0,Mentioned
+1581139,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-9.0,Missing
+1581140,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-8.0,Inapplicable
+1581141,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-2.0,Refusal
+1581142,UKHLS,xbaseline,hcond_treat6_dv,Baseline: existing treatments - None of these,-1.0,Don't know_dv
+1581143,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,1.0,Yes
+1581144,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,2.0,No
+1581145,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,3.0,Not required
+1581146,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-9.0,Missing
+1581147,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-8.0,Inapplicable
+1581148,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-2.0,Refusal
+1581149,UKHLS,xbaseline,nhs2019gp_dv,Baseline: use of NHS in 2019 for condition - GP,-1.0,Don't know_dv
+1581150,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,1.0,Yes
+1581151,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,2.0,No
+1581152,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,3.0,Not required
+1581153,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-9.0,Missing
+1581154,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-8.0,Inapplicable
+1581155,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-2.0,Refusal
+1581156,UKHLS,xbaseline,nhs2019pm_dv,Baseline: use of NHS in 2019 for condition - prescription meds,-1.0,Don't know_dv
+1581157,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,1.0,Yes
+1581158,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,2.0,No
+1581159,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,3.0,Not required
+1581160,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-9.0,Missing
+1581161,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-8.0,Inapplicable
+1581162,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-2.0,Refusal
+1581163,UKHLS,xbaseline,nhs2019op_dv,Baseline: use of NHS in 2019 for condition - outpatients,-1.0,Don't know_dv
+1581164,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,1.0,Yes
+1581165,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,2.0,No
+1581166,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,3.0,Not required
+1581167,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-9.0,Missing
+1581168,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-8.0,Inapplicable
+1581169,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-2.0,Refusal
+1581170,UKHLS,xbaseline,nhs2019ip_dv,Baseline: use of NHS in 2019 for condition - inpatients,-1.0,Don't know_dv
+1581171,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,1.0,Yes
+1581172,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,2.0,No
+1581173,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,3.0,Not required
+1581174,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-9.0,Missing
+1581175,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-8.0,Inapplicable
+1581176,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-2.0,Refusal
+1581177,UKHLS,xbaseline,nhs2019111_dv,Baseline: use of NHS in 2019 for condition - NHS111,-1.0,Don't know_dv
+1581178,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,1.0,Yes
+1581179,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,2.0,No
+1581180,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,3.0,Not required
+1581181,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-9.0,Missing
+1581182,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-8.0,Inapplicable
+1581183,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-2.0,Refusal
+1581184,UKHLS,xbaseline,chsc2019pharm_dv,Baseline: use of CH&SC in 2019 for condition - pharmacists,-1.0,Don't know_dv
+1581185,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,1.0,Yes
+1581186,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,2.0,No
+1581187,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,3.0,Not required
+1581188,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-9.0,Missing
+1581189,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-8.0,Inapplicable
+1581190,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-2.0,Refusal
+1581191,UKHLS,xbaseline,chsc2019otcm_dv,Baseline: use of CH&SC in 2019 for condition - otc meds,-1.0,Don't know_dv
+1581192,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,1.0,Yes
+1581193,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,2.0,No
+1581194,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,3.0,Not required
+1581195,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-9.0,Missing
+1581196,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-8.0,Inapplicable
+1581197,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-2.0,Refusal
+1581198,UKHLS,xbaseline,chsc2019carer_dv,Baseline: use of CH&SC in 2019 for condition - formal carer,-1.0,Don't know_dv
+1581199,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,1.0,Yes; in person
+1581200,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,2.0,Yes; by telephone or online
+1581201,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,3.0,Yes; group sessions
+1581202,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,4.0,No
+1581203,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,5.0,Not required
+1581204,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-9.0,Missing
+1581205,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-8.0,Inapplicable
+1581206,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-2.0,Refusal
+1581207,UKHLS,xbaseline,chsc2019psy_dv,Baseline: use of CH&SC in 2019 for condition - Psychotherapist,-1.0,Don't know_dv
+1581208,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,1.0,Yes; employed
+1581209,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,2.0,Yes; self-employed
+1581210,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,3.0,Yes; both employed and self-employed
+1581211,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,4.0,No
+1581212,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-9.0,Missing
+1581213,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-8.0,Inapplicable
+1581214,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-2.0,Refusal
+1581215,UKHLS,xbaseline,blwork_dv,Were you in paid work or self-employment at any time in January or February 2020,-1.0,Don't know_dv
+1581216,UKHLS,xbaseline,blnonwork_dv,Baseline: activity in Jan Feb 2020,,
+1581217,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-9.0,Missing
+1581218,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-8.0,Inapplicable
+1581219,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-2.0,Refusal
+1581220,UKHLS,xbaseline,blhours_dv,During January and February 2020; how many hours did you usually work per week?,-1.0,Don't know_dv
+1581221,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,1.0,Fixed weekly hours 
+1581222,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,2.0,I chose my hours
+1581223,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,3.0,My employer chose my hours; with a minimum guaranteed number of hours
+1581224,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,4.0,My employer chose my hours; with no minimum guaranteed number of hours
+1581225,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-9.0,Missing
+1581226,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-8.0,Inapplicable
+1581227,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-2.0,Refusal
+1581228,UKHLS,xbaseline,blhrshow_dv,How were your hours set during January and February?,-1.0,Don't know_dv
+1581229,UKHLS,xbaseline,blpayhow_dv,Baseline: how paid,,
+1581230,UKHLS,xbaseline,blpay_amount_dv,Baseline: earnings amount,,
+1581231,UKHLS,xbaseline,blpay_period_dv,Baseline: earnings period,,
+1581232,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,1.0,Always
+1581233,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,2.0,Often
+1581234,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,3.0,Sometimes
+1581235,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,4.0,Never
+1581236,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-9.0,Missing
+1581237,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-8.0,Inapplicable
+1581238,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-2.0,Refusal
+1581239,UKHLS,xbaseline,blwah_dv,During January and February how often did you work at home?,-1.0,Don't know_dv
+1581240,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-9.0,Missing
+1581241,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-8.0,Inapplicable
+1581242,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-2.0,Refusal
+1581243,UKHLS,xbaseline,blhhearn_amount_dv,Baseline: household earnings amount,-1.0,Don't know_dv
+1581244,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,1.0,Per week
+1581245,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,2.0,Per 2 weeks
+1581246,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,3.0,Per month
+1581247,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,4.0,Per Year
+1581248,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,5.0,Week (topcoded)
+1581249,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-9.0,Missing
+1581250,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-8.0,Inapplicable
+1581251,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-2.0,Refusal
+1581252,UKHLS,xbaseline,blhhearn_period_dv,Baseline: household earnings period,-1.0,Don't know_dv
+1581253,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,0.0,Not mentioned
+1581254,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,1.0,Mentioned
+1581255,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-9.0,Missing
+1581256,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-8.0,Inapplicable
+1581257,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-2.0,Refusal
+1581258,UKHLS,xbaseline,blbenefits1_dv,Which of the following benefits you were receiving in January/February 2020:Univ,-1.0,Don't know_dv
+1581259,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,0.0,Not mentioned
+1581260,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,1.0,Mentioned
+1581261,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-9.0,Missing
+1581262,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-8.0,Inapplicable
+1581263,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-2.0,Refusal
+1581264,UKHLS,xbaseline,blbenefits2_dv,Which of the following benefits you were receiving in January/February 2020: Wor,-1.0,Don't know_dv
+1581265,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,0.0,Not mentioned
+1581266,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,1.0,Mentioned
+1581267,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-9.0,Missing
+1581268,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-8.0,Inapplicable
+1581269,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-2.0,Refusal
+1581270,UKHLS,xbaseline,blbenefits3_dv,Which of the following benefits you were receiving in January/February 2020: Chi,-1.0,Don't know_dv
+1581271,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,0.0,Not mentioned
+1581272,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,1.0,Mentioned
+1581273,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-9.0,Missing
+1581274,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-8.0,Inapplicable
+1581275,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-2.0,Refusal
+1581276,UKHLS,xbaseline,blbenefits4_dv,Which of the following benefits you were receiving in January/February 2020: Job,-1.0,Don't know_dv
+1581277,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,0.0,Not mentioned
+1581278,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,1.0,Mentioned
+1581279,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-9.0,Missing
+1581280,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-8.0,Inapplicable
+1581281,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-2.0,Refusal
+1581282,UKHLS,xbaseline,blbenefits5_dv,Which of the following benefits you were receiving in January/February 2020: Emp,-1.0,Don't know_dv
+1581283,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,0.0,Not mentioned
+1581284,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,1.0,Mentioned
+1581285,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-9.0,Missing
+1581286,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-8.0,Inapplicable
+1581287,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-2.0,Refusal
+1581288,UKHLS,xbaseline,blbenefits6_dv,Which of the following benefits you were receiving in January/February 2020: Non,-1.0,Don't know_dv
+1581289,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,1.0,Yes; increased
+1581290,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,2.0,Yes; decreased
+1581291,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,3.0,No
+1581292,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-9.0,Missing
+1581293,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-8.0,Inapplicable
+1581294,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-2.0,Refusal
+1581295,UKHLS,xbaseline,blbenchange_dv,Has the amount you receive for Universal Credit; Working Tax Credit or Child Tax,-1.0,Don't know_dv
+1581296,UKHLS,xbaseline,blbenefitsb651_dv,Baseline: benefits - Universal Credit,,
+1581297,UKHLS,xbaseline,blbenefitsb652_dv,Baseline: benefits - Working Tax Credit,,
+1581298,UKHLS,xbaseline,blbenefitsb653_dv,Baseline: benefits - Child Tax Credit,,
+1581299,UKHLS,xbaseline,blbenefitsb654_dv,Baseline: benefits - Jobseeker's Allowance,,
+1581300,UKHLS,xbaseline,blbenefitsb655_dv,Baseline: benefits - Employment and Support Allowance,,
+1581301,UKHLS,xbaseline,blbenefitsb656_dv,Baseline: benefits - None of these,,
+1581302,UKHLS,xbaseline,blbenchangeb65_dv,Amount of benefits changed,,
+1581303,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,1.0,w1_web
+1581304,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,2.0,w2_web
+1581305,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,3.0,w3_web
+1581306,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,4.0,w4_web
+1581307,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,5.0,w5_web
+1581308,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,6.0,w6_web
+1581309,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,1000.0,w1_tel
+1581310,UKHLS,xbaseline,firstinterview,Wave at which first interview completed,2000.0,w2_tel
+1581311,UKHLS,xbaseline,bl_outcome,Survey outcome,12.0,Partial interview
+1581312,UKHLS,xbaseline,bl_betaindin_xw,Respondent cross-sectional baseline weight; beta version,,
+1581313,UKHLS,xbaseline,avail_from_dt,,,

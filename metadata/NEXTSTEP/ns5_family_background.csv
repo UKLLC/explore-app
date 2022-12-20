@@ -1,0 +1,375 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1144604,NEXTSTEP,ns5_family_background,study_id_e,,,
+1144605,NEXTSTEP,ns5_family_background,samppsu,Admin: PSU Identfier for Analysis,-91.0,Not applicable
+1144606,NEXTSTEP,ns5_family_background,sampstratum,Admin: Sampling Stratum identifier for Analysis,-91.0,Not applicable
+1144607,NEXTSTEP,ns5_family_background,w5finwt_cross,Weight: W5 cross-sectional weight including boost respondents,,
+1144608,NEXTSTEP,ns5_family_background,w5mode,Admin: Interview mode,1.0, CATI
+1144609,NEXTSTEP,ns5_family_background,w5mode,Admin: Interview mode,2.0,CAPI
+1144610,NEXTSTEP,ns5_family_background,w5mode,Admin: Interview mode,3.0,WEB
+1144611,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,1.0, January
+1144612,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,2.0,February
+1144613,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,3.0,March
+1144614,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,4.0,April
+1144615,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,5.0,May
+1144616,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,6.0,June
+1144617,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,7.0,July
+1144618,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,8.0,August
+1144619,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,9.0,September
+1144620,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,10.0,October
+1144621,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,11.0,November
+1144622,NEXTSTEP,ns5_family_background,w5intmonth,Admin: Interview month,12.0,December
+1144623,NEXTSTEP,ns5_family_background,w5intyear,Admin: Interview year,,
+1144624,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,-999.0, Missing household information
+1144625,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,-92.0,Refused
+1144626,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,-91.0,Not applicable
+1144627,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,-1.0,Don't know
+1144628,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,1.0,Yes
+1144629,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,2.0,No
+1144630,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,3.0,Yes- but error in some of the details
+1144631,NEXTSTEP,ns5_family_background,w5sameaddhh,YP: Whether still lives at same address as previous interview,4.0,Not to be asked HH Grid
+1144632,NEXTSTEP,ns5_family_background,w5anystayhh,YP: Whether still living with any of the same people as at last interview,-999.0, Missing household information
+1144633,NEXTSTEP,ns5_family_background,w5anystayhh,YP: Whether still living with any of the same people as at last interview,-92.0,Refused
+1144634,NEXTSTEP,ns5_family_background,w5anystayhh,YP: Whether still living with any of the same people as at last interview,-91.0,Not applicable
+1144635,NEXTSTEP,ns5_family_background,w5anystayhh,YP: Whether still living with any of the same people as at last interview,-1.0,Don't know
+1144636,NEXTSTEP,ns5_family_background,w5anystayhh,YP: Whether still living with any of the same people as at last interview,1.0,Yes
+1144637,NEXTSTEP,ns5_family_background,w5anystayhh,YP: Whether still living with any of the same people as at last interview,2.0,No
+1144638,NEXTSTEP,ns5_family_background,w5hhnumhh,YP: Number of people normally living at address,-999.0, Missing household information
+1144639,NEXTSTEP,ns5_family_background,w5hhnumhh,YP: Number of people normally living at address,-92.0,Refused
+1144640,NEXTSTEP,ns5_family_background,w5hhnumhh,YP: Number of people normally living at address,-91.0,Not applicable
+1144641,NEXTSTEP,ns5_family_background,w5hhnumhh,YP: Number of people normally living at address,-1.0,Don't know
+1144642,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,-999.0, Missing household information
+1144643,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,-92.0,Refused
+1144644,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,-91.0,Not applicable
+1144645,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,-1.0,Don't know
+1144646,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,1.0,Owned
+1144647,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,2.0,Rented
+1144648,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,3.0,Something else
+1144649,NEXTSTEP,ns5_family_background,w5hous12hh,YP: Type of tenure,6.0,Not to be asked HH Grid
+1144650,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,-999.0, Missing household information
+1144651,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,-92.0,Refused
+1144652,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,-91.0,Not applicable
+1144653,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,-1.0,Don't know
+1144654,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,1.0,Owned outright
+1144655,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,2.0,Being bought on a mortgage/ bank loan
+1144656,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,3.0,Shared ownership (owns and rents the property)
+1144657,NEXTSTEP,ns5_family_background,w5hous12bhh,YP: Tenure of owned house,4.0,Some other arrangement
+1144658,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,-999.0, Missing household information
+1144659,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,-92.0,Refused
+1144660,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,-91.0,Not applicable
+1144661,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,-1.0,Don't know
+1144662,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,1.0,Rented from a Council or New town
+1144663,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,2.0,Rented from a Housing Association
+1144664,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,3.0,Rented privately
+1144665,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,4.0,Rent free
+1144666,NEXTSTEP,ns5_family_background,w5hous12chh,YP: Tenure of rented house,5.0,Some other arrangement
+1144667,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,-91.0, Not applicable
+1144668,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,-1.0,Don't Know
+1144669,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,1.0,Armed Forces' residential accommodation
+1144670,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,2.0,A college or other educational residential accommodation
+1144671,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,3.0,NHS residential accommodation
+1144672,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,4.0,Other employer's residential accommodation (NOT an ordinary flat or house owned by employer)
+1144673,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,5.0,"A hotel, boarding house or hostel"
+1144674,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,6.0,"Any other kind of communal establishment (eg. prisons, hospital etc)"
+1144675,NEXTSTEP,ns5_family_background,w5incarhh,YP: Whether YP lives in any of the following types of accommodation,8.0,None of these
+1144676,NEXTSTEP,ns5_family_background,w5femployyp,YP: Whether father/mother's partner is employed,-92.0, Refused
+1144677,NEXTSTEP,ns5_family_background,w5femployyp,YP: Whether father/mother's partner is employed,-91.0,Not applicable
+1144678,NEXTSTEP,ns5_family_background,w5femployyp,YP: Whether father/mother's partner is employed,-1.0,Don't know
+1144679,NEXTSTEP,ns5_family_background,w5femployyp,YP: Whether father/mother's partner is employed,1.0,Yes
+1144680,NEXTSTEP,ns5_family_background,w5femployyp,YP: Whether father/mother's partner is employed,2.0,No
+1144681,NEXTSTEP,ns5_family_background,w5fempstatyp,YP: Whether father/mother's partner is employee or self-employed,-92.0, Refused
+1144682,NEXTSTEP,ns5_family_background,w5fempstatyp,YP: Whether father/mother's partner is employee or self-employed,-91.0,Not applicable
+1144683,NEXTSTEP,ns5_family_background,w5fempstatyp,YP: Whether father/mother's partner is employee or self-employed,-1.0,Don't know
+1144684,NEXTSTEP,ns5_family_background,w5fempstatyp,YP: Whether father/mother's partner is employee or self-employed,1.0,Employee
+1144685,NEXTSTEP,ns5_family_background,w5fempstatyp,YP: Whether father/mother's partner is employee or self-employed,2.0,Self-employed
+1144686,NEXTSTEP,ns5_family_background,w5fsuperyp,YP: Whether father/mothers partner formal resp. for supervis. work of other employees,-92.0, Refused
+1144687,NEXTSTEP,ns5_family_background,w5fsuperyp,YP: Whether father/mothers partner formal resp. for supervis. work of other employees,-91.0,Not applicable
+1144688,NEXTSTEP,ns5_family_background,w5fsuperyp,YP: Whether father/mothers partner formal resp. for supervis. work of other employees,-1.0,Don't know
+1144689,NEXTSTEP,ns5_family_background,w5fsuperyp,YP: Whether father/mothers partner formal resp. for supervis. work of other employees,1.0,Yes
+1144690,NEXTSTEP,ns5_family_background,w5fsuperyp,YP: Whether father/mothers partner formal resp. for supervis. work of other employees,2.0,No
+1144691,NEXTSTEP,ns5_family_background,w5fmanyyp,YP: Number of employees at father's/mother's partner's place of work,-92.0, Refused
+1144692,NEXTSTEP,ns5_family_background,w5fmanyyp,YP: Number of employees at father's/mother's partner's place of work,-91.0,Not applicable
+1144693,NEXTSTEP,ns5_family_background,w5fmanyyp,YP: Number of employees at father's/mother's partner's place of work,-1.0,Don't know
+1144694,NEXTSTEP,ns5_family_background,w5fmanyyp,YP: Number of employees at father's/mother's partner's place of work,1.0,1 to 24
+1144695,NEXTSTEP,ns5_family_background,w5fmanyyp,YP: Number of employees at father's/mother's partner's place of work,2.0,25 to 499
+1144696,NEXTSTEP,ns5_family_background,w5fmanyyp,YP: Number of employees at father's/mother's partner's place of work,3.0,500 or more
+1144697,NEXTSTEP,ns5_family_background,w5fmany2yp,YP: Whether more or less than 25 employees at father's/mother's partner's place of work,-92.0, Refused
+1144698,NEXTSTEP,ns5_family_background,w5fmany2yp,YP: Whether more or less than 25 employees at father's/mother's partner's place of work,-91.0,Not applicable
+1144699,NEXTSTEP,ns5_family_background,w5fmany2yp,YP: Whether more or less than 25 employees at father's/mother's partner's place of work,-1.0,Don't know
+1144700,NEXTSTEP,ns5_family_background,w5fmany2yp,YP: Whether more or less than 25 employees at father's/mother's partner's place of work,1.0,Fewer than 25
+1144701,NEXTSTEP,ns5_family_background,w5fmany2yp,YP: Whether more or less than 25 employees at father's/mother's partner's place of work,2.0,More than 25
+1144702,NEXTSTEP,ns5_family_background,w5fselfyp,YP: Whether father/mother's partner works alone or with employees,-92.0, Refused
+1144703,NEXTSTEP,ns5_family_background,w5fselfyp,YP: Whether father/mother's partner works alone or with employees,-91.0,Not applicable
+1144704,NEXTSTEP,ns5_family_background,w5fselfyp,YP: Whether father/mother's partner works alone or with employees,-1.0,Don't know
+1144705,NEXTSTEP,ns5_family_background,w5fselfyp,YP: Whether father/mother's partner works alone or with employees,1.0,"On own/ with partner(s), but no employees"
+1144706,NEXTSTEP,ns5_family_background,w5fselfyp,YP: Whether father/mother's partner works alone or with employees,2.0,With employees
+1144707,NEXTSTEP,ns5_family_background,w5fmanysyp,YP: Number of people father/mother's partner employs,-92.0, Refused
+1144708,NEXTSTEP,ns5_family_background,w5fmanysyp,YP: Number of people father/mother's partner employs,-91.0,Not applicable
+1144709,NEXTSTEP,ns5_family_background,w5fmanysyp,YP: Number of people father/mother's partner employs,-1.0,Don't know
+1144710,NEXTSTEP,ns5_family_background,w5fmanysyp,YP: Number of people father/mother's partner employs,1.0,None
+1144711,NEXTSTEP,ns5_family_background,w5fmanysyp,YP: Number of people father/mother's partner employs,2.0,1 to 24
+1144712,NEXTSTEP,ns5_family_background,w5fmanysyp,YP: Number of people father/mother's partner employs,3.0,25 to 499
+1144713,NEXTSTEP,ns5_family_background,w5fmanys2yp,YP: Whether fewer or more than 25 employees in father's/mother's partner's employment,-92.0, Refused
+1144714,NEXTSTEP,ns5_family_background,w5fmanys2yp,YP: Whether fewer or more than 25 employees in father's/mother's partner's employment,-91.0,Not applicable
+1144715,NEXTSTEP,ns5_family_background,w5fmanys2yp,YP: Whether fewer or more than 25 employees in father's/mother's partner's employment,-1.0,Don't know
+1144716,NEXTSTEP,ns5_family_background,w5fmanys2yp,YP: Whether fewer or more than 25 employees in father's/mother's partner's employment,1.0,Fewer than 25
+1144717,NEXTSTEP,ns5_family_background,w5fmanys2yp,YP: Whether fewer or more than 25 employees in father's/mother's partner's employment,2.0,More than 25
+1144718,NEXTSTEP,ns5_family_background,w5socdad,Admin: Father's SOC code (2 digits),-95.0,Unable to code
+1144719,NEXTSTEP,ns5_family_background,w5socdad,Admin: Father's SOC code (2 digits),-91.0,Not applicable
+1144720,NEXTSTEP,ns5_family_background,w5sicdad,Admin: Father's SIC code (2 digits),-95.0,Unable to code
+1144721,NEXTSTEP,ns5_family_background,w5sicdad,Admin: Father's SIC code (2 digits),-91.0,Not applicable
+1144722,NEXTSTEP,ns5_family_background,w5memployyp,YP: Whether mother/ father's partner is employed,-92.0, Refused
+1144723,NEXTSTEP,ns5_family_background,w5memployyp,YP: Whether mother/ father's partner is employed,-91.0,Not applicable
+1144724,NEXTSTEP,ns5_family_background,w5memployyp,YP: Whether mother/ father's partner is employed,-1.0,Don't know
+1144725,NEXTSTEP,ns5_family_background,w5memployyp,YP: Whether mother/ father's partner is employed,1.0,Yes
+1144726,NEXTSTEP,ns5_family_background,w5memployyp,YP: Whether mother/ father's partner is employed,2.0,No
+1144727,NEXTSTEP,ns5_family_background,w5mempstatyp,YP: Whether mother/father's partner is employed or self-employed,-92.0, Refused
+1144728,NEXTSTEP,ns5_family_background,w5mempstatyp,YP: Whether mother/father's partner is employed or self-employed,-91.0,Not applicable
+1144729,NEXTSTEP,ns5_family_background,w5mempstatyp,YP: Whether mother/father's partner is employed or self-employed,-1.0,Don't know
+1144730,NEXTSTEP,ns5_family_background,w5mempstatyp,YP: Whether mother/father's partner is employed or self-employed,1.0,Employee
+1144731,NEXTSTEP,ns5_family_background,w5mempstatyp,YP: Whether mother/father's partner is employed or self-employed,2.0,Self-employed
+1144732,NEXTSTEP,ns5_family_background,w5msuperyp,YP: Whether mother/fathers partner formal resp. for supervis. work of other employees,-92.0, Refused
+1144733,NEXTSTEP,ns5_family_background,w5msuperyp,YP: Whether mother/fathers partner formal resp. for supervis. work of other employees,-91.0,Not applicable
+1144734,NEXTSTEP,ns5_family_background,w5msuperyp,YP: Whether mother/fathers partner formal resp. for supervis. work of other employees,-1.0,Don't know
+1144735,NEXTSTEP,ns5_family_background,w5msuperyp,YP: Whether mother/fathers partner formal resp. for supervis. work of other employees,1.0,Yes
+1144736,NEXTSTEP,ns5_family_background,w5msuperyp,YP: Whether mother/fathers partner formal resp. for supervis. work of other employees,2.0,No
+1144737,NEXTSTEP,ns5_family_background,w5mmanyyp,YP: Number of employees at mother's/father's partner's place of work,-92.0, Refused
+1144738,NEXTSTEP,ns5_family_background,w5mmanyyp,YP: Number of employees at mother's/father's partner's place of work,-91.0,Not applicable
+1144739,NEXTSTEP,ns5_family_background,w5mmanyyp,YP: Number of employees at mother's/father's partner's place of work,-1.0,Don't know
+1144740,NEXTSTEP,ns5_family_background,w5mmanyyp,YP: Number of employees at mother's/father's partner's place of work,1.0,1 to 24
+1144741,NEXTSTEP,ns5_family_background,w5mmanyyp,YP: Number of employees at mother's/father's partner's place of work,2.0,25 to 499
+1144742,NEXTSTEP,ns5_family_background,w5mmanyyp,YP: Number of employees at mother's/father's partner's place of work,3.0,500 or more
+1144743,NEXTSTEP,ns5_family_background,w5mmany2yp,YP: Whether fewer or more than 25 employees at mothers/fathers partner,-92.0, Refused
+1144744,NEXTSTEP,ns5_family_background,w5mmany2yp,YP: Whether fewer or more than 25 employees at mothers/fathers partner,-91.0,Not applicable
+1144745,NEXTSTEP,ns5_family_background,w5mmany2yp,YP: Whether fewer or more than 25 employees at mothers/fathers partner,-1.0,Don't know
+1144746,NEXTSTEP,ns5_family_background,w5mmany2yp,YP: Whether fewer or more than 25 employees at mothers/fathers partner,1.0,Fewer than 25
+1144747,NEXTSTEP,ns5_family_background,w5mmany2yp,YP: Whether fewer or more than 25 employees at mothers/fathers partner,2.0,More than 25
+1144748,NEXTSTEP,ns5_family_background,w5mselfyp,YP: Whether mother/father's partner work alone or with employees,-92.0, Refused
+1144749,NEXTSTEP,ns5_family_background,w5mselfyp,YP: Whether mother/father's partner work alone or with employees,-91.0,Not applicable
+1144750,NEXTSTEP,ns5_family_background,w5mselfyp,YP: Whether mother/father's partner work alone or with employees,-1.0,Don't know
+1144751,NEXTSTEP,ns5_family_background,w5mselfyp,YP: Whether mother/father's partner work alone or with employees,1.0,"On own/ with partner(s), but no employees"
+1144752,NEXTSTEP,ns5_family_background,w5mselfyp,YP: Whether mother/father's partner work alone or with employees,2.0,With employees
+1144753,NEXTSTEP,ns5_family_background,w5mmanysyp,YP: Number of people mother/father's partner employs,-92.0, Refused
+1144754,NEXTSTEP,ns5_family_background,w5mmanysyp,YP: Number of people mother/father's partner employs,-91.0,Not applicable
+1144755,NEXTSTEP,ns5_family_background,w5mmanysyp,YP: Number of people mother/father's partner employs,-1.0,Don't know
+1144756,NEXTSTEP,ns5_family_background,w5mmanysyp,YP: Number of people mother/father's partner employs,1.0,None
+1144757,NEXTSTEP,ns5_family_background,w5mmanysyp,YP: Number of people mother/father's partner employs,2.0,1 to 24
+1144758,NEXTSTEP,ns5_family_background,w5mmanysyp,YP: Number of people mother/father's partner employs,3.0,25 to 499
+1144759,NEXTSTEP,ns5_family_background,w5mmanys2yp,YP: Whether mother/father's partner employs fewer than or more than 25 employees,-92.0, Refused
+1144760,NEXTSTEP,ns5_family_background,w5mmanys2yp,YP: Whether mother/father's partner employs fewer than or more than 25 employees,-91.0,Not applicable
+1144761,NEXTSTEP,ns5_family_background,w5mmanys2yp,YP: Whether mother/father's partner employs fewer than or more than 25 employees,-1.0,Don't know
+1144762,NEXTSTEP,ns5_family_background,w5mmanys2yp,YP: Whether mother/father's partner employs fewer than or more than 25 employees,1.0,Fewer than 25
+1144763,NEXTSTEP,ns5_family_background,w5mmanys2yp,YP: Whether mother/father's partner employs fewer than or more than 25 employees,2.0,More than 25
+1144764,NEXTSTEP,ns5_family_background,w5socmum,Admin: Mother's SOC code (2 digits),-95.0,Unable to code
+1144765,NEXTSTEP,ns5_family_background,w5socmum,Admin: Mother's SOC code (2 digits),-91.0,Not applicable
+1144766,NEXTSTEP,ns5_family_background,w5sicmum,Admin: Mother's SIC code (2 digits),-95.0,Unable to code
+1144767,NEXTSTEP,ns5_family_background,w5sicmum,Admin: Mother's SIC code (2 digits),-91.0,Not applicable
+1144768,NEXTSTEP,ns5_family_background,w5mopres,DV: Indicates mothers/father's partners present in the household at W5,-999.0,Household information missing
+1144769,NEXTSTEP,ns5_family_background,w5mopres,DV: Indicates mothers/father's partners present in the household at W5,-98.0,Mother not present at wave 5
+1144770,NEXTSTEP,ns5_family_background,w5mopres,DV: Indicates mothers/father's partners present in the household at W5,-94.0,Insufficient information
+1144771,NEXTSTEP,ns5_family_background,w5mopres,DV: Indicates mothers/father's partners present in the household at W5,-91.0,Not applicable
+1144772,NEXTSTEP,ns5_family_background,w5mopres,DV: Indicates mothers/father's partners present in the household at W5,1.0,Mother present at W5
+1144773,NEXTSTEP,ns5_family_background,w5mopres,DV: Indicates mothers/father's partners present in the household at W5,2.0,Father's partner present at W5
+1144774,NEXTSTEP,ns5_family_background,w5fapres,DV: Indicates fathers/mother's partners present in the household at W5,-999.0,Household information missing
+1144775,NEXTSTEP,ns5_family_background,w5fapres,DV: Indicates fathers/mother's partners present in the household at W5,-98.0,Father not present at wave 5
+1144776,NEXTSTEP,ns5_family_background,w5fapres,DV: Indicates fathers/mother's partners present in the household at W5,-94.0,Insufficient information
+1144777,NEXTSTEP,ns5_family_background,w5fapres,DV: Indicates fathers/mother's partners present in the household at W5,-91.0,Not applicable
+1144778,NEXTSTEP,ns5_family_background,w5fapres,DV: Indicates fathers/mother's partners present in the household at W5,1.0,Father present at W5
+1144779,NEXTSTEP,ns5_family_background,w5fapres,DV: Indicates fathers/mother's partners present in the household at W5,2.0,Mother's partner present at W5
+1144780,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),-999.0,Household information missing
+1144781,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),-94.0,Insufficient information
+1144782,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),-93.0,New at Wave 5 - unable to derive age
+1144783,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),-91.0,Not applicable
+1144784,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),-1.0,Don't know
+1144785,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),1.0,16 - 24
+1144786,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),2.0,25 - 29
+1144787,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),3.0,30 - 34
+1144788,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),4.0,35 - 39
+1144789,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),5.0,40 - 44
+1144790,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),6.0,45 - 49
+1144791,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),7.0,50 - 54
+1144792,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),8.0,55 - 59
+1144793,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),9.0,60 - 64
+1144794,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),10.0,65 - 70
+1144795,NEXTSTEP,ns5_family_background,w5agebd5mum,DV: Age of YP's mother (5 year bands),11.0,70+
+1144796,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),-999.0,Household information missing
+1144797,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),-94.0,Insufficient information
+1144798,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),-93.0,New at Wave 5 - unable to derive age
+1144799,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),-91.0,Not applicable
+1144800,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),-1.0,Don't know
+1144801,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),1.0,16 - 24
+1144802,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),2.0,25 - 29
+1144803,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),3.0,30 - 34
+1144804,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),4.0,35 - 39
+1144805,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),5.0,40 - 44
+1144806,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),6.0,45 - 49
+1144807,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),7.0,50 - 54
+1144808,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),8.0,55 - 59
+1144809,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),9.0,60 - 64
+1144810,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),10.0,65 - 70
+1144811,NEXTSTEP,ns5_family_background,w5agebd5dad,DV: Age of YP's father (5 year bands),11.0,70+
+1144812,NEXTSTEP,ns5_family_background,w5agebd10mum,DV: Age of YP's mother (10 year bands),-999.0,Household information missing
+1144813,NEXTSTEP,ns5_family_background,w5agebd10mum,DV: Age of YP's mother (10 year bands),-91.0,Not applicable
+1144814,NEXTSTEP,ns5_family_background,w5agebd10mum,DV: Age of YP's mother (10 year bands),1.0,16 - 34
+1144815,NEXTSTEP,ns5_family_background,w5agebd10mum,DV: Age of YP's mother (10 year bands),2.0,35 - 44
+1144816,NEXTSTEP,ns5_family_background,w5agebd10mum,DV: Age of YP's mother (10 year bands),3.0,45 - 54
+1144817,NEXTSTEP,ns5_family_background,w5agebd10mum,DV: Age of YP's mother (10 year bands),4.0,55 - 64
+1144818,NEXTSTEP,ns5_family_background,w5agebd10mum,DV: Age of YP's mother (10 year bands),5.0,65+
+1144819,NEXTSTEP,ns5_family_background,w5agebd10dad,DV: Age of YP's father (10 year bands),-999.0,Household information missing
+1144820,NEXTSTEP,ns5_family_background,w5agebd10dad,DV: Age of YP's father (10 year bands),-91.0,Not applicable
+1144821,NEXTSTEP,ns5_family_background,w5agebd10dad,DV: Age of YP's father (10 year bands),1.0,16 - 34
+1144822,NEXTSTEP,ns5_family_background,w5agebd10dad,DV: Age of YP's father (10 year bands),2.0,35 - 44
+1144823,NEXTSTEP,ns5_family_background,w5agebd10dad,DV: Age of YP's father (10 year bands),3.0,45 - 54
+1144824,NEXTSTEP,ns5_family_background,w5agebd10dad,DV: Age of YP's father (10 year bands),4.0,55 - 64
+1144825,NEXTSTEP,ns5_family_background,w5agebd10dad,DV: Age of YP's father (10 year bands),5.0,65+
+1144826,NEXTSTEP,ns5_family_background,w5wrkagemum,DV: Whether mother is of working age,-999.0,Household information missing
+1144827,NEXTSTEP,ns5_family_background,w5wrkagemum,DV: Whether mother is of working age,-94.0,Insufficient information
+1144828,NEXTSTEP,ns5_family_background,w5wrkagemum,DV: Whether mother is of working age,-91.0,Not applicable
+1144829,NEXTSTEP,ns5_family_background,w5wrkagemum,DV: Whether mother is of working age,0.0,No
+1144830,NEXTSTEP,ns5_family_background,w5wrkagemum,DV: Whether mother is of working age,1.0,Yes
+1144831,NEXTSTEP,ns5_family_background,w5wrkagedad,DV: Whether father is of working age,-999.0,Household information missing
+1144832,NEXTSTEP,ns5_family_background,w5wrkagedad,DV: Whether father is of working age,-94.0,Insufficient information
+1144833,NEXTSTEP,ns5_family_background,w5wrkagedad,DV: Whether father is of working age,-91.0,Not applicable
+1144834,NEXTSTEP,ns5_family_background,w5wrkagedad,DV: Whether father is of working age,0.0,No
+1144835,NEXTSTEP,ns5_family_background,w5wrkagedad,DV: Whether father is of working age,1.0,Yes
+1144836,NEXTSTEP,ns5_family_background,w5empsmum,DV: *Employment status of mother/father's partner,-98.0,Mother/father's partner not present
+1144837,NEXTSTEP,ns5_family_background,w5empsmum,DV: *Employment status of mother/father's partner,-94.0,Insufficient information
+1144838,NEXTSTEP,ns5_family_background,w5empsmum,DV: *Employment status of mother/father's partner,-1.0,Don't know
+1144839,NEXTSTEP,ns5_family_background,w5empsmum,DV: *Employment status of mother/father's partner,0.0,Not employed
+1144840,NEXTSTEP,ns5_family_background,w5empsmum,DV: *Employment status of mother/father's partner,1.0,Employed
+1144841,NEXTSTEP,ns5_family_background,w5empsmum,DV: *Employment status of mother/father's partner,2.0,Self-employed
+1144842,NEXTSTEP,ns5_family_background,w5empsmum,DV: *Employment status of mother/father's partner,3.0,"Employed, status unknown"
+1144843,NEXTSTEP,ns5_family_background,w5empsdad,DV: *Employment status of father/mother's partner,-98.0,Father/mother's partner not present
+1144844,NEXTSTEP,ns5_family_background,w5empsdad,DV: *Employment status of father/mother's partner,-94.0,Insufficient information
+1144845,NEXTSTEP,ns5_family_background,w5empsdad,DV: *Employment status of father/mother's partner,-1.0,Don't know
+1144846,NEXTSTEP,ns5_family_background,w5empsdad,DV: *Employment status of father/mother's partner,0.0,Not employed
+1144847,NEXTSTEP,ns5_family_background,w5empsdad,DV: *Employment status of father/mother's partner,1.0,Employed
+1144848,NEXTSTEP,ns5_family_background,w5empsdad,DV: *Employment status of father/mother's partner,2.0,Self-employed
+1144849,NEXTSTEP,ns5_family_background,w5empsdad,DV: *Employment status of father/mother's partner,3.0,"Employed, status unknown"
+1144850,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,-98.0,Mother/father's partner not present
+1144851,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,-94.0,Insufficient Information
+1144852,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,-91.0,Not applicable - not currently working
+1144853,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,1.0,Employers - Large Organisations
+1144854,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,2.0,Employers - Small Organisations
+1144855,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,3.0,Self Employed - no employees
+1144856,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,4.0,Managers - Large Organisations
+1144857,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,5.0,Managers - Small Organisations
+1144858,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,6.0,Supervisors
+1144859,NEXTSTEP,ns5_family_background,w5cempszmum,DV: Current employment status/size of organisation for mother/father's partner,7.0,Other Employees
+1144860,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,-98.0,Father/mother's partner not present
+1144861,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,-94.0,Insufficient Information
+1144862,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,-91.0,Not applicable - not currently working
+1144863,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,1.0,Employers - Large Organisations
+1144864,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,2.0,Employers - Small Organisations
+1144865,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,3.0,Self Employed - no employees
+1144866,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,4.0,Managers - Large Organisations
+1144867,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,5.0,Managers - Small Organisations
+1144868,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,6.0,Supervisors
+1144869,NEXTSTEP,ns5_family_background,w5cempszdad,DV: Current employment status/size of organisation for father/mother's partner,7.0,Other Employees
+1144870,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,-98.0,Mother/father's partner not present
+1144871,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,1.0,Employers in large organisations
+1144872,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,2.0,Higher managerial occupations
+1144873,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,3.1,Higher professional traditional employee
+1144874,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,3.2,Higher professional new employee
+1144875,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,3.3,Higher professional traditional self employed
+1144876,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,3.4,Higher professional new self employed
+1144877,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,4.1,Lower professional traditional employee
+1144878,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,4.2,Lower professional new employee
+1144879,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,4.3,Lower professional traditional self employed
+1144880,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,4.4,Lower professional new self employed
+1144881,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,5.0,Lower managerial occupations
+1144882,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,6.0,Higher supervisory occupations
+1144883,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,7.1,Intermediate clerical and administrative
+1144884,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,7.2,Intermediate sales and service
+1144885,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,7.3,Intermediate technical and auxiliary
+1144886,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,7.4,Intermediate engineering
+1144887,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,8.1,Employers in small orgs non-professional
+1144888,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,8.2,Employers in small orgs agriculture
+1144889,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,9.1,Own account workers non professional
+1144890,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,9.2,Own account workers agriculture
+1144891,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,10.0,Lower supervisory occupations
+1144892,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,11.1,Lower technical craft
+1144893,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,11.2,Lower technical process operative
+1144894,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,12.1,Semi routine sales
+1144895,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,12.2,Semi routine services
+1144896,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,12.3,Semi routine technical
+1144897,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,12.4,Semi routine operative
+1144898,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,12.5,Semi routine agricultural
+1144899,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,12.6,Semi routine clerical
+1144900,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,12.7,Semi routine childcare
+1144901,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,13.1,Routine sales and service
+1144902,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,13.2,Routine production
+1144903,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,13.3,Routine technical
+1144904,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,13.4,Routine operative
+1144905,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,13.5,Routine agricultural
+1144906,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,14.1,Never worked
+1144907,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,14.2,Long-term unemployed
+1144908,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,14.3,Not currently working
+1144909,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,15.0,Full-time students
+1144910,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,16.0,Not classified or inadequately stated
+1144911,NEXTSTEP,ns5_family_background,w5cnsseccatmum,DV: Mother/father's partner's current NS-SEC operational category,17.0,Not classifiable for other reasons
+1144912,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,-98.0,Father/mother's partner not present
+1144913,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,1.0,Employers in large organisations
+1144914,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,2.0,Higher managerial occupations
+1144915,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,3.1,Higher professional traditional employee
+1144916,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,3.2,Higher professional new employee
+1144917,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,3.3,Higher professional traditional self employed
+1144918,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,3.4,Higher professional new self employed
+1144919,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,4.1,Lower professional traditional employee
+1144920,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,4.2,Lower professional new employee
+1144921,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,4.3,Lower professional traditional self employed
+1144922,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,4.4,Lower professional new self employed
+1144923,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,5.0,Lower managerial occupations
+1144924,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,6.0,Higher supervisory occupations
+1144925,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,7.1,Intermediate clerical and administrative
+1144926,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,7.2,Intermediate sales and service
+1144927,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,7.3,Intermediate technical and auxiliary
+1144928,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,7.4,Intermediate engineering
+1144929,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,8.1,Employers in small orgs non-professional
+1144930,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,8.2,Employers in small orgs agriculture
+1144931,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,9.1,Own account workers non professional
+1144932,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,9.2,Own account workers agriculture
+1144933,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,10.0,Lower supervisory occupations
+1144934,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,11.1,Lower technical craft
+1144935,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,11.2,Lower technical process operative
+1144936,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,12.1,Semi routine sales
+1144937,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,12.2,Semi routine services
+1144938,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,12.3,Semi routine technical
+1144939,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,12.4,Semi routine operative
+1144940,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,12.5,Semi routine agricultural
+1144941,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,12.6,Semi routine clerical
+1144942,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,12.7,Semi routine childcare
+1144943,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,13.1,Routine sales and service
+1144944,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,13.2,Routine production
+1144945,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,13.3,Routine technical
+1144946,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,13.4,Routine operative
+1144947,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,13.5,Routine agricultural
+1144948,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,14.1,Never worked
+1144949,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,14.2,Long-term unemployed
+1144950,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,14.3,Not currently working
+1144951,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,15.0,Full-time students
+1144952,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,16.0,Not classified or inadequately stated
+1144953,NEXTSTEP,ns5_family_background,w5cnsseccatdad,DV: Father/mother's partner's current NS-SEC operational category,17.0,Not classifiable for other reasons
+1144954,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,-98.0,Mother/father's partner not present
+1144955,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,-94.0,Insufficient information
+1144956,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,-91.0,Not applicable
+1144957,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,1.0,Higher Managerial and professional occupations
+1144958,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,2.0,Lower managerial and professional occupations
+1144959,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,3.0,Intermediate occupations
+1144960,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,4.0,Small employers and own account workers
+1144961,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,5.0,Lower supervisory and technical occupations
+1144962,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,6.0,Semi-routine occupations
+1144963,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,7.0,Routine occupations
+1144964,NEXTSTEP,ns5_family_background,w5cnssecmum,DV: Mother/father's partner current NS-SEC class,8.0,Not currently working
+1144965,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,-98.0,Father/mother's partner not present
+1144966,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,-94.0,Insufficient information
+1144967,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,-91.0,Not applicable
+1144968,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,1.0,Higher Managerial and professional occupations
+1144969,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,2.0,Lower managerial and professional occupations
+1144970,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,3.0,Intermediate occupations
+1144971,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,4.0,Small employers and own account workers
+1144972,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,5.0,Lower supervisory and technical occupations
+1144973,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,6.0,Semi-routine occupations
+1144974,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,7.0,Routine occupations
+1144975,NEXTSTEP,ns5_family_background,w5cnssecdad,DV: Father/mother's partner's current NS-SEC class,8.0,Not currently working
+1144976,NEXTSTEP,ns5_family_background,v3,None,,
+1144977,NEXTSTEP,ns5_family_background,avail_from_dt,,,

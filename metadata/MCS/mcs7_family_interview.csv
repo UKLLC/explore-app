@@ -1,0 +1,1300 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+878996,MCS,mcs7_family_interview,g_country,IWR: country of interview,-1.0,Not applicable
+878997,MCS,mcs7_family_interview,g_country,IWR: country of interview,1.0,England
+878998,MCS,mcs7_family_interview,g_country,IWR: country of interview,2.0,Wales
+878999,MCS,mcs7_family_interview,g_country,IWR: country of interview,3.0,Scotland
+879000,MCS,mcs7_family_interview,g_country,IWR: country of interview,4.0,NI
+879001,MCS,mcs7_family_interview,ghnrml00,Address: normally live at this address or somewhere else?,-1.0,Not applicable
+879002,MCS,mcs7_family_interview,ghnrml00,Address: normally live at this address or somewhere else?,1.0,This address
+879003,MCS,mcs7_family_interview,ghnrml00,Address: normally live at this address or somewhere else?,2.0,Somewhere else
+879004,MCS,mcs7_family_interview,ghnrml00,Address: normally live at this address or somewhere else?,3.0,Do not know
+879005,MCS,mcs7_family_interview,ghnrml00,Address: normally live at this address or somewhere else?,4.0,Refused
+879006,MCS,mcs7_family_interview,ghadsa00,Same address as of last interview?,-1.0,Not applicable
+879007,MCS,mcs7_family_interview,ghadsa00,Same address as of last interview?,1.0,Yes
+879008,MCS,mcs7_family_interview,ghadsa00,Same address as of last interview?,2.0,No
+879009,MCS,mcs7_family_interview,ghadsa00,Same address as of last interview?,3.0,Do not know
+879010,MCS,mcs7_family_interview,ghadsa00,Same address as of last interview?,4.0,Prefer not to answer
+879011,MCS,mcs7_family_interview,ghadsm00,Did one of the CMs move with one of the parents since last interview?,-1.0,Not applicable
+879012,MCS,mcs7_family_interview,ghadsm00,Did one of the CMs move with one of the parents since last interview?,1.0,Yes
+879013,MCS,mcs7_family_interview,ghadsm00,Did one of the CMs move with one of the parents since last interview?,2.0,No
+879014,MCS,mcs7_family_interview,ghadsm00,Did one of the CMs move with one of the parents since last interview?,3.0,Do not know
+879015,MCS,mcs7_family_interview,ghadsm00,Did one of the CMs move with one of the parents since last interview?,4.0,Prefer not to answer
+879016,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,-9.0,Refused
+879017,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,-8.0,Do not know
+879018,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,-5.0,Never lived at the address given
+879019,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,-1.0,Not applicable
+879020,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,1.0,2000
+879021,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,2.0,2001
+879022,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,3.0,2002
+879023,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,4.0,2003
+879024,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,5.0,2004
+879025,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,6.0,2005
+879026,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,7.0,2006
+879027,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,8.0,2007
+879028,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,9.0,2008
+879029,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,10.0,2009
+879030,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,11.0,2010
+879031,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,12.0,2011
+879032,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,13.0,2012
+879033,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,14.0,2013
+879034,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,15.0,2014
+879035,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,16.0,2015
+879036,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,17.0,2016
+879037,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,18.0,2017
+879038,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,19.0,2018
+879039,MCS,mcs7_family_interview,ghmoyr00,When did <address at last interview> stop being CM s main address? YEAR,20.0,2019
+879040,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,-9.0,Refused
+879041,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,-8.0,Do not know
+879042,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,-5.0,Never lived at the address given
+879043,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,-1.0,Not applicable
+879044,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,1.0,January
+879045,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,2.0,February
+879046,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,3.0,March
+879047,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,4.0,April
+879048,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,5.0,May
+879049,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,6.0,June
+879050,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,7.0,July
+879051,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,8.0,August
+879052,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,9.0,September
+879053,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,10.0,October
+879054,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,11.0,November
+879055,MCS,mcs7_family_interview,ghmomn00,When did <address at last interview> stop being CM s main address? MONTH,12.0,December
+879056,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),-9.0,Refused
+879057,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),-8.0,Do not know
+879058,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),-1.0,Not Applicable
+879059,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),1.0,A house or bungalow
+879060,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),2.0,A flat or maisonette
+879061,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),3.0,A studio flat
+879062,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),4.0,"Or, room(s) or a bedsit"
+879063,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),5.0,Other (specify)
+879064,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),6.0,Caravan
+879065,MCS,mcs7_family_interview,ghmoty00,Type of accommodation of CM [CM moved away from parent accommodation] (A),7.0,Vague irrelevant answer
+879066,MCS,mcs7_family_interview,ghrcpl00,Has CM lived continuously with Main and Partner respondents since last interview?,-9.0,Refusal
+879067,MCS,mcs7_family_interview,ghrcpl00,Has CM lived continuously with Main and Partner respondents since last interview?,-8.0,Do not know
+879068,MCS,mcs7_family_interview,ghrcpl00,Has CM lived continuously with Main and Partner respondents since last interview?,-1.0,Not applicable
+879069,MCS,mcs7_family_interview,ghrcpl00,Has CM lived continuously with Main and Partner respondents since last interview?,1.0,Yes
+879070,MCS,mcs7_family_interview,ghrcpl00,Has CM lived continuously with Main and Partner respondents since last interview?,2.0,No
+879071,MCS,mcs7_family_interview,ghrcpl00,Has CM lived continuously with Main and Partner respondents since last interview?,3.0,"Interviewer, code if respondent disputes any of this"
+879072,MCS,mcs7_family_interview,ghrsin00,Has CM lived continuously with resp (lone parent) since last interview?,-9.0,Refusal
+879073,MCS,mcs7_family_interview,ghrsin00,Has CM lived continuously with resp (lone parent) since last interview?,-8.0,Do not know
+879074,MCS,mcs7_family_interview,ghrsin00,Has CM lived continuously with resp (lone parent) since last interview?,-1.0,Not applicable
+879075,MCS,mcs7_family_interview,ghrsin00,Has CM lived continuously with resp (lone parent) since last interview?,1.0,Yes
+879076,MCS,mcs7_family_interview,ghrsin00,Has CM lived continuously with resp (lone parent) since last interview?,2.0,No
+879077,MCS,mcs7_family_interview,ghrsin00,Has CM lived continuously with resp (lone parent) since last interview?,3.0,"Interviewer, code if respondent disputes any of this"
+879078,MCS,mcs7_family_interview,ghrely00,Start of current period of CM living with parent? YEAR,-9.0,Refused
+879079,MCS,mcs7_family_interview,ghrely00,Start of current period of CM living with parent? YEAR,-8.0,Do not know
+879080,MCS,mcs7_family_interview,ghrely00,Start of current period of CM living with parent? YEAR,-1.0,Not applicable
+879081,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,-9.0,Refused
+879082,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,-8.0,Do not know
+879083,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,-1.0,Not applicable
+879084,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,1.0,January
+879085,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,2.0,February
+879086,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,3.0,March
+879087,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,4.0,April
+879088,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,5.0,May
+879089,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,6.0,June
+879090,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,7.0,July
+879091,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,8.0,August
+879092,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,9.0,September
+879093,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,10.0,October
+879094,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,11.0,November
+879095,MCS,mcs7_family_interview,ghrelm00,Start of current period of CM living with parent? MONTH,12.0,December
+879096,MCS,mcs7_family_interview,ghrepy00,End of period of CM living with previous FF HH composition YEAR,-9.0,Refused
+879097,MCS,mcs7_family_interview,ghrepy00,End of period of CM living with previous FF HH composition YEAR,-8.0,Do not know
+879098,MCS,mcs7_family_interview,ghrepy00,End of period of CM living with previous FF HH composition YEAR,-1.0,Not applicable
+879099,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,-9.0,Refused
+879100,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,-8.0,Do not know
+879101,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,-1.0,Not applicable
+879102,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,1.0,January
+879103,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,2.0,February
+879104,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,3.0,March
+879105,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,4.0,April
+879106,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,5.0,May
+879107,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,6.0,June
+879108,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,7.0,July
+879109,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,8.0,August
+879110,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,9.0,September
+879111,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,10.0,October
+879112,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,11.0,November
+879113,MCS,mcs7_family_interview,ghrepm00,End of period of CM living with previous FF HH composition MONTH,12.0,December
+879114,MCS,mcs7_family_interview,ghresy00,End of period of CM living with FF HH composition YEAR,-9.0,Refused
+879115,MCS,mcs7_family_interview,ghresy00,End of period of CM living with FF HH composition YEAR,-8.0,Do not know
+879116,MCS,mcs7_family_interview,ghresy00,End of period of CM living with FF HH composition YEAR,-5.0,IWR: respondent disputes
+879117,MCS,mcs7_family_interview,ghresy00,End of period of CM living with FF HH composition YEAR,-1.0,Not applicable
+879118,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,-9.0,Refused
+879119,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,-8.0,Do not know
+879120,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,-5.0,IWR: respondent disputes
+879121,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,-1.0,Not applicable
+879122,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,1.0,January
+879123,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,2.0,February
+879124,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,3.0,March
+879125,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,4.0,April
+879126,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,5.0,May
+879127,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,6.0,June
+879128,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,7.0,July
+879129,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,8.0,August
+879130,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,9.0,September
+879131,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,10.0,October
+879132,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,11.0,November
+879133,MCS,mcs7_family_interview,ghresm00,End of period of CM living with FF HH composition MONTH,12.0,December
+879134,MCS,mcs7_family_interview,ghreey00,Start of CM living with current HH composition (new parent) YEAR,-9.0,Refused
+879135,MCS,mcs7_family_interview,ghreey00,Start of CM living with current HH composition (new parent) YEAR,-8.0,Do not know
+879136,MCS,mcs7_family_interview,ghreey00,Start of CM living with current HH composition (new parent) YEAR,-5.0,IWR: respondent disputes
+879137,MCS,mcs7_family_interview,ghreey00,Start of CM living with current HH composition (new parent) YEAR,-1.0,Not applicable
+879138,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,-9.0,Refused
+879139,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,-8.0,Do not know
+879140,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,-5.0,IWR: respondent disputes
+879141,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,-1.0,Not applicable
+879142,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,1.0,January
+879143,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,2.0,February
+879144,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,3.0,March
+879145,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,4.0,April
+879146,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,5.0,May
+879147,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,6.0,June
+879148,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,7.0,July
+879149,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,8.0,August
+879150,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,9.0,September
+879151,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,10.0,October
+879152,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,11.0,November
+879153,MCS,mcs7_family_interview,ghreem00,Start of CM living with current HH composition (new parent) MONTH,12.0,December
+879154,MCS,mcs7_family_interview,ghrfmca0,Flag on entering relationship history (loop A) R1,-1.0,Not applicable
+879155,MCS,mcs7_family_interview,ghrfmca0,Flag on entering relationship history (loop A) R1,1.0,Yes
+879156,MCS,mcs7_family_interview,ghrfmca0,Flag on entering relationship history (loop A) R1,2.0,No
+879157,MCS,mcs7_family_interview,ghrfmcb0,Flag on entering relationship history (loop B) R2,-1.0,Not applicable
+879158,MCS,mcs7_family_interview,ghrfmcb0,Flag on entering relationship history (loop B) R2,1.0,Yes
+879159,MCS,mcs7_family_interview,ghrfmcb0,Flag on entering relationship history (loop B) R2,2.0,No
+879160,MCS,mcs7_family_interview,ghrfmcc0,Flag on entering relationship history (loop C) R3,-1.0,Not applicable
+879161,MCS,mcs7_family_interview,ghrfmcc0,Flag on entering relationship history (loop C) R3,1.0,Yes
+879162,MCS,mcs7_family_interview,ghrfmcc0,Flag on entering relationship history (loop C) R3,2.0,No
+879163,MCS,mcs7_family_interview,ghrfmcd0,Flag on entering relationship history (loop D) R4,-1.0,Not applicable
+879164,MCS,mcs7_family_interview,ghrfmcd0,Flag on entering relationship history (loop D) R4,1.0,Yes
+879165,MCS,mcs7_family_interview,ghrfmcd0,Flag on entering relationship history (loop D) R4,2.0,No
+879166,MCS,mcs7_family_interview,ghrfmce0,Flag on entering relationship history (loop E) R5,-1.0,Not applicable
+879167,MCS,mcs7_family_interview,ghrfmce0,Flag on entering relationship history (loop E) R5,1.0,Yes
+879168,MCS,mcs7_family_interview,ghrfmce0,Flag on entering relationship history (loop E) R5,2.0,No
+879169,MCS,mcs7_family_interview,ghrfmcf0,Flag on entering relationship history (loop F) R6,-1.0,Not applicable
+879170,MCS,mcs7_family_interview,ghrfmcf0,Flag on entering relationship history (loop F) R6,1.0,Yes
+879171,MCS,mcs7_family_interview,ghrfmcf0,Flag on entering relationship history (loop F) R6,2.0,No
+879172,MCS,mcs7_family_interview,ghrfmcg0,Flag on entering relationship history (loop G) R7,-1.0,Not applicable
+879173,MCS,mcs7_family_interview,ghrfmcg0,Flag on entering relationship history (loop G) R7,1.0,Yes
+879174,MCS,mcs7_family_interview,ghrfmcg0,Flag on entering relationship history (loop G) R7,2.0,No
+879175,MCS,mcs7_family_interview,ghrfmch0,Flag on entering relationship history (loop H) R8,-1.0,Not applicable
+879176,MCS,mcs7_family_interview,ghrfmch0,Flag on entering relationship history (loop H) R8,1.0,Yes
+879177,MCS,mcs7_family_interview,ghrfmch0,Flag on entering relationship history (loop H) R8,2.0,No
+879178,MCS,mcs7_family_interview,ghrfmci0,Flag on entering relationship history (loop I) R9,-1.0,Not applicable
+879179,MCS,mcs7_family_interview,ghrfmci0,Flag on entering relationship history (loop I) R9,1.0,Yes
+879180,MCS,mcs7_family_interview,ghrfmci0,Flag on entering relationship history (loop I) R9,2.0,No
+879181,MCS,mcs7_family_interview,ghrfmcj0,Flag on entering relationship history (loop J) R10,-1.0,Not applicable
+879182,MCS,mcs7_family_interview,ghrfmcj0,Flag on entering relationship history (loop J) R10,1.0,Yes
+879183,MCS,mcs7_family_interview,ghrfmcj0,Flag on entering relationship history (loop J) R10,2.0,No
+879184,MCS,mcs7_family_interview,ghrfama0,Context prior to that period of living as a 2-parent or lone parent (loop A) R1,-9.0,Refusal
+879185,MCS,mcs7_family_interview,ghrfama0,Context prior to that period of living as a 2-parent or lone parent (loop A) R1,-8.0,Do not know
+879186,MCS,mcs7_family_interview,ghrfama0,Context prior to that period of living as a 2-parent or lone parent (loop A) R1,-1.0,Not applicable
+879187,MCS,mcs7_family_interview,ghrfama0,Context prior to that period of living as a 2-parent or lone parent (loop A) R1,1.0,Two-parent
+879188,MCS,mcs7_family_interview,ghrfama0,Context prior to that period of living as a 2-parent or lone parent (loop A) R1,2.0,Lone home
+879189,MCS,mcs7_family_interview,ghrfama0,Context prior to that period of living as a 2-parent or lone parent (loop A) R1,3.0,Care home
+879190,MCS,mcs7_family_interview,ghrfamb0,Context prior to that period of living as a 2-parent or lone parent (loop B) R2,-9.0,Refusal
+879191,MCS,mcs7_family_interview,ghrfamb0,Context prior to that period of living as a 2-parent or lone parent (loop B) R2,-8.0,Do not know
+879192,MCS,mcs7_family_interview,ghrfamb0,Context prior to that period of living as a 2-parent or lone parent (loop B) R2,-1.0,Not applicable
+879193,MCS,mcs7_family_interview,ghrfamb0,Context prior to that period of living as a 2-parent or lone parent (loop B) R2,1.0,Two-parent
+879194,MCS,mcs7_family_interview,ghrfamb0,Context prior to that period of living as a 2-parent or lone parent (loop B) R2,2.0,Lone home
+879195,MCS,mcs7_family_interview,ghrfamb0,Context prior to that period of living as a 2-parent or lone parent (loop B) R2,3.0,Care home
+879196,MCS,mcs7_family_interview,ghrfamc0,Context prior to that period of living as a 2-parent or lone parent (loop C) R3,-9.0,Refusal
+879197,MCS,mcs7_family_interview,ghrfamc0,Context prior to that period of living as a 2-parent or lone parent (loop C) R3,-8.0,Do not know
+879198,MCS,mcs7_family_interview,ghrfamc0,Context prior to that period of living as a 2-parent or lone parent (loop C) R3,-1.0,Not applicable
+879199,MCS,mcs7_family_interview,ghrfamc0,Context prior to that period of living as a 2-parent or lone parent (loop C) R3,1.0,Two-parent
+879200,MCS,mcs7_family_interview,ghrfamc0,Context prior to that period of living as a 2-parent or lone parent (loop C) R3,2.0,Lone home
+879201,MCS,mcs7_family_interview,ghrfamc0,Context prior to that period of living as a 2-parent or lone parent (loop C) R3,3.0,Care home
+879202,MCS,mcs7_family_interview,ghrfamd0,Context prior to that period of living as a 2-parent or lone parent (loop D) R4,-9.0,Refusal
+879203,MCS,mcs7_family_interview,ghrfamd0,Context prior to that period of living as a 2-parent or lone parent (loop D) R4,-8.0,Do not know
+879204,MCS,mcs7_family_interview,ghrfamd0,Context prior to that period of living as a 2-parent or lone parent (loop D) R4,-1.0,Not applicable
+879205,MCS,mcs7_family_interview,ghrfamd0,Context prior to that period of living as a 2-parent or lone parent (loop D) R4,1.0,Two-parent
+879206,MCS,mcs7_family_interview,ghrfamd0,Context prior to that period of living as a 2-parent or lone parent (loop D) R4,2.0,Lone home
+879207,MCS,mcs7_family_interview,ghrfamd0,Context prior to that period of living as a 2-parent or lone parent (loop D) R4,3.0,Care home
+879208,MCS,mcs7_family_interview,ghrfame0,Context prior to that period of living as a 2-parent or lone parent (loop E) R5,-9.0,Refusal
+879209,MCS,mcs7_family_interview,ghrfame0,Context prior to that period of living as a 2-parent or lone parent (loop E) R5,-8.0,Do not know
+879210,MCS,mcs7_family_interview,ghrfame0,Context prior to that period of living as a 2-parent or lone parent (loop E) R5,-1.0,Not applicable
+879211,MCS,mcs7_family_interview,ghrfame0,Context prior to that period of living as a 2-parent or lone parent (loop E) R5,1.0,Two-parent
+879212,MCS,mcs7_family_interview,ghrfame0,Context prior to that period of living as a 2-parent or lone parent (loop E) R5,2.0,Lone home
+879213,MCS,mcs7_family_interview,ghrfame0,Context prior to that period of living as a 2-parent or lone parent (loop E) R5,3.0,Care home
+879214,MCS,mcs7_family_interview,ghrfamf0,Context prior to that period of living as a 2-parent or lone parent (loop F) R6,-9.0,Refusal
+879215,MCS,mcs7_family_interview,ghrfamf0,Context prior to that period of living as a 2-parent or lone parent (loop F) R6,-8.0,Do not know
+879216,MCS,mcs7_family_interview,ghrfamf0,Context prior to that period of living as a 2-parent or lone parent (loop F) R6,-1.0,Not applicable
+879217,MCS,mcs7_family_interview,ghrfamf0,Context prior to that period of living as a 2-parent or lone parent (loop F) R6,1.0,Two-parent
+879218,MCS,mcs7_family_interview,ghrfamf0,Context prior to that period of living as a 2-parent or lone parent (loop F) R6,2.0,Lone home
+879219,MCS,mcs7_family_interview,ghrfamf0,Context prior to that period of living as a 2-parent or lone parent (loop F) R6,3.0,Care home
+879220,MCS,mcs7_family_interview,ghrfamg0,Context prior to that period of living as a 2-parent or lone parent (loop G) R7,-9.0,Refusal
+879221,MCS,mcs7_family_interview,ghrfamg0,Context prior to that period of living as a 2-parent or lone parent (loop G) R7,-8.0,Do not know
+879222,MCS,mcs7_family_interview,ghrfamg0,Context prior to that period of living as a 2-parent or lone parent (loop G) R7,-1.0,Not applicable
+879223,MCS,mcs7_family_interview,ghrfamg0,Context prior to that period of living as a 2-parent or lone parent (loop G) R7,1.0,Two-parent
+879224,MCS,mcs7_family_interview,ghrfamg0,Context prior to that period of living as a 2-parent or lone parent (loop G) R7,2.0,Lone home
+879225,MCS,mcs7_family_interview,ghrfamg0,Context prior to that period of living as a 2-parent or lone parent (loop G) R7,3.0,Care home
+879226,MCS,mcs7_family_interview,ghrfamh0,Context prior to that period of living as a 2-parent or lone parent (loop H) R8,-9.0,Refusal
+879227,MCS,mcs7_family_interview,ghrfamh0,Context prior to that period of living as a 2-parent or lone parent (loop H) R8,-8.0,Do not know
+879228,MCS,mcs7_family_interview,ghrfamh0,Context prior to that period of living as a 2-parent or lone parent (loop H) R8,-1.0,Not applicable
+879229,MCS,mcs7_family_interview,ghrfamh0,Context prior to that period of living as a 2-parent or lone parent (loop H) R8,1.0,Two-parent
+879230,MCS,mcs7_family_interview,ghrfamh0,Context prior to that period of living as a 2-parent or lone parent (loop H) R8,2.0,Lone home
+879231,MCS,mcs7_family_interview,ghrfamh0,Context prior to that period of living as a 2-parent or lone parent (loop H) R8,3.0,Care home
+879232,MCS,mcs7_family_interview,ghrfami0,Context prior to that period of living as a 2-parent or lone parent (loop I) R9,-9.0,Refusal
+879233,MCS,mcs7_family_interview,ghrfami0,Context prior to that period of living as a 2-parent or lone parent (loop I) R9,-8.0,Do not know
+879234,MCS,mcs7_family_interview,ghrfami0,Context prior to that period of living as a 2-parent or lone parent (loop I) R9,-1.0,Not applicable
+879235,MCS,mcs7_family_interview,ghrfami0,Context prior to that period of living as a 2-parent or lone parent (loop I) R9,1.0,Two-parent
+879236,MCS,mcs7_family_interview,ghrfami0,Context prior to that period of living as a 2-parent or lone parent (loop I) R9,2.0,Lone home
+879237,MCS,mcs7_family_interview,ghrfami0,Context prior to that period of living as a 2-parent or lone parent (loop I) R9,3.0,Care home
+879238,MCS,mcs7_family_interview,ghrfamj0,Context prior to that period of living as a 2-parent or lone parent (loop J) R10,-9.0,Refusal
+879239,MCS,mcs7_family_interview,ghrfamj0,Context prior to that period of living as a 2-parent or lone parent (loop J) R10,-8.0,Do not know
+879240,MCS,mcs7_family_interview,ghrfamj0,Context prior to that period of living as a 2-parent or lone parent (loop J) R10,-1.0,Not applicable
+879241,MCS,mcs7_family_interview,ghrfamj0,Context prior to that period of living as a 2-parent or lone parent (loop J) R10,1.0,Two-parent
+879242,MCS,mcs7_family_interview,ghrfamj0,Context prior to that period of living as a 2-parent or lone parent (loop J) R10,2.0,Lone home
+879243,MCS,mcs7_family_interview,ghrfamj0,Context prior to that period of living as a 2-parent or lone parent (loop J) R10,3.0,Care home
+879244,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,-9.0,Refusal
+879245,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,-8.0,Do not know
+879246,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,-1.0,Not applicable
+879247,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,1.0,1
+879248,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,2.0,2
+879249,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,3.0,3
+879250,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,4.0,4
+879251,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,5.0,5
+879252,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,6.0,6
+879253,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,7.0,7
+879254,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,8.0,8
+879255,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,9.0,9
+879256,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,10.0,10
+879257,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,11.0,11
+879258,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,12.0,12
+879259,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,13.0,13
+879260,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,14.0,14
+879261,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,15.0,15
+879262,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,16.0,16
+879263,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,17.0,17
+879264,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,18.0,18
+879265,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,19.0,19
+879266,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,20.0,20
+879267,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,21.0,21
+879268,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,22.0,22
+879269,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,23.0,23
+879270,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,24.0,24
+879271,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,25.0,25
+879272,MCS,mcs7_family_interview,ghrpnaa0,Family Context A,26.0,Person not in household
+879273,MCS,mcs7_family_interview,ghrpnab0,Family Context B,8.0,8
+879274,MCS,mcs7_family_interview,ghrpnab0,Family Context B,9.0,9
+879275,MCS,mcs7_family_interview,ghrpnab0,Family Context B,10.0,10
+879276,MCS,mcs7_family_interview,ghrpnab0,Family Context B,11.0,11
+879277,MCS,mcs7_family_interview,ghrpnab0,Family Context B,12.0,12
+879278,MCS,mcs7_family_interview,ghrpnab0,Family Context B,13.0,13
+879279,MCS,mcs7_family_interview,ghrpnab0,Family Context B,14.0,14
+879280,MCS,mcs7_family_interview,ghrpnab0,Family Context B,15.0,15
+879281,MCS,mcs7_family_interview,ghrpnab0,Family Context B,16.0,16
+879282,MCS,mcs7_family_interview,ghrpnab0,Family Context B,17.0,17
+879283,MCS,mcs7_family_interview,ghrpnab0,Family Context B,18.0,18
+879284,MCS,mcs7_family_interview,ghrpnab0,Family Context B,19.0,19
+879285,MCS,mcs7_family_interview,ghrpnab0,Family Context B,20.0,20
+879286,MCS,mcs7_family_interview,ghrpnab0,Family Context B,21.0,21
+879287,MCS,mcs7_family_interview,ghrpnab0,Family Context B,22.0,22
+879288,MCS,mcs7_family_interview,ghrpnab0,Family Context B,23.0,23
+879289,MCS,mcs7_family_interview,ghrpnab0,Family Context B,24.0,24
+879290,MCS,mcs7_family_interview,ghrpnab0,Family Context B,25.0,25
+879291,MCS,mcs7_family_interview,ghrpnab0,Family Context B,26.0,Person not in household
+879292,MCS,mcs7_family_interview,ghrpnab0,Family Context B,-9.0,Refusal
+879293,MCS,mcs7_family_interview,ghrpnab0,Family Context B,-8.0,Do not know
+879294,MCS,mcs7_family_interview,ghrpnab0,Family Context B,-1.0,Not applicable
+879295,MCS,mcs7_family_interview,ghrpnab0,Family Context B,1.0,1
+879296,MCS,mcs7_family_interview,ghrpnab0,Family Context B,2.0,2
+879297,MCS,mcs7_family_interview,ghrpnab0,Family Context B,3.0,3
+879298,MCS,mcs7_family_interview,ghrpnab0,Family Context B,4.0,4
+879299,MCS,mcs7_family_interview,ghrpnab0,Family Context B,5.0,5
+879300,MCS,mcs7_family_interview,ghrpnab0,Family Context B,6.0,6
+879301,MCS,mcs7_family_interview,ghrpnab0,Family Context B,7.0,7
+879302,MCS,mcs7_family_interview,ghrpnac0,Family Context C,-9.0,Refusal
+879303,MCS,mcs7_family_interview,ghrpnac0,Family Context C,-8.0,Do not know
+879304,MCS,mcs7_family_interview,ghrpnac0,Family Context C,-1.0,Not applicable
+879305,MCS,mcs7_family_interview,ghrpnac0,Family Context C,1.0,1
+879306,MCS,mcs7_family_interview,ghrpnac0,Family Context C,2.0,2
+879307,MCS,mcs7_family_interview,ghrpnac0,Family Context C,3.0,3
+879308,MCS,mcs7_family_interview,ghrpnac0,Family Context C,4.0,4
+879309,MCS,mcs7_family_interview,ghrpnac0,Family Context C,5.0,5
+879310,MCS,mcs7_family_interview,ghrpnac0,Family Context C,6.0,6
+879311,MCS,mcs7_family_interview,ghrpnac0,Family Context C,7.0,7
+879312,MCS,mcs7_family_interview,ghrpnac0,Family Context C,8.0,8
+879313,MCS,mcs7_family_interview,ghrpnac0,Family Context C,9.0,9
+879314,MCS,mcs7_family_interview,ghrpnac0,Family Context C,10.0,10
+879315,MCS,mcs7_family_interview,ghrpnac0,Family Context C,11.0,11
+879316,MCS,mcs7_family_interview,ghrpnac0,Family Context C,12.0,12
+879317,MCS,mcs7_family_interview,ghrpnac0,Family Context C,13.0,13
+879318,MCS,mcs7_family_interview,ghrpnac0,Family Context C,14.0,14
+879319,MCS,mcs7_family_interview,ghrpnac0,Family Context C,15.0,15
+879320,MCS,mcs7_family_interview,ghrpnac0,Family Context C,16.0,16
+879321,MCS,mcs7_family_interview,ghrpnac0,Family Context C,17.0,17
+879322,MCS,mcs7_family_interview,ghrpnac0,Family Context C,18.0,18
+879323,MCS,mcs7_family_interview,ghrpnac0,Family Context C,19.0,19
+879324,MCS,mcs7_family_interview,ghrpnac0,Family Context C,20.0,20
+879325,MCS,mcs7_family_interview,ghrpnac0,Family Context C,21.0,21
+879326,MCS,mcs7_family_interview,ghrpnac0,Family Context C,22.0,22
+879327,MCS,mcs7_family_interview,ghrpnac0,Family Context C,23.0,23
+879328,MCS,mcs7_family_interview,ghrpnac0,Family Context C,24.0,24
+879329,MCS,mcs7_family_interview,ghrpnac0,Family Context C,25.0,25
+879330,MCS,mcs7_family_interview,ghrpnac0,Family Context C,26.0,Person not in household
+879331,MCS,mcs7_family_interview,ghrpnad0,Family Context D,-9.0,Refusal
+879332,MCS,mcs7_family_interview,ghrpnad0,Family Context D,-8.0,Do not know
+879333,MCS,mcs7_family_interview,ghrpnad0,Family Context D,-1.0,Not applicable
+879334,MCS,mcs7_family_interview,ghrpnad0,Family Context D,1.0,1
+879335,MCS,mcs7_family_interview,ghrpnad0,Family Context D,2.0,2
+879336,MCS,mcs7_family_interview,ghrpnad0,Family Context D,3.0,3
+879337,MCS,mcs7_family_interview,ghrpnad0,Family Context D,4.0,4
+879338,MCS,mcs7_family_interview,ghrpnad0,Family Context D,5.0,5
+879339,MCS,mcs7_family_interview,ghrpnad0,Family Context D,6.0,6
+879340,MCS,mcs7_family_interview,ghrpnad0,Family Context D,7.0,7
+879341,MCS,mcs7_family_interview,ghrpnad0,Family Context D,8.0,8
+879342,MCS,mcs7_family_interview,ghrpnad0,Family Context D,9.0,9
+879343,MCS,mcs7_family_interview,ghrpnad0,Family Context D,10.0,10
+879344,MCS,mcs7_family_interview,ghrpnad0,Family Context D,11.0,11
+879345,MCS,mcs7_family_interview,ghrpnad0,Family Context D,12.0,12
+879346,MCS,mcs7_family_interview,ghrpnad0,Family Context D,13.0,13
+879347,MCS,mcs7_family_interview,ghrpnad0,Family Context D,14.0,14
+879348,MCS,mcs7_family_interview,ghrpnad0,Family Context D,15.0,15
+879349,MCS,mcs7_family_interview,ghrpnad0,Family Context D,16.0,16
+879350,MCS,mcs7_family_interview,ghrpnad0,Family Context D,17.0,17
+879351,MCS,mcs7_family_interview,ghrpnad0,Family Context D,18.0,18
+879352,MCS,mcs7_family_interview,ghrpnad0,Family Context D,19.0,19
+879353,MCS,mcs7_family_interview,ghrpnad0,Family Context D,20.0,20
+879354,MCS,mcs7_family_interview,ghrpnad0,Family Context D,21.0,21
+879355,MCS,mcs7_family_interview,ghrpnad0,Family Context D,22.0,22
+879356,MCS,mcs7_family_interview,ghrpnad0,Family Context D,23.0,23
+879357,MCS,mcs7_family_interview,ghrpnad0,Family Context D,24.0,24
+879358,MCS,mcs7_family_interview,ghrpnad0,Family Context D,25.0,25
+879359,MCS,mcs7_family_interview,ghrpnad0,Family Context D,26.0,Person not in household
+879360,MCS,mcs7_family_interview,ghrpnae0,Family Context E,-9.0,Refusal
+879361,MCS,mcs7_family_interview,ghrpnae0,Family Context E,-8.0,Do not know
+879362,MCS,mcs7_family_interview,ghrpnae0,Family Context E,-1.0,Not applicable
+879363,MCS,mcs7_family_interview,ghrpnae0,Family Context E,1.0,1
+879364,MCS,mcs7_family_interview,ghrpnae0,Family Context E,2.0,2
+879365,MCS,mcs7_family_interview,ghrpnae0,Family Context E,3.0,3
+879366,MCS,mcs7_family_interview,ghrpnae0,Family Context E,4.0,4
+879367,MCS,mcs7_family_interview,ghrpnae0,Family Context E,5.0,5
+879368,MCS,mcs7_family_interview,ghrpnae0,Family Context E,6.0,6
+879369,MCS,mcs7_family_interview,ghrpnae0,Family Context E,7.0,7
+879370,MCS,mcs7_family_interview,ghrpnae0,Family Context E,8.0,8
+879371,MCS,mcs7_family_interview,ghrpnae0,Family Context E,9.0,9
+879372,MCS,mcs7_family_interview,ghrpnae0,Family Context E,10.0,10
+879373,MCS,mcs7_family_interview,ghrpnae0,Family Context E,11.0,11
+879374,MCS,mcs7_family_interview,ghrpnae0,Family Context E,12.0,12
+879375,MCS,mcs7_family_interview,ghrpnae0,Family Context E,13.0,13
+879376,MCS,mcs7_family_interview,ghrpnae0,Family Context E,14.0,14
+879377,MCS,mcs7_family_interview,ghrpnae0,Family Context E,15.0,15
+879378,MCS,mcs7_family_interview,ghrpnae0,Family Context E,16.0,16
+879379,MCS,mcs7_family_interview,ghrpnae0,Family Context E,17.0,17
+879380,MCS,mcs7_family_interview,ghrpnae0,Family Context E,18.0,18
+879381,MCS,mcs7_family_interview,ghrpnae0,Family Context E,19.0,19
+879382,MCS,mcs7_family_interview,ghrpnae0,Family Context E,20.0,20
+879383,MCS,mcs7_family_interview,ghrpnae0,Family Context E,21.0,21
+879384,MCS,mcs7_family_interview,ghrpnae0,Family Context E,22.0,22
+879385,MCS,mcs7_family_interview,ghrpnae0,Family Context E,23.0,23
+879386,MCS,mcs7_family_interview,ghrpnae0,Family Context E,24.0,24
+879387,MCS,mcs7_family_interview,ghrpnae0,Family Context E,25.0,25
+879388,MCS,mcs7_family_interview,ghrpnae0,Family Context E,26.0,Person not in household
+879389,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,-9.0,Refusal
+879390,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,-8.0,Do not know
+879391,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,-1.0,Not applicable
+879392,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,1.0,1
+879393,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,2.0,2
+879394,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,3.0,3
+879395,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,4.0,4
+879396,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,5.0,5
+879397,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,6.0,6
+879398,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,7.0,7
+879399,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,8.0,8
+879400,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,9.0,9
+879401,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,10.0,10
+879402,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,11.0,11
+879403,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,12.0,12
+879404,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,13.0,13
+879405,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,14.0,14
+879406,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,15.0,15
+879407,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,16.0,16
+879408,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,17.0,17
+879409,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,18.0,18
+879410,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,19.0,19
+879411,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,20.0,20
+879412,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,21.0,21
+879413,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,22.0,22
+879414,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,23.0,23
+879415,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,24.0,24
+879416,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,25.0,25
+879417,MCS,mcs7_family_interview,ghrpnaf0,Family Context F,26.0,Person not in household
+879418,MCS,mcs7_family_interview,ghrpnag0,Family Context G,-9.0,Refusal
+879419,MCS,mcs7_family_interview,ghrpnag0,Family Context G,-8.0,Do not know
+879420,MCS,mcs7_family_interview,ghrpnag0,Family Context G,-1.0,Not applicable
+879421,MCS,mcs7_family_interview,ghrpnag0,Family Context G,1.0,1
+879422,MCS,mcs7_family_interview,ghrpnag0,Family Context G,2.0,2
+879423,MCS,mcs7_family_interview,ghrpnag0,Family Context G,3.0,3
+879424,MCS,mcs7_family_interview,ghrpnag0,Family Context G,4.0,4
+879425,MCS,mcs7_family_interview,ghrpnag0,Family Context G,5.0,5
+879426,MCS,mcs7_family_interview,ghrpnag0,Family Context G,6.0,6
+879427,MCS,mcs7_family_interview,ghrpnag0,Family Context G,7.0,7
+879428,MCS,mcs7_family_interview,ghrpnag0,Family Context G,8.0,8
+879429,MCS,mcs7_family_interview,ghrpnag0,Family Context G,9.0,9
+879430,MCS,mcs7_family_interview,ghrpnag0,Family Context G,10.0,10
+879431,MCS,mcs7_family_interview,ghrpnag0,Family Context G,11.0,11
+879432,MCS,mcs7_family_interview,ghrpnag0,Family Context G,12.0,12
+879433,MCS,mcs7_family_interview,ghrpnag0,Family Context G,13.0,13
+879434,MCS,mcs7_family_interview,ghrpnag0,Family Context G,14.0,14
+879435,MCS,mcs7_family_interview,ghrpnag0,Family Context G,15.0,15
+879436,MCS,mcs7_family_interview,ghrpnag0,Family Context G,16.0,16
+879437,MCS,mcs7_family_interview,ghrpnag0,Family Context G,17.0,17
+879438,MCS,mcs7_family_interview,ghrpnag0,Family Context G,18.0,18
+879439,MCS,mcs7_family_interview,ghrpnag0,Family Context G,19.0,19
+879440,MCS,mcs7_family_interview,ghrpnag0,Family Context G,20.0,20
+879441,MCS,mcs7_family_interview,ghrpnag0,Family Context G,21.0,21
+879442,MCS,mcs7_family_interview,ghrpnag0,Family Context G,22.0,22
+879443,MCS,mcs7_family_interview,ghrpnag0,Family Context G,23.0,23
+879444,MCS,mcs7_family_interview,ghrpnag0,Family Context G,24.0,24
+879445,MCS,mcs7_family_interview,ghrpnag0,Family Context G,25.0,25
+879446,MCS,mcs7_family_interview,ghrpnag0,Family Context G,26.0,Person not in household
+879447,MCS,mcs7_family_interview,ghrpnah0,Family Context H,-9.0,Refusal
+879448,MCS,mcs7_family_interview,ghrpnah0,Family Context H,-8.0,Do not know
+879449,MCS,mcs7_family_interview,ghrpnah0,Family Context H,-1.0,Not applicable
+879450,MCS,mcs7_family_interview,ghrpnah0,Family Context H,1.0,1
+879451,MCS,mcs7_family_interview,ghrpnah0,Family Context H,2.0,2
+879452,MCS,mcs7_family_interview,ghrpnah0,Family Context H,3.0,3
+879453,MCS,mcs7_family_interview,ghrpnah0,Family Context H,4.0,4
+879454,MCS,mcs7_family_interview,ghrpnah0,Family Context H,5.0,5
+879455,MCS,mcs7_family_interview,ghrpnah0,Family Context H,6.0,6
+879456,MCS,mcs7_family_interview,ghrpnah0,Family Context H,7.0,7
+879457,MCS,mcs7_family_interview,ghrpnah0,Family Context H,8.0,8
+879458,MCS,mcs7_family_interview,ghrpnah0,Family Context H,9.0,9
+879459,MCS,mcs7_family_interview,ghrpnah0,Family Context H,10.0,10
+879460,MCS,mcs7_family_interview,ghrpnah0,Family Context H,11.0,11
+879461,MCS,mcs7_family_interview,ghrpnah0,Family Context H,12.0,12
+879462,MCS,mcs7_family_interview,ghrpnah0,Family Context H,13.0,13
+879463,MCS,mcs7_family_interview,ghrpnah0,Family Context H,14.0,14
+879464,MCS,mcs7_family_interview,ghrpnah0,Family Context H,15.0,15
+879465,MCS,mcs7_family_interview,ghrpnah0,Family Context H,16.0,16
+879466,MCS,mcs7_family_interview,ghrpnah0,Family Context H,17.0,17
+879467,MCS,mcs7_family_interview,ghrpnah0,Family Context H,18.0,18
+879468,MCS,mcs7_family_interview,ghrpnah0,Family Context H,19.0,19
+879469,MCS,mcs7_family_interview,ghrpnah0,Family Context H,20.0,20
+879470,MCS,mcs7_family_interview,ghrpnah0,Family Context H,21.0,21
+879471,MCS,mcs7_family_interview,ghrpnah0,Family Context H,22.0,22
+879472,MCS,mcs7_family_interview,ghrpnah0,Family Context H,23.0,23
+879473,MCS,mcs7_family_interview,ghrpnah0,Family Context H,24.0,24
+879474,MCS,mcs7_family_interview,ghrpnah0,Family Context H,25.0,25
+879475,MCS,mcs7_family_interview,ghrpnah0,Family Context H,26.0,Person not in household
+879476,MCS,mcs7_family_interview,ghrpnai0,Family Context I,8.0,8
+879477,MCS,mcs7_family_interview,ghrpnai0,Family Context I,9.0,9
+879478,MCS,mcs7_family_interview,ghrpnai0,Family Context I,10.0,10
+879479,MCS,mcs7_family_interview,ghrpnai0,Family Context I,11.0,11
+879480,MCS,mcs7_family_interview,ghrpnai0,Family Context I,12.0,12
+879481,MCS,mcs7_family_interview,ghrpnai0,Family Context I,13.0,13
+879482,MCS,mcs7_family_interview,ghrpnai0,Family Context I,14.0,14
+879483,MCS,mcs7_family_interview,ghrpnai0,Family Context I,15.0,15
+879484,MCS,mcs7_family_interview,ghrpnai0,Family Context I,16.0,16
+879485,MCS,mcs7_family_interview,ghrpnai0,Family Context I,17.0,17
+879486,MCS,mcs7_family_interview,ghrpnai0,Family Context I,18.0,18
+879487,MCS,mcs7_family_interview,ghrpnai0,Family Context I,19.0,19
+879488,MCS,mcs7_family_interview,ghrpnai0,Family Context I,20.0,20
+879489,MCS,mcs7_family_interview,ghrpnai0,Family Context I,21.0,21
+879490,MCS,mcs7_family_interview,ghrpnai0,Family Context I,22.0,22
+879491,MCS,mcs7_family_interview,ghrpnai0,Family Context I,23.0,23
+879492,MCS,mcs7_family_interview,ghrpnai0,Family Context I,24.0,24
+879493,MCS,mcs7_family_interview,ghrpnai0,Family Context I,25.0,25
+879494,MCS,mcs7_family_interview,ghrpnai0,Family Context I,26.0,Person not in household
+879495,MCS,mcs7_family_interview,ghrpnai0,Family Context I,-9.0,Refusal
+879496,MCS,mcs7_family_interview,ghrpnai0,Family Context I,-8.0,Do not know
+879497,MCS,mcs7_family_interview,ghrpnai0,Family Context I,-1.0,Not applicable
+879498,MCS,mcs7_family_interview,ghrpnai0,Family Context I,1.0,1
+879499,MCS,mcs7_family_interview,ghrpnai0,Family Context I,2.0,2
+879500,MCS,mcs7_family_interview,ghrpnai0,Family Context I,3.0,3
+879501,MCS,mcs7_family_interview,ghrpnai0,Family Context I,4.0,4
+879502,MCS,mcs7_family_interview,ghrpnai0,Family Context I,5.0,5
+879503,MCS,mcs7_family_interview,ghrpnai0,Family Context I,6.0,6
+879504,MCS,mcs7_family_interview,ghrpnai0,Family Context I,7.0,7
+879505,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,-9.0,Refusal
+879506,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,-8.0,Do not know
+879507,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,-1.0,Not applicable
+879508,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,1.0,1
+879509,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,2.0,2
+879510,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,3.0,3
+879511,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,4.0,4
+879512,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,5.0,5
+879513,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,6.0,6
+879514,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,7.0,7
+879515,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,8.0,8
+879516,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,9.0,9
+879517,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,10.0,10
+879518,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,11.0,11
+879519,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,12.0,12
+879520,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,13.0,13
+879521,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,14.0,14
+879522,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,15.0,15
+879523,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,16.0,16
+879524,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,17.0,17
+879525,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,18.0,18
+879526,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,19.0,19
+879527,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,20.0,20
+879528,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,21.0,21
+879529,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,22.0,22
+879530,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,23.0,23
+879531,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,24.0,24
+879532,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,25.0,25
+879533,MCS,mcs7_family_interview,ghrpnaj0,Family Context J,26.0,Person not in household
+879534,MCS,mcs7_family_interview,ghrpnba0,Family Context A,-9.0,Refusal
+879535,MCS,mcs7_family_interview,ghrpnba0,Family Context A,-8.0,Do not know
+879536,MCS,mcs7_family_interview,ghrpnba0,Family Context A,-1.0,Not applicable
+879537,MCS,mcs7_family_interview,ghrpnba0,Family Context A,1.0,1
+879538,MCS,mcs7_family_interview,ghrpnba0,Family Context A,2.0,2
+879539,MCS,mcs7_family_interview,ghrpnba0,Family Context A,3.0,3
+879540,MCS,mcs7_family_interview,ghrpnba0,Family Context A,4.0,4
+879541,MCS,mcs7_family_interview,ghrpnba0,Family Context A,5.0,5
+879542,MCS,mcs7_family_interview,ghrpnba0,Family Context A,6.0,6
+879543,MCS,mcs7_family_interview,ghrpnba0,Family Context A,7.0,7
+879544,MCS,mcs7_family_interview,ghrpnba0,Family Context A,8.0,8
+879545,MCS,mcs7_family_interview,ghrpnba0,Family Context A,9.0,9
+879546,MCS,mcs7_family_interview,ghrpnba0,Family Context A,10.0,10
+879547,MCS,mcs7_family_interview,ghrpnba0,Family Context A,11.0,11
+879548,MCS,mcs7_family_interview,ghrpnba0,Family Context A,12.0,12
+879549,MCS,mcs7_family_interview,ghrpnba0,Family Context A,13.0,13
+879550,MCS,mcs7_family_interview,ghrpnba0,Family Context A,14.0,14
+879551,MCS,mcs7_family_interview,ghrpnba0,Family Context A,15.0,15
+879552,MCS,mcs7_family_interview,ghrpnba0,Family Context A,16.0,16
+879553,MCS,mcs7_family_interview,ghrpnba0,Family Context A,17.0,17
+879554,MCS,mcs7_family_interview,ghrpnba0,Family Context A,18.0,18
+879555,MCS,mcs7_family_interview,ghrpnba0,Family Context A,19.0,19
+879556,MCS,mcs7_family_interview,ghrpnba0,Family Context A,20.0,20
+879557,MCS,mcs7_family_interview,ghrpnba0,Family Context A,21.0,21
+879558,MCS,mcs7_family_interview,ghrpnba0,Family Context A,22.0,22
+879559,MCS,mcs7_family_interview,ghrpnba0,Family Context A,23.0,23
+879560,MCS,mcs7_family_interview,ghrpnba0,Family Context A,24.0,24
+879561,MCS,mcs7_family_interview,ghrpnba0,Family Context A,25.0,25
+879562,MCS,mcs7_family_interview,ghrpnba0,Family Context A,26.0,Person not in household
+879563,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,-9.0,Refusal
+879564,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,-8.0,Do not know
+879565,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,-1.0,Not applicable
+879566,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,1.0,1
+879567,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,2.0,2
+879568,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,3.0,3
+879569,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,4.0,4
+879570,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,5.0,5
+879571,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,6.0,6
+879572,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,7.0,7
+879573,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,8.0,8
+879574,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,9.0,9
+879575,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,10.0,10
+879576,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,11.0,11
+879577,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,12.0,12
+879578,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,13.0,13
+879579,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,14.0,14
+879580,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,15.0,15
+879581,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,16.0,16
+879582,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,17.0,17
+879583,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,18.0,18
+879584,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,19.0,19
+879585,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,20.0,20
+879586,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,21.0,21
+879587,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,22.0,22
+879588,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,23.0,23
+879589,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,24.0,24
+879590,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,25.0,25
+879591,MCS,mcs7_family_interview,ghrpnbb0,Family Context B,26.0,Person not in household
+879592,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,-9.0,Refusal
+879593,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,-8.0,Do not know
+879594,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,-1.0,Not applicable
+879595,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,1.0,1
+879596,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,2.0,2
+879597,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,3.0,3
+879598,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,4.0,4
+879599,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,5.0,5
+879600,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,6.0,6
+879601,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,7.0,7
+879602,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,8.0,8
+879603,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,9.0,9
+879604,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,10.0,10
+879605,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,11.0,11
+879606,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,12.0,12
+879607,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,13.0,13
+879608,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,14.0,14
+879609,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,15.0,15
+879610,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,16.0,16
+879611,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,17.0,17
+879612,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,18.0,18
+879613,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,19.0,19
+879614,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,20.0,20
+879615,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,21.0,21
+879616,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,22.0,22
+879617,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,23.0,23
+879618,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,24.0,24
+879619,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,25.0,25
+879620,MCS,mcs7_family_interview,ghrpnbc0,Family Context C,26.0,Person not in household
+879621,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,-9.0,Refusal
+879622,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,-8.0,Do not know
+879623,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,-1.0,Not applicable
+879624,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,1.0,1
+879625,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,2.0,2
+879626,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,3.0,3
+879627,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,4.0,4
+879628,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,5.0,5
+879629,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,6.0,6
+879630,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,7.0,7
+879631,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,8.0,8
+879632,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,9.0,9
+879633,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,10.0,10
+879634,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,11.0,11
+879635,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,12.0,12
+879636,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,13.0,13
+879637,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,14.0,14
+879638,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,15.0,15
+879639,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,16.0,16
+879640,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,17.0,17
+879641,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,18.0,18
+879642,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,19.0,19
+879643,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,20.0,20
+879644,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,21.0,21
+879645,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,22.0,22
+879646,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,23.0,23
+879647,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,24.0,24
+879648,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,25.0,25
+879649,MCS,mcs7_family_interview,ghrpnbd0,Family Context D,26.0,Person not in household
+879650,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,-9.0,Refusal
+879651,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,-8.0,Do not know
+879652,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,-1.0,Not applicable
+879653,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,1.0,1
+879654,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,2.0,2
+879655,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,3.0,3
+879656,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,4.0,4
+879657,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,5.0,5
+879658,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,6.0,6
+879659,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,7.0,7
+879660,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,8.0,8
+879661,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,9.0,9
+879662,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,10.0,10
+879663,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,11.0,11
+879664,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,12.0,12
+879665,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,13.0,13
+879666,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,14.0,14
+879667,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,15.0,15
+879668,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,16.0,16
+879669,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,17.0,17
+879670,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,18.0,18
+879671,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,19.0,19
+879672,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,20.0,20
+879673,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,21.0,21
+879674,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,22.0,22
+879675,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,23.0,23
+879676,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,24.0,24
+879677,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,25.0,25
+879678,MCS,mcs7_family_interview,ghrpnbe0,Family Context E,26.0,Person not in household
+879679,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,8.0,8
+879680,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,9.0,9
+879681,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,10.0,10
+879682,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,11.0,11
+879683,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,12.0,12
+879684,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,13.0,13
+879685,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,14.0,14
+879686,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,15.0,15
+879687,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,16.0,16
+879688,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,17.0,17
+879689,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,18.0,18
+879690,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,19.0,19
+879691,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,20.0,20
+879692,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,21.0,21
+879693,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,22.0,22
+879694,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,23.0,23
+879695,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,24.0,24
+879696,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,25.0,25
+879697,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,26.0,Person not in household
+879698,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,-9.0,Refusal
+879699,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,-8.0,Do not know
+879700,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,-1.0,Not applicable
+879701,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,1.0,1
+879702,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,2.0,2
+879703,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,3.0,3
+879704,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,4.0,4
+879705,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,5.0,5
+879706,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,6.0,6
+879707,MCS,mcs7_family_interview,ghrpnbf0,Family Context F,7.0,7
+879708,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,-9.0,Refusal
+879709,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,-8.0,Do not know
+879710,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,-1.0,Not applicable
+879711,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,1.0,1
+879712,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,2.0,2
+879713,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,3.0,3
+879714,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,4.0,4
+879715,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,5.0,5
+879716,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,6.0,6
+879717,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,7.0,7
+879718,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,8.0,8
+879719,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,9.0,9
+879720,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,10.0,10
+879721,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,11.0,11
+879722,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,12.0,12
+879723,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,13.0,13
+879724,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,14.0,14
+879725,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,15.0,15
+879726,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,16.0,16
+879727,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,17.0,17
+879728,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,18.0,18
+879729,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,19.0,19
+879730,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,20.0,20
+879731,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,21.0,21
+879732,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,22.0,22
+879733,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,23.0,23
+879734,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,24.0,24
+879735,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,25.0,25
+879736,MCS,mcs7_family_interview,ghrpnbg0,Family Context G,26.0,Person not in household
+879737,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,-9.0,Refusal
+879738,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,-8.0,Do not know
+879739,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,-1.0,Not applicable
+879740,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,1.0,1
+879741,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,2.0,2
+879742,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,3.0,3
+879743,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,4.0,4
+879744,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,5.0,5
+879745,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,6.0,6
+879746,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,7.0,7
+879747,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,8.0,8
+879748,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,9.0,9
+879749,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,10.0,10
+879750,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,11.0,11
+879751,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,12.0,12
+879752,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,13.0,13
+879753,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,14.0,14
+879754,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,15.0,15
+879755,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,16.0,16
+879756,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,17.0,17
+879757,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,18.0,18
+879758,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,19.0,19
+879759,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,20.0,20
+879760,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,21.0,21
+879761,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,22.0,22
+879762,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,23.0,23
+879763,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,24.0,24
+879764,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,25.0,25
+879765,MCS,mcs7_family_interview,ghrpnbh0,Family Context H,26.0,Person not in household
+879766,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,23.0,23
+879767,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,24.0,24
+879768,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,25.0,25
+879769,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,26.0,Person not in household
+879770,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,-9.0,Refusal
+879771,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,-8.0,Do not know
+879772,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,-1.0,Not applicable
+879773,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,1.0,1
+879774,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,2.0,2
+879775,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,3.0,3
+879776,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,4.0,4
+879777,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,5.0,5
+879778,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,6.0,6
+879779,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,7.0,7
+879780,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,8.0,8
+879781,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,9.0,9
+879782,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,10.0,10
+879783,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,11.0,11
+879784,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,12.0,12
+879785,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,13.0,13
+879786,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,14.0,14
+879787,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,15.0,15
+879788,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,16.0,16
+879789,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,17.0,17
+879790,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,18.0,18
+879791,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,19.0,19
+879792,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,20.0,20
+879793,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,21.0,21
+879794,MCS,mcs7_family_interview,ghrpnbi0,Family Context I,22.0,22
+879795,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,-9.0,Refusal
+879796,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,-8.0,Do not know
+879797,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,-1.0,Not applicable
+879798,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,1.0,1
+879799,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,2.0,2
+879800,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,3.0,3
+879801,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,4.0,4
+879802,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,5.0,5
+879803,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,6.0,6
+879804,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,7.0,7
+879805,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,8.0,8
+879806,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,9.0,9
+879807,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,10.0,10
+879808,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,11.0,11
+879809,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,12.0,12
+879810,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,13.0,13
+879811,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,14.0,14
+879812,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,15.0,15
+879813,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,16.0,16
+879814,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,17.0,17
+879815,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,18.0,18
+879816,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,19.0,19
+879817,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,20.0,20
+879818,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,21.0,21
+879819,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,22.0,22
+879820,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,23.0,23
+879821,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,24.0,24
+879822,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,25.0,25
+879823,MCS,mcs7_family_interview,ghrpnbj0,Family Context J,26.0,Person not in household
+879824,MCS,mcs7_family_interview,ghrprya0,Start of period of CM living with HH composition of Family Context A [YEAR] R1,-9.0,Refused
+879825,MCS,mcs7_family_interview,ghrprya0,Start of period of CM living with HH composition of Family Context A [YEAR] R1,-8.0,Do not know
+879826,MCS,mcs7_family_interview,ghrprya0,Start of period of CM living with HH composition of Family Context A [YEAR] R1,-1.0,Not applicable
+879827,MCS,mcs7_family_interview,ghrpryb0,Start of period of CM living with HH composition of Family Context B [YEAR] R2,-9.0,Refused
+879828,MCS,mcs7_family_interview,ghrpryb0,Start of period of CM living with HH composition of Family Context B [YEAR] R2,-8.0,Do not know
+879829,MCS,mcs7_family_interview,ghrpryb0,Start of period of CM living with HH composition of Family Context B [YEAR] R2,-1.0,Not applicable
+879830,MCS,mcs7_family_interview,ghrpryc0,Start of period of CM living with HH composition of Family Context C [YEAR] R3,-9.0,Refused
+879831,MCS,mcs7_family_interview,ghrpryc0,Start of period of CM living with HH composition of Family Context C [YEAR] R3,-8.0,Do not know
+879832,MCS,mcs7_family_interview,ghrpryc0,Start of period of CM living with HH composition of Family Context C [YEAR] R3,-1.0,Not applicable
+879833,MCS,mcs7_family_interview,ghrpryd0,Start of period of CM living with HH composition of Family Context D [YEAR] R4,-9.0,Refused
+879834,MCS,mcs7_family_interview,ghrpryd0,Start of period of CM living with HH composition of Family Context D [YEAR] R4,-8.0,Do not know
+879835,MCS,mcs7_family_interview,ghrpryd0,Start of period of CM living with HH composition of Family Context D [YEAR] R4,-1.0,Not applicable
+879836,MCS,mcs7_family_interview,ghrprye0,Start of period of CM living with HH composition of Family Context E [YEAR] R5,-9.0,Refused
+879837,MCS,mcs7_family_interview,ghrprye0,Start of period of CM living with HH composition of Family Context E [YEAR] R5,-8.0,Do not know
+879838,MCS,mcs7_family_interview,ghrprye0,Start of period of CM living with HH composition of Family Context E [YEAR] R5,-1.0,Not applicable
+879839,MCS,mcs7_family_interview,ghrpryf0,Start of period of CM living with HH composition of Family Context F [YEAR] R6,-9.0,Refused
+879840,MCS,mcs7_family_interview,ghrpryf0,Start of period of CM living with HH composition of Family Context F [YEAR] R6,-8.0,Do not know
+879841,MCS,mcs7_family_interview,ghrpryf0,Start of period of CM living with HH composition of Family Context F [YEAR] R6,-1.0,Not applicable
+879842,MCS,mcs7_family_interview,ghrpryg0,Start of period of CM living with HH composition of Family Context G [YEAR] R7,-9.0,Refused
+879843,MCS,mcs7_family_interview,ghrpryg0,Start of period of CM living with HH composition of Family Context G [YEAR] R7,-8.0,Do not know
+879844,MCS,mcs7_family_interview,ghrpryg0,Start of period of CM living with HH composition of Family Context G [YEAR] R7,-1.0,Not applicable
+879845,MCS,mcs7_family_interview,ghrpryh0,Start of period of CM living with HH composition of Family Context H [YEAR] R8,-9.0,Refused
+879846,MCS,mcs7_family_interview,ghrpryh0,Start of period of CM living with HH composition of Family Context H [YEAR] R8,-8.0,Do not know
+879847,MCS,mcs7_family_interview,ghrpryh0,Start of period of CM living with HH composition of Family Context H [YEAR] R8,-1.0,Not applicable
+879848,MCS,mcs7_family_interview,ghrpryi0,Start of period of CM living with HH composition of Family Context I [YEAR] R9,-9.0,Refused
+879849,MCS,mcs7_family_interview,ghrpryi0,Start of period of CM living with HH composition of Family Context I [YEAR] R9,-8.0,Do not know
+879850,MCS,mcs7_family_interview,ghrpryi0,Start of period of CM living with HH composition of Family Context I [YEAR] R9,-1.0,Not applicable
+879851,MCS,mcs7_family_interview,ghrpryj0,Start of period of CM living with HH composition of Family Context J [YEAR] R10,-9.0,Refused
+879852,MCS,mcs7_family_interview,ghrpryj0,Start of period of CM living with HH composition of Family Context J [YEAR] R10,-8.0,Do not know
+879853,MCS,mcs7_family_interview,ghrpryj0,Start of period of CM living with HH composition of Family Context J [YEAR] R10,-1.0,Not applicable
+879854,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,-9.0,Refused
+879855,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,-8.0,Do not know
+879856,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,-1.0,Not applicable
+879857,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,1.0,January
+879858,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,2.0,February
+879859,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,3.0,March
+879860,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,4.0,April
+879861,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,5.0,May
+879862,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,6.0,June
+879863,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,7.0,July
+879864,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,8.0,August
+879865,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,9.0,September
+879866,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,10.0,October
+879867,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,11.0,November
+879868,MCS,mcs7_family_interview,ghrprma0,Start of period of CM living with HH composition of Family Context A [MONTH] R1,12.0,December
+879869,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,-9.0,Refused
+879870,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,-8.0,Do not know
+879871,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,-1.0,Not applicable
+879872,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,1.0,January
+879873,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,2.0,February
+879874,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,3.0,March
+879875,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,4.0,April
+879876,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,5.0,May
+879877,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,6.0,June
+879878,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,7.0,July
+879879,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,8.0,August
+879880,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,9.0,September
+879881,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,10.0,October
+879882,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,11.0,November
+879883,MCS,mcs7_family_interview,ghrprmb0,Start of period of CM living with HH composition of Family Context B [MONTH] R2,12.0,December
+879884,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,-9.0,Refused
+879885,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,-8.0,Do not know
+879886,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,-1.0,Not applicable
+879887,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,1.0,January
+879888,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,6.0,June
+879889,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,7.0,July
+879890,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,8.0,August
+879891,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,9.0,September
+879892,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,10.0,October
+879893,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,11.0,November
+879894,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,12.0,December
+879895,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,2.0,February
+879896,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,3.0,March
+879897,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,4.0,April
+879898,MCS,mcs7_family_interview,ghrprmc0,Start of period of CM living with HH composition of Family Context C [MONTH] R3,5.0,May
+879899,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,-9.0,Refused
+879900,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,-8.0,Do not know
+879901,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,-1.0,Not applicable
+879902,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,1.0,January
+879903,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,2.0,February
+879904,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,3.0,March
+879905,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,4.0,April
+879906,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,5.0,May
+879907,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,6.0,June
+879908,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,7.0,July
+879909,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,8.0,August
+879910,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,9.0,September
+879911,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,10.0,October
+879912,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,11.0,November
+879913,MCS,mcs7_family_interview,ghrprmd0,Start of period of CM living with HH composition of Family Context D [MONTH] R4,12.0,December
+879914,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,-9.0,Refused
+879915,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,-8.0,Do not know
+879916,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,-1.0,Not applicable
+879917,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,1.0,January
+879918,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,2.0,February
+879919,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,3.0,March
+879920,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,4.0,April
+879921,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,5.0,May
+879922,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,6.0,June
+879923,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,7.0,July
+879924,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,8.0,August
+879925,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,9.0,September
+879926,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,10.0,October
+879927,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,11.0,November
+879928,MCS,mcs7_family_interview,ghrprme0,Start of period of CM living with HH composition of Family Context E [MONTH] R5,12.0,December
+879929,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,-9.0,Refused
+879930,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,-8.0,Do not know
+879931,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,-1.0,Not applicable
+879932,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,1.0,January
+879933,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,2.0,February
+879934,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,3.0,March
+879935,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,4.0,April
+879936,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,5.0,May
+879937,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,6.0,June
+879938,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,7.0,July
+879939,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,8.0,August
+879940,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,9.0,September
+879941,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,10.0,October
+879942,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,11.0,November
+879943,MCS,mcs7_family_interview,ghrprmf0,Start of period of CM living with HH composition of Family Context F [MONTH] R6,12.0,December
+879944,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,-9.0,Refused
+879945,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,-8.0,Do not know
+879946,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,-1.0,Not applicable
+879947,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,1.0,January
+879948,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,2.0,February
+879949,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,3.0,March
+879950,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,4.0,April
+879951,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,5.0,May
+879952,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,6.0,June
+879953,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,7.0,July
+879954,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,8.0,August
+879955,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,9.0,September
+879956,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,10.0,October
+879957,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,11.0,November
+879958,MCS,mcs7_family_interview,ghrprmg0,Start of period of CM living with HH composition of Family Context G [MONTH] R7,12.0,December
+879959,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,-9.0,Refused
+879960,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,-8.0,Do not know
+879961,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,-1.0,Not applicable
+879962,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,1.0,January
+879963,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,2.0,February
+879964,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,3.0,March
+879965,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,4.0,April
+879966,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,5.0,May
+879967,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,6.0,June
+879968,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,7.0,July
+879969,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,8.0,August
+879970,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,9.0,September
+879971,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,10.0,October
+879972,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,11.0,November
+879973,MCS,mcs7_family_interview,ghrprmh0,Start of period of CM living with HH composition of Family Context H [MONTH] R8,12.0,December
+879974,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,10.0,October
+879975,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,11.0,November
+879976,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,12.0,December
+879977,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,-9.0,Refused
+879978,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,-8.0,Do not know
+879979,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,-1.0,Not applicable
+879980,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,1.0,January
+879981,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,2.0,February
+879982,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,3.0,March
+879983,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,4.0,April
+879984,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,5.0,May
+879985,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,6.0,June
+879986,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,7.0,July
+879987,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,8.0,August
+879988,MCS,mcs7_family_interview,ghrprmi0,Start of period of CM living with HH composition of Family Context I [MONTH] R9,9.0,September
+879989,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,-9.0,Refused
+879990,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,-8.0,Do not know
+879991,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,-1.0,Not applicable
+879992,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,1.0,January
+879993,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,2.0,February
+879994,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,3.0,March
+879995,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,4.0,April
+879996,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,5.0,May
+879997,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,6.0,June
+879998,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,7.0,July
+879999,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,8.0,August
+880000,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,9.0,September
+880001,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,10.0,October
+880002,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,11.0,November
+880003,MCS,mcs7_family_interview,ghrprmj0,Start of period of CM living with HH composition of Family Context J [MONTH] R10,12.0,December
+880004,MCS,mcs7_family_interview,ghramy0,[CM not living with parents] Start of period of CM living with current HH composition YEAR,-9.0,Refused
+880005,MCS,mcs7_family_interview,ghramy0,[CM not living with parents] Start of period of CM living with current HH composition YEAR,-8.0,Do not know
+880006,MCS,mcs7_family_interview,ghramy0,[CM not living with parents] Start of period of CM living with current HH composition YEAR,-1.0,Not applicable
+880007,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,-9.0,Refused
+880008,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,-8.0,Do not know
+880009,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,-1.0,Not applicable
+880010,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,1.0,January
+880011,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,2.0,February
+880012,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,3.0,March
+880013,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,4.0,April
+880014,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,5.0,May
+880015,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,6.0,June
+880016,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,7.0,July
+880017,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,8.0,August
+880018,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,9.0,September
+880019,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,10.0,October
+880020,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,11.0,November
+880021,MCS,mcs7_family_interview,ghramm0,[CM not living with parents] Start of period of CM living with current HH composition MONTH,12.0,December
+880022,MCS,mcs7_family_interview,ghrapy0,[CM not living with parents] End of period of CM living with partner [from MCS6] YEAR,-9.0,Refused
+880023,MCS,mcs7_family_interview,ghrapy0,[CM not living with parents] End of period of CM living with partner [from MCS6] YEAR,-8.0,Do not know
+880024,MCS,mcs7_family_interview,ghrapy0,[CM not living with parents] End of period of CM living with partner [from MCS6] YEAR,-1.0,Not applicable
+880025,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,-9.0,Refused
+880026,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,-8.0,Do not know
+880027,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,-1.0,Not applicable
+880028,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,1.0,January
+880029,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,2.0,February
+880030,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,3.0,March
+880031,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,4.0,April
+880032,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,5.0,May
+880033,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,6.0,June
+880034,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,7.0,July
+880035,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,8.0,August
+880036,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,9.0,September
+880037,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,10.0,October
+880038,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,11.0,November
+880039,MCS,mcs7_family_interview,ghrapm0,[CM not living with parents] End of period of CM living with partner [from MCS6] MONTH,12.0,December
+880040,MCS,mcs7_family_interview,ghrwnaa0,[CM not living with parents or partner from MCS6] Current HH composition R1,-1.0,Not applicable
+880041,MCS,mcs7_family_interview,ghrwnaa0,[CM not living with parents or partner from MCS6] Current HH composition R1,1.0,Start living in your current household setting?
+880042,MCS,mcs7_family_interview,ghrwnaa0,[CM not living with parents or partner from MCS6] Current HH composition R1,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880043,MCS,mcs7_family_interview,ghrwnaa0,[CM not living with parents or partner from MCS6] Current HH composition R1,3.0,Or do something else?
+880044,MCS,mcs7_family_interview,ghrwnaa0,[CM not living with parents or partner from MCS6] Current HH composition R1,4.0,Do not know
+880045,MCS,mcs7_family_interview,ghrwnaa0,[CM not living with parents or partner from MCS6] Current HH composition R1,5.0,Refused
+880046,MCS,mcs7_family_interview,ghrwnab0,[CM not living with parents or partner from MCS6] Current HH composition R2,-1.0,Not applicable
+880047,MCS,mcs7_family_interview,ghrwnab0,[CM not living with parents or partner from MCS6] Current HH composition R2,1.0,Start living in your current household setting?
+880048,MCS,mcs7_family_interview,ghrwnab0,[CM not living with parents or partner from MCS6] Current HH composition R2,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880049,MCS,mcs7_family_interview,ghrwnab0,[CM not living with parents or partner from MCS6] Current HH composition R2,3.0,Or do something else?
+880050,MCS,mcs7_family_interview,ghrwnab0,[CM not living with parents or partner from MCS6] Current HH composition R2,4.0,Do not know
+880051,MCS,mcs7_family_interview,ghrwnab0,[CM not living with parents or partner from MCS6] Current HH composition R2,5.0,Refused
+880052,MCS,mcs7_family_interview,ghrwnac0,[CM not living with parents or partner from MCS6] Current HH composition R3,-1.0,Not applicable
+880053,MCS,mcs7_family_interview,ghrwnac0,[CM not living with parents or partner from MCS6] Current HH composition R3,1.0,Start living in your current household setting?
+880054,MCS,mcs7_family_interview,ghrwnac0,[CM not living with parents or partner from MCS6] Current HH composition R3,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880055,MCS,mcs7_family_interview,ghrwnac0,[CM not living with parents or partner from MCS6] Current HH composition R3,3.0,Or do something else?
+880056,MCS,mcs7_family_interview,ghrwnac0,[CM not living with parents or partner from MCS6] Current HH composition R3,4.0,Do not know
+880057,MCS,mcs7_family_interview,ghrwnac0,[CM not living with parents or partner from MCS6] Current HH composition R3,5.0,Refused
+880058,MCS,mcs7_family_interview,ghrwnad0,[CM not living with parents or partner from MCS6] Current HH composition R4,-1.0,Not applicable
+880059,MCS,mcs7_family_interview,ghrwnad0,[CM not living with parents or partner from MCS6] Current HH composition R4,1.0,Start living in your current household setting?
+880060,MCS,mcs7_family_interview,ghrwnad0,[CM not living with parents or partner from MCS6] Current HH composition R4,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880061,MCS,mcs7_family_interview,ghrwnad0,[CM not living with parents or partner from MCS6] Current HH composition R4,3.0,Or do something else?
+880062,MCS,mcs7_family_interview,ghrwnad0,[CM not living with parents or partner from MCS6] Current HH composition R4,4.0,Do not know
+880063,MCS,mcs7_family_interview,ghrwnad0,[CM not living with parents or partner from MCS6] Current HH composition R4,5.0,Refused
+880064,MCS,mcs7_family_interview,ghrwnae0,[CM not living with parents or partner from MCS6] Current HH composition R5,-1.0,Not applicable
+880065,MCS,mcs7_family_interview,ghrwnae0,[CM not living with parents or partner from MCS6] Current HH composition R5,1.0,Start living in your current household setting?
+880066,MCS,mcs7_family_interview,ghrwnae0,[CM not living with parents or partner from MCS6] Current HH composition R5,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880067,MCS,mcs7_family_interview,ghrwnae0,[CM not living with parents or partner from MCS6] Current HH composition R5,3.0,Or do something else?
+880068,MCS,mcs7_family_interview,ghrwnae0,[CM not living with parents or partner from MCS6] Current HH composition R5,4.0,Do not know
+880069,MCS,mcs7_family_interview,ghrwnae0,[CM not living with parents or partner from MCS6] Current HH composition R5,5.0,Refused
+880070,MCS,mcs7_family_interview,ghrwnaf0,[CM not living with parents or partner from MCS6] Current HH composition R6,3.0,Or do something else?
+880071,MCS,mcs7_family_interview,ghrwnaf0,[CM not living with parents or partner from MCS6] Current HH composition R6,4.0,Do not know
+880072,MCS,mcs7_family_interview,ghrwnaf0,[CM not living with parents or partner from MCS6] Current HH composition R6,5.0,Refused
+880073,MCS,mcs7_family_interview,ghrwnaf0,[CM not living with parents or partner from MCS6] Current HH composition R6,-1.0,Not applicable
+880074,MCS,mcs7_family_interview,ghrwnaf0,[CM not living with parents or partner from MCS6] Current HH composition R6,1.0,Start living in your current household setting?
+880075,MCS,mcs7_family_interview,ghrwnaf0,[CM not living with parents or partner from MCS6] Current HH composition R6,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880076,MCS,mcs7_family_interview,ghrwnag0,[CM not living with parents or partner from MCS6] Current HH composition R7,-1.0,Not applicable
+880077,MCS,mcs7_family_interview,ghrwnag0,[CM not living with parents or partner from MCS6] Current HH composition R7,1.0,Start living in your current household setting?
+880078,MCS,mcs7_family_interview,ghrwnag0,[CM not living with parents or partner from MCS6] Current HH composition R7,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880079,MCS,mcs7_family_interview,ghrwnag0,[CM not living with parents or partner from MCS6] Current HH composition R7,3.0,Or do something else?
+880080,MCS,mcs7_family_interview,ghrwnag0,[CM not living with parents or partner from MCS6] Current HH composition R7,4.0,Do not know
+880081,MCS,mcs7_family_interview,ghrwnag0,[CM not living with parents or partner from MCS6] Current HH composition R7,5.0,Refused
+880082,MCS,mcs7_family_interview,ghrwnah0,[CM not living with parents or partner from MCS6] Current HH composition R8,-1.0,Not applicable
+880083,MCS,mcs7_family_interview,ghrwnah0,[CM not living with parents or partner from MCS6] Current HH composition R8,1.0,Start living in your current household setting?
+880084,MCS,mcs7_family_interview,ghrwnah0,[CM not living with parents or partner from MCS6] Current HH composition R8,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880085,MCS,mcs7_family_interview,ghrwnah0,[CM not living with parents or partner from MCS6] Current HH composition R8,3.0,Or do something else?
+880086,MCS,mcs7_family_interview,ghrwnah0,[CM not living with parents or partner from MCS6] Current HH composition R8,4.0,Do not know
+880087,MCS,mcs7_family_interview,ghrwnah0,[CM not living with parents or partner from MCS6] Current HH composition R8,5.0,Refused
+880088,MCS,mcs7_family_interview,ghrwnai0,[CM not living with parents or partner from MCS6] Current HH composition R9,-1.0,Not applicable
+880089,MCS,mcs7_family_interview,ghrwnai0,[CM not living with parents or partner from MCS6] Current HH composition R9,1.0,Start living in your current household setting?
+880090,MCS,mcs7_family_interview,ghrwnai0,[CM not living with parents or partner from MCS6] Current HH composition R9,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880091,MCS,mcs7_family_interview,ghrwnai0,[CM not living with parents or partner from MCS6] Current HH composition R9,3.0,Or do something else?
+880092,MCS,mcs7_family_interview,ghrwnai0,[CM not living with parents or partner from MCS6] Current HH composition R9,4.0,Do not know
+880093,MCS,mcs7_family_interview,ghrwnai0,[CM not living with parents or partner from MCS6] Current HH composition R9,5.0,Refused
+880094,MCS,mcs7_family_interview,ghrwnaj0,[CM not living with parents or partner from MCS6] Current HH composition R10,-1.0,Not applicable
+880095,MCS,mcs7_family_interview,ghrwnaj0,[CM not living with parents or partner from MCS6] Current HH composition R10,1.0,Start living in your current household setting?
+880096,MCS,mcs7_family_interview,ghrwnaj0,[CM not living with parents or partner from MCS6] Current HH composition R10,2.0,Start living in another family setting e.g. with different relatives or with a foster family?
+880097,MCS,mcs7_family_interview,ghrwnaj0,[CM not living with parents or partner from MCS6] Current HH composition R10,3.0,Or do something else?
+880098,MCS,mcs7_family_interview,ghrwnaj0,[CM not living with parents or partner from MCS6] Current HH composition R10,4.0,Do not know
+880099,MCS,mcs7_family_interview,ghrwnaj0,[CM not living with parents or partner from MCS6] Current HH composition R10,5.0,Refused
+880100,MCS,mcs7_family_interview,ghrwnya0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R1,-9.0,Refused
+880101,MCS,mcs7_family_interview,ghrwnya0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R1,-8.0,Do not know
+880102,MCS,mcs7_family_interview,ghrwnya0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R1,-1.0,Not applicable
+880103,MCS,mcs7_family_interview,ghrwnyb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R2,-9.0,Refused
+880104,MCS,mcs7_family_interview,ghrwnyb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R2,-8.0,Do not know
+880105,MCS,mcs7_family_interview,ghrwnyb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R2,-1.0,Not applicable
+880106,MCS,mcs7_family_interview,ghrwnyc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R3,-9.0,Refused
+880107,MCS,mcs7_family_interview,ghrwnyc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R3,-8.0,Do not know
+880108,MCS,mcs7_family_interview,ghrwnyc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R3,-1.0,Not applicable
+880109,MCS,mcs7_family_interview,ghrwnyd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R4,-9.0,Refused
+880110,MCS,mcs7_family_interview,ghrwnyd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R4,-8.0,Do not know
+880111,MCS,mcs7_family_interview,ghrwnyd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R4,-1.0,Not applicable
+880112,MCS,mcs7_family_interview,ghrwnye0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R5,-9.0,Refused
+880113,MCS,mcs7_family_interview,ghrwnye0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R5,-8.0,Do not know
+880114,MCS,mcs7_family_interview,ghrwnye0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R5,-1.0,Not applicable
+880115,MCS,mcs7_family_interview,ghrwnyf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R6,-9.0,Refused
+880116,MCS,mcs7_family_interview,ghrwnyf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R6,-8.0,Do not know
+880117,MCS,mcs7_family_interview,ghrwnyf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R6,-1.0,Not applicable
+880118,MCS,mcs7_family_interview,ghrwnyg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R7,-9.0,Refused
+880119,MCS,mcs7_family_interview,ghrwnyg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R7,-8.0,Do not know
+880120,MCS,mcs7_family_interview,ghrwnyg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R7,-1.0,Not applicable
+880121,MCS,mcs7_family_interview,ghrwnyh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R8,-9.0,Refused
+880122,MCS,mcs7_family_interview,ghrwnyh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R8,-8.0,Do not know
+880123,MCS,mcs7_family_interview,ghrwnyh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R8,-1.0,Not applicable
+880124,MCS,mcs7_family_interview,ghrwnyi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R9,-9.0,Refused
+880125,MCS,mcs7_family_interview,ghrwnyi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R9,-8.0,Do not know
+880126,MCS,mcs7_family_interview,ghrwnyi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R9,-1.0,Not applicable
+880127,MCS,mcs7_family_interview,ghrwnyj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R10,-9.0,Refused
+880128,MCS,mcs7_family_interview,ghrwnyj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R10,-8.0,Do not know
+880129,MCS,mcs7_family_interview,ghrwnyj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition YEAR R10,-1.0,Not applicable
+880130,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,-9.0,Refused
+880131,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,-8.0,Do not know
+880132,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,-1.0,Not applicable
+880133,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,1.0,January
+880134,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,2.0,February
+880135,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,3.0,March
+880136,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,4.0,April
+880137,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,5.0,May
+880138,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,6.0,June
+880139,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,7.0,July
+880140,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,8.0,August
+880141,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,9.0,September
+880142,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,10.0,October
+880143,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,11.0,November
+880144,MCS,mcs7_family_interview,ghrwnma0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R1,12.0,December
+880145,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,-9.0,Refused
+880146,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,-8.0,Do not know
+880147,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,-1.0,Not applicable
+880148,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,1.0,January
+880149,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,2.0,February
+880150,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,3.0,March
+880151,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,4.0,April
+880152,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,5.0,May
+880153,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,6.0,June
+880154,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,7.0,July
+880155,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,8.0,August
+880156,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,9.0,September
+880157,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,10.0,October
+880158,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,11.0,November
+880159,MCS,mcs7_family_interview,ghrwnmb0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R2,12.0,December
+880160,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,3.0,March
+880161,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,4.0,April
+880162,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,5.0,May
+880163,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,6.0,June
+880164,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,7.0,July
+880165,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,8.0,August
+880166,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,9.0,September
+880167,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,10.0,October
+880168,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,11.0,November
+880169,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,12.0,December
+880170,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,-9.0,Refused
+880171,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,-8.0,Do not know
+880172,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,-1.0,Not applicable
+880173,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,1.0,January
+880174,MCS,mcs7_family_interview,ghrwnmc0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R3,2.0,February
+880175,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,-9.0,Refused
+880176,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,-8.0,Do not know
+880177,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,-1.0,Not applicable
+880178,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,1.0,January
+880179,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,2.0,February
+880180,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,3.0,March
+880181,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,4.0,April
+880182,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,5.0,May
+880183,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,6.0,June
+880184,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,7.0,July
+880185,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,8.0,August
+880186,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,9.0,September
+880187,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,10.0,October
+880188,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,11.0,November
+880189,MCS,mcs7_family_interview,ghrwnmd0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R4,12.0,December
+880190,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,-9.0,Refused
+880191,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,-8.0,Do not know
+880192,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,-1.0,Not applicable
+880193,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,1.0,January
+880194,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,2.0,February
+880195,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,3.0,March
+880196,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,4.0,April
+880197,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,5.0,May
+880198,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,6.0,June
+880199,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,7.0,July
+880200,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,8.0,August
+880201,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,9.0,September
+880202,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,10.0,October
+880203,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,11.0,November
+880204,MCS,mcs7_family_interview,ghrwnme0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R5,12.0,December
+880205,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,-9.0,Refused
+880206,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,-8.0,Do not know
+880207,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,-1.0,Not applicable
+880208,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,1.0,January
+880209,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,2.0,February
+880210,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,3.0,March
+880211,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,4.0,April
+880212,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,5.0,May
+880213,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,6.0,June
+880214,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,7.0,July
+880215,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,8.0,August
+880216,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,9.0,September
+880217,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,10.0,October
+880218,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,11.0,November
+880219,MCS,mcs7_family_interview,ghrwnmf0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R6,12.0,December
+880220,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,-9.0,Refused
+880221,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,-8.0,Do not know
+880222,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,-1.0,Not applicable
+880223,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,1.0,January
+880224,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,2.0,February
+880225,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,3.0,March
+880226,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,4.0,April
+880227,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,5.0,May
+880228,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,6.0,June
+880229,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,7.0,July
+880230,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,8.0,August
+880231,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,9.0,September
+880232,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,10.0,October
+880233,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,11.0,November
+880234,MCS,mcs7_family_interview,ghrwnmg0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R7,12.0,December
+880235,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,-9.0,Refused
+880236,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,-8.0,Do not know
+880237,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,-1.0,Not applicable
+880238,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,1.0,January
+880239,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,2.0,February
+880240,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,3.0,March
+880241,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,4.0,April
+880242,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,5.0,May
+880243,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,6.0,June
+880244,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,7.0,July
+880245,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,8.0,August
+880246,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,9.0,September
+880247,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,10.0,October
+880248,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,11.0,November
+880249,MCS,mcs7_family_interview,ghrwnmh0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R8,12.0,December
+880250,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,6.0,June
+880251,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,7.0,July
+880252,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,8.0,August
+880253,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,9.0,September
+880254,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,-9.0,Refused
+880255,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,-8.0,Do not know
+880256,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,-1.0,Not applicable
+880257,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,1.0,January
+880258,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,2.0,February
+880259,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,3.0,March
+880260,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,4.0,April
+880261,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,5.0,May
+880262,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,10.0,October
+880263,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,11.0,November
+880264,MCS,mcs7_family_interview,ghrwnmi0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R9,12.0,December
+880265,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,-9.0,Refused
+880266,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,-8.0,Do not know
+880267,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,-1.0,Not applicable
+880268,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,1.0,January
+880269,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,2.0,February
+880270,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,3.0,March
+880271,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,4.0,April
+880272,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,5.0,May
+880273,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,6.0,June
+880274,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,7.0,July
+880275,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,8.0,August
+880276,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,9.0,September
+880277,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,10.0,October
+880278,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,11.0,November
+880279,MCS,mcs7_family_interview,ghrwnmj0,[CM not living with parents or partner from MCS6] Start of period of CM living with current HH composition MONTH R10,12.0,December
+880280,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],-9.0,Refusal
+880281,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],-8.0,Do not know
+880282,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],-1.0,Not applicable
+880283,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],1.0,1 room
+880284,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],2.0,2 rooms
+880285,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],3.0,3 rooms
+880286,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],4.0,4 rooms
+880287,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],5.0,5 rooms
+880288,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],6.0,6 rooms
+880289,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],7.0,7 rooms
+880290,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],8.0,8 rooms
+880291,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],9.0,9 rooms
+880292,MCS,mcs7_family_interview,ghroma,Number of rooms of CM accommodation [CM moved away from parent accommodation] [TOP-CODED],10.0,10+ rooms
+880293,MCS,mcs7_family_interview,avail_from_dt,,,
+880294,MCS,mcs7_family_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

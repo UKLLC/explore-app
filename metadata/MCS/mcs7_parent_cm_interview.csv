@@ -1,0 +1,261 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+881202,MCS,mcs7_parent_cm_interview,study_id_e,,,
+881203,MCS,mcs7_parent_cm_interview,pnum,Person number within an MCS family (excl Cohort Members,,
+881204,MCS,mcs7_parent_cm_interview,gcnum00,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+881205,MCS,mcs7_parent_cm_interview,gcnum00,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+881206,MCS,mcs7_parent_cm_interview,gcnum00,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+881207,MCS,mcs7_parent_cm_interview,g_out_parquest,Outcome for Parent_CM questions: PARCAWI and/or Parent-SDQ,1.0,Parent CAWI and Parent-reported SDQ (paper)
+881208,MCS,mcs7_parent_cm_interview,g_out_parquest,Outcome for Parent_CM questions: PARCAWI and/or Parent-SDQ,2.0,Parent CAWI only
+881209,MCS,mcs7_parent_cm_interview,g_out_parquest,Outcome for Parent_CM questions: PARCAWI and/or Parent-SDQ,3.0,Parent-reported SDQ (paper)
+881210,MCS,mcs7_parent_cm_interview,gpcmed00,Is the Cohort Member (CNUM) currently in school or college?,1.0,Yes
+881211,MCS,mcs7_parent_cm_interview,gpcmed00,Is the Cohort Member (CNUM) currently in school or college?,2.0,No
+881212,MCS,mcs7_parent_cm_interview,gpcmed00,Is the Cohort Member (CNUM) currently in school or college?,3.0,Do not know
+881213,MCS,mcs7_parent_cm_interview,gpcmed00,Is the Cohort Member (CNUM) currently in school or college?,4.0,I do not wish to answer
+881214,MCS,mcs7_parent_cm_interview,gpcmed00,Is the Cohort Member (CNUM) currently in school or college?,5.0,No answer
+881215,MCS,mcs7_parent_cm_interview,gpschl00,How involved do you personally feel in the Cohort Member s school/college life - would you say that you feel...?,1.0,Very involved
+881216,MCS,mcs7_parent_cm_interview,gpschl00,How involved do you personally feel in the Cohort Member s school/college life - would you say that you feel...?,2.0,Fairly involved
+881217,MCS,mcs7_parent_cm_interview,gpschl00,How involved do you personally feel in the Cohort Member s school/college life - would you say that you feel...?,3.0,Not very involved
+881218,MCS,mcs7_parent_cm_interview,gpschl00,How involved do you personally feel in the Cohort Member s school/college life - would you say that you feel...?,4.0,Not at all involved
+881219,MCS,mcs7_parent_cm_interview,gpschl00,How involved do you personally feel in the Cohort Member s school/college life - would you say that you feel...?,5.0,Do not know
+881220,MCS,mcs7_parent_cm_interview,gpschl00,How involved do you personally feel in the Cohort Member s school/college life - would you say that you feel...?,6.0,I do not wish to answer
+881221,MCS,mcs7_parent_cm_interview,gpschl00,How involved do you personally feel in the Cohort Member s school/college life - would you say that you feel...?,7.0,No answer
+881222,MCS,mcs7_parent_cm_interview,gpaslu00,How likely or unlikely do you think it is that the Cohort Member will go to university?,1.0,Very likely
+881223,MCS,mcs7_parent_cm_interview,gpaslu00,How likely or unlikely do you think it is that the Cohort Member will go to university?,2.0,Fairly likely
+881224,MCS,mcs7_parent_cm_interview,gpaslu00,How likely or unlikely do you think it is that the Cohort Member will go to university?,3.0,Not very likely
+881225,MCS,mcs7_parent_cm_interview,gpaslu00,How likely or unlikely do you think it is that the Cohort Member will go to university?,4.0,Not at all likely
+881226,MCS,mcs7_parent_cm_interview,gpaslu00,How likely or unlikely do you think it is that the Cohort Member will go to university?,5.0,Do not know
+881227,MCS,mcs7_parent_cm_interview,gpaslu00,How likely or unlikely do you think it is that the Cohort Member will go to university?,6.0,I do not wish to answer
+881228,MCS,mcs7_parent_cm_interview,gpaslu00,How likely or unlikely do you think it is that the Cohort Member will go to university?,7.0,No answer
+881229,MCS,mcs7_parent_cm_interview,gpasux0a,Reason for unlikely for the CM to go to University MC (A) They won't achieve the required grades,-1.0,Not Applicable
+881230,MCS,mcs7_parent_cm_interview,gpasux0a,Reason for unlikely for the CM to go to University MC (A) They won't achieve the required grades,0.0,No
+881231,MCS,mcs7_parent_cm_interview,gpasux0a,Reason for unlikely for the CM to go to University MC (A) They won't achieve the required grades,1.0,Yes
+881232,MCS,mcs7_parent_cm_interview,gpasux0b,Reason for unlikely for the CM to go to University MC (A) We can't afford it (including worried by student debt),-1.0,Not Applicable
+881233,MCS,mcs7_parent_cm_interview,gpasux0b,Reason for unlikely for the CM to go to University MC (A) We can't afford it (including worried by student debt),0.0,No
+881234,MCS,mcs7_parent_cm_interview,gpasux0b,Reason for unlikely for the CM to go to University MC (A) We can't afford it (including worried by student debt),1.0,Yes
+881235,MCS,mcs7_parent_cm_interview,gpasux0c,Reason for unlikely for the CM to go to University MC (A) They would prefer to get a job / start a career,-1.0,Not Applicable
+881236,MCS,mcs7_parent_cm_interview,gpasux0c,Reason for unlikely for the CM to go to University MC (A) They would prefer to get a job / start a career,0.0,No
+881237,MCS,mcs7_parent_cm_interview,gpasux0c,Reason for unlikely for the CM to go to University MC (A) They would prefer to get a job / start a career,1.0,Yes
+881238,MCS,mcs7_parent_cm_interview,gpasux0d,Reason for unlikely for the CM to go to University MC (A) Going to university will not help them in their future career,-1.0,Not Applicable
+881239,MCS,mcs7_parent_cm_interview,gpasux0d,Reason for unlikely for the CM to go to University MC (A) Going to university will not help them in their future career,0.0,No
+881240,MCS,mcs7_parent_cm_interview,gpasux0d,Reason for unlikely for the CM to go to University MC (A) Going to university will not help them in their future career,1.0,Yes
+881241,MCS,mcs7_parent_cm_interview,gpasux0e,Reason for unlikely for the CM to go to University MC (A) They are not interested in going / wouldn't enjoy it,-1.0,Not Applicable
+881242,MCS,mcs7_parent_cm_interview,gpasux0e,Reason for unlikely for the CM to go to University MC (A) They are not interested in going / wouldn't enjoy it,0.0,No
+881243,MCS,mcs7_parent_cm_interview,gpasux0e,Reason for unlikely for the CM to go to University MC (A) They are not interested in going / wouldn't enjoy it,1.0,Yes
+881244,MCS,mcs7_parent_cm_interview,gpasux0f,Reason for unlikely for the CM to go to University MC (A) They want to start a family,-1.0,Not Applicable
+881245,MCS,mcs7_parent_cm_interview,gpasux0f,Reason for unlikely for the CM to go to University MC (A) They want to start a family,0.0,No
+881246,MCS,mcs7_parent_cm_interview,gpasux0f,Reason for unlikely for the CM to go to University MC (A) They want to start a family,1.0,Yes
+881247,MCS,mcs7_parent_cm_interview,gpasux0g,Reason for unlikely for the CM to go to University MC (A) I/we/relatives recommend that they should leave after {ASUX_TS},-1.0,Not Applicable
+881248,MCS,mcs7_parent_cm_interview,gpasux0g,Reason for unlikely for the CM to go to University MC (A) I/we/relatives recommend that they should leave after {ASUX_TS},0.0,No
+881249,MCS,mcs7_parent_cm_interview,gpasux0g,Reason for unlikely for the CM to go to University MC (A) I/we/relatives recommend that they should leave after {ASUX_TS},1.0,Yes
+881250,MCS,mcs7_parent_cm_interview,gpasux0h,Reason for unlikely for the CM to go to University MC (A) Because their friends plan to leave after {ASUX_TS},-1.0,Not Applicable
+881251,MCS,mcs7_parent_cm_interview,gpasux0h,Reason for unlikely for the CM to go to University MC (A) Because their friends plan to leave after {ASUX_TS},0.0,No
+881252,MCS,mcs7_parent_cm_interview,gpasux0h,Reason for unlikely for the CM to go to University MC (A) Because their friends plan to leave after {ASUX_TS},1.0,Yes
+881253,MCS,mcs7_parent_cm_interview,gpasux0i,Reason for unlikely for the CM to go to University MC (A) They have a learning difficulty which would prevent them from going,-1.0,Not Applicable
+881254,MCS,mcs7_parent_cm_interview,gpasux0i,Reason for unlikely for the CM to go to University MC (A) They have a learning difficulty which would prevent them from going,0.0,No
+881255,MCS,mcs7_parent_cm_interview,gpasux0i,Reason for unlikely for the CM to go to University MC (A) They have a learning difficulty which would prevent them from going,1.0,Yes
+881256,MCS,mcs7_parent_cm_interview,gpasux0j,Reason for unlikely for the CM to go to University MC (A) It's too early to decide whether they would go or not,-1.0,Not Applicable
+881257,MCS,mcs7_parent_cm_interview,gpasux0j,Reason for unlikely for the CM to go to University MC (A) It's too early to decide whether they would go or not,0.0,No
+881258,MCS,mcs7_parent_cm_interview,gpasux0j,Reason for unlikely for the CM to go to University MC (A) It's too early to decide whether they would go or not,1.0,Yes
+881259,MCS,mcs7_parent_cm_interview,gpasux0k,Reason for unlikely for the CM to go to University MC (A) Other,-1.0,Not Applicable
+881260,MCS,mcs7_parent_cm_interview,gpasux0k,Reason for unlikely for the CM to go to University MC (A) Other,0.0,No
+881261,MCS,mcs7_parent_cm_interview,gpasux0k,Reason for unlikely for the CM to go to University MC (A) Other,1.0,Yes
+881262,MCS,mcs7_parent_cm_interview,gpasux0l1,Reason for unlikely for the CM to go to University MC (A) Health / mental health issues,-1.0,Not Applicable
+881263,MCS,mcs7_parent_cm_interview,gpasux0l1,Reason for unlikely for the CM to go to University MC (A) Health / mental health issues,0.0,No
+881264,MCS,mcs7_parent_cm_interview,gpasux0l1,Reason for unlikely for the CM to go to University MC (A) Health / mental health issues,1.0,Yes
+881265,MCS,mcs7_parent_cm_interview,gpasux0m,Reason for unlikely for the CM to go to University MC (A) Take a gap year / go travelling,-1.0,Not Applicable
+881266,MCS,mcs7_parent_cm_interview,gpasux0m,Reason for unlikely for the CM to go to University MC (A) Take a gap year / go travelling,0.0,No
+881267,MCS,mcs7_parent_cm_interview,gpasux0m,Reason for unlikely for the CM to go to University MC (A) Take a gap year / go travelling,1.0,Yes
+881268,MCS,mcs7_parent_cm_interview,gpasux0n,Reason for unlikely for the CM to go to University MC (A) Non university training options,-1.0,Not Applicable
+881269,MCS,mcs7_parent_cm_interview,gpasux0n,Reason for unlikely for the CM to go to University MC (A) Non university training options,0.0,No
+881270,MCS,mcs7_parent_cm_interview,gpasux0n,Reason for unlikely for the CM to go to University MC (A) Non university training options,1.0,Yes
+881271,MCS,mcs7_parent_cm_interview,gpasux0o,Reason for unlikely for the CM to go to University MC (A) Don't know,-1.0,Not Applicable
+881272,MCS,mcs7_parent_cm_interview,gpasux0o,Reason for unlikely for the CM to go to University MC (A) Don't know,0.0,No
+881273,MCS,mcs7_parent_cm_interview,gpasux0o,Reason for unlikely for the CM to go to University MC (A) Don't know,1.0,Yes
+881274,MCS,mcs7_parent_cm_interview,gpasux0p,Reason for unlikely for the CM to go to University MC (A) I do not wish to answer,-1.0,Not Applicable
+881275,MCS,mcs7_parent_cm_interview,gpasux0p,Reason for unlikely for the CM to go to University MC (A) I do not wish to answer,0.0,No
+881276,MCS,mcs7_parent_cm_interview,gpasux0p,Reason for unlikely for the CM to go to University MC (A) I do not wish to answer,1.0,Yes
+881277,MCS,mcs7_parent_cm_interview,gpasux0q,Reason for unlikely for the CM to go to University MC (A) Vague irrelevant answer,-1.0,Not Applicable
+881278,MCS,mcs7_parent_cm_interview,gpasux0q,Reason for unlikely for the CM to go to University MC (A) Vague irrelevant answer,0.0,No
+881279,MCS,mcs7_parent_cm_interview,gpasux0q,Reason for unlikely for the CM to go to University MC (A) Vague irrelevant answer,1.0,Yes
+881280,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,1.0,Every day or almost every day
+881281,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,2.0,Several times a week
+881282,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,3.0,Once or twice a week
+881283,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,4.0,Once or twice a month
+881284,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,5.0,Less often than once a month
+881285,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,6.0,Not at all
+881286,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,7.0,Do not know
+881287,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,8.0,I do not wish to answer
+881288,MCS,mcs7_parent_cm_interview,gptaim00,How often do you talk to the Cohort Member about things that are important to her/him?,9.0,No answer
+881289,MCS,mcs7_parent_cm_interview,gpwhet00,When the Cohort Member goes out how often do you know where s\he is going?,1.0,Always
+881290,MCS,mcs7_parent_cm_interview,gpwhet00,When the Cohort Member goes out how often do you know where s\he is going?,2.0,Usually
+881291,MCS,mcs7_parent_cm_interview,gpwhet00,When the Cohort Member goes out how often do you know where s\he is going?,3.0,Sometimes
+881292,MCS,mcs7_parent_cm_interview,gpwhet00,When the Cohort Member goes out how often do you know where s\he is going?,4.0,Never
+881293,MCS,mcs7_parent_cm_interview,gpwhet00,When the Cohort Member goes out how often do you know where s\he is going?,5.0,Do not know
+881294,MCS,mcs7_parent_cm_interview,gpwhet00,When the Cohort Member goes out how often do you know where s\he is going?,6.0,I do not wish to answer
+881295,MCS,mcs7_parent_cm_interview,gpwhet00,When the Cohort Member goes out how often do you know where s\he is going?,7.0,No answer
+881296,MCS,mcs7_parent_cm_interview,gpwhut00,When the Cohort Member goes out,1.0,Always
+881297,MCS,mcs7_parent_cm_interview,gpwhut00,When the Cohort Member goes out,2.0,Usually
+881298,MCS,mcs7_parent_cm_interview,gpwhut00,When the Cohort Member goes out,3.0,Sometimes
+881299,MCS,mcs7_parent_cm_interview,gpwhut00,When the Cohort Member goes out,4.0,Never
+881300,MCS,mcs7_parent_cm_interview,gpwhut00,When the Cohort Member goes out,5.0,Do not know
+881301,MCS,mcs7_parent_cm_interview,gpwhut00,When the Cohort Member goes out,6.0,I do not wish to answer
+881302,MCS,mcs7_parent_cm_interview,gpwhut00,When the Cohort Member goes out,7.0,No answer
+881303,MCS,mcs7_parent_cm_interview,gpschc00,Overall,1.0,Not very close
+881304,MCS,mcs7_parent_cm_interview,gpschc00,Overall,2.0,Fairly close
+881305,MCS,mcs7_parent_cm_interview,gpschc00,Overall,3.0,Very close
+881306,MCS,mcs7_parent_cm_interview,gpschc00,Overall,4.0,Extremely close
+881307,MCS,mcs7_parent_cm_interview,gpschc00,Overall,5.0,Do not know
+881308,MCS,mcs7_parent_cm_interview,gpschc00,Overall,6.0,I do not wish to answer
+881309,MCS,mcs7_parent_cm_interview,gpschc00,Overall,7.0,No answer
+881310,MCS,mcs7_parent_cm_interview,gpsdpf00,Considerate of other people s feelings,-1.0,Not applicable
+881311,MCS,mcs7_parent_cm_interview,gpsdpf00,Considerate of other people s feelings,1.0,Not true
+881312,MCS,mcs7_parent_cm_interview,gpsdpf00,Considerate of other people s feelings,2.0,Somewhat true
+881313,MCS,mcs7_parent_cm_interview,gpsdpf00,Considerate of other people s feelings,3.0,Certainly true
+881314,MCS,mcs7_parent_cm_interview,gpsdpf00,Considerate of other people s feelings,4.0,Blank
+881315,MCS,mcs7_parent_cm_interview,gpsdro00,Restless,-1.0,Not applicable
+881316,MCS,mcs7_parent_cm_interview,gpsdro00,Restless,1.0,Not true
+881317,MCS,mcs7_parent_cm_interview,gpsdro00,Restless,2.0,Somewhat true
+881318,MCS,mcs7_parent_cm_interview,gpsdro00,Restless,3.0,Certainly true
+881319,MCS,mcs7_parent_cm_interview,gpsdro00,Restless,4.0,Blank
+881320,MCS,mcs7_parent_cm_interview,gpsdhs00,Often complains of headaches,-1.0,Not applicable
+881321,MCS,mcs7_parent_cm_interview,gpsdhs00,Often complains of headaches,1.0,Not true
+881322,MCS,mcs7_parent_cm_interview,gpsdhs00,Often complains of headaches,2.0,Somewhat true
+881323,MCS,mcs7_parent_cm_interview,gpsdhs00,Often complains of headaches,3.0,Certainly true
+881324,MCS,mcs7_parent_cm_interview,gpsdhs00,Often complains of headaches,4.0,Blank
+881325,MCS,mcs7_parent_cm_interview,gpsdsr00,Shares readily with other children (treats,-1.0,Not applicable
+881326,MCS,mcs7_parent_cm_interview,gpsdsr00,Shares readily with other children (treats,1.0,Not true
+881327,MCS,mcs7_parent_cm_interview,gpsdsr00,Shares readily with other children (treats,2.0,Somewhat true
+881328,MCS,mcs7_parent_cm_interview,gpsdsr00,Shares readily with other children (treats,3.0,Certainly true
+881329,MCS,mcs7_parent_cm_interview,gpsdsr00,Shares readily with other children (treats,4.0,Blank
+881330,MCS,mcs7_parent_cm_interview,gpsdtt00,Often has temper tantrums or hot tempers,-1.0,Not applicable
+881331,MCS,mcs7_parent_cm_interview,gpsdtt00,Often has temper tantrums or hot tempers,1.0,Not true
+881332,MCS,mcs7_parent_cm_interview,gpsdtt00,Often has temper tantrums or hot tempers,2.0,Somewhat true
+881333,MCS,mcs7_parent_cm_interview,gpsdtt00,Often has temper tantrums or hot tempers,3.0,Certainly true
+881334,MCS,mcs7_parent_cm_interview,gpsdtt00,Often has temper tantrums or hot tempers,4.0,Blank
+881335,MCS,mcs7_parent_cm_interview,gpsdsp00,Rather solitary,-1.0,Not applicable
+881336,MCS,mcs7_parent_cm_interview,gpsdsp00,Rather solitary,1.0,Not true
+881337,MCS,mcs7_parent_cm_interview,gpsdsp00,Rather solitary,2.0,Somewhat true
+881338,MCS,mcs7_parent_cm_interview,gpsdsp00,Rather solitary,3.0,Certainly true
+881339,MCS,mcs7_parent_cm_interview,gpsdsp00,Rather solitary,4.0,Blank
+881340,MCS,mcs7_parent_cm_interview,gpsdor00,Generally obedient,-1.0,Not applicable
+881341,MCS,mcs7_parent_cm_interview,gpsdor00,Generally obedient,1.0,Not true
+881342,MCS,mcs7_parent_cm_interview,gpsdor00,Generally obedient,2.0,Somewhat true
+881343,MCS,mcs7_parent_cm_interview,gpsdor00,Generally obedient,3.0,Certainly true
+881344,MCS,mcs7_parent_cm_interview,gpsdor00,Generally obedient,4.0,Blank
+881345,MCS,mcs7_parent_cm_interview,gpsdmw00,Many worries,-1.0,Not applicable
+881346,MCS,mcs7_parent_cm_interview,gpsdmw00,Many worries,1.0,Not true
+881347,MCS,mcs7_parent_cm_interview,gpsdmw00,Many worries,2.0,Somewhat true
+881348,MCS,mcs7_parent_cm_interview,gpsdmw00,Many worries,3.0,Certainly true
+881349,MCS,mcs7_parent_cm_interview,gpsdmw00,Many worries,4.0,Blank
+881350,MCS,mcs7_parent_cm_interview,gpsdhu00,Helpful if someone is hurt,-1.0,Not applicable
+881351,MCS,mcs7_parent_cm_interview,gpsdhu00,Helpful if someone is hurt,1.0,Not true
+881352,MCS,mcs7_parent_cm_interview,gpsdhu00,Helpful if someone is hurt,2.0,Somewhat true
+881353,MCS,mcs7_parent_cm_interview,gpsdhu00,Helpful if someone is hurt,3.0,Certainly true
+881354,MCS,mcs7_parent_cm_interview,gpsdhu00,Helpful if someone is hurt,4.0,Blank
+881355,MCS,mcs7_parent_cm_interview,gpsdfs00,Constantly fidgeting or squirming,-1.0,Not applicable
+881356,MCS,mcs7_parent_cm_interview,gpsdfs00,Constantly fidgeting or squirming,1.0,Not true
+881357,MCS,mcs7_parent_cm_interview,gpsdfs00,Constantly fidgeting or squirming,2.0,Somewhat true
+881358,MCS,mcs7_parent_cm_interview,gpsdfs00,Constantly fidgeting or squirming,3.0,Certainly true
+881359,MCS,mcs7_parent_cm_interview,gpsdfs00,Constantly fidgeting or squirming,4.0,Blank
+881360,MCS,mcs7_parent_cm_interview,gpsdgf00,Has at least one good friend,-1.0,Not applicable
+881361,MCS,mcs7_parent_cm_interview,gpsdgf00,Has at least one good friend,1.0,Not true
+881362,MCS,mcs7_parent_cm_interview,gpsdgf00,Has at least one good friend,2.0,Somewhat true
+881363,MCS,mcs7_parent_cm_interview,gpsdgf00,Has at least one good friend,3.0,Certainly true
+881364,MCS,mcs7_parent_cm_interview,gpsdgf00,Has at least one good friend,4.0,Blank
+881365,MCS,mcs7_parent_cm_interview,gpsdfb00,Often fights with other children or bullies them,-1.0,Not applicable
+881366,MCS,mcs7_parent_cm_interview,gpsdfb00,Often fights with other children or bullies them,1.0,Not true
+881367,MCS,mcs7_parent_cm_interview,gpsdfb00,Often fights with other children or bullies them,2.0,Somewhat true
+881368,MCS,mcs7_parent_cm_interview,gpsdfb00,Often fights with other children or bullies them,3.0,Certainly true
+881369,MCS,mcs7_parent_cm_interview,gpsdfb00,Often fights with other children or bullies them,4.0,Blank
+881370,MCS,mcs7_parent_cm_interview,gpsdud00,Often unhappy,-1.0,Not applicable
+881371,MCS,mcs7_parent_cm_interview,gpsdud00,Often unhappy,1.0,Not true
+881372,MCS,mcs7_parent_cm_interview,gpsdud00,Often unhappy,2.0,Somewhat true
+881373,MCS,mcs7_parent_cm_interview,gpsdud00,Often unhappy,3.0,Certainly true
+881374,MCS,mcs7_parent_cm_interview,gpsdud00,Often unhappy,4.0,Blank
+881375,MCS,mcs7_parent_cm_interview,gpsdlc00,Generally liked by other children,-1.0,Not applicable
+881376,MCS,mcs7_parent_cm_interview,gpsdlc00,Generally liked by other children,1.0,Not true
+881377,MCS,mcs7_parent_cm_interview,gpsdlc00,Generally liked by other children,2.0,Somewhat true
+881378,MCS,mcs7_parent_cm_interview,gpsdlc00,Generally liked by other children,3.0,Certainly true
+881379,MCS,mcs7_parent_cm_interview,gpsdlc00,Generally liked by other children,4.0,Blank
+881380,MCS,mcs7_parent_cm_interview,gpsddc00,Easily distracted,-1.0,Not applicable
+881381,MCS,mcs7_parent_cm_interview,gpsddc00,Easily distracted,1.0,Not true
+881382,MCS,mcs7_parent_cm_interview,gpsddc00,Easily distracted,2.0,Somewhat true
+881383,MCS,mcs7_parent_cm_interview,gpsddc00,Easily distracted,3.0,Certainly true
+881384,MCS,mcs7_parent_cm_interview,gpsddc00,Easily distracted,4.0,Blank
+881385,MCS,mcs7_parent_cm_interview,gpsdnc00,Nervous or clingy in new situations,-1.0,Not applicable
+881386,MCS,mcs7_parent_cm_interview,gpsdnc00,Nervous or clingy in new situations,1.0,Not true
+881387,MCS,mcs7_parent_cm_interview,gpsdnc00,Nervous or clingy in new situations,2.0,Somewhat true
+881388,MCS,mcs7_parent_cm_interview,gpsdnc00,Nervous or clingy in new situations,3.0,Certainly true
+881389,MCS,mcs7_parent_cm_interview,gpsdnc00,Nervous or clingy in new situations,4.0,Blank
+881390,MCS,mcs7_parent_cm_interview,gpsdky00,Kind to younger children,-1.0,Not applicable
+881391,MCS,mcs7_parent_cm_interview,gpsdky00,Kind to younger children,1.0,Not true
+881392,MCS,mcs7_parent_cm_interview,gpsdky00,Kind to younger children,2.0,Somewhat true
+881393,MCS,mcs7_parent_cm_interview,gpsdky00,Kind to younger children,3.0,Certainly true
+881394,MCS,mcs7_parent_cm_interview,gpsdky00,Kind to younger children,4.0,Blank
+881395,MCS,mcs7_parent_cm_interview,gpsdoa00,Often lies or cheats,-1.0,Not applicable
+881396,MCS,mcs7_parent_cm_interview,gpsdoa00,Often lies or cheats,1.0,Not true
+881397,MCS,mcs7_parent_cm_interview,gpsdoa00,Often lies or cheats,2.0,Somewhat true
+881398,MCS,mcs7_parent_cm_interview,gpsdoa00,Often lies or cheats,3.0,Certainly true
+881399,MCS,mcs7_parent_cm_interview,gpsdoa00,Often lies or cheats,4.0,Blank
+881400,MCS,mcs7_parent_cm_interview,gpsdpb00,Picked on or bullied by other children,-1.0,Not applicable
+881401,MCS,mcs7_parent_cm_interview,gpsdpb00,Picked on or bullied by other children,1.0,Not true
+881402,MCS,mcs7_parent_cm_interview,gpsdpb00,Picked on or bullied by other children,2.0,Somewhat true
+881403,MCS,mcs7_parent_cm_interview,gpsdpb00,Picked on or bullied by other children,3.0,Certainly true
+881404,MCS,mcs7_parent_cm_interview,gpsdpb00,Picked on or bullied by other children,4.0,Blank
+881405,MCS,mcs7_parent_cm_interview,gpsdvh00,Often volunteers to help others (parents,-1.0,Not applicable
+881406,MCS,mcs7_parent_cm_interview,gpsdvh00,Often volunteers to help others (parents,1.0,Not true
+881407,MCS,mcs7_parent_cm_interview,gpsdvh00,Often volunteers to help others (parents,2.0,Somewhat true
+881408,MCS,mcs7_parent_cm_interview,gpsdvh00,Often volunteers to help others (parents,3.0,Certainly true
+881409,MCS,mcs7_parent_cm_interview,gpsdvh00,Often volunteers to help others (parents,4.0,Blank
+881410,MCS,mcs7_parent_cm_interview,gpsdst00,Thinks things out before acting,-1.0,Not applicable
+881411,MCS,mcs7_parent_cm_interview,gpsdst00,Thinks things out before acting,1.0,Not true
+881412,MCS,mcs7_parent_cm_interview,gpsdst00,Thinks things out before acting,2.0,Somewhat true
+881413,MCS,mcs7_parent_cm_interview,gpsdst00,Thinks things out before acting,3.0,Certainly true
+881414,MCS,mcs7_parent_cm_interview,gpsdst00,Thinks things out before acting,4.0,Blank
+881415,MCS,mcs7_parent_cm_interview,gpsdcs00,Steals from home,-1.0,Not applicable
+881416,MCS,mcs7_parent_cm_interview,gpsdcs00,Steals from home,1.0,Not true
+881417,MCS,mcs7_parent_cm_interview,gpsdcs00,Steals from home,2.0,Somewhat true
+881418,MCS,mcs7_parent_cm_interview,gpsdcs00,Steals from home,3.0,Certainly true
+881419,MCS,mcs7_parent_cm_interview,gpsdcs00,Steals from home,4.0,Blank
+881420,MCS,mcs7_parent_cm_interview,gpsdgb00,Gets on better with adults than with other children,-1.0,Not applicable
+881421,MCS,mcs7_parent_cm_interview,gpsdgb00,Gets on better with adults than with other children,1.0,Not true
+881422,MCS,mcs7_parent_cm_interview,gpsdgb00,Gets on better with adults than with other children,2.0,Somewhat true
+881423,MCS,mcs7_parent_cm_interview,gpsdgb00,Gets on better with adults than with other children,3.0,Certainly true
+881424,MCS,mcs7_parent_cm_interview,gpsdgb00,Gets on better with adults than with other children,4.0,Blank
+881425,MCS,mcs7_parent_cm_interview,gpsdfe00,Many fears,-1.0,Not applicable
+881426,MCS,mcs7_parent_cm_interview,gpsdfe00,Many fears,1.0,Not true
+881427,MCS,mcs7_parent_cm_interview,gpsdfe00,Many fears,2.0,Somewhat true
+881428,MCS,mcs7_parent_cm_interview,gpsdfe00,Many fears,3.0,Certainly true
+881429,MCS,mcs7_parent_cm_interview,gpsdfe00,Many fears,4.0,Blank
+881430,MCS,mcs7_parent_cm_interview,gpsdte00,Sees tasks through to the end,-1.0,Not applicable
+881431,MCS,mcs7_parent_cm_interview,gpsdte00,Sees tasks through to the end,1.0,Not true
+881432,MCS,mcs7_parent_cm_interview,gpsdte00,Sees tasks through to the end,2.0,Somewhat true
+881433,MCS,mcs7_parent_cm_interview,gpsdte00,Sees tasks through to the end,3.0,Certainly true
+881434,MCS,mcs7_parent_cm_interview,gpsdte00,Sees tasks through to the end,4.0,Blank
+881435,MCS,mcs7_parent_cm_interview,gpsdqc,IWR: SDQ questionnaire completed and returned during the household visit?,-1.0,Not applicable
+881436,MCS,mcs7_parent_cm_interview,gpsdqc,IWR: SDQ questionnaire completed and returned during the household visit?,1.0,Yes â€“ SDQ completed during hh iw
+881437,MCS,mcs7_parent_cm_interview,gpsdqc,IWR: SDQ questionnaire completed and returned during the household visit?,2.0,No â€“ SDQ not completed during hh iw
+881438,MCS,mcs7_parent_cm_interview,gpsdqtrans1,IWR: Did someone translate the Parent SDQ about CM into a language other than English for the respondent?,-1.0,Not applicable
+881439,MCS,mcs7_parent_cm_interview,gpsdqtrans1,IWR: Did someone translate the Parent SDQ about CM into a language other than English for the respondent?,1.0,No
+881440,MCS,mcs7_parent_cm_interview,gpsdqtrans1,IWR: Did someone translate the Parent SDQ about CM into a language other than English for the respondent?,2.0,Yes
+881441,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,-1.0,Not applicable
+881442,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,1.0,Gaelic
+881443,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,2.0,Urdu
+881444,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,3.0,Punjabi
+881445,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,4.0,Gujarati
+881446,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,5.0,Hindi
+881447,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,6.0,Bengali
+881448,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,7.0,Sylheti
+881449,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,8.0,Cantonese
+881450,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,9.0,Somali
+881451,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,10.0,Tamil
+881452,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,11.0,Turkish
+881453,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,12.0,Kurdish
+881454,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,13.0,Arabic
+881455,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,14.0,Other European language (PLEASE SPECIFY)
+881456,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,15.0,Other African language (PLEASE SPECIFY)
+881457,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,16.0,Other Asian language (PLEASE SPECIFY)
+881458,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,17.0,Other (PLEASE SPECIFY)
+881459,MCS,mcs7_parent_cm_interview,gpsdqtrans2,Which language was the Parent SDQ about CM translated into?,18.0,Do not know which language
+881460,MCS,mcs7_parent_cm_interview,avail_from_dt,,,
+881461,MCS,mcs7_parent_cm_interview,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

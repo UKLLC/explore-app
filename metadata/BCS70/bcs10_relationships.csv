@@ -1,0 +1,149 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+23654,BCS70,bcs10_relationships,study_id_e,,,
+23655,BCS70,bcs10_relationships,relno,sortkey: Loop ID,,
+23656,BCS70,bcs10_relationships,b10rnrany,Whether living with someone as a couple,-9.0,Refused
+23657,BCS70,bcs10_relationships,b10rnrany,Whether living with someone as a couple,-8.0,Not known
+23658,BCS70,bcs10_relationships,b10rnrany,Whether living with someone as a couple,-1.0,Not applicable
+23659,BCS70,bcs10_relationships,b10rnrany,Whether living with someone as a couple,1.0,Yes
+23660,BCS70,bcs10_relationships,b10rnrany,Whether living with someone as a couple,2.0,No
+23661,BCS70,bcs10_relationships,b10rstm,When started living together - Month,-9.0,Refused
+23662,BCS70,bcs10_relationships,b10rstm,When started living together - Month,-8.0,Not known
+23663,BCS70,bcs10_relationships,b10rstm,When started living together - Month,-1.0,Not applicable
+23664,BCS70,bcs10_relationships,b10rstm,When started living together - Month,1.0,January
+23665,BCS70,bcs10_relationships,b10rstm,When started living together - Month,2.0,February
+23666,BCS70,bcs10_relationships,b10rstm,When started living together - Month,3.0,March
+23667,BCS70,bcs10_relationships,b10rstm,When started living together - Month,4.0,April
+23668,BCS70,bcs10_relationships,b10rstm,When started living together - Month,5.0,May
+23669,BCS70,bcs10_relationships,b10rstm,When started living together - Month,6.0,June
+23670,BCS70,bcs10_relationships,b10rstm,When started living together - Month,7.0,July
+23671,BCS70,bcs10_relationships,b10rstm,When started living together - Month,8.0,August
+23672,BCS70,bcs10_relationships,b10rstm,When started living together - Month,9.0,September
+23673,BCS70,bcs10_relationships,b10rstm,When started living together - Month,10.0,October
+23674,BCS70,bcs10_relationships,b10rstm,When started living together - Month,11.0,November
+23675,BCS70,bcs10_relationships,b10rstm,When started living together - Month,12.0,December
+23676,BCS70,bcs10_relationships,b10rsty,When started living together - Year,-9.0,Refused
+23677,BCS70,bcs10_relationships,b10rsty,When started living together - Year,-8.0,Not known
+23678,BCS70,bcs10_relationships,b10rsty,When started living together - Year,-1.0,Not applicable
+23679,BCS70,bcs10_relationships,b10rsex,Partner sex,-9.0,Refused
+23680,BCS70,bcs10_relationships,b10rsex,Partner sex,-8.0,Not known
+23681,BCS70,bcs10_relationships,b10rsex,Partner sex,-1.0,Not applicable
+23682,BCS70,bcs10_relationships,b10rsex,Partner sex,1.0,Male
+23683,BCS70,bcs10_relationships,b10rsex,Partner sex,2.0,Female
+23684,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,-9.0,Refused
+23685,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,-8.0,Not known
+23686,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,-1.0,Not applicable
+23687,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,1.0,January
+23688,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,2.0,February
+23689,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,3.0,March
+23690,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,4.0,April
+23691,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,5.0,May
+23692,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,6.0,June
+23693,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,7.0,July
+23694,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,8.0,August
+23695,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,9.0,September
+23696,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,10.0,October
+23697,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,11.0,November
+23698,BCS70,bcs10_relationships,b10rdobm,Partner date of birth - Month,12.0,December
+23699,BCS70,bcs10_relationships,b10rdoby,Partner date of birth - Year,-9.0,Refused
+23700,BCS70,bcs10_relationships,b10rdoby,Partner date of birth - Year,-8.0,Not known
+23701,BCS70,bcs10_relationships,b10rdoby,Partner date of birth - Year,-1.0,Not applicable
+23702,BCS70,bcs10_relationships,b10rage,Partner age,-9.0,Refused
+23703,BCS70,bcs10_relationships,b10rage,Partner age,-8.0,Not known
+23704,BCS70,bcs10_relationships,b10rage,Partner age,-1.0,Not applicable
+23705,BCS70,bcs10_relationships,b10rnowma,Whether married partner,-9.0,Refused
+23706,BCS70,bcs10_relationships,b10rnowma,Whether married partner,-8.0,Not known
+23707,BCS70,bcs10_relationships,b10rnowma,Whether married partner,-1.0,Not applicable
+23708,BCS70,bcs10_relationships,b10rnowma,Whether married partner,1.0,Yes â€“ got married
+23709,BCS70,bcs10_relationships,b10rnowma,Whether married partner,2.0,Yes â€“ formed a civil partnership
+23710,BCS70,bcs10_relationships,b10rnowma,Whether married partner,3.0,No
+23711,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,-9.0,Refused
+23712,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,-8.0,Not known
+23713,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,-1.0,Not applicable
+23714,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,1.0,January
+23715,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,2.0,February
+23716,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,3.0,March
+23717,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,4.0,April
+23718,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,5.0,May
+23719,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,6.0,June
+23720,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,7.0,July
+23721,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,8.0,August
+23722,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,9.0,September
+23723,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,10.0,October
+23724,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,11.0,November
+23725,BCS70,bcs10_relationships,b10rwhmam,Date of marriage - Month,12.0,December
+23726,BCS70,bcs10_relationships,b10rwhmay,Date of marriage - Year,-9.0,Refused
+23727,BCS70,bcs10_relationships,b10rwhmay,Date of marriage - Year,-8.0,Not known
+23728,BCS70,bcs10_relationships,b10rwhmay,Date of marriage - Year,-1.0,Not applicable
+23729,BCS70,bcs10_relationships,b10rslive,Whether still live together as a couple,-9.0,Refused
+23730,BCS70,bcs10_relationships,b10rslive,Whether still live together as a couple,-8.0,Not known
+23731,BCS70,bcs10_relationships,b10rslive,Whether still live together as a couple,-1.0,Not applicable
+23732,BCS70,bcs10_relationships,b10rslive,Whether still live together as a couple,1.0,Yes
+23733,BCS70,bcs10_relationships,b10rslive,Whether still live together as a couple,2.0,No
+23734,BCS70,bcs10_relationships,b10rlivpa,Whether lived with partner continuously,-9.0,Refused
+23735,BCS70,bcs10_relationships,b10rlivpa,Whether lived with partner continuously,-8.0,Not known
+23736,BCS70,bcs10_relationships,b10rlivpa,Whether lived with partner continuously,-1.0,Not applicable
+23737,BCS70,bcs10_relationships,b10rlivpa,Whether lived with partner continuously,1.0,Yes
+23738,BCS70,bcs10_relationships,b10rlivpa,Whether lived with partner continuously,2.0,No
+23739,BCS70,bcs10_relationships,b10rhwend,Whether split up or partner died,-9.0,Refused
+23740,BCS70,bcs10_relationships,b10rhwend,Whether split up or partner died,-8.0,Not known
+23741,BCS70,bcs10_relationships,b10rhwend,Whether split up or partner died,-1.0,Not applicable
+23742,BCS70,bcs10_relationships,b10rhwend,Whether split up or partner died,1.0,No longer a couple
+23743,BCS70,bcs10_relationships,b10rhwend,Whether split up or partner died,2.0,Partner died
+23744,BCS70,bcs10_relationships,b10rhwend,Whether split up or partner died,3.0,Still a couple but not living together
+23745,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,-9.0,Refused
+23746,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,-8.0,Not known
+23747,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,-1.0,Not applicable
+23748,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,1.0,January
+23749,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,2.0,February
+23750,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,3.0,March
+23751,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,4.0,April
+23752,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,5.0,May
+23753,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,6.0,June
+23754,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,7.0,July
+23755,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,8.0,August
+23756,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,9.0,September
+23757,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,10.0,October
+23758,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,11.0,November
+23759,BCS70,bcs10_relationships,b10rendm,When stopped living together - Month,12.0,December
+23760,BCS70,bcs10_relationships,b10rendy,When stopped living together - Year,-9.0,Refused
+23761,BCS70,bcs10_relationships,b10rendy,When stopped living together - Year,-8.0,Not known
+23762,BCS70,bcs10_relationships,b10rendy,When stopped living together - Year,-1.0,Not applicable
+23763,BCS70,bcs10_relationships,b10rdivor,Whether divorced,-9.0,Refused
+23764,BCS70,bcs10_relationships,b10rdivor,Whether divorced,-8.0,Not known
+23765,BCS70,bcs10_relationships,b10rdivor,Whether divorced,-1.0,Not applicable
+23766,BCS70,bcs10_relationships,b10rdivor,Whether divorced,1.0,Yes
+23767,BCS70,bcs10_relationships,b10rdivor,Whether divorced,2.0,No
+23768,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,-9.0,Refused
+23769,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,-8.0,Not known
+23770,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,-1.0,Not applicable
+23771,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,1.0,January
+23772,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,2.0,February
+23773,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,3.0,March
+23774,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,4.0,April
+23775,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,5.0,May
+23776,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,6.0,June
+23777,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,7.0,July
+23778,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,8.0,August
+23779,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,9.0,September
+23780,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,10.0,October
+23781,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,11.0,November
+23782,BCS70,bcs10_relationships,b10rdivm,When divorced - Month,12.0,December
+23783,BCS70,bcs10_relationships,b10rdivy,When divorced - Year,-9.0,Refused
+23784,BCS70,bcs10_relationships,b10rdivy,When divorced - Year,-8.0,Not known
+23785,BCS70,bcs10_relationships,b10rdivy,When divorced - Year,-1.0,Not applicable
+23786,BCS70,bcs10_relationships,ff_h_num,HH grid person number,-1.0,Not applicable
+23787,BCS70,bcs10_relationships,ff_h_pslot9,HH grid person swp9 slot,-1.0,Not applicable
+23788,BCS70,bcs10_relationships,ff_h_gender,HH grid person sex,-1.0,Not applicable
+23789,BCS70,bcs10_relationships,ff_h_rel,HH grid person relationship to CM,-1.0,Not applicable
+23790,BCS70,bcs10_relationships,ff_h_alive,Whether known to have died,-1.0,Not applicable
+23791,BCS70,bcs10_relationships,ff_h_live,Whether in household at last interview,-1.0,Not applicable
+23792,BCS70,bcs10_relationships,ff_h_cpart,Whether current partner at last intervew,-1.0,Not applicable
+23793,BCS70,bcs10_relationships,ff_h_unf,HH grid person whether unfinished rel with CM,-1.0,Not applicable
+23794,BCS70,bcs10_relationships,ff_h_dobm,HH Grid person Date of birth - Month,-1.0,Not applicable
+23795,BCS70,bcs10_relationships,ff_h_doby,HH Grid person Date of birth - Year,-1.0,Not applicable
+23796,BCS70,bcs10_relationships,b10rcprev,Whether previous partner,-8.0,No information
+23797,BCS70,bcs10_relationships,b10rcprev,Whether previous partner,-1.0,Not applicable
+23798,BCS70,bcs10_relationships,b10rcprev,Whether previous partner,1.0,Partner at previous interview
+23799,BCS70,bcs10_relationships,b10rcprev,Whether previous partner,2.0,New partner
+23800,BCS70,bcs10_relationships,v3,None,,
+23801,BCS70,bcs10_relationships,avail_from_dt,,,

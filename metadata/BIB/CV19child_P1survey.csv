@@ -1,0 +1,333 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+647334,BIB,CV19child_P1survey,study_id_e,,,
+647335,BIB,CV19child_P1survey,cohort,Cohort,,
+647336,BIB,CV19child_P1survey,timestamp,,,
+647337,BIB,CV19child_P1survey,age_years,,,
+647338,BIB,CV19child_P1survey,gender,Child's gender,0.0,Male
+647339,BIB,CV19child_P1survey,gender,Child's gender,1.0,Female
+647340,BIB,CV19child_P1survey,ethnicity_mother,Ethnic group (mother),1.0,White British
+647341,BIB,CV19child_P1survey,ethnicity_mother,Ethnic group (mother),2.0,Pakistani
+647342,BIB,CV19child_P1survey,ethnicity_mother,Ethnic group (mother),3.0,Other
+647343,BIB,CV19child_P1survey,imddecile,IMD 2019 National Decile (1 = most deprved),,
+647344,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,1.0,Bangladeshi
+647345,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,2.0,Indian
+647346,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,3.0,Pakistani
+647347,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,4.0,Chinese/ Other Asian
+647348,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,5.0,African
+647349,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,6.0,Black Carribbean/ Black Other
+647350,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,7.0,Mixed
+647351,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,8.0,White British
+647352,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,9.0,White Other
+647353,BIB,CV19child_P1survey,edcont_ethnic_origin,Child Ethnic Origin Code - From Child Education Record,10.0,Other Ethnic Groups
+647354,BIB,CV19child_P1survey,edcont_eal,Whether English is an adittional language,1.0,No
+647355,BIB,CV19child_P1survey,edcont_eal,Whether English is an adittional language,2.0,Unknown
+647356,BIB,CV19child_P1survey,edcont_eal,Whether English is an adittional language,3.0,Yes
+647357,BIB,CV19child_P1survey,edcont_fsm,Whether child in receipt of freee school meals,1.0,No
+647358,BIB,CV19child_P1survey,edcont_fsm,Whether child in receipt of freee school meals,2.0,Yes
+647359,BIB,CV19child_P1survey,edcont_sen,Special educational needs catagory,1.0,EHCP
+647360,BIB,CV19child_P1survey,edcont_sen,Special educational needs catagory,2.0,Not SEN
+647361,BIB,CV19child_P1survey,edcont_sen,Special educational needs catagory,3.0,SEN Support
+647362,BIB,CV19child_P1survey,edcont_sen,Special educational needs catagory,4.0,School Action
+647363,BIB,CV19child_P1survey,edcont_sen,Special educational needs catagory,5.0,School Action Plus
+647364,BIB,CV19child_P1survey,edcont_sen,Special educational needs catagory,6.0,Statement
+647365,BIB,CV19child_P1survey,chys_7timesleep,Q1A) In the last 7 days what time have you normally fallen asleep?,,
+647366,BIB,CV19child_P1survey,chys_7wknp,Q1B) In the last 7 days what time have you normaly woken up?,,
+647367,BIB,CV19child_P1survey,chfl_7physactwkdy,Q2A) Last 7 days; how much physical activity did you do on a normal weekday?,1.0,No activity (0 minutes)
+647368,BIB,CV19child_P1survey,chfl_7physactwkdy,Q2A) Last 7 days; how much physical activity did you do on a normal weekday?,2.0,Small amount of activity (1 to 30 minutes)
+647369,BIB,CV19child_P1survey,chfl_7physactwkdy,Q2A) Last 7 days; how much physical activity did you do on a normal weekday?,3.0,Small to Moderate amount activity (31 to 60 minutes)
+647370,BIB,CV19child_P1survey,chfl_7physactwkdy,Q2A) Last 7 days; how much physical activity did you do on a normal weekday?,4.0,Moderate to Large amount of activity (1 to 2 hours)
+647371,BIB,CV19child_P1survey,chfl_7physactwkdy,Q2A) Last 7 days; how much physical activity did you do on a normal weekday?,5.0,Large amount of activity (more than 2 hours)
+647372,BIB,CV19child_P1survey,chfl_7physactwknd,Q2B) In the last 7 days; how much physical activity did you do a normal weekend,1.0,No activity (0 minutes)
+647373,BIB,CV19child_P1survey,chfl_7physactwknd,Q2B) In the last 7 days; how much physical activity did you do a normal weekend,2.0,Small amount of activity (1 to 30 minutes)
+647374,BIB,CV19child_P1survey,chfl_7physactwknd,Q2B) In the last 7 days; how much physical activity did you do a normal weekend,3.0,Small to Moderate amount activity (31 to 60 minutes)
+647375,BIB,CV19child_P1survey,chfl_7physactwknd,Q2B) In the last 7 days; how much physical activity did you do a normal weekend,4.0,Moderate to Large amount of activity (1 to 2 hours)
+647376,BIB,CV19child_P1survey,chfl_7physactwknd,Q2B) In the last 7 days; how much physical activity did you do a normal weekend,5.0,Large amount of activity (more than 2 hours)
+647377,BIB,CV19child_P1survey,chwy_frmhmlv,Q3A) Last 7 days; how many times did you leave your home-away from your house?,1.0,I stayed at home -> Go to Question 4A
+647378,BIB,CV19child_P1survey,chwy_frmhmlv,Q3A) Last 7 days; how many times did you leave your home-away from your house?,2.0,Once a day
+647379,BIB,CV19child_P1survey,chwy_frmhmlv,Q3A) Last 7 days; how many times did you leave your home-away from your house?,3.0,More than once a day
+647380,BIB,CV19child_P1survey,chwy_frmhmud_2_1,,,
+647381,BIB,CV19child_P1survey,chwy_frmhmud_2_2,,,
+647382,BIB,CV19child_P1survey,chwy_frmhmud_2_3,,,
+647383,BIB,CV19child_P1survey,chwy_frmhmud_2_4,,,
+647384,BIB,CV19child_P1survey,othr,If Other :,,
+647385,BIB,CV19child_P1survey,chwy_frmhmudwr_2,Q3C) Where did you usually go? (Please tick one),1.0,Street
+647386,BIB,CV19child_P1survey,chwy_frmhmudwr_2,Q3C) Where did you usually go? (Please tick one),2.0,Park
+647387,BIB,CV19child_P1survey,chwy_frmhmudwr_2,Q3C) Where did you usually go? (Please tick one),3.0,Shops
+647388,BIB,CV19child_P1survey,chwy_frmhmudwr_2,Q3C) Where did you usually go? (Please tick one),4.0,Other (Please specify)
+647389,BIB,CV19child_P1survey,othr_2,If Other :,,
+647390,BIB,CV19child_P1survey,chwy_frmhmudwn,Q3D) How long did you go for? (Please tick one),1.0,Less than 30 minutes
+647391,BIB,CV19child_P1survey,chwy_frmhmudwn,Q3D) How long did you go for? (Please tick one),2.0,31 to 60 minutes
+647392,BIB,CV19child_P1survey,chwy_frmhmudwn,Q3D) How long did you go for? (Please tick one),3.0,More than 60 minutes
+647393,BIB,CV19child_P1survey,chtss_7timesitly,Q4A) In the last 7 days; how much time have you spent sitting or lying down?,1.0,I spent almost none of my free time sitting or lying down
+647394,BIB,CV19child_P1survey,chtss_7timesitly,Q4A) In the last 7 days; how much time have you spent sitting or lying down?,2.0,I spent little time sitting during my free time or lying down
+647395,BIB,CV19child_P1survey,chtss_7timesitly,Q4A) In the last 7 days; how much time have you spent sitting or lying down?,3.0,I spent about half of my free time sitting or lying down
+647396,BIB,CV19child_P1survey,chtss_7timesitly,Q4A) In the last 7 days; how much time have you spent sitting or lying down?,4.0,I spent a lot of time sitting during my free time or lying down
+647397,BIB,CV19child_P1survey,chtss_7timesitly,Q4A) In the last 7 days; how much time have you spent sitting or lying down?,5.0,I spent almost all of my free time sitting or lying down
+647398,BIB,CV19child_P1survey,chtss_7timesitlyacttv,Q4Ba) Last 7 days; how much time have you spent Watching TV but NOT video games,1.0,No time
+647399,BIB,CV19child_P1survey,chtss_7timesitlyacttv,Q4Ba) Last 7 days; how much time have you spent Watching TV but NOT video games,2.0,1 hour or less
+647400,BIB,CV19child_P1survey,chtss_7timesitlyacttv,Q4Ba) Last 7 days; how much time have you spent Watching TV but NOT video games,3.0,1-2 hours
+647401,BIB,CV19child_P1survey,chtss_7timesitlyacttv,Q4Ba) Last 7 days; how much time have you spent Watching TV but NOT video games,4.0,3-4 hours
+647402,BIB,CV19child_P1survey,chtss_7timesitlyacttv,Q4Ba) Last 7 days; how much time have you spent Watching TV but NOT video games,5.0,4+ hours
+647403,BIB,CV19child_P1survey,chtss_7timesitlyactvg,Q4Bb) In the last 7 days; how much time have you spent playing video games?,1.0,No time
+647404,BIB,CV19child_P1survey,chtss_7timesitlyactvg,Q4Bb) In the last 7 days; how much time have you spent playing video games?,2.0,1 hour or less
+647405,BIB,CV19child_P1survey,chtss_7timesitlyactvg,Q4Bb) In the last 7 days; how much time have you spent playing video games?,3.0,1-2 hours
+647406,BIB,CV19child_P1survey,chtss_7timesitlyactvg,Q4Bb) In the last 7 days; how much time have you spent playing video games?,4.0,3-4 hours
+647407,BIB,CV19child_P1survey,chtss_7timesitlyactvg,Q4Bb) In the last 7 days; how much time have you spent playing video games?,5.0,4+ hours
+647408,BIB,CV19child_P1survey,chtss_7timesitlyactcom,Q4Bc) Last 7 days; how much time spent on computers/tablets for social activity,1.0,No time
+647409,BIB,CV19child_P1survey,chtss_7timesitlyactcom,Q4Bc) Last 7 days; how much time spent on computers/tablets for social activity,2.0,1 hour or less
+647410,BIB,CV19child_P1survey,chtss_7timesitlyactcom,Q4Bc) Last 7 days; how much time spent on computers/tablets for social activity,3.0,1-2 hours
+647411,BIB,CV19child_P1survey,chtss_7timesitlyactcom,Q4Bc) Last 7 days; how much time spent on computers/tablets for social activity,4.0,3-4 hours
+647412,BIB,CV19child_P1survey,chtss_7timesitlyactcom,Q4Bc) Last 7 days; how much time spent on computers/tablets for social activity,5.0,4+ hours
+647413,BIB,CV19child_P1survey,chtss_7timesitlyactmb,Q4Bd) Using your mobile phone to talk; text; or s...playing games.,1.0,No time
+647414,BIB,CV19child_P1survey,chtss_7timesitlyactmb,Q4Bd) Using your mobile phone to talk; text; or s...playing games.,2.0,1 hour or less
+647415,BIB,CV19child_P1survey,chtss_7timesitlyactmb,Q4Bd) Using your mobile phone to talk; text; or s...playing games.,3.0,1-2 hours
+647416,BIB,CV19child_P1survey,chtss_7timesitlyactmb,Q4Bd) Using your mobile phone to talk; text; or s...playing games.,4.0,3-4 hours
+647417,BIB,CV19child_P1survey,chtss_7timesitlyactmb,Q4Bd) Using your mobile phone to talk; text; or s...playing games.,5.0,4+ hours
+647418,BIB,CV19child_P1survey,chtss_7timesitlyactschw,Q4Be) In the last 7 days; how much time have you spent doing your school work?,1.0,No time
+647419,BIB,CV19child_P1survey,chtss_7timesitlyactschw,Q4Be) In the last 7 days; how much time have you spent doing your school work?,2.0,1 hour or less
+647420,BIB,CV19child_P1survey,chtss_7timesitlyactschw,Q4Be) In the last 7 days; how much time have you spent doing your school work?,3.0,1-2 hours
+647421,BIB,CV19child_P1survey,chtss_7timesitlyactschw,Q4Be) In the last 7 days; how much time have you spent doing your school work?,4.0,3-4 hours
+647422,BIB,CV19child_P1survey,chtss_7timesitlyactschw,Q4Be) In the last 7 days; how much time have you spent doing your school work?,5.0,4+ hours
+647423,BIB,CV19child_P1survey,chsch_stlgo,Q5A) Do you still go to school? (Please tick one),0.0,No
+647424,BIB,CV19child_P1survey,chsch_stlgo,Q5A) Do you still go to school? (Please tick one),1.0,Yes
+647425,BIB,CV19child_P1survey,chschl_ftctucom,Q5Ba) Do you have a computer/laptop/tablet where you can do school work?,1.0,All of the time
+647426,BIB,CV19child_P1survey,chschl_ftctucom,Q5Ba) Do you have a computer/laptop/tablet where you can do school work?,2.0,Some of the time
+647427,BIB,CV19child_P1survey,chschl_ftctucom,Q5Ba) Do you have a computer/laptop/tablet where you can do school work?,3.0,I dont have this
+647428,BIB,CV19child_P1survey,chschl_ftctuthng,Q5Bb) Do you have all the things you need to do your school work?,1.0,All of the time
+647429,BIB,CV19child_P1survey,chschl_ftctuthng,Q5Bb) Do you have all the things you need to do your school work?,2.0,Some of the time
+647430,BIB,CV19child_P1survey,chschl_ftctuthng,Q5Bb) Do you have all the things you need to do your school work?,3.0,I dont have this
+647431,BIB,CV19child_P1survey,chschl_ftctuntrnt,Q5Bc) Can you go on the internet?,1.0,All of the time
+647432,BIB,CV19child_P1survey,chschl_ftctuntrnt,Q5Bc) Can you go on the internet?,2.0,Some of the time
+647433,BIB,CV19child_P1survey,chschl_ftctuntrnt,Q5Bc) Can you go on the internet?,3.0,I dont have this
+647434,BIB,CV19child_P1survey,chschl_ftctutchr,Q5Bd) Do you get to talk with your teacher or someone from the school?,1.0,All of the time
+647435,BIB,CV19child_P1survey,chschl_ftctutchr,Q5Bd) Do you get to talk with your teacher or someone from the school?,2.0,Some of the time
+647436,BIB,CV19child_P1survey,chschl_ftctutchr,Q5Bd) Do you get to talk with your teacher or someone from the school?,3.0,I dont have this
+647437,BIB,CV19child_P1survey,chschl_ftctuhmwrk,Q5Be) Is the school giving you things to do when you are at home?,1.0,All of the time
+647438,BIB,CV19child_P1survey,chschl_ftctuhmwrk,Q5Be) Is the school giving you things to do when you are at home?,2.0,Some of the time
+647439,BIB,CV19child_P1survey,chschl_ftctuhmwrk,Q5Be) Is the school giving you things to do when you are at home?,3.0,I dont have this
+647440,BIB,CV19child_P1survey,chschl_ftctuinfo,Q5Bf) Do you know where to get information on how to do school work at home?,1.0,All of the time
+647441,BIB,CV19child_P1survey,chschl_ftctuinfo,Q5Bf) Do you know where to get information on how to do school work at home?,2.0,Some of the time
+647442,BIB,CV19child_P1survey,chschl_ftctuinfo,Q5Bf) Do you know where to get information on how to do school work at home?,3.0,I dont have this
+647443,BIB,CV19child_P1survey,chschl_ftctustatnry,Q5Bg) Do you have pens and paper to do your school work?,1.0,All of the time
+647444,BIB,CV19child_P1survey,chschl_ftctustatnry,Q5Bg) Do you have pens and paper to do your school work?,2.0,Some of the time
+647445,BIB,CV19child_P1survey,chschl_ftctustatnry,Q5Bg) Do you have pens and paper to do your school work?,3.0,I dont have this
+647446,BIB,CV19child_P1survey,chschl_ftctubksrd,Q5Bh) Do you have books to read?,1.0,All of the time
+647447,BIB,CV19child_P1survey,chschl_ftctubksrd,Q5Bh) Do you have books to read?,2.0,Some of the time
+647448,BIB,CV19child_P1survey,chschl_ftctubksrd,Q5Bh) Do you have books to read?,3.0,I dont have this
+647449,BIB,CV19child_P1survey,chschl_ftctuactvts,Q5Bi) Are you doing activities that help you learn?,1.0,All of the time
+647450,BIB,CV19child_P1survey,chschl_ftctuactvts,Q5Bi) Are you doing activities that help you learn?,2.0,Some of the time
+647451,BIB,CV19child_P1survey,chschl_ftctuactvts,Q5Bi) Are you doing activities that help you learn?,3.0,I dont have this
+647452,BIB,CV19child_P1survey,chsch_wrkspc,Q5C) Do you have space in your house where you can do your school work?,0.0,No -> Go to Question 5F
+647453,BIB,CV19child_P1survey,chsch_wrkspc,Q5C) Do you have space in your house where you can do your school work?,1.0,Yes
+647454,BIB,CV19child_P1survey,chhs_wrmcoft,Q5D) Is your study space it warm and comfortable?,0.0,No
+647455,BIB,CV19child_P1survey,chhs_wrmcoft,Q5D) Is your study space it warm and comfortable?,1.0,Yes
+647456,BIB,CV19child_P1survey,chhs_quite,Q5E) Is it quiet?,0.0,No
+647457,BIB,CV19child_P1survey,chhs_quite,Q5E) Is it quiet?,1.0,Yes
+647458,BIB,CV19child_P1survey,chhs_hrdnxt,Q5F) When I find something really hard I can work out what to do next?,1.0,Never
+647459,BIB,CV19child_P1survey,chhs_hrdnxt,Q5F) When I find something really hard I can work out what to do next?,2.0,Some of the time
+647460,BIB,CV19child_P1survey,chhs_hrdnxt,Q5F) When I find something really hard I can work out what to do next?,3.0,All of the time
+647461,BIB,CV19child_P1survey,chsch_hlphm_1,,,
+647462,BIB,CV19child_P1survey,chsch_hlphm_2,,,
+647463,BIB,CV19child_P1survey,chsch_hlphm_3,,,
+647464,BIB,CV19child_P1survey,chsch_hlphm_4,,,
+647465,BIB,CV19child_P1survey,chsch_hlphm_5,,,
+647466,BIB,CV19child_P1survey,chsch_hlphm_6,,,
+647467,BIB,CV19child_P1survey,chsch_wrkhrs,Q5H) How many hours do you spend on doing school work at home each day?,1.0,None
+647468,BIB,CV19child_P1survey,chsch_wrkhrs,Q5H) How many hours do you spend on doing school work at home each day?,2.0,1-2 hours
+647469,BIB,CV19child_P1survey,chsch_wrkhrs,Q5H) How many hours do you spend on doing school work at home each day?,3.0,3-4 hours
+647470,BIB,CV19child_P1survey,chsch_wrkhrs,Q5H) How many hours do you spend on doing school work at home each day?,4.0,5-6 hours
+647471,BIB,CV19child_P1survey,chsch_wrkhrs,Q5H) How many hours do you spend on doing school work at home each day?,5.0,7+ hours
+647472,BIB,CV19child_P1survey,chftnhppn_sd,Q6A1) I feel sad or empty,1.0,Never
+647473,BIB,CV19child_P1survey,chftnhppn_sd,Q6A1) I feel sad or empty,2.0,Sometimes
+647474,BIB,CV19child_P1survey,chftnhppn_sd,Q6A1) I feel sad or empty,3.0,Often
+647475,BIB,CV19child_P1survey,chftnhppn_sd,Q6A1) I feel sad or empty,4.0,Always
+647476,BIB,CV19child_P1survey,chftnhppn_prl,Q6A2) I worry when I think I have done poorly at something,1.0,Never
+647477,BIB,CV19child_P1survey,chftnhppn_prl,Q6A2) I worry when I think I have done poorly at something,2.0,Sometimes
+647478,BIB,CV19child_P1survey,chftnhppn_prl,Q6A2) I worry when I think I have done poorly at something,3.0,Often
+647479,BIB,CV19child_P1survey,chftnhppn_prl,Q6A2) I worry when I think I have done poorly at something,4.0,Always
+647480,BIB,CV19child_P1survey,chftnhppn_afr,Q6A3 I would feel afraid of being on my own at home,1.0,Never
+647481,BIB,CV19child_P1survey,chftnhppn_afr,Q6A3 I would feel afraid of being on my own at home,2.0,Sometimes
+647482,BIB,CV19child_P1survey,chftnhppn_afr,Q6A3 I would feel afraid of being on my own at home,3.0,Often
+647483,BIB,CV19child_P1survey,chftnhppn_afr,Q6A3 I would feel afraid of being on my own at home,4.0,Always
+647484,BIB,CV19child_P1survey,chftnhppn_fun,Q6A4) Nothing is much fun anymore,1.0,Never
+647485,BIB,CV19child_P1survey,chftnhppn_fun,Q6A4) Nothing is much fun anymore,2.0,Sometimes
+647486,BIB,CV19child_P1survey,chftnhppn_fun,Q6A4) Nothing is much fun anymore,3.0,Often
+647487,BIB,CV19child_P1survey,chftnhppn_fun,Q6A4) Nothing is much fun anymore,4.0,Always
+647488,BIB,CV19child_P1survey,chftnhppn_fam,Q6A5) I worry that something awful will  happen to someone in my family,1.0,Never
+647489,BIB,CV19child_P1survey,chftnhppn_fam,Q6A5) I worry that something awful will  happen to someone in my family,2.0,Sometimes
+647490,BIB,CV19child_P1survey,chftnhppn_fam,Q6A5) I worry that something awful will  happen to someone in my family,3.0,Often
+647491,BIB,CV19child_P1survey,chftnhppn_fam,Q6A5) I worry that something awful will  happen to someone in my family,4.0,Always
+647492,BIB,CV19child_P1survey,chftnhppn_crwd,Q6A6) I am afraid of being in crowded places (lik...sy playgrounds),1.0,Never
+647493,BIB,CV19child_P1survey,chftnhppn_crwd,Q6A6) I am afraid of being in crowded places (lik...sy playgrounds),2.0,Sometimes
+647494,BIB,CV19child_P1survey,chftnhppn_crwd,Q6A6) I am afraid of being in crowded places (lik...sy playgrounds),3.0,Often
+647495,BIB,CV19child_P1survey,chftnhppn_crwd,Q6A6) I am afraid of being in crowded places (lik...sy playgrounds),4.0,Always
+647496,BIB,CV19child_P1survey,chftnhppn_othr,Q6A7) I worry what other people think of me,1.0,Never
+647497,BIB,CV19child_P1survey,chftnhppn_othr,Q6A7) I worry what other people think of me,2.0,Sometimes
+647498,BIB,CV19child_P1survey,chftnhppn_othr,Q6A7) I worry what other people think of me,3.0,Often
+647499,BIB,CV19child_P1survey,chftnhppn_othr,Q6A7) I worry what other people think of me,4.0,Always
+647500,BIB,CV19child_P1survey,chftnhppn_tbslp,Q6A8) I have trouble sleeping,1.0,Never
+647501,BIB,CV19child_P1survey,chftnhppn_tbslp,Q6A8) I have trouble sleeping,2.0,Sometimes
+647502,BIB,CV19child_P1survey,chftnhppn_tbslp,Q6A8) I have trouble sleeping,3.0,Often
+647503,BIB,CV19child_P1survey,chftnhppn_tbslp,Q6A8) I have trouble sleeping,4.0,Always
+647504,BIB,CV19child_P1survey,chftnhppn_scdslp,Q6A9) I feel scared if I have to sleep on my own,1.0,Never
+647505,BIB,CV19child_P1survey,chftnhppn_scdslp,Q6A9) I feel scared if I have to sleep on my own,2.0,Sometimes
+647506,BIB,CV19child_P1survey,chftnhppn_scdslp,Q6A9) I feel scared if I have to sleep on my own,3.0,Often
+647507,BIB,CV19child_P1survey,chftnhppn_scdslp,Q6A9) I feel scared if I have to sleep on my own,4.0,Always
+647508,BIB,CV19child_P1survey,chftnhppn_aptt,Q6A10) I have problems with appetite,1.0,Never
+647509,BIB,CV19child_P1survey,chftnhppn_aptt,Q6A10) I have problems with appetite,2.0,Sometimes
+647510,BIB,CV19child_P1survey,chftnhppn_aptt,Q6A10) I have problems with appetite,3.0,Often
+647511,BIB,CV19child_P1survey,chftnhppn_aptt,Q6A10) I have problems with appetite,4.0,Always
+647512,BIB,CV19child_P1survey,chftnhppn_dzzy,Q6A11) I suddenly become dizzy or faint when there...reason for this,1.0,Never
+647513,BIB,CV19child_P1survey,chftnhppn_dzzy,Q6A11) I suddenly become dizzy or faint when there...reason for this,2.0,Sometimes
+647514,BIB,CV19child_P1survey,chftnhppn_dzzy,Q6A11) I suddenly become dizzy or faint when there...reason for this,3.0,Often
+647515,BIB,CV19child_P1survey,chftnhppn_dzzy,Q6A11) I suddenly become dizzy or faint when there...reason for this,4.0,Always
+647516,BIB,CV19child_P1survey,chftnhppn_ovr,Q6A12l) I have to do some things over and over agai...certain order),1.0,Never
+647517,BIB,CV19child_P1survey,chftnhppn_ovr,Q6A12l) I have to do some things over and over agai...certain order),2.0,Sometimes
+647518,BIB,CV19child_P1survey,chftnhppn_ovr,Q6A12l) I have to do some things over and over agai...certain order),3.0,Often
+647519,BIB,CV19child_P1survey,chftnhppn_ovr,Q6A12l) I have to do some things over and over agai...certain order),4.0,Always
+647520,BIB,CV19child_P1survey,chftnhppn_nrgy,Q6A12) I have no energy for things,1.0,Never
+647521,BIB,CV19child_P1survey,chftnhppn_nrgy,Q6A12) I have no energy for things,2.0,Sometimes
+647522,BIB,CV19child_P1survey,chftnhppn_nrgy,Q6A12) I have no energy for things,3.0,Often
+647523,BIB,CV19child_P1survey,chftnhppn_nrgy,Q6A12) I have no energy for things,4.0,Always
+647524,BIB,CV19child_P1survey,chftnhppn_trmbl,Q6A14) I suddenly start to tremble or shake when t...reason for this,1.0,Never
+647525,BIB,CV19child_P1survey,chftnhppn_trmbl,Q6A14) I suddenly start to tremble or shake when t...reason for this,2.0,Sometimes
+647526,BIB,CV19child_P1survey,chftnhppn_trmbl,Q6A14) I suddenly start to tremble or shake when t...reason for this,3.0,Often
+647527,BIB,CV19child_P1survey,chftnhppn_trmbl,Q6A14) I suddenly start to tremble or shake when t...reason for this,4.0,Always
+647528,BIB,CV19child_P1survey,chftnhppn_thnk,Q6A15) cannot think clearly,1.0,Never
+647529,BIB,CV19child_P1survey,chftnhppn_thnk,Q6A15) cannot think clearly,2.0,Sometimes
+647530,BIB,CV19child_P1survey,chftnhppn_thnk,Q6A15) cannot think clearly,3.0,Often
+647531,BIB,CV19child_P1survey,chftnhppn_thnk,Q6A15) cannot think clearly,4.0,Always
+647532,BIB,CV19child_P1survey,chftnhppn_wrthls,Q6A16) I feel worthless,1.0,Never
+647533,BIB,CV19child_P1survey,chftnhppn_wrthls,Q6A16) I feel worthless,2.0,Sometimes
+647534,BIB,CV19child_P1survey,chftnhppn_wrthls,Q6A16) I feel worthless,3.0,Often
+647535,BIB,CV19child_P1survey,chftnhppn_wrthls,Q6A16) I feel worthless,4.0,Always
+647536,BIB,CV19child_P1survey,chftnhppn1_spclthgts,Q6A17) How often does this happen: special thoughts to stop bad things happ..,1.0,Never
+647537,BIB,CV19child_P1survey,chftnhppn1_spclthgts,Q6A17) How often does this happen: special thoughts to stop bad things happ..,2.0,Sometimes
+647538,BIB,CV19child_P1survey,chftnhppn1_spclthgts,Q6A17) How often does this happen: special thoughts to stop bad things happ..,3.0,Often
+647539,BIB,CV19child_P1survey,chftnhppn1_spclthgts,Q6A17) How often does this happen: special thoughts to stop bad things happ..,4.0,Always
+647540,BIB,CV19child_P1survey,chftnhppn1_dth,Q6A18) How often does this happen: I think about death,1.0,Never
+647541,BIB,CV19child_P1survey,chftnhppn1_dth,Q6A18) How often does this happen: I think about death,2.0,Sometimes
+647542,BIB,CV19child_P1survey,chftnhppn1_dth,Q6A18) How often does this happen: I think about death,3.0,Often
+647543,BIB,CV19child_P1survey,chftnhppn1_dth,Q6A18) How often does this happen: I think about death,4.0,Always
+647544,BIB,CV19child_P1survey,chftnhppn1_mv,QA19c) How often does this happen: I feel like I dont want to move,1.0,Never
+647545,BIB,CV19child_P1survey,chftnhppn1_mv,QA19c) How often does this happen: I feel like I dont want to move,2.0,Sometimes
+647546,BIB,CV19child_P1survey,chftnhppn1_mv,QA19c) How often does this happen: I feel like I dont want to move,3.0,Often
+647547,BIB,CV19child_P1survey,chftnhppn1_mv,QA19c) How often does this happen: I feel like I dont want to move,4.0,Always
+647548,BIB,CV19child_P1survey,chftnhppn1_scrd,Q6A20) How often does this happen: I worry  I will get a scared for no reason,1.0,Never
+647549,BIB,CV19child_P1survey,chftnhppn1_scrd,Q6A20) How often does this happen: I worry  I will get a scared for no reason,2.0,Sometimes
+647550,BIB,CV19child_P1survey,chftnhppn1_scrd,Q6A20) How often does this happen: I worry  I will get a scared for no reason,3.0,Often
+647551,BIB,CV19child_P1survey,chftnhppn1_scrd,Q6A20) How often does this happen: I worry  I will get a scared for no reason,4.0,Always
+647552,BIB,CV19child_P1survey,chftnhppn1_trd,Q6A21) How often does this happen: I am tired a lot,1.0,Never
+647553,BIB,CV19child_P1survey,chftnhppn1_trd,Q6A21) How often does this happen: I am tired a lot,2.0,Sometimes
+647554,BIB,CV19child_P1survey,chftnhppn1_trd,Q6A21) How often does this happen: I am tired a lot,3.0,Often
+647555,BIB,CV19child_P1survey,chftnhppn1_trd,Q6A21) How often does this happen: I am tired a lot,4.0,Always
+647556,BIB,CV19child_P1survey,chftnhppn1_afrd,Q6A22) How often does this happen: I feel afraid I will make a fool of myself,1.0,Never
+647557,BIB,CV19child_P1survey,chftnhppn1_afrd,Q6A22) How often does this happen: I feel afraid I will make a fool of myself,2.0,Sometimes
+647558,BIB,CV19child_P1survey,chftnhppn1_afrd,Q6A22) How often does this happen: I feel afraid I will make a fool of myself,3.0,Often
+647559,BIB,CV19child_P1survey,chftnhppn1_afrd,Q6A22) How often does this happen: I feel afraid I will make a fool of myself,4.0,Always
+647560,BIB,CV19child_P1survey,chftnhppn1_bdthng,Q6A23) How often does this happen: do things the right way to stop bad thingsâ€¦,1.0,Never
+647561,BIB,CV19child_P1survey,chftnhppn1_bdthng,Q6A23) How often does this happen: do things the right way to stop bad thingsâ€¦,2.0,Sometimes
+647562,BIB,CV19child_P1survey,chftnhppn1_bdthng,Q6A23) How often does this happen: do things the right way to stop bad thingsâ€¦,3.0,Often
+647563,BIB,CV19child_P1survey,chftnhppn1_bdthng,Q6A23) How often does this happen: do things the right way to stop bad thingsâ€¦,4.0,Always
+647564,BIB,CV19child_P1survey,chftnhppn1_rstlss,Q6A24) How often does this happen: I feel restless,1.0,Never
+647565,BIB,CV19child_P1survey,chftnhppn1_rstlss,Q6A24) How often does this happen: I feel restless,2.0,Sometimes
+647566,BIB,CV19child_P1survey,chftnhppn1_rstlss,Q6A24) How often does this happen: I feel restless,3.0,Often
+647567,BIB,CV19child_P1survey,chftnhppn1_rstlss,Q6A24) How often does this happen: I feel restless,4.0,Always
+647568,BIB,CV19child_P1survey,chftnhppn1_hppn,Q6A25) How often does this happen: I worry that something bad will happen to me,1.0,Never
+647569,BIB,CV19child_P1survey,chftnhppn1_hppn,Q6A25) How often does this happen: I worry that something bad will happen to me,2.0,Sometimes
+647570,BIB,CV19child_P1survey,chftnhppn1_hppn,Q6A25) How often does this happen: I worry that something bad will happen to me,3.0,Often
+647571,BIB,CV19child_P1survey,chftnhppn1_hppn,Q6A25) How often does this happen: I worry that something bad will happen to me,4.0,Always
+647572,BIB,CV19child_P1survey,chch_lftout,Q6B) How often do you feel left out of things by other children? (Pls tick one),1.0,Never
+647573,BIB,CV19child_P1survey,chch_lftout,Q6B) How often do you feel left out of things by other children? (Pls tick one),2.0,Some of the time
+647574,BIB,CV19child_P1survey,chch_lftout,Q6B) How often do you feel left out of things by other children? (Pls tick one),3.0,All of the time
+647575,BIB,CV19child_P1survey,chch_hppy,Q6C) How often do you feel happy? (Please tick one),1.0,Never
+647576,BIB,CV19child_P1survey,chch_hppy,Q6C) How often do you feel happy? (Please tick one),2.0,Some of the time
+647577,BIB,CV19child_P1survey,chch_hppy,Q6C) How often do you feel happy? (Please tick one),3.0,All of the time
+647578,BIB,CV19child_P1survey,chch_sad,Q6D) How often do you feel sad? (Please tick one),1.0,Never
+647579,BIB,CV19child_P1survey,chch_sad,Q6D) How often do you feel sad? (Please tick one),2.0,Some of the time
+647580,BIB,CV19child_P1survey,chch_sad,Q6D) How often do you feel sad? (Please tick one),3.0,All of the time
+647581,BIB,CV19child_P1survey,chch_frnds,Q7A) How many friends do you have? (Please tick one),1.0,Not many
+647582,BIB,CV19child_P1survey,chch_frnds,Q7A) How many friends do you have? (Please tick one),2.0,Some
+647583,BIB,CV19child_P1survey,chch_frnds,Q7A) How many friends do you have? (Please tick one),3.0,Lots
+647584,BIB,CV19child_P1survey,chch_bstfrnds,Q7B) Do you have any best friends?,0.0,No
+647585,BIB,CV19child_P1survey,chch_bstfrnds,Q7B) Do you have any best friends?,1.0,Yes
+647586,BIB,CV19child_P1survey,chch_mssfrnds,Q7C) Since schools closed; how much do you miss playing with your friends?,1.0,I dont miss it
+647587,BIB,CV19child_P1survey,chch_mssfrnds,Q7C) Since schools closed; how much do you miss playing with your friends?,2.0,I miss it a bit
+647588,BIB,CV19child_P1survey,chch_mssfrnds,Q7C) Since schools closed; how much do you miss playing with your friends?,3.0,I miss it a lot
+647589,BIB,CV19child_P1survey,chch_mnothrs,Q7D) How often are you mean to others at home/neighbourhood/online/online sch,1.0,Never
+647590,BIB,CV19child_P1survey,chch_mnothrs,Q7D) How often are you mean to others at home/neighbourhood/online/online sch,2.0,Some of the time
+647591,BIB,CV19child_P1survey,chch_mnothrs,Q7D) How often are you mean to others at home/neighbourhood/online/online sch,3.0,All of the time
+647592,BIB,CV19child_P1survey,chwk_2cybrblyng,Q7E) In the past two weeks how often have yo...lease tick one),1.0,I have not cyberbullied another person
+647593,BIB,CV19child_P1survey,chwk_2cybrblyng,Q7E) In the past two weeks how often have yo...lease tick one),2.0,About once a week
+647594,BIB,CV19child_P1survey,chwk_2cybrblyng,Q7E) In the past two weeks how often have yo...lease tick one),3.0,2 or 3 times a week
+647595,BIB,CV19child_P1survey,chwk_2cybrblyng,Q7E) In the past two weeks how often have yo...lease tick one),4.0,Several times a week
+647596,BIB,CV19child_P1survey,choftnhppn_bly,Q7F) How often do other children bully you? (Please tick one),1.0,Never
+647597,BIB,CV19child_P1survey,choftnhppn_bly,Q7F) How often do other children bully you? (Please tick one),2.0,Some of the time
+647598,BIB,CV19child_P1survey,choftnhppn_bly,Q7F) How often do other children bully you? (Please tick one),3.0,All of the time
+647599,BIB,CV19child_P1survey,chwk_2cybrblyngu,Q7G) In the past two weeks how often have you been cyberbullied),1.0,I have not been cyberbullied by another person
+647600,BIB,CV19child_P1survey,chwk_2cybrblyngu,Q7G) In the past two weeks how often have you been cyberbullied),2.0,About once a week
+647601,BIB,CV19child_P1survey,chwk_2cybrblyngu,Q7G) In the past two weeks how often have you been cyberbullied),3.0,2 or 3 times a week
+647602,BIB,CV19child_P1survey,chwk_2cybrblyngu,Q7G) In the past two weeks how often have you been cyberbullied),4.0,Several times a week
+647603,BIB,CV19child_P1survey,chfm_fun,Q8A) How often do you have fun with your family?,1.0,Never
+647604,BIB,CV19child_P1survey,chfm_fun,Q8A) How often do you have fun with your family?,2.0,Some of the time
+647605,BIB,CV19child_P1survey,chfm_fun,Q8A) How often do you have fun with your family?,3.0,All of the time
+647606,BIB,CV19child_P1survey,chfm_gtalong,Q8B) How often does your family get along well together),1.0,Never
+647607,BIB,CV19child_P1survey,chfm_gtalong,Q8B) How often does your family get along well together),2.0,Some of the time
+647608,BIB,CV19child_P1survey,chfm_gtalong,Q8B) How often does your family get along well together),3.0,All of the time
+647609,BIB,CV19child_P1survey,chfm_siblngs,Q8C) How often do you get along with siblings/other children at home?,1.0,Never
+647610,BIB,CV19child_P1survey,chfm_siblngs,Q8C) How often do you get along with siblings/other children at home?,2.0,Some of the time
+647611,BIB,CV19child_P1survey,chfm_siblngs,Q8C) How often do you get along with siblings/other children at home?,3.0,All of the time
+647612,BIB,CV19child_P1survey,chfm_siblngs,Q8C) How often do you get along with siblings/other children at home?,4.0,I dont have brothers or sister or live with other children
+647613,BIB,CV19child_P1survey,chwd_dudo_1,,,
+647614,BIB,CV19child_P1survey,chwd_dudo_2,,,
+647615,BIB,CV19child_P1survey,chwd_dudo_3,,,
+647616,BIB,CV19child_P1survey,chwd_dudo_4,,,
+647617,BIB,CV19child_P1survey,chwd_dudo_5,,,
+647618,BIB,CV19child_P1survey,chwd_dudo_6,,,
+647619,BIB,CV19child_P1survey,chwd_dudo_7,,,
+647620,BIB,CV19child_P1survey,chwr_lstfd,Q9B1) We cant get the food we want because there is not enough money,1.0,Many times
+647621,BIB,CV19child_P1survey,chwr_lstfd,Q9B1) We cant get the food we want because there is not enough money,2.0,1 or 2 times
+647622,BIB,CV19child_P1survey,chwr_lstfd,Q9B1) We cant get the food we want because there is not enough money,3.0,Never
+647623,BIB,CV19child_P1survey,chwr_lsteat,Q9B2) I worry about not having enough to eat,1.0,Many times
+647624,BIB,CV19child_P1survey,chwr_lsteat,Q9B2) I worry about not having enough to eat,2.0,1 or 2 times
+647625,BIB,CV19child_P1survey,chwr_lsteat,Q9B2) I worry about not having enough to eat,3.0,Never
+647626,BIB,CV19child_P1survey,chwr_lstprtsfood,Q9B3) I worry about how hard it is for my parents...ugh food for us,1.0,Many times
+647627,BIB,CV19child_P1survey,chwr_lstprtsfood,Q9B3) I worry about how hard it is for my parents...ugh food for us,2.0,1 or 2 times
+647628,BIB,CV19child_P1survey,chwr_lstprtsfood,Q9B3) I worry about how hard it is for my parents...ugh food for us,3.0,Never
+647629,BIB,CV19child_P1survey,chwr_lsthngry,Q9B4) I feel hungry because there is not enough food to eat,1.0,Many times
+647630,BIB,CV19child_P1survey,chwr_lsthngry,Q9B4) I feel hungry because there is not enough food to eat,2.0,1 or 2 times
+647631,BIB,CV19child_P1survey,chwr_lsthngry,Q9B4) I feel hungry because there is not enough food to eat,3.0,Never
+647632,BIB,CV19child_P1survey,chwr_lsteatlt,Q9B5)I try not to eat a lot so that our food will last,1.0,Many times
+647633,BIB,CV19child_P1survey,chwr_lsteatlt,Q9B5)I try not to eat a lot so that our food will last,2.0,1 or 2 times
+647634,BIB,CV19child_P1survey,chwr_lsteatlt,Q9B5)I try not to eat a lot so that our food will last,3.0,Never
+647635,BIB,CV19child_P1survey,chwr_lstmny,Q9B6) How often do you worry about how much money your family has,1.0,Many times
+647636,BIB,CV19child_P1survey,chwr_lstmny,Q9B6) How often do you worry about how much money your family has,2.0,1 or 2 times
+647637,BIB,CV19child_P1survey,chwr_lstmny,Q9B6) How often do you worry about how much money your family has,3.0,Never
+647638,BIB,CV19child_P1survey,ch_wrynow_1,Q9Ci) At the moment Worry 1:,,
+647639,BIB,CV19child_P1survey,ch_wrynow_2,Q9Cii) At the moment Worry 2:,,
+647640,BIB,CV19child_P1survey,ch_wrynow_3,Q9Ciii) At the moment Worry 3:,,
+647641,BIB,CV19child_P1survey,ch_easier_1,Q9Di) At the moment  Happy 1:,,
+647642,BIB,CV19child_P1survey,ch_easier_2,Q9Dii) At the moment  Happy 2:,,
+647643,BIB,CV19child_P1survey,ch_easier_3,Q9Diii) At the moment  Happy 3:,,
+647644,BIB,CV19child_P1survey,child_complete,Complete?,0.0,Incomplete
+647645,BIB,CV19child_P1survey,child_complete,Complete?,1.0,Unverified
+647646,BIB,CV19child_P1survey,child_complete,Complete?,2.0,Complete
+647647,BIB,CV19child_P1survey,complete_rcads,,,
+647648,BIB,CV19child_P1survey,total_rcads,Total RCADS Score - Raw,,
+647649,BIB,CV19child_P1survey,dep_rcads,Depression RCADS Score - Raw,,
+647650,BIB,CV19child_P1survey,anx_rcads,Anxiety RCADS Score - Raw,,
+647651,BIB,CV19child_P1survey,total_rcads_t,Total RCADS Score - Standardised T Score,,
+647652,BIB,CV19child_P1survey,dep_rcads_t,Depression RCADS Score - Standardised T Score,,
+647653,BIB,CV19child_P1survey,anx_rcads_t,Anxiety RCADS Score - Standardised T Scores,,
+647654,BIB,CV19child_P1survey,total_rcads_tcat,Total RCADS Score - Standardised T Score Categories,0.0,Normal
+647655,BIB,CV19child_P1survey,total_rcads_tcat,Total RCADS Score - Standardised T Score Categories,1.0,Borderline
+647656,BIB,CV19child_P1survey,total_rcads_tcat,Total RCADS Score - Standardised T Score Categories,2.0,Clinical
+647657,BIB,CV19child_P1survey,dep_rcads_tcat,Depression RCADS Score - Standardised T Score Categories,0.0,Normal
+647658,BIB,CV19child_P1survey,dep_rcads_tcat,Depression RCADS Score - Standardised T Score Categories,1.0,Borderline
+647659,BIB,CV19child_P1survey,dep_rcads_tcat,Depression RCADS Score - Standardised T Score Categories,2.0,Clinical
+647660,BIB,CV19child_P1survey,anx_rcads_tcat,Anxiety RCADS Score - Standardised T Scores Categories,0.0,Normal
+647661,BIB,CV19child_P1survey,anx_rcads_tcat,Anxiety RCADS Score - Standardised T Scores Categories,1.0,Borderline
+647662,BIB,CV19child_P1survey,anx_rcads_tcat,Anxiety RCADS Score - Standardised T Scores Categories,2.0,Clinical
+647663,BIB,CV19child_P1survey,avail_from_dt,,,
+647664,BIB,CV19child_P1survey,ward_e,Encrypted Ward as at March 2020,,
+647665,BIB,CV19child_P1survey,imdrank_e,Encrypted IMD 2019 National Rank (1 = most deprved),,

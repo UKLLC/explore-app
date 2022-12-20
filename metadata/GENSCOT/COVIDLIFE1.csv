@@ -1,0 +1,1501 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+709311,GENSCOT,COVIDLIFE1,study_id_e,,,
+709312,GENSCOT,COVIDLIFE1,enddate,Survey end date,,Questionnaire End Date
+709313,GENSCOT,COVIDLIFE1,finished,Survey completion flag,1,yes
+709314,GENSCOT,COVIDLIFE1,finished,Survey completion flag,0,no
+709315,GENSCOT,COVIDLIFE1,gender,Gender,2,female
+709316,GENSCOT,COVIDLIFE1,gender,Gender,1,male
+709317,GENSCOT,COVIDLIFE1,country,Country,1,Scotland
+709318,GENSCOT,COVIDLIFE1,country,Country,2,England
+709319,GENSCOT,COVIDLIFE1,country,Country,3,Wales
+709320,GENSCOT,COVIDLIFE1,country,Country,4,N Ireland
+709321,GENSCOT,COVIDLIFE1,country,Country,5,Elsewhere
+709322,GENSCOT,COVIDLIFE1,student,Student status,0,No
+709323,GENSCOT,COVIDLIFE1,student,Student status,1,"Yes, part-time student"
+709324,GENSCOT,COVIDLIFE1,student,Student status,2,"Yes, full-time student"
+709325,GENSCOT,COVIDLIFE1,student_where,Institution of study,1,Secondary school
+709326,GENSCOT,COVIDLIFE1,student_where,Institution of study,2,College
+709327,GENSCOT,COVIDLIFE1,student_where,Institution of study,3,University
+709328,GENSCOT,COVIDLIFE1,student_where,Institution of study,4,Other (please specify)
+709329,GENSCOT,COVIDLIFE1,general_health,"In general, would you say your health is",1,Excellent
+709330,GENSCOT,COVIDLIFE1,general_health,"In general, would you say your health is",2,Very Good
+709331,GENSCOT,COVIDLIFE1,general_health,"In general, would you say your health is",3,Good
+709332,GENSCOT,COVIDLIFE1,general_health,"In general, would you say your health is",4,Fair
+709333,GENSCOT,COVIDLIFE1,general_health,"In general, would you say your health is",5,Poor
+709334,GENSCOT,COVIDLIFE1,mental_health,"In general, would you say your emotional or mental health is",1,Excellent
+709335,GENSCOT,COVIDLIFE1,mental_health,"In general, would you say your emotional or mental health is",2,Very Good
+709336,GENSCOT,COVIDLIFE1,mental_health,"In general, would you say your emotional or mental health is",3,Good
+709337,GENSCOT,COVIDLIFE1,mental_health,"In general, would you say your emotional or mental health is",4,Fair
+709338,GENSCOT,COVIDLIFE1,mental_health,"In general, would you say your emotional or mental health is",5,Poor
+709339,GENSCOT,COVIDLIFE1,flu_jab,Has your GP advised you to get the flu jab in the last 12 months?,1,Yes 
+709340,GENSCOT,COVIDLIFE1,flu_jab,Has your GP advised you to get the flu jab in the last 12 months?,2,No
+709341,GENSCOT,COVIDLIFE1,flu_jab,Has your GP advised you to get the flu jab in the last 12 months?,99,Don't know
+709342,GENSCOT,COVIDLIFE1,severerisk,Have you been contacted by letter or text message to say you are at severe risk from COVID-19 due to an underlying health condition and should be shielding?,N,No
+709343,GENSCOT,COVIDLIFE1,severerisk,Have you been contacted by letter or text message to say you are at severe risk from COVID-19 due to an underlying health condition and should be shielding?,Y,Yes
+709344,GENSCOT,COVIDLIFE1,units_height,Units_Height,1,Imperial
+709345,GENSCOT,COVIDLIFE1,units_height,Units_Height,2,Metric
+709346,GENSCOT,COVIDLIFE1,units_weight,Units_Weight,1,Imperial
+709347,GENSCOT,COVIDLIFE1,units_weight,Units_Weight,2,Metric
+709348,GENSCOT,COVIDLIFE1,height_cm,Height_cm,,Height [cm]
+709349,GENSCOT,COVIDLIFE1,height_feetinches_feet,Height_FeetInches_Feet,,Height [FeetInches - Feet]
+709350,GENSCOT,COVIDLIFE1,height_feetinches_inches,Height_FeetInches_Inches,,Height [FeetInches - Inches]
+709351,GENSCOT,COVIDLIFE1,weight_kg,Weight_kg,,Weight [kilograms]
+709352,GENSCOT,COVIDLIFE1,weight_stonelbs_stones,Weight_StoneLbs_Stones,,Weight [Stones]
+709353,GENSCOT,COVIDLIFE1,weight_stonelbs_lbs,Weight_StoneLbs_Lbs,,Weight [Pounds]
+709354,GENSCOT,COVIDLIFE1,med_conditions_asthma,Medical Conditions_Asthma,0,No
+709355,GENSCOT,COVIDLIFE1,med_conditions_asthma,Medical Conditions_Asthma,1,Yes
+709356,GENSCOT,COVIDLIFE1,med_conditions_copd,Medical Conditions_COPD,0,No
+709357,GENSCOT,COVIDLIFE1,med_conditions_copd,Medical Conditions_COPD,1,Yes
+709358,GENSCOT,COVIDLIFE1,med_conditions_chest,Medical Conditions_Chest,0,No
+709359,GENSCOT,COVIDLIFE1,med_conditions_chest,Medical Conditions_Chest,1,Yes
+709360,GENSCOT,COVIDLIFE1,med_conditions_heart,Medical Conditions_Heart,0,No
+709361,GENSCOT,COVIDLIFE1,med_conditions_heart,Medical Conditions_Heart,1,Yes
+709362,GENSCOT,COVIDLIFE1,med_conditions_kidney,Medical Conditions_Kidney,0,No
+709363,GENSCOT,COVIDLIFE1,med_conditions_kidney,Medical Conditions_Kidney,1,Yes
+709364,GENSCOT,COVIDLIFE1,med_conditions_liver,Medical Conditions_Liver,0,No
+709365,GENSCOT,COVIDLIFE1,med_conditions_liver,Medical Conditions_Liver,1,Yes
+709366,GENSCOT,COVIDLIFE1,med_conditions_neuro,Medical Conditions_Neuro,0,No
+709367,GENSCOT,COVIDLIFE1,med_conditions_neuro,Medical Conditions_Neuro,1,Yes
+709368,GENSCOT,COVIDLIFE1,med_conditions_t1d,Medical Conditions_T1D,0,No
+709369,GENSCOT,COVIDLIFE1,med_conditions_t1d,Medical Conditions_T1D,1,Yes
+709370,GENSCOT,COVIDLIFE1,med_conditions_t2d,Medical Conditions_T2D,0,No
+709371,GENSCOT,COVIDLIFE1,med_conditions_t2d,Medical Conditions_T2D,1,Yes
+709372,GENSCOT,COVIDLIFE1,med_conditions_digestive,Medical Conditions_Digestive,0,No
+709373,GENSCOT,COVIDLIFE1,med_conditions_digestive,Medical Conditions_Digestive,1,Yes
+709374,GENSCOT,COVIDLIFE1,med_conditions_highbp,Medical Conditions_HighBP,0,No
+709375,GENSCOT,COVIDLIFE1,med_conditions_highbp,Medical Conditions_HighBP,1,Yes
+709376,GENSCOT,COVIDLIFE1,med_conditions_cancer_therapy,Medical Conditions_Cancer_therapy,0,No
+709377,GENSCOT,COVIDLIFE1,med_conditions_cancer_therapy,Medical Conditions_Cancer_therapy,1,Yes
+709378,GENSCOT,COVIDLIFE1,med_conditions_cancer_blood,Medical Conditions_Cancer_blood,0,No
+709379,GENSCOT,COVIDLIFE1,med_conditions_cancer_blood,Medical Conditions_Cancer_blood,1,Yes
+709380,GENSCOT,COVIDLIFE1,med_conditions_spleen,Medical Conditions_Spleen,0,No
+709381,GENSCOT,COVIDLIFE1,med_conditions_spleen,Medical Conditions_Spleen,1,Yes
+709382,GENSCOT,COVIDLIFE1,med_conditions_organ_transplant,Medical Conditions_Organ_transplant,0,No
+709383,GENSCOT,COVIDLIFE1,med_conditions_organ_transplant,Medical Conditions_Organ_transplant,1,Yes
+709384,GENSCOT,COVIDLIFE1,med_conditions_weak_immune,Medical Conditions_Weak_immune,0,No
+709385,GENSCOT,COVIDLIFE1,med_conditions_weak_immune,Medical Conditions_Weak_immune,1,Yes
+709386,GENSCOT,COVIDLIFE1,med_conditions_other,Medical Conditions_Other,0,No
+709387,GENSCOT,COVIDLIFE1,med_conditions_other,Medical Conditions_Other,1,Yes
+709388,GENSCOT,COVIDLIFE1,med_conditions_pnta,Medical Conditions_PreferNotToAnswer,0,No
+709389,GENSCOT,COVIDLIFE1,med_conditions_pnta,Medical Conditions_PreferNotToAnswer,1,Yes
+709390,GENSCOT,COVIDLIFE1,med_conditions_none,Medical Conditions_none,0,No
+709391,GENSCOT,COVIDLIFE1,med_conditions_none,Medical Conditions_none,1,Yes
+709392,GENSCOT,COVIDLIFE1,mucus,"Do you usually bring up phlegm/sputum/mucus from the lungs, or do you usually feel like you have mucus in your lungs that is difficult to bring up, without having a cold?",N,No
+709393,GENSCOT,COVIDLIFE1,mucus,"Do you usually bring up phlegm/sputum/mucus from the lungs, or do you usually feel like you have mucus in your lungs that is difficult to bring up, without having a cold?",Y,Yes
+709394,GENSCOT,COVIDLIFE1,pregnant,Are you currently pregnant,0,No
+709395,GENSCOT,COVIDLIFE1,pregnant,Are you currently pregnant,1,Yes
+709396,GENSCOT,COVIDLIFE1,pregnant,Are you currently pregnant,98,Prefer not to answer
+709397,GENSCOT,COVIDLIFE1,pregnant,Are you currently pregnant,99,Don't know
+709398,GENSCOT,COVIDLIFE1,mh_conditions_agoraphobia,Mental Health Conditions_Agoraphobia,0,No
+709399,GENSCOT,COVIDLIFE1,mh_conditions_agoraphobia,Mental Health Conditions_Agoraphobia,1,Yes
+709400,GENSCOT,COVIDLIFE1,mh_conditions_anorexia,Mental Health Conditions_Anorexia,0,No
+709401,GENSCOT,COVIDLIFE1,mh_conditions_anorexia,Mental Health Conditions_Anorexia,1,Yes
+709402,GENSCOT,COVIDLIFE1,mh_conditions_anxiety,Mental Health Conditions_Anxiety,0,No
+709403,GENSCOT,COVIDLIFE1,mh_conditions_anxiety,Mental Health Conditions_Anxiety,1,Yes
+709404,GENSCOT,COVIDLIFE1,mh_conditions_adhd,Mental Health Conditions_ADHD,0,No
+709405,GENSCOT,COVIDLIFE1,mh_conditions_adhd,Mental Health Conditions_ADHD,1,Yes
+709406,GENSCOT,COVIDLIFE1,mh_conditions_autism,Mental Health Conditions_Autism,0,No
+709407,GENSCOT,COVIDLIFE1,mh_conditions_autism,Mental Health Conditions_Autism,1,Yes
+709408,GENSCOT,COVIDLIFE1,mh_conditions_bulimia,Mental Health Conditions_Bulimia,0,No
+709409,GENSCOT,COVIDLIFE1,mh_conditions_bulimia,Mental Health Conditions_Bulimia,1,Yes
+709410,GENSCOT,COVIDLIFE1,mh_conditions_depression,Mental Health Conditions_Depression,0,No
+709411,GENSCOT,COVIDLIFE1,mh_conditions_depression,Mental Health Conditions_Depression,1,Yes
+709412,GENSCOT,COVIDLIFE1,mh_conditions_bipolar,Mental Health Conditions_Bipolar,0,No
+709413,GENSCOT,COVIDLIFE1,mh_conditions_bipolar,Mental Health Conditions_Bipolar,1,Yes
+709414,GENSCOT,COVIDLIFE1,mh_conditions_ocd,Mental Health Conditions_OCD,0,No
+709415,GENSCOT,COVIDLIFE1,mh_conditions_ocd,Mental Health Conditions_OCD,1,Yes
+709416,GENSCOT,COVIDLIFE1,mh_conditions_panic_attacks,Mental Health Conditions_Panic_attacks,0,No
+709417,GENSCOT,COVIDLIFE1,mh_conditions_panic_attacks,Mental Health Conditions_Panic_attacks,1,Yes
+709418,GENSCOT,COVIDLIFE1,mh_conditions_personality_disorder,Mental Health Conditions_Personality_disorder,0,No
+709419,GENSCOT,COVIDLIFE1,mh_conditions_personality_disorder,Mental Health Conditions_Personality_disorder,1,Yes
+709420,GENSCOT,COVIDLIFE1,mh_conditions_over_eating,Mental Health Conditions_Over_eating,0,No
+709421,GENSCOT,COVIDLIFE1,mh_conditions_over_eating,Mental Health Conditions_Over_eating,1,Yes
+709422,GENSCOT,COVIDLIFE1,mh_conditions_schizophrenia,Mental Health Conditions_Schizophrenia,0,No
+709423,GENSCOT,COVIDLIFE1,mh_conditions_schizophrenia,Mental Health Conditions_Schizophrenia,1,Yes
+709424,GENSCOT,COVIDLIFE1,mh_conditions_social_anxiety,Mental Health Conditions_Social_anxiety,0,No
+709425,GENSCOT,COVIDLIFE1,mh_conditions_social_anxiety,Mental Health Conditions_Social_anxiety,1,Yes
+709426,GENSCOT,COVIDLIFE1,mh_conditions_other_phobia,Mental Health Conditions_Other_phobia,0,No
+709427,GENSCOT,COVIDLIFE1,mh_conditions_other_phobia,Mental Health Conditions_Other_phobia,1,Yes
+709428,GENSCOT,COVIDLIFE1,mh_conditions_other_psychosis,Mental Health Conditions_Other_psychosis,0,No
+709429,GENSCOT,COVIDLIFE1,mh_conditions_other_psychosis,Mental Health Conditions_Other_psychosis,1,Yes
+709430,GENSCOT,COVIDLIFE1,mh_conditions_pnta,Mental Health Conditions_PreferNotToAnswer,0,No
+709431,GENSCOT,COVIDLIFE1,mh_conditions_pnta,Mental Health Conditions_PreferNotToAnswer,1,Yes
+709432,GENSCOT,COVIDLIFE1,mh_conditions_none,Mental Health Conditions_none,0,No
+709433,GENSCOT,COVIDLIFE1,mh_conditions_none,Mental Health Conditions_none,1,Yes
+709434,GENSCOT,COVIDLIFE1,livealone,Do you live alone?,0,No
+709435,GENSCOT,COVIDLIFE1,livealone,Do you live alone?,1,Yes
+709436,GENSCOT,COVIDLIFE1,livealone,Do you live alone?,98,Prefer not to answer
+709437,GENSCOT,COVIDLIFE1,household_howmany,"Including yourself, how many people live in your household?",,"1(1) ,..., 12+(12)"
+709438,GENSCOT,COVIDLIFE1,household_who_partner,Household_Who_Partner,1,Yes
+709439,GENSCOT,COVIDLIFE1,household_who_partner,Household_Who_Partner,0,No
+709440,GENSCOT,COVIDLIFE1,household_who_children,Household_Who_Children,0,No
+709441,GENSCOT,COVIDLIFE1,household_who_children,Household_Who_Children,1,Yes
+709442,GENSCOT,COVIDLIFE1,household_who_grandchildren,Household_Who_Grandchildren,0,No
+709443,GENSCOT,COVIDLIFE1,household_who_grandchildren,Household_Who_Grandchildren,1,Yes
+709444,GENSCOT,COVIDLIFE1,household_who_parent,Household_Who_Parent,0,No
+709445,GENSCOT,COVIDLIFE1,household_who_parent,Household_Who_Parent,1,Yes
+709446,GENSCOT,COVIDLIFE1,household_who_grandparent,Household_Who_Grandparent,0,No
+709447,GENSCOT,COVIDLIFE1,household_who_grandparent,Household_Who_Grandparent,1,Yes
+709448,GENSCOT,COVIDLIFE1,household_who_other_family,Household_Who_Other_family,0,No
+709449,GENSCOT,COVIDLIFE1,household_who_other_family,Household_Who_Other_family,1,Yes
+709450,GENSCOT,COVIDLIFE1,household_who_carer,Household_Who_Carer,0,No
+709451,GENSCOT,COVIDLIFE1,household_who_carer,Household_Who_Carer,1,Yes
+709452,GENSCOT,COVIDLIFE1,household_who_friend,Household_Who_Friend,0,No
+709453,GENSCOT,COVIDLIFE1,household_who_friend,Household_Who_Friend,1,Yes
+709454,GENSCOT,COVIDLIFE1,child0_4,No. children aged  0-4 living with you,0,0
+709455,GENSCOT,COVIDLIFE1,child0_4,No. children aged  0-4 living with you,1,1
+709456,GENSCOT,COVIDLIFE1,child0_4,No. children aged  0-4 living with you,2,2
+709457,GENSCOT,COVIDLIFE1,child0_4,No. children aged  0-4 living with you,3,3 or more
+709458,GENSCOT,COVIDLIFE1,child5_11,No. children aged 5-11 living with you,0,0
+709459,GENSCOT,COVIDLIFE1,child5_11,No. children aged 5-11 living with you,1,1
+709460,GENSCOT,COVIDLIFE1,child5_11,No. children aged 5-11 living with you,2,2
+709461,GENSCOT,COVIDLIFE1,child5_11,No. children aged 5-11 living with you,3,3 or more
+709462,GENSCOT,COVIDLIFE1,child12_15,No. children aged 12-15 living with you,0,0
+709463,GENSCOT,COVIDLIFE1,child12_15,No. children aged 12-15 living with you,1,1
+709464,GENSCOT,COVIDLIFE1,child12_15,No. children aged 12-15 living with you,2,2
+709465,GENSCOT,COVIDLIFE1,child12_15,No. children aged 12-15 living with you,3,3 or more
+709466,GENSCOT,COVIDLIFE1,child16_17,No. children aged 16-17 living with you,0,0
+709467,GENSCOT,COVIDLIFE1,child16_17,No. children aged 16-17 living with you,1,1
+709468,GENSCOT,COVIDLIFE1,child16_17,No. children aged 16-17 living with you,2,2
+709469,GENSCOT,COVIDLIFE1,child16_17,No. children aged 16-17 living with you,3,3 or more
+709470,GENSCOT,COVIDLIFE1,child18plus,No. children aged >18 living with you,0,0
+709471,GENSCOT,COVIDLIFE1,child18plus,No. children aged >18 living with you,1,1
+709472,GENSCOT,COVIDLIFE1,child18plus,No. children aged >18 living with you,2,2
+709473,GENSCOT,COVIDLIFE1,child18plus,No. children aged >18 living with you,3,3 or more
+709474,GENSCOT,COVIDLIFE1,household_70plus,Aged 70 years or over in household,0,No
+709475,GENSCOT,COVIDLIFE1,household_70plus,Aged 70 years or over in household,1,Yes
+709476,GENSCOT,COVIDLIFE1,household_pregnant,Currently pregnant in household,0,No
+709477,GENSCOT,COVIDLIFE1,household_pregnant,Currently pregnant in household,1,Yes
+709478,GENSCOT,COVIDLIFE1,household_atrisk,"Has someone in your household, been contacted by letter or text message to say that they are at severe risk from COVID-19 due to an underlying health condition and should be shielding?",0,No
+709479,GENSCOT,COVIDLIFE1,household_atrisk,"Has someone in your household, been contacted by letter or text message to say that they are at severe risk from COVID-19 due to an underlying health condition and should be shielding?",1,Yes
+709480,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,1,Married/civil partnership
+709481,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,2,"Relationship, living together"
+709482,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,3,"Relationship, not living together"
+709483,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,4,Single
+709484,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,5,Separated
+709485,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,6,Divorced
+709486,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,7,Widowed
+709487,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,8,Other
+709488,GENSCOT,COVIDLIFE1,relationship_status,What is your current relationship status?,98,Prefer not to answer
+709489,GENSCOT,COVIDLIFE1,pets,Do you have any pets?,N,No
+709490,GENSCOT,COVIDLIFE1,pets,Do you have any pets?,Y,Yes
+709491,GENSCOT,COVIDLIFE1,pet_type_dog,Pet_type_Dog,N,No
+709492,GENSCOT,COVIDLIFE1,pet_type_dog,Pet_type_Dog,Y,Yes
+709493,GENSCOT,COVIDLIFE1,pet_type_cat,Pet_type_Cat,N,No
+709494,GENSCOT,COVIDLIFE1,pet_type_cat,Pet_type_Cat,Y,Yes
+709495,GENSCOT,COVIDLIFE1,pet_type_other,Pet_type_Other,N,No
+709496,GENSCOT,COVIDLIFE1,pet_type_other,Pet_type_Other,Y,Yes
+709497,GENSCOT,COVIDLIFE1,had_covid,"Do you think that you have had, or currently have COVID-19?",0,No
+709498,GENSCOT,COVIDLIFE1,had_covid,"Do you think that you have had, or currently have COVID-19?",1,Yes tested
+709499,GENSCOT,COVIDLIFE1,had_covid,"Do you think that you have had, or currently have COVID-19?",2,Yes suspected
+709500,GENSCOT,COVIDLIFE1,covid_symptoms_cough,COVID_Symptoms_Cough,0,No
+709501,GENSCOT,COVIDLIFE1,covid_symptoms_cough,COVID_Symptoms_Cough,1,Yes
+709502,GENSCOT,COVIDLIFE1,covid_symptoms_fever,COVID_Symptoms_Fever,0,No
+709503,GENSCOT,COVIDLIFE1,covid_symptoms_fever,COVID_Symptoms_Fever,1,Yes
+709504,GENSCOT,COVIDLIFE1,covid_symptoms_short_breath,COVID_Symptoms_Short_breath,0,No
+709505,GENSCOT,COVIDLIFE1,covid_symptoms_short_breath,COVID_Symptoms_Short_breath,1,Yes
+709506,GENSCOT,COVIDLIFE1,covid_symptoms_headache,COVID_Symptoms_Headache,0,No
+709507,GENSCOT,COVIDLIFE1,covid_symptoms_headache,COVID_Symptoms_Headache,1,Yes
+709508,GENSCOT,COVIDLIFE1,covid_symptoms_aches_pains,COVID_Symptoms_Aches_pains,0,No
+709509,GENSCOT,COVIDLIFE1,covid_symptoms_aches_pains,COVID_Symptoms_Aches_pains,1,Yes
+709510,GENSCOT,COVIDLIFE1,covid_symptoms_sore_throat,COVID_Symptoms_Sore_throat,0,No
+709511,GENSCOT,COVIDLIFE1,covid_symptoms_sore_throat,COVID_Symptoms_Sore_throat,1,Yes
+709512,GENSCOT,COVIDLIFE1,covid_symptoms_fatigue,COVID_Symptoms_Fatigue,0,No
+709513,GENSCOT,COVIDLIFE1,covid_symptoms_fatigue,COVID_Symptoms_Fatigue,1,Yes
+709514,GENSCOT,COVIDLIFE1,covid_symptoms_runny_nose,COVID_Symptoms_Runny_nose,0,No
+709515,GENSCOT,COVIDLIFE1,covid_symptoms_runny_nose,COVID_Symptoms_Runny_nose,1,Yes
+709516,GENSCOT,COVIDLIFE1,covid_symptoms_diarrhoea,COVID_Symptoms_Diarrhoea,0,No
+709517,GENSCOT,COVIDLIFE1,covid_symptoms_diarrhoea,COVID_Symptoms_Diarrhoea,1,Yes
+709518,GENSCOT,COVIDLIFE1,covid_symptoms_stomach_pains,COVID_Symptoms_Stomach_pains,0,No
+709519,GENSCOT,COVIDLIFE1,covid_symptoms_stomach_pains,COVID_Symptoms_Stomach_pains,1,Yes
+709520,GENSCOT,COVIDLIFE1,covid_symptoms_nausea,COVID_Symptoms_Nausea,0,No
+709521,GENSCOT,COVIDLIFE1,covid_symptoms_nausea,COVID_Symptoms_Nausea,1,Yes
+709522,GENSCOT,COVIDLIFE1,covid_symptoms_no_appetite,COVID_Symptoms_No_appetite,0,No
+709523,GENSCOT,COVIDLIFE1,covid_symptoms_no_appetite,COVID_Symptoms_No_appetite,1,Yes
+709524,GENSCOT,COVIDLIFE1,covid_symptoms_loss_smell_taste,COVID_Symptoms_Loss_smell_taste,0,No
+709525,GENSCOT,COVIDLIFE1,covid_symptoms_loss_smell_taste,COVID_Symptoms_Loss_smell_taste,1,Yes
+709526,GENSCOT,COVIDLIFE1,covid_symptoms_sore_eyes,COVID_Symptoms_Sore_eyes,0,No
+709527,GENSCOT,COVIDLIFE1,covid_symptoms_sore_eyes,COVID_Symptoms_Sore_eyes,1,Yes
+709528,GENSCOT,COVIDLIFE1,covid_symptoms_pneumonia,COVID_Symptoms_Pneumonia,0,No
+709529,GENSCOT,COVIDLIFE1,covid_symptoms_pneumonia,COVID_Symptoms_Pneumonia,1,Yes
+709530,GENSCOT,COVIDLIFE1,covid_symptoms_other,COVID_Symptoms_Other,0,No
+709531,GENSCOT,COVIDLIFE1,covid_symptoms_other,COVID_Symptoms_Other,1,Yes
+709532,GENSCOT,COVIDLIFE1,covid_services_gp,Did you use or contact any of the following services about COVID-19?,0,No
+709533,GENSCOT,COVIDLIFE1,covid_services_gp,Did you use or contact any of the following services about COVID-19?,1,Yes
+709534,GENSCOT,COVIDLIFE1,covid_services_nhs111,Did you use or contact any of the following services about COVID-19?,0,No
+709535,GENSCOT,COVIDLIFE1,covid_services_nhs111,Did you use or contact any of the following services about COVID-19?,1,Yes
+709536,GENSCOT,COVIDLIFE1,covid_services_aande,Did you use or contact any of the following services about COVID-19?,0,No
+709537,GENSCOT,COVIDLIFE1,covid_services_aande,Did you use or contact any of the following services about COVID-19?,1,Yes
+709538,GENSCOT,COVIDLIFE1,covid_services_nhswebsite,Did you use or contact any of the following services about COVID-19?,0,No
+709539,GENSCOT,COVIDLIFE1,covid_services_nhswebsite,Did you use or contact any of the following services about COVID-19?,1,Yes
+709540,GENSCOT,COVIDLIFE1,covid_services_none,Did you use or contact any of the following services about COVID-19?,0,No
+709541,GENSCOT,COVIDLIFE1,covid_services_none,Did you use or contact any of the following services about COVID-19?,1,Yes
+709542,GENSCOT,COVIDLIFE1,covid_hospital,Were you hospitalised because of COVID-19?,0,No
+709543,GENSCOT,COVIDLIFE1,covid_hospital,Were you hospitalised because of COVID-19?,1,Yes
+709544,GENSCOT,COVIDLIFE1,covid_hospital,Were you hospitalised because of COVID-19?,99,Don't know
+709545,GENSCOT,COVIDLIFE1,covid_intensivecare,Were you in intensive care?,0,No
+709546,GENSCOT,COVIDLIFE1,covid_intensivecare,Were you in intensive care?,1,Yes
+709547,GENSCOT,COVIDLIFE1,covid_intensivecare,Were you in intensive care?,99,Don't know
+709548,GENSCOT,COVIDLIFE1,covid_ventilator,Did you need to use a ventilator to help you breathe?,0,No
+709549,GENSCOT,COVIDLIFE1,covid_ventilator,Did you need to use a ventilator to help you breathe?,1,Yes
+709550,GENSCOT,COVIDLIFE1,covid_ventilator,Did you need to use a ventilator to help you breathe?,99,Don't know
+709551,GENSCOT,COVIDLIFE1,covid_household,Do you think anyone else in your household has had COVID-19?,0,No
+709552,GENSCOT,COVIDLIFE1,covid_household,Do you think anyone else in your household has had COVID-19?,1,Yes tested
+709553,GENSCOT,COVIDLIFE1,covid_household,Do you think anyone else in your household has had COVID-19?,2,Yes suspected
+709554,GENSCOT,COVIDLIFE1,covid_getsick,Do you think that you will get sick from the COVID-19?,1,not at all
+709555,GENSCOT,COVIDLIFE1,covid_getsick,Do you think that you will get sick from the COVID-19?,2, possible
+709556,GENSCOT,COVIDLIFE1,covid_getsick,Do you think that you will get sick from the COVID-19?,3,probably will
+709557,GENSCOT,COVIDLIFE1,covid_getsick,Do you think that you will get sick from the COVID-19?,4,definitely will
+709558,GENSCOT,COVIDLIFE1,covid_routine,How much has COVID-19 changed your daily routine?,1,not at all
+709559,GENSCOT,COVIDLIFE1,covid_routine,How much has COVID-19 changed your daily routine?,2,a little
+709560,GENSCOT,COVIDLIFE1,covid_routine,How much has COVID-19 changed your daily routine?,3,some
+709561,GENSCOT,COVIDLIFE1,covid_routine,How much has COVID-19 changed your daily routine?,4,a lot
+709562,GENSCOT,COVIDLIFE1,close_contact,Are there any other people outside those in your household that you are seeing regularly or having close contact with?,N,No
+709563,GENSCOT,COVIDLIFE1,close_contact,Are there any other people outside those in your household that you are seeing regularly or having close contact with?,Y,Yes
+709564,GENSCOT,COVIDLIFE1,closecontact_who_partner,CloseContact_Who_Partner,0,No
+709565,GENSCOT,COVIDLIFE1,closecontact_who_partner,CloseContact_Who_Partner,1,Yes
+709566,GENSCOT,COVIDLIFE1,closecontact_who_family,CloseContact_Who_Family,0,No
+709567,GENSCOT,COVIDLIFE1,closecontact_who_family,CloseContact_Who_Family,1,Yes
+709568,GENSCOT,COVIDLIFE1,closecontact_who_friends,CloseContact_Who_Friends,0,No
+709569,GENSCOT,COVIDLIFE1,closecontact_who_friends,CloseContact_Who_Friends,1,Yes
+709570,GENSCOT,COVIDLIFE1,closecontact_who_collegues,CloseContact_Who_Collegues,0,No
+709571,GENSCOT,COVIDLIFE1,closecontact_who_collegues,CloseContact_Who_Collegues,1,Yes
+709572,GENSCOT,COVIDLIFE1,closecontact_who_work,CloseContact_Who_Work,0,No
+709573,GENSCOT,COVIDLIFE1,closecontact_who_work,CloseContact_Who_Work,1,Yes
+709574,GENSCOT,COVIDLIFE1,closecontact_who_other,CloseContact_Who_Other,0,No
+709575,GENSCOT,COVIDLIFE1,closecontact_who_other,CloseContact_Who_Other,1,Yes
+709576,GENSCOT,COVIDLIFE1,leavehome_frequency,How often are you leaving your home?,1,Less than once a week
+709577,GENSCOT,COVIDLIFE1,leavehome_frequency,How often are you leaving your home?,2,Once a week
+709578,GENSCOT,COVIDLIFE1,leavehome_frequency,How often are you leaving your home?,3,Few times a week
+709579,GENSCOT,COVIDLIFE1,leavehome_frequency,How often are you leaving your home?,4,Once a day
+709580,GENSCOT,COVIDLIFE1,leavehome_frequency,How often are you leaving your home?,5,Multiple times
+709581,GENSCOT,COVIDLIFE1,leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household?",1,don't leave home
+709582,GENSCOT,COVIDLIFE1,leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household?",1,very likely
+709583,GENSCOT,COVIDLIFE1,leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household?",2,not at all likely
+709584,GENSCOT,COVIDLIFE1,leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household?",2,somewhat likely
+709585,GENSCOT,COVIDLIFE1,leavehome_contact,"When leaving your home, how likely are you to come into close contact with someone not living in your household?",3,not that likely
+709586,GENSCOT,COVIDLIFE1,publichealth_threat,"On a scale of 1 (no threat at all) to 10 (very serious public health threat), how serious a public health threat do you think COVID-19 is or might become?",,"no threat(1) ,..., very serious threat(10)"
+709587,GENSCOT,COVIDLIFE1,covid_prepared,How prepared do you think you are for the widespread COVID-19 pandemic?,1,not at all
+709588,GENSCOT,COVIDLIFE1,covid_prepared,How prepared do you think you are for the widespread COVID-19 pandemic?,2,little prepared
+709589,GENSCOT,COVIDLIFE1,covid_prepared,How prepared do you think you are for the widespread COVID-19 pandemic?,3,somewhat prepared
+709590,GENSCOT,COVIDLIFE1,covid_prepared,How prepared do you think you are for the widespread COVID-19 pandemic?,4,very prepared
+709591,GENSCOT,COVIDLIFE1,covid_actions,My actions will influence whether or not I get COVID-19,,"do not agree at all(1) ,..., agree very strongly(10)"
+709592,GENSCOT,COVIDLIFE1,resp_govguidance,It is my responsibility to follow all Government guidance to prevent the spread of COVID-19 to others,,"do not agree at all(1) ,..., agree very strongly(10)"
+709593,GENSCOT,COVIDLIFE1,managehealth_covid,Managing my health has become more difficult during the COVID-19 pandemic,,"do not agree at all(1) ,..., agree very strongly(10)"
+709594,GENSCOT,COVIDLIFE1,managingmed_covid,Accessing and remembering to take my medications has become more difficult during the COVID-19 pandemic,,"do not agree at all(1) ,..., agree very strongly(10)"
+709595,GENSCOT,COVIDLIFE1,helpsupport_skip,I would prefer to skip this section ,1,Continue
+709596,GENSCOT,COVIDLIFE1,helpsupport_skip,I would prefer to skip this section ,2,Skip
+709597,GENSCOT,COVIDLIFE1,lonely_pastweek,How often have you felt lonely during the past week?  ,1,None or almost none of the time
+709598,GENSCOT,COVIDLIFE1,lonely_pastweek,How often have you felt lonely during the past week?  ,2,Some of the time
+709599,GENSCOT,COVIDLIFE1,lonely_pastweek,How often have you felt lonely during the past week?  ,3,Most of the time
+709600,GENSCOT,COVIDLIFE1,lonely_pastweek,How often have you felt lonely during the past week?  ,4,All or almost all of the time
+709601,GENSCOT,COVIDLIFE1,lonely_pastweek,How often have you felt lonely during the past week?  ,98,Prefer not to answer
+709602,GENSCOT,COVIDLIFE1,lonely_pastweek,How often have you felt lonely during the past week?  ,99,Don't know
+709603,GENSCOT,COVIDLIFE1,lonely_before,"Think back to before COVID-19 measures were introduced (i.e., January 2020), how often did you feel lonely then?",1,None or almost none of the time
+709604,GENSCOT,COVIDLIFE1,lonely_before,"Think back to before COVID-19 measures were introduced (i.e., January 2020), how often did you feel lonely then?",2,Some of the time
+709605,GENSCOT,COVIDLIFE1,lonely_before,"Think back to before COVID-19 measures were introduced (i.e., January 2020), how often did you feel lonely then?",3,Most of the time
+709606,GENSCOT,COVIDLIFE1,lonely_before,"Think back to before COVID-19 measures were introduced (i.e., January 2020), how often did you feel lonely then?",4,All or almost all of the time
+709607,GENSCOT,COVIDLIFE1,lonely_before,"Think back to before COVID-19 measures were introduced (i.e., January 2020), how often did you feel lonely then?",98,Prefer not to answer
+709608,GENSCOT,COVIDLIFE1,lonely_before,"Think back to before COVID-19 measures were introduced (i.e., January 2020), how often did you feel lonely then?",99,Don't know
+709609,GENSCOT,COVIDLIFE1,isolated_before,"Thinking back to before COVID-19 measures were introduced (i.e., January 2020), on a scale of 0 (not at all) to 10 (a lot), indicate how much you felt isolated from others",,"not at all(0) ,..., a lot(10)"
+709610,GENSCOT,COVIDLIFE1,isolated_covid,"On a scale of 0 (not at all) to 10 (a lot), indicate how much you think the COVID-19 measures have increased your feeling of isolation from others",,"not at all(0) ,..., a lot(10)"
+709611,GENSCOT,COVIDLIFE1,covid_help,"Is there someone who would give you any help at all if you got COVID-19, for example, your spouse or partner, a member of your family, or a friend?",0,No
+709612,GENSCOT,COVIDLIFE1,covid_help,"Is there someone who would give you any help at all if you got COVID-19, for example, your spouse or partner, a member of your family, or a friend?",1,Yes
+709613,GENSCOT,COVIDLIFE1,covid_help,"Is there someone who would give you any help at all if you got COVID-19, for example, your spouse or partner, a member of your family, or a friend?",98,Prefer not to answer
+709614,GENSCOT,COVIDLIFE1,spouse_close,How close is your relationship with your spouse?,1,Very close
+709615,GENSCOT,COVIDLIFE1,spouse_close,How close is your relationship with your spouse?,2,Quite close
+709616,GENSCOT,COVIDLIFE1,spouse_close,How close is your relationship with your spouse?,3,Not very close
+709617,GENSCOT,COVIDLIFE1,spouse_close,How close is your relationship with your spouse?,4,Not at all close
+709618,GENSCOT,COVIDLIFE1,mood_skip,I would prefer to skip this section,1,Continue
+709619,GENSCOT,COVIDLIFE1,mood_skip,I would prefer to skip this section,2,Skip
+709620,GENSCOT,COVIDLIFE1,gad_q1,GAD_Q1,1,Not at all
+709621,GENSCOT,COVIDLIFE1,gad_q1,GAD_Q1,2,Several days
+709622,GENSCOT,COVIDLIFE1,gad_q1,GAD_Q1,3,More than half the days
+709623,GENSCOT,COVIDLIFE1,gad_q1,GAD_Q1,4,Nearly every day
+709624,GENSCOT,COVIDLIFE1,gad_q1,GAD_Q1,98,Prefer not to answer
+709625,GENSCOT,COVIDLIFE1,gad_q1,GAD_Q1,99,Don't know
+709626,GENSCOT,COVIDLIFE1,gad_q2,GAD_Q2,1,Not at all
+709627,GENSCOT,COVIDLIFE1,gad_q2,GAD_Q2,2,Several days
+709628,GENSCOT,COVIDLIFE1,gad_q2,GAD_Q2,3,More than half the days
+709629,GENSCOT,COVIDLIFE1,gad_q2,GAD_Q2,4,Nearly every day
+709630,GENSCOT,COVIDLIFE1,gad_q2,GAD_Q2,98,Prefer not to answer
+709631,GENSCOT,COVIDLIFE1,gad_q2,GAD_Q2,99,Don't know
+709632,GENSCOT,COVIDLIFE1,gad_q3,GAD_Q3,1,Not at all
+709633,GENSCOT,COVIDLIFE1,gad_q3,GAD_Q3,2,Several days
+709634,GENSCOT,COVIDLIFE1,gad_q3,GAD_Q3,3,More than half the days
+709635,GENSCOT,COVIDLIFE1,gad_q3,GAD_Q3,4,Nearly every day
+709636,GENSCOT,COVIDLIFE1,gad_q3,GAD_Q3,98,Prefer not to answer
+709637,GENSCOT,COVIDLIFE1,gad_q3,GAD_Q3,99,Don't know
+709638,GENSCOT,COVIDLIFE1,gad_q4,GAD_Q4,1,Not at all
+709639,GENSCOT,COVIDLIFE1,gad_q4,GAD_Q4,2,Several days
+709640,GENSCOT,COVIDLIFE1,gad_q4,GAD_Q4,3,More than half the days
+709641,GENSCOT,COVIDLIFE1,gad_q4,GAD_Q4,4,Nearly every day
+709642,GENSCOT,COVIDLIFE1,gad_q4,GAD_Q4,98,Prefer not to answer
+709643,GENSCOT,COVIDLIFE1,gad_q4,GAD_Q4,99,Don't know
+709644,GENSCOT,COVIDLIFE1,gad_q5,GAD_Q5,1,Not at all
+709645,GENSCOT,COVIDLIFE1,gad_q5,GAD_Q5,2,Several days
+709646,GENSCOT,COVIDLIFE1,gad_q5,GAD_Q5,3,More than half the days
+709647,GENSCOT,COVIDLIFE1,gad_q5,GAD_Q5,4,Nearly every day
+709648,GENSCOT,COVIDLIFE1,gad_q5,GAD_Q5,98,Prefer not to answer
+709649,GENSCOT,COVIDLIFE1,gad_q5,GAD_Q5,99,Don't know
+709650,GENSCOT,COVIDLIFE1,gad_q6,GAD_Q6,1,Not at all
+709651,GENSCOT,COVIDLIFE1,gad_q6,GAD_Q6,2,Several days
+709652,GENSCOT,COVIDLIFE1,gad_q6,GAD_Q6,3,More than half the days
+709653,GENSCOT,COVIDLIFE1,gad_q6,GAD_Q6,4,Nearly every day
+709654,GENSCOT,COVIDLIFE1,gad_q6,GAD_Q6,98,Prefer not to answer
+709655,GENSCOT,COVIDLIFE1,gad_q6,GAD_Q6,99,Don't know
+709656,GENSCOT,COVIDLIFE1,gad_q7,GAD_Q7,1,Not at all
+709657,GENSCOT,COVIDLIFE1,gad_q7,GAD_Q7,2,Several days
+709658,GENSCOT,COVIDLIFE1,gad_q7,GAD_Q7,3,More than half the days
+709659,GENSCOT,COVIDLIFE1,gad_q7,GAD_Q7,4,Nearly every day
+709660,GENSCOT,COVIDLIFE1,gad_q7,GAD_Q7,98,Prefer not to answer
+709661,GENSCOT,COVIDLIFE1,gad_q7,GAD_Q7,99,Don't know
+709662,GENSCOT,COVIDLIFE1,phq_q1,PHQ_Q1,1,Not at all
+709663,GENSCOT,COVIDLIFE1,phq_q1,PHQ_Q1,2,Several days
+709664,GENSCOT,COVIDLIFE1,phq_q1,PHQ_Q1,3,More than half the days
+709665,GENSCOT,COVIDLIFE1,phq_q1,PHQ_Q1,4,Nearly every day
+709666,GENSCOT,COVIDLIFE1,phq_q1,PHQ_Q1,98,Prefer not to answer
+709667,GENSCOT,COVIDLIFE1,phq_q1,PHQ_Q1,99,Don't know
+709668,GENSCOT,COVIDLIFE1,phq_q2,PHQ_Q2,1,Not at all
+709669,GENSCOT,COVIDLIFE1,phq_q2,PHQ_Q2,2,Several days
+709670,GENSCOT,COVIDLIFE1,phq_q2,PHQ_Q2,3,More than half the days
+709671,GENSCOT,COVIDLIFE1,phq_q2,PHQ_Q2,4,Nearly every day
+709672,GENSCOT,COVIDLIFE1,phq_q2,PHQ_Q2,98,Prefer not to answer
+709673,GENSCOT,COVIDLIFE1,phq_q2,PHQ_Q2,99,Don't know
+709674,GENSCOT,COVIDLIFE1,phq_q3,PHQ_Q3,1,Not at all
+709675,GENSCOT,COVIDLIFE1,phq_q3,PHQ_Q3,2,Several days
+709676,GENSCOT,COVIDLIFE1,phq_q3,PHQ_Q3,3,More than half the days
+709677,GENSCOT,COVIDLIFE1,phq_q3,PHQ_Q3,4,Nearly every day
+709678,GENSCOT,COVIDLIFE1,phq_q3,PHQ_Q3,98,Prefer not to answer
+709679,GENSCOT,COVIDLIFE1,phq_q3,PHQ_Q3,99,Don't know
+709680,GENSCOT,COVIDLIFE1,phq_q4,PHQ_Q4,1,Not at all
+709681,GENSCOT,COVIDLIFE1,phq_q4,PHQ_Q4,2,Several days
+709682,GENSCOT,COVIDLIFE1,phq_q4,PHQ_Q4,3,More than half the days
+709683,GENSCOT,COVIDLIFE1,phq_q4,PHQ_Q4,4,Nearly every day
+709684,GENSCOT,COVIDLIFE1,phq_q4,PHQ_Q4,98,Prefer not to answer
+709685,GENSCOT,COVIDLIFE1,phq_q4,PHQ_Q4,99,Don't know
+709686,GENSCOT,COVIDLIFE1,phq_q5,PHQ_Q5,1,Not at all
+709687,GENSCOT,COVIDLIFE1,phq_q5,PHQ_Q5,2,Several days
+709688,GENSCOT,COVIDLIFE1,phq_q5,PHQ_Q5,3,More than half the days
+709689,GENSCOT,COVIDLIFE1,phq_q5,PHQ_Q5,4,Nearly every day
+709690,GENSCOT,COVIDLIFE1,phq_q5,PHQ_Q5,98,Prefer not to answer
+709691,GENSCOT,COVIDLIFE1,phq_q5,PHQ_Q5,99,Don't know
+709692,GENSCOT,COVIDLIFE1,phq_q6,PHQ_Q6,1,Not at all
+709693,GENSCOT,COVIDLIFE1,phq_q6,PHQ_Q6,2,Several days
+709694,GENSCOT,COVIDLIFE1,phq_q6,PHQ_Q6,3,More than half the days
+709695,GENSCOT,COVIDLIFE1,phq_q6,PHQ_Q6,4,Nearly every day
+709696,GENSCOT,COVIDLIFE1,phq_q6,PHQ_Q6,98,Prefer not to answer
+709697,GENSCOT,COVIDLIFE1,phq_q6,PHQ_Q6,99,Don't know
+709698,GENSCOT,COVIDLIFE1,phq_q7,PHQ_Q7,1,Not at all
+709699,GENSCOT,COVIDLIFE1,phq_q7,PHQ_Q7,2,Several days
+709700,GENSCOT,COVIDLIFE1,phq_q7,PHQ_Q7,3,More than half the days
+709701,GENSCOT,COVIDLIFE1,phq_q7,PHQ_Q7,4,Nearly every day
+709702,GENSCOT,COVIDLIFE1,phq_q7,PHQ_Q7,98,Prefer not to answer
+709703,GENSCOT,COVIDLIFE1,phq_q7,PHQ_Q7,99,Don't know
+709704,GENSCOT,COVIDLIFE1,phq_q8,PHQ_Q8,1,Not at all
+709705,GENSCOT,COVIDLIFE1,phq_q8,PHQ_Q8,2,Several days
+709706,GENSCOT,COVIDLIFE1,phq_q8,PHQ_Q8,3,More than half the days
+709707,GENSCOT,COVIDLIFE1,phq_q8,PHQ_Q8,4,Nearly every day
+709708,GENSCOT,COVIDLIFE1,phq_q8,PHQ_Q8,98,Prefer not to answer
+709709,GENSCOT,COVIDLIFE1,phq_q8,PHQ_Q8,99,Don't know
+709710,GENSCOT,COVIDLIFE1,phq_q9,PHQ_Q9,1,Not at all
+709711,GENSCOT,COVIDLIFE1,phq_q9,PHQ_Q9,2,Several days
+709712,GENSCOT,COVIDLIFE1,phq_q9,PHQ_Q9,3,More than half the days
+709713,GENSCOT,COVIDLIFE1,phq_q9,PHQ_Q9,4,Nearly every day
+709714,GENSCOT,COVIDLIFE1,phq_q9,PHQ_Q9,98,Prefer not to answer
+709715,GENSCOT,COVIDLIFE1,phq_q9,PHQ_Q9,99,Don't know
+709716,GENSCOT,COVIDLIFE1,stress_covid,"Over the past week, how often have you felt nervous or stressed because of COVID-19?",1,Never
+709717,GENSCOT,COVIDLIFE1,stress_covid,"Over the past week, how often have you felt nervous or stressed because of COVID-19?",2,Some of the time
+709718,GENSCOT,COVIDLIFE1,stress_covid,"Over the past week, how often have you felt nervous or stressed because of COVID-19?",3,Most of the time
+709719,GENSCOT,COVIDLIFE1,stress_covid,"Over the past week, how often have you felt nervous or stressed because of COVID-19?",4,All of the time
+709720,GENSCOT,COVIDLIFE1,mwbs_q1,MWBS_Q1,1,None of the time
+709721,GENSCOT,COVIDLIFE1,mwbs_q1,MWBS_Q1,2,Rarely
+709722,GENSCOT,COVIDLIFE1,mwbs_q1,MWBS_Q1,3,Some of the time
+709723,GENSCOT,COVIDLIFE1,mwbs_q1,MWBS_Q1,4,Often
+709724,GENSCOT,COVIDLIFE1,mwbs_q1,MWBS_Q1,5,All of the time
+709725,GENSCOT,COVIDLIFE1,mwbs_q2,MWBS_Q2,1,None of the time
+709726,GENSCOT,COVIDLIFE1,mwbs_q2,MWBS_Q2,2,Rarely
+709727,GENSCOT,COVIDLIFE1,mwbs_q2,MWBS_Q2,3,Some of the time
+709728,GENSCOT,COVIDLIFE1,mwbs_q2,MWBS_Q2,4,Often
+709729,GENSCOT,COVIDLIFE1,mwbs_q2,MWBS_Q2,5,All of the time
+709730,GENSCOT,COVIDLIFE1,mwbs_q3,MWBS_Q3,1,None of the time
+709731,GENSCOT,COVIDLIFE1,mwbs_q3,MWBS_Q3,2,Rarely
+709732,GENSCOT,COVIDLIFE1,mwbs_q3,MWBS_Q3,3,Some of the time
+709733,GENSCOT,COVIDLIFE1,mwbs_q3,MWBS_Q3,4,Often
+709734,GENSCOT,COVIDLIFE1,mwbs_q3,MWBS_Q3,5,All of the time
+709735,GENSCOT,COVIDLIFE1,mwbs_q4,MWBS_Q4,1,None of the time
+709736,GENSCOT,COVIDLIFE1,mwbs_q4,MWBS_Q4,2,Rarely
+709737,GENSCOT,COVIDLIFE1,mwbs_q4,MWBS_Q4,3,Some of the time
+709738,GENSCOT,COVIDLIFE1,mwbs_q4,MWBS_Q4,4,Often
+709739,GENSCOT,COVIDLIFE1,mwbs_q4,MWBS_Q4,5,All of the time
+709740,GENSCOT,COVIDLIFE1,mwbs_q5,MWBS_Q5,1,None of the time
+709741,GENSCOT,COVIDLIFE1,mwbs_q5,MWBS_Q5,2,Rarely
+709742,GENSCOT,COVIDLIFE1,mwbs_q5,MWBS_Q5,3,Some of the time
+709743,GENSCOT,COVIDLIFE1,mwbs_q5,MWBS_Q5,4,Often
+709744,GENSCOT,COVIDLIFE1,mwbs_q5,MWBS_Q5,5,All of the time
+709745,GENSCOT,COVIDLIFE1,mwbs_q6,MWBS_Q6,1,None of the time
+709746,GENSCOT,COVIDLIFE1,mwbs_q6,MWBS_Q6,2,Rarely
+709747,GENSCOT,COVIDLIFE1,mwbs_q6,MWBS_Q6,3,Some of the time
+709748,GENSCOT,COVIDLIFE1,mwbs_q6,MWBS_Q6,4,Often
+709749,GENSCOT,COVIDLIFE1,mwbs_q6,MWBS_Q6,5,All of the time
+709750,GENSCOT,COVIDLIFE1,mwbs_q7,MWBS_Q7,1,None of the time
+709751,GENSCOT,COVIDLIFE1,mwbs_q7,MWBS_Q7,2,Rarely
+709752,GENSCOT,COVIDLIFE1,mwbs_q7,MWBS_Q7,3,Some of the time
+709753,GENSCOT,COVIDLIFE1,mwbs_q7,MWBS_Q7,4,Often
+709754,GENSCOT,COVIDLIFE1,mwbs_q7,MWBS_Q7,5,All of the time
+709755,GENSCOT,COVIDLIFE1,lifesatisfaction_now,"On a scale of 0 (not at all) to 10 (extremely), how satisfied are you with your life nowadays",,"not at all(0) ,..., extremely(10)"
+709756,GENSCOT,COVIDLIFE1,lifesatisfaction_before,"Thinking back to just before the COVID-19 measures were introduced (e.g., January 2020), how satisfied were you with your life then?",,"not at all(0) ,..., extremely(10)"
+709757,GENSCOT,COVIDLIFE1,negaffect_socialdist,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709758,GENSCOT,COVIDLIFE1,negaffect_selfisolation,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709759,GENSCOT,COVIDLIFE1,negaffect_stayinghome,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709760,GENSCOT,COVIDLIFE1,negaffect_localtravel,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709761,GENSCOT,COVIDLIFE1,negaffect_widertravel,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709762,GENSCOT,COVIDLIFE1,negaffect_workrestrict,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709763,GENSCOT,COVIDLIFE1,negaffect_workhome,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709764,GENSCOT,COVIDLIFE1,negaffect_gpaccess,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709765,GENSCOT,COVIDLIFE1,negaffect_schoolclose,negatively affected you and other members of your household,,Negatively affected - 1 not at all…5 a lot
+709766,GENSCOT,COVIDLIFE1,worry_physicalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709767,GENSCOT,COVIDLIFE1,worry_physicalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709768,GENSCOT,COVIDLIFE1,worry_physicalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709769,GENSCOT,COVIDLIFE1,worry_physicalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709770,GENSCOT,COVIDLIFE1,worry_physicalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709771,GENSCOT,COVIDLIFE1,worry_physicalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709772,GENSCOT,COVIDLIFE1,worry_physicalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709773,GENSCOT,COVIDLIFE1,worry_physicalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709774,GENSCOT,COVIDLIFE1,worry_physicalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709775,GENSCOT,COVIDLIFE1,worry_physicalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709776,GENSCOT,COVIDLIFE1,worry_physicalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709777,GENSCOT,COVIDLIFE1,worry_physicalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709778,GENSCOT,COVIDLIFE1,worry_mentalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709779,GENSCOT,COVIDLIFE1,worry_mentalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709780,GENSCOT,COVIDLIFE1,worry_mentalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709781,GENSCOT,COVIDLIFE1,worry_mentalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709782,GENSCOT,COVIDLIFE1,worry_mentalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709783,GENSCOT,COVIDLIFE1,worry_mentalhealthyou,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709784,GENSCOT,COVIDLIFE1,worry_mentalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709785,GENSCOT,COVIDLIFE1,worry_mentalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709786,GENSCOT,COVIDLIFE1,worry_mentalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709787,GENSCOT,COVIDLIFE1,worry_mentalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709788,GENSCOT,COVIDLIFE1,worry_mentalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709789,GENSCOT,COVIDLIFE1,worry_mentalhealthhouse,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709790,GENSCOT,COVIDLIFE1,worry_losingyourjob,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709791,GENSCOT,COVIDLIFE1,worry_losingyourjob,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709792,GENSCOT,COVIDLIFE1,worry_losingyourjob,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709793,GENSCOT,COVIDLIFE1,worry_losingyourjob,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709794,GENSCOT,COVIDLIFE1,worry_losingyourjob,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709795,GENSCOT,COVIDLIFE1,worry_losingyourjob,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709796,GENSCOT,COVIDLIFE1,worry_losingjobothers,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709797,GENSCOT,COVIDLIFE1,worry_losingjobothers,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709798,GENSCOT,COVIDLIFE1,worry_losingjobothers,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709799,GENSCOT,COVIDLIFE1,worry_losingjobothers,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709800,GENSCOT,COVIDLIFE1,worry_losingjobothers,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709801,GENSCOT,COVIDLIFE1,worry_losingjobothers,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709802,GENSCOT,COVIDLIFE1,worry_finances,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709803,GENSCOT,COVIDLIFE1,worry_finances,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709804,GENSCOT,COVIDLIFE1,worry_finances,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709805,GENSCOT,COVIDLIFE1,worry_finances,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709806,GENSCOT,COVIDLIFE1,worry_finances,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709807,GENSCOT,COVIDLIFE1,worry_finances,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709808,GENSCOT,COVIDLIFE1,worry_mortgagerent,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709809,GENSCOT,COVIDLIFE1,worry_mortgagerent,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709810,GENSCOT,COVIDLIFE1,worry_mortgagerent,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709811,GENSCOT,COVIDLIFE1,worry_mortgagerent,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709812,GENSCOT,COVIDLIFE1,worry_mortgagerent,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709813,GENSCOT,COVIDLIFE1,worry_mortgagerent,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709814,GENSCOT,COVIDLIFE1,worry_youreducation,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709815,GENSCOT,COVIDLIFE1,worry_youreducation,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709816,GENSCOT,COVIDLIFE1,worry_youreducation,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709817,GENSCOT,COVIDLIFE1,worry_youreducation,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709818,GENSCOT,COVIDLIFE1,worry_youreducation,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709819,GENSCOT,COVIDLIFE1,worry_youreducation,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709820,GENSCOT,COVIDLIFE1,worry_childeducation,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709821,GENSCOT,COVIDLIFE1,worry_childeducation,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709822,GENSCOT,COVIDLIFE1,worry_childeducation,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709823,GENSCOT,COVIDLIFE1,worry_childeducation,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709824,GENSCOT,COVIDLIFE1,worry_childeducation,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709825,GENSCOT,COVIDLIFE1,worry_childeducation,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709826,GENSCOT,COVIDLIFE1,worry_gpaccess,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709827,GENSCOT,COVIDLIFE1,worry_gpaccess,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709828,GENSCOT,COVIDLIFE1,worry_gpaccess,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709829,GENSCOT,COVIDLIFE1,worry_gpaccess,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709830,GENSCOT,COVIDLIFE1,worry_gpaccess,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709831,GENSCOT,COVIDLIFE1,worry_gpaccess,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709832,GENSCOT,COVIDLIFE1,worry_socialcareaccess,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709833,GENSCOT,COVIDLIFE1,worry_socialcareaccess,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709834,GENSCOT,COVIDLIFE1,worry_socialcareaccess,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709835,GENSCOT,COVIDLIFE1,worry_socialcareaccess,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709836,GENSCOT,COVIDLIFE1,worry_socialcareaccess,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709837,GENSCOT,COVIDLIFE1,worry_socialcareaccess,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709838,GENSCOT,COVIDLIFE1,worry_medsaccess,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709839,GENSCOT,COVIDLIFE1,worry_medsaccess,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709840,GENSCOT,COVIDLIFE1,worry_medsaccess,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709841,GENSCOT,COVIDLIFE1,worry_medsaccess,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709842,GENSCOT,COVIDLIFE1,worry_medsaccess,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709843,GENSCOT,COVIDLIFE1,worry_medsaccess,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709844,GENSCOT,COVIDLIFE1,worry_foodaccess,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709845,GENSCOT,COVIDLIFE1,worry_foodaccess,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709846,GENSCOT,COVIDLIFE1,worry_foodaccess,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709847,GENSCOT,COVIDLIFE1,worry_foodaccess,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709848,GENSCOT,COVIDLIFE1,worry_foodaccess,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709849,GENSCOT,COVIDLIFE1,worry_foodaccess,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709850,GENSCOT,COVIDLIFE1,worry_spouserelation,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709851,GENSCOT,COVIDLIFE1,worry_spouserelation,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709852,GENSCOT,COVIDLIFE1,worry_spouserelation,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709853,GENSCOT,COVIDLIFE1,worry_spouserelation,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709854,GENSCOT,COVIDLIFE1,worry_spouserelation,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709855,GENSCOT,COVIDLIFE1,worry_spouserelation,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709856,GENSCOT,COVIDLIFE1,worry_spouseargue,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709857,GENSCOT,COVIDLIFE1,worry_spouseargue,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709858,GENSCOT,COVIDLIFE1,worry_spouseargue,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709859,GENSCOT,COVIDLIFE1,worry_spouseargue,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709860,GENSCOT,COVIDLIFE1,worry_spouseargue,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709861,GENSCOT,COVIDLIFE1,worry_spouseargue,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709862,GENSCOT,COVIDLIFE1,worry_childrelation,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709863,GENSCOT,COVIDLIFE1,worry_childrelation,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709864,GENSCOT,COVIDLIFE1,worry_childrelation,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709865,GENSCOT,COVIDLIFE1,worry_childrelation,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709866,GENSCOT,COVIDLIFE1,worry_childrelation,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709867,GENSCOT,COVIDLIFE1,worry_childrelation,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709868,GENSCOT,COVIDLIFE1,worry_seefamily,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709869,GENSCOT,COVIDLIFE1,worry_seefamily,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709870,GENSCOT,COVIDLIFE1,worry_seefamily,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709871,GENSCOT,COVIDLIFE1,worry_seefamily,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709872,GENSCOT,COVIDLIFE1,worry_seefamily,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709873,GENSCOT,COVIDLIFE1,worry_seefamily,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709874,GENSCOT,COVIDLIFE1,worry_seefriends,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709875,GENSCOT,COVIDLIFE1,worry_seefriends,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709876,GENSCOT,COVIDLIFE1,worry_seefriends,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709877,GENSCOT,COVIDLIFE1,worry_seefriends,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709878,GENSCOT,COVIDLIFE1,worry_seefriends,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709879,GENSCOT,COVIDLIFE1,worry_seefriends,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709880,GENSCOT,COVIDLIFE1,worry_lifeplans,"Since the COVID-19 measures were introduced, are you been worried about:",1,Not at all worried
+709881,GENSCOT,COVIDLIFE1,worry_lifeplans,"Since the COVID-19 measures were introduced, are you been worried about:",2,Slightly worried
+709882,GENSCOT,COVIDLIFE1,worry_lifeplans,"Since the COVID-19 measures were introduced, are you been worried about:",3,Moderately worried
+709883,GENSCOT,COVIDLIFE1,worry_lifeplans,"Since the COVID-19 measures were introduced, are you been worried about:",4,Very worried
+709884,GENSCOT,COVIDLIFE1,worry_lifeplans,"Since the COVID-19 measures were introduced, are you been worried about:",5,Extremely worried
+709885,GENSCOT,COVIDLIFE1,worry_lifeplans,"Since the COVID-19 measures were introduced, are you been worried about:",97,Not applicable
+709886,GENSCOT,COVIDLIFE1,smoke,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",1,more now
+709887,GENSCOT,COVIDLIFE1,smoke,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",2,same
+709888,GENSCOT,COVIDLIFE1,smoke,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",3,less now
+709889,GENSCOT,COVIDLIFE1,smoke,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",4,ex smoker
+709890,GENSCOT,COVIDLIFE1,smoke,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",5,never smoked
+709891,GENSCOT,COVIDLIFE1,vape,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",1,more now
+709892,GENSCOT,COVIDLIFE1,vape,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",2,same
+709893,GENSCOT,COVIDLIFE1,vape,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",3,less now
+709894,GENSCOT,COVIDLIFE1,vape,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",4,not vaped
+709895,GENSCOT,COVIDLIFE1,alcohol,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",3,less now
+709896,GENSCOT,COVIDLIFE1,alcohol,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",4,don't drink
+709897,GENSCOT,COVIDLIFE1,alcohol,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",1,more now
+709898,GENSCOT,COVIDLIFE1,alcohol,"Compared to before COVID-19 measures were introduced (i.e., January 2020), are you:",2,same
+709899,GENSCOT,COVIDLIFE1,vigorous_last7days,How many days did you do vigorous physical activity for at least 10 minutes at a time:,,Days of vigorous exercise in last 7 days
+709900,GENSCOT,COVIDLIFE1,vigorous_typicalweek,How many days did you do vigorous physical activity for at least 10 minutes at a time in a typical week before C19 measures were introduced (Jan 2020),,Days of vigorous exercise in typical week
+709901,GENSCOT,COVIDLIFE1,moderate_last7days,"Moderate physical activity is activity that makes you breath somewhat harder than normal, e.g., brisk walking, or cycling at a regular pace.",,Days of moderate exercise in last 7 days
+709902,GENSCOT,COVIDLIFE1,moderate_typicalweek,"How many days did you do Moderate physical activity is activity that makes you breath somewhat harder than normal, in a typical week before C19 measures were introduced (Jan 2020)",,Days of moderate exercise in typical week
+709903,GENSCOT,COVIDLIFE1,diet,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is your diet :",1,much healthier now
+709904,GENSCOT,COVIDLIFE1,diet,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is your diet :",2,slightl healthier
+709905,GENSCOT,COVIDLIFE1,diet,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is your diet :",3,same
+709906,GENSCOT,COVIDLIFE1,diet,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is your diet :",4,slightly less
+709907,GENSCOT,COVIDLIFE1,diet,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is your diet :",5,much less healthy
+709908,GENSCOT,COVIDLIFE1,sleep_last7days,What was the average number of hours you slept per day in the last 7 days? ,,Average hours slept [0-24]
+709909,GENSCOT,COVIDLIFE1,sleep_before,"What was the average number of hours you slept per day in a typical week before COVID-19 measures were introduced (i.e., January 2020)? ",,Average hours slept [0-24]
+709910,GENSCOT,COVIDLIFE1,sleep_quality,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is the quality of your sleep:",1,much better now
+709911,GENSCOT,COVIDLIFE1,sleep_quality,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is the quality of your sleep:",2,somewhat better
+709912,GENSCOT,COVIDLIFE1,sleep_quality,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is the quality of your sleep:",3,same
+709913,GENSCOT,COVIDLIFE1,sleep_quality,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is the quality of your sleep:",4,somewhat worse
+709914,GENSCOT,COVIDLIFE1,sleep_quality,"Compared to before COVID-19 measures were introduced (i.e., January 2020), is the quality of your sleep:",5,much worse
+709915,GENSCOT,COVIDLIFE1,guidance_socialdist,Have you been following the government guidance on:,1,never
+709916,GENSCOT,COVIDLIFE1,guidance_socialdist,Have you been following the government guidance on:,2,some of the time
+709917,GENSCOT,COVIDLIFE1,guidance_socialdist,Have you been following the government guidance on:,3,most of the time
+709918,GENSCOT,COVIDLIFE1,guidance_socialdist,Have you been following the government guidance on:,4,always
+709919,GENSCOT,COVIDLIFE1,guidance_stayhome,Have you been following the government guidance on:,1,never
+709920,GENSCOT,COVIDLIFE1,guidance_stayhome,Have you been following the government guidance on:,2,some of the time
+709921,GENSCOT,COVIDLIFE1,guidance_stayhome,Have you been following the government guidance on:,3,most of the time
+709922,GENSCOT,COVIDLIFE1,guidance_stayhome,Have you been following the government guidance on:,4,always
+709923,GENSCOT,COVIDLIFE1,guidance_selfisolating,Have you been following the government guidance on:,1,never
+709924,GENSCOT,COVIDLIFE1,guidance_selfisolating,Have you been following the government guidance on:,2,some of the time
+709925,GENSCOT,COVIDLIFE1,guidance_selfisolating,Have you been following the government guidance on:,3,most of the time
+709926,GENSCOT,COVIDLIFE1,guidance_selfisolating,Have you been following the government guidance on:,4,always
+709927,GENSCOT,COVIDLIFE1,guidance_handwashing,Have you been following the government guidance on:,1,never
+709928,GENSCOT,COVIDLIFE1,guidance_handwashing,Have you been following the government guidance on:,2,some of the time
+709929,GENSCOT,COVIDLIFE1,guidance_handwashing,Have you been following the government guidance on:,3,most of the time
+709930,GENSCOT,COVIDLIFE1,guidance_handwashing,Have you been following the government guidance on:,4,always
+709931,GENSCOT,COVIDLIFE1,ext_q1,factor,1,Very inaccurate
+709932,GENSCOT,COVIDLIFE1,ext_q1,factor,2,Moderately inaccurate
+709933,GENSCOT,COVIDLIFE1,ext_q1,factor,3,Neither inaccurate nor accurate
+709934,GENSCOT,COVIDLIFE1,ext_q1,factor,4,Moderately accurate
+709935,GENSCOT,COVIDLIFE1,ext_q1,factor,5,Very accurate
+709936,GENSCOT,COVIDLIFE1,con_q1,factor,1,Very accurate
+709937,GENSCOT,COVIDLIFE1,con_q1,factor,2,Moderately accurate
+709938,GENSCOT,COVIDLIFE1,con_q1,factor,3,Neither inaccurate nor accurate
+709939,GENSCOT,COVIDLIFE1,con_q1,factor,4,Moderately inaccurate
+709940,GENSCOT,COVIDLIFE1,con_q1,factor,5,Very inaccurate
+709941,GENSCOT,COVIDLIFE1,ems_q1,factor,1,Very inaccurate
+709942,GENSCOT,COVIDLIFE1,ems_q1,factor,2,Moderately inaccurate
+709943,GENSCOT,COVIDLIFE1,ems_q1,factor,3,Neither inaccurate nor accurate
+709944,GENSCOT,COVIDLIFE1,ems_q1,factor,4,Moderately accurate
+709945,GENSCOT,COVIDLIFE1,ems_q1,factor,5,Very accurate
+709946,GENSCOT,COVIDLIFE1,ext_q2,numeric,1,Very accurate
+709947,GENSCOT,COVIDLIFE1,ext_q2,numeric,2,Moderately accurate
+709948,GENSCOT,COVIDLIFE1,ext_q2,numeric,3,Neither inaccurate nor accurate
+709949,GENSCOT,COVIDLIFE1,ext_q2,numeric,4,Moderately inaccurate
+709950,GENSCOT,COVIDLIFE1,ext_q2,numeric,5,Very inaccurate
+709951,GENSCOT,COVIDLIFE1,con_q2,numeric,1,Very inaccurate
+709952,GENSCOT,COVIDLIFE1,con_q2,numeric,2,Moderately inaccurate
+709953,GENSCOT,COVIDLIFE1,con_q2,numeric,3,Neither inaccurate nor accurate
+709954,GENSCOT,COVIDLIFE1,con_q2,numeric,4,Moderately accurate
+709955,GENSCOT,COVIDLIFE1,con_q2,numeric,5,Very accurate
+709956,GENSCOT,COVIDLIFE1,ems_q2,numeric,1,Very accurate
+709957,GENSCOT,COVIDLIFE1,ems_q2,numeric,2,Moderately accurate
+709958,GENSCOT,COVIDLIFE1,ems_q2,numeric,3,Neither inaccurate nor accurate
+709959,GENSCOT,COVIDLIFE1,ems_q2,numeric,4,Moderately inaccurate
+709960,GENSCOT,COVIDLIFE1,ems_q2,numeric,5,Very inaccurate
+709961,GENSCOT,COVIDLIFE1,ext_q3,numeric,1,Very inaccurate
+709962,GENSCOT,COVIDLIFE1,ext_q3,numeric,2,Moderately inaccurate
+709963,GENSCOT,COVIDLIFE1,ext_q3,numeric,3,Neither inaccurate nor accurate
+709964,GENSCOT,COVIDLIFE1,ext_q3,numeric,4,Moderately accurate
+709965,GENSCOT,COVIDLIFE1,ext_q3,numeric,5,Very accurate
+709966,GENSCOT,COVIDLIFE1,con_q3,factor,3,Neither inaccurate nor accurate
+709967,GENSCOT,COVIDLIFE1,con_q3,factor,4,Moderately inaccurate
+709968,GENSCOT,COVIDLIFE1,con_q3,factor,5,Very inaccurate
+709969,GENSCOT,COVIDLIFE1,con_q3,factor,1,Very accurate
+709970,GENSCOT,COVIDLIFE1,con_q3,factor,2,Moderately accurate
+709971,GENSCOT,COVIDLIFE1,ems_q3,numeric,1,Very inaccurate
+709972,GENSCOT,COVIDLIFE1,ems_q3,numeric,2,Moderately inaccurate
+709973,GENSCOT,COVIDLIFE1,ems_q3,numeric,3,Neither inaccurate nor accurate
+709974,GENSCOT,COVIDLIFE1,ems_q3,numeric,4,Moderately accurate
+709975,GENSCOT,COVIDLIFE1,ems_q3,numeric,5,Very accurate
+709976,GENSCOT,COVIDLIFE1,ext_q4,numeric,1,Very accurate
+709977,GENSCOT,COVIDLIFE1,ext_q4,numeric,2,Moderately accurate
+709978,GENSCOT,COVIDLIFE1,ext_q4,numeric,3,Neither inaccurate nor accurate
+709979,GENSCOT,COVIDLIFE1,ext_q4,numeric,4,Moderately inaccurate
+709980,GENSCOT,COVIDLIFE1,ext_q4,numeric,5,Very inaccurate
+709981,GENSCOT,COVIDLIFE1,con_q4,factor,1,Very inaccurate
+709982,GENSCOT,COVIDLIFE1,con_q4,factor,2,Moderately inaccurate
+709983,GENSCOT,COVIDLIFE1,con_q4,factor,3,Neither inaccurate nor accurate
+709984,GENSCOT,COVIDLIFE1,con_q4,factor,4,Moderately accurate
+709985,GENSCOT,COVIDLIFE1,con_q4,factor,5,Very accurate
+709986,GENSCOT,COVIDLIFE1,ems_q4,factor,1,Very accurate
+709987,GENSCOT,COVIDLIFE1,ems_q4,factor,2,Moderately accurate
+709988,GENSCOT,COVIDLIFE1,ems_q4,factor,3,Neither inaccurate nor accurate
+709989,GENSCOT,COVIDLIFE1,ems_q4,factor,4,Moderately inaccurate
+709990,GENSCOT,COVIDLIFE1,ems_q4,factor,5,Very inaccurate
+709991,GENSCOT,COVIDLIFE1,ext_q5,factor,1,Very inaccurate
+709992,GENSCOT,COVIDLIFE1,ext_q5,factor,2,Moderately inaccurate
+709993,GENSCOT,COVIDLIFE1,ext_q5,factor,3,Neither inaccurate nor accurate
+709994,GENSCOT,COVIDLIFE1,ext_q5,factor,4,Moderately accurate
+709995,GENSCOT,COVIDLIFE1,ext_q5,factor,5,Very accurate
+709996,GENSCOT,COVIDLIFE1,con_q5,factor,1,Very accurate
+709997,GENSCOT,COVIDLIFE1,con_q5,factor,2,Moderately accurate
+709998,GENSCOT,COVIDLIFE1,con_q5,factor,3,Neither inaccurate nor accurate
+709999,GENSCOT,COVIDLIFE1,con_q5,factor,4,Moderately inaccurate
+710000,GENSCOT,COVIDLIFE1,con_q5,factor,5,Very inaccurate
+710001,GENSCOT,COVIDLIFE1,ems_q5,factor,1,Very inaccurate
+710002,GENSCOT,COVIDLIFE1,ems_q5,factor,2,Moderately inaccurate
+710003,GENSCOT,COVIDLIFE1,ems_q5,factor,3,Neither inaccurate nor accurate
+710004,GENSCOT,COVIDLIFE1,ems_q5,factor,4,Moderately accurate
+710005,GENSCOT,COVIDLIFE1,ems_q5,factor,5,Very accurate
+710006,GENSCOT,COVIDLIFE1,ext_q6,factor,1,Very accurate
+710007,GENSCOT,COVIDLIFE1,ext_q6,factor,2,Moderately accurate
+710008,GENSCOT,COVIDLIFE1,ext_q6,factor,3,Neither inaccurate nor accurate
+710009,GENSCOT,COVIDLIFE1,ext_q6,factor,4,Moderately inaccurate
+710010,GENSCOT,COVIDLIFE1,ext_q6,factor,5,Very inaccurate
+710011,GENSCOT,COVIDLIFE1,con_q6,factor,1,Very inaccurate
+710012,GENSCOT,COVIDLIFE1,con_q6,factor,2,Moderately inaccurate
+710013,GENSCOT,COVIDLIFE1,con_q6,factor,3,Neither inaccurate nor accurate
+710014,GENSCOT,COVIDLIFE1,con_q6,factor,4,Moderately accurate
+710015,GENSCOT,COVIDLIFE1,con_q6,factor,5,Very accurate
+710016,GENSCOT,COVIDLIFE1,ems_q6,factor,1,Very accurate
+710017,GENSCOT,COVIDLIFE1,ems_q6,factor,2,Moderately accurate
+710018,GENSCOT,COVIDLIFE1,ems_q6,factor,3,Neither inaccurate nor accurate
+710019,GENSCOT,COVIDLIFE1,ems_q6,factor,4,Moderately inaccurate
+710020,GENSCOT,COVIDLIFE1,ems_q6,factor,5,Very inaccurate
+710021,GENSCOT,COVIDLIFE1,ext_q7,factor,1,Very inaccurate
+710022,GENSCOT,COVIDLIFE1,ext_q7,factor,2,Moderately inaccurate
+710023,GENSCOT,COVIDLIFE1,ext_q7,factor,3,Neither inaccurate nor accurate
+710024,GENSCOT,COVIDLIFE1,ext_q7,factor,4,Moderately accurate
+710025,GENSCOT,COVIDLIFE1,ext_q7,factor,5,Very accurate
+710026,GENSCOT,COVIDLIFE1,con_q7,factor,1,Very inaccurate
+710027,GENSCOT,COVIDLIFE1,con_q7,factor,2,Moderately inaccurate
+710028,GENSCOT,COVIDLIFE1,con_q7,factor,3,Neither inaccurate nor accurate
+710029,GENSCOT,COVIDLIFE1,con_q7,factor,4,Moderately accurate
+710030,GENSCOT,COVIDLIFE1,con_q7,factor,5,Very accurate
+710031,GENSCOT,COVIDLIFE1,ems_q7,factor,1,Very accurate
+710032,GENSCOT,COVIDLIFE1,ems_q7,factor,2,Moderately accurate
+710033,GENSCOT,COVIDLIFE1,ems_q7,factor,3,Neither inaccurate nor accurate
+710034,GENSCOT,COVIDLIFE1,ems_q7,factor,4,Moderately inaccurate
+710035,GENSCOT,COVIDLIFE1,ems_q7,factor,5,Very inaccurate
+710036,GENSCOT,COVIDLIFE1,ext_q8,factor,1,Very inaccurate
+710037,GENSCOT,COVIDLIFE1,ext_q8,factor,2,Moderately inaccurate
+710038,GENSCOT,COVIDLIFE1,ext_q8,factor,3,Neither inaccurate nor accurate
+710039,GENSCOT,COVIDLIFE1,ext_q8,factor,4,Moderately accurate
+710040,GENSCOT,COVIDLIFE1,ext_q8,factor,5,Very accurate
+710041,GENSCOT,COVIDLIFE1,con_q8,factor,1,Very accurate
+710042,GENSCOT,COVIDLIFE1,con_q8,factor,2,Moderately accurate
+710043,GENSCOT,COVIDLIFE1,con_q8,factor,3,Neither inaccurate nor accurate
+710044,GENSCOT,COVIDLIFE1,con_q8,factor,4,Moderately inaccurate
+710045,GENSCOT,COVIDLIFE1,con_q8,factor,5,Very inaccurate
+710046,GENSCOT,COVIDLIFE1,ems_q8,factor,1,Very inaccurate
+710047,GENSCOT,COVIDLIFE1,ems_q8,factor,2,Moderately inaccurate
+710048,GENSCOT,COVIDLIFE1,ems_q8,factor,3,Neither inaccurate nor accurate
+710049,GENSCOT,COVIDLIFE1,ems_q8,factor,4,Moderately accurate
+710050,GENSCOT,COVIDLIFE1,ems_q8,factor,5,Very accurate
+710051,GENSCOT,COVIDLIFE1,ext_q9,factor,1,Very accurate
+710052,GENSCOT,COVIDLIFE1,ext_q9,factor,2,Moderately accurate
+710053,GENSCOT,COVIDLIFE1,ext_q9,factor,3,Neither inaccurate nor accurate
+710054,GENSCOT,COVIDLIFE1,ext_q9,factor,4,Moderately inaccurate
+710055,GENSCOT,COVIDLIFE1,ext_q9,factor,5,Very inaccurate
+710056,GENSCOT,COVIDLIFE1,con_q9,factor,1,Very accurate
+710057,GENSCOT,COVIDLIFE1,con_q9,factor,2,Moderately accurate
+710058,GENSCOT,COVIDLIFE1,con_q9,factor,3,Neither inaccurate nor accurate
+710059,GENSCOT,COVIDLIFE1,con_q9,factor,4,Moderately inaccurate
+710060,GENSCOT,COVIDLIFE1,con_q9,factor,5,Very inaccurate
+710061,GENSCOT,COVIDLIFE1,ems_q9,factor,1,Very accurate
+710062,GENSCOT,COVIDLIFE1,ems_q9,factor,2,Moderately accurate
+710063,GENSCOT,COVIDLIFE1,ems_q9,factor,3,Neither inaccurate nor accurate
+710064,GENSCOT,COVIDLIFE1,ems_q9,factor,4,Moderately inaccurate
+710065,GENSCOT,COVIDLIFE1,ems_q9,factor,5,Very inaccurate
+710066,GENSCOT,COVIDLIFE1,ext_q10,factor,1,Very accurate
+710067,GENSCOT,COVIDLIFE1,ext_q10,factor,2,Moderately accurate
+710068,GENSCOT,COVIDLIFE1,ext_q10,factor,3,Neither inaccurate nor accurate
+710069,GENSCOT,COVIDLIFE1,ext_q10,factor,4,Moderately inaccurate
+710070,GENSCOT,COVIDLIFE1,ext_q10,factor,5,Very inaccurate
+710071,GENSCOT,COVIDLIFE1,con_q10,factor,1,Very accurate
+710072,GENSCOT,COVIDLIFE1,con_q10,factor,2,Moderately accurate
+710073,GENSCOT,COVIDLIFE1,con_q10,factor,3,Neither inaccurate nor accurate
+710074,GENSCOT,COVIDLIFE1,con_q10,factor,4,Moderately inaccurate
+710075,GENSCOT,COVIDLIFE1,con_q10,factor,5,Very inaccurate
+710076,GENSCOT,COVIDLIFE1,ems_q10,factor,1,Very accurate
+710077,GENSCOT,COVIDLIFE1,ems_q10,factor,2,Moderately accurate
+710078,GENSCOT,COVIDLIFE1,ems_q10,factor,3,Neither inaccurate nor accurate
+710079,GENSCOT,COVIDLIFE1,ems_q10,factor,4,Moderately inaccurate
+710080,GENSCOT,COVIDLIFE1,ems_q10,factor,5,Very inaccurate
+710081,GENSCOT,COVIDLIFE1,healthlit_q1,I can find health information when I need it,1,Never
+710082,GENSCOT,COVIDLIFE1,healthlit_q1,I can find health information when I need it,2,Rarely
+710083,GENSCOT,COVIDLIFE1,healthlit_q1,I can find health information when I need it,3,Sometimes
+710084,GENSCOT,COVIDLIFE1,healthlit_q1,I can find health information when I need it,4,Often
+710085,GENSCOT,COVIDLIFE1,healthlit_q2,I can seek out any health services that I might need,1,Never
+710086,GENSCOT,COVIDLIFE1,healthlit_q2,I can seek out any health services that I might need,2,Rarely
+710087,GENSCOT,COVIDLIFE1,healthlit_q2,I can seek out any health services that I might need,3,Sometimes
+710088,GENSCOT,COVIDLIFE1,healthlit_q2,I can seek out any health services that I might need,4,Often
+710089,GENSCOT,COVIDLIFE1,healthlit_q3,I can complete any health forms on my own,1,Never
+710090,GENSCOT,COVIDLIFE1,healthlit_q3,I can complete any health forms on my own,2,Rarely
+710091,GENSCOT,COVIDLIFE1,healthlit_q3,I can complete any health forms on my own,3,Sometimes
+710092,GENSCOT,COVIDLIFE1,healthlit_q3,I can complete any health forms on my own,4,Often
+710093,GENSCOT,COVIDLIFE1,healthlit_q4,I can accurately describe symptoms I may have to my doctor,1,Never
+710094,GENSCOT,COVIDLIFE1,healthlit_q4,I can accurately describe symptoms I may have to my doctor,2,Rarely
+710095,GENSCOT,COVIDLIFE1,healthlit_q4,I can accurately describe symptoms I may have to my doctor,3,Sometimes
+710096,GENSCOT,COVIDLIFE1,healthlit_q4,I can accurately describe symptoms I may have to my doctor,4,Often
+710097,GENSCOT,COVIDLIFE1,healthlit_q5,I can understand medical instructions,1,Never
+710098,GENSCOT,COVIDLIFE1,healthlit_q5,I can understand medical instructions,2,Rarely
+710099,GENSCOT,COVIDLIFE1,healthlit_q5,I can understand medical instructions,3,Sometimes
+710100,GENSCOT,COVIDLIFE1,healthlit_q5,I can understand medical instructions,4,Often
+710101,GENSCOT,COVIDLIFE1,heathlit_q6,I can remember what my doctor says,1,Never
+710102,GENSCOT,COVIDLIFE1,heathlit_q6,I can remember what my doctor says,2,Rarely
+710103,GENSCOT,COVIDLIFE1,heathlit_q6,I can remember what my doctor says,3,Sometimes
+710104,GENSCOT,COVIDLIFE1,heathlit_q6,I can remember what my doctor says,4,Often
+710105,GENSCOT,COVIDLIFE1,healthlit_q7,I can follow my doctor’s advice,1,Never
+710106,GENSCOT,COVIDLIFE1,healthlit_q7,I can follow my doctor’s advice,2,Rarely
+710107,GENSCOT,COVIDLIFE1,healthlit_q7,I can follow my doctor’s advice,3,Sometimes
+710108,GENSCOT,COVIDLIFE1,healthlit_q7,I can follow my doctor’s advice,4,Often
+710109,GENSCOT,COVIDLIFE1,healthlit_q8,I can manage my own health needs,1,Never
+710110,GENSCOT,COVIDLIFE1,healthlit_q8,I can manage my own health needs,2,Rarely
+710111,GENSCOT,COVIDLIFE1,healthlit_q8,I can manage my own health needs,3,Sometimes
+710112,GENSCOT,COVIDLIFE1,healthlit_q8,I can manage my own health needs,4,Often
+710113,GENSCOT,COVIDLIFE1,healthlit_q9,I can support the health needs of others,1,Never
+710114,GENSCOT,COVIDLIFE1,healthlit_q9,I can support the health needs of others,2,Rarely
+710115,GENSCOT,COVIDLIFE1,healthlit_q9,I can support the health needs of others,3,Sometimes
+710116,GENSCOT,COVIDLIFE1,healthlit_q9,I can support the health needs of others,4,Often
+710117,GENSCOT,COVIDLIFE1,healthlit_q10,I can solve any health problems that come my way,1,Never
+710118,GENSCOT,COVIDLIFE1,healthlit_q10,I can solve any health problems that come my way,2,Rarely
+710119,GENSCOT,COVIDLIFE1,healthlit_q10,I can solve any health problems that come my way,3,Sometimes
+710120,GENSCOT,COVIDLIFE1,healthlit_q10,I can solve any health problems that come my way,4,Often
+710121,GENSCOT,COVIDLIFE1,understand_guidance,Do you find the Government guidance on COVID-19 easy to understand?,1,Extremely easy
+710122,GENSCOT,COVIDLIFE1,understand_guidance,Do you find the Government guidance on COVID-19 easy to understand?,2,Somewhat easy
+710123,GENSCOT,COVIDLIFE1,understand_guidance,Do you find the Government guidance on COVID-19 easy to understand?,3,Neither easy nor difficult
+710124,GENSCOT,COVIDLIFE1,understand_guidance,Do you find the Government guidance on COVID-19 easy to understand?,4,Somewhat difficult
+710125,GENSCOT,COVIDLIFE1,understand_guidance,Do you find the Government guidance on COVID-19 easy to understand?,5,Extremely difficult
+710126,GENSCOT,COVIDLIFE1,knowledge_covid,How would you rate your knowledge about COVID-19?,1,Extremely bad
+710127,GENSCOT,COVIDLIFE1,knowledge_covid,How would you rate your knowledge about COVID-19?,2,Somewhat bad
+710128,GENSCOT,COVIDLIFE1,knowledge_covid,How would you rate your knowledge about COVID-19?,3,Neither good nor bad
+710129,GENSCOT,COVIDLIFE1,knowledge_covid,How would you rate your knowledge about COVID-19?,4,Somewhat good
+710130,GENSCOT,COVIDLIFE1,knowledge_covid,How would you rate your knowledge about COVID-19?,5,Extremely good
+710131,GENSCOT,COVIDLIFE1,gov_guidance,Do you think that the Government guidance and actions on COVID-19 are:,1,"An under-reaction,2 About right, 3 An over-reaction"
+710132,GENSCOT,COVIDLIFE1,sources_covid_bbcnews,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710133,GENSCOT,COVIDLIFE1,sources_covid_bbcnews,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710134,GENSCOT,COVIDLIFE1,sources_covid_othernews,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710135,GENSCOT,COVIDLIFE1,sources_covid_othernews,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710136,GENSCOT,COVIDLIFE1,sources_covid_bbcweb,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710137,GENSCOT,COVIDLIFE1,sources_covid_bbcweb,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710138,GENSCOT,COVIDLIFE1,sources_covid_otherweb,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710139,GENSCOT,COVIDLIFE1,sources_covid_otherweb,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710140,GENSCOT,COVIDLIFE1,sources_covid_nhsweb,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710141,GENSCOT,COVIDLIFE1,sources_covid_nhsweb,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710142,GENSCOT,COVIDLIFE1,sources_covid_gpweb,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710143,GENSCOT,COVIDLIFE1,sources_covid_gpweb,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710144,GENSCOT,COVIDLIFE1,sources_covid_govweb,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710145,GENSCOT,COVIDLIFE1,sources_covid_govweb,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710146,GENSCOT,COVIDLIFE1,sources_covid_whoweb,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710147,GENSCOT,COVIDLIFE1,sources_covid_whoweb,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710148,GENSCOT,COVIDLIFE1,sources_covid_broadsheet,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710149,GENSCOT,COVIDLIFE1,sources_covid_broadsheet,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710150,GENSCOT,COVIDLIFE1,sources_covid_tabloid,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710151,GENSCOT,COVIDLIFE1,sources_covid_tabloid,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710152,GENSCOT,COVIDLIFE1,sources_covid_radio,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710153,GENSCOT,COVIDLIFE1,sources_covid_radio,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710154,GENSCOT,COVIDLIFE1,sources_covid_social,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710155,GENSCOT,COVIDLIFE1,sources_covid_social,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710156,GENSCOT,COVIDLIFE1,sources_covid_work,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710157,GENSCOT,COVIDLIFE1,sources_covid_work,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710158,GENSCOT,COVIDLIFE1,sources_covid_family,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710159,GENSCOT,COVIDLIFE1,sources_covid_family,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710160,GENSCOT,COVIDLIFE1,sources_covid_whatsapp,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710161,GENSCOT,COVIDLIFE1,sources_covid_whatsapp,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710162,GENSCOT,COVIDLIFE1,sources_covid_other,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710163,GENSCOT,COVIDLIFE1,sources_covid_other,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710164,GENSCOT,COVIDLIFE1,sources_covid_none,Which of the following sources of information have you used to keep informed about the COVID-19?,0,No
+710165,GENSCOT,COVIDLIFE1,sources_covid_none,Which of the following sources of information have you used to keep informed about the COVID-19?,1,Yes
+710166,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],1,BBC News television bulletins
+710167,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],10,Tabloid newspapers
+710168,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],11,Radio or podcasts
+710169,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],12,Social media websites
+710170,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],13,Your workplace
+710171,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],14,Family and friends
+710172,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],15,WhatsApp messaging services
+710173,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],16,Other
+710174,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],2,Other television news bulletins
+710175,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],3,BBC News website
+710176,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],4,Other news websites
+710177,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],5,NHS websites
+710178,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],6,GP practice website
+710179,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],7,Government websites
+710180,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],8,WHO website
+710181,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],9,Broadsheet newspapers
+710182,GENSCOT,COVIDLIFE1,mosthelful_sourcecovid,Which of the following sources of information have you found the most helpful for keeping informed about COVID-19? [take forward selected answers from previous question],96,None of the above
+710183,GENSCOT,COVIDLIFE1,time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19??,0,None
+710184,GENSCOT,COVIDLIFE1,time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19??,1,Less than 30 minutes
+710185,GENSCOT,COVIDLIFE1,time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19??,2,30 minutes to 1 hour
+710186,GENSCOT,COVIDLIFE1,time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19??,3,1-2 hours
+710187,GENSCOT,COVIDLIFE1,time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19??,4,3-4 hours
+710188,GENSCOT,COVIDLIFE1,time_covidnews,How much time do you spend on average each day getting news or learning about COVID-19??,5,5 or more hours
+710189,GENSCOT,COVIDLIFE1,accurate_covidinfo,"On a scale of 1 (not at all difficult) to 10 (extremely difficult), how difficult has it been for you to find accurate, understandable information about COVID-19?",,"not at all difficult(1) ,..., extremely difficult(10)"
+710190,GENSCOT,COVIDLIFE1,ukgov_confidence,How confident are you that the UK Government can prevent further outbreak of COVID-19?,1,Not confident at all
+710191,GENSCOT,COVIDLIFE1,ukgov_confidence,How confident are you that the UK Government can prevent further outbreak of COVID-19?,2,Not very confident
+710192,GENSCOT,COVIDLIFE1,ukgov_confidence,How confident are you that the UK Government can prevent further outbreak of COVID-19?,3,Somewhat confident
+710193,GENSCOT,COVIDLIFE1,ukgov_confidence,How confident are you that the UK Government can prevent further outbreak of COVID-19?,4,Very confident
+710194,GENSCOT,COVIDLIFE1,scotgov_confidence,[If Which country do you live in? = Scotland] How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,1,Not confident at all
+710195,GENSCOT,COVIDLIFE1,scotgov_confidence,[If Which country do you live in? = Scotland] How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,2,Not very confident
+710196,GENSCOT,COVIDLIFE1,scotgov_confidence,[If Which country do you live in? = Scotland] How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,3,Somewhat confident
+710197,GENSCOT,COVIDLIFE1,scotgov_confidence,[If Which country do you live in? = Scotland] How confident are you that the Scottish Government can prevent further outbreak of COVID-19?,4,Very confident
+710198,GENSCOT,COVIDLIFE1,nhs_confidence,How confident are you that the NHS can cope with the COVID-19 pandemic?,1,Not confident at all
+710199,GENSCOT,COVIDLIFE1,nhs_confidence,How confident are you that the NHS can cope with the COVID-19 pandemic?,2,Not very confident
+710200,GENSCOT,COVIDLIFE1,nhs_confidence,How confident are you that the NHS can cope with the COVID-19 pandemic?,3,Somewhat confident
+710201,GENSCOT,COVIDLIFE1,nhs_confidence,How confident are you that the NHS can cope with the COVID-19 pandemic?,4,Very confident
+710202,GENSCOT,COVIDLIFE1,vaccine_confidence,How confident are you that scientists will develop a vaccine in the next 18 months?,1,Not confident at all
+710203,GENSCOT,COVIDLIFE1,vaccine_confidence,How confident are you that scientists will develop a vaccine in the next 18 months?,2,Not very confident
+710204,GENSCOT,COVIDLIFE1,vaccine_confidence,How confident are you that scientists will develop a vaccine in the next 18 months?,3,Somewhat confident
+710205,GENSCOT,COVIDLIFE1,vaccine_confidence,How confident are you that scientists will develop a vaccine in the next 18 months?,4,Very confident
+710206,GENSCOT,COVIDLIFE1,socialmedia_before,"Thinking back to just before COVID-19 measures were introduced (i.e., January 2020), on average, how many hours per day did you look at or use social media?",0,None
+710207,GENSCOT,COVIDLIFE1,socialmedia_before,"Thinking back to just before COVID-19 measures were introduced (i.e., January 2020), on average, how many hours per day did you look at or use social media?",1,Less than 1 hour
+710208,GENSCOT,COVIDLIFE1,socialmedia_before,"Thinking back to just before COVID-19 measures were introduced (i.e., January 2020), on average, how many hours per day did you look at or use social media?",2,1-2 hours
+710209,GENSCOT,COVIDLIFE1,socialmedia_before,"Thinking back to just before COVID-19 measures were introduced (i.e., January 2020), on average, how many hours per day did you look at or use social media?",3,3-4 hours
+710210,GENSCOT,COVIDLIFE1,socialmedia_before,"Thinking back to just before COVID-19 measures were introduced (i.e., January 2020), on average, how many hours per day did you look at or use social media?",4,5-6 hours
+710211,GENSCOT,COVIDLIFE1,socialmedia_before,"Thinking back to just before COVID-19 measures were introduced (i.e., January 2020), on average, how many hours per day did you look at or use social media?",5,7-8 hours
+710212,GENSCOT,COVIDLIFE1,socialmedia_before,"Thinking back to just before COVID-19 measures were introduced (i.e., January 2020), on average, how many hours per day did you look at or use social media?",6,9+ hours
+710213,GENSCOT,COVIDLIFE1,socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",0,None
+710214,GENSCOT,COVIDLIFE1,socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",1,Less than 1 hour
+710215,GENSCOT,COVIDLIFE1,socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",2,1-2 hours
+710216,GENSCOT,COVIDLIFE1,socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",3,3-4 hours
+710217,GENSCOT,COVIDLIFE1,socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",4,5-6 hours
+710218,GENSCOT,COVIDLIFE1,socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",5,7-8 hours
+710219,GENSCOT,COVIDLIFE1,socialmedia_covid,"On average, how many hours per day do you look at or use social media nowadays?",6,9+ hours
+710220,GENSCOT,COVIDLIFE1,previous_f2f_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710221,GENSCOT,COVIDLIFE1,previous_f2f_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710222,GENSCOT,COVIDLIFE1,previous_f2f_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710223,GENSCOT,COVIDLIFE1,previous_f2f_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710224,GENSCOT,COVIDLIFE1,previous_f2f_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710225,GENSCOT,COVIDLIFE1,previous_f2f_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710226,GENSCOT,COVIDLIFE1,previous_f2f_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710227,GENSCOT,COVIDLIFE1,previous_f2f_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710228,GENSCOT,COVIDLIFE1,previous_f2f_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710229,GENSCOT,COVIDLIFE1,previous_f2f_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710230,GENSCOT,COVIDLIFE1,previous_f2f_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710231,GENSCOT,COVIDLIFE1,previous_f2f_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710232,GENSCOT,COVIDLIFE1,previous_call_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710233,GENSCOT,COVIDLIFE1,previous_call_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710234,GENSCOT,COVIDLIFE1,previous_call_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710235,GENSCOT,COVIDLIFE1,previous_call_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710236,GENSCOT,COVIDLIFE1,previous_call_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710237,GENSCOT,COVIDLIFE1,previous_call_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710238,GENSCOT,COVIDLIFE1,previous_call_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710239,GENSCOT,COVIDLIFE1,previous_call_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710240,GENSCOT,COVIDLIFE1,previous_call_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710241,GENSCOT,COVIDLIFE1,previous_call_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710242,GENSCOT,COVIDLIFE1,previous_call_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710243,GENSCOT,COVIDLIFE1,previous_call_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710244,GENSCOT,COVIDLIFE1,previous_video_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710245,GENSCOT,COVIDLIFE1,previous_video_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710246,GENSCOT,COVIDLIFE1,previous_video_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710247,GENSCOT,COVIDLIFE1,previous_video_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710248,GENSCOT,COVIDLIFE1,previous_video_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710249,GENSCOT,COVIDLIFE1,previous_video_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710250,GENSCOT,COVIDLIFE1,previous_video_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710251,GENSCOT,COVIDLIFE1,previous_video_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710252,GENSCOT,COVIDLIFE1,previous_video_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710253,GENSCOT,COVIDLIFE1,previous_video_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710254,GENSCOT,COVIDLIFE1,previous_video_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710255,GENSCOT,COVIDLIFE1,previous_video_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710256,GENSCOT,COVIDLIFE1,previous_text_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710257,GENSCOT,COVIDLIFE1,previous_text_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710258,GENSCOT,COVIDLIFE1,previous_text_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710259,GENSCOT,COVIDLIFE1,previous_text_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710260,GENSCOT,COVIDLIFE1,previous_text_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710261,GENSCOT,COVIDLIFE1,previous_text_family,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710262,GENSCOT,COVIDLIFE1,previous_text_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",1,Never
+710263,GENSCOT,COVIDLIFE1,previous_text_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",2,Rarely
+710264,GENSCOT,COVIDLIFE1,previous_text_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",3,Less than once a week
+710265,GENSCOT,COVIDLIFE1,previous_text_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",4,1-2 days a week
+710266,GENSCOT,COVIDLIFE1,previous_text_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",5,3-4 days a week
+710267,GENSCOT,COVIDLIFE1,previous_text_friends,"Just before COVID-19 measures were introduced (e.g., January 2020), how regularly did you:",6,Every day/almost every day
+710268,GENSCOT,COVIDLIFE1,covid_f2f_family,How regularly do you do these activities now:,1,Never
+710269,GENSCOT,COVIDLIFE1,covid_f2f_family,How regularly do you do these activities now:,2,Rarely
+710270,GENSCOT,COVIDLIFE1,covid_f2f_family,How regularly do you do these activities now:,3,Less than once a week
+710271,GENSCOT,COVIDLIFE1,covid_f2f_family,How regularly do you do these activities now:,4,1-2 days a week
+710272,GENSCOT,COVIDLIFE1,covid_f2f_family,How regularly do you do these activities now:,5,3-4 days a week
+710273,GENSCOT,COVIDLIFE1,covid_f2f_family,How regularly do you do these activities now:,6,Every day/almost every day
+710274,GENSCOT,COVIDLIFE1,covid_f2f_friends,How regularly do you do these activities now:,1,Never
+710275,GENSCOT,COVIDLIFE1,covid_f2f_friends,How regularly do you do these activities now:,2,Rarely
+710276,GENSCOT,COVIDLIFE1,covid_f2f_friends,How regularly do you do these activities now:,3,Less than once a week
+710277,GENSCOT,COVIDLIFE1,covid_f2f_friends,How regularly do you do these activities now:,4,1-2 days a week
+710278,GENSCOT,COVIDLIFE1,covid_f2f_friends,How regularly do you do these activities now:,5,3-4 days a week
+710279,GENSCOT,COVIDLIFE1,covid_f2f_friends,How regularly do you do these activities now:,6,Every day/almost every day
+710280,GENSCOT,COVIDLIFE1,covid_call_family,How regularly do you do these activities now:,1,Never
+710281,GENSCOT,COVIDLIFE1,covid_call_family,How regularly do you do these activities now:,2,Rarely
+710282,GENSCOT,COVIDLIFE1,covid_call_family,How regularly do you do these activities now:,3,Less than once a week
+710283,GENSCOT,COVIDLIFE1,covid_call_family,How regularly do you do these activities now:,4,1-2 days a week
+710284,GENSCOT,COVIDLIFE1,covid_call_family,How regularly do you do these activities now:,5,3-4 days a week
+710285,GENSCOT,COVIDLIFE1,covid_call_family,How regularly do you do these activities now:,6,Every day/almost every day
+710286,GENSCOT,COVIDLIFE1,covid_call_friends,How regularly do you do these activities now:,1,Never
+710287,GENSCOT,COVIDLIFE1,covid_call_friends,How regularly do you do these activities now:,2,Rarely
+710288,GENSCOT,COVIDLIFE1,covid_call_friends,How regularly do you do these activities now:,3,Less than once a week
+710289,GENSCOT,COVIDLIFE1,covid_call_friends,How regularly do you do these activities now:,4,1-2 days a week
+710290,GENSCOT,COVIDLIFE1,covid_call_friends,How regularly do you do these activities now:,5,3-4 days a week
+710291,GENSCOT,COVIDLIFE1,covid_call_friends,How regularly do you do these activities now:,6,Every day/almost every day
+710292,GENSCOT,COVIDLIFE1,covid_video_family,How regularly do you do these activities now:,1,Never
+710293,GENSCOT,COVIDLIFE1,covid_video_family,How regularly do you do these activities now:,2,Rarely
+710294,GENSCOT,COVIDLIFE1,covid_video_family,How regularly do you do these activities now:,3,Less than once a week
+710295,GENSCOT,COVIDLIFE1,covid_video_family,How regularly do you do these activities now:,4,1-2 days a week
+710296,GENSCOT,COVIDLIFE1,covid_video_family,How regularly do you do these activities now:,5,3-4 days a week
+710297,GENSCOT,COVIDLIFE1,covid_video_family,How regularly do you do these activities now:,6,Every day/almost every day
+710298,GENSCOT,COVIDLIFE1,covid_video_friends,How regularly do you do these activities now:,1,Never
+710299,GENSCOT,COVIDLIFE1,covid_video_friends,How regularly do you do these activities now:,2,Rarely
+710300,GENSCOT,COVIDLIFE1,covid_video_friends,How regularly do you do these activities now:,3,Less than once a week
+710301,GENSCOT,COVIDLIFE1,covid_video_friends,How regularly do you do these activities now:,4,1-2 days a week
+710302,GENSCOT,COVIDLIFE1,covid_video_friends,How regularly do you do these activities now:,5,3-4 days a week
+710303,GENSCOT,COVIDLIFE1,covid_video_friends,How regularly do you do these activities now:,6,Every day/almost every day
+710304,GENSCOT,COVIDLIFE1,covid_text_family,How regularly do you do these activities now:,1,Never
+710305,GENSCOT,COVIDLIFE1,covid_text_family,How regularly do you do these activities now:,2,Rarely
+710306,GENSCOT,COVIDLIFE1,covid_text_family,How regularly do you do these activities now:,3,Less than once a week
+710307,GENSCOT,COVIDLIFE1,covid_text_family,How regularly do you do these activities now:,4,1-2 days a week
+710308,GENSCOT,COVIDLIFE1,covid_text_family,How regularly do you do these activities now:,5,3-4 days a week
+710309,GENSCOT,COVIDLIFE1,covid_text_family,How regularly do you do these activities now:,6,Every day/almost every day
+710310,GENSCOT,COVIDLIFE1,covid_text_friends,How regularly do you do these activities now:,1,Never
+710311,GENSCOT,COVIDLIFE1,covid_text_friends,How regularly do you do these activities now:,2,Rarely
+710312,GENSCOT,COVIDLIFE1,covid_text_friends,How regularly do you do these activities now:,3,Less than once a week
+710313,GENSCOT,COVIDLIFE1,covid_text_friends,How regularly do you do these activities now:,4,1-2 days a week
+710314,GENSCOT,COVIDLIFE1,covid_text_friends,How regularly do you do these activities now:,5,3-4 days a week
+710315,GENSCOT,COVIDLIFE1,covid_text_friends,How regularly do you do these activities now:,6,Every day/almost every day
+710316,GENSCOT,COVIDLIFE1,keepintouch_family,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with family members who do not live with you?",1,Very easy
+710317,GENSCOT,COVIDLIFE1,keepintouch_family,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with family members who do not live with you?",2,Quite easy
+710318,GENSCOT,COVIDLIFE1,keepintouch_family,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with family members who do not live with you?",3,Quite difficult
+710319,GENSCOT,COVIDLIFE1,keepintouch_family,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with family members who do not live with you?",4,Very difficult
+710320,GENSCOT,COVIDLIFE1,keepintouch_family,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with family members who do not live with you?",97,Not applicable
+710321,GENSCOT,COVIDLIFE1,keepintouch_friends,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your friends?",1,Very easy
+710322,GENSCOT,COVIDLIFE1,keepintouch_friends,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your friends?",2,Quite easy
+710323,GENSCOT,COVIDLIFE1,keepintouch_friends,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your friends?",3,Quite difficult
+710324,GENSCOT,COVIDLIFE1,keepintouch_friends,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your friends?",4,Very difficult
+710325,GENSCOT,COVIDLIFE1,keepintouch_friends,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your friends?",97,Not applicable
+710326,GENSCOT,COVIDLIFE1,keepintouch_work,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your work colleagues?",1,Very easy
+710327,GENSCOT,COVIDLIFE1,keepintouch_work,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your work colleagues?",2,Quite easy
+710328,GENSCOT,COVIDLIFE1,keepintouch_work,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your work colleagues?",3,Quite difficult
+710329,GENSCOT,COVIDLIFE1,keepintouch_work,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your work colleagues?",4,Very difficult
+710330,GENSCOT,COVIDLIFE1,keepintouch_work,"Since COVID-19 measures were introduced, how easy or difficult has it been for you to keep in touch with your work colleagues?",97,Not applicable
+710331,GENSCOT,COVIDLIFE1,covid_pastime_exercise,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710332,GENSCOT,COVIDLIFE1,covid_pastime_exercise,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710333,GENSCOT,COVIDLIFE1,covid_pastime_relaxation,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710334,GENSCOT,COVIDLIFE1,covid_pastime_relaxation,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710335,GENSCOT,COVIDLIFE1,covid_pastime_cooking,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710336,GENSCOT,COVIDLIFE1,covid_pastime_cooking,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710337,GENSCOT,COVIDLIFE1,covid_pastime_language,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710338,GENSCOT,COVIDLIFE1,covid_pastime_language,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710339,GENSCOT,COVIDLIFE1,covid_pastime_arts,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710340,GENSCOT,COVIDLIFE1,covid_pastime_arts,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710341,GENSCOT,COVIDLIFE1,covid_pastime_playing_music,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710342,GENSCOT,COVIDLIFE1,covid_pastime_playing_music,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710343,GENSCOT,COVIDLIFE1,covid_pastime_listening_music,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710344,GENSCOT,COVIDLIFE1,covid_pastime_listening_music,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710345,GENSCOT,COVIDLIFE1,covid_pastime_reading,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710346,GENSCOT,COVIDLIFE1,covid_pastime_reading,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710347,GENSCOT,COVIDLIFE1,covid_pastime_board_games,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710348,GENSCOT,COVIDLIFE1,covid_pastime_board_games,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710349,GENSCOT,COVIDLIFE1,covid_pastime_online_gaming,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710350,GENSCOT,COVIDLIFE1,covid_pastime_online_gaming,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710351,GENSCOT,COVIDLIFE1,covid_pastime_other,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710352,GENSCOT,COVIDLIFE1,covid_pastime_other,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710353,GENSCOT,COVIDLIFE1,covid_pastime_none,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",0,No
+710354,GENSCOT,COVIDLIFE1,covid_pastime_none,"Since COVID-19 measures have been in place, have you returned to or started up a new pastime that you can do from home?",1,Yes
+710355,GENSCOT,COVIDLIFE1,contact_oldfriend,Have you written or called a friend that you haven’t been in touch with for a while?,0,No
+710356,GENSCOT,COVIDLIFE1,contact_oldfriend,Have you written or called a friend that you haven’t been in touch with for a while?,1,Yes
+710357,GENSCOT,COVIDLIFE1,volunteer_community,"Since COVID-19 measures have been in place, have you volunteered to help the more vulnerable in your local community?",0,No
+710358,GENSCOT,COVIDLIFE1,volunteer_community,"Since COVID-19 measures have been in place, have you volunteered to help the more vulnerable in your local community?",1,Yes
+710359,GENSCOT,COVIDLIFE1,volunteer_nhs,Have you volunteered to help the NHS?,0,No
+710360,GENSCOT,COVIDLIFE1,volunteer_nhs,Have you volunteered to help the NHS?,1,Yes
+710361,GENSCOT,COVIDLIFE1,employment_skip,I would prefer to skip this section,1,Continue
+710362,GENSCOT,COVIDLIFE1,employment_skip,I would prefer to skip this section,2,Skip
+710363,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",1,Self-employed employing others
+710364,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",10,Still in school/studying full-time
+710365,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",11,Unemployed as sick or disabled
+710366,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",12,Unemployed
+710367,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",13,Other
+710368,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",2,Self-employed not employing others
+710369,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",3,Paid employee supervising others
+710370,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",4,Paid employee not supervising others
+710371,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",5,"In unpaid employment,6 Homemaker"
+710372,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",7,Looking after children
+710373,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",8,Looking after other dependents
+710374,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",9,Retired
+710375,GENSCOT,COVIDLIFE1,employmentstatus_before,"What was your employment status just before COVID-19 measures were introduced (i.e., January 2020) ",98,Prefer not to answer
+710376,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,1,Self-employed employing others
+710377,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,10,Still in school/studying full-time
+710378,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,11,Unemployed as sick or disabled
+710379,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,12,Unemployed
+710380,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,13,Other
+710381,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,2,Self-employed not employing others
+710382,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,3,Paid employee supervising others
+710383,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,4,Paid employee not supervising others
+710384,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,5,"In unpaid employment,6 Homemaker"
+710385,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,7,Looking after children
+710386,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,8,Looking after other dependents
+710387,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,9,Retired
+710388,GENSCOT,COVIDLIFE1,employmentstatus_now,What is your employment status now?,98,Prefer not to answer
+710389,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,1,"Managers, directors and senior officials"
+710390,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,2,Associate professional and technical occupations
+710391,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,3,Administrative and secretarial occupations
+710392,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,4,Skilled trades occupations
+710393,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,5,Sales and customer service occupations
+710394,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,6,"Process, plant and machine operatives"
+710395,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,7,Elementary (unskilled) occupations
+710396,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,8,Never worked
+710397,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,97,"Not applicable,"
+710398,GENSCOT,COVIDLIFE1,typeofwork,Which of the following describes the type of work you did in your last or current job?,98,Prefer not to answer
+710399,GENSCOT,COVIDLIFE1,job_sector,In your current (or last) job were you employed in the: ,1,Private sector
+710400,GENSCOT,COVIDLIFE1,job_sector,In your current (or last) job were you employed in the: ,2,Public sector
+710401,GENSCOT,COVIDLIFE1,job_sector,In your current (or last) job were you employed in the: ,3,Voluntary (third) sector
+710402,GENSCOT,COVIDLIFE1,job_sector,In your current (or last) job were you employed in the: ,97,Not applicable
+710403,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,1,Accommodation and Food Service Activities
+710404,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,10,Human Health and Social Work Activities
+710405,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,11,Manufacturing
+710406,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,12,Mining and Quarrying
+710407,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,13,Other Service Activities
+710408,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,14,"Professional, Scientific and Technical Activities"
+710409,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,15,"Public Administration, Defence, and Social Security"
+710410,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,16,Real Estate Activities
+710411,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,17,Repair of Motor Vehicles and Motorcycles
+710412,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,18,Tourism
+710413,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,19,Transportation and Storage
+710414,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,2,Administrative and Support Service Activities
+710415,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,20,"Water Supply, Sewerage, Waste Management and Remediation Activities"
+710416,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,21,Wholesale and Retail Trade
+710417,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,3,"Agriculture, Forestry and Fishing"
+710418,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,4,"Arts, Entertainment and Recreation"
+710419,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,5,Construction
+710420,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,6,Education
+710421,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,7,"Electricity, Gas, Steam and Air Conditioning Supply"
+710422,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,8,Financial and Insurance Activities
+710423,GENSCOT,COVIDLIFE1,job_industry,In which of the following industries do you currently work or did you last work?,97,Not applicable
+710424,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,1,"Less than £10,000"
+710425,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,2,"Between £10,000 and £15,000"
+710426,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,3,"Between £15,000 and £20,000"
+710427,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,4,"Between £20,000 and £30,000"
+710428,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,5,"Between £30,000 and £50,000"
+710429,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,6,"Between £50,000 and £70,000"
+710430,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,7,"More than £70,000"
+710431,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,98,Prefer not to answer
+710432,GENSCOT,COVIDLIFE1,income,What is the total income of your entire household last year (before tax)?,99,Don’t know
+710433,GENSCOT,COVIDLIFE1,workingfromhome,Are you currently working from home or outside the home?,1,From home
+710434,GENSCOT,COVIDLIFE1,workingfromhome,Are you currently working from home or outside the home?,2,Outside the home
+710435,GENSCOT,COVIDLIFE1,workingfromhome,Are you currently working from home or outside the home?,3,Not currently working
+710436,GENSCOT,COVIDLIFE1,workingfromhome,Are you currently working from home or outside the home?,97,Not applicable
+710437,GENSCOT,COVIDLIFE1,work_hours_changed,How have your weekly working hours changed since before COVID-19 measures were introduced?,1,Working more hours now
+710438,GENSCOT,COVIDLIFE1,work_hours_changed,How have your weekly working hours changed since before COVID-19 measures were introduced?,2,Working the same number of hours now
+710439,GENSCOT,COVIDLIFE1,work_hours_changed,How have your weekly working hours changed since before COVID-19 measures were introduced?,3,Working fewer hours now 
+710440,GENSCOT,COVIDLIFE1,keyworker,"When COVID-19 restrictions were put in place, were you designated as a key worker?",0,No
+710441,GENSCOT,COVIDLIFE1,keyworker,"When COVID-19 restrictions were put in place, were you designated as a key worker?",1,Yes
+710442,GENSCOT,COVIDLIFE1,job_covid_lostjob,Have any of the following happened to you due to COVID-19 measures?,0,No
+710443,GENSCOT,COVIDLIFE1,job_covid_lostjob,Have any of the following happened to you due to COVID-19 measures?,1,Yes
+710444,GENSCOT,COVIDLIFE1,job_covid_furlough,Have any of the following happened to you due to COVID-19 measures?,0,No
+710445,GENSCOT,COVIDLIFE1,job_covid_furlough,Have any of the following happened to you due to COVID-19 measures?,1,Yes
+710446,GENSCOT,COVIDLIFE1,job_covid_paycut,Have any of the following happened to you due to COVID-19 measures?,0,No
+710447,GENSCOT,COVIDLIFE1,job_covid_paycut,Have any of the following happened to you due to COVID-19 measures?,1,Yes
+710448,GENSCOT,COVIDLIFE1,job_covid_notworking,Have any of the following happened to you due to COVID-19 measures?,0,No
+710449,GENSCOT,COVIDLIFE1,job_covid_notworking,Have any of the following happened to you due to COVID-19 measures?,1,Yes
+710450,GENSCOT,COVIDLIFE1,job_covid_none,Have any of the following happened to you due to COVID-19 measures?,0,No
+710451,GENSCOT,COVIDLIFE1,job_covid_none,Have any of the following happened to you due to COVID-19 measures?,1,Yes
+710452,GENSCOT,COVIDLIFE1,new_job,Have you found a new job?,1,Yes
+710453,GENSCOT,COVIDLIFE1,new_job,Have you found a new job?,2,"No, actively searching for a new job"
+710454,GENSCOT,COVIDLIFE1,new_job,Have you found a new job?,3,"No, not currently searching for a new job"
+710455,GENSCOT,COVIDLIFE1,income_now,"Compared to before COVID-19 measures were introduced, how has your income changed",1,Income is higher now
+710456,GENSCOT,COVIDLIFE1,income_now,"Compared to before COVID-19 measures were introduced, how has your income changed",2,Income is the same now
+710457,GENSCOT,COVIDLIFE1,income_now,"Compared to before COVID-19 measures were introduced, how has your income changed",3,Income is lower now
+710458,GENSCOT,COVIDLIFE1,income_now,"Compared to before COVID-19 measures were introduced, how has your income changed",97,Not applicable
+710459,GENSCOT,COVIDLIFE1,govfunding_covid,Have you received (or do you expect to receive) government funding (either the “Job Retention” scheme or “grants to the self-employed”) to replace your income.,0,No
+710460,GENSCOT,COVIDLIFE1,govfunding_covid,Have you received (or do you expect to receive) government funding (either the “Job Retention” scheme or “grants to the self-employed”) to replace your income.,1,Yes
+710461,GENSCOT,COVIDLIFE1,govfunding_covid,Have you received (or do you expect to receive) government funding (either the “Job Retention” scheme or “grants to the self-employed”) to replace your income.,97,Not applicable
+710462,GENSCOT,COVIDLIFE1,govfunding_covid,Have you received (or do you expect to receive) government funding (either the “Job Retention” scheme or “grants to the self-employed”) to replace your income.,99,Don't know
+710463,GENSCOT,COVIDLIFE1,child_schoolclosure,Are you a parent or guardian whose child or children were attending school or nursery just before COVID-19 measures were introduced?,0,No
+710464,GENSCOT,COVIDLIFE1,child_schoolclosure,Are you a parent or guardian whose child or children were attending school or nursery just before COVID-19 measures were introduced?,1,Yes
+710465,GENSCOT,COVIDLIFE1,schoolclosure_affectjob,Have the school and nursey closures affected your ability to do your job?,0,No
+710466,GENSCOT,COVIDLIFE1,schoolclosure_affectjob,Have the school and nursey closures affected your ability to do your job?,1,"Yes, a little"
+710467,GENSCOT,COVIDLIFE1,schoolclosure_affectjob,Have the school and nursey closures affected your ability to do your job?,2,"Yes, a lot"
+710468,GENSCOT,COVIDLIFE1,securejob_confidence,How confident are you that your employment will be secure after the COVID-19 pandemic is over,1,Not confident at all
+710469,GENSCOT,COVIDLIFE1,securejob_confidence,How confident are you that your employment will be secure after the COVID-19 pandemic is over,2,Not very confident
+710470,GENSCOT,COVIDLIFE1,securejob_confidence,How confident are you that your employment will be secure after the COVID-19 pandemic is over,3,Somewhat confident
+710471,GENSCOT,COVIDLIFE1,securejob_confidence,How confident are you that your employment will be secure after the COVID-19 pandemic is over,4,Very confident
+710472,GENSCOT,COVIDLIFE1,securejob_confidence,How confident are you that your employment will be secure after the COVID-19 pandemic is over,97,Not applicable
+710473,GENSCOT,COVIDLIFE1,economy_confidence,How confident are you that the economy will recover after the COVID-19 pandemic is over?,1,Not confident at all
+710474,GENSCOT,COVIDLIFE1,economy_confidence,How confident are you that the economy will recover after the COVID-19 pandemic is over?,2,Not very confident
+710475,GENSCOT,COVIDLIFE1,economy_confidence,How confident are you that the economy will recover after the COVID-19 pandemic is over?,3,Somewhat confident
+710476,GENSCOT,COVIDLIFE1,economy_confidence,How confident are you that the economy will recover after the COVID-19 pandemic is over?,4,Very confident
+710477,GENSCOT,COVIDLIFE1,benefits_before,Are you or anyone in your household receiving any of the following benefits? January 2020,0,No
+710478,GENSCOT,COVIDLIFE1,benefits_before,Are you or anyone in your household receiving any of the following benefits? January 2020,1,Yes
+710479,GENSCOT,COVIDLIFE1,benefits_before,Are you or anyone in your household receiving any of the following benefits? January 2020,98,Prefer not to answer
+710480,GENSCOT,COVIDLIFE1,benefits_before,Are you or anyone in your household receiving any of the following benefits? January 2020,99,Don't know
+710481,GENSCOT,COVIDLIFE1,benefits_now,Are you or anyone in your household receiving any of the following benefits? Now,0,No
+710482,GENSCOT,COVIDLIFE1,benefits_now,Are you or anyone in your household receiving any of the following benefits? Now,1,Yes
+710483,GENSCOT,COVIDLIFE1,benefits_now,Are you or anyone in your household receiving any of the following benefits? Now,98,Prefer not to answer
+710484,GENSCOT,COVIDLIFE1,benefits_now,Are you or anyone in your household receiving any of the following benefits? Now,99,Don't know
+710485,GENSCOT,COVIDLIFE1,whichbenefits_before_attendanceall,WhichBenefits_Before_AttendanceAll,0,No
+710486,GENSCOT,COVIDLIFE1,whichbenefits_before_attendanceall,WhichBenefits_Before_AttendanceAll,1,Yes
+710487,GENSCOT,COVIDLIFE1,whichbenefits_before_bereavementall,WhichBenefits_Before_BereavementAll,0,No
+710488,GENSCOT,COVIDLIFE1,whichbenefits_before_bereavementall,WhichBenefits_Before_BereavementAll,1,Yes
+710489,GENSCOT,COVIDLIFE1,whichbenefits_before_beststart_grant,WhichBenefits_Before_BestStart_Grant,1,Yes
+710490,GENSCOT,COVIDLIFE1,whichbenefits_before_beststart_grant,WhichBenefits_Before_BestStart_Grant,0,No
+710491,GENSCOT,COVIDLIFE1,whichbenefits_before_beststart_foods,WhichBenefits_Before_BestStart_Foods,0,No
+710492,GENSCOT,COVIDLIFE1,whichbenefits_before_beststart_foods,WhichBenefits_Before_BestStart_Foods,1,Yes
+710493,GENSCOT,COVIDLIFE1,whichbenefits_before_bluebadge,WhichBenefits_Before_BlueBadge,0,No
+710494,GENSCOT,COVIDLIFE1,whichbenefits_before_bluebadge,WhichBenefits_Before_BlueBadge,1,Yes
+710495,GENSCOT,COVIDLIFE1,whichbenefits_before_carersall,WhichBenefits_Before_CarersAll,0,No
+710496,GENSCOT,COVIDLIFE1,whichbenefits_before_carersall,WhichBenefits_Before_CarersAll,1,Yes
+710497,GENSCOT,COVIDLIFE1,whichbenefits_before_childben,WhichBenefits_Before_ChildBen,0,No
+710498,GENSCOT,COVIDLIFE1,whichbenefits_before_childben,WhichBenefits_Before_ChildBen,1,Yes
+710499,GENSCOT,COVIDLIFE1,whichbenefits_before_childtaxcred,WhichBenefits_Before_ChildTaxCred,0,No
+710500,GENSCOT,COVIDLIFE1,whichbenefits_before_childtaxcred,WhichBenefits_Before_ChildTaxCred,1,Yes
+710501,GENSCOT,COVIDLIFE1,whichbenefits_before_coldweatherpay,WhichBenefits_Before_ColdWeatherPay,0,No
+710502,GENSCOT,COVIDLIFE1,whichbenefits_before_coldweatherpay,WhichBenefits_Before_ColdWeatherPay,1,Yes
+710503,GENSCOT,COVIDLIFE1,whichbenefits_before_constantattendanceall,WhichBenefits_Before_ConstantAttendanceAll,0,No
+710504,GENSCOT,COVIDLIFE1,whichbenefits_before_constantattendanceall,WhichBenefits_Before_ConstantAttendanceAll,1,Yes
+710505,GENSCOT,COVIDLIFE1,whichbenefits_before_counciltaxben,WhichBenefits_Before_CouncilTaxBen,0,No
+710506,GENSCOT,COVIDLIFE1,whichbenefits_before_counciltaxben,WhichBenefits_Before_CouncilTaxBen,1,Yes
+710507,GENSCOT,COVIDLIFE1,whichbenefits_before_crisisloans,WhichBenefits_Before_CrisisLoans,0,No
+710508,GENSCOT,COVIDLIFE1,whichbenefits_before_crisisloans,WhichBenefits_Before_CrisisLoans,1,Yes
+710509,GENSCOT,COVIDLIFE1,whichbenefits_before_disabilitylivingall,WhichBenefits_Before_DisabilityLivingAll,0,No
+710510,GENSCOT,COVIDLIFE1,whichbenefits_before_disabilitylivingall,WhichBenefits_Before_DisabilityLivingAll,1,Yes
+710511,GENSCOT,COVIDLIFE1,whichbenefits_before_employmentsup,WhichBenefits_Before_EmploymentSup,0,No
+710512,GENSCOT,COVIDLIFE1,whichbenefits_before_employmentsup,WhichBenefits_Before_EmploymentSup,1,Yes
+710513,GENSCOT,COVIDLIFE1,whichbenefits_before_freeschoolmeals,WhichBenefits_Before_FreeSchoolMeals,0,No
+710514,GENSCOT,COVIDLIFE1,whichbenefits_before_freeschoolmeals,WhichBenefits_Before_FreeSchoolMeals,1,Yes
+710515,GENSCOT,COVIDLIFE1,whichbenefits_before_guardiansall,WhichBenefits_Before_GuardiansAll,0,No
+710516,GENSCOT,COVIDLIFE1,whichbenefits_before_guardiansall,WhichBenefits_Before_GuardiansAll,1,Yes
+710517,GENSCOT,COVIDLIFE1,whichbenefits_before_housingben,WhichBenefits_Before_HousingBen,0,No
+710518,GENSCOT,COVIDLIFE1,whichbenefits_before_housingben,WhichBenefits_Before_HousingBen,1,Yes
+710519,GENSCOT,COVIDLIFE1,whichbenefits_before_inworkcred,WhichBenefits_Before_InWorkCred,0,No
+710520,GENSCOT,COVIDLIFE1,whichbenefits_before_inworkcred,WhichBenefits_Before_InWorkCred,1,Yes
+710521,GENSCOT,COVIDLIFE1,whichbenefits_before_incapacityben,WhichBenefits_Before_IncapacityBen,0,No
+710522,GENSCOT,COVIDLIFE1,whichbenefits_before_incapacityben,WhichBenefits_Before_IncapacityBen,1,Yes
+710523,GENSCOT,COVIDLIFE1,whichbenefits_before_incomesup,WhichBenefits_Before_IncomeSup,0,No
+710524,GENSCOT,COVIDLIFE1,whichbenefits_before_incomesup,WhichBenefits_Before_IncomeSup,1,Yes
+710525,GENSCOT,COVIDLIFE1,whichbenefits_before_industrialinjuriesben,WhichBenefits_Before_IndustrialInjuriesBen,0,No
+710526,GENSCOT,COVIDLIFE1,whichbenefits_before_industrialinjuriesben,WhichBenefits_Before_IndustrialInjuriesBen,1,Yes
+710527,GENSCOT,COVIDLIFE1,whichbenefits_before_industrialdeathben,WhichBenefits_Before_IndustrialDeathBen,0,No
+710528,GENSCOT,COVIDLIFE1,whichbenefits_before_industrialdeathben,WhichBenefits_Before_IndustrialDeathBen,1,Yes
+710529,GENSCOT,COVIDLIFE1,whichbenefits_before_jobseeksall,WhichBenefits_Before_JobseeksAll,0,No
+710530,GENSCOT,COVIDLIFE1,whichbenefits_before_jobseeksall,WhichBenefits_Before_JobseeksAll,1,Yes
+710531,GENSCOT,COVIDLIFE1,whichbenefits_before_maternityall,WhichBenefits_Before_MaternityAll,0,No
+710532,GENSCOT,COVIDLIFE1,whichbenefits_before_maternityall,WhichBenefits_Before_MaternityAll,1,Yes
+710533,GENSCOT,COVIDLIFE1,whichbenefits_before_mobilitysup,WhichBenefits_Before_MobilitySup,0,No
+710534,GENSCOT,COVIDLIFE1,whichbenefits_before_mobilitysup,WhichBenefits_Before_MobilitySup,1,Yes
+710535,GENSCOT,COVIDLIFE1,whichbenefits_before_nec,WhichBenefits_Before_NEC,0,No
+710536,GENSCOT,COVIDLIFE1,whichbenefits_before_nec,WhichBenefits_Before_NEC,1,Yes
+710537,GENSCOT,COVIDLIFE1,whichbenefits_before_pensioncred,WhichBenefits_Before_PensionCred,0,No
+710538,GENSCOT,COVIDLIFE1,whichbenefits_before_pensioncred,WhichBenefits_Before_PensionCred,1,Yes
+710539,GENSCOT,COVIDLIFE1,whichbenefits_before_pip,WhichBenefits_Before_PIP,0,No
+710540,GENSCOT,COVIDLIFE1,whichbenefits_before_pip,WhichBenefits_Before_PIP,1,Yes
+710541,GENSCOT,COVIDLIFE1,whichbenefits_before_severedisableall,WhichBenefits_Before_SevereDisableAll,0,No
+710542,GENSCOT,COVIDLIFE1,whichbenefits_before_severedisableall,WhichBenefits_Before_SevereDisableAll,1,Yes
+710543,GENSCOT,COVIDLIFE1,whichbenefits_before_statepen,WhichBenefits_Before_StatePen,0,No
+710544,GENSCOT,COVIDLIFE1,whichbenefits_before_statepen,WhichBenefits_Before_StatePen,1,Yes
+710545,GENSCOT,COVIDLIFE1,whichbenefits_before_adoptionpay,WhichBenefits_Before_AdoptionPay,0,No
+710546,GENSCOT,COVIDLIFE1,whichbenefits_before_adoptionpay,WhichBenefits_Before_AdoptionPay,1,Yes
+710547,GENSCOT,COVIDLIFE1,whichbenefits_before_maternitypay,WhichBenefits_Before_MaternityPay,0,No
+710548,GENSCOT,COVIDLIFE1,whichbenefits_before_maternitypay,WhichBenefits_Before_MaternityPay,1,Yes
+710549,GENSCOT,COVIDLIFE1,whichbenefits_before_paternitypay,WhichBenefits_Before_PaternityPay,0,No
+710550,GENSCOT,COVIDLIFE1,whichbenefits_before_paternitypay,WhichBenefits_Before_PaternityPay,1,Yes
+710551,GENSCOT,COVIDLIFE1,whichbenefits_before_sickpay,WhichBenefits_Before_SickPay,0,No
+710552,GENSCOT,COVIDLIFE1,whichbenefits_before_sickpay,WhichBenefits_Before_SickPay,1,Yes
+710553,GENSCOT,COVIDLIFE1,whichbenefits_before_surestartmaternity,WhichBenefits_Before_SureStartMaternity,0,No
+710554,GENSCOT,COVIDLIFE1,whichbenefits_before_surestartmaternity,WhichBenefits_Before_SureStartMaternity,1,Yes
+710555,GENSCOT,COVIDLIFE1,whichbenefits_before_taxcred,WhichBenefits_Before_TaxCred,0,No
+710556,GENSCOT,COVIDLIFE1,whichbenefits_before_taxcred,WhichBenefits_Before_TaxCred,1,Yes
+710557,GENSCOT,COVIDLIFE1,whichbenefits_before_universalcred,WhichBenefits_Before_UniversalCred,0,No
+710558,GENSCOT,COVIDLIFE1,whichbenefits_before_universalcred,WhichBenefits_Before_UniversalCred,1,Yes
+710559,GENSCOT,COVIDLIFE1,whichbenefits_before_wardisablepen,WhichBenefits_Before_WarDisablePen,0,No
+710560,GENSCOT,COVIDLIFE1,whichbenefits_before_wardisablepen,WhichBenefits_Before_WarDisablePen,1,Yes
+710561,GENSCOT,COVIDLIFE1,whichbenefits_before_warwidowpen,WhichBenefits_Before_WarWidowPen,0,No
+710562,GENSCOT,COVIDLIFE1,whichbenefits_before_warwidowpen,WhichBenefits_Before_WarWidowPen,1,Yes
+710563,GENSCOT,COVIDLIFE1,whichbenefits_before_widowparentall,WhichBenefits_Before_WidowParentAll,0,No
+710564,GENSCOT,COVIDLIFE1,whichbenefits_before_widowparentall,WhichBenefits_Before_WidowParentAll,1,Yes
+710565,GENSCOT,COVIDLIFE1,whichbenefits_before_widowpen,WhichBenefits_Before_WidowPen,0,No
+710566,GENSCOT,COVIDLIFE1,whichbenefits_before_widowpen,WhichBenefits_Before_WidowPen,1,Yes
+710567,GENSCOT,COVIDLIFE1,whichbenefits_before_winterfuelpay,WhichBenefits_Before_WinterFuelPay,0,No
+710568,GENSCOT,COVIDLIFE1,whichbenefits_before_winterfuelpay,WhichBenefits_Before_WinterFuelPay,1,Yes
+710569,GENSCOT,COVIDLIFE1,whichbenefits_before_workingtaxcred,WhichBenefits_Before_WorkingTaxCred,0,No
+710570,GENSCOT,COVIDLIFE1,whichbenefits_before_workingtaxcred,WhichBenefits_Before_WorkingTaxCred,1,Yes
+710571,GENSCOT,COVIDLIFE1,whichbenefits_before_other,WhichBenefits_Before_Other,0,No
+710572,GENSCOT,COVIDLIFE1,whichbenefits_before_other,WhichBenefits_Before_Other,1,Yes
+710573,GENSCOT,COVIDLIFE1,whichbenefits_before_dk,WhichBenefits_Before_DK,0,No
+710574,GENSCOT,COVIDLIFE1,whichbenefits_before_dk,WhichBenefits_Before_DK,1,Yes
+710575,GENSCOT,COVIDLIFE1,whichbenefits_before_pnta,WhichBenefits_Before_PNTA,0,No
+710576,GENSCOT,COVIDLIFE1,whichbenefits_before_pnta,WhichBenefits_Before_PNTA,1,Yes
+710577,GENSCOT,COVIDLIFE1,whichbenefits_now_attendanceall,,,
+710578,GENSCOT,COVIDLIFE1,whichbenefits_now_bereavementall,WhichBenefits_Now_BereavementAll,0,No
+710579,GENSCOT,COVIDLIFE1,whichbenefits_now_bereavementall,WhichBenefits_Now_BereavementAll,1,Yes
+710580,GENSCOT,COVIDLIFE1,whichbenefits_now_beststart_grant,WhichBenefits_Now_BestStart_Grant,0,No
+710581,GENSCOT,COVIDLIFE1,whichbenefits_now_beststart_grant,WhichBenefits_Now_BestStart_Grant,1,Yes
+710582,GENSCOT,COVIDLIFE1,whichbenefits_now_beststart_foods,WhichBenefits_Now_BestStart_Foods,0,No
+710583,GENSCOT,COVIDLIFE1,whichbenefits_now_beststart_foods,WhichBenefits_Now_BestStart_Foods,1,Yes
+710584,GENSCOT,COVIDLIFE1,whichbenefits_now_bluebadge,WhichBenefits_Now_BlueBadge,0,No
+710585,GENSCOT,COVIDLIFE1,whichbenefits_now_bluebadge,WhichBenefits_Now_BlueBadge,1,Yes
+710586,GENSCOT,COVIDLIFE1,whichbenefits_now_carersall,WhichBenefits_Now_CarersAll,0,No
+710587,GENSCOT,COVIDLIFE1,whichbenefits_now_carersall,WhichBenefits_Now_CarersAll,1,Yes
+710588,GENSCOT,COVIDLIFE1,whichbenefits_now_childben,WhichBenefits_Now_ChildBen,0,No
+710589,GENSCOT,COVIDLIFE1,whichbenefits_now_childben,WhichBenefits_Now_ChildBen,1,Yes
+710590,GENSCOT,COVIDLIFE1,whichbenefits_now_childtaxcred,WhichBenefits_Now_ChildTaxCred,0,No
+710591,GENSCOT,COVIDLIFE1,whichbenefits_now_childtaxcred,WhichBenefits_Now_ChildTaxCred,1,Yes
+710592,GENSCOT,COVIDLIFE1,whichbenefits_now_coldweatherpay,WhichBenefits_Now_ColdWeatherPay,0,No
+710593,GENSCOT,COVIDLIFE1,whichbenefits_now_coldweatherpay,WhichBenefits_Now_ColdWeatherPay,1,Yes
+710594,GENSCOT,COVIDLIFE1,whichbenefits_now_constantattendanceall,WhichBenefits_Now_ConstantAttendanceAll,0,No
+710595,GENSCOT,COVIDLIFE1,whichbenefits_now_constantattendanceall,WhichBenefits_Now_ConstantAttendanceAll,1,Yes
+710596,GENSCOT,COVIDLIFE1,whichbenefits_now_counciltaxben,WhichBenefits_Now_CouncilTaxBen,0,No
+710597,GENSCOT,COVIDLIFE1,whichbenefits_now_counciltaxben,WhichBenefits_Now_CouncilTaxBen,1,Yes
+710598,GENSCOT,COVIDLIFE1,whichbenefits_now_crisisloans,WhichBenefits_Now_CrisisLoans,0,No
+710599,GENSCOT,COVIDLIFE1,whichbenefits_now_crisisloans,WhichBenefits_Now_CrisisLoans,1,Yes
+710600,GENSCOT,COVIDLIFE1,whichbenefits_now_disabilitylivingall,WhichBenefits_Now_DisabilityLivingAll,0,No
+710601,GENSCOT,COVIDLIFE1,whichbenefits_now_disabilitylivingall,WhichBenefits_Now_DisabilityLivingAll,1,Yes
+710602,GENSCOT,COVIDLIFE1,whichbenefits_now_employmentsup,WhichBenefits_Now_EmploymentSup,0,No
+710603,GENSCOT,COVIDLIFE1,whichbenefits_now_employmentsup,WhichBenefits_Now_EmploymentSup,1,Yes
+710604,GENSCOT,COVIDLIFE1,whichbenefits_now_freeschoolmeals,WhichBenefits_Now_FreeSchoolMeals,0,No
+710605,GENSCOT,COVIDLIFE1,whichbenefits_now_freeschoolmeals,WhichBenefits_Now_FreeSchoolMeals,1,Yes
+710606,GENSCOT,COVIDLIFE1,whichbenefits_now_guardiansall,WhichBenefits_Now_GuardiansAll,0,No
+710607,GENSCOT,COVIDLIFE1,whichbenefits_now_guardiansall,WhichBenefits_Now_GuardiansAll,1,Yes
+710608,GENSCOT,COVIDLIFE1,whichbenefits_now_housingben,WhichBenefits_Now_HousingBen,0,No
+710609,GENSCOT,COVIDLIFE1,whichbenefits_now_housingben,WhichBenefits_Now_HousingBen,1,Yes
+710610,GENSCOT,COVIDLIFE1,whichbenefits_now_inworkcred,WhichBenefits_Now_InWorkCred,0,No
+710611,GENSCOT,COVIDLIFE1,whichbenefits_now_inworkcred,WhichBenefits_Now_InWorkCred,1,Yes
+710612,GENSCOT,COVIDLIFE1,whichbenefits_now_incapacityben,WhichBenefits_Now_IncapacityBen,0,No
+710613,GENSCOT,COVIDLIFE1,whichbenefits_now_incapacityben,WhichBenefits_Now_IncapacityBen,1,Yes
+710614,GENSCOT,COVIDLIFE1,whichbenefits_now_incomesup,WhichBenefits_Now_IncomeSup,0,No
+710615,GENSCOT,COVIDLIFE1,whichbenefits_now_incomesup,WhichBenefits_Now_IncomeSup,1,Yes
+710616,GENSCOT,COVIDLIFE1,whichbenefits_now_industrialinjuriesben,WhichBenefits_Now_IndustrialInjuriesBen,0,No
+710617,GENSCOT,COVIDLIFE1,whichbenefits_now_industrialinjuriesben,WhichBenefits_Now_IndustrialInjuriesBen,1,Yes
+710618,GENSCOT,COVIDLIFE1,whichbenefits_now_industrialdeathben,WhichBenefits_Now_IndustrialDeathBen,0,No
+710619,GENSCOT,COVIDLIFE1,whichbenefits_now_industrialdeathben,WhichBenefits_Now_IndustrialDeathBen,1,Yes
+710620,GENSCOT,COVIDLIFE1,whichbenefits_now_jobseeksall,WhichBenefits_Now_JobseeksAll,0,No
+710621,GENSCOT,COVIDLIFE1,whichbenefits_now_jobseeksall,WhichBenefits_Now_JobseeksAll,1,Yes
+710622,GENSCOT,COVIDLIFE1,whichbenefits_now_maternityall,WhichBenefits_Now_MaternityAll,0,No
+710623,GENSCOT,COVIDLIFE1,whichbenefits_now_maternityall,WhichBenefits_Now_MaternityAll,1,Yes
+710624,GENSCOT,COVIDLIFE1,whichbenefits_now_mobilitysup,WhichBenefits_Now_MobilitySup,0,No
+710625,GENSCOT,COVIDLIFE1,whichbenefits_now_mobilitysup,WhichBenefits_Now_MobilitySup,1,Yes
+710626,GENSCOT,COVIDLIFE1,whichbenefits_now_nec,WhichBenefits_Now_NEC,0,No
+710627,GENSCOT,COVIDLIFE1,whichbenefits_now_nec,WhichBenefits_Now_NEC,1,Yes
+710628,GENSCOT,COVIDLIFE1,whichbenefits_now_pensioncred,WhichBenefits_Now_PensionCred,0,No
+710629,GENSCOT,COVIDLIFE1,whichbenefits_now_pensioncred,WhichBenefits_Now_PensionCred,1,Yes
+710630,GENSCOT,COVIDLIFE1,whichbenefits_now_pip,WhichBenefits_Now_PIP,0,No
+710631,GENSCOT,COVIDLIFE1,whichbenefits_now_pip,WhichBenefits_Now_PIP,1,Yes
+710632,GENSCOT,COVIDLIFE1,whichbenefits_now_severedisableall,WhichBenefits_Now_SevereDisableAll,0,No
+710633,GENSCOT,COVIDLIFE1,whichbenefits_now_severedisableall,WhichBenefits_Now_SevereDisableAll,1,Yes
+710634,GENSCOT,COVIDLIFE1,whichbenefits_now_statepen,WhichBenefits_Now_StatePen,0,No
+710635,GENSCOT,COVIDLIFE1,whichbenefits_now_statepen,WhichBenefits_Now_StatePen,1,Yes
+710636,GENSCOT,COVIDLIFE1,whichbenefits_now_adoptionpay,WhichBenefits_Now_AdoptionPay,0,No
+710637,GENSCOT,COVIDLIFE1,whichbenefits_now_adoptionpay,WhichBenefits_Now_AdoptionPay,1,Yes
+710638,GENSCOT,COVIDLIFE1,whichbenefits_now_maternitypay,WhichBenefits_Now_MaternityPay,0,No
+710639,GENSCOT,COVIDLIFE1,whichbenefits_now_maternitypay,WhichBenefits_Now_MaternityPay,1,Yes
+710640,GENSCOT,COVIDLIFE1,whichbenefits_now_paternitypay,WhichBenefits_Now_PaternityPay,0,No
+710641,GENSCOT,COVIDLIFE1,whichbenefits_now_paternitypay,WhichBenefits_Now_PaternityPay,1,Yes
+710642,GENSCOT,COVIDLIFE1,whichbenefits_now_sickpay,WhichBenefits_Now_SickPay,0,No
+710643,GENSCOT,COVIDLIFE1,whichbenefits_now_sickpay,WhichBenefits_Now_SickPay,1,Yes
+710644,GENSCOT,COVIDLIFE1,whichbenefits_now_surestartmaternity,WhichBenefits_Now_SureStartMaternity,0,No
+710645,GENSCOT,COVIDLIFE1,whichbenefits_now_surestartmaternity,WhichBenefits_Now_SureStartMaternity,1,Yes
+710646,GENSCOT,COVIDLIFE1,whichbenefits_now_taxcred,WhichBenefits_Now_TaxCred,0,No
+710647,GENSCOT,COVIDLIFE1,whichbenefits_now_taxcred,WhichBenefits_Now_TaxCred,1,Yes
+710648,GENSCOT,COVIDLIFE1,whichbenefits_now_universalcred,WhichBenefits_Now_UniversalCred,0,No
+710649,GENSCOT,COVIDLIFE1,whichbenefits_now_universalcred,WhichBenefits_Now_UniversalCred,1,Yes
+710650,GENSCOT,COVIDLIFE1,whichbenefits_now_wardisablepen,WhichBenefits_Now_WarDisablePen,0,No
+710651,GENSCOT,COVIDLIFE1,whichbenefits_now_wardisablepen,WhichBenefits_Now_WarDisablePen,1,Yes
+710652,GENSCOT,COVIDLIFE1,whichbenefits_now_warwidowpen,WhichBenefits_Now_WarWidowPen,0,No
+710653,GENSCOT,COVIDLIFE1,whichbenefits_now_warwidowpen,WhichBenefits_Now_WarWidowPen,1,Yes
+710654,GENSCOT,COVIDLIFE1,whichbenefits_now_widowparentall,WhichBenefits_Now_WidowParentAll,0,No
+710655,GENSCOT,COVIDLIFE1,whichbenefits_now_widowparentall,WhichBenefits_Now_WidowParentAll,1,Yes
+710656,GENSCOT,COVIDLIFE1,whichbenefits_now_widowpen,WhichBenefits_Now_WidowPen,0,No
+710657,GENSCOT,COVIDLIFE1,whichbenefits_now_widowpen,WhichBenefits_Now_WidowPen,1,Yes
+710658,GENSCOT,COVIDLIFE1,whichbenefits_now_winterfuelpay,WhichBenefits_Now_WinterFuelPay,0,No
+710659,GENSCOT,COVIDLIFE1,whichbenefits_now_winterfuelpay,WhichBenefits_Now_WinterFuelPay,1,Yes
+710660,GENSCOT,COVIDLIFE1,whichbenefits_now_workingtaxcred,WhichBenefits_Now_WorkingTaxCred,0,No
+710661,GENSCOT,COVIDLIFE1,whichbenefits_now_workingtaxcred,WhichBenefits_Now_WorkingTaxCred,1,Yes
+710662,GENSCOT,COVIDLIFE1,whichbenefits_now_other,WhichBenefits_Now_Other,0,No
+710663,GENSCOT,COVIDLIFE1,whichbenefits_now_other,WhichBenefits_Now_Other,1,Yes
+710664,GENSCOT,COVIDLIFE1,whichbenefits_now_dk,WhichBenefits_Now_DK,0,No
+710665,GENSCOT,COVIDLIFE1,whichbenefits_now_dk,WhichBenefits_Now_DK,1,Yes
+710666,GENSCOT,COVIDLIFE1,whichbenefits_now_pnta,WhichBenefits_Now_PNTA,0,No
+710667,GENSCOT,COVIDLIFE1,whichbenefits_now_pnta,WhichBenefits_Now_PNTA,1,Yes
+710668,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,1,No qualifications
+710669,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,10,Postgraduate degree
+710670,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,2,Other (please specify)
+710671,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,3,School leavers certificate
+710672,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,4,CSEs or equivalen
+710673,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,5,"Standard grade, National 4 or 5, O levels, GCSEs or equivalent"
+710674,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,6,"Higher grade, A levels, AS levels or equivalent"
+710675,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,7,NVQ or HND or HNC or equivalent
+710676,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,8,Other professional or technical qualification
+710677,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,9,Undergraduate degree
+710678,GENSCOT,COVIDLIFE1,qualification, What is the highest educational qualification you have obtained?,98,Prefer not to answer
+710679,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,1,White – Scottish
+710680,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,10,Asian or Asian British – Pakistani
+710681,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,11,Asian or Asian British – Bangladeshi
+710682,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,12,Asian or Asian British – Chinese
+710683,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,13,Any other Asian background
+710684,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,14,Black or Black British - African
+710685,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,15,Black or Black British - Caribbean
+710686,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,16,Any other Black/African/Caribbean background
+710687,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,17,Arab or Arab British
+710688,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,18,Mixed – White and Black Caribbean
+710689,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,19,Mixed – White and Black African
+710690,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,2,White – English
+710691,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,20,Mixed – White and Asian
+710692,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,21,Any other Mixed/Multiple ethnic background
+710693,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,22,Any other ethnic group
+710694,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,3,White – Welsh
+710695,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,4,White – Northern Irish
+710696,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,5,White – Irish
+710697,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,6,White – Gypsy or Irish Traveller
+710698,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,7,White - Polish
+710699,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,8,Any other White background
+710700,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,9,Asian or Asian British – Indian
+710701,GENSCOT,COVIDLIFE1,ethnic_origin,What is your ethnic origin?,98,Prefer not to answer
+710702,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,1,House or bungalow
+710703,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,2,Flat or apartment
+710704,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,3,Hostel
+710705,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,4,Mobile home or caravan
+710706,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,5,Sheltered housing
+710707,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,6,Homeless
+710708,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,7,Other
+710709,GENSCOT,COVIDLIFE1,accommodation_type,What type of accommodation do you live in?,98,Prefer not to answer
+710710,GENSCOT,COVIDLIFE1,garden,Do you have a garden?,0,No
+710711,GENSCOT,COVIDLIFE1,garden,Do you have a garden?,1,Yes
+710712,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,1,Own outright
+710713,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,2,Own with mortgage
+710714,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,3,Rent from local authority/housing association
+710715,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,4,Rent from private landlord or agency
+710716,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,5,Pay part rent and part mortgage
+710717,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,6,Live rent free
+710718,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,7,Other
+710719,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,98,Prefer not to answer
+710720,GENSCOT,COVIDLIFE1,accommodation_status,What is the status of the accommodation in which you and your household live?,99,Don’t know
+710721,GENSCOT,COVIDLIFE1,rooms_house,How many rooms are there in your house?,,"1(1) ,..., 15+(15)"
+710722,GENSCOT,COVIDLIFE1,dependents,Do you have any adult dependents in your household?,0,No
+710723,GENSCOT,COVIDLIFE1,dependents,Do you have any adult dependents in your household?,1,Yes
+710724,GENSCOT,COVIDLIFE1,dependents,Do you have any adult dependents in your household?,98,Prefer not to answer
+710725,GENSCOT,COVIDLIFE1,dependents,Do you have any adult dependents in your household?,99,Don't know
+710726,GENSCOT,COVIDLIFE1,careinhousehold_child,"I.e., adults that depend on you financially",0,No
+710727,GENSCOT,COVIDLIFE1,careinhousehold_child,"I.e., adults that depend on you financially",1,Yes
+710728,GENSCOT,COVIDLIFE1,careinhousehold_adult_disability,Do you have caring responsibilities for any of the following people who live with you?,0,No
+710729,GENSCOT,COVIDLIFE1,careinhousehold_adult_disability,Do you have caring responsibilities for any of the following people who live with you?,1,Yes
+710730,GENSCOT,COVIDLIFE1,careinhousehold_elderly_relative,Do you have caring responsibilities for any of the following people who live with you?,0,No
+710731,GENSCOT,COVIDLIFE1,careinhousehold_elderly_relative,Do you have caring responsibilities for any of the following people who live with you?,1,Yes
+710732,GENSCOT,COVIDLIFE1,careinhousehold_other_elderly,Do you have caring responsibilities for any of the following people who live with you?,0,No
+710733,GENSCOT,COVIDLIFE1,careinhousehold_other_elderly,Do you have caring responsibilities for any of the following people who live with you?,1,Yes
+710734,GENSCOT,COVIDLIFE1,careinhousehold_other_adult,Do you have caring responsibilities for any of the following people who live with you?,0,No
+710735,GENSCOT,COVIDLIFE1,careinhousehold_other_adult,Do you have caring responsibilities for any of the following people who live with you?,1,Yes
+710736,GENSCOT,COVIDLIFE1,careinhousehold_pnta,Do you have caring responsibilities for any of the following people who live with you?,0,No
+710737,GENSCOT,COVIDLIFE1,careinhousehold_pnta,Do you have caring responsibilities for any of the following people who live with you?,1,Yes
+710738,GENSCOT,COVIDLIFE1,careinhousehold_none,Do you have caring responsibilities for any of the following people who live with you?,0,No
+710739,GENSCOT,COVIDLIFE1,careinhousehold_none,Do you have caring responsibilities for any of the following people who live with you?,1,Yes
+710740,GENSCOT,COVIDLIFE1,careinhouse_covid,Have your caring responsibilities for people you live with changed since COVID-19 measures have been in place?,0,No
+710741,GENSCOT,COVIDLIFE1,careinhouse_covid,Have your caring responsibilities for people you live with changed since COVID-19 measures have been in place?,1,Yes
+710742,GENSCOT,COVIDLIFE1,careouthouse_child,Do you have caring responsibilities for any of the following people who do not live with you?,0,No
+710743,GENSCOT,COVIDLIFE1,careouthouse_child,Do you have caring responsibilities for any of the following people who do not live with you?,1,Yes
+710744,GENSCOT,COVIDLIFE1,careouthouse_adult_disability,Do you have caring responsibilities for any of the following people who do not live with you?,0,No
+710745,GENSCOT,COVIDLIFE1,careouthouse_adult_disability,Do you have caring responsibilities for any of the following people who do not live with you?,1,Yes
+710746,GENSCOT,COVIDLIFE1,careouthouse_elderly_relative,Do you have caring responsibilities for any of the following people who do not live with you?,0,No
+710747,GENSCOT,COVIDLIFE1,careouthouse_elderly_relative,Do you have caring responsibilities for any of the following people who do not live with you?,1,Yes
+710748,GENSCOT,COVIDLIFE1,careouthouse_other_elderly,Do you have caring responsibilities for any of the following people who do not live with you?,0,No
+710749,GENSCOT,COVIDLIFE1,careouthouse_other_elderly,Do you have caring responsibilities for any of the following people who do not live with you?,1,Yes
+710750,GENSCOT,COVIDLIFE1,careouthouse_other_adult,Do you have caring responsibilities for any of the following people who do not live with you?,0,No
+710751,GENSCOT,COVIDLIFE1,careouthouse_other_adult,Do you have caring responsibilities for any of the following people who do not live with you?,1,Yes
+710752,GENSCOT,COVIDLIFE1,careouthouse_pnta,Do you have caring responsibilities for any of the following people who do not live with you?,0,No
+710753,GENSCOT,COVIDLIFE1,careouthouse_pnta,Do you have caring responsibilities for any of the following people who do not live with you?,1,Yes
+710754,GENSCOT,COVIDLIFE1,careouthouse_none,Do you have caring responsibilities for any of the following people who do not live with you?,0,No
+710755,GENSCOT,COVIDLIFE1,careouthouse_none,Do you have caring responsibilities for any of the following people who do not live with you?,1,Yes
+710756,GENSCOT,COVIDLIFE1,careouthouse_covid,Have your caring responsibilities for people you do not live with changed since COVID-19 measures have been in place?,0,No
+710757,GENSCOT,COVIDLIFE1,careouthouse_covid,Have your caring responsibilities for people you do not live with changed since COVID-19 measures have been in place?,1,Yes
+710758,GENSCOT,COVIDLIFE1,conditions_you_blind,Do you or others in your household have any of the following conditions?,0,No
+710759,GENSCOT,COVIDLIFE1,conditions_you_blind,Do you or others in your household have any of the following conditions?,1,Yes
+710760,GENSCOT,COVIDLIFE1,conditions_you_partial_sight,Do you or others in your household have any of the following conditions?,0,No
+710761,GENSCOT,COVIDLIFE1,conditions_you_partial_sight,Do you or others in your household have any of the following conditions?,1,Yes
+710762,GENSCOT,COVIDLIFE1,conditions_you_deaf,Do you or others in your household have any of the following conditions?,0,No
+710763,GENSCOT,COVIDLIFE1,conditions_you_deaf,Do you or others in your household have any of the following conditions?,1,Yes
+710764,GENSCOT,COVIDLIFE1,conditions_you_partial_hear,Do you or others in your household have any of the following conditions?,0,No
+710765,GENSCOT,COVIDLIFE1,conditions_you_partial_hear,Do you or others in your household have any of the following conditions?,1,Yes
+710766,GENSCOT,COVIDLIFE1,conditions_you_learning_disability,Do you or others in your household have any of the following conditions?,0,No
+710767,GENSCOT,COVIDLIFE1,conditions_you_learning_disability,Do you or others in your household have any of the following conditions?,1,Yes
+710768,GENSCOT,COVIDLIFE1,conditions_you_learning_difficulty,Do you or others in your household have any of the following conditions?,0,No
+710769,GENSCOT,COVIDLIFE1,conditions_you_learning_difficulty,Do you or others in your household have any of the following conditions?,1,Yes
+710770,GENSCOT,COVIDLIFE1,conditions_you_developmental_dis,Do you or others in your household have any of the following conditions?,0,No
+710771,GENSCOT,COVIDLIFE1,conditions_you_developmental_dis,Do you or others in your household have any of the following conditions?,1,Yes
+710772,GENSCOT,COVIDLIFE1,conditions_you_physical_dis,Do you or others in your household have any of the following conditions?,0,No
+710773,GENSCOT,COVIDLIFE1,conditions_you_physical_dis,Do you or others in your household have any of the following conditions?,1,Yes
+710774,GENSCOT,COVIDLIFE1,conditions_you_cognitive_imp,Do you or others in your household have any of the following conditions?,0,No
+710775,GENSCOT,COVIDLIFE1,conditions_you_cognitive_imp,Do you or others in your household have any of the following conditions?,1,Yes
+710776,GENSCOT,COVIDLIFE1,conditions_you_mh_condition,Do you or others in your household have any of the following conditions?,0,No
+710777,GENSCOT,COVIDLIFE1,conditions_you_mh_condition,Do you or others in your household have any of the following conditions?,1,Yes
+710778,GENSCOT,COVIDLIFE1,conditions_you_chronic_condition,Do you or others in your household have any of the following conditions?,0,No
+710779,GENSCOT,COVIDLIFE1,conditions_you_chronic_condition,Do you or others in your household have any of the following conditions?,1,Yes
+710780,GENSCOT,COVIDLIFE1,conditions_you_pnta,Do you or others in your household have any of the following conditions?,0,No
+710781,GENSCOT,COVIDLIFE1,conditions_you_pnta,Do you or others in your household have any of the following conditions?,1,Yes
+710782,GENSCOT,COVIDLIFE1,conditions_you_none,Do you or others in your household have any of the following conditions?,0,No
+710783,GENSCOT,COVIDLIFE1,conditions_you_none,Do you or others in your household have any of the following conditions?,1,Yes
+710784,GENSCOT,COVIDLIFE1,conditions_household_blind,Do you or others in your household have any of the following conditions?,0,No
+710785,GENSCOT,COVIDLIFE1,conditions_household_blind,Do you or others in your household have any of the following conditions?,1,Yes
+710786,GENSCOT,COVIDLIFE1,conditions_household_partial_sight,Do you or others in your household have any of the following conditions?,0,No
+710787,GENSCOT,COVIDLIFE1,conditions_household_partial_sight,Do you or others in your household have any of the following conditions?,1,Yes
+710788,GENSCOT,COVIDLIFE1,conditions_household_deaf,Do you or others in your household have any of the following conditions?,0,No
+710789,GENSCOT,COVIDLIFE1,conditions_household_deaf,Do you or others in your household have any of the following conditions?,1,Yes
+710790,GENSCOT,COVIDLIFE1,conditions_household_partial_hear,Do you or others in your household have any of the following conditions?,0,No
+710791,GENSCOT,COVIDLIFE1,conditions_household_partial_hear,Do you or others in your household have any of the following conditions?,1,Yes
+710792,GENSCOT,COVIDLIFE1,conditions_household_learning_disability,Do you or others in your household have any of the following conditions?,0,No
+710793,GENSCOT,COVIDLIFE1,conditions_household_learning_disability,Do you or others in your household have any of the following conditions?,1,Yes
+710794,GENSCOT,COVIDLIFE1,conditions_household_learning_difficulty,Do you or others in your household have any of the following conditions?,0,No
+710795,GENSCOT,COVIDLIFE1,conditions_household_learning_difficulty,Do you or others in your household have any of the following conditions?,1,Yes
+710796,GENSCOT,COVIDLIFE1,conditions_household_developmental_dis,Do you or others in your household have any of the following conditions?,0,No
+710797,GENSCOT,COVIDLIFE1,conditions_household_developmental_dis,Do you or others in your household have any of the following conditions?,1,Yes
+710798,GENSCOT,COVIDLIFE1,conditions_household_physical_dis,Do you or others in your household have any of the following conditions?,0,No
+710799,GENSCOT,COVIDLIFE1,conditions_household_physical_dis,Do you or others in your household have any of the following conditions?,1,Yes
+710800,GENSCOT,COVIDLIFE1,conditions_household_cognitive_imp,Do you or others in your household have any of the following conditions?,0,No
+710801,GENSCOT,COVIDLIFE1,conditions_household_cognitive_imp,Do you or others in your household have any of the following conditions?,1,Yes
+710802,GENSCOT,COVIDLIFE1,conditions_household_mh_condition,Do you or others in your household have any of the following conditions?,0,No
+710803,GENSCOT,COVIDLIFE1,conditions_household_mh_condition,Do you or others in your household have any of the following conditions?,1,Yes
+710804,GENSCOT,COVIDLIFE1,conditions_household_chronic_condition,Do you or others in your household have any of the following conditions?,0,No
+710805,GENSCOT,COVIDLIFE1,conditions_household_chronic_condition,Do you or others in your household have any of the following conditions?,1,Yes
+710806,GENSCOT,COVIDLIFE1,conditions_household_pnta,Do you or others in your household have any of the following conditions?,0,No
+710807,GENSCOT,COVIDLIFE1,conditions_household_pnta,Do you or others in your household have any of the following conditions?,1,Yes
+710808,GENSCOT,COVIDLIFE1,conditions_household_none,Do you or others in your household have any of the following conditions?,0,No
+710809,GENSCOT,COVIDLIFE1,conditions_household_none,Do you or others in your household have any of the following conditions?,1,Yes
+710810,GENSCOT,COVIDLIFE1,avail_from_dt,,,

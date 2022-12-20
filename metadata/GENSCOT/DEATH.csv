@@ -1,0 +1,21 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+713253,GENSCOT,DEATH,study_id_e,,,
+713254,GENSCOT,DEATH,sex,sex,F,Female
+713255,GENSCOT,DEATH,sex,sex,M,Male
+713256,GENSCOT,DEATH,dob,date of birth,,yyyymm
+713257,GENSCOT,DEATH,dod,date of death,,yyyymm
+713258,GENSCOT,DEATH,aged,age death,,Years
+713259,GENSCOT,DEATH,cause,ICD10 Cause of death,,ICD10 Cause of death
+713260,GENSCOT,DEATH,sec0,ICD10 Secondary cause,,ICD10 Secondary cause
+713261,GENSCOT,DEATH,sec1,ICD10 Secondary cause,,ICD10 Secondary cause
+713262,GENSCOT,DEATH,sec2,ICD10 Secondary cause,,ICD10 Secondary cause
+713263,GENSCOT,DEATH,sec3,ICD10 Secondary cause,,ICD10 Secondary cause
+713264,GENSCOT,DEATH,sec4,ICD10 Secondary cause,,ICD10 Secondary cause
+713265,GENSCOT,DEATH,sec5,ICD10 Secondary cause,,ICD10 Secondary cause
+713266,GENSCOT,DEATH,sec6,ICD10 Secondary cause,,ICD10 Secondary cause
+713267,GENSCOT,DEATH,sec7,ICD10 Secondary cause,,ICD10 Secondary cause
+713268,GENSCOT,DEATH,sec8,ICD10 Secondary cause,,ICD10 Secondary cause
+713269,GENSCOT,DEATH,sec9,ICD10 Secondary cause,,ICD10 Secondary cause
+713270,GENSCOT,DEATH,covid,covid19 on certificate,,Flag
+713271,GENSCOT,DEATH,death28,28 days of positive test,,Flag
+713272,GENSCOT,DEATH,avail_from_dt,,,

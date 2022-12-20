@@ -1,0 +1,456 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1061756,NEXTSTEP,longitudinal_index_file,study_id_e,,,
+1061757,NEXTSTEP,longitudinal_index_file,hhid,DV: Time constant person number,-999.0,Missing household information
+1061758,NEXTSTEP,longitudinal_index_file,w1hhresp,W1: Whether there is household information for this person,-994.0,Boost cases not yet in sample
+1061759,NEXTSTEP,longitudinal_index_file,w1hhresp,W1: Whether there is household information for this person,-993.0,Not yet joined household
+1061760,NEXTSTEP,longitudinal_index_file,w1hhresp,W1: Whether there is household information for this person,-94.0,Insufficient information
+1061761,NEXTSTEP,longitudinal_index_file,w1hhresp,W1: Whether there is household information for this person,0.0,No grid response in this wave
+1061762,NEXTSTEP,longitudinal_index_file,w1hhresp,W1: Whether there is household information for this person,1.0,HH grid response in this wave
+1061763,NEXTSTEP,longitudinal_index_file,w2hhresp,W2: Whether there is household information for this person,-994.0,Boost cases not yet in sample
+1061764,NEXTSTEP,longitudinal_index_file,w2hhresp,W2: Whether there is household information for this person,-993.0,Not yet joined household
+1061765,NEXTSTEP,longitudinal_index_file,w2hhresp,W2: Whether there is household information for this person,-94.0,Insufficient information
+1061766,NEXTSTEP,longitudinal_index_file,w2hhresp,W2: Whether there is household information for this person,0.0,No grid response in this wave
+1061767,NEXTSTEP,longitudinal_index_file,w2hhresp,W2: Whether there is household information for this person,1.0,HH grid response in this wave
+1061768,NEXTSTEP,longitudinal_index_file,w3hhresp,W3: Whether there is household information for this person,-994.0,Boost cases not yet in sample
+1061769,NEXTSTEP,longitudinal_index_file,w3hhresp,W3: Whether there is household information for this person,-993.0,Not yet joined household
+1061770,NEXTSTEP,longitudinal_index_file,w3hhresp,W3: Whether there is household information for this person,-94.0,Insufficient information
+1061771,NEXTSTEP,longitudinal_index_file,w3hhresp,W3: Whether there is household information for this person,0.0,No grid response in this wave
+1061772,NEXTSTEP,longitudinal_index_file,w3hhresp,W3: Whether there is household information for this person,1.0,HH grid response in this wave
+1061773,NEXTSTEP,longitudinal_index_file,w4hhresp,W4: Whether there is household information for this person,-993.0,Not yet joined household
+1061774,NEXTSTEP,longitudinal_index_file,w4hhresp,W4: Whether there is household information for this person,-94.0,Insufficient information
+1061775,NEXTSTEP,longitudinal_index_file,w4hhresp,W4: Whether there is household information for this person,0.0,No grid response in this wave
+1061776,NEXTSTEP,longitudinal_index_file,w4hhresp,W4: Whether there is household information for this person,1.0,HH grid response in this wave
+1061777,NEXTSTEP,longitudinal_index_file,w5hhresp,W5: Whether there is household information for this person,-993.0,Not yet joined household
+1061778,NEXTSTEP,longitudinal_index_file,w5hhresp,W5: Whether there is household information for this person,-94.0,Insufficient information
+1061779,NEXTSTEP,longitudinal_index_file,w5hhresp,W5: Whether there is household information for this person,0.0,No grid response in this wave
+1061780,NEXTSTEP,longitudinal_index_file,w5hhresp,W5: Whether there is household information for this person,1.0,HH grid response in this wave
+1061781,NEXTSTEP,longitudinal_index_file,w6hhresp,W6: Whether there is household information for this person,-993.0,Not yet joined household
+1061782,NEXTSTEP,longitudinal_index_file,w6hhresp,W6: Whether there is household information for this person,-94.0,Insufficient information
+1061783,NEXTSTEP,longitudinal_index_file,w6hhresp,W6: Whether there is household information for this person,0.0,No grid response in this wave
+1061784,NEXTSTEP,longitudinal_index_file,w6hhresp,W6: Whether there is household information for this person,1.0,HH grid response in this wave
+1061785,NEXTSTEP,longitudinal_index_file,hdobm,Month of birth,-999.0,Missing HH data
+1061786,NEXTSTEP,longitudinal_index_file,hdobm,Month of birth,-989.0,New member at W5 or W6 - information not available
+1061787,NEXTSTEP,longitudinal_index_file,hdobm,Month of birth,-94.0,Insufficient Info
+1061788,NEXTSTEP,longitudinal_index_file,hdobm,Month of birth,-92.0,Refused
+1061789,NEXTSTEP,longitudinal_index_file,hdobm,Month of birth,-91.0,Not Applicable
+1061790,NEXTSTEP,longitudinal_index_file,hdobm,Month of birth,-1.0,Don't know
+1061791,NEXTSTEP,longitudinal_index_file,hdoby,Year of birth,-999.0,Missing HH data
+1061792,NEXTSTEP,longitudinal_index_file,hdoby,Year of birth,-989.0,New member at W5 or W6 - information not available
+1061793,NEXTSTEP,longitudinal_index_file,hdoby,Year of birth,-94.0,Insufficient Info
+1061794,NEXTSTEP,longitudinal_index_file,hdoby,Year of birth,-92.0,Refused
+1061795,NEXTSTEP,longitudinal_index_file,hdoby,Year of birth,-91.0,Not Applicable
+1061796,NEXTSTEP,longitudinal_index_file,hdoby,Year of birth,-1.0,Don't know
+1061797,NEXTSTEP,longitudinal_index_file,sex,Sex,-999.0,Missing HH data
+1061798,NEXTSTEP,longitudinal_index_file,sex,Sex,-94.0,Insufficient information
+1061799,NEXTSTEP,longitudinal_index_file,sex,Sex,1.0,Male
+1061800,NEXTSTEP,longitudinal_index_file,sex,Sex,2.0,Female
+1061801,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,-999.0,Missing HH data
+1061802,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,-989.0,New member at W5 or W6 - information not available
+1061803,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,-94.0,Insufficient information
+1061804,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,-92.0,Refused
+1061805,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,-91.0,Not Applicable
+1061806,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,0.0,Young person
+1061807,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,1.0,Husband/ Wife
+1061808,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,2.0,Partner/ Cohabitee
+1061809,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,3.0,Natural son/ daughter
+1061810,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,4.0,Adopted son/ daughter
+1061811,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,5.0,Foster child
+1061812,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,6.0,Step-son/ Step-daughter
+1061813,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,8.0,Natural parent
+1061814,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,9.0,Adoptive parent
+1061815,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,10.0,Foster parent
+1061816,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,11.0,Step-parent
+1061817,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,12.0,Parent-in-law/ Partner's parent
+1061818,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,13.0,Natural brother/ sister
+1061819,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,14.0,Half-brother/ -sister
+1061820,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,15.0,Step-brother/ -sister
+1061821,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,16.0,Adopted brother/ sister
+1061822,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,17.0,Foster brother/ Foster sister
+1061823,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,18.0,Brother-in-law/ Sister-in-law
+1061824,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,19.0,Grandchild
+1061825,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,20.0,Grandparent
+1061826,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,21.0,Other relative
+1061827,NEXTSTEP,longitudinal_index_file,reltoyp,Relationship of HH member to Young Person at Wave One or earliest wave entered HH,22.0,Other non-relative
+1061828,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,-999.0,Missing HH data
+1061829,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,-94.0,Insufficient information
+1061830,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,-92.0,Refused
+1061831,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,-91.0,Not Applicable
+1061832,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,0.0,Young person
+1061833,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,1.0,"Parent, including step/adopted/foster"
+1061834,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,2.0,"Sibling, including step/adopted/foster"
+1061835,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,3.0,"Partner, husband/wife"
+1061836,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,4.0,Child
+1061837,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,5.0,Parent's partner or spouse
+1061838,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,6.0,Other relative
+1061839,NEXTSTEP,longitudinal_index_file,reltoyp2,Relationship of HH member to Young Person - new coding scheme at Wave 5 and W6,7.0,Non relative
+1061840,NEXTSTEP,longitudinal_index_file,w1mainres,W1: Main parent position,-999.0,Missing household data
+1061841,NEXTSTEP,longitudinal_index_file,w1mainres,W1: Main parent position,-998.0,Interview question missed
+1061842,NEXTSTEP,longitudinal_index_file,w1mainres,W1: Main parent position,-994.0,Boost cases not yet in sample
+1061843,NEXTSTEP,longitudinal_index_file,w1mainres,W1: Main parent position,-992.0,No response in this wave
+1061844,NEXTSTEP,longitudinal_index_file,w1mainres,W1: Main parent position,-94.0,Insufficient information
+1061845,NEXTSTEP,longitudinal_index_file,w1mainres,W1: Main parent position,-91.0,Not applicable
+1061846,NEXTSTEP,longitudinal_index_file,w1secores,W1: Second parent position,-999.0,Missing household data
+1061847,NEXTSTEP,longitudinal_index_file,w1secores,W1: Second parent position,-994.0,Boost cases not yet in sample
+1061848,NEXTSTEP,longitudinal_index_file,w1secores,W1: Second parent position,-992.0,No response in this wave
+1061849,NEXTSTEP,longitudinal_index_file,w1secores,W1: Second parent position,-94.0,Insufficient information
+1061850,NEXTSTEP,longitudinal_index_file,w1secores,W1: Second parent position,-91.0,Not applicable
+1061851,NEXTSTEP,longitudinal_index_file,w1histres,W1: History respondent position,-999.0,Missing household data
+1061852,NEXTSTEP,longitudinal_index_file,w1histres,W1: History respondent position,-994.0,Boost cases not yet in sample
+1061853,NEXTSTEP,longitudinal_index_file,w1histres,W1: History respondent position,-992.0,No response in this wave
+1061854,NEXTSTEP,longitudinal_index_file,w1histres,W1: History respondent position,-94.0,Insufficient information
+1061855,NEXTSTEP,longitudinal_index_file,w1histres,W1: History respondent position,-91.0,Not applicable
+1061856,NEXTSTEP,longitudinal_index_file,w1mpint,W1: Main Parent Interview Section conducted,-994.0,Boost cases not yet in sample
+1061857,NEXTSTEP,longitudinal_index_file,w1mpint,W1: Main Parent Interview Section conducted,-992.0,No response in this wave
+1061858,NEXTSTEP,longitudinal_index_file,w1mpint,W1: Main Parent Interview Section conducted,0.0,Main Parent interview not completed
+1061859,NEXTSTEP,longitudinal_index_file,w1mpint,W1: Main Parent Interview Section conducted,1.0,Main Parent interview completed
+1061860,NEXTSTEP,longitudinal_index_file,w1spint,W1: Second Parent Interview Section conducted,-994.0,Boost cases not yet in sample
+1061861,NEXTSTEP,longitudinal_index_file,w1spint,W1: Second Parent Interview Section conducted,-992.0,No response in this wave
+1061862,NEXTSTEP,longitudinal_index_file,w1spint,W1: Second Parent Interview Section conducted,-91.0,Not applicable
+1061863,NEXTSTEP,longitudinal_index_file,w1spint,W1: Second Parent Interview Section conducted,0.0,Second Parent interview not completed
+1061864,NEXTSTEP,longitudinal_index_file,w1spint,W1: Second Parent Interview Section conducted,1.0,Second Parent interview completed
+1061865,NEXTSTEP,longitudinal_index_file,w1ypint,W1: Young Person Interview Section conducted,-994.0,Boost cases not yet in sample
+1061866,NEXTSTEP,longitudinal_index_file,w1ypint,W1: Young Person Interview Section conducted,-992.0,No response in this wave
+1061867,NEXTSTEP,longitudinal_index_file,w1ypint,W1: Young Person Interview Section conducted,0.0,Young Person interview not completed
+1061868,NEXTSTEP,longitudinal_index_file,w1ypint,W1: Young Person Interview Section conducted,1.0,Young Person interview completed
+1061869,NEXTSTEP,longitudinal_index_file,w1histint,W1: History Interview Section conducted,-994.0,Boost cases not yet in sample
+1061870,NEXTSTEP,longitudinal_index_file,w1histint,W1: History Interview Section conducted,-992.0,No response in this wave
+1061871,NEXTSTEP,longitudinal_index_file,w1histint,W1: History Interview Section conducted,-94.0,Insufficient information - no history data available
+1061872,NEXTSTEP,longitudinal_index_file,w1histint,W1: History Interview Section conducted,0.0,History interview not completed
+1061873,NEXTSTEP,longitudinal_index_file,w1histint,W1: History Interview Section conducted,1.0,History interview completed
+1061874,NEXTSTEP,longitudinal_index_file,w1histint,W1: History Interview Section conducted,2.0,History interview completed by wrong respondent
+1061875,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,-994.0,Boost cases not yet in sample
+1061876,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,-992.0,No response in this wave
+1061877,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,-95.0,HH member not main/second parent
+1061878,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,-94.0,insufficient information
+1061879,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,-91.0,Not applicable
+1061880,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,1.0,Natural mother
+1061881,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,2.0,Adoptive mother
+1061882,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,3.0,Foster mother
+1061883,NEXTSTEP,longitudinal_index_file,w1mother,DV: W1 Whether HH member is mother of YP,4.0,Step mother
+1061884,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,-994.0,Boost cases not yet in sample
+1061885,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,-992.0,No response in this wave
+1061886,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,-95.0,HH member not main/second parent
+1061887,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,-94.0,insufficient information
+1061888,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,-91.0,Not applicable
+1061889,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,1.0,Natural mother
+1061890,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,2.0,Adoptive mother
+1061891,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,3.0,Foster mother
+1061892,NEXTSTEP,longitudinal_index_file,w1mpmother,DV: W1 Whether main parent is mother of YP,4.0,Step mother
+1061893,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,-994.0,Boost cases not yet in sample
+1061894,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,-992.0,No response in this wave
+1061895,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,-95.0,HH member not main/second parent
+1061896,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,-94.0,insufficient information
+1061897,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,-91.0,Not applicable
+1061898,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,1.0,Natural father
+1061899,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,2.0,Adoptive father
+1061900,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,3.0,Foster father
+1061901,NEXTSTEP,longitudinal_index_file,w1mpfather,DV: W1 Whether main parent is father of YP,4.0,Step father
+1061902,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,-994.0,Boost cases not yet in sample
+1061903,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,-992.0,No response in this wave
+1061904,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,-95.0,HH member not main/second parent
+1061905,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,-94.0,insufficient information
+1061906,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,-91.0,Not applicable
+1061907,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,1.0,Natural father
+1061908,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,2.0,Adoptive father
+1061909,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,3.0,Foster father
+1061910,NEXTSTEP,longitudinal_index_file,w1father,DV: W1 Whether HH member is father of YP,4.0,Step father
+1061911,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,-992.0,No response in this wave
+1061912,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,-95.0,HH member not main/second parent
+1061913,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,-94.0,insufficient information
+1061914,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,-91.0,Not applicable
+1061915,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,1.0,Natural father
+1061916,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,2.0,Adoptive father
+1061917,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,3.0,Foster father
+1061918,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,4.0,Step father
+1061919,NEXTSTEP,longitudinal_index_file,w1spfather,DV: W1 Whether second parent is father of YP,-994.0,Boost cases not yet in sample
+1061920,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,-994.0,Boost cases not yet in sample
+1061921,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,-992.0,No response in this wave
+1061922,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,-95.0,HH member not main/second parent
+1061923,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,-94.0,insufficient information
+1061924,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,-91.0,Not applicable
+1061925,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,1.0,Natural mother
+1061926,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,2.0,Adoptive mother
+1061927,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,3.0,Foster mother
+1061928,NEXTSTEP,longitudinal_index_file,w1spmother,DV: W1 Whether second parent is mother of YP,4.0,Step mother
+1061929,NEXTSTEP,longitudinal_index_file,w2mainres,W2: Main parent position,-994.0,Boost cases not yet in sample
+1061930,NEXTSTEP,longitudinal_index_file,w2mainres,W2: Main parent position,-992.0,No response in this wave
+1061931,NEXTSTEP,longitudinal_index_file,w2mainres,W2: Main parent position,-94.0,Insufficient information
+1061932,NEXTSTEP,longitudinal_index_file,w2mainres,W2: Main parent position,-91.0,Not applicable
+1061933,NEXTSTEP,longitudinal_index_file,w2secores,W2: Second parent position,-994.0,Boost cases not yet in sample
+1061934,NEXTSTEP,longitudinal_index_file,w2secores,W2: Second parent position,-992.0,No response in this wave
+1061935,NEXTSTEP,longitudinal_index_file,w2secores,W2: Second parent position,-94.0,Insufficient information
+1061936,NEXTSTEP,longitudinal_index_file,w2secores,W2: Second parent position,-91.0,Not applicable
+1061937,NEXTSTEP,longitudinal_index_file,w2histres,W2: History respondent position,-994.0,Boost cases not yet in sample
+1061938,NEXTSTEP,longitudinal_index_file,w2histres,W2: History respondent position,-992.0,No response in this wave
+1061939,NEXTSTEP,longitudinal_index_file,w2histres,W2: History respondent position,-94.0,Insufficient information
+1061940,NEXTSTEP,longitudinal_index_file,w2histres,W2: History respondent position,-91.0,Not applicable
+1061941,NEXTSTEP,longitudinal_index_file,w2newmember,W2: Whether HH member is new at Wave 2,-994.0,Boost cases not yet in sample
+1061942,NEXTSTEP,longitudinal_index_file,w2newmember,W2: Whether HH member is new at Wave 2,-992.0,No response in this wave
+1061943,NEXTSTEP,longitudinal_index_file,w2newmember,W2: Whether HH member is new at Wave 2,-91.0,Not applicable
+1061944,NEXTSTEP,longitudinal_index_file,w2newmember,W2: Whether HH member is new at Wave 2,0.0,No
+1061945,NEXTSTEP,longitudinal_index_file,w2newmember,W2: Whether HH member is new at Wave 2,1.0,Yes
+1061946,NEXTSTEP,longitudinal_index_file,w2newmember,W2: Whether HH member is new at Wave 2,2.0,Not identified as new member but not in W1
+1061947,NEXTSTEP,longitudinal_index_file,w2mpint,W2: Main Parent Interview Section conducted,-994.0,Boost cases not yet in sample
+1061948,NEXTSTEP,longitudinal_index_file,w2mpint,W2: Main Parent Interview Section conducted,-992.0,No response in this wave
+1061949,NEXTSTEP,longitudinal_index_file,w2mpint,W2: Main Parent Interview Section conducted,0.0,Main Parent interview not completed
+1061950,NEXTSTEP,longitudinal_index_file,w2mpint,W2: Main Parent Interview Section conducted,1.0,Main Parent interview completed
+1061951,NEXTSTEP,longitudinal_index_file,w2spint,W2: Second Parent Interview Section conducted,-998.0,Interview missed question
+1061952,NEXTSTEP,longitudinal_index_file,w2spint,W2: Second Parent Interview Section conducted,-994.0,Boost cases not yet in sample
+1061953,NEXTSTEP,longitudinal_index_file,w2spint,W2: Second Parent Interview Section conducted,-992.0,No response in this wave
+1061954,NEXTSTEP,longitudinal_index_file,w2spint,W2: Second Parent Interview Section conducted,-91.0,Not Applicable
+1061955,NEXTSTEP,longitudinal_index_file,w2spint,W2: Second Parent Interview Section conducted,0.0,Second Parent interview not completed
+1061956,NEXTSTEP,longitudinal_index_file,w2spint,W2: Second Parent Interview Section conducted,1.0,Second Parent interview completed
+1061957,NEXTSTEP,longitudinal_index_file,w2ypint,W2: Young Person Interview Section conducted,-998.0,Interview missed question
+1061958,NEXTSTEP,longitudinal_index_file,w2ypint,W2: Young Person Interview Section conducted,-994.0,Boost cases not yet in sample
+1061959,NEXTSTEP,longitudinal_index_file,w2ypint,W2: Young Person Interview Section conducted,-992.0,No response in this wave
+1061960,NEXTSTEP,longitudinal_index_file,w2ypint,W2: Young Person Interview Section conducted,0.0,Young Person interview not completed
+1061961,NEXTSTEP,longitudinal_index_file,w2ypint,W2: Young Person Interview Section conducted,1.0,Young Person interview completed
+1061962,NEXTSTEP,longitudinal_index_file,w2histint,W2: History Interview Section conducted,-998.0,Interview missed question
+1061963,NEXTSTEP,longitudinal_index_file,w2histint,W2: History Interview Section conducted,-994.0,Boost cases not yet in sample
+1061964,NEXTSTEP,longitudinal_index_file,w2histint,W2: History Interview Section conducted,-992.0,No response in this wave
+1061965,NEXTSTEP,longitudinal_index_file,w2histint,W2: History Interview Section conducted,-94.0,Insufficient information - no history data available
+1061966,NEXTSTEP,longitudinal_index_file,w2histint,W2: History Interview Section conducted,0.0,History interview not completed
+1061967,NEXTSTEP,longitudinal_index_file,w2histint,W2: History Interview Section conducted,1.0,History interview completed
+1061968,NEXTSTEP,longitudinal_index_file,w2histint,W2: History Interview Section conducted,2.0,History Interview completed by wrong respondent
+1061969,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,-994.0,Boost cases not yet in sample
+1061970,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,-992.0,No response in this wave
+1061971,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,-94.0,Insufficient information
+1061972,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,-91.0,Not Applicable
+1061973,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,1.0,Natural mother
+1061974,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,2.0,Adoptive mother
+1061975,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,3.0,Foster mother
+1061976,NEXTSTEP,longitudinal_index_file,w2mother,DV: W2 Whether HH member is mother of YP,4.0,Step mother
+1061977,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,-994.0,Boost cases not yet in sample
+1061978,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,-992.0,No response in this wave
+1061979,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,-95.0,HH member not main/second parent
+1061980,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,-94.0,Insufficient information
+1061981,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,-91.0,Not Applicable
+1061982,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,1.0,Natural mother
+1061983,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,2.0,Adoptive mother
+1061984,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,3.0,Foster mother
+1061985,NEXTSTEP,longitudinal_index_file,w2mpmother,DV: W2 Whether main parent is mother of YP,4.0,Step mother
+1061986,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,-994.0,Boost cases not yet in sample
+1061987,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,-992.0,No response in this wave
+1061988,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,-95.0,HH member not main/second parent
+1061989,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,-94.0,Insufficient information
+1061990,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,-91.0,Not Applicable
+1061991,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,1.0,Natural father
+1061992,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,2.0,Adoptive father
+1061993,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,3.0,Foster father
+1061994,NEXTSTEP,longitudinal_index_file,w2mpfather,DV: W2 Whether main parent is father of YP,4.0,Step father
+1061995,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,-994.0,Boost cases not yet in sample
+1061996,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,-992.0,No response in this wave
+1061997,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,-94.0,Insufficient information
+1061998,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,-91.0,Not Applicable
+1061999,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,1.0,Natural father
+1062000,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,2.0,Adoptive father
+1062001,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,3.0,Foster father
+1062002,NEXTSTEP,longitudinal_index_file,w2father,DV: W2 Whether HH member is father of YP,4.0,Step father
+1062003,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,-994.0,Boost cases not yet in sample
+1062004,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,-992.0,No response in this wave
+1062005,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,-95.0,HH member not main/second parent
+1062006,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,-94.0,Insufficient information
+1062007,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,-91.0,Not Applicable
+1062008,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,1.0,Natural father
+1062009,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,2.0,Adoptive father
+1062010,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,3.0,Foster father
+1062011,NEXTSTEP,longitudinal_index_file,w2spfather,DV: W2 Whether second parent is father of YP,4.0,Step father
+1062012,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,-994.0,Boost cases not yet in sample
+1062013,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,-992.0,No response in this wave
+1062014,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,-95.0,HH member not main/second parent
+1062015,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,-94.0,Insufficient information
+1062016,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,-91.0,Not Applicable
+1062017,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,1.0,Natural mother
+1062018,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,2.0,Adoptive mother
+1062019,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,3.0,Foster mother
+1062020,NEXTSTEP,longitudinal_index_file,w2spmother,DV: W2 Whether second parent is mother of YP,4.0,Step mother
+1062021,NEXTSTEP,longitudinal_index_file,w3mainres,W3: Main parent position,-994.0,Boost cases not yet in sample
+1062022,NEXTSTEP,longitudinal_index_file,w3mainres,W3: Main parent position,-992.0,No response in this wave
+1062023,NEXTSTEP,longitudinal_index_file,w3mainres,W3: Main parent position,-91.0,Not applicable
+1062024,NEXTSTEP,longitudinal_index_file,w3secores,W3: Second parent position,-994.0,Boost cases not yet in sample
+1062025,NEXTSTEP,longitudinal_index_file,w3secores,W3: Second parent position,-992.0,No response in this wave
+1062026,NEXTSTEP,longitudinal_index_file,w3secores,W3: Second parent position,-98.0,SP not present
+1062027,NEXTSTEP,longitudinal_index_file,w3newmember,W3: Whether HH member is new at Wave 3,-994.0,Boost cases not yet in sample
+1062028,NEXTSTEP,longitudinal_index_file,w3newmember,W3: Whether HH member is new at Wave 3,-992.0,No response in this wave
+1062029,NEXTSTEP,longitudinal_index_file,w3newmember,W3: Whether HH member is new at Wave 3,0.0,No
+1062030,NEXTSTEP,longitudinal_index_file,w3newmember,W3: Whether HH member is new at Wave 3,1.0,Yes
+1062031,NEXTSTEP,longitudinal_index_file,w3newmember,W3: Whether HH member is new at Wave 3,2.0,Not identified as new member but not in earlier waves
+1062032,NEXTSTEP,longitudinal_index_file,w3mpint,W3: Main Parent Interview Section conducted,-994.0,Boost cases not yet in sample
+1062033,NEXTSTEP,longitudinal_index_file,w3mpint,W3: Main Parent Interview Section conducted,-992.0,No response in this wave
+1062034,NEXTSTEP,longitudinal_index_file,w3mpint,W3: Main Parent Interview Section conducted,0.0,Main Parent interview not completed
+1062035,NEXTSTEP,longitudinal_index_file,w3mpint,W3: Main Parent Interview Section conducted,1.0,Main Parent interview completed
+1062036,NEXTSTEP,longitudinal_index_file,nw3spint,W3: Whether interview was conducted jointly with second parent,-994.0,Boost cases not yet in sample
+1062037,NEXTSTEP,longitudinal_index_file,nw3spint,W3: Whether interview was conducted jointly with second parent,-992.0,No response in this wave
+1062038,NEXTSTEP,longitudinal_index_file,nw3spint,W3: Whether interview was conducted jointly with second parent,-98.0,SP not present
+1062039,NEXTSTEP,longitudinal_index_file,nw3spint,W3: Whether interview was conducted jointly with second parent,-91.0,Not applicable - no MP interview completed
+1062040,NEXTSTEP,longitudinal_index_file,nw3spint,W3: Whether interview was conducted jointly with second parent,0.0,Interview conducted solely by MP
+1062041,NEXTSTEP,longitudinal_index_file,nw3spint,W3: Whether interview was conducted jointly with second parent,1.0,Interview conducted jointly with MP and SP
+1062042,NEXTSTEP,longitudinal_index_file,w3ypint,W3: Young Person Interview Section conducted,-994.0,Boost cases not yet in sample
+1062043,NEXTSTEP,longitudinal_index_file,w3ypint,W3: Young Person Interview Section conducted,-992.0,No response in this wave
+1062044,NEXTSTEP,longitudinal_index_file,w3ypint,W3: Young Person Interview Section conducted,0.0,Young Person interview not completed
+1062045,NEXTSTEP,longitudinal_index_file,w3ypint,W3: Young Person Interview Section conducted,1.0,Young Person interview completed
+1062046,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,-994.0,Boost cases not yet in sample
+1062047,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,-992.0,No response in this wave
+1062048,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,-95.0,HH member not main or second parent
+1062049,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,-94.0,Insufficient information
+1062050,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,-91.0,Not Applicable
+1062051,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,1.0,Natural mother
+1062052,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,2.0,Adoptive mother
+1062053,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,3.0,Foster mother
+1062054,NEXTSTEP,longitudinal_index_file,w3mother,DV: W3 Whether HH member is mother of YP,4.0,Step mother
+1062055,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,-994.0,Boost cases not yet in sample
+1062056,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,-992.0,No response in this wave
+1062057,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,-95.0,HH member not main or second parent
+1062058,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,-94.0,Insufficient information
+1062059,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,-91.0,Not Applicable
+1062060,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,1.0,Natural mother
+1062061,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,2.0,Adoptive mother
+1062062,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,3.0,Foster mother
+1062063,NEXTSTEP,longitudinal_index_file,w3mpmother,DV: W3 Whether main parent is mother of YP,4.0,Step mother
+1062064,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,1.0,Natural father
+1062065,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,2.0,Adoptive father
+1062066,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,3.0,Foster father
+1062067,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,4.0,Step father
+1062068,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,-994.0,Boost cases not yet in sample
+1062069,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,-992.0,No response in this wave
+1062070,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,-95.0,HH member not main or second parent
+1062071,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,-94.0,Insufficient information
+1062072,NEXTSTEP,longitudinal_index_file,w3mpfather,DV: W3 Whether main parent is father of YP,-91.0,Not Applicable
+1062073,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,-994.0,Boost cases not yet in sample
+1062074,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,-992.0,No response in this wave
+1062075,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,-95.0,HH member not main or second parent
+1062076,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,-94.0,Insufficient information
+1062077,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,-91.0,Not Applicable
+1062078,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,1.0,Natural father
+1062079,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,2.0,Adoptive father
+1062080,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,3.0,Foster father
+1062081,NEXTSTEP,longitudinal_index_file,w3father,DV: W3 Whether HH member is father of YP,4.0,Step father
+1062082,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,-994.0,Boost cases not yet in sample
+1062083,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,-992.0,No response in this wave
+1062084,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,-95.0,HH member not main or second parent
+1062085,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,-94.0,Insufficient information
+1062086,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,-91.0,Not Applicable
+1062087,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,1.0,Natural father
+1062088,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,2.0,Adoptive father
+1062089,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,3.0,Foster father
+1062090,NEXTSTEP,longitudinal_index_file,w3spfather,DV: W3 Whether second parent is father of YP,4.0,Step father
+1062091,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,-994.0,Boost cases not yet in sample
+1062092,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,-992.0,No response in this wave
+1062093,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,-95.0,HH member not main or second parent
+1062094,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,-94.0,Insufficient information
+1062095,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,-91.0,Not Applicable
+1062096,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,1.0,Natural mother
+1062097,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,2.0,Adoptive mother
+1062098,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,3.0,Foster mother
+1062099,NEXTSTEP,longitudinal_index_file,w3spmother,DV: W3 Whether second parent is mother of YP,4.0,Step mother
+1062100,NEXTSTEP,longitudinal_index_file,w4mainres,W4: Main parent position,-999.0,Missing HH data
+1062101,NEXTSTEP,longitudinal_index_file,w4mainres,W4: Main parent position,-997.0,Script error
+1062102,NEXTSTEP,longitudinal_index_file,w4mainres,W4: Main parent position,-992.0,No response in this wave
+1062103,NEXTSTEP,longitudinal_index_file,w4mainres,W4: Main parent position,-91.0,Not applicable
+1062104,NEXTSTEP,longitudinal_index_file,w4secores,W4: Second parent position,-999.0,Missing HH data
+1062105,NEXTSTEP,longitudinal_index_file,w4secores,W4: Second parent position,-997.0,Script error
+1062106,NEXTSTEP,longitudinal_index_file,w4secores,W4: Second parent position,-992.0,No response in this wave
+1062107,NEXTSTEP,longitudinal_index_file,w4secores,W4: Second parent position,-91.0,Not applicable
+1062108,NEXTSTEP,longitudinal_index_file,w4newmember,W4: Whether respondent is new member of HH at Wave 4,-992.0,No response in this wave
+1062109,NEXTSTEP,longitudinal_index_file,w4newmember,W4: Whether respondent is new member of HH at Wave 4,-91.0,Not applicable
+1062110,NEXTSTEP,longitudinal_index_file,w4newmember,W4: Whether respondent is new member of HH at Wave 4,1.0,"No, Wave 4 boost case"
+1062111,NEXTSTEP,longitudinal_index_file,w4newmember,W4: Whether respondent is new member of HH at Wave 4,2.0,"Yes, new household member at Wave 4"
+1062112,NEXTSTEP,longitudinal_index_file,w4mpint,W4: Main Parent Interview Section completed,-996.0,No parent in household
+1062113,NEXTSTEP,longitudinal_index_file,w4mpint,W4: Main Parent Interview Section completed,-992.0,No response in this wave
+1062114,NEXTSTEP,longitudinal_index_file,w4mpint,W4: Main Parent Interview Section completed,0.0,Main Parent interview not completed
+1062115,NEXTSTEP,longitudinal_index_file,w4mpint,W4: Main Parent Interview Section completed,1.0,Main Parent interview completed
+1062116,NEXTSTEP,longitudinal_index_file,w4spint,W4: Second Parent Interview Section completed,-997.0,Script Error
+1062117,NEXTSTEP,longitudinal_index_file,w4spint,W4: Second Parent Interview Section completed,-992.0,No response in this wave
+1062118,NEXTSTEP,longitudinal_index_file,w4spint,W4: Second Parent Interview Section completed,-91.0,Not applicable - second parent not present in HH
+1062119,NEXTSTEP,longitudinal_index_file,w4spint,W4: Second Parent Interview Section completed,0.0,Second Parent interview not completed
+1062120,NEXTSTEP,longitudinal_index_file,w4spint,W4: Second Parent Interview Section completed,1.0,Second Parent interview completed by second parent
+1062121,NEXTSTEP,longitudinal_index_file,w4spint,W4: Second Parent Interview Section completed,2.0,Second Parent interview completed by main parent or other adult
+1062122,NEXTSTEP,longitudinal_index_file,w4spint,W4: Second Parent Interview Section completed,3.0,Second Parent interview completed by main parent with consultation from second parent
+1062123,NEXTSTEP,longitudinal_index_file,w4ypint,W4: Young Person Interview Section completed,-992.0,No response in this wave
+1062124,NEXTSTEP,longitudinal_index_file,w4ypint,W4: Young Person Interview Section completed,0.0,Young Person interview not completed
+1062125,NEXTSTEP,longitudinal_index_file,w4ypint,W4: Young Person Interview Section completed,1.0,Young Person interview completed
+1062126,NEXTSTEP,longitudinal_index_file,w4histint,W4: History Interview Section completed - boost cases only,-996.0,No parent in household
+1062127,NEXTSTEP,longitudinal_index_file,w4histint,W4: History Interview Section completed - boost cases only,-992.0,No response in this wave
+1062128,NEXTSTEP,longitudinal_index_file,w4histint,W4: History Interview Section completed - boost cases only,-91.0,Not applicable
+1062129,NEXTSTEP,longitudinal_index_file,w4histint,W4: History Interview Section completed - boost cases only,0.0,History interview not completed
+1062130,NEXTSTEP,longitudinal_index_file,w4histint,W4: History Interview Section completed - boost cases only,1.0,History interview completed
+1062131,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,-999.0,Missing household data
+1062132,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,-992.0,No response in this wave
+1062133,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,-94.0,Insufficient information
+1062134,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,-91.0,Not applicable
+1062135,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,1.0,Natural mother
+1062136,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,2.0,Adoptive mother
+1062137,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,3.0,Foster mother
+1062138,NEXTSTEP,longitudinal_index_file,w4mother,DV: W4 Whether person is mother of YP,4.0,Step mother
+1062139,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,-999.0,Missing household data
+1062140,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,-992.0,No response in this wave
+1062141,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,-95.0,HH member not main or second parent
+1062142,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,-94.0,Insufficient information
+1062143,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,-91.0,Not applicable
+1062144,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,1.0,Natural mother
+1062145,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,2.0,Adoptive mother
+1062146,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,3.0,Foster mother
+1062147,NEXTSTEP,longitudinal_index_file,w4mpmother,DV: W4 Whether MAIN PARENT is (natural,4.0,Step mother
+1062148,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,-999.0,Missing household data
+1062149,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,-992.0,No response in this wave
+1062150,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,-95.0,HH member not main or second parent
+1062151,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,-94.0,Insufficient information
+1062152,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,-91.0,Not applicable
+1062153,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,1.0,Natural father
+1062154,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,2.0,Adoptive father
+1062155,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,3.0,Foster father
+1062156,NEXTSTEP,longitudinal_index_file,w4mpfather,DV: W4 Whether MAIN PARENT is (natural,4.0,Step father
+1062157,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,-999.0,Missing household data
+1062158,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,-992.0,No response in this wave
+1062159,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,-94.0,Insufficient information
+1062160,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,-91.0,Not applicable
+1062161,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,1.0,Natural father
+1062162,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,2.0,Adoptive father
+1062163,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,3.0,Foster father
+1062164,NEXTSTEP,longitudinal_index_file,w4father,DV: W4 Whether person is father of YP,4.0,Step father
+1062165,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,-999.0,Missing household data
+1062166,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,-992.0,No response in this wave
+1062167,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,-95.0,HH member not main or second parent
+1062168,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,-94.0,Insufficient information
+1062169,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,-91.0,Not applicable
+1062170,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,1.0,Natural father
+1062171,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,2.0,Adoptive father
+1062172,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,3.0,Foster father
+1062173,NEXTSTEP,longitudinal_index_file,w4spfather,DV: W4 Whether SECOND PARENT is (natural,4.0,Step father
+1062174,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,-999.0,Missing household data
+1062175,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,-992.0,No response in this wave
+1062176,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,-95.0,HH member not main or second parent
+1062177,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,-94.0,Insufficient information
+1062178,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,-91.0,Not applicable
+1062179,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,1.0,Natural mother
+1062180,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,2.0,Adoptive mother
+1062181,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,3.0,Foster mother
+1062182,NEXTSTEP,longitudinal_index_file,w4spmother,DV: W4 Whether SECOND PARENT is (natural,4.0,Step mother
+1062183,NEXTSTEP,longitudinal_index_file,switch,DV: Whether HH member has switched positions between waves,-94.0,Insufficient information
+1062184,NEXTSTEP,longitudinal_index_file,switch,DV: Whether HH member has switched positions between waves,0.0,No
+1062185,NEXTSTEP,longitudinal_index_file,switch,DV: Whether HH member has switched positions between waves,1.0,Yes
+1062186,NEXTSTEP,longitudinal_index_file,mainint,DV: Whether MP person number has changed between waves,-992.0,No response in this wave - joined W5 or W6
+1062187,NEXTSTEP,longitudinal_index_file,mainint,DV: Whether MP person number has changed between waves,-98.0,No MP Interview
+1062188,NEXTSTEP,longitudinal_index_file,mainint,DV: Whether MP person number has changed between waves,-94.0,Insufficient information
+1062189,NEXTSTEP,longitudinal_index_file,mainint,DV: Whether MP person number has changed between waves,-91.0,Not Applicable - person switched position within household across waves
+1062190,NEXTSTEP,longitudinal_index_file,mainint,DV: Whether MP person number has changed between waves,0.0,No change in MP person number
+1062191,NEXTSTEP,longitudinal_index_file,mainint,DV: Whether MP person number has changed between waves,1.0,MP has changed between waves
+1062192,NEXTSTEP,longitudinal_index_file,secint,DV: Whether SP person number has changed between waves,-992.0,No response in this wave - joined W5 or W6
+1062193,NEXTSTEP,longitudinal_index_file,secint,DV: Whether SP person number has changed between waves,-98.0,No SP Interview
+1062194,NEXTSTEP,longitudinal_index_file,secint,DV: Whether SP person number has changed between waves,-94.0,Insufficient information
+1062195,NEXTSTEP,longitudinal_index_file,secint,DV: Whether SP person number has changed between waves,-91.0,Not Applicable - person switched position within household across waves
+1062196,NEXTSTEP,longitudinal_index_file,secint,DV: Whether SP person number has changed between waves,0.0,No change in SP person number
+1062197,NEXTSTEP,longitudinal_index_file,secint,DV: Whether SP person number has changed between waves,1.0,SP has changed between waves
+1062198,NEXTSTEP,longitudinal_index_file,hisint,DV: Whether HISTORY respondent person number has changed between waves,-994.0,New member of household at Wave four (inc boost cases)
+1062199,NEXTSTEP,longitudinal_index_file,hisint,DV: Whether HISTORY respondent person number has changed between waves,-992.0,No response in this wave - joined W5 or W6
+1062200,NEXTSTEP,longitudinal_index_file,hisint,DV: Whether HISTORY respondent person number has changed between waves,-98.0,No HISTORY Interview
+1062201,NEXTSTEP,longitudinal_index_file,hisint,DV: Whether HISTORY respondent person number has changed between waves,-94.0,Insufficient information
+1062202,NEXTSTEP,longitudinal_index_file,hisint,DV: Whether HISTORY respondent person number has changed between waves,-91.0,Not Applicable - person switched position within household across waves
+1062203,NEXTSTEP,longitudinal_index_file,hisint,DV: Whether HISTORY respondent person number has changed between waves,0.0,No change in HISTORY person number
+1062204,NEXTSTEP,longitudinal_index_file,hisint,DV: Whether HISTORY respondent person number has changed between waves,1.0,HISTORY person number has changed between waves
+1062205,NEXTSTEP,longitudinal_index_file,nouse,Admin: Flag to indicate cases that should not be used for W1 and W2 comparisons,0.0,Use
+1062206,NEXTSTEP,longitudinal_index_file,nouse,Admin: Flag to indicate cases that should not be used for W1 and W2 comparisons,1.0,Don't use
+1062207,NEXTSTEP,longitudinal_index_file,w6nouse,Admin: Flag to indicate cases that should not be used at W6 due to inconsistent details longitudinally,0.0,Use
+1062208,NEXTSTEP,longitudinal_index_file,w6nouse,Admin: Flag to indicate cases that should not be used at W6 due to inconsistent details longitudinally,1.0,Don't use
+1062209,NEXTSTEP,longitudinal_index_file,v3,None,,
+1062210,NEXTSTEP,longitudinal_index_file,avail_from_dt,,,

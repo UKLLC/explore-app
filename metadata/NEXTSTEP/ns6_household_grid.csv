@@ -1,0 +1,46 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1149085,NEXTSTEP,ns6_household_grid,study_id_e,,,
+1149086,NEXTSTEP,ns6_household_grid,hhid,sortkey: HH Identifier,-999.0,Missing household information
+1149087,NEXTSTEP,ns6_household_grid,w6mode,Admin: Interview mode,-999.0,Missing household information
+1149088,NEXTSTEP,ns6_household_grid,w6mode,Admin: Interview mode,1.0,CAPI
+1149089,NEXTSTEP,ns6_household_grid,w6mode,Admin: Interview mode,2.0,CATI
+1149090,NEXTSTEP,ns6_household_grid,w6mode,Admin: Interview mode,3.0,CAWI
+1149091,NEXTSTEP,ns6_household_grid,w6qsamead,HH: Address check,-999.0,Missing household information
+1149092,NEXTSTEP,ns6_household_grid,w6qsamead,HH: Address check,-997.0,Script error
+1149093,NEXTSTEP,ns6_household_grid,w6qsamead,HH: Address check,-91.0,Not applicable
+1149094,NEXTSTEP,ns6_household_grid,w6qsamead,HH: Address check,1.0,Yes
+1149095,NEXTSTEP,ns6_household_grid,w6qsamead,HH: Address check,2.0,No
+1149096,NEXTSTEP,ns6_household_grid,w6qsamead,HH: Address check,3.0,Yes- but errors in some of the address
+1149097,NEXTSTEP,ns6_household_grid,w6qanysta,HH: Whether respondent is living with some of the people they were living with,-999.0,Missing household information
+1149098,NEXTSTEP,ns6_household_grid,w6qanysta,HH: Whether respondent is living with some of the people they were living with,-997.0,Script error
+1149099,NEXTSTEP,ns6_household_grid,w6qanysta,HH: Whether respondent is living with some of the people they were living with,-91.0,Not applicable
+1149100,NEXTSTEP,ns6_household_grid,w6qanysta,HH: Whether respondent is living with some of the people they were living with,1.0,Yes
+1149101,NEXTSTEP,ns6_household_grid,w6qanysta,HH: Whether respondent is living with some of the people they were living with,2.0,No
+1149102,NEXTSTEP,ns6_household_grid,w6qanysta,HH: Whether respondent is living with some of the people they were living with,3.0,Don't know
+1149103,NEXTSTEP,ns6_household_grid,w6shgint,HH: Member status,-999.0,Missing household information
+1149104,NEXTSTEP,ns6_household_grid,w6shgint,HH: Member status,-92.0,Refused
+1149105,NEXTSTEP,ns6_household_grid,w6shgint,HH: Member status,0.0,Not present - left previous wave
+1149106,NEXTSTEP,ns6_household_grid,w6shgint,HH: Member status,1.0,Present
+1149107,NEXTSTEP,ns6_household_grid,w6shgint,HH: Member status,2.0,Present - new at current wave
+1149108,NEXTSTEP,ns6_household_grid,w6shgint,HH: Member status,3.0,Not present - left current wave
+1149109,NEXTSTEP,ns6_household_grid,w6shgint,HH: Member status,4.0,Young person
+1149110,NEXTSTEP,ns6_household_grid,w6sex,HH: Sex,-999.0,Missing household information
+1149111,NEXTSTEP,ns6_household_grid,w6sex,HH: Sex,-92.0,Refused
+1149112,NEXTSTEP,ns6_household_grid,w6sex,HH: Sex,-91.0,Not applicable
+1149113,NEXTSTEP,ns6_household_grid,w6sex,HH: Sex,1.0,Male
+1149114,NEXTSTEP,ns6_household_grid,w6sex,HH: Sex,2.0,Female
+1149115,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,-999.0,Missing household information
+1149116,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,-92.0,Refused
+1149117,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,-91.0,Not applicable
+1149118,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,-1.0,Don't know
+1149119,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,1.0,Parent - including step/adoptive/foster
+1149120,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,2.0,Brother or sister - including step/adop
+1149121,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,3.0,Partner/husband/wife
+1149122,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,4.0,Son or daughter
+1149123,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,5.0,Parent's partner or spouse
+1149124,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,6.0,Another kind of relative
+1149125,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,7.0,Someone not related
+1149126,NEXTSTEP,ns6_household_grid,w6relation,HH: Relationship to young person,8.0,Young person (respondent)
+1149127,NEXTSTEP,ns6_household_grid,w6nouse,Admin: Flag to indicate cases that should not be used at W6 due to inconsistencies,,
+1149128,NEXTSTEP,ns6_household_grid,v3,None,,
+1149129,NEXTSTEP,ns6_household_grid,avail_from_dt,,,

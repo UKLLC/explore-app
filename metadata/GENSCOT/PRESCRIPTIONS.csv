@@ -1,0 +1,22 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+713836,GENSCOT,PRESCRIPTIONS,study_id_e,,,
+713837,GENSCOT,PRESCRIPTIONS,sex,sex,1,male
+713838,GENSCOT,PRESCRIPTIONS,sex,sex,2,female
+713839,GENSCOT,PRESCRIPTIONS,dob,yyyymm,,yyyymm
+713840,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,CP,Community pharmacist
+713841,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,DEN,Dentist
+713842,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,GP,General practitioner
+713843,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,GPPRA,GP Practice
+713844,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,HOSP,Hospital
+713845,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,NUR,Nurse
+713846,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,PHM,Pharmacist
+713847,GENSCOT,PRESCRIPTIONS,presc_type,prescriber type,PP,Private Prescriber
+713848,GENSCOT,PRESCRIPTIONS,dt,yyyymm,,yyyymm
+713849,GENSCOT,PRESCRIPTIONS,bnf,BNF code,,BNF code
+713850,GENSCOT,PRESCRIPTIONS,approved,generic name,,Generic Name
+713851,GENSCOT,PRESCRIPTIONS,drug,drug name,,Drug Name
+713852,GENSCOT,PRESCRIPTIONS,formulation,pharmaceutical formulation,,Pharmaceutical Formulation
+713853,GENSCOT,PRESCRIPTIONS,qty,quantity,,units
+713854,GENSCOT,PRESCRIPTIONS,strength,dosage,,Dose
+713855,GENSCOT,PRESCRIPTIONS,dosage,prescribed dose,,Prescribed Dose
+713856,GENSCOT,PRESCRIPTIONS,avail_from_dt,,,

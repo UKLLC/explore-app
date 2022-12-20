@@ -1,0 +1,1642 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+694212,ELSA,wave_9_ifs_derived_variables,study_id_e,,,
+694213,ELSA,wave_9_ifs_derived_variables,wgt,cross-sectional weight (copy of wXwght),,
+694214,ELSA,wave_9_ifs_derived_variables,lwgt,longitudinal weight,-1.0,inapplicable
+694215,ELSA,wave_9_ifs_derived_variables,wave,wave indicator,,
+694216,ELSA,wave_9_ifs_derived_variables,perid,person number,,
+694217,ELSA,wave_9_ifs_derived_variables,persno,person number (same as perid),,
+694218,ELSA,wave_9_ifs_derived_variables,iintdatd,interview day   - individual interview,,
+694219,ELSA,wave_9_ifs_derived_variables,iintdatm,interview month - individual interview,,
+694220,ELSA,wave_9_ifs_derived_variables,iintdaty,interview year  - individual interview,,
+694221,ELSA,wave_9_ifs_derived_variables,futype,financial unit type - cleaned,-9.0,RF
+694222,ELSA,wave_9_ifs_derived_variables,futype,financial unit type - cleaned,-8.0,DK
+694223,ELSA,wave_9_ifs_derived_variables,futype,financial unit type - cleaned,-1.0,inapplicable
+694224,ELSA,wave_9_ifs_derived_variables,futype,financial unit type - cleaned,1.0,single
+694225,ELSA,wave_9_ifs_derived_variables,futype,financial unit type - cleaned,2.0,"couple, separate finances"
+694226,ELSA,wave_9_ifs_derived_variables,futype,financial unit type - cleaned,3.0,"couple, joint finances"
+694227,ELSA,wave_9_ifs_derived_variables,buno,benefit unit number within a household,,
+694228,ELSA,wave_9_ifs_derived_variables,cpid,computed: person number of partner,,
+694229,ELSA,wave_9_ifs_derived_variables,intdatm,interview month - household interview,,
+694230,ELSA,wave_9_ifs_derived_variables,intdaty,interview year - household interview,,
+694231,ELSA,wave_9_ifs_derived_variables,age_p,partner's age - taken from household grid for non-responding partners,-8.0,don't know
+694232,ELSA,wave_9_ifs_derived_variables,age_p,partner's age - taken from household grid for non-responding partners,-1.0,no partner
+694233,ELSA,wave_9_ifs_derived_variables,age_p,partner's age - taken from household grid for non-responding partners,99.0,age in years on or before 29/02/1912
+694234,ELSA,wave_9_ifs_derived_variables,indobyr,year of birth collapsed at 90 plus,-9.0,refusal
+694235,ELSA,wave_9_ifs_derived_variables,indobyr,year of birth collapsed at 90 plus,-8.0,don't know
+694236,ELSA,wave_9_ifs_derived_variables,indobyr,year of birth collapsed at 90 plus,-7.0,dob collapsed to avoid disclosure if respondent aged 90+
+694237,ELSA,wave_9_ifs_derived_variables,indobyr,year of birth collapsed at 90 plus,-1.0,not applicable
+694238,ELSA,wave_9_ifs_derived_variables,indobyr_p,partner's year of birth collapsed at 90 plus,-9.0,refusal
+694239,ELSA,wave_9_ifs_derived_variables,indobyr_p,partner's year of birth collapsed at 90 plus,-8.0,don't know
+694240,ELSA,wave_9_ifs_derived_variables,indobyr_p,partner's year of birth collapsed at 90 plus,-7.0,dob collapsed to avoid disclosure if respondent aged 90+
+694241,ELSA,wave_9_ifs_derived_variables,indobyr_p,partner's year of birth collapsed at 90 plus,-1.0,not applicable
+694242,ELSA,wave_9_ifs_derived_variables,sex,sex: copy of indsex/dhsex,-8.0,don't know
+694243,ELSA,wave_9_ifs_derived_variables,sex,sex: copy of indsex/dhsex,-1.0,no partner
+694244,ELSA,wave_9_ifs_derived_variables,sex,sex: copy of indsex/dhsex,1.0,male
+694245,ELSA,wave_9_ifs_derived_variables,sex,sex: copy of indsex/dhsex,2.0,female
+694246,ELSA,wave_9_ifs_derived_variables,sex_p,sex of partner - taken from household grid for non-respondents,-8.0,don't know
+694247,ELSA,wave_9_ifs_derived_variables,sex_p,sex of partner - taken from household grid for non-respondents,-1.0,no partner
+694248,ELSA,wave_9_ifs_derived_variables,sex_p,sex of partner - taken from household grid for non-respondents,1.0,male
+694249,ELSA,wave_9_ifs_derived_variables,sex_p,sex of partner - taken from household grid for non-respondents,2.0,female
+694250,ELSA,wave_9_ifs_derived_variables,elsa,whether is an ELSA sample member,,
+694251,ELSA,wave_9_ifs_derived_variables,elsa_p,whether partner is an ELSA sample member,,
+694252,ELSA,wave_9_ifs_derived_variables,inst,whether in an institution,,
+694253,ELSA,wave_9_ifs_derived_variables,inst_p,whether partner is an institution,,
+694254,ELSA,wave_9_ifs_derived_variables,responded_p,whether partner responded,-1.0,No partner
+694255,ELSA,wave_9_ifs_derived_variables,responded_p,whether partner responded,0.0,Partner did not respond
+694256,ELSA,wave_9_ifs_derived_variables,responded_p,whether partner responded,1.0,Partner responded
+694257,ELSA,wave_9_ifs_derived_variables,died_p,respondent had a spouse who died since last interview,,
+694258,ELSA,wave_9_ifs_derived_variables,couple,is in a couple (institutional members separated),,
+694259,ELSA,wave_9_ifs_derived_variables,couple_inst,is in a couple (institutional members kept together),,
+694260,ELSA,wave_9_ifs_derived_variables,hhansho,did anyone in the household answer the HO module,,
+694261,ELSA,wave_9_ifs_derived_variables,iansho,flag for person who answered HO,,
+694262,ELSA,wave_9_ifs_derived_variables,iansia,flag for person who answered IA,,
+694263,ELSA,wave_9_ifs_derived_variables,numansia,number of people in couple who answered IA,,
+694264,ELSA,wave_9_ifs_derived_variables,numansiafu,number of people in the financial unit who answered IA,,
+694265,ELSA,wave_9_ifs_derived_variables,proxy,proxy respondent,,
+694266,ELSA,wave_9_ifs_derived_variables,nonwhite,ethic origin (white/non-white),,
+694267,ELSA,wave_9_ifs_derived_variables,refreshtype,whether from refreshment sample,0.0,not refreshment sample
+694268,ELSA,wave_9_ifs_derived_variables,refreshtype,whether from refreshment sample,1.0,wave 3 refreshment sample
+694269,ELSA,wave_9_ifs_derived_variables,refreshtype,whether from refreshment sample,2.0,wave 4 refreshment sample
+694270,ELSA,wave_9_ifs_derived_variables,refreshtype,whether from refreshment sample,3.0,wave 6 refreshment sample
+694271,ELSA,wave_9_ifs_derived_variables,refreshtype,whether from refreshment sample,4.0,wave 7 refreshment sample
+694272,ELSA,wave_9_ifs_derived_variables,refreshtype,whether from refreshment sample,5.0,wave 9 refreshment sample
+694273,ELSA,wave_9_ifs_derived_variables,numbus,number of benefit units in the household,,
+694274,ELSA,wave_9_ifs_derived_variables,numinelig,number of ineligible adults in the household,,
+694275,ELSA,wave_9_ifs_derived_variables,nsampmem,number of sample members in HH,,
+694276,ELSA,wave_9_ifs_derived_variables,hoh,head of household indicator,,
+694277,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,-9.0,refusal
+694278,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,-8.0,don't know
+694279,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,-1.0,not applicable
+694280,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,0.0,HOH
+694281,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,1.0,husband/wife
+694282,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,2.0,partner/cohabitee
+694283,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,3.0,natural son/daughter
+694284,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,4.0,adopted son/daughter
+694285,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,5.0,foster son/daughter
+694286,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,6.0,step son/daughter/child of partner
+694287,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,7.0,son/daughter-in-law
+694288,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,8.0,natural parent
+694289,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,9.0,adoptive parent
+694290,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,10.0,foster parent
+694291,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,11.0,stepparent/parent s partner
+694292,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,12.0,parent-in-law
+694293,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,13.0,natural brother/sister
+694294,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,14.0,half-brother/sister
+694295,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,15.0,step-brother/sister
+694296,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,16.0,adopted brother/sister
+694297,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,17.0,foster brother/sister
+694298,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,18.0,brother/sister-in-law
+694299,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,19.0,grandchild
+694300,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,20.0,grandparent
+694301,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,21.0,other relative
+694302,ELSA,wave_9_ifs_derived_variables,reltohoh,relationship to head of household,22.0,other non-relative
+694303,ELSA,wave_9_ifs_derived_variables,hohsp,spouse of HOH indicator,,
+694304,ELSA,wave_9_ifs_derived_variables,buhead,head of bu indicator,,
+694305,ELSA,wave_9_ifs_derived_variables,firstbu,indicator for first BU (containing HOH),,
+694306,ELSA,wave_9_ifs_derived_variables,npeople,number of people in HH (adults + children),,
+694307,ELSA,wave_9_ifs_derived_variables,numhhad,number of adults in HH,,
+694308,ELSA,wave_9_ifs_derived_variables,numbuad,number of adult in BU,,
+694309,ELSA,wave_9_ifs_derived_variables,numbukid,number of children in BU,,
+694310,ELSA,wave_9_ifs_derived_variables,numhhkid,number of children in HH,,
+694311,ELSA,wave_9_ifs_derived_variables,agebuhead,age of head of benefit unit,-8.0,don't know
+694312,ELSA,wave_9_ifs_derived_variables,agebuhead,age of head of benefit unit,99.0,age in years on or before 29/02/1912
+694313,ELSA,wave_9_ifs_derived_variables,agebusp,age of spouse of benefit unit,-8.0,don't know
+694314,ELSA,wave_9_ifs_derived_variables,agebusp,age of spouse of benefit unit,-1.0,no partner
+694315,ELSA,wave_9_ifs_derived_variables,agebusp,age of spouse of benefit unit,99.0,age in years on or before 29/02/1912
+694316,ELSA,wave_9_ifs_derived_variables,sexbuhead,sex of head of benefit unit,-8.0,don't know
+694317,ELSA,wave_9_ifs_derived_variables,sexbuhead,sex of head of benefit unit,-1.0,no partner
+694318,ELSA,wave_9_ifs_derived_variables,sexbuhead,sex of head of benefit unit,1.0,male
+694319,ELSA,wave_9_ifs_derived_variables,sexbuhead,sex of head of benefit unit,2.0,female
+694320,ELSA,wave_9_ifs_derived_variables,agehoh,age of head of household,-8.0,don't know
+694321,ELSA,wave_9_ifs_derived_variables,agehoh,age of head of household,99.0,age in years on or before 29/02/1912
+694322,ELSA,wave_9_ifs_derived_variables,sexhoh,sex of head of household,-8.0,don't know
+694323,ELSA,wave_9_ifs_derived_variables,sexhoh,sex of head of household,-1.0,no partner
+694324,ELSA,wave_9_ifs_derived_variables,sexhoh,sex of head of household,1.0,male
+694325,ELSA,wave_9_ifs_derived_variables,sexhoh,sex of head of household,2.0,female
+694326,ELSA,wave_9_ifs_derived_variables,nummale,number of males in the hh,,
+694327,ELSA,wave_9_ifs_derived_variables,numfemale,number of females in the hh,,
+694328,ELSA,wave_9_ifs_derived_variables,nummalead,number of male adults in the hh,,
+694329,ELSA,wave_9_ifs_derived_variables,numfemalead,number of female adults in the hh,,
+694330,ELSA,wave_9_ifs_derived_variables,agehhch1,age of 1st child in hh,-9.0,refuse
+694331,ELSA,wave_9_ifs_derived_variables,agehhch1,age of 1st child in hh,-8.0,don't know
+694332,ELSA,wave_9_ifs_derived_variables,agehhch1,age of 1st child in hh,-1.0,inapplicable
+694333,ELSA,wave_9_ifs_derived_variables,agehhch2,age of 2nd child in hh,-9.0,refuse
+694334,ELSA,wave_9_ifs_derived_variables,agehhch2,age of 2nd child in hh,-8.0,don't know
+694335,ELSA,wave_9_ifs_derived_variables,agehhch2,age of 2nd child in hh,-1.0,inapplicable
+694336,ELSA,wave_9_ifs_derived_variables,agehhch3,age of 3rd child in hh,-9.0,refuse
+694337,ELSA,wave_9_ifs_derived_variables,agehhch3,age of 3rd child in hh,-8.0,don't know
+694338,ELSA,wave_9_ifs_derived_variables,agehhch3,age of 3rd child in hh,-1.0,inapplicable
+694339,ELSA,wave_9_ifs_derived_variables,agehhch4,age of 4th child in hh,-9.0,refuse
+694340,ELSA,wave_9_ifs_derived_variables,agehhch4,age of 4th child in hh,-8.0,don't know
+694341,ELSA,wave_9_ifs_derived_variables,agehhch4,age of 4th child in hh,-1.0,inapplicable
+694342,ELSA,wave_9_ifs_derived_variables,agehhch5,age of 5th child in hh,-9.0,refuse
+694343,ELSA,wave_9_ifs_derived_variables,agehhch5,age of 5th child in hh,-8.0,don't know
+694344,ELSA,wave_9_ifs_derived_variables,agehhch5,age of 5th child in hh,-1.0,inapplicable
+694345,ELSA,wave_9_ifs_derived_variables,agehhch6,age of 6th child in hh,-9.0,refuse
+694346,ELSA,wave_9_ifs_derived_variables,agehhch6,age of 6th child in hh,-8.0,don't know
+694347,ELSA,wave_9_ifs_derived_variables,agehhch6,age of 6th child in hh,-1.0,inapplicable
+694348,ELSA,wave_9_ifs_derived_variables,agehhch7,age of 7th child in hh,-9.0,refuse
+694349,ELSA,wave_9_ifs_derived_variables,agehhch7,age of 7th child in hh,-8.0,don't know
+694350,ELSA,wave_9_ifs_derived_variables,agehhch7,age of 7th child in hh,-1.0,inapplicable
+694351,ELSA,wave_9_ifs_derived_variables,agehhch8,age of 8th child in hh,-9.0,refuse
+694352,ELSA,wave_9_ifs_derived_variables,agehhch8,age of 8th child in hh,-8.0,don't know
+694353,ELSA,wave_9_ifs_derived_variables,agehhch8,age of 8th child in hh,-1.0,inapplicable
+694354,ELSA,wave_9_ifs_derived_variables,agebuch1,age of 1st child in bu,-9.0,refuse
+694355,ELSA,wave_9_ifs_derived_variables,agebuch1,age of 1st child in bu,-8.0,don't know
+694356,ELSA,wave_9_ifs_derived_variables,agebuch1,age of 1st child in bu,-1.0,inapplicable
+694357,ELSA,wave_9_ifs_derived_variables,agebuch2,age of 2nd child in bu,-9.0,refuse
+694358,ELSA,wave_9_ifs_derived_variables,agebuch2,age of 2nd child in bu,-8.0,don't know
+694359,ELSA,wave_9_ifs_derived_variables,agebuch2,age of 2nd child in bu,-1.0,inapplicable
+694360,ELSA,wave_9_ifs_derived_variables,agebuch3,age of 3rd child in bu,-9.0,refuse
+694361,ELSA,wave_9_ifs_derived_variables,agebuch3,age of 3rd child in bu,-8.0,don't know
+694362,ELSA,wave_9_ifs_derived_variables,agebuch3,age of 3rd child in bu,-1.0,inapplicable
+694363,ELSA,wave_9_ifs_derived_variables,agebuch4,age of 4th child in bu,-9.0,refuse
+694364,ELSA,wave_9_ifs_derived_variables,agebuch4,age of 4th child in bu,-8.0,don't know
+694365,ELSA,wave_9_ifs_derived_variables,agebuch4,age of 4th child in bu,-1.0,inapplicable
+694366,ELSA,wave_9_ifs_derived_variables,agebuch5,age of 5th child in bu,-9.0,refuse
+694367,ELSA,wave_9_ifs_derived_variables,agebuch5,age of 5th child in bu,-8.0,don't know
+694368,ELSA,wave_9_ifs_derived_variables,agebuch5,age of 5th child in bu,-1.0,inapplicable
+694369,ELSA,wave_9_ifs_derived_variables,agebuch6,age of 6th child in bu,-9.0,refuse
+694370,ELSA,wave_9_ifs_derived_variables,agebuch6,age of 6th child in bu,-8.0,don't know
+694371,ELSA,wave_9_ifs_derived_variables,agebuch6,age of 6th child in bu,-1.0,inapplicable
+694372,ELSA,wave_9_ifs_derived_variables,agebuch7,age of 7th child in bu,-9.0,refuse
+694373,ELSA,wave_9_ifs_derived_variables,agebuch7,age of 7th child in bu,-8.0,don't know
+694374,ELSA,wave_9_ifs_derived_variables,agebuch7,age of 7th child in bu,-1.0,inapplicable
+694375,ELSA,wave_9_ifs_derived_variables,agebuch8,age of 8th child in bu,-9.0,refuse
+694376,ELSA,wave_9_ifs_derived_variables,agebuch8,age of 8th child in bu,-8.0,don't know
+694377,ELSA,wave_9_ifs_derived_variables,agebuch8,age of 8th child in bu,-1.0,inapplicable
+694378,ELSA,wave_9_ifs_derived_variables,chage1,age of respondent's 1st child,-9.0,refuse
+694379,ELSA,wave_9_ifs_derived_variables,chage1,age of respondent's 1st child,-8.0,don't know
+694380,ELSA,wave_9_ifs_derived_variables,chage1,age of respondent's 1st child,-1.0,inapplicable
+694381,ELSA,wave_9_ifs_derived_variables,chsex1,sex of respondent's 1st child,-9.0,refuse
+694382,ELSA,wave_9_ifs_derived_variables,chsex1,sex of respondent's 1st child,-8.0,don't know
+694383,ELSA,wave_9_ifs_derived_variables,chsex1,sex of respondent's 1st child,-1.0,inapplicable
+694384,ELSA,wave_9_ifs_derived_variables,chsex1,sex of respondent's 1st child,1.0,male
+694385,ELSA,wave_9_ifs_derived_variables,chsex1,sex of respondent's 1st child,2.0,female
+694386,ELSA,wave_9_ifs_derived_variables,chtype1,type of respondent's 1st child,-9.0,refuse
+694387,ELSA,wave_9_ifs_derived_variables,chtype1,type of respondent's 1st child,-8.0,don't know
+694388,ELSA,wave_9_ifs_derived_variables,chtype1,type of respondent's 1st child,-1.0,inapplicable
+694389,ELSA,wave_9_ifs_derived_variables,chtype1,type of respondent's 1st child,1.0,natural child
+694390,ELSA,wave_9_ifs_derived_variables,chtype1,type of respondent's 1st child,2.0,adopted child
+694391,ELSA,wave_9_ifs_derived_variables,chtype1,type of respondent's 1st child,3.0,step child
+694392,ELSA,wave_9_ifs_derived_variables,chtype1,type of respondent's 1st child,4.0,fostered child
+694393,ELSA,wave_9_ifs_derived_variables,chstat1,status of respondent's 1st child,-9.0,refuse
+694394,ELSA,wave_9_ifs_derived_variables,chstat1,status of respondent's 1st child,-8.0,don't know
+694395,ELSA,wave_9_ifs_derived_variables,chstat1,status of respondent's 1st child,-1.0,inapplicable
+694396,ELSA,wave_9_ifs_derived_variables,chstat1,status of respondent's 1st child,1.0,dependent child in hh
+694397,ELSA,wave_9_ifs_derived_variables,chstat1,status of respondent's 1st child,2.0,non-dep child in hh
+694398,ELSA,wave_9_ifs_derived_variables,chstat1,status of respondent's 1st child,3.0,child outside hh
+694399,ELSA,wave_9_ifs_derived_variables,chage2,age of respondent's 2nd child,-9.0,refuse
+694400,ELSA,wave_9_ifs_derived_variables,chage2,age of respondent's 2nd child,-8.0,don't know
+694401,ELSA,wave_9_ifs_derived_variables,chage2,age of respondent's 2nd child,-1.0,inapplicable
+694402,ELSA,wave_9_ifs_derived_variables,chsex2,sex of respondent's 2nd child,-9.0,refuse
+694403,ELSA,wave_9_ifs_derived_variables,chsex2,sex of respondent's 2nd child,-8.0,don't know
+694404,ELSA,wave_9_ifs_derived_variables,chsex2,sex of respondent's 2nd child,-1.0,inapplicable
+694405,ELSA,wave_9_ifs_derived_variables,chsex2,sex of respondent's 2nd child,1.0,male
+694406,ELSA,wave_9_ifs_derived_variables,chsex2,sex of respondent's 2nd child,2.0,female
+694407,ELSA,wave_9_ifs_derived_variables,chtype2,type of respondent's 2nd child,-9.0,refuse
+694408,ELSA,wave_9_ifs_derived_variables,chtype2,type of respondent's 2nd child,-8.0,don't know
+694409,ELSA,wave_9_ifs_derived_variables,chtype2,type of respondent's 2nd child,-1.0,inapplicable
+694410,ELSA,wave_9_ifs_derived_variables,chtype2,type of respondent's 2nd child,1.0,natural child
+694411,ELSA,wave_9_ifs_derived_variables,chtype2,type of respondent's 2nd child,2.0,adopted child
+694412,ELSA,wave_9_ifs_derived_variables,chtype2,type of respondent's 2nd child,3.0,step child
+694413,ELSA,wave_9_ifs_derived_variables,chtype2,type of respondent's 2nd child,4.0,fostered child
+694414,ELSA,wave_9_ifs_derived_variables,chstat2,status of respondent's 2nd child,-9.0,refuse
+694415,ELSA,wave_9_ifs_derived_variables,chstat2,status of respondent's 2nd child,-8.0,don't know
+694416,ELSA,wave_9_ifs_derived_variables,chstat2,status of respondent's 2nd child,-1.0,inapplicable
+694417,ELSA,wave_9_ifs_derived_variables,chstat2,status of respondent's 2nd child,1.0,dependent child in hh
+694418,ELSA,wave_9_ifs_derived_variables,chstat2,status of respondent's 2nd child,2.0,non-dep child in hh
+694419,ELSA,wave_9_ifs_derived_variables,chstat2,status of respondent's 2nd child,3.0,child outside hh
+694420,ELSA,wave_9_ifs_derived_variables,chage3,age of respondent's 3rd child,-9.0,refuse
+694421,ELSA,wave_9_ifs_derived_variables,chage3,age of respondent's 3rd child,-8.0,don't know
+694422,ELSA,wave_9_ifs_derived_variables,chage3,age of respondent's 3rd child,-1.0,inapplicable
+694423,ELSA,wave_9_ifs_derived_variables,chsex3,sex of respondent's 3rd child,-9.0,refuse
+694424,ELSA,wave_9_ifs_derived_variables,chsex3,sex of respondent's 3rd child,-8.0,don't know
+694425,ELSA,wave_9_ifs_derived_variables,chsex3,sex of respondent's 3rd child,-1.0,inapplicable
+694426,ELSA,wave_9_ifs_derived_variables,chsex3,sex of respondent's 3rd child,1.0,male
+694427,ELSA,wave_9_ifs_derived_variables,chsex3,sex of respondent's 3rd child,2.0,female
+694428,ELSA,wave_9_ifs_derived_variables,chtype3,type of respondent's 3rd child,-9.0,refuse
+694429,ELSA,wave_9_ifs_derived_variables,chtype3,type of respondent's 3rd child,-8.0,don't know
+694430,ELSA,wave_9_ifs_derived_variables,chtype3,type of respondent's 3rd child,-1.0,inapplicable
+694431,ELSA,wave_9_ifs_derived_variables,chtype3,type of respondent's 3rd child,1.0,natural child
+694432,ELSA,wave_9_ifs_derived_variables,chtype3,type of respondent's 3rd child,2.0,adopted child
+694433,ELSA,wave_9_ifs_derived_variables,chtype3,type of respondent's 3rd child,3.0,step child
+694434,ELSA,wave_9_ifs_derived_variables,chtype3,type of respondent's 3rd child,4.0,fostered child
+694435,ELSA,wave_9_ifs_derived_variables,chstat3,status of respondent's 3rd child,-9.0,refuse
+694436,ELSA,wave_9_ifs_derived_variables,chstat3,status of respondent's 3rd child,-8.0,don't know
+694437,ELSA,wave_9_ifs_derived_variables,chstat3,status of respondent's 3rd child,-1.0,inapplicable
+694438,ELSA,wave_9_ifs_derived_variables,chstat3,status of respondent's 3rd child,1.0,dependent child in hh
+694439,ELSA,wave_9_ifs_derived_variables,chstat3,status of respondent's 3rd child,2.0,non-dep child in hh
+694440,ELSA,wave_9_ifs_derived_variables,chstat3,status of respondent's 3rd child,3.0,child outside hh
+694441,ELSA,wave_9_ifs_derived_variables,chage4,age of respondent's 4th child,-9.0,refuse
+694442,ELSA,wave_9_ifs_derived_variables,chage4,age of respondent's 4th child,-8.0,don't know
+694443,ELSA,wave_9_ifs_derived_variables,chage4,age of respondent's 4th child,-1.0,inapplicable
+694444,ELSA,wave_9_ifs_derived_variables,chsex4,sex of respondent's 4th child,-9.0,refuse
+694445,ELSA,wave_9_ifs_derived_variables,chsex4,sex of respondent's 4th child,-8.0,don't know
+694446,ELSA,wave_9_ifs_derived_variables,chsex4,sex of respondent's 4th child,-1.0,inapplicable
+694447,ELSA,wave_9_ifs_derived_variables,chsex4,sex of respondent's 4th child,1.0,male
+694448,ELSA,wave_9_ifs_derived_variables,chsex4,sex of respondent's 4th child,2.0,female
+694449,ELSA,wave_9_ifs_derived_variables,chtype4,type of respondent's 4th child,-9.0,refuse
+694450,ELSA,wave_9_ifs_derived_variables,chtype4,type of respondent's 4th child,-8.0,don't know
+694451,ELSA,wave_9_ifs_derived_variables,chtype4,type of respondent's 4th child,-1.0,inapplicable
+694452,ELSA,wave_9_ifs_derived_variables,chtype4,type of respondent's 4th child,1.0,natural child
+694453,ELSA,wave_9_ifs_derived_variables,chtype4,type of respondent's 4th child,2.0,adopted child
+694454,ELSA,wave_9_ifs_derived_variables,chtype4,type of respondent's 4th child,3.0,step child
+694455,ELSA,wave_9_ifs_derived_variables,chtype4,type of respondent's 4th child,4.0,fostered child
+694456,ELSA,wave_9_ifs_derived_variables,chstat4,status of respondent's 4th child,-9.0,refuse
+694457,ELSA,wave_9_ifs_derived_variables,chstat4,status of respondent's 4th child,-8.0,don't know
+694458,ELSA,wave_9_ifs_derived_variables,chstat4,status of respondent's 4th child,-1.0,inapplicable
+694459,ELSA,wave_9_ifs_derived_variables,chstat4,status of respondent's 4th child,1.0,dependent child in hh
+694460,ELSA,wave_9_ifs_derived_variables,chstat4,status of respondent's 4th child,2.0,non-dep child in hh
+694461,ELSA,wave_9_ifs_derived_variables,chstat4,status of respondent's 4th child,3.0,child outside hh
+694462,ELSA,wave_9_ifs_derived_variables,chage5,age of respondent's 5th child,-9.0,refuse
+694463,ELSA,wave_9_ifs_derived_variables,chage5,age of respondent's 5th child,-8.0,don't know
+694464,ELSA,wave_9_ifs_derived_variables,chage5,age of respondent's 5th child,-1.0,inapplicable
+694465,ELSA,wave_9_ifs_derived_variables,chsex5,sex of respondent's 5th child,-9.0,refuse
+694466,ELSA,wave_9_ifs_derived_variables,chsex5,sex of respondent's 5th child,-8.0,don't know
+694467,ELSA,wave_9_ifs_derived_variables,chsex5,sex of respondent's 5th child,-1.0,inapplicable
+694468,ELSA,wave_9_ifs_derived_variables,chsex5,sex of respondent's 5th child,1.0,male
+694469,ELSA,wave_9_ifs_derived_variables,chsex5,sex of respondent's 5th child,2.0,female
+694470,ELSA,wave_9_ifs_derived_variables,chtype5,type of respondent's 5th child,-9.0,refuse
+694471,ELSA,wave_9_ifs_derived_variables,chtype5,type of respondent's 5th child,-8.0,don't know
+694472,ELSA,wave_9_ifs_derived_variables,chtype5,type of respondent's 5th child,-1.0,inapplicable
+694473,ELSA,wave_9_ifs_derived_variables,chtype5,type of respondent's 5th child,1.0,natural child
+694474,ELSA,wave_9_ifs_derived_variables,chtype5,type of respondent's 5th child,2.0,adopted child
+694475,ELSA,wave_9_ifs_derived_variables,chtype5,type of respondent's 5th child,3.0,step child
+694476,ELSA,wave_9_ifs_derived_variables,chtype5,type of respondent's 5th child,4.0,fostered child
+694477,ELSA,wave_9_ifs_derived_variables,chstat5,status of respondent's 5th child,-9.0,refuse
+694478,ELSA,wave_9_ifs_derived_variables,chstat5,status of respondent's 5th child,-8.0,don't know
+694479,ELSA,wave_9_ifs_derived_variables,chstat5,status of respondent's 5th child,-1.0,inapplicable
+694480,ELSA,wave_9_ifs_derived_variables,chstat5,status of respondent's 5th child,1.0,dependent child in hh
+694481,ELSA,wave_9_ifs_derived_variables,chstat5,status of respondent's 5th child,2.0,non-dep child in hh
+694482,ELSA,wave_9_ifs_derived_variables,chstat5,status of respondent's 5th child,3.0,child outside hh
+694483,ELSA,wave_9_ifs_derived_variables,chage6,age of respondent's 6th child,-9.0,refuse
+694484,ELSA,wave_9_ifs_derived_variables,chage6,age of respondent's 6th child,-8.0,don't know
+694485,ELSA,wave_9_ifs_derived_variables,chage6,age of respondent's 6th child,-1.0,inapplicable
+694486,ELSA,wave_9_ifs_derived_variables,chsex6,sex of respondent's 6th child,-9.0,refuse
+694487,ELSA,wave_9_ifs_derived_variables,chsex6,sex of respondent's 6th child,-8.0,don't know
+694488,ELSA,wave_9_ifs_derived_variables,chsex6,sex of respondent's 6th child,-1.0,inapplicable
+694489,ELSA,wave_9_ifs_derived_variables,chsex6,sex of respondent's 6th child,1.0,male
+694490,ELSA,wave_9_ifs_derived_variables,chsex6,sex of respondent's 6th child,2.0,female
+694491,ELSA,wave_9_ifs_derived_variables,chtype6,type of respondent's 6th child,-9.0,refuse
+694492,ELSA,wave_9_ifs_derived_variables,chtype6,type of respondent's 6th child,-8.0,don't know
+694493,ELSA,wave_9_ifs_derived_variables,chtype6,type of respondent's 6th child,-1.0,inapplicable
+694494,ELSA,wave_9_ifs_derived_variables,chtype6,type of respondent's 6th child,1.0,natural child
+694495,ELSA,wave_9_ifs_derived_variables,chtype6,type of respondent's 6th child,2.0,adopted child
+694496,ELSA,wave_9_ifs_derived_variables,chtype6,type of respondent's 6th child,3.0,step child
+694497,ELSA,wave_9_ifs_derived_variables,chtype6,type of respondent's 6th child,4.0,fostered child
+694498,ELSA,wave_9_ifs_derived_variables,chstat6,status of respondent's 6th child,-9.0,refuse
+694499,ELSA,wave_9_ifs_derived_variables,chstat6,status of respondent's 6th child,-8.0,don't know
+694500,ELSA,wave_9_ifs_derived_variables,chstat6,status of respondent's 6th child,-1.0,inapplicable
+694501,ELSA,wave_9_ifs_derived_variables,chstat6,status of respondent's 6th child,1.0,dependent child in hh
+694502,ELSA,wave_9_ifs_derived_variables,chstat6,status of respondent's 6th child,2.0,non-dep child in hh
+694503,ELSA,wave_9_ifs_derived_variables,chstat6,status of respondent's 6th child,3.0,child outside hh
+694504,ELSA,wave_9_ifs_derived_variables,chage7,age of respondent's 7th child,-9.0,refuse
+694505,ELSA,wave_9_ifs_derived_variables,chage7,age of respondent's 7th child,-8.0,don't know
+694506,ELSA,wave_9_ifs_derived_variables,chage7,age of respondent's 7th child,-1.0,inapplicable
+694507,ELSA,wave_9_ifs_derived_variables,chsex7,sex of respondent's 7th child,-9.0,refuse
+694508,ELSA,wave_9_ifs_derived_variables,chsex7,sex of respondent's 7th child,-8.0,don't know
+694509,ELSA,wave_9_ifs_derived_variables,chsex7,sex of respondent's 7th child,-1.0,inapplicable
+694510,ELSA,wave_9_ifs_derived_variables,chsex7,sex of respondent's 7th child,1.0,male
+694511,ELSA,wave_9_ifs_derived_variables,chsex7,sex of respondent's 7th child,2.0,female
+694512,ELSA,wave_9_ifs_derived_variables,chtype7,type of respondent's 7th child,-9.0,refuse
+694513,ELSA,wave_9_ifs_derived_variables,chtype7,type of respondent's 7th child,-8.0,don't know
+694514,ELSA,wave_9_ifs_derived_variables,chtype7,type of respondent's 7th child,-1.0,inapplicable
+694515,ELSA,wave_9_ifs_derived_variables,chtype7,type of respondent's 7th child,1.0,natural child
+694516,ELSA,wave_9_ifs_derived_variables,chtype7,type of respondent's 7th child,2.0,adopted child
+694517,ELSA,wave_9_ifs_derived_variables,chtype7,type of respondent's 7th child,3.0,step child
+694518,ELSA,wave_9_ifs_derived_variables,chtype7,type of respondent's 7th child,4.0,fostered child
+694519,ELSA,wave_9_ifs_derived_variables,chstat7,status of respondent's 7th child,-9.0,refuse
+694520,ELSA,wave_9_ifs_derived_variables,chstat7,status of respondent's 7th child,-8.0,don't know
+694521,ELSA,wave_9_ifs_derived_variables,chstat7,status of respondent's 7th child,-1.0,inapplicable
+694522,ELSA,wave_9_ifs_derived_variables,chstat7,status of respondent's 7th child,1.0,dependent child in hh
+694523,ELSA,wave_9_ifs_derived_variables,chstat7,status of respondent's 7th child,2.0,non-dep child in hh
+694524,ELSA,wave_9_ifs_derived_variables,chstat7,status of respondent's 7th child,3.0,child outside hh
+694525,ELSA,wave_9_ifs_derived_variables,chage8,age of respondent's 8th child,-9.0,refuse
+694526,ELSA,wave_9_ifs_derived_variables,chage8,age of respondent's 8th child,-8.0,don't know
+694527,ELSA,wave_9_ifs_derived_variables,chage8,age of respondent's 8th child,-1.0,inapplicable
+694528,ELSA,wave_9_ifs_derived_variables,chsex8,sex of respondent's 8th child,-9.0,refuse
+694529,ELSA,wave_9_ifs_derived_variables,chsex8,sex of respondent's 8th child,-8.0,don't know
+694530,ELSA,wave_9_ifs_derived_variables,chsex8,sex of respondent's 8th child,-1.0,inapplicable
+694531,ELSA,wave_9_ifs_derived_variables,chsex8,sex of respondent's 8th child,1.0,male
+694532,ELSA,wave_9_ifs_derived_variables,chsex8,sex of respondent's 8th child,2.0,female
+694533,ELSA,wave_9_ifs_derived_variables,chtype8,type of respondent's 8th child,-9.0,refuse
+694534,ELSA,wave_9_ifs_derived_variables,chtype8,type of respondent's 8th child,-8.0,don't know
+694535,ELSA,wave_9_ifs_derived_variables,chtype8,type of respondent's 8th child,-1.0,inapplicable
+694536,ELSA,wave_9_ifs_derived_variables,chtype8,type of respondent's 8th child,1.0,natural child
+694537,ELSA,wave_9_ifs_derived_variables,chtype8,type of respondent's 8th child,2.0,adopted child
+694538,ELSA,wave_9_ifs_derived_variables,chtype8,type of respondent's 8th child,3.0,step child
+694539,ELSA,wave_9_ifs_derived_variables,chtype8,type of respondent's 8th child,4.0,fostered child
+694540,ELSA,wave_9_ifs_derived_variables,chstat8,status of respondent's 8th child,-9.0,refuse
+694541,ELSA,wave_9_ifs_derived_variables,chstat8,status of respondent's 8th child,-8.0,don't know
+694542,ELSA,wave_9_ifs_derived_variables,chstat8,status of respondent's 8th child,-1.0,inapplicable
+694543,ELSA,wave_9_ifs_derived_variables,chstat8,status of respondent's 8th child,1.0,dependent child in hh
+694544,ELSA,wave_9_ifs_derived_variables,chstat8,status of respondent's 8th child,2.0,non-dep child in hh
+694545,ELSA,wave_9_ifs_derived_variables,chstat8,status of respondent's 8th child,3.0,child outside hh
+694546,ELSA,wave_9_ifs_derived_variables,chage9,age of respondent's 9th child,-9.0,refuse
+694547,ELSA,wave_9_ifs_derived_variables,chage9,age of respondent's 9th child,-8.0,don't know
+694548,ELSA,wave_9_ifs_derived_variables,chage9,age of respondent's 9th child,-1.0,inapplicable
+694549,ELSA,wave_9_ifs_derived_variables,chsex9,sex of respondent's 9th child,-9.0,refuse
+694550,ELSA,wave_9_ifs_derived_variables,chsex9,sex of respondent's 9th child,-8.0,don't know
+694551,ELSA,wave_9_ifs_derived_variables,chsex9,sex of respondent's 9th child,-1.0,inapplicable
+694552,ELSA,wave_9_ifs_derived_variables,chsex9,sex of respondent's 9th child,1.0,male
+694553,ELSA,wave_9_ifs_derived_variables,chsex9,sex of respondent's 9th child,2.0,female
+694554,ELSA,wave_9_ifs_derived_variables,chtype9,type of respondent's 9th child,-9.0,refuse
+694555,ELSA,wave_9_ifs_derived_variables,chtype9,type of respondent's 9th child,-8.0,don't know
+694556,ELSA,wave_9_ifs_derived_variables,chtype9,type of respondent's 9th child,-1.0,inapplicable
+694557,ELSA,wave_9_ifs_derived_variables,chtype9,type of respondent's 9th child,1.0,natural child
+694558,ELSA,wave_9_ifs_derived_variables,chtype9,type of respondent's 9th child,2.0,adopted child
+694559,ELSA,wave_9_ifs_derived_variables,chtype9,type of respondent's 9th child,3.0,step child
+694560,ELSA,wave_9_ifs_derived_variables,chtype9,type of respondent's 9th child,4.0,fostered child
+694561,ELSA,wave_9_ifs_derived_variables,chstat9,status of respondent's 9th child,-9.0,refuse
+694562,ELSA,wave_9_ifs_derived_variables,chstat9,status of respondent's 9th child,-8.0,don't know
+694563,ELSA,wave_9_ifs_derived_variables,chstat9,status of respondent's 9th child,-1.0,inapplicable
+694564,ELSA,wave_9_ifs_derived_variables,chstat9,status of respondent's 9th child,1.0,dependent child in hh
+694565,ELSA,wave_9_ifs_derived_variables,chstat9,status of respondent's 9th child,2.0,non-dep child in hh
+694566,ELSA,wave_9_ifs_derived_variables,chstat9,status of respondent's 9th child,3.0,child outside hh
+694567,ELSA,wave_9_ifs_derived_variables,chage10,age of respondent's 10th child,-9.0,refuse
+694568,ELSA,wave_9_ifs_derived_variables,chage10,age of respondent's 10th child,-8.0,don't know
+694569,ELSA,wave_9_ifs_derived_variables,chage10,age of respondent's 10th child,-1.0,inapplicable
+694570,ELSA,wave_9_ifs_derived_variables,chsex10,sex of respondent's 10th child,-9.0,refuse
+694571,ELSA,wave_9_ifs_derived_variables,chsex10,sex of respondent's 10th child,-8.0,don't know
+694572,ELSA,wave_9_ifs_derived_variables,chsex10,sex of respondent's 10th child,-1.0,inapplicable
+694573,ELSA,wave_9_ifs_derived_variables,chsex10,sex of respondent's 10th child,1.0,male
+694574,ELSA,wave_9_ifs_derived_variables,chsex10,sex of respondent's 10th child,2.0,female
+694575,ELSA,wave_9_ifs_derived_variables,chtype10,type of respondent's 10th child,-9.0,refuse
+694576,ELSA,wave_9_ifs_derived_variables,chtype10,type of respondent's 10th child,-8.0,don't know
+694577,ELSA,wave_9_ifs_derived_variables,chtype10,type of respondent's 10th child,-1.0,inapplicable
+694578,ELSA,wave_9_ifs_derived_variables,chtype10,type of respondent's 10th child,1.0,natural child
+694579,ELSA,wave_9_ifs_derived_variables,chtype10,type of respondent's 10th child,2.0,adopted child
+694580,ELSA,wave_9_ifs_derived_variables,chtype10,type of respondent's 10th child,3.0,step child
+694581,ELSA,wave_9_ifs_derived_variables,chtype10,type of respondent's 10th child,4.0,fostered child
+694582,ELSA,wave_9_ifs_derived_variables,chstat10,status of respondent's 10th child,-9.0,refuse
+694583,ELSA,wave_9_ifs_derived_variables,chstat10,status of respondent's 10th child,-8.0,don't know
+694584,ELSA,wave_9_ifs_derived_variables,chstat10,status of respondent's 10th child,-1.0,inapplicable
+694585,ELSA,wave_9_ifs_derived_variables,chstat10,status of respondent's 10th child,1.0,dependent child in hh
+694586,ELSA,wave_9_ifs_derived_variables,chstat10,status of respondent's 10th child,2.0,non-dep child in hh
+694587,ELSA,wave_9_ifs_derived_variables,chstat10,status of respondent's 10th child,3.0,child outside hh
+694588,ELSA,wave_9_ifs_derived_variables,chage11,age of respondent's 11th child,-9.0,refuse
+694589,ELSA,wave_9_ifs_derived_variables,chage11,age of respondent's 11th child,-8.0,don't know
+694590,ELSA,wave_9_ifs_derived_variables,chage11,age of respondent's 11th child,-1.0,inapplicable
+694591,ELSA,wave_9_ifs_derived_variables,chsex11,sex of respondent's 11th child,-9.0,refuse
+694592,ELSA,wave_9_ifs_derived_variables,chsex11,sex of respondent's 11th child,-8.0,don't know
+694593,ELSA,wave_9_ifs_derived_variables,chsex11,sex of respondent's 11th child,-1.0,inapplicable
+694594,ELSA,wave_9_ifs_derived_variables,chsex11,sex of respondent's 11th child,1.0,male
+694595,ELSA,wave_9_ifs_derived_variables,chsex11,sex of respondent's 11th child,2.0,female
+694596,ELSA,wave_9_ifs_derived_variables,chtype11,type of respondent's 11th child,-9.0,refuse
+694597,ELSA,wave_9_ifs_derived_variables,chtype11,type of respondent's 11th child,-8.0,don't know
+694598,ELSA,wave_9_ifs_derived_variables,chtype11,type of respondent's 11th child,-1.0,inapplicable
+694599,ELSA,wave_9_ifs_derived_variables,chtype11,type of respondent's 11th child,1.0,natural child
+694600,ELSA,wave_9_ifs_derived_variables,chtype11,type of respondent's 11th child,2.0,adopted child
+694601,ELSA,wave_9_ifs_derived_variables,chtype11,type of respondent's 11th child,3.0,step child
+694602,ELSA,wave_9_ifs_derived_variables,chtype11,type of respondent's 11th child,4.0,fostered child
+694603,ELSA,wave_9_ifs_derived_variables,chstat11,status of respondent's 11th child,-9.0,refuse
+694604,ELSA,wave_9_ifs_derived_variables,chstat11,status of respondent's 11th child,-8.0,don't know
+694605,ELSA,wave_9_ifs_derived_variables,chstat11,status of respondent's 11th child,-1.0,inapplicable
+694606,ELSA,wave_9_ifs_derived_variables,chstat11,status of respondent's 11th child,1.0,dependent child in hh
+694607,ELSA,wave_9_ifs_derived_variables,chstat11,status of respondent's 11th child,2.0,non-dep child in hh
+694608,ELSA,wave_9_ifs_derived_variables,chstat11,status of respondent's 11th child,3.0,child outside hh
+694609,ELSA,wave_9_ifs_derived_variables,chage12,age of respondent's 12th child,-9.0,refuse
+694610,ELSA,wave_9_ifs_derived_variables,chage12,age of respondent's 12th child,-8.0,don't know
+694611,ELSA,wave_9_ifs_derived_variables,chage12,age of respondent's 12th child,-1.0,inapplicable
+694612,ELSA,wave_9_ifs_derived_variables,chsex12,sex of respondent's 12th child,-9.0,refuse
+694613,ELSA,wave_9_ifs_derived_variables,chsex12,sex of respondent's 12th child,-8.0,don't know
+694614,ELSA,wave_9_ifs_derived_variables,chsex12,sex of respondent's 12th child,-1.0,inapplicable
+694615,ELSA,wave_9_ifs_derived_variables,chsex12,sex of respondent's 12th child,1.0,male
+694616,ELSA,wave_9_ifs_derived_variables,chsex12,sex of respondent's 12th child,2.0,female
+694617,ELSA,wave_9_ifs_derived_variables,chtype12,type of respondent's 12th child,-9.0,refuse
+694618,ELSA,wave_9_ifs_derived_variables,chtype12,type of respondent's 12th child,-8.0,don't know
+694619,ELSA,wave_9_ifs_derived_variables,chtype12,type of respondent's 12th child,-1.0,inapplicable
+694620,ELSA,wave_9_ifs_derived_variables,chtype12,type of respondent's 12th child,1.0,natural child
+694621,ELSA,wave_9_ifs_derived_variables,chtype12,type of respondent's 12th child,2.0,adopted child
+694622,ELSA,wave_9_ifs_derived_variables,chtype12,type of respondent's 12th child,3.0,step child
+694623,ELSA,wave_9_ifs_derived_variables,chtype12,type of respondent's 12th child,4.0,fostered child
+694624,ELSA,wave_9_ifs_derived_variables,chstat12,status of respondent's 12th child,-9.0,refuse
+694625,ELSA,wave_9_ifs_derived_variables,chstat12,status of respondent's 12th child,-8.0,don't know
+694626,ELSA,wave_9_ifs_derived_variables,chstat12,status of respondent's 12th child,-1.0,inapplicable
+694627,ELSA,wave_9_ifs_derived_variables,chstat12,status of respondent's 12th child,1.0,dependent child in hh
+694628,ELSA,wave_9_ifs_derived_variables,chstat12,status of respondent's 12th child,2.0,non-dep child in hh
+694629,ELSA,wave_9_ifs_derived_variables,chstat12,status of respondent's 12th child,3.0,child outside hh
+694630,ELSA,wave_9_ifs_derived_variables,chage13,age of respondent's 13th child,-9.0,refuse
+694631,ELSA,wave_9_ifs_derived_variables,chage13,age of respondent's 13th child,-8.0,don't know
+694632,ELSA,wave_9_ifs_derived_variables,chage13,age of respondent's 13th child,-1.0,inapplicable
+694633,ELSA,wave_9_ifs_derived_variables,chsex13,sex of respondent's 13th child,-9.0,refuse
+694634,ELSA,wave_9_ifs_derived_variables,chsex13,sex of respondent's 13th child,-8.0,don't know
+694635,ELSA,wave_9_ifs_derived_variables,chsex13,sex of respondent's 13th child,-1.0,inapplicable
+694636,ELSA,wave_9_ifs_derived_variables,chsex13,sex of respondent's 13th child,1.0,male
+694637,ELSA,wave_9_ifs_derived_variables,chsex13,sex of respondent's 13th child,2.0,female
+694638,ELSA,wave_9_ifs_derived_variables,chtype13,type of respondent's 13th child,-9.0,refuse
+694639,ELSA,wave_9_ifs_derived_variables,chtype13,type of respondent's 13th child,-8.0,don't know
+694640,ELSA,wave_9_ifs_derived_variables,chtype13,type of respondent's 13th child,-1.0,inapplicable
+694641,ELSA,wave_9_ifs_derived_variables,chtype13,type of respondent's 13th child,1.0,natural child
+694642,ELSA,wave_9_ifs_derived_variables,chtype13,type of respondent's 13th child,2.0,adopted child
+694643,ELSA,wave_9_ifs_derived_variables,chtype13,type of respondent's 13th child,3.0,step child
+694644,ELSA,wave_9_ifs_derived_variables,chtype13,type of respondent's 13th child,4.0,fostered child
+694645,ELSA,wave_9_ifs_derived_variables,chstat13,status of respondent's 13th child,-9.0,refuse
+694646,ELSA,wave_9_ifs_derived_variables,chstat13,status of respondent's 13th child,-8.0,don't know
+694647,ELSA,wave_9_ifs_derived_variables,chstat13,status of respondent's 13th child,-1.0,inapplicable
+694648,ELSA,wave_9_ifs_derived_variables,chstat13,status of respondent's 13th child,1.0,dependent child in hh
+694649,ELSA,wave_9_ifs_derived_variables,chstat13,status of respondent's 13th child,2.0,non-dep child in hh
+694650,ELSA,wave_9_ifs_derived_variables,chstat13,status of respondent's 13th child,3.0,child outside hh
+694651,ELSA,wave_9_ifs_derived_variables,chage14,age of respondent's 14th child,-9.0,refuse
+694652,ELSA,wave_9_ifs_derived_variables,chage14,age of respondent's 14th child,-8.0,don't know
+694653,ELSA,wave_9_ifs_derived_variables,chage14,age of respondent's 14th child,-1.0,inapplicable
+694654,ELSA,wave_9_ifs_derived_variables,chsex14,sex of respondent's 14th child,-9.0,refuse
+694655,ELSA,wave_9_ifs_derived_variables,chsex14,sex of respondent's 14th child,-8.0,don't know
+694656,ELSA,wave_9_ifs_derived_variables,chsex14,sex of respondent's 14th child,-1.0,inapplicable
+694657,ELSA,wave_9_ifs_derived_variables,chsex14,sex of respondent's 14th child,1.0,male
+694658,ELSA,wave_9_ifs_derived_variables,chsex14,sex of respondent's 14th child,2.0,female
+694659,ELSA,wave_9_ifs_derived_variables,chtype14,type of respondent's 14th child,-9.0,refuse
+694660,ELSA,wave_9_ifs_derived_variables,chtype14,type of respondent's 14th child,-8.0,don't know
+694661,ELSA,wave_9_ifs_derived_variables,chtype14,type of respondent's 14th child,-1.0,inapplicable
+694662,ELSA,wave_9_ifs_derived_variables,chtype14,type of respondent's 14th child,1.0,natural child
+694663,ELSA,wave_9_ifs_derived_variables,chtype14,type of respondent's 14th child,2.0,adopted child
+694664,ELSA,wave_9_ifs_derived_variables,chtype14,type of respondent's 14th child,3.0,step child
+694665,ELSA,wave_9_ifs_derived_variables,chtype14,type of respondent's 14th child,4.0,fostered child
+694666,ELSA,wave_9_ifs_derived_variables,chstat14,status of respondent's 14th child,-9.0,refuse
+694667,ELSA,wave_9_ifs_derived_variables,chstat14,status of respondent's 14th child,-8.0,don't know
+694668,ELSA,wave_9_ifs_derived_variables,chstat14,status of respondent's 14th child,-1.0,inapplicable
+694669,ELSA,wave_9_ifs_derived_variables,chstat14,status of respondent's 14th child,1.0,dependent child in hh
+694670,ELSA,wave_9_ifs_derived_variables,chstat14,status of respondent's 14th child,2.0,non-dep child in hh
+694671,ELSA,wave_9_ifs_derived_variables,chstat14,status of respondent's 14th child,3.0,child outside hh
+694672,ELSA,wave_9_ifs_derived_variables,chage15,age of respondent's 15th child,-9.0,refuse
+694673,ELSA,wave_9_ifs_derived_variables,chage15,age of respondent's 15th child,-8.0,don't know
+694674,ELSA,wave_9_ifs_derived_variables,chage15,age of respondent's 15th child,-1.0,inapplicable
+694675,ELSA,wave_9_ifs_derived_variables,chsex15,sex of respondent's 15th child,-9.0,refuse
+694676,ELSA,wave_9_ifs_derived_variables,chsex15,sex of respondent's 15th child,-8.0,don't know
+694677,ELSA,wave_9_ifs_derived_variables,chsex15,sex of respondent's 15th child,-1.0,inapplicable
+694678,ELSA,wave_9_ifs_derived_variables,chsex15,sex of respondent's 15th child,1.0,male
+694679,ELSA,wave_9_ifs_derived_variables,chsex15,sex of respondent's 15th child,2.0,female
+694680,ELSA,wave_9_ifs_derived_variables,chtype15,type of respondent's 15th child,-9.0,refuse
+694681,ELSA,wave_9_ifs_derived_variables,chtype15,type of respondent's 15th child,-8.0,don't know
+694682,ELSA,wave_9_ifs_derived_variables,chtype15,type of respondent's 15th child,-1.0,inapplicable
+694683,ELSA,wave_9_ifs_derived_variables,chtype15,type of respondent's 15th child,1.0,natural child
+694684,ELSA,wave_9_ifs_derived_variables,chtype15,type of respondent's 15th child,2.0,adopted child
+694685,ELSA,wave_9_ifs_derived_variables,chtype15,type of respondent's 15th child,3.0,step child
+694686,ELSA,wave_9_ifs_derived_variables,chtype15,type of respondent's 15th child,4.0,fostered child
+694687,ELSA,wave_9_ifs_derived_variables,chstat15,status of respondent's 15th child,-9.0,refuse
+694688,ELSA,wave_9_ifs_derived_variables,chstat15,status of respondent's 15th child,-8.0,don't know
+694689,ELSA,wave_9_ifs_derived_variables,chstat15,status of respondent's 15th child,-1.0,inapplicable
+694690,ELSA,wave_9_ifs_derived_variables,chstat15,status of respondent's 15th child,1.0,dependent child in hh
+694691,ELSA,wave_9_ifs_derived_variables,chstat15,status of respondent's 15th child,2.0,non-dep child in hh
+694692,ELSA,wave_9_ifs_derived_variables,chstat15,status of respondent's 15th child,3.0,child outside hh
+694693,ELSA,wave_9_ifs_derived_variables,chage16,age of respondent's 16th child,-9.0,refuse
+694694,ELSA,wave_9_ifs_derived_variables,chage16,age of respondent's 16th child,-8.0,don't know
+694695,ELSA,wave_9_ifs_derived_variables,chage16,age of respondent's 16th child,-1.0,inapplicable
+694696,ELSA,wave_9_ifs_derived_variables,chsex16,sex of respondent's 16th child,-9.0,refuse
+694697,ELSA,wave_9_ifs_derived_variables,chsex16,sex of respondent's 16th child,-8.0,don't know
+694698,ELSA,wave_9_ifs_derived_variables,chsex16,sex of respondent's 16th child,-1.0,inapplicable
+694699,ELSA,wave_9_ifs_derived_variables,chsex16,sex of respondent's 16th child,1.0,male
+694700,ELSA,wave_9_ifs_derived_variables,chsex16,sex of respondent's 16th child,2.0,female
+694701,ELSA,wave_9_ifs_derived_variables,chtype16,type of respondent's 16th child,-9.0,refuse
+694702,ELSA,wave_9_ifs_derived_variables,chtype16,type of respondent's 16th child,-8.0,don't know
+694703,ELSA,wave_9_ifs_derived_variables,chtype16,type of respondent's 16th child,-1.0,inapplicable
+694704,ELSA,wave_9_ifs_derived_variables,chtype16,type of respondent's 16th child,1.0,natural child
+694705,ELSA,wave_9_ifs_derived_variables,chtype16,type of respondent's 16th child,2.0,adopted child
+694706,ELSA,wave_9_ifs_derived_variables,chtype16,type of respondent's 16th child,3.0,step child
+694707,ELSA,wave_9_ifs_derived_variables,chtype16,type of respondent's 16th child,4.0,fostered child
+694708,ELSA,wave_9_ifs_derived_variables,chstat16,status of respondent's 16th child,-9.0,refuse
+694709,ELSA,wave_9_ifs_derived_variables,chstat16,status of respondent's 16th child,-8.0,don't know
+694710,ELSA,wave_9_ifs_derived_variables,chstat16,status of respondent's 16th child,-1.0,inapplicable
+694711,ELSA,wave_9_ifs_derived_variables,chstat16,status of respondent's 16th child,1.0,dependent child in hh
+694712,ELSA,wave_9_ifs_derived_variables,chstat16,status of respondent's 16th child,2.0,non-dep child in hh
+694713,ELSA,wave_9_ifs_derived_variables,chstat16,status of respondent's 16th child,3.0,child outside hh
+694714,ELSA,wave_9_ifs_derived_variables,ngrandch,number of grandchildren or great-grandchildren inside or outside the household,-9.0,refuse
+694715,ELSA,wave_9_ifs_derived_variables,ngrandch,number of grandchildren or great-grandchildren inside or outside the household,-8.0,don't know
+694716,ELSA,wave_9_ifs_derived_variables,ngrandch,number of grandchildren or great-grandchildren inside or outside the household,-2.0,not asked
+694717,ELSA,wave_9_ifs_derived_variables,ngrandchinhh,number of grandchildren living in the household,-9.0,refuse
+694718,ELSA,wave_9_ifs_derived_variables,ngrandchinhh,number of grandchildren living in the household,-8.0,don't know
+694719,ELSA,wave_9_ifs_derived_variables,ngrandchinhh,number of grandchildren living in the household,-2.0,not asked
+694720,ELSA,wave_9_ifs_derived_variables,nsibs,number of living siblings,-9.0,refuse
+694721,ELSA,wave_9_ifs_derived_variables,nsibs,number of living siblings,-8.0,don't know
+694722,ELSA,wave_9_ifs_derived_variables,nsibs,number of living siblings,-2.0,not asked
+694723,ELSA,wave_9_ifs_derived_variables,famtype,household type,1.0,Single
+694724,ELSA,wave_9_ifs_derived_variables,famtype,household type,2.0,Lone plus dependent children
+694725,ELSA,wave_9_ifs_derived_variables,famtype,household type,3.0,Lone plus non-dep children aged<30
+694726,ELSA,wave_9_ifs_derived_variables,famtype,household type,4.0,Lone plus non-dep children aged>=30
+694727,ELSA,wave_9_ifs_derived_variables,famtype,household type,5.0,Lone plus both
+694728,ELSA,wave_9_ifs_derived_variables,famtype,household type,6.0,Couple
+694729,ELSA,wave_9_ifs_derived_variables,famtype,household type,7.0,Couple plus dependent children
+694730,ELSA,wave_9_ifs_derived_variables,famtype,household type,8.0,Couple plus non-dep children aged <30
+694731,ELSA,wave_9_ifs_derived_variables,famtype,household type,9.0,Couple plus non-dep children aged >=30
+694732,ELSA,wave_9_ifs_derived_variables,famtype,household type,10.0,Couple plus both
+694733,ELSA,wave_9_ifs_derived_variables,famtype,household type,11.0,Extended family
+694734,ELSA,wave_9_ifs_derived_variables,famtype,household type,12.0,Extended family plus children
+694735,ELSA,wave_9_ifs_derived_variables,famtype,household type,13.0,Other multiple tax unit
+694736,ELSA,wave_9_ifs_derived_variables,famtype,household type,14.0,Other multiple tax unit plus children
+694737,ELSA,wave_9_ifs_derived_variables,butype,benefit unit type,1.0,single male
+694738,ELSA,wave_9_ifs_derived_variables,butype,benefit unit type,2.0,single female
+694739,ELSA,wave_9_ifs_derived_variables,butype,benefit unit type,3.0,couple
+694740,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),-1.0,under 50
+694741,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),1.0,50-54
+694742,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),2.0,55-59
+694743,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),3.0,60-64
+694744,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),4.0,65-69
+694745,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),5.0,70-74
+694746,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),6.0,75-79
+694747,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),7.0,80-84
+694748,ELSA,wave_9_ifs_derived_variables,ageg5,age band - 5 year bands  (8 way split),8.0,85+
+694749,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),-1.0,under 50
+694750,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),1.0,50-54
+694751,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),2.0,55-59
+694752,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),3.0,60-64
+694753,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),4.0,65-69
+694754,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),5.0,70-74
+694755,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),6.0,75-79
+694756,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),7.0,80-84
+694757,ELSA,wave_9_ifs_derived_variables,ageg5_bu,bu head age band - 5 year bands  (8 way split),8.0,85+
+694758,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),-1.0,under 50
+694759,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),1.0,50-54
+694760,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),2.0,55-59
+694761,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),3.0,60-64
+694762,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),4.0,65-69
+694763,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),5.0,70-74
+694764,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),6.0,75-79
+694765,ELSA,wave_9_ifs_derived_variables,ageg7,age band - 5 year bands  (7 way split),7.0,80+
+694766,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),-1.0,under 50
+694767,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),1.0,50-54
+694768,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),2.0,55-59
+694769,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),3.0,60-64
+694770,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),4.0,65-69
+694771,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),5.0,70-74
+694772,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),6.0,75-79
+694773,ELSA,wave_9_ifs_derived_variables,ageg7_bu,bu head age band - 5 year bands  (7 way split),7.0,80+
+694774,ELSA,wave_9_ifs_derived_variables,ageg10,age band - 10 year bands (4 way split),-1.0,under 50
+694775,ELSA,wave_9_ifs_derived_variables,ageg10,age band - 10 year bands (4 way split),1.0,50-59
+694776,ELSA,wave_9_ifs_derived_variables,ageg10,age band - 10 year bands (4 way split),2.0,60-69
+694777,ELSA,wave_9_ifs_derived_variables,ageg10,age band - 10 year bands (4 way split),3.0,70-79
+694778,ELSA,wave_9_ifs_derived_variables,ageg10,age band - 10 year bands (4 way split),4.0,80+
+694779,ELSA,wave_9_ifs_derived_variables,ageg10_bu,bu head age band - 10 year bands (4 way split),-1.0,under 50
+694780,ELSA,wave_9_ifs_derived_variables,ageg10_bu,bu head age band - 10 year bands (4 way split),1.0,50-59
+694781,ELSA,wave_9_ifs_derived_variables,ageg10_bu,bu head age band - 10 year bands (4 way split),2.0,60-69
+694782,ELSA,wave_9_ifs_derived_variables,ageg10_bu,bu head age band - 10 year bands (4 way split),3.0,70-79
+694783,ELSA,wave_9_ifs_derived_variables,ageg10_bu,bu head age band - 10 year bands (4 way split),4.0,80+
+694784,ELSA,wave_9_ifs_derived_variables,ageg3,age band - 3 way split,1.0,50-SPA
+694785,ELSA,wave_9_ifs_derived_variables,ageg3,age band - 3 way split,2.0,SPA-74
+694786,ELSA,wave_9_ifs_derived_variables,ageg3,age band - 3 way split,3.0,75+
+694787,ELSA,wave_9_ifs_derived_variables,ageg3_bu,bu head age band - 3 way split ,1.0,50-SPA
+694788,ELSA,wave_9_ifs_derived_variables,ageg3_bu,bu head age band - 3 way split ,2.0,SPA-74
+694789,ELSA,wave_9_ifs_derived_variables,ageg3_bu,bu head age band - 3 way split ,3.0,75+
+694790,ELSA,wave_9_ifs_derived_variables,spage,above or below SPA,0.0,below SPA
+694791,ELSA,wave_9_ifs_derived_variables,spage,above or below SPA,1.0,SPA or above
+694792,ELSA,wave_9_ifs_derived_variables,spage_bu,bu head above or below SPA,0.0,below SPA
+694793,ELSA,wave_9_ifs_derived_variables,spage_bu,bu head above or below SPA,1.0,SPA or above
+694794,ELSA,wave_9_ifs_derived_variables,numbuk013,number of children in BU aged 0-13,,
+694795,ELSA,wave_9_ifs_derived_variables,numbuk1418,number of children in BU aged 14-18,,
+694796,ELSA,wave_9_ifs_derived_variables,numhhk013,number of children in HH aged 0-13,,
+694797,ELSA,wave_9_ifs_derived_variables,numhhk1418,number of children in HH aged 14-18,,
+694798,ELSA,wave_9_ifs_derived_variables,bueq,BU equivalence scale,,
+694799,ELSA,wave_9_ifs_derived_variables,hheq,HH equivalence scale,,
+694800,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,-9.0,refusal
+694801,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,-8.0,don't know
+694802,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,-7.0,institution
+694803,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,-1.0,not applicable
+694804,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,1.0,own it outright
+694805,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,2.0,buying it with the help of a mortgage or loan
+694806,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,3.0,pay part rent and part mortgage (shared ownership)
+694807,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,4.0,rent it
+694808,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,5.0,live here rent free (including rent free in relative/friends)
+694809,ELSA,wave_9_ifs_derived_variables,tenure,housing tenure - copy of hotenu,6.0,squatting
+694810,ELSA,wave_9_ifs_derived_variables,socrent,whether is a social renter,-9.0,refuse
+694811,ELSA,wave_9_ifs_derived_variables,socrent,whether is a social renter,-8.0,don't know
+694812,ELSA,wave_9_ifs_derived_variables,socrent,whether is a social renter,-1.0,not applicable
+694813,ELSA,wave_9_ifs_derived_variables,socrent,whether is a social renter,0.0,private renter
+694814,ELSA,wave_9_ifs_derived_variables,socrent,whether is a social renter,1.0,social renter (LA or H. Ass)
+694815,ELSA,wave_9_ifs_derived_variables,numhhldrsinhh,number of people whose name is on the property including those outside the house,,
+694816,ELSA,wave_9_ifs_derived_variables,agehhldr1,age of 1st householder,-97.0,hhldr outside the household
+694817,ELSA,wave_9_ifs_derived_variables,agehhldr1,age of 1st householder,-9.0,refuse
+694818,ELSA,wave_9_ifs_derived_variables,agehhldr1,age of 1st householder,-8.0,don't know
+694819,ELSA,wave_9_ifs_derived_variables,agehhldr1,age of 1st householder,-1.0,inapplicable
+694820,ELSA,wave_9_ifs_derived_variables,agehhldr1,age of 1st householder,99.0,age in years on or before 29/02/1912
+694821,ELSA,wave_9_ifs_derived_variables,agehhldr2,age of 2nd householder,-97.0,hhldr outside the household
+694822,ELSA,wave_9_ifs_derived_variables,agehhldr2,age of 2nd householder,-9.0,refuse
+694823,ELSA,wave_9_ifs_derived_variables,agehhldr2,age of 2nd householder,-8.0,don't know
+694824,ELSA,wave_9_ifs_derived_variables,agehhldr2,age of 2nd householder,-1.0,inapplicable
+694825,ELSA,wave_9_ifs_derived_variables,agehhldr2,age of 2nd householder,99.0,age in years on or before 29/02/1912
+694826,ELSA,wave_9_ifs_derived_variables,agehhldr3,age of 3rd householder,-97.0,hhldr outside the household
+694827,ELSA,wave_9_ifs_derived_variables,agehhldr3,age of 3rd householder,-9.0,refuse
+694828,ELSA,wave_9_ifs_derived_variables,agehhldr3,age of 3rd householder,-8.0,don't know
+694829,ELSA,wave_9_ifs_derived_variables,agehhldr3,age of 3rd householder,-1.0,inapplicable
+694830,ELSA,wave_9_ifs_derived_variables,agehhldr3,age of 3rd householder,99.0,age in years on or before 29/02/1912
+694831,ELSA,wave_9_ifs_derived_variables,agehhldr4,age of 4th householder,-97.0,hhldr outside the household
+694832,ELSA,wave_9_ifs_derived_variables,agehhldr4,age of 4th householder,-9.0,refuse
+694833,ELSA,wave_9_ifs_derived_variables,agehhldr4,age of 4th householder,-8.0,don't know
+694834,ELSA,wave_9_ifs_derived_variables,agehhldr4,age of 4th householder,-1.0,inapplicable
+694835,ELSA,wave_9_ifs_derived_variables,agehhldr4,age of 4th householder,99.0,age in years on or before 29/02/1912
+694836,ELSA,wave_9_ifs_derived_variables,nameonprop,whether a named householder,,
+694837,ELSA,wave_9_ifs_derived_variables,spnameonprop,is partner a named householder,,
+694838,ELSA,wave_9_ifs_derived_variables,marstat,marital status - couple1 combined with dimar,1.0,married (inc civ pship 06 onwards)
+694839,ELSA,wave_9_ifs_derived_variables,marstat,marital status - couple1 combined with dimar,2.0,cohabiting
+694840,ELSA,wave_9_ifs_derived_variables,marstat,marital status - couple1 combined with dimar,3.0,"single, never married"
+694841,ELSA,wave_9_ifs_derived_variables,marstat,marital status - couple1 combined with dimar,4.0,widowed
+694842,ELSA,wave_9_ifs_derived_variables,marstat,marital status - couple1 combined with dimar,5.0,divorced
+694843,ELSA,wave_9_ifs_derived_variables,marstat,marital status - couple1 combined with dimar,6.0,separated
+694844,ELSA,wave_9_ifs_derived_variables,hhgriddhwork,whether was in paid employment last week - taken from hhgrid,-3.0,not asked this wave
+694845,ELSA,wave_9_ifs_derived_variables,hhgriddhwork,whether was in paid employment last week - taken from hhgrid,-2.0,not asked
+694846,ELSA,wave_9_ifs_derived_variables,hhgriddhwork,whether was in paid employment last week - taken from hhgrid,-1.0,not applicable
+694847,ELSA,wave_9_ifs_derived_variables,hhgriddhwork,whether was in paid employment last week - taken from hhgrid,1.0,yes
+694848,ELSA,wave_9_ifs_derived_variables,hhgriddhwork,whether was in paid employment last week - taken from hhgrid,2.0,no
+694849,ELSA,wave_9_ifs_derived_variables,hhgriddhwork,whether was in paid employment last week - taken from hhgrid,8.0,refusal
+694850,ELSA,wave_9_ifs_derived_variables,hhgriddhwork,whether was in paid employment last week - taken from hhgrid,9.0,don't know
+694851,ELSA,wave_9_ifs_derived_variables,hhgriddhwork_p,whether partner was in paid employment last week - taken from hhgrid,-3.0,not asked this wave
+694852,ELSA,wave_9_ifs_derived_variables,hhgriddhwork_p,whether partner was in paid employment last week - taken from hhgrid,-2.0,not asked
+694853,ELSA,wave_9_ifs_derived_variables,hhgriddhwork_p,whether partner was in paid employment last week - taken from hhgrid,-1.0,not applicable
+694854,ELSA,wave_9_ifs_derived_variables,hhgriddhwork_p,whether partner was in paid employment last week - taken from hhgrid,1.0,yes
+694855,ELSA,wave_9_ifs_derived_variables,hhgriddhwork_p,whether partner was in paid employment last week - taken from hhgrid,2.0,no
+694856,ELSA,wave_9_ifs_derived_variables,hhgriddhwork_p,whether partner was in paid employment last week - taken from hhgrid,8.0,refusal
+694857,ELSA,wave_9_ifs_derived_variables,hhgriddhwork_p,whether partner was in paid employment last week - taken from hhgrid,9.0,don't know
+694858,ELSA,wave_9_ifs_derived_variables,wpactive,current working status,0.0,not in work
+694859,ELSA,wave_9_ifs_derived_variables,wpactive,current working status,1.0,in work
+694860,ELSA,wave_9_ifs_derived_variables,wpactive_p,prtnr's working status (wpactive combined with dhwork if available for non-resp ,-9.0,refusal
+694861,ELSA,wave_9_ifs_derived_variables,wpactive_p,prtnr's working status (wpactive combined with dhwork if available for non-resp ,-1.0,no partner
+694862,ELSA,wave_9_ifs_derived_variables,wpactive_p,prtnr's working status (wpactive combined with dhwork if available for non-resp ,0.0,not in work
+694863,ELSA,wave_9_ifs_derived_variables,wpactive_p,prtnr's working status (wpactive combined with dhwork if available for non-resp ,1.0,in work
+694864,ELSA,wave_9_ifs_derived_variables,wselfd,self reported emp status,1.0,employee
+694865,ELSA,wave_9_ifs_derived_variables,wselfd,self reported emp status,2.0,self_emp
+694866,ELSA,wave_9_ifs_derived_variables,wselfd,self reported emp status,3.0,retired
+694867,ELSA,wave_9_ifs_derived_variables,wselfd,self reported emp status,4.0,unemployed
+694868,ELSA,wave_9_ifs_derived_variables,wselfd,self reported emp status,5.0,lt_sick
+694869,ELSA,wave_9_ifs_derived_variables,wselfd,self reported emp status,6.0,other
+694870,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,-9.0,refusal/non-responding partner
+694871,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,-1.0,no partner
+694872,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,1.0,employee
+694873,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,2.0,self_emp
+694874,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,3.0,retired
+694875,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,4.0,unemployed
+694876,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,5.0,lt_sick
+694877,ELSA,wave_9_ifs_derived_variables,wselfd_p,partner's self reported emp status,6.0,other
+694878,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,1.0,Position not recorded
+694879,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,2.0,Employee
+694880,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,3.0,Self-employed
+694881,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,4.0,Seeking work
+694882,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,5.0,Sick but seeking
+694883,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,6.0,Sick and not seeking
+694884,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,7.0,Retired
+694885,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,8.0,Unoccupied
+694886,ELSA,wave_9_ifs_derived_variables,ecpos,economic activity,9.0,EcPosChild
+694887,ELSA,wave_9_ifs_derived_variables,worktime,Working full time or part time,-8.0,unknown
+694888,ELSA,wave_9_ifs_derived_variables,worktime,Working full time or part time,-1.0,Not working
+694889,ELSA,wave_9_ifs_derived_variables,worktime,Working full time or part time,1.0,Full time (>=35)
+694890,ELSA,wave_9_ifs_derived_variables,worktime,Working full time or part time,2.0,Part time
+694891,ELSA,wave_9_ifs_derived_variables,hours,Hours of work main job (employed or self employed),-8.0,not known
+694892,ELSA,wave_9_ifs_derived_variables,hours_aj,Hours of work all jobs (employed or self employed),-8.0,not known
+694893,ELSA,wave_9_ifs_derived_variables,everwork,ever worked,-2.0,not asked
+694894,ELSA,wave_9_ifs_derived_variables,everwork,ever worked,0.0,never worked
+694895,ELSA,wave_9_ifs_derived_variables,everwork,ever worked,1.0,worked
+694896,ELSA,wave_9_ifs_derived_variables,everwork,ever worked,2.0,probably never worked
+694897,ELSA,wave_9_ifs_derived_variables,pp_mem,currently a member of private pension scheme (cont/rec/ret rights),-2.0,not asked
+694898,ELSA,wave_9_ifs_derived_variables,pp_mem,currently a member of private pension scheme (cont/rec/ret rights),0.0,no
+694899,ELSA,wave_9_ifs_derived_variables,pp_mem,currently a member of private pension scheme (cont/rec/ret rights),1.0,yes
+694900,ELSA,wave_9_ifs_derived_variables,pp_cont,currently contributing to a private pension scheme,0.0,no
+694901,ELSA,wave_9_ifs_derived_variables,pp_cont,currently contributing to a private pension scheme,1.0,yes
+694902,ELSA,wave_9_ifs_derived_variables,pp_ncont,number of private pensions currently contributing to,,
+694903,ELSA,wave_9_ifs_derived_variables,pp_occ,currently contributing to an occupational pension (any type),0.0,no
+694904,ELSA,wave_9_ifs_derived_variables,pp_occ,currently contributing to an occupational pension (any type),1.0,yes
+694905,ELSA,wave_9_ifs_derived_variables,pp_nocc,number of occupational pensions curr contributing to (any type),,
+694906,ELSA,wave_9_ifs_derived_variables,pp_occdb,currently contributing to a DB occupational pension,0.0,no
+694907,ELSA,wave_9_ifs_derived_variables,pp_occdb,currently contributing to a DB occupational pension,1.0,yes
+694908,ELSA,wave_9_ifs_derived_variables,pp_noccdb,number of DB occupational pensions currently contributing to,,
+694909,ELSA,wave_9_ifs_derived_variables,pp_occdc,currently contributing to a DC occupational pension,0.0,no
+694910,ELSA,wave_9_ifs_derived_variables,pp_occdc,currently contributing to a DC occupational pension,1.0,yes
+694911,ELSA,wave_9_ifs_derived_variables,pp_noccdc,number of DC occupational pensions currently contributing to,,
+694912,ELSA,wave_9_ifs_derived_variables,pp_occnk,currently contribution to an occupational pension; DB/DC not known,0.0,no
+694913,ELSA,wave_9_ifs_derived_variables,pp_occnk,currently contribution to an occupational pension; DB/DC not known,1.0,yes
+694914,ELSA,wave_9_ifs_derived_variables,pp_noccnk,number of occupational pensions (DB/DC not known) currently contributing to,,
+694915,ELSA,wave_9_ifs_derived_variables,pp_per,currently contributing to a personal pension,0.0,no
+694916,ELSA,wave_9_ifs_derived_variables,pp_per,currently contributing to a personal pension,1.0,yes
+694917,ELSA,wave_9_ifs_derived_variables,pp_nper,number of personal pensions currently contributing to,,
+694918,ELSA,wave_9_ifs_derived_variables,pp_nk,currently contributing to a private pension; type not known,0.0,no
+694919,ELSA,wave_9_ifs_derived_variables,pp_nk,currently contributing to a private pension; type not known,1.0,yes
+694920,ELSA,wave_9_ifs_derived_variables,pp_nnk,number of private pensions (unknown type) currently contributing to,,
+694921,ELSA,wave_9_ifs_derived_variables,pp_rec,currently receiving income from a private pension,0.0,no
+694922,ELSA,wave_9_ifs_derived_variables,pp_rec,currently receiving income from a private pension,1.0,yes
+694923,ELSA,wave_9_ifs_derived_variables,pp_nrec,number of private pensions from which receiving income,,
+694924,ELSA,wave_9_ifs_derived_variables,pp_rr,currently has retained rights in a private pension,0.0,no
+694925,ELSA,wave_9_ifs_derived_variables,pp_rr,currently has retained rights in a private pension,1.0,yes
+694926,ELSA,wave_9_ifs_derived_variables,pp_nrr,number of private pensions to which currently has retained rights,,
+694927,ELSA,wave_9_ifs_derived_variables,pp_maxyrs,maximum number of years resp has been a member of any one private pension scheme,-9.0,refusal
+694928,ELSA,wave_9_ifs_derived_variables,pp_maxyrs,maximum number of years resp has been a member of any one private pension scheme,-8.0,don't know
+694929,ELSA,wave_9_ifs_derived_variables,pp_maxyrs,maximum number of years resp has been a member of any one private pension scheme,-2.0,not asked
+694930,ELSA,wave_9_ifs_derived_variables,pp_maxyrs,maximum number of years resp has been a member of any one private pension scheme,-1.0,inapplicable
+694931,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,-9.0,refusal
+694932,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,-8.0,don't know
+694933,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,-2.0,not asked
+694934,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,-1.0,not applicable
+694935,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,1.0,not yet finished
+694936,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,2.0,never went to school
+694937,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,3.0,14 or under
+694938,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,4.0,at 15
+694939,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,5.0,at 16
+694940,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,6.0,at 17
+694941,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,7.0,at 18
+694942,ELSA,wave_9_ifs_derived_variables,edend,age finished cont. full time education; merged from current and previous waves,8.0,19 or over
+694943,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,-9.0,refusal
+694944,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,-8.0,don't know
+694945,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,-2.0,not asked
+694946,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,-1.0,not applicable
+694947,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,1.0,nvq4/nvq5/degree or equiv
+694948,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,2.0,higher ed below degree
+694949,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,3.0,nvq3/gce a level equiv
+694950,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,4.0,nvq2/gce o level equiv
+694951,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,5.0,nvq1/cse other grade equiv
+694952,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,6.0,foreign/other
+694953,ELSA,wave_9_ifs_derived_variables,edqual,educational qualification - info merged from current and previous waves,7.0,no qualification
+694954,ELSA,wave_9_ifs_derived_variables,qual2,2-way qualification split - info merged from current and previous waves,-9.0,refused
+694955,ELSA,wave_9_ifs_derived_variables,qual2,2-way qualification split - info merged from current and previous waves,-8.0,don't know
+694956,ELSA,wave_9_ifs_derived_variables,qual2,2-way qualification split - info merged from current and previous waves,-2.0,not asked
+694957,ELSA,wave_9_ifs_derived_variables,qual2,2-way qualification split - info merged from current and previous waves,0.0,o-level/equiv or below
+694958,ELSA,wave_9_ifs_derived_variables,qual2,2-way qualification split - info merged from current and previous waves,1.0,higher than o-level
+694959,ELSA,wave_9_ifs_derived_variables,qual3,3-way qualification split - info merged from current and previous waves,-9.0,refused
+694960,ELSA,wave_9_ifs_derived_variables,qual3,3-way qualification split - info merged from current and previous waves,-8.0,don't know
+694961,ELSA,wave_9_ifs_derived_variables,qual3,3-way qualification split - info merged from current and previous waves,-2.0,not asked
+694962,ELSA,wave_9_ifs_derived_variables,qual3,3-way qualification split - info merged from current and previous waves,0.0,less than o-level or equiv
+694963,ELSA,wave_9_ifs_derived_variables,qual3,3-way qualification split - info merged from current and previous waves,1.0,o-level or equivalent
+694964,ELSA,wave_9_ifs_derived_variables,qual3,3-way qualification split - info merged from current and previous waves,2.0,higher than a-level
+694965,ELSA,wave_9_ifs_derived_variables,schleave,type of school leaver - info merged from current and previous waves,-10.0,Not yet finished
+694966,ELSA,wave_9_ifs_derived_variables,schleave,type of school leaver - info merged from current and previous waves,-9.0,refused
+694967,ELSA,wave_9_ifs_derived_variables,schleave,type of school leaver - info merged from current and previous waves,-8.0,don't know
+694968,ELSA,wave_9_ifs_derived_variables,schleave,type of school leaver - info merged from current and previous waves,-2.0,not asked
+694969,ELSA,wave_9_ifs_derived_variables,schleave,type of school leaver - info merged from current and previous waves,0.0,compulsory school leaver
+694970,ELSA,wave_9_ifs_derived_variables,schleave,type of school leaver - info merged from current and previous waves,1.0,between csl age and 18
+694971,ELSA,wave_9_ifs_derived_variables,schleave,type of school leaver - info merged from current and previous waves,2.0,at age 19 or above
+694972,ELSA,wave_9_ifs_derived_variables,qual2_p,partner's 2-way qualification split,-9.0,refused/non-resp prtnr
+694973,ELSA,wave_9_ifs_derived_variables,qual2_p,partner's 2-way qualification split,-8.0,don't know
+694974,ELSA,wave_9_ifs_derived_variables,qual2_p,partner's 2-way qualification split,-2.0,not asked
+694975,ELSA,wave_9_ifs_derived_variables,qual2_p,partner's 2-way qualification split,-1.0,no partner
+694976,ELSA,wave_9_ifs_derived_variables,qual2_p,partner's 2-way qualification split,0.0,o-level/equiv or below
+694977,ELSA,wave_9_ifs_derived_variables,qual2_p,partner's 2-way qualification split,1.0,higher than o-level
+694978,ELSA,wave_9_ifs_derived_variables,qual3_p,partner's 3-way qualification split,-9.0,refused/non-resp ptner
+694979,ELSA,wave_9_ifs_derived_variables,qual3_p,partner's 3-way qualification split,-8.0,don't know
+694980,ELSA,wave_9_ifs_derived_variables,qual3_p,partner's 3-way qualification split,-2.0,not asked
+694981,ELSA,wave_9_ifs_derived_variables,qual3_p,partner's 3-way qualification split,-1.0,no partner
+694982,ELSA,wave_9_ifs_derived_variables,qual3_p,partner's 3-way qualification split,0.0,less than o-level or equiv
+694983,ELSA,wave_9_ifs_derived_variables,qual3_p,partner's 3-way qualification split,1.0,o-level or equivalent
+694984,ELSA,wave_9_ifs_derived_variables,qual3_p,partner's 3-way qualification split,2.0,higher than a-level
+694985,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,-10.0,Not yet finished
+694986,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,-9.0,refused/non-resp ptner
+694987,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,-8.0,don't know
+694988,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,-2.0,not asked
+694989,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,-1.0,no partner
+694990,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,0.0,compulsory school leaver
+694991,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,1.0,between csl age and 18
+694992,ELSA,wave_9_ifs_derived_variables,schleave_p,partner - type of school leaver,2.0,at age 19 or above
+694993,ELSA,wave_9_ifs_derived_variables,lackres,chances of inadequate resources (copy of exrslf),-9.0,refuse
+694994,ELSA,wave_9_ifs_derived_variables,lackres,chances of inadequate resources (copy of exrslf),-8.0,don't know
+694995,ELSA,wave_9_ifs_derived_variables,lackres,chances of inadequate resources (copy of exrslf),-2.0,not asked
+694996,ELSA,wave_9_ifs_derived_variables,lackres,chances of inadequate resources (copy of exrslf),-1.0,proxy/partial respondent/inapp
+694997,ELSA,wave_9_ifs_derived_variables,lackresb,banded version of chances of inadequate resources,-2.0,refuse/dk/proxy
+694998,ELSA,wave_9_ifs_derived_variables,lackresb,banded version of chances of inadequate resources,-1.0,inapplicable
+694999,ELSA,wave_9_ifs_derived_variables,lackresb,banded version of chances of inadequate resources,0.0,0
+695000,ELSA,wave_9_ifs_derived_variables,lackresb,banded version of chances of inadequate resources,1.0,1-39
+695001,ELSA,wave_9_ifs_derived_variables,lackresb,banded version of chances of inadequate resources,2.0,40-60
+695002,ELSA,wave_9_ifs_derived_variables,lackresb,banded version of chances of inadequate resources,3.0,61-99
+695003,ELSA,wave_9_ifs_derived_variables,lackresb,banded version of chances of inadequate resources,4.0,100
+695004,ELSA,wave_9_ifs_derived_variables,inhergt0,chances of any inheritance (copy of exainh),-9.0,refuse
+695005,ELSA,wave_9_ifs_derived_variables,inhergt0,chances of any inheritance (copy of exainh),-8.0,don't know
+695006,ELSA,wave_9_ifs_derived_variables,inhergt0,chances of any inheritance (copy of exainh),-2.0,not asked
+695007,ELSA,wave_9_ifs_derived_variables,inhergt0,chances of any inheritance (copy of exainh),-1.0,proxy/partial respondent/inapp
+695008,ELSA,wave_9_ifs_derived_variables,inhergt0b,banded version of inhergt0,-2.0,refuse/dk/proxy
+695009,ELSA,wave_9_ifs_derived_variables,inhergt0b,banded version of inhergt0,-1.0,inapplicable
+695010,ELSA,wave_9_ifs_derived_variables,inhergt0b,banded version of inhergt0,0.0,0
+695011,ELSA,wave_9_ifs_derived_variables,inhergt0b,banded version of inhergt0,1.0,1-39
+695012,ELSA,wave_9_ifs_derived_variables,inhergt0b,banded version of inhergt0,2.0,40-60
+695013,ELSA,wave_9_ifs_derived_variables,inhergt0b,banded version of inhergt0,3.0,61-99
+695014,ELSA,wave_9_ifs_derived_variables,inhergt0b,banded version of inhergt0,4.0,100
+695015,ELSA,wave_9_ifs_derived_variables,inhergt10,chances of inheritance greater than ,-9.0,refuse
+695016,ELSA,wave_9_ifs_derived_variables,inhergt10,chances of inheritance greater than ,-8.0,don't know
+695017,ELSA,wave_9_ifs_derived_variables,inhergt10,chances of inheritance greater than ,-2.0,not asked
+695018,ELSA,wave_9_ifs_derived_variables,inhergt10,chances of inheritance greater than ,-1.0,proxy/partial respondent/inapp
+695019,ELSA,wave_9_ifs_derived_variables,inhergt10b,banded version of inhergt10,-2.0,refuse/dk/proxy
+695020,ELSA,wave_9_ifs_derived_variables,inhergt10b,banded version of inhergt10,-1.0,inapplicable
+695021,ELSA,wave_9_ifs_derived_variables,inhergt10b,banded version of inhergt10,0.0,0
+695022,ELSA,wave_9_ifs_derived_variables,inhergt10b,banded version of inhergt10,1.0,1-39
+695023,ELSA,wave_9_ifs_derived_variables,inhergt10b,banded version of inhergt10,2.0,40-60
+695024,ELSA,wave_9_ifs_derived_variables,inhergt10b,banded version of inhergt10,3.0,61-99
+695025,ELSA,wave_9_ifs_derived_variables,inhergt10b,banded version of inhergt10,4.0,100
+695026,ELSA,wave_9_ifs_derived_variables,inhergt100,chances of inheritance greater than ,-9.0,refuse
+695027,ELSA,wave_9_ifs_derived_variables,inhergt100,chances of inheritance greater than ,-8.0,don't know
+695028,ELSA,wave_9_ifs_derived_variables,inhergt100,chances of inheritance greater than ,-2.0,not asked
+695029,ELSA,wave_9_ifs_derived_variables,inhergt100,chances of inheritance greater than ,-1.0,proxy/partial respondent/inapp
+695030,ELSA,wave_9_ifs_derived_variables,inhergt100b,banded version of inhergt100,-2.0,refuse/dk/proxy
+695031,ELSA,wave_9_ifs_derived_variables,inhergt100b,banded version of inhergt100,-1.0,inapplicable
+695032,ELSA,wave_9_ifs_derived_variables,inhergt100b,banded version of inhergt100,0.0,0
+695033,ELSA,wave_9_ifs_derived_variables,inhergt100b,banded version of inhergt100,1.0,1-39
+695034,ELSA,wave_9_ifs_derived_variables,inhergt100b,banded version of inhergt100,2.0,40-60
+695035,ELSA,wave_9_ifs_derived_variables,inhergt100b,banded version of inhergt100,3.0,61-99
+695036,ELSA,wave_9_ifs_derived_variables,inhergt100b,banded version of inhergt100,4.0,100
+695037,ELSA,wave_9_ifs_derived_variables,bequestgt50,chances of leaving a bequest of ,-9.0,refuse
+695038,ELSA,wave_9_ifs_derived_variables,bequestgt50,chances of leaving a bequest of ,-8.0,don't know
+695039,ELSA,wave_9_ifs_derived_variables,bequestgt50,chances of leaving a bequest of ,-2.0,not asked
+695040,ELSA,wave_9_ifs_derived_variables,bequestgt50,chances of leaving a bequest of ,-1.0,proxy/partial respondent/inapp
+695041,ELSA,wave_9_ifs_derived_variables,bequestgt50b,banded version of bequestgt50,-2.0,refuse/dk/proxy
+695042,ELSA,wave_9_ifs_derived_variables,bequestgt50b,banded version of bequestgt50,-1.0,inapplicable
+695043,ELSA,wave_9_ifs_derived_variables,bequestgt50b,banded version of bequestgt50,0.0,0
+695044,ELSA,wave_9_ifs_derived_variables,bequestgt50b,banded version of bequestgt50,1.0,1-39
+695045,ELSA,wave_9_ifs_derived_variables,bequestgt50b,banded version of bequestgt50,2.0,40-60
+695046,ELSA,wave_9_ifs_derived_variables,bequestgt50b,banded version of bequestgt50,3.0,61-99
+695047,ELSA,wave_9_ifs_derived_variables,bequestgt50b,banded version of bequestgt50,4.0,100
+695048,ELSA,wave_9_ifs_derived_variables,bequestgt0,chances of leaving any bequest (copy of excain),-9.0,refuse
+695049,ELSA,wave_9_ifs_derived_variables,bequestgt0,chances of leaving any bequest (copy of excain),-8.0,don't know
+695050,ELSA,wave_9_ifs_derived_variables,bequestgt0,chances of leaving any bequest (copy of excain),-2.0,not asked
+695051,ELSA,wave_9_ifs_derived_variables,bequestgt0,chances of leaving any bequest (copy of excain),-1.0,proxy/partial respondent/inapp
+695052,ELSA,wave_9_ifs_derived_variables,bequestgt0b,banded version of bequestgt0,-2.0,refuse/dk/proxy
+695053,ELSA,wave_9_ifs_derived_variables,bequestgt0b,banded version of bequestgt0,-1.0,inapplicable
+695054,ELSA,wave_9_ifs_derived_variables,bequestgt0b,banded version of bequestgt0,0.0,0
+695055,ELSA,wave_9_ifs_derived_variables,bequestgt0b,banded version of bequestgt0,1.0,1-39
+695056,ELSA,wave_9_ifs_derived_variables,bequestgt0b,banded version of bequestgt0,2.0,40-60
+695057,ELSA,wave_9_ifs_derived_variables,bequestgt0b,banded version of bequestgt0,3.0,61-99
+695058,ELSA,wave_9_ifs_derived_variables,bequestgt0b,banded version of bequestgt0,4.0,100
+695059,ELSA,wave_9_ifs_derived_variables,bequestgt150,chances of leaving bequest of ,-9.0,refuse
+695060,ELSA,wave_9_ifs_derived_variables,bequestgt150,chances of leaving bequest of ,-8.0,don't know
+695061,ELSA,wave_9_ifs_derived_variables,bequestgt150,chances of leaving bequest of ,-2.0,not asked
+695062,ELSA,wave_9_ifs_derived_variables,bequestgt150,chances of leaving bequest of ,-1.0,proxy/partial respondent/inapp
+695063,ELSA,wave_9_ifs_derived_variables,bequestgt150b,banded version of bequestgt150,-2.0,refuse/dk/proxy
+695064,ELSA,wave_9_ifs_derived_variables,bequestgt150b,banded version of bequestgt150,-1.0,inapplicable
+695065,ELSA,wave_9_ifs_derived_variables,bequestgt150b,banded version of bequestgt150,0.0,0
+695066,ELSA,wave_9_ifs_derived_variables,bequestgt150b,banded version of bequestgt150,1.0,1-39
+695067,ELSA,wave_9_ifs_derived_variables,bequestgt150b,banded version of bequestgt150,2.0,40-60
+695068,ELSA,wave_9_ifs_derived_variables,bequestgt150b,banded version of bequestgt150,3.0,61-99
+695069,ELSA,wave_9_ifs_derived_variables,bequestgt150b,banded version of bequestgt150,4.0,100
+695070,ELSA,wave_9_ifs_derived_variables,explive,chances of living to age X (copy of exlo80),-9.0,refuse
+695071,ELSA,wave_9_ifs_derived_variables,explive,chances of living to age X (copy of exlo80),-8.0,don't know
+695072,ELSA,wave_9_ifs_derived_variables,explive,chances of living to age X (copy of exlo80),-2.0,not asked
+695073,ELSA,wave_9_ifs_derived_variables,explive,chances of living to age X (copy of exlo80),-1.0,proxy/partial respondent/inapp
+695074,ELSA,wave_9_ifs_derived_variables,expliveb,banded version of explive,-2.0,refuse/dk/proxy
+695075,ELSA,wave_9_ifs_derived_variables,expliveb,banded version of explive,-1.0,inapplicable
+695076,ELSA,wave_9_ifs_derived_variables,expliveb,banded version of explive,0.0,0
+695077,ELSA,wave_9_ifs_derived_variables,expliveb,banded version of explive,1.0,1-39
+695078,ELSA,wave_9_ifs_derived_variables,expliveb,banded version of explive,2.0,40-60
+695079,ELSA,wave_9_ifs_derived_variables,expliveb,banded version of explive,3.0,61-99
+695080,ELSA,wave_9_ifs_derived_variables,expliveb,banded version of explive,4.0,100
+695081,ELSA,wave_9_ifs_derived_variables,explive75,chances of living to age 75,-9.0,refuse
+695082,ELSA,wave_9_ifs_derived_variables,explive75,chances of living to age 75,-8.0,don't know
+695083,ELSA,wave_9_ifs_derived_variables,explive75,chances of living to age 75,-2.0,not asked
+695084,ELSA,wave_9_ifs_derived_variables,explive75,chances of living to age 75,-1.0,proxy/partial respondent/inapp
+695085,ELSA,wave_9_ifs_derived_variables,explive80,chances of living to age 80,-9.0,refuse
+695086,ELSA,wave_9_ifs_derived_variables,explive80,chances of living to age 80,-8.0,don't know
+695087,ELSA,wave_9_ifs_derived_variables,explive80,chances of living to age 80,-2.0,not asked
+695088,ELSA,wave_9_ifs_derived_variables,explive80,chances of living to age 80,-1.0,proxy/partial respondent/inapp
+695089,ELSA,wave_9_ifs_derived_variables,explive85,chances of living to age 85,-9.0,refuse
+695090,ELSA,wave_9_ifs_derived_variables,explive85,chances of living to age 85,-8.0,don't know
+695091,ELSA,wave_9_ifs_derived_variables,explive85,chances of living to age 85,-2.0,not asked
+695092,ELSA,wave_9_ifs_derived_variables,explive85,chances of living to age 85,-1.0,proxy/partial respondent/inapp
+695093,ELSA,wave_9_ifs_derived_variables,explive90,chances of living to age 90,-9.0,refuse
+695094,ELSA,wave_9_ifs_derived_variables,explive90,chances of living to age 90,-8.0,don't know
+695095,ELSA,wave_9_ifs_derived_variables,explive90,chances of living to age 90,-2.0,not asked
+695096,ELSA,wave_9_ifs_derived_variables,explive90,chances of living to age 90,-1.0,proxy/partial respondent/inapp
+695097,ELSA,wave_9_ifs_derived_variables,explive95,chances of living to age 95,-9.0,refuse
+695098,ELSA,wave_9_ifs_derived_variables,explive95,chances of living to age 95,-8.0,don't know
+695099,ELSA,wave_9_ifs_derived_variables,explive95,chances of living to age 95,-2.0,not asked
+695100,ELSA,wave_9_ifs_derived_variables,explive95,chances of living to age 95,-1.0,proxy/partial respondent/inapp
+695101,ELSA,wave_9_ifs_derived_variables,explive100,chances of living to age 100,-9.0,refuse
+695102,ELSA,wave_9_ifs_derived_variables,explive100,chances of living to age 100,-8.0,don't know
+695103,ELSA,wave_9_ifs_derived_variables,explive100,chances of living to age 100,-2.0,not asked
+695104,ELSA,wave_9_ifs_derived_variables,explive100,chances of living to age 100,-1.0,proxy/partial respondent/inapp
+695105,ELSA,wave_9_ifs_derived_variables,explive75b,banded version of explive75,-2.0,refuse/dk/proxy
+695106,ELSA,wave_9_ifs_derived_variables,explive75b,banded version of explive75,-1.0,inapplicable
+695107,ELSA,wave_9_ifs_derived_variables,explive75b,banded version of explive75,0.0,0
+695108,ELSA,wave_9_ifs_derived_variables,explive75b,banded version of explive75,1.0,1-39
+695109,ELSA,wave_9_ifs_derived_variables,explive75b,banded version of explive75,2.0,40-60
+695110,ELSA,wave_9_ifs_derived_variables,explive75b,banded version of explive75,3.0,61-99
+695111,ELSA,wave_9_ifs_derived_variables,explive75b,banded version of explive75,4.0,100
+695112,ELSA,wave_9_ifs_derived_variables,explive80b,banded version of explive80,-2.0,refuse/dk/proxy
+695113,ELSA,wave_9_ifs_derived_variables,explive80b,banded version of explive80,-1.0,inapplicable
+695114,ELSA,wave_9_ifs_derived_variables,explive80b,banded version of explive80,0.0,0
+695115,ELSA,wave_9_ifs_derived_variables,explive80b,banded version of explive80,1.0,1-39
+695116,ELSA,wave_9_ifs_derived_variables,explive80b,banded version of explive80,2.0,40-60
+695117,ELSA,wave_9_ifs_derived_variables,explive80b,banded version of explive80,3.0,61-99
+695118,ELSA,wave_9_ifs_derived_variables,explive80b,banded version of explive80,4.0,100
+695119,ELSA,wave_9_ifs_derived_variables,explive85b,banded version of explive85,-2.0,refuse/dk/proxy
+695120,ELSA,wave_9_ifs_derived_variables,explive85b,banded version of explive85,-1.0,inapplicable
+695121,ELSA,wave_9_ifs_derived_variables,explive85b,banded version of explive85,0.0,0
+695122,ELSA,wave_9_ifs_derived_variables,explive85b,banded version of explive85,1.0,1-39
+695123,ELSA,wave_9_ifs_derived_variables,explive85b,banded version of explive85,2.0,40-60
+695124,ELSA,wave_9_ifs_derived_variables,explive85b,banded version of explive85,3.0,61-99
+695125,ELSA,wave_9_ifs_derived_variables,explive85b,banded version of explive85,4.0,100
+695126,ELSA,wave_9_ifs_derived_variables,explive90b,banded version of explive90,-2.0,refuse/dk/proxy
+695127,ELSA,wave_9_ifs_derived_variables,explive90b,banded version of explive90,-1.0,inapplicable
+695128,ELSA,wave_9_ifs_derived_variables,explive90b,banded version of explive90,0.0,0
+695129,ELSA,wave_9_ifs_derived_variables,explive90b,banded version of explive90,1.0,1-39
+695130,ELSA,wave_9_ifs_derived_variables,explive90b,banded version of explive90,2.0,40-60
+695131,ELSA,wave_9_ifs_derived_variables,explive90b,banded version of explive90,3.0,61-99
+695132,ELSA,wave_9_ifs_derived_variables,explive90b,banded version of explive90,4.0,100
+695133,ELSA,wave_9_ifs_derived_variables,explive95b,banded version of explive95,-2.0,refuse/dk/proxy
+695134,ELSA,wave_9_ifs_derived_variables,explive95b,banded version of explive95,-1.0,inapplicable
+695135,ELSA,wave_9_ifs_derived_variables,explive95b,banded version of explive95,0.0,0
+695136,ELSA,wave_9_ifs_derived_variables,explive95b,banded version of explive95,1.0,1-39
+695137,ELSA,wave_9_ifs_derived_variables,explive95b,banded version of explive95,2.0,40-60
+695138,ELSA,wave_9_ifs_derived_variables,explive95b,banded version of explive95,3.0,61-99
+695139,ELSA,wave_9_ifs_derived_variables,explive95b,banded version of explive95,4.0,100
+695140,ELSA,wave_9_ifs_derived_variables,explive100b,banded version of explive100,-2.0,refuse/dk/proxy
+695141,ELSA,wave_9_ifs_derived_variables,explive100b,banded version of explive100,-1.0,inapplicable
+695142,ELSA,wave_9_ifs_derived_variables,explive100b,banded version of explive100,0.0,0
+695143,ELSA,wave_9_ifs_derived_variables,explive100b,banded version of explive100,1.0,1-39
+695144,ELSA,wave_9_ifs_derived_variables,explive100b,banded version of explive100,2.0,40-60
+695145,ELSA,wave_9_ifs_derived_variables,explive100b,banded version of explive100,3.0,61-99
+695146,ELSA,wave_9_ifs_derived_variables,explive100b,banded version of explive100,4.0,100
+695147,ELSA,wave_9_ifs_derived_variables,exwork,chances of working at age X (copy of expw),-9.0,refuse
+695148,ELSA,wave_9_ifs_derived_variables,exwork,chances of working at age X (copy of expw),-8.0,don't know
+695149,ELSA,wave_9_ifs_derived_variables,exwork,chances of working at age X (copy of expw),-2.0,not asked
+695150,ELSA,wave_9_ifs_derived_variables,exwork,chances of working at age X (copy of expw),-1.0,proxy/partial respondent/inapp
+695151,ELSA,wave_9_ifs_derived_variables,exworkb,banded version of exwork,-2.0,refuse/dk/proxy
+695152,ELSA,wave_9_ifs_derived_variables,exworkb,banded version of exwork,-1.0,inapplicable
+695153,ELSA,wave_9_ifs_derived_variables,exworkb,banded version of exwork,0.0,0
+695154,ELSA,wave_9_ifs_derived_variables,exworkb,banded version of exwork,1.0,1-39
+695155,ELSA,wave_9_ifs_derived_variables,exworkb,banded version of exwork,2.0,40-60
+695156,ELSA,wave_9_ifs_derived_variables,exworkb,banded version of exwork,3.0,61-99
+695157,ELSA,wave_9_ifs_derived_variables,exworkb,banded version of exwork,4.0,100
+695158,ELSA,wave_9_ifs_derived_variables,exwork55,chances of working at age 55 (copy of expw),,
+695159,ELSA,wave_9_ifs_derived_variables,exwork55b,banded version of exwork55,,
+695160,ELSA,wave_9_ifs_derived_variables,exwork60,chances of working at age 60 (copy of expw),,
+695161,ELSA,wave_9_ifs_derived_variables,exwork60b,banded version of exwork60,,
+695162,ELSA,wave_9_ifs_derived_variables,exwork65,chances of working at age 65 (copy of expw),,
+695163,ELSA,wave_9_ifs_derived_variables,exwork65b,banded version of exwork65,,
+695164,ELSA,wave_9_ifs_derived_variables,exhlimw,chances of health limiting work (copy of exhlim),,
+695165,ELSA,wave_9_ifs_derived_variables,exhlimwb,banded version of exhlimw,,
+695166,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),-9.0,refused
+695167,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),-8.0,don't know
+695168,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),-1.0,inapplicable
+695169,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),1.0,manage very well
+695170,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),2.0,manage quite well
+695171,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),3.0,get by alright
+695172,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),4.0,don't manage very well
+695173,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),5.0,have some financial difficulties
+695174,ELSA,wave_9_ifs_derived_variables,findiff,how is respondent (and partner) getting along financially these days (iafcon),6.0,have severe financial difficulties
+695175,ELSA,wave_9_ifs_derived_variables,ndepriv,deprivation index: number of items reported at exrele,-9.0,refuse
+695176,ELSA,wave_9_ifs_derived_variables,ndepriv,deprivation index: number of items reported at exrele,-8.0,don't know
+695177,ELSA,wave_9_ifs_derived_variables,ndepriv,deprivation index: number of items reported at exrele,-3.0,not asked this wave
+695178,ELSA,wave_9_ifs_derived_variables,ndepriv,deprivation index: number of items reported at exrele,-1.0,inapplicable
+695179,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,-9.0,refuse
+695180,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,-8.0,don't know
+695181,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,-3.0,not asked this wave
+695182,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,-2.0,not asked
+695183,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,-1.0,inapp (proxy)
+695184,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,1.0,excellent
+695185,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,2.0,very good
+695186,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,3.0,good
+695187,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,4.0,fair
+695188,ELSA,wave_9_ifs_derived_variables,srh_hrs,self-reported health: HRS version,5.0,poor
+695189,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,-9.0,refuse
+695190,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,-8.0,don't know
+695191,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,-3.0,not asked this wave
+695192,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,-2.0,not asked
+695193,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,-1.0,inapp (proxy)
+695194,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,1.0,very good
+695195,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,2.0,good
+695196,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,3.0,fair
+695197,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,4.0,bad
+695198,ELSA,wave_9_ifs_derived_variables,srh_hse,self reported health: HSE version,5.0,very bad
+695199,ELSA,wave_9_ifs_derived_variables,hrsfirst,whether HRS self-reported health question asked first,-3.0,not asked this wave
+695200,ELSA,wave_9_ifs_derived_variables,hrsfirst,whether HRS self-reported health question asked first,-1.0,not applicable (proxy)
+695201,ELSA,wave_9_ifs_derived_variables,hrsfirst,whether HRS self-reported health question asked first,0.0,HSE first
+695202,ELSA,wave_9_ifs_derived_variables,hrsfirst,whether HRS self-reported health question asked first,1.0,HRS first
+695203,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,-9.0,refuse
+695204,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,-8.0,don't know
+695205,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,-3.0,not asked this wave
+695206,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,-2.0,not asked
+695207,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,-1.0,inapp (proxy)
+695208,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,1.0,Exc/v.g
+695209,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,2.0,Good
+695210,ELSA,wave_9_ifs_derived_variables,srh3_hrs,self-reported health; HRS form; 3-way,3.0,Fair/Poor
+695211,ELSA,wave_9_ifs_derived_variables,srh3_hse,self-reported health; HSE form; 3-way,-9.0,refuse
+695212,ELSA,wave_9_ifs_derived_variables,srh3_hse,self-reported health; HSE form; 3-way,-8.0,don't know
+695213,ELSA,wave_9_ifs_derived_variables,srh3_hse,self-reported health; HSE form; 3-way,-3.0,not asked this wave
+695214,ELSA,wave_9_ifs_derived_variables,srh3_hse,self-reported health; HSE form; 3-way,-1.0,inapp (proxy)
+695215,ELSA,wave_9_ifs_derived_variables,srh3_hse,self-reported health; HSE form; 3-way,1.0,v.g
+695216,ELSA,wave_9_ifs_derived_variables,srh3_hse,self-reported health; HSE form; 3-way,2.0,Good
+695217,ELSA,wave_9_ifs_derived_variables,srh3_hse,self-reported health; HSE form; 3-way,3.0,Fair/Bad/v.bad
+695218,ELSA,wave_9_ifs_derived_variables,srh3_hrs_p,partner's self-reported health; HRS form; 3-way,,
+695219,ELSA,wave_9_ifs_derived_variables,srh3_hse_p,partner's self-reported health; HSE form; 3-way,-9.0,refuse
+695220,ELSA,wave_9_ifs_derived_variables,srh3_hse_p,partner's self-reported health; HSE form; 3-way,-8.0,don't know
+695221,ELSA,wave_9_ifs_derived_variables,srh3_hse_p,partner's self-reported health; HSE form; 3-way,-3.0,not asked this wave
+695222,ELSA,wave_9_ifs_derived_variables,srh3_hse_p,partner's self-reported health; HSE form; 3-way,-1.0,inapp (proxy)
+695223,ELSA,wave_9_ifs_derived_variables,srh3_hse_p,partner's self-reported health; HSE form; 3-way,1.0,v.g
+695224,ELSA,wave_9_ifs_derived_variables,srh3_hse_p,partner's self-reported health; HSE form; 3-way,2.0,Good
+695225,ELSA,wave_9_ifs_derived_variables,srh3_hse_p,partner's self-reported health; HSE form; 3-way,3.0,Fair/Bad/v.bad
+695226,ELSA,wave_9_ifs_derived_variables,llsill,has (limiting) long-standing illness (heill/helim),-9.0,refused
+695227,ELSA,wave_9_ifs_derived_variables,llsill,has (limiting) long-standing illness (heill/helim),-8.0,don't know
+695228,ELSA,wave_9_ifs_derived_variables,llsill,has (limiting) long-standing illness (heill/helim),-3.0,not asked this wave
+695229,ELSA,wave_9_ifs_derived_variables,llsill,has (limiting) long-standing illness (heill/helim),-1.0,inapplicable
+695230,ELSA,wave_9_ifs_derived_variables,llsill,has (limiting) long-standing illness (heill/helim),0.0,no long-standing illness
+695231,ELSA,wave_9_ifs_derived_variables,llsill,has (limiting) long-standing illness (heill/helim),1.0,"has long-standing illness, not limiting"
+695232,ELSA,wave_9_ifs_derived_variables,llsill,has (limiting) long-standing illness (heill/helim),2.0,has limiting long-standing illness
+695233,ELSA,wave_9_ifs_derived_variables,hlimwrk,has health problem that limits kind or amount of work (helwk/hetemp),-9.0,refused
+695234,ELSA,wave_9_ifs_derived_variables,hlimwrk,has health problem that limits kind or amount of work (helwk/hetemp),-8.0,don't know
+695235,ELSA,wave_9_ifs_derived_variables,hlimwrk,has health problem that limits kind or amount of work (helwk/hetemp),-3.0,not asked this wave
+695236,ELSA,wave_9_ifs_derived_variables,hlimwrk,has health problem that limits kind or amount of work (helwk/hetemp),-1.0,inapplicable
+695237,ELSA,wave_9_ifs_derived_variables,hlimwrk,has health problem that limits kind or amount of work (helwk/hetemp),0.0,no health problem
+695238,ELSA,wave_9_ifs_derived_variables,hlimwrk,has health problem that limits kind or amount of work (helwk/hetemp),1.0,has temporary problem
+695239,ELSA,wave_9_ifs_derived_variables,hlimwrk,has health problem that limits kind or amount of work (helwk/hetemp),2.0,has problem lasting 3+ mths
+695240,ELSA,wave_9_ifs_derived_variables,hlimwrkc,has health problem that limits current work (wplimwk),-9.0,refused
+695241,ELSA,wave_9_ifs_derived_variables,hlimwrkc,has health problem that limits current work (wplimwk),-8.0,don't know
+695242,ELSA,wave_9_ifs_derived_variables,hlimwrkc,has health problem that limits current work (wplimwk),-3.0,not asked this wave
+695243,ELSA,wave_9_ifs_derived_variables,hlimwrkc,has health problem that limits current work (wplimwk),-1.0,not working/inapplicable
+695244,ELSA,wave_9_ifs_derived_variables,hlimwrkc,has health problem that limits current work (wplimwk),0.0,"working, no hlth prob"
+695245,ELSA,wave_9_ifs_derived_variables,hlimwrkc,has health problem that limits current work (wplimwk),1.0,"working, hlth prob, not curr job"
+695246,ELSA,wave_9_ifs_derived_variables,hlimwrkc,has health problem that limits current work (wplimwk),2.0,"working, hlth prob, limits curr job"
+695247,ELSA,wave_9_ifs_derived_variables,hemobwa,mobility: difficulty walking 100 yards,-9.0,refuse
+695248,ELSA,wave_9_ifs_derived_variables,hemobwa,mobility: difficulty walking 100 yards,-8.0,don't know
+695249,ELSA,wave_9_ifs_derived_variables,hemobwa,mobility: difficulty walking 100 yards,-3.0,not asked this wave
+695250,ELSA,wave_9_ifs_derived_variables,hemobwa,mobility: difficulty walking 100 yards,-2.0,not asked
+695251,ELSA,wave_9_ifs_derived_variables,hemobwa,mobility: difficulty walking 100 yards,-1.0,inapplicable
+695252,ELSA,wave_9_ifs_derived_variables,hemobsi,mobility: difficulty sitting 2 hours,-9.0,refuse
+695253,ELSA,wave_9_ifs_derived_variables,hemobsi,mobility: difficulty sitting 2 hours,-8.0,don't know
+695254,ELSA,wave_9_ifs_derived_variables,hemobsi,mobility: difficulty sitting 2 hours,-3.0,not asked this wave
+695255,ELSA,wave_9_ifs_derived_variables,hemobsi,mobility: difficulty sitting 2 hours,-2.0,not asked
+695256,ELSA,wave_9_ifs_derived_variables,hemobsi,mobility: difficulty sitting 2 hours,-1.0,inapplicable
+695257,ELSA,wave_9_ifs_derived_variables,hemobch,mobility: difficulty getting up from chair after sitting long periods,-9.0,refuse
+695258,ELSA,wave_9_ifs_derived_variables,hemobch,mobility: difficulty getting up from chair after sitting long periods,-8.0,don't know
+695259,ELSA,wave_9_ifs_derived_variables,hemobch,mobility: difficulty getting up from chair after sitting long periods,-3.0,not asked this wave
+695260,ELSA,wave_9_ifs_derived_variables,hemobch,mobility: difficulty getting up from chair after sitting long periods,-2.0,not asked
+695261,ELSA,wave_9_ifs_derived_variables,hemobch,mobility: difficulty getting up from chair after sitting long periods,-1.0,inapplicable
+695262,ELSA,wave_9_ifs_derived_variables,hemobcs,mobility: difficulty climbing several flights stairs without resting,-9.0,refuse
+695263,ELSA,wave_9_ifs_derived_variables,hemobcs,mobility: difficulty climbing several flights stairs without resting,-8.0,don't know
+695264,ELSA,wave_9_ifs_derived_variables,hemobcs,mobility: difficulty climbing several flights stairs without resting,-3.0,not asked this wave
+695265,ELSA,wave_9_ifs_derived_variables,hemobcs,mobility: difficulty climbing several flights stairs without resting,-2.0,not asked
+695266,ELSA,wave_9_ifs_derived_variables,hemobcs,mobility: difficulty climbing several flights stairs without resting,-1.0,inapplicable
+695267,ELSA,wave_9_ifs_derived_variables,hemobcl,mobility: difficulty climbing one flight stairs without resting,-9.0,refuse
+695268,ELSA,wave_9_ifs_derived_variables,hemobcl,mobility: difficulty climbing one flight stairs without resting,-8.0,don't know
+695269,ELSA,wave_9_ifs_derived_variables,hemobcl,mobility: difficulty climbing one flight stairs without resting,-3.0,not asked this wave
+695270,ELSA,wave_9_ifs_derived_variables,hemobcl,mobility: difficulty climbing one flight stairs without resting,-2.0,not asked
+695271,ELSA,wave_9_ifs_derived_variables,hemobcl,mobility: difficulty climbing one flight stairs without resting,-1.0,inapplicable
+695272,ELSA,wave_9_ifs_derived_variables,hemobst,mobility: difficulty stooping; kneeling or crouching,-9.0,refuse
+695273,ELSA,wave_9_ifs_derived_variables,hemobst,mobility: difficulty stooping; kneeling or crouching,-8.0,don't know
+695274,ELSA,wave_9_ifs_derived_variables,hemobst,mobility: difficulty stooping; kneeling or crouching,-3.0,not asked this wave
+695275,ELSA,wave_9_ifs_derived_variables,hemobst,mobility: difficulty stooping; kneeling or crouching,-2.0,not asked
+695276,ELSA,wave_9_ifs_derived_variables,hemobst,mobility: difficulty stooping; kneeling or crouching,-1.0,inapplicable
+695277,ELSA,wave_9_ifs_derived_variables,hemobre,mobility: difficulty reaching or extending arms above shoulder level,-9.0,refuse
+695278,ELSA,wave_9_ifs_derived_variables,hemobre,mobility: difficulty reaching or extending arms above shoulder level,-8.0,don't know
+695279,ELSA,wave_9_ifs_derived_variables,hemobre,mobility: difficulty reaching or extending arms above shoulder level,-3.0,not asked this wave
+695280,ELSA,wave_9_ifs_derived_variables,hemobre,mobility: difficulty reaching or extending arms above shoulder level,-2.0,not asked
+695281,ELSA,wave_9_ifs_derived_variables,hemobre,mobility: difficulty reaching or extending arms above shoulder level,-1.0,inapplicable
+695282,ELSA,wave_9_ifs_derived_variables,hemobpu,mobility: difficulty pulling or pushing large objects,-9.0,refuse
+695283,ELSA,wave_9_ifs_derived_variables,hemobpu,mobility: difficulty pulling or pushing large objects,-8.0,don't know
+695284,ELSA,wave_9_ifs_derived_variables,hemobpu,mobility: difficulty pulling or pushing large objects,-3.0,not asked this wave
+695285,ELSA,wave_9_ifs_derived_variables,hemobpu,mobility: difficulty pulling or pushing large objects,-2.0,not asked
+695286,ELSA,wave_9_ifs_derived_variables,hemobpu,mobility: difficulty pulling or pushing large objects,-1.0,inapplicable
+695287,ELSA,wave_9_ifs_derived_variables,hemobli,mobility: difficulty lifting or carrying weights over 10 pounds,-9.0,refuse
+695288,ELSA,wave_9_ifs_derived_variables,hemobli,mobility: difficulty lifting or carrying weights over 10 pounds,-8.0,don't know
+695289,ELSA,wave_9_ifs_derived_variables,hemobli,mobility: difficulty lifting or carrying weights over 10 pounds,-3.0,not asked this wave
+695290,ELSA,wave_9_ifs_derived_variables,hemobli,mobility: difficulty lifting or carrying weights over 10 pounds,-2.0,not asked
+695291,ELSA,wave_9_ifs_derived_variables,hemobli,mobility: difficulty lifting or carrying weights over 10 pounds,-1.0,inapplicable
+695292,ELSA,wave_9_ifs_derived_variables,hemobpi,mobility: difficulty picking up 5p coin from table,-9.0,refuse
+695293,ELSA,wave_9_ifs_derived_variables,hemobpi,mobility: difficulty picking up 5p coin from table,-8.0,don't know
+695294,ELSA,wave_9_ifs_derived_variables,hemobpi,mobility: difficulty picking up 5p coin from table,-3.0,not asked this wave
+695295,ELSA,wave_9_ifs_derived_variables,hemobpi,mobility: difficulty picking up 5p coin from table,-2.0,not asked
+695296,ELSA,wave_9_ifs_derived_variables,hemobpi,mobility: difficulty picking up 5p coin from table,-1.0,inapplicable
+695297,ELSA,wave_9_ifs_derived_variables,hemob96,mobility: whether said had none of listed difficulties,-9.0,refuse
+695298,ELSA,wave_9_ifs_derived_variables,hemob96,mobility: whether said had none of listed difficulties,-8.0,don't know
+695299,ELSA,wave_9_ifs_derived_variables,hemob96,mobility: whether said had none of listed difficulties,-3.0,not asked this wave
+695300,ELSA,wave_9_ifs_derived_variables,hemob96,mobility: whether said had none of listed difficulties,-2.0,not asked
+695301,ELSA,wave_9_ifs_derived_variables,hemob96,mobility: whether said had none of listed difficulties,-1.0,inapplicable
+695302,ELSA,wave_9_ifs_derived_variables,headldr,adl: difficulty dressing; including putting on shoes and socks,-9.0,refuse
+695303,ELSA,wave_9_ifs_derived_variables,headldr,adl: difficulty dressing; including putting on shoes and socks,-8.0,don't know
+695304,ELSA,wave_9_ifs_derived_variables,headldr,adl: difficulty dressing; including putting on shoes and socks,-3.0,not asked this wave
+695305,ELSA,wave_9_ifs_derived_variables,headldr,adl: difficulty dressing; including putting on shoes and socks,-2.0,not asked
+695306,ELSA,wave_9_ifs_derived_variables,headldr,adl: difficulty dressing; including putting on shoes and socks,-1.0,inapplicable
+695307,ELSA,wave_9_ifs_derived_variables,headldr,adl: difficulty dressing; including putting on shoes and socks,0.0,not mentioned
+695308,ELSA,wave_9_ifs_derived_variables,headldr,adl: difficulty dressing; including putting on shoes and socks,1.0,mentioned
+695309,ELSA,wave_9_ifs_derived_variables,headlwa,adl: difficulty walking across a room,-9.0,refuse
+695310,ELSA,wave_9_ifs_derived_variables,headlwa,adl: difficulty walking across a room,-8.0,don't know
+695311,ELSA,wave_9_ifs_derived_variables,headlwa,adl: difficulty walking across a room,-3.0,not asked this wave
+695312,ELSA,wave_9_ifs_derived_variables,headlwa,adl: difficulty walking across a room,-2.0,not asked
+695313,ELSA,wave_9_ifs_derived_variables,headlwa,adl: difficulty walking across a room,-1.0,inapplicable
+695314,ELSA,wave_9_ifs_derived_variables,headlwa,adl: difficulty walking across a room,0.0,not mentioned
+695315,ELSA,wave_9_ifs_derived_variables,headlwa,adl: difficulty walking across a room,1.0,mentioned
+695316,ELSA,wave_9_ifs_derived_variables,headlba,adl: difficulty bathing or showering,-9.0,refuse
+695317,ELSA,wave_9_ifs_derived_variables,headlba,adl: difficulty bathing or showering,-8.0,don't know
+695318,ELSA,wave_9_ifs_derived_variables,headlba,adl: difficulty bathing or showering,-3.0,not asked this wave
+695319,ELSA,wave_9_ifs_derived_variables,headlba,adl: difficulty bathing or showering,-2.0,not asked
+695320,ELSA,wave_9_ifs_derived_variables,headlba,adl: difficulty bathing or showering,-1.0,inapplicable
+695321,ELSA,wave_9_ifs_derived_variables,headlba,adl: difficulty bathing or showering,0.0,not mentioned
+695322,ELSA,wave_9_ifs_derived_variables,headlba,adl: difficulty bathing or showering,1.0,mentioned
+695323,ELSA,wave_9_ifs_derived_variables,headlea,adl: difficulty eating; such as cutting up food,-9.0,refuse
+695324,ELSA,wave_9_ifs_derived_variables,headlea,adl: difficulty eating; such as cutting up food,-8.0,don't know
+695325,ELSA,wave_9_ifs_derived_variables,headlea,adl: difficulty eating; such as cutting up food,-3.0,not asked this wave
+695326,ELSA,wave_9_ifs_derived_variables,headlea,adl: difficulty eating; such as cutting up food,-2.0,not asked
+695327,ELSA,wave_9_ifs_derived_variables,headlea,adl: difficulty eating; such as cutting up food,-1.0,inapplicable
+695328,ELSA,wave_9_ifs_derived_variables,headlea,adl: difficulty eating; such as cutting up food,0.0,not mentioned
+695329,ELSA,wave_9_ifs_derived_variables,headlea,adl: difficulty eating; such as cutting up food,1.0,mentioned
+695330,ELSA,wave_9_ifs_derived_variables,headlbe,adl: difficulty getting in and out of bed,-9.0,refuse
+695331,ELSA,wave_9_ifs_derived_variables,headlbe,adl: difficulty getting in and out of bed,-8.0,don't know
+695332,ELSA,wave_9_ifs_derived_variables,headlbe,adl: difficulty getting in and out of bed,-3.0,not asked this wave
+695333,ELSA,wave_9_ifs_derived_variables,headlbe,adl: difficulty getting in and out of bed,-2.0,not asked
+695334,ELSA,wave_9_ifs_derived_variables,headlbe,adl: difficulty getting in and out of bed,-1.0,inapplicable
+695335,ELSA,wave_9_ifs_derived_variables,headlbe,adl: difficulty getting in and out of bed,0.0,not mentioned
+695336,ELSA,wave_9_ifs_derived_variables,headlbe,adl: difficulty getting in and out of bed,1.0,mentioned
+695337,ELSA,wave_9_ifs_derived_variables,headlwc,adl: difficulty using the toilet; including getting up or down,-9.0,refuse
+695338,ELSA,wave_9_ifs_derived_variables,headlwc,adl: difficulty using the toilet; including getting up or down,-8.0,don't know
+695339,ELSA,wave_9_ifs_derived_variables,headlwc,adl: difficulty using the toilet; including getting up or down,-3.0,not asked this wave
+695340,ELSA,wave_9_ifs_derived_variables,headlwc,adl: difficulty using the toilet; including getting up or down,-2.0,not asked
+695341,ELSA,wave_9_ifs_derived_variables,headlwc,adl: difficulty using the toilet; including getting up or down,-1.0,inapplicable
+695342,ELSA,wave_9_ifs_derived_variables,headlwc,adl: difficulty using the toilet; including getting up or down,0.0,not mentioned
+695343,ELSA,wave_9_ifs_derived_variables,headlwc,adl: difficulty using the toilet; including getting up or down,1.0,mentioned
+695344,ELSA,wave_9_ifs_derived_variables,headlma,iadl: difficulty using map to figure out how to get around strange place,-9.0,refuse
+695345,ELSA,wave_9_ifs_derived_variables,headlma,iadl: difficulty using map to figure out how to get around strange place,-8.0,don't know
+695346,ELSA,wave_9_ifs_derived_variables,headlma,iadl: difficulty using map to figure out how to get around strange place,-3.0,not asked this wave
+695347,ELSA,wave_9_ifs_derived_variables,headlma,iadl: difficulty using map to figure out how to get around strange place,-2.0,not asked
+695348,ELSA,wave_9_ifs_derived_variables,headlma,iadl: difficulty using map to figure out how to get around strange place,-1.0,inapplicable
+695349,ELSA,wave_9_ifs_derived_variables,headlma,iadl: difficulty using map to figure out how to get around strange place,0.0,not mentioned
+695350,ELSA,wave_9_ifs_derived_variables,headlma,iadl: difficulty using map to figure out how to get around strange place,1.0,mentioned
+695351,ELSA,wave_9_ifs_derived_variables,headlda,iadl: recognising when in physical danger (wave 4 onwards),-9.0,refuse
+695352,ELSA,wave_9_ifs_derived_variables,headlda,iadl: recognising when in physical danger (wave 4 onwards),-8.0,don't know
+695353,ELSA,wave_9_ifs_derived_variables,headlda,iadl: recognising when in physical danger (wave 4 onwards),-3.0,not asked this wave
+695354,ELSA,wave_9_ifs_derived_variables,headlda,iadl: recognising when in physical danger (wave 4 onwards),-2.0,not asked
+695355,ELSA,wave_9_ifs_derived_variables,headlda,iadl: recognising when in physical danger (wave 4 onwards),-1.0,inapplicable
+695356,ELSA,wave_9_ifs_derived_variables,headlda,iadl: recognising when in physical danger (wave 4 onwards),0.0,not mentioned
+695357,ELSA,wave_9_ifs_derived_variables,headlda,iadl: recognising when in physical danger (wave 4 onwards),1.0,mentioned
+695358,ELSA,wave_9_ifs_derived_variables,headlpr,iadl: difficulty preparing a hot meal,-9.0,refuse
+695359,ELSA,wave_9_ifs_derived_variables,headlpr,iadl: difficulty preparing a hot meal,-8.0,don't know
+695360,ELSA,wave_9_ifs_derived_variables,headlpr,iadl: difficulty preparing a hot meal,-3.0,not asked this wave
+695361,ELSA,wave_9_ifs_derived_variables,headlpr,iadl: difficulty preparing a hot meal,-2.0,not asked
+695362,ELSA,wave_9_ifs_derived_variables,headlpr,iadl: difficulty preparing a hot meal,-1.0,inapplicable
+695363,ELSA,wave_9_ifs_derived_variables,headlpr,iadl: difficulty preparing a hot meal,0.0,not mentioned
+695364,ELSA,wave_9_ifs_derived_variables,headlpr,iadl: difficulty preparing a hot meal,1.0,mentioned
+695365,ELSA,wave_9_ifs_derived_variables,headlsh,iadl: difficulty shopping for groceries,-9.0,refuse
+695366,ELSA,wave_9_ifs_derived_variables,headlsh,iadl: difficulty shopping for groceries,-8.0,don't know
+695367,ELSA,wave_9_ifs_derived_variables,headlsh,iadl: difficulty shopping for groceries,-3.0,not asked this wave
+695368,ELSA,wave_9_ifs_derived_variables,headlsh,iadl: difficulty shopping for groceries,-2.0,not asked
+695369,ELSA,wave_9_ifs_derived_variables,headlsh,iadl: difficulty shopping for groceries,-1.0,inapplicable
+695370,ELSA,wave_9_ifs_derived_variables,headlsh,iadl: difficulty shopping for groceries,0.0,not mentioned
+695371,ELSA,wave_9_ifs_derived_variables,headlsh,iadl: difficulty shopping for groceries,1.0,mentioned
+695372,ELSA,wave_9_ifs_derived_variables,headlph,iadl: difficulty making telephone calls,-9.0,refuse
+695373,ELSA,wave_9_ifs_derived_variables,headlph,iadl: difficulty making telephone calls,-8.0,don't know
+695374,ELSA,wave_9_ifs_derived_variables,headlph,iadl: difficulty making telephone calls,-3.0,not asked this wave
+695375,ELSA,wave_9_ifs_derived_variables,headlph,iadl: difficulty making telephone calls,-2.0,not asked
+695376,ELSA,wave_9_ifs_derived_variables,headlph,iadl: difficulty making telephone calls,-1.0,inapplicable
+695377,ELSA,wave_9_ifs_derived_variables,headlph,iadl: difficulty making telephone calls,0.0,not mentioned
+695378,ELSA,wave_9_ifs_derived_variables,headlph,iadl: difficulty making telephone calls,1.0,mentioned
+695379,ELSA,wave_9_ifs_derived_variables,headlco,iadl: difficulty with communication (wave 4 onwards),-9.0,refuse
+695380,ELSA,wave_9_ifs_derived_variables,headlco,iadl: difficulty with communication (wave 4 onwards),-8.0,don't know
+695381,ELSA,wave_9_ifs_derived_variables,headlco,iadl: difficulty with communication (wave 4 onwards),-3.0,not asked this wave
+695382,ELSA,wave_9_ifs_derived_variables,headlco,iadl: difficulty with communication (wave 4 onwards),-2.0,not asked
+695383,ELSA,wave_9_ifs_derived_variables,headlco,iadl: difficulty with communication (wave 4 onwards),-1.0,inapplicable
+695384,ELSA,wave_9_ifs_derived_variables,headlco,iadl: difficulty with communication (wave 4 onwards),0.0,not mentioned
+695385,ELSA,wave_9_ifs_derived_variables,headlco,iadl: difficulty with communication (wave 4 onwards),1.0,mentioned
+695386,ELSA,wave_9_ifs_derived_variables,headlme,iadl: difficulty taking medications,-9.0,refuse
+695387,ELSA,wave_9_ifs_derived_variables,headlme,iadl: difficulty taking medications,-8.0,don't know
+695388,ELSA,wave_9_ifs_derived_variables,headlme,iadl: difficulty taking medications,-3.0,not asked this wave
+695389,ELSA,wave_9_ifs_derived_variables,headlme,iadl: difficulty taking medications,-2.0,not asked
+695390,ELSA,wave_9_ifs_derived_variables,headlme,iadl: difficulty taking medications,-1.0,inapplicable
+695391,ELSA,wave_9_ifs_derived_variables,headlme,iadl: difficulty taking medications,0.0,not mentioned
+695392,ELSA,wave_9_ifs_derived_variables,headlme,iadl: difficulty taking medications,1.0,mentioned
+695393,ELSA,wave_9_ifs_derived_variables,headlho,iadl: difficulty doing work around house and garden,-9.0,refuse
+695394,ELSA,wave_9_ifs_derived_variables,headlho,iadl: difficulty doing work around house and garden,-8.0,don't know
+695395,ELSA,wave_9_ifs_derived_variables,headlho,iadl: difficulty doing work around house and garden,-3.0,not asked this wave
+695396,ELSA,wave_9_ifs_derived_variables,headlho,iadl: difficulty doing work around house and garden,-2.0,not asked
+695397,ELSA,wave_9_ifs_derived_variables,headlho,iadl: difficulty doing work around house and garden,-1.0,inapplicable
+695398,ELSA,wave_9_ifs_derived_variables,headlho,iadl: difficulty doing work around house and garden,0.0,not mentioned
+695399,ELSA,wave_9_ifs_derived_variables,headlho,iadl: difficulty doing work around house and garden,1.0,mentioned
+695400,ELSA,wave_9_ifs_derived_variables,headlmo,iadl: difficulty managing money; eg paying bills;keeping track expenses,-9.0,refuse
+695401,ELSA,wave_9_ifs_derived_variables,headlmo,iadl: difficulty managing money; eg paying bills;keeping track expenses,-8.0,don't know
+695402,ELSA,wave_9_ifs_derived_variables,headlmo,iadl: difficulty managing money; eg paying bills;keeping track expenses,-3.0,not asked this wave
+695403,ELSA,wave_9_ifs_derived_variables,headlmo,iadl: difficulty managing money; eg paying bills;keeping track expenses,-2.0,not asked
+695404,ELSA,wave_9_ifs_derived_variables,headlmo,iadl: difficulty managing money; eg paying bills;keeping track expenses,-1.0,inapplicable
+695405,ELSA,wave_9_ifs_derived_variables,headlmo,iadl: difficulty managing money; eg paying bills;keeping track expenses,0.0,not mentioned
+695406,ELSA,wave_9_ifs_derived_variables,headlmo,iadl: difficulty managing money; eg paying bills;keeping track expenses,1.0,mentioned
+695407,ELSA,wave_9_ifs_derived_variables,headl96,adl&iadl: whether said had none of listed difficulties,-9.0,refuse
+695408,ELSA,wave_9_ifs_derived_variables,headl96,adl&iadl: whether said had none of listed difficulties,-8.0,don't know
+695409,ELSA,wave_9_ifs_derived_variables,headl96,adl&iadl: whether said had none of listed difficulties,-3.0,not asked this wave
+695410,ELSA,wave_9_ifs_derived_variables,headl96,adl&iadl: whether said had none of listed difficulties,-2.0,not asked
+695411,ELSA,wave_9_ifs_derived_variables,headl96,adl&iadl: whether said had none of listed difficulties,-1.0,inapplicable
+695412,ELSA,wave_9_ifs_derived_variables,headl96,adl&iadl: whether said had none of listed difficulties,0.0,not mentioned
+695413,ELSA,wave_9_ifs_derived_variables,headl96,adl&iadl: whether said had none of listed difficulties,1.0,mentioned
+695414,ELSA,wave_9_ifs_derived_variables,smoker,whether current smoker,-9.0,refuse
+695415,ELSA,wave_9_ifs_derived_variables,smoker,whether current smoker,-8.0,don't know
+695416,ELSA,wave_9_ifs_derived_variables,smoker,whether current smoker,-2.0,not asked
+695417,ELSA,wave_9_ifs_derived_variables,smoker,whether current smoker,0.0,not a current smoker
+695418,ELSA,wave_9_ifs_derived_variables,smoker,whether current smoker,1.0,current smoker
+695419,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),-9.0,refused
+695420,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),-8.0,don't know
+695421,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),-2.0,not asked
+695422,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),0.0,never smoked
+695423,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),1.0,ex smoker - occasional
+695424,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),2.0,ex smoker - regular
+695425,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),3.0,ex smoker - DK freq
+695426,ELSA,wave_9_ifs_derived_variables,smokerstat,smoker status (past or present),4.0,current smoker
+695427,ELSA,wave_9_ifs_derived_variables,malive,whether mother is still alive,-9.0,refuse
+695428,ELSA,wave_9_ifs_derived_variables,malive,whether mother is still alive,-8.0,don't know
+695429,ELSA,wave_9_ifs_derived_variables,malive,whether mother is still alive,-2.0,not asked
+695430,ELSA,wave_9_ifs_derived_variables,malive,whether mother is still alive,1.0,mother alive
+695431,ELSA,wave_9_ifs_derived_variables,malive,whether mother is still alive,2.0,mother dead
+695432,ELSA,wave_9_ifs_derived_variables,mothage,mother's age if still alive,-9.0,refuse
+695433,ELSA,wave_9_ifs_derived_variables,mothage,mother's age if still alive,-8.0,don't know
+695434,ELSA,wave_9_ifs_derived_variables,mothage,mother's age if still alive,-2.0,not asked
+695435,ELSA,wave_9_ifs_derived_variables,mothage,mother's age if still alive,-1.0,inapplicable
+695436,ELSA,wave_9_ifs_derived_variables,magedied,mother's age when she died,-9.0,refuse
+695437,ELSA,wave_9_ifs_derived_variables,magedied,mother's age when she died,-8.0,don't know
+695438,ELSA,wave_9_ifs_derived_variables,magedied,mother's age when she died,-2.0,not asked
+695439,ELSA,wave_9_ifs_derived_variables,magedied,mother's age when she died,-1.0,inapplicable
+695440,ELSA,wave_9_ifs_derived_variables,falive,whether father is still alive,-9.0,refuse
+695441,ELSA,wave_9_ifs_derived_variables,falive,whether father is still alive,-8.0,don't know
+695442,ELSA,wave_9_ifs_derived_variables,falive,whether father is still alive,-2.0,not asked
+695443,ELSA,wave_9_ifs_derived_variables,falive,whether father is still alive,1.0,father alive
+695444,ELSA,wave_9_ifs_derived_variables,falive,whether father is still alive,2.0,father dead
+695445,ELSA,wave_9_ifs_derived_variables,fathage,father's age if still alive,-9.0,refuse
+695446,ELSA,wave_9_ifs_derived_variables,fathage,father's age if still alive,-8.0,don't know
+695447,ELSA,wave_9_ifs_derived_variables,fathage,father's age if still alive,-2.0,not asked
+695448,ELSA,wave_9_ifs_derived_variables,fathage,father's age if still alive,-1.0,inapplicable
+695449,ELSA,wave_9_ifs_derived_variables,fagedied,father's age when she died,-9.0,refuse
+695450,ELSA,wave_9_ifs_derived_variables,fagedied,father's age when she died,-8.0,don't know
+695451,ELSA,wave_9_ifs_derived_variables,fagedied,father's age when she died,-2.0,not asked
+695452,ELSA,wave_9_ifs_derived_variables,fagedied,father's age when she died,-1.0,inapplicable
+695453,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,-9.0,refusal
+695454,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,-8.0,don't know
+695455,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,-2.0,not asked
+695456,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,-1.0,not applicable
+695457,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,1.0,both natural parents
+695458,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,2.0,natural mother and step-father
+695459,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,3.0,natural father and step-mother
+695460,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,4.0,natural mother
+695461,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,5.0,natural father
+695462,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,6.0,step-parents
+695463,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,7.0,foster parents
+695464,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,8.0,adoptive parents
+695465,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,9.0,children's home
+695466,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,51.0,other - both grandparents
+695467,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,52.0,other - grandmother
+695468,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,53.0,other - grandfather
+695469,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,54.0,other - siblings
+695470,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,55.0,other - other relatives or combination
+695471,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,85.0,other answer - not codeable 01 to 09 or 51 to 55
+695472,ELSA,wave_9_ifs_derived_variables,diklivm,who lived with in childhood - info from current & past waves,86.0,irrelevant response - not codeable 01 to 09 or 51 to 55
+695473,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,-9.0,refusal
+695474,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,-8.0,don't know
+695475,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,-2.0,not asked
+695476,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,-1.0,not applicable
+695477,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,1.0,armed forces
+695478,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,2.0,manager or senior official in someone else s business
+695479,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,3.0,running his own business
+695480,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,4.0,professional or technical
+695481,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,5.0,"administrative, clerical or secretarial"
+695482,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,6.0,skilled trade
+695483,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,7.0,"caring, leisure, travel or personal services"
+695484,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,8.0,sales or customer service
+695485,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,9.0,"plant, process or machine drivers or operators"
+695486,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,10.0,other jobs
+695487,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,11.0,something else
+695488,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,12.0,casual jobs
+695489,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,13.0,retired
+695490,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,14.0,unemployed
+695491,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,15.0,sick / disabled
+695492,ELSA,wave_9_ifs_derived_variables,difjobm,main carer's job in childhood - info from current and past waves,16.0,lived in children's home
+695493,ELSA,wave_9_ifs_derived_variables,nright,number of numeracy questions correct,,
+695494,ELSA,wave_9_ifs_derived_variables,numtype5,numeracy index - 5 way split,-9.0,refused
+695495,ELSA,wave_9_ifs_derived_variables,numtype5,numeracy index - 5 way split,-3.0,not asked this wave
+695496,ELSA,wave_9_ifs_derived_variables,numtype5,numeracy index - 5 way split,-1.0,proxy or partial respondent
+695497,ELSA,wave_9_ifs_derived_variables,numtype5,numeracy index - 5 way split,1.0,Worst
+695498,ELSA,wave_9_ifs_derived_variables,numtype5,numeracy index - 5 way split,5.0,Best
+695499,ELSA,wave_9_ifs_derived_variables,numtype4,numeracy index - 4 way split,-9.0,refused
+695500,ELSA,wave_9_ifs_derived_variables,numtype4,numeracy index - 4 way split,-3.0,not asked this wave
+695501,ELSA,wave_9_ifs_derived_variables,numtype4,numeracy index - 4 way split,-1.0,proxy or partial respondent
+695502,ELSA,wave_9_ifs_derived_variables,numtype4,numeracy index - 4 way split,1.0,Worst
+695503,ELSA,wave_9_ifs_derived_variables,numtype4,numeracy index - 4 way split,4.0,Best
+695504,ELSA,wave_9_ifs_derived_variables,numtype2,numeracy Index - 2 way split,-9.0,refused
+695505,ELSA,wave_9_ifs_derived_variables,numtype2,numeracy Index - 2 way split,-3.0,not asked this wave
+695506,ELSA,wave_9_ifs_derived_variables,numtype2,numeracy Index - 2 way split,-1.0,proxy or partial respondent
+695507,ELSA,wave_9_ifs_derived_variables,numtype2,numeracy Index - 2 way split,1.0,Worst
+695508,ELSA,wave_9_ifs_derived_variables,numtype2,numeracy Index - 2 way split,2.0,Best
+695509,ELSA,wave_9_ifs_derived_variables,execnn,index of executive (non-numeracy) function (0-20),-9.0,refused
+695510,ELSA,wave_9_ifs_derived_variables,execnn,index of executive (non-numeracy) function (0-20),-3.0,not asked this wave
+695511,ELSA,wave_9_ifs_derived_variables,execnn,index of executive (non-numeracy) function (0-20),-2.0,partially incomplete exec function module
+695512,ELSA,wave_9_ifs_derived_variables,execnn,index of executive (non-numeracy) function (0-20),-1.0,proxy or partial respondent
+695513,ELSA,wave_9_ifs_derived_variables,memtot,index of memory function (0-29),-9.0,refused at any component of the memory index
+695514,ELSA,wave_9_ifs_derived_variables,memtot,index of memory function (0-29),-3.0,not asked this wave
+695515,ELSA,wave_9_ifs_derived_variables,memtot,index of memory function (0-29),-2.0,partially incomplete memory module
+695516,ELSA,wave_9_ifs_derived_variables,memtot,index of memory function (0-29),-1.0,proxy or partial respondent
+695517,ELSA,wave_9_ifs_derived_variables,memtotb,index of memory function not inc 2nd prosp mem test (0-24),,
+695518,ELSA,wave_9_ifs_derived_variables,maxnumtype5,maximum of numtype 5 for the benefit unit,-9.0,refused
+695519,ELSA,wave_9_ifs_derived_variables,maxnumtype5,maximum of numtype 5 for the benefit unit,-3.0,not asked this wave
+695520,ELSA,wave_9_ifs_derived_variables,maxnumtype5,maximum of numtype 5 for the benefit unit,-1.0,proxy or partial respondent
+695521,ELSA,wave_9_ifs_derived_variables,maxnumtype5,maximum of numtype 5 for the benefit unit,1.0,Worst
+695522,ELSA,wave_9_ifs_derived_variables,maxnumtype5,maximum of numtype 5 for the benefit unit,5.0,Best
+695523,ELSA,wave_9_ifs_derived_variables,maxnumtype4,maximum of numtype 4 for the benefit unit,-9.0,refused
+695524,ELSA,wave_9_ifs_derived_variables,maxnumtype4,maximum of numtype 4 for the benefit unit,-3.0,not asked this wave
+695525,ELSA,wave_9_ifs_derived_variables,maxnumtype4,maximum of numtype 4 for the benefit unit,-1.0,proxy or partial respondent
+695526,ELSA,wave_9_ifs_derived_variables,maxnumtype4,maximum of numtype 4 for the benefit unit,1.0,Worst
+695527,ELSA,wave_9_ifs_derived_variables,maxnumtype4,maximum of numtype 4 for the benefit unit,4.0,Best
+695528,ELSA,wave_9_ifs_derived_variables,maxnumtype2,maximum of numtype 2 for the benefit unit,-9.0,refused
+695529,ELSA,wave_9_ifs_derived_variables,maxnumtype2,maximum of numtype 2 for the benefit unit,-3.0,not asked this wave
+695530,ELSA,wave_9_ifs_derived_variables,maxnumtype2,maximum of numtype 2 for the benefit unit,-1.0,proxy or partial respondent
+695531,ELSA,wave_9_ifs_derived_variables,maxnumtype2,maximum of numtype 2 for the benefit unit,1.0,Worst
+695532,ELSA,wave_9_ifs_derived_variables,maxnumtype2,maximum of numtype 2 for the benefit unit,2.0,Best
+695533,ELSA,wave_9_ifs_derived_variables,maxexecnn,maximum of execnn for the benefit unit,-9.0,refused
+695534,ELSA,wave_9_ifs_derived_variables,maxexecnn,maximum of execnn for the benefit unit,-3.0,not asked this wave
+695535,ELSA,wave_9_ifs_derived_variables,maxexecnn,maximum of execnn for the benefit unit,-2.0,partially incomplete exec function module
+695536,ELSA,wave_9_ifs_derived_variables,maxexecnn,maximum of execnn for the benefit unit,-1.0,proxy or partial respondent
+695537,ELSA,wave_9_ifs_derived_variables,maxmemtotb,maximum of memtotb for the benefit unit,,
+695538,ELSA,wave_9_ifs_derived_variables,cesd_sc,number of cesd questions answered yes,-2.0,not answered
+695539,ELSA,wave_9_ifs_derived_variables,cesd_sc,number of cesd questions answered yes,-1.0,proxy respondent
+695540,ELSA,wave_9_ifs_derived_variables,cesd_na,number of cesd questions answered,-2.0,not answered
+695541,ELSA,wave_9_ifs_derived_variables,cesd_na,number of cesd questions answered,-1.0,proxy respondent
+695542,ELSA,wave_9_ifs_derived_variables,nrooms,number of rooms in house - merged information from current and previous waves,-9.0,refuse
+695543,ELSA,wave_9_ifs_derived_variables,nrooms,number of rooms in house - merged information from current and previous waves,-8.0,don't know
+695544,ELSA,wave_9_ifs_derived_variables,nrooms,number of rooms in house - merged information from current and previous waves,-2.0,not asked
+695545,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,-9.0,refuse
+695546,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,-8.0,don't know
+695547,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,-2.0,not asked
+695548,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,1.0,Before 1919
+695549,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,2.0,1919-1944
+695550,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,3.0,1945-1964
+695551,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,4.0,1965-1984
+695552,ELSA,wave_9_ifs_derived_variables,hooldm,age of house - info merged from current and previous waves,5.0,1985 or later
+695553,ELSA,wave_9_ifs_derived_variables,homovem,year moved to this accommodation - info merged from current and previous waves,-9.0,refuse
+695554,ELSA,wave_9_ifs_derived_variables,homovem,year moved to this accommodation - info merged from current and previous waves,-8.0,don't know
+695555,ELSA,wave_9_ifs_derived_variables,homovem,year moved to this accommodation - info merged from current and previous waves,-2.0,not asked
+695556,ELSA,wave_9_ifs_derived_variables,hoyearm,year bought this accommodation? info merged from current and previous waves,-9.0,refuse
+695557,ELSA,wave_9_ifs_derived_variables,hoyearm,year bought this accommodation? info merged from current and previous waves,-8.0,don't know
+695558,ELSA,wave_9_ifs_derived_variables,hoyearm,year bought this accommodation? info merged from current and previous waves,-2.0,not asked
+695559,ELSA,wave_9_ifs_derived_variables,hoyearm,year bought this accommodation? info merged from current and previous waves,-1.0,inapplicable
+695560,ELSA,wave_9_ifs_derived_variables,hopaym,how much paid for this property? info merged from current and previous waves,-9.0,refuse
+695561,ELSA,wave_9_ifs_derived_variables,hopaym,how much paid for this property? info merged from current and previous waves,-8.0,don't know
+695562,ELSA,wave_9_ifs_derived_variables,hopaym,how much paid for this property? info merged from current and previous waves,-2.0,not asked
+695563,ELSA,wave_9_ifs_derived_variables,hopaym,how much paid for this property? info merged from current and previous waves,-1.0,inapplicable
+695564,ELSA,wave_9_ifs_derived_variables,rpi,price deflator - base = Jan 2011,,
+695565,ELSA,wave_9_ifs_derived_variables,cpiplus,cpi plus mortgage int - base = Jan 2011,,
+695566,ELSA,wave_9_ifs_derived_variables,foodinl,food in wkly lower bound (hofood/hofoofb),-3.0,not asked this wave
+695567,ELSA,wave_9_ifs_derived_variables,foodinu,food in wkly upper bound (hofood/hofoofb) ,-3.0,not asked this wave
+695568,ELSA,wave_9_ifs_derived_variables,foodint,food in - type of observation,-3.0,not asked this wave
+695569,ELSA,wave_9_ifs_derived_variables,foodint,food in - type of observation,0.0,zero
+695570,ELSA,wave_9_ifs_derived_variables,foodint,food in - type of observation,1.0,continuous
+695571,ELSA,wave_9_ifs_derived_variables,foodint,food in - type of observation,2.0,closed band
+695572,ELSA,wave_9_ifs_derived_variables,foodint,food in - type of observation,3.0,open band
+695573,ELSA,wave_9_ifs_derived_variables,foodint,food in - type of observation,4.0,"missing, positive"
+695574,ELSA,wave_9_ifs_derived_variables,foodint,food in - type of observation,5.0,missing completely
+695575,ELSA,wave_9_ifs_derived_variables,foodoutl,food out wkly lower bound (hooutf/hooutfb),-3.0,not asked this wave
+695576,ELSA,wave_9_ifs_derived_variables,foodoutu,food out wkly upper bound (hooutf/hooutfb),-3.0,not asked this wave
+695577,ELSA,wave_9_ifs_derived_variables,foodoutt,food out - type of observation,-3.0,not asked this wave
+695578,ELSA,wave_9_ifs_derived_variables,foodoutt,food out - type of observation,0.0,zero
+695579,ELSA,wave_9_ifs_derived_variables,foodoutt,food out - type of observation,1.0,continuous
+695580,ELSA,wave_9_ifs_derived_variables,foodoutt,food out - type of observation,2.0,closed band
+695581,ELSA,wave_9_ifs_derived_variables,foodoutt,food out - type of observation,3.0,open band
+695582,ELSA,wave_9_ifs_derived_variables,foodoutt,food out - type of observation,4.0,"missing, positive"
+695583,ELSA,wave_9_ifs_derived_variables,foodoutt,food out - type of observation,5.0,missing completely
+695584,ELSA,wave_9_ifs_derived_variables,clothesl,clothing wkly lower bound (hocl/hoclb),-3.0,not asked this wave
+695585,ELSA,wave_9_ifs_derived_variables,clothesu,clothing wkly upper bound (hocl/hoclb),-3.0,not asked this wave
+695586,ELSA,wave_9_ifs_derived_variables,clothest,clothing - type of observation,-3.0,not asked this wave
+695587,ELSA,wave_9_ifs_derived_variables,clothest,clothing - type of observation,0.0,zero
+695588,ELSA,wave_9_ifs_derived_variables,clothest,clothing - type of observation,1.0,continuous
+695589,ELSA,wave_9_ifs_derived_variables,clothest,clothing - type of observation,2.0,closed band
+695590,ELSA,wave_9_ifs_derived_variables,clothest,clothing - type of observation,3.0,open band
+695591,ELSA,wave_9_ifs_derived_variables,clothest,clothing - type of observation,4.0,"missing, positive"
+695592,ELSA,wave_9_ifs_derived_variables,clothest,clothing - type of observation,5.0,missing completely
+695593,ELSA,wave_9_ifs_derived_variables,leisurel,leisure wkly lower bound (holeis/holeisb),-3.0,not asked this wave
+695594,ELSA,wave_9_ifs_derived_variables,leisureu,leisure wkly upper bound (holeis/holeisb),-3.0,not asked this wave
+695595,ELSA,wave_9_ifs_derived_variables,leisuret,leisure - type of observation,-3.0,not asked this wave
+695596,ELSA,wave_9_ifs_derived_variables,leisuret,leisure - type of observation,0.0,zero
+695597,ELSA,wave_9_ifs_derived_variables,leisuret,leisure - type of observation,1.0,continuous
+695598,ELSA,wave_9_ifs_derived_variables,leisuret,leisure - type of observation,2.0,closed band
+695599,ELSA,wave_9_ifs_derived_variables,leisuret,leisure - type of observation,3.0,open band
+695600,ELSA,wave_9_ifs_derived_variables,leisuret,leisure - type of observation,4.0,"missing, positive"
+695601,ELSA,wave_9_ifs_derived_variables,leisuret,leisure - type of observation,5.0,missing completely
+695602,ELSA,wave_9_ifs_derived_variables,transfersl,transfers wkly lower bound (hotran/hotranb),-3.0,not asked this wave
+695603,ELSA,wave_9_ifs_derived_variables,transfersu,transfers wkly upper bound (hotran/hotranb),-3.0,not asked this wave
+695604,ELSA,wave_9_ifs_derived_variables,transferst,transfers - type of observation,-3.0,not asked this wave
+695605,ELSA,wave_9_ifs_derived_variables,transferst,transfers - type of observation,0.0,zero
+695606,ELSA,wave_9_ifs_derived_variables,transferst,transfers - type of observation,1.0,continuous
+695607,ELSA,wave_9_ifs_derived_variables,transferst,transfers - type of observation,2.0,closed band
+695608,ELSA,wave_9_ifs_derived_variables,transferst,transfers - type of observation,3.0,open band
+695609,ELSA,wave_9_ifs_derived_variables,transferst,transfers - type of observation,4.0,"missing, positive"
+695610,ELSA,wave_9_ifs_derived_variables,transferst,transfers - type of observation,5.0,missing completely
+695611,ELSA,wave_9_ifs_derived_variables,usesgas,whether uses gas (hofuel),-3.0,not asked this wave
+695612,ELSA,wave_9_ifs_derived_variables,useselec,whether uses electricity (hofuel),-3.0,not asked this wave
+695613,ELSA,wave_9_ifs_derived_variables,usescoal,whether uses coal (hofuel),-3.0,not asked this wave
+695614,ELSA,wave_9_ifs_derived_variables,usespara,whether uses paraffin (hofuel),-3.0,not asked this wave
+695615,ELSA,wave_9_ifs_derived_variables,usesoil,whether uses oil (hofuel),-3.0,not asked this wave
+695616,ELSA,wave_9_ifs_derived_variables,useswood,whether uses wood (hofuel),-3.0,not asked this wave
+695617,ELSA,wave_9_ifs_derived_variables,usesotherf,whether uses other fuel (hofuel),-3.0,not asked this wave
+695618,ELSA,wave_9_ifs_derived_variables,gaselect,gas & elec joint - type of observation,-3.0,not asked this wave
+695619,ELSA,wave_9_ifs_derived_variables,gaselect,gas & elec joint - type of observation,0.0,zero
+695620,ELSA,wave_9_ifs_derived_variables,gaselect,gas & elec joint - type of observation,1.0,continuous
+695621,ELSA,wave_9_ifs_derived_variables,gaselect,gas & elec joint - type of observation,2.0,closed band
+695622,ELSA,wave_9_ifs_derived_variables,gaselect,gas & elec joint - type of observation,3.0,open band
+695623,ELSA,wave_9_ifs_derived_variables,gaselect,gas & elec joint - type of observation,4.0,"missing, positive"
+695624,ELSA,wave_9_ifs_derived_variables,gaselect,gas & elec joint - type of observation,5.0,missing completely
+695625,ELSA,wave_9_ifs_derived_variables,gaselecl,gas & elec joint lower bound wkly (see notes for source variables),-3.0,not asked this wave
+695626,ELSA,wave_9_ifs_derived_variables,gaselecu,gas & elec joint upper bound wkly (see notes for source variables),-3.0,not asked this wave
+695627,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),-9.0,refuse
+695628,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),-8.0,don't know
+695629,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),-3.0,not asked this wave
+695630,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),-1.0,inapplicable
+695631,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),1.0,Direct debit
+695632,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),2.0,Monthly / quarterly bill (including standing orders)
+695633,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),3.0,Pre-payment (key / card or token) meters
+695634,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),4.0,Included in rent
+695635,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),5.0,Frequent cash payment (ie more frequent than once a month)
+695636,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),6.0,Fuel direct / direct from benefits
+695637,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),7.0,Staywarm scheme
+695638,ELSA,wave_9_ifs_derived_variables,gaselecmeth,gas/electricity joint payment method (hofpay),95.0,Other
+695639,ELSA,wave_9_ifs_derived_variables,gast,gas - type of observation,-3.0,not asked this wave
+695640,ELSA,wave_9_ifs_derived_variables,gast,gas - type of observation,0.0,zero
+695641,ELSA,wave_9_ifs_derived_variables,gast,gas - type of observation,1.0,continuous
+695642,ELSA,wave_9_ifs_derived_variables,gast,gas - type of observation,2.0,closed band
+695643,ELSA,wave_9_ifs_derived_variables,gast,gas - type of observation,3.0,open band
+695644,ELSA,wave_9_ifs_derived_variables,gast,gas - type of observation,4.0,"missing, positive"
+695645,ELSA,wave_9_ifs_derived_variables,gast,gas - type of observation,5.0,missing completely
+695646,ELSA,wave_9_ifs_derived_variables,gasl,gas lower bound wkly (see notes for source variables),-3.0,not asked this wave
+695647,ELSA,wave_9_ifs_derived_variables,gasu,gas upper bound wkly (see notes for source variables),-3.0,not asked this wave
+695648,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),-9.0,refuse
+695649,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),-8.0,don't know
+695650,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),-3.0,not asked this wave
+695651,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),-1.0,inapplicable
+695652,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),1.0,Direct debit
+695653,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),2.0,Monthly/quarterly bill
+695654,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),3.0,Pre-payment meters
+695655,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),4.0,Included in rent
+695656,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),5.0,Frequent cash payment
+695657,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),6.0,Fuel direct/direct from benefits
+695658,ELSA,wave_9_ifs_derived_variables,gasmeth,gas payment method (hogpay),95.0,Other
+695659,ELSA,wave_9_ifs_derived_variables,elect,electricity - type of observation,-3.0,not asked this wave
+695660,ELSA,wave_9_ifs_derived_variables,elect,electricity - type of observation,0.0,zero
+695661,ELSA,wave_9_ifs_derived_variables,elect,electricity - type of observation,1.0,continuous
+695662,ELSA,wave_9_ifs_derived_variables,elect,electricity - type of observation,2.0,closed band
+695663,ELSA,wave_9_ifs_derived_variables,elect,electricity - type of observation,3.0,open band
+695664,ELSA,wave_9_ifs_derived_variables,elect,electricity - type of observation,4.0,"missing, positive"
+695665,ELSA,wave_9_ifs_derived_variables,elect,electricity - type of observation,5.0,missing completely
+695666,ELSA,wave_9_ifs_derived_variables,elecl,electricity lower bound wkly (see notes for source variables),-3.0,not asked this wave
+695667,ELSA,wave_9_ifs_derived_variables,elecu,electricity upper bound wkly (see notes for source variables),-3.0,not asked this wave
+695668,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),-9.0,refuse
+695669,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),-8.0,don't know
+695670,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),-3.0,not asked this wave
+695671,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),-1.0,inapplicable
+695672,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),1.0,Direct debit
+695673,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),2.0,Monthly/quarterly bill
+695674,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),3.0,Pre-payment meters
+695675,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),4.0,Included in rent
+695676,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),5.0,Frequent cash payment
+695677,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),6.0,Fuel direct/direct from benefits
+695678,ELSA,wave_9_ifs_derived_variables,elecmeth,electricity payment method (hoepay),95.0,Other
+695679,ELSA,wave_9_ifs_derived_variables,coall,coal lower bound wkly (hofcw/hofcwb/hofcs/hofcsb),-3.0,not asked this wave
+695680,ELSA,wave_9_ifs_derived_variables,coalu,coal upper bound wkly  (hofcw/hofcwb/hofcs/hofcsb),-3.0,not asked this wave
+695681,ELSA,wave_9_ifs_derived_variables,coalt,coal - type of observation,-3.0,not asked this wave
+695682,ELSA,wave_9_ifs_derived_variables,coalt,coal - type of observation,0.0,zero
+695683,ELSA,wave_9_ifs_derived_variables,coalt,coal - type of observation,1.0,continuous
+695684,ELSA,wave_9_ifs_derived_variables,coalt,coal - type of observation,2.0,closed band
+695685,ELSA,wave_9_ifs_derived_variables,coalt,coal - type of observation,3.0,open band
+695686,ELSA,wave_9_ifs_derived_variables,coalt,coal - type of observation,4.0,"missing, positive"
+695687,ELSA,wave_9_ifs_derived_variables,coalt,coal - type of observation,5.0,missing completely
+695688,ELSA,wave_9_ifs_derived_variables,paral,paraffin lower bound wkly (hofpgw/hofpgwb/hofpgs/hofpgsb),-3.0,not asked this wave
+695689,ELSA,wave_9_ifs_derived_variables,parau,paraffin upper bound wkly  (hofpgw/hofpgwb/hofpgs/hofpgsb),-3.0,not asked this wave
+695690,ELSA,wave_9_ifs_derived_variables,parat,paraffin - type of observation,-3.0,not asked this wave
+695691,ELSA,wave_9_ifs_derived_variables,parat,paraffin - type of observation,0.0,zero
+695692,ELSA,wave_9_ifs_derived_variables,parat,paraffin - type of observation,1.0,continuous
+695693,ELSA,wave_9_ifs_derived_variables,parat,paraffin - type of observation,2.0,closed band
+695694,ELSA,wave_9_ifs_derived_variables,parat,paraffin - type of observation,3.0,open band
+695695,ELSA,wave_9_ifs_derived_variables,parat,paraffin - type of observation,4.0,"missing, positive"
+695696,ELSA,wave_9_ifs_derived_variables,parat,paraffin - type of observation,5.0,missing completely
+695697,ELSA,wave_9_ifs_derived_variables,oill,oil lower bound wkly (hofoiw/hofoiwb/hofois/hofoisb),-3.0,not asked this wave
+695698,ELSA,wave_9_ifs_derived_variables,oilu,oil upper bound wkly (hofoiw/hofoiwb/hofois/hofoisb),-3.0,not asked this wave
+695699,ELSA,wave_9_ifs_derived_variables,oilt,oil - type of observation,-3.0,not asked this wave
+695700,ELSA,wave_9_ifs_derived_variables,oilt,oil - type of observation,0.0,zero
+695701,ELSA,wave_9_ifs_derived_variables,oilt,oil - type of observation,1.0,continuous
+695702,ELSA,wave_9_ifs_derived_variables,oilt,oil - type of observation,2.0,closed band
+695703,ELSA,wave_9_ifs_derived_variables,oilt,oil - type of observation,3.0,open band
+695704,ELSA,wave_9_ifs_derived_variables,oilt,oil - type of observation,4.0,"missing, positive"
+695705,ELSA,wave_9_ifs_derived_variables,oilt,oil - type of observation,5.0,missing completely
+695706,ELSA,wave_9_ifs_derived_variables,woodl,wood lower bound wkly (hofww/hofwwb/hofws/hofwsb),-3.0,not asked this wave
+695707,ELSA,wave_9_ifs_derived_variables,woodu,wood upper bound wkly (hofww/hofwwb/hofws/hofwsb),-3.0,not asked this wave
+695708,ELSA,wave_9_ifs_derived_variables,woodt,wood - type of observation,-3.0,not asked this wave
+695709,ELSA,wave_9_ifs_derived_variables,woodt,wood - type of observation,0.0,zero
+695710,ELSA,wave_9_ifs_derived_variables,woodt,wood - type of observation,1.0,continuous
+695711,ELSA,wave_9_ifs_derived_variables,woodt,wood - type of observation,2.0,closed band
+695712,ELSA,wave_9_ifs_derived_variables,woodt,wood - type of observation,3.0,open band
+695713,ELSA,wave_9_ifs_derived_variables,woodt,wood - type of observation,4.0,"missing, positive"
+695714,ELSA,wave_9_ifs_derived_variables,woodt,wood - type of observation,5.0,missing completely
+695715,ELSA,wave_9_ifs_derived_variables,otherfl,other fuel lower bound wkly (hofxw/hofxwb/hofxs/hofxsb),-3.0,not asked this wave
+695716,ELSA,wave_9_ifs_derived_variables,otherfu,other fuel upper bound wkly (hofxw/hofxwb/hofxs/hofxsb),-3.0,not asked this wave
+695717,ELSA,wave_9_ifs_derived_variables,otherft,other fuel - type of observation,-3.0,not asked this wave
+695718,ELSA,wave_9_ifs_derived_variables,otherft,other fuel - type of observation,0.0,zero
+695719,ELSA,wave_9_ifs_derived_variables,otherft,other fuel - type of observation,1.0,continuous
+695720,ELSA,wave_9_ifs_derived_variables,otherft,other fuel - type of observation,2.0,closed band
+695721,ELSA,wave_9_ifs_derived_variables,otherft,other fuel - type of observation,3.0,open band
+695722,ELSA,wave_9_ifs_derived_variables,otherft,other fuel - type of observation,4.0,"missing, positive"
+695723,ELSA,wave_9_ifs_derived_variables,otherft,other fuel - type of observation,5.0,missing completely
+695724,ELSA,wave_9_ifs_derived_variables,grossrentl,wkly rent lower bound before deducting any housing benefit (hoperi/horent/horeba,,
+695725,ELSA,wave_9_ifs_derived_variables,grossrentu,wkly rent upper bound before deducting any housing benefit (hoperi/horent/horeba,,
+695726,ELSA,wave_9_ifs_derived_variables,grossrentt,wkly rent lower bound before deducting any housing benefit - type of observation,0.0,zero
+695727,ELSA,wave_9_ifs_derived_variables,grossrentt,wkly rent lower bound before deducting any housing benefit - type of observation,1.0,continuous
+695728,ELSA,wave_9_ifs_derived_variables,grossrentt,wkly rent lower bound before deducting any housing benefit - type of observation,2.0,closed band
+695729,ELSA,wave_9_ifs_derived_variables,grossrentt,wkly rent lower bound before deducting any housing benefit - type of observation,3.0,open band
+695730,ELSA,wave_9_ifs_derived_variables,grossrentt,wkly rent lower bound before deducting any housing benefit - type of observation,4.0,"missing, positive"
+695731,ELSA,wave_9_ifs_derived_variables,grossrentt,wkly rent lower bound before deducting any housing benefit - type of observation,5.0,missing completely
+695732,ELSA,wave_9_ifs_derived_variables,getshb,Receives housing benefit,-9.0,refuse
+695733,ELSA,wave_9_ifs_derived_variables,getshb,Receives housing benefit,-8.0,don't know
+695734,ELSA,wave_9_ifs_derived_variables,getshb,Receives housing benefit,-1.0,inapplicable
+695735,ELSA,wave_9_ifs_derived_variables,getshb,Receives housing benefit,0.0,Doesn't receive HB or rent rebate
+695736,ELSA,wave_9_ifs_derived_variables,getshb,Receives housing benefit,1.0,Receives HB or rent rebate
+695737,ELSA,wave_9_ifs_derived_variables,netrentl,wkly rent lower bound after deducting any housing benefit (hoperi/horent/horeba/,,
+695738,ELSA,wave_9_ifs_derived_variables,netrentu,wkly rent upper bound after deducting any housing benefit (hoperi/horent/horeba/,,
+695739,ELSA,wave_9_ifs_derived_variables,netrentt,wkly rent after deducting any housing benefit - type of observation,0.0,zero
+695740,ELSA,wave_9_ifs_derived_variables,netrentt,wkly rent after deducting any housing benefit - type of observation,1.0,continuous
+695741,ELSA,wave_9_ifs_derived_variables,netrentt,wkly rent after deducting any housing benefit - type of observation,2.0,closed band
+695742,ELSA,wave_9_ifs_derived_variables,netrentt,wkly rent after deducting any housing benefit - type of observation,3.0,open band
+695743,ELSA,wave_9_ifs_derived_variables,netrentt,wkly rent after deducting any housing benefit - type of observation,4.0,"missing, positive"
+695744,ELSA,wave_9_ifs_derived_variables,netrentt,wkly rent after deducting any housing benefit - type of observation,5.0,missing completely
+695745,ELSA,wave_9_ifs_derived_variables,rentincwa,charges included in last rent payment - water charges,-9.0,refused
+695746,ELSA,wave_9_ifs_derived_variables,rentincwa,charges included in last rent payment - water charges,-8.0,don't know
+695747,ELSA,wave_9_ifs_derived_variables,rentincwa,charges included in last rent payment - water charges,-1.0,inapplicable
+695748,ELSA,wave_9_ifs_derived_variables,rentincwa,charges included in last rent payment - water charges,0.0,not mentioned
+695749,ELSA,wave_9_ifs_derived_variables,rentincwa,charges included in last rent payment - water charges,1.0,mentioned
+695750,ELSA,wave_9_ifs_derived_variables,rentincse,charges included in last rent payment - sewerage charges,-9.0,refused
+695751,ELSA,wave_9_ifs_derived_variables,rentincse,charges included in last rent payment - sewerage charges,-8.0,don't know
+695752,ELSA,wave_9_ifs_derived_variables,rentincse,charges included in last rent payment - sewerage charges,-1.0,inapplicable
+695753,ELSA,wave_9_ifs_derived_variables,rentincse,charges included in last rent payment - sewerage charges,0.0,not mentioned
+695754,ELSA,wave_9_ifs_derived_variables,rentincse,charges included in last rent payment - sewerage charges,1.0,mentioned
+695755,ELSA,wave_9_ifs_derived_variables,rentincla,charges included in last rent payment - land or business premises,-9.0,refused
+695756,ELSA,wave_9_ifs_derived_variables,rentincla,charges included in last rent payment - land or business premises,-8.0,don't know
+695757,ELSA,wave_9_ifs_derived_variables,rentincla,charges included in last rent payment - land or business premises,-1.0,inapplicable
+695758,ELSA,wave_9_ifs_derived_variables,rentincla,charges included in last rent payment - land or business premises,0.0,not mentioned
+695759,ELSA,wave_9_ifs_derived_variables,rentincla,charges included in last rent payment - land or business premises,1.0,mentioned
+695760,ELSA,wave_9_ifs_derived_variables,rentincga,charges included in last rent payment - separate garage,-9.0,refused
+695761,ELSA,wave_9_ifs_derived_variables,rentincga,charges included in last rent payment - separate garage,-8.0,don't know
+695762,ELSA,wave_9_ifs_derived_variables,rentincga,charges included in last rent payment - separate garage,-1.0,inapplicable
+695763,ELSA,wave_9_ifs_derived_variables,rentincga,charges included in last rent payment - separate garage,0.0,not mentioned
+695764,ELSA,wave_9_ifs_derived_variables,rentincga,charges included in last rent payment - separate garage,1.0,mentioned
+695765,ELSA,wave_9_ifs_derived_variables,rentinche,charges included in last rent payment - heating; lighting or hot water,-9.0,refused
+695766,ELSA,wave_9_ifs_derived_variables,rentinche,charges included in last rent payment - heating; lighting or hot water,-8.0,don't know
+695767,ELSA,wave_9_ifs_derived_variables,rentinche,charges included in last rent payment - heating; lighting or hot water,-1.0,inapplicable
+695768,ELSA,wave_9_ifs_derived_variables,rentinche,charges included in last rent payment - heating; lighting or hot water,0.0,not mentioned
+695769,ELSA,wave_9_ifs_derived_variables,rentinche,charges included in last rent payment - heating; lighting or hot water,1.0,mentioned
+695770,ELSA,wave_9_ifs_derived_variables,rentincco,charges included in last rent payment - council tax,-9.0,refused
+695771,ELSA,wave_9_ifs_derived_variables,rentincco,charges included in last rent payment - council tax,-8.0,don't know
+695772,ELSA,wave_9_ifs_derived_variables,rentincco,charges included in last rent payment - council tax,-1.0,inapplicable
+695773,ELSA,wave_9_ifs_derived_variables,rentincco,charges included in last rent payment - council tax,0.0,not mentioned
+695774,ELSA,wave_9_ifs_derived_variables,rentincco,charges included in last rent payment - council tax,1.0,mentioned
+695775,ELSA,wave_9_ifs_derived_variables,rentincme,services included in last rent payment - meals (merged var),-9.0,refused
+695776,ELSA,wave_9_ifs_derived_variables,rentincme,services included in last rent payment - meals (merged var),-8.0,don't know
+695777,ELSA,wave_9_ifs_derived_variables,rentincme,services included in last rent payment - meals (merged var),-1.0,inapplicable
+695778,ELSA,wave_9_ifs_derived_variables,rentincme,services included in last rent payment - meals (merged var),0.0,not mentioned
+695779,ELSA,wave_9_ifs_derived_variables,rentincme,services included in last rent payment - meals (merged var),1.0,mentioned
+695780,ELSA,wave_9_ifs_derived_variables,rentincgd,services included in last rent payment - gardening (merged var),-9.0,refused
+695781,ELSA,wave_9_ifs_derived_variables,rentincgd,services included in last rent payment - gardening (merged var),-8.0,don't know
+695782,ELSA,wave_9_ifs_derived_variables,rentincgd,services included in last rent payment - gardening (merged var),-1.0,inapplicable
+695783,ELSA,wave_9_ifs_derived_variables,rentincgd,services included in last rent payment - gardening (merged var),0.0,not mentioned
+695784,ELSA,wave_9_ifs_derived_variables,rentincgd,services included in last rent payment - gardening (merged var),1.0,mentioned
+695785,ELSA,wave_9_ifs_derived_variables,rentinccl,services included in last rent payment - cleaning (merged var),-9.0,refused
+695786,ELSA,wave_9_ifs_derived_variables,rentinccl,services included in last rent payment - cleaning (merged var),-8.0,don't know
+695787,ELSA,wave_9_ifs_derived_variables,rentinccl,services included in last rent payment - cleaning (merged var),-1.0,inapplicable
+695788,ELSA,wave_9_ifs_derived_variables,rentinccl,services included in last rent payment - cleaning (merged var),0.0,not mentioned
+695789,ELSA,wave_9_ifs_derived_variables,rentinccl,services included in last rent payment - cleaning (merged var),1.0,mentioned
+695790,ELSA,wave_9_ifs_derived_variables,rentincwp,services included in last rent payment - warden or porter (merged var),-9.0,refused
+695791,ELSA,wave_9_ifs_derived_variables,rentincwp,services included in last rent payment - warden or porter (merged var),-8.0,don't know
+695792,ELSA,wave_9_ifs_derived_variables,rentincwp,services included in last rent payment - warden or porter (merged var),-1.0,inapplicable
+695793,ELSA,wave_9_ifs_derived_variables,rentincwp,services included in last rent payment - warden or porter (merged var),0.0,not mentioned
+695794,ELSA,wave_9_ifs_derived_variables,rentincwp,services included in last rent payment - warden or porter (merged var),1.0,mentioned
+695795,ELSA,wave_9_ifs_derived_variables,rentincsg,services included in last rent payment - security service/guard (merged var),-9.0,refused
+695796,ELSA,wave_9_ifs_derived_variables,rentincsg,services included in last rent payment - security service/guard (merged var),-8.0,don't know
+695797,ELSA,wave_9_ifs_derived_variables,rentincsg,services included in last rent payment - security service/guard (merged var),-1.0,inapplicable
+695798,ELSA,wave_9_ifs_derived_variables,rentincsg,services included in last rent payment - security service/guard (merged var),0.0,not mentioned
+695799,ELSA,wave_9_ifs_derived_variables,rentincsg,services included in last rent payment - security service/guard (merged var),1.0,mentioned
+695800,ELSA,wave_9_ifs_derived_variables,rentinc85,services included in last rent payment - answer not codeable (merged var),-9.0,refused
+695801,ELSA,wave_9_ifs_derived_variables,rentinc85,services included in last rent payment - answer not codeable (merged var),-8.0,don't know
+695802,ELSA,wave_9_ifs_derived_variables,rentinc85,services included in last rent payment - answer not codeable (merged var),-1.0,inapplicable
+695803,ELSA,wave_9_ifs_derived_variables,rentinc85,services included in last rent payment - answer not codeable (merged var),0.0,not mentioned
+695804,ELSA,wave_9_ifs_derived_variables,rentinc85,services included in last rent payment - answer not codeable (merged var),1.0,mentioned
+695805,ELSA,wave_9_ifs_derived_variables,mortpayl,wkly mortg paymt lower bound including items recorded at mortinc* (hoinc),,
+695806,ELSA,wave_9_ifs_derived_variables,mortpayu,wkly mortg paymt upper bound including items recorded at mortinc* (hoinc),,
+695807,ELSA,wave_9_ifs_derived_variables,mortpayt,wkly mortg paymt including items recorded at mortinc* (hoinc) - type of observat,0.0,zero
+695808,ELSA,wave_9_ifs_derived_variables,mortpayt,wkly mortg paymt including items recorded at mortinc* (hoinc) - type of observat,1.0,continuous
+695809,ELSA,wave_9_ifs_derived_variables,mortpayt,wkly mortg paymt including items recorded at mortinc* (hoinc) - type of observat,2.0,closed band
+695810,ELSA,wave_9_ifs_derived_variables,mortpayt,wkly mortg paymt including items recorded at mortinc* (hoinc) - type of observat,3.0,open band
+695811,ELSA,wave_9_ifs_derived_variables,mortpayt,wkly mortg paymt including items recorded at mortinc* (hoinc) - type of observat,4.0,"missing, positive"
+695812,ELSA,wave_9_ifs_derived_variables,mortpayt,wkly mortg paymt including items recorded at mortinc* (hoinc) - type of observat,5.0,missing completely
+695813,ELSA,wave_9_ifs_derived_variables,mortpayxl,wkly mortg paymt lower bound after deducting items recorded at mortinc* (hoinc),,
+695814,ELSA,wave_9_ifs_derived_variables,mortpayxu,wkly mortg paymt upper bound after deducting items recorded at mortinc* (hoinc),,
+695815,ELSA,wave_9_ifs_derived_variables,mortpayxt,wkly mortg paymt after deducting items recorded at mortinc* (hoinc) - type of ob,0.0,zero
+695816,ELSA,wave_9_ifs_derived_variables,mortpayxt,wkly mortg paymt after deducting items recorded at mortinc* (hoinc) - type of ob,1.0,continuous
+695817,ELSA,wave_9_ifs_derived_variables,mortpayxt,wkly mortg paymt after deducting items recorded at mortinc* (hoinc) - type of ob,2.0,closed band
+695818,ELSA,wave_9_ifs_derived_variables,mortpayxt,wkly mortg paymt after deducting items recorded at mortinc* (hoinc) - type of ob,3.0,open band
+695819,ELSA,wave_9_ifs_derived_variables,mortpayxt,wkly mortg paymt after deducting items recorded at mortinc* (hoinc) - type of ob,4.0,"missing, positive"
+695820,ELSA,wave_9_ifs_derived_variables,mortpayxt,wkly mortg paymt after deducting items recorded at mortinc* (hoinc) - type of ob,5.0,missing completely
+695821,ELSA,wave_9_ifs_derived_variables,mortincpp,payments incl in mortgage repayment - mortgage protection policy (merged var),-9.0,refused
+695822,ELSA,wave_9_ifs_derived_variables,mortincpp,payments incl in mortgage repayment - mortgage protection policy (merged var),-8.0,don't know
+695823,ELSA,wave_9_ifs_derived_variables,mortincpp,payments incl in mortgage repayment - mortgage protection policy (merged var),-1.0,inapplicable
+695824,ELSA,wave_9_ifs_derived_variables,mortincpp,payments incl in mortgage repayment - mortgage protection policy (merged var),0.0,not mentioned
+695825,ELSA,wave_9_ifs_derived_variables,mortincpp,payments incl in mortgage repayment - mortgage protection policy (merged var),1.0,mentioned
+695826,ELSA,wave_9_ifs_derived_variables,mortincbi,payments included in mortgage repayment - buildings insurance (merged var),-9.0,refused
+695827,ELSA,wave_9_ifs_derived_variables,mortincbi,payments included in mortgage repayment - buildings insurance (merged var),-8.0,don't know
+695828,ELSA,wave_9_ifs_derived_variables,mortincbi,payments included in mortgage repayment - buildings insurance (merged var),-1.0,inapplicable
+695829,ELSA,wave_9_ifs_derived_variables,mortincbi,payments included in mortgage repayment - buildings insurance (merged var),0.0,not mentioned
+695830,ELSA,wave_9_ifs_derived_variables,mortincbi,payments included in mortgage repayment - buildings insurance (merged var),1.0,mentioned
+695831,ELSA,wave_9_ifs_derived_variables,mortincpi,payments incl in mortgage repayment - contents/possessions insurance (merged),-9.0,refused
+695832,ELSA,wave_9_ifs_derived_variables,mortincpi,payments incl in mortgage repayment - contents/possessions insurance (merged),-8.0,don't know
+695833,ELSA,wave_9_ifs_derived_variables,mortincpi,payments incl in mortgage repayment - contents/possessions insurance (merged),-1.0,inapplicable
+695834,ELSA,wave_9_ifs_derived_variables,mortincpi,payments incl in mortgage repayment - contents/possessions insurance (merged),0.0,not mentioned
+695835,ELSA,wave_9_ifs_derived_variables,mortincpi,payments incl in mortgage repayment - contents/possessions insurance (merged),1.0,mentioned
+695836,ELSA,wave_9_ifs_derived_variables,mortinc85,payments included in mortgage repayment - answer not codeable (merged var),-9.0,refused
+695837,ELSA,wave_9_ifs_derived_variables,mortinc85,payments included in mortgage repayment - answer not codeable (merged var),-8.0,don't know
+695838,ELSA,wave_9_ifs_derived_variables,mortinc85,payments included in mortgage repayment - answer not codeable (merged var),-1.0,inapplicable
+695839,ELSA,wave_9_ifs_derived_variables,mortinc85,payments included in mortgage repayment - answer not codeable (merged var),0.0,not mentioned
+695840,ELSA,wave_9_ifs_derived_variables,mortinc85,payments included in mortgage repayment - answer not codeable (merged var),1.0,mentioned
+695841,ELSA,wave_9_ifs_derived_variables,nhs_e_linkage_permission,,,
+695842,ELSA,wave_9_ifs_derived_variables,idahhw9_e,Encrypted analytical wave 9 household serial number,,
+695843,ELSA,wave_9_ifs_derived_variables,hhidw9_e,Encrypted household identifier which puts institutional respondents in a new household,,
+695844,ELSA,wave_9_ifs_derived_variables,coupid_e,Encrypted couple id - splits couples where one member in an institution,,
+695845,ELSA,wave_9_ifs_derived_variables,coupid_inst_e,Encrypted couple id - links couples where one member in an institution,,
+695846,ELSA,wave_9_ifs_derived_variables,xcoupid_e,Encrypted x-wave couple id - splits couples where one member in an institution ,,
+695847,ELSA,wave_9_ifs_derived_variables,xcoupid_inst_e,Encrypted x-wave couple id - links couples where one member in an institution ,,
+695848,ELSA,wave_9_ifs_derived_variables,fuid_e,Encrypted financial unit identifier - splits couples in institutions,,
+695849,ELSA,wave_9_ifs_derived_variables,fuid_inst_e,Encrypted financial unit identifier - links couples in institutions,,
+695850,ELSA,wave_9_ifs_derived_variables,idauniq_p_e,Encrypted partner's idauniq,,
+695851,ELSA,wave_9_ifs_derived_variables,study_id_tempidincluded_e,Encrypted DO NOT USE FOR LINKAGE : contains duplicate study_id values,,
+695852,ELSA,wave_9_ifs_derived_variables,avail_from_dt,,,

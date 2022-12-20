@@ -1,0 +1,132 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+756354,MCS,mcs1_cm_derived,study_id_e,,,
+756355,MCS,mcs1_cm_derived,pnum,Cohort Member number within an MCS family,1.0,1st Cohort Member of the family
+756356,MCS,mcs1_cm_derived,pnum,Cohort Member number within an MCS family,2.0,2nd Cohort Member of the family
+756357,MCS,mcs1_cm_derived,pnum,Cohort Member number within an MCS family,3.0,3rd Cohort Member of the family
+756358,MCS,mcs1_cm_derived,acnoba00,Number of CMs in household,-9.0,Refusal
+756359,MCS,mcs1_cm_derived,acnoba00,Number of CMs in household,-8.0,Don't Know
+756360,MCS,mcs1_cm_derived,acnoba00,Number of CMs in household,-1.0,Not applicable
+756361,MCS,mcs1_cm_derived,acnoba00,Number of CMs in household,1.0,One baby
+756362,MCS,mcs1_cm_derived,acnoba00,Number of CMs in household,2.0,Twins
+756363,MCS,mcs1_cm_derived,acnoba00,Number of CMs in household,3.0,Triplets
+756364,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],-9.0,Refusal
+756365,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],-8.0,Don't Know
+756366,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],-1.0,Not applicable
+756367,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],1.0,White - British
+756368,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],2.0,White - Irish
+756369,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],3.0,Any other White background
+756370,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],4.0,Mixed - White and Black Caribbean
+756371,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],5.0,Mixed - White and Black African
+756372,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],6.0,Mixed - White and Asian
+756373,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],7.0,Any other mixed background
+756374,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],8.0,Asian/Asian British - Indian
+756375,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],9.0,Asian/Asian British - Pakistani
+756376,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],10.0,Asian/Asian British - Bangladeshi
+756377,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],11.0,Any other Asian background
+756378,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],12.0,Black/Black British - Caribbean
+756379,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],13.0,Black/Black British - African
+756380,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],14.0,Any other Black background
+756381,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],15.0,Chinese
+756382,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],95.0,Any other background
+756383,MCS,mcs1_cm_derived,adceea00_r30,DV Cohort Member Ethnic Group merged (England)   [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+756384,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],-9.0,Refusal
+756385,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],-8.0,Don't Know
+756386,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],-1.0,Not applicable
+756387,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],1.0,White - Welsh
+756388,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],2.0,White - other British
+756389,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],3.0,White - Irish
+756390,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],4.0,Any other White background
+756391,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],5.0,Mixed - White and Black Caribbean
+756392,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],6.0,Mixed - White and Black African
+756393,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],7.0,Mixed - White and Asian
+756394,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],8.0,Any other mixed background
+756395,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],9.0,Asian/Asian British - Indian
+756396,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],10.0,Asian/Asian British - Pakistani
+756397,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],11.0,Asian/Asian British - Bangladeshi
+756398,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],12.0,Any other Asian background
+756399,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],13.0,Black/Black British - Caribbean
+756400,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],14.0,Black/Black British - African
+756401,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],15.0,Any other Black background
+756402,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],16.0,Chinese
+756403,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],95.0,Any other background
+756404,MCS,mcs1_cm_derived,adcewa00_r30,DV Cohort Member Ethnic Group (merged) (Wales)   [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+756405,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],-9.0,Refusal
+756406,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],-8.0,Don't Know
+756407,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],-1.0,Not applicable
+756408,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],1.0,White - Scottish
+756409,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],2.0,White - other British
+756410,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],3.0,White - Irish
+756411,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],4.0,Any other White background
+756412,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],5.0,Any mixed background
+756413,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],6.0,Asian/Asian Scottish - Indian
+756414,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],7.0,Asian/Asian Scottish - Pakistani
+756415,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],8.0,Asian/Asian Scottish - Bangladeshi
+756416,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],9.0,Asian/Asian Scottish - Chinese
+756417,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],10.0,Any other Asian background
+756418,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],11.0,Black/Black Scottish - Caribbean
+756419,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],12.0,Black/Black Scottish - African
+756420,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],13.0,Any other Black background
+756421,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],95.0,Any other background
+756422,MCS,mcs1_cm_derived,adcesa00_r30,DV Cohort Member Ethnic Group (merged) (Scotland)    [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+756423,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],-9.0,Refusal
+756424,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],-8.0,Don't Know
+756425,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],-1.0,Not applicable
+756426,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],1.0,White
+756427,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],2.0,Chinese
+756428,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],3.0,Irish Traveller
+756429,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],4.0,Indian
+756430,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],5.0,Pakistani
+756431,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],6.0,Bangladeshi
+756432,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],7.0,Black Caribbean
+756433,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],8.0,Black African
+756434,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],9.0,Black Other
+756435,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],10.0,Mixed ethnic group
+756436,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],95.0,Any other background
+756437,MCS,mcs1_cm_derived,adcena00_r30,DV Cohort Member Ethnic Group (merged) (N Ireland)   [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+756438,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-9.0,Refusal
+756439,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-8.0,Don't Know
+756440,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,-1.0,Not applicable
+756441,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,1.0,White
+756442,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,2.0,Mixed
+756443,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,3.0,Indian
+756444,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,4.0,Pakistani and Bangladeshi
+756445,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,5.0,Black or Black British
+756446,MCS,mcs1_cm_derived,adc06e00,DV Cohort Member Ethnic Group - 6 category Census class,6.0,"Other Ethnic group (inc Chinese,Other)"
+756447,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-9.0,Refusal
+756448,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-8.0,Don't Know
+756449,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,-1.0,Not applicable
+756450,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,1.0,White
+756451,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,2.0,Mixed
+756452,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,3.0,Indian
+756453,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,4.0,Pakistani
+756454,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,5.0,Bangladeshi
+756455,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,6.0,Other Asian
+756456,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,7.0,Black Caribbean
+756457,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,8.0,Black African
+756458,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,9.0,Other Black
+756459,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,10.0,Chinese
+756460,MCS,mcs1_cm_derived,adc11e00,DV Cohort Member Ethnic Group - 11 category Census class,11.0,Other Ethnic group
+756461,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,-9.0,Refusal
+756462,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,-8.0,Don't Know
+756463,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,-1.0,Not applicable
+756464,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,1.0,White
+756465,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,2.0,Mixed
+756466,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,3.0,Indian
+756467,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,4.0,Pakistani
+756468,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,5.0,Bangladeshi
+756469,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,6.0,Black Caribbean
+756470,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,7.0,Black African
+756471,MCS,mcs1_cm_derived,adc08e00,DV Cohort Member Ethnic Group - 8 category classification,8.0,"Other Ethnic group (inc Chinese,Other)"
+756472,MCS,mcs1_cm_derived,adbwgt00,DV Cohort Member birth weight in kilos,-8.0,Don't Know
+756473,MCS,mcs1_cm_derived,adbwgt00,DV Cohort Member birth weight in kilos,-1.0,Not applicable
+756474,MCS,mcs1_cm_derived,aderlt00,DV Birth of Cohort Member: Number of days early or lat,-888.0,Don't know
+756475,MCS,mcs1_cm_derived,adgest00,DV Cohort Member Gestation time in days,-9.0,Refusal
+756476,MCS,mcs1_cm_derived,adgest00,DV Cohort Member Gestation time in days,-8.0,Not known
+756477,MCS,mcs1_cm_derived,adgest00,DV Cohort Member Gestation time in days,-1.0,Not applicable
+756478,MCS,mcs1_cm_derived,adlstw00,DV Cohort Member most recent weight in kilos,-9.0,Refusal
+756479,MCS,mcs1_cm_derived,adlstw00,DV Cohort Member most recent weight in kilos,-8.0,Not known
+756480,MCS,mcs1_cm_derived,adlstw00,DV Cohort Member most recent weight in kilos,-1.0,Not applicable
+756481,MCS,mcs1_cm_derived,adaglw00,DV Cohort Member Age post-term in days when last weighed,-999.0,Not applicable
+756482,MCS,mcs1_cm_derived,adaglw00,DV Cohort Member Age post-term in days when last weighed,-997.0,No valid date information
+756483,MCS,mcs1_cm_derived,avail_from_dt,,,
+756484,MCS,mcs1_cm_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

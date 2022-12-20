@@ -1,0 +1,152 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+883969,NCDS58,basic_demographic,study_id_e,,,
+883970,NCDS58,basic_demographic,ethnic,CMs ethnic group,1.0,British
+883971,NCDS58,basic_demographic,ethnic,CMs ethnic group,2.0,Irish
+883972,NCDS58,basic_demographic,ethnic,CMs ethnic group,3.0,White other
+883973,NCDS58,basic_demographic,ethnic,CMs ethnic group,4.0,White & Black Caribbean
+883974,NCDS58,basic_demographic,ethnic,CMs ethnic group,5.0,White & Black African
+883975,NCDS58,basic_demographic,ethnic,CMs ethnic group,6.0,White & Asian
+883976,NCDS58,basic_demographic,ethnic,CMs ethnic group,7.0,Other mixed race
+883977,NCDS58,basic_demographic,ethnic,CMs ethnic group,8.0,Indian
+883978,NCDS58,basic_demographic,ethnic,CMs ethnic group,9.0,Pakistani
+883979,NCDS58,basic_demographic,ethnic,CMs ethnic group,10.0,Bangladeshi
+883980,NCDS58,basic_demographic,ethnic,CMs ethnic group,11.0,Other Asian
+883981,NCDS58,basic_demographic,ethnic,CMs ethnic group,12.0,Caribbean
+883982,NCDS58,basic_demographic,ethnic,CMs ethnic group,13.0,African
+883983,NCDS58,basic_demographic,ethnic,CMs ethnic group,14.0,Other Black
+883984,NCDS58,basic_demographic,ethnic,CMs ethnic group,15.0,Chinese
+883985,NCDS58,basic_demographic,ethnic,CMs ethnic group,16.0,Other ethnic group
+883986,NCDS58,basic_demographic,ethnic,CMs ethnic group,98.0,=Dont know
+883987,NCDS58,basic_demographic,ethnic,CMs ethnic group,99.0,=Not answered
+883988,NCDS58,basic_demographic,n1685,2PD Social class father,-1.0,"NA,unclear"
+883989,NCDS58,basic_demographic,n1685,2PD Social class father,1.0,Non manual
+883990,NCDS58,basic_demographic,n1685,2PD Social class father,2.0,Manual
+883991,NCDS58,basic_demographic,n1685,2PD Social class father,3.0,No male head
+883992,NCDS58,basic_demographic,n9netp2,Net pay: period,-9.0,Refused
+883993,NCDS58,basic_demographic,n9netp2,Net pay: period,-8.0,Don't know
+883994,NCDS58,basic_demographic,n9netp2,Net pay: period,-1.0,Not applicable
+883995,NCDS58,basic_demographic,n9netp2,Net pay: period,1.0,One week
+883996,NCDS58,basic_demographic,n9netp2,Net pay: period,2.0,Calendar month
+883997,NCDS58,basic_demographic,n9netp2,Net pay: period,3.0,One Year
+883998,NCDS58,basic_demographic,n9netp2,Net pay: period,4.0,Other period
+883999,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),-9.0,Refused/ other missing
+884000,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),-8.0,Not enough info to code
+884001,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),-1.0,Not applicable
+884002,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),1.0,(I) Professional
+884003,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),2.0,(II) Managerial-technical
+884004,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),3.1,(IIINM) Skilled non-manual
+884005,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),3.2,(IIIM) Skilled manual
+884006,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),4.0,(IV) Partly skilled
+884007,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),5.0,(V) Unskilled
+884008,NCDS58,basic_demographic,n9csc,Social class 1990  based on soc2010 (CM current job),6.0,Others
+884009,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),-1.0,"NA,NMH"
+884010,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),1.0,"Unemployed,sick"
+884011,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),2.0,I
+884012,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),3.0,II
+884013,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),4.0,III non-manual
+884014,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),5.0,III manual
+884015,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),6.0,IV
+884016,NCDS58,basic_demographic,n236,0P Social class of mother's husband (GRO 1951),7.0,V
+884017,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,-9.0,Refused
+884018,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,-8.0,Not enough info (feed forward issue)
+884019,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,-1.0,Not applicable
+884020,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,0.0,YES but error FFTENURE=1(Owned outright)
+884021,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,1.0,Own - outright
+884022,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,2.0,Own - buying with help of mortgage/loan
+884023,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,3.0,Part rent/part mortgage-shared/equity
+884024,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,4.0,Rent it
+884025,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,5.0,Rent-free inc rels/friend excl squattng
+884026,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,6.0,Squatting
+884027,NCDS58,basic_demographic,n9ten,Whether CM owns or rents home or some other arrangement,7.0,Other
+884028,NCDS58,basic_demographic,nd9hsize,(Derived) Number of persons in CM's household,,
+884029,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,-9.0,Refused
+884030,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,-8.0,Not enough information
+884031,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,-1.0,Not applicable
+884032,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,1.0,Full-time employment
+884033,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,2.0,Part-time employment
+884034,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,3.0,Full-time self-employment
+884035,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,4.0,Part-time self-employment
+884036,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,5.0,Unemployment
+884037,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,6.0,Full-time education
+884038,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,7.0,Govt scheme for employment training
+884039,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,8.0,Temporary sickness/disablity
+884040,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,9.0,Permanent sickness/disablity
+884041,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,10.0,Looking after the home/family
+884042,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,11.0,Retirement
+884043,NCDS58,basic_demographic,nd9ecact,(Derived) Current economic activity status,12.0,Other
+884044,NCDS58,basic_demographic,nd9partp,(Derived) Whether CM lives with a spouse or partner,-9.0,Refused
+884045,NCDS58,basic_demographic,nd9partp,(Derived) Whether CM lives with a spouse or partner,-8.0,No partner in hhgrid but partner job data
+884046,NCDS58,basic_demographic,nd9partp,(Derived) Whether CM lives with a spouse or partner,-1.0,No partner reported to be living with CM
+884047,NCDS58,basic_demographic,nd9partp,(Derived) Whether CM lives with a spouse or partner,1.0,Spouse
+884048,NCDS58,basic_demographic,nd9partp,(Derived) Whether CM lives with a spouse or partner,2.0,Civil partner
+884049,NCDS58,basic_demographic,nd9partp,(Derived) Whether CM lives with a spouse or partner,3.0,Cohabiting partner
+884050,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),-8.0,Not enough information
+884051,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),-1.0,not applicable
+884052,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),0.0,none
+884053,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),1.0,nvq1 level
+884054,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),2.0,nvq2 level
+884055,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),3.0,nvq3 level
+884056,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),4.0,nvq4 level
+884057,NCDS58,basic_demographic,nd9hnvq,(Derived) Highest NVQ Level frm Acad/Voc Qual to 2013(see var nd9hqflg),5.0,nvq5 level
+884058,NCDS58,basic_demographic,n2393,3P Mother-s social class,-1.0,"NA,Non Male Head,Armed forces"
+884059,NCDS58,basic_demographic,n2393,3P Mother-s social class,1.0,I - Professional
+884060,NCDS58,basic_demographic,n2393,3P Mother-s social class,2.0,II - Intermediate
+884061,NCDS58,basic_demographic,n2393,3P Mother-s social class,3.0,III(N) - Skilled non-manual
+884062,NCDS58,basic_demographic,n2393,3P Mother-s social class,4.0,III(M) - Skilled manual
+884063,NCDS58,basic_demographic,n2393,3P Mother-s social class,5.0,IV(N) -Semi Skilled non-manual
+884064,NCDS58,basic_demographic,n2393,3P Mother-s social class,6.0,IV(M) - Semi Skilled manual
+884065,NCDS58,basic_demographic,n2393,3P Mother-s social class,7.0,V - Unskilled
+884066,NCDS58,basic_demographic,n2393,3P Mother-s social class,8.0,Unclassifiable
+884067,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),-1.0,"NA,unclear"
+884068,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),1.0,I
+884069,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),2.0,II
+884070,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),3.0,III non manual
+884071,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),4.0,III manual
+884072,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),5.0,IV
+884073,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),6.0,V
+884074,NCDS58,basic_demographic,n1687,2PD Social class of father or male head (GRO 1966),7.0,No male head
+884075,NCDS58,basic_demographic,n9neta,Net pay: amount,-9.0,Refused
+884076,NCDS58,basic_demographic,n9neta,Net pay: amount,-8.0,Don't know
+884077,NCDS58,basic_demographic,n9neta,Net pay: amount,-1.0,Not applicable
+884078,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,-1.0,Not coded
+884079,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,1.0,Employers in large organisations
+884080,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,2.0,Higher managerial
+884081,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,3.1,Higher professionals (trad)- employees
+884082,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,3.2,Higher professionals (new) - employees
+884083,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,3.3,Higher profs (trad)- self-employed
+884084,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,3.4,Higher profs (new)- self-employed
+884085,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,4.1,Lower profs and hi tech(trad) employees
+884086,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,4.2,Lower profs and hi tech(new)- employees
+884087,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,4.3,Lower profs and hi tech(trad)- self-emp
+884088,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,4.4,Lower profs and hi tech (new)- self-emp
+884089,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,5.0,Lower managerial
+884090,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,6.0,Higher supervisory
+884091,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,7.1,Intermediate clerical and admin
+884092,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,7.2,Intermediate sales and service
+884093,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,7.3,Intermediate technical and auxiliary
+884094,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,7.4,Intermediate engineering
+884095,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,8.1,Employers in small orgs (non-prof)
+884096,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,8.2,Employers in small orgs (agriculture)
+884097,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,9.1,Own account workers (non-professional)
+884098,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,9.2,Own account workers (agriculture)
+884099,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,10.0,Lower supervisory
+884100,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,11.1,Lower technical craft
+884101,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,11.2,Lower technical process operative
+884102,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,12.1,Semi-routine sales
+884103,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,12.2,Semi-routine service
+884104,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,12.3,Semi-routine technical
+884105,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,12.4,Semi-routine operative
+884106,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,12.5,Semi-routine agriculture
+884107,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,12.6,Semi-routine clerical
+884108,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,12.7,Semi-routine childcare
+884109,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,13.1,Routine sales and service
+884110,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,13.2,Routine production
+884111,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,13.3,Routine technical
+884112,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,13.4,Routine operative
+884113,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,13.5,Routine agricultural
+884114,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,14.1,Never worked
+884115,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,14.2,Long-term unemployed
+884116,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,15.0,Full time students
+884117,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,16.0,Not known for reason other than student
+884118,NCDS58,basic_demographic,n2snssec,NCDS 1969 Father: NS-SEC social class code SEMI processing,17.0,Not known for other reason
+884119,NCDS58,basic_demographic,avail_from_dt,,,

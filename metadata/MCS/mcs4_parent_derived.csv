@@ -1,0 +1,503 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+827298,MCS,mcs4_parent_derived,study_id_e,,,
+827299,MCS,mcs4_parent_derived,pnum,Person Number for Main or (Proxy)Partner respondent,-1.0,Not applicable
+827300,MCS,mcs4_parent_derived,delig00,Eligibility for Interview,-1.0,Not applicable
+827301,MCS,mcs4_parent_derived,delig00,Eligibility for Interview,1.0,Main Interview
+827302,MCS,mcs4_parent_derived,delig00,Eligibility for Interview,2.0,Partner Interview
+827303,MCS,mcs4_parent_derived,delig00,Eligibility for Interview,3.0,Proxy Interview
+827304,MCS,mcs4_parent_derived,delig00,Eligibility for Interview,4.0,Not eligible
+827305,MCS,mcs4_parent_derived,dresp00,Response to Interview,-1.0,Not applicable
+827306,MCS,mcs4_parent_derived,dresp00,Response to Interview,1.0,Main Interview
+827307,MCS,mcs4_parent_derived,dresp00,Response to Interview,2.0,Partner Interview
+827308,MCS,mcs4_parent_derived,dresp00,Response to Interview,3.0,Proxy Interview
+827309,MCS,mcs4_parent_derived,dresp00,Response to Interview,4.0,No Interview
+827310,MCS,mcs4_parent_derived,dddsam00,DV Respondent same as at sweep 3,-1.0,Not applicable
+827311,MCS,mcs4_parent_derived,dddsam00,DV Respondent same as at sweep 3,1.0,Same respondent
+827312,MCS,mcs4_parent_derived,dddsam00,DV Respondent same as at sweep 3,2.0,Different respondent
+827313,MCS,mcs4_parent_derived,dddlst00,DV Respondent status at sweep 3,-1.0,Not applicable
+827314,MCS,mcs4_parent_derived,dddlst00,DV Respondent status at sweep 3,1.0,Main respondent
+827315,MCS,mcs4_parent_derived,dddlst00,DV Respondent status at sweep 3,2.0,Partner respondent
+827316,MCS,mcs4_parent_derived,dddlst00,DV Respondent status at sweep 3,3.0,Proxy partner respondent
+827317,MCS,mcs4_parent_derived,dddlst00,DV Respondent status at sweep 3,4.0,Neither Main or Partner
+827318,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,1.0,Natural mother: interviewed
+827319,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,2.0,Natural father: interviewed
+827320,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,3.0,Adoptive mother: interviewed
+827321,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,4.0,Adoptive father: interviewed
+827322,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,5.0,Foster mother: interviewed
+827323,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,6.0,Foster father: interviewed
+827324,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,7.0,Step mother/partner of father: interviewed
+827325,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,8.0,Step father/partner of mother: interviewed
+827326,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,9.0,Grandmother: interviewed
+827327,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,10.0,Grandfather: interviewed
+827328,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,11.0,Natural mother: by proxy
+827329,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,12.0,Natural father: by proxy
+827330,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,13.0,Step mother: by proxy
+827331,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,14.0,Step father: by proxy
+827332,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,15.0,Natural mother: not interviewed
+827333,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,16.0,Natural father: not interviewed
+827334,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,17.0,Adoptive mother: not interviewed
+827335,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,18.0,Adoptive father: not interviewed
+827336,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,19.0,Foster mother: not interviewed
+827337,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,20.0,Foster father: not interviewed
+827338,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,21.0,Step mother: not interviewed
+827339,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,22.0,Step father: not interviewed
+827340,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,23.0,"Natural mother: by proxy, not interviewed"
+827341,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,24.0,"Natural father: by proxy, not interviewed"
+827342,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,25.0,Other female non-relative: interviewed
+827343,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,26.0,Other male non-relative: interviewed
+827344,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,27.0,Other female non-relative: not interviewed
+827345,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,28.0,Other male non-relative: not interviewed
+827346,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,29.0,"Step mother: by proxy, not interviewed"
+827347,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,30.0,"Step father: by proxy, not interviewed"
+827348,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,31.0,Other female relative: interviewed
+827349,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,32.0,Other male relative: interviewed
+827350,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,33.0,"Female, unknown relationship: interviewed"
+827351,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,34.0,"Male, unknown relationship: interviewed"
+827352,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,35.0,"Step parent, unknown sex: interviewed"
+827353,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,36.0,"Step parent, unknown sex: not interviewed"
+827354,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,37.0,"Adoptive parent, sex unknown: interviewed"
+827355,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,38.0,"Adoptive parent, sex unknown: not interviewed"
+827356,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,39.0,Grandmother: not interviewed
+827357,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,40.0,Grandfather: not interviewed
+827358,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,41.0,"Female, unknown relationship: not interviewed"
+827359,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,42.0,"Male, unknown relationship: not interviewed"
+827360,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,43.0,Other female relative: not interviewed
+827361,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,44.0,Other male relative: not interviewed
+827362,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,45.0,"Natural parent, unknown sex: interviewed"
+827363,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,46.0,"Natural parent, unknown sex: not interviewed"
+827364,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,47.0,"Natural parent, unknown sex: by proxy"
+827365,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,48.0,Other male non-relative: by proxy
+827366,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,49.0,"Other non-relative, sex unknown: interviewed"
+827367,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,50.0,"Unknown relationship, unknown sex: by proxy"
+827368,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,51.0,Adoptive father: by proxy
+827369,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,52.0,Grandfather: by proxy
+827370,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,53.0,"Other male non-relative: by proxy, no proxy interview"
+827371,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,54.0,Other male relative: by proxy
+827372,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,55.0,Natural Sister: interviewed
+827373,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,56.0,Natural Brother: interviewed
+827374,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,57.0,Natural sister: not interviewed
+827375,MCS,mcs4_parent_derived,dddres00,DV Respondent identity and interview status,58.0,"Adoptive father: by proxy, no proxy interview"
+827376,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,1.0,Natural mother
+827377,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,2.0,Natural father
+827378,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,3.0,Natural parent (sex not known)
+827379,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,4.0,Adoptive mother
+827380,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,5.0,Adoptive father
+827381,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,6.0,Adoptive parent (sex not known)
+827382,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,7.0,Foster mother
+827383,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,8.0,Foster father
+827384,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,9.0,Foster parent (sex not known)
+827385,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,10.0,Step mother
+827386,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,11.0,Step father
+827387,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,12.0,Step parent (sex not known)
+827388,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,13.0,Grandmother
+827389,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,14.0,Grandfather
+827390,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,15.0,Grandparent (sex not known)
+827391,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,16.0,"Other, female"
+827392,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,17.0,"Other, male"
+827393,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,18.0,"Other, sex not known"
+827394,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,19.0,Natural Sister
+827395,MCS,mcs4_parent_derived,dddrel00,DV Respondent relationship to CM,20.0,Natural Brother
+827396,MCS,mcs4_parent_derived,dddagi00,Respondent Age at Interview,-3.0,Dob or Date of Interview Missing
+827397,MCS,mcs4_parent_derived,dddagi00,Respondent Age at Interview,-2.0,Not Known
+827398,MCS,mcs4_parent_derived,dddagi00,Respondent Age at Interview,-1.0,Not applicable
+827399,MCS,mcs4_parent_derived,dddgai00,DV Respondent Age at Interview (grouped),-3.0,Dob or Date of Interview Missing
+827400,MCS,mcs4_parent_derived,dddgai00,DV Respondent Age at Interview (grouped),-2.0,Not Known
+827401,MCS,mcs4_parent_derived,dddgai00,DV Respondent Age at Interview (grouped),-1.0,Not applicable
+827402,MCS,mcs4_parent_derived,dddgai00,DV Respondent Age at Interview (grouped),1.0,16 to 19
+827403,MCS,mcs4_parent_derived,dddgai00,DV Respondent Age at Interview (grouped),2.0,20 to 29
+827404,MCS,mcs4_parent_derived,dddgai00,DV Respondent Age at Interview (grouped),3.0,30 to 39
+827405,MCS,mcs4_parent_derived,dddgai00,DV Respondent Age at Interview (grouped),4.0,40 plus
+827406,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,-9.0,Refusal
+827407,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,-8.0,Don't know
+827408,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,-2.0,Not known
+827409,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,-1.0,Not applicable
+827410,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,1.0,White
+827411,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,2.0,Mixed
+827412,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,3.0,Indian
+827413,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,4.0,Pakistani and Bangladeshi
+827414,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,5.0,Black or Black British
+827415,MCS,mcs4_parent_derived,ddd06e00,DV Respondent's Ethnic Group - 6 category Census class,6.0,"Other Ethnic group (inc. Chinese,other"
+827416,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,-9.0,Refusal
+827417,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,-8.0,Don't know
+827418,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,-2.0,Not known
+827419,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,-1.0,Not applicable
+827420,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,1.0,White
+827421,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,2.0,Mixed
+827422,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,3.0,Indian
+827423,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,4.0,Pakistani
+827424,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,5.0,Bangladeshi
+827425,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,6.0,Other Asian
+827426,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,7.0,Black Caribbean
+827427,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,8.0,Black African
+827428,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,9.0,Other Black
+827429,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,10.0,Chinese
+827430,MCS,mcs4_parent_derived,ddd11e00,Respondent's Ethnic Group - 11 category Census,11.0,Other Ethnic Group
+827431,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,-9.0,Refusal
+827432,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,-8.0,Don't know
+827433,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,-2.0,Not known
+827434,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,-1.0,Not applicable
+827435,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,1.0,White
+827436,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,2.0,Mixed
+827437,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,3.0,Indian
+827438,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,4.0,Pakistani
+827439,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,5.0,Bangladeshi
+827440,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,6.0,Black Caribbean
+827441,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,7.0,Black African
+827442,MCS,mcs4_parent_derived,ddd08e00,Respondent's Ethnic Group - 8 category classification,8.0,"Other Ethnic group (inc Chinese,Other)"
+827443,MCS,mcs4_parent_derived,dddwrk00,DV Whether respondent is in work or not,-9.0,Refusal
+827444,MCS,mcs4_parent_derived,dddwrk00,DV Whether respondent is in work or not,-8.0,Don't Know
+827445,MCS,mcs4_parent_derived,dddwrk00,DV Whether respondent is in work or not,-2.0,Not known
+827446,MCS,mcs4_parent_derived,dddwrk00,DV Whether respondent is in work or not,-1.0,Not applicable
+827447,MCS,mcs4_parent_derived,dddwrk00,DV Whether respondent is in work or not,1.0,Respondent is in work or on leave
+827448,MCS,mcs4_parent_derived,dddwrk00,DV Whether respondent is in work or not,2.0,Respondent isnt in work  on leave
+827449,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),-9.0,Refusal
+827450,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),-8.0,Don't know
+827451,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),-1.0,Not applicable
+827452,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),1.0,NVQ level 1
+827453,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),2.0,NVQ level 2
+827454,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),3.0,NVQ level 3
+827455,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),4.0,NVQ level 4
+827456,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),5.0,NVQ level 5
+827457,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),95.0,Overseas qual only
+827458,MCS,mcs4_parent_derived,dddnvq00,DV Respondent NVQ Highest Level (all sweeps),96.0,None of these
+827459,MCS,mcs4_parent_derived,ddwgtk00,Weight of respondent in Kilos At interview,-8.0,Dont know / refused
+827460,MCS,mcs4_parent_derived,ddwgtk00,Weight of respondent in Kilos At interview,-2.0,No measurement Pregnant
+827461,MCS,mcs4_parent_derived,ddwgtk00,Weight of respondent in Kilos At interview,-1.0,Not applicable
+827462,MCS,mcs4_parent_derived,ddhgtm00,Height of respondent in Metres,-9.0,Refusal
+827463,MCS,mcs4_parent_derived,ddhgtm00,Height of respondent in Metres,-8.0,Dont Know / refused
+827464,MCS,mcs4_parent_derived,ddhgtm00,Height of respondent in Metres,-1.0,Not applicable
+827465,MCS,mcs4_parent_derived,dddbmi00,BMI of respondent at interview,-1.0,Not applicable
+827466,MCS,mcs4_parent_derived,dddbmi00,BMI of respondent at interview,-8.0,Dont Know / refused
+827467,MCS,mcs4_parent_derived,dddbmi00,BMI of respondent at interview,-2.0,No measurement Pregnant
+827468,MCS,mcs4_parent_derived,ddkessler,Kessler K6 Scale,-9.0,Refusal
+827469,MCS,mcs4_parent_derived,ddkessler,Kessler K6 Scale,-8.0,Don't Know
+827470,MCS,mcs4_parent_derived,ddkessler,Kessler K6 Scale,-1.0,Not applicable
+827471,MCS,mcs4_parent_derived,ddneurot,OCEAN - Neuroticism Sub Scale,-9.0,Refusal
+827472,MCS,mcs4_parent_derived,ddneurot,OCEAN - Neuroticism Sub Scale,-8.0,Don't Know
+827473,MCS,mcs4_parent_derived,ddneurot,OCEAN - Neuroticism Sub Scale,-1.0,Not applicable
+827474,MCS,mcs4_parent_derived,ddextrav,OCEAN - Extrovert Sub Scale,-9.0,Refusal
+827475,MCS,mcs4_parent_derived,ddextrav,OCEAN - Extrovert Sub Scale,-8.0,Don't Know
+827476,MCS,mcs4_parent_derived,ddextrav,OCEAN - Extrovert Sub Scale,-1.0,Not applicable
+827477,MCS,mcs4_parent_derived,ddocean,OCEAN - Neuroticism + Extrovert Score,-9.0,Refusal
+827478,MCS,mcs4_parent_derived,ddocean,OCEAN - Neuroticism + Extrovert Score,-8.0,Don't Know
+827479,MCS,mcs4_parent_derived,ddocean,OCEAN - Neuroticism + Extrovert Score,-1.0,Not applicable
+827480,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,-9.0,Refusal
+827481,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,-8.0,Don't know
+827482,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,-1.0,Not applicable
+827483,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,1.0,Christian
+827484,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,2.0,Muslim
+827485,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,3.0,Hindu
+827486,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,4.0,Sikh
+827487,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,5.0,Jewish
+827488,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,6.0,Buddhist
+827489,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,7.0,Other
+827490,MCS,mcs4_parent_derived,dddrlg00,DV Respondent: Religion - 7 category,8.0,None
+827491,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,-8.0,Don't know
+827492,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,-1.0,Not applicable
+827493,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,1.0,Employed
+827494,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,2.0,Self employed
+827495,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,3.0,Looking for work
+827496,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,4.0,Poor health
+827497,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,5.0,"New Deal, apprenticeship"
+827498,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,6.0,Student
+827499,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,7.0,Looking after the family
+827500,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,8.0,Waiting for a job to start
+827501,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,9.0,Non-working for other reason
+827502,MCS,mcs4_parent_derived,dddact00,DV Respondents Economic Activity Status,10.0,Retired
+827503,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),-8.0,Don't know
+827504,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),-1.0,Not applicable
+827505,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),1.0,Large emp
+827506,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),2.0,Hi manag
+827507,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),3.1,Hi prof trad
+827508,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),3.2,Hi prof new
+827509,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),3.3,Hi prof trad s-emp
+827510,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),3.4,Hi prof new s-emp
+827511,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),4.1,Lo prof trad
+827512,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),4.2,Lo prof new
+827513,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),4.3,Lo prof trad s-emp
+827514,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),4.4,Lo prof new s-emp
+827515,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),5.0,Lower managers
+827516,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),6.0,Hi supervisory
+827517,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),7.1,Intermed clerical
+827518,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),7.2,Intermed service
+827519,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),7.3,Intermed techncl
+827520,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),7.4,Intermed engineerng
+827521,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),8.1,Small emp indust'
+827522,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),8.2,Sm emp agric
+827523,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),9.1,S-emp non profl
+827524,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),9.2,S-emp agric
+827525,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),10.0,Lower supervisors
+827526,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),11.1,Lo tech craft
+827527,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),11.2,Lo tech operative
+827528,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),12.1,Semi-rou sales
+827529,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),12.2,Semi-rou service
+827530,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),12.3,Semi-rou techncl
+827531,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),12.4,Semi-rou operative
+827532,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),12.5,Semi-rou gric
+827533,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),12.6,Semi-rou clerical
+827534,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),12.7,Semi-rou childcare
+827535,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),13.1,Routine sales
+827536,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),13.2,Routine productn
+827537,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),13.3,Routine tech
+827538,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),13.4,Routine operative
+827539,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),13.5,Routine agric
+827540,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),14.1,Never worked
+827541,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),14.2,L-tunemp
+827542,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),15.0,F-t students
+827543,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),16.0,"Not stated, inad desc"
+827544,MCS,mcs4_parent_derived,ddd17s00,DV NS-SEC full version (current job),17.0,Unclassif other
+827545,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),-1.0,Not applicable
+827546,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),1.0,Large emp
+827547,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),2.0,Hi manag
+827548,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),3.0,Higher prof
+827549,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),4.0,Lo prof/hi tech
+827550,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),5.0,Lower managers
+827551,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),6.0,Hi supervisory
+827552,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),7.0,Intermediate
+827553,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),8.0,Small employers
+827554,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),9.0,Self-emp non profl
+827555,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),10.0,Lower supervisors
+827556,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),11.0,Lower technical
+827557,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),12.0,Semi-routine
+827558,MCS,mcs4_parent_derived,ddd13s00,DV NS-SEC major categories (current job),13.0,Routine
+827559,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),-1.0,Not applicable
+827560,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),1.0,Hi manag/prof
+827561,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),2.0,Lo manag/prof
+827562,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),3.0,Intermediate
+827563,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),4.0,Small emp and s-emp
+827564,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),5.0,Low sup and tech
+827565,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),6.0,Semi routine
+827566,MCS,mcs4_parent_derived,ddd07s00,DV NS-SEC 7 classes (current job),7.0,Routine
+827567,MCS,mcs4_parent_derived,ddd05s00,DV NS-SEC 5 classes (current job),-1.0,Not applicable
+827568,MCS,mcs4_parent_derived,ddd05s00,DV NS-SEC 5 classes (current job),1.0,Manag and profl
+827569,MCS,mcs4_parent_derived,ddd05s00,DV NS-SEC 5 classes (current job),2.0,Intermediate
+827570,MCS,mcs4_parent_derived,ddd05s00,DV NS-SEC 5 classes (current job),3.0,Sm emp and s-emp
+827571,MCS,mcs4_parent_derived,ddd05s00,DV NS-SEC 5 classes (current job),4.0,Lo sup and tech
+827572,MCS,mcs4_parent_derived,ddd05s00,DV NS-SEC 5 classes (current job),5.0,Semi-rou and routine
+827573,MCS,mcs4_parent_derived,ddnetinc,DV Net Income (NETA/USLA),,
+827574,MCS,mcs4_parent_derived,ddgrosinc,DV Gross Income (GROP),,
+827575,MCS,mcs4_parent_derived,ddsempinc,DV Self Employed Income (SEPA),,
+827576,MCS,mcs4_parent_derived,ddojinc,DV Other Jobs Income (EASE),,
+827577,MCS,mcs4_parent_derived,ddbeninc,DV Total Income from Benefits (BENA),,
+827578,MCS,mcs4_parent_derived,ddbeninca,DV Income from Benefit 1 (BENA),,
+827579,MCS,mcs4_parent_derived,ddbenincb,DV Income from Benefit 2 (BENA),,
+827580,MCS,mcs4_parent_derived,ddbenincc,DV Income from Benefit 3 (BENA),,
+827581,MCS,mcs4_parent_derived,ddbenincd,DV Income from Benefit 4 (BENA),,
+827582,MCS,mcs4_parent_derived,ddbenince,DV Income from Benefit 5 (BENA),,
+827583,MCS,mcs4_parent_derived,ddbenincf,DV Income from Benefit 6 (BENA),,
+827584,MCS,mcs4_parent_derived,ddbenincg,DV Income from Benefit 7 (BENA),,
+827585,MCS,mcs4_parent_derived,ddbeninch,DV Income from Benefit 8 (BENA),,
+827586,MCS,mcs4_parent_derived,ddbeninci,DV Income from Benefit 9 (BENA),,
+827587,MCS,mcs4_parent_derived,ddbenincj,DV Income from Benefit 10 (BENA),,
+827588,MCS,mcs4_parent_derived,ddbeninck,DV Income from Benefit 11 (BENA),,
+827589,MCS,mcs4_parent_derived,ddbenincl,DV Income from Benefit 12 (BENA),,
+827590,MCS,mcs4_parent_derived,ddbenincm,DV Income from Benefit 13 (BENA),,
+827591,MCS,mcs4_parent_derived,ddbenincn,DV Income from Benefit 14 (BENA),,
+827592,MCS,mcs4_parent_derived,ddbeninco,DV Income from Benefit 15 (BENA),,
+827593,MCS,mcs4_parent_derived,ddbenincp,DV Income from Benefit 16 (BENA),,
+827594,MCS,mcs4_parent_derived,ddbenincq,DV Income from Benefit 17 (BENA),,
+827595,MCS,mcs4_parent_derived,ddbenincr,DV Income from Benefit 18 (BENA),,
+827596,MCS,mcs4_parent_derived,ddbenincs,DV Income from Benefit 19 (BENA),,
+827597,MCS,mcs4_parent_derived,ddbeninct,DV Income from Benefit 20 (BENA),,
+827598,MCS,mcs4_parent_derived,ddbenincu,DV Income from Benefit 21 (BENA),,
+827599,MCS,mcs4_parent_derived,ddbenincv,DV Income from Benefit 22 (BENA),,
+827600,MCS,mcs4_parent_derived,ddcsupinc,DV Income from Child Support Payments (MANA),,
+827601,MCS,mcs4_parent_derived,ddoreginc,DV Other regular Income (REGA),,
+827602,MCS,mcs4_parent_derived,ddnetincf,DV Net Income (NETA/USLA) BRACKETS USED,0.0,No
+827603,MCS,mcs4_parent_derived,ddnetincf,DV Net Income (NETA/USLA) BRACKETS USED,1.0,Yes
+827604,MCS,mcs4_parent_derived,ddnetincf,DV Net Income (NETA/USLA) BRACKETS USED,2.0,"No, incomplete bracket"
+827605,MCS,mcs4_parent_derived,ddgrosincf,DV Gross Income (GROP) BRACKETS USED,0.0,No
+827606,MCS,mcs4_parent_derived,ddgrosincf,DV Gross Income (GROP) BRACKETS USED,1.0,Yes
+827607,MCS,mcs4_parent_derived,ddgrosincf,DV Gross Income (GROP) BRACKETS USED,2.0,"No, incomplete bracket"
+827608,MCS,mcs4_parent_derived,ddsempincf,DV Self Employed Income (SEPA) BRACKETS USED,0.0,No
+827609,MCS,mcs4_parent_derived,ddsempincf,DV Self Employed Income (SEPA) BRACKETS USED,1.0,Yes
+827610,MCS,mcs4_parent_derived,ddsempincf,DV Self Employed Income (SEPA) BRACKETS USED,2.0,"No, incomplete bracket"
+827611,MCS,mcs4_parent_derived,ddojincf,DV Other Jobs Income (EASE) BRACKETS USED,0.0,No
+827612,MCS,mcs4_parent_derived,ddojincf,DV Other Jobs Income (EASE) BRACKETS USED,1.0,Yes
+827613,MCS,mcs4_parent_derived,ddojincf,DV Other Jobs Income (EASE) BRACKETS USED,2.0,"No, incomplete bracket"
+827614,MCS,mcs4_parent_derived,ddbenincft,DV Total Income from Benefits (BENA) BRACKETS USED,0.0,No
+827615,MCS,mcs4_parent_derived,ddbenincft,DV Total Income from Benefits (BENA) BRACKETS USED,1.0,Yes
+827616,MCS,mcs4_parent_derived,ddbenincft,DV Total Income from Benefits (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827617,MCS,mcs4_parent_derived,ddbenincaf,DV Income from Benefit 1 (BENA) BRACKETS USED,0.0,No
+827618,MCS,mcs4_parent_derived,ddbenincaf,DV Income from Benefit 1 (BENA) BRACKETS USED,1.0,Yes
+827619,MCS,mcs4_parent_derived,ddbenincaf,DV Income from Benefit 1 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827620,MCS,mcs4_parent_derived,ddbenincbf,DV Income from Benefit 2 (BENA) BRACKETS USED,0.0,No
+827621,MCS,mcs4_parent_derived,ddbenincbf,DV Income from Benefit 2 (BENA) BRACKETS USED,1.0,Yes
+827622,MCS,mcs4_parent_derived,ddbenincbf,DV Income from Benefit 2 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827623,MCS,mcs4_parent_derived,ddbeninccf,DV Income from Benefit 3 (BENA) BRACKETS USED,0.0,No
+827624,MCS,mcs4_parent_derived,ddbeninccf,DV Income from Benefit 3 (BENA) BRACKETS USED,1.0,Yes
+827625,MCS,mcs4_parent_derived,ddbeninccf,DV Income from Benefit 3 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827626,MCS,mcs4_parent_derived,ddbenincdf,DV Income from Benefit 4 (BENA) BRACKETS USED,0.0,No
+827627,MCS,mcs4_parent_derived,ddbenincdf,DV Income from Benefit 4 (BENA) BRACKETS USED,1.0,Yes
+827628,MCS,mcs4_parent_derived,ddbenincdf,DV Income from Benefit 4 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827629,MCS,mcs4_parent_derived,ddbenincef,DV Income from Benefit 5 (BENA) BRACKETS USED,0.0,No
+827630,MCS,mcs4_parent_derived,ddbenincef,DV Income from Benefit 5 (BENA) BRACKETS USED,1.0,Yes
+827631,MCS,mcs4_parent_derived,ddbenincef,DV Income from Benefit 5 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827632,MCS,mcs4_parent_derived,ddbenincff,DV Income from Benefit 6 (BENA) BRACKETS USED,0.0,No
+827633,MCS,mcs4_parent_derived,ddbenincff,DV Income from Benefit 6 (BENA) BRACKETS USED,1.0,Yes
+827634,MCS,mcs4_parent_derived,ddbenincff,DV Income from Benefit 6 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827635,MCS,mcs4_parent_derived,ddbenincgf,DV Income from Benefit 7 (BENA) BRACKETS USED,0.0,No
+827636,MCS,mcs4_parent_derived,ddbenincgf,DV Income from Benefit 7 (BENA) BRACKETS USED,1.0,Yes
+827637,MCS,mcs4_parent_derived,ddbenincgf,DV Income from Benefit 7 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827638,MCS,mcs4_parent_derived,ddbeninchf,DV Income from Benefit 8 (BENA) BRACKETS USED,0.0,No
+827639,MCS,mcs4_parent_derived,ddbeninchf,DV Income from Benefit 8 (BENA) BRACKETS USED,1.0,Yes
+827640,MCS,mcs4_parent_derived,ddbeninchf,DV Income from Benefit 8 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827641,MCS,mcs4_parent_derived,ddbenincif,DV Income from Benefit 9 (BENA) BRACKETS USED,0.0,No
+827642,MCS,mcs4_parent_derived,ddbenincif,DV Income from Benefit 9 (BENA) BRACKETS USED,1.0,Yes
+827643,MCS,mcs4_parent_derived,ddbenincif,DV Income from Benefit 9 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827644,MCS,mcs4_parent_derived,ddbenincjf,DV Income from Benefit 10 (BENA) BRACKETS USED,0.0,No
+827645,MCS,mcs4_parent_derived,ddbenincjf,DV Income from Benefit 10 (BENA) BRACKETS USED,1.0,Yes
+827646,MCS,mcs4_parent_derived,ddbenincjf,DV Income from Benefit 10 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827647,MCS,mcs4_parent_derived,ddbeninckf,DV Income from Benefit 11 (BENA) BRACKETS USED,0.0,No
+827648,MCS,mcs4_parent_derived,ddbeninckf,DV Income from Benefit 11 (BENA) BRACKETS USED,1.0,Yes
+827649,MCS,mcs4_parent_derived,ddbeninckf,DV Income from Benefit 11 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827650,MCS,mcs4_parent_derived,ddbeninclf,DV Income from Benefit 12 (BENA) BRACKETS USED,0.0,No
+827651,MCS,mcs4_parent_derived,ddbeninclf,DV Income from Benefit 12 (BENA) BRACKETS USED,1.0,Yes
+827652,MCS,mcs4_parent_derived,ddbeninclf,DV Income from Benefit 12 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827653,MCS,mcs4_parent_derived,ddbenincmf,DV Income from Benefit 13 (BENA) BRACKETS USED,0.0,No
+827654,MCS,mcs4_parent_derived,ddbenincmf,DV Income from Benefit 13 (BENA) BRACKETS USED,1.0,Yes
+827655,MCS,mcs4_parent_derived,ddbenincmf,DV Income from Benefit 13 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827656,MCS,mcs4_parent_derived,ddbenincnf,DV Income from Benefit 14 (BENA) BRACKETS USED,0.0,No
+827657,MCS,mcs4_parent_derived,ddbenincnf,DV Income from Benefit 14 (BENA) BRACKETS USED,1.0,Yes
+827658,MCS,mcs4_parent_derived,ddbenincnf,DV Income from Benefit 14 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827659,MCS,mcs4_parent_derived,ddbenincof,DV Income from Benefit 15 (BENA) BRACKETS USED,0.0,No
+827660,MCS,mcs4_parent_derived,ddbenincof,DV Income from Benefit 15 (BENA) BRACKETS USED,1.0,Yes
+827661,MCS,mcs4_parent_derived,ddbenincof,DV Income from Benefit 15 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827662,MCS,mcs4_parent_derived,ddbenincpf,DV Income from Benefit 16 (BENA) BRACKETS USED,0.0,No
+827663,MCS,mcs4_parent_derived,ddbenincpf,DV Income from Benefit 16 (BENA) BRACKETS USED,1.0,Yes
+827664,MCS,mcs4_parent_derived,ddbenincpf,DV Income from Benefit 16 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827665,MCS,mcs4_parent_derived,ddbenincqf,DV Income from Benefit 17 (BENA) BRACKETS USED,0.0,No
+827666,MCS,mcs4_parent_derived,ddbenincqf,DV Income from Benefit 17 (BENA) BRACKETS USED,1.0,Yes
+827667,MCS,mcs4_parent_derived,ddbenincqf,DV Income from Benefit 17 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827668,MCS,mcs4_parent_derived,ddbenincrf,DV Income from Benefit 18 (BENA) BRACKETS USED,0.0,No
+827669,MCS,mcs4_parent_derived,ddbenincrf,DV Income from Benefit 18 (BENA) BRACKETS USED,1.0,Yes
+827670,MCS,mcs4_parent_derived,ddbenincrf,DV Income from Benefit 18 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827671,MCS,mcs4_parent_derived,ddbenincsf,DV Income from Benefit 19 (BENA) BRACKETS USED,0.0,No
+827672,MCS,mcs4_parent_derived,ddbenincsf,DV Income from Benefit 19 (BENA) BRACKETS USED,1.0,Yes
+827673,MCS,mcs4_parent_derived,ddbenincsf,DV Income from Benefit 19 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827674,MCS,mcs4_parent_derived,ddbeninctf,DV Income from Benefit 20 (BENA) BRACKETS USED,0.0,No
+827675,MCS,mcs4_parent_derived,ddbeninctf,DV Income from Benefit 20 (BENA) BRACKETS USED,1.0,Yes
+827676,MCS,mcs4_parent_derived,ddbeninctf,DV Income from Benefit 20 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827677,MCS,mcs4_parent_derived,ddbenincuf,DV Income from Benefit 21 (BENA) BRACKETS USED,0.0,No
+827678,MCS,mcs4_parent_derived,ddbenincuf,DV Income from Benefit 21 (BENA) BRACKETS USED,1.0,Yes
+827679,MCS,mcs4_parent_derived,ddbenincuf,DV Income from Benefit 21 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827680,MCS,mcs4_parent_derived,ddbenincvf,DV Income from Benefit 22 (BENA) BRACKETS USED,0.0,No
+827681,MCS,mcs4_parent_derived,ddbenincvf,DV Income from Benefit 22 (BENA) BRACKETS USED,1.0,Yes
+827682,MCS,mcs4_parent_derived,ddbenincvf,DV Income from Benefit 22 (BENA) BRACKETS USED,2.0,"No, incomplete bracket"
+827683,MCS,mcs4_parent_derived,ddcsupincf,DV Income from Child Support Payments (MANA) BRACKETS USED,0.0,No
+827684,MCS,mcs4_parent_derived,ddcsupincf,DV Income from Child Support Payments (MANA) BRACKETS USED,1.0,Yes
+827685,MCS,mcs4_parent_derived,ddcsupincf,DV Income from Child Support Payments (MANA) BRACKETS USED,2.0,"No, incomplete bracket"
+827686,MCS,mcs4_parent_derived,ddoregincf,DV Other regular Income (REGA) BRACKETS USED,0.0,No
+827687,MCS,mcs4_parent_derived,ddoregincf,DV Other regular Income (REGA) BRACKETS USED,1.0,Yes
+827688,MCS,mcs4_parent_derived,ddoregincf,DV Other regular Income (REGA) BRACKETS USED,2.0,"No, incomplete bracket"
+827689,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),-8.0,Don't know
+827690,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),-1.0,Not applicable
+827691,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),1.0,Large emp
+827692,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),2.0,Hi manag
+827693,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),3.1,Hi prof trad
+827694,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),3.2,Hi prof new
+827695,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),3.3,Hi prof trad s-emp
+827696,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),3.4,Hi prof new s-emp
+827697,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),4.1,Lo prof trad
+827698,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),4.2,Lo prof new
+827699,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),4.3,Lo prof trad s-emp
+827700,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),4.4,Lo prof new s-emp
+827701,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),5.0,Lower managers
+827702,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),6.0,Hi supervisory
+827703,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),7.1,Intermed clerical
+827704,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),7.2,Intermed service
+827705,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),7.3,Intermed techncl
+827706,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),7.4,Intermed engineerng
+827707,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),8.1,Small emp indust'
+827708,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),8.2,Sm emp agric
+827709,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),9.1,S-emp non profl
+827710,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),9.2,S-emp agric
+827711,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),10.0,Lower supervisors
+827712,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),11.1,Lo tech craft
+827713,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),11.2,Lo tech operative
+827714,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),12.1,Semi-rou sales
+827715,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),12.2,Semi-rou service
+827716,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),12.3,Semi-rou techncl
+827717,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),12.4,Semi-rou operative
+827718,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),12.5,Semi-rou gric
+827719,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),12.6,Semi-rou clerical
+827720,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),12.7,Semi-rou childcare
+827721,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),13.1,Routine sales
+827722,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),13.2,Routine productn
+827723,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),13.3,Routine tech
+827724,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),13.4,Routine operative
+827725,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),13.5,Routine agric
+827726,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),14.1,Never worked
+827727,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),14.2,L-tunemp
+827728,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),15.0,F-t students
+827729,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),16.0,"Not stated, inad desc"
+827730,MCS,mcs4_parent_derived,ddd17c00,DV NS-SEC full version (last known job),17.0,Unclassif other
+827731,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),-1.0,Not applicable
+827732,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),1.0,Large emp
+827733,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),2.0,Hi manag
+827734,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),3.0,Higher prof
+827735,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),4.0,Lo prof/hi tech
+827736,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),5.0,Lower managers
+827737,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),6.0,Hi supervisory
+827738,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),7.0,Intermediate
+827739,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),8.0,Small employers
+827740,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),9.0,Self-emp non profl
+827741,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),10.0,Lower supervisors
+827742,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),11.0,Lower technical
+827743,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),12.0,Semi-routine
+827744,MCS,mcs4_parent_derived,ddd13c00,DV NS-SEC major categories (last known job),13.0,Routine
+827745,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),-1.0,Not applicable
+827746,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),1.0,Hi manag/prof
+827747,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),2.0,Lo manag/prof
+827748,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),3.0,Intermediate
+827749,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),4.0,Small emp and s-emp
+827750,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),5.0,Low sup and tech
+827751,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),6.0,Semi routine
+827752,MCS,mcs4_parent_derived,ddd07c00,DV NS-SEC 7 classes (last known job),7.0,Routine
+827753,MCS,mcs4_parent_derived,ddd05c00,DV NS-SEC 5 classes (last known job),-1.0,Not applicable
+827754,MCS,mcs4_parent_derived,ddd05c00,DV NS-SEC 5 classes (last known job),1.0,Manag and profl
+827755,MCS,mcs4_parent_derived,ddd05c00,DV NS-SEC 5 classes (last known job),2.0,Intermediate
+827756,MCS,mcs4_parent_derived,ddd05c00,DV NS-SEC 5 classes (last known job),3.0,Sm emp and s-emp
+827757,MCS,mcs4_parent_derived,ddd05c00,DV NS-SEC 5 classes (last known job),4.0,Lo sup and tech
+827758,MCS,mcs4_parent_derived,ddd05c00,DV NS-SEC 5 classes (last known job),5.0,Semi-rou and routine
+827759,MCS,mcs4_parent_derived,ddtran00,S4 Was Interview translated,-9.0,Refusal
+827760,MCS,mcs4_parent_derived,ddtran00,S4 Was Interview translated,-8.0,Don't Know
+827761,MCS,mcs4_parent_derived,ddtran00,S4 Was Interview translated,-1.0,Not applicable
+827762,MCS,mcs4_parent_derived,ddtran00,S4 Was Interview translated,1.0,"Yes, Main interview"
+827763,MCS,mcs4_parent_derived,ddtran00,S4 Was Interview translated,2.0,"Yes, Partner interview"
+827764,MCS,mcs4_parent_derived,ddtran00,S4 Was Interview translated,3.0,"Yes, BOTH Main and Partner interviews"
+827765,MCS,mcs4_parent_derived,ddtran00,S4 Was Interview translated,4.0,No
+827766,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],8.0,Sylheti
+827767,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],10.0,Somali
+827768,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],11.0,Tamil
+827769,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],12.0,Turkish
+827770,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],13.0,Kurdish
+827771,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],14.0,Arabic
+827772,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],51.0,Other European language
+827773,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],52.0,Other African language
+827774,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],53.0,Other Asian language
+827775,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],85.0,Other specific answer
+827776,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],86.0,Vague / irrelevant answer
+827777,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],100.0,Recoded due to low counts - check SA
+827778,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],-8.0,Don't Know
+827779,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],-1.0,Not applicable
+827780,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],1.0,Welsh
+827781,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],3.0,Urdu
+827782,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],4.0,Punjabi
+827783,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],5.0,Gujarati
+827784,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],6.0,Hindi
+827785,MCS,mcs4_parent_derived,ddlanp00_r30,S4 Which language was it translated in   [counts less than 30 recoded],7.0,Bengali
+827786,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,-9.0,Refusal
+827787,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,-8.0,Don't Know
+827788,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,-1.0,Not applicable
+827789,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,1.0,Respondent s husband/ wife/ partner
+827790,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,2.0,Female adult household member
+827791,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,3.0,Male adult household member
+827792,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,4.0,Female child in household
+827793,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,5.0,Male child in household
+827794,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,6.0,Female non-household member
+827795,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,7.0,Male non-household member
+827796,MCS,mcs4_parent_derived,ddptra00,S4 Who translated the interview,8.0,Interviewer
+827797,MCS,mcs4_parent_derived,ddacaq00,NVQ equivalent of highest Academic qualification across MCS1 to MCS4,-1.0,Not applicable
+827798,MCS,mcs4_parent_derived,avail_from_dt,,,
+827799,MCS,mcs4_parent_derived,mcs_llc_fid_e,Encrypted Family/Household anonymised ID for LLC,,

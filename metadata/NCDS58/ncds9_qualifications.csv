@@ -1,0 +1,123 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1043496,NCDS58,ncds9_qualifications,study_id_e,,,
+1043497,NCDS58,ncds9_qualifications,n9qualid,sortkey:qualifications record index,,
+1043498,NCDS58,ncds9_qualifications,n9whquid,Index number within qualification,,
+1043499,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,-1.0,Not applicable
+1043500,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,1.0,GCSE1
+1043501,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,2.0,GCSE2
+1043502,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,3.0,AS LEVELS 1
+1043503,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,4.0,AS LEVELS 2
+1043504,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,5.0,A LEVELS 1
+1043505,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,6.0,A LEVELS 2
+1043506,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,7.0,DEGREE
+1043507,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,8.0,DEGREE LEVEL QUALIFICATIONS
+1043508,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,9.0,HIGHER DEGREE
+1043509,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,10.0,NURSING QUALIFICATIONS
+1043510,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,11.0,TEACHING QUALIFICATIONS
+1043511,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,12.0,BTEC
+1043512,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,13.0,CITY
+1043513,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,14.0,RSA
+1043514,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,15.0,PITMAN
+1043515,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,16.0,NVQ
+1043516,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,17.0,GNVQ
+1043517,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,18.0,ONC
+1043518,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,19.0,HNC
+1043519,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,20.0,APPRENTICESHIPS
+1043520,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,21.0,OTHER VOCATIONAL QUALIFICATIONS
+1043521,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,22.0,ACCESS3
+1043522,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,23.0,STANDARD GRADE
+1043523,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,24.0,INTERMEDIATE 1
+1043524,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,25.0,INTERMEDIATE 2
+1043525,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,26.0,HIGHER
+1043526,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,27.0,ADVANCED HIGHER
+1043527,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,28.0,CERTIFICATE OF 6TH YEAR STUDIES
+1043528,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,29.0,DIPLOMA OF HIGHER EDUCATION
+1043529,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,30.0,PGCE
+1043530,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,31.0,HGV LICENCE
+1043531,NCDS58,ncds9_qualifications,n9qualtp,Type of qualification,32.0,PSV LICENCE
+1043532,NCDS58,ncds9_qualifications,n9ewh,Year obtained qualification,-9.0,Refused/no response
+1043533,NCDS58,ncds9_qualifications,n9ewh,Year obtained qualification,-8.0,Don't know
+1043534,NCDS58,ncds9_qualifications,n9ewh,Year obtained qualification,-1.0,Not applicable
+1043535,NCDS58,ncds9_qualifications,n9efp,Whether studied full or part time,-9.0,Refused/no response
+1043536,NCDS58,ncds9_qualifications,n9efp,Whether studied full or part time,-8.0,Don't know
+1043537,NCDS58,ncds9_qualifications,n9efp,Whether studied full or part time,-1.0,Not applicable
+1043538,NCDS58,ncds9_qualifications,n9efp,Whether studied full or part time,1.0,Full-time
+1043539,NCDS58,ncds9_qualifications,n9efp,Whether studied full or part time,2.0,Part-time
+1043540,NCDS58,ncds9_qualifications,n9efe,Who paid fees for course,-9.0,Refused/no response
+1043541,NCDS58,ncds9_qualifications,n9efe,Who paid fees for course,-8.0,Don't know
+1043542,NCDS58,ncds9_qualifications,n9efe,Who paid fees for course,-1.0,Not applicable
+1043543,NCDS58,ncds9_qualifications,n9efe,Who paid fees for course,1.0,CM's employer
+1043544,NCDS58,ncds9_qualifications,n9efe,Who paid fees for course,2.0,"CM, family member or relative"
+1043545,NCDS58,ncds9_qualifications,n9efe,Who paid fees for course,3.0,Someone else
+1043546,NCDS58,ncds9_qualifications,n9efe,Who paid fees for course,4.0,No fees for course
+1043547,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,-9.0,Refused
+1043548,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,-8.0,Don't know
+1043549,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,-1.0,Not applicable
+1043550,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,1.0,First
+1043551,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,2.0,Upper second [2:1]
+1043552,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,3.0,Lower second [2:2]
+1043553,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,4.0,Third
+1043554,NCDS58,ncds9_qualifications,n9edeggr,Degree grade,5.0,Pass
+1043555,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,-9.0,Refused
+1043556,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,-8.0,Don't know
+1043557,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,-1.0,Not applicable
+1043558,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,1.0,First / General certificate
+1043559,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,2.0,First / General Diploma
+1043560,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,3.0,National certificate diploma
+1043561,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,4.0,Higher certificate diploma
+1043562,NCDS58,ncds9_qualifications,n9bteclv,Level of BTEC Qualification,5.0,Other BTEC qualification
+1043563,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,-9.0,Refused
+1043564,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,-8.0,Don't know
+1043565,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,-1.0,Not applicable
+1043566,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,1.0,Part1
+1043567,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,2.0,Part2/Craft/Intermediate
+1043568,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,3.0,Part3/Final/Advanced Craft
+1043569,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,4.0,Part4/Career ext/Full technologicl cert
+1043570,NCDS58,ncds9_qualifications,n9citylv,Level of City and Guilds Qualification,5.0,Other C & G qualification
+1043571,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,-9.0,Refused
+1043572,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,-8.0,Don't know
+1043573,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,-1.0,Not applicable
+1043574,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,1.0,Certificate
+1043575,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,2.0,First Diploma
+1043576,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,3.0,Advanced diploma or certificate
+1043577,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,4.0,Higher diploma
+1043578,NCDS58,ncds9_qualifications,n9rsalv,Level of RSA Qualification,5.0,Other RSA qualification
+1043579,NCDS58,ncds9_qualifications,n9pitlv,Level of Pitman Qualification,-9.0,Refused
+1043580,NCDS58,ncds9_qualifications,n9pitlv,Level of Pitman Qualification,-8.0,Don't know
+1043581,NCDS58,ncds9_qualifications,n9pitlv,Level of Pitman Qualification,-1.0,Not applicable
+1043582,NCDS58,ncds9_qualifications,n9pitlv,Level of Pitman Qualification,1.0,Level 1
+1043583,NCDS58,ncds9_qualifications,n9pitlv,Level of Pitman Qualification,2.0,Level 2
+1043584,NCDS58,ncds9_qualifications,n9pitlv,Level of Pitman Qualification,3.0,Level 3
+1043585,NCDS58,ncds9_qualifications,n9pitlv,Level of Pitman Qualification,4.0,Other Pitman qualification
+1043586,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,-9.0,Refused
+1043587,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,-8.0,Don't know
+1043588,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,-1.0,Not applicable
+1043589,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,1.0,Level 1
+1043590,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,2.0,Level 2
+1043591,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,3.0,Level 3
+1043592,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,4.0,Level 4
+1043593,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,5.0,Level 5
+1043594,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,6.0,Level 6
+1043595,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,7.0,Trusts towards NVQ/SVQ
+1043596,NCDS58,ncds9_qualifications,n9nvqlv,Level of NVQ Qualification,8.0,Other NVQ
+1043597,NCDS58,ncds9_qualifications,n9gnvqlv,Level of GNVQ Qualification,-9.0,Refused
+1043598,NCDS58,ncds9_qualifications,n9gnvqlv,Level of GNVQ Qualification,-8.0,Don't know
+1043599,NCDS58,ncds9_qualifications,n9gnvqlv,Level of GNVQ Qualification,-1.0,Not applicable
+1043600,NCDS58,ncds9_qualifications,n9gnvqlv,Level of GNVQ Qualification,1.0,Foundation
+1043601,NCDS58,ncds9_qualifications,n9gnvqlv,Level of GNVQ Qualification,2.0,Intermediate
+1043602,NCDS58,ncds9_qualifications,n9gnvqlv,Level of GNVQ Qualification,3.0,Advanced
+1043603,NCDS58,ncds9_qualifications,n9gnvqlv,Level of GNVQ Qualification,4.0,Other GNVQ qualification
+1043604,NCDS58,ncds9_qualifications,n9onclv,Level of ONC Qualification,-9.0,Refused
+1043605,NCDS58,ncds9_qualifications,n9onclv,Level of ONC Qualification,-8.0,Don't know
+1043606,NCDS58,ncds9_qualifications,n9onclv,Level of ONC Qualification,-1.0,Not applicable
+1043607,NCDS58,ncds9_qualifications,n9onclv,Level of ONC Qualification,1.0,Pass
+1043608,NCDS58,ncds9_qualifications,n9onclv,Level of ONC Qualification,2.0,Merit
+1043609,NCDS58,ncds9_qualifications,n9onclv,Level of ONC Qualification,3.0,Distinction
+1043610,NCDS58,ncds9_qualifications,n9hnclv,Level of HNC Qualification,-9.0,Refused
+1043611,NCDS58,ncds9_qualifications,n9hnclv,Level of HNC Qualification,-8.0,Don't know
+1043612,NCDS58,ncds9_qualifications,n9hnclv,Level of HNC Qualification,-1.0,Not applicable
+1043613,NCDS58,ncds9_qualifications,n9hnclv,Level of HNC Qualification,1.0,Pass
+1043614,NCDS58,ncds9_qualifications,n9hnclv,Level of HNC Qualification,2.0,Merit
+1043615,NCDS58,ncds9_qualifications,n9hnclv,Level of HNC Qualification,3.0,Distinction
+1043616,NCDS58,ncds9_qualifications,v3,None,,
+1043617,NCDS58,ncds9_qualifications,avail_from_dt,,,

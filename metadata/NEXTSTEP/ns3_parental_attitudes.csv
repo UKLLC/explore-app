@@ -1,0 +1,446 @@
+,Source,Block Name,Variable Name,Variable Description,Value,Value Description
+1121101,NEXTSTEP,ns3_parental_attitudes,study_id_e,,,
+1121102,NEXTSTEP,ns3_parental_attitudes,samppsu,Sampling: School (primary sampling unit),,
+1121103,NEXTSTEP,ns3_parental_attitudes,sampstratum,Sampling: Stratum,,
+1121104,NEXTSTEP,ns3_parental_attitudes,w2tow3nrwt,Weight: Non-response weight from Wave 2 to Wave 3,,
+1121105,NEXTSTEP,ns3_parental_attitudes,w3finwt,Weight: W3 final weight (w2 final weight * w3 non-response weight),,
+1121106,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,-999.0,HH grid missing
+1121107,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,-997.0,Script error
+1121108,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,-99.0,
+1121109,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,-92.0,Refused
+1121110,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,-91.0,Not applicable
+1121111,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,1.0,Person 1
+1121112,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,2.0,Person 2
+1121113,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,3.0,Person 3
+1121114,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,4.0,Person 4
+1121115,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,5.0,Person 5
+1121116,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,6.0,Person 6
+1121117,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,7.0,Person 7
+1121118,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,8.0,Person 8
+1121119,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,9.0,Person 9
+1121120,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,10.0,Person 10
+1121121,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,11.0,Person 11
+1121122,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,12.0,Person 12
+1121123,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,13.0,Person 13
+1121124,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,14.0,Person 14
+1121125,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,15.0,Person 15
+1121126,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,16.0,Person 16
+1121127,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,17.0,Person 17
+1121128,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,18.0,Person 18
+1121129,NEXTSTEP,ns3_parental_attitudes,w3mainres,HH: Main parent position,19.0,Non household member
+1121130,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,-999.0,HH grid missing
+1121131,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,-997.0,script error
+1121132,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,-99.0,
+1121133,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,-98.0,No SP present
+1121134,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,-92.0,Refused
+1121135,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,-91.0,Not applicable
+1121136,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,1.0,Person 1
+1121137,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,2.0,Person 2
+1121138,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,3.0,Person 3
+1121139,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,4.0,Person 4
+1121140,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,5.0,Person 5
+1121141,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,6.0,Person 6
+1121142,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,7.0,Person 7
+1121143,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,8.0,Person 8
+1121144,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,9.0,Person 9
+1121145,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,10.0,Person 10
+1121146,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,11.0,Person 11
+1121147,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,12.0,Person 12
+1121148,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,13.0,Person 13
+1121149,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,14.0,Person 14
+1121150,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,15.0,Person 15
+1121151,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,16.0,Person 16
+1121152,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,17.0,Person 17
+1121153,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,18.0,Person 18
+1121154,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,19.0,Non household member
+1121155,NEXTSTEP,ns3_parental_attitudes,w3secores,HH: Second parent position,20.0,No answer
+1121156,NEXTSTEP,ns3_parental_attitudes,w3intmnthmp,MP- month of interview,-99.0,MP not interviewed
+1121157,NEXTSTEP,ns3_parental_attitudes,w3intyearmp,MP- year of interview,-99.0,MP not interviewed
+1121158,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-99.0,MP not interviewed
+1121159,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-92.0,Refused
+1121160,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-91.0,Not applicable
+1121161,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,-1.0,Don't know
+1121162,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,1.0,Yes - respondent and partner/ husband/ wife have gone
+1121163,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,2.0,Yes - respondent went alone
+1121164,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,3.0,Yes - respondent's partner/ husband/ wife went alone
+1121165,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,4.0,Yes - Respondent and EX-partner/husband/wife have gone
+1121166,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,5.0,Yes - Respondent's EX-partner/husband/wife went alone
+1121167,NEXTSTEP,ns3_parental_attitudes,w3parevemp,MP: Whether self or partner have been to any parents' evenings or similar events at school,6.0,No - nobody has been
+1121168,NEXTSTEP,ns3_parental_attitudes,w3tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-99.0,MP not interviewed
+1121169,NEXTSTEP,ns3_parental_attitudes,w3tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-92.0,Refused
+1121170,NEXTSTEP,ns3_parental_attitudes,w3tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-91.0,Not applicable
+1121171,NEXTSTEP,ns3_parental_attitudes,w3tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,-1.0,Don't know
+1121172,NEXTSTEP,ns3_parental_attitudes,w3tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,1.0,Yes
+1121173,NEXTSTEP,ns3_parental_attitudes,w3tmeetfmp,MP: Whether had any specially arranged meetings with teachers about YP's schooling,2.0,No
+1121174,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,-99.0,MP not interviewed
+1121175,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,-92.0,Refused
+1121176,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,-91.0,Not applicable
+1121177,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,-1.0,Don't know
+1121178,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,1.0,At least once a week
+1121179,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,2.0,Every two or three weeks
+1121180,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,3.0,At least once a term
+1121181,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,4.0,Less often than once a term
+1121182,NEXTSTEP,ns3_parental_attitudes,w3tspeakmp,MP: How often speak to YP's teachers about schooling,5.0,Never
+1121183,NEXTSTEP,ns3_parental_attitudes,w3tspeak2mp,MP: Whether talked to teachers about what YP might do after Year 11,-99.0,MP not interviewed
+1121184,NEXTSTEP,ns3_parental_attitudes,w3tspeak2mp,MP: Whether talked to teachers about what YP might do after Year 11,-92.0,Refused
+1121185,NEXTSTEP,ns3_parental_attitudes,w3tspeak2mp,MP: Whether talked to teachers about what YP might do after Year 11,-91.0,Not applicable
+1121186,NEXTSTEP,ns3_parental_attitudes,w3tspeak2mp,MP: Whether talked to teachers about what YP might do after Year 11,-1.0,Don't know
+1121187,NEXTSTEP,ns3_parental_attitudes,w3tspeak2mp,MP: Whether talked to teachers about what YP might do after Year 11,1.0,Yes
+1121188,NEXTSTEP,ns3_parental_attitudes,w3tspeak2mp,MP: Whether talked to teachers about what YP might do after Year 11,2.0,No
+1121189,NEXTSTEP,ns3_parental_attitudes,w3tstaymp,MP: Whether talked to teachers about YP staying on in education after Year 11,-99.0,MP not interviewed
+1121190,NEXTSTEP,ns3_parental_attitudes,w3tstaymp,MP: Whether talked to teachers about YP staying on in education after Year 11,-91.0,Not applicable
+1121191,NEXTSTEP,ns3_parental_attitudes,w3tstaymp,MP: Whether talked to teachers about YP staying on in education after Year 11,-1.0,Don't know
+1121192,NEXTSTEP,ns3_parental_attitudes,w3tstaymp,MP: Whether talked to teachers about YP staying on in education after Year 11,1.0,Yes
+1121193,NEXTSTEP,ns3_parental_attitudes,w3tstaymp,MP: Whether talked to teachers about YP staying on in education after Year 11,2.0,No
+1121194,NEXTSTEP,ns3_parental_attitudes,w3tstaydefmp,MP: Whether teacher though YP should stay on in education after Year 11,-99.0,MP not interviewed
+1121195,NEXTSTEP,ns3_parental_attitudes,w3tstaydefmp,MP: Whether teacher though YP should stay on in education after Year 11,-92.0,Refused
+1121196,NEXTSTEP,ns3_parental_attitudes,w3tstaydefmp,MP: Whether teacher though YP should stay on in education after Year 11,-91.0,Not applicable
+1121197,NEXTSTEP,ns3_parental_attitudes,w3tstaydefmp,MP: Whether teacher though YP should stay on in education after Year 11,-1.0,Don't know
+1121198,NEXTSTEP,ns3_parental_attitudes,w3tstaydefmp,MP: Whether teacher though YP should stay on in education after Year 11,1.0,Yes
+1121199,NEXTSTEP,ns3_parental_attitudes,w3tstaydefmp,MP: Whether teacher though YP should stay on in education after Year 11,2.0,No
+1121200,NEXTSTEP,ns3_parental_attitudes,w3tappmp,MP: Whether talked to teachers about YP applying for a training place/apprenticeship after the end of Year 11,-99.0,MP not interviewed
+1121201,NEXTSTEP,ns3_parental_attitudes,w3tappmp,MP: Whether talked to teachers about YP applying for a training place/apprenticeship after the end of Year 11,-92.0,Refused
+1121202,NEXTSTEP,ns3_parental_attitudes,w3tappmp,MP: Whether talked to teachers about YP applying for a training place/apprenticeship after the end of Year 11,-91.0,Not applicable
+1121203,NEXTSTEP,ns3_parental_attitudes,w3tappmp,MP: Whether talked to teachers about YP applying for a training place/apprenticeship after the end of Year 11,-1.0,Don't know
+1121204,NEXTSTEP,ns3_parental_attitudes,w3tappmp,MP: Whether talked to teachers about YP applying for a training place/apprenticeship after the end of Year 11,1.0,Yes
+1121205,NEXTSTEP,ns3_parental_attitudes,w3tappmp,MP: Whether talked to teachers about YP applying for a training place/apprenticeship after the end of Year 11,2.0,No
+1121206,NEXTSTEP,ns3_parental_attitudes,w3tappdefmp,MP: Whether teacher thought YP should apply for a training place/apprenticeship after the end of Year 11,-99.0,MP not interviewed
+1121207,NEXTSTEP,ns3_parental_attitudes,w3tappdefmp,MP: Whether teacher thought YP should apply for a training place/apprenticeship after the end of Year 11,-92.0,Refused
+1121208,NEXTSTEP,ns3_parental_attitudes,w3tappdefmp,MP: Whether teacher thought YP should apply for a training place/apprenticeship after the end of Year 11,-91.0,Not applicable
+1121209,NEXTSTEP,ns3_parental_attitudes,w3tappdefmp,MP: Whether teacher thought YP should apply for a training place/apprenticeship after the end of Year 11,-1.0,Don't know
+1121210,NEXTSTEP,ns3_parental_attitudes,w3tappdefmp,MP: Whether teacher thought YP should apply for a training place/apprenticeship after the end of Year 11,1.0,Yes
+1121211,NEXTSTEP,ns3_parental_attitudes,w3tappdefmp,MP: Whether teacher thought YP should apply for a training place/apprenticeship after the end of Year 11,2.0,No
+1121212,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,-99.0,MP not interviewed
+1121213,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,-92.0,Refused
+1121214,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,-91.0,Not applicable
+1121215,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,-1.0,Don't know
+1121216,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,1.0,Very involved
+1121217,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,2.0,Fairly involved
+1121218,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,3.0,Not very involved
+1121219,NEXTSTEP,ns3_parental_attitudes,w3schlifmp,MP: How  involved does MP personally feel in YP's school life,4.0,Not at all involved
+1121220,NEXTSTEP,ns3_parental_attitudes,w3extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-99.0,MP not interviewed
+1121221,NEXTSTEP,ns3_parental_attitudes,w3extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-92.0,Refused
+1121222,NEXTSTEP,ns3_parental_attitudes,w3extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-91.0,Not applicable
+1121223,NEXTSTEP,ns3_parental_attitudes,w3extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,-1.0,Don't know
+1121224,NEXTSTEP,ns3_parental_attitudes,w3extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,1.0,Yes
+1121225,NEXTSTEP,ns3_parental_attitudes,w3extrtu1mp,MP: Whether in the last twelve months MP has paid for private classes in subjects also taught at YP's school,2.0,No
+1121226,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-99.0,MP not interviewed
+1121227,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-92.0,Refused
+1121228,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,-91.0,Not applicable
+1121229,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,0.0,Not mentioned
+1121230,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0a,MP: Which private lessons/ classes paid for (covered at school) - Maths,1.0,Mentioned
+1121231,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-99.0,MP not interviewed
+1121232,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-92.0,Refused
+1121233,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,-91.0,Not applicable
+1121234,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,0.0,Not mentioned
+1121235,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0b,MP: Which private lessons/ classes paid for (covered at school) - English,1.0,Mentioned
+1121236,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-99.0,MP not interviewed
+1121237,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-92.0,Refused
+1121238,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,-91.0,Not applicable
+1121239,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,0.0,Not mentioned
+1121240,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0c,MP: Which private lessons/ classes paid for (covered at school) - Languages,1.0,Mentioned
+1121241,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-99.0,MP not interviewed
+1121242,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-92.0,Refused
+1121243,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,-91.0,Not applicable
+1121244,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,0.0,Not mentioned
+1121245,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0d,MP: Which private lessons/ classes paid for (covered at school) - Science,1.0,Mentioned
+1121246,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-99.0,MP not interviewed
+1121247,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-92.0,Refused
+1121248,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,-91.0,Not applicable
+1121249,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,0.0,Not mentioned
+1121250,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0e,MP: Which private lessons/ classes paid for (covered at school) - Music,1.0,Mentioned
+1121251,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-99.0,MP not interviewed
+1121252,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-92.0,Refused
+1121253,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,-91.0,Not applicable
+1121254,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,0.0,Not mentioned
+1121255,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0f,MP: Which private lessons/ classes paid for (covered at school) - Dance,1.0,Mentioned
+1121256,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-99.0,MP not interviewed
+1121257,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-92.0,Refused
+1121258,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,-91.0,Not applicable
+1121259,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,0.0,Not mentioned
+1121260,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0g,MP: Which private lessons/ classes paid for (covered at school) - Drama,1.0,Mentioned
+1121261,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-99.0,MP not interviewed
+1121262,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-92.0,Refused
+1121263,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,-91.0,Not applicable
+1121264,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,0.0,Not mentioned
+1121265,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0h,MP: Which private lessons/ classes paid for (covered at school) - Religious activity,1.0,Mentioned
+1121266,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-99.0,MP not interviewed
+1121267,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-92.0,Refused
+1121268,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,-91.0,Not applicable
+1121269,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,0.0,Not mentioned
+1121270,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0i,MP: Which private lessons/ classes paid for (covered at school) - Sport,1.0,Mentioned
+1121271,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-99.0,MP not interviewed
+1121272,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-92.0,Refused
+1121273,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,-91.0,Not applicable
+1121274,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,0.0,Not mentioned
+1121275,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0j,MP: Which private lessons/ classes paid for (covered at school) - Horse riding,1.0,Mentioned
+1121276,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other answers,-99.0,MP not interviewed
+1121277,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other answers,-92.0,Refused
+1121278,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other answers,-91.0,Not applicable
+1121279,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other answers,0.0,Not mentioned
+1121280,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0k,MP: Which private lessons/ classes paid for (covered at school) - Other answers,1.0,Mentioned
+1121281,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0l,MP: Which private lessons/ classes paid for (covered at school) - Don't know,-99.0,MP not interviewed
+1121282,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0l,MP: Which private lessons/ classes paid for (covered at school) - Don't know,-92.0,Refused
+1121283,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0l,MP: Which private lessons/ classes paid for (covered at school) - Don't know,-91.0,Not applicable
+1121284,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0l,MP: Which private lessons/ classes paid for (covered at school) - Don't know,0.0,Not mentioned
+1121285,NEXTSTEP,ns3_parental_attitudes,w3extrtu2mp0l,MP: Which private lessons/ classes paid for (covered at school) - Don't know,1.0,Mentioned
+1121286,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,-99.0,MP not interviewed
+1121287,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,-92.0,Refused
+1121288,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,-91.0,Not applicable
+1121289,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,-1.0,Don't know
+1121290,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,1.0,Three or four times a week or more
+1121291,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,2.0,Twice a week
+1121292,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,3.0,Once a week
+1121293,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,4.0,Less than once a week
+1121294,NEXTSTEP,ns3_parental_attitudes,w3extrtu3mp,MP: Frequency of additional private lessons for YP over last 12 months,5.0,Once only
+1121295,NEXTSTEP,ns3_parental_attitudes,w3extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects for YP,-99.0,MP not interviewed
+1121296,NEXTSTEP,ns3_parental_attitudes,w3extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects for YP,-92.0,Refused
+1121297,NEXTSTEP,ns3_parental_attitudes,w3extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects for YP,-91.0,Not applicable
+1121298,NEXTSTEP,ns3_parental_attitudes,w3extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects for YP,-1.0,Don't know
+1121299,NEXTSTEP,ns3_parental_attitudes,w3extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects for YP,1.0,Yes
+1121300,NEXTSTEP,ns3_parental_attitudes,w3extrtu4mp,MP: Whether paid for any private lessons in supplementary subjects for YP,2.0,No
+1121301,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-99.0,MP not interviewed
+1121302,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-92.0,Refused
+1121303,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,-91.0,Not applicable
+1121304,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,0.0,Not mentioned
+1121305,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0a,MP: Which private lessons/ classes paid for (NOT covered at school) - Music,1.0,Mentioned
+1121306,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-99.0,MP not interviewed
+1121307,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-92.0,Refused
+1121308,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,-91.0,Not applicable
+1121309,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,0.0,Not mentioned
+1121310,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0b,MP: Which private lessons/ classes paid for (NOT covered at school) - Dance,1.0,Mentioned
+1121311,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-99.0,MP not interviewed
+1121312,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-92.0,Refused
+1121313,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,-91.0,Not applicable
+1121314,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,0.0,Not mentioned
+1121315,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0c,MP: Which private lessons/ classes paid for (NOT covered at school) - Languages,1.0,Mentioned
+1121316,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-99.0,MP not interviewed
+1121317,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-92.0,Refused
+1121318,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,-91.0,Not applicable
+1121319,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,0.0,Not mentioned
+1121320,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0d,MP: Which private lessons/ classes paid for (NOT covered at school) - Speech and/or drama,1.0,Mentioned
+1121321,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-99.0,MP not interviewed
+1121322,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-92.0,Refused
+1121323,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,-91.0,Not applicable
+1121324,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,0.0,Not mentioned
+1121325,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0e,MP: Which private lessons/ classes paid for (NOT covered at school) - Religious activity,1.0,Mentioned
+1121326,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-99.0,MP not interviewed
+1121327,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-92.0,Refused
+1121328,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,-91.0,Not applicable
+1121329,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,0.0,Not mentioned
+1121330,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0f,MP: Which private lessons/ classes paid for (NOT covered at school) - Sport,1.0,Mentioned
+1121331,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-99.0,MP not interviewed
+1121332,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-92.0,Refused
+1121333,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,-91.0,Not applicable
+1121334,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,0.0,Not mentioned
+1121335,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0g,MP: Which private lessons/ classes paid for (NOT covered at school) - Maths,1.0,Mentioned
+1121336,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-99.0,MP not interviewed
+1121337,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-92.0,Refused
+1121338,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,-91.0,Not applicable
+1121339,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,0.0,Not mentioned
+1121340,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0h,MP: Which private lessons/ classes paid for (NOT covered at school) - English,1.0,Mentioned
+1121341,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-99.0,MP not interviewed
+1121342,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-92.0,Refused
+1121343,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,-91.0,Not applicable
+1121344,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,0.0,Not mentioned
+1121345,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0i,MP: Which private lessons/ classes paid for (NOT covered at school) - Science,1.0,Mentioned
+1121346,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-99.0,MP not interviewed
+1121347,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-92.0,Refused
+1121348,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,-91.0,Not applicable
+1121349,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,0.0,Not mentioned
+1121350,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0j,MP: Which private lessons/ classes paid for (NOT covered at school) - Horse riding,1.0,Mentioned
+1121351,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other answers,-99.0,MP not interviewed
+1121352,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other answers,-92.0,Refused
+1121353,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other answers,-91.0,Not applicable
+1121354,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other answers,0.0,Not mentioned
+1121355,NEXTSTEP,ns3_parental_attitudes,w3extrtu5mp0k,MP: Which private lessons/ classes paid for (NOT covered at school) - Other answers,1.0,Mentioned
+1121356,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-99.0,MP not interviewed
+1121357,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-92.0,Refused
+1121358,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-91.0,Not applicable
+1121359,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,-1.0,Don't know
+1121360,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,1.0,Three or four times a week or more
+1121361,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,2.0,Twice a week
+1121362,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,3.0,Once a week
+1121363,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,4.0,Less than once a week?
+1121364,NEXTSTEP,ns3_parental_attitudes,w3extrtu6mp,MP: How often does YP go to supplementary lessons or classes over the last 12 months,5.0,Once only
+1121365,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,-997.0,Script error
+1121366,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,-99.0,MP not interviewed
+1121367,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,-92.0,Refused
+1121368,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,-91.0,Not applicable
+1121369,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,-1.0,Don't know
+1121370,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,1.0,Stay on in full time education
+1121371,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,2.0,Leave full time education
+1121372,NEXTSTEP,ns3_parental_attitudes,w3tranaftmp,MP: What transition plan suggests YP should do after Year 11,3.0,Does not currently have a transition plan
+1121373,NEXTSTEP,ns3_parental_attitudes,w3transtamp0a,MP: Will this be so that YP can do A levels/ AS levels/A2S,-99.0,MP not interviewed
+1121374,NEXTSTEP,ns3_parental_attitudes,w3transtamp0a,MP: Will this be so that YP can do A levels/ AS levels/A2S,-92.0,Refused
+1121375,NEXTSTEP,ns3_parental_attitudes,w3transtamp0a,MP: Will this be so that YP can do A levels/ AS levels/A2S,-91.0,Not applicable
+1121376,NEXTSTEP,ns3_parental_attitudes,w3transtamp0a,MP: Will this be so that YP can do A levels/ AS levels/A2S,0.0,Not mentioned
+1121377,NEXTSTEP,ns3_parental_attitudes,w3transtamp0a,MP: Will this be so that YP can do A levels/ AS levels/A2S,1.0,Mentioned
+1121378,NEXTSTEP,ns3_parental_attitudes,w3transtamp0b,MP: Will this be so that YP can do NVQs,-99.0,MP not interviewed
+1121379,NEXTSTEP,ns3_parental_attitudes,w3transtamp0b,MP: Will this be so that YP can do NVQs,-92.0,Refused
+1121380,NEXTSTEP,ns3_parental_attitudes,w3transtamp0b,MP: Will this be so that YP can do NVQs,-91.0,Not applicable
+1121381,NEXTSTEP,ns3_parental_attitudes,w3transtamp0b,MP: Will this be so that YP can do NVQs,0.0,Not mentioned
+1121382,NEXTSTEP,ns3_parental_attitudes,w3transtamp0b,MP: Will this be so that YP can do NVQs,1.0,Mentioned
+1121383,NEXTSTEP,ns3_parental_attitudes,w3transtamp0c,MP: Don't know,-99.0,MP not interviewed
+1121384,NEXTSTEP,ns3_parental_attitudes,w3transtamp0c,MP: Don't know,-92.0,Refused
+1121385,NEXTSTEP,ns3_parental_attitudes,w3transtamp0c,MP: Don't know,-91.0,Not applicable
+1121386,NEXTSTEP,ns3_parental_attitudes,w3transtamp0c,MP: Don't know,0.0,Not mentioned
+1121387,NEXTSTEP,ns3_parental_attitudes,w3transtamp0c,MP: Don't know,1.0,Mentioned
+1121388,NEXTSTEP,ns3_parental_attitudes,w3transtamp0d,MP: Other answers,-99.0,MP not interviewed
+1121389,NEXTSTEP,ns3_parental_attitudes,w3transtamp0d,MP: Other answers,-92.0,Refused
+1121390,NEXTSTEP,ns3_parental_attitudes,w3transtamp0d,MP: Other answers,-91.0,Not applicable
+1121391,NEXTSTEP,ns3_parental_attitudes,w3transtamp0d,MP: Other answers,0.0,Not mentioned
+1121392,NEXTSTEP,ns3_parental_attitudes,w3transtamp0d,MP: Other answers,1.0,Mentioned
+1121393,NEXTSTEP,ns3_parental_attitudes,w3tranleamp,MP: What transition plan suggest YP should do when they leave school after Year 11,-99.0,MP not interviewed
+1121394,NEXTSTEP,ns3_parental_attitudes,w3tranleamp,MP: What transition plan suggest YP should do when they leave school after Year 11,-92.0,Refused
+1121395,NEXTSTEP,ns3_parental_attitudes,w3tranleamp,MP: What transition plan suggest YP should do when they leave school after Year 11,-91.0,Not applicable
+1121396,NEXTSTEP,ns3_parental_attitudes,w3tranleamp,MP: What transition plan suggest YP should do when they leave school after Year 11,1.0,Don't know
+1121397,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,-99.0,MP not interviewed
+1121398,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,-92.0,Refused
+1121399,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,-91.0,Not applicable
+1121400,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,-1.0,Don't know
+1121401,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,1.0,Continue in full time education
+1121402,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,2.0,Start learning a trade / Get a place on a training course
+1121403,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,3.0,Start an apprenticeship
+1121404,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,4.0,Get a full-time paid job (either as an employee or self-empl
+1121405,NEXTSTEP,ns3_parental_attitudes,w3parasp2mp,MP: What would like YP to do when reach school leaving age,5.0,Something else
+1121406,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,-99.0,MP not interviewed
+1121407,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,-92.0,Refused
+1121408,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,-91.0,Not applicable
+1121409,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,-1.0,Don't know
+1121410,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,1.0,Continue in full time education
+1121411,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,2.0,Start learning a trade / Get a place on a training course
+1121412,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,3.0,Start an apprenticeship
+1121413,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,4.0,Get a full-time paid job (either as an employee or self-empl
+1121414,NEXTSTEP,ns3_parental_attitudes,w3parasp1mp,MP: What think YP will do when reaches school leaving age,5.0,Something else
+1121415,NEXTSTEP,ns3_parental_attitudes,w3jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-99.0,MP not interviewed
+1121416,NEXTSTEP,ns3_parental_attitudes,w3jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-92.0,Refused
+1121417,NEXTSTEP,ns3_parental_attitudes,w3jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-91.0,Not applicable
+1121418,NEXTSTEP,ns3_parental_attitudes,w3jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,-1.0,Don't know
+1121419,NEXTSTEP,ns3_parental_attitudes,w3jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,1.0,Yes
+1121420,NEXTSTEP,ns3_parental_attitudes,w3jobdiscmp,MP: Whether talked to YP about YP staying on in full-time education,2.0,No
+1121421,NEXTSTEP,ns3_parental_attitudes,w3awaremamp,MP: Whether aware of EMA before interview,-997.0,Script error
+1121422,NEXTSTEP,ns3_parental_attitudes,w3awaremamp,MP: Whether aware of EMA before interview,-99.0,MP not interviewed
+1121423,NEXTSTEP,ns3_parental_attitudes,w3awaremamp,MP: Whether aware of EMA before interview,-92.0,Refused
+1121424,NEXTSTEP,ns3_parental_attitudes,w3awaremamp,MP: Whether aware of EMA before interview,-91.0,Not applicable
+1121425,NEXTSTEP,ns3_parental_attitudes,w3awaremamp,MP: Whether aware of EMA before interview,-1.0,Don't know
+1121426,NEXTSTEP,ns3_parental_attitudes,w3awaremamp,MP: Whether aware of EMA before interview,1.0,Yes
+1121427,NEXTSTEP,ns3_parental_attitudes,w3awaremamp,MP: Whether aware of EMA before interview,2.0,No
+1121428,NEXTSTEP,ns3_parental_attitudes,w3emaappmp,MP: Whether YP has applied for an EMA,-99.0,MP not interviewed
+1121429,NEXTSTEP,ns3_parental_attitudes,w3emaappmp,MP: Whether YP has applied for an EMA,-92.0,Refused
+1121430,NEXTSTEP,ns3_parental_attitudes,w3emaappmp,MP: Whether YP has applied for an EMA,-91.0,Not applicable
+1121431,NEXTSTEP,ns3_parental_attitudes,w3emaappmp,MP: Whether YP has applied for an EMA,-1.0,Don't know
+1121432,NEXTSTEP,ns3_parental_attitudes,w3emaappmp,MP: Whether YP has applied for an EMA,1.0,Yes
+1121433,NEXTSTEP,ns3_parental_attitudes,w3emaappmp,MP: Whether YP has applied for an EMA,2.0,No
+1121434,NEXTSTEP,ns3_parental_attitudes,w3emagomp,MP: Whether YP will apply for an EMA,-99.0,MP not interviewed
+1121435,NEXTSTEP,ns3_parental_attitudes,w3emagomp,MP: Whether YP will apply for an EMA,-92.0,Refused
+1121436,NEXTSTEP,ns3_parental_attitudes,w3emagomp,MP: Whether YP will apply for an EMA,-91.0,Not applicable
+1121437,NEXTSTEP,ns3_parental_attitudes,w3emagomp,MP: Whether YP will apply for an EMA,-1.0,Don't know
+1121438,NEXTSTEP,ns3_parental_attitudes,w3emagomp,MP: Whether YP will apply for an EMA,1.0,Yes
+1121439,NEXTSTEP,ns3_parental_attitudes,w3emagomp,MP: Whether YP will apply for an EMA,2.0,No
+1121440,NEXTSTEP,ns3_parental_attitudes,w3emasucmp,MP: Whether EMA application was sucessful,-99.0,MP not interviewed
+1121441,NEXTSTEP,ns3_parental_attitudes,w3emasucmp,MP: Whether EMA application was sucessful,-92.0,Refused
+1121442,NEXTSTEP,ns3_parental_attitudes,w3emasucmp,MP: Whether EMA application was sucessful,-91.0,Not applicable
+1121443,NEXTSTEP,ns3_parental_attitudes,w3emasucmp,MP: Whether EMA application was sucessful,-1.0,Don't know
+1121444,NEXTSTEP,ns3_parental_attitudes,w3emasucmp,MP: Whether EMA application was sucessful,1.0,Yes
+1121445,NEXTSTEP,ns3_parental_attitudes,w3emasucmp,MP: Whether EMA application was sucessful,2.0,No
+1121446,NEXTSTEP,ns3_parental_attitudes,w3emasucmp,MP: Whether EMA application was sucessful,3.0,Waiting to hear
+1121447,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-997.0,Script error
+1121448,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-99.0,MP not interviewed
+1121449,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-92.0,Refused
+1121450,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,-91.0,Not applicable
+1121451,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,0.0,Not mentioned
+1121452,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0a,MP: How YP's expenses would be paid if stayed on in education - EMA,1.0,Mentioned
+1121453,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-997.0,Script error
+1121454,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-99.0,MP not interviewed
+1121455,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-92.0,Refused
+1121456,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,-91.0,Not applicable
+1121457,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,0.0,Not mentioned
+1121458,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0b,MP: How YP's expenses would be paid if stayed on in education - YP get job or work part time,1.0,Mentioned
+1121459,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-997.0,Script error
+1121460,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-99.0,MP not interviewed
+1121461,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-92.0,Refused
+1121462,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,-91.0,Not applicable
+1121463,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,0.0,Not mentioned
+1121464,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0c,MP: How YP's expenses would be paid if stayed on in education - Parent(s) will support or give money,1.0,Mentioned
+1121465,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-997.0,Script error
+1121466,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-99.0,MP not interviewed
+1121467,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-92.0,Refused
+1121468,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,-91.0,Not applicable
+1121469,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,0.0,Not mentioned
+1121470,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0d,MP: How YP's expenses would be paid if stayed on in education - Other relative(s) will support or give money,1.0,Mentioned
+1121471,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-997.0,Script error
+1121472,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-99.0,MP not interviewed
+1121473,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-92.0,Refused
+1121474,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,-91.0,Not applicable
+1121475,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,0.0,Not mentioned
+1121476,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0e,MP: How YP's expenses would be paid if stayed on in education - Some other means,1.0,Mentioned
+1121477,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-997.0,Script error
+1121478,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-99.0,MP not interviewed
+1121479,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-92.0,Refused
+1121480,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),-91.0,Not applicable
+1121481,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),0.0,Not mentioned
+1121482,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0f,MP: How YP's expenses would be paid if stayed on in education - YP definitely won't stay on (UNPROMPTED),1.0,Mentioned
+1121483,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-997.0,Script error
+1121484,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-99.0,MP not interviewed
+1121485,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-92.0,Refused
+1121486,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,-91.0,Not applicable
+1121487,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,0.0,Not mentioned
+1121488,NEXTSTEP,ns3_parental_attitudes,w3fefinmp0g,MP: How YP's expenses would be paid if stayed on in education - Don't know,1.0,Mentioned
+1121489,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-99.0,MP not interviewed
+1121490,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-92.0,Refused
+1121491,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,-91.0,Not applicable
+1121492,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,0.0,Not mentioned
+1121493,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0a,MP: What likely to do to help keep YP in education - Save money now specifically for education,1.0,Mentioned
+1121494,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-99.0,MP not interviewed
+1121495,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-92.0,Refused
+1121496,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,-91.0,Not applicable
+1121497,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,0.0,Not mentioned
+1121498,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0b,MP: What likely to do to help keep YP in education - Give money from existing savings,1.0,Mentioned
+1121499,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-99.0,MP not interviewed
+1121500,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-92.0,Refused
+1121501,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,-91.0,Not applicable
+1121502,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,0.0,Not mentioned
+1121503,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0c,MP: What likely to do to help keep YP in education - Support out of wages or earnings,1.0,Mentioned
+1121504,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-99.0,MP not interviewed
+1121505,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-92.0,Refused
+1121506,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,-91.0,Not applicable
+1121507,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,0.0,Not mentioned
+1121508,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0d,MP: What likely to do to help keep YP in education - Take out loan or remortgage,1.0,Mentioned
+1121509,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-99.0,MP not interviewed
+1121510,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-92.0,Refused
+1121511,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,-91.0,Not applicable
+1121512,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,0.0,Not mentioned
+1121513,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0e,MP: What likely to do to help keep YP in education - Pay school or college fees,1.0,Mentioned
+1121514,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-99.0,MP not interviewed
+1121515,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-92.0,Refused
+1121516,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),-91.0,Not applicable
+1121517,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),0.0,Not mentioned
+1121518,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0f,MP: What likely to do to help keep YP in education - Help with accommodation (eg. Let YP stay rent-free),1.0,Mentioned
+1121519,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-99.0,MP not interviewed
+1121520,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-92.0,Refused
+1121521,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,-91.0,Not applicable
+1121522,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,0.0,Not mentioned
+1121523,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0g,MP: What likely to do to help keep YP in education - Borrow money from other relatives or friends,1.0,Mentioned
+1121524,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-99.0,MP not interviewed
+1121525,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-92.0,Refused
+1121526,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,-91.0,Not applicable
+1121527,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,0.0,Not mentioned
+1121528,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0h,MP: What likely to do to help keep YP in education - Help in other ways,1.0,Mentioned
+1121529,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-99.0,MP not interviewed
+1121530,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-92.0,Refused
+1121531,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),-91.0,Not applicable
+1121532,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),0.0,Not mentioned
+1121533,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0i,MP: What likely to do to help keep YP in education - YP definitely won't stay on (UNPROMPTED),1.0,Mentioned
+1121534,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-92.0,Refused
+1121535,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-91.0,Not applicable
+1121536,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,0.0,Not mentioned
+1121537,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,1.0,Mentioned
+1121538,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0j,MP: What likely to do to help keep YP in education - Don' t know,-99.0,MP not interviewed
+1121539,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0k,MP: What likely to do to help keep YP in education - None of these,-99.0,MP not interviewed
+1121540,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0k,MP: What likely to do to help keep YP in education - None of these,-92.0,Refused
+1121541,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0k,MP: What likely to do to help keep YP in education - None of these,-91.0,Not applicable
+1121542,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0k,MP: What likely to do to help keep YP in education - None of these,0.0,Not mentioned
+1121543,NEXTSTEP,ns3_parental_attitudes,w3fefn2mp0k,MP: What likely to do to help keep YP in education - None of these,1.0,Mentioned
+1121544,NEXTSTEP,ns3_parental_attitudes,v3,None,,
+1121545,NEXTSTEP,ns3_parental_attitudes,avail_from_dt,,,
