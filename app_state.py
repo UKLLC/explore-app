@@ -10,6 +10,14 @@ class App_State():
 
         self.map_data = {}
 
+        #####################
+        self.map_box = None
+        self.documentation_box = None
+        self.metadata_box = None
+
+
+        #####################
+
 
     def get_tables_df(self):
         return self.tables_df
@@ -67,3 +75,5 @@ class App_State():
 
     def set_map_data(self, study, data):
         self.map_data[study] = data
+
+

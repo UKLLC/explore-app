@@ -46,6 +46,7 @@ SIDEBAR_TITLE_STYLE = {
     "color":"white",
     "height": str(sidebar_title_h)+"rem",
     "border-right" : "solid",
+    "border-width":"thin",
     "border-color" : "white",
 
 }
@@ -101,9 +102,16 @@ CONTEXT_BAR_STYLE = {
     "background-color": "black",
     "overflow-x":"hidden",
     "zIndex":2,
+    "border-bottom":"solid",
+    "border-width":"thin",
+    "border-color":"white"
 
-    "border" : "solid",
-    "border-color" : "purple",
+}
+
+BUTTON_STYLE = {
+    "float":"left",
+    "margin":"1rem"
+
 }
 
 
@@ -117,16 +125,11 @@ BODY_STYLE = {
     "height":"calc(100%-"+str(titlebar_h+context_bar_h)+")",
     "zIndex":0,
     "overflow-x":"hidden",
-
-    "border" : "solid",
-    "border-color" : "green",
     }
 
 # Map #################################
 
 MAP_DIV_STYLE = {
-    "border" : "solid",
-    "border-color" : "blue",
     }
 
 MAP_TITLE_STYLE = {
@@ -136,7 +139,6 @@ MAP_TITLE_STYLE = {
     "background-color":cyan[0],
     "padding-top":"0.5rem",
     "padding-left":"1rem",
-
 }
 
 DYNA_MAP_STYLE = {
@@ -162,14 +164,10 @@ DOCUMENTATION_BOX_STYLE ={
     "color":"white",
     "background-color":black[2],
 
-    "border" : "solid",
-    "border-color" : "red",
     "padding" : "1rem"
 }
 
 TABLE_DOC_DIV = {
-    "border" : "solid",
-    "border-color" : "orange",
 }
 
 TABLES_DOC_HEADER = {
@@ -234,8 +232,6 @@ METADATA_DESC_CELL = {
 
 METADATA_TABLE_DIV_STYLE = {
     "margin-top" : "1rem",
-    "border" : "solid",
-    "border-color" : "red",
 }
 
 METADATA_TABLE_HEADER = {

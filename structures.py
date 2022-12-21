@@ -75,6 +75,7 @@ def metadata_doc_table(df, id):
 
 
 def metadata_table(df, id):
+    df = df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
     quick_table = dash_table.DataTable(
             id=id,
             data=df.to_dict('records'),
@@ -145,7 +146,42 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue):
     return sidebar_left
 
 def make_context_bar():
-    context_bar = html.Div([], 
+    context_bar = html.Div([
+
+        dbc.Collapse(
+            dbc.Button(
+                "Documentation",
+                id="doc_button",
+                n_clicks=0,
+            ),
+            id = "doc_button_collapse",
+            is_open= True,
+            style = ss.BUTTON_STYLE
+        ),
+
+        dbc.Collapse(
+            dbc.Button(
+                "Metadata",
+                id="metadata_button",
+                n_clicks=0,
+            ),
+            id = "metadata_button_collapse",
+            is_open= True,
+            style = ss.BUTTON_STYLE
+        ),
+
+        dbc.Collapse(
+            dbc.Button(
+                "Coverage",
+                id="map_button",
+                n_clicks=0,
+            ),
+            id = "map_button_collapse",
+            is_open= True,
+            style = ss.BUTTON_STYLE
+        )
+
+    ], 
         id = "context_bar_div", 
         style = ss.CONTEXT_BAR_STYLE)
     return context_bar
@@ -191,8 +227,11 @@ def make_metadata_box(title):
         ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
     return meta_box
 
-def make_body(active_sections):
-    body = html.Div((active_sections),id="body",style = ss.BODY_STYLE )
+def make_body(sections, ids):
+    collapse_sections = []
+    for section, s_id in zip(sections, ids):
+        collapse_sections.append(dbc.Collapse(section, id = s_id, is_open=True))
+    body = html.Div((collapse_sections),id="body",style = ss.BODY_STYLE )
     return body
 
 def make_variable_div(id_type):

@@ -73,14 +73,14 @@ context_bar_div = struct.make_context_bar()
 # Body ################################################################################
 # get base map ########################################################################
 
-map_box = struct.make_map_box("Coverage: Study Name Placeholder")
+app_state.map_box = struct.make_map_box("Coverage: Study Name Placeholder")
 
-documentation_box = struct.make_documentation_box("Documentation: Study Name Placeholder")
+app_state.documentation_box = struct.make_documentation_box("Documentation: Study Name Placeholder")
 
-metadata_box = struct.make_metadata_box("Metadata: Study Name Placeholder")
+app_state.metadata_box = struct.make_metadata_box("Metadata: Study Name Placeholder")
 
 # Main div template ##################################################################
-maindiv = struct.make_body([map_box, documentation_box, metadata_box])
+maindiv = struct.make_body([app_state.map_box, app_state.documentation_box, app_state.metadata_box], ["map_collapse", "doc_collapse", "metadata_collapse"])
 
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
@@ -175,6 +175,41 @@ def update_table_metadata(schema, table):
     return struct.metadata_table(metadata_df, "metadata_table")
     #return html.P("DEMO")
     
+
+@app.callback(
+    Output("doc_collapse", "is_open"),
+    [Input("doc_button", "n_clicks")],
+    [State("doc_collapse", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    print("button toggle {}, {}".format(n, is_open))
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("metadata_collapse", "is_open"),
+    [Input("metadata_button", "n_clicks")],
+    [State("metadata_collapse", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    print("button toggle {}, {}".format(n, is_open))
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("map_collapse", "is_open"),
+    [Input("map_button", "n_clicks")],
+    [State("map_collapse", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    print("button toggle {}, {}".format(n, is_open))
+    if n:
+        return not is_open
+    return is_open
+
+
 
 
 @app.callback(
