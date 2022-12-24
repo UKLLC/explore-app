@@ -127,6 +127,10 @@ BODY_STYLE = {
     "overflow-x":"hidden",
     }
 
+HIDDEN_BODY_STYLE = {
+    "display":"none"
+}    
+
 # Map #################################
 
 MAP_DIV_STYLE = {

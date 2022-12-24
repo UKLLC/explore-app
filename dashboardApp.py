@@ -73,23 +73,26 @@ context_bar_div = struct.make_context_bar()
 # Body ################################################################################
 # get base map ########################################################################
 
-app_state.map_box = struct.make_map_box("Coverage: Study Name Placeholder")
+app_state.map["object"] = struct.make_map_box("Coverage: Study Name Placeholder")
 
-app_state.documentation_box = struct.make_documentation_box("Documentation: Study Name Placeholder")
+app_state.documentation["object"] = struct.make_documentation_box("Documentation: Study Name Placeholder")
 
-app_state.metadata_box = struct.make_metadata_box("Metadata: Study Name Placeholder")
+app_state.metadata["object"] = struct.make_metadata_box("Metadata: Study Name Placeholder")
 
 # Main div template ##################################################################
-maindiv = struct.make_body([app_state.map_box, app_state.documentation_box, app_state.metadata_box], ["map_collapse", "doc_collapse", "metadata_collapse"])
+#maindiv = struct.make_body([app_state.map["object"], app_state.documentation["object"], app_state.metadata["object"]], ["map_collapse", "doc_collapse", "metadata_collapse"])
+maindiv = struct.make_body([], [])
+
 
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
+demo =struct.make_variable_div("demo")
+
+hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record])
-
-###########################################
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, demo,  hidden_body])
 
 ###########################################
 ### Actions
@@ -159,6 +162,8 @@ def update_table_metadata(schema, table):
         # Default (Section may be hidden in final version)
         return html.P("Select a table for more information...")
 
+
+
 @app.callback(
     Output('table_metadata_div', "children"),
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
@@ -174,42 +179,54 @@ def update_table_metadata(schema, table):
     metadata_df = read_data_request.load_study_metadata(schema[0], table[0])
     return struct.metadata_table(metadata_df, "metadata_table")
     #return html.P("DEMO")
-    
+
+
+
 
 @app.callback(
-    Output("doc_collapse", "is_open"),
-    [Input("doc_button", "n_clicks")],
-    [State("doc_collapse", "is_open")],
+    Output("body", "children"),
+    Output("hidden_body","children"),
+    Input("doc_button", "n_clicks"),
+    Input("metadata_button", "n_clicks"),
+    Input("map_button", "n_clicks"),
+    #State("meta_box", "children"),
 )
-def toggle_collapse(n, is_open):
-    print("button toggle {}, {}".format(n, is_open))
-    if n:
-        return not is_open
-    return is_open
+def body_sctions(doc_n, metadata_n, map_n):#, meta_state):
+    app_state.set_global_activations(app_state.get_global_activations() + 1)
+    click_state = app_state.get_button_clicks()
+    app_state.set_button_clicks([doc_n, metadata_n, map_n])
 
-@app.callback(
-    Output("metadata_collapse", "is_open"),
-    [Input("metadata_button", "n_clicks")],
-    [State("metadata_collapse", "is_open")],
-)
-def toggle_collapse(n, is_open):
-    print("button toggle {}, {}".format(n, is_open))
-    if n:
-        return not is_open
-    return is_open
+    # Update sections with current state
+    #app_state.metadata["object"] = struct.make_metadata_box("Metadata: Study Name Placeholder", meta_state)
 
-@app.callback(
-    Output("map_collapse", "is_open"),
-    [Input("map_button", "n_clicks")],
-    [State("map_collapse", "is_open")],
-)
-def toggle_collapse(n, is_open):
-    print("button toggle {}, {}".format(n, is_open))
-    if n:
-        return not is_open
-    return is_open
+    sections = app_state.get_sections()
 
+    # determine which button was clicked:
+    if click_state[0] != doc_n:
+        section = app_state.documentation
+    elif click_state[1] != metadata_n:
+        section = app_state.metadata
+    elif click_state[2] != map_n:
+        section = app_state.map
+    else:
+        return [html.P("Landing page placeholder")], [s["object"] for s in sections] # TODO make tutorial
 
+    # update state
+    section["activations"] = app_state.get_global_activations()
+    if section["active"]:
+        section["active"] = False
+    else:
+        section["active"] = True
+
+    # show state
+    active_sections =  [i for i in sections if i["active"] == True]
+    ordered_sections = sorted(active_sections, key=lambda d: d["activations"])
+
+    print([s["active"] for s in sections if s not in ordered_sections])
+
+    # TODO figure out how to do this without destroying and recreating the objects. We want to move them. 
+
+    return [s["object"] for s in ordered_sections], [s["object"] for s in sections if s not in ordered_sections]
 
 
 @app.callback(
@@ -270,6 +287,8 @@ def sidebar_clicks(_,children, active_schema, collapse):
 
     map_data = load_or_fetch_map(active_schema)
     return collapse, [active_schema],  ["None"], map_data
+
+
 
 
 if __name__ == "__main__":

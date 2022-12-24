@@ -7,18 +7,34 @@ class App_State():
         self.descs_df = None
         self.vals_df = None
         self.sidebar_clicks = {}
+        self.button_clicks = [0,0,0]
 
         self.map_data = {}
 
         #####################
-        self.map_box = None
-        self.documentation_box = None
-        self.metadata_box = None
+        
+        self.global_activations = 0
 
+        self.map = {
+            "object": None,
+            "activations" : 0,
+            "active":False
+            }
+        self.documentation = {
+            "object": None,
+            "activations" : 0,
+            "active":False
+            }
+        
+        self.metadata = {
+            "object": None,
+            "activations" : 0,
+            "active":False
+            }
 
         #####################
 
-
+    
     def get_tables_df(self):
         return self.tables_df
 
@@ -46,16 +62,14 @@ class App_State():
     def get_sidebar_clicks(self, index):
         return self.sidebar_clicks[index]
 
-    def get_table_clicks(self, table_id, nclick):
-        if table_id not in self.sidebar_clicks:
-            self.sidebar_clicks[table_id] = 0
-        else:
-            self.sidebar_clicks[table_id] = nclick
 
-    def get_sidebar_clicks(self, table_id):
-        return self.sidebar_clicks[table_id]
+    def set_button_clicks(self, lst):
+        self.button_clicks = lst
 
-    def set_active_schema(self, schema ):
+    def get_button_clicks(self):
+        return self.button_clicks
+
+    def set_active_schema(self, schema):
         self.schema = schema
 
     def set_active_table(self, table):
@@ -77,3 +91,14 @@ class App_State():
         self.map_data[study] = data
 
 
+##############################
+#   buttons
+
+    def get_global_activations(self):
+        return self.global_activations
+    def set_global_activations(self, val):
+        self.global_activations = val
+
+
+    def get_sections(self):
+        return self.documentation, self.metadata, self.map

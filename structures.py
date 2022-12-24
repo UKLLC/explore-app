@@ -207,24 +207,38 @@ def make_map_box(title):
         ], id = "map_div", style = ss.MAP_DIV_STYLE)
     return map_box
 
-def make_documentation_box(title):
+def make_documentation_box(title, children = "None"):
     title_sction = html.Div([make_section_title(title)], id = "doc_title", style = ss.DOC_TITLE_STYLE)
-    doc_box = html.Div([
-        title_sction,
-        html.Div([
-        html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div"),
-        html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div"),
-        ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
+    if children == "None":
+        doc_box = html.Div([
+            title_sction,
+            html.Div([
+            html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div"),
+            html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div"),
+            ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
+    else:
+        doc_box = html.Div([
+            title_sction,
+            html.Div([
+                children
+            ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
     return doc_box
 
-def make_metadata_box(title):
-    title_sction = html.Div([make_section_title(title)], id = "metadata_title", style = ss.METADATA_TITLE_STYLE)
-    meta_box = html.Div([
-        title_sction,
-        html.Div([
-        html.Div([], id = "table_meta_desc_div"),
-        html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE),
-        ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
+def make_metadata_box(title, children = "None"):
+    title_section = html.Div([make_section_title(title)], id = "metadata_title", style = ss.METADATA_TITLE_STYLE)
+    if children == "None":
+        meta_box = html.Div([
+            title_section,
+            html.Div([
+            html.Div([], id = "table_meta_desc_div"),
+            html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE),
+            ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
+    else:
+        meta_box = html.Div([
+            title_section,
+            html.Div([
+                children
+            ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
     return meta_box
 
 def make_body(sections, ids):
@@ -255,3 +269,7 @@ def make_table_doc(tables):
     table = html.Div([data_doc_table(tables, "table_desc_table")], style = ss.TABLE_DOC_DIV)
     return table
 
+
+def make_hidden_body():
+    body = html.Div([],style=ss.HIDDEN_BODY_STYLE, id = "hidden_body")
+    return body
