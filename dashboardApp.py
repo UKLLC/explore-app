@@ -1,6 +1,7 @@
 # sidebar.py
 from os import read
 from re import S
+import re
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc
@@ -83,10 +84,9 @@ app_state.metadata["object"] = struct.make_metadata_box("Metadata: Study Name Pl
 #maindiv = struct.make_body([app_state.map["object"], app_state.documentation["object"], app_state.metadata["object"]], ["map_collapse", "doc_collapse", "metadata_collapse"])
 maindiv = struct.make_body([], [])
 
-
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
-demo =struct.make_variable_div("demo")
+demo = struct.make_variable_div("demo")
 
 hidden_body = struct.make_hidden_body()
 
@@ -278,9 +278,36 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
                     app_state.set_sidebar_clicks(table_full, 0)
                     table_clicks[table_full] = 0
 
-
     map_data = load_or_fetch_map(active_schema)
     return collapse, [active_schema],  [active_table], map_data
+
+@app.callback(
+    Output("sidebar_list_div", "children"),
+    Input("search_button", "n_clicks"),
+    Input("main_search", "value")
+    
+    )
+def main_search(click, search):
+    '''
+    Version 1: search by similar text in schema, table name or keywords. 
+    these may be branched into different search functions later, but for now will do the trick
+    Do we want it on button click or auto filter?
+    Probs on button click, that way we minimise what could be quite complex filtering
+    '''
+    print("search:", search)
+    if type(search)!=str or search == "":
+        print("No search, return full")
+        return struct.build_sidebar_list(study_df)
+    print(study_df.columns)   
+    sub_list = study_df.loc[(study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | (study_df["Study"].str.contains(search)) | (study_df["Block Name"].str.contains(search)) | (study_df["Keywords"].str.contains(search)) | (study_df["Unnamed: 11"].str.contains(search))]
+    print(sub_list.columns) 
+    '''
+    Thinking...
+    So we need to keep columns if the search string is in study, table name or any of the keyword columns
+    '''
+
+
+    return struct.build_sidebar_list(sub_list)
 
 
 if __name__ == "__main__":

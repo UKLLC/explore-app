@@ -94,8 +94,7 @@ def main_titlebar(title_text):
     titlebar = html.Div([html.H1(title_text, className="title")],style = ss.TITLEBAR_STYLE)
     return titlebar
 
-
-def make_sidebar_catalogue(df):
+def build_sidebar_list(df):
     sidebar_children = []
     # Get data sources
     schema_df = pd.concat([df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
@@ -127,14 +126,28 @@ def make_sidebar_catalogue(df):
             'index': i
         }, key = schema,
         style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
-    schema_list_group = dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")
-    catalogue_div = html.Div([schema_list_group], id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
+    return [dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")]
+
+
+def make_sidebar_catalogue(df):
+    catalogue_div = html.Div(build_sidebar_list(df), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
     return catalogue_div
 
 def make_sidebar_title():
     sidebar_title = html.Div([
         html.Div(html.H2("Data Directory")),
-        html.Div(html.P("Placeholder searchbar"))], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
+        html.Div([
+            dcc.Input(
+            id="main_search",
+            placeholder="search",
+            ),
+            dbc.Button(
+            "Search",
+            id="search_button",
+            n_clicks=0,
+            ),
+        ])
+        ], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
     return sidebar_title
 
 def make_sidebar_left(sidebar_title, sidebar_catalogue):
