@@ -97,13 +97,14 @@ app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, mai
 ###########################################
 ### Actions
 
-
 ### DOCUMENTATION BOX #####################
 @app.callback(
     Output('schema_description_div', "children"),
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
 )
 def update_schema_description(schema):
+    print("\nWorking in schema update")
+
     schema = schema[0]
     
     print("Update schema:",schema)
@@ -113,10 +114,11 @@ def update_schema_description(schema):
             schema_info = "Generic info about nhsd"
             return schema_info
         else:
-            return struct.make_schema_description(schema_info)
+            print("schema is not None, updating studies")
+            app_state.schema_doc = struct.make_schema_description(schema_info)
+            return app_state.schema_doc
     else:
-        # Default (Section may be hidden in final version)
-        return [html.P("Select a schema for more information...")]
+        return app_state.schema_doc
 
 
 @app.callback(
@@ -134,10 +136,10 @@ def update_tables_description(schema):
             schema_info = "Generic info about nhsd table"
             return schema_info
         else: # Study data branch
-            return struct.data_doc_table(tables, "table_desc_table")
+            app_state.table_doc = struct.data_doc_table(tables, "table_desc_table")
+            return app_state.table_doc
     else:
-        # Default (Section may be hidden in final version)
-        return html.P("Select a table for more information...")
+        return [html.P("Select a table for more information...")]
 
 
 ### METADATA BOX #####################
@@ -157,11 +159,11 @@ def update_table_metadata(schema, table):
         if schema == "NHSD": # Expand to linked data branch
             return html.P("NHSD placeholder text")
         else: # Study data branch
-            return struct.metadata_doc_table(tables, "table_desc_table")
+            app_state.meta_table_doc = struct.metadata_doc_table(tables, "table_desc_table")
+            return app_state.meta_table_doc
     else:
         # Default (Section may be hidden in final version)
         return html.P("Select a table for more information...")
-
 
 
 @app.callback(
@@ -171,16 +173,12 @@ def update_table_metadata(schema, table):
 )
 def update_table_metadata(schema, table):
     #pass until metadata block ready
-    print(schema, table)
     if table[0] == "None":
-        print("Debug, update_table_metadata: Table is none")
         return None
 
     metadata_df = read_data_request.load_study_metadata(schema[0], table[0])
-    return struct.metadata_table(metadata_df, "metadata_table")
-    #return html.P("DEMO")
-
-
+    app_state.meta_table = struct.metadata_table(metadata_df, "metadata_table")
+    return app_state.meta_table
 
 
 @app.callback(
@@ -189,15 +187,15 @@ def update_table_metadata(schema, table):
     Input("doc_button", "n_clicks"),
     Input("metadata_button", "n_clicks"),
     Input("map_button", "n_clicks"),
-    #State("meta_box", "children"),
 )
-def body_sctions(doc_n, metadata_n, map_n):#, meta_state):
+def body_sctions(doc_n, metadata_n, map_n):
     app_state.set_global_activations(app_state.get_global_activations() + 1)
     click_state = app_state.get_button_clicks()
     app_state.set_button_clicks([doc_n, metadata_n, map_n])
 
     # Update sections with current state
-    #app_state.metadata["object"] = struct.make_metadata_box("Metadata: Study Name Placeholder", meta_state)
+    app_state.documentation["object"] = struct.make_documentation_box("Documentation: Study Name Placeholder", [app_state.schema_doc, app_state.table_doc])
+    app_state.metadata["object"] = struct.make_metadata_box("Metadata: Study Name Placeholder", [app_state.meta_table_doc, app_state.meta_table])
 
     sections = app_state.get_sections()
 
@@ -212,7 +210,7 @@ def body_sctions(doc_n, metadata_n, map_n):#, meta_state):
         return [html.P("Landing page placeholder")], [s["object"] for s in sections] # TODO make tutorial
 
     # update state
-    section["activations"] = app_state.get_global_activations()
+    section["activations"] = app_state.get_global_activations() # incrementing count of global clicks on and off
     if section["active"]:
         section["active"] = False
     else:
@@ -221,10 +219,6 @@ def body_sctions(doc_n, metadata_n, map_n):#, meta_state):
     # show state
     active_sections =  [i for i in sections if i["active"] == True]
     ordered_sections = sorted(active_sections, key=lambda d: d["activations"])
-
-    print([s["active"] for s in sections if s not in ordered_sections])
-
-    # TODO figure out how to do this without destroying and recreating the objects. We want to move them. 
 
     return [s["object"] for s in ordered_sections], [s["object"] for s in sections if s not in ordered_sections]
 
@@ -237,17 +231,17 @@ def body_sctions(doc_n, metadata_n, map_n):#, meta_state):
     Input("sidebar_left_div", 'n_clicks'),
     State("schema_list","children"),
     State({'type': 'active_schema', 'content': ALL}, 'key'),
+    State({'type': 'active_table', 'content': ALL}, 'key'),
     State({"type": "schema_collapse", "index" : ALL}, "is_open"),
 )
-def sidebar_clicks(_,children, active_schema, collapse):
-    print("Debug: Reading sidebar click")
-
+def sidebar_clicks(_,children, active_schema, active_table, collapse):
+    #print("Debug: Reading sidebar click")
     schema_clicks = {}
     table_clicks = {}   
 
     schema_i = 0
-
     active_schema = active_schema[0]
+    active_table = active_table[0]
 
     for schema_root in children:
         if "key" in schema_root["props"]:
@@ -259,7 +253,7 @@ def sidebar_clicks(_,children, active_schema, collapse):
                     collapse[schema_i] = not collapse[schema_i]
                     if collapse[schema_i]:
                         active_schema = schema_df["Data Directory"].iloc[schema_i]
-                    print("Action on index {}, schema {}. Stored {}, current {}".format(schema_i, schema, stored, schema_clicks[schema]))
+                    #print("Action on index {}, schema {}. Stored {}, current {}".format(schema_i, schema, stored, schema_clicks[schema]))
                 app_state.set_sidebar_clicks(schema, schema_clicks[schema])
             else:
                 app_state.set_sidebar_clicks(schema, 0)
@@ -276,7 +270,7 @@ def sidebar_clicks(_,children, active_schema, collapse):
                     stored = app_state.get_sidebar_clicks(table_full)
                     app_state.set_sidebar_clicks(table_full, table_clicks[table_full])
                     if stored != table_clicks[table_full]:
-                        print("Action on table {}. Stored {}, current {}".format(table_full, stored, table_clicks[table_full]))
+                        #print("Action on table {}. Stored {}, current {}".format(table_full, stored, table_clicks[table_full]))
                         # load map
                         map_data = load_or_fetch_map(table_schema)
                         return collapse, [table_schema], [table], map_data
@@ -286,9 +280,7 @@ def sidebar_clicks(_,children, active_schema, collapse):
 
 
     map_data = load_or_fetch_map(active_schema)
-    return collapse, [active_schema],  ["None"], map_data
-
-
+    return collapse, [active_schema],  [active_table], map_data
 
 
 if __name__ == "__main__":

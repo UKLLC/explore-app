@@ -210,34 +210,34 @@ def make_map_box(title):
 def make_documentation_box(title, children = "None"):
     title_sction = html.Div([make_section_title(title)], id = "doc_title", style = ss.DOC_TITLE_STYLE)
     if children == "None":
-        doc_box = html.Div([
-            title_sction,
-            html.Div([
-            html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div"),
-            html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div"),
-            ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
+        d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div")
+        d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
     else:
-        doc_box = html.Div([
-            title_sction,
-            html.Div([
-                children
-            ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
+        d1 = html.Div(children[0], id = "schema_description_div")
+        d2 = html.Div(children[1], id = "table_description_div")
+    
+    doc_box = html.Div([
+        title_sction,
+        html.Div([
+        d1,
+        d2,
+        ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
     return doc_box
 
 def make_metadata_box(title, children = "None"):
     title_section = html.Div([make_section_title(title)], id = "metadata_title", style = ss.METADATA_TITLE_STYLE)
     if children == "None":
-        meta_box = html.Div([
-            title_section,
-            html.Div([
-            html.Div([], id = "table_meta_desc_div"),
-            html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE),
-            ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
+        d1 = html.Div([], id = "table_meta_desc_div")
+        d2 = html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
     else:
-        meta_box = html.Div([
+        d1 = html.Div(children[0], id = "table_meta_desc_div")
+        d2 = html.Div(children[1], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
+
+    meta_box = html.Div([
             title_section,
             html.Div([
-                children
+            d1,
+            d2,
             ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
     return meta_box
 

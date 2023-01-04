@@ -32,6 +32,12 @@ class App_State():
             "active":False
             }
 
+        self.schema_doc = "None"
+        self.table_doc = "None"
+
+        self.meta_table_doc = "None"
+        self.meta_table = "None"
+
         #####################
 
     
