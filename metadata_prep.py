@@ -5,7 +5,6 @@ import os
 all_metadata = pd.read_csv("metadata\\all_metadata.csv")
 
 unique_schemas = list(set(all_metadata["Source"].values))
-print(unique_schemas)
 
 for schema in unique_schemas:
     df = all_metadata.loc[all_metadata["Source"] == schema]
@@ -14,7 +13,6 @@ for schema in unique_schemas:
     for table in unique_tables:
         table_df = df.loc[df["Block Name"] == table]
 
-        print(table)
         # TODO write out to file
         table_df.to_csv(os.path.join("metadata",schema,table+".csv"))
 

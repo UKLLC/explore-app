@@ -9,9 +9,13 @@ import dash_leaflet as dl
 import dash_leaflet.express as dlx
 from dash_extensions.javascript import arrow_function
 from dash_extensions.javascript import assign
+import warnings
 
 import stylesheet as ss
 import constants
+
+pd.options.mode.chained_assignment = None
+warnings.simplefilter(action="ignore",category = FutureWarning)
 
 def quick_table(df, id):
     quick_table = dash_table.DataTable(
@@ -75,7 +79,6 @@ def metadata_doc_table(df, id):
 
 
 def metadata_table(df, id):
-    df = df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
     quick_table = dash_table.DataTable(
             id=id,
             data=df.to_dict('records'),
@@ -105,21 +108,33 @@ def build_sidebar_list(df):
 
         tables = df.loc[df["Study"] == schema]["Block Name"]
 
-        schema_children = dbc.Collapse(dbc.ListGroup(id = schema+"_tables_list",
-        children = [
-            dbc.ListGroupItem(table, style=ss.TABLE_LIST_ITEM_STYLE,
-                action=True,active=False,key = schema+"-"+table,
-                id={
-                    'type': 'sidebar_table_item',
-                    "value":schema+"-"+table
-                }) for table in tables],
-            style = ss.COLLAPSE_DIV_STYLE,flush=True)
-            , id={
+        schema_children = dbc.Collapse(
+            dbc.ListGroup(id = schema+"_tables_list",
+                children = [
+                dbc.ListGroupItem(
+                    [
+                    dcc.Checklist([table],
+                        #active=False, #TODO this for when recreated
+                        id={
+                            'type': 'shopping_checklist',
+                            "value":schema+"-"+table
+                            }   
+                        )
+                    ], 
+                    style=ss.TABLE_LIST_ITEM_STYLE,
+                    action=True,active=False,key = schema+"-"+table,
+                    id={
+                        'type': 'sidebar_table_item',
+                        "value":schema+"-"+table
+                    }) for table in tables],
+                style = ss.COLLAPSE_DIV_STYLE,
+                flush=True), 
+            id={
                 'type': 'schema_collapse',
                 'index': i
-        },
-        style=ss.TABLE_LIST_STYLE,
-        is_open=False)
+            },
+            style=ss.TABLE_LIST_STYLE,
+            is_open=False)
 
         sidebar_children += [dbc.ListGroupItem(schema, action=True,active=False, id={
             'type': 'schema_item',
@@ -149,6 +164,15 @@ def make_sidebar_title():
         ])
         ], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
     return sidebar_title
+
+def make_sidebar_footer():
+    sidebar_footer = html.Div([
+        dbc.Button(
+            "Save Selection",
+            id="save_button",
+            n_clicks=0,
+            ),
+    ])
 
 def make_sidebar_left(sidebar_title, sidebar_catalogue):
     sidebar_left = html.Div([
@@ -250,6 +274,17 @@ def make_metadata_box(title, children = "None"):
             title_section,
             html.Div([
             d1,
+            html.Div([
+                dcc.Input(
+                id="metadata_search",
+                placeholder="search",
+                ),
+                dcc.Checklist(
+                ["Show values"],
+                id="values_toggle",
+                inline= True
+                ),
+            ]),
             d2,
             ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
     return meta_box

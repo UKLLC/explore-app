@@ -120,8 +120,6 @@ abbr[title] {
 }
 
 .list-group {
-    display: flex;
-    flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
     margin-top: 0;

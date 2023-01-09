@@ -27,7 +27,6 @@ def load_study_metadata(study, table_stem):
     '''
     '''
     # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
-    print(study, table_stem)
     values_df = pd.read_csv("metadata\\"+str(study.upper())+"\\"+table_stem+".csv")
 
     return values_df

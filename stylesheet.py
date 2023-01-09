@@ -85,10 +85,12 @@ TABLE_LIST_STYLE = {
     "border-width":"thin",
     }
 TABLE_LIST_ITEM_STYLE = {
+
     "border-bottom":"solid",
     "border-width":"thin",
     "overflow":"hidden",
     "background": "white",
+
     }
 
 ######################################
@@ -105,13 +107,11 @@ CONTEXT_BAR_STYLE = {
     "border-bottom":"solid",
     "border-width":"thin",
     "border-color":"white"
-
 }
 
 BUTTON_STYLE = {
     "float":"left",
     "margin":"1rem"
-
 }
 
 
@@ -211,7 +211,6 @@ METADATA_TITLE_STYLE = {
 METADATA_BOX_STYLE = {
     "color":"white",
     "background-color":white[2],
-
     "padding" : "1rem"
 }
 

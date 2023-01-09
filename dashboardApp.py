@@ -15,6 +15,7 @@ from dash_extensions.javascript import arrow_function
 from dash_extensions.javascript import assign
 import json
 import time
+import warnings
 
 from app_state import App_State
 import read_data_request
@@ -103,18 +104,16 @@ app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, mai
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
 )
 def update_schema_description(schema):
-    print("\nWorking in schema update")
+    print("CALLBACK: updating schema description")
 
     schema = schema[0]
-    
-    print("Update schema:",schema)
+
     if schema != "None":
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
         if schema == "NHSD":
             schema_info = "Generic info about nhsd"
             return schema_info
         else:
-            print("schema is not None, updating studies")
             app_state.schema_doc = struct.make_schema_description(schema_info)
             return app_state.schema_doc
     else:
@@ -149,7 +148,7 @@ def update_tables_description(schema):
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
     Input({'type': 'active_table', 'content': ALL}, 'key'),
 )
-def update_table_metadata(schema, table):
+def update_table_data(schema, table):
     #pass until metadata block ready
     schema = schema[0]
     if schema != "None":
@@ -170,15 +169,38 @@ def update_table_metadata(schema, table):
     Output('table_metadata_div', "children"),
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
     Input({'type': 'active_table', 'content': ALL}, 'key'),
+    Input("values_toggle", "value"),
+    Input("metadata_search", "value"),
 )
-def update_table_metadata(schema, table):
+def update_table_metadata(schema, table, values_on, search):
     #pass until metadata block ready
     if table[0] == "None":
         return None
 
     metadata_df = read_data_request.load_study_metadata(schema[0], table[0])
+    if type(values_on) == list and len(values_on) == 1:
+        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
+        if type(search) == str and len(search) > 0:
+            metadata_df = metadata_df.loc[
+            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) |
+            (metadata_df["Value"].astype(str).str.contains(search, flags=re.IGNORECASE)) |
+            (metadata_df["Value Description"].str.contains(search, flags=re.IGNORECASE))
+            ]
+    else:
+        
+        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description"]].drop_duplicates()
+        if type(search) == str and len(search) > 0:
+            metadata_df = metadata_df.loc[
+            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
+            ]
+
     app_state.meta_table = struct.metadata_table(metadata_df, "metadata_table")
     return app_state.meta_table
+
 
 
 @app.callback(
@@ -186,7 +208,7 @@ def update_table_metadata(schema, table):
     Output("hidden_body","children"),
     Input("doc_button", "n_clicks"),
     Input("metadata_button", "n_clicks"),
-    Input("map_button", "n_clicks"),
+    Input("map_button", "n_clicks")
 )
 def body_sctions(doc_n, metadata_n, map_n):
     app_state.set_global_activations(app_state.get_global_activations() + 1)
@@ -285,7 +307,6 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
     Output("sidebar_list_div", "children"),
     Input("search_button", "n_clicks"),
     Input("main_search", "value")
-    
     )
 def main_search(click, search):
     '''
@@ -294,21 +315,50 @@ def main_search(click, search):
     Do we want it on button click or auto filter?
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
-    print("search:", search)
+    print("CALLBACK: main search")
     if type(search)!=str or search == "":
-        print("No search, return full")
         return struct.build_sidebar_list(study_df)
-    print(study_df.columns)   
-    sub_list = study_df.loc[(study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | (study_df["Study"].str.contains(search)) | (study_df["Block Name"].str.contains(search)) | (study_df["Keywords"].str.contains(search)) | (study_df["Unnamed: 11"].str.contains(search))]
-    print(sub_list.columns) 
-    '''
-    Thinking...
-    So we need to keep columns if the search string is in study, table name or any of the keyword columns
-    '''
 
+    sub_list = study_df.loc[
+        (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
+        (study_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+        (study_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
+        (study_df["Unnamed: 11"].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df["Unnamed: 12"].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df["Unnamed: 13"].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df["Unnamed: 14"].str.contains(search, flags=re.IGNORECASE))
+        ]
 
     return struct.build_sidebar_list(sub_list)
 
 
+'''
+Todo: Checklist. 
+This is quite a hard problem. 
+We need to put a checkbox in every table, preserve its clicked status during searches when the directory is remade.
+1. Create checked list in table sections
+2. Create dictionary of dictionaries on startup of every possible table and its clicked status for each study. 
+3. Callback which takes all checkboxes as input, identifies which table caused the callback, and flips the bit on the dictionary
+4. When creating the sidebar, check the dictionary for each schema and make the checkboxes ticked or not as appropriate
+
+Now action
+How do we identify the specific table from a dynamic callback?
+We can replicate the process for schema collapses.
+'''
+
+
+@app.callback(
+    Output({'type': 'demo', 'content': ALL}, 'key'),
+    Input({"type": "shopping_checklist", "value" : ALL}, "value")
+)
+def shopping_cart(checked):
+    print("CALLBACK: Shopping cart")
+    selected = [t for t in checked if t != None and t != []]
+    print(selected)
+    return ["1"]
+
+
 if __name__ == "__main__":
     app.run_server(port=8888)
+    pd.options.mode.chained_assignment = None
+    warnings.simplefilter(action="ignore",category = FutureWarning)
