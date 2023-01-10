@@ -167,17 +167,21 @@ def make_sidebar_title():
 
 def make_sidebar_footer():
     sidebar_footer = html.Div([
+        html.H2("Save Shopping Basket"),
         dbc.Button(
-            "Save Selection",
+            "Save",
             id="save_button",
             n_clicks=0,
             ),
-    ])
+        ], 
+        style = ss.SIDEBAR_FOOTER_STYLE)
+    return sidebar_footer
 
-def make_sidebar_left(sidebar_title, sidebar_catalogue):
+def make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer):
     sidebar_left = html.Div([
         sidebar_title,
-        sidebar_catalogue],
+        sidebar_catalogue,
+        sidebar_footer],
         style = ss.SIDEBAR_LEFT_STYLE,
         id = "sidebar_left_div")
     return sidebar_left

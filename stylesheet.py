@@ -48,15 +48,24 @@ SIDEBAR_TITLE_STYLE = {
     "border-right" : "solid",
     "border-width":"thin",
     "border-color" : "white",
-
 }
 
 SIDEBAR_LIST_DIV_STYLE = {
     "position":"relative",
     "background-color":"#212529",
-    "height": "calc(100% - "+str(sidebar_title_h)+"rem",
+    "height": "calc(100% - "+str(sidebar_title_h+5)+"rem",
     "overflow-y": "scroll",
     "overflow-x": "hidden",
+}
+
+SIDEBAR_FOOTER_STYLE = {
+    "position":"relative",
+    "left": 0,
+    "height": "5rem",
+    "min-width":"10rem",
+    "background-color" : "black",
+    "color" : "white",
+    'textAlign': 'center',
 }
 
 SCHEMA_LIST_STYLE = {

@@ -66,7 +66,8 @@ titlebar = struct.main_titlebar("Data Discoverability Resource")
 
 sidebar_catalogue = struct.make_sidebar_catalogue(study_df)
 sidebar_title = struct.make_sidebar_title()
-sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
+sidebar_footer = struct.make_sidebar_footer()
+sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer)
 
 # Context bar #########################################################################
 
@@ -356,6 +357,10 @@ def shopping_cart(checked):
     selected = [t for t in checked if t != None and t != []]
     print(selected)
     return ["1"]
+
+
+def save_shopping_cart():
+    pass
 
 
 if __name__ == "__main__":
