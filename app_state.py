@@ -3,6 +3,8 @@ class App_State():
         self.schema = "None"
         self.table = "None"
 
+        self.last_table = "None"
+
         self.tables_df = None
         self.descs_df = None
         self.vals_df = None
@@ -37,6 +39,11 @@ class App_State():
 
         self.meta_table_doc = "None"
         self.meta_table = "None"
+
+        self.meta_table_df = "None"
+
+
+        self.shopping_basket = []
 
         #####################
 

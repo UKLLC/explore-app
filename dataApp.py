@@ -17,7 +17,7 @@ import orjson
 import time
 
 from app_state import App_State
-import read_data_request
+import dataIO
 
 ###########################################
 ### Styles
@@ -94,10 +94,10 @@ BODY_STYLE = {
 ### Data prep functions
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
-study_df = read_data_request.load_study_request()
-linked_df = read_data_request.load_linked_request()
+study_df = dataIO.load_study_request()
+linked_df = dataIO.load_linked_request()
 schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
-study_info_and_links_df = read_data_request.load_study_info_and_links()
+study_info_and_links_df = dataIO.load_study_info_and_links()
 
 def get_study_tables(schema):
     return study_df.loc[study_df["Study"] == schema]

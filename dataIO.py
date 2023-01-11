@@ -30,3 +30,13 @@ def load_study_metadata(study, table_stem):
     values_df = pd.read_csv("metadata\\"+str(study.upper())+"\\"+table_stem+".csv")
 
     return values_df
+
+def basket_out(basket):
+    basket_pd = pd.DataFrame({
+        "TABLE_SCHEMA" : [item.split("-")[0] for item in basket],
+        "TABLE_NAME" : [item.split("-")[1] for item in basket]
+        },
+        columns = ["TABLE_SCHEMA", "TABLE_NAME"]
+    ) 
+    basket_pd.to_csv("Shopping Basket Output.csv")
+        

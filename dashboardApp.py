@@ -8,7 +8,7 @@ from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
 import pandas as pd
-from dash import Dash, Input, Output, State, callback, dash_table, ALL
+from dash import Dash, Input, Output, State, callback, dash_table, ALL, MATCH
 import dash_leaflet as dl
 import dash_leaflet.express as dlx
 from dash_extensions.javascript import arrow_function
@@ -16,9 +16,10 @@ from dash_extensions.javascript import assign
 import json
 import time
 import warnings
+import logging
 
 from app_state import App_State
-import read_data_request
+import dataIO
 import stylesheet as ss
 import constants 
 import structures as struct
@@ -33,10 +34,10 @@ app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 start_time = time.time()
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
-study_df = read_data_request.load_study_request()
-linked_df = read_data_request.load_linked_request()
+study_df = dataIO.load_study_request()
+linked_df = dataIO.load_linked_request()
 schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
-study_info_and_links_df = read_data_request.load_study_info_and_links()
+study_info_and_links_df = dataIO.load_study_info_and_links()
 
 app_state = App_State()
 
@@ -88,13 +89,14 @@ maindiv = struct.make_body([], [])
 
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
-demo = struct.make_variable_div("demo")
+shopping_basket_op = struct.make_variable_div("shopping_basket_op")
+save_output = struct.make_variable_div("save_op") 
 
 hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, demo,  hidden_body])
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output,  hidden_body])
 
 ###########################################
 ### Actions
@@ -146,15 +148,19 @@ def update_tables_description(schema):
 
 @app.callback(
     Output('table_meta_desc_div', "children"),
-    Input({'type': 'active_schema', 'content': ALL}, 'key'),
     Input({'type': 'active_table', 'content': ALL}, 'key'),
+    State({'type': 'active_schema', 'content': ALL}, 'key')
 )
-def update_table_data(schema, table):
+def update_table_data(table,schema):
     #pass until metadata block ready
     schema = schema[0]
-    if schema != "None":
-        tables = get_study_tables(schema)
 
+    if table[0] == app_state.last_table: # If no change to table - do nothing
+        app_state.last_table = table[0]
+        return app_state.meta_table_doc
+    elif schema != "None":
+        app_state.last_table = table[0]
+        tables = get_study_tables(schema)
         tables = tables.loc[tables["Block Name"] == table[0]]
         if schema == "NHSD": # Expand to linked data branch
             return html.P("NHSD placeholder text")
@@ -168,17 +174,21 @@ def update_table_data(schema, table):
 
 @app.callback(
     Output('table_metadata_div', "children"),
-    Input({'type': 'active_schema', 'content': ALL}, 'key'),
     Input({'type': 'active_table', 'content': ALL}, 'key'),
     Input("values_toggle", "value"),
     Input("metadata_search", "value"),
+    State({'type': 'active_schema', 'content': ALL}, 'key')
 )
-def update_table_metadata(schema, table, values_on, search):
+def update_table_metadata(table, values_on, search, schema):
     #pass until metadata block ready
     if table[0] == "None":
         return None
+    try:
+        metadata_df = dataIO.load_study_metadata(schema[0], table[0])
+        app_state.meta_table_df = metadata_df
+    except FileNotFoundError:
+        metadata_df = app_state.meta_table_df
 
-    metadata_df = read_data_request.load_study_metadata(schema[0], table[0])
     if type(values_on) == list and len(values_on) == 1:
         metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
         if type(search) == str and len(search) > 0:
@@ -202,7 +212,7 @@ def update_table_metadata(schema, table, values_on, search):
     app_state.meta_table = struct.metadata_table(metadata_df, "metadata_table")
     return app_state.meta_table
 
-
+#########################
 
 @app.callback(
     Output("body", "children"),
@@ -324,10 +334,10 @@ def main_search(click, search):
         (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
         (study_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
         (study_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
-        (study_df["Unnamed: 11"].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df["Unnamed: 12"].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df["Unnamed: 13"].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df["Unnamed: 14"].str.contains(search, flags=re.IGNORECASE))
+        (study_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
     return struct.build_sidebar_list(sub_list)
@@ -345,25 +355,49 @@ We need to put a checkbox in every table, preserve its clicked status during sea
 Now action
 How do we identify the specific table from a dynamic callback?
 We can replicate the process for schema collapses.
+
 '''
+
+@app.callback(
+    Output({'type': 'shopping_basket_op', 'content': ALL}, 'key'),
+    Input({"type": "shopping_checklist", "value" : ALL}, "value"),
+    prevent_initial_call=True
+    )
+def shopping_cart(selected):
+    print("CALLBACK: Shopping cart")
+    ctx = dash.callback_context
+    triggered_0 = ctx.triggered[0]
+    if triggered_0["value"]!=None:
+        input_id = triggered_0["prop_id"].split(".")[0][38:-2]
+
+        if input_id in app_state.shopping_basket:
+            app_state.shopping_basket.remove(input_id)
+        else:
+            app_state.shopping_basket.append(input_id)
+
+    return ["placeholder"]
 
 
 @app.callback(
-    Output({'type': 'demo', 'content': ALL}, 'key'),
-    Input({"type": "shopping_checklist", "value" : ALL}, "value")
-)
-def shopping_cart(checked):
-    print("CALLBACK: Shopping cart")
-    selected = [t for t in checked if t != None and t != []]
-    print(selected)
-    return ["1"]
-
-
-def save_shopping_cart():
-    pass
+    Output({'type': 'save_op', 'content': ALL}, 'key'),
+    Input({"type": "shopping_checklist", "value" : ALL}, "value"),
+    prevent_initial_call=True
+    )
+def save_shopping_cart(shopping_basket):
+    '''
+    input save button
+    Get list of selected checkboxes - how? can just save shopping cart as is, list of ids
+    
+    '''
+    # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
+    dataIO.basket_out(app_state.shopping_basket)
+    return ["placeholder"]
 
 
 if __name__ == "__main__":
-    app.run_server(port=8888)
+    log = logging.getLogger('werkzeug')
+    log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
+    app.run_server(port=8888)
+    

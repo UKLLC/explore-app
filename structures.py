@@ -32,10 +32,9 @@ def quick_table(df, id):
     return quick_table
 
 def data_doc_table(df, id):
-    keyword_cols = ["Keywords", "Unnamed: 11", "Unnamed: 12","Unnamed: 13","Unnamed: 14","Unnamed: 15"]
-    for kw in keyword_cols:
+    for kw in constants.keyword_cols:
         df[kw] = df[kw].str.strip()
-    df["Keywords"] = df["Keywords"]+", "+df["Unnamed: 11"]+", "+df["Unnamed: 12"]+", "+df["Unnamed: 13"]+", "+df["Unnamed: 14"]+", "+df["Unnamed: 15"]
+    df["Keywords"] = df["Keywords"]+", "+df[constants.keyword_cols[1]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[3]]+", "+df[constants.keyword_cols[4]]
     df["Keywords"] = df["Keywords"].str.replace(", ,", "")
     df["Keywords"] = df["Keywords"].str.rstrip(",| ,")
 
@@ -56,10 +55,9 @@ def data_doc_table(df, id):
 
 
 def metadata_doc_table(df, id):
-    keyword_cols = ["Keywords", "Unnamed: 11", "Unnamed: 12","Unnamed: 13","Unnamed: 14","Unnamed: 15"]
-    for kw in keyword_cols:
+    for kw in constants.keyword_cols:
         df[kw] = df[kw].str.strip()
-    df["Keywords"] = df["Keywords"]+", "+df["Unnamed: 11"]+", "+df["Unnamed: 12"]+", "+df["Unnamed: 13"]+", "+df["Unnamed: 14"]+", "+df["Unnamed: 15"]
+    df["Keywords"] = df["Keywords"]+", "+df[constants.keyword_cols[1]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[3]]+", "+df[constants.keyword_cols[4]]
     df["Keywords"] = df["Keywords"].str.replace(", ,", "")
     df["Keywords"] = df["Keywords"].str.rstrip(",| ,")
 
@@ -118,11 +116,13 @@ def build_sidebar_list(df):
                         id={
                             'type': 'shopping_checklist',
                             "value":schema+"-"+table
-                            }   
+                            }, 
                         )
                     ], 
                     style=ss.TABLE_LIST_ITEM_STYLE,
-                    action=True,active=False,key = schema+"-"+table,
+                    action=True,
+                    active=False,
+                    key = schema+"-"+table,
                     id={
                         'type': 'sidebar_table_item',
                         "value":schema+"-"+table
