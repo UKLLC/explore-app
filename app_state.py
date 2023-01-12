@@ -1,5 +1,5 @@
 class App_State():
-    def __init__(self) -> None:
+    def __init__(self, schema_df) -> None:
         self.schema = "None"
         self.table = "None"
 
@@ -10,6 +10,10 @@ class App_State():
         self.vals_df = None
         self.sidebar_clicks = {}
         self.button_clicks = [0,0,0]
+        self.schema_collapse_open = {}
+        for schema in schema_df["Data Directory"].values:
+            self.schema_collapse_open[schema] = False
+    
 
         self.map_data = {}
 
@@ -115,3 +119,10 @@ class App_State():
 
     def get_sections(self):
         return self.documentation, self.metadata, self.map
+
+##############################
+
+    def reset_sidebar_clicks(self):
+        for k in self.sidebar_clicks.keys():
+            self.sidebar_clicks[k] = 0
+            

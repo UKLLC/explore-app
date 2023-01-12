@@ -17,6 +17,7 @@ import json
 import time
 import warnings
 import logging
+from dash.exceptions import PreventUpdate
 
 from app_state import App_State
 import dataIO
@@ -39,7 +40,7 @@ linked_df = dataIO.load_linked_request()
 schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
 study_info_and_links_df = dataIO.load_study_info_and_links()
 
-app_state = App_State()
+app_state = App_State(schema_df)
 
 def load_or_fetch_map(study):
     returned_data = app_state.get_map_data(study)
@@ -107,8 +108,7 @@ app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, mai
     Input({'type': 'active_schema', 'content': ALL}, 'key'),
 )
 def update_schema_description(schema):
-    print("CALLBACK: updating schema description")
-
+    print("CALLBACK: DOC BOX - updating schema description")
     schema = schema[0]
 
     if schema != "None":
@@ -131,6 +131,7 @@ def update_tables_description(schema):
     '''
     Replace contents of description box with table information 
     '''
+    print("CALLBACK: DOC BOX - updating table description")
     schema = schema[0]
     if schema != "None":
         tables = get_study_tables(schema)
@@ -152,6 +153,7 @@ def update_tables_description(schema):
     State({'type': 'active_schema', 'content': ALL}, 'key')
 )
 def update_table_data(table,schema):
+    print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
     schema = schema[0]
 
@@ -180,6 +182,7 @@ def update_table_data(table,schema):
     State({'type': 'active_schema', 'content': ALL}, 'key')
 )
 def update_table_metadata(table, values_on, search, schema):
+    print("CALLBACK: META BOX - updating table metadata")
     #pass until metadata block ready
     if table[0] == "None":
         return None
@@ -222,6 +225,7 @@ def update_table_metadata(table, values_on, search, schema):
     Input("map_button", "n_clicks")
 )
 def body_sctions(doc_n, metadata_n, map_n):
+    print("CALLBACK: BODY - rebuilding body sections")
     app_state.set_global_activations(app_state.get_global_activations() + 1)
     click_state = app_state.get_button_clicks()
     app_state.set_button_clicks([doc_n, metadata_n, map_n])
@@ -261,14 +265,21 @@ def body_sctions(doc_n, metadata_n, map_n):
     Output({'type': 'active_schema', 'content': ALL}, 'key'),
     Output({'type': 'active_table', 'content': ALL}, 'key'),
     Output('map_region', "data"),
-    Input("sidebar_left_div", 'n_clicks'),
+    Input("sidebar_list_div", 'n_clicks'),
     State("schema_list","children"),
     State({'type': 'active_schema', 'content': ALL}, 'key'),
     State({'type': 'active_table', 'content': ALL}, 'key'),
-    State({"type": "schema_collapse", "index" : ALL}, "is_open"),
+    State({"type": "schema_collapse", "index" : ALL}, "is_open")
 )
 def sidebar_clicks(_,children, active_schema, active_table, collapse):
-    #print("Debug: Reading sidebar click")
+    print("CALLBACK: SIDEBAR - registering click")
+
+    ctx = dash.callback_context
+    triggered_0 = ctx.triggered[0]
+    if not triggered_0["value"]:
+        print("Preventing update in SIDEBAR")
+        PreventUpdate
+
     schema_clicks = {}
     table_clicks = {}   
 
@@ -283,10 +294,10 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
                 schema_clicks[schema] = schema_root["props"]["n_clicks"]
                 stored = app_state.get_sidebar_clicks(schema)
                 if stored != schema_clicks[schema]:
-                    collapse[schema_i] = not collapse[schema_i]
+                    collapse[schema_i] = not collapse[schema_i] # App objects
+                    app_state.schema_collapse_open[schema] = not app_state.schema_collapse_open[schema] # App state documentation
                     if collapse[schema_i]:
-                        active_schema = schema_df["Data Directory"].iloc[schema_i]
-                    #print("Action on index {}, schema {}. Stored {}, current {}".format(schema_i, schema, stored, schema_clicks[schema]))
+                        active_schema = schema_df["Data Directory"].iloc[schema_i]                       
                 app_state.set_sidebar_clicks(schema, schema_clicks[schema])
             else:
                 app_state.set_sidebar_clicks(schema, 0)
@@ -306,11 +317,14 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
                         #print("Action on table {}. Stored {}, current {}".format(table_full, stored, table_clicks[table_full]))
                         # load map
                         map_data = load_or_fetch_map(table_schema)
+                        app_state.table = table
+                        app_state.schema = active_schema
                         return collapse, [table_schema], [table], map_data
                 else:
                     app_state.set_sidebar_clicks(table_full, 0)
                     table_clicks[table_full] = 0
 
+    app_state.schema = active_schema
     map_data = load_or_fetch_map(active_schema)
     return collapse, [active_schema],  [active_table], map_data
 
@@ -327,8 +341,12 @@ def main_search(click, search):
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
     print("CALLBACK: main search")
+
+    # Reset sidebar clicks in app state - we are rebuilding it here!
+    app_state.reset_sidebar_clicks()
+
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(study_df)
+        return struct.build_sidebar_list(study_df, app_state.shopping_basket, app_state.sidebar_clicks)
 
     sub_list = study_df.loc[
         (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
@@ -340,7 +358,7 @@ def main_search(click, search):
         (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
-    return struct.build_sidebar_list(sub_list)
+    return struct.build_sidebar_list(sub_list, app_state.shopping_basket, app_state.schema_collapse_open)
 
 
 '''
@@ -367,7 +385,8 @@ def shopping_cart(selected):
     print("CALLBACK: Shopping cart")
     ctx = dash.callback_context
     triggered_0 = ctx.triggered[0]
-    if triggered_0["value"]!=None:
+    print(triggered_0)
+    if triggered_0["value"] and triggered_0["value"]!=[]:
         input_id = triggered_0["prop_id"].split(".")[0][38:-2]
 
         if input_id in app_state.shopping_basket:

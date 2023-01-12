@@ -95,7 +95,8 @@ def main_titlebar(title_text):
     titlebar = html.Div([html.H1(title_text, className="title")],style = ss.TITLEBAR_STYLE)
     return titlebar
 
-def build_sidebar_list(df):
+def build_sidebar_list(df, current_basket = [], sch_open ={}):
+    print("SB: ", current_basket)
     sidebar_children = []
     # Get data sources
     schema_df = pd.concat([df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
@@ -109,24 +110,26 @@ def build_sidebar_list(df):
         schema_children = dbc.Collapse(
             dbc.ListGroup(id = schema+"_tables_list",
                 children = [
-                dbc.ListGroupItem(
-                    [
-                    dcc.Checklist([table],
-                        #active=False, #TODO this for when recreated
+                    dbc.ListGroupItem(
+                        [
+                        dcc.Checklist([table],
+                            value = [table] if schema+"-"+table in current_basket else [],
+                            id={
+                                'type': 'shopping_checklist',
+                                "value":schema+"-"+table
+                                }, 
+                            )
+                        ], 
+                        style=ss.TABLE_LIST_ITEM_STYLE,
+                        action=True,
+                        active=False,
+                        key = schema+"-"+table,
                         id={
-                            'type': 'shopping_checklist',
+                            'type': 'sidebar_table_item',
                             "value":schema+"-"+table
-                            }, 
-                        )
-                    ], 
-                    style=ss.TABLE_LIST_ITEM_STYLE,
-                    action=True,
-                    active=False,
-                    key = schema+"-"+table,
-                    id={
-                        'type': 'sidebar_table_item',
-                        "value":schema+"-"+table
-                    }) for table in tables],
+                        }
+                        ) for table in tables
+                    ],
                 style = ss.COLLAPSE_DIV_STYLE,
                 flush=True), 
             id={
@@ -134,20 +137,25 @@ def build_sidebar_list(df):
                 'index': i
             },
             style=ss.TABLE_LIST_STYLE,
-            is_open=False)
-
+            is_open = sch_open[schema] if schema in sch_open else False
+            )
+        #print([[schema+"-"+table] if schema+"-"+table in current_basket else [] for table in tables])
+        
         sidebar_children += [dbc.ListGroupItem(schema, action=True,active=False, id={
             'type': 'schema_item',
             'index': i
         }, key = schema,
         style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
+    print(sch_open)
+
     return [dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")]
 
 
 def make_sidebar_catalogue(df):
+    print("making sidebar cat")
     catalogue_div = html.Div(build_sidebar_list(df), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
     return catalogue_div
-
+ 
 def make_sidebar_title():
     sidebar_title = html.Div([
         html.Div(html.H2("Data Directory")),
@@ -178,6 +186,7 @@ def make_sidebar_footer():
     return sidebar_footer
 
 def make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer):
+    print("making sidebar")
     sidebar_left = html.Div([
         sidebar_title,
         sidebar_catalogue,
