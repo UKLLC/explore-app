@@ -1,3 +1,5 @@
+import structures as struct
+
 class App_State():
     def __init__(self, schema_df) -> None:
         self.schema = "None"
@@ -9,11 +11,10 @@ class App_State():
         self.descs_df = None
         self.vals_df = None
         self.sidebar_clicks = {}
-        self.button_clicks = [0,0,0]
+
         self.schema_collapse_open = {}
         for schema in schema_df["Data Directory"].values:
             self.schema_collapse_open[schema] = False
-    
 
         self.map_data = {}
 
@@ -21,31 +22,29 @@ class App_State():
         
         self.global_activations = 0
 
-        self.map = {
-            "object": None,
-            "activations" : 0,
-            "active":False
+        self.sections = {
+            "Map":{
+                "constructor": struct.make_map_box,
+                "activations" : 0,
+                "active":False,
+                "children":[None, None]
+            },
+            "Documentation":{
+                "constructor": struct.make_documentation_box,
+                "activations" : 0,
+                "active":False,
+                "children":[None, None]
+            },
+            "Metadata":{
+                "constructor": struct.make_metadata_box,
+                "activations" : 0,
+                "active":False,
+                "children":[None, None]
             }
-        self.documentation = {
-            "object": None,
-            "activations" : 0,
-            "active":False
-            }
-        
-        self.metadata = {
-            "object": None,
-            "activations" : 0,
-            "active":False
-            }
+        }
 
         self.schema_doc = "None"
         self.table_doc = "None"
-
-        self.meta_table_doc = "None"
-        self.meta_table = "None"
-
-        self.meta_table_df = "None"
-
 
         self.shopping_basket = []
 
@@ -79,13 +78,6 @@ class App_State():
     def get_sidebar_clicks(self, index):
         return self.sidebar_clicks[index]
 
-
-    def set_button_clicks(self, lst):
-        self.button_clicks = lst
-
-    def get_button_clicks(self):
-        return self.button_clicks
-
     def set_active_schema(self, schema):
         self.schema = schema
 
@@ -107,18 +99,6 @@ class App_State():
     def set_map_data(self, study, data):
         self.map_data[study] = data
 
-
-##############################
-#   buttons
-
-    def get_global_activations(self):
-        return self.global_activations
-    def set_global_activations(self, val):
-        self.global_activations = val
-
-
-    def get_sections(self):
-        return self.documentation, self.metadata, self.map
 
 ##############################
 

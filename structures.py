@@ -146,7 +146,6 @@ def build_sidebar_list(df, current_basket = [], sch_open ={}):
             'index': i
         }, key = schema,
         style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
-    print(sch_open)
 
     return [dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")]
 
@@ -197,41 +196,12 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer):
 
 def make_context_bar():
     context_bar = html.Div([
-
-        dbc.Collapse(
-            dbc.Button(
-                "Documentation",
-                id="doc_button",
-                n_clicks=0,
-            ),
-            id = "doc_button_collapse",
-            is_open= True,
-            style = ss.BUTTON_STYLE
-        ),
-
-        dbc.Collapse(
-            dbc.Button(
-                "Metadata",
-                id="metadata_button",
-                n_clicks=0,
-            ),
-            id = "metadata_button_collapse",
-            is_open= True,
-            style = ss.BUTTON_STYLE
-        ),
-
-        dbc.Collapse(
-            dbc.Button(
-                "Coverage",
-                id="map_button",
-                n_clicks=0,
-            ),
-            id = "map_button_collapse",
-            is_open= True,
-            style = ss.BUTTON_STYLE
-        )
-
-    ], 
+        dcc.Tabs(id="context_tabs", value='', children=[
+            dcc.Tab(label='Documentation', value="Documentation"),
+            dcc.Tab(label='Metadata', value='Metadata'),
+            dcc.Tab(label='Coverage', value='Map'),
+            ]),
+        ],
         id = "context_bar_div", 
         style = ss.CONTEXT_BAR_STYLE)
     return context_bar
@@ -243,7 +213,7 @@ def make_section_title(title):
     return section_title
 
 
-def make_map_box(title):
+def make_map_box(title= "Map: [study placeholder]", children = []):
     title_sction = html.Div([make_section_title(title)], id = "map_title", style = ss.MAP_TITLE_STYLE)
     map_box = html.Div([
         title_sction,
@@ -257,9 +227,10 @@ def make_map_box(title):
         ], id = "map_div", style = ss.MAP_DIV_STYLE)
     return map_box
 
-def make_documentation_box(title, children = "None"):
+def make_documentation_box(title = "Documentation: [study placeholder]", children = [None, None]):
     title_sction = html.Div([make_section_title(title)], id = "doc_title", style = ss.DOC_TITLE_STYLE)
-    if children == "None":
+    print("making doc box")
+    if children == [None, None]:
         d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div")
         d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
     else:
@@ -274,9 +245,9 @@ def make_documentation_box(title, children = "None"):
         ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
     return doc_box
 
-def make_metadata_box(title, children = "None"):
+def make_metadata_box(title = "Metadata: [study placeholder]", children = [None, None]):
     title_section = html.Div([make_section_title(title)], id = "metadata_title", style = ss.METADATA_TITLE_STYLE)
-    if children == "None":
+    if children == [None, None]:
         d1 = html.Div([], id = "table_meta_desc_div")
         d2 = html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
     else:
@@ -302,12 +273,9 @@ def make_metadata_box(title, children = "None"):
             ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
     return meta_box
 
-def make_body(sections, ids):
-    collapse_sections = []
-    for section, s_id in zip(sections, ids):
-        collapse_sections.append(dbc.Collapse(section, id = s_id, is_open=True))
-    body = html.Div((collapse_sections),id="body",style = ss.BODY_STYLE )
-    return body
+def make_body(sections):
+    return html.Div(sections, id="body",style = ss.BODY_STYLE )
+
 
 def make_variable_div(id_type):
     variable_div = html.Div([],key = "None",id = {"type":id_type, "content":"None"})

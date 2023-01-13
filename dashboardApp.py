@@ -76,18 +76,9 @@ sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue, sideba
 context_bar_div = struct.make_context_bar()
 
 # Body ################################################################################
-# get base map ########################################################################
-
-app_state.map["object"] = struct.make_map_box("Coverage: Study Name Placeholder")
-
-app_state.documentation["object"] = struct.make_documentation_box("Documentation: Study Name Placeholder")
-
-app_state.metadata["object"] = struct.make_metadata_box("Metadata: Study Name Placeholder")
 
 # Main div template ##################################################################
-#maindiv = struct.make_body([app_state.map["object"], app_state.documentation["object"], app_state.metadata["object"]], ["map_collapse", "doc_collapse", "metadata_collapse"])
-maindiv = struct.make_body([], [])
-
+maindiv = struct.make_body([])
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
 shopping_basket_op = struct.make_variable_div("shopping_basket_op")
@@ -116,11 +107,11 @@ def update_schema_description(schema):
         if schema == "NHSD":
             schema_info = "Generic info about nhsd"
             return schema_info
-        else:
-            app_state.schema_doc = struct.make_schema_description(schema_info)
-            return app_state.schema_doc
+        else:      
+            app_state.sections["Documentation"]["children"][0] = struct.make_schema_description(schema_info)
+            return app_state.sections["Documentation"]["children"][0]
     else:
-        return app_state.schema_doc
+        return ["Placeholder schema description, null schema - this should not be possible when contextual tabs is implemented"]
 
 
 @app.callback(
@@ -132,6 +123,7 @@ def update_tables_description(schema):
     Replace contents of description box with table information 
     '''
     print("CALLBACK: DOC BOX - updating table description")
+
     schema = schema[0]
     if schema != "None":
         tables = get_study_tables(schema)
@@ -139,10 +131,10 @@ def update_tables_description(schema):
             schema_info = "Generic info about nhsd table"
             return schema_info
         else: # Study data branch
-            app_state.table_doc = struct.data_doc_table(tables, "table_desc_table")
-            return app_state.table_doc
+            app_state.sections["Documentation"]["children"][0] = struct.data_doc_table(tables, "table_desc_table")
+            return app_state.sections["Documentation"]["children"][0]
     else:
-        return [html.P("Select a table for more information...")]
+        return ["Placeholder table description, null schema - this should not be possible when contextual tabs is implemented"]
 
 
 ### METADATA BOX #####################
@@ -159,7 +151,8 @@ def update_table_data(table,schema):
 
     if table[0] == app_state.last_table: # If no change to table - do nothing
         app_state.last_table = table[0]
-        return app_state.meta_table_doc
+        #return app_state.sections["Metadata"]["object"].children[1].children[0]
+        PreventUpdate
     elif schema != "None":
         app_state.last_table = table[0]
         tables = get_study_tables(schema)
@@ -167,11 +160,12 @@ def update_table_data(table,schema):
         if schema == "NHSD": # Expand to linked data branch
             return html.P("NHSD placeholder text")
         else: # Study data branch
-            app_state.meta_table_doc = struct.metadata_doc_table(tables, "table_desc_table")
-            return app_state.meta_table_doc
+            app_state.sections["Metadata"]["children"][0] = struct.metadata_doc_table(tables, "table_desc_table")
+            return app_state.sections["Metadata"]["children"][0]
     else:
         # Default (Section may be hidden in final version)
-        return html.P("Select a table for more information...")
+        return ["Placeholder metadata desc, null schema - this should not be possible when contextual tabs is implemented"]
+
 
 
 @app.callback(
@@ -183,14 +177,15 @@ def update_table_data(table,schema):
 )
 def update_table_metadata(table, values_on, search, schema):
     print("CALLBACK: META BOX - updating table metadata")
-    #pass until metadata block ready
     if table[0] == "None":
-        return None
+        return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
+
     try:
         metadata_df = dataIO.load_study_metadata(schema[0], table[0])
-        app_state.meta_table_df = metadata_df
-    except FileNotFoundError:
-        metadata_df = app_state.meta_table_df
+    except FileNotFoundError: # Study has changed 
+        metadata_df = app_state.sections["Metadata"]["children"][1]
+        print("Prventing update in Meta box table metadata")
+        PreventUpdate
 
     if type(values_on) == list and len(values_on) == 1:
         metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
@@ -203,7 +198,6 @@ def update_table_metadata(table, values_on, search, schema):
             (metadata_df["Value Description"].str.contains(search, flags=re.IGNORECASE))
             ]
     else:
-        
         metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description"]].drop_duplicates()
         if type(search) == str and len(search) > 0:
             metadata_df = metadata_df.loc[
@@ -212,52 +206,35 @@ def update_table_metadata(table, values_on, search, schema):
             (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
             ]
 
-    app_state.meta_table = struct.metadata_table(metadata_df, "metadata_table")
-    return app_state.meta_table
+    metadata_df_update = struct.metadata_table(metadata_df, "metadata_table")
+    app_state.sections["Metadata"]["children"][1] = metadata_df_update
+    return metadata_df_update
 
 #########################
 
 @app.callback(
     Output("body", "children"),
     Output("hidden_body","children"),
-    Input("doc_button", "n_clicks"),
-    Input("metadata_button", "n_clicks"),
-    Input("map_button", "n_clicks")
+    Input("context_tabs", "value"),
+    prevent_initial_call=True
 )
-def body_sctions(doc_n, metadata_n, map_n):
-    print("CALLBACK: BODY - rebuilding body sections")
-    app_state.set_global_activations(app_state.get_global_activations() + 1)
-    click_state = app_state.get_button_clicks()
-    app_state.set_button_clicks([doc_n, metadata_n, map_n])
+def body_sctions(tab):
+    print("CALLBACK: BODY, activating", tab)
 
-    # Update sections with current state
-    app_state.documentation["object"] = struct.make_documentation_box("Documentation: Study Name Placeholder", [app_state.schema_doc, app_state.table_doc])
-    app_state.metadata["object"] = struct.make_metadata_box("Metadata: Study Name Placeholder", [app_state.meta_table_doc, app_state.meta_table])
+    a_tab_is_active = False
+    for section in app_state.sections.keys():
+        if section in tab:
+            app_state.sections[section]["active"] = True
+            a_tab_is_active = True
+        else:
+            app_state.sections[section]["active"] = False
 
-    sections = app_state.get_sections()
+    # Check: if no tabs are active, run landing page
+    if not a_tab_is_active:
+        print("TODO: landing page:")
+        return ["placeholder landing page"], [section["constructor"](children = section["children"]) for section in app_state.sections.values() if not section["active"]]
 
-    # determine which button was clicked:
-    if click_state[0] != doc_n:
-        section = app_state.documentation
-    elif click_state[1] != metadata_n:
-        section = app_state.metadata
-    elif click_state[2] != map_n:
-        section = app_state.map
-    else:
-        return [html.P("Landing page placeholder")], [s["object"] for s in sections] # TODO make tutorial
-
-    # update state
-    section["activations"] = app_state.get_global_activations() # incrementing count of global clicks on and off
-    if section["active"]:
-        section["active"] = False
-    else:
-        section["active"] = True
-
-    # show state
-    active_sections =  [i for i in sections if i["active"] == True]
-    ordered_sections = sorted(active_sections, key=lambda d: d["activations"])
-
-    return [s["object"] for s in ordered_sections], [s["object"] for s in sections if s not in ordered_sections]
+    return [section["constructor"](children = section["children"]) for section in app_state.sections.values() if section["active"]], [section["constructor"](children = section["children"]) for section in app_state.sections.values() if not section["active"]]
 
 
 @app.callback(
@@ -361,21 +338,6 @@ def main_search(click, search):
     return struct.build_sidebar_list(sub_list, app_state.shopping_basket, app_state.schema_collapse_open)
 
 
-'''
-Todo: Checklist. 
-This is quite a hard problem. 
-We need to put a checkbox in every table, preserve its clicked status during searches when the directory is remade.
-1. Create checked list in table sections
-2. Create dictionary of dictionaries on startup of every possible table and its clicked status for each study. 
-3. Callback which takes all checkboxes as input, identifies which table caused the callback, and flips the bit on the dictionary
-4. When creating the sidebar, check the dictionary for each schema and make the checkboxes ticked or not as appropriate
-
-Now action
-How do we identify the specific table from a dynamic callback?
-We can replicate the process for schema collapses.
-
-'''
-
 @app.callback(
     Output({'type': 'shopping_basket_op', 'content': ALL}, 'key'),
     Input({"type": "shopping_checklist", "value" : ALL}, "value"),
@@ -385,7 +347,7 @@ def shopping_cart(selected):
     print("CALLBACK: Shopping cart")
     ctx = dash.callback_context
     triggered_0 = ctx.triggered[0]
-    print(triggered_0)
+
     if triggered_0["value"] and triggered_0["value"]!=[]:
         input_id = triggered_0["prop_id"].split(".")[0][38:-2]
 
