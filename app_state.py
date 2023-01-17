@@ -1,4 +1,6 @@
+from plotly import data
 import structures as struct
+import dataIO
 
 class App_State():
     def __init__(self, schema_df) -> None:
@@ -17,6 +19,11 @@ class App_State():
             self.schema_collapse_open[schema] = False
 
         self.map_data = {}
+
+        self.lookup_index_to_sch = dataIO.read_json("study_lookup1.json")
+        self.lookup_sch_to_index = dataIO.read_json("study_lookup2.json")
+        self.lookup_index_to_tab = dataIO.read_json("table_lookup1.json")
+        self.lookup_tab_to_index = dataIO.read_json("table_lookup2.json")
 
         #####################
         

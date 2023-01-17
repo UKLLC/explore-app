@@ -95,14 +95,14 @@ def main_titlebar(title_text):
     titlebar = html.Div([html.H1(title_text, className="title")],style = ss.TITLEBAR_STYLE)
     return titlebar
 
-def build_sidebar_list(df, current_basket = [], sch_open ={}):
+def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch_open ={}):
     print("SB: ", current_basket)
     sidebar_children = []
     # Get data sources
     schema_df = pd.concat([df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
     
     # Attribute tables to each study
-    for i, row in schema_df.iterrows():
+    for _, row in schema_df.iterrows():
         schema = row["Data Directory"]
 
         tables = df.loc[df["Study"] == schema]["Block Name"]
@@ -126,33 +126,39 @@ def build_sidebar_list(df, current_basket = [], sch_open ={}):
                         key = schema+"-"+table,
                         id={
                             'type': 'sidebar_table_item',
-                            "value":schema+"-"+table
+                            'index': table_lookup[schema]
                         }
                         ) for table in tables
                     ],
-                style = ss.COLLAPSE_DIV_STYLE,
-                flush=True), 
+                    style = ss.COLLAPSE_DIV_STYLE,
+                    flush=True), 
             id={
                 'type': 'schema_collapse',
-                'index': i
+                'index': schema_lookup[schema]
             },
             style=ss.TABLE_LIST_STYLE,
             is_open = sch_open[schema] if schema in sch_open else False
             )
         #print([[schema+"-"+table] if schema+"-"+table in current_basket else [] for table in tables])
         
-        sidebar_children += [dbc.ListGroupItem(schema, action=True,active=False, id={
-            'type': 'schema_item',
-            'index': i
-        }, key = schema,
-        style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
+        sidebar_children += [dbc.ListGroupItem(
+            schema,
+            action=True, # TODO, True means enabled hover style. Need to specify
+            active=False, 
+            id={
+                'type': 'schema_item',
+                'index': schema_lookup[schema]
+            }, 
+            key = schema,
+            nclicks = 0,
+            style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
 
     return [dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")]
 
 
-def make_sidebar_catalogue(df):
+def make_sidebar_catalogue(df, schema_lookup, table_lookup):
     print("making sidebar cat")
-    catalogue_div = html.Div(build_sidebar_list(df), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
+    catalogue_div = html.Div(build_sidebar_list(df, schema_lookup, table_lookup), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
     return catalogue_div
  
 def make_sidebar_title():
@@ -287,7 +293,7 @@ def make_body(sections):
 
 
 def make_variable_div(id_type):
-    variable_div = html.Div([],key = "None",id = {"type":id_type, "content":"None"})
+    variable_div = html.Div([],key = "None", id = id_type, index = -1)
     return variable_div
 
 def make_app_layout(titlebar, sidebar_left, context_bar, body, variable_divs):

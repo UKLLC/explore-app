@@ -1,5 +1,6 @@
 from openpyxl import load_workbook
 import pandas as pd
+import json
 
 
 def load_study_request():
@@ -40,3 +41,12 @@ def basket_out(basket):
     ) 
     basket_pd.to_csv("Shopping Basket Output.csv")
         
+
+def write_json(name, content):
+    with open("assets/"+name, "w") as f:
+        json.dump(content, f, ensure_ascii= False)
+
+def read_json(name):
+    print("loading ",name)
+    with open("assets/"+name, "r") as f:
+        return json.load(f)

@@ -66,7 +66,7 @@ titlebar = struct.main_titlebar("Data Discoverability Resource")
 
 # Left Sidebar #######################################################################
 
-sidebar_catalogue = struct.make_sidebar_catalogue(study_df)
+sidebar_catalogue = struct.make_sidebar_catalogue(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index)
 sidebar_title = struct.make_sidebar_title()
 sidebar_footer = struct.make_sidebar_footer()
 sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer)
@@ -237,7 +237,21 @@ def body_sctions(tab, active_body, hidden_body):
 
     return [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if section_vals["active"]], [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
 
+@app.callback(
+    Output({"type": "sidebar_table_item", "value" : ALL}, "active"),
+    Input({'type': 'active_table', 'content': ALL}, 'key'),
+    State({'type': 'active_schema', 'content': ALL}, 'key'),
+    State({"type": "sidebar_table_item", "value" : ALL}, "key")
+)
+def sidebar_active_table(table, schema, table_keys):
+    print("CALLBACK: Sidebard active update")
+    active = [False for t in table_keys]
+    if table[0] == "None":
+        return active
+    active[table_keys.index(schema[0]+"-"+table[0])] = True
+    return active
 
+'''
 @app.callback(
     Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
     Output({'type': 'active_schema', 'content': ALL}, 'key'),
@@ -305,6 +319,24 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
     app_state.schema = active_schema
     map_data = load_or_fetch_map(active_schema)
     return collapse, [active_schema],  [active_table], map_data
+'''
+
+@app.callback(
+    Output({'type': 'schema_collapse', 'index': MATCH}, 'is_open'),
+    Output('active_schema', 'index'), # TODO figure out how to make this carry over in pattern matching
+    Input({"type": "schema_item", "index": MATCH}, 'n_clicks'),
+    State({"type": "schema_collapse", "index" : MATCH}, "is_open")
+)# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
+def sidebar_schema(sch_click, is_open):
+    print(sch_click)
+    print("\n")
+    print(is_open)
+    return ["PLACEHOLDEr"] ["PLACEHOLDER"]
+
+
+
+
+
 
 @app.callback(
     Output("sidebar_list_div", "children"),
@@ -324,7 +356,7 @@ def main_search(click, search):
     app_state.reset_sidebar_clicks()
 
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(study_df, app_state.shopping_basket, app_state.sidebar_clicks)
+        return struct.build_sidebar_list(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.sidebar_clicks)
 
     sub_list = study_df.loc[
         (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
@@ -336,7 +368,7 @@ def main_search(click, search):
         (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
-    return struct.build_sidebar_list(sub_list, app_state.shopping_basket, app_state.schema_collapse_open)
+    return struct.build_sidebar_list(sub_list, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.schema_collapse_open)
 
 
 @app.callback(
@@ -383,3 +415,25 @@ if __name__ == "__main__":
     warnings.simplefilter(action="ignore",category = FutureWarning)
     app.run_server(port=8888)
     
+''''
+thoughts on efficiency:
+    index throughout
+    using match rather than all will be a big improvement.
+    tables must be ided by index not key. 
+    We currently use key. 
+    Thats fine, we can have a dictionary of table key to index setup at the start or even in pre
+    Table must always have same index or search will break it.
+    can also use index in hidden divs
+
+    This doesn't answer the question of how we efficiently set a list item active and set all others inactive.
+    I don't have any ideas for this one just yet. 
+    Well. We could make a new callback chain
+    Send the old table to a holder
+    update - invert active on that index
+    update the same callback with the new table
+    update - invert active on that index.
+    Could work. Bit complex, but its getting that way in general.
+    Best wait for the merge at 2:30 though. hour and a half. Go scran. 
+
+    1. Give every table an id (may as well do for study too)
+'''
