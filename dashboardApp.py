@@ -108,8 +108,7 @@ def update_schema_description(schema):
             schema_info = "Generic info about nhsd"
             return schema_info
         else:      
-            app_state.sections["Documentation"]["children"][0] = struct.make_schema_description(schema_info)
-            return app_state.sections["Documentation"]["children"][0]
+            return struct.make_schema_description(schema_info)
     else:
         return ["Placeholder schema description, null schema - this should not be possible when contextual tabs is implemented"]
 
@@ -131,8 +130,7 @@ def update_tables_description(schema):
             schema_info = "Generic info about nhsd table"
             return schema_info
         else: # Study data branch
-            app_state.sections["Documentation"]["children"][0] = struct.data_doc_table(tables, "table_desc_table")
-            return app_state.sections["Documentation"]["children"][0]
+            return struct.data_doc_table(tables, "table_desc_table")
     else:
         return ["Placeholder table description, null schema - this should not be possible when contextual tabs is implemented"]
 
@@ -152,7 +150,7 @@ def update_table_data(table,schema):
     if table[0] == app_state.last_table: # If no change to table - do nothing
         app_state.last_table = table[0]
         #return app_state.sections["Metadata"]["object"].children[1].children[0]
-        PreventUpdate
+        raise PreventUpdate
     elif schema != "None":
         app_state.last_table = table[0]
         tables = get_study_tables(schema)
@@ -160,8 +158,7 @@ def update_table_data(table,schema):
         if schema == "NHSD": # Expand to linked data branch
             return html.P("NHSD placeholder text")
         else: # Study data branch
-            app_state.sections["Metadata"]["children"][0] = struct.metadata_doc_table(tables, "table_desc_table")
-            return app_state.sections["Metadata"]["children"][0]
+            return struct.metadata_doc_table(tables, "table_desc_table")
     else:
         # Default (Section may be hidden in final version)
         return ["Placeholder metadata desc, null schema - this should not be possible when contextual tabs is implemented"]
@@ -179,13 +176,11 @@ def update_table_metadata(table, values_on, search, schema):
     print("CALLBACK: META BOX - updating table metadata")
     if table[0] == "None":
         return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
-
     try:
         metadata_df = dataIO.load_study_metadata(schema[0], table[0])
     except FileNotFoundError: # Study has changed 
-        metadata_df = app_state.sections["Metadata"]["children"][1]
-        print("Prventing update in Meta box table metadata")
-        PreventUpdate
+        print("Preventing update in Meta box table metadata")
+        raise PreventUpdate
 
     if type(values_on) == list and len(values_on) == 1:
         metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
@@ -206,9 +201,7 @@ def update_table_metadata(table, values_on, search, schema):
             (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
             ]
 
-    metadata_df_update = struct.metadata_table(metadata_df, "metadata_table")
-    app_state.sections["Metadata"]["children"][1] = metadata_df_update
-    return metadata_df_update
+    return struct.metadata_table(metadata_df, "metadata_table")
 
 #########################
 
@@ -216,10 +209,18 @@ def update_table_metadata(table, values_on, search, schema):
     Output("body", "children"),
     Output("hidden_body","children"),
     Input("context_tabs", "value"),
+    State("body", "children"),
+    State("hidden_body","children"),
     prevent_initial_call=True
 )
-def body_sctions(tab):
+def body_sctions(tab, active_body, hidden_body):
     print("CALLBACK: BODY, activating", tab)
+
+    sections_states = {}
+    for section in active_body +hidden_body:
+        section_id = section["props"]["children"][1]["props"]["id"]
+        print("encountered", section_id)
+        sections_states[section_id] = section
 
     a_tab_is_active = False
     for section in app_state.sections.keys():
@@ -232,9 +233,9 @@ def body_sctions(tab):
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         print("TODO: landing page:")
-        return ["placeholder landing page"], [section["constructor"](children = section["children"]) for section in app_state.sections.values() if not section["active"]]
+        return ["placeholder landing page"],  [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
 
-    return [section["constructor"](children = section["children"]) for section in app_state.sections.values() if section["active"]], [section["constructor"](children = section["children"]) for section in app_state.sections.values() if not section["active"]]
+    return [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if section_vals["active"]], [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
 
 
 @app.callback(
@@ -254,8 +255,8 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
     ctx = dash.callback_context
     triggered_0 = ctx.triggered[0]
     if not triggered_0["value"]:
-        print("Preventing update in SIDEBAR")
-        PreventUpdate
+        pass
+        # Placeholder...
 
     schema_clicks = {}
     table_clicks = {}   

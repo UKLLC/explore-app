@@ -220,7 +220,8 @@ METADATA_TITLE_STYLE = {
 METADATA_BOX_STYLE = {
     "color":"white",
     "background-color":white[2],
-    "padding" : "1rem"
+    "padding" : "1rem",
+    "height" : "100%"
 }
 
 METADATA_DESC_HEADER = {

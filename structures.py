@@ -217,14 +217,23 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
     title_sction = html.Div([make_section_title(title)], id = "map_title", style = ss.MAP_TITLE_STYLE)
     map_box = html.Div([
         title_sction,
-        dl.Map(
-            center=[54.5,-3.5], zoom=5, scrollWheelZoom=False,
-            children=[
-            dl.TileLayer(url=constants.MAP_URL, maxZoom=20, attribution=constants.MAP_ATTRIBUTION),
-            dl.GeoJSON(data = None, id = "map_region", options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0)
-            ,hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))),
-            ],id="map", style = ss.DYNA_MAP_STYLE),
-        ], id = "map_div", style = ss.MAP_DIV_STYLE)
+        html.Div([
+            dl.Map(
+                center=[54.5,-3.5], 
+                zoom=5, 
+                scrollWheelZoom=False,
+                children=[
+                    dl.TileLayer(url=constants.MAP_URL, 
+                        maxZoom=20, 
+                        attribution=constants.MAP_ATTRIBUTION),
+                    dl.GeoJSON(data = None, 
+                        id = "map_region", 
+                        options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0),
+                        hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))
+                        ),
+                ],id="map_object", style = ss.DYNA_MAP_STYLE),
+            ], id = "Map", style = ss.MAP_DIV_STYLE)
+        ])
     return map_box
 
 def make_documentation_box(title = "Documentation: [study placeholder]", children = [None, None]):
@@ -242,7 +251,7 @@ def make_documentation_box(title = "Documentation: [study placeholder]", childre
         html.Div([
         d1,
         d2,
-        ], id = "doc_box", style = ss.DOCUMENTATION_BOX_STYLE)])
+        ], id = "Documentation", style = ss.DOCUMENTATION_BOX_STYLE)])
     return doc_box
 
 def make_metadata_box(title = "Metadata: [study placeholder]", children = [None, None]):
@@ -270,7 +279,7 @@ def make_metadata_box(title = "Metadata: [study placeholder]", children = [None,
                 ),
             ]),
             d2,
-            ], id = "meta_box", style = ss.METADATA_BOX_STYLE)])
+            ], id = "Metadata", style = ss.METADATA_BOX_STYLE)])
     return meta_box
 
 def make_body(sections):
@@ -300,5 +309,11 @@ def make_table_doc(tables):
 
 
 def make_hidden_body():
-    body = html.Div([],style=ss.HIDDEN_BODY_STYLE, id = "hidden_body")
+    body = html.Div([
+            make_documentation_box(),
+            make_metadata_box(),
+            make_map_box()
+        ],
+        style=ss.HIDDEN_BODY_STYLE,
+        id = "hidden_body")
     return body

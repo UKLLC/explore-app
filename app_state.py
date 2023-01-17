@@ -22,7 +22,7 @@ class App_State():
         
         self.global_activations = 0
 
-        self.sections = {
+        self.sections = { # component dictionaries must share a name with html object id and tab value
             "Map":{
                 "constructor": struct.make_map_box,
                 "activations" : 0,
@@ -30,6 +30,7 @@ class App_State():
                 "children":[None, None]
             },
             "Documentation":{
+
                 "constructor": struct.make_documentation_box,
                 "activations" : 0,
                 "active":False,
