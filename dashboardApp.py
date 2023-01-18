@@ -86,10 +86,17 @@ save_output = struct.make_variable_div("save_op")
 
 hidden_body = struct.make_hidden_body()
 
+
+# Variable Divs ####################################################################
+active_schemas = struct.make_variable_div_list("schema_wrapper", "active_schemas", list(app_state.lookup_index_to_sch.keys()))
+active_tables = struct.make_variable_div_list("table_wrapper","active_tables", list(app_state.lookup_index_to_tab.keys()))
+app_state.active_schemas = active_schemas
+app_state.active_tables = active_tables
+
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output,  hidden_body])
-
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output,  hidden_body, active_schemas, active_tables])
+print("Built app layout")
 ###########################################
 ### Actions
 
@@ -323,17 +330,57 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
 
 @app.callback(
     Output({'type': 'schema_collapse', 'index': MATCH}, 'is_open'),
-    Output('active_schema', 'index'), # TODO figure out how to make this carry over in pattern matching
+    Output({'type': 'schema_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
+
     Input({"type": "schema_item", "index": MATCH}, 'n_clicks'),
-    State({"type": "schema_collapse", "index" : MATCH}, "is_open")
+
+    State({"type": "schema_collapse", "index" : MATCH}, "is_open"),
+    State({"type": "schema_collapse", "index" : MATCH}, "id"),
+    State({"type": "schema_item", "index" : MATCH}, "key"),
+    prevent_initial_call = True
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
-def sidebar_schema(sch_click, is_open):
-    print(sch_click)
-    print("\n")
-    print(is_open)
-    return ["PLACEHOLDEr"] ["PLACEHOLDER"]
+def sidebar_schema(_, is_open, id, triggers):
+    #print(test)
+    index = id["index"]
+    schema = app_state.lookup_index_to_sch[index]
+    if triggers == "None":
+        triggers = 0
+    else:
+        triggers = int(triggers)
+
+    # if schema is active and closed: open, active
+    if app_state.schema == schema and not is_open:
+        return True, str(triggers)
+
+    # if schema is active and open: close, inactive
+    elif app_state.schema == schema and is_open:
+        app_state.last_schema = app_state.schema
+        app_state.schema = schema
+        return False, str(triggers)
+    # if schema is inactive and closed: open, active
+    # if schema is inactive and open: open, active
+    elif app_state.schema != schema:
+        app_state.last_schema = app_state.schema
+        app_state.schema = schema
+        return True, str(triggers + 1)
 
 
+@app.callback(
+    Output({"type": "schema_item", "index" : ALL}, "active"),
+    Output({'type': 'active_schema', 'content': ALL}, 'key'),
+    Input({'type': 'schema_item', 'index': ALL}, 'key'),
+    prevent_initial_call = True
+)
+def schema_toggle_active(active_schemas):
+
+    #can we update something with match then trigger a callback without match?
+
+    print("app_state, current {}, last {}".format(app_state.schema, app_state.last_schema))
+
+    active = [False for s in active_schemas]
+    active[int(app_state.lookup_sch_to_index[app_state.schema])] = True
+    print(app_state.schema)
+    return active, app_state.schema#[app_state.schema]
 
 
 
@@ -413,7 +460,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888)
+    app.run_server(port=8888, debug = True)
     
 ''''
 thoughts on efficiency:

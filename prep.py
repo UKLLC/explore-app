@@ -22,8 +22,8 @@ study_set = request["Study"].drop_duplicates().values
 print(study_set)
 for i, schema in zip(range(len(study_set)), study_set):
 
-    study_lookup1[i] = schema
-    study_lookup2[schema] = i
+    study_lookup1[str(i)] = schema
+    study_lookup2[schema] = str(i)
 
 dataIO.write_json("study_lookup1.json", study_lookup1)
 dataIO.write_json("study_lookup2.json", study_lookup2)

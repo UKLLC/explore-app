@@ -7,7 +7,9 @@ class App_State():
         self.schema = "None"
         self.table = "None"
 
+        self.last_schema = "None"
         self.last_table = "None"
+        
 
         self.tables_df = None
         self.descs_df = None
@@ -25,6 +27,13 @@ class App_State():
         self.lookup_index_to_tab = dataIO.read_json("table_lookup1.json")
         self.lookup_tab_to_index = dataIO.read_json("table_lookup2.json")
 
+        # TEMP NHSD additions:
+        self.lookup_index_to_sch["999"] = "NHSD"
+        self.lookup_sch_to_index["NHSD"] = "999"
+
+        self.active_schemas = None
+
+        self.active_tables = None
         #####################
         
         self.global_activations = 0

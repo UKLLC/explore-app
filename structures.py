@@ -126,7 +126,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                         key = schema+"-"+table,
                         id={
                             'type': 'sidebar_table_item',
-                            'index': table_lookup[schema]
+                            'index': table_lookup[schema+"-"+table]
                         }
                         ) for table in tables
                     ],
@@ -149,15 +149,14 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                 'type': 'schema_item',
                 'index': schema_lookup[schema]
             }, 
-            key = schema,
-            nclicks = 0,
+            key = 0,
+            n_clicks = 0,
             style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
 
     return [dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")]
 
 
 def make_sidebar_catalogue(df, schema_lookup, table_lookup):
-    print("making sidebar cat")
     catalogue_div = html.Div(build_sidebar_list(df, schema_lookup, table_lookup), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
     return catalogue_div
  
@@ -191,7 +190,6 @@ def make_sidebar_footer():
     return sidebar_footer
 
 def make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer):
-    print("making sidebar")
     sidebar_left = html.Div([
         sidebar_title,
         sidebar_catalogue,
@@ -244,7 +242,6 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
 
 def make_documentation_box(title = "Documentation: [study placeholder]", children = [None, None]):
     title_sction = html.Div([make_section_title(title)], id = "doc_title", style = ss.DOC_TITLE_STYLE)
-    print("making doc box")
     if children == [None, None]:
         d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div")
         d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
@@ -293,8 +290,18 @@ def make_body(sections):
 
 
 def make_variable_div(id_type):
-    variable_div = html.Div([],key = "None", id = id_type, index = -1)
+    variable_div = html.Div([],key = "None", id = {"type":id_type, "value":"None", "index":-1})
     return variable_div
+
+def make_variable_div_list(wrapper_id, id_type, indices):
+    divs = []
+    for i in indices:
+        variable_div = html.Div([],key = "0", id = {"type":id_type, "index":str(i)})
+        divs.append(variable_div)
+    wrapper_div = html.Div([d for d in divs], key= "None", id = wrapper_id)
+    return wrapper_div
+
+
 
 def make_app_layout(titlebar, sidebar_left, context_bar, body, variable_divs):
     app_layout =  html.Div([titlebar, sidebar_left, context_bar, body] + variable_divs, id="app",style=ss.APP_STYLE) 
