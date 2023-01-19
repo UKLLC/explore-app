@@ -88,14 +88,12 @@ hidden_body = struct.make_hidden_body()
 
 
 # Variable Divs ####################################################################
-active_schemas = struct.make_variable_div_list("schema_wrapper", "active_schemas", list(app_state.lookup_index_to_sch.keys()))
-active_tables = struct.make_variable_div_list("table_wrapper","active_tables", list(app_state.lookup_index_to_tab.keys()))
-app_state.active_schemas = active_schemas
-app_state.active_tables = active_tables
+active_schemas = struct.make_variable_div_list("active_schemas", list(app_state.lookup_index_to_sch.keys()))
+active_tables = struct.make_variable_div_list("active_tables", list(app_state.lookup_index_to_tab.keys()))
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output,  hidden_body, active_schemas, active_tables])
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output,  hidden_body] + active_schemas + active_tables)
 print("Built app layout")
 ###########################################
 ### Actions
@@ -103,11 +101,11 @@ print("Built app layout")
 ### DOCUMENTATION BOX #####################
 @app.callback(
     Output('schema_description_div', "children"),
-    Input({'type': 'active_schema', 'content': ALL}, 'key'),
+    Input('active_schema','key'),
+    prevent_initial_call=True
 )
 def update_schema_description(schema):
     print("CALLBACK: DOC BOX - updating schema description")
-    schema = schema[0]
 
     if schema != "None":
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
@@ -122,7 +120,8 @@ def update_schema_description(schema):
 
 @app.callback(
     Output('table_description_div', "children"),
-    Input({'type': 'active_schema', 'content': ALL}, 'key'),
+    Input('active_schema','key'),
+    prevent_initial_call=True
 )
 def update_tables_description(schema):
     '''
@@ -130,7 +129,6 @@ def update_tables_description(schema):
     '''
     print("CALLBACK: DOC BOX - updating table description")
 
-    schema = schema[0]
     if schema != "None":
         tables = get_study_tables(schema)
         if schema == "NHSD": # Expand to linked data branch
@@ -146,22 +144,21 @@ def update_tables_description(schema):
 
 @app.callback(
     Output('table_meta_desc_div', "children"),
-    Input({'type': 'active_table', 'content': ALL}, 'key'),
-    State({'type': 'active_schema', 'content': ALL}, 'key')
+    Input('active_table', 'key'),
+    prevent_initial_call=True
 )
-def update_table_data(table,schema):
+def update_table_data(table):
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
-    schema = schema[0]
-
+    schema = app_state.schema
     if table[0] == app_state.last_table: # If no change to table - do nothing
-        app_state.last_table = table[0]
+        app_state.last_table = table
         #return app_state.sections["Metadata"]["object"].children[1].children[0]
         raise PreventUpdate
     elif schema != "None":
-        app_state.last_table = table[0]
+        app_state.last_table = table
         tables = get_study_tables(schema)
-        tables = tables.loc[tables["Block Name"] == table[0]]
+        tables = tables.loc[tables["Block Name"] == table]
         if schema == "NHSD": # Expand to linked data branch
             return html.P("NHSD placeholder text")
         else: # Study data branch
@@ -174,14 +171,15 @@ def update_table_data(table,schema):
 
 @app.callback(
     Output('table_metadata_div', "children"),
-    Input({'type': 'active_table', 'content': ALL}, 'key'),
+    Input('active_table','key'),
     Input("values_toggle", "value"),
     Input("metadata_search", "value"),
-    State({'type': 'active_schema', 'content': ALL}, 'key')
+    prevent_initial_call=True
 )
-def update_table_metadata(table, values_on, search, schema):
+def update_table_metadata(table, values_on, search):
     print("CALLBACK: META BOX - updating table metadata")
-    if table[0] == "None":
+    schema = app_state.schema
+    if table== "None":
         return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
     try:
         metadata_df = dataIO.load_study_metadata(schema[0], table[0])
@@ -244,19 +242,7 @@ def body_sctions(tab, active_body, hidden_body):
 
     return [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if section_vals["active"]], [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
 
-@app.callback(
-    Output({"type": "sidebar_table_item", "value" : ALL}, "active"),
-    Input({'type': 'active_table', 'content': ALL}, 'key'),
-    State({'type': 'active_schema', 'content': ALL}, 'key'),
-    State({"type": "sidebar_table_item", "value" : ALL}, "key")
-)
-def sidebar_active_table(table, schema, table_keys):
-    print("CALLBACK: Sidebard active update")
-    active = [False for t in table_keys]
-    if table[0] == "None":
-        return active
-    active[table_keys.index(schema[0]+"-"+table[0])] = True
-    return active
+
 
 '''
 @app.callback(
@@ -331,15 +317,23 @@ def sidebar_clicks(_,children, active_schema, active_table, collapse):
 @app.callback(
     Output({'type': 'schema_collapse', 'index': MATCH}, 'is_open'),
     Output({'type': 'schema_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
-
+    Output('active_schema','key'),
     Input({"type": "schema_item", "index": MATCH}, 'n_clicks'),
-
     State({"type": "schema_collapse", "index" : MATCH}, "is_open"),
     State({"type": "schema_collapse", "index" : MATCH}, "id"),
     State({"type": "schema_item", "index" : MATCH}, "key"),
     prevent_initial_call = True
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
-def sidebar_schema(_, is_open, id, triggers):
+def sidebar_schema(clicks, is_open, id, triggers):
+    print("CALLBACK: sidebar schema click")
+    app_state.schema_click_count +=1
+    print("Schema click count", app_state.schema_click_count)
+    ctx = dash.callback_context
+    triggered_0 = ctx.triggered[0]
+    print("triggered:",triggered_0)
+    if str(clicks) == "0":
+        print("Aborting sidebar schema click call")
+        return False, str(triggers), "None"
     #print(test)
     index = id["index"]
     schema = app_state.lookup_index_to_sch[index]
@@ -350,38 +344,72 @@ def sidebar_schema(_, is_open, id, triggers):
 
     # if schema is active and closed: open, active
     if app_state.schema == schema and not is_open:
-        return True, str(triggers)
+        app_state.schema = schema
+        return True, str(triggers), schema
 
     # if schema is active and open: close, inactive
     elif app_state.schema == schema and is_open:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
-        return False, str(triggers)
+        return False, str(triggers), schema
     # if schema is inactive and closed: open, active
     # if schema is inactive and open: open, active
     elif app_state.schema != schema:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
-        return True, str(triggers + 1)
+        return True, str(triggers + 1), schema
 
 
 @app.callback(
     Output({"type": "schema_item", "index" : ALL}, "active"),
-    Output({'type': 'active_schema', 'content': ALL}, 'key'),
-    Input({'type': 'schema_item', 'index': ALL}, 'key'),
+    Output('active_schema','key'), # Move this out - it is slow!
+    Input({'type': 'schema_item', 'index': ALL}, 'key'), # This is slow?
     prevent_initial_call = True
 )
 def schema_toggle_active(active_schemas):
-
-    #can we update something with match then trigger a callback without match?
-
-    print("app_state, current {}, last {}".format(app_state.schema, app_state.last_schema))
+    print("CALLBACK: schema activation")
 
     active = [False for s in active_schemas]
-    active[int(app_state.lookup_sch_to_index[app_state.schema])] = True
-    print(app_state.schema)
-    return active, app_state.schema#[app_state.schema]
+    if app_state.schema == "None":
+        return active, app_state.schema
 
+    active[int(app_state.lookup_sch_to_index[app_state.schema])] = True
+    return active, app_state.schema
+
+
+@app.callback(
+    Output({'type': 'table_item_container', 'index': MATCH}, 'key'), # number of triggers, incrementing
+    Input({"type": "sidebar_table_item", "index": MATCH}, 'n_clicks'),
+    State({"type": "sidebar_table_item", "index": MATCH}, 'key'),
+
+    prevent_initial_call = True
+)
+def sidebar_table(_, table):
+
+    print("CALLBACK: sidebar table click")
+    app_state.table_click_count +=1
+    print("Table click count", app_state.table_click_count)
+    app_state.table = table
+    return "trigger"
+
+
+@app.callback(
+    Output({"type": "sidebar_table_item", "index" : ALL}, "active"),
+    Output('active_table','key'),
+
+    Input({'type': 'table_item_container', 'index': ALL}, 'key'),
+    State({"type": "sidebar_table_item", "index" : ALL}, "active"),
+    prevent_initial_call = True
+)
+def table_toggle_active(table_keys, active):
+    print("CALLBACK: Sidebard table active update")
+    active = [False for t in table_keys]
+    if app_state.table == "None":
+        return active, app_state.table
+
+    active[int(app_state.lookup_tab_to_index[app_state.table])] = True
+
+    return active, app_state.table
 
 
 
@@ -390,7 +418,7 @@ def schema_toggle_active(active_schemas):
     Input("search_button", "n_clicks"),
     Input("main_search", "value")
     )
-def main_search(click, search):
+def main_search(_, search):
     '''
     Version 1: search by similar text in schema, table name or keywords. 
     these may be branched into different search functions later, but for now will do the trick

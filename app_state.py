@@ -31,9 +31,11 @@ class App_State():
         self.lookup_index_to_sch["999"] = "NHSD"
         self.lookup_sch_to_index["NHSD"] = "999"
 
-        self.active_schemas = None
 
-        self.active_tables = None
+        # DEBUG ######
+        self.schema_click_count = 0
+        self.table_click_count = 0
+
         #####################
         
         self.global_activations = 0

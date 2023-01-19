@@ -110,25 +110,35 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
         schema_children = dbc.Collapse(
             dbc.ListGroup(id = schema+"_tables_list",
                 children = [
-                    dbc.ListGroupItem(
-                        [
-                        dcc.Checklist([table],
-                            value = [table] if schema+"-"+table in current_basket else [],
+                    html.Div([
+                        dbc.ListGroupItem(
+                            [
+                            dcc.Checklist([table],
+                                value = [table] if schema+"-"+table in current_basket else [],
+                                id={
+                                    'type': 'shopping_checklist',
+                                    "value":schema+"-"+table
+                                    }, 
+                                )
+                            ], 
+                            style=ss.TABLE_LIST_ITEM_STYLE,
+                            action=True,
+                            active=False,
+                            key = schema+"-"+table,
                             id={
-                                'type': 'shopping_checklist',
-                                "value":schema+"-"+table
-                                }, 
+                                'type': 'sidebar_table_item',
+                                'index': table_lookup[schema+"-"+table]
+                            }
                             )
-                        ], 
-                        style=ss.TABLE_LIST_ITEM_STYLE,
-                        action=True,
-                        active=False,
-                        key = schema+"-"+table,
+                        ],
                         id={
-                            'type': 'sidebar_table_item',
+                            'type': 'table_item_container',
                             'index': table_lookup[schema+"-"+table]
-                        }
-                        ) for table in tables
+                        }, 
+                        key = "0",
+                        n_clicks = 0)
+
+                         for table in tables
                     ],
                     style = ss.COLLAPSE_DIV_STYLE,
                     flush=True), 
@@ -149,7 +159,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                 'type': 'schema_item',
                 'index': schema_lookup[schema]
             }, 
-            key = 0,
+            key = "0",
             n_clicks = 0,
             style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
 
@@ -290,16 +300,14 @@ def make_body(sections):
 
 
 def make_variable_div(id_type):
-    variable_div = html.Div([],key = "None", id = {"type":id_type, "value":"None", "index":-1})
+    variable_div = html.Div([],key = "None", id = id_type)
     return variable_div
 
-def make_variable_div_list(wrapper_id, id_type, indices):
+def make_variable_div_list(id_type, indices):
     divs = []
     for i in indices:
-        variable_div = html.Div([],key = "0", id = {"type":id_type, "index":str(i)})
-        divs.append(variable_div)
-    wrapper_div = html.Div([d for d in divs], key= "None", id = wrapper_id)
-    return wrapper_div
+        divs += [html.Div([],key = "0", id = {"type":id_type, "index":str(i)})]
+    return divs
 
 
 
