@@ -274,6 +274,24 @@ METADATA_CONDITIONAL = {'if': {
 }
 
 ###################################
+
+LANDING_TITLE_STYLE = {
+    "width":"100%",
+    "height":"3rem",
+    "color":"black",
+    "background-color":white[0],
+    "padding-top":"0.5rem",
+    "padding-left":"1rem",
+}
+
+LANDING_BOX_STYLE = {
+    "color":"black",
+    "background-color":white[0],
+    "padding" : "1rem",
+    "height" : "100%"
+}
+
+###################################
 APP_STYLE = {
     "height":"100vh",
     "width": "100wh",

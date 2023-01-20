@@ -211,9 +211,7 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer):
 def make_context_bar():
     context_bar = html.Div([
         dcc.Tabs(id="context_tabs", value='', children=[
-            dcc.Tab(label='Documentation', value="Documentation"),
-            dcc.Tab(label='Metadata', value='Metadata'),
-            dcc.Tab(label='Coverage', value='Map'),
+            dcc.Tab(label='Introduction', value="Introduction")
             ]),
         ],
         id = "context_bar_div", 
@@ -279,24 +277,37 @@ def make_metadata_box(title = "Metadata: [study placeholder]", children = [None,
     meta_box = html.Div([
             title_section,
             html.Div([
-            d1,
-            html.Div([
-                dcc.Input(
-                id="metadata_search",
-                placeholder="search",
-                ),
-                dcc.Checklist(
-                ["Show values"],
-                id="values_toggle",
-                inline= True
-                ),
-            ]),
-            d2,
+                d1,
+                html.Div([
+                    dcc.Input(
+                    id="metadata_search",
+                    placeholder="search",
+                    ),
+                    dcc.Checklist(
+                    ["Show values"],
+                    id="values_toggle",
+                    inline= True
+                    ),
+                ]),
+                d2,
             ], id = "Metadata", style = ss.METADATA_BOX_STYLE)])
     return meta_box
 
-def make_body(sections):
-    return html.Div(sections, id="body",style = ss.BODY_STYLE )
+def make_landing_box():
+    title_section = html.Div([make_section_title("Landing Page. Select a study to continue.")], id = "landing_title", style = ss.LANDING_TITLE_STYLE)
+
+    landing_box = html.Div([
+        title_section,
+        html.Div([
+            html.P("Welcome to the UKLLC Data Discoverability Resource."),
+            html.P("Use the sidebar on the left to select a data source and data block."),
+            html.P("Use the tabs along the top of the page to view information on the selected data source and tables."),
+        ]
+        , id = "Landing", style = ss.LANDING_BOX_STYLE)])
+    return landing_box
+
+def make_body():
+    return html.Div([make_landing_box()], id="body",style = ss.BODY_STYLE )
 
 
 def make_variable_div(id_type):

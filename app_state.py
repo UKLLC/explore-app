@@ -42,20 +42,21 @@ class App_State():
 
         self.sections = { # component dictionaries must share a name with html object id and tab value
             "Map":{
-                "constructor": struct.make_map_box,
                 "activations" : 0,
                 "active":False,
                 "children":[None, None]
             },
             "Documentation":{
-
-                "constructor": struct.make_documentation_box,
                 "activations" : 0,
                 "active":False,
                 "children":[None, None]
             },
             "Metadata":{
-                "constructor": struct.make_metadata_box,
+                "activations" : 0,
+                "active":False,
+                "children":[None, None]
+            },
+            "Landing":{
                 "activations" : 0,
                 "active":False,
                 "children":[None, None]

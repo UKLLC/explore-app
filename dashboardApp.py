@@ -78,7 +78,7 @@ context_bar_div = struct.make_context_bar()
 # Body ################################################################################
 
 # Main div template ##################################################################
-maindiv = struct.make_body([])
+maindiv = struct.make_body()
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
 shopping_basket_op = struct.make_variable_div("shopping_basket_op")
@@ -151,14 +151,10 @@ def update_table_data(table):
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
     schema = app_state.schema
-    if table[0] == app_state.last_table: # If no change to table - do nothing
-        app_state.last_table = table
-        #return app_state.sections["Metadata"]["object"].children[1].children[0]
-        raise PreventUpdate
-    elif schema != "None":
+    if schema != "None":
         app_state.last_table = table
         tables = get_study_tables(schema)
-        tables = tables.loc[tables["Block Name"] == table]
+        tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
         if schema == "NHSD": # Expand to linked data branch
             return html.P("NHSD placeholder text")
         else: # Study data branch
@@ -178,12 +174,14 @@ def update_table_data(table):
 )
 def update_table_metadata(table, values_on, search):
     print("CALLBACK: META BOX - updating table metadata")
-    schema = app_state.schema
+
+    table_id = app_state.table
     if table== "None":
         return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
     try:
-        metadata_df = dataIO.load_study_metadata(schema[0], table[0])
+        metadata_df = dataIO.load_study_metadata(table_id)
     except FileNotFoundError: # Study has changed 
+        print("Failed to load {}.csv".format(table_id))
         print("Preventing update in Meta box table metadata")
         raise PreventUpdate
 
@@ -209,6 +207,25 @@ def update_table_metadata(table, values_on, search):
     return struct.metadata_table(metadata_df, "metadata_table")
 
 #########################
+@app.callback(
+
+    Output("context_tabs","children"),
+    Input('active_schema','key'),
+    Input('active_table','key'),
+    prevent_initial_call=True
+)
+def context_tabs(_, __):
+    if app_state.schema != "None":
+        if app_state.table != "None":
+            return [dcc.Tab(label='Documentation', value="Documentation"),
+            dcc.Tab(label='Metadata', value='Metadata'),
+            dcc.Tab(label='Coverage', value='Map')]
+        else:
+            return [dcc.Tab(label='Documentation', value="Documentation"),
+            dcc.Tab(label='Coverage', value='Map')]
+    else:
+        return [dcc.Tab(label='Introduction', value="Introduction")]
+
 
 @app.callback(
     Output("body", "children"),
@@ -220,9 +237,8 @@ def update_table_metadata(table, values_on, search):
 )
 def body_sctions(tab, active_body, hidden_body):
     print("CALLBACK: BODY, activating", tab)
-
     sections_states = {}
-    for section in active_body +hidden_body:
+    for section in active_body + hidden_body:
         section_id = section["props"]["children"][1]["props"]["id"]
         print("encountered", section_id)
         sections_states[section_id] = section
@@ -244,80 +260,9 @@ def body_sctions(tab, active_body, hidden_body):
 
 
 
-'''
-@app.callback(
-    Output({'type': 'schema_collapse', 'index': ALL}, 'is_open'),
-    Output({'type': 'active_schema', 'content': ALL}, 'key'),
-    Output({'type': 'active_table', 'content': ALL}, 'key'),
-    Output('map_region', "data"),
-    Input("sidebar_list_div", 'n_clicks'),
-    State("schema_list","children"),
-    State({'type': 'active_schema', 'content': ALL}, 'key'),
-    State({'type': 'active_table', 'content': ALL}, 'key'),
-    State({"type": "schema_collapse", "index" : ALL}, "is_open")
-)
-def sidebar_clicks(_,children, active_schema, active_table, collapse):
-    print("CALLBACK: SIDEBAR - registering click")
-
-    ctx = dash.callback_context
-    triggered_0 = ctx.triggered[0]
-    if not triggered_0["value"]:
-        pass
-        # Placeholder...
-
-    schema_clicks = {}
-    table_clicks = {}   
-
-    schema_i = 0
-    active_schema = active_schema[0]
-    active_table = active_table[0]
-
-    for schema_root in children:
-        if "key" in schema_root["props"]:
-            schema = schema_root["props"]["key"]
-            if "n_clicks" in schema_root["props"]:
-                schema_clicks[schema] = schema_root["props"]["n_clicks"]
-                stored = app_state.get_sidebar_clicks(schema)
-                if stored != schema_clicks[schema]:
-                    collapse[schema_i] = not collapse[schema_i] # App objects
-                    app_state.schema_collapse_open[schema] = not app_state.schema_collapse_open[schema] # App state documentation
-                    if collapse[schema_i]:
-                        active_schema = schema_df["Data Directory"].iloc[schema_i]                       
-                app_state.set_sidebar_clicks(schema, schema_clicks[schema])
-            else:
-                app_state.set_sidebar_clicks(schema, 0)
-                schema_clicks[schema] = 0
-            schema_i += 1
-
-        else:
-            for table_root in schema_root["props"]["children"]["props"]["children"]:
-                table_full = table_root["props"]["key"]
-                table_schema = table_full.split("-")[0]
-                table = table_full.split("-")[1:][0]
-                if "n_clicks" in table_root["props"]:
-                    table_clicks[table_full] = table_root["props"]["n_clicks"]
-                    stored = app_state.get_sidebar_clicks(table_full)
-                    app_state.set_sidebar_clicks(table_full, table_clicks[table_full])
-                    if stored != table_clicks[table_full]:
-                        #print("Action on table {}. Stored {}, current {}".format(table_full, stored, table_clicks[table_full]))
-                        # load map
-                        map_data = load_or_fetch_map(table_schema)
-                        app_state.table = table
-                        app_state.schema = active_schema
-                        return collapse, [table_schema], [table], map_data
-                else:
-                    app_state.set_sidebar_clicks(table_full, 0)
-                    table_clicks[table_full] = 0
-
-    app_state.schema = active_schema
-    map_data = load_or_fetch_map(active_schema)
-    return collapse, [active_schema],  [active_table], map_data
-'''
-
 @app.callback(
     Output({'type': 'schema_collapse', 'index': MATCH}, 'is_open'),
     Output({'type': 'schema_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
-    Output('active_schema','key'),
     Input({"type": "schema_item", "index": MATCH}, 'n_clicks'),
     State({"type": "schema_collapse", "index" : MATCH}, "is_open"),
     State({"type": "schema_collapse", "index" : MATCH}, "id"),
@@ -333,7 +278,7 @@ def sidebar_schema(clicks, is_open, id, triggers):
     print("triggered:",triggered_0)
     if str(clicks) == "0":
         print("Aborting sidebar schema click call")
-        return False, str(triggers), "None"
+        return False, str(triggers)
     #print(test)
     index = id["index"]
     schema = app_state.lookup_index_to_sch[index]
@@ -345,24 +290,33 @@ def sidebar_schema(clicks, is_open, id, triggers):
     # if schema is active and closed: open, active
     if app_state.schema == schema and not is_open:
         app_state.schema = schema
-        return True, str(triggers), schema
+        return True, str(triggers)
 
     # if schema is active and open: close, inactive
     elif app_state.schema == schema and is_open:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
-        return False, str(triggers), schema
+        return False, str(triggers)
     # if schema is inactive and closed: open, active
     # if schema is inactive and open: open, active
     elif app_state.schema != schema:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
-        return True, str(triggers + 1), schema
-
+        return True, str(triggers + 1)
 
 @app.callback(
-    Output({"type": "schema_item", "index" : ALL}, "active"),
     Output('active_schema','key'), # Move this out - it is slow!
+    Input({'type': 'schema_item', 'index': ALL}, 'key'), # This is slow?
+    prevent_initial_call = True
+)
+def set_schema(_):
+    return app_state.schema
+
+
+# TODO Find a way to get this function working seamlessly... Maybe try linking different items or not using active.
+'''
+@app.callback(
+    Output({"type": "schema_item", "index" : ALL}, "active"),
     Input({'type': 'schema_item', 'index': ALL}, 'key'), # This is slow?
     prevent_initial_call = True
 )
@@ -371,11 +325,11 @@ def schema_toggle_active(active_schemas):
 
     active = [False for s in active_schemas]
     if app_state.schema == "None":
-        return active, app_state.schema
+        return active
 
     active[int(app_state.lookup_sch_to_index[app_state.schema])] = True
-    return active, app_state.schema
-
+    return active
+'''
 
 @app.callback(
     Output({'type': 'table_item_container', 'index': MATCH}, 'key'), # number of triggers, incrementing
@@ -392,10 +346,17 @@ def sidebar_table(_, table):
     app_state.table = table
     return "trigger"
 
+@app.callback(
+    Output('active_table','key'), # Move this out - it is slow!
+    Input({'type': 'table_item_container', 'index': ALL}, 'key'), # This is slow?
+    prevent_initial_call = True
+)
+def set_table(_):
+    return app_state.table
 
+'''
 @app.callback(
     Output({"type": "sidebar_table_item", "index" : ALL}, "active"),
-    Output('active_table','key'),
 
     Input({'type': 'table_item_container', 'index': ALL}, 'key'),
     State({"type": "sidebar_table_item", "index" : ALL}, "active"),
@@ -405,13 +366,12 @@ def table_toggle_active(table_keys, active):
     print("CALLBACK: Sidebard table active update")
     active = [False for t in table_keys]
     if app_state.table == "None":
-        return active, app_state.table
+        return active
 
     active[int(app_state.lookup_tab_to_index[app_state.table])] = True
 
-    return active, app_state.table
-
-
+    return active
+'''
 
 @app.callback(
     Output("sidebar_list_div", "children"),
