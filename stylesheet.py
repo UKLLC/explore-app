@@ -6,6 +6,9 @@ left_sidebar_w_perc = "15%"
 context_bar_h = 4
 sidebar_title_h = 5
 body_start = titlebar_h+context_bar_h
+box_title_h = 3
+box_content_start = body_start + box_title_h
+
 
 ####################
 # colour palettes ##
@@ -32,13 +35,13 @@ TITLEBAR_STYLE = {
 
 
 SIDEBAR_LEFT_STYLE = {
-    "position": "fixed",
-    "top": str(titlebar_h)+"rem",
-    "left": 0,
+    "position" : "fixed",
+    "top" : str(titlebar_h)+"rem",
+    "left" : 0,
     "bottom": 0,
-    "width":left_sidebar_w_perc,
-    "min-width":"10rem",
-    "zIndex":1,
+    "width" : left_sidebar_w_perc,
+    "min-width" : "10rem",
+    "zIndex" : 1,
     }
 
 SIDEBAR_TITLE_STYLE = {
@@ -46,8 +49,10 @@ SIDEBAR_TITLE_STYLE = {
     "color":"white",
     "height": str(sidebar_title_h)+"rem",
     "border-right" : "solid",
-    "border-width":"thin",
+    "border-width" : "thin",
     "border-color" : "white",
+    "padding-left" : ".5rem",
+    "padding-left" : ".5rem",
 }
 
 SIDEBAR_LIST_DIV_STYLE = {
@@ -81,6 +86,7 @@ SCHEMA_LIST_ITEM_STYLE = {
     "font-size":"medium",
     "background-color": "#212529",
     "color":"white",
+    "padding-left":".5rem"
     }
 
 COLLAPSE_DIV_STYLE = {
@@ -89,17 +95,17 @@ COLLAPSE_DIV_STYLE = {
     "border-width":"thin",
     "font-size":"small",
     }
+
 TABLE_LIST_STYLE = {
     "border-top":"solid",
     "border-width":"thin",
     }
-TABLE_LIST_ITEM_STYLE = {
 
+TABLE_LIST_ITEM_STYLE = {
     "border-bottom":"solid",
     "border-width":"thin",
     "overflow":"hidden",
     "background": "white",
-
     }
 
 ######################################
@@ -127,23 +133,24 @@ BUTTON_STYLE = {
 ######################################
 
 BODY_STYLE = {
-    "position": "relative",
+    "position": "fixed",
     "top": str(titlebar_h+context_bar_h)+"rem",
     "left":"15%",
     "width":"85%",
-    "height":"calc(100%-"+str(titlebar_h+context_bar_h)+")",
+    "height":"calc(100% - "+str(body_start)+"rem)",
     "zIndex":0,
-    "overflow-x":"hidden",
+    "overflow":"hidden",
     }
 
 HIDDEN_BODY_STYLE = {
     "display":"none"
 }    
 
-# Map #################################
+BOX_STYLE = {
+    "height" : "100%",
+}
 
-MAP_DIV_STYLE = {
-    }
+# Map #################################
 
 MAP_TITLE_STYLE = {
     "width":"100%",
@@ -154,8 +161,13 @@ MAP_TITLE_STYLE = {
     "padding-left":"1rem",
 }
 
+MAP_BOX_STYLE = {
+    "height" : "100%",
+    "top" : str(box_title_h) +"rem",
+    "height":"calc(100% - "+str(box_title_h) +"rem)",
+}
 DYNA_MAP_STYLE = {
-    "height" : "30vw",
+    "height" : "100%",
 }
 
 POLYGON_STYLE = assign("""function(feature, context){
@@ -176,8 +188,11 @@ DOC_TITLE_STYLE = {
 DOCUMENTATION_BOX_STYLE ={
     "color":"white",
     "background-color":black[2],
-
-    "padding" : "1rem"
+    "padding" : "1rem",
+    "padding-bottom" : "1rem",
+    "top" : str(box_title_h) +"rem",
+    "height":"calc(100% - "+str(box_title_h) +"rem)",
+    "overflow-y":"scroll",
 }
 
 TABLE_DOC_DIV = {
@@ -218,10 +233,12 @@ METADATA_TITLE_STYLE = {
 }
 
 METADATA_BOX_STYLE = {
-    "color":"white",
     "background-color":white[2],
     "padding" : "1rem",
-    "height" : "100%"
+    "top" : str(box_title_h) +"rem",
+    "height":"calc(100% - "+str(box_title_h) +"rem)",
+    "overflow-y":"scroll",
+    "color":"black"
 }
 
 METADATA_DESC_HEADER = {

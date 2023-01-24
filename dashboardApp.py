@@ -18,6 +18,7 @@ import time
 import warnings
 import logging
 from dash.exceptions import PreventUpdate
+from flask_caching import Cache
 
 from app_state import App_State
 import dataIO
@@ -28,6 +29,13 @@ import structures as struct
 
 ######################################################################################
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
+
+cache = Cache(app.server, config={
+    'CACHE_TYPE': 'filesystem',
+    'CACHE_DIR': 'cache-directory'
+})
+
+TIMEOUT = 60
 
 ######################################################################################
 ### Data prep functions
@@ -42,8 +50,9 @@ study_info_and_links_df = dataIO.load_study_info_and_links()
 
 app_state = App_State(schema_df)
 
+@cache.memoize(timeout=TIMEOUT)
 def load_or_fetch_map(study):
-    returned_data = app_state.get_map_data(study)
+    returned_data = app_state.get_map_data(study) # memorisation of polygons
     if not returned_data: # if no saved map data, returns False
         try:
             with open("assets\\map overlays\\{}.geojson".format(study), 'r') as f:
@@ -52,6 +61,7 @@ def load_or_fetch_map(study):
             print("Unable to load map file {}.geojson".format(study))
         app_state.set_map_data(study, returned_data)
     return returned_data
+    
     
 def get_study_tables(schema):
     return study_df.loc[study_df["Study"] == schema]
@@ -100,8 +110,18 @@ print("Built app layout")
 
 ### DOCUMENTATION BOX #####################
 @app.callback(
+    Output('doc_title', "children"),
+    Input('active_schema','data'),
+    prevent_initial_call=True
+)
+def update_doc_header(_):
+    header = struct.make_section_title("Documentation: {}".format(app_state.schema))
+    return header
+
+
+@app.callback(
     Output('schema_description_div', "children"),
-    Input('active_schema','key'),
+    Input('active_schema','data'),
     prevent_initial_call=True
 )
 def update_schema_description(schema):
@@ -120,7 +140,7 @@ def update_schema_description(schema):
 
 @app.callback(
     Output('table_description_div', "children"),
-    Input('active_schema','key'),
+    Input('active_schema','data'),
     prevent_initial_call=True
 )
 def update_tables_description(schema):
@@ -141,17 +161,26 @@ def update_tables_description(schema):
 
 
 ### METADATA BOX #####################
+@app.callback(
+    Output('metadata_title', "children"),
+    Input('active_table','data'),
+    prevent_initial_call=True
+)
+def update_doc_header(_):
+    header = struct.make_section_title("Metadata: {}".format(app_state.table))
+    return header
+
 
 @app.callback(
     Output('table_meta_desc_div', "children"),
-    Input('active_table', 'key'),
+    Input('active_table', 'data'),
     prevent_initial_call=True
 )
 def update_table_data(table):
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
     schema = app_state.schema
-    if schema != "None":
+    if schema != "None" and table != "None":
         app_state.last_table = table
         tables = get_study_tables(schema)
         tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
@@ -161,13 +190,12 @@ def update_table_data(table):
             return struct.metadata_doc_table(tables, "table_desc_table")
     else:
         # Default (Section may be hidden in final version)
-        return ["Placeholder metadata desc, null schema - this should not be possible when contextual tabs is implemented"]
-
+        return "Placeholder metadata desc, null schema, null table - this should be impossible. Bug code 101."
 
 
 @app.callback(
     Output('table_metadata_div', "children"),
-    Input('active_table','key'),
+    Input('active_table','data'),
     Input("values_toggle", "value"),
     Input("metadata_search", "value"),
     prevent_initial_call=True
@@ -206,12 +234,40 @@ def update_table_metadata(table, values_on, search):
 
     return struct.metadata_table(metadata_df, "metadata_table")
 
+### MAP BOX #################
+
+@app.callback(
+    Output('map_title', "children"),
+    Input('active_schema','data'),
+    prevent_initial_call=True
+)
+def update_doc_header(_):
+    header = struct.make_section_title("Coverage: {}".format(app_state.schema))
+    return header
+
+
+@app.callback(
+    Output('map_region', "data"),
+    Output('map_object', 'zoom'),
+    Input('body','children'), # Get it to trigger on first load to get past zoom bug
+    Input('active_schema','data'),
+    prevent_initial_call=True
+)
+def update_doc_header(_, __):
+    map_data = load_or_fetch_map(app_state.schema)
+    if not map_data:
+        return None, 6
+    return map_data, 6
+
+
+
+
 #########################
 @app.callback(
 
     Output("context_tabs","children"),
-    Input('active_schema','key'),
-    Input('active_table','key'),
+    Input('active_schema','data'),
+    Input('active_table','data'),
     prevent_initial_call=True
 )
 def context_tabs(_, __):
@@ -254,7 +310,7 @@ def body_sctions(tab, active_body, hidden_body):
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         print("TODO: landing page:")
-        return ["placeholder landing page"],  [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
+        return [sections_states["Landing"]],  [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
 
     return [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if section_vals["active"]], [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
 
@@ -263,6 +319,7 @@ def body_sctions(tab, active_body, hidden_body):
 @app.callback(
     Output({'type': 'schema_collapse', 'index': MATCH}, 'is_open'),
     Output({'type': 'schema_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
+    Output({"type": "schema_item", "index" : MATCH}, "active"),
     Input({"type": "schema_item", "index": MATCH}, 'n_clicks'),
     State({"type": "schema_collapse", "index" : MATCH}, "is_open"),
     State({"type": "schema_collapse", "index" : MATCH}, "id"),
@@ -290,31 +347,50 @@ def sidebar_schema(clicks, is_open, id, triggers):
     # if schema is active and closed: open, active
     if app_state.schema == schema and not is_open:
         app_state.schema = schema
-        return True, str(triggers)
+        return True, str(triggers), True 
 
     # if schema is active and open: close, inactive
     elif app_state.schema == schema and is_open:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
-        return False, str(triggers)
+        return False, str(triggers), False
     # if schema is inactive and closed: open, active
     # if schema is inactive and open: open, active
     elif app_state.schema != schema:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
-        return True, str(triggers + 1)
+        return True, str(triggers + 1), True
+
+
+# TODO Find a way to get this function working seamlessly... Maybe try linking different items or not using active.
+
+
 
 @app.callback(
-    Output('active_schema','key'), # Move this out - it is slow!
+    Output('active_schema','data'), # Move this out - it is slow!
     Input({'type': 'schema_item', 'index': ALL}, 'key'), # This is slow?
     prevent_initial_call = True
 )
 def set_schema(_):
     return app_state.schema
 
-
-# TODO Find a way to get this function working seamlessly... Maybe try linking different items or not using active.
 '''
+# TODO Find a way to get this function working seamlessly... Maybe try linking different items or not using active.
+app.clientside_callback(
+    """
+    function(active_schemas) {
+        var active = new Array(active_schemas.length).fill(true)
+        
+        return active
+    }
+    
+    """,
+    Output({"type": "schema_item", "index" : ALL}, "active"),
+    Input({'type': 'schema_item', 'index': ALL}, 'key'),
+
+)
+
+
 @app.callback(
     Output({"type": "schema_item", "index" : ALL}, "active"),
     Input({'type': 'schema_item', 'index': ALL}, 'key'), # This is slow?
@@ -332,7 +408,7 @@ def schema_toggle_active(active_schemas):
 '''
 
 @app.callback(
-    Output({'type': 'table_item_container', 'index': MATCH}, 'key'), # number of triggers, incrementing
+    Output({'type': 'sidebar_table_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
     Input({"type": "sidebar_table_item", "index": MATCH}, 'n_clicks'),
     State({"type": "sidebar_table_item", "index": MATCH}, 'key'),
 
@@ -347,18 +423,51 @@ def sidebar_table(_, table):
     return "trigger"
 
 @app.callback(
-    Output('active_table','key'), # Move this out - it is slow!
-    Input({'type': 'table_item_container', 'index': ALL}, 'key'), # This is slow?
+    Output('active_table','data'),
+    Input({'type': 'sidebar_table_item', 'index': ALL}, 'key'), 
     prevent_initial_call = True
 )
 def set_table(_):
     return app_state.table
 
+# 1. Nothing is active. Click, set clicked to active. Start waiting to turn off.
+# 2. Something is active. Click, set clicked to active. turn off last.
+# 3. Something is active. Click, turn off current active. 
+# if waiting != clicked: activate clicked, turn off waiting
+# if waiting == clicked: turn off clicked
+
+@app.callback(
+    Output({'type': 'sidebar_table_item', 'index': MATCH}, 'active'),
+    Output({'type': 'schema_collapse', 'index': MATCH}, 'key'),
+    Input({'type': 'sidebar_table_item', 'index': MATCH}, 'key'), # From sidebar_table
+    Input({'type': 'schema_collapse', 'index': MATCH}, 'key'), # From self
+    State({"type": "sidebar_table_item", "index": MATCH}, 'active'),
+    prevent_initial_call = True,
+    background=True,
+)
+def table_toggle_active(k1, k2, active):
+    print("CALLBACK: Triggered toggle")
+    print("Table is {}, waiting is {}, active {}".format(app_state.table, app_state.waiting_table, active))
+
+    if app_state.table == app_state.waiting_table or k2 == "off":
+        print("Preventing update")
+        raise PreventUpdate
+    else:
+        app_state.waiting_table = app_state.table
+        if active == False:
+            print("Table is {}, returning True".format(app_state.waiting_table))
+            return True, "wait"
+        else:
+            print("Table is {}, waiting".format(app_state.waiting_table))
+            while app_state.table == app_state.waiting_table:
+                print("Table is {}, returning False".format(app_state.waiting_table))
+                time.sleep(1.05)
+            return False, "off"
 '''
 @app.callback(
     Output({"type": "sidebar_table_item", "index" : ALL}, "active"),
 
-    Input({'type': 'table_item_container', 'index': ALL}, 'key'),
+    Input({'type': 'sidebar_table_item', 'index': ALL}, 'key'),
     State({"type": "sidebar_table_item", "index" : ALL}, "active"),
     prevent_initial_call = True
 )
@@ -372,6 +481,20 @@ def table_toggle_active(table_keys, active):
 
     return active
 '''
+# This is far too slow
+# Solution:
+# 1. Turn on in sidebar_table - match on active
+# 2. Long callback on active, outputs to active
+#   a. if active = True:... else: no_update
+#   b. save app_state.table
+#   c. while app_state.table has not changed: wait (50ms?)
+#   d. set match to false
+# 
+#  
+
+
+
+
 
 @app.callback(
     Output("sidebar_list_div", "children"),

@@ -9,6 +9,7 @@ class App_State():
 
         self.last_schema = "None"
         self.last_table = "None"
+        self.waiting_table = "None"
         
 
         self.tables_df = None
@@ -30,7 +31,7 @@ class App_State():
         # TEMP NHSD additions:
         self.lookup_index_to_sch["999"] = "NHSD"
         self.lookup_sch_to_index["NHSD"] = "999"
-
+    
 
         # DEBUG ######
         self.schema_click_count = 0

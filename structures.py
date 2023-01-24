@@ -22,6 +22,7 @@ def quick_table(df, id):
             id=id,
             data=df.to_dict('records'),
             columns=[{"name": i, "id": i} for i in df.columns], 
+            page_size=25,
             editable=False,
             row_selectable=False,
             row_deletable=False,
@@ -47,6 +48,7 @@ def data_doc_table(df, id):
             editable=False,
             row_selectable=False,
             row_deletable=False,
+            page_size=25,
             style_header=ss.TABLES_DOC_HEADER,
             style_cell=ss.TABLES_DOC_CELL,
             style_data_conditional=[ss.TABLES_DOC_CONDITIONAL]
@@ -67,6 +69,7 @@ def metadata_doc_table(df, id):
             id=id,
             data=df.to_dict('records'),
             columns=[{"name": i, "id": i} for i in df.columns], 
+            page_size=25,
             editable=False,
             row_selectable=False,
             row_deletable=False,
@@ -81,6 +84,7 @@ def metadata_table(df, id):
             id=id,
             data=df.to_dict('records'),
             columns=[{"name": i, "id": i} for i in df.columns], 
+            page_size=25,
             editable=False,
             row_selectable=False,
             row_deletable=False,
@@ -110,35 +114,25 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
         schema_children = dbc.Collapse(
             dbc.ListGroup(id = schema+"_tables_list",
                 children = [
-                    html.Div([
-                        dbc.ListGroupItem(
-                            [
-                            dcc.Checklist([table],
-                                value = [table] if schema+"-"+table in current_basket else [],
-                                id={
-                                    'type': 'shopping_checklist',
-                                    "value":schema+"-"+table
-                                    }, 
-                                )
-                            ], 
-                            style=ss.TABLE_LIST_ITEM_STYLE,
-                            action=True,
-                            active=False,
-                            key = schema+"-"+table,
+                    dbc.ListGroupItem(
+                        [
+                        dcc.Checklist([table],
+                            value = [table] if schema+"-"+table in current_basket else [],
                             id={
-                                'type': 'sidebar_table_item',
-                                'index': table_lookup[schema+"-"+table]
-                            }
+                                'type': 'shopping_checklist',
+                                "value":schema+"-"+table
+                                }, 
                             )
-                        ],
+                        ], 
+                        style=ss.TABLE_LIST_ITEM_STYLE,
+                        active=False,
+                        key = schema+"-"+table,
                         id={
-                            'type': 'table_item_container',
+                            'type': 'sidebar_table_item',
                             'index': table_lookup[schema+"-"+table]
-                        }, 
-                        key = "0",
+                        },
                         n_clicks = 0)
-
-                         for table in tables
+                        for table in tables
                     ],
                     style = ss.COLLAPSE_DIV_STYLE,
                     flush=True), 
@@ -146,6 +140,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                 'type': 'schema_collapse',
                 'index': schema_lookup[schema]
             },
+            key = "0",
             style=ss.TABLE_LIST_STYLE,
             is_open = sch_open[schema] if schema in sch_open else False
             )
@@ -153,7 +148,6 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
         
         sidebar_children += [dbc.ListGroupItem(
             schema,
-            action=True, # TODO, True means enabled hover style. Need to specify
             active=False, 
             id={
                 'type': 'schema_item',
@@ -232,11 +226,10 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
         html.Div([
             dl.Map(
                 center=[54.5,-3.5], 
-                zoom=5, 
-                scrollWheelZoom=False,
+                zoom=6, 
                 children=[
                     dl.TileLayer(url=constants.MAP_URL, 
-                        maxZoom=20, 
+                        maxZoom=10, 
                         attribution=constants.MAP_ATTRIBUTION),
                     dl.GeoJSON(data = None, 
                         id = "map_region", 
@@ -244,8 +237,10 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
                         hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))
                         ),
                 ],id="map_object", style = ss.DYNA_MAP_STYLE),
-            ], id = "Map", style = ss.MAP_DIV_STYLE)
-        ])
+            ], id = "Map", style = ss.MAP_BOX_STYLE)
+        ],
+        style=ss.BOX_STYLE
+        )
     return map_box
 
 def make_documentation_box(title = "Documentation: [study placeholder]", children = [None, None]):
@@ -262,7 +257,10 @@ def make_documentation_box(title = "Documentation: [study placeholder]", childre
         html.Div([
         d1,
         d2,
-        ], id = "Documentation", style = ss.DOCUMENTATION_BOX_STYLE)])
+        ], id = "Documentation", style = ss.DOCUMENTATION_BOX_STYLE)
+        ],
+        style=ss.BOX_STYLE
+        )
     return doc_box
 
 def make_metadata_box(title = "Metadata: [study placeholder]", children = [None, None]):
@@ -279,6 +277,8 @@ def make_metadata_box(title = "Metadata: [study placeholder]", children = [None,
             html.Div([
                 d1,
                 html.Div([
+                    html.H2("Metadata variable search"),
+                    html.P("Use the search bar below to filter variables in this block. You can currently search by variable name, variable description, values and value descriptions."),
                     dcc.Input(
                     id="metadata_search",
                     placeholder="search",
@@ -290,7 +290,10 @@ def make_metadata_box(title = "Metadata: [study placeholder]", children = [None,
                     ),
                 ]),
                 d2,
-            ], id = "Metadata", style = ss.METADATA_BOX_STYLE)])
+            ], id = "Metadata", style = ss.METADATA_BOX_STYLE)
+            ],
+        style=ss.BOX_STYLE
+        )
     return meta_box
 
 def make_landing_box():
@@ -307,11 +310,15 @@ def make_landing_box():
     return landing_box
 
 def make_body():
-    return html.Div([make_landing_box()], id="body",style = ss.BODY_STYLE )
+    return html.Div([
+        make_landing_box()
+        ], 
+        id="body",
+        style = ss.BODY_STYLE )
 
 
 def make_variable_div(id_type):
-    variable_div = html.Div([],key = "None", id = id_type)
+    variable_div = dcc.Store(id = id_type )
     return variable_div
 
 def make_variable_div_list(id_type, indices):
@@ -319,7 +326,6 @@ def make_variable_div_list(id_type, indices):
     for i in indices:
         divs += [html.Div([],key = "0", id = {"type":id_type, "index":str(i)})]
     return divs
-
 
 
 def make_app_layout(titlebar, sidebar_left, context_bar, body, variable_divs):
