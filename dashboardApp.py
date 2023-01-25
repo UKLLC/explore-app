@@ -410,17 +410,18 @@ def schema_toggle_active(active_schemas):
 @app.callback(
     Output({'type': 'sidebar_table_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
     Input({"type": "sidebar_table_item", "index": MATCH}, 'n_clicks'),
-    State({"type": "sidebar_table_item", "index": MATCH}, 'key'),
+    Input({'type': 'sidebar_table_item', 'index': MATCH}, 'key'),
 
     prevent_initial_call = True
 )
 def sidebar_table(_, table):
 
     print("CALLBACK: sidebar table click")
+    print("DEBUG:",table)
     app_state.table_click_count +=1
-    print("Table click count", app_state.table_click_count)
+    #print("Table click count", app_state.table_click_count)
     app_state.table = table
-    return "trigger"
+    return table
 
 @app.callback(
     Output('active_table','data'),
@@ -436,12 +437,13 @@ def set_table(_):
 # if waiting != clicked: activate clicked, turn off waiting
 # if waiting == clicked: turn off clicked
 
+'''
 @app.callback(
     Output({'type': 'sidebar_table_item', 'index': MATCH}, 'active'),
     Output({'type': 'schema_collapse', 'index': MATCH}, 'key'),
     Input({'type': 'sidebar_table_item', 'index': MATCH}, 'key'), # From sidebar_table
     Input({'type': 'schema_collapse', 'index': MATCH}, 'key'), # From self
-    State({"type": "sidebar_table_item", "index": MATCH}, 'active'),
+    Input({"type": "sidebar_table_item", "index": MATCH}, 'active'),
     prevent_initial_call = True,
     background=True,
 )
@@ -463,6 +465,9 @@ def table_toggle_active(k1, k2, active):
                 print("Table is {}, returning False".format(app_state.waiting_table))
                 time.sleep(1.05)
             return False, "off"
+'''
+
+
 '''
 @app.callback(
     Output({"type": "sidebar_table_item", "index" : ALL}, "active"),
@@ -491,9 +496,6 @@ def table_toggle_active(table_keys, active):
 #   d. set match to false
 # 
 #  
-
-
-
 
 
 @app.callback(
