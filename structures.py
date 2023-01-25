@@ -115,7 +115,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
         checkbox_prep = []
         for table in tables:
             checkbox_prep += [html.Div([
-                dcc.Checklist([table],
+                dcc.Checklist([""],
                 value = [table] if schema+"-"+table in current_basket else [],
                 id= {
                     "type":'shopping_checklist',
@@ -147,19 +147,19 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                     children = [
                         
                         dcc.Tab(
-                            label = schema+"-"+table,
+                            label = table,
                             value = schema+"-"+table,
                             #key = schema+"-"+table,
                             id={
                                 'type': 'sidebar_table_item',
                                 'index': table_lookup[schema+"-"+table]
                             },
-                            style = ss.TABLE_LIST_ITEM_STYLE
+                            style = ss.TABLE_LIST_ITEM_STYLE,
+                            selected_style = ss.TABLE_LIST_ITEM_ACTIVE_STYLE,
                         )
                         for table in tables
                         ],
                         style = ss.TABLE_LIST_STYLE,
-                        #flush=True
                     ), 
                 ], 
                 style = ss.CHECKBOX_LIST_COLS_STYLE

@@ -95,28 +95,38 @@ COLLAPSE_STYLE = {
     "border-width":"thin",
     "font-size":"small",
     "width" : "100%",
-
-    "border-color" : "blue"
     }
 
 TABLE_LIST_STYLE = {
     "position":"relative",
     "border-top":"solid",
     "border-width":"thin",
-    "width" : str(left_sidebar_w - 3)+"rem",
-    #"left":"3rem",
+    "width" : str(left_sidebar_w - 2)+"rem",
     }
 
 TABLE_LIST_ITEM_STYLE = {
-    "border-bottom":"solid",
-    "border-width":"thin",
+    "border" : "solid",
+    #"border-bottom" : "solid",
+    "border-width" : "thin",
+    "border-color":"black",
+    
     "overflow":"hidden",
     "background": "white",
     "height" : "2rem",
     "width" : "100%",
-    "padding":".5rem"
-    #"border" : "solid",
-    #"border-color" : "red"
+    "padding":"0rem",
+    
+    }
+
+TABLE_LIST_ITEM_ACTIVE_STYLE = {
+    "border" : "none",
+    "border-bottom":"solid",
+    "border-width":"thin",
+    "overflow":"hidden",
+    "background": white[1],
+    "height" : "2rem",
+    "width" : "100%",
+    "padding":"0rem",
     }
 
 CHECKBOX_LIST_COLS_STYLE = {
@@ -125,6 +135,8 @@ CHECKBOX_LIST_COLS_STYLE = {
 }
 
 CHECKBOX_COL_STYLE = {
+    "border-top":"solid",
+    "border-width":"thin",
     "width":"2rem",
     
 }
@@ -135,15 +147,16 @@ CHECKBOX_ROW_STYLE = {
 
     "border-bottom":"solid",
     "border-width":"thin",
+    "border-color":"black",
     "background-color": "white",
-    "padding-left":".5rem"
+    'align-items': 'center',
+    'justify-content': 'center',
+    #"padding-left":".5rem"
 }
 
 CHECKBOX_STYLE = {
     "content" : "Off",
-    'align-items': 'center',
-    'justify-content': 'center'
-    "padding"
+    "width" : "2rem"
 }
 
 ######################################
