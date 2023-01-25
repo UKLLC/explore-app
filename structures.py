@@ -1,3 +1,4 @@
+from tabnanny import check
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc
@@ -111,39 +112,68 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
 
         tables = df.loc[df["Study"] == schema]["Block Name"]
 
-        schema_children = dbc.Collapse(
-            dbc.ListGroup(id = schema+"_tables_list",
-                children = [
-                    dbc.ListGroupItem(
-                        [
-                        dcc.Checklist([table],
-                            value = [table] if schema+"-"+table in current_basket else [],
-                            id={
-                                'type': 'shopping_checklist',
-                                "value":schema+"-"+table
-                                }, 
-                            )
-                        ], 
-                        style=ss.TABLE_LIST_ITEM_STYLE,
-                        active=False,
-                        key = schema+"-"+table,
-                        id={
-                            'type': 'sidebar_table_item',
-                            'index': table_lookup[schema+"-"+table]
-                        },
-                        n_clicks = 0)
-                        for table in tables
-                    ],
-                    style = ss.COLLAPSE_DIV_STYLE,
-                    flush=True), 
-            id={
-                'type': 'schema_collapse',
-                'index': schema_lookup[schema]
-            },
-            key = "0",
-            style=ss.TABLE_LIST_STYLE,
-            is_open = sch_open[schema] if schema in sch_open else False
+        checkbox_prep = []
+        for table in tables:
+            checkbox_prep += [html.Div([
+                dcc.Checklist([table],
+                value = [table] if schema+"-"+table in current_basket else [],
+                id= {
+                    "type":'shopping_checklist',
+                    "index" : table_lookup[schema+"-"+table]
+                },
+                style = ss.CHECKBOX_STYLE
+                )
+            ],
+            #row div style
+            style = ss.CHECKBOX_ROW_STYLE,
+            )]
+        
+        checkbox_col = html.Div(
+            checkbox_prep, 
+            style = ss.CHECKBOX_COL_STYLE
             )
+
+
+        schema_children = dbc.Collapse([
+            html.Div([
+                checkbox_col, 
+                dcc.Tabs(
+                    id={
+                        'type': 'table_tabs',
+                        'index': schema_lookup[schema]
+                    },
+                    vertical=True,
+                    value='None',
+                    children = [
+                        
+                        dcc.Tab(
+                            label = schema+"-"+table,
+                            value = schema+"-"+table,
+                            #key = schema+"-"+table,
+                            id={
+                                'type': 'sidebar_table_item',
+                                'index': table_lookup[schema+"-"+table]
+                            },
+                            style = ss.TABLE_LIST_ITEM_STYLE
+                        )
+                        for table in tables
+                        ],
+                        style = ss.TABLE_LIST_STYLE,
+                        #flush=True
+                    ), 
+                ], 
+                style = ss.CHECKBOX_LIST_COLS_STYLE
+                )
+            ],
+                
+        id={
+            'type': 'schema_collapse',
+            'index': schema_lookup[schema]
+        },
+        key = "0",
+        style=ss.COLLAPSE_STYLE,
+        is_open = sch_open[schema] if schema in sch_open else False
+        )
         #print([[schema+"-"+table] if schema+"-"+table in current_basket else [] for table in tables])
         
         sidebar_children += [dbc.ListGroupItem(
@@ -155,7 +185,8 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
             }, 
             key = "0",
             n_clicks = 0,
-            style=ss.SCHEMA_LIST_ITEM_STYLE)] + [schema_children]
+            style=ss.SCHEMA_LIST_ITEM_STYLE)
+            ] + [schema_children]
 
     return [dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")]
 

@@ -1,8 +1,9 @@
+from turtle import position
 from dash_extensions.javascript import assign
 
 # Dependent layout vars
 titlebar_h = 5
-left_sidebar_w_perc = "15%"
+left_sidebar_w = 16
 context_bar_h = 4
 sidebar_title_h = 5
 body_start = titlebar_h+context_bar_h
@@ -39,8 +40,7 @@ SIDEBAR_LEFT_STYLE = {
     "top" : str(titlebar_h)+"rem",
     "left" : 0,
     "bottom": 0,
-    "width" : left_sidebar_w_perc,
-    "min-width" : "10rem",
+    "width" : str(left_sidebar_w)+"rem",
     "zIndex" : 1,
     }
 
@@ -89,16 +89,22 @@ SCHEMA_LIST_ITEM_STYLE = {
     "padding-left":".5rem"
     }
 
-COLLAPSE_DIV_STYLE = {
+COLLAPSE_STYLE = {
     "list-style-type":"none", 
     "border-top":"solid",
     "border-width":"thin",
     "font-size":"small",
+    "width" : "100%",
+
+    "border-color" : "blue"
     }
 
 TABLE_LIST_STYLE = {
+    "position":"relative",
     "border-top":"solid",
     "border-width":"thin",
+    "width" : str(left_sidebar_w - 3)+"rem",
+    #"left":"3rem",
     }
 
 TABLE_LIST_ITEM_STYLE = {
@@ -106,7 +112,39 @@ TABLE_LIST_ITEM_STYLE = {
     "border-width":"thin",
     "overflow":"hidden",
     "background": "white",
+    "height" : "2rem",
+    "width" : "100%",
+    "padding":".5rem"
+    #"border" : "solid",
+    #"border-color" : "red"
     }
+
+CHECKBOX_LIST_COLS_STYLE = {
+    "display" : "flex",
+    "width" : "16rem",
+}
+
+CHECKBOX_COL_STYLE = {
+    "width":"2rem",
+    
+}
+
+CHECKBOX_ROW_STYLE = {
+    "width":"2rem",
+    "height" : "2rem",
+
+    "border-bottom":"solid",
+    "border-width":"thin",
+    "background-color": "white",
+    "padding-left":".5rem"
+}
+
+CHECKBOX_STYLE = {
+    "content" : "Off",
+    'align-items': 'center',
+    'justify-content': 'center'
+    "padding"
+}
 
 ######################################
 
@@ -114,8 +152,8 @@ CONTEXT_BAR_STYLE = {
     "position": "fixed",
     "top": str(titlebar_h)+"rem",
     "height" : str(context_bar_h)+"rem",
-    "width":"85%",
-    "left":"15%",
+    "width":"calc(100% - "+str(left_sidebar_w)+"rem)",
+    "left":str(left_sidebar_w)+"rem",
     "background-color": "black",
     "overflow-x":"hidden",
     "zIndex":2,
@@ -135,8 +173,8 @@ BUTTON_STYLE = {
 BODY_STYLE = {
     "position": "fixed",
     "top": str(titlebar_h+context_bar_h)+"rem",
-    "left":"15%",
-    "width":"85%",
+    "left":str(left_sidebar_w)+"rem",
+    "width":"calc(100% - "+str(left_sidebar_w)+"rem)",
     "height":"calc(100% - "+str(body_start)+"rem)",
     "zIndex":0,
     "overflow":"hidden",

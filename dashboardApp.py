@@ -408,21 +408,32 @@ def schema_toggle_active(active_schemas):
 '''
 
 @app.callback(
-    Output({'type': 'sidebar_table_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
-    Input({"type": "sidebar_table_item", "index": MATCH}, 'n_clicks'),
-    Input({'type': 'sidebar_table_item', 'index': MATCH}, 'key'),
+    Output('active_table','data'),
+    Output({"type": "table_tabs", "index": ALL}, 'value'),
+    Input({"type": "table_tabs", "index": ALL}, 'value'),
 
     prevent_initial_call = True
 )
-def sidebar_table(_, table):
+def sidebar_table(tables):
 
     print("CALLBACK: sidebar table click")
-    print("DEBUG:",table)
-    app_state.table_click_count +=1
-    #print("Table click count", app_state.table_click_count)
-    app_state.table = table
-    return table
+    print("DEBUG:",tables) # comes through as a list of vals! Much better
+    active = [t for t in tables if t!= "None"]
+    if len(active) == 0:
+        return "None", tables
+    elif len(active) != 1:
+        active = [t for t in active if t != app_state.table ]
+        tables = [(t if t in active else "None") for t in tables]
+        if len(active) != 1:
+            raise Exception("Error code 1366")
 
+    app_state.table = active[0]
+    print("DEBUG: active is", app_state.table)
+    return active[0], tables 
+    
+    
+
+'''
 @app.callback(
     Output('active_table','data'),
     Input({'type': 'sidebar_table_item', 'index': ALL}, 'key'), 
@@ -430,7 +441,7 @@ def sidebar_table(_, table):
 )
 def set_table(_):
     return app_state.table
-
+'''
 # 1. Nothing is active. Click, set clicked to active. Start waiting to turn off.
 # 2. Something is active. Click, set clicked to active. turn off last.
 # 3. Something is active. Click, turn off current active. 
@@ -531,9 +542,11 @@ def main_search(_, search):
     return struct.build_sidebar_list(sub_list, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.schema_collapse_open)
 
 
+
+
 @app.callback(
     Output({'type': 'shopping_basket_op', 'content': ALL}, 'key'),
-    Input({"type": "shopping_checklist", "value" : ALL}, "value"),
+    Input({"type": "shopping_checklist", "index" : ALL}, "value"),
     prevent_initial_call=True
     )
 def shopping_cart(selected):
@@ -554,7 +567,7 @@ def shopping_cart(selected):
 
 @app.callback(
     Output({'type': 'save_op', 'content': ALL}, 'key'),
-    Input({"type": "shopping_checklist", "value" : ALL}, "value"),
+    Input({"type": "shopping_checklist", "index" : ALL}, "value"),
     prevent_initial_call=True
     )
 def save_shopping_cart(shopping_basket):
