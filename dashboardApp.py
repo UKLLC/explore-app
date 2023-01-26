@@ -347,18 +347,21 @@ def sidebar_schema(clicks, is_open, id, triggers):
     # if schema is active and closed: open, active
     if app_state.schema == schema and not is_open:
         app_state.schema = schema
+        app_state.schema_collapse_open[schema] = True
         return True, str(triggers), True 
 
     # if schema is active and open: close, inactive
     elif app_state.schema == schema and is_open:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
+        app_state.schema_collapse_open[schema] = False
         return False, str(triggers), False
     # if schema is inactive and closed: open, active
     # if schema is inactive and open: open, active
     elif app_state.schema != schema:
         app_state.last_schema = app_state.schema
         app_state.schema = schema
+        app_state.schema_collapse_open[schema] = True
         return True, str(triggers + 1), True
 
 
@@ -545,29 +548,23 @@ def main_search(_, search):
 
 
 @app.callback(
-    Output({'type': 'shopping_basket_op', 'content': ALL}, 'key'),
+    Output('shopping_basket_op','data'),
     Input({"type": "shopping_checklist", "index" : ALL}, "value"),
     prevent_initial_call=True
     )
 def shopping_cart(selected):
     print("CALLBACK: Shopping cart")
-    ctx = dash.callback_context
-    triggered_0 = ctx.triggered[0]
 
-    if triggered_0["value"] and triggered_0["value"]!=[]:
-        input_id = triggered_0["prop_id"].split(".")[0][38:-2]
-
-        if input_id in app_state.shopping_basket:
-            app_state.shopping_basket.remove(input_id)
-        else:
-            app_state.shopping_basket.append(input_id)
+    selected = [i[0] for i in selected if i !=[]]
+    print(selected)
+    app_state.shopping_basket = selected
 
     return ["placeholder"]
 
 
 @app.callback(
-    Output({'type': 'save_op', 'content': ALL}, 'key'),
-    Input({"type": "shopping_checklist", "index" : ALL}, "value"),
+    Output('save_op','data'),
+    Input("save_button", "n_clicks"),
     prevent_initial_call=True
     )
 def save_shopping_cart(shopping_basket):
@@ -576,6 +573,7 @@ def save_shopping_cart(shopping_basket):
     Get list of selected checkboxes - how? can just save shopping cart as is, list of ids
     
     '''
+    print("CALLBACK: Save shopping cart")
     # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
     dataIO.basket_out(app_state.shopping_basket)
     return ["placeholder"]

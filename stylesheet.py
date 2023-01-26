@@ -73,6 +73,8 @@ SIDEBAR_FOOTER_STYLE = {
     'textAlign': 'center',
 }
 
+###############
+
 SCHEMA_LIST_STYLE = {
     "list-style-type":"none",
     "border-bottom": "solid",
@@ -89,6 +91,8 @@ SCHEMA_LIST_ITEM_STYLE = {
     "padding-left":".5rem"
     }
 
+########
+
 COLLAPSE_STYLE = {
     "list-style-type":"none", 
     "border-top":"solid",
@@ -97,6 +101,7 @@ COLLAPSE_STYLE = {
     "width" : "100%",
     }
 
+# Table column
 TABLE_LIST_STYLE = {
     "position":"relative",
     "border-top":"solid",
@@ -104,59 +109,77 @@ TABLE_LIST_STYLE = {
     "width" : str(left_sidebar_w - 2)+"rem",
     }
 
+# table tab
 TABLE_LIST_ITEM_STYLE = {
-    "border" : "solid",
-    #"border-bottom" : "solid",
-    "border-width" : "thin",
-    "border-color":"black",
     
     "overflow":"hidden",
     "background": "white",
     "height" : "2rem",
     "width" : "100%",
-    "padding":"0rem",
+    "padding":"0.3rem",
+    
+    "border-color" : "white",
+
+    'text-align': 'left',
     
     }
 
+#table tab active
 TABLE_LIST_ITEM_ACTIVE_STYLE = {
-    "border" : "none",
-    "border-bottom":"solid",
-    "border-width":"thin",
-    "overflow":"hidden",
-    "background": white[1],
+    "border":"none",
+
+    "background-image": "linear-gradient(to right, {}00,{}88,{}FF)".format(cyan[0], cyan[0], cyan[0]),
+    #"box-shadow": "inset -2rem 0 0 0 {}88".format(cyan[0], cyan[0], ),
+    #"border-bottom":"solid",
+    #"border-width":"thin",
+    #"border-left" : "none",
+    #"border-width" : "normal",
+    #"border-color" : "red",
+
+    "overflow" : "hidden",
     "height" : "2rem",
     "width" : "100%",
-    "padding":"0rem",
+    "padding" : "0.3rem",
+    #"padding-left" : "0.5rem",
+    'text-align': 'left',
     }
 
+# checkbox and tables combined
 CHECKBOX_LIST_COLS_STYLE = {
     "display" : "flex",
     "width" : "16rem",
+
+    "border" : "none"
 }
 
+# checkbox column
 CHECKBOX_COL_STYLE = {
     "border-top":"solid",
     "border-width":"thin",
     "width":"2rem",
-    
+
+    "border" : "none"
 }
 
+#checkbox row
 CHECKBOX_ROW_STYLE = {
     "width":"2rem",
     "height" : "2rem",
 
-    "border-bottom":"solid",
-    "border-width":"thin",
-    "border-color":"black",
+    #"border-bottom":"solid",
+    #"border-width":"thin",
+    #"border-color":"black",
+    "border" : "none",
     "background-color": "white",
     'align-items': 'center',
     'justify-content': 'center',
-    #"padding-left":".5rem"
+    "padding":".4rem"
 }
 
 CHECKBOX_STYLE = {
-    "content" : "Off",
-    "width" : "2rem"
+    "content" : "none",
+    "width" : "2rem",
+    "font-size":"0"
 }
 
 ######################################

@@ -115,8 +115,8 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
         checkbox_prep = []
         for table in tables:
             checkbox_prep += [html.Div([
-                dcc.Checklist([""],
-                value = [table] if schema+"-"+table in current_basket else [],
+                dcc.Checklist([schema+"-"+table],
+                value = [schema+"-"+table] if schema+"-"+table in current_basket else [],
                 id= {
                     "type":'shopping_checklist',
                     "index" : table_lookup[schema+"-"+table]
