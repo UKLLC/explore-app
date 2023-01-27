@@ -296,7 +296,6 @@ def body_sctions(tab, active_body, hidden_body):
     sections_states = {}
     for section in active_body + hidden_body:
         section_id = section["props"]["children"][1]["props"]["id"]
-        print("encountered", section_id)
         sections_states[section_id] = section
 
     a_tab_is_active = False
@@ -328,11 +327,7 @@ def body_sctions(tab, active_body, hidden_body):
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
 def sidebar_schema(clicks, is_open, id, triggers):
     print("CALLBACK: sidebar schema click")
-    app_state.schema_click_count +=1
-    print("Schema click count", app_state.schema_click_count)
-    ctx = dash.callback_context
-    triggered_0 = ctx.triggered[0]
-    print("triggered:",triggered_0)
+
     if str(clicks) == "0":
         print("Aborting sidebar schema click call")
         return False, str(triggers)
@@ -377,38 +372,6 @@ def sidebar_schema(clicks, is_open, id, triggers):
 def set_schema(_):
     return app_state.schema
 
-'''
-# TODO Find a way to get this function working seamlessly... Maybe try linking different items or not using active.
-app.clientside_callback(
-    """
-    function(active_schemas) {
-        var active = new Array(active_schemas.length).fill(true)
-        
-        return active
-    }
-    
-    """,
-    Output({"type": "schema_item", "index" : ALL}, "active"),
-    Input({'type': 'schema_item', 'index': ALL}, 'key'),
-
-)
-
-
-@app.callback(
-    Output({"type": "schema_item", "index" : ALL}, "active"),
-    Input({'type': 'schema_item', 'index': ALL}, 'key'), # This is slow?
-    prevent_initial_call = True
-)
-def schema_toggle_active(active_schemas):
-    print("CALLBACK: schema activation")
-
-    active = [False for s in active_schemas]
-    if app_state.schema == "None":
-        return active
-
-    active[int(app_state.lookup_sch_to_index[app_state.schema])] = True
-    return active
-'''
 
 @app.callback(
     Output('active_table','data'),
@@ -418,9 +381,7 @@ def schema_toggle_active(active_schemas):
     prevent_initial_call = True
 )
 def sidebar_table(tables):
-
     print("CALLBACK: sidebar table click")
-    print("DEBUG:",tables) # comes through as a list of vals! Much better
     active = [t for t in tables if t!= "None"]
     if len(active) == 0:
         return "None", tables
@@ -431,86 +392,9 @@ def sidebar_table(tables):
             raise Exception("Error code 1366")
 
     app_state.table = active[0]
-    print("DEBUG: active is", app_state.table)
     return active[0], tables 
     
     
-
-'''
-@app.callback(
-    Output('active_table','data'),
-    Input({'type': 'sidebar_table_item', 'index': ALL}, 'key'), 
-    prevent_initial_call = True
-)
-def set_table(_):
-    return app_state.table
-'''
-# 1. Nothing is active. Click, set clicked to active. Start waiting to turn off.
-# 2. Something is active. Click, set clicked to active. turn off last.
-# 3. Something is active. Click, turn off current active. 
-# if waiting != clicked: activate clicked, turn off waiting
-# if waiting == clicked: turn off clicked
-
-'''
-@app.callback(
-    Output({'type': 'sidebar_table_item', 'index': MATCH}, 'active'),
-    Output({'type': 'schema_collapse', 'index': MATCH}, 'key'),
-    Input({'type': 'sidebar_table_item', 'index': MATCH}, 'key'), # From sidebar_table
-    Input({'type': 'schema_collapse', 'index': MATCH}, 'key'), # From self
-    Input({"type": "sidebar_table_item", "index": MATCH}, 'active'),
-    prevent_initial_call = True,
-    background=True,
-)
-def table_toggle_active(k1, k2, active):
-    print("CALLBACK: Triggered toggle")
-    print("Table is {}, waiting is {}, active {}".format(app_state.table, app_state.waiting_table, active))
-
-    if app_state.table == app_state.waiting_table or k2 == "off":
-        print("Preventing update")
-        raise PreventUpdate
-    else:
-        app_state.waiting_table = app_state.table
-        if active == False:
-            print("Table is {}, returning True".format(app_state.waiting_table))
-            return True, "wait"
-        else:
-            print("Table is {}, waiting".format(app_state.waiting_table))
-            while app_state.table == app_state.waiting_table:
-                print("Table is {}, returning False".format(app_state.waiting_table))
-                time.sleep(1.05)
-            return False, "off"
-'''
-
-
-'''
-@app.callback(
-    Output({"type": "sidebar_table_item", "index" : ALL}, "active"),
-
-    Input({'type': 'sidebar_table_item', 'index': ALL}, 'key'),
-    State({"type": "sidebar_table_item", "index" : ALL}, "active"),
-    prevent_initial_call = True
-)
-def table_toggle_active(table_keys, active):
-    print("CALLBACK: Sidebard table active update")
-    active = [False for t in table_keys]
-    if app_state.table == "None":
-        return active
-
-    active[int(app_state.lookup_tab_to_index[app_state.table])] = True
-
-    return active
-'''
-# This is far too slow
-# Solution:
-# 1. Turn on in sidebar_table - match on active
-# 2. Long callback on active, outputs to active
-#   a. if active = True:... else: no_update
-#   b. save app_state.table
-#   c. while app_state.table has not changed: wait (50ms?)
-#   d. set match to false
-# 
-#  
-
 
 @app.callback(
     Output("sidebar_list_div", "children"),
@@ -556,7 +440,6 @@ def shopping_cart(selected):
     print("CALLBACK: Shopping cart")
 
     selected = [i[0] for i in selected if i !=[]]
-    print(selected)
     app_state.shopping_basket = selected
 
     return ["placeholder"]
