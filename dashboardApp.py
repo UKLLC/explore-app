@@ -316,61 +316,33 @@ def body_sctions(tab, active_body, hidden_body):
 
 
 @app.callback(
-    Output({'type': 'schema_collapse', 'index': MATCH}, 'is_open'),
-    Output({'type': 'schema_item', 'index': MATCH}, 'key'), # number of triggers, incrementing
-    Output({"type": "schema_item", "index" : MATCH}, "active"),
-    Input({"type": "schema_item", "index": MATCH}, 'n_clicks'),
-    State({"type": "schema_collapse", "index" : MATCH}, "is_open"),
-    State({"type": "schema_collapse", "index" : MATCH}, "id"),
-    State({"type": "schema_item", "index" : MATCH}, "key"),
+    Output('active_schema','data'),
+    Input("schema_accordion", "active_item"),
     prevent_initial_call = True
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
-def sidebar_schema(clicks, is_open, id, triggers):
+def sidebar_schema(schemas):
     print("CALLBACK: sidebar schema click")
+    print("DEBUG: schemas:",schemas)
 
-    if str(clicks) == "0":
-        print("Aborting sidebar schema click call")
-        return False, str(triggers)
-    #print(test)
-    index = id["index"]
-    schema = app_state.lookup_index_to_sch[index]
-    if triggers == "None":
-        triggers = 0
+    if not schemas:
+        return app_state.schema
+
+    new_schemas = [sch for sch in schemas if sch not in app_state.open_schemas]
+    print(new_schemas)
+    if len(new_schemas) == 1:
+        print("Opened new schema:", new_schemas[0])
+        app_state.schema = new_schemas[0]
+        
+    elif len(new_schemas) == 0:
+        print("no new schemas")
+        # Keep current schema for simplicity
     else:
-        triggers = int(triggers)
+        raise Exception("Error 1733")
 
-    # if schema is active and closed: open, active
-    if app_state.schema == schema and not is_open:
-        app_state.schema = schema
-        app_state.schema_collapse_open[schema] = True
-        return True, str(triggers), True 
-
-    # if schema is active and open: close, inactive
-    elif app_state.schema == schema and is_open:
-        app_state.last_schema = app_state.schema
-        app_state.schema = schema
-        app_state.schema_collapse_open[schema] = False
-        return False, str(triggers), False
-    # if schema is inactive and closed: open, active
-    # if schema is inactive and open: open, active
-    elif app_state.schema != schema:
-        app_state.last_schema = app_state.schema
-        app_state.schema = schema
-        app_state.schema_collapse_open[schema] = True
-        return True, str(triggers + 1), True
-
-
-# TODO Find a way to get this function working seamlessly... Maybe try linking different items or not using active.
-
-
-
-@app.callback(
-    Output('active_schema','data'), # Move this out - it is slow!
-    Input({'type': 'schema_item', 'index': ALL}, 'key'), # This is slow?
-    prevent_initial_call = True
-)
-def set_schema(_):
+    app_state.open_schemas = schemas
+    print(app_state.open_schemas)
     return app_state.schema
+
 
 
 @app.callback(
@@ -387,9 +359,11 @@ def sidebar_table(tables):
         return "None", tables
     elif len(active) != 1:
         active = [t for t in active if t != app_state.table ]
+        if len(active) == 0:
+            return app_state.table, tables
         tables = [(t if t in active else "None") for t in tables]
         if len(active) != 1:
-            raise Exception("Error code 1366")
+            raise 
 
     app_state.table = active[0]
     return active[0], tables 
@@ -414,7 +388,7 @@ def main_search(_, search):
     app_state.reset_sidebar_clicks()
 
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.sidebar_clicks)
+        return struct.build_sidebar_list(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.open_schemas, app_state.table)
 
     sub_list = study_df.loc[
         (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
@@ -426,7 +400,7 @@ def main_search(_, search):
         (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
-    return struct.build_sidebar_list(sub_list, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.schema_collapse_open)
+    return struct.build_sidebar_list(sub_list, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.open_schemas, app_state.table)
 
 
 
@@ -446,7 +420,7 @@ def shopping_cart(selected):
 
 
 @app.callback(
-    Output('save_op','data'),
+    Output('sb_download','data'),
     Input("save_button", "n_clicks"),
     prevent_initial_call=True
     )
@@ -458,9 +432,9 @@ def save_shopping_cart(shopping_basket):
     '''
     print("CALLBACK: Save shopping cart")
     # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
-    dataIO.basket_out(app_state.shopping_basket)
-    return ["placeholder"]
-
+    fileout = dataIO.basket_out(app_state.shopping_basket)
+    
+    return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv")
 
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')

@@ -97,10 +97,36 @@ def metadata_table(df, id):
 
 
 def main_titlebar(title_text):
-    titlebar = html.Div([html.H1(title_text, className="title")],style = ss.TITLEBAR_STYLE)
+    titlebar = html.Div([
+        html.Div([
+            html.A(
+                href="https://ukllc.ac.uk/",
+                children=[
+                    html.Img(
+                        src = "assets//logo_LLC.png",
+                        style = ss.LOGOS_STYLE
+                    )
+                ]
+            ),
+            html.A(
+                href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
+                
+                children=[
+                    html.Img(
+                        src = "assets//logo_NCS.png",
+                        style = ss.LOGOS_STYLE
+                    )
+                ]
+            )
+        ],
+        style = ss.LOGOS_DIV_STYLE
+        ),
+        html.H1(title_text, className="title")
+        ],
+        style = ss.TITLEBAR_STYLE)
     return titlebar
 
-def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch_open ={}):
+def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch_open =[], tab_open = "None"):
     print("SB: ", current_basket)
     sidebar_children = []
     # Get data sources
@@ -112,6 +138,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
 
         tables = df.loc[df["Study"] == schema]["Block Name"]
 
+        # CHECKBOXES
         checkbox_prep = []
         for table in tables:
             checkbox_prep += [html.Div([
@@ -133,9 +160,10 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
             style = ss.CHECKBOX_COL_STYLE
             )
 
-
-        schema_children = dbc.Collapse([
-            html.Div([
+        # SCHEMA AND TABLES
+        schema_children = dbc.AccordionItem([
+            html.Div(
+                [
                 checkbox_col, 
                 dcc.Tabs(
                     id={
@@ -143,52 +171,42 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                         'index': schema_lookup[schema]
                     },
                     vertical=True,
-                    value='None',
+                    value=tab_open,#"None" by default, otherwise app_state.table
+                    parent_className='custom-tabs',
+                    className = "table_tabs_container",
                     children = [
                         
                         dcc.Tab(
                             label = table,
                             value = schema+"-"+table,
-                            #key = schema+"-"+table,
                             id={
                                 'type': 'sidebar_table_item',
                                 'index': table_lookup[schema+"-"+table]
                             },
-                            style = ss.TABLE_LIST_ITEM_STYLE,
-                            selected_style = ss.TABLE_LIST_ITEM_ACTIVE_STYLE,
+                            className = "table_tab",
+                            selected_className='table_tab--selected'
                         )
                         for table in tables
                         ],
-                        style = ss.TABLE_LIST_STYLE,
                     ), 
-                ], 
+                ],
                 style = ss.CHECKBOX_LIST_COLS_STYLE
-                )
+                ),
             ],
-                
-        id={
-            'type': 'schema_collapse',
-            'index': schema_lookup[schema]
-        },
-        key = "0",
-        style=ss.COLLAPSE_STYLE,
-        is_open = sch_open[schema] if schema in sch_open else False
-        )
-        #print([[schema+"-"+table] if schema+"-"+table in current_basket else [] for table in tables])
-        
-        sidebar_children += [dbc.ListGroupItem(
-            schema,
-            active=False, 
-            id={
-                'type': 'schema_item',
-                'index': schema_lookup[schema]
-            }, 
-            key = "0",
-            n_clicks = 0,
-            style=ss.SCHEMA_LIST_ITEM_STYLE)
-            ] + [schema_children]
+            title = schema,
+            item_id = schema
+            )
 
-    return [dbc.ListGroup(sidebar_children, style = ss.SCHEMA_LIST_STYLE, id = "schema_list")]
+        sidebar_children += [schema_children]
+
+    schema_list = dbc.Accordion(sidebar_children,
+        id='schema_accordion',
+        always_open=True,
+        key = "0",
+
+        active_item = sch_open)
+    print("MAKING SIDEBAR", sch_open)
+    return schema_list
 
 
 def make_sidebar_catalogue(df, schema_lookup, table_lookup):
@@ -202,11 +220,13 @@ def make_sidebar_title():
             dcc.Input(
             id="main_search",
             placeholder="search",
+            className= "search_field"
             ),
             dbc.Button(
             "Search",
             id="search_button",
             n_clicks=0,
+            class_name="search_button"
             ),
         ])
         ], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
@@ -220,6 +240,7 @@ def make_sidebar_footer():
             id="save_button",
             n_clicks=0,
             ),
+        dcc.Download(id="sb_download")
         ], 
         style = ss.SIDEBAR_FOOTER_STYLE)
     return sidebar_footer

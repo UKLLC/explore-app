@@ -41,7 +41,8 @@ def basket_out(basket):
         },
         columns = ["TABLE_SCHEMA", "TABLE_NAME"]
     ) 
-    basket_pd.to_csv("Shopping Basket Output.csv")
+    basket_pd.to_csv("server_save_basket_[datetime].csv")
+    return basket_pd
         
 
 def write_json(name, content):

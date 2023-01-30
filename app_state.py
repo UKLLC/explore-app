@@ -7,7 +7,7 @@ class App_State():
         self.schema = "None"
         self.table = "None"
 
-        self.last_schema = "None"
+        self.open_schemas = ["None"]
         self.last_table = "None"
         self.waiting_table = "None"
         

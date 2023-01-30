@@ -17,7 +17,7 @@ box_content_start = body_start + box_title_h
 peach = ["#EC6552", "#F08475"]
 cyan = ["#00ABAA", "#50AFA8"]
 lime = ["#CDD500"]
-black = ["#000000","#212529", "#373B3E"]
+black = ["#000000","#212529", "#373B3E", "#1c1c1c"]
 white = ["#FFFFFF", "#F2F2F2", "#E6E6E6", "#212529"]
 
 
@@ -30,8 +30,23 @@ TITLEBAR_STYLE = {
     "background-color": "white",
     "color": "black",
     "textAlign":"center",
-    "zIndex":2
+    "zIndex":2,
     }
+
+
+LOGOS_STYLE = {
+    "height" : str(titlebar_h)+"rem",
+    "left" : 0,
+    "margin-right" : "1rem"
+}
+
+LOGOS_DIV_STYLE = {
+    "position" : "fixed",
+    "left" : 0,
+    "align": "left",
+
+    "width":"15%"
+}
 #######################
 
 
@@ -45,17 +60,21 @@ SIDEBAR_LEFT_STYLE = {
     }
 
 SIDEBAR_TITLE_STYLE = {
-    "background-color":"black",
+    "background-color":black[3],
     "color":"white",
     "height": str(sidebar_title_h)+"rem",
-    "border-right" : "solid",
+
+    "border-bottom" : "solid",
     "border-width" : "thin",
+
     "border-color" : "white",
     "padding-left" : ".5rem",
-    "padding-left" : ".5rem",
+    "padding-top" : ".5rem",
 }
 
+
 SIDEBAR_LIST_DIV_STYLE = {
+    "zIndex":3,
     "position":"relative",
     "background-color":"#212529",
     "height": "calc(100% - "+str(sidebar_title_h+5)+"rem",
@@ -68,94 +87,34 @@ SIDEBAR_FOOTER_STYLE = {
     "left": 0,
     "height": "5rem",
     "min-width":"10rem",
-    "background-color" : "black",
+    "background-color" : black[3],
     "color" : "white",
     'textAlign': 'center',
+    "border-top" : "solid",
+    "border-width" : "thin",
+    "border-color" : "white",    
 }
 
 ###############
 
-SCHEMA_LIST_STYLE = {
-    "list-style-type":"none",
-    "border-bottom": "solid",
-    "border-width":"thin",
-    }
 
-SCHEMA_LIST_ITEM_STYLE = {
-    "border-top":"solid",
-    "border-bottom":"solid",
-    "border-width":"thin",
-    "font-size":"medium",
-    "background-color": "#212529",
-    "color":"white",
-    "padding-left":".5rem"
-    }
 
-########
-
-COLLAPSE_STYLE = {
+# checkbox and tables combined
+CHECKBOX_LIST_COLS_STYLE = {
     "list-style-type":"none", 
     "border-top":"solid",
     "border-width":"thin",
     "font-size":"small",
     "width" : "100%",
-    }
-
-# Table column
-TABLE_LIST_STYLE = {
-    "position":"relative",
-    "border-top":"solid",
-    "border-width":"thin",
-    "width" : str(left_sidebar_w - 2)+"rem",
-    }
-
-# table tab
-TABLE_LIST_ITEM_STYLE = {
-    
-    "overflow":"hidden",
-    "background": "white",
-    "height" : "2rem",
-    "width" : "100%",
-    "padding":"0.3rem",
-    
-    "border-color" : "white",
-
-    'text-align': 'left',
-    
-    }
-
-#table tab active
-TABLE_LIST_ITEM_ACTIVE_STYLE = {
-    "border":"none",
-
-    "background-image": "linear-gradient(to right, {}00,{}88,{}FF)".format(cyan[0], cyan[0], cyan[0]),
-    #"box-shadow": "inset -2rem 0 0 0 {}88".format(cyan[0], cyan[0], ),
-    #"border-bottom":"solid",
-    #"border-width":"thin",
-    #"border-left" : "none",
-    #"border-width" : "normal",
-    #"border-color" : "red",
-
-    "overflow" : "hidden",
-    "height" : "2rem",
-    "width" : "100%",
-    "padding" : "0.3rem",
-    #"padding-left" : "0.5rem",
-    'text-align': 'left',
-    }
-
-# checkbox and tables combined
-CHECKBOX_LIST_COLS_STYLE = {
     "display" : "flex",
     "width" : "16rem",
-
-    "border" : "none"
+    "color" : "black",
 }
+
 
 # checkbox column
 CHECKBOX_COL_STYLE = {
-    "border-top":"solid",
-    "border-width":"thin",
+    "zIndex":2,
     "width":"2rem",
 
     "border" : "none"
@@ -163,14 +122,14 @@ CHECKBOX_COL_STYLE = {
 
 #checkbox row
 CHECKBOX_ROW_STYLE = {
-    "width":"2rem",
+    "width":"1rem",
     "height" : "2rem",
 
     #"border-bottom":"solid",
     #"border-width":"thin",
     #"border-color":"black",
     "border" : "none",
-    "background-color": "white",
+    "background-color": "none",
     'align-items': 'center',
     'justify-content': 'center',
     "padding":".4rem"
@@ -190,7 +149,7 @@ CONTEXT_BAR_STYLE = {
     "height" : str(context_bar_h)+"rem",
     "width":"calc(100% - "+str(left_sidebar_w)+"rem)",
     "left":str(left_sidebar_w)+"rem",
-    "background-color": "black",
+    "background-color": "white",
     "overflow-x":"hidden",
     "zIndex":2,
     "border-bottom":"solid",
@@ -198,10 +157,6 @@ CONTEXT_BAR_STYLE = {
     "border-color":"white"
 }
 
-BUTTON_STYLE = {
-    "float":"left",
-    "margin":"1rem"
-}
 
 
 ######################################
@@ -267,6 +222,7 @@ DOCUMENTATION_BOX_STYLE ={
     "top" : str(box_title_h) +"rem",
     "height":"calc(100% - "+str(box_title_h) +"rem)",
     "overflow-y":"scroll",
+    "line-height": "1.6"
 }
 
 TABLE_DOC_DIV = {
