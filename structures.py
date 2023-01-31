@@ -11,6 +11,7 @@ import dash_leaflet.express as dlx
 from dash_extensions.javascript import arrow_function
 from dash_extensions.javascript import assign
 import warnings
+import os
 
 import stylesheet as ss
 import constants
@@ -103,7 +104,7 @@ def main_titlebar(title_text):
                 href="https://ukllc.ac.uk/",
                 children=[
                     html.Img(
-                        src = "assets//logo_LLC.png",
+                        src = os.path.join("assets","logo_LLC.png"),
                         style = ss.LOGOS_STYLE
                     )
                 ]
@@ -113,7 +114,7 @@ def main_titlebar(title_text):
                 
                 children=[
                     html.Img(
-                        src = "assets//logo_NCS.png",
+                        src = os.path.join("assets","logo_NSC.png"),
                         style = ss.LOGOS_STYLE
                     )
                 ]
