@@ -104,7 +104,7 @@ def main_titlebar(app, title_text):
                 href="https://ukllc.ac.uk/",
                 children=[
                     html.Img(
-                        src = app.get_asset_url("logo_LLC.png"),
+                        src = app.get_asset_url("Logo_LLC.png"),
                         style = ss.LOGOS_STYLE
                     )
                 ]
@@ -114,7 +114,7 @@ def main_titlebar(app, title_text):
                 
                 children=[
                     html.Img(
-                        src = app.get_asset_url("logo_NCS.png"),
+                        src = app.get_asset_url("Logo_NCS.png"),
                         style = ss.LOGOS_STYLE
                     )
                 ]
