@@ -45,7 +45,7 @@ LOGOS_DIV_STYLE = {
     "left" : 0,
     "align": "left",
 
-    "width":"15%"
+    "width":"17rem",    
 }
 #######################
 

@@ -31,17 +31,10 @@ import structures as struct
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 server = app.server
 
-cache = Cache(app.server, config={
-    'CACHE_TYPE': 'filesystem',
-    'CACHE_DIR': 'cache-directory'
-})
-
-TIMEOUT = 60
-
 ######################################################################################
 ### Data prep functions
 
-start_time = time.time()
+
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
 study_df = dataIO.load_study_request()
@@ -90,19 +83,17 @@ context_bar_div = struct.make_context_bar()
 maindiv = struct.make_body()
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
-shopping_basket_op = struct.make_variable_div("shopping_basket_op")
+shopping_basket_op = struct.make_variable_div("shopping_basket")
 save_output = struct.make_variable_div("save_op") 
+open_schemas = struct.make_variable_div("open_schemas")
 
 hidden_body = struct.make_hidden_body()
 
-
 # Variable Divs ####################################################################
-active_schemas = struct.make_variable_div_list("active_schemas", list(app_state.lookup_index_to_sch.keys()))
-active_tables = struct.make_variable_div_list("active_tables", list(app_state.lookup_index_to_tab.keys()))
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output,  hidden_body] + active_schemas + active_tables)
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output, open_schemas, hidden_body])
 print("Built app layout")
 ###########################################
 ### Actions
@@ -165,22 +156,21 @@ def update_tables_description(schema):
     Input('active_table','data'),
     prevent_initial_call=True
 )
-def update_doc_header(_):
-    header = struct.make_section_title("Metadata: {}".format(app_state.table))
+def update_doc_header(table):
+    header = struct.make_section_title("Metadata: {}".format(table))
     return header
 
 
 @app.callback(
     Output('table_meta_desc_div', "children"),
     Input('active_table', 'data'),
+    State('active_schema', 'data'),
     prevent_initial_call=True
 )
-def update_table_data(table):
+def update_table_data(table, schema):
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
-    schema = app_state.schema
     if schema != "None" and table != "None":
-        app_state.last_table = table
         tables = get_study_tables(schema)
         tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
         if schema == "NHSD": # Expand to linked data branch
@@ -240,8 +230,8 @@ def update_table_metadata(table, values_on, search):
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_doc_header(_):
-    header = struct.make_section_title("Coverage: {}".format(app_state.schema))
+def update_doc_header(schema):
+    header = struct.make_section_title("Coverage: {}".format(schema))
     return header
 
 
@@ -252,13 +242,11 @@ def update_doc_header(_):
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_doc_header(_, __):
-    map_data = load_or_fetch_map(app_state.schema)
+def update_doc_header(_, schema):
+    map_data = load_or_fetch_map(schema)
     if not map_data:
         return None, 6
     return map_data, 6
-
-
 
 
 #########################
@@ -269,9 +257,9 @@ def update_doc_header(_, __):
     Input('active_table','data'),
     prevent_initial_call=True
 )
-def context_tabs(_, __):
-    if app_state.schema != "None":
-        if app_state.table != "None":
+def context_tabs(schema, table):
+    if schema != "None":
+        if table != "None":
             return [dcc.Tab(label='Documentation', value="Documentation"),
             dcc.Tab(label='Metadata', value='Metadata'),
             dcc.Tab(label='Coverage', value='Map')]
@@ -298,39 +286,42 @@ def body_sctions(tab, active_body, hidden_body):
         sections_states[section_id] = section
 
     a_tab_is_active = False
+    sections = app_state.sections.keys()
     for section in app_state.sections.keys():
         if section in tab:
-            app_state.sections[section]["active"] = True
+            sections[section]["active"] = True
             a_tab_is_active = True
         else:
-            app_state.sections[section]["active"] = False
+            sections[section]["active"] = False
 
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         print("TODO: landing page:")
-        return [sections_states["Landing"]],  [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
+        return [sections_states["Landing"]],  [sections_states[section_id] for section_id, section_vals in sections.items() if not section_vals["active"]]
 
-    return [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if section_vals["active"]], [sections_states[section_id] for section_id, section_vals in app_state.sections.items() if not section_vals["active"]]
+    return [sections_states[section_id] for section_id, section_vals in sections.items() if section_vals["active"]], [sections_states[section_id] for section_id, section_vals in sections.items() if not section_vals["active"]]
 
 
 
 @app.callback(
     Output('active_schema','data'),
+    Output("open_schemas", "data"),
     Input("schema_accordion", "active_item"),
+    State("active_schema", "data"),
+    State("open_schemas", "data"),
     prevent_initial_call = True
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
-def sidebar_schema(schemas):
+def sidebar_schema(schemas, schema, open_schemas):
     print("CALLBACK: sidebar schema click")
-    print("DEBUG: schemas:",schemas)
 
     if not schemas:
-        return app_state.schema
+        return schema
 
-    new_schemas = [sch for sch in schemas if sch not in app_state.open_schemas]
-    print(new_schemas)
+    new_schemas = [sch for sch in schemas if sch not in open_schemas]
+
     if len(new_schemas) == 1:
         print("Opened new schema:", new_schemas[0])
-        app_state.schema = new_schemas[0]
+        schema = new_schemas[0]
         
     elif len(new_schemas) == 0:
         print("no new schemas")
@@ -338,9 +329,9 @@ def sidebar_schema(schemas):
     else:
         raise Exception("Error 1733")
 
-    app_state.open_schemas = schemas
-    print(app_state.open_schemas)
-    return app_state.schema
+    open_schemas = schemas
+    print(open_schemas)
+    return schema, open_schemas
 
 
 
@@ -348,33 +339,37 @@ def sidebar_schema(schemas):
     Output('active_table','data'),
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
+    State("active_table", "data"),
 
     prevent_initial_call = True
 )
-def sidebar_table(tables):
+def sidebar_table(tables, table):
     print("CALLBACK: sidebar table click")
     active = [t for t in tables if t!= "None"]
     if len(active) == 0:
         return "None", tables
     elif len(active) != 1:
-        active = [t for t in active if t != app_state.table ]
+        active = [t for t in active if t != table ]
         if len(active) == 0:
-            return app_state.table, tables
+            return table, tables
         tables = [(t if t in active else "None") for t in tables]
         if len(active) != 1:
             raise 
 
-    app_state.table = active[0]
+    table = active[0]
     return active[0], tables 
-    
     
 
 @app.callback(
     Output("sidebar_list_div", "children"),
     Input("search_button", "n_clicks"),
-    Input("main_search", "value")
+    Input("main_search", "value"),
+    State("open_schemas", "data"),
+    State("shopping_basket", "data"),
+    State("active_table", "data"),
+    prevent_initial_call = True
     )
-def main_search(_, search):
+def main_search(_, search, open_schemas, shopping_basket, table):
     '''
     Version 1: search by similar text in schema, table name or keywords. 
     these may be branched into different search functions later, but for now will do the trick
@@ -383,11 +378,8 @@ def main_search(_, search):
     '''
     print("CALLBACK: main search")
 
-    # Reset sidebar clicks in app state - we are rebuilding it here!
-    app_state.reset_sidebar_clicks()
-
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.open_schemas, app_state.table)
+        return struct.build_sidebar_list(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, shopping_basket, open_schemas, table)
 
     sub_list = study_df.loc[
         (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
@@ -399,31 +391,31 @@ def main_search(_, search):
         (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
-    return struct.build_sidebar_list(sub_list, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, app_state.shopping_basket, app_state.open_schemas, app_state.table)
-
-
+    return struct.build_sidebar_list(sub_list, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, shopping_basket, open_schemas, table)
 
 
 @app.callback(
-    Output('shopping_basket_op','data'),
+    Output('shopping_basket','data'),
     Input({"type": "shopping_checklist", "index" : ALL}, "value"),
+    State("shopping_basket", "data"),
     prevent_initial_call=True
     )
-def shopping_cart(selected):
+def shopping_cart(selected, shopping_basket):
     print("CALLBACK: Shopping cart")
 
     selected = [i[0] for i in selected if i !=[]]
-    app_state.shopping_basket = selected
+    shopping_basket = selected
 
-    return ["placeholder"]
+    return shopping_basket
 
 
 @app.callback(
     Output('sb_download','data'),
     Input("save_button", "n_clicks"),
+    State("shopping_basket", "data"),
     prevent_initial_call=True
     )
-def save_shopping_cart(shopping_basket):
+def save_shopping_cart(_, shopping_basket):
     '''
     input save button
     Get list of selected checkboxes - how? can just save shopping cart as is, list of ids
@@ -431,7 +423,7 @@ def save_shopping_cart(shopping_basket):
     '''
     print("CALLBACK: Save shopping cart")
     # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
-    fileout = dataIO.basket_out(app_state.shopping_basket)
+    fileout = dataIO.basket_out(shopping_basket)
     
     return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv")
 

@@ -43,24 +43,16 @@ class App_State():
 
         self.sections = { # component dictionaries must share a name with html object id and tab value
             "Map":{
-                "activations" : 0,
                 "active":False,
-                "children":[None, None]
             },
             "Documentation":{
-                "activations" : 0,
                 "active":False,
-                "children":[None, None]
             },
             "Metadata":{
-                "activations" : 0,
                 "active":False,
-                "children":[None, None]
             },
             "Landing":{
-                "activations" : 0,
                 "active":False,
-                "children":[None, None]
             }
         }
 
