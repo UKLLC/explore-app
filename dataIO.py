@@ -55,7 +55,7 @@ def read_json(name):
     with open(os.path.join("assets",name), "r") as f:
         return json.load(f)
 
-def get_map_overlay(study):
+def get_map_overlays(study):
     with open(os.path.join("assets","map overlays","{}.geojson".format(study)), 'r') as f:
         returned_data = json.load(f)
     return returned_data
