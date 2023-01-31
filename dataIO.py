@@ -1,27 +1,28 @@
 from openpyxl import load_workbook
 import pandas as pd
 import json
+import os
 
 
 def load_study_request():
     '''
     
     '''
-    sheet_df = pd.read_excel("assets\\Data Request Form.xlsx", sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
+    sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
     return sheet_df
 
 
 def load_linked_request():
     '''
     '''
-    sheet_df = pd.read_excel("assets\\Data Request Form.xlsx", sheet_name="Linked data requested",skiprows=5, usecols = "B,C,D,E,F,G,H")
+    sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Linked data requested",skiprows=5, usecols = "B,C,D,E,F,G,H")
     return sheet_df
 
 
 def load_study_info_and_links():
     '''
     '''
-    sheet_df = pd.read_excel("assets\\Data Request Form.xlsx", sheet_name="Study info & links", skiprows=1, usecols = "B,C,D,E,F,G,H,I,J" )
+    sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study info & links", skiprows=1, usecols = "B,C,D,E,F,G,H,I,J" )
     return sheet_df
 
 def load_study_metadata(table_id):
@@ -30,7 +31,7 @@ def load_study_metadata(table_id):
     study = table_id.split("-")[0]
     table = table_id.split("-")[1]
     # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
-    values_df = pd.read_csv("metadata\\"+str(study.upper())+"\\"+table+".csv")
+    values_df = pd.read_csv(os.path.join("metadata",str(study.upper()),table+".csv"))
 
     return values_df
 
@@ -46,10 +47,16 @@ def basket_out(basket):
         
 
 def write_json(name, content):
-    with open("assets/"+name, "w") as f:
+    with open(os.path.join("assets",name), "w") as f:
         json.dump(content, f, ensure_ascii= False)
 
 def read_json(name):
     print("loading ",name)
-    with open("assets/"+name, "r") as f:
+    with open(os.path.join("assets",name), "r") as f:
         return json.load(f)
+
+def get_map_overlay(study):
+    with open(os.path.join("assets","map overlays","{}.geojson".format(study)), 'r') as f:
+        returned_data = json.load(f)
+    return returned_data
+

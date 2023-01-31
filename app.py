@@ -29,6 +29,7 @@ import structures as struct
 
 ######################################################################################
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
+server = app.server
 
 cache = Cache(app.server, config={
     'CACHE_TYPE': 'filesystem',
@@ -55,8 +56,7 @@ def load_or_fetch_map(study):
     returned_data = app_state.get_map_data(study) # memorisation of polygons
     if not returned_data: # if no saved map data, returns False
         try:
-            with open("assets\\map overlays\\{}.geojson".format(study), 'r') as f:
-                returned_data = json.load(f)
+            dataIO.get_map_overlays()
         except IOError:
             print("Unable to load map file {}.geojson".format(study))
         app_state.set_map_data(study, returned_data)
@@ -441,7 +441,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888)
     
 ''''
 thoughts on efficiency:
