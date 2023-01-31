@@ -55,7 +55,7 @@ def load_or_fetch_map(study):
     returned_data = app_state.get_map_data(study) # memorisation of polygons
     if not returned_data: # if no saved map data, returns False
         try:
-            dataIO.get_map_overlays(study)
+            returned_data = dataIO.get_map_overlays(study)
         except IOError:
             print("Unable to load map file {}.geojson".format(study))
         app_state.set_map_data(study, returned_data)
@@ -71,7 +71,7 @@ def get_study_tables(schema):
 ### page asset templates
 
 # Titlebar ###########################################################################
-titlebar = struct.main_titlebar("Data Discoverability Resource")
+titlebar = struct.main_titlebar(app, "Data Discoverability Resource")
 
 # Left Sidebar #######################################################################
 

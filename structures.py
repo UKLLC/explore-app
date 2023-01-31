@@ -97,14 +97,14 @@ def metadata_table(df, id):
     return quick_table
 
 
-def main_titlebar(title_text):
+def main_titlebar(app, title_text):
     titlebar = html.Div([
         html.Div([
             html.A(
                 href="https://ukllc.ac.uk/",
                 children=[
                     html.Img(
-                        src = os.path.join("assets","logo_LLC.png"),
+                        src = app.get_asset_url("logo_LLC.png"),
                         style = ss.LOGOS_STYLE
                     )
                 ]
@@ -114,7 +114,7 @@ def main_titlebar(title_text):
                 
                 children=[
                     html.Img(
-                        src = os.path.join("assets","logo_NCS.png"),
+                        src = app.get_asset_url("logo_NCS.png"),
                         style = ss.LOGOS_STYLE
                     )
                 ]
