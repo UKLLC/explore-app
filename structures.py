@@ -114,7 +114,7 @@ def main_titlebar(title_text):
                 
                 children=[
                     html.Img(
-                        src = os.path.join("assets","logo_NSC.png"),
+                        src = os.path.join("assets","logo_NCS.png"),
                         style = ss.LOGOS_STYLE
                     )
                 ]
