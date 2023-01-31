@@ -441,7 +441,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888)
+    app.run_server(port=8888, debug = True)
     
 ''''
 thoughts on efficiency:
