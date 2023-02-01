@@ -4,42 +4,9 @@ import dataIO
 
 class App_State():
     def __init__(self, schema_df) -> None:
-        self.schema = "None"
-        self.table = "None"
 
-        self.open_schemas = ["None"]
-        self.last_table = "None"
-        self.waiting_table = "None"
-        
 
-        self.tables_df = None
-        self.descs_df = None
-        self.vals_df = None
-        self.sidebar_clicks = {}
-
-        self.schema_collapse_open = {}
-        for schema in schema_df["Data Directory"].values:
-            self.schema_collapse_open[schema] = False
-
-        self.map_data = {}
-
-        self.lookup_index_to_sch = dataIO.read_json("study_lookup1.json")
-        self.lookup_sch_to_index = dataIO.read_json("study_lookup2.json")
-        self.lookup_index_to_tab = dataIO.read_json("table_lookup1.json")
-        self.lookup_tab_to_index = dataIO.read_json("table_lookup2.json")
-
-        # TEMP NHSD additions:
-        self.lookup_index_to_sch["999"] = "NHSD"
-        self.lookup_sch_to_index["NHSD"] = "999"
-    
-
-        # DEBUG ######
-        self.schema_click_count = 0
-        self.table_click_count = 0
-
-        #####################
-        
-        self.global_activations = 0
+        self.map_data = {}    
 
         self.sections = { # component dictionaries must share a name with html object id and tab value
             "Map":{
@@ -55,11 +22,6 @@ class App_State():
                 "active":False,
             }
         }
-
-        self.schema_doc = "None"
-        self.table_doc = "None"
-
-        self.shopping_basket = []
 
         #####################
 

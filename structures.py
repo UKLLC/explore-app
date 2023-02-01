@@ -127,7 +127,7 @@ def main_titlebar(app, title_text):
         style = ss.TITLEBAR_STYLE)
     return titlebar
 
-def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch_open =[], tab_open = "None"):
+def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None"):
     print("SB: ", current_basket)
     sidebar_children = []
     # Get data sources
@@ -147,7 +147,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                 value = [schema+"-"+table] if schema+"-"+table in current_basket else [],
                 id= {
                     "type":'shopping_checklist',
-                    "index" : table_lookup[schema+"-"+table]
+                    "index" : schema+"-"+table
                 },
                 style = ss.CHECKBOX_STYLE
                 )
@@ -169,7 +169,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                 dcc.Tabs(
                     id={
                         'type': 'table_tabs',
-                        'index': schema_lookup[schema]
+                        'index': schema
                     },
                     vertical=True,
                     value=tab_open,#"None" by default, otherwise app_state.table
@@ -182,7 +182,7 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
                             value = schema+"-"+table,
                             id={
                                 'type': 'sidebar_table_item',
-                                'index': table_lookup[schema+"-"+table]
+                                'index': schema+"-"+table
                             },
                             className = "table_tab",
                             selected_className='table_tab--selected'
@@ -210,8 +210,8 @@ def build_sidebar_list(df, schema_lookup, table_lookup, current_basket = [], sch
     return schema_list
 
 
-def make_sidebar_catalogue(df, schema_lookup, table_lookup):
-    catalogue_div = html.Div(build_sidebar_list(df, schema_lookup, table_lookup), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
+def make_sidebar_catalogue(df):
+    catalogue_div = html.Div(build_sidebar_list(df), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
     return catalogue_div
  
 def make_sidebar_title():
@@ -370,8 +370,8 @@ def make_body():
         style = ss.BODY_STYLE )
 
 
-def make_variable_div(id_type):
-    variable_div = dcc.Store(id = id_type )
+def make_variable_div(id_type, data = "None"):
+    variable_div = dcc.Store(id = id_type, data = data)
     return variable_div
 
 def make_variable_div_list(id_type, indices):

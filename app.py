@@ -68,7 +68,7 @@ titlebar = struct.main_titlebar(app, "Data Discoverability Resource")
 
 # Left Sidebar #######################################################################
 
-sidebar_catalogue = struct.make_sidebar_catalogue(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index)
+sidebar_catalogue = struct.make_sidebar_catalogue(study_df)
 sidebar_title = struct.make_sidebar_title()
 sidebar_footer = struct.make_sidebar_footer()
 sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer)
@@ -83,9 +83,8 @@ context_bar_div = struct.make_context_bar()
 maindiv = struct.make_body()
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
-shopping_basket_op = struct.make_variable_div("shopping_basket")
-save_output = struct.make_variable_div("save_op") 
-open_schemas = struct.make_variable_div("open_schemas")
+shopping_basket_op = struct.make_variable_div("shopping_basket", [])
+open_schemas = struct.make_variable_div("open_schemas", [])
 
 hidden_body = struct.make_hidden_body()
 
@@ -93,7 +92,7 @@ hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, save_output, open_schemas, hidden_body])
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body])
 print("Built app layout")
 ###########################################
 ### Actions
@@ -104,8 +103,8 @@ print("Built app layout")
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_doc_header(_):
-    header = struct.make_section_title("Documentation: {}".format(app_state.schema))
+def update_doc_header(schema):
+    header = struct.make_section_title("Documentation: {}".format(schema))
     return header
 
 
@@ -192,7 +191,7 @@ def update_table_data(table, schema):
 def update_table_metadata(table, values_on, search):
     print("CALLBACK: META BOX - updating table metadata")
 
-    table_id = app_state.table
+    table_id = table
     if table== "None":
         return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
     try:
@@ -230,7 +229,7 @@ def update_table_metadata(table, values_on, search):
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_doc_header(schema):
+def update_map_header(schema):
     header = struct.make_section_title("Coverage: {}".format(schema))
     return header
 
@@ -258,6 +257,7 @@ def update_doc_header(_, schema):
     prevent_initial_call=True
 )
 def context_tabs(schema, table):
+    #print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
     if schema != "None":
         if table != "None":
             return [dcc.Tab(label='Documentation', value="Documentation"),
@@ -286,21 +286,22 @@ def body_sctions(tab, active_body, hidden_body):
         sections_states[section_id] = section
 
     a_tab_is_active = False
-    sections = app_state.sections.keys()
-    for section in app_state.sections.keys():
+    sections = app_state.sections
+    active = []
+    inactive = []
+    for section in sections.keys():
         if section in tab:
-            sections[section]["active"] = True
+            active.append(section)
             a_tab_is_active = True
         else:
-            sections[section]["active"] = False
+            inactive.append(section)
 
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         print("TODO: landing page:")
-        return [sections_states["Landing"]],  [sections_states[section_id] for section_id, section_vals in sections.items() if not section_vals["active"]]
+        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in active]
 
-    return [sections_states[section_id] for section_id, section_vals in sections.items() if section_vals["active"]], [sections_states[section_id] for section_id, section_vals in sections.items() if not section_vals["active"]]
-
+    return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
 
 
 @app.callback(
@@ -313,9 +314,12 @@ def body_sctions(tab, active_body, hidden_body):
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
 def sidebar_schema(schemas, schema, open_schemas):
     print("CALLBACK: sidebar schema click")
-
+    # print("DEBUG, sidebar_schema {} {}, {} {}".format(schemas, type(schemas), schema, type(schema), open_schemas, type(open_schemas)))
     if not schemas:
-        return schema
+        return schema, []
+
+    if open_schemas == None:
+        open_schemas = []
 
     new_schemas = [sch for sch in schemas if sch not in open_schemas]
 
@@ -330,7 +334,6 @@ def sidebar_schema(schemas, schema, open_schemas):
         raise Exception("Error 1733")
 
     open_schemas = schemas
-    print(open_schemas)
     return schema, open_schemas
 
 
@@ -379,7 +382,7 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     print("CALLBACK: main search")
 
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(study_df, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, shopping_basket, open_schemas, table)
+        return struct.build_sidebar_list(study_df, shopping_basket, open_schemas, table)
 
     sub_list = study_df.loc[
         (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
@@ -391,7 +394,7 @@ def main_search(_, search, open_schemas, shopping_basket, table):
         (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
-    return struct.build_sidebar_list(sub_list, app_state.lookup_sch_to_index, app_state.lookup_tab_to_index, shopping_basket, open_schemas, table)
+    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table)
 
 
 @app.callback(
