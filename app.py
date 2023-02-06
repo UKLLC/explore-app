@@ -260,11 +260,13 @@ def context_tabs(schema, table):
     #print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
     if schema != "None":
         if table != "None":
-            return [dcc.Tab(label='Documentation', value="Documentation"),
+            return [dcc.Tab(label='Introduction', value="Introduction"),
+            dcc.Tab(label='Documentation', value="Documentation"),
             dcc.Tab(label='Metadata', value='Metadata'),
             dcc.Tab(label='Coverage', value='Map')]
         else:
-            return [dcc.Tab(label='Documentation', value="Documentation"),
+            return [dcc.Tab(label='Introduction', value="Introduction"),
+            dcc.Tab(label='Documentation', value="Documentation"),
             dcc.Tab(label='Coverage', value='Map')]
     else:
         return [dcc.Tab(label='Introduction', value="Introduction")]

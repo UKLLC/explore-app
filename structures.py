@@ -357,7 +357,9 @@ def make_landing_box():
         html.Div([
             html.P("Welcome to the UKLLC Data Discoverability Resource."),
             html.P("Use the sidebar on the left to select a data source and data block."),
-            html.P("Use the tabs along the top of the page to view information on the selected data source and tables."),
+            html.P("Use the tabs along the top of the page to view information on the selected data source and tables. The tabs will only appear when a study or data block is selected."),
+            html.P("You can selected one data block at a time to see information about it. You can add a data block to the shopping basket by clicking the tick box.")
+        
         ]
         , id = "Landing", style = ss.LANDING_BOX_STYLE)])
     return landing_box
