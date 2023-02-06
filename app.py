@@ -301,7 +301,7 @@ def body_sctions(tab, active_body, hidden_body):
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         print("TODO: landing page:")
-        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in active]
+        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]
 
     return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
 
