@@ -142,16 +142,15 @@ abbr[title] {
 
 /* width */
 ::-webkit-scrollbar {
-      width: 0.5rem;
+      width: 0.7rem;
+      background-color: var(--bs-whitegroup3);
     }
     
     /* Track */
     ::-webkit-scrollbar-track {
       background: #CCCCCC; 
-      box-shadow: inset 0 0 0.2rem rgb(79, 78, 78); 
-      border-radius: 0.25rem;
-      
-      
+      box-shadow: inset 0 0 0.3rem rgb(79, 78, 78); 
+
     }
      
     /* Handle */

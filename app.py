@@ -141,7 +141,7 @@ def update_tables_description(schema):
     if schema != "None":
         tables = get_study_tables(schema)
         if schema == "NHSD": # Expand to linked data branch
-            schema_info = "Generic info about nhsd table"
+            schema_info = "Generic info about nhsd"
             return schema_info
         else: # Study data branch
             return struct.data_doc_table(tables, "table_desc_table")
@@ -315,7 +315,7 @@ def body_sctions(tab, active_body, hidden_body):
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
 def sidebar_schema(schemas, schema, open_schemas):
     print("CALLBACK: sidebar schema click")
-    # print("DEBUG, sidebar_schema {} {}, {} {}".format(schemas, type(schemas), schema, type(schema), open_schemas, type(open_schemas)))
+    #print("DEBUG, sidebar_schema {} {}, {}, {}, {}, {}".format(schemas, type(schemas), schema, type(schema), open_schemas, type(open_schemas)))
     if not schemas:
         return schema, []
 
@@ -349,6 +349,7 @@ def sidebar_schema(schemas, schema, open_schemas):
 )
 def sidebar_table(tables, table):
     print("CALLBACK: sidebar table click")
+    #print("DEBUG sidebar_table: {}, {}".format(tables, table))
     active = [t for t in tables if t!= "None"]
     if len(active) == 0:
         return "None", tables
@@ -406,6 +407,7 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     )
 def shopping_cart(selected, shopping_basket):
     print("CALLBACK: Shopping cart")
+    print("DUBG shopping_cart: {}, {}".format(selected,shopping_basket))
 
     selected = [i[0] for i in selected if i !=[]]
     shopping_basket = selected
