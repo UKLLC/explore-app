@@ -7,3 +7,7 @@ MAP_ATTRIBUTION = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> '
 
 keyword_cols = ["Keywords","Unnamed: 11","Unnamed: 12", "Unnamed: 13", "Unnamed: 14","Unnamed: 15"]
 #keyword_cols = ["Keywords", "Unnamed: 8", "Unnamed: 9","Unnamed: 10","Unnamed: 11","Unnamed: 12"]
+
+VALID_USERNAME_PASSWORD_PAIRS = {
+    'username': 'password'
+}

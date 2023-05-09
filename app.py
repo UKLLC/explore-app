@@ -1,5 +1,5 @@
 # sidebar.py
-from os import read
+import  os
 from re import S
 import re
 import dash
@@ -13,12 +13,14 @@ import dash_leaflet as dl
 import dash_leaflet.express as dlx
 from dash_extensions.javascript import arrow_function
 from dash_extensions.javascript import assign
-import json
+import pickle
 import time
 import warnings
 import logging
 from dash.exceptions import PreventUpdate
 from flask_caching import Cache
+import dash_auth
+from flask import request
 
 from app_state import App_State
 import dataIO
@@ -30,6 +32,11 @@ import structures as struct
 ######################################################################################
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 server = app.server
+
+auth = dash_auth.BasicAuth(
+    app,
+    constants.VALID_USERNAME_PASSWORD_PAIRS
+)
 
 ######################################################################################
 ### Data prep functions
@@ -85,6 +92,8 @@ schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
 shopping_basket_op = struct.make_variable_div("shopping_basket", [])
 open_schemas = struct.make_variable_div("open_schemas", [])
+user = struct.make_variable_div("user", "None")
+placeholder = struct.make_variable_div("placeholder", "placeholder")
 
 hidden_body = struct.make_hidden_body()
 
@@ -92,10 +101,21 @@ hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body])
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, placeholder])
 print("Built app layout")
 ###########################################
 ### Actions
+
+###########################################
+### Login
+@app.callback(
+    Output('user', "data"),
+    Input('login_button','n_clicks'),
+    prevent_initial_call=True
+)
+def login(_):
+    print("auth placeholder - do flask or ditch")
+
 
 ### DOCUMENTATION BOX #####################
 @app.callback(
@@ -432,6 +452,22 @@ def save_shopping_cart(_, shopping_basket):
     fileout = dataIO.basket_out(shopping_basket)
     
     return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv")
+
+
+@app.callback(
+    Output("placeholder","data"),
+    Input("app","n_clicks"),
+    State("shopping_basket", "data")   
+)
+def basket_autosave(_, sb):
+    path = os.path.join("saves", request.authorization['username'])
+    if not os.path.exists(path):
+        os.mkdir(path)
+    with open(os.path.join(path, "SB"), 'wb') as f:
+        pickle.dump(sb, f)
+    
+
+
 
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')

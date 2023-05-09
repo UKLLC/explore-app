@@ -122,8 +122,16 @@ def main_titlebar(app, title_text):
         ],
         style = ss.LOGOS_DIV_STYLE
         ),
-        html.H1(title_text, className="title")
-        ],
+        html.Div([
+            html.H1(title_text, className="title"),
+            dbc.Button(
+                "Login Test",
+                id="login_button",
+                n_clicks=0,
+                class_name="login_button"
+                ),
+            ]
+        )],
         style = ss.TITLEBAR_STYLE)
     return titlebar
 
