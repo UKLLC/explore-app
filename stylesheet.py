@@ -4,7 +4,7 @@ from dash_extensions.javascript import assign
 # Dependent layout vars
 titlebar_h = 5
 left_sidebar_w = 16
-context_bar_h = 4
+context_bar_h = 2.5
 sidebar_title_h = 5
 body_start = titlebar_h+context_bar_h
 box_title_h = 3
@@ -21,8 +21,9 @@ black = ["#000000","#212529", "#373B3E", "#1c1c1c"]
 white = ["#FFFFFF", "#F2F2F2", "#E6E6E6", "#212529"]
 
 
-TITLEBAR_STYLE = {
+TITLEBAR_DIV_STYLE = {
     "position": "fixed",
+    "display":"flex",
     "top": 0,
     "left": 0,
     "width": "100%",
@@ -30,23 +31,55 @@ TITLEBAR_STYLE = {
     "background-color": "white",
     "color": "black",
     "textAlign":"center",
-    "zIndex":2,
+    "overflow":"visible",
+
+    "border":"solid",
+    "border-width":"thin",
+    "border-color":"blue"
     }
+
+TITLE_STYLE = {
+    "position":"fixed",
+    "left" : "12rem",
+    "width" : "50%",
+    "border":"solid",
+    "border-width":"thin",
+    "border-color":"green"
+}
+
 
 
 LOGOS_STYLE = {
     "height" : str(titlebar_h)+"rem",
     "left" : 0,
-    "margin-right" : "1rem"
+    "margin-right" : "1rem",
+    "display":"flex"
 }
 
 LOGOS_DIV_STYLE = {
-    "position" : "fixed",
+    "position" : "relative",
     "left" : 0,
     "align": "left",
 
-    "width":"17rem",    
+    "width":"12rem",    
 }
+
+ACCOUNT_DROPDOWN_DIV_STYLE = {
+    
+    "position" : "fixed",
+    "align": "left",
+    "right": "10rem",
+    "padding-right": "1rem",
+    "width": "10rem",
+    "overflow":"visible",
+}
+ACCOUNT_DROPDOWN_STYLE = {
+    "position" : "relative",
+    "overflow":"visible",
+    "zIndex" : "999"
+}
+
+
 #######################
 
 
@@ -149,12 +182,8 @@ CONTEXT_BAR_STYLE = {
     "height" : str(context_bar_h)+"rem",
     "width":"calc(100% - "+str(left_sidebar_w)+"rem)",
     "left":str(left_sidebar_w)+"rem",
-    "background-color": "white",
-    "overflow-x":"hidden",
-    "zIndex":2,
-    "border-bottom":"solid",
-    "border-width":"thin",
-    "border-color":"white"
+    "background-color":"black",
+
 }
 
 

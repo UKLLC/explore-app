@@ -209,7 +209,7 @@ abbr[title] {
 
 /* SIDEBAR TABLE LIST STYLE */
 .table_tabs_container {
-    z-index: 1;
+    /*z-index: 0;*/
     position: relative;
     border-width: thin;
     width: 100%;
@@ -230,7 +230,7 @@ abbr[title] {
     background-color: var(--bs-whitegroup2) !important;
 }
 .table_tab--selected {
-    z-index: 2;
+    /*z-index: 2;*/
     overflow: hidden !important;
     height: 2rem !important;
     width: 16rem !important;
@@ -268,7 +268,79 @@ abbr[title] {
     height: 1.5rem;
     border-right: none !important; /* Prevent double borders */
     border: 1px solid var(--bs-whitegroup4) !important;
+}
+
+
+
+/*  .dropdown-toggle {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-menu {
+    display:none;
+    background-color: #000000;
+    z-index: 3;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu:hover .dropdown-menu {
+    display: block;
+  }
+*/
+
+
+.custom-tabs-container {
+    position: fixed;
+    background-color: black;
 
 }
-  
+.custom-tabs {
+    background-color:var(--bs-whitegroup1) !important;
+    
+}
 
+.custom-tab {
+    background-color:var(--bs-whitegroup1) !important;
+    color: black !important;
+    border-top-left-radius: .5rem !important;
+    border-top-right-radius: .5rem !important;
+    border-top: 1px solid black !important;
+
+    border-color: black !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    height: 2.5rem !important;
+    max-width: 15rem !important;
+}
+.custom-tab--selected {
+    color: white !important;
+    background-color: var(--bs-cyangroup1) !important;
+    max-width: 15rem;
+}

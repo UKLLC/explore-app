@@ -33,11 +33,12 @@ import structures as struct
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 server = app.server
 
+'''
 auth = dash_auth.BasicAuth(
     app,
     constants.VALID_USERNAME_PASSWORD_PAIRS
 )
-
+'''
 ######################################################################################
 ### Data prep functions
 
@@ -71,7 +72,7 @@ def get_study_tables(schema):
 ### page asset templates
 
 # Titlebar ###########################################################################
-titlebar = struct.main_titlebar(app, "Data Discoverability Resource")
+titlebar = struct.main_titlebar(app, "Placeholder Title")
 
 # Left Sidebar #######################################################################
 
@@ -107,15 +108,17 @@ print("Built app layout")
 ### Actions
 
 ###########################################
+
+'''
 ### Login
 @app.callback(
     Output('user', "data"),
-    Input('login_button','n_clicks'),
+    Input('account_dropdown','n_clicks'),
     prevent_initial_call=True
 )
 def login(_):
     print("auth placeholder - do flask or ditch")
-
+'''
 
 ### DOCUMENTATION BOX #####################
 @app.callback(
@@ -280,16 +283,16 @@ def context_tabs(schema, table):
     #print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
     if schema != "None":
         if table != "None":
-            return [dcc.Tab(label='Introduction', value="Introduction"),
-            dcc.Tab(label='Documentation', value="Documentation"),
-            dcc.Tab(label='Metadata', value='Metadata'),
-            dcc.Tab(label='Coverage', value='Map')]
+            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
+            dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
+            dcc.Tab(label='Metadata', value='Metadata', className='custom-tab', selected_className='custom-tab--selected'),
+            dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
         else:
-            return [dcc.Tab(label='Introduction', value="Introduction"),
-            dcc.Tab(label='Documentation', value="Documentation"),
-            dcc.Tab(label='Coverage', value='Map')]
+            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
+            dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
+            dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
     else:
-        return [dcc.Tab(label='Introduction', value="Introduction")]
+        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected')]
 
 
 @app.callback(

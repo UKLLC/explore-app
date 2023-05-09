@@ -109,6 +109,7 @@ def main_titlebar(app, title_text):
                     )
                 ]
             ),
+            '''
             html.A(
                 href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
                 
@@ -119,20 +120,35 @@ def main_titlebar(app, title_text):
                     )
                 ]
             )
+            '''
         ],
         style = ss.LOGOS_DIV_STYLE
         ),
         html.Div([
-            html.H1(title_text, className="title"),
-            dbc.Button(
-                "Login Test",
-                id="login_button",
-                n_clicks=0,
-                class_name="login_button"
-                ),
-            ]
-        )],
-        style = ss.TITLEBAR_STYLE)
+            html.H1(title_text, className="title")],
+            style = ss.TITLE_STYLE
+            ),
+        html.Div([
+            dbc.DropdownMenu(
+                label = "Account",
+                children = [
+                    dbc.DropdownMenuItem("Item 1"),
+                    dbc.DropdownMenuItem("Item 2"),
+                    dbc.DropdownMenuItem("Item 3"),
+                    dbc.DropdownMenuItem("Item 4"),
+                    dbc.DropdownMenuItem("Item 5"),
+                    dbc.DropdownMenuItem("Item 6"),
+                ],
+                id="account_dropdown",
+                className = "account_dropdown",
+                style = ss.ACCOUNT_DROPDOWN_STYLE 
+
+                )
+            ], 
+            style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
+        ],
+        style = ss.TITLEBAR_DIV_STYLE)
+        
     return titlebar
 
 def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None"):
@@ -266,11 +282,16 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer):
 def make_context_bar():
     context_bar = html.Div([
         dcc.Tabs(id="context_tabs", value='', children=[
-            dcc.Tab(label='Introduction', value="Introduction")
-            ]),
+            dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected')
+            ],
+            parent_className='custom-tabs',
+            className='custom-tabs-container',
+        ),
         ],
         id = "context_bar_div", 
-        style = ss.CONTEXT_BAR_STYLE)
+        style = ss.CONTEXT_BAR_STYLE
+        )
+
     return context_bar
 
 def make_section_title(title):
