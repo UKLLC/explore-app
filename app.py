@@ -95,6 +95,7 @@ shopping_basket_op = struct.make_variable_div("shopping_basket", [])
 open_schemas = struct.make_variable_div("open_schemas", [])
 user = struct.make_variable_div("user", "None")
 placeholder = struct.make_variable_div("placeholder", "placeholder")
+account_section = struct.make_account_section()
 
 hidden_body = struct.make_hidden_body()
 
@@ -102,7 +103,7 @@ hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, placeholder])
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, placeholder])
 print("Built app layout")
 ###########################################
 ### Actions

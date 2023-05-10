@@ -7,6 +7,9 @@
 
 .dropdown-toggle {
   white-space: nowrap;
+  color: black;
+  background-color: white;
+  border: none;
 }
 .dropdown-toggle::after {
   display: inline-block;

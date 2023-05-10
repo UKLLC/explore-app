@@ -128,24 +128,7 @@ def main_titlebar(app, title_text):
             html.H1(title_text, className="title")],
             style = ss.TITLE_STYLE
             ),
-        html.Div([
-            dbc.DropdownMenu(
-                label = "Account",
-                children = [
-                    dbc.DropdownMenuItem("Item 1"),
-                    dbc.DropdownMenuItem("Item 2"),
-                    dbc.DropdownMenuItem("Item 3"),
-                    dbc.DropdownMenuItem("Item 4"),
-                    dbc.DropdownMenuItem("Item 5"),
-                    dbc.DropdownMenuItem("Item 6"),
-                ],
-                id="account_dropdown",
-                className = "account_dropdown",
-                style = ss.ACCOUNT_DROPDOWN_STYLE 
-
-                )
-            ], 
-            style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
+    
         ],
         style = ss.TITLEBAR_DIV_STYLE)
         
@@ -413,8 +396,8 @@ def make_variable_div_list(id_type, indices):
     return divs
 
 
-def make_app_layout(titlebar, sidebar_left, context_bar, body, variable_divs):
-    app_layout =  html.Div([titlebar, sidebar_left, context_bar, body] + variable_divs, id="app",style=ss.APP_STYLE) 
+def make_app_layout(titlebar, sidebar_left, context_bar, body, account_section, variable_divs):
+    app_layout =  html.Div([titlebar, sidebar_left, context_bar, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
     return app_layout
 
 def make_schema_description(schemas):
@@ -440,3 +423,23 @@ def make_hidden_body():
         style=ss.HIDDEN_BODY_STYLE,
         id = "hidden_body")
     return body
+
+def make_account_section():
+    dropdown = html.Div([
+            dbc.DropdownMenu(
+                label = "Account",
+                children = [
+                    dbc.DropdownMenuItem("Load Basket (placeholder)"),
+                    dbc.DropdownMenuItem("Save Basket (placeholder)"),
+                    dbc.DropdownMenuItem("Download Basket (placeholder)"),
+                    dbc.DropdownMenuItem("Log Out (placeholder"),
+
+                ],
+                id="account_dropdown",
+                className = "account_dropdown",
+                style = ss.ACCOUNT_DROPDOWN_STYLE 
+
+                )
+            ], 
+            style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
+    return dropdown

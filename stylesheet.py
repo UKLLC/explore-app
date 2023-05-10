@@ -25,12 +25,11 @@ TITLEBAR_DIV_STYLE = {
     "position": "fixed",
     "display":"flex",
     "top": 0,
-    "left": 0,
-    "width": "100%",
+    "left": str(left_sidebar_w) +"rem",
+    "width": "calc(100% - {}rem)".format(left_sidebar_w),
     "height": str(titlebar_h)+"rem",
     "background-color": "white",
     "color": "black",
-    "textAlign":"center",
     "overflow":"visible",
 
     "border":"solid",
@@ -40,8 +39,8 @@ TITLEBAR_DIV_STYLE = {
 
 TITLE_STYLE = {
     "position":"fixed",
-    "left" : "12rem",
-    "width" : "50%",
+    "left" : str(left_sidebar_w + 12)+"rem",
+    "width" : "30%",
     "border":"solid",
     "border-width":"thin",
     "border-color":"green"
@@ -68,9 +67,9 @@ ACCOUNT_DROPDOWN_DIV_STYLE = {
     
     "position" : "fixed",
     "align": "left",
-    "right": "10rem",
-    "padding-right": "1rem",
-    "width": "10rem",
+    "right": "0",
+    "top" : "1rem",
+    "width": "10%",
     "overflow":"visible",
 }
 ACCOUNT_DROPDOWN_STYLE = {
@@ -85,7 +84,7 @@ ACCOUNT_DROPDOWN_STYLE = {
 
 SIDEBAR_LEFT_STYLE = {
     "position" : "fixed",
-    "top" : str(titlebar_h)+"rem",
+    "top" : 0,
     "left" : 0,
     "bottom": 0,
     "width" : str(left_sidebar_w)+"rem",
