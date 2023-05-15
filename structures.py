@@ -136,7 +136,8 @@ def main_titlebar(app, title_text):
 
 def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None"):
     print("SB: ", current_basket)
-    sidebar_children = []
+    study_sidebar_children = []
+    linked_sidebar_children = []
     # Get data sources
     schema_df = pd.concat([df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
     
@@ -172,7 +173,6 @@ def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None")
         schema_children = dbc.AccordionItem([
             html.Div(
                 [
-                checkbox_col, 
                 dcc.Tabs(
                     id={
                         'type': 'table_tabs',
@@ -196,7 +196,8 @@ def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None")
                         )
                         for table in tables
                         ],
-                    ), 
+                    ),
+                checkbox_col  
                 ],
                 style = ss.CHECKBOX_LIST_COLS_STYLE
                 ),
@@ -205,20 +206,40 @@ def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None")
             item_id = schema
             )
 
-        sidebar_children += [schema_children]
+        if schema != "NHSD": # TODO make this watertight
+            study_sidebar_children += [schema_children]
+        else:
+            linked_sidebar_children += [schema_children]
 
-    schema_list = dbc.Accordion(sidebar_children,
-        id='schema_accordion',
-        always_open=True,
+    study_list = dbc.AccordionItem([dbc.Accordion(study_sidebar_children,
+        id='study_schema_accordion',
+        class_name= "content_accordion",
+        always_open=False,
         key = "0",
+        active_item = sch_open)],
+        title = "Study")
 
-        active_item = sch_open)
+    linked_list =  dbc.AccordionItem([dbc.Accordion(linked_sidebar_children,
+        id='linked_schema_accordion',
+        class_name= "content_accordion",
+        always_open=False,
+        key = "0",
+        active_item = sch_open)],
+        title = "Linked")
+    
     print("MAKING SIDEBAR", sch_open)
-    return schema_list
+    return [study_list, linked_list]
 
 
 def make_sidebar_catalogue(df):
-    catalogue_div = html.Div(build_sidebar_list(df), id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
+    study_accordion, linked_accordion = build_sidebar_list(df)
+    catalogue_div = html.Div(
+        dbc.Accordion(
+        [study_accordion, linked_accordion], 
+        always_open=True,
+        id= "top_accordion"
+        )
+        , id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
     return catalogue_div
  
 def make_sidebar_title():
@@ -253,11 +274,10 @@ def make_sidebar_footer():
         style = ss.SIDEBAR_FOOTER_STYLE)
     return sidebar_footer
 
-def make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer):
+def make_sidebar_left(sidebar_title, sidebar_catalogue):
     sidebar_left = html.Div([
         sidebar_title,
-        sidebar_catalogue,
-        sidebar_footer],
+        sidebar_catalogue],
         style = ss.SIDEBAR_LEFT_STYLE,
         id = "sidebar_left_div")
     return sidebar_left

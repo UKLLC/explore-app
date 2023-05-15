@@ -1,0 +1,86 @@
+.accordion {
+    padding: 0;
+    margin: 0;
+
+}
+
+.accordion-item {
+    padding: 0;
+    margin:0;
+    height: fit-content;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    background-color: black;
+    color: white;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+
+    border-width:thin;
+    font-size:medium;
+    margin: 0rem;
+    padding: 0.3rem;
+    padding-left: .5rem;
+    text-align: left;
+    width:100%;
+    cursor: pointer;
+    
+    border: none;
+}
+
+
+.accordion-button:hover {
+    background-color: #34383c;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: black;
+    border: none;
+  }
+
+.accordion-button:not(.collapsed)::after {
+    
+    background-image: url("expand-arrow-white-1-32.png");
+    transform: rotate(-180deg);
+    border: none;
+    }
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("expand-arrow-white-1-32.png");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+    border: none;
+    }
+
+.content_accordion .accordion-button{
+
+        background-color: #212529;
+        color: white;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+        margin: 0rem;
+        padding: 0.3rem;
+        padding-left: 1rem;
+    }
+
+.content_accordion .accordion-button.collapsed:hover{
+    background-color: var(--bs-limegroup1);
+    color: black;
+    border-radius: .3rem;
+}
+
+.content_accordion .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: var(--bs-limegroup1);
+    border: none;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+

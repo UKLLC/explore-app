@@ -78,8 +78,7 @@ titlebar = struct.main_titlebar(app, "Placeholder Title")
 
 sidebar_catalogue = struct.make_sidebar_catalogue(study_df)
 sidebar_title = struct.make_sidebar_title()
-sidebar_footer = struct.make_sidebar_footer()
-sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue, sidebar_footer)
+sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
 # Context bar #########################################################################
 
@@ -332,7 +331,7 @@ def body_sctions(tab, active_body, hidden_body):
 @app.callback(
     Output('active_schema','data'),
     Output("open_schemas", "data"),
-    Input("schema_accordion", "active_item"),
+    Input("study_schema_accordion", "active_item"),
     State("active_schema", "data"),
     State("open_schemas", "data"),
     prevent_initial_call = True
@@ -346,6 +345,7 @@ def sidebar_schema(schemas, schema, open_schemas):
     if open_schemas == None:
         open_schemas = []
 
+    ''' # Branch required for accordion with always_open = True. Not needed when False. See below instead.
     new_schemas = [sch for sch in schemas if sch not in open_schemas]
 
     if len(new_schemas) == 1:
@@ -356,9 +356,12 @@ def sidebar_schema(schemas, schema, open_schemas):
         print("no new schemas")
         # Keep current schema for simplicity
     else:
+        print("Debug", new_schemas, schemas, open_schemas)
         raise Exception("Error 1733")
-
     open_schemas = schemas
+    '''
+
+    open_schemas = schema
     return schema, open_schemas
 
 
@@ -438,7 +441,7 @@ def shopping_cart(selected, shopping_basket):
 
     return shopping_basket
 
-
+'''
 @app.callback(
     Output('sb_download','data'),
     Input("save_button", "n_clicks"),
@@ -446,18 +449,18 @@ def shopping_cart(selected, shopping_basket):
     prevent_initial_call=True
     )
 def save_shopping_cart(_, shopping_basket):
-    '''
+    
     input save button
     Get list of selected checkboxes - how? can just save shopping cart as is, list of ids
     
-    '''
     print("CALLBACK: Save shopping cart")
     # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
     fileout = dataIO.basket_out(shopping_basket)
     
     return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv")
+'''
 
-
+'''
 @app.callback(
     Output("placeholder","data"),
     Input("app","n_clicks"),
@@ -469,7 +472,7 @@ def basket_autosave(_, sb):
         os.mkdir(path)
     with open(os.path.join(path, "SB"), 'wb') as f:
         pickle.dump(sb, f)
-    
+'''    
 
 
 

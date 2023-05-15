@@ -32,7 +32,7 @@ TITLEBAR_DIV_STYLE = {
     "color": "black",
     "overflow":"visible",
 
-    "border":"solid",
+    "border":"none",
     "border-width":"thin",
     "border-color":"blue"
     }
@@ -41,17 +41,17 @@ TITLE_STYLE = {
     "position":"fixed",
     "left" : str(left_sidebar_w + 12)+"rem",
     "width" : "30%",
-    "border":"solid",
+
+    "border":"none",
     "border-width":"thin",
     "border-color":"green"
 }
-
-
 
 LOGOS_STYLE = {
     "height" : str(titlebar_h)+"rem",
     "left" : 0,
     "margin-right" : "1rem",
+    "margin-left" : "1rem",
     "display":"flex"
 }
 
@@ -109,7 +109,7 @@ SIDEBAR_LIST_DIV_STYLE = {
     "zIndex":3,
     "position":"relative",
     "background-color":"#212529",
-    "height": "calc(100% - "+str(sidebar_title_h+5)+"rem",
+    "height": "calc(100% - "+str(sidebar_title_h)+"rem",
     "overflow-y": "scroll",
     "overflow-x": "hidden",
 }
