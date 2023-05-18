@@ -20,7 +20,10 @@ class App_State():
             },
             "Landing":{
                 "active":False,
-            }
+            },
+            "Basket Review":{
+                "active":False,
+            },
         }
 
         #####################

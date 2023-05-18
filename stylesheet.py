@@ -226,14 +226,14 @@ DOC_TITLE_STYLE = {
     "width":"100%",
     "height":"3rem",
     "color":"white",
-    "background-color":black[0],
+    "background-color":white[0],
     "padding-top":"0.5rem",
     "padding-left":"1rem",
 }
 
 DOCUMENTATION_BOX_STYLE ={
-    "color":"white",
-    "background-color":black[2],
+    "color":"black",
+    "background-color":white[2],
     "padding" : "1rem",
     "padding-bottom" : "1rem",
     "top" : str(box_title_h) +"rem",
@@ -261,12 +261,12 @@ TABLES_DOC_CELL = {
     'textOverflow': 'ellipsis',
     'whiteSpace': 'normal',
     'height': 'auto',
-    "background-color":black[1],
+    "background-color":white[1],
     }
 TABLES_DOC_CONDITIONAL = {'if': {
         'row_index': 'even'
     },
-    'backgroundColor': black[2],
+    'backgroundColor': white[2],
 }
 
 # METADATA #######################

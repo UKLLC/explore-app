@@ -96,6 +96,20 @@ def metadata_table(df, id):
             )
     return quick_table
 
+def basket_review_table(df):
+    table = dash_table.DataTable(
+        id="basket_review_table", #id = basket_review_table (passed in app)
+        data=df.to_dict('records'),
+        columns=[{"name": i, "id": i} for i in df.columns], 
+        page_size=25,
+        editable=False,
+        row_selectable=False,
+        row_deletable=True, # TODO test this?
+        style_header=ss.METADATA_DESC_HEADER,
+        style_cell=ss.METADATA_DESC_CELL,
+        )
+    return table
+
 
 def main_titlebar(app, title_text):
     titlebar = html.Div([
@@ -281,8 +295,9 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue):
 
 def make_context_bar():
     context_bar = html.Div([
-        dcc.Tabs(id="context_tabs", value='', children=[
-            dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected')
+        dcc.Tabs(id="context_tabs", value='Introduction', children=[
+            dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
+            dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
             ],
             parent_className='custom-tabs',
             className='custom-tabs-container',
@@ -392,7 +407,45 @@ def make_landing_box():
         
         ]
         , id = "Landing", style = ss.LANDING_BOX_STYLE)])
+
+
     return landing_box
+
+
+def make_basket_review_box():
+    title_section = html.Div([make_section_title("Basket Review")], id = "basket_review_title", style = ss.LANDING_TITLE_STYLE)
+    
+    basket_review_box = html.Div([
+        title_section,
+        html.Div([
+
+            html.P("Insert list of selected tables (add checkboxes to them)."),
+            html.P("Insert save, clear, recommend, etc buttons"),
+                
+            #Main body is a table with Source, block, description, checkbox
+            #Clear all button at top of checklist col - far from save
+            #Big save button at the bottom
+            #Recommend box? bottom or RHS 
+            
+            # Get list of selected tables & doc as df
+            html.Div([
+                dash_table.DataTable(
+                        id="basket_review_table", #id = basket_review_table (passed in app)
+                        data=None,#df.to_dict('records'),
+                        columns=None,#[{"name": i, "id": i} for i in df.columns], 
+                        page_size=25,
+                        editable=False,
+                        row_selectable=False,
+                        row_deletable=True, # TODO test this?
+                        style_header=ss.METADATA_DESC_HEADER,
+                        style_cell=ss.METADATA_DESC_CELL,
+                        )
+                ],
+                id = "basket_review_table_div")
+
+                ],
+                 id = "Basket Review", style = ss.LANDING_BOX_STYLE)])
+    return basket_review_box
 
 def make_body():
     return html.Div([
@@ -433,6 +486,7 @@ def make_table_doc(tables):
 
 def make_hidden_body():
     body = html.Div([
+            make_basket_review_box(),
             make_documentation_box(),
             make_metadata_box(),
             make_map_box()

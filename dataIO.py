@@ -6,7 +6,6 @@ import os
 
 def load_study_request():
     '''
-    
     '''
     sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
     return sheet_df

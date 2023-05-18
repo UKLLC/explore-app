@@ -271,6 +271,33 @@ def update_doc_header(_, schema):
     return map_data, 6
 
 
+### BASKET REVIEW #############
+
+@app.callback(
+    Output("basket_review_table_div", "children"),
+    Input("shopping_basket", "data"),
+    prevent_initial_call = True
+)
+def update_basket_review_table(shopping_basket):
+    print("DEBUG: making basket review table with shopping basket", shopping_basket)
+    rows = []
+    for table_id in shopping_basket:
+        table_split = table_id.split("-")
+        source, table = table_split[0], table_split[1]
+        df = dataIO.load_study_request()
+        df = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
+        row = [source, table, df["Block Description"].values[0]]
+        print(row)
+        rows.append(row)
+    df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
+    print("Debug df:",df)
+
+    return struct.basket_review_table(df)
+    
+    
+
+
+
 #########################
 @app.callback(
 
@@ -284,15 +311,19 @@ def context_tabs(schema, table):
     if schema != "None":
         if table != "None":
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
-            dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
-            dcc.Tab(label='Metadata', value='Metadata', className='custom-tab', selected_className='custom-tab--selected'),
-            dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
+                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
+                dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
+                dcc.Tab(label='Metadata', value='Metadata', className='custom-tab', selected_className='custom-tab--selected'),
+                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
         else:
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
-            dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
-            dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
+                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
+                    dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
+                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
     else:
-        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected')]
+        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
+                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
+]
 
 
 @app.callback(
@@ -434,7 +465,7 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     )
 def shopping_cart(selected, shopping_basket):
     print("CALLBACK: Shopping cart")
-    print("DUBG shopping_cart: {}, {}".format(selected,shopping_basket))
+    #print("DUBG shopping_cart: {}, {}".format(selected,shopping_basket))
 
     selected = [i[0] for i in selected if i !=[]]
     shopping_basket = selected
