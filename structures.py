@@ -150,29 +150,26 @@ def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None")
         # CHECKBOXES
         checkbox_prep = []
         for table in tables:
-            checkbox_prep += [html.Div([
+            checkbox_prep += [
                 dcc.Checklist([schema+"-"+table],
                 value = [schema+"-"+table] if schema+"-"+table in current_basket else [],
                 id= {
                     "type":'shopping_checklist',
                     "index" : schema+"-"+table
                 },
+                className = "shopping_checkbox",
                 style = ss.CHECKBOX_STYLE
                 )
-            ],
-            #row div style
-            style = ss.CHECKBOX_ROW_STYLE,
-            )]
+            ]
         
         checkbox_col = html.Div(
             checkbox_prep, 
-            style = ss.CHECKBOX_COL_STYLE
             )
 
         # SCHEMA AND TABLES
         schema_children = dbc.AccordionItem([
             html.Div(
-                [
+                [    
                 dcc.Tabs(
                     id={
                         'type': 'table_tabs',
@@ -199,7 +196,7 @@ def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None")
                     ),
                 checkbox_col  
                 ],
-                style = ss.CHECKBOX_LIST_COLS_STYLE
+                className = "list_and_checkbox_div"
                 ),
             ],
             title = schema,

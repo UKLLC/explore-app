@@ -181,48 +181,65 @@ abbr[title] {
     /*z-index: 0;*/
     position: relative;
     border-width: thin;
-    width: 100%;
-    left: -1rem;
-    
+    width: 18rem;
 }
-
 
 .table_tab {
     overflow: hidden !important;
     height: 2rem !important;
-    width: 16rem !important;
+    width: 18rem;
     padding-top: .55rem !important; 
-    padding-left: 2rem !important;
-    border-left: none !important;
-
+    padding-left: .5rem !important;
+    border: none !important;
     text-align: left !important;
-    background-color: var(--bs-whitegroup2) !important;
+
+    background-color: var(--bs-whitegroup2);
 }
 .table_tab--selected {
-    /*z-index: 2;*/
-    overflow: hidden !important;
-    height: 2rem !important;
-    width: 16rem !important;
-    padding-top: .55rem !important;
-    padding-left: 2rem !important;
-
-    border-left: none !important;
-
-    text-align: left !important;
-    background-color: var(--bs-whitegroup1) !important;
-    box-shadow:  0px 0px 0.3rem -0.1rem !important
+    background-color: var(--bs-whitegroup1);
+    border-left: solid !important;
+    border-width: thick !important;
+    border-left-color: var(--bs-limegroup1) !important;
 }
 .table_tab:hover {
-    overflow: hidden !important;
-    height: 2rem !important;
-    width: 16rem !important;
-    padding-top: .55rem !important;
-    padding-left: 2rem !important;
 
-    text-align: left !important;
-    background-color: var(--bs-whitegroup1) !important;
+    background-color: var(--bs-whitegroup1);
 }
 
+.table_tab label{
+    overflow: hidden;
+    max-width: 15rem !important;
+    text-overflow: ellipsis;
+}
+
+/* todo: convert checkbox_list_cols_stylem checkbox_col, checkbox_row, checkbox */
+.list_and_checkbox_div{
+    left : 0;
+    list-style-type: none;
+    text-overflow: ellipsis;
+    
+    font-size: normal;
+    display: flex;
+    width: 100%;
+    max-width: 17rem;
+    color: black;
+}
+
+.shopping_checkbox {
+    z-index: 3;
+    background-color: none;
+    width:2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: .4rem;
+    position: relative;
+    left: -2.5rem;
+
+    
+}
+
+/* */
 
 .search_button {
     height: 1.5rem;

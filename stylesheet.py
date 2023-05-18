@@ -3,7 +3,7 @@ from dash_extensions.javascript import assign
 
 # Dependent layout vars
 titlebar_h = 5
-left_sidebar_w = 16
+left_sidebar_w = 18
 context_bar_h = 2.5
 sidebar_title_h = 5
 body_start = titlebar_h+context_bar_h
@@ -131,30 +131,19 @@ SIDEBAR_FOOTER_STYLE = {
 
 
 
-# checkbox and tables combined
-CHECKBOX_LIST_COLS_STYLE = {
-    "list-style-type":"none", 
-    "border-top":"solid",
-    "border-width":"thin",
-    "font-size":"small",
-    "width" : "100%",
-    "display" : "flex",
-    "width" : "16rem",
-    "color" : "black",
-}
-
-
 # checkbox column
 CHECKBOX_COL_STYLE = {
     "zIndex":2,
     "width":"2rem",
-
-    "border" : "none"
+    "left": str(left_sidebar_w - 5) +"rem",
+    "border" : "none",
+    "postion" : "absolute",
+    "left":"10rem"
 }
 
 #checkbox row
 CHECKBOX_ROW_STYLE = {
-    "width":"1rem",
+    "width":"2rem",
     "height" : "2rem",
 
     #"border-bottom":"solid",

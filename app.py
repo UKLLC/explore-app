@@ -280,7 +280,7 @@ def update_doc_header(_, schema):
     prevent_initial_call=True
 )
 def context_tabs(schema, table):
-    #print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
+    print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
     if schema != "None":
         if table != "None":
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
@@ -338,9 +338,9 @@ def body_sctions(tab, active_body, hidden_body):
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
 def sidebar_schema(schemas, schema, open_schemas):
     print("CALLBACK: sidebar schema click")
-    #print("DEBUG, sidebar_schema {} {}, {}, {}, {}, {}".format(schemas, type(schemas), schema, type(schema), open_schemas, type(open_schemas)))
+    print("DEBUG, sidebar_schema {} {}, {}, {}, {}, {}".format(schemas, type(schemas), schema, type(schema), open_schemas, type(open_schemas)))
     if not schemas:
-        return schema, []
+        return schemas, []
 
     if open_schemas == None:
         open_schemas = []
@@ -361,8 +361,8 @@ def sidebar_schema(schemas, schema, open_schemas):
     open_schemas = schemas
     '''
 
-    open_schemas = schema
-    return schema, open_schemas
+    open_schemas = schemas
+    return schemas, open_schemas
 
 
 
