@@ -77,6 +77,7 @@ def metadata_doc_table(df, id):
             row_deletable=False,
             style_header=ss.METADATA_DESC_HEADER,
             style_cell=ss.METADATA_DESC_CELL,
+            
             )
     return table
 
@@ -103,10 +104,10 @@ def basket_review_table(df):
         columns=[{"name": i, "id": i} for i in df.columns], 
         page_size=25,
         editable=False,
-        row_selectable=False,
-        row_deletable=True, # TODO test this?
         style_header=ss.METADATA_DESC_HEADER,
         style_cell=ss.METADATA_DESC_CELL,
+        row_deletable=True,
+        selected_rows=[i for i in range(len(df))]
         )
     return table
 
@@ -176,8 +177,11 @@ def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None")
                 )
             ]
         
-        checkbox_col = html.Div(
-            checkbox_prep, 
+        checkbox_col = html.Div(children=checkbox_prep, 
+            id= {
+                    "type":'checkbox_col',
+                    "index" : schema
+                },
             )
 
         # SCHEMA AND TABLES

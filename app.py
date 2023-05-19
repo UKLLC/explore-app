@@ -272,13 +272,31 @@ def update_doc_header(_, schema):
 
 
 ### BASKET REVIEW #############
+@app.callback(
+    Output({"type": "checkbox_col", "index" : ALL}, "style"),
+    Input("context_tabs", "value"),
+    prevent_initial_call = True
+)
+def disable_checklist(tab):
+
+    if tab == "Basket Review":
+        print("Debug: hiding")
+        return [{"visibility": "hidden"} for s in range(len(schema_df["Data Directory"]))]
+
+    else:
+        print("Debug: showing")
+        return [{"visibility": "visible"} for s in range(len(schema_df["Data Directory"]))]
 
 @app.callback(
     Output("basket_review_table_div", "children"),
     Input("shopping_basket", "data"),
+    State("context_tabs", "value"),
+    
     prevent_initial_call = True
 )
-def update_basket_review_table(shopping_basket):
+def update_basket_review_table(shopping_basket, curr_tab):
+    print("DEBUG: current tab", curr_tab)
+
     print("DEBUG: making basket review table with shopping basket", shopping_basket)
     rows = []
     for table_id in shopping_basket:
@@ -287,15 +305,57 @@ def update_basket_review_table(shopping_basket):
         df = dataIO.load_study_request()
         df = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
         row = [source, table, df["Block Description"].values[0]]
-        print(row)
         rows.append(row)
     df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
-    print("Debug df:",df)
 
     return struct.basket_review_table(df)
-    
-    
 
+'''
+@app.callback(
+    Output({"type": "shopping_checklist", "index" : ALL}, "value"),
+    [Input('basket_review_table', 'data_previous')],
+    [State('basket_review_table', 'data')],
+    State({"type": "shopping_checklist", "index" : ALL}, "value"),
+    prevent_initial_call = True
+)
+def basket_review_change(previous_data, current_data, checkbox_state):
+    print("DEBUG basket_review_change:", previous_data, current_data, checkbox_state)
+    return checkbox_state
+    
+'''
+'''
+@app.callback(
+              Output("basket_review_table", "data"),
+              #Output({"type": "shopping_checklist", "index" : ALL}, "value"),
+              [#Input('basket_review_table', 'n_clicks'),
+                State('basket_review_table', 'active_cell'),
+               State('basket_review_table', 'data')])
+def update_basket_review(click, cell,  data):
+    # If there is not selection:
+    if not cell:
+        raise PreventUpdate
+    else:
+        # 3) If the user select a box of the "Select" column:
+        if cell["column_id"] == 'Select':
+            # takes info for some columns in the row selected
+            symbol_selected = data[cell["row"]]["Data Block"]
+            company_selected = data[cell["row"]]["Source"]
+            message = "Last Symbol selected: - "+symbol_selected+" - Company Name:   "+company_selected
+            
+            # 4) Change the figure of the box selected
+            if data[cell["row"]]["Select"] == '⬜':
+                data[cell["row"]]["Select"] = '✅'
+            else:
+                # 5) if the user unselect the selected box:
+                data[cell["row"]]["Select"] = '⬜'
+                message = "The Symbol: - "+symbol_selected+" - Company Name:   "+company_selected+" has been unselected"
+        
+        # if other column is selected do nothing:
+        else:
+             raise PreventUpdate
+        print(message)
+        return  data
+'''
 
 
 #########################
@@ -465,7 +525,7 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     )
 def shopping_cart(selected, shopping_basket):
     print("CALLBACK: Shopping cart")
-    #print("DUBG shopping_cart: {}, {}".format(selected,shopping_basket))
+    print("DUBG shopping_cart: {}".format(shopping_basket))
 
     selected = [i[0] for i in selected if i !=[]]
     shopping_basket = selected
