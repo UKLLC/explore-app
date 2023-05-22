@@ -278,84 +278,37 @@ def update_doc_header(_, schema):
     prevent_initial_call = True
 )
 def disable_checklist(tab):
-
     if tab == "Basket Review":
-        print("Debug: hiding")
         return [{"visibility": "hidden"} for s in range(len(schema_df["Data Directory"]))]
-
     else:
-        print("Debug: showing")
         return [{"visibility": "visible"} for s in range(len(schema_df["Data Directory"]))]
 
-@app.callback(
-    Output("basket_review_table_div", "children"),
-    Input("shopping_basket", "data"),
-    State("context_tabs", "value"),
-    
-    prevent_initial_call = True
-)
-def update_basket_review_table(shopping_basket, curr_tab):
-    print("DEBUG: current tab", curr_tab)
 
-    print("DEBUG: making basket review table with shopping basket", shopping_basket)
-    rows = []
-    for table_id in shopping_basket:
-        table_split = table_id.split("-")
-        source, table = table_split[0], table_split[1]
-        df = dataIO.load_study_request()
-        df = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
-        row = [source, table, df["Block Description"].values[0]]
-        rows.append(row)
-    df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
 
-    return struct.basket_review_table(df)
-
-'''
 @app.callback(
     Output({"type": "shopping_checklist", "index" : ALL}, "value"),
-    [Input('basket_review_table', 'data_previous')],
-    [State('basket_review_table', 'data')],
+    Input('basket_review_table', 'data'),
     State({"type": "shopping_checklist", "index" : ALL}, "value"),
     prevent_initial_call = True
 )
-def basket_review_change(previous_data, current_data, checkbox_state):
-    print("DEBUG basket_review_change:", previous_data, current_data, checkbox_state)
-    return checkbox_state
-    
-'''
-'''
-@app.callback(
-              Output("basket_review_table", "data"),
-              #Output({"type": "shopping_checklist", "index" : ALL}, "value"),
-              [#Input('basket_review_table', 'n_clicks'),
-                State('basket_review_table', 'active_cell'),
-               State('basket_review_table', 'data')])
-def update_basket_review(click, cell,  data):
-    # If there is not selection:
-    if not cell:
+def basket_review_change(current_data, checkbox_state):
+    print("Entering basket review change")
+    time1 = time.time()
+    if current_data is None:
+        print("Data is none, prevent update", time.time()-time1)
         raise PreventUpdate
     else:
-        # 3) If the user select a box of the "Select" column:
-        if cell["column_id"] == 'Select':
-            # takes info for some columns in the row selected
-            symbol_selected = data[cell["row"]]["Data Block"]
-            company_selected = data[cell["row"]]["Source"]
-            message = "Last Symbol selected: - "+symbol_selected+" - Company Name:   "+company_selected
-            
-            # 4) Change the figure of the box selected
-            if data[cell["row"]]["Select"] == '⬜':
-                data[cell["row"]]["Select"] = '✅'
-            else:
-                # 5) if the user unselect the selected box:
-                data[cell["row"]]["Select"] = '⬜'
-                message = "The Symbol: - "+symbol_selected+" - Company Name:   "+company_selected+" has been unselected"
-        
-        # if other column is selected do nothing:
+        print("Processing basket review change")
+        keys = []
+        for item in current_data:
+            keys.append([item["Source"] + "-" + item["Data Block"]])
+
+        new_checkbox_state = [cbox if cbox in keys else [] for cbox in checkbox_state]
+        if new_checkbox_state == checkbox_state:
+            raise PreventUpdate
         else:
-             raise PreventUpdate
-        print(message)
-        return  data
-'''
+            return checkbox_state
+
 
 
 #########################
@@ -389,12 +342,18 @@ def context_tabs(schema, table):
 @app.callback(
     Output("body", "children"),
     Output("hidden_body","children"),
+    Output("basket_review_table_div", "children"),
     Input("context_tabs", "value"),
     State("body", "children"),
     State("hidden_body","children"),
+    State("shopping_basket", "data"),
     prevent_initial_call=True
 )
-def body_sctions(tab, active_body, hidden_body):
+def body_sctions(tab, active_body, hidden_body, shopping_basket):
+    '''
+    Manage contents of main body and hidden body.
+    If tab is Basket Review, load basket.
+    '''
     print("CALLBACK: BODY, activating", tab)
     sections_states = {}
     for section in active_body + hidden_body:
@@ -414,9 +373,23 @@ def body_sctions(tab, active_body, hidden_body):
 
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
-        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]
-
-    return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
+        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive], dash.no_update
+    elif "Basket Review" in active:
+        print("Updating basket review table")
+        rows = []
+        df = dataIO.load_study_request()
+        for table_id in shopping_basket:
+            table_split = table_id.split("-")
+            source, table = table_split[0], table_split[1]
+            
+            df1 = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
+            row = [source, table, df1["Block Description"].values[0]]
+            rows.append(row)
+        df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
+        brtable = struct.basket_review_table(df)
+        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive], brtable
+    else:
+        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive], dash.no_update
 
 
 @app.callback(
@@ -524,7 +497,11 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     prevent_initial_call=True
     )
 def shopping_cart(selected, shopping_basket):
+    '''
+    Update the shopping cart and update the basket review section if not already active
+    '''
     print("CALLBACK: Shopping cart")
+    print("DEBUG: call", dash.ctx.triggered_id)
     print("DUBG shopping_cart: {}".format(shopping_basket))
 
     selected = [i[0] for i in selected if i !=[]]
