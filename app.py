@@ -139,7 +139,7 @@ def update_doc_header(schema):
 def update_schema_description(schema):
     print("CALLBACK: DOC BOX - updating schema description")
 
-    if schema != "None":
+    if schema != None:
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
         if schema == "NHSD":
             schema_info = "Generic info about nhsd"
@@ -161,7 +161,7 @@ def update_tables_description(schema):
     '''
     print("CALLBACK: DOC BOX - updating table description")
 
-    if schema != "None":
+    if schema != None:
         tables = get_study_tables(schema)
         if schema == "NHSD": # Expand to linked data branch
             schema_info = "Generic info about nhsd"
@@ -192,7 +192,7 @@ def update_doc_header(table):
 def update_table_data(table, schema):
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
-    if schema != "None" and table != "None":
+    if schema != None and table != None:
         tables = get_study_tables(schema)
         tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
         if schema == "NHSD": # Expand to linked data branch
@@ -206,44 +206,51 @@ def update_table_data(table, schema):
 
 @app.callback(
     Output('table_metadata_div', "children"),
-    Input('active_table','data'),
+    Input("context_tabs", "value"),
     Input("values_toggle", "value"),
     Input("metadata_search", "value"),
+    Input('active_table','data'),
     prevent_initial_call=True
 )
-def update_table_metadata(table, values_on, search):
-    print("CALLBACK: META BOX - updating table metadata")
+def update_table_metadata(curr_tab, values_on, search, table):
+    print("CALLBACK: META BOX - updating table metadata", curr_tab)
+    if curr_tab == "Metadata":
+        table_id = table
+        if table== None:
+            print("Branch 1")
+            return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
+        try:
+            metadata_df = dataIO.load_study_metadata(table_id)
+        except FileNotFoundError: # Study has changed 
+            print("Failed to load {}.csv".format(table_id))
+            print("Preventing update in Meta box table metadata")
+            raise PreventUpdate
 
-    table_id = table
-    if table== "None":
-        return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
-    try:
-        metadata_df = dataIO.load_study_metadata(table_id)
-    except FileNotFoundError: # Study has changed 
-        print("Failed to load {}.csv".format(table_id))
-        print("Preventing update in Meta box table metadata")
-        raise PreventUpdate
-
-    if type(values_on) == list and len(values_on) == 1:
-        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
-        if type(search) == str and len(search) > 0:
-            metadata_df = metadata_df.loc[
-            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) |
-            (metadata_df["Value"].astype(str).str.contains(search, flags=re.IGNORECASE)) |
-            (metadata_df["Value Description"].str.contains(search, flags=re.IGNORECASE))
-            ]
+        if type(values_on) == list and len(values_on) == 1:
+            metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
+            if type(search) == str and len(search) > 0:
+                metadata_df = metadata_df.loc[
+                (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+                (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
+                (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) |
+                (metadata_df["Value"].astype(str).str.contains(search, flags=re.IGNORECASE)) |
+                (metadata_df["Value Description"].str.contains(search, flags=re.IGNORECASE))
+                ]
+            print("Branch 2")
+        else:
+            metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description"]].drop_duplicates()
+            if type(search) == str and len(search) > 0:
+                metadata_df = metadata_df.loc[
+                (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+                (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
+                (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
+                ]
+            print("Branch 3")
+        print("making metadata table")
+        metadata_table = struct.metadata_table(metadata_df, "metadata_table")
+        return metadata_table
     else:
-        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description"]].drop_duplicates()
-        if type(search) == str and len(search) > 0:
-            metadata_df = metadata_df.loc[
-            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
-            ]
-
-    return struct.metadata_table(metadata_df, "metadata_table")
+        raise PreventUpdate
 
 ### MAP BOX #################
 
@@ -260,18 +267,21 @@ def update_map_header(schema):
 @app.callback(
     Output('map_region', "data"),
     Output('map_object', 'zoom'),
-    Input('body','children'), # Get it to trigger on first load to get past zoom bug
+    Input('context_tabs','value'), # Get it to trigger on first load to get past zoom bug
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_doc_header(_, schema):
-    map_data = load_or_fetch_map(schema)
-    if not map_data:
-        return None, 6
-    return map_data, 6
-
+def update_doc_header(curr_tab, schema):
+    if schema != None:
+        map_data = load_or_fetch_map(schema)
+        if not map_data:
+            return dash.no_update, 6
+        return map_data, 6
+    else:
+        raise PreventUpdate
 
 ### BASKET REVIEW #############
+'''
 @app.callback(
     Output({"type": "checkbox_col", "index" : ALL}, "style"),
     Input("context_tabs", "value"),
@@ -282,34 +292,26 @@ def disable_checklist(tab):
         return [{"visibility": "hidden"} for s in range(len(schema_df["Data Directory"]))]
     else:
         return [{"visibility": "visible"} for s in range(len(schema_df["Data Directory"]))]
-
-
-
+'''
 @app.callback(
-    Output({"type": "shopping_checklist", "index" : ALL}, "value"),
-    Input('basket_review_table', 'data'),
-    State({"type": "shopping_checklist", "index" : ALL}, "value"),
-    prevent_initial_call = True
+    Output("basket_review_table_div", "children"),
+    Input("shopping_basket", "data"),
+    prevent_initial_call=True
 )
-def basket_review_change(current_data, checkbox_state):
-    print("Entering basket review change")
-    time1 = time.time()
-    if current_data is None:
-        print("Data is none, prevent update", time.time()-time1)
-        raise PreventUpdate
-    else:
-        print("Processing basket review change")
-        keys = []
-        for item in current_data:
-            keys.append([item["Source"] + "-" + item["Data Block"]])
-
-        new_checkbox_state = [cbox if cbox in keys else [] for cbox in checkbox_state]
-        if new_checkbox_state == checkbox_state:
-            raise PreventUpdate
-        else:
-            return checkbox_state
-
-
+def body_sctions(shopping_basket):
+    print("Updating basket review table")
+    rows = []
+    df = dataIO.load_study_request()
+    for table_id in shopping_basket:
+        table_split = table_id.split("-")
+        source, table = table_split[0], table_split[1]
+        
+        df1 = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
+        row = [source, table, df1["Block Description"].values[0]]
+        rows.append(row)
+    df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
+    brtable = struct.basket_review_table(df)
+    return brtable
 
 #########################
 @app.callback(
@@ -321,8 +323,8 @@ def basket_review_change(current_data, checkbox_state):
 )
 def context_tabs(schema, table):
     print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
-    if schema != "None":
-        if table != "None":
+    if schema != None:
+        if table != None:
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
                     dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
                 dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
@@ -342,14 +344,14 @@ def context_tabs(schema, table):
 @app.callback(
     Output("body", "children"),
     Output("hidden_body","children"),
-    Output("basket_review_table_div", "children"),
+    #Output("basket_review_table_div", "children"),
     Input("context_tabs", "value"),
     State("body", "children"),
     State("hidden_body","children"),
-    State("shopping_basket", "data"),
+    #State("shopping_basket", "data"),
     prevent_initial_call=True
 )
-def body_sctions(tab, active_body, hidden_body, shopping_basket):
+def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
     '''
     Manage contents of main body and hidden body.
     If tab is Basket Review, load basket.
@@ -373,8 +375,10 @@ def body_sctions(tab, active_body, hidden_body, shopping_basket):
 
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
-        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive], dash.no_update
-    elif "Basket Review" in active:
+        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]#, dash.no_update
+    
+    else:# "Basket Review" in active:
+        '''
         print("Updating basket review table")
         rows = []
         df = dataIO.load_study_request()
@@ -387,10 +391,29 @@ def body_sctions(tab, active_body, hidden_body, shopping_basket):
             rows.append(row)
         df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
         brtable = struct.basket_review_table(df)
-        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive], brtable
-    else:
-        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive], dash.no_update
+        '''
+        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]#, brtable
+    #else:
+    #return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive], brtable
 
+
+@app.callback(
+    Output('context_tabs','value'),
+    Input("active_schema", "data"),
+    State("context_tabs", "value"),
+    prevent_initial_call = True
+)# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
+def force_change_body(schema, curr_tab):
+    '''
+    When the schema changes, force the body to change to documentation
+    '''
+    if curr_tab == "Metadata": # Note, will need to add table specific sections to this
+        if schema == None:
+            return "Landing"
+        else:
+            return "Documentation"
+    else:
+        raise PreventUpdate
 
 @app.callback(
     Output('active_schema','data'),
@@ -398,13 +421,14 @@ def body_sctions(tab, active_body, hidden_body, shopping_basket):
     Input("study_schema_accordion", "active_item"),
     State("active_schema", "data"),
     State("open_schemas", "data"),
+    State("context_tabs", "value"),
     prevent_initial_call = True
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
-def sidebar_schema(schemas, schema, open_schemas):
+def sidebar_schema(schemas, schema, open_schemas, curr_tab):
     print("CALLBACK: sidebar schema click")
     print("DEBUG, sidebar_schema {} {}, {}, {}, {}, {}".format(schemas, type(schemas), schema, type(schema), open_schemas, type(open_schemas)))
     if not schemas:
-        return schemas, []
+        raise PreventUpdate
 
     if open_schemas == None:
         open_schemas = []
@@ -434,21 +458,26 @@ def sidebar_schema(schemas, schema, open_schemas):
     Output('active_table','data'),
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
+    Input('active_schema','data'),
     State("active_table", "data"),
-
     prevent_initial_call = True
 )
-def sidebar_table(tables, table):
+def sidebar_table(tables, table, schema):
     print("CALLBACK: sidebar table click")
+
+    if dash.ctx.triggered_id == "active_schema":
+        print(schema, table)
+        return None, [None for t in tables]
+
     #print("DEBUG sidebar_table: {}, {}".format(tables, table))
-    active = [t for t in tables if t!= "None"]
+    active = [t for t in tables if t!= None]
     if len(active) == 0:
-        return "None", tables
+        return None, tables
     elif len(active) != 1:
         active = [t for t in active if t != table ]
         if len(active) == 0:
             return table, tables
-        tables = [(t if t in active else "None") for t in tables]
+        tables = [(t if t in active else None) for t in tables]
         if len(active) != 1:
             raise 
 
@@ -492,24 +521,42 @@ def main_search(_, search, open_schemas, shopping_basket, table):
 
 @app.callback(
     Output('shopping_basket','data'),
+    Output('search_button', "n_clicks"),
     Input({"type": "shopping_checklist", "index" : ALL}, "value"),
+    Input('basket_review_table', 'data'),
     State("shopping_basket", "data"),
+    State('search_button', "n_clicks"),
     prevent_initial_call=True
     )
-def shopping_cart(selected, shopping_basket):
+def shopping_cart(selected, current_data, shopping_basket, clicks):
     '''
     Update the shopping cart and update the basket review section if not already active
     '''
     print("CALLBACK: Shopping cart")
-    print("DEBUG: call", dash.ctx.triggered_id)
-    print("DUBG shopping_cart: {}".format(shopping_basket))
+    print("Clicks:",clicks)
+    if dash.ctx.triggered_id == "basket_review_table":
+        if current_data is not None:
+            keys = []
+            for item in current_data:
+                keys.append(item["Source"] + "-" + item["Data Block"])
 
-    selected = [i[0] for i in selected if i !=[]]
-    shopping_basket = selected
+            new_shopping_basket = [item for item in shopping_basket if item in keys]
 
-    return shopping_basket
+            if new_shopping_basket == shopping_basket:
+                raise PreventUpdate
+            else:
+                if clicks == None:
+                    return new_shopping_basket, clicks+1
+                else:
+                    return new_shopping_basket, 1
+        raise PreventUpdate
+        
+    else:
+        selected = [i[0] for i in selected if i !=[]]
+        shopping_basket = selected
+        return shopping_basket, dash.no_update
 
-'''
+
 @app.callback(
     Output('sb_download','data'),
     Input("save_button", "n_clicks"),
@@ -517,16 +564,15 @@ def shopping_cart(selected, shopping_basket):
     prevent_initial_call=True
     )
 def save_shopping_cart(_, shopping_basket):
-    
+    '''
     input save button
     Get list of selected checkboxes - how? can just save shopping cart as is, list of ids
-    
+    '''
     print("CALLBACK: Save shopping cart")
     # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
     fileout = dataIO.basket_out(shopping_basket)
     
     return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv")
-'''
 
 '''
 @app.callback(

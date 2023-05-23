@@ -226,35 +226,42 @@ def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None")
         else:
             linked_sidebar_children += [schema_children]
 
-    study_list = dbc.AccordionItem([dbc.Accordion(study_sidebar_children,
+    study_list = dbc.AccordionItem(
+        [dbc.Accordion(study_sidebar_children,
         id='study_schema_accordion',
         class_name= "content_accordion",
         always_open=False,
         key = "0",
         active_item = sch_open)],
+        item_id = "study_accordion",
         title = "Study")
 
-    linked_list =  dbc.AccordionItem([dbc.Accordion(linked_sidebar_children,
+    linked_list =  dbc.AccordionItem(
+        [dbc.Accordion(linked_sidebar_children,
         id='linked_schema_accordion',
         class_name= "content_accordion",
         always_open=False,
         key = "0",
         active_item = sch_open)],
+        item_id = "linked_accordion",
         title = "Linked")
     
     print("MAKING SIDEBAR", sch_open)
-    return [study_list, linked_list]
+    top_level_accordion = dbc.Accordion(
+        [study_list, linked_list], 
+        always_open = True, 
+        active_item = ["study_accordion", "linked_accordion"],
+        id= "top_accordion"
+        )
+    return top_level_accordion
 
 
 def make_sidebar_catalogue(df):
-    study_accordion, linked_accordion = build_sidebar_list(df)
     catalogue_div = html.Div(
-        dbc.Accordion(
-        [study_accordion, linked_accordion], 
-        always_open=True,
-        id= "top_accordion"
+        build_sidebar_list(df), 
+        id = "sidebar_list_div", 
+        style = ss.SIDEBAR_LIST_DIV_STYLE
         )
-        , id = "sidebar_list_div", style = ss.SIDEBAR_LIST_DIV_STYLE)
     return catalogue_div
  
 def make_sidebar_title():
@@ -318,7 +325,6 @@ def make_section_title(title):
     section_title = html.Div(html.H2(title))
 
     return section_title
-
 
 def make_map_box(title= "Map: [study placeholder]", children = []):
     title_sction = html.Div([make_section_title(title)], id = "map_title", style = ss.MAP_TITLE_STYLE)
@@ -415,7 +421,6 @@ def make_landing_box():
 
     return landing_box
 
-
 def make_basket_review_box():
     title_section = html.Div([make_section_title("Basket Review")], id = "basket_review_title", style = ss.LANDING_TITLE_STYLE)
     
@@ -432,7 +437,13 @@ def make_basket_review_box():
             #Recommend box? bottom or RHS 
             
             # Get list of selected tables & doc as df
+            dbc.Button(
+                    "clear selection",
+                    id="clear_button",
+                    n_clicks=0,
+                    ),
             html.Div([
+                html.P("There are currently no data blocks in the shopping basket"),
                 dash_table.DataTable(
                         id="basket_review_table", #id = basket_review_table (passed in app)
                         data=None,#df.to_dict('records'),
@@ -445,7 +456,13 @@ def make_basket_review_box():
                         style_cell=ss.METADATA_DESC_CELL,
                         )
                 ],
-                id = "basket_review_table_div")
+                id = "basket_review_table_div"),
+                dbc.Button(
+                    "Save",
+                    id="save_button",
+                    n_clicks=0,
+                    ),
+                dcc.Download(id="sb_download")
 
                 ],
                  id = "Basket Review", style = ss.LANDING_BOX_STYLE)])
