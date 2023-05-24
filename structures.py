@@ -51,9 +51,9 @@ def data_doc_table(df, id):
             row_selectable=False,
             row_deletable=False,
             page_size=25,
-            style_header=ss.TABLES_DOC_HEADER,
-            style_cell=ss.TABLES_DOC_CELL,
-            style_data_conditional=[ss.TABLES_DOC_CONDITIONAL]
+            style_header=ss.TABLE_HEADER,
+            style_cell=ss.TABLE_CELL,
+            style_data_conditional=ss.TABLE_CONDITIONAL
             )
     return table
 
@@ -75,9 +75,9 @@ def metadata_doc_table(df, id):
             editable=False,
             row_selectable=False,
             row_deletable=False,
-            style_header=ss.METADATA_DESC_HEADER,
-            style_cell=ss.METADATA_DESC_CELL,
-            
+            style_header=ss.TABLE_HEADER,
+            style_cell=ss.TABLE_CELL,
+            style_data_conditional=ss.TABLE_CONDITIONAL
             )
     return table
 
@@ -91,9 +91,9 @@ def metadata_table(df, id):
             editable=False,
             row_selectable=False,
             row_deletable=False,
-            style_header=ss.METADATA_TABLE_HEADER,
-            style_cell=ss.METADATA_TABLE_CELL,
-            style_data_conditional=[ss.METADATA_CONDITIONAL]
+            style_header=ss.TABLE_HEADER,
+            style_cell=ss.TABLE_CELL,
+            style_data_conditional=ss.TABLE_CONDITIONAL,
             )
     return quick_table
 
@@ -104,8 +104,8 @@ def basket_review_table(df):
         columns=[{"name": i, "id": i} for i in df.columns], 
         page_size=25,
         editable=False,
-        style_header=ss.METADATA_DESC_HEADER,
-        style_cell=ss.METADATA_DESC_CELL,
+        style_header=ss.TABLE_HEADER,
+        style_cell=ss.TABLE_CELL,
         row_deletable=True,
         selected_rows=[i for i in range(len(df))]
         )
@@ -353,10 +353,10 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
 def make_documentation_box(title = "Documentation: [study placeholder]", children = [None, None]):
     title_sction = html.Div([make_section_title(title)], id = "doc_title", style = ss.DOC_TITLE_STYLE)
     if children == [None, None]:
-        d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div")
+        d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div", className="container_box")
         d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
     else:
-        d1 = html.Div(children[0], id = "schema_description_div")
+        d1 = html.Div(children[0], id = "schema_description_div", className="container_box")
         d2 = html.Div(children[1], id = "table_description_div")
     
     doc_box = html.Div([
@@ -364,9 +364,12 @@ def make_documentation_box(title = "Documentation: [study placeholder]", childre
         html.Div([
         d1,
         d2,
-        ], id = "Documentation", style = ss.DOCUMENTATION_BOX_STYLE)
+        ], 
+        id = "Documentation", 
+        style = ss.DOCUMENTATION_BOX_STYLE
+        )
         ],
-        style=ss.BOX_STYLE
+        style=ss.BOX_STYLE,
         )
     return doc_box
 
@@ -395,8 +398,11 @@ def make_metadata_box(title = "Metadata: [study placeholder]", children = [None,
                     id="values_toggle",
                     inline= True
                     ),
-                ]),
+                ],
+                className="container_box"
+                ),
                 d2,
+
             ], id = "Metadata", style = ss.METADATA_BOX_STYLE)
             ],
         style=ss.BOX_STYLE
@@ -452,8 +458,9 @@ def make_basket_review_box():
                         editable=False,
                         row_selectable=False,
                         row_deletable=True, # TODO test this?
-                        style_header=ss.METADATA_DESC_HEADER,
-                        style_cell=ss.METADATA_DESC_CELL,
+                        style_header=ss.TABLE_HEADER,
+                        style_cell=ss.TABLE_CELL,
+            
                         )
                 ],
                 id = "basket_review_table_div"),

@@ -173,7 +173,17 @@ abbr[title] {
 
 /*# sourceMappingURL=bootstrap.min.css.map */
 
-/* SIDEBAR SCHEMA LIST STYLE */
+
+.container_box {
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 1rem;
+    background: white;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
 
 
 /* SIDEBAR TABLE LIST STYLE */
@@ -261,6 +271,7 @@ abbr[title] {
 .custom-tabs-container {
     position: fixed;
     background-color: black;
+    height: 3rem;
 
 }
 .custom-tabs {
@@ -273,8 +284,7 @@ abbr[title] {
     color: black !important;
     border-top-left-radius: .3rem !important;
     border-top-right-radius: .3rem !important;
-
-    border: none;
+    border: none !important;
 
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -282,10 +292,12 @@ abbr[title] {
     align-items: center !important;
     justify-content: center;
     height: 2.5rem !important;
-    max-width: 15rem !important;
+    margin-top: 0.2rem;
+    margin-right: 1px;
 }
 .custom-tab--selected {
     color: white !important;
     background-color: var(--bs-cyangroup1) !important;
-    max-width: 15rem;
+    border-top: none !important;
 }
+

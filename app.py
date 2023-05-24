@@ -33,15 +33,8 @@ import structures as struct
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 server = app.server
 
-'''
-auth = dash_auth.BasicAuth(
-    app,
-    constants.VALID_USERNAME_PASSWORD_PAIRS
-)
-'''
 ######################################################################################
 ### Data prep functions
-
 
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
@@ -127,6 +120,9 @@ def login(_):
     prevent_initial_call=True
 )
 def update_doc_header(schema):
+    '''
+    When schema updates, update documentation
+    '''
     header = struct.make_section_title("Documentation: {}".format(schema))
     return header
 
@@ -137,6 +133,9 @@ def update_doc_header(schema):
     prevent_initial_call=True
 )
 def update_schema_description(schema):
+    '''
+    When schema updates, update documentation    
+    '''
     print("CALLBACK: DOC BOX - updating schema description")
 
     if schema != None:
@@ -157,6 +156,7 @@ def update_schema_description(schema):
 )
 def update_tables_description(schema):
     '''
+    When schema updates
     Replace contents of description box with table information 
     '''
     print("CALLBACK: DOC BOX - updating table description")
@@ -179,6 +179,10 @@ def update_tables_description(schema):
     prevent_initial_call=True
 )
 def update_doc_header(table):
+    '''
+    When table updates
+    update title info
+    '''
     header = struct.make_section_title("Metadata: {}".format(table))
     return header
 
@@ -190,6 +194,11 @@ def update_doc_header(table):
     prevent_initial_call=True
 )
 def update_table_data(table, schema):
+    '''
+    When table updates
+    with current schema
+    load table metadata
+    '''
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
     if schema != None and table != None:
@@ -206,51 +215,51 @@ def update_table_data(table, schema):
 
 @app.callback(
     Output('table_metadata_div', "children"),
-    Input("context_tabs", "value"),
     Input("values_toggle", "value"),
     Input("metadata_search", "value"),
     Input('active_table','data'),
     prevent_initial_call=True
 )
-def update_table_metadata(curr_tab, values_on, search, table):
-    print("CALLBACK: META BOX - updating table metadata", curr_tab)
-    if curr_tab == "Metadata":
-        table_id = table
-        if table== None:
-            print("Branch 1")
-            return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
-        try:
-            metadata_df = dataIO.load_study_metadata(table_id)
-        except FileNotFoundError: # Study has changed 
-            print("Failed to load {}.csv".format(table_id))
-            print("Preventing update in Meta box table metadata")
-            raise PreventUpdate
-
-        if type(values_on) == list and len(values_on) == 1:
-            metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
-            if type(search) == str and len(search) > 0:
-                metadata_df = metadata_df.loc[
-                (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-                (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
-                (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) |
-                (metadata_df["Value"].astype(str).str.contains(search, flags=re.IGNORECASE)) |
-                (metadata_df["Value Description"].str.contains(search, flags=re.IGNORECASE))
-                ]
-            print("Branch 2")
-        else:
-            metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description"]].drop_duplicates()
-            if type(search) == str and len(search) > 0:
-                metadata_df = metadata_df.loc[
-                (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-                (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
-                (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
-                ]
-            print("Branch 3")
-        print("making metadata table")
-        metadata_table = struct.metadata_table(metadata_df, "metadata_table")
-        return metadata_table
-    else:
+def update_table_metadata(values_on, search, table):
+    '''
+    When table updates
+    When values are toggled
+    When metadata is searched
+    update metadata display
+    '''
+    print("CALLBACK: META BOX - updating table metadata")
+    table_id = table
+    if table== None:
+        return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
+    try:
+        metadata_df = dataIO.load_study_metadata(table_id)
+    except FileNotFoundError: # Study has changed 
+        print("Failed to load {}.csv".format(table_id))
+        print("Preventing update in Meta box table metadata")
         raise PreventUpdate
+
+    if type(values_on) == list and len(values_on) == 1:
+        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
+        if type(search) == str and len(search) > 0:
+            metadata_df = metadata_df.loc[
+            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) |
+            (metadata_df["Value"].astype(str).str.contains(search, flags=re.IGNORECASE)) |
+            (metadata_df["Value Description"].str.contains(search, flags=re.IGNORECASE))
+            ]
+    else:
+        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description"]].drop_duplicates()
+        if type(search) == str and len(search) > 0:
+            metadata_df = metadata_df.loc[
+            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
+            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
+            ]
+    print("making metadata table")
+    metadata_table = struct.metadata_table(metadata_df, "metadata_table")
+    return metadata_table
+
 
 ### MAP BOX #################
 
@@ -260,6 +269,10 @@ def update_table_metadata(curr_tab, values_on, search, table):
     prevent_initial_call=True
 )
 def update_map_header(schema):
+    '''
+    When schema updates
+    Update the map title
+    '''
     header = struct.make_section_title("Coverage: {}".format(schema))
     return header
 
@@ -271,8 +284,12 @@ def update_map_header(schema):
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_doc_header(curr_tab, schema):
-    if schema != None:
+def update_map_content(tab, schema):
+    '''
+    When schema updates
+    Update the map content
+    '''
+    if schema != None and tab == "Map":
         map_data = load_or_fetch_map(schema)
         if not map_data:
             return dash.no_update, 6
@@ -281,24 +298,17 @@ def update_doc_header(curr_tab, schema):
         raise PreventUpdate
 
 ### BASKET REVIEW #############
-'''
-@app.callback(
-    Output({"type": "checkbox_col", "index" : ALL}, "style"),
-    Input("context_tabs", "value"),
-    prevent_initial_call = True
-)
-def disable_checklist(tab):
-    if tab == "Basket Review":
-        return [{"visibility": "hidden"} for s in range(len(schema_df["Data Directory"]))]
-    else:
-        return [{"visibility": "visible"} for s in range(len(schema_df["Data Directory"]))]
-'''
+
 @app.callback(
     Output("basket_review_table_div", "children"),
     Input("shopping_basket", "data"),
     prevent_initial_call=True
 )
 def body_sctions(shopping_basket):
+    '''
+    When the shopping basket updates
+    Update the basket review table
+    '''
     print("Updating basket review table")
     rows = []
     df = dataIO.load_study_request()
@@ -322,6 +332,11 @@ def body_sctions(shopping_basket):
     prevent_initial_call=True
 )
 def context_tabs(schema, table):
+    '''
+    When the schema changes
+    When the table changes
+    Update the context tabs
+    '''
     print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
     if schema != None:
         if table != None:
@@ -353,8 +368,11 @@ def context_tabs(schema, table):
 )
 def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
     '''
-    Manage contents of main body and hidden body.
-    If tab is Basket Review, load basket.
+    When the tab changes
+    Read the current body
+    Read the hidden body
+    Update the body
+    Update the hidden body
     '''
     print("CALLBACK: BODY, activating", tab)
     sections_states = {}
@@ -375,26 +393,10 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
 
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
-        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]#, dash.no_update
+        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]
     
-    else:# "Basket Review" in active:
-        '''
-        print("Updating basket review table")
-        rows = []
-        df = dataIO.load_study_request()
-        for table_id in shopping_basket:
-            table_split = table_id.split("-")
-            source, table = table_split[0], table_split[1]
-            
-            df1 = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
-            row = [source, table, df1["Block Description"].values[0]]
-            rows.append(row)
-        df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
-        brtable = struct.basket_review_table(df)
-        '''
-        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]#, brtable
-    #else:
-    #return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive], brtable
+    else:
+        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
 
 
 @app.callback(
@@ -405,8 +407,11 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
 def force_change_body(schema, curr_tab):
     '''
-    When the schema changes, force the body to change to documentation
+    When the schema changes
+    Read the current tab
+    Update the current tab
     '''
+    #If chema changes and a table specific section is active, kick them out. 
     if curr_tab == "Metadata": # Note, will need to add table specific sections to this
         if schema == None:
             return "Landing"
@@ -417,41 +422,21 @@ def force_change_body(schema, curr_tab):
 
 @app.callback(
     Output('active_schema','data'),
-    Output("open_schemas", "data"),
     Input("study_schema_accordion", "active_item"),
     State("active_schema", "data"),
-    State("open_schemas", "data"),
-    State("context_tabs", "value"),
     prevent_initial_call = True
-)# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
-def sidebar_schema(schemas, schema, open_schemas, curr_tab):
-    print("CALLBACK: sidebar schema click")
-    print("DEBUG, sidebar_schema {} {}, {}, {}, {}, {}".format(schemas, type(schemas), schema, type(schema), open_schemas, type(open_schemas)))
-    if not schemas:
-        raise PreventUpdate
-
-    if open_schemas == None:
-        open_schemas = []
-
-    ''' # Branch required for accordion with always_open = True. Not needed when False. See below instead.
-    new_schemas = [sch for sch in schemas if sch not in open_schemas]
-
-    if len(new_schemas) == 1:
-        print("Opened new schema:", new_schemas[0])
-        schema = new_schemas[0]
-        
-    elif len(new_schemas) == 0:
-        print("no new schemas")
-        # Keep current schema for simplicity
-    else:
-        print("Debug", new_schemas, schemas, open_schemas)
-        raise Exception("Error 1733")
-    open_schemas = schemas
+)
+def sidebar_schema(open_schema, previous_schema):
     '''
+    When the active item in the accordion is changed
+    Read the active schema NOTE with new system, could make active_schema redundant
+    Read the previous schema
+    Read the open schemas.
+    '''
+    print("CALLBACK: sidebar schema click")
+    print("DEBUG, sidebar_schema {} {}".format(open_schema, previous_schema))
 
-    open_schemas = schemas
-    return schemas, open_schemas
-
+    return open_schema
 
 
 @app.callback(
@@ -463,45 +448,61 @@ def sidebar_schema(schemas, schema, open_schemas, curr_tab):
     prevent_initial_call = True
 )
 def sidebar_table(tables, table, schema):
+    '''
+    When the active table_tab changes
+    When the schema changes
+    Read the current active table
+    Update the active table
+    Update the activated table tabs (deactivate previously activated tabs)
+    '''
     print("CALLBACK: sidebar table click")
 
+    # If triggered by a schema change, clear the current table
     if dash.ctx.triggered_id == "active_schema":
-        print(schema, table)
         return None, [None for t in tables]
 
-    #print("DEBUG sidebar_table: {}, {}".format(tables, table))
+
     active = [t for t in tables if t!= None]
+    # if no tables are active
     if len(active) == 0:
-        return None, tables
+        return None, dash.no_update
+    # if more than one table is active
     elif len(active) != 1:
         active = [t for t in active if t != table ]
         if len(active) == 0:
-            return table, tables
+            return dash.no_update, dash.no_update
         tables = [(t if t in active else None) for t in tables]
         if len(active) != 1:
-            raise 
+            print("Error 12: More than one activated tab")
 
     table = active[0]
-    return active[0], tables 
+    return table, tables 
     
 
 @app.callback(
     Output("sidebar_list_div", "children"),
     Input("search_button", "n_clicks"),
     Input("main_search", "value"),
-    State("open_schemas", "data"),
+    State("active_schema", "data"),
     State("shopping_basket", "data"),
     State("active_table", "data"),
     prevent_initial_call = True
     )
 def main_search(_, search, open_schemas, shopping_basket, table):
     '''
+    When the search button is clicked
+    When the main search content is changed
+    Read the current active schema
+    Read the current shopping basket
+    Read the active table
+    Update the sidebar div
+
     Version 1: search by similar text in schema, table name or keywords. 
     these may be branched into different search functions later, but for now will do the trick
     Do we want it on button click or auto filter?
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
-    print("CALLBACK: main search")
+    print("CALLBACK: main search, searching value {}".format(search))
 
     if type(search)!=str or search == "":
         return struct.build_sidebar_list(study_df, shopping_basket, open_schemas, table)
@@ -530,11 +531,18 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     )
 def shopping_cart(selected, current_data, shopping_basket, clicks):
     '''
+    When the value of the shopping checklist changes
+    When the basket review table changes
+    Read the current shopping basket
+    Read the search button clicks
+    Update the shopping pasket
+    Update the number of search button clicks
+
     Update the shopping cart and update the basket review section if not already active
     '''
     print("CALLBACK: Shopping cart")
-    print("Clicks:",clicks)
     if dash.ctx.triggered_id == "basket_review_table":
+        # If triggered by basket review
         if current_data is not None:
             keys = []
             for item in current_data:
@@ -551,7 +559,7 @@ def shopping_cart(selected, current_data, shopping_basket, clicks):
                     return new_shopping_basket, 1
         raise PreventUpdate
         
-    else:
+    else: # if triggered by checkboxes
         selected = [i[0] for i in selected if i !=[]]
         shopping_basket = selected
         return shopping_basket, dash.no_update
@@ -565,8 +573,9 @@ def shopping_cart(selected, current_data, shopping_basket, clicks):
     )
 def save_shopping_cart(_, shopping_basket):
     '''
-    input save button
-    Get list of selected checkboxes - how? can just save shopping cart as is, list of ids
+    When the save button is clicked
+    Read the shopping basket
+    Download the shopping basket as a csv
     '''
     print("CALLBACK: Save shopping cart")
     # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
@@ -588,34 +597,9 @@ def basket_autosave(_, sb):
         pickle.dump(sb, f)
 '''    
 
-
-
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
     app.run_server(port=8888, debug = True)
-    
-''''
-thoughts on efficiency:
-    index throughout
-    using match rather than all will be a big improvement.
-    tables must be ided by index not key. 
-    We currently use key. 
-    Thats fine, we can have a dictionary of table key to index setup at the start or even in pre
-    Table must always have same index or search will break it.
-    can also use index in hidden divs
-
-    This doesn't answer the question of how we efficiently set a list item active and set all others inactive.
-    I don't have any ideas for this one just yet. 
-    Well. We could make a new callback chain
-    Send the old table to a holder
-    update - invert active on that index
-    update the same callback with the new table
-    update - invert active on that index.
-    Could work. Bit complex, but its getting that way in general.
-    Best wait for the merge at 2:30 though. hour and a half. Go scran. 
-
-    1. Give every table an id (may as well do for study too)
-'''

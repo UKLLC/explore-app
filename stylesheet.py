@@ -33,8 +33,7 @@ TITLEBAR_DIV_STYLE = {
     "overflow":"visible",
 
     "border":"none",
-    "border-width":"thin",
-    "border-color":"blue"
+
     }
 
 TITLE_STYLE = {
@@ -43,8 +42,6 @@ TITLE_STYLE = {
     "width" : "30%",
 
     "border":"none",
-    "border-width":"thin",
-    "border-color":"green"
 }
 
 LOGOS_STYLE = {
@@ -64,7 +61,6 @@ LOGOS_DIV_STYLE = {
 }
 
 ACCOUNT_DROPDOWN_DIV_STYLE = {
-    
     "position" : "fixed",
     "align": "left",
     "right": "0",
@@ -166,15 +162,12 @@ CHECKBOX_STYLE = {
 
 CONTEXT_BAR_STYLE = {
     "position": "fixed",
-    "top": str(titlebar_h)+"rem",
+    "top": str(titlebar_h+0.1)+"rem",
     "height" : str(context_bar_h)+"rem",
     "width":"calc(100% - "+str(left_sidebar_w)+"rem)",
     "left":str(left_sidebar_w)+"rem",
     "background-color":"black",
-
 }
-
-
 
 ######################################
 
@@ -225,7 +218,7 @@ POLYGON_STYLE = assign("""function(feature, context){
 DOC_TITLE_STYLE = {
     "width":"100%",
     "height":"3rem",
-    "color":"white",
+    "color":"black",
     "background-color":white[0],
     "padding-top":"0.5rem",
     "padding-left":"1rem",
@@ -235,7 +228,7 @@ DOCUMENTATION_BOX_STYLE ={
     "color":"black",
     "background-color":white[2],
     "padding" : "1rem",
-    "padding-bottom" : "1rem",
+    "padding-top" : "0rem",
     "top" : str(box_title_h) +"rem",
     "height":"calc(100% - "+str(box_title_h) +"rem)",
     "overflow-y":"scroll",
@@ -245,29 +238,6 @@ DOCUMENTATION_BOX_STYLE ={
 TABLE_DOC_DIV = {
 }
 
-TABLES_DOC_HEADER = {
-    'textAlign': 'left',
-    'overflow': 'hidden',
-    'textOverflow': 'ellipsis',
-    'whiteSpace': 'normal',
-    'height': 'auto',
-    "background-color":black[0],
-    "color":"white"
-}
-
-TABLES_DOC_CELL = {
-    'textAlign': 'left',
-    'overflow': 'hidden',
-    'textOverflow': 'ellipsis',
-    'whiteSpace': 'normal',
-    'height': 'auto',
-    "background-color":white[1],
-    }
-TABLES_DOC_CONDITIONAL = {'if': {
-        'row_index': 'even'
-    },
-    'backgroundColor': white[2],
-}
 
 # METADATA #######################
 METADATA_TITLE_STYLE = {
@@ -288,31 +258,12 @@ METADATA_BOX_STYLE = {
     "color":"black"
 }
 
-METADATA_DESC_HEADER = {
-    'textAlign': 'left','overflow': 'hidden',
-    'textOverflow': 'ellipsis',
-    'whiteSpace': 'normal',
-    'height': 'auto',
-    "background-color":white[3],
-    "color":"white"
-}
-
-METADATA_DESC_CELL = {
-    'textAlign': 'left',
-    'overflow': 'hidden',
-    'textOverflow': 'ellipsis',
-    'whiteSpace': 'normal',
-    'height': 'auto',
-    "background-color":white[1],
-    "color":"black"
-}
-
 METADATA_TABLE_DIV_STYLE = {
     "margin-top" : "1rem",
 }
 
-METADATA_TABLE_HEADER = {
-    'textAlign': 'left',
+TABLE_HEADER = {
+    'textAlign': 'center',
     'overflow': 'hidden',
     'textOverflow': 'ellipsis',
     'whiteSpace': 'normal',
@@ -321,21 +272,40 @@ METADATA_TABLE_HEADER = {
     "color":"white"
 }
 
-METADATA_TABLE_CELL = {
+TABLE_CELL = {
     'textAlign': 'left',
     'overflow': 'hidden',
     'textOverflow': 'ellipsis',
     'whiteSpace': 'normal',
     'height': 'auto',
-    "background-color":white[1],
-    "color":"black"
+    "background-color":white[0],
+    "color":"black",
+    "padding":".2rem"
     }
 
-METADATA_CONDITIONAL = {'if': {
-        'row_index': 'even'
+TABLE_CONDITIONAL = [
+    {
+    'if': {
+        'state': 'active'  # 'active' | 'selected'
+        },
+    'background-color': white[0],
+    "border": "1px solid light_grey"
     },
-    'backgroundColor': white[2]
-}
+    {
+    'if': {
+        'column_id': 'Links',
+        },
+        "maxWidth" : "8rem"
+    },
+    {
+    'if': {
+        'column_id': 'Block Name',
+        },
+        "maxWidth" : "8rem"
+    }
+]
+    
+
 
 ###################################
 
