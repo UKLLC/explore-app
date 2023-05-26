@@ -154,11 +154,9 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
     study_sidebar_children = []
     linked_sidebar_children = []
     # Get data sources
-
+    sources = schema_df["Source"].drop_duplicates()
     # Attribute tables to each study
-    for _, row in schema_df.iterrows():
-        schema = row["Source"]
-        print("DEBUG: building sidebar schema", schema)
+    for schema in sources:
         tables = schema_df.loc[schema_df["Source"] == schema]["Block Name"]
 
         # CHECKBOXES

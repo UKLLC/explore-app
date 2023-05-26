@@ -57,8 +57,11 @@ def load_or_fetch_map(study):
     return returned_data
     
     
-def get_schema_tables(schema):
-    return schema_df.loc[schema_df["Study"] == schema]
+def get_study_info(schema):
+    return study_df.loc[study_df["Study"] == schema]
+
+def get_source_tables(schema):
+    return schema_df.loc[schema_df["Source"] == schema]
         
 ######################################################################################
 
@@ -163,7 +166,7 @@ def update_tables_description(schema):
     print("CALLBACK: DOC BOX - updating table description")
 
     if schema != None:
-        tables = get_schema_tables(schema)
+        tables = get_study_info(schema)
         if schema == "NHSD": # Expand to linked data branch
             schema_info = "Generic info about nhsd"
             return schema_info
@@ -203,12 +206,11 @@ def update_table_data(table, schema):
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
     if schema != None and table != None:
-        tables = get_schema_tables(schema)
+        if schema in constants.LINKED_SCHEMAS: # Expand to linked data branch
+            return html.P("Linked data placeholder (in development)")
+        tables = get_study_info(schema)
         tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
-        if schema == "NHSD": # Expand to linked data branch
-            return html.P("NHSD placeholder text")
-        else: # Study data branch
-            return struct.metadata_doc_table(tables, "table_desc_table")
+        return struct.metadata_doc_table(tables, "table_desc_table")
     else:
         # Default (Section may be hidden in final version)
         return "Placeholder metadata desc, null schema, null table - this should be impossible. Bug code 101."
@@ -312,15 +314,18 @@ def body_sctions(shopping_basket):
     '''
     print("Updating basket review table")
     rows = []
-    df = dataIO.load_study_request()
+    df = study_df
     for table_id in shopping_basket:
         table_split = table_id.split("-")
         source, table = table_split[0], table_split[1]
         
         df1 = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
-        row = [source, table, df1["Block Description"].values[0]]
+        try: # NOTE TEMP LINKED OVERRIDE 
+            row = [source, table, df1["Block Description"].values[0]]
+        except IndexError:
+            row = [source, table,""]
         rows.append(row)
-    df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
+    df = pd.DataFrame(rows, columns=["Study", "Data Block", "Description"])
     brtable = struct.basket_review_table(df)
     return brtable
 
@@ -341,12 +346,13 @@ def context_tabs(schema, table):
     '''
     print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
     if schema != None:
+        
         if table != None:
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
                     dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
                 dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected-doc'),
                 dcc.Tab(label='Metadata', value='Metadata', className='custom-tab', selected_className='custom-tab--selected-doc'),
-                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-doc')]
+                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show')]
         else:
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
                     dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
@@ -425,10 +431,11 @@ def force_change_body(schema, curr_tab):
 @app.callback(
     Output('active_schema','data'),
     Input("study_schema_accordion", "active_item"),
+    Input("linked_schema_accordion", "active_item"),
     State("active_schema", "data"),
     prevent_initial_call = True
 )
-def sidebar_schema(open_schema, previous_schema):
+def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
     '''
     When the active item in the accordion is changed
     Read the active schema NOTE with new system, could make active_schema redundant
@@ -436,9 +443,11 @@ def sidebar_schema(open_schema, previous_schema):
     Read the open schemas.
     '''
     print("CALLBACK: sidebar schema click")
-    print("DEBUG, sidebar_schema {} {}".format(open_schema, previous_schema))
-
-    return open_schema
+    print("DEBUG, sidebar_schema {} {}".format(open_study_schema, previous_schema))
+    if dash.ctx.triggered_id == "study_schema_accordion":
+        return open_study_schema
+    else:
+        return open_linked_schema
 
 
 @app.callback(
@@ -507,16 +516,16 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     print("CALLBACK: main search, searching value {}".format(search))
 
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(schema_df, shopping_basket, open_schemas, table)
+        return struct.build_sidebar_list(study_df, shopping_basket, open_schemas, table)
 
     sub_list = study_df.loc[
-        (schema_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
-        (schema_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-        (schema_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
-        (schema_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
-        (schema_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
-        (schema_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
-        (schema_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
+        (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
+        (study_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+        (study_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
+        (study_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
+        (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
     return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table)

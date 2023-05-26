@@ -11,3 +11,5 @@ keyword_cols = ["Keywords","Unnamed: 11","Unnamed: 12", "Unnamed: 13", "Unnamed:
 VALID_USERNAME_PASSWORD_PAIRS = {
     'username': 'password'
 }
+
+LINKED_SCHEMAS = ["NHSD"]
