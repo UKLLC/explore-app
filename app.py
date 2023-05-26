@@ -1,4 +1,5 @@
 # sidebar.py
+from msilib import schema
 import  os
 from re import S
 import re
@@ -40,7 +41,7 @@ request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesfor
 # request url doesn't work just yet
 study_df = dataIO.load_study_request()
 linked_df = dataIO.load_linked_request()
-schema_df = pd.concat([study_df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
+schema_df = pd.concat([study_df[["Study", "Block Name"]].rename(columns = {"Study":"Source"}).drop_duplicates().dropna(), linked_df[["Source", "Block Name"]].drop_duplicates().dropna()])
 study_info_and_links_df = dataIO.load_study_info_and_links()
 
 app_state = App_State(schema_df)
@@ -56,8 +57,8 @@ def load_or_fetch_map(study):
     return returned_data
     
     
-def get_study_tables(schema):
-    return study_df.loc[study_df["Study"] == schema]
+def get_schema_tables(schema):
+    return schema_df.loc[schema_df["Study"] == schema]
         
 ######################################################################################
 
@@ -69,7 +70,7 @@ titlebar = struct.main_titlebar(app, "Placeholder Title")
 
 # Left Sidebar #######################################################################
 
-sidebar_catalogue = struct.make_sidebar_catalogue(study_df)
+sidebar_catalogue = struct.make_sidebar_catalogue(schema_df)
 sidebar_title = struct.make_sidebar_title()
 sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
@@ -162,7 +163,7 @@ def update_tables_description(schema):
     print("CALLBACK: DOC BOX - updating table description")
 
     if schema != None:
-        tables = get_study_tables(schema)
+        tables = get_schema_tables(schema)
         if schema == "NHSD": # Expand to linked data branch
             schema_info = "Generic info about nhsd"
             return schema_info
@@ -202,7 +203,7 @@ def update_table_data(table, schema):
     print("CALLBACK: META BOX - updating table description")
     #pass until metadata block ready
     if schema != None and table != None:
-        tables = get_study_tables(schema)
+        tables = get_schema_tables(schema)
         tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
         if schema == "NHSD": # Expand to linked data branch
             return html.P("NHSD placeholder text")
@@ -506,16 +507,16 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     print("CALLBACK: main search, searching value {}".format(search))
 
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(study_df, shopping_basket, open_schemas, table)
+        return struct.build_sidebar_list(schema_df, shopping_basket, open_schemas, table)
 
     sub_list = study_df.loc[
-        (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
-        (study_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-        (study_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
-        (study_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
+        (schema_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
+        (schema_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+        (schema_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
+        (schema_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
+        (schema_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
+        (schema_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
+        (schema_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
     return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table)

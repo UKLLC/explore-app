@@ -149,18 +149,17 @@ def main_titlebar(app, title_text):
         
     return titlebar
 
-def build_sidebar_list(df, current_basket = [], sch_open =[], tab_open = "None"):
+def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = "None"):
     print("SB: ", current_basket)
     study_sidebar_children = []
     linked_sidebar_children = []
     # Get data sources
-    schema_df = pd.concat([df[["Study"]].rename(columns = {"Study":"Data Directory"}).drop_duplicates().dropna(), pd.DataFrame([["NHSD"]], columns = ["Data Directory"])])
-    
+
     # Attribute tables to each study
     for _, row in schema_df.iterrows():
-        schema = row["Data Directory"]
-
-        tables = df.loc[df["Study"] == schema]["Block Name"]
+        schema = row["Source"]
+        print("DEBUG: building sidebar schema", schema)
+        tables = schema_df.loc[schema_df["Source"] == schema]["Block Name"]
 
         # CHECKBOXES
         checkbox_prep = []
