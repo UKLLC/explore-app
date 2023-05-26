@@ -323,6 +323,7 @@ def body_sctions(shopping_basket):
     brtable = struct.basket_review_table(df)
     return brtable
 
+
 #########################
 @app.callback(
 
@@ -340,19 +341,19 @@ def context_tabs(schema, table):
     print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
     if schema != None:
         if table != None:
-            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
-                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
-                dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
-                dcc.Tab(label='Metadata', value='Metadata', className='custom-tab', selected_className='custom-tab--selected'),
-                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
+            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected-doc'),
+                dcc.Tab(label='Metadata', value='Metadata', className='custom-tab', selected_className='custom-tab--selected-doc'),
+                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-doc')]
         else:
-            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
-                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
-                    dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected'),
-                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected')]
+            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                    dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected-doc'),
+                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show')]
     else:
-        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
-                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
+        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
 ]
 
 
@@ -465,7 +466,7 @@ def sidebar_table(tables, table, schema):
     active = [t for t in tables if t!= None]
     # if no tables are active
     if len(active) == 0:
-        return None, dash.no_update
+        return None, tables
     # if more than one table is active
     elif len(active) != 1:
         active = [t for t in active if t != table ]
@@ -525,24 +526,25 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     Output('search_button', "n_clicks"),
     Input({"type": "shopping_checklist", "index" : ALL}, "value"),
     Input('basket_review_table', 'data'),
+    Input("clear_basket_button", "n_clicks"),
     State("shopping_basket", "data"),
     State('search_button', "n_clicks"),
     prevent_initial_call=True
     )
-def shopping_cart(selected, current_data, shopping_basket, clicks):
+def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
     '''
     When the value of the shopping checklist changes
     When the basket review table changes
+    When the clear all button is clicked
     Read the current shopping basket
     Read the search button clicks
-    Update the shopping pasket
+    Update the shopping basket
     Update the number of search button clicks
 
     Update the shopping cart and update the basket review section if not already active
     '''
     print("CALLBACK: Shopping cart")
-    if dash.ctx.triggered_id == "basket_review_table":
-        # If triggered by basket review
+    if dash.ctx.triggered_id == "basket_review_table":# If triggered by basket review
         if current_data is not None:
             keys = []
             for item in current_data:
@@ -558,7 +560,17 @@ def shopping_cart(selected, current_data, shopping_basket, clicks):
                 else:
                     return new_shopping_basket, 1
         raise PreventUpdate
-        
+    
+    elif dash.ctx.triggered_id == "clear_basket_button": # if triggered by clear button
+        if b1_clicks > 0:
+            print(b1_clicks, shopping_basket)
+            if clicks == None:
+                return [], clicks+1
+            else:
+                return [], 1
+        else:
+            raise PreventUpdate
+
     else: # if triggered by checkboxes
         selected = [i[0] for i in selected if i !=[]]
         shopping_basket = selected

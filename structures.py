@@ -307,8 +307,8 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue):
 def make_context_bar():
     context_bar = html.Div([
         dcc.Tabs(id="context_tabs", value='Introduction', children=[
-            dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected'),
-            dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected'),
+            dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
+            dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
             ],
             parent_className='custom-tabs',
             className='custom-tabs-container',
@@ -327,7 +327,7 @@ def make_section_title(title):
     return section_title
 
 def make_map_box(title= "Map: [study placeholder]", children = []):
-    title_sction = html.Div([make_section_title(title)], id = "map_title", style = ss.MAP_TITLE_STYLE)
+    title_sction = html.Div([make_section_title(title)], id = "map_title", className="show_header",  style = ss.MAP_TITLE_STYLE)
     map_box = html.Div([
         title_sction,
         html.Div([
@@ -351,7 +351,7 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
     return map_box
 
 def make_documentation_box(title = "Documentation: [study placeholder]", children = [None, None]):
-    title_sction = html.Div([make_section_title(title)], id = "doc_title", style = ss.DOC_TITLE_STYLE)
+    title_sction = html.Div([make_section_title(title)], id = "doc_title",className="doc_header",  style = ss.DOC_TITLE_STYLE)
     if children == [None, None]:
         d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div", className="container_box")
         d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
@@ -374,7 +374,7 @@ def make_documentation_box(title = "Documentation: [study placeholder]", childre
     return doc_box
 
 def make_metadata_box(title = "Metadata: [study placeholder]", children = [None, None]):
-    title_section = html.Div([make_section_title(title)], id = "metadata_title", style = ss.METADATA_TITLE_STYLE)
+    title_section = html.Div([make_section_title(title)], id = "metadata_title",className="doc_header",  style = ss.METADATA_TITLE_STYLE)
     if children == [None, None]:
         d1 = html.Div([], id = "table_meta_desc_div")
         d2 = html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
@@ -410,7 +410,7 @@ def make_metadata_box(title = "Metadata: [study placeholder]", children = [None,
     return meta_box
 
 def make_landing_box():
-    title_section = html.Div([make_section_title("Landing Page. Select a study to continue.")], id = "landing_title", style = ss.LANDING_TITLE_STYLE)
+    title_section = html.Div([make_section_title("Landing Page. Select a study to continue.")], id = "landing_title", className="ops_header", style = ss.LANDING_TITLE_STYLE)
 
     landing_box = html.Div([
         title_section,
@@ -428,7 +428,7 @@ def make_landing_box():
     return landing_box
 
 def make_basket_review_box():
-    title_section = html.Div([make_section_title("Basket Review")], id = "basket_review_title", style = ss.LANDING_TITLE_STYLE)
+    title_section = html.Div([make_section_title("Basket Review")], id = "basket_review_title",className="ops_header",  style = ss.LANDING_TITLE_STYLE)
     
     basket_review_box = html.Div([
         title_section,
@@ -444,8 +444,8 @@ def make_basket_review_box():
             
             # Get list of selected tables & doc as df
             dbc.Button(
-                    "clear selection",
-                    id="clear_button",
+                    "clear basket",
+                    id="clear_basket_button",
                     n_clicks=0,
                     ),
             html.Div([

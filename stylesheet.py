@@ -194,8 +194,6 @@ BOX_STYLE = {
 MAP_TITLE_STYLE = {
     "width":"100%",
     "height":"3rem",
-    "color":"white",
-    "background-color":cyan[0],
     "padding-top":"0.5rem",
     "padding-left":"1rem",
 }
@@ -218,8 +216,6 @@ POLYGON_STYLE = assign("""function(feature, context){
 DOC_TITLE_STYLE = {
     "width":"100%",
     "height":"3rem",
-    "color":"black",
-    "background-color":white[0],
     "padding-top":"0.5rem",
     "padding-left":"1rem",
 }
@@ -243,8 +239,6 @@ TABLE_DOC_DIV = {
 METADATA_TITLE_STYLE = {
     "width":"100%",
     "height":"3rem",
-    "color":"black",
-    "background-color":white[0],
     "padding-top":"0.5rem",
     "padding-left":"1rem",
 }
@@ -312,8 +306,6 @@ TABLE_CONDITIONAL = [
 LANDING_TITLE_STYLE = {
     "width":"100%",
     "height":"3rem",
-    "color":"black",
-    "background-color":white[0],
     "padding-top":"0.5rem",
     "padding-left":"1rem",
 }

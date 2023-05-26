@@ -22,8 +22,8 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
-    --bs-font-sans-serif: montserrat;
-    --bs-font-monospace: montserrat;
+    --bs-font-sans-serif: montserrat !important;
+    --bs-font-monospace: montserrat !important;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
     --bs-whitegroup1:#FFFFFF;
@@ -44,6 +44,9 @@
     --bs-blackgroup2:#212529;
     --bs-blackgroup3:#373B3E;
     --bs-blackgroup4:#1c1c1c;
+
+    --bs-greengroup1:#9ACA7C;
+    --bs-greengroup2:#DCEED0;
 }
 
 *,
@@ -178,7 +181,7 @@ abbr[title] {
     border: solid;
     border-width: thin;
     border-color: black;
-    border-radius: 1rem;
+    border-radius: .5rem;
     background: white;
     padding: .5rem;
     margin-top: .5rem;
@@ -295,9 +298,32 @@ abbr[title] {
     margin-top: 0.2rem;
     margin-right: 1px;
 }
-.custom-tab--selected {
+.custom-tab--selected-show {
     color: white !important;
     background-color: var(--bs-cyangroup1) !important;
     border-top: none !important;
 }
+.custom-tab--selected-ops {
+    color: white !important;
+    background-color: var(--bs-greengroup1) !important;
+    border-top: none !important;
+}
+.custom-tab--selected-doc {
+    color: white !important;
+    background-color: var(--bs-peachgroup1) !important;
+    border-top: none !important;
+}
 
+
+.ops_header {
+    color: white;
+    background-color: var(--bs-greengroup1);
+}
+.show_header {
+    color: white;
+    background-color: var(--bs-cyangroup1);
+}
+.doc_header {
+    color: white;
+    background-color: var(--bs-peachgroup1);
+}
