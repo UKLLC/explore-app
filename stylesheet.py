@@ -40,8 +40,9 @@ TITLE_STYLE = {
     "position":"fixed",
     "left" : str(left_sidebar_w + 12)+"rem",
     "width" : "30%",
-
     "border":"none",
+    "margin-top":"1.5rem",
+    "margin-bottom":"1.5rem"
 }
 
 LOGOS_STYLE = {
@@ -65,7 +66,7 @@ ACCOUNT_DROPDOWN_DIV_STYLE = {
     "align": "left",
     "right": "0",
     "top" : "1rem",
-    "width": "10%",
+    "width": "7%",
     "overflow":"visible",
 }
 ACCOUNT_DROPDOWN_STYLE = {

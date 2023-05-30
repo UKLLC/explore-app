@@ -109,7 +109,7 @@ h6 {
 .h1,
 h1 {
     font-size: calc(1rem + 0.5vw);
-    padding-top:.5rem
+
 }
 
 p {
@@ -326,4 +326,9 @@ abbr[title] {
 .doc_header {
     color: white;
     background-color: var(--bs-peachgroup1);
+}
+
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner table {
+    font-family: Montserrat !important;
 }

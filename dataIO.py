@@ -45,7 +45,7 @@ def basket_out(basket):
         },
         columns = ["TABLE_SCHEMA", "TABLE_NAME"]
     ) 
-    basket_pd.to_csv("server_save_basket_[datetime].csv")
+    basket_pd.to_csv("server_save_basket_[datetime].csv", index = False)
     return basket_pd
         
 

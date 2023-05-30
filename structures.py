@@ -242,8 +242,7 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
         active_item = sch_open)],
         item_id = "linked_accordion",
         title = "Linked")
-    
-    print("MAKING SIDEBAR", sch_open)
+
     top_level_accordion = dbc.Accordion(
         [study_list, linked_list], 
         always_open = True, 
@@ -407,7 +406,7 @@ def make_metadata_box(title = "Metadata: [study placeholder]", children = [None,
     return meta_box
 
 def make_landing_box():
-    title_section = html.Div([make_section_title("Landing Page. Select a study to continue.")], id = "landing_title", className="ops_header", style = ss.LANDING_TITLE_STYLE)
+    title_section = html.Div([make_section_title("Introduction: Select a study to continue.")], id = "landing_title", className="ops_header", style = ss.LANDING_TITLE_STYLE)
 
     landing_box = html.Div([
         title_section,
@@ -451,7 +450,7 @@ def make_basket_review_box():
                         id="basket_review_table", #id = basket_review_table (passed in app)
                         data=None,#df.to_dict('records'),
                         columns=None,#[{"name": i, "id": i} for i in df.columns], 
-                        page_size=25,
+                        page_size=20,
                         editable=False,
                         row_selectable=False,
                         row_deletable=True, # TODO test this?
@@ -527,7 +526,7 @@ def make_account_section():
                 children = [
                     dbc.DropdownMenuItem("Load Basket (placeholder)"),
                     dbc.DropdownMenuItem("Save Basket (placeholder)"),
-                    dbc.DropdownMenuItem("Download Basket (placeholder)"),
+                    dbc.DropdownMenuItem("Download Basket", id = "dl_button_2", n_clicks=0),
                     dbc.DropdownMenuItem("Log Out (placeholder"),
 
                 ],

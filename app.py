@@ -41,7 +41,7 @@ request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesfor
 # request url doesn't work just yet
 study_df = dataIO.load_study_request()
 linked_df = dataIO.load_linked_request()
-schema_df = pd.concat([study_df[["Study", "Block Name"]].rename(columns = {"Study":"Source"}).drop_duplicates().dropna(), linked_df[["Source", "Block Name"]].drop_duplicates().dropna()])
+schema_df = pd.merge((study_df.rename(columns = {"Study":"Source"})), (linked_df), how = "outer", on = ["Source", "Block Name"]).drop_duplicates(subset = ["Source", "Block Name"]).dropna(subset = ["Source", "Block Name"])
 study_info_and_links_df = dataIO.load_study_info_and_links()
 
 app_state = App_State(schema_df)
@@ -89,7 +89,7 @@ schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
 shopping_basket_op = struct.make_variable_div("shopping_basket", [])
 open_schemas = struct.make_variable_div("open_schemas", [])
-user = struct.make_variable_div("user", "None")
+user = struct.make_variable_div("user", None)
 placeholder = struct.make_variable_div("placeholder", "placeholder")
 account_section = struct.make_account_section()
 
@@ -117,18 +117,30 @@ def login(_):
     print("auth placeholder - do flask or ditch")
 '''
 
-### DOCUMENTATION BOX #####################
+### Update titles #########################
+
 @app.callback(
     Output('doc_title', "children"),
+    Output('metadata_title', "children"),
+    Output('map_title', "children"),
+    Output('landing_title', 'children'),
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_doc_header(schema):
+def update_headers(schema):
     '''
     When schema updates, update documentation
     '''
-    header = struct.make_section_title("Documentation: {}".format(schema))
-    return header
+    doc_header = struct.make_section_title("Documentation: {}".format(schema))
+    meta_header = struct.make_section_title("Metadata: {}".format(schema))
+    map_header = struct.make_section_title("Coverage: {}".format(schema))
+    if schema:
+        landing_header = struct.make_section_title("Introduction: Selected source {}".format(schema))
+    else:
+        landing_header = struct.make_section_title("Introduction: Select data to continue")
+    return doc_header, meta_header, map_header, landing_header
+
+### DOCUMENTATION BOX #####################
 
 
 @app.callback(
@@ -177,20 +189,6 @@ def update_tables_description(schema):
 
 
 ### METADATA BOX #####################
-@app.callback(
-    Output('metadata_title', "children"),
-    Input('active_table','data'),
-    prevent_initial_call=True
-)
-def update_doc_header(table):
-    '''
-    When table updates
-    update title info
-    '''
-    header = struct.make_section_title("Metadata: {}".format(table))
-    return header
-
-
 @app.callback(
     Output('table_meta_desc_div', "children"),
     Input('active_table', 'data'),
@@ -265,20 +263,6 @@ def update_table_metadata(values_on, search, table):
 
 
 ### MAP BOX #################
-
-@app.callback(
-    Output('map_title', "children"),
-    Input('active_schema','data'),
-    prevent_initial_call=True
-)
-def update_map_header(schema):
-    '''
-    When schema updates
-    Update the map title
-    '''
-    header = struct.make_section_title("Coverage: {}".format(schema))
-    return header
-
 
 @app.callback(
     Output('map_region', "data"),
@@ -420,13 +404,14 @@ def force_change_body(schema, curr_tab):
     Update the current tab
     '''
     #If chema changes and a table specific section is active, kick them out. 
-    if curr_tab == "Metadata": # Note, will need to add table specific sections to this
+    if curr_tab == "Metadata" or curr_tab == "Coverage": # Note, will need to add table specific sections to this
         if schema == None:
             return "Landing"
         else:
             return "Documentation"
-    else:
-        raise PreventUpdate
+    if curr_tab == "Documentation" and schema == None:    
+        return "Landing"
+    raise PreventUpdate
 
 @app.callback(
     Output('active_schema','data'),
@@ -484,7 +469,7 @@ def sidebar_table(tables, table, schema):
             return dash.no_update, dash.no_update
         tables = [(t if t in active else None) for t in tables]
         if len(active) != 1:
-            print("Error 12: More than one activated tab")
+            print("Error 12: More than one activated tab:", active)
 
     table = active[0]
     return table, tables 
@@ -516,16 +501,16 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     print("CALLBACK: main search, searching value {}".format(search))
 
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(study_df, shopping_basket, open_schemas, table)
+        return struct.build_sidebar_list(schema_df, shopping_basket, open_schemas, table)
 
     sub_list = study_df.loc[
-        (study_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
-        (study_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-        (study_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
-        (study_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
-        (study_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
+        (schema_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
+        (schema_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
+        (schema_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
+        (schema_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
+        (schema_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
+        (schema_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
+        (schema_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
     return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table)
@@ -590,10 +575,11 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
 @app.callback(
     Output('sb_download','data'),
     Input("save_button", "n_clicks"),
+    Input("dl_button_2", "n_clicks"),
     State("shopping_basket", "data"),
     prevent_initial_call=True
     )
-def save_shopping_cart(_, shopping_basket):
+def save_shopping_cart(btn1, btn2, shopping_basket):
     '''
     When the save button is clicked
     Read the shopping basket
