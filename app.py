@@ -1,5 +1,4 @@
 # sidebar.py
-from msilib import schema
 import  os
 from re import S
 import re
