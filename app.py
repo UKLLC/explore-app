@@ -19,7 +19,7 @@ import warnings
 import logging
 from dash.exceptions import PreventUpdate
 from flask_caching import Cache
-import dash_auth
+#import dash_auth
 from flask import request
 
 from app_state import App_State
