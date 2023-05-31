@@ -497,13 +497,13 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     Do we want it on button click or auto filter?
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
-    print("CALLBACK: main search, searching value {}".format(search))
+    print("CALLBACK: main search, searching value: {}.".format(search))
 
     if type(search)!=str or search == "":
         return struct.build_sidebar_list(schema_df, shopping_basket, open_schemas, table)
 
-    sub_list = study_df.loc[
-        (schema_df["Study"].str.contains(search, flags=re.IGNORECASE)) | 
+    sub_list = schema_df.loc[
+        (schema_df["Source"].str.contains(search, flags=re.IGNORECASE)) | 
         (schema_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
         (schema_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
         (schema_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
