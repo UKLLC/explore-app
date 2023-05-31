@@ -231,7 +231,7 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
         key = "0",
         active_item = sch_open)],
         item_id = "study_accordion",
-        title = "Study")
+        title = "Study Data")
 
     linked_list =  dbc.AccordionItem(
         [dbc.Accordion(linked_sidebar_children,
@@ -241,7 +241,7 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
         key = "0",
         active_item = sch_open)],
         item_id = "linked_accordion",
-        title = "Linked")
+        title = "Linked Data")
 
     top_level_accordion = dbc.Accordion(
         [study_list, linked_list], 
@@ -346,7 +346,7 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
         )
     return map_box
 
-def make_documentation_box(title = "Documentation: [study placeholder]", children = [None, None]):
+def make_documentation_box(title = "Block-Level Metadata: [study placeholder]", children = [None, None]):
     title_sction = html.Div([make_section_title(title)], id = "doc_title",className="doc_header",  style = ss.DOC_TITLE_STYLE)
     if children == [None, None]:
         d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div", className="container_box")
@@ -369,7 +369,7 @@ def make_documentation_box(title = "Documentation: [study placeholder]", childre
         )
     return doc_box
 
-def make_metadata_box(title = "Metadata: [study placeholder]", children = [None, None]):
+def make_metadata_box(title = "Variable-Level Metadata: [study placeholder]", children = [None, None]):
     title_section = html.Div([make_section_title(title)], id = "metadata_title",className="doc_header",  style = ss.METADATA_TITLE_STYLE)
     if children == [None, None]:
         d1 = html.Div([], id = "table_meta_desc_div")

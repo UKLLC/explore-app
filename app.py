@@ -130,8 +130,8 @@ def update_headers(schema):
     '''
     When schema updates, update documentation
     '''
-    doc_header = struct.make_section_title("Documentation: {}".format(schema))
-    meta_header = struct.make_section_title("Metadata: {}".format(schema))
+    doc_header = struct.make_section_title("Block-Level Metadata: {}".format(schema))
+    meta_header = struct.make_section_title("Variable-Level Metadata: {}".format(schema))
     map_header = struct.make_section_title("Coverage: {}".format(schema))
     if schema:
         landing_header = struct.make_section_title("Introduction: Selected source {}".format(schema))
@@ -332,15 +332,17 @@ def context_tabs(schema, table):
         
         if table != None:
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected-doc'),
-                dcc.Tab(label='Metadata', value='Metadata', className='custom-tab', selected_className='custom-tab--selected-doc'),
-                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show')]
+                dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
+                dcc.Tab(value='Metadata', label='Variable-Level Metadata', className='custom-tab', selected_className='custom-tab--selected-doc'),
+                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
+                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
+
         else:
             return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                    dcc.Tab(label='Documentation', value="Documentation", className='custom-tab', selected_className='custom-tab--selected-doc'),
-                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show')]
+                    dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
+                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
+                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
+
     else:
         return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
                 dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
@@ -393,24 +395,35 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
 @app.callback(
     Output('context_tabs','value'),
     Input("active_schema", "data"),
+    Input("active_table", "data"),
     State("context_tabs", "value"),
     prevent_initial_call = True
 )# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
-def force_change_body(schema, curr_tab):
+def force_change_body(schema, table, curr_tab):
     '''
     When the schema changes
     Read the current tab
     Update the current tab
     '''
-    #If chema changes and a table specific section is active, kick them out. 
-    if curr_tab == "Metadata" or curr_tab == "Coverage": # Note, will need to add table specific sections to this
+
+    if dash.ctx.triggered_id == "active_schema":
+        #If schema changes and a table specific section is active, kick them out. 
+        
         if schema == None:
             return "Landing"
+        elif curr_tab == "Documentation":
+            raise PreventUpdate
+        elif curr_tab == "Map":
+            raise PreventUpdate
         else:
             return "Documentation"
-    if curr_tab == "Documentation" and schema == None:    
-        return "Landing"
-    raise PreventUpdate
+    else:
+        if curr_tab == "Map":
+            raise PreventUpdate
+        elif curr_tab == "Metadata":
+            raise PreventUpdate
+        else:
+            return "Metadata"
 
 @app.callback(
     Output('active_schema','data'),
