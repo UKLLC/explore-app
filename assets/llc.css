@@ -65,7 +65,7 @@
 body {
     margin: 0;
     font-family: montserrat;
-    font-size: small;
+    font-size: normal;
     font-weight: normal;
     line-height: 1;
     color: #212529;
@@ -181,11 +181,38 @@ abbr[title] {
     border: solid;
     border-width: thin;
     border-color: black;
-    border-radius: .5rem;
+    border-radius: .25rem;
     background: white;
     padding: .5rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
+    line-height: 1.15;
+}
+
+.container_box2 {
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: .25rem;
+    background: white;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    max-width: 50%;
+    line-height: 1.15;
+}
+.container_box3 {
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: .5rem;
+    background: white;
+    padding: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    line-height: 1.25;
 }
 
 
@@ -205,7 +232,7 @@ abbr[title] {
     padding-left: .5rem !important;
     border: none !important;
     text-align: left !important;
-
+    font-size: small;
     background-color: var(--bs-whitegroup2);
 }
 .table_tab--selected {
@@ -248,8 +275,6 @@ abbr[title] {
     padding: .4rem;
     position: relative;
     left: -2.5rem;
-
-    
 }
 
 /* */
@@ -331,4 +356,15 @@ abbr[title] {
 
 .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner table {
     font-family: Montserrat !important;
+    font-size: small;
+}
+
+.row_layout {
+    display: flex;
+}
+
+#embed_video {
+    justify-content: right;
+    margin-left: auto;
+    margin-right:2rem
 }

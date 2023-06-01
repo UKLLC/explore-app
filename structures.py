@@ -115,27 +115,27 @@ def basket_review_table(df):
 def main_titlebar(app, title_text):
     titlebar = html.Div([
         html.Div([
-            html.A(
-                href="https://ukllc.ac.uk/",
-                children=[
-                    html.Img(
-                        src = app.get_asset_url("Logo_LLC.png"),
-                        style = ss.LOGOS_STYLE
-                    )
-                ]
-            ),
-            '''
-            html.A(
-                href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
-                
-                children=[
-                    html.Img(
-                        src = app.get_asset_url("Logo_NCS.png"),
-                        style = ss.LOGOS_STYLE
-                    )
-                ]
-            )
-            '''
+        
+        html.Img(
+            src = app.get_asset_url("Logo_LLC.png"),
+            style = ss.LOGOS_STYLE
+        ),
+        #html.A(
+        #href="https://ukllc.ac.uk/",
+        #children=[
+        #]
+        #),
+        #
+        #html.A(
+        #   href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
+            
+        #    children=[
+        #        html.Img(
+        #            src = app.get_asset_url("Logo_NCS.png"),
+        #            style = ss.LOGOS_STYLE
+        #        )
+        #    ]
+        #)
         ],
         style = ss.LOGOS_DIV_STYLE
         ),
@@ -411,12 +411,73 @@ def make_landing_box():
     landing_box = html.Div([
         title_section,
         html.Div([
-            html.P("This is a placeholder page. Any design help would be appreciated."),
-            html.P("Welcome to the UKLLC Data Discoverability Resource."),
-            html.P("Use the sidebar on the left to select a data source and data block."),
-            html.P("Use the tabs along the top of the page to view information on the selected data source and tables. The tabs will only appear when a study or data block is selected."),
-            html.P("You can selected one data block at a time to see information about it. You can add a data block to the shopping basket by clicking the tick box.")
-        
+            html.Div(
+            [
+                html.H3("Welcome to the UK LLC Data Discovery Portal"),
+                html.P(constants.LANDING_GENERAL_TEXT)
+            ],
+            id = "landing_general_div",
+            className= "container_box3"
+            ),
+            html.Div([ # Side by side boxes
+                html.Div([ # Instructions
+                    html.Div(
+                    [
+                        html.H3("Explore the data"),
+                        html.P(constants.LANDING_INSTRUCTION_TEXT1)
+                    ],
+                    id = "landing_instructions_div1"
+                    ),
+                    html.Div(
+                    [
+                        html.H3("Making a data request (shopping basket)"),
+                        html.P(constants.LANDING_INSTRUCTION_TEXT1)
+                    ],
+                    id = "landing_instructions_div2"
+                    ),
+                ],
+                className = "container_box2",
+                ),
+
+                html.Div([ # Links
+                    html.Div(
+                    [
+                        html.H3("Apply to access data"),
+                        html.Ul(children = [html.Li(i) for i in constants.LANDING_INFO_TEXT])
+                    ],
+                    id = "landing_info_div"
+                    ),
+                    html.Div(
+                    [],
+                    id = "landing_apply_div"
+                    ),
+                ],
+                className = "container_box2", 
+                )
+            ],
+            className="row_layout"
+            ),
+            html.Div(
+            [
+                html.H3("Working in the TRE"),
+                html.Div([
+                    html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
+                    html.Iframe(
+                        width="384", 
+                        height="216", 
+                        src="https://www.youtube.com/embed/zFkvpKD3jvs", 
+                        title="YouTube video player",  
+                        allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
+                        id = "embed_video"
+                        ),
+                ],
+                className="row_layout"
+                )
+            ],
+            id = "landing_links_div",
+            className= "container_box3"
+            ),
+
         ]
         , id = "Landing", style = ss.LANDING_BOX_STYLE)])
 

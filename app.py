@@ -68,7 +68,7 @@ def get_source_tables(schema):
 ### page asset templates
 
 # Titlebar ###########################################################################
-titlebar = struct.main_titlebar(app, "Placeholder Title")
+titlebar = struct.main_titlebar(app, "UK LLC Data Discovery Portal")
 
 # Left Sidebar #######################################################################
 
@@ -622,4 +622,4 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
