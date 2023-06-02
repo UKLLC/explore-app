@@ -314,8 +314,11 @@ LANDING_TITLE_STYLE = {
 LANDING_BOX_STYLE = {
     "color":"black",
     "background-color":white[0],
-    "padding" : "1rem",
-    "height" : "100%"
+    
+    "top" : str(box_title_h) +"rem",
+    "padding" : ".25rem",
+    "height":"calc(100% - "+str(box_title_h) +"rem)",
+    "overflow-y":"scroll",
 }
 
 ###################################

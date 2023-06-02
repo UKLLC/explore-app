@@ -426,17 +426,18 @@ def make_landing_box():
                         html.H3("Explore the data"),
                         html.P(constants.LANDING_INSTRUCTION_TEXT1)
                     ],
-                    id = "landing_instructions_div1"
+                    id = "landing_instructions_div1",
                     ),
                     html.Div(
                     [
                         html.H3("Making a data request (shopping basket)"),
                         html.P(constants.LANDING_INSTRUCTION_TEXT1)
                     ],
-                    id = "landing_instructions_div2"
+                    id = "landing_instructions_div2",
                     ),
                 ],
                 className = "container_box2",
+                style = {"width":"40%"}
                 ),
 
                 html.Div([ # Links
@@ -453,18 +454,20 @@ def make_landing_box():
                     ),
                 ],
                 className = "container_box2", 
+                style = {"width": "60%"}
                 )
             ],
             className="row_layout"
             ),
             html.Div(
             [
-                html.H3("Working in the TRE"),
                 html.Div([
+                    html.Div([
+                    html.H3("Working in the TRE"),
                     html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
+                    ],
+                    className = "non_row_layout"),
                     html.Iframe(
-                        width="384", 
-                        height="216", 
                         src="https://www.youtube.com/embed/zFkvpKD3jvs", 
                         title="YouTube video player",  
                         allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
@@ -594,7 +597,6 @@ def make_account_section():
                 id="account_dropdown",
                 className = "account_dropdown",
                 style = ss.ACCOUNT_DROPDOWN_STYLE 
-
                 )
             ], 
             style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
