@@ -482,7 +482,9 @@ def make_landing_box():
             ),
 
         ]
-        , id = "Landing", style = ss.LANDING_BOX_STYLE)])
+        , id = "Landing", style = ss.LANDING_BOX_STYLE)],
+        style=ss.BOX_STYLE
+        )
 
 
     return landing_box
@@ -532,7 +534,8 @@ def make_basket_review_box():
                 dcc.Download(id="sb_download")
 
                 ],
-                 id = "Basket Review", style = ss.LANDING_BOX_STYLE)])
+                 id = "Basket Review", style = ss.LANDING_BOX_STYLE)],
+        style=ss.BOX_STYLE)
     return basket_review_box
 
 def make_body():

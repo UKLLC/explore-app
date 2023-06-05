@@ -65,7 +65,7 @@
 body {
     margin: 0;
     font-family: montserrat;
-    font-size: calc(0.5rem + 0.25vw);
+    font-size: calc(0.25rem + 0.75vw);
     font-weight: normal;
     line-height: 1;
     color: #212529;
@@ -188,9 +188,9 @@ abbr[title] {
     border-color: black;
     border-radius: .25rem;
     background: white;
-    padding: .5rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    padding: .5vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
     line-height: 1.15;
     font-family: montserrat;
 }
@@ -201,11 +201,11 @@ abbr[title] {
     border-color: black;
     border-radius: .25rem;
     background: white;
-    padding: .25rem;
-    margin-top: .25rem;
-    margin-bottom: .25rem;
-    margin-left: .25rem;
-    margin-right: .25rem;
+    padding: .5vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+    margin-left: .5vw;
+    margin-right: .5vw;
     line-height: 1.15;
     font-family: montserrat;
 }
@@ -213,11 +213,11 @@ abbr[title] {
     border: solid;
     border-width: thin;
     border-color: black;
-    border-radius: .25rem;
+    border-radius: .25vw;
     background: white;
-    padding: .25rem;
-    margin-left: .25rem;
-    margin-right: .25rem;
+    padding: .5vw;
+    margin-left: .5vw;
+    margin-right: .5vw;
     line-height: 1.25;
 }
 
