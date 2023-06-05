@@ -150,7 +150,6 @@ def main_titlebar(app, title_text):
     return titlebar
 
 def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = "None"):
-    print("SB: ", current_basket)
     study_sidebar_children = []
     linked_sidebar_children = []
     # Get data sources
@@ -496,8 +495,10 @@ def make_basket_review_box():
         title_section,
         html.Div([
 
-            html.P("Insert list of selected tables (add checkboxes to them)."),
-            html.P("Insert save, clear, recommend, etc buttons"),
+            html.Div([
+            html.P("Select data blocks by checking tick boxes in the left sidebar."),
+            ],
+            className="container_box"),
                 
             #Main body is a table with Source, block, description, checkbox
             #Clear all button at top of checklist col - far from save
@@ -505,13 +506,11 @@ def make_basket_review_box():
             #Recommend box? bottom or RHS 
             
             # Get list of selected tables & doc as df
-            dbc.Button(
-                    "clear basket",
-                    id="clear_basket_button",
-                    n_clicks=0,
-                    ),
+            
             html.Div([
+                html.Div([
                 html.P("There are currently no data blocks in the shopping basket"),
+                ], className="container_box"),
                 dash_table.DataTable(
                         id="basket_review_table", #id = basket_review_table (passed in app)
                         data=None,#df.to_dict('records'),
@@ -526,11 +525,19 @@ def make_basket_review_box():
                         )
                 ],
                 id = "basket_review_table_div"),
+                html.Div([
+                dbc.Button(
+                    "clear basket",
+                    id="clear_basket_button",
+                    n_clicks=0,
+                    ),
                 dbc.Button(
                     "Save",
                     id="save_button",
                     n_clicks=0,
                     ),
+                ],
+                className = "row_layout"),
                 dcc.Download(id="sb_download")
 
                 ],

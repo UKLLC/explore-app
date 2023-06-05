@@ -40,7 +40,7 @@ request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesfor
 # request url doesn't work just yet
 study_df = dataIO.load_study_request()
 linked_df = dataIO.load_linked_request()
-schema_df = pd.merge((study_df.rename(columns = {"Study":"Source"})), (linked_df), how = "outer", on = ["Source", "Block Name"]).drop_duplicates(subset = ["Source", "Block Name"]).dropna(subset = ["Source", "Block Name"])
+schema_df = pd.merge((study_df.rename(columns = {"Study":"Source"})), (linked_df), how = "outer", on = ["Source", "Block Name", "Block Description"]).drop_duplicates(subset = ["Source", "Block Name"]).dropna(subset = ["Source", "Block Name"])
 study_info_and_links_df = dataIO.load_study_info_and_links()
 
 app_state = App_State(schema_df)
@@ -184,8 +184,7 @@ def update_tables_description(schema):
         else: # Study data branch
             return struct.data_doc_table(tables, "table_desc_table")
     else:
-        return ["Placeholder table description, null schema - this should not be possible when contextual tabs is implemented"]
-
+        return html.Div([html.P(["Metadata is not currently available for this data block"])], className = "container_box")
 
 ### METADATA BOX #####################
 @app.callback(
@@ -210,7 +209,7 @@ def update_table_data(table, schema):
         return struct.metadata_doc_table(tables, "table_desc_table")
     else:
         # Default (Section may be hidden in final version)
-        return "Placeholder metadata desc, null schema, null table - this should be impossible. Bug code 101."
+        return html.Div([html.P("Metadata is not currently available for this data block.")], className="container_box")
 
 
 @app.callback(
@@ -230,7 +229,7 @@ def update_table_metadata(values_on, search, table):
     print("CALLBACK: META BOX - updating table metadata")
     table_id = table
     if table== None:
-        return ["Placeholder table metadata, null table - this should not be possible when contextual tabs is implemented"]
+        return  html.Div([html.P(["Metadata is not currently available for this data block"])], className = "container_box")
     try:
         metadata_df = dataIO.load_study_metadata(table_id)
     except FileNotFoundError: # Study has changed 
@@ -308,7 +307,7 @@ def body_sctions(shopping_basket):
         except IndexError:
             row = [source, table,""]
         rows.append(row)
-    df = pd.DataFrame(rows, columns=["Study", "Data Block", "Description"])
+    df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
     brtable = struct.basket_review_table(df)
     return brtable
 
@@ -440,9 +439,12 @@ def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
     Read the open schemas.
     '''
     print("CALLBACK: sidebar schema click")
-    print("DEBUG, sidebar_schema {} {}".format(open_study_schema, previous_schema))
+    print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
     if dash.ctx.triggered_id == "study_schema_accordion":
-        return open_study_schema
+        if open_linked_schema == previous_schema:
+            raise PreventUpdate
+        else:
+            return open_study_schema
     else:
         return open_linked_schema
 
@@ -455,7 +457,7 @@ def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
     State("active_table", "data"),
     prevent_initial_call = True
 )
-def sidebar_table(tables, table, schema):
+def sidebar_table(tables, active_schema, previous_table):
     '''
     When the active table_tab changes
     When the schema changes
@@ -476,14 +478,16 @@ def sidebar_table(tables, table, schema):
         return None, tables
     # if more than one table is active
     elif len(active) != 1:
-        active = [t for t in active if t != table ]
+        active = [t for t in active if t != previous_table ]
         if len(active) == 0:
-            return dash.no_update, dash.no_update
+            raise PreventUpdate
         tables = [(t if t in active else None) for t in tables]
         if len(active) != 1:
             print("Error 12: More than one activated tab:", active)
 
     table = active[0]
+    if table == previous_table:
+        raise PreventUpdate
     return table, tables 
     
 
