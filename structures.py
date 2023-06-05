@@ -430,14 +430,14 @@ def make_landing_box():
                     ),
                     html.Div(
                     [
-                        html.H3("Making a data request (shopping basket)"),
+                        html.H3("Build a shopping basket"),
                         html.P(constants.LANDING_INSTRUCTION_TEXT1)
                     ],
                     id = "landing_instructions_div2",
                     ),
                 ],
                 className = "container_box2",
-                style = {"width":"40%"}
+                style = {"width":"45%"}
                 ),
 
                 html.Div([ # Links
@@ -454,7 +454,7 @@ def make_landing_box():
                     ),
                 ],
                 className = "container_box2", 
-                style = {"width": "60%"}
+                style = {"width": "55%"}
                 )
             ],
             className="row_layout"

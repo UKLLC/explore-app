@@ -65,14 +65,20 @@
 body {
     margin: 0;
     font-family: montserrat;
-    font-size: calc(0.25rem + 0.75vw);
+    font-size: calc(0.5rem + 0.5vw);
     font-weight: normal;
-    line-height: 1;
+    line-height: 1.25;
     color: #212529;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }
+
+@media only screen and (max-width: 1080px) {
+    body {
+      line-height: 1;
+    }
+  }
 
 hr {
     margin: 1rem 0;
@@ -191,7 +197,6 @@ abbr[title] {
     padding: .5vw;
     margin-top: .5vw;
     margin-bottom: .5vw;
-    line-height: 1.15;
     font-family: montserrat;
 }
 
@@ -206,7 +211,6 @@ abbr[title] {
     margin-bottom: .5vw;
     margin-left: .5vw;
     margin-right: .5vw;
-    line-height: 1.15;
     font-family: montserrat;
 }
 .container_box3 {
@@ -218,7 +222,6 @@ abbr[title] {
     padding: .5vw;
     margin-left: .5vw;
     margin-right: .5vw;
-    line-height: 1.25;
 }
 
 
@@ -239,6 +242,7 @@ abbr[title] {
     border: none !important;
     text-align: left !important;
     font-size: 0.75rem;
+    line-height: 1;
     background-color: var(--bs-whitegroup2);
 }
 .table_tab--selected {
@@ -319,7 +323,7 @@ abbr[title] {
     border-top-left-radius: .3rem !important;
     border-top-right-radius: .3rem !important;
     border: none !important;
-
+    line-height: 1;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     display: flex !important;
@@ -328,6 +332,7 @@ abbr[title] {
     height: 2.5rem !important;
     margin-top: 0.2rem;
     margin-right: 1px;
+    font-size: 1rem;
 }
 .custom-tab--selected-show {
     color: white !important;
