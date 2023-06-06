@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-VariableFont_wght.ttf") format(truetype)
+}
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -22,8 +27,8 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
-    --bs-font-sans-serif: montserrat !important;
-    --bs-font-monospace: montserrat !important;
+    --bs-font-sans-serif: Montserrat !important;
+    --bs-font-monospace: Montserrat !important;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
     --bs-whitegroup1:#FFFFFF;
@@ -64,7 +69,7 @@
 
 body {
     margin: 0;
-    font-family: montserrat;
+    font-family: Montserrat;
     font-size: calc(0.5rem + 0.5vw);
     font-weight: normal;
     line-height: 1.25;
@@ -200,7 +205,7 @@ abbr[title] {
     padding: .5vw;
     margin-top: .5vw;
     margin-bottom: .5vw;
-    font-family: montserrat;
+    font-family: Montserrat;
 }
 
 .container_box2 {
@@ -212,7 +217,7 @@ abbr[title] {
     margin-bottom: .5vw;
     margin-left: .5vw;
     margin-right: .5vw;
-    font-family: montserrat;
+    font-family: Montserrat;
 }
 .container_box3 {
     border: none;

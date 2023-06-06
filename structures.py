@@ -430,7 +430,7 @@ def make_landing_box():
                     html.Div(
                     [
                         html.H3("Build a shopping basket"),
-                        html.P(constants.LANDING_INSTRUCTION_TEXT1, className="padding_p")
+                        html.P(constants.LANDING_INSTRUCTION_TEXT2, className="padding_p")
                     ],
                     id = "landing_instructions_div2",
                     ),
