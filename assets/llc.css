@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Montserrat";
-    src: url("assets/fonts/Montserrat-VariableFont_wght.ttf") format(truetype)
+    src: url("https://fonts.googleapis.com/css?family=Montserrat") format(truetype)
 }
 
 :root {
@@ -374,7 +374,7 @@ abbr[title] {
 
 
 .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner table {
-    font-family: Montserrat !important;
+    font-family: "Montserrat" !important;
     font-size: 0.75rem;
 }
 
