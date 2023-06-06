@@ -413,7 +413,7 @@ def make_landing_box():
             html.Div(
             [
                 html.H3("Welcome to the UK LLC Data Discovery Portal"),
-                html.P(constants.LANDING_GENERAL_TEXT)
+                html.P(constants.LANDING_GENERAL_TEXT, className="padding_p")
             ],
             id = "landing_general_div",
             className= "container_box3"
@@ -423,14 +423,14 @@ def make_landing_box():
                     html.Div(
                     [
                         html.H3("Explore the data"),
-                        html.P(constants.LANDING_INSTRUCTION_TEXT1)
+                        html.P(constants.LANDING_INSTRUCTION_TEXT1, className="padding_p")
                     ],
                     id = "landing_instructions_div1",
                     ),
                     html.Div(
                     [
                         html.H3("Build a shopping basket"),
-                        html.P(constants.LANDING_INSTRUCTION_TEXT1)
+                        html.P(constants.LANDING_INSTRUCTION_TEXT1, className="padding_p")
                     ],
                     id = "landing_instructions_div2",
                     ),

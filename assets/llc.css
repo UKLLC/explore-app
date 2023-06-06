@@ -120,6 +120,9 @@ h1 {
 h3 {
     font-weight: bold;
     margin-bottom: .25rem;
+    background-color: black;
+    color: var(--bs-greengroup2);
+    padding-left: .5vw;
 }
 
 p {
@@ -201,27 +204,25 @@ abbr[title] {
 }
 
 .container_box2 {
-    border: solid;
-    border-width: thin;
+    border: none;
+    /*border-width: thin;
     border-color: black;
-    border-radius: .25rem;
+    border-radius: .25rem;*/
     background: white;
-    padding: .5vw;
-    margin-top: .5vw;
     margin-bottom: .5vw;
     margin-left: .5vw;
     margin-right: .5vw;
     font-family: montserrat;
 }
 .container_box3 {
-    border: solid;
-    border-width: thin;
+    border: none;
+    /*border-width: thin;
     border-color: black;
-    border-radius: .25vw;
+    border-radius: .25vw;*/
     background: white;
-    padding: .5vw;
     margin-left: .5vw;
     margin-right: .5vw;
+    margin-bottom: .5vw;
 }
 
 
@@ -391,6 +392,14 @@ ul {
     margin-top: 0rem;
     margin-bottom: 0rem;
     line-height: 1.5;
+    margin-right: .75vw;
+    margin-bottom: .5vw;
+}
+
+.padding_p {
+    margin-left: .75vw;
+    margin-right: .75vw;
+    margin-bottom: .1vw;
 }
 
 #clear_basket_button {
