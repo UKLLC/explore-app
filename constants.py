@@ -15,10 +15,10 @@ VALID_USERNAME_PASSWORD_PAIRS = {
 LINKED_SCHEMAS = ["NHSD"]
 
 LANDING_GENERAL_TEXT = """
-Browse the UK LLC Data Discovery Portal to discover data from the 20+ longitudinal population studies that contribute data to the UK LLC Trusted Reasearch Environment (TRE).
+Browse the UK LLC Data Discovery Portal to discover data from the 20+ longitudinal population studies that contribute data to the UK LLC Trusted Research Environment (TRE).
 The metadata encompass study-collected and linked data blocks, including health, geospatial and non-health routine records.
 \n
-Use this tool to select data blocks from our catelogue for a new data request or data ammendment.
+Use this tool to select data blocks from our catalogue for a new data request or data amendment.
 """
 
 LANDING_INSTRUCTION_TEXT1 = """
