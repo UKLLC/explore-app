@@ -27,8 +27,8 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
-    --bs-font-sans-serif: Montserrat !important;
-    --bs-font-monospace: Montserrat !important;
+    --bs-font-sans-serif: "Montserrat" !important;
+    --bs-font-monospace: "Montserrat" !important;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
     --bs-whitegroup1:#FFFFFF;
@@ -69,7 +69,7 @@
 
 body {
     margin: 0;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: calc(0.5rem + 0.5vw);
     font-weight: normal;
     line-height: 1.25;
@@ -205,7 +205,7 @@ abbr[title] {
     padding: .5vw;
     margin-top: .5vw;
     margin-bottom: .5vw;
-    font-family: Montserrat;
+    font-family: "Montserrat";
 }
 
 .container_box2 {
@@ -214,10 +214,10 @@ abbr[title] {
     border-color: black;
     border-radius: .25rem;*/
     background: white;
-    margin-bottom: .5vw;
+    margin-bottom: .75vw;
     margin-left: .5vw;
     margin-right: .5vw;
-    font-family: Montserrat;
+    font-family: "Montserrat";
 }
 .container_box3 {
     border: none;
@@ -227,7 +227,7 @@ abbr[title] {
     background: white;
     margin-left: .5vw;
     margin-right: .5vw;
-    margin-bottom: .5vw;
+    margin-bottom: .75vw;
 }
 
 
@@ -404,7 +404,7 @@ ul {
 .padding_p {
     margin-left: .75vw;
     margin-right: .75vw;
-    margin-bottom: .1vw;
+    padding-bottom: .5vw;
 }
 
 #clear_basket_button {
