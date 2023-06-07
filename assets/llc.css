@@ -70,7 +70,7 @@
 body {
     margin: 0;
     font-family: "Montserrat";
-    font-size: calc(0.5rem + 0.5vw);
+    font-size: calc(0.25rem + 0.5vw);
     font-weight: normal;
     line-height: 1.25;
     color: #212529;
@@ -214,7 +214,7 @@ abbr[title] {
     border-color: black;
     border-radius: .25rem;*/
     background: white;
-    margin-bottom: .75vw;
+    margin-bottom: 1vw;
     margin-left: .5vw;
     margin-right: .5vw;
     font-family: "Montserrat";
@@ -227,7 +227,7 @@ abbr[title] {
     background: white;
     margin-left: .5vw;
     margin-right: .5vw;
-    margin-bottom: .75vw;
+    margin-bottom: 1vw;
 }
 
 
@@ -379,6 +379,7 @@ abbr[title] {
 }
 
 .row_layout {
+    width: 100%;
     display: flex;
 }
 .non_row_layout {
@@ -402,8 +403,9 @@ ul {
 }
 
 .padding_p {
-    margin-left: .75vw;
-    margin-right: .75vw;
+    margin-top: .5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     padding-bottom: .5vw;
 }
 

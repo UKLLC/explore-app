@@ -404,6 +404,7 @@ def make_metadata_box(title = "Variable-Level Metadata: [study placeholder]", ch
         )
     return meta_box
 
+
 def make_landing_box():
     title_section = html.Div([make_section_title("Introduction: Select a study to continue.")], id = "landing_title", className="ops_header", style = ss.LANDING_TITLE_STYLE)
 
@@ -423,63 +424,55 @@ def make_landing_box():
                     html.Div(
                     [
                         html.H3("Explore the data"),
-                        html.P(constants.LANDING_INSTRUCTION_TEXT1, className="padding_p")
+                        html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT1]),
                     ],
                     id = "landing_instructions_div1",
                     ),
                     html.Div(
                     [
                         html.H3("Build a shopping basket"),
-                        html.P(constants.LANDING_INSTRUCTION_TEXT2, className="padding_p")
+                        html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT2]),
                     ],
                     id = "landing_instructions_div2",
                     ),
                 ],
+                style = {"width" :"30%"},
+                className = "container_box2"
+                ),
+
+                html.Div([
+                    html.Div([
+                        html.H3("Working in the TRE"),
+                        html.P("There is currently no cost to access data in the TRE.", className="padding_p"),
+                        html.P("You must be UK-based and an Accredited Researcher (link) – read about the application process in the UK LLC Data Access and Acceptable Use Policy (link).", className="padding_p"),
+                        html.P("Submit an Expression of Interest through the HDR UK Innovation Gateway (link).", className="padding_p"),
+                        html.P("Email [link]access@ukllc.ac.uk[/link] if you have any queries.", className="padding_p"),
+                        html.P("Resources:", className="padding_p"),
+                        html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
+                    ],),
+                ],
                 className = "container_box2",
-                style = {"width":"45%"}
+                style = {"width" :"30%"},
                 ),
 
                 html.Div([ # Links
                     html.Div(
                     [
-                        html.H3("Apply to access data"),
-                        html.Ul(children = [html.Li(i) for i in constants.LANDING_INFO_TEXT])
-                    ],
-                    id = "landing_info_div"
-                    ),
-                    html.Div(
-                    [],
-                    id = "landing_apply_div"
-                    ),
-                ],
-                className = "container_box2", 
-                style = {"width": "55%"}
-                )
-            ],
-            className="row_layout"
-            ),
-            html.Div(
-            [
-                html.Div([
-                    html.Div([
-                    html.H3("Working in the TRE"),
-                    html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
-                    ],
-                    className = "non_row_layout"),
-                    html.Iframe(
+                        html.Iframe(
                         src="https://www.youtube.com/embed/zFkvpKD3jvs", 
                         title="YouTube video player",  
                         allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
                         id = "embed_video"
                         ),
+                    ],
+                    id = "landing_info_div"
+                    ),
                 ],
-                className="row_layout"
+                className = "container_box2", 
                 )
             ],
-            id = "landing_links_div",
-            className= "container_box3"
+            className="row_layout"
             ),
-
         ]
         , id = "Landing", style = ss.LANDING_BOX_STYLE)],
         style=ss.BOX_STYLE
