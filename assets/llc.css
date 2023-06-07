@@ -388,10 +388,11 @@ abbr[title] {
 
 #embed_video {
     justify-content: right;
-    margin-left: auto;
-    margin-right:2rem;
     width:32vw;
     height:18vw;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 ul {
