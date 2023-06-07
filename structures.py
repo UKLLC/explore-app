@@ -447,7 +447,7 @@ def make_landing_box():
                         html.P("You must be UK-based and an Accredited Researcher (link) – read about the application process in the UK LLC Data Access and Acceptable Use Policy (link).", className="padding_p"),
                         html.P("Submit an Expression of Interest through the HDR UK Innovation Gateway (link).", className="padding_p"),
                         html.P("Email [link]access@ukllc.ac.uk[/link] if you have any queries.", className="padding_p"),
-                        html.P("Resources:", className="padding_p"),
+                        html.P("Find out more:", className="padding_p"),
                         html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
                     ],),
                 ],
