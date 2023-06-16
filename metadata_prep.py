@@ -7,6 +7,9 @@ all_metadata = pd.read_csv("metadata\\all_metadata.csv")
 unique_schemas = list(set(all_metadata["Source"].values))
 
 for schema in unique_schemas:
+    if schema == "NHSD_STAGE":
+        continue
+
     df = all_metadata.loc[all_metadata["Source"] == schema]
 
     unique_tables = list(set(df["Block Name"].values))

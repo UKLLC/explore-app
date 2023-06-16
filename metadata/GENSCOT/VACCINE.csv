@@ -1,46 +1,46 @@
 ,Source,Block Name,Variable Name,Variable Description,Value,Value Description
-714185,GENSCOT,VACCINE,study_id_e,,,
-714186,GENSCOT,VACCINE,sex,sex,F,Female
-714187,GENSCOT,VACCINE,sex,sex,M,Male
-714188,GENSCOT,VACCINE,sex,sex,F,Female
-714189,GENSCOT,VACCINE,sex,sex,M,Male
-714190,GENSCOT,VACCINE,sex,sex,F,Female
-714191,GENSCOT,VACCINE,sex,sex,M,Male
-714192,GENSCOT,VACCINE,sex,sex,F,Female
-714193,GENSCOT,VACCINE,sex,sex,M,Male
-714194,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
-714195,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
-714196,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
-714197,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
-714198,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
-714199,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
-714200,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
-714201,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
-714202,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
-714203,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
-714204,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
-714205,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
-714206,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
-714207,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
-714208,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
-714209,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
-714210,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
-714211,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
-714212,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
-714213,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
-714214,GENSCOT,VACCINE,days,days between doses,,Days
-714215,GENSCOT,VACCINE,days,days between doses,,Days
-714216,GENSCOT,VACCINE,days,days between doses,,Days
-714217,GENSCOT,VACCINE,days,days between doses,,Days
-714218,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
-714219,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
-714220,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
-714221,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
-714222,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
-714223,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
-714224,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
-714225,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
-714226,GENSCOT,VACCINE,avail_from_dt,,,
-714227,GENSCOT,VACCINE,health_board_e,,,
-714228,GENSCOT,VACCINE,vacc_health_board_e,,,
-714229,GENSCOT,VACCINE,council_area_e,,,
+717178,GENSCOT,VACCINE,study_id_e,,,
+717179,GENSCOT,VACCINE,sex,sex,F,Female
+717180,GENSCOT,VACCINE,sex,sex,M,Male
+717181,GENSCOT,VACCINE,sex,sex,F,Female
+717182,GENSCOT,VACCINE,sex,sex,M,Male
+717183,GENSCOT,VACCINE,sex,sex,F,Female
+717184,GENSCOT,VACCINE,sex,sex,M,Male
+717185,GENSCOT,VACCINE,sex,sex,F,Female
+717186,GENSCOT,VACCINE,sex,sex,M,Male
+717187,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
+717188,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
+717189,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
+717190,GENSCOT,VACCINE,age_band,age bracket,,Age Bracket
+717191,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
+717192,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
+717193,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
+717194,GENSCOT,VACCINE,data_source,data source,,emis/TURAS/vision
+717195,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
+717196,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
+717197,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
+717198,GENSCOT,VACCINE,dose_number,dose number,,"1, 2"
+717199,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
+717200,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
+717201,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
+717202,GENSCOT,VACCINE,dt1,date of first vaccine,,yyyy-mm-dd
+717203,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
+717204,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
+717205,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
+717206,GENSCOT,VACCINE,dt2,date of second vaccine,,yyyy-mm-dd
+717207,GENSCOT,VACCINE,days,days between doses,,Days
+717208,GENSCOT,VACCINE,days,days between doses,,Days
+717209,GENSCOT,VACCINE,days,days between doses,,Days
+717210,GENSCOT,VACCINE,days,days between doses,,Days
+717211,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
+717212,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
+717213,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
+717214,GENSCOT,VACCINE,product_name,vaccine product,,AZ/Pfizer/Moderna
+717215,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
+717216,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
+717217,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
+717218,GENSCOT,VACCINE,cohort_desc,Vaccination cohort group,,Vaccination Cohort Group
+717219,GENSCOT,VACCINE,avail_from_dt,,,
+717220,GENSCOT,VACCINE,health_board_e,,,
+717221,GENSCOT,VACCINE,vacc_health_board_e,,,
+717222,GENSCOT,VACCINE,council_area_e,,,
