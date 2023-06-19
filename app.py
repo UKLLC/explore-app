@@ -156,7 +156,7 @@ def update_schema_description(schema):
     if schema != None:
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
         if schema == "NHSD":
-            schema_info = "Generic info about nhsd"
+            schema_info = "Generic info about nhsd (placeholder, waiting for database)"
             return schema_info
         else:      
             return struct.make_schema_description(schema_info)
@@ -179,7 +179,7 @@ def update_tables_description(schema):
     if schema != None:
         tables = get_study_info(schema)
         if schema == "NHSD": # Expand to linked data branch
-            schema_info = "Generic info about nhsd"
+            schema_info = "Generic info about nhsd (placeholder, waiting for database)"
             return schema_info
         else: # Study data branch
             return struct.data_doc_table(tables, "table_desc_table")
