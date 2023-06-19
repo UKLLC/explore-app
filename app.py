@@ -441,7 +441,7 @@ def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
     print("CALLBACK: sidebar schema click")
     print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
     if dash.ctx.triggered_id == "study_schema_accordion":
-        if open_linked_schema == previous_schema:
+        if open_study_schema == previous_schema:
             print("Schema unchanged, preventing update")
             raise PreventUpdate
         else:
