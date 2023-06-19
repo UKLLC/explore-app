@@ -247,7 +247,7 @@ abbr[title] {
     padding-left: .5rem !important;
     border: none !important;
     text-align: left !important;
-    font-size: 0.75rem;
+    font-size: calc(0.3rem + 0.5vw);
     line-height: 1;
     background-color: var(--bs-whitegroup2);
 }

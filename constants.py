@@ -24,7 +24,7 @@ Use this tool to select data blocks from our catalogue for a new data request or
 LANDING_INSTRUCTION_TEXT1 = [
 "Use the left sidebar to browse studies and data blocks.", 
 "Filter the catalogue with search options in the top left (in development).",
-"Select data source or a data block and find out more information about them using the tabs that appear along the top bar."
+"Select a data source or a data block and find out more information about them using the tabs that appear along the top bar."
 ]
 
 LANDING_INSTRUCTION_TEXT2 = [
