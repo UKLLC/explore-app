@@ -289,7 +289,7 @@ def update_map_content(tab, schema):
     Input("shopping_basket", "data"),
     prevent_initial_call=True
 )
-def body_sctions(shopping_basket):
+def basket_review(shopping_basket):
     '''
     When the shopping basket updates
     Update the basket review table
@@ -442,6 +442,7 @@ def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
     print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
     if dash.ctx.triggered_id == "study_schema_accordion":
         if open_linked_schema == previous_schema:
+            print("Schema unchanged, preventing update")
             raise PreventUpdate
         else:
             return open_study_schema
@@ -466,6 +467,8 @@ def sidebar_table(tables, active_schema, previous_table):
     Update the activated table tabs (deactivate previously activated tabs)
     '''
     print("CALLBACK: sidebar table click")
+    print("DEBUG, sidebar_table {}, {}, {}".format(tables, previous_table, dash.ctx.triggered_id))
+
 
     # If triggered by a schema change, clear the current table
     if dash.ctx.triggered_id == "active_schema":
@@ -473,8 +476,13 @@ def sidebar_table(tables, active_schema, previous_table):
 
 
     active = [t for t in tables if t!= None]
+    
+    
+
     # if no tables are active
     if len(active) == 0:
+        if previous_table == None:
+            raise PreventUpdate
         return None, tables
     # if more than one table is active
     elif len(active) != 1:
@@ -484,10 +492,13 @@ def sidebar_table(tables, active_schema, previous_table):
         tables = [(t if t in active else None) for t in tables]
         if len(active) != 1:
             print("Error 12: More than one activated tab:", active)
-
+    
     table = active[0]
+    print(table, previous_table)
     if table == previous_table:
+        print("Table unchanged, preventing update")
         raise PreventUpdate
+
     return table, tables 
     
 
