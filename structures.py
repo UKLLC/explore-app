@@ -459,7 +459,7 @@ def make_landing_box():
                     html.Div(
                     [
                         html.Iframe(
-                        src="https://www.youtube.com/embed/zFkvpKD3jvs", 
+                        src="https://www.youtube.com/embed/QfyaG3zemcs", 
                         title="YouTube video player",  
                         allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
                         id = "embed_video"
