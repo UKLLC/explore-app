@@ -159,21 +159,25 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
         tables = schema_df.loc[schema_df["Source"] == schema]["Block Name"]
 
         # CHECKBOXES
-        checkbox_prep = []
+        checkbox_items = []
+        checkbox_active = []
         for table in tables:
-            checkbox_prep += [
-                dcc.Checklist([schema+"-"+table],
-                value = [schema+"-"+table] if schema+"-"+table in current_basket else [],
-                id= {
-                    "type":'shopping_checklist',
-                    "index" : schema+"-"+table
-                },
-                className = "shopping_checkbox",
-                style = ss.CHECKBOX_STYLE
-                )
-            ]
+            checkbox_items += [schema+"-"+table]
+            if schema+"-"+table in current_basket:
+                checkbox_active += [schema+"-"+table]
         
-        checkbox_col = html.Div(children=checkbox_prep, 
+        checkbox_col = html.Div(
+            
+            children= dcc.Checklist(
+                checkbox_items,
+                value = checkbox_active,
+                id= {
+                        "type":'shopping_checklist',
+                        "index" : schema
+                    },
+                    className = "shopping_checkbox",
+                    style = ss.CHECKBOX_STYLE
+                    ), 
             id= {
                     "type":'checkbox_col',
                     "index" : schema

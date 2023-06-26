@@ -296,6 +296,10 @@ abbr[title] {
     left: -2.5rem;
 }
 
+input[type="checkbox" i] {
+    margin-bottom: 1rem;
+}
+
 /* */
 
 .search_button {

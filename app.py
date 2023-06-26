@@ -118,26 +118,40 @@ def login(_):
 
 ### Update titles #########################
 
+#########################
 @app.callback(
-    Output('doc_title', "children"),
-    Output('metadata_title', "children"),
-    Output('map_title', "children"),
-    Output('landing_title', 'children'),
+
+    Output("context_tabs","children"),
     Input('active_schema','data'),
+    Input('active_table','data'),
     prevent_initial_call=True
 )
-def update_headers(schema):
+def context_tabs(schema, table):
     '''
-    When schema updates, update documentation
+    When the schema changes
+    When the table changes
+    Update the context tabs
     '''
-    doc_header = struct.make_section_title("Block-Level Metadata: {}".format(schema))
-    meta_header = struct.make_section_title("Variable-Level Metadata: {}".format(schema))
-    map_header = struct.make_section_title("Coverage: {}".format(schema))
-    if schema:
-        landing_header = struct.make_section_title("Introduction: Selected source {}".format(schema))
+    print("CALLBACK: context_tabs schema: {}, table: {} ".format(schema, table))
+    if schema != None:
+        
+        if table != None:
+            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
+                dcc.Tab(value='Metadata', label='Variable-Level Metadata', className='custom-tab', selected_className='custom-tab--selected-doc'),
+                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
+                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
+
+        else:
+            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                    dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
+                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
+                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
+
     else:
-        landing_header = struct.make_section_title("Introduction: Select data to continue")
-    return doc_header, meta_header, map_header, landing_header
+        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
+                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
+]
 
 ### DOCUMENTATION BOX #####################
 
@@ -150,9 +164,9 @@ def update_headers(schema):
 def update_schema_description(schema):
     '''
     When schema updates, update documentation    
-    '''
-    print("CALLBACK: DOC BOX - updating schema description")
+    '''        
 
+    print("DEBUG: acting, schema = '{}'".format(schema))
     if schema != None:
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
         if schema == "NHSD":
@@ -174,7 +188,6 @@ def update_tables_description(schema):
     When schema updates
     Replace contents of description box with table information 
     '''
-    print("CALLBACK: DOC BOX - updating table description")
 
     if schema != None:
         tables = get_study_info(schema)
@@ -185,6 +198,7 @@ def update_tables_description(schema):
             return struct.data_doc_table(tables, "table_desc_table")
     else:
         return html.Div([html.P(["Metadata is not currently available for this data block"])], className = "container_box")
+
 
 ### METADATA BOX #####################
 @app.callback(
@@ -199,7 +213,7 @@ def update_table_data(table, schema):
     with current schema
     load table metadata
     '''
-    print("CALLBACK: META BOX - updating table description")
+    print("CALLBACK: META BOX - updating table description with table {}".format(table))
     #pass until metadata block ready
     if schema != None and table != None:
         if schema in constants.LINKED_SCHEMAS: # Expand to linked data branch
@@ -219,17 +233,16 @@ def update_table_data(table, schema):
     Input('active_table','data'),
     prevent_initial_call=True
 )
-def update_table_metadata(values_on, search, table):
+def update_table_metadata(values_on, search, table_id):
     '''
     When table updates
     When values are toggled
     When metadata is searched
     update metadata display
     '''
-    print("CALLBACK: META BOX - updating table metadata")
-    table_id = table
-    if table== None:
-        return  html.Div([html.P(["Metadata is not currently available for this data block"])], className = "container_box")
+    print("CALLBACK: META BOX - updating table metadata with active table {}".format(table_id))
+    if table_id== None:
+        raise PreventUpdate
     try:
         metadata_df = dataIO.load_study_metadata(table_id)
     except FileNotFoundError: # Study has changed 
@@ -255,9 +268,9 @@ def update_table_metadata(values_on, search, table):
             (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
             (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
             ]
-    print("making metadata table")
     metadata_table = struct.metadata_table(metadata_df, "metadata_table")
     return metadata_table
+
 
 
 ### MAP BOX #################
@@ -274,6 +287,7 @@ def update_map_content(tab, schema):
     When schema updates
     Update the map content
     '''
+    print("CALLBACK: updating map content")
     if schema != None and tab == "Map":
         map_data = load_or_fetch_map(schema)
         if not map_data:
@@ -281,6 +295,31 @@ def update_map_content(tab, schema):
         return map_data, 6
     else:
         raise PreventUpdate
+
+
+@app.callback(
+    Output('doc_title', "children"),
+    Output('metadata_title', "children"),
+    Output('map_title', "children"),
+    Output('landing_title', 'children'),
+    Input('active_schema','data'),
+    prevent_initial_call=True
+)
+def update_headers(schema):
+    '''
+    When schema updates, update documentation
+    '''
+    print("CALLBACK: Updating section headers (TODO merge into schema update?)")
+    doc_header = struct.make_section_title("Block-Level Metadata: {}".format(schema))
+    meta_header = struct.make_section_title("Variable-Level Metadata: {}".format(schema))
+    map_header = struct.make_section_title("Coverage: {}".format(schema))
+    if schema:
+        landing_header = struct.make_section_title("Introduction: Selected source {}".format(schema))
+    else:
+        landing_header = struct.make_section_title("Introduction: Select data to continue")
+    return doc_header, meta_header, map_header, landing_header
+
+
 
 ### BASKET REVIEW #############
 
@@ -294,7 +333,7 @@ def basket_review(shopping_basket):
     When the shopping basket updates
     Update the basket review table
     '''
-    print("Updating basket review table")
+    print("CALLBACK: Updating basket review table")
     rows = []
     df = study_df
     for table_id in shopping_basket:
@@ -313,49 +352,13 @@ def basket_review(shopping_basket):
 
 
 #########################
-@app.callback(
-
-    Output("context_tabs","children"),
-    Input('active_schema','data'),
-    Input('active_table','data'),
-    prevent_initial_call=True
-)
-def context_tabs(schema, table):
-    '''
-    When the schema changes
-    When the table changes
-    Update the context tabs
-    '''
-    print("DEBUG, context_tabs {} {}, {} {}".format(schema, type(schema), table, type(table)))
-    if schema != None:
-        
-        if table != None:
-            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
-                dcc.Tab(value='Metadata', label='Variable-Level Metadata', className='custom-tab', selected_className='custom-tab--selected-doc'),
-                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
-                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
-
-        else:
-            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                    dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
-                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
-                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
-
-    else:
-        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
-]
-
 
 @app.callback(
     Output("body", "children"),
     Output("hidden_body","children"),
-    #Output("basket_review_table_div", "children"),
     Input("context_tabs", "value"),
     State("body", "children"),
     State("hidden_body","children"),
-    #State("shopping_basket", "data"),
     prevent_initial_call=True
 )
 def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
@@ -382,7 +385,6 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
             a_tab_is_active = True
         else:
             inactive.append(section)
-
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]
@@ -397,17 +399,16 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
     Input("active_table", "data"),
     State("context_tabs", "value"),
     prevent_initial_call = True
-)# NOTE: is this going to be slow? we are pattern matching all schema. Could we bring it to a higher level? like the list group? Or will match save it
+)
 def force_change_body(schema, table, curr_tab):
     '''
     When the schema changes
     Read the current tab
     Update the current tab
     '''
-
+    print("CALLBACK: force change body")
     if dash.ctx.triggered_id == "active_schema":
         #If schema changes and a table specific section is active, kick them out. 
-        
         if schema == None:
             return "Landing"
         elif curr_tab == "Documentation":
@@ -438,8 +439,8 @@ def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
     Read the previous schema
     Read the open schemas.
     '''
-    print("CALLBACK: sidebar schema click")
-    print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
+    print("CALLBACK: sidebar schema click. Trigger:  {}, open_schema = {}".format(dash.ctx.triggered_id, open_study_schema))
+    #print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
     if dash.ctx.triggered_id == "study_schema_accordion":
         if open_study_schema == previous_schema:
             print("Schema unchanged, preventing update")
@@ -467,16 +468,13 @@ def sidebar_table(tables, active_schema, previous_table):
     Update the activated table tabs (deactivate previously activated tabs)
     '''
     print("CALLBACK: sidebar table click")
-    print("DEBUG, sidebar_table {}, {}, {}".format(tables, previous_table, dash.ctx.triggered_id))
-
+    #print("DEBUG, sidebar_table {}, {}, {}".format(tables, previous_table, dash.ctx.triggered_id))
 
     # If triggered by a schema change, clear the current table
     if dash.ctx.triggered_id == "active_schema":
         return None, [None for t in tables]
 
-
     active = [t for t in tables if t!= None]
-    
     
 
     # if no tables are active
@@ -494,7 +492,6 @@ def sidebar_table(tables, active_schema, previous_table):
             print("Error 12: More than one activated tab:", active)
     
     table = active[0]
-    print(table, previous_table)
     if table == previous_table:
         print("Table unchanged, preventing update")
         raise PreventUpdate
@@ -565,9 +562,9 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
 
     Update the shopping cart and update the basket review section if not already active
     '''
-    print("CALLBACK: Shopping cart")
+    print("CALLBACK: Shopping cart. Trigger: {}".format(dash.ctx.triggered_id))
     if dash.ctx.triggered_id == "basket_review_table":# If triggered by basket review
-        if current_data is not None:
+        if current_data != None:
             keys = []
             for item in current_data:
                 keys.append(item["Source"] + "-" + item["Data Block"])
@@ -581,7 +578,8 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
                     return new_shopping_basket, clicks+1
                 else:
                     return new_shopping_basket, 1
-        raise PreventUpdate
+        else:
+            raise PreventUpdate
     
     elif dash.ctx.triggered_id == "clear_basket_button": # if triggered by clear button
         if b1_clicks > 0:
@@ -594,9 +592,30 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
             raise PreventUpdate
 
     else: # if triggered by checkboxes
-        selected = [i[0] for i in selected if i !=[]]
-        shopping_basket = selected
-        return shopping_basket, dash.no_update
+        if len(dash.ctx.triggered_prop_ids) == 1: # if this is triggered by a change in only 1 checkbox group
+            # We don't want to update if the callback is triggered by a sidebar refresh
+            # Only update if only 1 checkbox has changed
+            checked = []
+            for i in selected:
+                checked += i
+            difference1 = list(set(shopping_basket) - set(checked))
+            difference2 = list(set(checked) - set(shopping_basket))
+            difference = difference1 + difference2
+            if len(difference) == 1: # avoid updating unless caused by a click on a checkbox (search could otherwise trigger this)
+                new_item = difference[0]
+                if new_item in shopping_basket:
+                    shopping_basket.remove(new_item)
+                else:
+                    shopping_basket.append(new_item)
+                return shopping_basket, dash.no_update
+            elif len(difference1) > 0 and len(difference2) == 1:# Case: we are in a search (hiding checked boxes) and added a new item
+                new_item = difference2[0]
+                shopping_basket.append(new_item)
+                return shopping_basket, dash.no_update
+            else:
+                raise PreventUpdate
+        else:
+            raise PreventUpdate
 
 
 @app.callback(
