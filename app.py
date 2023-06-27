@@ -217,13 +217,13 @@ def update_table_data(table, schema):
     #pass until metadata block ready
     if schema != None and table != None:
         if schema in constants.LINKED_SCHEMAS: # Expand to linked data branch
-            return html.P("Linked data placeholder (in development)")
+            return html.Div([html.P("Linked data placeholder (in development)")],className="container_box"),
         tables = get_study_info(schema)
         tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
         return struct.metadata_doc_table(tables, "table_desc_table")
     else:
         # Default (Section may be hidden in final version)
-        return html.Div([html.P("Metadata is not currently available for this data block.")], className="container_box")
+        return html.Div([html.P("No summary available for {}.".format(table))], className="container_box")
 
 
 @app.callback(
@@ -241,14 +241,13 @@ def update_table_metadata(values_on, search, table_id):
     update metadata display
     '''
     print("CALLBACK: META BOX - updating table metadata with active table {}".format(table_id))
-    if table_id== None:
+    if table_id == None:
         raise PreventUpdate
     try:
         metadata_df = dataIO.load_study_metadata(table_id)
     except FileNotFoundError: # Study has changed 
-        print("Failed to load {}.csv".format(table_id))
-        print("Preventing update in Meta box table metadata")
-        raise PreventUpdate
+        print("Failed to load {}.csv. ".format(table_id))
+        return html.Div([html.P("No metadata available for {}.".format(table_id)),],className="container_box"),
 
     if type(values_on) == list and len(values_on) == 1:
         metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
@@ -268,6 +267,7 @@ def update_table_metadata(values_on, search, table_id):
             (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
             (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
             ]
+    print("DEBUG: reached end of bottom metadata")
     metadata_table = struct.metadata_table(metadata_df, "metadata_table")
     return metadata_table
 
@@ -309,7 +309,7 @@ def update_headers(schema):
     '''
     When schema updates, update documentation
     '''
-    print("CALLBACK: Updating section headers (TODO merge into schema update?)")
+    print("CALLBACK: Updating section headers")
     doc_header = struct.make_section_title("Block-Level Metadata: {}".format(schema))
     meta_header = struct.make_section_title("Variable-Level Metadata: {}".format(schema))
     map_header = struct.make_section_title("Coverage: {}".format(schema))
