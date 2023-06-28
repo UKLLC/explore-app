@@ -1,4 +1,3 @@
-from turtle import position
 from dash_extensions.javascript import assign
 
 # Dependent layout vars
@@ -156,7 +155,7 @@ CHECKBOX_ROW_STYLE = {
 CHECKBOX_STYLE = {
     "content" : "none",
     "width" : "2rem",
-    "font-size":"0"
+    "font-size":"0",
 }
 
 ######################################
