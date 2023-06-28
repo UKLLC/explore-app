@@ -650,7 +650,6 @@ def basket_autosave(_, sb):
     with open(os.path.join(path, "SB"), 'wb') as f:
         pickle.dump(sb, f)
 '''    
-#
 
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
