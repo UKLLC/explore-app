@@ -89,6 +89,7 @@ table_record = struct.make_variable_div("active_table")
 shopping_basket_op = struct.make_variable_div("shopping_basket", [])
 open_schemas = struct.make_variable_div("open_schemas", [])
 user = struct.make_variable_div("user", None)
+save_clicks = struct.make_variable_div("save_clicks", 0)
 placeholder = struct.make_variable_div("placeholder", "placeholder")
 account_section = struct.make_account_section()
 
@@ -98,7 +99,7 @@ hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, placeholder])
+app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
 print("Built app layout")
 ###########################################
 ### Actions
@@ -620,22 +621,28 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
 
 @app.callback(
     Output('sb_download','data'),
+    Output("save_clicks", "data"),
     Input("save_button", "n_clicks"),
     Input("dl_button_2", "n_clicks"),
+    State("save_clicks", "data"),
     State("shopping_basket", "data"),
     prevent_initial_call=True
     )
-def save_shopping_cart(btn1, btn2, shopping_basket):
+def save_shopping_cart(btn1, btn2, save_clicks, shopping_basket):
     '''
     When the save button is clicked
     Read the shopping basket
     Download the shopping basket as a csv
     '''
-    print("CALLBACK: Save shopping cart")
-    # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
-    fileout = dataIO.basket_out(shopping_basket)
-    
-    return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv")
+    print("CALLBACK: Save shopping cart. Trigger: {}".format(dash.ctx.triggered_id))
+    print(btn1, save_clicks)
+    if btn1 != save_clicks or dash.ctx.triggered_id == "dl_button_2":
+        # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
+        fileout = dataIO.basket_out(shopping_basket)
+        print("DOWNLOAD")
+        return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv"), btn1
+    else:
+        raise PreventUpdate
 
 '''
 @app.callback(

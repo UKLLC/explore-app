@@ -282,18 +282,6 @@ def make_sidebar_title():
         ], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
     return sidebar_title
 
-def make_sidebar_footer():
-    sidebar_footer = html.Div([
-        html.H2("Save Shopping Basket"),
-        dbc.Button(
-            "Save",
-            id="save_button",
-            n_clicks=0,
-            ),
-        dcc.Download(id="sb_download")
-        ], 
-        style = ss.SIDEBAR_FOOTER_STYLE)
-    return sidebar_footer
 
 def make_sidebar_left(sidebar_title, sidebar_catalogue):
     sidebar_left = html.Div([
@@ -534,8 +522,7 @@ def make_basket_review_box():
                     n_clicks=0,
                     ),
                 ],
-                className = "row_layout"),
-                dcc.Download(id="sb_download")
+                className = "row_layout")
 
                 ],
                  id = "Basket Review", style = ss.LANDING_BOX_STYLE)],
@@ -604,7 +591,9 @@ def make_account_section():
                 id="account_dropdown",
                 className = "account_dropdown",
                 style = ss.ACCOUNT_DROPDOWN_STYLE 
-                )
+                ),
+                
+                dcc.Download(id="sb_download")
             ], 
             style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
     return dropdown
