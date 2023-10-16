@@ -426,14 +426,14 @@ def force_change_body(schema, table, curr_tab):
         else:
             return "Metadata"
 
+
 @app.callback(
     Output('active_schema','data'),
-    Input("study_schema_accordion", "active_item"),
-    Input("linked_schema_accordion", "active_item"),
+    Input("schema_accordion", "active_item"),
     State("active_schema", "data"),
     prevent_initial_call = True
 )
-def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
+def sidebar_schema(open_study_schema, previous_schema):
     '''
     When the active item in the accordion is changed
     Read the active schema NOTE with new system, could make active_schema redundant
@@ -442,14 +442,11 @@ def sidebar_schema(open_study_schema, open_linked_schema, previous_schema):
     '''
     print("CALLBACK: sidebar schema click. Trigger:  {}, open_schema = {}".format(dash.ctx.triggered_id, open_study_schema))
     #print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
-    if dash.ctx.triggered_id == "study_schema_accordion":
-        if open_study_schema == previous_schema:
-            print("Schema unchanged, preventing update")
-            raise PreventUpdate
-        else:
-            return open_study_schema
+    if open_study_schema == previous_schema:
+        print("Schema unchanged, preventing update")
+        raise PreventUpdate
     else:
-        return open_linked_schema
+        return open_study_schema
 
 
 @app.callback(
@@ -663,4 +660,4 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)

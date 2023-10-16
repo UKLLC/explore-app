@@ -239,13 +239,13 @@ abbr[title] {
     /*z-index: 0;*/
     position: relative;
     border-width: thin;
-    width: 18rem;
+    width: 30rem;
 }
 
 .table_tab {
     overflow: hidden !important;
     height: 2rem !important;
-    width: 18rem;
+    width: 30rem;
     padding-top: .55rem !important; 
     padding-left: .5rem !important;
     border: none !important;
@@ -280,7 +280,7 @@ abbr[title] {
     font-size: 1rem;
     display: flex;
     width: 100%;
-    max-width: 17rem;
+    max-width: 30rem;
     color: black;
 }
 
@@ -448,4 +448,8 @@ ul {
   }
 #save_button:hover {
     background: var(--bs-cyangroup1) !important;
+}
+
+.Nav{
+    display: inline-flex;
 }

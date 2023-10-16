@@ -2,7 +2,7 @@ from dash_extensions.javascript import assign
 
 # Dependent layout vars
 titlebar_h = 5
-left_sidebar_w = 18
+left_sidebar_w = 30
 context_bar_h = 2.5
 sidebar_title_h = 5
 body_start = titlebar_h+context_bar_h
@@ -22,9 +22,9 @@ white = ["#FFFFFF", "#F2F2F2", "#E6E6E6", "#212529"]
 
 TITLEBAR_DIV_STYLE = {
     "position": "fixed",
-    "display":"flex",
+    "display": "flex",
     "top": 0,
-    "left": str(left_sidebar_w) +"rem",
+    "left": "0rem",
     "width": "calc(100% - {}rem)".format(left_sidebar_w),
     "height": str(titlebar_h)+"rem",
     "background-color": "white",
@@ -37,6 +37,7 @@ TITLEBAR_DIV_STYLE = {
 
 TITLE_STYLE = {
     "position":"fixed",
+    "display":"flex",
     "left" : str(left_sidebar_w + 12)+"rem",
     "width" : "30%",
     "border":"none",
@@ -80,9 +81,9 @@ ACCOUNT_DROPDOWN_STYLE = {
 
 SIDEBAR_LEFT_STYLE = {
     "position" : "fixed",
-    "top" : 0,
+    "top" : str(sidebar_title_h)+"rem",
     "left" : 0,
-    "bottom": 0,
+    "bottom": str(titlebar_h) + "rem",
     "width" : str(left_sidebar_w)+"rem",
     "zIndex" : 1,
     }
@@ -105,7 +106,7 @@ SIDEBAR_LIST_DIV_STYLE = {
     "zIndex":3,
     "position":"relative",
     "background-color":"#212529",
-    "height": "calc(100% - "+str(sidebar_title_h)+"rem",
+    "height": "100%",
     "overflow-y": "scroll",
     "overflow-x": "hidden",
 }

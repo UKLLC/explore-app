@@ -140,18 +140,28 @@ def main_titlebar(app, title_text):
         style = ss.LOGOS_DIV_STYLE
         ),
         html.Div([
-            html.H1(title_text, className="title")],
-            style = ss.TITLE_STYLE
-            ),
-    
-        ],
-        style = ss.TITLEBAR_DIV_STYLE)
-        
+            dbc.Nav([
+                dbc.NavItem(dbc.NavLink("About", active=True, href="#")),
+                dbc.NavItem(dbc.NavLink("Search", href="#")),
+                dbc.DropdownMenu(
+                    [dbc.DropdownMenuItem("Study"), dbc.DropdownMenuItem("Data Block")],
+                    label="Data Description",
+                    nav=True,
+                ),
+                dbc.NavItem(dbc.NavLink("Review", href="#")),
+                dbc.NavItem(dbc.NavLink("Account", disabled=True, href="#")),
+            ],
+            justified = True,
+            fill = True
+            )
+        ], style = ss.TITLE_STYLE)
+    ],
+    style = ss.TITLEBAR_DIV_STYLE
+    )
     return titlebar
 
 def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = "None"):
-    study_sidebar_children = []
-    linked_sidebar_children = []
+    sidebar_children = []
     # Get data sources
     sources = schema_df["Source"].drop_duplicates()
     # Attribute tables to each study
@@ -167,7 +177,6 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
                 checkbox_active += [schema+"-"+table]
         
         checkbox_col = html.Div(
-            
             children= dcc.Checklist(
                 checkbox_items,
                 value = checkbox_active,
@@ -221,14 +230,11 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
             item_id = schema
             )
 
-        if schema != "NHSD": # TODO make this watertight
-            study_sidebar_children += [schema_children]
-        else:
-            linked_sidebar_children += [schema_children]
+        sidebar_children += [schema_children]
 
     study_list = dbc.AccordionItem(
-        [dbc.Accordion(study_sidebar_children,
-        id='study_schema_accordion',
+        [dbc.Accordion(sidebar_children,
+        id='schema_accordion',
         class_name= "content_accordion",
         always_open=False,
         key = "0",
@@ -236,23 +242,7 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
         item_id = "study_accordion",
         title = "Study Data")
 
-    linked_list =  dbc.AccordionItem(
-        [dbc.Accordion(linked_sidebar_children,
-        id='linked_schema_accordion',
-        class_name= "content_accordion",
-        always_open=False,
-        key = "0",
-        active_item = sch_open)],
-        item_id = "linked_accordion",
-        title = "Linked Data")
-
-    top_level_accordion = dbc.Accordion(
-        [study_list, linked_list], 
-        always_open = True, 
-        active_item = ["study_accordion", "linked_accordion"],
-        id= "top_accordion"
-        )
-    return top_level_accordion
+    return study_list
 
 
 def make_sidebar_catalogue(df):
@@ -265,20 +255,8 @@ def make_sidebar_catalogue(df):
  
 def make_sidebar_title():
     sidebar_title = html.Div([
-        html.Div(html.H2("Data Directory")),
-        html.Div([
-            dcc.Input(
-            id="main_search",
-            placeholder="search",
-            className= "search_field"
-            ),
-            dbc.Button(
-            "Search",
-            id="search_button",
-            n_clicks=0,
-            class_name="search_button"
-            ),
-        ])
+        html.Div(html.H2("Catalogue")),
+        html.Div(html.P("TODO: filter status"))
         ], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
     return sidebar_title
 
