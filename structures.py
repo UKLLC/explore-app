@@ -126,7 +126,7 @@ def main_titlebar(app, title_text):
         ]
         ),
         html.A(
-           href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
+            href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
             
             children=[
                 html.Img(
@@ -136,7 +136,7 @@ def main_titlebar(app, title_text):
             ]
         )
         ],
-        style = ss.LOGOS_DIV_STYLE
+        className = "row_layout"
         ),
     ],
     style = ss.TITLEBAR_DIV_STYLE
@@ -215,7 +215,8 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
 
         sidebar_children += [schema_children]
 
-    study_list = dbc.Accordion(sidebar_children,
+    study_list = dbc.Accordion(
+        sidebar_children,
         id='schema_accordion',
         class_name= "content_accordion",
         always_open=False,
@@ -228,7 +229,6 @@ def make_sidebar_catalogue(df):
     catalogue_div = html.Div(
         build_sidebar_list(df), 
         id = "sidebar_list_div", 
-        style = ss.SIDEBAR_LIST_DIV_STYLE
         )
     return catalogue_div
  
@@ -236,30 +236,27 @@ def make_sidebar_title():
     sidebar_title = html.Div([
         html.Div(html.H2("Catalogue")),
         html.Div(html.P("TODO: filter status")),
-        
-        ], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
+        html.Button("Placeholder", id = "search_button"),
+        dcc.Input("placeholder", id ="main_search")
+        ], id = "sidebar_title")
     return sidebar_title
 
 
 def make_sidebar_left(sidebar_title, sidebar_catalogue):
     sidebar_left = html.Div([
         dbc.Collapse(
-            html.Div([
-                sidebar_title,
-                sidebar_catalogue],
-                style = ss.SIDEBAR_LEFT_STYLE,
-                id = "sidebar_left_div"),
+            [
+            sidebar_title,
+            sidebar_catalogue
+            ]
+            ,
             id="sidebar-collapse",
             is_open=True,
             dimension="width",
-            ),
-        html.Button("999999999999",
-            id="sidebar-collapse-button",
-            n_clicks=0,)
-    ])
+            )
+    ],
+    id = "sidebar_left_div")
     return sidebar_left
-
-
 
 
 def make_map_box(title= "Map: [study placeholder]", children = []):
@@ -280,7 +277,6 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
                 ],id="map_object", style = ss.DYNA_MAP_STYLE),
             ], id = "Map", style = ss.MAP_BOX_STYLE)
         ],
-        style=ss.BOX_STYLE
         )
     return map_box
 
@@ -301,7 +297,6 @@ def make_documentation_box(title = "Block-Level Metadata: [study placeholder]", 
         style = ss.DOCUMENTATION_BOX_STYLE
         )
         ],
-        style=ss.BOX_STYLE,
         )
     return doc_box
 
@@ -314,103 +309,91 @@ def make_metadata_box(title = "Variable-Level Metadata: [study placeholder]", ch
         d2 = html.Div(children[1], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
 
     meta_box = html.Div([
+        html.Div([
+            d1,
             html.Div([
-                d1,
-                html.Div([
-                    html.H2("Metadata variable search"),
-                    html.P("Use the search bar below to filter variables in this block. You can currently search by variable name, variable description, values and value descriptions."),
-                    dcc.Input(
-                    id="metadata_search",
-                    placeholder="search",
-                    ),
-                    dcc.Checklist(
-                    ["Show values"],
-                    id="values_toggle",
-                    inline= True
-                    ),
-                ],
-                className="container_box"
+                html.H2("Metadata variable search"),
+                html.P("Use the search bar below to filter variables in this block. You can currently search by variable name, variable description, values and value descriptions."),
+                dcc.Input(
+                id="metadata_search",
+                placeholder="search",
                 ),
-                d2,
-
-            ], id = "Metadata", style = ss.METADATA_BOX_STYLE)
+                dcc.Checklist(
+                ["Show values"],
+                id="values_toggle",
+                inline= True
+                ),
             ],
-        style=ss.BOX_STYLE
-        )
-    return meta_box
+            className="container_box"
+            ),
+            d2,
 
+        ], id = "Metadata", style = ss.METADATA_BOX_STYLE)
+        ],
+    )
+    return meta_box
 
 def make_landing_box():
     landing_box = html.Div([
-        html.Div([
-            html.Div(
+        html.Div(
             [
-                html.H3("Welcome to the UK LLC Data Discovery Portal"),
-                html.P(constants.LANDING_GENERAL_TEXT, className="padding_p")
+            html.H3("Welcome to the UK LLC Data Discovery Portal"),
+            html.P(constants.LANDING_GENERAL_TEXT, className="padding_p")
             ],
             id = "landing_general_div",
-            className= "container_box3"
-            ),
-            html.Div([ # Side by side boxes
-                html.Div([ # Instructions
-                    html.Div(
-                    [
-                        html.H3("Explore the data"),
-                        html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT1]),
-                    ],
-                    id = "landing_instructions_div1",
-                    ),
-                    html.Div(
-                    [
-                        html.H3("Build a shopping basket"),
-                        html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT2]),
-                    ],
-                    id = "landing_instructions_div2",
-                    ),
-                ],
-                style = {"width" :"30%"},
-                className = "container_box2"
-                ),
-
-                html.Div([
-                    html.Div([
-                        html.H3("Working in the TRE"),
-                        html.P("There is currently no cost to access data in the TRE.", className="padding_p"),
-                        html.P("You must be UK-based and an Accredited Researcher (link) – read about the application process in the UK LLC Data Access and Acceptable Use Policy (link).", className="padding_p"),
-                        html.P("Submit an Expression of Interest through the HDR UK Innovation Gateway (link).", className="padding_p"),
-                        html.P("Email [link]access@ukllc.ac.uk[/link] if you have any queries.", className="padding_p"),
-                        html.P("Find out more:", className="padding_p"),
-                        html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
-                    ],),
-                ],
-                className = "container_box2",
-                style = {"width" :"30%"},
-                ),
-
-                html.Div([ # Links
-                    html.Div(
-                    [
-                        html.Iframe(
-                        src="https://www.youtube.com/embed/QfyaG3zemcs", 
-                        title="YouTube video player",  
-                        allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
-                        id = "embed_video"
-                        ),
-                    ],
-                    id = "landing_info_div"
-                    ),
-                ],
-                className = "container_box2", 
-                )
+        ),
+        
+        html.Div([ # Instructions
+            html.Div(
+            [
+                html.H3("Explore the data"),
+                html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT1]),
             ],
-            className="row_layout"
+            id = "landing_instructions_div1",
             ),
-        ]
-        , id = "Landing", style = ss.LANDING_BOX_STYLE)],
-        style=ss.BOX_STYLE
+            html.Div(
+            [
+                html.H3("Build a shopping basket"),
+                html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT2]),
+            ],
+            id = "landing_instructions_div2",
+            ),
+        ],
+        ),
+
+        html.Div([
+            html.Div([
+                html.H3("Working in the TRE"),
+                html.P("There is currently no cost to access data in the TRE.", className="padding_p"),
+                html.P("You must be UK-based and an Accredited Researcher (link) – read about the application process in the UK LLC Data Access and Acceptable Use Policy (link).", className="padding_p"),
+                html.P("Submit an Expression of Interest through the HDR UK Innovation Gateway (link).", className="padding_p"),
+                html.P("Email [link]access@ukllc.ac.uk[/link] if you have any queries.", className="padding_p"),
+                html.P("Find out more:", className="padding_p"),
+                html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
+            ],),
+        ],
+        ),
+
+        html.Div([ # Links
+            html.Div(
+            [
+                html.Iframe(
+                src="https://www.youtube.com/embed/QfyaG3zemcs", 
+                title="YouTube video player",  
+                allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
+                id = "embed_video"
+                ),
+            ],
+            id = "landing_info_div"
+            ),
+        ],
+        className = "container_box2", 
         )
-
-
+    ], 
+    id = "Landing",
+    className = "body_box",
+    )
+        
     return landing_box
 
 def make_basket_review_box():    
@@ -461,13 +444,20 @@ def make_basket_review_box():
                 className = "row_layout")
 
                 ],
-                 id = "Basket Review", style = ss.LANDING_BOX_STYLE)],
-        style=ss.BOX_STYLE)
+                id = "Basket Review", style = ss.LANDING_BOX_STYLE)],
+        )
     return basket_review_box
 
-def make_body():
+def make_body(sidebar):
     return html.Div([
-        make_landing_box()
+        sidebar,
+        html.Button(">",
+            id="sidebar-collapse-button",
+            n_clicks=0,),
+        html.Div([
+            make_landing_box()
+            ],
+            id = "body_content")
         ], 
         id="body")
 
@@ -483,8 +473,8 @@ def make_variable_div_list(id_type, indices):
     return divs
 
 
-def make_app_layout(titlebar, sidebar_left, body, account_section, variable_divs):
-    app_layout =  html.Div([titlebar, sidebar_left, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
+def make_app_layout(titlebar, body, account_section, variable_divs):
+    app_layout =  html.Div([titlebar, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
     return app_layout
 
 def make_schema_description(schemas):
@@ -511,6 +501,7 @@ def make_hidden_body():
         style=ss.HIDDEN_BODY_STYLE,
         id = "hidden_body")
     return body
+
 
 def make_account_section():
     '''
@@ -545,8 +536,8 @@ def make_account_section():
                 className = "account_dropdown",
             ),   
             dcc.Download(id="sb_download"),
-            dbc.NavItem("Review", id = "search"),
-            dbc.NavItem("Account", id = "search"),
+            dbc.NavItem("Review", id = "review"),
+            dbc.NavItem("Account", id = "accout"),
         
         ], id = "title_nav_style"),
 

@@ -64,54 +64,6 @@ ACCOUNT_DROPDOWN_DIV_STYLE = {
 #######################
 
 
-SIDEBAR_LEFT_STYLE = {
-    "position" : "fixed",
-    "top" : str(sidebar_title_h)+"rem",
-    "left" : 0,
-    "bottom": str(titlebar_h) + "rem",
-    "width" : str(left_sidebar_w)+"rem",
-    "zIndex" : 1,
-    }
-
-SIDEBAR_TITLE_STYLE = {
-    "background-color":black[3],
-    "color":"white",
-    "height": str(sidebar_title_h)+"rem",
-
-    "border-bottom" : "solid",
-    "border-width" : "thin",
-
-    "border-color" : "white",
-    "padding-left" : ".5rem",
-    "padding-top" : ".5rem",
-}
-
-
-SIDEBAR_LIST_DIV_STYLE = {
-    "zIndex":3,
-    "position":"relative",
-    "background-color":"#212529",
-    "height": "100%",
-    "overflow-y": "scroll",
-    "overflow-x": "hidden",
-}
-
-SIDEBAR_FOOTER_STYLE = {
-    "position":"relative",
-    "left": 0,
-    "height": "5rem",
-    "min-width":"10rem",
-    "background-color" : black[3],
-    "color" : "white",
-    'textAlign': 'center',
-    "border-top" : "solid",
-    "border-width" : "thin",
-    "border-color" : "white",    
-}
-
-###############
-
-
 
 # checkbox column
 CHECKBOX_COL_STYLE = {
@@ -146,26 +98,9 @@ CHECKBOX_STYLE = {
 
 ######################################
 
-CONTEXT_BAR_STYLE = {
-    "position": "fixed",
-    "top": str(titlebar_h+0.1)+"rem",
-    "height" : str(context_bar_h)+"rem",
-    "width":"calc(100% - "+str(left_sidebar_w)+"rem)",
-    "left":str(left_sidebar_w)+"rem",
-    "background-color":"black",
-}
-
-######################################
-
-
-
 HIDDEN_BODY_STYLE = {
     "display":"none"
 }    
-
-BOX_STYLE = {
-    "height" : "100%",
-}
 
 # Map #################################
 
@@ -280,14 +215,6 @@ TABLE_CONDITIONAL = [
 
 
 ###################################
-
-LANDING_TITLE_STYLE = {
-    "width":"100%",
-    "height":"3rem",
-    "padding-top":"0.5rem",
-    "padding-left":"1rem",
-}
-
 LANDING_BOX_STYLE = {
     "color":"black",
     "background-color":white[2],

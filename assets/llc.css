@@ -198,42 +198,6 @@ abbr[title] {
 
 /*# sourceMappingURL=bootstrap.min.css.map */
 
-
-.container_box {
-    border: solid;
-    border-width: thin;
-    border-color: black;
-    border-radius: .25rem;
-    background: white;
-    padding: .5vw;
-    margin-top: .5vw;
-    margin-bottom: .5vw;
-    font-family: "Montserrat";
-}
-
-.container_box2 {
-    border: none;
-    /*border-width: thin;
-    border-color: black;
-    border-radius: .25rem;*/
-    background: white;
-    margin-bottom: 1vw;
-    margin-left: .5vw;
-    margin-right: .5vw;
-    font-family: "Montserrat";
-}
-.container_box3 {
-    border: none;
-    /*border-width: thin;
-    border-color: black;
-    border-radius: .25vw;*/
-    background: white;
-    margin-left: .5vw;
-    margin-right: .5vw;
-    margin-bottom: 1vw;
-}
-
-
 /* SIDEBAR TABLE LIST STYLE */
 .table_tabs_container {
     /*z-index: 0;*/
@@ -493,14 +457,12 @@ ul {
 
 #sidebar-collapse-button {
     position: relative;
-    display:inline;
-    
+    display:inline;    
 }
 
 #body {
-    position: relative;
-    display: inline;
-    top: 0;
+    position: fixed;
+    top: 5rem;
     left:0;
     width: 100%;
     height:100%;
@@ -508,4 +470,62 @@ ul {
     overflow-y: hidden;
 
     border: 0.5rem solid red;
+}
+.body_content {
+    position: relative;
+    float: left;
+    
+    height: 100%;
+}
+
+#sidebar_left_div {
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: fit-content;
+    height: 100%;
+    background-color: #212529;
+    border: .2rem  solid green;
+}
+
+#sidebar_list_div {
+    position: relative;
+    background-color:#212529 ;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:100%;
+}
+
+#sidebar-collapse-button{
+    float: left;
+    position: relative;
+    display: inline;
+    top: 0rem;
+    z-index: 5;
+}
+
+#sidebar_title {
+    background-color: #212529;
+    color: white;
+    height: 5rem;
+}
+
+#landing {
+    color:blue;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#sidebar-collapse {
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    background-color: #212529;
+    border: .2rem  solid blue;
+    width: 30vw;
 }

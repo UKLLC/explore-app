@@ -76,11 +76,12 @@ sidebar_catalogue = struct.make_sidebar_catalogue(schema_df)
 sidebar_title = struct.make_sidebar_title()
 sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
-
 # Body ################################################################################
 
+maindiv = struct.make_body(sidebar_left)
+
 # Main div template ##################################################################
-maindiv = struct.make_body()
+
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
 shopping_basket_op = struct.make_variable_div("shopping_basket", [])
@@ -96,7 +97,7 @@ hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
+app.layout = struct.make_app_layout(titlebar, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
 print("Built app layout")
 ###########################################
 ### Actions
@@ -239,19 +240,19 @@ def update_table_metadata(values_on, search, table_id):
 
 
 ### MAP BOX #################
-
+'''
 @app.callback(
     Output('map_region', "data"),
     Output('map_object', 'zoom'),
-    Input('context_tabs','value'), # Get it to trigger on first load to get past zoom bug
+    #Input('context_tabs','value'), # Get it to trigger on first load to get past zoom bug
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_map_content(tab, schema):
-    '''
+def update_map_content(schema):
+    
     When schema updates
     Update the map content
-    '''
+    
     print("CALLBACK: updating map content")
     if schema != None and tab == "Map":
         map_data = load_or_fetch_map(schema)
@@ -260,7 +261,7 @@ def update_map_content(tab, schema):
         return map_data, 6
     else:
         raise PreventUpdate
-
+'''
 
 
 
@@ -296,17 +297,17 @@ def basket_review(shopping_basket):
 
 
 #########################
-
+'''
 @app.callback(
-    Output("body", "children"),
+    Output("body_content", "children"),
     Output("hidden_body","children"),
     Input("context_tabs", "value"),
-    State("body", "children"),
+    State("body_content", "children"),
     State("hidden_body","children"),
     prevent_initial_call=True
 )
 def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
-    '''
+    
     When the tab changes
     Read the current body
     Read the hidden body
@@ -318,7 +319,7 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
     Body sections listens for all of these buttons
     determine cause by looking at context
     change the body accordingly
-    '''
+    
     print("CALLBACK: BODY, activating", tab)
     sections_states = {}
     for section in active_body + hidden_body:
@@ -342,7 +343,8 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
     else:
         return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
 
-
+'''
+'''
 @app.callback(
     Output('context_tabs','value'),
     Input("active_schema", "data"),
@@ -351,11 +353,11 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
     prevent_initial_call = True
 )
 def force_change_body(schema, table, curr_tab):
-    '''
+    
     When the schema changes
     Read the current tab
     Update the current tab
-    '''
+    
     print("CALLBACK: force change body")
     if dash.ctx.triggered_id == "active_schema":
         #If schema changes and a table specific section is active, kick them out. 
@@ -374,7 +376,7 @@ def force_change_body(schema, table, curr_tab):
             raise PreventUpdate
         else:
             return "Metadata"
-
+'''
 
 @app.callback(
     Output('active_schema','data'),
