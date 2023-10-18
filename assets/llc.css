@@ -450,6 +450,62 @@ ul {
     background: var(--bs-cyangroup1) !important;
 }
 
-.Nav{
-    display: inline-flex;
+#title_nav_style {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left : 33%;
+    width : 34%;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+}
+
+.nav-item{
+    display: inline;
+    z-index: 999;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav-link {
+    color:black;
+    font-size: large;
+}
+
+#account_dropdown {
+    z-index: 999;
+    position : relative;
+    overflow : visible;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:black;
+    font-size: large;
+}
+
+#dropdown_label {
+    position: flex;
+    display: inline;
+    color: black;
+    font-size: large;
+    font-family: "Montserrat";
+}
+
+#sidebar-collapse-button {
+    position: relative;
+    display:inline;
+    
+}
+
+#body {
+    position: relative;
+    display: inline;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index: 0;
+    overflow-y: hidden;
+
+    border: 0.5rem solid red;
 }

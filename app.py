@@ -76,9 +76,6 @@ sidebar_catalogue = struct.make_sidebar_catalogue(schema_df)
 sidebar_title = struct.make_sidebar_title()
 sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
-# Context bar #########################################################################
-
-context_bar_div = struct.make_context_bar()
 
 # Body ################################################################################
 
@@ -99,7 +96,7 @@ hidden_body = struct.make_hidden_body()
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, sidebar_left, context_bar_div, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
+app.layout = struct.make_app_layout(titlebar, sidebar_left, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
 print("Built app layout")
 ###########################################
 ### Actions
@@ -120,39 +117,6 @@ def login(_):
 ### Update titles #########################
 
 #########################
-@app.callback(
-
-    Output("context_tabs","children"),
-    Input('active_schema','data'),
-    Input('active_table','data'),
-    prevent_initial_call=True
-)
-def context_tabs(schema, table):
-    '''
-    When the schema changes
-    When the table changes
-    Update the context tabs
-    '''
-    print("CALLBACK: context_tabs schema: {}, table: {} ".format(schema, table))
-    if schema != None:
-        
-        if table != None:
-            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
-                dcc.Tab(value='Metadata', label='Variable-Level Metadata', className='custom-tab', selected_className='custom-tab--selected-doc'),
-                dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
-                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
-
-        else:
-            return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                    dcc.Tab(value='Documentation', label="Block-Level Metadata", className='custom-tab', selected_className='custom-tab--selected-doc'),
-                    dcc.Tab(label='Coverage', value='Map', className='custom-tab', selected_className='custom-tab--selected-show'),
-                    dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops')]
-
-    else:
-        return [dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-                dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
-]
 
 ### DOCUMENTATION BOX #####################
 
@@ -298,27 +262,6 @@ def update_map_content(tab, schema):
         raise PreventUpdate
 
 
-@app.callback(
-    Output('doc_title', "children"),
-    Output('metadata_title', "children"),
-    Output('map_title', "children"),
-    Output('landing_title', 'children'),
-    Input('active_schema','data'),
-    prevent_initial_call=True
-)
-def update_headers(schema):
-    '''
-    When schema updates, update documentation
-    '''
-    print("CALLBACK: Updating section headers")
-    doc_header = struct.make_section_title("Block-Level Metadata: {}".format(schema))
-    meta_header = struct.make_section_title("Variable-Level Metadata: {}".format(schema))
-    map_header = struct.make_section_title("Coverage: {}".format(schema))
-    if schema:
-        landing_header = struct.make_section_title("Introduction: Selected source {}".format(schema))
-    else:
-        landing_header = struct.make_section_title("Introduction: Select data to continue")
-    return doc_header, meta_header, map_header, landing_header
 
 
 
@@ -369,6 +312,12 @@ def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
     Read the hidden body
     Update the body
     Update the hidden body
+
+    Overhaul 17/10/2023:
+    Change the nav bar to a series of drop down menus and buttons
+    Body sections listens for all of these buttons
+    determine cause by looking at context
+    change the body accordingly
     '''
     print("CALLBACK: BODY, activating", tab)
     sections_states = {}
@@ -654,6 +603,16 @@ def basket_autosave(_, sb):
     with open(os.path.join(path, "SB"), 'wb') as f:
         pickle.dump(sb, f)
 '''    
+
+@app.callback(
+    Output("sidebar-collapse", "is_open"),
+    [Input("sidebar-collapse-button", "n_clicks")],
+    [State("sidebar-collapse", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
 
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')

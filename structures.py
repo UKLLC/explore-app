@@ -120,41 +120,24 @@ def main_titlebar(app, title_text):
             src = app.get_asset_url("Logo_LLC.png"),
             style = ss.LOGOS_STYLE
         ),
-        #html.A(
-        #href="https://ukllc.ac.uk/",
-        #children=[
-        #]
-        #),
-        #
-        #html.A(
-        #   href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
+        html.A(
+        href="https://ukllc.ac.uk/",
+        children=[
+        ]
+        ),
+        html.A(
+           href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
             
-        #    children=[
-        #        html.Img(
-        #            src = app.get_asset_url("Logo_NCS.png"),
-        #            style = ss.LOGOS_STYLE
-        #        )
-        #    ]
-        #)
+            children=[
+                html.Img(
+                    src = app.get_asset_url("Logo_NCS.png"),
+                    style = ss.LOGOS_STYLE
+                )
+            ]
+        )
         ],
         style = ss.LOGOS_DIV_STYLE
         ),
-        html.Div([
-            dbc.Nav([
-                dbc.NavItem(dbc.NavLink("About", active=True, href="#")),
-                dbc.NavItem(dbc.NavLink("Search", href="#")),
-                dbc.DropdownMenu(
-                    [dbc.DropdownMenuItem("Study"), dbc.DropdownMenuItem("Data Block")],
-                    label="Data Description",
-                    nav=True,
-                ),
-                dbc.NavItem(dbc.NavLink("Review", href="#")),
-                dbc.NavItem(dbc.NavLink("Account", disabled=True, href="#")),
-            ],
-            justified = True,
-            fill = True
-            )
-        ], style = ss.TITLE_STYLE)
     ],
     style = ss.TITLEBAR_DIV_STYLE
     )
@@ -232,16 +215,12 @@ def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = 
 
         sidebar_children += [schema_children]
 
-    study_list = dbc.AccordionItem(
-        [dbc.Accordion(sidebar_children,
+    study_list = dbc.Accordion(sidebar_children,
         id='schema_accordion',
         class_name= "content_accordion",
         always_open=False,
         key = "0",
-        active_item = sch_open)],
-        item_id = "study_accordion",
-        title = "Study Data")
-
+        active_item = sch_open)
     return study_list
 
 
@@ -256,45 +235,35 @@ def make_sidebar_catalogue(df):
 def make_sidebar_title():
     sidebar_title = html.Div([
         html.Div(html.H2("Catalogue")),
-        html.Div(html.P("TODO: filter status"))
+        html.Div(html.P("TODO: filter status")),
+        
         ], id = "sidebar_title", style = ss.SIDEBAR_TITLE_STYLE)
     return sidebar_title
 
 
 def make_sidebar_left(sidebar_title, sidebar_catalogue):
     sidebar_left = html.Div([
-        sidebar_title,
-        sidebar_catalogue],
-        style = ss.SIDEBAR_LEFT_STYLE,
-        id = "sidebar_left_div")
+        dbc.Collapse(
+            html.Div([
+                sidebar_title,
+                sidebar_catalogue],
+                style = ss.SIDEBAR_LEFT_STYLE,
+                id = "sidebar_left_div"),
+            id="sidebar-collapse",
+            is_open=True,
+            dimension="width",
+            ),
+        html.Button("999999999999",
+            id="sidebar-collapse-button",
+            n_clicks=0,)
+    ])
     return sidebar_left
 
-def make_context_bar():
-    context_bar = html.Div([
-        dcc.Tabs(id="context_tabs", value='Introduction', children=[
-            dcc.Tab(label='Introduction', value="Introduction", className='custom-tab', selected_className='custom-tab--selected-ops'),
-            dcc.Tab(label='Basket Review', value="Basket Review", className='custom-tab', selected_className='custom-tab--selected-ops'),
-            ],
-            parent_className='custom-tabs',
-            className='custom-tabs-container',
-        ),
-        ],
-        id = "context_bar_div", 
-        style = ss.CONTEXT_BAR_STYLE
-        )
 
-    return context_bar
 
-def make_section_title(title):
-    # NOTE: I don't think you can pass styles in Dash - they must be explicit. That might be the same with IDs
-    section_title = html.Div(html.H2(title))
-
-    return section_title
 
 def make_map_box(title= "Map: [study placeholder]", children = []):
-    title_sction = html.Div([make_section_title(title)], id = "map_title", className="show_header",  style = ss.MAP_TITLE_STYLE)
     map_box = html.Div([
-        title_sction,
         html.Div([
             dl.Map(
                 center=[54.5,-3.5], 
@@ -316,7 +285,6 @@ def make_map_box(title= "Map: [study placeholder]", children = []):
     return map_box
 
 def make_documentation_box(title = "Block-Level Metadata: [study placeholder]", children = [None, None]):
-    title_sction = html.Div([make_section_title(title)], id = "doc_title",className="doc_header",  style = ss.DOC_TITLE_STYLE)
     if children == [None, None]:
         d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div", className="container_box")
         d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
@@ -325,7 +293,6 @@ def make_documentation_box(title = "Block-Level Metadata: [study placeholder]", 
         d2 = html.Div(children[1], id = "table_description_div")
     
     doc_box = html.Div([
-        title_sction,
         html.Div([
         d1,
         d2,
@@ -339,7 +306,6 @@ def make_documentation_box(title = "Block-Level Metadata: [study placeholder]", 
     return doc_box
 
 def make_metadata_box(title = "Variable-Level Metadata: [study placeholder]", children = [None, None]):
-    title_section = html.Div([make_section_title(title)], id = "metadata_title",className="doc_header",  style = ss.METADATA_TITLE_STYLE)
     if children == [None, None]:
         d1 = html.Div([], id = "table_meta_desc_div")
         d2 = html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
@@ -348,7 +314,6 @@ def make_metadata_box(title = "Variable-Level Metadata: [study placeholder]", ch
         d2 = html.Div(children[1], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
 
     meta_box = html.Div([
-            title_section,
             html.Div([
                 d1,
                 html.Div([
@@ -376,10 +341,7 @@ def make_metadata_box(title = "Variable-Level Metadata: [study placeholder]", ch
 
 
 def make_landing_box():
-    title_section = html.Div([make_section_title("Introduction: Select a study to continue.")], id = "landing_title", className="ops_header", style = ss.LANDING_TITLE_STYLE)
-
     landing_box = html.Div([
-        title_section,
         html.Div([
             html.Div(
             [
@@ -451,11 +413,8 @@ def make_landing_box():
 
     return landing_box
 
-def make_basket_review_box():
-    title_section = html.Div([make_section_title("Basket Review")], id = "basket_review_title",className="ops_header",  style = ss.LANDING_TITLE_STYLE)
-    
+def make_basket_review_box():    
     basket_review_box = html.Div([
-        title_section,
         html.Div([
 
             html.Div([
@@ -484,7 +443,6 @@ def make_basket_review_box():
                         row_deletable=True, # TODO test this?
                         style_header=ss.TABLE_HEADER,
                         style_cell=ss.TABLE_CELL,
-            
                         )
                 ],
                 id = "basket_review_table_div"),
@@ -511,8 +469,7 @@ def make_body():
     return html.Div([
         make_landing_box()
         ], 
-        id="body",
-        style = ss.BODY_STYLE )
+        id="body")
 
 
 def make_variable_div(id_type, data = "None"):
@@ -526,8 +483,8 @@ def make_variable_div_list(id_type, indices):
     return divs
 
 
-def make_app_layout(titlebar, sidebar_left, context_bar, body, account_section, variable_divs):
-    app_layout =  html.Div([titlebar, sidebar_left, context_bar, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
+def make_app_layout(titlebar, sidebar_left, body, account_section, variable_divs):
+    app_layout =  html.Div([titlebar, sidebar_left, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
     return app_layout
 
 def make_schema_description(schemas):
@@ -556,22 +513,46 @@ def make_hidden_body():
     return body
 
 def make_account_section():
+    '''
+        dbc.DropdownMenu(
+            label = "Account",
+            children = [
+                dbc.DropdownMenuItem("Load Basket (placeholder)"),
+                dbc.DropdownMenuItem("Save Basket (placeholder)"),
+                dbc.DropdownMenuItem("Download Basket", id = "dl_button_2", n_clicks=0),
+                dbc.DropdownMenuItem("Log Out (placeholder"),
+            ],
+            id="account_dropdown",
+            className = "account_dropdown",
+            style = ss.ACCOUNT_DROPDOWN_STYLE 
+            ),
+            
+            dcc.Download(id="sb_download")
+        '''
     dropdown = html.Div([
+        html.Div([
+            dbc.NavItem("About", id = "about"),
+            dbc.NavItem("Search",  id = "search"),
             dbc.DropdownMenu(
-                label = "Account",
+                label = html.P("Data Description", id = "dropdown_label"),
                 children = [
                     dbc.DropdownMenuItem("Load Basket (placeholder)"),
                     dbc.DropdownMenuItem("Save Basket (placeholder)"),
                     dbc.DropdownMenuItem("Download Basket", id = "dl_button_2", n_clicks=0),
                     dbc.DropdownMenuItem("Log Out (placeholder"),
-
                 ],
                 id="account_dropdown",
                 className = "account_dropdown",
-                style = ss.ACCOUNT_DROPDOWN_STYLE 
-                ),
-                
-                dcc.Download(id="sb_download")
-            ], 
-            style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
+            ),   
+            dcc.Download(id="sb_download"),
+            dbc.NavItem("Review", id = "search"),
+            dbc.NavItem("Account", id = "search"),
+        
+        ], id = "title_nav_style"),
+
+        html.Div([
+        "account info"
+        ])], 
+        
+        style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
     return dropdown

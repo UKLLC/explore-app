@@ -22,7 +22,7 @@ white = ["#FFFFFF", "#F2F2F2", "#E6E6E6", "#212529"]
 
 TITLEBAR_DIV_STYLE = {
     "position": "fixed",
-    "display": "flex",
+    "display": "flex", 
     "top": 0,
     "left": "0rem",
     "width": "calc(100% - {}rem)".format(left_sidebar_w),
@@ -32,18 +32,8 @@ TITLEBAR_DIV_STYLE = {
     "overflow":"visible",
 
     "border":"none",
-
     }
 
-TITLE_STYLE = {
-    "position":"fixed",
-    "display":"flex",
-    "left" : str(left_sidebar_w + 12)+"rem",
-    "width" : "30%",
-    "border":"none",
-    "margin-top":"1.5rem",
-    "margin-bottom":"1.5rem"
-}
 
 LOGOS_STYLE = {
     "height" : str(titlebar_h)+"rem",
@@ -68,11 +58,6 @@ ACCOUNT_DROPDOWN_DIV_STYLE = {
     "top" : "1rem",
     "width": "7%",
     "overflow":"visible",
-}
-ACCOUNT_DROPDOWN_STYLE = {
-    "position" : "relative",
-    "overflow":"visible",
-    "zIndex" : "999"
 }
 
 
@@ -172,15 +157,7 @@ CONTEXT_BAR_STYLE = {
 
 ######################################
 
-BODY_STYLE = {
-    "position": "fixed",
-    "top": str(titlebar_h+context_bar_h)+"rem",
-    "left":str(left_sidebar_w)+"rem",
-    "width":"calc(100% - "+str(left_sidebar_w)+"rem)",
-    "height":"calc(100% - "+str(body_start)+"rem)",
-    "zIndex":0,
-    "overflow":"hidden",
-    }
+
 
 HIDDEN_BODY_STYLE = {
     "display":"none"
