@@ -9,19 +9,19 @@ class App_State():
         self.map_data = {}    
 
         self.sections = { # component dictionaries must share a name with html object id and tab value
-            "Map":{
+            "about":{
                 "active":False,
             },
-            "Documentation":{
+            "search":{
                 "active":False,
             },
-            "Metadata":{
+            "study":{
                 "active":False,
             },
-            "Landing":{
+            "block":{
                 "active":False,
             },
-            "Basket Review":{
+            "review":{
                 "active":False,
             },
         }

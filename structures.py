@@ -235,9 +235,7 @@ def make_sidebar_catalogue(df):
 def make_sidebar_title():
     sidebar_title = html.Div([
         html.Div(html.H2("Catalogue")),
-        html.Div(html.P("TODO: filter status")),
-        html.Button("Placeholder", id = "search_button"),
-        dcc.Input("placeholder", id ="main_search")
+        html.Div(html.P("TODO: filter status"))
         ], id = "sidebar_title")
     return sidebar_title
 
@@ -258,82 +256,7 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue):
     id = "sidebar_left_div")
     return sidebar_left
 
-
-def make_map_box(title= "Map: [study placeholder]", children = []):
-    map_box = html.Div([
-        html.Div([
-            dl.Map(
-                center=[54.5,-3.5], 
-                zoom=6, 
-                children=[
-                    dl.TileLayer(url=constants.MAP_URL, 
-                        maxZoom=10, 
-                        attribution=constants.MAP_ATTRIBUTION),
-                    dl.GeoJSON(data = None, 
-                        id = "map_region", 
-                        options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0),
-                        hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))
-                        ),
-                ],id="map_object", style = ss.DYNA_MAP_STYLE),
-            ], id = "Map", style = ss.MAP_BOX_STYLE)
-        ],
-        )
-    return map_box
-
-def make_documentation_box(title = "Block-Level Metadata: [study placeholder]", children = [None, None]):
-    if children == [None, None]:
-        d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div", className="container_box")
-        d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
-    else:
-        d1 = html.Div(children[0], id = "schema_description_div", className="container_box")
-        d2 = html.Div(children[1], id = "table_description_div")
-    
-    doc_box = html.Div([
-        html.Div([
-        d1,
-        d2,
-        ], 
-        id = "Documentation", 
-        style = ss.DOCUMENTATION_BOX_STYLE
-        )
-        ],
-        )
-    return doc_box
-
-def make_metadata_box(title = "Variable-Level Metadata: [study placeholder]", children = [None, None]):
-    if children == [None, None]:
-        d1 = html.Div([], id = "table_meta_desc_div")
-        d2 = html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
-    else:
-        d1 = html.Div(children[0], id = "table_meta_desc_div")
-        d2 = html.Div(children[1], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
-
-    meta_box = html.Div([
-        html.Div([
-            d1,
-            html.Div([
-                html.H2("Metadata variable search"),
-                html.P("Use the search bar below to filter variables in this block. You can currently search by variable name, variable description, values and value descriptions."),
-                dcc.Input(
-                id="metadata_search",
-                placeholder="search",
-                ),
-                dcc.Checklist(
-                ["Show values"],
-                id="values_toggle",
-                inline= True
-                ),
-            ],
-            className="container_box"
-            ),
-            d2,
-
-        ], id = "Metadata", style = ss.METADATA_BOX_STYLE)
-        ],
-    )
-    return meta_box
-
-def make_landing_box():
+def make_about_box():
     landing_box = html.Div([
         html.Div(
             [
@@ -390,15 +313,97 @@ def make_landing_box():
         className = "container_box2", 
         )
     ], 
-    id = "Landing",
+    id = "body_about",
     className = "body_box",
     )
         
     return landing_box
 
+def make_search_box():
+    doc_box = html.Div([
+        html.P("Placeholder border"),
+        html.Button("Placeholder", id = "search_button"),
+        dcc.Input("placeholder", id ="main_search")
+    ], 
+    id = "body_search", 
+    className = "body_box",
+    style = ss.DOCUMENTATION_BOX_STYLE
+    )
+    return doc_box
+
+def make_study_box(children = [None, None]):
+    if children == [None, None]:
+        d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div", className="container_box")
+        d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
+    else:
+        d1 = html.Div(children[0], id = "schema_description_div", className="container_box")
+        d2 = html.Div(children[1], id = "table_description_div")
+    
+    doc_box = html.Div([
+        d1,
+        d2,
+        html.Div([
+            dl.Map(
+                center=[54.5,-3.5], 
+                zoom=6, 
+                children=[
+                    dl.TileLayer(url=constants.MAP_URL, 
+                        maxZoom=10, 
+                        attribution=constants.MAP_ATTRIBUTION),
+                    dl.GeoJSON(data = None, 
+                        id = "map_region", 
+                        options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0),
+                        hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))
+                        ),
+                ],id="map_object", style = ss.DYNA_MAP_STYLE),
+            ],
+            id = "Map", 
+            style = ss.MAP_BOX_STYLE
+        )
+    ], 
+    id = "body_study", 
+    className = "body_box",
+    style = ss.DOCUMENTATION_BOX_STYLE
+    )
+
+    return doc_box
+
+def make_block_box(children = [None, None]):
+    if children == [None, None]:
+        d1 = html.Div([], id = "table_meta_desc_div")
+        d2 = html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
+    else:
+        d1 = html.Div(children[0], id = "table_meta_desc_div")
+        d2 = html.Div(children[1], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
+
+    meta_box = html.Div([
+        d1,
+        html.Div([
+            html.H2("Metadata variable search"),
+            html.P("Use the search bar below to filter variables in this block. You can currently search by variable name, variable description, values and value descriptions."),
+            dcc.Input(
+            id="metadata_search",
+            placeholder="search",
+            ),
+            dcc.Checklist(
+            ["Show values"],
+            id="values_toggle",
+            inline= True
+            ),
+        ],
+        className="container_box"
+        ),
+        d2,
+    ], 
+    id = "body_block", 
+    className = "body_box",
+    style = ss.METADATA_BOX_STYLE
+    )
+       
+    return meta_box
+
 def make_basket_review_box():    
     basket_review_box = html.Div([
-        html.Div([
 
             html.Div([
             html.P("Select data blocks by checking tick boxes in the left sidebar."),
@@ -414,7 +419,7 @@ def make_basket_review_box():
             
             html.Div([
                 html.Div([
-                html.P("There are currently no data blocks in the shopping basket"),
+                    html.P("There are currently no data blocks in the shopping basket"),
                 ], className="container_box"),
                 dash_table.DataTable(
                         id="basket_review_table", #id = basket_review_table (passed in app)
@@ -427,9 +432,9 @@ def make_basket_review_box():
                         style_header=ss.TABLE_HEADER,
                         style_cell=ss.TABLE_CELL,
                         )
-                ],
-                id = "basket_review_table_div"),
-                html.Div([
+            ],
+            id = "basket_review_table_div"),
+            html.Div([
                 dbc.Button(
                     "clear basket",
                     id="clear_basket_button",
@@ -440,12 +445,13 @@ def make_basket_review_box():
                     id="save_button",
                     n_clicks=0,
                     ),
-                ],
-                className = "row_layout")
+            ],
+            className = "row_layout")
 
-                ],
-                id = "Basket Review", style = ss.LANDING_BOX_STYLE)],
-        )
+        ],
+    id = "body_review", 
+    className = "body_box",
+    style = ss.LANDING_BOX_STYLE)
     return basket_review_box
 
 def make_body(sidebar):
@@ -455,7 +461,7 @@ def make_body(sidebar):
             id="sidebar-collapse-button",
             n_clicks=0,),
         html.Div([
-            make_landing_box()
+            make_about_box()
             ],
             id = "body_content")
         ], 
@@ -493,10 +499,10 @@ def make_table_doc(tables):
 
 def make_hidden_body():
     body = html.Div([
+            make_search_box(),
+            make_study_box(),
+            make_block_box(),
             make_basket_review_box(),
-            make_documentation_box(),
-            make_metadata_box(),
-            make_map_box()
         ],
         style=ss.HIDDEN_BODY_STYLE,
         id = "hidden_body")
@@ -522,23 +528,31 @@ def make_account_section():
         '''
     dropdown = html.Div([
         html.Div([
-            dbc.NavItem("About", id = "about"),
-            dbc.NavItem("Search",  id = "search"),
+            dbc.Button("About", className='nav_button', id = "about"),
+            dbc.Button("Search",  className='nav_button', id = "search"),
             dbc.DropdownMenu(
-                label = html.P("Data Description", id = "dropdown_label"),
+                label = html.P("Data Description", className = "nav_button",),
                 children = [
-                    dbc.DropdownMenuItem("Load Basket (placeholder)"),
-                    dbc.DropdownMenuItem("Save Basket (placeholder)"),
-                    dbc.DropdownMenuItem("Download Basket", id = "dl_button_2", n_clicks=0),
-                    dbc.DropdownMenuItem("Log Out (placeholder"),
+                    dbc.DropdownMenuItem("Study", id = "dd_study"),
+                    dbc.DropdownMenuItem("Data Block", id = "dd_data_block"),
+                    dbc.DropdownMenuItem("Linked?", id = "dd_linked"),
                 ],
-                id="account_dropdown",
-                className = "account_dropdown",
+                id="data_description_dropdown",
+                className = "nav_button",
             ),   
             dcc.Download(id="sb_download"),
-            dbc.NavItem("Review", id = "review"),
-            dbc.NavItem("Account", id = "accout"),
-        
+            dbc.Button("Review", className='nav_button', id = "review"),
+            dbc.DropdownMenu(
+                label = html.P("Account",  className = "nav_button",),
+                children = [
+                    dbc.DropdownMenuItem("Load Basket (placeholder)", id = "a_load"),
+                    dbc.DropdownMenuItem("Save Basket (placeholder)", id = "a_save"),
+                    dbc.DropdownMenuItem("Download Basket", id = "dl_button_2", n_clicks=0),
+                    dbc.DropdownMenuItem("Log Out (placeholder", id = "a_log_out"),
+                ],
+                id="account_dropdown",
+                className = "nav_button",
+            ),   
         ], id = "title_nav_style"),
 
         html.Div([

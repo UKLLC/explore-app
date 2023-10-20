@@ -297,53 +297,62 @@ def basket_review(shopping_basket):
 
 
 #########################
-'''
+
 @app.callback(
     Output("body_content", "children"),
     Output("hidden_body","children"),
-    Input("context_tabs", "value"),
+    Input("about", "n_clicks"),
+    Input("search", "n_clicks"),
+    Input("dd_study", "n_clicks"),
+    Input("dd_data_block", "n_clicks"),
+    Input("dd_linked", "n_clicks"),
+    Input("review", "n_clicks"),
     State("body_content", "children"),
     State("hidden_body","children"),
     prevent_initial_call=True
 )
-def body_sctions(tab, active_body, hidden_body):#, shopping_basket):
-    
+def body_sctions(about, search, dd_study, dd_data_block, dd_linked, review, active_body, hidden_body):#, shopping_basket):
+    '''
     When the tab changes
     Read the current body
     Read the hidden body
     Update the body
     Update the hidden body
-
+    
     Overhaul 17/10/2023:
     Change the nav bar to a series of drop down menus and buttons
     Body sections listens for all of these buttons
     determine cause by looking at context
     change the body accordingly
-    
-    print("CALLBACK: BODY, activating", tab)
+
+    get id of sections. 
+    '''
+    trigger = dash.ctx.triggered_id
+    print("CALLBACK: BODY, activating", trigger)
     sections_states = {}
     for section in active_body + hidden_body:
-        section_id = section["props"]["children"][1]["props"]["id"]
+        section_id = section["props"]["id"].replace("body_","").replace("dd_", "")
         sections_states[section_id] = section
 
+    #print(sections_states)
     a_tab_is_active = False
     sections = app_state.sections
     active = []
     inactive = []
     for section in sections.keys():
-        if section in tab:
+        if section in trigger:
             active.append(section)
             a_tab_is_active = True
         else:
             inactive.append(section)
+    print(sections_states.keys())
+    print(active, inactive)
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]
-    
     else:
         return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
 
-'''
 '''
 @app.callback(
     Output('context_tabs','value'),
@@ -422,10 +431,7 @@ def sidebar_table(tables, active_schema, previous_table):
     # If triggered by a schema change, clear the current table
     if dash.ctx.triggered_id == "active_schema":
         return None, [None for t in tables]
-
     active = [t for t in tables if t!= None]
-    
-
     # if no tables are active
     if len(active) == 0:
         if previous_table == None:
@@ -621,4 +627,4 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)

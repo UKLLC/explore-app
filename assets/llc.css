@@ -392,6 +392,7 @@ ul {
     font-size: 1rem;
     padding: 1rem;
   }
+
 #clear_basket_button:hover {
     background: var(--bs-red) !important;
 }
@@ -432,32 +433,37 @@ ul {
     margin-left: 5%;
     margin-right: 5%;
 }
+
 .nav-link {
     color:black;
     font-size: large;
 }
 
-#account_dropdown {
-    z-index: 999;
+.nav_button {
+    position: flex;
+    display: inline;
+    color:black;
+    font-size: large;
+     z-index: 999;
     position : relative;
     overflow : visible;
     margin-left: 5%;
     margin-right: 5%;
-    color:black;
+    border: 0rem;
+    background: white;
     font-size: large;
+    font-weight: normal;
+    font-family: "Montserrat";
 }
 
-#dropdown_label {
-    position: flex;
-    display: inline;
-    color: black;
-    font-size: large;
-    font-family: "Montserrat";
+.nav_button:hover {
+    text-decoration: underline;
 }
 
 #sidebar-collapse-button {
     position: relative;
     display:inline;    
+    padding: .5rem;
 }
 
 #body {
@@ -468,14 +474,20 @@ ul {
     height:100%;
     z-index: 0;
     overflow-y: hidden;
-
-    border: 0.5rem solid red;
 }
+
 .body_content {
     position: relative;
     float: left;
     
     height: 100%;
+    border: .5rem solid green
+}
+
+.body_box {
+    align-items: center;
+    padding-left: 10rem;
+    border: .5rem solid blue
 }
 
 #sidebar_left_div {
@@ -487,7 +499,6 @@ ul {
     width: fit-content;
     height: 100%;
     background-color: #212529;
-    border: .2rem  solid green;
 }
 
 #sidebar_list_div {
@@ -526,6 +537,9 @@ ul {
     z-index: 1;
     height: 100%;
     background-color: #212529;
-    border: .2rem  solid blue;
-    width: 30vw;
+    width: 25vw;
+    transition: all .25s;
 }
+.collapse:not(.show) {
+    display: none;
+    transition: all .25s;}
