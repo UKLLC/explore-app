@@ -203,13 +203,13 @@ abbr[title] {
     /*z-index: 0;*/
     position: relative;
     border-width: thin;
-    width: 30rem;
+    width: 25vw;
 }
 
 .table_tab {
     overflow: hidden !important;
     height: 2rem !important;
-    width: 30rem;
+    width: 25vw;
     padding-top: .55rem !important; 
     padding-left: .5rem !important;
     border: none !important;
@@ -244,7 +244,7 @@ abbr[title] {
     font-size: 1rem;
     display: flex;
     width: 100%;
-    max-width: 30rem;
+    max-width: 25vw;
     color: black;
 }
 
@@ -476,18 +476,20 @@ ul {
     overflow-y: hidden;
 }
 
-.body_content {
+#body_content {
     position: relative;
-    float: left;
-    
+    display: flex;
+    width:auto;
     height: 100%;
     border: .5rem solid green
 }
 
 .body_box {
     align-items: center;
-    padding-left: 10rem;
-    border: .5rem solid blue
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: .5rem solid blue;
+    width: auto;
 }
 
 #sidebar_left_div {
@@ -511,8 +513,7 @@ ul {
 
 #sidebar-collapse-button{
     float: left;
-    position: relative;
-    display: inline;
+    position: absolute;
     top: 0rem;
     z-index: 5;
 }
@@ -537,9 +538,11 @@ ul {
     z-index: 1;
     height: 100%;
     background-color: #212529;
-    width: 25vw;
+    width: 25vw !important;
     transition: all .25s;
 }
-.collapse:not(.show) {
-    display: none;
-    transition: all .25s;}
+
+.collapsing {
+    transition: 1s;
+    color: purple;
+}
