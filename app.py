@@ -345,8 +345,6 @@ def body_sctions(about, search, dd_study, dd_data_block, dd_linked, review, acti
             a_tab_is_active = True
         else:
             inactive.append(section)
-    print(sections_states.keys())
-    print(active, inactive)
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
         return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]
@@ -616,15 +614,94 @@ def basket_autosave(_, sb):
     Output("sidebar-collapse", "is_open"),
     [Input("sidebar-collapse-button", "n_clicks")],
     [State("sidebar-collapse", "is_open")],
+    prevent_initial_call=True
 )
 def toggle_collapse(n, is_open):
+    print("Toggling sidebar")
     if n:
         return not is_open
     return is_open
+
+@app.callback(
+    Output("about_collapse1", "is_open"),
+    [Input("about_collapse_b1", "n_clicks")],
+    [State("about_collapse1", "is_open")],
+    prevent_initial_call=True
+)
+def toggle_collapse_a1(n, is_open):
+    print("About collapse 1")
+    print("CALLBACK: collapse 1. Trigger: {}".format(dash.ctx.triggered_id))
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("about_collapse2", "is_open"),
+    [Input("about_collapse_b2", "n_clicks")],
+    [State("about_collapse2", "is_open")],
+    prevent_initial_call=True
+)
+def toggle_collapse_a2(n, is_open):
+    print("About collapse 2")
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("about_collapse3", "is_open"),
+    [Input("about_collapse_b3", "n_clicks")],
+    [State("about_collapse3", "is_open")],
+    prevent_initial_call=True
+)
+def toggle_collapse_a3(n, is_open):
+    print("About collapse 3")
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("about_collapse4", "is_open"),
+    [Input("about_collapse_b4", "n_clicks")],
+    [State("about_collapse4", "is_open")],
+    prevent_initial_call=True
+)
+def toggle_collapse_a4(n, is_open):
+    print("About collapse 4")
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    
+    Output("about_collapse5", "is_open"),
+    [Input("about_collapse_b5", "n_clicks")],
+    [State("about_collapse5", "is_open")],
+    prevent_initial_call=True
+)
+def toggle_collapse_a5(n, is_open):
+    print("About collapse 5")
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("about_collapse6", "is_open"),
+    [Input("about_collapse_b6", "n_clicks")],
+    [State("about_collapse6", "is_open")],
+    prevent_initial_call=True
+)
+def toggle_collapse_a6(n, is_open):
+    print("About collapse 6")
+    if n:
+        return not is_open
+    return is_open
+
+
+
 
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)

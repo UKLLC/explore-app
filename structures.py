@@ -258,60 +258,83 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue):
 
 def make_about_box():
     landing_box = html.Div([
+        html.H1("Placeholder for an attention grabbing header"),
         html.Div(
             [
-            html.H3("Welcome to the UK LLC Data Discovery Portal"),
-            html.P(constants.LANDING_GENERAL_TEXT, className="padding_p")
+            html.Button("What is the UK LLC (placeholder)", id = "about_collapse_b1", className = "collapse_header", n_clicks=0),
+            dbc.Collapse(
+                html.P("Browse the UK LLC Data Discovery Portal to discover data from the 20+ longitudinal population studies that contribute data to the UK LLC Trusted Research Environment (TRE). The metadata encompass study-collected and linked data blocks, including health, geospatial and non-health routine records. Use this tool to select data blocks from our catalogue for a new data request or data amendment.etc", className="padding_p"),
+                id = "about_collapse1",
+                is_open = False
+            )
             ],
-            id = "landing_general_div",
+            id = "about_content_div1",
         ),
-        
-        html.Div([ # Instructions
-            html.Div(
+        html.Div(
             [
-                html.H3("Explore the data"),
-                html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT1]),
+            html.Button("Understanding the UK LLC data catalogue", id = "about_collapse_b2", className = "collapse_header", n_clicks=0),
+            dbc.Collapse(
+                html.P("Placeholder text", className="padding_p"),
+                id = "about_collapse2",
+                is_open = False
+            )
             ],
-            id = "landing_instructions_div1",
-            ),
-            html.Div(
-            [
-                html.H3("Build a shopping basket"),
-                html.Ul(children = [html.Li(i) for i in constants.LANDING_INSTRUCTION_TEXT2]),
-            ],
-            id = "landing_instructions_div2",
-            ),
-        ],
+            id = "about_content_div2",
         ),
-
-        html.Div([
-            html.Div([
-                html.H3("Working in the TRE"),
-                html.P("There is currently no cost to access data in the TRE.", className="padding_p"),
-                html.P("You must be UK-based and an Accredited Researcher (link) – read about the application process in the UK LLC Data Access and Acceptable Use Policy (link).", className="padding_p"),
-                html.P("Submit an Expression of Interest through the HDR UK Innovation Gateway (link).", className="padding_p"),
-                html.P("Email [link]access@ukllc.ac.uk[/link] if you have any queries.", className="padding_p"),
-                html.P("Find out more:", className="padding_p"),
-                html.Ul(children = [html.Li(i) for i in constants.WORKING_IN_TRE_TEXT]),
-            ],),
-        ],
-        ),
-
-        html.Div([ # Links
-            html.Div(
+        html.Div(
             [
-                html.Iframe(
-                src="https://www.youtube.com/embed/QfyaG3zemcs", 
-                title="YouTube video player",  
-                allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
-                id = "embed_video"
-                ),
+            html.Button("Explore the data", id = "about_collapse_b3", className = "collapse_header", n_clicks=0),
+            dbc.Collapse(
+                html.P("We have data. Its probably worth your time to take a look at it.", className="padding_p"),
+                id = "about_collapse3",
+                is_open = False
+            )
             ],
-            id = "landing_info_div"
-            ),
-        ],
-        className = "container_box2", 
-        )
+            id = "about_content_div3",
+        ),
+        html.Div(
+            [
+            html.Button("Build a shopping basket", id = "about_collapse_b4", className = "collapse_header", n_clicks=0),
+            dbc.Collapse(
+                html.P("select the data blocks you want etc", className="padding_p"),
+                id = "about_collapse4",
+                is_open = False
+            )
+            ],
+            id = "about_content_div4",
+        ),
+        html.Div(
+            [
+            html.Button("Using the TRE", id = "about_collapse_b5", className = "collapse_header", n_clicks=0),
+            dbc.Collapse([
+                html.P("User guide etc", className="padding_p"),
+                html.Div(
+                    [
+                    html.Iframe(
+                        src="https://www.youtube.com/embed/QfyaG3zemcs", 
+                        title="YouTube video player",  
+                        allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture",
+                        id = "embed_video"
+                    ),
+                    ],
+                )],
+                id = "about_collapse5",
+                is_open = False
+            )
+            ],
+            id = "about_content_div5",
+        ),
+        html.Div(
+            [
+            html.Button("Some other heading about the app/crucial information we need to share", id = "about_collapse_b6", className = "collapse_header", n_clicks=0),
+            dbc.Collapse(
+                html.P("More things, please let me know", className="padding_p"),
+                id = "about_collapse6",
+                is_open = False
+            )
+            ],
+            id = "about_content_div6",
+        ), 
     ], 
     id = "body_about",
     className = "body_box",

@@ -1,7 +1,6 @@
 .accordion {
     padding: 0;
     margin: 0;
-
 }
 
 .accordion-item {
@@ -25,10 +24,8 @@
     text-align: left;
     width:100%;
     cursor: pointer;
-    
     border: none;
 }
-
 
 .accordion-button:hover {
     background-color: #34383c;
@@ -41,7 +38,6 @@
   }
 
 .accordion-button:not(.collapsed)::after {
-    
     background-image: url("expand-arrow-white-1-32.png");
     transform: rotate(-180deg);
     border: none;

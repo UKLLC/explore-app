@@ -489,7 +489,7 @@ ul {
     padding-left: 1rem;
     padding-right: 1rem;
     border: .5rem solid blue;
-    width: auto;
+    width: 100%;
 }
 
 #sidebar_left_div {
@@ -542,7 +542,28 @@ ul {
     transition: all .25s;
 }
 
-.collapsing {
-    transition: 1s;
-    color: purple;
+
+
+.collapse_header {
+    font-size: larger;
+    font-family: "Montserrat";
+    border: none;
+    border-bottom: thin solid #000000;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
+
+.collapse_header:hover {
+    border-bottom: medium solid #000000;
+}
+
+.collapse_header:not(.collapsed)::after {
+    align-content:flex-end;
+    content: url("expand-arrow-1-32.png");
+    transform: rotate(-180deg);
+    border: none;
+    }
+
