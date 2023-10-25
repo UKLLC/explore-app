@@ -191,7 +191,7 @@ def update_table_data(table, schema):
         # Default (Section may be hidden in final version)
         return html.Div([html.P("No summary available for {}.".format(table))], className="container_box")
 
-
+'''
 @app.callback(
     Output('table_metadata_div', "children"),
     Input("values_toggle", "value"),
@@ -200,12 +200,12 @@ def update_table_data(table, schema):
     prevent_initial_call=True
 )
 def update_table_metadata(values_on, search, table_id):
-    '''
+    
     When table updates
     When values are toggled
     When metadata is searched
     update metadata display
-    '''
+    
     print("CALLBACK: META BOX - updating table metadata with active table {}".format(table_id))
     if table_id == None:
         raise PreventUpdate
@@ -236,7 +236,7 @@ def update_table_metadata(values_on, search, table_id):
     print("DEBUG: reached end of bottom metadata")
     metadata_table = struct.metadata_table(metadata_df, "metadata_table")
     return metadata_table
-
+'''
 
 
 ### MAP BOX #################
@@ -454,6 +454,7 @@ def sidebar_table(tables, active_schema, previous_table):
 
 @app.callback(
     Output("sidebar_list_div", "children"),
+    Output("search_metadata_div", "children"),
     Input("search_button", "n_clicks"),
     Input("main_search", "value"),
     State("active_schema", "data"),
@@ -478,8 +479,22 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     print("CALLBACK: main search, searching value: {}.".format(search))
 
     if type(search)!=str or search == "":
-        return struct.build_sidebar_list(schema_df, shopping_basket, open_schemas, table)
+        distinct_table_ids = schema_df.drop_duplicates(subset=["Source", "Block Name"])
+        metadata_df_all = ""
+        for index, row in distinct_table_ids.iterrows():
+            table_id = row["Source"]+"-"+row["Block Name"]
 
+            metadata_df = dataIO.load_study_metadata(table_id)
+            if type(metadata_df_all) == str :
+                metadata_df_all = metadata_df
+            else:
+                metadata_df_all = pd.concat([metadata_df_all, metadata_df])
+            if index == 5:
+                break
+        return struct.build_sidebar_list(schema_df, shopping_basket, open_schemas, table), struct.metadata_table(metadata_df_all, "search_metadata_table")
+
+    ### Sidebar
+    # 
     sub_list = schema_df.loc[
         (schema_df["Source"].str.contains(search, flags=re.IGNORECASE)) | 
         (schema_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
@@ -490,7 +505,22 @@ def main_search(_, search, open_schemas, shopping_basket, table):
         (schema_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
         ]
 
-    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table)
+    '''
+    TODO main search, take all of the possibe terms in and filter the catalogue
+    '''    
+    distinct_table_ids = sub_list.drop_duplicates(subset=["Source", "Block Name"])
+    metadata_df_all = ""
+    for index, row in distinct_table_ids.iterrows():
+        table_id = row["Source"]+"-"+row["Block Name"]
+
+        metadata_df = dataIO.load_study_metadata(table_id)
+        if type(metadata_df_all) == str :
+            metadata_df_all = metadata_df
+        else:
+            metadata_df_all = pd.concat([metadata_df_all, metadata_df])
+        
+
+    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table), struct.metadata_table(metadata_df_all, "search_metadata_table")
 
 
 @app.callback(
@@ -696,6 +726,17 @@ def toggle_collapse_a6(n, is_open):
         return not is_open
     return is_open
 
+@app.callback(
+    Output("advanced_options_collapse", "is_open"),
+    [Input("advanced_options_button", "n_clicks")],
+    [State("advanced_options_collapse", "is_open")],
+    prevent_initial_call=True
+)
+def toggle_collapse_advanced_options(n, is_open):
+    print("Advanced options collapse")
+    if n:
+        return not is_open
+    return is_open
 
 
 

@@ -133,17 +133,6 @@ DOC_TITLE_STYLE = {
     "padding-left":"1rem",
 }
 
-DOCUMENTATION_BOX_STYLE ={
-    "color":"black",
-    "background-color":white[2],
-    "padding" : "1rem",
-    "padding-top" : "0rem",
-    "top" : str(box_title_h) +"rem",
-    "height":"calc(100% - "+str(box_title_h) +"rem)",
-    "overflow-y":"scroll",
-    "line-height": "1.6"
-}
-
 TABLE_DOC_DIV = {
 }
 

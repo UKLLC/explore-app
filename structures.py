@@ -1,3 +1,4 @@
+from pydoc import classname
 from tabnanny import check
 import dash
 import dash_bootstrap_components as dbc
@@ -335,6 +336,13 @@ def make_about_box():
             ],
             id = "about_content_div6",
         ), 
+        html.Div(
+            [
+            html.P("Placeholder for bottom stuff like logos or what have you", className="padding_p"),
+
+            ],
+            id = "about_content_div7",
+        ), 
     ], 
     id = "body_about",
     className = "body_box",
@@ -344,13 +352,42 @@ def make_about_box():
 
 def make_search_box():
     doc_box = html.Div([
-        html.P("Placeholder border"),
-        html.Button("Placeholder", id = "search_button"),
-        dcc.Input("placeholder", id ="main_search")
+        html.P("Placeholder paragraph talking about how this is a search tab for looking through data blocks"),
+        html.P("Follow on paragraph reminding what a data block is"),
+        html.H2("Master Search"),
+        html.Div([
+            dcc.Checklist(
+                ['Study data', 'NHS data', 'Geo data', 'Admin data'],
+                [],
+                inline=True
+            ),
+            dcc.Input("", id ="main_search", className="search_field", placeholder = "search"),
+            html.Button("search", id = "search_button"),
+            html.Button("Advanced Options", id = "advanced_options_button")
+        ],
+        className = "style_div",
+        id = "search_style_div"
+        ),
+        dbc.Collapse(
+            html.Div([
+                html.P("Data sources..."),
+                html.P("Topic checkboxes..."),
+                html.P("Collection Age..."),
+                html.P("Collection time...")
+                ],
+                className = "container_div"
+            ),
+            id = "advanced_options_collapse",
+            is_open = False
+        ),
+        html.Div(
+            html.Div([
+            ],id = "search_metadata_div"
+        )
+       )
     ], 
     id = "body_search", 
-    className = "body_box",
-    style = ss.DOCUMENTATION_BOX_STYLE
+    className = "body_box"
     )
     return doc_box
 
@@ -382,11 +419,10 @@ def make_study_box(children = [None, None]):
             ],
             id = "Map", 
             style = ss.MAP_BOX_STYLE
-        )
-    ], 
-    id = "body_study", 
-    className = "body_box",
-    style = ss.DOCUMENTATION_BOX_STYLE
+            )
+        ], 
+        id = "body_study", 
+        className = "body_box"
     )
 
     return doc_box
@@ -401,21 +437,7 @@ def make_block_box(children = [None, None]):
 
     meta_box = html.Div([
         d1,
-        html.Div([
-            html.H2("Metadata variable search"),
-            html.P("Use the search bar below to filter variables in this block. You can currently search by variable name, variable description, values and value descriptions."),
-            dcc.Input(
-            id="metadata_search",
-            placeholder="search",
-            ),
-            dcc.Checklist(
-            ["Show values"],
-            id="values_toggle",
-            inline= True
-            ),
-        ],
-        className="container_box"
-        ),
+
         d2,
     ], 
     id = "body_block", 

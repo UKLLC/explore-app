@@ -34,8 +34,11 @@ def load_study_metadata(table_id):
     study = table_id.split("-")[0]
     table = table_id.split("-")[1]
     # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
-    values_df = pd.read_csv(os.path.join("metadata",str(study.upper()),table+".csv"))
-
+    try:
+        values_df = pd.read_csv(os.path.join("metadata",str(study.upper()),table+".csv"))
+    except FileNotFoundError:
+        print("Couldn't find file {}. Skipping (shouldn't be a problem when we have a db...".format(str(study.upper())+table+".csv"))
+        return None
     return values_df
 
 def basket_out(basket):
