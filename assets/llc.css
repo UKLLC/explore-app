@@ -115,7 +115,6 @@ h6 {
     margin-top: .0rem;
     padding-top: .0;
     margin-bottom: .0;
-
     font-weight: 500;
     line-height: 1.5
 }
@@ -421,7 +420,7 @@ abbr[title] {
     border-top-right-radius: .3rem;
 }
 
-.content_accordion .table_tab {
+.content_accordion .table_tab.tab {
     overflow: hidden;
     height: 2rem;
     width: 25vw;
@@ -462,7 +461,6 @@ abbr[title] {
     left : 0;
     list-style-type: none;
     text-overflow: ellipsis;
-    
     font-size: 1rem;
     display: flex;
     width: 100%;
@@ -482,9 +480,10 @@ abbr[title] {
     left: -2.5rem;
 }
 
-input[type="checkbox" i] {
+.content_accordion input[type="checkbox" i] {
     margin-bottom: 1rem;
 }
+
 
 /* */
   
@@ -509,19 +508,15 @@ input[type="checkbox" i] {
 }
 #advanced_options_button:hover {
     font-weight: bold;
-    
 }
-
 
 .custom-tabs-container {
     position: fixed;
     background-color: black;
     height: 3rem;
-
 }
 .custom-tabs {
     background-color:var(--bs-whitegroup1) !important;
-    
 }
 
 .custom-tab {
@@ -796,7 +791,6 @@ ul {
     border: none;
     }
 
-
 .style_div{
     width: 100%;
     padding: 1rem;
@@ -813,3 +807,4 @@ ul {
     border: 2px solid var(--bs-whitegroup3);
     border-top: none;
 }
+

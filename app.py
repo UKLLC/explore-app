@@ -457,12 +457,17 @@ def sidebar_table(tables, active_schema, previous_table):
     Output("search_metadata_div", "children"),
     Input("search_button", "n_clicks"),
     Input("main_search", "value"),
+    Input("include_dropdown", "value"),
+    Input("exclude_dropdown", "value"),
+    Input("search_checklist_1", "value"),
+    Input("collection_age_slider", "value"),
+    Input("collection_time_slider", "value"),
     State("active_schema", "data"),
     State("shopping_basket", "data"),
     State("active_table", "data"),
     prevent_initial_call = True
     )
-def main_search(_, search, open_schemas, shopping_basket, table):
+def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, open_schemas, shopping_basket, table):
     '''
     When the search button is clicked
     When the main search content is changed
@@ -477,6 +482,7 @@ def main_search(_, search, open_schemas, shopping_basket, table):
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
     print("CALLBACK: main search, searching value: {}.".format(search))
+    print("DEBUG search: {}, {}, {}, {}, {}, {}".format(search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
 
     if type(search)!=str or search == "":
         distinct_table_ids = schema_df.drop_duplicates(subset=["Source", "Block Name"])

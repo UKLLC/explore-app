@@ -342,10 +342,110 @@ def make_search_box():
         ),
         dbc.Collapse(
             html.Div([
-                html.P("Data sources..."),
-                html.P("Topic checkboxes..."),
-                html.P("Collection Age..."),
-                html.P("Collection time...")
+                dbc.Accordion([
+                    dbc.AccordionItem(
+                        html.Div([
+                            html.Div([
+                                html.H3("Include"),
+                                dcc.Dropdown(["PH1", "PH2", "PH3"], id = "include_dropdown", multi = True),
+                            ],
+                            className = "container_div",
+                            ),
+                            html.Div([
+                                html.H3("Exclude"),
+                                dcc.Dropdown(["PH1", "PH2", "PH3"], id = "exclude_dropdown", multi = True)
+                            ],
+                            className = "container_div"
+                            ),
+                        ], 
+                        className = "row_layout"
+                        ),
+                    title="Data Source",
+                    className = "search_accordion",
+                    id = "data_source_accordion"
+                    )
+                ]),
+                dbc.Accordion([
+                    dbc.AccordionItem(
+                        html.Div([
+                            html.Div([
+                                dcc.Checklist(
+                                    ["item 1", "item 2", "item 3", "item 4", "item 5"],
+                                    labelStyle = {"display": "flex", "align-items": "center"},
+                                    id = "search_checklist_1"
+                                )
+                            ],
+                            className = "container_div",
+                            ),
+                            html.Div([
+                                dcc.Checklist(
+                                    ["item 6", "item 7", "item 8", "item 9", "item 10"],
+                                    labelStyle = {"display": "flex", "align-items": "center"},
+                                )
+                            ],
+                            className = "container_div"
+                            ),
+                            html.Div([
+                                dcc.Checklist(
+                                    ["item 11", "item 12", "item 13", "item 14", "item 15"],
+                                    labelStyle = {"display": "flex", "align-items": "center"},
+                                )
+                            ],
+                            className = "container_div",
+                            ),
+                            html.Div([
+                                dcc.Checklist(
+                                    ["item 16", "item 17", "item 18", "item 19", "item 20"],
+                                    labelStyle = {"display": "flex", "align-items": "center"},
+                                )
+                            ],
+                            className = "container_div"
+                            ),
+                        ], 
+                        className = "row_layout"
+                        ),
+                    title="Topic Checkboxes",
+                    className = "search_accordion",
+                    id = "topic_accordion"
+                    )
+                ]),
+                dbc.Accordion([
+                    dbc.AccordionItem(
+                        html.Div([
+                            dcc.RangeSlider(min = 0, max = 100, step = 5, value=[20, 40], id='collection_age_slider'),
+                        ], 
+                        className = "container_div"
+                        ),
+                    title="Collection Age",
+                    className = "collection_age_accordion",
+                    id = "collection_age_accordion"
+                    )
+                ]),
+                dbc.Accordion([
+                    dbc.AccordionItem(
+                        html.Div([
+                            dcc.RangeSlider(min = 0,  max = 9, step = 1, value=[5, 7], id='collection_time_slider',
+                            marks={
+                                0: '1940',
+                                1: "1950",
+                                2: '1960',
+                                3: "1970",
+                                4: "1980",
+                                5: "1990",
+                                6: "2000",
+                                7: "2010",
+                                8: "2020",
+                                9: "2030"}
+                                ,
+                            )
+                        ], 
+                        className = "container_div"
+                        ),
+                    title="Collection Time",
+                    className = "collection_time_accordion",
+                    id = "collection_time_accordion"
+                    )
+                ]),
                 ],
                 className = "container_div"
             ),
