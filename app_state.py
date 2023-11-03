@@ -18,7 +18,7 @@ class App_State():
             "study":{
                 "active":False,
             },
-            "block":{
+            "dataset":{
                 "active":False,
             },
             "review":{

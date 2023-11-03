@@ -51,7 +51,7 @@ def data_doc_table(df, id):
             editable=False,
             row_selectable=False,
             row_deletable=False,
-            page_size=25,
+            page_size=5,
             style_header=ss.TABLE_HEADER,
             style_cell=ss.TABLE_CELL,
             style_data_conditional=ss.TABLE_CONDITIONAL
@@ -463,17 +463,16 @@ def make_search_box():
     )
     return doc_box
 
-def make_study_box(children = [None, None]):
-    if children == [None, None]:
-        d1 = html.Div([html.P("Select a schema for more information...", id = "schema_description_text")], id = "schema_description_div", className="container_box")
-        d2 = html.Div([html.P("Select a schema for more information...", id = "table_description_text")], id = "table_description_div")
-    else:
-        d1 = html.Div(children[0], id = "schema_description_div", className="container_box")
-        d2 = html.Div(children[1], id = "table_description_div")
-    
-    doc_box = html.Div([
-        d1,
-        d2,
+def make_study_box():
+    study_box = html.Div([
+        html.H1("Study Information - No study Selected", id = "study_title"),
+        html.Div([
+            html.Div(["Its a description"], id = "study_description_div", className = "container_div"),
+            html.Div(["placeholder for summary table"], id = "study_summary", className = "container_div")
+        ],
+        className = "row_layout"),
+        html.Div([], id = "study_table_div"),
+        html.H1("Coverage"),
         html.Div([
             dl.Map(
                 center=[54.5,-3.5], 
@@ -496,28 +495,29 @@ def make_study_box(children = [None, None]):
         id = "body_study", 
         className = "body_box"
     )
-
-    return doc_box
+    return study_box
 
 def make_block_box(children = [None, None]):
-    if children == [None, None]:
-        d1 = html.Div([], id = "table_meta_desc_div")
-        d2 = html.Div([], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
-    else:
-        d1 = html.Div(children[0], id = "table_meta_desc_div")
-        d2 = html.Div(children[1], id = "table_metadata_div", style = ss.METADATA_TABLE_DIV_STYLE)
+    
+    dataset_box = html.Div([
+        html.H1("Study Information - No study Selected", id = "dataset_title"),
+        html.Div([
+            html.Div([
+                html.Div(["Its a description"], id = "dataset_description_div", className = "container_div"),
+                html.Div(["placeholder for summary table"], id = "dataset_summary", className = "container_div")
+            ]
+            ),
+            html.Div(html.P("Placeholder for graphic on linkage rates"), id = "dataset_linkage_graphic")
+        ],
+        className = "row_layout"),
+        html.Div([], id = "dataset_variables_div"),
 
-    meta_box = html.Div([
-        d1,
 
-        d2,
-    ], 
-    id = "body_block", 
-    className = "body_box",
-    style = ss.METADATA_BOX_STYLE
+        ], 
+        id = "body_dataset", 
+        className = "body_box"
     )
-       
-    return meta_box
+    return dataset_box
 
 def make_basket_review_box():    
     basket_review_box = html.Div([
@@ -651,7 +651,7 @@ def make_account_section():
                 label = html.P("Data Description", className = "nav_button",),
                 children = [
                     dbc.DropdownMenuItem("Study", id = "dd_study"),
-                    dbc.DropdownMenuItem("Data Block", id = "dd_data_block"),
+                    dbc.DropdownMenuItem("Data Block", id = "dd_dataset"),
                     dbc.DropdownMenuItem("Linked?", id = "dd_linked"),
                 ],
                 id="data_description_dropdown",

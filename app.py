@@ -123,7 +123,12 @@ def login(_):
 
 
 @app.callback(
-    Output('schema_description_div', "children"),
+    Output("study_title", "children"),
+    Output('study_description_div', "children"),
+    Output("study_summary", "children"),
+    Output("study_table_div", "children"),
+    Output('map_region', "data"),
+    Output('map_object', 'zoom'),
     Input('active_schema','data'),
     prevent_initial_call=True
 )
@@ -131,44 +136,25 @@ def update_schema_description(schema):
     '''
     When schema updates, update documentation    
     '''        
-
     print("DEBUG: acting, schema = '{}'".format(schema))
-    if schema != None:
+    if schema != None: 
         schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
-        if schema == "NHSD":
-            schema_info = "Generic info about nhsd (placeholder, in development)"
-            return schema_info
-        else:      
-            return struct.make_schema_description(schema_info)
-    else:
-        return ["Placeholder schema description, null schema - this should not be possible when contextual tabs is implemented"]
-
-
-@app.callback(
-    Output('table_description_div', "children"),
-    Input('active_schema','data'),
-    prevent_initial_call=True
-)
-def update_tables_description(schema):
-    '''
-    When schema updates
-    Replace contents of description box with table information 
-    '''
-
-    if schema != None:
         tables = get_study_info(schema)
-        if schema == "NHSD": # Expand to linked data branch
-            schema_info = "Generic info about nhsd (placeholder, in development)"
-            return schema_info
-        else: # Study data branch
-            return struct.data_doc_table(tables, "table_desc_table")
+        map_data = load_or_fetch_map(schema)
+         
+        return "Study Information - "+schema, "study description placeholder for "+schema, struct.make_schema_description(schema_info), struct.data_doc_table(tables, "table_desc_table"), map_data, 6
     else:
-        return html.Div([html.P(["Metadata is not currently available for this data block"])], className = "container_box")
+        # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
+
+        return "Study Information - No study selected", "Select a study using the left sidebar to see more information",  "", "",None, 6
 
 
-### METADATA BOX #####################
+### Dataset BOX #####################
 @app.callback(
-    Output('table_meta_desc_div', "children"),
+    Output('dataset_description_div', "children"),
+    Output('dataset_summary', "children"),
+    Output('dataset_linkage_graphic', "children"),
+    Output('dataset_variables_div', "children"),
     Input('active_table', 'data'),
     State('active_schema', 'data'),
     prevent_initial_call=True
@@ -179,17 +165,17 @@ def update_table_data(table, schema):
     with current schema
     load table metadata
     '''
-    print("CALLBACK: META BOX - updating table description with table {}".format(table))
+    print("CALLBACK: Dataset BOX - updating table description with table {}".format(table))
     #pass until metadata block ready
     if schema != None and table != None:
         if schema in constants.LINKED_SCHEMAS: # Expand to linked data branch
-            return html.Div([html.P("Linked data placeholder (in development)")],className="container_box"),
+            return "Linked? Not sure what to do with this yet", "",
         tables = get_study_info(schema)
         tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
-        return struct.metadata_doc_table(tables, "table_desc_table")
+        return "Placeholder description for "+table, "Placeholder for dataset summary table", "Placeholder for linkage rate graphic", struct.metadata_doc_table(tables, "table_desc_table")
     else:
         # Default (Section may be hidden in final version)
-        return html.Div([html.P("No summary available for {}.".format(table))], className="container_box")
+        return "Select a dataset for more information...", "", "", ""
 
 '''
 @app.callback(
@@ -239,31 +225,6 @@ def update_table_metadata(values_on, search, table_id):
 '''
 
 
-### MAP BOX #################
-'''
-@app.callback(
-    Output('map_region', "data"),
-    Output('map_object', 'zoom'),
-    #Input('context_tabs','value'), # Get it to trigger on first load to get past zoom bug
-    Input('active_schema','data'),
-    prevent_initial_call=True
-)
-def update_map_content(schema):
-    
-    When schema updates
-    Update the map content
-    
-    print("CALLBACK: updating map content")
-    if schema != None and tab == "Map":
-        map_data = load_or_fetch_map(schema)
-        if not map_data:
-            return dash.no_update, 6
-        return map_data, 6
-    else:
-        raise PreventUpdate
-'''
-
-
 
 
 ### BASKET REVIEW #############
@@ -304,7 +265,7 @@ def basket_review(shopping_basket):
     Input("about", "n_clicks"),
     Input("search", "n_clicks"),
     Input("dd_study", "n_clicks"),
-    Input("dd_data_block", "n_clicks"),
+    Input("dd_dataset", "n_clicks"),
     Input("dd_linked", "n_clicks"),
     Input("review", "n_clicks"),
     State("body_content", "children"),
@@ -347,7 +308,7 @@ def body_sctions(about, search, dd_study, dd_data_block, dd_linked, review, acti
             inactive.append(section)
     # Check: if no tabs are active, run landing page
     if not a_tab_is_active:
-        return [sections_states["Landing"]],  [sections_states[s_id] for s_id in inactive]
+        return [sections_states["about"]],  [sections_states[s_id] for s_id in inactive]
     else:
         return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
 

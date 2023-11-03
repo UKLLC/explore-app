@@ -704,6 +704,7 @@ ul {
     display: flex;
     width:auto;
     height: 100%;
+    overflow-y: scroll;
 }
 
 .body_box {
@@ -766,8 +767,6 @@ ul {
     transition: all .25s;
 }
 
-
-
 .collapse_header {
     font-size: larger;
     font-family: "Montserrat";
@@ -791,7 +790,7 @@ ul {
     border: none;
     }
 
-.style_div{
+.style_div {
     width: 100%;
     padding: 1rem;
     background-color: var(--bs-peachgroup1);
