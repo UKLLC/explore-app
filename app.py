@@ -22,6 +22,7 @@ from flask_caching import Cache
 #import dash_auth
 from flask import request
 
+
 from app_state import App_State
 import dataIO
 import stylesheet as ss
@@ -32,6 +33,8 @@ import structures as struct
 ######################################################################################
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 server = app.server
+
+cnxn = dataIO.connect()
 
 ######################################################################################
 ### Data prep functions

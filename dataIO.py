@@ -2,12 +2,20 @@ from openpyxl import load_workbook
 import pandas as pd
 import json
 import os
+import sqlalchemy
+
+
+def connect():
+    # need to swap password for local var
+    cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc')
+    return(cnxn)
 
 
 def load_study_request():
     '''
     '''
     sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
+    
     return sheet_df
 
 
