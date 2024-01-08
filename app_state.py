@@ -3,8 +3,7 @@ import structures as struct
 import dataIO
 
 class App_State():
-    def __init__(self, schema_df) -> None:
-
+    def __init__(self) -> None:
 
         self.map_data = {}    
 

@@ -36,17 +36,25 @@ server = app.server
 
 cnxn = dataIO.connect()
 
+
 ######################################################################################
 ### Data prep functions
 
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
-study_df = dataIO.load_study_request()
-linked_df = dataIO.load_linked_request()
+study_df = dataIO.load_study_request(cnxn)
+linked_df = dataIO.load_linked_request(cnxn)
 schema_df = pd.merge((study_df.rename(columns = {"Study":"Source"})), (linked_df), how = "outer", on = ["Source", "Block Name", "Block Description"]).drop_duplicates(subset = ["Source", "Block Name"]).dropna(subset = ["Source", "Block Name"])
-study_info_and_links_df = dataIO.load_study_info_and_links()
+# NOTE: schema_df is the list of unique blocks
+study_info_and_links_df = dataIO.load_study_info_and_links(cnxn)
 
-app_state = App_State(schema_df)
+# Load sources info
+sources_df = dataIO.load_sources(cnxn)
+# Load block info
+blocks_df = dataIO.load_blocks(cnxn)
+
+app_state = App_State()
+
 
 def load_or_fetch_map(study):
     returned_data = app_state.get_map_data(study) # memorisation of polygons
@@ -58,14 +66,7 @@ def load_or_fetch_map(study):
         app_state.set_map_data(study, returned_data)
     return returned_data
     
-    
-def get_study_info(schema):
-    return study_df.loc[study_df["Study"] == schema]
-
-def get_source_tables(schema):
-    return schema_df.loc[schema_df["Source"] == schema]
         
-######################################################################################
 
 ######################################################################################
 ### page asset templates
@@ -75,7 +76,7 @@ titlebar = struct.main_titlebar(app, "UK LLC Data Discovery Portal")
 
 # Left Sidebar #######################################################################
 
-sidebar_catalogue = struct.make_sidebar_catalogue(schema_df)
+sidebar_catalogue = struct.make_sidebar_catalogue(blocks_df)
 sidebar_title = struct.make_sidebar_title()
 sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
@@ -124,7 +125,6 @@ def login(_):
 
 ### DOCUMENTATION BOX #####################
 
-
 @app.callback(
     Output("study_title", "children"),
     Output('study_description_div', "children"),
@@ -135,17 +135,17 @@ def login(_):
     Input('active_schema','data'),
     prevent_initial_call=True
 )
-def update_schema_description(schema):
+def update_schema_description(source):
     '''
     When schema updates, update documentation    
     '''        
-    print("DEBUG: acting, schema = '{}'".format(schema))
-    if schema != None: 
-        schema_info = study_info_and_links_df.loc[study_info_and_links_df["Study Schema"] == schema]
-        tables = get_study_info(schema)
-        map_data = load_or_fetch_map(schema)
+    print("DEBUG: acting, schema = '{}'".format(source))
+    if source != None: 
+        info = sources_df.loc[sources_df["source_id"] == source]
+        blocks = blocks_df.loc[blocks_df["source_id"] == source]
+        map_data = load_or_fetch_map(source)
          
-        return "Study Information - "+schema, "study description placeholder for "+schema, struct.make_schema_description(schema_info), struct.data_doc_table(tables, "table_desc_table"), map_data, 6
+        return "Study Information - "+source, info["long_desc"], struct.make_schema_description(info), struct.data_doc_table(blocks, "table_desc_table"), map_data, 6
     else:
         # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
 
@@ -173,9 +173,8 @@ def update_table_data(table, schema):
     if schema != None and table != None:
         if schema in constants.LINKED_SCHEMAS: # Expand to linked data branch
             return "Linked? Not sure what to do with this yet", "",
-        tables = get_study_info(schema)
-        tables = tables.loc[tables["Block Name"] == table.split("-")[1]]
-        return "Placeholder description for "+table, "Placeholder for dataset summary table", "Placeholder for linkage rate graphic", struct.metadata_doc_table(tables, "table_desc_table")
+        blocks = blocks_df.loc[(blocks_df["source_id"] == schema) & (blocks_df["table_id"] == table)]
+        return "Placeholder description for "+table, "Placeholder for dataset summary table", "Placeholder for linkage rate graphic", struct.metadata_doc_table(blocks, "table_desc_table")
     else:
         # Default (Section may be hidden in final version)
         return "Select a dataset for more information...", "", "", ""
@@ -244,18 +243,18 @@ def basket_review(shopping_basket):
     '''
     print("CALLBACK: Updating basket review table")
     rows = []
-    df = study_df
+    df = blocks_df
     for table_id in shopping_basket:
         table_split = table_id.split("-")
         source, table = table_split[0], table_split[1]
         
-        df1 = df.loc[(df["Study"] == source) & (df["Block Name"] == table)]
+        df1 = df.loc[(df["source_id"] == source) & (df["table_id"] == table)]
         try: # NOTE TEMP LINKED OVERRIDE 
             row = [source, table, df1["Block Description"].values[0]]
         except IndexError:
             row = [source, table,""]
         rows.append(row)
-    df = pd.DataFrame(rows, columns=["Source", "Data Block", "Description"])
+    df = pd.DataFrame(rows, columns=["source_id", "table_id", "long_desc"])
     brtable = struct.basket_review_table(df)
     return brtable
 
@@ -435,6 +434,12 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     '''
     When the search button is clicked
     When the main search content is changed
+    when the include dropdown value is changed
+    when the exclude dropdown value is changed
+    when the search_checklist_1 value is changed
+    when the collection_age_slider value is changed
+    when the collection_time_slider value is changed
+    (etc, may be more added later
     Read the current active schema
     Read the current shopping basket
     Read the active table
@@ -445,52 +450,57 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     Do we want it on button click or auto filter?
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
-    print("CALLBACK: main search, searching value: {}.".format(search))
+    print("CALLBACK: main search, searching value: {}, trigger {}.".format(search, dash.ctx.triggered_id))
     print("DEBUG search: {}, {}, {}, {}, {}, {}".format(search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
 
-    if type(search)!=str or search == "":
-        distinct_table_ids = schema_df.drop_duplicates(subset=["Source", "Block Name"])
-        metadata_df_all = ""
-        for index, row in distinct_table_ids.iterrows():
-            table_id = row["Source"]+"-"+row["Block Name"]
-
-            metadata_df = dataIO.load_study_metadata(table_id)
-            if type(metadata_df_all) == str :
-                metadata_df_all = metadata_df
-            else:
-                metadata_df_all = pd.concat([metadata_df_all, metadata_df])
-            if index == 5:
-                break
-        return struct.build_sidebar_list(schema_df, shopping_basket, open_schemas, table), struct.metadata_table(metadata_df_all, "search_metadata_table")
-
-    ### Sidebar
-    # 
-    sub_list = schema_df.loc[
-        (schema_df["Source"].str.contains(search, flags=re.IGNORECASE)) | 
-        (schema_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-        (schema_df["Keywords"].str.contains(search, flags=re.IGNORECASE)) | 
-        (schema_df[constants.keyword_cols[1]].str.contains(search, flags=re.IGNORECASE)) |
-        (schema_df[constants.keyword_cols[2]].str.contains(search, flags=re.IGNORECASE)) |
-        (schema_df[constants.keyword_cols[3]].str.contains(search, flags=re.IGNORECASE)) |
-        (schema_df[constants.keyword_cols[4]].str.contains(search, flags=re.IGNORECASE))
-        ]
-
+    # new version 03/1/24 (after a month off so you know its going to be good)
     '''
-    TODO main search, take all of the possibe terms in and filter the catalogue
-    '''    
-    distinct_table_ids = sub_list.drop_duplicates(subset=["Source", "Block Name"])
-    metadata_df_all = ""
-    for index, row in distinct_table_ids.iterrows():
-        table_id = row["Source"]+"-"+row["Block Name"]
+    Split by table filtering and variable filtering
+    table filtering:
+        1. Get list of distinct tables
+        2. 
+    '''
+    # Filter list by each metric
+    # 1. general search
+    sub_list = blocks_df.loc[
+    (blocks_df["source_id"].str.contains(search, flags=re.IGNORECASE)) | 
+    (blocks_df["table_id"].str.contains(search, flags=re.IGNORECASE)) | 
+    (blocks_df["table_name"].str.contains(search, flags=re.IGNORECASE)) | 
+    (blocks_df["long_desc"].str.contains(search, flags=re.IGNORECASE)) | 
+    (blocks_df["collection_time"].str.contains(search, flags=re.IGNORECASE)) | 
+    (blocks_df["topic_tags"].str.contains(search, flags=re.IGNORECASE))
+    ]
+    # 2. include dropdown
+    if include_dropdown:
+        print(include_dropdown, type(include_dropdown))
+        sub_list = sub_list.loc[sub_list["source_id"].str.contains("|".join(include_dropdown), flags=re.IGNORECASE)]
+    # 3. exclude dropdown
+    if exclude_dropdown:
+        sub_list = sub_list.loc[~sub_list["source_id"].str.contains("|".join(exclude_dropdown), flags=re.IGNORECASE)]
+    # 4. search_checklist_1 ()
+    # TODO: this is the topics checkboxes. We need to first assign topics then store them in the database. We need this before we can filter appropriately. This is currently placeholder (3/1/24)
+    if cl_1:
+        topic_source = "TBC" # placeholder
+        sub_list = sub_list.loc[sub_list["Source"] == topic_source]
+    # 5. Collection age
+    # TBC
+    # 6. Collection time
+    # TBC
 
-        metadata_df = dataIO.load_study_metadata(table_id)
+    metadata_df_all = ""
+    for index, row in sub_list.iterrows():
+        table_id = row["source_id"]+"-"+row["table_id"]
+
+        metadata_df = dataIO.load_study_metadata(cnxn, table_id)
         if type(metadata_df_all) == str :
             metadata_df_all = metadata_df
         else:
             metadata_df_all = pd.concat([metadata_df_all, metadata_df])
-        
-
+        if index == 5:
+            break
+    print("finished search")
     return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table), struct.metadata_table(metadata_df_all, "search_metadata_table")
+
 
 
 @app.callback(

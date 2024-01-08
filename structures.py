@@ -36,14 +36,6 @@ def quick_table(df, id):
     return quick_table
 
 def data_doc_table(df, id):
-    for kw in constants.keyword_cols:
-        df[kw] = df[kw].str.strip()
-    df["Keywords"] = df["Keywords"]+", "+df[constants.keyword_cols[1]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[3]]+", "+df[constants.keyword_cols[4]]
-    df["Keywords"] = df["Keywords"].str.replace(", ,", "")
-    df["Keywords"] = df["Keywords"].str.rstrip(",| ,")
-
-    df=df[["Block Name", "Timepoint: Data Collected","Timepoint: Keyword","Number of Participants Invited (n=)", "Number of Participants Included (n=)", "Inclusion Criteria", "Block Description","Links", "Keywords"]]
-    df.rename(columns = {"Block Description":"Description", "Number of Participants Invited (n=)":"Participants Invited", "Number of Participants Included (n=)": "Participants Included"})
     table = dash_table.DataTable(
             id=id,
             data=df.to_dict('records'),
@@ -60,14 +52,7 @@ def data_doc_table(df, id):
 
 
 def metadata_doc_table(df, id):
-    for kw in constants.keyword_cols:
-        df[kw] = df[kw].str.strip()
-    df["Keywords"] = df["Keywords"]+", "+df[constants.keyword_cols[1]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[2]]+", "+df[constants.keyword_cols[3]]+", "+df[constants.keyword_cols[4]]
-    df["Keywords"] = df["Keywords"].str.replace(", ,", "")
-    df["Keywords"] = df["Keywords"].str.rstrip(",| ,")
-
-    df=df[["Block Name", "Timepoint: Data Collected","Timepoint: Keyword","Number of Participants Invited (n=)", "Number of Participants Included (n=)", "Inclusion Criteria", "Block Description","Links", "Keywords"]]
-    df.rename(columns = {"Block Description":"Description", "Number of Participants Invited (n=)":"Participants Invited", "Number of Participants Included (n=)": "Participants Included"})
+    
     table = dash_table.DataTable(
             id=id,
             data=df.to_dict('records'),
@@ -144,13 +129,13 @@ def main_titlebar(app, title_text):
     )
     return titlebar
 
-def build_sidebar_list(schema_df, current_basket = [], sch_open =[], tab_open = "None"):
+def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = "None"):
     sidebar_children = []
     # Get data sources
-    sources = schema_df["Source"].drop_duplicates()
+    sources = blocks_df["source_id"].drop_duplicates()
     # Attribute tables to each study
     for schema in sources:
-        tables = schema_df.loc[schema_df["Source"] == schema]["Block Name"]
+        tables = blocks_df.loc[blocks_df["source_id"] == schema]["table_id"] # NOTE could change to table_name later for correct naming
 
         # CHECKBOXES
         checkbox_items = []
