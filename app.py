@@ -141,11 +141,11 @@ def update_schema_description(source):
     '''        
     print("DEBUG: acting, schema = '{}'".format(source))
     if source != None: 
+        
         info = sources_df.loc[sources_df["source_id"] == source]
         blocks = blocks_df.loc[blocks_df["source_id"] == source]
         map_data = load_or_fetch_map(source)
-         
-        return "Study Information - "+source, info["long_desc"], struct.make_schema_description(info), struct.data_doc_table(blocks, "table_desc_table"), map_data, 6
+        return "Study Information - "+source, info["long_desc"], struct.make_schema_description(info), struct.make_blocks_table(blocks), map_data, 6
     else:
         # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
 
@@ -162,19 +162,20 @@ def update_schema_description(source):
     State('active_schema', 'data'),
     prevent_initial_call=True
 )
-def update_table_data(table, schema):
+def update_table_data(table_id, schema):
     '''
     When table updates
     with current schema
-    load table metadata
+    load table metadata (but not the metadata itself)
     '''
-    print("CALLBACK: Dataset BOX - updating table description with table {}".format(table))
+    print("CALLBACK: Dataset BOX - updating table description with table {}".format(table_id))
     #pass until metadata block ready
-    if schema != None and table != None:
-        if schema in constants.LINKED_SCHEMAS: # Expand to linked data branch
-            return "Linked? Not sure what to do with this yet", "",
+    if schema != None and table_id != None:
+        table_split = table_id.split("-")
+        table = table_split[1]
         blocks = blocks_df.loc[(blocks_df["source_id"] == schema) & (blocks_df["table_id"] == table)]
-        return "Placeholder description for "+table, "Placeholder for dataset summary table", "Placeholder for linkage rate graphic", struct.metadata_doc_table(blocks, "table_desc_table")
+        metadata_df = dataIO.load_study_metadata(cnxn, table_id)
+        return blocks["long_desc"].values[0], struct.make_block_description(blocks), "Placeholder for linkage rate graphic", struct.make_table(metadata_df, "block_metadata_table")
     else:
         # Default (Section may be hidden in final version)
         return "Select a dataset for more information...", "", "", ""
@@ -499,7 +500,7 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
         if index == 5:
             break
     print("finished search")
-    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table), struct.metadata_table(metadata_df_all, "search_metadata_table")
+    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table), struct.make_table(metadata_df_all, "search_metadata_table")
 
 
 

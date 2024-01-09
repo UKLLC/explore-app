@@ -46,3 +46,7 @@ WORKING_IN_TRE_TEXT = [
     "[link]UK LLC TRE User Guide[/link]",
     "[link]Summary of the UK LLC Resource[/link]"
 ]
+
+# Dictionaries of columns in the database: field names on the page
+SOURCE_SUMMARY_VARS = {"full_name": "Name", "coverage_summary":"Coverage", "cohort_desc":"Cohort", "duration":"Duration", "participants":"Participants", "no_avail_datasets": "Available Blocks", "topic_tags": "Core Ontologies", "cohort_owner":"Cohort Owner", "website":"Website", "data_documentation":"Data Documentation"}
+BLOCK_SUMMARY_VARS = {"table_id": "Table ID", "table_name":"Table Name", "short_desc": "Description", "collection_time": "Collection Time", "participants_invited":"Participants Invited", "participants_included":"Participants Included", "linkage_rate":"[?] Linkage Rate", "links":"Link", "topic_tags":"Topics", "sensitivity":"Sensitivity"}

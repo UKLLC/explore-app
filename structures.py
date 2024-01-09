@@ -20,68 +20,22 @@ import constants
 pd.options.mode.chained_assignment = None
 warnings.simplefilter(action="ignore",category = FutureWarning)
 
-def quick_table(df, id):
-    quick_table = dash_table.DataTable(
-            id=id,
-            data=df.to_dict('records'),
-            columns=[{"name": i, "id": i} for i in df.columns], 
-            page_size=25,
-            editable=False,
-            row_selectable=False,
-            row_deletable=False,
-            style_cell={'textAlign': 'left','overflow': 'hidden',
-            'textOverflow': 'ellipsis',
-            'maxWidth': 0},
-            )
-    return quick_table
-
-def data_doc_table(df, id):
+def make_table(df, id, page_size = 25, ):
     table = dash_table.DataTable(
             id=id,
             data=df.to_dict('records'),
             columns=[{"name": i, "id": i} for i in df.columns], 
-            editable=False,
-            row_selectable=False,
-            row_deletable=False,
-            page_size=5,
-            style_header=ss.TABLE_HEADER,
-            style_cell=ss.TABLE_CELL,
-            style_data_conditional=ss.TABLE_CONDITIONAL
-            )
-    return table
-
-
-def metadata_doc_table(df, id):
-    
-    table = dash_table.DataTable(
-            id=id,
-            data=df.to_dict('records'),
-            columns=[{"name": i, "id": i} for i in df.columns], 
-            page_size=25,
+            page_size=page_size,
             editable=False,
             row_selectable=False,
             row_deletable=False,
             style_header=ss.TABLE_HEADER,
             style_cell=ss.TABLE_CELL,
             style_data_conditional=ss.TABLE_CONDITIONAL
-            )
+            ),
     return table
 
 
-def metadata_table(df, id):
-    quick_table = dash_table.DataTable(
-            id=id,
-            data=df.to_dict('records'),
-            columns=[{"name": i, "id": i} for i in df.columns], 
-            page_size=25,
-            editable=False,
-            row_selectable=False,
-            row_deletable=False,
-            style_header=ss.TABLE_HEADER,
-            style_cell=ss.TABLE_CELL,
-            style_data_conditional=ss.TABLE_CONDITIONAL,
-            )
-    return quick_table
 
 def basket_review_table(df):
     table = dash_table.DataTable(
@@ -556,6 +510,7 @@ def make_basket_review_box():
     style = ss.LANDING_BOX_STYLE)
     return basket_review_box
 
+
 def make_body(sidebar):
     return html.Div([
         sidebar,
@@ -585,18 +540,33 @@ def make_app_layout(titlebar, body, account_section, variable_divs):
     app_layout =  html.Div([titlebar, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
     return app_layout
 
-def make_schema_description(schemas):
+def make_description(df):
     out_text = []
-    for col in schemas.columns:
+    for col in df.columns:
         out_text.append(html.B("{}: ".format(col)))
-        out_text.append(" {}".format(schemas[col].values[0]))
+        out_text.append(" {}".format(df[col].values[0]))
         out_text.append(html.Br())
     return [html.P(out_text)]
 
+def make_schema_description(schemas):
+    # Make the study tab variables
+    schemas = schemas[constants.SOURCE_SUMMARY_VARS.keys()].rename(columns = constants.SOURCE_SUMMARY_VARS)
+    return make_description(schemas)
 
-def make_table_doc(tables):
-    table = html.Div([data_doc_table(tables, "table_desc_table")], style = ss.TABLE_DOC_DIV)
+def make_block_description(blocks):
+    # Make the study tab variables
+    blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
+    return make_description(blocks)
+
+def make_blocks_table(df):
+    df = df[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
+    table = make_table(df, "tables_desc_table", page_size=5)
     return table
+
+
+def make_metadata_table(df):
+    df = df
+    return make_table(df, "metadata_table", page_size= 30)
 
 
 def make_hidden_body():
