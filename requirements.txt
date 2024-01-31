@@ -11,3 +11,4 @@ gunicorn==20.1.0
 pandas 
 openpyxl
 protobuf==3.20.*
+matplotlib==v3.8.2
