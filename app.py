@@ -21,6 +21,8 @@ from dash.exceptions import PreventUpdate
 from flask_caching import Cache
 #import dash_auth
 from flask import request
+import plotly.express as px
+import plotly.graph_objects as go
 
 
 from app_state import App_State
@@ -156,7 +158,7 @@ def update_schema_description(source):
 @app.callback(
     Output('dataset_description_div', "children"),
     Output('dataset_summary', "children"),
-    Output('dataset_linkage_graphic', "children"),
+    Output('linkage_graph', "children"),
     Output('dataset_variables_div', "children"),
     Input('active_table', 'data'),
     State('active_schema', 'data'),
@@ -175,7 +177,7 @@ def update_table_data(table_id, schema):
         table = table_split[1]
         blocks = blocks_df.loc[(blocks_df["source_id"] == schema) & (blocks_df["table_id"] == table)]
         metadata_df = dataIO.load_study_metadata(cnxn, table_id)
-        return blocks["long_desc"].values[0], struct.make_block_description(blocks), "Placeholder for linkage rate graphic", struct.make_table(metadata_df, "block_metadata_table")
+        return blocks["long_desc"].values[0], struct.make_block_description(blocks), struct.linkage_graph(), struct.make_table(metadata_df, "block_metadata_table")
     else:
         # Default (Section may be hidden in final version)
         return "Select a dataset for more information...", "", "", ""
@@ -251,7 +253,8 @@ def basket_review(shopping_basket):
         
         df1 = df.loc[(df["source_id"] == source) & (df["table_id"] == table)]
         try: # NOTE TEMP LINKED OVERRIDE 
-            row = [source, table, df1["Block Description"].values[0]]
+            print(df1.columns)
+            row = [source, table, df1["short_desc"].values[0]]
         except IndexError:
             row = [source, table,""]
         rows.append(row)
@@ -267,6 +270,7 @@ def basket_review(shopping_basket):
     Output("hidden_body","children"),
     Input("about", "n_clicks"),
     Input("search", "n_clicks"),
+    Input("d_overview", "n_clicks"),
     Input("dd_study", "n_clicks"),
     Input("dd_dataset", "n_clicks"),
     Input("dd_linked", "n_clicks"),
@@ -275,7 +279,7 @@ def basket_review(shopping_basket):
     State("hidden_body","children"),
     prevent_initial_call=True
 )
-def body_sctions(about, search, dd_study, dd_data_block, dd_linked, review, active_body, hidden_body):#, shopping_basket):
+def body_sctions(about, search, d_overview, dd_study, dd_data_block, dd_linked, review, active_body, hidden_body):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -296,6 +300,7 @@ def body_sctions(about, search, dd_study, dd_data_block, dd_linked, review, acti
     sections_states = {}
     for section in active_body + hidden_body:
         section_id = section["props"]["id"].replace("body_","").replace("dd_", "")
+        print(section_id)
         sections_states[section_id] = section
 
     #print(sections_states)
@@ -482,7 +487,7 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     # TODO: this is the topics checkboxes. We need to first assign topics then store them in the database. We need this before we can filter appropriately. This is currently placeholder (3/1/24)
     if cl_1:
         topic_source = "TBC" # placeholder
-        sub_list = sub_list.loc[sub_list["Source"] == topic_source]
+        sub_list = sub_list.loc[sub_list["source_id"] == topic_source]
     # 5. Collection age
     # TBC
     # 6. Collection time
@@ -531,7 +536,7 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
         if current_data != None:
             keys = []
             for item in current_data:
-                keys.append(item["Source"] + "-" + item["Data Block"])
+                keys.append(item["source_id"] + "-" + item["table_id"])
 
             new_shopping_basket = [item for item in shopping_basket if item in keys]
 
@@ -539,9 +544,9 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
                 raise PreventUpdate
             else:
                 if clicks == None:
-                    return new_shopping_basket, clicks+1
-                else:
                     return new_shopping_basket, 1
+                else:
+                    return new_shopping_basket, clicks+1
         else:
             raise PreventUpdate
     
@@ -645,6 +650,39 @@ def toggle_collapse_advanced_options(n, is_open):
     if n:
         return not is_open
     return is_open
+
+@app.callback(
+    Output("overview_sunburst_div", "children"),
+    [Input("overview_sunburst_div", "id")],
+)
+def fill_graph(n):
+    print("triggered graph")
+    '''
+    labels=[blocks_df["source_id"].values + blocks_df["table_id"].values],
+    parents=["" for i in blocks_df["source_id"].values]+[ + blocks_df["source_id"].values],
+    values=[blocks_df["participants_included"].values],
+    '''
+
+    labels = list(sources_df["source_id"].values) + list(blocks_df["table_id"].values)
+    parents = ["" for i in sources_df["source_id"].values]+list(blocks_df["source_id"].values)
+    values = [100 for i in sources_df["source_id"].values] + [x  if not pd.isna(x) else 1 for x in list(blocks_df["participants_included"].values)]
+    #print("DEBUG:", [sources_df.loc[sources_df["source_id"]==x]["participants"].values for x in blocks_df["source_id"].values])
+    vals1 =  list([sources_df.loc[sources_df["source_id"]==x]["participants"].values[0] for x in sources_df["source_id"].values])
+    #print(vals1)
+    values = vals1 + list(blocks_df["participants_included"].values)
+    #for x, y, z in zip(parents, labels, values):
+    #print(str(x)+ " : "+str(y)+" : "+str(z))
+    #print("DEBUG", len(labels), len(parents), len(values))
+    fig = go.Figure(go.Sunburst(
+            labels=labels,
+            parents=parents,
+            values=values,
+            branchvalues = "total",
+            ),
+    )
+    #print("made fig")
+    graph = dcc.Graph(figure = fig, responsive = True, style = {"height":"1000px"})
+    return graph
 
 
 

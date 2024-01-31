@@ -14,6 +14,9 @@ class App_State():
             "search":{
                 "active":False,
             },
+            "overview":{
+                "active":False,
+            },
             "study":{
                 "active":False,
             },

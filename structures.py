@@ -13,6 +13,11 @@ from dash_extensions.javascript import arrow_function
 from dash_extensions.javascript import assign
 import warnings
 import os
+import matplotlib.pyplot as plt
+import plotly.express as px
+import plotly.graph_objects as go
+from matplotlib import cm
+from math import log10
 
 import stylesheet as ss
 import constants
@@ -402,6 +407,23 @@ def make_search_box():
     )
     return doc_box
 
+
+def make_d_overview_box():
+    d_overview_box = html.Div([
+        html.H2("Master Search"),
+        html.P("Placeholder paragraph talking about how this is a search tab for looking through data blocks"),
+        html.Div([
+            html.P("Placeholder")
+        ],
+        id = "overview_sunburst_div"
+        ),
+        html.P("After")
+    ],
+    id = "body_overview", 
+    className = "body_box"
+    )
+    return d_overview_box
+
 def make_study_box():
     study_box = html.Div([
         html.H1("Study Information - No study Selected", id = "study_title"),
@@ -446,7 +468,7 @@ def make_block_box(children = [None, None]):
                 html.Div(["placeholder for summary table"], id = "dataset_summary", className = "container_div")
             ]
             ),
-            html.Div(html.P("Placeholder for graphic on linkage rates"), id = "dataset_linkage_graphic")
+            html.Div(html.P("Placeholder for graphic on linkage rates"), id = "linkage_graph")
         ],
         className = "row_layout"),
         html.Div([], id = "dataset_variables_div"),
@@ -572,6 +594,7 @@ def make_metadata_table(df):
 def make_hidden_body():
     body = html.Div([
             make_search_box(),
+            make_d_overview_box(),
             make_study_box(),
             make_block_box(),
             make_basket_review_box(),
@@ -601,9 +624,17 @@ def make_account_section():
     dropdown = html.Div([
         html.Div([
             dbc.Button("About", className='nav_button', id = "about"),
-            dbc.Button("Search",  className='nav_button', id = "search"),
             dbc.DropdownMenu(
-                label = html.P("Data Description", className = "nav_button",),
+                label = html.P("Explore", className = "nav_button",),
+                children = [
+                    dbc.DropdownMenuItem("Search", id = "search"),
+                    dbc.DropdownMenuItem("Data Overview", id = "d_overview"),
+                ],
+                id="explore_dropdown",
+                className = "nav_button",
+            ),   
+            dbc.DropdownMenu(
+                label = html.P("Data", className = "nav_button",),
                 children = [
                     dbc.DropdownMenuItem("Study", id = "dd_study"),
                     dbc.DropdownMenuItem("Data Block", id = "dd_dataset"),
@@ -633,3 +664,20 @@ def make_account_section():
         
         style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
     return dropdown
+
+
+def linkage_graph():
+    '''
+    args: total, v1, v1_label, v2, v2_label...
+    '''
+    fig = go.Figure(go.Sunburst(
+
+    labels=["Total Participants", "NHS", "GEO", "Admin"],
+    parents=["", "Total Participants", "NHS", "GEO"],
+    values=[100, 75, 50, 25],
+    branchvalues = "total",
+    rotation= 90,
+    )
+    )
+
+    return dcc.Graph(figure = fig)
