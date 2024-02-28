@@ -207,7 +207,7 @@ def make_about_box():
         dbc.Accordion(
             [
             dbc.AccordionItem(
-                "Browse the UK LLC Data Discovery Portal to discover data from the 20+ longitudinal population studies that contribute data to the UK LLC Trusted Research Environment (TRE). The metadata encompass study-collected and linked data blocks, including health, geospatial and non-health routine records. Use this tool to select data blocks from our catalogue for a new data request or data amendment.etc",
+                "Browse the UK LLC Data Discovery Portal to discover data from the 20+ longitudinal population studies that contribute data to the UK LLC Trusted Research Environment (TRE). The metadata encompass study-collected and linked datasets, including health, geospatial and non-health routine records. Use this tool to select datasets from our catalogue for a new data request or data amendment.etc",
                 title="What is the UK LLC (placeholder)",
                 className = "body_accordion",
                 id = "about_collapse1"
@@ -225,7 +225,7 @@ def make_about_box():
                 id = "about_collapse3"
             ),
             dbc.AccordionItem(
-                "select the data blocks you want etc",
+                "select the datasets you want etc",
                 title="Build a shopping basket",
                 className = "body_accordion",
                 id = "about_collapse4"
@@ -268,8 +268,8 @@ def make_about_box():
 
 def make_search_box():
     doc_box = html.Div([
-        html.P("Placeholder paragraph talking about how this is a search tab for looking through data blocks"),
-        html.P("Follow on paragraph reminding what a data block is"),
+        html.P("Placeholder paragraph talking about how this is a search tab for looking through datasets"),
+        html.P("Follow on paragraph reminding what a dataset is"),
         html.H2("Master Search"),
         html.Div([
             dcc.Checklist(
@@ -411,7 +411,7 @@ def make_search_box():
 def make_d_overview_box():
     d_overview_box = html.Div([
         html.H2("Master Search"),
-        html.P("Placeholder paragraph talking about how this is a search tab for looking through data blocks"),
+        html.P("Placeholder paragraph talking about how this is a search tab for looking through datasets"),
         html.Div([
             html.P("Placeholder")
         ],
@@ -468,7 +468,7 @@ def make_block_box(children = [None, None]):
                 html.Div(["placeholder for summary table"], id = "dataset_summary", className = "container_div")
             ]
             ),
-            html.Div(html.P("Placeholder for graphic on linkage rates"), id = "linkage_graph")
+            html.Div(html.P("Placeholder for graphic on linkage rates"), id = "dataset_linkage_sunburst_div")
         ],
         className = "row_layout"),
         html.Div([], id = "dataset_variables_div"),
@@ -484,7 +484,7 @@ def make_basket_review_box():
     basket_review_box = html.Div([
 
             html.Div([
-            html.P("Select data blocks by checking tick boxes in the left sidebar."),
+            html.P("Select datasets by checking tick boxes in the left sidebar."),
             ],
             className="container_box"),
                 
@@ -497,7 +497,7 @@ def make_basket_review_box():
             
             html.Div([
                 html.Div([
-                    html.P("There are currently no data blocks in the shopping basket"),
+                    html.P("There are currently no datasets in the shopping basket"),
                 ], className="container_box"),
                 dash_table.DataTable(
                         id="basket_review_table", #id = basket_review_table (passed in app)
@@ -671,7 +671,6 @@ def linkage_graph():
     args: total, v1, v1_label, v2, v2_label...
     '''
     fig = go.Figure(go.Sunburst(
-
     labels=["Total Participants", "NHS", "GEO", "Admin"],
     parents=["", "Total Participants", "NHS", "GEO"],
     values=[100, 75, 50, 25],

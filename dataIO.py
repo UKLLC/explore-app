@@ -1,14 +1,8 @@
+from re import T
 from openpyxl import load_workbook
 import pandas as pd
 import json
 import os
-import sqlalchemy
-
-
-def connect():
-    # need to swap password for local var
-    cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
-    return(cnxn)
 
 
 def load_blocks(cnxn):
@@ -16,6 +10,28 @@ def load_blocks(cnxn):
 
 def load_sources(cnxn):
     return pd.read_sql("SELECT * from datasource", cnxn)
+
+def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
+    rtn = pd.read_sql("SELECT * from block_linkage_by_group", cnxn)
+    if source == "none" and table_name == "none":
+        return rtn
+    elif source == "none":
+        return rtn.loc[rtn["source"].str.lower() == source.lower()]
+    elif table_name == "none":
+        return rtn.loc[rtn["table_name"].str.contains(table_name)]
+    else:
+        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+
+def load_dataset_linkage(cnxn, source = "none", table_name = "none"):
+    rtn = pd.read_sql("SELECT * from block_linkage", cnxn)
+    if source == "none" and table_name == "none":
+        return rtn
+    elif source == "none":
+        return rtn.loc[rtn["source"].str.lower() == source.lower()]
+    elif table_name == "none":
+        return rtn.loc[rtn["table_name"].str.contains(table_name)]
+    else:
+        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
 
 
 def load_study_request(cnxn):

@@ -23,6 +23,8 @@ from flask_caching import Cache
 from flask import request
 import plotly.express as px
 import plotly.graph_objects as go
+import sqlalchemy
+
 
 
 from app_state import App_State
@@ -36,24 +38,31 @@ import structures as struct
 app = dash.Dash(__name__, external_stylesheets=["custom.css"])
 server = app.server
 
-cnxn = dataIO.connect()
+def connect():
+    try:
+        cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***').connect()
+        return cnxn
 
+    except Exception as e:
+        print("Connection to database failed, retrying.")
+        raise Exception
 
 ######################################################################################
 ### Data prep functions
 
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
-study_df = dataIO.load_study_request(cnxn)
-linked_df = dataIO.load_linked_request(cnxn)
-schema_df = pd.merge((study_df.rename(columns = {"Study":"Source"})), (linked_df), how = "outer", on = ["Source", "Block Name", "Block Description"]).drop_duplicates(subset = ["Source", "Block Name"]).dropna(subset = ["Source", "Block Name"])
-# NOTE: schema_df is the list of unique blocks
-study_info_and_links_df = dataIO.load_study_info_and_links(cnxn)
+with connect() as cnxn:
+    study_df = dataIO.load_study_request(cnxn)
+    linked_df = dataIO.load_linked_request(cnxn)
+    schema_df = pd.merge((study_df.rename(columns = {"Study":"Source"})), (linked_df), how = "outer", on = ["Source", "Block Name", "Block Description"]).drop_duplicates(subset = ["Source", "Block Name"]).dropna(subset = ["Source", "Block Name"])
+    # NOTE: schema_df is the list of unique blocks
+    study_info_and_links_df = dataIO.load_study_info_and_links(cnxn)
 
-# Load sources info
-sources_df = dataIO.load_sources(cnxn)
-# Load block info
-blocks_df = dataIO.load_blocks(cnxn)
+    # Load sources info
+    sources_df = dataIO.load_sources(cnxn)
+    # Load block info
+    blocks_df = dataIO.load_blocks(cnxn)
 
 app_state = App_State()
 
@@ -67,8 +76,6 @@ def load_or_fetch_map(study):
             print("Unable to load map file {}.geojson".format(study))
         app_state.set_map_data(study, returned_data)
     return returned_data
-    
-        
 
 ######################################################################################
 ### page asset templates
@@ -158,7 +165,7 @@ def update_schema_description(source):
 @app.callback(
     Output('dataset_description_div', "children"),
     Output('dataset_summary', "children"),
-    Output('linkage_graph', "children"),
+    Output('dataset_linkage_sunburst_div', "children"),
     Output('dataset_variables_div', "children"),
     Input('active_table', 'data'),
     State('active_schema', 'data'),
@@ -176,8 +183,24 @@ def update_table_data(table_id, schema):
         table_split = table_id.split("-")
         table = table_split[1]
         blocks = blocks_df.loc[(blocks_df["source_id"] == schema) & (blocks_df["table_id"] == table)]
-        metadata_df = dataIO.load_study_metadata(cnxn, table_id)
-        return blocks["long_desc"].values[0], struct.make_block_description(blocks), struct.linkage_graph(), struct.make_table(metadata_df, "block_metadata_table")
+        with connect() as cnxn:
+            metadata_df = dataIO.load_study_metadata(cnxn, table_id)
+            data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
+        labels = []
+        values = []
+        for v, l, d in zip(data["perc"], data["group"], data["count"]):
+            if v != 0:
+                l = str(l).replace("]","").replace("[","").replace("'","")
+                labels.append(l)
+                values.append(round(v * 100, 2))
+
+        fig = go.Figure(data = [go.Pie(
+                labels=labels, 
+                values=values
+                )],
+        )
+        graph = dcc.Graph(figure = fig, )        
+        return blocks["long_desc"].values[0], struct.make_block_description(blocks), graph, struct.make_table(metadata_df, "block_metadata_table")
     else:
         # Default (Section may be hidden in final version)
         return "Select a dataset for more information...", "", "", ""
@@ -496,8 +519,8 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     metadata_df_all = ""
     for index, row in sub_list.iterrows():
         table_id = row["source_id"]+"-"+row["table_id"]
-
-        metadata_df = dataIO.load_study_metadata(cnxn, table_id)
+        with connect() as cnxn:
+            metadata_df = dataIO.load_study_metadata(cnxn, table_id)
         if type(metadata_df_all) == str :
             metadata_df_all = metadata_df
         else:
@@ -655,7 +678,7 @@ def toggle_collapse_advanced_options(n, is_open):
     Output("overview_sunburst_div", "children"),
     [Input("overview_sunburst_div", "id")],
 )
-def fill_graph(n):
+def fill_overview_graph(n):
     print("triggered graph")
     '''
     labels=[blocks_df["source_id"].values + blocks_df["table_id"].values],
@@ -685,10 +708,47 @@ def fill_graph(n):
     return graph
 
 
-
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)
+
+
+'''
+TODO 27/02/2024
+- Left sidebar collapse styling 
+- Left sidebar arrow styling
+- Left sidebar search filter status
+
+- Get consensus on what we want for the about page
+
+- Search page, fix page dimensions
+
+- Data overview, design & style the window
+- Capture the data by unique participant at the inner layer.
+- Split NHS, Geo, ... & LPS
+-   Think of variants and options:
+-       There is no sense filtering the graph - that does it itself
+-       Instead, just make sure the counts at each level are of unique participants
+-       Add (collapsible) tooltip for tutorial
+- look into zooming on the canvas
+
+- remove linked tabs
+- fix geo tab zoom rate
+- Get geo regions for standard set of geo categories
+- Rework coverage for to run from db
+- Implement study level graphic
+- Implement age breakdown graphic
+- Make sub tabs section in study page
+
+- Linked data alternative page
+
+- Style the basket review page
+
+- Build in account login
+- Add autosave
+
+
+'''
