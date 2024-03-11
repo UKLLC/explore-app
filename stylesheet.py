@@ -16,6 +16,7 @@ box_content_start = body_start + box_title_h
 peach = ["#EC6552", "#F08475"]
 cyan = ["#00ABAA", "#50AFA8"]
 lime = ["#CDD500"]
+green = ["#9ACA7C"]
 black = ["#000000","#212529", "#373B3E", "#1c1c1c"]
 white = ["#FFFFFF", "#F2F2F2", "#E6E6E6", "#212529"]
 
@@ -103,14 +104,6 @@ HIDDEN_BODY_STYLE = {
 }    
 
 # Map #################################
-
-MAP_TITLE_STYLE = {
-    "width":"100%",
-    "height":"3rem",
-    "padding-top":"0.5rem",
-    "padding-left":"1rem",
-}
-
 MAP_BOX_STYLE = {
     "height" : "100%",
     "top" : str(box_title_h) +"rem",

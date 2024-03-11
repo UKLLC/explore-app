@@ -1,24 +1,13 @@
 # sidebar.py
-import  os
-from re import S
 import re
 import dash
-import dash_bootstrap_components as dbc
 from dash import dcc
-from dash import html
 from dash.dependencies import Input, Output
 import pandas as pd
-from dash import Dash, Input, Output, State, callback, dash_table, ALL, MATCH
-import dash_leaflet as dl
-import dash_leaflet.express as dlx
-from dash_extensions.javascript import arrow_function
-from dash_extensions.javascript import assign
-import pickle
-import time
+from dash import Input, Output, State, ALL
 import warnings
 import logging
 from dash.exceptions import PreventUpdate
-from flask_caching import Cache
 #import dash_auth
 from flask import request
 import plotly.express as px
@@ -29,7 +18,6 @@ import sqlalchemy
 
 from app_state import App_State
 import dataIO
-import stylesheet as ss
 import constants 
 import structures as struct
 
@@ -40,12 +28,12 @@ server = app.server
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***').connect()
+        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
         print("Connection to database failed, retrying.")
-        raise Exception
+        raise Exception("DB connection failed")
 
 ######################################################################################
 ### Data prep functions
@@ -63,6 +51,9 @@ with connect() as cnxn:
     sources_df = dataIO.load_sources(cnxn)
     # Load block info
     blocks_df = dataIO.load_blocks(cnxn)
+    source_counts = dataIO.load_source_count(cnxn)
+    dataset_counts = dataIO.load_dataset_count(cnxn)
+    cnxn.close()
 
 app_state = App_State()
 
@@ -91,7 +82,7 @@ sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
 # Body ################################################################################
 
-maindiv = struct.make_body(sidebar_left)
+maindiv = struct.make_body(sidebar_left, app)
 
 # Main div template ##################################################################
 
@@ -104,7 +95,7 @@ save_clicks = struct.make_variable_div("save_clicks", 0)
 placeholder = struct.make_variable_div("placeholder", "placeholder")
 account_section = struct.make_account_section()
 
-hidden_body = struct.make_hidden_body()
+hidden_body = struct.make_hidden_body(source_counts, dataset_counts)
 
 # Variable Divs ####################################################################
 
@@ -139,6 +130,8 @@ def login(_):
     Output('study_description_div', "children"),
     Output("study_summary", "children"),
     Output("study_table_div", "children"),
+    Output("source_linkage_graph", "children"),
+    Output("source_age_graph", "children"),
     Output('map_region', "data"),
     Output('map_object', 'zoom'),
     Input('active_schema','data'),
@@ -148,24 +141,47 @@ def update_schema_description(source):
     '''
     When schema updates, update documentation    
     '''        
-    print("DEBUG: acting, schema = '{}'".format(source))
+    print("Updating schema page, schema = '{}'".format(source))
     if source != None: 
         
         info = sources_df.loc[sources_df["source_id"] == source]
         blocks = blocks_df.loc[blocks_df["source_id"] == source]
+
+        with connect() as cnxn:
+            data = dataIO.load_cohort_linkage_groups(cnxn, source)
+            ages = dataIO.load_cohort_age(cnxn, source)
+            cnxn.close()
+        labels = []
+        values = []
+        counts = []
+        for v, l, d in zip(data["perc"], data["group"], data["count"]):
+            if v != 0:
+                l = str(l).replace("]","").replace("[","").replace("'","")
+                labels.append(l)
+                values.append(round(v * 100, 2))
+                counts.append(str(d))
+
+        pie = struct.pie(labels, values, counts)
+
+        if ages["mean"].values[0]:
+            boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
+        else:
+            boxplot = "Age distribution is not available for this cohort"
+
         map_data = load_or_fetch_map(source)
-        return "Study Information - "+source, info["long_desc"], struct.make_schema_description(info), struct.make_blocks_table(blocks), map_data, 6
+        return "Study Information - "+source, info["long_desc"], struct.make_schema_description(info), struct.make_blocks_table(blocks), pie, boxplot, map_data, 6
     else:
         # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
 
-        return "Study Information - No study selected", "Select a study using the left sidebar to see more information",  "", "",None, 6
+        return "Study Information - No study selected", "Select a study using the left sidebar to see more information",  "", "", "", "",None, 6
 
 
 ### Dataset BOX #####################
 @app.callback(
     Output('dataset_description_div', "children"),
     Output('dataset_summary', "children"),
-    Output('dataset_linkage_sunburst_div', "children"),
+    Output('dataset_linkage_graph', "children"),
+    Output("dataset_age_graph", "children"),
     Output('dataset_variables_div', "children"),
     Input('active_table', 'data'),
     State('active_schema', 'data'),
@@ -186,24 +202,30 @@ def update_table_data(table_id, schema):
         with connect() as cnxn:
             metadata_df = dataIO.load_study_metadata(cnxn, table_id)
             data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
+            ages = dataIO.load_dataset_age(cnxn, schema, table)
+            cnxn.close()
         labels = []
         values = []
+        counts = []
         for v, l, d in zip(data["perc"], data["group"], data["count"]):
             if v != 0:
                 l = str(l).replace("]","").replace("[","").replace("'","")
                 labels.append(l)
                 values.append(round(v * 100, 2))
+                counts.append(str(d))
 
-        fig = go.Figure(data = [go.Pie(
-                labels=labels, 
-                values=values
-                )],
-        )
-        graph = dcc.Graph(figure = fig, )        
-        return blocks["long_desc"].values[0], struct.make_block_description(blocks), graph, struct.make_table(metadata_df, "block_metadata_table")
+        pie = struct.pie(labels, values, counts)
+
+        
+        if ages["mean"].values[0]:
+            boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
+        else:
+            boxplot = "Age distribution is not available for this cohort"
+
+        return blocks["long_desc"].values[0], struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table")
     else:
         # Default (Section may be hidden in final version)
-        return "Select a dataset for more information...", "", "", ""
+        return "Select a dataset for more information...", "", "", "", ""
 
 '''
 @app.callback(
@@ -267,7 +289,8 @@ def basket_review(shopping_basket):
     When the shopping basket updates
     Update the basket review table
     '''
-    print("CALLBACK: Updating basket review table")
+    trigger = dash.ctx.triggered_id
+    print("CALLBACK: Updating basket review table, trigger {}".format(trigger))
     rows = []
     df = blocks_df
     for table_id in shopping_basket:
@@ -291,18 +314,21 @@ def basket_review(shopping_basket):
 @app.callback(
     Output("body_content", "children"),
     Output("hidden_body","children"),
-    Input("about", "n_clicks"),
+    #Input("about", "n_clicks"),
     Input("search", "n_clicks"),
     Input("d_overview", "n_clicks"),
     Input("dd_study", "n_clicks"),
     Input("dd_dataset", "n_clicks"),
-    Input("dd_linked", "n_clicks"),
     Input("review", "n_clicks"),
+    Input('study_description_div', "children"), # When the dataset page is updates (means active source has changed and pages have updated)
+    Input('dataset_description_div', "children"), # When the dataset page is updates (means active table has changed and pages have updated)
+    State("active_schema", "data"),
+    State("active_table", "data"),
     State("body_content", "children"),
     State("hidden_body","children"),
     prevent_initial_call=True
 )
-def body_sctions(about, search, d_overview, dd_study, dd_data_block, dd_linked, review, active_body, hidden_body):#, shopping_basket):
+def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -319,11 +345,24 @@ def body_sctions(about, search, d_overview, dd_study, dd_data_block, dd_linked, 
     get id of sections. 
     '''
     trigger = dash.ctx.triggered_id
-    print("CALLBACK: BODY, activating", trigger)
+    print("CALLBACK: body sections, activating", trigger)
+    if trigger == "active_schema" or trigger == "active_table":
+        print("\nPRIORITY, DEBUG: current tab", trigger)
+        active_tab = active_body[0]["props"]["id"].replace("body_","").replace("dd_", "")
+
+        #TODO Should there be some toggle or condition to stop force change?
+        if trigger == "active_schema":# and schema_change != current_id:
+            trigger = "dd_study"
+        elif trigger == "active_table":
+            trigger = "dd_dataset"
+        else:
+            raise PreventUpdate
+
+        print("debug trigger", trigger)
+
     sections_states = {}
     for section in active_body + hidden_body:
         section_id = section["props"]["id"].replace("body_","").replace("dd_", "")
-        print(section_id)
         sections_states[section_id] = section
 
     #print(sections_states)
@@ -337,45 +376,12 @@ def body_sctions(about, search, d_overview, dd_study, dd_data_block, dd_linked, 
             a_tab_is_active = True
         else:
             inactive.append(section)
-    # Check: if no tabs are active, run landing page
+    # Check: if no tabs are active, run search page
     if not a_tab_is_active:
-        return [sections_states["about"]],  [sections_states[s_id] for s_id in inactive]
+        return [sections_states["search"]],  [sections_states[s_id] for s_id in inactive]
     else:
         return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
 
-'''
-@app.callback(
-    Output('context_tabs','value'),
-    Input("active_schema", "data"),
-    Input("active_table", "data"),
-    State("context_tabs", "value"),
-    prevent_initial_call = True
-)
-def force_change_body(schema, table, curr_tab):
-    
-    When the schema changes
-    Read the current tab
-    Update the current tab
-    
-    print("CALLBACK: force change body")
-    if dash.ctx.triggered_id == "active_schema":
-        #If schema changes and a table specific section is active, kick them out. 
-        if schema == None:
-            return "Landing"
-        elif curr_tab == "Documentation":
-            raise PreventUpdate
-        elif curr_tab == "Map":
-            raise PreventUpdate
-        else:
-            return "Documentation"
-    else:
-        if curr_tab == "Map":
-            raise PreventUpdate
-        elif curr_tab == "Metadata":
-            raise PreventUpdate
-        else:
-            return "Metadata"
-'''
 
 @app.callback(
     Output('active_schema','data'),
@@ -403,11 +409,10 @@ def sidebar_schema(open_study_schema, previous_schema):
     Output('active_table','data'),
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
-    Input('active_schema','data'),
     State("active_table", "data"),
     prevent_initial_call = True
 )
-def sidebar_table(tables, active_schema, previous_table):
+def sidebar_table(tables, previous_table):
     '''
     When the active table_tab changes
     When the schema changes
@@ -415,12 +420,9 @@ def sidebar_table(tables, active_schema, previous_table):
     Update the active table
     Update the activated table tabs (deactivate previously activated tabs)
     '''
-    print("CALLBACK: sidebar table click")
+    print("CALLBACK: sidebar table click, trigger: {}".format(dash.ctx.triggered_id))
     #print("DEBUG, sidebar_table {}, {}, {}".format(tables, previous_table, dash.ctx.triggered_id))
 
-    # If triggered by a schema change, clear the current table
-    if dash.ctx.triggered_id == "active_schema":
-        return None, [None for t in tables]
     active = [t for t in tables if t!= None]
     # if no tables are active
     if len(active) == 0:
@@ -480,7 +482,7 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
     print("CALLBACK: main search, searching value: {}, trigger {}.".format(search, dash.ctx.triggered_id))
-    print("DEBUG search: {}, {}, {}, {}, {}, {}".format(search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
+    print("     DEBUG search: {}, {}, {}, {}, {}, {}".format(search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
 
     # new version 03/1/24 (after a month off so you know its going to be good)
     '''
@@ -521,6 +523,7 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
         table_id = row["source_id"]+"-"+row["table_id"]
         with connect() as cnxn:
             metadata_df = dataIO.load_study_metadata(cnxn, table_id)
+            cnxn.close()
         if type(metadata_df_all) == str :
             metadata_df_all = metadata_df
         else:
@@ -674,46 +677,13 @@ def toggle_collapse_advanced_options(n, is_open):
         return not is_open
     return is_open
 
-@app.callback(
-    Output("overview_sunburst_div", "children"),
-    [Input("overview_sunburst_div", "id")],
-)
-def fill_overview_graph(n):
-    print("triggered graph")
-    '''
-    labels=[blocks_df["source_id"].values + blocks_df["table_id"].values],
-    parents=["" for i in blocks_df["source_id"].values]+[ + blocks_df["source_id"].values],
-    values=[blocks_df["participants_included"].values],
-    '''
-
-    labels = list(sources_df["source_id"].values) + list(blocks_df["table_id"].values)
-    parents = ["" for i in sources_df["source_id"].values]+list(blocks_df["source_id"].values)
-    values = [100 for i in sources_df["source_id"].values] + [x  if not pd.isna(x) else 1 for x in list(blocks_df["participants_included"].values)]
-    #print("DEBUG:", [sources_df.loc[sources_df["source_id"]==x]["participants"].values for x in blocks_df["source_id"].values])
-    vals1 =  list([sources_df.loc[sources_df["source_id"]==x]["participants"].values[0] for x in sources_df["source_id"].values])
-    #print(vals1)
-    values = vals1 + list(blocks_df["participants_included"].values)
-    #for x, y, z in zip(parents, labels, values):
-    #print(str(x)+ " : "+str(y)+" : "+str(z))
-    #print("DEBUG", len(labels), len(parents), len(values))
-    fig = go.Figure(go.Sunburst(
-            labels=labels,
-            parents=parents,
-            values=values,
-            branchvalues = "total",
-            ),
-    )
-    #print("made fig")
-    graph = dcc.Graph(figure = fig, responsive = True, style = {"height":"1000px"})
-    return graph
-
 
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''
@@ -721,8 +691,6 @@ TODO 27/02/2024
 - Left sidebar collapse styling 
 - Left sidebar arrow styling
 - Left sidebar search filter status
-
-- Get consensus on what we want for the about page
 
 - Search page, fix page dimensions
 
@@ -735,14 +703,6 @@ TODO 27/02/2024
 -       Add (collapsible) tooltip for tutorial
 - look into zooming on the canvas
 
-- remove linked tabs
-- fix geo tab zoom rate
-- Get geo regions for standard set of geo categories
-- Rework coverage for to run from db
-- Implement study level graphic
-- Implement age breakdown graphic
-- Make sub tabs section in study page
-
 - Linked data alternative page
 
 - Style the basket review page
@@ -750,5 +710,29 @@ TODO 27/02/2024
 - Build in account login
 - Add autosave
 
+- hover tooltips on sidebar with full source and dataset name.
 
+- add link to pages in tables etc (click sociodemo in source view, goto dataset view)
+- show source in dataset view
+
+- Make mental health style listing when no study is selected
+
+- Add footer with 1 row. UOB, UOE, collaborators. 
+
+
+28/02/24 tasks:
+1. Get study linkage breakdown graph in (make generic graph function). -------------
+    Means we have to make a sub tabs section ------------
+2. Remove about page. ------------
+3. Make linkage breakdown graphs scale appropriately.
+
+08/03/24 afternoon tasks:
+Add footer with requested images.
+
+Future major tasks:
+1. Hook up all search options
+2. Implement linked branch
+3. Implement None selected branch
+4. update content.
+5. Callback cleanup
 '''

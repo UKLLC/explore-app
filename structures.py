@@ -1,23 +1,13 @@
-from pydoc import classname
-from tabnanny import check
-import dash
 import dash_bootstrap_components as dbc
 from dash import dcc
 from dash import html
-from dash.dependencies import Input, Output
 import pandas as pd
-from dash import Dash, Input, Output, State, callback, dash_table, ALL
+from dash import dash_table
 import dash_leaflet as dl
 import dash_leaflet.express as dlx
 from dash_extensions.javascript import arrow_function
-from dash_extensions.javascript import assign
 import warnings
-import os
-import matplotlib.pyplot as plt
-import plotly.express as px
 import plotly.graph_objects as go
-from matplotlib import cm
-from math import log10
 
 import stylesheet as ss
 import constants
@@ -60,31 +50,19 @@ def basket_review_table(df):
 def main_titlebar(app, title_text):
     titlebar = html.Div([
         html.Div([
-        
-        html.Img(
-            src = app.get_asset_url("Logo_LLC.png"),
-            style = ss.LOGOS_STYLE
-        ),
-        html.A(
-        href="https://ukllc.ac.uk/",
-        children=[
-        ]
-        ),
-        html.A(
-            href="https://www.ucl.ac.uk/covid-19-longitudinal-health-wellbeing/",
-            
+            html.Img(
+                src = app.get_asset_url("Logo_LLC.png"),
+                style = ss.LOGOS_STYLE
+            ),
+            html.A(
+            href="https://ukllc.ac.uk/",
             children=[
-                html.Img(
-                    src = app.get_asset_url("Logo_NCS.png"),
-                    style = ss.LOGOS_STYLE
-                )
-            ]
-        )
+            ]),
         ],
         className = "row_layout"
         ),
     ],
-    style = ss.TITLEBAR_DIV_STYLE
+    className = "title_div"
     )
     return titlebar
 
@@ -201,7 +179,7 @@ def make_sidebar_left(sidebar_title, sidebar_catalogue):
     id = "sidebar_left_div")
     return sidebar_left
 
-def make_about_box():
+def make_about_box(app):
     landing_box = html.Div([
         html.H1("Placeholder for an attention grabbing header"),
         dbc.Accordion(
@@ -260,6 +238,7 @@ def make_about_box():
             id = "about_content_div7",
         ), 
     ], 
+    
     id = "body_about",
     className = "body_box",
     )
@@ -396,11 +375,10 @@ def make_search_box():
             id = "advanced_options_collapse",
             is_open = False
         ),
-        html.Div(
-            html.Div([
-            ],id = "search_metadata_div"
+
+        html.Div([],
+        id = "search_metadata_div"
         )
-       )
     ], 
     id = "body_search", 
     className = "body_box"
@@ -408,12 +386,12 @@ def make_search_box():
     return doc_box
 
 
-def make_d_overview_box():
+def make_d_overview_box(source_counts, dataset_counts):
     d_overview_box = html.Div([
         html.H2("Master Search"),
         html.P("Placeholder paragraph talking about how this is a search tab for looking through datasets"),
         html.Div([
-            html.P("Placeholder")
+            sunburst(source_counts, dataset_counts)
         ],
         id = "overview_sunburst_div"
         ),
@@ -424,34 +402,50 @@ def make_d_overview_box():
     )
     return d_overview_box
 
+
 def make_study_box():
     study_box = html.Div([
         html.H1("Study Information - No study Selected", id = "study_title"),
         html.Div([
-            html.Div(["Its a description"], id = "study_description_div", className = "container_div"),
-            html.Div(["placeholder for summary table"], id = "study_summary", className = "container_div")
+            html.Div([
+                html.Div(["Its a description"], id = "study_description_div", className = "container_div"),
+                html.Div(["placeholder for summary table"], id = "study_summary", className = "container_div"),
+            ], className = "container_line_50"),
+            html.Div([
+                dcc.Tabs([
+                    dcc.Tab(label="Age Distribution", children =[
+                        html.Div(["placeholder for age table"], id = "source_age_graph", className = "container_div")
+                    ]),
+                    dcc.Tab(label="Linkage Rates", children =[
+                        html.Div(["Placeholder for pie char"], id = "source_linkage_graph", className = "container_div")
+                    ]),
+                    dcc.Tab(label="Coverage", children =[
+                        html.Div([
+                            dl.Map(
+                                center=[54.5,-3.5], 
+                                zoom=6, 
+                                children=[
+                                    dl.TileLayer(url=constants.MAP_URL, 
+                                        maxZoom=11, 
+                                        attribution=constants.MAP_ATTRIBUTION),
+                                    dl.GeoJSON(data = None, 
+                                        id = "map_region", 
+                                        options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0),
+                                        hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))
+                                        ),
+                                ],id="map_object", style = ss.DYNA_MAP_STYLE),
+                            ],
+                            id = "Map", 
+                            className = "tab_div"
+                            )
+                    ])
+                ]),
+            ], className = "container_line_50" )
+            
         ],
-        className = "row_layout"),
+        className = "row_layout"
+        ),
         html.Div([], id = "study_table_div"),
-        html.H1("Coverage"),
-        html.Div([
-            dl.Map(
-                center=[54.5,-3.5], 
-                zoom=6, 
-                children=[
-                    dl.TileLayer(url=constants.MAP_URL, 
-                        maxZoom=10, 
-                        attribution=constants.MAP_ATTRIBUTION),
-                    dl.GeoJSON(data = None, 
-                        id = "map_region", 
-                        options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0),
-                        hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))
-                        ),
-                ],id="map_object", style = ss.DYNA_MAP_STYLE),
-            ],
-            id = "Map", 
-            style = ss.MAP_BOX_STYLE
-            )
         ], 
         id = "body_study", 
         className = "body_box"
@@ -461,19 +455,27 @@ def make_study_box():
 def make_block_box(children = [None, None]):
     
     dataset_box = html.Div([
-        html.H1("Study Information - No study Selected", id = "dataset_title"),
+        html.H1("Dataset Information - No Dataset Selected", id = "dataset_title"),
+        
         html.Div([
             html.Div([
-                html.Div(["Its a description"], id = "dataset_description_div", className = "container_div"),
-                html.Div(["placeholder for summary table"], id = "dataset_summary", className = "container_div")
-            ]
-            ),
-            html.Div(html.P("Placeholder for graphic on linkage rates"), id = "dataset_linkage_sunburst_div")
+                html.Div(["Its a description"], id = "dataset_description_div", className = "text_block"),
+                html.Div(["placeholder for summary table"], id = "dataset_summary", className = "container_div"),
+            ], className = "container_line_50"),
+            html.Div([
+                dcc.Tabs([
+                    dcc.Tab(label="Age Distribution", children =[
+                        html.Div(["placeholder for age table"], id = "dataset_age_graph", className = "container_div")
+                    ]),
+                    dcc.Tab(label="Linkage Rates", children =[
+                        html.Div(["Placeholder for pie char"], id = "dataset_linkage_graph", className = "container_div")
+                    ])
+                ]),
+            ], 
+            className = "container_line_50" ),
         ],
         className = "row_layout"),
-        html.Div([], id = "dataset_variables_div"),
-
-
+        html.Div(["Placeholder for dataset variables table"], id = "dataset_variables_div"),
         ], 
         id = "body_dataset", 
         className = "body_box"
@@ -533,18 +535,28 @@ def make_basket_review_box():
     return basket_review_box
 
 
-def make_body(sidebar):
+def make_body(sidebar, app):
     return html.Div([
         sidebar,
         html.Button(">",
             id="sidebar-collapse-button",
             n_clicks=0,),
         html.Div([
-            make_about_box()
-            ],
-            id = "body_content")
-        ], 
-        id="body")
+            html.Div([
+                make_search_box()
+                ],
+                id = "body_content"),
+            html.Div([
+                footer(app),
+                # TODO this footer is a solution, but its not perfect
+                # Tomorrow, try to move back to hidden footer. Put it in the scroll box and force it to stick to bottom?
+            ])
+        ],
+        className = "body_footer"
+        )
+
+    ], 
+    id="body")
 
 
 def make_variable_div(id_type, data = "None"):
@@ -562,23 +574,33 @@ def make_app_layout(titlebar, body, account_section, variable_divs):
     app_layout =  html.Div([titlebar, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
     return app_layout
 
-def make_description(df):
+def make_info_box(df):
     out_text = []
     for col in df.columns:
-        out_text.append(html.B("{}: ".format(col)))
-        out_text.append(" {}".format(df[col].values[0]))
-        out_text.append(html.Br())
-    return [html.P(out_text)]
+        #row
+        row = html.Div([
+            # First column
+            html.Div([
+                html.B(col)
+            ], className = "info_box_left"),
+
+            # Second column
+            html.Div([
+                html.P(str(df[col].values[0]).replace("\n", ""))
+            ], className = "info_box_right")
+        ])
+        out_text.append(row)
+    return html.Div(out_text)
 
 def make_schema_description(schemas):
     # Make the study tab variables
     schemas = schemas[constants.SOURCE_SUMMARY_VARS.keys()].rename(columns = constants.SOURCE_SUMMARY_VARS)
-    return make_description(schemas)
+    return make_info_box(schemas)
 
 def make_block_description(blocks):
     # Make the study tab variables
     blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
-    return make_description(blocks)
+    return make_info_box(blocks)
 
 def make_blocks_table(df):
     df = df[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
@@ -591,10 +613,9 @@ def make_metadata_table(df):
     return make_table(df, "metadata_table", page_size= 30)
 
 
-def make_hidden_body():
+def make_hidden_body(source_counts, dataset_counts):
     body = html.Div([
-            make_search_box(),
-            make_d_overview_box(),
+            make_d_overview_box(source_counts, dataset_counts),
             make_study_box(),
             make_block_box(),
             make_basket_review_box(),
@@ -623,7 +644,7 @@ def make_account_section():
         '''
     dropdown = html.Div([
         html.Div([
-            dbc.Button("About", className='nav_button', id = "about"),
+            #dbc.Button("About", className='nav_button', id = "about"),
             dbc.DropdownMenu(
                 label = html.P("Explore", className = "nav_button",),
                 children = [
@@ -636,9 +657,8 @@ def make_account_section():
             dbc.DropdownMenu(
                 label = html.P("Data", className = "nav_button",),
                 children = [
-                    dbc.DropdownMenuItem("Study", id = "dd_study"),
-                    dbc.DropdownMenuItem("Data Block", id = "dd_dataset"),
-                    dbc.DropdownMenuItem("Linked?", id = "dd_linked"),
+                    dbc.DropdownMenuItem("Source", id = "dd_study"),
+                    dbc.DropdownMenuItem("Dataset", id = "dd_dataset"),
                 ],
                 id="data_description_dropdown",
                 className = "nav_button",
@@ -666,17 +686,148 @@ def make_account_section():
     return dropdown
 
 
-def linkage_graph():
-    '''
-    args: total, v1, v1_label, v2, v2_label...
-    '''
-    fig = go.Figure(go.Sunburst(
-    labels=["Total Participants", "NHS", "GEO", "Admin"],
-    parents=["", "Total Participants", "NHS", "GEO"],
-    values=[100, 75, 50, 25],
-    branchvalues = "total",
-    rotation= 90,
+def pie(labels, values, counts):
+    layout = go.Layout(
+        margin=go.layout.Margin(
+            l=0, #left margin
+            r=0, #right margin
+            b=0, #bottom margin
+            t=0, #top margin
+        )
     )
+    colors = [ss.cyan[0], ss.lime[0], ss.peach[0], ss.green[0]]
+    fig = go.Figure(
+        data = [go.Pie(
+                    labels=labels, 
+                    values=values,
+                    hovertext = counts,
+                    hovertemplate = "%{label}: <br>Count: %{hovertext}",
+                    marker = dict(colors=colors)
+                ),
+            ],
+        layout=layout
     )
+    return dcc.Graph(figure = fig, className = "tab_div")
 
-    return dcc.Graph(figure = fig)
+
+def boxplot(mean, median, q1, q3, sd, lf, uf):
+    
+    layout = go.Layout(
+        margin=go.layout.Margin(
+            l=0, #left margin
+            r=0, #right margin
+            b=0, #bottom margin
+            t=0, #top margin
+        )
+    )
+    fig = go.Figure(layout = layout)
+    fig.add_trace(
+        go.Box(
+            q1=q1, 
+            median=median,   
+            q3=q3, 
+            mean=mean,
+            sd=sd, 
+            lowerfence = lf,
+            upperfence = uf,
+            name="Precompiled Quartiles",
+            orientation="h"
+            ))
+
+    fig.update_traces()
+    return dcc.Graph(figure = fig, className = "tab_div")
+
+def sunburst(source_counts, dataset_counts):
+
+    labels = ["Linked", "LPS"] + list(source_counts["source"].values) + list(dataset_counts["table_name"].values)
+    parents = ["",""]+ ["LPS" for i in source_counts["source"].values] + list(dataset_counts["source"].values)
+    vals_sources = list(source_counts["participant_count"].values)
+    weighted_vals_ds = [int(x) for x in list(dataset_counts["weighted_participant_count"].values)]
+    values = [100000] + [sum(vals_sources)] + vals_sources + weighted_vals_ds
+
+
+    layout = go.Layout(
+        margin=go.layout.Margin(
+            l=0, #left margin
+            r=0, #right margin
+            b=0, #bottom margin
+            t=0, #top margin
+        )
+    )
+    fig = go.Figure(go.Sunburst(
+            labels=labels,
+            parents=parents,
+            values=values,
+            branchvalues = "total",
+            #maxdepth = 2
+            
+            ),
+            layout = layout
+    )
+    return dcc.Graph(figure = fig, className = "sunburst")
+
+
+def footer(app):
+    footer = html.Div(
+        [
+        html.Div([
+            html.A(
+                href="https://bristol.ac.uk/",
+                children = [
+                    html.Img(src = app.get_asset_url("UoB_RGB_24.svg"),),
+                ]
+            ),
+        ], 
+        className = "footer_div"),
+        html.Div([
+            html.A(
+                href="https://ed.ac.uk/",
+                children = [
+                    html.Img(src = app.get_asset_url("UoE_Stacked_Logo_160215.svg"), className = "footer_img" ),
+                ]
+            ),
+        ], 
+        className = "footer_div"),
+        html.Div([
+            html.A(
+                href="https://ucl.ac.uk/",
+                children = [
+                    html.Img(src = app.get_asset_url("University_College_London_logo.png"), className = "footer_img" ),
+                ]
+            ),
+        ], 
+        className = "footer_div"),
+        html.Div([
+            html.A(
+                href="https://le.ac.uk/",
+                children = [
+                    html.Img(src = app.get_asset_url("UoL-Logo-Full-Colour.png"), className = "footer_img" ),
+                ]
+            ),
+        ], 
+        className = "footer_div"),
+
+        html.Div([
+            html.A(
+                href="https://swansea.ac.uk/",
+                children = [
+                    html.Img( src = app.get_asset_url("swansea-uni-logo.png"), className = "footer_img" ),
+                ]
+            ),
+            ], 
+        className = "footer_div"),
+        html.Div([
+            html.A(
+                href="https://serp.ac.uk/",
+                children = [
+                    html.Img(src = app.get_asset_url("SeRP-UK-Logo-RGB-Navy.png"), className = "footer_img" ),
+                ]
+            ),
+            ], 
+        className = "footer_div"),
+        ],
+        className = "footer",
+        id = "footer",
+
+    )
+    return footer

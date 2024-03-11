@@ -1,6 +1,4 @@
-from plotly import data
-import structures as struct
-import dataIO
+
 
 class App_State():
     def __init__(self) -> None:
@@ -8,9 +6,9 @@ class App_State():
         self.map_data = {}    
 
         self.sections = { # component dictionaries must share a name with html object id and tab value
-            "about":{
-                "active":False,
-            },
+            #"about":{
+            #    "active":False,
+            #},
             "search":{
                 "active":False,
             },

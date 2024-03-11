@@ -1,5 +1,3 @@
-from re import T
-from openpyxl import load_workbook
 import pandas as pd
 import json
 import os
@@ -12,7 +10,7 @@ def load_sources(cnxn):
     return pd.read_sql("SELECT * from datasource", cnxn)
 
 def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
-    rtn = pd.read_sql("SELECT * from block_linkage_by_group", cnxn)
+    rtn = pd.read_sql("SELECT * from dataset_linkage_by_group", cnxn)
     if source == "none" and table_name == "none":
         return rtn
     elif source == "none":
@@ -23,7 +21,59 @@ def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
 
 def load_dataset_linkage(cnxn, source = "none", table_name = "none"):
-    rtn = pd.read_sql("SELECT * from block_linkage", cnxn)
+    rtn = pd.read_sql("SELECT * from dataset_linkage", cnxn)
+    if source == "none" and table_name == "none":
+        return rtn
+    elif source == "none":
+        return rtn.loc[rtn["source"].str.lower() == source.lower()]
+    elif table_name == "none":
+        return rtn.loc[rtn["table_name"].str.contains(table_name)]
+    else:
+        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+
+
+def load_cohort_linkage_groups(cnxn, source = "none"):
+    rtn = pd.read_sql("SELECT * from cohort_linkage_by_group", cnxn)
+    if source == "none":
+        return rtn
+    else:
+        return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
+
+def load_cohort_linkage(cnxn, source = "none"):
+    rtn = pd.read_sql("SELECT * from cohort_linkage", cnxn)
+    if source == "none":
+        return rtn
+    else:
+        return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
+
+
+def load_cohort_age(cnxn, source = "none"):
+    rtn = pd.read_sql("SELECT * from cohort_ages", cnxn)
+    if source == "none":
+        return rtn
+    else:
+        return rtn.loc[(rtn["source"].str.lower() == source.lower())]
+
+def load_dataset_age(cnxn, source = "none", table_name = "none"):
+    rtn = pd.read_sql("SELECT * from dataset_ages", cnxn)
+    if source == "none" and table_name == "none":
+        return rtn
+    elif source == "none":
+        return rtn.loc[rtn["source"].str.lower() == source.lower()]
+    elif table_name == "none":
+        return rtn.loc[rtn["table_name"].str.contains(table_name)]
+    else:
+        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+
+def load_source_count(cnxn, source = "none"):
+    rtn = pd.read_sql("SELECT * from study_participants", cnxn)
+    if source == "none":
+        return rtn
+    else:
+        return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
+    
+def load_dataset_count(cnxn, source = "none", table_name = "none"):
+    rtn = pd.read_sql("SELECT * from dataset_participants", cnxn)
     if source == "none" and table_name == "none":
         return rtn
     elif source == "none":
