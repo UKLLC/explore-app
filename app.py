@@ -3,6 +3,7 @@ import re
 import dash
 from dash import dcc
 from dash.dependencies import Input, Output
+import dash_bootstrap_components as dbc
 import pandas as pd
 from dash import Input, Output, State, ALL
 import warnings
@@ -23,7 +24,7 @@ import structures as struct
 
 
 ######################################################################################
-app = dash.Dash(__name__, external_stylesheets=["custom.css"])
+app = dash.Dash(__name__, external_stylesheets=["custom.css",  dbc.icons.BOOTSTRAP ])
 server = app.server
 
 def connect():
@@ -53,6 +54,8 @@ with connect() as cnxn:
     blocks_df = dataIO.load_blocks(cnxn)
     source_counts = dataIO.load_source_count(cnxn)
     dataset_counts = dataIO.load_dataset_count(cnxn)
+    spine = dataIO.load_spine(cnxn)
+
     cnxn.close()
 
 app_state = App_State()
@@ -82,7 +85,7 @@ sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
 # Body ################################################################################
 
-maindiv = struct.make_body(sidebar_left, app)
+maindiv = struct.make_body(sidebar_left, app, spine)
 
 # Main div template ##################################################################
 
@@ -378,9 +381,9 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
             inactive.append(section)
     # Check: if no tabs are active, run search page
     if not a_tab_is_active:
-        return [sections_states["search"]],  [sections_states[s_id] for s_id in inactive]
+        return [sections_states["search"], struct.footer(app)],  [sections_states[s_id] for s_id in inactive]
     else:
-        return [sections_states[s_id] for s_id in active], [sections_states[s_id] for s_id in inactive]
+        return [sections_states[s_id] for s_id in active] + [ struct.footer(app)], [sections_states[s_id] for s_id in inactive]
 
 
 @app.callback(
@@ -665,17 +668,7 @@ def toggle_collapse(n, is_open):
     return is_open
 
 
-@app.callback(
-    Output("advanced_options_collapse", "is_open"),
-    [Input("advanced_options_button", "n_clicks")],
-    [State("advanced_options_collapse", "is_open")],
-    prevent_initial_call=True
-)
-def toggle_collapse_advanced_options(n, is_open):
-    print("Advanced options collapse")
-    if n:
-        return not is_open
-    return is_open
+
 
 
 if __name__ == "__main__":
@@ -683,7 +676,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)
 
 
 '''
@@ -729,10 +722,23 @@ TODO 27/02/2024
 08/03/24 afternoon tasks:
 Add footer with requested images.
 
+12/3/24 Tiny last half hour:
+Get the collapse button looking better
+cont. tomorrow
+
 Future major tasks:
 1. Hook up all search options
 2. Implement linked branch
 3. Implement None selected branch
 4. update content.
 5. Callback cleanup
+'''
+'''
+Closer notes (if any)
+Can we get out variable value frequencies?
+Help page / tooltips
+Closer search syntax? If not elastic search
+Aida says pdfs are king
+Aida doesn’t like explore, browse, navigate etc all used in the same system.
+We will never be as good as closer without access to the questionnaire pdfs. It is likely worth referencing closer when possible. 
 '''

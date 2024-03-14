@@ -131,6 +131,9 @@ def load_study_metadata(cnxn, table_id):
     
     return values_df
 
+def load_spine(cnxn):
+    return pd.read_sql("SELECT * from spine", cnxn)
+
 def basket_out(basket):
     basket_pd = pd.DataFrame({
         "TABLE_SCHEMA" : [item.split("-")[0] for item in basket],

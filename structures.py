@@ -245,7 +245,21 @@ def make_about_box(app):
         
     return landing_box
 
-def make_search_box():
+def make_search_box(df):
+    '''
+    Search box TODO:
+        Source type checkboxes - LPS, NHS, Geo, Admin
+        Include - takes all possible sources
+        Topic Checkboxes - take all recognised topic tags/keywords
+        Collection age
+        Collections time
+
+        We need to make a table with all of these fields in it for every table:
+        type, topics, collection age, collection time
+
+        Ideally we have a search index table, with 1 row per table. If we get a match, we look it up in a info table. 
+    '''
+    sources = list(df["source"].drop_duplicates().sort_values().values)
     doc_box = html.Div([
         html.P("Placeholder paragraph talking about how this is a search tab for looking through datasets"),
         html.P("Follow on paragraph reminding what a dataset is"),
@@ -256,124 +270,127 @@ def make_search_box():
                 [],
                 inline=True
             ),
-            dcc.Input("", id ="main_search", className="search_field", placeholder = "search"),
+            dcc.Input("", id ="main_search", className="search_field", placeholder = "Search"),
             html.Button("search", id = "search_button"),
-            html.Button("Advanced Options", id = "advanced_options_button")
         ],
         className = "style_div",
         id = "search_style_div"
         ),
-        dbc.Collapse(
-            html.Div([
-                dbc.Accordion([
-                    dbc.AccordionItem(
-                        html.Div([
+        dbc.Accordion([
+            dbc.AccordionItem( 
+                html.Div([
+                    dbc.Accordion([
+                        dbc.AccordionItem(
                             html.Div([
-                                html.H3("Include"),
-                                dcc.Dropdown(["PH1", "PH2", "PH3"], id = "include_dropdown", multi = True),
-                            ],
-                            className = "container_div",
+                                html.Div([
+                                    html.H3("Include"),
+                                    dcc.Dropdown(sources, id = "include_dropdown", multi = True),
+                                ],
+                                className = "container_div",
+                                ),
+                                html.Div([
+                                    html.H3("Exclude"),
+                                    dcc.Dropdown(sources, id = "exclude_dropdown", multi = True)
+                                ],
+                                className = "container_div"
+                                ),
+                            ], 
+                            className = "row_layout"
                             ),
+                        title="Data Source",
+                        className = "search_accordion",
+                        id = "data_source_accordion"
+                        )
+                    ]),
+                    dbc.Accordion([
+                        dbc.AccordionItem(
                             html.Div([
-                                html.H3("Exclude"),
-                                dcc.Dropdown(["PH1", "PH2", "PH3"], id = "exclude_dropdown", multi = True)
-                            ],
+                                html.Div([
+                                    dcc.Checklist(
+                                        ["item 1", "item 2", "item 3", "item 4", "item 5"],
+                                        labelStyle = {"display": "flex", "align-items": "center"},
+                                        id = "search_checklist_1"
+                                    )
+                                ],
+                                className = "container_div",
+                                ),
+                                html.Div([
+                                    dcc.Checklist(
+                                        ["item 6", "item 7", "item 8", "item 9", "item 10"],
+                                        labelStyle = {"display": "flex", "align-items": "center"},
+                                    )
+                                ],
+                                className = "container_div"
+                                ),
+                                html.Div([
+                                    dcc.Checklist(
+                                        ["item 11", "item 12", "item 13", "item 14", "item 15"],
+                                        labelStyle = {"display": "flex", "align-items": "center"},
+                                    )
+                                ],
+                                className = "container_div",
+                                ),
+                                html.Div([
+                                    dcc.Checklist(
+                                        ["item 16", "item 17", "item 18", "item 19", "item 20"],
+                                        labelStyle = {"display": "flex", "align-items": "center"},
+                                    )
+                                ],
+                                className = "container_div"
+                                ),
+                            ], 
+                            className = "row_layout"
+                            ),
+                        title="Topic Checkboxes",
+                        className = "search_accordion",
+                        id = "topic_accordion"
+                        )
+                    ]),
+                    dbc.Accordion([
+                        dbc.AccordionItem(
+                            html.Div([
+                                dcc.RangeSlider(min = 0, max = 100, step = 5, value=[20, 40], id='collection_age_slider'),
+                            ], 
                             className = "container_div"
                             ),
-                        ], 
-                        className = "row_layout"
-                        ),
-                    title="Data Source",
-                    className = "search_accordion",
-                    id = "data_source_accordion"
-                    )
-                ]),
-                dbc.Accordion([
-                    dbc.AccordionItem(
-                        html.Div([
+                        title="Collection Age",
+                        className = "collection_age_accordion",
+                        id = "collection_age_accordion"
+                        )
+                    ]),
+                    dbc.Accordion([
+                        dbc.AccordionItem(
                             html.Div([
-                                dcc.Checklist(
-                                    ["item 1", "item 2", "item 3", "item 4", "item 5"],
-                                    labelStyle = {"display": "flex", "align-items": "center"},
-                                    id = "search_checklist_1"
+                                dcc.RangeSlider(min = 0,  max = 9, step = 1, value=[5, 7], id='collection_time_slider',
+                                marks={
+                                    0: '1940',
+                                    1: "1950",
+                                    2: '1960',
+                                    3: "1970",
+                                    4: "1980",
+                                    5: "1990",
+                                    6: "2000",
+                                    7: "2010",
+                                    8: "2020",
+                                    9: "2030"}
+                                    ,
                                 )
-                            ],
-                            className = "container_div",
-                            ),
-                            html.Div([
-                                dcc.Checklist(
-                                    ["item 6", "item 7", "item 8", "item 9", "item 10"],
-                                    labelStyle = {"display": "flex", "align-items": "center"},
-                                )
-                            ],
+                            ], 
                             className = "container_div"
                             ),
-                            html.Div([
-                                dcc.Checklist(
-                                    ["item 11", "item 12", "item 13", "item 14", "item 15"],
-                                    labelStyle = {"display": "flex", "align-items": "center"},
-                                )
-                            ],
-                            className = "container_div",
-                            ),
-                            html.Div([
-                                dcc.Checklist(
-                                    ["item 16", "item 17", "item 18", "item 19", "item 20"],
-                                    labelStyle = {"display": "flex", "align-items": "center"},
-                                )
-                            ],
-                            className = "container_div"
-                            ),
-                        ], 
-                        className = "row_layout"
-                        ),
-                    title="Topic Checkboxes",
-                    className = "search_accordion",
-                    id = "topic_accordion"
-                    )
-                ]),
-                dbc.Accordion([
-                    dbc.AccordionItem(
-                        html.Div([
-                            dcc.RangeSlider(min = 0, max = 100, step = 5, value=[20, 40], id='collection_age_slider'),
-                        ], 
-                        className = "container_div"
-                        ),
-                    title="Collection Age",
-                    className = "collection_age_accordion",
-                    id = "collection_age_accordion"
-                    )
-                ]),
-                dbc.Accordion([
-                    dbc.AccordionItem(
-                        html.Div([
-                            dcc.RangeSlider(min = 0,  max = 9, step = 1, value=[5, 7], id='collection_time_slider',
-                            marks={
-                                0: '1940',
-                                1: "1950",
-                                2: '1960',
-                                3: "1970",
-                                4: "1980",
-                                5: "1990",
-                                6: "2000",
-                                7: "2010",
-                                8: "2020",
-                                9: "2030"}
-                                ,
-                            )
-                        ], 
-                        className = "container_div"
-                        ),
-                    title="Collection Time",
-                    className = "collection_time_accordion",
-                    id = "collection_time_accordion"
-                    )
-                ]),
-                ],
-                className = "container_div"
+                        title="Collection Time",
+                        className = "collection_time_accordion",
+                        id = "collection_time_accordion"
+                        )
+                    ]),
+                    ],
+                    className = "container_div"
+                ),
+            title = "Advanced Options",
             ),
-            id = "advanced_options_collapse",
-            is_open = False
+            
+        ],    
+        id = "advanced_options_collapse",
         ),
 
         html.Div([],
@@ -534,26 +551,22 @@ def make_basket_review_box():
     style = ss.LANDING_BOX_STYLE)
     return basket_review_box
 
+def sidebar_collapse_button():
+    button = html.Button(
+            html.I(className = "bi bi-list"),
+            id="sidebar-collapse-button",
+            n_clicks=0,)
+    return button
 
-def make_body(sidebar, app):
+def make_body(sidebar, app, spine):
     return html.Div([
         sidebar,
-        html.Button(">",
-            id="sidebar-collapse-button",
-            n_clicks=0,),
+        sidebar_collapse_button(),
         html.Div([
-            html.Div([
-                make_search_box()
-                ],
-                id = "body_content"),
-            html.Div([
-                footer(app),
-                # TODO this footer is a solution, but its not perfect
-                # Tomorrow, try to move back to hidden footer. Put it in the scroll box and force it to stick to bottom?
-            ])
+            make_search_box(spine),
+            footer(app),
         ],
-        className = "body_footer"
-        )
+        id = "body_content"),
 
     ], 
     id="body")
@@ -768,7 +781,7 @@ def sunburst(source_counts, dataset_counts):
 
 
 def footer(app):
-    footer = html.Div(
+    footer = html.Footer(
         [
         html.Div([
             html.A(
