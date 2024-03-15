@@ -261,13 +261,16 @@ def make_search_box(df):
     '''
     sources = list(df["source"].drop_duplicates().sort_values().values)
     doc_box = html.Div([
-        html.P("Placeholder paragraph talking about how this is a search tab for looking through datasets"),
-        html.P("Follow on paragraph reminding what a dataset is"),
-        html.H2("Master Search"),
+        html.Div([
+            html.H1("Welcome to UK LLC Explore"),
+            html.P("the UK LLC holds data from various longitudinal population studies and linked data source and makes them available in a trusted research evironment."),
+            html.P("Search our catalogue of data and build a data request.")
+        ],
+        id = "intro_div"),
         html.Div([
             dcc.Checklist(
                 ['Study data', 'NHS data', 'Geo data', 'Admin data'],
-                [],
+                ['Study data', 'NHS data', 'Geo data', 'Admin data'],
                 inline=True
             ),
             dcc.Input("", id ="main_search", className="search_field", placeholder = "Search"),
@@ -391,8 +394,15 @@ def make_search_box(df):
             
         ],    
         id = "advanced_options_collapse",
+        start_collapsed=True
         ),
 
+        dcc.RadioItems(
+                ['Sources', 'Datasets', 'Variables'],
+                'Sources',
+                inline=True,
+                id = "search_type_checkbox"
+            ),
         html.Div([],
         id = "search_metadata_div"
         )
@@ -553,7 +563,7 @@ def make_basket_review_box():
 
 def sidebar_collapse_button():
     button = html.Button(
-            html.I(className = "bi bi-list"),
+            html.I(className = "bi bi-list", ),
             id="sidebar-collapse-button",
             n_clicks=0,)
     return button
@@ -844,3 +854,22 @@ def footer(app):
 
     )
     return footer
+
+
+def source_box(source, desc):
+    box = html.Div([
+        html.H2(str(source)),
+        html.P(desc)
+    ],
+    className = "source_overview_box")
+    return box
+
+
+def sources_list(df):
+    source_boxes = []
+    for _, row in df.iterrows():
+        source = row["LPS name"]
+        desc = row["Aims"]
+        source_boxes.append(source_box(source, desc))
+    print(source_boxes)
+    return html.Div(source_boxes, className = "source_list")

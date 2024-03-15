@@ -65,8 +65,8 @@ def load_dataset_age(cnxn, source = "none", table_name = "none"):
     else:
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
 
-def load_source_count(cnxn, source = "none"):
-    rtn = pd.read_sql("SELECT * from study_participants", cnxn)
+def load_source_info(cnxn, source = "none"):
+    rtn = pd.read_sql("SELECT * from source_info", cnxn)
     if source == "none":
         return rtn
     else:

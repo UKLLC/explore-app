@@ -908,4 +908,23 @@ ul {
 }
 
 
+#intro_div {
+    padding-top: .5rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
 
+.source_overview_box {
+    padding: .5rem;
+    border:  solid black;
+    border-radius: .5rem;
+    background-color: white;
+    margin: .5rem;
+}
+
+.source_list {
+    padding: 1rem;
+    border:  solid black;
+    border-radius: .5rem;
+    background-color: var(--bs-whitegroup2);
+}

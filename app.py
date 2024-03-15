@@ -52,9 +52,10 @@ with connect() as cnxn:
     sources_df = dataIO.load_sources(cnxn)
     # Load block info
     blocks_df = dataIO.load_blocks(cnxn)
-    source_counts = dataIO.load_source_count(cnxn)
     dataset_counts = dataIO.load_dataset_count(cnxn)
     spine = dataIO.load_spine(cnxn)
+
+    source_info = dataIO.load_source_info(cnxn)
 
     cnxn.close()
 
@@ -98,7 +99,7 @@ save_clicks = struct.make_variable_div("save_clicks", 0)
 placeholder = struct.make_variable_div("placeholder", "placeholder")
 account_section = struct.make_account_section()
 
-hidden_body = struct.make_hidden_body(source_counts, dataset_counts)
+hidden_body = struct.make_hidden_body(source_info, dataset_counts)
 
 # Variable Divs ####################################################################
 
@@ -459,12 +460,12 @@ def sidebar_table(tables, previous_table):
     Input("search_checklist_1", "value"),
     Input("collection_age_slider", "value"),
     Input("collection_time_slider", "value"),
+    Input("search_type_checkbox", "value"),
     State("active_schema", "data"),
     State("shopping_basket", "data"),
     State("active_table", "data"),
-    prevent_initial_call = True
     )
-def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, open_schemas, shopping_basket, table):
+def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type,  open_schemas, shopping_basket, table):
     '''
     When the search button is clicked
     When the main search content is changed
@@ -521,20 +522,38 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     # 6. Collection time
     # TBC
 
-    metadata_df_all = ""
-    for index, row in sub_list.iterrows():
-        table_id = row["source_id"]+"-"+row["table_id"]
-        with connect() as cnxn:
-            metadata_df = dataIO.load_study_metadata(cnxn, table_id)
-            cnxn.close()
-        if type(metadata_df_all) == str :
-            metadata_df_all = metadata_df
-        else:
-            metadata_df_all = pd.concat([metadata_df_all, metadata_df])
-        if index == 5:
-            break
+
+
+    # Display search results:
+    if search_type.lower() == "sources":
+        search_results = "Source table"
+        print("DEBUG: making source info list" )
+        # making source list (not yet filtered)
+        info = source_info[["source", "LPS name", "Aims"]]
+        info = info.loc[info["source"].isin(sub_list["source_id"])]
+        search_results = struct.sources_list(info)
+        print("MADE")
+    elif search_type.lower() == "datasets":
+        search_results = "Dataset results placeholder"
+    elif search_type.lower() == "variables":    
+        metadata_df_all = ""
+        # TODO make this search work and load in background
+        for index, row in sub_list.iterrows():
+            table_id = row["source_id"]+"-"+row["table_id"]
+            with connect() as cnxn:
+                metadata_df = dataIO.load_study_metadata(cnxn, table_id)
+                cnxn.close()
+            if type(metadata_df_all) == str :
+                metadata_df_all = metadata_df
+            else:
+                metadata_df_all = pd.concat([metadata_df_all, metadata_df])
+            if index == 5:
+                break
+        search_results =  struct.make_table(metadata_df_all, "search_metadata_table")
+    else:
+        search_results = "Actually this should be a radio button", search_type
     print("finished search")
-    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table), struct.make_table(metadata_df_all, "search_metadata_table")
+    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table), search_results
 
 
 
@@ -676,7 +695,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''
