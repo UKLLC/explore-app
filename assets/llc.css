@@ -916,7 +916,8 @@ ul {
 
 .source_overview_box {
     padding: .5rem;
-    border:  solid black;
+    padding-top: 0rem;
+    border:  solid thin black;
     border-radius: .5rem;
     background-color: white;
     margin: .5rem;
@@ -924,7 +925,19 @@ ul {
 
 .source_list {
     padding: 1rem;
-    border:  solid black;
     border-radius: .5rem;
     background-color: var(--bs-whitegroup2);
+}
+
+.inline_img {
+    max-height: 4rem;
+    vertical-align: middle;
+    align-content: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.header_row {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
 }

@@ -139,14 +139,13 @@ def login(_):
     Output('map_region', "data"),
     Output('map_object', 'zoom'),
     Input('active_schema','data'),
-    prevent_initial_call=True
 )
 def update_schema_description(source):
     '''
     When schema updates, update documentation    
     '''        
     print("Updating schema page, schema = '{}'".format(source))
-    if source != None: 
+    if source != None and source != "None": 
         
         info = sources_df.loc[sources_df["source_id"] == source]
         blocks = blocks_df.loc[blocks_df["source_id"] == source]
@@ -176,8 +175,12 @@ def update_schema_description(source):
         return "Study Information - "+source, info["long_desc"], struct.make_schema_description(info), struct.make_blocks_table(blocks), pie, boxplot, map_data, 6
     else:
         # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
-
-        return "Study Information - No study selected", "Select a study using the left sidebar to see more information",  "", "", "", "",None, 6
+        print("SOURCE IS NONE, DEBUG WEEE")
+        info = source_info[["source", "LPS name", "Aims"]]
+        print(blocks_df["source_id"])
+        info = info.loc[info["source"].isin(blocks_df["source_id"])].sort_values(by = ["source"])
+        search_results = struct.sources_list(app, info, "main_search")
+        return "", "", "", search_results, "", "",None, 6
 
 
 ### Dataset BOX #####################
@@ -349,6 +352,8 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
     get id of sections. 
     '''
     trigger = dash.ctx.triggered_id
+
+        
     print("CALLBACK: body sections, activating", trigger)
     if trigger == "active_schema" or trigger == "active_table":
         print("\nPRIORITY, DEBUG: current tab", trigger)
@@ -361,8 +366,6 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
             trigger = "dd_dataset"
         else:
             raise PreventUpdate
-
-        print("debug trigger", trigger)
 
     sections_states = {}
     for section in active_body + hidden_body:
@@ -390,18 +393,27 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
 @app.callback(
     Output('active_schema','data'),
     Input("schema_accordion", "active_item"),
+    Input({"type": "main_search_source_links", "index": ALL}, 'n_clicks'),
+    Input({"type": "source_links", "index": ALL}, 'n_clicks'),
     State("active_schema", "data"),
     prevent_initial_call = True
 )
-def sidebar_schema(open_study_schema, previous_schema):
+def sidebar_schema(open_study_schema, links1, links2, previous_schema):
     '''
     When the active item in the accordion is changed
     Read the active schema NOTE with new system, could make active_schema redundant
     Read the previous schema
     Read the open schemas.
     '''
-    print("CALLBACK: sidebar schema click. Trigger:  {}, open_schema = {}".format(dash.ctx.triggered_id, open_study_schema))
+    trigger = dash.ctx.triggered_id
+    
+    print("CALLBACK: sidebar schema click. Trigger:  {}, open_schema = {}".format(trigger, open_study_schema))
+
+    if len( dash.callback_context.triggered) > 1: raise PreventUpdate
     #print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
+    if type(trigger) == dash._utils.AttributeDict:
+        print("Source updated by search click")
+        open_study_schema = trigger["index"]
     if open_study_schema == previous_schema:
         print("Schema unchanged, preventing update")
         raise PreventUpdate
@@ -522,17 +534,14 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     # 6. Collection time
     # TBC
 
-
-
     # Display search results:
     if search_type.lower() == "sources":
         search_results = "Source table"
         print("DEBUG: making source info list" )
         # making source list (not yet filtered)
         info = source_info[["source", "LPS name", "Aims"]]
-        info = info.loc[info["source"].isin(sub_list["source_id"])]
-        search_results = struct.sources_list(info)
-        print("MADE")
+        info = info.loc[info["source"].isin(sub_list["source_id"])].sort_values(by = ["source"])
+        search_results = struct.sources_list(app, info, "main_search")
     elif search_type.lower() == "datasets":
         search_results = "Dataset results placeholder"
     elif search_type.lower() == "variables":    
@@ -744,6 +753,12 @@ Add footer with requested images.
 12/3/24 Tiny last half hour:
 Get the collapse button looking better
 cont. tomorrow
+
+18/03/24 afternoon:
+Get the study list callback to doc page work
+Put the study list in unslected doc page
+Filter the study list by search terms
+
 
 Future major tasks:
 1. Hook up all search options

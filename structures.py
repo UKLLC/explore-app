@@ -851,25 +851,33 @@ def footer(app):
         ],
         className = "footer",
         id = "footer",
-
     )
     return footer
 
 
-def source_box(source, desc):
+def source_box(app, source_id, source, desc, id_prefix):
     box = html.Div([
-        html.H2(str(source)),
+        html.Div([
+            html.Img(src = app.get_asset_url("logos\\{}.jpg".format(source_id)), className = "inline_img"),
+            html.H2(str(source)),
+        ],
+        n_clicks = 0,
+        id={
+            'type': id_prefix+'_source_links',
+            'index': source_id
+        },
+        className = "header_row"),
         html.P(desc)
     ],
     className = "source_overview_box")
     return box
 
 
-def sources_list(df):
+def sources_list(app, df, id_prefix):
     source_boxes = []
     for _, row in df.iterrows():
-        source = row["LPS name"]
+        source_id = row["source"]
+        source_name = row["LPS name"]
         desc = row["Aims"]
-        source_boxes.append(source_box(source, desc))
-    print(source_boxes)
+        source_boxes.append(source_box(app, source_id, source_name, desc, id_prefix))
     return html.Div(source_boxes, className = "source_list")

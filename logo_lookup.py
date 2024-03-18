@@ -1,0 +1,20 @@
+lookup = {
+    "European Prospective Investigation into Cancer and Nutrition - Norfolk (EPIC-N)" : ,
+    "Extended Cohort for E-health, Environment and DNA (EXCEED)" : ,
+    "Fenland Study" : ,
+    "Genetic Links to Anxiety and Depression (GLAD) Study" : ,
+    "National Institute for Health and Care Research (NIHR) Mental Health BioResource COVID-19 Psychiatry and Neurological Genetics (COPING) Study" : ,
+    "Medical Research Council (MRC) National Survey of Health and Development (NSHD)" : ,
+    "TRACK-COVID Study" : ,
+    "Avon Longitudinal Study of Parents & Children (ALSPAC)" : ,
+    "Born in Bradford (BiB)" : ,
+    "English Longitudinal Study of Ageing (ELSA)" : ,
+    "Generation Scotland: Scottish Family Health Study (GS:SFHS)" : ,
+    "Next Steps" : ,
+    "Millennium Cohort Study (MCS)" : ,
+    "1958 National Child Development Study (NCDS)" : ,
+    "NICOLA: The Northern Ireland Longitudinal Study of Ageing" : ,
+    "Southall & Brent Revisited (SABRE)" : ,
+    "Understanding Society, the UK Household Longitudinal Survey & British Household Panel Survey (UKHLS)" : ,
+    "TwinsUK - The UK Adult Twin Registry" : 
+}
