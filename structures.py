@@ -24,12 +24,28 @@ def make_table(df, id, page_size = 25, ):
             editable=False,
             row_selectable=False,
             row_deletable=False,
+            style_table=ss.TABLE_STYLE,
             style_header=ss.TABLE_HEADER,
             style_cell=ss.TABLE_CELL,
             style_data_conditional=ss.TABLE_CONDITIONAL
             ),
     return table
 
+def make_table_dict(df , id, page_size = 25, ):
+    table = dash_table.DataTable(
+            id=id,
+            data=df,
+            columns=[{"name": i, "id": i} for i in df[0].keys()], 
+            page_size=page_size,
+            editable=False,
+            row_selectable=False,
+            row_deletable=False,
+            style_table=ss.TABLE_STYLE,
+            style_header=ss.TABLE_HEADER,
+            style_cell=ss.TABLE_CELL,
+            style_data_conditional=ss.TABLE_CONDITIONAL
+            ),
+    return table
 
 
 def basket_review_table(df):
@@ -69,10 +85,10 @@ def main_titlebar(app, title_text):
 def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = "None"):
     sidebar_children = []
     # Get data sources
-    sources = blocks_df["source_id"].drop_duplicates()
+    sources = blocks_df["source"].drop_duplicates()
     # Attribute tables to each study
     for schema in sources:
-        tables = blocks_df.loc[blocks_df["source_id"] == schema]["table_id"] # NOTE could change to table_name later for correct naming
+        tables = blocks_df.loc[blocks_df["source"] == schema]["table"] # NOTE could change to table_name later for correct naming
 
         # CHECKBOXES
         checkbox_items = []
@@ -352,7 +368,7 @@ def make_search_box(df):
                     dbc.Accordion([
                         dbc.AccordionItem(
                             html.Div([
-                                dcc.RangeSlider(min = 0, max = 100, step = 5, value=[20, 40], id='collection_age_slider'),
+                                dcc.RangeSlider(min = 0, max = 100, step = 5, value=[0, 100], id='collection_age_slider'),
                             ], 
                             className = "container_div"
                             ),
@@ -364,7 +380,7 @@ def make_search_box(df):
                     dbc.Accordion([
                         dbc.AccordionItem(
                             html.Div([
-                                dcc.RangeSlider(min = 0,  max = 9, step = 1, value=[5, 7], id='collection_time_slider',
+                                dcc.RangeSlider(min = 0,  max = 9, step = 1, value=[0, 9], id='collection_time_slider',
                                 marks={
                                     0: '1940',
                                     1: "1950",
@@ -401,7 +417,7 @@ def make_search_box(df):
                 ['Sources', 'Datasets', 'Variables'],
                 'Sources',
                 inline=True,
-                id = "search_type_checkbox"
+                id = "search_type_radio"
             ),
         html.Div([],
         id = "search_metadata_div"
@@ -470,7 +486,8 @@ def make_study_box():
             ], className = "container_line_50" )
             
         ],
-        className = "row_layout"
+        className = "row_layout",
+        id = "source_row",
         ),
         html.Div([], id = "study_table_div"),
         ], 
@@ -622,11 +639,11 @@ def make_schema_description(schemas):
 
 def make_block_description(blocks):
     # Make the study tab variables
-    blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
+    #blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
     return make_info_box(blocks)
 
 def make_blocks_table(df):
-    df = df[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
+    #df = df[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
     table = make_table(df, "tables_desc_table", page_size=5)
     return table
 
@@ -877,7 +894,7 @@ def sources_list(app, df, id_prefix):
     source_boxes = []
     for _, row in df.iterrows():
         source_id = row["source"]
-        source_name = row["LPS name"]
+        source_name = row["LPS_name"]
         desc = row["Aims"]
         source_boxes.append(source_box(app, source_id, source_name, desc, id_prefix))
     return html.Div(source_boxes, className = "source_list")

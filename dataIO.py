@@ -6,8 +6,6 @@ import os
 def load_blocks(cnxn):
     return pd.read_sql("SELECT * from dataset", cnxn)
 
-def load_sources(cnxn):
-    return pd.read_sql("SELECT * from datasource", cnxn)
 
 def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_linkage_by_group", cnxn)
@@ -86,6 +84,8 @@ def load_dataset_count(cnxn, source = "none", table_name = "none"):
 
 def load_study_request(cnxn):
     '''
+    Data request form info
+    @depricated: should now use 
     '''
     sheet_df = pd.read_sql("SELECT * from drf_lps", cnxn)
     #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
@@ -159,3 +159,44 @@ def get_map_overlays(study):
         returned_data = json.load(f)
     return returned_data
 
+'''
+spine: 
+Minimum info required for searching. Source & dataset.
+
+dataset_counts:
+Source name + number of datasets within 
+(made redundant by...)
+
+study_participants
+source + participant count
+
+dataset_participants:
+source + dataset + participant count
+
+dataset_Ages:
+source + dataset + age stats
+
+cohort_linkage:
+cohort + col per linked source
+
+cohort_linkage_by_groups:
+cohort + col per possible linked source combo
+
+dataset_linkage:
+source + dataset + col per linked source
+
+dataset_linkage_by_groups:
+source + dataset + col per possible linked source combo
+
+cohort_ages:
+source + age stats
+
+nhs_dataset_cohort_linkage:
+dataset + cohort + count
+
+nhs_dataset_extracts:
+dataset + date + count
+
+source_info:
+full info for sources
+'''

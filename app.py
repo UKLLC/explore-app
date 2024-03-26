@@ -14,6 +14,13 @@ from flask import request
 import plotly.express as px
 import plotly.graph_objects as go
 import sqlalchemy
+import whoosh
+from whoosh import fields, index
+from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED
+from whoosh.analysis import StemmingAnalyzer
+from whoosh import qparser
+from whoosh.qparser import QueryParser
+from whoosh.filedb.filestore import FileStorage
 
 
 
@@ -21,6 +28,8 @@ from app_state import App_State
 import dataIO
 import constants 
 import structures as struct
+
+import time
 
 
 ######################################################################################
@@ -42,19 +51,10 @@ def connect():
 request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
 # request url doesn't work just yet
 with connect() as cnxn:
-    study_df = dataIO.load_study_request(cnxn)
-    linked_df = dataIO.load_linked_request(cnxn)
-    schema_df = pd.merge((study_df.rename(columns = {"Study":"Source"})), (linked_df), how = "outer", on = ["Source", "Block Name", "Block Description"]).drop_duplicates(subset = ["Source", "Block Name"]).dropna(subset = ["Source", "Block Name"])
-    # NOTE: schema_df is the list of unique blocks
-    study_info_and_links_df = dataIO.load_study_info_and_links(cnxn)
-
-    # Load sources info
-    sources_df = dataIO.load_sources(cnxn)
     # Load block info
     blocks_df = dataIO.load_blocks(cnxn)
     dataset_counts = dataIO.load_dataset_count(cnxn)
     spine = dataIO.load_spine(cnxn)
-
     source_info = dataIO.load_source_info(cnxn)
 
     cnxn.close()
@@ -71,6 +71,19 @@ def load_or_fetch_map(study):
             print("Unable to load map file {}.geojson".format(study))
         app_state.set_map_data(study, returned_data)
     return returned_data
+
+######################################################################################
+### index
+storage_var = FileStorage("index_var")
+storage_var.open_index()
+
+storage_spine = FileStorage("index_spine")
+storage_spine.open_index()
+
+ix_var = whoosh.index.open_dir('index_var')
+ix_spine = whoosh.index.open_dir('index_spine')
+searcher_var = ix_var.searcher()
+searcher_spine = ix_spine.searcher()
 
 ######################################################################################
 ### page asset templates
@@ -138,6 +151,7 @@ def login(_):
     Output("source_age_graph", "children"),
     Output('map_region', "data"),
     Output('map_object', 'zoom'),
+    Output('source_row', "style"),
     Input('active_schema','data'),
 )
 def update_schema_description(source):
@@ -147,8 +161,8 @@ def update_schema_description(source):
     print("Updating schema page, schema = '{}'".format(source))
     if source != None and source != "None": 
         
-        info = sources_df.loc[sources_df["source_id"] == source]
-        blocks = blocks_df.loc[blocks_df["source_id"] == source]
+        info = source_info.loc[source_info["source"] == source]
+        blocks = blocks_df.loc[blocks_df["source"] == source]
 
         with connect() as cnxn:
             data = dataIO.load_cohort_linkage_groups(cnxn, source)
@@ -172,15 +186,20 @@ def update_schema_description(source):
             boxplot = "Age distribution is not available for this cohort"
 
         map_data = load_or_fetch_map(source)
-        return "Study Information - "+source, info["long_desc"], struct.make_schema_description(info), struct.make_blocks_table(blocks), pie, boxplot, map_data, 6
+        return "Study Information - "+source, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(blocks), pie, boxplot, map_data, 6, {"display": "flex"}
     else:
         # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
-        print("SOURCE IS NONE, DEBUG WEEE")
-        info = source_info[["source", "LPS name", "Aims"]]
-        print(blocks_df["source_id"])
-        info = info.loc[info["source"].isin(blocks_df["source_id"])].sort_values(by = ["source"])
+        
+        qp = qparser.QueryParser("all", ix_spine.schema)
+        q = qp.parse("1")
+
+        r = searcher_spine.search(q, collapse = "source", collapse_limit = 1, limit = None)
+        search_results = []
+        for hit in r:
+            search_results.append({key: hit[key] for key in ["source", "LPS_name", "Aims"]})
+        info = pd.DataFrame(search_results)
         search_results = struct.sources_list(app, info, "main_search")
-        return "", "", "", search_results, "", "",None, 6
+        return "UK LLC Data Sources", "", "", search_results, "", "",None, 6, {"display": "none"}
 
 
 ### Dataset BOX #####################
@@ -205,7 +224,7 @@ def update_table_data(table_id, schema):
     if schema != None and table_id != None:
         table_split = table_id.split("-")
         table = table_split[1]
-        blocks = blocks_df.loc[(blocks_df["source_id"] == schema) & (blocks_df["table_id"] == table)]
+        blocks = blocks_df.loc[(blocks_df["source"] == schema) & (blocks_df["table"] == table)]
         with connect() as cnxn:
             metadata_df = dataIO.load_study_metadata(cnxn, table_id)
             data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
@@ -304,14 +323,14 @@ def basket_review(shopping_basket):
         table_split = table_id.split("-")
         source, table = table_split[0], table_split[1]
         
-        df1 = df.loc[(df["source_id"] == source) & (df["table_id"] == table)]
+        df1 = df.loc[(df["source"] == source) & (df["table"] == table)]
         try: # NOTE TEMP LINKED OVERRIDE 
             print(df1.columns)
             row = [source, table, df1["short_desc"].values[0]]
         except IndexError:
             row = [source, table,""]
         rows.append(row)
-    df = pd.DataFrame(rows, columns=["source_id", "table_id", "long_desc"])
+    df = pd.DataFrame(rows, columns=["source", "table", "long_desc"])
     brtable = struct.basket_review_table(df)
     return brtable
 
@@ -355,8 +374,9 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
 
         
     print("CALLBACK: body sections, activating", trigger)
+    if (schema_change == None or schema_change == "None") and trigger == "study_description_div" : raise PreventUpdate
+    #if (table_change == None or table_change == "None") and trigger == "dataset_description_div" : raise PreventUpdate
     if trigger == "active_schema" or trigger == "active_table":
-        print("\nPRIORITY, DEBUG: current tab", trigger)
         active_tab = active_body[0]["props"]["id"].replace("body_","").replace("dd_", "")
 
         #TODO Should there be some toggle or condition to stop force change?
@@ -472,12 +492,12 @@ def sidebar_table(tables, previous_table):
     Input("search_checklist_1", "value"),
     Input("collection_age_slider", "value"),
     Input("collection_time_slider", "value"),
-    Input("search_type_checkbox", "value"),
+    Input("search_type_radio", "value"),
     State("active_schema", "data"),
     State("shopping_basket", "data"),
     State("active_table", "data"),
     )
-def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type,  open_schemas, shopping_basket, table):
+def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type,  open_schemas, shopping_basket, table):
     '''
     When the search button is clicked
     When the main search content is changed
@@ -497,8 +517,8 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
     Do we want it on button click or auto filter?
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
-    print("CALLBACK: main search, searching value: {}, trigger {}.".format(search, dash.ctx.triggered_id))
-    print("     DEBUG search: {}, {}, {}, {}, {}, {}".format(search, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
+    print("CALLBACK: main search, searching value: {}, trigger {}.".format(s, dash.ctx.triggered_id))
+    print("     DEBUG search: {}, {}, {}, {}, {}, {}".format(s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
 
     # new version 03/1/24 (after a month off so you know its going to be good)
     '''
@@ -507,62 +527,144 @@ def main_search(_, search, include_dropdown, exclude_dropdown, cl_1, age_slider,
         1. Get list of distinct tables
         2. 
     '''
-    # Filter list by each metric
-    # 1. general search
-    sub_list = blocks_df.loc[
-    (blocks_df["source_id"].str.contains(search, flags=re.IGNORECASE)) | 
-    (blocks_df["table_id"].str.contains(search, flags=re.IGNORECASE)) | 
-    (blocks_df["table_name"].str.contains(search, flags=re.IGNORECASE)) | 
-    (blocks_df["long_desc"].str.contains(search, flags=re.IGNORECASE)) | 
-    (blocks_df["collection_time"].str.contains(search, flags=re.IGNORECASE)) | 
-    (blocks_df["topic_tags"].str.contains(search, flags=re.IGNORECASE))
-    ]
+
+    # new version 25/03/24 (indexing )
+    '''
+    Possible fields: 
+    source
+    LPS_name 
+    table
+    table_name
+    variable_name 
+    variable_description
+    value
+    value_label
+    long_desc 
+    topic_tags 
+    collection_start
+    collection_end 
+    lf 
+    uf 
+    Aims 
+    Themes 
+    '''
+    # 1. general search 
+    # source, LPS_name, table, table_name, variable_name, variable_description, long_desc, topic_tags, Aims, Themes
+    
+
+    '''
+    General = any similarity in any field
+    data source = input must equal source
+    topic checkbox = keyword must be in topic tags
+    collection age = input must be >lf and <uf
+
+    filter by data source first
+    then topic checkbox
+    then collection age
+    finally general
+
+    can we skip db and have everything by server side index? Would make life much easier if so.
+    '''
+
+    '''
+    Some lil thinking: 
+    It seems quick to load all variables from index. Lets use that as the spine - search by full. 
+    But, maintain the schema & dataset tables/dataframes. Use id is in index to determine what to show. 
+    It will be quite important to time this to see how long the whole process takes. 
+
+    RETHINK:
+    use collapse to limit to first appearance of source/block when searching that way.
+    '''
+
+    time0 = time.time()
+
     # 2. include dropdown
     if include_dropdown:
-        print(include_dropdown, type(include_dropdown))
-        sub_list = sub_list.loc[sub_list["source_id"].str.contains("|".join(include_dropdown), flags=re.IGNORECASE)]
+        print("INCLUDE (TEMP LOCKED TO FIRST FOR DEBUG)")
+        allow_q = whoosh.query.Term("source", include_dropdown[0]) # TODO EXPAND TO MORE THAN ONE
+    else:
+        print("No include")
+        allow_q = None
     # 3. exclude dropdown
     if exclude_dropdown:
-        sub_list = sub_list.loc[~sub_list["source_id"].str.contains("|".join(exclude_dropdown), flags=re.IGNORECASE)]
-    # 4. search_checklist_1 ()
-    # TODO: this is the topics checkboxes. We need to first assign topics then store them in the database. We need this before we can filter appropriately. This is currently placeholder (3/1/24)
-    if cl_1:
-        topic_source = "TBC" # placeholder
-        sub_list = sub_list.loc[sub_list["source_id"] == topic_source]
-    # 5. Collection age
-    # TBC
-    # 6. Collection time
-    # TBC
-
-    # Display search results:
-    if search_type.lower() == "sources":
-        search_results = "Source table"
-        print("DEBUG: making source info list" )
-        # making source list (not yet filtered)
-        info = source_info[["source", "LPS name", "Aims"]]
-        info = info.loc[info["source"].isin(sub_list["source_id"])].sort_values(by = ["source"])
-        search_results = struct.sources_list(app, info, "main_search")
-    elif search_type.lower() == "datasets":
-        search_results = "Dataset results placeholder"
-    elif search_type.lower() == "variables":    
-        metadata_df_all = ""
-        # TODO make this search work and load in background
-        for index, row in sub_list.iterrows():
-            table_id = row["source_id"]+"-"+row["table_id"]
-            with connect() as cnxn:
-                metadata_df = dataIO.load_study_metadata(cnxn, table_id)
-                cnxn.close()
-            if type(metadata_df_all) == str :
-                metadata_df_all = metadata_df
-            else:
-                metadata_df_all = pd.concat([metadata_df_all, metadata_df])
-            if index == 5:
-                break
-        search_results =  struct.make_table(metadata_df_all, "search_metadata_table")
+        print("EXCLUDe (TEMP LOCKED TO FIRST FOR DEBUG)")
+        restict_q = whoosh.query.Term("source", exclude_dropdown[0]) # TODO EXPAND TO MORE THAN ONE
     else:
-        search_results = "Actually this should be a radio button", search_type
-    print("finished search")
-    return struct.build_sidebar_list(sub_list, shopping_basket, open_schemas, table), search_results
+        print("No exclude")
+        restict_q = None
+    # Age slider
+
+    #time slider
+
+    ####
+    # if no search query, return all, potentially filtered by allow_q, restrict_q etc
+
+    # Always do dataset level (for sidebar):
+    if len(s) == 0:
+        print("DEUBG: no query")
+        qp = qparser.QueryParser("all", ix_spine.schema)
+        q = qp.parse("1")
+    else:
+        print("DEUBG: query = {}", s)
+        qp = qparser.MultifieldParser(["source", "LPS_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
+        q = qp.parse(s)
+
+    r = searcher_spine.search(q, filter = allow_q, mask = restict_q, collapse = "table", limit = None)
+    sidebar_results = []
+    for hit in r:
+        sidebar_results.append({key: hit[key] for key in ["source", "table"]})
+
+    # only if searching by source
+    if search_type.lower() == "sources":
+        if len(s) == 0:
+            qp = qparser.QueryParser("all", ix_spine.schema)
+            q = qp.parse("1")
+        else:
+            qp = qparser.MultifieldParser(["source", "LPS_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
+            q = qp.parse(s)
+
+        if search_type.lower() == "sources":
+            r = searcher_spine.search(q, filter = allow_q, mask = restict_q, collapse = "source", collapse_limit = 1, limit = None)
+            search_results = []
+            for hit in r:
+                print(hit)
+                search_results.append({key: hit[key] for key in ["source", "LPS_name", "Aims"]})
+            print("DEBUG: search results, should be 1")
+            print(len(r))
+            print(len(search_results))
+            info = pd.DataFrame(search_results)
+            search_results_table = struct.sources_list(app, info, "main_search")
+            #TODO HELLO THIS IS CONFUSING AND WEIRD. Why??
+
+
+    elif search_type.lower() == "datasets": 
+        # reuse sidebar results
+        search_results = sidebar_results
+        search_results_table = struct.make_table_dict(search_results, "search_metadata_table")
+        
+
+    elif search_type.lower() == "variables": # variables
+        if len(s) == 0 and not allow_q and not restict_q: # TODO and other terms
+            qp = qparser.QueryParser("all", ix_var.schema)
+            q = qp.parse("1")
+        else:
+            qp = qparser.MultifieldParser(["source", "table", "variable_name", "variable_description", "value", "value_label", "topic_tags"], ix_var.schema, group=qparser.OrGroup)
+            q = qp.parse(s)
+        r = searcher_var.search(q, filter = allow_q, mask = restict_q, limit = None)
+        search_results = []
+        for hit in r:
+            search_results.append({key: hit[key] for key in ["source", "LPS_name", "Aims"]})
+    else:
+        search_results = "ERROR: 786, this shouldn't be reachable ", search_type 
+
+    sidebar_results_df = pd.DataFrame(sidebar_results)
+    print("Debug, sidebar results df", sidebar_results_df)
+    sidebar_results_df = sidebar_results_df[["source", "table"]]
+
+    timex = time.time()
+    print("DEBUG: time to run search function: {} seconds".format(round(timex-time0, 3)))
+
+    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, open_schemas, table), search_results_table
 
 
 
@@ -593,7 +695,7 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
         if current_data != None:
             keys = []
             for item in current_data:
-                keys.append(item["source_id"] + "-" + item["table_id"])
+                keys.append(item["source"] + "-" + item["table"])
 
             new_shopping_basket = [item for item in shopping_basket if item in keys]
 
@@ -696,9 +798,6 @@ def toggle_collapse(n, is_open):
     return is_open
 
 
-
-
-
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
@@ -758,6 +857,23 @@ cont. tomorrow
 Get the study list callback to doc page work
 Put the study list in unslected doc page
 Filter the study list by search terms
+
+19/03/24 afternoon:
+well done on study lists - looks great
+Now repeat process for tables, but with a different style (compact table, either manual or dashtable)
+That will do for now...
+What to do next? Searching? Probs should be priority. The next focus is getting searching and content workind across the board. Also cleanup dataIO
+TODO setup IO to load only important tables
+
+21/03/24:
+Man Marika Hackman was amazing
+Today we are to fully hook up searching.
+1. Add description & dataset tags to "spine"
+2. Hook up age searches
+3. Consider how to do tags
+4. Look into elastic searching
+---
+ok, elasticsearch is nogo. Try whoosh. New objective, index a full search dataset.
 
 
 Future major tasks:

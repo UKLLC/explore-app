@@ -151,6 +151,11 @@ METADATA_TABLE_DIV_STYLE = {
     "margin-top" : "1rem",
 }
 
+TABLE_STYLE = {
+    'borderRadius': '.25rem',
+    'overflow': 'hidden'
+}
+
 TABLE_HEADER = {
     'textAlign': 'center',
     'overflow': 'hidden',
@@ -158,7 +163,10 @@ TABLE_HEADER = {
     'whiteSpace': 'normal',
     'height': 'auto',
     "background-color":white[3],
-    "color":"white"
+    "color":"white",
+    "padding": ".5rem",
+    "border" : "black",
+
 }
 
 TABLE_CELL = {
