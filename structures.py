@@ -423,6 +423,7 @@ def make_search_box(df):
                 inline=True,
                 id = "search_type_radio"
             ),
+        html.Div([], id = "search_text"),
         html.Div([],
         id = "search_metadata_div"
         )

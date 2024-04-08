@@ -487,6 +487,7 @@ def sidebar_table(tables, previous_table):
 @app.callback(
     Output("sidebar_list_div", "children"),
     Output("search_metadata_div", "children"),
+    Output("search_text", "children"),
     Input("search_button", "n_clicks"),
     State("main_search", "value"),
     State("include_dropdown", "value"),
@@ -609,19 +610,28 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
         search_results = []
         for hit in r:
             search_results.append({key: hit[key] for key in ["source", "LPS_name", "Aims"]})
-
-        info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
-        search_results_table = struct.sources_list(app, info, "main_search")
+        if len(search_results) != 0:
+            info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
+            search_results_table = struct.sources_list(app, info, "main_search")
+            search_text = "Showing {} data sources".format(len(set(info["source"])))
+        else:
+            search_results_table = None
+            search_text = "No results"
         #TODO HELLO THIS IS CONFUSING AND WEIRD. Why??
 
     elif search_type.lower() == "datasets": 
         # reuse sidebar results
-        search_results = sidebar_results
-        search_results_table = struct.make_table_dict(search_results, "search_metadata_table")
-
+        search_results = []
+        for hit in r:
+            search_results.append({key: hit[key] for key in ["source", "table",]}) #"long_desc"]})
+        if len(search_results) != 0:
+            search_results_table = struct.make_table_dict(search_results, "search_metadata_table")
+            search_text = "Showing {} datasets".format(len(search_results))
+        else:
+            search_results_table = None
+            search_text = "No results"
 
     elif search_type.lower() == "variables": # variables
-        time1 = time.time()
         if len(s) == 0: # TODO and other terms
             qp = qparser.QueryParser("all", ix_var.schema)
             q = qp.parse("1")
@@ -633,10 +643,19 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
         search_results = []
         for hit in r:
             search_results.append({key: hit[key] for key in ["source", "table", "variable_name", "variable_description", "value", "value_label"]})
-        time2 = time.time()
-        print("DEBUG: time to run search function: {} seconds".format(round(time2-time1, 3)))
+        if len(search_results) != 0:
 
-        search_results_table = struct.make_table_dict(search_results, "search_metadata_table")
+            search_results_table = struct.make_table_dict(search_results, "search_metadata_table")
+            search_len = len(search_results)
+        
+            if search_len >= 10000:
+                search_text = "Seach limited to 10000 variables"
+            else:    
+                search_text = "Showing {} variables".format(len(search_results))
+        else:
+            search_results_table = None
+            search_text = "No results"
+
 
     else:
         search_results = "ERROR: 786, this shouldn't be reachable ", search_type 
@@ -647,7 +666,7 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     timex = time.time()
     print("DEBUG: time to run search function: {} seconds".format(round(timex-time0, 3)))
 
-    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, open_schemas, table), search_results_table
+    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, open_schemas, table), search_results_table, search_text
 
 
 
