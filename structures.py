@@ -289,8 +289,12 @@ def make_search_box(df):
                 ['Study data', 'NHS data', 'Geo data', 'Admin data'],
                 inline=True
             ),
-            dcc.Input("", id ="main_search", className="search_field", placeholder = "Search"),
-            html.Button("search", id = "search_button"),
+            html.Div([
+                dcc.Input("", id ="main_search", className="search_field", placeholder = "Search query"),
+                html.Button("search", id = "search_button"),
+            ],
+            className = "row_layout",
+            id = "main_search_row")
         ],
         className = "style_div",
         id = "search_style_div"
@@ -305,21 +309,21 @@ def make_search_box(df):
                                     html.H3("Include"),
                                     dcc.Dropdown(sources, id = "include_dropdown", multi = True),
                                 ],
-                                className = "container_div",
-                                ),
-                                html.Div([
-                                    html.H3("Exclude"),
-                                    dcc.Dropdown(sources, id = "exclude_dropdown", multi = True)
-                                ],
-                                className = "container_div"
-                                ),
-                            ], 
-                            className = "row_layout"
+                            className = "container_div",
                             ),
-                        title="Data Source",
-                        className = "search_accordion",
-                        id = "data_source_accordion"
-                        )
+                            html.Div([
+                                html.H3("Exclude"),
+                                dcc.Dropdown(sources, id = "exclude_dropdown", multi = True)
+                            ],
+                            className = "container_div"
+                            ),
+                        ], 
+                        className = "row_layout"
+                        ),
+                    title="Data Source",
+                    className = "search_accordion",
+                    id = "data_source_accordion"
+                    )
                     ]),
                     dbc.Accordion([
                         dbc.AccordionItem(
@@ -373,7 +377,7 @@ def make_search_box(df):
                             className = "container_div"
                             ),
                         title="Collection Age",
-                        className = "collection_age_accordion",
+                        className = "search_accordion",
                         id = "collection_age_accordion"
                         )
                     ]),
@@ -398,7 +402,7 @@ def make_search_box(df):
                             className = "container_div"
                             ),
                         title="Collection Time",
-                        className = "collection_time_accordion",
+                        className = "search_accordion",
                         id = "collection_time_accordion"
                         )
                     ]),
@@ -778,8 +782,8 @@ def boxplot(mean, median, q1, q3, sd, lf, uf):
     return dcc.Graph(figure = fig, className = "tab_div")
 
 def sunburst(source_counts, dataset_counts):
-
-    labels = ["Linked", "LPS"] + list(source_counts["source"].values) + list(dataset_counts["table_name"].values)
+    dataset_counts = dataset_counts.fillna(0)
+    labels = ["Linked", "LPS"] + list(source_counts["source"].values) + list(dataset_counts["table"].values)
     parents = ["",""]+ ["LPS" for i in source_counts["source"].values] + list(dataset_counts["source"].values)
     vals_sources = list(source_counts["participant_count"].values)
     weighted_vals_ds = [int(x) for x in list(dataset_counts["weighted_participant_count"].values)]

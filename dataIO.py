@@ -3,7 +3,7 @@ import json
 import os
 
 
-def load_blocks(cnxn):
+def load_datasets(cnxn):
     return pd.read_sql("SELECT * from dataset", cnxn)
 
 
@@ -32,13 +32,6 @@ def load_dataset_linkage(cnxn, source = "none", table_name = "none"):
 
 def load_cohort_linkage_groups(cnxn, source = "none"):
     rtn = pd.read_sql("SELECT * from cohort_linkage_by_group", cnxn)
-    if source == "none":
-        return rtn
-    else:
-        return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
-
-def load_cohort_linkage(cnxn, source = "none"):
-    rtn = pd.read_sql("SELECT * from cohort_linkage", cnxn)
     if source == "none":
         return rtn
     else:
@@ -124,15 +117,14 @@ def load_study_metadata(cnxn, table_id):
     # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
     try:
         #values_df = pd.read_csv(os.path.join("metadata",str(study.upper()),table+".csv"))
-        values_df = pd.read_sql("SELECT * from {}".format(study.lower()+"_"+table.lower()), cnxn) 
+        values_df = pd.read_sql("SELECT * from metadata_{}".format(study.lower()+"_"+table.lower()), cnxn) 
     except FileNotFoundError:
         print("Couldn't find file {}. Skipping (shouldn't be a problem when we have a db...".format(str(study.upper())+table+".csv"))
         return None
     
     return values_df
 
-def load_spine(cnxn):
-    return pd.read_sql("SELECT * from spine", cnxn)
+
 
 def basket_out(basket):
     basket_pd = pd.DataFrame({

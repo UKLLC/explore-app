@@ -16,7 +16,7 @@ storage_spine = FileStorage("index_spine")
 storage_spine.open_index()
 
 
-s = Or([Term("source", u"ALSPAC"), Term("source", u"BCS70")])
+s = ""
 include_dropdown = []
 exclude_dropdown = []
 page = 1
@@ -71,6 +71,7 @@ results = searcher_spine.search(q, filter = allow_q, mask = restict_q, collapse 
 print(len(results))
 l =[]
 for hit in results:
+    print(hit.keys())
     l.append({key: hit[key] for key in ["source", "Aims"]})
 print("Search duration: {}".format(time.time()- time0))
 for l1 in l:

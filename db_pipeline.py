@@ -7,6 +7,7 @@ from office365.runtime.auth.authentication_context import AuthenticationContext
 from office365.sharepoint.client_context import ClientContext
 from office365.sharepoint.files.file import File
 import bot_token as bt
+import os
 
 def connect():
     # need to swap password for local var
@@ -117,8 +118,8 @@ def main():
     spine = data["spine"]
     block_counts = data["block counts"]
     study_participants = data["study participants"]
-    block_participants = data["block participants"]
-    weighted_block_participants = data["weighted participants"]
+    dataset_participants = data["block participants"]
+    weighted_dataset_participants = data["weighted participants"]
     block_ages = data["block ages"]
     datasets = data["datasets"]
     cohort_linkage_groups = data["cohort linkage rate"]
@@ -127,7 +128,6 @@ def main():
     nhs_dataset_extracts = data["groupby"]
 
     block_counts_df = pd.DataFrame(block_counts.items(), columns = ["source", "dataset_count"] )
-    block_counts_df.to_sql("dataset_counts", cnxn, if_exists="replace")
 
     ###
 
@@ -136,10 +136,9 @@ def main():
 
     ###
 
-    block_participants_df = pd.DataFrame(block_participants.items(), columns = ["source", "participant_count"] )
-    block_participants_df = pd.merge(block_participants_df, pd.DataFrame(weighted_block_participants.items(), columns = ["source", "weighted_participant_count"]) )
-    block_participants_df[['source', 'table_name']] = block_participants_df['source'].str.split('.', expand=True)
-    block_participants_df.to_sql("dataset_participants", cnxn, if_exists="replace")
+    dataset_participants_df = pd.DataFrame(dataset_participants.items(), columns = ["source", "participant_count"] )
+    dataset_participants_df = pd.merge(dataset_participants_df, pd.DataFrame(weighted_dataset_participants.items(), columns = ["source", "weighted_participant_count"]) )
+    dataset_participants_df[['source', 'table']] = dataset_participants_df['source'].str.split('.', expand=True)
 
     ###
 
@@ -169,9 +168,8 @@ def main():
         group_counts = cohort_linkage_groups[cohort]["counts"]
         for key, item in group.items():
             cohort_linkage_groups_by_group_rows.append([cohort, key, item, group_counts[key]])
-    cohort_linkage_df = pd.DataFrame(cohort_linkage_groups_rows, columns = ["cohort", "nhs", "geo", "total"])
+    cohort_linkage_df = pd.DataFrame(cohort_linkage_groups_rows, columns = ["cohort", "nhs", "geo", "total"]).rename(columns={"cohort":"source"})
     cohort_linkage_by_group = pd.DataFrame(cohort_linkage_groups_by_group_rows, columns = ["cohort", "group", "perc", "count"])
-    cohort_linkage_df.to_sql("cohort_linkage", cnxn, if_exists="replace")
     cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn, if_exists="replace")
 
     ###
@@ -192,9 +190,8 @@ def main():
         for key, item in group.items():
             blocks_linkage_by_group_rows.append([schema, table, key, item, group_counts[key]])
 
-    block_linkage_df = pd.DataFrame(blocks_linkage_rows, columns = ["source", "table_name", "nhs", "geo", "total"])
+    block_linkage_df = pd.DataFrame(blocks_linkage_rows, columns = ["source", "table_name", "nhs", "geo", "total"]).rename(columns={"table_name":"table"})
     block_linkage_by_group = pd.DataFrame(blocks_linkage_by_group_rows, columns = ["source", "table_name", "group", "perc", "count"])
-    block_linkage_df.to_sql("dataset_linkage", cnxn, if_exists="replace")
     block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn, if_exists="replace")
 
     ###
@@ -227,25 +224,15 @@ def main():
     nhsd_dataset_extract_df = pd.DataFrame(nhs_dataset_extract_rows, columns = ["dataset", "date", "count"])
     nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn, if_exists="replace")
 
-    ###
-    # Search lookup table
-    rows = []
-    for dataset in spine.keys():
-        schema = dataset.split(".")[0]
-        table = dataset.split(".")[1]
-        age_lf, age_uf = block_ages[dataset]["10%"], block_ages[dataset]["90%"]
-        table_type = spine[dataset]
-
-        rows.append([schema, table, table_type, age_lf, age_uf])
-    spine_df = pd.DataFrame(rows, columns = ["source", "table", "current_age_lf", "current_age_uf", "table_type"])
-    spine_df.to_sql("spine", cnxn, if_exists="replace")
 
     ###
     # core source info 
-    source_df = pd.read_excel("Mental_health_catalogue.xlsx", sheet_name="Sheet1")
+    source_df = pd.read_excel("all_sources_in.xlsx", sheet_name="Sheet1")
+    source_df = source_df.rename(columns = {"LPS name":"LPS_name"})
     
     source_df = pd.merge(source_df, block_counts_df, on = ["source"])
     source_df = pd.merge(source_df, study_participants_df, on = ["source"])
+    source_df = pd.merge(source_df, cohort_linkage_df, on = ["source"], how = "left")
     
     source_df.to_sql("source_info", cnxn, if_exists="replace")
 
@@ -253,6 +240,9 @@ def main():
     ###
     # dataset
     dataset_df = pd.read_excel("Database tables.xlsx", sheet_name="Dataset")
+
+    dataset_df = pd.merge(dataset_df, dataset_participants_df, how = "left", on =["source", "table"])
+    dataset_df = pd.merge(dataset_df, block_linkage_df, how = "left", on =["source", "table"])
     dataset_df.to_sql("dataset", cnxn, if_exists="replace")
 
 
@@ -266,41 +256,39 @@ def main():
     all_variables["value"] = all_variables["value"].str.replace("[|]|'", "")
     all_variables["value_label"] = all_variables["value_label"].str.replace("[|]|", "")
     #get dataset full name, long desc, dataset topic tags
-    search = pd.merge(all_variables, dataset_df[["source", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end"]], on  = ["source", "table"] )
+    search = pd.merge(all_variables, dataset_df[["source", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end"]], on  = ["source", "table"], how = "right")
     # Get age upper lowers
     block_ages_df = block_ages_df.rename(columns = {"table_name":"table"})
-    search = pd.merge(search, block_ages_df[["source", "table", "lf", "uf"]], on  = ["source", "table"] )
+    search = pd.merge(search, block_ages_df[["source", "table", "lf", "uf"]], on  = ["source", "table"], how = "left" )
     # Get source fullname, description, themes
-    search = pd.merge(search, source_df[["source", "LPS name", "Aims", "Themes"]],  on  = ["source"])
+    search = pd.merge(search, source_df[["source", "LPS_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
     search["Themes"] = search["Themes"].str.replace("\n", "")
     #search = search.fillna("")
-    search.to_csv("debug.csv", index=False)
-    search = pd.read_csv("debug.csv", index_col=False)
     search.to_sql("search", cnxn, if_exists="replace")
-    # TODO collection 
-    #print(cohort_linkage_groups_df)
-
-    #print(block_participants)
-    #block_participants_df = pd.DataFrame(block_participants.items() )
     
-    #print("block ages:\n", block_ages)
-    #print("datasets:\n", datasets)
-    #print("cohort linkage groups:\n", cohort_linkage_groups)
-    #print("cohort ages:\n", cohort_ages)
+    ### 
+    # all individual metadata files
+    # load all metadata
 
-    '''
-    TODO 
-    Left to do is build the tables as pandas df
-        make cohort linkage numbers (rather than just groups)
-        make block ages
-        make datasets counts and breakdowns
-        make cohort linkage groups
-    upload the tables to the database
-    '''
-
-    # Adding File 2 Documentation
-    
+    for root, dirs, files in os.walk('metadata'):
+        for name in files:
+            fpath = os.path.join(root, name)
+            data = pd.read_csv(fpath)
+            if "all_metadata.csv" in name:
+                continue
+            tab_name = "metadata_"+root.split('\\')[1].lower() + '_' + name.split('.')[0].lower()
+            data.to_sql(tab_name, cnxn, if_exists = 'replace', index = False)
 
 
 if __name__ == "__main__":
     main()
+    
+
+
+'''
+Linked data extension: what do we need to implement?
+linkage rate = ammount with linkage permission
+participant count, weighted participant count
+Obvs linkage graph isn't important.
+
+'''

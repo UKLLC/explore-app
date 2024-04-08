@@ -30,12 +30,20 @@ def main():
 
     data["lf"] = data["lf"].fillna("-99")
     data["uf"] = data["uf"].fillna("-99")
+    data["variable_name"] = data["variable_name"].fillna(" ")
+    data["variable_description"] = data["variable_name"].fillna(" ")
     data["value"] = data["value"].fillna(" ")
     data["value_label"] = data["value_label"].fillna(" ")
+    data["collection_start"] = data["collection_start"].fillna(" ")
+    data["collection_end"] = data["collection_end"].fillna(" ")
+    data["LPS_name"] = data["LPS_name"].fillna(" ")
+    data["Aims"] = data["Aims"].fillna(" ")
+    data["Themes"] = data["Themes"].fillna(" ")
     data["all"] = "1"
-    print(data)
+    data.to_csv("test.csv")
+    
     variable(data)
-    #spine(data)
+    spine(data)
 
 def variable(data):
     time0 = time.time()
@@ -64,14 +72,13 @@ def variable(data):
     if not os.path.exists("index_var"):
         os.mkdir("index_var")
 
-    print(data.columns)
     ix1 = create_in("index_var", schema1)
     writer= ix1.writer()
     for i, nrows in data.iterrows():
         writer.add_document(
             all = data["all"][i],
             source = data.source[i],
-            LPS_name = data["LPS name"][i],
+            LPS_name = data["LPS_name"][i],
             table = data.table[i],
             table_name = data.table_name[i],
             variable_name = data.variable_name[i],
@@ -95,8 +102,7 @@ def variable(data):
     print("DURATION: {}mins".format(round((time1 - time0)/60, 3)))
 
 def spine(data):
-
-    spine = data[["all", "source", "LPS name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "lf", "uf", "Aims", "Themes"]].drop_duplicates(subset = ["source", "table"])
+    spine = data[["all", "source", "LPS_name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "lf", "uf", "Aims", "Themes"]].drop_duplicates(subset = ["source", "table"])
     #define the search schema
     schema2 = fields.Schema(
         all = fields.ID(stored=True),
@@ -125,7 +131,7 @@ def spine(data):
         writer.add_document(
             all = spine["all"][i],
             source = spine.source[i],
-            LPS_name = spine["LPS name"][i],
+            LPS_name = spine["LPS_name"][i],
             table = spine.table[i],
             table_name = spine.table_name[i],
             long_desc = spine.long_desc[i],

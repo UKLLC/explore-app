@@ -61,7 +61,7 @@ for root, dirs, files in os.walk('metadata'):
     for name in files:
         fpath = os.path.join(root, name)
         data = pd.read_csv(fpath)
-        tab_name = root.split('\\')[1].lower() + '_' + name.split('.')[0].lower()
+        tab_name = "metadata_"+root.split('\\')[1].lower() + '_' + name.split('.')[0].lower()
         make_table(data, tab_name)
 
 

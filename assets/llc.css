@@ -43,6 +43,7 @@
     --bs-cyangroup1:#00ABAA;
     --bs-cyangroup2:#50AFA8;
     --bs-cyangroup3:#00B2A9;
+    --bs-cyangroup4:#9edfdf;
 
     --bs-limegroup1:#CDD500;
     --bs-limegroup2:#a8ad16;
@@ -355,10 +356,10 @@ abbr[title] {
     position: relative;
     display: flex;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
-    font-size: medium;
+    font-size: 1.15rem;
     margin: 0rem;
     padding: 0.3rem;
-    padding-left: .5rem;
+    padding-left: .75rem;
     text-align: left;
     width:100%;
     cursor: pointer;
@@ -366,8 +367,14 @@ abbr[title] {
 }
 
 .accordion-button:hover {
+    transition-duration: .25s;
     background-color: var(--bs-whitegroup2);
 }
+.accordion-button:active {
+    transition-duration: .1s;
+    background-color: var(--bs-cyangroup4);
+}
+
 
 .accordion-button:not(.collapsed) {
     border-bottom: var(--bs-whitegroup4) solid thin;
@@ -391,6 +398,11 @@ abbr[title] {
     transition: transform 0.2s ease-in-out;
     border: none;
     }
+
+.search_accordion .accordion-body {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
 
 .content_accordion .accordion-button::after {
     background-image: url("expand-arrow-white-1-32.png");
@@ -488,16 +500,35 @@ abbr[title] {
 
 
 /* */
-  
+#main_search_row {
+    margin-top: 1rem;
+    height:3rem
+}
 .search_field {
     height: 1.5rem;
     padding: .5rem;
 }
 #main_search {
-    width: 100%;
+    height: 2.5rem;
+    width: 85%;
+    height : 100%;
 }
+
 #search_button {
-    display: none;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+    border: var(--bs-cyangroup1);
+    border-radius: .25rem;
+    background: var(--bs-cyangroup1);
+    padding: .25rem 1rem .3rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: large;    
+    height: 100%;
+    padding: .8rem;
+    margin-left: 1rem;
 }
 
 .custom-tabs-container {
@@ -803,7 +834,9 @@ ul {
 }
 #search_type_radio {
     padding : .25rem;
-    font-size:  .9rem;
+    padding-top: 1rem;
+    font-size:  1.25rem;
+    background-color: white;
 }
 #search_type_radio label {
     margin-right: 1rem;
@@ -927,8 +960,8 @@ ul {
 }
 
 .source_overview_box {
-    padding: .5rem;
-    padding-top: 0rem;
+    padding: .65rem;
+    padding-top: .2rem;
     border:  solid thin black;
     border-radius: .5rem;
     background-color: white;
@@ -959,3 +992,4 @@ ul {
 #study_title {
     padding-left: 1rem;
 }
+
