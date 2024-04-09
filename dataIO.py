@@ -75,6 +75,10 @@ def load_dataset_count(cnxn, source = "none", table_name = "none"):
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
 
 
+def load_search(cnxn):
+    return pd.read_sql("SELECT * from search", cnxn)
+
+
 def load_study_request(cnxn):
     '''
     Data request form info

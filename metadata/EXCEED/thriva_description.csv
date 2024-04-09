@@ -1,8 +1,0 @@
-table_name,variable_name,variable_label,avail_from_dt
-thriva_v0001_20220302,specimenProcessedDate,The date that the result was obtained in the lab,2022-03-30 16:03:18.023
-thriva_v0001_20220302,resultValueCOVG,A numeric result of the Anti-N test e.g. optical reading,2022-03-30 16:03:18.023
-thriva_v0001_20220302,resultValueUnitOfMeasureCOVG,Unit of measure for the numeric result value which may be needed depending on the machine outputs,2022-03-30 16:03:18.023
-thriva_v0001_20220302,testResultCOVG,The classification of the Anti-N result value based on reference ranges at the time of testing,2022-03-30 16:03:18.023
-thriva_v0001_20220302,resultValueCOVS,"A numeric result of the Anti-S test, e.g. optical reading",2022-03-30 16:03:18.023
-thriva_v0001_20220302,resultValueUnitOfMeasureCOVS,Unit of measure for the numeric result value which may be needed depending on the machine outputs,2022-03-30 16:03:18.023
-thriva_v0001_20220302,testResultCOVS,"The classification based on reference ranges at the time of testing - A string - a set of predefined terms e.g. positive, borderline, negative, or void",2022-03-30 16:03:18.023

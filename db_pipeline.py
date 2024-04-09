@@ -228,10 +228,10 @@ def main():
     ###
     # core source info 
     source_df = pd.read_excel("all_sources_in.xlsx", sheet_name="Sheet1")
-    source_df = source_df.rename(columns = {"LPS name":"LPS_name"})
+    source_df = source_df.rename(columns = {"Source name":"Source_name"})
     
-    source_df = pd.merge(source_df, block_counts_df, on = ["source"])
-    source_df = pd.merge(source_df, study_participants_df, on = ["source"])
+    source_df = pd.merge(source_df, block_counts_df, on = ["source"], how = "left")
+    source_df = pd.merge(source_df, study_participants_df, on = ["source"], how = "left")
     source_df = pd.merge(source_df, cohort_linkage_df, on = ["source"], how = "left")
     
     source_df.to_sql("source_info", cnxn, if_exists="replace")
@@ -261,7 +261,7 @@ def main():
     block_ages_df = block_ages_df.rename(columns = {"table_name":"table"})
     search = pd.merge(search, block_ages_df[["source", "table", "lf", "uf"]], on  = ["source", "table"], how = "left" )
     # Get source fullname, description, themes
-    search = pd.merge(search, source_df[["source", "LPS_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
+    search = pd.merge(search, source_df[["source", "Source_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
     search["Themes"] = search["Themes"].str.replace("\n", "")
     #search = search.fillna("")
     search.to_sql("search", cnxn, if_exists="replace")

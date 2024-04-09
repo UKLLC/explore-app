@@ -173,8 +173,8 @@ def make_sidebar_catalogue(df):
  
 def make_sidebar_title():
     sidebar_title = html.Div([
-        html.Div(html.H2("Catalogue")),
-        html.Div(html.P("TODO: filter status"))
+        html.Div(html.H2("UK LLC Data Catalogue")),
+        html.Div(html.P("Showing full catalogue"), id = "sidebar_filter")
         ], id = "sidebar_title")
     return sidebar_title
 
@@ -899,7 +899,7 @@ def sources_list(app, df, id_prefix):
     source_boxes = []
     for _, row in df.iterrows():
         source_id = row["source"]
-        source_name = row["LPS_name"]
+        source_name = row["Source_name"]
         desc = row["Aims"]
         source_boxes.append(source_box(app, source_id, source_name, desc, id_prefix))
     return html.Div(source_boxes, className = "source_list")

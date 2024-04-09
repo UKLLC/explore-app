@@ -755,14 +755,15 @@ ul {
     background-color:#212529 ;
     overflow-y: scroll;
     overflow-x: hidden;
-    height:91.1%;
+    height:93.9%;
 }
 
 
 #sidebar_title {
     background-color: #212529;
     color: white;
-    height: 8.8%;
+    height: 6%;
+    padding-left: .5rem;
 }
 
 #landing {

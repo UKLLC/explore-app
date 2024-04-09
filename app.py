@@ -56,6 +56,7 @@ with connect() as cnxn:
     dataset_counts = datasets_df[["source", "table", "participant_count", "weighted_participant_count" ]]
     spine = datasets_df[["source", "table"]].drop_duplicates()
     source_info = dataIO.load_source_info(cnxn)
+    search = dataIO.load_search(cnxn)[["source", "table", "variable_name", "variable_description", "value", "value_label"]]
 
     cnxn.close()
 
@@ -176,16 +177,22 @@ def update_schema_description(source):
                 labels.append(l)
                 values.append(round(v * 100, 2))
                 counts.append(str(d))
+        if len(labels) > 0:
+            pie = struct.pie(labels, values, counts)
+        else:
+            pie = "Linkage statistics are not currently available for {}".format(source)
 
-        pie = struct.pie(labels, values, counts)
-
-        if ages["mean"].values[0]:
+        if len(ages["mean"].values) > 0:
             boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
         else:
-            boxplot = "Age distribution is not available for this cohort"
+            boxplot = "Age distribution statistics are not currently available for {}".format(source)
 
         map_data = load_or_fetch_map(source)
-        return "Study Information - "+source, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(blocks), pie, boxplot, map_data, 6, {"display": "flex"}
+        if info["Type"].values[0] == "Linked":
+            title_text = "Linked Data Information - "+source
+        else:
+            title_text = "Study Information - "+source
+        return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df), pie, boxplot, map_data, 6, {"display": "flex"}
     else:
         # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
         
@@ -195,9 +202,12 @@ def update_schema_description(source):
         r = searcher_spine.search(q, collapse = "source", collapse_limit = 1, limit = None)
         search_results = []
         for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "LPS_name", "Aims"]})
-        info = pd.DataFrame(search_results)
-        search_results = struct.sources_list(app, info, "main_search")
+            search_results.append({key: hit[key] for key in ["source", "Source_name", "Aims"]})
+        if len(search_results) >0:
+            info = pd.DataFrame(search_results)
+            search_results = struct.sources_list(app, info, "main_search")
+        else:
+            search_results = "No data available"
         return "UK LLC Data Sources", "", "", search_results, "", "",None, 6, {"display": "none"}
 
 
@@ -208,6 +218,7 @@ def update_schema_description(source):
     Output('dataset_linkage_graph', "children"),
     Output("dataset_age_graph", "children"),
     Output('dataset_variables_div', "children"),
+    Output("dataset_title", "children"),
     Input('active_table', 'data'),
     State('active_schema', 'data'),
     prevent_initial_call=True
@@ -226,6 +237,8 @@ def update_table_data(table_id, schema):
         blocks = datasets_df.loc[(datasets_df["source"] == schema) & (datasets_df["table"] == table)]
         long_desc = blocks["long_desc"]
 
+        title_text = "Dataset Information - {}".format(table)
+
         blocks = blocks[["table_name", "collection_start", "collection_end", "participants_included", "topic_tags", "links", ]]
         with connect() as cnxn:
             metadata_df = dataIO.load_study_metadata(cnxn, table_id)[["Variable Name", "Variable Description", "Value","Value Description"]]
@@ -242,18 +255,20 @@ def update_table_data(table_id, schema):
                 values.append(round(v * 100, 2))
                 counts.append(str(d))
 
-        pie = struct.pie(labels, values, counts)
+        if len(labels) > 0:
+            pie = struct.pie(labels, values, counts)
+        else:
+            pie = "Linkage statistics are not currently available for {} {}".format(schema, table)
 
         
-        if ages["mean"].values[0]:
+        if len(ages["mean"].values) > 0:
             boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
         else:
-            boxplot = "Age distribution is not available for this cohort"
-
-        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table")
+            boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
+        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table"), title_text
     else:
         # Default (Section may be hidden in final version)
-        return "Select a dataset for more information...", "", "", "", ""
+        return "Select a dataset for more information...", "", "", "", "", "Dataset Information - No Dataset Selected"
 
 '''
 @app.callback(
@@ -488,6 +503,7 @@ def sidebar_table(tables, previous_table):
     Output("sidebar_list_div", "children"),
     Output("search_metadata_div", "children"),
     Output("search_text", "children"),
+    Output("sidebar_filter", "children"),
     Input("search_button", "n_clicks"),
     State("main_search", "value"),
     State("include_dropdown", "value"),
@@ -535,7 +551,7 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     '''
     Possible fields: 
     source
-    LPS_name 
+    Source_name 
     table
     table_name
     variable_name 
@@ -552,7 +568,7 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     Themes 
     '''
     # 1. general search 
-    # source, LPS_name, table, table_name, variable_name, variable_description, long_desc, topic_tags, Aims, Themes
+    # source, Source_name, table, table_name, variable_name, variable_description, long_desc, topic_tags, Aims, Themes
 
 
     time0 = time.time()
@@ -585,9 +601,10 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
         print("DEUBG: no query")
         qp = qparser.QueryParser("all", ix_spine.schema)
         q = qp.parse("1")
+
     else:
         print("DEUBG: query = {}".format(s))
-        qp = qparser.MultifieldParser(["source", "LPS_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
+        qp = qparser.MultifieldParser(["source", "Source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
         qp.add_plugin(qparser.FuzzyTermPlugin())
         q = qp.parse(str(s)+str("~1/3"))
 
@@ -595,6 +612,11 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     sidebar_results = []
     for hit in r:
         sidebar_results.append({key: hit[key] for key in ["source", "table"]})
+    if len(sidebar_results) == len(spine):
+        sidebar_text= "Showing full catalogue"
+    else:
+        sidebar_text = "Hiding {} datasets from search filters".format(len(spine) - len(sidebar_results))
+
 
     # only if searching by source
     if search_type.lower() == "sources":
@@ -602,14 +624,14 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
             qp = qparser.QueryParser("all", ix_spine.schema)
             q = qp.parse("1")
         else:
-            qp = qparser.MultifieldParser(["source", "LPS_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
+            qp = qparser.MultifieldParser(["source", "Source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
             qp.add_plugin(qparser.FuzzyTermPlugin())
             q = qp.parse(str(s)+str("~1/3"))
     
         r = searcher_spine.search(q, filter = allow_q, mask = restict_q, collapse = "source", limit = None)
         search_results = []
         for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "LPS_name", "Aims"]})
+            search_results.append({key: hit[key] for key in ["source", "Source_name", "Aims"]})
         if len(search_results) != 0:
             info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
             search_results_table = struct.sources_list(app, info, "main_search")
@@ -641,11 +663,16 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
             q = qp.parse(str(s)+str("~1/3"))
         r = searcher_var.search(q, filter = allow_q, mask = restict_q, limit = 10000)
         search_results = []
+        sr_sources = []
+        sr_tables = []
+        sr_variables = []
         for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "table", "variable_name", "variable_description", "value", "value_label"]})
-        if len(search_results) != 0:
-
-            search_results_table = struct.make_table_dict(search_results, "search_metadata_table")
+            sr_sources.append(hit["source"])
+            sr_tables.append(hit["table"])
+            sr_variables.append(hit["variable_name"])
+        if len(r) != 0:
+            search_results = search.loc[(search["source"].isin(sr_sources) ) & (search["table"].isin(sr_tables) ) & (search["variable_name"].isin(sr_variables) )]
+            search_results_table = struct.make_table(search_results, "search_metadata_table")
             search_len = len(search_results)
         
             if search_len >= 10000:
@@ -666,7 +693,7 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     timex = time.time()
     print("DEBUG: time to run search function: {} seconds".format(round(timex-time0, 3)))
 
-    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, open_schemas, table), search_results_table, search_text
+    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, open_schemas, table), search_results_table, search_text, sidebar_text
 
 
 
