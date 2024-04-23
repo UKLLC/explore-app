@@ -19,7 +19,7 @@ def make_table(df, id, page_size = 25, ):
     table = dash_table.DataTable(
             id=id,
             data=df.to_dict('records'),
-            columns=[{"name": i, "id": i} for i in df.columns], 
+            columns=[{'id': i, 'name': i, 'presentation': 'markdown'} if "link" in i.lower() else {"name": i, "id": i} for i in df.columns], 
             page_size=page_size,
             editable=False,
             row_selectable=False,
@@ -35,7 +35,7 @@ def make_table_dict(df , id, page_size = 25, ):
     table = dash_table.DataTable(
             id=id,
             data=df,
-            columns=[{"name": i, "id": i} for i in df[0].keys()], 
+            columns=[{'id': i, 'name': i, 'presentation': 'markdown'} if "link" in i.lower() else {"name": i, "id": i} for i in df[0].keys()], 
             page_size=page_size,
             editable=False,
             row_selectable=False,
@@ -68,7 +68,8 @@ def main_titlebar(app, title_text):
         html.Div([
             html.Img(
                 src = app.get_asset_url("Logo_LLC.png"),
-                style = ss.LOGOS_STYLE
+                
+                id = "llc_logo"
             ),
             html.A(
             href="https://ukllc.ac.uk/",
@@ -86,9 +87,35 @@ def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = 
     sidebar_children = []
     # Get data sources
     sources = blocks_df["source"].drop_duplicates()
+    print(blocks_df)
     # Attribute tables to each study
     for schema in sources:
-        tables = blocks_df.loc[blocks_df["source"] == schema]["table"] # NOTE could change to table_name later for correct naming
+        source_name = blocks_df.loc[blocks_df["source"] == schema]["source_name"].values[0]
+        tables = blocks_df.loc[blocks_df["source"] == schema]["table"]
+        table_names = blocks_df.loc[blocks_df["source"] == schema]["table_name"]
+        table_type = blocks_df.loc[blocks_df["source"] == schema]["Type"].values[0]
+
+        if table_type.lower() == "lps":
+            style_classname = "LPS_accordion"
+            collapse_style_classname = "LPS_collpase"
+        elif table_type.lower() == "linked":
+            style_classname = "linked_accordion"
+            collapse_style_classname = "linked_collpase"
+
+        collapse_open = False
+        if schema in sch_open and sch_open[schema] == True:
+            collapse_open = True
+
+        # Tooltip
+        source_tooltip = dbc.Tooltip(
+            source_name,
+            delay = {"show" : 750, "hide":0},
+            target= {
+                    "type":'button_text',
+                    "index" : schema
+                },
+            placement="right",
+        )
 
         # CHECKBOXES
         checkbox_items = []
@@ -115,52 +142,93 @@ def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = 
                 },
             )
 
-        # SCHEMA AND TABLES
-        schema_children = dbc.AccordionItem([
+        # SCHEMA
+        source = html.Div([
             html.Div(
-                [    
-                dcc.Tabs(
-                    id={
-                        'type': 'table_tabs',
-                        'index': schema
-                    },
-                    vertical=True,
-                    value=tab_open,#"None" by default, otherwise app_state.table
-                    parent_className='custom-tabs',
-                    className = "table_tabs_container",
-                    children = [
-                        
-                        dcc.Tab(
-                            label = table,
-                            value = schema+"-"+table,
-                            id={
-                                'type': 'sidebar_table_item',
-                                'index': schema+"-"+table
-                            },
-                            className = "table_tab",
-                            selected_className='table_tab--selected'
-                        )
-                        for table in tables
-                        ],
+                [
+                html.Div (
+                    [
+                    html.Div(
+                        [html.Div(
+                            schema, 
+                            id = {
+                            "type":'button_text',
+                            "index" : schema},
+                            className = "button_text"
+                            ),
+                            ],
+                        id= {
+                            "type":'source_title',
+                            "index" : schema
+                        },
+                        className = "source_title",
+                        n_clicks = 0
                     ),
+                    html.Button(
+                        "",
+                        id= {
+                            "type":'source_collapse_button',
+                            "index" : schema
+                        },
+                        className = "source_collapse_button"
+                    )                
+                    ],
+                    className = "row_layout"
+                )
+                ],
+                className = "collapse-button"
+            ),
+        ],
+        className = style_classname
+        )
+
+        # TABLES
+        table = dbc.Collapse([
+            html.Div(children = [  
+                dcc.Tabs(
+                id={
+                    'type': 'table_tabs',
+                    'index': schema
+                },
+                vertical=True,
+                value= "None", #by default, otherwise app_state.table
+                parent_className='custom-tabs',
+                className = "table_tabs_container",
+                children = [
+                    
+                    dcc.Tab(
+                        label = table,
+                        value = schema+"-"+table,
+                        id={
+                            'type': 'sidebar_table_item',
+                            'index': schema+"-"+table
+                        },
+                        className = "table_tab",
+                        selected_className="table_tab--selected"
+                    )
+                    for table in tables
+                    ],
+                ),
                 checkbox_col  
                 ],
                 className = "list_and_checkbox_div"
                 ),
             ],
-            title = schema,
-            item_id = schema
+            id= {
+                "type":'source_collapse',
+                "index" : schema
+                },
+            className = collapse_style_classname,
+            is_open = collapse_open
             )
 
-        sidebar_children += [schema_children]
+        sidebar_children += [source, source_tooltip, table]
 
-    study_list = dbc.Accordion(
+    study_list = html.Div(
         sidebar_children,
         id='schema_accordion',
         className= "content_accordion",
-        always_open=False,
-        key = "0",
-        active_item = sch_open)
+        )
     return study_list
 
 
@@ -285,9 +353,10 @@ def make_search_box(df):
         id = "intro_div"),
         html.Div([
             dcc.Checklist(
-                ['Study data', 'NHS data', 'Geo data', 'Admin data'],
-                ['Study data', 'NHS data', 'Geo data', 'Admin data'],
-                inline=True
+                ['Study data', 'Linked data'],
+                ['Study data', 'Linked data'],
+                inline=True,
+                id = "include_type_checkbox"
             ),
             html.Div([
                 dcc.Input("", id ="main_search", className="search_field", placeholder = "Search query"),
@@ -456,7 +525,7 @@ def make_study_box():
         html.H1("Study Information - No study Selected", id = "study_title"),
         html.Div([
             html.Div([
-                html.Div(["Its a description"], id = "study_description_div", className = "container_div"),
+                html.Div(["Its a description"], id = "study_description_div", className = "text_block"),
                 html.Div(["placeholder for summary table"], id = "study_summary", className = "container_div"),
             ], className = "container_line_50"),
             html.Div([
@@ -469,19 +538,7 @@ def make_study_box():
                     ]),
                     dcc.Tab(label="Coverage", children =[
                         html.Div([
-                            dl.Map(
-                                center=[54.5,-3.5], 
-                                zoom=6, 
-                                children=[
-                                    dl.TileLayer(url=constants.MAP_URL, 
-                                        maxZoom=11, 
-                                        attribution=constants.MAP_ATTRIBUTION),
-                                    dl.GeoJSON(data = None, 
-                                        id = "map_region", 
-                                        options = dict(weight=1, opacity=1, color='#05B6AC',fillOpacity=0),
-                                        hoverStyle = arrow_function(dict(weight=2, color='#05B6AC', fillOpacity=0.2, dashArray=''))
-                                        ),
-                                ],id="map_object", style = ss.DYNA_MAP_STYLE),
+                            
                             ],
                             id = "Map", 
                             className = "tab_div"
@@ -523,7 +580,8 @@ def make_block_box(children = [None, None]):
             ], 
             className = "container_line_50" ),
         ],
-        className = "row_layout"),
+        className = "row_layout",
+        id = "dataset_row"),
         html.Div(["Placeholder for dataset variables table"], id = "dataset_variables_div"),
         ], 
         id = "body_dataset", 
@@ -533,23 +591,17 @@ def make_block_box(children = [None, None]):
 
 def make_basket_review_box():    
     basket_review_box = html.Div([
-
-            html.Div([
-            html.P("Select datasets by checking tick boxes in the left sidebar."),
-            ],
-            className="container_box"),
-                
             #Main body is a table with Source, block, description, checkbox
             #Clear all button at top of checklist col - far from save
             #Big save button at the bottom
             #Recommend box? bottom or RHS 
             
             # Get list of selected tables & doc as df
-            
             html.Div([
-                html.Div([
-                    html.P("There are currently no datasets in the shopping basket"),
-                ], className="container_box"),
+                text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
+            ],
+            id = "basket_review_text_div"),
+            html.Div([
                 dash_table.DataTable(
                         id="basket_review_table", #id = basket_review_table (passed in app)
                         data=None,#df.to_dict('records'),
@@ -565,7 +617,7 @@ def make_basket_review_box():
             id = "basket_review_table_div"),
             html.Div([
                 dbc.Button(
-                    "clear basket",
+                    "clear selection",
                     id="clear_basket_button",
                     n_clicks=0,
                     ),
@@ -580,7 +632,7 @@ def make_basket_review_box():
         ],
     id = "body_review", 
     className = "body_box",
-    style = ss.LANDING_BOX_STYLE)
+    )
     return basket_review_box
 
 def sidebar_collapse_button():
@@ -616,24 +668,38 @@ def make_variable_div_list(id_type, indices):
 
 
 def make_app_layout(titlebar, body, account_section, variable_divs):
-    app_layout =  html.Div([titlebar, body, account_section] + variable_divs, id="app",style=ss.APP_STYLE) 
+    app_layout =  html.Div([titlebar, body, account_section] + variable_divs, id="app") 
     return app_layout
 
 def make_info_box(df):
     out_text = []
     for col in df.columns:
         #row
-        row = html.Div([
-            # First column
-            html.Div([
-                html.B(col)
-            ], className = "info_box_left"),
+        if ("website" not in col.lower()) and ("link" not in col.lower()):
+            row = html.Div([
+                # First column
+                html.Div([
+                    html.B(col)
+                ], className = "info_box_left"),
 
-            # Second column
-            html.Div([
-                html.P(str(df[col].values[0]).replace("\n", ""))
-            ], className = "info_box_right")
-        ])
+                # Second column
+                html.Div([
+                    html.P(str(df[col].values[0]).replace("\n", ""))
+                ], className = "info_box_right")
+            ])
+        else:
+            row = html.Div([
+                # First column
+                html.Div([
+                    html.B(col)
+                ], className = "info_box_left"),
+
+                # Second column
+                html.Div([
+                    dcc.Markdown(str(df[col].values[0]).replace("\n", ""))
+                ], className = "info_box_right")
+            ])
+            [{'id': x, 'name': x, 'presentation': 'markdown'} if x == 'Link(s)' else {'id': x, 'name': x} for x in df.columns],
         out_text.append(row)
     return html.Div(out_text)
 
@@ -644,11 +710,11 @@ def make_schema_description(schemas):
 
 def make_block_description(blocks):
     # Make the study tab variables
-    #blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
+    blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
     return make_info_box(blocks)
 
 def make_blocks_table(df):
-    #df = df[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
+    df = df[constants.BLOCK_TABLE_VARS.keys()].rename(columns = constants.BLOCK_TABLE_VARS)
     table = make_table(df, "tables_desc_table", page_size=5)
     return table
 
@@ -709,7 +775,7 @@ def make_account_section():
                 className = "nav_button",
             ),   
             dcc.Download(id="sb_download"),
-            dbc.Button("Review", className='nav_button', id = "review"),
+            dbc.Button("Selection", className='nav_button', id = "review"),
             dbc.DropdownMenu(
                 label = html.P("Account",  className = "nav_button",),
                 children = [
@@ -811,6 +877,30 @@ def sunburst(source_counts, dataset_counts):
     )
     return dcc.Graph(figure = fig, className = "sunburst")
 
+def cloropleth(data, gj):
+
+    fig = go.Figure(data=go.Choropleth(z=data["count"],
+        geojson = gj, # Spatial coordinates
+        locations = data["RGN23NM"],
+        locationmode = 'geojson-id', # set of locations match entries in `locations`
+        colorscale = 'Blues',
+        colorbar = None,
+        ),
+    )
+    fig.update_layout(  
+    geo_scope = "europe",
+    coloraxis_showscale=False
+    )
+
+    fig.update_geos(
+        visible = False,
+        showframe=False,
+        fitbounds = "locations"
+    )
+
+
+    return dcc.Graph(figure = fig, className = "cloropleth")
+
 
 def footer(app):
     footer = html.Footer(
@@ -899,7 +989,11 @@ def sources_list(app, df, id_prefix):
     source_boxes = []
     for _, row in df.iterrows():
         source_id = row["source"]
-        source_name = row["Source_name"]
+        source_name = row["source_name"]
         desc = row["Aims"]
         source_boxes.append(source_box(app, source_id, source_name, desc, id_prefix))
     return html.Div(source_boxes, className = "source_list")
+
+
+def text_block(txt):
+    return html.P(txt, className = "text_block")

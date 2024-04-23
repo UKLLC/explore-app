@@ -6,6 +6,10 @@ import os
 def load_datasets(cnxn):
     return pd.read_sql("SELECT * from dataset", cnxn)
 
+def load_geojson():
+    with open(os.path.join("assets","map overlays","regions.geojson"), 'r') as f:
+        gj = json.load(f)
+    return gj
 
 def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_linkage_by_group", cnxn)
@@ -149,6 +153,10 @@ def read_json(name):
     print("loading ",name)
     with open(os.path.join("assets",name), "r") as f:
         return json.load(f)
+    
+def load_map_data(cnxn):
+    return pd.read_sql("SELECT * from geo_locations", cnxn)
+
 
 def get_map_overlays(study):
     with open(os.path.join("assets","map overlays",study+".geojson"), 'r') as f:

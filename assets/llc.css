@@ -27,8 +27,7 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
-    --bs-font-sans-serif: "Montserrat" !important;
-    --bs-font-monospace: "Montserrat" !important;
+    --bs-font: "Montserrat" !important;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
     --bs-whitegroup1:#FFFFFF;
@@ -79,7 +78,7 @@ body {
     line-height: 1.25;
     color: #212529;
     background-color: #fff;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;visibility: visible;
     -webkit-tap-highlight-color: transparent;
     height: 100%;
 }
@@ -356,7 +355,7 @@ abbr[title] {
     position: relative;
     display: flex;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
-    font-size: 1.15rem;
+    font-size: calc(0.75rem + 0.25vw);
     margin: 0rem;
     padding: 0.3rem;
     padding-left: .75rem;
@@ -365,75 +364,64 @@ abbr[title] {
     cursor: pointer;
     border: none;
 }
-
-.accordion-button:hover {
-    transition-duration: .25s;
-    background-color: var(--bs-whitegroup2);
-}
-.accordion-button:active {
-    transition-duration: .1s;
-    background-color: var(--bs-cyangroup4);
-}
-
-
 .accordion-button:not(.collapsed) {
     border-bottom: var(--bs-whitegroup4) solid thin;
   }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("expand-arrow-1-32.png");
-    transform: rotate(-180deg);
-    border: none;
-    }
+background-image: url("expand-arrow-1-32.png");
+transform: rotate(-180deg);
+border: none;
+}
 
 .accordion-button::after {
-    flex-shrink: 0;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-left: auto;
-    content: "";
-    background-image: url("expand-arrow-1-32.png");
-    background-repeat: no-repeat;
-    background-size: 1.25rem;
-    transition: transform 0.2s ease-in-out;
-    border: none;
-    }
+flex-shrink: 0;
+width: 1.25rem;
+height: 1.25rem;
+margin-left: auto;
+content: "";
+background-image: url("expand-arrow-1-32.png");
+background-repeat: no-repeat;
+background-size: 1.25rem;
+transition: transform 0.2s ease-in-out;
+border: none;
+}
+
+.content_accordion .collapse-button:hover {
+    transition-duration: .1s;
+    background-color: var(--bs-limegroup1);
+    border:none;
+    color: black;
+    font-weight: 500;
+}
+.linked_accordion .collapse-button:hover{
+    transition-duration: .1s;
+    background-color: var(--bs-cyangroup1);
+    border:none;
+    color: black;
+    font-weight: 500;
+}
+
+.source_title:active {
+    transition-duration: .1s;
+    font-weight: 650;
+}
 
 .search_accordion .accordion-body {
     padding-top: .25rem;
     padding-bottom: .25rem;
 }
 
-.content_accordion .accordion-button::after {
-    background-image: url("expand-arrow-white-1-32.png");
-}
-.content_accordion .accordion-button:not(.collapsed)::after {
-    background-image: url("expand-arrow-white-1-32.png");
-}
-
-.content_accordion .accordion-button{
+.collapse-button{
     background-color: #212529;
     color: white;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     margin: 0rem;
-    padding: 0.3rem;
+    padding: 0.2rem;
+    padding-right:0;
     padding-left: 1rem;
+    font-size: calc(0.75rem + 0.25vw);
     }
-
-.content_accordion .accordion-button.collapsed:hover{
-    background-color: var(--bs-limegroup1);
-    color: black;
-    border-radius: .3rem;
-}
-
-.content_accordion .accordion-button:not(.collapsed) {
-    color: black;
-    background-color: var(--bs-limegroup1);
-    border: none;
-    border-top-left-radius: .3rem;
-    border-top-right-radius: .3rem;
-}
-
 .content_accordion .table_tab.tab {
     overflow: hidden;
     height: 2rem;
@@ -446,14 +434,23 @@ abbr[title] {
     line-height: 1;
     background-color: var(--bs-whitegroup2);
 }
-.content_accordion .table_tab--selected {
-    background-color: var(--bs-whitegroup1);
-    border-left: solid !important;
-    border-width: thick !important;
-    border-left-color: var(--bs-limegroup1) !important;
-}
+
 .content_accordion .table_tab:hover {
     background-color: var(--bs-whitegroup1);
+}
+
+.content_accordion .table_tab:active {
+    background-color: var(--bs-limegroup1);
+    transition-duration: .2s;
+}
+.content_accordion .table_tab--selected {
+    border: none !important;
+}
+
+
+.content_accordion .linked_collpase .table_tab:active {
+    background-color: var(--bs-cyangroup1);
+    transition-duration: .2s;
 }
 
 .content_accordion .table_tab label{
@@ -469,6 +466,7 @@ abbr[title] {
     border-width: thin;
     width: 25vw;
 }
+
 
 /* todo: convert checkbox_list_cols_stylem checkbox_col, checkbox_row, checkbox */
 .list_and_checkbox_div{
@@ -746,8 +744,7 @@ ul {
     z-index: 1;
     width: fit-content;
     height: 100%;
-    background-color: #212529;
-    
+    background-color: #212529; 
 }
 
 #sidebar_list_div {
@@ -755,15 +752,16 @@ ul {
     background-color:#212529 ;
     overflow-y: scroll;
     overflow-x: hidden;
-    height:93.9%;
+    height:91.9%;
 }
 
 
 #sidebar_title {
     background-color: #212529;
     color: white;
-    height: 6%;
+    padding-top: .25rem;
     padding-left: .5rem;
+    height: 8%;
 }
 
 #landing {
@@ -835,8 +833,8 @@ ul {
 }
 #search_type_radio {
     padding : .25rem;
-    padding-top: 1rem;
-    font-size:  1.25rem;
+    padding-top: .5rem;
+    font-size: calc(0.6rem + 0.5vw) ;
     background-color: white;
 }
 #search_type_radio label {
@@ -849,6 +847,12 @@ ul {
     background-color: var(--bs-whitegroup1);
     color: black;
 }
+#source_linkage_graph {
+    padding: 0rem;
+}
+#source_age_graph {
+    padding: 0rem;
+}
 
 .container_line_50{
     width: 50%;
@@ -857,22 +861,26 @@ ul {
 
 .tab_div{
     width: 100%;
-    height: 20rem;
+    height: fit-content;
+    padding:.25rem;
+    border: solid lightgray thin;
 }
 
 
+
 .text_block{
-    font-size: normal;
+    font-size: calc(0.4rem + 0.5vw);
 }
 
 .info_box_left {
     width : 25%;
     display: inline-block;
     vertical-align: top;
-    padding-right: 1%;
+    margin-right: 2.5%;
+    margin-bottom: .2rem;
 }
 .info_box_right {
-    width : 74%;
+    width : 72%;
     display: inline-block;
     vertical-align: top;
 }
@@ -993,9 +1001,102 @@ ul {
 #study_title {
     padding-left: 1rem;
 }
-#search_text {
-    margin-top : .25rem;
-    margin-bottom: .5rem;
-
+#study_summary {
+    margin-top: .5rem;
+}
+#dataset_summary {
+    margin-top: .5rem;
 }
 
+#llc_logo {
+    max-height: 100%;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    margin-left: 1rem;
+    
+}
+#basket_review_table {
+    width:100%;
+}
+
+#basket_review_table_div{
+    padding: 1rem;
+
+}
+#basket_review_text_div{
+    margin-left: 1rem;
+}
+.source_collapse_button{
+    right: 0;
+    width: 2rem;
+}
+.source_title {
+    width:100%;
+    cursor: pointer;
+}
+
+.cell-markdown {
+    font: var(--bs-font) !important;
+}
+
+.source_collapse_button{
+    background-color: transparent ;
+    background-image: url("expand-arrow-white-1-32.png");
+    background-size: calc(0.75rem + 0.5vw);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    }
+
+.collapse-button:hover .source_collapse_button:active{
+    transition-duration: .1s;
+    transform: translate(0, .1rem);
+    background-image: url("expand-arrow-1-32.png");
+    background-size: calc(0.75rem + 0.5vw);
+}    
+
+.collapse-button:hover .source_collapse_button{
+    transition-duration: .1s;
+    background-image: url("expand-arrow-1-32.png");
+    background-size: calc(0.75rem + 0.5vw);
+}    
+    
+.button_text {
+    width: min-content;
+}
+
+.tooltip {
+    margin-left: .5rem;
+    --bs-tooltip-zindex: 1080;
+    --bs-tooltip-max-width: 15vw;
+    --bs-tooltip-padding-x: 0.5rem;
+    --bs-tooltip-padding-y: 0.25rem;
+    --bs-tooltip-margin: ;
+    --bs-tooltip-font-size: 1rem;
+    --bs-tooltip-color: black; 
+    --bs-tooltip-bg: white;
+    --bs-tooltip-border-radius: .25rem;
+    --bs-tooltip-opacity: 0.9;
+    --bs-tooltip-arrow-width: 0.8rem;
+    --bs-tooltip-arrow-height: 0.4rem;
+    border: none;
+
+}
+.tooltip-inner {
+    max-width: var(--bs-tooltip-max-width);
+    padding: var(--bs-tooltip-padding-y) var(--bs-tooltip-padding-x);
+    color: var(--bs-tooltip-color);
+    text-align: center;
+    background-color:white;
+    border-radius:.25rem;
+}
+.tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+  }

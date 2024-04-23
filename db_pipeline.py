@@ -8,11 +8,15 @@ from office365.sharepoint.client_context import ClientContext
 from office365.sharepoint.files.file import File
 import bot_token as bt
 import os
+import re
+from datetime import datetime
+import naming_functions as nf
+
 
 def connect():
     # need to swap password for local var
     cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
-    cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc')
+    #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc')
     return(cnxn)
 
 def get_teams_doc(target, ctx):
@@ -95,6 +99,38 @@ def get_context():
     else:
         raise Exception("Context error")
 
+def contains_version(name):
+    
+    pattern = re.compile("v[0-9]{4}")
+    match = pattern.match(name)
+    if match != None:
+        return True
+    return False
+
+def contains_date(name):
+    date_format = "%Y%m%d"
+    date = name[-8:]
+    try:
+        datetime.strptime(date, date_format)
+        return True
+    except ValueError:
+        pass
+    return False
+
+
+def get_formatted_name(df, col = "table"):
+    name = df[col]
+    if contains_date(name) or contains_version(name):
+        cut_name = "_".join(name.split("_")[0:-1])
+        if "_v0" in name:
+            cut_name = "_".join(cut_name.split("_")[0:-1])
+        return cut_name
+    else:
+        return name
+    
+# linked ages 
+# geo_location
+# group_cohorts
 
 def main():
     cnxn = connect()
@@ -124,6 +160,8 @@ def main():
     datasets = data["datasets"]
     cohort_linkage_groups = data["cohort linkage rate"]
     cohort_ages = data["cohort ages"]
+    linked_ages = data["linked ages"]
+    geo_locations = data["geo_locations"]
     nhs_dataset_linkage = data["group_cohorts"]
     nhs_dataset_extracts = data["groupby"]
 
@@ -150,7 +188,6 @@ def main():
 
     block_ages_df = pd.DataFrame(rows, columns = ["source", "table_name", "mean", "std", "q1", "q2", "q3", "lf", "uf"])
     block_ages_df.to_sql("dataset_ages", cnxn, if_exists="replace")
-
 
     ###
 
@@ -205,11 +242,23 @@ def main():
 
     ###
 
+    linked_ages = data["linked ages"]
+    rows = []
+    for ds in linked_ages.keys():
+        rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["std"], linked_ages[ds]["25%"], linked_ages[ds]["50%"], linked_ages[ds]["75%"], linked_ages[ds]["10%"], linked_ages[ds]["90%"]])
+
+    linked_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "std", "q1", "q2", "q3", "lf", "uf"])
+    linked_ages_df["source_stem"] = linked_ages_df.apply(get_formatted_name, axis =1, args=("source",))
+    linked_ages_df.to_sql("linked_ages", cnxn, if_exists="replace")
+
+    ###
+
     nhs_dataset_rows = []
     for dataset in nhs_dataset_linkage.keys():
         for key, value in nhs_dataset_linkage[dataset].items():
             nhs_dataset_rows.append([dataset, key, value])
     nhsd_dataset_linkage_df = pd.DataFrame(nhs_dataset_rows, columns = ["dataset", "cohort", "count"])
+    nhsd_dataset_linkage_df["dataset_stem"] = nhsd_dataset_linkage_df.apply(nf.get_naming_parts, axis =1, args=("dataset",))
     nhsd_dataset_linkage_df.to_sql("nhs_dataset_cohort_linkage", cnxn, if_exists="replace")
 
     ###
@@ -224,11 +273,29 @@ def main():
     nhsd_dataset_extract_df = pd.DataFrame(nhs_dataset_extract_rows, columns = ["dataset", "date", "count"])
     nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn, if_exists="replace")
 
+    ###
+
+    geo_locations_row = []
+    
+    for dataset in geo_locations.keys():
+        if len(geo_locations[dataset]) > 0:
+            geo_locations_row.append([dataset, geo_locations[dataset]["East of England"], geo_locations[dataset]["South East"], geo_locations[dataset]["North West"], geo_locations[dataset]["East Midlands"], geo_locations[dataset]["West Midlands"], geo_locations[dataset]["South West"], geo_locations[dataset]["London"], geo_locations[dataset]["Yorkshire and The Humber"], geo_locations[dataset]["North East"]])
+        else:
+            geo_locations_row.append([dataset,None,None,None,None,None,None,None,None,None])
+    geo_locations_df = pd.DataFrame(geo_locations_row, columns = ["source", "East of England", "South East", "North West", "East Midlands", "West Midlands", "South West", "London", "Yorkshire and The Humber", "North East"])
+    geo_locations_df["source_stem"] = geo_locations_df.apply(nf.get_naming_parts, axis =1, args=("source",))
+    '''
+    geo_locations_trimmed = nf.select_latest_version(geo_locations_df, "source")
+    geo_locations_trimmed = nf.select_latest_date(geo_locations_trimmed, "source" )
+    geo_locations_df["latest"] = geo_locations_df["source"].isin(geo_locations_trimmed["source"])
+    '''
+    geo_locations_df.to_sql("geo_locations", cnxn, if_exists="replace")
+
 
     ###
     # core source info 
     source_df = pd.read_excel("all_sources_in.xlsx", sheet_name="Sheet1")
-    source_df = source_df.rename(columns = {"Source name":"Source_name"})
+    source_df = source_df.rename(columns = {"source name":"source_name"})
     
     source_df = pd.merge(source_df, block_counts_df, on = ["source"], how = "left")
     source_df = pd.merge(source_df, study_participants_df, on = ["source"], how = "left")
@@ -236,15 +303,14 @@ def main():
     
     source_df.to_sql("source_info", cnxn, if_exists="replace")
 
-
     ###
     # dataset
     dataset_df = pd.read_excel("Database tables.xlsx", sheet_name="Dataset")
 
     dataset_df = pd.merge(dataset_df, dataset_participants_df, how = "left", on =["source", "table"])
     dataset_df = pd.merge(dataset_df, block_linkage_df, how = "left", on =["source", "table"])
+    dataset_df = pd.merge(dataset_df, source_df[["source", "source_name", "Type"]], how = "left", on = ["source"])
     dataset_df.to_sql("dataset", cnxn, if_exists="replace")
-
 
     ###
     # search terms
@@ -256,12 +322,12 @@ def main():
     all_variables["value"] = all_variables["value"].str.replace("[|]|'", "")
     all_variables["value_label"] = all_variables["value_label"].str.replace("[|]|", "")
     #get dataset full name, long desc, dataset topic tags
-    search = pd.merge(all_variables, dataset_df[["source", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end"]], on  = ["source", "table"], how = "right")
+    search = pd.merge(all_variables, dataset_df[["source", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "Type"]], on  = ["source", "table"], how = "right")
     # Get age upper lowers
     block_ages_df = block_ages_df.rename(columns = {"table_name":"table"})
     search = pd.merge(search, block_ages_df[["source", "table", "lf", "uf"]], on  = ["source", "table"], how = "left" )
     # Get source fullname, description, themes
-    search = pd.merge(search, source_df[["source", "Source_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
+    search = pd.merge(search, source_df[["source", "source_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
     search["Themes"] = search["Themes"].str.replace("\n", "")
     #search = search.fillna("")
     search.to_sql("search", cnxn, if_exists="replace")

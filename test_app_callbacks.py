@@ -30,7 +30,7 @@ import constants
 import structures as struct
 
 # Import the names of callback functions you want to test
-from app import update_schema_description,update_tables_description, update_table_data, update_table_metadata, update_doc_header, context_tabs, body_sctions, sidebar_schema, sidebar_table, main_search, shopping_cart, save_shopping_cart
+from app import update_schema_description, update_table_data, update_table_metadata, update_doc_header, context_tabs, body_sctions, sidebar_schema, sidebar_table, main_search, shopping_cart, save_shopping_cart
 
 '''
 Testing Directory:
@@ -38,9 +38,6 @@ Testing Directory:
     1. Update_schema_descriptions: 
         i. schema is study - make schema description
         ii. schema is linkage - make schema description
-    2. update_tables_description:
-        i. schema is study
-        ii. schema is linkage
     Metadata
     1. update_table_data:
         i. schema is study

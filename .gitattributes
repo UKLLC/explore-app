@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+V:/OneDrive[[:space:]]-[[:space:]]University[[:space:]]of[[:space:]]Bristol/Programs/web[[:space:]]app/web-app/index_var/* filter=lfs diff=lfs merge=lfs -text
+*.seg filter=lfs diff=lfs merge=lfs -text

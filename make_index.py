@@ -36,11 +36,11 @@ def main():
     data["value_label"] = data["value_label"].fillna(" ")
     data["collection_start"] = data["collection_start"].fillna(" ")
     data["collection_end"] = data["collection_end"].fillna(" ")
-    data["Source_name"] = data["Source_name"].fillna(" ")
+    data["source_name"] = data["source_name"].fillna(" ")
     data["Aims"] = data["Aims"].fillna(" ")
     data["Themes"] = data["Themes"].fillna(" ")
     data["all"] = "1"
-    data.to_csv("test.csv")
+    data["table_name"] = data["table_name"].fillna(" ")
     
     variable(data)
     spine(data)
@@ -51,7 +51,7 @@ def variable(data):
     schema1 = fields.Schema(
         all = fields.ID(stored=True),
         source = fields.ID(stored=True),
-        Source_name = fields.TEXT(stored=True),
+        source_name = fields.TEXT(stored=True),
         table = fields.ID(stored=True),
         table_name = fields.TEXT(stored=True),
         variable_name = fields.ID(stored=True),
@@ -66,6 +66,7 @@ def variable(data):
         uf = fields.NUMERIC(stored=True),
         Aims = fields.TEXT(stored=True),
         Themes = fields.KEYWORD(stored=True),
+        Type = fields.KEYWORD(stored=True)
     )
 
     # add dataframe rows to the index
@@ -78,7 +79,7 @@ def variable(data):
         writer.add_document(
             all = data["all"][i],
             source = data.source[i],
-            Source_name = data["Source_name"][i],
+            source_name = data["source_name"][i],
             table = data.table[i],
             table_name = data.table_name[i],
             variable_name = data.variable_name[i],
@@ -93,6 +94,7 @@ def variable(data):
             uf = data.uf[i],
             Aims = data.Aims[i],
             Themes = data.Themes[i],
+            Type = data.Type[i]
         )
     writer.commit()
 
@@ -102,12 +104,12 @@ def variable(data):
     print("DURATION: {}mins".format(round((time1 - time0)/60, 3)))
 
 def spine(data):
-    spine = data[["all", "source", "Source_name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "lf", "uf", "Aims", "Themes"]].drop_duplicates(subset = ["source", "table"])
+    spine = data[["all", "source", "source_name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "lf", "uf", "Aims", "Themes", "Type"]].drop_duplicates(subset = ["source", "table"])
     #define the search schema
     schema2 = fields.Schema(
         all = fields.ID(stored=True),
         source = fields.ID(stored=True),
-        Source_name = fields.TEXT(stored=True),
+        source_name = fields.TEXT(stored=True),
         table = fields.ID(stored=True),
         table_name = fields.TEXT(stored=True),
         long_desc = fields.TEXT(stored=True),
@@ -118,20 +120,20 @@ def spine(data):
         uf = fields.NUMERIC(stored=True),
         Aims = fields.TEXT(stored=True),
         Themes = fields.KEYWORD(stored=True),
+        Type = fields.KEYWORD(stored=True)
     )
 
     # add dataframe rows to the index
     if not os.path.exists("index_spine"):
         os.mkdir("index_spine")
 
-    print(spine.columns)
     ix2 = create_in("index_spine", schema2)
     writer= ix2.writer()
     for i, nrows in spine.iterrows():
         writer.add_document(
             all = spine["all"][i],
             source = spine.source[i],
-            Source_name = spine["Source_name"][i],
+            source_name = spine["source_name"][i],
             table = spine.table[i],
             table_name = spine.table_name[i],
             long_desc = spine.long_desc[i],
@@ -142,6 +144,7 @@ def spine(data):
             uf = spine.uf[i],
             Aims = spine.Aims[i],
             Themes = spine.Themes[i],
+            Type = spine["Type"][i]
         )
     writer.commit()
 

@@ -5,7 +5,7 @@ from dash import dcc
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
-from dash import Input, Output, State, ALL
+from dash import Input, Output, State, ALL, MATCH
 import warnings
 import logging
 from dash.exceptions import PreventUpdate
@@ -38,40 +38,53 @@ server = app.server
 
 def connect():
     try:
+        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
         cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
-        print("Connection to database failed, retrying.")
+        print("fatal: Connection to database failed")
         raise Exception("DB connection failed")
 
 ######################################################################################
 ### Data prep functions
 
-request_form_url = "https://uob.sharepoint.com/:x:/r/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/General/1.%20Application%20Process/2.%20Data%20Request%20Forms/Data%20Request%20Form.xlsx?d=w01a4efd8327f4092899dbe3fe28793bd&csf=1&web=1&e=reAgWe"
-# request url doesn't work just yet
 with connect() as cnxn:
     # Load block info
     datasets_df = dataIO.load_datasets(cnxn)
-    dataset_counts = datasets_df[["source", "table", "participant_count", "weighted_participant_count" ]]
-    spine = datasets_df[["source", "table"]].drop_duplicates()
+    dataset_counts = datasets_df[["source", "table", "participant_count", "weighted_participant_count", "Type"]]
+
     source_info = dataIO.load_source_info(cnxn)
     search = dataIO.load_search(cnxn)[["source", "table", "variable_name", "variable_description", "value", "value_label"]]
+    spine = search[["source", "table"]].drop_duplicates(subset = ["source", "table"])
+
+    map_data = dataIO.load_map_data(cnxn)
 
     cnxn.close()
+gj = dataIO.load_geojson()
 
 app_state = App_State()
 
 
+
+def prep_counts(df):
+    '''
+    apply function
+    '''
+    if df["count"] == "<10":
+        return 10
+    elif pd.isna(df["count"]):
+        return 0
+    return int(df["count"])
+
 def load_or_fetch_map(study):
-    returned_data = app_state.get_map_data(study) # memorisation of polygons
-    if not returned_data: # if no saved map data, returns False
-        try:
-            returned_data = dataIO.get_map_overlays(study)
-        except IOError:
-            print("Unable to load map file {}.geojson".format(study))
-        app_state.set_map_data(study, returned_data)
-    return returned_data
+    df1 = map_data.loc[map_data["source"] == study]
+    df1 = df1.drop(["source", "source_stem", "index"], axis=1)
+    df2 = pd.DataFrame([[ str(x), y] for x, y in zip(df1.columns, df1.iloc[0].values) ], columns = ["RGN23NM", "count"])
+    df2["labels"] = df2["count"]
+    df2["labels"].fillna("Not available")
+    df2["count"] = df2.apply(prep_counts, axis = 1)
+    return df2
 
 ######################################################################################
 ### index
@@ -106,6 +119,7 @@ maindiv = struct.make_body(sidebar_left, app, spine)
 
 schema_record = struct.make_variable_div("active_schema")
 table_record = struct.make_variable_div("active_table")
+selected_tables = struct.make_variable_div("selected_tables")
 shopping_basket_op = struct.make_variable_div("shopping_basket", [])
 open_schemas = struct.make_variable_div("open_schemas", [])
 user = struct.make_variable_div("user", None)
@@ -144,30 +158,32 @@ def login(_):
 ### DOCUMENTATION BOX #####################
 
 @app.callback(
-    Output("study_title", "children"),
-    Output('study_description_div', "children"),
-    Output("study_summary", "children"),
-    Output("study_table_div", "children"),
-    Output("source_linkage_graph", "children"),
-    Output("source_age_graph", "children"),
-    Output('map_region', "data"),
-    Output('map_object', 'zoom'),
-    Output('source_row', "style"),
+    Output("study_title", "children"), # Source_name
+    Output('study_description_div', "children"), # Aims
+    Output("study_summary", "children"), # several variables
+    Output("study_table_div", "children"), # list of datasets in source
+    Output("source_linkage_graph", "children"), #linkage pie
+    Output("source_age_graph", "children"), # Age boxplot
+    Output('Map', "children"), #
+    Output('source_row', "style"), # style, for hiding/showing body
     Input('active_schema','data'),
 )
 def update_schema_description(source):
     '''
     When schema updates, update documentation    
     '''        
+    
     print("Updating schema page, schema = '{}'".format(source))
     if source != None and source != "None": 
         
         info = source_info.loc[source_info["source"] == source]
-
+        # Get linkage and age data from db
         with connect() as cnxn:
             data = dataIO.load_cohort_linkage_groups(cnxn, source)
             ages = dataIO.load_cohort_age(cnxn, source)
             cnxn.close()
+        
+        ### pie #####
         labels = []
         values = []
         counts = []
@@ -178,61 +194,83 @@ def update_schema_description(source):
                 values.append(round(v * 100, 2))
                 counts.append(str(d))
         if len(labels) > 0:
-            pie = struct.pie(labels, values, counts)
+            try:
+                pie = struct.pie(labels, values, counts)
+            except: 
+                pie = "Error: unable to make linkage pie"
         else:
             pie = "Linkage statistics are not currently available for {}".format(source)
-
+        
+        ### boxplot #####
         if len(ages["mean"].values) > 0:
-            boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
+            try:
+                boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
+            except:
+                boxplot = "Error: unable to make age boxplot"
         else:
             boxplot = "Age distribution statistics are not currently available for {}".format(source)
 
-        map_data = load_or_fetch_map(source)
+        ### map #####
+        t0 = time.time()
+        try:
+            data = load_or_fetch_map(source)
+        except:
+            data = None
+            print("Error: failed to load map data")
+        map = struct.cloropleth(data, gj)
+
+        maptime = time.time() - t0
+        print("maptime", round(maptime, 3))
+
+        ### title #### 
         if info["Type"].values[0] == "Linked":
             title_text = "Linked Data Information - "+source
         else:
             title_text = "Study Information - "+source
-        return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df), pie, boxplot, map_data, 6, {"display": "flex"}
+
+        return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df), pie, boxplot, map, {"display": "flex"}
     else:
-        # If a study is not selected (or if its NHSD), list instructions for using the left sidebar to select a study.
-        
+        # If a study is not selected, list instructions for using the left sidebar to select a study.
         qp = qparser.QueryParser("all", ix_spine.schema)
         q = qp.parse("1")
 
         r = searcher_spine.search(q, collapse = "source", collapse_limit = 1, limit = None)
         search_results = []
         for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "Source_name", "Aims"]})
+            search_results.append({key: hit[key] for key in ["source", "source_name", "Aims"]})
         if len(search_results) >0:
             info = pd.DataFrame(search_results)
             search_results = struct.sources_list(app, info, "main_search")
         else:
             search_results = "No data available"
-        return "UK LLC Data Sources", "", "", search_results, "", "",None, 6, {"display": "none"}
+        return "UK LLC Data Sources", "", "", search_results, "", "",None, {"display": "none"}
 
 
 ### Dataset BOX #####################
 @app.callback(
-    Output('dataset_description_div', "children"),
-    Output('dataset_summary', "children"),
+    Output('dataset_description_div', "children"), # description text
+    Output('dataset_summary', "children"), # variables
     Output('dataset_linkage_graph', "children"),
     Output("dataset_age_graph", "children"),
     Output('dataset_variables_div', "children"),
     Output("dataset_title", "children"),
+    Output("dataset_row" , "style"),
     Input('active_table', 'data'),
-    State('active_schema', 'data'),
-    prevent_initial_call=True
 )
-def update_table_data(table_id, schema):
+def update_table_data(table_id):
     '''
     When table updates
     with current schema
     load table metadata (but not the metadata itself)
     '''
-    print("CALLBACK: Dataset BOX - updating table description with table {}".format(table_id))
+    trigger = dash.ctx.triggered_id
+
+    print("CALLBACK: Dataset BOX - updating table description with table {}, {}".format(table_id, trigger))
+    
     #pass until metadata block ready
-    if schema != None and table_id != None:
+    if table_id != None and table_id != "None":
         table_split = table_id.split("-")
+        schema = table_split[0]
         table = table_split[1]
         blocks = datasets_df.loc[(datasets_df["source"] == schema) & (datasets_df["table"] == table)]
         long_desc = blocks["long_desc"]
@@ -265,67 +303,32 @@ def update_table_data(table_id, schema):
             boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
-        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table"), title_text
+        
+        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table"), title_text, {"display": "flex"}
     else:
         # Default (Section may be hidden in final version)
-        return "Select a dataset for more information...", "", "", "", "", "Dataset Information - No Dataset Selected"
+        qp = qparser.QueryParser("all", ix_spine.schema)
+        q = qp.parse("1")
+        r = searcher_spine.search(q)
+        search_results = []
+        for hit in r:
+            search_results.append({key: hit[key] for key in ["source", "table"]})
+        if len(search_results) > 0:
+            info = pd.DataFrame(search_results)
+            info = pd.merge(info, search, how="left", on = ["source", "table"])
+            search_results_table = struct.make_table(info, "search_metadata_table")
 
-'''
-@app.callback(
-    Output('table_metadata_div', "children"),
-    Input("values_toggle", "value"),
-    Input("metadata_search", "value"),
-    Input('active_table','data'),
-    prevent_initial_call=True
-)
-def update_table_metadata(values_on, search, table_id):
-    
-    When table updates
-    When values are toggled
-    When metadata is searched
-    update metadata display
-    
-    print("CALLBACK: META BOX - updating table metadata with active table {}".format(table_id))
-    if table_id == None:
-        raise PreventUpdate
-    try:
-        metadata_df = dataIO.load_study_metadata(table_id)
-    except FileNotFoundError: # Study has changed 
-        print("Failed to load {}.csv. ".format(table_id))
-        return html.Div([html.P("No metadata available for {}.".format(table_id)),],className="container_box"),
-
-    if type(values_on) == list and len(values_on) == 1:
-        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description", "Value", "Value Description"]]
-        if type(search) == str and len(search) > 0:
-            metadata_df = metadata_df.loc[
-            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) |
-            (metadata_df["Value"].astype(str).str.contains(search, flags=re.IGNORECASE)) |
-            (metadata_df["Value Description"].str.contains(search, flags=re.IGNORECASE))
-            ]
-    else:
-        metadata_df = metadata_df[["Block Name", "Variable Name", "Variable Description"]].drop_duplicates()
-        if type(search) == str and len(search) > 0:
-            metadata_df = metadata_df.loc[
-            (metadata_df["Block Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Name"].str.contains(search, flags=re.IGNORECASE)) | 
-            (metadata_df["Variable Description"].str.contains(search, flags=re.IGNORECASE)) 
-            ]
-    print("DEBUG: reached end of bottom metadata")
-    metadata_table = struct.metadata_table(metadata_df, "metadata_table")
-    return metadata_table
-'''
-
-
+        return "", "", "", "", search_results_table, "UK LLC Datasets", {"display": "none"}
 
 
 ### BASKET REVIEW #############
 
 @app.callback(
     Output("basket_review_table_div", "children"),
+    Output("basket_review_text_div", "children"),
+    Output("basket_review_table_div", "style"),
+    Output("basket_review_text_div", "style"),
     Input("shopping_basket", "data"),
-    prevent_initial_call=True
 )
 def basket_review(shopping_basket):
     '''
@@ -333,6 +336,8 @@ def basket_review(shopping_basket):
     Update the basket review table
     '''
     trigger = dash.ctx.triggered_id
+    if trigger == None:
+        raise PreventUpdate
     print("CALLBACK: Updating basket review table, trigger {}".format(trigger))
     rows = []
     df = datasets_df
@@ -349,7 +354,10 @@ def basket_review(shopping_basket):
         rows.append(row)
     df = pd.DataFrame(rows, columns=["source", "table", "long_desc"])
     brtable = struct.basket_review_table(df)
-    return brtable
+    if len(df) > 0:
+        return brtable, "You have {} datasets in your selection".format(len(df)), {"display":"flex"}, {"display":"none"}
+    else:
+        return brtable, struct.text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets."), {"display":"none"}, {"display":"flex"}
 
 
 #########################
@@ -396,14 +404,6 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
     if trigger == "active_schema" or trigger == "active_table":
         active_tab = active_body[0]["props"]["id"].replace("body_","").replace("dd_", "")
 
-        #TODO Should there be some toggle or condition to stop force change?
-        if trigger == "active_schema":# and schema_change != current_id:
-            trigger = "dd_study"
-        elif trigger == "active_table":
-            trigger = "dd_dataset"
-        else:
-            raise PreventUpdate
-
     sections_states = {}
     for section in active_body + hidden_body:
         section_id = section["props"]["id"].replace("body_","").replace("dd_", "")
@@ -426,16 +426,26 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
     else:
         return [sections_states[s_id] for s_id in active] + [ struct.footer(app)], [sections_states[s_id] for s_id in inactive]
 
+@app.callback(
+    Output({'type': 'source_collapse', 'index': MATCH}, 'is_open'),
+    Input({'type': 'source_collapse_button', 'index': MATCH}, 'n_clicks'),
+    State({'type': 'source_collapse', 'index': MATCH}, 'is_open'),
+    prevent_initial_call = True
+)
+def sidebar_collapse(_, state):
+    trigger = dash.ctx.triggered_id
+    print("CALLBACK: toggling collapse. Trigger = {}".format(trigger))
+    return not state
+
 
 @app.callback(
     Output('active_schema','data'),
-    Input("schema_accordion", "active_item"),
+    Input({"type": "source_title", "index": ALL}, 'n_clicks'),
     Input({"type": "main_search_source_links", "index": ALL}, 'n_clicks'),
     Input({"type": "source_links", "index": ALL}, 'n_clicks'),
-    State("active_schema", "data"),
     prevent_initial_call = True
 )
-def sidebar_schema(open_study_schema, links1, links2, previous_schema):
+def sidebar_schema(open_study_schema, links1, links2):
     '''
     When the active item in the accordion is changed
     Read the active schema NOTE with new system, could make active_schema redundant
@@ -444,28 +454,22 @@ def sidebar_schema(open_study_schema, links1, links2, previous_schema):
     '''
     trigger = dash.ctx.triggered_id
     
-    print("CALLBACK: sidebar schema click. Trigger:  {}, open_schema = {}".format(trigger, open_study_schema))
-
-    if len( dash.callback_context.triggered) > 1: raise PreventUpdate
-    #print("DEBUG, sidebar_schema {}, {}, {}".format(open_study_schema, previous_schema, dash.ctx.triggered_id))
-    if type(trigger) == dash._utils.AttributeDict:
-        print("Source updated by search click")
-        open_study_schema = trigger["index"]
-    if open_study_schema == previous_schema:
-        print("Schema unchanged, preventing update")
+    print("CALLBACK: sidebar schema click")# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
+    real_triggers = [x for x in open_study_schema if x>0] + [x for x in links1 if x>0] +[x for x in links2 if x>0] 
+    if len(real_triggers) == 0 :
+        print("debug, no update on schema")
         raise PreventUpdate
-    else:
-        return open_study_schema
+    open_study_schema = trigger["index"]
+    return open_study_schema
 
 
 @app.callback(
     Output('active_table','data'),
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
-    State("active_table", "data"),
     prevent_initial_call = True
 )
-def sidebar_table(tables, previous_table):
+def sidebar_table(tables):
     '''
     When the active table_tab changes
     When the schema changes
@@ -473,31 +477,23 @@ def sidebar_table(tables, previous_table):
     Update the active table
     Update the activated table tabs (deactivate previously activated tabs)
     '''
-    print("CALLBACK: sidebar table click, trigger: {}".format(dash.ctx.triggered_id))
+    if tables == None:
+        raise PreventUpdate
+    print("\nCALLBACK: sidebar table click, trigger: {}".format(dash.ctx.triggered_id))
     #print("DEBUG, sidebar_table {}, {}, {}".format(tables, previous_table, dash.ctx.triggered_id))
 
-    active = [t for t in tables if t!= None]
+    active = [t for t in tables if (t!= None and t!='None')]
     # if no tables are active
     if len(active) == 0:
-        if previous_table == None:
-            raise PreventUpdate
-        return None, tables
+        raise PreventUpdate
     # if more than one table is active
     elif len(active) != 1:
-        active = [t for t in active if t != previous_table ]
-        if len(active) == 0:
-            raise PreventUpdate
-        tables = [(t if t in active else None) for t in tables]
-        if len(active) != 1:
-            print("Error 12: More than one activated tab:", active)
+        print("Error 12: More than one activated tab:", active)
     
     table = active[0]
-    if table == previous_table:
-        print("Table unchanged, preventing update")
-        raise PreventUpdate
+    return table , ["None" for t in tables]
 
-    return table, tables 
-    
+
 
 @app.callback(
     Output("sidebar_list_div", "children"),
@@ -506,17 +502,19 @@ def sidebar_table(tables, previous_table):
     Output("sidebar_filter", "children"),
     Input("search_button", "n_clicks"),
     State("main_search", "value"),
-    State("include_dropdown", "value"),
-    State("exclude_dropdown", "value"),
-    State("search_checklist_1", "value"),
-    State("collection_age_slider", "value"),
-    State("collection_time_slider", "value"),
+    Input("include_dropdown", "value"),
+    Input("exclude_dropdown", "value"),
+    Input("search_checklist_1", "value"),
+    Input("collection_age_slider", "value"),
+    Input("collection_time_slider", "value"),
     Input("search_type_radio", "value"),
-    State("active_schema", "data"),
+    State({'type': 'source_collapse', 'index': ALL}, 'id'),
+    State({'type': 'source_collapse', 'index': ALL}, 'is_open'),
     State("shopping_basket", "data"),
     State("active_table", "data"),
+    Input("include_type_checkbox", "value"),
     )
-def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type,  open_schemas, shopping_basket, table):
+def main_search(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type, screen_schemas, open_schemas, shopping_basket, table, include_type):
     '''
     When the search button is clicked
     read the main search content
@@ -536,9 +534,10 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     Do we want it on button click or auto filter?
     Probs on button click, that way we minimise what could be quite complex filtering
     '''
-    print("CALLBACK: main search, searching value: {}, trigger {}.".format(s, dash.ctx.triggered_id))
-    print("     DEBUG search: {}, {}, {}, {}, {}, {}".format(s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
+    trigger = dash.ctx.triggered_id
 
+    print("CALLBACK: main search, searching value: {}, trigger {}.".format(s, trigger))
+    print("     DEBUG search: click {}, {}, {}, {}, {}, {}, {}".format(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
     # new version 03/1/24 (after a month off so you know its going to be good)
     '''
     Split by table filtering and variable filtering
@@ -551,7 +550,7 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     '''
     Possible fields: 
     source
-    Source_name 
+    source_name 
     table
     table_name
     variable_name 
@@ -568,50 +567,63 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
     Themes 
     '''
     # 1. general search 
-    # source, Source_name, table, table_name, variable_name, variable_description, long_desc, topic_tags, Aims, Themes
+    # source, source_name, table, table_name, variable_name, variable_description, long_desc, topic_tags, Aims, Themes
+
+    # Setting up open schemas
+    collapse_state = {}
+    for sch, open in zip(screen_schemas, open_schemas):
+        if open:
+            collapse_state[sch["index"]] = True
+        else:
+            collapse_state[sch["index"]] = False
 
 
     time0 = time.time()
 
-    # 2. include dropdown
-    if include_dropdown:
-        print("INCLUDE (TEMP LOCKED TO FIRST FOR DEBUG)")
-        allow_q = whoosh.query.Or([whoosh.query.Term("source", i) for i in include_dropdown])  # TODO EXPAND TO MORE THAN ONE
-        #allow_q = whoosh.query.Term("source", include_dropdown[0]) 
-    else:
-        print("No include")
-        allow_q = None
+    # 2. include dropdown & type checkboxes
+    renamed_include_type = []
+    if "Study data" in include_type:
+        renamed_include_type.append("LPS")
+    if "Linked data" in include_type:
+        renamed_include_type.append("Linked")
+
+    if not include_dropdown:
+        include_dropdown = spine["source"].drop_duplicates()
+    allow_q = whoosh.query.And([whoosh.query.Or([whoosh.query.Term("source", i) for i in include_dropdown]),  whoosh.query.Or([whoosh.query.Term("Type", i) for i in renamed_include_type]) ]) # TODO EXPAND TO MORE THAN ONE
+    #allow_q = whoosh.query.Term("source", include_dropdown[0]) 
+
     # 3. exclude dropdown
     if exclude_dropdown:
-        print("EXCLUDe (TEMP LOCKED TO FIRST FOR DEBUG)")
         restict_q =  whoosh.query.Or([whoosh.query.Term("source", i) for i in exclude_dropdown]) # TODO EXPAND TO MORE THAN ONE
         #restict_q = whoosh.query.Term("source", exclude_dropdown[0])
     else:
-        print("No exclude")
+        #print("No exclude")
         restict_q = None
+    
+
     # Age slider TODO
 
     #time slider TODO
+
+    
 
     ####
     # if no search query, return all, potentially filtered by allow_q, restrict_q etc
 
     # Always do dataset level (for sidebar):
     if len(s) == 0:
-        print("DEUBG: no query")
         qp = qparser.QueryParser("all", ix_spine.schema)
         q = qp.parse("1")
 
     else:
-        print("DEUBG: query = {}".format(s))
-        qp = qparser.MultifieldParser(["source", "Source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
+        qp = qparser.MultifieldParser(["source", "source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
         qp.add_plugin(qparser.FuzzyTermPlugin())
         q = qp.parse(str(s)+str("~1/3"))
 
-    r = searcher_spine.search(q, filter = allow_q, mask = restict_q, collapse = "table", limit = None)
+    r = searcher_spine.search(q, filter = allow_q, mask = restict_q, limit = None)
     sidebar_results = []
     for hit in r:
-        sidebar_results.append({key: hit[key] for key in ["source", "table"]})
+        sidebar_results.append({key: hit[key] for key in ["source", "source_name", "table", "table_name", "Type"]})
     if len(sidebar_results) == len(spine):
         sidebar_text= "Showing full catalogue"
     else:
@@ -624,14 +636,14 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
             qp = qparser.QueryParser("all", ix_spine.schema)
             q = qp.parse("1")
         else:
-            qp = qparser.MultifieldParser(["source", "Source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
+            qp = qparser.MultifieldParser(["source", "source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
             qp.add_plugin(qparser.FuzzyTermPlugin())
             q = qp.parse(str(s)+str("~1/3"))
     
         r = searcher_spine.search(q, filter = allow_q, mask = restict_q, collapse = "source", limit = None)
         search_results = []
         for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "Source_name", "Aims"]})
+            search_results.append({key: hit[key] for key in ["source", "source_name", "Aims", "Type"]})
         if len(search_results) != 0:
             info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
             search_results_table = struct.sources_list(app, info, "main_search")
@@ -645,10 +657,12 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
         # reuse sidebar results
         search_results = []
         for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "table",]}) #"long_desc"]})
+            search_results.append({key: hit[key] for key in ["source", "table"]}) #"long_desc"]})
         if len(search_results) != 0:
-            search_results_table = struct.make_table_dict(search_results, "search_metadata_table")
-            search_text = "Showing {} datasets".format(len(search_results))
+            info = pd.DataFrame(search_results)
+            info = pd.merge(info, spine, how="left", on = ["source", "table"])            
+            search_results_table = struct.make_table(info, "search_metadata_table")
+            search_text = "Showing {} datasets".format(len(info))
         else:
             search_results_table = None
             search_text = "No results"
@@ -658,7 +672,7 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
             qp = qparser.QueryParser("all", ix_var.schema)
             q = qp.parse("1")
         else:
-            qp = qparser.MultifieldParser(["source", "table", "variable_name", "variable_description", "value", "value_label", "topic_tags"], ix_var.schema, group=qparser.OrGroup)
+            qp = qparser.MultifieldParser(["source", "source_name", "table", "table_name", "variable_name", "variable_description", "value", "value_label", "topic_tags"], ix_var.schema, group=qparser.OrGroup)
             qp.add_plugin(qparser.FuzzyTermPlugin())
             q = qp.parse(str(s)+str("~1/3"))
         r = searcher_var.search(q, filter = allow_q, mask = restict_q, limit = 10000)
@@ -675,25 +689,24 @@ def main_search(_, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time
             search_results_table = struct.make_table(search_results, "search_metadata_table")
             search_len = len(search_results)
         
-            if search_len >= 10000:
+            if len(sr_variables) >= 10000:
                 search_text = "Seach limited to 10000 variables"
             else:    
-                search_text = "Showing {} variables".format(len(search_results))
+                search_text = "Showing {} variables".format(search_len)
         else:
             search_results_table = None
             search_text = "No results"
-
 
     else:
         search_results = "ERROR: 786, this shouldn't be reachable ", search_type 
 
     sidebar_results_df = pd.DataFrame(sidebar_results)
-    sidebar_results_df = sidebar_results_df[["source", "table"]]
+    sidebar_results_df = sidebar_results_df[["source", "source_name", "table", "table_name", "Type"]]
 
     timex = time.time()
     print("DEBUG: time to run search function: {} seconds".format(round(timex-time0, 3)))
 
-    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, open_schemas, table), search_results_table, search_text, sidebar_text
+    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, collapse_state, table), search_results_table, search_text, sidebar_text
 
 
 
@@ -740,11 +753,8 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
     
     elif dash.ctx.triggered_id == "clear_basket_button": # if triggered by clear button
         if b1_clicks > 0:
-            print(b1_clicks, shopping_basket)
-            if clicks == None:
-                return [], clicks+1
-            else:
-                return [], 1
+            #print(b1_clicks, shopping_basket)
+            return [], 1
         else:
             raise PreventUpdate
 
@@ -791,7 +801,7 @@ def save_shopping_cart(btn1, btn2, save_clicks, shopping_basket):
     Download the shopping basket as a csv
     '''
     print("CALLBACK: Save shopping cart. Trigger: {}".format(dash.ctx.triggered_id))
-    print(btn1, save_clicks)
+    #print(btn1, save_clicks)
     if btn1 != save_clicks or dash.ctx.triggered_id == "dl_button_2":
         # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
         fileout = dataIO.basket_out(shopping_basket)
@@ -836,97 +846,52 @@ if __name__ == "__main__":
 
 
 '''
-TODO 27/02/2024
-- Left sidebar collapse styling 
-- Left sidebar arrow styling
-- Left sidebar search filter status
 
-- Search page, fix page dimensions
+------------
+TODO roundup
+2. Map region shap files for geo regions 
+6. Add links to links
+7. Add searching by age & collection date 
+10. Add  short description to dataset table view
+12. add click links to dataset table view
+14. Narrow screen looksw awful. Build in some contingency css
+16. Git push & demo. Clean out files too big to push
+18. Re-run get all data
+19. Toggle on age graph to show age at collection rather than age now?
+20. Add keywords
 
-- Data overview, design & style the window
-- Capture the data by unique participant at the inner layer.
-- Split NHS, Geo, ... & LPS
--   Think of variants and options:
--       There is no sense filtering the graph - that does it itself
--       Instead, just make sure the counts at each level are of unique participants
--       Add (collapsible) tooltip for tutorial
-- look into zooming on the canvas
-
-- Linked data alternative page
-
-- Style the basket review page
-
-- Build in account login
-- Add autosave
-
-- hover tooltips on sidebar with full source and dataset name.
-
-- add link to pages in tables etc (click sociodemo in source view, goto dataset view)
-- show source in dataset view
-
-- Make mental health style listing when no study is selected
-
-- Add footer with 1 row. UOB, UOE, collaborators. 
+------------------------------
+18/04/2024
+2. maps
 
 
-28/02/24 tasks:
-1. Get study linkage breakdown graph in (make generic graph function). -------------
-    Means we have to make a sub tabs section ------------
-2. Remove about page. ------------
-3. Make linkage breakdown graphs scale appropriately.
+19/04/2024
+6. links
+10. short_desc
+16. git
 
-08/03/24 afternoon tasks:
-Add footer with requested images.
-
-12/3/24 Tiny last half hour:
-Get the collapse button looking better
-cont. tomorrow
-
-18/03/24 afternoon:
-Get the study list callback to doc page work
-Put the study list in unslected doc page
-Filter the study list by search terms
-
-19/03/24 afternoon:
-well done on study lists - looks great
-Now repeat process for tables, but with a different style (compact table, either manual or dashtable)
-That will do for now...
-What to do next? Searching? Probs should be priority. The next focus is getting searching and content workind across the board. Also cleanup dataIO
-TODO setup IO to load only important tables
-
-21/03/24:
-Man Marika Hackman was amazing
-Today we are to fully hook up searching.
-1. Add description & dataset tags to "spine"
-2. Hook up age searches
-3. Consider how to do tags
-4. Look into elastic searching
----
-ok, elasticsearch is nogo. Try whoosh. New objective, index a full search dataset.
-
-working on woosh
-Its partially integrated. We still have to hook up collection date and age
-More pressingly, we have to re-sort out the documentation tabs 
-figure out the inputs: if we are using index, do we need the study tabs? We certainly don't need the metadata tables.
-Clean out the db?
-
-replace the header with logo + full study name
-or logo + full dataset name 
+22/04/2024
+~~~ Get DB table names sorted for pipeline.
+7. age etc
+20. Keywords
 
 
-Future major tasks:
-1. Hook up all search options
-2. Implement linked branch
-3. Implement None selected branch
-4. update content.
-5. Callback cleanup
-'''
-'''
-Closer notes (if any)
-Can we get out variable value frequencies?
-Help page / tooltips
-Closer search syntax? If not elastic search
-Aida says pdfs are king
-Aida doesn’t like explore, browse, navigate etc all used in the same system.
-We will never be as good as closer without access to the questionnaire pdfs. It is likely worth referencing closer when possible. 
+23/04/2024
+14. css
+18. data
+
+24/04/2024 deadline
+19. age toggle
+
+
+# Geo locations to get files for
+North East
+North West
+South East
+London
+South West
+West Midlands
+East of England
+East Midlands
+Yorkshire and The Humber
 '''

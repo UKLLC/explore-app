@@ -36,13 +36,6 @@ TITLEBAR_DIV_STYLE = {
     }
 
 
-LOGOS_STYLE = {
-    "height" : str(titlebar_h)+"rem",
-    "left" : 0,
-    "margin-right" : "1rem",
-    "margin-left" : "1rem",
-    "display":"flex"
-}
 
 LOGOS_DIV_STYLE = {
     "position" : "relative",
@@ -215,8 +208,3 @@ LANDING_BOX_STYLE = {
 }
 
 ###################################
-APP_STYLE = {
-    "height":"100vh",
-    "width": "100wh",
-
-}
