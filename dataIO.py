@@ -79,8 +79,19 @@ def load_dataset_count(cnxn, source = "none", table_name = "none"):
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
 
 
-def load_search(cnxn):
-    return pd.read_sql("SELECT * from search", cnxn)
+def load_search(cnxn, source = "none", table_name = "none"):
+    
+    if source == "none" and table_name == "none":
+        return pd.read_sql("SELECT * from search", cnxn)
+    elif source == "none":
+        return pd.read_sql("SELECT * from search where [table] = '{}'".format(source, table_name), cnxn)
+    elif table_name == "none":
+        return pd.read_sql("SELECT * from search where [source] = '{}'".format(source, table_name), cnxn)
+
+    else:
+        return pd.read_sql("SELECT * from search where [source] = '{}' and [table] = '{}'".format(source, table_name), cnxn)
+
+
 
 
 def load_study_request(cnxn):

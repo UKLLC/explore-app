@@ -21,7 +21,7 @@ from whoosh.analysis import StemmingAnalyzer
 from whoosh import qparser
 from whoosh.qparser import QueryParser
 from whoosh.filedb.filestore import FileStorage
-
+import sys
 
 
 from app_state import App_State
@@ -55,13 +55,20 @@ with connect() as cnxn:
     dataset_counts = datasets_df[["source", "table", "participant_count", "weighted_participant_count", "Type"]]
 
     source_info = dataIO.load_source_info(cnxn)
-    search = dataIO.load_search(cnxn)[["source", "table", "variable_name", "variable_description", "value", "value_label"]]
-    spine = search[["source", "table"]].drop_duplicates(subset = ["source", "table"])
+    spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
 
     map_data = dataIO.load_map_data(cnxn)
 
     cnxn.close()
 gj = dataIO.load_geojson()
+
+print("DEBUG:")
+print("datasets_df", sys.getsizeof(datasets_df))
+print("datasets_counts", sys.getsizeof(dataset_counts))
+print("source_info", sys.getsizeof(source_info))
+print("spine", sys.getsizeof(spine))
+print("map_data", sys.getsizeof(map_data))
+
 
 app_state = App_State()
 
@@ -230,7 +237,7 @@ def update_schema_description(source):
         else:
             title_text = "Study Information - "+source
 
-        return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df), pie, boxplot, map, {"display": "flex"}
+        return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), pie, boxplot, map, {"display": "flex"}
     else:
         # If a study is not selected, list instructions for using the left sidebar to select a study.
         qp = qparser.QueryParser("all", ix_spine.schema)
@@ -317,7 +324,6 @@ def update_table_data(table_id):
             search_results.append({key: hit[key] for key in ["source", "table"]})
         if len(search_results) > 0:
             info = pd.DataFrame(search_results)
-            info = pd.merge(info, search, how="left", on = ["source", "table"])
             search_results_table = struct.make_table(info, "search_metadata_table")
 
         return "", "", "", "", search_results_table, "UK LLC Datasets", {"display": "none"}
@@ -679,19 +685,14 @@ def main_search(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, 
             q = qp.parse(str(s)+str("~1/3"))
         r = searcher_var.search(q, filter = allow_q, mask = restict_q, limit = 10000)
         search_results = []
-        sr_sources = []
-        sr_tables = []
-        sr_variables = []
         for hit in r:
-            sr_sources.append(hit["source"])
-            sr_tables.append(hit["table"])
-            sr_variables.append(hit["variable_name"])
+            search_results.append([hit["source"], hit["table"], hit["variable_name"], hit["variable_description"], hit["value"], hit["value_label"]])
         if len(r) != 0:
-            search_results = search.loc[(search["source"].isin(sr_sources) ) & (search["table"].isin(sr_tables) ) & (search["variable_name"].isin(sr_variables) )]
+            search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description", "Value", "Value Label"])
             search_results_table = struct.make_table(search_results, "search_metadata_table")
             search_len = len(search_results)
         
-            if len(sr_variables) >= 10000:
+            if len(search_results) >= 10000:
                 search_text = "Seach limited to 10000 variables"
             else:    
                 search_text = "Showing {} variables".format(search_len)
