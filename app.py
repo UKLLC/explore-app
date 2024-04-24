@@ -38,8 +38,8 @@ server = app.server
 
 def connect():
     try:
-        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
-        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
