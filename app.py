@@ -214,10 +214,12 @@ def update_schema_description(source):
         t0 = time.time()
         try:
             data = load_or_fetch_map(source)
+            map = struct.cloropleth(data, gj)
         except:
             data = None
+            map = None
             print("Error: failed to load map data")
-        map = struct.cloropleth(data, gj)
+        
 
         maptime = time.time() - t0
         print("maptime", round(maptime, 3))
@@ -455,7 +457,7 @@ def sidebar_schema(open_study_schema, links1, links2):
     trigger = dash.ctx.triggered_id
     
     print("CALLBACK: sidebar schema click")# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
-    real_triggers = [x for x in open_study_schema if x>0] + [x for x in links1 if x>0] +[x for x in links2 if x>0] 
+    real_triggers = [x for x in open_study_schema if (x and x>0)] + [x for x in links1 if (x and x>0)] +[x for x in links2 if (x and x>0)] 
     if len(real_triggers) == 0 :
         print("debug, no update on schema")
         raise PreventUpdate
