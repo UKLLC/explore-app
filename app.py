@@ -63,11 +63,11 @@ with connect() as cnxn:
 gj = dataIO.load_geojson()
 
 print("DEBUG:")
-print("datasets_df", sys.getsizeof(datasets_df))
-print("datasets_counts", sys.getsizeof(dataset_counts))
-print("source_info", sys.getsizeof(source_info))
-print("spine", sys.getsizeof(spine))
-print("map_data", sys.getsizeof(map_data))
+print("datasets_df", sys.getsizeof(datasets_df)/1024)
+print("datasets_counts", sys.getsizeof(dataset_counts)/1024)
+print("source_info", sys.getsizeof(source_info)/1024)
+print("spine", sys.getsizeof(spine)/1024)
+print("map_data", sys.getsizeof(map_data)/1024)
 
 
 app_state = App_State()
@@ -97,9 +97,11 @@ def load_or_fetch_map(study):
 ### index
 storage_var = FileStorage("index_var")
 storage_var.open_index()
+print("storage_var", sys.getsizeof(storage_var)/1024)
 
 storage_spine = FileStorage("index_spine")
 storage_spine.open_index()
+print("storage_spine", sys.getsizeof(storage_spine)/1024)
 
 ix_var = whoosh.index.open_dir('index_var')
 ix_spine = whoosh.index.open_dir('index_spine')

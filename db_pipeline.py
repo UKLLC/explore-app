@@ -248,7 +248,7 @@ def main():
         rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["std"], linked_ages[ds]["25%"], linked_ages[ds]["50%"], linked_ages[ds]["75%"], linked_ages[ds]["10%"], linked_ages[ds]["90%"]])
 
     linked_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "std", "q1", "q2", "q3", "lf", "uf"])
-    linked_ages_df["source_stem"] = linked_ages_df.apply(get_formatted_name, axis =1, args=("source",))
+    linked_ages_df["source_stem"] = linked_ages_df.apply(nf.get_naming_parts, axis =1, args=("source",))
     linked_ages_df.to_sql("linked_ages", cnxn, if_exists="replace")
 
     ###
@@ -259,7 +259,10 @@ def main():
             nhs_dataset_rows.append([dataset, key, value])
     nhsd_dataset_linkage_df = pd.DataFrame(nhs_dataset_rows, columns = ["dataset", "cohort", "count"])
     nhsd_dataset_linkage_df["dataset_stem"] = nhsd_dataset_linkage_df.apply(nf.get_naming_parts, axis =1, args=("dataset",))
-    nhsd_dataset_linkage_df.to_sql("nhs_dataset_cohort_linkage", cnxn, if_exists="replace")
+    # This is a hack to get versioned name onto nhsd_dataset_linkage_df2
+    linked_ages_df = linked_ages_df.rename(columns = {"source_stem" : "dataset_stem", "source":"dataset"})
+    nhsd_dataset_linkage_df2 = pd.merge(nhsd_dataset_linkage_df[["dataset_stem", "cohort", "count"]], linked_ages_df[["dataset", "dataset_stem"]], how = "left", on = ["dataset_stem"])
+    nhsd_dataset_linkage_df2.to_sql("nhs_dataset_cohort_linkage", cnxn, if_exists="replace")
 
     ###
 
