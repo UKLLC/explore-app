@@ -109,7 +109,7 @@ def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = 
         # Tooltip
         source_tooltip = dbc.Tooltip(
             source_name,
-            delay = {"show" : 750, "hide":0},
+            delay = {"show" : 50, "hide":0},
             target= {
                     "type":'button_text',
                     "index" : schema
@@ -329,7 +329,7 @@ def make_about_box(app):
         
     return landing_box
 
-def make_search_box(df):
+def make_search_box(df, themes):
     '''
     Search box TODO:
         Source type checkboxes - LPS, NHS, Geo, Admin
@@ -397,41 +397,9 @@ def make_search_box(df):
                     dbc.Accordion([
                         dbc.AccordionItem(
                             html.Div([
-                                html.Div([
-                                    dcc.Checklist(
-                                        ["item 1", "item 2", "item 3", "item 4", "item 5"],
-                                        labelStyle = {"display": "flex", "align-items": "center"},
-                                        id = "search_checklist_1"
-                                    )
-                                ],
-                                className = "container_div",
-                                ),
-                                html.Div([
-                                    dcc.Checklist(
-                                        ["item 6", "item 7", "item 8", "item 9", "item 10"],
-                                        labelStyle = {"display": "flex", "align-items": "center"},
-                                    )
-                                ],
-                                className = "container_div"
-                                ),
-                                html.Div([
-                                    dcc.Checklist(
-                                        ["item 11", "item 12", "item 13", "item 14", "item 15"],
-                                        labelStyle = {"display": "flex", "align-items": "center"},
-                                    )
-                                ],
-                                className = "container_div",
-                                ),
-                                html.Div([
-                                    dcc.Checklist(
-                                        ["item 16", "item 17", "item 18", "item 19", "item 20"],
-                                        labelStyle = {"display": "flex", "align-items": "center"},
-                                    )
-                                ],
-                                className = "container_div"
-                                ),
+                                dcc.Dropdown(themes, id = "tags_search", multi = True),
                             ], 
-                            className = "row_layout"
+                            className = "container_div"
                             ),
                         title="Topic Checkboxes",
                         className = "search_accordion",
@@ -486,15 +454,20 @@ def make_search_box(df):
         start_collapsed=True
         ),
 
-        dcc.RadioItems(
-                ['Sources', 'Datasets', 'Variables'],
-                'Sources',
-                inline=True,
-                id = "search_type_radio"
+        dcc.Tabs(
+            id = "search_type_radio",
+            value = "Sources",
+            children = [
+                dcc.Tab(label = "Sources", value = "Sources"),
+                dcc.Tab(label = "Datasets", value = "Datasets"),
+                dcc.Tab(label = "Variables", value = "Variables")
+            ]
             ),
-        html.Div([], id = "search_text"),
-        html.Div([],
-        id = "search_metadata_div"
+        html.Div([
+            html.Div([], id = "search_text"),
+            html.Div([], id = "search_metadata_div")
+        ],
+        className = "container_div"
         )
     ], 
     id = "body_search", 
@@ -544,7 +517,7 @@ def make_study_box():
                             className = "tab_div"
                             )
                     ])
-                ]),
+                ], className = "tab_parent"),
             ], className = "container_line_50" )
             
         ],
@@ -576,7 +549,7 @@ def make_block_box(children = [None, None]):
                     dcc.Tab(label="Linkage Rates", children =[
                         html.Div(["Placeholder for pie char"], id = "dataset_linkage_graph", className = "container_div")
                     ])
-                ]),
+                ], className = "tab_parent"),
             ], 
             className = "container_line_50" ),
         ],
@@ -589,7 +562,95 @@ def make_block_box(children = [None, None]):
     )
     return dataset_box
 
-def make_basket_review_box():    
+def make_basket_review_offcanvas():
+    offcanvas = html.Div(
+        dbc.Offcanvas(
+            html.Div([
+                html.Div([
+                    text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
+                ],
+                id = "basket_review_text_div"),
+
+                html.Div([
+                    dash_table.DataTable(
+                            id="basket_review_table", #id = basket_review_table (passed in app)
+                            data=None,#df.to_dict('records'),
+                            columns=None,#[{"name": i, "id": i} for i in df.columns], 
+                            page_size=20,
+                            editable=False,
+                            row_selectable=False,
+                            row_deletable=True, # TODO test this?
+                            style_header=ss.TABLE_HEADER,
+                            style_cell=ss.TABLE_CELL,
+                            )
+                ],
+                id = "basket_review_table_div"),
+                html.Div([
+                    dbc.Button(
+                        "clear selection",
+                        id="clear_basket_button",
+                        n_clicks=0,
+                        ),
+                    dbc.Button(
+                        "Save",
+                        id="save_button",
+                        n_clicks=0,
+                        ),
+                ],
+                className = "row_layout"),
+            ],
+            ),
+        is_open=False, 
+        title="Selection",
+        id = "offcanvas_review",
+        placement = "end"
+        ),
+    )
+    return offcanvas 
+
+
+def debug():
+    modal = html.Div(
+    [
+        dbc.Modal(
+            [
+                dbc.ModalHeader(dbc.ModalTitle("Header")),
+                dbc.ModalBody("This is the content of the modal"),
+                dbc.ModalFooter(
+                    dbc.Button(
+                        "Close", id="close", className="ms-auto", n_clicks=0
+                    )
+                ),
+            ],
+            id="modal",
+            is_open=False,
+            className = "modal"
+        ),
+    ]
+    )
+    return modal
+
+def make_basket_review_offcanvas_debug():
+    offcanvas = html.Div(
+        dbc.Modal(
+            [
+                dbc.ModalHeader(dbc.ModalTitle("Header")),
+                dbc.ModalBody("This is the content of the modal"),
+                dbc.ModalFooter(
+                    dbc.Button(
+                        "Close", id="close", className="ms-auto", n_clicks=0
+                    )
+                ),
+            ],
+        is_open=True, 
+        id = "offcanvas_review",
+
+        ),
+    )
+    return offcanvas 
+
+def make_basket_review_box():
+    # DEPRICATED?    
     basket_review_box = html.Div([
             #Main body is a table with Source, block, description, checkbox
             #Clear all button at top of checklist col - far from save
@@ -642,15 +703,16 @@ def sidebar_collapse_button():
             n_clicks=0,)
     return button
 
-def make_body(sidebar, app, spine):
+def make_body(sidebar, app, spine, themes):
     return html.Div([
         sidebar,
         sidebar_collapse_button(),
         html.Div([
-            make_search_box(spine),
+            make_search_box(spine, themes),
             footer(app),
         ],
         id = "body_content"),
+       
 
     ], 
     id="body")
@@ -668,7 +730,7 @@ def make_variable_div_list(id_type, indices):
 
 
 def make_app_layout(titlebar, body, account_section, variable_divs):
-    app_layout =  html.Div([titlebar, body, account_section] + variable_divs, id="app") 
+    app_layout =  html.Div([titlebar, body, account_section, debug()] + variable_divs, id="app") 
     return app_layout
 
 def make_info_box(df):
@@ -776,6 +838,7 @@ def make_account_section():
             ),   
             dcc.Download(id="sb_download"),
             dbc.Button("Selection", className='nav_button', id = "review"),
+            dbc.Button("Open modal", id="open", n_clicks=0),
             dbc.DropdownMenu(
                 label = html.P("Account",  className = "nav_button",),
                 children = [
@@ -850,12 +913,22 @@ def boxplot(mean, median, q1, q3, sd, lf, uf):
 
 def sunburst(source_counts, dataset_counts):
     dataset_counts = dataset_counts.fillna(0)
-    labels = ["Linked", "LPS"] + list(source_counts["source"].values) + list(dataset_counts["table"].values)
-    parents = ["",""]+ ["LPS" for i in source_counts["source"].values] + list(dataset_counts["source"].values)
-    vals_sources = list(source_counts["participant_count"].values)
-    weighted_vals_ds = [int(x) for x in list(dataset_counts["weighted_participant_count"].values)]
-    values = [100000] + [sum(vals_sources)] + vals_sources + weighted_vals_ds
+    dataset_counts["weighted_participant_count"] = dataset_counts["weighted_participant_count"].fillna(0)
+    dataset_counts["participant_count"] = dataset_counts["participant_count"].fillna(0)
+    source_counts["participant_count"] = source_counts["participant_count"].fillna(0)
 
+    linked_source_counts = source_counts.loc[(source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO")]
+    lps_source_counts = source_counts.loc[~((source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO"))]
+    linked_dataset_counts = dataset_counts.loc[(dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO")]
+    lps_dataset_counts = dataset_counts.loc[~((dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO"))]
+
+
+    dataset_counts = dataset_counts.fillna(0)
+    labels = ["Linked", "LPS"] + list(linked_source_counts["source"].values) + list(lps_source_counts["source"].values) + list(linked_dataset_counts["table"].values)  + list(lps_dataset_counts["table"].values)
+    parents = ["",""]+ ["Linked" for i in linked_source_counts["source"].values] + ["LPS" for i in lps_source_counts["source"].values] + list(linked_dataset_counts["source"].values) + list(lps_dataset_counts["source"].values)
+    vals_sources = list(linked_source_counts["participant_count"].values)+ list(lps_source_counts["participant_count"].values)
+    weighted_vals_ds = [int(x) for x in list(linked_dataset_counts["weighted_participant_count"].values)] + [int(x) for x in list(lps_dataset_counts["weighted_participant_count"].values)]
+    values = [sum(list(linked_source_counts["participant_count"].values))] + [sum(list(lps_source_counts["participant_count"].values))] + vals_sources + weighted_vals_ds
 
     layout = go.Layout(
         margin=go.layout.Margin(
@@ -876,8 +949,41 @@ def sunburst(source_counts, dataset_counts):
             layout = layout
     )
     return dcc.Graph(figure = fig, className = "sunburst")
+    '''
+    dataset_counts["weighted_participant_count"] = dataset_counts["weighted_participant_count"].fillna(0)
+    dataset_counts["participant_count"] = dataset_counts["participant_count"].fillna(0)
+    source_counts["participant_count"] = source_counts["participant_count"].fillna(0)
+
+    linked_source_counts = source_counts.loc[(source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO")]
+    lps_source_counts = source_counts.loc[~((source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO"))]
+    linked_dataset_counts = dataset_counts.loc[(dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO")]
+    lps_dataset_counts = dataset_counts.loc[~((dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO"))]
+
+
+    dataset_counts = dataset_counts.fillna(0)
+    labels = ["Linked", "LPS"] + list(linked_source_counts["source"].values) + list(lps_source_counts["source"].values) + list(linked_dataset_counts["table"].values)  + list(lps_dataset_counts["table"].values)
+    parents = ["",""]+ ["LPS" for i in linked_source_counts["source"].values] + ["LPS" for i in lps_source_counts["source"].values] + list(linked_dataset_counts["source"].values) + list(lps_dataset_counts["source"].values)
+    vals_sources = list(linked_source_counts["participant_count"].values)+ list(lps_source_counts["participant_count"].values)
+    weighted_vals_ds = [int(x) for x in list(linked_dataset_counts["weighted_participant_count"].values)] + [int(x) for x in list(lps_dataset_counts["weighted_participant_count"].values)]
+    values = [sum(list(linked_source_counts["participant_count"].values))] + [sum(list(lps_source_counts["participant_count"].values))] + vals_sources + weighted_vals_ds
+    print("\n\n\nDebug")
+    print(len(labels), len(parents), len(values))
+    for parent, label, val in zip(parents, labels, values):
+        print(parent, label, val)
+    print(sum(list(linked_source_counts["participant_count"].values)), sum(list(linked_source_counts["participant_count"].values)), sum([int(x) for x in list(linked_dataset_counts["weighted_participant_count"].values)]))
+
+    print(sum(list(lps_source_counts["participant_count"].values)), sum(list(lps_source_counts["participant_count"].values)), sum([int(x) for x in list(lps_dataset_counts["weighted_participant_count"].values)]))
+    '''
 
 def cloropleth(data, gj):
+    layout = go.Layout(
+        margin=go.layout.Margin(
+            l=0, #left margin
+            r=0, #right margin
+            b=0, #bottom margin
+            t=0, #top margin
+        )
+    )
 
     fig = go.Figure(data=go.Choropleth(z=data["count"],
         geojson = gj, # Spatial coordinates
@@ -886,6 +992,7 @@ def cloropleth(data, gj):
         colorscale = 'Blues',
         colorbar = None,
         ),
+        layout = layout
     )
     fig.update_layout(  
     geo_scope = "europe",

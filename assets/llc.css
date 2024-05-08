@@ -717,6 +717,7 @@ ul {
 }
 
 #body_content {
+    background-color: var(--bs-whitegroup2);
     position: relative;
     width: auto;
     height: 100%;
@@ -726,8 +727,8 @@ ul {
 
 .body_box {
     align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: .5rem;
     width: 100%;
     height: fit-content;
     min-height: calc(100% - 6rem);
@@ -855,6 +856,8 @@ ul {
 }
 
 .container_line_50{
+    margin-left: .5rem;
+    margin-right: .5rem;
     width: 50%;
     align-content: inline;
 }
@@ -862,14 +865,24 @@ ul {
 .tab_div{
     width: 100%;
     height: fit-content;
-    padding:.25rem;
+
     border: solid lightgray thin;
+    background-color: white;
+    border-radius: 0 0 .5rem .5rem;
+    padding: .5rem;
+    padding-top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: .5rem;
 }
 
 
 
 .text_block{
     font-size: calc(0.4rem + 0.5vw);
+    background-color: white;
+    border-radius: .5rem;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info_box_left {
@@ -979,7 +992,6 @@ ul {
 
 .source_list {
     border-radius: .5rem;
-    background-color: var(--bs-whitegroup2);
 }
 
 #source_row {
@@ -998,14 +1010,27 @@ ul {
     vertical-align: middle;
     align-items: center;
 }
-#study_title {
-    padding-left: 1rem;
-}
+
+h1 {padding-left: 1rem;}
 #study_summary {
     margin-top: .5rem;
+    background-color: white;
+    border-radius: .5rem;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #dataset_summary {
     margin-top: .5rem;
+    background-color: white;
+    border-radius: .5rem;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tab_parent {
+    background-color: white;
+    border-radius: .5rem .5rem 0 0;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #llc_logo {
@@ -1028,7 +1053,9 @@ ul {
 }
 .source_collapse_button{
     right: 0;
-    width: 2rem;
+    width: calc(0.75rem + 0.5vw);
+    height: calc(0.75rem + 0.5vw);
+    margin-right: .5rem;
 }
 .source_title {
     width:100%;
@@ -1047,12 +1074,18 @@ ul {
     border: none;
     cursor: pointer;
     }
+    
+.collapse-button:hover .source_collapse_button:hover{
+    background-color: black;
+    border: none;
+    border-radius: 1rem;
+    background-image: url("expand-arrow-white-1-32.png");
+}    
+
 
 .collapse-button:hover .source_collapse_button:active{
     transition-duration: .1s;
     transform: translate(0, .1rem);
-    background-image: url("expand-arrow-1-32.png");
-    background-size: calc(0.75rem + 0.5vw);
 }    
 
 .collapse-button:hover .source_collapse_button{
@@ -1099,4 +1132,11 @@ ul {
     border-width: 5px;
     border-style: solid;
     border-color: transparent white transparent transparent;
+  }
+
+  .modal {
+    z-index: 9999 !important;
+    position:absolute;
+    top: 0;
+    left: 0;
   }

@@ -38,8 +38,8 @@ server = app.server
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
-        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
@@ -60,6 +60,21 @@ with connect() as cnxn:
     map_data = dataIO.load_map_data(cnxn)
 
     cnxn.close()
+
+themes = []
+for x in list(set(source_info["Themes"])):
+    themes += x.split(",")
+for y in list(set(datasets_df["topic_tags"].fillna(""))):
+    themes += y.split(",")
+
+for  i in range(len(themes)):
+    themes[i] = themes[i].replace("\n", "")
+    themes[i] = themes[i].strip()
+themes = list(set(themes))
+themes = sorted(themes, key=str.casefold)
+themes.remove("")
+
+
 gj = dataIO.load_geojson()
 
 print("DEBUG:")
@@ -122,7 +137,7 @@ sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
 
 # Body ################################################################################
 
-maindiv = struct.make_body(sidebar_left, app, spine)
+maindiv = struct.make_body(sidebar_left, app, spine, themes)
 
 # Main div template ##################################################################
 
@@ -380,7 +395,6 @@ def basket_review(shopping_basket):
     Input("d_overview", "n_clicks"),
     Input("dd_study", "n_clicks"),
     Input("dd_dataset", "n_clicks"),
-    Input("review", "n_clicks"),
     Input('study_description_div', "children"), # When the dataset page is updates (means active source has changed and pages have updated)
     Input('dataset_description_div', "children"), # When the dataset page is updates (means active table has changed and pages have updated)
     State("active_schema", "data"),
@@ -389,7 +403,7 @@ def basket_review(shopping_basket):
     State("hidden_body","children"),
     prevent_initial_call=True
 )
-def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
+def body_sections(search, d_overview, dd_study, dd_data_block, _, __, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -435,6 +449,18 @@ def body_sections(search, d_overview, dd_study, dd_data_block, review, _, __, sc
         return [sections_states["search"], struct.footer(app)],  [sections_states[s_id] for s_id in inactive]
     else:
         return [sections_states[s_id] for s_id in active] + [ struct.footer(app)], [sections_states[s_id] for s_id in inactive]
+
+@app.callback(
+    Output("offcanvas_review", "is_open"),
+    Input("review", "n_clicks"),
+    [State("offcanvas_review", "is_open")],
+    prevent_initial_call = True
+)
+def review_right_sidebar(click, is_open):
+    print("REVIEW", click)
+    if click:
+        return True
+    return True
 
 @app.callback(
     Output({'type': 'source_collapse', 'index': MATCH}, 'is_open'),
@@ -514,7 +540,7 @@ def sidebar_table(tables):
     State("main_search", "value"),
     Input("include_dropdown", "value"),
     Input("exclude_dropdown", "value"),
-    Input("search_checklist_1", "value"),
+    Input("tags_search", "value"),
     Input("collection_age_slider", "value"),
     Input("collection_time_slider", "value"),
     Input("search_type_radio", "value"),
@@ -842,6 +868,16 @@ def toggle_collapse(n, is_open):
     return is_open
 
 
+@app.callback(
+    Output("modal", "is_open"),
+    [Input("open", "n_clicks"), Input("close", "n_clicks")],
+    [State("modal", "is_open")],
+)
+def toggle_modal(n1, n2, is_open):
+    if n1 or n2:
+        return not is_open
+    return is_open
+
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
@@ -899,4 +935,39 @@ West Midlands
 East of England
 East Midlands
 Yorkshire and The Humber
+
+-----------------------
+Post Larp work
+1. Size new geo charts ------- 
+2. Add wales, scotland and NI to map 
+3. Search by age (waiting on Christian)
+4. Search by collection date. (waiting on Christian)
+5. Add icons nhsd & geo
+6. Add  short description to dataset table view
+7. add click links to dataset table view
+8. Narrow screen looksw awful. Build in some contingency css
+9. Toggle on age graph to show age at collection rather than age now?
+10. Add keywords
+11. Change hover style on sidebar left arrow button ----
+12. Move shopping basket to a right hand sidebar
+13. FAQs
+14. Move style to shadow boxes ---------------
+15. Steal Alex's button styles
+16. Section links in the footer
+17. Can't find what you are looking for section
+18. Fix sunburst heirarchy -------------------------
+19. Move search style radio buttons into tabs. ---------------------
+20. Sunburst tab styling
+21. Add loading to variable / speed up variable search
+
+
+07/05/2024
+10. Get all possible themes & appearances. Either do checkboxes, or do tag box.  -----
+11. hover -----------------
+5. nhs & geo icons 1/2 done
+18. Sunburst -----
+19. radio --> tabs -----
+
+carry on with offcanvas
 '''
+

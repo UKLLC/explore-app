@@ -15,8 +15,8 @@ import naming_functions as nf
 
 def connect():
     # need to swap password for local var
-    cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
-    #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc')
+    #cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
+    cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc')
     return(cnxn)
 
 def get_teams_doc(target, ctx):
@@ -269,13 +269,11 @@ def main():
     nhs_dataset_extract_rows = []
     for dataset in nhs_dataset_extracts.keys():
         for i in nhs_dataset_extracts[dataset]:
-            if type(i["extract_date"]) != str:
-                nhs_dataset_extract_rows.append([dataset,"total", i["count"]])
-            else:
+            if type(i["extract_date"]) == str:
                 nhs_dataset_extract_rows.append([dataset,i["extract_date"], i["count"]])
     nhsd_dataset_extract_df = pd.DataFrame(nhs_dataset_extract_rows, columns = ["dataset", "date", "count"])
     nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn, if_exists="replace")
-
+    
     ###
 
     geo_locations_row = []
@@ -303,7 +301,13 @@ def main():
     source_df = pd.merge(source_df, block_counts_df, on = ["source"], how = "left")
     source_df = pd.merge(source_df, study_participants_df, on = ["source"], how = "left")
     source_df = pd.merge(source_df, cohort_linkage_df, on = ["source"], how = "left")
-    
+    source_df["Themes"] = source_df["Themes"].str.replace("\n", "")
+    source_df["Themes"] = source_df["Themes"].str.replace(u"\n", u"")
+    source_df["Themes"] = source_df["Themes"].str.replace("  ", " ")
+    source_df["Themes"] = source_df["Themes"].str.replace(" ,", ",")
+    source_df["Themes"] = source_df["Themes"].str.replace(", ", ",")
+    source_df["Themes"] = source_df["Themes"].str.replace(u'\xa0', u'')
+    source_df["Themes"] = source_df["Themes"].str.strip()
     source_df.to_sql("source_info", cnxn, if_exists="replace")
 
     ###
@@ -313,6 +317,13 @@ def main():
     dataset_df = pd.merge(dataset_df, dataset_participants_df, how = "left", on =["source", "table"])
     dataset_df = pd.merge(dataset_df, block_linkage_df, how = "left", on =["source", "table"])
     dataset_df = pd.merge(dataset_df, source_df[["source", "source_name", "Type"]], how = "left", on = ["source"])
+    dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace("\n", "")
+    dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(u"\n", u"")
+    dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(u'\xa0', u'')
+    dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace("  ", " ")
+    dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(" ,", ",")
+    dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(", ", ",")
+    dataset_df["topic_tags"] = dataset_df["topic_tags"].str.strip()
     dataset_df.to_sql("dataset", cnxn, if_exists="replace")
 
     ###
@@ -334,6 +345,8 @@ def main():
     search["Themes"] = search["Themes"].str.replace("\n", "")
     #search = search.fillna("")
     search.to_sql("search", cnxn, if_exists="replace")
+
+
     
     ### 
     # all individual metadata files
