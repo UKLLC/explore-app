@@ -21,9 +21,9 @@ class App_State():
             "dataset":{
                 "active":False,
             },
-            "review":{
-                "active":False,
-            },
+            #"review":{
+            #    "active":False,
+            #},
         }
 
         #####################

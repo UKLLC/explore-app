@@ -697,6 +697,10 @@ ul {
     font-weight: normal;
     font-family: "Montserrat";
 }
+#review.nav_button {
+    margin-right: 0;
+    padding-right: 0;
+}
 
 .nav_button:hover {
     text-decoration: underline;
@@ -854,7 +858,12 @@ ul {
 #source_age_graph {
     padding: 0rem;
 }
-
+#dataset_linkage_graph {
+    padding: 0rem;
+}
+#dataset_age_graph {
+    padding: 0rem;
+}
 .container_line_50{
     margin-left: .5rem;
     margin-right: .5rem;
@@ -1049,7 +1058,7 @@ h1 {padding-left: 1rem;}
 
 }
 #basket_review_text_div{
-    margin-left: 1rem;
+    margin: .5rem;
 }
 .source_collapse_button{
     right: 0;
@@ -1134,9 +1143,62 @@ h1 {padding-left: 1rem;}
     border-color: transparent white transparent transparent;
   }
 
-  .modal {
-    z-index: 9999 !important;
+  .offcanvas {
     position:absolute;
     top: 0;
-    left: 0;
+    right: 0;
+    background-color: white;
+    border: solid;
+    border-color: lightgray;
+    height: 100%;
+    width: 40vw;
+  }
+  #offcanvas_close {
+    background-color: white;
+    border:none;
+    margin:.5rem;
+  }
+  #modal_close {
+    position: absolute;
+    background-color: white;
+    border:none;
+    margin:.5rem;
+    right:0;
+
+  }
+  .modal {
+    position:fixed;
+    top: 0;
+    right: 15%;
+    background-color: white;
+    height: 100%;
+    width: 70%;
+  }
+  .FAQ {    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: calc(0.65rem + 0.25vw);;
+  }
+  .FAQ h1{
+    text-align: center;
+
+    margin-top: 1rem;
+    font-size:  calc(1.2rem + 0.5vw);
+  }
+  .modal_background {
+    display:none;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity: .2;
+    left:0;
+  }
+  .offcanvas-header {
+    display: none;
+  }
+  .FAQ_QA {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }

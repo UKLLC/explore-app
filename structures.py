@@ -532,7 +532,6 @@ def make_study_box():
     return study_box
 
 def make_block_box(children = [None, None]):
-    
     dataset_box = html.Div([
         html.H1("Dataset Information - No Dataset Selected", id = "dataset_title"),
         
@@ -562,65 +561,53 @@ def make_block_box(children = [None, None]):
     )
     return dataset_box
 
-def make_basket_review_offcanvas():
-    offcanvas = html.Div(
-        dbc.Offcanvas(
-            html.Div([
-                html.Div([
-                    text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
-                ],
-                id = "basket_review_text_div"),
-
-                html.Div([
-                    dash_table.DataTable(
-                            id="basket_review_table", #id = basket_review_table (passed in app)
-                            data=None,#df.to_dict('records'),
-                            columns=None,#[{"name": i, "id": i} for i in df.columns], 
-                            page_size=20,
-                            editable=False,
-                            row_selectable=False,
-                            row_deletable=True, # TODO test this?
-                            style_header=ss.TABLE_HEADER,
-                            style_cell=ss.TABLE_CELL,
-                            )
-                ],
-                id = "basket_review_table_div"),
-                html.Div([
-                    dbc.Button(
-                        "clear selection",
-                        id="clear_basket_button",
-                        n_clicks=0,
-                        ),
-                    dbc.Button(
-                        "Save",
-                        id="save_button",
-                        n_clicks=0,
-                        ),
-                ],
-                className = "row_layout"),
-            ],
-            ),
-        is_open=False, 
-        title="Selection",
-        id = "offcanvas_review",
-        placement = "end"
-        ),
-    )
-    return offcanvas 
+def make_modal_background():
+    return html.Div([], id = "modal_background", className = "modal_background")
 
 
-def debug():
+def FAQ():
     modal = html.Div(
     [
         dbc.Modal(
             [
-                dbc.ModalHeader(dbc.ModalTitle("Header")),
-                dbc.ModalBody("This is the content of the modal"),
-                dbc.ModalFooter(
+                
+                dbc.ModalBody([
                     dbc.Button(
-                        "Close", id="close", className="ms-auto", n_clicks=0
+                        html.I(className = "bi bi-x-lg", ), id = "modal_close", className="offcanvas_close", n_clicks=0
+                    ),
+                    html.Div([
+
+                        html.H1("Frequently Asked Questions"),
+                        html.Div([
+                            html.H2("Question1"),
+                            html.P("answer...")
+                        ],
+                        className = "FAQ_QA"
+                        ),
+                        html.Div([
+                            html.H2("Question2"),
+                            html.P("answer...")
+                        ],
+                        className = "FAQ_QA"
+                        ),
+                        html.Div([
+                            html.H2("Question3"),
+                            html.P("answer...")
+                        ],
+                        className = "FAQ_QA"
+                        ),
+                        html.Div([
+                            html.H2("Question4"),
+                            html.P("answer...")
+                        ],
+                        className = "FAQ_QA"
+                        ),
+                    ],
+                    className = "FAQ"
                     )
+                ],
                 ),
+
             ],
             id="modal",
             is_open=False,
@@ -630,23 +617,53 @@ def debug():
     )
     return modal
 
-def make_basket_review_offcanvas_debug():
-    offcanvas = html.Div(
-        dbc.Modal(
-            [
-                dbc.ModalHeader(dbc.ModalTitle("Header")),
-                dbc.ModalBody("This is the content of the modal"),
-                dbc.ModalFooter(
-                    dbc.Button(
-                        "Close", id="close", className="ms-auto", n_clicks=0
+def make_basket_review_offcanvas():
+    offcanvas = html.Div([dbc.Offcanvas(
+        
+        [
+        dbc.Button(html.I(className = "bi bi-x-lg", ), id = "offcanvas_close", n_clicks = 0),
+        html.Div([
+            text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
+        ],
+        id = "basket_review_text_div"),
+        html.Div([
+            dash_table.DataTable(
+                    id="basket_review_table", #id = basket_review_table (passed in app)
+                    data=None,#df.to_dict('records'),
+                    columns=None,#[{"name": i, "id": i} for i in df.columns], 
+                    page_size=20,
+                    editable=False,
+                    row_selectable=False,
+                    row_deletable=True, # TODO test this?
+                    style_header=ss.TABLE_HEADER,
+                    style_cell=ss.TABLE_CELL,
                     )
+        ],
+        id = "basket_review_table_div"),
+        html.Div([
+            dbc.Button(
+                "clear selection",
+                id="clear_basket_button",
+                n_clicks=0,
                 ),
-            ],
-        is_open=True, 
-        id = "offcanvas_review",
+            dbc.Button(
+                "Save",
+                id="save_button",
+                n_clicks=0,
+                ),
+        ],
+        className = "row_layout")
 
+        ],
+        
+        is_open=False, 
+        id = "offcanvas_review",
+        className = "offcanvas",
+        backdrop = True,
+        placement = "end"
         ),
-    )
+        ])
+    
     return offcanvas 
 
 def make_basket_review_box():
@@ -730,7 +747,7 @@ def make_variable_div_list(id_type, indices):
 
 
 def make_app_layout(titlebar, body, account_section, variable_divs):
-    app_layout =  html.Div([titlebar, body, account_section, debug()] + variable_divs, id="app") 
+    app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),FAQ()] + variable_divs, id="app") 
     return app_layout
 
 def make_info_box(df):
@@ -791,7 +808,7 @@ def make_hidden_body(source_counts, dataset_counts):
             make_d_overview_box(source_counts, dataset_counts),
             make_study_box(),
             make_block_box(),
-            make_basket_review_box(),
+            #make_basket_review_box(),
         ],
         style=ss.HIDDEN_BODY_STYLE,
         id = "hidden_body")
@@ -837,26 +854,34 @@ def make_account_section():
                 className = "nav_button",
             ),   
             dcc.Download(id="sb_download"),
-            dbc.Button("Selection", className='nav_button', id = "review"),
-            dbc.Button("Open modal", id="open", n_clicks=0),
-            dbc.DropdownMenu(
-                label = html.P("Account",  className = "nav_button",),
-                children = [
-                    dbc.DropdownMenuItem("Load Basket (placeholder)", id = "a_load"),
-                    dbc.DropdownMenuItem("Save Basket (placeholder)", id = "a_save"),
-                    dbc.DropdownMenuItem("Download Basket", id = "dl_button_2", n_clicks=0),
-                    dbc.DropdownMenuItem("Log Out (placeholder", id = "a_log_out"),
-                ],
-                id="account_dropdown",
-                className = "nav_button",
-            ),   
+            html.Div([
+                dbc.Button("Selection", className='nav_button', id = "review"),
+                html.P("", id = "selection_count")
+            ],
+            className = "row_layout"
+            ),
+            dbc.Button("FAQs", className = "nav_button", id = "FAQ_button")
+            
         ], id = "title_nav_style"),
-
+        
         html.Div([
         "account info"
         ])], 
         
         style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
+    '''
+                    dbc.DropdownMenu(
+                        label = html.P("Account",  className = "nav_button",),
+                        children = [
+                            dbc.DropdownMenuItem("Load Basket (placeholder)", id = "a_load"),
+                            dbc.DropdownMenuItem("Save Basket (placeholder)", id = "a_save"),
+                            dbc.DropdownMenuItem("Download Basket", id = "dl_button_2", n_clicks=0),
+                            dbc.DropdownMenuItem("Log Out (placeholder", id = "a_log_out"),
+                        ],
+                        id="account_dropdown",
+                        className = "nav_button",
+                    ),   
+    '''
     return dropdown
 
 

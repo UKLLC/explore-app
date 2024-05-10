@@ -452,15 +452,29 @@ def body_sections(search, d_overview, dd_study, dd_data_block, _, __, schema_cha
 
 @app.callback(
     Output("offcanvas_review", "is_open"),
+    Output("modal_background", "style"),
+    Output("modal", "is_open"),
     Input("review", "n_clicks"),
-    [State("offcanvas_review", "is_open")],
+    Input("modal_background", "n_clicks"),
+    Input("FAQ_button", "n_clicks"),
+    Input("offcanvas_close", "n_clicks"),
+    Input("modal_close", "n_clicks"),
     prevent_initial_call = True
 )
-def review_right_sidebar(click, is_open):
-    print("REVIEW", click)
-    if click:
-        return True
-    return True
+def review_right_sidebar(oc_click, bg_click, FAQ_click, oc_close, FAQ_close):
+    print("REVIEW", oc_click, dash.ctx.triggered_id)
+    trigger = dash.ctx.triggered_id
+    if trigger == "modal_background" or trigger == "offcanvas_close" or trigger == "modal_close": # Background, close all
+        return False, {"display":"none"}, False
+    
+    if trigger == "review":
+        return True, {"display":"flex"}, False
+    elif trigger == "FAQ_button": #modal / FAQs
+        return False, {"display":"flex"}, True
+    else:
+        print("Error 212, unexpected behaviour in modal business")
+
+
 
 @app.callback(
     Output({'type': 'source_collapse', 'index': MATCH}, 'is_open'),
@@ -744,6 +758,7 @@ def main_search(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, 
 @app.callback(
     Output('shopping_basket','data'),
     Output('search_button', "n_clicks"),
+    Output("selection_count", "children"),
     Input({"type": "shopping_checklist", "index" : ALL}, "value"),
     Input('basket_review_table', 'data'),
     Input("clear_basket_button", "n_clicks"),
@@ -776,16 +791,16 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
                 raise PreventUpdate
             else:
                 if clicks == None:
-                    return new_shopping_basket, 1
+                    return new_shopping_basket, 1, "("+ str(len(new_shopping_basket))+")"
                 else:
-                    return new_shopping_basket, clicks+1
+                    return new_shopping_basket, clicks+1, "("+ str(len(new_shopping_basket))+")"
         else:
             raise PreventUpdate
     
     elif dash.ctx.triggered_id == "clear_basket_button": # if triggered by clear button
         if b1_clicks > 0:
             #print(b1_clicks, shopping_basket)
-            return [], 1
+            return [], 1, ""
         else:
             raise PreventUpdate
 
@@ -805,11 +820,11 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
                     shopping_basket.remove(new_item)
                 else:
                     shopping_basket.append(new_item)
-                return shopping_basket, dash.no_update
+                return shopping_basket, dash.no_update, "("+ str(len(shopping_basket))+")"
             elif len(difference1) > 0 and len(difference2) == 1:# Case: we are in a search (hiding checked boxes) and added a new item
                 new_item = difference2[0]
                 shopping_basket.append(new_item)
-                return shopping_basket, dash.no_update
+                return shopping_basket, dash.no_update, "("+ str(len(shopping_basket))+")"
             else:
                 raise PreventUpdate
         else:
@@ -820,12 +835,12 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
     Output('sb_download','data'),
     Output("save_clicks", "data"),
     Input("save_button", "n_clicks"),
-    Input("dl_button_2", "n_clicks"),
+    #Input("dl_button_2", "n_clicks"),
     State("save_clicks", "data"),
     State("shopping_basket", "data"),
     prevent_initial_call=True
     )
-def save_shopping_cart(btn1, btn2, save_clicks, shopping_basket):
+def save_shopping_cart(btn1, save_clicks, shopping_basket):
     '''
     When the save button is clicked
     Read the shopping basket
@@ -840,6 +855,9 @@ def save_shopping_cart(btn1, btn2, save_clicks, shopping_basket):
         return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv"), btn1
     else:
         raise PreventUpdate
+
+
+
 
 '''
 @app.callback(
@@ -868,22 +886,13 @@ def toggle_collapse(n, is_open):
     return is_open
 
 
-@app.callback(
-    Output("modal", "is_open"),
-    [Input("open", "n_clicks"), Input("close", "n_clicks")],
-    [State("modal", "is_open")],
-)
-def toggle_modal(n1, n2, is_open):
-    if n1 or n2:
-        return not is_open
-    return is_open
 
 if __name__ == "__main__":
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''
@@ -969,5 +978,11 @@ Post Larp work
 19. radio --> tabs -----
 
 carry on with offcanvas
+got offcanvas working, now make it look nice.
+
+10/05/2024
+Get off canvas nice.
+Get FAQs in too.
+Get counter on selection looking nice
 '''
 
