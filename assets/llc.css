@@ -363,6 +363,10 @@ abbr[title] {
     width:100%;
     cursor: pointer;
     border: none;
+    font-family: montserrat;
+}
+.accordion-button:hover {
+    background-color: var(--bs-whitegroup3);
 }
 .accordion-button:not(.collapsed) {
     border-bottom: var(--bs-whitegroup4) solid thin;
@@ -519,15 +523,27 @@ border: none;
     border: var(--bs-cyangroup1);
     border-radius: .25rem;
     background: var(--bs-cyangroup1);
-    padding: .25rem 1rem .3rem;
     display: flex;
     flex-direction: row;
     text-align: center;
     font-size: large;    
     height: 100%;
     padding: .8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
+
+button{
+    cursor: pointer;
+}
+
+#search_button:active {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+    transition-duration: .1s;
+}
+
 
 .custom-tabs-container {
     position: fixed;
@@ -663,7 +679,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    left : 33%;
+    left : 40%;
     width : 34%;
     margin-top:1.5rem;
     margin-bottom:1.5rem;
@@ -837,7 +853,6 @@ ul {
     margin-right: 1rem;
 }
 #search_type_radio {
-    padding : .25rem;
     padding-top: .5rem;
     font-size: calc(0.6rem + 0.5vw) ;
     background-color: white;
@@ -891,7 +906,7 @@ ul {
     background-color: white;
     border-radius: .5rem;
     padding: .5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .info_box_left {
@@ -909,7 +924,19 @@ ul {
 
 .sunburst {
     width: 100%;
-    height:auto;
+    height:80vh;    
+}
+#overview_sunburst_div {
+    background-color: white;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+}
+#overview_title {
+    margin-top: 1rem;
 }
 
 .leaflet-pane {
@@ -954,6 +981,13 @@ ul {
     align-content: center;
 }
 
+#footer_top{
+    height : fit-content;
+    background-color: var(--bs-greengroup2);
+    width: 100%;
+    display: flex;
+}
+
 .footer_div {
     vertical-align: middle;
     align-content: center;
@@ -961,7 +995,30 @@ ul {
     padding-left: .5rem;
     padding-right: .5rem;
 }
+.footer_col {
+    margin: 1rem;
+    width:fit-content;
+    
 
+}
+.footer_button {
+    background-color: var(--bs-greengroup2);
+    border: none;
+    text-decoration: underline;
+    font-size: calc(0.25rem + 0.5vw);
+    padding: 0;
+    margin: .1rem;
+}
+#address_col {
+    font-size: calc(0.2rem + 0.5vw);
+}
+#help_col  {
+    margin-left: auto;
+}
+#nav_col {
+    margin-left: 2vw;
+    margin-right: 10vw;
+}
 
 #sidebar-collapse-button {
     float: left;
@@ -988,7 +1045,10 @@ ul {
     padding-top: .5rem;
     text-align: center;
     padding-bottom: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
 
 .source_overview_box {
     padding: .65rem;
@@ -1042,12 +1102,15 @@ h1 {padding-left: 1rem;}
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#llc_logo {
+.llc_logo {
     max-height: 100%;
     padding-top: .2rem;
     padding-bottom: .2rem;
     margin-left: 1rem;
-    
+}
+#footer_logo {
+    height: 5vw;
+    max-height: 100%;
 }
 #basket_review_table {
     width:100%;
@@ -1148,10 +1211,10 @@ h1 {padding-left: 1rem;}
     top: 0;
     right: 0;
     background-color: white;
-    border: solid;
-    border-color: lightgray;
+    border: none;
     height: 100%;
     width: 40vw;
+    box-shadow: 0 0 0.3rem rgb(79, 78, 78); 
   }
   #offcanvas_close {
     background-color: white;
@@ -1172,14 +1235,15 @@ h1 {padding-left: 1rem;}
     right: 15%;
     background-color: white;
     height: 100%;
-    width: 70%;
+    width: 60%;
+    box-shadow: 0 0 0.3rem rgb(79, 78, 78); 
   }
-  .FAQ {    
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .modal_body {    
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-size: calc(0.65rem + 0.25vw);;
   }
-  .FAQ h1{
+  .modal_body h1{
     text-align: center;
 
     margin-top: 1rem;
@@ -1201,4 +1265,16 @@ h1 {padding-left: 1rem;}
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  .loading {
+    display: flex;
+    vertical-align: top;
+    justify-content:center;
+    align-items: start;
+    top: 0;
+    height: fit-content;
+  }
+  .loading_spinner {
+    position: absolute;
+    top: 0;
   }

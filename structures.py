@@ -68,7 +68,7 @@ def main_titlebar(app, title_text):
         html.Div([
             html.Img(
                 src = app.get_asset_url("Logo_LLC.png"),
-                
+                className = "llc_logo",
                 id = "llc_logo"
             ),
             html.A(
@@ -87,7 +87,6 @@ def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = 
     sidebar_children = []
     # Get data sources
     sources = blocks_df["source"].drop_duplicates()
-    print(blocks_df)
     # Attribute tables to each study
     for schema in sources:
         source_name = blocks_df.loc[blocks_df["source"] == schema]["source_name"].values[0]
@@ -346,10 +345,12 @@ def make_search_box(df, themes):
     sources = list(df["source"].drop_duplicates().sort_values().values)
     doc_box = html.Div([
         html.Div([
-            html.H1("Welcome to UK LLC Explore"),
-            html.P("the UK LLC holds data from various longitudinal population studies and linked data source and makes them available in a trusted research evironment."),
-            html.P("Search our catalogue of data and build a data request.")
-        ],
+            html.H1("UK LLC Explore"),
+            html.Div([
+                html.P("Search our catalogue of longitudinal and linked data and build a data request.")
+            ]),
+        ], 
+        className = "text_block" ,
         id = "intro_div"),
         html.Div([
             dcc.Checklist(
@@ -463,11 +464,20 @@ def make_search_box(df, themes):
                 dcc.Tab(label = "Variables", value = "Variables")
             ]
             ),
-        html.Div([
-            html.Div([], id = "search_text"),
-            html.Div([], id = "search_metadata_div")
-        ],
-        className = "container_div"
+        dcc.Loading(
+            children = [
+            html.Div([
+                html.Div([], id = "search_text"),
+                html.Div([], id = "search_metadata_div")
+            ],
+            className = "container_div"
+            ),
+            ],
+            id = "search_loading",
+            type = "circle",
+            parent_className  = "loading",
+            className = "loading_spinner"
+
         )
     ], 
     id = "body_search", 
@@ -478,14 +488,18 @@ def make_search_box(df, themes):
 
 def make_d_overview_box(source_counts, dataset_counts):
     d_overview_box = html.Div([
-        html.H2("Master Search"),
-        html.P("Placeholder paragraph talking about how this is a search tab for looking through datasets"),
+        html.Div([
+            html.H1("Overview"),
+            html.P("The overview sunburst graph shows the complete contents of the UK LLC database scaled by the number of constituent participants. Click a segment of the graph to focus in on it."),
+        ],
+        id = "overview_title",
+        className = "text_block"
+        ),
         html.Div([
             sunburst(source_counts, dataset_counts)
         ],
         id = "overview_sunburst_div"
         ),
-        html.P("After")
     ],
     id = "body_overview", 
     className = "body_box"
@@ -566,47 +580,84 @@ def make_modal_background():
 
 
 def FAQ():
+    body = html.Div([
+            html.H1("Frequently Asked Questions"),
+            html.Div([
+                html.H2("Question1"),
+                html.P("answer...")
+            ],
+            className = "FAQ_QA"
+            ),
+            html.Div([
+                html.H2("Question2"),
+                html.P("answer...")
+            ],
+            className = "FAQ_QA"
+            ),
+            html.Div([
+                html.H2("Question3"),
+                html.P("answer...")
+            ],
+            className = "FAQ_QA"
+            ),
+            html.Div([
+                html.H2("Question4"),
+                html.P("answer...")
+            ],
+            className = "FAQ_QA"
+            ),
+        ])
+    return body
+
+def contact_us():
+    body = html.Div([
+            html.H1("Contact us"),
+            html.Div([
+                html.P("Can't find what you are looking for?"),
+                html.P("support@ukllc.ac.uk")
+            ],
+            className = "FAQ_QA"
+            ),
+            html.Div([
+                html.P("For ... contact support"),
+                html.P("support@ukllc.ac.uk")
+            ],
+            className = "FAQ_QA"
+            ),
+            html.Div([
+                html.P("For ... contact ... at"),
+                html.P("info@ukllc.ac.uk")
+            ],
+            className = "FAQ_QA"
+            ),
+            html.Div([
+                html.P("more.."),
+                html.P("...")
+            ],
+            className = "FAQ_QA"
+            ),
+            
+    ])
+    return body
+
+
+def modal():
     modal = html.Div(
     [
         dbc.Modal(
             [
-                
                 dbc.ModalBody([
                     dbc.Button(
                         html.I(className = "bi bi-x-lg", ), id = "modal_close", className="offcanvas_close", n_clicks=0
                     ),
                     html.Div([
-
-                        html.H1("Frequently Asked Questions"),
-                        html.Div([
-                            html.H2("Question1"),
-                            html.P("answer...")
-                        ],
-                        className = "FAQ_QA"
-                        ),
-                        html.Div([
-                            html.H2("Question2"),
-                            html.P("answer...")
-                        ],
-                        className = "FAQ_QA"
-                        ),
-                        html.Div([
-                            html.H2("Question3"),
-                            html.P("answer...")
-                        ],
-                        className = "FAQ_QA"
-                        ),
-                        html.Div([
-                            html.H2("Question4"),
-                            html.P("answer...")
-                        ],
-                        className = "FAQ_QA"
-                        ),
+                        FAQ()
                     ],
-                    className = "FAQ"
+                    className = "modal_body",
+                    id = "modal_body"
                     )
-                ],
-                ),
+                ]
+                )
 
             ],
             id="modal",
@@ -747,7 +798,7 @@ def make_variable_div_list(id_type, indices):
 
 
 def make_app_layout(titlebar, body, account_section, variable_divs):
-    app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),FAQ()] + variable_divs, id="app") 
+    app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),modal()] + variable_divs, id="app") 
     return app_layout
 
 def make_info_box(df):
@@ -860,14 +911,8 @@ def make_account_section():
             ],
             className = "row_layout"
             ),
-            dbc.Button("FAQs", className = "nav_button", id = "FAQ_button")
-            
         ], id = "title_nav_style"),
-        
-        html.Div([
-        "account info"
-        ])], 
-        
+        ],
         style = ss.ACCOUNT_DROPDOWN_DIV_STYLE)
     '''
                     dbc.DropdownMenu(
@@ -1038,63 +1083,130 @@ def footer(app):
     footer = html.Footer(
         [
         html.Div([
-            html.A(
-                href="https://bristol.ac.uk/",
-                children = [
-                    html.Img(src = app.get_asset_url("UoB_RGB_24.svg"),),
-                ]
-            ),
-        ], 
-        className = "footer_div"),
-        html.Div([
-            html.A(
-                href="https://ed.ac.uk/",
-                children = [
-                    html.Img(src = app.get_asset_url("UoE_Stacked_Logo_160215.svg"), className = "footer_img" ),
-                ]
-            ),
-        ], 
-        className = "footer_div"),
-        html.Div([
-            html.A(
-                href="https://ucl.ac.uk/",
-                children = [
-                    html.Img(src = app.get_asset_url("University_College_London_logo.png"), className = "footer_img" ),
-                ]
-            ),
-        ], 
-        className = "footer_div"),
-        html.Div([
-            html.A(
-                href="https://le.ac.uk/",
-                children = [
-                    html.Img(src = app.get_asset_url("UoL-Logo-Full-Colour.png"), className = "footer_img" ),
-                ]
-            ),
-        ], 
-        className = "footer_div"),
+            html.Div([
+                html.Img(
+                    src = app.get_asset_url("Logo_LLC2.png"),
 
-        html.Div([
-            html.A(
-                href="https://swansea.ac.uk/",
-                children = [
-                    html.Img( src = app.get_asset_url("swansea-uni-logo.png"), className = "footer_img" ),
-                ]
+                    className = "llc_logo",
+                    id = "footer_logo"
+                    ),
+                    html.A(
+                    href="https://ukllc.ac.uk/",
+                    children=[
+                    ]
+                ),
+            ],
+            className = "footer_col",
             ),
-            ], 
-        className = "footer_div"),
-        html.Div([
-            html.A(
-                href="https://serp.ac.uk/",
-                children = [
-                    html.Img(src = app.get_asset_url("SeRP-UK-Logo-RGB-Navy.png"), className = "footer_img" ),
-                ]
+
+            html.Div(
+                [   html.H2("Address"),
+                    html.P("UK Longitudinal Linkage Collaboration"),
+                    html.P("University of Bristol"),
+                    html.P("Canynge Hall"),
+                    html.P("39 Whatley Road"),
+                    html.P("Bristol"),
+                    html.P("BS8 2PS")
+                ],
+                className = "footer_col",
+                id = "address_col"
             ),
+            html.Div(
+                [
+                    html.H2("Help"),
+                   # Help
+                    dbc.Button("Contact us", className='footer_button', id = "contact_us"),
+                    html.Br(),
+                    dbc.Button("FAQs", className = "footer_button", id = "FAQ_button"),
+                    html.Br(),
+                    html.A(href="https://www.youtube.com/@ukllcollab", children = ["Youtube guides"], className = "footer_button")
+                ],
+                className = "footer_col",
+                id = "help_col"
+            ),
+            html.Div(
+                [   
+                    html.H2("Navigation"),
+                    dbc.Button("Search", className='footer_button', id = "search2"),
+                    html.Br(),
+                    dbc.Button("Data Overview", className='footer_button', id = "overview2"),
+                    html.Br(),
+                    dbc.Button("Source Info", className='footer_button', id = "source2"),
+                    html.Br(),
+                    dbc.Button("Dataset Info", className='footer_button', id = "dataset2"),
+
+                ],
+                className = "footer_col",
+                id = "nav_col"
+            ),
+            
+        ],
+        className = "row_layout",
+        id = "footer_top"
+        ),
+        html.Div([
+            html.Div([
+                html.A(
+                    href="https://bristol.ac.uk/",
+                    children = [
+                        html.Img(src = app.get_asset_url("UoB_RGB_24.svg"),),
+                    ]
+                ),
             ], 
-        className = "footer_div"),
+            className = "footer_div"),
+            html.Div([
+                html.A(
+                    href="https://ed.ac.uk/",
+                    children = [
+                        html.Img(src = app.get_asset_url("UoE_Stacked_Logo_160215.svg"), className = "footer_img" ),
+                    ]
+                ),
+            ], 
+            className = "footer_div"),
+            html.Div([
+                html.A(
+                    href="https://ucl.ac.uk/",
+                    children = [
+                        html.Img(src = app.get_asset_url("University_College_London_logo.png"), className = "footer_img" ),
+                    ]
+                ),
+            ], 
+            className = "footer_div"),
+            html.Div([
+                html.A(
+                    href="https://le.ac.uk/",
+                    children = [
+                        html.Img(src = app.get_asset_url("UoL-Logo-Full-Colour.png"), className = "footer_img" ),
+                    ]
+                ),
+            ], 
+            className = "footer_div"),
+
+            html.Div([
+                html.A(
+                    href="https://swansea.ac.uk/",
+                    children = [
+                        html.Img( src = app.get_asset_url("swansea-uni-logo.png"), className = "footer_img" ),
+                    ]
+                ),
+                ], 
+            className = "footer_div"),
+            html.Div([
+                html.A(
+                    href="https://serp.ac.uk/",
+                    children = [
+                        html.Img(src = app.get_asset_url("SeRP-UK-Logo-RGB-Navy.png"), className = "footer_img" ),
+                    ]
+                ),
+            ], 
+            className = "footer_div"
+            )
         ],
         className = "footer",
-        id = "footer",
+        ),
+        
+    ],
+    id = "footer"
     )
     return footer
 

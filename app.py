@@ -77,13 +77,14 @@ themes.remove("")
 
 gj = dataIO.load_geojson()
 
-print("DEBUG:")
+'''
+print("DEBUG memory usage:")
 print("datasets_df", sys.getsizeof(datasets_df)/1024)
 print("datasets_counts", sys.getsizeof(dataset_counts)/1024)
 print("source_info", sys.getsizeof(source_info)/1024)
 print("spine", sys.getsizeof(spine)/1024)
 print("map_data", sys.getsizeof(map_data)/1024)
-
+'''
 
 app_state = App_State()
 
@@ -112,11 +113,11 @@ def load_or_fetch_map(study):
 ### index
 storage_var = FileStorage("index_var")
 storage_var.open_index()
-print("storage_var", sys.getsizeof(storage_var)/1024)
+#print("storage_var", sys.getsizeof(storage_var)/1024)
 
 storage_spine = FileStorage("index_spine")
 storage_spine.open_index()
-print("storage_spine", sys.getsizeof(storage_spine)/1024)
+#print("storage_spine", sys.getsizeof(storage_spine)/1024)
 
 ix_var = whoosh.index.open_dir('index_var')
 ix_spine = whoosh.index.open_dir('index_spine')
@@ -158,7 +159,7 @@ hidden_body = struct.make_hidden_body(source_info, dataset_counts)
 ###########################################
 ### Layout
 app.layout = struct.make_app_layout(titlebar, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
-print("Built app layout")
+print("---------------------\nBuilt app layout\n----------------------")
 ###########################################
 ### Actions
 
@@ -292,6 +293,8 @@ def update_table_data(table_id):
     trigger = dash.ctx.triggered_id
 
     print("CALLBACK: Dataset BOX - updating table description with table {}, {}".format(table_id, trigger))
+    if not trigger:
+        raise PreventUpdate
     
     #pass until metadata block ready
     if table_id != None and table_id != "None":
@@ -332,16 +335,7 @@ def update_table_data(table_id):
         
         return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table"), title_text, {"display": "flex"}
     else:
-        # Default (Section may be hidden in final version)
-        qp = qparser.QueryParser("all", ix_spine.schema)
-        q = qp.parse("1")
-        r = searcher_spine.search(q)
-        search_results = []
-        for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "table"]})
-        if len(search_results) > 0:
-            info = pd.DataFrame(search_results)
-            search_results_table = struct.make_table(info, "search_metadata_table")
+        search_results_table = struct.make_table(spine, "search_metadata_table")
 
         return "", "", "", "", search_results_table, "UK LLC Datasets", {"display": "none"}
 
@@ -372,7 +366,7 @@ def basket_review(shopping_basket):
         
         df1 = df.loc[(df["source"] == source) & (df["table"] == table)]
         try: # NOTE TEMP LINKED OVERRIDE 
-            print(df1.columns)
+            #print(df1.columns)
             row = [source, table, df1["short_desc"].values[0]]
         except IndexError:
             row = [source, table,""]
@@ -397,13 +391,17 @@ def basket_review(shopping_basket):
     Input("dd_dataset", "n_clicks"),
     Input('study_description_div', "children"), # When the dataset page is updates (means active source has changed and pages have updated)
     Input('dataset_description_div', "children"), # When the dataset page is updates (means active table has changed and pages have updated)
+    Input("search2", "n_clicks"),
+    Input("overview2", "n_clicks"),
+    Input("source2", "n_clicks"),
+    Input("dataset2", "n_clicks"),
     State("active_schema", "data"),
     State("active_table", "data"),
     State("body_content", "children"),
     State("hidden_body","children"),
     prevent_initial_call=True
 )
-def body_sections(search, d_overview, dd_study, dd_data_block, _, __, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
+def body_sections(search, d_overview, dd_study, dd_data_block, _, __, search2, overview2, source2, dataset2, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -421,9 +419,10 @@ def body_sections(search, d_overview, dd_study, dd_data_block, _, __, schema_cha
     '''
     trigger = dash.ctx.triggered_id
 
-        
-    print("CALLBACK: body sections, activating", trigger)
+    
+    
     if (schema_change == None or schema_change == "None") and trigger == "study_description_div" : raise PreventUpdate
+    print("CALLBACK: body sections, activating", trigger)
     #if (table_change == None or table_change == "None") and trigger == "dataset_description_div" : raise PreventUpdate
     if trigger == "active_schema" or trigger == "active_table":
         active_tab = active_body[0]["props"]["id"].replace("body_","").replace("dd_", "")
@@ -454,25 +453,33 @@ def body_sections(search, d_overview, dd_study, dd_data_block, _, __, schema_cha
     Output("offcanvas_review", "is_open"),
     Output("modal_background", "style"),
     Output("modal", "is_open"),
+    Output("modal_body", "children"),
     Input("review", "n_clicks"),
     Input("modal_background", "n_clicks"),
     Input("FAQ_button", "n_clicks"),
     Input("offcanvas_close", "n_clicks"),
     Input("modal_close", "n_clicks"),
+    Input("contact_us", "n_clicks"),
     prevent_initial_call = True
 )
-def review_right_sidebar(oc_click, bg_click, FAQ_click, oc_close, FAQ_close):
+def review_right_sidebar(oc_click, bg_click, FAQ_click, oc_close, FAQ_close, cu_clicks):
+    if not oc_click and not bg_click and not FAQ_click and not oc_close and not FAQ_close and not cu_clicks:
+        raise PreventUpdate
     print("REVIEW", oc_click, dash.ctx.triggered_id)
+    print(oc_click, bg_click, FAQ_click, oc_close, FAQ_close, cu_clicks)
     trigger = dash.ctx.triggered_id
     if trigger == "modal_background" or trigger == "offcanvas_close" or trigger == "modal_close": # Background, close all
-        return False, {"display":"none"}, False
+        return False, {"display":"none"}, False, None
     
-    if trigger == "review":
-        return True, {"display":"flex"}, False
-    elif trigger == "FAQ_button": #modal / FAQs
-        return False, {"display":"flex"}, True
+    if trigger == "review" and oc_click:
+        return True, {"display":"flex"}, False, None
+    elif trigger == "FAQ_button" and FAQ_click: #modal / FAQs
+        return False, {"display":"flex"}, True, struct.FAQ()
+    elif trigger == "contact_us" and cu_clicks:
+        return False, {"display":"flex"}, True, struct.contact_us()
     else:
-        print("Error 212, unexpected behaviour in modal business")
+        # strange case - after sidebar click, gets past first prevent update. This is second check to make sure not triggered by spawning in.
+        raise PreventUpdate
 
 
 
@@ -504,11 +511,11 @@ def sidebar_schema(open_study_schema, links1, links2):
     '''
     trigger = dash.ctx.triggered_id
     
-    print("CALLBACK: sidebar schema click")# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
     real_triggers = [x for x in open_study_schema if (x and x>0)] + [x for x in links1 if (x and x>0)] +[x for x in links2 if (x and x>0)] 
     if len(real_triggers) == 0 :
-        print("debug, no update on schema")
         raise PreventUpdate
+    print("CALLBACK: sidebar schema click")# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
+
     open_study_schema = trigger["index"]
     return open_study_schema
 
@@ -551,6 +558,7 @@ def sidebar_table(tables):
     Output("search_text", "children"),
     Output("sidebar_filter", "children"),
     Input("search_button", "n_clicks"),
+    Input("main_search", "n_submit"),
     State("main_search", "value"),
     Input("include_dropdown", "value"),
     Input("exclude_dropdown", "value"),
@@ -564,7 +572,7 @@ def sidebar_table(tables):
     State("active_table", "data"),
     Input("include_type_checkbox", "value"),
     )
-def main_search(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type, screen_schemas, open_schemas, shopping_basket, table, include_type):
+def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type, screen_schemas, open_schemas, shopping_basket, table, include_type):
     '''
     When the search button is clicked
     read the main search content
@@ -851,7 +859,6 @@ def save_shopping_cart(btn1, save_clicks, shopping_basket):
     if btn1 != save_clicks or dash.ctx.triggered_id == "dl_button_2":
         # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
         fileout = dataIO.basket_out(shopping_basket)
-        print("DOWNLOAD")
         return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv"), btn1
     else:
         raise PreventUpdate
@@ -880,7 +887,7 @@ def basket_autosave(_, sb):
     prevent_initial_call=True
 )
 def toggle_collapse(n, is_open):
-    print("Toggling sidebar")
+    print("CALLBACK: Toggling sidebar")
     if n:
         return not is_open
     return is_open
@@ -947,42 +954,29 @@ Yorkshire and The Humber
 
 -----------------------
 Post Larp work
-1. Size new geo charts ------- 
 2. Add wales, scotland and NI to map 
 3. Search by age (waiting on Christian)
 4. Search by collection date. (waiting on Christian)
-5. Add icons nhsd & geo
-6. Add  short description to dataset table view
+5. Add icons nhsd & geo (name geo)
+6. Add short description to dataset table view
 7. add click links to dataset table view
 8. Narrow screen looksw awful. Build in some contingency css
 9. Toggle on age graph to show age at collection rather than age now?
-10. Add keywords
-11. Change hover style on sidebar left arrow button ----
-12. Move shopping basket to a right hand sidebar
-13. FAQs
-14. Move style to shadow boxes ---------------
-15. Steal Alex's button styles
-16. Section links in the footer
-17. Can't find what you are looking for section
-18. Fix sunburst heirarchy -------------------------
-19. Move search style radio buttons into tabs. ---------------------
-20. Sunburst tab styling
-21. Add loading to variable / speed up variable search
+23. Get help filling out contact us
+24. Get help filling out FAQs
+25. Sunburst content gaps.
+26. Test searching and figure out why variable level seems not to be working
 
 
-07/05/2024
-10. Get all possible themes & appearances. Either do checkboxes, or do tag box.  -----
-11. hover -----------------
-5. nhs & geo icons 1/2 done
-18. Sunburst -----
-19. radio --> tabs -----
+Tuesday 14th May
+hook up all of the buttons in the footer ----
+contact us (framework) ----
+20. Sunburst styling -----------
+21. Add loading signs to search ----------
+4. Ask Christian about dates  ----------
+Got a bunch of other stuff on, so best not to oversubscribe.
+~ style the search button
 
-carry on with offcanvas
-got offcanvas working, now make it look nice.
-
-10/05/2024
-Get off canvas nice.
-Get FAQs in too.
-Get counter on selection looking nice
+default datasets only shows ALSPAC
 '''
 
