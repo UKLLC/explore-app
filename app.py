@@ -104,17 +104,16 @@ def load_or_fetch_map(study):
 ######################################################################################
 ### index
 storage_var = FileStorage("index_var")
-storage_var.open_index()
-#print("storage_var", sys.getsizeof(storage_var)/1024)
 
 storage_spine = FileStorage("index_spine")
-storage_spine.open_index()
-#print("storage_spine", sys.getsizeof(storage_spine)/1024)
 
-ix_var = whoosh.index.open_dir('index_var')
-ix_spine = whoosh.index.open_dir('index_spine')
+ix_var = storage_var.open_index()
+ix_spine = storage_spine.open_index()
+
+print("DEBUG reached pre searcher")
 searcher_var = ix_var.searcher()
 searcher_spine = ix_spine.searcher()
+print("DEBUG, passed searcher")
 
 ######################################################################################
 ### page asset templates
@@ -958,7 +957,7 @@ Post Larp work
 24. Get help filling out FAQs
 25. Sunburst content gaps.
 26. Test searching and figure out why variable level seems not to be working
-
+27. Sunburst labels with actual participant count not weighted
 
 Tuesday 14th May
 hook up all of the buttons in the footer ----
