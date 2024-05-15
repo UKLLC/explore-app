@@ -5,6 +5,7 @@ dash-html-components==2.0.0
 dash-table==5.0.0
 gunicorn==20.1.0
 pandas 
+pymysql ==1.1.0
 protobuf==3.20.*
 plotly==v5.22.0
 SQLAlchemy==v2.0.25
