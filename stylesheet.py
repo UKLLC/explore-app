@@ -104,10 +104,6 @@ DYNA_MAP_STYLE = {
     "height" : "100%",
 }
 
-POLYGON_STYLE = assign("""function(feature, context){
-        return weight=5, color='#666', dashArray='';
-};""")
-
 # Documentation #######################
 
 DOC_TITLE_STYLE = {
