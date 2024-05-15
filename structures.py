@@ -3,9 +3,6 @@ from dash import dcc
 from dash import html
 import pandas as pd
 from dash import dash_table
-import dash_leaflet as dl
-import dash_leaflet.express as dlx
-from dash_extensions.javascript import arrow_function
 import warnings
 import plotly.graph_objects as go
 

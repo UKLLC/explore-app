@@ -1,5 +1,4 @@
 # sidebar.py
-import re
 import dash
 from dash import dcc
 from dash.dependencies import Input, Output
@@ -11,22 +10,15 @@ import logging
 from dash.exceptions import PreventUpdate
 #import dash_auth
 from flask import request
-import plotly.express as px
-import plotly.graph_objects as go
 import sqlalchemy
 import whoosh
-from whoosh import fields, index
-from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED
-from whoosh.analysis import StemmingAnalyzer
 from whoosh import qparser
-from whoosh.qparser import QueryParser
 from whoosh.filedb.filestore import FileStorage
 import sys
 
 
 from app_state import App_State
 import dataIO
-import constants 
 import structures as struct
 
 import time
@@ -38,8 +30,8 @@ server = app.server
 
 def connect():
     try:
-        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
-        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:

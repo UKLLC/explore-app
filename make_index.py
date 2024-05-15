@@ -4,12 +4,8 @@ import pandas as pd
 import sqlalchemy
 import time
 
-from whoosh import fields, index
+from whoosh import fields
 from whoosh.index import create_in
-from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED
-from whoosh.analysis import StemmingAnalyzer
-from whoosh import qparser
-from whoosh.qparser import QueryParser
 from whoosh.filedb.filestore import FileStorage
 
 
