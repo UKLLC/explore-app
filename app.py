@@ -110,6 +110,12 @@ storage_spine = FileStorage("index_spine")
 ix_var = storage_var.open_index()
 ix_spine = storage_spine.open_index()
 
+print("Checking for valid index:")
+print(whoosh.index.exists_in("index_var"))
+print(whoosh.index.exists_in("index_spine"))
+
+
+
 print("DEBUG reached pre searcher")
 searcher_var = ix_var.searcher()
 searcher_spine = ix_spine.searcher()
@@ -969,5 +975,17 @@ Got a bunch of other stuff on, so best not to oversubscribe.
 ~ style the search button
 
 default datasets only shows ALSPAC
+
+
+We have a serious problem with Whoosh and Heroku.
+protential solutions:
+1. Find a way to get storage version working
+    a. Could it still be a bug? Will some rewriting make it work?
+    b. Heroku add ons?
+2. Make index with app deploy & keep in memory. 
+3. Stop using Heroku
+    Bit of a pain, but honestly wouldn't hate.
+4. Stop using Whoosh
+    a. alternative is elastic search which is expensive as gold beans
 '''
 
