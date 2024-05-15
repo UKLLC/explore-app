@@ -1,5 +1,3 @@
-from dash_extensions.javascript import assign
-
 # Dependent layout vars
 titlebar_h = 5
 left_sidebar_w = 30
