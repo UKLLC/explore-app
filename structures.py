@@ -838,6 +838,7 @@ def make_schema_description(schemas):
 def make_block_description(blocks):
     # Make the study tab variables
     blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
+    blocks["Participants Included"] = blocks["Participants Included"].astype(int)
     return make_info_box(blocks)
 
 def make_blocks_table(df):
@@ -951,7 +952,7 @@ def pie(labels, values, counts):
     return dcc.Graph(figure = fig, className = "tab_div")
 
 
-def boxplot(mean, median, q1, q3, sd, lf, uf):
+def boxplot(mean, median, q1, q3, lf, uf):
     
     layout = go.Layout(
         margin=go.layout.Margin(
@@ -968,7 +969,6 @@ def boxplot(mean, median, q1, q3, sd, lf, uf):
             median=median,   
             q3=q3, 
             mean=mean,
-            sd=sd, 
             lowerfence = lf,
             upperfence = uf,
             name="Precompiled Quartiles",

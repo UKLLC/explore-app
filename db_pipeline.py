@@ -6,7 +6,6 @@ import io
 from office365.runtime.auth.authentication_context import AuthenticationContext
 from office365.sharepoint.client_context import ClientContext
 from office365.sharepoint.files.file import File
-import bot_token as bt
 import os
 import re
 from datetime import datetime
@@ -90,7 +89,7 @@ def get_file2_docs(ctx):
     df = df.dropna(subset=["long_descs"])
     return df
 
-
+'''
 def get_context(): 
     ctx_auth = AuthenticationContext("https://uob.sharepoint.com/teams/grp-AndyRobinJazz/")
     if ctx_auth.acquire_token_for_app(bt.token, bt.secret):
@@ -98,6 +97,7 @@ def get_context():
         return ctx
     else:
         raise Exception("Context error")
+'''
 
 def contains_version(name):
     
@@ -184,9 +184,9 @@ def main():
     for block in block_ages.keys():
         schema = block.split(".")[0]
         table = block.split(".")[1]
-        rows.append([schema, table, block_ages[block]["mean"], block_ages[block]["std"], block_ages[block]["25%"], block_ages[block]["50%"], block_ages[block]["75%"], block_ages[block]["10%"], block_ages[block]["90%"]])
+        rows.append([schema, table, block_ages[block]["mean"], block_ages[block]["q1"], block_ages[block]["q2"], block_ages[block]["q3"], block_ages[block]["lf"], block_ages[block]["uf"]])
 
-    block_ages_df = pd.DataFrame(rows, columns = ["source", "table_name", "mean", "std", "q1", "q2", "q3", "lf", "uf"])
+    block_ages_df = pd.DataFrame(rows, columns = ["source", "table_name", "mean", "q1", "q2", "q3", "lf", "uf"])
     block_ages_df.to_sql("dataset_ages", cnxn, if_exists="replace")
 
     ###
@@ -196,16 +196,15 @@ def main():
     for cohort in cohort_linkage_groups.keys():
 
         total = cohort_linkage_groups[cohort]["total"]
-        nhs = cohort_linkage_groups[cohort]["nhs"]
-        geo = cohort_linkage_groups[cohort]["geo"]
+
         
-        cohort_linkage_groups_rows.append([cohort, nhs, geo, total])
+        cohort_linkage_groups_rows.append([cohort, total])
 
         group = cohort_linkage_groups[cohort]["groups"]
         group_counts = cohort_linkage_groups[cohort]["counts"]
         for key, item in group.items():
             cohort_linkage_groups_by_group_rows.append([cohort, key, item, group_counts[key]])
-    cohort_linkage_df = pd.DataFrame(cohort_linkage_groups_rows, columns = ["cohort", "nhs", "geo", "total"]).rename(columns={"cohort":"source"})
+    cohort_linkage_df = pd.DataFrame(cohort_linkage_groups_rows, columns = ["cohort",  "total"]).rename(columns={"cohort":"source"})
     cohort_linkage_by_group = pd.DataFrame(cohort_linkage_groups_by_group_rows, columns = ["cohort", "group", "perc", "count"])
     cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn, if_exists="replace")
 
@@ -217,17 +216,15 @@ def main():
         schema = block.split(".")[0]
         table = block.split(".")[1]
         total = datasets[block]["total"]
-        nhs = datasets[block]["nhs"]
-        geo = datasets[block]["geo"]
         
-        blocks_linkage_rows.append([schema, table, nhs, geo, total])
+        blocks_linkage_rows.append([schema, table,  total])
 
         group = datasets[block]["groups"]
         group_counts = datasets[block]["counts"]
         for key, item in group.items():
             blocks_linkage_by_group_rows.append([schema, table, key, item, group_counts[key]])
 
-    block_linkage_df = pd.DataFrame(blocks_linkage_rows, columns = ["source", "table_name", "nhs", "geo", "total"]).rename(columns={"table_name":"table"})
+    block_linkage_df = pd.DataFrame(blocks_linkage_rows, columns = ["source", "table_name",  "total"]).rename(columns={"table_name":"table"})
     block_linkage_by_group = pd.DataFrame(blocks_linkage_by_group_rows, columns = ["source", "table_name", "group", "perc", "count"])
     block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn, if_exists="replace")
 
@@ -235,9 +232,9 @@ def main():
 
     rows = []
     for cohort in cohort_ages.keys():
-        rows.append([cohort, cohort_ages[cohort]["mean"], cohort_ages[cohort]["std"], cohort_ages[cohort]["25%"], cohort_ages[cohort]["50%"], cohort_ages[cohort]["75%"], cohort_ages[cohort]["10%"], cohort_ages[cohort]["90%"]])
+        rows.append([cohort, cohort_ages[cohort]["mean"], cohort_ages[cohort]["q1"], cohort_ages[cohort]["q2"], cohort_ages[cohort]["q3"], cohort_ages[cohort]["lf"], cohort_ages[cohort]["uf"]])
 
-    cohort_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "std", "q1", "q2", "q3", "lf", "uf"])
+    cohort_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
     cohort_ages_df.to_sql("cohort_ages", cnxn, if_exists="replace")
 
     ###
@@ -245,9 +242,9 @@ def main():
     linked_ages = data["linked ages"]
     rows = []
     for ds in linked_ages.keys():
-        rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["std"], linked_ages[ds]["25%"], linked_ages[ds]["50%"], linked_ages[ds]["75%"], linked_ages[ds]["10%"], linked_ages[ds]["90%"]])
+        rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["q1"], linked_ages[ds]["q2"], linked_ages[ds]["q3"], linked_ages[ds]["lf"], linked_ages[ds]["uf"]])
 
-    linked_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "std", "q1", "q2", "q3", "lf", "uf"])
+    linked_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
     linked_ages_df["source_stem"] = linked_ages_df.apply(nf.get_naming_parts, axis =1, args=("source",))
     linked_ages_df.to_sql("linked_ages", cnxn, if_exists="replace")
 
@@ -279,11 +276,11 @@ def main():
     geo_locations_row = []
     
     for dataset in geo_locations.keys():
-        if len(geo_locations[dataset]) > 0:
-            geo_locations_row.append([dataset, geo_locations[dataset]["East of England"], geo_locations[dataset]["South East"], geo_locations[dataset]["North West"], geo_locations[dataset]["East Midlands"], geo_locations[dataset]["West Midlands"], geo_locations[dataset]["South West"], geo_locations[dataset]["London"], geo_locations[dataset]["Yorkshire and The Humber"], geo_locations[dataset]["North East"]])
+        if len(geo_locations[dataset]) > 2:
+            geo_locations_row.append([dataset, geo_locations[dataset]["East of England"], geo_locations[dataset]["South East"], geo_locations[dataset]["North West"], geo_locations[dataset]["East Midlands"], geo_locations[dataset]["West Midlands"], geo_locations[dataset]["South West"], geo_locations[dataset]["London"], geo_locations[dataset]["Yorkshire and The Humber"], geo_locations[dataset]["North East"], geo_locations[dataset]["Wales"], geo_locations[dataset]["Scotland"]])
         else:
-            geo_locations_row.append([dataset,None,None,None,None,None,None,None,None,None])
-    geo_locations_df = pd.DataFrame(geo_locations_row, columns = ["source", "East of England", "South East", "North West", "East Midlands", "West Midlands", "South West", "London", "Yorkshire and The Humber", "North East"])
+            geo_locations_row.append([dataset,None,None,None,None,None,None,None,None,None,None,None])
+    geo_locations_df = pd.DataFrame(geo_locations_row, columns = ["source", "East of England", "South East", "North West", "East Midlands", "West Midlands", "South West", "London", "Yorkshire and The Humber", "North East", "Wales", "Scotland"])
     geo_locations_df["source_stem"] = geo_locations_df.apply(nf.get_naming_parts, axis =1, args=("source",))
     '''
     geo_locations_trimmed = nf.select_latest_version(geo_locations_df, "source")

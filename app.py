@@ -30,8 +30,8 @@ server = app.server
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
-        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
@@ -226,8 +226,9 @@ def update_schema_description(source):
         ### boxplot #####
         if len(ages["mean"].values) > 0:
             try:
-                boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
-            except:
+                boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
+            except Exception as e:
+                print(e)
                 boxplot = "Error: unable to make age boxplot"
         else:
             boxplot = "Age distribution statistics are not currently available for {}".format(source)
