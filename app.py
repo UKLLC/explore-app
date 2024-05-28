@@ -122,21 +122,6 @@ def load_or_fetch_map(study):
     return df2
 
 ######################################################################################
-### index
-storage_var = FileStorage("index_var")
-
-storage_spine = FileStorage("index_spine")
-
-ix_var = storage_var.open_index()
-ix_spine = storage_spine.open_index()
-
-
-
-
-print("DEBUG reached pre searcher")
-searcher_var = ix_var.searcher()
-searcher_spine = ix_spine.searcher()
-print("DEBUG, passed searcher")
 
 ######################################################################################
 ### page asset templates
@@ -273,13 +258,70 @@ def update_schema_description(source):
         return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), pie, boxplot, map, {"display": "flex"}
     else:
         # If a study is not selected, list instructions for using the left sidebar to select a study.
-        qp = qparser.QueryParser("all", ix_spine.schema)
-        q = qp.parse("1")
+       
+        all_query = {
+            "query": {
+                "bool" : {
+                    "filter":[{
+                            "bool" : {
+                                "should" : [{"term" : { "source" : source}} for source in include_dropdown],
+                            }
+                        }
+                    ],
+                    "must_not":must_not,
+                    
+                    "must" : [{
+                        "bool" : {
+                            "should" : search + [
 
-        r = searcher_spine.search(q, collapse = "source", collapse_limit = 1, limit = None)
+                                {"range": {
+                                    "lf" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+                                {"range": {
+                                    "q2" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+                                {"range": {
+                                    "uf" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+
+                                {"range": {
+                                    "collection_start" : {
+                                        "gte" : "01/1900",
+                                        "lte" : "01/2025",
+                                        "format" : "MM/YYYY"
+                                    }
+                                }},
+                                {"range": {
+                                    "collection_end" : {
+                                        "gte" : "01/1900",
+                                        "lte" : "01/2025",
+                                        "format" : "MM/YYYY"
+                                    }
+                                }}
+                    
+                            ],
+                        }
+                    }
+                    ]
+                }
+            }
+        }
+        
+        #print(all_query)
+        r = es.search(index="index_spine", body={"query" : {"match_all" : {}}}, size = 1000)
+
         search_results = []
-        for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "source_name", "Aims"]})
+        for hit in r["hits"]["hits"]:
+            search_results.append({key: hit["_source"][key] for key in ["source", "source_name", "Aims"]})
         if len(search_results) >0:
             info = pd.DataFrame(search_results)
             search_results = struct.sources_list(app, info, "main_search")
