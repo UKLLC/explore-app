@@ -11,9 +11,6 @@ from dash.exceptions import PreventUpdate
 #import dash_auth
 from flask import request
 import sqlalchemy
-import whoosh
-from whoosh import qparser
-from whoosh.filedb.filestore import FileStorage
 import sys
 from elasticsearch import Elasticsearch
 from urllib.parse import urlparse
@@ -1086,15 +1083,5 @@ Got a bunch of other stuff on, so best not to oversubscribe.
 default datasets only shows ALSPAC
 
 
-We have a serious problem with Whoosh and Heroku.
-protential solutions:
-1. Find a way to get storage version working
-    a. Could it still be a bug? Will some rewriting make it work?
-    b. Heroku add ons?
-2. Make index with app deploy & keep in memory. 
-3. Stop using Heroku
-    Bit of a pain, but honestly wouldn't hate.
-4. Stop using Whoosh
-    a. alternative is elastic search which is expensive as gold beans
 '''
 
