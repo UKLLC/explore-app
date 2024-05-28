@@ -336,7 +336,7 @@ def main():
     search = pd.merge(all_variables, dataset_df[["source", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "Type"]], on  = ["source", "table"], how = "right")
     # Get age upper lowers
     block_ages_df = block_ages_df.rename(columns = {"table_name":"table"})
-    search = pd.merge(search, block_ages_df[["source", "table", "lf", "uf"]], on  = ["source", "table"], how = "left" )
+    search = pd.merge(search, block_ages_df[["source", "table", "lf", "uf", "q2"]], on  = ["source", "table"], how = "left" )
     # Get source fullname, description, themes
     search = pd.merge(search, source_df[["source", "source_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
     search["Themes"] = search["Themes"].str.replace("\n", "")

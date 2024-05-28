@@ -10,4 +10,5 @@ protobuf==3.20.*
 plotly==v5.22.0
 SQLAlchemy==v2.0.25
 dash-renderer==1.1.2
-Whoosh ==2.7.4
+elasticsearch==7.0.0
+urllib3==2.2.1

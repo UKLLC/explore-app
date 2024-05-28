@@ -15,7 +15,9 @@ import whoosh
 from whoosh import qparser
 from whoosh.filedb.filestore import FileStorage
 import sys
-
+from elasticsearch import Elasticsearch
+from urllib.parse import urlparse
+import os
 
 from app_state import App_State
 import dataIO
@@ -37,9 +39,30 @@ def connect():
     except Exception as e:
         print("fatal: Connection to database failed")
         raise Exception("DB connection failed")
+    
+def searchbox_connect():
+    
+    url = urlparse("https://paas:***REMOVED***")
+
+    print(url.username, url.password)
+    ######## test
+    es = Elasticsearch(
+        ["https://paas:***REMOVED***"],
+        http_auth=(url.username, url.password),
+        scheme=url.scheme,
+        port=url.port,
+    )
+    return es
 
 ######################################################################################
 ### Data prep functions
+
+es = searchbox_connect()
+
+
+
+#########
+
 
 with connect() as cnxn:
     # Load block info
@@ -110,9 +133,6 @@ storage_spine = FileStorage("index_spine")
 ix_var = storage_var.open_index()
 ix_spine = storage_spine.open_index()
 
-print("Checking for valid index:")
-print(whoosh.index.exists_in("index_var"))
-print(whoosh.index.exists_in("index_spine"))
 
 
 
@@ -601,30 +621,6 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         1. Get list of distinct tables
         2. 
     '''
-
-    # new version 25/03/24 (indexing )
-    '''
-    Possible fields: 
-    source
-    source_name 
-    table
-    table_name
-    variable_name 
-    variable_description
-    value
-    value_label
-    long_desc 
-    topic_tags 
-    collection_start
-    collection_end 
-    lf 
-    uf 
-    Aims 
-    Themes 
-    '''
-    # 1. general search 
-    # source, source_name, table, table_name, variable_name, variable_description, long_desc, topic_tags, Aims, Themes
-
     # Setting up open schemas
     collapse_state = {}
     for sch, open in zip(screen_schemas, open_schemas):
@@ -634,6 +630,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             collapse_state[sch["index"]] = False
 
 
+    #############
     time0 = time.time()
 
     # 2. include dropdown & type checkboxes
@@ -644,42 +641,102 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         renamed_include_type.append("Linked")
 
     if not include_dropdown:
-        include_dropdown = spine["source"].drop_duplicates()
-    allow_q = whoosh.query.And([whoosh.query.Or([whoosh.query.Term("source", i) for i in include_dropdown]),  whoosh.query.Or([whoosh.query.Term("Type", i) for i in renamed_include_type]) ]) # TODO EXPAND TO MORE THAN ONE
-    #allow_q = whoosh.query.Term("source", include_dropdown[0]) 
-
-    # 3. exclude dropdown
-    if exclude_dropdown:
-        restict_q =  whoosh.query.Or([whoosh.query.Term("source", i) for i in exclude_dropdown]) # TODO EXPAND TO MORE THAN ONE
-        #restict_q = whoosh.query.Term("source", exclude_dropdown[0])
+        include_dropdown = spine["source"].drop_duplicates().values
+    if not exclude_dropdown:
+        exclude_dropdown = []
+        must_not = []
     else:
-        #print("No exclude")
-        restict_q = None
+        must_not = [{
+                    "bool" : {
+                        "should" : [{"term" : { "source" : source}} for source in exclude_dropdown],
+                    }
+                }
+            ],
     
+    if len(s) > 0 :
+        search = [
+            { "regexp": {"table": 
+                        {"value" : ".*"+s+".*",
+                        "flags" : "ALL",
+                        "case_insensitive": "true",
+                        "max_determinized_states": 10000,
+                    }
+                } 
+            },
+            { "match": {"table_name": s}},
+            { "match": {"long_desc": s}},
+            { "match": {"topic_tags": s}},
+            { "match": {"Aims": s}},
+            { "match": {"Themes": s}},
+        ]
+    else: 
+        search = []
 
-    # Age slider TODO
+    # SPINE SEARCH
 
-    #time slider TODO
+    all_query = {
+        "query": {
+            "bool" : {
+                "filter":[{
+                        "bool" : {
+                            "should" : [{"term" : { "source" : source}} for source in include_dropdown],
+                        }
+                    }
+                ],
+                "must_not":must_not,
+                
+                "must" : [{
+                    "bool" : {
+                        "should" : search + [
 
+                            {"range": {
+                                "lf" : {
+                                    "gte" :  age_slider[0], # lower range
+                                    "lte" :  age_slider[1] # upper range
+                                },
+                            }},
+                            {"range": {
+                                "q2" : {
+                                    "gte" :  age_slider[0], # lower range
+                                    "lte" :  age_slider[1] # upper range
+                                },
+                            }},
+                            {"range": {
+                                "uf" : {
+                                    "gte" :  age_slider[0], # lower range
+                                    "lte" :  age_slider[1] # upper range
+                                },
+                            }},
+
+                            {"range": {
+                                "collection_start" : {
+                                    "gte" : "01/1900",
+                                    "lte" : "01/2025",
+                                    "format" : "MM/YYYY"
+                                }
+                            }},
+                            {"range": {
+                                "collection_end" : {
+                                    "gte" : "01/1900",
+                                    "lte" : "01/2025",
+                                    "format" : "MM/YYYY"
+                                }
+                            }}
+                
+                        ],
+                    }
+                }
+                ]
+            }
+        }
+    }
     
+    #print(all_query)
+    r1 = es.search(index="index_spine", body=all_query, size = 1000)
 
-    ####
-    # if no search query, return all, potentially filtered by allow_q, restrict_q etc
-
-    # Always do dataset level (for sidebar):
-    if len(s) == 0:
-        qp = qparser.QueryParser("all", ix_spine.schema)
-        q = qp.parse("1")
-
-    else:
-        qp = qparser.MultifieldParser(["source", "source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
-        qp.add_plugin(qparser.FuzzyTermPlugin())
-        q = qp.parse(str(s)+str("~1/3"))
-
-    r = searcher_spine.search(q, filter = allow_q, mask = restict_q, limit = None)
     sidebar_results = []
-    for hit in r:
-        sidebar_results.append({key: hit[key] for key in ["source", "source_name", "table", "table_name", "Type"]})
+    for hit in r1["hits"]["hits"]:
+        sidebar_results.append({key: hit["_source"][key] for key in ["source", "source_name", "table", "table_name", "Type"]})
     if len(sidebar_results) == len(spine):
         sidebar_text= "Showing full catalogue"
     else:
@@ -688,18 +745,10 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
 
     # only if searching by source
     if search_type.lower() == "sources":
-        if len(s) == 0:
-            qp = qparser.QueryParser("all", ix_spine.schema)
-            q = qp.parse("1")
-        else:
-            qp = qparser.MultifieldParser(["source", "source_name", "table", "table_name", "long_desc", "topic_tags", "Aims", "Themes"], ix_spine.schema, group=qparser.OrGroup)
-            qp.add_plugin(qparser.FuzzyTermPlugin())
-            q = qp.parse(str(s)+str("~1/3"))
-    
-        r = searcher_spine.search(q, filter = allow_q, mask = restict_q, collapse = "source", limit = None)
+
         search_results = []
-        for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "source_name", "Aims", "Type"]})
+        for hit in r1["hits"]["hits"]:
+            search_results.append({key: hit["_source"][key] for key in ["source", "source_name", "Aims", "Type"]})
         if len(search_results) != 0:
             info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
             search_results_table = struct.sources_list(app, info, "main_search")
@@ -707,13 +756,13 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         else:
             search_results_table = None
             search_text = "No results"
-        #TODO HELLO THIS IS CONFUSING AND WEIRD. Why??
+
 
     elif search_type.lower() == "datasets": 
         # reuse sidebar results
         search_results = []
-        for hit in r:
-            search_results.append({key: hit[key] for key in ["source", "table"]}) #"long_desc"]})
+        for hit in r1["hits"]["hits"]:
+            search_results.append({key: hit["_source"][key] for key in ["source", "table"]}) #"long_desc"]})
         if len(search_results) != 0:
             info = pd.DataFrame(search_results)
             info = pd.merge(info, spine, how="left", on = ["source", "table"])            
@@ -724,18 +773,76 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             search_text = "No results"
 
     elif search_type.lower() == "variables": # variables
-        if len(s) == 0: # TODO and other terms
-            qp = qparser.QueryParser("all", ix_var.schema)
-            q = qp.parse("1")
-        else:
-            qp = qparser.MultifieldParser(["source", "source_name", "table", "table_name", "variable_name", "variable_description", "value", "value_label", "topic_tags"], ix_var.schema, group=qparser.OrGroup)
-            qp.add_plugin(qparser.FuzzyTermPlugin())
-            q = qp.parse(str(s)+str("~1/3"))
-        r = searcher_var.search(q, filter = allow_q, mask = restict_q, limit = 10000)
+        if len(s) > 0 :
+            search = search + [
+                {"match" : {"varaible_name" : s}},
+                {"match" : {"varaible_description" : s}},
+                {"term" : {"value" : s}},
+                {"match" : {"value_label" : s}},
+            ]
+            
+        all_query2 = {
+            "query": {
+                "bool" : {
+                    "filter":[{
+                            "bool" : {
+                                "should" : [{"term" : { "source" : source}} for source in include_dropdown],
+                            }
+                        }
+                    ],
+                    "must_not":must_not,
+                    
+                    "must" : [{
+                        "bool" : {
+                            "should" : search + [
+
+                                {"range": {
+                                    "lf" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+                                {"range": {
+                                    "q2" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+                                {"range": {
+                                    "uf" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+
+                                {"range": {
+                                    "collection_start" : {
+                                        "gte" : "01/1900",
+                                        "lte" : "01/2025",
+                                        "format" : "MM/YYYY"
+                                    }
+                                }},
+                                {"range": {
+                                    "collection_end" : {
+                                        "gte" : "01/1900",
+                                        "lte" : "01/2025",
+                                        "format" : "MM/YYYY"
+                                    }
+                                }},
+                    
+                            ],
+                        }
+                    }
+                    ]
+                }
+            }
+        }
+
+        r2 = es.search(index="index_var", body=all_query2, size = 10000)
         search_results = []
-        for hit in r:
-            search_results.append([hit["source"], hit["table"], hit["variable_name"], hit["variable_description"], hit["value"], hit["value_label"]])
-        if len(r) != 0:
+        for hit in r2["hits"]["hits"]:
+            search_results.append([hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["variable_name"], hit["_source"]["variable_description"], hit["_source"]["value"], hit["_source"]["value_label"]])
+        if len(search_results) != 0:
             search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description", "Value", "Value Label"])
             search_results_table = struct.make_table(search_results, "search_metadata_table")
             search_len = len(search_results)
@@ -752,6 +859,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         search_results = "ERROR: 786, this shouldn't be reachable ", search_type 
 
     sidebar_results_df = pd.DataFrame(sidebar_results)
+
     sidebar_results_df = sidebar_results_df[["source", "source_name", "table", "table_name", "Type"]]
 
     timex = time.time()
