@@ -221,9 +221,9 @@ def update_schema_description(source):
             try:
                 pie = struct.pie(labels, values, counts)
             except: 
-                pie = "Error: unable to make linkage pie"
+                pie = struct.error_p("Error: unable to make linkage pie")
         else:
-            pie = "Linkage statistics are not currently available for {}".format(source)
+            pie = struct.error_p("Linkage statistics are not currently available for {}".format(source))
         
         ### boxplot #####
         if len(ages["mean"].values) > 0:
@@ -231,15 +231,15 @@ def update_schema_description(source):
                 boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
             except Exception as e:
                 print(e)
-                boxplot = "Error: unable to make age boxplot"
+                boxplot = struct.error_p("Error: unable to make age boxplot")
         else:
-            boxplot = "Age distribution statistics are not currently available for {}".format(source)
+            boxplot = struct.error_p("Age distribution statistics are not currently available for {}".format(source))
 
         ### map #####
         t0 = time.time()
         try:
             data = load_or_fetch_map(source)
-            map = struct.cloropleth(data, gj)
+            map = struct.choropleth(data, gj)
         except:
             data = None
             map = None
@@ -257,64 +257,6 @@ def update_schema_description(source):
 
         return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), pie, boxplot, map, {"display": "flex"}
     else:
-        # If a study is not selected, list instructions for using the left sidebar to select a study.
-       
-        all_query = {
-            "query": {
-                "bool" : {
-                    "filter":[{
-                            "bool" : {
-                                "should" : [{"term" : { "source" : source}} for source in include_dropdown],
-                            }
-                        }
-                    ],
-                    "must_not":must_not,
-                    
-                    "must" : [{
-                        "bool" : {
-                            "should" : search + [
-
-                                {"range": {
-                                    "lf" : {
-                                        "gte" :  age_slider[0], # lower range
-                                        "lte" :  age_slider[1] # upper range
-                                    },
-                                }},
-                                {"range": {
-                                    "q2" : {
-                                        "gte" :  age_slider[0], # lower range
-                                        "lte" :  age_slider[1] # upper range
-                                    },
-                                }},
-                                {"range": {
-                                    "uf" : {
-                                        "gte" :  age_slider[0], # lower range
-                                        "lte" :  age_slider[1] # upper range
-                                    },
-                                }},
-
-                                {"range": {
-                                    "collection_start" : {
-                                        "gte" : "01/1900",
-                                        "lte" : "01/2025",
-                                        "format" : "MM/YYYY"
-                                    }
-                                }},
-                                {"range": {
-                                    "collection_end" : {
-                                        "gte" : "01/1900",
-                                        "lte" : "01/2025",
-                                        "format" : "MM/YYYY"
-                                    }
-                                }}
-                    
-                            ],
-                        }
-                    }
-                    ]
-                }
-            }
-        }
         
         #print(all_query)
         r = es.search(index="index_spine", body={"query" : {"match_all" : {}}}, size = 1000)
@@ -323,10 +265,10 @@ def update_schema_description(source):
         for hit in r["hits"]["hits"]:
             search_results.append({key: hit["_source"][key] for key in ["source", "source_name", "Aims"]})
         if len(search_results) >0:
-            info = pd.DataFrame(search_results)
+            info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
             search_results = struct.sources_list(app, info, "main_search")
         else:
-            search_results = "No data available"
+            search_results = struct.error_p("No data available")
         return "UK LLC Data Sources", "", "", search_results, "", "",None, {"display": "none"}
 
 
@@ -350,11 +292,9 @@ def update_table_data(table_id):
     trigger = dash.ctx.triggered_id
 
     print("CALLBACK: Dataset BOX - updating table description with table {}, {}".format(table_id, trigger))
-    if not trigger:
-        raise PreventUpdate
     
     #pass until metadata block ready
-    if table_id != None and table_id != "None":
+    if table_id != None and table_id != "None" and trigger:
         table_split = table_id.split("-")
         schema = table_split[0]
         table = table_split[1]
@@ -386,7 +326,7 @@ def update_table_data(table_id):
 
         
         if len(ages["mean"].values) > 0:
-            boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], sd = ages["std"], lf = ages["lf"], uf = ages["uf"])
+            boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
         
@@ -480,7 +420,7 @@ def body_sections(search, d_overview, dd_study, dd_data_block, _, __, search2, o
     
     if (schema_change == None or schema_change == "None") and trigger == "study_description_div" : raise PreventUpdate
     print("CALLBACK: body sections, activating", trigger)
-    #if (table_change == None or table_change == "None") and trigger == "dataset_description_div" : raise PreventUpdate
+    if (table_change == None or table_change == "None") and trigger == "dataset_description_div" : raise PreventUpdate
     if trigger == "active_schema" or trigger == "active_table":
         active_tab = active_body[0]["props"]["id"].replace("body_","").replace("dd_", "")
 
@@ -711,6 +651,9 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     else: 
         search = []
 
+    collection_times = ["01/1940", "01/1950", "01/1960", "01/1970", "01/1980", "01/1990", "01/2000", "01/2010", "01/2020", "01/2030"]
+
+
     # SPINE SEARCH
 
     all_query = {
@@ -749,15 +692,15 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
 
                             {"range": {
                                 "collection_start" : {
-                                    "gte" : "01/1900",
-                                    "lte" : "01/2025",
+                                    "gte" : collection_times[time_slider[0]],
+                                    "lte" : collection_times[time_slider[1]],
                                     "format" : "MM/YYYY"
                                 }
                             }},
                             {"range": {
                                 "collection_end" : {
-                                    "gte" : "01/1900",
-                                    "lte" : "01/2025",
+                                    "gte" : collection_times[time_slider[0]],
+                                    "lte" : collection_times[time_slider[1]],
                                     "format" : "MM/YYYY"
                                 }
                             }}
@@ -901,9 +844,6 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
 
     sidebar_results_df = sidebar_results_df[["source", "source_name", "table", "table_name", "Type"]]
 
-    timex = time.time()
-    print("DEBUG: time to run search function: {} seconds".format(round(timex-time0, 3)))
-
     return struct.build_sidebar_list(sidebar_results_df, shopping_basket, collapse_state, table), search_results_table, search_text, sidebar_text
 
 
@@ -1004,7 +944,7 @@ def save_shopping_cart(btn1, save_clicks, shopping_basket):
     if btn1 != save_clicks or dash.ctx.triggered_id == "dl_button_2":
         # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
         fileout = dataIO.basket_out(shopping_basket)
-        return dcc.send_data_frame(fileout.to_csv, "shopping_basket.csv"), btn1
+        return dcc.send_data_frame(fileout.to_csv, "data_selection.csv"), btn1
     else:
         raise PreventUpdate
 

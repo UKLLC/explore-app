@@ -90,11 +90,28 @@ body {
   }
 
 hr {
-    margin: 1rem 0;
-    color: inherit;
-    background-color: currentColor;
+    margin-bottom: .5rem;
+    margin-top: .1rem;
     border: 0;
-    opacity: .25
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+.center_hr{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.desc_title  hr{
+    margin-top: .1rem;
+    border: 0;
+    height: 1px;
+}
+
+.FAQ  hr{
+    margin-top: .1rem;
+    border: 0;
+    height: 1px;
 }
 
 hr:not([size]) {
@@ -338,6 +355,9 @@ abbr[title] {
 
 /*# sourceMappingURL=bootstrap.min.css.map */
 
+#Map {
+    overflow-y: hidden;
+}
 
 .accordion {
     padding: 0;
@@ -866,6 +886,7 @@ ul {
     padding: .25rem;
     background-color: var(--bs-whitegroup1);
     color: black;
+    margin-bottom: 0.5rem;
 }
 #source_linkage_graph {
     padding: 0rem;
@@ -888,18 +909,31 @@ ul {
 
 .tab_div{
     width: 100%;
-    height: fit-content;
+    height: 50vh;
 
     border: solid lightgray thin;
     background-color: white;
-    border-radius: 0 0 .5rem .5rem;
+    border-radius:  0 0 .5rem .5rem;
     padding: .5rem;
     padding-top: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: .5rem;
 }
 
+.desc_title {
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin: .5rem;
+}
 
+
+.shadow_block {
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+}
 
 .text_block{
     font-size: calc(0.4rem + 0.5vw);
@@ -908,18 +942,22 @@ ul {
     padding: .5rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
+.text_block {
+    text-indent: 2rem;
+}
 
 .info_box_left {
-    width : 25%;
+    width : 30%;
     display: inline-block;
     vertical-align: top;
     margin-right: 2.5%;
-    margin-bottom: .2rem;
+    margin-bottom: .3rem;
 }
 .info_box_right {
-    width : 72%;
+    width : 67%;
     display: inline-block;
     vertical-align: top;
+    margin-bottom: .3rem;
 }
 
 .sunburst {
@@ -1043,7 +1081,7 @@ ul {
 
 #intro_div {
     padding-top: .5rem;
-    text-align: center;
+    text-align: left;
     padding-bottom: .5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -1277,4 +1315,11 @@ h1 {padding-left: 1rem;}
   .loading_spinner {
     position: absolute;
     top: 0;
+  }
+
+  .error_p {
+    padding: 1rem;
+  }
+  .colorbar  {
+    display: none;
   }

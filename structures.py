@@ -343,138 +343,143 @@ def make_search_box(df, themes):
     doc_box = html.Div([
         html.Div([
             html.H1("UK LLC Explore"),
+            html.Hr(),
             html.Div([
                 html.P("Search our catalogue of longitudinal and linked data and build a data request.")
             ]),
-        ], 
-        className = "text_block" ,
-        id = "intro_div"),
+            ], 
+            className = "text_block" ,
+            id = "intro_div"),
         html.Div([
-            dcc.Checklist(
-                ['Study data', 'Linked data'],
-                ['Study data', 'Linked data'],
-                inline=True,
-                id = "include_type_checkbox"
-            ),
             html.Div([
-                dcc.Input("", id ="main_search", className="search_field", placeholder = "Search query"),
-                html.Button("search", id = "search_button"),
-            ],
-            className = "row_layout",
-            id = "main_search_row")
-        ],
-        className = "style_div",
-        id = "search_style_div"
-        ),
-        dbc.Accordion([
-            dbc.AccordionItem( 
-                html.Div([
-                    dbc.Accordion([
-                        dbc.AccordionItem(
-                            html.Div([
-                                html.Div([
-                                    html.H3("Include"),
-                                    dcc.Dropdown(sources, id = "include_dropdown", multi = True),
-                                ],
-                            className = "container_div",
-                            ),
-                            html.Div([
-                                html.H3("Exclude"),
-                                dcc.Dropdown(sources, id = "exclude_dropdown", multi = True)
-                            ],
-                            className = "container_div"
-                            ),
-                        ], 
-                        className = "row_layout"
-                        ),
-                    title="Data Source",
-                    className = "search_accordion",
-                    id = "data_source_accordion"
-                    )
-                    ]),
-                    dbc.Accordion([
-                        dbc.AccordionItem(
-                            html.Div([
-                                dcc.Dropdown(themes, id = "tags_search", multi = True),
-                            ], 
-                            className = "container_div"
-                            ),
-                        title="Topic Checkboxes",
-                        className = "search_accordion",
-                        id = "topic_accordion"
-                        )
-                    ]),
-                    dbc.Accordion([
-                        dbc.AccordionItem(
-                            html.Div([
-                                dcc.RangeSlider(min = 0, max = 100, step = 5, value=[0, 100], id='collection_age_slider'),
-                            ], 
-                            className = "container_div"
-                            ),
-                        title="Collection Age",
-                        className = "search_accordion",
-                        id = "collection_age_accordion"
-                        )
-                    ]),
-                    dbc.Accordion([
-                        dbc.AccordionItem(
-                            html.Div([
-                                dcc.RangeSlider(min = 0,  max = 9, step = 1, value=[0, 9], id='collection_time_slider',
-                                marks={
-                                    0: '1940',
-                                    1: "1950",
-                                    2: '1960',
-                                    3: "1970",
-                                    4: "1980",
-                                    5: "1990",
-                                    6: "2000",
-                                    7: "2010",
-                                    8: "2020",
-                                    9: "2030"}
-                                    ,
-                                )
-                            ], 
-                            className = "container_div"
-                            ),
-                        title="Collection Time",
-                        className = "search_accordion",
-                        id = "collection_time_accordion"
-                        )
-                    ]),
-                    ],
-                    className = "container_div"
+                dcc.Checklist(
+                    ['Study data', 'Linked data'],
+                    ['Study data', 'Linked data'],
+                    inline=True,
+                    id = "include_type_checkbox"
                 ),
-            title = "Advanced Options",
-            ),
-            
-        ],    
-        id = "advanced_options_collapse",
-        start_collapsed=True
-        ),
-
-        dcc.Tabs(
-            id = "search_type_radio",
-            value = "Sources",
-            children = [
-                dcc.Tab(label = "Sources", value = "Sources"),
-                dcc.Tab(label = "Datasets", value = "Datasets"),
-                dcc.Tab(label = "Variables", value = "Variables")
-            ]
-            ),
-        dcc.Loading(
-            children = [
-            html.Div([
-                html.Div([], id = "search_text"),
-                html.Div([], id = "search_metadata_div")
+                html.Div([
+                    dcc.Input("", id ="main_search", className="search_field", placeholder = "Search query"),
+                    html.Button("search", id = "search_button"),
+                ],
+                className = "row_layout",
+                id = "main_search_row")
             ],
-            className = "container_div"
+            className = "style_div",
+            id = "search_style_div"
             ),
-            ],
-            id = "search_loading",
-            type = "circle",
-            parent_className  = "loading",
-            className = "loading_spinner"
+            dbc.Accordion([
+                dbc.AccordionItem( 
+                    html.Div([
+                        dbc.Accordion([
+                            dbc.AccordionItem(
+                                html.Div([
+                                    html.Div([
+                                        html.H3("Include"),
+                                        dcc.Dropdown(sources, id = "include_dropdown", multi = True),
+                                    ],
+                                className = "container_div",
+                                ),
+                                html.Div([
+                                    html.H3("Exclude"),
+                                    dcc.Dropdown(sources, id = "exclude_dropdown", multi = True)
+                                ],
+                                className = "container_div"
+                                ),
+                            ], 
+                            className = "row_layout"
+                            ),
+                        title="Data Source",
+                        className = "search_accordion",
+                        id = "data_source_accordion"
+                        )
+                        ]),
+                        dbc.Accordion([
+                            dbc.AccordionItem(
+                                html.Div([
+                                    dcc.Dropdown(themes, id = "tags_search", multi = True),
+                                ], 
+                                className = "container_div"
+                                ),
+                            title="Topic Checkboxes",
+                            className = "search_accordion",
+                            id = "topic_accordion"
+                            )
+                        ]),
+                        dbc.Accordion([
+                            dbc.AccordionItem(
+                                html.Div([
+                                    dcc.RangeSlider(min = 0, max = 100, step = 5, value=[0, 100], id='collection_age_slider'),
+                                ], 
+                                className = "container_div"
+                                ),
+                            title="Collection Age",
+                            className = "search_accordion",
+                            id = "collection_age_accordion"
+                            )
+                        ]),
+                        dbc.Accordion([
+                            dbc.AccordionItem(
+                                html.Div([
+                                    dcc.RangeSlider(min = 0,  max = 9, step = 1, value=[0, 9], id='collection_time_slider',
+                                    marks={
+                                        0: '1940',
+                                        1: "1950",
+                                        2: '1960',
+                                        3: "1970",
+                                        4: "1980",
+                                        5: "1990",
+                                        6: "2000",
+                                        7: "2010",
+                                        8: "2020",
+                                        9: "2030"}
+                                        ,
+                                    )
+                                ], 
+                                className = "container_div"
+                                ),
+                            title="Collection Time",
+                            className = "search_accordion",
+                            id = "collection_time_accordion"
+                            )
+                        ]),
+                        ],
+                        className = "container_div"
+                    ),
+                title = "Advanced Options",
+                ),
+                
+            ],    
+            id = "advanced_options_collapse",
+            start_collapsed=True
+            ),
 
+            dcc.Tabs(
+                id = "search_type_radio",
+                value = "Sources",
+                children = [
+                    dcc.Tab(label = "Sources", value = "Sources"),
+                    dcc.Tab(label = "Datasets", value = "Datasets"),
+                    dcc.Tab(label = "Variables", value = "Variables")
+                ]
+                ),
+            dcc.Loading(
+                children = [
+                html.Div([
+                    html.Div([], id = "search_text"),
+                    html.Div([], id = "search_metadata_div")
+                ],
+                className = "container_div"
+                ),
+                ],
+                id = "search_loading",
+                type = "circle",
+                parent_className  = "loading",
+                className = "loading_spinner"
+            )
+
+        ],
+        className = "shadow_block"
         )
     ], 
     id = "body_search", 
@@ -506,7 +511,11 @@ def make_d_overview_box(source_counts, dataset_counts):
 
 def make_study_box():
     study_box = html.Div([
-        html.H1("Study Information - No study Selected", id = "study_title"),
+        html.Div([
+            html.H1("Study Information - No study Selected", id = "study_title"),
+        ], 
+        className = "desc_title",
+        ),
         html.Div([
             html.Div([
                 html.Div(["Its a description"], id = "study_description_div", className = "text_block"),
@@ -544,7 +553,11 @@ def make_study_box():
 
 def make_block_box(children = [None, None]):
     dataset_box = html.Div([
-        html.H1("Dataset Information - No Dataset Selected", id = "dataset_title"),
+        html.Div([
+            html.H1("Dataset Information - No Dataset Selected", id = "dataset_title"),
+        ], 
+        className = "desc_title",
+        ),
         
         html.Div([
             html.Div([
@@ -579,8 +592,9 @@ def make_modal_background():
 def FAQ():
     body = html.Div([
             html.H1("Frequently Asked Questions"),
+            html.Hr(className = "center_hr"),
             html.Div([
-                html.H2("Question1"),
+                html.H2("How do I apply for data?"),
                 html.P("answer...")
             ],
             className = "FAQ_QA"
@@ -609,31 +623,31 @@ def FAQ():
 def contact_us():
     body = html.Div([
             html.H1("Contact us"),
-            html.Div([
-                html.P("Can't find what you are looking for?"),
-                html.P("support@ukllc.ac.uk")
-            ],
-            className = "FAQ_QA"
-            ),
-            html.Div([
-                html.P("For ... contact support"),
-                html.P("support@ukllc.ac.uk")
-            ],
-            className = "FAQ_QA"
-            ),
-            html.Div([
-                html.P("For ... contact ... at"),
-                html.P("info@ukllc.ac.uk")
-            ],
-            className = "FAQ_QA"
-            ),
-            html.Div([
-                html.P("more.."),
-                html.P("...")
-            ],
-            className = "FAQ_QA"
-            ),
-            
+            html.Hr(className = "center_hr"),
+            html.P("We welcome questions, so please do get in touch. If your query is about:"),
+            html.Ul([
+                html.Li(
+                    html.Div([
+                        html.P("The data held in the TRE, please contact:   support@ukllc.ac.uk"),
+                    ],
+                ),
+                className = "FAQ_QA"
+                ),
+                html.Li(
+                    html.Div([
+                        html.P("Applying to access the TRE, please contact:   access@ukllc.ac.uk"),
+                    ],
+                    className = "FAQ_QA"
+                    ),
+                ),
+                html.Li(
+                    html.Div([
+                        html.P("Your LPS joining the UK LLC, please contact:   info@ukllc.ac.uk"),
+                    ],
+                    className = "FAQ_QA"
+                    ),
+                ),
+            ])
     ])
     return body
 
@@ -806,7 +820,7 @@ def make_info_box(df):
             row = html.Div([
                 # First column
                 html.Div([
-                    html.B(col)
+                    html.B(col +":")
                 ], className = "info_box_left"),
 
                 # Second column
@@ -839,6 +853,11 @@ def make_block_description(blocks):
     # Make the study tab variables
     blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
     blocks["Participants Included"] = blocks["Participants Included"].astype(int)
+    
+    blocks["Collection Duration"] = blocks["Collection Start"] + " - " + blocks["Collection End"]
+    blocks = blocks.drop(columns = ["Collection Start", "Collection End"])
+    print("DEUBG:", blocks.columns)
+    blocks = blocks.fillna( "Not currently available" )
     return make_info_box(blocks)
 
 def make_blocks_table(df):
@@ -1042,14 +1061,14 @@ def sunburst(source_counts, dataset_counts):
     print(sum(list(lps_source_counts["participant_count"].values)), sum(list(lps_source_counts["participant_count"].values)), sum([int(x) for x in list(lps_dataset_counts["weighted_participant_count"].values)]))
     '''
 
-def cloropleth(data, gj):
+def choropleth(data, gj):
     layout = go.Layout(
         margin=go.layout.Margin(
             l=0, #left margin
             r=0, #right margin
             b=0, #bottom margin
             t=0, #top margin
-        )
+        ),
     )
 
     fig = go.Figure(data=go.Choropleth(z=data["count"],
@@ -1059,7 +1078,7 @@ def cloropleth(data, gj):
         colorscale = 'Blues',
         colorbar = None,
         ),
-        layout = layout
+        layout = layout,
     )
     fig.update_layout(  
     geo_scope = "europe",
@@ -1071,7 +1090,6 @@ def cloropleth(data, gj):
         showframe=False,
         fitbounds = "locations"
     )
-
 
     return dcc.Graph(figure = fig, className = "cloropleth")
 
@@ -1238,3 +1256,6 @@ def sources_list(app, df, id_prefix):
 
 def text_block(txt):
     return html.P(txt, className = "text_block")
+
+def error_p(txt):
+    return html.P(txt, className = "error_p")
