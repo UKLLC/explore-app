@@ -788,27 +788,29 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             ]
             
         all_query2 = {
-            "query": {
-                "bool" : {
-                    "filter":[{
-                            "bool" : {
-                                "should" : [{"term" : { "source" : source}} for source in include_dropdown],
-                            }
+        "query": {
+            "bool" : {
+                "filter":[{
+                        "bool" : {
+                            "should" : [{"term" : { "source" : source}} for source in include_dropdown] 
                         }
-                    ],
-                    "must_not":must_not,
-                    "must" : tags,
-                    
-                    "must" : [{
+                    },
+                    {
+                        "bool" : {
+                            "should" : tags
+                        }
+                    },
+                ],
+                "must_not": must_not,
+                
+                "must" : [{
                         "bool" : {
                             "should" : search 
                         }
-                    }
-                    ],
-                    "must" : [{
+                    },
+                    {
                         "bool" : {
-                            "should" :
-                            [
+                            "should" : [
                                 {"range": {
                                     "lf" : {
                                         "gte" :  age_slider[0], # lower range
@@ -827,13 +829,12 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                                         "lte" :  age_slider[1] # upper range
                                     },
                                 }},
-                            ]
+                            ],
                         }
-                    }],
-                    "must" : [{
+                    },
+                    {
                         "bool" : {
-                            "should" :
-                            [
+                            "should" : [
 
                                 {"range": {
                                     "collection_start" : {
@@ -853,11 +854,11 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                             ],
                         }
                     }
-                    ]
+                ],
+
                 }
             }
         }
-
         r2 = es.search(index="index_var", body=all_query2, size = 10000)
         search_results = []
         for hit in r2["hits"]["hits"]:
