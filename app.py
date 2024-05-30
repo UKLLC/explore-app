@@ -630,7 +630,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                         "should" : [{"term" : { "source" : source}} for source in exclude_dropdown],
                     }
                 }
-            ],
+            ]
     
     if len(s) > 0 :
         search = [
@@ -651,6 +651,12 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     else: 
         search = []
 
+    if cl_1 : # Tags:
+        tags = [{"term" : { "topic_tags" : tag}} for tag in cl_1] + [{"term" : { "Themes" : tag}} for tag in cl_1]
+                
+    else:
+        tags = []
+
     collection_times = ["01/1940", "01/1950", "01/1960", "01/1970", "01/1980", "01/1990", "01/2000", "01/2010", "01/2020", "01/2030"]
 
 
@@ -661,63 +667,81 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             "bool" : {
                 "filter":[{
                         "bool" : {
-                            "should" : [{"term" : { "source" : source}} for source in include_dropdown],
+                            "should" : [{"term" : { "source" : source}} for source in include_dropdown] 
+                        }
+                    },
+                    {
+                        "bool" : {
+                            "should" : tags
+                        }
+                    },
+                ],
+                "must_not": must_not,
+                
+                "must" : [{
+                        "bool" : {
+                            "should" : search 
+                        }
+                    },
+                    {
+                        "bool" : {
+                            "should" : [
+                                {"range": {
+                                    "lf" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+                                {"range": {
+                                    "q2" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+                                {"range": {
+                                    "uf" : {
+                                        "gte" :  age_slider[0], # lower range
+                                        "lte" :  age_slider[1] # upper range
+                                    },
+                                }},
+                            ],
+                        }
+                    },
+                    {
+                        "bool" : {
+                            "should" : [
+
+                                {"range": {
+                                    "collection_start" : {
+                                        "gte" : collection_times[time_slider[0]],
+                                        "lte" : collection_times[time_slider[1]],
+                                        "format" : "MM/YYYY"
+                                    }
+                                }},
+                                {"range": {
+                                    "collection_end" : {
+                                        "gte" : collection_times[time_slider[0]],
+                                        "lte" : collection_times[time_slider[1]],
+                                        "format" : "MM/YYYY"
+                                    }
+                                }},
+                    
+                            ],
                         }
                     }
                 ],
-                "must_not":must_not,
-                
-                "must" : [{
-                    "bool" : {
-                        "should" : search + [
 
-                            {"range": {
-                                "lf" : {
-                                    "gte" :  age_slider[0], # lower range
-                                    "lte" :  age_slider[1] # upper range
-                                },
-                            }},
-                            {"range": {
-                                "q2" : {
-                                    "gte" :  age_slider[0], # lower range
-                                    "lte" :  age_slider[1] # upper range
-                                },
-                            }},
-                            {"range": {
-                                "uf" : {
-                                    "gte" :  age_slider[0], # lower range
-                                    "lte" :  age_slider[1] # upper range
-                                },
-                            }},
-
-                            {"range": {
-                                "collection_start" : {
-                                    "gte" : collection_times[time_slider[0]],
-                                    "lte" : collection_times[time_slider[1]],
-                                    "format" : "MM/YYYY"
-                                }
-                            }},
-                            {"range": {
-                                "collection_end" : {
-                                    "gte" : collection_times[time_slider[0]],
-                                    "lte" : collection_times[time_slider[1]],
-                                    "format" : "MM/YYYY"
-                                }
-                            }}
-                
-                        ],
-                    }
                 }
-                ]
             }
         }
-    }
     
     #print(all_query)
+    print(all_query)
     r1 = es.search(index="index_spine", body=all_query, size = 1000)
-
+    
     sidebar_results = []
     for hit in r1["hits"]["hits"]:
+        #print(hit)
         sidebar_results.append({key: hit["_source"][key] for key in ["source", "source_name", "table", "table_name", "Type"]})
     if len(sidebar_results) == len(spine):
         sidebar_text= "Showing full catalogue"
@@ -773,11 +797,18 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                         }
                     ],
                     "must_not":must_not,
+                    "must" : tags,
                     
                     "must" : [{
                         "bool" : {
-                            "should" : search + [
-
+                            "should" : search 
+                        }
+                    }
+                    ],
+                    "must" : [{
+                        "bool" : {
+                            "should" :
+                            [
                                 {"range": {
                                     "lf" : {
                                         "gte" :  age_slider[0], # lower range
@@ -796,18 +827,25 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                                         "lte" :  age_slider[1] # upper range
                                     },
                                 }},
+                            ]
+                        }
+                    }],
+                    "must" : [{
+                        "bool" : {
+                            "should" :
+                            [
 
                                 {"range": {
                                     "collection_start" : {
-                                        "gte" : "01/1900",
-                                        "lte" : "01/2025",
+                                        "gte" : collection_times[time_slider[0]],
+                                        "lte" : collection_times[time_slider[1]],
                                         "format" : "MM/YYYY"
                                     }
                                 }},
                                 {"range": {
                                     "collection_end" : {
-                                        "gte" : "01/1900",
-                                        "lte" : "01/2025",
+                                        "gte" : collection_times[time_slider[0]],
+                                        "lte" : collection_times[time_slider[1]],
                                         "format" : "MM/YYYY"
                                     }
                                 }},
@@ -840,9 +878,11 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     else:
         search_results = "ERROR: 786, this shouldn't be reachable ", search_type 
 
-    sidebar_results_df = pd.DataFrame(sidebar_results)
-
-    sidebar_results_df = sidebar_results_df[["source", "source_name", "table", "table_name", "Type"]]
+    if len(sidebar_results) > 0:
+        sidebar_results_df = pd.DataFrame(sidebar_results)
+        sidebar_results_df = sidebar_results_df[["source", "source_name", "table", "table_name", "Type"]]
+    else:
+        sidebar_results_df = pd.DataFrame(data = {"source": [], "source_name" :[], "table": [], "table_name": [], "Type":[]})
 
     return struct.build_sidebar_list(sidebar_results_df, shopping_basket, collapse_state, table), search_results_table, search_text, sidebar_text
 

@@ -40,33 +40,34 @@ def main():
     data = pd.read_sql("SELECT * from search", cnxn)
     print(data.columns)
 
-    data["lf"] = data["lf"].fillna("-99")
-    data["uf"] = data["uf"].fillna("-99")
-    data["q2"] = data["q2"].fillna("-99")
+    data["lf"] = data["lf"].fillna("0")
+    data["uf"] = data["uf"].fillna("100")
+    data["q2"] = data["q2"].fillna("50")
     data["variable_name"] = data["variable_name"].fillna(" ")
     data["variable_description"] = data["variable_description"].fillna(" ")
     data["value"] = data["value"].fillna(" ")
     data["value_label"] = data["value_label"].fillna(" ")
-    #data["collection_start"] = data["collection_start"].fillna(" ")
-    #data["collection_end"] = data["collection_end"].fillna(" ")
+    data["collection_start"] = data["collection_start"].fillna("01/1900")
+    data["collection_end"] = data["collection_end"].fillna(datetime.now().strftime('%m/%Y'))
     data["collection_start"] = data["collection_start"].str.replace("ongoing", datetime.now().strftime('%m/%Y'))
     data["collection_end"] = data["collection_end"].str.replace("ongoing", datetime.now().strftime('%m/%Y'))
     data["source_name"] = data["source_name"].fillna(" ")
     data["Aims"] = data["Aims"].fillna(" ")
     data["Themes"] = data["Themes"].fillna(" ")
-    data["all"] = "1"
     data["table_name"] = data["table_name"].fillna(" ")
 
-    print(data["collection_start"].values)
 
     try:
         spine2(data)
-    except RequestError:
+    except RequestError as err:
+        print("failed to write to spine", err)
         pass
  
     try:
         variable2(data)
-    except RequestError:
+    except RequestError as err:
+        print("failed to write to variable", err)
+
         pass
 
 def variable2(data):
@@ -83,20 +84,28 @@ def variable2(data):
                 "value_label" : {"type" : "text"},
                 "long_desc" : {"type" : "text"},
                 "topic_tags" : {"type" : "keyword"},
-                "collection_start" : {"type" : "date", "format" : "MM/YYYY"},
-                "collection_end" : {"type" : "date",  "format" : "MM/YYYY"},
+                "Aims" : {"type" : "text"},
+                "Themes" : {"type" : "text"},
+                "Type" : {"type" : "keyword"},
+                #"collection_duration" : {"type" : "date_range",  "format" : "MM/yyyy"},
+                #"age_range" : {"type" : "float_range"},
+                "collection_start" : {"type" : "date", "format" : "MM/YYYY", "null_value": "NULL" },
+                "collection_end" : {"type" : "date",  "format" : "MM/YYYY", "null_value": "NULL" },
                 "lf" : {"type" : "double"},
                 "q2" : {"type" : "double"},
                 "uf" : {"type" : "double"},
-                "Aimes" : {"type" : "text"},
-                "Themes" : {"type" : "text"},
-                "Type" : {"type" : "keyword"},
             }
         }
     }
     es = searchbox_connect()
-    es.indices.create(index = "index_var", ignore=400, body = mapping)
+    es.indices.create(index = "index_var", body = mapping)
     for doc in data.loc[~data["variable_name"].isna()].to_dict("records"):
+        #doc["collection_duration"] = {"gte" : doc["collection_start"], "lte": doc["collection_end"]}
+        #doc["age_range"] = {"gte" : doc["lf"], "lte": doc["uf"]}
+        if doc["topic_tags"]:
+            doc["topic_tags"] = doc["topic_tags"].split(",")
+        if doc["Themes"]:
+            doc["Themes"] = doc["Themes"].split(",")
         es.index(index = "index_var", body = doc)
 
 
@@ -170,21 +179,30 @@ def spine2(data):
                 "table_name" : {"type" : "text"},
                 "long_desc" : {"type" : "text"},
                 "topic_tags" : {"type" : "keyword"},
+                "Aims" : {"type" : "text"},
+                "Themes" : {"type" : "text"},
+                "Type" : {"type" : "keyword"},
+                #"collection_duration" : {"type" : "date_range",  "format" : "MM/yyyy"},
+                #"age_range" : {"type" : "float_range"},
                 "collection_start" : {"type" : "date", "format" : "MM/YYYY", "null_value": "NULL" },
                 "collection_end" : {"type" : "date",  "format" : "MM/YYYY", "null_value": "NULL" },
                 "lf" : {"type" : "double"},
                 "q2" : {"type" : "double"},
                 "uf" : {"type" : "double"},
-                "Aims" : {"type" : "text"},
-                "Themes" : {"type" : "text"},
-                "Type" : {"type" : "keyword"},
             }
         }
     }
 
     es.indices.create(index = "index_spine", body = mapping)
-    spine = data[["source", "source_name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "lf", "q2", "uf", "Aims", "Themes", "Type"]].drop_duplicates(subset = ["source", "table"])
+    spine = data[["source", "source_name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end",  "lf", "q2", "uf", "Aims", "Themes", "Type"]].drop_duplicates(subset = ["source", "table"])
     for doc in spine.to_dict("records"):
+        #doc["collection_duration"] = {"gte" : doc["collection_start"], "lte": doc["collection_end"]}
+        #doc["age_range"] = {"gte" : float(doc["lf"]), "lte": float(doc["uf"])}
+        if doc["topic_tags"]:
+            doc["topic_tags"] = doc["topic_tags"].split(",")
+        if doc["Themes"]:
+            doc["Themes"] = doc["Themes"].split(",")
+
         es.index(index = "index_spine", body = doc)
 
 

@@ -240,95 +240,115 @@ all_query = {
     }
 }
 
-test_query = {"query": {"bool": {"filter": [
-                {"bool": {"should": [
-                            {"term": {"source": "ALSPAC"
+all_query2 = {
+    "query": {
+        "bool" : {
+            "must" : [
+
+            ],
+            "must_not" : []
+        }
+    }
+
+}
+
+test_query = {'query': {'bool': {'filter': [
+                {'bool': {'should': [
+                            {'term': {'source': 'ALSPAC'
                                 }
                             },
-                            {"term": {"source": "BCS70"
+                            {'term': {'source': 'BCS70'
                                 }
                             },
-                            {"term": {"source": "BIB"
+                            {'term': {'source': 'BIB'
                                 }
                             },
-                            {"term": {"source": "ELSA"
+                            {'term': {'source': 'ELSA'
                                 }
                             },
-                            {"term": {"source": "EPICN"
+                            {'term': {'source': 'EPICN'
                                 }
                             },
-                            {"term": {"source": "EXCEED"
+                            {'term': {'source': 'EXCEED'
                                 }
                             },
-                            {"term": {"source": "FENLAND"
+                            {'term': {'source': 'FENLAND'
                                 }
                             },
-                            {"term": {"source": "GENSCOT"
+                            {'term': {'source': 'GENSCOT'
                                 }
                             },
-                            {"term": {"source": "GLAD"
+                            {'term': {'source': 'GLAD'
                                 }
                             },
-                            {"term": {"source": "MCS"
+                            {'term': {'source': 'MCS'
                                 }
                             },
-                            {"term": {"source": "NCDS58"
+                            {'term': {'source': 'NCDS58'
                                 }
                             },
-                            {"term": {"source": "NEXTSTEP"
+                            {'term': {'source': 'NEXTSTEP'
                                 }
                             },
-                            {"term": {"source": "NICOLA"
+                            {'term': {'source': 'NICOLA'
                                 }
                             },
-                            {"term": {"source": "NIHRBIO_COPING"
+                            {'term': {'source': 'NIHRBIO_COPING'
                                 }
                             },
-                            {"term": {"source": "NSHD46"
+                            {'term': {'source': 'NSHD46'
                                 }
                             },
-                            {"term": {"source": "SABRE"
+                            {'term': {'source': 'SABRE'
                                 }
                             },
-                            {"term": {"source": "TRACKC19"
+                            {'term': {'source': 'TRACKC19'
                                 }
                             },
-                            {"term": {"source": "TWINSUK"
+                            {'term': {'source': 'TWINSUK'
                                 }
                             },
-                            {"term": {"source": "UKHLS"
+                            {'term': {'source': 'UKHLS'
                                 }
                             },
-                            {"term": {"source": "nhsd"
+                            {'term': {'source': 'nhsd'
                                 }
                             },
-                            {"term": {"source": "GEO"
+                            {'term': {'source': 'GEO'
                                 }
                             }
                         ]
                     }
+                },
+                {'bool': {'should': []
+                    }
                 }
-            ], "must_not": [
-                
-            ], "must": [
-                {"bool": {"should": [
-                            {"range": {"lf": {"gte": 0, "lte": 100
+            ], 'must_not': [], 'must': [
+                {'bool': {'should': []
+                    }
+                },
+                {'bool': {'should': [
+                            {'range': {'lf': {'gte': 0, 'lte': 100
                                     }
                                 }
                             },
-                            {"range": {"q2": {"gte": 0, "lte": 100
+                            {'range': {'q2': {'gte': 0, 'lte': 100
                                     }
                                 }
                             },
-                            {"range": {"uf": {"gte": 0, "lte": 100
+                            {'range': {'uf': {'gte': 0, 'lte': 100
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {'bool': {'should': [
+                            {'range': {'collection_start': {'gte': '01/1940', 'lte': '01/2030', 'format': 'MM/YYYY'
                                     }
                                 }
                             },
-                            {"range": {"collection_start": {"gte": "01/1900", "lte": "01/2025", "format": "MM/YYYY"
-                                    }
-                                }
-                            },
-                            {"range": {"collection_end": {"gte": "01/1900", "lte": "01/2025", "format": "MM/YYYY"
+                            {'range': {'collection_end': {'gte': '01/1940', 'lte': '01/2030', 'format': 'MM/YYYY'
                                     }
                                 }
                             }
@@ -345,4 +365,4 @@ r = es.search(index="index_spine", body=test_query, size = 1000)
 for hit in r["hits"]["hits"]:
     print(hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["table_name"])
 
-print(r["hits"]["hits"])
+#print(r["hits"]["hits"])

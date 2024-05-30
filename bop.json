@@ -66,11 +66,12 @@
                         ]
                     }
                 }
-            ], "must_not": [
+            ], 
+            "must_not": [], 
+            "must": [
                 {"bool": {"should": []
                     }
-                }
-            ], "must": [
+                },
                 {"bool": {"should": [
                             {"range": {"lf": {"gte": 0, "lte": 100
                                     }
@@ -83,12 +84,16 @@
                             {"range": {"uf": {"gte": 0, "lte": 100
                                     }
                                 }
-                            },
-                            {"range": {"collection_start": {"gte": "01/1900", "lte": "01/2025", "format": "MM/YYYY"
+                            }
+                        ]
+                    }
+                },
+                {"bool": {"should": [
+                            {"range": {"collection_start": {"gte": "01/1940", "lte": "01/2030", "format": "MM/YYYY"
                                     }
                                 }
                             },
-                            {"range": {"collection_end": {"gte": "01/1900", "lte": "01/2025", "format": "MM/YYYY"
+                            {"range": {"collection_end": {"gte": "01/1940", "lte": "01/2030", "format": "MM/YYYY"
                                     }
                                 }
                             }
