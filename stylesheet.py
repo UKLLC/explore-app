@@ -176,17 +176,13 @@ TABLE_CONDITIONAL = [
     "border": "1px solid light_grey"
     },
     {
-    'if': {
-        'column_id': 'Links',
-        },
-        "maxWidth" : "8rem"
-    },
+        'if': {'column_id': 'Source'},
+        'cursor': 'pointer'
+    }, 
     {
-    'if': {
-        'column_id': 'Block Name',
-        },
-        "maxWidth" : "8rem"
-    }
+        'if': {'column_id': 'Dataset'},
+        'cursor': 'pointer'
+    }, 
 ]
     
 

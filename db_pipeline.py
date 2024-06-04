@@ -12,10 +12,14 @@ from datetime import datetime
 import naming_functions as nf
 
 
-def connect():
+def connect1():
     # need to swap password for local var
-    #cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
     cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc')
+    return(cnxn)
+def connect2():
+    # need to swap password for local var
+    cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
+
     return(cnxn)
 
 def get_teams_doc(target, ctx):
@@ -133,8 +137,8 @@ def get_formatted_name(df, col = "table"):
 # group_cohorts
 
 def main():
-    cnxn = connect()
-
+    cnxn1 = connect1()
+    cnxn2 = connect2()
     # Get file 2 doc core metadata
     '''
     ctx = get_context()
@@ -170,7 +174,8 @@ def main():
     ###
 
     study_participants_df = pd.DataFrame(study_participants.items(), columns = ["source", "participant_count"] )
-    study_participants_df.to_sql("study_participants", cnxn, if_exists="replace")
+    study_participants_df.to_sql("study_participants", cnxn1, if_exists="replace")
+    study_participants_df.to_sql("study_participants", cnxn2, if_exists="replace")
 
     ###
 
@@ -187,7 +192,8 @@ def main():
         rows.append([schema, table, block_ages[block]["mean"], block_ages[block]["q1"], block_ages[block]["q2"], block_ages[block]["q3"], block_ages[block]["lf"], block_ages[block]["uf"]])
 
     block_ages_df = pd.DataFrame(rows, columns = ["source", "table_name", "mean", "q1", "q2", "q3", "lf", "uf"])
-    block_ages_df.to_sql("dataset_ages", cnxn, if_exists="replace")
+    block_ages_df.to_sql("dataset_ages", cnxn1, if_exists="replace")
+    block_ages_df.to_sql("dataset_ages", cnxn2, if_exists="replace")
 
     ###
 
@@ -206,7 +212,8 @@ def main():
             cohort_linkage_groups_by_group_rows.append([cohort, key, item, group_counts[key]])
     cohort_linkage_df = pd.DataFrame(cohort_linkage_groups_rows, columns = ["cohort",  "total"]).rename(columns={"cohort":"source"})
     cohort_linkage_by_group = pd.DataFrame(cohort_linkage_groups_by_group_rows, columns = ["cohort", "group", "perc", "count"])
-    cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn, if_exists="replace")
+    cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn1, if_exists="replace")
+    cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn2, if_exists="replace")
 
     ###
     
@@ -222,31 +229,36 @@ def main():
         group = datasets[block]["groups"]
         group_counts = datasets[block]["counts"]
         for key, item in group.items():
-            blocks_linkage_by_group_rows.append([schema, table, key, item, group_counts[key]])
+            if schema.lower() != "nhsd":
+                blocks_linkage_by_group_rows.append([schema, table, key, item, group_counts[key]])
 
     block_linkage_df = pd.DataFrame(blocks_linkage_rows, columns = ["source", "table_name",  "total"]).rename(columns={"table_name":"table"})
     block_linkage_by_group = pd.DataFrame(blocks_linkage_by_group_rows, columns = ["source", "table_name", "group", "perc", "count"])
-    block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn, if_exists="replace")
-
+    block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn1, if_exists="replace")
+    block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn2, if_exists="replace")
+    
+    ###    
     ###
-
-    rows = []
-    for cohort in cohort_ages.keys():
-        rows.append([cohort, cohort_ages[cohort]["mean"], cohort_ages[cohort]["q1"], cohort_ages[cohort]["q2"], cohort_ages[cohort]["q3"], cohort_ages[cohort]["lf"], cohort_ages[cohort]["uf"]])
-
-    cohort_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
-    cohort_ages_df.to_sql("cohort_ages", cnxn, if_exists="replace")
-
-    ###
-
     linked_ages = data["linked ages"]
-    rows = []
+    linked_rows = []
+    cohort_rows = []
     for ds in linked_ages.keys():
-        rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["q1"], linked_ages[ds]["q2"], linked_ages[ds]["q3"], linked_ages[ds]["lf"], linked_ages[ds]["uf"]])
-
-    linked_ages_df = pd.DataFrame(rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
+        linked_rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["q1"], linked_ages[ds]["q2"], linked_ages[ds]["q3"], linked_ages[ds]["lf"], linked_ages[ds]["uf"]])
+        if "demographics" in ds.lower():
+            cohort_rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["q1"], linked_ages[ds]["q2"], linked_ages[ds]["q3"], linked_ages[ds]["lf"], linked_ages[ds]["uf"]])
+    linked_ages_df = pd.DataFrame(linked_rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
     linked_ages_df["source_stem"] = linked_ages_df.apply(nf.get_naming_parts, axis =1, args=("source",))
-    linked_ages_df.to_sql("linked_ages", cnxn, if_exists="replace")
+    linked_ages_df.to_sql("linked_ages", cnxn1, if_exists="replace")
+    linked_ages_df.to_sql("linked_ages", cnxn2, if_exists="replace")
+
+    
+    for cohort in cohort_ages.keys():
+        cohort_rows.append([cohort, cohort_ages[cohort]["mean"], cohort_ages[cohort]["q1"], cohort_ages[cohort]["q2"], cohort_ages[cohort]["q3"], cohort_ages[cohort]["lf"], cohort_ages[cohort]["uf"]])
+
+    cohort_ages_df = pd.DataFrame(cohort_rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
+    cohort_ages_df.to_sql("cohort_ages", cnxn1, if_exists="replace")
+    cohort_ages_df.to_sql("cohort_ages", cnxn2, if_exists="replace")
+   
 
     ###
 
@@ -259,7 +271,8 @@ def main():
     # This is a hack to get versioned name onto nhsd_dataset_linkage_df2
     linked_ages_df = linked_ages_df.rename(columns = {"source_stem" : "dataset_stem", "source":"dataset"})
     nhsd_dataset_linkage_df2 = pd.merge(nhsd_dataset_linkage_df[["dataset_stem", "cohort", "count"]], linked_ages_df[["dataset", "dataset_stem"]], how = "left", on = ["dataset_stem"])
-    nhsd_dataset_linkage_df2.to_sql("nhs_dataset_cohort_linkage", cnxn, if_exists="replace")
+    nhsd_dataset_linkage_df2.to_sql("nhs_dataset_cohort_linkage", cnxn1, if_exists="replace")
+    nhsd_dataset_linkage_df2.to_sql("nhs_dataset_cohort_linkage", cnxn2, if_exists="replace")
 
     ###
 
@@ -269,7 +282,8 @@ def main():
             if type(i["extract_date"]) == str:
                 nhs_dataset_extract_rows.append([dataset,i["extract_date"], i["count"]])
     nhsd_dataset_extract_df = pd.DataFrame(nhs_dataset_extract_rows, columns = ["dataset", "date", "count"])
-    nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn, if_exists="replace")
+    nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn1, if_exists="replace")
+    nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn2, if_exists="replace")
     
     ###
 
@@ -281,13 +295,16 @@ def main():
         else:
             geo_locations_row.append([dataset,None,None,None,None,None,None,None,None,None,None,None])
     geo_locations_df = pd.DataFrame(geo_locations_row, columns = ["source", "East of England", "South East", "North West", "East Midlands", "West Midlands", "South West", "London", "Yorkshire and The Humber", "North East", "Wales", "Scotland"])
+    # Northern Ireland override
+    geo_locations_df["Northern Ireland"] = 0
     geo_locations_df["source_stem"] = geo_locations_df.apply(nf.get_naming_parts, axis =1, args=("source",))
     '''
     geo_locations_trimmed = nf.select_latest_version(geo_locations_df, "source")
     geo_locations_trimmed = nf.select_latest_date(geo_locations_trimmed, "source" )
     geo_locations_df["latest"] = geo_locations_df["source"].isin(geo_locations_trimmed["source"])
     '''
-    geo_locations_df.to_sql("geo_locations", cnxn, if_exists="replace")
+    geo_locations_df.to_sql("geo_locations", cnxn1, if_exists="replace")
+    geo_locations_df.to_sql("geo_locations", cnxn2, if_exists="replace")
 
 
     ###
@@ -305,7 +322,8 @@ def main():
     source_df["Themes"] = source_df["Themes"].str.replace(", ", ",")
     source_df["Themes"] = source_df["Themes"].str.replace(u'\xa0', u'')
     source_df["Themes"] = source_df["Themes"].str.strip()
-    source_df.to_sql("source_info", cnxn, if_exists="replace")
+    source_df.to_sql("source_info", cnxn1, if_exists="replace")
+    source_df.to_sql("source_info", cnxn2, if_exists="replace")
 
     ###
     # dataset
@@ -321,7 +339,8 @@ def main():
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(" ,", ",")
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(", ", ",")
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.strip()
-    dataset_df.to_sql("dataset", cnxn, if_exists="replace")
+    dataset_df.to_sql("dataset", cnxn1, if_exists="replace")
+    dataset_df.to_sql("dataset", cnxn2, if_exists="replace")
 
     ###
     # search terms
@@ -341,7 +360,8 @@ def main():
     search = pd.merge(search, source_df[["source", "source_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
     search["Themes"] = search["Themes"].str.replace("\n", "")
     #search = search.fillna("")
-    search.to_sql("search", cnxn, if_exists="replace")
+    search.to_sql("search", cnxn1, if_exists="replace")
+    search.to_sql("search", cnxn2, if_exists="replace")
 
 
     
@@ -356,7 +376,8 @@ def main():
             if "all_metadata.csv" in name:
                 continue
             tab_name = "metadata_"+root.split('\\')[1].lower() + '_' + name.split('.')[0].lower()
-            data.to_sql(tab_name, cnxn, if_exists = 'replace', index = False)
+            data.to_sql(tab_name, cnxn1, if_exists = 'replace', index = False)
+            data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = False)
 
 
 if __name__ == "__main__":

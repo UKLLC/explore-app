@@ -238,7 +238,13 @@ def make_sidebar_catalogue(df):
 def make_sidebar_title():
     sidebar_title = html.Div([
         html.Div(html.H2("UK LLC Data Catalogue")),
-        html.Div(html.P("Showing full catalogue"), id = "sidebar_filter")
+        html.Div([
+                html.Div([
+                    html.P("Showing full catalogue"), 
+                ], id = "sidebar_filter"),
+                dbc.Button("Reset filters", id = "clear_search2", className = "reset_button")
+            ], 
+            className = "row_layout")
         ], id = "sidebar_title")
     return sidebar_title
 
@@ -443,11 +449,13 @@ def make_search_box(df, themes):
                             id = "collection_time_accordion"
                             )
                         ]),
+                        
+                        dbc.Button("Reset filters", id = "clear_search1", className = "reset_button")
                         ],
                         className = "container_div"
                     ),
                 title = "Advanced Options",
-                ),
+                )
                 
             ],    
             id = "advanced_options_collapse",
@@ -492,7 +500,10 @@ def make_d_overview_box(source_counts, dataset_counts):
     d_overview_box = html.Div([
         html.Div([
             html.H1("Overview"),
-            html.P("The overview sunburst graph shows the complete contents of the UK LLC database scaled by the number of constituent participants. Click a segment of the graph to focus in on it."),
+            html.Hr(),
+            html.Div([
+                html.H4("The overview sunburst graph shows the complete contents of the UK LLC database scaled by the number of constituent participants. Click a segment of the graph to focus in on it."),
+            ]),
         ],
         id = "overview_title",
         className = "text_block"
@@ -512,7 +523,11 @@ def make_d_overview_box(source_counts, dataset_counts):
 def make_study_box():
     study_box = html.Div([
         html.Div([
-            html.H1("Study Information - No study Selected", id = "study_title"),
+            html.H1("Source", id = "source_category"),
+            html.Hr(),
+            html.Div([
+                html.H4("Browse and select a source for more information", id = "study_title"),
+            ]),
         ], 
         className = "desc_title",
         ),
@@ -530,10 +545,17 @@ def make_study_box():
                         html.Div(["Placeholder for pie char"], id = "source_linkage_graph", className = "container_div")
                     ]),
                     dcc.Tab(label="Coverage", children =[
+                        dbc.Tooltip(
+                            "Coverage is deduced from NHS England linkage at the present time. It does not reflect coverage at the time of collection.",
+                            target="map_tooltip",
+                        ),
                         html.Div([
-                            
-                            ],
-                            id = "Map", 
+                            html.I(className = "bi bi-info-circle", id = "map_tooltip" ),
+                            html.Div([
+                                
+                                ],
+                                id = "Map", ),],
+
                             className = "tab_div"
                             )
                     ])
@@ -554,14 +576,18 @@ def make_study_box():
 def make_block_box(children = [None, None]):
     dataset_box = html.Div([
         html.Div([
-            html.H1("Dataset Information - No Dataset Selected", id = "dataset_title"),
+            html.H1("UK LLC Dataset", id = "dataset_header"),
+            html.Hr(),
+            html.Div([
+                html.P("Browse and select a dataset for more information", id = "dataset_title"),
+            ]),
         ], 
         className = "desc_title",
         ),
-        
+
         html.Div([
             html.Div([
-                html.Div(["Its a description"], id = "dataset_description_div", className = "text_block"),
+                html.Div(["Placeholder description"], id = "dataset_description_div", className = "text_block"),
                 html.Div(["placeholder for summary table"], id = "dataset_summary", className = "container_div"),
             ], className = "container_line_50"),
             html.Div([
@@ -578,7 +604,7 @@ def make_block_box(children = [None, None]):
         ],
         className = "row_layout",
         id = "dataset_row"),
-        html.Div(["Placeholder for dataset variables table"], id = "dataset_variables_div"),
+        html.Div(make_table(pd.DataFrame(data = {"col1":["val1"]}), "search_metadata_table"), id = "dataset_variables_div"),
         ], 
         id = "body_dataset", 
         className = "body_box"
@@ -706,11 +732,13 @@ def make_basket_review_offcanvas():
             dbc.Button(
                 "clear selection",
                 id="clear_basket_button",
+                className = "red_button",
                 n_clicks=0,
                 ),
             dbc.Button(
                 "Save",
                 id="save_button",
+                className = "blue_button",
                 n_clicks=0,
                 ),
         ],
@@ -876,6 +904,7 @@ def make_hidden_body(source_counts, dataset_counts):
             make_d_overview_box(source_counts, dataset_counts),
             make_study_box(),
             make_block_box(),
+            
             #make_basket_review_box(),
         ],
         style=ss.HIDDEN_BODY_STYLE,
@@ -1077,6 +1106,7 @@ def choropleth(data, gj):
         locationmode = 'geojson-id', # set of locations match entries in `locations`
         colorscale = 'Blues',
         colorbar = None,
+        showscale = False,
         ),
         layout = layout,
     )

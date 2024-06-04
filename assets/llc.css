@@ -659,7 +659,34 @@ ul {
     padding-bottom: .5vw;
 }
 
-#clear_basket_button {
+
+.reset_button {
+    background: none;
+    color: white ;
+    cursor: pointer ;
+    border: solid black 2px;
+    border-radius: .25rem;
+    transition-duration: 0.25s;
+    font-size: .75rem;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+
+.reset_button:hover {
+    background:  var(--bs-red);
+}
+#clear_search1{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+}
+#clear_search1:hover {
+    color:white
+}
+
+.red_button {
     background: black !important;
     color: white !important;
     cursor: pointer !important;
@@ -671,7 +698,7 @@ ul {
     padding: 1rem;
   }
 
-#clear_basket_button:hover {
+.red_button:hover {
     background: var(--bs-red) !important;
 }
 
@@ -910,7 +937,7 @@ ul {
 .tab_div{
     width: 100%;
     height: 50vh;
-
+    overflow-y: hidden;
     border: solid lightgray thin;
     background-color: white;
     border-radius:  0 0 .5rem .5rem;
@@ -922,9 +949,19 @@ ul {
 
 .desc_title {
     background-color: white;
+
+    padding-top: .5rem;
+    text-align: left;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    font-size: calc(0.4rem + 0.5vw);
+    background-color: white;
     border-radius: .5rem;
+    padding: .5rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    margin: .5rem;
+    text-indent: 2rem;
 }
 
 
@@ -941,10 +978,9 @@ ul {
     border-radius: .5rem;
     padding: .5rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-}
-.text_block {
     text-indent: 2rem;
 }
+
 
 .info_box_left {
     width : 30%;
@@ -1116,6 +1152,7 @@ ul {
     display: flex;
     vertical-align: middle;
     align-items: center;
+    margin-bottom: .5rem;
 }
 
 h1 {padding-left: 1rem;}
@@ -1232,6 +1269,8 @@ h1 {padding-left: 1rem;}
     text-align: center;
     background-color:white;
     border-radius:.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
 }
 .tooltip::after {
     content: " ";
@@ -1323,3 +1362,7 @@ h1 {padding-left: 1rem;}
   .colorbar  {
     display: none;
   }
+  #map_tooltip {
+    font-size: large;
+  }
+

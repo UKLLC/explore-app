@@ -29,8 +29,8 @@ server = app.server
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
-        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
@@ -182,6 +182,7 @@ def login(_):
 ### DOCUMENTATION BOX #####################
 
 @app.callback(
+    Output("source_category", "children"), # Source_ type
     Output("study_title", "children"), # Source_name
     Output('study_description_div', "children"), # Aims
     Output("study_summary", "children"), # several variables
@@ -239,10 +240,14 @@ def update_schema_description(source):
         t0 = time.time()
         try:
             data = load_or_fetch_map(source)
-            map = struct.choropleth(data, gj)
+            print(data)
+            if sum(data["count"]) == 0:
+                map = struct.error_p("Coverage is not available for {}".format(source))
+            else:
+                map = struct.choropleth(data, gj)
         except:
             data = None
-            map = None
+            map = struct.error_p("Error loading map")
             print("Error: failed to load map data")
         
 
@@ -250,12 +255,13 @@ def update_schema_description(source):
         print("maptime", round(maptime, 3))
 
         ### title #### 
+        source_name = info["source_name"].values[0]
         if info["Type"].values[0] == "Linked":
-            title_text = "Linked Data Information - "+source
+            title_text1 = "Linked Source"
         else:
-            title_text = "Study Information - "+source
+            title_text1 = "LPS Source"
 
-        return title_text, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), pie, boxplot, map, {"display": "flex"}
+        return title_text1, source_name, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), pie, boxplot, map, {"display": "flex"}
     else:
         
         #print(all_query)
@@ -269,7 +275,7 @@ def update_schema_description(source):
             search_results = struct.sources_list(app, info, "main_search")
         else:
             search_results = struct.error_p("No data available")
-        return "UK LLC Data Sources", "", "", search_results, "", "",None, {"display": "none"}
+        return "UK LLC Data Sources", "Browse and select a source for more information", "", "", search_results, "", "",None, {"display": "none"}
 
 
 ### Dataset BOX #####################
@@ -279,6 +285,7 @@ def update_schema_description(source):
     Output('dataset_linkage_graph', "children"),
     Output("dataset_age_graph", "children"),
     Output('dataset_variables_div', "children"),
+    Output("dataset_header", "children"),
     Output("dataset_title", "children"),
     Output("dataset_row" , "style"),
     Input('active_table', 'data'),
@@ -299,9 +306,18 @@ def update_table_data(table_id):
         schema = table_split[0]
         table = table_split[1]
         blocks = datasets_df.loc[(datasets_df["source"] == schema) & (datasets_df["table"] == table)]
-        long_desc = blocks["long_desc"]
+        long_desc = blocks["long_desc"].values[0]
+        long_name = blocks["table_name"].values[0]
 
-        title_text = "Dataset Information - {}".format(table)
+
+        if blocks["Type"].values[0] == "Linked":
+            title_text1 = "Linked Dataset"
+        else:
+            title_text1 = "LPS Dataset"
+        if long_name and len(long_name) > 0:
+            title_text2 = str(long_name)
+        else:
+            title_text2 = str(schema) + " " + str(table)
 
         blocks = blocks[["table_name", "collection_start", "collection_end", "participants_included", "topic_tags", "links", ]]
         with connect() as cnxn:
@@ -330,11 +346,12 @@ def update_table_data(table_id):
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
         
-        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table"), title_text, {"display": "flex"}
+        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table"),  title_text1, title_text2, {"display": "flex"}
     else:
-        search_results_table = struct.make_table(spine, "search_metadata_table")
+        dataset_table = datasets_df[["source", "table", "short_desc"]].rename(columns = {"source":"Source", "table":"Dataset", "short_desc":"Description"})
+        search_results_table = struct.make_table(dataset_table, "search_metadata_table")
 
-        return "", "", "", "", search_results_table, "UK LLC Datasets", {"display": "none"}
+        return "", "", "", "", search_results_table, "UK LLC Datasets", "Browse and select a source for more information", {"display": "none"}
 
 
 ### BASKET REVIEW #############
@@ -511,7 +528,7 @@ def sidebar_schema(open_study_schema, links1, links2):
     real_triggers = [x for x in open_study_schema if (x and x>0)] + [x for x in links1 if (x and x>0)] +[x for x in links2 if (x and x>0)] 
     if len(real_triggers) == 0 :
         raise PreventUpdate
-    print("CALLBACK: sidebar schema click")# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
+    print("CALLBACK: schema change, trigger: {}".format(trigger))# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
 
     open_study_schema = trigger["index"]
     return open_study_schema
@@ -521,9 +538,11 @@ def sidebar_schema(open_study_schema, links1, links2):
     Output('active_table','data'),
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
+    Input("search_metadata_table", "active_cell"),
+    State("search_metadata_table", "data"),
     prevent_initial_call = True
 )
-def sidebar_table(tables):
+def sidebar_table(tables, active_cell, data):
     '''
     When the active table_tab changes
     When the schema changes
@@ -533,9 +552,13 @@ def sidebar_table(tables):
     '''
     if tables == None:
         raise PreventUpdate
-    print("\nCALLBACK: sidebar table click, trigger: {}".format(dash.ctx.triggered_id))
-    #print("DEBUG, sidebar_table {}, {}, {}".format(tables, previous_table, dash.ctx.triggered_id))
-
+    print("\nCALLBACK: sidebar table click, trigger: {},".format(dash.ctx.triggered_id))
+    print(active_cell)
+    if active_cell:
+       cell_click = data[active_cell["row"]]["Source"] + "-" + data[active_cell["row"]]["Dataset"]
+       print("DEBUG cell click", cell_click)
+       return cell_click, ["None" for t in tables]
+       
     active = [t for t in tables if (t!= None and t!='None')]
     # if no tables are active
     if len(active) == 0:
@@ -545,7 +568,7 @@ def sidebar_table(tables):
         print("Error 12: More than one activated tab:", active)
     
     table = active[0]
-    return table , ["None" for t in tables]
+    return table, ["None" for t in tables]
 
 
 
@@ -768,10 +791,12 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         # reuse sidebar results
         search_results = []
         for hit in r1["hits"]["hits"]:
-            search_results.append({key: hit["_source"][key] for key in ["source", "table"]}) #"long_desc"]})
+            search_results.append({key: hit["_source"][key] for key in ["source", "table"]})
         if len(search_results) != 0:
             info = pd.DataFrame(search_results)
-            info = pd.merge(info, spine, how="left", on = ["source", "table"])            
+            info = pd.merge(info, datasets_df, how="left", on = ["source", "table"]) 
+
+            info = info[["source", "table", "short_desc"]].rename(columns={"source":"Source", "table": "Dataset", "short_desc": "Description"}) 
             search_results_table = struct.make_table(info, "search_metadata_table")
             search_text = "Showing {} datasets".format(len(info))
         else:
@@ -990,6 +1015,22 @@ def save_shopping_cart(btn1, save_clicks, shopping_basket):
         raise PreventUpdate
 
 
+@app.callback(
+    Output("main_search", "value"),
+    Output("include_dropdown", "value"),
+    Output("exclude_dropdown", "value"),
+    Output("tags_search", "value"),
+    Output("collection_age_slider", "value"),
+    Output("collection_time_slider", "value"),
+
+    Output("include_type_checkbox", "value"),
+
+    Input("clear_search1", "n_clicks"),
+    Input("clear_search2", "n_clicks"),
+    prevent_initial_call=True
+    )
+def rest_filters(btn1, btn2):
+    return "", "", "", "", [0, 100], [0, 9], ["Study data", "Linked data"]
 
 
 '''
@@ -1025,7 +1066,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''
