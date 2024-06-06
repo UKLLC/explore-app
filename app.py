@@ -29,8 +29,8 @@ server = app.server
 
 def connect():
     try:
-        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
-        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
@@ -1066,7 +1066,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)
 
 
 '''
