@@ -799,6 +799,7 @@ ul {
     width: 100%;
     height: fit-content;
     min-height: calc(100% - 6rem);
+    padding-bottom: .5rem;
 }
 #body_search {
     background-color: var(--bs-whitegroup2);
@@ -976,9 +977,9 @@ ul {
     font-size: calc(0.4rem + 0.5vw);
     background-color: white;
     border-radius: .5rem;
-    padding: .5rem;
+    padding: .75rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    text-indent: 2rem;
+
 }
 
 
@@ -1153,6 +1154,7 @@ ul {
     vertical-align: middle;
     align-items: center;
     margin-bottom: .5rem;
+    cursor: pointer;
 }
 
 h1 {padding-left: 1rem;}
@@ -1366,3 +1368,9 @@ h1 {padding-left: 1rem;}
     font-size: large;
   }
 
+  .small_text{
+    font-size: xx-small;
+  }
+  .hidden{
+    display:none;
+  }

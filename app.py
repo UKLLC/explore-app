@@ -89,15 +89,6 @@ themes.remove("")
 
 gj = dataIO.load_geojson()
 
-'''
-print("DEBUG memory usage:")
-print("datasets_df", sys.getsizeof(datasets_df)/1024)
-print("datasets_counts", sys.getsizeof(dataset_counts)/1024)
-print("source_info", sys.getsizeof(source_info)/1024)
-print("spine", sys.getsizeof(spine)/1024)
-print("map_data", sys.getsizeof(map_data)/1024)
-'''
-
 app_state = App_State()
 
 
@@ -319,7 +310,7 @@ def update_table_data(table_id):
         else:
             title_text2 = str(schema) + " " + str(table)
 
-        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_included", "topic_tags", "links", ]]
+        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", ]]
         with connect() as cnxn:
             metadata_df = dataIO.load_study_metadata(cnxn, table_id)[["Variable Name", "Variable Description", "Value","Value Description"]]
             data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
@@ -346,10 +337,10 @@ def update_table_data(table_id):
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
         
-        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table"),  title_text1, title_text2, {"display": "flex"}
+        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table","dataset_info_table"),  title_text1, title_text2, {"display": "flex"}
     else:
         dataset_table = datasets_df[["source", "table", "short_desc"]].rename(columns = {"source":"Source", "table":"Dataset", "short_desc":"Description"})
-        search_results_table = struct.make_table(dataset_table, "search_metadata_table")
+        search_results_table = struct.make_table(dataset_table, "search_metadata_table", "none_selected")
 
         return "", "", "", "", search_results_table, "UK LLC Datasets", "Browse and select a source for more information", {"display": "none"}
 
@@ -538,8 +529,8 @@ def sidebar_schema(open_study_schema, links1, links2):
     Output('active_table','data'),
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
-    Input("search_metadata_table", "active_cell"),
-    State("search_metadata_table", "data"),
+    Input({"type": "search_metadata_table", "index": ALL}, "active_cell"),
+   Input({"type": "search_metadata_table", "index": ALL}, "data"),
     prevent_initial_call = True
 )
 def sidebar_table(tables, active_cell, data):
@@ -550,6 +541,9 @@ def sidebar_table(tables, active_cell, data):
     Update the active table
     Update the activated table tabs (deactivate previously activated tabs)
     '''
+    if active_cell:
+        active_cell = active_cell[0]
+        data = data[0]
     if tables == None:
         raise PreventUpdate
     print("\nCALLBACK: sidebar table click, trigger: {},".format(dash.ctx.triggered_id))
@@ -797,7 +791,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             info = pd.merge(info, datasets_df, how="left", on = ["source", "table"]) 
 
             info = info[["source", "table", "short_desc"]].rename(columns={"source":"Source", "table": "Dataset", "short_desc": "Description"}) 
-            search_results_table = struct.make_table(info, "search_metadata_table")
+            search_results_table = struct.make_table(info, "search_metadata_table", "datasets_search")
             search_text = "Showing {} datasets".format(len(info))
         else:
             search_results_table = None
@@ -890,7 +884,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             search_results.append([hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["variable_name"], hit["_source"]["variable_description"], hit["_source"]["value"], hit["_source"]["value_label"]])
         if len(search_results) != 0:
             search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description", "Value", "Value Label"])
-            search_results_table = struct.make_table(search_results, "search_metadata_table")
+            search_results_table = struct.make_table(search_results, "search_metadata_table", "dataset search")
             search_len = len(search_results)
         
             if len(search_results) >= 10000:
@@ -1066,7 +1060,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''

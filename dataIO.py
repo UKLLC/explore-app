@@ -56,9 +56,9 @@ def load_dataset_age(cnxn, source = "none", table_name = "none"):
     elif source == "none":
         return rtn.loc[rtn["source"].str.lower() == source.lower()]
     elif table_name == "none":
-        return rtn.loc[rtn["table_name"].str.contains(table_name)]
+        return rtn.loc[rtn["table_name"] == table_name]
     else:
-        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"] == (table_name))]
 
 def load_source_info(cnxn, source = "none"):
     rtn = pd.read_sql("SELECT * from source_info", cnxn)

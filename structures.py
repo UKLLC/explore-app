@@ -12,9 +12,12 @@ import constants
 pd.options.mode.chained_assignment = None
 warnings.simplefilter(action="ignore",category = FutureWarning)
 
-def make_table(df, id, page_size = 25, ):
+def make_table(df, id, id2= "default", page_size = 25):
     table = dash_table.DataTable(
-            id=id,
+            id={
+            'type': id,
+            'index': id2
+            },
             data=df.to_dict('records'),
             columns=[{'id': i, 'name': i, 'presentation': 'markdown'} if "link" in i.lower() else {"name": i, "id": i} for i in df.columns], 
             page_size=page_size,
@@ -64,7 +67,7 @@ def main_titlebar(app, title_text):
     titlebar = html.Div([
         html.Div([
             html.Img(
-                src = app.get_asset_url("Logo_LLC.png"),
+                src = app.get_asset_url("explore_lower_full_logo_regular.png"),
                 className = "llc_logo",
                 id = "llc_logo"
             ),
@@ -545,12 +548,13 @@ def make_study_box():
                         html.Div(["Placeholder for pie char"], id = "source_linkage_graph", className = "container_div")
                     ]),
                     dcc.Tab(label="Coverage", children =[
-                        dbc.Tooltip(
-                            "Coverage is deduced from NHS England linkage at the present time. It does not reflect coverage at the time of collection.",
-                            target="map_tooltip",
-                        ),
+                        #dbc.Tooltip(
+                        #    "Coverage is deduced from NHS England linkage from a participant's most recent interaction with healthcare services. It does not reflect coverage at the time of collection. Information is only available for participants living in England.",
+                        #    target="map_tooltip",
+                        #),
                         html.Div([
-                            html.I(className = "bi bi-info-circle", id = "map_tooltip" ),
+                            html.P("Coverage is deduced from NHS England linkage from participants' most recent interaction with healthcare services. It does not reflect coverage at the time of collection. Information is only available for participants living in England.", className = "small_text"),
+                            #html.I(className = "bi bi-info-circle", id = "map_tooltip" ),
                             html.Div([
                                 
                                 ],
@@ -835,9 +839,15 @@ def make_variable_div_list(id_type, indices):
         divs += [html.Div([],key = "0", id = {"type":id_type, "index":str(i)})]
     return divs
 
+def make_hidden_items(hidden_items):
+    return html.Div(
+        hidden_items,
+        className = "Hidden"
+    )
+    
 
-def make_app_layout(titlebar, body, account_section, variable_divs):
-    app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),modal()] + variable_divs, id="app") 
+def make_app_layout(titlebar, body, account_section, variable_divs ):
+    app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),modal(), ] + variable_divs, id="app") 
     return app_layout
 
 def make_info_box(df):
@@ -875,6 +885,8 @@ def make_info_box(df):
 def make_schema_description(schemas):
     # Make the study tab variables
     schemas = schemas[constants.SOURCE_SUMMARY_VARS.keys()].rename(columns = constants.SOURCE_SUMMARY_VARS)
+    schemas["Number of datasets"] = schemas["Number of datasets"].astype(int)
+    schemas["Participant count"] = schemas["Participant count"].astype(int)
     return make_info_box(schemas)
 
 def make_block_description(blocks):
@@ -890,6 +902,8 @@ def make_block_description(blocks):
 
 def make_blocks_table(df):
     df = df[constants.BLOCK_TABLE_VARS.keys()].rename(columns = constants.BLOCK_TABLE_VARS)
+    df.insert(loc = 5, column = "Collection Duration", value = df["Collection Start"] + " - " + df["Collection End"])
+    df = df.drop(columns = ["Collection Start", "Collection End"])
     table = make_table(df, "tables_desc_table", page_size=5)
     return table
 
@@ -977,12 +991,21 @@ def make_account_section():
 
 
 def pie(labels, values, counts):
+    # Label correction:
+    new_labels = []
+    for l in labels:
+        l2 = l.replace("NHS_linkage","NHS England")
+        l2 = l2.replace("GEO_linkage","Geospatial")
+        l2 = l2.replace("None","No linkage")
+        new_labels.append(l2)
+    labels = new_labels
+
     layout = go.Layout(
         margin=go.layout.Margin(
-            l=0, #left margin
-            r=0, #right margin
-            b=0, #bottom margin
-            t=0, #top margin
+            l=5, #left margin
+            r=5, #right margin
+            b=5, #bottom margin
+            t=5, #top margin
         )
     )
     colors = [ss.cyan[0], ss.lime[0], ss.peach[0], ss.green[0]]
@@ -1001,14 +1024,16 @@ def pie(labels, values, counts):
 
 
 def boxplot(mean, median, q1, q3, lf, uf):
-    
+    print(mean, median, q1, median, q3, lf, uf)
     layout = go.Layout(
         margin=go.layout.Margin(
             l=0, #left margin
             r=0, #right margin
             b=0, #bottom margin
             t=0, #top margin
-        )
+        ),
+        xaxis_title = "Age"
+
     )
     fig = go.Figure(layout = layout)
     fig.add_trace(
@@ -1020,10 +1045,13 @@ def boxplot(mean, median, q1, q3, lf, uf):
             lowerfence = lf,
             upperfence = uf,
             name="Precompiled Quartiles",
-            orientation="h"
+            orientation="h",
+            #fillcolor = "#00ABAA"
             ))
 
     fig.update_traces()
+    fig.update_yaxes(showticklabels=False)
+    
     return dcc.Graph(figure = fig, className = "tab_div")
 
 def sunburst(source_counts, dataset_counts):
@@ -1118,7 +1146,9 @@ def choropleth(data, gj):
     fig.update_geos(
         visible = False,
         showframe=False,
-        fitbounds = "locations"
+        projection_scale = 5,
+        center = {"lat" : 54, "lon" : -2.3}
+        #fitbounds = "locations"
     )
 
     return dcc.Graph(figure = fig, className = "cloropleth")

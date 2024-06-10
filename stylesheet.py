@@ -176,10 +176,6 @@ TABLE_CONDITIONAL = [
     "border": "1px solid light_grey"
     },
     {
-        'if': {'column_id': 'Source'},
-        'cursor': 'pointer'
-    }, 
-    {
         'if': {'column_id': 'Dataset'},
         'cursor': 'pointer'
     }, 

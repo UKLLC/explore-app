@@ -378,6 +378,11 @@ def main():
             tab_name = "metadata_"+root.split('\\')[1].lower() + '_' + name.split('.')[0].lower()
             data.to_sql(tab_name, cnxn1, if_exists = 'replace', index = False)
             data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = False)
+    # geo special
+    f1 = pd.read_csv("metadata\\geo\\air_pollution_hh.csv")
+    f2 = pd.read_csv("metadata\\geo\\air_pollution_pc.csv")
+    geo = pd.concat([f1, f2])
+    geo.to_sql("metadata_geo_air_pollution", cnxn2, if_exists = 'replace', index = False)
 
 
 if __name__ == "__main__":
