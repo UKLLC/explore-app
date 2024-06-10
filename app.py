@@ -40,8 +40,6 @@ def connect():
 def searchbox_connect():
     
     url = urlparse("https://paas:***REMOVED***")
-
-    print(url.username, url.password)
     ######## test
     es = Elasticsearch(
         ["https://paas:***REMOVED***"],
@@ -231,7 +229,6 @@ def update_schema_description(source):
         t0 = time.time()
         try:
             data = load_or_fetch_map(source)
-            print(data)
             if sum(data["count"]) == 0:
                 map = struct.error_p("Coverage is not available for {}".format(source))
             else:
@@ -470,8 +467,7 @@ def body_sections(search, d_overview, dd_study, dd_data_block, _, __, search2, o
 def review_right_sidebar(oc_click, bg_click, FAQ_click, oc_close, FAQ_close, cu_clicks):
     if not oc_click and not bg_click and not FAQ_click and not oc_close and not FAQ_close and not cu_clicks:
         raise PreventUpdate
-    print("REVIEW", oc_click, dash.ctx.triggered_id)
-    print(oc_click, bg_click, FAQ_click, oc_close, FAQ_close, cu_clicks)
+    print("CALLBACK: review", oc_click, dash.ctx.triggered_id)
     trigger = dash.ctx.triggered_id
     if trigger == "modal_background" or trigger == "offcanvas_close" or trigger == "modal_close": # Background, close all
         return False, {"display":"none"}, False, None
@@ -547,10 +543,8 @@ def sidebar_table(tables, active_cell, data):
     if tables == None:
         raise PreventUpdate
     print("\nCALLBACK: sidebar table click, trigger: {},".format(dash.ctx.triggered_id))
-    print(active_cell)
     if active_cell:
        cell_click = data[active_cell["row"]]["Source"] + "-" + data[active_cell["row"]]["Dataset"]
-       print("DEBUG cell click", cell_click)
        return cell_click, ["None" for t in tables]
        
     active = [t for t in tables if (t!= None and t!='None')]
@@ -609,7 +603,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     trigger = dash.ctx.triggered_id
 
     print("CALLBACK: main search, searching value: {}, trigger {}.".format(s, trigger))
-    print("     DEBUG search: click {}, {}, {}, {}, {}, {}, {}".format(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
+    #print("     DEBUG search: click {}, {}, {}, {}, {}, {}, {}".format(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
     # new version 03/1/24 (after a month off so you know its going to be good)
     '''
     Split by table filtering and variable filtering
@@ -661,9 +655,9 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             },
             { "match": {"table_name": s}},
             { "match": {"long_desc": s}},
-            { "match": {"topic_tags": s}},
+            { "term": {"topic_tags": s}},
             { "match": {"Aims": s}},
-            { "match": {"Themes": s}},
+            { "term": {"Themes": s}},
         ]
     else: 
         search = []
@@ -751,9 +745,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                 }
             }
         }
-    
-    #print(all_query)
-    print(all_query)
+
     r1 = es.search(index="index_spine", body=all_query, size = 1000)
     
     sidebar_results = []
@@ -800,8 +792,8 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     elif search_type.lower() == "variables": # variables
         if len(s) > 0 :
             search = search + [
-                {"match" : {"varaible_name" : s}},
-                {"match" : {"varaible_description" : s}},
+                {"match" : {"variable_name" : s}},
+                {"match" : {"variable_description" : s}},
                 {"term" : {"value" : s}},
                 {"match" : {"value_label" : s}},
             ]
@@ -824,7 +816,8 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                 
                 "must" : [{
                         "bool" : {
-                            "should" : search 
+                            "should" : search,
+                            "boost" : 3, 
                         }
                     },
                     {
