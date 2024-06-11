@@ -624,30 +624,40 @@ def FAQ():
             html.H1("Frequently Asked Questions"),
             html.Hr(className = "center_hr"),
             html.Div([
-                html.H2("How do I apply for data?"),
-                html.P("answer...")
+                html.H2("1. How do I request data from the UK LLC"),
+                html.P("Contact access@ukllc.ac.uk who will direct you on the process of starting a project and making a data request.")
             ],
             className = "FAQ_QA"
             ),
             html.Div([
-                html.H2("Question2"),
-                html.P("answer...")
+                html.H2("2. Why is your FAQ section so empty?"),
+                html.P("We haven't had many questions yet. If you have any, please send them to support@ukllc.ac.uk")
             ],
             className = "FAQ_QA"
             ),
             html.Div([
-                html.H2("Question3"),
-                html.P("answer...")
+                html.H2(""),
+                html.P("")
             ],
             className = "FAQ_QA"
             ),
             html.Div([
-                html.H2("Question4"),
-                html.P("answer...")
+                html.H2(""),
+                html.P("")
             ],
             className = "FAQ_QA"
             ),
         ])
+    '''
+    FAQ ideas:
+    1. How do I request data from the UK LLC
+    Contact access@ukllc.ac.uk who will direct you on the process of starting a project and making a data request.
+
+    2. Why is your FAQ section so empty?
+    We haven't had many questions yet. If you have any, please send them to support@ukllc.ac.uk
+
+    
+    '''
     return body
 
 def contact_us():
@@ -1000,6 +1010,17 @@ def pie(labels, values, counts):
         new_labels.append(l2)
     labels = new_labels
 
+    # explicit colours
+    label_colours = {
+        "NHS England" : str(ss.cyan[0]),
+        "Geospatial" : str(ss.green[0]),
+        "No linkage" : str(ss.peach[0]),
+        "NHS England, Geospatial": str(ss.lime[0]),
+        }
+
+    colours = [str(label_colours[str(x)]) for x in labels]
+
+
     layout = go.Layout(
         margin=go.layout.Margin(
             l=5, #left margin
@@ -1008,14 +1029,14 @@ def pie(labels, values, counts):
             t=5, #top margin
         )
     )
-    colors = [ss.cyan[0], ss.lime[0], ss.peach[0], ss.green[0]]
+    
     fig = go.Figure(
         data = [go.Pie(
                     labels=labels, 
                     values=values,
                     hovertext = counts,
                     hovertemplate = "%{label}: <br>Count: %{hovertext}",
-                    marker = dict(colors=colors)
+                    marker = dict(colors=colours)
                 ),
             ],
         layout=layout
@@ -1024,7 +1045,7 @@ def pie(labels, values, counts):
 
 
 def boxplot(mean, median, q1, q3, lf, uf):
-    print(mean, median, q1, median, q3, lf, uf)
+    #print(mean, median, q1, median, q3, lf, uf)
     layout = go.Layout(
         margin=go.layout.Margin(
             l=0, #left margin

@@ -327,7 +327,11 @@ def main():
 
     ###
     # dataset
-    dataset_df = pd.read_excel("Database tables.xlsx", sheet_name="Dataset")
+    try:
+        dataset_df = pd.read_excel("Database tables.xlsx", sheet_name="Sheet1") # If error here, do clean.py
+    except ValueError:
+        raise Exception("Error loading Database tables.xlsx because of incorrect sheet name. Run clean.py you lemon.")
+
 
     dataset_df = pd.merge(dataset_df, dataset_participants_df, how = "left", on =["source", "table"])
     dataset_df = pd.merge(dataset_df, block_linkage_df, how = "left", on =["source", "table"])

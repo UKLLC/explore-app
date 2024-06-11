@@ -2,8 +2,10 @@ import os
 import pandas as pd
 
 def main():
-    source = pd.read_excel("all_sources_in.xlsx", index_col=False)
-    source = source.drop(columns=["Unnamed: 0"])
+    source = pd.read_excel("all_sources_in.xlsx", sheet_name = "Sheet1",index_col=False)
+    print(source.columns)
+    print(source)
+    #source = source.drop(columns=["Unnamed: 0"])
     dataset = pd.read_excel("Database tables.xlsx", index_col=False)
 
     source["Aims"] = source["Aims"].str.replace("<br>", "")
@@ -11,6 +13,8 @@ def main():
     source["Aims"] = source["Aims"].str.replace("ï¬", "f")
     source["Aims"] = source["Aims"].str.replace("â€“", "-")
     source["Aims"] = source["Aims"].str.replace("â€˜", "'")
+    source["Aims"] = source["Aims"].str.replace("â€™", "'")
+
 
     source["Themes"] = source["Themes"].str.replace("\n", "")
     source["Themes"] = source["Themes"].str.replace(", ", ",")
@@ -46,8 +50,8 @@ def main():
     dataset['topic_tags'] = dataset['topic_tags'].str.rstrip(',')
 
 
-    source.to_excel("all_sources_in2.xlsx", index = False)
-    dataset.to_excel("Database tables2.xlsx", index = False)
+    source.to_excel("all_sources_in.xlsx", index = False)
+    dataset.to_excel("Database tables.xlsx", index = False)
 
 
 
