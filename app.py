@@ -29,8 +29,8 @@ server = app.server
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
-        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        #cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
@@ -130,8 +130,9 @@ maindiv = struct.make_body(sidebar_left, app, spine, themes)
 
 # Main div template ##################################################################
 
-schema_record = struct.make_variable_div("active_schema")
-table_record = struct.make_variable_div("active_table")
+schema_record = struct.make_variable_div("active_source")
+table_record = struct.make_variable_div("active_dataset")
+current_tab = struct.make_variable_div("current_tab")
 selected_tables = struct.make_variable_div("selected_tables")
 shopping_basket_op = struct.make_variable_div("shopping_basket", [])
 open_schemas = struct.make_variable_div("open_schemas", [])
@@ -146,7 +147,7 @@ hidden_body = struct.make_hidden_body(source_info, dataset_counts)
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, maindiv, account_section, [schema_record, table_record, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
+app.layout = struct.make_app_layout(titlebar, maindiv, account_section, [schema_record, table_record, current_tab, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
 print("---------------------\nBuilt app layout\n----------------------")
 ###########################################
 ### Actions
@@ -169,34 +170,109 @@ def login(_):
 #########################
 
 ### DOCUMENTATION BOX #####################
-
+'''
+efficiency:
+approx 995/try all in
+'''
 @app.callback(
     Output("source_category", "children"), # Source_ type
     Output("study_title", "children"), # Source_name
-    Output('study_description_div', "children"), # Aims
+    Output('source_description_div', "children"), # Aims
     Output("study_summary", "children"), # several variables
     Output("study_table_div", "children"), # list of datasets in source
-    Output("source_linkage_graph", "children"), #linkage pie
-    Output("source_age_graph", "children"), # Age boxplot
-    Output('Map', "children"), #
     Output('source_row', "style"), # style, for hiding/showing body
-    Input('active_schema','data'),
+    Input('active_source','data'),
+
 )
 def update_schema_description(source):
     '''
     When schema updates, update documentation    
     '''        
     
-    print("Updating schema page, schema = '{}'".format(source))
+    print("Updating schema page text, schema = '{}'".format(source))
     if source != None and source != "None": 
         
         info = source_info.loc[source_info["source"] == source]
-        # Get linkage and age data from db
+       
+        ### title #### 
+        source_name = info["source_name"].values[0]
+        if info["Type"].values[0] == "Linked":
+            title_text1 = "Linked Source"
+        else:
+            title_text1 = "LPS Source"
+
+        return title_text1, source_name, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), {"display": "flex"}
+    else:
+        
+        #print(all_query)
+        r = es.search(index="index_spine", body={"query" : {"match_all" : {}}}, size = 1000)
+
+        search_results = []
+        for hit in r["hits"]["hits"]:
+            search_results.append({key: hit["_source"][key] for key in ["source", "source_name", "Aims"]})
+        if len(search_results) >0:
+            info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
+            search_results = struct.sources_list(app, info, "main_search")
+        else:
+            search_results = struct.error_p("No data available")
+        return "UK LLC Data Sources", "Browse and select a source for more information", "", "", search_results,  {"display": "none"}
+
+
+@app.callback(
+    Output('Map', "children"), 
+    Input("current_tab", "data"),
+    State('active_source','data'),
+    prevent_initial_call=True
+)
+def update_schema_map(current_tab, source):
+    '''
+    When schema updates, update documentation    
+    '''        
+    
+    print("Updating schema map, schema = '{}'".format(source))
+    trigger = dash.ctx.triggered_id
+
+    print(" boxplot trigger {}".format(trigger))
+    if current_tab == "source" and source != None and source != "None": 
+         ### map #####
+        t0 = time.time()
+        try:
+            data = load_or_fetch_map(source)
+            if sum(data["count"]) == 0:
+                map = struct.error_p("Coverage is not available for {}".format(source))
+            else:
+                map = struct.choropleth(data, gj)
+        except:
+            data = None
+            map = struct.error_p("Error loading map")
+            print("Error: failed to load map data")
+        
+
+        maptime = time.time() - t0
+        print("maptime", round(maptime, 3))
+        return map
+    else:
+        return None
+    
+@app.callback(
+    Output('source_linkage_graph', "children"), 
+    Input("current_tab", "data"),
+    State('active_source','data'),
+    prevent_initial_call=True
+)
+def update_schema_pie(current_tab, source):
+    '''
+    When schema updates, update documentation    
+    '''        
+    
+    print("Updating schema pie, schema = '{}'".format(source))
+    trigger = dash.ctx.triggered_id
+
+    print(" pie trigger {}".format(trigger))
+    if current_tab == "source" and source != None and source != "None": 
+
         with connect() as cnxn:
             data = dataIO.load_cohort_linkage_groups(cnxn, source)
-            ages = dataIO.load_cohort_age(cnxn, source)
-            cnxn.close()
-        
         ### pie #####
         labels = []
         values = []
@@ -215,6 +291,29 @@ def update_schema_description(source):
         else:
             pie = struct.error_p("Linkage statistics are not currently available for {}".format(source))
         
+        return pie
+    else:
+        return ""
+
+@app.callback(
+    Output('source_age_graph', "children"), 
+    Input("current_tab", "data"),
+    State('active_source','data'),
+    prevent_initial_call=True
+)
+def update_schema_boxplot(current_tab, source):
+    '''
+    When schema updates, update documentation    
+    '''        
+    
+    print("Updating schema boxplot, schema = '{}'".format(source))
+    trigger = dash.ctx.triggered_id
+
+    print(" boxplot trigger {}".format(trigger))
+    if current_tab == "source" and source != None and source != "None": 
+
+        with connect() as cnxn:
+            ages = dataIO.load_cohort_age(cnxn, source)
         ### boxplot #####
         if len(ages["mean"].values) > 0:
             try:
@@ -224,47 +323,9 @@ def update_schema_description(source):
                 boxplot = struct.error_p("Error: unable to make age boxplot")
         else:
             boxplot = struct.error_p("Age distribution statistics are not currently available for {}".format(source))
-
-        ### map #####
-        t0 = time.time()
-        try:
-            data = load_or_fetch_map(source)
-            if sum(data["count"]) == 0:
-                map = struct.error_p("Coverage is not available for {}".format(source))
-            else:
-                map = struct.choropleth(data, gj)
-        except:
-            data = None
-            map = struct.error_p("Error loading map")
-            print("Error: failed to load map data")
-        
-
-        maptime = time.time() - t0
-        print("maptime", round(maptime, 3))
-
-        ### title #### 
-        source_name = info["source_name"].values[0]
-        if info["Type"].values[0] == "Linked":
-            title_text1 = "Linked Source"
-        else:
-            title_text1 = "LPS Source"
-
-        return title_text1, source_name, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), pie, boxplot, map, {"display": "flex"}
+        return boxplot
     else:
-        
-        #print(all_query)
-        r = es.search(index="index_spine", body={"query" : {"match_all" : {}}}, size = 1000)
-
-        search_results = []
-        for hit in r["hits"]["hits"]:
-            search_results.append({key: hit["_source"][key] for key in ["source", "source_name", "Aims"]})
-        if len(search_results) >0:
-            info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
-            search_results = struct.sources_list(app, info, "main_search")
-        else:
-            search_results = struct.error_p("No data available")
-        return "UK LLC Data Sources", "Browse and select a source for more information", "", "", search_results, "", "",None, {"display": "none"}
-
+        return ""
 
 ### Dataset BOX #####################
 @app.callback(
@@ -276,7 +337,7 @@ def update_schema_description(source):
     Output("dataset_header", "children"),
     Output("dataset_title", "children"),
     Output("dataset_row" , "style"),
-    Input('active_table', 'data'),
+    Input('active_dataset', 'data'),
 )
 def update_table_data(table_id):
     '''
@@ -386,24 +447,25 @@ def basket_review(shopping_basket):
 @app.callback(
     Output("body_content", "children"),
     Output("hidden_body","children"),
+    Output("current_tab", "data"),
     #Input("about", "n_clicks"),
     Input("search", "n_clicks"),
     Input("d_overview", "n_clicks"),
-    Input("dd_study", "n_clicks"),
+    Input("dd_source", "n_clicks"),
     Input("dd_dataset", "n_clicks"),
-    Input('study_description_div', "children"), # When the dataset page is updates (means active source has changed and pages have updated)
-    Input('dataset_description_div', "children"), # When the dataset page is updates (means active table has changed and pages have updated)
+    Input('source_description_div', "children"), # When the dataset page is updated (means active source has changed and pages have updated)
+    Input('dataset_description_div', "children"), # When the dataset page is updated (means active table has changed and pages have updated)
     Input("search2", "n_clicks"),
     Input("overview2", "n_clicks"),
     Input("source2", "n_clicks"),
     Input("dataset2", "n_clicks"),
-    State("active_schema", "data"),
-    State("active_table", "data"),
+    State("active_source", "data"),
+    State("active_dataset", "data"),
     State("body_content", "children"),
     State("hidden_body","children"),
     prevent_initial_call=True
 )
-def body_sections(search, d_overview, dd_study, dd_data_block, _, __, search2, overview2, source2, dataset2, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
+def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, overview2, source2, dataset2, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -421,12 +483,13 @@ def body_sections(search, d_overview, dd_study, dd_data_block, _, __, search2, o
     '''
     trigger = dash.ctx.triggered_id
 
+    print("Debug body trigger", trigger, "schema", schema_change, "table", table_change)
     
+    if (schema_change == None or schema_change == "None") and trigger == "source_description_div" : raise PreventUpdate
     
-    if (schema_change == None or schema_change == "None") and trigger == "study_description_div" : raise PreventUpdate
-    print("CALLBACK: body sections, activating", trigger)
     if (table_change == None or table_change == "None") and trigger == "dataset_description_div" : raise PreventUpdate
-    if trigger == "active_schema" or trigger == "active_table":
+    print("CALLBACK: body sections, activating", trigger)
+    if trigger == "active_source" or trigger == "active_dataset":
         active_tab = active_body[0]["props"]["id"].replace("body_","").replace("dd_", "")
 
     sections_states = {}
@@ -447,9 +510,11 @@ def body_sections(search, d_overview, dd_study, dd_data_block, _, __, search2, o
             inactive.append(section)
     # Check: if no tabs are active, run search page
     if not a_tab_is_active:
-        return [sections_states["search"], struct.footer(app)],  [sections_states[s_id] for s_id in inactive]
+        print("branch 1")
+        return [sections_states["search"], struct.footer(app)],  [sections_states[s_id] for s_id in inactive], "search"
     else:
-        return [sections_states[s_id] for s_id in active] + [ struct.footer(app)], [sections_states[s_id] for s_id in inactive]
+        print("branch 2")
+        return [sections_states[s_id] for s_id in active] + [ struct.footer(app)], [sections_states[s_id] for s_id in inactive], active[0]
 
 @app.callback(
     Output("offcanvas_review", "is_open"),
@@ -497,7 +562,7 @@ def sidebar_collapse(_, state):
 
 
 @app.callback(
-    Output('active_schema','data'),
+    Output('active_source','data'),
     Input({"type": "source_title", "index": ALL}, 'n_clicks'),
     Input({"type": "main_search_source_links", "index": ALL}, 'n_clicks'),
     Input({"type": "source_links", "index": ALL}, 'n_clicks'),
@@ -506,7 +571,7 @@ def sidebar_collapse(_, state):
 def sidebar_schema(open_study_schema, links1, links2):
     '''
     When the active item in the accordion is changed
-    Read the active schema NOTE with new system, could make active_schema redundant
+    Read the active schema NOTE with new system, could make active_source redundant
     Read the previous schema
     Read the open schemas.
     '''
@@ -522,7 +587,7 @@ def sidebar_schema(open_study_schema, links1, links2):
 
 
 @app.callback(
-    Output('active_table','data'),
+    Output('active_dataset','data'),
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "search_metadata_table", "index": ALL}, "active_cell"),
@@ -577,7 +642,7 @@ def sidebar_table(tables, active_cell, data):
     State({'type': 'source_collapse', 'index': ALL}, 'id'),
     State({'type': 'source_collapse', 'index': ALL}, 'is_open'),
     State("shopping_basket", "data"),
-    State("active_table", "data"),
+    State("active_dataset", "data"),
     Input("include_type_checkbox", "value"),
     )
 def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type, screen_schemas, open_schemas, shopping_basket, table, include_type):

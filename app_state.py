@@ -15,7 +15,7 @@ class App_State():
             "overview":{
                 "active":False,
             },
-            "study":{
+            "source":{
                 "active":False,
             },
             "dataset":{

@@ -536,22 +536,27 @@ def make_study_box():
         ),
         html.Div([
             html.Div([
-                html.Div(["Its a description"], id = "study_description_div", className = "text_block"),
+                html.Div(["Its a description"], id = "source_description_div", className = "text_block"),
                 html.Div(["placeholder for summary table"], id = "study_summary", className = "container_div"),
             ], className = "container_line_50"),
             html.Div([
                 dcc.Tabs([
-                    dcc.Tab(label="Age Distribution", children =[
+                    dcc.Tab(label="Age Distribution", children = [
+                        dcc.Loading(children = [
                         html.Div(["placeholder for age table"], id = "source_age_graph", className = "container_div")
+                        ], type = "circle",)
                     ]),
                     dcc.Tab(label="Linkage Rates", children =[
+                        dcc.Loading(children = [
                         html.Div(["Placeholder for pie char"], id = "source_linkage_graph", className = "container_div")
+                        ], type = "circle",)
                     ]),
                     dcc.Tab(label="Coverage", children =[
                         #dbc.Tooltip(
                         #    "Coverage is deduced from NHS England linkage from a participant's most recent interaction with healthcare services. It does not reflect coverage at the time of collection. Information is only available for participants living in England.",
                         #    target="map_tooltip",
                         #),
+                        dcc.Loading(children = [
                         html.Div([
                             html.P("Coverage is deduced from NHS England linkage from participants' most recent interaction with healthcare services. It does not reflect coverage at the time of collection. Information is only available for participants living in England.", className = "small_text"),
                             #html.I(className = "bi bi-info-circle", id = "map_tooltip" ),
@@ -562,6 +567,7 @@ def make_study_box():
 
                             className = "tab_div"
                             )
+                        ], type = "circle",)
                     ])
                 ], className = "tab_parent"),
             ], className = "container_line_50" )
@@ -572,7 +578,7 @@ def make_study_box():
         ),
         html.Div([], id = "study_table_div"),
         ], 
-        id = "body_study", 
+        id = "body_source", 
         className = "body_box"
     )
     return study_box
@@ -968,7 +974,7 @@ def make_account_section():
             dbc.DropdownMenu(
                 label = html.P("Data", className = "nav_button",),
                 children = [
-                    dbc.DropdownMenuItem("Source", id = "dd_study"),
+                    dbc.DropdownMenuItem("Source", id = "dd_source"),
                     dbc.DropdownMenuItem("Dataset", id = "dd_dataset"),
                 ],
                 id="data_description_dropdown",
