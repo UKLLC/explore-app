@@ -182,6 +182,7 @@ approx 995/try all in
     Output("study_table_div", "children"), # list of datasets in source
     Output('source_row', "style"), # style, for hiding/showing body
     Input('active_source','data'),
+    prevent_initial_call = True
 
 )
 def update_schema_description(source):
@@ -221,7 +222,7 @@ def update_schema_description(source):
 @app.callback(
     Output('Map', "children"), 
     Input("current_tab", "data"),
-    State('active_source','data'),
+    Input('active_source','data'),
     prevent_initial_call=True
 )
 def update_schema_map(current_tab, source):
@@ -233,7 +234,7 @@ def update_schema_map(current_tab, source):
     trigger = dash.ctx.triggered_id
 
     print(" boxplot trigger {}".format(trigger))
-    if current_tab == "source" and source != None and source != "None": 
+    if source != None and source != "None": 
          ### map #####
         t0 = time.time()
         try:
@@ -257,7 +258,7 @@ def update_schema_map(current_tab, source):
 @app.callback(
     Output('source_linkage_graph', "children"), 
     Input("current_tab", "data"),
-    State('active_source','data'),
+    Input('active_source','data'),
     prevent_initial_call=True
 )
 def update_schema_pie(current_tab, source):
@@ -269,7 +270,7 @@ def update_schema_pie(current_tab, source):
     trigger = dash.ctx.triggered_id
 
     print(" pie trigger {}".format(trigger))
-    if current_tab == "source" and source != None and source != "None": 
+    if source != None and source != "None": 
 
         with connect() as cnxn:
             data = dataIO.load_cohort_linkage_groups(cnxn, source)
@@ -298,7 +299,7 @@ def update_schema_pie(current_tab, source):
 @app.callback(
     Output('source_age_graph', "children"), 
     Input("current_tab", "data"),
-    State('active_source','data'),
+    Input('active_source','data'),
     prevent_initial_call=True
 )
 def update_schema_boxplot(current_tab, source):
@@ -309,14 +310,24 @@ def update_schema_boxplot(current_tab, source):
     print("Updating schema boxplot, schema = '{}'".format(source))
     trigger = dash.ctx.triggered_id
 
+    '''
+    if trigger == "active_source" and current_tab != "source":
+        print("preventing update of boxplot")
+        raise PreventUpdate
+    '''
+        
+    if trigger == None:
+        return struct.error_p("Nothing")
+
     print(" boxplot trigger {}".format(trigger))
-    if current_tab == "source" and source != None and source != "None": 
+    if source != None and source != "None": 
 
         with connect() as cnxn:
             ages = dataIO.load_cohort_age(cnxn, source)
         ### boxplot #####
         if len(ages["mean"].values) > 0:
             try:
+                print("Confirm made boxplot")
                 boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
             except Exception as e:
                 print(e)
@@ -338,6 +349,7 @@ def update_schema_boxplot(current_tab, source):
     Output("dataset_title", "children"),
     Output("dataset_row" , "style"),
     Input('active_dataset', 'data'),
+    prevent_initial_update = True
 )
 def update_table_data(table_id):
     '''
@@ -463,9 +475,10 @@ def basket_review(shopping_basket):
     State("active_dataset", "data"),
     State("body_content", "children"),
     State("hidden_body","children"),
+    State("current_tab", "data"),
     prevent_initial_call=True
 )
-def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, overview2, source2, dataset2, schema_change, table_change, active_body, hidden_body):#, shopping_basket):
+def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, overview2, source2, dataset2, schema_change, table_change, active_body, hidden_body, current_state):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -486,7 +499,8 @@ def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, 
     print("Debug body trigger", trigger, "schema", schema_change, "table", table_change)
     
     if (schema_change == None or schema_change == "None") and trigger == "source_description_div" : raise PreventUpdate
-    
+    if trigger == "source_description_div" and current_state == "source": raise PreventUpdate
+
     if (table_change == None or table_change == "None") and trigger == "dataset_description_div" : raise PreventUpdate
     print("CALLBACK: body sections, activating", trigger)
     if trigger == "active_source" or trigger == "active_dataset":
@@ -591,7 +605,7 @@ def sidebar_schema(open_study_schema, links1, links2):
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "search_metadata_table", "index": ALL}, "active_cell"),
-   Input({"type": "search_metadata_table", "index": ALL}, "data"),
+    Input({"type": "search_metadata_table", "index": ALL}, "data"),
     prevent_initial_call = True
 )
 def sidebar_table(tables, active_cell, data):
@@ -639,13 +653,13 @@ def sidebar_table(tables, active_cell, data):
     Input("collection_age_slider", "value"),
     Input("collection_time_slider", "value"),
     Input("search_type_radio", "value"),
+    Input("include_type_checkbox", "value"),
     State({'type': 'source_collapse', 'index': ALL}, 'id'),
     State({'type': 'source_collapse', 'index': ALL}, 'is_open'),
     State("shopping_basket", "data"),
     State("active_dataset", "data"),
-    Input("include_type_checkbox", "value"),
     )
-def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type, screen_schemas, open_schemas, shopping_basket, table, include_type):
+def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type,include_type, screen_schemas, open_schemas, shopping_basket, table):
     '''
     When the search button is clicked
     read the main search content
@@ -668,6 +682,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     trigger = dash.ctx.triggered_id
 
     print("CALLBACK: main search, searching value: {}, trigger {}.".format(s, trigger))
+    print("include_type_checklist", include_type)
     #print("     DEBUG search: click {}, {}, {}, {}, {}, {}, {}".format(click, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider))
     # new version 03/1/24 (after a month off so you know its going to be good)
     '''
@@ -856,7 +871,8 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
 
     elif search_type.lower() == "variables": # variables
         if len(s) > 0 :
-            search = search + [
+            search = [{ "term": {"topic_tags": s}},
+                { "term": {"Themes": s}},
                 {"match" : {"variable_name" : s}},
                 {"match" : {"variable_description" : s}},
                 {"term" : {"value" : s}},
@@ -926,7 +942,8 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                                         "lte" : collection_times[time_slider[1]],
                                         "format" : "MM/YYYY"
                                     }
-                                }},
+                                }
+                            },
                     
                             ],
                         }
@@ -1118,86 +1135,15 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)
 
 
 '''
 
 ------------
-TODO roundup
-2. Map region shap files for geo regions 
-6. Add links to links
-7. Add searching by age & collection date 
-10. Add  short description to dataset table view
-12. add click links to dataset table view
-14. Narrow screen looksw awful. Build in some contingency css
-16. Git push & demo. Clean out files too big to push
-18. Re-run get all data
-19. Toggle on age graph to show age at collection rather than age now?
-20. Add keywords
+TODO
 
-------------------------------
-18/04/2024
-2. maps
-
-
-19/04/2024
-6. links
-10. short_desc
-16. git
-
-22/04/2024
-~~~ Get DB table names sorted for pipeline.
-7. age etc
-20. Keywords
-
-
-23/04/2024
-14. css
-18. data
-
-24/04/2024 deadline
-19. age toggle
-
-
-# Geo locations to get files for
-North East
-North West
-South East
-London
-South West
-West Midlands
-East of England
-East Midlands
-Yorkshire and The Humber
-
------------------------
-Post Larp work
-2. Add wales, scotland and NI to map 
-3. Search by age (waiting on Christian)
-4. Search by collection date. (waiting on Christian)
-5. Add icons nhsd & geo (name geo)
-6. Add short description to dataset table view
-7. add click links to dataset table view
-8. Narrow screen looksw awful. Build in some contingency css
-9. Toggle on age graph to show age at collection rather than age now?
-23. Get help filling out contact us
-24. Get help filling out FAQs
-25. Sunburst content gaps.
-26. Test searching and figure out why variable level seems not to be working
-27. Sunburst labels with actual participant count not weighted
-
-Tuesday 14th May
-hook up all of the buttons in the footer ----
-contact us (framework) ----
-20. Sunburst styling -----------
-21. Add loading signs to search ----------
-4. Ask Christian about dates  ----------
-Got a bunch of other stuff on, so best not to oversubscribe.
-~ style the search button
-
-default datasets only shows ALSPAC
-
+For search have a granularity filter - don't return variables on a DS level
 
 '''
 

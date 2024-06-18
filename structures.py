@@ -839,7 +839,6 @@ def make_body(sidebar, app, spine, themes):
             footer(app),
         ],
         id = "body_content"),
-       
 
     ], 
     id="body")
