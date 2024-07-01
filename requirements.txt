@@ -12,3 +12,4 @@ SQLAlchemy==v2.0.25
 dash-renderer==1.1.2
 elasticsearch==7.0.0
 urllib3==2.2.1
+psycopg2==2.9.9
