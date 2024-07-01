@@ -1,16 +1,20 @@
-import stylesheet as ss
+import base64, json
 
-labels = ["NHS England", "Geospatial", "None", "NHS England, Geospatial"]
+instrument_serialised_as_json = json.dumps({
+    "instrument_name": "Smoking behaviour",
+    "questions": [
+        {
+            "question_no": "1",
+            "question_text": "Do you currently smoke or have you ever smoked?"
+        },
+        {
+            "question_no": "2",
+            "question_text": "[Do you currently use] nicotine replacement therapy?"
+        }
+    ]
+})
+instrument_json_b64_encoded_bytes = base64.urlsafe_b64encode(instrument_serialised_as_json.encode('utf-8'))
+instrument_json_b64_encoded_str = instrument_json_b64_encoded_bytes.decode("utf-8")
 
-label_colours = {
-    "NHS England" : str(ss.cyan[0]),
-    "Geospatial" : str(ss.green[0]),
-    "None" : str(ss.peach[0]),
-    "NHS England, Geospatial": str(ss.lime[0]),
-    }
-print("debug 2")
-print([x for x in labels])
-
-print(label_colours["NHS England"])
-colours = [label_colours[x] for x in labels]
-print("debug: ",colours)
+url = f"https://harmonydata.ac.uk/app/#/import/{instrument_json_b64_encoded_str}"
+print ("DEBUG Harmony setup:\n", url)

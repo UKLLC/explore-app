@@ -1,6 +1,7 @@
 import json
 from webbrowser import get
 import sqlalchemy
+import psycopg2
 import pandas as pd
 import io
 from office365.runtime.auth.authentication_context import AuthenticationContext
@@ -18,8 +19,8 @@ def connect1():
     return(cnxn)
 def connect2():
     # need to swap password for local var
-    cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
-
+    #cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
+    cnxn = sqlalchemy.create_engine('postgresql+psycopg2://***REMOVED***')
     return(cnxn)
 
 def get_teams_doc(target, ctx):
@@ -352,9 +353,15 @@ def main():
     #all_variables = all_variables.fillna("")
     # source_id, dataset_id, source fullname, dataset fullname, dataset long desc, dataset age start, dataset age end, dataset collection start, dataset collection end, variable name, variable desc, value, value_label, source themes, dataset tags
     #merging values
+    print("Debug start")
+    print(all_variables, "\n")
     all_variables = all_variables.groupby(["source", "table", "variable_name", "variable_description"], as_index=False).agg(list)
-    all_variables["value"] = all_variables["value"].str.replace("[|]|'", "")
-    all_variables["value_label"] = all_variables["value_label"].str.replace("[|]|", "")
+    all_variables["value"] = all_variables["value"].fillna("")
+    all_variables["value"] = all_variables["value"].str.join(", ")
+    all_variables["value_label"] = all_variables["value_label"].fillna("")
+    all_variables["value_label"] = all_variables["value_label"].str.join(", ")
+    print(all_variables, "\n")
+    
     #get dataset full name, long desc, dataset topic tags
     search = pd.merge(all_variables, dataset_df[["source", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "Type"]], on  = ["source", "table"], how = "right")
     # Get age upper lowers
@@ -364,7 +371,7 @@ def main():
     search = pd.merge(search, source_df[["source", "source_name", "Aims", "Themes"]],  on  = ["source"], how = "left")
     search["Themes"] = search["Themes"].str.replace("\n", "")
     #search = search.fillna("")
-    search.to_sql("search", cnxn1, if_exists="replace")
+    #search.to_sql("search", cnxn1, if_exists="replace")
     search.to_sql("search", cnxn2, if_exists="replace")
 
 

@@ -23,13 +23,16 @@ import structures as struct
 import time
 
 
+
+
+
 ######################################################################################
 app = dash.Dash(__name__, external_stylesheets=["custom.css",  dbc.icons.BOOTSTRAP ])
 server = app.server
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine("mysql+pymysql://***REMOVED***").connect()
+        cnxn = sqlalchemy.create_engine('postgresql+psycopg2://***REMOVED***').connect()
         #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
@@ -182,7 +185,7 @@ approx 995/try all in
     Output("study_table_div", "children"), # list of datasets in source
     Output('source_row', "style"), # style, for hiding/showing body
     Input('active_source','data'),
-    prevent_initial_call = True
+    #prevent_initial_call = True
 
 )
 def update_schema_description(source):
