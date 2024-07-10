@@ -608,7 +608,7 @@ def sidebar_schema(open_study_schema, links1, links2):
     Output({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "table_tabs", "index": ALL}, 'value'),
     Input({"type": "search_metadata_table", "index": ALL}, "active_cell"),
-    Input({"type": "search_metadata_table", "index": ALL}, "data"),
+    State({"type": "search_metadata_table", "index": ALL}, "data"),
     prevent_initial_call = True
 )
 def sidebar_table(tables, active_cell, data):
@@ -619,14 +619,19 @@ def sidebar_table(tables, active_cell, data):
     Update the active table
     Update the activated table tabs (deactivate previously activated tabs)
     '''
-    if active_cell:
-        active_cell = active_cell[0]
+    #print(active_cell)
+    #print(data)
+    if active_cell and len(active_cell) > 1:
+        active_cell = active_cell[1]
+        #active_cell_i = active_cell[1]["row"]
+
         data = data[0]
     if tables == None:
         raise PreventUpdate
     print("\nCALLBACK: sidebar table click, trigger: {},".format(dash.ctx.triggered_id))
-    if active_cell:
+    if active_cell and len(active_cell) > 1:
        cell_click = data[active_cell["row"]]["Source"] + "-" + data[active_cell["row"]]["Dataset"]
+       print("debug cell click", cell_click)
        return cell_click, ["None" for t in tables]
        
     active = [t for t in tables if (t!= None and t!='None')]
@@ -647,6 +652,7 @@ def sidebar_table(tables, active_cell, data):
     Output("search_metadata_div", "children"),
     Output("search_text", "children"),
     Output("sidebar_filter", "children"),
+    Output("toggle_values", "style"),
     Input("search_button", "n_clicks"),
     Input("main_search", "n_submit"),
     State("main_search", "value"),
@@ -657,12 +663,13 @@ def sidebar_table(tables, active_cell, data):
     Input("collection_time_slider", "value"),
     Input("search_type_radio", "value"),
     Input("include_type_checkbox", "value"),
+    Input("toggle_values", "value"),
     State({'type': 'source_collapse', 'index': ALL}, 'id'),
     State({'type': 'source_collapse', 'index': ALL}, 'is_open'),
     State("shopping_basket", "data"),
     State("active_dataset", "data"),
     )
-def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type,include_type, screen_schemas, open_schemas, shopping_basket, table):
+def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_slider, time_slider, search_type,include_type, toggle_values, screen_schemas, open_schemas, shopping_basket, table):
     '''
     When the search button is clicked
     read the main search content
@@ -840,6 +847,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     else:
         sidebar_text = "Hiding {} datasets from search filters".format(len(spine) - len(sidebar_results))
 
+    toggle_values_style = {"display" : "none"}
 
     # only if searching by source
     if search_type.lower() == "sources":
@@ -873,13 +881,26 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             search_text = "No results"
 
     elif search_type.lower() == "variables": # variables
+        '''
+        TODO 02/07/2024
+        This is too slow. I think its the volume of values & desks. 
+        1. Test if this is the case. Measure search time & build time separately
+        2. Provided search time isn't the major issue, move to memory all_metadata and try to efficiently join return ids on that.
+        3. Store current returned response table in memory and immediately provided if the search terms have not changed
+            Likely requires storing the search terms as well as the table
+        ----
+        ok, suddenly its performing well. Suspicious... I'll keep my eye on you
+        but point remains, build time is approx .1-.2 seconds. Not great, but not terrible. We can live with that. Main thing is search.
+        '''
+
+
         if len(s) > 0 :
             search = [{ "term": {"topic_tags": s}},
                 { "term": {"Themes": s}},
                 {"match" : {"variable_name" : s}},
                 {"match" : {"variable_description" : s}},
-                {"term" : {"value" : s}},
-                {"match" : {"value_label" : s}},
+                #{"term" : {"value" : s}},
+                #{"match" : {"value_label" : s}},
             ]
             
         all_query2 = {
@@ -956,22 +977,39 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                 }
             }
         }
-        r2 = es.search(index="index_var", body=all_query2, size = 10000)
+        time0 = time.time()
+        r2 = es.search(index="index_var", body=all_query2, size = 1000)
+        search_time = time.time() - time0
+        time1 = time.time()
         search_results = []
-        for hit in r2["hits"]["hits"]:
-            search_results.append([hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["variable_name"], hit["_source"]["variable_description"], hit["_source"]["value"], hit["_source"]["value_label"]])
+        if "Show values" in toggle_values:
+            for hit in r2["hits"]["hits"]:
+                search_results.append([hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["variable_name"], hit["_source"]["variable_description"], hit["_source"]["value"], hit["_source"]["value_label"]])
+        else:
+            for hit in r2["hits"]["hits"]:
+                search_results.append([hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["variable_name"], hit["_source"]["variable_description"]])
+
         if len(search_results) != 0:
-            search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description", "Value", "Value Label"])
-            search_results_table = struct.make_table(search_results, "search_metadata_table", "dataset search")
+            if "Show values" in toggle_values: 
+                search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description", "Value", "Value Label"])
+            else:
+                search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description"])
+     
+            search_results_table = struct.make_table(search_results, "search_variable_table", "dataset search")
             search_len = len(search_results)
         
-            if len(search_results) >= 10000:
-                search_text = "Seach limited to 10000 variables"
+            if len(search_results) >= 1000:
+                search_text = "Seach limited to the first 1000 variables"
             else:    
                 search_text = "Showing {} variables".format(search_len)
         else:
             search_results_table = None
             search_text = "No results"
+        build_time = time.time() - time1
+
+        print("search time: {}\nbuild time: {}".format(round(search_time, 3), round(build_time, 3)))
+
+        toggle_values_style = {"display" : "flex"}
 
     else:
         search_results = "ERROR: 786, this shouldn't be reachable ", search_type 
@@ -982,7 +1020,8 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     else:
         sidebar_results_df = pd.DataFrame(data = {"source": [], "source_name" :[], "table": [], "table_name": [], "Type":[]})
 
-    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, collapse_state, table), search_results_table, search_text, sidebar_text
+    print(toggle_values_style)
+    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, collapse_state, table), search_results_table, search_text, sidebar_text, toggle_values_style
 
 
 

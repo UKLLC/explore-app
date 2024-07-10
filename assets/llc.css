@@ -1374,3 +1374,9 @@ h1 {padding-left: 1rem;}
   .hidden{
     display:none;
   }
+
+  #toggle_values{
+    display: none;
+    margin-left: 80%;
+    margin-right: 1%;
+  }

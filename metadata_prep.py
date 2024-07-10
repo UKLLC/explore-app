@@ -17,6 +17,9 @@ for schema in unique_schemas:
         table_df = df.loc[df["Block Name"] == table]
 
         # TODO write out to file
+        if not os.path.exists(os.path.join("metadata",schema)):
+            os.makedirs(os.path.join("metadata",schema))
+
         table_df.to_csv(os.path.join("metadata",schema,table+".csv"))
 
 

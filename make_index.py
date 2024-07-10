@@ -4,6 +4,7 @@ import pandas as pd
 import sqlalchemy
 import time
 from datetime import datetime
+import json
 
 from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import RequestError
@@ -12,7 +13,9 @@ from urllib.parse import urlparse
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        cnxn = sqlalchemy.create_engine('postgresql+psycopg2://***REMOVED***')
+
         return cnxn
 
     except Exception as e:
@@ -39,6 +42,7 @@ def main():
     cnxn = connect()
     data = pd.read_sql("SELECT * from search", cnxn)
     print(data.columns)
+    print(len(data))
 
     data["lf"] = data["lf"].fillna("0")
     data["uf"] = data["uf"].fillna("100")
@@ -58,19 +62,25 @@ def main():
 
 
     try:
-        spine2(data)
+        print("Running Spine")
+        spine(data)
     except RequestError as err:
         print("failed to write to spine", err)
-        pass
- 
+    
     try:
-        variable2(data)
+        print("Running var")
+        variable(data)
     except RequestError as err:
         print("failed to write to variable", err)
 
-        pass
+    print("Finished")
 
-def variable2(data):
+def variable(data):
+
+    with open("var_index_name.json", "r") as f:
+        previous_index_name = json.load(f)["name"]
+    print("Previous var name:\n",previous_index_name)
+
     mapping = {
         "mappings" : {
             "properties" : {
@@ -80,7 +90,7 @@ def variable2(data):
                 "table_name" : {"type" : "text"},
                 "variable_name" : {"type" : "keyword"},
                 "variable_description" : {"type" : "text"},
-                "value" : {"type" : "keyword"},
+                "value" : {"type" : "text"},
                 "value_label" : {"type" : "text"},
                 #"long_desc" : {"type" : "text"},
                 "topic_tags" : {"type" : "keyword"},
@@ -97,8 +107,10 @@ def variable2(data):
             }
         }
     }
+    index_name = "var_"+datetime.now().strftime("%Y%m%d_%H%M%S")
+
     es = searchbox_connect()
-    es.indices.create(index = "index_var", body = mapping)
+    es.indices.create(index = index_name, body = mapping)
     for doc in data.loc[~data["variable_name"].isna()].to_dict("records"):
         #doc["collection_duration"] = {"gte" : doc["collection_start"], "lte": doc["collection_end"]}
         #doc["age_range"] = {"gte" : doc["lf"], "lte": doc["uf"]}
@@ -106,67 +118,24 @@ def variable2(data):
             doc["topic_tags"] = doc["topic_tags"].split(",")
         if doc["Themes"]:
             doc["Themes"] = doc["Themes"].split(",")
-        es.index(index = "index_var", body = doc)
+        es.index(index = index_name, body = doc)
+    print("Writing to var alias")
+    es.indices.put_alias(index = index_name, name = "index_var")
+    
+    with open("var_index_name.json", "w") as f:
+        json.dump({"name":index_name}, f)
+
+    print("Deleting",previous_index_name)
+    es.indices.delete(index = previous_index_name)
 
 
-def variable(data):
-    time0 = time.time()
-    #define the search schema
-    schema1 = fields.Schema(
-        all = fields.ID(stored=True),
-        source_name = fields.TEXT(stored=True),
-        table = fields.ID(stored=True),
-        table_name = fields.TEXT(stored=True),
-        variable_name = fields.ID(stored=True),
-        variable_description = fields.TEXT(stored=True),
-        value = fields.KEYWORD(stored=True),
-        value_label = fields.KEYWORD(stored=True),
-        topic_tags = fields.KEYWORD(stored=True),
-        collection_start = fields.TEXT(stored=True),
-        collection_end = fields.TEXT(stored=True),
-        lf = fields.NUMERIC(stored=True),
-        uf = fields.NUMERIC(stored=True),
-        Themes = fields.KEYWORD(stored=True),
-        Type = fields.KEYWORD(stored=True)
-    )
-
-    # add dataframe rows to the index
-    if not os.path.exists("index_var"):
-        os.mkdir("index_var")
-
-    ix1 = create_in("index_var", schema1)
-    writer= ix1.writer()
-    for i, nrows in data.loc[~data["variable_name"].isna()].iterrows():
-        writer.add_document(
-            all = data["all"][i],
-            source = data.source[i],
-            source_name = data["source_name"][i],
-            table = data.table[i],
-            table_name = data.table_name[i],
-            variable_name = data.variable_name[i],
-            variable_description = data.variable_description[i],
-            value = data.value[i],
-            value_label = data.value_label[i],
-            long_desc = data.long_desc[i],
-            topic_tags = data.topic_tags[i],
-            collection_start = data.collection_start[i],
-            collection_end = data.collection_end[i],
-            lf = data.lf[i],
-            uf = data.uf[i],
-            Aims = data.Aims[i],
-            Themes = data.Themes[i],
-            Type = data.Type[i]
-        )
-    writer.commit()
-
-    storage = FileStorage("index_var")
-    time1 = time.time()
-
-    print("DURATION: {}mins".format(round((time1 - time0)/60, 3)))
-
-def spine2(data):
+def spine(data):
     es = searchbox_connect()
 
+    with open("spine_index_name.json", "r") as f:
+        previous_index_name = json.load(f)["name"]
+    print("Previous spine name:\n",previous_index_name)
+    
     mapping = {
         "mappings" : {
             "properties" : {
@@ -190,7 +159,9 @@ def spine2(data):
         }
     }
 
-    es.indices.create(index = "index_spine", body = mapping)
+
+    index_name = "spine_"+datetime.now().strftime("%Y%m%d_%H%M%S")
+    es.indices.create(index = index_name, body = mapping)
     spine = data[["source", "source_name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end",  "lf", "q2", "uf", "Aims", "Themes", "Type"]].drop_duplicates(subset = ["source", "table"])
     for doc in spine.to_dict("records"):
         #doc["collection_duration"] = {"gte" : doc["collection_start"], "lte": doc["collection_end"]}
@@ -200,55 +171,21 @@ def spine2(data):
         if doc["Themes"]:
             doc["Themes"] = doc["Themes"].split(",")
 
-        es.index(index = "index_spine", body = doc)
+        es.index(index = index_name, body = doc)
+    
+    print("Writing to spine alias")
+    es.indices.put_alias(index = index_name, name = "index_spine")
+    
+    with open("spine_index_name.json", "w") as f:
+        json.dump({"name":index_name}, f)
+
+    print("Deleting",previous_index_name)
+    es.indices.delete(index = previous_index_name)
+
+    
 
 
 
-
-def spine(data):
-    spine = data[["all", "source", "source_name", "table", "table_name", "long_desc", "topic_tags", "collection_start", "collection_end", "lf", "q2", "uf", "Aims", "Themes", "Type"]].drop_duplicates(subset = ["source", "table"])
-    #define the search schema
-    schema2 = fields.Schema(
-        all = fields.ID(stored=True),
-        source = fields.ID(stored=True),
-        source_name = fields.TEXT(stored=True),
-        table = fields.ID(stored=True),
-        table_name = fields.TEXT(stored=True),
-        long_desc = fields.TEXT(stored=True),
-        topic_tags = fields.KEYWORD(stored=True),
-        collection_start = fields.TEXT(stored=True),
-        collection_end = fields.TEXT(stored=True),
-        lf = fields.NUMERIC(stored=True),
-        uf = fields.NUMERIC(stored=True),
-        Aims = fields.TEXT(stored=True),
-        Themes = fields.KEYWORD(stored=True),
-        Type = fields.KEYWORD(stored=True)
-    )
-
-    # add dataframe rows to the index
-    if not os.path.exists("index_spine"):
-        os.mkdir("index_spine")
-
-    ix2 = create_in("index_spine", schema2)
-    writer= ix2.writer()
-    for i, nrows in spine.iterrows():
-        writer.add_document(
-            all = spine["all"][i],
-            source = spine.source[i],
-            source_name = spine["source_name"][i],
-            table = spine.table[i],
-            table_name = spine.table_name[i],
-            long_desc = spine.long_desc[i],
-            topic_tags = spine.topic_tags[i],
-            collection_start = spine.collection_start[i],
-            collection_end = spine.collection_end[i],
-            lf = spine.lf[i],
-            uf = spine.uf[i],
-            Aims = spine.Aims[i],
-            Themes = spine.Themes[i],
-            Type = spine["Type"][i]
-        )
-    writer.commit()
 
 if __name__ == "__main__":
     main()

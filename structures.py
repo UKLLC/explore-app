@@ -478,6 +478,9 @@ def make_search_box(df, themes):
                 children = [
                 html.Div([
                     html.Div([], id = "search_text"),
+                    html.Div(
+                        dcc.Checklist(["Show values"], ["Show values"], id = "toggle_values", className = "button"),
+                    ),
                     html.Div([], id = "search_metadata_div")
                 ],
                 className = "container_div"
