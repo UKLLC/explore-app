@@ -396,6 +396,13 @@ def main():
     geo.to_sql("metadata_geo_air_pollution", cnxn2, if_exists = 'replace', index = False)
 
 
+    ###
+    # Guidebook NHS info table
+
+    nhsd_info = pd.read_excel("Table_NHS_England_datasets_Guidebook.xlsx")
+    nhsd_info.to_sql("nhs_england_datasets_info", cnxn2, if_exists="replace")
+
+
 if __name__ == "__main__":
     main()
     

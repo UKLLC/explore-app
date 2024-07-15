@@ -745,9 +745,9 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             },
             { "match": {"table_name": s}},
             { "match": {"long_desc": s}},
-            { "term": {"topic_tags": s}},
+            { "match": {"topic_tags": s}},
             { "match": {"Aims": s}},
-            { "term": {"Themes": s}},
+            { "match": {"Themes": s}},
         ]
     else: 
         search = []
@@ -898,6 +898,14 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             search = [{ "term": {"topic_tags": s}},
                 { "term": {"Themes": s}},
                 {"match" : {"variable_name" : s}},
+                { "regexp": {"variable_name": 
+                        {"value" : ".*"+s+".*",
+                        "flags" : "ALL",
+                        "case_insensitive": "true",
+                        "max_determinized_states": 10000,
+                    }
+                } 
+            },
                 {"match" : {"variable_description" : s}},
                 #{"term" : {"value" : s}},
                 #{"match" : {"value_label" : s}},

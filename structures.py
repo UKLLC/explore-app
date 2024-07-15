@@ -580,6 +580,7 @@ def make_study_box():
         id = "source_row",
         ),
         html.Div([], id = "study_table_div"),
+        html.Div(text_block("Studies may have other data not currently available through Explore. These data could be made available pending negotiation with the study."))
         ], 
         id = "body_source", 
         className = "body_box"
