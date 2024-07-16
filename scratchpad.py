@@ -1,20 +1,49 @@
-import base64, json
+import time
+from elasticsearch import Elasticsearch
+from urllib.parse import urlparse
 
-instrument_serialised_as_json = json.dumps({
-    "instrument_name": "Smoking behaviour",
-    "questions": [
-        {
-            "question_no": "1",
-            "question_text": "Do you currently smoke or have you ever smoked?"
-        },
-        {
-            "question_no": "2",
-            "question_text": "[Do you currently use] nicotine replacement therapy?"
+def searchbox_connect():
+    
+    url = urlparse("https://paas:***REMOVED***")
+    ######## test
+    es = Elasticsearch(
+        ["https://paas:***REMOVED***"],
+        http_auth=(url.username, url.password),
+        scheme=url.scheme,
+        port=url.port,
+    )
+    return es
+
+
+if __name__ == "__main__":
+
+
+    all_query2 = {
+        "query": {
+            "bool" : {
+                "filter":[{
+                        "bool" : {
+                            "should" : [{"term" : { "source" : "ukhls"}}] 
+                        }
+                    },
+                    
+                ],
+                
+                
+
+                }
+            }
         }
-    ]
-})
-instrument_json_b64_encoded_bytes = base64.urlsafe_b64encode(instrument_serialised_as_json.encode('utf-8'))
-instrument_json_b64_encoded_str = instrument_json_b64_encoded_bytes.decode("utf-8")
 
-url = f"https://harmonydata.ac.uk/app/#/import/{instrument_json_b64_encoded_str}"
-print ("DEBUG Harmony setup:\n", url)
+    ######################################################################################
+    ### Data prep functions
+
+    es = searchbox_connect()
+
+    r2 = es.search(index="index_var", body=all_query2, size = 1000)
+    search_results = []
+    
+    for hit in r2["hits"]["hits"]:
+        search_results.append([hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["variable_name"], hit["_source"]["variable_description"]])
+
+    print(search_results)

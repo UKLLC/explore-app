@@ -916,7 +916,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             "bool" : {
                 "filter":[{
                         "bool" : {
-                            "should" : [{"term" : { "source" : source}} for source in include_dropdown] 
+                            "should" : [{"term" : { "source" : source.lower()}} for source in include_dropdown] 
                         }
                     },
                     {
