@@ -865,8 +865,8 @@ def make_hidden_items(hidden_items):
     )
     
 
-def make_app_layout(titlebar, body, account_section, variable_divs ):
-    app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),modal(), ] + variable_divs, id="app") 
+def make_app_layout(titlebar, body, account_section, variable_divs, location ):
+    app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),modal(), location, ] + variable_divs, id="app") 
     return app_layout
 
 def make_info_box(df):

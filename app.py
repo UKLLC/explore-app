@@ -13,10 +13,11 @@ from flask import request
 import sqlalchemy
 import sys
 from elasticsearch import Elasticsearch
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 import os
+import base64
 
-from app_state import App_State
+
 import dataIO
 import structures as struct
 
@@ -27,7 +28,15 @@ import time
 
 
 ######################################################################################
-app = dash.Dash(__name__, external_stylesheets=["custom.css",  dbc.icons.BOOTSTRAP ])
+app = dash.Dash(
+    __name__, 
+    external_stylesheets=["custom.css",  dbc.icons.BOOTSTRAP ],
+    routing_callback_inputs={
+        # The app state is serialised in the URL hash without refreshing the page
+        # This URL can be copied and then parsed on page load
+        "state": State("main-url", "hash"),
+    },
+    )
 server = app.server
 
 def connect():
@@ -90,7 +99,6 @@ themes.remove("")
 
 gj = dataIO.load_geojson()
 
-app_state = App_State()
 
 
 
@@ -150,7 +158,7 @@ hidden_body = struct.make_hidden_body(source_info, dataset_counts)
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, maindiv, account_section, [schema_record, table_record, current_tab, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder])
+app.layout = struct.make_app_layout(titlebar, maindiv, account_section, [schema_record, table_record, current_tab, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder], dcc.Location(id='url', refresh=False),)
 print("---------------------\nBuilt app layout\n----------------------")
 ###########################################
 ### Actions
@@ -186,7 +194,6 @@ approx 995/try all in
     Output('source_row', "style"), # style, for hiding/showing body
     Input('active_source','data'),
     #prevent_initial_call = True
-
 )
 def update_schema_description(source):
     '''
@@ -474,6 +481,7 @@ def basket_review(shopping_basket):
     Input("overview2", "n_clicks"),
     Input("source2", "n_clicks"),
     Input("dataset2", "n_clicks"),
+    Input('url', 'href'),
     State("active_source", "data"),
     State("active_dataset", "data"),
     State("body_content", "children"),
@@ -481,7 +489,7 @@ def basket_review(shopping_basket):
     State("current_tab", "data"),
     prevent_initial_call=True
 )
-def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, overview2, source2, dataset2, schema_change, table_change, active_body, hidden_body, current_state):#, shopping_basket):
+def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, overview2, source2, dataset2, href, schema_change, table_change, active_body, hidden_body, current_state):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -501,6 +509,24 @@ def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, 
 
     print("Debug body trigger", trigger, "schema", schema_change, "table", table_change)
     
+    if trigger=="url":
+        # Parse the URL and extract query parameters
+        parsed_url = urlparse(href)
+        params = parse_qs(parsed_url.query)
+        input_value = params.get('source', [''])
+        print(href)
+        print("DEBUG input val", input_value)
+        if len(input_value) > 0:
+            schema_change = input_value
+            trigger = "dd_source"
+            print("read source from url", input_value)
+        else:
+            print("No url, preventing update")
+            raise PreventUpdate
+        print("DEBUG in url branch of body sections")
+    
+
+    
     if (schema_change == None or schema_change == "None") and trigger == "source_description_div" : raise PreventUpdate
     if trigger == "source_description_div" and current_state == "source": raise PreventUpdate
 
@@ -516,10 +542,13 @@ def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, 
 
     #print(sections_states)
     a_tab_is_active = False
-    sections = app_state.sections
+    sections = ["search",
+            "overview",
+            "source",
+            "dataset"]
     active = []
     inactive = []
-    for section in sections.keys():
+    for section in sections:
         if section in trigger:
             active.append(section)
             a_tab_is_active = True
@@ -583,9 +612,10 @@ def sidebar_collapse(_, state):
     Input({"type": "source_title", "index": ALL}, 'n_clicks'),
     Input({"type": "main_search_source_links", "index": ALL}, 'n_clicks'),
     Input({"type": "source_links", "index": ALL}, 'n_clicks'),
+    Input('url', 'href'),
     prevent_initial_call = True
 )
-def sidebar_schema(open_study_schema, links1, links2):
+def sidebar_schema(open_study_schema, links1, links2, href):
     '''
     When the active item in the accordion is changed
     Read the active schema NOTE with new system, could make active_source redundant
@@ -593,14 +623,28 @@ def sidebar_schema(open_study_schema, links1, links2):
     Read the open schemas.
     '''
     trigger = dash.ctx.triggered_id
-    
-    real_triggers = [x for x in open_study_schema if (x and x>0)] + [x for x in links1 if (x and x>0)] +[x for x in links2 if (x and x>0)] 
-    if len(real_triggers) == 0 :
-        raise PreventUpdate
     print("CALLBACK: schema change, trigger: {}".format(trigger))# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
+    
+    
+    if trigger=="url":
 
-    open_study_schema = trigger["index"]
-    return open_study_schema
+        # Parse the URL and extract query parameters
+        parsed_url = urlparse(href)
+        params = parse_qs(parsed_url.query)
+        input_value = params.get('source', [''])[0]
+        if len(input_value) == 0:
+            print("preventing schema update")
+            raise PreventUpdate
+        return str(input_value)
+    else:
+    
+        real_triggers = [x for x in open_study_schema if (x and x>0)] + [x for x in links1 if (x and x>0)] +[x for x in links2 if (x and x>0)] 
+        if len(real_triggers) == 0 :
+            raise PreventUpdate
+
+        open_study_schema = trigger["index"]
+
+        return open_study_schema
 
 
 @app.callback(
@@ -1166,17 +1210,7 @@ def basket_autosave(_, sb):
         pickle.dump(sb, f)
 '''    
 
-@app.callback(
-    Output("sidebar-collapse", "is_open"),
-    [Input("sidebar-collapse-button", "n_clicks")],
-    [State("sidebar-collapse", "is_open")],
-    prevent_initial_call=True
-)
-def toggle_collapse(n, is_open):
-    print("CALLBACK: Toggling sidebar")
-    if n:
-        return not is_open
-    return is_open
+
 
 
 
@@ -1185,7 +1219,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''

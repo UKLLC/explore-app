@@ -393,6 +393,7 @@ def main():
     f1 = pd.read_csv("metadata\\geo\\air_pollution_hh.csv")
     f2 = pd.read_csv("metadata\\geo\\air_pollution_pc.csv")
     geo = pd.concat([f1, f2])
+    geo.to_sql("metadata_geo_air_pollution", cnxn1, if_exists = 'replace', index = False)
     geo.to_sql("metadata_geo_air_pollution", cnxn2, if_exists = 'replace', index = False)
 
 
@@ -400,6 +401,7 @@ def main():
     # Guidebook NHS info table
 
     nhsd_info = pd.read_excel("Table_NHS_England_datasets_Guidebook.xlsx")
+    nhsd_info.to_sql("nhs_england_datasets_info", cnxn1, if_exists="replace")
     nhsd_info.to_sql("nhs_england_datasets_info", cnxn2, if_exists="replace")
 
 
