@@ -42,7 +42,8 @@ server = app.server
 def connect():
     try:
         db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
-        cnxn = sqlalchemy.create_engine(db_str)
+        cnxn = sqlalchemy.create_engine(db_str).connect()
+        print("returning DB connection")
         return cnxn
 
     except Exception as e:
@@ -1219,7 +1220,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)
 
 
 '''
