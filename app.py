@@ -41,8 +41,8 @@ server = app.server
 
 def connect():
     try:
-        cnxn = sqlalchemy.create_engine('postgresql+psycopg2://***REMOVED***').connect()
-        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
+        cnxn = sqlalchemy.create_engine(db_str)
         return cnxn
 
     except Exception as e:
@@ -51,10 +51,10 @@ def connect():
     
 def searchbox_connect():
     
-    url = urlparse("https://paas:***REMOVED***")
+    url = urlparse(os.environ['SEARCHBOX_URL'])
     ######## test
     es = Elasticsearch(
-        ["https://paas:***REMOVED***"],
+        [os.environ['SEARCHBOX_URL']],
         http_auth=(url.username, url.password),
         scheme=url.scheme,
         port=url.port,

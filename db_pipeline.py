@@ -4,8 +4,7 @@ import sqlalchemy
 import psycopg2
 import pandas as pd
 import io
-from office365.runtime.auth.authentication_context import AuthenticationContext
-from office365.sharepoint.client_context import ClientContext
+
 from office365.sharepoint.files.file import File
 import os
 import re
@@ -15,12 +14,14 @@ import naming_functions as nf
 
 def connect1():
     # need to swap password for local var
-    cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc')
+    # This is my local. cha
+    cnxn = sqlalchemy.create_engine(os.environ['local_DATABASE_URL'])
     return(cnxn)
 def connect2():
     # need to swap password for local var
     #cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
-    cnxn = sqlalchemy.create_engine('postgresql+psycopg2://***REMOVED***')
+    db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
+    cnxn = sqlalchemy.create_engine(db_str)
     return(cnxn)
 
 def get_teams_doc(target, ctx):
@@ -169,6 +170,8 @@ def main():
     geo_locations = data["geo_locations"]
     nhs_dataset_linkage = data["group_cohorts"]
     nhs_dataset_extracts = data["groupby"]
+    nhsd_varcount = data["nhsd_varcount"]
+    nhsd_rowcounts = data["nhsd_rowcount"]
 
     block_counts_df = pd.DataFrame(block_counts.items(), columns = ["source", "dataset_count"] )
 
@@ -398,11 +401,14 @@ def main():
 
 
     ###
-    # Guidebook NHS info table
-
-    nhsd_info = pd.read_excel("Table_NHS_England_datasets_Guidebook.xlsx")
-    nhsd_info.to_sql("nhs_england_datasets_info", cnxn1, if_exists="replace")
-    nhsd_info.to_sql("nhs_england_datasets_info", cnxn2, if_exists="replace")
+    # NHS varcount & rowcount
+    # 
+    nhsd_metrics_row = []
+    for key, value in nhsd_varcount.items():
+        nhsd_metrics_row.append(key, value, nhsd_rowcounts[key])
+    nhsd_metrics_df = pd.DataFrame(nhsd_metrics_row, columns = ["dataset", "var_count", "row_count"])
+    nhsd_metrics_df.to_sql("nhsd_metrics", cnxn1, if_exists='replace', index = False)
+    nhsd_metrics_df.to_sql("nhsd_metrics", cnxn2, if_exists='replace', index = False)
 
 
 if __name__ == "__main__":
