@@ -518,7 +518,7 @@ def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, 
         input_value = params.get('source', [''])
         print(href)
         print("DEBUG input val", input_value)
-        if len(input_value) > 0:
+        if len(input_value) > 0 and input_value != "" and input_value != [""]:
             schema_change = input_value
             trigger = "dd_source"
             print("read source from url", input_value)
