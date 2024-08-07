@@ -405,7 +405,7 @@ def main():
     # 
     nhsd_metrics_row = []
     for key, value in nhsd_varcount.items():
-        nhsd_metrics_row.append(key, value, nhsd_rowcounts[key])
+        nhsd_metrics_row.append([key, value, nhsd_rowcounts[key]])
     nhsd_metrics_df = pd.DataFrame(nhsd_metrics_row, columns = ["dataset", "var_count", "row_count"])
     nhsd_metrics_df.to_sql("nhsd_metrics", cnxn1, if_exists='replace', index = False)
     nhsd_metrics_df.to_sql("nhsd_metrics", cnxn2, if_exists='replace', index = False)
