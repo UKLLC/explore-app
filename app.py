@@ -37,7 +37,7 @@ app = dash.Dash(
         "state": State("main-url", "hash"),
     },
     )
-app.title = "UKLLC Explore"
+app.title = "UK LLC Explore"
 server = app.server
 
 def connect():
