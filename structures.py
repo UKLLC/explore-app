@@ -62,6 +62,20 @@ def basket_review_table(df):
         )
     return table
 
+def always_available_table(df):
+    table = dash_table.DataTable(
+        id="always_available_table",
+        data=df.to_dict('records'),
+        #columns=[{"name": i, "id": i} for i in df.columns], 
+        page_size=25,
+        editable=False,
+        style_header=ss.TABLE_HEADER,
+        style_cell=ss.TABLE_CELL,
+        row_deletable=False,
+        selected_rows=[i for i in range(len(df))]
+        )
+    return table
+
 
 def main_titlebar(app, title_text):
     titlebar = html.Div([
@@ -735,7 +749,15 @@ def make_basket_review_offcanvas():
         [
         dbc.Button(html.I(className = "bi bi-x-lg", ), id = "offcanvas_close", n_clicks = 0),
         html.Div([
-            text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
+            text_block("Default datasets (automatically included):")
+        ],
+        id = "basket_review_always_selected_text"),
+        html.Div([
+            text_block("")
+        ],
+        id = "basket_review_always_selected"),
+        html.Div([
+            text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
         ],
         id = "basket_review_text_div"),
         html.Div([

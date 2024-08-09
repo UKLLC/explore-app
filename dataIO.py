@@ -143,6 +143,9 @@ def load_study_metadata(cnxn, table_id):
     
     return values_df
 
+def load_always_provisioned(cnxn):
+    df = pd.read_sql("SELECT * from always_provisioned", cnxn)
+    return df
 
 
 def basket_out(basket):

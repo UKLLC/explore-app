@@ -134,6 +134,20 @@ def get_formatted_name(df, col = "table"):
     else:
         return name
     
+def force_int(df):
+    new_list = []
+    for item in df["value"]:
+        try:
+            if int(float(item)) == float(item):
+                new_list.append(str(int(float(item))))
+            else:
+                new_list.append(item)
+        except Exception as err:
+            new_list.append(item)
+            
+    return new_list
+
+
 # linked ages 
 # geo_location
 # group_cohorts
@@ -360,6 +374,9 @@ def main():
     print(all_variables, "\n")
     all_variables = all_variables.groupby(["source", "table", "variable_name", "variable_description"], as_index=False).agg(list)
     all_variables["value"] = all_variables["value"].fillna("")
+    all_variables["value"] = all_variables.apply(force_int, axis = 1) 
+    print("Debug:")
+    print(all_variables["value"])
     all_variables["value"] = all_variables["value"].str.join(", ")
     all_variables["value_label"] = all_variables["value_label"].fillna("")
     all_variables["value_label"] = all_variables["value_label"].str.join(", ")

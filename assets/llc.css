@@ -1200,6 +1200,12 @@ h1 {padding-left: 1rem;}
 #basket_review_text_div{
     margin: .5rem;
 }
+#basket_review_always_selected{
+    margin: .5rem;
+}
+#basket_review_always_selected_text{
+    margin: .5rem;
+}
 .source_collapse_button{
     right: 0;
     width: calc(0.75rem + 0.5vw);
