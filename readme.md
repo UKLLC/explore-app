@@ -1,6 +1,7 @@
-Explore (Dash web application)
+# Explore (Dash web application)
 
 This is the UK LLC data discovery and data selection tool.
+
 Explore is a Dash web app built in Python. The app is designed as a template that can be populated by the contents of the ExploreDB. It is hosted on Heroku and deployed via Git. 
 The callbacks that drive the app's reactivity can be found in app.py and the page design templates can be found in structures.py
 
