@@ -10,31 +10,7 @@ from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import RequestError
 from urllib.parse import urlparse
 
-
-def connect():
-    try:
-        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
-        cnxn = sqlalchemy.create_engine('postgresql+psycopg2://***REMOVED***')
-
-        return cnxn
-
-    except Exception as e:
-        print("Connection to database failed, retrying.")
-        raise Exception("DB connection failed")
-
-def searchbox_connect():
-    
-    url = urlparse("https://paas:***REMOVED***")
-
-    print(url.username, url.password)
-    ######## test
-    es = Elasticsearch(
-        ["https://paas:***REMOVED***"],
-        http_auth=(url.username, url.password),
-        scheme=url.scheme,
-        port=url.port,
-    )
-    return es
+from app import connect, searchbox_connect
 
 def main():
     '''

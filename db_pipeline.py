@@ -18,8 +18,6 @@ def connect1():
     cnxn = sqlalchemy.create_engine(os.environ['local_DATABASE_URL'])
     return(cnxn)
 def connect2():
-    # need to swap password for local var
-    #cnxn = sqlalchemy.create_engine('mysql+pymysql://***REMOVED***')
     db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
     cnxn = sqlalchemy.create_engine(db_str)
     return(cnxn)

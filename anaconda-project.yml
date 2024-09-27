@@ -13,7 +13,6 @@ icon:
 description:
 commands: {}
 variables:
-  CLEARDB_DATABASE_URL: mysql+pymysql://***REMOVED***
 services: {}
 downloads: {}
 packages:
