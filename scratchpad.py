@@ -1,16 +1,20 @@
 import time
 from elasticsearch import Elasticsearch
 from urllib.parse import urlparse
+import os
 
 def searchbox_connect():
     
-    url = urlparse("https://paas:***REMOVED***")
+    url = urlparse(os.environ['SEARCHBOX_URL'])
     ######## test
     es = Elasticsearch(
-        ["https://paas:***REMOVED***"],
-        http_auth=(url.username, url.password),
-        scheme=url.scheme,
-        port=url.port,
+            [os.environ['SEARCHBOX_URL']],
+            http_auth=(url.username, url.password),
+            scheme=url.scheme,
+            port=url.port,
+        
+        
+        
     )
     return es
 
