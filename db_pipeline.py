@@ -12,11 +12,11 @@ from datetime import datetime
 import naming_functions as nf
 
 
-def connect1():
-    # need to swap password for local var
-    # This is my local. cha
-    cnxn = sqlalchemy.create_engine(os.environ['local_DATABASE_URL'])
-    return(cnxn)
+# def connect1():
+#     # need to swap password for local var
+#     # This is my local. cha
+#     cnxn = sqlalchemy.create_engine(os.environ['local_DATABASE_URL'])
+#     return(cnxn)
 def connect2():
     db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
     cnxn = sqlalchemy.create_engine(db_str)
@@ -151,7 +151,7 @@ def force_int(df):
 # group_cohorts
 
 def main():
-    cnxn1 = connect1()
+    #cnxn1 = connect1()
     cnxn2 = connect2()
     # Get file 2 doc core metadata
     '''
@@ -190,7 +190,7 @@ def main():
     ###
 
     study_participants_df = pd.DataFrame(study_participants.items(), columns = ["source", "participant_count"] )
-    study_participants_df.to_sql("study_participants", cnxn1, if_exists="replace")
+    #study_participants_df.to_sql("study_participants", cnxn1, if_exists="replace")
     study_participants_df.to_sql("study_participants", cnxn2, if_exists="replace")
 
     ###
@@ -208,7 +208,7 @@ def main():
         rows.append([schema, table, block_ages[block]["mean"], block_ages[block]["q1"], block_ages[block]["q2"], block_ages[block]["q3"], block_ages[block]["lf"], block_ages[block]["uf"]])
 
     block_ages_df = pd.DataFrame(rows, columns = ["source", "table_name", "mean", "q1", "q2", "q3", "lf", "uf"])
-    block_ages_df.to_sql("dataset_ages", cnxn1, if_exists="replace")
+    #block_ages_df.to_sql("dataset_ages", cnxn1, if_exists="replace")
     block_ages_df.to_sql("dataset_ages", cnxn2, if_exists="replace")
 
     ###
@@ -228,7 +228,7 @@ def main():
             cohort_linkage_groups_by_group_rows.append([cohort, key, item, group_counts[key]])
     cohort_linkage_df = pd.DataFrame(cohort_linkage_groups_rows, columns = ["cohort",  "total"]).rename(columns={"cohort":"source"})
     cohort_linkage_by_group = pd.DataFrame(cohort_linkage_groups_by_group_rows, columns = ["cohort", "group", "perc", "count"])
-    cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn1, if_exists="replace")
+    #cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn1, if_exists="replace")
     cohort_linkage_by_group.to_sql("cohort_linkage_by_group", cnxn2, if_exists="replace")
 
     ###
@@ -250,7 +250,7 @@ def main():
 
     block_linkage_df = pd.DataFrame(blocks_linkage_rows, columns = ["source", "table_name",  "total"]).rename(columns={"table_name":"table"})
     block_linkage_by_group = pd.DataFrame(blocks_linkage_by_group_rows, columns = ["source", "table_name", "group", "perc", "count"])
-    block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn1, if_exists="replace")
+    #block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn1, if_exists="replace")
     block_linkage_by_group.to_sql("dataset_linkage_by_group", cnxn2, if_exists="replace")
     
     ###    
@@ -264,7 +264,7 @@ def main():
             cohort_rows.append([ds, linked_ages[ds]["mean"], linked_ages[ds]["q1"], linked_ages[ds]["q2"], linked_ages[ds]["q3"], linked_ages[ds]["lf"], linked_ages[ds]["uf"]])
     linked_ages_df = pd.DataFrame(linked_rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
     linked_ages_df["source_stem"] = linked_ages_df.apply(nf.get_naming_parts, axis =1, args=("source",))
-    linked_ages_df.to_sql("linked_ages", cnxn1, if_exists="replace")
+    #linked_ages_df.to_sql("linked_ages", cnxn1, if_exists="replace")
     linked_ages_df.to_sql("linked_ages", cnxn2, if_exists="replace")
 
     
@@ -272,7 +272,7 @@ def main():
         cohort_rows.append([cohort, cohort_ages[cohort]["mean"], cohort_ages[cohort]["q1"], cohort_ages[cohort]["q2"], cohort_ages[cohort]["q3"], cohort_ages[cohort]["lf"], cohort_ages[cohort]["uf"]])
 
     cohort_ages_df = pd.DataFrame(cohort_rows, columns = ["source", "mean", "q1", "q2", "q3", "lf", "uf"])
-    cohort_ages_df.to_sql("cohort_ages", cnxn1, if_exists="replace")
+    #cohort_ages_df.to_sql("cohort_ages", cnxn1, if_exists="replace")
     cohort_ages_df.to_sql("cohort_ages", cnxn2, if_exists="replace")
    
 
@@ -287,7 +287,7 @@ def main():
     # This is a hack to get versioned name onto nhsd_dataset_linkage_df2
     linked_ages_df = linked_ages_df.rename(columns = {"source_stem" : "dataset_stem", "source":"dataset"})
     nhsd_dataset_linkage_df2 = pd.merge(nhsd_dataset_linkage_df[["dataset_stem", "cohort", "count"]], linked_ages_df[["dataset", "dataset_stem"]], how = "left", on = ["dataset_stem"])
-    nhsd_dataset_linkage_df2.to_sql("nhs_dataset_cohort_linkage", cnxn1, if_exists="replace")
+    #nhsd_dataset_linkage_df2.to_sql("nhs_dataset_cohort_linkage", cnxn1, if_exists="replace")
     nhsd_dataset_linkage_df2.to_sql("nhs_dataset_cohort_linkage", cnxn2, if_exists="replace")
 
     ###
@@ -298,7 +298,7 @@ def main():
             if type(i["extract_date"]) == str:
                 nhs_dataset_extract_rows.append([dataset,i["extract_date"], i["count"]])
     nhsd_dataset_extract_df = pd.DataFrame(nhs_dataset_extract_rows, columns = ["dataset", "date", "count"])
-    nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn1, if_exists="replace")
+    #nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn1, if_exists="replace")
     nhsd_dataset_extract_df.to_sql("nhs_dataset_extracts", cnxn2, if_exists="replace")
     
     ###
@@ -319,7 +319,7 @@ def main():
     geo_locations_trimmed = nf.select_latest_date(geo_locations_trimmed, "source" )
     geo_locations_df["latest"] = geo_locations_df["source"].isin(geo_locations_trimmed["source"])
     '''
-    geo_locations_df.to_sql("geo_locations", cnxn1, if_exists="replace")
+    #geo_locations_df.to_sql("geo_locations", cnxn1, if_exists="replace")
     geo_locations_df.to_sql("geo_locations", cnxn2, if_exists="replace")
 
 
@@ -338,7 +338,7 @@ def main():
     source_df["Themes"] = source_df["Themes"].str.replace(", ", ",")
     source_df["Themes"] = source_df["Themes"].str.replace(u'\xa0', u'')
     source_df["Themes"] = source_df["Themes"].str.strip()
-    source_df.to_sql("source_info", cnxn1, if_exists="replace")
+    #source_df.to_sql("source_info", cnxn1, if_exists="replace")
     source_df.to_sql("source_info", cnxn2, if_exists="replace")
 
     ###
@@ -359,7 +359,7 @@ def main():
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(" ,", ",")
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(", ", ",")
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.strip()
-    dataset_df.to_sql("dataset", cnxn1, if_exists="replace")
+    #dataset_df.to_sql("dataset", cnxn1, if_exists="replace")
     dataset_df.to_sql("dataset", cnxn2, if_exists="replace")
 
     ###
@@ -405,13 +405,13 @@ def main():
             if "all_metadata.csv" in name:
                 continue
             tab_name = "metadata_"+root.split('\\')[1].lower() + '_' + name.split('.')[0].lower()
-            data.to_sql(tab_name, cnxn1, if_exists = 'replace', index = False)
+            #data.to_sql(tab_name, cnxn1, if_exists = 'replace', index = False)
             data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = False)
     # geo special
     f1 = pd.read_csv("metadata\\geo\\air_pollution_hh.csv")
     f2 = pd.read_csv("metadata\\geo\\air_pollution_pc.csv")
     geo = pd.concat([f1, f2])
-    geo.to_sql("metadata_geo_air_pollution", cnxn1, if_exists = 'replace', index = False)
+    #geo.to_sql("metadata_geo_air_pollution", cnxn1, if_exists = 'replace', index = False)
     geo.to_sql("metadata_geo_air_pollution", cnxn2, if_exists = 'replace', index = False)
 
 
@@ -422,7 +422,7 @@ def main():
     for key, value in nhsd_varcount.items():
         nhsd_metrics_row.append([key, value, nhsd_rowcounts[key]])
     nhsd_metrics_df = pd.DataFrame(nhsd_metrics_row, columns = ["dataset", "var_count", "row_count"])
-    nhsd_metrics_df.to_sql("nhsd_metrics", cnxn1, if_exists='replace', index = False)
+    #nhsd_metrics_df.to_sql("nhsd_metrics", cnxn1, if_exists='replace', index = False)
     nhsd_metrics_df.to_sql("nhsd_metrics", cnxn2, if_exists='replace', index = False)
 
 
