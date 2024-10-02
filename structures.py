@@ -100,11 +100,11 @@ def main_titlebar(app, title_text):
 def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = "None"):
     sidebar_children = []
     # Get data sources
-    sources = blocks_df["source"].drop_duplicates()
+    sources = blocks_df["source"].drop_duplicates().sort_values()
     # Attribute tables to each study
     for schema in sources:
         source_name = blocks_df.loc[blocks_df["source"] == schema]["source_name"].values[0]
-        tables = blocks_df.loc[blocks_df["source"] == schema]["table"]
+        tables = blocks_df.loc[blocks_df["source"] == schema]["table"].sort_values()
         table_names = blocks_df.loc[blocks_df["source"] == schema]["table_name"]
         table_type = blocks_df.loc[blocks_df["source"] == schema]["Type"].values[0]
 
@@ -1246,7 +1246,9 @@ def footer(app):
                     html.Br(),
                     dbc.Button("FAQs", className = "footer_button", id = "FAQ_button"),
                     html.Br(),
-                    html.A(href="https://www.youtube.com/@ukllcollab", children = ["Youtube guides"], className = "footer_button")
+                    html.A(href="https://www.youtube.com/@ukllcollab", target="_blank", children = ["Youtube guides"], className = "footer_button"),
+                    html.Br(),
+                    html.A(href="https://github.com/UKLLC/licencing", target="_blank", children = ["Licencing"], className = "footer_button")
                 ],
                 className = "footer_col",
                 id = "help_col"
