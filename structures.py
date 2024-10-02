@@ -104,7 +104,7 @@ def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = 
     # Attribute tables to each study
     for schema in sources:
         source_name = blocks_df.loc[blocks_df["source"] == schema]["source_name"].values[0]
-        tables = blocks_df.loc[blocks_df["source"] == schema]["table"].sort_values()
+        tables = blocks_df.loc[blocks_df["source"] == schema]["table"].sort_values(key=lambda col: col.str.lower())
         table_names = blocks_df.loc[blocks_df["source"] == schema]["table_name"]
         table_type = blocks_df.loc[blocks_df["source"] == schema]["Type"].values[0]
 
