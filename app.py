@@ -1222,7 +1222,20 @@ def basket_autosave(_, sb):
         pickle.dump(sb, f)
 '''    
 
+# google analytics:
+app.html_layout = """<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6G5RKPQ2F"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-T6G5RKPQ2F');
+    </script>
+</head>"""
 
 
 
