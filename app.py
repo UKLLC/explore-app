@@ -419,8 +419,11 @@ def update_table_data(table_id):
             boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
-        
-        return long_desc, struct.make_block_description(blocks), pie, boxplot, struct.make_table(metadata_df, "block_metadata_table","dataset_info_table"),  title_text1, title_text2, {"display": "flex"}
+        harmony_link = struct.create_harmony_link(metadata_df, title_text1 + " / " + title_text2 + " (imported from UKLLC)")
+        block_description = struct.make_block_description(blocks, harmony_link)
+
+
+        return long_desc, block_description, pie, boxplot, struct.make_table(metadata_df, "block_metadata_table","dataset_info_table"),  title_text1, title_text2, {"display": "flex"}
     else:
         dataset_table = datasets_df[["source", "table", "short_desc"]].rename(columns = {"source":"Source", "table":"Dataset", "short_desc":"Description"})
         search_results_table = struct.make_table(dataset_table, "search_metadata_table", "none_selected")

@@ -891,7 +891,7 @@ def make_app_layout(titlebar, body, account_section, variable_divs, location ):
     app_layout =  html.Div([titlebar, body, account_section, make_modal_background(), make_basket_review_offcanvas(),modal(), location, ] + variable_divs, id="app") 
     return app_layout
 
-def make_info_box(df):
+def make_info_box(df, harmony_link=None):
     out_text = []
     for col in df.columns:
         #row
@@ -921,6 +921,31 @@ def make_info_box(df):
             ])
             [{'id': x, 'name': x, 'presentation': 'markdown'} if x == 'Link(s)' else {'id': x, 'name': x} for x in df.columns],
         out_text.append(row)
+
+    if harmony_link is not None:
+        row = html.Div([
+            # First column
+            html.Div([
+                html.B("Harmonise this dataset")
+            ], className = "info_box_left"),
+
+            # Second column
+            html.Div([
+                html.A([html.Img(src="/assets/logos/harmony.svg", alt="Harmony", width="1.2em", height="1.287em",
+                                 style={"height": "1.2em", "width": "1.287em", "padding-top": "0px",
+                                        "padding-bottom": "0px", "padding-left": "0px", "padding-right": "0px",
+                                        "margin-top": "0px", "margin-bottom": "0px", "margin-left": "0px",
+                                        "margin-right": "0px", "border-top": "0px", "border-bottom": "0px",
+                                        "border-left": "0px", "border-right": "0px", "border": "0px",
+                                        "box-sizing": "0px"}), " "], href=harmony_link, target="harmony",
+                       style={"vertical-align": "top", "margin-top": "0px", "text-decoration": "none"}),
+                html.A([html.Span("Import into Harmony", style={"vertical-align": "top", "margin-top": "0px"})],
+                       href=harmony_link, target="harmony", style={"vertical-align": "top", "margin-top": "0px"})
+            ], className = "info_box_right", style={"vertical-align": "top", "margin-top":"0px"})
+        ])
+        [{'id': x, 'name': x, 'presentation': 'markdown'} if x == 'Link(s)' else {'id': x, 'name': x} for x in df.columns],
+        out_text.append(row)
+
     return html.Div(out_text)
 
 def make_schema_description(schemas):
@@ -930,7 +955,7 @@ def make_schema_description(schemas):
     schemas["Participant count"] = schemas["Participant count"].astype(int)
     return make_info_box(schemas)
 
-def make_block_description(blocks):
+def make_block_description(blocks, harmony_link=None):
     # Make the study tab variables
     blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
     blocks["Participants Included"] = blocks["Participants Included"].astype(int)
@@ -939,7 +964,8 @@ def make_block_description(blocks):
     blocks = blocks.drop(columns = ["Collection Start", "Collection End"])
     print("DEUBG:", blocks.columns)
     blocks = blocks.fillna( "Not currently available" )
-    return make_info_box(blocks)
+
+    return make_info_box(blocks, harmony_link=harmony_link)
 
 def make_blocks_table(df):
     df = df[constants.BLOCK_TABLE_VARS.keys()].rename(columns = constants.BLOCK_TABLE_VARS)
@@ -1373,3 +1399,43 @@ def text_block(txt):
 
 def error_p(txt):
     return html.P(txt, className = "error_p")
+
+
+
+def create_harmony_link(metadata_df: pd.DataFrame, instrument_title: str):
+    import base64, json
+
+    unique_descriptions = metadata_df['Variable Description'].dropna().unique()
+    unique_names = metadata_df['Variable Name'].dropna().unique()
+    total_description_length_in_chars = len(unique_descriptions.sum())
+    total_name_length_in_chars = len(unique_names.sum())
+
+    if total_description_length_in_chars > total_name_length_in_chars:
+        column_name = 'Variable Description'
+    else:
+        column_name = 'Variable Name'
+    questions_dicts = []
+    for question_string, subset in metadata_df.groupby(column_name)[["Value Description", "Value"]]:
+        response_options = list(subset["Value Description"].dropna().apply(lambda x: str(x)))
+        if len(response_options) == 0:
+            response_options = list(subset["Value"].dropna().apply(lambda x: str(x)))
+        questions_dicts.append(
+            {
+                "question_no": f"{len(questions_dicts) + 1}",
+                "question_text": question_string,
+                "options": response_options
+            }
+        )
+        if len(questions_dicts) > 99:
+            break
+    instrument_as_dict = {
+        "instrument_name": instrument_title,
+        "questions": questions_dicts
+    }
+    instrument_serialised_as_json = json.dumps(instrument_as_dict)
+    instrument_json_b64_encoded_bytes = base64.urlsafe_b64encode(instrument_serialised_as_json.encode('utf-8'))
+    instrument_json_b64_encoded_str = instrument_json_b64_encoded_bytes.decode("utf-8")
+
+    url = f"https://harmonydata.ac.uk/app/#/import/{instrument_json_b64_encoded_str}"
+
+    return url
