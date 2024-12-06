@@ -964,6 +964,9 @@ def make_block_description(blocks, harmony_link=None):
     blocks = blocks.drop(columns = ["Collection Start", "Collection End"])
     print("DEUBG:", blocks.columns)
     blocks = blocks.fillna( "Not currently available" )
+    # if no restrictions on dataset then remove
+    if blocks["Restrictions on use"].iloc[0] == "Not currently available":
+        blocks = blocks.drop(columns="Restrictions on use")
 
     return make_info_box(blocks, harmony_link=harmony_link)
 
