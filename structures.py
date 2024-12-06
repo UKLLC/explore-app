@@ -926,7 +926,7 @@ def make_info_box(df, harmony_link=None):
         row = html.Div([
             # First column
             html.Div([
-                html.B("Harmonise this dataset")
+                html.B("Harmonise metadata:")
             ], className = "info_box_left"),
 
             # Second column
@@ -937,7 +937,8 @@ def make_info_box(df, harmony_link=None):
                                         "margin-top": "0px", "margin-bottom": "0px", "margin-left": "0px",
                                         "margin-right": "0px", "border-top": "0px", "border-bottom": "0px",
                                         "border-left": "0px", "border-right": "0px", "border": "0px",
-                                        "box-sizing": "0px"}), " "], href=harmony_link, target="harmony",
+                                        "box-sizing": "0px"                                  
+                                        }), " "], href=harmony_link, target="harmony",
                        style={"vertical-align": "top", "margin-top": "0px", "text-decoration": "none"}),
                 html.A([html.Span("Import into Harmony", style={"vertical-align": "top", "margin-top": "0px"})],
                        href=harmony_link, target="harmony", style={"vertical-align": "top", "margin-top": "0px"})

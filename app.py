@@ -39,6 +39,8 @@ app = dash.Dash(
     )
 app.title = "UK LLC Explore"
 server = app.server
+app._favicon = ("assets/favicon.ico")
+
 
 def connect():
     try:
