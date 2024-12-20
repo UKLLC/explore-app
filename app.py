@@ -41,6 +41,20 @@ app.title = "UK LLC Explore"
 server = app.server
 app._favicon = ("assets/favicon.ico")
 
+# google analytics:
+app.index_string = """<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6G5RKPQ2F"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T6G5RKPQ2F');
+    </script>
+</head>"""
 
 def connect():
     try:
@@ -78,6 +92,7 @@ es = searchbox_connect()
 with connect() as cnxn:
     # Load block info
     datasets_df = dataIO.load_datasets(cnxn)
+
     dataset_counts = datasets_df[["source", "table", "participant_count", "weighted_participant_count", "Type"]]
 
     source_info = dataIO.load_source_info(cnxn)
@@ -1225,21 +1240,6 @@ def basket_autosave(_, sb):
     with open(os.path.join(path, "SB"), 'wb') as f:
         pickle.dump(sb, f)
 '''    
-
-# google analytics:
-app.html_layout = """<!DOCTYPE html>
-<html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6G5RKPQ2F"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-T6G5RKPQ2F');
-    </script>
-</head>"""
 
 
 

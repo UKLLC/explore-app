@@ -4,7 +4,8 @@ import os
 
 
 def load_datasets(cnxn):
-    return pd.read_sql("SELECT * from dataset", cnxn)
+    df = pd.read_sql("SELECT * from dataset", cnxn)
+    return df
 
 def load_geojson():
     with open(os.path.join("assets","map overlays","regions.geojson"), 'r') as f:
