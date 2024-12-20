@@ -1018,19 +1018,20 @@ def make_account_section():
         html.Div([
             #dbc.Button("About", className='nav_button', id = "about"),
             dbc.DropdownMenu(
-                label = html.P("Explore", className = "nav_button",),
+                label = html.P("Apply", className = "nav_button",),
                 children = [
-                    dbc.DropdownMenuItem("Search", id = "search"),
+                    dbc.DropdownMenuItem("Data access", href="https://apply.ukllc.ac.uk/", id = "apply"),
                     #dbc.DropdownMenuItem("Data Overview", id = "d_overview"),
                 ],
-                id="explore_dropdown",
+                id="apply_dropdown",
                 className = "nav_button",
             ),   
             dbc.DropdownMenu(
                 label = html.P("Data", className = "nav_button",),
                 children = [
-                    dbc.DropdownMenuItem("Source", id = "dd_source"),
-                    dbc.DropdownMenuItem("Dataset", id = "dd_dataset"),
+                    dbc.DropdownMenuItem("Sources", id = "dd_source"),
+                    dbc.DropdownMenuItem("Datasets", id = "dd_dataset"),
+                    dbc.DropdownMenuItem("Search", id = "search"),
                 ],
                 id="data_description_dropdown",
                 className = "nav_button",
@@ -1136,7 +1137,7 @@ def boxplot(mean, median, q1, q3, lf, uf):
     
     return dcc.Graph(figure = fig, className = "tab_div")
 
-def sunburst(source_counts, dataset_counts):
+''' def sunburst(source_counts, dataset_counts):
     dataset_counts = dataset_counts.fillna(0)
     dataset_counts["weighted_participant_count"] = dataset_counts["weighted_participant_count"].fillna(0)
     dataset_counts["participant_count"] = dataset_counts["participant_count"].fillna(0)
@@ -1174,7 +1175,7 @@ def sunburst(source_counts, dataset_counts):
             layout = layout
     )
     return dcc.Graph(figure = fig, className = "sunburst")
-    '''
+    
     dataset_counts["weighted_participant_count"] = dataset_counts["weighted_participant_count"].fillna(0)
     dataset_counts["participant_count"] = dataset_counts["participant_count"].fillna(0)
     source_counts["participant_count"] = source_counts["participant_count"].fillna(0)
