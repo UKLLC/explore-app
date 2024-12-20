@@ -484,13 +484,13 @@ def basket_review(shopping_basket):
     Output("current_tab", "data"),
     #Input("about", "n_clicks"),
     Input("search", "n_clicks"),
-    Input("d_overview", "n_clicks"),
+    #Input("d_overview", "n_clicks"),
     Input("dd_source", "n_clicks"),
     Input("dd_dataset", "n_clicks"),
     Input('source_description_div', "children"), # When the dataset page is updated (means active source has changed and pages have updated)
     Input('dataset_description_div', "children"), # When the dataset page is updated (means active table has changed and pages have updated)
     Input("search2", "n_clicks"),
-    Input("overview2", "n_clicks"),
+    #Input("overview2", "n_clicks"),
     Input("source2", "n_clicks"),
     Input("dataset2", "n_clicks"),
     Input('url', 'href'),
@@ -501,7 +501,7 @@ def basket_review(shopping_basket):
     State("current_tab", "data"),
     prevent_initial_call=True
 )
-def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, overview2, source2, dataset2, href, schema_change, table_change, active_body, hidden_body, current_state):#, shopping_basket):
+def body_sections(search, dd_source, dd_data_block, _, __, search2, source2, dataset2, href, schema_change, table_change, active_body, hidden_body, current_state):#, shopping_basket):
     '''
     When the tab changes
     Read the current body
@@ -555,7 +555,6 @@ def body_sections(search, d_overview, dd_source, dd_data_block, _, __, search2, 
     #print(sections_states)
     a_tab_is_active = False
     sections = ["search",
-            "overview",
             "source",
             "dataset"]
     active = []

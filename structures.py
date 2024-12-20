@@ -516,7 +516,7 @@ def make_search_box(df, themes):
     return doc_box
 
 
-def make_d_overview_box(source_counts, dataset_counts):
+""" def make_d_overview_box(source_counts, dataset_counts):
     d_overview_box = html.Div([
         html.Div([
             html.H1("Overview"),
@@ -537,7 +537,7 @@ def make_d_overview_box(source_counts, dataset_counts):
     id = "body_overview", 
     className = "body_box"
     )
-    return d_overview_box
+    return d_overview_box """
 
 
 def make_study_box():
@@ -986,7 +986,7 @@ def make_metadata_table(df):
 
 def make_hidden_body(source_counts, dataset_counts):
     body = html.Div([
-            make_d_overview_box(source_counts, dataset_counts),
+            #make_d_overview_box(source_counts, dataset_counts),
             make_study_box(),
             make_block_box(),
             
@@ -1021,7 +1021,7 @@ def make_account_section():
                 label = html.P("Explore", className = "nav_button",),
                 children = [
                     dbc.DropdownMenuItem("Search", id = "search"),
-                    dbc.DropdownMenuItem("Data Overview", id = "d_overview"),
+                    #dbc.DropdownMenuItem("Data Overview", id = "d_overview"),
                 ],
                 id="explore_dropdown",
                 className = "nav_button",
@@ -1287,8 +1287,8 @@ def footer(app):
                 [   
                     html.H2("Navigation"),
                     dbc.Button("Search", className='footer_button', id = "search2"),
-                    html.Br(),
-                    dbc.Button("Data Overview", className='footer_button', id = "overview2"),
+                    #html.Br(),
+                    #dbc.Button("Data Overview", className='footer_button', id = "overview2"),
                     html.Br(),
                     dbc.Button("Source Info", className='footer_button', id = "source2"),
                     html.Br(),
