@@ -25,8 +25,6 @@ import time
 
 
 
-
-
 ######################################################################################
 app = dash.Dash(
     __name__, 
@@ -42,7 +40,7 @@ server = app.server
 app._favicon = ("assets/favicon.ico")
 
 # google analytics:
-app.index_string = """<!DOCTYPE html>
+app.html_layout = """<!DOCTYPE html>
 <html>
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->

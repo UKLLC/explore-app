@@ -516,30 +516,6 @@ def make_search_box(df, themes):
     return doc_box
 
 
-""" def make_d_overview_box(source_counts, dataset_counts):
-    d_overview_box = html.Div([
-        html.Div([
-            html.H1("Overview"),
-            html.Hr(),
-            html.Div([
-                html.H4("The overview sunburst graph shows the complete contents of the UK LLC database scaled by the number of constituent participants. Click a segment of the graph to focus in on it."),
-            ]),
-        ],
-        id = "overview_title",
-        className = "text_block"
-        ),
-        html.Div([
-            sunburst(source_counts, dataset_counts)
-        ],
-        id = "overview_sunburst_div"
-        ),
-    ],
-    id = "body_overview", 
-    className = "body_box"
-    )
-    return d_overview_box """
-
-
 def make_study_box():
     study_box = html.Div([
         html.Div([
@@ -986,10 +962,8 @@ def make_metadata_table(df):
 
 def make_hidden_body(source_counts, dataset_counts):
     body = html.Div([
-            #make_d_overview_box(source_counts, dataset_counts),
             make_study_box(),
             make_block_box(),
-            
             #make_basket_review_box(),
         ],
         style=ss.HIDDEN_BODY_STYLE,
@@ -1020,8 +994,7 @@ def make_account_section():
             dbc.DropdownMenu(
                 label = html.P("Apply", className = "nav_button",),
                 children = [
-                    dbc.DropdownMenuItem("Data access", href="https://apply.ukllc.ac.uk/", id = "apply"),
-                    #dbc.DropdownMenuItem("Data Overview", id = "d_overview"),
+                    dbc.DropdownMenuItem("Data access", href="https://apply.ukllc.ac.uk/", target="_blank", id = "apply"),
                 ],
                 id="apply_dropdown",
                 className = "nav_button",
@@ -1137,69 +1110,6 @@ def boxplot(mean, median, q1, q3, lf, uf):
     
     return dcc.Graph(figure = fig, className = "tab_div")
 
-''' def sunburst(source_counts, dataset_counts):
-    dataset_counts = dataset_counts.fillna(0)
-    dataset_counts["weighted_participant_count"] = dataset_counts["weighted_participant_count"].fillna(0)
-    dataset_counts["participant_count"] = dataset_counts["participant_count"].fillna(0)
-    source_counts["participant_count"] = source_counts["participant_count"].fillna(0)
-
-    linked_source_counts = source_counts.loc[(source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO")]
-    lps_source_counts = source_counts.loc[~((source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO"))]
-    linked_dataset_counts = dataset_counts.loc[(dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO")]
-    lps_dataset_counts = dataset_counts.loc[~((dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO"))]
-
-
-    dataset_counts = dataset_counts.fillna(0)
-    labels = ["Linked", "LPS"] + list(linked_source_counts["source"].values) + list(lps_source_counts["source"].values) + list(linked_dataset_counts["table"].values)  + list(lps_dataset_counts["table"].values)
-    parents = ["",""]+ ["Linked" for i in linked_source_counts["source"].values] + ["LPS" for i in lps_source_counts["source"].values] + list(linked_dataset_counts["source"].values) + list(lps_dataset_counts["source"].values)
-    vals_sources = list(linked_source_counts["participant_count"].values)+ list(lps_source_counts["participant_count"].values)
-    weighted_vals_ds = [int(x) for x in list(linked_dataset_counts["weighted_participant_count"].values)] + [int(x) for x in list(lps_dataset_counts["weighted_participant_count"].values)]
-    values = [sum(list(linked_source_counts["participant_count"].values))] + [sum(list(lps_source_counts["participant_count"].values))] + vals_sources + weighted_vals_ds
-
-    layout = go.Layout(
-        margin=go.layout.Margin(
-            l=0, #left margin
-            r=0, #right margin
-            b=0, #bottom margin
-            t=0, #top margin
-        )
-    )
-    fig = go.Figure(go.Sunburst(
-            labels=labels,
-            parents=parents,
-            values=values,
-            branchvalues = "total",
-            #maxdepth = 2
-            
-            ),
-            layout = layout
-    )
-    return dcc.Graph(figure = fig, className = "sunburst")
-    
-    dataset_counts["weighted_participant_count"] = dataset_counts["weighted_participant_count"].fillna(0)
-    dataset_counts["participant_count"] = dataset_counts["participant_count"].fillna(0)
-    source_counts["participant_count"] = source_counts["participant_count"].fillna(0)
-
-    linked_source_counts = source_counts.loc[(source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO")]
-    lps_source_counts = source_counts.loc[~((source_counts["source"] == "nhsd") | (source_counts["source"] == "GEO"))]
-    linked_dataset_counts = dataset_counts.loc[(dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO")]
-    lps_dataset_counts = dataset_counts.loc[~((dataset_counts["source"] == "nhsd") | (dataset_counts["source"] == "GEO"))]
-
-
-    dataset_counts = dataset_counts.fillna(0)
-    labels = ["Linked", "LPS"] + list(linked_source_counts["source"].values) + list(lps_source_counts["source"].values) + list(linked_dataset_counts["table"].values)  + list(lps_dataset_counts["table"].values)
-    parents = ["",""]+ ["LPS" for i in linked_source_counts["source"].values] + ["LPS" for i in lps_source_counts["source"].values] + list(linked_dataset_counts["source"].values) + list(lps_dataset_counts["source"].values)
-    vals_sources = list(linked_source_counts["participant_count"].values)+ list(lps_source_counts["participant_count"].values)
-    weighted_vals_ds = [int(x) for x in list(linked_dataset_counts["weighted_participant_count"].values)] + [int(x) for x in list(lps_dataset_counts["weighted_participant_count"].values)]
-    values = [sum(list(linked_source_counts["participant_count"].values))] + [sum(list(lps_source_counts["participant_count"].values))] + vals_sources + weighted_vals_ds
-    print("\n\n\nDebug")
-    print(len(labels), len(parents), len(values))
-    for parent, label, val in zip(parents, labels, values):
-        print(parent, label, val)
-    print(sum(list(linked_source_counts["participant_count"].values)), sum(list(linked_source_counts["participant_count"].values)), sum([int(x) for x in list(linked_dataset_counts["weighted_participant_count"].values)]))
-
-    print(sum(list(lps_source_counts["participant_count"].values)), sum(list(lps_source_counts["participant_count"].values)), sum([int(x) for x in list(lps_dataset_counts["weighted_participant_count"].values)]))
-    '''
 
 def choropleth(data, gj):
     layout = go.Layout(
@@ -1288,8 +1198,8 @@ def footer(app):
                 [   
                     html.H2("Navigation"),
                     dbc.Button("Search", className='footer_button', id = "search2"),
-                    #html.Br(),
-                    #dbc.Button("Data Overview", className='footer_button', id = "overview2"),
+                    html.Br(),
+                    dbc.Button("Data Access", className='footer_button', href="https://apply.ukllc.ac.uk/", target="_blank", id = "access2"),
                     html.Br(),
                     dbc.Button("Source Info", className='footer_button', id = "source2"),
                     html.Br(),
