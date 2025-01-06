@@ -137,7 +137,7 @@ def load_study_metadata(cnxn, table_id):
     # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
     try:
         #values_df = pd.read_csv(os.path.join("metadata",str(study.upper()),table+".csv"))
-        values_df = pd.read_sql("SELECT * from metadata_{}".format(study.lower()+"_"+table.lower()), cnxn) 
+        values_df = pd.read_sql("SELECT * from metadata_{}".format(study.lower()+"_"+table.lower()), cnxn)
     except FileNotFoundError:
         print("Couldn't find file {}. Skipping (shouldn't be a problem when we have a db...".format(str(study.upper())+table+".csv"))
         return None

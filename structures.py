@@ -1322,35 +1322,37 @@ def create_harmony_link(metadata_df: pd.DataFrame, instrument_title: str):
 
     unique_descriptions = metadata_df['Variable Description'].dropna().unique()
     unique_names = metadata_df['Variable Name'].dropna().unique()
-    total_description_length_in_chars = len(unique_descriptions.sum())
-    total_name_length_in_chars = len(unique_names.sum())
+    # check there are names and descriptions available to prevent load issue in dash
+    if len(unique_descriptions) > 0 and len(unique_names) > 0:
+        total_description_length_in_chars = len(unique_descriptions.sum())
+        total_name_length_in_chars = len(unique_names.sum())
 
-    if total_description_length_in_chars > total_name_length_in_chars:
-        column_name = 'Variable Description'
-    else:
-        column_name = 'Variable Name'
-    questions_dicts = []
-    for question_string, subset in metadata_df.groupby(column_name)[["Value Description", "Value"]]:
-        response_options = list(subset["Value Description"].dropna().apply(lambda x: str(x)))
-        if len(response_options) == 0:
-            response_options = list(subset["Value"].dropna().apply(lambda x: str(x)))
-        questions_dicts.append(
-            {
-                "question_no": f"{len(questions_dicts) + 1}",
-                "question_text": question_string,
-                "options": response_options
-            }
-        )
-        if len(questions_dicts) > 99:
-            break
-    instrument_as_dict = {
-        "instrument_name": instrument_title,
-        "questions": questions_dicts
-    }
-    instrument_serialised_as_json = json.dumps(instrument_as_dict)
-    instrument_json_b64_encoded_bytes = base64.urlsafe_b64encode(instrument_serialised_as_json.encode('utf-8'))
-    instrument_json_b64_encoded_str = instrument_json_b64_encoded_bytes.decode("utf-8")
+        if total_description_length_in_chars > total_name_length_in_chars:
+            column_name = 'Variable Description'
+        else:
+            column_name = 'Variable Name'
+        questions_dicts = []
+        for question_string, subset in metadata_df.groupby(column_name)[["Value Description", "Value"]]:
+            response_options = list(subset["Value Description"].dropna().apply(lambda x: str(x)))
+            if len(response_options) == 0:
+                response_options = list(subset["Value"].dropna().apply(lambda x: str(x)))
+            questions_dicts.append(
+                {
+                    "question_no": f"{len(questions_dicts) + 1}",
+                    "question_text": question_string,
+                    "options": response_options
+                }
+            )
+            if len(questions_dicts) > 99:
+                break
+        instrument_as_dict = {
+            "instrument_name": instrument_title,
+            "questions": questions_dicts
+        }
+        instrument_serialised_as_json = json.dumps(instrument_as_dict)
+        instrument_json_b64_encoded_bytes = base64.urlsafe_b64encode(instrument_serialised_as_json.encode('utf-8'))
+        instrument_json_b64_encoded_str = instrument_json_b64_encoded_bytes.decode("utf-8")
 
-    url = f"https://harmonydata.ac.uk/app/#/import/{instrument_json_b64_encoded_str}"
+        url = f"https://harmonydata.ac.uk/app/#/import/{instrument_json_b64_encoded_str}"
 
-    return url
+        return url

@@ -534,6 +534,7 @@ def body_sections(search, dd_source, dd_data_block, _, __, search2, source2, dat
 
     print("Debug body trigger", trigger, "schema", schema_change, "table", table_change)
     
+
     if trigger=="url":
         # Parse the URL and extract query parameters
         parsed_url = urlparse(href)
