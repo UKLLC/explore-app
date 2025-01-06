@@ -136,7 +136,10 @@ def load_study_metadata(cnxn, table_id):
     table = table_id.split("-")[1]
     # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
     try:
-        #values_df = pd.read_csv(os.path.join("metadata",str(study.upper()),table+".csv"))
+        # TODO once all metadata view is ready, use this to pickup labels with like statement 
+        #if table in ('MHSDS','IAPT'):
+        #    values_df = pd.read_sql("SELECT * from metadata_{}".format(study.lower()+"_"+table.lower()), cnxn)
+        #else:
         values_df = pd.read_sql("SELECT * from metadata_{}".format(study.lower()+"_"+table.lower()), cnxn)
     except FileNotFoundError:
         print("Couldn't find file {}. Skipping (shouldn't be a problem when we have a db...".format(str(study.upper())+table+".csv"))
