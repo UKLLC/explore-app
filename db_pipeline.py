@@ -145,10 +145,57 @@ def force_int(df):
             
     return new_list
 
+def create_all_metadata_view(cnxn, tables):
+    '''
 
-# linked ages 
-# geo_location
-# group_cohorts
+    Parameters
+    ----------
+    cnxn : DB connection
+        connection to postgres metadata DB
+    tables : list
+        list of tables to union into view
+
+    Raises
+    ------
+    Exception
+        If view creation fails
+
+
+    '''
+    # process tables into string to insert into query#
+    tables = ['SELECT * FROM ' + sub + ' UNION' for sub in tables]
+    # remove union from last item
+    tables[-1] = tables[-1].replace('UNION', '')
+    # create view creation query string
+    view_q = '''
+    DROP MATERIALIZED VIEW if exists metadata_all;
+    CREATE MATERIALIZED VIEW metadata_all AS
+    ''' + ' '.join(tables)
+    
+    try:
+        cnxn.execute(view_q)
+        print('All metadata view updated')
+    except ValueError:
+        raise Exception("All metadata view could not be created")
+    
+    
+# prefix = 'iapt'
+
+# def create_appended_tables(cnxn, tables, prefix):
+#     # filter tables to only include those with prefix
+#     tables = [x for x in tables if 'nhsd_' + prefix in x]
+#     # process tables into string to insert into query
+#     tables = ['SELECT * FROM ' + sub + ' UNION' for sub in tables]
+#     # remove union from last item
+#     tables[-1] = tables[-1].replace('UNION', '')
+#     # create view creation query string 
+#     union_q = 'SELECT * INTO metadata_nhsd_' + prefix + ' FROM (' + ' '.join(tables) +') as a'
+    
+#     ## NOT WORKING -m CHECK!
+#     cnxn.execute(union_q, cnxn)
+#     # print confirmation 
+
+
 
 def main():
     #cnxn1 = connect1()
@@ -391,13 +438,9 @@ def main():
     #search = search.fillna("")
     #search.to_sql("search", cnxn1, if_exists="replace")
     search.to_sql("search", cnxn2, if_exists="replace")
-
-
     
-    ### 
-    # all individual metadata files
     # load all metadata
-
+    mdl = []
     for root, dirs, files in os.walk('metadata'):
         for name in files:
             fpath = os.path.join(root, name)
@@ -405,15 +448,31 @@ def main():
             if "all_metadata.csv" in name:
                 continue
             tab_name = "metadata_"+root.split('\\')[1].lower() + '_' + name.split('.')[0].lower()
-            #data.to_sql(tab_name, cnxn1, if_exists = 'replace', index = False)
-            data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = False)
+            mdl.append(tab_name)
+            
+            # clean input
+            data = data.drop('Unnamed: 0', axis = 1, errors = 'ignore')
+            # control datatypes
+            dtype_dic = {'Source': sqlalchemy.types.VARCHAR(64),
+                         'Block Name': sqlalchemy.types.VARCHAR(128),
+                         'Variable Name': sqlalchemy.types.VARCHAR(128),
+                         'Variable Description': sqlalchemy.types.TEXT(),
+                         'Value': sqlalchemy.types.TEXT(),
+                         'Value Description': sqlalchemy.types.TEXT()
+                         }
+            
+            data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = False, dtype=dtype_dic)
+    # create materialised view for all metadata
+    create_all_metadata_view(cnxn2, mdl)
+
+    # create IAPT, MHSDS and CSDS tables - work in progress
+        
     # geo special
     f1 = pd.read_csv("metadata\\geo\\air_pollution_hh.csv")
     f2 = pd.read_csv("metadata\\geo\\air_pollution_pc.csv")
     geo = pd.concat([f1, f2])
     #geo.to_sql("metadata_geo_air_pollution", cnxn1, if_exists = 'replace', index = False)
     geo.to_sql("metadata_geo_air_pollution", cnxn2, if_exists = 'replace', index = False)
-
 
     ###
     # NHS varcount & rowcount
@@ -438,3 +497,4 @@ participant count, weighted participant count
 Obvs linkage graph isn't important.
 
 '''
+
