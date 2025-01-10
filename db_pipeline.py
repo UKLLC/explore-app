@@ -145,7 +145,7 @@ def force_int(df):
             
     return new_list
 
-def create_all_metadata_view(cnxn, tables):
+def create_all_metadata_view(cnxn, tables, view_name='metadata_all'):
     '''
 
     Parameters
@@ -154,6 +154,8 @@ def create_all_metadata_view(cnxn, tables):
         connection to postgres metadata DB
     tables : list
         list of tables to union into view
+    view_name : string
+        name of view
 
     Raises
     ------
@@ -168,34 +170,15 @@ def create_all_metadata_view(cnxn, tables):
     tables[-1] = tables[-1].replace('UNION', '')
     # create view creation query string
     view_q = '''
-    DROP MATERIALIZED VIEW if exists metadata_all;
-    CREATE MATERIALIZED VIEW metadata_all AS
-    ''' + ' '.join(tables)
+    DROP MATERIALIZED VIEW if exists {};
+    CREATE MATERIALIZED VIEW {} AS
+    '''.format(view_name, view_name) + ' '.join(tables)
     
     try:
         cnxn.execute(view_q)
-        print('All metadata view updated')
+        print('{} view updated'.format(view_name))
     except ValueError:
-        raise Exception("All metadata view could not be created")
-    
-    
-# prefix = 'iapt'
-
-# def create_appended_tables(cnxn, tables, prefix):
-#     # filter tables to only include those with prefix
-#     tables = [x for x in tables if 'nhsd_' + prefix in x]
-#     # process tables into string to insert into query
-#     tables = ['SELECT * FROM ' + sub + ' UNION' for sub in tables]
-#     # remove union from last item
-#     tables[-1] = tables[-1].replace('UNION', '')
-#     # create view creation query string 
-#     union_q = 'SELECT * INTO metadata_nhsd_' + prefix + ' FROM (' + ' '.join(tables) +') as a'
-    
-#     ## NOT WORKING -m CHECK!
-#     cnxn.execute(union_q, cnxn)
-#     # print confirmation 
-
-
+        raise Exception("{} view could not be created".format(view_name))
 
 def main():
     #cnxn1 = connect1()
@@ -465,8 +448,18 @@ def main():
     # create materialised view for all metadata
     create_all_metadata_view(cnxn2, mdl)
 
-    # create IAPT, MHSDS and CSDS tables - work in progress
-        
+    # subset list of tables to multis - a view is required to ease dash/explores access as this is via single page
+    subs = ['csds', 'iapt', 'mhsds']
+    subs_dict = {}
+    for i in subs:
+        # subset all tables to pickup the matches
+        t1 = [d for d in mdl if d.startswith('metadata_nhsd_'+i)]
+        # build dictionary
+        subs_dict[i] = t1
+    # run view builder for each dataset with subs
+    for k, v in subs_dict.items():
+        create_all_metadata_view(cnxn2, v, 'metadata_nhsd_'+k)
+         
     # geo special
     f1 = pd.read_csv("metadata\\geo\\air_pollution_hh.csv")
     f2 = pd.read_csv("metadata\\geo\\air_pollution_pc.csv")
