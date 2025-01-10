@@ -40,19 +40,24 @@ server = app.server
 app._favicon = ("assets/favicon.ico")
 
 # google analytics:
-app.html_layout = """<!DOCTYPE html>
+app.index_string = """<!DOCTYPE html>
 <html>
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6G5RKPQ2F"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);
+          dataLayer.push({
+              'pageTitle' : pageTitle
+          });}
+          gtag('js', new Date());
 
-    gtag('config', 'G-T6G5RKPQ2F');
-    </script>
-</head>"""
+          gtag('config', 'G-T6G5RKPQ2F');
+        </script>
+    </head>
+</html>"""
+
 
 def connect():
     try:
