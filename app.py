@@ -45,18 +45,28 @@ app.index_string = """<!DOCTYPE html>
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6G5RKPQ2F"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);
-          dataLayer.push({
-              'pageTitle' : pageTitle
-          });}
-          gtag('js', new Date());
-
-          gtag('config', 'G-T6G5RKPQ2F');
-        </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T6G5RKPQ2F');
+    </script>
+        {%metas%}
+        <title>{%title%}</title>
+        {%favicon%}
+        {%css%}
     </head>
+    <body>
+        {%app_entry%}
+        <footer>
+            {%config%}
+            {%scripts%}
+            {%renderer%}
+        </footer>
+    </body>
 </html>"""
+
+
 
 
 def connect():
