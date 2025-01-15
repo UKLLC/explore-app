@@ -12,7 +12,7 @@ VALID_USERNAME_PASSWORD_PAIRS = {
     'username': 'password'
 }
 
-LINKED_SCHEMAS = ["NHSD"]
+LINKED_SCHEMAS = ["NHSE"]
 
 LANDING_GENERAL_TEXT = """
 Browse the UK LLC Data Discovery Portal to discover data from the 20+ longitudinal population studies that contribute data to the UK LLC Trusted Research Environment (TRE).

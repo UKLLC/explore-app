@@ -170,15 +170,42 @@ def create_all_metadata_view(cnxn, tables, view_name='metadata_all'):
     tables[-1] = tables[-1].replace('UNION', '')
     # create view creation query string
     view_q = '''
-    DROP MATERIALIZED VIEW if exists {};
     CREATE MATERIALIZED VIEW {} AS
-    '''.format(view_name, view_name) + ' '.join(tables)
+    '''.format(view_name) + ' '.join(tables)
     
     try:
         cnxn.execute(view_q)
         print('{} view updated'.format(view_name))
     except ValueError:
         raise Exception("{} view could not be created".format(view_name))
+
+def drop_views(cnxn):
+    '''
+
+    Parameters
+    ----------
+    cnxn : DB connection
+        connection to postgres metadata DB
+
+    Returns
+    -------
+    None
+
+    '''
+    q = '''
+    SELECT Relname
+    FROM pg_class
+    WHERE  relkind = 'm';
+    '''
+    mv = pd.read_sql(q, cnxn)
+    drop_q = ['DROP MATERIALIZED VIEW ' + tab + ';' for tab in mv['relname'].tolist()]
+    drop_q = ' '.join(drop_q)
+    if drop_q:
+        try:
+            cnxn.execute(drop_q)
+            print('Old materialised views dropped to allow tables to be recreated/updated')
+        except ValueError:
+            raise Exception('Old materialised views could not be dropped')
 
 def main():
     #cnxn1 = connect1()
@@ -212,8 +239,8 @@ def main():
     geo_locations = data["geo_locations"]
     nhs_dataset_linkage = data["group_cohorts"]
     nhs_dataset_extracts = data["groupby"]
-    nhsd_varcount = data["nhsd_varcount"]
-    nhsd_rowcounts = data["nhsd_rowcount"]
+    nhse_varcount = data["NHSE_varcount"]
+    nhse_rowcounts = data["NHSE_rowcount"]
 
     block_counts_df = pd.DataFrame(block_counts.items(), columns = ["source", "dataset_count"] )
 
@@ -422,6 +449,8 @@ def main():
     #search.to_sql("search", cnxn1, if_exists="replace")
     search.to_sql("search", cnxn2, if_exists="replace")
     
+    # remove all materialised views as these cause dependency issues and are recreated anyway
+    drop_views(cnxn2)
     # load all metadata
     mdl = []
     for root, dirs, files in os.walk('metadata'):
@@ -443,7 +472,7 @@ def main():
                          'Value': sqlalchemy.types.TEXT(),
                          'Value Description': sqlalchemy.types.TEXT()
                          }
-            
+        
             data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = False, dtype=dtype_dic)
     # create materialised view for all metadata
     create_all_metadata_view(cnxn2, mdl)
@@ -453,12 +482,12 @@ def main():
     subs_dict = {}
     for i in subs:
         # subset all tables to pickup the matches
-        t1 = [d for d in mdl if d.startswith('metadata_nhsd_'+i)]
+        t1 = [d for d in mdl if d.startswith('metadata_nhse_'+i)]
         # build dictionary
         subs_dict[i] = t1
     # run view builder for each dataset with subs
     for k, v in subs_dict.items():
-        create_all_metadata_view(cnxn2, v, 'metadata_nhsd_'+k)
+        create_all_metadata_view(cnxn2, v, 'metadata_nhse_'+k)
          
     # geo special
     f1 = pd.read_csv("metadata\\geo\\air_pollution_hh.csv")
@@ -470,12 +499,12 @@ def main():
     ###
     # NHS varcount & rowcount
     # 
-    nhsd_metrics_row = []
-    for key, value in nhsd_varcount.items():
-        nhsd_metrics_row.append([key, value, nhsd_rowcounts[key]])
-    nhsd_metrics_df = pd.DataFrame(nhsd_metrics_row, columns = ["dataset", "var_count", "row_count"])
+    nhse_metrics_row = []
+    for key, value in nhse_varcount.items():
+        nhse_metrics_row.append([key, value, nhse_rowcounts[key]])
+    nhse_metrics_df = pd.DataFrame(nhse_metrics_row, columns = ["dataset", "var_count", "row_count"])
     #nhsd_metrics_df.to_sql("nhsd_metrics", cnxn1, if_exists='replace', index = False)
-    nhsd_metrics_df.to_sql("nhsd_metrics", cnxn2, if_exists='replace', index = False)
+    nhse_metrics_df.to_sql("nhse_metrics", cnxn2, if_exists='replace', index = False)
 
 
 if __name__ == "__main__":
