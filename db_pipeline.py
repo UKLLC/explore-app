@@ -171,7 +171,10 @@ def create_all_metadata_view(cnxn, tables, view_name='metadata_all'):
     # create view creation query string
     view_q = '''
     CREATE MATERIALIZED VIEW {} AS
-    '''.format(view_name) + ' '.join(tables)
+    SELECT *, row_number() OVER() as id from (
+    '''.format(view_name) + ' '.join(tables) + ') a ;'
+    # add on creating index to allow view to be properly used in API + other searches
+    #view_q = view_q + "; create unique index on {} (row_id);".format(view_name)
     
     try:
         cnxn.execute(view_q)
@@ -473,7 +476,7 @@ def main():
                          'Value Description': sqlalchemy.types.TEXT()
                          }
         
-            data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = False, dtype=dtype_dic)
+            data.to_sql(tab_name, cnxn2, if_exists = 'replace', index = True, dtype=dtype_dic)
     # create materialised view for all metadata
     create_all_metadata_view(cnxn2, mdl)
 
