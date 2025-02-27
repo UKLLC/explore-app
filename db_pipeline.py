@@ -4,8 +4,9 @@ import sqlalchemy
 import psycopg2
 import pandas as pd
 import io
+import numpy as np
 
-from office365.sharepoint.files.file import File
+#from office365.sharepoint.files.file import File
 import os
 import re
 from datetime import datetime
@@ -419,6 +420,7 @@ def main():
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(" ,", ",")
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(", ", ",")
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.strip()
+    dataset_df["Type"] = np.where(dataset_df["source"]=="NHSE", "Linked", dataset_df["Type"])
     #dataset_df.to_sql("dataset", cnxn1, if_exists="replace")
     dataset_df.to_sql("dataset", cnxn2, if_exists="replace")
 
