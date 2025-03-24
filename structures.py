@@ -368,7 +368,9 @@ def make_search_box(df, themes):
             html.H1("UK LLC Explore"),
             html.Hr(),
             html.Div([
-                html.P("Search our catalogue of longitudinal and linked data and build a data request.")
+                html.P("Search our catalogue of longitudinal and linked data and build a data request."),
+                html.P("This version of Explore is a stopgap. We are working on a new version with improved \
+                       search functionality, metadata coverage and quality.")
             ]),
             ], 
             className = "text_block" ,
