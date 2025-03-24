@@ -1400,3 +1400,5 @@ h1 {padding-left: 1rem;}
     margin-left: 80%;
     margin-right: 1%;
   }
+
+  #offcanvas_review {overflow-y: scroll;}
