@@ -721,9 +721,23 @@ def modal():
 
 def make_basket_review_offcanvas():
     offcanvas = html.Div([dbc.Offcanvas(
-        
         [
         dbc.Button(html.I(className = "bi bi-x-lg", ), id = "offcanvas_close", n_clicks = 0),
+
+        html.Div([
+            html.P("If you have selected any of the following NHS E datasets: \
+                   CANCER, GDPPR, HESAE, HESAPC, HESOP, PCM, \
+                   you are required to supply a list of medical codes for inclusion in your project. \
+                   The code list template is available ", className = "codeitem"),
+            html.A(href = "https://apply.ukllc.ac.uk/apply/view_document/codelist_template", \
+                   target="_blank", children = ["here"], className = "codeitem"),
+            html.P(" and is submitted during the application process. \
+                   For more information on medical coding systems: ", className = "codeitem"),
+            html.A(href = "https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/coding/coding_intro",
+                   target="_blank", children = ["Guidebook"], className = "codeitem"),
+        ],
+        id = "codelist_download"),
+
         html.Div([
             text_block("Default datasets (automatically included):")
         ],
@@ -736,6 +750,7 @@ def make_basket_review_offcanvas():
             text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
         ],
         id = "basket_review_text_div"),
+
         html.Div([
             dash_table.DataTable(
                     id="basket_review_table", #id = basket_review_table (passed in app)

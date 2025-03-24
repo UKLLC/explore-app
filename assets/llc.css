@@ -1206,6 +1206,20 @@ h1 {padding-left: 1rem;}
 #basket_review_always_selected_text{
     margin: .5rem;
 }
+
+#codelist_download{
+    margin: .5rem;
+    font-size: calc(0.4rem + 0.5vw);
+    background-color: white;
+    border-radius: .5rem;
+    padding: .75rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.codeitem{
+    display: inline;
+}
+
 .source_collapse_button{
     right: 0;
     width: calc(0.75rem + 0.5vw);
