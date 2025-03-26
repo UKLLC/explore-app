@@ -933,9 +933,10 @@ def make_info_box(df, harmony_link=None):
                                         "box-sizing": "0px"                                  
                                         }), " "], href=harmony_link, target="harmony",
                        style={"vertical-align": "top", "margin-top": "0px", "text-decoration": "none"}),
-                html.A([html.Span("Import into Harmony", style={"vertical-align": "top", "margin-top": "0px"})],
-                       href=harmony_link, target="harmony", style={"vertical-align": "top", "margin-top": "0px"})
-            ], className = "info_box_right", style={"vertical-align": "top", "margin-top":"0px"})
+                html.A([html.Span("Import into Harmony", id="tooltip-target", style={"vertical-align": "top", "margin-top": "0px"})],
+                       href=harmony_link, target="harmony", style={"vertical-align": "top", "margin-top": "0px"}),
+                dbc.Tooltip("Use AI to compare 2 datasets to find similar variables", target = "tooltip-target"),
+            ], className = "info_box_right", style={"vertical-align": "top", "margin-top":"0px"}, id = "tooltip"),
         ])
         [{'id': x, 'name': x, 'presentation': 'markdown'} if x == 'Link(s)' else {'id': x, 'name': x} for x in df.columns],
         out_text.append(row)
