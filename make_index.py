@@ -10,7 +10,29 @@ from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import RequestError
 from urllib.parse import urlparse
 
-from app import connect, searchbox_connect
+#from app import connect, searchbox_connect
+
+def connect():
+    try:
+        db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
+        cnxn = sqlalchemy.create_engine(db_str).connect()
+        print("returning DB connection")
+        return cnxn
+
+    except Exception as e:
+        print("fatal: Connection to database failed")
+        raise Exception("DB connection failed")
+    
+def searchbox_connect():
+    
+    url = urlparse(os.environ['SEARCHBOX_URL'])
+    ######## test
+    es = Elasticsearch(
+        [os.environ['SEARCHBOX_URL']],
+        http_auth=(url.username, url.password),
+    )
+    return es
+
 
 def main():
     '''

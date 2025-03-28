@@ -86,9 +86,7 @@ def searchbox_connect():
     ######## test
     es = Elasticsearch(
         [os.environ['SEARCHBOX_URL']],
-        http_auth=(url.username, url.password),
-        scheme=url.scheme,
-        port=url.port,
+        http_auth=(url.username, url.password)
     )
     return es
 
