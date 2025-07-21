@@ -953,8 +953,11 @@ def make_schema_description(schemas):
 def make_block_description(blocks, harmony_link=None):
     # Make the study tab variables
     blocks = blocks[constants.BLOCK_SUMMARY_VARS.keys()].rename(columns = constants.BLOCK_SUMMARY_VARS)
-    blocks["Participants Included"] = blocks["Participants Included"].astype(int)
-    
+    try:
+        blocks["Participants Included"] = blocks["Participants Included"].astype(int)
+    except (TypeError, ValueError):
+        blocks["Participants Included"] = "N/A"
+
     blocks["Collection Duration"] = blocks["Collection Start"] + " - " + blocks["Collection End"]
     blocks = blocks.drop(columns = ["Collection Start", "Collection End"])
     print("DEUBG:", blocks.columns)
