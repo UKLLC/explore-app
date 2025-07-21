@@ -400,7 +400,7 @@ def main():
     source_df["Themes"] = source_df["Themes"].str.replace(u'\xa0', u'')
     source_df["Themes"] = source_df["Themes"].str.strip()
     #source_df.to_sql("source_info", cnxn1, if_exists="replace")
-    source_df.to_sql("source_info", cnxn2, if_exists="replace")
+    source_df.to_sql("source_info", cnxn2, if_exists="replace", index = False)
 
     ###
     # dataset
@@ -421,8 +421,9 @@ def main():
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.replace(", ", ",")
     dataset_df["topic_tags"] = dataset_df["topic_tags"].str.strip()
     dataset_df["Type"] = np.where(dataset_df["source"]=="NHSE", "Linked", dataset_df["Type"])
+    dataset_df["Type"] = np.where(dataset_df["source"]=="PLACE", "Linked", dataset_df["Type"])
     #dataset_df.to_sql("dataset", cnxn1, if_exists="replace")
-    dataset_df.to_sql("dataset", cnxn2, if_exists="replace")
+    dataset_df.to_sql("dataset", cnxn2, if_exists="replace", index = False)
 
     ###
     # search terms
