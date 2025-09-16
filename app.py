@@ -27,7 +27,7 @@ import time
 
 ######################################################################################
 app = dash.Dash(
-    __name__, 
+    __name__,
     external_stylesheets=["custom.css",  dbc.icons.BOOTSTRAP ],
     routing_callback_inputs={
         # The app state is serialised in the URL hash without refreshing the page
@@ -79,9 +79,9 @@ def connect():
     except Exception as e:
         print("fatal: Connection to database failed")
         raise Exception("DB connection failed")
-    
+
 def searchbox_connect():
-    
+
     url = urlparse(os.environ['SEARCHBOX_URL'])
     ######## test
     es = Elasticsearch(
@@ -228,15 +228,15 @@ approx 995/try all in
 )
 def update_schema_description(source):
     '''
-    When schema updates, update documentation    
-    '''        
-    
+    When schema updates, update documentation
+    '''
+
     print("Updating schema page text, schema = '{}'".format(source))
-    if source != None and source != "None": 
-        
+    if source != None and source != "None":
+
         info = source_info.loc[source_info["source"] == source]
-       
-        ### title #### 
+
+        ### title ####
         source_name = info["source_name"].values[0]
         if info["Type"].values[0] == "Linked":
             title_text1 = "Linked Source"
@@ -245,7 +245,7 @@ def update_schema_description(source):
 
         return title_text1, source_name, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), {"display": "flex"}
     else:
-        
+
         #print(all_query)
         r = es.search(index="index_spine", body={"query" : {"match_all" : {}}}, size = 1000)
 
@@ -261,21 +261,21 @@ def update_schema_description(source):
 
 
 @app.callback(
-    Output('Map', "children"), 
+    Output('Map', "children"),
     Input("current_tab", "data"),
     Input('active_source','data'),
     prevent_initial_call=True
 )
 def update_schema_map(current_tab, source):
     '''
-    When schema updates, update documentation    
-    '''        
-    
+    When schema updates, update documentation
+    '''
+
     print("Updating schema map, schema = '{}'".format(source))
     trigger = dash.ctx.triggered_id
 
     print(" boxplot trigger {}".format(trigger))
-    if source != None and source != "None": 
+    if source != None and source != "None":
          ### map #####
         t0 = time.time()
         try:
@@ -288,30 +288,30 @@ def update_schema_map(current_tab, source):
             data = None
             map = struct.error_p("Error loading map")
             print("Error: failed to load map data")
-        
+
 
         maptime = time.time() - t0
         print("maptime", round(maptime, 3))
         return map
     else:
         return None
-    
+
 @app.callback(
-    Output('source_linkage_graph', "children"), 
+    Output('source_linkage_graph', "children"),
     Input("current_tab", "data"),
     Input('active_source','data'),
     prevent_initial_call=True
 )
 def update_schema_pie(current_tab, source):
     '''
-    When schema updates, update documentation    
-    '''        
-    
+    When schema updates, update documentation
+    '''
+
     print("Updating schema pie, schema = '{}'".format(source))
     trigger = dash.ctx.triggered_id
 
     print(" pie trigger {}".format(trigger))
-    if source != None and source != "None": 
+    if source != None and source != "None":
 
         with connect() as cnxn:
             data = dataIO.load_cohort_linkage_groups(cnxn, source)
@@ -328,26 +328,26 @@ def update_schema_pie(current_tab, source):
         if len(labels) > 0:
             try:
                 pie = struct.pie(labels, values, counts)
-            except: 
+            except:
                 pie = struct.error_p("Error: unable to make linkage pie")
         else:
             pie = struct.error_p("Linkage statistics are not currently available for {}".format(source))
-        
+
         return pie
     else:
         return ""
 
 @app.callback(
-    Output('source_age_graph', "children"), 
+    Output('source_age_graph', "children"),
     Input("current_tab", "data"),
     Input('active_source','data'),
     prevent_initial_call=True
 )
 def update_schema_boxplot(current_tab, source):
     '''
-    When schema updates, update documentation    
-    '''        
-    
+    When schema updates, update documentation
+    '''
+
     print("Updating schema boxplot, schema = '{}'".format(source))
     trigger = dash.ctx.triggered_id
 
@@ -356,12 +356,12 @@ def update_schema_boxplot(current_tab, source):
         print("preventing update of boxplot")
         raise PreventUpdate
     '''
-        
+
     if trigger == None:
         return struct.error_p("Nothing")
 
     print(" boxplot trigger {}".format(trigger))
-    if source != None and source != "None": 
+    if source != None and source != "None":
 
         with connect() as cnxn:
             ages = dataIO.load_cohort_age(cnxn, source)
@@ -401,7 +401,7 @@ def update_table_data(table_id):
     trigger = dash.ctx.triggered_id
 
     print("CALLBACK: Dataset BOX - updating table description with table {}, {}".format(table_id, trigger))
-    
+
     #pass until metadata block ready
     if table_id != None and table_id != "None" and trigger:
         table_split = table_id.split("-")
@@ -442,7 +442,7 @@ def update_table_data(table_id):
         else:
             pie = "Linkage statistics are not currently available for {} {}".format(schema, table)
 
-        
+
         if len(ages["mean"].values) > 0:
             boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
         else:
@@ -484,9 +484,9 @@ def basket_review(shopping_basket):
     for table_id in shopping_basket:
         table_split = table_id.split("-")
         source, table = table_split[0], table_split[1]
-        
+
         df1 = df.loc[(df["source"] == source) & (df["table"] == table)]
-        try: # NOTE TEMP LINKED OVERRIDE 
+        try: # NOTE TEMP LINKED OVERRIDE
             #print(df1.columns)
             row = [source, table, df1["short_desc"].values[0]]
         except IndexError:
@@ -534,19 +534,19 @@ def body_sections(search, dd_source, dd_data_block, _, __, search2, source2, dat
     Read the hidden body
     Update the body
     Update the hidden body
-    
+
     Overhaul 17/10/2023:
     Change the nav bar to a series of drop down menus and buttons
     Body sections listens for all of these buttons
     determine cause by looking at context
     change the body accordingly
 
-    get id of sections. 
+    get id of sections.
     '''
     trigger = dash.ctx.triggered_id
 
     print("Debug body trigger", trigger, "schema", schema_change, "table", table_change)
-    
+
 
     if trigger=="url":
         # Parse the URL and extract query parameters
@@ -563,9 +563,9 @@ def body_sections(search, dd_source, dd_data_block, _, __, search2, source2, dat
             print("No url, preventing update")
             raise PreventUpdate
         print("DEBUG in url branch of body sections")
-    
 
-    
+
+
     if (schema_change == None or schema_change == "None") and trigger == "source_description_div" : raise PreventUpdate
     if trigger == "source_description_div" and current_state == "source": raise PreventUpdate
 
@@ -620,7 +620,7 @@ def review_right_sidebar(oc_click, bg_click, FAQ_click, oc_close, FAQ_close, cu_
     trigger = dash.ctx.triggered_id
     if trigger == "modal_background" or trigger == "offcanvas_close" or trigger == "modal_close": # Background, close all
         return False, {"display":"none"}, False, None
-    
+
     if trigger == "review" and oc_click:
         return True, {"display":"flex"}, False, None
     elif trigger == "FAQ_button" and FAQ_click: #modal / FAQs
@@ -662,8 +662,8 @@ def sidebar_schema(open_study_schema, links1, links2, href):
     '''
     trigger = dash.ctx.triggered_id
     print("CALLBACK: schema change, trigger: {}".format(trigger))# #Trigger:  {}, open_schema = {}, links1 {}, links2 {}".format(trigger, open_study_schema, links1, links2))
-    
-    
+
+
     if trigger=="url":
 
         # Parse the URL and extract query parameters
@@ -675,8 +675,8 @@ def sidebar_schema(open_study_schema, links1, links2, href):
             raise PreventUpdate
         return str(input_value)
     else:
-    
-        real_triggers = [x for x in open_study_schema if (x and x>0)] + [x for x in links1 if (x and x>0)] +[x for x in links2 if (x and x>0)] 
+
+        real_triggers = [x for x in open_study_schema if (x and x>0)] + [x for x in links1 if (x and x>0)] +[x for x in links2 if (x and x>0)]
         if len(real_triggers) == 0 :
             raise PreventUpdate
 
@@ -715,7 +715,7 @@ def sidebar_table(tables, active_cell, data):
        cell_click = data[active_cell["row"]]["Source"] + "-" + data[active_cell["row"]]["Dataset"]
        print("debug cell click", cell_click)
        return cell_click, ["None" for t in tables]
-       
+
     active = [t for t in tables if (t!= None and t!='None')]
     # if no tables are active
     if len(active) == 0:
@@ -723,7 +723,7 @@ def sidebar_table(tables, active_cell, data):
     # if more than one table is active
     elif len(active) != 1:
         print("Error 12: More than one activated tab:", active)
-    
+
     table = active[0]
     return table, ["None" for t in tables]
 
@@ -756,7 +756,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     When the search button is clicked
     read the main search content
     read the include dropdown value
-    read the exclude dropdown value 
+    read the exclude dropdown value
     read the search_checklist_1 value
     read the collection_age_slider value
     read the collection_time_slider value
@@ -766,7 +766,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     Read the active table
     Update the sidebar div
 
-    Version 1: search by similar text in schema, table name or keywords. 
+    Version 1: search by similar text in schema, table name or keywords.
     these may be branched into different search functions later, but for now will do the trick
     Do we want it on button click or auto filter?
     Probs on button click, that way we minimise what could be quite complex filtering
@@ -781,7 +781,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     Split by table filtering and variable filtering
     table filtering:
         1. Get list of distinct tables
-        2. 
+        2.
     '''
     # Setting up open schemas
     collapse_state = {}
@@ -814,16 +814,16 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                     }
                 }
             ]
-    
+
     if len(s) > 0 :
         search = [
-            { "regexp": {"table": 
+            { "regexp": {"table":
                         {"value" : ".*"+s+".*",
                         "flags" : "ALL",
                         "case_insensitive": "true",
                         "max_determinized_states": 10000,
                     }
-                } 
+                }
             },
             { "match": {"table_name": s}},
             { "match": {"long_desc": s}},
@@ -831,12 +831,12 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             { "match": {"Aims": s}},
             { "match": {"Themes": s}},
         ]
-    else: 
+    else:
         search = []
 
     if cl_1 : # Tags:
         tags = [{"term" : { "topic_tags" : tag}} for tag in cl_1] + [{"term" : { "Themes" : tag}} for tag in cl_1]
-                
+
     else:
         tags = []
 
@@ -850,7 +850,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             "bool" : {
                 "filter":[{
                         "bool" : {
-                            "should" : [{"term" : { "source" : source}} for source in include_dropdown] 
+                            "should" : [{"term" : { "source" : source}} for source in include_dropdown]
                         }
                     },
                     {
@@ -860,10 +860,10 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                     },
                 ],
                 "must_not": must_not,
-                
+
                 "must" : [{
                         "bool" : {
-                            "should" : search 
+                            "should" : search
                         }
                     },
                     {
@@ -908,7 +908,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                                         "format" : "MM/YYYY"
                                     }
                                 }},
-                    
+
                             ],
                         }
                     }
@@ -919,7 +919,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         }
 
     r1 = es.search(index="index_spine", body=all_query, size = 1000)
-    
+
     sidebar_results = []
     for hit in r1["hits"]["hits"]:
         #print(hit)
@@ -946,16 +946,16 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             search_text = "No results"
 
 
-    elif search_type.lower() == "datasets": 
+    elif search_type.lower() == "datasets":
         # reuse sidebar results
         search_results = []
         for hit in r1["hits"]["hits"]:
             search_results.append({key: hit["_source"][key] for key in ["source", "table"]})
         if len(search_results) != 0:
             info = pd.DataFrame(search_results)
-            info = pd.merge(info, datasets_df, how="left", on = ["source", "table"]) 
+            info = pd.merge(info, datasets_df, how="left", on = ["source", "table"])
 
-            info = info[["source", "table", "short_desc"]].rename(columns={"source":"Source", "table": "Dataset", "short_desc": "Description"}) 
+            info = info[["source", "table", "short_desc"]].rename(columns={"source":"Source", "table": "Dataset", "short_desc": "Description"})
             search_results_table = struct.make_table(info, "search_metadata_table", "datasets_search")
             search_text = "Showing {} datasets".format(len(info))
         else:
@@ -965,7 +965,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     elif search_type.lower() == "variables": # variables
         '''
         TODO 02/07/2024
-        This is too slow. I think its the volume of values & desks. 
+        This is too slow. I think its the volume of values & desks.
         1. Test if this is the case. Measure search time & build time separately
         2. Provided search time isn't the major issue, move to memory all_metadata and try to efficiently join return ids on that.
         3. Store current returned response table in memory and immediately provided if the search terms have not changed
@@ -980,25 +980,25 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             search = [{ "term": {"topic_tags": s}},
                 { "term": {"Themes": s}},
                 {"match" : {"variable_name" : s}},
-                { "regexp": {"variable_name": 
+                { "regexp": {"variable_name":
                         {"value" : ".*"+s+".*",
                         "flags" : "ALL",
                         "case_insensitive": "true",
                         "max_determinized_states": 10000,
                     }
-                } 
+                }
             },
                 {"match" : {"variable_description" : s}},
                 #{"term" : {"value" : s}},
                 #{"match" : {"value_label" : s}},
             ]
-            
+
         all_query2 = {
         "query": {
             "bool" : {
                 "filter":[{
                         "bool" : {
-                            "should" : [{"term" : { "source" : source.lower()}} for source in include_dropdown] 
+                            "should" : [{"term" : { "source" : source.lower()}} for source in include_dropdown]
                         }
                     },
                     {
@@ -1008,11 +1008,11 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                     },
                 ],
                 "must_not": must_not,
-                
+
                 "must" : [{
                         "bool" : {
                             "should" : search,
-                            "boost" : 3, 
+                            "boost" : 3,
                         }
                     },
                     {
@@ -1058,7 +1058,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                                     }
                                 }
                             },
-                    
+
                             ],
                         }
                     }
@@ -1080,17 +1080,17 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
                 search_results.append([hit["_source"]["source"], hit["_source"]["table"], hit["_source"]["variable_name"], hit["_source"]["variable_description"]])
 
         if len(search_results) != 0:
-            if "Show values" in toggle_values: 
+            if "Show values" in toggle_values:
                 search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description", "Value", "Value Label"])
             else:
                 search_results = pd.DataFrame(search_results, columns=["Source", "Table", "Variable Name", "Variable Description"])
-     
+
             search_results_table = struct.make_table(search_results, "search_variable_table", "dataset search")
             search_len = len(search_results)
-        
+
             if len(search_results) >= 1000:
                 search_text = "Seach limited to the first 1000 variables"
-            else:    
+            else:
                 search_text = "Showing {} variables".format(search_len)
         else:
             search_results_table = None
@@ -1102,7 +1102,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         toggle_values_style = {"display" : "flex"}
 
     else:
-        search_results = "ERROR: 786, this shouldn't be reachable ", search_type 
+        search_results = "ERROR: 786, this shouldn't be reachable ", search_type
 
     if len(sidebar_results) > 0:
         sidebar_results_df = pd.DataFrame(sidebar_results)
@@ -1156,7 +1156,7 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
                     return new_shopping_basket, clicks+1, "("+ str(len(new_shopping_basket))+")"
         else:
             raise PreventUpdate
-    
+
     elif dash.ctx.triggered_id == "clear_basket_button": # if triggered by clear button
         if b1_clicks > 0:
             #print(b1_clicks, shopping_basket)
@@ -1210,12 +1210,8 @@ def save_shopping_cart(btn1, save_clicks, shopping_basket):
     #print(btn1, save_clicks)
     if btn1 != save_clicks or dash.ctx.triggered_id == "dl_button_2":
         # TODO insert checks to not save if the shopping basket is empty or otherwise invalid
-        fileout = dataIO.basket_out(shopping_basket)
-        ap_out = ap_df.rename(columns={"source":"TABLE_SCHEMA","table":"TABLE_NAME"})
-        print(ap_out)
-        ap_out = ap_out[["TABLE_SCHEMA", "TABLE_NAME"]]
-        print(ap_out)
-        fileout = pd.concat([fileout, ap_out])
+        fileout = dataIO.basket_out(shopping_basket, datasets_df)
+
         return dcc.send_data_frame(fileout.to_csv, "data_selection.csv", index = False), btn1
     else:
         raise PreventUpdate
@@ -1243,7 +1239,7 @@ def rest_filters(btn1, btn2):
 @app.callback(
     Output("placeholder","data"),
     Input("app","n_clicks"),
-    State("shopping_basket", "data")   
+    State("shopping_basket", "data")
 )
 def basket_autosave(_, sb):
     path = os.path.join("saves", request.authorization['username'])
@@ -1251,7 +1247,7 @@ def basket_autosave(_, sb):
         os.mkdir(path)
     with open(os.path.join(path, "SB"), 'wb') as f:
         pickle.dump(sb, f)
-'''    
+'''
 
 
 
@@ -1271,4 +1267,3 @@ TODO
 For search have a granularity filter - don't return variables on a DS level
 
 '''
-
