@@ -67,7 +67,7 @@ def load_source_info(cnxn, source = "none"):
         return rtn
     else:
         return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
-    
+
 def load_dataset_count(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_participants", cnxn)
     if source == "none" and table_name == "none":
@@ -81,7 +81,7 @@ def load_dataset_count(cnxn, source = "none", table_name = "none"):
 
 
 def load_search(cnxn, source = "none", table_name = "none"):
-    
+
     if source == "none" and table_name == "none":
         return pd.read_sql("SELECT * from search", cnxn)
     elif source == "none":
@@ -98,11 +98,11 @@ def load_search(cnxn, source = "none", table_name = "none"):
 def load_study_request(cnxn):
     '''
     Data request form info
-    @depricated: should now use 
+    @depricated: should now use
     '''
     sheet_df = pd.read_sql("SELECT * from drf_lps", cnxn)
     #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
-    
+
     return sheet_df
 
 
@@ -111,7 +111,7 @@ def load_linked_request(cnxn):
     '''
     # What do we need?
     # Data Block Name	Data Block Description	Coverage 	Time Period†	Number of Participants Included (n=) (i.e. number of particpants with non-null data, and with UK LLC, and linkage permission)"	Documentation 	Codelist Required	Health Domain Groupings (i.e. covid infection, asthma, smoking, etc.) 	Justification of dataset request
-    
+
     #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Linked data requested",skiprows=5, usecols = "A,B,C,D,E,F,G,H")
     #sheet_df = sheet_df.rename(columns = {"Data Block Name":"Block Name", "Data Block Description":"Block Description", "Time Period†":"Timepoint: Data Collected", "'Health Domain Groupings (i.e. covid infection, asthma, smoking, etc.)":"Keywords"})
     #sheet_df["Source"] = "NHSD"
@@ -138,13 +138,13 @@ def load_study_metadata(cnxn, table_id):
     try:
         q = '''
         SELECT * FROM metadata_{}
-        ORDER BY "Block Name", "Variable Name" 
+        ORDER BY "Block Name", "Variable Name"
         '''.format(study.lower()+"_"+table.lower())
         values_df = pd.read_sql(q, cnxn)
     except FileNotFoundError:
         print("Couldn't find file {}. Skipping (shouldn't be a problem when we have a db...".format(str(study.upper())+table+".csv"))
         return None
-    
+
     return values_df
 
 def load_always_provisioned(cnxn):
@@ -152,16 +152,31 @@ def load_always_provisioned(cnxn):
     return df
 
 
-def basket_out(basket):
+def basket_out(basket, datasets_df):
+
     basket_pd = pd.DataFrame({
         "TABLE_SCHEMA" : [item.split("-")[0] for item in basket],
         "TABLE_NAME" : [item.split("-")[1] for item in basket]
         },
         columns = ["TABLE_SCHEMA", "TABLE_NAME"]
-    ) 
-    basket_pd.to_csv("server_save_basket_[datetime].csv", index = False)
+    )
+
+    # SN: added full table name and table type 160925
+    basket_pd = basket_pd.merge(
+        datasets_df,
+        left_on=["TABLE_SCHEMA", "TABLE_NAME"],
+        right_on=["source", "table"],
+        how="left")[
+            ["TABLE_SCHEMA",
+             "TABLE_NAME",
+             "table_name",
+             "Type"]].rename(
+                 columns={"table_name": "FULL_TABLE_NAME",
+                          "Type": "TABLE_TYPE"})
+
+    basket_pd.to_csv("server_save_basket_[datetime].csv", index=False)
     return basket_pd
-        
+
 
 def write_json(name, content):
     with open(os.path.join("assets",name), "w") as f:
@@ -171,7 +186,7 @@ def read_json(name):
     print("loading ",name)
     with open(os.path.join("assets",name), "r") as f:
         return json.load(f)
-    
+
 def load_map_data(cnxn):
     return pd.read_sql("SELECT * from geo_locations", cnxn)
 
@@ -182,11 +197,11 @@ def get_map_overlays(study):
     return returned_data
 
 '''
-spine: 
+spine:
 Minimum info required for searching. Source & dataset.
 
 dataset_counts:
-Source name + number of datasets within 
+Source name + number of datasets within
 (made redundant by...)
 
 study_participants
