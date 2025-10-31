@@ -421,7 +421,7 @@ def update_table_data(table_id):
         else:
             title_text2 = str(schema) + " " + str(table)
 
-        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", 'special_conditions',]]
+        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", 'special_conditions',"covid_only"]]
         with connect() as cnxn:
             metadata_df = dataIO.load_study_metadata(cnxn, table_id)[["Variable Name", "Variable Description", "Value","Value Description"]]
             data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)

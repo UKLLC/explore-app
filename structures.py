@@ -948,6 +948,16 @@ def make_schema_description(schemas):
     schemas = schemas[constants.SOURCE_SUMMARY_VARS.keys()].rename(columns = constants.SOURCE_SUMMARY_VARS)
     schemas["Number of datasets"] = schemas["Number of datasets"].astype(int)
     schemas["Participant count"] = schemas["Participant count"].astype(int)
+    # covid only flag
+    if schemas["Covid Restrictions"].iloc[0] == 1.0:
+        schemas["Covid Restrictions"] = "Study data can only be used for COVID-19 research"
+    elif schemas["Covid Restrictions"].iloc[0] == 0.0:
+        schemas["Covid Restrictions"] = "Study data can be used for any public good research"
+    else:
+        schemas = schemas.drop(columns="Covid Restrictions")
+    # Copyright
+    if schemas["Copyright"].iloc[0] is None or schemas["Copyright"].iloc[0] == "":
+        schemas = schemas.drop(columns="Copyright")
     return make_info_box(schemas)
 
 def make_block_description(blocks, harmony_link=None):
@@ -965,6 +975,14 @@ def make_block_description(blocks, harmony_link=None):
     # if no restrictions on dataset then remove
     if blocks["Restrictions on use"].iloc[0] == "Not currently available":
         blocks = blocks.drop(columns="Restrictions on use")
+    
+    # covid only flag
+    if blocks["Covid Restrictions"].iloc[0] == 1.0:
+        blocks["Covid Restrictions"] = "Data can only be used for COVID-19 research"
+    elif blocks["Covid Restrictions"].iloc[0] == 0.0:
+        blocks["Covid Restrictions"] = "Data can be used for any public good research"
+    else:
+        blocks = blocks.drop(columns="Covid Restrictions")
 
     return make_info_box(blocks, harmony_link=harmony_link)
 
