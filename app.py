@@ -437,8 +437,10 @@ def update_table_data(table_id):
                 values.append(round(v * 100, 2))
                 counts.append(str(d))
 
-        if len(labels) > 0:
+        if len(labels) > 0 and (schema != "NHSE" or schema != "UKLLC"):
             pie = struct.pie(labels, values, counts)
+        elif schema == "NHSE" or schema == "UKLLC"):
+            pie = "Linkage statistics not available for {} {}".format(schema, table)
         else:
             pie = "Linkage statistics are not currently available for {} {}".format(schema, table)
 

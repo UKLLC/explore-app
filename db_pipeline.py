@@ -236,7 +236,7 @@ def main():
     dataset_participants = data["block participants"]
     weighted_dataset_participants = data["weighted participants"]
     block_ages = data["block ages"]
-    datasets = data["datasets"]
+    datasets = data["datasets"]["datasets"]
     cohort_linkage_groups = data["cohort linkage rate"]
     cohort_ages = data["cohort ages"]
     linked_ages = data["linked ages"]
@@ -297,6 +297,7 @@ def main():
     blocks_linkage_rows = []
     blocks_linkage_by_group_rows = []
     for block in datasets.keys():
+        print(block)
         schema = block.split(".")[0]
         table = block.split(".")[1]
         total = datasets[block]["total"]
