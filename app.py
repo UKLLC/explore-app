@@ -1,3 +1,4 @@
+
 # sidebar.py
 import dash
 from dash import dcc
@@ -22,8 +23,6 @@ import dataIO
 import structures as struct
 
 import time
-
-
 
 ######################################################################################
 app = dash.Dash(
@@ -79,6 +78,7 @@ def connect():
     except Exception as e:
         print("fatal: Connection to database failed")
         raise Exception("DB connection failed")
+    
 
 def searchbox_connect():
 
@@ -96,23 +96,27 @@ def searchbox_connect():
 es = searchbox_connect()
 
 
-
 #########
-
 
 with connect() as cnxn:
     # Load block info
-    datasets_df = dataIO.load_datasets(cnxn)
+    datasets_df = dataIO.get_datasets()
 
-    dataset_counts = datasets_df[["source", "table", "participant_count", "weighted_participant_count", "Type"]]
+    dataset_counts = datasets_df[["source", "table", "participants_included", "participant_count", "Type"]]
 
-    source_info = dataIO.load_source_info(cnxn)
+    # FRI - switch this and test it displays correctly
+    #source_info = dataIO.load_source_info(cnxn)
+    source_info = dataIO.get_sources()
+
+
     spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
 
     map_data = dataIO.load_map_data(cnxn)
     ap_df = dataIO.load_always_provisioned(cnxn)
 
     cnxn.close()
+
+
 
 themes = []
 for x in list(set(source_info["Themes"])):
@@ -129,7 +133,6 @@ themes.remove("")
 
 
 gj = dataIO.load_geojson()
-
 
 
 
@@ -240,8 +243,12 @@ def update_schema_description(source):
         source_name = info["source_name"].values[0]
         if info["Type"].values[0] == "Linked":
             title_text1 = "Linked Source"
-        else:
+        elif info["Type"].values[0] == "LPS":
             title_text1 = "LPS Source"
+        elif info["Type"].values[0] == "UK LLC Managed":
+            title_text1 = "UK LLC Managed Source"
+        else:
+            title_text1 = "UK LLC Data Source"
 
         return title_text1, source_name, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), {"display": "flex"}
     else:
@@ -411,11 +418,15 @@ def update_table_data(table_id):
         long_desc = blocks["long_desc"].values[0]
         long_name = blocks["table_name"].values[0]
 
-
         if blocks["Type"].values[0] == "Linked":
-            title_text1 = "Linked Dataset"
+            title_text1 = "Linked Source"
+        elif blocks["Type"].values[0] == "LPS":
+            title_text1 = "LPS Source"
+        elif blocks["Type"].values[0] == "UK LLC Managed":
+            title_text1 = "UK LLC Managed Source"
         else:
-            title_text1 = "LPS Dataset"
+            title_text1 = "UK LLC Data Source"
+
         if long_name and len(long_name) > 0:
             title_text2 = str(long_name)
         else:
@@ -1258,7 +1269,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''

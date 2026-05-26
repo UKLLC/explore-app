@@ -1,11 +1,38 @@
 import pandas as pd
 import json
 import os
+import requests
+
+# define API key 
+API_KEY = os.environ['FASTAPI_KEY']
+API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
+
+def get_datasets():
+    url = API_BASE + "all-datasets/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+
+    # convert to match old format (temp step)
+    cols_to_drop = [
+        'dataset_id',
+        'data_source_id',
+        'earliest_version_date'
+    ]
+    df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
+    # rename source_type -> Type
+    df = df.rename(columns={
+        'source_type': 'Type'
+    })
+
+    return df
 
 
 def load_datasets(cnxn):
     df = pd.read_sql("SELECT * from dataset", cnxn)
     return df
+
 
 def load_geojson():
     with open(os.path.join("assets","map overlays","regions.geojson"), 'r') as f:
@@ -61,12 +88,24 @@ def load_dataset_age(cnxn, source = "none", table_name = "none"):
     else:
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"] == (table_name))]
 
+def get_sources():
+    url = API_BASE + "source/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    df = df.rename(columns={
+        'source_type': 'Type'
+    })
+    return df
+
 def load_source_info(cnxn, source = "none"):
     rtn = pd.read_sql("SELECT * from source_info", cnxn)
     if source == "none":
         return rtn
     else:
         return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
+    
 
 def load_dataset_count(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_participants", cnxn)
@@ -237,3 +276,4 @@ dataset + date + count
 source_info:
 full info for sources
 '''
+# %%

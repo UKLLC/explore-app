@@ -5,6 +5,7 @@ import pandas as pd
 from dash import dash_table
 import warnings
 import plotly.graph_objects as go
+import numpy as np
 
 import stylesheet as ss
 import constants
@@ -955,9 +956,19 @@ def make_schema_description(schemas):
         schemas["Covid Restrictions"] = "Study data can be used for any public good research"
     else:
         schemas = schemas.drop(columns="Covid Restrictions")
-    # Copyright
-    if schemas["Copyright"].iloc[0] is None or schemas["Copyright"].iloc[0] == "":
-        schemas = schemas.drop(columns="Copyright")
+    # Copyright (no longer in MMS) - this is temp fill
+    mask = schemas["Study Name"] == "NHS England"
+    if mask.any():
+        schemas["Copyright"] = None
+        schemas.loc[mask, "Copyright"] = (
+            "Copyright © (2025), NHS England. Data re-used with the permission "
+            "of NHS England. All rights reserved."
+        )
+    # cleanup - if copyright is all null or empty, drop the column
+    if "Copyright" in schemas.columns:
+        if schemas["Copyright"].isna().all() or (schemas["Copyright"] == "").all():
+            schemas = schemas.drop(columns="Copyright")
+    
     return make_info_box(schemas)
 
 def make_block_description(blocks, harmony_link=None):
