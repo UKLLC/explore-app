@@ -1,3 +1,4 @@
+# %%
 import pandas as pd
 import json
 import os
@@ -6,6 +7,38 @@ import requests
 # define API key 
 API_KEY = os.environ['FASTAPI_KEY']
 API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
+
+# temp for testing existing endpoints
+
+def get_vars(table_id): # this should be source_table_name e.g. bcs70_bcs3
+    print("DEBUG: Load request for", table_id)
+    #study = table_id.split("-")[0]
+    #table = table_id.split("-")[1]
+    url = API_BASE + f"variable-by-dataset/{table_id}/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    # remove ID columns
+    cols_to_drop = [
+        'index',
+        'dataset_version_id',
+        'dataset_id',
+        'data_source_id'
+    ]
+    df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
+    # rename to match expected format
+    df = df.rename(columns={
+        "variable_name": "Variable Name",
+        "variable_label": "Variable Description",
+        "value": "Value",
+        "value_label": "Value Description"
+    })
+    df = df.sort_values(by="Variable Name", ignore_index=True)
+    return df
+
+t1 = get_vars("bcs3")
+# %%
 
 def get_datasets():
     url = API_BASE + "all-datasets/"
@@ -29,15 +62,16 @@ def get_datasets():
     return df
 
 
-def load_datasets(cnxn):
-    df = pd.read_sql("SELECT * from dataset", cnxn)
-    return df
+# def load_datasets(cnxn):
+#     df = pd.read_sql("SELECT * from dataset", cnxn)
+#     return df
 
 
 def load_geojson():
     with open(os.path.join("assets","map overlays","regions.geojson"), 'r') as f:
         gj = json.load(f)
     return gj
+
 
 def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_linkage_by_group", cnxn)
@@ -49,19 +83,26 @@ def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
         return rtn.loc[rtn["table_name"].str.contains(table_name)]
     else:
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+    
 
-def load_dataset_linkage(cnxn, source = "none", table_name = "none"):
-    rtn = pd.read_sql("SELECT * from dataset_linkage", cnxn)
-    if source == "none" and table_name == "none":
-        return rtn
-    elif source == "none":
-        return rtn.loc[rtn["source"].str.lower() == source.lower()]
-    elif table_name == "none":
-        return rtn.loc[rtn["table_name"].str.contains(table_name)]
-    else:
-        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+# dataset linkage rate is new table name
+# NEW API endpoint required - once dataset_linkage_rate is fully populated
 
 
+# THIS DOES NOT APPEAR TO BE USED ANYWHERE - CHECK BEFORE DELETING
+# def load_dataset_linkage(cnxn, source = "none", table_name = "none"):
+#     rtn = pd.read_sql("SELECT * from dataset_linkage", cnxn)
+#     if source == "none" and table_name == "none":
+#         return rtn
+#     elif source == "none":
+#         return rtn.loc[rtn["source"].str.lower() == source.lower()]
+#     elif table_name == "none":
+#         return rtn.loc[rtn["table_name"].str.contains(table_name)]
+#     else:
+#         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+
+
+# NEW API ENDPOINT - DEFINED AND GIVEN TO ALEX
 def load_cohort_linkage_groups(cnxn, source = "none"):
     rtn = pd.read_sql("SELECT * from cohort_linkage_by_group", cnxn)
     if source == "none":
@@ -69,7 +110,7 @@ def load_cohort_linkage_groups(cnxn, source = "none"):
     else:
         return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
 
-
+# NEW API ENDPOINT - DEFINED AND GIVEN TO ALEX
 def load_cohort_age(cnxn, source = "none"):
     rtn = pd.read_sql("SELECT * from cohort_ages", cnxn)
     if source == "none":
@@ -77,6 +118,7 @@ def load_cohort_age(cnxn, source = "none"):
     else:
         return rtn.loc[(rtn["source"].str.lower() == source.lower())]
 
+# NEW API ENDPOINT - DEFINED AND GIVEN TO ALEX
 def load_dataset_age(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_ages", cnxn)
     if source == "none" and table_name == "none":
@@ -87,6 +129,7 @@ def load_dataset_age(cnxn, source = "none", table_name = "none"):
         return rtn.loc[rtn["table_name"] == table_name]
     else:
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"] == (table_name))]
+
 
 def get_sources():
     url = API_BASE + "source/"
@@ -99,93 +142,125 @@ def get_sources():
     })
     return df
 
-def load_source_info(cnxn, source = "none"):
-    rtn = pd.read_sql("SELECT * from source_info", cnxn)
-    if source == "none":
-        return rtn
-    else:
-        return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
+# def load_source_info(cnxn, source = "none"):
+#     rtn = pd.read_sql("SELECT * from source_info", cnxn)
+#     if source == "none":
+#         return rtn
+#     else:
+#         return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
     
 
-def load_dataset_count(cnxn, source = "none", table_name = "none"):
-    rtn = pd.read_sql("SELECT * from dataset_participants", cnxn)
-    if source == "none" and table_name == "none":
-        return rtn
-    elif source == "none":
-        return rtn.loc[rtn["source"].str.lower() == source.lower()]
-    elif table_name == "none":
-        return rtn.loc[rtn["table_name"].str.contains(table_name)]
-    else:
-        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
+# THIS DOES NOT APPEAR TO BE USED ANYWHERE - CHECK BEFORE DELETING
+# def load_dataset_count(cnxn, source = "none", table_name = "none"):
+#     rtn = pd.read_sql("SELECT * from dataset_participants", cnxn)
+#     if source == "none" and table_name == "none":
+#         return rtn
+#     elif source == "none":
+#         return rtn.loc[rtn["source"].str.lower() == source.lower()]
+#     elif table_name == "none":
+#         return rtn.loc[rtn["table_name"].str.contains(table_name)]
+#     else:
+#         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
 
 
-def load_search(cnxn, source = "none", table_name = "none"):
+# THIS DOES NOT APPEAR TO BE USED ANYWHERE - CHECK BEFORE DELETING
+# def load_search(cnxn, source = "none", table_name = "none"):
 
-    if source == "none" and table_name == "none":
-        return pd.read_sql("SELECT * from search", cnxn)
-    elif source == "none":
-        return pd.read_sql("SELECT * from search where [table] = '{}'".format(source, table_name), cnxn)
-    elif table_name == "none":
-        return pd.read_sql("SELECT * from search where [source] = '{}'".format(source, table_name), cnxn)
+#     if source == "none" and table_name == "none":
+#         return pd.read_sql("SELECT * from search", cnxn)
+#     elif source == "none":
+#         return pd.read_sql("SELECT * from search where [table] = '{}'".format(source, table_name), cnxn)
+#     elif table_name == "none":
+#         return pd.read_sql("SELECT * from search where [source] = '{}'".format(source, table_name), cnxn)
 
-    else:
-        return pd.read_sql("SELECT * from search where [source] = '{}' and [table] = '{}'".format(source, table_name), cnxn)
-
-
-
-
-def load_study_request(cnxn):
-    '''
-    Data request form info
-    @depricated: should now use
-    '''
-    sheet_df = pd.read_sql("SELECT * from drf_lps", cnxn)
-    #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
-
-    return sheet_df
+#     else:
+#         return pd.read_sql("SELECT * from search where [source] = '{}' and [table] = '{}'".format(source, table_name), cnxn)
 
 
-def load_linked_request(cnxn):
-    '''
-    '''
-    # What do we need?
-    # Data Block Name	Data Block Description	Coverage 	Time Period†	Number of Participants Included (n=) (i.e. number of particpants with non-null data, and with UK LLC, and linkage permission)"	Documentation 	Codelist Required	Health Domain Groupings (i.e. covid infection, asthma, smoking, etc.) 	Justification of dataset request
+# THIS DOES NOT APPEAR TO BE USED ANYWHERE - CHECK BEFORE DELETING
+# def load_study_request(cnxn):
+#     '''
+#     Data request form info
+#     @depricated: should now use
+#     '''
+#     sheet_df = pd.read_sql("SELECT * from drf_lps", cnxn)
+#     #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study data requested",skiprows=5, usecols = "D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R")
 
-    #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Linked data requested",skiprows=5, usecols = "A,B,C,D,E,F,G,H")
-    #sheet_df = sheet_df.rename(columns = {"Data Block Name":"Block Name", "Data Block Description":"Block Description", "Time Period†":"Timepoint: Data Collected", "'Health Domain Groupings (i.e. covid infection, asthma, smoking, etc.)":"Keywords"})
-    #sheet_df["Source"] = "NHSD"
-    sheet_df = pd.read_sql("SELECT * from drf_nhs", cnxn)
+#     return sheet_df
 
-    return sheet_df
+# THIS DOES NOT APPEAR TO BE USED ANYWHERE - CHECK BEFORE DELETING
+# def load_linked_request(cnxn):
+#     '''
+#     '''
+#     # What do we need?
+#     # Data Block Name	Data Block Description	Coverage 	Time Period†	Number of Participants Included (n=) (i.e. number of particpants with non-null data, and with UK LLC, and linkage permission)"	Documentation 	Codelist Required	Health Domain Groupings (i.e. covid infection, asthma, smoking, etc.) 	Justification of dataset request
 
+#     #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Linked data requested",skiprows=5, usecols = "A,B,C,D,E,F,G,H")
+#     #sheet_df = sheet_df.rename(columns = {"Data Block Name":"Block Name", "Data Block Description":"Block Description", "Time Period†":"Timepoint: Data Collected", "'Health Domain Groupings (i.e. covid infection, asthma, smoking, etc.)":"Keywords"})
+#     #sheet_df["Source"] = "NHSD"
+#     sheet_df = pd.read_sql("SELECT * from drf_nhs", cnxn)
 
-def load_study_info_and_links(cnxn):
-    '''
-    '''
-    #TODO Convert to database
-    #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study info & links", skiprows=1, usecols = "B,C,D,E,F,G,H,I,J" )
-    sheet_df = pd.read_sql("SELECT * from study_info", cnxn)
-    return sheet_df
+#     return sheet_df
 
-def load_study_metadata(cnxn, table_id):
-    '''
-    '''
+# THIS DOES NOT APPEAR TO BE USED ANYWHERE - CHECK BEFORE DELETING
+# def load_study_info_and_links(cnxn):
+#     '''
+#     '''
+#     #TODO Convert to database
+#     #sheet_df = pd.read_excel(os.path.join("assets", "Data Request Form.xlsx"), sheet_name="Study info & links", skiprows=1, usecols = "B,C,D,E,F,G,H,I,J" )
+#     sheet_df = pd.read_sql("SELECT * from study_info", cnxn)
+#     return sheet_df
+
+# USE EXISTING ENDPOINTS variable-by-dataset 
+
+# def load_study_metadata(cnxn, table_id):
+#     '''
+#     '''
+#     print("DEBUG: Load request for", table_id)
+#     study = table_id.split("-")[0]
+#     table = table_id.split("-")[1]
+#     # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
+#     try:
+#         q = '''
+#         SELECT * FROM metadata_{}
+#         ORDER BY "Block Name", "Variable Name"
+#         '''.format(study.lower()+"_"+table.lower())
+#         values_df = pd.read_sql(q, cnxn)
+#     except FileNotFoundError:
+#         print("Couldn't find file {}. Skipping (shouldn't be a problem when we have a db...".format(str(study.upper())+table+".csv"))
+#         return None
+
+#     return values_df
+
+# SPEAK TO ALEX ABOUT DELIVERING SOURCE NAME AS WELL AS DATASET NAME
+def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
     print("DEBUG: Load request for", table_id)
-    study = table_id.split("-")[0]
-    table = table_id.split("-")[1]
-    # TODO change to joined metadata file (requires preprep, splitting all into proper folders)
-    try:
-        q = '''
-        SELECT * FROM metadata_{}
-        ORDER BY "Block Name", "Variable Name"
-        '''.format(study.lower()+"_"+table.lower())
-        values_df = pd.read_sql(q, cnxn)
-    except FileNotFoundError:
-        print("Couldn't find file {}. Skipping (shouldn't be a problem when we have a db...".format(str(study.upper())+table+".csv"))
-        return None
+    #study = table_id.split("-")[0]
+    #table = table_id.split("-")[1]
+    url = API_BASE + f"variable-by-dataset/{table_id}/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    # remove ID columns
+    cols_to_drop = [
+        'index',
+        'dataset_version_id',
+        'dataset_id',
+        'data_source_id'
+    ]
+    df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
+    # rename to match expected format
+    df = df.rename(columns={
+        "variable_name": "Variable Name",
+        "variable_label": "Variable Description",
+        "value": "Value",
+        "value_label": "Value Description"
+    })
+    df = df.sort_values(by="Variable Name", ignore_index=True)
+    return df
 
-    return values_df
-
+# PICKUP HERE
 def load_always_provisioned(cnxn):
     df = pd.read_sql("SELECT * from always_provisioned", cnxn)
     return df
@@ -276,4 +351,6 @@ dataset + date + count
 source_info:
 full info for sources
 '''
+
+
 # %%
