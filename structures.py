@@ -742,15 +742,7 @@ def make_basket_review_offcanvas():
         id = "codelist_download"),
 
         html.Div([
-            text_block("Default datasets (automatically included):")
-        ],
-        id = "basket_review_always_selected_text"),
-        html.Div([
-            text_block("")
-        ],
-        id = "basket_review_always_selected"),
-        html.Div([
-            text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
+            text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
         ],
         id = "basket_review_text_div"),
 

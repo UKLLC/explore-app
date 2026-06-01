@@ -1,4 +1,3 @@
-
 # sidebar.py
 import dash
 from dash import dcc
@@ -66,8 +65,6 @@ app.index_string = """<!DOCTYPE html>
 </html>"""
 
 
-
-
 def connect():
     try:
         db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
@@ -104,15 +101,12 @@ with connect() as cnxn:
 
     dataset_counts = datasets_df[["source", "table", "participants_included", "participant_count", "Type"]]
 
-    # FRI - switch this and test it displays correctly
-    #source_info = dataIO.load_source_info(cnxn)
     source_info = dataIO.get_sources()
-
 
     spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
 
     map_data = dataIO.load_map_data(cnxn)
-    ap_df = dataIO.load_always_provisioned(cnxn)
+    #ap_df = dataIO.load_always_provisioned(cnxn)
 
     cnxn.close()
 
@@ -479,7 +473,6 @@ def update_table_data(table_id):
     Output("basket_review_text_div", "children"),
     Output("basket_review_table_div", "style"),
     Output("basket_review_text_div", "style"),
-    Output("basket_review_always_selected", "children"),
     Input("shopping_basket", "data"),
 )
 def basket_review(shopping_basket):
@@ -508,11 +501,11 @@ def basket_review(shopping_basket):
     df = pd.DataFrame(rows, columns=["source", "table", "long_desc"])
     brtable = struct.basket_review_table(df)
 
-    always_available_tables = struct.always_available_table(ap_df)
+    #always_available_tables = struct.always_available_table(ap_df)
     if len(df) > 0:
-        return brtable, "You have {} datasets in your selection".format(len(df)), {"display":"flex"}, {"display":"none"}, always_available_tables
+        return brtable, "You have {} datasets in your selection".format(len(df)), {"display":"flex"}, {"display":"none"}
     else:
-        return brtable, struct.text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets."), {"display":"none"}, {"display":"flex"}, always_available_tables
+        return brtable, struct.text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets."), {"display":"none"}, {"display":"flex"}
 
 
 #########################

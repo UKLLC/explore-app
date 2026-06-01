@@ -10,34 +10,34 @@ API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
 
 # temp for testing existing endpoints
 
-def get_vars(table_id): # this should be source_table_name e.g. bcs70_bcs3
-    print("DEBUG: Load request for", table_id)
-    #study = table_id.split("-")[0]
-    #table = table_id.split("-")[1]
-    url = API_BASE + f"variable-by-dataset/{table_id}/"
-    r = requests.get(url, headers={"access-token": API_KEY})
-    r.raise_for_status() 
-    data = r.json()
-    df = pd.DataFrame(data)
-    # remove ID columns
-    cols_to_drop = [
-        'index',
-        'dataset_version_id',
-        'dataset_id',
-        'data_source_id'
-    ]
-    df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
-    # rename to match expected format
-    df = df.rename(columns={
-        "variable_name": "Variable Name",
-        "variable_label": "Variable Description",
-        "value": "Value",
-        "value_label": "Value Description"
-    })
-    df = df.sort_values(by="Variable Name", ignore_index=True)
-    return df
+# def get_vars(table_id): # this should be source_table_name e.g. bcs70_bcs3
+#     print("DEBUG: Load request for", table_id)
+#     #study = table_id.split("-")[0]
+#     #table = table_id.split("-")[1]
+#     url = API_BASE + f"variable-by-dataset/{table_id}/"
+#     r = requests.get(url, headers={"access-token": API_KEY})
+#     r.raise_for_status() 
+#     data = r.json()
+#     df = pd.DataFrame(data)
+#     # remove ID columns
+#     cols_to_drop = [
+#         'index',
+#         'dataset_version_id',
+#         'dataset_id',
+#         'data_source_id'
+#     ]
+#     df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
+#     # rename to match expected format
+#     df = df.rename(columns={
+#         "variable_name": "Variable Name",
+#         "variable_label": "Variable Description",
+#         "value": "Value",
+#         "value_label": "Value Description"
+#     })
+#     df = df.sort_values(by="Variable Name", ignore_index=True)
+#     return df
 
-t1 = get_vars("bcs3")
+# t1 = get_vars("bcs3")
 # %%
 
 def get_datasets():
@@ -260,10 +260,13 @@ def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
     df = df.sort_values(by="Variable Name", ignore_index=True)
     return df
 
-# PICKUP HERE
-def load_always_provisioned(cnxn):
-    df = pd.read_sql("SELECT * from always_provisioned", cnxn)
-    return df
+# AUTO PROVISIONING - DEPRICATED - CHECK BEFORE DELETING
+#def load_always_provisioned(cnxn):
+#    df = pd.read_sql("SELECT * from always_provisioned", cnxn)
+#    return df
+
+
+
 
 
 def basket_out(basket, datasets_df):
