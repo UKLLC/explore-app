@@ -105,7 +105,8 @@ with connect() as cnxn:
 
     spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
 
-    map_data = dataIO.load_map_data(cnxn)
+    map_data = dataIO.get_region_counts()
+    #map_data = dataIO.load_map_data(cnxn)
     #ap_df = dataIO.load_always_provisioned(cnxn)
 
     cnxn.close()
@@ -363,14 +364,14 @@ def update_schema_boxplot(current_tab, source):
 
     print(" boxplot trigger {}".format(trigger))
     if source != None and source != "None":
-
-        with connect() as cnxn:
-            ages = dataIO.load_cohort_age(cnxn, source)
+        ages = dataIO.get_source_age(source)
         ### boxplot #####
-        if len(ages["mean"].values) > 0:
+        if len(ages["mean_age"].values) > 0:
             try:
                 print("Confirm made boxplot")
-                boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
+                boxplot = struct.boxplot(mean = ages["mean_age"], median = ages["q2_age"],
+                                         q1 = ages["q1_age"], q3 = ages["q3_age"],
+                                         lf = ages["lower_fence_age"], uf = ages["upper_fence_age"])
             except Exception as e:
                 print(e)
                 boxplot = struct.error_p("Error: unable to make age boxplot")
@@ -430,7 +431,7 @@ def update_table_data(table_id):
         with connect() as cnxn:
             metadata_df = dataIO.get_labels(table_id)
             data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
-            ages = dataIO.load_dataset_age(cnxn, schema, table)
+            ages = dataIO.get_dataset_age(source_name=schema, dataset_name=table)
             cnxn.close()
         labels = []
         values = []
@@ -449,9 +450,10 @@ def update_table_data(table_id):
         else:
             pie = "Linkage statistics are not currently available for {} {}".format(schema, table)
 
-
-        if len(ages["mean"].values) > 0:
-            boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
+        if len(ages["mean_age"].values) > 0:
+            boxplot = struct.boxplot(mean = ages["mean_age"], median = ages["q2_age"],
+                                     q1 = ages["q1_age"], q3 = ages["q3_age"],
+                                     lf = ages["lower_fence_age"], uf = ages["upper_fence_age"])
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
         harmony_link = struct.create_harmony_link(metadata_df, title_text1 + " / " + title_text2 + " (imported from UKLLC)")

@@ -1,4 +1,5 @@
 # %%
+from numpy import source
 import pandas as pd
 import json
 import os
@@ -8,41 +9,17 @@ import requests
 API_KEY = os.environ['FASTAPI_KEY']
 API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
 
+def get_region_counts():
+    url = API_BASE + f"geo-locations/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    return df
 
-# temp for testing existing endpoints
-# def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
-#     print("DEBUG: Load request for", table_id)
-#     study = table_id.split("-")[0]
-#     table = table_id.split("-")[1]
-#     url = API_BASE + f"variable-by-dataset/{study}/{table}/"
-#     r = requests.get(url, headers={"access-token": API_KEY})
-#     r.raise_for_status() 
-#     data = r.json()
-#     df = pd.DataFrame(data)
-#     # remove ID columns
-#     cols_to_drop = [
-#         'index',
-#         'dataset_version_id',
-#         'dataset_id',
-#         'data_source_id'
-#     ]
-#     df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
-#     # rename to match expected format
-#     df = df.rename(columns={
-#         "variable_name": "Variable Name",
-#         "variable_label": "Variable Description",
-#         "value": "Value",
-#         "value_label": "Value Description"
-#     })
-#     if "Variable Name" in df.columns:
-#         df = df.sort_values(by="Variable Name", ignore_index=True)
-#     else:
-#         print("WARNING: 'Variable Name' column missing. Columns are:", df.columns)
-#     return df
-
-# t4 = get_labels("alspac-wave4m")
-
+t1 = get_region_counts()
 # %%
+
 
 # DONE
 def get_datasets():
@@ -66,6 +43,9 @@ def get_datasets():
 
     return df
 
+
+# TODO - SAM TO POPULATE dataset_linkage_rate 
+# NEED TO GIVE ALEX NEW API endpoint definition 
 def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_linkage_by_group", cnxn)
     if source == "none" and table_name == "none":
@@ -76,10 +56,6 @@ def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
         return rtn.loc[rtn["table_name"].str.contains(table_name)]
     else:
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"].str.contains(table_name))]
-    
-
-# dataset linkage rate is new table name
-# NEW API endpoint required - once dataset_linkage_rate is fully populated
 
 
 # THIS DOES NOT APPEAR TO BE USED ANYWHERE - CHECK BEFORE DELETING
@@ -103,25 +79,62 @@ def load_cohort_linkage_groups(cnxn, source = "none"):
     else:
         return rtn.loc[(rtn["cohort"].str.lower() == source.lower())]
 
-# NEW API ENDPOINT - DEFINED AND GIVEN TO ALEX
-def load_cohort_age(cnxn, source = "none"):
-    rtn = pd.read_sql("SELECT * from cohort_ages", cnxn)
-    if source == "none":
-        return rtn
-    else:
-        return rtn.loc[(rtn["source"].str.lower() == source.lower())]
+# NEED NEW GRAPH TO PICK THIS UP
+def get_source_linkage_rate():
+    url = API_BASE + "source-linkage-rate/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    return df
 
-# NEW API ENDPOINT - DEFINED AND GIVEN TO ALEX
-def load_dataset_age(cnxn, source = "none", table_name = "none"):
-    rtn = pd.read_sql("SELECT * from dataset_ages", cnxn)
-    if source == "none" and table_name == "none":
-        return rtn
-    elif source == "none":
-        return rtn.loc[rtn["source"].str.lower() == source.lower()]
-    elif table_name == "none":
-        return rtn.loc[rtn["table_name"] == table_name]
+
+# DONE 
+# def load_cohort_age(cnxn, source = "none"):
+#     rtn = pd.read_sql("SELECT * from cohort_ages", cnxn)
+#     if source == "none":
+#         return rtn
+#     else:
+#         return rtn.loc[(rtn["source"].str.lower() == source.lower())]
+def get_source_age(source):
+    url = API_BASE + f"source-age-bw/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status()
+    data = r.json()
+    df = pd.DataFrame(data)
+    if source == "none":
+        return df
     else:
-        return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"] == (table_name))]
+        return df.loc[(df["name"].str.lower() == source.lower())]
+    
+# DONE
+# def load_dataset_age(cnxn, source = "none", table_name = "none"):
+#     rtn = pd.read_sql("SELECT * from dataset_ages", cnxn)
+#     if source == "none" and table_name == "none":
+#         return rtn
+#     elif source == "none":
+#         return rtn.loc[rtn["source"].str.lower() == source.lower()]
+#     elif table_name == "none":
+#         return rtn.loc[rtn["table_name"] == table_name]
+#     else:
+#         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"] == (table_name))]
+
+def get_dataset_age(source_name = "none", dataset_name = "none"):
+    url = API_BASE + f"dataset-age-bw/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status()
+    data = r.json()
+    df = pd.DataFrame(data)
+
+    if source_name == "none" and dataset_name == "none":
+        return df
+    elif source_name == "none":
+        return df.loc[df["source_name"].str.lower() == source_name.lower()]
+    elif dataset_name == "none":
+        return df.loc[df["dataset_name"] == dataset_name]
+    else:
+        return df.loc[(df["source_name"].str.lower() == source_name.lower()) & (df["dataset_name"] == (dataset_name))]
+
 
 # DONE
 def get_sources():
@@ -225,8 +238,8 @@ def get_sources():
 
 #     return values_df
 
-# SPEAK TO ALEX ABOUT DELIVERING SOURCE NAME AS WELL AS DATASET NAME
-def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
+# DONE
+def get_labels(table_id): 
     print("DEBUG: Load request for", table_id)
     study = table_id.split("-")[0]
     table = table_id.split("-")[1]
@@ -260,7 +273,7 @@ def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
 def load_map_data(cnxn):
     return pd.read_sql("SELECT * from geo_locations", cnxn)
 
-# AWAITING SAM TO FEED DATA INTO REGION COUNTS TABLE
+# AWAITING SAM TO FEED DATA INTO REGION COUNTS TABLE  
 def get_region_counts():
     url = API_BASE + f"geo-locations/"
     r = requests.get(url, headers={"access-token": API_KEY})
@@ -268,6 +281,8 @@ def get_region_counts():
     data = r.json()
     df = pd.DataFrame(data)
     return df
+
+t1 = 
 
 
 
