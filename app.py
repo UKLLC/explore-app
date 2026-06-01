@@ -428,7 +428,7 @@ def update_table_data(table_id):
 
         blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", 'special_conditions',"covid_only"]]
         with connect() as cnxn:
-            metadata_df = dataIO.load_study_metadata(cnxn, table_id)[["Variable Name", "Variable Description", "Value","Value Description"]]
+            metadata_df = dataIO.get_labels(table_id)
             data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
             ages = dataIO.load_dataset_age(cnxn, schema, table)
             cnxn.close()

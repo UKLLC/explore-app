@@ -8,13 +8,13 @@ import requests
 API_KEY = os.environ['FASTAPI_KEY']
 API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
 
-# temp for testing existing endpoints
 
-# def get_vars(table_id): # this should be source_table_name e.g. bcs70_bcs3
+# temp for testing existing endpoints
+# def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
 #     print("DEBUG: Load request for", table_id)
-#     #study = table_id.split("-")[0]
-#     #table = table_id.split("-")[1]
-#     url = API_BASE + f"variable-by-dataset/{table_id}/"
+#     study = table_id.split("-")[0]
+#     table = table_id.split("-")[1]
+#     url = API_BASE + f"variable-by-dataset/{study}/{table}/"
 #     r = requests.get(url, headers={"access-token": API_KEY})
 #     r.raise_for_status() 
 #     data = r.json()
@@ -34,12 +34,17 @@ API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
 #         "value": "Value",
 #         "value_label": "Value Description"
 #     })
-#     df = df.sort_values(by="Variable Name", ignore_index=True)
+#     if "Variable Name" in df.columns:
+#         df = df.sort_values(by="Variable Name", ignore_index=True)
+#     else:
+#         print("WARNING: 'Variable Name' column missing. Columns are:", df.columns)
 #     return df
 
-# t1 = get_vars("bcs3")
+# t4 = get_labels("alspac-wave4m")
+
 # %%
 
+# DONE
 def get_datasets():
     url = API_BASE + "all-datasets/"
     r = requests.get(url, headers={"access-token": API_KEY})
@@ -60,18 +65,6 @@ def get_datasets():
     })
 
     return df
-
-
-# def load_datasets(cnxn):
-#     df = pd.read_sql("SELECT * from dataset", cnxn)
-#     return df
-
-
-def load_geojson():
-    with open(os.path.join("assets","map overlays","regions.geojson"), 'r') as f:
-        gj = json.load(f)
-    return gj
-
 
 def load_dataset_linkage_groups(cnxn, source = "none", table_name = "none"):
     rtn = pd.read_sql("SELECT * from dataset_linkage_by_group", cnxn)
@@ -130,7 +123,7 @@ def load_dataset_age(cnxn, source = "none", table_name = "none"):
     else:
         return rtn.loc[(rtn["source"].str.lower() == source.lower()) & (rtn["table_name"] == (table_name))]
 
-
+# DONE
 def get_sources():
     url = API_BASE + "source/"
     r = requests.get(url, headers={"access-token": API_KEY})
@@ -235,9 +228,9 @@ def get_sources():
 # SPEAK TO ALEX ABOUT DELIVERING SOURCE NAME AS WELL AS DATASET NAME
 def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
     print("DEBUG: Load request for", table_id)
-    #study = table_id.split("-")[0]
-    #table = table_id.split("-")[1]
-    url = API_BASE + f"variable-by-dataset/{table_id}/"
+    study = table_id.split("-")[0]
+    table = table_id.split("-")[1]
+    url = API_BASE + f"variable-by-dataset/{study}/{table}/"
     r = requests.get(url, headers={"access-token": API_KEY})
     r.raise_for_status() 
     data = r.json()
@@ -257,16 +250,31 @@ def get_labels(table_id): # this should be source_table_name e.g. bcs70_bcs3
         "value": "Value",
         "value_label": "Value Description"
     })
-    df = df.sort_values(by="Variable Name", ignore_index=True)
+    if "Variable Name" in df.columns:
+        df = df.sort_values(by="Variable Name", ignore_index=True)
+    else:
+        print("WARNING: 'Variable Name' column missing. Columns are:", df.columns)
     return df
+
+
+def load_map_data(cnxn):
+    return pd.read_sql("SELECT * from geo_locations", cnxn)
+
+# AWAITING SAM TO FEED DATA INTO REGION COUNTS TABLE
+def get_region_counts():
+    url = API_BASE + f"geo-locations/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    return df
+
+
 
 # AUTO PROVISIONING - DEPRICATED - CHECK BEFORE DELETING
 #def load_always_provisioned(cnxn):
 #    df = pd.read_sql("SELECT * from always_provisioned", cnxn)
 #    return df
-
-
-
 
 
 def basket_out(basket, datasets_df):
@@ -304,14 +312,15 @@ def read_json(name):
     with open(os.path.join("assets",name), "r") as f:
         return json.load(f)
 
-def load_map_data(cnxn):
-    return pd.read_sql("SELECT * from geo_locations", cnxn)
-
-
 def get_map_overlays(study):
     with open(os.path.join("assets","map overlays",study+".geojson"), 'r') as f:
         returned_data = json.load(f)
     return returned_data
+
+def load_geojson():
+    with open(os.path.join("assets","map overlays","regions.geojson"), 'r') as f:
+        gj = json.load(f)
+    return gj
 
 '''
 spine:
