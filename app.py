@@ -143,7 +143,7 @@ def prep_counts(df):
 
 def load_or_fetch_map(study):
     df1 = map_data.loc[map_data["source"] == study]
-    df1 = df1.drop(["source", "source_stem", "index"], axis=1)
+    df1 = df1.drop(["source"], axis=1)
     df2 = pd.DataFrame([[ str(x), y] for x, y in zip(df1.columns, df1.iloc[0].values) ], columns = ["RGN23NM", "count"])
     df2["labels"] = df2["count"]
     df2["labels"].fillna("Not available")
@@ -304,38 +304,94 @@ def update_schema_map(current_tab, source):
     Input('active_source','data'),
     prevent_initial_call=True
 )
-def update_schema_pie(current_tab, source):
+# def update_schema_pie(current_tab, source):
+#     '''
+#     When schema updates, update documentation
+#     '''
+
+#     print("Updating schema pie, schema = '{}'".format(source))
+#     trigger = dash.ctx.triggered_id
+
+#     print(" pie trigger {}".format(trigger))
+#     if source != None and source != "None":
+
+#         with connect() as cnxn:
+#             data = dataIO.load_cohort_linkage_groups(cnxn, source)
+#         ### pie #####
+#         labels = []
+#         values = []
+#         counts = []
+#         for v, l, d in zip(data["perc"], data["group"], data["count"]):
+#             if v != 0:
+#                 l = str(l).replace("]","").replace("[","").replace("'","")
+#                 labels.append(l)
+#                 values.append(round(v * 100, 2))
+#                 counts.append(str(d))
+#         if len(labels) > 0:
+#             try:
+#                 pie = struct.pie(labels, values, counts)
+#             except:
+#                 pie = struct.error_p("Error: unable to make linkage pie")
+#         else:
+#             pie = struct.error_p("Linkage statistics are not currently available for {}".format(source))
+
+#         return pie
+#     else:
+#         return ""
+
+def update_schema_hbar(current_tab, source):
     '''
     When schema updates, update documentation
     '''
 
-    print("Updating schema pie, schema = '{}'".format(source))
+    print("Updating schema hbar, schema = '{}'".format(source))
     trigger = dash.ctx.triggered_id
 
-    print(" pie trigger {}".format(trigger))
+    print(" hbar trigger {}".format(trigger))
     if source != None and source != "None":
+        data = dataIO.get_source_linkage_rate(source = source)
 
-        with connect() as cnxn:
-            data = dataIO.load_cohort_linkage_groups(cnxn, source)
-        ### pie #####
-        labels = []
-        values = []
-        counts = []
-        for v, l, d in zip(data["perc"], data["group"], data["count"]):
-            if v != 0:
-                l = str(l).replace("]","").replace("[","").replace("'","")
-                labels.append(l)
-                values.append(round(v * 100, 2))
-                counts.append(str(d))
+        expected_labels = [
+            "NHS England",
+            "Place - household level",
+            "Place - postcode level",
+            "Place - small area level"
+        ]
+
+        # initialise defaults
+        label_map = {k: {"value": 0, "count": 0} for k in expected_labels}
+
+        # ONLY touch data if columns exist
+        if (
+            data is not None
+            and hasattr(data, "columns")
+            and all(col in data.columns for col in ["perc", "group", "count"])
+        ):
+            for _, row in data.iterrows():
+                l = str(row["group"]).replace("]","").replace("[","").replace("'","")
+                l = l.replace("NHS_linkage","NHS England")
+
+                if l in label_map:
+                    label_map[l] = {
+                        "value": round(row["perc"], 2),
+                        "count": row["count"]
+                    }
+
+        # rebuild arrays (always runs)
+        labels = expected_labels
+        values = [label_map[l]["value"] for l in labels]
+        counts = [label_map[l]["count"] for l in labels]
+
         if len(labels) > 0:
             try:
-                pie = struct.pie(labels, values, counts)
-            except:
-                pie = struct.error_p("Error: unable to make linkage pie")
+                hbar = struct.hbar(labels, values, counts)
+            except Exception as e:
+                print("HBAR ERROR:", e)
+                raise 
         else:
-            pie = struct.error_p("Linkage statistics are not currently available for {}".format(source))
+            hbar = struct.error_p("Linkage statistics are not currently available for {}".format(source))
 
-        return pie
+        return hbar
     else:
         return ""
 
@@ -428,27 +484,32 @@ def update_table_data(table_id):
             title_text2 = str(schema) + " " + str(table)
 
         blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", 'special_conditions',"covid_only"]]
-        with connect() as cnxn:
-            metadata_df = dataIO.get_labels(table_id)
-            data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
-            ages = dataIO.get_dataset_age(source_name=schema, dataset_name=table)
-            cnxn.close()
+
+        metadata_df = dataIO.get_labels(table_id)
+        data = dataIO.get_dataset_linkage_rate(source=schema, table_name=table)
+        ages = dataIO.get_dataset_age(source_name=schema, dataset_name=table)
+
         labels = []
         values = []
         counts = []
-        for v, l, d in zip(data["perc"], data["group"], data["count"]):
-            if v != 0:
+
+        if (
+            data is not None
+            and hasattr(data, "columns")
+            and all(col in data.columns for col in ["perc", "group", "count"])
+        ):
+            for v, l, d in zip(data["perc"], data["group"], data["count"]):
                 l = str(l).replace("]","").replace("[","").replace("'","")
                 labels.append(l)
-                values.append(round(v * 100, 2))
+                values.append(round(v, 2))
                 counts.append(str(d))
 
         if len(labels) > 0 and schema not in ("NHSE", "UKLLC"):
-            pie = struct.pie(labels, values, counts)
+            hbar = struct.hbar(labels, values, counts)
         elif schema in ("NHSE", "UKLLC"):
-            pie = "Linkage statistics not available for {} {}".format(schema, table)
+            hbar = "Linkage statistics not available for {} {}".format(schema, table)
         else:
-            pie = "Linkage statistics are not currently available for {} {}".format(schema, table)
+            hbar = "Linkage statistics are not currently available for {} {}".format(schema, table)
 
         if len(ages["mean_age"].values) > 0:
             boxplot = struct.boxplot(mean = ages["mean_age"], median = ages["q2_age"],
@@ -460,7 +521,7 @@ def update_table_data(table_id):
         block_description = struct.make_block_description(blocks, harmony_link)
 
 
-        return long_desc, block_description, pie, boxplot, struct.make_table(metadata_df, "block_metadata_table","dataset_info_table"),  title_text1, title_text2, {"display": "flex"}
+        return long_desc, block_description, hbar, boxplot, struct.make_table(metadata_df, "block_metadata_table","dataset_info_table"),  title_text1, title_text2, {"display": "flex"}
     else:
         dataset_table = datasets_df[["source", "table", "short_desc"]].rename(columns = {"source":"Source", "table":"Dataset", "short_desc":"Description"})
         search_results_table = struct.make_table(dataset_table, "search_metadata_table", "none_selected")

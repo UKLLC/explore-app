@@ -6,6 +6,7 @@ from dash import dash_table
 import warnings
 import plotly.graph_objects as go
 import numpy as np
+from sqlalchemy import values
 
 import stylesheet as ss
 import constants
@@ -1119,6 +1120,69 @@ def pie(labels, values, counts):
         layout=layout
     )
     return dcc.Graph(figure = fig, className = "tab_div")
+
+def hbar(labels, values, counts):
+    # explicit colours (same mapping)
+    label_colours = {
+        "NHS England": str(ss.cyan[0]),
+        "Place - household level": str(ss.green[0]),
+        "Place - postcode level": str(ss.peach[0]),
+        "Place - small area level": str(ss.lime[0]),
+    }
+    colours = [
+    label_colours.get(str(x), "#999999") if v > 0 else "#e0e0e0"
+    for x, v in zip(labels, values)
+    ]
+
+
+    order = [
+    "NHS England",
+    "Place - household level",
+    "Place - postcode level",
+    "Place - small area level"
+    ]
+
+    rank = {k: i for i, k in enumerate(order)}
+
+    combined = list(zip(labels, values, counts, colours))
+
+    # optional: reverse so first appears at top
+    labels = labels[::-1]
+    values = values[::-1]
+    counts = counts[::-1]
+    colours = colours[::-1]
+
+    layout = go.Layout(
+        margin=go.layout.Margin(l=5, r=5, b=5, t=5),
+        xaxis=dict(
+            title="Percentage",
+            range=[0, 100]   # or dynamic version below
+            ),
+            yaxis=dict(automargin=True)
+    )
+
+    # modify values for display (keep real values for hover)
+    display_values = [v if v > 0 else 0.5 for v in values]
+    real_values = values
+
+    fig = go.Figure(
+        data=[
+            go.Bar(
+                x=display_values, 
+                y=labels,
+                orientation='h',
+                width=0.4,
+                marker=dict(color=colours),
+                customdata=list(zip(real_values, counts)), 
+                name="",
+                showlegend=False,
+                hovertemplate="%{y}: <br>Count: %{customdata[1]}<br>%{customdata[0]}%"
+                )
+                ],
+                layout=layout
+                )
+
+    return dcc.Graph(figure=fig, className="tab_div")
 
 
 def boxplot(mean, median, q1, q3, lf, uf):
