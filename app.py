@@ -63,18 +63,6 @@ app.index_string = """<!DOCTYPE html>
         </footer>
     </body>
 </html>"""
-
-
-def connect():
-    try:
-        db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
-        cnxn = sqlalchemy.create_engine(db_str).connect()
-        print("returning DB connection")
-        return cnxn
-
-    except Exception as e:
-        print("fatal: Connection to database failed")
-        raise Exception("DB connection failed")
     
 
 def searchbox_connect():
@@ -93,24 +81,13 @@ def searchbox_connect():
 es = searchbox_connect()
 
 
-#########
-
-with connect() as cnxn:
-    # Load block info
-    datasets_df = dataIO.get_datasets()
-
-    dataset_counts = datasets_df[["source", "table", "participants_included", "participant_count", "Type"]]
-
-    source_info = dataIO.get_sources()
-
-    spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
-
-    map_data = dataIO.get_region_counts()
-    #map_data = dataIO.load_map_data(cnxn)
-    #ap_df = dataIO.load_always_provisioned(cnxn)
-
-    cnxn.close()
-
+########## Load data from API and prepare for use in app
+datasets_df = dataIO.get_datasets()
+dataset_counts = datasets_df[["source", "table", "participants_included", "participant_count", "Type"]]
+source_info = dataIO.get_sources()
+spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
+map_data = dataIO.get_region_counts()
+gj = dataIO.load_geojson()
 
 
 themes = []
@@ -125,10 +102,6 @@ for  i in range(len(themes)):
 themes = list(set(themes))
 themes = sorted(themes, key=str.casefold)
 themes.remove("")
-
-
-gj = dataIO.load_geojson()
-
 
 
 def prep_counts(df):
@@ -304,40 +277,7 @@ def update_schema_map(current_tab, source):
     Input('active_source','data'),
     prevent_initial_call=True
 )
-# def update_schema_pie(current_tab, source):
-#     '''
-#     When schema updates, update documentation
-#     '''
 
-#     print("Updating schema pie, schema = '{}'".format(source))
-#     trigger = dash.ctx.triggered_id
-
-#     print(" pie trigger {}".format(trigger))
-#     if source != None and source != "None":
-
-#         with connect() as cnxn:
-#             data = dataIO.load_cohort_linkage_groups(cnxn, source)
-#         ### pie #####
-#         labels = []
-#         values = []
-#         counts = []
-#         for v, l, d in zip(data["perc"], data["group"], data["count"]):
-#             if v != 0:
-#                 l = str(l).replace("]","").replace("[","").replace("'","")
-#                 labels.append(l)
-#                 values.append(round(v * 100, 2))
-#                 counts.append(str(d))
-#         if len(labels) > 0:
-#             try:
-#                 pie = struct.pie(labels, values, counts)
-#             except:
-#                 pie = struct.error_p("Error: unable to make linkage pie")
-#         else:
-#             pie = struct.error_p("Linkage statistics are not currently available for {}".format(source))
-
-#         return pie
-#     else:
-#         return ""
 
 def update_schema_hbar(current_tab, source):
     '''
@@ -382,7 +322,7 @@ def update_schema_hbar(current_tab, source):
         values = [label_map[l]["value"] for l in labels]
         counts = [label_map[l]["count"] for l in labels]
 
-        if len(labels) > 0:
+        if len(labels) > 0 and source not in ("NHSE", "UKLLC"):
             try:
                 hbar = struct.hbar(labels, values, counts)
             except Exception as e:
