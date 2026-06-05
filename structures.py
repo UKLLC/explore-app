@@ -5,6 +5,9 @@ import pandas as pd
 from dash import dash_table
 import warnings
 import plotly.graph_objects as go
+import numpy as np
+from sqlalchemy import values
+import re
 
 import stylesheet as ss
 import constants
@@ -741,15 +744,7 @@ def make_basket_review_offcanvas():
         id = "codelist_download"),
 
         html.Div([
-            text_block("Default datasets (automatically included):")
-        ],
-        id = "basket_review_always_selected_text"),
-        html.Div([
-            text_block("")
-        ],
-        id = "basket_review_always_selected"),
-        html.Div([
-            text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
+            text_block("You currently have no datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets.")
         ],
         id = "basket_review_text_div"),
 
@@ -901,17 +896,35 @@ def make_info_box(df, harmony_link=None):
                 ], className = "info_box_right")
             ])
         else:
+            val = str(df[col].values[0]).strip()
+
+            match = re.search(r'\[([^\]]+)\]\(([^)]+)\)', val)
+
+            if match:
+                text, url = match.groups()
+
+                # clean leftover markdown artefacts
+                text = text.strip("[]").strip()
+
+                # ensure absolute URL
+                if not url.startswith(("http://", "https://")):
+                    url = "https://" + url
+
+                content = html.A(text, href=url, target="_blank")
+
+            else:
+                content = val
+                
             row = html.Div([
-                # First column
                 html.Div([
                     html.B(col)
-                ], className = "info_box_left"),
+                ], className="info_box_left"),
 
-                # Second column
                 html.Div([
-                    dcc.Markdown(str(df[col].values[0]).replace("\n", ""))
-                ], className = "info_box_right")
-            ])
+                    content
+                ], className="info_box_right")
+                ])
+            
             [{'id': x, 'name': x, 'presentation': 'markdown'} if x == 'Link(s)' else {'id': x, 'name': x} for x in df.columns],
         out_text.append(row)
 
@@ -955,9 +968,19 @@ def make_schema_description(schemas):
         schemas["Covid Restrictions"] = "Study data can be used for any public good research"
     else:
         schemas = schemas.drop(columns="Covid Restrictions")
-    # Copyright
-    if schemas["Copyright"].iloc[0] is None or schemas["Copyright"].iloc[0] == "":
-        schemas = schemas.drop(columns="Copyright")
+    # Copyright (no longer in MMS) - this is temp fill
+    mask = schemas["Study Name"] == "NHS England"
+    if mask.any():
+        schemas["Copyright"] = None
+        schemas.loc[mask, "Copyright"] = (
+            "Copyright © (2025), NHS England. Data re-used with the permission "
+            "of NHS England. All rights reserved."
+        )
+    # cleanup - if copyright is all null or empty, drop the column
+    if "Copyright" in schemas.columns:
+        if schemas["Copyright"].isna().all() or (schemas["Copyright"] == "").all():
+            schemas = schemas.drop(columns="Copyright")
+    
     return make_info_box(schemas)
 
 def make_block_description(blocks, harmony_link=None):
@@ -1074,48 +1097,78 @@ def make_account_section():
     return dropdown
 
 
-def pie(labels, values, counts):
-    # Label correction:
-    new_labels = []
-    for l in labels:
-        l2 = l.replace("NHS_linkage","NHS England")
-        l2 = l2.replace("GEO_linkage","Geospatial")
-        l2 = l2.replace("None","No linkage")
-        new_labels.append(l2)
-    labels = new_labels
-
-    # explicit colours
+def hbar(labels, values, counts):
+    # explicit colours (same mapping)
     label_colours = {
-        "NHS England" : str(ss.cyan[0]),
-        "Geospatial" : str(ss.green[0]),
-        "No linkage" : str(ss.peach[0]),
-        "NHS England, Geospatial": str(ss.lime[0]),
-        }
+        "NHS England": str(ss.cyan[0]),
+        "Place - household level": str(ss.green[0]),
+        "Place - postcode level": str(ss.peach[0]),
+        "Place - small area level": str(ss.lime[0]),
+    }
+    colours = [
+    label_colours.get(str(x), "#999999") if v > 0 else "#e0e0e0"
+    for x, v in zip(labels, values)
+    ]
 
-    colours = [str(label_colours[str(x)]) for x in labels]
 
+    order = [
+    "NHS England",
+    "Place - household level",
+    "Place - postcode level",
+    "Place - small area level"
+    ]
+
+    rank = {k: i for i, k in enumerate(order)}
+
+    combined = list(zip(labels, values, counts, colours))
+
+    if len(combined) == 0:
+        # fallback safe state (prevents crash)
+        labels = []
+        values = []
+        counts = []
+        colours = []
+    else:
+        combined.sort(key=lambda x: rank.get(x[0], 999))
+        labels, values, counts, colours = map(list, zip(*combined))
+
+    # optional: reverse so first appears at top
+    labels = labels[::-1]
+    values = values[::-1]
+    counts = counts[::-1]
+    colours = colours[::-1]
 
     layout = go.Layout(
-        margin=go.layout.Margin(
-            l=5, #left margin
-            r=5, #right margin
-            b=5, #bottom margin
-            t=5, #top margin
-        )
+        margin=go.layout.Margin(l=5, r=5, b=5, t=5),
+        xaxis=dict(
+            title="Percentage",
+            range=[0, 100]   # or dynamic version below
+            ),
+            yaxis=dict(automargin=True)
     )
-    
+
+    # modify values for display (keep real values for hover)
+    display_values = [v if v > 0 else 0.5 for v in values]
+    real_values = values
+
     fig = go.Figure(
-        data = [go.Pie(
-                    labels=labels, 
-                    values=values,
-                    hovertext = counts,
-                    hovertemplate = "%{label}: <br>Count: %{hovertext}",
-                    marker = dict(colors=colours)
-                ),
-            ],
-        layout=layout
-    )
-    return dcc.Graph(figure = fig, className = "tab_div")
+        data=[
+            go.Bar(
+                x=display_values, 
+                y=labels,
+                orientation='h',
+                width=0.4,
+                marker=dict(color=colours),
+                customdata=list(zip(real_values, counts)), 
+                name="",
+                showlegend=False,
+                hovertemplate="%{y}: <br>Count: %{customdata[1]}<br>%{customdata[0]}%"
+                )
+                ],
+                layout=layout
+                )
+
+    return dcc.Graph(figure=fig, className="tab_div")
 
 
 def boxplot(mean, median, q1, q3, lf, uf):
@@ -1355,43 +1408,44 @@ def error_p(txt):
     return html.P(txt, className = "error_p")
 
 
-
 def create_harmony_link(metadata_df: pd.DataFrame, instrument_title: str):
     import base64, json
+    if 'Variable Description' in metadata_df.columns:
+        unique_descriptions = metadata_df['Variable Description'].dropna().unique()
+        unique_names = metadata_df['Variable Name'].dropna().unique()
+        # check there are names and descriptions available to prevent load issue in dash
+        if len(unique_descriptions) > 0 and len(unique_names) > 0:
+            total_description_length_in_chars = len(unique_descriptions.sum())
+            total_name_length_in_chars = len(unique_names.sum())
 
-    unique_descriptions = metadata_df['Variable Description'].dropna().unique()
-    unique_names = metadata_df['Variable Name'].dropna().unique()
-    # check there are names and descriptions available to prevent load issue in dash
-    if len(unique_descriptions) > 0 and len(unique_names) > 0:
-        total_description_length_in_chars = len(unique_descriptions.sum())
-        total_name_length_in_chars = len(unique_names.sum())
+            if total_description_length_in_chars > total_name_length_in_chars:
+                column_name = 'Variable Description'
+            else:
+                column_name = 'Variable Name'
+            questions_dicts = []
+            for question_string, subset in metadata_df.groupby(column_name)[["Value Description", "Value"]]:
+                response_options = list(subset["Value Description"].dropna().apply(lambda x: str(x)))
+                if len(response_options) == 0:
+                    response_options = list(subset["Value"].dropna().apply(lambda x: str(x)))
+                questions_dicts.append(
+                    {
+                        "question_no": f"{len(questions_dicts) + 1}",
+                        "question_text": question_string,
+                        "options": response_options
+                    }
+                )
+                if len(questions_dicts) > 99:
+                    break
+            instrument_as_dict = {
+                "instrument_name": instrument_title,
+                "questions": questions_dicts
+            }
+            instrument_serialised_as_json = json.dumps(instrument_as_dict)
+            instrument_json_b64_encoded_bytes = base64.urlsafe_b64encode(instrument_serialised_as_json.encode('utf-8'))
+            instrument_json_b64_encoded_str = instrument_json_b64_encoded_bytes.decode("utf-8")
 
-        if total_description_length_in_chars > total_name_length_in_chars:
-            column_name = 'Variable Description'
+            url = f"https://harmonydata.ac.uk/app/#/import/{instrument_json_b64_encoded_str}"
+
+            return url
         else:
-            column_name = 'Variable Name'
-        questions_dicts = []
-        for question_string, subset in metadata_df.groupby(column_name)[["Value Description", "Value"]]:
-            response_options = list(subset["Value Description"].dropna().apply(lambda x: str(x)))
-            if len(response_options) == 0:
-                response_options = list(subset["Value"].dropna().apply(lambda x: str(x)))
-            questions_dicts.append(
-                {
-                    "question_no": f"{len(questions_dicts) + 1}",
-                    "question_text": question_string,
-                    "options": response_options
-                }
-            )
-            if len(questions_dicts) > 99:
-                break
-        instrument_as_dict = {
-            "instrument_name": instrument_title,
-            "questions": questions_dicts
-        }
-        instrument_serialised_as_json = json.dumps(instrument_as_dict)
-        instrument_json_b64_encoded_bytes = base64.urlsafe_b64encode(instrument_serialised_as_json.encode('utf-8'))
-        instrument_json_b64_encoded_str = instrument_json_b64_encoded_bytes.decode("utf-8")
-
-        url = f"https://harmonydata.ac.uk/app/#/import/{instrument_json_b64_encoded_str}"
-
-        return url
+            return None

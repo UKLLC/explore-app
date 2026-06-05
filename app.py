@@ -23,8 +23,6 @@ import structures as struct
 
 import time
 
-
-
 ######################################################################################
 app = dash.Dash(
     __name__,
@@ -65,20 +63,7 @@ app.index_string = """<!DOCTYPE html>
         </footer>
     </body>
 </html>"""
-
-
-
-
-def connect():
-    try:
-        db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
-        cnxn = sqlalchemy.create_engine(db_str).connect()
-        print("returning DB connection")
-        return cnxn
-
-    except Exception as e:
-        print("fatal: Connection to database failed")
-        raise Exception("DB connection failed")
+    
 
 def searchbox_connect():
 
@@ -96,23 +81,14 @@ def searchbox_connect():
 es = searchbox_connect()
 
 
+########## Load data from API and prepare for use in app
+datasets_df = dataIO.get_datasets()
+dataset_counts = datasets_df[["source", "table", "participants_included", "participant_count", "Type"]]
+source_info = dataIO.get_sources()
+spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
+map_data = dataIO.get_region_counts()
+gj = dataIO.load_geojson()
 
-#########
-
-
-with connect() as cnxn:
-    # Load block info
-    datasets_df = dataIO.load_datasets(cnxn)
-
-    dataset_counts = datasets_df[["source", "table", "participant_count", "weighted_participant_count", "Type"]]
-
-    source_info = dataIO.load_source_info(cnxn)
-    spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
-
-    map_data = dataIO.load_map_data(cnxn)
-    ap_df = dataIO.load_always_provisioned(cnxn)
-
-    cnxn.close()
 
 themes = []
 for x in list(set(source_info["Themes"])):
@@ -128,11 +104,6 @@ themes = sorted(themes, key=str.casefold)
 themes.remove("")
 
 
-gj = dataIO.load_geojson()
-
-
-
-
 def prep_counts(df):
     '''
     apply function
@@ -145,7 +116,7 @@ def prep_counts(df):
 
 def load_or_fetch_map(study):
     df1 = map_data.loc[map_data["source"] == study]
-    df1 = df1.drop(["source", "source_stem", "index"], axis=1)
+    df1 = df1.drop(["source"], axis=1)
     df2 = pd.DataFrame([[ str(x), y] for x, y in zip(df1.columns, df1.iloc[0].values) ], columns = ["RGN23NM", "count"])
     df2["labels"] = df2["count"]
     df2["labels"].fillna("Not available")
@@ -240,8 +211,12 @@ def update_schema_description(source):
         source_name = info["source_name"].values[0]
         if info["Type"].values[0] == "Linked":
             title_text1 = "Linked Source"
-        else:
+        elif info["Type"].values[0] == "LPS":
             title_text1 = "LPS Source"
+        elif info["Type"].values[0] == "UK LLC Managed":
+            title_text1 = "UK LLC Managed Source"
+        else:
+            title_text1 = "UK LLC Data Source"
 
         return title_text1, source_name, info["Aims"], struct.make_schema_description(info), struct.make_blocks_table(datasets_df.loc[datasets_df["source"]==source]), {"display": "flex"}
     else:
@@ -302,38 +277,61 @@ def update_schema_map(current_tab, source):
     Input('active_source','data'),
     prevent_initial_call=True
 )
-def update_schema_pie(current_tab, source):
+
+
+def update_schema_hbar(current_tab, source):
     '''
     When schema updates, update documentation
     '''
 
-    print("Updating schema pie, schema = '{}'".format(source))
+    print("Updating schema hbar, schema = '{}'".format(source))
     trigger = dash.ctx.triggered_id
 
-    print(" pie trigger {}".format(trigger))
+    print(" hbar trigger {}".format(trigger))
     if source != None and source != "None":
+        data = dataIO.get_source_linkage_rate(source = source)
 
-        with connect() as cnxn:
-            data = dataIO.load_cohort_linkage_groups(cnxn, source)
-        ### pie #####
-        labels = []
-        values = []
-        counts = []
-        for v, l, d in zip(data["perc"], data["group"], data["count"]):
-            if v != 0:
-                l = str(l).replace("]","").replace("[","").replace("'","")
-                labels.append(l)
-                values.append(round(v * 100, 2))
-                counts.append(str(d))
-        if len(labels) > 0:
+        expected_labels = [
+            "NHS England",
+            "Place - household level",
+            "Place - postcode level",
+            "Place - small area level"
+        ]
+
+        # initialise defaults
+        label_map = {k: {"value": 0, "count": 0} for k in expected_labels}
+
+        # ONLY touch data if columns exist
+        if (
+            data is not None
+            and hasattr(data, "columns")
+            and all(col in data.columns for col in ["perc", "group", "count"])
+        ):
+            for _, row in data.iterrows():
+                l = str(row["group"]).replace("]","").replace("[","").replace("'","")
+                l = l.replace("NHS_linkage","NHS England")
+
+                if l in label_map:
+                    label_map[l] = {
+                        "value": round(row["perc"], 2),
+                        "count": row["count"]
+                    }
+
+        # rebuild arrays (always runs)
+        labels = expected_labels
+        values = [label_map[l]["value"] for l in labels]
+        counts = [label_map[l]["count"] for l in labels]
+
+        if len(labels) > 0 and source not in ("NHSE", "UKLLC"):
             try:
-                pie = struct.pie(labels, values, counts)
-            except:
-                pie = struct.error_p("Error: unable to make linkage pie")
+                hbar = struct.hbar(labels, values, counts)
+            except Exception as e:
+                print("HBAR ERROR:", e)
+                raise 
         else:
-            pie = struct.error_p("Linkage statistics are not currently available for {}".format(source))
+            hbar = struct.error_p("Linkage statistics are not currently available for {}".format(source))
 
-        return pie
+        return hbar
     else:
         return ""
 
@@ -362,14 +360,14 @@ def update_schema_boxplot(current_tab, source):
 
     print(" boxplot trigger {}".format(trigger))
     if source != None and source != "None":
-
-        with connect() as cnxn:
-            ages = dataIO.load_cohort_age(cnxn, source)
+        ages = dataIO.get_source_age(source)
         ### boxplot #####
-        if len(ages["mean"].values) > 0:
+        if len(ages["mean_age"].values) > 0:
             try:
                 print("Confirm made boxplot")
-                boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
+                boxplot = struct.boxplot(mean = ages["mean_age"], median = ages["q2_age"],
+                                         q1 = ages["q1_age"], q3 = ages["q3_age"],
+                                         lf = ages["lower_fence_age"], uf = ages["upper_fence_age"])
             except Exception as e:
                 print(e)
                 boxplot = struct.error_p("Error: unable to make age boxplot")
@@ -411,49 +409,59 @@ def update_table_data(table_id):
         long_desc = blocks["long_desc"].values[0]
         long_name = blocks["table_name"].values[0]
 
-
         if blocks["Type"].values[0] == "Linked":
-            title_text1 = "Linked Dataset"
+            title_text1 = "Linked Source"
+        elif blocks["Type"].values[0] == "LPS":
+            title_text1 = "LPS Source"
+        elif blocks["Type"].values[0] == "UK LLC Managed":
+            title_text1 = "UK LLC Managed Source"
         else:
-            title_text1 = "LPS Dataset"
+            title_text1 = "UK LLC Data Source"
+
         if long_name and len(long_name) > 0:
             title_text2 = str(long_name)
         else:
             title_text2 = str(schema) + " " + str(table)
 
         blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", 'special_conditions',"covid_only"]]
-        with connect() as cnxn:
-            metadata_df = dataIO.load_study_metadata(cnxn, table_id)[["Variable Name", "Variable Description", "Value","Value Description"]]
-            data = dataIO.load_dataset_linkage_groups(cnxn, schema, table)
-            ages = dataIO.load_dataset_age(cnxn, schema, table)
-            cnxn.close()
+
+        metadata_df = dataIO.get_labels(table_id)
+        data = dataIO.get_dataset_linkage_rate(source=schema, table_name=table)
+        ages = dataIO.get_dataset_age(source_name=schema, dataset_name=table)
+
         labels = []
         values = []
         counts = []
-        for v, l, d in zip(data["perc"], data["group"], data["count"]):
-            if v != 0:
+
+        if (
+            data is not None
+            and hasattr(data, "columns")
+            and all(col in data.columns for col in ["perc", "group", "count"])
+        ):
+            for v, l, d in zip(data["perc"], data["group"], data["count"]):
                 l = str(l).replace("]","").replace("[","").replace("'","")
                 labels.append(l)
-                values.append(round(v * 100, 2))
+                values.append(round(v, 2))
                 counts.append(str(d))
 
         if len(labels) > 0 and schema not in ("NHSE", "UKLLC"):
-            pie = struct.pie(labels, values, counts)
+            hbar = struct.hbar(labels, values, counts)
         elif schema in ("NHSE", "UKLLC"):
-            pie = "Linkage statistics not available for {} {}".format(schema, table)
+            hbar = "Linkage statistics not available for {} {}".format(schema, table)
         else:
-            pie = "Linkage statistics are not currently available for {} {}".format(schema, table)
+            hbar = "Linkage statistics are not currently available for {} {}".format(schema, table)
 
-
-        if len(ages["mean"].values) > 0:
-            boxplot = struct.boxplot(mean = ages["mean"], median = ages["q2"], q1 = ages["q1"], q3 = ages["q3"], lf = ages["lf"], uf = ages["uf"])
+        if len(ages["mean_age"].values) > 0:
+            boxplot = struct.boxplot(mean = ages["mean_age"], median = ages["q2_age"],
+                                     q1 = ages["q1_age"], q3 = ages["q3_age"],
+                                     lf = ages["lower_fence_age"], uf = ages["upper_fence_age"])
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
         harmony_link = struct.create_harmony_link(metadata_df, title_text1 + " / " + title_text2 + " (imported from UKLLC)")
         block_description = struct.make_block_description(blocks, harmony_link)
 
 
-        return long_desc, block_description, pie, boxplot, struct.make_table(metadata_df, "block_metadata_table","dataset_info_table"),  title_text1, title_text2, {"display": "flex"}
+        return long_desc, block_description, hbar, boxplot, struct.make_table(metadata_df, "block_metadata_table","dataset_info_table"),  title_text1, title_text2, {"display": "flex"}
     else:
         dataset_table = datasets_df[["source", "table", "short_desc"]].rename(columns = {"source":"Source", "table":"Dataset", "short_desc":"Description"})
         search_results_table = struct.make_table(dataset_table, "search_metadata_table", "none_selected")
@@ -468,7 +476,6 @@ def update_table_data(table_id):
     Output("basket_review_text_div", "children"),
     Output("basket_review_table_div", "style"),
     Output("basket_review_text_div", "style"),
-    Output("basket_review_always_selected", "children"),
     Input("shopping_basket", "data"),
 )
 def basket_review(shopping_basket):
@@ -497,11 +504,11 @@ def basket_review(shopping_basket):
     df = pd.DataFrame(rows, columns=["source", "table", "long_desc"])
     brtable = struct.basket_review_table(df)
 
-    always_available_tables = struct.always_available_table(ap_df)
+    #always_available_tables = struct.always_available_table(ap_df)
     if len(df) > 0:
-        return brtable, "You have {} datasets in your selection".format(len(df)), {"display":"flex"}, {"display":"none"}, always_available_tables
+        return brtable, "You have {} datasets in your selection".format(len(df)), {"display":"flex"}, {"display":"none"}
     else:
-        return brtable, struct.text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets."), {"display":"none"}, {"display":"flex"}, always_available_tables
+        return brtable, struct.text_block("You currently have no additional datasets in your selection. Use the checkboxes in the UK LLC Data Catalogue sidebar to add datasets."), {"display":"none"}, {"display":"flex"}
 
 
 #########################
@@ -1258,7 +1265,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''
