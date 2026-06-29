@@ -83,7 +83,7 @@ es = searchbox_connect()
 
 ########## Load data from API and prepare for use in app
 datasets_df = dataIO.get_datasets()
-dataset_counts = datasets_df[["source", "table", "participants_included", "participant_count", "Type"]]
+dataset_counts = datasets_df[["source", "table", "participant_count", "Type"]]
 source_info = dataIO.get_sources()
 spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
 map_data = dataIO.get_region_counts()
@@ -423,7 +423,7 @@ def update_table_data(table_id):
         else:
             title_text2 = str(schema) + " " + str(table)
 
-        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", 'special_conditions',"covid_only"]]
+        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participant_count", "topic_tags", "links", "special_conditions", "covid_only", "Type"]]
 
         metadata_df = dataIO.get_labels(table_id)
         data = dataIO.get_dataset_linkage_rate(source=schema, table_name=table)

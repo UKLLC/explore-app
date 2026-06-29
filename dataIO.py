@@ -7,6 +7,17 @@ import requests
 API_KEY = os.environ['FASTAPI_KEY']
 API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
 
+def get_sources():
+    url = API_BASE + "source/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    df = df.rename(columns={
+        'source_type': 'Type'
+    })
+    return df
+
 # API endpoints:
 def get_datasets():
     url = API_BASE + "all-datasets/"
@@ -98,18 +109,6 @@ def get_dataset_age(source_name = "none", dataset_name = "none"):
         return df.loc[df["dataset_name"] == dataset_name]
     else:
         return df.loc[(df["source_name"].str.lower() == source_name.lower()) & (df["dataset_name"] == (dataset_name))]
-
-
-def get_sources():
-    url = API_BASE + "source/"
-    r = requests.get(url, headers={"access-token": API_KEY})
-    r.raise_for_status() 
-    data = r.json()
-    df = pd.DataFrame(data)
-    df = df.rename(columns={
-        'source_type': 'Type'
-    })
-    return df
 
 
 def get_labels(table_id): 
