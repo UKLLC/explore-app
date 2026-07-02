@@ -716,3 +716,5 @@ def variable_set_similarity(set1, set2):
     
     # calc score
     return len(set1.intersection(set2)) / len(set1.union(set2))
+
+

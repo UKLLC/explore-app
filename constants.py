@@ -58,3 +58,9 @@ SOURCE_SUMMARY_VARS = {"source_name":"Study Name", "Owner":"Owner", "study_type"
 
 BLOCK_SUMMARY_VARS = {"table_name":"Dataset Name",  "collection_start": "Collection Start", "collection_end":"Collection End", "participants_invited":"Participants Invited", "participant_count":"Participant Count", "links":"Link", "topic_tags":"Topics", "special_conditions":"Restrictions on use", "covid_only": "Covid Restrictions", "Type":"Type"}
 BLOCK_TABLE_VARS = {"table": "Dataset ID", "table_name":"Dataset Name", "short_desc": "Description", "collection_start": "Collection Start", "collection_end":"Collection End", "participants_invited":"Participants Invited", "participant_count":"Participant Count", "links":"Link", "topic_tags":"Topics"}
+
+# COMPONENT_MASTER_LOOKUP = {
+#     "CSDS": ""
+#     "MHSDS": "",
+#     "IAPT": ""
+# }
