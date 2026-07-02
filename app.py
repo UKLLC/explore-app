@@ -20,6 +20,7 @@ import base64
 
 import dataIO
 import structures as struct
+import naming_functions
 
 import time
 
@@ -83,7 +84,7 @@ es = searchbox_connect()
 
 ########## Load data from API and prepare for use in app
 datasets_df = dataIO.get_datasets()
-dataset_counts = datasets_df[["source", "table", "participants_included", "participant_count", "Type"]]
+dataset_counts = datasets_df[["source", "table", "participant_count", "Type"]]
 source_info = dataIO.get_sources()
 spine = datasets_df[["source", "table"]].drop_duplicates(subset = ["source", "table"])
 map_data = dataIO.get_region_counts()
@@ -92,16 +93,21 @@ gj = dataIO.load_geojson()
 
 themes = []
 for x in list(set(source_info["Themes"])):
-    themes += x.split(",")
-for y in list(set(datasets_df["topic_tags"].fillna(""))):
-    themes += y.split(",")
+    if isinstance(x, str):
+        themes += x.split(",")
 
-for  i in range(len(themes)):
-    themes[i] = themes[i].replace("\n", "")
-    themes[i] = themes[i].strip()
-themes = list(set(themes))
-themes = sorted(themes, key=str.casefold)
-themes.remove("")
+for y in list(set(datasets_df["topic_tags"].fillna(""))):
+    if isinstance(y, str):
+        themes += y.split(",")
+
+themes = [
+    t.replace("\n", "").strip()
+    for t in themes
+    if isinstance(t, str) and t.strip()
+]
+
+themes = sorted(set(themes), key=str.casefold)
+themes = [t for t in themes if t]
 
 
 def prep_counts(df):
@@ -423,7 +429,7 @@ def update_table_data(table_id):
         else:
             title_text2 = str(schema) + " " + str(table)
 
-        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participants_included", "topic_tags", "links", 'special_conditions',"covid_only"]]
+        blocks = blocks[["table_name", "collection_start", "collection_end", "participants_invited", "participant_count", "topic_tags", "links", "special_conditions", "covid_only", "Type"]]
 
         metadata_df = dataIO.get_labels(table_id)
         data = dataIO.get_dataset_linkage_rate(source=schema, table_name=table)
@@ -455,6 +461,7 @@ def update_table_data(table_id):
             boxplot = struct.boxplot(mean = ages["mean_age"], median = ages["q2_age"],
                                      q1 = ages["q1_age"], q3 = ages["q3_age"],
                                      lf = ages["lower_fence_age"], uf = ages["upper_fence_age"])
+
         else:
             boxplot = "Age distribution statistics are not currently available for {} {}".format(schema, table)
         harmony_link = struct.create_harmony_link(metadata_df, title_text1 + " / " + title_text2 + " (imported from UKLLC)")
@@ -1265,7 +1272,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)
 
 
 '''

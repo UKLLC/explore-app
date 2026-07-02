@@ -56,5 +56,11 @@ SOURCE_SUMMARY_VARS = {"source_name":"Study Name", "Owner":"Owner", "study_type"
 #ACTUAL COLUMNS: ['data_source_id', 'participant_pathway', 'age_at_recruitment', 'participant_count', 'Type', 'Website', 'study_type', 'total', 'geographic_coverage_Nations', 'research_grouping', 'active', 'Themes', 'geographic_coverage_Regions', 'covid_only', 'Owner', 'year_of_birth', 'source', 'index', 'Aims', 'start_date', 'Sex', 'sample_size_at_recruitment', 'source_name', 'dataset_count']
 #EXPECTED COLUMNS: ['source_name', 'Owner', 'Study type', 'Participant pathway', 'Geographic coverage - Nations', 'Geographic coverage - Regions', 'Start date', 'Age at recruitment', 'Sex', 'dataset_count', 'participant_count', 'Website', 'Covid only']
 
-BLOCK_SUMMARY_VARS = {"table_name":"Dataset Name",  "collection_start": "Collection Start", "collection_end":"Collection End", "participants_invited":"Participants Invited", "participants_included":"Participants Included", "links":"Link", "topic_tags":"Topics", "special_conditions":"Restrictions on use", "covid_only": "Covid Restrictions"}
-BLOCK_TABLE_VARS = {"table": "Dataset ID", "table_name":"Dataset Name", "short_desc": "Description", "collection_start": "Collection Start", "collection_end":"Collection End", "participants_invited":"Participants Invited", "participants_included":"Participants Included", "links":"Link", "topic_tags":"Topics"}
+BLOCK_SUMMARY_VARS = {"table_name":"Dataset Name",  "collection_start": "Collection Start", "collection_end":"Collection End", "participants_invited":"Participants Invited", "participant_count":"Participant Count", "links":"Link", "topic_tags":"Topics", "special_conditions":"Restrictions on use", "covid_only": "Covid Restrictions", "Type":"Type"}
+BLOCK_TABLE_VARS = {"table": "Dataset ID", "table_name":"Dataset Name", "short_desc": "Description", "collection_start": "Collection Start", "collection_end":"Collection End", "participants_invited":"Participants Invited", "participant_count":"Participant Count", "links":"Link", "topic_tags":"Topics"}
+
+# COMPONENT_MASTER_LOOKUP = {
+#     "CSDS": ""
+#     "MHSDS": "",
+#     "IAPT": ""
+# }
