@@ -5,7 +5,7 @@ import requests
 
 # define API key 
 API_KEY = os.environ['FASTAPI_KEY']
-API_BASE = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
+API_BASE = "https://mms.ukllc.ac.uk/meta/api/"
 
 def get_sources():
     url = API_BASE + "source/"
@@ -18,7 +18,7 @@ def get_sources():
     })
     return df
 
-# API endpoints:
+
 def get_datasets():
     url = API_BASE + "all-datasets/"
     r = requests.get(url, headers={"access-token": API_KEY})
@@ -38,6 +38,42 @@ def get_datasets():
         'source_type': 'Type'
     })
 
+    return df
+
+
+def get_datasets_es():
+    url = API_BASE + "all-datasets/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
+    return df
+
+
+def get_dataset_versions():
+    url = API_BASE + "dataset-version/"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    r.raise_for_status()
+    data = r.json()
+    df = pd.DataFrame(data)
+    # columns to keep
+    cols_to_keep = [
+        'dataset_version_id',
+        'dataset_id',
+        'version_date',
+        'version_num'
+    ]
+    df = df[cols_to_keep]
+    return df
+
+
+def get_variables(source = "none", table_name = "none"):
+    url = API_BASE + f"variable-by-dataset/{source}/{table_name}"
+    r = requests.get(url, headers={"access-token": API_KEY})
+    print(r)
+    r.raise_for_status() 
+    data = r.json()
+    df = pd.DataFrame(data)
     return df
 
 

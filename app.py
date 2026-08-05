@@ -24,6 +24,7 @@ import naming_functions
 
 import time
 
+
 ######################################################################################
 app = dash.Dash(
     __name__,
@@ -81,7 +82,6 @@ def searchbox_connect():
 
 es = searchbox_connect()
 
-
 ########## Load data from API and prepare for use in app
 datasets_df = dataIO.get_datasets()
 dataset_counts = datasets_df[["source", "table", "participant_count", "Type"]]
@@ -138,7 +138,6 @@ def load_or_fetch_map(study):
 titlebar = struct.main_titlebar(app, "UK LLC Data Discovery Portal")
 
 # Left Sidebar #######################################################################
-
 sidebar_catalogue = struct.make_sidebar_catalogue(datasets_df)
 sidebar_title = struct.make_sidebar_title()
 sidebar_left = struct.make_sidebar_left(sidebar_title, sidebar_catalogue)
