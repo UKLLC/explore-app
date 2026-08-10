@@ -134,27 +134,55 @@ def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = 
         )
 
         # CHECKBOXES
-        checkbox_items = []
-        checkbox_active = []
-        for table in tables:
-            checkbox_items += [schema+"-"+table]
-            if schema+"-"+table in current_basket:
-                checkbox_active += [schema+"-"+table]
-        
-        checkbox_col = html.Div(
-            children= dcc.Checklist(
-                checkbox_items,
-                value = checkbox_active,
-                id= {
-                        "type":'shopping_checklist',
-                        "index" : schema
+        # filter with SABRE embargoed tables
+        if schema == "UKREACH":
+            checkbox_col = html.Div(
+                [
+                    html.Div(
+                        html.Span(
+                            html.Span("i", className="ukreach-info-letter"),
+                            className="ukreach-info-icon",
+                            **{
+                                "data-tooltip": (
+                                    "These datasets are available for discovery "
+                                    "but cannot be added to a selection."
+                                )
+                            },
+                        ),
+                        className="ukreach-info-icon-container",
+                    )
+                    for table in tables
+                ],
+                className="ukreach-checkbox-col",
+                id={
+                    "type": "checkbox_col",
+                    "index": schema,
+                },
+            )
+        else:
+            checkbox_items = []
+            checkbox_active = []
+
+            for table in tables:
+                checkbox_items.append(schema + "-" + table)
+
+                if schema + "-" + table in current_basket:
+                    checkbox_active.append(schema + "-" + table)
+
+            checkbox_col = html.Div(
+                children=dcc.Checklist(
+                    checkbox_items,
+                    value=checkbox_active,
+                    id={
+                        "type": 'shopping_checklist',
+                        "index": schema
                     },
-                    className = "shopping_checkbox",
-                    style = ss.CHECKBOX_STYLE
-                    ), 
-            id= {
-                    "type":'checkbox_col',
-                    "index" : schema
+                    className="shopping_checkbox",
+                    style=ss.CHECKBOX_STYLE
+                ),
+                id={
+                    "type": 'checkbox_col',
+                    "index": schema
                 },
             )
 

@@ -227,11 +227,24 @@ def update_schema_description(source):
     else:
 
         #print(all_query)
-        r = es.search(index="index_spine", body={"query" : {"match_all" : {}}}, size = 1000)
+        r = es.search(index="index_spine", body={"query" : {"match_all" : {}}}, size = 5000)
+
+        # Sources currently available from the API
+        active_sources = set(source_info["source"])
 
         search_results = []
+
         for hit in r["hits"]["hits"]:
-            search_results.append({key: hit["_source"][key] for key in ["source", "source_name", "Aims"]})
+            source = hit["_source"]["source"]
+
+            # Only include sources that still exist in the API
+            if source in active_sources:
+                search_results.append({
+                    key: hit["_source"][key]
+                    for key in ["source", "source_name", "Aims"]
+                })
+
+
         if len(search_results) >0:
             info = pd.DataFrame(search_results).drop_duplicates(subset=["source"])
             search_results = struct.sources_list(app, info, "main_search")
@@ -933,16 +946,85 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
             }
         }
 
-    r1 = es.search(index="index_spine", body=all_query, size = 1000)
+    r1 = es.search(index="index_spine", body=all_query, size=5000)
 
-    sidebar_results = []
-    for hit in r1["hits"]["hits"]:
-        #print(hit)
-        sidebar_results.append({key: hit["_source"][key] for key in ["source", "source_name", "table", "table_name", "Type"]})
-    if len(sidebar_results) == len(spine):
-        sidebar_text= "Showing full catalogue"
+    # Active datasets from the API
+    active_dataset_ids = set(
+        zip(datasets_df["source"], datasets_df["table"])
+    )
+
+    # ---------------------------------------------------------
+    # 1. Get ALL Elasticsearch datasets.
+    #    This establishes the Elasticsearch catalogue baseline.
+    # ---------------------------------------------------------
+    all_es_query = {
+        "query": {
+            "match_all": {}
+        }
+    }
+
+    all_es = es.search(
+        index="index_spine",
+        body=all_es_query,
+        size=2000
+    )
+
+    # Only count ES datasets that are also active in the API.
+    # This removes stale ES records from the baseline.
+    all_active_es_ids = {
+        (hit["_source"]["source"], hit["_source"]["table"])
+        for hit in all_es["hits"]["hits"]
+        if (
+            hit["_source"]["source"],
+            hit["_source"]["table"]
+        ) in active_dataset_ids
+    }
+
+    # ---------------------------------------------------------
+    # 2. Get the active datasets returned by the user's search
+    # ---------------------------------------------------------
+    filtered_active_es_ids = {
+        (hit["_source"]["source"], hit["_source"]["table"])
+        for hit in r1["hits"]["hits"]
+        if (
+            hit["_source"]["source"],
+            hit["_source"]["table"]
+        ) in active_dataset_ids
+    }
+
+    # ---------------------------------------------------------
+    # 3. Calculate ONLY datasets hidden by the search filters
+    # ---------------------------------------------------------
+    hidden_count = len(all_active_es_ids - filtered_active_es_ids)
+
+    if hidden_count > 0:
+        sidebar_text = "Hiding {} datasets from search filters".format(
+            hidden_count
+        )
     else:
-        sidebar_text = "Hiding {} datasets from search filters".format(len(spine) - len(sidebar_results))
+        sidebar_text = "Showing full catalogue"
+
+    # ---------------------------------------------------------
+    # 4. Build sidebar results, silently excluding stale ES data
+    # ---------------------------------------------------------
+    sidebar_results = []
+
+    for hit in r1["hits"]["hits"]:
+
+        source = hit["_source"]["source"]
+        table = hit["_source"]["table"]
+
+        if (source, table) in active_dataset_ids:
+            sidebar_results.append({
+                key: hit["_source"][key]
+                for key in [
+                    "source",
+                    "source_name",
+                    "table",
+                    "table_name",
+                    "Type"
+                ]
+            })
 
     toggle_values_style = {"display" : "none"}
 
@@ -1271,7 +1353,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = False)
+    app.run_server(port=8888, debug = True)
 
 
 '''
