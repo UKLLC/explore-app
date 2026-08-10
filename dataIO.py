@@ -74,7 +74,6 @@ def get_dataset_versions():
 def get_variables(source = "none", table_name = "none"):
     url = API_BASE + f"variable-by-dataset/{source}/{table_name}"
     r = requests.get(url, headers={"access-token": API_KEY})
-    print(r)
     r.raise_for_status() 
     data = r.json()
     df = pd.DataFrame(data)
