@@ -13,11 +13,13 @@ def get_sources():
     r.raise_for_status() 
     data = r.json()
     df = pd.DataFrame(data)
+    # filter to active sources only
+    df = df[df["active"] == 1]
+    # convert to match old format (temp step)
     df = df.rename(columns={
         'source_type': 'Type'
     })
     return df
-
 
 def get_datasets():
     url = API_BASE + "all-datasets/"
@@ -25,6 +27,8 @@ def get_datasets():
     r.raise_for_status() 
     data = r.json()
     df = pd.DataFrame(data)
+    # filter to active datasets only
+    df = df[df["is_active"] == True]
 
     # convert to match old format (temp step)
     cols_to_drop = [
@@ -70,7 +74,6 @@ def get_dataset_versions():
 def get_variables(source = "none", table_name = "none"):
     url = API_BASE + f"variable-by-dataset/{source}/{table_name}"
     r = requests.get(url, headers={"access-token": API_KEY})
-    print(r)
     r.raise_for_status() 
     data = r.json()
     df = pd.DataFrame(data)
@@ -138,6 +141,15 @@ def get_dataset_age(source_name = "none", dataset_name = "none"):
     data = r.json()
     df = pd.DataFrame(data)
 
+    # filter to latest version of each dataset
+    version = get_dataset_versions()
+    # keep latest version for each dataset
+    version = version.sort_values(by = ["dataset_id", "version_num"], ascending = [True, False]).drop_duplicates(subset = ["dataset_id"], keep = "first")
+    # merge ages with versions to act as filter for latest version
+    df = pd.merge(df, version, how = "inner", on = ["dataset_version_id", "dataset_id"])
+    # drop version columns
+    df = df.drop(columns = ["version_date", "version_num"]) 
+
     if source_name == "none" and dataset_name == "none":
         return df
     elif source_name == "none":
@@ -157,12 +169,15 @@ def get_labels(table_id):
     r.raise_for_status() 
     data = r.json()
     df = pd.DataFrame(data)
+    print(df.columns)
     # remove ID columns
     cols_to_drop = [
         'index',
         'dataset_version_id',
         'dataset_id',
-        'data_source_id'
+        'data_source_id',
+        'variable_definition_id',
+        'value_definition_id'
     ]
     df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
     # rename to match expected format
@@ -172,6 +187,7 @@ def get_labels(table_id):
         "value": "Value",
         "value_label": "Value Description"
     })
+    print(df.columns)
     if "Variable Name" in df.columns:
         df = df.sort_values(by="Variable Name", ignore_index=True)
     else:
@@ -250,5 +266,4 @@ def load_geojson():
     with open(os.path.join("assets","map overlays","regions.geojson"), 'r') as f:
         gj = json.load(f)
     return gj
-
 

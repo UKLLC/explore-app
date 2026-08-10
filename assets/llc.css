@@ -1402,3 +1402,107 @@ h1 {padding-left: 1rem;}
   }
 
   #offcanvas_review {overflow-y: scroll;}
+
+/* UKREACH SPECIFIC STYLES */
+.ukreach-checkbox-col {
+    width: 2rem;
+    min-width: 2rem;
+    position: relative;
+    left: -2.5rem;
+    z-index: 3;
+}
+
+/* Individual information icon container */
+.ukreach-info-icon-container {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Information icon */
+.ukreach-info-icon {
+    position: relative;
+    display: inline-flex;
+    width: 1rem;
+    height: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    border: 0.1rem solid #373B3E;
+    border-radius: 50%;
+
+    color: #373B3E;
+    cursor: help;
+}
+
+.ukreach-info-letter {
+    font-family: Arial, sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* Tooltip */
+.ukreach-info-icon::after {
+    content: attr(data-tooltip);
+
+    position: absolute;
+    right: calc(100% + 0.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: max-content;
+    max-width: 15vw;
+
+    padding: 0.25rem 0.5rem;
+
+    color: black;
+    background-color: white;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    line-height: 1.25;
+    text-align: center;
+
+    border-radius: 0.25rem;
+
+    box-shadow:
+        0 2px 4px 0 rgba(0, 0, 0, 0.2),
+        0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 1080;
+
+    transition: opacity 0.15s ease-in-out;
+}
+
+/* Tooltip arrow */
+.ukreach-info-icon::before {
+    content: "";
+
+    position: absolute;
+    right: calc(100% + 0.1rem);
+    top: 50%;
+    transform: translateY(-50%);
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 1081;
+
+    transition: opacity 0.15s ease-in-out;
+}
+
+/* Show tooltip */
+.ukreach-info-icon:hover::after,
+.ukreach-info-icon:hover::before {
+    opacity: 0.9;
+    visibility: visible;
+}
