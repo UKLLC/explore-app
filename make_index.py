@@ -22,6 +22,7 @@ def searchbox_connect():
     )
     return es
 
+
 def prep_search_data():
     # get all sources
     sources = dataIO.get_sources()
@@ -112,11 +113,14 @@ def prep_search_data():
     data["table_name"] = data["table_name"].fillna(" ")
     return data
 
+
 def variable(data):
 
     with open("var_index_name.json", "r") as f:
         previous_index_name = json.load(f)["name"]
     print("Previous var name:\n",previous_index_name)
+
+
 
     mapping = {
         "mappings" : {
@@ -172,14 +176,34 @@ def variable(data):
                 "_source": doc
             }
 
+    expected = len(filtered)
+
     print(f"Indexing {len(filtered):,} variable records...")
 
-    helpers.bulk(
+    success, failed = helpers.bulk(
         es,
         generate_docs(),
         chunk_size=1000,
-        request_timeout=120
+        request_timeout=120,
+        max_retries=3,
+        initial_backoff=2,
+        max_backoff=30,
+        raise_on_error=False
     )
+
+    print(f"Expected: {expected:,}")
+    print(f"Successfully indexed: {success:,}")
+    print(f"Failed: {len(failed):,}")
+
+    if failed or success != expected:
+        if failed:
+            print("First failure:")
+            print(failed[0])
+
+        raise RuntimeError(
+            f"Variable index incomplete: expected {expected:,}, "
+            f"indexed {success:,}, failed {len(failed):,}"
+        )
 
     # Re-enable refreshes
     es.indices.put_settings(
@@ -257,7 +281,7 @@ def spine(data):
     es.indices.delete(index = previous_index_name)
 
 def main():
-    
+
     data = prep_search_data()
 
     try:
