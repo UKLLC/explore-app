@@ -1483,3 +1483,21 @@ def create_harmony_link(metadata_df: pd.DataFrame, instrument_title: str):
             return url
         else:
             return None
+
+def get_grouped_dataset_ids(dataset, datasets_df): 
+    grouped_datasets = constants.GROUPED_DATASETS.get(dataset, set()) 
+ 
+    grouped_ids = set() 
+ 
+    for grouped_dataset in grouped_datasets: 
+        matches = datasets_df.loc[ 
+            datasets_df["table"] == grouped_dataset, 
+            ["source", "table"] 
+        ] 
+ 
+        for _, row in matches.iterrows(): 
+            grouped_ids.add( 
+                row["source"] + "-" + row["table"] 
+            ) 
+
+    return grouped_ids

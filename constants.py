@@ -64,3 +64,11 @@ BLOCK_TABLE_VARS = {"table": "Dataset ID", "table_name":"Dataset Name", "short_d
 #     "MHSDS": "",
 #     "IAPT": ""
 # }
+
+GROUPED_DATASETS = {
+    "MHSDS": {"MHSDS", "MHMDS", "MHDLLS"},
+    "MHMDS": {"MHSDS", "MHMDS", "MHDLLS"},
+    "MHDLLS": {"MHSDS", "MHMDS", "MHDLLS"},
+    "IAPT": {"IAPT", "IAPT_v1_5"},
+    "IAPT_v1_5": {"IAPT", "IAPT_v1_5"},
+}

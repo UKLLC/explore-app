@@ -21,6 +21,7 @@ import base64
 import dataIO
 import structures as struct
 import naming_functions
+import constants
 
 import time
 
@@ -165,7 +166,24 @@ hidden_body = struct.make_hidden_body(source_info, dataset_counts)
 
 ###########################################
 ### Layout
-app.layout = struct.make_app_layout(titlebar, maindiv, account_section, [schema_record, table_record, current_tab, shopping_basket_op, open_schemas, hidden_body, user, save_clicks, placeholder], dcc.Location(id='url', refresh=False),)
+app.layout = struct.make_app_layout(
+    titlebar,
+    maindiv,
+    account_section,
+    [
+        schema_record,
+        table_record,
+        current_tab,
+        shopping_basket_op,
+        open_schemas,
+        hidden_body,
+        user,
+        save_clicks,
+        placeholder,
+        dcc.Store(id="sidebar_results_store"),
+    ],
+    dcc.Location(id='url', refresh=False),
+)
 print("---------------------\nBuilt app layout\n----------------------")
 ###########################################
 ### Actions
@@ -759,6 +777,7 @@ def sidebar_table(tables, active_cell, data):
 
 @app.callback(
     Output("sidebar_list_div", "children"),
+    Output("sidebar_results_store", "data"),
     Output("search_metadata_div", "children"),
     Output("search_text", "children"),
     Output("sidebar_filter", "children"),
@@ -1208,9 +1227,54 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         sidebar_results_df = pd.DataFrame(data = {"source": [], "source_name" :[], "table": [], "table_name": [], "Type":[]})
 
     print(toggle_values_style)
-    return struct.build_sidebar_list(sidebar_results_df, shopping_basket, collapse_state, table), search_results_table, search_text, sidebar_text, toggle_values_style
+    return (
+    struct.build_sidebar_list(
+        sidebar_results_df,
+        shopping_basket,
+        collapse_state,
+        table
+    ),
+    sidebar_results_df.to_dict("records"),
+    search_results_table,
+    search_text,
+    sidebar_text,
+    toggle_values_style
+)
 
+@app.callback(
+    Output("sidebar_list_div", "children", allow_duplicate=True),
+    Input("shopping_basket", "data"),
+    State("sidebar_results_store", "data"),
+    State({'type': 'source_collapse', 'index': ALL}, 'id'),
+    State({'type': 'source_collapse', 'index': ALL}, 'is_open'),
+    State("active_dataset", "data"),
+    prevent_initial_call=True
+)
+def refresh_sidebar(
+    shopping_basket,
+    sidebar_results,
+    screen_schemas,
+    open_schemas,
+    table
+):
 
+    if sidebar_results is None:
+        raise PreventUpdate
+
+    # Get the CURRENT collapse state from the sidebar
+    collapse_state = {}
+
+    for sch, open in zip(screen_schemas, open_schemas):
+        collapse_state[sch["index"]] = open
+
+    sidebar_results_df = pd.DataFrame(sidebar_results)
+
+    return struct.build_sidebar_list(
+        sidebar_results_df,
+        shopping_basket,
+        collapse_state,
+        table
+    )
 
 @app.callback(
     Output('shopping_basket','data'),
@@ -1261,29 +1325,103 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
         else:
             raise PreventUpdate
 
-    else: # if triggered by checkboxes
-        if len(dash.ctx.triggered_prop_ids) == 1: # if this is triggered by a change in only 1 checkbox group
-            # We don't want to update if the callback is triggered by a sidebar refresh
-            # Only update if only 1 checkbox has changed
+    else:  # if triggered by checkboxes
+
+        if len(dash.ctx.triggered_prop_ids) == 1:
+
             checked = []
             for i in selected:
                 checked += i
+
             difference1 = list(set(shopping_basket) - set(checked))
             difference2 = list(set(checked) - set(shopping_basket))
             difference = difference1 + difference2
-            if len(difference) == 1: # avoid updating unless caused by a click on a checkbox (search could otherwise trigger this)
+
+            if len(difference) == 1:
+
                 new_item = difference[0]
-                if new_item in shopping_basket:
-                    shopping_basket.remove(new_item)
+
+                new_shopping_basket = shopping_basket.copy()
+
+                if new_item in new_shopping_basket:
+
+                    # User has deselected the dataset
+
+                    # Get the dataset name from source-table
+                    schema, dataset = new_item.split("-", 1)
+
+                    # Get all linked datasets
+                    grouped_ids = struct.get_grouped_dataset_ids(
+                        dataset,
+                        datasets_df
+                    )
+
+                    # Include the dataset that was actually clicked
+                    grouped_ids.add(new_item)
+
+                    print("\n--- SHOPPING CART GROUP DEBUG ---")
+                    print("Deselected item:", repr(new_item))
+                    print("Dataset:", repr(dataset))
+                    print("Current basket:", shopping_basket)
+                    print("Grouped IDs:", grouped_ids)
+
+                    # Remove the whole linked group
+                    new_shopping_basket = [
+                        item for item in new_shopping_basket
+                        if item not in grouped_ids
+                    ]
+
                 else:
-                    shopping_basket.append(new_item)
-                return shopping_basket, dash.no_update, "("+ str(len(shopping_basket))+")"
-            elif len(difference1) > 0 and len(difference2) == 1:# Case: we are in a search (hiding checked boxes) and added a new item
+
+                    # User has selected the dataset
+                    new_shopping_basket.append(new_item)
+
+                    # Get the dataset name from source-table
+                    schema, dataset = new_item.split("-", 1)
+
+                    # Add linked datasets
+                    grouped_ids = struct.get_grouped_dataset_ids(
+                        dataset,
+                        datasets_df
+                    )
+
+                    print("\n--- SHOPPING CART GROUP DEBUG ---")
+                    print("New item:", repr(new_item))
+                    print("Dataset:", repr(dataset))
+                    print("Current basket:", shopping_basket)
+                    print("Grouped IDs:", grouped_ids)
+
+                    for grouped_id in grouped_ids:
+                        if grouped_id not in new_shopping_basket:
+                            new_shopping_basket.append(grouped_id)
+
+                print("Final basket:", new_shopping_basket)
+
+                return (
+                    new_shopping_basket,
+                    dash.no_update,
+                    "(" + str(len(new_shopping_basket)) + ")"
+                )
+
+            elif len(difference1) > 0 and len(difference2) == 1:
+
+                # Case: we are in a search (hiding checked boxes)
+                # and added a new item
+
                 new_item = difference2[0]
-                shopping_basket.append(new_item)
-                return shopping_basket, dash.no_update, "("+ str(len(shopping_basket))+")"
+
+                new_shopping_basket = shopping_basket.copy()
+                new_shopping_basket.append(new_item)
+
+                return (
+                    new_shopping_basket,
+                    dash.no_update,
+                    "(" + str(len(new_shopping_basket)) + ")"
+                )
+
             else:
                 raise PreventUpdate
+
         else:
             raise PreventUpdate
 
