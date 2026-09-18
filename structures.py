@@ -155,28 +155,63 @@ def build_sidebar_list(blocks_df, current_basket=[], sch_open=[], tab_open="None
         # Build one row per dataset so that the checkbox / discovery
         # icon aligns with the corresponding table tab.
 
-        checkbox_rows = []
+        # CHECKBOXES
+        selectable_datasets = []
+        selected_datasets = []
+        discovery_rows = []
 
-        for table in tables:
+        for row_number, table in enumerate(tables):
 
             dataset_id = schema + "-" + table
 
-            # Check discovery_only for this specific dataset
             discovery_only = blocks_df.loc[
                 (blocks_df["source"] == schema) &
                 (blocks_df["table"] == table),
                 "discovery_only"
             ].fillna(False).any()
 
+            # Keep every dataset in the checklist so that the
+            # checklist has exactly the same number of rows as the tabs.
+            selectable_datasets.append(dataset_id)
+
             if discovery_only:
 
-                # Discovery-only dataset: show info icon
-                checkbox_control = html.Div(
+                discovery_rows.append(row_number)
+
+            elif dataset_id in current_basket:
+
+                selected_datasets.append(dataset_id)
+
+
+        # ONE checklist for this source
+        shopping_checklist = dcc.Checklist(
+            options=[
+                {
+                    "label": dataset_id,
+                    "value": dataset_id,
+                    "disabled": row_number in discovery_rows
+                }
+                for row_number, dataset_id in enumerate(selectable_datasets)
+            ],
+            value=selected_datasets,
+            id={
+                "type": "shopping_checklist",
+                "index": schema
+            },
+            className="shopping_checkbox",
+            style=ss.CHECKBOX_STYLE
+        )
+
+
+        # Discovery-only information icons
+        discovery_icons = []
+
+        for row_number in discovery_rows:
+
+            discovery_icons.append(
+                html.Div(
                     html.Span(
-                        html.Span(
-                            "i",
-                            className="disc_only-info-letter"
-                        ),
+                        "i",
                         className="disc_only-info-icon",
                         **{
                             "data-tooltip": (
@@ -186,41 +221,28 @@ def build_sidebar_list(blocks_df, current_basket=[], sch_open=[], tab_open="None
                         },
                     ),
                     className="disc_only-info-icon-container",
-                )
-
-            else:
-
-                # Normal selectable dataset
-                checkbox_control = dcc.Checklist(
-                    options=[dataset_id],
-                    value=(
-                        [dataset_id]
-                        if dataset_id in current_basket
-                        else []
-                    ),
-                    id={
-                        "type": "shopping_checklist",
-                        "index": dataset_id
+                    style={
+                        "position": "absolute",
+                        "top": f"{row_number * 2}rem",
+                        "left": "0",
                     },
-                    className="shopping_checkbox",
-                    style=ss.CHECKBOX_STYLE
-                )
-
-            checkbox_rows.append(
-                html.Div(
-                    checkbox_control,
-                    className="sidebar_checkbox_row"
                 )
             )
 
+
         checkbox_col = html.Div(
-            checkbox_rows,
+            [
+                shopping_checklist,
+                *discovery_icons
+            ],
             className="disc_only-checkbox-col",
             id={
                 "type": "checkbox_col",
                 "index": schema,
             },
         )
+
+
 
         # SCHEMA
         source = html.Div(

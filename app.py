@@ -1288,6 +1288,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     State("active_dataset", "data"),
     prevent_initial_call=True
 )
+
 def refresh_sidebar(
     shopping_basket,
     sidebar_results,
@@ -1325,6 +1326,7 @@ def refresh_sidebar(
     State('search_button', "n_clicks"),
     prevent_initial_call=True
     )
+
 def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
     '''
     When the value of the shopping checklist changes
@@ -1366,6 +1368,7 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
     else:  # if triggered by checkboxes
 
         if len(dash.ctx.triggered_prop_ids) == 1:
+            print("Number of checklist components:", len(selected))
 
             checked = []
             for i in selected:
@@ -1397,11 +1400,11 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
                     # Include the dataset that was actually clicked
                     grouped_ids.add(new_item)
 
-                    print("\n--- SHOPPING CART GROUP DEBUG ---")
-                    print("Deselected item:", repr(new_item))
-                    print("Dataset:", repr(dataset))
-                    print("Current basket:", shopping_basket)
-                    print("Grouped IDs:", grouped_ids)
+                    # print("\n--- SHOPPING CART GROUP DEBUG ---")
+                    # print("Deselected item:", repr(new_item))
+                    # print("Dataset:", repr(dataset))
+                    # print("Current basket:", shopping_basket)
+                    # print("Grouped IDs:", grouped_ids)
 
                     # Remove the whole linked group
                     new_shopping_basket = [
@@ -1423,17 +1426,17 @@ def shopping_cart(selected, current_data, b1_clicks, shopping_basket, clicks):
                         datasets_df
                     )
 
-                    print("\n--- SHOPPING CART GROUP DEBUG ---")
-                    print("New item:", repr(new_item))
-                    print("Dataset:", repr(dataset))
-                    print("Current basket:", shopping_basket)
-                    print("Grouped IDs:", grouped_ids)
+                    # print("\n--- SHOPPING CART GROUP DEBUG ---")
+                    # print("New item:", repr(new_item))
+                    # print("Dataset:", repr(dataset))
+                    # print("Current basket:", shopping_basket)
+                    # print("Grouped IDs:", grouped_ids)
 
                     for grouped_id in grouped_ids:
                         if grouped_id not in new_shopping_basket:
                             new_shopping_basket.append(grouped_id)
 
-                print("Final basket:", new_shopping_basket)
+                # print("Final basket:", new_shopping_basket)
 
                 return (
                     new_shopping_basket,
@@ -1529,7 +1532,7 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR)
     pd.options.mode.chained_assignment = None
     warnings.simplefilter(action="ignore",category = FutureWarning)
-    app.run_server(port=8888, debug = True)
+    app.run_server(port=8888, debug = False)
 
 
 '''
