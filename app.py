@@ -1221,10 +1221,48 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
         search_results = "ERROR: 786, this shouldn't be reachable ", search_type
 
     if len(sidebar_results) > 0:
+
         sidebar_results_df = pd.DataFrame(sidebar_results)
-        sidebar_results_df = sidebar_results_df[["source", "source_name", "table", "table_name", "Type"]]
+
+        # Add discovery_only from the API metadata
+        sidebar_results_df = sidebar_results_df.merge(
+            datasets_df[
+                ["source", "table", "discovery_only"]
+            ],
+            on=["source", "table"],
+            how="left"
+        )
+
+        # Treat missing values as not discovery-only
+        sidebar_results_df["discovery_only"] = (
+            sidebar_results_df["discovery_only"]
+            .fillna(False)
+            .astype(bool)
+        )
+
+        sidebar_results_df = sidebar_results_df[
+            [
+                "source",
+                "source_name",
+                "table",
+                "table_name",
+                "Type",
+                "discovery_only"
+            ]
+        ]
+
     else:
-        sidebar_results_df = pd.DataFrame(data = {"source": [], "source_name" :[], "table": [], "table_name": [], "Type":[]})
+
+        sidebar_results_df = pd.DataFrame(
+            data={
+                "source": [],
+                "source_name": [],
+                "table": [],
+                "table_name": [],
+                "Type": [],
+                "discovery_only": []
+            }
+        )
 
     print(toggle_values_style)
     return (
@@ -1236,7 +1274,7 @@ def main_search(click, enter, s, include_dropdown, exclude_dropdown, cl_1, age_s
     ),
     sidebar_results_df.to_dict("records"),
     search_results_table,
-    search_text,
+    search_text,    
     sidebar_text,
     toggle_values_style
 )

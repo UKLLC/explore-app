@@ -100,179 +100,227 @@ def main_titlebar(app, title_text):
     )
     return titlebar
 
-def build_sidebar_list(blocks_df, current_basket = [], sch_open =[], tab_open = "None"):
+def build_sidebar_list(blocks_df, current_basket=[], sch_open=[], tab_open="None"):
     sidebar_children = []
+
     # Get data sources
     sources = blocks_df["source"].drop_duplicates().sort_values()
+
     # Attribute tables to each study
     for schema in sources:
-        source_name = blocks_df.loc[blocks_df["source"] == schema]["source_name"].values[0]
-        tables = blocks_df.loc[blocks_df["source"] == schema]["table"].sort_values(key=lambda col: col.str.lower())
-        table_names = blocks_df.loc[blocks_df["source"] == schema]["table_name"]
-        table_type = blocks_df.loc[blocks_df["source"] == schema]["Type"].values[0]
+
+        source_name = blocks_df.loc[
+            blocks_df["source"] == schema
+        ]["source_name"].values[0]
+
+        tables = blocks_df.loc[
+            blocks_df["source"] == schema
+        ]["table"].sort_values(
+            key=lambda col: col.str.lower()
+        )
+
+        table_names = blocks_df.loc[
+            blocks_df["source"] == schema
+        ]["table_name"]
+
+        table_type = blocks_df.loc[
+            blocks_df["source"] == schema
+        ]["Type"].values[0]
 
         if table_type.lower() == "lps":
             style_classname = "LPS_accordion"
             collapse_style_classname = "LPS_collpase"
+
         elif table_type.lower() == "linked":
             style_classname = "linked_accordion"
             collapse_style_classname = "linked_collpase"
 
         collapse_open = False
+
         if schema in sch_open and sch_open[schema] == True:
             collapse_open = True
 
         # Tooltip
         source_tooltip = dbc.Tooltip(
             source_name,
-            delay = {"show" : 50, "hide":0},
-            target= {
-                    "type":'button_text',
-                    "index" : schema
-                },
+            delay={"show": 50, "hide": 0},
+            target={
+                "type": "button_text",
+                "index": schema
+            },
             placement="right",
         )
 
         # CHECKBOXES
-        # filter with SABRE embargoed tables
-        if schema == "UKREACH":
-            checkbox_col = html.Div(
-                [
-                    html.Div(
+        # Build one row per dataset so that the checkbox / discovery
+        # icon aligns with the corresponding table tab.
+
+        checkbox_rows = []
+
+        for table in tables:
+
+            dataset_id = schema + "-" + table
+
+            # Check discovery_only for this specific dataset
+            discovery_only = blocks_df.loc[
+                (blocks_df["source"] == schema) &
+                (blocks_df["table"] == table),
+                "discovery_only"
+            ].fillna(False).any()
+
+            if discovery_only:
+
+                # Discovery-only dataset: show info icon
+                checkbox_control = html.Div(
+                    html.Span(
                         html.Span(
-                            html.Span("i", className="ukreach-info-letter"),
-                            className="ukreach-info-icon",
-                            **{
-                                "data-tooltip": (
-                                    "These datasets are available for discovery "
-                                    "but cannot be added to a selection."
-                                )
-                            },
+                            "i",
+                            className="disc_only-info-letter"
                         ),
-                        className="ukreach-info-icon-container",
-                    )
-                    for table in tables
-                ],
-                className="ukreach-checkbox-col",
-                id={
-                    "type": "checkbox_col",
-                    "index": schema,
-                },
-            )
-        else:
-            checkbox_items = []
-            checkbox_active = []
+                        className="disc_only-info-icon",
+                        **{
+                            "data-tooltip": (
+                                "This dataset is available for discovery "
+                                "but cannot be added to a selection."
+                            )
+                        },
+                    ),
+                    className="disc_only-info-icon-container",
+                )
 
-            for table in tables:
-                checkbox_items.append(schema + "-" + table)
+            else:
 
-                if schema + "-" + table in current_basket:
-                    checkbox_active.append(schema + "-" + table)
-
-            checkbox_col = html.Div(
-                children=dcc.Checklist(
-                    checkbox_items,
-                    value=checkbox_active,
+                # Normal selectable dataset
+                checkbox_control = dcc.Checklist(
+                    options=[dataset_id],
+                    value=(
+                        [dataset_id]
+                        if dataset_id in current_basket
+                        else []
+                    ),
                     id={
-                        "type": 'shopping_checklist',
-                        "index": schema
+                        "type": "shopping_checklist",
+                        "index": dataset_id
                     },
                     className="shopping_checkbox",
                     style=ss.CHECKBOX_STYLE
-                ),
-                id={
-                    "type": 'checkbox_col',
-                    "index": schema
-                },
+                )
+
+            checkbox_rows.append(
+                html.Div(
+                    checkbox_control,
+                    className="sidebar_checkbox_row"
+                )
             )
 
+        checkbox_col = html.Div(
+            checkbox_rows,
+            className="disc_only-checkbox-col",
+            id={
+                "type": "checkbox_col",
+                "index": schema,
+            },
+        )
+
         # SCHEMA
-        source = html.Div([
-            html.Div(
-                [
-                html.Div (
+        source = html.Div(
+            [
+                html.Div(
                     [
-                    html.Div(
-                        [html.Div(
-                            schema, 
-                            id = {
-                            "type":'button_text',
-                            "index" : schema},
-                            className = "button_text"
-                            ),
+                        html.Div(
+                            [
+                                html.Div(
+                                    [
+                                        html.Div(
+                                            schema,
+                                            id={
+                                                "type": "button_text",
+                                                "index": schema
+                                            },
+                                            className="button_text"
+                                        ),
+                                    ],
+                                    id={
+                                        "type": "source_title",
+                                        "index": schema
+                                    },
+                                    className="source_title",
+                                    n_clicks=0
+                                ),
+
+                                html.Button(
+                                    "",
+                                    id={
+                                        "type": "source_collapse_button",
+                                        "index": schema
+                                    },
+                                    className="source_collapse_button"
+                                )
                             ],
-                        id= {
-                            "type":'source_title',
-                            "index" : schema
-                        },
-                        className = "source_title",
-                        n_clicks = 0
-                    ),
-                    html.Button(
-                        "",
-                        id= {
-                            "type":'source_collapse_button',
-                            "index" : schema
-                        },
-                        className = "source_collapse_button"
-                    )                
+                            className="row_layout"
+                        )
                     ],
-                    className = "row_layout"
-                )
-                ],
-                className = "collapse-button"
-            ),
-        ],
-        className = style_classname
+                    className="collapse-button"
+                ),
+            ],
+            className=style_classname
         )
 
         # TABLES
-        table = dbc.Collapse([
-            html.Div(children = [  
-                dcc.Tabs(
-                id={
-                    'type': 'table_tabs',
-                    'index': schema
-                },
-                vertical=True,
-                value= "None", #by default, otherwise app_state.table
-                parent_className='custom-tabs',
-                className = "table_tabs_container",
-                children = [
-                    
-                    dcc.Tab(
-                        label = table,
-                        value = schema+"-"+table,
-                        id={
-                            'type': 'sidebar_table_item',
-                            'index': schema+"-"+table
-                        },
-                        className = "table_tab",
-                        selected_className="table_tab--selected"
-                    )
-                    for table in tables
+        table = dbc.Collapse(
+            [
+                html.Div(
+                    children=[
+                        dcc.Tabs(
+                            id={
+                                "type": "table_tabs",
+                                "index": schema
+                            },
+                            vertical=True,
+                            value="None",
+                            parent_className="custom-tabs",
+                            className="table_tabs_container",
+                            children=[
+                                dcc.Tab(
+                                    label=table,
+                                    value=schema + "-" + table,
+                                    id={
+                                        "type": "sidebar_table_item",
+                                        "index": schema + "-" + table
+                                    },
+                                    className="table_tab",
+                                    selected_className="table_tab--selected"
+                                )
+                                for table in tables
+                            ],
+                        ),
+
+                        checkbox_col
+
                     ],
-                ),
-                checkbox_col  
-                ],
-                className = "list_and_checkbox_div"
+                    className="list_and_checkbox_div"
                 ),
             ],
-            id= {
-                "type":'source_collapse',
-                "index" : schema
-                },
-            className = collapse_style_classname,
-            is_open = collapse_open
-            )
+            id={
+                "type": "source_collapse",
+                "index": schema
+            },
+            className=collapse_style_classname,
+            is_open=collapse_open
+        )
 
-        sidebar_children += [source, source_tooltip, table]
+        sidebar_children += [
+            source,
+            source_tooltip,
+            table
+        ]
 
     study_list = html.Div(
         sidebar_children,
-        id='schema_accordion',
-        className= "content_accordion",
-        )
+        id="schema_accordion",
+        className="content_accordion",
+    )
+
     return study_list
 
 
